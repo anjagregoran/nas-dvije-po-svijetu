@@ -86,7 +86,7 @@
       var p = ((j.query || {}).pages || [])[0];
       if (!p || p.missing || !p.extract) return false;
       var c = p.coordinates && p.coordinates[0];
-      document.title = p.title + ' · Putokaz';
+      document.title = p.title + ' · Nas dvije po svijetu';
       app.innerHTML = curated(q || p.title) +
         '<header class="hero left" style="padding-top:26px"><span class="label">Uživo s Wikipedije' + (lang === 'en' ? ' · na engleskom' : '') + '</span>' +
         '<h1 style="font-size:clamp(2.6rem,11vw,5rem)">' + esc(p.title) + '</h1>' +

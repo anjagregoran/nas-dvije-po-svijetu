@@ -51,7 +51,7 @@ window.ATLAS["francuska-polinezija"] = {
     "Natjecanje u surfanju na Olimpijskim igrama u Parizu 2024. održano je na Tahitiju, na valu Teahupo'o, oko 15 000 kilometara od grada domaćina.",
     "Sveto mjesto Taputapuātea na otoku Raiatea, odakle su prema predaji polazili kanui prema Havajima i Novom Zelandu, na UNESCO-ovu je popisu svjetske baštine od 2017.",
     "U tahićanskom jeziku nema glasa b, pa se Bora Bora izvorno zove Pora Pora, što se tumači kao prvorođena.",
-    "Mnoge kuće uz cestu imaju dugačak poštanski sandučić koji ne služi za pisma nego za svakodnevnu dostavu svježeg bageta.",
+    "Mnoge kuće uz cestu imaju dugačak sandučić u koji se svakog jutra dostavlja svježi baget.",
     "Slikar Paul Gauguin stigao je na Tahiti 1891., a umro je 1903. na otoku Hiva Oa u Markižanskom otočju, gdje je i pokopan."
   ],
   mjesta: [
@@ -66,7 +66,7 @@ window.ATLAS["francuska-polinezija"] = {
       ],
       vidjeti: [
         { ime: "Tržnica u Papeeteu", opis: "Natkrivena tržnica na dva kata srce je grada. U prizemlju su riba, voće, cvijeće i gotova jela, a na katu rukotvorine, pareo i mirisna ulja. Najživlje je nedjeljom u zoru, kada obitelji kupuju sve za nedjeljnu gozbu, a do devet sati većina je štandova već prazna." },
-        { ime: "Muzej Tahitija i otokâ", opis: "Muzej u mjestu Punaauia, na tahićanskom Te Fare Iamanaha, nedavno je temeljito obnovljen i najbolji je uvod u polinezijsku kulturu. Tražite kipove tiki, opremu za plovidbu i odjeću ožalošćenog od sedefa i perja, kakvu su crtali Cookovi suputnici." },
+        { ime: "Muzej Tahitija i otokâ", opis: "Muzej u mjestu Punaauia, na tahićanskom Te Fare Iamanaha, nedavno je temeljito obnovljen i najbolji je uvod u polinezijsku kulturu. Tražite kipove tiki, opremu za plovidbu i žalobnu nošnju od sedefa i perja, kakvu su crtali Cookovi suputnici." },
         { ime: "Rt Vénus", opis: "S ove plaže od crnog pijeska James Cook je 1769. promatrao prolazak Venere ispred Sunca, mjerenje kojim se trebala izračunati udaljenost Zemlje od Sunca. Ovdje su pristali i Wallis, posada broda Bounty te prvi misionari. Bijeli svjetionik potječe iz šezdesetih godina 19. stoljeća." },
         { ime: "Marae Arahurahu", opis: "Obnovljeno svetište u dolini kod mjesta Paea pokazuje kako je izgledao marae: popločeno dvorište, stepenasti kameni oltar i drvene daske s rezbarijama za predake. Na ovakvim mjestima poglavice su se ustoličavali i prinosile su se žrtve bogovima." },
         { ime: "Slapovi Fa'aruma'i", opis: "Na sjeveroistočnoj obali kratka staza kroz šumu vodi do triju slapova, od kojih je prvi, Vaimahuta, visok osamdesetak metara. Legenda ih povezuje s djevojkom koja se ovdje skrivala od ljubomornog boga." },
@@ -129,12 +129,12 @@ window.ATLAS["francuska-polinezija"] = {
       vrsta: "otok",
       sazetak: "Otok u obliku srca sa šiljastim zelenim vrhovima i dva duboka zaljeva, pola sata trajektom od Tahitija, a mnogo mirniji i zeleniji.",
       prica: [
-        "Moorea je ostatak vulkana čija se sjeverna stijenka urušila, pa su nastala dva usporedna zaljeva, Cookov i Ōpūnohu, između kojih stoji planina Rotui. Ime otoka znači žuti gušter i potječe iz legende o jednoj poglavarskoj obitelji.",
+        "Moorea je ostatak vulkana čija se sjeverna stijenka urušila, pa su nastala dva usporedna zaljeva, Cookov i Ōpūnohu, između kojih stoji planina Rotui. Ime otoka znači žuti gušter i potječe iz legende o jednoj poglavičkoj obitelji.",
         "Dolina Ōpūnohu bila je gusto naseljena prije dolaska Europljana i u njoj su pronađeni ostaci stotina kamenih građevina. Početkom 19. stoljeća ovdje su se smjestili protestantski misionari, koji su s Mooree širili kršćanstvo po cijelom Pacifiku i preveli Bibliju na tahićanski. James Cook usidrio se 1777. u zaljevu Ōpūnohu, iako njegovo ime nosi susjedni zaljev."
       ],
       vidjeti: [
         { ime: "Vidikovac Belvédère", opis: "S vidikovca u srcu otoka vide se oba zaljeva odjednom, s planinom Rotui između njih. Cesta do njega vodi kroz plantaže ananasa i pokraj poljoprivredne škole, gdje se prodaju sokovi, džemovi i sladoled od voća koje uzgajaju učenici." },
-        { ime: "Svetišta u dolini Ōpūnohu", opis: "Uz cestu prema vidikovcu, u šumi golemih stabala tahićanskog kestena, nalaze se obnovljena svetišta marae i platforma za streličarstvo. Streličarstvo je bilo sveti sport rezerviran za poglavice, u kojem se gađalo u daljinu, a ne u metu." },
+        { ime: "Svetišta u dolini Ōpūnohu", opis: "Uz cestu prema vidikovcu, u šumi golemih stabala tahićanskog kestena, nalaze se obnovljena svetišta marae i platforma za streličarstvo. Streličarstvo je bilo sveti sport rezerviran za poglavice, u kojem je pobjeđivao onaj čija strijela odleti najdalje." },
         { ime: "Hram u Papetoaiju", opis: "Osmerokutna protestantska crkva sagrađena je dvadesetih godina 19. stoljeća na mjestu svetišta posvećenog bogu rata Oru i smatra se najstarijom europskom građevinom na južnom Pacifiku koja je još u uporabi. Jedan kamen starog svetišta ostavljen je uz crkvu." },
         { ime: "Planina Mou'a Puta", opis: "Vrh s rupom koja se vidi s obale. Legenda kaže da je junak Pai bacio koplje s Tahitija kako bi probudio pijetlove i spriječio boga lopova Hira da noću ukrade planinu Rotui, a koplje je probilo vrh." },
         { ime: "Plaža Temae", opis: "Najveća javna plaža na otoku nalazi se kraj zračne luke, s bijelim pijeskom i koraljima blizu obale. Vikendom ovamo dolaze obitelji s Tahitija s hladnjacima i ukuleleima." },

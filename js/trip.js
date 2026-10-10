@@ -2,7 +2,7 @@
   var T = window.TRIP;
   var app = document.getElementById('app');
   document.getElementById('naslov').textContent = T.naziv;
-  document.title = T.naziv + ' · Putokaz';
+  document.title = T.naziv + ' · Nas dvije po svijetu';
 
   // ---------- pomoćne funkcije ----------
   function esc(s) {

@@ -2,7 +2,7 @@
   var Z = window.ATLAS[window.ZEMLJA_ID];
   var app = document.getElementById('app');
   document.getElementById('naslov').textContent = Z.ime;
-  document.title = Z.ime + ' · Putokaz';
+  document.title = Z.ime + ' · Nas dvije po svijetu';
 
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {

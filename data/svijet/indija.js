@@ -70,7 +70,7 @@ window.ATLAS["indija"] = {
         { ime: "Humayunova grobnica", opis: "Mauzolej drugog mogulskog cara, koji je oko 1570. godine dala podići njegova udovica. Smatra se uzorom za Taj Mahal: obratite pažnju na dvostruku kupolu i vrt podijeljen vodenim kanalima na četiri dijela, koji predstavlja rajski vrt." },
         { ime: "Qutb Minar", opis: "Minaret od crvenog pješčenjaka visok oko 73 metra, čija je gradnja počela krajem 12. stoljeća nakon muslimanskog osvajanja Delhija. U dvorištu stoji željezni stup star oko 1600 godina koji gotovo uopće ne hrđa, što metalurzi objašnjavaju visokim udjelom fosfora." },
         { ime: "Gurudwara Bangla Sahib", opis: "Glavni sikhski hram u gradu, sa zlatnom kupolom i svetim bazenom. U njegovoj se kuhinji svakoga dana besplatno nahrane tisuće ljudi bez obzira na vjeru, a posjetitelji smiju ući i pomoći valjati kruh." },
-        { ime: "India Gate i Rajpath", opis: "Slavoluk visok 42 metra, spomenik indijskim vojnicima poginulima u Prvom svjetskom ratu, dovršen 1931. godine. Stoji na kraju svečane avenije koja vodi do predsjedničke palače, nekadašnje rezidencije britanskog potkralja." }
+        { ime: "India Gate i Kartavya Path", opis: "Slavoluk visok 42 metra, spomenik indijskim vojnicima poginulima u Prvom svjetskom ratu, dovršen 1931. godine. Stoji na kraju svečane avenije koja vodi do predsjedničke palače, nekadašnje rezidencije britanskog potkralja." }
       ],
       jesti: [
         { ime: "Paranthe", opis: "Punjeni prženi kruh s nadjevima od krumpira do banane, koji se već generacijama peče u uličici Paranthe Wali Gali u Starom Delhiju." },

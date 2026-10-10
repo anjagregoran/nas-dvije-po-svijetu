@@ -37,7 +37,7 @@ window.ATLAS["rumunjska"] = {
     { izvorno: "Mulțumesc", izgovor: "mul-cu-MESK", hr: "Hvala" },
     { izvorno: "Vă rog", izgovor: "va ROG", hr: "Molim vas" },
     { izvorno: "Da / Nu", izgovor: "DA / NU", hr: "Da / Ne" },
-    { izvorno: "Cât costă?", izgovor: "kt KOS-ta", hr: "Koliko košta?" },
+    { izvorno: "Cât costă?", izgovor: "kat KOS-ta", hr: "Koliko košta?" },
     { izvorno: "Nota, vă rog", izgovor: "NO-ta va ROG", hr: "Račun, molim" },
     { izvorno: "Noroc!", izgovor: "no-ROK", hr: "Živjeli! (doslovno: sretno)" },
     { izvorno: "La revedere", izgovor: "la re-ve-DE-re", hr: "Doviđenja" }
@@ -145,7 +145,7 @@ window.ATLAS["rumunjska"] = {
       ],
       dozivjeti: [
         { ime: "Međunarodni kazališni festival", opis: "U lipnju se deset dana igra na trgovima, u crkvama i tvorničkim halama, a mnoge su ulične predstave besplatne.", link: "https://www.sibfest.ro/" },
-        { ime: "Sela Mărginimee Sibiului", opis: "U pastirskim selima pod planinom, poput Sibiela s muzejom ikona na staklu, domaćice primaju goste na ručak za zajedničkim stolom." },
+        { ime: "Sela kraja Mărginimea Sibiului", opis: "U pastirskim selima pod planinom, poput Sibiela s muzejom ikona na staklu, domaćice primaju goste na ručak za zajedničkim stolom." },
         { ime: "Transfăgărășan", opis: "Cesta koju je Ceaușescu dao probiti preko Fogaraških planina penje se u serpentinama do ledenjačkog jezera Bâlea na 2034 metra. Otvorena je otprilike od srpnja do listopada." },
         { ime: "Božićni sajam", opis: "Od kraja studenoga Veliki je trg ispunjen kućicama i svjetlima, a sajam se ubraja među najljepše u istočnoj Europi.", link: "https://turism.sibiu.ro/" }
       ],
@@ -202,7 +202,7 @@ window.ATLAS["rumunjska"] = {
         { ime: "Voroneț", opis: "Stjepan ju je 1488. sagradio za tri mjeseca i tri tjedna. Cijeli zapadni zid zauzima Posljednji sud iz 1547., na kojem ognjena rijeka nosi grešnike, a životinje vraćaju dijelove tijela onih koje su pojele. Plava pozadina toliko je posebna da je ušla u rječnik slikara kao voronečka plava." },
         { ime: "Sucevița", opis: "Posljednja i najveća, s kraja 16. stoljeća, okružena je zidinama poput tvrđave. Na sjevernom zidu su Ljestve vrlina, po kojima se monasi penju u nebo, dok ih vragovi povlače dolje. Zapadni zid ostao je prazan, a legenda kaže da je slikar pao sa skele." },
         { ime: "Moldovița", opis: "Na južnom zidu prikazana je opsada Carigrada, na kojoj su napadači naslikani kao Osmanlije s topovima, što je bila jasna politička poruka. Prevladava zlatnožuta boja." },
-        { ime: "Humor", opis: "Mala crkva bez tornja, jer ju je 1530. podigao plemić, a ne knez, poznata je po crvenkastim tonovima. Na Posljednjem sudu vrag je prikazan kao brbljava žena." },
+        { ime: "Humor", opis: "Mala crkva bez tornja, jer ju je 1530. podigao plemić, a ne knez, poznata je po crvenkastim tonovima. Na Posljednjem sudu vrag je prikazan kao žena." },
         { ime: "Putna", opis: "Samostan bez vanjskih fresaka čuva grob Stjepana Velikog i mjesto je hodočašća. U muzeju su vezovi i rukopisi iz 15. stoljeća." }
       ],
       jesti: [

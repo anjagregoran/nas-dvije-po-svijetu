@@ -125,13 +125,18 @@
         html: function () { return '<div class="prose">' + paras(m.prica) + '</div>'; } },
       vidjeti: { t: 'Znamenitosti', s: (m.vidjeti || []).length + ' stvari koje vrijedi vidjeti', on: has(m.vidjeti),
         html: function () { return cards(m.vidjeti); } },
-      hrana: { t: 'Kuhinja i restorani', s: 'Specijaliteti, restorani, tradicionalna jela', on: has(m.jesti) || has(Z.hrana),
+      hrana: { t: 'Kuhinja', s: 'Što se ovdje jede i tradicionalna jela', on: has(m.jesti) || has(Z.hrana),
         html: function () {
-          return (has(m.jesti) ? '<h3 class="group-title" style="margin-top:0">Specijaliteti ovog mjesta</h3>' + cards(m.jesti) : '') +
-            (KO[Z.id + '/' + m.id] ? '<h3 class="group-title">Restorani</h3><div id="rest"></div>' : '') +
-            (has(Z.hrana) ? '<h3 class="group-title">Tradicionalna jela: ' + esc(Z.ime) + '</h3>' + cards(Z.hrana) : '');
+          return (has(m.jesti) ? '<h3 class="group-title" style="margin-top:0">Što se jede u mjestu ' + esc(m.ime) + '</h3>' + cards(m.jesti) : '') +
+            (has(Z.hrana) ? '<h3 class="group-title">Tradicionalna jela i pića: ' + esc(Z.ime) + '</h3>' + cards(Z.hrana) : '') +
+            (KO[Z.id + '/' + m.id] ? '<details class="card" id="restbox" style="margin-top:22px"><summary>Gdje jesti<small>Restorani u središtu i Michelinov vodič</small></summary><div class="inner"><div id="rest"></div></div></details>' : '');
         },
-        after: function () { var c = KO[Z.id + '/' + m.id]; if (c) window.Restorani.load('rest', c[0], c[1], m.ime); } },
+        after: function () {
+          var d = document.getElementById('restbox'), c = KO[Z.id + '/' + m.id];
+          if (d && c) d.addEventListener('toggle', function () {
+            if (d.open && !d.getAttribute('data-loaded')) { d.setAttribute('data-loaded', '1'); window.Restorani.load('rest', c[0], c[1], m.ime); }
+          });
+        } },
       dozivjeti: { t: 'Doživljaji', s: 'Tečajevi, tržnice, vidikovci, večeri', on: has(m.dozivjeti),
         html: function () { return cards(m.dozivjeti); } },
       agencije: { t: 'Agencije i vodiči', s: 'Turistički uredi i provjerene ture', on: has(m.agencije),

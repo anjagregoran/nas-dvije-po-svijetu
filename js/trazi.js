@@ -113,8 +113,9 @@
       '<p class="note" style="max-width:40em">Za ovo mjesto još nemamo vlastiti tekst. Dolje su karta, najbliža mjesta koja vodič već opisuje i znamenitosti u okolici s njihovim službenim stranicama.</p>' +
       (ours ? '<p><a class="btn" href="zemlja.html?z=' + ours[0] + '">Otvori vodič: ' + esc(ours[1]) + '</a></p>' : '') +
       '<div class="map" id="map"></div>' +
-      (big ? '' : '<div class="sec-head" style="margin-top:40px"><h2>Kuhinja i <em>restorani</em></h2></div>' +
-        (ours ? '<p><a class="btn ghost" href="zemlja.html?z=' + ours[0] + '#/o/hrana">Tradicionalna jela: ' + esc(ours[1]) + '</a></p>' : '') + '<div id="rest"></div>') +
+      (ours ? '<div class="sec-head" style="margin-top:40px"><h2>Kuhinja</h2></div>' +
+        '<p><a class="btn" href="zemlja.html?z=' + ours[0] + '#/o/hrana">Tradicionalna jela i pića: ' + esc(ours[1]) + '</a></p>' : '') +
+      (big ? '' : '<details class="card" id="restbox" style="margin-top:14px"><summary>Gdje jesti<small>Restorani u središtu i Michelinov vodič</small></summary><div class="inner"><div id="rest"></div></div></details>') +
       '<div id="guide"></div><div id="sights"><p class="note" style="margin-top:26px">Tražim znamenitosti u okolici…</p></div>' +
       (others.length ? '<div class="sec-head" style="margin-top:40px"><h2>Možda ste <em>mislile</em></h2></div><div class="chips wrapc">' +
         others.map(function (o) { return '<a href="trazi.html?q=' + encodeURIComponent(o.display_name.split(',').slice(0, 3).join(',')) + '">' + esc(o.display_name.split(',').slice(0, 3).join(',')) + '</a>'; }).join('') + '</div>' : '');
@@ -123,7 +124,10 @@
     document.getElementById('guide').innerHTML = guideHtml(near, 'Najbliže u <em>vodiču</em>');
     window.Karta.draw('map', [{ c: [lat, lon], t: name, s: where }], { zoom: big ? 5 : 11 });
     if (big) { document.getElementById('sights').innerHTML = ''; return; }
-    window.Restorani.load('rest', lat, lon, name);
+    var rb = document.getElementById('restbox');
+    if (rb) rb.addEventListener('toggle', function () {
+      if (rb.open && !rb.getAttribute('data-loaded')) { rb.setAttribute('data-loaded', '1'); window.Restorani.load('rest', lat, lon, name); }
+    });
     sights(lat, lon, 6000).then(function (list) {
       list.sort(function (x, y) { return x.rank - y.rank || x.d - y.d; });
       list = list.slice(0, 30);

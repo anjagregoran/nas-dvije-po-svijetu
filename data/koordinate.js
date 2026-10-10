@@ -1,5 +1,7 @@
 // Generirano skriptom tools/geocode.js. Ručni ispravci se čuvaju: skripta ne dira postojeće ključeve.
 window.KOORDINATE = {
+  "jordan/mrtvo-more-i-akaba": [31.55, 35.47],
+  "uae/al-ain-i-pustinja": [24.19, 55.76],
   "albanija/berat": [40.7019,19.9581],
   "albanija/gjirokastra": [40.0771,20.1393],
   "albanija/saranda": [39.7573,20.0323],

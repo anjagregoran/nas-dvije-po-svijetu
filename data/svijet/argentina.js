@@ -285,6 +285,5 @@ window.ATLAS["argentina"] = {
     { ime: "Visit Salta", url: "https://visitsalta.ar/" },
     { ime: "Turismo Ushuaia", url: "https://turismoushuaia.com/" },
     { ime: "Središnji državni ured za Hrvate izvan RH, Hrvatsko iseljeništvo u Argentini", url: "https://hrvatiizvanrh.gov.hr/croats-abroad/croatian-emigrants-in-european-countries-and-overseas-and-their-descendants/croatian-diaspora-in-argentina/6220" },
-    { ime: "Juan Vucetich, Wikipedia", url: "https://en.wikipedia.org/wiki/Juan_Vucetich" }
   ]
 };

@@ -300,6 +300,5 @@ window.ATLAS["indonezija"] = {
     { ime: "Nacionalni park Komodo", url: "https://www.komodonationalpark.org/" },
     { ime: "Nacionalni park Bromo Tengger Semeru", url: "https://bromotenggersemeru.org/" },
     { ime: "Museum Nasional Indonesia", url: "https://www.museumnasional.or.id/" },
-    { ime: "Wikipedia (provjera datuma i brojki)", url: "https://en.wikipedia.org/wiki/Indonesia" }
   ]
 };

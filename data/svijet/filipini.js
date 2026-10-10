@@ -228,6 +228,5 @@ window.ATLAS["filipini"] = {
     { ime: "UNESCO: Puerto-Princesa Subterranean River National Park", url: "https://whc.unesco.org/en/list/652" },
     { ime: "Ayala Museum", url: "https://www.ayalamuseum.org/" },
     { ime: "Grad Vigan", url: "https://vigancity.gov.ph/" },
-    { ime: "Wikipedia (provjera datuma i brojki)", url: "https://en.wikipedia.org/wiki/Philippines" }
   ]
 };

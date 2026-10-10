@@ -350,6 +350,5 @@ window.ATLAS["tajland"] = {
     { ime: "Jim Thompson House Museum", url: "https://jimthompsonhouse.org/" },
     { ime: "Thailand-Burma Railway Centre", url: "https://www.tbrconline.com/" },
     { ime: "Thai National Parks", url: "https://www.thainationalparks.com/" },
-    { ime: "Wikipedia (provjera datuma i brojki)", url: "https://en.wikipedia.org/wiki/Thailand" }
   ]
 };

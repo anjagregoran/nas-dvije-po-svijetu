@@ -327,6 +327,5 @@ window.ATLAS["vijetnam"] = {
     { ime: "Centar za očuvanje baštine Hoi Ana", url: "https://hoianworldheritage.org.vn/" },
     { ime: "Muzej ratnih ostataka", url: "https://baotangchungtichchientranh.vn/" },
     { ime: "Danang Fantasticity", url: "https://danangfantasticity.com/" },
-    { ime: "Wikipedia (provjera datuma i brojki)", url: "https://en.wikipedia.org/wiki/Vietnam" }
   ]
 };

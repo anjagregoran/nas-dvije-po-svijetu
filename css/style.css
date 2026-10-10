@@ -250,3 +250,57 @@ footer.foot .logo { display: block; margin-bottom: 10px; }
 /* place tabs */
 .chips.sticky { position: sticky; top: 60px; z-index: 30; background: var(--cream); padding: 12px 0; margin: 0 -20px 6px; padding-left: 20px; padding-right: 20px; border-bottom: 1px solid var(--line); }
 .chips.sticky a { padding: 11px 18px; font-size: .72rem; }
+
+/* ---------- icon boxes that open ---------- */
+.ico { width: 34px; height: 34px; flex: none; color: var(--wine); }
+.boxes { display: grid; gap: 14px; grid-template-columns: repeat(2, 1fr); }
+@media (min-width: 720px) { .boxes { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 980px) { .boxes { grid-template-columns: repeat(4, 1fr); } }
+.box {
+  position: relative; display: flex; flex-direction: column; gap: 6px;
+  min-height: 190px; padding: 22px 20px 20px; border-radius: 28px;
+  color: var(--wine); text-decoration: none; background: var(--blush);
+  transition: transform .2s, box-shadow .2s;
+}
+.box:hover { transform: translateY(-4px); box-shadow: 0 18px 30px -22px rgba(42, 22, 28, .6); }
+.box .ico { width: 40px; height: 40px; margin-bottom: auto; }
+.box-t { font-family: var(--display); font-size: clamp(1.5rem, 4.6vw, 2rem); line-height: 1.05; margin-top: 18px; }
+.box-s { font-size: .88rem; line-height: 1.35; color: var(--ink); }
+.box-go { position: absolute; top: 20px; right: 18px; font-size: .62rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; padding: 6px 11px; border-radius: 999px; background: rgba(255, 250, 242, .65); }
+
+/* place cards on a country page */
+.grid.places { grid-template-columns: 1fr; }
+@media (min-width: 620px) { .grid.places { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 980px) { .grid.places { grid-template-columns: repeat(3, 1fr); } }
+.pcard { position: relative; display: block; background: var(--paper); border-radius: 24px; padding: 20px 64px 20px 22px; color: var(--ink); text-decoration: none; transition: transform .2s; }
+.pcard:hover { transform: translateY(-3px); }
+.pcard h3 { margin: 0 0 4px; }
+.pcard p { margin: 0; font-size: .93rem; line-height: 1.45; color: var(--soft); }
+.pcard .arrow { position: absolute; right: 18px; top: 50%; transform: translateY(-50%); width: 38px; height: 38px; border-radius: 50%; background: var(--butter); color: var(--wine); display: grid; place-items: center; }
+.chips.wrapc { flex-wrap: wrap; overflow: visible; }
+
+/* the sheet that opens */
+body.locked { overflow: hidden; }
+.sheet { position: fixed; inset: 0; z-index: 80; background: rgba(42, 22, 28, .5); display: flex; align-items: flex-end; justify-content: center; animation: fade .18s ease-out; }
+.sheet-in { width: 100%; max-width: 1040px; max-height: 92vh; background: var(--cream); border-radius: 30px 30px 0 0; display: flex; flex-direction: column; animation: rise .26s cubic-bezier(.2, .8, .2, 1); }
+@media (min-width: 760px) { .sheet { align-items: center; padding: 28px; } .sheet-in { border-radius: 30px; max-height: 88vh; } }
+.sheet-head { display: flex; align-items: center; gap: 14px; padding: 20px 22px; border-bottom: 1px solid var(--line); }
+.sheet-head h2 { flex: 1; margin: 0; font-size: clamp(1.6rem, 5vw, 2.4rem); }
+.sheet-head .x { flex: none; width: 42px; height: 42px; border-radius: 50%; background: var(--wine); color: var(--cream); display: grid; place-items: center; font-size: 1.6rem; line-height: 1; text-decoration: none; }
+.sheet-body { padding: 22px; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+@keyframes fade { from { opacity: 0; } }
+@keyframes rise { from { transform: translateY(40px); opacity: 0; } }
+
+.cards { display: grid; gap: 12px; grid-template-columns: 1fr; }
+@media (min-width: 700px) { .cards { grid-template-columns: repeat(2, 1fr); } }
+.mini { background: var(--paper); border-radius: 22px; padding: 20px; }
+.mini h3 { font-size: 1.5rem; margin-bottom: .35em; }
+.mini p { font-size: .98rem; line-height: 1.55; }
+.mini p:last-child { margin-bottom: 0; }
+.mini .look { margin: 12px 0 0; }
+.mini.fact { background: var(--butter); font-family: var(--display); font-size: 1.3rem; line-height: 1.25; color: var(--wine); }
+.mini.fact p { font-size: inherit; line-height: inherit; }
+.mini.phrase { padding: 18px 20px; border: 0; }
+.prose { max-width: 44em; font-size: 1.1rem; line-height: 1.65; }
+
+@media (min-width: 980px) { .cards.three { grid-template-columns: repeat(3, 1fr); } }

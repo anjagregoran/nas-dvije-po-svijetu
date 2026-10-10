@@ -235,6 +235,5 @@ window.ATLAS["malezija"] = {
     { ime: "Sabah Tourism Board", url: "https://www.sabahtourism.com/" },
     { ime: "Sarawak Tourism Board", url: "https://www.sarawaktourism.com/" },
     { ime: "Sabah Parks", url: "https://www.sabahparks.org.my/" },
-    { ime: "Wikipedia (provjera datuma i brojki)", url: "https://en.wikipedia.org/wiki/Malaysia" }
   ]
 };

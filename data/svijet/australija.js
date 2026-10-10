@@ -430,7 +430,6 @@ window.ATLAS["australija"] = {
     { ime: "Port Arthur Historic Site", url: "https://portarthur.org.au/" },
     { ime: "Western Australian Museum: Stefano, 1875", url: "https://visit.museum.wa.gov.au/stefano-1875" },
     { ime: "Croatians in WA", url: "https://croatiansinwa.com.au/history/" },
-    { ime: "Wikipedia: Croatian Australians", url: "https://en.wikipedia.org/wiki/Croatian_Australians" },
     { ime: "Australian Bureau of Statistics, popis 2021.", url: "https://www.abs.gov.au/census/find-census-data/quickstats/2021/3204_AUS" },
     { ime: "Visit Great Ocean Road", url: "https://visitgreatoceanroad.org.au/" }
   ]

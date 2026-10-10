@@ -163,6 +163,5 @@ window.ATLAS["laos"] = {
     { ime: "COPE Laos", url: "https://copelaos.org/" },
     { ime: "Traditional Arts and Ethnology Centre", url: "https://www.taeclaos.org/" },
     { ime: "Free the Bears", url: "https://freethebears.org/" },
-    { ime: "Wikipedia (provjera datuma i brojki)", url: "https://en.wikipedia.org/wiki/Laos" }
   ]
 };

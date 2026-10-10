@@ -202,6 +202,5 @@ window.ATLAS["singapur"] = {
     { ime: "Indian Heritage Centre", url: "https://www.indianheritage.gov.sg/" },
     { ime: "Sultan Mosque", url: "https://www.sultanmosque.sg/" },
     { ime: "Gardens by the Bay", url: "https://www.gardensbythebay.com.sg/" },
-    { ime: "Wikipedia (provjera datuma i brojki)", url: "https://en.wikipedia.org/wiki/Singapore" }
   ]
 };

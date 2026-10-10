@@ -196,6 +196,5 @@ window.ATLAS["kambodza"] = {
     { ime: "Nacionalni muzej Kambodže", url: "https://www.cambodiamuseum.info/" },
     { ime: "Cambodian Living Arts", url: "https://www.cambodianlivingarts.org/" },
     { ime: "Phare Ponleu Selpak", url: "https://phareps.org/" },
-    { ime: "Wikipedia (provjera datuma i brojki)", url: "https://en.wikipedia.org/wiki/Cambodia" }
   ]
 };

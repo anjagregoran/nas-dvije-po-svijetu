@@ -79,7 +79,8 @@ const centre = (id, mjesta) => {
   const x = pts.reduce((a, p) => a + Math.cos(p[1] * Math.PI / 180), 0), y = pts.reduce((a, p) => a + Math.sin(p[1] * Math.PI / 180), 0);
   return [Math.round(lat * 100) / 100, Math.round(Math.atan2(y, x) * 18000 / Math.PI) / 100];
 };
-const out = { kontinenti: [], vodici: [], trazi: [], cinjenice: [] };
+const ISO = require('./iso.js');
+const out = { kontinenti: [], vodici: [], trazi: [], cinjenice: [], mj: [], cc: {} };
 const add = (t, k, h) => { if (t) out.trazi.push([t, k, h]); };
 let problems = 0;
 
@@ -101,6 +102,8 @@ for (const [kontinent, regije] of PLAN) {
       zemlje.push({ id, ime: z.ime, sazetak: z.sazetak, n: z.mjesta.length, spremno: true, c: centre(id, z.mjesta) });
       add(z.ime, 'Zemlja', h);
       z.mjesta.forEach(m => add(m.ime, z.ime, h + '#/mjesto/' + m.id));
+      z.mjesta.forEach(m => { const c = KO[id + '/' + m.id]; if (c) out.mj.push([m.ime, z.ime, h + '#/mjesto/' + m.id, c[0], c[1]]); });
+      (ISO[id] || '').split(',').forEach(c => { if (c && !out.cc[c]) out.cc[c] = [id, z.ime]; });
       (z.zanimljivosti || []).forEach(c => out.cinjenice.push([c, z.ime]));
     } catch (e) {
       console.warn('! preskačem', id, '-', e.message); problems++;
@@ -124,6 +127,7 @@ for (const gid of ['apulija']) {
   out.vodici.push({ id: gid, naziv: T.naziv, nadnaslov: T.nadnaslov, uvod: T.uvod, mjesta: T.mjesta.length, znamenitosti: sights, jela: foods });
   add(T.naziv, 'Veliki vodič', h);
   T.mjesta.forEach(m => add(m.ime, T.naziv + ' · veliki vodič', h + '#/mjesto/' + m.id));
+  T.mjesta.forEach(m => { const c = KO[gid + '/' + m.id]; if (c) out.mj.push([m.ime, T.naziv + ' · veliki vodič', h + '#/mjesto/' + m.id, c[0], c[1]]); });
   T.jesteLiZnale.forEach(c => out.cinjenice.push([c, T.naziv]));
 }
 

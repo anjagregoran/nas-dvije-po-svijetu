@@ -350,6 +350,5 @@ window.ATLAS["novi-zeland"] = {
     { ime: "Te Puia", url: "https://www.tepuia.com/" },
     { ime: "Hobbiton Movie Set Tours", url: "https://www.hobbitontours.com/" },
     { ime: "Visit Fiordland", url: "https://www.fiordland.org.nz/" },
-    { ime: "Wikipedia: Nikola Nobilo", url: "https://en.wikipedia.org/wiki/Nikola_Nobilo" }
   ]
 };

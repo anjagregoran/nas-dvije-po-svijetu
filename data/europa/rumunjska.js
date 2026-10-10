@@ -1,270 +1,270 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["rumunjska"] = {
   id: "rumunjska",
-  ime: "Rumunjska",
-  regija: "Jugoistočna Europa",
-  sazetak: "Zemlja iza Karpata u kojoj saski gradovi imaju krovove s očima, crkve su oslikane izvana, a na jednom se groblju pokojnici šale na vlastiti račun.",
+  ime: "Romania",
+  regija: "Southeastern Europe",
+  sazetak: "A country beyond the Carpathians where Saxon towns have roofs with eyes, churches are painted on the outside, and in one cemetery the dead make jokes at their own expense.",
   uvod: [
-    "Rumunjska je otok romanskog jezika u slavenskom i mađarskom moru, pa ćete na natpisima prepoznati latinske korijene, a u govoru i mnoge slavenske riječi. Nastala je spajanjem triju povijesnih pokrajina: Vlaške s Bukureštom, Moldavije s oslikanim samostanima i Transilvanije, koju su stoljećima zajedno oblikovali Rumunji, Mađari i njemački Sasi.",
-    "Upravo su Sasi, doseljeni u 12. stoljeću da čuvaju granicu ugarskog kraljevstva, sagradili utvrđene gradove i crkve po kojima je Transilvanija poznata. Dvadeseto stoljeće donijelo je kraljevinu, zatim komunizam i Ceaușescuovu megalomaniju, čiji je spomenik golema palača u Bukureštu, te krvavu revoluciju u prosincu 1989. godine. Na sjeveru, u Maramureșu, i danas se kosi ručno i vozi konjskom zapregom, a u Banatu, oko Karaševa, živi i stara hrvatska zajednica."
+    "Romania is an island of Romance language in a Slavic and Hungarian sea, so you will recognize Latin roots on the signs and, in speech, many Slavic words too. It came into being through the union of three historical provinces: Wallachia with Bucharest, Moldavia with its painted monasteries, and Transylvania, which was shaped together over the centuries by Romanians, Hungarians and German Saxons.",
+    "It was the Saxons, settled here in the 12th century to guard the border of the Hungarian kingdom, who built the fortified towns and churches that Transylvania is known for. The twentieth century brought a kingdom, then communism and Ceaușescu's megalomania, whose monument is the gigantic palace in Bucharest, and the bloody revolution of December 1989. In the north, in Maramureș, people still mow by hand and travel by horse cart today, and in the Banat, around Carașova, there is also an old Croatian community."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Svibanj, lipanj i rujan najbolji su za Transilvaniju i sjever. Planinska cesta Transfăgărășan otvorena je samo od srpnja do listopada, a prosinac je lijep zbog božićnih sajmova u Sibiuu i Brașovu." },
-    { k: "Valuta", v: "Rumunjski lej, čije su novčanice plastične i ne mogu se poderati. Kartice se primaju gotovo svugdje u gradovima, a na selu i u samostanima potrebna je gotovina." },
-    { k: "Kretanje", v: "Zemlja je velika, a vlakovi spori, pa je automobil najbolji izbor za sela i samostane, uz obveznu elektroničku vinjetu. Između velikih gradova voze vlakovi i autobusi, a po selima ćete na cesti zateći zaprege i stoku." },
-    { k: "Napojnica", v: "Deset posto u restoranima očekuje se i ostavlja u gotovini ili se dodaje pri plaćanju karticom, na pitanje konobara." }
+    { k: "When to go", v: "May, June and September are best for Transylvania and the north. The Transfăgărășan mountain road is open only from July to October, and December is lovely for the Christmas markets in Sibiu and Brașov." },
+    { k: "Currency", v: "The Romanian leu, whose banknotes are plastic and cannot be torn. Cards are accepted almost everywhere in the cities, while in villages and monasteries you need cash." },
+    { k: "Getting around", v: "The country is large and the trains are slow, so a car is the best choice for the villages and monasteries, with a mandatory electronic vignette. Trains and buses run between the big cities, and in the villages you will come across horse carts and livestock on the road." },
+    { k: "Tipping", v: "Ten percent is expected in restaurants, and it is left in cash or added when you pay by card, once the waiter asks." }
   ],
   hrana: [
-    { ime: "Sarmale", opis: "Male sarme u kiselom kupusu ili listu loze, s mljevenim mesom i rižom.", prica: "Nacionalno jelo poslužuje se s palentom, vrhnjem i ljutom papričicom, a obvezno je za Božić i svadbe. U Maramureșu se umjesto riže stavlja krupno mljeveni kukuruz." },
-    { ime: "Mămăligă", opis: "Gusta kukuruzna palenta koja zamjenjuje kruh.", prica: "Nekad se rezala koncem i bila hrana siromašnih, a danas se poslužuje kao bulz, zapečena s ovčjim sirom i jajetom. Balmoș je pastirska inačica kuhana u vrhnju." },
-    { ime: "Ciorbă", opis: "Kisela juha, zakiseljena fermentiranim mekinjama, limunom ili rasolom.", prica: "Ciorbă de burtă, od tripica s vrhnjem i češnjakom, najcjenjenija je i jede se kao lijek nakon slavlja. Rădăuțeană je blaža inačica s piletinom, nastala u gradiću Rădăuți sedamdesetih godina 20. stoljeća." },
-    { ime: "Mici", opis: "Kratki valjčići od mljevenog mesa s češnjakom i začinima, pečeni na roštilju.", prica: "Legenda kaže da su nastali u jednoj bukureštanskoj gostionici potkraj 19. stoljeća, kada je kuharu ponestalo crijeva za kobasice. Jedu se sa senfom i kruhom, stojeći, na tržnicama i uz cestu." },
-    { ime: "Zacuscă i salată de vinete", opis: "Zacuscă je namaz od pečenog patlidžana, paprike i luka, a salată de vinete pire od pečenog patlidžana s lukom.", prica: "Oboje se spravlja u jesen i maže na kruh kao predjelo. Zacuscă je rođakinja ajvara, samo blaža i s više patlidžana." },
-    { ime: "Papanași", opis: "Prženi uštipci od svježeg sira u obliku krafne s kuglicom na vrhu, preliveni vrhnjem i džemom od borovnica.", prica: "Najpoznatiji rumunjski desert stiže vruć i u paru, a jedna je porcija dovoljna za dvoje." },
-    { ime: "Cozonac", opis: "Visoki slatki kruh s nadjevom od oraha, kakaa i rahat-lokuma.", prica: "Peče se za Uskrs i Božić, a tijesto se mijesi toliko dugo da se kaže kako dobar cozonac traži jake ruke i dobro raspoloženje." },
-    { ime: "Țuică i pălincă", opis: "Rakija od šljiva, jednom ili dvaput pečena.", prica: "Čašica se ispija prije jela, za tek. Na sjeveru se zove horincă, prelazi pedeset posto alkohola i toči se iz boca u kojima je izrezbaren drveni križ ili ljestve." }
+    { ime: "Sarmale", opis: "Small rolls of pickled cabbage or vine leaf filled with ground meat and rice.", prica: "The national dish is served with polenta, sour cream and a hot pepper, and it is a must at Christmas and at weddings. In Maramureș coarsely ground corn is used instead of rice." },
+    { ime: "Mămăligă", opis: "A thick cornmeal polenta that takes the place of bread.", prica: "It used to be cut with a thread and was the food of the poor, while today it is served as bulz, baked with sheep's cheese and an egg. Balmoș is the shepherds' version, cooked in cream." },
+    { ime: "Ciorbă", opis: "A sour soup, soured with fermented bran, lemon or pickling brine.", prica: "Ciorbă de burtă, made of tripe with sour cream and garlic, is the most highly prized and is eaten as a cure after a celebration. Rădăuțeană is a milder version with chicken, created in the small town of Rădăuți in the 1970s." },
+    { ime: "Mici", opis: "Short little rolls of ground meat with garlic and spices, cooked on the grill.", prica: "Legend says they were invented at a Bucharest inn in the late 19th century, when the cook ran out of sausage casings. They are eaten with mustard and bread, standing up, at markets and by the roadside." },
+    { ime: "Zacuscă and salată de vinete", opis: "Zacuscă is a spread of roasted eggplant, peppers and onion, and salată de vinete is a purée of roasted eggplant with onion.", prica: "Both are made in the fall and spread on bread as an appetizer. Zacuscă is a cousin of ajvar, only milder and with more eggplant." },
+    { ime: "Papanași", opis: "Fried fresh-cheese dumplings shaped like a doughnut with a little ball on top, covered in sour cream and blueberry jam.", prica: "The most famous Romanian dessert arrives hot and in pairs, and one portion is enough for two." },
+    { ime: "Cozonac", opis: "A tall sweet bread with a filling of walnuts, cocoa and Turkish delight.", prica: "It is baked for Easter and Christmas, and the dough is kneaded for so long that people say a good cozonac calls for strong arms and a good mood." },
+    { ime: "Țuică and pălincă", opis: "Plum brandy, distilled once or twice.", prica: "A small glass is drunk before the meal, to whet the appetite. In the north it is called horincă, exceeds fifty percent alcohol and is poured from bottles with a carved wooden cross or ladder inside." }
   ],
   obicaji: [
-    { ime: "Mărțișor", opis: "Prvog ožujka žene i djevojke dobivaju mali ukras na crveno-bijeloj vrpci, koji nose do kraja mjeseca, a zatim ga vežu na rascvjetanu granu. Običaj je srodan bugarskoj martenici i s njom je upisan na UNESCO-ov popis.", gdje: "Posvuda, a krajem veljače ulice Bukurešta pune su štandova s ručno rađenim ukrasima." },
-    { ime: "Ie", opis: "Bluza od lana ili pamuka s vezom na ramenu i rukavima, čiji uzorci otkrivaju kraj iz kojeg potječe. Proslavio ju je Matisse na jednoj od svojih slika, a umijeće izrade upisano je 2022. na UNESCO-ov popis.", gdje: "Dan rumunjske bluze slavi se 24. lipnja, na Ivanje. Stare primjerke vidjet ćete u Muzeju sela u Bukureštu i na nedjeljnoj misi u Maramureșu." },
-    { ime: "Călușari", opis: "Muška družina u bijelom, s vrpcama i praporcima na nogama, izvodi akrobatski ples sa štapovima, koji je nekad liječio opsjednute i štitio od vila. Na UNESCO-ovu je popisu.", gdje: "Na jugu zemlje, u Olteniji, oko Duhova, te na folklornim festivalima ljeti." },
-    { ime: "Pisanice iz Bukovine", opis: "Jaja se ukrašavaju voskom i bojama u nekoliko slojeva, tankim perom zvanim chișiță. Svaki uzorak ima ime, poput izgubljenog puta ili pastirske kuke.", gdje: "U selima Bukovine tjednima prije Uskrsa, a tijekom cijele godine u muzeju pisanica u mjestu Vama." },
-    { ime: "Colinde", opis: "Skupine muškaraca na Badnju večer idu od kuće do kuće i pjevaju stare obredne pjesme, a domaćini ih daruju kolačima i rakijom. Običaj je na UNESCO-ovu popisu.", gdje: "Najživlji je u Maramureșu i Bukovini, gdje se krajem prosinca održavaju i povorke maski, medvjeda i koza." },
-    { ime: "Keramika iz Horezua", opis: "Tanjuri i zdjele ukrašavaju se kravljim rogom iz kojeg curi boja i perom kojim se razvlači u spirale. Zaštitni znak je pijetao.", gdje: "Gradić Horezu u Olteniji, gdje lončari rade u dvorištima uz cestu, a početkom lipnja održava se sajam." }
+    { ime: "Mărțișor", opis: "On March 1 women and girls receive a small trinket on a red and white string, which they wear until the end of the month and then tie to a blossoming branch. The custom is related to the Bulgarian martenitsa and is inscribed with it on the UNESCO list.", gdje: "Everywhere, and at the end of February the streets of Bucharest are full of stalls with handmade trinkets." },
+    { ime: "Ie", opis: "A blouse of linen or cotton with embroidery on the shoulders and sleeves, whose patterns reveal the area it comes from. Matisse made it famous in one of his paintings, and the art of making it was added to the UNESCO list in 2022.", gdje: "The Day of the Romanian Blouse is celebrated on June 24, Midsummer Day. You will see old examples at the Village Museum in Bucharest and at Sunday Mass in Maramureș." },
+    { ime: "Călușari", opis: "A band of men in white, with ribbons and bells on their legs, performs an acrobatic dance with sticks that once healed the possessed and protected against fairies. It is on the UNESCO list.", gdje: "In the south of the country, in Oltenia, around Pentecost, and at folk festivals in summer." },
+    { ime: "Painted eggs from Bukovina", opis: "The eggs are decorated with wax and dyes in several layers, using a fine stylus called a chișiță. Every pattern has a name, such as the lost path or the shepherd's crook.", gdje: "In the villages of Bukovina for weeks before Easter, and all year round at the painted egg museum in the village of Vama." },
+    { ime: "Colinde", opis: "On Christmas Eve groups of men go from house to house singing old ritual songs, and the hosts reward them with cakes and brandy. The custom is on the UNESCO list.", gdje: "It is most alive in Maramureș and Bukovina, where parades of masks, bears and goats are also held at the end of December." },
+    { ime: "Horezu ceramics", opis: "Plates and bowls are decorated with a cow's horn from which the paint drips and a quill that draws it out into spirals. The trademark motif is the rooster.", gdje: "The small town of Horezu in Oltenia, where the potters work in their yards along the road, and where a fair is held in early June." }
   ],
   fraze: [
-    { izvorno: "Bună ziua", izgovor: "BU-na ZI-ua", hr: "Dobar dan" },
-    { izvorno: "Mulțumesc", izgovor: "mul-cu-MESK", hr: "Hvala" },
-    { izvorno: "Vă rog", izgovor: "va ROG", hr: "Molim vas" },
-    { izvorno: "Da / Nu", izgovor: "DA / NU", hr: "Da / Ne" },
-    { izvorno: "Cât costă?", izgovor: "kat KOS-ta", hr: "Koliko košta?" },
-    { izvorno: "Nota, vă rog", izgovor: "NO-ta va ROG", hr: "Račun, molim" },
-    { izvorno: "Noroc!", izgovor: "no-ROK", hr: "Živjeli! (doslovno: sretno)" },
-    { izvorno: "La revedere", izgovor: "la re-ve-DE-re", hr: "Doviđenja" }
+    { izvorno: "Bună ziua", izgovor: "BOO-nuh ZEE-wah", hr: "Good day" },
+    { izvorno: "Mulțumesc", izgovor: "mool-tsoo-MESK", hr: "Thank you" },
+    { izvorno: "Vă rog", izgovor: "vuh ROHG", hr: "Please" },
+    { izvorno: "Da / Nu", izgovor: "DAH / NOO", hr: "Yes / No" },
+    { izvorno: "Cât costă?", izgovor: "kuht KOHS-tuh", hr: "How much does it cost?" },
+    { izvorno: "Nota, vă rog", izgovor: "NOH-tah vuh ROHG", hr: "The check, please" },
+    { izvorno: "Noroc!", izgovor: "noh-ROHK", hr: "Cheers! (literally: good luck)" },
+    { izvorno: "La revedere", izgovor: "lah reh-veh-DEH-reh", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Rumunjski je romanski jezik, najbliži latinskom po gramatici, ali s mnogo slavenskih riječi, pa ćete prepoznati da, prieten, drag i vreme.",
-    "U Karpatima živi najveća populacija smeđih medvjeda u Europskoj uniji.",
-    "Gimnastičarka Nadia Comăneci dobila je 1976. u Montrealu prvu čistu desetku u povijesti Olimpijskih igara, a semafor je pokazao 1,00 jer nije imao dovoljno znamenki.",
-    "Vlad Țepeš, po kojem je Bram Stoker nazvao Drakulu, u Rumunjskoj je narodni junak koji je branio zemlju od Osmanlija. Stoker u Transilvaniji nikada nije bio.",
-    "Temišvar je 1884. među prvima u Europi dobio električnu uličnu rasvjetu.",
-    "U selu Karaševu i okolici u rumunjskom Banatu žive Karaševski Hrvati, koji imaju zajamčenog zastupnika u parlamentu.",
-    "Delta Dunava najveće je močvarno područje u Europi i dom više od tristo vrsta ptica."
+    "Romanian is a Romance language, the closest to Latin in its grammar, but with many Slavic words, so a Croatian speaker will recognize da, prieten, drag and vreme.",
+    "The Carpathians are home to the largest population of brown bears in the European Union.",
+    "In 1976 in Montreal the gymnast Nadia Comăneci received the first perfect ten in the history of the Olympic Games, and the scoreboard showed 1.00 because it did not have enough digits.",
+    "Vlad Țepeș, after whom Bram Stoker named Dracula, is a national hero in Romania who defended the country against the Ottomans. Stoker never set foot in Transylvania.",
+    "In 1884 Timișoara became one of the first cities in Europe to have electric street lighting.",
+    "The Krashovani Croats live in the village of Carașova and its surroundings in the Romanian Banat, and they have a guaranteed representative in parliament.",
+    "The Danube Delta is the largest wetland in Europe and home to more than three hundred species of birds."
   ],
   mjesta: [
     {
       id: "bukurest",
-      ime: "Bukurešt",
+      ime: "Bucharest",
       vrsta: "grad",
-      sazetak: "Grad proturječja, u kojem iza sivih blokova stoje male pravoslavne crkve, a nad svime se diže jedna od najvećih zgrada na svijetu.",
+      sazetak: "A city of contradictions, where small Orthodox churches stand behind gray apartment blocks and one of the largest buildings in the world rises above it all.",
       prica: [
-        "Bukurešt se prvi put spominje 1459. u ispravi koju je potpisao Vlad Țepeš, a prijestolnica ujedinjene Rumunjske postao je 1862. godine. Do Drugog svjetskog rata zvali su ga malim Parizom zbog bulevara, palača i kavana.",
-        "Osamdesetih je Nicolae Ceaușescu dao srušiti petinu starog središta da bi sagradio palaču i bulevar duži od Elizejskih poljana. Dana 21. prosinca 1989. masa ga je izviždala tijekom govora na balkonu, a četiri dana poslije bio je strijeljan. Današnji grad kaotičan je i živ, s odličnim muzejima i parkovima."
+        "Bucharest is first mentioned in 1459 in a document signed by Vlad Țepeș, and it became the capital of united Romania in 1862. Until the Second World War it was called Little Paris for its boulevards, palaces and cafés.",
+        "In the 1980s Nicolae Ceaușescu had a fifth of the old center demolished in order to build a palace and a boulevard longer than the Champs-Élysées. On December 21, 1989, the crowd booed him during a speech from the balcony, and four days later he was executed by firing squad. Today's city is chaotic and alive, with excellent museums and parks."
       ],
       vidjeti: [
-        { ime: "Palača parlamenta", opis: "Najteža zgrada na svijetu i druga najveća upravna zgrada nakon Pentagona ima više od tisuću prostorija i gotovo isto toliko pod zemljom koliko nad njom. Glavna arhitektica Anca Petrescu imala je dvadeset i osam godina kada je dobila posao. Ulazi se samo s vodičem i uz osobni dokument, a s balkona se vidi bulevar koji je diktator sagradio po vlastitoj mjeri." },
-        { ime: "Trg revolucije", opis: "S balkona nekadašnjeg Centralnog komiteta Ceaușescu je održao posljednji govor, a s krova je sutradan pobjegao helikopterom. Na pročeljima okolnih zgrada još se mogu naći tragovi metaka." },
-        { ime: "Rumunjski ateneum", opis: "Koncertna dvorana s kupolom dovršena je 1888. novcem građana, prikupljenim pod geslom „Dajte jedan lej za Ateneum“. Unutra kružna freska duga sedamdeset metara prikazuje povijest Rumunja." },
-        { ime: "Crkva Stavropoleos", opis: "Malena crkva iz 1724. najljepši je primjer stila kneza Brâncoveanua, u kojem se miješaju bizantski, osmanski i barokni ukrasi. Sjednite u dvorište s kamenim arkadama i nadgrobnim pločama, oazu tišine usred starog grada." },
-        { ime: "Muzej sela", opis: "U parku uz jezero od 1936. stoji više od tristo kuća, crkava i mlinova prenesenih iz svih krajeva zemlje. Potražite poluukopanu kuću iz Oltenije i drvenu crkvu iz Maramureșa." },
-        { ime: "Stari grad i Manucov han", opis: "Četvrt Lipscani ostatak je trgovačkog središta. Karavan-saraj iz 1808. s drvenim galerijama oko dvorišta i danas je gostionica, a u blizini su ruševine kneževskog dvora s poprsjem Vlada Țepeša." }
+        { ime: "The Palace of the Parliament", opis: "The heaviest building in the world, and the second largest administrative building after the Pentagon, has more than a thousand rooms and almost as much below ground as above it. The chief architect, Anca Petrescu, was twenty-eight when she got the job. You can only go in with a guide and with an identity document, and from the balcony you look out over the boulevard the dictator built to his own measure." },
+        { ime: "Revolution Square", opis: "From the balcony of the former Central Committee building Ceaușescu gave his last speech, and the next day he fled from the roof by helicopter. Bullet marks can still be found on the facades of the surrounding buildings." },
+        { ime: "The Romanian Athenaeum", opis: "This domed concert hall was completed in 1888 with money from ordinary citizens, collected under the slogan “Give one leu for the Athenaeum”. Inside, a circular fresco seventy meters long depicts the history of the Romanians." },
+        { ime: "Stavropoleos Church", opis: "This tiny church from 1724 is the finest example of the style of Prince Brâncoveanu, which blends Byzantine, Ottoman and Baroque ornament. Sit down in the courtyard with its stone arcades and tombstones, an oasis of quiet in the middle of the old town." },
+        { ime: "The Village Museum", opis: "Since 1936 more than three hundred houses, churches and mills moved here from every part of the country have stood in a park beside a lake. Look for the half-buried house from Oltenia and the wooden church from Maramureș." },
+        { ime: "The Old Town and Manuc's Inn", opis: "The Lipscani district is what remains of the old trading center. The caravanserai from 1808, with wooden galleries around its courtyard, is still an inn today, and nearby are the ruins of the princely court with a bust of Vlad Țepeș." }
       ],
       jesti: [
-        { ime: "Mici na tržnici Obor", opis: "Najpoznatiji u gradu peku se na štandu uz najveću gradsku tržnicu, a jedu se sa senfom na kartonskom tanjuru." },
-        { ime: "Covrigi", opis: "Vrući pereci sa sezamom ili makom prodaju se kroz prozorčiće na svakom uglu." },
-        { ime: "Ručak u staroj pivnici", opis: "U secesijskim pivnicama starog grada poslužuju se koljenica, sarmale i papanași uz tamburaše i plesače." }
+        { ime: "Mici at the Obor market", opis: "The most famous in the city are grilled at a stand beside the largest city market, and they are eaten with mustard on a cardboard plate." },
+        { ime: "Covrigi", opis: "Hot pretzels with sesame or poppy seeds are sold through little windows on every corner." },
+        { ime: "Lunch in an old beer hall", opis: "The Art Nouveau beer halls of the old town serve pork knuckle, sarmale and papanași to the accompaniment of folk musicians and dancers." }
       ],
       dozivjeti: [
-        { ime: "Besplatna pješačka tura", opis: "Vodiči svakodnevno vode kroz stari grad i priču o komunizmu i revoluciji, uz napojnicu po želji.", link: "https://bucharest.walkaboutfreetours.com/" },
-        { ime: "Tematske šetnje izvan središta", opis: "Mala agencija vodi kroz četvrti socijalističkih blokova, skrivene vile i uličnu umjetnost, što daje sasvim drukčiju sliku grada.", link: "https://interestingtimes.ro/" },
-        { ime: "Knjižara Cărturești Carusel", opis: "U obnovljenoj zgradi iz 19. stoljeća bijele galerije na šest razina vijugaju oko svijetlog atrija, a na vrhu je čajana." },
-        { ime: "Ceaușescuova vila", opis: "U otmjenoj četvrti Primăverii može se uz vodiča razgledati dom diktatorske obitelji, s pozlaćenom kupaonicom, bazenom obloženim mozaikom i paunovima u vrtu." }
+        { ime: "A free walking tour", opis: "Guides lead daily walks through the old town and the story of communism and the revolution, for a tip of your choosing.", link: "https://bucharest.walkaboutfreetours.com/" },
+        { ime: "Themed walks outside the center", opis: "A small agency takes you through neighborhoods of socialist apartment blocks, hidden villas and street art, which gives a completely different picture of the city.", link: "https://interestingtimes.ro/" },
+        { ime: "The Cărturești Carusel bookstore", opis: "In a restored 19th-century building, white galleries on six levels wind around a bright atrium, and there is a tearoom at the top." },
+        { ime: "Ceaușescu's villa", opis: "In the elegant Primăverii district you can take a guided tour of the home of the dictator's family, with its gilded bathroom, mosaic-lined swimming pool and peacocks in the garden." }
       ],
       agencije: [
-        { ime: "Visit Bucharest", opis: "Turistički vodič po gradu s pregledom znamenitosti i izleta.", link: "https://visitbucharest.today/" },
-        { ime: "Walkabout Free Tours", opis: "Pješačke ture uz napojnicu u Bukureštu i drugim rumunjskim gradovima.", link: "https://bucharest.walkaboutfreetours.com/" },
-        { ime: "Muzej sela Dimitrie Gusti", opis: "Službena stranica muzeja na otvorenom.", link: "https://muzeul-satului.ro/" }
+        { ime: "Visit Bucharest", opis: "A tourist guide to the city with an overview of sights and excursions.", link: "https://visitbucharest.today/" },
+        { ime: "Walkabout Free Tours", opis: "Tip-based walking tours in Bucharest and other Romanian cities.", link: "https://bucharest.walkaboutfreetours.com/" },
+        { ime: "Dimitrie Gusti Village Museum", opis: "The official website of the open-air museum.", link: "https://muzeul-satului.ro/" }
       ],
-      kada: "Svibanj, lipanj i rujan. Obilazak Palače parlamenta rezervirajte dan ranije i ponesite osobnu iskaznicu ili putovnicu, bez koje vas neće pustiti unutra."
+      kada: "May, June and September. Book your tour of the Palace of the Parliament a day ahead and bring your ID card or passport, without which you will not be let in."
     },
     {
       id: "brasov",
-      ime: "Brașov, Bran i Peleș",
+      ime: "Brașov, Bran and Peleș",
       vrsta: "grad",
-      sazetak: "Saski grad pod šumovitim brdom, s crnom gotičkom crkvom, i dva dvorca u blizini: jedan slavan po vampiru, drugi po kralju.",
+      sazetak: "A Saxon town beneath a wooded hill, with a black Gothic church, and two castles nearby: one famous for a vampire, the other for a king.",
       prica: [
-        "Brașov, njemački Kronstadt, osnovali su 1211. vitezovi Teutonskog reda, a razvili saski trgovci, koji su zahvaljujući položaju na prijevoju između Transilvanije i Vlaške držali trgovinu s Istokom. Rumunji su živjeli izvan zidina, u četvrti Șchei, i u grad su smjeli ulaziti samo na jedna vrata.",
-        "U okolici su Sasi sagradili i dvorac Bran da čuva prijevoj, a krajem 19. stoljeća prvi rumunjski kralj Karlo I. podigao je u Sinaji ljetnu rezidenciju Peleș."
+        "Brașov, Kronstadt in German, was founded in 1211 by the Teutonic Knights and developed by Saxon merchants who, thanks to its position on the pass between Transylvania and Wallachia, controlled trade with the East. The Romanians lived outside the walls, in the Șchei district, and were allowed to enter the town through one gate only.",
+        "In the surrounding area the Saxons also built Bran Castle to guard the pass, and at the end of the 19th century the first Romanian king, Carol I, built the summer residence of Peleș in Sinaia."
       ],
       vidjeti: [
-        { ime: "Crna crkva", opis: "Najveća gotička crkva jugoistočne Europe dovršena je 1477., a ime je dobila po zidovima pocrnjelima u velikom požaru 1689. godine. Po klupama i galerijama visi stotinjak anatolijskih sagova, koje su trgovci darivali crkvi u zahvalu za sretan povratak s puta. Orgulje s četiri tisuće svirala čuju se na ljetnim koncertima." },
-        { ime: "Trg vijeća i Ulica užeta", opis: "Na glavnom trgu stoji stara vijećnica s tornjem iz kojeg je trubač upozoravao na opasnost. Nekoliko minuta dalje je Strada Sforii, široka tek nešto više od metra, nekadašnji prolaz za vatrogasce." },
-        { ime: "Katarinina vrata", opis: "Vrata iz 1559. imaju četiri tornjića na uglovima, znak da je grad imao pravo izricati smrtnu kaznu. Kroz njih su Rumunji iz četvrti Șchei ulazili u grad i plaćali ulaznu pristojbu." },
-        { ime: "Dvorac Bran", opis: "Sagradili su ga Sasi krajem 14. stoljeća, a veza s Vladom Țepešem slaba je: možda je ovuda prošao ili ovdje bio kratko zatočen. Zanimljivija je kraljica Marija, koja ga je dvadesetih godina 20. stoljeća uredila kao ljetnikovac. Potražite tajno stubište skriveno iza kamina." },
-        { ime: "Dvorac Peleș", opis: "Dovršen je 1914. u Sinaji i bio je među prvim dvorcima u Europi s vlastitom elektranom, dizalom i središnjim usisavačem. Dvorana časti ima stakleni strop koji se otvara na električni pogon, a u oružarnici je četiri tisuće komada oružja." },
-        { ime: "Utvrđena crkva u Prejmeru", opis: "Seljaci su oko crkve podigli zid debeo četiri metra, s više od 270 sobica u četiri kata, po jednom za svaku obitelj u slučaju opsade. Na UNESCO-ovu je popisu i najbolje je očuvana od svih saskih utvrđenih crkava." }
+        { ime: "The Black Church", opis: "The largest Gothic church in southeastern Europe was completed in 1477 and got its name from the walls blackened in the great fire of 1689. About a hundred Anatolian rugs hang along the pews and galleries, donated to the church by merchants in thanks for a safe return from their travels. The organ, with its four thousand pipes, can be heard at the summer concerts." },
+        { ime: "Council Square and Rope Street", opis: "On the main square stands the old town hall, with a tower from which a trumpeter warned of danger. A few minutes away is Strada Sforii, barely more than a meter wide, a former passage for firefighters." },
+        { ime: "Catherine's Gate", opis: "This gate from 1559 has four small turrets at its corners, a sign that the town had the right to impose the death penalty. Through it the Romanians of the Șchei district entered the town and paid an entry toll." },
+        { ime: "Bran Castle", opis: "It was built by the Saxons at the end of the 14th century, and the connection with Vlad Țepeș is a weak one: he may have passed this way or been briefly imprisoned here. Queen Marie is more interesting, as she turned it into a summer residence in the 1920s. Look for the secret staircase hidden behind the fireplace." },
+        { ime: "Peleș Castle", opis: "It was completed in 1914 in Sinaia and was among the first castles in Europe with its own power plant, elevator and central vacuum system. The Hall of Honor has a glass ceiling that opens electrically, and the armory holds four thousand pieces of weaponry." },
+        { ime: "The fortified church in Prejmer", opis: "Around the church the villagers raised a wall four meters thick, with more than 270 small rooms on four levels, one for each family in case of siege. It is on the UNESCO list and is the best preserved of all the Saxon fortified churches." }
       ],
       jesti: [
-        { ime: "Kürtőskalács", opis: "Slatko tijesto namotano na valjak, pečeno nad žarom i uvaljano u šećer i orahe sekeljski je kolač koji se prodaje na svakom sajmu." },
-        { ime: "Grah u kruhu", opis: "Gusta juha od graha s dimljenim mesom poslužuje se u izdubljenom okruglom kruhu." },
-        { ime: "Bulz", opis: "Kugla palente punjena slanim ovčjim sirom zapečena na žaru pastirsko je jelo Karpata." }
+        { ime: "Kürtőskalács", opis: "Sweet dough wound around a cylinder, baked over hot coals and rolled in sugar and walnuts is a Szekler cake sold at every fair." },
+        { ime: "Beans in bread", opis: "A thick bean soup with smoked meat is served in a hollowed-out round loaf." },
+        { ime: "Bulz", opis: "A ball of polenta filled with salty sheep's cheese and grilled over the coals is a shepherds' dish of the Carpathians." }
       ],
       dozivjeti: [
-        { ime: "Žičarom na Tâmpu", opis: "S brda nad gradom, do kojeg vozi žičara ili vodi sat hoda kroz šumu, vidi se cijeli stari grad sa slovima u holivudskom stilu." },
-        { ime: "Utočište za medvjede kod Zărneștija", opis: "U hrastovoj šumi žive medvjedi spašeni iz cirkusa i kaveza, a obilazak s vodičem treba rezervirati unaprijed." },
-        { ime: "Koncert orgulja u Crnoj crkvi", opis: "Ljeti se nekoliko puta tjedno održavaju kratki večernji koncerti.", link: "https://bisericaneagra.ro/" }
+        { ime: "By cable car up Tâmpa", opis: "From the hill above the town, which you can reach by cable car or by an hour's walk through the forest, you can see the entire old town along with the Hollywood-style letters." },
+        { ime: "The bear sanctuary near Zărnești", opis: "Bears rescued from circuses and cages live in an oak forest, and the guided tour has to be booked in advance." },
+        { ime: "An organ concert in the Black Church", opis: "In summer short evening concerts are held several times a week.", link: "https://bisericaneagra.ro/" }
       ],
       agencije: [
-        { ime: "Grad Brașov", opis: "Službena stranica gradske uprave s obavijestima i događanjima.", link: "https://www.brasovcity.ro/" },
-        { ime: "Dvorac Bran", opis: "Službena stranica s ulaznicama i radnim vremenom.", link: "https://bran-castle.com/" },
-        { ime: "Nacionalni muzej Peleș", opis: "Službena stranica dvorca s vrstama obilazaka.", link: "https://peles.ro/" }
+        { ime: "City of Brașov", opis: "The official website of the city administration, with notices and events.", link: "https://www.brasovcity.ro/" },
+        { ime: "Bran Castle", opis: "The official website, with tickets and opening hours.", link: "https://bran-castle.com/" },
+        { ime: "Peleș National Museum", opis: "The official website of the castle, with the types of tours on offer.", link: "https://peles.ro/" }
       ],
-      kada: "Svibanj, lipanj, rujan i prosinac. Bran je u podne zakrčen, pa dođite na otvaranje, a za Peleș provjerite radne dane jer je dio tjedna zatvoren."
+      kada: "May, June, September and December. Bran is jammed at midday, so arrive at opening time, and for Peleș check the opening days because it is closed for part of the week."
     },
     {
       id: "sibiu",
       ime: "Sibiu",
       vrsta: "grad",
-      sazetak: "Najotmjeniji saski grad, čiji vas krovovi promatraju pospanim očima, s jednim od najstarijih muzeja u Europi.",
+      sazetak: "The most elegant Saxon town, whose roofs watch you with sleepy eyes, and home to one of the oldest museums in Europe.",
       prica: [
-        "Sibiu, njemački Hermannstadt, osnovali su u 12. stoljeću doseljenici s Rajne i Mosela, a u srednjem vijeku bio je najbogatiji od sedam saskih gradova, s devetnaest cehova i trima pojasevima zidina. U 18. stoljeću bio je sjedište habsburških namjesnika Transilvanije.",
-        "Grad je 2007. bio Europska prijestolnica kulture, što mu je donijelo temeljitu obnovu. Dugogodišnji gradonačelnik Klaus Iohannis, pripadnik preostale njemačke manjine, postao je predsjednik države."
+        "Sibiu, Hermannstadt in German, was founded in the 12th century by settlers from the Rhine and the Moselle, and in the Middle Ages it was the richest of the seven Saxon towns, with nineteen guilds and three rings of walls. In the 18th century it was the seat of the Habsburg governors of Transylvania.",
+        "In 2007 the city was European Capital of Culture, which brought it a thorough restoration. Its longtime mayor Klaus Iohannis, a member of the remaining German minority, went on to become president of the country."
       ],
       vidjeti: [
-        { ime: "Krovovi s očima", opis: "Uski otvori za prozračivanje tavana, na kojima se sušilo meso i žito, izgledaju kao napola sklopljene oči. Najbolje se vide s Velikog trga i sa stuba prema Donjem gradu." },
-        { ime: "Veliki i Mali trg", opis: "Dva trga spaja prolaz pod Vijećničkim tornjem iz 13. stoljeća, na koji se možete popeti. Na Malom su trgu radili obrtnici, pa kuće imaju arkade za izlaganje robe." },
-        { ime: "Most laži", opis: "Prvi most od lijevanog željeza u Rumunjskoj, iz 1859., prema legendi će se srušiti ako na njemu izgovorite laž. Ime je vjerojatno nastalo zabunom, od njemačke riječi za most koji leži, bez stupova." },
-        { ime: "Muzej Brukenthal", opis: "Palaču i zbirku ostavio je gradu namjesnik Samuel von Brukenthal, a muzej je otvoren 1817. godine. Potražite portret muškarca s plavom kapom Jana van Eycka, sliku veličine dlana." },
-        { ime: "Evangelička katedrala", opis: "Toranj visok 73 metra ima četiri tornjića, znak sudske vlasti grada. Pred vratima je 1510. ubijen vlaški knez Mihnea Zli, sin Vlada Țepeša, čija je grobna ploča u crkvi." },
-        { ime: "Muzej Astra", opis: "U šumi na rubu grada, oko jezera, raspoređeno je više od tristo seoskih kuća, vjetrenjača i vodenica iz cijele zemlje. Jedan je od najvećih muzeja na otvorenom u Europi, pa za njega odvojite pola dana." }
+        { ime: "The roofs with eyes", opis: "The narrow openings that ventilated the attics, where meat and grain were dried, look like half-closed eyes. They are best seen from the Great Square and from the steps leading to the Lower Town." },
+        { ime: "The Great Square and the Small Square", opis: "The two squares are joined by a passage under the 13th-century Council Tower, which you can climb. Craftsmen worked on the Small Square, so the houses have arcades for displaying their goods." },
+        { ime: "The Bridge of Lies", opis: "According to legend, the first cast-iron bridge in Romania, from 1859, will collapse if you tell a lie on it. The name probably arose from a mix-up with the German word for a bridge that lies flat, without pillars." },
+        { ime: "The Brukenthal Museum", opis: "The palace and the collection were left to the city by Governor Samuel von Brukenthal, and the museum opened in 1817. Look for Jan van Eyck's portrait of a man in a blue cap, a painting the size of your palm." },
+        { ime: "The Lutheran Cathedral", opis: "The tower, 73 meters tall, has four small turrets, a sign of the town's judicial authority. In 1510 the Wallachian prince Mihnea the Bad, son of Vlad Țepeș, was murdered in front of its doors, and his tombstone is in the church." },
+        { ime: "The Astra Museum", opis: "In the forest on the edge of the city, around a lake, more than three hundred village houses, windmills and watermills from all over the country are laid out. It is one of the largest open-air museums in Europe, so set aside half a day for it." }
       ],
       jesti: [
-        { ime: "Telemea de Sibiu", opis: "Slani ovčji sir iz salamure iz sela pod planinama ima zaštićenu oznaku i kupuje se na tržnici Cibin." },
-        { ime: "Hencleș", opis: "Saski kolač od dizanog tijesta s kremom od jaja i vrhnja peče se za blagdane." },
-        { ime: "Transilvanijska ciorbă", opis: "Kisela juha sa svinjetinom, vrhnjem i estragonom, omiljenim začinom ovog kraja." }
+        { ime: "Telemea de Sibiu", opis: "The salty brined sheep's cheese from the villages below the mountains has a protected designation and is bought at the Cibin market." },
+        { ime: "Hencleș", opis: "A Saxon cake of leavened dough with an egg and cream custard, baked for the holidays." },
+        { ime: "Transylvanian ciorbă", opis: "A sour soup with pork, sour cream and tarragon, the favorite herb of this region." }
       ],
       dozivjeti: [
-        { ime: "Međunarodni kazališni festival", opis: "U lipnju se deset dana igra na trgovima, u crkvama i tvorničkim halama, a mnoge su ulične predstave besplatne.", link: "https://www.sibfest.ro/" },
-        { ime: "Sela kraja Mărginimea Sibiului", opis: "U pastirskim selima pod planinom, poput Sibiela s muzejom ikona na staklu, domaćice primaju goste na ručak za zajedničkim stolom." },
-        { ime: "Transfăgărășan", opis: "Cesta koju je Ceaușescu dao probiti preko Fogaraških planina penje se u serpentinama do ledenjačkog jezera Bâlea na 2034 metra. Otvorena je otprilike od srpnja do listopada." },
-        { ime: "Božićni sajam", opis: "Od kraja studenoga Veliki je trg ispunjen kućicama i svjetlima, a sajam se ubraja među najljepše u istočnoj Europi.", link: "https://turism.sibiu.ro/" }
+        { ime: "The International Theater Festival", opis: "For ten days in June there are performances on squares, in churches and in factory halls, and many of the street shows are free.", link: "https://www.sibfest.ro/" },
+        { ime: "The villages of Mărginimea Sibiului", opis: "In the shepherd villages below the mountain, such as Sibiel with its museum of icons on glass, local women welcome guests to lunch at a shared table." },
+        { ime: "Transfăgărășan", opis: "The road that Ceaușescu had cut across the Făgăraș Mountains climbs in hairpin bends to the glacial lake Bâlea at 2,034 meters. It is open roughly from July to October." },
+        { ime: "The Christmas market", opis: "From the end of November the Great Square is filled with little wooden huts and lights, and the market is counted among the most beautiful in Eastern Europe.", link: "https://turism.sibiu.ro/" }
       ],
       agencije: [
-        { ime: "Turizam Sibiu", opis: "Službeni turistički portal grada.", link: "https://turism.sibiu.ro/" },
-        { ime: "Nacionalni muzej Brukenthal", opis: "Stranica muzeja s pregledom zbirki u nekoliko zgrada.", link: "https://www.brukenthalmuseum.ro/" },
-        { ime: "Muzej Astra", opis: "Stranica muzeja na otvorenom s kalendarom sajmova i radionica.", link: "https://muzeulastra.ro/" }
+        { ime: "Sibiu Tourism", opis: "The city's official tourism portal.", link: "https://turism.sibiu.ro/" },
+        { ime: "Brukenthal National Museum", opis: "The museum's website, with an overview of the collections housed in several buildings.", link: "https://www.brukenthalmuseum.ro/" },
+        { ime: "Astra Museum", opis: "The website of the open-air museum, with a calendar of fairs and workshops.", link: "https://muzeulastra.ro/" }
       ],
-      kada: "Svibanj do rujna i prosinac. Grad je kompaktan i sve se obilazi pješice, a Donji i Gornji grad povezuje nekoliko slikovitih stubišta."
+      kada: "May to September and December. The city is compact and everything can be seen on foot, and the Lower and Upper Towns are linked by several picturesque stairways."
     },
     {
       id: "sighisoara",
-      ime: "Sighișoara i saska sela",
+      ime: "Sighișoara and the Saxon villages",
       vrsta: "gradić",
-      sazetak: "Utvrđeni gradić na brežuljku u kojem se i danas stanuje među kulama cehova, i sela s crkvama-tvrđavama u okolnim dolinama.",
+      sazetak: "A fortified little town on a hill where people still live among the guild towers, and villages with fortress churches in the surrounding valleys.",
       prica: [
-        "Sighișoaru su u 12. stoljeću osnovali Sasi, a obrtnički cehovi podigli su i branili svaki svoju kulu na zidinama. Oko 1431. ovdje je rođen Vlad Țepeš, sin Vlada II. Dracula, viteza Zmajeva reda, pa mu nadimak Drăculea znači Zmajev sin.",
-        "Gornji grad jedna je od rijetkih nastanjenih srednjovjekovnih citadela u Europi i od 1999. na UNESCO-ovu je popisu. U okolnim selima Sasi su utvrdili crkve, a nakon njihova iseljavanja u Njemačku devedesetih godina kuće obnavljaju zaklade i novi stanovnici."
+        "Sighișoara was founded by the Saxons in the 12th century, and each of the craft guilds built and defended its own tower on the walls. Around 1431 Vlad Țepeș was born here, the son of Vlad II Dracul, a knight of the Order of the Dragon, so his nickname Drăculea means Son of the Dragon.",
+        "The upper town is one of the few inhabited medieval citadels in Europe and has been on the UNESCO list since 1999. In the surrounding villages the Saxons fortified their churches, and since their emigration to Germany in the 1990s the houses have been restored by foundations and new residents."
       ],
       vidjeti: [
-        { ime: "Toranj sa satom", opis: "Ulazna kula visoka 64 metra čuvala je gradsku blagajnu i arhiv. U niši sata svake se ponoći izmijeni drvena figura koja predstavlja dan u tjednu, prikazana kao antički bog. S galerije se vidi svih devet sačuvanih kula." },
-        { ime: "Kuća Vlada Dracula", opis: "Žuta kuća na trgu smatra se mjestom Vladova rođenja, a danas je u njoj restoran. Na katu je sačuvan ulomak freske s likom koji se tumači kao njegov otac." },
-        { ime: "Školske stube", opis: "Natkriveno drveno stubište iz 1642. sagrađeno je da đaci zimi lakše stignu do škole na brdu. Od tristo stuba danas ih je ostalo 176." },
-        { ime: "Crkva na brdu", opis: "Gotička crkva ima jedinu kriptu u Transilvaniji i ostatke fresaka iz 15. stoljeća. Oko nje je staro sasko groblje s nadgrobnim pločama obraslima u bršljan." },
-        { ime: "Biertan", opis: "Crkva s tri prstena zidina bila je tri stoljeća sjedište saskog biskupa. Vrata sakristije imaju bravu s devetnaest zasuna, nagrađenu na izložbi u Parizu 1900. godine. U jednoj kuli parovi koji su tražili razvod zatvarani su na dva tjedna s jednim krevetom i jednom žlicom, a predaja kaže da se u tristo godina razveo samo jedan." },
-        { ime: "Viscri", opis: "Selo bijele utvrđene crkve i plavih kuća uz blatnjavu cestu proslavio je britanski kralj Charles, koji je ovdje kupio i obnovio jednu kuću. Navečer se krave same vraćaju s paše svaka u svoje dvorište." }
+        { ime: "The Clock Tower", opis: "The gate tower, 64 meters tall, guarded the town treasury and archive. In the niche of the clock, a wooden figure representing the day of the week, shown as an ancient god, changes every midnight. From the gallery you can see all nine surviving towers." },
+        { ime: "The house of Vlad Dracul", opis: "The yellow house on the square is considered to be the place where Vlad was born, and today it holds a restaurant. Upstairs a fragment of a fresco survives with a figure that is interpreted as his father." },
+        { ime: "The Scholars' Stairs", opis: "This covered wooden staircase from 1642 was built so that pupils could reach the school on the hill more easily in winter. Of its three hundred steps, 176 remain today." },
+        { ime: "The Church on the Hill", opis: "The Gothic church has the only crypt in Transylvania and the remains of 15th-century frescoes. Around it is the old Saxon cemetery, with tombstones overgrown with ivy." },
+        { ime: "Biertan", opis: "This church with three rings of walls was the seat of the Saxon bishop for three centuries. The sacristy door has a lock with nineteen bolts, which won a prize at the Paris exhibition of 1900. In one of the towers, couples seeking a divorce were locked up for two weeks with one bed and one spoon, and tradition says that in three hundred years only one couple divorced." },
+        { ime: "Viscri", opis: "This village with a white fortified church and blue houses along a muddy road was made famous by the British King Charles, who bought and restored a house here. In the evening the cows come home from pasture on their own, each to its own yard." }
       ],
       jesti: [
-        { ime: "Džemovi iz Saschiza", opis: "U selu na pola puta do Viscrija kuhaju se pekmezi od rabarbare, bazge i šumskog voća po saskim receptima." },
-        { ime: "Tocană", opis: "Gusti gulaš od svinjetine ili divljači poslužuje se s palentom i kiselim krastavcima." },
-        { ime: "Pălincă", opis: "Domaća rakija od šljiva ili krušaka nudi se u svakom seoskom domaćinstvu." }
+        { ime: "Jams from Saschiz", opis: "In the village halfway to Viscri, preserves of rhubarb, elderflower and forest fruits are cooked to Saxon recipes." },
+        { ime: "Tocană", opis: "A thick stew of pork or game is served with polenta and pickles." },
+        { ime: "Pălincă", opis: "Homemade plum or pear brandy is offered in every village household." }
       ],
       dozivjeti: [
-        { ime: "Večer na citadeli", opis: "Nakon odlaska izletnika gornji grad utihne, a ulice osvjetljavaju samo svjetiljke. Zato vrijedi prenoćiti unutar zidina." },
-        { ime: "Pješice i biciklom između sela", opis: "Zaklada iz Saschiza označila je staze preko livada punih cvijeća, koje povezuju utvrđene crkve, i daje karte i savjete.", link: "https://fundatia-adept.org/" },
-        { ime: "Srednjovjekovni festival", opis: "Posljednjeg vikenda u srpnju grad se puni vitezovima, glazbenicima i obrtnicima, uz veliku gužvu." }
+        { ime: "An evening in the citadel", opis: "Once the day-trippers have left, the upper town falls quiet and the streets are lit only by lanterns. That is why it is worth spending the night inside the walls." },
+        { ime: "On foot and by bike between the villages", opis: "A foundation based in Saschiz has marked trails across flower-filled meadows that link the fortified churches, and it provides maps and advice.", link: "https://fundatia-adept.org/" },
+        { ime: "The medieval festival", opis: "On the last weekend in July the town fills with knights, musicians and craftspeople, and with big crowds too." }
       ],
       agencije: [
-        { ime: "Grad Sighișoara", opis: "Službena stranica gradske uprave.", link: "https://primariasighisoara.ro/" },
-        { ime: "Zaklada ADEPT", opis: "Organizacija iz Saschiza koja čuva krajolik saskih sela i vodi turistički informativni centar.", link: "https://fundatia-adept.org/" }
+        { ime: "City of Sighișoara", opis: "The official website of the city administration.", link: "https://primariasighisoara.ro/" },
+        { ime: "ADEPT Foundation", opis: "An organization from Saschiz that protects the landscape of the Saxon villages and runs a tourist information center.", link: "https://fundatia-adept.org/" }
       ],
-      kada: "Svibanj i lipanj, kada su livade u cvatu, te rujan. Ključ utvrđenih crkava u manjim selima čuva netko od mještana, čiji je broj telefona obično napisan na vratima."
+      kada: "May and June, when the meadows are in bloom, and September. The key to the fortified churches in the smaller villages is kept by one of the locals, whose phone number is usually written on the door."
     },
     {
       id: "bukovina",
-      ime: "Oslikani samostani Bukovine",
+      ime: "The Painted Monasteries of Bukovina",
       vrsta: "regija",
-      sazetak: "Crkve na sjeveroistoku zemlje koje su prije pet stoljeća oslikane izvana, od temelja do krova, i čije boje i danas odolijevaju kiši i snijegu.",
+      sazetak: "Churches in the northeast of the country that were painted on the outside five centuries ago, from the foundations to the roof, and whose colors still withstand rain and snow today.",
       prica: [
-        "Moldavski knez Stjepan Veliki vladao je od 1457. do 1504. i, prema predaji, nakon svake pobjede nad Osmanlijama podigao po jednu crkvu. Njegov sin Petru Rareș dao je tridesetih i četrdesetih godina 16. stoljeća oslikati njihove vanjske zidove prizorima iz Biblije, kako bi ih mogli čitati i nepismeni seljaci i vojnici koji nisu stali u crkvu.",
-        "Kako su boje preživjele pet stotina zima, nije do kraja razjašnjeno. Osam crkava nalazi se na UNESCO-ovu popisu, a o njima se i danas brinu redovnice."
+        "The Moldavian prince Stephen the Great ruled from 1457 to 1504 and, according to tradition, built a church after every victory over the Ottomans. In the 1530s and 1540s his son Petru Rareș had their outer walls painted with scenes from the Bible, so that they could be read by illiterate peasants and by the soldiers who did not fit inside the church.",
+        "How the colors have survived five hundred winters has never been fully explained. Eight of the churches are on the UNESCO list, and nuns still look after them today."
       ],
       vidjeti: [
-        { ime: "Voroneț", opis: "Stjepan ju je 1488. sagradio za tri mjeseca i tri tjedna. Cijeli zapadni zid zauzima Posljednji sud iz 1547., na kojem ognjena rijeka nosi grešnike, a životinje vraćaju dijelove tijela onih koje su pojele. Plava pozadina toliko je posebna da je ušla u rječnik slikara kao voronečka plava." },
-        { ime: "Sucevița", opis: "Posljednja i najveća, s kraja 16. stoljeća, okružena je zidinama poput tvrđave. Na sjevernom zidu su Ljestve vrlina, po kojima se monasi penju u nebo, dok ih vragovi povlače dolje. Zapadni zid ostao je prazan, a legenda kaže da je slikar pao sa skele." },
-        { ime: "Moldovița", opis: "Na južnom zidu prikazana je opsada Carigrada, na kojoj su napadači naslikani kao Osmanlije s topovima, što je bila jasna politička poruka. Prevladava zlatnožuta boja." },
-        { ime: "Humor", opis: "Mala crkva bez tornja, jer ju je 1530. podigao plemić, a ne knez, poznata je po crvenkastim tonovima. Na Posljednjem sudu vrag je prikazan kao žena." },
-        { ime: "Putna", opis: "Samostan bez vanjskih fresaka čuva grob Stjepana Velikog i mjesto je hodočašća. U muzeju su vezovi i rukopisi iz 15. stoljeća." }
+        { ime: "Voroneț", opis: "Stephen built it in 1488 in three months and three weeks. The whole west wall is taken up by the Last Judgment of 1547, in which a river of fire carries off the sinners and animals give back the body parts of those they have eaten. The blue background is so distinctive that it has entered the painters' vocabulary as Voroneț blue." },
+        { ime: "Sucevița", opis: "The last and the largest, from the end of the 16th century, is surrounded by walls like a fortress. On the north wall is the Ladder of Virtues, which monks climb toward heaven while devils pull them down. The west wall was left blank, and legend says the painter fell from the scaffolding." },
+        { ime: "Moldovița", opis: "The south wall depicts the siege of Constantinople, in which the attackers are painted as Ottomans with cannons, which was a clear political message. A golden yellow predominates." },
+        { ime: "Humor", opis: "This small church, which has no tower because it was built in 1530 by a nobleman rather than a prince, is known for its reddish tones. In its Last Judgment the devil is depicted as a woman." },
+        { ime: "Putna", opis: "This monastery without exterior frescoes holds the tomb of Stephen the Great and is a place of pilgrimage. The museum has embroideries and manuscripts from the 15th century." }
       ],
       jesti: [
-        { ime: "Ciorbă rădăuțeană", opis: "Kremasta kisela juha od piletine s češnjakom i vrhnjem nastala je u obližnjem gradiću Rădăuți." },
-        { ime: "Pastrva u jelovoj kori", opis: "Dimljena pastrva umotana u jelove grančice specijalitet je planinskih sela." },
-        { ime: "Poale-n brâu", opis: "Moldavske pogačice od dizanog tijesta punjene slatkim sirom, čije ime znači skuti zataknuti za pojas." }
+        { ime: "Ciorbă rădăuțeană", opis: "A creamy sour chicken soup with garlic and sour cream that originated in the nearby town of Rădăuți." },
+        { ime: "Trout in fir bark", opis: "Smoked trout wrapped in fir twigs is a specialty of the mountain villages." },
+        { ime: "Poale-n brâu", opis: "Moldavian buns of leavened dough filled with sweet cheese, whose name means skirts tucked into the belt." }
       ],
       dozivjeti: [
-        { ime: "Muzej pisanica u Vami", opis: "Privatna zbirka čuva tisuće ukrašenih jaja iz Bukovine i svijeta, a vlasnica pokazuje kako se piše voskom." },
-        { ime: "Crna keramika u Margineji", opis: "U selu kod Sucevițe lončari peku posuđe bez kisika, pa glina pocrni, tehnikom starom više tisuća godina." },
-        { ime: "Vožnja preko prijevoja", opis: "Cesta između Sucevițe i Moldovițe prelazi prijevoj Ciumârna, s pogledom na valovite planine i sela s kućama ukrašenima rezbarijom.", link: "https://www.bucovinaturism.ro/" }
+        { ime: "The painted egg museum in Vama", opis: "A private collection holds thousands of decorated eggs from Bukovina and around the world, and the owner shows how the patterns are drawn in wax." },
+        { ime: "Black pottery in Marginea", opis: "In this village near Sucevița the potters fire their ware without oxygen, so the clay turns black, using a technique thousands of years old." },
+        { ime: "A drive over the pass", opis: "The road between Sucevița and Moldovița crosses the Ciumârna Pass, with views of rolling mountains and villages whose houses are decorated with carving.", link: "https://www.bucovinaturism.ro/" }
       ],
       agencije: [
-        { ime: "Turizam Bukovine", opis: "Udruga za turizam Bukovine s popisom informativnih centara, vodiča i smještaja.", link: "https://www.bucovinaturism.ro/" },
-        { ime: "Romanian Monasteries", opis: "Vodič po samostanima Bukovine s opisima fresaka i praktičnim informacijama.", link: "https://www.romanianmonasteries.org/" }
+        { ime: "Bukovina Tourism", opis: "The tourism association of Bukovina, with a list of information centers, guides and accommodation.", link: "https://www.bucovinaturism.ro/" },
+        { ime: "Romanian Monasteries", opis: "A guide to the monasteries of Bukovina, with descriptions of the frescoes and practical information.", link: "https://www.romanianmonasteries.org/" }
       ],
-      kada: "Od svibnja do listopada. Samostani su međusobno udaljeni dvadeset do četrdeset kilometara, pa je potreban automobil ili lokalni vodič, a za obilazak računajte dva dana s noćenjem u Gura Humorului ili Suceviți."
+      kada: "From May to October. The monasteries are twenty to forty kilometers apart, so you need a car or a local guide, and you should allow two days for the visit, with a night in Gura Humorului or Sucevița."
     },
     {
       id: "maramures",
       ime: "Maramureș",
       vrsta: "regija",
-      sazetak: "Kraj drvenih crkava vitkih tornjeva, rezbarenih kapija i sijena na stogovima, gdje se nedjeljom još ide na misu u nošnji.",
+      sazetak: "A land of wooden churches with slender spires, carved gates and hay piled in stacks, where people still go to Mass in folk costume on Sundays.",
       prica: [
-        "Maramureș leži na krajnjem sjeveru, uz ukrajinsku granicu, iza planinskih prijevoja koji su ga stoljećima čuvali od promjena. Kako pravoslavcima pod ugarskom vlašću nije bilo dopušteno graditi kamene crkve, podizali su ih od hrastovine, bez ijednog čavla, s tornjevima visokima poput gotičkih.",
-        "Komunistička kolektivizacija ovamo jedva da je stigla, pa su se sačuvali mala imanja i stari zanati. Osam drvenih crkava nalazi se na UNESCO-ovu popisu od 1999. godine."
+        "Maramureș lies in the far north, along the Ukrainian border, behind mountain passes that shielded it from change for centuries. Because Orthodox believers under Hungarian rule were not allowed to build stone churches, they raised them in oak, without a single nail, with spires as tall as Gothic ones.",
+        "Communist collectivization barely reached this far, so small farms and old crafts have survived. Eight of the wooden churches have been on the UNESCO list since 1999."
       ],
       vidjeti: [
-        { ime: "Veselo groblje u Săpânți", opis: "Drvorezbar Stan Ioan Pătraș počeo je 1935. izrađivati plave križeve s naslikanim prizorom iz pokojnikova života i stihovima u prvom licu, često šaljivima ili zajedljivima. Danas ih je više od osam stotina, a posao nastavljaju njegovi učenici." },
-        { ime: "Drvene crkve", opis: "Crkva u Șurdeștiju ima toranj visok 54 metra, među najvišim hrastovim građevinama u Europi. U Ieudu i Poienile Izei unutrašnji su zidovi oslikani na platnu zalijepljenom za brvna, s osobito maštovitim prikazima pakla." },
-        { ime: "Rezbarene kapije", opis: "Pred svakom kućom u dolinama Mare i Ize stoji visoka hrastova kapija s uklesanim užetom, suncem i drvom života. Što je kapija veća, to je ugled obitelji veći." },
-        { ime: "Memorijal u Sighetu", opis: "U zatvoru u kojem je pedesetih godina 20. stoljeća stradala predratna politička i crkvena elita uređen je muzej žrtava komunizma. Svaka ćelija obrađuje jednu temu, a u dvorištu je potresna skupina brončanih likova." },
-        { ime: "Samostan Bârsana", opis: "Novi samostanski sklop sagrađen je devedesetih u tradicionalnom stilu, s drvenom crkvom vitkog tornja i vrtovima punima cvijeća. Pokazuje da je graditeljsko umijeće u ovom kraju i danas živo." }
+        { ime: "The Merry Cemetery in Săpânța", opis: "In 1935 the wood-carver Stan Ioan Pătraș began making blue crosses with a painted scene from the life of the deceased and verses in the first person, often humorous or biting. Today there are more than eight hundred of them, and his pupils carry on the work." },
+        { ime: "The wooden churches", opis: "The church in Șurdești has a spire 54 meters tall, among the tallest oak structures in Europe. In Ieud and Poienile Izei the interior walls are painted on canvas glued to the logs, with especially imaginative depictions of hell." },
+        { ime: "The carved gates", opis: "In front of every house in the Mara and Iza valleys stands a tall oak gate carved with the rope, the sun and the tree of life. The bigger the gate, the greater the family's standing." },
+        { ime: "The Sighet Memorial", opis: "A museum of the victims of communism has been set up in the prison where the prewar political and church elite perished in the 1950s. Each cell deals with a single theme, and in the courtyard there is a harrowing group of bronze figures." },
+        { ime: "Bârsana Monastery", opis: "This new monastery complex was built in the 1990s in the traditional style, with a wooden church with a slender spire and gardens full of flowers. It shows that the art of building is still alive in this region today." }
       ],
       jesti: [
-        { ime: "Horincă", opis: "Dvaput pečena šljivovica nudi se već na pragu, a domaćin pije prvi, da pokaže kako je dobra." },
-        { ime: "Balmoș", opis: "Palenta kuhana u ovčjem vrhnju s maslacem i sirom, teška i neodoljiva." },
-        { ime: "Sarmale s kukuruzom", opis: "Ovdje se pune krupno mljevenim kukuruzom i dimljenim mesom i kuhaju u glinenom loncu." }
+        { ime: "Horincă", opis: "Twice-distilled plum brandy is offered right at the doorstep, and the host drinks first, to show how good it is." },
+        { ime: "Balmoș", opis: "Polenta cooked in sheep's cream with butter and cheese, heavy and irresistible." },
+        { ime: "Sarmale with corn", opis: "Here they are filled with coarsely ground corn and smoked meat and cooked in a clay pot." }
       ],
       dozivjeti: [
-        { ime: "Parni vlak dolinom Vasera", opis: "Iz mjesta Vișeu de Sus uskotračna šumska željeznica, posljednja te vrste u Europi koja još prevozi drvo, vozi izletnike dvadesetak kilometara uz rijeku." },
-        { ime: "Nedjeljna misa na selu", opis: "U selima poput Budeștija ili Ieuda žene dolaze u cvjetnim suknjama i maramama, a muškarci u malim slamnatim šeširima. Stanite straga i ne fotografirajte tijekom obreda." },
-        { ime: "Noćenje u seoskom domaćinstvu", opis: "Obitelji iznajmljuju sobe i kuhaju od onoga što same uzgoje, a domaćin će vas rado povesti na košnju ili u kovačnicu.", link: "https://omdmaramures.ro/" }
+        { ime: "The steam train along the Vaser valley", opis: "From the town of Vișeu de Sus a narrow-gauge forestry railway, the last of its kind in Europe that still hauls timber, carries visitors some twenty kilometers along the river." },
+        { ime: "Sunday Mass in a village", opis: "In villages such as Budești or Ieud the women come in floral skirts and headscarves, and the men in small straw hats. Stand at the back and do not take photographs during the service." },
+        { ime: "A night on a village homestead", opis: "Families rent out rooms and cook from what they grow themselves, and your host will gladly take you along to the mowing or to the smithy.", link: "https://omdmaramures.ro/" }
       ],
       agencije: [
-        { ime: "OMD Maramureș", opis: "Organizacija za upravljanje odredištem s opisima crkava, staza i doživljaja.", link: "https://omdmaramures.ro/" },
-        { ime: "Memorijal žrtvama komunizma", opis: "Službena stranica muzeja u Sighetu.", link: "https://www.memorialsighet.ro/" }
+        { ime: "OMD Maramureș", opis: "The destination management organization, with descriptions of churches, trails and experiences.", link: "https://omdmaramures.ro/" },
+        { ime: "Memorial of the Victims of Communism", opis: "The official website of the museum in Sighet.", link: "https://www.memorialsighet.ro/" }
       ],
-      kada: "Svibanj do rujna, a posebno je lijepo krajem lipnja, u vrijeme košnje, i krajem prosinca, kada se održavaju zimski običaji. Ceste su uske i spore, pa računajte na najmanje tri dana."
+      kada: "May to September, and it is especially lovely at the end of June, at mowing time, and at the end of December, when the winter customs take place. The roads are narrow and slow, so allow at least three days."
     }
   ],
   izvori: [
     { ime: "Romania Tourism", url: "https://romaniatourism.com/" },
-    { ime: "UNESCO, popis svjetske baštine: Rumunjska", url: "https://whc.unesco.org/en/statesparties/ro" },
-    { ime: "Muzej sela Dimitrie Gusti", url: "https://muzeul-satului.ro/" },
-    { ime: "Crna crkva, Brașov", url: "https://bisericaneagra.ro/" },
-    { ime: "Nacionalni muzej Peleș", url: "https://peles.ro/" },
-    { ime: "Dvorac Bran", url: "https://bran-castle.com/" },
-    { ime: "Turizam Sibiu", url: "https://turism.sibiu.ro/" },
-    { ime: "Nacionalni muzej Brukenthal", url: "https://www.brukenthalmuseum.ro/" },
-    { ime: "Zaklada ADEPT", url: "https://fundatia-adept.org/" },
-    { ime: "Turizam Bukovine", url: "https://www.bucovinaturism.ro/" },
+    { ime: "UNESCO World Heritage List: Romania", url: "https://whc.unesco.org/en/statesparties/ro" },
+    { ime: "Dimitrie Gusti Village Museum", url: "https://muzeul-satului.ro/" },
+    { ime: "The Black Church, Brașov", url: "https://bisericaneagra.ro/" },
+    { ime: "Peleș National Museum", url: "https://peles.ro/" },
+    { ime: "Bran Castle", url: "https://bran-castle.com/" },
+    { ime: "Sibiu Tourism", url: "https://turism.sibiu.ro/" },
+    { ime: "Brukenthal National Museum", url: "https://www.brukenthalmuseum.ro/" },
+    { ime: "ADEPT Foundation", url: "https://fundatia-adept.org/" },
+    { ime: "Bukovina Tourism", url: "https://www.bucovinaturism.ro/" },
     { ime: "OMD Maramureș", url: "https://omdmaramures.ro/" }
   ]
 };

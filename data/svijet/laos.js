@@ -2,157 +2,157 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["laos"] = {
   id: "laos",
   ime: "Laos",
-  regija: "Jugoistočna Azija",
-  sazetak: "Tiha zemlja uz Mekong u kojoj dan počinje povorkom redovnika u zoru, a završava ljepljivom rižom i zalaskom sunca nad rijekom.",
+  regija: "Southeast Asia",
+  sazetak: "A quiet country along the Mekong where the day begins with a procession of monks at dawn and ends with sticky rice and a sunset over the river.",
   uvod: [
-    "Laos je jedina zemlja jugoistočne Azije bez izlaza na more, stiješnjena između Tajlanda, Vijetnama, Kine, Kambodže i Mjanmara. Njezina je okosnica Mekong, uz koji leže gotovo svi gradovi. Život ovdje teče sporije nego kod susjeda, pa putnici kraticu službenog imena države, Lao PDR, u šali čitaju kao „Please Don't Rush“, molim bez žurbe.",
-    "Godine 1353. kralj Fa Ngum ujedinio je laoske kneževine u kraljevstvo Lan Xang, „zemlju milijun slonova“, s prijestolnicom u današnjem Luang Prabangu. Kraljevstvo se početkom 18. stoljeća raspalo na tri dijela, koja su potpala pod Sijam, a 1893. Laos je postao francuski protektorat. Neovisnost je stekao 1953., a 1975. monarhija je ukinuta i proglašena je narodna republika.",
-    "Najteže poglavlje bio je takozvani Tajni rat. Od 1964. do 1973. SAD je na Laos, kroz koji je prolazio opskrbni put sjevernovijetnamske vojske, bacio više od dva milijuna tona bombi, pa se Laos smatra najbombardiranijom zemljom na svijetu po glavi stanovnika. Neeksplodirana ubojita sredstva i danas se uklanjaju s polja, a od 2021. zemlju prvi put povezuje brza željeznica od kineske granice do Vientianea."
+    "Laos is the only country in Southeast Asia without access to the sea, squeezed between Thailand, Vietnam, China, Cambodia and Myanmar. Its backbone is the Mekong, along which almost all of its towns lie. Life here flows more slowly than in the neighboring countries, so travelers jokingly read the abbreviation of the country's official name, Lao PDR, as “Please Don't Rush”.",
+    "In 1353 King Fa Ngum united the Lao principalities into the kingdom of Lan Xang, “the land of a million elephants”, with its capital in today's Luang Prabang. The kingdom broke into three parts in the early 18th century, all of which fell under Siam, and in 1893 Laos became a French protectorate. It gained independence in 1953, and in 1975 the monarchy was abolished and a people's republic was proclaimed.",
+    "The hardest chapter was the so-called Secret War. From 1964 to 1973 the USA dropped more than two million tons of bombs on Laos, through which the supply route of the North Vietnamese army ran, so Laos is considered the most heavily bombed country in the world per capita. Unexploded ordnance is still being cleared from the fields today, and since 2021 a fast railway from the Chinese border to Vientiane has linked the country for the first time."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od studenoga do veljače suho je i ugodno, s prohladnim jutrima na sjeveru. Od ožujka do svibnja vrlo je vruće, a zrak je na sjeveru zadimljen zbog paljenja polja. Kišna sezona traje od lipnja do listopada, kada su slapovi najsnažniji." },
-    { k: "Valuta", v: "Laoski kip (LAK). Gotovina je nužna, bankomati postoje u gradovima, a mnogi mještani plaćaju QR kodom preko domaćih aplikacija. Tečaj se posljednjih godina jako mijenjao, pa provjerite stanje pred put." },
-    { k: "Kretanje", v: "Željeznica Laos-Kina povezuje Vientiane, Vang Vieng i Luang Prabang za sat do dva vožnje, umjesto cijelog dana autobusom po zavojima. Karte se prodaju nekoliko dana unaprijed i brzo nestanu, pa ih je najlakše naručiti preko smještaja. U gradovima vozi aplikacija Loca." },
-    { k: "Napojnica", v: "Ne očekuje se, ali je vodičima, vozačima i maserkama drag znak zahvalnosti jer su plaće vrlo niske." }
+    { k: "When to go", v: "From November to February it is dry and pleasant, with chilly mornings in the north. From March to May it is very hot, and the air in the north is smoky from the burning of fields. The rainy season runs from June to October, when the waterfalls are at their most powerful." },
+    { k: "Currency", v: "Lao kip (LAK). Cash is essential, there are ATMs in the towns, and many locals pay by QR code through domestic apps. The exchange rate has swung sharply in recent years, so check the situation before your trip." },
+    { k: "Getting around", v: "The Laos-China Railway connects Vientiane, Vang Vieng and Luang Prabang in a ride of one to two hours, in place of a whole day by bus around the bends. Tickets go on sale a few days ahead and disappear quickly, so it is easiest to order them through your accommodation. In the towns you can get rides with the Loca app." },
+    { k: "Tipping", v: "It is not expected, but for guides, drivers and massage therapists it is a welcome sign of thanks, because wages are very low." }
   ],
   hrana: [
-    { ime: "Khao niao", opis: "Ljepljiva riža kuhana na pari u stožastoj košari od bambusa i poslužena u maloj pletenoj košarici s poklopcem.", prica: "Laošani je jedu više od ikoga na svijetu i sami se nazivaju djecom ljepljive riže. Jede se prstima: otkine se zalogaj, zgnječi u kuglicu i njome se zahvati jelo ili umak. Poklopac košarice na kraju treba vratiti, jer otvorena košarica, kažu, donosi nesreću." },
-    { ime: "Laap", opis: "Salata od sitno sjeckanog mesa ili ribe s limetom, ribljim umakom, metvicom, čilijem i prženom mljevenom rižom.", prica: "Nacionalno jelo čije ime znači sreća, pa se poslužuje na svadbama i za Novu godinu. Mljevena tostirana riža daje mu orašast miris i hrskavost. Pripazite na inačicu sa sirovim mesom i zatražite kuhanu." },
-    { ime: "Tam mak hoong", opis: "Salata od zelene papaje tučene u mužaru s čilijem, limetom, rajčicom i fermentiranim ribljim umakom padaek.", prica: "Laošani su ponosni što je ovo izvornik jela koje svijet poznaje kao tajlandski som tam. Laoska je inačica slanija, ljuća i tamnija zbog padaeka, gustog umaka od ribe koji mjesecima dozrijeva u ćupovima." },
-    { ime: "Or lam", opis: "Gusti gulaš od bivoljeg mesa ili piletine s patlidžanom, gljivama, koprom i komadićima paprene drvenaste povijuše sakhan.", prica: "Specijalitet Luang Prabanga koji potječe s kraljevskog dvora. Komadići drva sakhan samo se žvaču i ostavljaju sa strane, a na jeziku izazivaju lagane trnce, slično sečuanskom papru." },
-    { ime: "Khao piak sen", opis: "Juha s debelim, žilavim rezancima od rižina i tapiokina brašna, piletinom ili svinjetinom, prženim češnjakom i limetom.", prica: "Laoski doručak i lijek za sve, od prehlade do umora. Rezanci se kuhaju izravno u juhi, pa je ona gusta i gotovo kremasta. Na stolu vas čekaju čili, riblji umak i šećer da je dotjerate po svom." },
-    { ime: "Khai paen", opis: "Tanki listovi riječne alge iz Mekonga, sušeni na suncu sa sezamom, češnjakom i rajčicom, pa kratko prženi.", prica: "Jedu se kao grickalica uz pivo, s jeow bongom, slatko-ljutom pastom od čilija u kojoj su komadići bivolje kože. Alga se bere u hladnim mjesecima, kada je rijeka niska i bistra." },
-    { ime: "Khao jee pâté", opis: "Baget punjen paštetom, svinjskim narescima, mrkvom, korijandrom i čili umakom.", prica: "Francuzi su ostavili kruh i kavu. Na jutarnjim tržnicama bageti se slažu u piramide, a sendvič se jede uz jaku laosku kavu s kondenziranim mlijekom." },
-    { ime: "Beerlao i laoska kava", opis: "Lagano pivo s dodatkom domaće riže i kava s vulkanske visoravni Bolaven na jugu.", prica: "Beerlao je predmet nacionalnog ponosa i pije se s ledom, iz malih čaša koje se neprestano dolijevaju. Kavu su na Bolaven donijeli Francuzi početkom 20. stoljeća, a danas je jedan od najvažnijih izvoznih proizvoda zemlje." }
+    { ime: "Khao niao", opis: "Sticky rice steamed in a cone-shaped bamboo basket and served in a small woven basket with a lid.", prica: "The Lao eat more of it than anyone else in the world and call themselves the children of sticky rice. You eat it with your fingers: you tear off a bite, press it into a little ball and use it to scoop up food or sauce. At the end you should put the lid back on the basket, because an open basket, they say, brings bad luck." },
+    { ime: "Laap", opis: "A salad of finely chopped meat or fish with lime, fish sauce, mint, chili and toasted ground rice.", prica: "This is the national dish, and its name means luck, so it is served at weddings and for the New Year. The toasted ground rice gives it a nutty aroma and a crunch. Watch out for the version with raw meat and ask for the cooked one." },
+    { ime: "Tam mak hoong", opis: "A salad of green papaya pounded in a mortar with chili, lime, tomato and the fermented fish sauce padaek.", prica: "The Lao are proud that this is the original of the dish the world knows as Thai som tam. The Lao version is saltier, spicier and darker because of padaek, a thick fish sauce that matures for months in jars." },
+    { ime: "Or lam", opis: "A thick stew of buffalo meat or chicken with eggplant, mushrooms, dill and pieces of the peppery woody vine sakhan.", prica: "This is a specialty of Luang Prabang that comes from the royal court. The pieces of sakhan wood are only chewed and then set aside, and they leave a light tingling on the tongue, much like Sichuan pepper." },
+    { ime: "Khao piak sen", opis: "A soup with thick, chewy noodles of rice and tapioca flour, chicken or pork, fried garlic and lime.", prica: "This is the Lao breakfast and the cure for everything, from a cold to tiredness. The noodles are cooked right in the broth, which makes it thick and almost creamy. Chili, fish sauce and sugar are waiting on the table so you can adjust it to your taste." },
+    { ime: "Khai paen", opis: "Thin sheets of river weed from the Mekong, dried in the sun with sesame, garlic and tomato and then quickly fried.", prica: "They are eaten as a snack with beer, with jeow bong, a sweet and spicy chili paste with bits of buffalo skin in it. The weed is harvested in the cool months, when the river is low and clear." },
+    { ime: "Khao jee pâté", opis: "A baguette filled with pâté, pork cold cuts, carrot, cilantro and chili sauce.", prica: "The French left behind bread and coffee. At the morning markets the baguettes are stacked in pyramids, and the sandwich is eaten with strong Lao coffee with condensed milk." },
+    { ime: "Beerlao and Lao coffee", opis: "A light beer brewed with local rice, and coffee from the volcanic Bolaven Plateau in the south.", prica: "Beerlao is a matter of national pride and is drunk with ice, from small glasses that are constantly topped up. Coffee was brought to the Bolaven by the French in the early 20th century, and today it is one of the country's most important exports." }
   ],
   obicaji: [
-    { ime: "Tak bat, jutarnja milostinja", opis: "U zoru redovnici i mladi novaci u šafranskim haljama u tihoj koloni prolaze ulicama, a vjernici klečeći u njihove posude stavljaju po grumen ljepljive riže. To je živi vjerski obred i tako mu treba pristupiti.", gdje: "Svakog jutra oko pola šest u Luang Prabangu. Gledajte s druge strane ulice, u tišini, pokrivenih ramena i bez bljeskalice, i ne kupujte rižu od uličnih prodavača koji je nude turistima." },
-    { ime: "Baci", opis: "Obred kojim se čovjeku vraćaju 32 duha zaštitnika, khuan, za koje se vjeruje da znaju odlutati iz tijela. Stariji mještanin izgovara blagoslov uz stožac od lišća banane i nevena, a zatim svi sudionici jedni drugima oko zapešća vežu bijele pamučne konce. Konci se nose najmanje tri dana, a zatim se odvežu, bez rezanja.", gdje: "Pri vjenčanjima, rođenjima, odlascima na put i za Novu godinu. U Luang Prabangu ga za goste priređuju obitelji i kulturni centri." },
-    { ime: "Pi Mai Lao, laoska Nova godina", opis: "Tri dana polijevanja vodom sredinom travnja, kojim se ispire stara godina. Peru se kipovi Bude i ruke starijih, na obali Mekonga grade se stupe od pijeska, a ulicama prolazi povorka s izabranom Gospođicom Nove godine.", gdje: "Najljepše u Luang Prabangu od 14. do 16. travnja, kada se sveti kip Phra Bang u procesiji prenosi u hram Wat Mai na obredno pranje." },
-    { ime: "Boun Ok Phansa i čamci svjetla", opis: "Na kraju tromjesečnog budističkog posta, za punog mjeseca u listopadu, hramovi se okite papirnatim lampionima, a rijekom se puštaju čamci od bambusa i papira puni svijeća. Sutradan se na Mekongu održavaju utrke dugih veslačkih lađa.", gdje: "U Luang Prabangu i Vientianeu, u listopadu." },
-    { ime: "Khaen", opis: "Usna harmonika od bambusovih cijevi različitih duljina, čiji zvuk podsjeća na orgulje, prati pjesme i kolo lam vong, u kojem se parovi polako kreću u krugu ne dodirujući se. UNESCO je glazbu khaena 2017. uvrstio na popis nematerijalne baštine.", gdje: "Na svakoj seoskoj svečanosti, a u Luang Prabangu na večerima pripovijedanja u malom kazalištu Garavek." },
-    { ime: "Tkanje i suknja sinh", opis: "Laoske žene nose sinh, usku suknju od svile ili pamuka s bogato tkanim rubom, koja je i dio školske i službene uniforme. Uzorci s mitskom zmijom nagom prenose se s majke na kćer.", gdje: "U radionicama Ock Pop Tok u Luang Prabangu i na jutarnjim tržnicama, gdje se sinh kupuje kao tkanina i šiva po mjeri." },
-    { ime: "Boun That Luang", opis: "Najveća vjerska svetkovina u zemlji, kada tisuće redovnika i vjernika iz cijelog Laosa dolaze pred zlatnu stupu. U zoru se dijeli milostinja, a navečer procesija sa svijećama triput obilazi stupu.", gdje: "U Vientianeu, za punog mjeseca u studenome." }
+    { ime: "Tak bat, the morning alms giving", opis: "At dawn monks and young novices in saffron robes pass through the streets in a silent line, and the faithful, kneeling, place a lump of sticky rice in each of their bowls. It is a living religious rite and should be approached as one.", gdje: "Every morning at around half past five in Luang Prabang. Watch from the other side of the street, in silence, with your shoulders covered and without a flash, and do not buy rice from the street vendors who offer it to tourists." },
+    { ime: "Baci", opis: "A ceremony that calls back a person's 32 guardian spirits, the khuan, which are believed to wander off from the body at times. An elder recites a blessing beside a cone made of banana leaves and marigolds, and then all the participants tie white cotton threads around one another's wrists. The threads are worn for at least three days and then untied, never cut.", gdje: "At weddings, births, departures on a journey and for the New Year. In Luang Prabang families and cultural centers hold it for guests." },
+    { ime: "Pi Mai Lao, the Lao New Year", opis: "Three days of water throwing in mid-April that wash away the old year. Buddha statues and the hands of elders are washed, sand stupas are built on the bank of the Mekong, and a parade with the chosen Miss New Year passes through the streets.", gdje: "Loveliest in Luang Prabang from April 14 to 16, when the sacred Phra Bang statue is carried in procession to the Wat Mai temple for its ritual washing." },
+    { ime: "Boun Ok Phansa and the boats of light", opis: "At the end of the three-month Buddhist Lent, at the full moon in October, the temples are decked with paper lanterns, and boats of bamboo and paper filled with candles are set afloat on the river. The next day longboat races are held on the Mekong.", gdje: "In Luang Prabang and Vientiane, in October." },
+    { ime: "Khaen", opis: "A mouth organ of bamboo pipes of different lengths, with a sound reminiscent of an organ, accompanies songs and the circle dance lam vong, in which couples move slowly around without touching. UNESCO added the music of the khaen to the intangible heritage list in 2017.", gdje: "At every village festival, and in Luang Prabang at the storytelling evenings in the small Garavek theater." },
+    { ime: "Weaving and the sinh skirt", opis: "Lao women wear the sinh, a narrow skirt of silk or cotton with a richly woven hem, which is also part of school and official uniforms. Patterns featuring the mythical serpent naga are passed down from mother to daughter.", gdje: "In the Ock Pop Tok workshops in Luang Prabang and at the morning markets, where a sinh is bought as fabric and sewn to measure." },
+    { ime: "Boun That Luang", opis: "The biggest religious festival in the country, when thousands of monks and worshippers from all over Laos come before the golden stupa. Alms are given at dawn, and in the evening a candlelit procession circles the stupa three times.", gdje: "In Vientiane, at the full moon in November." }
   ],
   fraze: [
-    { izvorno: "Sabaidee", izgovor: "sa-baj-DI", hr: "Dobar dan" },
-    { izvorno: "Khop chai lai lai", izgovor: "kop ČAJ laj laj", hr: "Puno hvala" },
-    { izvorno: "Kho thot", izgovor: "ko TOT", hr: "Oprostite" },
-    { izvorno: "Chao / Bo", izgovor: "ČAO / BO", hr: "Da / Ne" },
-    { izvorno: "Thao dai?", izgovor: "tao DAJ", hr: "Koliko košta?" },
-    { izvorno: "Bo phet", izgovor: "bo PET", hr: "Ne ljuto" },
-    { izvorno: "Sep lai", izgovor: "sep LAJ", hr: "Jako ukusno" },
-    { izvorno: "Bo pen nyang", izgovor: "bo pen NJANG", hr: "Nema veze, nema problema" }
+    { izvorno: "Sabaidee", izgovor: "sah-bye-DEE", hr: "Hello" },
+    { izvorno: "Khop chai lai lai", izgovor: "kop CHYE lye lye", hr: "Thank you very much" },
+    { izvorno: "Kho thot", izgovor: "kaw TOHT", hr: "Excuse me, sorry" },
+    { izvorno: "Chao / Bo", izgovor: "CHOW / BAW", hr: "Yes / No" },
+    { izvorno: "Thao dai?", izgovor: "tao DYE", hr: "How much does it cost?" },
+    { izvorno: "Bo phet", izgovor: "baw PET", hr: "Not spicy" },
+    { izvorno: "Sep lai", izgovor: "sep LYE", hr: "Very tasty" },
+    { izvorno: "Bo pen nyang", izgovor: "baw pen NYAHNG", hr: "Never mind, no problem" }
   ],
   zanimljivosti: [
-    "Tijekom Tajnog rata na Laos je u prosjeku padao jedan teret bombi svakih osam minuta, punih devet godina.",
-    "Na visoravni Xieng Khouang leže tisuće golemih kamenih ćupova starih oko dvije tisuće godina. Smatra se da su služili u pogrebnim obredima, a Dolina ćupova na UNESCO-ovu je popisu od 2019. godine.",
-    "Laoski i tajlandski jezik toliko su bliski da se govornici uglavnom razumiju, a Laošani odrastaju uz tajlandsku televiziju.",
-    "Mekong na dugim dionicama čini granicu s Tajlandom, pa se s obale u Vientianeu vidi druga država.",
-    "U Laosu se glava smatra najsvetijim dijelom tijela, a stopala najnižim, pa se nikoga ne dira po glavi i ne pokazuje nogom.",
-    "Slon je bio simbol kraljevstva Lan Xang, a danas ih je u zemlji ostalo tek nekoliko stotina."
+    "During the Secret War, a planeload of bombs fell on Laos on average every eight minutes, for nine full years.",
+    "On the Xieng Khouang plateau lie thousands of enormous stone jars about two thousand years old. They are thought to have been used in funeral rites, and the Plain of Jars has been on the UNESCO list since 2019.",
+    "The Lao and Thai languages are so close that speakers mostly understand each other, and the Lao grow up with Thai television.",
+    "For long stretches the Mekong forms the border with Thailand, so from the riverbank in Vientiane you can see another country.",
+    "In Laos the head is considered the most sacred part of the body and the feet the lowest, so you never touch anyone on the head or point with your foot.",
+    "The elephant was the symbol of the kingdom of Lan Xang, and today only a few hundred are left in the country."
   ],
   mjesta: [
     {
       id: "luang-prabang",
       ime: "Luang Prabang",
       vrsta: "grad",
-      sazetak: "Nekadašnja kraljevska prijestolnica na poluotoku između dviju rijeka, s tridesetak hramova, francuskim vilama i jutrima koja mirišu na tamjan.",
+      sazetak: "A former royal capital on a peninsula between two rivers, with some thirty temples, French villas and mornings that smell of incense.",
       prica: [
-        "Grad je bio prva prijestolnica kraljevstva Lan Xang. Ime nosi po Phra Bangu, zlatnom kipu Bude visokom 83 centimetra, koji je, prema predaji, u 14. stoljeću stigao kao dar kmerskog kralja i postao zaštitnik zemlje. Kraljevi su ovdje stolovali sve do ukidanja monarhije 1975. godine.",
-        "Francuzi su između hramova sagradili vile s kapcima i verandama, pa je nastao jedinstven spoj laoske drvene arhitekture i europskog kolonijalnog stila. UNESCO je cijeli grad upisao na popis svjetske baštine 1995. godine, zbog čega nema visokih zgrada ni velikih autobusa u središtu."
+        "The city was the first capital of the kingdom of Lan Xang. It is named after the Phra Bang, a golden Buddha statue 83 centimeters tall which, according to tradition, arrived in the 14th century as a gift from the Khmer king and became the protector of the country. Kings reigned here right up to the abolition of the monarchy in 1975.",
+        "The French built villas with shutters and verandas between the temples, creating a unique blend of Lao wooden architecture and European colonial style. UNESCO inscribed the whole town on the World Heritage list in 1995, which is why there are no tall buildings or big buses in the center."
       ],
       vidjeti: [
-        { ime: "Wat Xieng Thong", opis: "Najljepši hram u zemlji sagradio je kralj Setthathirath 1560. godine na samom vrhu poluotoka. Krov se u slojevima spušta gotovo do tla, kao krila kvočke nad pilićima. Na stražnjem zidu potražite mozaik stabla života od šarenog stakla, a u bočnoj zgradi pozlaćenu pogrebnu kočiju kraljeva s glavama naga." },
-        { ime: "Muzej kraljevske palače", opis: "Palača iz 1904. godine spaja francuski tlocrt i laoski krov. Posljednji kralj odveden je odavde 1977. u logor na sjeveru, gdje je umro. U sobama je sve ostalo skromno, kako su živjeli, a u prijestolnoj dvorani zidovi svjetlucaju od japanskog staklenog mozaika. U kapelici u vrtu čuva se kip Phra Bang." },
-        { ime: "Brdo Phousi", opis: "Brežuljak usred grada, visok stotinjak metara, na koji vodi nešto više od tristo stuba. S vrha, uz zlatnu stupu iz 1804., vide se obje rijeke i more krovova hramova. Za zalazak sunca gore je gužva, pa je jutro mirnije." },
-        { ime: "Slapovi Kuang Si", opis: "Tridesetak kilometara od grada voda se preko vapnenačkih pragova spušta u niz mliječno tirkiznih bazena u kojima se može kupati. Boju joj daje otopljeni vapnenac. Uz ulaz je utočište za azijske crne medvjede spašene od krivolovaca." },
-        { ime: "Špilje Pak Ou", opis: "Dva sata plovidbe uz Mekong, u litici nasuprot ušću rijeke Ou, dvije su špilje ispunjene tisućama malih kipova Bude, drvenih i pozlaćenih. Stoljećima su ih ostavljali hodočasnici, a kraljevi su ovamo dolazili svake Nove godine." },
-        { ime: "Wat Mai", opis: "Hram s kraja 18. stoljeća s peterostrukim krovom bio je sjedište vrhovnog poglavara laoskih budista. Cijelo pročelje pod trijemom prekriva pozlaćeni reljef s prizorima seoskog života i priča o Budinim prijašnjim životima." }
+        { ime: "Wat Xieng Thong", opis: "The most beautiful temple in the country was built by King Setthathirath in 1560 at the very tip of the peninsula. The roof sweeps down in tiers almost to the ground, like the wings of a hen over her chicks. On the rear wall look for the tree of life mosaic in colored glass, and in the side building for the gilded royal funeral carriage with its naga heads." },
+        { ime: "Royal Palace Museum", opis: "The palace from 1904 combines a French floor plan with a Lao roof. The last king was taken from here in 1977 to a camp in the north, where he died. In the private rooms everything has been left as modest as the life they led, while in the throne hall the walls glitter with Japanese glass mosaic. The Phra Bang statue is kept in the small chapel in the garden." },
+        { ime: "Mount Phousi", opis: "A hill in the middle of town, about a hundred meters high, with a little over three hundred steps leading up. From the top, beside the golden stupa from 1804, you can see both rivers and a sea of temple roofs. It gets crowded up there for sunset, so the morning is calmer." },
+        { ime: "Kuang Si Falls", opis: "About thirty kilometers from town the water drops over limestone ledges into a string of milky turquoise pools where you can swim. The color comes from dissolved limestone. By the entrance there is a sanctuary for Asiatic black bears rescued from poachers." },
+        { ime: "Pak Ou Caves", opis: "Two hours by boat up the Mekong, in a cliff facing the mouth of the Ou River, are two caves filled with thousands of small Buddha statues, wooden and gilded. Pilgrims left them here over the centuries, and the kings came every New Year." },
+        { ime: "Wat Mai", opis: "This late 18th-century temple with a five-tiered roof was the seat of the supreme patriarch of Lao Buddhism. The whole facade under the portico is covered by a gilded relief with scenes of village life and tales of the Buddha's previous lives." }
       ],
       jesti: [
-        { ime: "Or lam", opis: "Dvorski gulaš s paprenom povijušom najbolje je kušati upravo ovdje, uz ljepljivu rižu." },
-        { ime: "Khai paen i jeow bong", opis: "Hrskava riječna alga sa sezamom i pasta od čilija, zalogaj koji se poslužuje uz pivo na terasama iznad Mekonga." },
-        { ime: "Sai oua", opis: "Kobasica Luang Prabanga s limunskom travom, galangalom i lišćem limete, peče se na žaru na večernjoj tržnici hrane." },
-        { ime: "Khao soi Luang Prabang", opis: "Posve drukčiji od tajlandskog imenjaka: bistra juha sa širokim rižinim rezancima i umakom od mljevene svinjetine, rajčice i fermentirane soje." }
+        { ime: "Or lam", opis: "The royal stew with the peppery vine is best tasted right here, with sticky rice." },
+        { ime: "Khai paen and jeow bong", opis: "Crisp river weed with sesame and chili paste, a snack served with beer on the terraces above the Mekong." },
+        { ime: "Sai oua", opis: "The Luang Prabang sausage with lemongrass, galangal and lime leaves is grilled at the evening food market." },
+        { ime: "Khao soi Luang Prabang", opis: "It is quite different from its Thai namesake: a clear broth with wide rice noodles and a sauce of ground pork, tomato and fermented soybeans." }
       ],
       dozivjeti: [
-        { ime: "Tečaj tkanja i bojenja", opis: "Ock Pop Tok, čije ime znači „Istok susreće Zapad“, u vrtu nad Mekongom drži radionice u kojima majstorice iz sela uče posjetiteljice tkati na stanu i bojiti svilu indigom i korijenjem.", link: "https://www.ockpoptok.com/" },
-        { ime: "Škola kuhanja Tamarind", opis: "Dan počinje na tržnici, a kuha se u paviljonima uz ribnjak izvan grada, na ugljenu i u mužaru, uključujući ribu u listu limunske trave.", link: "https://www.tamarindlaos.com/" },
-        { ime: "Centar tradicijskih umjetnosti i etnologije", opis: "Mali, izvrsno uređen muzej objašnjava nošnje, vjerovanja i zanate naroda Laosa, pa je dobro svratiti prije kupnje na noćnoj tržnici.", link: "https://www.taeclaos.org/" },
-        { ime: "Večer priča u kazalištu Garavek", opis: "U sobici s tridesetak mjesta pripovjedač na engleskom priča legende o nastanku grada i brda Phousi, uz starog glazbenika na khaenu.", link: "https://www.garavek.com/" }
+        { ime: "A weaving and dyeing class", opis: "Ock Pop Tok, whose name means “East meets West”, holds workshops in a garden above the Mekong where master weavers from the villages teach visitors to weave on a loom and dye silk with indigo and roots.", link: "https://www.ockpoptok.com/" },
+        { ime: "Tamarind cooking school", opis: "The day starts at the market, and you cook in pavilions beside a pond outside town, over charcoal and with a mortar, including fish in lemongrass.", link: "https://www.tamarindlaos.com/" },
+        { ime: "Traditional Arts and Ethnology Centre", opis: "A small, superbly arranged museum explains the dress, beliefs and crafts of the peoples of Laos, so it is good to stop by before you shop at the night market.", link: "https://www.taeclaos.org/" },
+        { ime: "A story evening at Garavek theater", opis: "In a little room with about thirty seats, a storyteller tells in English the legends of how the city and Mount Phousi came to be, accompanied by an old musician on the khaen.", link: "https://www.garavek.com/" }
       ],
       agencije: [
-        { ime: "Tourism Luang Prabang", opis: "Službena stranica pokrajinskog turističkog ureda.", link: "https://tourismluangprabang.org/" },
-        { ime: "Tourism Laos", opis: "Službena turistička stranica Laosa.", link: "https://www.tourismlaos.org/" },
-        { ime: "Free the Bears", opis: "Udruga koja vodi utočište za medvjede kod slapova Kuang Si i objavljuje informacije za posjetitelje.", link: "https://freethebears.org/" }
+        { ime: "Tourism Luang Prabang", opis: "The official site of the provincial tourism office.", link: "https://tourismluangprabang.org/" },
+        { ime: "Tourism Laos", opis: "The official tourism site of Laos.", link: "https://www.tourismlaos.org/" },
+        { ime: "Free the Bears", opis: "The organization that runs the bear sanctuary at Kuang Si Falls and publishes information for visitors.", link: "https://freethebears.org/" }
       ],
-      kada: "Od studenoga do veljače. Na slapove krenite rano, prije izletničkih kombija. U hramove se ulazi pokrivenih ramena i koljena, a žene ne smiju dotaknuti redovnika niti mu išta dati izravno u ruke."
+      kada: "From November to February. Set out early for the waterfalls, before the tour vans. You enter temples with your shoulders and knees covered, and women must not touch a monk or hand him anything directly."
     },
     {
       id: "vientiane",
       ime: "Vientiane",
       vrsta: "grad",
-      sazetak: "Najopuštenija prijestolnica Azije, sa zlatnom stupom, slavolukom od američkog betona i dugom šetnicom uz Mekong.",
+      sazetak: "The most laid-back capital in Asia, with a golden stupa, a triumphal arch of American concrete and a long promenade along the Mekong.",
       prica: [
-        "Kralj Setthathirath preselio je ovamo prijestolnicu Lan Xanga 1560. godine, dalje od burmanske prijetnje, i sagradio veliku stupu i hram za Smaragdnog Budu. Sijamska vojska odnijela je Smaragdnog Budu 1779., a nakon pobune kralja Anouvonga 1828. grad je sravnjen sa zemljom i stanovništvo je raseljeno.",
-        "Francuzi su ruševine obrasle džunglom od 1899. iznova izgradili kao upravno središte, s drvoredima i vilama. Ime je francuski zapis laoskog Viang Chan, što se obično tumači kao „grad sandalovine“."
+        "King Setthathirath moved the capital of Lan Xang here in 1560, farther from the Burmese threat, and built the great stupa and a temple for the Emerald Buddha. The Siamese army carried off the Emerald Buddha in 1779, and after the rebellion of King Anouvong in 1828 the city was razed to the ground and its population resettled.",
+        "From 1899 the French rebuilt the jungle-covered ruins as an administrative center, with tree-lined avenues and villas. The name is the French spelling of the Lao Viang Chan, which is usually interpreted as “city of sandalwood”."
       ],
       vidjeti: [
-        { ime: "Pha That Luang", opis: "Velika zlatna stupa, visoka oko 45 metara, državni je simbol i nalazi se na grbu i novčanicama. Sagrađena je 1566., a predaja kaže da čuva Budinu relikviju koju su još u 3. stoljeću prije Krista donijeli indijski redovnici. Nakon razaranja obnovili su je Francuzi tridesetih godina 20. stoljeća prema crtežima jednog istraživača iz 1867. godine." },
-        { ime: "Wat Si Saket", opis: "Najstariji sačuvani hram u gradu sagradio je kralj Anouvong 1818. godine. Smatra se da su ga Sijamci poštedjeli jer je građen u njihovu stilu. U trijemu oko dvorišta u tisućama malih niša sjede parovi sićušnih kipova Bude, a s većima ispred njih ukupno ih je gotovo sedam tisuća." },
-        { ime: "Haw Phra Kaew", opis: "Kraljevski hram podignut je u 16. stoljeću za Smaragdnog Budu, koji je ovdje stajao više od dvjesto godina prije nego što je završio u Bangkoku. Današnja zgrada obnova je iz 20. stoljeća i služi kao muzej vjerske umjetnosti, s brončanim kipovima Bude na trijemu." },
-        { ime: "Patuxai", opis: "Slavoluk nalik pariškom, ali s laoskim tornjićima i mitskim bićima, građen je šezdesetih godina. Cement je darovao SAD za gradnju zračne luke, pa su ga mještani prozvali okomitom pistom. S vrha se pruža pogled niz glavnu aveniju." },
-        { ime: "Posjetiteljski centar COPE", opis: "Organizacija koja izrađuje proteze za žrtve neeksplodiranih bombi vodi malu, besplatnu i vrlo dojmljivu izložbu. Sa stropa vise stotine kuglica iz kasetnih bombi, a u kutu su naslagane proteze izrađene kod kuće od drva i dijelova bombi. Nakon posjeta drukčije se gleda na svako polje uz cestu." },
-        { ime: "Park Buda, Xieng Khuan", opis: "Dvadeset pet kilometara od grada, uz Mekong, jedan je mistik 1958. počeo betonom lijevati više od dvjesto kipova hinduističkih i budističkih božanstava. U golemu bundevu ulazi se kroz usta demona i penje kroz pakao i zemlju do neba na krovu." }
+        { ime: "Pha That Luang", opis: "The great golden stupa, about 45 meters tall, is the national symbol and appears on the coat of arms and the banknotes. It was built in 1566, and tradition says it holds a relic of the Buddha brought by Indian monks back in the 3rd century BC. After its destruction, the French restored it in the 1930s from drawings made by an explorer in 1867." },
+        { ime: "Wat Si Saket", opis: "The oldest surviving temple in the city was built by King Anouvong in 1818. It is thought that the Siamese spared it because it was built in their style. In the cloister around the courtyard, pairs of tiny Buddha statues sit in thousands of small niches, and with the larger ones in front of them there are almost seven thousand in all." },
+        { ime: "Haw Phra Kaew", opis: "The royal temple was built in the 16th century for the Emerald Buddha, which stood here for more than two hundred years before it ended up in Bangkok. Today's building is a 20th-century reconstruction and serves as a museum of religious art, with bronze Buddha statues on the veranda." },
+        { ime: "Patuxai", opis: "A triumphal arch resembling the one in Paris, but with Lao turrets and mythical creatures, it was built in the 1960s. The cement had been donated by the USA for building an airport, so the locals nicknamed it the vertical runway. From the top there is a view down the main avenue." },
+        { ime: "COPE Visitor Centre", opis: "The organization that makes prosthetic limbs for victims of unexploded bombs runs a small, free and very moving exhibition. Hundreds of bomblets from cluster bombs hang from the ceiling, and in one corner homemade prostheses built from wood and bomb parts are piled up. After a visit you look differently at every field beside the road." },
+        { ime: "Buddha Park, Xieng Khuan", opis: "Twenty-five kilometers from the city, beside the Mekong, a mystic began in 1958 to cast more than two hundred statues of Hindu and Buddhist deities in concrete. You enter the giant pumpkin through a demon's mouth and climb through hell and earth to heaven on the roof." }
       ],
       jesti: [
-        { ime: "Laap i ljepljiva riža", opis: "U jednostavnim restoranima uz rijeku, s ribom iz Mekonga ili pačetinom, uz košaricu riže i tanjur sirovog povrća." },
-        { ime: "Khao jee pâté", opis: "Sendvič u bagetu kupuje se ujutro na štandovima u središtu, uz čašu laoske kave s ledom." },
-        { ime: "Riba u soli s roštilja", opis: "Cijela riječna riba punjena limunskom travom i obložena korom krupne soli peče se na žaru na večernjim štandovima uz Mekong." }
+        { ime: "Laap and sticky rice", opis: "In the simple restaurants along the river, with fish from the Mekong or duck, with a basket of rice and a plate of raw vegetables." },
+        { ime: "Khao jee pâté", opis: "The baguette sandwich is bought in the morning at stalls in the center, with a glass of iced Lao coffee." },
+        { ime: "Grilled salt-crusted fish", opis: "A whole river fish stuffed with lemongrass and coated in a crust of coarse salt is grilled at the evening stalls along the Mekong." }
       ],
       dozivjeti: [
-        { ime: "Izložba COPE", opis: "Ulaz je besplatan, a prihod od kafića i trgovine ide u izradu proteza. Kratki dokumentarni filmovi prikazuju se na zahtjev.", link: "https://copelaos.org/" },
-        { ime: "Zalazak sunca na šetnici uz Mekong", opis: "Predvečer cijeli grad izlazi na obalu: vježba se aerobik uz glazbu, otvara se noćna tržnica, a sunce zalazi nad tajlandskom obalom." },
-        { ime: "Boun That Luang", opis: "U studenome se oko zlatne stupe održava tjedan dana svečanosti, sa sajmom, procesijama i tisućama redovnika iz cijele zemlje." }
+        { ime: "The COPE exhibition", opis: "Admission is free, and the proceeds from the cafe and shop go toward making prostheses. Short documentary films are shown on request.", link: "https://copelaos.org/" },
+        { ime: "Sunset on the Mekong promenade", opis: "Toward evening the whole city comes out to the riverbank: people do aerobics to music, the night market opens, and the sun sets over the Thai shore." },
+        { ime: "Boun That Luang", opis: "In November a week of festivities is held around the golden stupa, with a fair, processions and thousands of monks from all over the country." }
       ],
       agencije: [
-        { ime: "Tourism Laos", opis: "Službena turistička stranica Laosa.", link: "https://www.tourismlaos.org/" },
-        { ime: "COPE Laos", opis: "Neprofitna organizacija s posjetiteljskim centrom o posljedicama bombardiranja.", link: "https://copelaos.org/" }
+        { ime: "Tourism Laos", opis: "The official tourism site of Laos.", link: "https://www.tourismlaos.org/" },
+        { ime: "COPE Laos", opis: "A nonprofit organization with a visitor center on the consequences of the bombing.", link: "https://copelaos.org/" }
       ],
-      kada: "Od studenoga do veljače. Grad se može obići u dan ili dva, biciklom ili tuk-tukom, a hramovi i muzeji zatvaraju se u vrijeme ručka."
+      kada: "From November to February. You can see the city in a day or two, by bicycle or tuk-tuk, and the temples and museums close at lunchtime."
     },
     {
       id: "vang-vieng",
       ime: "Vang Vieng",
       vrsta: "gradić",
-      sazetak: "Gradić na rijeci podno nazubljenih vapnenačkih litica, sa špiljama, lagunama i balonima na vrući zrak.",
+      sazetak: "A small town on a river at the foot of jagged limestone cliffs, with caves, lagoons and hot-air balloons.",
       prica: [
-        "Vang Vieng je stoljećima bio usputna postaja na putu između Luang Prabanga i Vientianea. Tijekom Tajnog rata ovdje je bila američka uzletna pista, čija se betonska traka još vidi usred mjesta.",
-        "Početkom ovog stoljeća mjesto je postalo zloglasno po raspojasanim zabavama putnika s ruksacima uz rijeku, koje su odnijele desetke života. Vlasti su 2012. zatvorile riječne barove, i otad se Vang Vieng okrenuo prirodi: veslanju, špiljama, pješačenju i biciklu. Brza željeznica dovela ga je na sat vožnje od prijestolnice."
+        "For centuries Vang Vieng was a stopover on the road between Luang Prabang and Vientiane. During the Secret War there was an American airstrip here, whose strip of concrete can still be seen in the middle of town.",
+        "At the start of this century the town became notorious for wild backpacker parties along the river, which cost dozens of lives. The authorities closed the riverside bars in 2012, and since then Vang Vieng has turned toward nature: paddling, caves, hiking and cycling. The fast railway has brought it within an hour's ride of the capital."
       ],
       vidjeti: [
-        { ime: "Špilja Tham Chang", opis: "Do ulaza visoko u litici vodi oko 150 stuba. U 19. stoljeću mještani su se ovdje sklanjali od pljačkaških družina iz Kine. Iz špilje se kroz prirodni prozor vidi cijela dolina, a iz podnožja izvire bistar potok u kojem se može kupati." },
-        { ime: "Plava laguna i špilja Tham Phu Kham", opis: "Sedam kilometara od mjesta potok tvori tirkizni bazen s ljuljačkama i granom za skakanje. Strmi uspon iznad njega vodi u veliku špilju u kojoj pod zrakom svjetla leži brončani Buda. Ime znači „špilja zlatnog raka“, po legendi da ulov takvog raka donosi sreću." },
-        { ime: "Vidikovac Nam Xay", opis: "Pola sata strmog uspona po kamenju i ljestvama vodi na vrh s pogledom na rižina polja i nizove litica. Na vrhu je, tko zna kako dopremljen, postavljen motocikl za fotografiranje." },
-        { ime: "Vodena špilja Tham Nam", opis: "U nisku špilju iz koje izvire rijeka ulazi se ležeći na zračnici i povlačeći se po užetu, sa svjetiljkom na čelu. U blizini je Slonova špilja, mali hram sa stalagmitom u obliku slona." },
-        { ime: "Slap Kaeng Nyui", opis: "Kroz šumu se dvadesetak minuta hoda do slapa visokog tridesetak metara, najsnažnijeg potkraj kišne sezone. Put do njega vodi kroz sela naroda Hmong." }
+        { ime: "Tham Chang cave", opis: "About 150 steps lead up to the entrance high in the cliff. In the 19th century the locals took refuge here from bands of marauders from China. From inside the cave you can see the whole valley through a natural window, and at the foot of the cliff rises a clear stream where you can swim." },
+        { ime: "Blue Lagoon and Tham Phu Kham cave", opis: "Seven kilometers from town a stream forms a turquoise pool with swings and a branch to jump from. A steep climb above it leads into a large cave where a bronze Buddha lies under a shaft of light. The name means “cave of the golden crab”, after the legend that catching such a crab brings luck." },
+        { ime: "Nam Xay viewpoint", opis: "Half an hour of steep climbing over rocks and ladders takes you to a summit with a view of rice fields and rows of cliffs. At the top, hauled up who knows how, a motorcycle has been set up for photographs." },
+        { ime: "Tham Nam water cave", opis: "You enter the low cave from which a river emerges lying on an inner tube and pulling yourself along a rope, with a lamp on your forehead. Nearby is the Elephant Cave, a small shrine with a stalagmite in the shape of an elephant." },
+        { ime: "Kaeng Nyui waterfall", opis: "A walk of about twenty minutes through the forest leads to a waterfall some thirty meters high, at its most powerful toward the end of the rainy season. The road to it passes through villages of the Hmong people." }
       ],
       jesti: [
-        { ime: "Ping pa", opis: "Riječna riba punjena limunskom travom i pečena na žaru u kori od soli, s ljepljivom rižom i ljutim umakom od rajčice." },
-        { ime: "Proizvodi od duda", opis: "Na ekološkim imanjima sjeverno od mjesta uzgaja se dud, pa se poslužuju čaj od dudova lišća, frape od dudinja i kozji sir." },
-        { ime: "Sendviči i palačinke s kolica", opis: "Navečer se uz glavnu ulicu nižu kolica na kojima se pripremaju punjeni bageti i tanke palačinke roti s bananom." }
+        { ime: "Ping pa", opis: "River fish stuffed with lemongrass and grilled in a salt crust, with sticky rice and a spicy tomato sauce." },
+        { ime: "Mulberry products", opis: "Mulberries are grown on the organic farms north of town, so you will be served mulberry leaf tea, mulberry shakes and goat cheese." },
+        { ime: "Sandwiches and pancakes from the carts", opis: "In the evening carts line the main street, making filled baguettes and thin roti pancakes with banana." }
       ],
       dozivjeti: [
-        { ime: "Kajakom niz rijeku Nam Song", opis: "Mirna rijeka vijuga podno litica, pa je poludnevni spust kajakom ili na zračnici najljepši način da se krajolik vidi s vode. Pouzdan organizator s licenciranim vodičima je Green Discovery Laos.", link: "https://greendiscoverylaos.com/" },
-        { ime: "Let balonom", opis: "U zoru i pred zalazak sunca baloni na vrući zrak dižu se iznad doline, po cijenama znatno nižima nego drugdje u svijetu. Provjerite ocjene prijevoznika prije uplate." },
-        { ime: "Biciklom do laguna", opis: "Zapadno od rijeke zemljana cesta kroz sela i rižina polja povezuje nekoliko laguna i špilja, ravna je i laka, a prelazi se preko drvenog mosta." }
+        { ime: "By kayak down the Nam Song River", opis: "The calm river winds along the foot of the cliffs, so a half-day trip by kayak or inner tube is the loveliest way to see the landscape from the water. A reliable operator with licensed guides is Green Discovery Laos.", link: "https://greendiscoverylaos.com/" },
+        { ime: "A balloon flight", opis: "At dawn and before sunset hot-air balloons rise over the valley, at prices considerably lower than elsewhere in the world. Check the operator's reviews before you pay." },
+        { ime: "By bike to the lagoons", opis: "West of the river a dirt road through villages and rice fields links several lagoons and caves, and it is flat and easy, with a wooden bridge to cross on the way." }
       ],
       agencije: [
-        { ime: "Tourism Laos", opis: "Službena turistička stranica Laosa.", link: "https://www.tourismlaos.org/" },
-        { ime: "Green Discovery Laos", opis: "Dugogodišnji laoski organizator pustolovnih i ekoloških tura, od kajaka do penjanja.", link: "https://greendiscoverylaos.com/" }
+        { ime: "Tourism Laos", opis: "The official tourism site of Laos.", link: "https://www.tourismlaos.org/" },
+        { ime: "Green Discovery Laos", opis: "A long-established Lao operator of adventure and eco tours, from kayaking to climbing.", link: "https://greendiscoverylaos.com/" }
       ],
-      kada: "Od studenoga do ožujka rijeka je mirna, a staze suhe. Klonite se besplatnih i neoznačenih žestokih pića u barovima, jer je 2024. ovdje nekoliko putnika umrlo od trovanja metanolom."
+      kada: "From November to March the river is calm and the trails are dry. Stay away from free and unlabeled spirits in bars, because in 2024 several travelers died here of methanol poisoning."
     }
   ],
   izvori: [

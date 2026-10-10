@@ -1,161 +1,161 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["francuska-polinezija"] = {
   id: "francuska-polinezija",
-  ime: "Francuska Polinezija",
-  regija: "Oceanija",
-  sazetak: "Vulkanski otoci okruženi lagunama u svim nijansama plave, gdje se uz francuski baget jede sirova riba u kokosovu mlijeku, a iza uha nosi cvijet tiare.",
+  ime: "French Polynesia",
+  regija: "Oceania",
+  sazetak: "Volcanic islands ringed by lagoons in every shade of blue, where raw fish in coconut milk is eaten alongside a French baguette and a tiare flower is worn behind the ear.",
   uvod: [
-    "Francuska Polinezija sastoji se od 118 otoka razasutih po dijelu Tihog oceana velikom kao Europa, podijeljenih u pet otočja: Društveno, Tuamotu, Gambier, Markižansko i Australsko. Tahiti, Moorea i Bora Bora pripadaju Društvenom otočju. To su visoki vulkanski otoci sa zelenim vrhovima i koraljnim prstenom koji zatvara lagunu.",
-    "Polinezijski moreplovci naselili su ove otoke prije više od tisuću godina, ploveći dvotrupnim kanuima i ravnajući se po zvijezdama, valovima i letu ptica. Odavde su krenuli dalje, prema Havajima, Uskršnjem otoku i Novom Zelandu, pa je ovo kolijevka polinezijskog svijeta. Europljani su stigli u 18. stoljeću: Englez Wallis 1767., Francuz Bougainville godinu poslije, a James Cook 1769., kako bi s Tahitija promatrao prolazak Venere ispred Sunca.",
-    "Priče mornara o otoku ljubavi i obilja stvorile su u Europi mit o raju na zemlji, koji je privukao i slikara Paula Gauguina. Stvarnost je bila tvrđa: misionari su zabranili ples i tetoviranje, bolesti su pokosile stanovništvo, a Francuska je 1842. nametnula protektorat i 1880. pripojila otoke. Danas je to prekomorska zemlja Francuske s vlastitom vladom, u kojoj se govore francuski i tahićanski, a stara se kultura posljednjih desetljeća snažno obnavlja."
+    "French Polynesia consists of 118 islands scattered across a stretch of the Pacific Ocean as large as Europe, divided into five archipelagos: the Society Islands, the Tuamotus, the Gambiers, the Marquesas and the Austral Islands. Tahiti, Moorea and Bora Bora belong to the Society Islands. These are high volcanic islands with green peaks and a coral ring that encloses a lagoon.",
+    "Polynesian navigators settled these islands more than a thousand years ago, sailing in double-hulled canoes and steering by the stars, the waves and the flight of birds. From here they pushed on toward Hawaii, Easter Island and New Zealand, which makes this the cradle of the Polynesian world. Europeans arrived in the 18th century: the Englishman Wallis in 1767, the Frenchman Bougainville a year later and James Cook in 1769, who came to observe the transit of Venus across the Sun from Tahiti.",
+    "Sailors' tales of an island of love and plenty created in Europe the myth of paradise on earth, which also drew the painter Paul Gauguin. The reality was harsher: missionaries banned dancing and tattooing, diseases decimated the population, and France imposed a protectorate in 1842 and annexed the islands in 1880. Today this is an overseas country of France with its own government, where French and Tahitian are spoken, and in recent decades the old culture has been going through a powerful revival."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suho i svježije razdoblje traje od svibnja do listopada. Od studenoga do travnja toplije je i vlažnije, s kratkim jakim pljuskovima, ali i s manje gostiju. U srpnju se održava Heiva, najveći festival plesa i pjesme." },
-    { k: "Valuta", v: "Pacifički franak (XPF ili CFP), čiji je tečaj čvrsto vezan uz euro, pa se cijene lako preračunavaju. Kartice se primaju u hotelima i većim trgovinama, a za tržnice i male otoke treba gotovina." },
-    { k: "Kretanje", v: "Između otoka leti domaći prijevoznik Air Tahiti, koji nudi i karte za više otoka odjednom. Na Mooreu se s Tahitija ide trajektom za manje od sat vremena. Na samim otocima najpraktičniji su unajmljeni automobil, skuter ili bicikl jer je javni prijevoz rijedak." },
-    { k: "Napojnica", v: "Nije dio polinezijske kulture i ne očekuje se. Topla zahvala i osmijeh vrijede više." },
-    { k: "Cijene", v: "Sve je skupo jer se većina robe uvozi. Uštedjet ćete ako spavate u obiteljskim pansionima, kupujete bagete i voće u trgovinama te večerate kod pokretnih kuhinja koje ovdje zovu roulottes." }
+    { k: "When to go", v: "The dry, cooler season lasts from May to October. From November to April it is warmer and more humid, with short heavy downpours and also with fewer visitors. Heiva, the biggest festival of dance and song, takes place in July." },
+    { k: "Currency", v: "The Pacific franc (XPF or CFP), whose exchange rate is pegged to the euro, so prices are easy to convert. Cards are accepted in hotels and larger shops, and you need cash for markets and small islands." },
+    { k: "Getting around", v: "The domestic carrier Air Tahiti flies between the islands and also offers multi-island passes. You get from Tahiti to Moorea by ferry in under an hour. On the islands themselves a rental car, scooter or bicycle is the most practical option, because public transportation is scarce." },
+    { k: "Tipping", v: "It is not part of Polynesian culture and is not expected. A warm thank you and a smile are worth more." },
+    { k: "Prices", v: "Everything is expensive because most goods are imported. You will save money if you stay in family-run guesthouses, buy baguettes and fruit in the shops and have dinner at the food trucks that are called roulottes here." }
   ],
   hrana: [
-    { ime: "Poisson cru au lait de coco", opis: "Kockice sirove tune kratko marinirane u soku limete i pomiješane s kokosovim mlijekom, krastavcem, rajčicom i mrkvom.", prica: "Na tahićanskom se zove ia ota i smatra se nacionalnim jelom. Kokosovo mlijeko cijedi se svježe, kroz krpu, iz netom naribanog oraha, i upravo se po tome poznaje dobra kuhinja." },
-    { ime: "Ma'a Tahiti", opis: "Tradicionalna nedjeljna gozba pečena u zemljanoj peći ahima'a.", prica: "U jamu s užarenim kamenjem slažu se odojak, riba, kruhovac, taro, banane za kuhanje i špinat od listova taroa s kokosovim mlijekom, sve umotano u lišće, i peče se satima. Jede se prstima, a obitelj se oko stola okuplja nakon nedjeljne mise." },
-    { ime: "Fāfaru", opis: "Sirova riba kratko namočena u morskoj vodi u kojoj su prethodno fermentirali rakovi i kozice.", prica: "Miris je vrlo jak i mnoge goste otjera, ali okus je iznenađujuće blag. Poslužuje se uz kokosovo mlijeko i sastavni je dio svake prave tahićanske gozbe, pa je vrijedi kušati barem jednom." },
-    { ime: "Po'e", opis: "Gust, sladak puding od pasiranog voća, najčešće banane, papaje ili bundeve, zgusnut škrobom i preliven kokosovim mlijekom.", prica: "Peče se umotan u list banane u zemljanoj peći. Poslužuje se i kao desert i kao prilog uz slana jela." },
-    { ime: "Firi firi", opis: "Prženo tijesto s kokosovim mlijekom, oblikovano u osmicu.", prica: "To je nedjeljni doručak koji se u zoru kupuje na štandovima uz cestu i umače u kavu s mlijekom. Tko dođe poslije osam sati, obično ostane bez njega." },
-    { ime: "Kozice u umaku od vanilije", opis: "Slatkovodne kozice iz planinskih potoka u kremastom umaku s tahićanskom vanilijom i kokosom.", prica: "Tahićanska vanilija posebna je sorta koja raste ponajviše na otoku Taha'a i miriše cvjetnije od madagaskarske. Kuhari je ovdje stavljaju i u slana jela, osobito uz ribu i rakove." },
-    { ime: "Uru", opis: "Plod kruhovca, koji se peče cijeli na otvorenoj vatri dok kora ne pougljeni.", prica: "Okusom i teksturom podsjeća na pečeni krumpir i svježi kruh. Upravo je po sadnice kruhovca na Tahiti doplovio brod Bounty, što je završilo najpoznatijom pobunom u povijesti mornarice." },
-    { ime: "Hinano", opis: "Lagano svijetlo pivo koje se na Tahitiju kuha od pedesetih godina 20. stoljeća.", prica: "Na etiketi je djevojka u pareu s cvijetom u kosi, koja je postala jedan od simbola otoka. Hinano je i ime mirisnog cvijeta pandana." }
+    { ime: "Poisson cru au lait de coco", opis: "Cubes of raw tuna briefly marinated in lime juice and mixed with coconut milk, cucumber, tomato and carrot.", prica: "In Tahitian it is called ia ota, and it is considered the national dish. The coconut milk is squeezed fresh, through a cloth, from a newly grated coconut, and that is exactly how you can tell a good kitchen." },
+    { ime: "Ma'a Tahiti", opis: "The traditional Sunday feast cooked in the ahima'a earth oven.", prica: "Suckling pig, fish, breadfruit, taro, cooking bananas and a spinach of taro leaves with coconut milk are layered into a pit of red-hot stones, all wrapped in leaves, and cooked for hours. It is eaten with the fingers, and the family gathers around the table after Sunday mass." },
+    { ime: "Fāfaru", opis: "Raw fish briefly soaked in seawater in which crabs and shrimp have previously been fermented.", prica: "The smell is very strong and drives many guests away, but the taste is surprisingly mild. It is served with coconut milk and is an essential part of every real Tahitian feast, so it is worth trying at least once." },
+    { ime: "Po'e", opis: "A thick, sweet pudding of pureed fruit, most often banana, papaya or pumpkin, thickened with starch and topped with coconut milk.", prica: "It is baked wrapped in a banana leaf in the earth oven. It is served both as a dessert and as a side dish with savory food." },
+    { ime: "Firi firi", opis: "Fried dough made with coconut milk and shaped into a figure eight.", prica: "This is the Sunday breakfast, bought at dawn from roadside stalls and dunked in milky coffee. Anyone who turns up after eight o'clock usually goes without." },
+    { ime: "Shrimp in vanilla sauce", opis: "Freshwater shrimp from the mountain streams in a creamy sauce with Tahitian vanilla and coconut.", prica: "Tahitian vanilla is a distinct variety that grows mostly on the island of Taha'a and has a more floral scent than vanilla from Madagascar. Cooks here use it in savory dishes too, especially with fish and shellfish." },
+    { ime: "Uru", opis: "Breadfruit, roasted whole over an open fire until the skin is charred.", prica: "In taste and texture it recalls baked potato and fresh bread. It was for breadfruit seedlings that the ship Bounty sailed to Tahiti, a voyage that ended in the most famous mutiny in naval history." },
+    { ime: "Hinano", opis: "A light lager that has been brewed in Tahiti since the 1950s.", prica: "On the label is a girl in a pareo with a flower in her hair, who has become one of the symbols of the islands. Hinano is also the name of the fragrant flower of the pandanus." }
   ],
   obicaji: [
-    { ime: "'Ori Tahiti i Heiva", opis: "Tahićanski ples prepoznaje se po vrlo brzom kruženju bokova uz gromoglasne bubnjeve, u suknjama od vlakana i s visokim ukrasima na glavi. Misionari su ga u 19. stoljeću zabranili kao nećudoredan i plesao se potajno, a javno je obnovljen sredinom 20. stoljeća. Na festivalu Heiva i Tahiti natječu se skupine s više od stotinu plesača i veliki zborovi.", gdje: "Trg To'atā u Papeeteu tijekom srpnja. Izvan toga razdoblja ples se može vidjeti na večerima u hotelima i u kulturnom selu Tiki Village na Moorei." },
-    { ime: "Tatau", opis: "Riječ tetovaža potječe upravo iz polinezijske riječi tatau. Uzorci su govorili o podrijetlu, položaju i hrabrosti osobe, a utiskivali su se češljem od kosti i čađom. Nakon gotovo dva stoljeća zabrane umijeće je obnovljeno i danas ga s ponosom nosi većina mladih Polinežana.", gdje: "Saloni priznatih majstora u Papeeteu i na Moorei. Dobar majstor najprije razgovara s vama i uzorak crta rukom izravno na kožu, prema vašoj priči." },
-    { ime: "Cvijet tiare i vijenci", opis: "Bijeli mirisni cvijet tiare simbol je otoka. Gostima se pri dolasku stavlja vijenac oko vrata, a pri odlasku ogrlica od školjaka. Cvijet iza lijevog uha znači da je srce zauzeto, a iza desnog da je slobodno.", gdje: "Vijenci se pletu i prodaju na tržnici u Papeeteu, osobito rano ujutro. Od cvijeta i kokosova ulja radi se i mirisno ulje monoï." },
-    { ime: "Va'a", opis: "Kanu s jednim plovkom sa strane nacionalni je sport i izravni je nasljednik plovila kojima su Polinežani naselili Pacifik. Veslaju svi, od školaraca do djedova, svakog dana pred zalazak sunca.", gdje: "Laguna pred Papeeteom u kasno poslijepodne. Najveća utrka, Hawaiki Nui Va'a, održava se u jesen između otoka Huahine, Raiatea, Taha'a i Bora Bora." },
-    { ime: "Tifaifai", opis: "Veliki šareni pokrivači ručno prošiveni od izrezanih komada tkanine, s motivima cvijeća, kruhovca i kornjača. Umijeće su donijele žene misionara, a Polinežanke su ga preoblikovale u vlastitu umjetnost. Tifaifai se daruje za vjenčanje i njime se omotaju mladenci.", gdje: "Kat s rukotvorinama na tržnici u Papeeteu i godišnja izložba tifaifaija u Papeeteu, obično u proljeće." },
-    { ime: "Crni biser", opis: "Tahićanski biser raste u školjki crnih usana, a boje mu idu od srebrnosive do zelene, plave i boje patlidžana, pa gotovo nikada nije posve crn. Uzgaja se uglavnom u lagunama otočja Tuamotu i Gambier, a jedan biser sazrijeva oko dvije godine.", gdje: "Zlatarnice u Papeeteu i male farme bisera na otocima, gdje se može vidjeti cijepljenje školjke. Tražite potvrdu o podrijetlu." },
-    { ime: "Nedjeljna misa i hīmene", opis: "Nedjeljom su crkve pune žena u bijelim haljinama i šeširima ispletenima od palminih vlakana. Višeglasno pjevanje hīmene spaja stare polinezijske napjeve s crkvenim pjesmama misionara i čuje se daleko izvan crkve.", gdje: "Protestantski hram Paofai u Papeeteu ili osmerokutna crkva u Papetoaiju na Moorei, nedjeljom ujutro. Odjenite se pristojno i dođite koju minutu ranije." }
+    { ime: "'Ori Tahiti and Heiva", opis: "Tahitian dance is recognized by the very fast circling of the hips to thunderous drums, in fiber skirts and tall headdresses. Missionaries banned it in the 19th century as immoral and it was danced in secret, and it was revived in public in the mid-20th century. At the Heiva i Tahiti festival, groups of more than a hundred dancers and large choirs compete.", gdje: "To'atā Square in Papeete during July. Outside that period you can see the dancing at hotel evenings and in the Tiki Village cultural village on Moorea." },
+    { ime: "Tatau", opis: "The word tattoo comes directly from the Polynesian word tatau. The patterns spoke of a person's origins, rank and courage, and they were tapped in with a bone comb and soot. After almost two centuries of prohibition the art has been revived, and today most young Polynesians wear it with pride.", gdje: "The studios of recognized masters in Papeete and on Moorea. A good master first talks with you and then draws the design freehand directly on your skin, based on your story." },
+    { ime: "The tiare flower and leis", opis: "The white, fragrant tiare flower is the symbol of the islands. Guests are given a lei around the neck when they arrive and a shell necklace when they leave. A flower behind the left ear means your heart is taken, and behind the right that it is free.", gdje: "Leis are woven and sold at the market in Papeete, especially early in the morning. The flower and coconut oil are also used to make the scented oil monoï." },
+    { ime: "Va'a", opis: "The canoe with a single outrigger on one side is the national sport and a direct descendant of the vessels in which the Polynesians settled the Pacific. Everyone paddles, from schoolchildren to grandfathers, every day before sunset.", gdje: "The lagoon off Papeete in the late afternoon. The biggest race, Hawaiki Nui Va'a, is held in the fall between the islands of Huahine, Raiatea, Taha'a and Bora Bora." },
+    { ime: "Tifaifai", opis: "Large, colorful quilts hand-sewn from cut pieces of fabric, with motifs of flowers, breadfruit and turtles. The craft was brought by the missionaries' wives, and Polynesian women reshaped it into an art of their own. A tifaifai is given as a wedding gift, and the newlyweds are wrapped in it.", gdje: "The handicrafts floor at the market in Papeete, and the annual tifaifai exhibition in Papeete, usually in spring." },
+    { ime: "The black pearl", opis: "The Tahitian pearl grows in the black-lipped oyster, and its colors range from silver gray to green, blue and eggplant, so it is almost never completely black. It is farmed mainly in the lagoons of the Tuamotu and Gambier archipelagos, and a single pearl takes about two years to mature.", gdje: "Jewelers in Papeete and small pearl farms on the islands, where you can watch an oyster being grafted. Ask for a certificate of origin." },
+    { ime: "Sunday mass and hīmene", opis: "On Sundays the churches are full of women in white dresses and hats woven from palm fiber. The polyphonic singing called hīmene blends old Polynesian chants with the missionaries' hymns and can be heard far beyond the church.", gdje: "The Protestant Paofai Temple in Papeete or the octagonal church at Papetoai on Moorea, on Sunday morning. Dress modestly and arrive a few minutes early." }
   ],
   fraze: [
-    { izvorno: "Ia ora na", izgovor: "jo-RA-na", hr: "Dobar dan, zdravo" },
-    { izvorno: "Māuruuru", izgovor: "ma-u-RU-u-ru", hr: "Hvala" },
-    { izvorno: "Māuruuru roa", izgovor: "ma-u-RU-u-ru RO-a", hr: "Hvala lijepa" },
-    { izvorno: "Nānā", izgovor: "NA-na", hr: "Doviđenja" },
-    { izvorno: "Maeva", izgovor: "ma-E-va", hr: "Dobro došli" },
-    { izvorno: "Manuia", izgovor: "ma-NU-i-a", hr: "Živjeli" },
-    { izvorno: "'Aita pe'ape'a", izgovor: "A-i-ta pe-a-PE-a", hr: "Nema problema, bez brige" },
-    { izvorno: "E / 'Aita", izgovor: "E / A-i-ta", hr: "Da / Ne" }
+    { izvorno: "Ia ora na", izgovor: "yoh-RAH-nah", hr: "Hello, good day" },
+    { izvorno: "Māuruuru", izgovor: "mah-oo-ROO-oo-roo", hr: "Thank you" },
+    { izvorno: "Māuruuru roa", izgovor: "mah-oo-ROO-oo-roo ROH-ah", hr: "Thank you very much" },
+    { izvorno: "Nānā", izgovor: "NAH-nah", hr: "Goodbye" },
+    { izvorno: "Maeva", izgovor: "mah-EH-vah", hr: "Welcome" },
+    { izvorno: "Manuia", izgovor: "mah-NOO-ee-ah", hr: "Cheers" },
+    { izvorno: "'Aita pe'ape'a", izgovor: "AH-ee-tah peh-ah-PEH-ah", hr: "No problem, no worries" },
+    { izvorno: "E / 'Aita", izgovor: "EH / AH-ee-tah", hr: "Yes / No" }
   ],
   zanimljivosti: [
-    "Riječi tetovaža i tabu ušle su u europske jezike iz polinezijskih jezika, preko dnevnika Jamesa Cooka i njegovih suputnika.",
-    "Prvi bungalovi na stupovima iznad lagune sagrađeni su šezdesetih godina 20. stoljeća na otoku Raiatea, a osmislila su ih trojica Kalifornijaca koji su vodili mali hotel.",
-    "Natjecanje u surfanju na Olimpijskim igrama u Parizu 2024. održano je na Tahitiju, na valu Teahupo'o, oko 15 000 kilometara od grada domaćina.",
-    "Sveto mjesto Taputapuātea na otoku Raiatea, odakle su prema predaji polazili kanui prema Havajima i Novom Zelandu, na UNESCO-ovu je popisu svjetske baštine od 2017.",
-    "U tahićanskom jeziku nema glasa b, pa se Bora Bora izvorno zove Pora Pora, što se tumači kao prvorođena.",
-    "Mnoge kuće uz cestu imaju dugačak sandučić u koji se svakog jutra dostavlja svježi baget.",
-    "Slikar Paul Gauguin stigao je na Tahiti 1891., a umro je 1903. na otoku Hiva Oa u Markižanskom otočju, gdje je i pokopan."
+    "The words tattoo and taboo entered European languages from the Polynesian languages, by way of the journals of James Cook and his companions.",
+    "The first bungalows on stilts over a lagoon were built in the 1960s on the island of Raiatea, and they were the idea of three Californians who ran a small hotel.",
+    "The surfing competition of the 2024 Paris Olympic Games was held in Tahiti, on the Teahupo'o wave, about 15,000 kilometers from the host city.",
+    "The sacred site of Taputapuātea on the island of Raiatea, from which according to tradition the canoes set out for Hawaii and New Zealand, has been on the UNESCO World Heritage List since 2017.",
+    "The Tahitian language has no b sound, so the original name of Bora Bora is Pora Pora, which is interpreted as firstborn.",
+    "Many houses along the road have a long mailbox into which a fresh baguette is delivered every morning.",
+    "The painter Paul Gauguin arrived in Tahiti in 1891 and died in 1903 on the island of Hiva Oa in the Marquesas, where he is also buried."
   ],
   mjesta: [
     {
       id: "tahiti",
       ime: "Tahiti",
       vrsta: "otok",
-      sazetak: "Najveći otok i ulaz u zemlju, s jedinim pravim gradom, plažama od crnog pijeska, dolinama slapova i najživljom tržnicom na Pacifiku.",
+      sazetak: "The largest island and the gateway to the country, with the only real city, black sand beaches, valleys of waterfalls and the liveliest market in the Pacific.",
       prica: [
-        "Tahiti čine dva ugasla vulkana spojena uskom prevlakom: veći Tahiti Nui i manji, divlji Tahiti Iti. Najviši vrh, Orohena, uzdiže se više od 2200 metara, pa je unutrašnjost gotovo nenaseljena, a svi žive uz obalnu cestu koja obilazi otok.",
-        "Otokom je vladalo više poglavica dok uz pomoć europskog oružja nije prevladala obitelj Pōmare, koja je početkom 19. stoljeća prihvatila kršćanstvo. Kraljica Pōmare IV. vladala je pedeset godina i 1842. bila prisiljena prihvatiti francuski protektorat, a njezin sin Pōmare V. predao je 1880. kraljevstvo Francuskoj. Papeete je iz misionarske postaje izrastao u lučki i upravni grad cijelog teritorija."
+        "Tahiti is made up of two extinct volcanoes joined by a narrow isthmus: the larger Tahiti Nui and the smaller, wild Tahiti Iti. The highest peak, Orohena, rises to more than 2,200 meters, so the interior is almost uninhabited and everyone lives along the coastal road that circles the island.",
+        "The island was ruled by several chiefs until, with the help of European weapons, the Pōmare family prevailed and adopted Christianity in the early 19th century. Queen Pōmare IV reigned for fifty years and in 1842 was forced to accept a French protectorate, and her son Pōmare V handed the kingdom over to France in 1880. Papeete grew from a mission station into the port and administrative city of the whole territory."
       ],
       vidjeti: [
-        { ime: "Tržnica u Papeeteu", opis: "Natkrivena tržnica na dva kata srce je grada. U prizemlju su riba, voće, cvijeće i gotova jela, a na katu rukotvorine, pareo i mirisna ulja. Najživlje je nedjeljom u zoru, kada obitelji kupuju sve za nedjeljnu gozbu, a do devet sati većina je štandova već prazna." },
-        { ime: "Muzej Tahitija i otokâ", opis: "Muzej u mjestu Punaauia, na tahićanskom Te Fare Iamanaha, nedavno je temeljito obnovljen i najbolji je uvod u polinezijsku kulturu. Tražite kipove tiki, opremu za plovidbu i žalobnu nošnju od sedefa i perja, kakvu su crtali Cookovi suputnici." },
-        { ime: "Rt Vénus", opis: "S ove plaže od crnog pijeska James Cook je 1769. promatrao prolazak Venere ispred Sunca, mjerenje kojim se trebala izračunati udaljenost Zemlje od Sunca. Ovdje su pristali i Wallis, posada broda Bounty te prvi misionari. Bijeli svjetionik potječe iz šezdesetih godina 19. stoljeća." },
-        { ime: "Marae Arahurahu", opis: "Obnovljeno svetište u dolini kod mjesta Paea pokazuje kako je izgledao marae: popločeno dvorište, stepenasti kameni oltar i drvene daske s rezbarijama za predake. Na ovakvim mjestima poglavice su se ustoličavali i prinosile su se žrtve bogovima." },
-        { ime: "Slapovi Fa'aruma'i", opis: "Na sjeveroistočnoj obali kratka staza kroz šumu vodi do triju slapova, od kojih je prvi, Vaimahuta, visok osamdesetak metara. Legenda ih povezuje s djevojkom koja se ovdje skrivala od ljubomornog boga." },
-        { ime: "Teahupo'o", opis: "Na kraju ceste na Tahiti Itiju lomi se jedan od najtežih i najopasnijih valova na svijetu, jer se golema masa vode ruši na plitak koraljni greben. Ovdje je 2024. održano olimpijsko natjecanje u surfanju. Val se lomi daleko od obale, pa ga se najbolje vidi iz čamca mjesnih ribara." }
+        { ime: "Papeete Market", opis: "The two-story covered market is the heart of the city. On the ground floor are fish, fruit, flowers and prepared food, and upstairs handicrafts, pareos and scented oils. It is liveliest at dawn on Sunday, when families buy everything for the Sunday feast, and by nine o'clock most of the stalls are already empty." },
+        { ime: "Museum of Tahiti and the Islands", opis: "The museum in the town of Punaauia, called Te Fare Iamanaha in Tahitian, was recently renovated from top to bottom and is the best introduction to Polynesian culture. Look for the tiki statues, the navigation equipment and the mourner's costume of mother-of-pearl and feathers, of the kind Cook's companions drew." },
+        { ime: "Point Venus", opis: "From this black sand beach James Cook observed the transit of Venus across the Sun in 1769, a measurement meant to calculate the distance from the Earth to the Sun. Wallis, the crew of the Bounty and the first missionaries also landed here. The white lighthouse dates from the 1860s." },
+        { ime: "Marae Arahurahu", opis: "A restored sanctuary in a valley near the town of Paea shows what a marae looked like: a paved courtyard, a stepped stone altar and carved wooden boards for the ancestors. At places like this chiefs were invested and sacrifices were offered to the gods." },
+        { ime: "Fa'aruma'i Waterfalls", opis: "On the northeast coast a short trail through the forest leads to three waterfalls, the first of which, Vaimahuta, is some eighty meters high. Legend links them to a girl who hid here from a jealous god." },
+        { ime: "Teahupo'o", opis: "At the end of the road on Tahiti Iti breaks one of the heaviest and most dangerous waves in the world, because an enormous mass of water crashes onto a shallow coral reef. The Olympic surfing competition was held here in 2024. The wave breaks far from shore, so the best view is from a local fisherman's boat." }
       ],
       jesti: [
-        { ime: "Večera kod roulottes", opis: "Na trgu Vai'ete uz luku u Papeeteu svake se večeri postavljaju pokretne kuhinje. Jedu se poisson cru, riba na žaru, kineski rezanci i palačinke, za zajedničkim stolovima i po najpovoljnijim cijenama u gradu." },
-        { ime: "Firi firi i kava na tržnici", opis: "Nedjeljni doručak od prženog tijesta kupuje se u zoru na štandovima oko tržnice." },
-        { ime: "Ma'a Tinito", opis: "Jelo kineske zajednice Tahitija od svinjetine, crvenog graha, kineskog kupusa i tjestenine, obilno i jeftino, koje se prodaje u zalogajnicama i na roulottes." },
-        { ime: "Casse-croûte", opis: "Pola bageta punjenog ribom, piletinom ili čak rezancima i krumpirićima. To je uobičajena marenda koja se nosi na plažu." }
+        { ime: "Dinner at the roulottes", opis: "Food trucks set up every evening on Vai'ete Square by the harbor in Papeete. People eat poisson cru, grilled fish, Chinese noodles and crêpes at shared tables and at the best prices in town." },
+        { ime: "Firi firi and coffee at the market", opis: "The Sunday breakfast of fried dough is bought at dawn from the stalls around the market." },
+        { ime: "Ma'a Tinito", opis: "A dish of Tahiti's Chinese community made with pork, red beans, Chinese cabbage and pasta, hearty and cheap, sold in snack bars and at the roulottes." },
+        { ime: "Casse-croûte", opis: "Half a baguette stuffed with fish, chicken or even noodles and fries. This is the usual packed lunch that people take to the beach." }
       ],
       dozivjeti: [
-        { ime: "Heiva i Tahiti", opis: "Ako dolazite u srpnju, kupite kartu za jednu natjecateljsku večer plesa i pjesme na trgu To'atā. Raspored i prodaja karata objavljuju se na službenoj stranici festivala.", link: "https://www.heiva.org/" },
-        { ime: "Posjet Muzeju Tahitija i otokâ", opis: "Odvojite dva sata prije nego što krenete na druge otoke, jer ćete poslije svaki marae i svaki uzorak tetovaže gledati drugim očima.", link: "https://www.museetahiti.pf/" },
-        { ime: "Vožnja oko otoka", opis: "Obalna cesta oko Tahiti Nuija duga je oko 115 kilometara i može se obići u jednom danu, uz zaustavljanja na rtu Vénus, kod slapova, kod morske rupe Arahoho kroz koju valovi šikljaju uvis i na crnim plažama." },
-        { ime: "Dolina Papeno'o", opis: "Terenskim vozilom s vodičem ulazi se u krater starog vulkana kroz dolinu punu slapova i ostataka drevnih sela. To je Tahiti kakav se s obale ne vidi." }
+        { ime: "Heiva i Tahiti", opis: "If you are coming in July, buy a ticket for one competition evening of dance and song on To'atā Square. The schedule and ticket sales are posted on the festival's official website.", link: "https://www.heiva.org/" },
+        { ime: "A visit to the Museum of Tahiti and the Islands", opis: "Set aside two hours before you head off to the other islands, because afterward you will look at every marae and every tattoo pattern with different eyes.", link: "https://www.museetahiti.pf/" },
+        { ime: "A drive around the island", opis: "The coastal road around Tahiti Nui is about 115 kilometers long and can be covered in a day, with stops at Point Venus, at the waterfalls, at the Arahoho blowhole where the waves shoot upward and at the black beaches." },
+        { ime: "Papeno'o Valley", opis: "A four-wheel-drive vehicle with a guide takes you into the crater of the old volcano through a valley full of waterfalls and the remains of ancient villages. This is a Tahiti you cannot see from the coast." }
       ],
       agencije: [
-        { ime: "Tahiti Tourisme: Tahiti", opis: "Službena turistička stranica, s popisom vodiča, izleta i smještaja na otoku.", link: "https://www.tahititourisme.com/islands/tahiti/" },
-        { ime: "Air Tahiti", opis: "Domaći zračni prijevoznik koji povezuje otoke, s kartama za više otoka.", link: "https://www.airtahiti.com/" }
+        { ime: "Tahiti Tourisme: Tahiti", opis: "The official tourism website, with a list of guides, excursions and accommodation on the island.", link: "https://www.tahititourisme.com/islands/tahiti/" },
+        { ime: "Air Tahiti", opis: "The domestic airline that connects the islands, with multi-island passes.", link: "https://www.airtahiti.com/" }
       ],
-      kada: "Najugodnije je od svibnja do listopada, a u srpnju grad živi za Heivu. Nedjeljom poslijepodne gotovo sve je zatvoreno, pa toga dana planirajte plažu ili vožnju oko otoka."
+      kada: "It is most pleasant from May to October, and in July the city lives for Heiva. On Sunday afternoons almost everything is closed, so plan the beach or a drive around the island for that day."
     },
     {
       id: "bora-bora",
       ime: "Bora Bora",
       vrsta: "otok",
-      sazetak: "Zeleni vulkanski vrh usred lagune tolikih nijansi plave da izgleda dotjerano i uživo, s morskim psima i ražama koji plivaju oko gležnjeva.",
+      sazetak: "A green volcanic peak in the middle of a lagoon with so many shades of blue that it looks retouched even in real life, with sharks and rays swimming around your ankles.",
       prica: [
-        "Bora Bora ostatak je vulkana starog nekoliko milijuna godina, koji polako tone dok oko njega raste koraljni prsten s nizom pješčanih otočića zvanih motu. U lagunu vodi samo jedan prolaz. Otok je bio poznat po ratnicima koji su napadali noću, tiho veslajući, i dugo je odolijevao susjedima.",
-        "Nakon napada na Pearl Harbor američka je vojska 1942. ovdje sagradila bazu za opskrbu, u operaciji pod šifrom Bobcat. Nekoliko tisuća vojnika donijelo je cestu oko otoka, vodovod i uzletište na otočiću Motu Mute, koje je sve do početka šezdesetih godina bilo glavna zračna luka cijele Francuske Polinezije. Borbi nije bilo, a iza vojnika ostali su topovi na brdima i brojna djeca."
+        "Bora Bora is the remnant of a volcano several million years old, which is slowly sinking while a coral ring with a string of sandy islets called motu grows around it. Only one pass leads into the lagoon. The island was known for warriors who attacked at night, paddling silently, and it held out against its neighbors for a long time.",
+        "After the attack on Pearl Harbor the US military built a supply base here in 1942, in an operation code-named Bobcat. Several thousand soldiers brought a road around the island, a water system and an airstrip on the islet of Motu Mute, which was the main airport for all of French Polynesia until the early 1960s. There was no fighting, and the soldiers left behind guns on the hills and a good many children."
       ],
       vidjeti: [
-        { ime: "Otemanu", opis: "Četvrtasti bazaltni vrh visok 727 metara ostatak je stijenke starog kratera. Do samog vrha ne može se popeti jer je stijena krhka, ali ga gledate sa svake točke otoka i lagune. U zoru i sumrak mijenja boju iz sata u sat." },
-        { ime: "Plaža Matira", opis: "Najljepša javna plaža na otoku pruža se uz južni rt, s bijelim pijeskom i morem plitkim stotinama metara od obale. Ovdje se besplatno dobiva isti pogled koji gosti skupih hotela plaćaju bogatstvo." },
-        { ime: "Laguna i koraljni vrt", opis: "Boje lagune ovise o dubini i pješčanom dnu, pa se svijetla tirkizna oštro smjenjuje s tamnomodrom. Na izletima čamcem pliva se s grebenskim morskim psima crnih peraja i ražama, koji su bezopasni ako ih se ne dira, a zatim se roni s maskom iznad koralja." },
-        { ime: "Američki topovi", opis: "Na nekoliko uzvisina oko otoka i danas stoje obalni topovi iz 1942., okrenuti prema prolazu u greben. Do nekih vodi kratka pješačka staza, a s položaja se pruža odličan pogled na lagunu." },
-        { ime: "Vaitape", opis: "Glavno mjesto na otoku ima pristanište, crkvu, tržnicu rukotvorina i nekoliko zlatarnica s biserima. Pred pristaništem je spomenik francuskom moreplovcu Alainu Gerbaultu, koji je dvadesetih godina 20. stoljeća sam oplovio svijet i zavolio ovaj otok." },
-        { ime: "Dolina Faanui", opis: "Na sjevernoj strani otoka, uz obalnu cestu, nalaze se ostaci nekoliko svetišta marae. Na kamenim pločama jednoga od njih uklesane su kornjače, životinje koje su bile svete i smjeli su ih jesti samo poglavice i svećenici." }
+        { ime: "Otemanu", opis: "The square basalt peak, 727 meters high, is what remains of the wall of the old crater. You cannot climb to the very top because the rock is crumbly, but you see it from every point on the island and the lagoon. At dawn and dusk it changes color from hour to hour." },
+        { ime: "Matira Beach", opis: "The most beautiful public beach on the island stretches along the southern point, with white sand and water that stays shallow for hundreds of meters from shore. Here you get for free the same view that guests of the expensive hotels pay a fortune for." },
+        { ime: "The lagoon and the coral garden", opis: "The colors of the lagoon depend on the depth and the sandy bottom, so pale turquoise gives way abruptly to deep blue. On boat trips you swim with blacktip reef sharks and rays, which are harmless if left untouched, and then snorkel above the coral." },
+        { ime: "The US guns", opis: "Coastal guns from 1942 still stand on several heights around the island, pointed toward the pass in the reef. A short walking trail leads to some of them, and the emplacements offer an excellent view of the lagoon." },
+        { ime: "Vaitape", opis: "The main town on the island has a dock, a church, a handicrafts market and several pearl jewelers. In front of the dock is a monument to the French sailor Alain Gerbault, who sailed around the world alone in the 1920s and fell in love with this island." },
+        { ime: "Faanui Valley", opis: "On the north side of the island, beside the coastal road, are the remains of several marae sanctuaries. Carved into the stone slabs of one of them are turtles, animals that were sacred and could be eaten only by chiefs and priests." }
       ],
       jesti: [
-        { ime: "Poisson cru na motuu", opis: "Na cjelodnevnim izletima lagunom vodiči na pješčanom otočiću pred gostima pripreme sirovu ribu u kokosovu mlijeku i pokažu kako se otvara i riba kokos." },
-        { ime: "Mahi-mahi na žaru", opis: "Najčešća riba na jelovnicima, čvrstog bijelog mesa, poslužuje se s umakom od vanilije ili s limetom." },
-        { ime: "Zalogajnice uz cestu", opis: "U malim obiteljskim zalogajnicama, koje ovdje zovu snack, jede se dobro i mnogo povoljnije nego u hotelima. Nude ribu, piletinu i bagete." }
+        { ime: "Poisson cru on a motu", opis: "On full-day lagoon trips the guides prepare raw fish in coconut milk in front of the guests on a sandy islet and show how a coconut is opened and grated." },
+        { ime: "Grilled mahi-mahi", opis: "The fish most often found on menus, with firm white flesh, is served with vanilla sauce or with lime." },
+        { ime: "Roadside snack bars", opis: "In the small family-run eateries, which are called a snack here, you eat well and far more cheaply than in the hotels. They offer fish, chicken and baguettes." }
       ],
       dozivjeti: [
-        { ime: "Izlet lagunom s ručkom na motuu", opis: "Mjesni vodiči u kanuima s plovkom vode vas na tri ili četiri mjesta za ronjenje s maskom, sviraju ukulele i pripreme ručak na otočiću. To je najbolji način da doživite lagunu ako ne spavate u bungalovu iznad vode." },
-        { ime: "Biciklom oko otoka", opis: "Obalna cesta duga je trideset i dva kilometra i gotovo je ravna, pa se otok može obići za pola dana, uz kupanje na Matiri i zaustavljanja kod topova i svetišta." },
-        { ime: "Vožnja terenskim vozilom u brda", opis: "Strmim zemljanim putovima dolazi se do vidikovaca i topova iz Drugoga svjetskog rata, uz priče vodiča o američkoj bazi." }
+        { ime: "A lagoon trip with lunch on a motu", opis: "Local guides in outrigger canoes take you to three or four snorkeling spots, play the ukulele and prepare lunch on an islet. It is the best way to experience the lagoon if you are not sleeping in an overwater bungalow." },
+        { ime: "By bike around the island", opis: "The coastal road is thirty-two kilometers long and almost flat, so you can circle the island in half a day, with a swim at Matira and stops at the guns and the sanctuaries." },
+        { ime: "A four-wheel-drive ride into the hills", opis: "Steep dirt tracks lead to the viewpoints and the World War II guns, accompanied by the guides' stories about the US base." }
       ],
       agencije: [
-        { ime: "Tahiti Tourisme: Bora Bora", opis: "Službena turistička stranica, s popisom vodiča, izleta i obiteljskih pansiona.", link: "https://www.tahititourisme.com/islands/bora-bora/" },
-        { ime: "Air Tahiti", opis: "Letovi iz Papeetea traju oko pedeset minuta. Sjednite na lijevu stranu zrakoplova radi pogleda pri slijetanju.", link: "https://www.airtahiti.com/" }
+        { ime: "Tahiti Tourisme: Bora Bora", opis: "The official tourism website, with a list of guides, excursions and family-run guesthouses.", link: "https://www.tahititourisme.com/islands/bora-bora/" },
+        { ime: "Air Tahiti", opis: "Flights from Papeete take about fifty minutes. Sit on the left side of the plane for the view on landing.", link: "https://www.airtahiti.com/" }
       ],
-      kada: "Najbolje je od svibnja do listopada. Zračna luka nalazi se na otočiću, pa se do glavnog otoka prelazi besplatnim brodom zračnog prijevoznika. Obiteljski pansioni na glavnom otoku višestruko su povoljniji od hotela na motuima."
+      kada: "The best time is from May to October. The airport is on an islet, so you cross to the main island on the airline's free boat. Family-run guesthouses on the main island cost a fraction of what the hotels on the motus charge."
     },
     {
       id: "moorea",
       ime: "Moorea",
       vrsta: "otok",
-      sazetak: "Otok u obliku srca sa šiljastim zelenim vrhovima i dva duboka zaljeva, pola sata trajektom od Tahitija, a mnogo mirniji i zeleniji.",
+      sazetak: "A heart-shaped island with jagged green peaks and two deep bays, half an hour by ferry from Tahiti and much quieter and greener.",
       prica: [
-        "Moorea je ostatak vulkana čija se sjeverna stijenka urušila, pa su nastala dva usporedna zaljeva, Cookov i Ōpūnohu, između kojih stoji planina Rotui. Ime otoka znači žuti gušter i potječe iz legende o jednoj poglavičkoj obitelji.",
-        "Dolina Ōpūnohu bila je gusto naseljena prije dolaska Europljana i u njoj su pronađeni ostaci stotina kamenih građevina. Početkom 19. stoljeća ovdje su se smjestili protestantski misionari, koji su s Mooree širili kršćanstvo po cijelom Pacifiku i preveli Bibliju na tahićanski. James Cook usidrio se 1777. u zaljevu Ōpūnohu, iako njegovo ime nosi susjedni zaljev."
+        "Moorea is the remnant of a volcano whose northern wall collapsed, creating two parallel bays, Cook's Bay and Ōpūnohu Bay, with Mount Rotui standing between them. The island's name means yellow lizard and comes from a legend about a family of chiefs.",
+        "The Ōpūnohu Valley was densely populated before the Europeans arrived, and the remains of hundreds of stone structures have been found in it. In the early 19th century Protestant missionaries settled here, and from Moorea they spread Christianity across the whole Pacific and translated the Bible into Tahitian. James Cook anchored in Ōpūnohu Bay in 1777, even though it is the neighboring bay that bears his name."
       ],
       vidjeti: [
-        { ime: "Vidikovac Belvédère", opis: "S vidikovca u srcu otoka vide se oba zaljeva odjednom, s planinom Rotui između njih. Cesta do njega vodi kroz plantaže ananasa i pokraj poljoprivredne škole, gdje se prodaju sokovi, džemovi i sladoled od voća koje uzgajaju učenici." },
-        { ime: "Svetišta u dolini Ōpūnohu", opis: "Uz cestu prema vidikovcu, u šumi golemih stabala tahićanskog kestena, nalaze se obnovljena svetišta marae i platforma za streličarstvo. Streličarstvo je bilo sveti sport rezerviran za poglavice, u kojem je pobjeđivao onaj čija strijela odleti najdalje." },
-        { ime: "Hram u Papetoaiju", opis: "Osmerokutna protestantska crkva sagrađena je dvadesetih godina 19. stoljeća na mjestu svetišta posvećenog bogu rata Oru i smatra se najstarijom europskom građevinom na južnom Pacifiku koja je još u uporabi. Jedan kamen starog svetišta ostavljen je uz crkvu." },
-        { ime: "Planina Mou'a Puta", opis: "Vrh s rupom koja se vidi s obale. Legenda kaže da je junak Pai bacio koplje s Tahitija kako bi probudio pijetlove i spriječio boga lopova Hira da noću ukrade planinu Rotui, a koplje je probilo vrh." },
-        { ime: "Plaža Temae", opis: "Najveća javna plaža na otoku nalazi se kraj zračne luke, s bijelim pijeskom i koraljima blizu obale. Vikendom ovamo dolaze obitelji s Tahitija s hladnjacima i ukuleleima." },
-        { ime: "Te Fare Natura", opis: "Ekomuzej u zaljevu Ōpūnohu, u zgradi oblikovanoj poput raže, tumači kako su nastali otoci i grebeni i kako su Polinežani živjeli s morem. Nastao je uz istraživačku postaju koja već desetljećima proučava koralje Mooree." }
+        { ime: "Belvédère lookout", opis: "From the lookout in the heart of the island you can see both bays at once, with Mount Rotui between them. The road up passes through pineapple plantations and past the agricultural school, which sells juices, jams and ice cream made from fruit grown by the students." },
+        { ime: "The sanctuaries of the Ōpūnohu Valley", opis: "Beside the road to the lookout, in a forest of enormous Tahitian chestnut trees, are restored marae sanctuaries and an archery platform. Archery was a sacred sport reserved for chiefs, and the winner was the one whose arrow flew the farthest." },
+        { ime: "The temple at Papetoai", opis: "The octagonal Protestant church was built in the 1820s on the site of a sanctuary dedicated to Oro, the god of war, and is considered the oldest European building in the South Pacific still in use. One stone of the old sanctuary has been left beside the church." },
+        { ime: "Mount Mou'a Puta", opis: "A peak with a hole that you can see from the coast. Legend says the hero Pai threw his spear from Tahiti to wake the roosters and stop Hiro, the god of thieves, from stealing Mount Rotui in the night, and the spear pierced the summit." },
+        { ime: "Temae Beach", opis: "The largest public beach on the island is next to the airport, with white sand and coral close to shore. On weekends families come here from Tahiti with coolers and ukuleles." },
+        { ime: "Te Fare Natura", opis: "The ecomuseum on Ōpūnohu Bay, in a building shaped like a ray, explains how the islands and reefs were formed and how the Polynesians lived with the sea. It grew up beside the research station that has been studying Moorea's corals for decades." }
       ],
       jesti: [
-        { ime: "Ananas Queen Tahiti", opis: "Mala, vrlo slatka sorta raste na crvenom tlu u unutrašnjosti otoka. Prodaje se na štandovima uz cestu, a od nje se radi i sok." },
-        { ime: "Poisson cru u zalogajnicama uz lagunu", opis: "U malim obiteljskim restoranima uz vodu jede se s nogama u pijesku, dok raže plivaju uz obalu." },
-        { ime: "Voćni sladoled poljoprivredne škole", opis: "Okusi se mijenjaju prema onome što dozrije, od marakuje i banane do cvijeta tiare." }
+        { ime: "Queen Tahiti pineapple", opis: "A small, very sweet variety grows in the red soil of the island's interior. It is sold at roadside stalls, and it is also made into juice." },
+        { ime: "Poisson cru at the lagoon-side snack bars", opis: "In the small family restaurants by the water you eat with your feet in the sand while rays swim along the shore." },
+        { ime: "The agricultural school's fruit ice cream", opis: "The flavors change with whatever is ripe, from passion fruit and banana to tiare flower." }
       ],
       dozivjeti: [
-        { ime: "Večer u Tiki Villageu", opis: "U kulturnom selu uz lagunu gledate otvaranje zemljane peći, učite vezati pareo i plesti lišće, a nakon večere slijedi ples s vatrom.", link: "https://tikivillage.pf/" },
-        { ime: "Posvojite koralj", opis: "Udruga mladih s Mooree uzgaja koralje otporne na toplinu i sadi ih natrag na greben. Posjetitelji mogu doći u radionicu i naučiti kako se to radi.", link: "https://coralgardeners.org/" },
-        { ime: "Posjet ekomuzeju", opis: "Dobar izbor za kišno poslijepodne ili prije ronjenja, jer objašnjava što ćete vidjeti pod vodom.", link: "https://www.farenatura.org/en" },
-        { ime: "Promatranje grbavih kitova", opis: "Od srpnja do studenoga kitovi dolaze u vode oko otoka roditi mlade. Izlazi se s ovlaštenim vodičima, uz stroga pravila o udaljenosti koja štite majke i mladunce." }
+        { ime: "An evening at Tiki Village", opis: "In the cultural village beside the lagoon you watch the earth oven being opened and learn to tie a pareo and weave leaves, and after dinner comes the fire dance.", link: "https://tikivillage.pf/" },
+        { ime: "Adopt a coral", opis: "An association of young people from Moorea grows heat-resistant corals and plants them back on the reef. Visitors can come to a workshop and learn how it is done.", link: "https://coralgardeners.org/" },
+        { ime: "A visit to the ecomuseum", opis: "A good choice for a rainy afternoon or before snorkeling, because it explains what you are going to see underwater.", link: "https://www.farenatura.org/en" },
+        { ime: "Humpback whale watching", opis: "From July to November the whales come to the waters around the island to give birth. You go out with authorized guides, under strict distance rules that protect the mothers and calves." }
       ],
       agencije: [
-        { ime: "Tahiti Tourisme: Moorea", opis: "Službena turistička stranica, s popisom vodiča i izleta na otoku.", link: "https://www.tahititourisme.com/islands/moorea/" },
-        { ime: "Aremiti", opis: "Trajekt koji više puta na dan povezuje Papeete i Mooreu.", link: "https://www.aremitiexpress.com/" }
+        { ime: "Tahiti Tourisme: Moorea", opis: "The official tourism website, with a list of guides and excursions on the island.", link: "https://www.tahititourisme.com/islands/moorea/" },
+        { ime: "Aremiti", opis: "The ferry that connects Papeete and Moorea several times a day.", link: "https://www.aremitiexpress.com/" }
       ],
-      kada: "Najljepše je od svibnja do listopada, a kitovi su ovdje od srpnja do studenoga. Cesta oko otoka duga je oko šezdeset kilometara, pa za obilazak unajmite skuter ili mali automobil na pristaništu."
+      kada: "It is at its most beautiful from May to October, and the whales are here from July to November. The road around the island is about sixty kilometers long, so rent a scooter or a small car at the ferry dock to get around."
     }
   ],
   izvori: [

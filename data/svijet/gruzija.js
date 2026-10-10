@@ -1,232 +1,232 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["gruzija"] = {
   id: "gruzija",
-  ime: "Gruzija",
-  regija: "Južna i Srednja Azija",
-  sazetak: "Zemlja pod Kavkazom u kojoj se vino pravi osam tisuća godina, gost se smatra darom s neba, a zdravice traju dulje od večere.",
+  ime: "Georgia",
+  regija: "South and Central Asia",
+  sazetak: "A country beneath the Caucasus where wine has been made for eight thousand years, a guest is considered a gift from heaven, and the toasts last longer than the dinner.",
   uvod: [
-    "Gruzija leži između Crnog mora i Velikog Kavkaza, na mjestu gdje se dodiruju Europa i Azija, i na prostoru manjem od Hrvatske s Bosnom i Hercegovinom ima ledenjake, vinograde, polupustinju i suptropsku obalu. Gruzijci svoju zemlju zovu Sakartvelo, govore jezikom koji nije srodan nijednom velikom europskom jeziku i pišu ga vlastitim, zaobljenim pismom od trideset i tri slova.",
-    "Kršćanstvo su primili početkom 4. stoljeća, među prvima na svijetu, a zlatno doba doživjeli su u 12. stoljeću pod kraljem Davidom Graditeljem i kraljicom Tamarom. Potom su ih stoljećima pritiskali Mongoli, Perzijanci i Osmanlije, a 1801. godine pripojilo ih je Rusko Carstvo. Nakon kratke neovisnosti od 1918. do 1921. slijedilo je sovjetsko razdoblje, sve do 1991. godine.",
-    "Kroz sve to Gruzijci su sačuvali vjeru, pismo, višeglasno pjevanje i stol. Upravo je stol najbolji uvod u zemlju, jer se ovdje povijest, pjesma i politika raspravljaju uz vino i hranu koju je teško zaboraviti."
+    "Georgia lies between the Black Sea and the Greater Caucasus, at the point where Europe and Asia touch, and in an area smaller than Croatia and Bosnia and Herzegovina combined it has glaciers, vineyards, semi-desert and a subtropical coast. Georgians call their country Sakartvelo, speak a language unrelated to any major European language and write it in their own rounded script of thirty-three letters.",
+    "They accepted Christianity in the early 4th century, among the first in the world, and enjoyed their golden age in the 12th century under King David the Builder and Queen Tamar. After that they were squeezed for centuries by the Mongols, the Persians and the Ottomans, and in 1801 they were annexed by the Russian Empire. A brief period of independence from 1918 to 1921 was followed by the Soviet era, which lasted until 1991.",
+    "Through all of it Georgians held on to their faith, their script, their polyphonic singing and their table. The table is in fact the best introduction to the country, because here history, song and politics are all talked over with wine and food that is hard to forget."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Svibanj, lipanj, rujan i listopad su najugodniji, a rujan i početak listopada donose berbu u Kahetiji. Planinske staze u Svanetiji i oko Kazbegija prohodne su od lipnja do rujna, a zimi se ondje skija." },
-    { k: "Valuta", v: "Gruzijski lari (GEL). Kartice se primaju gotovo svuda u gradovima, a za sela, tržnice i minibuseve treba gotovina." },
-    { k: "Kretanje", v: "Između gradova voze minibusevi, zvani maršrutke, koji polaze kad se napune, te vlakovi na liniji Tbilisi, Kutaisi, Batumi. U Tbilisiju su metro i taksi preko aplikacije jeftini, a za planine se unajmljuje vozač s terenskim vozilom." },
-    { k: "Napojnica", v: "Na račun se često već doda deset do petnaest posto za uslugu. Ako nije, ostavlja se oko deset posto." }
+    { k: "When to go", v: "May, June, September and October are the most pleasant months, and September and early October bring the grape harvest in Kakheti. The mountain trails in Svaneti and around Kazbegi are passable from June to September, and in winter people ski there." },
+    { k: "Currency", v: "The Georgian lari (GEL). Cards are accepted almost everywhere in the cities, while you need cash for villages, markets and minibuses." },
+    { k: "Getting around", v: "Between towns there are minibuses called marshrutkas, which leave when they are full, and trains on the Tbilisi, Kutaisi, Batumi line. In Tbilisi the metro and app-based taxis are cheap, and for the mountains you hire a driver with an off-road vehicle." },
+    { k: "Tipping", v: "Ten to fifteen percent for service is often already added to the bill. If it is not, leave about ten percent." }
   ],
   hrana: [
-    { ime: "Hačapuri", opis: "Kruh punjen sirom, koji svaka pokrajina peče na svoj način.", prica: "Imeretski je okrugao i zatvoren, a adžarski ima oblik lađe i u sredini sirovo jaje i komad maslaca, koji se vilicom umiješaju u vrući sir. Rubovi kruha otkidaju se rukom i umaču u sredinu, pa pribor zapravo ne treba." },
-    { ime: "Hinkali", opis: "Velike okruglice od tijesta punjene začinjenim mesom i juhom.", prica: "Potječu iz planinskih krajeva i jedu se isključivo rukom: uhvati se za čvor na vrhu, zagrize sa strane i najprije ispije juha. Čvor se ne jede, nego ostavlja na tanjuru, pa se na kraju vidi tko je koliko pojeo." },
-    { ime: "Pkhali i patlidžani s orasima", opis: "Hladna predjela od kuhanog povrća, poput špinata i cikle, s pastom od mljevenih oraha, češnjaka i začina.", prica: "Orah je u gruzijskoj kuhinji ono što je kod nas maslinovo ulje. Badrijani su prženi listovi patlidžana namazani tom pastom i posuti zrncima nara." },
-    { ime: "Mcvadi", opis: "Ražnjići od svinjetine ili teletine, pečeni na žaru od vinove loze.", prica: "Za meso su za stolom zaduženi muškarci, a suhe rezidbe vinograda daju mu poseban miris. Poslužuje se sa sirovim lukom, sokom od nara i kiselim umakom od šljiva, tkemalijem." },
-    { ime: "Lobio", opis: "Gusto varivo od crvenog graha s korijandrom i orasima, posluženo u glinenom lončiću.", prica: "Jede se s kukuruznim kruhom mčadijem i ukiseljenim povrćem. Najpoznatiji je onaj iz okolice Mchete, kamo Tbilišani odlaze na ručak samo zbog njega." },
-    { ime: "Čurčhela", opis: "Niz oraha ili lješnjaka na koncu, više puta umočen u zgusnuti sok od grožđa i osušen.", prica: "Izgleda kao šarena svijeća i visi na svakoj tržnici. Pravi se u jesen nakon berbe, a nekoć su je ratnici nosili sa sobom jer je hranjiva i ne kvari se." },
-    { ime: "Vino iz kvevrija", opis: "Vino koje vrije i dozrijeva u velikim glinenim posudama ukopanima u zemlju.", prica: "Arheolozi su u Gruziji pronašli tragove vina stare oko osam tisuća godina, najstarije na svijetu, a izradu u kvevriju UNESCO je 2013. uvrstio u nematerijalnu baštinu. Bijelo vino koje mjesecima stoji na kožicama dobiva jantarnu boju i okus sušenog voća i čaja." },
-    { ime: "Čača", opis: "Jaka rakija od grožđane komine.", prica: "Peče je svako seosko domaćinstvo i nudi gostima već ujutro, kao lijek za sve. Pije se naiskap, a jakost joj je često veća nego što domaćin priznaje." },
-    { ime: "Limunade i mineralne vode", opis: "Gazirani sokovi od estragona, kruške i vanilije te slane mineralne vode iz kavkaskih izvora.", prica: "Zelena limunada od estragona smišljena je u Gruziji krajem 19. stoljeća. Mineralna voda Borjomi bila je poznata u cijelom Ruskom Carstvu i preporučuje se nakon obilne večere." }
+    { ime: "Khachapuri", opis: "Cheese-filled bread, which every region bakes in its own way.", prica: "The Imeretian kind is round and closed, while the Adjarian one is shaped like a boat and has a raw egg and a pat of butter in the middle, which you stir into the hot cheese with a fork. You tear off the edges of the bread by hand and dip them into the middle, so cutlery is not really needed." },
+    { ime: "Khinkali", opis: "Large dough dumplings filled with spiced meat and broth.", prica: "They come from the mountain regions and are eaten strictly by hand: you take hold of the knot on top, bite into the side and drink the broth first. The knot is not eaten and is left on the plate, so at the end you can see who ate how many." },
+    { ime: "Pkhali and eggplant with walnuts", opis: "Cold appetizers of cooked vegetables, such as spinach and beets, with a paste of ground walnuts, garlic and spices.", prica: "The walnut is to Georgian cooking what olive oil is to Croatian cooking. Badrijani are fried slices of eggplant spread with that paste and sprinkled with pomegranate seeds." },
+    { ime: "Mtsvadi", opis: "Skewers of pork or veal, grilled over the embers of grapevine wood.", prica: "At the table the meat is the men's responsibility, and the dry vineyard prunings give it a special aroma. It is served with raw onion, pomegranate juice and tkemali, a sour plum sauce." },
+    { ime: "Lobio", opis: "A thick stew of red beans with cilantro and walnuts, served in a small clay pot.", prica: "It is eaten with mchadi corn bread and pickled vegetables. The best known is the one from around Mtskheta, where people from Tbilisi go for lunch just to have it." },
+    { ime: "Churchkhela", opis: "A string of walnuts or hazelnuts on a thread, dipped several times in thickened grape juice and dried.", prica: "It looks like a colorful candle and hangs at every market. It is made in the fall after the harvest, and warriors once carried it with them because it is nourishing and does not spoil." },
+    { ime: "Qvevri wine", opis: "Wine that ferments and ages in large clay vessels buried in the ground.", prica: "Archaeologists in Georgia have found traces of wine about eight thousand years old, the oldest in the world, and in 2013 UNESCO added qvevri winemaking to its list of intangible heritage. White wine that sits on its skins for months takes on an amber color and a taste of dried fruit and tea." },
+    { ime: "Chacha", opis: "A strong brandy made from grape pomace.", prica: "Every village household distills it and offers it to guests first thing in the morning, as a cure for everything. It is drunk in one gulp, and it is often stronger than the host admits." },
+    { ime: "Lemonades and mineral waters", opis: "Sodas flavored with tarragon, pear and vanilla, and salty mineral waters from Caucasian springs.", prica: "The green tarragon lemonade was invented in Georgia in the late 19th century. Borjomi mineral water was famous throughout the Russian Empire and is recommended after a heavy dinner." }
   ],
   obicaji: [
-    { ime: "Supra i tamada", opis: "Supra je svečana gozba kojom upravlja tamada, voditelj zdravica. On redom nazdravlja Bogu, domovini, precima, roditeljima i gostima, a nitko ne pije prije nego što zdravica završi. Dobar tamada je i govornik i pjesnik.", gdje: "U obiteljskim kućama i vinarijama Kahetije, gdje se supra s domaćinima može dogovoriti preko lokalnih organizatora." },
-    { ime: "Višeglasno pjevanje", opis: "Gruzijci pjevaju u tri glasa, bez pratnje, na način stariji od zapadnoeuropske polifonije. UNESCO ga je 2001. proglasio remek-djelom nematerijalne baštine, a pjesma Chakrulo putuje svemirom na zlatnoj ploči letjelice Voyager.", gdje: "Na nedjeljnim liturgijama u crkvama, na suprama i na koncertima u Tbilisiju." },
-    { ime: "Rtveli", opis: "Berba grožđa, koja je ujedno i najveći obiteljski blagdan godine. Rodbina i prijatelji beru zajedno, grožđe se gazi u drvenom koritu, a dan završava suprom pod orahom.", gdje: "U Kahetiji od sredine rujna do sredine listopada. Mnoge obiteljske vinarije primaju goste koji žele sudjelovati." },
-    { ime: "Narodni plesovi", opis: "Muškarci plešu na vrhovima prstiju u mekim čizmama, skaču i mačuju se, dok žene u dugim haljinama klize podom kao da lebde. Svaka pokrajina ima svoj ples, od ratničkog do svadbenog.", gdje: "Na nastupima državnih ansambala u Tbilisiju i na seoskim svetkovinama u planinama." },
-    { ime: "Sumporne kupelji", opis: "Tbilisi je nastao na toplim izvorima, a javne kupelji pod opečnim kupolama stoljećima su bile mjesto za pranje, dogovaranje brakova i sklapanje poslova. Nakon kupke slijedi trljanje grubom rukavicom.", gdje: "U četvrti Abanotubani u Tbilisiju, gdje se može unajmiti i privatna soba s bazenom." },
-    { ime: "Tbilisoba", opis: "Jesenska svetkovina glavnoga grada, kada svaka pokrajina na ulicama starog grada postavlja štandove s vinom, sirom, voćem i čurčhelom.", gdje: "U Tbilisiju, jednog vikenda u listopadu." }
+    { ime: "Supra and tamada", opis: "A supra is a festive feast run by the tamada, the toastmaster. He raises toasts in turn to God, the homeland, the ancestors, parents and guests, and nobody drinks before the toast is finished. A good tamada is both an orator and a poet.", gdje: "In family homes and wineries in Kakheti, where a supra with the hosts can be arranged through local organizers." },
+    { ime: "Polyphonic singing", opis: "Georgians sing in three voices, unaccompanied, in a manner older than Western European polyphony. UNESCO proclaimed it a masterpiece of intangible heritage in 2001, and the song Chakrulo is traveling through space on the golden record of the Voyager spacecraft.", gdje: "At Sunday liturgies in churches, at supras and at concerts in Tbilisi." },
+    { ime: "Rtveli", opis: "The grape harvest, which is also the biggest family holiday of the year. Relatives and friends pick together, the grapes are trodden in a wooden trough, and the day ends with a supra under a walnut tree.", gdje: "In Kakheti from mid-September to mid-October. Many family wineries welcome guests who want to take part." },
+    { ime: "Folk dances", opis: "The men dance on the tips of their toes in soft boots, leaping and fencing, while the women in long dresses glide across the floor as if floating. Every region has its own dance, from the warrior's to the wedding dance.", gdje: "At performances by the state ensembles in Tbilisi and at village festivals in the mountains." },
+    { ime: "Sulfur baths", opis: "Tbilisi grew up on hot springs, and for centuries the public baths under their brick domes were a place for washing, arranging marriages and closing deals. After the bath comes a scrub with a coarse mitt.", gdje: "In the Abanotubani district of Tbilisi, where you can also rent a private room with a pool." },
+    { ime: "Tbilisoba", opis: "The capital's fall festival, when every region sets up stalls in the streets of the old town with wine, cheese, fruit and churchkhela.", gdje: "In Tbilisi, on one weekend in October." }
   ],
   fraze: [
-    { izvorno: "Gamarjoba", izgovor: "ga-mar-ĐO-ba", hr: "Dobar dan (doslovno: pobjeda tebi)" },
-    { izvorno: "Madloba", izgovor: "MAD-lo-ba", hr: "Hvala" },
-    { izvorno: "Ki / Ara", izgovor: "KI / A-ra", hr: "Da / Ne" },
-    { izvorno: "Gaumarjos!", izgovor: "ga-u-MAR-đos", hr: "Živjeli!" },
-    { izvorno: "Ra ghirs?", izgovor: "ra GIRS", hr: "Koliko košta?" },
-    { izvorno: "Bodishi", izgovor: "BO-di-ši", hr: "Oprostite" },
-    { izvorno: "Gemrielia", izgovor: "gem-ri-E-li-a", hr: "Ukusno je" },
-    { izvorno: "Nakhvamdis", izgovor: "nah-VAM-dis", hr: "Doviđenja" }
+    { izvorno: "Gamarjoba", izgovor: "gah-mar-JOH-bah", hr: "Hello (literally: victory to you)" },
+    { izvorno: "Madloba", izgovor: "MAHD-loh-bah", hr: "Thank you" },
+    { izvorno: "Ki / Ara", izgovor: "KEE / AH-rah", hr: "Yes / No" },
+    { izvorno: "Gaumarjos!", izgovor: "gah-oo-MAR-johs", hr: "Cheers!" },
+    { izvorno: "Ra ghirs?", izgovor: "rah GEERS", hr: "How much does it cost?" },
+    { izvorno: "Bodishi", izgovor: "BOH-dee-shee", hr: "Excuse me, sorry" },
+    { izvorno: "Gemrielia", izgovor: "gem-ree-EH-lee-ah", hr: "It is delicious" },
+    { izvorno: "Nakhvamdis", izgovor: "nahkh-VAHM-dees", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Gruzijci svoju zemlju zovu Sakartvelo, a sebe Kartveli. Ime Gruzija došlo je u slavenske jezike preko ruskoga, a o njegovu podrijetlu jezikoslovci se ne slažu.",
-    "U Dmanisiju, na jugu zemlje, pronađene su lubanje stare oko 1,8 milijuna godina, najstariji ostaci čovjekovih predaka izvan Afrike.",
-    "Grčki mit o Jasonu i zlatnom runu vodi u Kolhidu, današnju zapadnu Gruziju, gdje su ljudi doista ispirali zlato iz rijeka ovčjim runom.",
-    "Kraljica Tamara nosila je naslov mepe, kralj, jer gruzijski jezik za vladara ima samo tu jednu riječ.",
-    "Gruzijski jezik nema gramatičkog roda, a u riječima se zna naći i po šest suglasnika zaredom.",
-    "Josif Staljin rođen je 1878. godine u gruzijskom gradu Goriju, gdje i danas postoji njegov muzej.",
-    "Selo Ushguli u Svanetiji, na oko 2100 metara, ubraja se među najviša stalno naseljena mjesta u Europi."
+    "Georgians call their country Sakartvelo and themselves Kartveli. The name Gruzija, used in Croatian and other Slavic languages, arrived by way of Russian, and linguists disagree about its origin.",
+    "At Dmanisi, in the south of the country, skulls about 1.8 million years old have been found, the oldest remains of human ancestors outside Africa.",
+    "The Greek myth of Jason and the Golden Fleece leads to Colchis, present-day western Georgia, where people really did pan for gold in the rivers using a sheep's fleece.",
+    "Queen Tamar bore the title mepe, king, because the Georgian language has only that one word for a ruler.",
+    "The Georgian language has no grammatical gender, and its words can contain as many as six consonants in a row.",
+    "Joseph Stalin was born in 1878 in the Georgian town of Gori, where a museum dedicated to him still exists today.",
+    "The village of Ushguli in Svaneti, at about 2,100 meters, ranks among the highest permanently inhabited places in Europe."
   ],
   mjesta: [
     {
       id: "tbilisi",
       ime: "Tbilisi",
       vrsta: "grad",
-      sazetak: "Prijestolnica na toplim izvorima, s izrezbarenim drvenim balkonima, sumpornim kupeljima i vinskim barovima u podrumima od opeke.",
+      sazetak: "A capital built on hot springs, with carved wooden balconies, sulfur baths and wine bars in brick cellars.",
       prica: [
-        "Legenda kaže da je kralj Vahtang Gorgasali u 5. stoljeću lovio u šumi uz rijeku Mtkvari, kada je njegov sokol zajedno s ranjenim fazanom pao u vrući izvor. Kralj je naredio da se ondje podigne grad i nazvao ga po riječi tbili, što znači topao.",
-        "Tbilisi je ležao na križanju putova između Europe i Azije, pa su ga osvajali i palili desetke puta, posljednji put Perzijanci 1795. godine. Zato su najstarije kuće uglavnom iz 19. stoljeća, ali je raspored ulica srednjovjekovan, a u istoj četvrti stoje pravoslavna i armenska crkva, sinagoga i džamija."
+        "Legend says that in the 5th century King Vakhtang Gorgasali was hunting in the forest beside the Mtkvari River when his falcon, together with a wounded pheasant, fell into a hot spring. The king ordered a city to be built on the spot and named it after the word tbili, which means warm.",
+        "Tbilisi lay at the crossroads between Europe and Asia, so it was conquered and burned dozens of times, the last time by the Persians in 1795. That is why the oldest houses are mostly from the 19th century, though the street layout is medieval, and in the same neighborhood you will find an Orthodox and an Armenian church, a synagogue and a mosque."
       ],
       vidjeti: [
-        { ime: "Stari grad i Abanotubani", opis: "Uličice s kućama čiji drveni balkoni vise nad cestom, i četvrt kupelji s niskim opečnim kupolama kroz koje izlazi para. Na jednoj od kupelji ploča podsjeća da je Puškin napisao kako u životu nije doživio ništa raskošnije od tbiliske kupke." },
-        { ime: "Tvrđava Narikala i Majka Gruzija", opis: "Utvrda iz 4. stoljeća na grebenu iznad grada, do koje vozi žičara preko rijeke. Uz nju stoji dvadeset metara visok aluminijski kip žene koja u jednoj ruci drži zdjelu vina za prijatelje, a u drugoj mač za neprijatelje." },
-        { ime: "Bazilika Anchiskhati i katedrala Sioni", opis: "Anchiskhati iz 6. stoljeća najstarija je crkva u gradu. U Sioniju se čuva križ svete Nino, prosvjetiteljice Gruzije, načinjen od dviju grana vinove loze koje je, prema predaji, svezala vlastitom kosom, pa su mu krakovi blago spušteni." },
-        { ime: "Gruzijski nacionalni muzej", opis: "U riznici je izloženo zlato Kolhide, nakit iz 5. stoljeća prije Krista izrađen tako fino da su zrnca jedva vidljiva golim okom. Na katu je potresna izložba o sovjetskoj okupaciji." },
-        { ime: "Avenija Rustaveli i Mtatsminda", opis: "Glavna gradska avenija s operom u maurskom stilu i parlamentom. Uspinjača iz 1905. godine vodi na brdo Mtatsminda, a na pola puta je crkvica s grobljem pjesnika i narodnih velikana." },
-        { ime: "Sat-toranj Reze Gabriadzea", opis: "Nakrivljeni toranj uz kazalište lutaka, koji je redatelj sastavio od komada starih zgrada. Svakog sata anđeo izlazi i čekićem udara u zvono, a u podne i u sedam navečer odvija se mala lutkarska predstava." }
+        { ime: "The Old Town and Abanotubani", opis: "Lanes of houses whose wooden balconies hang over the street, and the bath district with its low brick domes letting out steam. On one of the bathhouses a plaque recalls that Pushkin wrote he had never experienced anything more luxurious in his life than a Tbilisi bath." },
+        { ime: "Narikala Fortress and Mother of Georgia", opis: "A 4th-century fortress on the ridge above the city, reached by a cable car across the river. Beside it stands a twenty-meter aluminum statue of a woman who holds a bowl of wine for friends in one hand and a sword for enemies in the other." },
+        { ime: "Anchiskhati Basilica and Sioni Cathedral", opis: "Anchiskhati, from the 6th century, is the oldest church in the city. Sioni holds the cross of Saint Nino, the Enlightener of Georgia, made from two grapevine branches which, according to tradition, she bound with her own hair, so its arms droop slightly." },
+        { ime: "Georgian National Museum", opis: "The treasury displays the gold of Colchis, jewelry from the 5th century BC worked so finely that the granules are barely visible to the naked eye. Upstairs is a moving exhibition on the Soviet occupation." },
+        { ime: "Rustaveli Avenue and Mtatsminda", opis: "The city's main avenue, with its Moorish-style opera house and the parliament. A funicular from 1905 runs up Mount Mtatsminda, and halfway up is a small church with the cemetery of poets and national figures." },
+        { ime: "Rezo Gabriadze's clock tower", opis: "A crooked tower beside the puppet theater, which the director pieced together from parts of old buildings. Every hour an angel comes out and strikes a bell with a hammer, and at noon and at seven in the evening a small puppet show takes place." }
       ],
       jesti: [
-        { ime: "Hinkali", opis: "U gradskim hinkalnicama naručuju se na komad, najmanje pet, i jedu posuti crnim paprom." },
-        { ime: "Lobiani i hačapuri iz pekarnice", opis: "Kruh punjen grahom ili sirom, koji se kupuje topao kroz prozorčić podrumskih pekarnica, gdje se peče i dugi kruh šoti u okrugloj glinenoj peći." },
-        { ime: "Vode Lagidze", opis: "Gazirana voda s domaćim sirupima od estragona, čokolade ili vrhnja, koja se u gradu toči od 19. stoljeća." }
+        { ime: "Khinkali", opis: "In the city's khinkali houses you order them by the piece, at least five, and eat them sprinkled with black pepper." },
+        { ime: "Lobiani and khachapuri from the bakery", opis: "Bread filled with beans or cheese, bought warm through the little window of the basement bakeries, where the long shoti bread is also baked in a round clay oven." },
+        { ime: "Lagidze Waters", opis: "Sparkling water with house-made syrups of tarragon, chocolate or cream, which has been poured in the city since the 19th century." }
       ],
       dozivjeti: [
-        { ime: "Besplatna pješačka tura", opis: "Ako želite brzo shvatiti raspored i povijest grada, pridružite se turi s lokalnim vodičima koji od 2015. godine svakoga dana vode šetnje starim gradom, a plaća se napojnicom.", link: "https://tbilisifreewalkingtours.com/" },
-        { ime: "Sumporna kupelj", opis: "Unajmite privatnu sobu u jednoj od kupelji u Abanotubaniju i naručite kisu, piling grubom rukavicom. Voda miriše na sumpor i ima oko četrdeset stupnjeva." },
-        { ime: "Buvljak na Suhom mostu", opis: "Na mostu i u parku uz njega svakoga se dana prodaju sovjetske značke, stari fotoaparati, porculan, srebrnina i slike, a vikendom je ponuda najveća." }
+        { ime: "A free walking tour", opis: "If you want to grasp the layout and history of the city quickly, join a tour with the local guides who have been leading walks through the old town every day since 2015, and pay with a tip.", link: "https://tbilisifreewalkingtours.com/" },
+        { ime: "A sulfur bath", opis: "Rent a private room in one of the bathhouses in Abanotubani and order a kisa, a scrub with a coarse mitt. The water smells of sulfur and is around forty degrees Celsius." },
+        { ime: "The Dry Bridge flea market", opis: "On the bridge and in the park beside it, Soviet badges, old cameras, porcelain, silverware and paintings are sold every day, and the selection is biggest on weekends." }
       ],
       agencije: [
-        { ime: "Georgia Travel", opis: "Službeni nacionalni turistički portal, sa stranicom o Tbilisiju.", link: "https://georgia.travel/tbilisi" },
-        { ime: "Tbilisi Free Walking Tours", opis: "Lokalni vodiči koji od 2015. godine vode svakodnevne šetnje gradom.", link: "https://tbilisifreewalkingtours.com/" },
-        { ime: "Georgian National Museum", opis: "Službena stranica mreže nacionalnih muzeja.", link: "https://museum.ge/" }
+        { ime: "Georgia Travel", opis: "The official national tourism portal, with a page on Tbilisi.", link: "https://georgia.travel/tbilisi" },
+        { ime: "Tbilisi Free Walking Tours", opis: "Local guides who have been leading daily walks around the city since 2015.", link: "https://tbilisifreewalkingtours.com/" },
+        { ime: "Georgian National Museum", opis: "The official website of the network of national museums.", link: "https://museum.ge/" }
       ],
-      kada: "Svibanj, lipanj, rujan i listopad. Stari grad je strm i popločen, pa ponesite udobne cipele, a žene za ulazak u crkve trebaju maramu."
+      kada: "May, June, September and October. The old town is steep and cobbled, so bring comfortable shoes, and women need a headscarf to enter churches."
     },
     {
       id: "mcheta",
-      ime: "Mcheta",
+      ime: "Mtskheta",
       vrsta: "gradić",
-      sazetak: "Stara prijestolnica i duhovno srce Gruzije, na sutoku dviju rijeka, pola sata od Tbilisija.",
+      sazetak: "The old capital and spiritual heart of Georgia, at the confluence of two rivers, half an hour from Tbilisi.",
       prica: [
-        "Mcheta je bila glavni grad kraljevstva Iberije od 3. stoljeća prije Krista do 5. stoljeća. Ovdje je, prema predaji, sveta Nino, mlada žena iz Kapadocije, oko 326. godine obratila kralja Mirijana i kraljicu Nanu, čime je Gruzija postala kršćanska zemlja.",
-        "Iako se prijestolnica preselila u Tbilisi, Mcheta je ostala sjedište Crkve i mjesto krunidbe i pokopa kraljeva. Njezine crkve na UNESCO-ovu su popisu od 1994. godine."
+        "Mtskheta was the capital of the Kingdom of Iberia from the 3rd century BC to the 5th century AD. It was here, according to tradition, that Saint Nino, a young woman from Cappadocia, converted King Mirian and Queen Nana around the year 326, making Georgia a Christian country.",
+        "Although the capital moved to Tbilisi, Mtskheta remained the seat of the Church and the place where kings were crowned and buried. Its churches have been on the UNESCO list since 1994."
       ],
       vidjeti: [
-        { ime: "Katedrala Svetitskhoveli", opis: "Podignuta od 1010. do 1029. godine na mjestu gdje je, prema predaji, zakopana Kristova haljina, koju je iz Jeruzalema donio jedan mjesni Židov. Ime znači životvorni stup, po cedrovu stupu koji je čudesno lebdio u zraku. Na sjevernom pročelju potražite reljef ruke s dlijetom, uz koji ide legenda da je graditelju iz zavisti odsječena desnica." },
-        { ime: "Samostan Jvari", opis: "Crkva s kraja 6. stoljeća na vrhu brda, na mjestu gdje je sveta Nino podigla drveni križ. Odozgo se vidi kako se spajaju rijeke Aragvi i Mtkvari, od kojih je svaka druge boje, prizor koji je opisao i ruski pjesnik Ljermontov." },
-        { ime: "Samostan Samtavro", opis: "Ženski samostan u kojem su pokopani kralj Mirijan i kraljica Nana. U dvorištu stoji kapelica na mjestu gdje je, kako se pripovijeda, sveta Nino živjela pod grmom kupine." },
-        { ime: "Ostaci Armazija", opis: "Na brdu preko rijeke iskopani su ostaci poganske prijestolnice s hramom, kupeljima i grobnicama. Pronađen je i dvojezični natpis na grčkom i aramejskom, važan za povijest pisma na Kavkazu." },
-        { ime: "Shio-Mgvime", opis: "Samostan u kanjonu dvanaest kilometara od grada, koji je u 6. stoljeću osnovao jedan od trinaest sirijskih otaca. Redovnici su živjeli u stotinama špilja izdubljenih u vapnenačkoj stijeni, koje se i danas vide." }
+        { ime: "Svetitskhoveli Cathedral", opis: "Built from 1010 to 1029 on the spot where, according to tradition, Christ's robe was buried after a local Jew brought it from Jerusalem. The name means life-giving pillar, after a cedar pillar that miraculously hovered in the air. On the north facade, look for the relief of a hand holding a chisel, which comes with the legend that the builder's right hand was cut off out of envy." },
+        { ime: "Jvari Monastery", opis: "A late 6th-century church on a hilltop, on the spot where Saint Nino raised a wooden cross. From above you can see the Aragvi and Mtkvari rivers merging, each a different color, a scene the Russian poet Lermontov also described." },
+        { ime: "Samtavro Monastery", opis: "A convent where King Mirian and Queen Nana are buried. In the courtyard stands a small chapel on the spot where, as the story goes, Saint Nino lived beneath a blackberry bush." },
+        { ime: "The remains of Armazi", opis: "On the hill across the river, the remains of the pagan capital have been excavated, with a temple, baths and tombs. A bilingual inscription in Greek and Aramaic was also found, important for the history of writing in the Caucasus." },
+        { ime: "Shio-Mgvime", opis: "A monastery in a canyon twelve kilometers from town, founded in the 6th century by one of the thirteen Syrian Fathers. The monks lived in hundreds of caves hollowed out of the limestone cliff, which can still be seen today." }
       ],
       jesti: [
-        { ime: "Lobio u glinenom lončiću", opis: "Grah s korijandrom, poslužen uz kukuruzni kruh i kiselo povrće u gostionicama uz cestu pred gradom, koje su zbog njega poznate u cijeloj zemlji." },
-        { ime: "Čurčhela", opis: "Na štandovima oko katedrale prodaje se u svim bojama, ovisno o soku od kojega je napravljena." },
-        { ime: "Vino iz Kartlija", opis: "Okolna pokrajina poznata je po laganim bijelim vinima i pjenušcima, koji se mogu kušati u vinarijama u okolici." }
+        { ime: "Lobio in a clay pot", opis: "Beans with cilantro, served with corn bread and pickled vegetables in the roadside restaurants just outside town, which are famous for it throughout the country." },
+        { ime: "Churchkhela", opis: "At the stalls around the cathedral it is sold in every color, depending on the juice it was made from." },
+        { ime: "Wine from Kartli", opis: "The surrounding region is known for its light white wines and sparkling wines, which can be tasted at wineries in the area." }
       ],
       dozivjeti: [
-        { ime: "Nedjeljna liturgija", opis: "Ako želite čuti gruzijsko crkveno pjevanje, dođite u nedjelju ujutro u Svetitskhoveli, stanite straga i slušajte. Žene pokrivaju kosu i nose suknju, a marame se mogu posuditi na ulazu." },
-        { ime: "Zalazak sunca na Jvariju", opis: "Predvečer se s brda najljepše vidi cijeli gradić s katedralom. Do samostana se dolazi taksijem iz Mchete, jer pješačke staze od grada nema." },
-        { ime: "Ručak i vino u okolici", opis: "Organizatori gastronomskih tura iz Tbilisija vode poludnevne izlete koji spajaju Mchetu s obiteljskim vinarijama i domaćim ručkom.", link: "https://eatthistours.com/" }
+        { ime: "The Sunday liturgy", opis: "If you want to hear Georgian church singing, come to Svetitskhoveli on Sunday morning, stand at the back and listen. Women cover their hair and wear a skirt, and scarves can be borrowed at the entrance." },
+        { ime: "Sunset at Jvari", opis: "Toward evening the hill gives the most beautiful view of the whole town with its cathedral. You reach the monastery by taxi from Mtskheta, because there is no footpath from town." },
+        { ime: "Lunch and wine in the area", opis: "Food tour organizers from Tbilisi run half-day trips that combine Mtskheta with family wineries and a home-cooked lunch.", link: "https://eatthistours.com/" }
       ],
       agencije: [
-        { ime: "Georgia Travel", opis: "Službeni nacionalni turistički portal.", link: "https://georgia.travel/" },
-        { ime: "Eat This! Tours", opis: "Organizator gastronomskih i vinskih tura u malim skupinama sa sjedištem u Tbilisiju.", link: "https://eatthistours.com/" }
+        { ime: "Georgia Travel", opis: "The official national tourism portal.", link: "https://georgia.travel/" },
+        { ime: "Eat This! Tours", opis: "An organizer of small-group food and wine tours based in Tbilisi.", link: "https://eatthistours.com/" }
       ],
-      kada: "Cijele godine, a najljepše u proljeće i jesen. Iz Tbilisija voze maršrutke s kolodvora Didube, pa je dovoljno pola dana."
+      kada: "All year round, and at its loveliest in spring and fall. Marshrutkas run from Didube station in Tbilisi, so half a day is enough."
     },
     {
       id: "kahetija",
-      ime: "Kahetija",
+      ime: "Kakheti",
       vrsta: "regija",
-      sazetak: "Vinska pokrajina na istoku, s vinogradima pod snježnim Kavkazom, samostanima u kojima redovnici prave vino i gradićem na brdu okruženim zidinama.",
+      sazetak: "The wine region in the east, with vineyards beneath the snowy Caucasus, monasteries where monks make wine and a walled hilltop town.",
       prica: [
-        "Kahetija je do 18. stoljeća bila zasebno kraljevstvo, koje su Perzijanci više puta opustošili. Danas daje veći dio gruzijskog vina, a gotovo svaka seoska kuća ima marani, vinski podrum s kvevrijima ukopanima u pod.",
-        "Dolinom rijeke Alazani nižu se vinogradi sorti saperavi i rkaciteli, a iza njih se poput zida diže Kavkaz. Ovo je kraj u kojem se najlakše doživi gruzijska gostoljubivost, jer će vas domaćin posjesti za stol prije nego što stignete reći da ste samo u prolazu."
+        "Until the 18th century Kakheti was a separate kingdom, which the Persians laid waste more than once. Today it produces most of Georgia's wine, and almost every village house has a marani, a wine cellar with qvevri buried in the floor.",
+        "Vineyards of the Saperavi and Rkatsiteli varieties line the valley of the Alazani River, and behind them the Caucasus rises like a wall. This is the region where Georgian hospitality is easiest to experience, because your host will sit you down at the table before you manage to say that you are only passing through."
       ],
       vidjeti: [
-        { ime: "Sighnaghi", opis: "Gradić na brdu s crvenim krovovima i zidinama iz 18. stoljeća s dvadeset i tri kule, koje je podigao kralj Iraklije II. kao utočište okolnim selima. Zovu ga gradom ljubavi, jer se u matičnom uredu može vjenčati u bilo koje doba dana i noći." },
-        { ime: "Samostan Bodbe", opis: "Dva kilometra od Sighnaghija nalazi se grob svete Nino, prosvjetiteljice Gruzije, kamo hodočaste vjernici iz cijele zemlje. Stotine stuba vode niz šumu do izvora za koji se vjeruje da liječi." },
-        { ime: "Imanje Tsinandali", opis: "Ladanjska kuća pjesnika i kneza Aleksandra Čavčavadzea, koji je u 19. stoljeću ovdje prvi u Gruziji počeo puniti vino u boce na europski način. U podrumu se čuvaju boce iz 1841. godine, a perivoj je uređen po engleskom uzoru." },
-        { ime: "Katedrala Alaverdi", opis: "Crkva iz 11. stoljeća, visoka oko pedeset metara, koja je gotovo tisuću godina bila najviša u Gruziji. Redovnici ovdje prave vino od 1011. godine, a kvevriji su ukopani u samostanskom dvorištu." },
-        { ime: "Telavi", opis: "Glavni grad pokrajine, s palačom kralja Iraklija II. u perzijskom stilu. Na rubu starog dijela raste platana za koju se kaže da je stara oko devetsto godina i čije deblo ne može obuhvatiti ni deset ljudi." },
-        { ime: "David Gareja", opis: "Pećinski samostan iz 6. stoljeća u polupustinji na granici s Azerbajdžanom, s freskama u ćelijama izdubljenima u prugastoj stijeni. Prije polaska provjerite koji su dijelovi otvoreni, jer granica na tom mjestu nije do kraja utvrđena." }
+        { ime: "Sighnaghi", opis: "A hilltop town with red roofs and 18th-century walls with twenty-three towers, built by King Erekle II as a refuge for the surrounding villages. It is called the city of love, because you can get married at the registry office at any hour of the day or night." },
+        { ime: "Bodbe Monastery", opis: "Two kilometers from Sighnaghi is the tomb of Saint Nino, the Enlightener of Georgia, to which believers from all over the country make pilgrimages. Hundreds of steps lead down through the forest to a spring that is believed to heal." },
+        { ime: "Tsinandali Estate", opis: "The country house of the poet and prince Alexander Chavchavadze, who in the 19th century was the first in Georgia to begin bottling wine here in the European manner. The cellar holds bottles from 1841, and the park is laid out in the English style." },
+        { ime: "Alaverdi Cathedral", opis: "An 11th-century church about fifty meters high, which for almost a thousand years was the tallest in Georgia. Monks have been making wine here since 1011, and the qvevri are buried in the monastery courtyard." },
+        { ime: "Telavi", opis: "The capital of the region, with the Persian-style palace of King Erekle II. On the edge of the old quarter grows a plane tree that is said to be about nine hundred years old and whose trunk even ten people cannot encircle." },
+        { ime: "David Gareja", opis: "A 6th-century cave monastery in the semi-desert on the border with Azerbaijan, with frescoes in cells hollowed out of the striped rock. Before you set out, check which parts are open, because the border at this point has not been fully settled." }
       ],
       jesti: [
-        { ime: "Mcvadi na lozi", opis: "U Kahetiji se meso peče na žaru od suhe vinove loze i poslužuje ravno s ražnja, uz kruh šoti i svježe začinsko bilje." },
-        { ime: "Hašlama", opis: "Teletina ili janjetina kuhana samo u vodi i soli, posuta peršinom, jelo svadbi i crkvenih blagdana." },
-        { ime: "Jantarno vino iz kvevrija", opis: "Bijelo vino sorti rkaciteli, mtsvane i kisi, koje je mjesecima ležalo na kožicama, kuša se izravno iz podruma." }
+        { ime: "Mtsvadi over vine wood", opis: "In Kakheti the meat is grilled over the embers of dry grapevine and served straight off the skewer, with shoti bread and fresh herbs." },
+        { ime: "Khashlama", opis: "Veal or lamb boiled in nothing but water and salt and sprinkled with parsley, a dish for weddings and church feast days." },
+        { ime: "Amber wine from the qvevri", opis: "White wine of the Rkatsiteli, Mtsvane and Kisi varieties that has spent months on its skins, tasted straight from the cellar." }
       ],
       dozivjeti: [
-        { ime: "Kušanje u obiteljskom podrumu", opis: "Ako želite vidjeti kako se kvevri otvara i vino grabi tikvicom na dugoj dršci, dogovorite posjet maloj vinariji. U Sighnaghiju vinarija Pheasant's Tears uz vina iz kvevrija poslužuje i domaću kuhinju.", link: "https://www.pheasantstears.com/" },
-        { ime: "Gastronomska tura po selima", opis: "Tvrtka Eat This! Tours vodi male skupine k vinarima i u obiteljske kuhinje oko Sighnaghija i Telavija, a u jesen organizira i sudjelovanje u berbi.", link: "https://eatthistours.com/" },
-        { ime: "Pirosmanijeve slike u Sighnaghiju", opis: "U mjesnom muzeju izložena su djela Nike Pirosmanija, samoukog slikara rođenog u obližnjem selu, koji je za tanjur hrane slikao krčmarske natpise, a danas se smatra najvećim gruzijskim umjetnikom." }
+        { ime: "A tasting in a family cellar", opis: "If you want to see how a qvevri is opened and the wine is drawn with a gourd on a long handle, arrange a visit to a small winery. In Sighnaghi the Pheasant's Tears winery serves home cooking along with its qvevri wines.", link: "https://www.pheasantstears.com/" },
+        { ime: "A food tour of the villages", opis: "The company Eat This! Tours takes small groups to winemakers and into family kitchens around Sighnaghi and Telavi, and in the fall it also arranges for guests to take part in the harvest.", link: "https://eatthistours.com/" },
+        { ime: "Pirosmani's paintings in Sighnaghi", opis: "The local museum exhibits works by Niko Pirosmani, a self-taught painter born in a nearby village who painted tavern signs in exchange for a plate of food and is today considered the greatest Georgian artist." }
       ],
       agencije: [
-        { ime: "Georgia Travel", opis: "Službeni nacionalni turistički portal.", link: "https://georgia.travel/" },
-        { ime: "Eat This! Tours", opis: "Organizator vinskih i gastronomskih tura po Kahetiji.", link: "https://eatthistours.com/" },
-        { ime: "Nacionalna agencija za vino", opis: "Državno tijelo za vino, s podacima o sortama, oznakama podrijetla i vinskim cestama.", link: "https://wine.gov.ge/" }
+        { ime: "Georgia Travel", opis: "The official national tourism portal.", link: "https://georgia.travel/" },
+        { ime: "Eat This! Tours", opis: "An organizer of wine and food tours in Kakheti.", link: "https://eatthistours.com/" },
+        { ime: "National Wine Agency", opis: "The state body for wine, with information on grape varieties, designations of origin and wine routes.", link: "https://wine.gov.ge/" }
       ],
-      kada: "Od sredine rujna do sredine listopada zbog berbe, ili u svibnju i lipnju. Unajmite vozača, jer se kušanja i vožnja ne mogu spojiti."
+      kada: "From mid-September to mid-October for the harvest, or in May and June. Hire a driver, because tastings and driving do not mix."
     },
     {
       id: "kazbegi",
       ime: "Kazbegi",
       vrsta: "priroda",
-      sazetak: "Planinsko mjesto pod ledenim vrhom Kazbeka, s crkvicom na brdu koja je postala zaštitni znak cijele Gruzije.",
+      sazetak: "A mountain town beneath the icy peak of Mount Kazbek, with a little hilltop church that has become the emblem of all Georgia.",
       prica: [
-        "Do mjesta Stepantsminda, koje svi i dalje zovu Kazbegi, vodi Gruzijska vojna cesta, stari put preko Kavkaza kojim su prolazili trgovci i vojske, a koji su Rusi početkom 19. stoljeća pretvorili u kolnu cestu. Vožnja od Tbilisija traje oko tri sata i sama je po sebi doživljaj.",
-        "Nad mjestom se diže Kazbek, ugasli vulkan visok oko 5050 metara. Gruzijski mit kaže da je za njegovu stijenu prikovan junak Amirani jer je ljudima dao vatru, što je priča vrlo slična onoj koju su Grci ispričali o Prometeju."
+        "The town of Stepantsminda, which everyone still calls Kazbegi, is reached by the Georgian Military Road, the old route across the Caucasus traveled by merchants and armies, which the Russians turned into a carriage road in the early 19th century. The drive from Tbilisi takes about three hours and is an experience in itself.",
+        "Above the town rises Kazbek, an extinct volcano about 5,050 meters high. Georgian myth says the hero Amirani was chained to its rock for giving fire to humankind, a story very similar to the one the Greeks told about Prometheus."
       ],
       vidjeti: [
-        { ime: "Crkva Svetog Trojstva u Gergetiju", opis: "Crkva iz 14. stoljeća na 2170 metara, sama na travnatom brdu pod ledenjakom. U vrijeme opasnosti ovamo su iz Mchete sklanjali najveće svetinje, među njima i križ svete Nino." },
-        { ime: "Tvrđava Ananuri", opis: "Utvrda iz 17. stoljeća na obali umjetnog jezera, na pola puta od Tbilisija. Na pročelju veće crkve potražite golemi isklesani križ koji izrasta iz vinove loze, s dva anđela i dva lava." },
-        { ime: "Spomenik kraj Gudaurija", opis: "Polukružni betonski vidikovac iz 1983. godine nad ponorom, iznutra prekriven šarenim mozaikom s prizorima iz gruzijske i ruske povijesti. Pogled s ruba seže niz dolinu duboku nekoliko stotina metara." },
-        { ime: "Klanac Darial", opis: "Uski tjesnac kojim rijeka Terek probija Kavkaz prema Rusiji, od davnina poznat kao vrata Kavkaza. Stijene se dižu više od tisuću metara, a u klancu je i nov samostan tik uz granicu." },
-        { ime: "Dolina Juta", opis: "Selo na 2200 metara, iz kojega staza vodi prema nazubljenim stijenama masiva Chaukhi, zvanim gruzijskim Dolomitima. Ljeti su livade pune cvijeća, a konji slobodno pasu." }
+        { ime: "Gergeti Trinity Church", opis: "A 14th-century church at 2,170 meters, alone on a grassy hill below the glacier. In times of danger the greatest sacred treasures were brought here from Mtskheta for safekeeping, among them the cross of Saint Nino." },
+        { ime: "Ananuri Fortress", opis: "A 17th-century fortress on the shore of a reservoir, halfway from Tbilisi. On the facade of the larger church, look for the huge carved cross that grows out of a grapevine, with two angels and two lions." },
+        { ime: "The monument near Gudauri", opis: "A semicircular concrete viewing platform from 1983 above the abyss, covered on the inside with a colorful mosaic of scenes from Georgian and Russian history. The view from the edge reaches down a valley several hundred meters deep." },
+        { ime: "Darial Gorge", opis: "The narrow defile through which the Terek River cuts across the Caucasus toward Russia, known since ancient times as the Gates of the Caucasus. The cliffs rise more than a thousand meters, and the gorge also holds a new monastery right by the border." },
+        { ime: "Juta Valley", opis: "A village at 2,200 meters from which a trail leads toward the jagged rocks of the Chaukhi massif, known as the Georgian Dolomites. In summer the meadows are full of flowers and horses graze freely." }
       ],
       jesti: [
-        { ime: "Planinski hinkali", opis: "U planinama se pune samo mesom, lukom i paprom, bez začinskog bilja, kako su se izvorno i pravili." },
-        { ime: "Habizgina", opis: "Pita punjena krumpirom i sirom, koja pokazuje blizinu Osetije." },
-        { ime: "Pastrva i planinski med", opis: "Riba iz hladnih potoka pržena na maslacu, a za kraj med s livada pod ledenjakom, uz čaj od majčine dušice." }
+        { ime: "Mountain khinkali", opis: "In the mountains they are filled only with meat, onion and pepper, without herbs, the way they were originally made." },
+        { ime: "Khabizgina", opis: "A pie filled with potato and cheese, which shows how close Ossetia is." },
+        { ime: "Trout and mountain honey", opis: "Fish from the cold streams fried in butter, and to finish, honey from the meadows below the glacier with thyme tea." }
       ],
       dozivjeti: [
-        { ime: "Pješačenje do Gergetija", opis: "Ako želite zaslužiti pogled, popnite se iz mjesta do crkve pješice, što traje oko sat i pol. Krenite rano ujutro, kada je Kazbek najčešće bez oblaka.", link: "https://georgia.travel/kazbegi" },
-        { ime: "Dolina Truso", opis: "Lagana cjelodnevna šetnja uz rijeku vodi pokraj mineralnih izvora koji su stijene obojili u narančasto i bijelo, do napuštenih sela s kamenim kulama." },
-        { ime: "Slap Gveleti", opis: "Kratka šetnja kroz šumu u klancu Darial završava kod visokog slapa, uz koji je ljeti ugodno svježe." }
+        { ime: "The hike up to Gergeti", opis: "If you want to earn the view, climb from town to the church on foot, which takes about an hour and a half. Set out early in the morning, when Kazbek is most often free of clouds.", link: "https://georgia.travel/kazbegi" },
+        { ime: "Truso Valley", opis: "An easy full-day walk along the river leads past mineral springs that have stained the rocks orange and white, to abandoned villages with stone towers." },
+        { ime: "Gveleti Waterfall", opis: "A short walk through the forest in the Darial Gorge ends at a tall waterfall, where it is pleasantly cool in summer." }
       ],
       agencije: [
-        { ime: "Georgia Travel, Kazbegi", opis: "Službena stranica nacionalnog turističkog portala o Stepantsmindi i okolici.", link: "https://georgia.travel/kazbegi" },
-        { ime: "Agencija za zaštićena područja", opis: "Državna agencija koja upravlja Nacionalnim parkom Kazbegi i njegovim centrom za posjetitelje.", link: "https://apa.gov.ge/en/" }
+        { ime: "Georgia Travel, Kazbegi", opis: "The national tourism portal's official page on Stepantsminda and the surrounding area.", link: "https://georgia.travel/kazbegi" },
+        { ime: "Agency of Protected Areas", opis: "The state agency that manages Kazbegi National Park and its visitor center.", link: "https://apa.gov.ge/en/" }
       ],
-      kada: "Od lipnja do rujna za pješačenje, a u svibnju i listopadu za manje gužve. Zimi cesta preko prijevoja zna biti zatvorena zbog snijega i lavina, pa provjerite stanje prije polaska."
+      kada: "From June to September for hiking, and in May and October for smaller crowds. In winter the road over the pass can be closed because of snow and avalanches, so check conditions before you set out."
     },
     {
       id: "svanetija",
-      ime: "Svanetija",
+      ime: "Svaneti",
       vrsta: "regija",
-      sazetak: "Najviša i najnepristupačnija pokrajina Gruzije, sa selima kamenih kula pod vrhovima višima od pet tisuća metara.",
+      sazetak: "The highest and most inaccessible region of Georgia, with villages of stone towers beneath peaks higher than five thousand meters.",
       prica: [
-        "Svanetija leži u dolinama visokog Kavkaza i toliko je teško dostupna da je nikada nije osvojio nijedan tuđinski vladar. Zato su gruzijski kraljevi u doba opasnosti ovamo slali ikone, rukopise i crkveno blago, a Svani su ih čuvali kao vlastito.",
-        "Svani govore vlastitim jezikom, srodnim gruzijskom, ali međusobno nerazumljivim, i dugo su živjeli po običajnom pravu u kojem je krvna osveta bila pravilo. Kule po kojima je kraj poznat građene su od 9. do 13. stoljeća upravo da bi obitelj u njima preživjela napad, osvetu ili lavinu."
+        "Svaneti lies in the valleys of the high Caucasus and is so hard to reach that no foreign ruler ever conquered it. That is why, in times of danger, the Georgian kings sent icons, manuscripts and church treasures here, and the Svans guarded them as their own.",
+        "The Svans speak their own language, related to Georgian though the two are mutually unintelligible, and they long lived under customary law in which the blood feud was the norm. The towers the region is known for were built from the 9th to the 13th century precisely so that a family could survive an attack, a vendetta or an avalanche inside them."
       ],
       vidjeti: [
-        { ime: "Ushguli", opis: "Skupina od četiri sela na oko 2100 metara, pod Šharom, najvišim vrhom Gruzije. Zajedno s više od dvjesto sačuvanih kula na UNESCO-ovu je popisu od 1996. godine, a na brežuljku iznad sela stoji crkvica Lamaria iz 12. stoljeća s freskama." },
-        { ime: "Mestia i svanske kule", opis: "Glavno mjesto pokrajine, u kojem kule visoke do dvadeset i pet metara stoje uz obične kuće. U kuću-muzej obitelji Margiani može se ući i popeti ljestvama kroz svih pet katova kule." },
-        { ime: "Muzej Svanetije", opis: "Suvremeni muzej u Mestiji čuva ikone od kovanog zlata i srebra iz 10. do 13. stoljeća i rukopise evanđelja iz 9. stoljeća. Većinu tih predmeta mještani su stoljećima skrivali po seoskim crkvama." },
-        { ime: "Ledenjak Chalaadi", opis: "Do čela ledenjaka stiže se za oko sat i pol hoda kroz šumu, preko visećeg mosta, što je najlakši susret s ledom Kavkaza." },
-        { ime: "Jezera Koruldi", opis: "Mala jezera na 2700 metara iznad Mestije, u kojima se za mirna jutra ogleda dvoglavi vrh Ušba, najteži za penjanje na Kavkazu." }
+        { ime: "Ushguli", opis: "A cluster of four villages at about 2,100 meters, beneath Shkhara, the highest peak in Georgia. Together with more than two hundred surviving towers it has been on the UNESCO list since 1996, and on the hillock above the village stands the little 12th-century Lamaria church with its frescoes." },
+        { ime: "Mestia and the Svan towers", opis: "The main town of the region, where towers up to twenty-five meters high stand beside ordinary houses. You can go into the Margiani family house museum and climb ladders through all five floors of the tower." },
+        { ime: "Svaneti Museum", opis: "The modern museum in Mestia holds icons of hammered gold and silver from the 10th to 13th centuries and Gospel manuscripts from the 9th century. For centuries the locals kept most of these objects hidden in village churches." },
+        { ime: "Chalaadi Glacier", opis: "You reach the snout of the glacier in about an hour and a half of walking through forest and over a suspension bridge, which makes it the easiest encounter with the ice of the Caucasus." },
+        { ime: "Koruldi Lakes", opis: "Small lakes at 2,700 meters above Mestia, in which on a calm morning you can see the reflection of the twin-peaked Ushba, the hardest mountain to climb in the Caucasus." }
       ],
       jesti: [
-        { ime: "Kubdari", opis: "Kruh punjen sjeckanim mesom, lukom i svanskim začinima, glavno jelo kraja." },
-        { ime: "Tashmijabi", opis: "Pire od krumpira umiješan s toliko mladog sira da se rasteže s vilice." },
-        { ime: "Svanska sol", opis: "Sol pomiješana s češnjakom, plavom piskavicom, korijandrom i kaduljom, koja se dodaje svemu i najbolji je suvenir." }
+        { ime: "Kubdari", opis: "Bread filled with chopped meat, onion and Svan spices, the main dish of the region." },
+        { ime: "Tashmijabi", opis: "Mashed potatoes mixed with so much young cheese that they stretch from the fork." },
+        { ime: "Svan salt", opis: "Salt mixed with garlic, blue fenugreek, coriander and sage, which is added to everything and makes the best souvenir." }
       ],
       dozivjeti: [
-        { ime: "Pješačenje od Mestije do Ushgulija", opis: "Ako želite vidjeti Svanetiju korak po korak, četverodnevna staza od sela do sela, s noćenjima u obiteljskim kućama, najpoznatija je u zemlji. Dio je dugog Transkavkaskog puta, čije stranice donose opise etapa i karte.", link: "https://transcaucasiantrail.org/en/home-2/" },
-        { ime: "Večer u obiteljskoj kući", opis: "Domaćini u Mestiji i Ushguliju kuhaju za goste, a uz malo sreće i zapjevaju staru svansku pjesmu u tri glasa uz glazbalo čuniri." },
-        { ime: "Žičara na Hatsvali", opis: "Iz Mestije se žičarom stiže na greben s kojega se u jednom pogledu vide Ušba i cijela dolina, a zimi se ovdje skija." }
+        { ime: "The trek from Mestia to Ushguli", opis: "If you want to see Svaneti step by step, the four-day trail from village to village, with nights in family homes, is the best known in the country. It is part of the long Transcaucasian Trail, whose website offers stage descriptions and maps.", link: "https://transcaucasiantrail.org/en/home-2/" },
+        { ime: "An evening in a family home", opis: "Hosts in Mestia and Ushguli cook for their guests, and with a little luck they will also strike up an old Svan song in three voices, accompanied by the instrument called the chuniri." },
+        { ime: "The cable car to Hatsvali", opis: "From Mestia a cable car takes you up to a ridge where you can take in Ushba and the whole valley in a single view, and in winter people ski here." }
       ],
       agencije: [
-        { ime: "Georgia Travel", opis: "Službeni nacionalni turistički portal.", link: "https://georgia.travel/" },
-        { ime: "Transcaucasian Trail", opis: "Neprofitna udruga koja gradi i održava pješačke staze na Kavkazu i objavljuje provjerene opise ruta.", link: "https://transcaucasiantrail.org/en/home-2/" },
-        { ime: "Georgian National Museum", opis: "Mreža nacionalnih muzeja, kojoj pripada i Muzej Svanetije u Mestiji.", link: "https://museum.ge/" }
+        { ime: "Georgia Travel", opis: "The official national tourism portal.", link: "https://georgia.travel/" },
+        { ime: "Transcaucasian Trail", opis: "A nonprofit association that builds and maintains hiking trails in the Caucasus and publishes verified route descriptions.", link: "https://transcaucasiantrail.org/en/home-2/" },
+        { ime: "Georgian National Museum", opis: "The network of national museums, which includes the Svaneti Museum in Mestia.", link: "https://museum.ge/" }
       ],
-      kada: "Od lipnja do rujna za pješačenje. Do Mestije se stiže malim zrakoplovom iz okolice Tbilisija i Kutaisija ili cestom iz Zugdidija, a letovi često ovise o vremenu, pa ostavite dan viška."
+      kada: "From June to September for hiking. You reach Mestia by small plane from near Tbilisi and Kutaisi or by road from Zugdidi, and flights often depend on the weather, so leave a spare day."
     }
   ],
   izvori: [
-    { ime: "Georgia Travel, službeni turistički portal", url: "https://georgia.travel/" },
-    { ime: "UNESCO, svjetska baština: povijesni spomenici Mchete", url: "https://whc.unesco.org/en/list/708" },
-    { ime: "UNESCO, svjetska baština: Gornja Svanetija", url: "https://whc.unesco.org/en/list/709" },
+    { ime: "Georgia Travel, official tourism portal", url: "https://georgia.travel/" },
+    { ime: "UNESCO World Heritage: Historical Monuments of Mtskheta", url: "https://whc.unesco.org/en/list/708" },
+    { ime: "UNESCO World Heritage: Upper Svaneti", url: "https://whc.unesco.org/en/list/709" },
     { ime: "Georgian National Museum", url: "https://museum.ge/" },
-    { ime: "Nacionalna agencija za vino Gruzije", url: "https://wine.gov.ge/" },
-    { ime: "Agencija za zaštićena područja Gruzije", url: "https://apa.gov.ge/en/" },
+    { ime: "National Wine Agency of Georgia", url: "https://wine.gov.ge/" },
+    { ime: "Agency of Protected Areas of Georgia", url: "https://apa.gov.ge/en/" },
     { ime: "Transcaucasian Trail", url: "https://transcaucasiantrail.org/en/home-2/" },
     { ime: "Eat This! Tours", url: "https://eatthistours.com/" }
   ]

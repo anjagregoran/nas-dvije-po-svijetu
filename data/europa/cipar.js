@@ -1,202 +1,202 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["cipar"] = {
   id: "cipar",
-  ime: "Cipar",
-  regija: "Jugoistočna Europa",
-  sazetak: "Afroditin otok na kraju Sredozemlja, gdje se vozi lijevom stranom, sir se peče na žaru, a glavni grad i danas presijeca crta razdvajanja.",
+  ime: "Cyprus",
+  regija: "Southeastern Europe",
+  sazetak: "Aphrodite's island at the far end of the Mediterranean, where you drive on the left, cheese is grilled over coals, and the capital is still cut in two by a dividing line.",
   uvod: [
-    "Cipar je treći po veličini otok Sredozemlja i leži bliže Siriji i Turskoj nego Grčkoj, što mu je odredilo sudbinu. Zbog bakra, po kojem je metal i dobio latinsko ime, ovdje su se smjenjivali Mikenjani, Feničani, Egipćani i Rimljani, a zatim Bizant, križarski kraljevi Lusignani, Mlečani, Osmanlije i Britanci. Svatko je nešto ostavio: gotičke katedrale, zvjezdaste bedeme, džamije, crvene poštanske sandučiće i utičnice s tri rupe.",
-    "Neovisnost je stigla 1960., a 1974., nakon državnog udara koji je poticala grčka vojna hunta, turska je vojska zauzela sjevernu trećinu otoka. Otada ga dijeli tampon-zona pod nadzorom Ujedinjenih naroda, koja prolazi i kroz središte Nikozije. Republika Cipar na jugu članica je Europske unije i plaća eurom, a putnicu dočekuje mješavinom grčke topline, bliskoistočne kuhinje i britanskog reda."
+    "Cyprus is the third-largest island in the Mediterranean and lies closer to Syria and Turkey than to Greece, which has shaped its fate. Because of copper, from which the metal got its Latin name, Mycenaeans, Phoenicians, Egyptians and Romans followed one another here, and then Byzantium, the Crusader kings of the Lusignan dynasty, the Venetians, the Ottomans and the British. Each left something behind: Gothic cathedrals, star-shaped ramparts, mosques, red mailboxes and three-pin power outlets.",
+    "Independence came in 1960, and in 1974, after a coup encouraged by the Greek military junta, the Turkish army occupied the northern third of the island. Ever since, it has been divided by a buffer zone under United Nations supervision, which also runs through the center of Nicosia. The Republic of Cyprus in the south is a member of the European Union and uses the euro, and it welcomes the traveler with a blend of Greek warmth, Middle Eastern cooking and British orderliness."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Travanj, svibanj, listopad i studeni najbolji su za razgledavanje i pješačenje. Ljeti je na obali vruće, a u Nikoziji i iznad četrdeset stupnjeva, dok je zima blaga i zelena, uz snijeg na vrhovima Troodosa." },
-    { k: "Valuta", v: "Euro. Kartice se primaju gotovo svugdje, a na sjevernoj strani plaća se turskom lirom, premda se euri često uzimaju." },
-    { k: "Kretanje", v: "Vlakova nema, a autobusi dobro povezuju samo gradove, pa je za sela i nalazišta potreban unajmljeni automobil. Vozi se lijevom stranom, kao u Velikoj Britaniji, a unajmljena vozila imaju crvene registarske pločice, pa su domaći vozači prema njima strpljiviji." },
-    { k: "Napojnica", v: "U restoranima je usluga često uključena u račun, pa se ostavlja sitniš ili do deset posto za dobru uslugu." },
-    { k: "Dobro je znati", v: "Utičnice su britanske, s tri plosnata zupca, pa ponesite prilagodnik. Cipar nije u schengenskom prostoru, pa se na ulasku pokazuje osobna iskaznica ili putovnica, a isti dokument treba i za pješački prijelaz na sjevernu stranu Nikozije." }
+    { k: "When to go", v: "April, May, October and November are best for sightseeing and hiking. In summer it is hot on the coast and above forty degrees Celsius in Nicosia, while winter is mild and green, with snow on the peaks of the Troodos." },
+    { k: "Currency", v: "Euro. Cards are accepted almost everywhere, and on the northern side you pay in Turkish lira, although euros are often taken." },
+    { k: "Getting around", v: "There are no trains, and buses connect only the cities well, so you need a rental car for the villages and archaeological sites. You drive on the left, as in Great Britain, and rental vehicles have red license plates, so local drivers are more patient with them." },
+    { k: "Tipping", v: "In restaurants service is often included in the bill, so you leave small change or up to ten percent for good service." },
+    { k: "Good to know", v: "The outlets are British, with three flat pins, so bring an adapter. Cyprus is not in the Schengen Area, so Croatian citizens show an ID card or passport on arrival, and the same document is needed for the pedestrian crossing to the northern side of Nicosia." }
   ],
   hrana: [
-    { ime: "Halumi", opis: "Polutvrdi sir od ovčjeg i kozjeg mlijeka s metvicom, koji se ne topi, pa se peče na žaru ili prži.", prica: "Naziv je od 2021. zaštićen u Europskoj uniji i smije ga nositi samo sir s Cipra. Pod zubima škripi, a ljeti se jede hladan, uz lubenicu, što je kombinacija koju vrijedi kušati." },
-    { ime: "Meze", opis: "Obrok od dvadeset do trideset malih jela koja stižu jedno za drugim, od umaka i salata do mesa ili ribe.", prica: "Naručuje se za cijeli stol i bira samo između mesnog i ribljeg. Ciparska izreka savjetuje „siga siga“, polako, jer najbolja jela dolaze na kraju, kada su neiskusni gosti već siti." },
-    { ime: "Suvla", opis: "Krupni komadi janjetine ili svinjetine na dugom ražnju, pečeni polako nad ugljenom.", prica: "Za razliku od sitnog suvlakija, suvla je nedjeljni i blagdanski obred koji traje satima, a muškarci oko ražnja usput rješavaju sve svjetske probleme." },
-    { ime: "Šeftalia", opis: "Male kobasice od mljevenog mesa s lukom i peršinom, umotane u maramicu umjesto u crijevo.", prica: "Jedu se u ciparskoj piti, koja je veća i tanja od grčke i otvara se poput džepa, zajedno sa suvlakijem, salatom i limunom." },
-    { ime: "Kleftiko", opis: "Janjetina s lovorom i origanom, pečena satima u zatvorenoj glinenoj peći.", prica: "Ime znači ukradeno meso, jer su, prema predaji, odmetnici u planinama pekli ukradenu stoku u zatrpanim jamama da ih dim ne oda." },
-    { ime: "Afelia i kupepia", opis: "Afelia je svinjetina pirjana u crnom vinu s tučenim korijandrom, a kupepia sarmice u vinovu listu.", prica: "Korijandar je zaštitni znak ciparske kuhinje i stavlja se i u masline i u kobasice. Kupepia se ovdje kuhaju u umaku od rajčice i s cimetom." },
-    { ime: "Kumandarija", opis: "Slatko desertno vino boje jantara, od grožđa sušenog na suncu.", prica: "Ime je dobilo po Velikoj komendi vitezova ivanovaca u Kolossiju i smatra se najstarijim vinom na svijetu koje se i danas proizvodi pod istim imenom. Proizvodi se u četrnaest sela na južnim padinama Troodosa." },
-    { ime: "Zivanija", opis: "Bezbojna rakija od komine, jaka i bez dodataka.", prica: "Pije se ledena, iz malih čašica, uz suho meso i orahe, a u selima se njome i mažu bolna leđa." },
-    { ime: "Sudžukos", opis: "Bademi nanizani na konac i umakani u zgusnuti mošt dok ne nastane debela gumena svijeća.", prica: "Suši se obješen pod strehama planinskih sela u jesen i reže na kolutiće uz zivaniju. Od istog se mošta kuha i puding paluze." }
+    { ime: "Halloumi", opis: "A semi-hard cheese of sheep's and goat's milk with mint, which does not melt, so it is grilled or fried.", prica: "The name has been protected in the European Union since 2021 and may be used only for cheese from Cyprus. It squeaks between your teeth, and in summer it is eaten cold, with watermelon, a combination well worth trying." },
+    { ime: "Meze", opis: "A meal of twenty to thirty small dishes that arrive one after another, from dips and salads to meat or fish.", prica: "It is ordered for the whole table, and the only choice is between meat and fish. A Cypriot saying advises “siga siga”, slowly, because the best dishes come at the end, when inexperienced guests are already full." },
+    { ime: "Souvla", opis: "Large chunks of lamb or pork on a long spit, roasted slowly over charcoal.", prica: "Unlike the small souvlaki, souvla is a Sunday and holiday ritual that lasts for hours, and the men around the spit solve all the world's problems along the way." },
+    { ime: "Sheftalia", opis: "Small sausages of ground meat with onion and parsley, wrapped in caul fat instead of a casing.", prica: "They are eaten in Cypriot pita, which is larger and thinner than the Greek kind and opens like a pocket, together with souvlaki, salad and lemon." },
+    { ime: "Kleftiko", opis: "Lamb with bay leaf and oregano, baked for hours in a sealed clay oven.", prica: "The name means stolen meat, because, according to tradition, outlaws in the mountains roasted stolen livestock in covered pits so that the smoke would not give them away." },
+    { ime: "Afelia and koupepia", opis: "Afelia is pork braised in red wine with crushed coriander seeds, and koupepia are small stuffed grape leaves.", prica: "Coriander is the hallmark of Cypriot cooking and goes into olives and sausages too. Here koupepia are cooked in tomato sauce and with cinnamon." },
+    { ime: "Commandaria", opis: "A sweet, amber-colored dessert wine made from sun-dried grapes.", prica: "It was named after the Grand Commandery of the Knights Hospitaller at Kolossi and is considered the oldest wine in the world still produced under the same name. It is made in fourteen villages on the southern slopes of the Troodos." },
+    { ime: "Zivania", opis: "A colorless pomace brandy, strong and with nothing added.", prica: "It is drunk ice-cold, from small glasses, with cured meat and walnuts, and in the villages it is also rubbed onto aching backs." },
+    { ime: "Soutzoukos", opis: "Almonds threaded on a string and dipped in thickened grape must until a fat, rubbery candle forms.", prica: "It dries hanging under the eaves of the mountain villages in the fall and is cut into rounds to go with zivania. The same must is also cooked into the pudding called palouzes." }
   ],
   obicaji: [
-    { ime: "Kopiaste", opis: "Riječ kojom vas Ciprani pozivaju da sjednete i podijelite ono što imaju, bilo da je riječ o ručku, kavi ili voću iz vrta. Odbiti nije pristojno, a domaćin će se uvrijediti ako barem ne kušate.", gdje: "U planinskim selima Troodosa, gdje pred kućama sjede bake s vezom, i u svakoj seoskoj kavani." },
-    { ime: "Lefkaritika", opis: "Čipka i vez iz sela Lefkara rade se na lanenom platnu, geometrijskim uzorcima koji se prenose s majke na kćer. Legenda kaže da je Leonardo da Vinci 1481. ovdje kupio oltarnik za milansku katedralu. Na UNESCO-ovu je popisu od 2009. godine.", gdje: "Selo Pano Lefkara, na pola puta između Limassola i Larnake, gdje žene vezu na ulici, a muškarci izrađuju srebrni filigran." },
-    { ime: "Kataklizmos", opis: "Blagdan potopa slavi se pedeset dana nakon pravoslavnog Uskrsa, uz polijevanje vodom, utrke čamaca i sajmove na obali. Spaja Duhove sa starijim svetkovinama u čast Afrodite i Adonisa i postoji samo na Cipru.", gdje: "Larnaka, na šetnici Finikudes, gdje slavlje traje gotovo tjedan dana." },
-    { ime: "Tsiattista", opis: "Pjesnički dvoboj u kojem se dvojica nadmeću u improviziranim rimovanim dvostisima, uz violinu i lutnju, dok publika navija. Na UNESCO-ovu je popisu.", gdje: "Na Kataklizmosu u Larnaki i na seoskim svadbama i festivalima." },
-    { ime: "Uskrs i flaune", opis: "Na Veliku subotu mladići u dvorištu crkve pale golemu lomaču zvanu lambradžia, a u svakoj se kući peku flaune, peciva punjena sirom, grožđicama i metvicom.", gdje: "Posvuda, a posebno svečano u planinskim selima. Flaune se tih tjedana prodaju u svim pekarnicama." },
-    { ime: "Karneval u Limassolu", opis: "Deset dana prije korizme grad slavi maskiranim povorkama, serenadama starih pjevačkih družina i velikom završnom paradom. Običaj potječe iz mletačkog doba.", gdje: "Limassol, veljača ili ožujak, ovisno o datumu pravoslavnog Uskrsa." }
+    { ime: "Kopiaste", opis: "The word with which Cypriots invite you to sit down and share what they have, whether it is lunch, coffee or fruit from the garden. Refusing is not polite, and the host will be offended if you do not at least have a taste.", gdje: "In the mountain villages of the Troodos, where grandmothers sit in front of their houses with their embroidery, and in every village coffeehouse." },
+    { ime: "Lefkaritika", opis: "The lace and embroidery of the village of Lefkara are worked on linen in geometric patterns handed down from mother to daughter. Legend says that Leonardo da Vinci bought an altar cloth here in 1481 for Milan Cathedral. It has been on the UNESCO list since 2009.", gdje: "The village of Pano Lefkara, halfway between Limassol and Larnaca, where the women embroider in the street and the men make silver filigree." },
+    { ime: "Kataklysmos", opis: "The Festival of the Flood is celebrated fifty days after Orthodox Easter, with water throwing, boat races and fairs on the waterfront. It joins Pentecost with older festivals in honor of Aphrodite and Adonis, and it exists only in Cyprus.", gdje: "Larnaca, on the Finikoudes promenade, where the celebration lasts almost a week." },
+    { ime: "Tsiattista", opis: "A poetic duel in which two contestants compete in improvised rhyming couplets, to violin and lute, while the audience cheers them on. It is on the UNESCO list.", gdje: "At Kataklysmos in Larnaca and at village weddings and festivals." },
+    { ime: "Easter and flaounes", opis: "On Holy Saturday the young men light a huge bonfire called the lambratzia in the churchyard, and every household bakes flaounes, pastries filled with cheese, raisins and mint.", gdje: "Everywhere, and with particular ceremony in the mountain villages. During those weeks flaounes are sold in every bakery." },
+    { ime: "Limassol Carnival", opis: "For ten days before Lent the city celebrates with masked parades, serenades by old singing groups and a big closing parade. The custom dates from Venetian times.", gdje: "Limassol, in February or March, depending on the date of Orthodox Easter." }
   ],
   fraze: [
-    { izvorno: "Καλημέρα (Kaliméra)", izgovor: "ka-li-ME-ra", hr: "Dobro jutro, dobar dan" },
-    { izvorno: "Γεια σου (Ja su)", izgovor: "JA-su", hr: "Bok, zdravo" },
-    { izvorno: "Ευχαριστώ (Efharistó)", izgovor: "ef-ha-ri-STO", hr: "Hvala" },
-    { izvorno: "Παρακαλώ (Parakaló)", izgovor: "pa-ra-ka-LO", hr: "Molim, nema na čemu" },
-    { izvorno: "Κοπιάστε (Kopiáste)", izgovor: "ko-PJA-ste", hr: "Dođite, pridružite nam se" },
-    { izvorno: "Σιγά σιγά (Sigá sigá)", izgovor: "si-GA si-GA", hr: "Polako, bez žurbe" },
-    { izvorno: "Εντάξει (Endáksi)", izgovor: "en-DAK-si", hr: "U redu, dogovoreno" },
-    { izvorno: "Γεια μας! (Ja mas!)", izgovor: "JA-mas", hr: "Živjeli!" }
+    { izvorno: "Καλημέρα (Kaliméra)", izgovor: "kah-lee-MEH-rah", hr: "Good morning, good day" },
+    { izvorno: "Γεια σου (Ja su)", izgovor: "YAH-soo", hr: "Hi, hello" },
+    { izvorno: "Ευχαριστώ (Efharistó)", izgovor: "ef-khah-ree-STOH", hr: "Thank you" },
+    { izvorno: "Παρακαλώ (Parakaló)", izgovor: "pah-rah-kah-LOH", hr: "Please, you're welcome" },
+    { izvorno: "Κοπιάστε (Kopiáste)", izgovor: "koh-PYAH-steh", hr: "Come, join us" },
+    { izvorno: "Σιγά σιγά (Sigá sigá)", izgovor: "see-GAH see-GAH", hr: "Slowly, no rush" },
+    { izvorno: "Εντάξει (Endáksi)", izgovor: "en-DAHK-see", hr: "All right, agreed" },
+    { izvorno: "Γεια μας! (Ja mas!)", izgovor: "YAH-mahs", hr: "Cheers!" }
   ],
   zanimljivosti: [
-    "Latinska riječ za bakar, cuprum, dolazi od imena otoka, koji je u antici bio glavni izvor tog metala.",
-    "Cipar i Kosovo jedine su dvije države koje na zastavi imaju obris vlastitog teritorija.",
-    "Najstariji poznati dokaz o pripitomljenoj mački pronađen je na Cipru, u grobu starom oko 9500 godina.",
-    "Legenda kaže da je sveta Jelena u četvrtom stoljeću na otok dovela brodove pune mačaka da ga očiste od zmija, pa i danas postoji samostan Svetog Nikole od Mačaka.",
-    "Britanija je zadržala dvije vojne baze, koje zauzimaju oko tri posto otoka i kroz koje se slobodno vozi.",
-    "U tvrđavi u Limassolu engleski kralj Rikard Lavljeg Srca oženio se 1191. Berengarijom Navarskom.",
-    "Nikozija je jedina podijeljena prijestolnica u Europi."
+    "The Latin word for copper, cuprum, comes from the name of the island, which was the main source of that metal in antiquity.",
+    "Cyprus and Kosovo are the only two countries that show the outline of their own territory on their flag.",
+    "The oldest known evidence of a domesticated cat was found in Cyprus, in a grave about 9,500 years old.",
+    "Legend says that in the fourth century Saint Helena brought shiploads of cats to the island to rid it of snakes, and the monastery of Saint Nicholas of the Cats still exists today.",
+    "Britain kept two military bases, which take up about three percent of the island and which you can drive through freely.",
+    "In the castle at Limassol the English king Richard the Lionheart married Berengaria of Navarre in 1191.",
+    "Nicosia is the only divided capital in Europe."
   ],
   mjesta: [
     {
       id: "nikozija",
-      ime: "Nikozija",
+      ime: "Nicosia",
       vrsta: "grad",
-      sazetak: "Prijestolnica unutar mletačkih bedema u obliku zvijezde, kroz čije središte prolazi crta razdvajanja koju možete prijeći pješice.",
+      sazetak: "A capital inside star-shaped Venetian ramparts, with a dividing line running through its center that you can cross on foot.",
       prica: [
-        "Nikozija, grčki Lefkosia, glavni je grad otoka više od tisuću godina. Francuski kraljevi iz kuće Lusignan vladali su odavde od 1192. do 1489. i sagradili gotičke crkve, a Mlečani su 1567. srušili predgrađa i opasali grad savršenim krugom zidina s jedanaest bastiona. Osmanlije su ga ipak osvojili već 1570., nakon sedam tjedana opsade.",
-        "Zelena crta, povučena 1964. i zatvorena 1974., dijeli stari grad na južni, grčki, i sjeverni, turski dio. Od 2008. otvoren je pješački prijelaz u Ulici Ledra, pa se u nekoliko koraka prelazi iz jednog svijeta u drugi."
+        "Nicosia, Lefkosia in Greek, has been the island's capital for more than a thousand years. French kings of the House of Lusignan ruled from here from 1192 to 1489 and built Gothic churches, and in 1567 the Venetians tore down the suburbs and ringed the city with a perfect circle of walls with eleven bastions. The Ottomans conquered it all the same as early as 1570, after a seven-week siege.",
+        "The Green Line, drawn in 1964 and sealed in 1974, divides the old town into a southern, Greek part and a northern, Turkish part. A pedestrian crossing on Ledra Street has been open since 2008, so in a few steps you pass from one world into another."
       ],
       vidjeti: [
-        { ime: "Mletački bedemi", opis: "Zidine duge gotovo pet kilometara imaju jedanaest bastiona u obliku srca i troja vrata. Najljepša su Famagustanska, s dugim nadsvođenim prolazom, danas kulturni centar. U jarku su parkovi, igrališta i parkirališta." },
-        { ime: "Ciparski muzej", opis: "Glavni arheološki muzej otoka čuva dvije tisuće glinenih ratnika, kola i bikova iz svetišta Agia Irini, postavljenih onako kako su pronađeni, poput male vojske. Potražite i mramornu Afroditu iz Solija, čiji je lik postao simbol Cipra." },
-        { ime: "Ulica Ledra i Zelena crta", opis: "Glavna trgovačka ulica završava kontrolnom točkom, iza koje nastavlja kao turska čaršija. Skrenite u pokrajnje ulice uz crtu, gdje vreće s pijeskom, bačve i napuštene kuće s drvećem koje raste kroz krov stoje netaknute od 1974. godine." },
-        { ime: "Džamija Selimija", opis: "Na sjevernoj strani stoji gotička katedrala Svete Sofije, u kojoj su se krunili kraljevi Lusignani, započeta 1209. po uzoru na francuske katedrale. Osmanlije su joj dodali dva minareta, pa je prizor kakav se rijetko viđa." },
-        { ime: "Büyük Han", opis: "Karavan-saraj iz 1572., najljepša osmanska građevina na otoku, ima dvorište s malom džamijom na stupovima iznad česme. U nekadašnjim sobama trgovaca danas su radionice i kavane." },
-        { ime: "Katedrala svetog Ivana", opis: "Mala crkva uz Nadbiskupsku palaču izvana je neugledna, a iznutra je cijela prekrivena freskama iz 18. stoljeća i pozlaćenim rezbarijama. Na desnom zidu prikazano je pronalaženje groba apostola Barnabe, zaštitnika Cipra." }
+        { ime: "Venetian walls", opis: "The walls, almost five kilometers long, have eleven heart-shaped bastions and three gates. The loveliest is the Famagusta Gate, with a long vaulted passage, now a cultural center. The moat holds parks, playgrounds and parking lots." },
+        { ime: "Cyprus Museum", opis: "The island's main archaeological museum holds two thousand clay warriors, chariots and bulls from the sanctuary of Agia Irini, set up as they were found, like a small army. Look also for the marble Aphrodite of Soli, whose figure has become a symbol of Cyprus." },
+        { ime: "Ledra Street and the Green Line", opis: "The main shopping street ends at a checkpoint, beyond which it continues as a Turkish bazaar. Turn into the side streets along the line, where sandbags, barrels and abandoned houses with trees growing through the roof have stood untouched since 1974." },
+        { ime: "Selimiye Mosque", opis: "On the northern side stands the Gothic Cathedral of Saint Sophia, where the Lusignan kings were crowned, begun in 1209 on the model of the French cathedrals. The Ottomans added two minarets to it, creating a sight that is rarely seen." },
+        { ime: "Büyük Han", opis: "The caravanserai from 1572, the most beautiful Ottoman building on the island, has a courtyard with a small mosque raised on columns above a fountain. The former merchants' rooms now house workshops and cafés." },
+        { ime: "Saint John's Cathedral", opis: "The small church beside the Archbishop's Palace is plain on the outside, while inside it is entirely covered with 18th-century frescoes and gilded carvings. The right wall shows the discovery of the tomb of the Apostle Barnabas, patron saint of Cyprus." }
       ],
       jesti: [
-        { ime: "Meze u starom gradu", opis: "Taverne u uličicama oko crkve Faneromeni poslužuju puni niz jela, od halumija do pečene janjetine." },
-        { ime: "Suvlaki i šeftalia u piti", opis: "Male roštiljarnice pune veliku ciparsku pitu mesom, rajčicom, krastavcem i peršinom." },
-        { ime: "Ciparska kava i slatko na žlici", opis: "U starim kavanama kava se kuha u pijesku i poslužuje s ukuhanim orahom ili lubenicom u sirupu." }
+        { ime: "Meze in the old town", opis: "The tavernas in the lanes around Faneromeni Church serve the full sequence of dishes, from halloumi to roast lamb." },
+        { ime: "Souvlaki and sheftalia in pita", opis: "Small grill houses fill the big Cypriot pita with meat, tomato, cucumber and parsley." },
+        { ime: "Cypriot coffee and spoon sweets", opis: "In the old coffeehouses the coffee is brewed in hot sand and served with a preserved walnut or watermelon rind in syrup." }
       ],
       dozivjeti: [
-        { ime: "Prijelaz na sjevernu stranu", opis: "Uz osobnu iskaznicu ili putovnicu prijelaz traje nekoliko minuta. S druge strane obiđite Büyük Han, Selimiju i natkrivenu tržnicu, a vratite se istim putem." },
-        { ime: "Gradski muzej Leventis", opis: "Pregledan i besplatan muzej pripovijeda povijest grada od brončanog doba do danas kroz karte, odjeću i predmete iz kuća.", link: "https://leventismuseum.org.cy/" },
-        { ime: "Šetnja s licenciranim vodičem", opis: "Udruga ciparskih turističkih vodiča objavljuje raspored besplatnih vođenih šetnji koje podupiru općine.", link: "https://www.cytouristguides.com/" },
-        { ime: "Pogled s tornja Shacolas", opis: "S jedanaestog kata robne kuće u Ulici Ledra vidi se cijeli grad i golema zastava sjevernog Cipra naslikana na padini planine." }
+        { ime: "Crossing to the northern side", opis: "With an ID card or passport the crossing takes a few minutes. On the other side, visit Büyük Han, the Selimiye and the covered market, and come back the same way." },
+        { ime: "Leventis Municipal Museum", opis: "A clearly laid-out, free museum tells the history of the city from the Bronze Age to the present through maps, clothing and household objects.", link: "https://leventismuseum.org.cy/" },
+        { ime: "A walk with a licensed guide", opis: "The Cyprus Tourist Guides Association publishes a schedule of free guided walks supported by the municipalities.", link: "https://www.cytouristguides.com/" },
+        { ime: "The view from Shacolas Tower", opis: "From the eleventh floor of the department store on Ledra Street you can see the whole city and the gigantic flag of northern Cyprus painted on the mountainside." }
       ],
       agencije: [
-        { ime: "Visit Nicosia", opis: "Turistička zajednica Nikozije.", link: "https://visitnicosia.com.cy/" },
-        { ime: "Udruga turističkih vodiča Cipra", opis: "Popis licenciranih vodiča i raspored besplatnih vođenja.", link: "https://www.cytouristguides.com/" },
-        { ime: "Visit Cyprus", opis: "Službeni portal ciparskog turizma.", link: "https://www.visitcyprus.com/" }
+        { ime: "Visit Nicosia", opis: "The Nicosia tourism board.", link: "https://visitnicosia.com.cy/" },
+        { ime: "Cyprus Tourist Guides Association", opis: "A list of licensed guides and the schedule of free guided walks.", link: "https://www.cytouristguides.com/" },
+        { ime: "Visit Cyprus", opis: "The official Cyprus tourism portal.", link: "https://www.visitcyprus.com/" }
       ],
-      kada: "Ožujak do svibnja i listopad do studenoga. Ljeti je Nikozija najtopliji grad na otoku, pa razgledavajte rano ujutro i navečer."
+      kada: "March to May and October to November. In summer Nicosia is the hottest city on the island, so do your sightseeing early in the morning and in the evening."
     },
     {
       id: "pafos",
-      ime: "Pafos",
+      ime: "Paphos",
       vrsta: "grad",
-      sazetak: "Nekadašnja rimska prijestolnica otoka, s podnim mozaicima koje je otkrio plug i hridi kod koje je, prema mitu, iz pjene rođena Afrodita.",
+      sazetak: "The island's former Roman capital, with floor mosaics uncovered by a plow and the rocks where, according to myth, Aphrodite was born from the foam.",
       prica: [
-        "Stari Pafos, kod današnjeg sela Kuklia, bio je stoljećima najvažnije Afroditino svetište u antičkom svijetu. Novi grad uz luku osnovan je krajem četvrtog stoljeća prije Krista i pod Ptolemejevićima i Rimljanima bio je glavni grad Cipra.",
-        "Ovdje je, prema Djelima apostolskim, apostol Pavao obratio rimskog prokonzula Sergija Paula, prvog visokog rimskog dužnosnika koji je prihvatio kršćanstvo. Cijeli je grad od 1980. na UNESCO-ovu popisu."
+        "Old Paphos, near today's village of Kouklia, was for centuries the most important sanctuary of Aphrodite in the ancient world. The new city by the harbor was founded in the late fourth century BC, and under the Ptolemies and the Romans it was the capital of Cyprus.",
+        "According to the Acts of the Apostles, it was here that the Apostle Paul converted the Roman proconsul Sergius Paulus, the first high Roman official to accept Christianity. The whole city has been on the UNESCO list since 1980."
       ],
       vidjeti: [
-        { ime: "Dionizova kuća", opis: "Rimsku vilu iz drugog stoljeća otkrio je 1962. seljak koji je orao polje. Više od petsto kvadratnih metara podova prekriveno je mozaicima s mitološkim prizorima. Potražite Pirama i Tizbu, antičke Romea i Juliju, te Ikarija, prvog čovjeka koji je naučio praviti vino, uz dvojicu prvih pijanaca u povijesti." },
-        { ime: "Tezejeva i Ajonova kuća", opis: "U palači rimskog namjesnika okrugli mozaik prikazuje Tezeja u labirintu, s Minotaurom i personifikacijom Krete. U susjednoj Ajonovoj kući pet je prizora iz četvrtog stoljeća koji slave poganske bogove u vrijeme kada je kršćanstvo već pobjeđivalo." },
-        { ime: "Kraljevske grobnice", opis: "Unatoč imenu, u njima su pokapani visoki dužnosnici helenističkog doba, a kraljeva ovdje nikada nije bilo. Uklesane su u stijenu kao kuće živih, s dvorištem okruženim dorskim stupovima, po uzoru na grobnice u Aleksandriji." },
-        { ime: "Pavlov stup", opis: "Među ruševinama velike ranokršćanske bazilike, uz crkvu Hrisopolitisa, stoji mramorni stup uz koji je, prema predaji, apostol Pavao bičevan s trideset i devet udaraca." },
-        { ime: "Petra tu Romiu", opis: "Dvadeset i pet kilometara istočno iz mora se dižu bijele hridi kod kojih je Afrodita izašla iz pjene. Predaja kaže da vječnu mladost dobiva onaj tko tri puta opliva najveću stijenu, ali more je ovdje hladno i nemirno." },
-        { ime: "Samostan svetog Neofita", opis: "Pustinjak Neofit je 1159. vlastitim rukama izdubio ćeliju i kapelicu u stijeni, koje su zatim oslikane freskama. Na jednoj je prikazao samoga sebe između dvaju arkanđela." }
+        { ime: "House of Dionysus", opis: "The Roman villa from the second century was discovered in 1962 by a farmer plowing his field. More than five hundred square meters of floors are covered with mosaics of mythological scenes. Look for Pyramus and Thisbe, the Romeo and Juliet of antiquity, and Icarius, the first man to learn how to make wine, beside the first two drunks in history." },
+        { ime: "Houses of Theseus and Aion", opis: "In the palace of the Roman governor, a circular mosaic shows Theseus in the labyrinth, with the Minotaur and a personification of Crete. The neighboring House of Aion has five scenes from the fourth century that celebrate the pagan gods at a time when Christianity was already winning out." },
+        { ime: "Tombs of the Kings", opis: "Despite the name, they were the burial place of high officials of the Hellenistic period, and there were never any kings here. They are cut into the rock like the houses of the living, with a courtyard surrounded by Doric columns, on the model of the tombs in Alexandria." },
+        { ime: "Saint Paul's Pillar", opis: "Among the ruins of a large early Christian basilica, beside the Chrysopolitissa church, stands the marble column at which, according to tradition, the Apostle Paul was flogged with thirty-nine lashes." },
+        { ime: "Petra tou Romiou", opis: "Twenty-five kilometers to the east, white rocks rise from the sea at the spot where Aphrodite stepped out of the foam. Tradition says that whoever swims around the largest rock three times gains eternal youth, but the sea here is cold and rough." },
+        { ime: "Monastery of Saint Neophytos", opis: "In 1159 the hermit Neophytos hollowed out a cell and a chapel in the rock with his own hands, and they were then painted with frescoes. In one of them he depicted himself between two archangels." }
       ],
       jesti: [
-        { ime: "Lukumia iz Geroskipua", opis: "Ciparski rahat-lokum iz sela kraj Pafosa proizvodi se od 1895. i nosi europsku oznaku zemljopisnog podrijetla." },
-        { ime: "Pafoska kobasica", opis: "Svinjska kobasica marinirana u crnom vinu s korijandrom, dimljena i sušena." },
-        { ime: "Riblji meze u luci", opis: "Taverne uz tvrđavu donose niz jela od lignji, hobotnice i sitne ribe." }
+        { ime: "Loukoumia from Geroskipou", opis: "The Cypriot version of Turkish delight from a village near Paphos has been made since 1895 and carries a European protected geographical indication." },
+        { ime: "Paphos sausage", opis: "A pork sausage marinated in red wine with coriander, then smoked and dried." },
+        { ime: "Fish meze at the harbor", opis: "The tavernas beside the castle bring out a sequence of dishes of squid, octopus and small fish." }
       ],
       dozivjeti: [
-        { ime: "Poluotok Akamas", opis: "Na sjeverozapadu, gdje prestaje asfalt, staze vode od Afroditinih kupelji uz liticu nad morem. Na plaži Lara od lipnja do rujna gnijezde se morske kornjače." },
-        { ime: "Zalazak sunca kod tvrđave", opis: "Mala utvrda na kraju lukobrana osmanska je obnova lusignanske kule. Šetnica uz more vodi odavde do arheološkog parka i dalje do Kraljevskih grobnica.", link: "https://www.visitpafos.org.cy/" },
-        { ime: "Afroditino svetište u Kukliji", opis: "U muzeju u lusignanskom dvorcu izložen je crni stožasti kamen, u čijem su obliku ovdje štovali božicu mnogo prije nego što je dobila ljudski lik." }
+        { ime: "Akamas Peninsula", opis: "In the northwest, where the asphalt ends, trails lead from the Baths of Aphrodite along a cliff above the sea. Sea turtles nest on Lara Beach from June to September." },
+        { ime: "Sunset at the castle", opis: "The small fort at the end of the breakwater is an Ottoman rebuilding of a Lusignan tower. The seaside promenade leads from here to the archaeological park and on to the Tombs of the Kings.", link: "https://www.visitpafos.org.cy/" },
+        { ime: "The Sanctuary of Aphrodite at Kouklia", opis: "The museum in the Lusignan manor displays the black conical stone in whose form the goddess was worshipped here long before she was given a human shape." }
       ],
       agencije: [
-        { ime: "Visit Pafos", opis: "Regionalna turistička zajednica Pafosa s kartama, stazama i događanjima.", link: "https://www.visitpafos.org.cy/" },
-        { ime: "Općina Pafos", opis: "Službena stranica grada.", link: "https://pafos.org.cy/" }
+        { ime: "Visit Pafos", opis: "The regional tourism board of Paphos, with maps, trails and events.", link: "https://www.visitpafos.org.cy/" },
+        { ime: "Municipality of Paphos", opis: "The official website of the city.", link: "https://pafos.org.cy/" }
       ],
-      kada: "Travanj, svibanj, listopad i studeni. Arheološki park gotovo nema hlada, pa ponesite vodu i šešir, a mozaici su najljepši ujutro."
+      kada: "April, May, October and November. The archaeological park has almost no shade, so bring water and a hat, and the mosaics are at their best in the morning."
     },
     {
       id: "limassol",
-      ime: "Limassol i Kurion",
+      ime: "Limassol and Kourion",
       vrsta: "grad",
-      sazetak: "Najživlji ciparski grad, s viteškim dvorcem slatkog vina u zaleđu i antičkim kazalištem na litici nad morem.",
+      sazetak: "The liveliest city in Cyprus, with a knights' castle of sweet wine in the hinterland and an ancient theater on a cliff above the sea.",
       prica: [
-        "Limassol je izrastao između dvaju antičkih gradova-kraljevstava, Amatunta na istoku i Kuriona na zapadu. U srednjem vijeku bio je luka križara, a vitezovi ivanovci i templari imali su u okolici imanja na kojima se uzgajala šećerna trska i proizvodilo slatko vino.",
-        "Danas je to druga po veličini gradska sredina na otoku, s velikom lukom, obnovljenom starom jezgrom i dugom šetnicom uz more. Poznat je po karnevalu i festivalu vina."
+        "Limassol grew up between two ancient city-kingdoms, Amathus to the east and Kourion to the west. In the Middle Ages it was a port of the Crusaders, and the Knights Hospitaller and the Templars held estates in the surrounding area where sugarcane was grown and sweet wine was made.",
+        "Today it is the second-largest urban area on the island, with a big port, a restored old core and a long seaside promenade. It is known for its carnival and its wine festival."
       ],
       vidjeti: [
-        { ime: "Kazalište u Kurionu", opis: "Grčko-rimsko kazalište s 3500 mjesta stoji na rubu litice, s pogledom na more i plažu sedamdeset metara niže. Sagrađeno je u drugom stoljeću prije Krista, a ljeti se u njemu igraju antičke drame." },
-        { ime: "Eustolijeva kuća", opis: "Vila s kupeljima iz petog stoljeća ima mozaike s pticama i ribama te natpise koji pozdravljaju gosta. Jedan spominje da kuću više ne štite kamen i željezo, nego Kristovi znakovi, što svjedoči o prijelazu na novu vjeru." },
-        { ime: "Kuća potresa i Apolonovo svetište", opis: "Potres 365. godine zatrpao je obitelj u jednoj kući, gdje su arheolozi našli kosture roditelja koji štite dijete. Tri kilometra dalje je svetište Apolona Hilata, zaštitnika šuma, s djelomično podignutim hramom." },
-        { ime: "Dvorac Kolossi", opis: "Četverokutna kula iz 1454. bila je sjedište Velike komende ivanovaca, po kojoj je ime dobilo vino kumandarija. Uz nju stoji gotička dvorana, nekadašnja tvornica šećera, a na zidu je grb velikog meštra." },
-        { ime: "Tvrđava u Limassolu", opis: "Današnja zgrada je osmanska, ali stoji na mjestu kapele u kojoj se 1191. vjenčao Rikard Lavljeg Srca. U njoj je Muzej srednjeg vijeka s nadgrobnim pločama vitezova i oružjem." },
-        { ime: "Slano jezero Akrotiri", opis: "Od studenoga do ožujka na plitkom jezeru zimuju tisuće plamenaca. Na obali je samostan Svetog Nikole od Mačaka, u kojem mačke i danas imaju glavnu riječ." }
+        { ime: "Kourion theater", opis: "The Greco-Roman theater with 3,500 seats stands on the edge of a cliff, looking out over the sea and the beach seventy meters below. It was built in the second century BC, and ancient dramas are staged in it in summer." },
+        { ime: "House of Eustolios", opis: "The villa with baths from the fifth century has mosaics of birds and fish and inscriptions that greet the guest. One of them says that the house is no longer protected by stone and iron but by the signs of Christ, which bears witness to the passage to the new faith." },
+        { ime: "Earthquake House and the Sanctuary of Apollo", opis: "The earthquake of 365 buried a family in one house, where archaeologists found the skeletons of parents shielding their child. Three kilometers away is the sanctuary of Apollo Hylates, protector of the woodlands, with a partially re-erected temple." },
+        { ime: "Kolossi Castle", opis: "The square keep from 1454 was the seat of the Grand Commandery of the Hospitallers, which gave Commandaria wine its name. Beside it stands a Gothic hall, formerly a sugar factory, and the coat of arms of the Grand Master is on the wall." },
+        { ime: "Limassol Castle", opis: "The present building is Ottoman, but it stands on the site of the chapel where Richard the Lionheart was married in 1191. It houses the Medieval Museum, with knights' tombstones and weapons." },
+        { ime: "Akrotiri Salt Lake", opis: "From November to March thousands of flamingos winter on the shallow lake. On its shore is the monastery of Saint Nicholas of the Cats, where the cats still have the final say." }
       ],
       jesti: [
-        { ime: "Kumandarija", opis: "Kuša se u vinarijama sela na obroncima iznad grada i u muzeju vina u Erimiju." },
-        { ime: "Rogač", opis: "Sirup od rogača, nekad zvan crno zlato Cipra, jede se na kruhu s tahinijem, a od njega se radi i tvrda slastica pasteli." },
-        { ime: "Riba u starom pristaništu", opis: "Restorani uz obnovljenu ribarsku luku poslužuju riblji meze s pogledom na jahte." }
+        { ime: "Commandaria", opis: "You can taste it at the wineries of the villages on the slopes above the city and at the wine museum in Erimi." },
+        { ime: "Carob", opis: "Carob syrup, once called the black gold of Cyprus, is eaten on bread with tahini, and it is also made into the hard sweet called pasteli." },
+        { ime: "Fish at the old port", opis: "The restaurants beside the restored fishing harbor serve fish meze with a view of the yachts." }
       ],
       dozivjeti: [
-        { ime: "Festival vina", opis: "Krajem kolovoza i početkom rujna u gradskom se parku desetak večeri besplatno kuša vino ciparskih vinarija, uz ples i gaženje grožđa.", link: "https://www.limassoltourism.com/" },
-        { ime: "Selo Lefkara", opis: "Četrdeset minuta vožnje prema Larnaki leži kameno selo čipke i srebra, u kojem žene vezu pred kućama." },
-        { ime: "Šetnica Molos", opis: "Park uz more dug nekoliko kilometara, sa skulpturama i kavanama, vodi od stare luke do gradskog vrta." }
+        { ime: "The Wine Festival", opis: "In late August and early September, for about ten evenings in the municipal garden, you can taste the wines of Cypriot wineries for free, with dancing and grape stomping.", link: "https://www.limassoltourism.com/" },
+        { ime: "The village of Lefkara", opis: "A forty-minute drive toward Larnaca lies the stone village of lace and silver, where the women embroider in front of their houses." },
+        { ime: "The Molos promenade", opis: "A seaside park several kilometers long, with sculptures and cafés, leads from the old port to the municipal garden." }
       ],
       agencije: [
-        { ime: "Limassol Tourism", opis: "Regionalna turistička zajednica Limassola s vinskim cestama i kalendarom događanja.", link: "https://www.limassoltourism.com/" },
-        { ime: "Visit Cyprus", opis: "Službeni portal ciparskog turizma.", link: "https://www.visitcyprus.com/" }
+        { ime: "Limassol Tourism", opis: "The regional tourism board of Limassol, with wine routes and a calendar of events.", link: "https://www.limassoltourism.com/" },
+        { ime: "Visit Cyprus", opis: "The official Cyprus tourism portal.", link: "https://www.visitcyprus.com/" }
       ],
-      kada: "Proljeće i jesen za nalazišta, veljača ili ožujak za karneval, kraj kolovoza za festival vina. U Kurion dođite kasno poslijepodne, kada kamen pozlati."
+      kada: "Spring and fall for the archaeological sites, February or March for the carnival, late August for the wine festival. Come to Kourion in the late afternoon, when the stone turns golden."
     },
     {
       id: "troodos",
       ime: "Troodos",
       vrsta: "priroda",
-      sazetak: "Šumovito gorje u srcu otoka, sa selima vinara i malim crkvama koje pod strmim krovovima kriju najljepše bizantske freske Sredozemlja.",
+      sazetak: "A forested mountain range in the heart of the island, with winemaking villages and small churches that hide the most beautiful Byzantine frescoes in the Mediterranean beneath their steep roofs.",
       prica: [
-        "Troodos je komad oceanskog dna koji se izdigao prije više milijuna godina, zbog čega ga geolozi dolaze proučavati iz cijelog svijeta, a zbog čega je i pun bakra. Najviši vrh, Olimp, visok je 1952 metra i zimi je pod snijegom.",
-        "Kada su obalu ugrožavali arapski gusari, a zatim latinski vladari, pravoslavni su se monasi povukli u planine i od 11. do 16. stoljeća gradili crkvice koje izvana nalikuju štaglju. Deset ih je na UNESCO-ovu popisu. Britanci su ovdje ljeti bježali od vrućine, pa su ostala lječilišna sela s hotelima iz kolonijalnog doba."
+        "The Troodos is a piece of ocean floor that was uplifted millions of years ago, which is why geologists come from all over the world to study it and why it is so full of copper. The highest peak, Olympus, is 1,952 meters high and lies under snow in winter.",
+        "When the coast was threatened by Arab pirates and later by Latin rulers, Orthodox monks withdrew into the mountains and from the 11th to the 16th century built little churches that look like barns from the outside. Ten of them are on the UNESCO list. The British escaped the heat here in summer, so there are still hill resort villages with hotels from the colonial era."
       ],
       vidjeti: [
-        { ime: "Sveti Nikola od Krova", opis: "Crkva kod Kakopetrije dobila je ime po drugom, strmom drvenom krovu, podignutom iznad kupole da je štiti od snijega. Unutra su freske od 11. do 17. stoljeća, među njima rijedak prizor Bogorodice koja doji." },
-        { ime: "Panagia tu Araka", opis: "U selu Lagudera crkva iz 1192. čuva gotovo netaknute freske carigradskog majstora. Krist Pantokrator u kupoli gleda ravno u vas gdje god stajali." },
-        { ime: "Panagia Asinu", opis: "Osamljena crkvica u šumi iz 1105. ima zidove prekrivene slikama u nekoliko slojeva. Na jednoj donator Nikifor pruža Bogorodici model crkve, točno onakav kakav vidite vani." },
-        { ime: "Samostan Kikos", opis: "Najbogatiji samostan na otoku osnovan je oko 1100. i čuva ikonu Bogorodice koja se pripisuje svetom Luki. Prekrivena je srebrom i nitko je ne smije pogledati. Na brdu iznad samostana pokopan je nadbiskup Makarios, prvi predsjednik Cipra." },
-        { ime: "Omodos", opis: "Vinarsko selo okuplja se oko popločanog trga i samostana Svetog Križa. U staroj kući sačuvan je srednjovjekovni tijesak za vino, a žene prodaju čipku i okrugli kruh arkatena." },
-        { ime: "Kakopetria", opis: "Stari dio sela niz je kamenih kuća s drvenim balkonima uz potok, obnovljenih kao cjelina. Ime znači loša stijena, po kamenu za koji se priča da se srušio na mladence." }
+        { ime: "Saint Nicholas of the Roof", opis: "The church near Kakopetria got its name from a second, steep wooden roof, raised above the dome to protect it from snow. Inside are frescoes from the 11th to the 17th century, among them a rare scene of the Virgin nursing." },
+        { ime: "Panagia tou Araka", opis: "In the village of Lagoudera, a church from 1192 preserves almost untouched frescoes by a master from Constantinople. Christ Pantocrator in the dome looks straight at you wherever you stand." },
+        { ime: "Panagia Asinou", opis: "The secluded little church in the forest from 1105 has walls covered with paintings in several layers. In one of them the donor Nikephoros presents the Virgin with a model of the church, exactly like the one you see outside." },
+        { ime: "Kykkos Monastery", opis: "The richest monastery on the island was founded around 1100 and holds an icon of the Virgin attributed to Saint Luke. It is covered in silver and nobody is allowed to look at it. On the hill above the monastery is the tomb of Archbishop Makarios, the first president of Cyprus." },
+        { ime: "Omodos", opis: "The wine village gathers around a paved square and the Monastery of the Holy Cross. A medieval wine press is preserved in an old house, and the women sell lace and the round bread called arkatena." },
+        { ime: "Kakopetria", opis: "The old part of the village is a row of stone houses with wooden balconies beside a stream, restored as a whole. The name means bad rock, after a stone that is said to have fallen on a pair of newlyweds." }
       ],
       jesti: [
-        { ime: "Sudžukos i paluze", opis: "U jesen se u selima oko Omodosa kuha mošt i suše niske badema pod strehama." },
-        { ime: "Pastrva", opis: "Uzgaja se u hladnim potocima oko Platresa i Kakopetrije i peče na žaru s limunom." },
-        { ime: "Lundza i hiromeri", opis: "Svinjski file i but marinirani u crnom vinu pa dimljeni specijalitet su sela Agros, poznatog i po ružinoj vodici." }
+        { ime: "Soutzoukos and palouzes", opis: "In the fall, grape must is boiled in the villages around Omodos and strings of almonds dry under the eaves." },
+        { ime: "Trout", opis: "It is farmed in the cold streams around Platres and Kakopetria and grilled with lemon." },
+        { ime: "Lountza and hiromeri", opis: "Pork loin and leg, marinated in red wine and then smoked, are specialties of the village of Agros, which is also known for its rose water." }
       ],
       dozivjeti: [
-        { ime: "Staza do slapa Kaledonija", opis: "Iz Platresa hladovita staza uz potok vodi tri kilometra do slapa visokog dvanaest metara, a ugodna je i usred ljeta.", link: "https://mytroodos.com/" },
-        { ime: "Vinske ceste", opis: "Označene rute povezuju male vinarije koje njeguju domaće sorte ksinisteri i maratheftiko. Vozač neka kuša samo simbolično jer su ceste zavojite." },
-        { ime: "Berba ruža u Agrosu", opis: "U svibnju se u selu beru damaščanske ruže i destilira ružina vodica, uz mali festival." }
+        { ime: "The trail to Caledonia Falls", opis: "From Platres a shady trail along a stream leads three kilometers to a waterfall twelve meters high, and it is pleasant even in the middle of summer.", link: "https://mytroodos.com/" },
+        { ime: "Wine routes", opis: "Marked routes link small wineries that cultivate the native varieties Xynisteri and Maratheftiko. The driver should taste only symbolically, because the roads are winding." },
+        { ime: "The rose harvest in Agros", opis: "In May, Damask roses are picked in the village and rose water is distilled, accompanied by a small festival." }
       ],
       agencije: [
-        { ime: "My Troodos", opis: "Turistička zajednica regije Troodos s kartama staza, crkava i vinskih cesta.", link: "https://mytroodos.com/" },
-        { ime: "Samostan Kikos", opis: "Službena stranica samostana i njegova muzeja.", link: "https://www.kykkos.org.cy/" }
+        { ime: "My Troodos", opis: "The tourism board of the Troodos region, with maps of trails, churches and wine routes.", link: "https://mytroodos.com/" },
+        { ime: "Kykkos Monastery", opis: "The official website of the monastery and its museum.", link: "https://www.kykkos.org.cy/" }
       ],
-      kada: "Travanj do lipnja i rujan do studenoga za pješačenje, siječanj i veljača za snijeg. Oslikane crkve često otključava čuvar iz sela, čiji je broj napisan na vratima, pa za njih ostavite vremena."
+      kada: "April to June and September to November for hiking, January and February for snow. The painted churches are often unlocked by a caretaker from the village, whose phone number is written on the door, so leave time for them."
     }
   ],
   izvori: [
-    { ime: "Visit Cyprus, službeni portal ciparskog turizma", url: "https://www.visitcyprus.com/" },
-    { ime: "UNESCO, popis svjetske baštine: Cipar", url: "https://whc.unesco.org/en/statesparties/cy" },
+    { ime: "Visit Cyprus, official Cyprus tourism portal", url: "https://www.visitcyprus.com/" },
+    { ime: "UNESCO World Heritage List: Cyprus", url: "https://whc.unesco.org/en/statesparties/cy" },
     { ime: "Visit Nicosia", url: "https://visitnicosia.com.cy/" },
-    { ime: "Gradski muzej Leventis", url: "https://leventismuseum.org.cy/" },
+    { ime: "Leventis Municipal Museum", url: "https://leventismuseum.org.cy/" },
     { ime: "Visit Pafos", url: "https://www.visitpafos.org.cy/" },
     { ime: "Limassol Tourism", url: "https://www.limassoltourism.com/" },
     { ime: "My Troodos", url: "https://mytroodos.com/" },
-    { ime: "Udruga turističkih vodiča Cipra", url: "https://www.cytouristguides.com/" }
+    { ime: "Cyprus Tourist Guides Association", url: "https://www.cytouristguides.com/" }
   ]
 };

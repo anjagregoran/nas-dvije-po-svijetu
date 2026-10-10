@@ -2,195 +2,195 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["jordan"] = {
   id: "jordan",
   ime: "Jordan",
-  regija: "Bliski istok",
-  sazetak: "Grad uklesan u ružičastu stijenu, pustinja nalik Marsu i gostoljubivost koja počinje šalicom čaja prije svakog razgovora.",
+  regija: "Middle East",
+  sazetak: "A city carved into rose-colored rock, a desert that looks like Mars, and a hospitality that begins with a cup of tea before every conversation.",
   uvod: [
-    "Jordan je mala zemlja kroz koju su prošli gotovo svi: Nabatejci koji su se obogatili na karavanama tamjana, Rimljani koji su ovdje podigli gradove Dekapolisa, bizantski majstori mozaika, križari i Osmanlije. Današnja država nastala je 1921. kao Emirat Transjordanija pod Hašemitima, obitelji koja svoje podrijetlo vodi od proroka Muhameda, a neovisnost je stekla 1946.",
-    "Za putnike je Jordan zahvalan jer su udaljenosti male, ljudi srdačni, a prizori se izmjenjuju iz sata u sat. Ujutro možete hodati rimskom ulicom u Jerashu, popodne plutati u Mrtvom moru, a sutradan proći kroz klanac na čijem se kraju ukaže pročelje Petre. Između svega toga netko će vam ponuditi čaj s kaduljom i reći „ahlan wa sahlan“, dobro došle."
+    "Jordan is a small country that almost everyone has passed through: the Nabataeans who grew rich on the frankincense caravans, the Romans who built the cities of the Decapolis here, Byzantine mosaic masters, Crusaders and Ottomans. The present-day state came into being in 1921 as the Emirate of Transjordan under the Hashemites, a family that traces its descent from the Prophet Muhammad, and it gained independence in 1946.",
+    "Jordan is a rewarding country for travelers because the distances are short, the people are warm, and the scenery changes from hour to hour. In the morning you can walk down a Roman street in Jerash, in the afternoon float in the Dead Sea, and the next day pass through a gorge at the end of which the facade of Petra appears. In between all of that, someone will offer you sage tea and say “ahlan wa sahlan,” welcome."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od ožujka do svibnja i od rujna do studenoga. Ljeti je u Petri i Wadi Rumu vrlo vruće, a zimi u Ammanu i Petri zna pasti snijeg." },
-    { k: "Valuta", v: "Jordanski dinar (JOD), vezan uz američki dolar i vrijedniji od eura. Gotovina je potrebna za manje restorane, taksije i beduinske kampove." },
-    { k: "Kretanje", v: "Unajmljeni auto najbolji je izbor jer su ceste dobre, a javni prijevoz rijedak. Autobusi JETT povezuju Amman s Petrom i Akabom, a Kraljevska cesta ljepša je od brze Pustinjske." },
-    { k: "Napojnica", v: "U restoranima oko 10 posto ako usluga nije uračunata, a vodičima, vozačima i beduinskim domaćinima napojnica je važan dio prihoda." },
-    { k: "Jordan Pass", v: "Kupuje se na internetu prije puta i uključuje ulaz u Petru i četrdesetak drugih lokaliteta, a uz najmanje tri noćenja u zemlji pokriva i naknadu za vizu." }
+    { k: "When to go", v: "From March to May and from September to November. In summer it is very hot in Petra and Wadi Rum, and in winter snow sometimes falls in Amman and Petra." },
+    { k: "Currency", v: "The Jordanian dinar (JOD), which is pegged to the US dollar and worth more than the euro. You will need cash for smaller restaurants, taxis and Bedouin camps." },
+    { k: "Getting around", v: "A rental car is the best choice because the roads are good and public transport is sparse. JETT buses link Amman with Petra and Aqaba, and the King's Highway is more beautiful than the fast Desert Highway." },
+    { k: "Tipping", v: "In restaurants leave around 10 percent if service is not included, and for guides, drivers and Bedouin hosts tips are an important part of their income." },
+    { k: "Jordan Pass", v: "You buy it online before your trip, and it includes admission to Petra and about forty other sites, and with a stay of at least three nights in the country it also covers the visa fee." }
   ],
   hrana: [
-    { ime: "Mansaf", opis: "Janjetina kuhana u umaku od sušenog fermentiranog jogurta jameed, poslužena na riži i tankom kruhu.", prica: "Nacionalno je jelo i beduinski znak poštovanja prema gostu, a poslužuje se na svadbama, blagdanima i pri mirenju zavađenih obitelji. Tradicionalno se jede stojeći oko velikog pladnja, desnom rukom, tako da se riža oblikuje u kuglicu. UNESCO ga je 2022. upisao na popis nematerijalne baštine." },
-    { ime: "Maqluba", opis: "Riža, meso i prženo povrće slažu se u lonac koji se pred gostima preokrene na pladanj.", prica: "Ime znači „naopačke“ i trenutak okretanja lonca mala je predstava za stolom. Najčešće se radi s patlidžanom ili cvjetačom i jede s jogurtom." },
-    { ime: "Zarb", opis: "Beduinsko pečenje mesa i povrća u jami s užarenim ugljenom zatrpanoj pijeskom.", prica: "Hrana se nekoliko sati peče u vlastitoj pari, pa meso otpada od kosti. U kampovima Wadi Ruma otkopavanje zarba večernji je obred na koji se okupe svi gosti." },
-    { ime: "Falafel i humus", opis: "Pržene kuglice od slanutka i namaz od slanutka i sezamove paste, svakodnevni doručak.", prica: "U Jordanu se jedu ujutro, s toplim kruhom, ukiseljenim povrćem i slatkim čajem s mentom. Uz njih obično stiže i ful, gusti varivo od boba s limunom i maslinovim uljem." },
-    { ime: "Knafeh", opis: "Topla slastica od slanog bijelog sira pod koricom od tankih rezanaca ili griza, prelivena sirupom.", prica: "Potječe iz palestinskog grada Nablusa i u Ammanu se jede stojeći na ulici, s papirnatog tanjurića. Najbolja je dok je sir još rastezljiv, pa se ne čeka da se ohladi." },
-    { ime: "Galayet bandora", opis: "Rajčice pirjane na maslinovom ulju s češnjakom i ljutom papričicom, često s komadićima mesa.", prica: "Jednostavno pastirsko jelo jede se izravno iz tave, umakanjem kruha. Savršeno pokazuje koliko se u jordanskoj kuhinji može napraviti od tri sastojka." },
-    { ime: "Čaj s kaduljom i beduinska kava", opis: "Crni čaj s kaduljom ili mentom te gorka kava s kardamomom.", prica: "Čaj se nudi posvuda i odbiti ga smatra se pomalo nepristojnim. Kod beduina prva šalica kave pripada gostu, a šalicu treba lagano zatresti kada vam je dosta." },
-    { ime: "Limonana", opis: "Ledena limunada usitnjena sa svježom mentom.", prica: "Zelena je, vrlo osvježavajuća i najbolji lijek nakon uspona u Petri. Naći ćete je u gotovo svakom kafiću od Ammana do Akabe." }
+    { ime: "Mansaf", opis: "Lamb cooked in a sauce of jameed, a dried fermented yogurt, and served on rice and thin bread.", prica: "It is the national dish and the Bedouin sign of respect for a guest, served at weddings, on holidays and when feuding families are reconciled. Traditionally it is eaten standing around a large platter, with the right hand, shaping the rice into a small ball. UNESCO inscribed it on the list of intangible heritage in 2022." },
+    { ime: "Maqluba", opis: "Rice, meat and fried vegetables are layered in a pot that is flipped onto a platter in front of the guests.", prica: "The name means 'upside down', and the moment the pot is turned over is a little show at the table. It is most often made with eggplant or cauliflower and eaten with yogurt." },
+    { ime: "Zarb", opis: "A Bedouin way of roasting meat and vegetables in a pit of glowing coals covered over with sand.", prica: "The food cooks for several hours in its own steam, so the meat falls off the bone. In the camps of Wadi Rum, digging up the zarb is an evening ritual that all the guests gather for." },
+    { ime: "Falafel and hummus", opis: "Fried chickpea balls and a spread of chickpeas and sesame paste, the everyday breakfast.", prica: "In Jordan they are eaten in the morning, with warm bread, pickled vegetables and sweet mint tea. They usually arrive with ful as well, a thick stew of fava beans with lemon and olive oil." },
+    { ime: "Knafeh", opis: "A warm dessert of salty white cheese under a crust of fine pastry threads or semolina, soaked in syrup.", prica: "It comes from the Palestinian city of Nablus, and in Amman people eat it standing in the street, from a little paper plate. It is at its best while the cheese is still stretchy, so nobody waits for it to cool." },
+    { ime: "Galayet bandora", opis: "Tomatoes stewed in olive oil with garlic and hot pepper, often with small pieces of meat.", prica: "This simple shepherds' dish is eaten straight from the pan, by dipping bread into it. It shows perfectly how much Jordanian cooking can make out of three ingredients." },
+    { ime: "Sage tea and Bedouin coffee", opis: "Black tea with sage or mint, and bitter coffee with cardamom.", prica: "Tea is offered everywhere, and turning it down is considered a little impolite. Among the Bedouin the first cup of coffee belongs to the guest, and you should give the cup a gentle shake when you have had enough." },
+    { ime: "Limonana", opis: "Iced lemonade blended with fresh mint.", prica: "It is green, very refreshing and the best cure after a climb in Petra. You will find it in almost every café from Amman to Aqaba." }
   ],
   obicaji: [
-    { ime: "Dabke", opis: "Kolo u kojem plesači, držeći se za ruke ili ramena, snažno udaraju nogama o tlo. Predaja kaže da je nastalo kada su susjedi zajedno nabijali blatne krovove kuća.", gdje: "Na svadbama, na festivalu u Jerashu u srpnju i u folklornim večerima u Ammanu." },
-    { ime: "Beduinska gostoljubivost", opis: "Prema starom običaju gost se tri dana ne pita zašto je došao, a domaćin mu duguje hranu i zaštitu. Kava se prži, tuče u mužaru i kuha pred gostom, a ritam tučka poziv je susjedima.", gdje: "U kampovima u Wadi Rumu i kod obitelji u selima oko Petre i rezervata Dana." },
-    { ime: "Mozaici iz Madabe", opis: "Madaba njeguje umijeće slaganja mozaika od bizantskog doba, a kamenčići se i danas režu ručno kliještima. U gradu djeluje škola za restauratore mozaika.", gdje: "U radionicama u Madabi i na brdu Nebo, gdje možete gledati majstorice kako rade i kupiti izravno od njih." },
-    { ime: "Vez i tkanje", opis: "Palestinski i jordanski križni vez na crnim haljinama nosi uzorke po kojima se nekad znalo iz kojeg je sela žena. Beduinke tkaju sagove na vodoravnom tkalačkom stanu položenom na tlo.", gdje: "U zadrugama žena, primjerice u projektu Bani Hamida u selu Mukawir, te u trgovinama Jordan River Foundation u Ammanu." },
-    { ime: "Festival u Jerashu", opis: "Od 1981. se u rimskim kazalištima održavaju koncerti arapske glazbe, poezija i ples. Slušati pjevača pod zvijezdama u kazalištu starom dvije tisuće godina poseban je doživljaj.", gdje: "Jerash, obično krajem srpnja i početkom kolovoza." },
-    { ime: "Crveno-bijela kefija", opis: "Marama šemag u crveno-bijelom uzorku znak je jordanskog identiteta, dok je crno-bijela vezana uz Palestince. Crni dvostruki obruč koji je drži zove se agal.", gdje: "Vidjet ćete je posvuda, a u Wadi Rumu će vam je vodiči rado zavezati na beduinski način protiv sunca i pijeska." }
+    { ime: "Dabke", opis: "A circle dance in which the dancers, holding hands or shoulders, stomp their feet hard on the ground. Tradition has it that it began when neighbors got together to tamp down the mud roofs of their houses.", gdje: "At weddings, at the Jerash festival in July and at folklore evenings in Amman." },
+    { ime: "Bedouin hospitality", opis: "According to old custom a guest is not asked for three days why he has come, and the host owes him food and protection. The coffee is roasted, pounded in a mortar and brewed in front of the guest, and the rhythm of the pestle is an invitation to the neighbors.", gdje: "In the camps of Wadi Rum and with families in the villages around Petra and the Dana reserve." },
+    { ime: "Mosaics from Madaba", opis: "Madaba has cultivated the art of mosaic-making since Byzantine times, and the little stones are still cut by hand with pliers today. The town has a school for mosaic restorers.", gdje: "In the workshops of Madaba and on Mount Nebo, where you can watch the craftswomen at work and buy directly from them." },
+    { ime: "Embroidery and weaving", opis: "Palestinian and Jordanian cross-stitch embroidery on black dresses carries patterns that once showed which village a woman came from. Bedouin women weave rugs on a horizontal loom laid on the ground.", gdje: "In women's cooperatives, for example the Bani Hamida project in the village of Mukawir, and in the Jordan River Foundation shops in Amman." },
+    { ime: "The Jerash Festival", opis: "Since 1981 the Roman theaters have hosted concerts of Arab music, poetry and dance. Listening to a singer under the stars in a theater two thousand years old is a special experience.", gdje: "Jerash, usually in late July and early August." },
+    { ime: "The red-and-white keffiyeh", opis: "The shemagh headscarf in a red-and-white pattern is a symbol of Jordanian identity, while the black-and-white one is associated with Palestinians. The black double cord that holds it in place is called an agal.", gdje: "You will see it everywhere, and in Wadi Rum the guides will gladly tie one on you the Bedouin way, as protection against sun and sand." }
   ],
   fraze: [
-    { izvorno: "Marhaba", izgovor: "MAR-ha-ba", hr: "Bok, dobar dan" },
-    { izvorno: "Ahlan wa sahlan", izgovor: "AH-lan va SAH-lan", hr: "Dobro došli" },
-    { izvorno: "Shukran", izgovor: "ŠUK-ran", hr: "Hvala" },
-    { izvorno: "Afwan", izgovor: "AF-van", hr: "Nema na čemu, oprostite" },
-    { izvorno: "Law samaht", izgovor: "lau sa-MAHT", hr: "Molim vas, oprostite (muškarcu; ženi: law samahti)" },
-    { izvorno: "Qaddeish?", izgovor: "kad-DEJŠ", hr: "Koliko košta?" },
-    { izvorno: "Sahtein", izgovor: "sah-TEJN", hr: "Dobar tek, nazdravlje" },
-    { izvorno: "Yislamu ideik", izgovor: "JIS-la-mu i-DEJK", hr: "Blagoslovljene ti ruke (pohvala onome tko je kuhao)" }
+    { izvorno: "Marhaba", izgovor: "MAR-hah-bah", hr: "Hi, hello" },
+    { izvorno: "Ahlan wa sahlan", izgovor: "AH-lan wah SAH-lan", hr: "Welcome" },
+    { izvorno: "Shukran", izgovor: "SHOOK-rahn", hr: "Thank you" },
+    { izvorno: "Afwan", izgovor: "AHF-wahn", hr: "You're welcome, excuse me" },
+    { izvorno: "Law samaht", izgovor: "low sah-MAHT", hr: "Please, excuse me (to a man; to a woman: law samahti)" },
+    { izvorno: "Qaddeish?", izgovor: "kad-DAYSH", hr: "How much does it cost?" },
+    { izvorno: "Sahtein", izgovor: "sah-TAYN", hr: "Enjoy your meal, to your health" },
+    { izvorno: "Yislamu ideik", izgovor: "YIS-lah-moo ee-DAYK", hr: "Bless your hands (a compliment to whoever did the cooking)" }
   ],
   zanimljivosti: [
-    "Obala Mrtvog mora najniža je kopnena točka na Zemlji, više od 430 metara ispod razine mora.",
-    "Petru je za Europu 1812. ponovno otkrio Švicarac Johann Ludwig Burckhardt, koji se prerušio u muslimanskog učenjaka i tvrdio da želi prinijeti žrtvu na Aronovu grobu.",
-    "Amman se u antici zvao Filadelfija, po egipatskom vladaru Ptolemeju II. Filadelfu.",
-    "U Wadi Rumu snimani su filmovi „Lawrence od Arabije“, „Marsovac“ i „Dina“.",
-    "Kipovi iz Ain Ghazala u Jordanskom muzeju stari su oko devet tisuća godina i ubrajaju se među najstarije velike ljudske figure na svijetu.",
-    "Kralj Abdullah II. pojavio se 1996., dok je još bio princ, u maloj ulozi u seriji „Zvjezdane staze: Voyager“.",
-    "Na urni na vrhu Riznice u Petri vide se rupe od metaka jer su beduini vjerovali da je u njoj skriveno faraonovo blago."
+    "The shore of the Dead Sea is the lowest point on land on Earth, more than 430 meters below sea level.",
+    "Petra was rediscovered for Europe in 1812 by the Swiss traveler Johann Ludwig Burckhardt, who disguised himself as a Muslim scholar and claimed that he wanted to offer a sacrifice at Aaron's tomb.",
+    "In antiquity Amman was called Philadelphia, after the Egyptian ruler Ptolemy II Philadelphus.",
+    "The films “Lawrence of Arabia,” “The Martian” and “Dune” were shot in Wadi Rum.",
+    "The statues from Ain Ghazal in the Jordan Museum are around nine thousand years old and rank among the oldest large human figures in the world.",
+    "In 1996, while he was still a prince, King Abdullah II appeared in a small role in the series “Star Trek: Voyager.”",
+    "Bullet holes can be seen in the urn at the top of the Treasury in Petra, because the Bedouin believed that a pharaoh's treasure was hidden inside it."
   ],
   mjesta: [
     {
       id: "petra",
       ime: "Petra",
       vrsta: "priroda",
-      sazetak: "Nabatejska prijestolnica uklesana u pješčenjak, do koje se dolazi kroz kilometar dug klanac.",
-      prica: ["Nabatejci su bili arapski nomadi koji su nadzirali karavanske putove tamjana i začina od Arabije do Sredozemlja i naplaćivali prolaz i vodu. Od 4. stoljeća prije Krista gradili su prijestolnicu u skrovitoj dolini, klešući pročelja grobnica izravno u stijeni odozgo prema dolje. Rim je kraljevstvo pripojio 106. godine, trgovina se preselila na more, potresi su učinili svoje i grad je stoljećima bio poznat samo beduinima. UNESCO ga je zaštitio 1985."],
+      sazetak: "The Nabataean capital carved into sandstone, reached through a gorge a kilometer long.",
+      prica: ["The Nabataeans were Arab nomads who controlled the caravan routes for frankincense and spices from Arabia to the Mediterranean and charged for passage and for water. From the 4th century BC they built their capital in a hidden valley, carving the facades of tombs directly into the rock from the top down. Rome annexed the kingdom in the year 106, trade shifted to the sea, earthquakes did the rest, and for centuries the city was known only to the Bedouin. UNESCO gave it protection in 1985."],
       vidjeti: [
-        { ime: "Siq", opis: "Klanac dug oko 1,2 kilometra nastao je pucanjem stijene, a zidovi mu se dižu i do osamdeset metara. Uz obje strane pratite uklesane kanale i ostatke glinenih cijevi kojima su Nabatejci dovodili izvorsku vodu u grad, što je bila tajna njihova opstanka u pustinji." },
-        { ime: "Al-Khazneh (Riznica)", opis: "Pročelje visoko gotovo četrdeset metara vjerojatno je grobnica kralja Arete IV. iz 1. stoljeća. Kipovi su namjerno izmiješani: potražite egipatsku Izidu u sredini gore, grčke Dioskure s konjima dolje i Amazonke sa strane, što pokazuje koliko su svjetova Nabatejci poznavali." },
-        { ime: "Kraljevske grobnice", opis: "Četiri velika pročelja u stijeni iznad središta grada poznata su kao Grobnica urne, Svilena, Korintska i Grobnica palače. Svilena je dobila ime po valovitim prugama ružičaste, bijele i žute boje u samom kamenu, koje su najljepše u kasno poslijepodne." },
-        { ime: "Kazalište", opis: "Gotovo cijelo gledalište uklesano je u stijenu u 1. stoljeću, a moglo je primiti nekoliko tisuća ljudi. Na vrhu se vide rupe starijih grobnica koje su graditelji jednostavno presjekli da bi dobili više redova." },
-        { ime: "Ad-Deir (Samostan)", opis: "Do najvećeg pročelja Petre vodi oko osam stotina stuba uklesanih u stijenu. Bio je vjerojatno svetište posvećeno pobožanstvenjenom kralju Obodi I., a ime je dobio po križevima koje su unutra uklesali kršćani u bizantsko doba." },
-        { ime: "Bizantska crkva", opis: "Pod natkrivenom konstrukcijom čuvaju se podni mozaici iz 5. i 6. stoljeća s likovima godišnjih doba, životinja i ribara. Ovdje je 1993. pronađeno oko 140 pougljenjenih papirusnih svitaka, privatnih isprava koje otkrivaju svakodnevni život kasne Petre." }
+        { ime: "The Siq", opis: "The gorge, about 1.2 kilometers long, was formed when the rock split apart, and its walls rise as high as eighty meters. Along both sides, follow the carved channels and the remains of the clay pipes through which the Nabataeans brought spring water into the city, which was the secret of their survival in the desert." },
+        { ime: "Al-Khazneh (the Treasury)", opis: "The facade, almost forty meters high, is probably the tomb of King Aretas IV from the 1st century. The statues are deliberately mixed: look for the Egyptian Isis at the top in the middle, the Greek Dioscuri with their horses at the bottom and the Amazons at the sides, which shows how many worlds the Nabataeans knew." },
+        { ime: "Royal Tombs", opis: "The four great facades in the cliff above the center of the city are known as the Urn Tomb, the Silk Tomb, the Corinthian Tomb and the Palace Tomb. The Silk Tomb takes its name from the wavy bands of pink, white and yellow in the stone itself, which are at their loveliest in the late afternoon." },
+        { ime: "The Theater", opis: "Almost the entire auditorium was carved into the rock in the 1st century, and it could hold several thousand people. At the top you can see the openings of older tombs that the builders simply cut through in order to gain more rows." },
+        { ime: "Ad-Deir (the Monastery)", opis: "About eight hundred steps cut into the rock lead to the largest facade in Petra. It was probably a shrine dedicated to the deified King Obodas I, and it got its name from the crosses that Christians carved inside it in the Byzantine period." },
+        { ime: "Byzantine Church", opis: "Beneath a protective shelter lie floor mosaics from the 5th and 6th centuries with figures of the seasons, animals and fishermen. In 1993 around 140 charred papyrus scrolls were found here, private documents that reveal the everyday life of late Petra." }
       ],
       jesti: [
-        { ime: "Mansaf u Wadi Musi", opis: "Gradić pred ulazom u Petru pun je obiteljskih restorana u kojima se mansaf i maqluba kuhaju kao kod kuće." },
-        { ime: "Beduinski čaj", opis: "Uz stazu do Samostana beduinke iz plemena Bdoul kuhaju vrlo sladak čaj na vatri, a kratak predah kod njih dio je uspona." }
+        { ime: "Mansaf in Wadi Musa", opis: "The small town at the entrance to Petra is full of family restaurants where mansaf and maqluba are cooked just as they are at home." },
+        { ime: "Bedouin tea", opis: "Along the trail to the Monastery, Bedouin women of the Bdoul tribe brew very sweet tea over a fire, and a short break with them is part of the climb." }
       ],
       dozivjeti: [
-        { ime: "Tečaj kuhanja u Petra Kitchen", opis: "U Wadi Musi navečer zajedno s lokalnim kuharima pripremate juhu, mezze i glavno jelo, a zatim sve pojedete za zajedničkim stolom.", link: "https://petrakitchen.com/" },
-        { ime: "Staza Al-Khubtha do pogleda na Riznicu", opis: "Stube iza Kraljevskih grobnica vode na liticu s koje se Riznica vidi odozgo, daleko od gužve, a za uspon treba oko sat vremena." },
-        { ime: "Mala Petra", opis: "Desetak kilometara sjevernije leži Siq al-Barid, predgrađe karavana u kojem je na stropu jedne blagovaonice sačuvana rijetka nabatejska freska s vinovom lozom i pticama." }
+        { ime: "A cooking class at Petra Kitchen", opis: "In Wadi Musa in the evening you prepare a soup, mezze and a main course together with local cooks, and then eat it all at a shared table.", link: "https://petrakitchen.com/" },
+        { ime: "The Al-Khubtha Trail to the Treasury viewpoint", opis: "The steps behind the Royal Tombs lead up to a cliff from which you see the Treasury from above, far from the crowds, and the climb takes about an hour." },
+        { ime: "Little Petra", opis: "About ten kilometers to the north lies Siq al-Barid, a caravan suburb where a rare Nabataean fresco of grapevines and birds survives on the ceiling of one dining hall." }
       ],
       agencije: [
-        { ime: "Visit Petra", opis: "Službena stranica uprave Petre s kartama staza i ulaznicama.", link: "https://visitpetra.jo/en" },
-        { ime: "Jordan Pass", opis: "Službena objedinjena ulaznica za Petru i druge lokalitete.", link: "https://www.jordanpass.jo/" }
+        { ime: "Visit Petra", opis: "The official website of the Petra authority, with trail maps and tickets.", link: "https://visitpetra.jo/en" },
+        { ime: "Jordan Pass", opis: "The official combined ticket for Petra and other sites.", link: "https://www.jordanpass.jo/" }
       ],
-      kada: "Ožujak do svibnja i listopad do studenoga. Uđite čim se otvore vrata, oko šest ujutro, i predvidite dva dana jer se u jednom stigne samo glavna staza."
+      kada: "March to May and October to November. Go in as soon as the gates open, at around six in the morning, and allow two days, because in one day you will only manage the main trail."
     },
     {
       id: "wadi-rum",
       ime: "Wadi Rum",
       vrsta: "priroda",
-      sazetak: "Pustinjska dolina crvenog pijeska i golemih stijena u kojoj se noći pod beduinskim šatorom.",
-      prica: ["Dolinu su oblikovali vjetar i voda u pješčenjaku i granitu, a ljudi u njoj ostavljaju crteže i natpise već dvanaest tisuća godina. Svijetu ju je približio britanski časnik T. E. Lawrence, koji je ovuda prolazio s arapskim ustanicima protiv Osmanlija 1917. i 1918. UNESCO je 2011. zaštitio Wadi Rum i kao prirodnu i kao kulturnu baštinu, a o njemu se i danas brinu beduini iz plemena Zalabia."],
+      sazetak: "A desert valley of red sand and colossal rock formations, where you spend the night in a Bedouin tent.",
+      prica: ["The valley was shaped by wind and water in sandstone and granite, and people have been leaving drawings and inscriptions in it for twelve thousand years. It was brought to the world's attention by the British officer T. E. Lawrence, who passed through here with the Arab rebels fighting the Ottomans in 1917 and 1918. In 2011 UNESCO gave Wadi Rum protection as both natural and cultural heritage, and the Bedouin of the Zalabia tribe still look after it today."],
       vidjeti: [
-        { ime: "Klanac Khazali", opis: "U uskoj pukotini stijene uklesani su ljudski likovi podignutih ruku, kozorozi i otisci stopala, uz natpise na tamudskom i nabatejskom pismu. Bili su to putokazi i poruke karavanama o tome gdje ima vode." },
-        { ime: "Sedam stupova mudrosti", opis: "Stjenoviti masiv kraj centra za posjetitelje dobio je ime tek u novije doba, po Lawrenceovoj knjizi, iako se često misli da je bilo obratno. Pokušajte izbrojiti stupove: vidi ih se pet ili šest, ovisno o tome gdje stojite." },
-        { ime: "Lawrenceov izvor", opis: "Izvor Ain Shalaaleh pod stijenom opisao je Lawrence kao rajsko mjesto, a kraj njega su nabatejski natpisi. Odozgo se pruža širok pogled na dolinu i crne šatore od kozje dlake." },
-        { ime: "Kameni mostovi Umm Fruth i Burdah", opis: "Prirodni lukovi nastali su trošenjem mekšeg sloja stijene. Na Umm Fruth, visok petnaestak metara, možete se popeti uz pomoć vodiča za nekoliko minuta, dok je Burdah ozbiljan cjelodnevni uspon." },
-        { ime: "Crvene dine i noćno nebo", opis: "Pijesak je crven od željeznog oksida, a uz žućkaste dine vidi se granica dviju vrsta stijene. Daleko od svakog grada Mliječni je put ovdje toliko jasan da baca slabu sjenu." }
+        { ime: "Khazali Canyon", opis: "Carved into a narrow fissure in the rock are human figures with raised arms, ibex and footprints, along with inscriptions in the Thamudic and Nabataean scripts. They were signposts and messages to the caravans about where water could be found." },
+        { ime: "The Seven Pillars of Wisdom", opis: "The rocky massif beside the visitor center was given its name only in recent times, after Lawrence's book, although people often assume it was the other way around. Try counting the pillars: you can see five or six, depending on where you stand." },
+        { ime: "Lawrence's Spring", opis: "Lawrence described the spring of Ain Shalaaleh, beneath the cliff, as a paradise, and there are Nabataean inscriptions beside it. From above there is a wide view of the valley and the black goat-hair tents." },
+        { ime: "The Umm Fruth and Burdah rock bridges", opis: "The natural arches were formed by the erosion of a softer layer of rock. With a guide's help you can climb Umm Fruth, which is about fifteen meters high, in a few minutes, while Burdah is a serious full-day ascent." },
+        { ime: "The red dunes and the night sky", opis: "The sand is red from iron oxide, and beside the yellowish dunes you can see the boundary between two kinds of rock. Far from any city, the Milky Way is so clear here that it casts a faint shadow." }
       ],
       jesti: [
-        { ime: "Zarb", opis: "Piletina, janjetina i povrće pečeni u jami pod pijeskom večera su u gotovo svakom kampu." },
-        { ime: "Kruh shrak", opis: "Tanak beduinski kruh peče se na izbočenoj metalnoj ploči saj iznad vatre i jede topao s maslinovim uljem i začinom zaatar." }
+        { ime: "Zarb", opis: "Chicken, lamb and vegetables roasted in a pit beneath the sand are dinner in almost every camp." },
+        { ime: "Shrak bread", opis: "The thin Bedouin bread is baked on a domed metal griddle called a saj over the fire and eaten warm with olive oil and za'atar." }
       ],
       dozivjeti: [
-        { ime: "Vožnja džipom i noćenje u kampu", opis: "Beduinski vodiči voze goste otvorenim terencima od klanca do klanca, a navečer slijede zarb, čaj i pjesma uz vatru. Wadi Rum Nomads jedan je od kampova koje vode lokalne obitelji.", link: "https://www.wadirumnomads.com/" },
-        { ime: "Izlazak sunca na devi", opis: "Sat jahanja u tišini prije svitanja pokazuje zašto beduini devu zovu darom Božjim, a stijene u to doba mijenjaju boju iz minute u minutu." }
+        { ime: "A jeep ride and a night in a camp", opis: "Bedouin guides drive guests in open 4x4s from canyon to canyon, and in the evening come the zarb, tea and songs around the fire. Wadi Rum Nomads is one of the camps run by local families.", link: "https://www.wadirumnomads.com/" },
+        { ime: "Sunrise on a camel", opis: "An hour of riding in silence before dawn shows why the Bedouin call the camel a gift from God, and at that hour the rocks change color from one minute to the next." }
       ],
       agencije: [
-        { ime: "Jordan Tourism Board", opis: "Službena turistička zajednica Jordana s informacijama o zaštićenom području Wadi Rum.", link: "https://international.visitjordan.com/" },
-        { ime: "Jordan Trail", opis: "Udruga koja održava pješački put kroz cijelu zemlju, uključujući dionice kroz Wadi Rum.", link: "https://www.jordantrail.org/" }
+        { ime: "Jordan Tourism Board", opis: "Jordan's official tourism board, with information on the Wadi Rum Protected Area.", link: "https://international.visitjordan.com/" },
+        { ime: "Jordan Trail", opis: "The association that maintains the hiking route across the whole country, including the sections through Wadi Rum.", link: "https://www.jordantrail.org/" }
       ],
-      kada: "Proljeće i jesen. Noći su hladne čak i u travnju, pa ponesite toplu odjeću, a kamp rezervirajte izravno kod beduinske obitelji u selu Rum."
+      kada: "Spring and fall. The nights are cold even in April, so bring warm clothing, and book your camp directly with a Bedouin family in Rum village."
     },
     {
       id: "amman",
       ime: "Amman",
       vrsta: "grad",
-      sazetak: "Bijeli grad na brežuljcima u kojem rimsko kazalište stoji usred živog središta punog mirisa kave i falafela.",
-      prica: ["Amman je biblijski Rabat Amon, prijestolnica Amonaca, a u helenističko doba dobio je ime Filadelfija. Nakon potresa i selidbe trgovačkih putova gotovo je opustio, sve dok se 1878. među ruševine nisu naselili Čerkezi izbjegli s Kavkaza. Emir Abdullah učinio ga je 1921. prijestolnicom, a valovi palestinskih, iračkih i sirijskih izbjeglica pretvorili su ga u višemilijunski grad sagrađen od domaćeg bijelog vapnenca."],
+      sazetak: "A white city on hills, where a Roman theater stands in the middle of a lively downtown filled with the aromas of coffee and falafel.",
+      prica: ["Amman is the biblical Rabbath Ammon, capital of the Ammonites, and in the Hellenistic period it was given the name Philadelphia. After earthquakes and the shifting of the trade routes it was almost deserted, until Circassians who had fled the Caucasus settled among the ruins in 1878. Emir Abdullah made it his capital in 1921, and waves of Palestinian, Iraqi and Syrian refugees turned it into a city of several million built of the local white limestone."],
       vidjeti: [
-        { ime: "Citadela (Jabal al-Qal'a)", opis: "Na brdu nad gradom stoje stupovi Herkulova hrama iz 2. stoljeća i omejadska palača iz oko 720. godine. Potražite golemu mramornu šaku: ostatak je kipa koji je, sudeći po njoj, bio viši od dvanaest metara." },
-        { ime: "Rimsko kazalište", opis: "Uklesano u padinu u 2. stoljeću, u doba cara Antonina Pija, prima oko šest tisuća gledatelja i okrenuto je prema sjeveru kako sunce ne bi smetalo publici. Stanite na označeno mjesto u sredini orkestre i progovorite, jer vas se čuje do zadnjeg reda." },
-        { ime: "Jordanski muzej", opis: "Ovdje su kipovi iz Ain Ghazala, oblikovani od vapna i trske prije oko devet tisuća godina, s očima obrubljenima bitumenom. Izložen je i Bakreni svitak s Mrtvog mora, jedini pisan na metalu, koji nabraja skrovišta navodnog blaga." },
-        { ime: "Središte grada (Al-Balad)", opis: "Oko džamije Al-Husseini isprepliću se tržnice zlata, začina, voća i rabljene odjeće. Stube koje se penju prema brežuljcima oslikane su muralima i najbrži su način da osjetite kako je grad građen na strminama." },
-        { ime: "Darat al Funun", opis: "Umjetnička zaklada u tri vile iz dvadesetih godina 20. stoljeća izlaže suvremenu arapsku umjetnost. U vrtu su ostaci bizantske crkve iz 6. stoljeća, a s terase se pruža jedan od najljepših pogleda na stari grad." }
+        { ime: "The Citadel (Jabal al-Qal'a)", opis: "On the hill above the city stand the columns of the Temple of Hercules from the 2nd century and an Umayyad palace from around the year 720. Look for the enormous marble hand: it is what remains of a statue which, judging by it, stood more than twelve meters tall." },
+        { ime: "Roman Theater", opis: "Cut into the hillside in the 2nd century, in the reign of Emperor Antoninus Pius, it seats about six thousand spectators and faces north so that the sun would not bother the audience. Stand on the marked spot in the middle of the orchestra and speak, because you can be heard all the way to the last row." },
+        { ime: "Jordan Museum", opis: "This is the home of the statues from Ain Ghazal, modeled from lime plaster and reeds around nine thousand years ago, with eyes outlined in bitumen. Also on display is the Copper Scroll from the Dead Sea, the only one written on metal, which lists the hiding places of a supposed treasure." },
+        { ime: "Downtown (Al-Balad)", opis: "Around the Al-Husseini Mosque, markets for gold, spices, fruit and secondhand clothes are woven together. The stairways that climb toward the hills are painted with murals and are the quickest way to feel how the city was built on steep slopes." },
+        { ime: "Darat al Funun", opis: "An arts foundation housed in three villas from the 1920s exhibits contemporary Arab art. In the garden are the remains of a 6th-century Byzantine church, and the terrace offers one of the most beautiful views of the old city." }
       ],
       jesti: [
-        { ime: "Falafel i humus u središtu", opis: "Restoran Hashem u jednoj uličici središta grada desetljećima poslužuje samo falafel, humus i ful, za plastičnim stolovima i u svako doba dana." },
-        { ime: "Knafeh iz Habibaha", opis: "Pred malom slastičarnicom Habibah u središtu grada uvijek je red, a knafeh se jede stojeći u prolazu." },
-        { ime: "Mansaf", opis: "Najbolje ga je kušati u restoranima tradicionalne kuhinje u središtu i na brežuljku Jabal Amman, gdje se poslužuje na velikom pladnju za dijeljenje." }
+        { ime: "Falafel and hummus downtown", opis: "For decades the Hashem restaurant, in an alley downtown, has served nothing but falafel, hummus and ful, at plastic tables and at any time of day." },
+        { ime: "Knafeh from Habibah", opis: "There is always a line outside the little Habibah pastry shop downtown, and the knafeh is eaten standing in the passageway." },
+        { ime: "Mansaf", opis: "The best places to taste it are the traditional restaurants downtown and on the hill of Jabal Amman, where it is served on a large platter for sharing." }
       ],
       dozivjeti: [
-        { ime: "Kuhanje u Beit Sitti", opis: "U staroj kući na brežuljku Jabal al-Weibdeh žene iz susjedstva uče goste pripremati arapski obrok od četiri slijeda, a ime znači „bakina kuća“.", link: "https://beitsitti.com/" },
-        { ime: "Šetnja ulicom Rainbow i četvrti Weibdeh", opis: "Stare vile, galerije i kafići s terasama pokazuju Amman kakav vole njegovi stanovnici, osobito četvrtkom navečer, uoči vikenda." },
-        { ime: "Posjet zakladi Darat al Funun", opis: "Ulaz je slobodan, a izložbe, knjižnica i koncerti u ruševinama crkve dobar su uvod u suvremenu arapsku kulturu.", link: "https://daratalfunun.org/" }
+        { ime: "Cooking at Beit Sitti", opis: "In an old house on the hill of Jabal al-Weibdeh, women from the neighborhood teach guests to prepare a four-course Arab meal, and the name means 'grandma's house'.", link: "https://beitsitti.com/" },
+        { ime: "A stroll along Rainbow Street and through Weibdeh", opis: "Old villas, galleries and cafés with terraces show the Amman that its residents love, especially on Thursday evenings, on the eve of the weekend." },
+        { ime: "A visit to the Darat al Funun foundation", opis: "Admission is free, and the exhibitions, the library and the concerts in the ruins of the church are a good introduction to contemporary Arab culture.", link: "https://daratalfunun.org/" }
       ],
       agencije: [
-        { ime: "Jordan Tourism Board", opis: "Službena turistička zajednica Jordana.", link: "https://international.visitjordan.com/" },
-        { ime: "The Jordan Museum", opis: "Nacionalni muzej s arheološkom zbirkom i vodstvima.", link: "https://www.jordanmuseum.jo/" }
+        { ime: "Jordan Tourism Board", opis: "Jordan's official tourism board.", link: "https://international.visitjordan.com/" },
+        { ime: "The Jordan Museum", opis: "The national museum, with an archaeological collection and guided tours.", link: "https://www.jordanmuseum.jo/" }
       ],
-      kada: "Proljeće i jesen. Petak je dan odmora pa su tržnice prijepodne mirne, a mnogi su muzeji zatvoreni utorkom ili petkom."
+      kada: "Spring and fall. Friday is the day of rest, so the markets are quiet in the morning, and many museums are closed on Tuesdays or Fridays."
     },
     {
       id: "jerash",
       ime: "Jerash",
       vrsta: "gradić",
-      sazetak: "Jedan od najbolje očuvanih rimskih provincijskih gradova na svijetu, sat vožnje sjeverno od Ammana.",
-      prica: ["Antička Gerasa bila je jedan od deset gradova Dekapolisa i obogatila se trgovinom i plodnom zemljom. Vrhunac je doživjela u 2. stoljeću, kada ju je posjetio car Hadrijan, a potres 749. godine zatrpao ju je pijeskom, koji ju je sačuvao do iskapanja u 20. stoljeću. Zbog toga danas hodate izvornim pločnikom između stotina stupova."],
+      sazetak: "One of the best-preserved Roman provincial cities in the world, an hour's drive north of Amman.",
+      prica: ["Ancient Gerasa was one of the ten cities of the Decapolis and grew rich on trade and fertile land. It reached its peak in the 2nd century, when Emperor Hadrian visited it, and the earthquake of 749 buried it in sand, which preserved it until the excavations of the 20th century. That is why today you walk on the original paving between hundreds of columns."],
       vidjeti: [
-        { ime: "Hadrijanov slavoluk", opis: "Podignut je u čast careva posjeta zimi 129. na 130. godinu. Stanovnici su ga postavili daleko izvan zidina jer su planirali proširiti grad do njega, što se nikada nije dogodilo." },
-        { ime: "Ovalni trg", opis: "Trg neobična jajolikog oblika okružen je sa 56 jonskih stupova, a služio je da spoji glavnu ulicu sa Zeusovim hramom koji stoji ukoso. Pločnik je položen u koncentričnim lukovima koji pogled vode prema sredini." },
-        { ime: "Cardo maximus", opis: "Glavna ulica duga osamsto metara još ima izvorne ploče u kojima se jasno vide kolotrazi kola. Okrugli kameni poklopci uz rub vode u kanalizaciju koja je tekla ispod cijele ulice." },
-        { ime: "Artemidin hram", opis: "Hram zaštitnice grada ima korintske stupove visoke oko trinaest metara koji se na vjetru neznatno njišu. Vodiči to pokazuju žlicom ili ključem uglavljenim u pukotinu pri dnu stupa, koji se lagano diže i spušta." },
-        { ime: "Južno kazalište", opis: "Sagrađeno potkraj 1. stoljeća za više od tri tisuće gledatelja, a na donjim redovima još se vide uklesana grčka slova kojima su se označavala sjedala. Jordanski vojni glazbenici ovdje često sviraju gajde, nasljeđe britanske vojske." }
+        { ime: "Hadrian's Arch", opis: "It was built in honor of the emperor's visit in the winter of 129 to 130. The inhabitants placed it far outside the walls because they planned to expand the city out to meet it, which never happened." },
+        { ime: "Oval Plaza", opis: "The plaza, with its unusual egg-like shape, is ringed by 56 Ionic columns, and it served to link the main street with the Temple of Zeus, which stands at an angle. The paving is laid in concentric arcs that draw the eye toward the center." },
+        { ime: "Cardo Maximus", opis: "The main street, eight hundred meters long, still has its original paving slabs, in which the ruts left by cart wheels are clearly visible. The round stone covers along the edge lead down to the sewer that ran beneath the entire street." },
+        { ime: "Temple of Artemis", opis: "The temple of the city's patron goddess has Corinthian columns about thirteen meters tall that sway very slightly in the wind. Guides demonstrate this with a spoon or a key wedged into a crack at the base of a column, which gently rises and falls." },
+        { ime: "South Theater", opis: "It was built toward the end of the 1st century for more than three thousand spectators, and on the lower rows you can still see the carved Greek letters that were used to mark the seats. Jordanian military musicians often play the bagpipes here, a legacy of the British army." }
       ],
       jesti: [
-        { ime: "Mezze i meso s roštilja", opis: "Restorani uz ulaz u nalazište i uz cestu prema Ajlounu poslužuju obilne stolove s hladnim predjelima, kruhom iz peći i ražnjićima." },
-        { ime: "Masline i maslinovo ulje", opis: "Brda oko Jerasha i Ajlouna prekrivena su maslinicima, a domaće ulje i zeleni začin zaatar prodaju se uz cestu." }
+        { ime: "Mezze and grilled meat", opis: "The restaurants by the entrance to the site and along the road to Ajloun serve generous spreads of cold appetizers, bread from the oven and skewers." },
+        { ime: "Olives and olive oil", opis: "The hills around Jerash and Ajloun are covered in olive groves, and homemade oil and green za'atar are sold by the roadside." }
       ],
       dozivjeti: [
-        { ime: "Utvrda u Ajlounu", opis: "Pola sata vožnje dalje stoji utvrda koju je 1184. podigao jedan od Saladinovih vojskovođa radi nadzora križara, a s njezinih se zidina za vedra dana vidi dolina Jordana." },
-        { ime: "Šumski rezervat Ajloun", opis: "Kraljevsko društvo za zaštitu prirode održava staze kroz hrastovu šumu i povezuje goste s radionicama sapuna i kaligrafije koje vode žene iz okolnih sela.", link: "https://www.rscn.org.jo/" }
+        { ime: "Ajloun Castle", opis: "Half an hour's drive farther on stands the castle that one of Saladin's generals built in 1184 to keep watch on the Crusaders, and from its walls on a clear day you can see the Jordan Valley." },
+        { ime: "Ajloun Forest Reserve", opis: "The Royal Society for the Conservation of Nature maintains trails through the oak forest and connects guests with soap-making and calligraphy workshops run by women from the surrounding villages.", link: "https://www.rscn.org.jo/" }
       ],
       agencije: [
-        { ime: "Jordan Tourism Board", opis: "Službena turistička zajednica Jordana s vodičem kroz Jerash.", link: "https://international.visitjordan.com/" }
+        { ime: "Jordan Tourism Board", opis: "Jordan's official tourism board, with a guide to Jerash.", link: "https://international.visitjordan.com/" }
       ],
-      kada: "Proljeće, kada između stupova cvjetaju makovi i divlje cvijeće. Dođite pri otvaranju jer hlada gotovo nema, a obilazak traje tri sata."
+      kada: "Spring, when poppies and wildflowers bloom between the columns. Arrive at opening time, because there is almost no shade and the visit takes three hours."
     },
     {
       id: "mrtvo-more-i-akaba",
-      ime: "Mrtvo more i Akaba",
+      ime: "The Dead Sea and Aqaba",
       vrsta: "regija",
-      sazetak: "Od najniže točke na Zemlji, preko mozaika u Madabi, do koraljnih grebena Crvenog mora.",
-      prica: ["Mrtvo more zapravo je jezero bez otjecanja, gotovo deset puta slanije od oceana, a razina mu svake godine pada za otprilike metar. Uz njegovu istočnu obalu vodi Kraljevska cesta, stari karavanski put uz koji leže Madaba, brdo Nebo i mjesto Isusova krštenja. Na jugu zemlja izlazi na more u Akabi, luci koju su arapski ustanici 1917. osvojili s kopna, iz pustinje, odakle ih nitko nije očekivao."],
+      sazetak: "From the lowest point on Earth, by way of the mosaics of Madaba, to the coral reefs of the Red Sea.",
+      prica: ["The Dead Sea is really a lake with no outlet, almost ten times saltier than the ocean, and its level drops by roughly a meter every year. Along its eastern shore runs the King's Highway, an old caravan route lined by Madaba, Mount Nebo and the site of Jesus's baptism. In the south the country reaches the sea at Aqaba, the port that the Arab rebels captured in 1917 from the landward side, out of the desert, where nobody expected them."],
       vidjeti: [
-        { ime: "Mrtvo more", opis: "Voda sadrži oko trideset posto soli, pa tijelo pluta samo od sebe i nemoguće je zaroniti. Na obali potražite bijele kristale soli na kamenju i crno blato bogato mineralima kojim se ljudi mažu još od Kleopatrina doba, kako kaže predaja." },
-        { ime: "Karta iz Madabe", opis: "Na podu grčke pravoslavne crkve svetog Jurja sačuvan je mozaik iz 6. stoljeća, najstarija poznata karta Svete zemlje. U sredini potražite Jeruzalem s glavnom ulicom sa stupovima i crkvom Svetoga groba, te ribu koja u Jordanu pliva natrag, bježeći od slane vode." },
-        { ime: "Brdo Nebo", opis: "Prema Bibliji, Mojsije je odavde vidio Obećanu zemlju u koju nije smio ući. U franjevačkoj bazilici čuva se mozaik iz 530. godine s prizorima lova i pastirima koji vode noja, zebru i devu." },
-        { ime: "Betanija s onu stranu Jordana (Al-Maghtas)", opis: "Arheolozi su devedesetih godina ovdje pronašli ostatke crkava i bazena za krštenje iz rimskog i bizantskog doba, a UNESCO je mjesto zaštitio 2015. Rijeka je danas uska i mutna, pa se na drugoj obali, nekoliko metara dalje, jasno vide hodočasnici s izraelske strane." },
-        { ime: "Akaba i Crveno more", opis: "Uz obalu južno od grada koraljni grebeni počinju već nekoliko metara od plaže. U gradu stoje ostaci ranoislamskog grada Ayle i mamelučka utvrda nad kojom se vijori golema zastava Arapskog ustanka." }
+        { ime: "Dead Sea", opis: "The water contains about thirty percent salt, so the body floats all by itself and diving under is impossible. On the shore, look for the white salt crystals on the rocks and the mineral-rich black mud that people have been smearing on themselves since the time of Cleopatra, as tradition has it." },
+        { ime: "The Madaba Map", opis: "The floor of the Greek Orthodox Church of St. George preserves a 6th-century mosaic, the oldest known map of the Holy Land. In the middle, look for Jerusalem with its colonnaded main street and the Church of the Holy Sepulchre, and for the fish in the Jordan swimming back upstream to escape the salt water." },
+        { ime: "Mount Nebo", opis: "According to the Bible, it was from here that Moses saw the Promised Land, which he was not allowed to enter. The Franciscan basilica holds a mosaic from the year 530 with hunting scenes and herdsmen leading an ostrich, a zebra and a camel." },
+        { ime: "Bethany Beyond the Jordan (Al-Maghtas)", opis: "In the 1990s archaeologists found the remains of churches and baptismal pools from the Roman and Byzantine periods here, and UNESCO gave the site protection in 2015. The river is narrow and muddy today, so on the opposite bank, a few meters away, you can clearly see the pilgrims on the Israeli side." },
+        { ime: "Aqaba and the Red Sea", opis: "Along the coast south of the city, the coral reefs begin just a few meters from the beach. In the city stand the remains of the early Islamic town of Ayla and a Mamluk fort above which flies an enormous flag of the Arab Revolt." }
       ],
       jesti: [
-        { ime: "Sayadieh", opis: "Riba s rižom obojenom karameliziranim lukom i začinjenom kuminom specijalitet je Akabe, a poslužuje se s umakom od sezamove paste." },
-        { ime: "Musakhan u Madabi", opis: "Piletina pečena s mnogo luka i kiselkastog začina sumaka na tankom kruhu jede se u obiteljskim restoranima u staroj jezgri Madabe." }
+        { ime: "Sayadieh", opis: "Fish with rice colored by caramelized onions and seasoned with cumin is the specialty of Aqaba, and it is served with a sesame paste sauce." },
+        { ime: "Musakhan in Madaba", opis: "Chicken roasted with plenty of onions and tangy sumac on thin bread is eaten in the family restaurants of Madaba's old center." }
       ],
       dozivjeti: [
-        { ime: "Ronjenje s maskom u morskom parku Akaba", opis: "Na Japanskom vrtu i drugim plažama južno od grada koralji i šarene ribe vide se bez boce i bez broda, a opremu iznajmljuju ronilački centri uz obalu.", link: "https://visitaqaba.com/Default/En" },
-        { ime: "Kanjon Wadi Mujib", opis: "Rijeka se kroz uski klanac slijeva u Mrtvo more, a staza Siq Trail vodi kroz vodu do slapa. Otvorena je u toplom dijelu godine i pod upravom je Kraljevskog društva za zaštitu prirode.", link: "https://www.rscn.org.jo/" },
-        { ime: "Radionice mozaika u Madabi", opis: "U gradu i uz cestu prema brdu Nebo majstori pokazuju kako se kamen reže i slaže, a možete izraditi i mali vlastiti komad." }
+        { ime: "Snorkeling in the Aqaba Marine Park", opis: "At the Japanese Garden and other beaches south of the city you can see corals and colorful fish without a tank and without a boat, and the dive centers along the coast rent out equipment.", link: "https://visitaqaba.com/Default/En" },
+        { ime: "Wadi Mujib canyon", opis: "The river flows through a narrow gorge into the Dead Sea, and the Siq Trail leads through the water to a waterfall. It is open during the warm part of the year and is managed by the Royal Society for the Conservation of Nature.", link: "https://www.rscn.org.jo/" },
+        { ime: "Mosaic workshops in Madaba", opis: "In the town and along the road to Mount Nebo, craftspeople show how the stone is cut and laid, and you can also make a small piece of your own." }
       ],
       agencije: [
-        { ime: "Visit Aqaba", opis: "Službena turistička stranica grada Akabe.", link: "https://visitaqaba.com/Default/En" },
-        { ime: "RSCN", opis: "Kraljevsko društvo za zaštitu prirode, upravlja rezervatima Mujib, Dana i Ajloun.", link: "https://www.rscn.org.jo/" }
+        { ime: "Visit Aqaba", opis: "The official tourism website of the city of Aqaba.", link: "https://visitaqaba.com/Default/En" },
+        { ime: "RSCN", opis: "The Royal Society for the Conservation of Nature, which manages the Mujib, Dana and Ajloun reserves.", link: "https://www.rscn.org.jo/" }
       ],
-      kada: "Mrtvo more i Akaba ugodni su i zimi, kada je drugdje hladno. Prije kupanja u Mrtvom moru nemojte se brijati i pazite da voda ne dođe u oči."
+      kada: "The Dead Sea and Aqaba are pleasant in winter too, when it is cold elsewhere. Avoid shaving before you swim in the Dead Sea, and take care to keep the water out of your eyes."
     }
   ],
   izvori: [

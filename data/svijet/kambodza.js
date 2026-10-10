@@ -1,199 +1,199 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["kambodza"] = {
   id: "kambodza",
-  ime: "Kambodža",
-  regija: "Jugoistočna Azija",
-  sazetak: "Zemlja koja je sagradila Angkor, preživjela najmračnije poglavlje 20. stoljeća i dočekuje putnike s osmijehom koji se dugo pamti.",
+  ime: "Cambodia",
+  regija: "Southeast Asia",
+  sazetak: "A country that built Angkor, survived the darkest chapter of the 20th century and welcomes travelers with a smile you will remember for a long time.",
   uvod: [
-    "Kambodža je nasljednica Kmerskog Carstva, koje je od 9. do 15. stoljeća vladalo velikim dijelom jugoistočne Azije iz Angkora, grada hramova, kanala i golemih umjetnih jezera. Angkor Wat toliko je važan za identitet zemlje da se nalazi u samom središtu državne zastave.",
-    "Nakon pada Angkora zemlja je stoljećima bila stiješnjena između jačih susjeda, Sijama i Vijetnama, a 1863. postala je francuski protektorat. Neovisnost je stekla 1953. pod kraljem Norodomom Sihanoukom. Zatim je došla tragedija: Crveni Kmeri pod vodstvom Pola Pota vladali su od travnja 1975. do siječnja 1979. i u pokušaju stvaranja seljačke utopije ispraznili gradove, ukinuli novac i škole te prouzročili smrt oko dva milijuna ljudi, otprilike četvrtine stanovništva.",
-    "Današnja Kambodža vrlo je mlada zemlja, jer je većina stanovnika rođena nakon tog razdoblja. Uz hramove ćete ovdje upoznati i naraštaj koji iznova uči plesove, zanate i glazbu što su gotovo nestali zajedno s umjetnicima koji su ih čuvali."
+    "Cambodia is the heir of the Khmer Empire, which from the 9th to the 15th century ruled a large part of Southeast Asia from Angkor, a city of temples, canals and enormous man-made reservoirs. Angkor Wat is so important to the country's identity that it sits at the very center of the national flag.",
+    "After the fall of Angkor the country spent centuries squeezed between stronger neighbors, Siam and Vietnam, and in 1863 it became a French protectorate. It gained independence in 1953 under King Norodom Sihanouk. Then came tragedy: the Khmer Rouge, led by Pol Pot, ruled from April 1975 to January 1979 and, in their attempt to create a peasant utopia, emptied the cities, abolished money and schools and caused the deaths of about two million people, roughly a quarter of the population.",
+    "Today's Cambodia is a very young country, because most of its people were born after that period. Alongside the temples, you will also meet a generation that is relearning the dances, crafts and music that almost vanished together with the artists who kept them alive."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od studenoga do veljače suho je i najmanje vruće. Ožujak, travanj i svibanj vrlo su vrući. Od lipnja do listopada pada kiša, uglavnom poslijepodne, hramovi su zeleni, a posjetitelja je manje." },
-    { k: "Valuta", v: "Kambodžanski rijel (KHR), ali se američki dolari primaju gotovo svugdje i često se u istom računu miješaju obje valute. Dolarske novčanice moraju biti neoštećene, jer se potrgane odbijaju." },
-    { k: "Kretanje", v: "Između gradova voze udobni autobusi i minibusi, a postoje i letovi između Phnom Penha i Siem Reapa. U gradovima se tuk-tuk naručuje aplikacijama Grab i PassApp, s unaprijed poznatom cijenom." },
-    { k: "Napojnica", v: "Nije obvezna, ali su plaće niske, pa se sitna napojnica vozačima, vodičima i osoblju iskreno cijeni." }
+    { k: "When to go", v: "From November to February it is dry and least hot. March, April and May are very hot. From June to October it rains, mostly in the afternoon, the temples are green and there are fewer visitors." },
+    { k: "Currency", v: "The Cambodian riel (KHR), but US dollars are accepted almost everywhere and the two currencies are often mixed in the same bill. Dollar bills must be undamaged, because torn ones are refused." },
+    { k: "Getting around", v: "Comfortable buses and minibuses run between the cities, and there are also flights between Phnom Penh and Siem Reap. In the cities, tuk-tuks are ordered through the Grab and PassApp apps, with the price known in advance." },
+    { k: "Tipping", v: "It is not obligatory, but wages are low, so a small tip for drivers, guides and staff is sincerely appreciated." }
   ],
   hrana: [
-    { ime: "Amok trei", opis: "Riba kuhana na pari u kremastom curryju od kokosova mlijeka i začinske paste kroeung, tradicionalno u košarici od lista banane.", prica: "Smatra se nacionalnim jelom. Blaga je i mirisna, bez ljutine tajlandskog curryja, a gorkast ton daju joj listovi biljke noni. Najbolja je kada je doista kuhana na pari, pa ima čvrstoću nabujka, a nije juha." },
-    { ime: "Lok lak", opis: "Kockice govedine naglo pržene u umaku, poslužene na listovima salate s rajčicom, lukom i pečenim jajetom.", prica: "Ključ je u umaku sa strane: sok limete pomiješan s kampotskim paprom i solju, u koji se umače svaki zalogaj. Jelo je vjerojatno stiglo iz Vijetnama u doba francuske Indokine." },
-    { ime: "Nom banh chok", opis: "Svježi rižini rezanci preliveni zelenim ribljim umakom od limunske trave i kurkume, s gomilom sirovog povrća, cvjetova i bilja.", prica: "Zovu ih kmerskim rezancima i jedu se za doručak. Prodavačice ih nose u košarama na obramnici i slažu zdjelu pred vama. Narodna priča povezuje ih s mudrim Thonom Cheyem, koji ih je navodno odnio čak na kineski dvor." },
-    { ime: "Kuy teav", opis: "Jutarnja juha od svinjskih kostiju s tankim rižinim rezancima, mljevenom svinjetinom, kozicama i prženim češnjakom.", prica: "Donijeli su je kineski doseljenici, a inačica iz Phnom Penha postala je toliko poznata da se u Vijetnamu prodaje pod kmerskim imenom grada. Jede se do devet ujutro, poslije toga lonci su prazni." },
-    { ime: "Bai sach chrouk", opis: "Tanko rezana svinjetina marinirana u kokosovu mlijeku i češnjaku, pečena na žaru i poslužena na riži s ukiseljenim povrćem.", prica: "Najjednostavniji i najomiljeniji kambodžanski doručak, koji se prodaje na uglovima ulica uz zdjelicu bistre juhe. Dim s roštilja u šest ujutro najbolji je putokaz." },
-    { ime: "Prahok", opis: "Fermentirana pasta od riječne ribe, vrlo jakog mirisa, kojom se začinjava velik dio kmerskih jela.", prica: "Zovu ga kmerskim sirom. Nastao je kao način da se golemi ulov iz jezera Tonle Sap sačuva za cijelu godinu. Najlakše ga je kušati kao prahok ktis, umak s mljevenom svinjetinom i kokosovim mlijekom u koji se umače sirovo povrće." },
-    { ime: "Rak s kampotskim paprom", opis: "Plavi rakovi iz Kepa prženi s granama svježeg zelenog papra, češnjakom i mladim lukom.", prica: "Zeleni papar jede se cijeli, zajedno s grozdom, i puca pod zubima. Kampotski papar bio je prvi kambodžanski proizvod sa zaštićenom oznakom zemljopisnog podrijetla, a francuski kuhari cijenili su ga još početkom 20. stoljeća." },
-    { ime: "Teuk ampau", opis: "Svježe cijeđeni sok šećerne trske s ledom i malo limete ili naranče.", prica: "Prodavači stabljike propuštaju kroz valjke na kolicima pred vama. Uz cestu prema hramovima prodaje se i palmin šećer u obliku pločica zamotanih u palmino lišće, dobiven kuhanjem soka šećerne palme, stabla koje je simbol zemlje." }
+    { ime: "Amok trei", opis: "Fish steamed in a creamy curry of coconut milk and kroeung spice paste, traditionally in a little basket made from a banana leaf.", prica: "It is considered the national dish. It is mild and fragrant, without the heat of a Thai curry, and the leaves of the noni plant give it a slightly bitter note. It is at its best when it really has been steamed, so that it has the firmness of a soufflé and is not a soup." },
+    { ime: "Lok lak", opis: "Cubes of beef quickly stir-fried in sauce, served on lettuce leaves with tomato, onion and a fried egg.", prica: "The key is the sauce on the side: lime juice mixed with Kampot pepper and salt, into which you dip every bite. The dish probably arrived from Vietnam in the days of French Indochina." },
+    { ime: "Nom banh chok", opis: "Fresh rice noodles topped with a green fish gravy of lemongrass and turmeric, with a heap of raw vegetables, flowers and herbs.", prica: "They are called Khmer noodles and are eaten for breakfast. Women vendors carry them in baskets on a shoulder pole and assemble your bowl in front of you. A folk tale links them to the wise Thon Chey, who is said to have taken them all the way to the Chinese court." },
+    { ime: "Kuy teav", opis: "A morning pork bone soup with thin rice noodles, minced pork, shrimp and fried garlic.", prica: "It was brought by Chinese immigrants, and the Phnom Penh version became so famous that in Vietnam it is sold under the Khmer name of the city. It is eaten before nine in the morning, and after that the pots are empty." },
+    { ime: "Bai sach chrouk", opis: "Thinly sliced pork marinated in coconut milk and garlic, grilled and served on rice with pickled vegetables.", prica: "The simplest and best loved Cambodian breakfast, sold on street corners with a small bowl of clear broth. The smoke from the grill at six in the morning is the best signpost." },
+    { ime: "Prahok", opis: "A fermented paste of river fish with a very strong smell, used to season a large share of Khmer dishes.", prica: "They call it Khmer cheese. It came about as a way of preserving the enormous catch from Tonle Sap lake for the whole year. The easiest way to try it is as prahok ktis, a dip with minced pork and coconut milk into which you dunk raw vegetables." },
+    { ime: "Crab with Kampot pepper", opis: "Blue crabs from Kep stir-fried with sprigs of fresh green pepper, garlic and scallions.", prica: "The green pepper is eaten whole, on the cluster, and pops between your teeth. Kampot pepper was the first Cambodian product with a protected geographical indication, and French chefs prized it as early as the beginning of the 20th century." },
+    { ime: "Teuk ampau", opis: "Freshly pressed sugarcane juice with ice and a little lime or orange.", prica: "Vendors feed the stalks through rollers on a cart in front of you. Along the road to the temples you can also buy palm sugar in the form of small disks wrapped in palm leaves, made by boiling down the sap of the sugar palm, the tree that is the symbol of the country." }
   ],
   obicaji: [
-    { ime: "Kraljevski balet, ples apsara", opis: "Dvorski ples u kojem plesačice u zlatnim krunama sporim pokretima i izvijenim prstima pripovijedaju mitove. Svaki položaj ruke ima značenje, a prsti se od djetinjstva istežu da se saviju unatrag. Tijekom vladavine Crvenih Kmera stradala je velika većina plesačica i učitelja, a ples su obnovile malobrojne preživjele. UNESCO ga štiti kao nematerijalnu baštinu.", gdje: "Na zidovima Angkor Wata isklesano je više od 1500 apsara. Uživo ga izvodi udruga Cambodian Living Arts u vrtu Nacionalnog muzeja u Phnom Penhu." },
-    { ime: "Sampeah", opis: "Pozdrav sklopljenim dlanovima uz lagani naklon. Visina dlanova pokazuje poštovanje: pred prsima za vršnjake, pred ustima za starije, pred nosom za roditelje i učitelje, pred čelom za redovnike i kralja.", gdje: "Posvuda. Uzvratite ga s osmijehom, a pred starijima se malo više naklonite." },
-    { ime: "Chaul Chnam Thmey, kmerska Nova godina", opis: "Trodnevno slavlje sredinom travnja, na kraju žetve i prije kiša. Obitelji idu u pagode, grade brežuljke od pijeska, peru kipove Bude mirisnom vodom, a na ulicama se polijeva vodom i posipa puderom.", gdje: "Od 13. ili 14. do 16. travnja, najveće slavlje održava se u Siem Reapu oko hramova Angkora." },
-    { ime: "Bon Om Touk, Festival vode", opis: "Slavi kraj kišne sezone i čudesan trenutak kada rijeka Tonle Sap promijeni smjer i ponovno poteče prema moru. Duge veslačke lađe s više desetaka veslača utrkuju se pred kraljevskom palačom.", gdje: "U Phnom Penhu na rijeci, za punog mjeseca u studenome." },
-    { ime: "Pchum Ben", opis: "Petnaest dana u kojima Kambodžani hranom daruju redovnike u ime preminulih predaka do sedmog koljena. Vjeruje se da se tada otvaraju vrata podzemlja i da gladni duhovi traže svoju rodbinu, pa se u zoru oko hramova bacaju kuglice riže.", gdje: "U svim pagodama, u rujnu ili listopadu." },
-    { ime: "Krama", opis: "Kockasti pamučni šal, najčešće crveno-bijeli ili plavo-bijeli, koji služi kao zaštita od sunca, ručnik, torba, nosiljka za dijete i pojas. Prepoznatljiv je znak Kmera i nose ga svi, od seljaka do ministara.", gdje: "Kupuje se na svakoj tržnici, a tkaju ga u selima oko Phnom Penha i u pokrajini Takeo." },
-    { ime: "Lakhon khol i sbek thom", opis: "Dva stara oblika kazališta: prvi je plesna drama pod maskama koju izvode samo muškarci, a drugi kazalište sjena s golemim kožnim pločama visokima do dva metra, koje se nose pred platnom osvijetljenim vatrom. Oba prikazuju Reamker, kmersku verziju Ramayane.", gdje: "Predstave povremeno organiziraju Cambodian Living Arts u Phnom Penhu i umjetničke udruge u Siem Reapu." }
+    { ime: "Royal Ballet, the dance of the apsaras", opis: "A court dance in which dancers in golden crowns tell myths through slow movements and curved fingers. Every hand position has a meaning, and the fingers are stretched from childhood so that they bend backward. The great majority of dancers and teachers perished during the rule of the Khmer Rouge, and the dance was revived by the few who survived. UNESCO protects it as intangible heritage.", gdje: "More than 1,500 apsaras are carved on the walls of Angkor Wat. The association Cambodian Living Arts performs it live in the garden of the National Museum in Phnom Penh." },
+    { ime: "Sampeah", opis: "A greeting with the palms pressed together and a slight bow. The height of the palms shows respect: in front of the chest for peers, in front of the mouth for elders, in front of the nose for parents and teachers, in front of the forehead for monks and the king.", gdje: "Everywhere. Return it with a smile, and bow a little lower before older people." },
+    { ime: "Chaul Chnam Thmey, Khmer New Year", opis: "A three-day celebration in mid-April, at the end of the harvest and before the rains. Families go to the pagodas, build mounds of sand and wash Buddha statues with scented water, and in the streets people douse each other with water and dust each other with powder.", gdje: "From April 13 or 14 to 16, with the biggest celebration held in Siem Reap around the temples of Angkor." },
+    { ime: "Bon Om Touk, the Water Festival", opis: "It celebrates the end of the rainy season and the miraculous moment when the Tonle Sap river changes direction and flows toward the sea again. Long racing boats with dozens of rowers compete in front of the Royal Palace.", gdje: "In Phnom Penh on the river, at the full moon in November." },
+    { ime: "Pchum Ben", opis: "Fifteen days during which Cambodians offer food to the monks on behalf of their deceased ancestors, going back seven generations. It is believed that the gates of the underworld open then and that hungry ghosts look for their relatives, so at dawn rice balls are thrown around the temples.", gdje: "In all the pagodas, in September or October." },
+    { ime: "Krama", opis: "A checked cotton scarf, most often red and white or blue and white, which serves as sun protection, a towel, a bag, a baby sling and a belt. It is the distinctive mark of the Khmer and everyone wears it, from farmers to ministers.", gdje: "You can buy one at any market, and they are woven in the villages around Phnom Penh and in Takeo province." },
+    { ime: "Lakhon khol and sbek thom", opis: "Two old forms of theater: the first is a masked dance drama performed only by men, and the second is a shadow theater with huge leather panels up to two meters tall, carried in front of a screen lit by fire. Both present the Reamker, the Khmer version of the Ramayana.", gdje: "Performances are occasionally organized by Cambodian Living Arts in Phnom Penh and by arts associations in Siem Reap." }
   ],
   fraze: [
-    { izvorno: "Suosdei", izgovor: "suos-DAJ", hr: "Bok, zdravo" },
-    { izvorno: "Chum reap suor", izgovor: "džum riap SUA", hr: "Dobar dan (uljudno)" },
-    { izvorno: "Arkun", izgovor: "o-KUN", hr: "Hvala" },
-    { izvorno: "Som toh", izgovor: "som TO", hr: "Oprostite" },
-    { izvorno: "Chaa / Ot te", izgovor: "DŽA / ot TE", hr: "Da (kaže žena) / Ne" },
-    { izvorno: "Thlai ponman?", izgovor: "tlaj pon-MAN", hr: "Koliko košta?" },
-    { izvorno: "Chhnganh nah", izgovor: "čnganj NA", hr: "Jako ukusno" },
-    { izvorno: "Lia sin haey", izgovor: "lia sin HAJ", hr: "Doviđenja" }
+    { izvorno: "Suosdei", izgovor: "soo-oss-DAY", hr: "Hi, hello" },
+    { izvorno: "Chum reap suor", izgovor: "joom ree-up SOO-uh", hr: "Hello (polite)" },
+    { izvorno: "Arkun", izgovor: "aw-KOON", hr: "Thank you" },
+    { izvorno: "Som toh", izgovor: "sohm TOH", hr: "Excuse me, sorry" },
+    { izvorno: "Chaa / Ot te", izgovor: "JAH / ot TEH", hr: "Yes (said by a woman) / No" },
+    { izvorno: "Thlai ponman?", izgovor: "tlai pon-MAHN", hr: "How much does it cost?" },
+    { izvorno: "Chhnganh nah", izgovor: "chngahn NAH", hr: "Very tasty" },
+    { izvorno: "Lia sin haey", izgovor: "lee-uh sin HAI", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Rijeka Tonle Sap dvaput godišnje mijenja smjer toka. U kišnoj sezoni nabujali Mekong gura vodu uzvodno, pa se jezero Tonle Sap poveća nekoliko puta.",
-    "Kmerska abeceda ima 74 slova i smatra se jednom od najduljih na svijetu.",
-    "U gradiću Skuonu pržene tarantule prodaju se kao zalogaj uz cestu. Navika potječe iz godina gladi pod Crvenim Kmerima.",
-    "Zastava Kambodže jedna je od vrlo rijetkih državnih zastava na kojima je prikazana stvarna građevina, hram Angkor Wat.",
-    "Rođendani se tradicionalno nisu slavili, pa mnogi stariji Kambodžani ne znaju točan datum svojeg rođenja.",
-    "Divovski afrički štakori u Siem Reapu dresirani su da njuhom pronalaze zaostale nagazne mine i dovoljno su lagani da ih ne aktiviraju."
+    "The Tonle Sap river changes the direction of its flow twice a year. In the rainy season the swollen Mekong pushes water upstream, so that Tonle Sap lake grows to several times its size.",
+    "The Khmer alphabet has 74 letters and is considered one of the longest in the world.",
+    "In the small town of Skuon, fried tarantulas are sold as a roadside snack. The habit dates back to the years of hunger under the Khmer Rouge.",
+    "The flag of Cambodia is one of the very few national flags that depict a real building, the temple of Angkor Wat.",
+    "Birthdays were not traditionally celebrated, so many older Cambodians do not know the exact date of their birth.",
+    "Giant African rats in Siem Reap are trained to sniff out leftover landmines and are light enough not to set them off."
   ],
   mjesta: [
     {
       id: "siem-reap-angkor",
-      ime: "Siem Reap i Angkor",
+      ime: "Siem Reap and Angkor",
       vrsta: "grad",
-      sazetak: "Vrata prema Angkoru, najvećem hramskom gradu na svijetu, gdje se kameni tornjevi dižu iz džungle, a lica kraljeva smiješe se sa svih strana.",
+      sazetak: "The gateway to Angkor, the largest temple city in the world, where stone towers rise out of the jungle and the faces of kings smile from every side.",
       prica: [
-        "Kralj Jayavarman II. proglasio se 802. godine vladarom svijeta na planini Kulen i time utemeljio Kmersko Carstvo. Njegovi su nasljednici sljedećih šest stoljeća gradili prijestolnice jednu do druge, svaku s hramom planinom koji predstavlja mitsku goru Meru, dom bogova. Istraživanja laserom iz zraka pokazala su da je Angkor na vrhuncu bio golem grad niske gustoće, s mrežom kanala i cesta, kakvom u predindustrijskom svijetu nije bilo premca.",
-        "Nakon sijamskog osvajanja 1431. dvor se preselio na jug, a džungla je progutala većinu hramova, osim Angkor Wata u kojem su ostali budistički redovnici. Europu je za njega zainteresirao francuski prirodoslovac Henri Mouhot šezdesetih godina 19. stoljeća. UNESCO je Angkor upisao na popis svjetske baštine 1992. godine."
+        "In the year 802 King Jayavarman II declared himself universal monarch on Mount Kulen and so founded the Khmer Empire. Over the next six centuries his successors built capitals one beside another, each with a temple mountain representing the mythical Mount Meru, the home of the gods. Airborne laser surveys have shown that at its peak Angkor was a vast, low-density city with a network of canals and roads that had no equal in the pre-industrial world.",
+        "After the Siamese conquest of 1431 the court moved south, and the jungle swallowed most of the temples, except Angkor Wat, where Buddhist monks remained. It was the French naturalist Henri Mouhot who aroused Europe's interest in it in the 1860s. UNESCO inscribed Angkor on the World Heritage List in 1992."
       ],
       vidjeti: [
-        { ime: "Angkor Wat", opis: "Najveći vjerski spomenik na svijetu dao je sagraditi kralj Suryavarman II. u prvoj polovici 12. stoljeća i posvetio ga bogu Višnuu. Neobično je što gleda na zapad, stranu zalaska i smrti, pa se smatra da je zamišljen i kao kraljev mauzolej. U galerijama prizemlja pratite reljef Bućkanje mliječnog mora, na kojem bogovi i demoni povlače golemu zmiju kao uže." },
-        { ime: "Angkor Thom i Bayon", opis: "Utvrđeni grad kralja Jayavarmana VII. s kraja 12. stoljeća ima u središtu hram Bayon, s čijih tornjeva gleda više od dvjesto golemih nasmiješenih lica. I danas se raspravlja prikazuju li bodhisattvu suosjećanja ili samoga kralja. Na vanjskim reljefima potražite prizore svakodnevice: tržnicu, borbu pijetlova i porod." },
-        { ime: "Ta Prohm", opis: "Kralj Jayavarman VII. posvetio je ovaj samostan 1186. svojoj majci. Restauratori su ga namjerno ostavili u zagrljaju džungle, pa korijenje golemih stabala teče preko zidova poput voska. Na jednom dovratku potražite sitni reljef životinje koja neobično podsjeća na stegosaura." },
-        { ime: "Banteay Srei", opis: "Mali hram od ružičastog pješčenjaka iz 967. godine ima najfinije klesarije u cijelom Angkoru, toliko duboke da izgledaju kao rezbarija u drvu. Dao ga je sagraditi dvorski učenjak, a ne kralj, što je u Angkoru prava iznimka. Francuski pisac André Malraux pokušao je 1923. ukrasti četiri njegova reljefa i zbog toga je uhićen." },
-        { ime: "Preah Khan", opis: "Prostrani samostan i sveučilište s kraja 12. stoljeća, s dugim hodnicima kroz koje se vrata nižu u beskraj. Neobična dvokatnica s okruglim stupovima, kakve nema drugdje u Angkoru, podsjeća na grčki hram." },
-        { ime: "Jezero Tonle Sap i selo Kampong Phluk", opis: "Najveće jezero jugoistočne Azije u kišnoj se sezoni poveća nekoliko puta. Kuće u selu stoje na stupovima visokima šest i više metara, pa se u suhoj sezoni do vrata penje ljestvama, a u kišnoj se pred prag dolazi čamcem." }
+        { ime: "Angkor Wat", opis: "The largest religious monument in the world was built by King Suryavarman II in the first half of the 12th century and dedicated to the god Vishnu. Unusually, it faces west, the direction of sunset and death, so it is thought to have been conceived as the king's mausoleum as well. In the ground-floor galleries, follow the relief of the Churning of the Ocean of Milk, in which gods and demons pull on a giant serpent like a rope." },
+        { ime: "Angkor Thom and the Bayon", opis: "King Jayavarman VII's fortified city from the late 12th century has at its center the Bayon temple, from whose towers more than two hundred huge smiling faces look out. It is still debated today whether they show the bodhisattva of compassion or the king himself. On the outer reliefs, look for scenes of everyday life: a market, a cockfight and a birth." },
+        { ime: "Ta Prohm", opis: "King Jayavarman VII dedicated this monastery to his mother in 1186. The restorers deliberately left it in the embrace of the jungle, so the roots of giant trees flow over the walls like wax. On one doorjamb, look for the tiny relief of an animal that bears an odd resemblance to a stegosaurus." },
+        { ime: "Banteay Srei", opis: "The small temple of pink sandstone from the year 967 has the finest carvings in all of Angkor, so deep that they look like woodcarving. It was commissioned by a court scholar rather than a king, which is a real exception at Angkor. In 1923 the French writer André Malraux tried to steal four of its reliefs and was arrested for it." },
+        { ime: "Preah Khan", opis: "A sprawling monastery and university from the late 12th century, with long corridors through which the doorways line up into infinity. An unusual two-story building with round columns, unlike anything else at Angkor, recalls a Greek temple." },
+        { ime: "Tonle Sap lake and the village of Kampong Phluk", opis: "The largest lake in Southeast Asia grows to several times its size in the rainy season. The houses in the village stand on stilts six meters high and more, so in the dry season you climb a ladder to the door, and in the rainy season you arrive at the doorstep by boat." }
       ],
       jesti: [
-        { ime: "Amok trei", opis: "Riba iz jezera Tonle Sap kuhana na pari u kokosovu curryju u Siem Reapu je na svakom jelovniku, a vrijedi potražiti restoran koji je priprema u listu banane." },
-        { ime: "Nom banh chok iz sela Preah Dak", opis: "Na putu prema Banteay Sreiju selo je poznato po rezancima koji se rade ručno, a jedu se na štandovima uz cestu s ribljim umakom." },
-        { ime: "Palmin šećer", opis: "Uz cestu sjeverno od hramova obitelji u velikim kotlovima kuhaju sok šećerne palme i daju posjetiteljima da kušaju još topao." }
+        { ime: "Amok trei", opis: "Fish from Tonle Sap lake steamed in coconut curry is on every menu in Siem Reap, and it is worth seeking out a restaurant that prepares it in a banana leaf." },
+        { ime: "Nom banh chok from the village of Preah Dak", opis: "On the way to Banteay Srei, this village is known for its handmade noodles, which are eaten with fish gravy at roadside stalls." },
+        { ime: "Palm sugar", opis: "Along the road north of the temples, families boil sugar palm sap in large cauldrons and let visitors taste it while it is still warm." }
       ],
       dozivjeti: [
-        { ime: "Večer u cirkusu Phare", opis: "Mladi akrobati školovani u umjetničkoj školi u Battambangu spajaju akrobatiku, kazalište i živu glazbu u priče o kambodžanskoj povijesti i svakodnevici. Prihod financira školovanje djece iz siromašnih obitelji.", link: "https://pharecircus.org/" },
-        { ime: "Radionice Artisans Angkor", opis: "U radionicama u središtu grada mladi iz sela uče klesanje kamena, rezbarenje, lakiranje i tkanje svile, a posjetitelji besplatno gledaju cijeli postupak.", link: "https://artisansangkor.com/" },
-        { ime: "Gastronomska tura po tržnicama i selima", opis: "Siem Reap Food Tours vodi u jutarnje tržnice i večernje ulične zalogajnice, uz objašnjenja sastojaka koje inače ne biste prepoznale.", link: "https://www.siemreapfoodtours.com/" }
+        { ime: "An evening at the Phare circus", opis: "Young acrobats trained at an arts school in Battambang combine acrobatics, theater and live music into stories about Cambodian history and everyday life. The proceeds fund the education of children from poor families.", link: "https://pharecircus.org/" },
+        { ime: "The Artisans Angkor workshops", opis: "In the workshops in the center of town, young people from the villages learn stone carving, woodcarving, lacquering and silk weaving, and visitors can watch the whole process for free.", link: "https://artisansangkor.com/" },
+        { ime: "A food tour of markets and villages", opis: "Siem Reap Food Tours takes you to morning markets and evening street food spots, explaining ingredients that you would otherwise not recognize.", link: "https://www.siemreapfoodtours.com/" }
       ],
       agencije: [
-        { ime: "Angkor Enterprise", opis: "Službena državna prodaja ulaznica za arheološki park Angkor, s pravilima posjeta.", link: "https://www.angkorenterprise.gov.kh/" },
-        { ime: "Tourism Cambodia", opis: "Turistički portal Kambodže s vodičima po pokrajinama.", link: "https://www.tourismcambodia.org/" },
-        { ime: "Siem Reap Food Tours", opis: "Lokalni organizator gastronomskih tura u malim skupinama.", link: "https://www.siemreapfoodtours.com/" }
+        { ime: "Angkor Enterprise", opis: "The official state ticket office for the Angkor Archaeological Park, with the visiting rules.", link: "https://www.angkorenterprise.gov.kh/" },
+        { ime: "Tourism Cambodia", opis: "Cambodia's tourism portal, with guides to the provinces.", link: "https://www.tourismcambodia.org/" },
+        { ime: "Siem Reap Food Tours", opis: "A local organizer of small-group food tours.", link: "https://www.siemreapfoodtours.com/" }
       ],
-      kada: "Od studenoga do veljače. Ulaznice se kupuju za jedan, tri ili sedam dana, a tri dana prava su mjera. Ramena i koljena moraju biti pokriveni, a najvišoj razini Angkor Wata pristup je ograničen na budističke blagdane."
+      kada: "From November to February. Tickets are sold for one, three or seven days, and three days is just the right amount. Shoulders and knees must be covered, and access to the top level of Angkor Wat is restricted on Buddhist holy days."
     },
     {
       id: "phnom-penh",
       ime: "Phnom Penh",
       vrsta: "grad",
-      sazetak: "Prijestolnica na sutoci triju rijeka, u kojoj zlatni krovovi kraljevske palače stoje nedaleko od mjesta sjećanja na Crvene Kmere.",
+      sazetak: "A capital at the confluence of three rivers, where the golden roofs of the Royal Palace stand not far from the places that remember the Khmer Rouge.",
       prica: [
-        "Legenda kaže da je 1372. godine udovica Penh u nabujaloj rijeci našla deblo s četiri Budina kipa i za njih dala nasuti brežuljak s hramom. Tako je nastalo ime grada: Phnom Penh znači „Penhin brijeg“. Prijestolnicom je trajno postao 1866. za kralja Norodoma, a Francuzi su ga uredili s bulevarima i vilama, pa su ga zvali Biserom Azije.",
-        "Crveni Kmeri ušli su u grad 17. travnja 1975. i u nekoliko dana istjerali svih dva milijuna stanovnika na polja. Grad je gotovo četiri godine stajao prazan. Šezdesetih godina, prije te tragedije, arhitekt Vann Molyvann ostavio je niz smjelih modernističkih zgrada koje se danas ponovno otkrivaju."
+        "Legend has it that in 1372 a widow named Penh found a tree trunk in the swollen river with four Buddha statues inside and had a hill raised with a temple to house them. That is how the city got its name: Phnom Penh means “Penh's hill”. It became the permanent capital in 1866 under King Norodom, and the French laid it out with boulevards and villas, which earned it the name the Pearl of Asia.",
+        "The Khmer Rouge entered the city on April 17, 1975 and within a few days drove all two million inhabitants out into the fields. The city stood empty for almost four years. In the 1960s, before that tragedy, the architect Vann Molyvann left behind a series of bold modernist buildings that are being rediscovered today."
       ],
       vidjeti: [
-        { ime: "Kraljevska palača i Srebrna pagoda", opis: "Palača je građena od 1866. i kralj u njoj i danas živi: kada je plava zastava podignuta, kod kuće je. Pod Srebrne pagode popločen je s više od pet tisuća srebrnih ploča, svaka teška oko kilogram, od kojih je većina zaštićena tepisima. U sredini stoje Buda od kristala i zlatni Buda optočen tisućama dijamanata." },
-        { ime: "Nacionalni muzej", opis: "Zgrada boje terakote, građena od 1917. do 1920. u tradicionalnom kmerskom stilu, čuva najvrednije skulpture iz Angkora. Potražite sjedećeg kralja Jayavarmana VII. u meditaciji, sklopljenih očiju, jedno od najsmirenijih lica kmerske umjetnosti." },
-        { ime: "Muzej genocida Tuol Sleng", opis: "Crveni Kmeri pretvorili su gimnaziju u zatvor S-21, kroz koji je prošlo najmanje 14.000 ljudi, a preživjela ih je tek šačica. Učionice su ostale kakve su zatečene, a zidove prekrivaju fotografije koje su stražari snimali pri dolasku svakog zatvorenika. Posjet je težak, ali bez njega se današnja Kambodža ne može razumjeti. Mjesto je 2025. upisano na UNESCO-ov popis svjetske baštine." },
-        { ime: "Choeung Ek, Polja smrti", opis: "Petnaestak kilometara od grada, u nekadašnjem voćnjaku, pogubljeni su zatvorenici iz Tuol Slenga. U spomen-stupi iza stakla složeno je više tisuća lubanja. Audiovodič sa svjedočenjima preživjelih i stražara vodi vas tiho, vlastitim tempom, i jedan je od najboljih takve vrste." },
-        { ime: "Wat Phnom", opis: "Hram na jedinom brežuljku u gradu, visokom 27 metara, nastavlja priču o gospođi Penh, čiji se nasmiješeni kip nalazi u malom svetištu iza glavne dvorane. Mještani ovamo dolaze moliti za sreću na ispitima i u poslu." },
-        { ime: "Središnja tržnica Psar Thmei", opis: "Žuta zgrada u stilu art décoa iz 1937. godine ima golemu kupolu od koje se granaju četiri krila. Pod kupolom je hladnije nego vani zahvaljujući promišljenim otvorima za zrak, a ondje se prodaju zlato i satovi." }
+        { ime: "Royal Palace and the Silver Pagoda", opis: "The palace has been under construction since 1866 and the king still lives in it today: when the blue flag is raised, he is at home. The floor of the Silver Pagoda is paved with more than five thousand silver tiles, each weighing about a kilogram, most of them protected by carpets. In the center stand a crystal Buddha and a golden Buddha set with thousands of diamonds." },
+        { ime: "National Museum", opis: "The terracotta-colored building, built between 1917 and 1920 in traditional Khmer style, holds the most precious sculptures from Angkor. Look for the seated King Jayavarman VII in meditation, his eyes closed, one of the most serene faces in Khmer art." },
+        { ime: "Tuol Sleng Genocide Museum", opis: "The Khmer Rouge turned a high school into the S-21 prison, through which at least 14,000 people passed and which only a handful survived. The classrooms have been left as they were found, and the walls are covered with the photographs the guards took of every prisoner on arrival. The visit is hard, but today's Cambodia cannot be understood without it. The site was inscribed on the UNESCO World Heritage List in 2025." },
+        { ime: "Choeung Ek, the Killing Fields", opis: "About fifteen kilometers from the city, in a former orchard, the prisoners from Tuol Sleng were executed. In the memorial stupa, several thousand skulls are arranged behind glass. The audio guide, with testimonies from survivors and guards, leads you quietly at your own pace and is one of the best of its kind." },
+        { ime: "Wat Phnom", opis: "The temple on the only hill in the city, 27 meters high, continues the story of Lady Penh, whose smiling statue is in a small shrine behind the main hall. Locals come here to pray for luck in exams and in business." },
+        { ime: "Central Market, Psar Thmei", opis: "The yellow Art Deco building from 1937 has an enormous dome from which four wings branch out. Under the dome it is cooler than outside thanks to cleverly designed air vents, and that is where gold and watches are sold." }
       ],
       jesti: [
-        { ime: "Kuy teav Phnom Penh", opis: "Gradska juha s rezancima, svinjetinom, iznutricama i kozicama jede se rano ujutro u zalogajnicama oko tržnica." },
-        { ime: "Num pang", opis: "Kambodžanski sendvič u bagetu s paštetom, svinjetinom, ukiseljenom papajom i čilijem, nasljeđe francuskog doba." },
-        { ime: "Riba s rijeke na žaru", opis: "Uz obalu se navečer peče cijela riječna riba punjena limunskom travom i jede s umakom od zelenog manga." }
+        { ime: "Kuy teav Phnom Penh", opis: "The city's noodle soup with pork, offal and shrimp is eaten early in the morning in the eateries around the markets." },
+        { ime: "Num pang", opis: "The Cambodian sandwich in a baguette with pâté, pork, pickled papaya and chili, a legacy of the French era." },
+        { ime: "Grilled river fish", opis: "In the evening along the riverfront, whole river fish stuffed with lemongrass is grilled and eaten with a green mango sauce." }
       ],
       dozivjeti: [
-        { ime: "Predstava tradicionalnog plesa", opis: "Udruga Cambodian Living Arts, koju je osnovao glazbenik koji je preživio režim Crvenih Kmera, izvodi u vrtu Nacionalnog muzeja jednosatni program klasičnih i narodnih plesova.", link: "https://www.cambodianlivingarts.org/" },
-        { ime: "Tura moderne kmerske arhitekture", opis: "Arhitekti i studenti iz udruge KA Tours vode kroz zgrade Vanna Molyvanna i francuske četvrti, pješice ili rikšom ciklo.", link: "https://ka-tours.org/" },
-        { ime: "Ručak s dobrom svrhom", opis: "Organizacija Friends-International vodi restorane u kojima se mladi s ulice školuju za kuhare i konobare.", link: "https://friends-international.org/" },
-        { ime: "Tečaj kmerske kuhinje", opis: "La Table Khmère nudi poludnevne tečajeve na kojima se uči tući začinsku pastu kroeung i pripremati amok.", link: "https://www.phnompenhcookingclass.com/" }
+        { ime: "A traditional dance performance", opis: "The association Cambodian Living Arts, founded by a musician who survived the Khmer Rouge regime, performs a one-hour program of classical and folk dances in the garden of the National Museum.", link: "https://www.cambodianlivingarts.org/" },
+        { ime: "A tour of modern Khmer architecture", opis: "Architects and students from the association KA Tours lead you through Vann Molyvann's buildings and the French quarter, on foot or by cyclo rickshaw.", link: "https://ka-tours.org/" },
+        { ime: "Lunch for a good cause", opis: "The organization Friends-International runs restaurants where young people from the streets train as cooks and waiters.", link: "https://friends-international.org/" },
+        { ime: "A Khmer cooking class", opis: "La Table Khmère offers half-day classes where you learn to pound kroeung spice paste and prepare amok.", link: "https://www.phnompenhcookingclass.com/" }
       ],
       agencije: [
-        { ime: "Tourism Cambodia", opis: "Turistički portal Kambodže s vodičem po prijestolnici.", link: "https://www.tourismcambodia.org/" },
-        { ime: "Muzej genocida Tuol Sleng", opis: "Službena stranica muzeja s podacima o posjetu i audiovodiču.", link: "https://tuolsleng.gov.kh/" },
-        { ime: "KA Tours", opis: "Neprofitne arhitektonske ture koje vode stručnjaci.", link: "https://ka-tours.org/" }
+        { ime: "Tourism Cambodia", opis: "Cambodia's tourism portal, with a guide to the capital.", link: "https://www.tourismcambodia.org/" },
+        { ime: "Tuol Sleng Genocide Museum", opis: "The museum's official website, with information on visits and the audio guide.", link: "https://tuolsleng.gov.kh/" },
+        { ime: "KA Tours", opis: "Nonprofit architecture tours led by experts.", link: "https://ka-tours.org/" }
       ],
-      kada: "Od studenoga do veljače. Tuol Sleng i Choeung Ek obiđite u jednom prijepodnevu, a poslijepodne ostavite za nešto lakše, primjerice šetnju uz rijeku u suton, kada cijeli grad izlazi na obalu."
+      kada: "From November to February. Visit Tuol Sleng and Choeung Ek in a single morning and leave the afternoon for something lighter, for example a walk along the river at dusk, when the whole city comes out onto the waterfront."
     },
     {
       id: "battambang",
       ime: "Battambang",
       vrsta: "grad",
-      sazetak: "Opušteni grad na rijeci s francuskim trgovačkim kućama, umjetničkom školom iz koje je potekao kambodžanski cirkus i selima u kojima se sve radi rukom.",
+      sazetak: "A relaxed riverside city with French shophouses, the arts school that gave rise to Cambodian circus, and villages where everything is made by hand.",
       prica: [
-        "Ime grada znači „izgubljeni štap“ i dolazi iz legende o pastiru Ta Dumbongu, koji je čarobnim štapom osvojio prijestolje i zatim ga izgubio. Njegov golemi crni kip sa štapom u rukama dočekuje vas na ulazu u grad.",
-        "Battambang je više od stoljeća, od 1795. do 1907., bio pod sijamskom vlašću, a zatim je vraćen Kambodži pod Francuzima, koji su uz rijeku Sangker sagradili nizove trgovačkih kuća s arkadama. Okolna ravnica najplodnija je u zemlji, pa pokrajinu zovu zdjelom riže."
+        "The city's name means “lost stick” and comes from the legend of the herdsman Ta Dumbong, who won the throne with a magic stick and then lost it. His huge black statue, stick in hand, greets you at the entrance to the city.",
+        "For more than a century, from 1795 to 1907, Battambang was under Siamese rule, and then it was returned to Cambodia under the French, who built rows of arcaded shophouses along the Sangker river. The surrounding plain is the most fertile in the country, so the province is called the rice bowl."
       ],
       vidjeti: [
-        { ime: "Kolonijalna jezgra uz rijeku", opis: "Tri usporedne ulice uz rijeku čuvaju najcjelovitiji niz francuskih trgovačkih kuća u zemlji, danas pun galerija i kafića. Na južnom kraju stoji guvernerova palača s početka 20. stoljeća, koju je za sijamskog guvernera projektirao talijanski arhitekt." },
-        { ime: "Phnom Sampeau", opis: "Na vapnenačkom brdu nalaze se pagoda i špilje u koje su Crveni Kmeri bacali žrtve, danas mjesto sjećanja sa staklenom kosturnicom. U sumrak iz špilje u podnožju izleti nekoliko milijuna šišmiša u neprekinutoj rijeci koja traje više od pola sata." },
-        { ime: "Wat Banan", opis: "Do pet tornjeva iz 11. stoljeća na vrhu brda vodi 358 strmih stuba omeđenih kamenim zmijama naga. Zbog rasporeda tornjeva zovu ga malim Angkor Watom, a posjetitelja je neusporedivo manje." },
-        { ime: "Vlak od bambusa", opis: "Nakon rata mještani su od bambusove platforme, dviju osovina i malog motora složili vlastito prijevozno sredstvo po zapuštenoj pruzi. Kada se dva vozila sretnu, ono s manje tereta jednostavno se rastavi i makne s tračnica. Danas kratkom dionicom vozi uglavnom posjetitelje." },
-        { ime: "Wat Ek Phnom", opis: "Polusrušeni hram iz 11. stoljeća stoji iza moderne pagode i golemog bijelog Bude. Put do njega vodi kroz sela u kojima se suši rižin papir na bambusovim okvirima." }
+        { ime: "The colonial center by the river", opis: "Three parallel streets along the river preserve the most complete row of French shophouses in the country, now full of galleries and cafés. At the southern end stands the governor's residence from the early 20th century, designed for the Siamese governor by an Italian architect." },
+        { ime: "Phnom Sampeau", opis: "On this limestone hill are a pagoda and the caves into which the Khmer Rouge threw their victims, today a place of remembrance with a glass ossuary. At dusk several million bats fly out of the cave at the foot of the hill in an unbroken stream that lasts more than half an hour." },
+        { ime: "Wat Banan", opis: "The five 11th-century towers on the hilltop are reached by 358 steep steps flanked by stone naga serpents. Because of the arrangement of its towers it is called the little Angkor Wat, and there are incomparably fewer visitors." },
+        { ime: "The bamboo train", opis: "After the war, locals put together their own means of transport on the neglected railway line out of a bamboo platform, two axles and a small engine. When two of them meet, the one with the lighter load is simply taken apart and lifted off the rails. Today it mostly carries visitors along a short stretch." },
+        { ime: "Wat Ek Phnom", opis: "The half-ruined 11th-century temple stands behind a modern pagoda and a huge white Buddha. The road to it leads through villages where rice paper dries on bamboo frames." }
       ],
       jesti: [
-        { ime: "Kralan", opis: "Ljepljiva riža s crnim grahom i kokosovim mlijekom pečena u cijevi bambusa, koja se prodaje uz cestu i guli poput banane." },
-        { ime: "Rižin papir i svježe rolice", opis: "U selima sjeverno od grada obitelji na pari izrađuju tanke listove rižina papira, a uz radionice se prodaju svježe i pržene rolice." },
-        { ime: "Mee kola", opis: "Hladni rižini rezanci sa sojom, kikirikijem, ukiseljenim povrćem i sušenim kozicama, jelo naroda Kola koji je u ovaj kraj stigao iz Burme kopati drago kamenje." }
+        { ime: "Kralan", opis: "Sticky rice with black beans and coconut milk roasted in a bamboo tube, sold by the roadside and peeled like a banana." },
+        { ime: "Rice paper and fresh rolls", opis: "In the villages north of the city, families steam thin sheets of rice paper, and fresh and fried rolls are sold beside the workshops." },
+        { ime: "Mee kola", opis: "Cold rice noodles with soy, peanuts, pickled vegetables and dried shrimp, a dish of the Kola people, who came to this area from Burma to mine gemstones." }
       ],
       dozivjeti: [
-        { ime: "Cirkus u školi Phare Ponleu Selpak", opis: "Umjetničku školu osnovalo je 1994. devetero mladih koji su crtanje naučili u izbjegličkom logoru na tajlandskoj granici. Danas besplatno školuje stotine djece, a predstave se održavaju pod šatorom u krugu škole.", link: "https://phareps.org/" },
-        { ime: "Biciklom kroz sela", opis: "Društveno poduzeće Soksabike vodi poludnevne ture do obitelji koje proizvode rižin papir, rižinu rakiju, sušene banane i prahok, uz pošteno plaćene domaćine.", link: "https://www.soksabike.com/" }
+        { ime: "The circus at the Phare Ponleu Selpak school", opis: "The arts school was founded in 1994 by nine young people who had learned to draw in a refugee camp on the Thai border. Today it educates hundreds of children for free, and the shows are held under a big top on the school grounds.", link: "https://phareps.org/" },
+        { ime: "By bike through the villages", opis: "The social enterprise Soksabike runs half-day tours to families who make rice paper, rice wine, dried bananas and prahok, with fairly paid hosts.", link: "https://www.soksabike.com/" }
       ],
       agencije: [
-        { ime: "Tourism Cambodia", opis: "Turistički portal Kambodže s vodičem po pokrajini Battambang.", link: "https://www.tourismcambodia.org/" },
-        { ime: "Soksabike", opis: "Lokalno društveno poduzeće za biciklističke ture po selima.", link: "https://www.soksabike.com/" },
-        { ime: "Phare Ponleu Selpak", opis: "Umjetnička škola i udruga koja organizira predstave i obilaske škole.", link: "https://phareps.org/" }
+        { ime: "Tourism Cambodia", opis: "Cambodia's tourism portal, with a guide to Battambang province.", link: "https://www.tourismcambodia.org/" },
+        { ime: "Soksabike", opis: "A local social enterprise for cycling tours of the villages.", link: "https://www.soksabike.com/" },
+        { ime: "Phare Ponleu Selpak", opis: "The arts school and association that organizes shows and tours of the school.", link: "https://phareps.org/" }
       ],
-      kada: "Od studenoga do veljače. Na Phnom Sampeau dođite oko pet poslijepodne, obiđite brdo i spustite se do špilje prije sumraka da dočekate šišmiše."
+      kada: "From November to February. Come to Phnom Sampeau at around five in the afternoon, explore the hill and walk down to the cave before dusk to wait for the bats."
     },
     {
       id: "kampot-kep",
-      ime: "Kampot i Kep",
+      ime: "Kampot and Kep",
       vrsta: "regija",
-      sazetak: "Pospani riječni gradić i malo ljetovalište na moru, poznati po najboljem papru na svijetu i rakovima koji se jedu ravno iz mora.",
+      sazetak: "A sleepy little river town and a small seaside resort, known for the best pepper in the world and for crabs eaten straight from the sea.",
       prica: [
-        "Kampot je u francusko doba bio glavna luka Kambodže, a s okolnih brda stizao je papar koji se početkom 20. stoljeća nalazio na stolovima pariških restorana. Crveni Kmeri uništili su nasade jer su htjeli samo rižu, pa se uzgoj obnavlja tek od devedesetih godina, s obiteljima koje su znanje sačuvale.",
-        "Obližnji Kep Francuzi su 1908. osnovali kao ljetovalište Kep-sur-Mer, a šezdesetih godina kambodžanska je elita ovdje gradila modernističke vile. Rat ih je pretvorio u ruševine koje i danas vire iz zelenila."
+        "In French times Kampot was Cambodia's main port, and from the surrounding hills came the pepper that sat on the tables of Parisian restaurants at the beginning of the 20th century. The Khmer Rouge destroyed the plantations because they wanted only rice, so cultivation has been reviving only since the 1990s, with the families who had preserved the knowledge.",
+        "The French founded nearby Kep in 1908 as the resort of Kep-sur-Mer, and in the 1960s the Cambodian elite built modernist villas here. The war turned them into ruins that still peek out of the greenery today."
       ],
       vidjeti: [
-        { ime: "Stari Kampot", opis: "Uz rijeku Praek Tuek Chhu nižu se oronule francuske i kineske trgovačke kuće s kapcima. Na glavnom kružnom toku stoji golemi kip duriana, voća po kojem je kraj jednako poznat kao po papru." },
-        { ime: "Nacionalni park Bokor", opis: "Na visoravni na tisuću metara Francuzi su dvadesetih godina sagradili ljetovalište s hotelom i kockarnicom te katoličkom crkvom. Mjesto je dvaput napušteno i dugo je bilo grad duhova u magli. Godine 1979. vijetnamski vojnici i Crveni Kmeri pucali su jedni na druge između crkve i hotela." },
-        { ime: "Nasadi papra", opis: "Papar raste kao penjačica uz visoke stupove pod sjenilima od palmina lišća. Crni, crveni i bijeli papar dolaze s iste biljke, a razlikuju se po zrelosti i obradi. Na imanjima vam pokažu berbu i ručno probiranje zrna pincetom." },
-        { ime: "Solana kod Kampota", opis: "Na ravnici prema moru morska se voda u suhoj sezoni pušta u plitka polja i isparava, a radnici sol grabe u hrpe i nose u košarama na obramnici. Najljepše je u kasno poslijepodne." },
-        { ime: "Tržnica rakova u Kepu", opis: "Žene do pojasa u moru izvlače košare od bambusa s plavim rakovima koje su držale žive u plićaku. Rak se odabere, kuha odmah na obali i jede pred tržnicom." },
-        { ime: "Otok Koh Tonsay", opis: "Zečji otok udaljen je dvadesetak minuta čamcem od Kepa. Ima plažu s palmama, jednostavne kolibe i ležaljke, a otok se za dva sata može obići pješice." }
+        { ime: "Old Kampot", opis: "Dilapidated French and Chinese shophouses with shutters line the Praek Tuek Chhu river. On the main traffic circle stands a giant statue of a durian, the fruit for which the area is just as famous as for its pepper." },
+        { ime: "Bokor National Park", opis: "On a plateau a thousand meters up, the French built a resort in the 1920s with a hotel and casino and a Catholic church. The place was abandoned twice and for a long time was a ghost town in the mist. In 1979 Vietnamese soldiers and the Khmer Rouge fired at each other between the church and the hotel." },
+        { ime: "Pepper plantations", opis: "Pepper grows as a vine up tall posts under shades of palm leaves. Black, red and white pepper come from the same plant and differ in ripeness and processing. On the farms they show you the harvest and the hand sorting of the peppercorns with tweezers." },
+        { ime: "The salt fields near Kampot", opis: "On the plain toward the sea, seawater is let into shallow fields in the dry season and left to evaporate, and workers rake the salt into heaps and carry it in baskets on a shoulder pole. It is at its most beautiful in the late afternoon." },
+        { ime: "The crab market in Kep", opis: "Women standing waist-deep in the sea pull out bamboo baskets of blue crabs that they have been keeping alive in the shallows. You choose your crab, and it is cooked right there on the shore and eaten in front of the market." },
+        { ime: "Koh Tonsay island", opis: "Rabbit Island is about twenty minutes by boat from Kep. It has a beach with palm trees, simple huts and sun loungers, and you can walk around the island in two hours." }
       ],
       jesti: [
-        { ime: "Rak sa zelenim paprom", opis: "Jelo zbog kojeg se dolazi u Kep: svježi plavi rak pržen s cijelim grozdovima mladog kampotskog papra, u restoranima na stupovima nad morem." },
-        { ime: "Kampotski papar", opis: "Crni je voćan i snažan, crveni sladak, a bijeli nježan. Kupuje se izravno na imanju, vakuumiran, i sjajan je dar." },
-        { ime: "Durian", opis: "Kampotski durian slovi kao najbolji u zemlji, kremast i manje oštrog mirisa. Sezona mu je od travnja do lipnja." }
+        { ime: "Crab with green pepper", opis: "The dish people come to Kep for: fresh blue crab stir-fried with whole clusters of young Kampot pepper, in restaurants on stilts over the sea." },
+        { ime: "Kampot pepper", opis: "The black is fruity and powerful, the red sweet and the white delicate. You buy it directly at the farm, vacuum-packed, and it makes a wonderful gift." },
+        { ime: "Durian", opis: "Kampot durian has a reputation as the best in the country, creamy and with a less pungent smell. Its season runs from April to June." }
       ],
       dozivjeti: [
-        { ime: "Posjet imanju La Plantation", opis: "Obiteljsko imanje s društvenim projektima nudi besplatne vođene obilaske nasada papra, kušanje i tečajeve kuhanja, a do njega vodi zemljana cesta uz Tajno jezero.", link: "https://laplantation.com/" },
-        { ime: "Kafić Epic Arts", opis: "U Kampotu ovaj kafić zapošljava gluhe osobe i osobe s invaliditetom, a prihod podupire umjetničku školu u kojoj nastaju plesne predstave.", link: "https://epicarts.org.uk/" },
-        { ime: "Plovidba rijekom u suton", opis: "Brodice kreću iz središta Kampota prije zalaska sunca, a po mraku se uz obalu u krošnjama pale krijesnice." }
+        { ime: "A visit to La Plantation", opis: "The family farm with social projects offers free guided tours of the pepper plantation, tastings and cooking classes, and a dirt road beside the Secret Lake leads to it.", link: "https://laplantation.com/" },
+        { ime: "Epic Arts Café", opis: "In Kampot, this café employs deaf people and people with disabilities, and the proceeds support an arts school where dance performances are created.", link: "https://epicarts.org.uk/" },
+        { ime: "A river cruise at dusk", opis: "The boats leave from the center of Kampot before sunset, and after dark fireflies light up in the treetops along the bank." }
       ],
       agencije: [
-        { ime: "Tourism Cambodia", opis: "Turistički portal Kambodže s vodičima po pokrajinama Kampot i Kep.", link: "https://www.tourismcambodia.org/" },
-        { ime: "La Plantation", opis: "Imanje papra koje organizira obilaske, kušanja i izlete po okolici.", link: "https://laplantation.com/" }
+        { ime: "Tourism Cambodia", opis: "Cambodia's tourism portal, with guides to Kampot and Kep provinces.", link: "https://www.tourismcambodia.org/" },
+        { ime: "La Plantation", opis: "A pepper farm that organizes tours, tastings and excursions around the area.", link: "https://laplantation.com/" }
       ],
-      kada: "Od studenoga do travnja. Između Kampota i Kepa pola je sata vožnje, pa se oba mogu obići iz jedne baze, a na tržnicu rakova dođite prijepodne, dok je ulov svjež."
+      kada: "From November to April. Kampot and Kep are half an hour's drive apart, so both can be explored from one base, and you should come to the crab market in the morning, while the catch is fresh."
     }
   ],
   izvori: [
     { ime: "UNESCO: Angkor", url: "https://whc.unesco.org/en/list/668" },
     { ime: "Angkor Enterprise", url: "https://www.angkorenterprise.gov.kh/" },
     { ime: "Tourism Cambodia", url: "https://www.tourismcambodia.org/" },
-    { ime: "Muzej genocida Tuol Sleng", url: "https://tuolsleng.gov.kh/" },
-    { ime: "Nacionalni muzej Kambodže", url: "https://www.cambodiamuseum.info/" },
+    { ime: "Tuol Sleng Genocide Museum", url: "https://tuolsleng.gov.kh/" },
+    { ime: "National Museum of Cambodia", url: "https://www.cambodiamuseum.info/" },
     { ime: "Cambodian Living Arts", url: "https://www.cambodianlivingarts.org/" },
     { ime: "Phare Ponleu Selpak", url: "https://phareps.org/" },
   ]

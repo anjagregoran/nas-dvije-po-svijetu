@@ -1,427 +1,427 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["kina"] = {
   id: "kina",
-  ime: "Kina",
-  regija: "Istočna Azija",
-  sazetak: "Civilizacija stara nekoliko tisućljeća u kojoj jedan dan stane između carske palače, ulične tave i vlaka koji juri tristo kilometara na sat.",
+  ime: "China",
+  regija: "East Asia",
+  sazetak: "A civilization several thousand years old, where a single day can hold an imperial palace, a street-side wok and a train racing along at three hundred kilometers an hour.",
   uvod: [
-    "Kina je velika gotovo kao cijela Europa, a pisana joj povijest seže više od tri tisuće godina unatrag. Prvi car Qin Shi Huang ujedinio ju je 221. godine prije Krista, a nakon njega smjenjivale su se dinastije čija ćete imena stalno susretati: Han, Tang, Song, mongolski Yuan, Ming i mandžurski Qing, koji je pao 1912. Narodna Republika proglašena je 1949.",
-    "Ono što zovemo kineskom kuhinjom zapravo je desetak posve različitih kuhinja. Sjever jede pšenicu, rezance i okruglice, jug rižu, Sečuan voli ljuto i papar od kojeg trnu usne, a Kanton paru i blage okuse. Jezika je također mnogo, a povezuje ih zajedničko pismo.",
-    "Putovanje je posljednjih godina postalo znatno jednostavnije, jer brzi vlakovi povezuju gotovo sve veće gradove. Najviše privikavanja traže plaćanje mobitelom i internet, na kojem ne rade mnoge aplikacije na koje ste navikle. Hong Kong i Makao posebna su upravna područja s vlastitom valutom, granicom i pravilima."
+    "China is almost as large as the whole of Europe, and its written history reaches back more than three thousand years. The first emperor, Qin Shi Huang, unified it in 221 BC, and after him came a succession of dynasties whose names you will keep running into: Han, Tang, Song, the Mongol Yuan, Ming and the Manchu Qing, which fell in 1912. The People's Republic was proclaimed in 1949.",
+    "What we call Chinese cuisine is really a dozen or so completely different cuisines. The north eats wheat, noodles and dumplings, the south eats rice, Sichuan loves heat and a pepper that makes your lips tingle, and Canton prefers steaming and mild flavors. There are many languages too, all tied together by a shared script.",
+    "Travel has become much easier in recent years, since high-speed trains now link almost every larger city. What takes the most getting used to is paying by phone and the internet, where many of the apps you rely on do not work. Hong Kong and Macau are special administrative regions with their own currency, border and rules."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Travanj, svibanj, rujan i listopad. Izbjegavajte prvi tjedan listopada i kinesku Novu godinu, krajem siječnja ili u veljači, jer tada putuje cijela zemlja i sve je rasprodano." },
-    { k: "Valuta", v: "Juan (CNY, zovu ga i renminbi). Gotovo se sve plaća mobitelom, aplikacijama Alipay ili WeChat Pay, na koje se može povezati i strana kartica, pa ih postavite prije puta. Hong Kong koristi hongkonški dolar, a Makao patacu." },
-    { k: "Kretanje", v: "Mreža brzih vlakova najveća je na svijetu. Karte se kupuju uz putovnicu, koja ujedno služi kao karta na ulazu u kolodvor. Za grad su najjednostavniji podzemna i taksi naručen aplikacijom." },
-    { k: "Napojnica", v: "U kontinentalnoj Kini ne ostavlja se. U Hong Kongu i Makau restorani obično sami dodaju deset posto za uslugu." },
-    { k: "Ulazak", v: "Hrvatski državljani mogu u kontinentalnu Kinu ući bez vize na najviše 30 dana, prema odluci koja vrijedi do 31. prosinca 2026. Hong Kong i Makao imaju vlastita pravila, a za Tibet je potrebna posebna dozvola i organizirano putovanje. Sve provjerite prije puta na službenim stranicama." },
-    { k: "Internet", v: "Google, Instagram, WhatsApp i mnoge druge stranice u kontinentalnoj Kini ne rade. Putnice najčešće kupuju eSIM s roamingom, koji ih zaobilazi. Preuzmite unaprijed i aplikaciju za prevođenje koja radi bez mreže." }
+    { k: "When to go", v: "April, May, September and October. Avoid the first week of October and Chinese New Year, in late January or in February, because the whole country travels then and everything is sold out." },
+    { k: "Currency", v: "The yuan (CNY, also called the renminbi). Almost everything is paid for by phone, through the Alipay or WeChat Pay apps, which can be linked to a foreign card, so set them up before you travel. Hong Kong uses the Hong Kong dollar and Macau the pataca." },
+    { k: "Getting around", v: "The high-speed rail network is the largest in the world. Tickets are bought with your passport, which also serves as your ticket at the station entrance. In cities, the subway and a taxi ordered through an app are the simplest options." },
+    { k: "Tipping", v: "Tips are not left in mainland China. In Hong Kong and Macau, restaurants usually add a ten percent service charge themselves." },
+    { k: "Entry", v: "Croatian citizens can enter mainland China without a visa for up to 30 days, under a decision valid until December 31, 2026. Hong Kong and Macau have their own rules, and Tibet requires a special permit and an organized trip. Check everything on the official websites before you travel." },
+    { k: "Internet", v: "Google, Instagram, WhatsApp and many other sites do not work in mainland China. Travelers most often buy an eSIM with roaming, which gets around the restrictions. Download a translation app that works offline in advance as well." }
   ],
   hrana: [
-    { ime: "Pekinška patka", opis: "Patka pečena u peći dok koža ne postane tamna i hrskava poput stakla.", prica: "Jelo je s carskog dvora dinastije Ming, a kuhar je reže pred gostima na tanke kriške. Komad kože i mesa umota se u tanku palačinku s mladim lukom, krastavcem i slatkim umakom od fermentiranog graha." },
-    { ime: "Jiaozi", opis: "Okruglice punjene mesom i povrćem, kuhane, parene ili pržene.", prica: "Na sjeveru se jedu za Novu godinu jer oblikom podsjećaju na stare srebrne poluge, pa donose bogatstvo. Obitelj ih slaže zajedno uoči ponoći, a u jednu se ponekad sakrije novčić za sreću." },
-    { ime: "Xiaolongbao", opis: "Sitne parene okruglice u kojima je uz meso i vruća juha.", prica: "Potječu iz Nanxianga kraj Šangaja. Juha je u nadjevu kao hladni žele koji se na pari otopi. Okruglicu stavite na žlicu, zagrizite rupicu, popijte juhu i tek je onda pojedite, jer se inače lako opečete." },
-    { ime: "Mapo tofu", opis: "Mekani tofu u ljutom umaku s mljevenim mesom i sečuanskim paprom.", prica: "Ime znači „tofu kozičave bake“, po gostioničarki iz Chengdua koja ga je, kaže predaja, kuhala u 19. stoljeću. Od sečuanskog papra jezik i usne trnu više nego što peku, a taj se spoj ljutine i trnaca zove mala." },
-    { ime: "Vrući lonac", opis: "Lonac kipuće juhe usred stola u kojem svatko sam kuha meso, povrće i rezance.", prica: "U Chongqingu i Chengduu juha je crvena od čilija i loja, a u Pekingu bistra, za tanko rezanu janjetinu. Lonac podijeljen na ljutu i blagu polovicu zove se „par patki mandarinki“ i spas je za one koji ne jedu ljuto." },
-    { ime: "Dim sum", opis: "Niz malih zalogaja u košaricama od bambusa uz čaj.", prica: "Kantonski običaj koji se zove yum cha, što znači „piti čaj“, jer su zalogaji isprva bili samo pratnja čaju. Jede se prijepodne i u društvu. Kada vam netko natoči čaj, zahvalite kuckanjem s dva prsta po stolu." },
-    { ime: "Lanzhou lamian", opis: "Rezanci koje kuhar pred vama razvlači rukama, u bistroj goveđoj juhi.", prica: "Jelo muslimanskog naroda Hui iz grada Lanzhoua nalazi se u svakom kineskom gradu. Kuhar u pola minute od jednog komada tijesta razvuče desetke tankih niti, a debljinu birate same." },
-    { ime: "Gongbao piletina", opis: "Kockice piletine s kikirikijem i sušenim čilijem, na Zapadu poznata kao kung pao.", prica: "Nazvana je po Dingu Baozhenu, upravitelju Sečuana u 19. stoljeću, čija je počasna titula bila gongbao. Prava je inačica slankasto-kiselkasta, s trncima sečuanskog papra i bez slatkoće na kakvu ste možda navikle." },
-    { ime: "Čaj", opis: "Zeleni, bijeli, oolong, crni i fermentirani pu'er, svi od iste biljke.", prica: "Kina je domovina čaja. Legenda kaže da ga je prije gotovo pet tisuća godina otkrio car Shennong kada mu je list pao u kipuću vodu. Čaj se pije bez šećera i mlijeka, i cijeli se dan dolijeva vruća voda na iste listove." },
-    { ime: "Baijiu", opis: "Bistra žestoka rakija od sirka, često jača od 50 posto.", prica: "Najprodavanije je žestoko piće na svijetu, premda se pije gotovo samo u Kini. Na svečanim večerama nazdravlja se malim čašicama uz poklič „ganbei“, što doslovno znači „suha čaša“." }
+    { ime: "Peking duck", opis: "Duck roasted in an oven until the skin turns dark and as crisp as glass.", prica: "The dish comes from the imperial court of the Ming dynasty, and the chef carves it into thin slices in front of the guests. A piece of skin and meat is wrapped in a thin pancake with scallions, cucumber and a sweet fermented bean sauce." },
+    { ime: "Jiaozi", opis: "Dumplings filled with meat and vegetables, boiled, steamed or fried.", prica: "In the north they are eaten at New Year because their shape recalls old silver ingots, so they bring wealth. The family folds them together before midnight, and a coin is sometimes hidden in one of them for luck." },
+    { ime: "Xiaolongbao", opis: "Small steamed dumplings that hold hot soup along with the meat.", prica: "They come from Nanxiang near Shanghai. The soup goes into the filling as a cold jelly that melts in the steam. Place the dumpling on a spoon, bite a small hole, sip the soup and only then eat it, because otherwise it is easy to burn yourself." },
+    { ime: "Mapo tofu", opis: "Soft tofu in a spicy sauce with minced meat and Sichuan pepper.", prica: "The name means “the pockmarked old woman's tofu”, after an innkeeper from Chengdu who, tradition says, cooked it in the 19th century. Sichuan pepper makes your tongue and lips tingle more than burn, and that blend of heat and numbness is called mala." },
+    { ime: "Hot pot", opis: "A pot of boiling broth in the middle of the table, in which everyone cooks their own meat, vegetables and noodles.", prica: "In Chongqing and Chengdu the broth is red with chili and tallow, while in Beijing it is clear, made for thinly sliced lamb. A pot divided into a spicy half and a mild half is called a “pair of mandarin ducks”, and it is a lifesaver for anyone who does not eat spicy food." },
+    { ime: "Dim sum", opis: "A string of small bites in bamboo baskets, served with tea.", prica: "A Cantonese custom called yum cha, which means “to drink tea”, because the bites were at first only an accompaniment to the tea. It is eaten in the late morning and in company. When someone pours you tea, say thank you by tapping two fingers on the table." },
+    { ime: "Lanzhou lamian", opis: "Noodles that the cook pulls by hand in front of you, served in a clear beef broth.", prica: "This dish of the Muslim Hui people from the city of Lanzhou can be found in every Chinese city. In half a minute the cook stretches a single piece of dough into dozens of thin strands, and you choose the thickness yourself." },
+    { ime: "Gongbao chicken", opis: "Diced chicken with peanuts and dried chili, known in the West as kung pao.", prica: "It is named after Ding Baozhen, a governor of Sichuan in the 19th century, whose honorary title was gongbao. The real version is savory and slightly sour, with the tingle of Sichuan pepper and without the sweetness you may be used to." },
+    { ime: "Tea", opis: "Green, white, oolong, black and fermented pu'er, all from the same plant.", prica: "China is the homeland of tea. Legend says it was discovered almost five thousand years ago by Emperor Shennong, when a leaf fell into his boiling water. Tea is drunk without sugar or milk, and hot water is poured over the same leaves all day long." },
+    { ime: "Baijiu", opis: "A clear, strong sorghum spirit, often above 50 percent alcohol.", prica: "It is the best-selling spirit in the world, even though it is drunk almost only in China. At formal dinners people toast with tiny glasses and the cry “ganbei”, which literally means “dry glass”." }
   ],
   obicaji: [
-    { ime: "Proljetni festival", opis: "Kineska Nova godina najvažniji je blagdan, koji traje petnaest dana. Obitelj se okuplja na večeri uoči Nove godine, djeca dobivaju novac u crvenim omotnicama, a vrata se ukrašavaju crvenim natpisima s dobrim željama. Crvena boja i petarde, prema legendi, tjeraju čudovište Nian.", gdje: "Krajem siječnja ili u veljači, po lunarnom kalendaru. Hramski sajmovi u Pekingu najživlji su tih dana, a slavlje završava Festivalom svjetiljki." },
-    { ime: "Gongfu čaj", opis: "Način pripreme čaja u sitnom čajniku i čašicama veličine naprstka, s mnogo kratkih prelijevanja. Riječ gongfu znači vještina stečena trudom, ista ona koju znamo kao kung fu.", gdje: "Čajane u Hangzhouu, Chengduu i Guangzhouu te sela uz plantaže čaja Longjing kraj Hangzhoua, gdje se u proljeće može sudjelovati u berbi." },
-    { ime: "Pekinška opera", opis: "Spoj pjevanja, glume, akrobatike i borilačkih vještina, u kojem boja maske otkriva narav lika: crvena odanost, bijela prijetvornost, crna poštenje. Od 2010. je na UNESCO-ovu popisu nematerijalne baštine.", gdje: "Kazališta u Pekingu nude skraćene večernje predstave s titlovima na engleskom. U Chengduu se izvodi sečuanska opera s munjevitim mijenjanjem maski." },
-    { ime: "Jutro u parku", opis: "Parkovi su dnevni boravak kineskih umirovljenika. Od zore se vježba tai chi, pleše u skupinama, pjeva u zboru, igra kineski šah i vodenim kistom ispisuju pjesme po pločniku, koje nestanu čim se osuše.", gdje: "Park Hrama neba u Pekingu, Narodni park u Chengduu i Fuxing park u Šangaju, najbolje između šest i devet ujutro." },
-    { ime: "Kaligrafija", opis: "Pisanje kistom i tušem smatra se najvišom umjetnošću, višom i od slikarstva. Po potezima se, vjeruje se, vidi karakter onoga tko piše. Četiri blaga radne sobe su kist, tuš, papir i kamen za tuš.", gdje: "Šuma stela u Xi'anu čuva tisuće tekstova uklesanih u kamen, a ulica Liulichang u Pekingu stare prodavaonice kistova i papira." },
-    { ime: "Festival sredine jeseni", opis: "Slavi se pun mjesec petnaestog dana osmog lunarnog mjeseca. Obitelji zajedno gledaju mjesec i jedu mjesečeve kolače, teške okrugle kolače s nadjevom od lotosa i slanim žumanjkom u sredini.", gdje: "U rujnu ili početkom listopada, u cijeloj zemlji. U Hong Kongu tada ulicama četvrti Tai Hang prolazi zmaj od slame i mirisnih štapića." },
-    { ime: "Festival zmajevih čamaca", opis: "Utrke dugih čamaca s bubnjarom na pramcu održavaju se u spomen na pjesnika Qu Yuana, koji se u 3. stoljeću prije Krista utopio u rijeci. Legenda kaže da su ljudi u vodu bacali rižu da ribe ne diraju njegovo tijelo, pa se i danas jedu zongzi, ljepljiva riža umotana u list bambusa.", gdje: "Krajem svibnja ili u lipnju. Poznate su utrke u Hong Kongu, Makau i Hangzhouu." }
+    { ime: "Spring Festival", opis: "Chinese New Year is the most important holiday, and it lasts fifteen days. The family gathers for dinner on New Year's Eve, children receive money in red envelopes, and doors are decorated with red banners carrying good wishes. According to legend, the color red and firecrackers drive away the monster Nian.", gdje: "Late January or February, by the lunar calendar. The temple fairs in Beijing are at their liveliest in those days, and the celebration ends with the Lantern Festival." },
+    { ime: "Gongfu tea", opis: "A way of preparing tea in a tiny teapot and thimble-sized cups, with many short infusions. The word gongfu means a skill earned through effort, the same one we know as kung fu.", gdje: "Teahouses in Hangzhou, Chengdu and Guangzhou, and the villages beside the Longjing tea plantations near Hangzhou, where you can join the harvest in spring." },
+    { ime: "Peking opera", opis: "A blend of singing, acting, acrobatics and martial arts, in which the color of the mask reveals the nature of the character: red for loyalty, white for deceit, black for honesty. It has been on the UNESCO list of intangible heritage since 2010.", gdje: "Theaters in Beijing offer shortened evening performances with English subtitles. In Chengdu you can see Sichuan opera with its lightning-fast mask changes." },
+    { ime: "Morning in the park", opis: "Parks are the living room of Chinese retirees. From dawn people practice tai chi, dance in groups, sing in choirs, play Chinese chess and write poems on the pavement with a water brush, poems that vanish as soon as they dry.", gdje: "The Temple of Heaven park in Beijing, People's Park in Chengdu and Fuxing Park in Shanghai, best between six and nine in the morning." },
+    { ime: "Calligraphy", opis: "Writing with brush and ink is considered the highest art, higher even than painting. The strokes are believed to reveal the character of the person who writes. The four treasures of the study are the brush, the ink, the paper and the inkstone.", gdje: "The Forest of Steles in Xi'an preserves thousands of texts carved in stone, and Liulichang Street in Beijing has old shops selling brushes and paper." },
+    { ime: "Mid-Autumn Festival", opis: "It celebrates the full moon on the fifteenth day of the eighth lunar month. Families watch the moon together and eat mooncakes, heavy round pastries with a lotus filling and a salted egg yolk in the middle.", gdje: "In September or early October, all over the country. In Hong Kong, a dragon made of straw and incense sticks parades through the streets of the Tai Hang neighborhood at that time." },
+    { ime: "Dragon Boat Festival", opis: "Races of long boats with a drummer at the bow are held in memory of the poet Qu Yuan, who drowned himself in a river in the 3rd century BC. Legend says that people threw rice into the water so the fish would leave his body alone, which is why zongzi, sticky rice wrapped in a bamboo leaf, are still eaten today.", gdje: "Late May or June. The races in Hong Kong, Macau and Hangzhou are well known." }
   ],
   fraze: [
-    { izvorno: "Nǐ hǎo", izgovor: "ni HAO", hr: "Dobar dan" },
-    { izvorno: "Xièxie", izgovor: "ŠJE-šje", hr: "Hvala" },
-    { izvorno: "Bú kèqi", izgovor: "bu KE-ći", hr: "Nema na čemu" },
-    { izvorno: "Duìbuqǐ", izgovor: "DUEJ-bu-ći", hr: "Oprostite" },
-    { izvorno: "Duōshao qián?", izgovor: "DUO-šao ćjen", hr: "Koliko košta?" },
-    { izvorno: "Zhège", izgovor: "DŽE-ge", hr: "Ovo (pokazujući prstom na jelovnik)" },
-    { izvorno: "Bú yào là", izgovor: "bu jao LA", hr: "Bez ljutog, molim" },
-    { izvorno: "Hǎochī", izgovor: "hao-ČR", hr: "Ukusno" },
-    { izvorno: "Tīng bu dǒng", izgovor: "TING bu dong", hr: "Ne razumijem" },
-    { izvorno: "Gānbēi", izgovor: "gan-BEJ", hr: "Živjeli, do dna" }
+    { izvorno: "Nǐ hǎo", izgovor: "nee HOW", hr: "Hello" },
+    { izvorno: "Xièxie", izgovor: "SHYEH-shyeh", hr: "Thank you" },
+    { izvorno: "Bú kèqi", izgovor: "boo KUH-chee", hr: "You're welcome" },
+    { izvorno: "Duìbuqǐ", izgovor: "DWAY-boo-chee", hr: "Sorry, excuse me" },
+    { izvorno: "Duōshao qián?", izgovor: "DWAW-shao chyen", hr: "How much does it cost?" },
+    { izvorno: "Zhège", izgovor: "JUH-guh", hr: "This one (pointing at the menu)" },
+    { izvorno: "Bú yào là", izgovor: "boo yao LAH", hr: "Not spicy, please" },
+    { izvorno: "Hǎochī", izgovor: "how-CHIR", hr: "Delicious" },
+    { izvorno: "Tīng bu dǒng", izgovor: "TING boo dong", hr: "I don't understand" },
+    { izvorno: "Gānbēi", izgovor: "gahn-BAY", hr: "Cheers, bottoms up" }
   ],
   zanimljivosti: [
-    "Cijela Kina službeno ima jednu vremensku zonu, pekinšku, premda se zemlja proteže preko pet geografskih zona. Na krajnjem zapadu sunce zato ljeti zalazi tek iza deset navečer.",
-    "Kineski zid ne vidi se golim okom iz svemira. To je potvrdio i prvi kineski astronaut Yang Liwei nakon leta 2003.",
-    "Papir, tisak, kompas i barut u Kini se nazivaju četirima velikim izumima.",
-    "Kolačići sreće ne potječu iz Kine. Nastali su u SAD-u početkom 20. stoljeća, najvjerojatnije među japanskim doseljenicima u Kaliforniji.",
-    "Riječ kečap potječe od naziva za fermentirani riblji umak u jednom južnokineskom narječju, koji s rajčicom nije imao nikakve veze.",
-    "Prvi papirnati novac na svijetu pušten je u optjecaj u Chengduu, za dinastije Song, početkom 11. stoljeća.",
-    "Marko Polo opisao je Hangzhou kao najljepši grad na svijetu. Predaja na Korčuli kaže da je putnik rođen upravo ondje, premda većina povjesničara kao mjesto rođenja navodi Veneciju.",
-    "Veliki pande jedu bambus i do četrnaest sati dnevno, iako im je probavni sustav građen kao u mesoždera."
+    "All of China officially has a single time zone, Beijing time, even though the country stretches across five geographical zones. In the far west, the summer sun therefore sets only after ten in the evening.",
+    "The Great Wall cannot be seen with the naked eye from space. This was confirmed by the first Chinese astronaut, Yang Liwei, after his flight in 2003.",
+    "In China, paper, printing, the compass and gunpowder are known as the Four Great Inventions.",
+    "Fortune cookies do not come from China. They originated in the USA in the early 20th century, most likely among Japanese immigrants in California.",
+    "The word ketchup comes from the name of a fermented fish sauce in a southern Chinese dialect, which had nothing at all to do with tomatoes.",
+    "The world's first paper money was put into circulation in Chengdu, under the Song dynasty, in the early 11th century.",
+    "Marco Polo described Hangzhou as the most beautiful city in the world. Tradition on the Croatian island of Korčula holds that the traveler was born there, although most historians give Venice as his birthplace.",
+    "Giant pandas eat bamboo for up to fourteen hours a day, even though their digestive system is built like that of a carnivore."
   ],
   mjesta: [
     {
       id: "peking",
-      ime: "Peking",
+      ime: "Beijing",
       vrsta: "grad",
-      sazetak: "Carska prijestolnica u kojoj se iza crvenih zidova Zabranjenog grada pružaju sive uličice s dvorištima, a sat vožnje dalje zid se penje po planinama.",
+      sazetak: "The imperial capital where gray alleys with courtyards stretch out behind the red walls of the Forbidden City, and an hour's drive away the wall climbs over the mountains.",
       prica: [
-        "Peking je prijestolnicom učinio mongolski vladar Kublaj-kan u 13. stoljeću. Današnji oblik dao mu je car Yongle iz dinastije Ming, koji je ovamo preselio dvor 1421. i sagradio Zabranjeni grad i Hram neba.",
-        "Grad je položen duž jedne osi od juga prema sjeveru, na kojoj leže glavna vrata, palača i tornjevi bubnja i zvona. Oko palače širile su se uske ulice hutong s prizemnim kućama oko dvorišta, od kojih je dio sačuvan."
+        "Beijing was made a capital by the Mongol ruler Kublai Khan in the 13th century. Its present shape came from the Yongle Emperor of the Ming dynasty, who moved the court here in 1421 and built the Forbidden City and the Temple of Heaven.",
+        "The city is laid out along a single axis running from south to north, on which the main gate, the palace and the Drum and Bell Towers all stand. Around the palace spread the narrow hutong streets with single-story houses built around courtyards, some of which have been preserved."
       ],
       vidjeti: [
-        { ime: "Zabranjeni grad", opis: "Palača sagrađena od 1406. do 1420. bila je dom dvadeset četvorice careva i običan čovjek u nju nije smio ući. Krovovi su žuti jer je to bila boja rezervirana za cara. Na rubovima krovova izbrojite male keramičke figure: što ih je više, zgrada je važnija, a samo Dvorana vrhovnog sklada ima ih deset." },
-        { ime: "Hram neba", opis: "Ovdje je car svake godine prinosio žrtve i molio za dobru žetvu. Okrugla Dvorana molitve sagrađena je bez ijednog čavla, a njezinih dvadeset osam stupova predstavlja četiri godišnja doba, dvanaest mjeseci i dvanaest dvosatnih razdoblja dana. Krov je plav poput neba, a tlocrt okrugao jer se nebo zamišljalo okruglim, a zemlja četvrtastom." },
-        { ime: "Kineski zid kod Mutianyua", opis: "Dionica sedamdesetak kilometara od grada obnovljena je za dinastije Ming, u 16. stoljeću, i mnogo je mirnija od najposjećenijeg Badalinga. Kule stražarnice ovdje stoje neobično gusto. Gore vodi žičara, a dolje se možete spustiti i sanjkama po metalnom koritu." },
-        { ime: "Ljetna palača", opis: "Carski vrt s velikim jezerom obnovila je krajem 19. stoljeća carica udova Cixi, i to, kako se često navodi, novcem namijenjenim mornarici. Podsjetnik na to je Mramorni brod, koji nikada neće zaploviti. Dugi natkriveni hodnik od 728 metara oslikan je s tisućama prizora iz priča i krajolika." },
-        { ime: "Lamaistički hram Yonghegong", opis: "Nekadašnja prinčeva rezidencija postala je u 18. stoljeću najvažniji hram tibetskog budizma izvan Tibeta. U posljednjoj dvorani stoji kip Bude Maitreje visok osamnaest metara iznad tla, isklesan iz jednog jedinog debla sandalovine." },
-        { ime: "Hutonzi oko Tornja bubnja", opis: "Uske ulice s kućama oko unutarnjih dvorišta nastajale su od mongolskog doba. Tornjevi bubnja i zvona stoljećima su gradu javljali vrijeme. Prošećite oko jezera Houhai i zavirite kroz otvorena vrata dvorišta, pred kojima kameni pragovi govore o položaju obitelji." }
+        { ime: "Forbidden City", opis: "The palace, built from 1406 to 1420, was home to twenty-four emperors, and an ordinary person was not allowed to enter it. The roofs are yellow because that color was reserved for the emperor. Count the small ceramic figures on the roof ridges: the more there are, the more important the building, and only the Hall of Supreme Harmony has ten." },
+        { ime: "Temple of Heaven", opis: "Here the emperor offered sacrifices every year and prayed for a good harvest. The round Hall of Prayer was built without a single nail, and its twenty-eight pillars stand for the four seasons, the twelve months and the twelve two-hour periods of the day. The roof is blue like the sky, and the floor plan is round because heaven was imagined as round and the earth as square." },
+        { ime: "The Great Wall at Mutianyu", opis: "This section about seventy kilometers from the city was restored under the Ming dynasty, in the 16th century, and it is much calmer than Badaling, the most visited one. The watchtowers stand unusually close together here. A cable car takes you up, and you can also come down by toboggan along a metal chute." },
+        { ime: "Summer Palace", opis: "The imperial garden with its large lake was restored in the late 19th century by Empress Dowager Cixi, and, as is often said, with money intended for the navy. The reminder of that is the Marble Boat, which will never sail. The Long Corridor, a covered walkway of 728 meters, is painted with thousands of scenes from stories and landscapes." },
+        { ime: "Yonghegong Lama Temple", opis: "A former prince's residence became, in the 18th century, the most important temple of Tibetan Buddhism outside Tibet. In the last hall stands a statue of the Maitreya Buddha rising eighteen meters above the ground, carved from a single sandalwood trunk." },
+        { ime: "The hutongs around the Drum Tower", opis: "The narrow streets of houses built around inner courtyards have been taking shape since Mongol times. For centuries the Drum and Bell Towers told the city the time. Stroll around Houhai Lake and peek through open courtyard gates, where the stone thresholds in front speak of a family's standing." }
       ],
       jesti: [
-        { ime: "Pekinška patka", opis: "Jede se u restoranima specijaliziranima samo za nju, gdje se pače peče nad vatrom od voćnog drva i reže za stolom." },
-        { ime: "Zhajiangmian", opis: "Debeli pšenični rezanci s tamnim umakom od prženog mesa i fermentirane soje, uz svježe narezano povrće koje same umiješate." },
-        { ime: "Jianbing", opis: "Tanka palačinka s jajetom, mladim lukom, umakom i hrskavim listom tijesta, koja se ujutro peče na uličnim kolicima i jede u hodu." },
-        { ime: "Janjetina iz bakrenog lonca", opis: "Tanko rezano meso kuha se nekoliko sekundi u bistroj juhi u loncu s dimnjakom i umače u umak od sezama. Zimsko je jelo sjevera, s mongolskim korijenima." }
+        { ime: "Peking duck", opis: "It is eaten in restaurants that specialize in nothing else, where the duckling is roasted over a fruitwood fire and carved at the table." },
+        { ime: "Zhajiangmian", opis: "Thick wheat noodles with a dark sauce of fried meat and fermented soybeans, served with freshly sliced vegetables that you mix in yourself." },
+        { ime: "Jianbing", opis: "A thin crepe with egg, scallions, sauce and a crispy sheet of dough, cooked on street carts in the morning and eaten on the go." },
+        { ime: "Copper pot lamb", opis: "Thinly sliced meat is cooked for a few seconds in clear broth in a pot with a chimney and then dipped in sesame sauce. It is a winter dish of the north, with Mongolian roots." }
       ],
       dozivjeti: [
-        { ime: "Tečaj kuhanja u hutongu", opis: "Kulturni centar The Hutong, smješten u starom dvorištu, vodi tečajeve okruglica, rezanaca i sečuanske kuhinje te obilaske tržnica na engleskom.", link: "https://thehutong.com/" },
-        { ime: "Pješačenje po divljem zidu", opis: "Beijing Hikers od 2001. vodi izlete na manje posjećene, neobnovljene dionice Kineskog zida, s prijevozom iz grada i vodičem.", link: "https://www.beijinghikers.com/" },
-        { ime: "Žičara i sanjke na Mutianyuu", opis: "Na službenoj stranici dionice nalaze se informacije o autobusu, žičari i ulaznicama.", link: "https://www.mutianyugreatwall.com/en" },
-        { ime: "Jutro u parku Hrama neba", opis: "Dođite prije osam, kada umirovljenici vježbaju tai chi, plešu i kartaju pod tisućljetnim čempresima, pa tek onda razgledajte hram." }
+        { ime: "Cooking class in a hutong", opis: "The Hutong cultural center, set in an old courtyard, runs classes in dumplings, noodles and Sichuan cuisine, as well as market tours in English.", link: "https://thehutong.com/" },
+        { ime: "Hiking the wild wall", opis: "Beijing Hikers has been leading trips since 2001 to less visited, unrestored sections of the Great Wall, with transport from the city and a guide.", link: "https://www.beijinghikers.com/" },
+        { ime: "Cable car and toboggan at Mutianyu", opis: "The section's official website has information on the bus, the cable car and tickets.", link: "https://www.mutianyugreatwall.com/en" },
+        { ime: "Morning in the Temple of Heaven park", opis: "Come before eight, when retirees practice tai chi, dance and play cards under thousand-year-old cypresses, and only then tour the temple." }
       ],
       agencije: [
-        { ime: "Visit Beijing", opis: "Službeni turistički vodič grada Pekinga.", link: "https://english.visitbeijing.com.cn/" },
-        { ime: "The Hutong", opis: "Kulturni centar s tečajevima kuhanja i tematskim šetnjama po starom gradu.", link: "https://thehutong.com/" },
-        { ime: "Beijing Hikers", opis: "Organizator pješačkih izleta na Kineski zid i u planine oko Pekinga.", link: "https://www.beijinghikers.com/" }
+        { ime: "Visit Beijing", opis: "The official tourist guide of the city of Beijing.", link: "https://english.visitbeijing.com.cn/" },
+        { ime: "The Hutong", opis: "A cultural center with cooking classes and themed walks through the old city.", link: "https://thehutong.com/" },
+        { ime: "Beijing Hikers", opis: "An organizer of hiking trips to the Great Wall and the mountains around Beijing.", link: "https://www.beijinghikers.com/" }
       ],
-      kada: "Rujan i listopad, kada je nebo najvedrije. Ulaznice za Zabranjeni grad prodaju se samo unaprijed, uz broj putovnice, i brzo se rasprodaju, a palača je ponedjeljkom zatvorena."
+      kada: "September and October, when the sky is at its clearest. Tickets for the Forbidden City are sold only in advance, with your passport number, and they sell out quickly, and the palace is closed on Mondays."
     },
     {
       id: "sangaj",
-      ime: "Šangaj",
+      ime: "Shanghai",
       vrsta: "grad",
-      sazetak: "Najveći kineski grad, u kojem se s jedne strane rijeke nižu europske palače iz 1920-ih, a s druge neboderi budućnosti.",
+      sazetak: "China's largest city, where European palaces from the 1920s line one side of the river and the skyscrapers of the future rise on the other.",
       prica: [
-        "Šangaj je bio trgovački gradić sve dok ga Velika Britanija nakon Prvog opijumskog rata, ugovorom iz 1842., nije prisilila da se otvori stranoj trgovini. Stranci su dobili vlastite četvrti s vlastitim zakonima, i grad je do 1930-ih postao jedna od najvećih luka svijeta.",
-        "Iz tog doba potječu obala Bund i Francuska koncesija s drvoredima platana. Pudong, na drugoj obali rijeke Huangpu, bio je do 1990. područje polja i skladišta, a danas ondje stoje neki od najviših nebodera na svijetu."
+        "Shanghai was a small trading town until Great Britain, after the First Opium War, forced it to open to foreign trade under the treaty of 1842. Foreigners were given their own districts with their own laws, and by the 1930s the city had become one of the largest ports in the world.",
+        "The Bund waterfront and the French Concession with its avenues of plane trees date from that era. Pudong, on the other bank of the Huangpu River, was an area of fields and warehouses until 1990, and today some of the tallest skyscrapers in the world stand there."
       ],
       vidjeti: [
-        { ime: "Bund", opis: "Uz obalu se niže pedesetak zgrada banaka i trgovačkih kuća s početka 20. stoljeća, u stilovima od neoklasicizma do art décoa. Uđite u predvorje nekadašnje banke HSBC iz 1923. i pogledajte u strop s mozaicima osam svjetskih gradova. Pogled preko rijeke na Pudong najljepši je u sumrak." },
-        { ime: "Vrt Yu", opis: "Dužnosnik Pan Yunduan gradio ga je od 1559. gotovo dva desetljeća, kao mjesto mira za svojeg ostarjelog oca. Most do čajane na jezercu lomi se u cik-cak jer se vjerovalo da zli duhovi mogu ići samo ravno. Na vrhu zidova potražite zmajeve čija tijela vijugaju duž cijelog zida." },
-        { ime: "Francuska koncesija", opis: "Četvrt drvoreda, vila i kuća shikumen, koje spajaju kineski raspored s dvorištem i europska pročelja od opeke. U jednoj takvoj kući u današnjoj četvrti Xintiandi održan je 1921. prvi kongres Komunističke partije Kine." },
-        { ime: "Šangajski muzej", opis: "Jedna od najboljih zbirki stare kineske umjetnosti. Posebno su vrijedne brončane posude stare tri tisuće godina, s kojih se vidi koliko je lijevanje bronce bilo napredno. Muzej danas ima dvije zgrade, staru na Narodnom trgu i novu u Pudongu, pa provjerite gdje je što izloženo." },
-        { ime: "Šangajski toranj", opis: "S 632 metra najviša je zgrada u Kini i jedna od najviših na svijetu, dovršena 2015. Zavijena je oko svoje osi kako bi lakše podnosila tajfunske vjetrove. S vidikovca gledate odozgo na susjedne nebodere, koji su i sami viši od četiristo metara." },
-        { ime: "Zhujiajiao", opis: "Gradić na kanalima na rubu Šangaja, do kojeg vozi podzemna. Kameni most Fangsheng s pet lukova potječe iz 16. stoljeća. Ime mu znači „most puštanja na slobodu“, jer su vjernici s njega puštali ribe u vodu kao dobro djelo." }
+        { ime: "The Bund", opis: "Along the waterfront runs a row of some fifty bank and trading house buildings from the early 20th century, in styles ranging from Neoclassicism to Art Deco. Step into the lobby of the former HSBC bank from 1923 and look up at the ceiling with its mosaics of eight world cities. The view across the river to Pudong is loveliest at dusk." },
+        { ime: "Yu Garden", opis: "The official Pan Yunduan spent almost two decades building it from 1559, as a place of peace for his aging father. The bridge to the teahouse on the pond zigzags because it was believed that evil spirits can only travel in a straight line. Look to the tops of the walls for the dragons whose bodies wind along their whole length." },
+        { ime: "French Concession", opis: "A district of tree-lined avenues, villas and shikumen houses, which combine a Chinese courtyard layout with European brick facades. In one such house, in what is now the Xintiandi quarter, the first congress of the Chinese Communist Party was held in 1921." },
+        { ime: "Shanghai Museum", opis: "One of the finest collections of ancient Chinese art. The three-thousand-year-old bronze vessels are especially valuable, and they show how advanced bronze casting was. The museum now has two buildings, the old one on People's Square and the new one in Pudong, so check what is on display where." },
+        { ime: "Shanghai Tower", opis: "At 632 meters it is the tallest building in China and one of the tallest in the world, completed in 2015. It twists around its own axis so that it can better withstand typhoon winds. From the observation deck you look down on the neighboring skyscrapers, which are themselves taller than four hundred meters." },
+        { ime: "Zhujiajiao", opis: "A canal town on the edge of Shanghai, reachable by subway. The five-arched stone Fangsheng Bridge dates from the 16th century. Its name means “bridge of setting free”, because believers released fish into the water from it as a good deed." }
       ],
       jesti: [
-        { ime: "Xiaolongbao", opis: "Okruglice s juhom domaće su upravo ovdje. Naručuju se po košarici, uz crni ocat i tanko rezani đumbir." },
-        { ime: "Shengjianbao", opis: "Deblje okruglice s juhom pržene u širokoj tavi, s hrskavim dnom i sezamom, tipičan šangajski doručak. Zagrizite oprezno, jer juha prska." },
-        { ime: "Hongshao rou", opis: "Svinjska potrbušina polako pirjana u sojinu umaku, šećeru i rižinu vinu dok ne postane sjajna i tamnocrvena. Šangajska kuhinja voli slatkasto." },
-        { ime: "Dlakavi rak", opis: "Slatkovodni rak koji se jede u listopadu i studenom, kuhan na pari, zbog narančaste ikre. Sezona je događaj o kojem priča cijeli grad." }
+        { ime: "Xiaolongbao", opis: "Soup dumplings are at home right here. They are ordered by the basket, with black vinegar and thinly sliced ginger." },
+        { ime: "Shengjianbao", opis: "Thicker soup dumplings fried in a wide pan, with a crispy bottom and sesame seeds, a typical Shanghai breakfast. Bite carefully, because the soup squirts." },
+        { ime: "Hongshao rou", opis: "Pork belly slowly braised in soy sauce, sugar and rice wine until it turns glossy and dark red. Shanghai cuisine likes things on the sweet side." },
+        { ime: "Hairy crab", opis: "A freshwater crab eaten in October and November, steamed, for its orange roe. The season is an event the whole city talks about." }
       ],
       dozivjeti: [
-        { ime: "Tura ulične hrane", opis: "UnTour Food Tours vodi male skupine po doručcima, okruglicama i noćnim štandovima u starim četvrtima, uz objašnjenja što se jede i zašto.", link: "https://untourfoodtours.com/" },
-        { ime: "Trajekt preko rijeke Huangpu", opis: "Obični gradski trajekt prevozi stanovnike s Bunda u Pudong za nekoliko minuta i daje isti pogled kao skupa krstarenja." },
-        { ime: "Bračna tržnica u Narodnom parku", opis: "Vikendom roditelji na kišobrane vješaju listove s podacima o svojoj odrasloj djeci, visinom, zanimanjem i primanjima, tražeći im supružnika. Promatrajte s poštovanjem i ne fotografirajte lica." }
+        { ime: "Street food tour", opis: "UnTour Food Tours takes small groups through breakfasts, dumplings and night stalls in the old neighborhoods, explaining what is eaten and why.", link: "https://untourfoodtours.com/" },
+        { ime: "Ferry across the Huangpu River", opis: "The ordinary city ferry carries residents from the Bund to Pudong in a few minutes and gives you the same view as the expensive cruises." },
+        { ime: "The marriage market in People's Park", opis: "On weekends, parents hang sheets of paper on umbrellas listing details about their grown children, their height, occupation and income, in search of a spouse for them. Watch respectfully and do not photograph faces." }
       ],
       agencije: [
-        { ime: "Meet in Shanghai", opis: "Službena turistička stranica grada Šangaja.", link: "https://www.meet-in-shanghai.net/" },
-        { ime: "UnTour Food Tours", opis: "Organizator gastronomskih tura u malim skupinama u Šangaju, Pekingu i Chengduu.", link: "https://untourfoodtours.com/" },
-        { ime: "Šangajski muzej", opis: "Službena stranica muzeja s rezervacijom besplatnih ulaznica.", link: "https://www.shanghaimuseum.net/mu/frontend/pg/en/index" }
+        { ime: "Meet in Shanghai", opis: "The official tourism website of the city of Shanghai.", link: "https://www.meet-in-shanghai.net/" },
+        { ime: "UnTour Food Tours", opis: "An organizer of small-group food tours in Shanghai, Beijing and Chengdu.", link: "https://untourfoodtours.com/" },
+        { ime: "Shanghai Museum", opis: "The museum's official website, with booking for free tickets.", link: "https://www.shanghaimuseum.net/mu/frontend/pg/en/index" }
       ],
-      kada: "Travanj, svibanj, listopad i studeni. Ljeti je vruće i sparno, a u lipnju traje razdoblje „šljivinih kiša“."
+      kada: "April, May, October and November. Summer is hot and humid, and June brings the season of the “plum rains”."
     },
     {
       id: "xian",
       ime: "Xi'an",
       vrsta: "grad",
-      sazetak: "Polazište Puta svile i grad prvog cara, čiju vojsku od pečene gline seljaci nisu otkrili sve do 1974.",
+      sazetak: "The starting point of the Silk Road and the city of the first emperor, whose army of fired clay went undiscovered until farmers found it in 1974.",
       prica: [
-        "Xi'an, nekoć Chang'an, bio je prijestolnica trinaest dinastija, među njima Qina, Hana i Tanga. U 8. stoljeću imao je oko milijun stanovnika i bio je najveći grad na svijetu, pun perzijskih trgovaca, budističkih redovnika i glazbenika iz srednje Azije.",
-        "Odavde su karavane kretale Putem svile na zapad. Od tih je trgovaca ostala muslimanska zajednica Hui, koja i danas živi u četvrti iza Tornja bubnja i hrani cijeli grad."
+        "Xi'an, once Chang'an, was the capital of thirteen dynasties, among them the Qin, the Han and the Tang. In the 8th century it had about a million inhabitants and was the largest city in the world, full of Persian merchants, Buddhist monks and musicians from Central Asia.",
+        "From here the caravans set out west along the Silk Road. Those merchants left behind the Muslim Hui community, which still lives in the quarter behind the Drum Tower and feeds the whole city."
       ],
       vidjeti: [
-        { ime: "Vojska od terakote", opis: "Car Qin Shi Huang, koji je prvi ujedinio Kinu i umro 210. prije Krista, dao je uz svoj grob pokopati oko osam tisuća glinenih vojnika u prirodnoj veličini. Seljaci su ih pronašli 1974. kopajući bunar. Svako je lice drukčije, a figure su bile jarko obojene, no boja se nakon iskapanja brzo ljušti. Carev grob još nije otvoren." },
-        { ime: "Gradske zidine", opis: "Zidine iz 14. stoljeća, duge gotovo četrnaest kilometara, jedne su od najbolje sačuvanih u Kini. Dovoljno su široke da se po vrhu vozi bicikl, pa cijeli krug možete prijeći za sat i pol." },
-        { ime: "Velika pagoda divlje guske", opis: "Podignuta je 652. za budističke spise koje je redovnik Xuanzang donio iz Indije nakon sedamnaest godina putovanja. Njegovo je putovanje nadahnulo roman „Putovanje na Zapad“, u kojem ga prati Kralj majmuna. Pagoda se s godinama blago nagnula." },
-        { ime: "Muslimanska četvrt i Velika džamija", opis: "Džamija, čiji se začeci prema predaji vežu uz 8. stoljeće, izgleda kao kineski hram: ima dvorišta, paviljone i minaret u obliku pagode, a arapski su natpisi uklesani uz kineske. Uličice oko nje navečer su pune dima s roštilja." },
-        { ime: "Tornjevi zvona i bubnja", opis: "Zvono je u 14. stoljeću javljalo zoru, a bubanj sumrak, kada su se zatvarala gradska vrata. Toranj zvona stoji točno u središtu grada, na križanju četiriju glavnih ulica." },
-        { ime: "Povijesni muzej Shaanxija", opis: "Najbolje mjesto da razumijete zašto je dinastija Tang zlatno doba Kine. Potražite šarene keramičke deve s glazbenicima na leđima i zidne slike iz carskih grobova. Ulaznice se rezerviraju unaprijed." }
+        { ime: "Terracotta Army", opis: "Emperor Qin Shi Huang, who first unified China and died in 210 BC, had about eight thousand life-size clay soldiers buried beside his tomb. Farmers found them in 1974 while digging a well. Every face is different, and the figures were once brightly painted, but the paint flakes off quickly after excavation. The emperor's tomb has still not been opened." },
+        { ime: "City walls", opis: "The 14th-century walls, almost fourteen kilometers long, are among the best preserved in China. They are wide enough to cycle along the top, so you can cover the full circuit in an hour and a half." },
+        { ime: "Giant Wild Goose Pagoda", opis: "It was built in 652 for the Buddhist scriptures that the monk Xuanzang brought back from India after seventeen years of travel. His journey inspired the novel “Journey to the West”, in which he is accompanied by the Monkey King. Over the years the pagoda has come to lean slightly." },
+        { ime: "The Muslim Quarter and the Great Mosque", opis: "The mosque, whose beginnings are traditionally linked to the 8th century, looks like a Chinese temple: it has courtyards, pavilions and a minaret shaped like a pagoda, and Arabic inscriptions are carved alongside Chinese ones. In the evening the alleys around it fill with smoke from the grills." },
+        { ime: "Bell Tower and Drum Tower", opis: "In the 14th century the bell announced dawn and the drum announced dusk, when the city gates were closed. The Bell Tower stands exactly in the center of the city, at the crossing of the four main streets." },
+        { ime: "Shaanxi History Museum", opis: "The best place to understand why the Tang dynasty was China's golden age. Look for the colorful ceramic camels with musicians on their backs and the wall paintings from imperial tombs. Tickets are reserved in advance." }
       ],
       jesti: [
-        { ime: "Roujiamo", opis: "Sitno sjeckano meso, dugo pirjano sa začinima, u toploj okrugloj lepinji. Često ga zovu kineskim hamburgerom, a recept je star više od dvije tisuće godina." },
-        { ime: "Biangbiang rezanci", opis: "Rezanci široki poput remena, preliveni vrućim uljem preko čilija i češnjaka. Znak za riječ biang ima više od pedeset poteza i ne postoji u običnim rječnicima." },
-        { ime: "Yangrou paomo", opis: "Juha od janjetine u koju same trgate beskvasnu pogaču na komadiće veličine nokta. Što sitnije trgate, to bolje, jer kruh tada upije juhu." },
-        { ime: "Liangpi", opis: "Hladni, skliski rezanci od rižina ili pšeničnog škroba s octom, čilijem i krastavcem, osvježenje za ljetne dane." }
+        { ime: "Roujiamo", opis: "Finely chopped meat, braised for a long time with spices, in a warm round flatbread. It is often called the Chinese hamburger, and the recipe is more than two thousand years old." },
+        { ime: "Biangbiang noodles", opis: "Noodles as wide as a belt, with hot oil poured over chili and garlic. The character for the word biang has more than fifty strokes and does not exist in ordinary dictionaries." },
+        { ime: "Yangrou paomo", opis: "A lamb soup into which you tear unleavened flatbread yourself, into pieces the size of a fingernail. The finer you tear it the better, because the bread then soaks up the soup." },
+        { ime: "Liangpi", opis: "Cold, slippery noodles made of rice or wheat starch with vinegar, chili and cucumber, a refreshment for summer days." }
       ],
       dozivjeti: [
-        { ime: "Večernja tura hrane u tuk-tuku", opis: "Lost Plate vodi male skupine po obiteljskim zalogajnicama izvan glavne turističke ulice, s prijevozom na tri kotača.", link: "https://lostplate.com/" },
-        { ime: "Biciklom po zidinama", opis: "Bicikli se iznajmljuju na samim zidinama kod glavnih vrata. Najljepše je pred zalazak sunca, kada se pale crveni lampioni." },
-        { ime: "Vojska od terakote uz vodiča", opis: "Na licu mjesta natpisa je malo, pa se isplati uzeti vodiča ili audiovodič. Krenite od manjih jama i ostavite najveću, s tisućama vojnika u stroju, za kraj.", link: "https://www.bmy.com.cn/" }
+        { ime: "Evening food tour by tuk-tuk", opis: "Lost Plate takes small groups to family-run eateries away from the main tourist street, with transport on three wheels.", link: "https://lostplate.com/" },
+        { ime: "Cycling the city walls", opis: "Bicycles are rented right on the walls, at the main gates. It is loveliest just before sunset, when the red lanterns are lit." },
+        { ime: "The Terracotta Army with a guide", opis: "There are few signs on site, so it is worth hiring a guide or an audio guide. Start with the smaller pits and leave the largest, with thousands of soldiers in formation, for last.", link: "https://www.bmy.com.cn/" }
       ],
       agencije: [
-        { ime: "Muzej mauzoleja cara Qin Shi Huanga", opis: "Službena stranica nalazišta vojske od terakote.", link: "https://www.bmy.com.cn/" },
-        { ime: "Grad Xi'an", opis: "Službena stranica gradske uprave na engleskom, s turističkim informacijama.", link: "https://en.xa.gov.cn/" },
-        { ime: "Lost Plate Food Tours", opis: "Organizator gastronomskih tura u malim skupinama, osnovan 2013.", link: "https://lostplate.com/" }
+        { ime: "Emperor Qin Shi Huang's Mausoleum Site Museum", opis: "The official website of the Terracotta Army site.", link: "https://www.bmy.com.cn/" },
+        { ime: "City of Xi'an", opis: "The official English-language website of the city government, with tourist information.", link: "https://en.xa.gov.cn/" },
+        { ime: "Lost Plate Food Tours", opis: "An organizer of small-group food tours, founded in 2013.", link: "https://lostplate.com/" }
       ],
-      kada: "Proljeće i jesen. Do vojske od terakote vozi podzemna i autobus, a put traje oko sat vremena. Radnim danom ujutro najmanja je gužva."
+      kada: "Spring and fall. The subway and a bus run to the Terracotta Army, and the trip takes about an hour. Weekday mornings are the least crowded."
     },
     {
       id: "guilin-yangshuo",
-      ime: "Guilin i Yangshuo",
+      ime: "Guilin and Yangshuo",
       vrsta: "priroda",
-      sazetak: "Krajolik sa starih kineskih slika: tisuće strmih vapnenačkih brda nad rijekom kojom klize splavi od bambusa.",
+      sazetak: "A landscape from old Chinese paintings: thousands of steep limestone hills above a river where bamboo rafts glide by.",
       prica: [
-        "Brda oko Guilina ostaci su morskog dna koje se izdiglo, a voda ga je milijunima godina otapala u tornjeve i špilje. Stara izreka kaže da je krajolik Guilina najljepši pod nebom, i kineski ga pjesnici i slikari opisuju više od tisuću godina.",
-        "Rijeka Li teče od Guilina do gradića Yangshuoa osamdesetak kilometara kroz najgušći dio krša. Područje je dio UNESCO-ova dobra Južnokineski krš. U brdima na sjeveru žive narodi Zhuang i Yao, koji su padine pretvorili u rižine terase."
+        "The hills around Guilin are the remains of a seabed that rose up, and over millions of years water dissolved it into towers and caves. An old saying holds that Guilin's scenery is the finest under heaven, and Chinese poets and painters have been describing it for more than a thousand years.",
+        "The Li River flows from Guilin to the small town of Yangshuo for about eighty kilometers through the densest part of the karst. The area is part of the UNESCO site South China Karst. In the hills to the north live the Zhuang and Yao peoples, who turned the slopes into rice terraces."
       ],
       vidjeti: [
-        { ime: "Rijeka Li", opis: "Plovidba od Guilina do Yangshuoa traje oko četiri sata. Svako brdo ima ime po onome na što podsjeća, a kod Brda devet konja vodiči pitaju koliko konja vidite na stijeni. Prema predaji, tko ih vidi svih devet, bit će prvi na carskom ispitu." },
-        { ime: "Xingping", opis: "Stari ribarski gradić uz rijeku. Zavoj rijeke nedaleko od njega prikazan je na poleđini novčanice od dvadeset juana, i svi ondje vade novčanicu da usporede." },
-        { ime: "Rižine terase Longji", opis: "Ime znači „zmajeva kralježnica“. Terase su se počele graditi prije više od šest stoljeća i penju se od podnožja do vrha planine. U selu Huangluo žive žene naroda Yao poznate po kosi dugoj i više od metra, koju prema predaji režu samo jednom u životu." },
-        { ime: "Špilja trščane frule", opis: "Špilja u Guilinu puna je stalaktita osvijetljenih u bojama. Ime je dobila po trsci koja raste pred ulazom i od koje su se radile frule. Na zidovima su natpisi tušem koje su posjetitelji ostavljali još za dinastije Tang." },
-        { ime: "Brdo slonove surle", opis: "Simbol Guilina stijena je na ušću dviju rijeka, čiji luk izgleda kao slon koji pije vodu. Najbolje se vidi s druge obale ili s čamca." },
-        { ime: "Rijeka Yulong i Mjesečevo brdo", opis: "Pritoka rijeke Li kraj Yangshuoa mirnija je i plića, a splavi od bambusa pokreću se motkom. Mjesečevo brdo ima prirodan otvor u obliku polumjeseca, do kojeg vodi oko osamsto stuba." }
+        { ime: "Li River", opis: "The cruise from Guilin to Yangshuo takes about four hours. Every hill is named after whatever it resembles, and at Nine Horses Fresco Hill the guides ask how many horses you can see on the rock. According to tradition, whoever sees all nine will come first in the imperial examination." },
+        { ime: "Xingping", opis: "An old fishing town on the river. A bend in the river not far from it is shown on the back of the twenty yuan banknote, and everyone there pulls out a note to compare." },
+        { ime: "Longji Rice Terraces", opis: "The name means “dragon's backbone”. Building began more than six centuries ago, and the terraces climb from the foot of the mountain to its top. The village of Huangluo is home to the women of the Yao people, known for hair more than a meter long, which by tradition they cut only once in their lives." },
+        { ime: "Reed Flute Cave", opis: "This cave in Guilin is full of stalactites lit in color. It takes its name from the reeds that grow in front of the entrance, which were used to make flutes. On the walls are ink inscriptions left by visitors as far back as the Tang dynasty." },
+        { ime: "Elephant Trunk Hill", opis: "The symbol of Guilin is a rock at the confluence of two rivers, whose arch looks like an elephant drinking water. It is best seen from the opposite bank or from a boat." },
+        { ime: "Yulong River and Moon Hill", opis: "This tributary of the Li River near Yangshuo is calmer and shallower, and the bamboo rafts are pushed along with a pole. Moon Hill has a natural opening in the shape of a crescent, reached by about eight hundred steps." }
       ],
       jesti: [
-        { ime: "Guilinski rižini rezanci", opis: "Okrugli rižini rezanci s umakom od kuhanih kostiju, kikirikijem, ukiseljenim mahunama i tankim kriškama mesa. Jedu se za doručak, prvo gotovo suhi, a potom se dolije juha." },
-        { ime: "Riba u pivu", opis: "Specijalitet Yangshuoa: riječni šaran pržen pa pirjan u lokalnom pivu s rajčicom i paprikom. Jede se u restoranima uz Zapadnu ulicu." },
-        { ime: "Uljni čaj", opis: "Napitak naroda Yao i Dong od prženih listova čaja tučenih s đumbirom, u koji se doda napuhana riža i kikiriki. Gorak je i slan, više juha nego čaj." }
+        { ime: "Guilin rice noodles", opis: "Round rice noodles with a sauce made from simmered bones, peanuts, pickled green beans and thin slices of meat. They are eaten for breakfast, almost dry at first, and then broth is added." },
+        { ime: "Beer fish", opis: "A Yangshuo specialty: river carp that is fried and then braised in local beer with tomato and peppers. It is eaten in the restaurants along West Street." },
+        { ime: "Oil tea", opis: "A drink of the Yao and Dong peoples made from roasted tea leaves pounded with ginger, to which puffed rice and peanuts are added. It is bitter and salty, more a soup than a tea." }
       ],
       dozivjeti: [
-        { ime: "Biciklom između brda", opis: "Bike Asia iz Yangshuoa iznajmljuje bicikle i vodi izlete poljskim putovima uz rijeku Yulong, kroz sela i rižina polja.", link: "https://bikeasia.com/" },
-        { ime: "Predstava na rijeci", opis: "„Impresija Liu Sanjie“ izvodi se od 2004. na otvorenom kraj Yangshuoa. Režirao ju je filmski redatelj Zhang Yimou, pozornica je sama rijeka, a kulisa dvanaest osvijetljenih brda. Nastupaju stotine mještana, među njima i ribari." },
-        { ime: "Tečaj kuhanja na selu", opis: "Oko Yangshuoa nekoliko seoskih škola nudi tečajeve koji počinju na tržnici, a nastavljaju se kuhanjem u woku na otvorenom, s pogledom na brda." },
-        { ime: "Ribari s kormoranima", opis: "Stari način ribolova, u kojem dresirane ptice rone po ribu, danas se održava ponajviše radi posjetitelja. Najljepše ga je vidjeti u sumrak kod Xingpinga." }
+        { ime: "Cycling between the hills", opis: "Bike Asia in Yangshuo rents bicycles and leads trips along farm tracks beside the Yulong River, through villages and rice fields.", link: "https://bikeasia.com/" },
+        { ime: "A show on the river", opis: "“Impression Liu Sanjie” has been performed outdoors near Yangshuo since 2004. It was directed by the film director Zhang Yimou, the stage is the river itself, and the backdrop is twelve illuminated hills. Hundreds of locals perform, fishermen among them." },
+        { ime: "Cooking class in the countryside", opis: "Around Yangshuo, several village schools offer classes that begin at the market and continue with cooking in a wok outdoors, with a view of the hills." },
+        { ime: "Cormorant fishermen", opis: "The old way of fishing, in which trained birds dive for the fish, is kept up today mostly for visitors. It is loveliest to watch at dusk near Xingping." }
       ],
       agencije: [
-        { ime: "Guilin China", opis: "Turistička agencija sa sjedištem u Guilinu, koja prodaje karte za plovidbu rijekom Li, prijevoze i jednodnevne izlete.", link: "https://www.guilinchina.net/" },
-        { ime: "Bike Asia", opis: "Organizator biciklističkih tura sa sjedištem u Yangshuou.", link: "https://bikeasia.com/" },
-        { ime: "China Highlights", opis: "Velika turistička agencija osnovana u Guilinu, koja slaže putovanja po mjeri po cijeloj Kini.", link: "https://www.chinahighlights.com/" }
+        { ime: "Guilin China", opis: "A travel agency based in Guilin that sells tickets for Li River cruises, transfers and day trips.", link: "https://www.guilinchina.net/" },
+        { ime: "Bike Asia", opis: "An organizer of cycling tours based in Yangshuo.", link: "https://bikeasia.com/" },
+        { ime: "China Highlights", opis: "A large travel agency founded in Guilin that puts together tailor-made trips all over China.", link: "https://www.chinahighlights.com/" }
       ],
-      kada: "Travanj i svibanj zbog izmaglice kakva je na slikama te rujan i listopad zbog vedrog vremena. Rižine terase napunjene vodom blistaju u svibnju i lipnju, a zlatne su krajem rujna."
+      kada: "April and May for the kind of mist you see in the paintings, and September and October for clear weather. The rice terraces glisten when filled with water in May and June, and they turn golden in late September."
     },
     {
       id: "chengdu",
       ime: "Chengdu",
       vrsta: "grad",
-      sazetak: "Opušteni glavni grad Sečuana, dom velikih pandi, čajana i kuhinje od koje trnu usne.",
+      sazetak: "The laid-back capital of Sichuan, home to giant pandas, teahouses and a cuisine that makes your lips tingle.",
       prica: [
-        "Chengdu postoji na istom mjestu i pod istim imenom više od dvije tisuće godina. Bogatstvo duguje sustavu navodnjavanja Dujiangyan, koji je u 3. stoljeću prije Krista osmislio upravitelj Li Bing i koji i danas radi, bez ijedne brane.",
-        "Plodna ravnica dala je gradu vremena za užitke, pa su ovdje nastale čajane u kojima se sjedi satima i jedna od četiriju velikih kineskih kuhinja. UNESCO je 2010. Chengdu proglasio prvim azijskim gradom gastronomije."
+        "Chengdu has existed in the same place and under the same name for more than two thousand years. It owes its wealth to the Dujiangyan irrigation system, devised in the 3rd century BC by the governor Li Bing and still working today, without a single dam.",
+        "The fertile plain gave the city time for pleasures, so this is where teahouses that people sit in for hours came about, along with one of the four great Chinese cuisines. In 2010 UNESCO named Chengdu the first Asian City of Gastronomy."
       ],
       vidjeti: [
-        { ime: "Centar za uzgoj velikih pandi", opis: "Osnovan je 1987. sa šest spašenih pandi, a danas ih ima više od dvjesto. Dođite odmah po otvaranju, jer pande doručkuju i igraju se ujutro, a ostatak dana uglavnom spavaju. U zasebnoj kući žive crvene pande, koje s velikima nisu ni u kakvu srodstvu." },
-        { ime: "Svetište Wuhou", opis: "Posvećeno je Zhugeu Liangu, mudrom savjetniku iz doba Triju kraljevstava, u 3. stoljeću, kojeg Kinezi smatraju utjelovljenjem odanosti i lukavstva. Između crvenih zidova vodi staza pod bambusom, a uz svetište je stara ulica Jinli sa zalogajima." },
-        { ime: "Koliba pjesnika Du Fua", opis: "Du Fu, jedan od najvećih kineskih pjesnika, sklonio se ovamo od rata 759. godine i u četiri godine napisao oko 240 pjesama. Koliba je rekonstrukcija u velikom vrtu s bambusom i potocima." },
-        { ime: "Narodni park i čajana Heming", opis: "U stoljetnoj čajani pod stablima sjedi se u bambusovim naslonjačima uz čaj u šalici s poklopcem. Između stolova hodaju majstori čišćenja ušiju, koji zvukom metalne vilice nude uslugu." },
-        { ime: "Veliki Buda u Leshanu", opis: "Dva sata od grada u stijenu nad sutokom triju rijeka uklesan je sjedeći Buda visok 71 metar. Klesanje je trajalo od 713. do 803., a pokrenuo ga je redovnik Haitong kako bi umirio opasne vrtloge. U kosi i naborima odjeće skriveni su kanali koji odvode kišnicu." },
-        { ime: "Samostan Wenshu", opis: "Najživlji budistički hram u gradu, s mirnim dvorištima, vegetarijanskim restoranom i čajanom u kojoj sjede domaći." }
+        { ime: "Giant Panda Breeding Research Base", opis: "It was founded in 1987 with six rescued pandas, and today it has more than two hundred. Come right at opening time, because the pandas have breakfast and play in the morning and mostly sleep for the rest of the day. A separate enclosure houses red pandas, which are not related to the giant ones at all." },
+        { ime: "Wuhou Shrine", opis: "It is dedicated to Zhuge Liang, the wise adviser from the Three Kingdoms period in the 3rd century, whom the Chinese regard as the embodiment of loyalty and cunning. A path under bamboo runs between red walls, and next to the shrine is the old Jinli Street with its snacks." },
+        { ime: "Du Fu Thatched Cottage", opis: "Du Fu, one of the greatest Chinese poets, took refuge here from war in the year 759 and wrote about 240 poems in four years. The cottage is a reconstruction set in a large garden with bamboo and streams." },
+        { ime: "People's Park and Heming Teahouse", opis: "In the century-old teahouse under the trees, people sit in bamboo armchairs with tea in a lidded cup. Ear-cleaning masters walk between the tables, offering their service with the ring of a metal tuning fork." },
+        { ime: "Leshan Giant Buddha", opis: "Two hours from the city, a seated Buddha 71 meters tall is carved into the cliff above the confluence of three rivers. The carving lasted from 713 to 803 and was begun by the monk Haitong in order to calm the dangerous whirlpools. Hidden in the hair and the folds of the robes are channels that drain away rainwater." },
+        { ime: "Wenshu Monastery", opis: "The liveliest Buddhist temple in the city, with peaceful courtyards, a vegetarian restaurant and a teahouse where the locals sit." }
       ],
       jesti: [
-        { ime: "Sečuanski vrući lonac", opis: "Crvena juha puna čilija i sečuanskog papra, u kojoj se kuhaju tanko rezano meso, tripice i povrće. Zalogaj se hladi u zdjelici sezamova ulja s češnjakom." },
-        { ime: "Mapo tofu", opis: "Jelo je nastalo upravo u Chengduu, a restoran koji nosi ime njegove tvorke i danas ga poslužuje." },
-        { ime: "Dandan rezanci", opis: "Rezanci s ljutim umakom, mljevenim mesom i ukiseljenim povrćem. Ime su dobili po motki preko ramena na kojoj su ih ulični prodavači nosili." },
-        { ime: "Zečje glave", opis: "Najneobičniji lokalni zalogaj, mariniran u ljutim začinima. Domaći ga jedu rukama uz pivo, a vi ga barem pogledajte na štandu." }
+        { ime: "Sichuan hot pot", opis: "A red broth full of chili and Sichuan pepper, in which thinly sliced meat, tripe and vegetables are cooked. Each bite is cooled in a small bowl of sesame oil with garlic." },
+        { ime: "Mapo tofu", opis: "The dish was created right here in Chengdu, and the restaurant that bears its creator's name still serves it today." },
+        { ime: "Dandan noodles", opis: "Noodles with a spicy sauce, minced meat and pickled vegetables. They are named after the shoulder pole on which street vendors used to carry them." },
+        { ime: "Rabbit heads", opis: "The most unusual local snack, marinated in hot spices. Locals eat it with their hands alongside a beer, and you can at least take a look at it on a stall." }
       ],
       dozivjeti: [
-        { ime: "Tura sečuanske hrane", opis: "Chengdu Food Tours vodi trosatne šetnje od zalogajnice do zalogajnice, a nudi i cjelodnevni izlet na selo s ručkom kuhanim od onoga što se ubere.", link: "https://chengdufoodtours.com/" },
-        { ime: "Sečuanska opera", opis: "Večernja predstava s rigačima vatre, sjenama od ruku i umijećem bian lian, u kojem glumac u djeliću sekunde mijenja masku za maskom. Tehnika je tajna koja se prenosi unutar obitelji." },
-        { ime: "Jutro s pandama", opis: "Ulaznice za centar kupuju se unaprijed, uz broj putovnice, na službenoj stranici.", link: "https://www.panda.org.cn/en/" }
+        { ime: "Sichuan food tour", opis: "Chengdu Food Tours leads three-hour walks from eatery to eatery, and also offers a full-day trip to the countryside with a lunch cooked from whatever is picked.", link: "https://chengdufoodtours.com/" },
+        { ime: "Sichuan opera", opis: "An evening show with fire breathers, hand shadows and the art of bian lian, in which the actor changes mask after mask in a fraction of a second. The technique is a secret passed down within families." },
+        { ime: "A morning with the pandas", opis: "Tickets for the base are bought in advance, with your passport number, on the official website.", link: "https://www.panda.org.cn/en/" }
       ],
       agencije: [
-        { ime: "GoChengdu", opis: "Gradski portal na engleskom, s informacijama o kulturi, hrani i pandama.", link: "https://www.gochengdu.cn/en" },
-        { ime: "Chengdu Food Tours", opis: "Lokalni organizator gastronomskih tura i izleta na selo.", link: "https://chengdufoodtours.com/" },
-        { ime: "Centar za uzgoj velikih pandi", opis: "Službena stranica centra s ulaznicama i pravilima posjeta.", link: "https://www.panda.org.cn/en/" }
+        { ime: "GoChengdu", opis: "The city's English-language portal, with information on culture, food and pandas.", link: "https://www.gochengdu.cn/en" },
+        { ime: "Chengdu Food Tours", opis: "A local organizer of food tours and trips to the countryside.", link: "https://chengdufoodtours.com/" },
+        { ime: "Giant Panda Breeding Research Base", opis: "The base's official website, with tickets and visiting rules.", link: "https://www.panda.org.cn/en/" }
       ],
-      kada: "Ožujak do lipnja te rujan do studenog. Nebo je često sivo, što domaćima ne smeta. Ako ne jedete ljuto, naučite reći „bu yao la“, i svejedno očekujte malo čilija."
+      kada: "March to June and September to November. The sky is often gray, which does not bother the locals. If you do not eat spicy food, learn to say “bu yao la”, and expect a little chili all the same."
     },
     {
       id: "hong-kong",
       ime: "Hong Kong",
       vrsta: "grad",
-      sazetak: "Grad nebodera stisnut između planina i mora, u kojem se dim sum jede ujutro, a luka gleda s trajekta starog više od stoljeća.",
+      sazetak: "A city of skyscrapers squeezed between mountains and sea, where dim sum is eaten in the morning and the harbor is viewed from a ferry more than a century old.",
       prica: [
-        "Velika Britanija zauzela je otok Hong Kong 1842., nakon Prvog opijumskog rata. Poluotok Kowloon dodala je 1860., a Nove teritorije unajmila je 1898. na 99 godina. Kada je najam istekao, 1. srpnja 1997., cijelo je područje vraćeno Kini kao posebno upravno područje.",
-        "Zbog tog razdoblja ovdje se vozi lijevom stranom, pije čaj s mlijekom i govori kantonski, a ne mandarinski. Više od dvije trećine površine čine brda, šume i otoci, pa je od nebodera do pješačke staze često samo pola sata."
+        "Great Britain took Hong Kong Island in 1842, after the First Opium War. It added the Kowloon Peninsula in 1860, and in 1898 it leased the New Territories for 99 years. When the lease expired, on July 1, 1997, the whole area was returned to China as a special administrative region.",
+        "Because of that period, people here drive on the left, drink tea with milk and speak Cantonese rather than Mandarin. More than two thirds of the territory is made up of hills, forests and islands, so it is often only half an hour from a skyscraper to a hiking trail."
       ],
       vidjeti: [
-        { ime: "Victoria Peak", opis: "S brda visokog 552 metra vidi se cijela luka. Uspinjača vozi od 1888. i toliko je strma da se čini kako se neboderi naginju. Prođite kružnom stazom Lugard Road, s koje je pogled bolji nego s plaćenog vidikovca." },
-        { ime: "Star Ferry", opis: "Zeleno-bijeli trajekti prevoze putnike između otoka i Kowloona od kraja 19. stoljeća, a vožnja traje desetak minuta. Naslone klupa možete prebaciti na drugu stranu, da uvijek gledate u smjeru vožnje." },
-        { ime: "Hram Man Mo", opis: "Hram iz 1847. posvećen je bogu književnosti i bogu rata, kojima su se molili i studenti i policajci. Sa stropa vise goleme spirale tamjana, koje gore tjednima. U kolonijalno doba ovdje su se rješavali sporovi među Kinezima." },
-        { ime: "Veliki Buda na Lantauu", opis: "Brončani kip visok 34 metra dovršen je 1993. i sjedi nad samostanom Po Lin, a do njega vodi 268 stuba. Na otok se stiže žičarom dugom gotovo šest kilometara, s pogledom na more i zračnu luku." },
-        { ime: "Muzej palače u Hong Kongu", opis: "Otvoren je 2022. u četvrti West Kowloon i izlaže stotine predmeta posuđenih iz pekinškog Zabranjenog grada: carske haljine, porculan i slike." },
-        { ime: "Hram Wong Tai Sin", opis: "Ovamo se dolazi pitati za sudbinu. Vjernici klečeći tresu posudu s numeriranim štapićima dok jedan ne ispadne, a zatim s tim brojem odu gataru na tumačenje." }
+        { ime: "Victoria Peak", opis: "From this hill 552 meters high you can see the entire harbor. The funicular has been running since 1888 and is so steep that the skyscrapers seem to lean. Walk the circular Lugard Road trail, where the view is better than from the paid observation deck." },
+        { ime: "Star Ferry", opis: "The green and white ferries have carried passengers between the island and Kowloon since the late 19th century, and the ride takes about ten minutes. You can flip the bench backs to the other side so that you always face the direction of travel." },
+        { ime: "Man Mo Temple", opis: "This temple from 1847 is dedicated to the god of literature and the god of war, to whom both students and policemen prayed. Huge spirals of incense hang from the ceiling and burn for weeks. In colonial times, disputes among the Chinese were settled here." },
+        { ime: "The Big Buddha on Lantau", opis: "The bronze statue, 34 meters high, was completed in 1993 and sits above Po Lin Monastery, reached by 268 steps. You get to the island by a cable car almost six kilometers long, with views of the sea and the airport." },
+        { ime: "Hong Kong Palace Museum", opis: "It opened in 2022 in the West Kowloon district and displays hundreds of objects on loan from Beijing's Forbidden City: imperial robes, porcelain and paintings." },
+        { ime: "Wong Tai Sin Temple", opis: "People come here to ask about their fate. Worshippers kneel and shake a container of numbered sticks until one falls out, and then take that number to a fortune teller for interpretation." }
       ],
       jesti: [
-        { ime: "Dim sum", opis: "Parene okruglice s račićima har gow, okruglice sa svinjetinom siu mai i pecivo s pečenom svinjetinom char siu bao tri su zalogaja koja treba kušati. Jede se prijepodne, uz čaj." },
-        { ime: "Pečena guska i char siu", opis: "Meso pečeno do sjajne kore visi u izlozima pečenjarnica. Naručuje se na riži ili s rezancima." },
-        { ime: "Čaj s mlijekom i pecivo ananas", opis: "Jaki crni čaj procijeđen kroz platnenu vrećicu, zbog koje ga zovu čajem iz svilene čarape, s kondenziranim mlijekom. Pecivo ananas nema nimalo ananasa, nego hrskavu slatku koru koja na njega podsjeća. Poslužuju se u zalogajnicama cha chaan teng." },
-        { ime: "Dan tat", opis: "Košarica od prhkog tijesta sa žutom kremom od jaja, hongkonška inačica engleskog kolača s kremom. Najbolja je topla." }
+        { ime: "Dim sum", opis: "The steamed shrimp dumplings har gow, the pork dumplings siu mai and the roast pork buns char siu bao are the three bites you should try. It is eaten in the late morning, with tea." },
+        { ime: "Roast goose and char siu", opis: "Meat roasted to a glossy crust hangs in the windows of the roast meat shops. It is ordered on rice or with noodles." },
+        { ime: "Milk tea and pineapple bun", opis: "Strong black tea strained through a cloth bag, which is why it is called silk stocking tea, with condensed milk. The pineapple bun has no pineapple in it at all, only a crisp sweet crust that resembles one. Both are served in the cha chaan teng diners." },
+        { ime: "Dan tat", opis: "A shortcrust pastry shell with a yellow egg custard, Hong Kong's version of the English custard tart. It is best warm." }
       ],
       dozivjeti: [
-        { ime: "Šetnja s lokalnim povjesničarima", opis: "Walk in Hong Kong vodi tematske šetnje koje otkrivaju skrivenu povijest četvrti, od starih tržnica do kolonijalnih zgrada.", link: "https://walkin.hk/" },
-        { ime: "Gastronomska šetnja", opis: "Hong Kong Foodie vodi po obiteljskim zalogajnicama u četvrtima Central, Sheung Wan i Sham Shui Po, gdje same teško pogodite što naručiti.", link: "https://www.hongkongfoodietours.com/" },
-        { ime: "Tramvaj na kat", opis: "Uski tramvaji, koje zovu „ding ding“ po zvuku zvona, voze duž sjeverne obale otoka od 1904. Sjednite gore, u prvi red." },
-        { ime: "Žičara Ngong Ping 360", opis: "Vožnja do Velikog Bude traje oko 25 minuta. Postoje i kabine sa staklenim podom.", link: "https://www.np360.com.hk/en" }
+        { ime: "A walk with local historians", opis: "Walk in Hong Kong leads themed walks that reveal the hidden history of the neighborhoods, from old markets to colonial buildings.", link: "https://walkin.hk/" },
+        { ime: "Food walk", opis: "Hong Kong Foodie takes you to family-run eateries in the Central, Sheung Wan and Sham Shui Po districts, where it is hard to guess what to order on your own.", link: "https://www.hongkongfoodietours.com/" },
+        { ime: "Double-decker tram", opis: "The narrow trams, called “ding ding” after the sound of their bell, have run along the north shore of the island since 1904. Sit upstairs, in the front row." },
+        { ime: "Ngong Ping 360 cable car", opis: "The ride to the Big Buddha takes about 25 minutes. There are also cabins with a glass floor.", link: "https://www.np360.com.hk/en" }
       ],
       agencije: [
-        { ime: "Discover Hong Kong", opis: "Službeni turistički vodič Hong Konga.", link: "https://www.discoverhongkong.com/eng/index.html" },
-        { ime: "Walk in Hong Kong", opis: "Kulturno poduzeće koje organizira dubinske pješačke ture i radionice.", link: "https://walkin.hk/" },
-        { ime: "Star Ferry", opis: "Službena stranica trajekta s voznim redom i kružnim vožnjama lukom.", link: "https://www.starferry.com.hk/en/home" }
+        { ime: "Discover Hong Kong", opis: "The official tourist guide to Hong Kong.", link: "https://www.discoverhongkong.com/eng/index.html" },
+        { ime: "Walk in Hong Kong", opis: "A cultural enterprise that organizes in-depth walking tours and workshops.", link: "https://walkin.hk/" },
+        { ime: "Star Ferry", opis: "The ferry's official website, with the timetable and harbor cruises.", link: "https://www.starferry.com.hk/en/home" }
       ],
-      kada: "Od listopada do prosinca, kada je suho, vedro i ugodno toplo. Ljeto je vruće i vlažno, s mogućim tajfunima. Za sav prijevoz uzmite karticu Octopus."
+      kada: "From October to December, when it is dry, clear and pleasantly warm. Summer is hot and humid, with possible typhoons. Get an Octopus card for all transport."
     },
     {
       id: "hangzhou",
       ime: "Hangzhou",
       vrsta: "grad",
-      sazetak: "Grad na jezeru koje su opjevali pjesnici, okružen brežuljcima na kojima raste najcjenjeniji kineski zeleni čaj.",
+      sazetak: "A city on a lake celebrated by poets, surrounded by hills where China's most prized green tea grows.",
       prica: [
-        "Hangzhou je bio prijestolnica dinastije Južni Song od 1138. do 1276. i tada jedan od najvećih i najbogatijih gradova na svijetu. Marko Polo, koji ga je opisao nedugo nakon toga, nazvao ga je najljepšim i najotmjenijim gradom na svijetu.",
-        "Ovdje završava Veliki kanal, najduži umjetni vodeni put na svijetu, kojim se riža s juga vozila u Peking. Zapadno jezero upisano je na UNESCO-ov popis 2011., a Veliki kanal 2014."
+        "Hangzhou was the capital of the Southern Song dynasty from 1138 to 1276, and at that time one of the largest and richest cities in the world. Marco Polo, who described it not long afterward, called it the finest and most splendid city in the world.",
+        "This is where the Grand Canal ends, the longest man-made waterway in the world, along which rice from the south was carried to Beijing. West Lake was added to the UNESCO list in 2011 and the Grand Canal in 2014."
       ],
       vidjeti: [
-        { ime: "Zapadno jezero", opis: "Jezero su stoljećima oblikovali ljudi. Nasip Su dao je 1090. od izvađenog mulja sagraditi pjesnik Su Dongpo dok je bio upravitelj grada. Tri kamena tornjića u vodi, u koje se za punog mjeseca stavljaju svijeće, prikazana su na novčanici od jednog juana." },
-        { ime: "Hram Lingyin", opis: "Hram „skrovišta duše“ osnovao je u 4. stoljeću redovnik iz Indije. Na stijeni preko puta, koja se zove Vrh koji je doletio, uklesano je više od tristo budističkih likova od 10. do 14. stoljeća. Potražite nasmijanog Budu velikog trbuha." },
-        { ime: "Pagoda Leifeng", opis: "Izvorna pagoda iz 10. stoljeća srušila se 1924., dijelom zato što su ljudi odnosili opeke vjerujući da donose sreću. Nova je sagrađena 2002. iznad sačuvanih temelja, koji se vide u prizemlju. Uz nju je vezana Legenda o bijeloj zmiji, ljubavna priča koju zna svako kinesko dijete." },
-        { ime: "Sela čaja Longjing", opis: "Na brežuljcima zapadno od jezera raste čaj Longjing, što znači „zmajev zdenac“. Najcjenjeniji su listovi ubrani prije blagdana Qingming, početkom travnja. Listovi se ručno prže u vrućem woku, i to možete gledati u dvorištima." },
-        { ime: "Kineski nacionalni muzej čaja", opis: "Muzej usred plantaža objašnjava kako od iste biljke nastaje šest vrsta čaja i kako se čaj pio kroz dinastije, od mljevenog i tučenog do današnjeg. Ulaz je slobodan." },
-        { ime: "Ulica Hefang i ljekarna Hu Qing Yu Tang", opis: "Stara trgovačka ulica sa zalogajima i suvenirima. Ljekarna tradicionalne medicine iz 1874. i danas radi u izvornoj zgradi, s visokim drvenim ormarima punima ladica s biljem." }
+        { ime: "West Lake", opis: "The lake has been shaped by people for centuries. The Su Causeway was built in 1090 from dredged mud on the orders of the poet Su Dongpo, while he was governor of the city. The three small stone towers in the water, in which candles are placed at full moon, are shown on the one yuan banknote." },
+        { ime: "Lingyin Temple", opis: "The temple of the “soul's retreat” was founded in the 4th century by a monk from India. On the rock across the way, called the Peak That Flew Here, more than three hundred Buddhist figures were carved between the 10th and 14th centuries. Look for the laughing Buddha with the big belly." },
+        { ime: "Leifeng Pagoda", opis: "The original 10th-century pagoda collapsed in 1924, partly because people had been carrying off its bricks in the belief that they brought luck. The new one was built in 2002 above the preserved foundations, which can be seen on the ground floor. It is tied to the Legend of the White Snake, a love story that every Chinese child knows." },
+        { ime: "Longjing tea villages", opis: "On the hills west of the lake grows Longjing tea, whose name means “dragon well”. The most prized leaves are those picked before the Qingming festival, in early April. The leaves are roasted by hand in a hot wok, and you can watch this in the courtyards." },
+        { ime: "China National Tea Museum", opis: "This museum in the middle of the plantations explains how six kinds of tea come from the same plant and how tea was drunk through the dynasties, from ground and whisked to the tea of today. Admission is free." },
+        { ime: "Hefang Street and the Hu Qing Yu Tang pharmacy", opis: "An old shopping street with snacks and souvenirs. The traditional medicine pharmacy from 1874 still operates in its original building, with tall wooden cabinets full of drawers of herbs." }
       ],
       jesti: [
-        { ime: "Dongpo svinjetina", opis: "Kocka svinjske potrbušine satima pirjana u rižinu vinu i soji, toliko mekana da se jede žlicom. Predaja je pripisuje pjesniku Su Dongpu, koji je meso dijelio radnicima na nasipu." },
-        { ime: "Riba sa Zapadnog jezera u octu", opis: "Slatkovodna riba kratko kuhana i prelivena gustim slatko-kiselim umakom od crnog octa." },
-        { ime: "Račići s čajem Longjing", opis: "Riječni račići prženi sa svježim listićima zelenog čaja, blago i nježno jelo koje pokazuje koliko je ovdašnja kuhinja daleko od sečuanske ljutine." },
-        { ime: "Prosjačka piletina", opis: "Pile umotano u lotosov list i glinu, pečeno satima. Legenda kaže da ga je tako prvi put ispekao gladni prosjak koji nije imao lonac." }
+        { ime: "Dongpo pork", opis: "A cube of pork belly braised for hours in rice wine and soy sauce, so tender that it is eaten with a spoon. Tradition attributes it to the poet Su Dongpo, who handed the meat out to the workers on the causeway." },
+        { ime: "West Lake fish in vinegar", opis: "Freshwater fish briefly poached and covered with a thick sweet and sour sauce made from black vinegar." },
+        { ime: "Longjing tea shrimp", opis: "River shrimp stir-fried with fresh green tea leaves, a mild and delicate dish that shows how far the local cuisine is from Sichuan heat." },
+        { ime: "Beggar's chicken", opis: "A chicken wrapped in a lotus leaf and clay and baked for hours. Legend says it was first cooked this way by a hungry beggar who had no pot." }
       ],
       dozivjeti: [
-        { ime: "Čamcem i biciklom oko jezera", opis: "Veslači voze drvene čamce do otočića, a obalu je najbolje obići gradskim biciklom, preko oba nasipa. Najljepše je rano ujutro, u izmaglici." },
-        { ime: "Čaj na izvoru", opis: "U selima Longjing i Meijiawu obitelji poslužuju čaj u čašama na terasama s pogledom na plantaže. U proljeće se posjetitelji mogu pridružiti berbi.", link: "https://www.teamuseum.cn/" },
-        { ime: "Izlet u Suzhou", opis: "Brzim vlakom stiže se u grad kanala i klasičnih vrtova, koji su na UNESCO-ovu popisu od 1997. Vrt skromnog upravitelja i Muzej Suzhoua, djelo arhitekta I. M. Peija, mogu se obići u jednom danu.", link: "https://www.szmuseum.com/En/Home/Index" }
+        { ime: "Around the lake by boat and bike", opis: "Rowers take wooden boats out to the small islands, and the shore is best explored on a city bike, across both causeways. It is loveliest early in the morning, in the mist." },
+        { ime: "Tea at the source", opis: "In the villages of Longjing and Meijiawu, families serve tea in glasses on terraces overlooking the plantations. In spring, visitors can join the harvest.", link: "https://www.teamuseum.cn/" },
+        { ime: "Day trip to Suzhou", opis: "A high-speed train takes you to the city of canals and classical gardens, which have been on the UNESCO list since 1997. The Humble Administrator's Garden and the Suzhou Museum, the work of the architect I. M. Pei, can be seen in a single day.", link: "https://www.szmuseum.com/En/Home/Index" }
       ],
       agencije: [
-        { ime: "China Highlights", opis: "Turistička agencija koja organizira vođene obilaske Hangzhoua, plantaža čaja i Suzhoua.", link: "https://www.chinahighlights.com/" },
-        { ime: "WildChina", opis: "Organizator putovanja po mjeri s naglaskom na kulturu i hranu.", link: "https://wildchina.com/" },
-        { ime: "Kineski nacionalni muzej čaja", opis: "Službena stranica muzeja.", link: "https://www.teamuseum.cn/" }
+        { ime: "China Highlights", opis: "A travel agency that organizes guided tours of Hangzhou, the tea plantations and Suzhou.", link: "https://www.chinahighlights.com/" },
+        { ime: "WildChina", opis: "An organizer of tailor-made trips with a focus on culture and food.", link: "https://wildchina.com/" },
+        { ime: "China National Tea Museum", opis: "The museum's official website.", link: "https://www.teamuseum.cn/" }
       ],
-      kada: "Kraj ožujka i travanj, zbog berbe čaja i breskvi u cvatu uz nasipe, te listopad, kada miriše osmantus. Iz Šangaja se brzim vlakom stiže za otprilike sat vremena."
+      kada: "Late March and April, for the tea harvest and the peach trees in bloom along the causeways, and October, when the osmanthus is fragrant. From Shanghai, the high-speed train takes about an hour."
     },
     {
       id: "zhangjiajie",
       ime: "Zhangjiajie",
       vrsta: "priroda",
-      sazetak: "Šuma kamenih stupova koji izranjaju iz magle, krajolik koji je nadahnuo lebdeće planine u filmu Avatar.",
+      sazetak: "A forest of stone pillars rising out of the mist, the landscape that inspired the floating mountains in the film Avatar.",
       prica: [
-        "Na sjeverozapadu pokrajine Hunan voda i mraz izdubili su u kvarcnom pješčenjaku više od tri tisuće stupova, od kojih su mnogi viši od dvjesto metara. Kraj je stoljećima bio zabačen i poznat samo narodu Tujia, koji ovdje živi.",
-        "Godine 1982. ovdje je proglašen prvi kineski nacionalni šumski park, a šire područje Wulingyuan upisano je na UNESCO-ov popis 1992. Odonda su izgrađeni žičare, dizala i stakleni mostovi, pa se do vidikovaca stiže bez mnogo penjanja."
+        "In the northwest of Hunan province, water and frost carved more than three thousand pillars out of quartz sandstone, many of them taller than two hundred meters. For centuries the area was remote and known only to the Tujia people, who live here.",
+        "In 1982 China's first national forest park was declared here, and the wider Wulingyuan area was added to the UNESCO list in 1992. Since then, cable cars, elevators and glass bridges have been built, so the viewpoints can be reached without much climbing."
       ],
       vidjeti: [
-        { ime: "Yuanjiajie i Planina Aleluja", opis: "S visoravni se gleda u more stupova. Stup visok više od tisuću metara nad morem, koji se zvao Stup južnog neba, 2010. je preimenovan u Planinu Aleluja iz Avatara. Nedaleko je i prirodni kameni most koji spaja dva vrha iznad ponora." },
-        { ime: "Dizalo Bailong", opis: "Stakleno dizalo ugrađeno u liticu penje se 326 metara za manje od dvije minute i smatra se najvišim vanjskim dizalom na svijetu. Otvoreno je 2002. i uštedi sate hodanja, premda mnogi smatraju da nagrđuje stijenu." },
-        { ime: "Planina Tianzi", opis: "Ime znači „sin neba“, po vođi naroda Tujia koji se ovdje pobunio protiv cara u 14. stoljeću. Stupovi se odavde vide odozgo, a nakon kiše iz magle vire samo vrhovi." },
-        { ime: "Potok zlatnog biča", opis: "Lagana staza duga oko sedam kilometara vodi dnom klanca, uz bistar potok, pa stupove gledate odozdo. Uz put žive makaki majmuni, koje ne treba hraniti, a vrećice s hranom držite zatvorene." },
-        { ime: "Planina Tianmen", opis: "Zaseban park iznad samog grada, do kojeg vodi žičara duga više od sedam kilometara. Na vrhu je staza sa staklenim podom uz rub litice, a ispod nje Nebeska vrata, prirodan otvor u stijeni do kojeg se penje uz 999 stuba. Cesta do njega ima 99 zavoja." },
-        { ime: "Stakleni most u Velikom kanjonu", opis: "Most dug 430 metara, otvoren 2016., razapet je oko tristo metara iznad dna kanjona, a pod mu je proziran. Broj posjetitelja je ograničen i ulaznice se rezerviraju." }
+        { ime: "Yuanjiajie and Hallelujah Mountain", opis: "From the plateau you look out over a sea of pillars. A pillar standing more than a thousand meters above sea level, formerly called the Southern Sky Column, was renamed in 2010 as Hallelujah Mountain from Avatar. Nearby there is also a natural stone bridge that links two peaks above the abyss." },
+        { ime: "Bailong Elevator", opis: "This glass elevator built into the cliff climbs 326 meters in less than two minutes and is considered the tallest outdoor elevator in the world. It opened in 2002 and saves hours of walking, although many feel it disfigures the rock." },
+        { ime: "Tianzi Mountain", opis: "The name means “son of heaven”, after a leader of the Tujia people who rebelled against the emperor here in the 14th century. From here you see the pillars from above, and after rain only their tips poke out of the mist." },
+        { ime: "Golden Whip Stream", opis: "An easy trail about seven kilometers long runs along the bottom of the gorge, beside a clear stream, so you look up at the pillars from below. Macaque monkeys live along the way and should not be fed, so keep your bags of food closed." },
+        { ime: "Tianmen Mountain", opis: "A separate park right above the city, reached by a cable car more than seven kilometers long. At the top there is a glass-floored walkway along the edge of the cliff, and below it Heaven's Gate, a natural opening in the rock reached by climbing 999 steps. The road up to it has 99 bends." },
+        { ime: "The glass bridge in the Grand Canyon", opis: "The bridge, 430 meters long and opened in 2016, is strung about three hundred meters above the canyon floor, and its deck is transparent. Visitor numbers are limited and tickets must be reserved." }
       ],
       jesti: [
-        { ime: "Sanxiaguo", opis: "Jelo naroda Tujia, „tri u jednom loncu“: sušeno meso, tofu i rotkva ili iznutrice pirjaju se zajedno na plameniku na stolu." },
-        { ime: "Dimljena slanina", opis: "Svinjetina sušena nad ognjištem, pržena s češnjakovim stabljikama ili papratima. Hunanska kuhinja ljuta je od svježeg čilija, bez sečuanskih trnaca." },
-        { ime: "Kisela riblja juha", opis: "Riječna riba u juhi zakiseljenoj fermentiranom rajčicom i čilijem, jelo planinskih naroda ovog kraja." }
+        { ime: "Sanxiaguo", opis: "A dish of the Tujia people, “three in one pot”: cured meat, tofu and radish or offal are braised together on a burner at the table." },
+        { ime: "Smoked bacon", opis: "Pork cured over the hearth and stir-fried with garlic stems or ferns. Hunan cuisine gets its heat from fresh chili, without the Sichuan tingle." },
+        { ime: "Sour fish soup", opis: "River fish in a soup soured with fermented tomato and chili, a dish of the mountain peoples of this region." }
       ],
       dozivjeti: [
-        { ime: "Izlazak sunca nad stupovima", opis: "Prenoćite u mjestu Wulingyuan, uz ulaz u park, i uđite čim se otvori. U prvim satima vidikovci su gotovo prazni, a magla se tek diže." },
-        { ime: "Spust žičarom s Tianzija", opis: "Kabina klizi između stupova nekoliko minuta i daje pogled kakav nema nijedan vidikovac." },
-        { ime: "Obilazak s lokalnim vodičem", opis: "Park je golem, a oznake na engleskom su oskudne, pa vodič uštedi mnogo vremena pri odabiru žičara, autobusa i staza.", link: "https://www.visitourchina.com/zhangjiajie/" }
+        { ime: "Sunrise over the pillars", opis: "Spend the night in the town of Wulingyuan, by the park entrance, and go in as soon as it opens. In the first hours the viewpoints are almost empty and the mist is only just lifting." },
+        { ime: "Cable car down from Tianzi", opis: "The cabin glides between the pillars for a few minutes and gives you a view that no lookout can match." },
+        { ime: "Touring with a local guide", opis: "The park is enormous and English signage is sparse, so a guide saves a great deal of time in choosing cable cars, buses and trails.", link: "https://www.visitourchina.com/zhangjiajie/" }
       ],
       agencije: [
-        { ime: "Visit Our China", opis: "Turistička agencija s vođenim obilascima Zhangjiajiea i paketima po mjeri.", link: "https://www.visitourchina.com/zhangjiajie/" },
-        { ime: "China Highlights", opis: "Agencija koja organizira privatne ture s vodičem i prijevozom.", link: "https://www.chinahighlights.com/" }
+        { ime: "Visit Our China", opis: "A travel agency with guided tours of Zhangjiajie and tailor-made packages.", link: "https://www.visitourchina.com/zhangjiajie/" },
+        { ime: "China Highlights", opis: "An agency that organizes private tours with a guide and transport.", link: "https://www.chinahighlights.com/" }
       ],
-      kada: "Travanj do lipnja i rujan do početka studenog. Ulaznica u nacionalni park vrijedi više dana, a potrebna su barem dva puna dana za park i još jedan za planinu Tianmen. Ponesite kabanicu, jer se vrijeme brzo mijenja."
+      kada: "April to June and September to early November. The national park ticket is valid for several days, and you need at least two full days for the park and one more for Tianmen Mountain. Bring a rain poncho, because the weather changes quickly."
     },
     {
       id: "lijiang",
       ime: "Lijiang",
       vrsta: "grad",
-      sazetak: "Stari grad naroda Naxi na 2400 metara, s kanalima, kamenim mostićima i snježnom planinom na obzoru.",
+      sazetak: "The old town of the Naxi people at 2,400 meters, with canals, little stone bridges and a snow-capped mountain on the horizon.",
       prica: [
-        "Lijiang je nastao prije osamstotinjak godina kao trgovište na Putu čaja i konja, kojim se čaj iz Yunnana nosio u Tibet u zamjenu za konje. Ovdje živi narod Naxi, koji ima vlastito slikovno pismo dongba, jedno od rijetkih takvih koje se još koristi.",
-        "Stari grad nema zidine. Predaja to objašnjava prezimenom vladarske obitelji Mu: znak za to ime, kada se zatvori u okvir, postaje znak za nevolju. Grad je teško stradao u potresu 1996., obnovljen je u starom stilu i 1997. upisan na UNESCO-ov popis."
+        "Lijiang grew up some eight hundred years ago as a market town on the Tea Horse Road, along which tea from Yunnan was carried to Tibet in exchange for horses. This is home to the Naxi people, who have their own pictographic script, dongba, one of the few of its kind still in use.",
+        "The old town has no walls. Tradition explains this through the surname of the ruling family, Mu: the character for that name, when enclosed in a frame, becomes the character for trouble. The town was badly damaged in the 1996 earthquake, was rebuilt in the old style and was added to the UNESCO list in 1997."
       ],
       vidjeti: [
-        { ime: "Stari grad Dayan", opis: "Voda s planine dijeli se u tri potoka i zatim u mrežu kanala koji teku uz gotovo svaku kuću. Stanovnici su nekoć u jednom bazenu uzimali vodu za piće, u drugom prali povrće, a u trećem rublje. Dođite rano ujutro, prije nego što se trgovine otvore, a ulice napune." },
-        { ime: "Jezerce crnog zmaja", opis: "Park na sjevernom rubu grada, u čijoj se vodi za vedra dana odražava Snježna planina žadnog zmaja, zajedno s mramornim mostom i paviljonom. To je najpoznatija razglednica Yunnana." },
-        { ime: "Palača Mu", opis: "Sjedište obitelji koja je u ime kineskih careva vladala ovim krajem gotovo pet stoljeća. Današnji je sklop obnovljen nakon potresa, a penje se uz brdo s kojeg se vidi more sivih krovova." },
-        { ime: "Baisha", opis: "Selo desetak kilometara od grada bilo je prva prijestolnica Naxija. U hramu su zidne slike iz doba dinastije Ming, na kojima se na istom zidu susreću budistički, taoistički i tibetski likovi." },
-        { ime: "Snježna planina žadnog zmaja", opis: "Planinski lanac s trinaest vrhova, od kojih je najviši visok 5596 metara. Žičara vodi do vidikovca na oko 4500 metara, gdje je zrak osjetno rjeđi, pa hodajte polako. U podnožju je Dolina plavog mjeseca, s tirkiznim jezercima." },
-        { ime: "Klanac tigrova skoka", opis: "Rijeka Jinsha, gornji tok Jangcea, probija se između dviju planina viših od pet tisuća metara. Legenda kaže da je tigar bježeći pred lovcem preskočio rijeku na najužem mjestu. Gornjom stazom hoda se dva dana, s noćenjem u seoskim pansionima." }
+        { ime: "Dayan Old Town", opis: "Water from the mountain splits into three streams and then into a network of canals that flow past almost every house. Residents once drew drinking water from one pool, washed vegetables in a second and laundry in a third. Come early in the morning, before the shops open and the streets fill up." },
+        { ime: "Black Dragon Pool", opis: "A park on the northern edge of town, where on a clear day Jade Dragon Snow Mountain is reflected in the water, together with the marble bridge and the pavilion. It is the most famous postcard view of Yunnan." },
+        { ime: "Mu Palace", opis: "The seat of the family that ruled this region in the name of the Chinese emperors for almost five centuries. The present complex was rebuilt after the earthquake, and it climbs a hill from which you can see a sea of gray roofs." },
+        { ime: "Baisha", opis: "This village about ten kilometers from town was the first capital of the Naxi. In the temple there are wall paintings from the Ming dynasty, in which Buddhist, Taoist and Tibetan figures meet on the same wall." },
+        { ime: "Jade Dragon Snow Mountain", opis: "A mountain range with thirteen peaks, the highest of which reaches 5,596 meters. A cable car runs to a viewpoint at about 4,500 meters, where the air is noticeably thinner, so walk slowly. At its foot is Blue Moon Valley, with turquoise pools." },
+        { ime: "Tiger Leaping Gorge", opis: "The Jinsha River, the upper course of the Yangtze, forces its way between two mountains more than five thousand meters high. Legend says that a tiger fleeing a hunter leaped across the river at its narrowest point. The upper trail takes two days to walk, with an overnight stay in village guesthouses." }
       ],
       jesti: [
-        { ime: "Lijiang baba", opis: "Debela lisnata pogača pečena na ploči, slatka ili slana, koju su trgovci nosili na put jer se dugo ne kvari." },
-        { ime: "Vrući lonac s jakovim mesom", opis: "Meso jaka, tibetskog goveda, kuha se u loncu s gljivama i povrćem. Yunnan je poznat po divljim gljivama, kojih u ljetnim mjesecima ima na desetke vrsta." },
-        { ime: "Rezanci koji prelaze most", opis: "Najpoznatije jelo Yunnana: zdjela kipuće juhe pod slojem masti, u koju same ubacujete sirove sastojke i rižine rezance. Legenda kaže da je žena tako nosila ručak mužu koji je učio na otočiću, pa je juha ostala vruća." },
-        { ime: "Čaj pu'er", opis: "Fermentirani čaj iz Yunnana prešan u kolutove, koji s godinama dobiva na vrijednosti, poput vina." }
+        { ime: "Lijiang baba", opis: "A thick, flaky flatbread baked on a griddle, sweet or savory, which traders took on the road because it keeps for a long time." },
+        { ime: "Yak meat hot pot", opis: "The meat of the yak, the Tibetan ox, is cooked in a pot with mushrooms and vegetables. Yunnan is known for its wild mushrooms, which come in dozens of varieties in the summer months." },
+        { ime: "Crossing-the-bridge noodles", opis: "The most famous dish of Yunnan: a bowl of boiling broth under a layer of fat, into which you drop the raw ingredients and rice noodles yourself. Legend says a wife carried lunch this way to her husband, who was studying on a small island, so that the soup stayed hot." },
+        { ime: "Pu'er tea", opis: "A fermented tea from Yunnan pressed into discs, which gains in value over the years, like wine." }
       ],
       dozivjeti: [
-        { ime: "Tura hrane po staroj tržnici", opis: "Lost Plate u Lijiangu vodi večernje šetnje po jelima naroda Naxi, daleko od restorana na glavnoj ulici.", link: "https://lostplate.com/" },
-        { ime: "Koncert stare glazbe Naxija", opis: "U starom gradu navečer nastupa orkestar starijih glazbenika koji na izvornim glazbalima svira skladbe sačuvane od dinastija Tang i Song." },
-        { ime: "Pješačenje Klancem tigrova skoka", opis: "Agencije iz Lijianga organiziraju prijevoz do početka staze i prijenos prtljage. Staza je dobro označena, ali nije za kišne dane.", link: "https://www.yunnanexploration.com/" }
+        { ime: "Food tour of the old market", opis: "In Lijiang, Lost Plate leads evening walks through the dishes of the Naxi people, far from the restaurants on the main street.", link: "https://lostplate.com/" },
+        { ime: "Concert of ancient Naxi music", opis: "In the old town in the evening, an orchestra of elderly musicians plays pieces preserved from the Tang and Song dynasties on original instruments." },
+        { ime: "Hiking Tiger Leaping Gorge", opis: "Agencies in Lijiang arrange transport to the trailhead and luggage transfer. The trail is well marked, but it is not for rainy days.", link: "https://www.yunnanexploration.com/" }
       ],
       agencije: [
-        { ime: "Yunnan Exploration", opis: "Turistička agencija specijalizirana za Yunnan, s privatnim turama po Lijiangu, Daliju i Shangri-Li.", link: "https://www.yunnanexploration.com/" },
-        { ime: "Lost Plate Food Tours", opis: "Organizator gastronomskih tura u malim skupinama.", link: "https://lostplate.com/" }
+        { ime: "Yunnan Exploration", opis: "A travel agency specializing in Yunnan, with private tours of Lijiang, Dali and Shangri-La.", link: "https://www.yunnanexploration.com/" },
+        { ime: "Lost Plate Food Tours", opis: "An organizer of small-group food tours.", link: "https://lostplate.com/" }
       ],
-      kada: "Travanj, svibanj, listopad i studeni. Ljeti je kišno razdoblje. Grad je na 2400 metara, pa prvi dan uzmite lagano i pijte mnogo vode."
+      kada: "April, May, October and November. Summer is the rainy season. The town sits at 2,400 meters, so take it easy on the first day and drink plenty of water."
     },
     {
       id: "makao",
-      ime: "Makao",
+      ime: "Macau",
       vrsta: "grad",
-      sazetak: "Komadić Portugala na kineskoj obali, s baroknim crkvama, valovitim pločnicima i kolačem od jaja koji je obišao Aziju.",
+      sazetak: "A little piece of Portugal on the Chinese coast, with Baroque churches, wave-patterned pavements and an egg tart that has traveled all over Asia.",
       prica: [
-        "Portugalski trgovci dobili su 1557. dopuštenje da se ovdje nastane, pa je Makao postao prva i najdugovječnija europska naseobina u istočnoj Aziji. Preko njega su se trgovali svila, srebro i porculan, a isusovci su odavde kretali na kineski i japanski dvor.",
-        "Makao je vraćen Kini 20. prosinca 1999. kao posebno upravno područje. Povijesna jezgra upisana je na UNESCO-ov popis 2005. Danas je grad poznat i po kockarnicama, čiji prihodi višestruko nadmašuju one u Las Vegasu."
+        "Portuguese traders were given permission to settle here in 1557, and so Macau became the first and longest-lasting European settlement in East Asia. Silk, silver and porcelain were traded through it, and from here the Jesuits set out for the Chinese and Japanese courts.",
+        "Macau was returned to China on December 20, 1999, as a special administrative region. The historic center was added to the UNESCO list in 2005. Today the city is also known for its casinos, whose revenues exceed those of Las Vegas many times over."
       ],
       vidjeti: [
-        { ime: "Ruševine crkve svetog Pavla", opis: "Isusovci su crkvu gradili početkom 17. stoljeća, uz pomoć japanskih kršćana koji su pobjegli od progona. Izgorjela je 1835. i ostalo je samo kameno pročelje. Pogledajte ga pažljivo: uz svece su uklesani kineski znakovi, krizanteme i žena koja gazi sedmoglavu zmiju." },
-        { ime: "Trg Senado", opis: "Glavni gradski trg popločen je crno-bijelim kamenom u valovima, kao u Lisabonu. Okružuju ga žute i bijele zgrade s arkadama, među njima vijećnica i Sveta kuća milosrđa iz 16. stoljeća." },
-        { ime: "Hram A-Ma", opis: "Hram božice pomoraca stariji je od dolaska Portugalaca. Predaja kaže da su mornari, upitani kako se mjesto zove, odgovorili imenom zaljeva božice A-Ma, i tako je nastalo ime Makao." },
-        { ime: "Tvrđava Monte", opis: "Isusovačka utvrda iz 17. stoljeća, čiji su topovi samo jednom opalili u borbi, 1622., kada su odbili nizozemski napad. Danas je ondje Muzej Makaa, a sa zidina se vidi cijeli grad." },
-        { ime: "Tvrđava i svjetionik Guia", opis: "Na najvišem brdu poluotoka stoji kapelica iz 17. stoljeća, sa zidnim slikama u kojima se miješaju kršćanski i kineski motivi. Svjetionik uz nju, iz 1865., prvi je moderni svjetionik na kineskoj obali." },
-        { ime: "Selo Taipa", opis: "Nekadašnje ribarsko selo s pastelnim kućama i uskom ulicom Rua do Cunha, punom slastičarnica. Samo nekoliko minuta dalje dižu se goleme kockarnice četvrti Cotai, pa je kontrast potpun." }
+        { ime: "Ruins of St. Paul's", opis: "The Jesuits built the church in the early 17th century, with the help of Japanese Christians who had fled persecution. It burned down in 1835 and only the stone facade remained. Look at it closely: alongside the saints you will find carved Chinese characters, chrysanthemums and a woman trampling a seven-headed serpent." },
+        { ime: "Senado Square", opis: "The main city square is paved with black and white stone in waves, as in Lisbon. It is surrounded by yellow and white arcaded buildings, among them the city hall and the Holy House of Mercy from the 16th century." },
+        { ime: "A-Ma Temple", opis: "The temple of the goddess of seafarers is older than the arrival of the Portuguese. Tradition says that the sailors, asked what the place was called, answered with the name of the bay of the goddess A-Ma, and that is how the name Macau came about." },
+        { ime: "Monte Fort", opis: "A 17th-century Jesuit fortress whose cannons were fired in battle only once, in 1622, when they repelled a Dutch attack. Today it houses the Macao Museum, and the whole city can be seen from its walls." },
+        { ime: "Guia Fortress and Lighthouse", opis: "On the highest hill of the peninsula stands a 17th-century chapel, with wall paintings that mix Christian and Chinese motifs. The lighthouse beside it, from 1865, is the first modern lighthouse on the Chinese coast." },
+        { ime: "Taipa Village", opis: "A former fishing village with pastel houses and the narrow street Rua do Cunha, full of pastry shops. Just a few minutes away rise the enormous casinos of the Cotai district, so the contrast is complete." }
       ],
       jesti: [
-        { ime: "Pastel de nata na makaoski način", opis: "Košarica od lisnatog tijesta s kremom od jaja i karameliziranim vrhom. Proslavio ju je 1989. Englez Andrew Stow u svojoj pekarnici u selu Coloane, a odande se proširila Azijom." },
-        { ime: "Pecivo sa svinjskim kotletom", opis: "Marinirani kotlet s kosti u hrskavom pecivu, bez ikakvih dodataka. Najpoznatiji je makaoski ulični zalogaj." },
-        { ime: "Afrička piletina", opis: "Piletina pečena u umaku od čilija, kokosa i kikirikija, jelo makaoske kuhinje, koja je spojila portugalske recepte sa začinima iz Afrike, Indije i Malezije." },
-        { ime: "Minchi", opis: "Mljeveno meso prženo s kockicama krumpira i sojinim umakom, s jajetom na oko. Domaće je jelo makaoskih obitelji portugalskog podrijetla." }
+        { ime: "Macau-style pastel de nata", opis: "A puff pastry shell with egg custard and a caramelized top. It was made famous in 1989 by the Englishman Andrew Stow at his bakery in the village of Coloane, and from there it spread across Asia." },
+        { ime: "Pork chop bun", opis: "A marinated bone-in chop in a crusty roll, with nothing else added. It is Macau's best-known street snack." },
+        { ime: "African chicken", opis: "Chicken roasted in a sauce of chili, coconut and peanuts, a dish of Macanese cuisine, which combined Portuguese recipes with spices from Africa, India and Malaysia." },
+        { ime: "Minchi", opis: "Minced meat fried with diced potatoes and soy sauce, topped with a fried egg. It is the home cooking of Macanese families of Portuguese descent." }
       ],
       dozivjeti: [
-        { ime: "Šetnja povijesnom jezgrom", opis: "Od hrama A-Ma do ruševina svetog Pavla vodi označena staza kroz dvadesetak spomenika s UNESCO-ova popisa. Kartu i opise objavljuje gradski ured za kulturnu baštinu.", link: "https://www.wh.mo/en/" },
-        { ime: "Toranj Makao", opis: "S vidikovca na tornju visokom 338 metara vide se grad i delta Biserne rijeke. Najhrabriji odande skaču s užetom, s visine od 233 metra.", link: "https://www.macautower.com.mo/en/" },
-        { ime: "Coloane", opis: "Najmirniji dio Makaa, s kapelicom svetog Franje Ksaverskog na malom trgu i pekarnicom u kojoj je nastala makaoska košarica s kremom." }
+        { ime: "A walk through the historic center", opis: "A marked route leads from A-Ma Temple to the Ruins of St. Paul's through some twenty monuments on the UNESCO list. The map and descriptions are published by the city's cultural heritage office.", link: "https://www.wh.mo/en/" },
+        { ime: "Macau Tower", opis: "From the observation deck of the 338-meter tower you can see the city and the Pearl River Delta. The bravest bungee jump from it, from a height of 233 meters.", link: "https://www.macautower.com.mo/en/" },
+        { ime: "Coloane", opis: "The quietest part of Macau, with the Chapel of St. Francis Xavier on a small square and the bakery where the Macau egg tart was born." }
       ],
       agencije: [
-        { ime: "Turistički ured vlade Makaa", opis: "Službeni turistički vodič Makaa.", link: "https://www.macaotourism.gov.mo/en/" },
-        { ime: "Baština Makaa", opis: "Službena stranica o povijesnoj jezgri s UNESCO-ova popisa, s kartama i opisima spomenika.", link: "https://www.wh.mo/en/" }
+        { ime: "Macao Government Tourism Office", opis: "The official tourist guide to Macau.", link: "https://www.macaotourism.gov.mo/en/" },
+        { ime: "Macao World Heritage", opis: "The official website on the UNESCO-listed historic center, with maps and descriptions of the monuments.", link: "https://www.wh.mo/en/" }
       ],
-      kada: "Od listopada do prosinca. Iz Hong Konga se stiže trajektom za oko sat vremena ili autobusom preko mosta dugog 55 kilometara, pa je Makao lagan jednodnevni izlet. Ponesite putovnicu, jer se prelazi granica."
+      kada: "From October to December. From Hong Kong you can get there by ferry in about an hour or by bus across the 55-kilometer bridge, so Macau makes an easy day trip. Bring your passport, because you cross a border."
     }
   ],
   izvori: [
     { ime: "Visit Beijing", url: "https://english.visitbeijing.com.cn/" },
     { ime: "Meet in Shanghai", url: "https://www.meet-in-shanghai.net/" },
-    { ime: "Muzej mauzoleja cara Qin Shi Huanga", url: "https://www.bmy.com.cn/" },
-    { ime: "Centar za uzgoj velikih pandi u Chengduu", url: "https://www.panda.org.cn/en/" },
+    { ime: "Emperor Qin Shi Huang's Mausoleum Site Museum", url: "https://www.bmy.com.cn/" },
+    { ime: "Chengdu Research Base of Giant Panda Breeding", url: "https://www.panda.org.cn/en/" },
     { ime: "GoChengdu", url: "https://www.gochengdu.cn/en" },
     { ime: "Discover Hong Kong", url: "https://www.discoverhongkong.com/eng/index.html" },
-    { ime: "Turistički ured vlade Makaa", url: "https://www.macaotourism.gov.mo/en/" },
-    { ime: "Baština Makaa", url: "https://www.wh.mo/en/" },
-    { ime: "UNESCO, Centar za svjetsku baštinu", url: "https://whc.unesco.org/en/statesparties/cn" },
+    { ime: "Macao Government Tourism Office", url: "https://www.macaotourism.gov.mo/en/" },
+    { ime: "Macao World Heritage", url: "https://www.wh.mo/en/" },
+    { ime: "UNESCO World Heritage Centre", url: "https://whc.unesco.org/en/statesparties/cn" },
     { ime: "China Highlights", url: "https://www.chinahighlights.com/" },
     { ime: "TravelChinaGuide", url: "https://www.travelchinaguide.com/" },
-    { ime: "Kineski nacionalni muzej čaja", url: "https://www.teamuseum.cn/" }
+    { ime: "China National Tea Museum", url: "https://www.teamuseum.cn/" }
   ]
 };

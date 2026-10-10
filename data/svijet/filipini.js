@@ -1,232 +1,232 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["filipini"] = {
   id: "filipini",
-  ime: "Filipini",
-  regija: "Jugoistočna Azija",
-  sazetak: "Više od sedam tisuća otoka na kojima se Azija susrela sa Španjolskom i SAD-om, a domaćini vas prvo pitaju jeste li jele.",
+  ime: "Philippines",
+  regija: "Southeast Asia",
+  sazetak: "More than seven thousand islands where Asia met Spain and the USA, and where the first thing your hosts ask is whether you have eaten.",
   uvod: [
-    "Filipini su arhipelag od 7641 otoka i jedina velika azijska zemlja u kojoj je većina stanovnika katoličke vjere. To je posljedica 333 godine španjolske vlasti, koja je počela dolaskom Miguela Lópeza de Legazpija 1565. godine. Zemlja je i ime dobila po španjolskom kralju Filipu II.",
-    "Prvi Europljanin koji je ovamo doplovio bio je Ferdinand Magellan 1521. godine, na putovanju koje će postati prvo oplovljavanje svijeta. Na otoku Mactanu poginuo je u okršaju s ratnicima poglavara Lapulapua, kojeg Filipinci slave kao prvog junaka otpora. Od 1565. do 1815. galijuni su iz Manile plovili u meksički Acapulco s kineskom svilom i porculanom, a vraćali se sa srebrom, pa su u filipinskoj kuhinji i jeziku ostali i meksički tragovi.",
-    "Nakon Španjolaca došli su 1898. Amerikanci, koji su ostavili engleski jezik, školstvo i ljubav prema košarci, a neovisnost je stigla 4. srpnja 1946. godine. Filipinci tu mješavinu sažimaju šalom da su proveli tristo godina u samostanu i pedeset u Hollywoodu. Rezultat je topao, glasan i raspjevan narod s kojim je vrlo lako razgovarati, jer gotovo svi govore engleski."
+    "The Philippines is an archipelago of 7,641 islands and the only large Asian country where most of the population is Catholic. That is the result of 333 years of Spanish rule, which began with the arrival of Miguel López de Legazpi in 1565. The country even takes its name from the Spanish king Philip II.",
+    "The first European to sail here was Ferdinand Magellan in 1521, on the voyage that would become the first circumnavigation of the world. He was killed on the island of Mactan in a clash with the warriors of the chieftain Lapulapu, whom Filipinos celebrate as the first hero of the resistance. From 1565 to 1815 galleons sailed from Manila to Acapulco in Mexico with Chinese silk and porcelain and came back with silver, so Mexican traces have remained in Filipino cooking and language too.",
+    "After the Spanish came the Americans in 1898, who left behind the English language, the school system and a love of basketball, and independence arrived on July 4, 1946. Filipinos sum up that mixture with the joke that they spent three hundred years in a convent and fifty in Hollywood. The result is a warm, loud, song-loving people who are very easy to talk to, because almost everyone speaks English."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suha sezona traje od prosinca do svibnja. Od prosinca do veljače najugodnije je, a ožujak, travanj i svibanj vrlo su vrući. Od lipnja do studenoga razdoblje je kiša i tajfuna, koji mogu poremetiti letove i trajekte." },
-    { k: "Valuta", v: "Filipinski pezo (PHP). U gradovima se plaća karticom, a na manjim otocima bankomata je malo i mogu ostati bez novca, pa ponesite gotovinu." },
-    { k: "Kretanje", v: "Između otoka najbrže se leti, a kraće relacije prelaze se trajektima i čamcima s bambusovim plovcima zvanima bangka. U gradovima vozi Grab, a za kratke vožnje tu su tricikli, motocikli s prikolicom. Uvijek računajte na kašnjenja i ostavite dan rezerve prije međunarodnog leta." },
-    { k: "Napojnica", v: "Nije obvezna, ali je uobičajena. U restoranima provjerite je li usluga već uračunata, a ako nije, ostavlja se oko deset posto. Posadi čamca i vodičima napojnica mnogo znači." }
+    { k: "When to go", v: "The dry season runs from December to May. December to February is the most pleasant time, while March, April and May are very hot. June to November is the season of rains and typhoons, which can disrupt flights and ferries." },
+    { k: "Currency", v: "The Philippine peso (PHP). You can pay by card in the cities, but on the smaller islands ATMs are few and can run out of money, so bring cash." },
+    { k: "Getting around", v: "Flying is the fastest way between islands, and shorter hops are made by ferry and by the boats with bamboo outriggers called bangka. Grab operates in the cities, and for short rides there are tricycles, which are motorcycles with a sidecar. Always count on delays and leave a spare day before an international flight." },
+    { k: "Tipping", v: "It is not required, but it is customary. In restaurants, check whether service is already included, and if it is not, leave about ten percent. A tip means a great deal to boat crews and guides." }
   ],
   hrana: [
-    { ime: "Adobo", opis: "Piletina ili svinjetina pirjana u octu, soja umaku, češnjaku, lovoru i papru u zrnu.", prica: "Neslužbeno nacionalno jelo. Kuhanje u octu domaća je metoda konzerviranja u tropskoj klimi, starija od dolaska Španjolaca, koji su jelu samo dali ime prema svojoj riječi za marinadu. Svaka obitelj ima svoj omjer octa i soje i uvjerena je da je jedini ispravan, a sutradan je još bolji." },
-    { ime: "Sinigang", opis: "Kisela juha sa svinjetinom, kozicama ili ribom, tamarindom i povrćem poput rotkve, patlidžana i vodenog špinata.", prica: "Kiselost je okus koji Filipinci najviše vole, a ovdje dolazi od nezrelog tamarinda, guave ili sitnog agruma calamansija. Mnogi upravo sinigang, a ne adobo, smatraju jelom koje najbolje predstavlja domaću kuhinju. Jede se preliven preko riže." },
-    { ime: "Lechon", opis: "Cijelo prase punjeno limunskom travom, češnjakom i mladim lukom, satima okretano na ražnju nad ugljenom.", prica: "Središte svake fešte, krštenja i Božića. Najbolji dolazi s otoka Cebua, gdje je meso toliko začinjeno da mu ne treba umak, a Anthony Bourdain proglasio ga je najboljim prasetom koje je ikada jeo. Kožica mora pucati pod prstima." },
-    { ime: "Kinilaw", opis: "Kockice sirove ribe, najčešće tune, kratko marinirane u octu od kokosa ili palme s đumbirom, lukom, čilijem i calamansijem.", prica: "Filipinski rođak cevichea, ali stariji od dodira sa Španjolcima: arheolozi su tragove takve pripreme pronašli na nalazištu starom oko tisuću godina. Riba se kiseli tek nekoliko minuta, pa ostaje svježa i čvrsta." },
-    { ime: "Pancit", opis: "Prženi rezanci s povrćem, piletinom, kozicama i sokom calamansija, u desecima lokalnih inačica.", prica: "Donijeli su ga kineski trgovci, a ime dolazi iz hokkienskog izraza za nešto na brzinu skuhano. Obvezan je na rođendanima jer dugi rezanci znače dug život, pa ih se ne smije rezati." },
-    { ime: "Sisig", opis: "Sitno sjeckani dijelovi svinjske glave i jetre, začinjeni calamansijem, lukom i čilijem, posluženi na vreloj željeznoj ploči.", prica: "Potječe iz pokrajine Pampanga, a današnji je oblik sedamdesetih godina osmislila Lucia Cunanan u gradu Angelesu, koristeći svinjske glave koje su se bacale iz kuhinja američke zračne baze. Na ploču se često razbije sirovo jaje. Najdraži je zalogaj uz pivo." },
-    { ime: "Kare-kare", opis: "Gusti gulaš od volovskog repa i povrća u umaku od mljevenog kikirikija i pržene riže.", prica: "Sam po sebi namjerno je blag, jer se jede uz žličicu bagoonga, slane fermentirane paste od kozica. Tek zajedno daju puni okus." },
-    { ime: "Halo-halo", opis: "Visoka čaša struganog leda s evaporiranim mlijekom i desetak dodataka: slatkim grahom, kokosom, želeom, bananom, kremom od ljubičastog jama i karamel-pudingom.", prica: "Ime znači „miješaj-miješaj“, i upravo tako se jede: sve se dobro promiješa dugom žlicom dok ne postane ljubičasto. Smatra se da je nastao pod utjecajem japanskih prodavača struganog leda prije Drugog svjetskog rata." },
-    { ime: "Balut", opis: "Kuhano pačje jaje s razvijenim zametkom, koje se jede toplo, s malo soli i octa.", prica: "Prodaje se navečer na ulici, iz košara umotanih u tkaninu. Prvo se probije vrh ljuske i popije juha, a zatim se pojede ostatak. Za posjetitelje je to ispit hrabrosti, a za Filipince obična večernja grickalica bogata bjelančevinama." }
+    { ime: "Adobo", opis: "Chicken or pork braised in vinegar, soy sauce, garlic, bay leaf and whole peppercorns.", prica: "The unofficial national dish. Cooking in vinegar is a native method of preserving food in a tropical climate, older than the arrival of the Spanish, who merely gave the dish its name from their word for marinade. Every family has its own ratio of vinegar to soy and is convinced it is the only correct one, and the next day it tastes even better." },
+    { ime: "Sinigang", opis: "A sour soup with pork, shrimp or fish, tamarind and vegetables such as radish, eggplant and water spinach.", prica: "Sourness is the flavor Filipinos love most, and here it comes from unripe tamarind, guava or the tiny citrus fruit calamansi. Many people consider sinigang, more than adobo, to be the dish that best represents home cooking. It is eaten ladled over rice." },
+    { ime: "Lechon", opis: "A whole pig stuffed with lemongrass, garlic and scallions and turned for hours on a spit over charcoal.", prica: "The centerpiece of every fiesta, baptism and Christmas. The best comes from the island of Cebu, where the meat is so well seasoned that it needs no sauce, and Anthony Bourdain declared it the best pig he had ever eaten. The skin has to crackle under your fingers." },
+    { ime: "Kinilaw", opis: "Cubes of raw fish, most often tuna, briefly marinated in coconut or palm vinegar with ginger, onion, chili and calamansi.", prica: "The Filipino cousin of ceviche, but older than contact with the Spanish: archaeologists have found traces of this kind of preparation at a site about a thousand years old. The fish is cured for only a few minutes, so it stays fresh and firm." },
+    { ime: "Pancit", opis: "Stir-fried noodles with vegetables, chicken, shrimp and calamansi juice, in dozens of local versions.", prica: "It was brought by Chinese traders, and the name comes from a Hokkien expression for something cooked in a hurry. It is a must at birthdays because long noodles mean a long life, so they must not be cut." },
+    { ime: "Sisig", opis: "Finely chopped parts of pig's head and liver, seasoned with calamansi, onion and chili and served on a sizzling iron plate.", prica: "It comes from the province of Pampanga, and its present form was devised in the 1970s by Lucia Cunanan in the city of Angeles, using the pigs' heads that were being thrown out of the kitchens of the US air base. A raw egg is often cracked onto the plate. It is the favorite thing to eat with beer." },
+    { ime: "Kare-kare", opis: "A thick stew of oxtail and vegetables in a sauce of ground peanuts and toasted rice.", prica: "On its own it is deliberately mild, because it is eaten with a small spoonful of bagoong, a salty fermented shrimp paste. Only together do they give the full flavor." },
+    { ime: "Halo-halo", opis: "A tall glass of shaved ice with evaporated milk and a dozen or so additions: sweet beans, coconut, jelly, banana, purple yam jam and caramel custard.", prica: "The name means “mix-mix”, and that is exactly how you eat it: everything gets stirred well with a long spoon until it turns purple. It is thought to have come about under the influence of Japanese shaved-ice vendors before World War II." },
+    { ime: "Balut", opis: "A boiled duck egg with a developed embryo, eaten warm with a little salt and vinegar.", prica: "It is sold on the street in the evening, from baskets wrapped in cloth. First you crack the top of the shell and drink the broth, and then you eat the rest. For visitors it is a test of courage, and for Filipinos an ordinary, protein-rich evening snack." }
   ],
   obicaji: [
-    { ime: "Mano po", opis: "Mlađi u znak poštovanja uzmu ruku starije osobe i nadlanicom je lagano prislone na vlastito čelo. Uz to se u govoru starijima dodaju riječi po i opo, koje nemaju prijevod, ali rečenicu čine uljudnom.", gdje: "U svakoj obitelji pri dolasku u kuću i nakon mise. Dodate li „po“ uz „salamat“, izmamit ćete osmijeh." },
-    { ime: "Fiesta", opis: "Svako mjesto i svaka četvrt ima sveca zaštitnika čiji se dan slavi procesijom, limenom glazbom, natjecanjima i stolovima punima hrane za svakoga tko naiđe. Običaj su uveli Španjolci, a Filipinci su ga pretvorili u najveće slavlje godine.", gdje: "Tijekom cijele godine. Među najvećima su Sinulog u Cebuu u siječnju i Ati-Atihan u Kalibu istog mjeseca." },
-    { ime: "Sinulog", opis: "Svetkovina u čast Malog Isusa, Santo Niña, čiji je kip Magellan 1521. darovao kraljici Cebua. Plesači u raskošnim kostimima plešu ulicama korakom dva naprijed, jedan natrag, koji oponaša struju rijeke, uz povik „Pit Señor!“.", gdje: "U gradu Cebuu, treće nedjelje u siječnju." },
-    { ime: "Najdulji Božić na svijetu", opis: "Božićne pjesme počinju svirati 1. rujna, čim počnu mjeseci koji u imenu imaju nastavak ber. Kuće se kite zvjezdastim lampionima parol, a od 16. do 24. prosinca ide se na devet misa zornica, Simbang Gabi, nakon kojih se pred crkvom jedu topli rižini kolači.", gdje: "U cijeloj zemlji. Najljepši lampioni izrađuju se u gradu San Fernandu u pokrajini Pampanga." },
-    { ime: "Bayanihan", opis: "Duh zajedništva po kojem susjedi zajedno obave posao koji je za jednu obitelj prevelik. Simbol mu je slika seljana koji na bambusovim motkama na ramenima prenose cijelu kuću na novo mjesto.", gdje: "Danas se vidi nakon tajfuna, kada cijela četvrt zajedno čisti i popravlja, a riječ ćete čuti u svakom razgovoru o pomaganju." },
-    { ime: "Videoke", opis: "Pjevanje uz karaoke nacionalna je strast. Uređaj se nalazi u gotovo svakoj kući, baru i na svakoj proslavi, a pjeva se ozbiljno i bez srama, od podneva do duboko u noć.", gdje: "Posvuda. Ako vas pozovu da pjevate, odbiti nije pristojno, a nitko neće zamjeriti lošu izvedbu." },
-    { ime: "Tinikling", opis: "Narodni ples u kojem dvoje ljudi ritmično udara i sklapa duge bambusove motke pri tlu, a plesači skakuću između njih sve brže, pazeći da im motke ne uhvate gležnjeve. Ime dolazi od ptice tikling, koja tako izbjegava zamke na rižinim poljima.", gdje: "Na školskim priredbama, feštama i kulturnim večerima u Manili i Cebuu." },
-    { ime: "Jeepney", opis: "Kada su Amerikanci nakon Drugog svjetskog rata ostavili tisuće vojnih džipova, Filipinci su ih produljili, natkrili i oslikali svecima, orlovima i imenima djece. Tako je nastao najjeftiniji javni prijevoz i pokretna pučka umjetnost. Vlasti ih postupno zamjenjuju modernim vozilima.", gdje: "Na ulicama Manile i svih većih gradova. Vozarina se dodaje od ruke do ruke do vozača." }
+    { ime: "Mano po", opis: "As a sign of respect, younger people take an elder's hand and lightly press the back of it to their own forehead. In speech with elders the words po and opo are added as well, which have no translation but make a sentence polite.", gdje: "In every family on arriving at the house and after Mass. If you add “po” to “salamat”, you will coax out a smile." },
+    { ime: "Fiesta", opis: "Every town and every neighborhood has a patron saint whose day is celebrated with a procession, a brass band, contests and tables full of food for anyone who happens by. The custom was introduced by the Spanish, and Filipinos turned it into the biggest celebration of the year.", gdje: "All year round. Among the biggest are Sinulog in Cebu in January and Ati-Atihan in Kalibo the same month." },
+    { ime: "Sinulog", opis: "A festival in honor of the Holy Child, the Santo Niño, whose statue Magellan gave to the queen of Cebu in 1521. Dancers in lavish costumes dance through the streets with a step of two forward and one back, which imitates the current of a river, to the cry of “Pit Señor!”.", gdje: "In Cebu City, on the third Sunday of January." },
+    { ime: "The longest Christmas in the world", opis: "Christmas songs start playing on September 1, as soon as the months whose names end in ber begin. Houses are decorated with star-shaped parol lanterns, and from December 16 to 24 people go to nine dawn Masses, the Simbang Gabi, after which warm rice cakes are eaten in front of the church.", gdje: "Throughout the country. The most beautiful lanterns are made in the city of San Fernando in the province of Pampanga." },
+    { ime: "Bayanihan", opis: "The community spirit in which neighbors together take on a job that is too big for one family. Its symbol is the image of villagers carrying an entire house to a new spot on bamboo poles resting on their shoulders.", gdje: "Today you see it after typhoons, when a whole neighborhood cleans up and makes repairs together, and you will hear the word in every conversation about helping out." },
+    { ime: "Videoke", opis: "Singing karaoke is a national passion. There is a machine in almost every home and bar and at every celebration, and people sing seriously and without embarrassment, from noon until deep into the night.", gdje: "Everywhere. If you are invited to sing, it is not polite to refuse, and nobody will hold a bad performance against you." },
+    { ime: "Tinikling", opis: "A folk dance in which two people rhythmically tap and clap together long bamboo poles close to the ground while dancers hop between them faster and faster, taking care that the poles do not catch their ankles. The name comes from the tikling bird, which dodges traps in the rice fields in the same way.", gdje: "At school shows, fiestas and cultural evenings in Manila and Cebu." },
+    { ime: "Jeepney", opis: "When the Americans left behind thousands of military jeeps after World War II, Filipinos lengthened them, put roofs on them and painted them with saints, eagles and the names of their children. That is how the cheapest form of public transport and a moving folk art came into being. The authorities are gradually replacing them with modern vehicles.", gdje: "On the streets of Manila and all the larger cities. The fare is passed from hand to hand up to the driver." }
   ],
   fraze: [
-    { izvorno: "Kumusta?", izgovor: "ku-mus-TA", hr: "Kako ste?" },
-    { izvorno: "Magandang umaga po", izgovor: "ma-gan-DANG u-MA-ga po", hr: "Dobro jutro (uljudno)" },
-    { izvorno: "Salamat po", izgovor: "sa-LA-mat po", hr: "Hvala (uljudno)" },
-    { izvorno: "Oo / Hindi", izgovor: "O-o / hin-DI", hr: "Da / Ne" },
-    { izvorno: "Pasensya na", izgovor: "pa-SEN-sja na", hr: "Oprostite" },
-    { izvorno: "Magkano?", izgovor: "mag-KA-no", hr: "Koliko košta?" },
-    { izvorno: "Masarap!", izgovor: "ma-sa-RAP", hr: "Ukusno!" },
-    { izvorno: "Kain tayo!", izgovor: "KA-in TA-jo", hr: "Hajdemo jesti! (poziv koji će vam uputiti svatko tko jede)" }
+    { izvorno: "Kumusta?", izgovor: "koo-moos-TAH", hr: "How are you?" },
+    { izvorno: "Magandang umaga po", izgovor: "mah-gahn-DAHNG oo-MAH-gah poh", hr: "Good morning (polite)" },
+    { izvorno: "Salamat po", izgovor: "sah-LAH-maht poh", hr: "Thank you (polite)" },
+    { izvorno: "Oo / Hindi", izgovor: "OH-oh / hin-DEE", hr: "Yes / No" },
+    { izvorno: "Pasensya na", izgovor: "pah-SEN-shah nah", hr: "Sorry, excuse me" },
+    { izvorno: "Magkano?", izgovor: "mahg-KAH-noh", hr: "How much is it?" },
+    { izvorno: "Masarap!", izgovor: "mah-sah-RAHP", hr: "Delicious!" },
+    { izvorno: "Kain tayo!", izgovor: "KAH-in TAH-yoh", hr: "Let's eat! (an invitation you will get from anyone who is eating)" }
   ],
   zanimljivosti: [
-    "Točan broj otoka je 7641, a ovisno o plimi nekoliko ih se pojavi ili nestane.",
-    "Filipinski jezik ima tisuće riječi španjolskog podrijetla, pa se dani u tjednu, brojevi pri kupovini i pribor za jelo zovu gotovo isto kao u Španjolskoj.",
-    "Jede se žlicom i vilicom, pri čemu žlica u desnoj ruci služi i kao nož.",
-    "Na otoku Boholu živi filipinski tarzijer, jedan od najmanjih primata na svijetu, čije je svako oko veliko otprilike kao njegov mozak.",
-    "Košarka je daleko najomiljeniji sport, a koš od dasaka naći ćete i u najmanjem selu.",
-    "Yo-yo je svjetski proslavio filipinski iseljenik Pedro Flores, koji ga je dvadesetih godina 20. stoljeća počeo proizvoditi u Kaliforniji.",
-    "Oko deset milijuna Filipinaca živi i radi u inozemstvu, kao pomorci, medicinske sestre i njegovateljice, a novac koji šalju kući važan je dio gospodarstva."
+    "The exact number of islands is 7,641, and depending on the tide a few of them appear or disappear.",
+    "The Filipino language has thousands of words of Spanish origin, so the days of the week, the numbers used when shopping and the cutlery are called almost the same thing as in Spain.",
+    "People eat with a spoon and fork, with the spoon in the right hand doubling as a knife.",
+    "The island of Bohol is home to the Philippine tarsier, one of the smallest primates in the world, each of whose eyes is roughly as big as its brain.",
+    "Basketball is by far the most popular sport, and you will find a hoop made of planks in even the smallest village.",
+    "The yo-yo was made world famous by the Filipino emigrant Pedro Flores, who began manufacturing it in California in the 1920s.",
+    "Around ten million Filipinos live and work abroad, as seafarers, nurses and caregivers, and the money they send home is an important part of the economy."
   ],
   mjesta: [
     {
       id: "manila",
       ime: "Manila",
       vrsta: "grad",
-      sazetak: "Kaotična i srdačna prijestolnica, u kojoj se iza zidina španjolskog grada krije priča o galijunima, revoluciji i ratu.",
+      sazetak: "A chaotic and warmhearted capital, where the walls of the Spanish city hide a story of galleons, revolution and war.",
       prica: [
-        "Na ušću rijeke Pasig stajalo je utvrđeno muslimansko naselje Maynila pod radžom Sulaymanom, koje je 1571. osvojio Miguel López de Legazpi i na njegovu mjestu osnovao španjolski grad. Unutar zidina, u Intramurosu, smjeli su živjeti samo Španjolci, a kineski trgovci dobili su četvrt s druge strane rijeke.",
-        "Manila je dva i pol stoljeća bila azijski kraj pomorske rute do Meksika. U veljači i ožujku 1945., u bitki između japanske i američke vojske, stari je grad gotovo potpuno uništen, a poginulo je oko sto tisuća civila. Zato je Intramuros danas velikim dijelom pažljiva obnova."
+        "At the mouth of the Pasig River stood the fortified Muslim settlement of Maynila under Rajah Sulayman, which Miguel López de Legazpi conquered in 1571, founding a Spanish city in its place. Only Spaniards were allowed to live inside the walls, in Intramuros, and the Chinese traders were given a quarter on the other side of the river.",
+        "For two and a half centuries Manila was the Asian end of the sea route to Mexico. In February and March 1945, in the battle between the Japanese and US armies, the old city was almost completely destroyed and around a hundred thousand civilians were killed. That is why Intramuros today is largely a careful reconstruction."
       ],
       vidjeti: [
-        { ime: "Tvrđava Santiago", opis: "Španjolska utvrda na ušću rijeke, građena od kraja 16. stoljeća, bila je zatvor za sve vlasti redom. Ovdje je posljednju noć proveo nacionalni junak José Rizal, liječnik i pisac kojeg su Španjolci strijeljali 30. prosinca 1896. Mjedeni otisci stopala u pločniku prate njegov posljednji put do stratišta." },
-        { ime: "Crkva sv. Augustina", opis: "Najstarija kamena crkva u zemlji dovršena je 1607. i jedina je građevina u Intramurosu koja je preživjela 1945. godinu, kao i niz potresa prije toga. Svod izgleda bogato isklesan, ali je zapravo gladak: reljefe su 1875. naslikala dvojica talijanskih slikara tehnikom varke oka. Uz oltar je grob osvajača Legazpija. Na UNESCO-ovu je popisu od 1993. godine." },
-        { ime: "Casa Manila", opis: "Rekonstrukcija doma bogate obitelji iz 19. stoljeća pokazuje tip kuće bahay na bato: kameno prizemlje za kočije i skladište, a iznad drveni kat s kliznim prozorima od prozirnih školjaka capiz umjesto stakla." },
-        { ime: "Park Rizal", opis: "Na mjestu gdje je Rizal strijeljan stoji spomenik pod kojim počivaju njegovi ostaci, s počasnom stražom danju i noću. Od jarbola pred spomenikom mjere se sve cestovne udaljenosti u zemlji." },
-        { ime: "Binondo", opis: "Osnovan je 1594. za Kineze koji su prešli na katoličanstvo i smatra se najstarijom kineskom četvrti na svijetu. U ovdašnjoj je crkvi kao dječak ministrirao sv. Lorenzo Ruiz, prvi filipinski svetac. Ulice su pune zlatarnica, ljekarni s biljem i zalogajnica starih i po stotinu godina." },
-        { ime: "Nacionalni muzej likovnih umjetnosti", opis: "Odmah na ulazu dočekuje vas Spoliarium, golemo platno Juana Lune iz 1884. godine, visoko četiri, a široko sedam metara, koje prikazuje mrtve gladijatore odvučene iz arene. Na izložbi u Madridu dobilo je zlatnu medalju i Filipincima pod kolonijalnom vlašću postalo dokaz da su jednaki." }
+        { ime: "Fort Santiago", opis: "The Spanish fort at the mouth of the river, built from the late 16th century, served as a prison for one set of rulers after another. The national hero José Rizal, a doctor and writer whom the Spanish executed by firing squad on December 30, 1896, spent his last night here. Brass footprints in the pavement trace his final walk to the place of execution." },
+        { ime: "San Agustin Church", opis: "The oldest stone church in the country was completed in 1607 and is the only building in Intramuros that survived 1945, as well as a string of earthquakes before that. The vault looks richly carved but is in fact smooth: the reliefs were painted in 1875 by two Italian painters using the trompe l'oeil technique. Beside the altar is the tomb of the conquistador Legazpi. It has been on the UNESCO list since 1993." },
+        { ime: "Casa Manila", opis: "This reconstruction of a wealthy 19th-century family home shows the type of house known as bahay na bato: a stone ground floor for carriages and storage, and above it a wooden upper floor with sliding windows made of translucent capiz shells in place of glass." },
+        { ime: "Rizal Park", opis: "On the spot where Rizal was shot stands the monument beneath which his remains rest, with an honor guard day and night. All road distances in the country are measured from the flagpole in front of the monument." },
+        { ime: "Binondo", opis: "It was founded in 1594 for Chinese who had converted to Catholicism and is considered the oldest Chinatown in the world. Saint Lorenzo Ruiz, the first Filipino saint, served as an altar boy in the church here. The streets are full of goldsmiths, herbal pharmacies and eateries that are as much as a hundred years old." },
+        { ime: "National Museum of Fine Arts", opis: "Right at the entrance you are greeted by the Spoliarium, Juan Luna's enormous canvas from 1884, four meters high and seven meters wide, which shows dead gladiators being dragged out of the arena. It won a gold medal at the exposition in Madrid and became proof to Filipinos under colonial rule that they were equals." }
       ],
       jesti: [
-        { ime: "Zalogaji Binonda", opis: "Svježe rolice lumpia s povrćem i slatkim umakom, pržene okruglice od svinjetine i rezanci u starim kineskim zalogajnicama, najbolje u obilasku od vrata do vrata." },
-        { ime: "Taho", opis: "Topli svilenkasti tofu sa smeđim sirupom i kuglicama tapioke, koji prodavači ujutro nose u dvije limene posude i najavljuju otegnutim povikom." },
-        { ime: "Halo-halo", opis: "Na vrućini Manile čaša struganog leda s ljubičastom kremom od jama najbolji je predah, a poslužuju je slastičarnice i lanci brze hrane." }
+        { ime: "The bites of Binondo", opis: "Fresh lumpia rolls with vegetables and a sweet sauce, fried pork dumplings and noodles in old Chinese eateries, best sampled by going from door to door." },
+        { ime: "Taho", opis: "Warm silken tofu with brown syrup and tapioca pearls, which vendors carry in two tin buckets in the morning and announce with a long, drawn-out call." },
+        { ime: "Halo-halo", opis: "In the heat of Manila a glass of shaved ice with purple yam jam is the best break there is, and it is served by dessert shops and fast food chains alike." }
       ],
       dozivjeti: [
-        { ime: "Šetnja i kušanje po Binondu", opis: "Vodič Ivan Man Dy, podrijetlom iz kineske četvrti, vodi turu na kojoj se hoda, sluša povijest i jede na pet do šest mjesta.", link: "https://oldmanilawalks.com/" },
-        { ime: "Intramuros na biciklu od bambusa", opis: "Bambike Ecotours vodi lagane vožnje po zidinama i ulicama staroga grada na biciklima koje ručno izrađuju obrtnici iz filipinskih sela.", link: "https://www.bambike.com/ecotours" },
-        { ime: "Zlato predaka u muzeju Ayala", opis: "U poslovnoj četvrti Makati izloženo je više od tisuću zlatnih predmeta iz doba prije Španjolaca, uz diorame koje pregledno pričaju cijelu povijest zemlje.", link: "https://www.ayalamuseum.org/" }
+        { ime: "A walking and tasting tour of Binondo", opis: "The guide Ivan Man Dy, who has roots in Chinatown, leads a tour on which you walk, listen to history and eat at five or six places.", link: "https://oldmanilawalks.com/" },
+        { ime: "Intramuros on a bamboo bike", opis: "Bambike Ecotours runs easy rides along the walls and streets of the old city on bicycles handmade by craftspeople from Filipino villages.", link: "https://www.bambike.com/ecotours" },
+        { ime: "The gold of the ancestors at the Ayala Museum", opis: "In the Makati business district more than a thousand gold objects from pre-Spanish times are on display, along with dioramas that clearly tell the whole history of the country.", link: "https://www.ayalamuseum.org/" }
       ],
       agencije: [
-        { ime: "Love the Philippines", opis: "Službena stranica filipinskog ministarstva turizma.", link: "https://philippines.travel/" },
-        { ime: "Intramuros Administration", opis: "Državna uprava staroga grada s podacima o utvrdama, muzejima i događanjima.", link: "https://intramuros.gov.ph/" },
-        { ime: "Old Manila Walks", opis: "Dugogodišnje pješačke ture po Binondu, Intramurosu i drugim povijesnim četvrtima.", link: "https://oldmanilawalks.com/" }
+        { ime: "Love the Philippines", opis: "The official website of the Philippine Department of Tourism.", link: "https://philippines.travel/" },
+        { ime: "Intramuros Administration", opis: "The state agency that runs the old city, with information on the forts, museums and events.", link: "https://intramuros.gov.ph/" },
+        { ime: "Old Manila Walks", opis: "Long-running walking tours of Binondo, Intramuros and other historic neighborhoods.", link: "https://oldmanilawalks.com/" }
       ],
-      kada: "Od prosinca do veljače. Promet je vrlo gust, pa odsjednite blizu onoga što želite vidjeti, Intramuros obiđite rano ujutro, a za grad odvojite dan ili dva prije odlaska na otoke."
+      kada: "From December to February. Traffic is very heavy, so stay close to what you want to see, tour Intramuros early in the morning, and set aside a day or two for the city before heading to the islands."
     },
     {
       id: "palawan",
       ime: "Palawan",
       vrsta: "otok",
-      sazetak: "Dugi, uski otok na rubu arhipelaga, s lagunama među crnim liticama, podzemnom rijekom i morem boje stakla.",
+      sazetak: "A long, narrow island on the edge of the archipelago, with lagoons among black cliffs, an underground river and a sea the color of glass.",
       prica: [
-        "Palawan je najrjeđe naseljena filipinska pokrajina i Filipinci ga zovu posljednjom granicom. U špiljama Tabon na zapadnoj obali pronađeni su jedni od najstarijih ostataka modernog čovjeka u jugoistočnoj Aziji, stari desecima tisuća godina.",
-        "Ime mjesta El Nido na španjolskom znači gnijezdo. Odnosi se na gnijezda lastavica čiopa u pukotinama litica, koja se beru za kinesku juhu od ptičjih gnijezda i vrijede pravo bogatstvo. Kod otoka Corona američki su zrakoplovi 24. rujna 1944. potopili japansku opskrbnu flotu, čije olupine danas privlače ronioce."
+        "Palawan is the most sparsely populated province in the Philippines, and Filipinos call it the last frontier. In the Tabon Caves on the west coast, some of the oldest remains of modern humans in Southeast Asia have been found, tens of thousands of years old.",
+        "The name of the town of El Nido means the nest in Spanish. It refers to the nests of swiftlets in the crevices of the cliffs, which are harvested for Chinese bird's nest soup and are worth a real fortune. Off the island of Coron, US aircraft sank a Japanese supply fleet on September 24, 1944, and its wrecks draw divers today."
       ],
       vidjeti: [
-        { ime: "Podzemna rijeka kod Puerto Princese", opis: "Rijeka duga više od osam kilometara teče kroz planinu i izlijeva se izravno u more, pa se u donjem dijelu osjećaju plima i oseka. Čamcem na vesla ulazi se u dvorane sa stalaktitima i tisućama šišmiša, u potpunom mraku uz jednu svjetiljku. UNESCO ju je upisao na popis svjetske baštine 1999. godine." },
-        { ime: "Arhipelag Bacuit kod El Nida", opis: "Četrdesetak otoka od tamnog vapnenca s oštrim vrhovima krije lagune u koje se ulazi kajakom kroz uske prolaze. U Velikoj i Maloj laguni otoka Miniloc voda je mirna i zelena, a zvuk odjekuje među stijenama." },
-        { ime: "Jezero Kayangan na Coronu", opis: "Do jezera kristalno bistre, djelomično slatke vode penje se stotinjak stuba preko grebena. Pripada narodu Tagbanua, koji upravlja otokom i smatra jezera svetima, pa su samo neka otvorena posjetiteljima." },
-        { ime: "Olupine kod Corona", opis: "Desetak japanskih brodova leži na dubinama od nekoliko do četrdeset metara. Neke su toliko plitko da se obrasli jarboli i paluba vide s maskom i disalicom." },
-        { ime: "Plaža Nacpan", opis: "Četiri kilometra širokog zlatnog pijeska s palmama sjeverno od El Nida, bez ijedne velike zgrade. S brežuljka na kraju vidi se kako se dvije plaže spajaju leđima." }
+        { ime: "The Underground River near Puerto Princesa", opis: "The river, more than eight kilometers long, flows through a mountain and empties straight into the sea, so the tides can be felt in its lower reaches. A paddle boat takes you into chambers with stalactites and thousands of bats, in total darkness with a single lamp. UNESCO added it to the World Heritage List in 1999." },
+        { ime: "The Bacuit Archipelago off El Nido", opis: "Some forty islands of dark, sharp-peaked limestone conceal lagoons that you enter by kayak through narrow gaps. In the Big and Small Lagoons of Miniloc Island the water is calm and green, and sound echoes among the rocks." },
+        { ime: "Kayangan Lake on Coron", opis: "You climb about a hundred steps over a ridge to reach the lake of crystal-clear, partly fresh water. It belongs to the Tagbanua people, who manage the island and consider the lakes sacred, so only some of them are open to visitors." },
+        { ime: "The wrecks off Coron", opis: "A dozen or so Japanese ships lie at depths ranging from a few meters to forty. Some are so shallow that the overgrown masts and deck can be seen with a mask and snorkel." },
+        { ime: "Nacpan Beach", opis: "Four kilometers of broad golden sand with palm trees north of El Nido, without a single large building. From the hill at the end you can see how two beaches meet back to back." }
       ],
       jesti: [
-        { ime: "Tamilok", opis: "Dugi mekušac koji živi u trulom drvu mangrova, jede se sirov, umočen u ocat s čilijem, a okusom podsjeća na kamenicu. Specijalitet je Puerto Princese i mjera hrabrosti." },
-        { ime: "Chao long", opis: "Juha s rižinim rezancima i govedinom, uz baget, ostala je iza vijetnamskih izbjeglica koji su se sedamdesetih i osamdesetih godina sklonili u Puerto Princesu." },
-        { ime: "Riba i plodovi mora s roštilja", opis: "Na izletima čamcem posada na plaži peče ribu, lignje i rakove, uz rižu, mango i salatu od patlidžana." }
+        { ime: "Tamilok", opis: "A long mollusk that lives in rotting mangrove wood, eaten raw, dipped in vinegar with chili, with a taste reminiscent of oyster. It is a specialty of Puerto Princesa and a measure of courage." },
+        { ime: "Chao long", opis: "A soup with rice noodles and beef, served with a baguette, left behind by the Vietnamese refugees who found shelter in Puerto Princesa in the 1970s and 1980s." },
+        { ime: "Grilled fish and seafood", opis: "On boat trips the crew grills fish, squid and crabs on the beach, served with rice, mango and eggplant salad." }
       ],
       dozivjeti: [
-        { ime: "Izleti čamcem po lagunama", opis: "U El Nidu i Coronu izleti su podijeljeni na nekoliko ustaljenih ruta. Privatni čamac stoji više, ali vam omogućuje da krenete sat ranije i u lagune stignete prije svih." },
-        { ime: "Posjet podzemnoj rijeci", opis: "Broj posjetitelja dnevno je ograničen i potrebna je dozvola, pa izlet dogovorite nekoliko dana unaprijed preko gradskog turističkog ureda ili smještaja.", link: "https://puertoprincesa.ph/" },
-        { ime: "Krijesnice na rijeci Iwahig", opis: "Nakon mraka čamci na vesla klize uz mangrove u kojima tisuće krijesnica trepere usklađeno, kao božićne lampice." }
+        { ime: "Boat trips around the lagoons", opis: "In El Nido and Coron the trips are divided into several set routes. A private boat costs more, but it lets you set off an hour earlier and reach the lagoons ahead of everyone else." },
+        { ime: "Visiting the Underground River", opis: "The number of visitors per day is limited and a permit is required, so arrange the trip a few days in advance through the city tourism office or your accommodation.", link: "https://puertoprincesa.ph/" },
+        { ime: "Fireflies on the Iwahig River", opis: "After dark, paddle boats glide past mangroves in which thousands of fireflies twinkle in unison, like Christmas lights." }
       ],
       agencije: [
-        { ime: "Love the Philippines", opis: "Službena stranica filipinskog ministarstva turizma s vodičem po Palawanu.", link: "https://philippines.travel/" },
-        { ime: "Grad Puerto Princesa", opis: "Službena stranica gradske uprave, s turističkim informacijama i podacima o podzemnoj rijeci.", link: "https://puertoprincesa.ph/" }
+        { ime: "Love the Philippines", opis: "The official website of the Philippine Department of Tourism, with a guide to Palawan.", link: "https://philippines.travel/" },
+        { ime: "City of Puerto Princesa", opis: "The official website of the city government, with tourist information and details on the Underground River.", link: "https://puertoprincesa.ph/" }
       ],
-      kada: "Od prosinca do svibnja more je mirno. Između Puerto Princese i El Nida vozi se pet do šest sati, a do Corona se iz El Nida ide trajektom, pa nemojte pokušavati vidjeti sve u manje od tjedan dana."
+      kada: "From December to May the sea is calm. The drive between Puerto Princesa and El Nido takes five to six hours, and you reach Coron from El Nido by ferry, so do not try to see everything in less than a week."
     },
     {
       id: "cebu-bohol",
-      ime: "Cebu i Bohol",
+      ime: "Cebu and Bohol",
       vrsta: "regija",
-      sazetak: "Kolijevka filipinskog kršćanstva i susjedni otok čokoladnih brežuljaka i sićušnih primata golemih očiju.",
+      sazetak: "The cradle of Philippine Christianity and the neighboring island of chocolate hills and tiny primates with enormous eyes.",
       prica: [
-        "Cebu je bio živa trgovačka luka kada je u travnju 1521. doplovio Magellan. Poglavar Humabon i njegova žena pokrstili su se s nekoliko stotina podanika, a kraljica je na dar dobila kipić Malog Isusa. Nekoliko tjedana poslije Magellan je poginuo na susjednom Mactanu.",
-        "Legazpi se vratio 1565. i u Cebuu osnovao prvo trajno španjolsko naselje u Aziji. Iste godine na Boholu je s poglavarom Sikatunom sklopio pobratimstvo krvlju, tako što su obojica popila vino pomiješano s nekoliko kapi krvi onoga drugoga."
+        "Cebu was a lively trading port when Magellan sailed in during April 1521. The chieftain Humabon and his wife were baptized along with several hundred of their subjects, and the queen received a statuette of the Holy Child as a gift. A few weeks later Magellan was killed on neighboring Mactan.",
+        "Legazpi returned in 1565 and founded the first permanent Spanish settlement in Asia in Cebu. That same year on Bohol he made a blood compact with the chieftain Sikatuna, with each man drinking wine mixed with a few drops of the other's blood."
       ],
       vidjeti: [
-        { ime: "Bazilika Santo Niño", opis: "Stoji na mjestu gdje je Legazpijev vojnik 1565. u spaljenoj kolibi pronašao neoštećen kipić Malog Isusa, isti onaj koji je Magellan darovao 44 godine prije. Kipić od tamnog drva, u vezenom plaštu, najstarija je kršćanska relikvija u zemlji, a red vjernika koji ga žele dotaknuti nikad ne prestaje." },
-        { ime: "Magellanov križ", opis: "U osmerokutnom paviljonu pred bazilikom stoji križ za koji predaja kaže da u sebi čuva ostatke križa koji je Magellan zabio 1521. godine. Strop paviljona oslikan je prizorom prvog krštenja. Žene pred ulazom za vas će otplesati molitvu sa svijećama." },
-        { ime: "Tvrđava San Pedro", opis: "Najstarija i najmanja španjolska utvrda u zemlji ima oblik trokuta, s dvije strane prema moru i jednom prema kopnu. Započeta je kao drvena palisada 1565., a kameni zidovi su iz 18. stoljeća." },
-        { ime: "Čokoladni brežuljci", opis: "Usred Bohola diže se više od tisuću dvjesto gotovo jednakih stožastih brežuljaka od vapnenca. U suhoj sezoni trava na njima posmeđi, pa izgledaju kao čokoladni bomboni. Legenda kaže da su to okamenjene suze diva Aroga, koji je oplakivao smrtnu djevojku." },
-        { ime: "Utočište za tarzijere u Corelli", opis: "Tarzijer stane na dlan, ne može pomicati oči, pa glavu okreće gotovo za puni krug, i noćni je lovac na kukce. Vrlo je osjetljiv na stres, zato se u utočištu zaklade hoda u tišini, bez bljeskalice, a životinje se ne smiju dirati." },
-        { ime: "Crkva u Baclayonu", opis: "Jedna od najstarijih kamenih crkava u zemlji sagrađena je 1727. od blokova koralja, koji su, prema predaji, spajani žbukom s bjelanjcima. Teško je stradala u potresu 2013., a obnova je dovršena nekoliko godina poslije." }
+        { ime: "Basilica del Santo Niño", opis: "It stands on the spot where, in 1565, one of Legazpi's soldiers found an undamaged statuette of the Holy Child in a burned hut, the very one Magellan had given as a gift 44 years earlier. The statuette of dark wood, in an embroidered cloak, is the oldest Christian relic in the country, and the line of believers who want to touch it never ends." },
+        { ime: "Magellan's Cross", opis: "In an octagonal pavilion in front of the basilica stands a cross that tradition says encases the remains of the cross Magellan planted in 1521. The ceiling of the pavilion is painted with a scene of the first baptism. The women at the entrance will dance a prayer with candles for you." },
+        { ime: "Fort San Pedro", opis: "The oldest and smallest Spanish fort in the country is shaped like a triangle, with two sides facing the sea and one facing the land. It was begun as a wooden palisade in 1565, and the stone walls date from the 18th century." },
+        { ime: "The Chocolate Hills", opis: "In the middle of Bohol rise more than twelve hundred almost identical conical limestone hills. In the dry season the grass on them turns brown, so they look like chocolate candies. Legend says they are the petrified tears of the giant Arogo, who was mourning a mortal girl." },
+        { ime: "The tarsier sanctuary in Corella", opis: "A tarsier fits in the palm of your hand, cannot move its eyes and so turns its head almost full circle, and hunts insects by night. It is very sensitive to stress, which is why at the foundation's sanctuary you walk in silence, without flash, and the animals must not be touched." },
+        { ime: "Baclayon Church", opis: "One of the oldest stone churches in the country was built in 1727 from coral blocks which, according to tradition, were bound with a mortar containing egg whites. It was badly damaged in the 2013 earthquake, and the restoration was completed a few years later." }
       ],
       jesti: [
-        { ime: "Lechon Cebu", opis: "Prase s ražnja ovdje je toliko začinjeno da se jede bez umaka, a prodaje se na težinu uz puso, rižu kuhanu u pletenim vrećicama od kokosova lišća." },
-        { ime: "Sutukil", opis: "Naziv spaja tri načina pripreme iste ribe: sugba je s roštilja, tula u juhi, a kilaw sirova u octu. Naručuje se u ribljim restoranima na Mactanu." },
-        { ime: "Sušeni mango i calamay", opis: "Cebu je poznat po kriškama sušenog manga, a Bohol po calamayu, ljepljivoj slastici od riže i kokosa koja se prodaje u kokosovoj ljusci zalijepljenoj crvenom trakom." }
+        { ime: "Lechon Cebu", opis: "The spit-roasted pig here is so well seasoned that it is eaten without sauce, and it is sold by weight with puso, rice cooked in woven pouches of coconut leaves." },
+        { ime: "Sutukil", opis: "The name combines three ways of preparing the same fish: sugba is grilled, tula is in a soup, and kilaw is raw in vinegar. You order it in the fish restaurants on Mactan." },
+        { ime: "Dried mango and calamay", opis: "Cebu is known for its slices of dried mango, and Bohol for calamay, a sticky sweet of rice and coconut sold in a coconut shell sealed with red tape." }
       ],
       dozivjeti: [
-        { ime: "Sinulog", opis: "Treće nedjelje u siječnju cijeli grad pleše u čast Santo Niña, a povorka traje od jutra do mraka." },
-        { ime: "Plovidba rijekom Loboc", opis: "Na Boholu splavi s ručkom polako plove kroz džunglu do malog slapa, uz pjesmu djece iz sela na obali." },
-        { ime: "Sardine kod Moalboala", opis: "Na zapadnoj obali Cebua milijunsko jato sardina živi uz sam greben, dvadesetak metara od plaže, pa ga se gleda s maskom i disalicom." }
+        { ime: "Sinulog", opis: "On the third Sunday of January the whole city dances in honor of the Santo Niño, and the parade lasts from morning until dark." },
+        { ime: "A cruise on the Loboc River", opis: "On Bohol, rafts serving lunch drift slowly through the jungle to a small waterfall, to the singing of children from the village on the bank." },
+        { ime: "The sardines at Moalboal", opis: "On the west coast of Cebu a shoal of millions of sardines lives right beside the reef, some twenty meters from the beach, so you can watch it with a mask and snorkel." }
       ],
       agencije: [
-        { ime: "Love the Philippines", opis: "Službena stranica filipinskog ministarstva turizma.", link: "https://philippines.travel/" },
-        { ime: "Bohol.ph", opis: "Dugogodišnji vodič po otoku Boholu s opisima mjesta, crkava i prijevoza.", link: "https://www.bohol.ph/" }
+        { ime: "Love the Philippines", opis: "The official website of the Philippine Department of Tourism.", link: "https://philippines.travel/" },
+        { ime: "Bohol.ph", opis: "A long-running guide to the island of Bohol, with descriptions of places, churches and transport.", link: "https://www.bohol.ph/" }
       ],
-      kada: "Od siječnja do svibnja. Između Cebua i Bohola brzi trajekt vozi oko dva sata. U Oslobu se nude izleti s kitopsinama koje se hrane iz čamaca, što stručnjaci za more kritiziraju, pa razmislite prije nego što ih uplatite."
+      kada: "From January to May. The fast ferry between Cebu and Bohol takes about two hours. In Oslob there are trips to see whale sharks that are fed from boats, a practice marine experts criticize, so think it over before you pay for one."
     },
     {
       id: "banaue",
-      ime: "Banaue i rižine terase Kordiljera",
+      ime: "Banaue and the Rice Terraces of the Cordilleras",
       vrsta: "priroda",
-      sazetak: "Planinski amfiteatri rižinih polja koje je narod Ifugao rukama uklesao u strme padine, bez ijednog stroja.",
+      sazetak: "Mountain amphitheaters of rice fields that the Ifugao people carved into steep slopes by hand, without a single machine.",
       prica: [
-        "U planinama sjevernog Luzona narod Ifugao sagradio je terase koje prate obrise brda poput slojnica na zemljovidu, sa zidovima od kamena i blata i sustavom kanala koji vodu iz šuma na vrhu spušta od polja do polja. Dugo se tvrdilo da su stare dvije tisuće godina, ali novija arheološka istraživanja upućuju na to da su se naglo proširile tek prije oko četiristo godina, kada su se ljudi pred Španjolcima povukli u planine.",
-        "Španjolci ovaj kraj nikada nisu pokorili, pa su Ifugao sačuvali vlastite obrede, drvene kipove čuvara riže zvane bulul i epske napjeve hudhud, koje žene pjevaju u vrijeme žetve. UNESCO je 1995. na popis svjetske baštine upisao pet skupina terasa, među kojima su Batad i Bangaan."
+        "In the mountains of northern Luzon the Ifugao people built terraces that follow the outlines of the hills like contour lines on a map, with walls of stone and mud and a system of channels that brings water down from the forests at the top, field by field. It was long claimed that they were two thousand years old, but more recent archaeological research suggests that they expanded rapidly only about four hundred years ago, when people retreated into the mountains ahead of the Spanish.",
+        "The Spanish never subdued this region, so the Ifugao kept their own rituals, the wooden statues of rice guardians called bulul and the epic hudhud chants, which women sing at harvest time. In 1995 UNESCO added five clusters of terraces to the World Heritage List, among them Batad and Bangaan."
       ],
       vidjeti: [
-        { ime: "Vidikovci u Banaueu", opis: "Uz cestu iznad mjesta niže se nekoliko vidikovaca s pogledom na terase koje su prikazane na novčanici od dvadeset pesosa. Stariji Ifugao u nošnjama ondje poziraju za fotografiju uz mali prilog." },
-        { ime: "Batad", opis: "Selo na dnu savršenog amfiteatra terasa, do kojeg se dolazi samo pješice, oko pola sata od kraja ceste. Zidovi su ovdje od kamena, a po njihovim se rubovima hoda kao po uskim stazama. Najzelenije je u travnju i svibnju, a zlatno pred žetvu u lipnju." },
-        { ime: "Slap Tappiya", opis: "Od Batada se za četrdesetak minuta strmog silaska stiže do slapa visokog tridesetak metara, s bazenom za kupanje. Povratak uzbrdo traži dah, pa ponesite vode." },
-        { ime: "Bangaan", opis: "Malo selo tradicionalnih kuća na stupovima s travnatim krovom, okruženo terasama, vidi se s ceste kao maketa. Do njega se silazi dvadesetak minuta." },
-        { ime: "Viseći lijesovi u Sagadi", opis: "Nekoliko sati vožnje zapadnije narod Kankanaey stoljećima pokapa ugledne starce u lijesovima obješenima na liticu, kako bi bili bliže nebu. Neki su lijesovi vrlo kratki jer su pokojnici polagani skvrčeni, u položaju djeteta u utrobi." }
+        { ime: "The viewpoints in Banaue", opis: "Along the road above the town is a series of viewpoints overlooking the terraces that are shown on the twenty-peso banknote. Older Ifugao in traditional dress pose for photographs there for a small contribution." },
+        { ime: "Batad", opis: "A village at the bottom of a perfect amphitheater of terraces, reachable only on foot, about half an hour from the end of the road. The walls here are made of stone, and you walk along their edges as if on narrow paths. It is at its greenest in April and May, and golden just before the harvest in June." },
+        { ime: "Tappiya Falls", opis: "From Batad, a steep descent of about forty minutes brings you to a waterfall some thirty meters high, with a pool for swimming. The climb back up takes your breath away, so bring water." },
+        { ime: "Bangaan", opis: "A small village of traditional stilt houses with thatched roofs, surrounded by terraces, looks like a scale model from the road. It takes about twenty minutes to walk down to it." },
+        { ime: "The hanging coffins of Sagada", opis: "A few hours' drive to the west, the Kankanaey people have for centuries buried respected elders in coffins hung on a cliff, to bring them closer to heaven. Some of the coffins are very short because the dead were laid in them curled up, in the position of a child in the womb." }
       ],
       jesti: [
-        { ime: "Tinawon", opis: "Starinska mirisna riža s terasa, koja se bere jednom godišnje, a ime joj upravo to znači. Kuhana je crvenkasta i orašasta okusa." },
-        { ime: "Pinikpikan", opis: "Obredna pileća juha s dimljenom soljenom svinjetinom etag. Tradicionalan način pripreme mnogim je posjetiteljima težak, pa se slobodno raspitajte prije nego što naručite." },
-        { ime: "Tapuy", opis: "Slatkasto rižino vino koje se pije na svadbama i žetvenim svečanostima, a nudi se i gostima u seoskim kućama." }
+        { ime: "Tinawon", opis: "An heirloom aromatic rice from the terraces that is harvested once a year, which is exactly what its name means. Cooked, it is reddish and nutty in flavor." },
+        { ime: "Pinikpikan", opis: "A ritual chicken soup with etag, smoked salted pork. The traditional method of preparation is hard for many visitors to take, so feel free to ask about it before you order." },
+        { ime: "Tapuy", opis: "A sweetish rice wine drunk at weddings and harvest celebrations, and also offered to guests in village homes." }
       ],
       dozivjeti: [
-        { ime: "Pješačenje s lokalnim vodičem", opis: "U turističkom uredu u Banaueu udruga vodiča iz naroda Ifugao nudi jednodnevne i dvodnevne ture po terasama. Vodič je koristan jer se staze granaju, a usput objašnjava kako se dijeli voda i tko nasljeđuje polja." },
-        { ime: "Noćenje u Batadu", opis: "Jednostavne obiteljske kuće s terasom gledaju ravno na amfiteatar. Ujutro se magla diže s polja dok selo još spava." }
+        { ime: "Hiking with a local guide", opis: "At the tourist office in Banaue, an association of Ifugao guides offers one-day and two-day tours of the terraces. A guide is useful because the trails branch off, and along the way he explains how the water is shared and who inherits the fields." },
+        { ime: "A night in Batad", opis: "Simple family-run houses with a terrace look straight out onto the amphitheater. In the morning the mist lifts off the fields while the village is still asleep." }
       ],
       agencije: [
-        { ime: "Love the Philippines", opis: "Službena stranica filipinskog ministarstva turizma s informacijama o Kordiljerima.", link: "https://philippines.travel/" }
+        { ime: "Love the Philippines", opis: "The official website of the Philippine Department of Tourism, with information on the Cordilleras.", link: "https://philippines.travel/" }
       ],
-      kada: "Od veljače do lipnja. Iz Manile se putuje noćnim autobusom oko devet sati. Od srpnja do rujna jake kiše izazivaju odrone, pa su ceste često zatvorene."
+      kada: "From February to June. The trip from Manila is by night bus and takes about nine hours. From July to September heavy rains cause landslides, so the roads are often closed."
     },
     {
       id: "vigan",
       ime: "Vigan",
       vrsta: "gradić",
-      sazetak: "Najbolje očuvan španjolski kolonijalni grad u Aziji, s kaldrmom, kočijama i kućama čiji prozori svijetle kroz školjke.",
+      sazetak: "The best-preserved Spanish colonial town in Asia, with cobblestones, horse-drawn carriages and houses whose windows glow through shells.",
       prica: [
-        "Vigan je bio trgovačka postaja na koju su kineske džunke dolazile po zlato i vosak mnogo prije Španjolaca. Osvajač Juan de Salcedo, Legazpijev unuk, osnovao je ovdje 1572. španjolski grad. Bogati trgovci kineskog i domaćeg podrijetla gradili su zatim kuće koje spajaju kineske, filipinske i europske elemente.",
-        "Većina filipinskih kolonijalnih gradova stradala je u Drugom svjetskom ratu, a Vigan je ostao čitav. Mjesna predaja to pripisuje japanskom zapovjedniku koji je imao ženu Filipinku i koji se na molbu župnika povukao bez paljenja grada. UNESCO ga je upisao na popis svjetske baštine 1999. godine."
+        "Vigan was a trading post where Chinese junks came for gold and beeswax long before the Spanish. The conquistador Juan de Salcedo, Legazpi's grandson, founded a Spanish town here in 1572. Wealthy merchants of Chinese and local descent then built houses that combine Chinese, Filipino and European elements.",
+        "Most Philippine colonial towns were destroyed in World War II, yet Vigan remained whole. Local tradition credits a Japanese commander who had a Filipina wife and who, at the parish priest's plea, withdrew without setting fire to the town. UNESCO added it to the World Heritage List in 1999."
       ],
       vidjeti: [
-        { ime: "Ulica Crisologo", opis: "Pola kilometra kaldrme zatvorene za automobile, kojom voze samo kočije kalesa. Kuće imaju kameno prizemlje, nekoć skladište, i drveni kat za stanovanje. Pogledajte prozore: umjesto stakla imaju klizna krila s rešetkom ispunjenom prozirnim pločicama školjke capiz, koje propuštaju meko svjetlo." },
-        { ime: "Katedrala sv. Pavla", opis: "Sagrađena je potkraj 18. stoljeća u stilu koji se na Filipinima zove potresni barok: niska je, široka i poduprta debelim potpornjima. Zvonik stoji odvojeno, kako u potresu ne bi pao na crkvu. Na pročelju potražite kineske kamene lavove." },
-        { ime: "Zvonik u Bantayu", opis: "Na brežuljku tik izvan grada stoji toranj od opeke iz 1591. godine, koji je služio i kao stražarnica za dojavu o gusarima. S vrha se vide grad, polja i more." },
-        { ime: "Kuća Syquia", opis: "Dom obitelji supruge predsjednika Elpidija Quirina uređen je namještajem iz 19. stoljeća. U zidovima blagovaonice skrivene su špijunke kroz koje su domaćini provjeravali goste, a posluga je pratila kada treba donijeti sljedeće jelo." },
-        { ime: "Lončarska četvrt Pagburnayan", opis: "Ovdje se od tamne gline izrađuju veliki ćupovi burnay, po tehnici koju su donijeli kineski doseljenici prije Španjolaca. Glinu u jami gazi vodeni bivol, a peć duga pedesetak metara penje se uz padinu. U ćupovima dozrijevaju ocat, riblji umak i vino od šećerne trske." },
-        { ime: "Crkva u Paoayu", opis: "Sat i pol vožnje sjevernije stoji crkva iz 1710. godine, također na UNESCO-ovu popisu, najbolji primjer potresnog baroka. Sa strana je podupiru dvadeset četiri golema potpornja nalik na leđa zmaja, a pročelje više podsjeća na javanski hram nego na europsku crkvu." }
+        { ime: "Calle Crisologo", opis: "Half a kilometer of cobblestones closed to cars, traveled only by the carriages called kalesa. The houses have a stone ground floor, once a storeroom, and a wooden upper floor for living. Look at the windows: in place of glass they have sliding panels with a lattice filled with translucent pieces of capiz shell, which let in a soft light." },
+        { ime: "St. Paul's Cathedral", opis: "It was built in the late 18th century in the style known in the Philippines as earthquake Baroque: it is low, wide and braced by thick buttresses. The bell tower stands apart so that it would not fall on the church in an earthquake. Look for the Chinese stone lions on the facade." },
+        { ime: "Bantay Bell Tower", opis: "On a hillock just outside town stands a brick tower from 1591, which also served as a watchtower for raising the alarm about pirates. From the top you can see the town, the fields and the sea." },
+        { ime: "Syquia Mansion", opis: "The home of the family of President Elpidio Quirino's wife is furnished with 19th-century pieces. Hidden in the dining room walls are peepholes through which the hosts checked on their guests and the servants watched for the moment to bring in the next course." },
+        { ime: "The Pagburnayan pottery district", opis: "Here large burnay jars are made from dark clay, using a technique brought by Chinese settlers before the Spanish. A water buffalo treads the clay in a pit, and a kiln some fifty meters long climbs up the slope. Vinegar, fish sauce and sugar cane wine are aged in the jars." },
+        { ime: "Paoay Church", opis: "An hour and a half's drive to the north stands a church from 1710, also on the UNESCO list and the finest example of earthquake Baroque. It is propped up along its sides by twenty-four huge buttresses that resemble a dragon's back, and the facade is more reminiscent of a Javanese temple than a European church." }
       ],
       jesti: [
-        { ime: "Viganska empanada", opis: "Hrskavi narančasti polumjesec od rižina tijesta punjen domaćom kobasicom, cijelim jajetom i naribanom zelenom papajom, pržen pred vama na štandovima kraj trga Burgos i začinjen lokalnim octom." },
-        { ime: "Longganisa", opis: "Male, debele kobasice s mnogo češnjaka i octa, jedu se za doručak s rižom prženom na češnjaku i pečenim jajetom." },
-        { ime: "Bagnet", opis: "Svinjska potrbušina kuhana, sušena i dvaput pržena dok kožica ne postane mjehurasta i hrskava, a jede se s umakom od rajčice, luka i fermentirane ribe." }
+        { ime: "Vigan empanada", opis: "A crisp orange half-moon of rice dough filled with local sausage, a whole egg and grated green papaya, fried in front of you at the stalls beside Plaza Burgos and seasoned with local vinegar." },
+        { ime: "Longganisa", opis: "Small, plump sausages with plenty of garlic and vinegar, eaten for breakfast with garlic fried rice and a fried egg." },
+        { ime: "Bagnet", opis: "Pork belly boiled, dried and fried twice until the skin turns blistered and crunchy, eaten with a sauce of tomato, onion and fermented fish." }
       ],
       dozivjeti: [
-        { ime: "Vožnja kočijom", opis: "Kalesa s kočijašem obilazi glavne znamenitosti za sat ili dva, a cijena se dogovara po satu prije polaska." },
-        { ime: "Za lončarskim kolom", opis: "U Pagburnayanu majstori rado puste posjetiteljice da same pokušaju oblikovati ćup na kolu koje se vrti nogom." },
-        { ime: "Tkanje abel", opis: "U selima oko grada žene na drvenim tkalačkim stanovima tkaju čvrstu pamučnu tkaninu abel iloko s geometrijskim uzorcima, od koje se šivaju pokrivači i stolnjaci." }
+        { ime: "A carriage ride", opis: "A kalesa with a driver takes in the main sights in an hour or two, and the price is agreed by the hour before you set off." },
+        { ime: "At the potter's wheel", opis: "In Pagburnayan the craftsmen are happy to let visitors try shaping a jar themselves on a foot-turned wheel." },
+        { ime: "Abel weaving", opis: "In the villages around town, women at wooden looms weave abel iloko, a sturdy cotton fabric with geometric patterns that is sewn into blankets and tablecloths." }
       ],
       agencije: [
-        { ime: "Grad Vigan", opis: "Službena stranica gradske uprave s turističkim informacijama i kalendarom svečanosti.", link: "https://vigancity.gov.ph/" },
-        { ime: "Love the Philippines", opis: "Službena stranica filipinskog ministarstva turizma.", link: "https://philippines.travel/" }
+        { ime: "City of Vigan", opis: "The official website of the city government, with tourist information and a festival calendar.", link: "https://vigancity.gov.ph/" },
+        { ime: "Love the Philippines", opis: "The official website of the Philippine Department of Tourism.", link: "https://philippines.travel/" }
       ],
-      kada: "Od studenoga do travnja. Ulica Crisologo najljepša je u zoru, prije dolaska izletnika, i navečer pod svjetiljkama. Iz Manile se putuje autobusom osam do deset sati ili leti do Laoaga."
+      kada: "From November to April. Calle Crisologo is at its most beautiful at dawn, before the day-trippers arrive, and in the evening under the lamps. From Manila it is eight to ten hours by bus, or you can fly to Laoag."
     }
   ],
   izvori: [
-    { ime: "Love the Philippines, ministarstvo turizma", url: "https://philippines.travel/" },
+    { ime: "Love the Philippines, Department of Tourism", url: "https://philippines.travel/" },
     { ime: "Intramuros Administration", url: "https://intramuros.gov.ph/" },
     { ime: "UNESCO: Baroque Churches of the Philippines", url: "https://whc.unesco.org/en/list/677" },
     { ime: "UNESCO: Rice Terraces of the Philippine Cordilleras", url: "https://whc.unesco.org/en/list/722" },
     { ime: "UNESCO: Historic City of Vigan", url: "https://whc.unesco.org/en/list/502" },
     { ime: "UNESCO: Puerto-Princesa Subterranean River National Park", url: "https://whc.unesco.org/en/list/652" },
     { ime: "Ayala Museum", url: "https://www.ayalamuseum.org/" },
-    { ime: "Grad Vigan", url: "https://vigancity.gov.ph/" },
+    { ime: "City of Vigan", url: "https://vigancity.gov.ph/" },
   ]
 };

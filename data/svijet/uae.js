@@ -1,171 +1,171 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["uae"] = {
   id: "uae",
-  ime: "Ujedinjeni Arapski Emirati",
-  regija: "Bliski istok",
-  sazetak: "Zemlja u kojoj se u istom danu može popiti kava s kardamomom u kući od koralja i popeti na najvišu zgradu na svijetu.",
+  ime: "United Arab Emirates",
+  regija: "Middle East",
+  sazetak: "A country where on the same day you can drink cardamom coffee in a house made of coral and go up the tallest building in the world.",
   uvod: [
-    "Ujedinjeni Arapski Emirati savez su sedam emirata koji se 2. prosinca 1971. okupio oko šeika Zayeda iz Abu Dhabija, a sedmi, Ras al-Khaimah, pridružio se početkom 1972. Do tada je ova obala živjela od ronjenja na bisere, ribolova i trgovine jedrenjacima dhow, sve dok japanski uzgojeni biseri tridesetih godina 20. stoljeća nisu srušili tržište. Nafta je stigla nekoliko desetljeća poslije i u dva naraštaja pretvorila ribarska sela u gradove od stakla.",
-    "Ispod tog sjaja i dalje se dobro vidi stari svijet, samo ga treba znati potražiti. U dubajskoj četvrti Al Fahidi stoje kuće s tornjevima za hvatanje vjetra, u Sharjahu su muzeji smješteni u starim trgovačkim kućama, a u oazi Al Ain voda i danas teče kanalima starima tri tisuće godina. Zemlja je vrlo sigurna i jednostavna za putovanje, pa je dobar prvi susret s arapskim svijetom."
+    "The United Arab Emirates is a federation of seven emirates that came together on December 2, 1971 around Sheikh Zayed of Abu Dhabi, with the seventh, Ras al-Khaimah, joining in early 1972. Until then this coast had lived off pearl diving, fishing and trade by dhow sailing ships, until Japanese cultured pearls brought the market crashing down in the 1930s. Oil arrived a few decades later and in two generations turned fishing villages into cities of glass.",
+    "Beneath that gleam the old world is still easy to see, as long as you know where to look. In Dubai's Al Fahidi district stand houses with wind-catching towers, in Sharjah the museums are housed in old merchants' homes, and in the Al Ain oasis water still flows today through channels three thousand years old. The country is very safe and easy to travel in, which makes it a good first encounter with the Arab world."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od studenoga do ožujka, kada je danju između 22 i 28 stupnjeva. Od lipnja do rujna temperature prelaze 40 stupnjeva uz veliku vlagu, pa se život seli u klimatizirane prostore." },
-    { k: "Valuta", v: "Dirham (AED), vezan uz američki dolar. Kartice primaju gotovo svugdje, a gotovina dobro dođe na tržnicama i za brodiće abra." },
-    { k: "Kretanje", v: "U Dubaiju metro i tramvaj uz karticu Nol, između emirata udobni međugradski autobusi i povoljni taksiji. Za Al Ain i pustinju najlakše je unajmiti auto ili uzeti organizirani izlet." },
-    { k: "Napojnica", v: "Nije obvezna i često je uslužna pristojba već na računu. Ako ste zadovoljne, ostavite 10 do 15 posto u restoranu i zaokružite iznos taksistu." },
-    { k: "Odijevanje i običaji", v: "U džamijama su obvezni dugi rukavi, duge hlače ili suknja i marama za žene. Tjedan traje od ponedjeljka do petka, a tijekom ramazana se danju ne jede i ne pije na ulici." }
+    { k: "When to go", v: "From November to March, when daytime temperatures are between 22 and 28 degrees. From June to September temperatures climb above 40 degrees with high humidity, so life moves into air-conditioned spaces." },
+    { k: "Currency", v: "The dirham (AED), pegged to the US dollar. Cards are accepted almost everywhere, and cash comes in handy at the markets and for the abra boats." },
+    { k: "Getting around", v: "In Dubai, the metro and tram with a Nol card, and between the emirates, comfortable intercity buses and affordable taxis. For Al Ain and the desert it is easiest to rent a car or take an organized trip." },
+    { k: "Tipping", v: "It is not obligatory, and a service charge is often already on the bill. If you are happy, leave 10 to 15 percent in a restaurant and round up the fare for a taxi driver." },
+    { k: "Dress and customs", v: "In mosques, long sleeves and long pants or a skirt are required, plus a headscarf for women. The workweek runs from Monday to Friday, and during Ramadan people do not eat or drink in the street during the day." }
   ],
   hrana: [
-    { ime: "Machboos", opis: "Riža kuhana u začinjenom temeljcu s janjetinom, piletinom ili ribom.", prica: "Poseban okus daje mu loomi, cijela limeta osušena na suncu dok ne pocrni, koja jelu daje kiselkastu i pomalo dimljenu notu. Smatra se nacionalnim jelom i jede se iz zajedničke velike zdjele, tradicionalno desnom rukom." },
-    { ime: "Harees", opis: "Gusta kaša od pšenice i mesa koja se satima kuha i tuče dok ne postane glatka.", prica: "Jelo je ramazana i svadbi jer je zasitno, a blago za prazan želudac. Poslužuje se preliveno otopljenim pročišćenim maslacem i u svakoj se obitelji priprema malo drukčije." },
-    { ime: "Luqaimat", opis: "Male pržene kuglice od dizanog tijesta prelivene sirupom od datulja i posute sezamom.", prica: "Ime im znači „mali zalogaji“ i najčešća su slastica uz kavu nakon iftara. Sirup od datulja, dibs, nekad se dobivao tako da su se vreće datulja slagale jedna na drugu pa je težina sama cijedila sok." },
-    { ime: "Gahwa", opis: "Svijetla arapska kava s kardamomom, ponekad i šafranom, koja se toči iz vrča dallah u šalice bez drške.", prica: "Kava je znak dobrodošlice i uvijek se pije uz datulje. Domaćin toči tek dno šalice i dolijeva dok gost lagano ne zatrese šalicom, što znači da mu je dosta. Arapska kava upisana je 2015. na UNESCO-ov popis nematerijalne baštine." },
-    { ime: "Karak chai", opis: "Jak crni čaj dugo kuhan s kondenziranim mlijekom, šećerom i kardamomom.", prica: "Stigao je s radnicima s indijskog potkontinenta i postao svakodnevno piće cijele zemlje. Pije se iz papirnate čašice, često naručen kroz prozor auta ispred male čajane." },
-    { ime: "Khameer i chebab", opis: "Meki kruščići s kvascem i emiratske palačinke sa šafranom i kardamomom.", prica: "Tipičan su emiratski doručak, uz krem sir i sirup od datulja. Najlakše ih je kušati u kafićima u starim četvrtima Dubaija i Sharjaha koji poslužuju domaću kuhinju." },
-    { ime: "Balaleet", opis: "Slatki rezanci sa šafranom i kardamomom na koje se stavlja tanki slani omlet.", prica: "Spoj slatkog i slanog zna iznenaditi, ali upravo je to čar ovog doručka. Tradicionalno se jede za blagdan Eid, prvoga jutra nakon ramazana." },
-    { ime: "Datulje", opis: "Plod datuljine palme, temelj prehrane u pustinji tisućama godina.", prica: "U Emiratima se uzgaja na desetke sorti, a među najcjenjenijima su khalas i lulu. Na tržnici vam ih daju kušati prije kupnje, pa ne oklijevajte usporediti nekoliko vrsta." }
+    { ime: "Machboos", opis: "Rice cooked in a spiced stock with lamb, chicken or fish.", prica: "Its special flavor comes from loomi, a whole lime dried in the sun until it turns black, which gives the dish a tart and slightly smoky note. It is considered the national dish and is eaten from a large shared platter, traditionally with the right hand." },
+    { ime: "Harees", opis: "A thick porridge of wheat and meat that is cooked for hours and beaten until smooth.", prica: "It is a dish of Ramadan and weddings because it is filling yet gentle on an empty stomach. It is served topped with melted clarified butter and is made a little differently in every family." },
+    { ime: "Luqaimat", opis: "Small fried balls of yeasted dough drizzled with date syrup and sprinkled with sesame seeds.", prica: "Their name means “little bites”, and they are the most common sweet served with coffee after iftar. The date syrup, dibs, used to be made by stacking sacks of dates on top of one another so that the weight alone pressed out the juice." },
+    { ime: "Gahwa", opis: "Light Arabic coffee with cardamom, and sometimes saffron, poured from a dallah pot into cups without handles.", prica: "Coffee is a sign of welcome and is always drunk with dates. The host pours only enough to cover the bottom of the cup and keeps refilling it until the guest gently shakes the cup, which means they have had enough. Arabic coffee was inscribed on the UNESCO list of intangible heritage in 2015." },
+    { ime: "Karak chai", opis: "Strong black tea simmered for a long time with condensed milk, sugar and cardamom.", prica: "It arrived with workers from the Indian subcontinent and became the everyday drink of the whole country. It is drunk from a paper cup, often ordered through the car window outside a small tea shop." },
+    { ime: "Khameer and chebab", opis: "Soft yeasted breads and Emirati pancakes with saffron and cardamom.", prica: "They are the typical Emirati breakfast, with cream cheese and date syrup. The easiest place to try them is in the cafés serving local cuisine in the old quarters of Dubai and Sharjah." },
+    { ime: "Balaleet", opis: "Sweet vermicelli with saffron and cardamom, topped with a thin savory omelet.", prica: "The combination of sweet and savory can come as a surprise, but that is exactly the charm of this breakfast. It is traditionally eaten for Eid, on the first morning after Ramadan." },
+    { ime: "Dates", opis: "The fruit of the date palm, the foundation of the desert diet for thousands of years.", prica: "Dozens of varieties are grown in the Emirates, and khalas and lulu are among the most prized. At the market they let you taste them before you buy, so do not hesitate to compare several kinds." }
   ],
   obicaji: [
-    { ime: "Sokolarstvo", opis: "Lov sa sokolom beduinima je nekad značio meso na stolu, a danas je strast i znak ugleda. Sokolovi imaju vlastite putovnice i smiju putovati u kabini zrakoplova.", gdje: "Bolnica za sokolove u Abu Dhabiju prima posjetitelje uz najavu, a sokolare na djelu vidjet ćete i na jutarnjim izletima u Dubajski pustinjski rezervat." },
-    { ime: "Al-Ayyala", opis: "Ples u kojem dva reda muškaraca stoje jedan nasuprot drugome i u ritmu bubnjeva njišu tanke štapove od bambusa, što predstavlja prizor bitke. UNESCO ga je 2014. upisao na popis nematerijalne baštine.", gdje: "Izvodi se na svadbama i za Dan državnosti 2. prosinca, a često i u selima baštine u Dubaiju i Abu Dhabiju." },
-    { ime: "Majlis", opis: "Majlis je prostorija s jastucima uz zidove u kojoj se primaju gosti, rješavaju sporovi i prepričavaju vijesti. Riječ doslovno znači „mjesto sjedenja“ i temelj je društvenog života na Arapskom poluotoku.", gdje: "U Centru za kulturno razumijevanje šeika Mohammeda u četvrti Al Fahidi u Dubaiju možete sjesti u majlis, jesti domaća jela i pitati domaćine baš sve što vas zanima." },
-    { ime: "Kana", opis: "Oslikavanje ruku i stopala kanom dio je priprema za svadbe i blagdane. Emiratski uzorci prepoznaju se po krupnim cvjetnim motivima i punim vršcima prstiju.", gdje: "Na tržnicama u Deiri i u četvrti baštine u Sharjahu, a sajmovi uoči blagdana Eid puni su majstorica." },
-    { ime: "Utrke deva", opis: "Deve su se utrkivale na svadbama davno prije nafte, a danas ih umjesto džokeja jašu mali roboti kojima vlasnici upravljaju iz automobila što jure uz stazu.", gdje: "Trkalište Al Marmoom kraj Dubaija, rano ujutro od listopada do travnja." },
-    { ime: "Ramazan i iftar", opis: "Tijekom mjeseca posta dan miruje, a nakon zalaska sunca grad oživi do kasno u noć. Post se prekida datuljom i vodom, a zatim slijedi zajednička večera iftar.", gdje: "Mnoge džamije i kulturni centri u Dubaiju i Abu Dhabiju pozivaju i goste koji nisu muslimani na iftar, a datumi se svake godine pomiču oko deset dana unatrag." }
+    { ime: "Falconry", opis: "Hunting with a falcon once meant meat on the table for the Bedouin, and today it is a passion and a mark of prestige. Falcons have their own passports and are allowed to travel in the aircraft cabin.", gdje: "The falcon hospital in Abu Dhabi receives visitors by appointment, and you will also see falconers at work on morning trips into the Dubai Desert Conservation Reserve." },
+    { ime: "Al-Ayyala", opis: "A dance in which two rows of men stand facing each other and sway thin bamboo canes to the rhythm of drums, representing a battle scene. UNESCO inscribed it on its list of intangible heritage in 2014.", gdje: "It is performed at weddings and for National Day on December 2, and often in the heritage villages of Dubai and Abu Dhabi too." },
+    { ime: "Majlis", opis: "The majlis is a room with cushions along the walls where guests are received, disputes are settled and news is passed on. The word literally means “a place of sitting”, and it is the foundation of social life on the Arabian Peninsula.", gdje: "At the Sheikh Mohammed Centre for Cultural Understanding in Dubai's Al Fahidi district, you can sit in a majlis, eat home-style dishes and ask your hosts absolutely anything you are curious about." },
+    { ime: "Henna", opis: "Decorating the hands and feet with henna is part of the preparations for weddings and holidays. Emirati designs can be recognized by their large floral motifs and fully covered fingertips.", gdje: "At the markets in Deira and in the heritage quarter of Sharjah, and the fairs held before Eid are full of henna artists." },
+    { ime: "Camel racing", opis: "Camels were raced at weddings long before oil, and today, instead of jockeys, they are ridden by small robots that the owners control from cars speeding alongside the track.", gdje: "The Al Marmoom racetrack near Dubai, early in the morning from October to April." },
+    { ime: "Ramadan and iftar", opis: "During the month of fasting the day stands still, and after sunset the city comes alive until late at night. The fast is broken with a date and water, followed by the shared evening meal, iftar.", gdje: "Many mosques and cultural centers in Dubai and Abu Dhabi invite non-Muslim guests to iftar too, and the dates move back by about ten days every year." }
   ],
   fraze: [
-    { izvorno: "As-salamu alaykum", izgovor: "as-sa-LA-mu a-LEJ-kum", hr: "Mir s vama (uobičajeni pozdrav)" },
-    { izvorno: "Wa alaykum as-salam", izgovor: "va a-LEJ-kum as-sa-LAM", hr: "I s vama mir (odgovor na pozdrav)" },
-    { izvorno: "Marhaba", izgovor: "MAR-ha-ba", hr: "Bok, dobar dan" },
-    { izvorno: "Shukran", izgovor: "ŠUK-ran", hr: "Hvala" },
-    { izvorno: "Min fadlak", izgovor: "min FAD-lak", hr: "Molim vas (muškarcu; ženi: min fadlik)" },
-    { izvorno: "Kam hadha?", izgovor: "kam HA-da", hr: "Koliko ovo košta?" },
-    { izvorno: "Yalla", izgovor: "JA-la", hr: "Idemo, hajde" },
-    { izvorno: "Ma'a as-salama", izgovor: "MA-a sa-LA-ma", hr: "Doviđenja" }
+    { izvorno: "As-salamu alaykum", izgovor: "as-sah-LAH-moo ah-LAY-koom", hr: "Peace be upon you (the usual greeting)" },
+    { izvorno: "Wa alaykum as-salam", izgovor: "wah ah-LAY-koom as-sah-LAHM", hr: "And upon you be peace (the reply to the greeting)" },
+    { izvorno: "Marhaba", izgovor: "MAR-hah-bah", hr: "Hi, hello" },
+    { izvorno: "Shukran", izgovor: "SHOOK-rahn", hr: "Thank you" },
+    { izvorno: "Min fadlak", izgovor: "min FAD-lak", hr: "Please (to a man; to a woman: min fadlik)" },
+    { izvorno: "Kam hadha?", izgovor: "kam HAH-thah", hr: "How much is this?" },
+    { izvorno: "Yalla", izgovor: "YAH-lah", hr: "Let's go, come on" },
+    { izvorno: "Ma'a as-salama", izgovor: "MAH-ah sah-LAH-mah", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Burdž Kalifa visok je 828 metara, a njegov trokraki tlocrt nadahnut je pustinjskim cvijetom iz roda Hymenocallis.",
-    "Emiratski državljani čine tek oko desetinu stanovništva, a ostalo su doseljenici iz više od dvjesto zemalja.",
-    "Vikend je od 2022. subota i nedjelja, a petkom se radi samo do podneva zbog zajedničke molitve.",
-    "Prije nafte glavni izvozni proizvod bili su biseri, a ronioci su zaranjali i do pedeset puta dnevno sa štipaljkom od kornjačevine na nosu.",
-    "Sharjah je jedini emirat u kojem se alkohol uopće ne prodaje.",
-    "Sag u Velikoj džamiji šeika Zayeda ručno je vezalo oko 1200 iranskih majstorica i majstora i jedan je od najvećih ručno tkanih sagova na svijetu.",
-    "Kupola muzeja Louvre Abu Dhabi ima promjer od 180 metara i teška je otprilike kao Eiffelov toranj."
+    "The Burj Khalifa is 828 meters tall, and its three-lobed floor plan was inspired by a desert flower of the genus Hymenocallis.",
+    "Emirati citizens make up only about a tenth of the population, and the rest are immigrants from more than two hundred countries.",
+    "Since 2022 the weekend has been Saturday and Sunday, and on Fridays people work only until noon because of congregational prayers.",
+    "Before oil the main export was pearls, and divers went down as many as fifty times a day with a tortoiseshell clip on their nose.",
+    "Sharjah is the only emirate where alcohol is not sold at all.",
+    "The carpet in the Sheikh Zayed Grand Mosque was hand-knotted by about 1,200 Iranian craftswomen and craftsmen and is one of the largest handwoven carpets in the world.",
+    "The dome of the Louvre Abu Dhabi has a diameter of 180 meters and weighs roughly as much as the Eiffel Tower."
   ],
   mjesta: [
     {
       id: "dubai",
       ime: "Dubai",
       vrsta: "grad",
-      sazetak: "Grad rekorda koji je izrastao oko morskog rukavca u kojem i danas pristaju drveni teretni jedrenjaci.",
-      prica: ["Dubai je do sredine 20. stoljeća bio trgovačka luka na rukavcu Khor Dubai, gdje je obitelj Al Maktoum 1833. osnovala svoj šeikat. Vladari su rano ukinuli carine i tako privukli perzijske i indijske trgovce, pa je grad postao bogat i prije nafte, koje ovdje ionako nikad nije bilo mnogo. Šeik Rashid produbio je rukavac, sagradio golemu luku Jebel Ali i postavio temelje gradu koji danas živi od trgovine, letova i turizma."],
+      sazetak: "A city of records that grew up around a sea inlet where wooden cargo dhows still dock today.",
+      prica: ["Until the middle of the 20th century Dubai was a trading port on the Khor Dubai inlet, where the Al Maktoum family founded their sheikhdom in 1833. The rulers abolished customs duties early on and so attracted Persian and Indian merchants, which made the city rich even before oil, of which there was never much here anyway. Sheikh Rashid dredged the creek, built the huge port of Jebel Ali and laid the foundations for a city that today lives off trade, flights and tourism."],
       vidjeti: [
-        { ime: "Burdž Kalifa", opis: "Najviša zgrada na svijetu, visoka 828 metara, otvorena je u siječnju 2010. prema projektu Adriana Smitha. Pogledajte je odozdo i primijetit ćete da se tri krila spiralno sužavaju prema vrhu, što razbija vjetar koji bi inače zanjihao toranj." },
-        { ime: "Četvrt Al Fahidi", opis: "Krajem 19. stoljeća ovdje su se naselili trgovci iz perzijskog grada Bastaka i sagradili kuće od koraljnog kamena i gipsa. Na krovovima potražite četvrtaste tornjeve barjeel, koji hvataju i najslabiji povjetarac i spuštaju ga u sobe, što je bila klima prije struje." },
-        { ime: "Tržnice u Deiri", opis: "Na drugoj obali rukavca nižu se tržnica zlata, tržnica začina i tržnica parfema. Zlato se prodaje na težinu prema dnevnoj cijeni koja je istaknuta na zaslonima, pa se cjenkate samo oko iznosa za izradu." },
-        { ime: "Muzej budućnosti", opis: "Srebrni prsten otvoren 2022. projektirao je Shaun Killa, a prozori su zapravo arapska kaligrafija. Ispisuju stihove šeika Mohammeda o budućnosti, pa cijela zgrada doslovno nosi poruku na svojoj koži." },
-        { ime: "Muzej Al Shindagha i kuća šeika Saeeda", opis: "Na ušću rukavca stoji kuća iz 1896. u kojoj je živio djed sadašnjeg vladara, a oko nje je nastala muzejska četvrt o životu prije nafte. Posebno je dojmljiva Kuća parfema, u kojoj možete pomirisati oud i tamjan kojima se i danas namirišu odjeća i gosti." },
-        { ime: "Džamija Jumeirah", opis: "Bijela džamija u fatimidskom stilu iz 1979. jedna je od rijetkih u Dubaiju otvorenih posjetiteljima koji nisu muslimani. Na vođenom obilasku domaćini objašnjavaju pet stupova islama i odgovaraju na pitanja bez ikakve zadrške." }
+        { ime: "Burj Khalifa", opis: "The tallest building in the world, 828 meters high, opened in January 2010 to a design by Adrian Smith. Look at it from below and you will notice that its three wings taper in a spiral toward the top, which breaks up the wind that would otherwise make the tower sway." },
+        { ime: "Al Fahidi district", opis: "At the end of the 19th century merchants from the Persian town of Bastak settled here and built houses of coral stone and gypsum. On the rooftops, look for the square barjeel towers, which catch even the faintest breeze and channel it down into the rooms, the air conditioning of the days before electricity." },
+        { ime: "The souks of Deira", opis: "On the other bank of the creek, the gold souk, the spice souk and the perfume souk follow one after another. Gold is sold by weight at the daily price shown on screens, so you haggle only over the making charge." },
+        { ime: "Museum of the Future", opis: "The silver ring that opened in 2022 was designed by Shaun Killa, and its windows are in fact Arabic calligraphy. They spell out verses by Sheikh Mohammed about the future, so the whole building literally carries a message on its skin." },
+        { ime: "Al Shindagha Museum and Sheikh Saeed's house", opis: "At the mouth of the creek stands the house from 1896 where the grandfather of the present ruler lived, and around it a museum quarter about life before oil has grown up. The Perfume House is especially striking, since there you can smell the oud and frankincense that are still used today to scent clothes and guests." },
+        { ime: "Jumeirah Mosque", opis: "The white mosque in the Fatimid style from 1979 is one of the few in Dubai open to non-Muslim visitors. On the guided tour the hosts explain the five pillars of Islam and answer questions without any reservation." }
       ],
       jesti: [
-        { ime: "Emiratski doručak", opis: "Khameer, chebab i balaleet uz karak chai najbolje je kušati u kafićima u četvrti Al Fahidi i uz rukavac." },
-        { ime: "Ulična hrana u Deiri", opis: "U ulicama iza tržnica jedu se falafel, manakish, iranski kebab i kunafa, jer je Deira kuhinja svih naroda koji su gradili Dubai." },
-        { ime: "Riba na žaru", opis: "Svježi hamour i kraljevska skuša peku se u jednostavnim restoranima uz ribarske lučice u Jumeirahu i poslužuju s rižom i umakom od tamarinda." }
+        { ime: "Emirati breakfast", opis: "Khameer, chebab and balaleet with karak chai are best tried in the cafés of the Al Fahidi district and along the creek." },
+        { ime: "Street food in Deira", opis: "In the streets behind the souks people eat falafel, manakish, Iranian kebab and kunafa, because Deira is the kitchen of all the peoples who built Dubai." },
+        { ime: "Grilled fish", opis: "Fresh hamour and kingfish are grilled in simple restaurants beside the little fishing harbors of Jumeirah and served with rice and tamarind sauce." }
       ],
       dozivjeti: [
-        { ime: "Kulturni obrok u Centru šeika Mohammeda", opis: "U kući s tornjem za vjetar u Al Fahidiju sjedite na jastucima, jedete domaća emiratska jela i slobodno pitate domaćine o vjeri, odjeći i obiteljskom životu.", link: "https://www.cultures.ae/" },
-        { ime: "Vožnja brodićem abra", opis: "Drveni brodići prevoze ljude preko rukavca za sitniš već naraštajima, a vožnja u sumrak između dviju tržnica najljepših je pet minuta u gradu." },
-        { ime: "Gastronomska šetnja starim Dubaijem", opis: "Frying Pan Adventures vodi pješačke ture kroz Deiru i Bur Dubai na kojima se kuša hrana doseljeničkih zajednica i uči tko je što donio u grad.", link: "https://www.fryingpanadventures.com/" }
+        { ime: "A cultural meal at the Sheikh Mohammed Centre", opis: "In a wind-tower house in Al Fahidi you sit on cushions, eat home-style Emirati dishes and freely ask your hosts about religion, dress and family life.", link: "https://www.cultures.ae/" },
+        { ime: "A ride on an abra", opis: "The little wooden boats have been ferrying people across the creek for small change for generations, and a ride at dusk between the two souks is the loveliest five minutes in the city." },
+        { ime: "A food walk through old Dubai", opis: "Frying Pan Adventures runs walking tours through Deira and Bur Dubai where you taste the food of the immigrant communities and learn who brought what to the city.", link: "https://www.fryingpanadventures.com/" }
       ],
       agencije: [
-        { ime: "Visit Dubai", opis: "Službena turistička stranica emirata Dubaija.", link: "https://www.visitdubai.com/en" },
-        { ime: "Dubai Culture", opis: "Gradska uprava za kulturu koja vodi muzeje i povijesne četvrti.", link: "https://dubaiculture.gov.ae/en" }
+        { ime: "Visit Dubai", opis: "The official tourism website of the emirate of Dubai.", link: "https://www.visitdubai.com/en" },
+        { ime: "Dubai Culture", opis: "The city's culture authority, which runs the museums and historic districts.", link: "https://dubaiculture.gov.ae/en" }
       ],
-      kada: "Od studenoga do ožujka. Staru jezgru obiđite ujutro ili pred večer, a kartu za vidikovac Burdž Kalife kupite unaprijed za termin oko zalaska sunca."
+      kada: "From November to March. Explore the old town in the morning or toward evening, and buy your ticket for the Burj Khalifa observation deck in advance for a slot around sunset."
     },
     {
       id: "abu-dhabi",
       ime: "Abu Dhabi",
       vrsta: "grad",
-      sazetak: "Glavni grad na otocima, mirniji od Dubaija, s džamijom od bijelog mramora i muzejima svjetske razine.",
-      prica: ["Predaja kaže da su lovci iz plemena Bani Yas oko 1761. pratili gazelu do izvora slatke vode na otoku, pa otuda ime koje znači „otac gazele“. Uz izvor je podignuta stražarska kula, a iz nje je izrasla utvrda vladarske obitelji Al Nahyan. Nafta otkrivena 1958. i vizija šeika Zayeda pretvorili su otok u prijestolnicu države, a u novije vrijeme otok Saadiyat postaje četvrt muzeja."],
+      sazetak: "The capital on islands, calmer than Dubai, with a mosque of white marble and world-class museums.",
+      prica: ["Tradition says that around 1761 hunters from the Bani Yas tribe followed a gazelle to a freshwater spring on the island, hence the name, which means “father of the gazelle”. A watchtower was built beside the spring, and from it grew the fort of the ruling Al Nahyan family. The oil discovered in 1958 and the vision of Sheikh Zayed turned the island into the capital of the state, and more recently Saadiyat Island has been becoming a museum district."],
       vidjeti: [
-        { ime: "Velika džamija šeika Zayeda", opis: "Dovršena 2007., ima 82 kupole i više od tisuću stupova obloženih bijelim mramorom s cvjetnim intarzijama od poludragog kamenja. Šeik Zayed pokopan je u njezinu dvorištu, a Kuran se uz njegov grob uči bez prestanka, danju i noću." },
-        { ime: "Louvre Abu Dhabi", opis: "Muzej Jeana Nouvela otvoren 2017. izlaže umjetnost svih civilizacija jednu uz drugu, pa egipatski sarkofag stoji kraj kineske bronce iz istoga doba. Stanite pod kupolu i gledajte „kišu svjetla“, zrake koje prolaze kroz osam slojeva metalne čipke kao kroz krošnje palmi." },
-        { ime: "Qasr Al Hosn", opis: "Najstarija kamena građevina u gradu izrasla je iz kule podignute u 18. stoljeću radi čuvanja izvora vode. Zidovi su od koraljnog i morskog kamena, premazani žbukom od vapna, pijeska i mljevenih školjki koja se na suncu blago sjaji." },
-        { ime: "Qasr Al Watan", opis: "Predsjednička palača otvorena je posjetiteljima 2019. i u njoj i danas zasjeda vlada. U Kući znanja izloženi su stari arapski rukopisi iz astronomije i medicine, a središnja kupola promjera 37 metara jedna je od najvećih u regiji." },
-        { ime: "Nacionalni muzej Zayed", opis: "Otvoren u prosincu 2025. na otoku Saadiyat prema projektu Normana Fostera, priča povijest ovog kraja od prapovijesti do danas. Pet čeličnih tornjeva oblikovano je poput letnih pera sokola i ujedno služe kao dimnjaci koji prirodno hlade zgradu." }
+        { ime: "Sheikh Zayed Grand Mosque", opis: "Completed in 2007, it has 82 domes and more than a thousand columns clad in white marble with floral inlays of semiprecious stones. Sheikh Zayed is buried in its courtyard, and the Quran is recited beside his tomb without interruption, day and night." },
+        { ime: "Louvre Abu Dhabi", opis: "Jean Nouvel's museum, opened in 2017, displays the art of all civilizations side by side, so an Egyptian sarcophagus stands next to a Chinese bronze from the same period. Stand under the dome and watch the “rain of light”, rays passing through eight layers of metal lace as if through the crowns of palm trees." },
+        { ime: "Qasr Al Hosn", opis: "The oldest stone building in the city grew out of a tower put up in the 18th century to guard the water spring. The walls are of coral and sea stone, coated with a plaster of lime, sand and crushed shells that gleams softly in the sun." },
+        { ime: "Qasr Al Watan", opis: "The presidential palace opened to visitors in 2019, and the cabinet still meets in it today. The House of Knowledge displays old Arabic manuscripts on astronomy and medicine, and the central dome, 37 meters across, is one of the largest in the region." },
+        { ime: "Zayed National Museum", opis: "Opened in December 2025 on Saadiyat Island to a design by Norman Foster, it tells the history of this area from prehistory to the present. Its five steel towers are shaped like the flight feathers of a falcon and also serve as chimneys that cool the building naturally." }
       ],
       jesti: [
-        { ime: "Machboos s ribom", opis: "U Abu Dhabiju se najradije jede s lokalnom ribom hamour, a nude ga restorani domaće kuhinje u središtu grada i uz luku Mina Zayed." },
-        { ime: "Datulje s tržnice u luci", opis: "Na tržnici datulja u luci Mina Zayed prodavači nude desetke sorti na kušanje, punjene bademima ili umočene u čokoladu." },
-        { ime: "Luqaimat i gahwa", opis: "Svježe pržene kuglice uz arapsku kavu poslužuju se u Kući zanatlija uz Qasr Al Hosn." }
+        { ime: "Machboos with fish", opis: "In Abu Dhabi people like it best with the local hamour fish, and it is served by restaurants of local cuisine in the city center and beside the Mina Zayed port." },
+        { ime: "Dates from the port market", opis: "At the date market in the Mina Zayed port, vendors offer dozens of varieties to taste, stuffed with almonds or dipped in chocolate." },
+        { ime: "Luqaimat and gahwa", opis: "Freshly fried dough balls with Arabic coffee are served at the House of Artisans beside Qasr Al Hosn." }
       ],
       dozivjeti: [
-        { ime: "Besplatan vođeni obilazak Velike džamije", opis: "Vodiči džamije objašnjavaju simboliku građevine i islamske običaje, a najljepše je doći sat prije zalaska sunca, kada se mramor boji u ružičasto.", link: "https://www.szgmc.gov.ae/en/home" },
-        { ime: "Kuća zanatlija uz Qasr Al Hosn", opis: "Majstorice pred vama pletu palmino lišće tehnikom khoos, tkaju vunu tehnikom sadu i vezu srebrnu traku talli, a mogu se upisati i kratke radionice." },
-        { ime: "Kajakom kroz mangrove", opis: "Na istočnoj strani otoka raste šuma sivih mangrova u kojoj se veslajući u tišini vide čaplje i rakovi, deset minuta od nebodera." }
+        { ime: "A free guided tour of the Grand Mosque", opis: "The mosque's guides explain the symbolism of the building and Islamic customs, and the loveliest time to come is an hour before sunset, when the marble turns pink.", link: "https://www.szgmc.gov.ae/en/home" },
+        { ime: "The House of Artisans beside Qasr Al Hosn", opis: "In front of you, craftswomen plait palm fronds in the khoos technique, weave wool in the sadu technique and embroider the silver talli braid, and you can sign up for short workshops too." },
+        { ime: "By kayak through the mangroves", opis: "On the eastern side of the island grows a forest of gray mangroves where, paddling in silence, you can see herons and crabs, ten minutes from the skyscrapers." }
       ],
       agencije: [
-        { ime: "Experience Abu Dhabi", opis: "Službena turistička stranica emirata Abu Dhabija.", link: "https://visitabudhabi.ae/en" },
-        { ime: "Qasr Al Watan", opis: "Službena stranica predsjedničke palače s ulaznicama i obilascima.", link: "https://www.qasralwatan.ae/" }
+        { ime: "Experience Abu Dhabi", opis: "The official tourism website of the emirate of Abu Dhabi.", link: "https://visitabudhabi.ae/en" },
+        { ime: "Qasr Al Watan", opis: "The official website of the presidential palace, with tickets and tours.", link: "https://www.qasralwatan.ae/" }
       ],
-      kada: "Od studenoga do ožujka. Za džamiju se treba besplatno prijaviti na službenoj stranici, a pokrivalo i dugu odjeću ponesite sa sobom."
+      kada: "From November to March. You need to register for the mosque, free of charge, on the official website, and you should bring a head covering and long clothing with you."
     },
     {
       id: "sharjah",
       ime: "Sharjah",
       vrsta: "grad",
-      sazetak: "Tihi susjed Dubaija koji je novac od nafte uložio u muzeje, knjige i obnovu stare jezgre.",
-      prica: ["Sharjahom od 18. stoljeća vlada obitelj Al Qasimi, čiji su brodovi nekad gospodarili ulazom u Perzijski zaljev. Današnji vladar, šeik Sultan, povjesničar je po struci i zaslužan je za to što grad ima više od dvadeset muzeja i veliki sajam knjiga. UNESCO je Sharjah 1998. proglasio kulturnom prijestolnicom arapskog svijeta."],
+      sazetak: "Dubai's quiet neighbor, which invested its oil money in museums, books and the restoration of its old town.",
+      prica: ["Sharjah has been ruled since the 18th century by the Al Qasimi family, whose ships once controlled the entrance to the Persian Gulf. The present ruler, Sheikh Sultan, is a historian by training and deserves the credit for the city having more than twenty museums and a major book fair. UNESCO named Sharjah the Cultural Capital of the Arab World in 1998."],
       vidjeti: [
-        { ime: "Muzej islamske civilizacije", opis: "Smješten je u nekadašnjoj tržnici na obali, a otvoren 2008. Pogledajte u središnju kupolu, na čijoj je unutrašnjosti mozaik noćnog neba sa znakovima zodijaka, te zbirku astrolaba kojima su moreplovci određivali položaj prema zvijezdama." },
-        { ime: "Srce Sharjaha i Souk Al Arsah", opis: "Obnovljena stara jezgra s kućama od koralja okružuje jednu od najstarijih natkrivenih tržnica u zemlji. Na teškim drvenim vratima trgovina potražite mjedene čavle, a u kavani na tržnici trgovci su nekad sklapali poslove s beduinima." },
-        { ime: "Sharjah Art Foundation", opis: "U obnovljenim dvorišnim kućama zaklada izlaže suvremenu umjetnost i svake dvije godine organizira bijenale poznat u cijelom svijetu. Posebna je Rain Room, soba u kojoj kiša pada posvuda osim ondje gdje stojite." },
-        { ime: "Središnja tržnica (Plava tržnica)", opis: "Dvije duge zgrade s bačvastim svodovima i plavim pločicama iz 1978. izgledaju poput željezničkog kolodvora iz bajke. Na katu su trgovine sagovima i starinama iz Omana, Irana i Afganistana, gdje je čaj dio svake kupnje." },
-        { ime: "Džamija Al Noor", opis: "Džamija u osmanskom stilu na laguni Khalid, sagrađena po uzoru na istanbulske, prima posjetitelje koji nisu muslimani na vođene obilaske. Zanimljivo je usporediti njezine kaskadne kupole s džamijama koje ste možda vidjele u Bosni ili Turskoj." }
+        { ime: "Museum of Islamic Civilization", opis: "It is housed in a former souk on the waterfront and opened in 2008. Look up into the central dome, whose interior holds a mosaic of the night sky with the signs of the zodiac, and see the collection of astrolabes with which seafarers fixed their position by the stars." },
+        { ime: "Heart of Sharjah and Souk Al Arsah", opis: "The restored old town with its coral houses surrounds one of the oldest covered markets in the country. Look for the brass studs on the heavy wooden doors of the shops, and in the market's coffeehouse merchants once struck deals with the Bedouin." },
+        { ime: "Sharjah Art Foundation", opis: "In restored courtyard houses the foundation exhibits contemporary art, and every two years it organizes a biennial known all over the world. A special highlight is the Rain Room, a room where rain falls everywhere except where you are standing." },
+        { ime: "Central Souk (Blue Souk)", opis: "Two long buildings with barrel vaults and blue tiles from 1978 look like a railway station out of a fairy tale. Upstairs are shops selling carpets and antiques from Oman, Iran and Afghanistan, where tea is part of every purchase." },
+        { ime: "Al Noor Mosque", opis: "The Ottoman-style mosque on the Khalid Lagoon, built on the model of those in Istanbul, welcomes non-Muslim visitors on guided tours. It is interesting to compare its cascading domes with the mosques you may have seen in Bosnia or Turkey." }
       ],
       jesti: [
-        { ime: "Emiratska kuhinja u staroj jezgri", opis: "U dvorišnim restoranima Srca Sharjaha poslužuju se harees, machboos i riba s rižom, uz sokove jer se alkohol ovdje ne toči." },
-        { ime: "Chai i regag", opis: "Tanki hrskavi kruh regag peče se na vreloj ploči i maže sirom, jajetom ili ribljim umakom mehyawa, a jede se uz slatki čaj s mlijekom." }
+        { ime: "Emirati cuisine in the old town", opis: "The courtyard restaurants of the Heart of Sharjah serve harees, machboos and fish with rice, along with juices, because alcohol is not served here." },
+        { ime: "Chai and regag", opis: "The thin, crisp regag bread is baked on a hot griddle and spread with cheese, egg or the fish sauce mehyawa, and it is eaten with sweet milky tea." }
       ],
       dozivjeti: [
-        { ime: "Dan u muzejima Sharjaha", opis: "Uprava muzeja vodi šesnaestak zbirki, od kaligrafije do pomorstva, a mnoge su udaljene nekoliko minuta hoda jedna od druge u staroj jezgri.", link: "https://www.sharjahmuseums.ae/" },
-        { ime: "Arheološki centar Mleiha", opis: "Sat vožnje u unutrašnjost leže grobnice iz brončanog doba i fosili mora koje je nekad prekrivalo pustinju, a centar organizira šetnje s vodičem i promatranje zvijezda." }
+        { ime: "A day in Sharjah's museums", opis: "The museums authority runs some sixteen collections, from calligraphy to seafaring, and many are a few minutes' walk from one another in the old town.", link: "https://www.sharjahmuseums.ae/" },
+        { ime: "Mleiha Archaeological Centre", opis: "An hour's drive inland lie Bronze Age tombs and fossils of the sea that once covered the desert, and the center organizes guided walks and stargazing." }
       ],
       agencije: [
-        { ime: "Visit Sharjah", opis: "Službeni turistički vodič emirata Sharjaha.", link: "https://www.visitsharjah.com/en/" },
-        { ime: "Heart of Sharjah", opis: "Stranica projekta obnove povijesne jezgre s kartom i događanjima.", link: "https://www.heartofsharjah.ae/" }
+        { ime: "Visit Sharjah", opis: "The official tourist guide to the emirate of Sharjah.", link: "https://www.visitsharjah.com/en/" },
+        { ime: "Heart of Sharjah", opis: "The website of the project to restore the historic center, with a map and events.", link: "https://www.heartofsharjah.ae/" }
       ],
-      kada: "Od studenoga do ožujka. Iz Dubaija krenite nakon jutarnje gužve, a petkom prije podne većina je muzeja zatvorena."
+      kada: "From November to March. Set off from Dubai after the morning rush, and on Friday mornings most of the museums are closed."
     },
     {
       id: "al-ain-i-pustinja",
-      ime: "Pustinja i Al Ain",
+      ime: "The Desert and Al Ain",
       vrsta: "regija",
-      sazetak: "Crvene dine, oaza sa stotinu tisuća palmi i grobnice stare pet tisuća godina podno planine Jebel Hafeet.",
-      prica: ["Al Ain, čije ime znači „izvor“, bio je tisućljećima odmorište karavana na putu između Omana i obale. Ovdje je odrastao šeik Zayed, koji je kao mladi upravitelj obnavljao kanale za navodnjavanje i dijelio vodu pravednije među obiteljima. UNESCO je 2011. zaštitio oaze, grobnice u Hiliju i na Jebel Hafeetu, što je bila prva svjetska baština u Emiratima."],
+      sazetak: "Red dunes, an oasis with a hundred thousand palms and five-thousand-year-old tombs at the foot of Jebel Hafeet.",
+      prica: ["Al Ain, whose name means “the spring”, was for thousands of years a resting place for caravans on the route between Oman and the coast. Sheikh Zayed grew up here and, as a young governor, restored the irrigation channels and shared the water more fairly among the families. In 2011 UNESCO protected the oases and the tombs at Hili and on Jebel Hafeet, which became the first World Heritage site in the Emirates."],
       vidjeti: [
-        { ime: "Oaza Al Ain", opis: "Među više od 147 tisuća datuljinih palmi vode sjenovite staze između zidova od blata. Pratite uske kanale falaj, kojima voda iz planina teče podzemno i nadzemno već oko tri tisuće godina, a svaka obitelj dobiva je točno određen broj sati." },
-        { ime: "Utvrda Al Jahili", opis: "Sagrađena devedesetih godina 19. stoljeća od nepečene opeke radi obrane oaze, jedna je od najvećih utvrda u zemlji. Unutra je izložba fotografija britanskog istraživača Wilfreda Thesigera, koji je četrdesetih godina s beduinima dvaput prešao pustinju Rub al-Khali." },
-        { ime: "Grobnice na Jebel Hafeetu", opis: "Podno planine visoke oko 1240 metara stoje kamene grobnice u obliku košnica stare oko pet tisuća godina. U njima su nađene posude iz Mezopotamije, dokaz da se ovdje trgovalo na velike udaljenosti već u brončano doba." },
-        { ime: "Arheološki park Hili", opis: "Velika kružna grobnica iz trećeg tisućljeća prije Krista ima nad ulazom uklesane dvije antilope oriks i ljudske likove koji se drže za ruke. Park je uređen kao vrt, pa je ugodan i za predah od vožnje." },
-        { ime: "Dubajski pustinjski rezervat", opis: "Zaštićeno područje zauzima oko pet posto površine emirata Dubaija i dom je arapskom oriksu, bijeloj antilopi koja je u divljini bila istrijebljena pa je vraćena uzgojem. Crvena boja pijeska dolazi od željeznog oksida." }
+        { ime: "Al Ain Oasis", opis: "Shady paths run between mud walls among more than 147 thousand date palms. Follow the narrow falaj channels, through which water from the mountains has been flowing underground and above ground for about three thousand years, with every family receiving it for a precisely set number of hours." },
+        { ime: "Al Jahili Fort", opis: "Built in the 1890s of mud brick to defend the oasis, it is one of the largest forts in the country. Inside is an exhibition of photographs by the British explorer Wilfred Thesiger, who crossed the Rub al-Khali desert twice with the Bedouin in the 1940s." },
+        { ime: "The tombs on Jebel Hafeet", opis: "At the foot of the mountain, which is about 1,240 meters high, stand beehive-shaped stone tombs about five thousand years old. Vessels from Mesopotamia were found in them, proof that long-distance trade was going on here as early as the Bronze Age." },
+        { ime: "Hili Archaeological Park", opis: "The great circular tomb from the third millennium BC has two oryx antelopes and human figures holding hands carved above its entrance. The park is laid out as a garden, so it is also pleasant for a break from driving." },
+        { ime: "Dubai Desert Conservation Reserve", opis: "The protected area covers about five percent of the emirate of Dubai and is home to the Arabian oryx, a white antelope that was wiped out in the wild and then brought back through breeding. The red color of the sand comes from iron oxide." }
       ],
       jesti: [
-        { ime: "Ouzi", opis: "Cijelo janje polako pečeno i posluženo na riži s orašastim plodovima središnje je jelo beduinske gozbe i večera u pustinjskim kampovima." },
-        { ime: "Devino mlijeko i datulje", opis: "Lagano slano devino mlijeko i svježe datulje iz oaze beduinski su obrok koji se u Al Ainu može kušati na tržnici i u kafićima uz oazu." }
+        { ime: "Ouzi", opis: "A whole lamb, slowly roasted and served on rice with nuts, is the centerpiece of a Bedouin feast and of dinners in the desert camps." },
+        { ime: "Camel milk and dates", opis: "Slightly salty camel milk and fresh dates from the oasis make up a Bedouin meal that you can try in Al Ain at the market and in the cafés beside the oasis." }
       ],
       dozivjeti: [
-        { ime: "Baštinski safari u pustinji", opis: "Platinum Heritage vozi goste starim Land Roverima kroz rezervat bez divljanja po dinama, uz sokolara, beduinsku večeru i priče o životu prije nafte.", link: "https://www.platinum-heritage.com/" },
-        { ime: "Tržnica deva u Al Ainu", opis: "Jedna od posljednjih pravih stočnih tržnica u zemlji najživlja je rano ujutro, kada trgovci glasno pregovaraju, a mladunčad znatiželjno prilazi ogradi." },
-        { ime: "Zalazak sunca na Jebel Hafeetu", opis: "Zavojita cesta penje se do vrha s kojeg se vidi cijela oaza i pustinja prema Omanu, a putem su uređena odmorišta." }
+        { ime: "A heritage safari in the desert", opis: "Platinum Heritage drives guests through the reserve in vintage Land Rovers without tearing up the dunes, with a falconer, a Bedouin dinner and stories about life before oil.", link: "https://www.platinum-heritage.com/" },
+        { ime: "The camel market in Al Ain", opis: "One of the last real livestock markets in the country is at its liveliest early in the morning, when the traders bargain loudly and the calves come up to the fence out of curiosity." },
+        { ime: "Sunset on Jebel Hafeet", opis: "A winding road climbs to the summit, from which you can see the whole oasis and the desert stretching toward Oman, and there are rest stops along the way." }
       ],
       agencije: [
-        { ime: "Visit Al Ain", opis: "Službena turistička stranica regije Al Ain.", link: "https://visitalain.ae/" },
-        { ime: "Platinum Heritage", opis: "Organizator pustinjskih izleta usmjeren na prirodu i baštinu, djeluje u Dubajskom pustinjskom rezervatu.", link: "https://www.platinum-heritage.com/" }
+        { ime: "Visit Al Ain", opis: "The official tourism website of the Al Ain region.", link: "https://visitalain.ae/" },
+        { ime: "Platinum Heritage", opis: "An organizer of desert trips focused on nature and heritage, operating in the Dubai Desert Conservation Reserve.", link: "https://www.platinum-heritage.com/" }
       ],
-      kada: "Od studenoga do veljače, kada su noći u pustinji svježe pa treba ponijeti vestu. Al Ain je sat i pol vožnje od Dubaija i Abu Dhabija i zaslužuje cijeli dan."
+      kada: "From November to February, when nights in the desert are cool and you need to bring a sweater. Al Ain is an hour and a half's drive from both Dubai and Abu Dhabi and deserves a whole day."
     }
   ],
   izvori: [
@@ -176,6 +176,6 @@ window.ATLAS["uae"] = {
     { ime: "Sharjah Museums Authority", url: "https://www.sharjahmuseums.ae/" },
     { ime: "Visit Al Ain", url: "https://visitalain.ae/" },
     { ime: "Dubai Culture", url: "https://dubaiculture.gov.ae/en" },
-    { ime: "Emirates News Agency WAM, otvorenje Nacionalnog muzeja Zayed", url: "https://www.wam.ae/en/article/bm8fhkr-zayed-national-museum-open-december-saadiyat" }
+    { ime: "Emirates News Agency WAM, opening of the Zayed National Museum", url: "https://www.wam.ae/en/article/bm8fhkr-zayed-national-museum-open-december-saadiyat" }
   ]
 };

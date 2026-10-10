@@ -1,236 +1,236 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["bugarska"] = {
   id: "bugarska",
-  ime: "Bugarska",
-  regija: "Jugoistočna Europa",
-  sazetak: "Zemlja ruža, tračkog zlata i samostana u planinama, u kojoj kimanje glavom znači ne, a jogurt je pitanje nacionalnog ponosa.",
+  ime: "Bulgaria",
+  regija: "Southeastern Europe",
+  sazetak: "A land of roses, Thracian gold and monasteries in the mountains, where a nod of the head means no and yogurt is a matter of national pride.",
   uvod: [
-    "Bugarska je jedna od najstarijih država Europe i ime nije promijenila od 681. godine, kada su se Protobugari kana Asparuha udružili sa slavenskim plemenima južno od Dunava. Prije njih ovdje su živjeli Tračani, od kojih su ostale grobnice sa zlatnim blagom, a zatim Rimljani, čija se kazališta i stadioni i danas koriste. U devetom i desetom stoljeću na dvoru u Preslavu učenici Ćirila i Metoda oblikovali su ćirilicu, koja se odavde proširila slavenskim svijetom.",
-    "Nakon pet stoljeća pod Osmanlijama zemlja je u 19. stoljeću doživjela narodni preporod, čije se šarene kuće s istacima vide u Plovdivu i planinskim gradićima. Tada je i biskup Strossmayer pomogao da se u Zagrebu 1861. tiska zbornik bugarskih narodnih pjesama braće Miladinov. Bugarska je članica Europske unije od 2007., u schengenskom je prostoru, a od 2026. plaća se eurom, pa je putovanje jednostavnije nego ikad."
+    "Bulgaria is one of the oldest states in Europe and has not changed its name since the year 681, when the Bulgars of Khan Asparuh joined forces with the Slavic tribes south of the Danube. Before them the Thracians lived here, leaving behind tombs with golden treasure, and then the Romans, whose theaters and stadiums are still in use today. In the ninth and tenth centuries, at the court in Preslav, the disciples of Cyril and Methodius shaped the Cyrillic alphabet, which spread from here across the Slavic world.",
+    "After five centuries under the Ottomans, the country went through a National Revival in the 19th century, whose colorful houses with projecting upper floors can be seen in Plovdiv and the mountain towns. It was then, too, that the Croatian bishop Strossmayer helped a collection of Bulgarian folk songs by the Miladinov brothers get printed in Zagreb in 1861. Bulgaria has been a member of the European Union since 2007, it is in the Schengen area, and since 2026 you pay in euros, so traveling there is easier than ever."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Svibanj i lipanj, kada cvjetaju ruže u dolini pod Balkanom, te rujan i početak listopada. Crnomorska obala najugodnija je u lipnju i rujnu, a planine Rila i Pirin od srpnja do rujna." },
-    { k: "Valuta", v: "Euro, koji je 1. siječnja 2026. zamijenio lev. Kartice se primaju u gradovima, a u selima, samostanima i na tržnicama dobro je imati gotovinu." },
-    { k: "Kretanje", v: "Autobusi su brzi i česti, a vlakovi spori, ali jeftini i slikoviti, osobito uskotračna pruga kroz Rodope. Za samostane i sela najbolje je unajmiti automobil, uz obveznu elektroničku vinjetu." },
-    { k: "Napojnica", v: "Oko deset posto u restoranima, a u taksiju se iznos zaokružuje." }
+    { k: "When to go", v: "May and June, when the roses bloom in the valley below the Balkan Mountains, and September and early October. The Black Sea coast is most pleasant in June and September, and the Rila and Pirin mountains from July to September." },
+    { k: "Currency", v: "The euro, which replaced the lev on January 1, 2026. Cards are accepted in the cities, and in villages, monasteries and markets it is good to have cash." },
+    { k: "Getting around", v: "Buses are fast and frequent, and trains are slow but cheap and scenic, especially the narrow-gauge line through the Rhodopes. For monasteries and villages it is best to rent a car, with the mandatory electronic vignette." },
+    { k: "Tipping", v: "About ten percent in restaurants, and in taxis you round up the fare." }
   ],
   hrana: [
-    { ime: "Banica", opis: "Pita od tankih kora sa sirenjem, jajima i jogurtom, savijena u puža ili složena u tepsiju.", prica: "Jede se za doručak s bozom ili ajranom. Za Novu godinu u nju se stavljaju grančice drijena i papirići sa željama, pa svatko u svojem komadu nalazi sreću za iduću godinu." },
-    { ime: "Šopska salata", opis: "Rajčica, krastavac, paprika i luk pod brdom naribanog bijelog sira.", prica: "Premda je svi smatraju pradavnom, osmislili su je kuhari državnog turističkog poduzeća pedesetih godina 20. stoljeća. Bijela, zelena i crvena boja odgovaraju bojama bugarske zastave." },
-    { ime: "Tarator", opis: "Hladna juha od jogurta, krastavaca, češnjaka, kopra i oraha.", prica: "Ljeti se jede kao predjelo ili pije iz čaše, a gušća inačica bez vode zove se salata Snježanka." },
-    { ime: "Kiselo mljako", opis: "Bugarski jogurt, gust i kiselkast, koji se jede uz gotovo svaki obrok.", prica: "Bakteriju koja ga čini posebnim opisao je 1905. bugarski student medicine Stamen Grigorov, pa ona u svojem imenu nosi ime zemlje. Bugari jogurtu rado pripisuju i dugovječnost svojih planinskih sela." },
-    { ime: "Kebapče i ćufte", opis: "Duguljasti i okrugli komadi mljevenog mesa s roštilja, začinjeni kimom.", prica: "Naručuju se na komade, uz pomfrit posut sirenjem i ljutenicu, a najbolji su u jednostavnim roštiljarnicama zvanim skara." },
-    { ime: "Ljutenica", opis: "Namaz od pečenih paprika i rajčica, srodan ajvaru, ali sitniji i slađi.", prica: "Svaka obitelj u rujnu kuha vlastite zalihe za zimu, a djeca je jedu namazanu na kruh sa sirenjem na vrhu." },
-    { ime: "Kavarma", opis: "Meso pirjano s lukom, paprikom i gljivama u glinenoj posudici, često s jajetom na vrhu.", prica: "Poslužuje se vrela, u posudi u kojoj se pekla, a svaki kraj ima svoju inačicu. U planinama uz nju ide parlenka, plosnati kruh s češnjakom." },
-    { ime: "Škembe čorba", opis: "Juha od tripica s mlijekom, koju svatko sam začinja češnjakom u octu i ljutom paprikom.", prica: "Smatra se najboljim lijekom nakon duge noći, pa se u posebnim lokalima poslužuje od ranog jutra." },
-    { ime: "Rakija i vino", opis: "Rakija od grožđa ili šljiva te vina starih sorti mavrud, melnik i gamza.", prica: "Rakija se pije na početku obroka, uz šopsku salatu, a zimi se grije s medom. Mavrud je tamno vino iz okolice Plovdiva, a melnik raste samo u dolini Strume." }
+    { ime: "Banitsa", opis: "A pie of thin pastry sheets with sirene cheese, eggs and yogurt, coiled into a spiral or layered in a baking pan.", prica: "It is eaten for breakfast with boza or ayran. For the New Year, dogwood twigs and slips of paper with wishes are tucked into it, so everyone finds their fortune for the coming year in their own slice." },
+    { ime: "Shopska salad", opis: "Tomato, cucumber, pepper and onion under a mound of grated white cheese.", prica: "Although everyone thinks of it as ancient, it was devised by the chefs of the state tourism company in the 1950s. The white, green and red match the colors of the Bulgarian flag." },
+    { ime: "Tarator", opis: "A cold soup of yogurt, cucumbers, garlic, dill and walnuts.", prica: "In summer it is eaten as a starter or drunk from a glass, and the thicker version without water is called Snezhanka salad, which means Snow White." },
+    { ime: "Kiselo mlyako", opis: "Bulgarian yogurt, thick and tangy, which is eaten with almost every meal.", prica: "The bacterium that makes it special was described in 1905 by the Bulgarian medical student Stamen Grigorov, so it carries the name of the country in its own name. Bulgarians also like to credit yogurt for the longevity of their mountain villages." },
+    { ime: "Kebapche and kyufte", opis: "Elongated and round pieces of grilled minced meat, seasoned with cumin.", prica: "They are ordered by the piece, with fries sprinkled with sirene cheese and with lyutenitsa, and they are at their best in the simple grill houses called skara." },
+    { ime: "Lyutenitsa", opis: "A spread of roasted peppers and tomatoes, related to ajvar but finer and sweeter.", prica: "Every family cooks its own supply for the winter in September, and children eat it spread on bread with sirene cheese on top." },
+    { ime: "Kavarma", opis: "Meat braised with onion, peppers and mushrooms in a small clay pot, often with an egg on top.", prica: "It is served piping hot in the pot it was baked in, and every region has its own version. In the mountains it comes with parlenka, a flatbread with garlic." },
+    { ime: "Shkembe chorba", opis: "A tripe soup with milk, which everyone seasons for themselves with garlic in vinegar and hot red pepper.", prica: "It is considered the best cure after a long night, so the places that specialize in it serve it from early morning." },
+    { ime: "Rakia and wine", opis: "Rakia made from grapes or plums, and wines from the old varieties mavrud, melnik and gamza.", prica: "Rakia is drunk at the start of the meal, with shopska salad, and in winter it is heated with honey. Mavrud is a dark wine from the area around Plovdiv, and melnik grows only in the Struma valley." }
   ],
   obicaji: [
-    { ime: "Baba Marta i martenica", opis: "Prvog ožujka svi jedni drugima vežu oko ruke crveno-bijele pletenice za zdravlje. Nose se do prve rode ili lastavice, a zatim se objese na rascvjetanu granu.", gdje: "Cijela zemlja, od kraja veljače, kada se martenice prodaju na svakom uglu, a u travnju šarene vise po stablima." },
-    { ime: "Kukeri", opis: "Muškarci u krznu, s golemim drvenim maskama i teškim zvonima oko pojasa, plešu selom i tjeraju zimu i zle duhove. Običaj je srodan našim zvončarima.", gdje: "Festival Surva u Perniku, tridesetak kilometara od Sofije, posljednjeg vikenda u siječnju, na UNESCO-ovu je popisu." },
-    { ime: "Nestinarstvo", opis: "U sumrak, uz gajde i bubanj, plesači bosi prelaze preko žeravice držeći ikone svetog Konstantina i Jelene. Obred spaja kršćanstvo sa starijim tračkim vjerovanjima.", gdje: "Selo Balgari u planini Strandži, 3. lipnja navečer. Predstave za turiste na obali nemaju veze s pravim obredom." },
-    { ime: "Dolina ruža", opis: "Pod planinom Balkan od 17. stoljeća uzgaja se damaščanska ruža, od koje se destilira ulje za parfeme. Za litru ulja treba više od tri tone latica, a bere se u zoru, dok je cvijet još vlažan.", gdje: "Kazanlak i Karlovo, od sredine svibnja do sredine lipnja. Festival ruža u Kazanlaku održava se prvog vikenda u lipnju." },
-    { ime: "Višeglasno pjevanje", opis: "Ženski zborovi pjevaju otvorenim grlom, u tijesnim suglasjima koja zapadnom uhu zvuče gotovo nezemaljski. Pjesma „Izlel je Delju hajdutin“ u izvedbi Valje Balkanske putuje svemirom na zlatnoj ploči letjelice Voyager.", gdje: "Na saboru u Koprivštici, koji se održava svakih pet godina, te na festivalima u Rodopima." },
-    { ime: "Imendan", opis: "Dan sveca po kojem ste dobili ime slavi se jednako kao rođendan, a slavljenik časti. Gosti dolaze bez poziva.", gdje: "Najveći su Ivanjdan 7. siječnja, Đurđevdan 6. svibnja, kada se peče janje, i Nikoljdan 6. prosinca, kada se jede šaran." }
+    { ime: "Baba Marta and the martenitsa", opis: "On the first of March everyone ties red-and-white braided threads around one another's wrists for good health. They are worn until you see the first stork or swallow and are then hung on a flowering branch.", gdje: "The whole country, from the end of February, when martenitsas are sold on every corner, and in April they hang in bright colors from the trees." },
+    { ime: "Kukeri", opis: "Men dressed in fur, with huge wooden masks and heavy bells around their waists, dance through the village and drive away winter and evil spirits. The custom is related to the Croatian zvončari bell ringers.", gdje: "The Surva festival in Pernik, about thirty kilometers from Sofia, on the last weekend in January, is on the UNESCO list." },
+    { ime: "Nestinarstvo", opis: "At dusk, to the sound of bagpipes and a drum, dancers cross the glowing embers barefoot, holding icons of Saints Constantine and Helena. The ritual blends Christianity with older Thracian beliefs.", gdje: "The village of Balgari in the Strandzha mountains, on the evening of June 3. The shows for tourists on the coast have nothing to do with the real ritual." },
+    { ime: "The Rose Valley", opis: "Below the Balkan Mountains the damask rose has been grown since the 17th century, and its oil is distilled for perfumes. A liter of oil takes more than three tons of petals, and the picking is done at dawn, while the flower is still moist.", gdje: "Kazanlak and Karlovo, from mid-May to mid-June. The Rose Festival in Kazanlak is held on the first weekend in June." },
+    { ime: "Polyphonic singing", opis: "Women's choirs sing with an open throat, in close harmonies that sound almost unearthly to a Western ear. The song “Izlel e Delyu Haydutin”, performed by Valya Balkanska, is traveling through space on the golden record aboard the Voyager spacecraft.", gdje: "At the folklore gathering in Koprivshtitsa, held every five years, and at festivals in the Rhodopes." },
+    { ime: "Name day", opis: "The feast day of the saint you are named after is celebrated just like a birthday, and the person celebrating does the treating. Guests come without an invitation.", gdje: "The biggest are St. John's Day on January 7, St. George's Day on May 6, when lamb is roasted, and St. Nicholas Day on December 6, when carp is eaten." }
   ],
   fraze: [
-    { izvorno: "Здравейте (Zdravejte)", izgovor: "zdra-VEJ-te", hr: "Dobar dan" },
-    { izvorno: "Благодаря (Blagodarja)", izgovor: "bla-go-dar-JA", hr: "Hvala (kraće: mersi)" },
-    { izvorno: "Моля (Molja)", izgovor: "MO-lja", hr: "Molim, izvolite" },
-    { izvorno: "Да / Не (Da / Ne)", izgovor: "DA / NE", hr: "Da / Ne (uz obrnuto kimanje)" },
-    { izvorno: "Колко струва? (Kolko struva?)", izgovor: "KOL-ko STRU-va", hr: "Koliko košta?" },
-    { izvorno: "Сметката, моля", izgovor: "SMET-ka-ta MO-lja", hr: "Račun, molim" },
-    { izvorno: "Наздраве! (Nazdrave!)", izgovor: "na-ZDRA-ve", hr: "Živjeli!" },
-    { izvorno: "Довиждане (Doviždane)", izgovor: "do-VIŽ-da-ne", hr: "Doviđenja" }
+    { izvorno: "Здравейте (Zdravejte)", izgovor: "zdrah-VAY-teh", hr: "Hello" },
+    { izvorno: "Благодаря (Blagodarja)", izgovor: "blah-goh-dar-YAH", hr: "Thank you (shorter: mersi)" },
+    { izvorno: "Моля (Molja)", izgovor: "MOH-lyah", hr: "Please, you're welcome" },
+    { izvorno: "Да / Не (Da / Ne)", izgovor: "DAH / NEH", hr: "Yes / No (with the nodding reversed)" },
+    { izvorno: "Колко струва? (Kolko struva?)", izgovor: "KOHL-koh STROO-vah", hr: "How much is it?" },
+    { izvorno: "Сметката, моля", izgovor: "SMET-kah-tah MOH-lyah", hr: "The check, please" },
+    { izvorno: "Наздраве! (Nazdrave!)", izgovor: "nahz-DRAH-veh", hr: "Cheers!" },
+    { izvorno: "Довиждане (Doviždane)", izgovor: "doh-VEEZH-dah-neh", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Bugari odmahuju glavom lijevo-desno kada misle da, a kimaju kada misle ne, premda se mlađi u razgovoru sa strancima često prilagode, što zbrku samo povećava.",
-    "Zlato iz nekropole u Varni, staro više od šest tisuća godina, najstarije je obrađeno zlato na svijetu.",
-    "Ulaskom Bugarske u Europsku uniju 2007. ćirilica je postala treće službeno pismo Unije.",
-    "Dan ćirilice i slavenske pismenosti, 24. svibnja, državni je praznik.",
-    "Bugarska je najveći svjetski proizvođač ružina ulja i jedan od najvećih proizvođača lavandina ulja.",
-    "Tijekom Drugog svjetskog rata, zahvaljujući otporu crkve, zastupnika i građana, nije deportiran nijedan od oko 48 tisuća Židova iz same Bugarske.",
-    "Musala u Rili, visoka 2925 metara, najviši je vrh Balkanskog poluotoka."
+    "Bulgarians shake their heads from side to side when they mean yes and nod when they mean no, although younger people often adapt when talking to foreigners, which only adds to the confusion.",
+    "The gold from the necropolis in Varna, more than six thousand years old, is the oldest worked gold in the world.",
+    "When Bulgaria joined the European Union in 2007, Cyrillic became the third official script of the Union.",
+    "The Day of the Cyrillic Alphabet and Slavic Literacy, May 24, is a public holiday.",
+    "Bulgaria is the world's largest producer of rose oil and one of the largest producers of lavender oil.",
+    "During the Second World War, thanks to the resistance of the church, members of parliament and ordinary citizens, not one of the roughly 48,000 Jews from Bulgaria proper was deported.",
+    "Musala in the Rila range, at 2,925 meters, is the highest peak on the Balkan Peninsula."
   ],
   mjesta: [
     {
       id: "sofija",
-      ime: "Sofija",
+      ime: "Sofia",
       vrsta: "grad",
-      sazetak: "Prijestolnica pod planinom Vitošom, u kojoj se rimske ulice vide kroz staklo podzemne željeznice, a zlatne kupole sjaje nad žutim pločnikom.",
+      sazetak: "The capital at the foot of Mount Vitosha, where Roman streets can be seen through the glass of the subway and golden domes gleam above yellow paving.",
       prica: [
-        "Rimska Serdika bila je toliko draga caru Konstantinu da ju je, prema predaji, zvao svojim Rimom. Današnje ime grad je dobio u 14. stoljeću po bazilici Svete Sofije, a prijestolnica je postao 1879., nakon oslobođenja od Osmanlija, kada je imao jedva dvadeset tisuća stanovnika.",
-        "Zato je središte uglavnom iz kraja 19. i početka 20. stoljeća, s bečkim arhitektima i žutim opekama kojima su popločane glavne ulice. Na nekoliko stotina metara stoje pravoslavna crkva, džamija, sinagoga i katolička katedrala, što Sofijci zovu trgom tolerancije."
+        "Roman Serdica was so dear to Emperor Constantine that, according to tradition, he called it his Rome. The city received its present name in the 14th century after the Basilica of St. Sophia, and it became the capital in 1879, after liberation from the Ottomans, when it had barely twenty thousand inhabitants.",
+        "That is why the center dates mostly from the end of the 19th and the beginning of the 20th century, with Viennese architects and the yellow bricks that pave the main streets. Within a few hundred meters stand an Orthodox church, a mosque, a synagogue and a Catholic cathedral, which the people of Sofia call the square of tolerance."
       ],
       vidjeti: [
-        { ime: "Katedrala Aleksandra Nevskog", opis: "Sagrađena je od 1882. do 1912. u spomen na ruske vojnike poginule u ratu za oslobođenje Bugarske. Prima pet tisuća ljudi, kupole su joj pozlaćene, a najveće od dvanaest zvona teško je dvanaest tona. U kripti je muzej s ikonama od devetog stoljeća naovamo." },
-        { ime: "Bazilika Svete Sofije", opis: "Skromna crkva od crvene opeke iz šestog stoljeća dala je gradu ime. Pod njom se može sići u nekropolu s desecima rimskih grobnica i mozaicima ranijih crkava na istom mjestu." },
-        { ime: "Rotonda svetog Jurja", opis: "Najstarija zgrada u gradu, iz četvrtog stoljeća, skriva se u dvorištu između predsjedničke palače i hotela. Pod kupolom su tri sloja fresaka, a iza nje ostaci rimske ulice." },
-        { ime: "Antička Serdika", opis: "Pri gradnji metroa otkrivene su ulice, kuće i terme rimskoga grada, koje su ostavljene pod staklenim kupolama i u samoj stanici. Hoda se po izvornom pločniku s kolotečinama, tik ispod prometa." },
-        { ime: "Bojanska crkva", opis: "U predgrađu pod Vitošom mala crkva čuva freske iz 1259., na kojima su ljudi prikazani s osjećajima i osobnim crtama desetljećima prije Giotta. Potražite portrete donatora Kalojana i Desislave. Ulazi se u malim skupinama na desetak minuta, a na UNESCO-ovu je popisu od 1979. godine." },
-        { ime: "Džamija Banja-baši i sinagoga", opis: "Džamiju je 1566. sagradio Mimar Sinan nad toplim izvorima, a iza nje građani i danas toče mineralnu vodu u boce. Sinagoga iz 1909., najveća sefardska u Europi, ima luster težak gotovo dvije tone." }
+        { ime: "Alexander Nevsky Cathedral", opis: "It was built from 1882 to 1912 in memory of the Russian soldiers who died in the war for the liberation of Bulgaria. It holds five thousand people, its domes are gilded, and the largest of its twelve bells weighs twelve tons. In the crypt is a museum with icons from the ninth century onward." },
+        { ime: "Basilica of St. Sophia", opis: "A modest red brick church from the sixth century gave the city its name. Beneath it you can go down into a necropolis with dozens of Roman tombs and the mosaics of earlier churches on the same spot." },
+        { ime: "Rotunda of St. George", opis: "The oldest building in the city, from the fourth century, hides in a courtyard between the presidential palace and a hotel. Under the dome are three layers of frescoes, and behind it the remains of a Roman street." },
+        { ime: "Ancient Serdica", opis: "During the construction of the metro, the streets, houses and baths of the Roman city were uncovered and left beneath glass domes and inside the station itself. You walk on the original paving with its wheel ruts, just below the traffic." },
+        { ime: "Boyana Church", opis: "In a suburb at the foot of Vitosha, a small church preserves frescoes from 1259 in which people are shown with feelings and individual features decades before Giotto. Look for the portraits of the donors Kaloyan and Desislava. You enter in small groups for about ten minutes, and it has been on the UNESCO list since 1979." },
+        { ime: "Banya Bashi Mosque and the synagogue", opis: "The mosque was built in 1566 by Mimar Sinan over hot springs, and behind it locals still fill bottles with mineral water today. The synagogue of 1909, the largest Sephardic synagogue in Europe, has a chandelier weighing almost two tons." }
       ],
       jesti: [
-        { ime: "Banica i boza", opis: "Topla banica s kiselkastom bozom jede se ujutro u malim pekarnicama s natpisom zakuski." },
-        { ime: "Mekice", opis: "Pržene pogačice od tijesta s jogurtom poslužuju se sa šećerom u prahu, sirenjem ili džemom." },
-        { ime: "Škembe čorba", opis: "Posebni lokali kuhaju je cijelu noć, a začinjava se za stolom." },
-        { ime: "Jela u mehani", opis: "U tradicionalnim gostionicama naručuju se kavarma, punjene paprike i sač s mesom i povrćem." }
+        { ime: "Banitsa and boza", opis: "Warm banitsa with tangy boza is eaten in the morning in small bakeries marked with the sign zakuski." },
+        { ime: "Mekitsi", opis: "Fried rounds of yogurt dough are served with powdered sugar, sirene cheese or jam." },
+        { ime: "Shkembe chorba", opis: "The places that specialize in it cook it all night long, and it is seasoned at the table." },
+        { ime: "Dishes in a mehana", opis: "In the traditional taverns people order kavarma, stuffed peppers and sach with meat and vegetables." }
       ],
       dozivjeti: [
-        { ime: "Besplatna pješačka tura", opis: "Udruga mladih vodiča svakodnevno vodi dvosatnu šetnju središtem, od Palače pravde do katedrale.", link: "https://freesofiatour.com/" },
-        { ime: "Besplatna gastronomska tura", opis: "Balkan Bites vodi kroz nekoliko restorana uz kušanje tradicionalnih jela i priču o bugarskoj kuhinji. Broj mjesta je ograničen, pa dođite ranije.", link: "https://www.balkanbites.bg/" },
-        { ime: "Ženska tržnica", opis: "Najstarija gradska tržnica prodaje povrće, začine, med i glineno posuđe, a ime je dobila po seljankama koje su ovdje nekad prodavale." },
-        { ime: "Vitoša", opis: "Planina visoka 2290 metara počinje na rubu grada. Gradskim prijevozom stiže se do staza koje vode do kamenih rijeka i Bojanskog slapa." }
+        { ime: "Free walking tour", opis: "An association of young guides leads a two-hour walk through the center every day, from the Palace of Justice to the cathedral.", link: "https://freesofiatour.com/" },
+        { ime: "Free food tour", opis: "Balkan Bites takes you through several restaurants, with tastings of traditional dishes and the story of Bulgarian cuisine. The number of places is limited, so come early.", link: "https://www.balkanbites.bg/" },
+        { ime: "The Women's Market", opis: "The city's oldest market sells vegetables, spices, honey and earthenware, and it was named after the village women who once sold their goods here." },
+        { ime: "Vitosha", opis: "The mountain, 2,290 meters high, begins at the edge of the city. Public transport takes you to trails that lead to the stone rivers and to Boyana Waterfall." }
       ],
       agencije: [
-        { ime: "Visit Sofia", opis: "Službeni turistički portal grada s informativnim centrima u središtu.", link: "https://www.visitsofia.bg/" },
-        { ime: "Free Sofia Tour", opis: "Neprofitna udruga koja organizira pješačke ture uz napojnicu.", link: "https://freesofiatour.com/" },
-        { ime: "Bojanska crkva", opis: "Službena stranica muzeja s pravilima posjeta.", link: "https://boyanachurch.org/" }
+        { ime: "Visit Sofia", opis: "The official tourism portal of the city, with information centers downtown.", link: "https://www.visitsofia.bg/" },
+        { ime: "Free Sofia Tour", opis: "A nonprofit association that organizes tip-based walking tours.", link: "https://freesofiatour.com/" },
+        { ime: "Boyana Church", opis: "The official website of the museum, with the rules for visiting.", link: "https://boyanachurch.org/" }
       ],
-      kada: "Svibanj, lipanj i rujan. Grad leži na 550 metara, pa su ljetne večeri svježe, a zime hladne i često snježne."
+      kada: "May, June and September. The city lies at 550 meters, so summer evenings are cool, and winters are cold and often snowy."
     },
     {
       id: "plovdiv",
       ime: "Plovdiv",
       vrsta: "grad",
-      sazetak: "Jedan od najstarijih gradova Europe, s rimskim kazalištem nad krovovima i šarenim kućama narodnog preporoda na tri brežuljka.",
+      sazetak: "One of the oldest cities in Europe, with a Roman theater above the rooftops and colorful National Revival houses on three hills.",
       prica: [
-        "Na brežuljcima nad rijekom Maricom ljudi žive više od šest tisuća godina. Filip II. Makedonski osvojio je trački grad 342. prije Krista i nazvao ga Filipopol, a Rimljani su ga zvali Trimontium, grad na tri brda, i učinili prijestolnicom provincije Trakije.",
-        "U 19. stoljeću bogati trgovci sagradili su u Starom gradu kuće s oslikanim pročeljima i katovima koji se nadvijaju nad ulicu. Plovdiv je 2019. bio Europska prijestolnica kulture, a stanovnici se ponose riječju ajljak, koja opisuje umijeće bezbrižnog ljenčarenja."
+        "People have lived on the hills above the Maritsa River for more than six thousand years. Philip II of Macedon conquered the Thracian town in 342 BC and named it Philippopolis, and the Romans called it Trimontium, the city on three hills, and made it the capital of the province of Thrace.",
+        "In the 19th century wealthy merchants built houses in the Old Town with painted facades and upper floors that lean out over the street. In 2019 Plovdiv was a European Capital of Culture, and its residents take pride in the word aylyak, which describes the art of carefree idling."
       ],
       vidjeti: [
-        { ime: "Antičko kazalište", opis: "Sagrađeno je krajem prvog stoljeća i primalo je oko šest tisuća gledatelja. Otkriveno je tek 1972. nakon odrona zemlje, a danas se u njemu ljeti izvode opere. Na sjedalima potražite uklesana imena gradskih četvrti kojima su redovi pripadali." },
-        { ime: "Rimski stadion", opis: "Pod glavnom pješačkom ulicom leži stadion dug 240 metara, koji je primao trideset tisuća ljudi. Vidi se njegov zaobljeni kraj na trgu kod Petkove džamije, do kojeg se silazi stubama." },
-        { ime: "Stari grad", opis: "Kuće iz doba preporoda šire se prema gore, pa se susjedi s gornjih katova gotovo mogu rukovati preko ulice. Najljepša je Kujumdžiogluova kuća iz 1847., danas Etnografski muzej, s valovitim zabatom i pozlaćenim stropovima." },
-        { ime: "Biskupska bazilika", opis: "Ranokršćanska crkva iz četvrtog stoljeća ima dvije tisuće kvadratnih metara podnih mozaika, na kojima je prikazano više od stotinu ptica. Muzej nad njima otvoren je 2021., a po staklenim se mostovima hoda iznad poda." },
-        { ime: "Kapana", opis: "Nekadašnja obrtnička četvrt, čije ime znači zamka jer se u njezinim uličicama lako izgubiti, danas je puna galerija, radionica i malih barova." },
-        { ime: "Nebet-tepe", opis: "Na najvišem brežuljku Starog grada leže ostaci tračkih zidina, odakle se u sumrak vidi cijeli grad i Rodopi u daljini." }
+        { ime: "The Ancient Theater", opis: "It was built at the end of the first century and held about six thousand spectators. It was discovered only in 1972 after a landslide, and today operas are staged in it in summer. On the seats, look for the carved names of the city districts to which the rows belonged." },
+        { ime: "The Roman Stadium", opis: "Beneath the main pedestrian street lies a stadium 240 meters long, which held thirty thousand people. Its curved end is visible in the square by the Dzhumaya Mosque, and steps lead down to it." },
+        { ime: "The Old Town", opis: "The houses of the Revival period widen as they rise, so neighbors on the upper floors can almost shake hands across the street. The most beautiful is the Kuyumdzhioglu House of 1847, now the Ethnographic Museum, with its undulating gable and gilded ceilings." },
+        { ime: "The Bishop's Basilica", opis: "This early Christian church from the fourth century has two thousand square meters of floor mosaics, depicting more than a hundred birds. The museum above them opened in 2021, and you walk over the floor on glass bridges." },
+        { ime: "Kapana", opis: "The former craftsmen's quarter, whose name means the trap because it is so easy to get lost in its alleys, is now full of galleries, workshops and small bars." },
+        { ime: "Nebet Tepe", opis: "On the highest hill of the Old Town lie the remains of Thracian walls, from which at dusk you can see the whole city and the Rhodopes in the distance." }
       ],
       jesti: [
-        { ime: "Mavrud", opis: "Staro tračko crno vino kuša se u vinskim barovima Kapane i u vinarijama u okolici." },
-        { ime: "Patatnik", opis: "Rodopska pita od ribanog krumpira, sira i metvice peče se u tavi dok ne dobije koru." },
-        { ime: "Turske slastice", opis: "U kavani uz Petkovu džamiju iz 15. stoljeća poslužuju se baklava i kava kuhana na pijesku." }
+        { ime: "Mavrud", opis: "This old Thracian red wine can be tasted in the wine bars of Kapana and in the wineries of the surrounding area." },
+        { ime: "Patatnik", opis: "A Rhodope pie of grated potato, cheese and mint is cooked in a skillet until it forms a crust." },
+        { ime: "Turkish sweets", opis: "The cafe beside the Dzhumaya Mosque, which dates from the 15th century, serves baklava and coffee brewed on hot sand." }
       ],
       dozivjeti: [
-        { ime: "Besplatna pješačka tura", opis: "Svakodnevna šetnja kreće ispred gradske vijećnice i vodi kroz rimski i preporodni grad.", link: "https://freeplovdivtour.com/" },
-        { ime: "Šapat Milji u uho", opis: "Na glavnoj ulici sjedi brončani kip gradskog čudaka Milje s rukom na uhu. Običaj je šapnuti mu želju." },
-        { ime: "Bačkovski samostan", opis: "Trideset kilometara južno, u Rodopima, stoji drugi po veličini bugarski samostan, koji su 1083. osnovala dva gruzijska brata. U blagovaonici je freska s antičkim filozofima." },
-        { ime: "Opera u antičkom kazalištu", opis: "Od lipnja do rujna pod zvijezdama se održavaju operni i folklorni festivali.", link: "https://www.visitplovdiv.com/" }
+        { ime: "Free walking tour", opis: "The daily walk sets off from in front of the city hall and leads through the Roman and the Revival city.", link: "https://freeplovdivtour.com/" },
+        { ime: "A whisper in Milyo's ear", opis: "On the main street sits a bronze statue of the town eccentric Milyo with his hand cupped to his ear. The custom is to whisper a wish to him." },
+        { ime: "Bachkovo Monastery", opis: "Thirty kilometers to the south, in the Rhodopes, stands the second-largest Bulgarian monastery, founded in 1083 by two Georgian brothers. The refectory has a fresco of ancient philosophers." },
+        { ime: "Opera in the Ancient Theater", opis: "From June to September opera and folklore festivals are held under the stars.", link: "https://www.visitplovdiv.com/" }
       ],
       agencije: [
-        { ime: "Visit Plovdiv", opis: "Službeni turistički portal grada.", link: "https://www.visitplovdiv.com/" },
-        { ime: "Free Plovdiv Tour", opis: "Pješačke ture na engleskom uz napojnicu.", link: "https://freeplovdivtour.com/" },
-        { ime: "Stari Plovdiv", opis: "Općinska ustanova koja upravlja kućama-muzejima i prodaje zajedničku ulaznicu.", link: "https://www.oldplovdiv.bg/" }
+        { ime: "Visit Plovdiv", opis: "The official tourism portal of the city.", link: "https://www.visitplovdiv.com/" },
+        { ime: "Free Plovdiv Tour", opis: "Tip-based walking tours in English.", link: "https://freeplovdivtour.com/" },
+        { ime: "Old Plovdiv", opis: "The municipal institution that manages the house museums and sells a combined ticket.", link: "https://www.oldplovdiv.bg/" }
       ],
-      kada: "Svibanj, lipanj i rujan. Stari je grad popločan krupnim oblim kamenjem, pa obujte ravne cipele s debelim potplatom."
+      kada: "May, June and September. The Old Town is paved with large rounded cobblestones, so wear flat shoes with thick soles."
     },
     {
       id: "rila",
-      ime: "Rilski samostan",
+      ime: "Rila Monastery",
       vrsta: "priroda",
-      sazetak: "Najveći bugarski samostan, skriven u šumovitoj dolini, s prugastim arkadama i freskama na kojima vragovi vuku grešnike.",
+      sazetak: "The largest Bulgarian monastery, hidden in a wooded valley, with striped arcades and frescoes in which devils drag sinners away.",
       prica: [
-        "U desetom stoljeću u ove se planine povukao pustinjak Ivan Rilski, a njegovi su učenici osnovali samostan koji je u osmansko doba čuvao bugarski jezik i knjige. Nakon požara 1833. obnovljen je prilozima iz cijele zemlje, pa je današnji izgled djelo graditelja i slikara narodnog preporoda.",
-        "UNESCO ga je zaštitio 1983. godine. Okolna planina Rila nacionalni je park s najvišim vrhom Balkana i ledenjačkim jezerima."
+        "In the tenth century the hermit John of Rila withdrew into these mountains, and his disciples founded a monastery that safeguarded the Bulgarian language and its books during the Ottoman era. After the fire of 1833 it was rebuilt with donations from all over the country, so its present appearance is the work of the builders and painters of the National Revival.",
+        "UNESCO placed it under protection in 1983. The surrounding Rila range is a national park with the highest peak in the Balkans and glacial lakes."
       ],
       vidjeti: [
-        { ime: "Crkva Rođenja Bogorodice", opis: "Vanjski trijem oslikan je živim prizorima Posljednjeg suda, na kojima vragovi odvode škrce, krivokletnike i žene koje idu vračarama. Unutra je pozlaćen ikonostas širok deset metara, a u crkvi je pokopano srce cara Borisa III." },
-        { ime: "Hreljina kula", opis: "Obrambeni toranj iz 1335. jedino je što je preživjelo požar. Na vrhu je kapelica s freskama iz 14. stoljeća." },
-        { ime: "Rafailov križ", opis: "U muzeju je izložen drveni križ visok osamdesetak centimetara, na kojem je monah Rafail iglom izrezbario 104 prizora sa 650 sitnih likova. Radio je dvanaest godina, do 1802., i pritom izgubio vid." },
-        { ime: "Stara kuhinja", opis: "Kroz sve katove sjevernog krila diže se dimnjak visok dvadesetak metara, nalik unutrašnjosti piramide. Kotlovi su toliki da se u njima kuhalo za tisuće hodočasnika." },
-        { ime: "Sedam rilskih jezera", opis: "Ledenjačka jezera leže jedno iznad drugoga na visini od 2100 do 2500 metara i nose imena po obliku: Suza, Oko, Bubreg, Blizanac. Do njih se stiže sjedežnicom s druge strane planine, pa je to zaseban cjelodnevni izlet." }
+        { ime: "Church of the Nativity of the Virgin", opis: "The outer porch is painted with vivid scenes of the Last Judgment, in which devils lead away misers, perjurers and women who visit fortune-tellers. Inside is a gilded iconostasis ten meters wide, and the heart of Tsar Boris III is buried in the church." },
+        { ime: "Hrelyo's Tower", opis: "The defensive tower of 1335 is the only thing that survived the fire. At the top is a small chapel with frescoes from the 14th century." },
+        { ime: "Rafail's Cross", opis: "The museum displays a wooden cross about eighty centimeters tall, on which the monk Rafail used a needle to carve 104 scenes with 650 tiny figures. He worked on it for twelve years, until 1802, and lost his sight in the process." },
+        { ime: "The old kitchen", opis: "A chimney about twenty meters tall, resembling the inside of a pyramid, rises through all the floors of the north wing. The cauldrons are so large that food was cooked in them for thousands of pilgrims." },
+        { ime: "The Seven Rila Lakes", opis: "The glacial lakes lie one above the other at altitudes of 2,100 to 2,500 meters and are named for their shapes: the Tear, the Eye, the Kidney, the Twin. They are reached by chairlift from the other side of the mountain, so this is a separate full-day trip." }
       ],
       jesti: [
-        { ime: "Samostanske mekice", opis: "Pekarnica iza samostanskih zidina prodaje vruće pržene pogačice sa šećerom u prahu, po koje se uvijek čeka u redu." },
-        { ime: "Grah po samostanski", opis: "Gusta posna juha od graha s metvicom kuha se u restoranima uz rijeku." },
-        { ime: "Pastrva", opis: "Peče se na žaru u gostionicama uz Rilsku rijeku, odmah iza samostana." }
+        { ime: "Monastery mekitsi", opis: "The bakery behind the monastery walls sells hot fried dough rounds with powdered sugar, and there is always a line for them." },
+        { ime: "Monastery-style beans", opis: "A thick meatless bean soup with mint is cooked in the restaurants along the river." },
+        { ime: "Trout", opis: "It is grilled in the inns along the Rila River, right behind the monastery." }
       ],
       dozivjeti: [
-        { ime: "Špilja svetog Ivana Rilskog", opis: "Četiri kilometra iznad samostana staza kroz šumu vodi do pustinjakove špilje i groba. Predaja kaže da se kroz uski otvor na njezinu vrhu mogu provući samo oni čista srca." },
-        { ime: "Noćenje u samostanu", opis: "Samostan iznajmljuje jednostavne sobe u bivšim monaškim ćelijama, pa dvorište možete doživjeti u tišini nakon odlaska autobusa.", link: "https://rilskimanastir.org/" },
-        { ime: "Pješačenje nacionalnim parkom", opis: "Označene staze vode od samostana do planinarskih domova i jezera, kroz šume smreke i endemskog bora.", link: "https://rilanationalpark.bg/" }
+        { ime: "The cave of St. John of Rila", opis: "Four kilometers above the monastery, a trail through the forest leads to the hermit's cave and grave. Tradition says that only the pure of heart can squeeze through the narrow opening at its top." },
+        { ime: "A night in the monastery", opis: "The monastery rents out simple rooms in the former monks' cells, so you can experience the courtyard in silence after the buses have left.", link: "https://rilskimanastir.org/" },
+        { ime: "Hiking in the national park", opis: "Marked trails lead from the monastery to mountain huts and lakes, through forests of spruce and an endemic pine.", link: "https://rilanationalpark.bg/" }
       ],
       agencije: [
-        { ime: "Rilski samostan", opis: "Službena stranica samostana s informacijama o posjetu, muzeju i smještaju.", link: "https://rilskimanastir.org/" },
-        { ime: "Nacionalni park Rila", opis: "Uprava parka s kartama staza i pravilima.", link: "https://rilanationalpark.bg/" }
+        { ime: "Rila Monastery", opis: "The official website of the monastery, with information about visits, the museum and accommodation.", link: "https://rilskimanastir.org/" },
+        { ime: "Rila National Park", opis: "The park administration, with trail maps and regulations.", link: "https://rilanationalpark.bg/" }
       ],
-      kada: "Od svibnja do listopada. Iz Sofije je dva sata vožnje, pa krenite rano kako biste stigle prije izletničkih autobusa, a u crkvu uđite pokrivenih ramena i koljena."
+      kada: "From May to October. It is a two-hour drive from Sofia, so set off early to arrive ahead of the tour buses, and enter the church with your shoulders and knees covered."
     },
     {
       id: "veliko-tarnovo",
-      ime: "Veliko Trnovo",
+      ime: "Veliko Tarnovo",
       vrsta: "grad",
-      sazetak: "Srednjovjekovna prijestolnica bugarskih careva, čije kuće vise jedna nad drugom iznad zavoja rijeke Jantre.",
+      sazetak: "The medieval capital of the Bulgarian tsars, whose houses hang one above another over the bends of the Yantra River.",
       prica: [
-        "Braća Asen i Petar podigla su 1185. ustanak protiv Bizanta i učinila Trnovo prijestolnicom Drugog bugarskog carstva, koje je trajalo do osmanskog osvajanja 1393. godine. U vrijeme najveće moći grad su zvali trećim Rimom.",
-        "U crkvi Svetih četrdeset mučenika 1908. proglašena je puna neovisnost Bugarske, a u istom je gradu 1879. donesen prvi ustav. Ovdje je 1236., vraćajući se s hodočašća, umro i prvotno bio pokopan sveti Sava."
+        "In 1185 the brothers Asen and Peter led an uprising against Byzantium and made Tarnovo the capital of the Second Bulgarian Empire, which lasted until the Ottoman conquest of 1393. At the height of its power the city was called the third Rome.",
+        "In the Church of the Holy Forty Martyrs the full independence of Bulgaria was proclaimed in 1908, and the first constitution was adopted in the same city in 1879. It was also here that Saint Sava died in 1236, on his way back from a pilgrimage, and was first buried."
       ],
       vidjeti: [
-        { ime: "Tvrđava Carevec", opis: "Na brdu okruženom rijekom stajale su carska palača i patrijaršija. Crkva na vrhu obnovljena je 1981., a iznutra je oslikana modernim, tamnim freskama koje mnoge iznenade. Na jugoistočnom kraju stoji Balduinova kula, u kojoj je prema predaji umro zarobljeni latinski car Balduin Flandrijski." },
-        { ime: "Crkva Svetih četrdeset mučenika", opis: "Car Ivan Asen II. podigao ju je 1230. nakon pobjede kod Klokotnice i u nju postavio stup s natpisom o svojim osvajanjima, koji i danas stoji. Ovdje je pronađen i grob cara Kalojana sa zlatnim prstenom." },
-        { ime: "Samovodska čaršija", opis: "U obrtničkoj ulici iz 19. stoljeća rade lončar, kovač, rezbar i slastičar koji kuha šećerne pjetliće. Radionice su otvorene, pa možete gledati izradu." },
-        { ime: "Spomenik Asenovcima", opis: "Četiri cara na konjima okružuju golemi mač zaboden u nebo, na poluotoku u zavoju Jantre. Odavde je najbolji pogled na kuće naslagane po padini." },
-        { ime: "Arbanasi", opis: "Selo na visoravni iznad grada ima kamene kuće nalik utvrdama i crkve koje izvana izgledaju kao žitnice. U crkvi Rođenja Kristova svaki je centimetar zida oslikan, a u predvorju potražite Kolo života s dobima čovjekova vijeka." }
+        { ime: "Tsarevets Fortress", opis: "The royal palace and the patriarchate stood on a hill encircled by the river. The church at the top was rebuilt in 1981, and its interior is painted with modern, dark frescoes that surprise many visitors. At the southeastern end stands Baldwin's Tower, where, according to tradition, the captive Latin emperor Baldwin of Flanders died." },
+        { ime: "Church of the Holy Forty Martyrs", opis: "Tsar Ivan Asen II raised it in 1230 after his victory at Klokotnitsa and set up in it a column inscribed with his conquests, which still stands today. The grave of Tsar Kaloyan, with a gold ring, was also found here." },
+        { ime: "Samovodska Charshia", opis: "On this craftsmen's street from the 19th century you will find a potter, a blacksmith, a woodcarver and a confectioner who makes sugar roosters. The workshops are open, so you can watch things being made." },
+        { ime: "Monument to the Asen dynasty", opis: "Four tsars on horseback surround a gigantic sword thrust toward the sky, on a peninsula in a bend of the Yantra. From here you get the best view of the houses stacked up the slope." },
+        { ime: "Arbanasi", opis: "The village on the plateau above the city has stone houses that resemble fortresses and churches that look like granaries from the outside. In the Church of the Nativity of Christ every centimeter of wall is painted, and in the vestibule you should look for the Wheel of Life with the ages of a human lifetime." }
       ],
       jesti: [
-        { ime: "Elenski but", opis: "Sušeni svinjski but iz planinskog gradića Elene suši se na vjetru bez dima i reže tanko poput pršuta." },
-        { ime: "Sač", opis: "Meso i povrće peku se i poslužuju na vreloj glinenoj ploči, koja na stol stiže cvrčeći." },
-        { ime: "Vino iz Ljaskovca", opis: "Susjedni gradić poznat je po podrumima i pjenušcima, koji se kušaju u starim vinarijama." }
+        { ime: "Elenski but", opis: "A cured pork leg from the mountain town of Elena, dried in the wind without smoke and sliced as thin as prosciutto." },
+        { ime: "Sach", opis: "Meat and vegetables are cooked and served on a scorching clay plate that arrives at the table sizzling." },
+        { ime: "Wine from Lyaskovets", opis: "The neighboring town is known for its cellars and sparkling wines, which can be tasted in the old wineries." }
       ],
       dozivjeti: [
-        { ime: "Zvuk i svjetlo", opis: "Navečer se tvrđava obasja laserima i reflektorima uz glazbu i zvona, u predstavi koja pripovijeda povijest carstva. Najbolje se vidi s trga pred ulazom.", link: "https://velikoturnovo.info/" },
-        { ime: "Ulica Gurko", opis: "Najslikovitija ulica starog grada vijuga nad rijekom između kuća s drvenim balkonima punima cvijeća." },
-        { ime: "Preobraženski samostan", opis: "Nekoliko kilometara sjeverno, pod liticom, stoji samostan s freskom Kola života Zaharija Zografa na vanjskom zidu crkve." }
+        { ime: "Sound and Light", opis: "In the evening the fortress is lit up by lasers and floodlights to music and bells, in a show that tells the history of the empire. It is best seen from the square in front of the entrance.", link: "https://velikoturnovo.info/" },
+        { ime: "Gurko Street", opis: "The most picturesque street of the old town winds above the river between houses with wooden balconies full of flowers." },
+        { ime: "Preobrazhenski Monastery", opis: "A few kilometers to the north, beneath a cliff, stands a monastery with a Wheel of Life fresco by Zahari Zograf on the outer wall of the church." }
       ],
       agencije: [
-        { ime: "Posjeti Veliko Trnovo", opis: "Općinski turistički portal s kalendarom događanja i terminima predstave na tvrđavi.", link: "https://velikoturnovo.info/" },
-        { ime: "Regionalni povijesni muzej", opis: "Muzej koji upravlja tvrđavom, crkvama i muzejima u gradu i Arbanasima.", link: "https://www.museumvt.com/" }
+        { ime: "Visit Veliko Tarnovo", opis: "The municipal tourism portal, with a calendar of events and the dates of the show at the fortress.", link: "https://velikoturnovo.info/" },
+        { ime: "Regional Museum of History", opis: "The museum that manages the fortress, the churches and the museums in the city and in Arbanasi.", link: "https://www.museumvt.com/" }
       ],
-      kada: "Svibanj, lipanj i rujan. Grad je strm, pa računajte na mnogo stuba, a Arbanase obiđite taksijem ili automobilom."
+      kada: "May, June and September. The city is steep, so expect a lot of steps, and visit Arbanasi by taxi or car."
     },
     {
       id: "nesebar",
-      ime: "Nesebar",
+      ime: "Nessebar",
       vrsta: "gradić",
-      sazetak: "Stari grad na poluotočiću u Crnom moru, s bizantskim crkvama od prugaste opeke i drvenim kućama nadvijenima nad ulice.",
+      sazetak: "An old town on a small peninsula in the Black Sea, with Byzantine churches of striped brick and wooden houses leaning out over the streets.",
       prica: [
-        "Tračko naselje Mesembrija preuzeli su krajem šestog stoljeća prije Krista grčki kolonisti, a u srednjem vijeku grad je naizmjence bio bizantski i bugarski. Bogati stanovnici gradili su crkve kao zavjetne darove, pa ih je na komadiću zemlje dugom 850 metara zabilježeno četrdesetak.",
-        "U 19. stoljeću nastale su crnomorske kuće s kamenim prizemljem i drvenim katom. UNESCO je Nesebar zaštitio 1983., a odmah do njega izraslo je golemo ljetovalište Sunčana obala, pa je stari grad ljeti pun."
+        "The Thracian settlement of Mesembria was taken over by Greek colonists at the end of the sixth century BC, and in the Middle Ages the town was by turns Byzantine and Bulgarian. Its wealthy residents built churches as votive gifts, so that about forty of them have been recorded on a scrap of land 850 meters long.",
+        "The 19th century brought the Black Sea houses with a stone ground floor and a wooden upper story. UNESCO placed Nessebar under protection in 1983, and right next to it the huge resort of Sunny Beach has grown up, so the old town is crowded in summer."
       ],
       vidjeti: [
-        { ime: "Crkva Krista Pantokratora", opis: "Sagrađena u 13. i 14. stoljeću, najbolje pokazuje ukrasni stil grada: redove bijelog kamena i crvene opeke, slijepe lukove i zelene keramičke čašice utisnute u žbuku. Na istočnom zidu potražite friz od kukastih križeva, drevnog simbola sunca." },
-        { ime: "Stara mitropolija", opis: "Bazilika Svete Sofije iz petog i šestog stoljeća stoji bez krova usred grada, s lukovima kroz koje se vidi nebo. Bila je sjedište biskupa i središte antičkog trga." },
-        { ime: "Crkva svetog Stjepana", opis: "Nova mitropolija čuva freske iz 1599. s više od tisuću likova te izrezbarenu biskupsku stolicu i propovjedaonicu." },
-        { ime: "Sveti Ivan Neposvećeni", opis: "Najljepša crkva po položaju, na obali nad lukom, prema predaji nikada nije posvećena, a oštetio ju je potres 1913. godine." },
-        { ime: "Vjetrenjača na prevlaci", opis: "Drveni mlin na uskom nasipu koji spaja stari grad s kopnom najfotografiraniji je motiv Nesebra. Uz njega su ostaci gradskih vrata i zidina iz tračkog i bizantskog doba." }
+        { ime: "Church of Christ Pantocrator", opis: "Built in the 13th and 14th centuries, it is the best showcase of the town's decorative style: courses of white stone and red brick, blind arches and little green ceramic cups pressed into the plaster. On the east wall, look for a frieze of swastikas, an ancient symbol of the sun." },
+        { ime: "The Old Metropolitan Church", opis: "The Basilica of St. Sophia, from the fifth and sixth centuries, stands roofless in the middle of town, with arches through which you can see the sky. It was the seat of the bishop and the center of the ancient square." },
+        { ime: "Church of St. Stephen", opis: "The New Metropolitan Church preserves frescoes from 1599 with more than a thousand figures, as well as a carved bishop's throne and pulpit." },
+        { ime: "St. John Aliturgetos", opis: "The most beautifully sited of the churches, on the shore above the harbor, was according to tradition never consecrated, and it was damaged by the earthquake of 1913." },
+        { ime: "The windmill on the isthmus", opis: "The wooden mill on the narrow causeway linking the old town to the mainland is the most photographed sight in Nessebar. Beside it are the remains of the town gate and walls from Thracian and Byzantine times." }
       ],
       jesti: [
-        { ime: "Caca", opis: "Sitne pržene papaline jedu se cijele, uz hladno pivo, kao grickalica." },
-        { ime: "Dagnje i rapani", opis: "Dagnje s rižom i morski puževi rapani na maslacu poslužuju se u restoranima na zidinama." },
-        { ime: "Slatko od smokava", opis: "Zelene smokve ukuhane u sirupu prodaju bake na pragovima starih kuća." }
+        { ime: "Tsatsa", opis: "Tiny fried sprats are eaten whole, with a cold beer, as a snack." },
+        { ime: "Mussels and rapana", opis: "Mussels with rice and rapana sea snails in butter are served in the restaurants on the walls." },
+        { ime: "Fig preserve", opis: "Green figs cooked in syrup are sold by grandmothers on the doorsteps of the old houses." }
       ],
       dozivjeti: [
-        { ime: "Jutarnja šetnja prije gužve", opis: "Između sedam i devet ujutro ulice su prazne, svjetlo je meko, a ribari krpaju mreže u luci." },
-        { ime: "Arheološki muzej", opis: "Na ulazu u stari grad izloženi su tračko zlato, kamena sidra i ikone, što daje okvir svemu što ćete vidjeti.", link: "https://ancient-nessebar.com/" },
-        { ime: "Izlet u Sozopol", opis: "Sat vožnje južno, preko Burgasa, leži antička Apolonija, mirnija i s ljepšim plažama, s istim drvenim kućama." }
+        { ime: "A morning walk before the crowds", opis: "Between seven and nine in the morning the streets are empty, the light is soft and the fishermen are mending their nets in the harbor." },
+        { ime: "Archaeological Museum", opis: "At the entrance to the old town, Thracian gold, stone anchors and icons are on display, which gives a framework for everything you are about to see.", link: "https://ancient-nessebar.com/" },
+        { ime: "A trip to Sozopol", opis: "An hour's drive south, by way of Burgas, lies ancient Apollonia, which is quieter and has finer beaches, along with the same wooden houses." }
       ],
       agencije: [
-        { ime: "Visit Nessebar", opis: "Turistički portal općine Nesebar.", link: "https://visitnessebar.org/homepage/" },
-        { ime: "Muzej Stari Nesebar", opis: "Ustanova koja upravlja crkvama i muzejima te prodaje zajedničke ulaznice.", link: "https://ancient-nessebar.com/" }
+        { ime: "Visit Nessebar", opis: "The tourism portal of the municipality of Nessebar.", link: "https://visitnessebar.org/homepage/" },
+        { ime: "Ancient Nessebar Museum", opis: "The institution that manages the churches and museums and sells combined tickets.", link: "https://ancient-nessebar.com/" }
       ],
-      kada: "Lipanj i rujan. U srpnju i kolovozu dođite rano ujutro ili predvečer, kada se izletnici sa Sunčane obale vrate u hotele."
+      kada: "June and September. In July and August, come early in the morning or toward evening, when the day-trippers from Sunny Beach have gone back to their hotels."
     }
   ],
   izvori: [
-    { ime: "Visit Bulgaria, službeni turistički portal", url: "https://visitbulgaria.com/" },
+    { ime: "Visit Bulgaria, official tourism portal", url: "https://visitbulgaria.com/" },
     { ime: "Visit Sofia", url: "https://www.visitsofia.bg/" },
-    { ime: "UNESCO, popis svjetske baštine: Bugarska", url: "https://whc.unesco.org/en/statesparties/bg" },
-    { ime: "Bojanska crkva", url: "https://boyanachurch.org/" },
+    { ime: "UNESCO World Heritage List: Bulgaria", url: "https://whc.unesco.org/en/statesparties/bg" },
+    { ime: "Boyana Church", url: "https://boyanachurch.org/" },
     { ime: "Visit Plovdiv", url: "https://www.visitplovdiv.com/" },
-    { ime: "Rilski samostan", url: "https://rilskimanastir.org/" },
-    { ime: "Posjeti Veliko Trnovo", url: "https://velikoturnovo.info/" },
-    { ime: "Muzej Stari Nesebar", url: "https://ancient-nessebar.com/" },
-    { ime: "Festival Surva, Pernik", url: "https://surva.org/" },
-    { ime: "Europska komisija: Bugarska uvodi euro 1. siječnja 2026.", url: "https://trade.ec.europa.eu/access-to-markets/en/news/bulgaria-adopts-euro-1-january-2026" }
+    { ime: "Rila Monastery", url: "https://rilskimanastir.org/" },
+    { ime: "Visit Veliko Tarnovo", url: "https://velikoturnovo.info/" },
+    { ime: "Ancient Nessebar Museum", url: "https://ancient-nessebar.com/" },
+    { ime: "Surva Festival, Pernik", url: "https://surva.org/" },
+    { ime: "European Commission: Bulgaria adopts the euro on 1 January 2026", url: "https://trade.ec.europa.eu/access-to-markets/en/news/bulgaria-adopts-euro-1-january-2026" }
   ]
 };

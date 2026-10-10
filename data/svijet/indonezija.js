@@ -1,304 +1,304 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["indonezija"] = {
   id: "indonezija",
-  ime: "Indonezija",
-  regija: "Jugoistočna Azija",
-  sazetak: "Najveći arhipelag na svijetu, gdje se u jednom putovanju stane pred najveći budistički hram, pred vulkan koji se dimi i pred živog zmaja.",
+  ime: "Indonesia",
+  regija: "Southeast Asia",
+  sazetak: "The largest archipelago in the world, where a single trip brings you face to face with the biggest Buddhist temple, a smoking volcano and a living dragon.",
   uvod: [
-    "Indonezija se sastoji od više od 17.000 otoka rasutih duž ekvatora na udaljenosti kao od Lisabona do Urala. S oko 280 milijuna stanovnika četvrta je najmnogoljudnija zemlja svijeta i država s najviše muslimana, ali na njezinim otocima žive i hinduisti, kršćani i budisti, koji govore više od 700 jezika. Državno geslo zato glasi Bhinneka Tunggal Ika, „jedinstvo u različitosti“.",
-    "Na Javi i Sumatri stoljećima su cvjetala hinduistička i budistička kraljevstva, koja su ostavila Borobudur i Prambanan. Islam su od 13. stoljeća donosili trgovci, a posljednje veliko hinduističko carstvo, Majapahit, ugasilo se potkraj 15. stoljeća. Njegovo je nasljeđe preživjelo na Baliju. Zbog klinčića i muškatnog oraščića stigli su Europljani, a nizozemska Istočnoindijska kompanija i poslije nizozemska država vladale su otočjem oko 350 godina. Neovisnost su 17. kolovoza 1945. proglasili Sukarno i Mohammad Hatta.",
-    "Zemlja leži na Vatrenom prstenu i ima oko 130 aktivnih vulkana, više nego ijedna druga. Vulkani su prijetnja, ali i razlog zašto je tlo Jave i Balija toliko plodno da se riža bere dva do tri puta godišnje."
+    "Indonesia is made up of more than 17,000 islands scattered along the equator across a distance like that from Lisbon to the Urals. With about 280 million people it is the fourth most populous country in the world and the country with the most Muslims, but its islands are also home to Hindus, Christians and Buddhists, who speak more than 700 languages. That is why the national motto is Bhinneka Tunggal Ika, “unity in diversity”.",
+    "For centuries Hindu and Buddhist kingdoms flourished on Java and Sumatra, leaving behind Borobudur and Prambanan. Islam was brought by traders from the 13th century on, and the last great Hindu empire, Majapahit, faded away toward the end of the 15th century. Its legacy survived on Bali. Europeans came for cloves and nutmeg, and the Dutch East India Company and later the Dutch state ruled the archipelago for about 350 years. Independence was proclaimed on August 17, 1945, by Sukarno and Mohammad Hatta.",
+    "The country lies on the Ring of Fire and has about 130 active volcanoes, more than any other. The volcanoes are a threat, but they are also the reason the soil of Java and Bali is so fertile that rice is harvested two to three times a year."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suha sezona na Javi, Baliju, Lomboku i Komodu traje od svibnja do listopada. Srpanj i kolovoz najskuplji su i najprometniji, pa su svibanj, lipanj i rujan najbolji izbor." },
-    { k: "Valuta", v: "Indonezijska rupija (IDR), s mnogo nula. Bankomati su česti u gradovima i na Baliju, a na manjim otocima treba imati gotovinu. Bali naplaćuje turističku pristojbu svim stranim posjetiteljima, koja se plaća putem službenog sustava Love Bali." },
-    { k: "Kretanje", v: "Između otoka se leti ili plovi brzim brodovima. Java ima dobru željeznicu, pa je vlak od Jakarte do Yogyakarte ugodan način putovanja. U gradovima se vozači automobila i mopeda naručuju aplikacijama Gojek i Grab." },
-    { k: "Napojnica", v: "Nije obvezna. Restorani često već dodaju uslugu na račun, a vozačima, vodičima i nosačima na planinskim turama napojnica se daje i cijeni." }
+    { k: "When to go", v: "The dry season on Java, Bali, Lombok and Komodo lasts from May to October. July and August are the most expensive and the busiest, so May, June and September are the best choice." },
+    { k: "Currency", v: "The Indonesian rupiah (IDR), with a lot of zeros. ATMs are common in the cities and on Bali, while on smaller islands you need to carry cash. Bali charges all foreign visitors a tourist levy, which is paid through the official Love Bali system." },
+    { k: "Getting around", v: "Between islands you fly or take fast boats. Java has a good railway, so the train from Jakarta to Yogyakarta is a pleasant way to travel. In the cities, car and scooter drivers are booked through the Gojek and Grab apps." },
+    { k: "Tipping", v: "It is not required. Restaurants often already add service to the bill, while drivers, guides and porters on mountain treks are tipped and appreciate it." }
   ],
   hrana: [
-    { ime: "Nasi goreng", opis: "Pržena riža sa slatkim soja umakom kecap manis, ljutikom i češnjakom, često s pečenim jajetom i krekerima od kozica.", prica: "Nastala je kao način da se iskoristi riža od prethodnog dana, pa se tradicionalno jede za doručak. Tamnu boju i slatkast okus daje joj gusti soja umak s palminim šećerom, po kojem se razlikuje od kineske pržene riže." },
-    { ime: "Rendang", opis: "Govedina kuhana satima u kokosovu mlijeku i začinima dok tekućina ne ispari, a meso ne potamni i ne upije sav umak.", prica: "Jelo je naroda Minangkabau sa zapadne Sumatre, koji ga pripremaju za svadbe i blagdane. Dugo kuhanje nekoć je služilo i kao konzerviranje, pa je rendang bez hladnjaka mogao trajati tjednima. Jede se u restoranima padang, gdje konobar na stol složi dvadesetak tanjurića, a plaća se samo ono što se pojede." },
-    { ime: "Sate", opis: "Mali ražnjići od piletine, kozletine ili govedine pečeni na žaru od kokosovih ljuski, s umakom od kikirikija ili slatkim soja umakom.", prica: "Smatra se da je nastao na Javi u 19. stoljeću pod utjecajem arapskih i indijskih trgovaca i njihova ćevapa. Svaki kraj ima svoju inačicu: s Madure dolazi sate s umakom od kikirikija, a na Baliju se mljeveno meso omata oko stabljike limunske trave." },
-    { ime: "Gado-gado", opis: "Salata od kuhanog povrća, tofua, tempeha, krumpira i tvrdo kuhanog jajeta, prelivena gustim toplim umakom od kikirikija.", prica: "Ime znači otprilike „miš-maš“. Na ulici prodavač umak tuče pred vama na plosnatom kamenu, pa možete reći koliko čilija želite. Dobar je izbor za vegetarijanke, uz napomenu da umak ponekad sadrži pastu od kozica." },
-    { ime: "Soto", opis: "Začinjena juha s piletinom ili govedinom, rezancima ili rižom, žuta od kurkume ili bijela od kokosova mlijeka.", prica: "Gotovo svaki grad ima vlastiti soto i u njega se kune. U Jakarti je to soto Betawi s mlijekom, na istoku Jave tamni rawon, a na Lomboku i Baliju bistrija inačica. Uz juhu se dodaju limeta, sambal i slatki soja umak po ukusu." },
-    { ime: "Tempeh", opis: "Čvrsta pogača od cijelih zrna soje fermentiranih plemenitom plijesni, koja se reže i prži.", prica: "Potječe s Jave, gdje se spominje već u rukopisu Serat Centhini s početka 19. stoljeća, i jedina je velika tradicionalna namirnica od soje koja nije nastala u Kini ili Japanu. Orašastog je okusa i mnogo čvršći od tofua." },
-    { ime: "Bakso", opis: "Juha s gumastim mesnim okruglicama, rezancima, tofuom i prženim lukom, najomiljenija ulična hrana u zemlji.", prica: "Prodavači guraju kolica i udaraju žlicom o zdjelu, a taj se zvuk čuje u svakoj ulici predvečer. Barack Obama, koji je dio djetinjstva proveo u Jakarti, spomenuo ga je kao jelo koje mu je nedostajalo." },
-    { ime: "Sambal", opis: "Umak od tučenih čilija, češnjaka, ljutike i paste od kozica, koji stoji na svakom stolu.", prica: "Postoje stotine vrsta. Balijski sambal matah radi se od sirove ljutike i limunske trave s kokosovim uljem, a javanski sambal terasi od pečene paste od kozica. Kušajte na vrhu vilice prije nego što ga pomiješate s rižom." },
-    { ime: "Kopi", opis: "Indonezijska kava, najčešće kopi tubruk: mljevena kava prelivena kipućom vodom izravno u čaši, bez cijeđenja.", prica: "Nizozemci su kavu zasadili na Javi potkraj 17. stoljeća, pa je riječ java u engleskom postala sinonim za kavu. Čuveni kopi luwak dobiva se od zrna koja je pojela i izbacila cibetka, ali se životinje danas često drže u kavezima, pa mnogi putnici tu kavu svjesno preskaču." }
+    { ime: "Nasi goreng", opis: "Fried rice with the sweet soy sauce kecap manis, shallots and garlic, often with a fried egg and shrimp crackers.", prica: "It began as a way to use up rice from the day before, so it is traditionally eaten for breakfast. Its dark color and sweetish taste come from a thick soy sauce with palm sugar, which sets it apart from Chinese fried rice." },
+    { ime: "Rendang", opis: "Beef simmered for hours in coconut milk and spices until the liquid evaporates and the meat darkens and soaks up all the sauce.", prica: "It is a dish of the Minangkabau people of West Sumatra, who prepare it for weddings and holidays. The long cooking once also served as a way of preserving it, so rendang could last for weeks without a refrigerator. It is eaten in padang restaurants, where the waiter stacks some twenty little plates on the table and you pay only for what you eat." },
+    { ime: "Sate", opis: "Small skewers of chicken, goat or beef grilled over coconut-shell charcoal, with peanut sauce or sweet soy sauce.", prica: "It is thought to have originated on Java in the 19th century under the influence of Arab and Indian traders and their kebab. Every region has its own version: from Madura comes sate with peanut sauce, and on Bali ground meat is wrapped around a stalk of lemongrass." },
+    { ime: "Gado-gado", opis: "A salad of boiled vegetables, tofu, tempeh, potatoes and hard-boiled egg, dressed with a thick, warm peanut sauce.", prica: "The name means roughly “mishmash”. On the street the vendor pounds the sauce in front of you on a flat stone, so you can say how much chili you want. It is a good choice for vegetarians, with the caveat that the sauce sometimes contains shrimp paste." },
+    { ime: "Soto", opis: "A spiced soup with chicken or beef and noodles or rice, yellow from turmeric or white from coconut milk.", prica: "Almost every city has its own soto and swears by it. In Jakarta it is soto Betawi with milk, in East Java the dark rawon, and on Lombok and Bali a clearer version. Lime, sambal and sweet soy sauce are added to the soup to taste." },
+    { ime: "Tempeh", opis: "A firm cake of whole soybeans fermented with a noble mold, which is sliced and fried.", prica: "It comes from Java, where it is mentioned as early as the Serat Centhini manuscript from the beginning of the 19th century, and it is the only major traditional soy food that did not originate in China or Japan. It has a nutty flavor and is much firmer than tofu." },
+    { ime: "Bakso", opis: "A soup with springy meatballs, noodles, tofu and fried shallots, the country's best-loved street food.", prica: "Vendors push their carts and tap a spoon against a bowl, a sound you hear on every street toward evening. Barack Obama, who spent part of his childhood in Jakarta, mentioned it as a dish he had missed." },
+    { ime: "Sambal", opis: "A sauce of pounded chilies, garlic, shallots and shrimp paste that sits on every table.", prica: "There are hundreds of kinds. Balinese sambal matah is made from raw shallots and lemongrass with coconut oil, and Javanese sambal terasi from roasted shrimp paste. Taste it on the tip of your fork before you mix it into your rice." },
+    { ime: "Kopi", opis: "Indonesian coffee, most often kopi tubruk: ground coffee with boiling water poured over it right in the glass, unstrained.", prica: "The Dutch planted coffee on Java toward the end of the 17th century, which is why the word java became a synonym for coffee in English. The famous kopi luwak is made from beans that a civet has eaten and passed, but today the animals are often kept in cages, so many travelers deliberately skip that coffee." }
   ],
   obicaji: [
-    { ime: "Batik", opis: "Tehnika ukrašavanja tkanine u kojoj se uzorak crta vrućim voskom, a tkanina zatim boji, pri čemu dijelovi pod voskom ostaju neobojeni. Postupak se ponavlja za svaku boju i može trajati mjesecima. Neki su uzorci nekoć bili rezervirani samo za sultansku obitelj. UNESCO je batik uvrstio na popis nematerijalne baštine 2009. godine.", gdje: "U Yogyakarti i Solu, gdje radionice primaju posjetitelje i nude kratke tečajeve. Petkom mnogi Indonežani nose batik košulje na posao." },
-    { ime: "Wayang kulit", opis: "Kazalište sjena u kojem jedan lutkar, dalang, cijelu noć pokreće desetke plosnatih lutaka od bivolje kože, daje im glasove i ravna orkestrom. Priče potječu iz indijskih epova Ramayane i Mahabharate, uz domaće šaljivce koji komentiraju aktualna zbivanja.", gdje: "U muzeju Sonobudoyo u Yogyakarti održavaju se skraćene večernje predstave, a možete sjesti i iza platna i gledati lutkara na djelu." },
-    { ime: "Gamelan", opis: "Orkestar brončanih gongova, metalofona i bubnjeva čiji treperavi zvuk prati plesove, kazalište sjena i hramske svečanosti. Glazbala se ugađaju zajedno i čine jednu cjelinu, pa se ne mogu miješati s glazbalima drugog orkestra. Javanski gamelan je spor i meditativan, a balijski brz i blistav.", gdje: "U sultanovoj palači u Yogyakarti i na svakoj hramskoj svečanosti na Baliju." },
-    { ime: "Canang sari", opis: "Male košarice od palmina lišća s cvijećem, rižom i mirisnim štapićem koje Balijke svakog jutra polažu pred kuće, trgovine, na raskrižja i u automobile. To je svakodnevna zahvala bogovima, a boje cvjetova raspoređene su prema stranama svijeta.", gdje: "Posvuda na Baliju, već od zore. Pazite da ih ne nagazite dok se dim štapića još diže." },
-    { ime: "Nyepi", opis: "Balijska Nova godina dan je potpune tišine: nitko ne izlazi iz kuće, ne pali se svjetlo ni vatra, a zatvara se i zračna luka. Večer prije selima prolaze povorke s golemim čudovištima od bambusa i papira, ogoh-ogoh, koja se na kraju spaljuju kako bi se otjerali zli duhovi.", gdje: "Na cijelom Baliju, obično u ožujku. Gosti hotela taj dan ne smiju napuštati hotelski posjed." },
-    { ime: "Kecak", opis: "Ples u kojem zbor od pedesetak i više muškaraca sjedi u krugovima i ritmično izvikuje „čak-čak-čak“, bez ijednog glazbala, dok plesači u sredini izvode prizore iz Ramayane. Današnji oblik nastao je tridesetih godina 20. stoljeća iz starog obrednog transa, u suradnji balijskog plesača Wayana Limbaka i njemačkog slikara Waltera Spiesa.", gdje: "Svake večeri u zalazak sunca kod hrama Uluwatu, s morem u pozadini." },
-    { ime: "Jamu", opis: "Tradicionalni biljni napici od kurkume, đumbira, tamarinda i drugog korijenja, koje Indonežani piju za zdravlje i snagu. Prodavačice ih nose u bocama u košari na leđima. UNESCO je kulturu jamua uvrstio na popis nematerijalne baštine 2023. godine.", gdje: "Na tržnicama Yogyakarte i Sola ujutro, a žuti napitak kunyit asam od kurkume i tamarinda dobar je za početak." }
+    { ime: "Batik", opis: "A technique for decorating cloth in which the pattern is drawn in hot wax and the cloth is then dyed, with the parts under the wax staying undyed. The process is repeated for each color and can take months. Some patterns were once reserved for the sultan's family alone. UNESCO added batik to its list of intangible heritage in 2009.", gdje: "In Yogyakarta and Solo, where workshops welcome visitors and offer short courses. On Fridays many Indonesians wear batik shirts to work." },
+    { ime: "Wayang kulit", opis: "Shadow theater in which a single puppeteer, the dalang, spends the whole night moving dozens of flat puppets made of buffalo hide, giving them voices and conducting the orchestra. The stories come from the Indian epics Ramayana and Mahabharata, with local jesters who comment on current events.", gdje: "The Sonobudoyo Museum in Yogyakarta holds shortened evening performances, and you can also sit behind the screen and watch the puppeteer at work." },
+    { ime: "Gamelan", opis: "An orchestra of bronze gongs, metallophones and drums whose shimmering sound accompanies dances, shadow theater and temple ceremonies. The instruments are tuned together and form a single whole, so they cannot be mixed with the instruments of another orchestra. Javanese gamelan is slow and meditative, while Balinese gamelan is fast and dazzling.", gdje: "In the sultan's palace in Yogyakarta and at every temple ceremony on Bali." },
+    { ime: "Canang sari", opis: "Little palm-leaf baskets with flowers, rice and an incense stick, which Balinese women place every morning in front of houses and shops, at crossroads and in cars. It is a daily thanks to the gods, and the colors of the flowers are arranged according to the points of the compass.", gdje: "Everywhere on Bali, from dawn onward. Take care not to step on them while the smoke from the stick is still rising." },
+    { ime: "Nyepi", opis: "The Balinese New Year is a day of complete silence: nobody leaves the house, no light or fire is lit, and even the airport closes. The evening before, parades pass through the villages with enormous monsters of bamboo and paper, the ogoh-ogoh, which are burned at the end to drive away evil spirits.", gdje: "All over Bali, usually in March. Hotel guests may not leave the hotel grounds that day." },
+    { ime: "Kecak", opis: "A dance in which a chorus of fifty or more men sits in circles and rhythmically chants “chak-chak-chak”, without a single instrument, while dancers in the middle perform scenes from the Ramayana. Its present form emerged in the 1930s from an old trance ritual, through the collaboration of the Balinese dancer Wayan Limbak and the German painter Walter Spies.", gdje: "Every evening at sunset at Uluwatu temple, with the sea in the background." },
+    { ime: "Jamu", opis: "Traditional herbal drinks made from turmeric, ginger, tamarind and other roots, which Indonesians drink for health and strength. The women who sell them carry them in bottles in a basket on their backs. UNESCO added jamu culture to its list of intangible heritage in 2023.", gdje: "At the markets of Yogyakarta and Solo in the morning, and the yellow drink kunyit asam, made from turmeric and tamarind, is a good one to start with." }
   ],
   fraze: [
-    { izvorno: "Selamat pagi", izgovor: "se-LA-mat PA-gi", hr: "Dobro jutro" },
-    { izvorno: "Terima kasih", izgovor: "te-RI-ma KA-si", hr: "Hvala" },
-    { izvorno: "Sama-sama", izgovor: "SA-ma SA-ma", hr: "Nema na čemu" },
-    { izvorno: "Permisi / Maaf", izgovor: "per-MI-si / ma-AF", hr: "Oprostite, mogu li proći / Oprostite, žao mi je" },
-    { izvorno: "Ya / Tidak", izgovor: "JA / TI-dak", hr: "Da / Ne" },
-    { izvorno: "Berapa harganya?", izgovor: "be-RA-pa har-GA-nja", hr: "Koliko košta?" },
-    { izvorno: "Tidak pedas", izgovor: "TI-dak pe-DAS", hr: "Ne ljuto" },
-    { izvorno: "Enak sekali!", izgovor: "E-nak se-KA-li", hr: "Jako ukusno!" }
+    { izvorno: "Selamat pagi", izgovor: "suh-LAH-maht PAH-gee", hr: "Good morning" },
+    { izvorno: "Terima kasih", izgovor: "tuh-REE-mah KAH-see", hr: "Thank you" },
+    { izvorno: "Sama-sama", izgovor: "SAH-mah SAH-mah", hr: "You're welcome" },
+    { izvorno: "Permisi / Maaf", izgovor: "per-MEE-see / mah-AHF", hr: "Excuse me, may I get by / Excuse me, I'm sorry" },
+    { izvorno: "Ya / Tidak", izgovor: "YAH / TEE-dahk", hr: "Yes / No" },
+    { izvorno: "Berapa harganya?", izgovor: "buh-RAH-pah har-GAH-nyah", hr: "How much is it?" },
+    { izvorno: "Tidak pedas", izgovor: "TEE-dahk puh-DAHS", hr: "Not spicy" },
+    { izvorno: "Enak sekali!", izgovor: "EH-nahk suh-KAH-lee", hr: "Really delicious!" }
   ],
   zanimljivosti: [
-    "Komodski varan, najveći gušter na svijetu, živi u divljini samo na nekoliko indonezijskih otoka.",
-    "Erupcija vulkana Tambora 1815. godine bila je najjača u zabilježenoj povijesti i izazvala je „godinu bez ljeta“ u Europi 1816.",
-    "Balijci djeci daju imena prema redoslijedu rođenja: prvo dijete je Wayan ili Putu, drugo Made ili Kadek, treće Nyoman ili Komang, četvrto Ketut, a peto je opet Wayan.",
-    "Engleski prirodoslovac Alfred Russel Wallace uočio je da između Balija i Lomboka, udaljenih tek tridesetak kilometara, prolazi nevidljiva granica: zapadno žive azijske životinje, a istočno australske.",
-    "Indonezijski jezik, bahasa Indonesia, nema glagolska vremena ni rodove, a množina se često tvori ponavljanjem riječi, pa je „orang“ čovjek, a „orang-orang“ ljudi.",
-    "Riječ orangutan dolazi iz malajskog i znači „čovjek iz šume“.",
-    "Indonezija gradi novu prijestolnicu Nusantaru na otoku Borneu, među ostalim zato što sjeverni dijelovi Jakarte tonu i po više centimetara godišnje."
+    "The Komodo dragon, the largest lizard in the world, lives in the wild on only a handful of Indonesian islands.",
+    "The eruption of the Tambora volcano in 1815 was the most powerful in recorded history and caused the “year without a summer” in Europe in 1816.",
+    "The Balinese name their children by birth order: the first child is Wayan or Putu, the second Made or Kadek, the third Nyoman or Komang, the fourth Ketut, and the fifth is Wayan again.",
+    "The English naturalist Alfred Russel Wallace noticed that an invisible boundary runs between Bali and Lombok, which are only about thirty kilometers apart: Asian animals live to the west and Australian ones to the east.",
+    "The Indonesian language, bahasa Indonesia, has no verb tenses or genders, and the plural is often formed by repeating the word, so “orang” is a person and “orang-orang” is people.",
+    "The word orangutan comes from Malay and means “person of the forest”.",
+    "Indonesia is building a new capital, Nusantara, on the island of Borneo, partly because the northern parts of Jakarta are sinking by several centimeters a year."
   ],
   mjesta: [
     {
       id: "ubud",
       ime: "Bali: Ubud",
       vrsta: "gradić",
-      sazetak: "Umjetničko i duhovno srce Balija, među rižinim terasama, klancima i hramovima u kojima se još svaki dan prinose darovi.",
+      sazetak: "The artistic and spiritual heart of Bali, among rice terraces, ravines and temples where offerings are still made every day.",
       prica: [
-        "Predaja kaže da je u 8. stoljeću javanski svećenik Rsi Markandeya meditirao na sutoci dviju rijeka u Campuhanu i ondje osnovao hram. Okolne šume bile su poznate po ljekovitom bilju, pa ime Ubud dolazi od balijske riječi ubad, lijek.",
-        "Tridesetih godina 20. stoljeća ovdje su se nastanili njemački slikar Walter Spies i Nizozemac Rudolf Bonnet. Zajedno s mjesnim knezom Tjokordom Gde Agungom Sukawatijem osnovali su 1936. udrugu umjetnika Pita Maha, koja je balijske slikare potaknula da uz vjerske teme slikaju i svakodnevni život. Otad je Ubud mjesto galerija, plesa i rezbara."
+        "Tradition says that in the 8th century the Javanese priest Rsi Markandeya meditated at the confluence of two rivers in Campuhan and founded a temple there. The surrounding forests were known for medicinal herbs, so the name Ubud comes from the Balinese word ubad, medicine.",
+        "In the 1930s the German painter Walter Spies and the Dutchman Rudolf Bonnet settled here. Together with the local prince Tjokorda Gde Agung Sukawati, they founded the Pita Maha artists' association in 1936, which encouraged Balinese painters to paint everyday life alongside religious themes. Ever since, Ubud has been a place of galleries, dance and woodcarvers."
       ],
       vidjeti: [
-        { ime: "Puri Saren Agung, palača u Ubudu", opis: "Dom kneževske obitelji u samom središtu, obnovljen nakon potresa 1917. godine. Obitelj i danas živi u stražnjim dvorištima, a prednje, s bogato klesanim vratima, svake večeri postaje pozornica za ples legong." },
-        { ime: "Sveta šuma majmuna", opis: "U gustoj šumi s tri hrama iz 14. stoljeća živi više od tisuću dugorepih makakija. Za Balijce šuma utjelovljuje sklad ljudi, prirode i bogova. Skinite naočale i nakit i ne nosite hranu, jer majmuni vješto otvaraju i patentne zatvarače." },
-        { ime: "Rižine terase Tegallalang i sustav subak", opis: "Terase navodnjava subak, zadruga seljaka koja od 9. stoljeća dijeli vodu iz hramova na izvorima pravedno niz padinu. UNESCO je taj sustav 2012. upisao na popis svjetske baštine. Potražite male oltare na rubovima polja, posvećene božici riže Dewi Sri." },
-        { ime: "Tirta Empul", opis: "Hram nad svetim izvorom osnovan je 962. godine. Legenda kaže da je bog Indra ovdje probio zemlju da stvori vodu koja je oživjela njegove otrovane ratnike. Balijci dolaze na obredno čišćenje i redom se umivaju pod nizom mlazova. Mogu se pridružiti i posjetitelji, u sarongu i uz poštivanje reda." },
-        { ime: "Goa Gajah", opis: "Špilja iz 11. stoljeća u koju se ulazi kroz razjapljena usta isklesanog demona. Europljani su je opisali 1923., a kupalište sa ženskim kipovima koji izlijevaju vodu iz vrčeva otkopano je tek 1954. godine." },
-        { ime: "Gunung Kawi", opis: "U dolini rijeke Pakerisan u živu su stijenu u 11. stoljeću isklesana svetišta visoka sedam metara, u spomen na kralja i njegove žene. Do njih se silazi stubama kroz rižina polja, a legenda ih pripisuje divu koji ih je iskopao noktima u jednoj noći." }
+        { ime: "Puri Saren Agung, the Ubud Palace", opis: "The home of the princely family right in the center, rebuilt after the earthquake of 1917. The family still lives in the rear courtyards today, while the front one, with its richly carved gates, becomes a stage for legong dance every evening." },
+        { ime: "Sacred Monkey Forest", opis: "More than a thousand long-tailed macaques live in a dense forest with three temples from the 14th century. For the Balinese the forest embodies the harmony of people, nature and the gods. Take off your glasses and jewelry and carry no food, because the monkeys are skilled at opening zippers too." },
+        { ime: "Tegallalang rice terraces and the subak system", opis: "The terraces are irrigated by the subak, a farmers' cooperative that since the 9th century has shared out water from the temples at the springs fairly down the slope. UNESCO added the system to the World Heritage List in 2012. Look for the little shrines at the edges of the fields, dedicated to the rice goddess Dewi Sri." },
+        { ime: "Tirta Empul", opis: "The temple above a sacred spring was founded in the year 962. Legend says the god Indra pierced the earth here to create water that brought his poisoned warriors back to life. The Balinese come for ritual purification and wash under a row of spouts one after another. Visitors can join in too, wearing a sarong and respecting the order." },
+        { ime: "Goa Gajah", opis: "An 11th-century cave that you enter through the gaping mouth of a carved demon. Europeans described it in 1923, and the bathing pool with female statues pouring water from jars was only excavated in 1954." },
+        { ime: "Gunung Kawi", opis: "In the valley of the Pakerisan river, shrines seven meters tall were carved into the living rock in the 11th century, in memory of a king and his wives. You descend to them by steps through the rice fields, and legend credits them to a giant who dug them out with his fingernails in a single night." }
       ],
       jesti: [
-        { ime: "Babi guling", opis: "Odojak punjen kurkumom, limunskom travom i čilijem, pečen na ražnju, s hrskavom kožicom, krvavicom i rižom. Jede se za ručak, dok ga ima." },
-        { ime: "Bebek betutu", opis: "Patka natrljana pastom od začina, umotana u lišće i pečena ili dimljena desetak sati, obredno jelo koje se u restoranima naručuje dan unaprijed." },
-        { ime: "Nasi campur", opis: "Tanjur riže okružen malim porcijama svega pomalo: povrća s kokosom, piletine, sataja i sambala, najbolji način da se kuša balijska kuhinja odjednom." }
+        { ime: "Babi guling", opis: "Suckling pig stuffed with turmeric, lemongrass and chili and roasted on a spit, with crackling skin, blood sausage and rice. It is eaten for lunch, while it lasts." },
+        { ime: "Bebek betutu", opis: "Duck rubbed with a spice paste, wrapped in leaves and roasted or smoked for about ten hours, a ceremonial dish that restaurants need you to order a day ahead." },
+        { ime: "Nasi campur", opis: "A plate of rice surrounded by small portions of a bit of everything: vegetables with coconut, chicken, sate and sambal, the best way to taste Balinese cooking all at once." }
       ],
       dozivjeti: [
-        { ime: "Tečaj balijske kuhinje u seoskom domaćinstvu", opis: "Paon Bali počinje na tržnici i u rižinom polju, a kuha se u obiteljskom dvorištu u selu Laplapan, uz priču o tome kako je uređena balijska kuća.", link: "https://www.paon-bali.com/" },
-        { ime: "Tekstil otočja", opis: "Threads of Life je galerija i radionica koja radi s tkaljama s desetak otoka i objašnjava prirodne boje i značenje uzoraka. Nudi i tečajeve bojenja.", link: "https://threadsoflife.com/" },
-        { ime: "Muzej ARMA", opis: "Muzej Agunga Raija čuva balijsko slikarstvo, uključujući djela Waltera Spiesa, a u vrtu se održavaju plesne predstave i radionice plesa, gamelana i rezbarenja.", link: "https://www.armabali.com/" },
-        { ime: "Šetnja grebenom Campuhan", opis: "Popločena staza vodi po hrptu između dviju rijeka, kroz visoku travu, najljepša u zoru prije vrućine." }
+        { ime: "A Balinese cooking class in a village home", opis: "Paon Bali starts at the market and in the rice field, and the cooking happens in a family courtyard in the village of Laplapan, along with the story of how a Balinese house is laid out.", link: "https://www.paon-bali.com/" },
+        { ime: "Textiles of the archipelago", opis: "Threads of Life is a gallery and workshop that works with weavers from a dozen islands and explains natural dyes and the meaning of the patterns. It also offers dyeing classes.", link: "https://threadsoflife.com/" },
+        { ime: "ARMA Museum", opis: "The Agung Rai Museum holds Balinese painting, including works by Walter Spies, and the garden hosts dance performances and workshops in dance, gamelan and woodcarving.", link: "https://www.armabali.com/" },
+        { ime: "Campuhan Ridge Walk", opis: "A paved path runs along the spine between two rivers, through tall grass, and it is at its loveliest at dawn before the heat." }
       ],
       agencije: [
-        { ime: "Love Bali", opis: "Službena stranica pokrajine Bali s pravilima ponašanja i plaćanjem turističke pristojbe.", link: "https://lovebali.baliprov.go.id/" },
-        { ime: "Ministarstvo turizma Indonezije", opis: "Službena stranica nacionalnog ministarstva turizma.", link: "https://kemenpar.go.id/" }
+        { ime: "Love Bali", opis: "The official website of the Province of Bali, with a code of conduct and payment of the tourist levy.", link: "https://lovebali.baliprov.go.id/" },
+        { ime: "Ministry of Tourism of Indonesia", opis: "The official website of the national ministry of tourism.", link: "https://kemenpar.go.id/" }
       ],
-      kada: "Od svibnja do rujna. U hramove se ulazi u sarongu s pojasom, koji se obično posuđuje na ulazu. Terase i izvore obiđite prije devet ujutro."
+      kada: "From May to September. You enter the temples in a sarong with a sash, which can usually be borrowed at the entrance. Visit the terraces and springs before nine in the morning."
     },
     {
       id: "bali-jug",
-      ime: "Bali: jug i hramovi",
+      ime: "Bali: The South and the Temples",
       vrsta: "regija",
-      sazetak: "Hramovi na liticama, u jezeru i na vulkanu, između kojih leže surferske plaže i terase upisane na popis UNESCO-a.",
+      sazetak: "Temples on cliffs, in a lake and on a volcano, with surf beaches and UNESCO-listed terraces lying in between.",
       prica: [
-        "Kada je potkraj 15. stoljeća na Javi palo carstvo Majapahit, njegovi svećenici, plemići i umjetnici sklonili su se na Bali. Zato je Bali do danas ostao hinduistički otok u pretežno muslimanskoj zemlji, s vlastitim oblikom vjere u kojem se štuju i preci i duhovi prirode.",
-        "Putujući svećenik Dang Hyang Nirartha u 16. stoljeću obišao je otok i osnovao ili obnovio niz hramova uz more, koji zajedno čine duhovni štit Balija. Kažu da se s jednog uvijek vidi sljedeći."
+        "When the Majapahit empire fell on Java toward the end of the 15th century, its priests, nobles and artists took refuge on Bali. That is why Bali has remained to this day a Hindu island in a mostly Muslim country, with its own form of the faith in which both ancestors and nature spirits are venerated.",
+        "In the 16th century the wandering priest Dang Hyang Nirartha traveled around the island and founded or restored a string of temples by the sea, which together form Bali's spiritual shield. They say that from each one you can always see the next."
       ],
       vidjeti: [
-        { ime: "Pura Luhur Uluwatu", opis: "Hram stoji na rubu litice sedamdeset metara iznad oceana i jedan je od šest glavnih hramova otoka. Predaja kaže da je Nirartha ovdje postigao oslobođenje i nestao u bljesku svjetla. Majmuni na zidinama poznati su po krađi naočala, koje vraćaju samo u zamjenu za voće." },
-        { ime: "Pura Tanah Lot", opis: "Hram na stijeni u moru iz 16. stoljeća posvećen je bogovima mora. Za oseke se do podnožja prelazi pješice, a u hram smiju samo vjernici. Legenda kaže da ga čuvaju otrovne morske zmije nastale od Nirarthina pojasa." },
-        { ime: "Pura Ulun Danu Bratan", opis: "Hram iz 17. stoljeća na jezeru u vulkanskom krateru posvećen je božici vode Dewi Danu, o kojoj ovisi navodnjavanje cijelog središnjeg Balija. Svetište s jedanaest krovova kao da pluta na vodi kad je razina jezera visoka. Na 1200 metara visine često je svježe i maglovito." },
-        { ime: "Pura Besakih", opis: "Majka svih hramova, kompleks od više od osamdeset svetišta na padini vulkana Agung, najvišeg i najsvetijeg vrha otoka. Tijekom razorne erupcije 1963. lava je prošla tik uz hram i poštedjela ga, što Balijci smatraju čudom." },
-        { ime: "Pura Lempuyang", opis: "Jedan od najstarijih hramova na otoku poznat je po Vratima neba, rascijepljenom portalu kroz koji se vidi vulkan Agung. Jezero u kojem se vrata zrcale na fotografijama zapravo ne postoji: odraz nastaje pomoću ogledala koje fotograf drži ispod mobitela." },
-        { ime: "Rižine terase Jatiluwih", opis: "Najveće terase na otoku, čije ime znači „uistinu čudesno“, dio su krajolika subaka pod zaštitom UNESCO-a. Mnogo su prostranije i mirnije od onih kod Ubuda, a kroz polja vode označene pješačke staze." }
+        { ime: "Pura Luhur Uluwatu", opis: "The temple stands on the edge of a cliff seventy meters above the ocean and is one of the island's six main temples. Tradition says that Nirartha attained liberation here and vanished in a flash of light. The monkeys on the walls are known for stealing glasses, which they return only in exchange for fruit." },
+        { ime: "Pura Tanah Lot", opis: "The 16th-century temple on a rock in the sea is dedicated to the gods of the sea. At low tide you can walk across to the base, and only worshippers may enter the temple. Legend says it is guarded by venomous sea snakes that sprang from Nirartha's sash." },
+        { ime: "Pura Ulun Danu Bratan", opis: "The 17th-century temple on a lake in a volcanic crater is dedicated to the water goddess Dewi Danu, on whom the irrigation of all of central Bali depends. The shrine with eleven roofs seems to float on the water when the lake is high. At 1,200 meters it is often cool and misty." },
+        { ime: "Pura Besakih", opis: "The mother of all temples, a complex of more than eighty shrines on the slope of the Agung volcano, the island's highest and holiest peak. During the devastating eruption of 1963 the lava passed right beside the temple and spared it, which the Balinese consider a miracle." },
+        { ime: "Pura Lempuyang", opis: "One of the oldest temples on the island is known for the Gates of Heaven, a split gateway that frames the Agung volcano. The lake in which the gates are mirrored in photographs does not actually exist: the reflection is created with a mirror that the photographer holds beneath the phone." },
+        { ime: "Jatiluwih rice terraces", opis: "The largest terraces on the island, whose name means “truly marvelous”, are part of the subak landscape protected by UNESCO. They are far more spacious and peaceful than those near Ubud, and marked walking trails lead through the fields." }
       ],
       jesti: [
-        { ime: "Ikan bakar u Jimbaranu", opis: "Na plaži ribarskog sela riba, kozice i školjke biraju se po težini, premazuju slatko-ljutim umakom i peku na kokosovim ljuskama, a jede se bosih nogu u pijesku uz zalazak sunca." },
-        { ime: "Sate lilit", opis: "Mljevena riba ili piletina s kokosom i začinima omotana oko stabljike limunske trave i pečena na žaru." },
-        { ime: "Lawar", opis: "Sitno sjeckano povrće, kokos i meso s puno začina, jelo koje muškarci zajednički pripremaju za hramske svečanosti." }
+        { ime: "Ikan bakar in Jimbaran", opis: "On the beach of this fishing village, fish, shrimp and shellfish are chosen by weight, brushed with a sweet and spicy sauce and grilled over coconut shells, and you eat barefoot in the sand as the sun goes down." },
+        { ime: "Sate lilit", opis: "Minced fish or chicken with coconut and spices, wrapped around a stalk of lemongrass and grilled." },
+        { ime: "Lawar", opis: "Finely chopped vegetables, coconut and meat with plenty of spices, a dish that men prepare together for temple ceremonies." }
       ],
       dozivjeti: [
-        { ime: "Kecak u Uluwatuu", opis: "Predstava počinje oko zalaska sunca u amfiteatru na litici, a završava plesom vatre. Karte se kupuju na ulazu u hram i mjesta se brzo popune, pa dođite sat ranije." },
-        { ime: "Kulturni park Garuda Wisnu Kencana", opis: "Kip boga Višnua na ptici Garudi, djelo kipara Nyomana Nuarte dovršeno 2018., s postoljem je visok oko 121 metar i viši je od Kipa slobode. U parku se cijeli dan izvode balijski plesovi.", link: "https://www.gwkbali.com/" },
-        { ime: "Zalazak sunca kod Tanah Lota", opis: "Na službenoj stranici hrama objavljuju se raspored svečanosti i podaci o plimi, o kojoj ovisi može li se prići stijeni.", link: "https://www.tanahlot.id/" }
+        { ime: "Kecak at Uluwatu", opis: "The performance begins around sunset in an amphitheater on the cliff and ends with a fire dance. Tickets are bought at the temple entrance and the seats fill up fast, so arrive an hour early." },
+        { ime: "Garuda Wisnu Kencana Cultural Park", opis: "The statue of the god Vishnu on the bird Garuda, a work by the sculptor Nyoman Nuarta completed in 2018, stands about 121 meters tall with its pedestal and is taller than the Statue of Liberty. Balinese dances are performed in the park all day long.", link: "https://www.gwkbali.com/" },
+        { ime: "Sunset at Tanah Lot", opis: "The temple's official website publishes the schedule of ceremonies and tide information, which determines whether you can approach the rock.", link: "https://www.tanahlot.id/" }
       ],
       agencije: [
-        { ime: "Love Bali", opis: "Službena stranica pokrajine Bali s pravilima ponašanja u hramovima i plaćanjem turističke pristojbe.", link: "https://lovebali.baliprov.go.id/" },
-        { ime: "Ministarstvo turizma Indonezije", opis: "Službena stranica nacionalnog ministarstva turizma.", link: "https://kemenpar.go.id/" }
+        { ime: "Love Bali", opis: "The official website of the Province of Bali, with a code of conduct for temples and payment of the tourist levy.", link: "https://lovebali.baliprov.go.id/" },
+        { ime: "Ministry of Tourism of Indonesia", opis: "The official website of the national ministry of tourism.", link: "https://kemenpar.go.id/" }
       ],
-      kada: "Od svibnja do rujna. Promet na jugu otoka vrlo je gust, pa hramove grupirajte po stranama otoka i za svaki dan unajmite vozača."
+      kada: "From May to September. Traffic in the south of the island is very heavy, so group the temples by side of the island and hire a driver for each day."
     },
     {
       id: "yogyakarta",
-      ime: "Yogyakarta s Borobudurom i Prambananom",
+      ime: "Yogyakarta with Borobudur and Prambanan",
       vrsta: "grad",
-      sazetak: "Sultanski grad u srcu Jave, čuvar batika, gamelana i kazališta sjena, s dva velika hrama iz 9. stoljeća na dohvat ruke.",
+      sazetak: "A sultan's city in the heart of Java, guardian of batik, gamelan and shadow theater, with two great 9th-century temples within easy reach.",
       prica: [
-        "Sultanat Yogyakarta nastao je 1755., kada je staro kraljevstvo Mataram podijeljeno na dva dvora. Prvi sultan, Hamengkubuwono I., sagradio je palaču na osi koja povezuje vulkan Merapi na sjeveru i Indijski ocean na jugu.",
-        "Tijekom borbe za neovisnost grad je od 1946. do 1949. bio prijestolnica mlade republike, a sultan je otvorio palaču revolucionarima. U znak zahvalnosti Yogyakarta je dobila poseban položaj: sultan je do danas ujedno i guverner pokrajine. Mještani grad od milja zovu Jogja."
+        "The Sultanate of Yogyakarta came into being in 1755, when the old kingdom of Mataram was divided into two courts. The first sultan, Hamengkubuwono I, built the palace on an axis that links the Merapi volcano in the north with the Indian Ocean in the south.",
+        "During the struggle for independence the city was the capital of the young republic from 1946 to 1949, and the sultan opened the palace to the revolutionaries. In gratitude Yogyakarta was given a special status: to this day the sultan is also the governor of the province. Locals fondly call the city Jogja."
       ],
       vidjeti: [
-        { ime: "Borobudur", opis: "Najveći budistički hram na svijetu sagrađen je oko 800. godine za dinastije Sailendra. Zamišljen je kao kamena mandala kojom se hodočasnik uspinje u smjeru kazaljke na satu, uz 2672 reljefa koji pripovijedaju Budin život. Na vrhu su 72 šupljikave stupe, svaka s kipom Bude unutra. Stoljećima je ležao pod vulkanskim pepelom i džunglom, sve dok ga 1814. nije dao istražiti britanski guverner Thomas Stamford Raffles." },
-        { ime: "Prambanan", opis: "Hinduistički odgovor Borobuduru podignut je sredinom 9. stoljeća. Središnji hram boga Šive visok je 47 metara. Legenda kaže da je princeza Roro Jonggrang od neželjenog prosca zatražila tisuću hramova u jednoj noći i prevarom ga spriječila da dovrši posljednji, pa ju je on pretvorio u kamen. Njezin je lik, kažu, kip božice Durge u sjevernoj odaji." },
-        { ime: "Kraton, sultanova palača", opis: "Niz prozračnih paviljona i dvorišta iz 1755. godine u kojima još živi sultanova obitelj. Čuvari palače, abdi dalem, nose tradicionalnu odjeću s bodežom krisom zataknutim na leđima i služe iz odanosti, uz simboličnu plaću. Prijepodne se u paviljonima izvode gamelan i ples." },
-        { ime: "Taman Sari, Vodeni dvorac", opis: "Sultanov perivoj s bazenima iz 18. stoljeća. S tornja je, prema predaji, sultan promatrao žene dok se kupaju i bacao cvijet odabranici. Potražite i podzemnu kružnu džamiju Sumur Gumuling s pet stubišta koja se sastaju u sredini." },
-        { ime: "Ulica Malioboro", opis: "Glavna gradska ulica puna je štandova s batikom, kočija i zalogajnica na pločniku. Navečer se sjeda na prostirke uz niske stolove, što se zove lesehan." },
-        { ime: "Kotagede", opis: "Najstarija gradska četvrt bila je prva prijestolnica Matarama u 16. stoljeću, a danas je poznata po srebrnarima. U uskim uličicama stoje stare trgovačke kuće i džamija s vratima u hinduističkom stilu." }
+        { ime: "Borobudur", opis: "The largest Buddhist temple in the world was built around the year 800 under the Sailendra dynasty. It was conceived as a stone mandala that the pilgrim climbs clockwise, past 2,672 reliefs that tell the life of the Buddha. At the top are 72 perforated stupas, each with a statue of the Buddha inside. For centuries it lay under volcanic ash and jungle, until the British governor Thomas Stamford Raffles had it investigated in 1814." },
+        { ime: "Prambanan", opis: "The Hindu answer to Borobudur was built in the middle of the 9th century. The central temple of the god Shiva is 47 meters tall. Legend says that Princess Roro Jonggrang demanded a thousand temples in a single night from an unwanted suitor and tricked him out of finishing the last one, so he turned her to stone. Her likeness, they say, is the statue of the goddess Durga in the northern chamber." },
+        { ime: "Kraton, the sultan's palace", opis: "A series of airy pavilions and courtyards from 1755 where the sultan's family still lives. The palace guards, the abdi dalem, wear traditional dress with a kris dagger tucked in at the back and serve out of loyalty, for a symbolic wage. In the mornings gamelan and dance are performed in the pavilions." },
+        { ime: "Taman Sari, the Water Castle", opis: "The sultan's pleasure garden with pools from the 18th century. According to tradition, the sultan watched the women bathing from the tower and tossed a flower to his chosen one. Also look for the underground circular mosque Sumur Gumuling, with five staircases that meet in the middle." },
+        { ime: "Malioboro Street", opis: "The city's main street is full of batik stalls, horse carriages and sidewalk eateries. In the evening people sit on mats at low tables, which is called lesehan." },
+        { ime: "Kotagede", opis: "The oldest district of the city was the first capital of Mataram in the 16th century, and today it is known for its silversmiths. Old merchants' houses and a mosque with a gate in the Hindu style stand in the narrow lanes." }
       ],
       jesti: [
-        { ime: "Gudeg", opis: "Mladi hljebovac kuhan satima u kokosovu mlijeku i palminu šećeru dok ne postane smeđ i sladak, poslužen s piletinom, jajetom i ljutom goveđom kožicom. Jede se u ulici Wijilan kraj palače." },
-        { ime: "Kopi joss", opis: "Kava u koju se ubaci užareni komad drvenog ugljena, koji zacvrči i ublaži joj kiselinu. Pije se na štandovima angkringan kod željezničkog kolodvora Tugu." },
-        { ime: "Bakpia", opis: "Mali okrugli kolačići kineskog podrijetla punjeni slatkom pastom od mung graha, koje svi nose kući kao dar iz Yogyakarte." }
+        { ime: "Gudeg", opis: "Young jackfruit simmered for hours in coconut milk and palm sugar until it turns brown and sweet, served with chicken, egg and spicy beef skin. It is eaten on Wijilan Street next to the palace." },
+        { ime: "Kopi joss", opis: "Coffee with a glowing lump of charcoal dropped into it, which sizzles and softens its acidity. It is drunk at the angkringan stalls by Tugu railway station." },
+        { ime: "Bakpia", opis: "Small round pastries of Chinese origin filled with sweet mung bean paste, which everyone takes home as a gift from Yogyakarta." }
       ],
       dozivjeti: [
-        { ime: "Balet Ramayana pod Prambananom", opis: "Tijekom suhe sezone više od stotinu plesača uz gamelan izvodi ep o Rami i Siti na otvorenoj pozornici, s osvijetljenim hramovima u pozadini." },
-        { ime: "Radionica batika", opis: "U obiteljskoj radionici Batik Winotosastro gleda se cijeli postupak ručnog voštanja i bojenja, a možete izraditi i vlastiti rubac.", link: "https://batikwinotosastro.com/" },
-        { ime: "Ture i tečajevi kod ViaVia Jogja", opis: "Putnički kafić koji organizira biciklističke izlete u sela, tečajeve kuhanja, batika i izrade srebrnog nakita, a dio prihoda ulaže u lokalne projekte.", link: "https://viaviajogja.com/" }
+        { ime: "Ramayana Ballet at Prambanan", opis: "During the dry season more than a hundred dancers perform the epic of Rama and Sita to gamelan on an open-air stage, with the floodlit temples in the background." },
+        { ime: "Batik workshop", opis: "At the family workshop Batik Winotosastro you can watch the whole process of hand waxing and dyeing, and you can also make your own handkerchief.", link: "https://batikwinotosastro.com/" },
+        { ime: "Tours and classes at ViaVia Jogja", opis: "A travelers' cafe that organizes bicycle trips to the villages and classes in cooking, batik and silver jewelry making, and invests part of its income in local projects.", link: "https://viaviajogja.com/" }
       ],
       agencije: [
-        { ime: "Visiting Jogja", opis: "Službena stranica turističkog ureda Posebne regije Yogyakarta.", link: "https://visitingjogja.jogjaprov.go.id/" },
-        { ime: "InJourney Destination: Borobudur", opis: "Službeni upravitelj hramskih parkova Borobudur i Prambanan, s ulaznicama i pravilima uspona na hram.", link: "https://injourneydestination.id/destinations/borobudur/" },
-        { ime: "ViaVia Jogja", opis: "Dugogodišnji lokalni organizator izleta i tečajeva.", link: "https://viaviajogja.com/" }
+        { ime: "Visiting Jogja", opis: "The official website of the tourism office of the Special Region of Yogyakarta.", link: "https://visitingjogja.jogjaprov.go.id/" },
+        { ime: "InJourney Destination: Borobudur", opis: "The official manager of the Borobudur and Prambanan temple parks, with tickets and the rules for climbing the temple.", link: "https://injourneydestination.id/destinations/borobudur/" },
+        { ime: "ViaVia Jogja", opis: "A long-established local organizer of trips and classes.", link: "https://viaviajogja.com/" }
       ],
-      kada: "Od svibnja do listopada. Uspon na gornje terase Borobudura ograničen je brojem posjetitelja i terminima, pa ulaznicu rezervirajte unaprijed na službenoj stranici."
+      kada: "From May to October. Climbing to the upper terraces of Borobudur is limited by visitor numbers and time slots, so book your ticket in advance on the official website."
     },
     {
       id: "jakarta",
       ime: "Jakarta",
       vrsta: "grad",
-      sazetak: "Golema prijestolnica u kojoj se iza nebodera kriju stara nizozemska Batavia, luka jedrenjaka i neke od najboljih uličnih kuhinja Jave.",
+      sazetak: "A vast capital where old Dutch Batavia, a harbor of sailing ships and some of the best street food on Java hide behind the skyscrapers.",
       prica: [
-        "Luka Sunda Kelapa trgovala je paprom još u doba hinduističkog kraljevstva Sunda. Vojskovođa Fatahillah osvojio ju je 22. lipnja 1527. i nazvao Jayakarta, „potpuna pobjeda“, a taj se datum slavi kao rođendan grada.",
-        "Nizozemci pod vodstvom Jana Pieterszoona Coena sravnili su grad 1619. i na njegovu mjestu sagradili Bataviju, sjedište Istočnoindijske kompanije, s kanalima po uzoru na Amsterdam. Ime Jakarta vratili su Japanci 1942. godine. Danas šire gradsko područje ima više od trideset milijuna ljudi."
+        "The port of Sunda Kelapa traded in pepper as far back as the days of the Hindu kingdom of Sunda. The commander Fatahillah conquered it on June 22, 1527, and named it Jayakarta, “complete victory”, and that date is celebrated as the city's birthday.",
+        "The Dutch, led by Jan Pieterszoon Coen, razed the city in 1619 and built Batavia in its place, the seat of the East India Company, with canals modeled on Amsterdam. The name Jakarta was restored by the Japanese in 1942. Today the greater metropolitan area has more than thirty million people."
       ],
       vidjeti: [
-        { ime: "Kota Tua i trg Fatahillah", opis: "Središte stare Batavije okružuju kolonijalne zgrade. Najveća je nekadašnja gradska vijećnica iz 1710. godine, danas Povijesni muzej Jakarte, u čijem su podrumu niske zatvorske ćelije s kamenim kuglama za okove. Na trgu se iznajmljuju šareni stari bicikli sa šeširima u istoj boji." },
-        { ime: "Luka Sunda Kelapa", opis: "Uz dugi gat još pristaju drveni teretni jedrenjaci pinisi, koje grade Bugiji s otoka Sulawesija. Nosači po uskim daskama na ramenima iznose vreće cementa i drvo, kao i prije nekoliko stoljeća. Umijeće gradnje tih brodova na UNESCO-ovu je popisu nematerijalne baštine." },
-        { ime: "Monas, Nacionalni spomenik", opis: "Obelisk visok 132 metra, dovršen 1975., na vrhu nosi plamen obložen zlatom. U podnožju je muzej s dioramama indonezijske povijesti, a s vidikovca se za vedra dana vidi cijeli grad." },
-        { ime: "Džamija Istiqlal i katedrala", opis: "Najveću džamiju jugoistočne Azije projektirao je kršćanski arhitekt Friedrich Silaban, a otvorena je 1978. godine. Namjerno je sagrađena nasuprot neogotičkoj katoličkoj katedrali, kao znak snošljivosti, a dvije bogomolje od 2021. povezuje podzemni Tunel prijateljstva." },
-        { ime: "Nacionalni muzej", opis: "Zovu ga Zgrada slona po brončanom slonu pred ulazom, koji je 1871. darovao sijamski kralj Chulalongkorn. Čuva kamene kipove iz hinduističko-budističkog razdoblja Jave i riznicu zlata. Obnovljen je i ponovno otvoren nakon požara 2023. godine." },
-        { ime: "Glodok", opis: "Kineska četvrt nastala je u 18. stoljeću izvan zidina Batavije. U uličici Petak Sembilan nalaze se tržnica s ljekovitim biljem i hram Dharma Bhakti, osnovan sredinom 17. stoljeća, pun dima golemih crvenih svijeća." }
+        { ime: "Kota Tua and Fatahillah Square", opis: "The center of old Batavia is ringed by colonial buildings. The largest is the former city hall from 1710, now the Jakarta History Museum, whose basement holds low prison cells with stone balls for shackles. On the square you can rent colorful old bicycles with hats in matching colors." },
+        { ime: "Sunda Kelapa harbor", opis: "Wooden cargo sailing ships called pinisi, built by the Bugis of the island of Sulawesi, still tie up along the long quay. Porters carry sacks of cement and timber on their shoulders across narrow planks, just as they did centuries ago. The art of building these ships is on the UNESCO list of intangible heritage." },
+        { ime: "Monas, the National Monument", opis: "The obelisk, 132 meters tall and completed in 1975, carries a flame covered in gold at its top. At the base is a museum with dioramas of Indonesian history, and from the observation deck you can see the whole city on a clear day." },
+        { ime: "Istiqlal Mosque and the cathedral", opis: "The largest mosque in Southeast Asia was designed by the Christian architect Friedrich Silaban and opened in 1978. It was deliberately built opposite the neo-Gothic Catholic cathedral as a sign of tolerance, and since 2021 the two places of worship have been linked by the underground Tunnel of Friendship." },
+        { ime: "National Museum", opis: "It is called the Elephant Building after the bronze elephant in front of the entrance, a gift from King Chulalongkorn of Siam in 1871. It holds stone statues from the Hindu-Buddhist period of Java and a treasury of gold. It was restored and reopened after the fire of 2023." },
+        { ime: "Glodok", opis: "The Chinese quarter grew up in the 18th century outside the walls of Batavia. In the lane called Petak Sembilan are a market with medicinal herbs and the Dharma Bhakti temple, founded in the middle of the 17th century and full of smoke from enormous red candles." }
       ],
       jesti: [
-        { ime: "Soto Betawi", opis: "Kremasta goveđa juha s kokosovim ili običnim mlijekom, rajčicom i prženim krumpirom, jelo starosjedilaca Jakarte, naroda Betawi." },
-        { ime: "Kerak telor", opis: "Hrskavi omlet od ljepljive riže i pačjeg jajeta s prženim kokosom i sušenim kozicama, koji se peče nad žarom tako da se tava okrene naopako. Prodaje se oko trga Fatahillah." },
-        { ime: "Nasi uduk", opis: "Riža kuhana u kokosovu mlijeku s limunskom travom, poslužena s prženom piletinom, tempehom i sambalom od kikirikija, omiljeni doručak." }
+        { ime: "Soto Betawi", opis: "A creamy beef soup with coconut or regular milk, tomato and fried potato, a dish of Jakarta's native people, the Betawi." },
+        { ime: "Kerak telor", opis: "A crispy omelet of sticky rice and duck egg with toasted coconut and dried shrimp, cooked over embers by flipping the pan upside down. It is sold around Fatahillah Square." },
+        { ime: "Nasi uduk", opis: "Rice cooked in coconut milk with lemongrass, served with fried chicken, tempeh and peanut sambal, a favorite breakfast." }
       ],
       dozivjeti: [
-        { ime: "Pješačka tura s lokalnim vodičima", opis: "Jakarta Good Guide vodi šetnje po starom gradu, Kineskoj četvrti i središtu po načelu „plati koliko želiš“, što je najlakši način da se snađete u golemom gradu.", link: "https://jakartagoodguide.wordpress.com/" },
-        { ime: "Kava u kolonijalnoj kući na trgu Fatahillah", opis: "S kata starih zgrada oko trga gleda se predstava koja se odvija dolje: ulični svirači, živi kipovi i obitelji na biciklima." }
+        { ime: "Walking tour with local guides", opis: "Jakarta Good Guide leads walks through the old town, Chinatown and the center on a “pay what you wish” basis, which is the easiest way to find your feet in this vast city.", link: "https://jakartagoodguide.wordpress.com/" },
+        { ime: "Coffee in a colonial house on Fatahillah Square", opis: "From the upper floors of the old buildings around the square you can watch the show unfolding below: street musicians, living statues and families on bicycles." }
       ],
       agencije: [
-        { ime: "Enjoy Jakarta", opis: "Službeni turistički portal grada Jakarte.", link: "https://enjoy.jakarta.go.id/" },
-        { ime: "Jakarta Good Guide", opis: "Udruga licenciranih vodiča koja organizira redovite pješačke ture.", link: "https://jakartagoodguide.wordpress.com/" },
-        { ime: "Jakarta Walking Tour", opis: "Tematske šetnje s lokalnim vodičima po povijesnim četvrtima.", link: "https://jakartawalkingtour.com/" }
+        { ime: "Enjoy Jakarta", opis: "The official tourism portal of the city of Jakarta.", link: "https://enjoy.jakarta.go.id/" },
+        { ime: "Jakarta Good Guide", opis: "An association of licensed guides that organizes regular walking tours.", link: "https://jakartagoodguide.wordpress.com/" },
+        { ime: "Jakarta Walking Tour", opis: "Themed walks with local guides through the historic districts.", link: "https://jakartawalkingtour.com/" }
       ],
-      kada: "Od lipnja do rujna najmanje je kiše. Promet je legendarno gust, pa se držite podzemne željeznice MRT i obilazak planirajte po četvrtima, a muzeji su ponedjeljkom uglavnom zatvoreni."
+      kada: "There is the least rain from June to September. The traffic is legendarily heavy, so stick to the MRT subway and plan your sightseeing by district, and note that museums are mostly closed on Mondays."
     },
     {
       id: "komodo-flores",
-      ime: "Komodo i Flores",
+      ime: "Komodo and Flores",
       vrsta: "otok",
-      sazetak: "Suhi, brdoviti otoci na kojima žive posljednji zmajevi, a ispod površine jedno od najbogatijih mora na svijetu.",
+      sazetak: "Dry, hilly islands where the last dragons live, and beneath the surface one of the richest seas in the world.",
       prica: [
-        "Europska znanost saznala je za komodskog varana tek 1910., kada je nizozemski časnik provjerio priče ribara o „kopnenim krokodilima“. Nacionalni park osnovan je 1980. godine kako bi ih zaštitio, a UNESCO ga je upisao na popis svjetske baštine 1991.",
-        "Flores, velik otok s kojeg se kreće u park, ime duguje portugalskim pomorcima iz 16. stoljeća, koji su istočni rt nazvali Rt cvijeća. Portugalci su ostavili i katoličanstvo, kojem pripada većina stanovnika. U špilji Liang Bua pronađeni su 2003. ostaci sićušne ljudske vrste Homo floresiensis, visoke oko jedan metar, koju su prozvali hobitom."
+        "European science only learned of the Komodo dragon in 1910, when a Dutch officer looked into fishermen's tales of “land crocodiles”. The national park was founded in 1980 to protect them, and UNESCO added it to the World Heritage List in 1991.",
+        "Flores, the large island from which you set out for the park, owes its name to the Portuguese sailors of the 16th century, who called its eastern cape the Cape of Flowers. The Portuguese also left behind Catholicism, the faith of most of the inhabitants. In 2003 the remains of a tiny human species, Homo floresiensis, about one meter tall and nicknamed the hobbit, were found in Liang Bua cave."
       ],
       vidjeti: [
-        { ime: "Otoci Komodo i Rinca", opis: "Ovdje žive komodski varani, gušteri dugi do tri metra, kojih u divljini ima oko tri tisuće. Love iz zasjede, a ugriz im je opasan zbog otrovnih žlijezda u donjoj čeljusti. Hoda se isključivo uz rendžera s dugim rašljastim štapom, a mladi varani prve godine provode na drveću kako ih odrasli ne bi pojeli." },
-        { ime: "Otok Padar", opis: "Polusatni uspon stubama vodi do vidikovca s kojeg se vide tri uvale, svaka s pijeskom druge boje: bijelim, crnim i ružičastim. Prizor je otisnut na indonezijskoj novčanici od 50.000 rupija." },
-        { ime: "Ružičasta plaža", opis: "Pijesak je ružičast zbog zdrobljenih crvenih ljušturica sitnih morskih organizama pomiješanih s bijelim koraljnim pijeskom. Boja je najjača uz samu liniju vode, osobito ujutro." },
-        { ime: "Manta Point", opis: "U kanalu s jakim strujama okupljaju se mante raspona peraja do pet metara, koje dolaze na čišćenje i hranjenje. Mogu se vidjeti i s maskom, s površine." },
-        { ime: "Jezera Kelimutu", opis: "Na vrhu vulkana u središnjem Floresu leže tri kraterska jezera različitih boja, koje se s godinama mijenjaju od tirkizne do smeđe i crne zbog minerala i plinova. Narod Lio vjeruje da u njima počivaju duše umrlih: mladih, starih i zlih." },
-        { ime: "Selo Wae Rebo", opis: "Do sela u planinama dolazi se nakon tri sata pješačenja kroz šumu. Sedam visokih stožastih kuća od trske, u svakoj po nekoliko obitelji, poredano je u polukrug oko obrednog kamenog oltara. Gosti prvo prolaze kratak obred dobrodošlice kod starješine." }
+        { ime: "Komodo and Rinca islands", opis: "This is the home of the Komodo dragons, lizards up to three meters long, of which there are about three thousand in the wild. They hunt from ambush, and their bite is dangerous because of the venom glands in the lower jaw. You walk only with a ranger carrying a long forked stick, and young dragons spend their first years in the trees so that the adults do not eat them." },
+        { ime: "Padar Island", opis: "A half-hour climb up steps leads to a viewpoint over three bays, each with sand of a different color: white, black and pink. The view is printed on the Indonesian 50,000 rupiah banknote." },
+        { ime: "Pink Beach", opis: "The sand is pink because of the crushed red shells of tiny marine organisms mixed with white coral sand. The color is strongest right at the waterline, especially in the morning." },
+        { ime: "Manta Point", opis: "In a channel with strong currents, manta rays with wingspans of up to five meters gather to be cleaned and to feed. You can see them with just a mask, from the surface." },
+        { ime: "Kelimutu lakes", opis: "At the top of a volcano in central Flores lie three crater lakes of different colors, which shift over the years from turquoise to brown and black because of minerals and gases. The Lio people believe that the souls of the dead rest in them: the young, the old and the wicked." },
+        { ime: "Wae Rebo village", opis: "The village in the mountains is reached after a three-hour hike through the forest. Seven tall conical thatched houses, each home to several families, are arranged in a semicircle around a ceremonial stone altar. Guests first go through a short welcome ritual with the village elder." }
       ],
       jesti: [
-        { ime: "Ikan bakar na noćnoj tržnici", opis: "Na rivi u Labuan Baju svake se večeri postavljaju štandovi sa svježe ulovljenom ribom i lignjama, koje se peku na žaru i poslužuju s rižom i sambalom." },
-        { ime: "Kava s Floresa", opis: "Na vulkanskim visoravnima oko Bajawe i Rutenga raste cijenjena arabica, koja se pije jaka i slatka, pripremljena na način tubruk." },
-        { ime: "Se'i", opis: "Tanko narezano meso dimljeno nad drvom stabla kesambi, specijalitet istočnih Malih sundskih otoka, posluženo s vrlo ljutim sambalom." }
+        { ime: "Ikan bakar at the night market", opis: "Every evening on the waterfront in Labuan Bajo, stalls are set up with freshly caught fish and squid, which are grilled and served with rice and sambal." },
+        { ime: "Coffee from Flores", opis: "A prized arabica grows on the volcanic highlands around Bajawa and Ruteng, and it is drunk strong and sweet, prepared tubruk style." },
+        { ime: "Se'i", opis: "Thinly sliced meat smoked over the wood of the kesambi tree, a specialty of the eastern Lesser Sunda Islands, served with a very hot sambal." }
       ],
       dozivjeti: [
-        { ime: "Izlet brodom kroz park", opis: "Iz Labuan Baja kreću jednodnevni izleti brzim brodovima i višednevna krstarenja drvenim jedrenjacima, s noćenjem u uvalama. Na višednevnom putu Padar se dočeka u zoru, prije dnevnih gostiju." },
-        { ime: "Zalazak sunca s letećim lisicama", opis: "Kod otočića Kalong u sumrak tisuće velikih šišmiša uzleću iz mangrova i u dugoj koloni lete prema Floresu na hranjenje." }
+        { ime: "A boat trip through the park", opis: "From Labuan Bajo there are one-day trips by speedboat and multi-day cruises on wooden sailing ships, with nights spent in the bays. On a multi-day trip you get to Padar at dawn, ahead of the day visitors." },
+        { ime: "Sunset with the flying foxes", opis: "At the islet of Kalong, thousands of large bats take off from the mangroves at dusk and fly in a long column toward Flores to feed." }
       ],
       agencije: [
-        { ime: "Nacionalni park Komodo", opis: "Službena stranica parka s pravilima posjeta i podacima o otocima.", link: "https://www.komodonationalpark.org/" },
-        { ime: "BPOLBF, turistička uprava Labuan Bajo Flores", opis: "Državno tijelo za razvoj turizma na Floresu, s informacijama o odredištima.", link: "https://bpolbf.kemenpar.go.id/" }
+        { ime: "Komodo National Park", opis: "The park's official website, with visiting rules and information about the islands.", link: "https://www.komodonationalpark.org/" },
+        { ime: "BPOLBF, the Labuan Bajo Flores tourism authority", opis: "The government body for tourism development on Flores, with information about destinations.", link: "https://bpolbf.kemenpar.go.id/" }
       ],
-      kada: "Od travnja do studenoga more je mirno. Otoci su najzeleniji u travnju i svibnju, a potkraj suhe sezone požute poput savane. Struje su jake, pa se kupajte samo ondje gdje posada kaže da je sigurno."
+      kada: "The sea is calm from April to November. The islands are at their greenest in April and May, and toward the end of the dry season they turn yellow like a savanna. The currents are strong, so swim only where the crew says it is safe."
     },
     {
       id: "lombok-gili",
-      ime: "Lombok i Gili",
+      ime: "Lombok and the Gili Islands",
       vrsta: "otok",
-      sazetak: "Mirniji susjed Balija, s moćnim vulkanom Rinjani, selima naroda Sasak i trima otočićima bez automobila.",
+      sazetak: "Bali's quieter neighbor, with the mighty Rinjani volcano, villages of the Sasak people and three little islands without cars.",
       prica: [
-        "Lombok nastanjuje narod Sasak, većinom muslimani, od kojih dio čuva staru predaju Wetu Telu u kojoj se islam isprepleće s vjerovanjem u duhove predaka. Od 18. stoljeća otokom su vladali balijski kneževi, sve dok ga 1894. nisu zauzeli Nizozemci, pa na zapadu otoka i danas stoje balijski hramovi.",
-        "Otokom dominira vulkan Rinjani, visok 3726 metara. Na istom je mjestu 1257. godine eksplodirao vulkan Samalas u jednoj od najjačih erupcija posljednjih nekoliko tisućljeća, čiji su tragovi nađeni u ledu obaju polova."
+        "Lombok is home to the Sasak people, most of them Muslim, some of whom keep the old Wetu Telu tradition in which Islam is interwoven with belief in ancestral spirits. From the 18th century the island was ruled by Balinese princes, until the Dutch took it in 1894, so Balinese temples still stand in the west of the island today.",
+        "The island is dominated by the Rinjani volcano, 3,726 meters high. On the same spot in 1257 the Samalas volcano exploded in one of the most powerful eruptions of the last few thousand years, traces of which have been found in the ice of both poles."
       ],
       vidjeti: [
-        { ime: "Vulkan Rinjani i jezero Segara Anak", opis: "U golemom krateru leži tirkizno jezero čije ime znači „dijete mora“, a iz njega raste novi mali vulkan. Sasaci i Balijci hodočaste na jezero i prinose darove. Uspon do ruba kratera traje dva dana i traži dobru kondiciju i licenciranog vodiča." },
-        { ime: "Slapovi Sendang Gile i Tiu Kelep", opis: "U podnožju vulkana, kod sela Senaru, dva slapa padaju kroz prašumu. Do drugog se gazi kroz rijeku, a predaja kaže da se kupanjem pod njim pomlađuje godinu dana." },
-        { ime: "Otoci Gili", opis: "Na Gili Trawanganu, Gili Menu i Gili Airu nema automobila ni mopeda, pa se kreće pješice, biciklom ili konjskom zapregom cidomo. U plićaku se gotovo sigurno susreću morske kornjače. Kod Gili Mena pod morem stoji krug od 48 ljudskih figura, djelo kipara Jasona deCairesa Taylora, koje polako obrastaju koralji." },
-        { ime: "Selo Sade", opis: "Tradicionalno selo Sasaka s kućama od bambusa i krovovima od trave. Podovi od gline premazuju se bivoljom balegom, koja ih učvršćuje i tjera kukce. Žitnice lumbung s krovom u obliku potkove postale su simbol otoka." },
-        { ime: "Pura Lingsar", opis: "Hram iz 18. stoljeća jedinstven je po tome što u njemu, svaki u svojem dvorištu, mole balijski hinduisti i sasački muslimani predaje Wetu Telu. Jednom godišnje dvije se zajednice u dvorištu veselo gađaju rižinim kolačićima, u obredu za plodnost polja." },
-        { ime: "Plaže juga", opis: "Oko mjesta Kuta nižu se uvale s bijelim pijeskom, poput Tanjung Aana i Selong Belanaka. U veljači ili ožujku ovdje se slavi Bau Nyale, kada tisuće ljudi u zoru love morske crve za koje legenda kaže da su kosa princeze Mandalike, koja se bacila u more da spriječi rat prosaca." }
+        { ime: "Rinjani volcano and Lake Segara Anak", opis: "In the enormous crater lies a turquoise lake whose name means “child of the sea”, and a new small volcano is growing out of it. The Sasak and the Balinese make pilgrimages to the lake and leave offerings. The climb to the crater rim takes two days and calls for good fitness and a licensed guide." },
+        { ime: "Sendang Gile and Tiu Kelep waterfalls", opis: "At the foot of the volcano, near the village of Senaru, two waterfalls drop through the rainforest. You wade through the river to reach the second, and tradition says that bathing beneath it makes you a year younger." },
+        { ime: "The Gili Islands", opis: "There are no cars or scooters on Gili Trawangan, Gili Meno and Gili Air, so you get around on foot, by bicycle or by cidomo, a horse-drawn cart. In the shallows you are almost certain to meet sea turtles. Off Gili Meno a circle of 48 human figures stands under the sea, a work by the sculptor Jason deCaires Taylor that corals are slowly overgrowing." },
+        { ime: "Sade village", opis: "A traditional Sasak village with bamboo houses and grass roofs. The clay floors are coated with buffalo dung, which hardens them and keeps insects away. The lumbung rice barns with their horseshoe-shaped roofs have become the symbol of the island." },
+        { ime: "Pura Lingsar", opis: "This 18th-century temple is unique in that Balinese Hindus and Sasak Muslims of the Wetu Telu tradition both pray there, each in their own courtyard. Once a year the two communities cheerfully pelt each other with rice cakes in the courtyard, in a ritual for the fertility of the fields." },
+        { ime: "Beaches of the south", opis: "Around the town of Kuta there is a string of bays with white sand, such as Tanjung Aan and Selong Belanak. In February or March Bau Nyale is celebrated here, when thousands of people at dawn catch sea worms that legend says are the hair of Princess Mandalika, who threw herself into the sea to prevent a war among her suitors." }
       ],
       jesti: [
-        { ime: "Ayam taliwang", opis: "Mlado pile s roštilja premazano vatrenom pastom od sušenih čilija, češnjaka i paste od kozica, najpoznatije jelo otoka." },
-        { ime: "Plecing kangkung", opis: "Blanširani vodeni špinat s klicama i kikirikijem, preliven ljutim umakom od rajčice i limete, koji hladi i peče u isto vrijeme." },
-        { ime: "Sate rembiga", opis: "Slatko-ljuti goveđi ražnjići iz istoimene četvrti grada Matarama." }
+        { ime: "Ayam taliwang", opis: "Grilled young chicken coated in a fiery paste of dried chilies, garlic and shrimp paste, the island's best-known dish." },
+        { ime: "Plecing kangkung", opis: "Blanched water spinach with bean sprouts and peanuts, dressed with a spicy tomato and lime sauce that cools and burns at the same time." },
+        { ime: "Sate rembiga", opis: "Sweet and spicy beef skewers from the district of the same name in the city of Mataram." }
       ],
       dozivjeti: [
-        { ime: "Uspon na Rinjani", opis: "Ulaznice i pravila uspona objavljuje uprava nacionalnog parka. Planina je svake godine zatvorena tijekom kišne sezone, otprilike od siječnja do ožujka.", link: "https://www.rinjaninationalpark.id/" },
-        { ime: "Čišćenje plaže i grebena", opis: "Gili Eco Trust organizira tjedna čišćenja, brine o konjima i obnavlja koraljne grebene, a posjetitelji se mogu pridružiti.", link: "https://www.gilieco.com/" },
-        { ime: "Tkanje u selu Sukarara", opis: "Djevojke Sasaka uče tkati songket na tkalačkom stanu koji se veže oko struka, a posjetiteljice mogu sjesti za stan i pokušati same." }
+        { ime: "Climbing Rinjani", opis: "Tickets and climbing rules are published by the national park administration. The mountain is closed every year during the rainy season, roughly from January to March.", link: "https://www.rinjaninationalpark.id/" },
+        { ime: "Beach and reef cleanup", opis: "The Gili Eco Trust organizes weekly cleanups, looks after the horses and restores coral reefs, and visitors can join in.", link: "https://www.gilieco.com/" },
+        { ime: "Weaving in Sukarara village", opis: "Sasak girls learn to weave songket on a backstrap loom tied around the waist, and visitors can sit down at the loom and try for themselves." }
       ],
       agencije: [
-        { ime: "Nacionalni park Gunung Rinjani", opis: "Službena stranica parka s rutama, pravilima i sustavom rezervacija.", link: "https://www.rinjaninationalpark.id/" },
-        { ime: "Gili Eco Trust", opis: "Neprofitna udruga za zaštitu okoliša na otocima Gili.", link: "https://www.gilieco.com/" },
-        { ime: "Ministarstvo turizma Indonezije", opis: "Službena stranica nacionalnog ministarstva turizma.", link: "https://kemenpar.go.id/" }
+        { ime: "Gunung Rinjani National Park", opis: "The park's official website, with routes, rules and a booking system.", link: "https://www.rinjaninationalpark.id/" },
+        { ime: "Gili Eco Trust", opis: "A nonprofit environmental protection association on the Gili Islands.", link: "https://www.gilieco.com/" },
+        { ime: "Ministry of Tourism of Indonesia", opis: "The official website of the national ministry of tourism.", link: "https://kemenpar.go.id/" }
       ],
-      kada: "Od svibnja do listopada. Između Balija i otoka Gili voze brzi brodovi, ali more u srpnju i kolovozu zna biti nemirno, pa odaberite jutarnji polazak."
+      kada: "From May to October. Fast boats run between Bali and the Gili Islands, but the sea can be rough in July and August, so choose a morning departure."
     },
     {
       id: "bromo",
       ime: "Bromo",
       vrsta: "priroda",
-      sazetak: "Vulkan koji se dimi usred mora pijeska, najljepši u zoru s ruba goleme kaldere na istoku Jave.",
+      sazetak: "A smoking volcano in the middle of a sea of sand, at its most beautiful at dawn from the rim of a vast caldera in East Java.",
       prica: [
-        "Bromo je mladi stožac unutar drevne kaldere Tengger, široke desetak kilometara, čije je dno prekriveno sivim vulkanskim pijeskom. Iza njega se diže Semeru, s 3676 metara najviši vrh Jave, koji gotovo svakih dvadesetak minuta ispusti oblačić pepela.",
-        "Oko kaldere živi narod Tengger, hinduisti u muslimanskoj Javi, koji se smatraju potomcima izbjeglica iz carstva Majapahit. Legenda kaže da su njihovi preci, princeza Roro Anteng i Joko Seger, bogovima obećali najmlađe dijete u zamjenu za potomstvo, pa je sin Kesuma žrtvovan vulkanu. Iz slogova njihovih imena nastalo je ime Tengger."
+        "Bromo is a young cone inside the ancient Tengger caldera, about ten kilometers wide, whose floor is covered in gray volcanic sand. Behind it rises Semeru, at 3,676 meters the highest peak on Java, which lets out a puff of ash roughly every twenty minutes.",
+        "Around the caldera live the Tengger people, Hindus in Muslim Java, who consider themselves descendants of refugees from the Majapahit empire. Legend says that their ancestors, Princess Roro Anteng and Joko Seger, promised the gods their youngest child in exchange for offspring, so their son Kesuma was sacrificed to the volcano. The name Tengger was formed from the syllables of their names."
       ],
       vidjeti: [
-        { ime: "Vidikovac Penanjakan", opis: "S 2770 metara dočekuje se izlazak sunca nad kalderom: iz magle izranjaju naborani stožac Batoka, krater Broma koji se dimi i Semeru u pozadini. Polazi se terencem oko tri ujutro, a gore je blizu nule, pa ponesite kapu i jaknu." },
-        { ime: "Krater Broma", opis: "Preko mora pijeska stiže se pješice ili na konju do podnožja, a zatim oko 250 stuba vodi do ruba kratera. Odozgo se gleda ravno u grotlo iz kojeg se uz tutnjavu diže sumporna para." },
-        { ime: "More pijeska i hram Pura Luhur Poten", opis: "Usred sive pustinje stoji hinduistički hram naroda Tengger od crnog vulkanskog kamena. U vrijeme svetkovine Yadnya Kasada, obično u lipnju ili srpnju, vjernici se odavde penju na krater i u njega bacaju povrće, kokoši i novac u spomen na žrtvovanog Kesumu." },
-        { ime: "Savana i Brdo Teletubbiesa", opis: "S južne strane kaldere pijesak prelazi u valovite zelene brežuljke obrasle travom i paprati, potpuna suprotnost mjesečevu krajoliku sa sjeverne strane." },
-        { ime: "Slap Madakaripura", opis: "U uskom klancu voda pada s oko 200 metara, a do glavnog slapa prolazi se ispod zavjese manjih slapova. Predaja kaže da je ovdje posljednje dane proveo u meditaciji Gajah Mada, slavni vojskovođa Majapahita." },
-        { ime: "Krater Ijen", opis: "Nekoliko sati istočnije, kod Banyuwangija, leži najveće kiselo jezero na svijetu, tirkizne boje. Noću se na rubu vidi plavi plamen gorućih sumpornih plinova, a rudari iz kratera na ramenima iznose košare žutog sumpora teške i više od sedamdeset kilograma." }
+        { ime: "Penanjakan viewpoint", opis: "From 2,770 meters you watch the sun rise over the caldera: the furrowed cone of Batok, the smoking crater of Bromo and Semeru in the background emerge from the mist. You leave by jeep at around three in the morning, and it is close to freezing up there, so bring a hat and a jacket." },
+        { ime: "Bromo crater", opis: "You cross the sea of sand on foot or on horseback to the base, and then about 250 steps lead to the crater rim. From the top you look straight into the vent, from which sulfurous steam rises with a rumble." },
+        { ime: "The Sea of Sand and the Pura Luhur Poten temple", opis: "In the middle of the gray desert stands the Hindu temple of the Tengger people, built of black volcanic stone. During the Yadnya Kasada festival, usually in June or July, worshippers climb from here to the crater and throw vegetables, chickens and money into it in memory of the sacrificed Kesuma." },
+        { ime: "The savanna and Teletubbies Hill", opis: "On the southern side of the caldera the sand gives way to rolling green hills covered in grass and ferns, the complete opposite of the lunar landscape on the northern side." },
+        { ime: "Madakaripura Waterfall", opis: "In a narrow gorge the water falls from about 200 meters, and to reach the main fall you pass beneath a curtain of smaller ones. Tradition says that Gajah Mada, the famous military commander of Majapahit, spent his last days here in meditation." },
+        { ime: "Ijen crater", opis: "A few hours farther east, near Banyuwangi, lies the largest acidic lake in the world, turquoise in color. At night you can see the blue flame of burning sulfur gases at its edge, and miners carry baskets of yellow sulfur weighing more than seventy kilograms out of the crater on their shoulders." }
       ],
       jesti: [
-        { ime: "Rawon", opis: "Crna goveđa juha istočne Jave, kojoj boju i orašast okus daju fermentirane sjemenke stabla keluak, poslužena s rižom, klicama i slanim jajetom." },
-        { ime: "Bakso Malang", opis: "Juha s mesnim okruglicama, prženim tijestom i tofuom iz obližnjeg grada Malanga, koja grije nakon hladnog jutra na vulkanu." },
-        { ime: "Nasi pecel", opis: "Riža s kuhanim povrćem i ljutim umakom od kikirikija, uz hrskavi kreker od kikirikija, tipičan javanski doručak." }
+        { ime: "Rawon", opis: "The black beef soup of East Java, which gets its color and nutty flavor from the fermented seeds of the keluak tree, served with rice, bean sprouts and a salted egg." },
+        { ime: "Bakso Malang", opis: "A soup with meatballs, fried dough and tofu from the nearby city of Malang, which warms you up after a cold morning on the volcano." },
+        { ime: "Nasi pecel", opis: "Rice with boiled vegetables and a spicy peanut sauce, with a crunchy peanut cracker on the side, a typical Javanese breakfast." }
       ],
       dozivjeti: [
-        { ime: "Zora terencem", opis: "Vozači iz sela Cemoro Lawang voze starim terencima do vidikovca, a zatim preko pijeska do podnožja kratera. Ulaznice i obavijesti o zatvaranju zbog vulkanske aktivnosti objavljuje uprava parka.", link: "https://bromotenggersemeru.org/" },
-        { ime: "Malang i šarena sela", opis: "Grad s nizozemskim vilama i ugodnom klimom dobra je baza. Četvrt Jodipan uz rijeku stanovnici su oslikali u duginim bojama i tako je pretvorili od sirotinjske u najfotografiraniju u gradu." }
+        { ime: "Dawn by jeep", opis: "Drivers from the village of Cemoro Lawang take you in old jeeps to the viewpoint and then across the sand to the foot of the crater. Tickets and notices of closures due to volcanic activity are published by the park administration.", link: "https://bromotenggersemeru.org/" },
+        { ime: "Malang and the colorful villages", opis: "A city with Dutch villas and a pleasant climate makes a good base. The residents of the riverside Jodipan district painted it in rainbow colors and turned it from a slum into the most photographed neighborhood in the city." }
       ],
       agencije: [
-        { ime: "Nacionalni park Bromo Tengger Semeru", opis: "Službena stranica uprave parka s rezervacijama i obavijestima o stanju vulkana.", link: "https://bromotenggersemeru.org/" },
-        { ime: "Ministarstvo turizma Indonezije", opis: "Službena stranica nacionalnog ministarstva turizma.", link: "https://kemenpar.go.id/" }
+        { ime: "Bromo Tengger Semeru National Park", opis: "The official website of the park administration, with bookings and updates on the state of the volcano.", link: "https://bromotenggersemeru.org/" },
+        { ime: "Ministry of Tourism of Indonesia", opis: "The official website of the national ministry of tourism.", link: "https://kemenpar.go.id/" }
       ],
-      kada: "Od svibnja do listopada nebo je najčešće vedro. Vikendom i za indonezijske praznike na vidikovcu je velika gužva, pa dođite radnim danom i prespavajte u Cemoro Lawangu na samom rubu kaldere."
+      kada: "From May to October the sky is usually clear. On weekends and Indonesian holidays the viewpoint is very crowded, so come on a weekday and spend the night in Cemoro Lawang, right on the rim of the caldera."
     }
   ],
   izvori: [
-    { ime: "Ministarstvo turizma Republike Indonezije", url: "https://kemenpar.go.id/" },
-    { ime: "Love Bali, pokrajina Bali", url: "https://lovebali.baliprov.go.id/" },
+    { ime: "Ministry of Tourism of the Republic of Indonesia", url: "https://kemenpar.go.id/" },
+    { ime: "Love Bali, Province of Bali", url: "https://lovebali.baliprov.go.id/" },
     { ime: "UNESCO: Borobudur Temple Compounds", url: "https://whc.unesco.org/en/list/592" },
     { ime: "UNESCO: Prambanan Temple Compounds", url: "https://whc.unesco.org/en/list/642" },
     { ime: "UNESCO: Cultural Landscape of Bali Province, the Subak System", url: "https://whc.unesco.org/en/list/1194" },
     { ime: "UNESCO: Komodo National Park", url: "https://whc.unesco.org/en/list/609" },
     { ime: "Kraton Jogja", url: "https://www.kratonjogja.id/" },
     { ime: "Visiting Jogja", url: "https://visitingjogja.jogjaprov.go.id/" },
-    { ime: "Nacionalni park Komodo", url: "https://www.komodonationalpark.org/" },
-    { ime: "Nacionalni park Bromo Tengger Semeru", url: "https://bromotenggersemeru.org/" },
+    { ime: "Komodo National Park", url: "https://www.komodonationalpark.org/" },
+    { ime: "Bromo Tengger Semeru National Park", url: "https://bromotenggersemeru.org/" },
     { ime: "Museum Nasional Indonesia", url: "https://www.museumnasional.or.id/" },
   ]
 };

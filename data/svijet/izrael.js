@@ -1,212 +1,212 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["izrael"] = {
   id: "izrael",
-  ime: "Izrael i Palestina",
-  regija: "Bliski istok",
-  sazetak: "Komadić zemlje manji od Slavonije u kojem su na nekoliko kilometara zbijena sveta mjesta triju religija i tri tisuće godina povijesti.",
+  ime: "Israel and Palestine",
+  regija: "Middle East",
+  sazetak: "A sliver of land smaller than the Croatian region of Slavonia, where the holy places of three religions and three thousand years of history are packed into a few kilometers.",
   uvod: [
-    "Između Sredozemnog mora i rijeke Jordan leži prostor koji židovi, kršćani i muslimani smatraju svetim, i zato je gotovo svaki kamen ovdje nečija priča. Smjenjivali su se Kanaanci, izraelska kraljevstva, Babilonci, Perzijanci, Grci, Rimljani, Bizant, arapski kalifati, križari, Mameluci, Osmanlije i britanska uprava. Država Izrael proglašena je 1948., a Zapadna obala i Gaza palestinska su područja čiji status ostaje neriješen i predmet je dugotrajnog sukoba.",
-    "Ovaj vodič bavi se onime što putnica vidi, jede i može naučiti, i pritom nastoji mjesta nazivati onako kako ih zovu svi koji ih smatraju svojima. Jeruzalem i Betlehem dijeli desetak kilometara i jedan kontrolni prijelaz, a Tel Aviv je od Jeruzalema udaljen pola sata vlakom, a kao da je na drugom planetu. Upravo ta gustoća različitih svjetova čini putovanje ovamo nezaboravnim, ali traži i više pripreme i obzira nego drugdje."
+    "Between the Mediterranean Sea and the Jordan River lies a land that Jews, Christians and Muslims all hold sacred, which is why almost every stone here is part of somebody's story. Canaanites, the Israelite kingdoms, Babylonians, Persians, Greeks, Romans, Byzantium, the Arab caliphates, Crusaders, Mamluks, Ottomans and the British administration all followed one another. The State of Israel was proclaimed in 1948, and the West Bank and Gaza are Palestinian territories whose status remains unresolved and is the subject of a long-running conflict.",
+    "This guide deals with what a traveler sees, eats and can learn, and in doing so it tries to call places by the names used by everyone who considers them their own. Jerusalem and Bethlehem are separated by about ten kilometers and one checkpoint, and Tel Aviv is half an hour from Jerusalem by train yet feels as if it were on another planet. That very density of different worlds is what makes a journey here unforgettable, though it also calls for more preparation and consideration than elsewhere."
   ],
   ukratko: [
-    { k: "Sigurnost", v: "Sigurnosno se stanje može brzo mijenjati. Prije odluke o putu i neposredno prije polaska obvezno provjerite službene preporuke Ministarstva vanjskih i europskih poslova Republike Hrvatske, uvjete putnog osiguranja i stanje na prijelazima." },
-    { k: "Kada ići", v: "Od ožujka do svibnja i od rujna do studenoga. Ljeto je vruće, osobito uz Mrtvo more, a oko velikih blagdana (Pesah, Uskrs, Božić, Sukot) gužve su velike i cijene visoke." },
-    { k: "Valuta", v: "Novi izraelski šekel (ILS) koristi se i u Izraelu i na palestinskim područjima. Kartice se primaju posvuda u Izraelu, a u Betlehemu i na tržnicama korisna je gotovina." },
-    { k: "Kretanje", v: "Vlak povezuje zračnu luku, Tel Aviv i Jeruzalem, a autobusi ostatak zemlje uz karticu Rav-Kav. Od petka poslijepodne do subote navečer, tijekom šabata, javni prijevoz u većini židovskih gradova ne vozi. U Betlehem se ide arapskim autobusom iz istočnog Jeruzalema ili s vodičem, uz putovnicu." },
-    { k: "Napojnica", v: "U restoranima se očekuje 12 do 15 posto, najčešće u gotovini. Taksistima se ne daje, a vodičima da." },
-    { k: "Odijevanje", v: "Na svetim mjestima svih triju religija ramena i koljena moraju biti pokriveni, a marama u torbi uvijek dobro dođe." }
+    { k: "Safety", v: "The security situation can change quickly. Before you decide to travel and again right before departure, be sure to check the official advice of the Ministry of Foreign and European Affairs of the Republic of Croatia, the terms of your travel insurance and the situation at the crossings." },
+    { k: "When to go", v: "From March to May and from September to November. Summer is hot, especially by the Dead Sea, and around the major holidays (Passover, Easter, Christmas, Sukkot) the crowds are large and prices high." },
+    { k: "Currency", v: "The new Israeli shekel (ILS) is used both in Israel and in the Palestinian territories. Cards are accepted everywhere in Israel, and cash comes in handy in Bethlehem and at the markets." },
+    { k: "Getting around", v: "The train links the airport, Tel Aviv and Jerusalem, and buses cover the rest of the country with a Rav-Kav card. From Friday afternoon to Saturday evening, during Shabbat, public transport does not run in most Jewish cities. You travel to Bethlehem on an Arab bus from East Jerusalem or with a guide, and you need your passport." },
+    { k: "Tipping", v: "In restaurants 12 to 15 percent is expected, usually in cash. Taxi drivers are not tipped, but guides are." },
+    { k: "What to wear", v: "At the holy sites of all three religions your shoulders and knees must be covered, and a scarf in your bag always comes in handy." }
   ],
   hrana: [
-    { ime: "Humus", opis: "Topli namaz od slanutka, sezamove paste, limuna i češnjaka, preliven maslinovim uljem.", prica: "Ovdje je humus cijeli obrok, koji se jede prijepodne, s kruhom pita, sirovim lukom i ukiseljenim povrćem. Svaka zajednica ima svoju omiljenu radnju, a najbolje se zatvaraju čim se dnevni lonac isprazni." },
-    { ime: "Falafel", opis: "Pržene kuglice od mljevenog slanutka sa začinskim biljem, u kruhu s povrćem i umakom tahini.", prica: "Jelo je vjerojatno poteklo iz Egipta, gdje se radi od boba, i proširilo se cijelim Levantom. Na ulici ga jedu svi, a zeleniji je iznutra što je više peršina i korijandra." },
-    { ime: "Musakhan", opis: "Piletina pečena s brdom karameliziranog luka i kiselkastog sumaka na tankom kruhu taboon.", prica: "Smatra se palestinskim nacionalnim jelom i slavi novo maslinovo ulje u doba berbe, u listopadu i studenome. Jede se rukama, kidanjem kruha koji je upio sokove." },
-    { ime: "Shakshuka", opis: "Jaja poširana u gustom umaku od rajčice, paprike i kumina, poslužena u tavi.", prica: "Donijeli su je židovski doseljenici iz Tunisa i Libije i postala je omiljeni doručak. Ime na magrepskom arapskom znači otprilike „mješavina“." },
-    { ime: "Sabich", opis: "Pita punjena prženim patlidžanom, tvrdo kuhanim jajem, salatom, tahinijem i umakom od manga amba.", prica: "Bio je subotnji doručak iračkih Židova, koji na šabat ne kuhaju pa su jeli unaprijed pripremljene sastojke. U Tel Avivu se pretvorio u uličnu hranu oko koje se vode ozbiljne rasprave." },
-    { ime: "Knafeh iz Nablusa", opis: "Topla slastica od slanog bijelog sira pod narančastom koricom od griza, prelivena sirupom i posuta pistacijama.", prica: "Grad Nablus slavan je po svom siru i ovoj slastici, a jede se i u jeruzalemskom Starom gradu, izrezana s golemog okruglog pladnja." },
-    { ime: "Ka'ak al-Quds", opis: "Duguljasti jeruzalemski pereci gusto posuti sezamom.", prica: "Prodaju se s kolica pred Damaščanskim i Jafskim vratima, a uz njih prodavač daje smotuljak novina sa začinom zaatar i pečeno jaje. Mnogi tvrde da izvan Jeruzalema nemaju isti okus." },
-    { ime: "Jachnun i malawach", opis: "Jemenska lisnata tijesta, prvo pečeno cijelu noć, drugo prženo u tavi.", prica: "Donijeli su ih jemenski Židovi, a poslužuju se s ribanom rajčicom, tvrdo kuhanim jajem i ljutim umakom zhug. Jachnun se peče preko noći upravo zato da bi u subotu ujutro bio topao bez kuhanja." },
-    { ime: "Sok od nara i limonana", opis: "Svježe cijeđeni nar te limunada usitnjena s mentom.", prica: "Štandovi sa sokovima na svakom su uglu i dobar su razlog za predah. Nar je jedan od sedam biblijskih plodova ove zemlje, uz pšenicu, ječam, lozu, smokvu, maslinu i datulju." }
+    { ime: "Hummus", opis: "A warm spread of chickpeas, sesame paste, lemon and garlic, drizzled with olive oil.", prica: "Here hummus is a whole meal, eaten in the late morning with pita bread, raw onion and pickled vegetables. Every community has its favorite shop, and the best ones close as soon as the day's pot is empty." },
+    { ime: "Falafel", opis: "Fried balls of ground chickpeas with fresh herbs, served in bread with vegetables and tahini sauce.", prica: "The dish probably originated in Egypt, where it is made from fava beans, and spread across the whole Levant. Everybody eats it on the street, and the more parsley and cilantro it contains, the greener it is inside." },
+    { ime: "Musakhan", opis: "Chicken roasted with a mountain of caramelized onions and tangy sumac on thin taboon bread.", prica: "It is considered the Palestinian national dish and celebrates the new olive oil at harvest time, in October and November. You eat it with your hands, tearing off pieces of the bread that has soaked up the juices." },
+    { ime: "Shakshuka", opis: "Eggs poached in a thick sauce of tomatoes, peppers and cumin, served in the pan.", prica: "Jewish immigrants from Tunisia and Libya brought it with them, and it became a favorite breakfast. In Maghrebi Arabic the name means roughly 'a mixture'." },
+    { ime: "Sabich", opis: "A pita stuffed with fried eggplant, hard-boiled egg, salad, tahini and amba, a mango sauce.", prica: "It was the Saturday breakfast of Iraqi Jews, who do not cook on Shabbat and so ate ingredients prepared in advance. In Tel Aviv it turned into a street food that people argue about in all seriousness." },
+    { ime: "Knafeh from Nablus", opis: "A warm dessert of salty white cheese under an orange semolina crust, soaked in syrup and sprinkled with pistachios.", prica: "The city of Nablus is famous for its cheese and for this dessert, which is also eaten in Jerusalem's Old City, cut from an enormous round tray." },
+    { ime: "Ka'ak al-Quds", opis: "Elongated Jerusalem bread rings thickly coated in sesame seeds.", prica: "They are sold from carts outside the Damascus Gate and the Jaffa Gate, and along with them the vendor hands you a twist of newspaper holding za'atar spice and a baked egg. Many people claim they do not taste the same outside Jerusalem." },
+    { ime: "Jachnun and malawach", opis: "Yemenite layered pastries, the first baked all night long and the second fried in a pan.", prica: "Yemenite Jews brought them over, and they are served with grated tomato, a hard-boiled egg and the hot sauce called zhug. Jachnun is baked overnight precisely so that it will be warm on Saturday morning without any cooking." },
+    { ime: "Pomegranate juice and limonana", opis: "Freshly squeezed pomegranate, and lemonade blended with mint.", prica: "Juice stands are on every corner and make a good excuse for a break. The pomegranate is one of the seven biblical fruits of this land, along with wheat, barley, the vine, the fig, the olive and the date." }
   ],
   obicaji: [
-    { ime: "Šabat", opis: "Od zalaska sunca u petak do pojave zvijezda u subotu religiozni Židovi ne rade, ne voze i ne pale vatru ni struju. Petkom poslijepodne gradovi utihnu, a obitelji se okupe za večerom uz svijeće, vino i pleteni kruh hala.", gdje: "U petak pred sumrak kod Zapadnog zida u Jeruzalemu, gdje se šabat dočekuje pjesmom i plesom, te na tržnici Mahane Yehuda u vrevi posljednje kupnje." },
-    { ime: "Tatreez", opis: "Palestinski križni vez na haljinama thobe nosi uzorke po kojima se znalo iz kojeg je sela žena i je li udana. UNESCO ga je 2021. upisao na popis nematerijalne baštine.", gdje: "U ženskim zadrugama i trgovinama u Betlehemu, Ramali i jeruzalemskom Starom gradu." },
-    { ime: "Dabke", opis: "Kolo snažnog udaranja nogama koje se pleše na svadbama diljem Levanta, a UNESCO ga je 2023. upisao kao palestinsku baštinu.", gdje: "Na svadbama i kulturnim festivalima u Betlehemu i Ramali, osobito ljeti." },
-    { ime: "Tri Božića u Betlehemu", opis: "Katolici slave 25. prosinca, pravoslavni 7. siječnja, a Armenci u Svetoj zemlji 18. i 19. siječnja, pa svečane povorke patrijarha s izviđačkim orkestrima stižu na Trg jaslica tri puta.", gdje: "Trg jaslica i Bazilika Rođenja u Betlehemu, uz ponoćku 24. prosinca u crkvi svete Katarine." },
-    { ime: "Berba maslina", opis: "U listopadu i studenome cijele obitelji izlaze u maslinike, a stabla stara stotinama godina prenose se s koljena na koljeno. Maslinovo drvo betlehemski rezbari pretvaraju u jaslice i krunice još od dolaska franjevaca.", gdje: "U brdima oko Betlehema i u Galileji, a rezbare na djelu vidjet ćete u radionicama u Betlehemu i Beit Sahouru." },
-    { ime: "Ramazan u Starom gradu", opis: "Tijekom mjeseca posta muslimanska se četvrt okiti lampionima, a nakon zalaska sunca ulice se pune ljudima koji idu na molitvu i večeru.", gdje: "Oko Damaščanskih vrata u Jeruzalemu, gdje se prodaju slatke palačinke qatayef koje se rade samo u ramazanu." }
+    { ime: "Shabbat", opis: "From sunset on Friday until the stars appear on Saturday, observant Jews do not work, drive, or light a fire or switch on electricity. On Friday afternoon the cities fall quiet, and families gather for dinner with candles, wine and the braided bread called challah.", gdje: "On Friday before dusk at the Western Wall in Jerusalem, where Shabbat is welcomed with song and dance, and at the Mahane Yehuda market in the bustle of last-minute shopping." },
+    { ime: "Tatreez", opis: "Palestinian cross-stitch embroidery on thobe dresses carries patterns that once showed which village a woman came from and whether she was married. UNESCO inscribed it on the list of intangible heritage in 2021.", gdje: "In women's cooperatives and shops in Bethlehem, Ramallah and Jerusalem's Old City." },
+    { ime: "Dabke", opis: "A circle dance of powerful foot stomping that is danced at weddings throughout the Levant, and which UNESCO inscribed as Palestinian heritage in 2023.", gdje: "At weddings and cultural festivals in Bethlehem and Ramallah, especially in summer." },
+    { ime: "Three Christmases in Bethlehem", opis: "Catholics celebrate on December 25, the Orthodox on January 7, and the Armenians in the Holy Land on January 18 and 19, so the ceremonial processions of the patriarchs with scout bands arrive on Manger Square three times.", gdje: "Manger Square and the Church of the Nativity in Bethlehem, with Midnight Mass on December 24 in the Church of St. Catherine." },
+    { ime: "The olive harvest", opis: "In October and November whole families head out into the olive groves, where trees hundreds of years old are handed down from generation to generation. Bethlehem's carvers have been turning olive wood into nativity scenes and rosaries ever since the Franciscans arrived.", gdje: "In the hills around Bethlehem and in Galilee, and you can watch the carvers at work in the workshops of Bethlehem and Beit Sahour." },
+    { ime: "Ramadan in the Old City", opis: "During the month of fasting the Muslim Quarter is decked with lanterns, and after sunset the streets fill with people on their way to prayer and to dinner.", gdje: "Around the Damascus Gate in Jerusalem, where vendors sell qatayef, sweet pancakes made only during Ramadan." }
   ],
   fraze: [
-    { izvorno: "Shalom (hebrejski)", izgovor: "ša-LOM", hr: "Mir, bok i doviđenja" },
-    { izvorno: "Toda (hebrejski)", izgovor: "to-DA", hr: "Hvala" },
-    { izvorno: "Bevakasha (hebrejski)", izgovor: "be-va-ka-ŠA", hr: "Molim, izvolite" },
-    { izvorno: "Slicha (hebrejski)", izgovor: "sli-HA", hr: "Oprostite" },
-    { izvorno: "Marhaba (arapski)", izgovor: "MAR-ha-ba", hr: "Bok, dobar dan" },
-    { izvorno: "Shukran (arapski)", izgovor: "ŠUK-ran", hr: "Hvala" },
-    { izvorno: "Sabah al-kheir (arapski)", izgovor: "sa-BAH al-HEJR", hr: "Dobro jutro" },
-    { izvorno: "Yalla (oba jezika)", izgovor: "JA-la", hr: "Idemo, hajde" }
+    { izvorno: "Shalom (Hebrew)", izgovor: "shah-LOHM", hr: "Peace, hello and goodbye" },
+    { izvorno: "Toda (Hebrew)", izgovor: "toh-DAH", hr: "Thank you" },
+    { izvorno: "Bevakasha (Hebrew)", izgovor: "beh-vah-kah-SHAH", hr: "Please, here you go" },
+    { izvorno: "Slicha (Hebrew)", izgovor: "slee-KHAH", hr: "Excuse me, sorry" },
+    { izvorno: "Marhaba (Arabic)", izgovor: "MAR-hah-bah", hr: "Hi, hello" },
+    { izvorno: "Shukran (Arabic)", izgovor: "SHOOK-rahn", hr: "Thank you" },
+    { izvorno: "Sabah al-kheir (Arabic)", izgovor: "sah-BAH al-KHAYR", hr: "Good morning" },
+    { izvorno: "Yalla (both languages)", izgovor: "YAH-lah", hr: "Let's go, come on" }
   ],
   zanimljivosti: [
-    "Ključeve crkve Svetoga groba stoljećima čuvaju dvije muslimanske obitelji, Joudeh i Nusseibeh, jer se kršćanske zajednice nisu mogle dogovoriti kome će pripasti.",
-    "Na pročelju iste crkve stoje drvene ljestve koje nitko ne smije pomaknuti barem od 18. stoljeća, jer bi to narušilo dogovor o tome što kome pripada.",
-    "Mrtvo more najniža je kopnena točka na Zemlji, a Galilejsko jezero najniže slatkovodno jezero na svijetu.",
-    "Hebrejski je kao govorni jezik oživljen krajem 19. stoljeća, nakon gotovo dvije tisuće godina tijekom kojih se uglavnom samo čitao i molio.",
-    "Franjevac Bonifacije Drkolica s Lopuda, poznat kao Bonifacije Dubrovčanin, bio je kustos Svete zemlje i 1555. dao je obnoviti kapelicu nad Isusovim grobom.",
-    "Sveti Jeronim, rođen u Stridonu na granici Dalmacije i Panonije, preveo je Bibliju na latinski u špilji pokraj mjesta Isusova rođenja u Betlehemu.",
-    "Tel Aviv ima oko četiri tisuće zgrada u stilu Bauhausa i međunarodnog stila, najviše na svijetu na jednome mjestu."
+    "For centuries the keys to the Church of the Holy Sepulchre have been kept by two Muslim families, the Joudeh and the Nusseibeh, because the Christian communities could not agree on who should have them.",
+    "On the facade of the same church stands a wooden ladder that nobody has been allowed to move since at least the 18th century, because doing so would upset the agreement about what belongs to whom.",
+    "The Dead Sea is the lowest point on land on Earth, and the Sea of Galilee is the lowest freshwater lake in the world.",
+    "Hebrew was revived as a spoken language at the end of the 19th century, after almost two thousand years during which it was mostly only read and prayed.",
+    "The Franciscan Bonifacije Drkolica from the island of Lopud, known as Boniface of Ragusa, was Custos of the Holy Land and in 1555 had the little chapel over the tomb of Jesus restored.",
+    "Saint Jerome, born in Stridon on the border of Dalmatia and Pannonia, translated the Bible into Latin in a cave beside the place of Jesus's birth in Bethlehem.",
+    "Tel Aviv has around four thousand buildings in the Bauhaus and International styles, the largest number in the world in a single place."
   ],
   mjesta: [
     {
       id: "jeruzalem",
-      ime: "Jeruzalem",
+      ime: "Jerusalem",
       vrsta: "grad",
-      sazetak: "Grad unutar zidina u kojem su Zapadni zid, crkva Svetoga groba i Kupola na stijeni udaljeni nekoliko minuta hoda.",
-      prica: ["Prema Bibliji, kralj David učinio je Jeruzalem prijestolnicom oko 1000. prije Krista, a njegov sin Salomon sagradio je Prvi hram. Babilonci su ga razorili 586. prije Krista, Rimljani su 70. godine uništili Drugi hram, a zatim su gradom vladali Bizant, arapski kalifi, križari, Mameluci i Osmanlije. Današnje zidine podigao je sultan Sulejman Veličanstveni između 1535. i 1541., a Stari grad unutar njih dijeli se na muslimansku, kršćansku, židovsku i armensku četvrt. Status grada jedno je od najosjetljivijih pitanja sukoba."],
+      sazetak: "A city within walls where the Western Wall, the Church of the Holy Sepulchre and the Dome of the Rock are a few minutes' walk apart.",
+      prica: ["According to the Bible, King David made Jerusalem his capital around 1000 BC, and his son Solomon built the First Temple. The Babylonians destroyed it in 586 BC, the Romans destroyed the Second Temple in the year 70, and after that the city was ruled by Byzantium, the Arab caliphs, the Crusaders, the Mamluks and the Ottomans. The present walls were raised by Sultan Suleiman the Magnificent between 1535 and 1541, and the Old City inside them is divided into the Muslim, Christian, Jewish and Armenian quarters. The status of the city is one of the most sensitive issues of the conflict."],
       vidjeti: [
-        { ime: "Crkva Svetoga groba", opis: "Stoji na mjestu koje kršćani od 4. stoljeća štuju kao Golgotu i Isusov grob, a današnji je oblik uglavnom križarski, iz 1149. Pod istim krovom služi šest kršćanskih zajednica prema strogom rasporedu zvanom Status quo, pa potražite „nepomične ljestve“ pod prozorom na pročelju i Kamen pomazanja odmah iza ulaza." },
-        { ime: "Zapadni zid", opis: "Golemi kameni blokovi dio su potpornog zida kojim je Herod Veliki krajem 1. stoljeća prije Krista proširio brdo Hrama. Najsvetije je mjesto židovske molitve, a u pukotine se stavljaju ceduljice s molitvama. Donji redovi kamena imaju uklesan plitki okvir uz rub, što je Herodov graditeljski potpis." },
-        { ime: "Brdo Hrama, odnosno Haram al-Šarif", opis: "Na zaravni koju židovi štuju kao mjesto Hrama, a muslimani kao mjesto Muhamedova noćnog putovanja stoje Kupola na stijeni i džamija Al-Aksa. Kupolu je 691. dao sagraditi kalif Abd al-Malik i najstarija je sačuvana islamska građevina, osmerokutna po uzoru na bizantske crkve. Posjetitelji koji nisu muslimani ulaze samo u određene sate i ne smiju u same građevine." },
-        { ime: "Via Dolorosa", opis: "Put križa s četrnaest postaja vodi od muslimanske četvrti do crkve Svetoga groba, a posljednjih pet postaja nalazi se u samoj crkvi. Trasa je utvrđena tek u kasnom srednjem vijeku, a franjevci je svakog petka poslijepodne prolaze u procesiji kojoj se možete pridružiti." },
-        { ime: "Izraelski muzej", opis: "U bijeloj kupoli nalik poklopcu ćupa čuvaju se Svici s Mrtvog mora, najstariji poznati biblijski rukopisi, stari oko dvije tisuće godina. U vrtu je maketa Jeruzalema iz doba Drugog hrama u mjerilu 1:50, nakon koje je šetnja Starim gradom mnogo jasnija." },
-        { ime: "Yad Vashem", opis: "Memorijalni centar žrtava holokausta vodi posjetitelja kroz dugu betonsku prizmu koja se na kraju otvara prema brdima. U Dvorani imena pod stošcem s fotografijama čuvaju se svjedočanstva o milijunima ubijenih, a u Aleji pravednika rastu stabla posađena za one koji su spašavali Židove." }
+        { ime: "Church of the Holy Sepulchre", opis: "It stands on the site that Christians have venerated since the 4th century as Golgotha and the tomb of Jesus, and its present form is mostly Crusader, from 1149. Six Christian communities worship under the same roof according to a strict arrangement known as the Status Quo, so look for the 'immovable ladder' beneath a window on the facade and the Stone of Anointing just inside the entrance." },
+        { ime: "Western Wall", opis: "The enormous stone blocks are part of the retaining wall with which Herod the Great enlarged the Temple Mount at the end of the 1st century BC. It is the holiest place of Jewish prayer, and slips of paper bearing prayers are tucked into its cracks. The lower courses of stone have a shallow frame carved along the edge, which is Herod's signature as a builder." },
+        { ime: "The Temple Mount, or Haram al-Sharif", opis: "On the plateau that Jews venerate as the site of the Temple and Muslims as the place of Muhammad's Night Journey stand the Dome of the Rock and the Al-Aqsa Mosque. The Dome was commissioned in 691 by Caliph Abd al-Malik and is the oldest surviving Islamic building, octagonal in the manner of Byzantine churches. Visitors who are not Muslim may enter only at set hours and are not allowed inside the buildings themselves." },
+        { ime: "Via Dolorosa", opis: "The Way of the Cross, with its fourteen stations, leads from the Muslim Quarter to the Church of the Holy Sepulchre, and the last five stations are inside the church itself. The route was only fixed in the late Middle Ages, and every Friday afternoon the Franciscans walk it in a procession that you are welcome to join." },
+        { ime: "Israel Museum", opis: "The white dome shaped like the lid of a jar houses the Dead Sea Scrolls, the oldest known biblical manuscripts, around two thousand years old. In the garden there is a model of Jerusalem in the Second Temple period at a scale of 1:50, and after seeing it a walk through the Old City makes much more sense." },
+        { ime: "Yad Vashem", opis: "The memorial center to the victims of the Holocaust leads visitors through a long concrete prism that opens toward the hills at the end. In the Hall of Names, beneath a cone lined with photographs, testimonies about millions of murdered people are preserved, and along the Avenue of the Righteous grow trees planted for those who rescued Jews." }
       ],
       jesti: [
-        { ime: "Tržnica Mahane Yehuda", opis: "Danju se ovdje kupuju halva, začini i svježi burekas, a navečer se štandovi pretvaraju u barove i male restorane." },
-        { ime: "Me'orav Yerushalmi", opis: "Jeruzalemska miješana pečenka od pilećih iznutrica i mesa s lukom i začinima, pečena na ploči i stavljena u pitu, rođena je uz tržnicu Mahane Yehuda." },
-        { ime: "Humus i knafeh u Starom gradu", opis: "U muslimanskoj četvrti male obiteljske radnje poslužuju humus do ranog poslijepodneva, a slastičarnice režu toplu knafeh s velikih pladnjeva." }
+        { ime: "Mahane Yehuda market", opis: "By day this is where people buy halva, spices and fresh bourekas, and in the evening the stalls turn into bars and small restaurants." },
+        { ime: "Me'orav Yerushalmi", opis: "The Jerusalem mixed grill of chicken offal and meat with onions and spices, cooked on a griddle and stuffed into a pita, was born beside the Mahane Yehuda market." },
+        { ime: "Hummus and knafeh in the Old City", opis: "In the Muslim Quarter small family shops serve hummus until early afternoon, and the pastry shops cut warm knafeh from large trays." }
       ],
       dozivjeti: [
-        { ime: "Šetnja po zidinama", opis: "Po Sulejmanovim zidinama može se hodati u dva smjera od Jafskih vrata i gledati krovove, dvorišta i zvonike četiriju četvrti odozgo." },
-        { ime: "Zalazak sunca s Maslinske gore", opis: "S vidikovca iznad židovskog groblja vidi se cijeli Stari grad sa zlatnom kupolom, a u podnožju je Getsemanski vrt s maslinama starima više stoljeća." },
-        { ime: "Pješačke ture Starim gradom", opis: "Abraham Tours organizira vođene obilaske Jeruzalema te izlete u Betlehem, na Masadu i Mrtvo more za goste koji putuju sami.", link: "https://www.abrahamtours.com/" }
+        { ime: "A walk on the ramparts", opis: "You can walk along Suleiman's walls in two directions from the Jaffa Gate and look down on the rooftops, courtyards and bell towers of the four quarters." },
+        { ime: "Sunset from the Mount of Olives", opis: "From the lookout above the Jewish cemetery you can see the whole Old City with its golden dome, and at the foot of the hill lies the Garden of Gethsemane with olive trees that are centuries old." },
+        { ime: "Walking tours of the Old City", opis: "Abraham Tours organizes guided tours of Jerusalem as well as trips to Bethlehem, Masada and the Dead Sea for guests who are traveling on their own.", link: "https://www.abrahamtours.com/" }
       ],
       agencije: [
-        { ime: "iTravelJerusalem", opis: "Službena turistička stranica grada Jeruzalema.", link: "https://www.itraveljerusalem.com/" },
-        { ime: "Kustodija Svete zemlje", opis: "Franjevci koji od 14. stoljeća čuvaju katolička sveta mjesta, s rasporedom misa i procesija.", link: "https://www.custodia.org/en/" },
-        { ime: "The Israel Museum", opis: "Službena stranica muzeja s radnim vremenom i izložbama.", link: "https://www.imj.org.il/en" }
+        { ime: "iTravelJerusalem", opis: "The official tourism website of the city of Jerusalem.", link: "https://www.itraveljerusalem.com/" },
+        { ime: "Custody of the Holy Land", opis: "The Franciscans who have looked after the Catholic holy places since the 14th century, with the schedule of Masses and processions.", link: "https://www.custodia.org/en/" },
+        { ime: "The Israel Museum", opis: "The museum's official website, with opening hours and exhibitions.", link: "https://www.imj.org.il/en" }
       ],
-      kada: "Proljeće i jesen. U crkvu Svetoga groba dođite čim se otvori, prije grupa, a petkom i subotom računajte na to da je dio grada zatvoren zbog molitve ili šabata."
+      kada: "Spring and fall. Come to the Church of the Holy Sepulchre as soon as it opens, ahead of the groups, and on Fridays and Saturdays expect part of the city to be closed for prayer or for Shabbat."
     },
     {
       id: "tel-aviv",
       ime: "Tel Aviv",
       vrsta: "grad",
-      sazetak: "Mlad, svjetovan grad na plaži s bijelim zgradama Bauhausa i drevnom lukom Jafom na južnom kraju.",
-      prica: ["Jafa je jedna od najstarijih luka na svijetu, a predaja je povezuje s prorokom Jonom i svetim Petrom. Godine 1909. šezdesetak židovskih obitelji ždrijebom je podijelilo parcele na pješčanim dinama sjeverno od nje i osnovalo predgrađe koje je postalo Tel Aviv. Tridesetih godina 20. stoljeća arhitekti školovani u Europi, mnogi izbjegli pred nacizmom, sagradili su tisuće zgrada u međunarodnom stilu, pa je UNESCO 2003. zaštitio Bijeli grad."],
+      sazetak: "A young, secular city on the beach, with white Bauhaus buildings and the ancient port of Jaffa at its southern end.",
+      prica: ["Jaffa is one of the oldest ports in the world, and tradition links it with the prophet Jonah and with Saint Peter. In 1909 about sixty Jewish families drew lots for plots on the sand dunes to the north of it and founded a suburb that became Tel Aviv. In the 1930s architects trained in Europe, many of them refugees from Nazism, built thousands of buildings in the International Style, and in 2003 UNESCO gave protection to the White City."],
       vidjeti: [
-        { ime: "Bijeli grad i Bulevar Rothschild", opis: "Zgrade iz tridesetih godina prepoznat ćete po zaobljenim balkonima, uskim vodoravnim prozorima i stupovima na kojima kuća lebdi iznad vrta. Europski Bauhaus ovdje je prilagođen suncu: prozori su manji, a balkoni duboki da prave hlad." },
-        { ime: "Stara Jafa", opis: "Kamene uličice nazvane po znakovima zodijaka spuštaju se do luke stare više od tri tisuće godina. Potražite viseće stablo naranče u kamenoj posudi i crkvu svetog Petra, okrenutu prema moru, odakle je apostol prema Djelima apostolskim krenuo u svijet." },
-        { ime: "Neve Tzedek", opis: "Prva židovska četvrt izvan Jafe osnovana je 1887., dvadesetak godina prije samog Tel Aviva. Niske kuće u pastelnim bojama danas su pune galerija, a u bivšoj školi djeluje plesni centar Suzanne Dellal." },
-        { ime: "Tržnica Carmel", opis: "Glavna gradska tržnica od 1920. vodi od središta prema moru, a u susjednoj jemenskoj četvrti Kerem HaTeimanim stare obitelji i danas kuhaju juhe i jachnun po receptima iz Jemena." },
-        { ime: "Muzej umjetnosti Tel Aviva", opis: "Novo krilo iz 2011. ima središnji prostor nazvan „slap svjetla“, koji se lomi kroz pet katova. U zbirci su europski modernisti i najveći pregled izraelske umjetnosti." }
+        { ime: "The White City and Rothschild Boulevard", opis: "You will recognize the buildings of the 1930s by their rounded balconies, narrow horizontal windows and the pillars on which the house floats above the garden. European Bauhaus was adapted to the sun here: the windows are smaller and the balconies are deep so that they cast shade." },
+        { ime: "Old Jaffa", opis: "Stone alleys named after the signs of the zodiac run down to a harbor more than three thousand years old. Look for the orange tree suspended in a stone vessel and for St. Peter's Church, facing the sea, from where, according to the Acts of the Apostles, the apostle set out into the world." },
+        { ime: "Neve Tzedek", opis: "The first Jewish neighborhood outside Jaffa was founded in 1887, some twenty years before Tel Aviv itself. Its low houses in pastel colors are full of galleries today, and the Suzanne Dellal dance center operates in a former school." },
+        { ime: "Carmel Market", opis: "The city's main market has run from the center toward the sea since 1920, and in the neighboring Yemenite Quarter, Kerem HaTeimanim, old families still cook soups and jachnun using recipes from Yemen." },
+        { ime: "Tel Aviv Museum of Art", opis: "The new wing from 2011 has a central space called the 'Lightfall', which refracts light down through five floors. The collection includes European modernists and the largest survey of Israeli art." }
       ],
       jesti: [
-        { ime: "Humus u Jafi", opis: "Abu Hassan u Jafi poslužuje samo nekoliko vrsta humusa i zatvara kada se lonac isprazni, obično rano poslijepodne." },
-        { ime: "Sabich", opis: "Najpoznatije se radnje nalaze u središtu grada, a red pred njima u podne najbolja je preporuka." },
-        { ime: "Izraelski doručak", opis: "Obilan stol sa salatom, sirevima, jajima, maslinama i kruhom nasljeđe je kibuca, gdje se nakon jutarnjeg rada u polju jelo zajedno." }
+        { ime: "Hummus in Jaffa", opis: "Abu Hassan in Jaffa serves only a few kinds of hummus and closes when the pot is empty, usually in the early afternoon." },
+        { ime: "Sabich", opis: "The best-known shops are in the city center, and the line outside them at noon is the best recommendation." },
+        { ime: "Israeli breakfast", opis: "A generous table of salad, cheeses, eggs, olives and bread is a legacy of the kibbutz, where people ate together after the morning's work in the fields." }
       ],
       dozivjeti: [
-        { ime: "Šetnja uz more do Jafe", opis: "Šetnica duga nekoliko kilometara vodi od luke Tel Aviva do Jafe, a najljepša je pred zalazak sunca, kada se cijeli grad spusti na plažu." },
-        { ime: "Buvljak u Jafi", opis: "Shuk HaPishpeshim spoj je starinarnica, dizajnerskih trgovina i kafića, a petkom prijepodne je najživlji." }
+        { ime: "A seaside walk to Jaffa", opis: "A promenade several kilometers long leads from the Tel Aviv Port to Jaffa, and it is at its loveliest before sunset, when the whole city comes down to the beach." },
+        { ime: "The Jaffa flea market", opis: "Shuk HaPishpeshim is a mix of antique shops, designer stores and cafés, and it is at its liveliest on Friday mornings." }
       ],
       agencije: [
-        { ime: "Visit Tel Aviv", opis: "Službena turistička stranica grada Tel Aviva i Jafe.", link: "https://www.visit-tel-aviv.com/en/" },
-        { ime: "Israel Travel", opis: "Službena stranica izraelskog Ministarstva turizma.", link: "https://israel.travel/" }
+        { ime: "Visit Tel Aviv", opis: "The official tourism website of the city of Tel Aviv and Jaffa.", link: "https://www.visit-tel-aviv.com/en/" },
+        { ime: "Israel Travel", opis: "The official website of the Israeli Ministry of Tourism.", link: "https://israel.travel/" }
       ],
-      kada: "Od travnja do lipnja i u rujnu i listopadu. Tel Aviv je i na šabat živ, ali javni prijevoz ne vozi, pa se oslonite na noge, bicikl ili zajedničke taksije šerut."
+      kada: "From April to June and in September and October. Tel Aviv stays lively on Shabbat too, but public transport does not run, so rely on your feet, a bike or the shared taxis called sherut."
     },
     {
       id: "betlehem",
-      ime: "Betlehem",
+      ime: "Bethlehem",
       vrsta: "grad",
-      sazetak: "Palestinski grad na Zapadnoj obali u kojem jedna od najstarijih crkava na svijetu čuva mjesto Isusova rođenja.",
-      prica: ["Betlehem se spominje kao rodni grad kralja Davida, a evanđelja ga navode kao mjesto Isusova rođenja. Prvu crkvu nad špiljom dali su sagraditi car Konstantin i njegova majka Jelena u 4. stoljeću, a car Justinijan obnovio ju je u 6. stoljeću. Grad je danas pod upravom Palestinske samouprave, od Jeruzalema ga dijele zid i kontrolni prijelaz, a živi od hodočasnika, maslinova drva i sedefa."],
+      sazetak: "A Palestinian city in the West Bank where one of the oldest churches in the world guards the place of Jesus's birth.",
+      prica: ["Bethlehem is mentioned as the birthplace of King David, and the Gospels name it as the place where Jesus was born. The first church over the cave was built in the 4th century on the orders of Emperor Constantine and his mother Helena, and Emperor Justinian rebuilt it in the 6th century. Today the city is administered by the Palestinian Authority, a wall and a checkpoint separate it from Jerusalem, and it lives from pilgrims, olive wood and mother-of-pearl."],
       vidjeti: [
-        { ime: "Bazilika Rođenja", opis: "U crkvu se ulazi kroz Vrata poniznosti, visoka jedva metar i dvadeset, smanjena kako nitko ne bi mogao ujahati na konju. U špilji ispod oltara srebrna zvijezda s četrnaest krakova označava mjesto rođenja. Predaja kaže da su Perzijanci 614. poštedjeli crkvu jer su na mozaiku prepoznali trojicu mudraca u perzijskoj nošnji. UNESCO ju je zaštitio 2012." },
-        { ime: "Podni i zidni mozaici bazilike", opis: "Kroz drvene poklopce u podu vide se mozaici Konstantinove crkve iz 4. stoljeća. Na zidovima su, nakon nedavne obnove, ponovno zablistali križarski mozaici iz 12. stoljeća s anđelima koji koračaju prema špilji, a jedan je anđeo otkriven pod žbukom tek tijekom radova." },
-        { ime: "Špilja svetog Jeronima", opis: "Iz susjedne crkve svete Katarine stube vode u podzemne prostorije u kojima je, prema predaji, sveti Jeronim krajem 4. stoljeća trideset godina prevodio Bibliju na latinski. Jeronim je rođen u Stridonu, na granici Dalmacije i Panonije, pa je ovo mjesto posebno drago hrvatskim hodočasnicima." },
-        { ime: "Mliječna špilja", opis: "Legenda kaže da je ovdje Marija dojila dijete prije bijega u Egipat i da je kap mlijeka obojila stijenu u bijelo. Mekani bijeli kamen stoljećima stružu i nose žene koje se mole za dijete, a zidovi kapelice puni su njihovih pisama zahvale." },
-        { ime: "Zid i murali", opis: "Betonski zid visok oko osam metara prolazi rubom grada, a na njemu i oko njega nastala je galerija ulične umjetnosti, uključujući radove britanskog umjetnika Banksyja. Njegova golubica u pancirki i djevojčica koja pretražuje vojnika nalaze se na zidovima kuća nedaleko od prijelaza." }
+        { ime: "Church of the Nativity", opis: "You enter the church through the Door of Humility, barely a meter twenty high, which was made smaller so that nobody could ride in on horseback. In the grotto beneath the altar a silver star with fourteen points marks the place of the birth. Tradition has it that the Persians spared the church in 614 because they recognized the three Magi in Persian dress in a mosaic. UNESCO gave it protection in 2012." },
+        { ime: "The floor and wall mosaics of the basilica", opis: "Through wooden trapdoors in the floor you can see the mosaics of Constantine's 4th-century church. On the walls, following a recent restoration, the Crusader mosaics of the 12th century gleam once again, with angels walking toward the grotto, and one angel was discovered under the plaster only during the works." },
+        { ime: "Cave of Saint Jerome", opis: "From the neighboring Church of St. Catherine, steps lead down to the underground rooms where, according to tradition, Saint Jerome spent thirty years at the end of the 4th century translating the Bible into Latin. Jerome was born in Stridon, on the border of Dalmatia and Pannonia, which makes this place especially dear to Croatian pilgrims." },
+        { ime: "Milk Grotto", opis: "Legend says that Mary nursed her child here before the flight into Egypt and that a drop of milk turned the rock white. For centuries women praying for a child have scraped off the soft white stone and carried it away, and the walls of the chapel are covered with their letters of thanks." },
+        { ime: "The wall and its murals", opis: "A concrete wall about eight meters high runs along the edge of the city, and on it and around it a gallery of street art has grown up, including works by the British artist Banksy. His dove in a bulletproof vest and his girl frisking a soldier are on the walls of houses not far from the checkpoint." }
       ],
       jesti: [
-        { ime: "Maqluba i musakhan", opis: "Obiteljski restorani oko Trga jaslica i u susjednom Beit Sahouru poslužuju palestinska nedjeljna jela, često po narudžbi dan ranije." },
-        { ime: "Falafel na Trgu jaslica", opis: "Male radnje uz trg prže falafel cijeli dan, a uz njega ide kiselo povrće i ljuti umak shatta." },
-        { ime: "Vino iz samostana Cremisan", opis: "Salezijanci od 19. stoljeća u dolini kraj Betlehema proizvode vino od starih domaćih sorti grožđa poput dabouki i baladi." }
+        { ime: "Maqluba and musakhan", opis: "Family restaurants around Manger Square and in neighboring Beit Sahour serve the Palestinian Sunday dishes, often to order a day ahead." },
+        { ime: "Falafel on Manger Square", opis: "Small shops beside the square fry falafel all day long, and it comes with pickled vegetables and the hot sauce called shatta." },
+        { ime: "Wine from the Cremisan monastery", opis: "Since the 19th century the Salesians have been making wine in a valley near Bethlehem from old native grape varieties such as Dabouki and Baladi." }
       ],
       dozivjeti: [
-        { ime: "Radionice maslinova drva", opis: "U Betlehemu i Beit Sahouru obitelji naraštajima rezbare jaslice, a u radionicama možete vidjeti cijeli postupak, od sušenja drva do poliranja." },
-        { ime: "Obilazak s lokalnim vodičem", opis: "Alternative Tourism Group iz Beit Sahoura organizira obilaske, susrete s obiteljima i pješačenja koji pokazuju svakodnevni život Palestinaca.", link: "https://atg.ps/" },
-        { ime: "Pastirsko polje u Beit Sahouru", opis: "Franjevačka kapelica u obliku šatora i špilje s tragovima života pastira nalaze se na mjestu gdje predaja smješta navještenje anđela pastirima." }
+        { ime: "Olive wood workshops", opis: "In Bethlehem and Beit Sahour, families have been carving nativity scenes for generations, and in the workshops you can see the whole process, from drying the wood to polishing." },
+        { ime: "A tour with a local guide", opis: "The Alternative Tourism Group from Beit Sahour organizes tours, meetings with families and hikes that show the everyday life of Palestinians.", link: "https://atg.ps/" },
+        { ime: "Shepherds' Field in Beit Sahour", opis: "A Franciscan chapel shaped like a tent and caves with traces of shepherds' lives stand on the spot where tradition places the angel's announcement to the shepherds." }
       ],
       agencije: [
-        { ime: "Travel Palestine", opis: "Službena stranica palestinskog Ministarstva turizma i starina.", link: "https://www.travelpalestine.ps/en" },
-        { ime: "Grad Betlehem", opis: "Službena stranica gradske uprave s informacijama za posjetitelje.", link: "https://www.bethlehem-city.org/en" },
-        { ime: "Green Olive Tours", opis: "Organizator kulturnih i povijesnih tura koje vode i izraelski i palestinski vodiči.", link: "https://greenolivetours.com/" }
+        { ime: "Travel Palestine", opis: "The official website of the Palestinian Ministry of Tourism and Antiquities.", link: "https://www.travelpalestine.ps/en" },
+        { ime: "City of Bethlehem", opis: "The official website of the municipality, with information for visitors.", link: "https://www.bethlehem-city.org/en" },
+        { ime: "Green Olive Tours", opis: "An organizer of cultural and historical tours led by both Israeli and Palestinian guides.", link: "https://greenolivetours.com/" }
       ],
-      kada: "Proljeće i jesen, ili prosinac zbog božićnog ozračja. Ponesite putovnicu zbog prijelaza i dođite rano jer se pred špiljom Rođenja čeka i više od sata."
+      kada: "Spring and fall, or December for the Christmas atmosphere. Bring your passport for the checkpoint and arrive early, because the wait outside the Grotto of the Nativity can be more than an hour."
     },
     {
       id: "nazaret-i-galileja",
-      ime: "Nazaret i Galileja",
+      ime: "Nazareth and Galilee",
       vrsta: "regija",
-      sazetak: "Zelena brda i jezero uz koje se odvija veći dio evanđelja, s najvećim arapskim gradom u Izraelu u sredini.",
-      prica: ["Nazaret je u Isusovo doba bio selo s nekoliko stotina stanovnika, a danas je najveći arapski grad u Izraelu, u kojem žive muslimani i kršćani. Tridesetak kilometara istočno leži Galilejsko jezero, oko dvjesto metara ispod razine mora, uz koje su ribarska mjesta iz evanđelja: Kafarnaum, Tabgha i Magdala. Krajolik se od onoga doba malo promijenio, pa je ovo dio zemlje u kojem se priče najlakše zamišljaju."],
+      sazetak: "Green hills and the lake where most of the Gospel story unfolds, with the largest Arab city in Israel at the center.",
+      prica: ["In the time of Jesus, Nazareth was a village of a few hundred inhabitants, and today it is the largest Arab city in Israel, home to both Muslims and Christians. About thirty kilometers to the east lies the Sea of Galilee, some two hundred meters below sea level, and along its shores are the fishing villages of the Gospels: Capernaum, Tabgha and Magdala. The landscape has changed little since then, so this is the part of the country where the stories are easiest to picture."],
       vidjeti: [
-        { ime: "Bazilika Navještenja u Nazaretu", opis: "Dovršena 1969. prema projektu Giovannija Muzija, podignuta je nad špiljom koju predaja štuje kao Marijin dom. Kupola je oblikovana kao izvrnuti ljiljan, Marijin simbol, a u dvorištu i crkvi izložene su slike Bogorodice iz desetaka zemalja, svaka u stilu svoga naroda." },
-        { ime: "Kafarnaum", opis: "Nad crnim bazaltnim kućama ribarskog sela diže se sinagoga od bijelog vapnenca iz 4. ili 5. stoljeća, sagrađena na temeljima starije, crne, u kojoj je prema evanđeljima naučavao Isus. Pod suvremenom crkvom vide se ostaci osmerokutne crkve nad kućom koju su rani kršćani štovali kao Petrovu." },
-        { ime: "Tabgha", opis: "U crkvi Umnažanja kruha i riba sačuvan je podni mozaik iz 5. stoljeća s košarom i dvije ribe. Prebrojite kruhove: četiri su, a peti je, kako se tumači, onaj na oltaru." },
-        { ime: "Gora Blaženstava", opis: "Osmerokutnu crkvu iz 1938. projektirao je Antonio Barluzzi, a svaka stranica predstavlja jedno od osam blaženstava iz Govora na gori. S trijema se vidi cijelo jezero, najljepše u rano jutro." },
-        { ime: "Stara jezgra i tržnica Nazareta", opis: "Uske ulice iz osmanskog doba kriju ljekarnice začina, pržionice kave i obnovljene trgovačke kuće s oslikanim stropovima. Kod pravoslavne crkve svetog Gabrijela teče izvor koji pravoslavna predaja smatra mjestom navještenja." }
+        { ime: "Basilica of the Annunciation in Nazareth", opis: "Completed in 1969 to a design by Giovanni Muzio, it was built over the grotto that tradition venerates as Mary's home. The dome is shaped like an inverted lily, Mary's symbol, and in the courtyard and the church hang images of the Virgin from dozens of countries, each in the style of its own people." },
+        { ime: "Capernaum", opis: "Above the black basalt houses of the fishing village rises a white limestone synagogue from the 4th or 5th century, built on the foundations of an older, black one in which, according to the Gospels, Jesus taught. Beneath the modern church you can see the remains of an octagonal church over the house that early Christians venerated as Peter's." },
+        { ime: "Tabgha", opis: "The Church of the Multiplication of the Loaves and Fishes preserves a 5th-century floor mosaic with a basket and two fish. Count the loaves: there are four, and the fifth, as the interpretation goes, is the one on the altar." },
+        { ime: "Mount of Beatitudes", opis: "The octagonal church of 1938 was designed by Antonio Barluzzi, and each side represents one of the eight Beatitudes from the Sermon on the Mount. From the portico you can see the whole lake, which is at its most beautiful in the early morning." },
+        { ime: "The old center and market of Nazareth", opis: "The narrow streets from the Ottoman period hide spice shops, coffee roasters and restored merchants' houses with painted ceilings. By the Orthodox Church of St. Gabriel flows a spring that Orthodox tradition regards as the site of the Annunciation." }
       ],
       jesti: [
-        { ime: "Petrova riba", opis: "Tilapija iz Galilejskog jezera, pržena ili pečena na žaru, poslužuje se uz jezero s limunom i salatama." },
-        { ime: "Galilejska arapska kuhinja", opis: "Nazaret je poznat po restoranima koji stara jela, poput punjenog povrća i janjetine s frikehom, zelenom dimljenom pšenicom, pripremaju na suvremen način." },
-        { ime: "Slastice iz Nazareta", opis: "Baklava, knafeh i halva iz starih gradskih slastičarnica nose se kući na kilograme." }
+        { ime: "St. Peter's fish", opis: "Tilapia from the Sea of Galilee, fried or grilled over the coals, is served beside the lake with lemon and salads." },
+        { ime: "Galilean Arab cuisine", opis: "Nazareth is known for restaurants that prepare old dishes in a contemporary way, such as stuffed vegetables and lamb with freekeh, a green smoked wheat." },
+        { ime: "Sweets from Nazareth", opis: "Baklava, knafeh and halva from the city's old pastry shops are carried home by the kilogram." }
       ],
       dozivjeti: [
-        { ime: "Nazareth Village", opis: "Muzej na otvorenom na izvornoj terasastoj padini prikazuje selo iz 1. stoljeća, s prešom za masline, tkaljom i stolarom u odjeći onoga doba.", link: "https://nazarethvillage.com/" },
-        { ime: "Isusova staza", opis: "Označeni pješački put dug oko 65 kilometara vodi od Nazareta preko Kane do Kafarnauma, a može se hodati i samo jedna dnevna dionica.", link: "https://jesustrail.com/" },
-        { ime: "Vožnja brodom po jezeru", opis: "Drveni brodovi isplovljavaju iz Tiberijade i Ginosara, gdje je u muzeju izložen ribarski čamac star dvije tisuće godina, pronađen u mulju 1986." }
+        { ime: "Nazareth Village", opis: "An open-air museum on an original terraced hillside presents a 1st-century village, with an olive press, a weaver and a carpenter in the dress of the period.", link: "https://nazarethvillage.com/" },
+        { ime: "The Jesus Trail", opis: "A marked hiking route about 65 kilometers long leads from Nazareth through Cana to Capernaum, and you can also walk just a single day's stage.", link: "https://jesustrail.com/" },
+        { ime: "A boat ride on the lake", opis: "Wooden boats set out from Tiberias and from Ginosar, where a museum displays a two-thousand-year-old fishing boat that was found in the mud in 1986." }
       ],
       agencije: [
-        { ime: "Israel Travel", opis: "Službena stranica izraelskog Ministarstva turizma s vodičem kroz Galileju.", link: "https://israel.travel/" },
-        { ime: "Uprava za prirodu i parkove", opis: "Upravlja nacionalnim parkovima, uključujući Kafarnaum, Tel Megido i druge lokalitete u Galileji.", link: "https://en.parks.org.il/" }
+        { ime: "Israel Travel", opis: "The official website of the Israeli Ministry of Tourism, with a guide to Galilee.", link: "https://israel.travel/" },
+        { ime: "Nature and Parks Authority", opis: "It manages the national parks, including Capernaum, Tel Megiddo and other sites in Galilee.", link: "https://en.parks.org.il/" }
       ],
-      kada: "Od veljače do svibnja, kada su brda zelena i puna cvijeća. Ljeti je uz jezero sparno, a crkve imaju podnevnu stanku pa obilazak planirajte ujutro."
+      kada: "From February to May, when the hills are green and full of flowers. In summer it is muggy by the lake, and the churches close for a midday break, so plan your sightseeing for the morning."
     },
     {
       id: "mrtvo-more-i-masada",
-      ime: "Mrtvo more i Masada",
+      ime: "The Dead Sea and Masada",
       vrsta: "priroda",
-      sazetak: "Herodova tvrđava na stijeni nad najslanijim jezerom svijeta i oaza sa slapovima usred Judejske pustinje.",
-      prica: ["Judejska pustinja spušta se od Jeruzalema do Mrtvog mora za više od tisuću metara na samo tridesetak kilometara. U njezinim su se špiljama skrivali pustinjaci, pobunjenici i zajednica koja je ostavila Svitke s Mrtvog mora, pronađene 1947. kod Kumrana. Kralj Herod Veliki sagradio je između 37. i 31. prije Krista na osamljenoj stijeni utvrđenu palaču Masadu, koja je stoljeće poslije postala posljednje uporište židovskih ustanika protiv Rima."],
+      sazetak: "Herod's fortress on a rock above the saltiest lake in the world, and an oasis with waterfalls in the middle of the Judean Desert.",
+      prica: ["The Judean Desert drops from Jerusalem to the Dead Sea by more than a thousand meters over just thirty kilometers or so. Its caves sheltered hermits, rebels and the community that left behind the Dead Sea Scrolls, found in 1947 near Qumran. Between 37 and 31 BC King Herod the Great built the fortified palace of Masada on an isolated rock, and a century later it became the last stronghold of the Jewish rebels against Rome."],
       vidjeti: [
-        { ime: "Masada", opis: "Prema povjesničaru Josipu Flaviju, jedinom pisanom izvoru, 960 branitelja radije je 73. ili 74. godine izabralo smrt nego ropstvo, a arheolozi o pojedinostima i danas raspravljaju. S vrha se jasno vide obrisi osam rimskih tabora i nasip koji su legionari nasuli do zidina. UNESCO je Masadu zaštitio 2001." },
-        { ime: "Herodova sjeverna palača", opis: "Palača se u tri terase spušta niz sam rub litice, okrenuta sjeveru radi hlada. Na donjoj terasi sačuvane su freske koje oponašaju mramor, a u kupalištu se vide stupići na kojima je stajao pod grijan toplim zrakom." },
-        { ime: "Ein Gedi", opis: "Oaza s četiri izvora hrani slapove i bazene usred gole pustinje, a Biblija je spominje kao mjesto gdje se David skrivao od kralja Šaula. Uz stazu gotovo sigurno ćete sresti nubijske kozoroge i pećinare, male životinje nalik sviscima, koji su najbliži živi srodnici slonova." },
-        { ime: "Kumran", opis: "Uz ruševine naselja s obrednim kupeljima vidi se Špilja 4, u kojoj je pronađen najveći broj svitaka. Beduinski pastir je 1947. bacio kamen u jednu od špilja, čuo lom keramike i tako otkrio rukopise tisuću godina starije od dotad poznatih." },
-        { ime: "Mrtvo more", opis: "Voda je gotovo deset puta slanija od oceana pa se u njoj pluta bez napora, a razina pada oko metar godišnje. Uz cestu se vide vrtače, rupe koje nastaju kada slatka voda otopi podzemne slojeve soli." }
+        { ime: "Masada", opis: "According to the historian Flavius Josephus, the only written source, 960 defenders chose death over slavery in the year 73 or 74, and archaeologists still debate the details today. From the top you can clearly see the outlines of eight Roman camps and the ramp that the legionaries piled up against the walls. UNESCO gave Masada protection in 2001." },
+        { ime: "Herod's Northern Palace", opis: "The palace descends in three terraces down the very edge of the cliff, facing north for the shade. On the lowest terrace there are surviving frescoes that imitate marble, and in the bathhouse you can see the little pillars that supported a floor heated by hot air." },
+        { ime: "Ein Gedi", opis: "An oasis with four springs feeds waterfalls and pools in the middle of the bare desert, and the Bible mentions it as the place where David hid from King Saul. Along the trail you are almost certain to meet Nubian ibex and rock hyraxes, small marmot-like animals that are the closest living relatives of elephants." },
+        { ime: "Qumran", opis: "Beside the ruins of a settlement with ritual baths you can see Cave 4, where the largest number of scrolls was found. In 1947 a Bedouin shepherd threw a stone into one of the caves, heard pottery shatter and so discovered manuscripts a thousand years older than any known until then." },
+        { ime: "Dead Sea", opis: "The water is almost ten times saltier than the ocean, so you float in it effortlessly, and the level is dropping by about a meter a year. Along the road you can see sinkholes, pits that form when fresh water dissolves the underground layers of salt." }
       ],
       jesti: [
-        { ime: "Datulje medjool", opis: "Plantaže uz Mrtvo more i u dolini Jordana daju krupne, mekane datulje koje se prodaju u kibucima i na odmorištima." },
-        { ime: "Ručak u kibucu Ein Gedi", opis: "Kibuc s botaničkim vrtom usred pustinje ima blagovaonicu i restoran, što je rijetka prilika da se vidi kako živi takva zajednica." }
+        { ime: "Medjool dates", opis: "The plantations by the Dead Sea and in the Jordan Valley produce large, soft dates that are sold at the kibbutzim and at roadside rest stops." },
+        { ime: "Lunch at Kibbutz Ein Gedi", opis: "The kibbutz, with its botanical garden in the middle of the desert, has a dining hall and a restaurant, which offers a rare chance to see how such a community lives." }
       ],
       dozivjeti: [
-        { ime: "Izlazak sunca na Masadi", opis: "Zmijskom stazom penje se oko sat vremena prije svitanja, a sunce izlazi iznad jordanskih planina s druge strane Mrtvog mora. Tko ne želi hodati, može se uspeti žičarom nakon otvaranja.", link: "https://en.parks.org.il/" },
-        { ime: "Kupanje u Ein Bokeku", opis: "Uređene javne plaže s tuševima najjednostavnije su mjesto za plutanje, a slatka voda za ispiranje nakon kupanja ovdje je nužnost." }
+        { ime: "Sunrise on Masada", opis: "The climb up the Snake Path takes about an hour before dawn, and the sun rises over the mountains of Jordan on the far side of the Dead Sea. Anyone who would prefer not to walk can ride up by cable car once it opens.", link: "https://en.parks.org.il/" },
+        { ime: "Swimming at Ein Bokek", opis: "The maintained public beaches with showers are the simplest place for a float, and fresh water for rinsing off afterward is a necessity here." }
       ],
       agencije: [
-        { ime: "Uprava za prirodu i parkove", opis: "Upravlja Masadom, Ein Gedijem i Kumranom, s radnim vremenom i ulaznicama.", link: "https://en.parks.org.il/" },
-        { ime: "Abraham Tours", opis: "Jednodnevni izleti iz Jeruzalema i Tel Aviva na Masadu, Ein Gedi i Mrtvo more.", link: "https://www.abrahamtours.com/" }
+        { ime: "Nature and Parks Authority", opis: "It manages Masada, Ein Gedi and Qumran, with opening hours and tickets.", link: "https://en.parks.org.il/" },
+        { ime: "Abraham Tours", opis: "Day trips from Jerusalem and Tel Aviv to Masada, Ein Gedi and the Dead Sea.", link: "https://www.abrahamtours.com/" }
       ],
-      kada: "Od listopada do travnja. Ljeti temperature prelaze 40 stupnjeva pa se Zmijska staza zatvara rano ujutro, a vode treba nositi najmanje tri litre po osobi."
+      kada: "From October to April. In summer temperatures climb above 40 degrees Celsius, so the Snake Path closes early in the morning, and you need to carry at least three liters of water per person."
     }
   ],
   izvori: [
-    { ime: "Israel Travel, Ministarstvo turizma", url: "https://israel.travel/" },
-    { ime: "Travel Palestine, Ministarstvo turizma i starina", url: "https://www.travelpalestine.ps/en" },
+    { ime: "Israel Travel, Ministry of Tourism", url: "https://israel.travel/" },
+    { ime: "Travel Palestine, Ministry of Tourism and Antiquities", url: "https://www.travelpalestine.ps/en" },
     { ime: "iTravelJerusalem", url: "https://www.itraveljerusalem.com/" },
     { ime: "Visit Tel Aviv", url: "https://www.visit-tel-aviv.com/en/" },
-    { ime: "Kustodija Svete zemlje", url: "https://www.custodia.org/en/" },
+    { ime: "Custody of the Holy Land", url: "https://www.custodia.org/en/" },
     { ime: "The Israel Museum", url: "https://www.imj.org.il/en" },
     { ime: "Yad Vashem", url: "https://www.yadvashem.org/" },
     { ime: "Israel Nature and Parks Authority", url: "https://en.parks.org.il/" },

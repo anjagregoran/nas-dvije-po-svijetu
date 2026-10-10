@@ -1,481 +1,481 @@
-// Apulija: doživljaji („Ako želiš…“) i praktični savjeti.
-// Cijene i termini su iz sezone 2026. i služe samo za orijentaciju.
+// Apulia: experiences (“If you want to…”) and practical tips.
+// Prices and dates are from the 2026 season and are meant only as a guide.
 
 TRIP.akoZelis = [
   {
     ikona: "💃",
-    zelja: "Naučiti plesati pizzicu",
-    uvod: "Pizzica se najlakše uči u Lecceu i po selima Salenta, gdje je i nastala. Ne treba vam ni partner ni predznanje, samo udobne cipele i malo hrabrosti.",
+    zelja: "Learn to dance the pizzica",
+    uvod: "The pizzica is easiest to learn in Lecce and in the villages of Salento, where it was born. You need neither a partner nor any experience, only comfortable shoes and a little courage.",
     opcije: [
       {
-        ime: "Sat pizzice u dvorištu Museo Faggiano",
+        ime: "A pizzica class in the courtyard of the Museo Faggiano",
         mjesto: "Lecce, Via Ascanio Grandi",
-        opis: "Devedesetak minuta s profesionalnom plesačicom u dvorištu stare kuće nedaleko od trga Sant'Oronzo, a na kraju vas čekaju čaša vina i taralli. Ovo je najjednostavniji način da probate osnovne korake, jer je sat zamišljen baš za putnike koji plešu prvi put.",
-        napomena: "Organizira ga LecceGo, a rezervira se preko stranica za izlete. Termine provjerite unaprijed jer se ne održava svaki dan.",
+        opis: "About ninety minutes with a professional dancer in the courtyard of an old house not far from Piazza Sant'Oronzo, with a glass of wine and taralli waiting for you at the end. This is the simplest way to try the basic steps, because the class is designed precisely for travelers who are dancing for the first time.",
+        napomena: "It is run by LecceGo and booked through tour websites. Check the dates in advance, because it is not held every day.",
         link: "https://www.museofaggiano.it/"
       },
       {
-        ime: "Tarantarte, škola Maristelle Martelle",
-        mjesto: "Lecce i Corsano (Salento)",
-        opis: "Ovo je najpoznatija škola pizzice, a vodi je koreografkinja koja je taj ples dovela na velike pozornice. Imaju redovite tečajeve i ljetne radionice u Corsanu koje traju nekoliko dana, pa je to izbor za onu koja se želi stvarno udubiti.",
-        napomena: "Pišite im na info@tarantarte.it i pitajte primaju li na pojedinačni sat u vrijeme kad ste vi tamo.",
+        ime: "Tarantarte, the school of Maristella Martella",
+        mjesto: "Lecce and Corsano (Salento)",
+        opis: "This is the best-known pizzica school, led by the choreographer who brought the dance to the big stages. They run regular courses and summer workshops in Corsano that last several days, so it is the choice for anyone who really wants to go deep.",
+        napomena: "Write to them at info@tarantarte.it and ask whether they take people for a single class while you are there.",
         link: "https://www.tarantarte.it/"
       },
       {
-        ime: "Kuhanje pa ples kod Gianne Greco",
+        ime: "Cooking and then dancing with Gianna Greco",
         mjesto: "Lecce",
-        opis: "Cooking Experience Lecce nudi tečaj kuhanja koji završava pizzicom, pa u jednom popodnevu naučite i zamijesiti tjesteninu i zavrtjeti suknju.",
-        napomena: "Na stranici nema cijena ni termina, pa se treba javiti e-poštom.",
+        opis: "Cooking Experience Lecce offers a cooking class that ends with a pizzica, so in one afternoon you learn both to knead pasta and to swirl a skirt.",
+        napomena: "The website lists no prices or dates, so you need to get in touch by email.",
         link: "https://www.cookingexperience.it/"
       }
     ]
   },
   {
     ikona: "🥁",
-    zelja: "Gledati pizzicu uživo (i uskočiti u krug)",
-    uvod: "Ljeti se u Salentu pleše na trgovima gotovo svake večeri. Ljudi stanu u krug koji se zove ronda, par pleše u sredini, a tko god želi može ući kad dođe red.",
+    zelja: "Watch the pizzica live (and jump into the circle)",
+    uvod: "In summer people dance on the squares of Salento almost every evening. They form a circle called the ronda, a couple dances in the middle, and anyone who wants to can step in when their turn comes.",
     opcije: [
       {
         ime: "La Notte della Taranta",
-        mjesto: "Melpignano i dvadesetak mjesta Salenta",
+        mjesto: "Melpignano and some twenty towns in Salento",
         opis: [
-          "Najveći festival narodne glazbe u Italiji počinje kao putujući festival koji početkom i sredinom kolovoza svake večeri gostuje na trgu drugog mjesta. Te su večeri besplatne i najbliže onome kako pizzica zaista živi, jer publika pleše zajedno sa sviračima.",
-          "Sve završava velikim koncertom u Melpignanu, koji se održava jedne subote u drugoj polovici kolovoza i na koji dođe više od sto tisuća ljudi."
+          "The biggest folk music festival in Italy opens as a traveling festival that, in early and mid-August, plays on the square of a different town every evening. Those evenings are free and the closest thing to how the pizzica really lives, because the audience dances along with the musicians.",
+          "It all ends with a huge concert in Melpignano, held on a Saturday in the second half of August, which draws more than a hundred thousand people."
         ],
-        napomena: "Godine 2026. festival je putovao od 30. srpnja do 19. kolovoza, a završni koncert bio je 22. kolovoza. Datume za iduću godinu objavljuju na službenoj stranici.",
+        napomena: "In 2026 the festival traveled from July 30 to August 19, and the final concert was on August 22. The dates for next year are published on the official website.",
         link: "https://www.lanottedellataranta.it/"
       },
       {
-        ime: "Noć svetog Roka u Torrepaduliju",
-        mjesto: "Torrepaduli (Ruffano), noć s 15. na 16. kolovoza",
-        opis: "Cijelu noć pred crkvom sviraju bubnjevi i pleše se pizzica scherma, ples u kojem dva muškarca prstima oponašaju dvoboj noževima. To je vjerska svetkovina, pa se gleda s poštovanjem i ne gura se u krugove.",
-        napomena: "Mještani ne vole kad se taj ples zove „ples mačeva“."
+        ime: "The night of San Rocco in Torrepaduli",
+        mjesto: "Torrepaduli (Ruffano), the night of August 15 to 16",
+        opis: "All night long the drums play in front of the church and people dance the pizzica scherma, in which two men use their fingers to mimic a knife duel. It is a religious feast, so watch respectfully and do not push your way into the circles.",
+        napomena: "The locals do not like it when the dance is called a “sword dance”."
       },
       {
-        ime: "Santa Domenica u Scorranu",
-        mjesto: "Scorrano, početak srpnja",
-        opis: "Mjesto koje se naziva svjetskom prijestolnicom svjetlosnih ukrasa za svoju zaštitnicu podigne čitave katedrale od žaruljica, a uz paljenje svjetala sviraju se i pizzice.",
-        napomena: "Točni dani razlikuju se od godine do godine, obično između 4. i 8. srpnja."
+        ime: "Santa Domenica in Scorrano",
+        mjesto: "Scorrano, early July",
+        opis: "The town that calls itself the world capital of festive illuminations raises entire cathedrals of light bulbs for its patron saint, and pizzicas are played as the lights are switched on.",
+        napomena: "The exact days vary from year to year, usually falling between July 4 and 8."
       }
     ]
   },
   {
     ikona: "🍝",
-    zelja: "Naučiti raditi orecchiette",
-    uvod: "Orecchiette izgledaju jednostavno dok ne probate povući prvi komadić tijesta nožem. Dobra je vijest da vas ovdje to rado nauče, najčešće u nečijoj kuhinji.",
+    zelja: "Learn to make orecchiette",
+    uvod: "Orecchiette look simple until you try to drag your first piece of dough with a knife. The good news is that people here are glad to teach you, usually in somebody's kitchen.",
     opcije: [
       {
-        ime: "Cesarine, kuhanje kod domaćica",
-        mjesto: "Bari, Polignano a Mare, Ostuni, Lecce i druga mjesta",
-        opis: "Cesarine su mreža domaćica i domaćina koji vas primaju u vlastiti dom, pa kuhate i jedete za obiteljskim stolom. Adresu dobijete tek nakon rezervacije, a tečajevi su mali, do sedam gostiju ili samo za vas dvije.",
-        napomena: "Cijene jako ovise o mjestu. U sezoni 2026. večer u Bariju stajala je 45 eura po osobi, a privatni tečajevi u Polignanu i Ostuniju oko 135 do 145 eura.",
+        ime: "Cesarine, cooking with home cooks",
+        mjesto: "Bari, Polignano a Mare, Ostuni, Lecce and other places",
+        opis: "Cesarine is a network of home cooks who welcome you into their own homes, so you cook and eat at the family table. You get the address only after booking, and the classes are small, for up to seven guests or just for your own party.",
+        napomena: "Prices depend a great deal on the place. In the 2026 season an evening in Bari cost 45 euros per person, and private classes in Polignano and Ostuni around 135 to 145 euros.",
         link: "https://cesarine.com/"
       },
       {
         ime: "The Awaiting Table",
         mjesto: "Lecce",
-        opis: "Najozbiljnija škola kuhanja i vina u Salentu, koju od 2003. vodi Silvestro Silvestori. Osim tjednih tečajeva ima i jednodnevne, primjerice onaj koji počinje na ribarnici i završava ručkom.",
-        napomena: "Cijena nema na naslovnici, a kalendar se objavljuje godinu unaprijed.",
+        opis: "The most serious cooking and wine school in Salento, run by Silvestro Silvestori since 2003. Besides week-long courses it also has one-day classes, such as the one that starts at the fish market and ends with lunch.",
+        napomena: "Prices are not shown on the home page, and the calendar is published a year ahead.",
         link: "https://www.awaitingtable.com/"
       },
       {
         ime: "Cooking Experience Lecce",
         mjesto: "Lecce",
-        opis: "Gianna Greco vodi tečajeve koji počinju odlaskom na tržnicu, a u ponudi ima i focacciu, tradicionalne slastice i sat pravljenja mozzarelle.",
+        opis: "Gianna Greco leads classes that begin with a trip to the market, and she also offers focaccia, traditional sweets and a mozzarella-making session.",
         link: "https://www.cookingexperience.it/"
       },
       {
-        ime: "Ulica orecchietta u starom Bariju",
+        ime: "The orecchiette street in old Bari",
         mjesto: "Bari Vecchia, Strada Arco Basso",
-        opis: "Ovdje se ništa ne rezervira. Gospođe sjede za stolovima pred kućnim vratima i rade tjesteninu takvom brzinom da je teško pratiti prste. Gledanje je besplatno, a lijepo je kupiti vrećicu.",
-        napomena: "Grad je posljednjih godina uvodio nova pravila za prodaju na ulici, pa prizor ne mora svaki dan izgledati jednako."
+        opis: "Nothing is booked here. The ladies sit at tables outside their front doors and make pasta so fast that it is hard to follow their fingers. Watching is free, and buying a bag is a nice gesture.",
+        napomena: "In recent years the city has been introducing new regulations on street sales, so the scene may not look the same every day."
       }
     ]
   },
   {
     ikona: "🫒",
-    zelja: "Vidjeti tisućljetne masline i kušati ulje",
-    uvod: "Između Ostunija i mora prostire se ravnica s maslinama starima i po dvije tisuće godina. Ulje se ovdje stoljećima tiještilo pod zemljom, u mlinovima isklesanima u stijeni.",
+    zelja: "See thousand-year-old olive trees and taste the oil",
+    uvod: "Between Ostuni and the sea stretches a plain of olive trees as much as two thousand years old. For centuries the oil here was pressed underground, in mills carved into the rock.",
     opcije: [
       {
         ime: "Antica Masseria Brancati",
-        mjesto: "Ostuni, cesta prema Rosa Marini",
-        opis: "Vodič vas provede kroz maslinik s golemim, izuvijanim stablima, među kojima je i slavni Grande Vecchio, zatim silazite u podzemni mlin i na kraju kušate njihova ekološka ulja. Obilazak traje oko sat vremena.",
-        napomena: "Obvezna je najava, a ture su na talijanskom ili engleskom. Tlo je neravno i ima stepenica.",
+        mjesto: "Ostuni, on the road to Rosa Marina",
+        opis: "A guide takes you through an olive grove of enormous, twisted trees, among them the famous Grande Vecchio, then you go down into the underground mill and finish by tasting their organic oils. The tour lasts about an hour.",
+        napomena: "Advance booking is required, and tours are in Italian or English. The ground is uneven and there are steps.",
         link: "https://www.masseriabrancati.it/"
       },
       {
-        ime: "Podzemni mlin u palači Granafei",
+        ime: "The underground mill in Palazzo Granafei",
         mjesto: "Gallipoli, Via Antonietta de Pace 87",
-        opis: "Gallipoli je nekad bio jedna od najvažnijih luka za ulje u Europi, samo što se njime nije začinjala salata nego punile svjetiljke. U ovom mlinu uklesanom u stijenu ispod palače vidi se gdje su ljudi i životinje radili mjesecima bez dnevnog svjetla."
+        opis: "Gallipoli was once one of the most important oil ports in Europe, except that the oil went into lamps, never onto salads. In this mill cut into the rock beneath the palace you can see where men and animals worked for months without daylight."
       },
       {
-        ime: "Podzemni mlinovi u Presicceu",
-        mjesto: "Presicce-Acquarica (južni Salento)",
-        opis: "Ovo mjesto zovu gradom podzemnih mlinova jer ih se ispod glavnog trga i okolnih ulica krije cijeli niz. Obilazi se s vodičem, a termine dogovara mjesna udruga Pro Loco."
+        ime: "The underground mills of Presicce",
+        mjesto: "Presicce-Acquarica (southern Salento)",
+        opis: "This place is called the town of underground mills, because a whole string of them lies hidden beneath the main square and the surrounding streets. You visit with a guide, and times are arranged by the local Pro Loco association."
       },
       {
-        ime: "Biciklom kroz ravnicu maslina",
-        mjesto: "Park Dune Costiere, između Ostunija i Fasana",
-        opis: "Staze vode od dina i močvara uz more prema unutrašnjosti, kroz maslinike uz staru rimsku cestu Via Traiana. Bicikle iznajmljuje Albergabici u mjestu Montalbano di Fasano.",
-        napomena: "Najljepše je u travnju, svibnju, rujnu i listopadu, kad nije prevruće."
+        ime: "By bike across the plain of olive trees",
+        mjesto: "Dune Costiere park, between Ostuni and Fasano",
+        opis: "The trails lead from the dunes and wetlands by the sea toward the interior, through olive groves along the old Roman road, the Via Traiana. Bikes are rented out by Albergabici in the village of Montalbano di Fasano.",
+        napomena: "It is at its best in April, May, September and October, when it is not too hot."
       }
     ]
   },
   {
     ikona: "🍷",
-    zelja: "Kušati vino tamo gdje nastaje",
-    uvod: "Apulija je dugo svoje vino slala na sjever da pojača tuđe, a danas ga s ponosom toči pod vlastitim imenom. Gotovo sve vinarije traže da se najavite.",
+    zelja: "Taste wine where it is made",
+    uvod: "For a long time Apulia sent its wine north to strengthen other people's, and today it proudly pours it under its own name. Almost every winery asks you to book ahead.",
     opcije: [
       {
-        ime: "Produttori di Manduria i muzej primitiva",
+        ime: "Produttori di Manduria and the primitivo museum",
         mjesto: "Manduria, Via Fabio Massimo 19",
-        opis: "Zadruga iz 1932. uredila je muzej u starim podzemnim cisternama za vino. Nakon obilaska kušaju se četiri vina uz taralle, sir i salamu, a ovo je pravo mjesto da shvatite zašto je primitivo tako gust i sladak.",
+        opis: "The cooperative, founded in 1932, has set up a museum in its old underground wine cisterns. After the tour you taste four wines with taralli, cheese and salami, and this is the right place to understand why primitivo is so dense and sweet.",
         link: "https://www.produttoridimanduria.it/"
       },
       {
         ime: "Leone de Castris",
         mjesto: "Salice Salentino",
-        opis: "Vinarija osnovana 1665. u kojoj je 1943. napunjen Five Roses, prvi rosé flaširan u Italiji. Imaju muzej vina otvoren za posjetitelje i kušaonicu.",
+        opis: "A winery founded in 1665 where Five Roses, the first rosé bottled in Italy, was filled in 1943. They have a wine museum open to visitors and a tasting room.",
         link: "https://www.leonedecastris.com/"
       },
       {
         ime: "Cantele",
         mjesto: "Guagnano",
-        opis: "Obiteljska vinarija poznata po negroamaru, s prostorom iSensi u kojem se kušanje spaja s kuhinjom i večerama.",
+        opis: "A family winery known for its negroamaro, with a space called iSensi where tastings are combined with cooking and dinners.",
         link: "https://www.cantele.it/"
       },
       {
         ime: "Cantina Museo Albea",
         mjesto: "Alberobello, Via Due Macelli 8",
-        opis: "Praktičan izbor jer je usred Alberobella. Obilazak podruma i muzeja vina na katu završava kušanjem triju vina i traje oko sat i pol.",
+        opis: "A practical choice because it is in the middle of Alberobello. The tour of the cellar and of the wine museum upstairs ends with a tasting of three wines and lasts about an hour and a half.",
         link: "https://www.albeavini.com/"
       },
       {
-        ime: "Tormaresca, imanje Bocca di Lupo",
-        mjesto: "Minervino Murge, blizu Castel del Montea",
-        opis: "Šetnja vinogradima, podrum sa bačvama u sedri i kušanje s pogledom na krajolik Murge. Primaju radnim danom i samo uz rezervaciju.",
+        ime: "Tormaresca, the Bocca di Lupo estate",
+        mjesto: "Minervino Murge, near Castel del Monte",
+        opis: "A walk through the vineyards, a barrel cellar cut into tufa and a tasting with a view over the Murgia landscape. They receive visitors on weekdays and by reservation only.",
         link: "https://www.tormaresca.it/"
       },
       {
         ime: "Rivera",
         mjesto: "Andria",
-        opis: "Obitelj de Corato zaslužna je za to što vina oko Castel del Montea imaju zaštićeno ime. Posjeti se dogovaraju unaprijed.",
+        opis: "The de Corato family deserves the credit for the protected name that the wines around Castel del Monte carry. Visits are arranged in advance.",
         link: "https://www.rivera.it/"
       }
     ]
   },
   {
     ikona: "🧀",
-    zelja: "Gledati kako nastaju mozzarella i burrata",
-    uvod: "Sir se ovdje radi rano ujutro i jede isti dan. Vidjeti kako se vruća sirna masa razvlači rukama i veže u čvor jedan je od ljepših prizora ovog kraja.",
+    zelja: "Watch mozzarella and burrata being made",
+    uvod: "Cheese here is made early in the morning and eaten the same day. Watching the hot curd being stretched by hand and tied into a knot is one of the lovelier sights of this region.",
     opcije: [
       {
         ime: "Masseria Fragnite",
-        mjesto: "Između Ceglie Messapice i Ostunija",
-        opis: "Na ovom imanju vidite životinje na ispaši, ulazite u siranu dok se razvlači mozzarella i puni burrata, a zatim kušate sireve i suhomesnate proizvode. Postoje kraći i dulji obilasci, uglavnom na engleskom.",
-        napomena: "Rezervira se preko stranica za izlete."
+        mjesto: "Between Ceglie Messapica and Ostuni",
+        opis: "On this farm you see the animals grazing, step into the dairy while mozzarella is being stretched and burrata filled, and then taste the cheeses and cured meats. There are shorter and longer tours, mostly in English.",
+        napomena: "Booked through tour websites."
       },
       {
         ime: "Caseificio Andriese",
         mjesto: "Bari",
-        opis: "Mala sirana u kojoj se u dućanu može pogledati polusatno pravljenje mozzarelle i odmah potom kušati svježi sir i burrata.",
-        napomena: "Najbolje je doći ujutro i pitati kad je sljedeća demonstracija."
+        opis: "A small dairy where you can watch half an hour of mozzarella making in the shop and taste the fresh cheese and burrata right afterward.",
+        napomena: "It is best to come in the morning and ask when the next demonstration is."
       }
     ]
   },
   {
     ikona: "🎨",
-    zelja: "Zaviriti u radionice starih zanata",
+    zelja: "Peek into the workshops of old crafts",
     opcije: [
       {
-        ime: "Cartapesta, kipovi od papira",
-        mjesto: "Lecce, stara jezgra oko ulice Corso Vittorio Emanuele II",
+        ime: "Cartapesta, statues made of paper",
+        mjesto: "Lecce, the old core around Corso Vittorio Emanuele II",
         opis: [
-          "Lecce nije imao novca za mramor, pa su njegovi majstori svece radili od slame, žice, papira i ljepila, a površinu su glačali užarenim željezom. U radionicama oko katedrale to se radi i danas.",
-          "Radionica braće Riso prima goste koji žele sami izraditi malu figuru, a kod Rosarije Pallare može se gledati rad i pitati za poduku."
+          "Lecce had no money for marble, so its craftsmen made their saints from straw, wire, paper and glue, and smoothed the surface with a red-hot iron. In the workshops around the cathedral it is still done today.",
+          "The workshop of the Riso brothers welcomes guests who want to make a small figure themselves, and at Rosaria Pallara's you can watch the work and ask about lessons."
         ],
-        napomena: "Najbolje je navratiti i dogovoriti se na licu mjesta."
+        napomena: "It is best to drop by and make arrangements on the spot."
       },
       {
-        ime: "Četvrt keramike u Grottaglieu",
-        mjesto: "Grottaglie (između Taranta i Ostunija)",
+        ime: "The ceramics quarter in Grottaglie",
+        mjesto: "Grottaglie (between Taranto and Ostuni)",
         opis: [
-          "Više od pedeset radionica uklesano je u stijene jedne gudure. Šećete od vrata do vrata, gledate kako se glina vrti i oslikava i birate svoj pumo, keramički pupoljak koji ovdje stoji na svakom balkonu jer donosi sreću.",
-          "U dvorcu Castello Episcopio nalazi se muzej keramike s predmetima od 8. stoljeća prije Krista do danas."
+          "More than fifty workshops are cut into the rock walls of a ravine. You stroll from door to door, watch clay being thrown and painted, and choose your own pumo, the ceramic bud that sits on every balcony here because it brings good luck.",
+          "The Castello Episcopio houses a ceramics museum with pieces from the 8th century BC to the present day."
         ],
-        napomena: "Obitelj Fasano poznata je po tome što rado pokaže svoju veliku radionicu."
+        napomena: "The Fasano family is known for being happy to show visitors around its large workshop."
       },
       {
-        ime: "Klesanje leccanskog kamena",
-        mjesto: "Cavallino kraj Leccea",
-        opis: "Kipar Renzo Buttazzo otvara svoj atelje i drži jednodnevni uvod u klesanje, na kojem svatko dobije svoj blok mekog, medeno žutog kamena od kojeg je sagrađen cijeli barokni Lecce.",
-        napomena: "Radi se u malim grupama i samo po dogovoru.",
+        ime: "Carving Lecce stone",
+        mjesto: "Cavallino, near Lecce",
+        opis: "The sculptor Renzo Buttazzo opens his studio and gives a one-day introduction to carving, in which everyone gets their own block of the soft, honey-yellow stone that all of baroque Lecce is built from.",
+        napomena: "It is done in small groups and by appointment only.",
         link: "https://www.homofaber.com/en/experience/stone-sculpting-workshop-tour-in-lecce-s6ug7t"
       }
     ]
   },
   {
     ikona: "⛵",
-    zelja: "Ploviti u morske špilje",
-    uvod: "Obala je ovdje izbušena špiljama u koje se može samo s mora. Brodovi ne isplovljavaju kad je more nemirno, a jutro je gotovo uvijek mirnije od popodneva.",
+    zelja: "Sail into the sea caves",
+    uvod: "The coast here is riddled with caves that can only be reached from the water. The boats do not go out when the sea is rough, and the morning is almost always calmer than the afternoon.",
     opcije: [
       {
-        ime: "Špilje ispod Polignana",
-        mjesto: "Polignano a Mare, polazak iz lučice San Vito",
-        opis: "Sat i pol do dva sata plovidbe ispod litica na kojima stoji grad, s ulaskom u špilje Palazzese, Rondinelle i Ardito i zaustavljanjem za kupanje. Tek s mora vidi se koliko kuće zapravo vise nad prazninom.",
-        napomena: "Zajednička vožnja stajala je 2026. otprilike 25 do 35 eura po osobi."
+        ime: "The caves beneath Polignano",
+        mjesto: "Polignano a Mare, departing from the little harbor of San Vito",
+        opis: "An hour and a half to two hours of cruising beneath the cliffs the town stands on, going into the Palazzese, Rondinelle and Ardito caves and stopping for a swim. Only from the sea do you see how far the houses really hang out over nothing.",
+        napomena: "In 2026 a shared trip cost roughly 25 to 35 euros per person."
       },
       {
-        ime: "Špilje Santa Maria di Leuce",
-        mjesto: "Santa Maria di Leuca, marina",
-        opis: "Na samom vrhu potpetice susreću se Jadransko i Jonsko more. Kraći izlet obilazi jonsku stranu, a trosatni obje, s kupanjem u špiljama Drago i Tre Porte.",
-        napomena: "Cijene su 2026. bile od 15 do 30 eura, ovisno o trajanju."
+        ime: "The caves of Santa Maria di Leuca",
+        mjesto: "Santa Maria di Leuca, the marina",
+        opis: "At the very tip of the heel the Adriatic and the Ionian Sea meet. The shorter trip covers the Ionian side and the three-hour one covers both, with a swim in the Drago and Tre Porte caves.",
+        napomena: "In 2026 prices ran from 15 to 30 euros, depending on the length."
       },
       {
-        ime: "Bijele litice Gargana",
+        ime: "The white cliffs of the Gargano",
         mjesto: "Vieste",
-        opis: "Trosatna plovidba prema jugu uz bijele vapnenačke stijene, kroz niz špilja i do stijena u uvali Baia delle Zagare."
+        opis: "A three-hour cruise southward along the white limestone cliffs, through a series of caves and on to the sea stacks in the bay of Baia delle Zagare."
       },
       {
-        ime: "Otočje Tremiti",
-        mjesto: "Ljeti iz Viestea, Peschicija i Rodi Garganica",
-        opis: "Mali arhipelag s prozirnim morem i utvrđenom opatijom na otoku San Nicola. Ljeti se brzim brodom stiže za sat do sat i pol, pa je moguć izlet u jednom danu."
+        ime: "The Tremiti Islands",
+        mjesto: "In summer from Vieste, Peschici and Rodi Garganico",
+        opis: "A small archipelago with crystal-clear water and a fortified abbey on the island of San Nicola. In summer a fast boat gets you there in an hour to an hour and a half, so a day trip is possible."
       }
     ]
   },
   {
     ikona: "🏖️",
-    zelja: "Na plažu, ali na pravu",
-    uvod: "Jonska strana ima dugačke pješčane plaže s plitkim morem, a jadranska više stijena, uvala i borova. Svaka plaža ima i slobodni dio koji se zove spiaggia libera.",
+    zelja: "Go to the beach, and to the right one",
+    uvod: "The Ionian side has long sandy beaches with shallow water, while the Adriatic side has more rocks, coves and pines. Every beach also has a free section called the spiaggia libera.",
     opcije: [
       {
-        ime: "Pescoluse, „Maldivi Salenta“",
-        mjesto: "Jonska obala, blizu Leuce",
-        opis: "Kilometri bijelog pijeska i more koje je plitko daleko od obale. Ovo je plaža za lijeno kupanje bez ikakvog napora."
+        ime: "Pescoluse, the “Maldives of Salento”",
+        mjesto: "The Ionian coast, near Leuca",
+        opis: "Kilometers of white sand and a sea that stays shallow far out from the shore. This is the beach for lazy swimming with no effort at all."
       },
       {
         ime: "Punta Prosciutto",
         mjesto: "Porto Cesareo",
-        opis: "Bijele dine i more karipske boje, s više slobodne plaže nego ležaljki. Do nje se dolazi samo autom ili autobusom, a u blizini je i Salina dei Monaci s flamingosima."
+        opis: "White dunes and a sea of Caribbean color, with more free beach than sunbeds. It can be reached only by car or bus, and nearby is the Salina dei Monaci with its flamingos."
       },
       {
         ime: "Torre dell'Orso",
-        mjesto: "Melendugno, jadranska obala",
-        opis: "Pješčana uvala s borovom šumom u zaleđu i dvije stijene u moru koje zovu Due Sorelle, dvije sestre."
+        mjesto: "Melendugno, the Adriatic coast",
+        opis: "A sandy bay backed by a pine wood, with two rocks in the sea known as the Due Sorelle, the two sisters."
       },
       {
         ime: "Baia dei Turchi",
-        mjesto: "Sjeverno od Otranta",
-        opis: "Divlja pješčana uvala do koje se hoda kroz borovu šumu. Prema predaji su se baš ovdje iskrcali Osmanlije 1480. godine, prije opsade Otranta.",
-        napomena: "Autom se ne može do plaže, a parkirališta se u sezoni naplaćuju."
+        mjesto: "North of Otranto",
+        opis: "A wild sandy bay that you reach on foot through a pine wood. According to tradition, this is the very spot where the Ottomans landed in 1480, before the siege of Otranto.",
+        napomena: "You cannot drive to the beach, and the parking lots charge a fee in season."
       },
       {
         ime: "Porto Selvaggio",
         mjesto: "Nardò",
-        opis: "Stjenovita uvala u prirodnom parku, s hladnim izvorima koji izbijaju u moru. Nema nikakvih sadržaja, a do mora se silazi dvadesetak minuta kroz borove.",
-        napomena: "Ponesite vodu i obuću za stijene."
+        opis: "A rocky cove in a nature park, with cold springs welling up in the sea. There are no facilities whatsoever, and the walk down to the water takes about twenty minutes through the pines.",
+        napomena: "Bring water and shoes for the rocks."
       },
       {
         ime: "Lama Monachile",
         mjesto: "Polignano a Mare",
-        opis: "Šljunčana uvalica stisnuta između dviju litica, ona s razglednica. Besplatna je i malena, pa je ljeti već sredinom jutra puna.",
-        napomena: "Vrijedi doći prije devet."
+        opis: "A little pebble cove squeezed between two cliffs, the one from the postcards. It is free and tiny, so in summer it is already full by mid-morning.",
+        napomena: "It is worth arriving before nine."
       },
       {
-        ime: "Koliko košta ležaljka",
-        mjesto: "Cijela obala",
-        opis: "Suncobran i dvije ležaljke u običnim mjestima i izvan špice stoje 20 do 30 eura na dan, a u Gallipoliju, Polignanu i u prvim redovima u kolovozu 40 do 60 eura."
+        ime: "What a sunbed costs",
+        mjesto: "The whole coast",
+        opis: "An umbrella and two sunbeds cost 20 to 30 euros a day in ordinary places and outside peak season, and 40 to 60 euros in Gallipoli, in Polignano and in the front rows in August."
       },
       {
-        ime: "Grotta della Poesia: gleda se, ne kupa se",
+        ime: "Grotta della Poesia: for looking only, with no swimming",
         mjesto: "Roca Vecchia (Melendugno)",
-        opis: "Mnoge stare snimke prikazuju ljude kako skaču u ovaj prirodni bazen, ali to je danas zabranjeno. Špilja je dio arheološkog nalazišta, a od ljeta 2026. ulaz se u sezoni naplaćuje.",
-        napomena: "Ulaznica je 2026. stajala 5 eura."
+        opis: "Many old videos show people jumping into this natural pool, but that is now forbidden. The cave is part of an archaeological site, and since the summer of 2026 there has been an entry fee in season.",
+        napomena: "In 2026 the ticket cost 5 euros."
       }
     ]
   },
   {
     ikona: "🐟",
-    zelja: "Na ribarnicu i tržnicu",
+    zelja: "Go to the fish market and the street market",
     opcije: [
       {
         ime: "N'dèrr'a la lanze",
-        mjesto: "Bari, Molo San Nicola, uz Teatro Margherita",
-        opis: "Ime na barskom dijalektu znači „na zemlji kraj barki“. Ribari ovdje tuku hobotnice o kamen i ispiru ih u moru dok se ne skovrčaju, a sirovi plodovi mora jedu se s plastičnog tanjurića uz malo limuna, za nekoliko eura.",
-        napomena: "Živo je ujutro, najviše između osam i deset. Plaća se gotovinom."
+        mjesto: "Bari, Molo San Nicola, beside the Teatro Margherita",
+        opis: "In the Bari dialect the name means “on the ground by the boats”. Here the fishermen beat octopus against the stone and rinse it in the sea until it curls, and raw seafood is eaten off a little plastic plate with a squeeze of lemon, for a few euros.",
+        napomena: "It is busy in the morning, mostly between eight and ten. Payment is in cash."
       },
       {
-        ime: "Ribarnica u Gallipoliju",
-        mjesto: "Gallipoli, uz luku i dvorac",
-        opis: "Na ulazu u stari grad ribari izlažu ulov, a na kioscima se jedu sirovi ljubičasti škampi i ježinci."
+        ime: "The fish market in Gallipoli",
+        mjesto: "Gallipoli, beside the harbor and the castle",
+        opis: "At the entrance to the old town the fishermen lay out their catch, and at the kiosks people eat raw purple shrimp and sea urchins."
       },
       {
-        ime: "Tjedne tržnice",
-        mjesto: "Jutrom, otprilike od 7 do 13 sati",
-        opis: "Svako mjesto ima svoj dan: ponedjeljkom Cisternino i Lecce, utorkom Monopoli, srijedom Martina Franca, Gallipoli i Otranto, četvrtkom Alberobello, petkom Locorotondo i Lecce, subotom Monopoli i Ostuni.",
-        napomena: "Dani se znaju promijeniti, pa pitajte domaćine dan ranije."
+        ime: "Weekly markets",
+        mjesto: "Mornings, roughly from 7:00 to 13:00",
+        opis: "Every town has its own day: Monday in Cisternino and Lecce, Tuesday in Monopoli, Wednesday in Martina Franca, Gallipoli and Otranto, Thursday in Alberobello, Friday in Locorotondo and Lecce, Saturday in Monopoli and Ostuni.",
+        napomena: "The days do sometimes change, so ask your hosts the day before."
       }
     ]
   },
   {
     ikona: "🌿",
-    zelja: "U prirodu",
+    zelja: "Get out into nature",
     opcije: [
       {
         ime: "Foresta Umbra",
-        mjesto: "Nacionalni park Gargano",
-        opis: "Usred vrućeg juga raste hladna, tamna bukova šuma čiji su najstariji dijelovi na UNESCO-ovu popisu. Ima označene staze, jezerce i centar za posjetitelje s jelenima.",
+        mjesto: "Gargano National Park",
+        opis: "In the middle of the hot south grows a cool, dark beech forest whose oldest sections are on the UNESCO list. It has marked trails, a small lake and a visitor center with deer.",
         link: "https://www.parcogargano.it/"
       },
       {
-        ime: "Rezervat Torre Guaceto",
-        mjesto: "Carovigno, sjeverno od Brindisija",
-        opis: "Zaštićene dine, močvara i more u kojem se s vodičem može roniti s maskom. Auti ne ulaze, pa se od parkirališta ide vlakićem, pješice ili biciklom do aragonske kule."
+        ime: "The Torre Guaceto reserve",
+        mjesto: "Carovigno, north of Brindisi",
+        opis: "Protected dunes, wetlands and a sea where you can snorkel with a guide. Cars are not allowed in, so from the parking lot you take a little shuttle train, walk or cycle to the Aragonese tower."
       },
       {
         ime: "Salina dei Monaci",
         mjesto: "Torre Colimena (Manduria)",
-        opis: "Stara redovnička solana iza dina u kojoj danas stoje flamingosi. Ulaz je slobodan, a šetnja uz rub vode traje kratko i lijepo se spaja s plažom Punta Prosciutto.",
+        opis: "An old monks' saltworks behind the dunes, where flamingos now stand. Entry is free, and the stroll along the water's edge is a short one that pairs nicely with the beach at Punta Prosciutto.",
         link: "https://www.italia.it/it/puglia/taranto/salina-dei-monaci"
       },
       {
-        ime: "Biciklom po akvaduktu",
-        mjesto: "Valle d'Itria, od Figazzana do Ceglie Messapice",
-        opis: "Petnaestak ravnih kilometara bez auta, po vrhu velikog apulijskog akvadukta, između trulla i suhozida. Bicikle, i obične i električne, iznajmljuje Puglia On Bike u Locorotondu.",
+        ime: "By bike along the aqueduct",
+        mjesto: "Valle d'Itria, from Figazzano to Ceglie Messapica",
+        opis: "About fifteen flat, car-free kilometers along the top of the great Apulian aqueduct, between trulli and dry-stone walls. Bikes, both regular and electric, are rented out by Puglia On Bike in Locorotondo.",
         link: "https://www.italia.it/it/puglia/cisternino/ciclovia-dell-acquedotto-pugliese"
       },
       {
-        ime: "Jezero u kamenolomu boksita",
+        ime: "The lake in the bauxite quarry",
         mjesto: "Otranto",
-        opis: "Smaragdno jezerce u crvenoj zemlji napuštenog kamenoloma, deset minuta hoda od ceste.",
-        napomena: "Vlasnici okolnog zemljišta 2026. su ogradili pristup, pa prije odlaska pitajte u Otrantu može li se do jezera."
+        opis: "A small emerald lake in the red earth of an abandoned quarry, a ten-minute walk from the road.",
+        napomena: "In 2026 the owners of the surrounding land fenced off the access, so before you set out, ask in Otranto whether the lake can be reached."
       }
     ]
   },
   {
     ikona: "🏛️",
-    zelja: "U muzej koji se pamti",
+    zelja: "Visit a museum you will remember",
     opcije: [
       {
         ime: "Museo Faggiano",
         mjesto: "Lecce, Via Ascanio Grandi 56",
-        opis: "Jedna je obitelj 2001. počela kopati pod u kući da popravi kanalizacijsku cijev i pod njim našla dvije tisuće godina povijesti: mesapske grobove, cisterne, tragove iz vremena templara i tajne prolaze. Sami se spuštate i penjete kroz sve slojeve.",
-        napomena: "Otvoreno svaki dan od 9:30 do 20:00, ulaznica 5 eura.",
+        opis: "In 2001 a family started digging up the floor of their house to fix a sewer pipe and found two thousand years of history beneath it: Messapian tombs, cisterns, traces from the time of the Templars and secret passages. You climb down and up through all the layers by yourself.",
+        napomena: "Open every day from 9:30 to 20:00, admission 5 euros.",
         link: "https://www.museofaggiano.it/"
       },
       {
-        ime: "MArTA, arheološki muzej",
+        ime: "MArTA, the archaeological museum",
         mjesto: "Taranto",
-        opis: "Ovdje se čuva zlato Taranta, nakit grčkih zlatara iz vremena kad je Taranto bio jedan od najbogatijih gradova Velike Grčke. Vijenci od zlatnog lišća i naušnice toliko su fini da izgledaju kao da su napravljeni jučer.",
-        napomena: "Zatvoreno ponedjeljkom. Ulaznica 10 eura, do 18 godina besplatno, a prve nedjelje u mjesecu ulaz je slobodan za sve.",
+        opis: "This is the home of the gold of Taranto, jewelry by Greek goldsmiths from the days when Taranto was one of the richest cities of Magna Graecia. The wreaths of golden leaves and the earrings are so fine that they look as if they were made yesterday.",
+        napomena: "Closed on Mondays. Admission is 10 euros, free for those under 18, and on the first Sunday of the month entry is free for everyone.",
         link: "https://museotaranto.cultura.gov.it/it/visita/orari-e-tariffe/"
       },
       {
         ime: "Casa Grotta di Vico Solitario",
         mjesto: "Matera",
-        opis: "Jedna namještena kuća u špilji pokazuje kako je obitelj s mazgom i kokošima živjela u istoj prostoriji sve do pedesetih godina prošlog stoljeća. Nakon nje Sassi više ne izgledaju samo kao lijepa kulisa.",
-        napomena: "Otvoreno cijele godine, ulaznica 8 eura.",
+        opis: "A single furnished cave house shows how a family lived in the same room as a mule and chickens right up to the 1950s. After it, the Sassi no longer look like just a pretty backdrop.",
+        napomena: "Open all year round, admission 8 euros.",
         link: "https://www.casagrotta.it/tariffe-e-orari"
       },
       {
-        ime: "Židovski muzej",
-        mjesto: "Lecce, Via Umberto I 9, uz baziliku Santa Croce",
-        opis: "Podzemne prostorije srednjovjekovne sinagoge i četvrti koja je nestala kad su Židovi protjerani iz grada. Ulazi se samo s vodičem, a najkraći obilazak traje dvadesetak minuta.",
+        ime: "The Jewish Museum",
+        mjesto: "Lecce, Via Umberto I 9, beside the Basilica di Santa Croce",
+        opis: "The underground rooms of the medieval synagogue and of a quarter that vanished when the Jews were expelled from the city. Entry is with a guide only, and the shortest tour lasts about twenty minutes.",
         link: "https://www.museoebraicolecce.com/en/guided-tours/"
       },
       {
         ime: "Castello Svevo",
         mjesto: "Bari",
-        opis: "Dvorac Fridrika II. u kojem je zbirka gipsanih odljeva najljepših romaničkih skulptura Apulije, pa na jednom mjestu vidite detalje s portala koje biste inače gledali visoko iznad glave.",
+        opis: "The castle of Frederick II, which holds a collection of plaster casts of the finest Romanesque sculpture in Apulia, so in one place you can see details from portals that you would otherwise be looking at high above your head.",
         link: "https://museipuglia.cultura.gov.it/musei/castello-svevo-di-bari/"
       },
       {
-        ime: "Kripta istočnoga grijeha",
-        mjesto: "Okolica Matere",
-        opis: "Špilja oslikana freskama iz ranog srednjeg vijeka koju zovu Sikstinskom kapelom spiljskog slikarstva. Posjećuje se samo uz rezervaciju."
+        ime: "The Crypt of the Original Sin",
+        mjesto: "The Matera area",
+        opis: "A cave painted with early medieval frescoes that is called the Sistine Chapel of rock painting. It can be visited by reservation only."
       }
     ]
   },
   {
     ikona: "🛏️",
-    zelja: "Prespavati u trullu ili masseriji",
+    zelja: "Spend the night in a trullo or a masseria",
     opcije: [
       {
-        ime: "Noć u trullu",
+        ime: "A night in a trullo",
         mjesto: "Alberobello",
-        opis: "Niska vrata, debeli zidovi, malo prozora i ugodna hladovina usred ljeta. Najveći je dobitak to što vam Alberobello ostane gotovo prazan navečer i rano ujutro, kad odu izletnički autobusi.",
-        napomena: "Trulle iznajmljuju, među ostalima, Trulli Holiday i Trullidea."
+        opis: "A low door, thick walls, few windows and pleasant cool in the middle of summer. The biggest reward is that you have Alberobello almost to yourself in the evening and early morning, once the tour buses have left.",
+        napomena: "Trulli are rented out by, among others, Trulli Holiday and Trullidea."
       },
       {
         ime: "Masseria Il Frantoio",
         mjesto: "Ostuni",
-        opis: "Masseria je utvrđeno seosko imanje, a ova je iz 16. stoljeća i još uvijek proizvodi ekološko maslinovo ulje. Ima šesnaest soba i poznata je po dugim večerama u više sljedova.",
+        opis: "A masseria is a fortified farmstead, and this one dates from the 16th century and still produces organic olive oil. It has sixteen rooms and is known for its long multicourse dinners.",
         link: "https://www.masseriailfrantoio.it/"
       },
       {
         ime: "Antica Masseria Brancati",
         mjesto: "Ostuni",
-        opis: "Jednostavne sobe usred maslinika s tisućljetnim stablima, za one koje žele doručak s pogledom na masline starije od Rimskog Carstva.",
+        opis: "Simple rooms in the middle of an olive grove of thousand-year-old trees, for anyone who wants breakfast with a view of olive trees older than the Roman Empire.",
         link: "https://www.masseriabrancati.it/"
       }
     ]
   },
   {
     ikona: "🎉",
-    zelja: "Upasti na feštu",
-    uvod: "Sagra je seoska fešta posvećena jednoj namirnici, a patronalne svetkovine pretvaraju cijeli grad u pozornicu. Ako se datumi poklope s putovanjem, vrijedi promijeniti plan.",
+    zelja: "Stumble into a festival",
+    uvod: "A sagra is a village festival devoted to a single food, while the patron saints' feasts turn a whole town into a stage. If the dates line up with your trip, it is worth changing your plans.",
     opcije: [
       {
         ime: "Festa di San Nicola",
-        mjesto: "Bari, od 7. do 9. svibnja",
-        opis: "Grad slavi dan kad su barski mornari 1087. dovezli moći svetog Nikole. Prvu večer ide povorka u povijesnim kostimima, a kip sveca iznosi se na more."
+        mjesto: "Bari, May 7 to 9",
+        opis: "The city celebrates the day in 1087 when sailors from Bari brought home the relics of Saint Nicholas. On the first evening there is a parade in historical costume, and the statue of the saint is taken out to sea."
       },
       {
         ime: "Sagra del Polpo",
-        mjesto: "Mola di Bari, krajem srpnja",
-        opis: "Tri večeri posvećene hobotnici, pečenoj na žaru i u sendviču, uz glazbu na rivi."
+        mjesto: "Mola di Bari, late July",
+        opis: "Three evenings devoted to octopus, grilled and in a sandwich, with music on the waterfront."
       },
       {
         ime: "Festa della Municeddha",
-        mjesto: "Cannole, od 10. do 14. kolovoza",
-        opis: "Fešta puževa, koji se ovdje spremaju na desetak načina i jedu čačkalicom."
+        mjesto: "Cannole, August 10 to 14",
+        opis: "A festival of snails, which are cooked here in a dozen or so ways and eaten with a toothpick."
       },
       {
         ime: "Cavalcata di Sant'Oronzo",
-        mjesto: "Ostuni, od 25. do 27. kolovoza",
-        opis: "Konji i jahači u crvenim odorama izvezenim šljokicama prate kip sveca kroz bijeli grad. Glavna je povorka 26. kolovoza."
+        mjesto: "Ostuni, August 25 to 27",
+        opis: "Horses and riders in red uniforms embroidered with sequins escort the statue of the saint through the white town. The main procession is on August 26."
       }
     ]
   },
   {
     ikona: "🌅",
-    zelja: "Samo sjediti i gledati zalazak sunca",
+    zelja: "Just sit and watch the sunset",
     opcije: [
       {
-        ime: "Zidine Ostunija",
+        ime: "The walls of Ostuni",
         mjesto: "Ostuni",
-        opis: "S ruba bijelog grada vidi se more maslina koje se spušta do pravog mora."
+        opis: "From the edge of the white town you look out over a sea of olive trees rolling down to the real sea."
       },
       {
-        ime: "Zapadni bedemi starog grada",
+        ime: "The western ramparts of the old town",
         mjesto: "Gallipoli",
-        opis: "Stari grad je otok, pa sunce zalazi ravno u Jonsko more, a cijeli se grad u to doba šeće po zidinama."
+        opis: "The old town is an island, so the sun sets straight into the Ionian Sea, and at that hour the whole town is out strolling on the walls."
       },
       {
-        ime: "Svjetionik na kraju Italije",
+        ime: "The lighthouse at the end of Italy",
         mjesto: "Santa Maria di Leuca",
-        opis: "S rta ispod svjetionika gleda se mjesto gdje se, kako kažu, susreću dva mora."
+        opis: "From the headland below the lighthouse you look out at the place where, they say, two seas meet."
       },
       {
-        ime: "Vidikovac Murgia Timone",
+        ime: "The Murgia Timone lookout",
         mjesto: "Matera",
-        opis: "S druge strane kanjona u sumrak se pale svjetla po Sassima, pa grad izgleda kao jaslice."
+        opis: "From the far side of the canyon you watch the lights come on across the Sassi at dusk, and the city looks like a nativity scene."
       },
       {
         ime: "Passeggiata",
-        mjesto: "Svaki grad, oko sedam navečer",
-        opis: "Večernja šetnja ovdje je gotovo obveza. U Bariju se šeće ulicom Via Sparano i uz more, u Lecceu oko trga Sant'Oronzo, a u Monopoliju uz staru luku."
+        mjesto: "Every town, around seven in the evening",
+        opis: "The evening stroll is practically an obligation here. In Bari people stroll along Via Sparano and by the sea, in Lecce around Piazza Sant'Oronzo, and in Monopoli along the old harbor."
       }
     ]
   }
@@ -484,95 +484,95 @@ TRIP.akoZelis = [
 TRIP.prakticno = [
   {
     ikona: "⛴️",
-    naslov: "Kako doći iz Hrvatske",
+    naslov: "Getting there from Croatia",
     tekst: [
-      "Trajektom plovi Jadrolinija, i to na dvije linije: Dubrovnik do Barija i Split do Barija. Obje su sezonske i voze otprilike od kraja ožujka do kraja listopada. Iz Splita se plovi noću, jednom tjedno u svakom smjeru, pa navečer legnete u kabinu i ujutro u osam ste u Bariju. Iz Dubrovnika ima više polazaka, dnevnih i noćnih, a plovidba traje osam do deset sati.",
-      "Red plovidbe za iduću sezonu Jadrolinija obično objavi u prosincu. Ukrcaj se otvara dva sata prije polaska.",
-      "Ljeti postoje i izravni letovi iz Splita i Dubrovnika za Bari, koji traju oko sat vremena. Linije se mijenjaju iz sezone u sezonu, pa ih treba provjeriti kod prijevoznika."
+      "The ferries are run by Jadrolinija, on two routes: Dubrovnik to Bari and Split to Bari. Both are seasonal and operate roughly from the end of March to the end of October. From Split the crossing is overnight, once a week in each direction, so you go to bed in your cabin in the evening and are in Bari at eight in the morning. From Dubrovnik there are more sailings, by day and by night, and the crossing takes eight to ten hours.",
+      "Jadrolinija usually publishes the timetable for the coming season in December. Boarding opens two hours before departure.",
+      "In summer there are also direct flights from Split and Dubrovnik to Bari, which take about an hour. The routes change from season to season, so check them with the airline."
     ]
   },
   {
     ikona: "✈️",
-    naslov: "Zračne luke",
+    naslov: "Airports",
     tekst: [
-      "Iz zračne luke Bari vlak do glavnog kolodvora Bari Centrale vozi petnaestak minuta i stoji oko 5 eura. Iz iste zračne luke vozi i autobus za Materu.",
-      "Zračna luka Brindisi bliža je Salentu. Autobus do Leccea vozi oko 40 minuta."
+      "From Bari airport the train to the main station, Bari Centrale, takes about fifteen minutes and costs around 5 euros. A bus to Matera runs from the same airport.",
+      "Brindisi airport is closer to Salento. The bus to Lecce takes about 40 minutes."
     ]
   },
   {
     ikona: "🚆",
-    naslov: "Vlakom i autobusom",
+    naslov: "By train and bus",
     tekst: [
-      "Glavna jadranska pruga Trenitalije povezuje Trani, Bari, Polignano a Mare, Monopoli, Ostuni, Brindisi i Lecce. Vlakovi su brzi i jeftini, pa se obala lako obiđe bez auta. Kolodvori u Ostuniju i Fasanu daleko su od grada, pa do centra treba autobus ili taksi.",
-      "Ferrovie del Sud Est voze iz Barija prema Alberobellu, Locorotondu i Martini Franci te po Salentu od Leccea prema Otrantu i Gallipoliju. Te su pruge spore, često su u radovima pa vlak zamijeni autobus, a nedjeljom voze vrlo rijetko.",
-      "Do Matere vozi zasebna željeznica, Ferrovie Appulo Lucane, s kolodvora odmah uz Bari Centrale. Put traje oko sat i pol, a nedjeljom umjesto vlakova obično voze autobusi."
+      "Trenitalia's main Adriatic line links Trani, Bari, Polignano a Mare, Monopoli, Ostuni, Brindisi and Lecce. The trains are fast and cheap, so the coast is easy to cover without a car. The stations in Ostuni and Fasano are a long way from town, so you need a bus or taxi to reach the center.",
+      "Ferrovie del Sud Est runs from Bari toward Alberobello, Locorotondo and Martina Franca, and around Salento from Lecce toward Otranto and Gallipoli. These lines are slow, are often under repair so that a bus replaces the train, and run very rarely on Sundays.",
+      "Matera is served by a separate railway, Ferrovie Appulo Lucane, from a station right beside Bari Centrale. The trip takes about an hour and a half, and on Sundays buses usually run in place of the trains."
     ]
   },
   {
     ikona: "🚗",
-    naslov: "Autom: pazi na ZTL",
+    naslov: "By car: watch out for the ZTL",
     tekst: [
-      "Za sela Valle d'Itrije, plaže Salenta i Gargano auto je najpraktičniji. Zamka su stare jezgre, jer je gotovo svaka zona ograničenog prometa koja se zove ZTL i nadziru je kamere. Kazna stigne preko tvrtke za najam, uvećana za njihovu naknadu.",
-      "Ako je smještaj unutar ZTL-a, domaćin često može prijaviti vašu registraciju, pa ga to pitajte prije dolaska. U Bari Vecchiju turisti dozvolu ne mogu dobiti."
+      "For the villages of the Valle d'Itria, the beaches of Salento and the Gargano, a car is the most practical option. The trap is the old town centers, because almost every one is a limited traffic zone called a ZTL and is monitored by cameras. The fine arrives through the rental company, with their fee added on top.",
+      "If your accommodation is inside the ZTL, your host can often register your license plate, so ask about that before you arrive. In Bari Vecchia tourists cannot get a permit."
     ],
     popis: [
-      "Plave crte znače plaćeno parkiranje, bijele besplatno, a žute rezervirano.",
-      "Ostuni: parkirajte izvan zidina, na Contrada Santo Stefano ili u Ostuni Central Parkingu.",
-      "Lecce: parkiralište Foro Boario stoji 2 eura na dan i uključuje gradski autobus do centra.",
-      "Monopoli: parkiralište u luci na Piazza Cristoforo Colombo.",
-      "Na parkiralištima uz plaže ne ostavljajte ništa vidljivo u autu."
+      "Blue lines mean paid parking, white lines free parking and yellow lines reserved spaces.",
+      "Ostuni: park outside the walls, at Contrada Santo Stefano or in the Ostuni Central Parking lot.",
+      "Lecce: the Foro Boario parking lot costs 2 euros a day and includes the city bus to the center.",
+      "Monopoli: the parking lot at the harbor on Piazza Cristoforo Colombo.",
+      "In beach parking lots, do not leave anything visible in the car."
     ]
   },
   {
     ikona: "🗓️",
-    naslov: "Kada ići i koliko ostati",
+    naslov: "When to go and how long to stay",
     tekst: [
-      "Najljepše je krajem svibnja, u lipnju, rujnu i početkom listopada. More je toplo od sredine lipnja do početka listopada. Kolovoz je vruć, krcat i najskuplji, osobito tjedan oko 15. kolovoza, kad cijela Italija ima praznik Ferragosto.",
-      "Za prvi put dobro je računati sedam do deset dana bez Gargana, koji je dva i pol do tri sata sjeverno od Barija i zaslužuje vlastito putovanje."
+      "The best times are late May, June, September and early October. The sea is warm from mid-June to early October. August is hot, packed and the most expensive, especially the week around August 15, when all of Italy celebrates the Ferragosto holiday.",
+      "For a first visit it is a good idea to allow seven to ten days without the Gargano, which is two and a half to three hours north of Bari and deserves a trip of its own."
     ],
     popis: [
-      "Bari s Polignanom i Monopolijem: 2 dana",
-      "Valle d'Itria (Alberobello, Locorotondo, Cisternino, Martina Franca, Ostuni): 3 dana",
-      "Salento (Lecce, Otranto, Gallipoli, Leuca): 4 do 5 dana",
-      "Matera: 1 do 2 dana, svakako s noćenjem",
-      "Gargano: 3 dana"
+      "Bari with Polignano and Monopoli: 2 days",
+      "Valle d'Itria (Alberobello, Locorotondo, Cisternino, Martina Franca, Ostuni): 3 days",
+      "Salento (Lecce, Otranto, Gallipoli, Leuca): 4 to 5 days",
+      "Matera: 1 to 2 days, definitely with an overnight stay",
+      "Gargano: 3 days"
     ]
   },
   {
     ikona: "😴",
-    naslov: "Riposo: grad koji popodne spava",
+    naslov: "Riposo: the town that sleeps in the afternoon",
     tekst: [
-      "Između otprilike 13 i 16:30 ili 17 sati dućani, manji muzeji i mnoge crkve zatvaraju se, a ulice se isprazne. To je vrijeme za ručak, plažu ili odmor, a nikako za razgledavanje i kupnju.",
-      "Ručak se poslužuje do otprilike 14:30, a kuhinje se navečer rijetko otvaraju prije 19:30 ili 20 sati."
+      "Between roughly 13:00 and 16:30 or 17:00, shops, smaller museums and many churches close and the streets empty out. This is the time for lunch, the beach or a rest, and certainly not for sightseeing or shopping.",
+      "Lunch is served until about 14:30, and in the evening kitchens rarely open before 19:30 or 20:00."
     ]
   },
   {
     ikona: "⚠️",
-    naslov: "Pogreške koje svi rade",
+    naslov: "Mistakes everyone makes",
     popis: [
-      "Pokušaj da se u jednom tjednu obiđu i Gargano i Salento.",
-      "Dolazak u Alberobello u podne, zajedno sa svim autobusima. Bolje je rano ujutro ili predvečer.",
-      "Ulazak autom u ZTL.",
-      "Dolazak na ručak nakon 14:30 ili na večeru prije 19:30.",
-      "Očekivanje pješčane plaže u Polignanu i u samom Otrantu, gdje su stijene i šljunak.",
-      "Plan da se okupate u Grotta della Poesia, gdje je kupanje zabranjeno.",
-      "Oslanjanje na lokalne vlakove nedjeljom.",
-      "Kolovoz bez rezervacije ležaljki i izleta brodom.",
-      "Novčanik bez gotovine za tržnice, ribare i male barove."
+      "Trying to cover both the Gargano and Salento in one week.",
+      "Arriving in Alberobello at noon, along with all the buses. Early morning or toward evening is better.",
+      "Driving into a ZTL.",
+      "Turning up for lunch after 14:30 or for dinner before 19:30.",
+      "Expecting a sandy beach in Polignano and in Otranto itself, where there are rocks and pebbles.",
+      "Planning a swim at the Grotta della Poesia, where swimming is forbidden.",
+      "Relying on local trains on a Sunday.",
+      "August without reservations for sunbeds and boat trips.",
+      "A wallet with no cash for markets, fishermen and small bars."
     ]
   },
   {
     ikona: "💶",
-    naslov: "Novac i napojnice",
+    naslov: "Money and tipping",
     tekst: [
-      "Kartice se primaju gotovo svugdje, ali za tržnice, kioske i ribare treba gotovina. U restoranu će na računu biti coperto, naknada od 2 do 3 eura po osobi za kruh i stolnjak, i to je posve uobičajeno. Napojnica se ne očekuje, a ako ste zadovoljne, dovoljno je zaokružiti račun."
+      "Cards are accepted almost everywhere, but for markets, kiosks and fishermen you need cash. In a restaurant the bill will include the coperto, a charge of 2 to 3 euros per person for the bread and the tablecloth, and it is entirely normal. A tip is not expected, and if you are happy with the meal, rounding up the bill is enough."
     ]
   },
   {
     ikona: "👭",
-    naslov: "Sigurnost",
+    naslov: "Safety",
     tekst: [
-      "Apulija je mirna i ugodna za dvije žene na putu. Uobičajeni oprez s torbom vrijedi oko kolodvora u Bariju i kasno navečer u uskim ulicama starog Barija."
+      "Apulia is calm and comfortable for women traveling together. The usual care with your bag applies around the station in Bari and late at night in the narrow streets of old Bari."
     ]
   }
 ];

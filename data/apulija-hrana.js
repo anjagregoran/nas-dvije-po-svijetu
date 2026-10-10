@@ -80,14 +80,12 @@ TRIP.hrana = [
       },
       {
         ime: "Pane di Matera",
-        izgovor: "PAH-neh dee mah-TEH-rah",
         opis: "A horn-shaped durum wheat bread that stays fresh for seven days.",
         prica: "Until the 1950s families kneaded their bread at home and carried it to a communal oven. So that everyone knew whose was whose, each family stamped its loaf before baking with its own wooden stamp, and those stamps are now a sought-after souvenir.",
         gdje: "Matera."
       },
       {
         ime: "Taralli",
-        izgovor: "tah-RAHL-lee",
         opis: "Crunchy little rings of flour, olive oil, white wine and salt.",
         prica: "They are boiled briefly before baking, which is why they snap the way they do. They are made with fennel seed, pepper, chili or onion, and you will get them with every glass of wine. Italians say that something ended “a tarallucci e vino” when a quarrel is settled peacefully, over taralli and wine.",
         gdje: "Everywhere, and they also make a good gift to take home."
@@ -164,7 +162,6 @@ TRIP.hrana = [
       },
       {
         ime: "Bombette",
-        izgovor: "bom-BET-teh",
         opis: "Little rolls of pork neck stuffed with cheese, roasted on a skewer in the butcher's oven.",
         prica: [
           "The name means little bombs, for their shape and for the cheese that bursts out of them when you bite in. A thin slice of pork is wrapped around a piece of caciocavallo, salted and peppered, and there are also versions wrapped in pancetta or breaded.",
@@ -213,7 +210,6 @@ TRIP.hrana = [
       },
       {
         ime: "Gambero viola di Gallipoli",
-        izgovor: "GAHM-beh-roh vee-OH-lah dee gahl-LEE-poh-lee",
         opis: "A purple shrimp from the depths of the Ionian Sea, sweet and tender.",
         prica: "It is caught at great depths off Gallipoli and eaten raw, with a drop of oil, or on linguine.",
         gdje: "Gallipoli: La Vinaigrette on Riviera Armando Diaz."
@@ -258,7 +254,6 @@ TRIP.hrana = [
     stavke: [
       {
         ime: "Burrata di Andria",
-        izgovor: "boor-RAH-tah dee AHN-dree-ah",
         opis: "A pouch of mozzarella filled with cream and strands of fresh cheese.",
         prica: [
           "Burrata means “buttered”. Tradition credits it to the cheesemaker Lorenzo Bianchino from an estate near Andria: when snow cut him off from the world and he could not deliver his milk, he sealed the cream and the cheese scraps inside a pouch of mozzarella so that nothing would go to waste. Some set the story at the start of the 20th century, others in 1956.",
@@ -275,7 +270,6 @@ TRIP.hrana = [
       },
       {
         ime: "Mozzarella, nodini and trecce",
-        izgovor: "mot-tsah-REL-lah, noh-DEE-nee, TRET-cheh",
         opis: "Fresh cow's milk cheese in the shape of a ball, a little knot or a braid.",
         prica: "Apulian mozzarella is made from cow's milk, unlike the buffalo milk version from Naples. The one from Gioia del Colle has held a protected designation of origin since 2020. The little knots are called nodini and the braids trecce, and all of them are tied by hand while the cheese is still hot.",
         gdje: "In every dairy, in the morning."
@@ -289,7 +283,6 @@ TRIP.hrana = [
       },
       {
         ime: "Ricotta forte",
-        izgovor: "ree-KOT-tah FOR-teh",
         opis: "A fermented, spreadable and very sharp ricotta.",
         prica: "In dialect it is called scante, “the one that burns”. It is stirred and salted for months until it becomes so strong that a teaspoon in a tomato sauce is enough.",
         gdje: "Salento and the Murgia, in sauces and panzerotti.",
@@ -297,7 +290,6 @@ TRIP.hrana = [
       },
       {
         ime: "Cacioricotta and canestrato",
-        izgovor: "kah-choh-ree-KOT-tah, kah-neh-STRAH-toh",
         opis: "Two cheeses that are grated over pasta.",
         prica: "Cacioricotta is something between a cheese and a ricotta, made from goat's or sheep's milk, and in summer it is grated over orecchiette with tomato. Canestrato is a hard sheep's milk cheese shaped in rush baskets, which leave their imprint on the rind. It is tied to the flocks that for centuries came down from Abruzzo to winter pasture on the Tavoliere plain.",
         gdje: "Canestrato around Foggia, cacioricotta everywhere."
@@ -368,7 +360,6 @@ TRIP.hrana = [
       },
       {
         ime: "Spumone",
-        izgovor: "spoo-MOH-neh",
         opis: "Layered molded ice cream with a soft center.",
         prica: "It descends from the iced “bombes” that French-trained cooks showed off at the court of Naples, and it reached Salento in the 19th century. It is cut into slices and served after Sunday lunch and at weddings.",
         gdje: "Gallipoli and Salento."
@@ -408,14 +399,12 @@ TRIP.hrana = [
       },
       {
         ime: "Espressino",
-        izgovor: "es-pres-SEE-noh",
         opis: "A small espresso with milk foam and cocoa, served in a little glass.",
         prica: "This is the Apulian name for what the rest of Italy calls a marocchino.",
         gdje: "In every bar."
       },
       {
         ime: "Primitivo",
-        izgovor: "pree-mee-TEE-voh",
         opis: "A dense, dark and almost sweet red wine, the pride of Manduria and Gioia del Colle.",
         prica: [
           "It was named at the end of the 18th century by Francesco Filippo Indellicati, a priest and agronomist from Gioia del Colle, because this vine ripens first, earlier than all the others.",
@@ -425,41 +414,35 @@ TRIP.hrana = [
       },
       {
         ime: "Negroamaro",
-        izgovor: "neh-groh-ah-MAH-roh",
         opis: "The dark red wine of Salento, earthy and with a slightly bitter finish.",
         prica: "The name is explained in two ways: as “black and bitter”, or as a pairing of the Latin and Greek words for black, in other words “black black”. It is the main grape of Salice Salentino wine.",
         gdje: "Salice Salentino and Guagnano, at the Leone de Castris and Cantele wineries."
       },
       {
         ime: "Rosato and Five Roses",
-        izgovor: "roh-ZAH-toh",
         opis: "A pink wine made from negroamaro, which people here drink all summer long.",
         prica: "In 1943 the Leone de Castris winery bottled Five Roses, which is considered the first rosé bottled in Italy. Since there were no glass wine bottles to be had in wartime, they filled beer bottles, and the English name was requested by a general from the USA who ordered a large quantity for the Allied army.",
         gdje: "Salento."
       },
       {
         ime: "Nero di Troia",
-        izgovor: "NEH-roh dee TROH-yah",
         opis: "A powerful red wine from northern Apulia, with flavors of sour cherry and pepper.",
         gdje: "The area around Castel del Monte, Andria and Trani."
       },
       {
         ime: "Verdeca and Locorotondo",
-        izgovor: "ver-DEH-kah, loh-koh-roh-TON-doh",
         opis: "The light, fresh white wine of the Valle d'Itria.",
         prica: "Locorotondo has had a protected name since 1969 and is made from the verdeca and bianco d'Alessano grapes. This is a wine for a hot afternoon among the trulli.",
         gdje: "Locorotondo, Martina Franca and Alberobello."
       },
       {
         ime: "Moscato di Trani",
-        izgovor: "moh-SKAH-toh dee TRAH-nee",
         opis: "A sweet white wine made from muscat, of which there is very little.",
         prica: "Venetian merchants were already spreading its fame in the 13th century. Today it is grown on barely ten hectares or so.",
         gdje: "Trani."
       },
       {
         ime: "Padre Peppe",
-        izgovor: "PAH-dreh PEP-peh",
         opis: "A dark green-walnut liqueur from Altamura.",
         gdje: "Altamura, at Caffè Ronchi Striccoli beside the cathedral."
       },

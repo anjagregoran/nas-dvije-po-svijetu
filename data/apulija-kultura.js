@@ -1,88 +1,88 @@
-// Apulija: kultura, običaji, svakodnevni život i rječnik.
+// Apulia: culture, customs, everyday life and the phrasebook.
 
-TRIP.kulturaUvod = "Ovdje su priče koje objašnjavaju ono što ćete viđati na svakom koraku: zašto se pleše u krugu, zašto je u tri popodne grad pust i što znači keramički pupoljak na balkonu.";
+TRIP.kulturaUvod = "Here are the stories that explain what you will see at every turn: why people dance in a circle, why the town is deserted at three in the afternoon and what the ceramic bud on a balcony means.";
 
 TRIP.kultura = [
   {
     ikona: "💃",
-    naslov: "Pizzica, ples bez dodira",
-    uvod: "Što zapravo gledamo kad se na trgu stvori krug",
+    naslov: "Pizzica, the dance without touch",
+    uvod: "What you are really watching when a circle forms on the square",
     dijelovi: [
       {
         tekst: [
-          "Pizzica je salentinska grana velike obitelji južnotalijanskih tarantela. Ime dolazi od glagola pizzicare, ugristi ili uštipnuti, kao što ugrize pauk. Prvi put se spominje u 18. stoljeću, a ples u paru kakav danas gledamo oblikovao se početkom 19.",
-          "Sedamdesetih i osamdesetih godina gotovo je nestala jer su je se ljudi sramili kao znaka zaostalosti. Mladi su je ponovno otkrili devedesetih, i danas je ponos cijelog Salenta. Ono što se vidi na velikim pozornicama novija je, scenska verzija, a ono u seoskom krugu bliže je starom plesu."
+          "Pizzica is the Salento branch of the great family of southern Italian tarantellas. The name comes from the verb pizzicare, to bite or to pinch, the way a spider bites. It is first mentioned in the 18th century, and the couple dance we watch today took shape at the start of the 19th.",
+          "In the 1970s and 1980s it almost died out because people were ashamed of it as a sign of backwardness. Young people rediscovered it in the 1990s, and today it is the pride of all Salento. What you see on the big stages is a newer, staged version, while what happens in a village circle is closer to the old dance."
         ]
       },
       {
-        naslov: "Tri plesa pod istim imenom",
+        naslov: "Three dances under one name",
         popis: [
-          "Pizzica pizzica je društveni ples s fešta i svadbi. Pleše se u paru, a par ne moraju biti muškarac i žena. Vrlo često plešu dvije žene, primjerice majka i kći.",
-          "Pizzica scherma je muški ples iz Torrepadulija. Dvojica oponašaju dvoboj noževima, a oštricu im glume ispruženi kažiprst i srednji prst. Tko je dotaknut izlazi iz kruga i ulazi novi izazivač.",
-          "Pizzica tarantata uopće nije bila ples za zabavu. To je bila glazba kojom se danima liječila žena za koju se vjerovalo da ju je ugrizla taranta."
+          "Pizzica pizzica is the social dance of festivals and weddings. It is danced in pairs, and the pair does not have to be a man and a woman. Very often two women dance together, a mother and daughter for example.",
+          "Pizzica scherma is a men's dance from Torrepaduli. Two men mimic a knife duel, with the outstretched index and middle fingers standing in for the blade. Whoever is touched leaves the circle and a new challenger steps in.",
+          "Pizzica tarantata was never a dance for fun at all. It was the music used, for days on end, to cure a woman believed to have been bitten by the taranta."
         ]
       },
       {
-        naslov: "Kako je gledati",
+        naslov: "How to watch it",
         tekst: [
-          "Ritam daje tamburello, bubanj s praporcima, a plesači ga prate sitnim, brzim i poskočnim koracima. Dvije su osnovne figure: u jednoj par stoji licem u lice, a u drugoj kruže jedno oko drugog. Sve ostalo je improvizacija.",
-          "Najvažnije je to da se plesači ne dodiruju. Sve se događa pogledom i razmakom: ona priđe i pozove ga očima, zatim se okrene i ode, a on je slijedi. Žene se vrte uspravno i mašu suknjom i šalom, a muškarci lupaju nogama. Rubac u ženinoj ruci služi da se njime pozove izabranik.",
-          "Krug svirača, onih koji čekaju red i gledatelja zove se ronda. Nastaje spontano, a parovi ulaze u sredinu jedan za drugim. Ukratko, pizzica pizzica je udvaranje bez dodira, pizzica scherma dvoboj bez oštrice, a pizzica tarantata bila je lijek."
+          "The rhythm comes from the tamburello, a drum with jingles, and the dancers follow it with small, quick, springy steps. There are two basic figures: in one the couple stands face to face, and in the other they circle around each other. Everything else is improvisation.",
+          "The most important thing is that the dancers never touch. It all happens through glances and distance: she approaches and invites him with her eyes, then turns and moves away, and he follows. The women spin upright and wave their skirts and shawls, while the men stamp their feet. The handkerchief in the woman's hand is there to summon the partner she has chosen.",
+          "The circle of musicians, of those waiting their turn and of onlookers is called the ronda. It forms spontaneously, and the couples step into the middle one after another. In short, pizzica pizzica is courtship without touch, pizzica scherma is a duel without a blade, and pizzica tarantata was a cure."
         ]
       }
     ]
   },
   {
     ikona: "🕷️",
-    naslov: "Tarantizam: ugriz kojeg nije bilo",
-    uvod: "Priča o ženama koje su plesale danima da ozdrave",
+    naslov: "Tarantism: the bite that never was",
+    uvod: "The story of the women who danced for days to get well",
     dijelovi: [
       {
         tekst: [
-          "Stoljećima se u Salentu vjerovalo da ugriz pauka zvanog taranta izaziva bolest koja se liječi samo glazbom i plesom. Oboljele su većinom bile žene, često mlade, a kriza je dolazila ljeti, u vrijeme žetve, i vraćala se svake godine u isto doba.",
-          "Obitelj bi pozvala svirače s tamburellom, violinom i harmonikom. Svirali su napjev za napjevom dok jedan ne bi pokrenuo bolesnicu. Pokazivali su joj i raznobojne vrpce, pa se boja na koju bi reagirala smatrala bojom njezina pauka. Plesala bi četvrt sata, odmarala deset minuta, i tako do večeri, oko tri dana."
+          "For centuries people in Salento believed that the bite of a spider called the taranta caused an illness that only music and dance could cure. The sufferers were mostly women, often young, and the crisis came in summer, at harvest time, and returned every year in the same season.",
+          "The family would send for musicians with a tamburello, a violin and an accordion. They played tune after tune until one of them set the patient moving. They also showed her ribbons of different colors, and the color she reacted to was taken to be the color of her spider. She would dance for a quarter of an hour, rest for ten minutes, and carry on like that until evening, for about three days."
         ]
       },
       {
-        naslov: "Što se zapravo događalo",
+        naslov: "What was really going on",
         tekst: [
-          "Antropolog Ernesto de Martino došao je u Salento u ljeto 1959. s liječnicima, psiholozima i etnomuzikologom, a 1961. objavio je knjigu Zemlja grižnje. Zaključio je da je ugriz bio simboličan. Pravi apulijski pauk bolno ugrize, ali je bezopasan, a nikakva veza između pauka i tog ponašanja nikad nije dokazana.",
-          "Obred je, po njemu, davao društveno prihvatljiv oblik osobnoj patnji. Žene koje nisu smjele govoriti o nesretnom braku, siromaštvu ili gubitku smjele su plesati. Naslov knjige igra je riječi, jer talijanski rimorso znači i grižnja savjesti i ponovni ugriz."
+          "The anthropologist Ernesto de Martino came to Salento in the summer of 1959 with doctors, psychologists and an ethnomusicologist, and in 1961 he published the book The Land of Remorse. He concluded that the bite was symbolic. The real Apulian spider gives a painful bite but is harmless, and no link between the spider and this behavior has ever been proven.",
+          "The ritual, in his view, gave personal suffering a socially acceptable form. Women who were not allowed to talk about an unhappy marriage, poverty or loss were allowed to dance. The title of the book is a play on words, because the Italian rimorso means both remorse and a second bite."
         ]
       },
       {
-        naslov: "Kapela svetog Pavla u Galatini",
-        tekst: "Legenda kaže da je sveti Pavao odsjeo u kući na ovom mjestu i domaćinu u znak zahvalnosti podario moć liječenja ugriza otrovnih životinja, koja je prešla u vodu bunara. Do prije nekoliko desetljeća ovamo su u noći s 28. na 29. lipnja dolazile tarantate iz cijelog Salenta, pile vodu iz bunara i plesale pred kapelom dok se ne bi srušile, što je značilo da su ozdravile. Danas se na te dane pred kapelom sviraju tamburelli u spomen."
+        naslov: "The chapel of Saint Paul in Galatina",
+        tekst: "Legend has it that Saint Paul stayed in a house on this spot and, in gratitude, gave his host the power to heal the bites of venomous creatures, a power that passed into the water of the well. Until a few decades ago, tarantate from all over Salento came here on the night of June 28 to 29, drank water from the well and danced in front of the chapel until they collapsed, which meant they were cured. Today, on those same days, tamburelli are played in front of the chapel in remembrance."
       }
     ]
   },
   {
     ikona: "🎶",
-    naslov: "Glazba: tamburello, Notte della Taranta i Volare",
+    naslov: "Music: the tamburello, the Notte della Taranta and Volare",
     dijelovi: [
       {
-        naslov: "Tamburello",
-        tekst: "Okvirni bubanj s praporcima srce je pizzice, a na salentinskom se zove tamburreddhu. Pravi se od drvenog obruča, kože i limenih pločica. Onaj pravi velik je i težak, i nema veze sa šarenim suvenirom, pa ga svirači drže uspravno i udaraju cijelom šakom."
+        naslov: "The tamburello",
+        tekst: "The frame drum with jingles is the heart of pizzica, and in the Salento dialect it is called the tamburreddhu. It is made from a wooden hoop, a skin and tin discs. The real thing is big and heavy and has nothing to do with the colorful souvenir, so the players hold it upright and strike it with the whole hand."
       },
       {
         naslov: "La Notte della Taranta",
         tekst: [
-          "Festival je nastao 1998. kao jedna noć glazbe u Melpignanu. Danas počinje putujućim festivalom besplatnih koncerata po trgovima Salenta, koji traje oko tri tjedna, a završava velikim koncertom, Concertoneom, pred starim augustinskim samostanom u Melpignanu, pred stotinjak tisuća ljudi.",
-          "Svake godine drugi glazbenik dobije zadatak da stare salentinske pjesme obradi na svoj način. Među njima su bili Stewart Copeland iz grupe The Police, Ludovico Einaudi i Goran Bregović, koji je 2012. koncert završio pjesmom Bella ciao i time izazvao pravu javnu svađu."
+          "The festival began in 1998 as a single night of music in Melpignano. Today it opens with a traveling festival of free concerts on the squares of Salento, which lasts about three weeks, and ends with a huge concert, the Concertone, in front of the old Augustinian monastery in Melpignano, before a crowd of some hundred thousand people.",
+          "Every year a different musician is given the task of arranging the old Salento songs in his own way. They have included Stewart Copeland of The Police, Ludovico Einaudi and Goran Bregović, who closed the 2012 concert with the song Bella ciao and set off a real public row."
         ]
       },
       {
-        naslov: "Tarantela s Gargana",
-        tekst: "Sjever Apulije ima svoju, posve drukčiju tradiciju. Na Garganu se svira na chitarri battente, uskoj gitari po kojoj se udara, uz tamburello i kastanjete. Napjevi nose imena gradova, pa postoje Carpinese, Montanara i Viestesana, a središte je mjesto Carpino, koje početkom kolovoza ima vlastiti festival."
+        naslov: "The tarantella of the Gargano",
+        tekst: "The north of Apulia has a completely different tradition of its own. On the Gargano the music is played on the chitarra battente, a narrow guitar that is strummed percussively, along with the tamburello and castanets. The tunes carry the names of towns, so there is a Carpinese, a Montanara and a Viestesana, and the center of it all is the town of Carpino, which has its own festival at the start of August."
       },
       {
         naslov: "Domenico Modugno",
-        tekst: "Rodio se 1928. u Polignanu a Mare. Njegova pjesma Nel blu dipinto di blu, koju svi zovemo Volare, pobijedila je u Sanremu 1958., bila treća na Euroviziji i na prvoj dodjeli Grammyja osvojila nagrade za ploču i pjesmu godine. Na početku karijere puštao je da ljudi misle kako je Sicilijanac."
+        tekst: "He was born in 1928 in Polignano a Mare. His song Nel blu dipinto di blu, which everyone calls Volare, won Sanremo in 1958, came third at Eurovision and, at the very first Grammy ceremony, took the awards for record and song of the year. Early in his career he let people believe he was Sicilian."
       },
       {
-        naslov: "Pjesme koje vrijedi poslušati prije puta",
+        naslov: "Songs worth hearing before you go",
         popis: [
-          "Kalinifta, na griku, što znači laku noć",
+          "Kalinifta, in Griko, which means good night",
           "Lu rusciu de lu mare",
           "Pizzicarella",
           "Santu Paulu"
@@ -92,299 +92,299 @@ TRIP.kultura = [
   },
   {
     ikona: "🎆",
-    naslov: "Godina u feštama",
-    uvod: "Od najvećeg krijesa na Sredozemlju do katedrala od žaruljica",
+    naslov: "The year in festivals",
+    uvod: "From the biggest bonfire in the Mediterranean to cathedrals made of light bulbs",
     dijelovi: [
       {
-        naslov: "Zima",
+        naslov: "Winter",
         popis: [
-          "Fòcara u Novoliju, 16. siječnja: krijes visok oko 25 metara, složen od osamdeset tisuća svežnjeva suhe vinove loze, pali se uoči blagdana svetog Antuna Opata.",
-          "Karneval u Putignanu: tvrdi da je najstariji u Europi i da traje od 1394. Počinje već 26. prosinca, kad pjesnici na dijalektu javno ismijavaju političare. Maska mu je Farinella, lakrdijaš u šarenom kostimu.",
-          "Sajam zviždaljki u Rutiglianu, 17. siječnja: oslikane zviždaljke od terakote, među kojima je pijetao simbol grada."
+          "The Fòcara in Novoli, January 16: a bonfire about 25 meters high, built from eighty thousand bundles of dry vine cuttings, is lit on the eve of the feast of Saint Anthony the Abbot.",
+          "Carnival in Putignano: it claims to be the oldest in Europe and to have been running since 1394. It starts as early as December 26, when poets publicly mock the politicians in dialect. Its mask is Farinella, a jester in a multicolored costume.",
+          "The whistle fair in Rutigliano, January 17: painted terracotta whistles, among which the rooster is the symbol of the town."
         ]
       },
       {
-        naslov: "Veliki tjedan",
+        naslov: "Holy Week",
         tekst: [
-          "U Tarantu na Veliki četvrtak iz crkve izlaze parovi bosonogih bratima u bijelim haljama i s kukuljicama, koje zovu perdoni. Hodaju sporim, ljuljavim korakom koji se zove nazzicata, toliko polako da im za dva kilometra treba i četrnaest sati. Procesije s kipovima traju do subote ujutro, uz žalobne koračnice limene glazbe.",
-          "U Francavilli Fontani bosonogi pokornici koje zovu pappamusci na Veliki petak vuku ulicama teške drvene križeve."
+          "In Taranto on Maundy Thursday, pairs of barefoot confraternity brothers in white robes and hoods, known as perdoni, emerge from the church. They walk with a slow, swaying step called the nazzicata, so slowly that two kilometers can take them fourteen hours. The processions with statues go on until Saturday morning, accompanied by the funeral marches of brass bands.",
+          "In Francavilla Fontana, barefoot penitents known as pappamusci drag heavy wooden crosses through the streets on Good Friday."
         ]
       },
       {
-        naslov: "Proljeće i ljeto",
+        naslov: "Spring and summer",
         popis: [
-          "Festa di San Nicola u Bariju, od 7. do 9. svibnja: povorka od šesto ljudi u kostimima uprizoruje dolazak broda s moćima, a sutradan kip sveca cijeli dan provede na moru, okružen barkama.",
-          "Sveti Petar i Pavao u Galatini, 28. i 29. lipnja: noć tarantata.",
-          "Santa Domenica u Scorranu, početkom srpnja: tornjevi i galerije svjetla visoki do četrdeset metara pale se uz glazbu.",
-          "San Rocco u Torrepaduliju, noć s 15. na 16. kolovoza: bubnjevi i ples do zore.",
-          "Sant'Oronzo u Lecceu, od 24. do 26. kolovoza: procesija, svjetla i cupeta, slatkiš od badema i šećera.",
-          "Cavalcata di Sant'Oronzo u Ostuniju, od 25. do 27. kolovoza."
+          "Festa di San Nicola in Bari, May 7 to 9: a parade of six hundred people in costume reenacts the arrival of the ship with the relics, and the next day the statue of the saint spends the whole day at sea, surrounded by boats.",
+          "Saints Peter and Paul in Galatina, June 28 and 29: the night of the tarantate.",
+          "Santa Domenica in Scorrano, early July: towers and galleries of light up to forty meters high are switched on to music.",
+          "San Rocco in Torrepaduli, the night of August 15 to 16: drums and dancing until dawn.",
+          "Sant'Oronzo in Lecce, August 24 to 26: a procession, lights and cupeta, a sweet made of almonds and sugar.",
+          "Cavalcata di Sant'Oronzo in Ostuni, August 25 to 27."
         ]
       },
       {
-        naslov: "Jesen i Božić",
+        naslov: "Fall and Christmas",
         popis: [
-          "Bacco nelle Gnostre u Nociju, u studenome: mlado vino i kesteni u malim zajedničkim dvorištima starog grada.",
-          "Sveti Nikola u Bariju, 6. prosinca: prva misa je u pet ujutro, a nakon nje se u uličicama starog grada doručkuju vruća čokolada, sgagliozze i popizze. Tako u Bariju počinje Božić.",
-          "Božić među trullima: Alberobello ima festival svjetla na krovovima, a Locorotondo kite sami stanovnici, lampicama, granama jele i crvenim cvijećem.",
-          "Žive jaslice u Tricaseu, na brdu Monte Orco, održavaju se od 1976."
+          "Bacco nelle Gnostre in Noci, in November: new wine and chestnuts in the small shared courtyards of the old town.",
+          "Saint Nicholas in Bari, December 6: the first Mass is at five in the morning, and after it people breakfast on hot chocolate, sgagliozze and popizze in the lanes of the old town. That is how Christmas begins in Bari.",
+          "Christmas among the trulli: Alberobello has a festival of light on its rooftops, while Locorotondo is decorated by the residents themselves, with fairy lights, fir branches and red flowers.",
+          "The living nativity in Tricase, on the hill of Monte Orco, has been held since 1976."
         ]
       },
       {
-        naslov: "Kako funkcionira sagra",
-        tekst: "Na seoskoj fešti hrane najprije se plati na blagajni, s bonovima se ide po jelo na štandove, a jede se za dugačkim zajedničkim stolovima."
+        naslov: "How a sagra works",
+        tekst: "At a village food festival you first pay at the cash desk, then take your vouchers to the stalls to collect your food, and you eat at long shared tables."
       }
     ]
   },
   {
     ikona: "🏺",
-    naslov: "Zanati i suveniri s pričom",
+    naslov: "Crafts and souvenirs with a story",
     dijelovi: [
       {
-        naslov: "Pumo, pupoljak sreće",
-        tekst: "Keramički pupoljak omotan lišćem akanta stoji u paru na uglovima balkona i uz ulazna vrata kao znak blagostanja. Radi se u Grottaglieu, a kažu da sreću donosi samo ako ga dobijete na dar. Zato je to savršen poklon koji jedna drugoj možete kupiti."
+        naslov: "The pumo, the bud of good fortune",
+        tekst: "A ceramic bud wrapped in acanthus leaves stands in pairs on the corners of balconies and beside front doors as a sign of prosperity. It is made in Grottaglie, and it is said to bring luck only if you receive it as a gift. That makes it the perfect present for travel companions to buy for each other."
       },
       {
-        naslov: "Pupa baffuta, lutka s brkovima",
-        tekst: "Ovo je vrč u obliku bujne gospođe s brkovima. Legenda kaže da je jedan vinogradar, kako bi svoju mladu spasio od gospodareva prava prve bračne noći, otišao umjesto nje, preodjeven u ženu, ali je zaboravio obrijati brkove. Povjesničari sumnjaju da je takvo pravo ikada stvarno postojalo, no lutka je ostala."
+        naslov: "The pupa baffuta, the doll with a mustache",
+        tekst: "This is a jug in the shape of a buxom lady with a mustache. Legend has it that a winegrower, to save his bride from the lord's right of the first night, went in her place dressed as a woman but forgot to shave off his mustache. Historians doubt that any such right ever really existed, but the doll has stayed."
       },
       {
         naslov: "Cartapesta",
-        tekst: "Kipovi od papira iz Leccea nastaju oko jezgre od slame omotane žicom. Na nju se lijepe slojevi papira, a nabori odjeće oblikuju se i stvrdnjavaju užarenim željezom. Za kip u prirodnoj veličini trebaju mjeseci. Polulegendarni začetnik zanata bio je Mesciu Pietro de li Cristi, majstor Petar od Kristova, koji je živio od 1742. do 1827."
+        tekst: "The paper statues of Lecce are built up around a core of straw bound with wire. Layers of paper are glued onto it, and the folds of the clothing are shaped and hardened with a red-hot iron. A life-size statue takes months. The half-legendary founder of the craft was Mesciu Pietro de li Cristi, Master Peter of the Christs, who lived from 1742 to 1827."
       },
       {
         naslov: "Luminarie",
-        tekst: "Drvene konstrukcije u baroknim oblicima prekrivene tisućama žaruljica podižu se za svetkovine zaštitnika. Umijeće potječe iz 17. stoljeća, kad su se koristile uljanice i svijeće u obojenom papiru. Radionice iz Scorrana danas osvjetljavaju trgove po cijelom svijetu."
+        tekst: "Wooden structures in baroque shapes, covered in thousands of light bulbs, are put up for the feasts of patron saints. The craft goes back to the 17th century, when oil lamps and candles in colored paper were used. Workshops from Scorrano now light up squares all over the world."
       },
       {
-        naslov: "Zviždaljke i tkanje",
-        tekst: "U Rutiglianu se rade oslikane zviždaljke od terakote, a nekad je zaručnik takvu zviždaljku darivao zaručnici kao zalog ljubavi. U Casamasselli kraj Otranta žene iz zaklade Le Costantine tkaju na starim drvenim tkalačkim stanovima, a radile su tkanine i za modnu kuću Dior."
+        naslov: "Whistles and weaving",
+        tekst: "Painted terracotta whistles are made in Rutigliano, and a young man once gave such a whistle to his fiancée as a pledge of love. In Casamassella near Otranto, the women of the Le Costantine foundation weave on old wooden looms, and they have made fabrics for the fashion house Dior as well."
       }
     ]
   },
   {
     ikona: "🗣️",
-    naslov: "Jezici: dva dijalekta, grčki i albanski",
+    naslov: "Languages: two dialects, Greek and Albanian",
     dijelovi: [
       {
         tekst: [
-          "Apulija nema jedan dijalekt nego dva svijeta. Barski je srodan napuljskom i guta završne samoglasnike. Salentinski je bliži sicilijanskom, riječi završava jasnim u i i, a ima i poseban glas koji se piše ddh, kao u riječi beddhu, lijep.",
-          "U devet mjesta južno od Leccea, u kraju koji se zove Grecìa Salentina, stariji ljudi još govore griko, grčki dijalekt. Ne zna se je li ostao iz antičke Velike Grčke ili je stigao s Bizantom. Grad Calimera doslovno se zove Dobro jutro.",
-          "U tri mjesta žive i Arbëreshë, potomci Albanaca koji su prešli Jadran u 15. stoljeću, nakon Skenderbegove smrti i osmanskog osvajanja."
+          "Apulia has two worlds where you might expect a single dialect. The Bari dialect is related to Neapolitan and swallows its final vowels. The Salento dialect is closer to Sicilian, ends its words in a clear u and i, and has a special sound written ddh, as in the word beddhu, beautiful.",
+          "In nine towns south of Lecce, in an area called the Grecìa Salentina, older people still speak Griko, a Greek dialect. Nobody knows whether it survives from ancient Magna Graecia or arrived with Byzantium. The town of Calimera is literally called Good Morning.",
+          "Three towns are also home to the Arbëreshë, descendants of Albanians who crossed the Adriatic in the 15th century, after the death of Skanderbeg and the Ottoman conquest."
         ]
       },
       {
-        naslov: "Riječi za ponijeti",
+        naslov: "Words to take with you",
         popis: [
-          "Ué! Tako se u Bariju kaže bok.",
-          "Mo znači sada, a čut ćete je u svakoj drugoj rečenici.",
-          "Cce beddhu! znači kako lijepo, na salentinskom.",
-          "Lu sule, lu mare, lu ientu: sunce, more, vjetar. To je neslužbeno geslo Salenta.",
-          "Kalimera znači dobro jutro na griku, a kalinifta laku noć.",
-          "Mieru je vino, a municeddha mali puž."
+          "Ué! That is how you say hi in Bari.",
+          "Mo means now, and you will hear it in every other sentence.",
+          "Cce beddhu! means how lovely, in the Salento dialect.",
+          "Lu sule, lu mare, lu ientu: the sun, the sea, the wind. It is the unofficial motto of Salento.",
+          "Kalimera means good morning in Griko, and kalinifta good night.",
+          "Mieru is wine, and a municeddha is a little snail."
         ]
       },
       {
-        naslov: "Izreke",
+        naslov: "Sayings",
         popis: [
-          "Kad bi Pariz imao more, bio bi mali Bari. Tako se Barežani šale na vlastiti račun.",
-          "Kad se vjetar promijeni, mornaru, pazi se.",
-          "Krist ih stvara, a vrag ih sparuje. Kaže se za dvoje koji su se našli."
+          "If Paris had the sea, it would be a little Bari. That is how the people of Bari poke fun at themselves.",
+          "When the wind changes, sailor, watch out.",
+          "Christ makes them and the devil pairs them up. It is said of two people who have found each other."
         ]
       }
     ]
   },
   {
     ikona: "🪑",
-    naslov: "Kako se ovdje živi",
-    uvod: "Controra, passeggiata i stolice pred vratima",
+    naslov: "How people live here",
+    uvod: "The controra, the passeggiata and chairs outside the door",
     dijelovi: [
       {
-        naslov: "Controra",
-        tekst: "Rano poslijepodne zove se controra. Dućani, a često i muzeji i spomenici, zatvaraju se otprilike od 13 do 16 ili 17 sati, pa ponovno rade do 20 sati ili dulje. Supermarketi i lanci uglavnom ne zatvaraju. Razgledavanje i kupnju najbolje je planirati za jutro i nakon pet, a controru iskoristiti za ručak, plažu ili san."
+        naslov: "The controra",
+        tekst: "The early afternoon is called the controra. Shops, and often museums and monuments too, close from roughly 13:00 to 16:00 or 17:00, and then reopen until 20:00 or later. Supermarkets and chains mostly stay open. It is best to plan sightseeing and shopping for the morning and after five, and to use the controra for lunch, the beach or a nap."
       },
       {
-        naslov: "Passeggiata i trg",
-        tekst: "Kad vrućina popusti, cijeli grad izlazi na večernju šetnju gore-dolje glavnom ulicom. Trg je dnevni boravak na otvorenom, na kojem se ljudi nalaze bez dogovora. U starim četvrtima bake i djedovi iznesu stolice pred kućna vrata i tako provedu večer, gledajući tko prolazi."
+        naslov: "The passeggiata and the square",
+        tekst: "When the heat eases, the whole town comes out for an evening stroll up and down the main street. The square is an open-air living room where people meet without making plans. In the old quarters grandmothers and grandfathers carry chairs out in front of their doors and spend the evening there, watching who goes by."
       },
       {
-        naslov: "Nedjeljni ručak",
-        tekst: "Simbol nedjelje su orecchiette s umakom u kojem su se tri sata kuhale mesne rolice, brasciole. Jede se u dva čina: najprije tjestenina s umakom, a zatim meso s kruhom i povrćem. Ručak je dug i za stolom su barem tri generacije."
+        naslov: "Sunday lunch",
+        tekst: "The symbol of Sunday is orecchiette with a sauce in which the meat rolls called brasciole have simmered for three hours. It is eaten in two acts: first the pasta with the sauce, then the meat with bread and vegetables. Lunch is long, and there are at least three generations at the table."
       },
       {
-        naslov: "Masseria",
-        tekst: "Masseria je utvrđeno seosko imanje, središte velikog posjeda, građeno većinom od 16. do 18. stoljeća. Ima visoke zidove oko dvorišta, gospodareve sobe na katu, radnike i životinje u prizemlju, krušnu peć, cisterne, kapelicu i često podzemni mlin za ulje. Utvrđene su zato što su obalu stoljećima pljačkali gusari. Od devedesetih godina mnoge su obnovljene i pretvorene u hotele."
+        naslov: "The masseria",
+        tekst: "A masseria is a fortified farmstead, the heart of a large estate, built mostly between the 16th and 18th centuries. It has high walls around a courtyard, the owner's rooms upstairs, the workers and animals on the ground floor, a bread oven, cisterns, a chapel and often an underground oil mill. They were fortified because pirates raided the coast for centuries. Since the 1990s many have been restored and turned into hotels."
       },
       {
-        naslov: "Masline i Xylella",
+        naslov: "Olive trees and Xylella",
         tekst: [
-          "Apulija je prije krize imala oko šezdeset milijuna stabala maslina. U ravnici između Ostunija, Fasana, Monopolija i Carovigna raste ih oko dvjesto pedeset tisuća starih više stoljeća, a neka možda i više od tisuću godina. Takva su stabla zaštićena zakonom i ne smiju se ni rušiti ni prodavati.",
-          "Bakterija Xylella fastidiosa prvi put je otkrivena 2013. kraj Gallipolija. Prenosi je kukac koji siše biljni sok, i dosad je uništila više od dvadeset milijuna stabala, najviše u Salentu. Zato ćete južno od Leccea voziti kroz sive maslinike nalik kosturima. Lijeka još nema, a sade se otpornije sorte."
+          "Before the crisis Apulia had about sixty million olive trees. On the plain between Ostuni, Fasano, Monopoli and Carovigno grow some two hundred and fifty thousand that are centuries old, and a few that may be more than a thousand. Trees like these are protected by law and may be neither felled nor sold.",
+          "The bacterium Xylella fastidiosa was first detected in 2013 near Gallipoli. It is spread by a sap-sucking insect and has so far destroyed more than twenty million trees, most of them in Salento. That is why, south of Lecce, you will drive through gray olive groves that look like skeletons. There is still no cure, and more resistant varieties are being planted."
         ]
       },
       {
-        naslov: "Ljeto na lidu",
-        tekst: "Lido je uređena plaža na kojoj se na dan iznajmljuju suncobran i dvije ležaljke, s barom, tuševima i zahodom. Uz svaki lido je i slobodna plaža. Lido vas mora pustiti da besplatno prođete do mora i ne smije vam zabraniti da donesete vlastitu hranu i piće."
+        naslov: "Summer at the lido",
+        tekst: "A lido is a managed beach where you rent an umbrella and two sunbeds by the day, with a bar, showers and toilets. Next to every lido there is also a free beach. A lido has to let you walk through to the sea free of charge and may not forbid you to bring your own food and drink."
       },
       {
-        naslov: "Svadba i serenada",
-        tekst: "Večer prije vjenčanja mladoženja dolazi pod mladenkin balkon sa sviračima i pjeva joj, dok to gleda cijela ulica. Običaj je u Apuliji i dalje vrlo živ, a često završi pizzicom."
+        naslov: "The wedding and the serenade",
+        tekst: "On the evening before the wedding the groom turns up beneath the bride's balcony with musicians and sings to her while the whole street looks on. The custom is still very much alive in Apulia, and it often ends in a pizzica."
       },
       {
-        naslov: "Odlazak i povratak",
-        tekst: "Jug Italije iseljavao se u dva velika vala: u Ameriku prije Prvog svjetskog rata te na sjever Italije, u Njemačku i Švicarsku nakon Drugog. Kolovoz je zato mjesec povratka, kad se sela napune, a fešte zaštitnika namjerno su namještene baš za te dane. Ribari iz Molfette naselili su Hoboken u New Jerseyju, koji i danas slavi istu Gospu kao i njihov rodni grad."
+        naslov: "Leaving and coming back",
+        tekst: "The south of Italy emigrated in two great waves: across the Atlantic before the First World War, and to northern Italy, Germany and Switzerland after the Second. That is why August is the month of homecoming, when the villages fill up, and the patron saints' festivals are deliberately timed for exactly those days. Fishermen from Molfetta settled Hoboken in New Jersey, which to this day celebrates the same Madonna as their hometown."
       }
     ]
   },
   {
     ikona: "🤌",
-    naslov: "Bonton, geste i praznovjerja",
+    naslov: "Etiquette, gestures and superstitions",
     dijelovi: [
       {
-        naslov: "Pozdravi",
-        tekst: "Kad uđete u dućan, bar ili mali restoran, uvijek pozdravite, i ponovno kad izlazite, jer se šutnja doživljava kao nepristojnost. Buongiorno vrijedi do ručka, a buonasera već od ranog popodneva. Ciao je za poznate i mlade, a salve je sigurna sredina."
+        naslov: "Greetings",
+        tekst: "When you walk into a shop, a bar or a small restaurant, always say hello, and again when you leave, because silence comes across as rude. Buongiorno works until lunch, and buonasera from the early afternoon on. Ciao is for people you know and for the young, and salve is a safe middle ground."
       },
       {
-        naslov: "U crkvi",
-        tekst: "Ramena i koljena trebaju biti pokrivena, pa je pametno u torbi nositi lagani šal. Za vrijeme mise se ne razgledava, a mnoge crkve oko podneva se zatvaraju na nekoliko sati."
+        naslov: "In church",
+        tekst: "Shoulders and knees should be covered, so it is smart to carry a light scarf in your bag. There is no sightseeing during Mass, and many churches close for a few hours around midday."
       },
       {
-        naslov: "Geste",
+        naslov: "Gestures",
         popis: [
-          "Skupljeni vrhovi prstiju koji se ljuljaju u zglobu znače „što hoćeš, što to govoriš?“.",
-          "Kažiprst koji se vrti u obrazu znači da je nešto ukusno.",
-          "Rogovi okrenuti prema dolje tjeraju nesreću. Okrenuti prema nekome teška su uvreda, pa ih nemojte oponašati.",
-          "Palac koji trlja prste znači novac ili skupo."
+          "Fingertips bunched together and rocked at the wrist mean “what do you want, what are you talking about?”.",
+          "An index finger twisted into the cheek means that something is delicious.",
+          "Horns pointed downward ward off bad luck. Pointed at someone they are a grave insult, so do not imitate them.",
+          "A thumb rubbing against the fingers means money, or expensive."
         ]
       },
       {
-        naslov: "Urok i kućni duh",
+        naslov: "The evil eye and the house spirit",
         tekst: [
-          "Malocchio, urok, dolazi od zavisti ili neiskrene pohvale i očituje se kao glavobolja i umor. Skida ga starija žena tako što kapne tri kapi maslinovog ulja u tanjur vode i promrmlja tajnu molitvu, koja se, kažu, smije prenijeti samo na Badnju noć.",
-          "Salento ima i svog kućnog vražićka, kojeg zovu Laurieddhu ili Scazzamurrieddhu. Sjeda spavačima na prsa, skriva stvari i plete konjima grive. Ako mu ukradete kapu, obećat će vam blago da je dobije natrag, ali laže."
+          "The malocchio, the evil eye, comes from envy or insincere praise and shows itself as a headache and tiredness. An older woman lifts it by letting three drops of olive oil fall into a plate of water and murmuring a secret prayer, which, they say, may only be passed on on Christmas Eve.",
+          "Salento also has its own household imp, known as Laurieddhu or Scazzamurrieddhu. He sits on sleepers' chests, hides things and braids the horses' manes. If you steal his cap, he will promise you treasure to get it back, but he is lying."
         ]
       },
       {
-        naslov: "Sitnice koje vrijedi znati",
+        naslov: "Little things worth knowing",
         popis: [
-          "Nesretan broj u Italiji je 17, a ne 13.",
-          "Ne nazdravlja se vodom.",
-          "Kruh se ne stavlja naopako na stol.",
-          "Proliveno ulje donosi nesreću, a proliveno vino sreću."
+          "The unlucky number in Italy is 17, and 13 is harmless.",
+          "You never toast with water.",
+          "Bread is never placed upside down on the table.",
+          "Spilled oil brings bad luck, and spilled wine brings good luck."
         ]
       }
     ]
   },
   {
     ikona: "🌊",
-    naslov: "Apulija i mi: isto more, dvije obale",
-    uvod: "Veze s Hrvatskom, kojih ima više nego što biste mislile",
+    naslov: "Apulia and Croatia: one sea, two shores",
+    uvod: "Links with Croatia, and there are more of them than you might think",
     dijelovi: [
       {
-        naslov: "Prvi Apulijci došli su s naše strane",
-        tekst: "Japigi, narodi koji su ovdje živjeli prije Rimljana, po prevladavajućem su mišljenju potomci skupina koje su oko 11. i 10. stoljeća prije Krista prešle s istočne obale Jadrana. Jezik Mesapa imao je balkanske crte, a ilirsko pleme u današnjoj Lici zvalo se Japodi."
+        naslov: "The first Apulians came from the Croatian side",
+        tekst: "The Iapygians, the peoples who lived here before the Romans, are in the prevailing view descendants of groups that crossed from the eastern shore of the Adriatic around the 11th and 10th centuries BC. The language of the Messapians had Balkan features, and an Illyrian tribe in what is now Lika was called the Iapodes."
       },
       {
-        naslov: "Diomed i Palagruža",
-        tekst: "Antički pisci otočje Tremiti pred Garganom zvali su Diomedovim otocima, jer je ondje prema mitu pokopan grčki junak, a njegovi su se drugovi pretvorili u morske ptice. Hrvatski arheolozi pronašli su pravo Diomedovo svetište na Palagruži, s ulomcima posuda na kojima je njegovo ime urezano četrdesetak puta. Palagruža leži na najkraćem putu preko otvorenog mora od Dalmacije do Gargana, pa mit s talijanske strane ima svoju arheologiju na našoj."
+        naslov: "Diomedes and Palagruža",
+        tekst: "Ancient writers called the Tremiti archipelago off the Gargano the Islands of Diomedes, because according to myth the Greek hero was buried there and his companions were turned into seabirds. Croatian archaeologists found a real sanctuary of Diomedes on Palagruža, with fragments of vessels on which his name is scratched some forty times. Palagruža lies on the shortest open-sea route from Dalmatia to the Gargano, so the myth on the Italian side has its archaeology on the Croatian one."
       },
       {
-        naslov: "Dubrovnik je jeo apulijski kruh",
-        tekst: "U 14. i 15. stoljeću Dubrovnik se velikim dijelom hranio žitom iz Apulije, koje se krcalo u Barletti, Traniju i Manfredoniji. Jedan stari trgovački priručnik među kupcima apulijskog žita nabraja Dubrovnik, Zadar, Kotor i Istru."
+        naslov: "Dubrovnik ate Apulian bread",
+        tekst: "In the 14th and 15th centuries Dubrovnik fed itself largely on grain from Apulia, which was loaded in Barletta, Trani and Manfredonia. One old merchants' handbook lists Dubrovnik, Zadar, Kotor and Istria among the buyers of Apulian grain."
       },
       {
-        naslov: "Slaveni na Garganu i moliški Hrvati",
+        naslov: "Slavs on the Gargano and the Molise Croats",
         tekst: [
-          "U 11. stoljeću na Garganu su postojala dva utvrđena slavenska sela, Peschici i Devia, kojima je upravljao župan. Naseljenici su najvjerojatnije došli iz neretvanskog kraja. Ime Peschici izvodi se od riječi pijesak, a Lesina od riječi les, šuma, a Lesina je i talijansko ime za Hvar.",
-          "U Moliseu, pokrajini odmah sjeverno od Apulije, tri sela i danas govore starinski hrvatski koji zovu na-našu. To su Kruč, Mundimitar i Filič, a njihovi su preci pred Osmanlijama izbjegli iz dalmatinskog zaleđa prije pet stotina godina."
+          "In the 11th century there were two fortified Slavic villages on the Gargano, Peschici and Devia, governed by a župan. The settlers most likely came from the Neretva region. The name Peschici is derived from the word pijesak, sand, and Lesina from the word les, forest, and Lesina is also the Italian name for the island of Hvar.",
+          "In Molise, the region just north of Apulia, three villages still speak an archaic Croatian that they call na-našu. They are Kruč, Mundimitar and Filič, and their ancestors fled from the Dalmatian hinterland before the Ottomans five hundred years ago."
         ]
       },
       {
-        naslov: "Sveti Nikola, vino i suhozid",
+        naslov: "Saint Nicholas, wine and dry stone",
         popis: [
-          "Sveti Nikola štiti mornare s obje strane mora. Na dan 6. prosinca Bari ustaje na misu u zoru, a Komiža pred crkvom svetog Nikole spaljuje staru ribarsku barku.",
-          "Primitivo, najpoznatije crno vino Apulije, ista je sorta kao crljenak kaštelanski.",
-          "Trullo, kažun i bunja djeca su istog umijeća gradnje bez žbuke, koje je UNESCO upisao kao zajedničku baštinu.",
-          "Scapece iz Gallipolija i naš savur isti su mornarski recept za ribu koja mora trajati."
+          "Saint Nicholas protects sailors on both sides of the sea. On December 6 Bari gets up for Mass at dawn, and Komiža burns an old fishing boat in front of the church of Saint Nicholas.",
+          "Primitivo, the best-known red wine of Apulia, is the same grape as crljenak kaštelanski.",
+          "The trullo, the kažun and the bunja are children of the same art of building without mortar, which UNESCO has inscribed as shared heritage.",
+          "Scapece from Gallipoli and Dalmatian savur are the same sailors' recipe for fish that has to last."
         ]
       }
     ]
   }
 ];
 
-TRIP.rjecnikUvod = "Izgovor je napisan onako kako bismo ga pročitale na hrvatskom, a naglašeni slog je velikim slovima. Talijanski je prema nama milostiv, jer se čita gotovo kako se piše.";
+TRIP.rjecnikUvod = "The pronunciation is written the way an English speaker would read it, with the stressed syllable in capital letters. Italian is kind to learners, because it is read almost exactly as it is written.";
 
 TRIP.rjecnik = [
   {
-    skupina: "Pozdravi i pristojnost",
+    skupina: "Greetings and politeness",
     fraze: [
-      { it: "Buongiorno", izgovor: "buon-ĐOR-no", hr: "Dobro jutro, dobar dan" },
-      { it: "Buonasera", izgovor: "buona-SE-ra", hr: "Dobra večer (već od popodneva)" },
-      { it: "Arrivederci", izgovor: "ari-ve-DER-či", hr: "Doviđenja" },
-      { it: "Per favore", izgovor: "per fa-VO-re", hr: "Molim" },
-      { it: "Grazie mille", izgovor: "GRA-cie MI-le", hr: "Hvala lijepa" },
-      { it: "Prego", izgovor: "PRE-go", hr: "Nema na čemu, izvolite" },
-      { it: "Scusi", izgovor: "SKU-zi", hr: "Oprostite" },
-      { it: "Permesso", izgovor: "per-ME-so", hr: "Dopustite, mogu li proći" }
+      { it: "Buongiorno", izgovor: "bwon-JOR-noh", hr: "Good morning, good day" },
+      { it: "Buonasera", izgovor: "bwoh-nah-SEH-rah", hr: "Good evening (from the afternoon on)" },
+      { it: "Arrivederci", izgovor: "ah-ree-veh-DEHR-chee", hr: "Goodbye" },
+      { it: "Per favore", izgovor: "pehr fah-VOH-reh", hr: "Please" },
+      { it: "Grazie mille", izgovor: "GRAH-tsyeh MEEL-leh", hr: "Thank you very much" },
+      { it: "Prego", izgovor: "PREH-goh", hr: "You're welcome, here you go" },
+      { it: "Scusi", izgovor: "SKOO-zee", hr: "Excuse me, sorry" },
+      { it: "Permesso", izgovor: "pehr-MES-soh", hr: "Excuse me, may I get past" }
     ]
   },
   {
-    skupina: "Kad se ne razumijemo",
+    skupina: "When you don't understand each other",
     fraze: [
-      { it: "Non parlo italiano", izgovor: "non PAR-lo ita-LJA-no", hr: "Ne govorim talijanski" },
-      { it: "Parla inglese?", izgovor: "PAR-la in-GLE-ze", hr: "Govorite li engleski?" },
-      { it: "Non ho capito", izgovor: "non o ka-PI-to", hr: "Nisam razumjela" },
-      { it: "Può ripetere, per favore?", izgovor: "puO ri-PE-te-re", hr: "Možete li ponoviti?" },
-      { it: "Siamo croate", izgovor: "SJA-mo kro-A-te", hr: "Mi smo Hrvatice" }
+      { it: "Non parlo italiano", izgovor: "non PAR-loh ee-tah-LYAH-noh", hr: "I don't speak Italian" },
+      { it: "Parla inglese?", izgovor: "PAR-lah een-GLEH-zeh", hr: "Do you speak English?" },
+      { it: "Non ho capito", izgovor: "non oh kah-PEE-toh", hr: "I didn't understand" },
+      { it: "Può ripetere, per favore?", izgovor: "pwoh ree-PEH-teh-reh", hr: "Could you repeat that?" },
+      { it: "Siamo croate", izgovor: "SYAH-moh kroh-AH-teh", hr: "We are Croatian (said by women)" }
     ]
   },
   {
-    skupina: "Za stolom",
+    skupina: "At the table",
     fraze: [
-      { it: "Un tavolo per due, per favore", izgovor: "un TA-vo-lo per DU-e", hr: "Stol za dvoje, molim" },
-      { it: "Possiamo sederci fuori?", izgovor: "po-SJA-mo se-DER-či FUO-ri", hr: "Možemo li sjesti vani?" },
-      { it: "Il menù, per favore", izgovor: "il me-NU", hr: "Jelovnik, molim" },
-      { it: "Cosa ci consiglia?", izgovor: "KO-za či kon-SI-lja", hr: "Što nam preporučujete?" },
-      { it: "Vorrei questo", izgovor: "vo-REJ KUE-sto", hr: "Željela bih ovo" },
-      { it: "Acqua naturale / frizzante", izgovor: "A-kua natu-RA-le / fri-CAN-te", hr: "Negazirana / gazirana voda" },
-      { it: "Sono allergica a...", izgovor: "SO-no a-LER-đi-ka a", hr: "Alergična sam na..." },
-      { it: "Senza carne", izgovor: "SEN-ca KAR-ne", hr: "Bez mesa" },
-      { it: "Era buonissimo!", izgovor: "E-ra buo-NI-si-mo", hr: "Bilo je izvrsno!" },
-      { it: "Il conto, per favore", izgovor: "il KON-to", hr: "Račun, molim" },
-      { it: "Posso pagare con la carta?", izgovor: "PO-so pa-GA-re kon la KAR-ta", hr: "Mogu li platiti karticom?" }
+      { it: "Un tavolo per due, per favore", izgovor: "oon TAH-voh-loh pehr DOO-eh", hr: "A table for two, please" },
+      { it: "Possiamo sederci fuori?", izgovor: "pos-SYAH-moh seh-DEHR-chee FWOH-ree", hr: "Can we sit outside?" },
+      { it: "Il menù, per favore", izgovor: "eel meh-NOO", hr: "The menu, please" },
+      { it: "Cosa ci consiglia?", izgovor: "KOH-zah chee kon-SEE-lyah", hr: "What do you recommend?" },
+      { it: "Vorrei questo", izgovor: "vor-RAY KWEH-stoh", hr: "I would like this" },
+      { it: "Acqua naturale / frizzante", izgovor: "AH-kwah nah-too-RAH-leh / freet-TSAHN-teh", hr: "Still / sparkling water" },
+      { it: "Sono allergica a...", izgovor: "SOH-noh ahl-LEHR-jee-kah ah", hr: "I am allergic to... (said by a woman)" },
+      { it: "Senza carne", izgovor: "SEN-tsah KAR-neh", hr: "Without meat" },
+      { it: "Era buonissimo!", izgovor: "EH-rah bwoh-NEES-see-moh", hr: "It was delicious!" },
+      { it: "Il conto, per favore", izgovor: "eel KON-toh", hr: "The check, please" },
+      { it: "Posso pagare con la carta?", izgovor: "POS-soh pah-GAH-reh kon lah KAR-tah", hr: "Can I pay by card?" }
     ]
   },
   {
-    skupina: "Kava",
+    skupina: "Coffee",
     fraze: [
-      { it: "Un caffè e un cappuccino, per favore", izgovor: "un ka-FE e un kapu-ČI-no", hr: "Jedan espresso i jedan cappuccino, molim" },
-      { it: "Un caffè leccese, per favore", izgovor: "un ka-FE le-ČE-ze", hr: "Jednu kavu s ledom i bademovim mlijekom" },
-      { it: "Al banco", izgovor: "al BAN-ko", hr: "Za šankom (jeftinije nego za stolom)" }
+      { it: "Un caffè e un cappuccino, per favore", izgovor: "oon kahf-FEH eh oon kahp-poo-CHEE-noh", hr: "One espresso and one cappuccino, please" },
+      { it: "Un caffè leccese, per favore", izgovor: "oon kahf-FEH leh-CHEH-zeh", hr: "One coffee with ice and almond milk" },
+      { it: "Al banco", izgovor: "ahl BAHN-koh", hr: "At the counter (cheaper than at a table)" }
     ]
   },
   {
-    skupina: "Po gradu i na plaži",
+    skupina: "Around town and at the beach",
     fraze: [
-      { it: "Dov'è il bagno?", izgovor: "do-VE il BA-njo", hr: "Gdje je zahod?" },
-      { it: "Quanto costa?", izgovor: "KUAN-to KO-sta", hr: "Koliko stoji?" },
-      { it: "A che ora apre / chiude?", izgovor: "a ke O-ra A-pre / KJU-de", hr: "U koliko se sati otvara / zatvara?" },
-      { it: "Un biglietto per Lecce, per favore", izgovor: "un bi-LJE-to per LE-če", hr: "Jednu kartu za Lecce, molim" },
-      { it: "Due lettini e un ombrellone, per favore", izgovor: "DU-e le-TI-ni e un ombre-LO-ne", hr: "Dvije ležaljke i suncobran, molim" },
-      { it: "Dov'è la farmacia?", izgovor: "do-VE la farma-ČI-a", hr: "Gdje je ljekarna?" },
-      { it: "Aiuto!", izgovor: "a-JU-to", hr: "Upomoć!" }
+      { it: "Dov'è il bagno?", izgovor: "doh-VEH eel BAH-nyoh", hr: "Where is the restroom?" },
+      { it: "Quanto costa?", izgovor: "KWAHN-toh KOH-stah", hr: "How much does it cost?" },
+      { it: "A che ora apre / chiude?", izgovor: "ah keh OH-rah AH-preh / KYOO-deh", hr: "What time does it open / close?" },
+      { it: "Un biglietto per Lecce, per favore", izgovor: "oon bee-LYET-toh pehr LEH-cheh", hr: "One ticket to Lecce, please" },
+      { it: "Due lettini e un ombrellone, per favore", izgovor: "DOO-eh let-TEE-nee eh oon om-brel-LOH-neh", hr: "Two sunbeds and an umbrella, please" },
+      { it: "Dov'è la farmacia?", izgovor: "doh-VEH lah far-mah-CHEE-ah", hr: "Where is the pharmacy?" },
+      { it: "Aiuto!", izgovor: "ah-YOO-toh", hr: "Help!" }
     ]
   },
   {
-    skupina: "Riječi s jelovnika",
+    skupina: "Words from the menu",
     fraze: [
-      { it: "Antipasto, primo, secondo, contorno, dolce", hr: "Predjelo, tjestenina, glavno jelo, prilog, desert. Ne morate naručiti sve." },
-      { it: "Coperto", izgovor: "ko-PER-to", hr: "Naknada po osobi za stol i kruh" },
-      { it: "Crudo", izgovor: "KRU-do", hr: "Sirovo" },
-      { it: "Alla brace", izgovor: "ala BRA-če", hr: "Na žaru" },
-      { it: "Fritto", hr: "Prženo" },
-      { it: "Polpo, cozze, ricci, gamberi", izgovor: "POL-po, KO-ce, RI-či, GAM-beri", hr: "Hobotnica, dagnje, ježinci, škampi" },
-      { it: "Cavallo", izgovor: "ka-VA-lo", hr: "Konjetina" },
-      { it: "Vino della casa", hr: "Domaće vino" }
+      { it: "Antipasto, primo, secondo, contorno, dolce", hr: "Appetizer, pasta course, main course, side dish, dessert. You do not have to order all of them." },
+      { it: "Coperto", izgovor: "koh-PEHR-toh", hr: "A per-person charge for the table and bread" },
+      { it: "Crudo", izgovor: "KROO-doh", hr: "Raw" },
+      { it: "Alla brace", izgovor: "AHL-lah BRAH-cheh", hr: "Grilled over coals" },
+      { it: "Fritto", hr: "Fried" },
+      { it: "Polpo, cozze, ricci, gamberi", izgovor: "POL-poh, KOT-tseh, REE-chee, GAHM-beh-ree", hr: "Octopus, mussels, sea urchins, shrimp" },
+      { it: "Cavallo", izgovor: "kah-VAHL-loh", hr: "Horse meat" },
+      { it: "Vino della casa", hr: "House wine" }
     ]
   }
 ];

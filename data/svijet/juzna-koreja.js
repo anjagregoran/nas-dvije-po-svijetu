@@ -66,7 +66,7 @@ window.ATLAS["juzna-koreja"] = {
       sazetak: "Prijestolnica s pet kraljevskih palača među neboderima, tržnicama koje ne spavaju i brdima na koja se penje nakon posla.",
       prica: [
         "Kada je 1392. osnovana dinastija Joseon, njezin je prvi kralj tražio mjesto za novu prijestolnicu i odabrao dolinu zaštićenu planinama, kroz koju teče rijeka Han. Grad se tada zvao Hanyang i u nekoliko je godina dobio palaču, svetište predaka i zidine s osam vrata.",
-        "U Korejskom ratu Seul je četiri puta prelazio iz ruke u ruku i bio je gotovo sravnjen. Današnji grad od deset milijuna stanovnika izgrađen je u nekoliko desetljeća, a stare su palače obnavljane zgradu po zgradu."
+        "U Korejskom ratu Seul je četiri puta prelazio iz ruke u ruku i bio je gotovo sravnjen. Današnji grad s gotovo deset milijuna stanovnika izgrađen je u nekoliko desetljeća, a stare su palače obnavljane zgradu po zgradu."
       ],
       vidjeti: [
         { ime: "Gyeongbokgung", opis: "Glavna palača dinastije Joseon sagrađena je 1395. Japanska ju je vojska spalila 1592., pa je stajala u ruševinama gotovo tri stoljeća, do obnove 1867. Dođite na smjenu straže pred vratima Gwanghwamun, a u dvorani prijestolja pogledajte sliku iza trona: sunce, mjesec i pet vrhova, simbol kralja." },
@@ -169,12 +169,12 @@ window.ATLAS["juzna-koreja"] = {
       sazetak: "Vulkanski otok crnog kamena, mandarina i žena koje rone na dah, omiljeno korejsko odredište za odmor.",
       prica: [
         "Jeju je nastao vulkanskim erupcijama, a u sredini mu se diže Hallasan, s 1947 metara najviši vrh Južne Koreje. Otok je stoljećima bio zasebno kraljevstvo Tamna, a poslije mjesto progonstva, pa ima vlastiti govor koji kopneni Korejci teško razumiju.",
-        "Kaže se da Jeju obiluje trima stvarima: kamenom, vjetrom i ženama, jer su muškarci ginuli na moru, a žene su hranile obitelji ronjenjem. Vulkanski krajolik i lavine cijevi na UNESCO-ovu su popisu od 2007."
+        "Kaže se da Jeju obiluje trima stvarima: kamenom, vjetrom i ženama, jer su muškarci ginuli na moru, a žene su hranile obitelji ronjenjem. Vulkanski krajolik i tuneli koje je izdubila lava na UNESCO-ovu su popisu od 2007."
       ],
       vidjeti: [
         { ime: "Seongsan Ilchulbong", opis: "Krater koji se prije otprilike pet tisuća godina izdigao iz mora i danas izgleda poput goleme krune uz obalu. Uspon stubama traje dvadesetak minuta, a ime znači „vrh izlaska sunca“. Podno stijene ronilice haenyeo svakodnevno pokazuju kako rade." },
         { ime: "Hallasan", opis: "Ugasli vulkan s kraterskim jezerom na vrhu. Do vrha vode dvije staze za koje treba cijeli dan i prethodna rezervacija, a kraće staze dovode do visoravni s pogledom. Zimi je pod snijegom, a u svibnju prekriven ružičastim azalejama." },
-        { ime: "Manjanggul", opis: "Jedna od najdužih lavinih cijevi na svijetu, tunel koji je za sobom ostavila rijeka lave. Na stropu i zidovima vide se tragovi njezina toka. Špilja se povremeno zatvara zbog radova i odrona, pa provjerite je li otvorena." },
+        { ime: "Manjanggul", opis: "Jedan od najdužih tunela od lave na svijetu, koji je za sobom ostavila rijeka užarene lave. Na stropu i zidovima vide se tragovi njezina toka. Špilja se povremeno zatvara zbog radova i odrona, pa provjerite je li otvorena." },
         { ime: "Dol hareubang", opis: "„Kameni djedovi“ kipovi su od crnog bazalta s okruglim očima, širokim nosom i rukama na trbuhu. Nekoć su čuvali ulaze u utvrđena naselja. Predaja kaže da dodir nosa donosi sina, pa su nosovi izlizani." },
         { ime: "Park mira 3. travnja", opis: "Spomen-područje i muzej posvećeni su ustanku koji je počeo 3. travnja 1948. i njegovu gušenju, u kojem su tijekom sljedećih godina stradali deseci tisuća otočana. O tome se desetljećima nije smjelo govoriti, a država se službeno ispričala tek 2003." },
         { ime: "Slap Jeongbang", opis: "Slap visok dvadesetak metara ruši se izravno u more, što je vrlo rijetko. Do podnožja se silazi stubama, i može mu se prići po stijenama." }

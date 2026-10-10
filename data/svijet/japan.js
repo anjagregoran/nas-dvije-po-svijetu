@@ -370,7 +370,7 @@ window.ATLAS["japan"] = {
       ],
       vidjeti: [
         { ime: "Park Odori", opis: "Zeleni pojas dug kilometar i pol dijeli grad na sjever i jug. Zamišljen je kao protupožarna zaštita između upravne i stambene četvrti, a danas je pozornica Snježnog festivala i ljetnih pivskih vrtova." },
-        { ime: "Sahat-kula u Sapporu", opis: "Drvena zgrada iz 1878. bila je vježbaonica Poljoprivredne škole, preteče današnjeg sveučilišta. Sat je stigao iz Bostona i radi neprekidno od 1881. Školu je kratko vodio profesor William Clark iz SAD-a, čije riječi na odlasku, „Dječaci, budite ambiciozni“, zna svaki japanski učenik." },
+        { ime: "Toranj sa satom u Sapporu", opis: "Drvena zgrada iz 1878. bila je vježbaonica Poljoprivredne škole, preteče današnjeg sveučilišta. Sat je stigao iz Bostona i radi neprekidno od 1881. Školu je kratko vodio profesor William Clark iz SAD-a, čije riječi na odlasku, „Dječaci, budite ambiciozni“, zna svaki japanski učenik." },
         { ime: "Muzej piva Sapporo", opis: "Pivovara je osnovana 1876. i najstarija je japanska marka piva, a muzej se nalazi u njezinoj zgradi od crvene opeke. Na kraju se pivo kuša, a u susjednoj se dvorani peče janjetina." },
         { ime: "Otaru", opis: "Lučki gradić pola sata od Sappora, s kanalom iz 1923. uz koji stoje stara kamena skladišta. Ulična svjetla i danas su plinska. Poznat je po staklarskim radionicama i glazbenim kutijama." },
         { ime: "Upopoy, Nacionalni muzej i park Ainua", opis: "Otvoren je 2020. u Shiraoiju, oko sat vremena od Sappora, kao prvi državni muzej posvećen narodu Ainu. Vidjet ćete tradicionalne kuće, čuti jezik i glazbalo mukkuri te saznati kako su Ainui dugo bili prisiljavani odreći se svojih običaja." }
@@ -404,7 +404,7 @@ window.ATLAS["japan"] = {
       ],
       vidjeti: [
         { ime: "Dvorac Shuri", opis: "Sjedište kraljeva Ryukyua, obojeno crvenim lakom i ukrašeno zmajevima po kineskom uzoru. Glavna dvorana izgorjela je u požaru u listopadu 2019., a završetak obnove najavljen je za jesen 2026., pa prije dolaska provjerite što je otvoreno. Na vratima Shureimon piše da je ovo „zemlja uljudnosti“." },
-        { ime: "Park mira u Mabuniju", opis: "Na mjestu posljednjih borbi 1945. stoje granitne ploče s imenima više od 240.000 poginulih. Upisani su svi, bez obzira na stranu i narodnost: japanski i američki vojnici, civili s Okinawe, Korejci i Tajvanci." },
+        { ime: "Park mira u Mabuniju", opis: "Na mjestu posljednjih borbi 1945. stoje granitne ploče s imenima više od 240.000 poginulih. Upisani su svi, bez obzira na stranu i narodnost: japanski vojnici i vojnici SAD-a, civili s Okinawe, Korejci i Tajvanci." },
         { ime: "Akvarij Churaumi", opis: "Jedan od najvećih akvarija na svijetu, s golemim spremnikom u kojem plivaju kitopsine i mante. Nalazi se na sjeveru otoka, oko dva sata od Nahe." },
         { ime: "Sefa Utaki", opis: "Najsvetije mjesto stare ryukyuanske vjere, u kojoj su obrede vodile svećenice, a ne svećenici. Kroz trokutasti prolaz između dviju stijena dolazi se do mjesta s pogledom na otok Kudaka, na koji su, prema predaji, sišli bogovi." },
         { ime: "Ulica Kokusai i tržnica Makishi", opis: "Glavna ulica Nahe i natkrivena tržnica na kojoj birate ribu jarkih boja u prizemlju, a kuhaju vam je na katu. Na krovovima i vratima kuća uočit ćete parove lavova shisa: onaj otvorenih usta tjera zle duhove, a onaj zatvorenih čuva sreću u kući." }
@@ -436,7 +436,7 @@ window.ATLAS["japan"] = {
         "Danas je ovdje više od stotinu hramova, a pedesetak ih prima goste na noćenje. Koyasan je 2004. upisan na UNESCO-ov popis zajedno s hodočasničkim stazama poluotoka Kii."
       ],
       vidjeti: [
-        { ime: "Okunoin", opis: "Najveće groblje u Japanu ima više od dvjesto tisuća nadgrobnih spomenika uz stazu dugu dva kilometra. Vjernici drže da Kukai nije umro, nego da u mauzoleju na kraju staze i danas meditira, pa mu redovnici dvaput dnevno nose obrok. Među grobovima samuraja potražite i neobične spomenike tvrtki, primjerice onaj u obliku rakete." },
+        { ime: "Okunoin", opis: "Najveće groblje u Japanu ima više od dvjesto tisuća nadgrobnih spomenika uz stazu dugu dva kilometra. Vjernici drže da Kukai u mauzoleju na kraju staze i danas meditira, pa mu redovnici dvaput dnevno nose obrok. Među grobovima samuraja potražite i neobične spomenike tvrtki, primjerice onaj u obliku rakete." },
         { ime: "Dvorana svjetiljki Torodo", opis: "Pred Kukaijevim mauzolejom gori više od deset tisuća svjetiljki koje su darovali vjernici. Za dvije se predajom tvrdi da gore neprekidno više od devetsto godina." },
         { ime: "Kongobu-ji", opis: "Glavni hram škole Shingon poznat je po kliznim vratima oslikanima ždralovima i šljivama. Uz njega je Banryutei, najveći japanski vrt od kamena, u kojem granitne stijene prikazuju dva zmaja kako izranjaju iz mora oblaka." },
         { ime: "Danjo Garan", opis: "Prvi sklop zgrada koji je Kukai počeo graditi. Jarkocrvena pagoda Konpon Daito visoka je gotovo pedeset metara, a u njoj kipovi i oslikani stupovi zajedno čine trodimenzionalnu mandalu, sliku svemira." },

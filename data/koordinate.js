@@ -370,6 +370,8 @@ window.KOORDINATE = {
   "malezija/kuala-lumpur": [3.1517,101.6942],
   "malezija/malaka": [2.3294,102.2881],
   "mali-antili/barbados": [13.15,-59.525],
+  "mali-antili/curacao": [12.17,-69],
+  "mali-antili/martinik": [14.64,-61.02],
   "mali-antili/sveta-lucija": [13.825,-60.975],
   "malta/gozo": [36.0468,14.2583],
   "malta/mdina-rabat": [35.8859,14.4025],

@@ -2,121 +2,121 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["samoa"] = {
   id: "samoa",
   ime: "Samoa",
-  regija: "Oceanija",
-  sazetak: "Dva zelena vulkanska otoka na kojima se i danas živi po starom polinezijskom redu, u kućama bez zidova, uz večernju molitvu i nedjeljnu gozbu iz zemljane peći.",
+  regija: "Oceania",
+  sazetak: "Two green volcanic islands where people still live by the old Polynesian order today, in houses without walls, with evening prayer and a Sunday feast from the earth oven.",
   uvod: [
-    "Samoa leži u srcu Polinezije, otprilike na pola puta između Novog Zelanda i Havaja, i sastoji se od dva velika otoka, Upolua i Savai'ija, te nekoliko malih. Naseljena je prije oko tri tisuće godina i smatra se jednom od kolijevki polinezijske kulture, odakle su moreplovci krenuli dalje na istok.",
-    "Potkraj 19. stoljeća oko otočja su se nadmetale Njemačka, Velika Britanija i SAD, pa je 1900. podijeljeno: zapadni dio pripao je Njemačkoj, a istočni, današnja Američka Samoa, Sjedinjenim Državama. Njemačku Samou zauzeo je 1914. Novi Zeland i upravljao njome gotovo pola stoljeća, uz otpor nenasilnog pokreta Mau. Samoa je 1962. postala prva neovisna otočna država na Pacifiku.",
-    "Ono što Samou razlikuje od susjeda jest fa'a Samoa, samoanski način života, po kojem se ovdje i danas svakodnevno živi. Zemlja pripada proširenim obiteljima, na čelu svake stoji izabrani poglavar matai, a selo ima vlastito vijeće i pravila. Gošćama se zato savjetuje da hodaju polako, pitaju prije nego što uđu ili fotografiraju i poštuju nedjelju."
+    "Samoa lies in the heart of Polynesia, roughly halfway between New Zealand and Hawaii, and consists of two large islands, Upolu and Savai'i, and a few small ones. It was settled about three thousand years ago and is considered one of the cradles of Polynesian culture, from which the navigators set out farther east.",
+    "In the late 19th century Germany, Great Britain and the USA competed over the islands, so in 1900 they were divided: the western part went to Germany, and the eastern part, today's American Samoa, to the United States. German Samoa was occupied by New Zealand in 1914, which administered it for almost half a century in the face of resistance from the nonviolent Mau movement. In 1962 Samoa became the first independent island nation in the Pacific.",
+    "What sets Samoa apart from its neighbors is fa'a Samoa, the Samoan way, by which everyday life is still lived here. Land belongs to extended families, each headed by an elected chief, the matai, and every village has its own council and rules. Visitors are therefore advised to walk slowly, to ask before entering or taking photographs, and to respect Sunday."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suho razdoblje traje od svibnja do listopada i tada je najugodnije. Od studenoga do travnja toplije je i kišovitije, uz mogućnost ciklona. Početkom rujna održava se festival Teuila, a početkom lipnja slavi se neovisnost." },
-    { k: "Valuta", v: "Samoanska tala (WST). Kartice primaju hoteli i veće trgovine u Apiji, a za sela, plaže i tržnice treba gotovina." },
-    { k: "Kretanje", v: "Između otoka Upolu i Savai'i plovi trajekt, a vožnja traje nešto više od sat vremena. Po otocima voze šareni drveni autobusi bez voznog reda, s glasnom glazbom, a najviše slobode daje unajmljeni automobil. Vozi se lijevom stranom." },
-    { k: "Napojnica", v: "Nije uobičajena i ne očekuje se." },
-    { k: "Običaji u selu", v: "Većina plaža, slapova i lagunâ pripada selima, pa se za ulaz plaća mala naknada u gotovini. Kroz sela hodajte pokrivenih ramena i koljena, a kupaći kostim nosite samo na plaži. Za večernje molitve, oko zalaska sunca, zastanite i pričekajte dok se ne oglasi znak da je završila." }
+    { k: "When to go", v: "The dry season runs from May to October and that is the most pleasant time. From November to April it is warmer and rainier, with the possibility of cyclones. The Teuila Festival is held in early September, and independence is celebrated in early June." },
+    { k: "Currency", v: "The Samoan tala (WST). Cards are accepted by hotels and larger shops in Apia, while for villages, beaches and markets you need cash." },
+    { k: "Getting around", v: "A ferry sails between the islands of Upolu and Savai'i, and the crossing takes a little over an hour. On the islands there are colorful wooden buses with no timetable and loud music, and a rental car gives you the most freedom. You drive on the left." },
+    { k: "Tipping", v: "It is not customary and is not expected." },
+    { k: "Village etiquette", v: "Most beaches, waterfalls and lagoons belong to villages, so a small entrance fee is paid in cash. Walk through villages with your shoulders and knees covered, and wear a swimsuit only on the beach. During evening prayer, around sunset, stop and wait until you hear the signal that it has ended." }
   ],
   hrana: [
-    { ime: "Palusami", opis: "Mladi listovi taroa punjeni gustim kokosovim vrhnjem i lukom, zamotani u paketić i pečeni u zemljanoj peći.", prica: "Iznutra postaje mekana, slana krema koja se jede uz kuhani taro. Samoanci će vam reći da je upravo njihov palusami izvorni, a jedu ga gotovo svake nedjelje." },
-    { ime: "Oka i'a", opis: "Kockice sirove ribe, najčešće tune, u kokosovu vrhnju s limunom, lukom, čilijem i krastavcem.", prica: "Samoanska inačica jela koje poznaje cijeli Pacifik ima više kokosa i manje kiseline od drugih. Poslužuje se hladna, kao predjelo ili lagan ručak, i najbolja je na ribljoj tržnici u Apiji." },
-    { ime: "Umu", opis: "Zemljana peć od užarenog vulkanskog kamenja na koju se slažu hrana i slojevi lišća banane.", prica: "Za razliku od drugih polinezijskih peći, samoanska je nadzemna. Pripremaju je mladići nedjeljom u zoru, a u nju idu odojak, riba, taro, kruhovac i palusami. Obitelj jede nakon mise, i taj se ručak zove to'ona'i." },
-    { ime: "Taro i kruhovac", opis: "Dva škrobna priloga koja prate svaki samoanski obrok.", prica: "Taro se kuha ili peče i prelijeva kokosovim vrhnjem, a kruhovac se peče cijeli u umuu. Na tržnicama se taro prodaje u košarama ispletenima od jednog jedinog palmina lista." },
-    { ime: "Koko Samoa", opis: "Gust, taman napitak od domaćeg kakaa, prženog i tučenog u pastu, pa kuhanog s vodom i šećerom.", prica: "Kakao su na plantaže donijeli Nijemci, a Samoanci su ga posve usvojili. Na dnu šalice ostaje krupan talog. S rižom se od istog kakaa kuha i slatka kaša koko alaisa." },
-    { ime: "Panipopo", opis: "Mekana slatka peciva pečena u umaku od kokosova vrhnja.", prica: "Jedu se topla, za doručak ili uz čaj, a donja je strana natopljena kokosom poput pudinga. Prodaju ih pekarnice i štandovi na tržnici u Apiji." },
-    { ime: "Sapasui", opis: "Samoanska inačica kineskog jela chop suey, od staklenih rezanaca, soja-umaka, đumbira i mesa.", prica: "Recept su donijeli kineski radnici s plantaža početkom 20. stoljeća i danas nema samoanske gozbe bez njega. Poslužuje se uz kuhani taro." }
+    { ime: "Palusami", opis: "Young taro leaves filled with thick coconut cream and onion, wrapped into a parcel and baked in the earth oven.", prica: "Inside it turns into a soft, salty cream that is eaten with boiled taro. Samoans will tell you that their palusami is the original one, and they eat it almost every Sunday." },
+    { ime: "Oka i'a", opis: "Cubes of raw fish, most often tuna, in coconut cream with lemon, onion, chili and cucumber.", prica: "The Samoan version of a dish known all over the Pacific has more coconut and less acidity than the others. It is served cold, as an appetizer or a light lunch, and it is at its best at the fish market in Apia." },
+    { ime: "Umu", opis: "An earth oven of red-hot volcanic stones on which food and layers of banana leaves are stacked.", prica: "Unlike other Polynesian ovens, the Samoan one is built above ground. Young men prepare it at dawn on Sunday, and into it go suckling pig, fish, taro, breadfruit and palusami. The family eats after church, and that lunch is called to'ona'i." },
+    { ime: "Taro and breadfruit", opis: "Two starchy side dishes that accompany every Samoan meal.", prica: "Taro is boiled or baked and covered in coconut cream, while breadfruit is baked whole in the umu. At the markets taro is sold in baskets woven from a single palm leaf." },
+    { ime: "Koko Samoa", opis: "A thick, dark drink made from local cocoa, roasted and pounded into a paste, then boiled with water and sugar.", prica: "Cocoa was brought to the plantations by the Germans, and the Samoans made it entirely their own. A coarse sediment is left at the bottom of the cup. The same cocoa is cooked with rice into a sweet porridge called koko alaisa." },
+    { ime: "Panipopo", opis: "Soft sweet buns baked in a coconut cream sauce.", prica: "They are eaten warm, for breakfast or with tea, and the underside is soaked in coconut like a pudding. They are sold by bakeries and stalls at the market in Apia." },
+    { ime: "Sapasui", opis: "The Samoan version of the Chinese dish chop suey, made with glass noodles, soy sauce, ginger and meat.", prica: "The recipe was brought by Chinese plantation workers in the early 20th century, and today no Samoan feast is complete without it. It is served with boiled taro." }
   ],
   obicaji: [
-    { ime: "Fa'a Samoa i matai", opis: "Samoanski način života počiva na proširenoj obitelji, poštovanju starijih i služenju zajednici. Svaka obitelj bira poglavara, mataija, koji je zastupa u seoskom vijeću i upravlja zajedničkom zemljom. Naslov obitelj dodjeljuje onome tko ga je zaslužio služenjem, pa ga sin ne dobiva samim rođenjem.", gdje: "Vidjet ćete ga u svakom selu: u otvorenim kućama za sastanke, u zajedničkom radu i u tome kako mlađi poslužuju starije. Najbolje objašnjenje dobit ćete u kulturnom selu u Apiji." },
-    { ime: "Fale", opis: "Tradicionalna samoanska kuća ovalnog je tlocrta, s krovom na drvenim stupovima i bez zidova, pa kroz nju slobodno struji zrak i svi vide sve. Ništa nije spojeno čavlima: grede su vezane užetom od kokosovih vlakana. Za kiše i noću spuštaju se pletene zavjese.", gdje: "Sela duž obalnih cesta na oba otoka. Na plažama poput Lalomanua i Manasea možete prespavati u jednostavnom faleu na pijesku, s madracem i mrežom protiv komaraca." },
-    { ime: "Tatau", opis: "Samoa je jedno od rijetkih mjesta gdje se tradicionalno tetoviranje nikada nije prekinulo. Muška tetovaža pe'a prekriva tijelo od struka do koljena i izrađuje se danima, ručnim alatom od kosti, uz veliku bol. Žene nose finiju tetovažu malu na bedrima. Legenda kaže da su umijeće donijele dvije sestre s Fidžija.", gdje: "Majstori iz obitelji koje to umijeće prenose naraštajima rade i danas. Rad možete vidjeti u kulturnom selu u Apiji, a za gledanje i fotografiranje uvijek se pita." },
-    { ime: "Obred 'ava", opis: "Svaki važan susret počinje obredom pijenja napitka od korijena biljke kave. Miješa ga djevojka visokog roda u drvenoj zdjeli na mnogo nogu, a govornik proziva goste po časti. Prije nego što popijete, izlijte nekoliko kapi na tlo i recite Manuia.", gdje: "Dočeci gostiju u selima i službene svečanosti. Posjetiteljima se obred prikazuje u kulturnom selu u Apiji." },
-    { ime: "Siva i ples s vatrenim nožem", opis: "Siva je graciozan ples u kojem ruke i šake pripovijedaju priču, a najsvečaniju, taualugu, pleše kći poglavice na kraju slavlja. Ples s vatrenim nožem, siva afi, razvio se iz ratničkog plesa s nazubljenim nožem kojemu su krajevi zapaljeni.", gdje: "Večeri fiafia u hotelima i odmaralištima, obično jednom tjedno, te festival Teuila u Apiji početkom rujna." },
-    { ime: "Sa i nedjelja", opis: "Svake večeri oko zalaska sunca sela zastanu na desetak do dvadeset minuta radi obiteljske molitve. Početak i kraj označava zvono ili puhanje u školjku, a za to se vrijeme ne hoda i ne vozi kroz selo. Nedjelja je posvećena crkvi, obitelji i odmoru.", gdje: "U svakom selu. Nedjeljom ujutro pođite na misu, žene u haljini ili suknji koja pokriva koljena i s pokrivenim ramenima, i poslušajte pjevanje." }
+    { ime: "Fa'a Samoa and the matai", opis: "The Samoan way of life rests on the extended family, respect for elders and service to the community. Every family chooses a chief, a matai, who represents it in the village council and manages the communal land. The family bestows the title on whoever has earned it through service, so a son does not receive it simply by birth.", gdje: "You will see it in every village: in the open meeting houses, in shared work and in the way the young serve their elders. You will get the best explanation at the cultural village in Apia." },
+    { ime: "Fale", opis: "The traditional Samoan house has an oval floor plan, with a roof on wooden posts and no walls, so the air flows freely through it and everyone can see everything. Nothing is joined with nails: the beams are lashed together with rope made of coconut fiber. Woven blinds are lowered when it rains and at night.", gdje: "Villages along the coastal roads on both islands. On beaches such as Lalomanu and Manase you can spend the night in a simple fale on the sand, with a mattress and a mosquito net." },
+    { ime: "Tatau", opis: "Samoa is one of the few places where traditional tattooing has never been interrupted. The men's tattoo, the pe'a, covers the body from the waist to the knees and takes days to complete, with hand tools made of bone and a great deal of pain. Women wear a finer tattoo, the malu, on their thighs. Legend says the art was brought by two sisters from Fiji.", gdje: "Masters from the families that have passed this art down through the generations still work today. You can watch them at the cultural village in Apia, and you should always ask before watching or taking photographs." },
+    { ime: "The 'ava ceremony", opis: "Every important gathering begins with the ceremonial drinking of a beverage made from the root of the kava plant. It is mixed by a young woman of high rank in a wooden bowl on many legs, and the orator calls out the guests in order of honor. Before you drink, pour a few drops onto the ground and say Manuia.", gdje: "Welcomes for guests in the villages and official ceremonies. The ceremony is demonstrated for visitors at the cultural village in Apia." },
+    { ime: "Siva and the fire knife dance", opis: "The siva is a graceful dance in which the arms and hands tell a story, and the most ceremonial one, the taualuga, is danced by the chief's daughter at the end of a celebration. The fire knife dance, siva afi, developed from a warrior dance with a serrated knife whose ends are set alight.", gdje: "Fiafia nights at hotels and resorts, usually once a week, and the Teuila Festival in Apia in early September." },
+    { ime: "Sa and Sunday", opis: "Every evening around sunset the villages come to a halt for ten to twenty minutes for family prayer. The beginning and end are marked by a bell or the blowing of a conch shell, and during that time nobody walks or drives through the village. Sunday is devoted to church, family and rest.", gdje: "In every village. On Sunday morning go to church, with women in a dress or skirt that covers the knees and with shoulders covered, and listen to the singing." }
   ],
   fraze: [
-    { izvorno: "Talofa", izgovor: "ta-LO-fa", hr: "Zdravo" },
-    { izvorno: "Fa'afetai", izgovor: "fa-a-fe-TAJ", hr: "Hvala" },
-    { izvorno: "Fa'afetai tele lava", izgovor: "fa-a-fe-TAJ TE-le LA-va", hr: "Hvala lijepa" },
-    { izvorno: "Fa'amolemole", izgovor: "fa-a-mo-le-MO-le", hr: "Molim" },
-    { izvorno: "Tōfā soifua", izgovor: "to-FA soj-FU-a", hr: "Doviđenja" },
-    { izvorno: "Ioe / Leai", izgovor: "i-O-e / le-AJ", hr: "Da / Ne" },
-    { izvorno: "Manuia", izgovor: "ma-nu-I-a", hr: "Živjeli, sretno" },
-    { izvorno: "Tulou", izgovor: "tu-LOU", hr: "Oprostite (kada prolazite ispred nekoga)" }
+    { izvorno: "Talofa", izgovor: "tah-LOH-fah", hr: "Hello" },
+    { izvorno: "Fa'afetai", izgovor: "fah-ah-feh-TIE", hr: "Thank you" },
+    { izvorno: "Fa'afetai tele lava", izgovor: "fah-ah-feh-TIE TEH-leh LAH-vah", hr: "Thank you very much" },
+    { izvorno: "Fa'amolemole", izgovor: "fah-ah-moh-leh-MOH-leh", hr: "Please" },
+    { izvorno: "Tōfā soifua", izgovor: "toh-FAH soy-FOO-ah", hr: "Goodbye" },
+    { izvorno: "Ioe / Leai", izgovor: "ee-OH-eh / leh-EYE", hr: "Yes / No" },
+    { izvorno: "Manuia", izgovor: "mah-noo-EE-ah", hr: "Cheers, good luck" },
+    { izvorno: "Tulou", izgovor: "too-LOH", hr: "Excuse me (when passing in front of someone)" }
   ],
   zanimljivosti: [
-    "Samoa je krajem 2011. prešla na drugu stranu datumske granice kako bi bila u istom danu kao Australija i Novi Zeland, pa je nakon 29. prosinca odmah nastupio 31. prosinca, a 30. prosinca te godine ondje nije postojao.",
-    "Samoa je 2009. s vožnje desnom stranom prešla na lijevu, što je vrlo rijedak slučaj u novije doba, kako bi se mogli uvoziti jeftiniji rabljeni automobili iz Australije i Novog Zelanda.",
-    "Škotski pisac Robert Louis Stevenson, autor Otoka s blagom, proveo je posljednje četiri godine života na Upoluu. Samoanci su ga zvali Tusitala, pripovjedač, i na rukama su ga odnijeli do groba na vrhu brda.",
-    "Mnoge obitelji pokapaju svoje mrtve u dvorištu pred kućom, pa uz cestu vidite grobnice ukrašene cvijećem tik do kućnog praga.",
-    "Jednom ili dvaput na godinu, u listopadu ili studenom, prema mijeni Mjeseca iz grebena izranja morski crv palolo. Skuplja se mrežama prije zore i smatra se velikom poslasticom.",
-    "Fa'afafine su osobe rođene kao dječaci koje žive u ženskoj ulozi, i u samoanskom društvu oduvijek su prihvaćene i cijenjene."
+    "At the end of 2011 Samoa moved to the other side of the International Date Line in order to be on the same day as Australia and New Zealand, so December 29 was followed directly by December 31, and December 30 of that year did not exist there.",
+    "In 2009 Samoa switched from driving on the right to driving on the left, a very rare event in modern times, so that cheaper used cars could be imported from Australia and New Zealand.",
+    "The Scottish writer Robert Louis Stevenson, author of Treasure Island, spent the last four years of his life on Upolu. The Samoans called him Tusitala, the teller of tales, and carried him in their arms to his grave at the top of the hill.",
+    "Many families bury their dead in the yard in front of the house, so along the road you see tombs decorated with flowers right beside the doorstep.",
+    "Once or twice a year, in October or November, the palolo sea worm rises from the reef according to the phase of the moon. It is gathered with nets before dawn and is considered a great delicacy.",
+    "Fa'afafine are people born as boys who live in a female role, and they have always been accepted and valued in Samoan society."
   ],
   mjesta: [
     {
       id: "upolu",
       ime: "Upolu",
       vrsta: "otok",
-      sazetak: "Otok na kojem su glavni grad Apia, Stevensonova kuća, slapovi u prašumi i morska jama u koju se silazi dugim ljestvama.",
+      sazetak: "The island that is home to the capital Apia, Stevenson's house, waterfalls in the rainforest and an ocean trench you climb down into on a long ladder.",
       prica: [
-        "Upolu je manji, ali najnaseljeniji otok Samoe, sa šumovitim vulkanskim hrptom po sredini i selima nanizanima uz obalu. Apia je izrasla oko luke u kojoj su se u 19. stoljeću nadmetali njemački, britanski i američki trgovci. U ožujku 1889. u luci je stajalo sedam ratnih brodova triju sila kada je udario ciklon i potopio ili nasukao gotovo sve.",
-        "Novozelandska policija pucala je 28. prosinca 1929. u Apiji na mirnu povorku pokreta Mau i ubila vođu Tupuu Tamasesea Lealofija III. i još nekoliko ljudi. Taj se dan pamti kao Crna subota, a Novi Zeland se 2002. službeno ispričao. Južnu obalu otoka pogodio je 2009. tsunami, čiji se tragovi i danas vide u selima oko Lalomanua."
+        "Upolu is the smaller but most populated island of Samoa, with a forested volcanic ridge down the middle and villages strung along the coast. Apia grew up around the harbor where traders from Germany, Britain and the USA competed in the 19th century. In March 1889 seven warships of the three powers were lying in the harbor when a cyclone struck and sank or grounded almost all of them.",
+        "On December 28, 1929, the New Zealand police fired on a peaceful procession of the Mau movement in Apia and killed its leader Tupua Tamasese Lealofi III and several other people. That day is remembered as Black Saturday, and New Zealand formally apologized in 2002. The south coast of the island was hit by a tsunami in 2009, the traces of which can still be seen in the villages around Lalomanu."
       ],
       vidjeti: [
-        { ime: "Muzej Roberta Louisa Stevensona", opis: "Pisac je 1890. kupio imanje Vailima iznad Apije i sagradio veliku drvenu kuću u kojoj je živio do smrti 1894. Kuća je obnovljena s izvornim namještajem, a u njoj je i kamin koji u tropima nikada nije trebao. Staza kroz šumu vodi do njegova groba na brdu Vaea, na kojem su uklesani stihovi njegove pjesme Rekvijem." },
-        { ime: "To Sua", opis: "Morska jama duboka tridesetak metara nastala je urušavanjem lavinog tunela i podzemnim je prolazom spojena s oceanom, pa se razina vode mijenja s plimom. U nju se silazi strmim drvenim ljestvama do platforme za kupanje. Oko jame je uređen vrt na litici iznad mora." },
-        { ime: "Plaža Lalomanu", opis: "Na jugoistočnom rtu otoka pruža se bijela plaža s pogledom na nenaseljeni otočić Nu'utele. Uz pijesak su poredani jednostavni faleovi obitelji iz sela, koje je nakon tsunamija 2009. sve iznova izgradilo." },
-        { ime: "Špiljski bazen Piula", opis: "Ispod metodističke teološke škole na sjevernoj obali izvor slatke vode puni bazen u špilji od lave, nekoliko koraka od mora. Voda je hladna i kristalno bistra, a kroz kratak podvodni prolaz može se preroniti u drugu špilju." },
-        { ime: "Katedrala Bezgrešnog začeća u Apiji", opis: "Katedrala na rivi ponovno je sagrađena i otvorena 2014. Uđite i pogledajte strop: izrađen je od drva i ukrašen samoanskim uzorcima, a u kupoli su anđeli naslikani uz prizor obreda 'ava." },
-        { ime: "Slap Papapapaitai", opis: "Uz cestu koja preko sredine otoka spaja sjevernu i južnu obalu nalazi se vidikovac nad klancem u koji se slap ruši stotinjak metara. Često je u oblaku, pa dođite ujutro." }
+        { ime: "The Robert Louis Stevenson Museum", opis: "In 1890 the writer bought the Vailima estate above Apia and built a large wooden house where he lived until his death in 1894. The house has been restored with its original furniture, and it even has a fireplace that was never needed in the tropics. A trail through the forest leads to his grave on Mount Vaea, which is inscribed with the lines of his poem Requiem." },
+        { ime: "To Sua", opis: "This ocean trench some thirty meters deep was formed by the collapse of a lava tube and is connected to the ocean by an underground passage, so the water level changes with the tide. You climb down into it on a steep wooden ladder to a swimming platform. Around the trench a garden has been laid out on the cliff above the sea." },
+        { ime: "Lalomanu Beach", opis: "On the southeastern tip of the island stretches a white beach with a view of the uninhabited islet of Nu'utele. Lined up along the sand are the simple fales of families from the village, which rebuilt everything from scratch after the 2009 tsunami." },
+        { ime: "Piula Cave Pool", opis: "Below the Methodist theological college on the north coast a freshwater spring fills a pool in a lava cave, a few steps from the sea. The water is cold and crystal clear, and you can dive through a short underwater passage into a second cave." },
+        { ime: "The Cathedral of the Immaculate Conception in Apia", opis: "The cathedral on the waterfront was rebuilt and opened in 2014. Step inside and look at the ceiling: it is made of wood and decorated with Samoan patterns, and in the dome angels are painted alongside a scene of the 'ava ceremony." },
+        { ime: "Papapapaitai Falls", opis: "Beside the road that crosses the middle of the island, linking the north and south coasts, there is a lookout over the gorge into which the waterfall plunges about a hundred meters. It is often in cloud, so come in the morning." }
       ],
       jesti: [
-        { ime: "Oka i'a na ribljoj tržnici", opis: "Na ribljoj tržnici u Apiji nedjeljom rano ujutro prodaju se svježa riba i gotova oka u čašama." },
-        { ime: "Nedjeljni to'ona'i", opis: "Mnoga odmarališta i pansioni nedjeljom pripremaju gozbu iz umua, uz palusami, odojka i kruhovac." },
-        { ime: "Panipopo i koko Samoa", opis: "Topla kokosova peciva i šalica domaćeg kakaa tipičan su doručak na tržnici Fugalei u Apiji." }
+        { ime: "Oka i'a at the fish market", opis: "Early on Sunday morning the fish market in Apia sells fresh fish and ready-made oka in cups." },
+        { ime: "The Sunday to'ona'i", opis: "On Sundays many resorts and guesthouses prepare a feast from the umu, with palusami, suckling pig and breadfruit." },
+        { ime: "Panipopo and koko Samoa", opis: "Warm coconut buns and a cup of local cocoa are the typical breakfast at the Fugalei market in Apia." }
       ],
       dozivjeti: [
-        { ime: "Kulturno selo u Apiji", opis: "U selu uz turistički ured na rivi domaćini pokazuju pripremu umua, tkanje, rezbarenje, izradu tkanine siapo od kore i tetoviranje, a na kraju vas počaste jelom. Vrijeme održavanja programa provjerite na stranicama turističke zajednice.", link: "https://www.samoa.travel/discover/our-culture/" },
-        { ime: "Uspon do Stevensonova groba", opis: "Strmija staza traje oko pola sata, a blaža oko sat vremena. Krenite ujutro, a nagrada je pogled na Apiju i greben." },
-        { ime: "Klizanje niz stijene Papase'ea", opis: "Nedaleko od Apije potok je izgladio stijene u prirodne tobogane, od kojih je najdulji visok oko pet metara. Najbolje je nakon kiše, kada ima dovoljno vode." },
-        { ime: "Ronjenje s maskom u rezervatu Palolo Deep", opis: "Nekoliko minuta od središta Apije pliva se preko plićaka do duboke plave rupe u grebenu, pune koralja i riba. Idite za plime." }
+        { ime: "The cultural village in Apia", opis: "In the village next to the tourist office on the waterfront, your hosts demonstrate how the umu is prepared, weaving, carving, the making of siapo bark cloth and tattooing, and at the end they treat you to a meal. Check the program times on the tourist board's website.", link: "https://www.samoa.travel/discover/our-culture/" },
+        { ime: "The climb to Stevenson's grave", opis: "The steeper trail takes about half an hour and the gentler one about an hour. Set out in the morning, and your reward is a view of Apia and the reef." },
+        { ime: "Sliding down the Papase'ea rocks", opis: "Not far from Apia a stream has smoothed the rocks into natural slides, the longest of which is about five meters high. It is best after rain, when there is enough water." },
+        { ime: "Snorkeling in the Palolo Deep reserve", opis: "A few minutes from the center of Apia you swim across the shallows to a deep blue hole in the reef, full of corals and fish. Go at high tide." }
       ],
       agencije: [
-        { ime: "Samoa Tourism Authority", opis: "Službena turistička zajednica, s uredom na rivi u Apiji.", link: "https://www.samoa.travel/" },
-        { ime: "Samoa Tourism Authority: znamenitosti", opis: "Službeni popis znamenitosti s naknadama za ulaz i radnim vremenom.", link: "https://www.samoa.travel/plan-book/sites-attractions/" }
+        { ime: "Samoa Tourism Authority", opis: "The official tourist board, with an office on the waterfront in Apia.", link: "https://www.samoa.travel/" },
+        { ime: "Samoa Tourism Authority: sites and attractions", opis: "The official list of attractions, with entrance fees and opening hours.", link: "https://www.samoa.travel/plan-book/sites-attractions/" }
       ],
-      kada: "Najbolje je od svibnja do listopada. Nedjeljom su gotovo sve znamenitosti zatvorene, pa taj dan ostavite za crkvu, gozbu i plažu pred smještajem. Za ulaze na plaže i slapove uvijek imajte sitnu gotovinu."
+      kada: "May to October is best. On Sundays almost all the attractions are closed, so keep that day for church, the feast and the beach in front of your accommodation. Always have small change in cash for the entrance fees at beaches and waterfalls."
     },
     {
       id: "savaii",
       ime: "Savai'i",
       vrsta: "otok",
-      sazetak: "Najveći i najtiši otok Samoe, s poljima lave, morskim gejzirima i selima u kojima se život odvija kao prije stotinu godina.",
+      sazetak: "The largest and quietest island of Samoa, with lava fields, blowholes and villages where life goes on as it did a hundred years ago.",
       prica: [
-        "Savai'i je jedan od najvećih otoka Polinezije, golem štitasti vulkan s najvišim vrhom Samoe, visokim više od 1800 metara. Na njemu živi tek četvrtina stanovništva zemlje, nema grada ni semafora, a jedna cesta obilazi cijeli otok.",
-        "Vulkan Matavanu izbijao je od 1905. do 1911. i lava je polako tekla prema sjevernoj obali, pa su ljudi stigli pobjeći, ali je pet sela ostalo zatrpano. Samoanci ovaj otok smatraju čuvarom starih običaja, a mnoge obitelji iz Apije ovdje imaju korijene i poglavarske naslove."
+        "Savai'i is one of the largest islands in Polynesia, an enormous shield volcano with the highest peak in Samoa, more than 1,800 meters tall. Only a quarter of the country's population lives on it, there is no town and no traffic light, and a single road circles the whole island.",
+        "The Matavanu volcano erupted from 1905 to 1911, and the lava flowed slowly toward the north coast, so people had time to escape, but five villages were buried. Samoans regard this island as the guardian of the old customs, and many families from Apia have their roots and their chiefly titles here."
       ],
       vidjeti: [
-        { ime: "Polja lave Saleaula", opis: "Crna skrutnuta lava prekriva obalu kilometrima. Kroz vrata jedne crkve lava je ušla i ispunila je do polovice zidova, a na podu se vide otisci valovitog lima s krova koji se urušio. U blizini je i takozvani Djevičin grob, oko kojeg je lava, kako se pripovijeda, zastala i zaobišla ga." },
-        { ime: "Morski gejziri Alofaaga", opis: "Kod sela Taga valovi se zabijaju u tunele u obali od lave i šikljaju desetke metara uvis. Mještani uz naknadu bacaju kokosove orahe u otvor u pravom trenutku, pa ih mlaz ispali visoko u zrak." },
-        { ime: "Slap Afu Aau", opis: "Slap u prašumi na jugoistoku otoka pada u duboko, hladno i bistro jezerce u kojem se može plivati. Sitna naknada za ulaz plaća se obitelji na čijoj se zemlji nalazi." },
-        { ime: "Poluotok Falealupo", opis: "Na krajnjem zapadu otoka, do promjene datumske granice 2011., sunce je zalazilo posljednje na svijetu. Prema predaji, ovdje je ulaz u Pulotu, svijet duhova. Selo je sačuvalo svoju prašumu od sječe, pa se među krošnjama divovskih banjana može hodati visećim mostom." },
-        { ime: "Humak Pulemelei", opis: "Kamena piramida s ravnim vrhom, osnovice oko šezdeset puta šezdeset pet metara i visine dvanaest metara, najveća je drevna građevina u Polineziji. Skrivena je u obrasloj plantaži i do nje je teško doći bez mjesnog vodiča, a čemu je služila, još se ne zna pouzdano." },
-        { ime: "Plaža Manase", opis: "Na sjevernoj obali pruža se duga bijela plaža s nizom obiteljskih faleova na pijesku. To je najbolje mjesto na Samoi da nekoliko dana živite uz more, s obrocima za zajedničkim stolom." }
+        { ime: "The Saleaula lava fields", opis: "Black, hardened lava covers the coast for kilometers. The lava entered through the doors of one church and filled it halfway up the walls, and on the floor you can see the imprint of the corrugated iron from the roof that collapsed. Nearby is the so-called Virgin's Grave, where, as the story goes, the lava stopped and flowed around it." },
+        { ime: "The Alofaaga blowholes", opis: "Near the village of Taga the waves ram into tubes in the lava coast and shoot tens of meters into the air. For a fee, locals throw coconuts into the opening at just the right moment, so the jet fires them high into the sky." },
+        { ime: "Afu Aau Falls", opis: "This waterfall in the rainforest in the southeast of the island drops into a deep, cold and clear pool where you can swim. A small entrance fee is paid to the family on whose land it lies." },
+        { ime: "The Falealupo Peninsula", opis: "At the far western end of the island, until the date line was moved in 2011, the sun set later than anywhere else in the world. According to tradition, this is the entrance to Pulotu, the world of the spirits. The village saved its rainforest from logging, so you can walk on a suspension bridge among the crowns of giant banyan trees." },
+        { ime: "The Pulemelei Mound", opis: "A stone pyramid with a flat top, with a base of about sixty by sixty-five meters and a height of twelve meters, is the largest ancient structure in Polynesia. It is hidden in an overgrown plantation and is hard to reach without a local guide, and what it was used for is still not known for certain." },
+        { ime: "Manase Beach", opis: "On the north coast stretches a long white beach with a row of family-run fales on the sand. It is the best place in Samoa to live by the sea for a few days, with meals at a shared table." }
       ],
       jesti: [
-        { ime: "Večera u faleu na plaži", opis: "U cijenu noćenja obično su uključeni doručak i večera, koje kuha obitelj domaćina: riba, taro, kruhovac i salata od papaje." },
-        { ime: "Svježi kokos i voće uz cestu", opis: "Na štandovima uz cestu oko otoka prodaju se mladi kokosovi orasi, papaje i male banane, a novac se često ostavlja u kutiji." },
-        { ime: "Riba s tržnice u Salelologi", opis: "U glavnom mjestu otoka, uz trajektno pristanište, nalazi se tržnica s ribom, taroom i gotovim jelima, živa osobito ujutro." }
+        { ime: "Dinner in a beach fale", opis: "The price of the night usually includes breakfast and dinner, cooked by the host family: fish, taro, breadfruit and papaya salad." },
+        { ime: "Fresh coconut and fruit by the roadside", opis: "The stalls along the road around the island sell young coconuts, papayas and small bananas, and the money is often left in a box." },
+        { ime: "Fish from the market in Salelologa", opis: "In the island's main town, next to the ferry wharf, there is a market with fish, taro and cooked dishes, which is especially lively in the morning." }
       ],
       dozivjeti: [
-        { ime: "Trajektom na Savai'i", opis: "Vožnja od pristaništa Mulifanua na Upoluu do Salelologe traje nešto više od sat vremena, a uz put se vide otočići Manono i Apolima. Ako vozite automobil, mjesto rezervirajte unaprijed.", link: "https://www.samoa.travel/samoa-travel-advice/taking-the-ferry-to-savaii/" },
-        { ime: "Vožnja oko otoka", opis: "Cesta oko otoka duga je oko dvjesto kilometara i najbolje ju je podijeliti na dva dana, s noćenjem u Manaseu ili Falealupu. Gorivo natočite u Salelologi jer je postaja malo." },
-        { ime: "Šetnja među krošnjama u Falealupu", opis: "Viseći most vodi između dvaju golemih stabala, a na jednome je platforma na kojoj se može i prespavati. Naknada ide selu koje čuva šumu." }
+        { ime: "By ferry to Savai'i", opis: "The crossing from Mulifanua wharf on Upolu to Salelologa takes a little over an hour, and along the way you can see the islets of Manono and Apolima. If you are taking a car, reserve your place in advance.", link: "https://www.samoa.travel/samoa-travel-advice/taking-the-ferry-to-savaii/" },
+        { ime: "A drive around the island", opis: "The road around the island is about two hundred kilometers long and is best split over two days, with a night in Manase or Falealupo. Fill up in Salelologa, because gas stations are few." },
+        { ime: "The canopy walk in Falealupo", opis: "A suspension bridge runs between two enormous trees, and one of them has a platform where you can even spend the night. The fee goes to the village that protects the forest." }
       ],
       agencije: [
-        { ime: "Samoa Tourism Authority", opis: "Službena turistička zajednica, s vodičem po otocima i popisom smještaja.", link: "https://www.samoa.travel/discover/the-islands-of-samoa/" }
+        { ime: "Samoa Tourism Authority", opis: "The official tourist board, with a guide to the islands and a list of accommodation.", link: "https://www.samoa.travel/discover/the-islands-of-samoa/" }
       ],
-      kada: "Najbolje je od svibnja do listopada. Na otoku je malo bankomata i trgovina, pa gotovinu podignite u Apiji ili Salelologi. Kroz sela vozite polako jer cestom slobodno hodaju djeca, svinje i kokoši."
+      kada: "May to October is best. There are few ATMs and shops on the island, so withdraw cash in Apia or Salelologa. Drive slowly through the villages, because children, pigs and chickens roam freely on the road."
     }
   ],
   izvori: [

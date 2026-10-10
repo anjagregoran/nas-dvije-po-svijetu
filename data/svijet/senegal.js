@@ -2,163 +2,163 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["senegal"] = {
   id: "senegal",
   ime: "Senegal",
-  regija: "Podsaharska Afrika",
-  sazetak: "Najzapadnija zemlja Afrike, u kojoj je gostoljubivost nacionalna vrlina, a riža s ribom razlog za ponos.",
+  regija: "Sub-Saharan Africa",
+  sazetak: "The westernmost country in Africa, where hospitality is a national virtue and rice with fish is a source of pride.",
   uvod: [
-    "Senegal leži na krajnjem zapadu afričkoga kopna, na mjestu gdje se Sahel spušta do Atlantika. Ovuda su prolazila velika zapadnoafrička carstva, Gana, Mali i Jolof, a od 15. stoljeća na obalu su stizali Portugalci, Nizozemci, Englezi i Francuzi. S otoka pred obalom stoljećima su ljudi odvođeni u ropstvo preko oceana.",
-    "Francuska je odavde upravljala cijelom svojom zapadnom Afrikom, prvo iz Saint-Louisa, a zatim iz Dakra. Neovisnost je stigla 1960., a prvi predsjednik bio je pjesnik Léopold Sédar Senghor, jedan od tvoraca pokreta négritude, koji je slavio afričku kulturu i identitet. Senegal otada nije doživio nijedan državni udar i slovi kao jedna od najstabilnijih demokracija na kontinentu.",
-    "Više od devet desetina stanovnika su muslimani, okupljeni u sufijska bratstva koja njeguju snošljiv, veseo islam. Ključna je riječ teranga, što na jeziku wolof znači gostoljubivost, i osjeti se u tome da vas neznanci pozivaju za zajedničku zdjelu."
+    "Senegal lies at the far western end of the African mainland, where the Sahel comes down to the Atlantic. The great West African empires of Ghana, Mali and Jolof passed through here, and from the 15th century the Portuguese, Dutch, English and French arrived on the coast. For centuries people were taken from the islands off the coast into slavery across the ocean.",
+    "France governed all of its West Africa from here, first from Saint-Louis and then from Dakar. Independence came in 1960, and the first president was the poet Léopold Sédar Senghor, one of the creators of the négritude movement, which celebrated African culture and identity. Senegal has not had a single coup since then and is regarded as one of the most stable democracies on the continent.",
+    "More than nine tenths of the population are Muslims, gathered in Sufi brotherhoods that practice a tolerant, cheerful Islam. The key word is teranga, which means hospitality in the Wolof language, and you feel it when strangers invite you to share their bowl."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suho je i ugodno od studenoga do svibnja. Kišna sezona traje od srpnja do listopada, kada je sparno, a neke su ceste u delti blatne." },
-    { k: "Valuta", v: "Zapadnoafrički franak CFA (XOF), vezan uz euro po stalnom tečaju od oko 656 franaka za jedan euro. Izvan Dakra plaća se gotovinom." },
-    { k: "Jezik", v: "Službeni je francuski, ali se na ulici govori wolof. Nekoliko riječi na wolofu otvara sva vrata." },
-    { k: "Kretanje", v: "Između gradova voze zajednički taksiji sa sedam mjesta, zvani sept-places, i autobusi. Za deltu i sjever najudobnije je unajmiti auto s vozačem. U Dakru se cijena taksija dogovara prije vožnje." },
-    { k: "Napojnica", v: "U restoranima oko 10 posto ako usluga nije uračunata. Na tržnicama se cjenka uz osmijeh i bez žurbe." }
+    { k: "When to go", v: "It is dry and pleasant from November to May. The rainy season lasts from July to October, when it is muggy and some of the roads in the delta are muddy." },
+    { k: "Currency", v: "The West African CFA franc (XOF), pegged to the euro at a fixed rate of about 656 francs to one euro. Outside Dakar you pay in cash." },
+    { k: "Language", v: "French is the official language, but Wolof is what you hear on the street. A few words of Wolof open every door." },
+    { k: "Getting around", v: "Between towns there are shared seven-seat taxis, called sept-places, and buses. For the delta and the north the most comfortable option is to hire a car with a driver. In Dakar you agree on the taxi fare before the ride." },
+    { k: "Tipping", v: "About 10 percent in restaurants if service is not included. At the markets you haggle with a smile and without hurrying." }
   ],
   hrana: [
-    { ime: "Thieboudienne", opis: "Riža kuhana u umaku od rajčice s ribom punjenom peršinom i češnjakom te s povrćem.", prica: "Nacionalno jelo, čije ime na wolofu znači riža s ribom, izgovara se otprilike čebu džen. Predaja ga pripisuje kuharici Pendi Mbaye iz Saint-Louisa u 19. stoljeću. UNESCO ga je 2021. uvrstio u nematerijalnu baštinu, a zagorjela korica s dna lonca smatra se poslasticom." },
-    { ime: "Yassa", opis: "Piletina ili riba marinirana u limunu i gorušici, s brdom karameliziranog luka.", prica: "Jelo potječe iz Casamancea na jugu zemlje. Kiselo-slatki luk je glavni sastojak, a ne prilog, i jede se s bijelom rižom." },
-    { ime: "Mafé", opis: "Gulaš od govedine ili janjetine u gustom umaku od kikirikija.", prica: "Kikiriki su u Senegal donijeli Portugalci iz Južne Amerike, a u kolonijalno doba postao je glavni izvozni proizvod. Umak je gust i bogat, pa je dovoljna mala porcija." },
-    { ime: "Dibi", opis: "Janjetina pečena na žaru, narezana na komade i poslužena na papiru s lukom i gorušicom.", prica: "Jede se u pečenjarnicama zvanima dibiterie, koje često vode ljudi iz naroda Hausa. Najživlje su kasno navečer." },
-    { ime: "Pastels", opis: "Male pržene pite punjene ribom, s ljutim umakom od rajčice.", prica: "Ime i oblik podsjećaju na portugalske i zelenortske uzore. Prodaju ih žene na ulici i na trajektu za Gorée." },
-    { ime: "Bissap", opis: "Hladan tamnocrveni napitak od cvjetova hibiskusa, zaslađen i ponekad s mentom.", prica: "Smatra se nacionalnim pićem. Uz njega se nude i sok od ploda baobaba, zvan bouye, kremast i kiselkast, te sok od đumbira." },
-    { ime: "Café Touba", opis: "Kava začinjena gvinejskim paprom, ponekad i klinčićem.", prica: "Nazvana je po svetome gradu Toubi. Prema predaji, recept je iz izgnanstva donio osnivač bratstva muridija, šeik Amadou Bamba. Prodaje se na ulici iz termosica, a toči se iz visine da se zapjeni." },
-    { ime: "Thiakry", opis: "Desert od kuglica prosa u zaslađenom jogurtu ili kiselom mlijeku.", prica: "Poslužuje se hladan, s vanilijom i muškatnim oraščićem, često s grožđicama. Proso je žitarica Sahela koja je ovdje hranila ljude davno prije riže." }
+    { ime: "Thieboudienne", opis: "Rice cooked in tomato sauce with fish stuffed with parsley and garlic, and with vegetables.", prica: "The national dish, whose name means rice with fish in Wolof, is pronounced roughly cheh-boo jen. Tradition credits it to the cook Penda Mbaye of Saint-Louis in the 19th century. UNESCO added it to its list of intangible heritage in 2021, and the scorched crust from the bottom of the pot is considered a delicacy." },
+    { ime: "Yassa", opis: "Chicken or fish marinated in lemon and mustard, with a mountain of caramelized onions.", prica: "The dish comes from the Casamance in the south of the country. The sweet and sour onions are the main ingredient and not a side, and it is eaten with white rice." },
+    { ime: "Mafé", opis: "A stew of beef or lamb in a thick peanut sauce.", prica: "Peanuts were brought to Senegal by the Portuguese from South America, and in colonial times they became the main export product. The sauce is thick and rich, so a small portion is enough." },
+    { ime: "Dibi", opis: "Grilled lamb, cut into pieces and served on paper with onion and mustard.", prica: "It is eaten at grill houses called dibiteries, which are often run by people of the Hausa ethnic group. They are at their liveliest late at night." },
+    { ime: "Pastels", opis: "Small fried turnovers filled with fish, with a spicy tomato sauce.", prica: "The name and shape recall their Portuguese and Cape Verdean models. Women sell them on the street and on the ferry to Gorée." },
+    { ime: "Bissap", opis: "A cold, dark red drink made from hibiscus flowers, sweetened and sometimes flavored with mint.", prica: "It is considered the national drink. Offered alongside it are the juice of the baobab fruit, called bouye, which is creamy and tart, and ginger juice." },
+    { ime: "Café Touba", opis: "Coffee spiced with Guinea pepper, and sometimes with cloves too.", prica: "It is named after the holy city of Touba. According to tradition, the recipe was brought back from exile by the founder of the Mouride brotherhood, Sheikh Amadou Bamba. It is sold on the street from thermoses and poured from a height to make it froth." },
+    { ime: "Thiakry", opis: "A dessert of millet granules in sweetened yogurt or soured milk.", prica: "It is served cold, with vanilla and nutmeg and often with raisins. Millet is the grain of the Sahel, which fed people here long before rice." }
   ],
   obicaji: [
-    { ime: "Teranga", opis: "Gostoljubivost kao temeljna vrijednost: gost se uvijek nahrani, makar domaćinu ostalo manje. Jede se iz zajedničke zdjele, a domaćica gostu gura najbolje komade ribe i povrća na njegovu stranu.", gdje: "Posvuda. Ako vas pozovu za zdjelu, operite ruke, sjednite i jedite desnom rukom ili žlicom iz dijela ispred sebe." },
-    { ime: "Ataya", opis: "Obred zelenog čaja s mentom, koji se kuha i toči u tri kruga. Prvi je gorak poput smrti, drugi blag poput života, a treći sladak poput ljubavi, kako kaže izreka. Čaj se prelijeva iz čaše u čašu dok ne dobije pjenu.", gdje: "Pred svakom kućom i trgovinom poslijepodne. Poziv na čaj poziv je na razgovor, i traje barem sat vremena." },
-    { ime: "Laamb", opis: "Senegalsko hrvanje nacionalni je sport, popularniji i od nogometa. Borci prije meča izvode obrede s amajlijama i polijevaju se ljekovitim vodama, uz bubnjare i pjevačice koje ih hvale.", gdje: "Arene u Dakru i okolici, uglavnom od siječnja do srpnja; manje borbe mogu se vidjeti i po plažama i seoskim trgovima." },
-    { ime: "Sabar", opis: "Bubanj koji se svira jednom rukom i jednim štapom te istoimeni ples visokih skokova i mahanja koljenima. Zabave uz sabar na ulici organiziraju žene.", gdje: "Kvartovske ulice Dakra, osobito vikendom predvečer. Suvremena glazba mbalax, koju je proslavio Youssou N'Dour, izrasla je iz sabara." },
-    { ime: "Grioti", opis: "Nasljedni pjevači, pripovjedači i čuvari rodoslovlja, koji na wolofu nose ime géwël. Stoljećima su pamtili povijest obitelji i kraljeva, a prate se na kori, harfi s dvadeset jednom žicom i rezonatorom od tikve.", gdje: "Na vjenčanjima i krštenjima te u glazbenim klubovima u Dakru." },
-    { ime: "Oslikane piroge", opis: "Dugi drveni ribarski čamci oslikani su jarkim bojama i imenima svetih ljudi koji ih štite. Povratak flote s ulovom svakodnevni je prizor na obali.", gdje: "Plaža Soumbédioune u Dakru i ribarska četvrt Guet Ndar u Saint-Louisu, kasno poslijepodne." }
+    { ime: "Teranga", opis: "Hospitality as a core value: a guest is always fed, even if it leaves less for the host. You eat from a shared bowl, and the hostess pushes the best pieces of fish and vegetables over to the guest's side.", gdje: "Everywhere. If you are invited to the bowl, wash your hands, sit down and eat with your right hand or a spoon from the section in front of you." },
+    { ime: "Ataya", opis: "The ritual of green tea with mint, brewed and poured in three rounds. The first is bitter like death, the second mild like life, and the third sweet like love, as the saying goes. The tea is poured back and forth from glass to glass until it foams.", gdje: "In front of every house and shop in the afternoon. An invitation to tea is an invitation to talk, and it lasts at least an hour." },
+    { ime: "Laamb", opis: "Senegalese wrestling is the national sport, more popular even than soccer. Before a match the fighters perform rituals with amulets and douse themselves with medicinal waters, accompanied by drummers and by women singers who praise them.", gdje: "The arenas in and around Dakar, mostly from January to July; smaller bouts can also be seen on beaches and village squares." },
+    { ime: "Sabar", opis: "A drum played with one hand and one stick, and the dance of the same name, with its high jumps and swinging knees. Street parties with sabar drumming are organized by women.", gdje: "The neighborhood streets of Dakar, especially toward evening on weekends. The modern music called mbalax, made famous by Youssou N'Dour, grew out of sabar." },
+    { ime: "Griots", opis: "Hereditary singers, storytellers and keepers of genealogies, who go by the name géwël in Wolof. For centuries they committed the history of families and kings to memory, and they accompany themselves on the kora, a harp with twenty-one strings and a gourd resonator.", gdje: "At weddings and baptisms, and in the music clubs of Dakar." },
+    { ime: "Painted pirogues", opis: "The long wooden fishing boats are painted in bright colors and with the names of the holy men who protect them. The return of the fleet with its catch is an everyday sight on the coast.", gdje: "Soumbédioune beach in Dakar and the fishing quarter of Guet Ndar in Saint-Louis, late in the afternoon." }
   ],
   fraze: [
-    { izvorno: "Salaam aleekum", izgovor: "sa-LAM a-LEJ-kum", hr: "Mir s vama (pozdrav); odgovara se Maleekum salaam" },
-    { izvorno: "Na nga def?", izgovor: "NAN-ga def", hr: "Kako si?" },
-    { izvorno: "Maa ngi fi", izgovor: "MAN-gi fi", hr: "Dobro sam, doslovno: tu sam" },
-    { izvorno: "Jërëjëf", izgovor: "dže-re-DŽEF", hr: "Hvala" },
-    { izvorno: "Waaw / Déedéet", izgovor: "vau / DE-det", hr: "Da / Ne" },
-    { izvorno: "Ñaata la?", izgovor: "NJA-ta la", hr: "Koliko košta?" },
-    { izvorno: "Neex na", izgovor: "NEH na", hr: "Ukusno je" },
-    { izvorno: "Ba beneen yoon", izgovor: "ba be-NEN jon", hr: "Do sljedećeg puta" }
+    { izvorno: "Salaam aleekum", izgovor: "sah-LAHM ah-LAY-koom", hr: "Peace be with you (a greeting); the reply is Maleekum salaam" },
+    { izvorno: "Na nga def?", izgovor: "NAHN-gah def", hr: "How are you?" },
+    { izvorno: "Maa ngi fi", izgovor: "MAHN-gee fee", hr: "I am fine, literally: I am here" },
+    { izvorno: "Jërëjëf", izgovor: "jeh-reh-JEF", hr: "Thank you" },
+    { izvorno: "Waaw / Déedéet", izgovor: "wow / DAY-dayt", hr: "Yes / No" },
+    { izvorno: "Ñaata la?", izgovor: "NYAH-tah lah", hr: "How much does it cost?" },
+    { izvorno: "Neex na", izgovor: "NEKH nah", hr: "It is delicious" },
+    { izvorno: "Ba beneen yoon", izgovor: "bah beh-NEN yohn", hr: "Until next time" }
   ],
   zanimljivosti: [
-    "Rt Pointe des Almadies u Dakru najzapadnija je točka afričkoga kopna.",
-    "Država Gambija uski je pojas zemlje uz istoimenu rijeku, sa svih strana kopna okružen Senegalom.",
-    "Spomenik afričkoj renesansi u Dakru, visok 49 metara, najviši je kip u Africi.",
-    "Reli Pariz-Dakar desetljećima je završavao na obali Ružičastog jezera kod Dakra.",
-    "Riječ teranga toliko je važna da se i nogometna reprezentacija zove Lavovi Terange.",
-    "Baobab je nacionalni simbol, a u njegovim su šupljim deblima nekoć pokapani grioti.",
-    "Senegal je dao prvoga crnog Afrikanca izabranog u francuski parlament, Blaisea Diagnea, 1914. godine."
+    "The Pointe des Almadies in Dakar is the westernmost point of the African mainland.",
+    "The country of The Gambia is a narrow strip of land along the river of the same name, surrounded by Senegal on all its landward sides.",
+    "The African Renaissance Monument in Dakar, 49 meters high, is the tallest statue in Africa.",
+    "For decades the Paris-Dakar Rally finished on the shore of the Pink Lake near Dakar.",
+    "The word teranga is so important that even the national soccer team is called the Lions of Teranga.",
+    "The baobab is a national symbol, and griots were once buried in its hollow trunks.",
+    "Senegal produced the first Black African elected to the French parliament, Blaise Diagne, in 1914."
   ],
   mjesta: [
     {
       id: "dakar-goree",
-      ime: "Dakar i Gorée",
+      ime: "Dakar and Gorée",
       vrsta: "grad",
-      sazetak: "Bučna prijestolnica na poluotoku i tihi otok bez automobila, koji čuva sjećanje na trgovinu robljem.",
+      sazetak: "A noisy capital on a peninsula and a quiet island without cars that keeps the memory of the slave trade.",
       prica: [
-        "Dakar je izrastao iz ribarskog sela naroda Lebu, na poluotoku Cap-Vert. Francuzi su ga 1857. učinili utvrdom, a 1902. glavnim gradom Francuske Zapadne Afrike.",
-        "Otok Gorée, dvadeset minuta trajektom od luke, držali su redom Portugalci, Nizozemci, Englezi i Francuzi. Od 15. do 19. stoljeća bio je trgovačka postaja na kojoj se trgovalo i ljudima. UNESCO ga je zaštitio 1978. kao mjesto sjećanja."
+        "Dakar grew out of a fishing village of the Lebu people on the Cap-Vert peninsula. The French made it a fort in 1857 and the capital of French West Africa in 1902.",
+        "The island of Gorée, twenty minutes by ferry from the port, was held in turn by the Portuguese, the Dutch, the English and the French. From the 15th to the 19th century it was a trading post where human beings were traded too. UNESCO protected it in 1978 as a place of remembrance."
       ],
       vidjeti: [
-        { ime: "Kuća robova na Goréeu", opis: "Kuća iz oko 1776. ima raskošan stan na katu i mračne ćelije u prizemlju. Uski prolaz vodi do vrata koja gledaju na ocean, nazvanih Vrata bez povratka. Povjesničari se ne slažu o tome koliko je ljudi prošlo baš kroz ovu kuću, i mnogi smatraju da je broj bio znatno manji nego što se dugo govorilo, ali ona je postala simbol cijele tragedije i mjesto hodočašća potomaka." },
-        { ime: "Ulice Goréea", opis: "Na otoku nema automobila. Kuće oker i ružičaste boje s drvenim balkonima pripadale su signarama, bogatim ženama miješanog podrijetla, koje su vodile trgovinu. Popnite se do utvrde Castel, gdje umjetnici žive u starim bunkerima." },
-        { ime: "Muzej crnih civilizacija", opis: "Muzej je otvoren 2018., pola stoljeća nakon što ga je zamislio Senghor. Kružna zgrada nadahnuta je tradicionalnim kućama juga Senegala, a u predvorju je divovski baobab od željeza haićanskoga kipara." },
-        { ime: "Spomenik afričkoj renesansi", opis: "Brončana skupina muškarca, žene i djeteta, koje pokazuje prema oceanu, otkrivena je 2010. o pedesetoj obljetnici neovisnosti. Izradila ju je sjevernokorejska tvrtka, što je izazvalo mnogo rasprava. Do podnožja vodi 198 stuba, a dizalo vozi do vidikovca u muškarčevoj kapi." },
-        { ime: "Otok Ngor", opis: "Do otočića se za pet minuta prelazi pirogom. Ima uske pješčane uličice, mirnu plažu okrenutu prema kopnu i val na vanjskoj strani koji surferi poznaju iz filma snimljenog 1960-ih." },
-        { ime: "Ružičasto jezero", opis: "Jezero Retba, sat vremena od grada, slanije je od mora. Ružičastu boju daje mu alga koja uspijeva u soli, a najjača je u sušnoj sezoni oko podneva. Nakon poplava posljednjih godina boja zna izostati, pa pitajte prije polaska. Radnici stoje u vodi do prsa i vade sol s dna." }
+        { ime: "The House of Slaves on Gorée", opis: "The house, from around 1776, has a lavish apartment upstairs and dark cells on the ground floor. A narrow passage leads to a door facing the ocean, known as the Door of No Return. Historians disagree about how many people passed through this particular house, and many believe the number was considerably smaller than was long claimed, yet it has become a symbol of the whole tragedy and a place of pilgrimage for descendants." },
+        { ime: "The streets of Gorée", opis: "There are no cars on the island. The ocher and pink houses with wooden balconies belonged to the signares, wealthy women of mixed descent who ran the trade. Climb up to the Castel fort, where artists live in the old bunkers." },
+        { ime: "Museum of Black Civilizations", opis: "The museum opened in 2018, half a century after Senghor first envisioned it. The circular building is inspired by the traditional houses of southern Senegal, and in the atrium stands a giant iron baobab by a Haitian sculptor." },
+        { ime: "African Renaissance Monument", opis: "The bronze group of a man, a woman and a child, who points toward the ocean, was unveiled in 2010 on the fiftieth anniversary of independence. It was made by a North Korean company, which caused a great deal of debate. There are 198 steps up to the base, and an elevator runs to a viewing platform in the man's cap." },
+        { ime: "Ngor Island", opis: "The crossing to the little island takes five minutes by pirogue. It has narrow sandy lanes, a calm beach facing the mainland and, on the outer side, a wave that surfers know from a film shot in the 1960s." },
+        { ime: "The Pink Lake", opis: "Lake Retba, an hour from the city, is saltier than the sea. Its pink color comes from an alga that thrives in salt, and it is at its strongest around midday in the dry season. After the floods of recent years the color sometimes fails to appear, so ask before you set out. Workers stand chest-deep in the water and dig salt from the bottom." }
       ],
       jesti: [
-        { ime: "Thieboudienne", opis: "Jede se za ručak, i u pučkim restoranima do dva poslijepodne često ga više nema." },
-        { ime: "Riba s roštilja na rtu Almadies", opis: "Na štandovima uz more birate ribu, ježince i kamenice, koje vam ispeku ili otvore na licu mjesta." },
-        { ime: "Dibi", opis: "U pečenjarnicama u četvrti Medina naručuje se na težinu i jede prstima, s gorušicom i svježim lukom." }
+        { ime: "Thieboudienne", opis: "It is eaten for lunch, and in the ordinary neighborhood restaurants it is often gone by two in the afternoon." },
+        { ime: "Grilled fish at the Almadies point", opis: "At the stalls by the sea you choose your fish, sea urchins and oysters, and they grill or open them for you on the spot." },
+        { ime: "Dibi", opis: "In the grill houses of the Medina district you order it by weight and eat it with your fingers, with mustard and raw onion." }
       ],
       dozivjeti: [
-        { ime: "Trajektom na Gorée", opis: "Idite prvim jutarnjim trajektom, prije gužve, i uzmite službenoga otočkog vodiča, jer bez priče kuće ostaju samo lijepa pročelja." },
-        { ime: "Povratak piroga na Soumbédiouneu", opis: "Kasno poslijepodne ribari izvlače čamce na pijesak, a žene preuzimaju i prodaju ulov. Uz plažu je i tržnica rukotvorina." },
-        { ime: "Večer uz mbalax", opis: "U klubovima glazba uživo počinje nakon ponoći, a ples nalikuje sabaru koji ste vidjeli na ulici." }
+        { ime: "The ferry to Gorée", opis: "Take the first morning ferry, ahead of the crowds, and hire an official island guide, because without the story the houses remain nothing more than pretty facades." },
+        { ime: "The return of the pirogues at Soumbédioune", opis: "Late in the afternoon the fishermen haul their boats up onto the sand, and the women take over the catch and sell it. Beside the beach there is also a craft market." },
+        { ime: "An evening of mbalax", opis: "In the clubs the live music starts after midnight, and the dancing resembles the sabar you saw on the street." }
       ],
       agencije: [
-        { ime: "Destination Sénégal", opis: "Službeni turistički portal Senegala.", link: "https://www.visitezlesenegal.com/" },
-        { ime: "Au Sénégal", opis: "Dugogodišnji neovisni vodič po zemlji, s kalendarom događanja i praktičnim informacijama.", link: "https://www.au-senegal.com/" },
-        { ime: "UNESCO, otok Gorée", opis: "Opis lokaliteta i razlozi zaštite.", link: "https://whc.unesco.org/en/list/26" }
+        { ime: "Destination Sénégal", opis: "Senegal's official tourism portal.", link: "https://www.visitezlesenegal.com/" },
+        { ime: "Au Sénégal", opis: "A long-running independent guide to the country, with an events calendar and practical information.", link: "https://www.au-senegal.com/" },
+        { ime: "UNESCO, Island of Gorée", opis: "A description of the site and the reasons for its protection.", link: "https://whc.unesco.org/en/list/26" }
       ],
-      kada: "Od studenoga do svibnja je suho, a s oceana puše svjež vjetar. Dakar je vrlo prometan, pa po gradu planirajte najviše dvije stvari na dan."
+      kada: "From November to May it is dry, and a fresh wind blows in off the ocean. Dakar has very heavy traffic, so plan on two things a day at most in the city."
     },
     {
       id: "saint-louis",
       ime: "Saint-Louis",
       vrsta: "grad",
-      sazetak: "Kolonijalni grad na otoku u rijeci, s balkonima od kovanog željeza, ribarskim pirogama i jazzom.",
+      sazetak: "A colonial town on an island in the river, with wrought iron balconies, fishing pirogues and jazz.",
       prica: [
-        "Francuzi su 1659. na otoku u ušću rijeke Senegal osnovali prvo trajno francusko naselje u zapadnoj Africi i nazvali ga po kralju Luju. Grad je do 1902. bio glavni grad Francuske Zapadne Afrike, a do 1957. i Senegala.",
-        "Mještani ga na wolofu zovu Ndar. Ovdje je nastalo osobito društvo, u kojem su signare, žene miješanog podrijetla, vodile trgovinu i davale ton životu. Kada se uprava preselila u Dakar, grad je utihnuo, i upravo je zato ostao sačuvan. UNESCO ga je zaštitio 2000."
+        "In 1659, on an island in the mouth of the Senegal River, the French founded the first permanent French settlement in West Africa and named it after King Louis. The town was the capital of French West Africa until 1902, and of Senegal as well until 1957.",
+        "Locals call it Ndar in Wolof. A distinctive society took shape here, in which the signares, women of mixed descent, ran the trade and set the tone of life. When the administration moved to Dakar the town fell quiet, and that is exactly why it has been preserved. UNESCO protected it in 2000."
       ],
       vidjeti: [
-        { ime: "Most Faidherbe", opis: "Željezni most dug oko pola kilometra, sa sedam lukova, spaja otok s kopnom od 1897. Dugo se pričalo da je bio namijenjen Dunavu i da ga je projektirao Eiffel, ali to je legenda. Između 2008. i 2011. lukovi su zamijenjeni vjernim kopijama." },
-        { ime: "Stari grad na otoku", opis: "Pravilna mreža ulica puna je dvokatnica s unutarnjim dvorištima, drvenim kapcima i balkonima koji gotovo dodiruju one s druge strane ulice. Mnoge su oronule, što gradu daje sjetan izgled. Najudobnije ga je obići kočijom, uz kočijaša koji je ujedno i vodič." },
-        { ime: "Guet Ndar", opis: "Na uskoj pješčanoj prevlaci između rijeke i oceana jedna je od najgušće naseljenih ribarskih četvrti u Africi. Uz obalu su stotine oslikanih piroga i sušionice ribe. More posljednjih godina nagriza obalu i odnosi kuće, pa se dio stanovnika seli." },
-        { ime: "Ptičji rezervat Djoudj", opis: "Šezdeset kilometara sjeverno nalazi se močvara na kojoj zimuju milijuni ptica nakon preleta Sahare. UNESCO ju je zaštitio 1981. Od studenoga do travnja čamcem se plovi do otoka na kojem se gnijezde tisuće ružičastih pelikana, koji ribu love zajednički, tjerajući je u plićak." },
-        { ime: "Langue de Barbarie", opis: "Dugi pješčani sprud južno od grada dijeli rijeku od oceana i nacionalni je park. Na njemu se gnijezde čigre i galebovi, a na plaže dolaze morske kornjače." }
+        { ime: "Faidherbe Bridge", opis: "The iron bridge, about half a kilometer long with seven arches, has linked the island with the mainland since 1897. For a long time the story went that it had been intended for the Danube and designed by Eiffel, but that is a legend. Between 2008 and 2011 the arches were replaced with faithful copies." },
+        { ime: "The old town on the island", opis: "The regular grid of streets is full of two-story houses with inner courtyards, wooden shutters and balconies that almost touch the ones across the street. Many are dilapidated, which gives the town a wistful look. The most comfortable way to see it is by horse-drawn carriage, with a driver who doubles as your guide." },
+        { ime: "Guet Ndar", opis: "On the narrow sand spit between the river and the ocean lies one of the most densely populated fishing quarters in Africa. Hundreds of painted pirogues and fish-drying racks line the shore. In recent years the sea has been eating away at the coast and carrying off houses, so some of the residents are moving away." },
+        { ime: "Djoudj Bird Sanctuary", opis: "Sixty kilometers to the north is a wetland where millions of birds spend the winter after crossing the Sahara. UNESCO protected it in 1981. From November to April you travel by boat to an island where thousands of great white pelicans nest, birds that fish together by driving their prey into the shallows." },
+        { ime: "Langue de Barbarie", opis: "The long sandbar south of town separates the river from the ocean and is a national park. Terns and gulls nest on it, and sea turtles come to its beaches." }
       ],
       jesti: [
-        { ime: "Thieboudienne na izvoru", opis: "Saint-Louis se smatra rodnim mjestom nacionalnog jela, i ovdašnje kuharice tvrde da je njihovo jedino pravo." },
-        { ime: "Škampi iz rijeke", opis: "Slatkovodne i morske kozice peku se na žaru s limetom i češnjakom u restoranima na otoku." },
-        { ime: "Bissap i bouye", opis: "Hladni sokovi od hibiskusa i ploda baobaba prodaju se u vrećicama na svakom uglu." }
+        { ime: "Thieboudienne at the source", opis: "Saint-Louis is considered the birthplace of the national dish, and the cooks here maintain that theirs is the only real one." },
+        { ime: "River prawns", opis: "Freshwater and sea shrimp are grilled with lime and garlic in the restaurants on the island." },
+        { ime: "Bissap and bouye", opis: "Cold juices of hibiscus and baobab fruit are sold in little bags on every corner." }
       ],
       dozivjeti: [
-        { ime: "Festival jazza", opis: "Svake godine u svibnju ili lipnju grad ugosti međunarodni festival, koji traje od 1993. Koncerti se održavaju na glavnom trgu i u dvorištima starih kuća.", link: "https://www.saintlouisjazz.org/" },
-        { ime: "Fanal", opis: "Krajem prosinca ulicama prolaze povorke s golemim osvijetljenim lampionima od papira. Običaj potječe od signara, kojima su sluge na ponoćku nosile svjetiljke." },
-        { ime: "Čamcem kroz Djoudj", opis: "Krenite iz grada prije zore, jer su ptice najaktivnije rano ujutro. Ponesite dalekozor.", link: "https://whc.unesco.org/en/list/25" }
+        { ime: "The jazz festival", opis: "Every year in May or June the town hosts an international festival that has been running since 1993. The concerts are held on the main square and in the courtyards of old houses.", link: "https://www.saintlouisjazz.org/" },
+        { ime: "Fanal", opis: "In late December, processions with huge illuminated paper lanterns move through the streets. The custom goes back to the signares, whose servants carried lamps for them on the way to midnight Mass." },
+        { ime: "By boat through Djoudj", opis: "Leave town before dawn, because the birds are most active early in the morning. Bring binoculars.", link: "https://whc.unesco.org/en/list/25" }
       ],
       agencije: [
-        { ime: "Destination Sénégal", opis: "Službeni turistički portal Senegala.", link: "https://www.visitezlesenegal.com/" },
-        { ime: "UNESCO, otok Saint-Louis", opis: "Opis zaštićene povijesne jezgre.", link: "https://whc.unesco.org/en/list/956" }
+        { ime: "Destination Sénégal", opis: "Senegal's official tourism portal.", link: "https://www.visitezlesenegal.com/" },
+        { ime: "UNESCO, Island of Saint-Louis", opis: "A description of the protected historic center.", link: "https://whc.unesco.org/en/list/956" }
       ],
-      kada: "Ptice su u rezervatu od studenoga do travnja. Od Dakra se vozi oko četiri sata, pa ostanite najmanje dvije noći."
+      kada: "The birds are in the sanctuary from November to April. The drive from Dakar takes about four hours, so stay at least two nights."
     },
     {
       id: "sine-saloum",
-      ime: "Delta Sine-Saloum",
+      ime: "Sine-Saloum Delta",
       vrsta: "priroda",
-      sazetak: "Labirint mangrova, slanih rukavaca i otoka od školjaka, u kojem se živi u ritmu plime.",
+      sazetak: "A labyrinth of mangroves, saltwater channels and islands made of shells, where life moves to the rhythm of the tide.",
       prica: [
-        "Rijeke Sine i Saloum ulijevaju se u Atlantik kroz stotine rukavaca, među više od dvjesto otoka. Ovdje žive ribari naroda Serer, koji su dugo odolijevali i islamu i kršćanstvu i sačuvali vlastita vjerovanja.",
-        "Ljudi su tisućama godina skupljali školjke i bacali ljušture na hrpe, koje su s vremenom izrasle u prave brežuljke. Na nekima su podizani grobni humci. UNESCO je deltu zaštitio 2011. zbog tog spoja prirode i ljudskog rada."
+        "The Sine and Saloum rivers flow into the Atlantic through hundreds of channels, among more than two hundred islands. This is the home of the Serer fishermen, a people who long resisted both Islam and Christianity and kept their own beliefs.",
+        "For thousands of years people gathered shellfish and threw the shells onto heaps, which over time grew into real hills. Burial mounds were raised on some of them. UNESCO protected the delta in 2011 for this combination of nature and human labor."
       ],
       vidjeti: [
-        { ime: "Joal-Fadiouth", opis: "Otočić Fadiouth cijeli je sagrađen od ljuštura školjaka, koje škripe pod nogama, a s kopnom ga spaja drveni most. Na susjednom otočiću nalazi se groblje na kojem kršćani i muslimani leže jedni uz druge, pod baobabima i križevima. U Joalu je rođen predsjednik i pjesnik Senghor." },
-        { ime: "Humci od školjaka", opis: "U delti je izbrojeno više od dvjesto umjetnih brežuljaka, od kojih su neki dugi stotine metara. Na dvadesetak njih nalaze se grobni humci s nakitom i oružjem. Na njima rastu baobabi, kojima odgovara vapno iz ljuštura." },
-        { ime: "Mangrove", opis: "Korijenje mangrova za oseke je oblijepljeno kamenicama, koje žene beru iz piroga. Između korijenja love čaplje, vodomari i ibisi. Gledajte i ribu skakavca, koja izlazi na blato i hoda na perajama." },
-        { ime: "Sveti baobab", opis: "Kod sela u delti vodiči pokazuju goleme šuplje baobabe, stare, prema predaji, više od osamsto godina. U deblo se ulazi kroz uski otvor, a unutra visi kolonija šišmiša." },
-        { ime: "Otok ptica", opis: "Na otočićima pred ušćem gnijezde se tisuće čigri, galebova i pelikana. Predvečer se jata vraćaju na počinak i krošnje mangrova pobijele od ptica." }
+        { ime: "Joal-Fadiouth", opis: "The islet of Fadiouth is built entirely of seashells, which crunch underfoot, and a wooden bridge connects it to the mainland. On the neighboring islet is a cemetery where Christians and Muslims lie side by side, beneath baobabs and crosses. The president and poet Senghor was born in Joal." },
+        { ime: "The shell mounds", opis: "More than two hundred artificial hills have been counted in the delta, some of them hundreds of meters long. About twenty of them hold burial mounds containing jewelry and weapons. Baobabs grow on them, since the lime from the shells suits them well." },
+        { ime: "The mangroves", opis: "At low tide the mangrove roots are encrusted with oysters, which women harvest from pirogues. Herons, kingfishers and ibises hunt among the roots. Watch also for the mudskipper, a fish that comes out onto the mud and walks on its fins." },
+        { ime: "The sacred baobab", opis: "Near the villages of the delta, guides point out enormous hollow baobabs that are, according to tradition, more than eight hundred years old. You enter the trunk through a narrow opening, and inside hangs a colony of bats." },
+        { ime: "Bird Island", opis: "Thousands of terns, gulls and pelicans nest on the islets off the river mouth. Toward evening the flocks return to roost, and the mangrove canopy turns white with birds." }
       ],
       jesti: [
-        { ime: "Kamenice iz mangrova", opis: "Male su i mesnate, a jedu se pečene na žaru ili sušene u umaku." },
-        { ime: "Riba thiof", opis: "Bijela kirnja, najcjenjenija riba Senegala, peče se cijela na ugljenu, s umakom od luka i limete." },
-        { ime: "Kuskus od prosa", opis: "Narod Serer jede ga s umakom od lišća baobaba ili kikirikija." }
+        { ime: "Mangrove oysters", opis: "They are small and meaty, and they are eaten grilled or dried in a sauce." },
+        { ime: "Thiof", opis: "White grouper, the most prized fish in Senegal, is grilled whole over charcoal, with an onion and lime sauce." },
+        { ime: "Millet couscous", opis: "The Serer people eat it with a sauce of baobab leaves or peanuts." }
       ],
       dozivjeti: [
-        { ime: "Pirogom kroz rukavce", opis: "Čamac klizi kroz tunele mangrova, a vozač gasi motor da čujete ptice. Najljepše je u zoru ili pred zalazak sunca." },
-        { ime: "Seoska hrvačka večer", opis: "Nakon žetve, od studenoga, sela naroda Serer priređuju hrvanje uz bubnjeve, iz kojeg je izrastao današnji nacionalni sport." },
-        { ime: "Šetnja Fadiouthom s mjesnim vodičem", opis: "Udruga otočkih vodiča vodi preko mosta, kroz selo i do groblja, a prihod ostaje zajednici." }
+        { ime: "By pirogue through the channels", opis: "The boat glides through tunnels of mangroves, and the boatman cuts the engine so you can hear the birds. It is at its most beautiful at dawn or just before sunset." },
+        { ime: "A village wrestling evening", opis: "After the harvest, from November on, Serer villages stage wrestling to the sound of drums, the tradition from which today's national sport grew." },
+        { ime: "A walk through Fadiouth with a local guide", opis: "The association of island guides takes you across the bridge, through the village and to the cemetery, and the income stays with the community." }
       ],
       agencije: [
-        { ime: "Destination Sénégal", opis: "Službeni turistički portal Senegala.", link: "https://www.visitezlesenegal.com/" },
-        { ime: "UNESCO, delta Salouma", opis: "Opis kulturnoga krajolika i humaka od školjaka.", link: "https://whc.unesco.org/en/list/1359" }
+        { ime: "Destination Sénégal", opis: "Senegal's official tourism portal.", link: "https://www.visitezlesenegal.com/" },
+        { ime: "UNESCO, Saloum Delta", opis: "A description of the cultural landscape and the shell mounds.", link: "https://whc.unesco.org/en/list/1359" }
       ],
-      kada: "Od studenoga do svibnja suho je i ptica je najviše. Ponesite sredstvo protiv komaraca, a o zaštiti od malarije posavjetujte se s liječnikom."
+      kada: "From November to May it is dry and the birds are at their most numerous. Bring mosquito repellent, and talk to your doctor about malaria protection."
     }
   ],
   izvori: [
     { ime: "Destination Sénégal", url: "https://www.visitezlesenegal.com/" },
-    { ime: "UNESCO: Otok Gorée", url: "https://whc.unesco.org/en/list/26" },
-    { ime: "UNESCO: Otok Saint-Louis", url: "https://whc.unesco.org/en/list/956" },
-    { ime: "UNESCO: Delta Salouma", url: "https://whc.unesco.org/en/list/1359" },
-    { ime: "UNESCO: Ptičji rezervat Djoudj", url: "https://whc.unesco.org/en/list/25" },
+    { ime: "UNESCO: Island of Gorée", url: "https://whc.unesco.org/en/list/26" },
+    { ime: "UNESCO: Island of Saint-Louis", url: "https://whc.unesco.org/en/list/956" },
+    { ime: "UNESCO: Saloum Delta", url: "https://whc.unesco.org/en/list/1359" },
+    { ime: "UNESCO: Djoudj National Bird Sanctuary", url: "https://whc.unesco.org/en/list/25" },
     { ime: "Au Sénégal", url: "https://www.au-senegal.com/" },
     { ime: "Festival International de Jazz de Saint-Louis", url: "https://www.saintlouisjazz.org/" }
   ]

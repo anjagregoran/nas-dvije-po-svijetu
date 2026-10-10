@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Nas dvije po svijetu</title>
+  <meta name="theme-color" content="#f4ead5">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Courier+Prime:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="airmail"></div>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="back" href="index.html">← Putovnica</a>
+      <a class="title" id="naslov" href="#/"></a>
+    </div>
+  </header>
+
+  <main class="wrap" id="app"></main>
+
+  <div class="tabs">
+    <nav>
+      <a href="#/mjesta" data-tab="mjesta"><span>📍</span>Mjesta</a>
+      <a href="#/hrana" data-tab="hrana"><span>🍝</span>Hrana</a>
+      <a href="#/kultura" data-tab="kultura"><span>💃</span>Kultura</a>
+      <a href="#/ako-zelis" data-tab="ako-zelis"><span>✨</span>Ako želiš</a>
+      <a href="#/jos" data-tab="jos"><span>🧳</span>Još</a>
+    </nav>
+  </div>
+
+  <script>
+    // Učitaj podatke za traženo putovanje, pa tek onda aplikaciju.
+    (function () {
+      var id = (new URLSearchParams(location.search).get('p') || 'apulija').replace(/[^a-z0-9-]/g, '');
+      var s = document.createElement('script');
+      s.src = 'data/' + id + '.js';
+      s.onload = function () {
+        var a = document.createElement('script');
+        a.src = 'js/trip.js';
+        document.body.appendChild(a);
+      };
+      s.onerror = function () {
+        document.getElementById('app').innerHTML = '<p style="padding-top:30px">Ovaj vodič još nije napisan. <a href="index.html">Natrag na putovnicu</a></p>';
+      };
+      document.body.appendChild(s);
+    })();
+  </script>
+</body>
+</html>

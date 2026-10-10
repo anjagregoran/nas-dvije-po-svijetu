@@ -1,0 +1,13 @@
+{
+  "name": "Nas dvije po svijetu",
+  "short_name": "Nas dvije",
+  "description": "Naš putni dnevnik: mjesta, hrana, običaji i priče iza svega što gledamo.",
+  "lang": "hr",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f4ead5",
+  "theme_color": "#f4ead5",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

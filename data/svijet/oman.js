@@ -2,164 +2,164 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["oman"] = {
   id: "oman",
   ime: "Oman",
-  regija: "Bliski istok",
-  sazetak: "Arabija bez nebodera: utvrde od blata, planinska sela s ružama, zeleni kanjoni i obala koja miriše na tamjan.",
+  regija: "Middle East",
+  sazetak: "Arabia without skyscrapers: mud-brick forts, mountain villages with roses, green canyons and a coast that smells of frankincense.",
   uvod: [
-    "Oman je najstarija neovisna država na Arapskom poluotoku i stoljećima je bio pomorska sila. Portugalci su držali Muskat od 1507. do 1650., a nakon što su ih Omanci istjerali, njihovo se carstvo proširilo sve do Zanzibara, kamo je sultan Said 1840. čak preselio prijestolnicu. Zemlja se zatim zatvorila u sebe, a kada je sultan Qaboos 1970. preuzeo vlast, u cijelom je Omanu bilo tek desetak kilometara asfalta.",
-    "Qaboos je u pedeset godina sagradio modernu državu, ali je zabranio nebodere i tražio da se gradi u domaćem stilu, pa Muskat i danas izgleda kao niz bijelih kuća između golih planina i mora. Većina Omanaca pripada ibadijskom islamu, grani poznatoj po umjerenosti i snošljivosti. Putnice ovdje dočekuju mir, sigurnost i domaćini koji kavu i datulje nude bez ikakve žurbe."
+    "Oman is the oldest independent state on the Arabian Peninsula and was a sea power for centuries. The Portuguese held Muscat from 1507 to 1650, and after the Omanis drove them out, their empire spread all the way to Zanzibar, where Sultan Said even moved the capital in 1840. The country then turned in on itself, and when Sultan Qaboos took power in 1970, all of Oman had only about ten kilometers of paved road.",
+    "In fifty years Qaboos built a modern state, but he banned skyscrapers and required building in the local style, so Muscat still looks like a string of white houses between bare mountains and the sea. Most Omanis follow Ibadi Islam, a branch known for its moderation and tolerance. What awaits you here is calm, safety and hosts who offer coffee and dates without the slightest hurry."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od listopada do ožujka. Ljeti je na sjeveru nesnosno vruće, ali upravo tada, od lipnja do rujna, monsun khareef pretvara okolicu Salalaha u zelene brežuljke pod maglom." },
-    { k: "Valuta", v: "Omanski rijal (OMR), jedna od najvrjednijih valuta na svijetu, dijeli se na tisuću baisa. Izvan Muskata korisna je gotovina." },
-    { k: "Kretanje", v: "Unajmljeni auto gotovo je nužan jer su znamenitosti raštrkane, a ceste izvrsne. Za planinu Jebel Akhdar policija na rampi propušta samo vozila s pogonom na četiri kotača." },
-    { k: "Napojnica", v: "Ne očekuje se, ali se u restoranima rado ostavi oko 10 posto, a vodičima i vozačima po vlastitoj procjeni." },
-    { k: "Ponašanje", v: "Odijevajte se tako da su ramena i koljena pokriveni, a u vadijima se kupajte u majici i kratkim hlačama jer su to mjesta na koja dolaze i domaće obitelji." }
+    { k: "When to go", v: "From October to March. Summer in the north is unbearably hot, but that is exactly when, from June to September, the khareef monsoon turns the countryside around Salalah into green hills under mist." },
+    { k: "Currency", v: "The Omani rial (OMR), one of the most valuable currencies in the world, is divided into a thousand baisa. Cash is useful outside Muscat." },
+    { k: "Getting around", v: "A rental car is almost essential because the sights are scattered and the roads are excellent. For the Jebel Akhdar mountain, the police at the checkpoint only let through four-wheel-drive vehicles." },
+    { k: "Tipping", v: "It is not expected, but people gladly leave about 10 percent in restaurants, and guides and drivers are tipped at your own discretion." },
+    { k: "Etiquette", v: "Dress so that your shoulders and knees are covered, and swim in the wadis in a T-shirt and shorts, because these are places where local families come too." }
   ],
   hrana: [
-    { ime: "Shuwa", opis: "Janjetina ili kozletina premazana začinima, umotana u lišće banane ili palme i pečena u jami pod zemljom dan do dva.", prica: "Jelo je blagdana Eid i cijelo selo često dijeli jednu jamu, u koju svaka obitelj spusti svoj označeni zavežljaj. Meso je toliko mekano da se jede prstima, na riži." },
-    { ime: "Omanska halwa", opis: "Gusta, želatinasta slastica od škroba, šećera, pročišćenog maslaca, šafrana, kardamoma i ružine vodice.", prica: "Kuha se satima u velikim bakrenim kotlovima uz neprestano miješanje i nema veze s halvom od sezama. Nudi se svakom gostu uz kavu, a obitelji majstora čuvaju recepte naraštajima." },
-    { ime: "Kahwa", opis: "Svijetla kava s kardamomom, ponekad i s ružinom vodicom ili šafranom, bez šećera.", prica: "Uvijek se pije uz datulje ili halwu, koje daju slatkoću. Šalicu primite desnom rukom, a kada vam je dosta, lagano je zatresite." },
-    { ime: "Mashuai", opis: "Cijela kraljevska skuša pečena na ražnju, poslužena s rižom s limunom.", prica: "Obalno je jelo koje pokazuje koliko Omanci vole ribu. Sušena limeta daje riži kiselkast, gotovo dimljen okus." },
-    { ime: "Mishkak", opis: "Ražnjići od marinirane govedine, piletine ili lignji pečeni na ugljenu.", prica: "Navečer se uz ceste i plaže pale roštilji, a miris se širi cijelim Muskatom. Jedu se s ljutim umakom od tamarinda, izravno sa štapića." },
-    { ime: "Khubz ragag", opis: "Tanak, hrskav kruh koji se dlanom razmazuje po vreloj ploči.", prica: "Za doručak se puni jajem, sirom ili medom, a u mnogim malim čajanama pripremaju ga pred vama. Uz njega ide karak, slatki čaj s mlijekom." },
-    { ime: "Datulje", opis: "Oman uzgaja više od dvjesto sorti, a cijenjena je meka khalas.", prica: "Datuljina palma zove se ovdje drvom života, jer daje hranu, građu, užad i košare. U Nizwi se prodaju u posebnoj dvorani tržnice, gdje se sve smije kušati." }
+    { ime: "Shuwa", opis: "Lamb or goat rubbed with spices, wrapped in banana or palm leaves and roasted in an underground pit for a day or two.", prica: "It is the dish of the Eid holiday, and a whole village often shares one pit, into which each family lowers its own marked bundle. The meat is so tender that it is eaten with the fingers, over rice." },
+    { ime: "Omani halwa", opis: "A thick, gelatinous sweet made of starch, sugar, clarified butter, saffron, cardamom and rose water.", prica: "It is cooked for hours in large copper cauldrons with constant stirring, and it has nothing to do with sesame halva. It is offered to every guest with coffee, and the families of the masters guard their recipes for generations." },
+    { ime: "Kahwa", opis: "A light coffee with cardamom, sometimes also with rose water or saffron, and no sugar.", prica: "It is always drunk with dates or halwa, which provide the sweetness. Take the cup with your right hand, and when you have had enough, give it a gentle shake." },
+    { ime: "Mashuai", opis: "A whole kingfish roasted on a spit, served with lemon rice.", prica: "This coastal dish shows how much Omanis love fish. Dried lime gives the rice a tangy, almost smoky flavor." },
+    { ime: "Mishkak", opis: "Skewers of marinated beef, chicken or squid grilled over charcoal.", prica: "In the evening the grills are lit along roads and beaches, and the smell drifts all over Muscat. They are eaten with a spicy tamarind sauce, straight off the stick." },
+    { ime: "Khubz ragag", opis: "A thin, crisp bread that is spread across a scorching griddle with the palm of the hand.", prica: "For breakfast it is filled with egg, cheese or honey, and in many small tea shops they make it in front of you. It goes with karak, a sweet tea with milk." },
+    { ime: "Dates", opis: "Oman grows more than two hundred varieties, and the soft khalas is especially prized.", prica: "The date palm is called the tree of life here, because it gives food, timber, rope and baskets. In Nizwa they are sold in a dedicated hall of the market, where you are allowed to taste everything." }
   ],
   obicaji: [
-    { ime: "Khanjar", opis: "Savijeni srebrni bodež koji muškarci nose za pojasom u svečanim prilikama nalazi se i na državnom grbu. UNESCO je 2022. upisao umijeće njegove izrade na popis nematerijalne baštine.", gdje: "U radionicama i trgovinama srebra na tržnici u Nizwi i u Mutrahu u Muskatu." },
-    { ime: "Tamjan", opis: "Smola drveta Boswellia sacra iz Dhofara tisućama je godina bila vrijedna kao zlato. Omanci njome mirišu kuće i odjeću, a najsvjetliju, zelenkastu vrstu hojari i žvaču.", gdje: "Tržnica Al Husn u Salalahu i tržnica u Mutrahu, a stabla rastu u prirodnom parku Wadi Dawkah." },
-    { ime: "Dishdasha i kumma", opis: "Muškarci nose dugu košulju bez ovratnika s kićankom koja se namače parfemom, a na glavi vezenu kapu kumma, čiji je kroj stigao iz Zanzibara.", gdje: "Posvuda, a kumme i turbane massar možete kupiti na tržnici u Mutrahu." },
-    { ime: "Gradnja brodova dhow", opis: "Drveni jedrenjaci kojima su Omanci plovili do Indije i Afrike grade se bez nacrta, prema oku i iskustvu majstora.", gdje: "Brodogradilište i pomorski muzej u gradu Suru." },
-    { ime: "Stočna tržnica petkom", opis: "Prodavači vode koze i krave ukrug oko kupaca koji sjede u sredini i dovikuju ponude. Običaj je star stoljećima i dobro pokazuje kako se ovdje trguje.", gdje: "Nizwa, petkom rano ujutro, uz staru tržnicu pod utvrdom." },
-    { ime: "Berba ruža", opis: "Na terasama planine Jebel Akhdar u travnju se beru damaščanske ruže, a latice se destiliraju u glinenim pećima u ružinu vodicu s blagim mirisom dima.", gdje: "Sela Al Ayn i Al Aqr na visoravni Saiq, u travnju." }
+    { ime: "Khanjar", opis: "The curved silver dagger that men wear at the belt on formal occasions also appears on the national emblem. In 2022 UNESCO inscribed the craft of making it on its list of intangible heritage.", gdje: "In the workshops and silver shops of the market in Nizwa and in Mutrah in Muscat." },
+    { ime: "Frankincense", opis: "The resin of the Boswellia sacra tree from Dhofar was worth as much as gold for thousands of years. Omanis use it to scent their homes and clothes, and they even chew the palest, greenish kind, hojari.", gdje: "Al Husn market in Salalah and the market in Mutrah, while the trees grow in the Wadi Dawkah nature park." },
+    { ime: "Dishdasha and kumma", opis: "Men wear a long collarless robe with a tassel that is dipped in perfume, and on their heads an embroidered kumma cap, whose cut arrived from Zanzibar.", gdje: "Everywhere, and you can buy kummas and massar turbans at the market in Mutrah." },
+    { ime: "Dhow building", opis: "The wooden sailing ships in which Omanis sailed to India and Africa are built without plans, by the eye and experience of the master.", gdje: "The shipyard and maritime museum in the town of Sur." },
+    { ime: "Friday livestock market", opis: "Sellers lead goats and cows in a circle around the buyers, who sit in the middle and call out their bids. The custom is centuries old and shows well how trading is done here.", gdje: "Nizwa, early on Friday mornings, beside the old market below the fort." },
+    { ime: "Rose harvest", opis: "On the terraces of the Jebel Akhdar mountain, Damask roses are picked in April, and the petals are distilled in clay ovens into rose water with a faint scent of smoke.", gdje: "The villages of Al Ayn and Al Aqr on the Saiq plateau, in April." }
   ],
   fraze: [
-    { izvorno: "As-salamu alaykum", izgovor: "as-sa-LA-mu a-LEJ-kum", hr: "Mir s vama (pozdrav)" },
-    { izvorno: "Kayf halak?", izgovor: "kejf HA-lak", hr: "Kako ste? (muškarcu; ženi: kayf halik)" },
-    { izvorno: "Bikhair, al-hamdu lillah", izgovor: "bi-HEJR, al-HAM-du li-LA", hr: "Dobro, hvala Bogu" },
-    { izvorno: "Shukran", izgovor: "ŠUK-ran", hr: "Hvala" },
-    { izvorno: "Tfaddal", izgovor: "tfa-DAL", hr: "Izvolite, poslužite se" },
-    { izvorno: "Bikam hadha?", izgovor: "bi-KAM HA-da", hr: "Koliko ovo košta?" },
-    { izvorno: "Inshallah", izgovor: "in-ša-LA", hr: "Ako Bog da (odgovor na svaki plan)" },
-    { izvorno: "Ma'a as-salama", izgovor: "MA-a sa-LA-ma", hr: "Doviđenja" }
+    { izvorno: "As-salamu alaykum", izgovor: "as-sa-LAH-moo a-LAY-koom", hr: "Peace be upon you (greeting)" },
+    { izvorno: "Kayf halak?", izgovor: "kayf HAH-lak", hr: "How are you? (to a man; to a woman: kayf halik)" },
+    { izvorno: "Bikhair, al-hamdu lillah", izgovor: "bi-KHAYR, al-HAM-doo lil-LAH", hr: "Fine, thank God" },
+    { izvorno: "Shukran", izgovor: "SHOOK-ran", hr: "Thank you" },
+    { izvorno: "Tfaddal", izgovor: "tfad-DAL", hr: "Here you go, help yourself" },
+    { izvorno: "Bikam hadha?", izgovor: "bi-KAM HAH-tha", hr: "How much is this?" },
+    { izvorno: "Inshallah", izgovor: "in-shal-LAH", hr: "God willing (the reply to any plan)" },
+    { izvorno: "Ma'a as-salama", izgovor: "MAH-ah sa-LAH-ma", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Predaja kaže da je legendarni Sinbad Moreplovac isplovio iz omanske luke Sohar.",
-    "Muskat je sve do 1970. imao gradska vrata koja su se zaključavala tri sata nakon zalaska sunca.",
-    "Omanski sultani vladali su Zanzibarom do 1861., kada je carstvo podijeljeno među dvojicom braće.",
-    "Sustavi kanala aflaj, kojima se voda dijeli prema sunčanom satu i zvijezdama, upisani su na UNESCO-ov popis 2006.",
-    "Najviši vrh, Jebel Shams, visok je oko tri tisuće metara i zimi se na njemu zna zabijeliti snijeg.",
-    "Na plaži Ras al Jinz zelene želve liježu jaja gotovo svake noći u godini."
+    "Tradition has it that the legendary Sinbad the Sailor set sail from the Omani port of Sohar.",
+    "Right up until 1970, Muscat had city gates that were locked three hours after sunset.",
+    "Omani sultans ruled Zanzibar until 1861, when the empire was divided between two brothers.",
+    "The aflaj canal systems, in which water is shared out according to a sundial and the stars, were added to the UNESCO list in 2006.",
+    "The highest peak, Jebel Shams, is about three thousand meters high, and in winter it sometimes turns white with snow.",
+    "On the beach at Ras al Jinz, green turtles lay their eggs almost every night of the year."
   ],
   mjesta: [
     {
       id: "muskat",
-      ime: "Muskat",
+      ime: "Muscat",
       vrsta: "grad",
-      sazetak: "Niska bijela prijestolnica stisnuta između golih planina i mora, s portugalskim tvrđavama nad lukom.",
-      prica: ["Muskat je stoljećima bio luka na ulazu u Perzijski zaljev, zbog čega su ga Portugalci 1507. osvojili i utvrdili. Nakon što su ih Omanci 1650. istjerali, grad je postao sjedište pomorskog carstva. Sultan Qaboos proširio ga je uz obalu na pedesetak kilometara, ali je propisao bijele i pješčane boje te arapske lukove, pa je grad ostao skladan."],
+      sazetak: "A low white capital squeezed between bare mountains and the sea, with Portuguese forts above the harbor.",
+      prica: ["For centuries Muscat was a port at the entrance to the Persian Gulf, which is why the Portuguese conquered and fortified it in 1507. After the Omanis drove them out in 1650, the city became the seat of a maritime empire. Sultan Qaboos extended it along the coast for some fifty kilometers, but he prescribed white and sand colors and Arabian arches, so the city has kept its harmony."],
       vidjeti: [
-        { ime: "Velika džamija sultana Qaboosa", opis: "Otvorena 2001., prima dvadeset tisuća vjernika i jedina je u zemlji otvorena posjetiteljima koji nisu muslimani. Perzijski sag u glavnoj dvorani tkalo je šesto žena četiri godine u jednom komadu, a iznad njega visi luster visok četrnaest metara." },
-        { ime: "Mutrah: šetnica i tržnica", opis: "Uz polukružnu luku nižu se kuće trgovaca s drvenim balkonima, a iza njih je natkrivena tržnica koju zovu i tržnicom tame jer sunce jedva prodire kroz krov. Potražite prodavače tamjana, koji će vam pokazati razliku između vrsta prema boji." },
-        { ime: "Tvrđave Al Jalali i Al Mirani", opis: "Portugalci su ih osamdesetih godina 16. stoljeća podigli na dvjema stijenama da čuvaju ulaz u luku. Na stijenama u zaljevu vide se imena brodova koja su mornari stoljećima ispisivali bojom, svojevrsna knjiga gostiju." },
-        { ime: "Nacionalni muzej", opis: "Otvoren 2016. nasuprot sultanovoj palači Al Alam, priča povijest od brončanog doba do pomorskog carstva. Zanimljiv je odjel o plovidbi s modelima šivanih brodova, čije su daske povezivane užetom od kokosovih vlakana umjesto čavala." },
-        { ime: "Kraljevska opera", opis: "Sagrađena 2011. od omanskog mramora, prva je operna kuća na Arapskom poluotoku. Dvorana se pomičnim zidovima i stropom pretvara iz opernog kazališta u koncertnu dvoranu, što se objašnjava na dnevnim obilascima." }
+        { ime: "Sultan Qaboos Grand Mosque", opis: "Opened in 2001, it holds twenty thousand worshippers and is the only one in the country open to visitors who are not Muslim. The Persian carpet in the main hall was woven in a single piece by six hundred women over four years, and above it hangs a chandelier fourteen meters tall." },
+        { ime: "Mutrah: the corniche and the souq", opis: "Merchants' houses with wooden balconies line the crescent-shaped harbor, and behind them is a covered market also known as the souq of darkness, because the sun barely gets through the roof. Look for the frankincense sellers, who will show you how to tell the grades apart by color." },
+        { ime: "Al Jalali and Al Mirani forts", opis: "The Portuguese built them in the 1580s on two rocks to guard the entrance to the harbor. On the rocks in the bay you can see the names of ships that sailors painted there over the centuries, a guest book of sorts." },
+        { ime: "National Museum", opis: "Opened in 2016 opposite the sultan's Al Alam Palace, it tells the country's history from the Bronze Age to the maritime empire. The seafaring section is especially interesting, with models of sewn ships whose planks were bound with coconut-fiber rope instead of nails." },
+        { ime: "Royal Opera House", opis: "Built in 2011 of Omani marble, it is the first opera house on the Arabian Peninsula. Movable walls and a movable ceiling turn the hall from an opera theater into a concert hall, which is explained on the daily tours." }
       ],
       jesti: [
-        { ime: "Mishkak uz more", opis: "Navečer se roštilji pale uz plaže u četvrti Qurum i Seeb, gdje ražnjiće jedu cijele obitelji." },
-        { ime: "Riba s tržnice u Mutrahu", opis: "Na ribarnici uz luku ujutro se prodaju tuna i kraljevska skuša, a obližnji restorani peku ih istoga dana." },
-        { ime: "Halwa i kahwa", opis: "U prodavaonicama halwe na tržnici slastica se kuša sa žlice prije kupnje, uz šalicu kave." }
+        { ime: "Mishkak by the sea", opis: "In the evening the grills are lit along the beaches of the Qurum district and in Seeb, where whole families come to eat skewers." },
+        { ime: "Fish from the Mutrah market", opis: "At the fish market by the harbor, tuna and kingfish are sold in the morning, and the nearby restaurants grill them the same day." },
+        { ime: "Halwa and kahwa", opis: "In the halwa shops at the market you taste the sweet from a spoon before buying, along with a cup of coffee." }
       ],
       dozivjeti: [
-        { ime: "Obilazak Kraljevske opere", opis: "Vođeni obilazak pokazuje dvoranu, zbirku glazbala i tehniku pozornice, a večer na predstavi prilika je da se vidi omanska svečana odjeća.", link: "https://www.rohmuscat.org.om/en" },
-        { ime: "Plovidba za dupinima", opis: "Ujutro se iz marina kraj grada isplovljava prema jatima dupina vrtuljaka, koji skaču uz pramac broda." }
+        { ime: "A tour of the Royal Opera House", opis: "The guided tour shows the hall, the collection of musical instruments and the stage machinery, and an evening at a performance is a chance to see Omani formal dress.", link: "https://www.rohmuscat.org.om/en" },
+        { ime: "Dolphin-watching cruise", opis: "In the morning, boats leave the marinas near the city in search of pods of spinner dolphins, which leap alongside the bow." }
       ],
       agencije: [
-        { ime: "Visit Oman", opis: "Službena nacionalna platforma za rezervaciju izleta i smještaja.", link: "https://visitoman.om/home" },
-        { ime: "Experience Oman", opis: "Službena turistička stranica Sultanata Omana.", link: "https://experienceoman.om/" },
-        { ime: "Nacionalni muzej Omana", opis: "Službena stranica muzeja s izložbama i radnim vremenom.", link: "https://www.nm.gov.om/en/home" }
+        { ime: "Visit Oman", opis: "The official national platform for booking tours and accommodation.", link: "https://visitoman.om/home" },
+        { ime: "Experience Oman", opis: "The official tourism website of the Sultanate of Oman.", link: "https://experienceoman.om/" },
+        { ime: "National Museum of Oman", opis: "The museum's official website, with exhibitions and opening hours.", link: "https://www.nm.gov.om/en/home" }
       ],
-      kada: "Od studenoga do ožujka. Džamija prima posjetitelje samo prijepodne i ne petkom, a žene trebaju maramu i odjeću do zapešća i gležnjeva."
+      kada: "From November to March. The mosque admits visitors only in the morning and not on Fridays, and women need a headscarf and clothing that reaches the wrists and ankles."
     },
     {
       id: "nizwa-i-planine",
-      ime: "Nizwa i planine Hadžar",
+      ime: "Nizwa and the Hajar Mountains",
       vrsta: "regija",
-      sazetak: "Stara prijestolnica imama s okruglom utvrdom, a iznad nje sela na rubu kanjona i terase ruža.",
-      prica: ["Nizwa je u 6. i 7. stoljeću bila prijestolnica Omana i ostala je središte ibadijske učenosti, zbog čega je zovu i biserom islama. Leži u podnožju gorja Hadžar, čiji su vrhovi viši od tri tisuće metara, a sela se vodom opskrbljuju kanalima aflaj. Planine su dugo bile zasebna država imama, sve do pedesetih godina 20. stoljeća."],
+      sazetak: "The old capital of the imams with its round fort, and above it villages on the canyon rim and terraces of roses.",
+      prica: ["Nizwa was the capital of Oman in the 6th and 7th centuries and has remained a center of Ibadi learning, which is why it is also called the pearl of Islam. It lies at the foot of the Hajar range, whose peaks rise above three thousand meters, and the villages get their water through aflaj canals. For a long time the mountains were a separate state of the imams, right up until the 1950s."],
       vidjeti: [
-        { ime: "Utvrda u Nizwi", opis: "Golemu okruglu kulu dao je sredinom 17. stoljeća sagraditi imam Sultan bin Saif. Uz zavojito stubište pogledajte otvore iznad svakih vrata, kroz koje se na napadače lilo vrelo ulje ili sirup od datulja, te lažna vrata i jame u podu." },
-        { ime: "Utvrda Bahla", opis: "Najveća utvrda od nepečene opeke u zemlji, s dvanaest kilometara zidina oko oaze, upisana je na UNESCO-ov popis 1987. Bahla je poznata po lončarima i po pričama o čarobnjacima, koje Omanci i danas prepričavaju napola u šali." },
-        { ime: "Dvorac Jabrin", opis: "Imam Bil'arab sagradio ga je oko 1670. kao palaču i školu, pa je udobniji i raskošniji od vojnih utvrda. Stropovi su oslikani cvjetnim uzorcima, a u jednoj sobi kanal s vodom teče kroz zid radi hlađenja." },
-        { ime: "Jebel Shams i Wadi Ghul", opis: "S ruba najvišeg vrha Omana gleda se u kanjon dubok oko tisuću metara. Staza Balkon vodi po polici u stijeni do napuštenog sela, u kojem su ljudi živjeli još prije nekoliko desetljeća." },
-        { ime: "Misfat al Abriyeen", opis: "Selo od kamena i blata prilijepljeno je uz stijenu iznad terasa s palmama, bananama i limetama. Pratite kanal falaj kroz vrtove i vidjet ćete kako se voda pločicama preusmjerava s jedne parcele na drugu." }
+        { ime: "Nizwa Fort", opis: "The enormous round tower was built in the mid-17th century on the orders of Imam Sultan bin Saif. Along the winding staircase, look at the openings above each door, through which boiling oil or date syrup was poured on attackers, as well as the false doors and the pits in the floor." },
+        { ime: "Bahla Fort", opis: "The largest mud-brick fort in the country, with twelve kilometers of walls around the oasis, was added to the UNESCO list in 1987. Bahla is known for its potters and for tales of sorcerers, which Omanis still tell today half in jest." },
+        { ime: "Jabrin Castle", opis: "Imam Bil'arab built it around 1670 as a palace and a school, so it is more comfortable and more lavish than the military forts. The ceilings are painted with floral patterns, and in one room a water channel runs through the wall for cooling." },
+        { ime: "Jebel Shams and Wadi Ghul", opis: "From the rim of Oman's highest peak you look down into a canyon about a thousand meters deep. The Balcony Walk follows a ledge in the rock to an abandoned village where people were still living a few decades ago." },
+        { ime: "Misfat al Abriyeen", opis: "This village of stone and mud clings to the rock above terraces of palms, bananas and limes. Follow the falaj channel through the gardens and you will see how small slabs redirect the water from one plot to the next." }
       ],
       jesti: [
-        { ime: "Datulje i halwa na tržnici u Nizwi", opis: "U dvorani datulja prodavači nude desetke sorti, a u susjednoj se kupuje halwa u glinenim zdjelama." },
-        { ime: "Shuwa", opis: "Restorani domaće kuhinje u Nizwi poslužuju je i izvan blagdana, obično petkom." },
-        { ime: "Planinski med i šipak", opis: "Na Jebel Akhdaru u jesen dozrijevaju šipci koje Omanci smatraju najboljima na svijetu, a prodaju se uz cestu." }
+        { ime: "Dates and halwa at the Nizwa market", opis: "In the date hall the sellers offer dozens of varieties, and in the one next door you buy halwa in clay bowls." },
+        { ime: "Shuwa", opis: "Restaurants serving home-style food in Nizwa offer it outside the holidays too, usually on Fridays." },
+        { ime: "Mountain honey and pomegranates", opis: "On Jebel Akhdar the pomegranates that Omanis consider the best in the world ripen in the fall and are sold by the roadside." }
       ],
       dozivjeti: [
-        { ime: "Stočna tržnica petkom", opis: "Od šest do devet ujutro pod utvrdom se trguje kozama i govedom uz povike i cjenkanje, a posjetitelji su dobrodošli ako ne smetaju." },
-        { ime: "Šetnja selima Jebel Akhdara", opis: "Staza povezuje sela Al Aqr, Al Ayn i Ash Shirayjah po terasama s ružama, marelicama i orasima, s pogledom u dubok kanjon.", link: "https://experienceoman.om/" }
+        { ime: "Friday livestock market", opis: "From six to nine in the morning, goats and cattle are traded below the fort amid shouting and haggling, and visitors are welcome as long as they stay out of the way." },
+        { ime: "A walk through the villages of Jebel Akhdar", opis: "The trail links the villages of Al Aqr, Al Ayn and Ash Shirayjah across terraces of roses, apricots and walnuts, with views into a deep canyon.", link: "https://experienceoman.om/" }
       ],
       agencije: [
-        { ime: "Experience Oman", opis: "Službena turistička stranica s vodičem kroz regiju Ad Dakhiliyah.", link: "https://experienceoman.om/" },
-        { ime: "Husaak Adventures", opis: "Omanski organizator pješačenja, ferata i izleta u planine i pustinju.", link: "https://www.husaak.com/" }
+        { ime: "Experience Oman", opis: "The official tourism website, with a guide to the Ad Dakhiliyah region.", link: "https://experienceoman.om/" },
+        { ime: "Husaak Adventures", opis: "An Omani organizer of hikes, via ferratas and trips into the mountains and the desert.", link: "https://www.husaak.com/" }
       ],
-      kada: "Od listopada do travnja, a zbog ruža u travnju. U planinama je desetak stupnjeva svježije nego na obali, pa ponesite jaknu."
+      kada: "From October to April, and in April for the roses. It is about ten degrees cooler in the mountains than on the coast, so bring a jacket."
     },
     {
       id: "sharqiya-i-sur",
-      ime: "Pustinja Sharqiya, vadiji i Sur",
+      ime: "The Sharqiya Desert, the Wadis and Sur",
       vrsta: "priroda",
-      sazetak: "Narančaste dine, smaragdni bazeni u kanjonima i plaža na kojoj noću izlaze želve.",
-      prica: ["Istočni Oman spaja tri krajolika na dva sata vožnje. Pijesci Sharqiya, nekad zvani Wahiba, protežu se oko dvjesto kilometara i dom su beduinima koji i danas uzgajaju deve. Uz obalu su se u vapnencu usjekli vadiji puni slatke vode, a na kraju ceste leži Sur, luka iz koje su jedrenjaci plovili u Zanzibar i Indiju."],
+      sazetak: "Orange dunes, emerald pools in the canyons and a beach where turtles come ashore at night.",
+      prica: ["Eastern Oman brings together three landscapes within a two-hour drive. The Sharqiya Sands, once called Wahiba, stretch for about two hundred kilometers and are home to Bedouin who still raise camels today. Along the coast, wadis full of fresh water have cut into the limestone, and at the end of the road lies Sur, the port from which sailing ships set out for Zanzibar and India."],
       vidjeti: [
-        { ime: "Pijesci Sharqiya", opis: "Dine visoke i do sto metara teku u dugim usporednim grebenima od sjevera prema jugu, kako ih je posložio vjetar. Boja se mijenja od žute do tamnonarančaste, ovisno o dobu dana i udjelu željeza." },
-        { ime: "Wadi Shab", opis: "Nakon prijelaza čamcem i četrdeset minuta hoda kroz kanjon stiže se do niza bazena. Na kraju posljednjeg kroz usku pukotinu, kroz koju prolazi samo glava, pliva se u špilju sa slapom." },
-        { ime: "Wadi Bani Khalid", opis: "Najpristupačniji vadi ima vodu cijele godine i duboke zelene bazene okružene palmama. Male ribe u plićaku grickaju stopala čim ih uronite." },
-        { ime: "Sur i brodogradilište", opis: "U posljednjem brodogradilištu na obali majstori i dalje grade drvene jedrenjake dhow, ručno i bez nacrta. U pomorskom muzeju izložen je brod Fatah al Khair, posljednji veliki jedrenjak tipa ghanjah, koji su građani otkupili i vratili kući." },
-        { ime: "Vrtača Bimmah", opis: "Vapnenački se strop urušio i otkrio jezero tirkizne vode, mješavinu slatke i morske. Mještani je zovu Kuća demona, jer legenda kaže da ju je stvorila zvijezda padalica." }
+        { ime: "Sharqiya Sands", opis: "Dunes up to a hundred meters high run in long parallel ridges from north to south, just as the wind arranged them. The color shifts from yellow to deep orange, depending on the time of day and the amount of iron." },
+        { ime: "Wadi Shab", opis: "After a boat crossing and a forty-minute walk through the canyon you reach a series of pools. At the end of the last one, you swim through a narrow crack, just wide enough for your head, into a cave with a waterfall." },
+        { ime: "Wadi Bani Khalid", opis: "The most accessible wadi has water all year round and deep green pools ringed by palms. Small fish in the shallows nibble at your feet the moment you dip them in." },
+        { ime: "Sur and the shipyard", opis: "In the last shipyard on the coast, craftsmen still build wooden dhows by hand and without plans. The maritime museum displays the Fatah al Khair, the last great sailing ship of the ghanjah type, which the townspeople bought back and brought home." },
+        { ime: "Bimmah Sinkhole", opis: "The limestone roof collapsed and revealed a lake of turquoise water, a mix of fresh and sea water. Locals call it the House of the Demon, because legend says it was created by a shooting star." }
       ],
       jesti: [
-        { ime: "Beduinska večera u pustinji", opis: "U kampovima se poslužuju janjetina s rižom, kruh pečen u pijesku i slatki čaj uz vatru." },
-        { ime: "Riba u Suru", opis: "Uz lagunu se peče jutarnji ulov, najčešće tuna i orada, s rižom i limetom." }
+        { ime: "Bedouin dinner in the desert", opis: "The camps serve lamb with rice, bread baked in the sand and sweet tea by the fire." },
+        { ime: "Fish in Sur", opis: "The morning catch, most often tuna and sea bream, is grilled beside the lagoon and served with rice and lime." }
       ],
       dozivjeti: [
-        { ime: "Promatranje želva u Ras al Jinzu", opis: "Rezervat vodi male skupine noću i u zoru na plažu gdje zelene želve kopaju gnijezda i liježu jaja, uz stroga pravila o svjetlu i udaljenosti." },
-        { ime: "Noćenje u pustinjskom kampu", opis: "Zalazak sunca s vrha dine, tišina i nebo puno zvijezda razlog su da se u pijescima ostane barem jednu noć.", link: "https://visitoman.om/home" }
+        { ime: "Turtle watching at Ras al Jinz", opis: "The reserve takes small groups at night and at dawn to the beach where green turtles dig their nests and lay their eggs, with strict rules about light and distance." },
+        { ime: "A night in a desert camp", opis: "Sunset from the top of a dune, the silence and a sky full of stars are the reasons to stay at least one night in the sands.", link: "https://visitoman.om/home" }
       ],
       agencije: [
-        { ime: "Visit Oman", opis: "Službena platforma na kojoj se mogu rezervirati kampovi i izleti u pustinju i vadije.", link: "https://visitoman.om/home" },
-        { ime: "Husaak Adventures", opis: "Vođeni izleti u vadije, kanjone i pustinju s lokalnim vodičima.", link: "https://www.husaak.com/" }
+        { ime: "Visit Oman", opis: "The official platform where you can book camps and trips to the desert and the wadis.", link: "https://visitoman.om/home" },
+        { ime: "Husaak Adventures", opis: "Guided trips to the wadis, canyons and desert with local guides.", link: "https://www.husaak.com/" }
       ],
-      kada: "Od listopada do ožujka. Nakon kiše u vadije se ne ulazi zbog bujica, a za Wadi Shab trebaju vam cipele za vodu i vodonepropusna vrećica."
+      kada: "From October to March. Nobody enters the wadis after rain because of flash floods, and for Wadi Shab you need water shoes and a waterproof bag."
     },
     {
       id: "salalah",
-      ime: "Salalah i Dhofar",
+      ime: "Salalah and Dhofar",
       vrsta: "regija",
-      sazetak: "Jug zemlje u kojem ljeti pada monsunska kiša, rastu kokosove palme i stabla tamjana.",
-      prica: ["Dhofar je tisućama godina izvozio tamjan u Egipat, Rim i Indiju, a iz njegovih luka kretale su karavane i brodovi. UNESCO je 2000. zaštitio četiri mjesta pod imenom Zemlja tamjana. Sultan Qaboos rođen je u Salalahu, a pokrajina je posebna i po monsunu khareef, zbog kojeg je od lipnja do rujna zelena i maglovita dok ostatak Arabije gori."],
+      sazetak: "The south of the country, where monsoon rain falls in summer and coconut palms and frankincense trees grow.",
+      prica: ["For thousands of years Dhofar exported frankincense to Egypt, Rome and India, and caravans and ships set out from its ports. In 2000 UNESCO protected four sites under the name Land of Frankincense. Sultan Qaboos was born in Salalah, and the province is also special for the khareef monsoon, which keeps it green and misty from June to September while the rest of Arabia swelters."],
       vidjeti: [
-        { ime: "Al Baleed i Muzej zemlje tamjana", opis: "Uz lagunu leže ruševine srednjovjekovne luke Zafar, koju su opisali Marko Polo i Ibn Battuta. U muzeju su modeli brodova i karta trgovačkih putova kojima je tamjan putovao." },
-        { ime: "Sumhuram (Khor Rori)", opis: "Utvrđena luka iz 3. stoljeća prije Krista stoji nad lagunom u kojoj se danas hrane plamenci i deve. Na vratima je natpis južnoarapskim pismom koji govori o osnutku grada po nalogu kralja Hadramauta." },
-        { ime: "Wadi Dawkah", opis: "U suhoj dolini raste više od tisuću stabala tamjana. Smola se dobiva zarezivanjem kore, iz koje poteku bijele kapi zvane suze, a stablo se nakon nekoliko godina ostavlja da se odmori." },
-        { ime: "Plaža Mughsail", opis: "Kada je more nemirno, valovi se kroz rupe u stijeni pretvaraju u gejzire visoke više metara. Cesta dalje prema Jemenu penje se u serpentinama uz litice na kojima rastu stabla tamjana." },
-        { ime: "Wadi Darbat", opis: "U doba monsuna dolinom teku slapovi i nastaje jezero po kojem se voze čamci, a na pašnjacima pasu deve u magli, što je prizor koji se od Arabije ne očekuje." }
+        { ime: "Al Baleed and the Museum of the Frankincense Land", opis: "Beside the lagoon lie the ruins of the medieval port of Zafar, described by Marco Polo and Ibn Battuta. The museum has ship models and a map of the trade routes along which frankincense traveled." },
+        { ime: "Sumhuram (Khor Rori)", opis: "A fortified port from the 3rd century BC stands above a lagoon where flamingos and camels feed today. On the gate is an inscription in South Arabian script that tells of the founding of the city by order of the king of Hadramaut." },
+        { ime: "Wadi Dawkah", opis: "More than a thousand frankincense trees grow in this dry valley. The resin is harvested by cutting into the bark, from which white drops called tears seep out, and after a few years the tree is left to rest." },
+        { ime: "Mughsail Beach", opis: "When the sea is rough, the waves shoot through holes in the rock as geysers several meters high. The road onward toward Yemen climbs in switchbacks along cliffs where frankincense trees grow." },
+        { ime: "Wadi Darbat", opis: "During the monsoon, waterfalls run through the valley and a lake forms where boats take you out, while camels graze the pastures in the mist, a sight you would never expect from Arabia." }
       ],
       jesti: [
-        { ime: "Kokos i banane uz cestu", opis: "Štandovi s voćem iz vrtova Salalaha nude svježu kokosovu vodu, male slatke banane i papaju." },
-        { ime: "Madhbi", opis: "Meso pečeno na vrelom riječnom kamenju jemenski je i dhofarski specijalitet koji se jede uz cestu u planinama." }
+        { ime: "Coconuts and bananas by the roadside", opis: "Stalls with fruit from the gardens of Salalah offer fresh coconut water, small sweet bananas and papaya." },
+        { ime: "Madhbi", opis: "Meat grilled on scorching river stones is a Yemeni and Dhofari specialty eaten by the roadside in the mountains." }
       ],
       dozivjeti: [
-        { ime: "Tržnica tamjana Al Husn", opis: "Prodavačice vam pokazuju vrste smole, od tamne do svijetlozelene hojari, i slažu vlastite mješavine mirisa za paljenje." },
-        { ime: "Festival khareef", opis: "Tijekom monsuna, u srpnju i kolovozu, Salalah slavi kišu koncertima, plesovima i sajmom zanata, a obitelji iz cijelog Zaljeva dolaze na izlete u zelenilo.", link: "https://experienceoman.om/" }
+        { ime: "Al Husn frankincense market", opis: "The women who sell here show you the grades of resin, from dark to the pale green hojari, and blend their own mixtures of incense for burning." },
+        { ime: "Khareef festival", opis: "During the monsoon, in July and August, Salalah celebrates the rain with concerts, dances and a crafts fair, and families from all over the Gulf come for outings in the greenery.", link: "https://experienceoman.om/" }
       ],
       agencije: [
-        { ime: "Experience Oman", opis: "Službena turistička stranica s vodičem kroz pokrajinu Dhofar.", link: "https://experienceoman.om/" }
+        { ime: "Experience Oman", opis: "The official tourism website, with a guide to the Dhofar province.", link: "https://experienceoman.om/" }
       ],
-      kada: "Zbog zelenila od srpnja do početka rujna, a zbog sunca i mora od listopada do travnja. Salalah je od Muskata udaljen tisuću kilometara, pa je najbolje doći zrakoplovom."
+      kada: "For the greenery, from July to early September, and for sun and sea, from October to April. Salalah is a thousand kilometers from Muscat, so it is best to fly."
     }
   ],
   izvori: [

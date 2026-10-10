@@ -1,279 +1,279 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["sad"] = {
   kupiti: [
-    { ime: "Javorov sirup", opis: "Pravi javorov sirup iz Vermonta i ostatka Nove Engleske nema veze s onim aromatiziranim iz supermarketa, pa ga tražite na farmerskim tržnicama i u seoskim trgovinama, gdje na boci piše samo „pure maple syrup“." },
-    { ime: "Bourbon", opis: "Viski od kukuruza koji odležava u novim, nagorjelim hrastovim bačvama ponos je Kentuckyja, a u dobro opskrbljenim trgovinama pićem pronaći ćete male serije kojih u Europi uopće nema." },
-    { ime: "Tava od lijevanog željeza", opis: "Teška crna tava u kojoj se na američkom Jugu peče kukuruzni kruh i piletina nasljeđuje se generacijama, a kupuje se u običnim trgovinama kućanskih potrepština i željezarijama, gdje je i najpovoljnija." },
-    { ime: "Nakit Navaja, Zunija i Hopija", opis: "Srebro s tirkizom tradicionalni je rad starosjedilačkih naroda Jugozapada, a pravi komad kupit ćete u trgovačkim postajama i galerijama u Arizoni i Novom Meksiku koje navode ime majstora, ili izravno od njega na štandu." },
-    { ime: "Umaci i začini za roštilj", opis: "Svaka regija ima svoj stil, od suhih mješavina začina iz Memphisa do octenih umaka iz Karoline, a najbolje ih je kupiti upravo u pečenjarnicama koje ih same pune u boce." },
-    { ime: "Kaubojske čizme", opis: "Kožne čizme s prošivenim uzorcima u Teksasu i Tennesseeju ljudi stvarno nose, pa ih isprobajte u velikim trgovinama zapadnjačke opreme gdje će vam prodavač strpljivo objasniti kako moraju pristajati." }
+    { ime: "Maple syrup", opis: "Real maple syrup from Vermont and the rest of New England has nothing in common with the flavored kind, so look for it at farmers markets and country stores, where the label says only “pure maple syrup.”" },
+    { ime: "Bourbon", opis: "This corn whiskey aged in new charred oak barrels is the pride of Kentucky, and a well-stocked liquor store will have small batches that never make it to Europe." },
+    { ime: "Cast iron skillet", opis: "The heavy black pan that the South uses for cornbread and fried chicken gets handed down for generations, and you can pick one up at any ordinary hardware or kitchen supply store, which is also where it costs the least." },
+    { ime: "Navajo, Zuni and Hopi jewelry", opis: "Silver set with turquoise is the traditional work of the Native peoples of the Southwest, and the real thing comes from trading posts and galleries in Arizona and New Mexico that name the artist, or straight from the maker at a stand." },
+    { ime: "Barbecue rubs and sauces", opis: "Every region has its own style, from the dry rubs of Memphis to the vinegar sauces of the Carolinas, and the best place to buy them is at the smokehouses that bottle their own." },
+    { ime: "Cowboy boots", opis: "People in Texas and Tennessee really do wear stitched leather boots, so try some on at a big western wear store where the staff will patiently explain how they are supposed to fit." }
   ],
   mjesta: {
     "new-york": {
       dragulji: [
-        { ime: "Arthur Avenue u Bronxu", opis: "Dok je Little Italy na Manhattanu postala kulisa, ovdje talijanske obitelji i dalje drže pekarnice, mesnice i natkrivenu tržnicu, pa se isplati doći gladne i jesti od vrata do vrata." },
-        { ime: "Brooklyn Heights Promenade", opis: "Šetnica iznad rijeke s koje se donji Manhattan i Brooklynski most vide kao na dlanu najljepša je pred zalazak sunca, a do nje se dolazi kroz tihe ulice sa smeđim kamenim kućama." },
-        { ime: "Fort Tryon Park", opis: "Na samom sjeveru Manhattana park se penje na stijene iznad rijeke Hudson, s vrtovima i pogledom na šumovite litice druge obale, pa je teško povjerovati da ste još u istom gradu." }
+        { ime: "Arthur Avenue in the Bronx", opis: "While Little Italy in Manhattan has turned into a stage set, Italian families here still run the bakeries, butcher shops and the covered market, so come hungry and eat your way from door to door." },
+        { ime: "Brooklyn Heights Promenade", opis: "This walkway above the river lays out Lower Manhattan and the Brooklyn Bridge in front of you, and it is at its best just before sunset, after a stroll through the quiet brownstone streets behind it." },
+        { ime: "Fort Tryon Park", opis: "At the far northern tip of Manhattan the park climbs onto the rocks above the Hudson, with gardens and a view of the wooded cliffs across the water, and it is hard to believe you are still in the same city." }
       ],
       domaci: [
-        { ime: "Bagel za doručak", opis: "Njujorčani ujutro stanu u red u kvartovskoj pekarnici bagela i naruče ga s krem sirom, a vikendom i s dimljenim lososom, pa odlučite što želite prije nego što dođete na red jer se ovdje naručuje brzo." },
-        { ime: "Tržnica na Union Squareu", opis: "Ponedjeljkom, srijedom, petkom i subotom farmeri iz okolice dovoze voće, kruh, sireve i jabukovaču, a domaći ovamo dolaze prijepodne s platnenim torbama i usput nešto pojedu na klupi." },
-        { ime: "Kriška pizze s nogu", opis: "Pizza se ovdje kupuje na krišku, presavije po dužini i pojede stojeći za pultom ili u hodu, što je najobičniji njujorški ručak i najbolji način da se odmorite između dviju četvrti." }
+        { ime: "A bagel for breakfast", opis: "New Yorkers line up at the neighborhood bagel shop in the morning and order one with cream cheese, adding lox on weekends, so decide what you want before you reach the counter because ordering here moves fast." },
+        { ime: "Union Square Greenmarket", opis: "On Mondays, Wednesdays, Fridays and Saturdays farmers from the region bring in fruit, bread, cheese and cider, and locals come by in the morning with tote bags and eat something on a bench along the way." },
+        { ime: "A slice on the go", opis: "Pizza is sold by the slice here, folded lengthwise and eaten standing at the counter or walking down the street, which makes it the most ordinary New York lunch and the best break between two neighborhoods." }
       ],
       kupiti: [
-        { ime: "Rabljene knjige", opis: "Grad živi od knjižara s rabljenim knjigama, a najpoznatija je Strand na Broadwayu blizu Union Squarea, gdje se satima može kopati po policama i kolicima ispred izloga." },
-        { ime: "Crno-bijeli kolačić", opis: "Mekani kolač s polovicom čokoladne i polovicom vanilijine glazure klasik je njujorških židovskih pekarnica, a dobro podnosi put ako ga kupite zadnji dan." },
-        { ime: "Vintage odjeća iz Brooklyna", opis: "U Williamsburgu i Greenpointu nižu se trgovine rabljenom odjećom i vikend sajmovi starina, pa ondje domaći traže traperice, jakne i stare ploče." }
+        { ime: "Used books", opis: "The city runs on used bookstores, and the best known is the Strand on Broadway near Union Square, where you can dig through the shelves and the carts out front for hours." },
+        { ime: "Black and white cookie", opis: "This soft, cakey cookie iced half in chocolate and half in vanilla is a classic of New York's Jewish bakeries, and it travels well if you buy it on your last day." },
+        { ime: "Vintage clothing from Brooklyn", opis: "Williamsburg and Greenpoint are lined with secondhand shops and weekend flea markets, and that is where locals hunt for jeans, jackets and old records." }
       ]
     },
     "washington": {
       dragulji: [
-        { ime: "Staza uz kanal C&O u Georgetownu", opis: "Uz stari plovni kanal vodi zemljana staza kojom su nekad mazge vukle teglenice, a danas se njome hoda ispod krošanja, pokraj ustava i ciglenih kuća, daleko od gužve oko spomenika." },
-        { ime: "Vrtovi Dumbarton Oaks", opis: "Terasasti vrtovi na vrhu Georgetowna spuštaju se niz padinu u nizu zelenih „soba“, s fontanama, ružama i klupama u hladu, pa su idealni kada vam treba sat tišine." },
-        { ime: "Theodore Roosevelt Island", opis: "Šumoviti otočić nasred rijeke Potomac do kojeg vodi pješački most ima samo staze kroz močvaru i šumu, a domaći ovamo dolaze trčati i promatrati ptice." }
+        { ime: "C&O Canal towpath in Georgetown", opis: "A dirt path follows the old canal where mules once pulled barges, and today you walk it under the trees, past locks and brick houses, far from the crowds around the monuments." },
+        { ime: "Dumbarton Oaks gardens", opis: "These terraced gardens at the top of Georgetown step down the hillside in a series of green rooms with fountains, roses and shaded benches, which makes them perfect when you need an hour of quiet." },
+        { ime: "Theodore Roosevelt Island", opis: "A footbridge leads to this wooded island in the middle of the Potomac, where there is nothing but trails through marsh and forest, and locals come to run and watch birds." }
       ],
       domaci: [
-        { ime: "Vikend na Eastern Marketu", opis: "Subotom i nedjeljom stanovnici Capitol Hilla dolaze u staru tržnicu po meso, cvijeće i doručak, a oko nje se rašire štandovi farmera i obrtnika, pa dođite prijepodne i pridružite se redu za palačinke." },
-        { ime: "Half-smoke na U Streetu", opis: "Dimljena kobasica u pecivu s umakom od čilija gradski je specijalitet koji se jede za šankom, najčešće kasno navečer nakon koncerta u četvrti koja je nekad bila srce crnačke glazbe." },
-        { ime: "Etiopska večera", opis: "Grad ima jednu od najvećih etiopskih zajednica izvan Afrike, pa domaći redovito odlaze na injeru koja se jede prstima iz zajedničkog pladnja, osobito u četvrtima Shaw i oko U Streeta." }
+        { ime: "A weekend at Eastern Market", opis: "On Saturdays and Sundays Capitol Hill residents come to the old market hall for meat, flowers and breakfast while farmers and craftspeople set up outside, so arrive in the morning and join the line for pancakes." },
+        { ime: "A half-smoke on U Street", opis: "This smoked sausage in a bun with chili sauce is the city's own specialty, eaten at a counter and most often late at night after a show in the neighborhood that was once the heart of Black music." },
+        { ime: "Ethiopian dinner", opis: "The city has one of the largest Ethiopian communities outside Africa, so locals regularly go out for injera eaten by hand from a shared platter, especially in Shaw and around U Street." }
       ],
       kupiti: [
-        { ime: "Začin Old Bay", opis: "Mješavina začina kojom se u zaljevu Chesapeake posipaju plavi rakovi, a zatim i sve ostalo, kupuje se u žutoj limenci u svakom supermarketu i najjeftiniji je pravi okus ovog kraja." },
-        { ime: "Rukotvorine s Eastern Marketa", opis: "Vikendom lokalni umjetnici i obrtnici ispred tržnice prodaju grafike, keramiku i nakit, pa ondje pronađete nešto što je doista nastalo u gradu." },
-        { ime: "Knjige i plakati iz muzejskih trgovina", opis: "Smithsonianovi muzeji imaju ozbiljne trgovine s knjigama, reprodukcijama i zemljovidima, što je ovdje pametniji izbor od štandova sa suvenirima uz Mall." }
+        { ime: "Old Bay seasoning", opis: "The spice blend that the Chesapeake Bay shakes over blue crabs, and then over everything else, comes in a yellow tin at every supermarket and is the cheapest true taste of the region." },
+        { ime: "Crafts from Eastern Market", opis: "On weekends local artists and makers sell prints, pottery and jewelry outside the market, so this is where you find something that was actually made in the city." },
+        { ime: "Books and posters from the museum shops", opis: "The Smithsonian museums have serious shops full of books, reproductions and maps, and they are a smarter choice here than the souvenir stands along the Mall." }
       ]
     },
     "boston": {
       dragulji: [
-        { ime: "Arnold Arboretum", opis: "Golemi sveučilišni park stabala u četvrti Jamaica Plain mijenja se iz tjedna u tjedan, od jorgovana u proljeće do crvenih javora u jesen, a s brda Peters Hill vidi se obris grada." },
-        { ime: "Castle Island", opis: "Na kraju Južnog Bostona kružna šetnica vodi oko stare utvrde i lagune, zrakoplovi slijeću tik iznad glava, a obitelji iz kvarta ovdje jedu prženu ribu i gledaju brodove." },
-        { ime: "Groblje Mount Auburn", opis: "U Cambridgeu se nalazi groblje uređeno kao pejzažni park, s jezercima, starim stablima i tornjem s kojeg se vidi cijeli Boston, pa domaći ovamo dolaze u šetnju i promatranje ptica." }
+        { ime: "Arnold Arboretum", opis: "This huge university tree collection in Jamaica Plain changes from week to week, from lilacs in spring to red maples in fall, and Peters Hill gives you a view of the skyline." },
+        { ime: "Castle Island", opis: "At the end of South Boston a loop path circles an old fort and a lagoon while planes come in low overhead, and neighborhood families eat fried seafood here and watch the ships." },
+        { ime: "Mount Auburn Cemetery", opis: "Over in Cambridge this cemetery was laid out as a landscaped park with ponds, old trees and a tower that looks over all of Boston, and locals come to walk and to watch birds." }
       ],
       domaci: [
-        { ime: "Haymarket petkom i subotom", opis: "Stara tržnica na otvorenom kraj North Enda bučna je i jeftina, prodavači viču cijene, a domaći ovamo dolaze pred kraj dana kada se voće i povrće daje u bescjenje." },
-        { ime: "Šetnja uz rijeku Charles", opis: "Esplanada uz rijeku mjesto je gdje Bostonci trče, veslaju i leže na drvenim pristaništima, a u predvečerje se s nje gledaju jedrilice i svjetla Cambridgea." },
-        { ime: "Kamenice i gusta juha od školjaka", opis: "Nakon posla sjeda se za šank na desetak kamenica iz obližnjih zaljeva i šalicu kremaste juhe od školjaka, a mnogi barovi imaju sat u kojem su kamenice povoljnije, pa pitajte kada." }
+        { ime: "Haymarket on Friday and Saturday", opis: "The old open-air market beside the North End is loud and cheap, with vendors shouting prices, and locals show up toward the end of the day when the produce goes for next to nothing." },
+        { ime: "A walk along the Charles", opis: "The Esplanade along the river is where Bostonians run, row and stretch out on the wooden docks, and in the early evening you can watch the sailboats and the lights of Cambridge from there." },
+        { ime: "Oysters and clam chowder", opis: "After work people sit at the bar for a dozen oysters from nearby bays and a cup of creamy clam chowder, and many bars have an hour when oysters cost less, so ask when it is." }
       ],
       kupiti: [
-        { ime: "Knjige s Harvard Squarea", opis: "Oko sveučilišta se drže velike neovisne knjižare u kojima studenti i profesori provode večeri, pa su knjiga ili platnena torba iz jedne od njih najbostonskiji suvenir." },
-        { ime: "Slastice iz North Enda", opis: "U talijanskoj četvrti oko Hanover Streeta cannoli se pune pred vama i nose kući u kutiji vezanoj koncem, a rasprava o tome koja je slastičarnica najbolja traje desetljećima." },
-        { ime: "Brusnice iz Massachusettsa", opis: "Močvare na jugu države glavni su kraj brusnica, pa na tržnicama i u trgovinama delikatesa potražite sušene brusnice, džemove i umake lokalnih uzgajivača." }
+        { ime: "Books from Harvard Square", opis: "Big independent bookstores still hold on around the university, with students and professors browsing late into the evening, so a book or a tote bag from one of them is the most Boston souvenir there is." },
+        { ime: "Pastries from the North End", opis: "In the Italian neighborhood around Hanover Street the cannoli are filled to order and carried home in a box tied with string, and the argument over which bakery is best has gone on for decades." },
+        { ime: "Massachusetts cranberries", opis: "The bogs in the south of the state are cranberry country, so look at markets and specialty food shops for dried cranberries, preserves and sauces from local growers." }
       ]
     },
     "chicago": {
       dragulji: [
-        { ime: "Staza The 606", opis: "Nekadašnja nadzemna teretna pruga pretvorena je u dugu šetnicu i biciklističku stazu koja prolazi iznad ulica četvrti Wicker Park i Logan Square, pa s nje gledate u dvorišta i svakodnevicu grada." },
-        { ime: "Pilsen", opis: "Meksička četvrt jugozapadno od središta prepuna je murala, osobito uz 16. i 18. ulicu, a između njih su pekarnice sa slatkim pecivima i male zalogajnice s tacosima." },
-        { ime: "Garfield Park Conservatory", opis: "Jedan od najvećih staklenika u zemlji skriva sobu s paprati i jezercem koja izgleda kao prapovijesna šuma, a posebno godi kada vani puše s jezera." }
+        { ime: "The 606", opis: "An old elevated freight line has become a long walking and biking trail above the streets of Wicker Park and Logan Square, so you look down into backyards and the everyday life of the city." },
+        { ime: "Pilsen", opis: "This Mexican neighborhood southwest of downtown is covered in murals, especially along 16th and 18th Streets, with bakeries selling sweet bread and small taquerias in between." },
+        { ime: "Garfield Park Conservatory", opis: "One of the largest conservatories in the country hides a fern room with a pond that looks like a prehistoric forest, and it feels especially good when the wind is blowing off the lake." }
       ],
       domaci: [
-        { ime: "Ljeto na jezeru Michigan", opis: "Čim zatopli, cijeli se grad seli na dugu stazu uz jezero i gradske plaže, gdje se trči, vozi bicikl i igra odbojka s neboderima u pozadini, pa ponesite ručnik i učinite isto." },
-        { ime: "Hot dog bez kečapa", opis: "Čikaški hot dog dolazi s gorušicom, lukom, rajčicom, kiselim krastavcem i ljutim papričicama u pecivu s makom, a kečap se ne traži ako ne želite pogled pun prijekora." },
-        { ime: "Green City Market", opis: "U toploj sezoni farmeri iz Illinoisa, Michigana i Wisconsina prodaju u Lincoln Parku, a domaći ondje kupe doručak i pojedu ga na travi, pa provjerite dane na licu mjesta." }
+        { ime: "Summer on Lake Michigan", opis: "As soon as it warms up the whole city moves to the long lakefront trail and the city beaches to run, bike and play volleyball with skyscrapers in the background, so bring a towel and do the same." },
+        { ime: "A hot dog with no ketchup", opis: "A Chicago dog comes with mustard, onion, tomato, a pickle spear and hot peppers on a poppy seed bun, and you do not ask for ketchup unless you want a look of real disappointment." },
+        { ime: "Green City Market", opis: "In the warm months farmers from Illinois, Michigan and Wisconsin sell in Lincoln Park, and locals buy breakfast there and eat it on the grass, so check the market days once you are in town." }
       ],
       kupiti: [
-        { ime: "Kokice s karamelom i sirom", opis: "Mješavina slatkih karamelnih i slanih kokica s cheddarom gradski je izum koji se prodaje u limenim kutijama u specijaliziranim prodavaonicama kokica u središtu." },
-        { ime: "Giardiniera", opis: "Ljuto ukiseljeno povrće u ulju stavlja se na sendvič s govedinom i na pizzu, a staklenku ćete naći u talijanskim delikatesnim trgovinama i svakom većem supermarketu." },
-        { ime: "Ploče bluesa i jazza", opis: "Grad u kojem je nastao električni blues ima sjajne prodavaonice rabljenih ploča, osobito u četvrtima Wicker Park i Lakeview, gdje prodavači rado preporuče lokalna izdanja." }
+        { ime: "Caramel and cheese popcorn", opis: "The mix of sweet caramel corn and salty cheddar corn is a Chicago invention, sold in tins at the specialty popcorn shops downtown." },
+        { ime: "Giardiniera", opis: "These hot pickled vegetables in oil go on Italian beef sandwiches and on pizza, and you will find a jar at Italian delis and every larger supermarket." },
+        { ime: "Blues and jazz records", opis: "The city where electric blues was born has great used record stores, especially in Wicker Park and Lakeview, where the staff are happy to point you to local pressings." }
       ]
     },
     "new-orleans": {
       dragulji: [
-        { ime: "Frenchmen Street", opis: "Samo nekoliko minuta hoda od Francuske četvrti nalazi se kratka ulica na kojoj domaći slušaju glazbu uživo, a najbolje je šetati od vrata do vrata i ući tamo gdje vas zvuk povuče." },
-        { ime: "Bywater i Crescent Park", opis: "Četvrt šarenih drvenih kućica nizvodno od središta ima park uz Mississippi do kojeg se prelazi preko lučnog željeznog mosta, s pogledom na brodove i obris grada." },
-        { ime: "Bayou St. John", opis: "Mirni rukavac vode okružen starim kućama i hrastovima mjesto je gdje stanovnici veslaju u kajacima i piknikuju na obali, a odavde se lako prošeta do golemih stabala u City Parku." }
+        { ime: "Frenchmen Street", opis: "Just a few minutes on foot from the French Quarter is the short street where locals go for live music, and the best plan is to wander from door to door and step in wherever the sound pulls you." },
+        { ime: "Bywater and Crescent Park", opis: "This neighborhood of colorful wooden cottages downriver from the center has a park along the Mississippi that you reach over an arched steel bridge, with views of the ships and the skyline." },
+        { ime: "Bayou St. John", opis: "A calm stretch of water lined with old houses and oaks is where residents paddle kayaks and picnic on the bank, and from here it is an easy walk to the giant trees of City Park." }
       ],
       domaci: [
-        { ime: "Crveni grah s rižom ponedjeljkom", opis: "Ponedjeljak je nekad bio dan pranja rublja, pa se na štednjaku satima krčkao grah, a običaj je ostao i danas ga ponedjeljkom nude gotovo svi kvartovski restorani." },
-        { ime: "Nedjeljni second line", opis: "Veći dio godine nedjeljom popodne kvartovska društva izlaze na ulicu s limenom glazbom, a svi koji idu za njima plešu i čine „drugu liniju“, pa se slobodno priključite i pratite povorku." },
-        { ime: "Kava s cikorijom i sno-ball", opis: "Jutro počinje tamnom kavom s cikorijom i mlijekom, a ljetna popodneva sitno struganim ledom prelivenim sirupom s kvartovskog štanda, pred kojim se uvijek strpljivo čeka." }
+        { ime: "Red beans and rice on Monday", opis: "Monday used to be laundry day, so a pot of beans simmered on the stove for hours, and the habit stuck so well that almost every neighborhood restaurant still serves them on Mondays." },
+        { ime: "A Sunday second line", opis: "For most of the year neighborhood clubs take to the streets on Sunday afternoons with a brass band, and everyone dancing along behind them forms the second line, so feel free to fall in and follow the parade." },
+        { ime: "Chicory coffee and a sno-ball", opis: "The morning starts with dark chicory coffee and hot milk, and summer afternoons call for finely shaved ice drenched in syrup from a neighborhood stand where there is always a patient line." }
       ],
       kupiti: [
-        { ime: "Kava s cikorijom", opis: "Mljevena kava pomiješana s prženim korijenom cikorije prodaje se u limenkama u svakoj trgovini, a kod kuće je skuhajte jako i pomiješajte s vrućim mlijekom." },
-        { ime: "Praline", opis: "Meki slatkiš od šećera, maslaca i pekan oraha kuha se u bakrenim kotlovima u slastičarnicama Francuske četvrti, gdje ćete ih dobiti još tople i zapakirane za put." },
-        { ime: "Kreolski začini i ljuti umaci", opis: "Mješavine za gumbo i jambalayu te ljuti umaci iz Louisiane najbolje se biraju na tržnici French Market i u običnim supermarketima, gdje kupuju i domaći." }
+        { ime: "Chicory coffee", opis: "Ground coffee blended with roasted chicory root is sold in cans at every grocery store, and at home you brew it strong and mix it with hot milk." },
+        { ime: "Pralines", opis: "This soft candy of sugar, butter and pecans is cooked in copper kettles at the candy shops of the French Quarter, where you can get them still warm and boxed up for the trip." },
+        { ime: "Creole seasoning and hot sauce", opis: "Blends for gumbo and jambalaya and the hot sauces of Louisiana are best picked out at the French Market and in ordinary supermarkets, which is where locals shop too." }
       ]
     },
     "miami-florida-keys": {
       dragulji: [
-        { ime: "Bill Baggs Cape Florida", opis: "Na samom vrhu otoka Key Biscayne nalazi se državni park s dugom mirnom plažom i bijelim svjetionikom, daleko od buke South Beacha, a u njega se ulazi automobilom ili biciklom." },
-        { ime: "Coconut Grove", opis: "Najstarija četvrt Miamija skrivena je pod krošnjama banjana, s marinom, kafićima na otvorenom i paunovima koji šeću ulicama, pa ovdje grad izgleda kao tropsko selo." },
-        { ime: "Bahia Honda", opis: "Državni park na pola puta niz Florida Keys ima plićake boje tirkiza i stari željeznički most na koji se može popeti, a s njega se vidi kako se otoci nižu prema obzoru." }
+        { ime: "Bill Baggs Cape Florida", opis: "At the very tip of Key Biscayne there is a state park with a long, calm beach and a white lighthouse, far from the noise of South Beach, and you can get in by car or by bike." },
+        { ime: "Coconut Grove", opis: "Miami's oldest neighborhood hides under banyan trees, with a marina, sidewalk cafes and peacocks wandering the streets, so the city feels like a tropical village here." },
+        { ime: "Bahia Honda", opis: "This state park halfway down the Florida Keys has turquoise shallows and an old railroad bridge you can walk up onto, where you see the islands lined up toward the horizon." }
       ],
       domaci: [
-        { ime: "Cafecito na prozorčiću", opis: "U Maloj Havani kava se naručuje na prozorčiću lokala, takozvanoj ventaniti, i pije stojeći uz razgovor, a ako uzmete veću porciju s malim čašicama, znači da je dijelite s društvom." },
-        { ime: "Sezona kamenih rakova", opis: "Od jeseni do proljeća domaći jedu kliješta kamenih rakova, hladna i s umakom od gorušice, a kupuju ih u ribarnicama uz rijeku i u marinama, gdje su svježija i povoljnija nego u restoranima." },
-        { ime: "Zalazak sunca na Keysu", opis: "Na otocima se dan završava na pristaništu ili u baru uz vodu, s pićem u ruci i pogledom prema zapadu, a pljesak suncu kada potone sasvim je uobičajen." }
+        { ime: "Cafecito at the window", opis: "In Little Havana you order coffee at a walk-up window called a ventanita and drink it standing and chatting, and if you get the larger one with tiny cups, it means you are sharing it with friends." },
+        { ime: "Stone crab season", opis: "From fall through spring locals eat stone crab claws cold with mustard sauce, and they buy them at fish markets along the river and at the marinas, where they are fresher and cheaper than in restaurants." },
+        { ime: "Sunset in the Keys", opis: "On the islands the day ends on a dock or at a waterside bar with a drink in hand and your face to the west, and clapping for the sun when it goes under is perfectly normal." }
       ],
       kupiti: [
-        { ime: "Guayabera", opis: "Lagana košulja s četiri džepa i sitnim naborima svečana je odjeća kubanskih muškaraca, a šiva se i prodaje u krojačkim radnjama uz Calle Ocho u Maloj Havani." },
-        { ime: "Ručno motane cigare", opis: "U malim radionicama na Calle Ocho majstori motaju cigare pred vama, pa možete gledati cijeli postupak i kupiti nekoliko komada umjesto cijele kutije." },
-        { ime: "Proizvodi od limete Key lime", opis: "Sitna, mirisna limeta s otoka završava u piti, ali i u džemovima, sokovima i keksima, koje prodaju male trgovine duž ceste kroz Keys i u Key Westu." }
+        { ime: "Guayabera", opis: "This light shirt with four pockets and fine pleats is what Cuban men wear to dress up, and it is sewn and sold in the tailor shops along Calle Ocho in Little Havana." },
+        { ime: "Hand-rolled cigars", opis: "In the small workshops on Calle Ocho the rollers work right in front of you, so you can watch the whole process and buy a few cigars instead of a whole box." },
+        { ime: "Key lime everything", opis: "The small, fragrant lime of the islands ends up in pie, of course, and also in jams, juices and cookies sold by little shops along the highway through the Keys and in Key West." }
       ]
     },
     "san-francisco": {
       dragulji: [
-        { ime: "Stube 16th Avenue Tiled Steps", opis: "U mirnoj stambenoj četvrti Sunset susjedi su stube obložili mozaikom koji se od mora penje do zvijezda, a s vrha, s brežuljka Grand View Park, vidi se ocean i cijeli zapad grada." },
-        { ime: "Lands End", opis: "Staza po liticama na sjeverozapadnom rubu grada vodi kroz čemprese do ruševina starog kupališta, a most Golden Gate otvara se iza svakog zavoja iz novog kuta." },
-        { ime: "Balmy Alley", opis: "Uska ulica u četvrti Mission oslikana je od početka do kraja muralima latinoameričkih umjetnika, na garažnim vratima i ogradama, pa je najbolje proći je polako i zatim nastaviti na burrito." }
+        { ime: "16th Avenue Tiled Steps", opis: "In the quiet residential Sunset, neighbors covered a staircase in a mosaic that rises from the sea to the stars, and from Grand View Park at the top you can see the ocean and the whole west side of the city." },
+        { ime: "Lands End", opis: "A cliff trail on the northwest edge of the city runs through cypress trees to the ruins of an old bathhouse, and the Golden Gate Bridge appears from a new angle around every bend." },
+        { ime: "Balmy Alley", opis: "This narrow lane in the Mission is painted end to end with murals by Latino artists, on garage doors and fences, so walk it slowly and then keep going for a burrito." }
       ],
       domaci: [
-        { ime: "Sunčan dan u Dolores Parku", opis: "Čim se magla povuče, pola grada raširi deke na padini parka u Missionu, s pogledom na nebodere, pa ponesite nešto za jelo i sjednite među njih." },
-        { ime: "Subota na Ferry Plazi", opis: "Subotom ujutro farmeri iz cijele sjeverne Kalifornije prodaju oko zgrade trajektne luke, a domaći dolaze rano, doručkuju na štandovima i sjede uz vodu s pogledom na most Bay Bridge." },
-        { ime: "Burrito u Missionu", opis: "Golemi burrito umotan u foliju ovdje je izmišljen i jede se u jednostavnim zalogajnicama uz Mission Street i 24. ulicu, a red pred vratima najbolji je znak gdje stati." }
+        { ime: "A sunny day in Dolores Park", opis: "The minute the fog pulls back, half the city spreads blankets on the slope of this park in the Mission with a view of downtown, so bring something to eat and sit down among them." },
+        { ime: "Saturday at the Ferry Plaza", opis: "On Saturday mornings farmers from all over Northern California sell around the Ferry Building, and locals come early, eat breakfast at the stands and sit by the water looking at the Bay Bridge." },
+        { ime: "A Mission burrito", opis: "The giant foil-wrapped burrito was invented here and is eaten in plain taquerias along Mission Street and 24th Street, where a line out the door is the best sign of where to stop." }
       ],
       kupiti: [
-        { ime: "Kruh od kiselog tijesta", opis: "Kiselkasti kruh hrskave kore peče se u gradu još od zlatne groznice, a dobre štruce prodaju kvartovske pekarnice i tržnica na Ferry Plazi, pa je kupite zadnji dan." },
-        { ime: "Knjige iz City Lightsa", opis: "Knjižara u četvrti North Beach, u kojoj su se okupljali pjesnici beat generacije, i danas izdaje vlastite male knjižice poezije koje stanu u džep kaputa." },
-        { ime: "Zanatska čokolada", opis: "Grad ima dugu čokoladnu tradiciju i nekoliko malih proizvođača koji sami prže zrna kakaa, a njihove ploče naći ćete u Missionu i u zgradi tržnice na Ferry Plazi." }
+        { ime: "Sourdough bread", opis: "Tangy, crusty sourdough has been baked in the city since the Gold Rush, and good loaves come from neighborhood bakeries and the Ferry Plaza market, so buy one on your last day." },
+        { ime: "Books from City Lights", opis: "The North Beach bookstore where the Beat poets gathered still publishes its own small poetry paperbacks, sized to fit in a coat pocket." },
+        { ime: "Craft chocolate", opis: "The city has a long chocolate tradition and several small makers who roast their own cacao beans, and you will find their bars in the Mission and inside the Ferry Building." }
       ]
     },
     "los-angeles": {
       dragulji: [
-        { ime: "Kanali u Veniceu", opis: "Nekoliko ulica od bučne šetnice skrivaju se tihi kanali s lučnim mostićima, čamcima i vrtovima, kroz koje se šeće uskim stazama uz samu vodu." },
-        { ime: "Echo Park Lake", opis: "Jezero s lotosima i palmama u istoimenoj četvrti ima pogled na nebodere središta, čamce u obliku labudova i prodavače voća s čilijem, a okolne ulice pune su kafića i malih trgovina." },
-        { ime: "El Matador State Beach", opis: "Sjeverno od Malibua strme stube spuštaju se s litice do male plaže sa stijenama i lukovima u moru, najljepše u predvečerje i za oseke, kada se može proći između stijena." }
+        { ime: "Venice Canals", opis: "A few blocks from the noisy boardwalk there are quiet canals with arched footbridges, rowboats and gardens, and you can walk the narrow paths right along the water." },
+        { ime: "Echo Park Lake", opis: "This lake full of lotus and palms has a view of the downtown skyline, swan-shaped pedal boats and vendors selling fruit with chile, and the streets around it are full of cafes and small shops." },
+        { ime: "El Matador State Beach", opis: "North of Malibu a steep staircase drops from the bluff to a small beach with sea stacks and arches, and it is loveliest toward evening at low tide, when you can walk between the rocks." }
       ],
       domaci: [
-        { ime: "Jutarnje pješačenje", opis: "Stanovnici grada dan počinju usponom po stazama Griffith Parka ili obližnjih kanjona, prije vrućine i prometa, pa krenite rano s bocom vode i dobit ćete pogled na cijelu kotlinu." },
-        { ime: "Tacosi s kamioneta", opis: "Navečer se na uglovima i parkiralištima pojavljuju kamioneti i štandovi s tacosima, oko kojih se jede stojeći, a naručuje se po dva ili tri komada i začini sam, umacima s pulta." },
-        { ime: "Farmerska tržnica u Santa Monici", opis: "Srijedom i subotom prijepodne ovdje kupuju i kuhari najboljih restorana, a domaći dolaze po breskve, avokado i datulje, pa je to najbolji uvid u ono što raste u Kaliforniji." }
+        { ime: "A morning hike", opis: "People here start the day by climbing the trails of Griffith Park or the nearby canyons before the heat and the traffic, so set out early with a bottle of water and you get a view of the whole basin." },
+        { ime: "Tacos from a truck", opis: "In the evening trucks and stands show up on corners and in parking lots, and everyone eats standing around them, ordering two or three tacos at a time and dressing them with the salsas on the counter." },
+        { ime: "Santa Monica Farmers Market", opis: "On Wednesday and Saturday mornings the chefs of the city's best restaurants shop here too, and locals come for peaches, avocados and dates, which makes it the best look at what California grows." }
       ],
       kupiti: [
-        { ime: "Vintage odjeća", opis: "Grad filma ima golemu ponudu rabljene odjeće, u trgovinama duž Melrose Avenuea i na velikom buvljaku kod stadiona Rose Bowl u Pasadeni, koji se održava druge nedjelje u mjesecu." },
-        { ime: "Meksičke rukotvorine s Olvera Streeta", opis: "U najstarijoj ulici grada štandovi prodaju kožne sandale, keramiku i vezene bluze, što podsjeća da je Los Angeles nastao kao meksičko naselje." },
-        { ime: "Ploče", opis: "Glazbena industrija ostavila je gradu odlične prodavaonice ploča, među kojima je najveća Amoeba u Hollywoodu, gdje se lako izgubi cijelo popodne." }
+        { ime: "Vintage clothing", opis: "The movie capital has an enormous supply of secondhand clothes, in the shops along Melrose Avenue and at the big flea market at the Rose Bowl in Pasadena, held on the second Sunday of the month." },
+        { ime: "Mexican crafts from Olvera Street", opis: "On the oldest street in the city, stalls sell leather sandals, pottery and embroidered blouses, a reminder that Los Angeles began as a Mexican pueblo." },
+        { ime: "Records", opis: "The music industry left the city with excellent record stores, the biggest being Amoeba in Hollywood, where a whole afternoon disappears easily." }
       ]
     },
     "las-vegas": {
       dragulji: [
-        { ime: "Arts District", opis: "Između Stripa i starog središta, oko Main Streeta, nekadašnja skladišta pretvorena su u galerije, antikvarijate, pržionice kave i pivovare, a zidovi su prekriveni muralima." },
-        { ime: "Red Rock Canyon", opis: "Pola sata vožnje zapadno od kockarnica počinje pustinja crvenih i krem stijena s kružnom panoramskom cestom i kratkim stazama, najljepša u rano jutro." },
-        { ime: "Valley of Fire", opis: "Državni park sjeveroistočno od grada pun je valovitih narančastih stijena i drevnih crteža uklesanih u kamen, a ljeti u njega idite samo u zoru jer vrućina ne oprašta." }
+        { ime: "Arts District", opis: "Between the Strip and the old downtown, around Main Street, former warehouses have turned into galleries, antique shops, coffee roasters and breweries, and the walls are covered in murals." },
+        { ime: "Red Rock Canyon", opis: "Half an hour west of the casinos the desert turns to red and cream-colored rock, with a scenic loop drive and short trails that are at their best early in the morning." },
+        { ime: "Valley of Fire", opis: "This state park northeast of the city is full of wavy orange sandstone and ancient rock carvings, and in summer you should only go at dawn because the heat is unforgiving." }
       ],
       domaci: [
-        { ime: "Večera na Spring Mountain Roadu", opis: "Stanovnici grada rijetko jedu na Stripu i radije odlaze u kinesku četvrt zapadno od njega, gdje se u nizu trgovačkih centara kriju odlične azijske kuhinje otvorene do kasno." },
-        { ime: "First Friday", opis: "Prvog petka u mjesecu Arts District se pretvara u veliku uličnu večer s umjetnicima, glazbom i kamionima s hranom, na koju dolaze obitelji iz cijelog grada." },
-        { ime: "Bijeg na jezero Mead", opis: "Kada vrućina postane nesnosna, domaći se odvezu na jezero iza brane Hoover, gdje plivaju, veslaju i roštiljaju na obali." }
+        { ime: "Dinner on Spring Mountain Road", opis: "People who live here rarely eat on the Strip and head instead to Chinatown just west of it, where a string of strip malls hides excellent Asian kitchens that stay open late." },
+        { ime: "First Friday", opis: "On the first Friday of the month the Arts District becomes one big street party with artists, music and food trucks, and families come in from all over town." },
+        { ime: "An escape to Lake Mead", opis: "When the heat gets unbearable, locals drive out to the lake behind Hoover Dam to swim, paddle and grill on the shore." }
       ],
       kupiti: [
-        { ime: "Karte iz kockarnica", opis: "Špilovi koji su se stvarno koristili za stolovima povlače se iz igre, obilježe i prodaju u trgovinama kockarnica i suvenirnicama, pa su zabavan i lagan poklon." },
-        { ime: "Starine iz Arts Districta", opis: "U antikvarijatima oko Main Streeta prodaju se stari neonski natpisi, žetoni, razglednice i namještaj iz zlatnog doba grada, što je mnogo zanimljivije od ponude na Stripu." }
+        { ime: "Casino playing cards", opis: "Decks that were really used at the tables get retired, marked and sold in casino gift shops, and they make a fun, light present." },
+        { ime: "Antiques from the Arts District", opis: "The antique shops around Main Street sell old neon signs, chips, postcards and furniture from the city's golden age, which is far more interesting than anything on the Strip." }
       ]
     },
     "grand-canyon": {
       dragulji: [
-        { ime: "Shoshone Point", opis: "Do ovog vidikovca vodi neoznačena, ravna šumska staza s malog parkirališta uz cestu Desert View Drive, pa na kraju često stojite sasvim same na stijeni iznad kanjona." },
-        { ime: "Lipan Point", opis: "S ovog se vidikovca na istočnom dijelu južnog ruba vidi dugačak zavoj rijeke Colorado i slojevi stijena u svim bojama, a gužve su mnogo manje nego kod glavnog naselja." },
-        { ime: "Hermits Rest", opis: "Na zapadnom kraju ceste uz rub kanjona stoji kamena kućica s golemim kaminom, a put do nje, pješice ili parkovnim autobusom, prolazi nizom vidikovaca na kojima je sve mirnije." }
+        { ime: "Shoshone Point", opis: "An unmarked, level forest path leads to this viewpoint from a small parking area on Desert View Drive, so at the end you often stand all alone on a rock above the canyon." },
+        { ime: "Lipan Point", opis: "From this overlook on the eastern part of the South Rim you see a long bend of the Colorado River and rock layers in every color, with far fewer people than near the main village." },
+        { ime: "Hermits Rest", opis: "At the western end of the rim road stands a stone cabin with a huge fireplace, and the way there, on foot or by park shuttle, passes one overlook after another, each quieter than the last." }
       ],
       domaci: [
-        { ime: "Izlazak sunca na rubu", opis: "Rendžeri i oni koji ovdje rade znaju da je kanjon najljepši u prvom svjetlu, kada se boje mijenjaju iz minute u minutu, pa ustanite prije zore i ponesite toplu jaknu." },
-        { ime: "Kratki silazak u ranu zoru", opis: "Stazom South Kaibab do vidikovca Ooh Aah Point spustite se rano ujutro, dok je još svježe, i ponesite dovoljno vode jer je povratak uzbrdo dvostruko teži od silaska." },
-        { ime: "Navajo taco u Cameronu", opis: "Na istočnom izlazu iz parka, na zemlji naroda Navajo, jede se prženi kruh prekriven grahom, mesom i salatom, golema porcija koju je najbolje podijeliti." }
+        { ime: "Sunrise on the rim", opis: "The rangers and the people who work here know the canyon is most beautiful in the first light, when the colors shift by the minute, so get up before dawn and bring a warm jacket." },
+        { ime: "A short hike down at dawn", opis: "Take the South Kaibab Trail down to Ooh Aah Point early, while it is still cool, and carry plenty of water because the climb back up is twice as hard as the way down." },
+        { ime: "A Navajo taco in Cameron", opis: "Just past the east entrance, on Navajo Nation land, you eat fry bread piled with beans, meat and lettuce, a huge plate that is best shared." }
       ],
       kupiti: [
-        { ime: "Keramika i nakit naroda Hopi i Navajo", opis: "Stara zgrada Hopi House na južnom rubu i trgovačka postaja u Cameronu prodaju radove s imenom autora, pa znate da kupujete izvorni rad." },
-        { ime: "Tkani sagovi Navaja", opis: "Vuneni sagovi s geometrijskim uzorcima tkaju se ručno tjednima, a pravi se prodaju u trgovačkim postajama na rezervatu, gdje će vam reći iz kojeg kraja dolazi uzorak." }
+        { ime: "Hopi and Navajo pottery and jewelry", opis: "The historic Hopi House on the South Rim and the trading post in Cameron sell work with the artist's name attached, so you know you are buying the real thing." },
+        { ime: "Navajo rugs", opis: "Wool rugs with geometric patterns take weeks to weave by hand, and the genuine ones are sold at trading posts on the reservation, where they can tell you which area the pattern comes from." }
       ]
     },
     "yellowstone": {
       dragulji: [
-        { ime: "Dolina Lamar u zoru", opis: "Široka dolina na sjeveroistoku parka najbolje je mjesto za promatranje bizona, vukova i medvjeda, osobito u prvom i zadnjem svjetlu dana, kada se životinje spuštaju prema rijeci." },
-        { ime: "Vidikovac iznad izvora Grand Prismatic", opis: "Kratak uspon s parkirališta staze Fairy Falls dovodi vas iznad velikog izvora, odakle se njegove dugine boje napokon vide u cjelini, što s drvene šetnice uz sam rub nije moguće." },
-        { ime: "West Thumb", opis: "Na obali jezera Yellowstone vrući izvori i gejziri izbijaju uz samu vodu, pa i u njoj, a šetnica je mirnija i tiša od onih oko gejzira Old Faithful." }
+        { ime: "Lamar Valley at dawn", opis: "This wide valley in the northeast of the park is the best place to watch bison, wolves and bears, especially in the first and last light of the day, when the animals come down toward the river." },
+        { ime: "Grand Prismatic Overlook", opis: "A short climb from the Fairy Falls trailhead puts you above the great spring, where you finally see its rainbow colors as a whole, which is impossible from the boardwalk at its edge." },
+        { ime: "West Thumb", opis: "On the shore of Yellowstone Lake hot springs and geysers bubble up right beside the water, and even in it, and the boardwalk is calmer and quieter than the ones around Old Faithful." }
       ],
       domaci: [
-        { ime: "Zora s dalekozorom", opis: "Zaljubljenici u vukove svako jutro stoje uz cestu u dolini Lamar s teleskopima na stalcima i rado puste i vas da pogledate, pa stanite ondje gdje vidite okupljenu skupinu." },
-        { ime: "Sve od bobica huckleberry", opis: "Divlja planinska borovnica ovdje ide u sladoled, pite, palačinke i mliječne napitke, a domaći je beru u kasno ljeto, pa je probajte gdje god je vidite na ploči." },
-        { ime: "Večer u predvorju Old Faithful Inna", opis: "Nakon zalaska sunca posjetitelji i zaposlenici parka sjede na balkonima golemog drvenog predvorja uz kamin, s pićem i knjigom, a ulaz je slobodan i onima koji ondje ne spavaju." }
+        { ime: "Dawn with a spotting scope", opis: "Wolf watchers stand along the road in Lamar Valley every morning with scopes on tripods and gladly let you take a look, so pull over wherever you see a group gathered." },
+        { ime: "Huckleberry everything", opis: "This wild mountain berry goes into ice cream, pie, pancakes and milkshakes here, and locals pick it in late summer, so try it wherever you see it on the menu board." },
+        { ime: "An evening in the Old Faithful Inn lobby", opis: "After sunset visitors and park staff settle onto the balconies of the towering log lobby by the fireplace with a drink and a book, and you are welcome even if you are not staying there." }
       ],
       kupiti: [
-        { ime: "Džem od bobica huckleberry", opis: "Staklenke džema, sirupa i čokolade s ovim bobicama prodaju se u trgovinama u parku i u gradićima na ulazima, a pravi su proizvodi malih proizvođača iz Montane i Wyominga." },
-        { ime: "Sušeno meso bizona", opis: "Sušeni mesni trakovi od bizona stara su hrana ovih ravnica, a kupuju se u mesnicama i trgovinama u mjestima West Yellowstone i Gardiner." }
+        { ime: "Huckleberry jam", opis: "Jars of huckleberry jam, syrup and chocolate are sold in the park stores and in the gateway towns, and the good ones come from small makers in Montana and Wyoming." },
+        { ime: "Bison jerky", opis: "Dried strips of bison are the old food of these plains, and you can buy them at butcher shops and stores in West Yellowstone and Gardiner." }
       ]
     },
     "yosemite": {
       dragulji: [
-        { ime: "Hetch Hetchy", opis: "Sjeverozapadni kut parka ima dolinu sličnu glavnoj, sa stijenama i slapovima iznad akumulacijskog jezera, ali gotovo bez ljudi, a staza preko brane vodi do podnožja slapa Wapama." },
-        { ime: "Tuolumne Meadows", opis: "Visoko uz cestu Tioga Road, otvorenu samo u toplom dijelu godine, prostiru se alpske livade s rijekom i granitnim kupolama, gdje je ljeti svježe i mirno." },
-        { ime: "Sentinel Dome", opis: "Kratka i lagana staza s ceste Glacier Point Road vodi na golu granitnu kupolu s pogledom na sve strane, na Half Dome, El Capitan i slapove, osobito lijepim pred zalazak." }
+        { ime: "Hetch Hetchy", opis: "The northwest corner of the park has a valley much like the famous one, with cliffs and waterfalls above a reservoir and almost no people, and the trail across the dam leads to the base of Wapama Falls." },
+        { ime: "Tuolumne Meadows", opis: "High up along Tioga Road, which is open only in the warm part of the year, alpine meadows spread out around a river and granite domes, and summer there is cool and peaceful." },
+        { ime: "Sentinel Dome", opis: "A short, easy trail from Glacier Point Road leads onto a bare granite dome with views in every direction, of Half Dome, El Capitan and the waterfalls, and it is especially beautiful before sunset." }
       ],
       domaci: [
-        { ime: "Kupanje u rijeci Merced", opis: "U kasno ljeto, kada voda oslabi i ugrije se, na pješčanim plažicama u dolini ljudi se kupaju i plutaju rijekom ispod granitnih zidova." },
-        { ime: "Dolina na biciklu", opis: "Oni koji ovdje rade kreću se biciklom po ravnim stazama u dolini jer je to najbrži način da se izbjegnu kolone, a bicikle možete unajmiti u naselju." },
-        { ime: "Promatranje penjača", opis: "S livade ispod El Capitana ljudi u sumrak dalekozorima traže sićušne točke na stijeni i svjetiljke penjača koji noće u zidu, pa ponesite deku i ostanite do mraka." }
+        { ime: "A swim in the Merced River", opis: "In late summer, when the water slows down and warms up, people swim and float the river from the sandy beaches in the valley beneath the granite walls." },
+        { ime: "The valley by bike", opis: "The people who work here get around on the flat bike paths of the valley because it is the fastest way to skip the traffic, and you can rent a bike in the village." },
+        { ime: "Watching the climbers", opis: "At dusk people sit in the meadow below El Capitan with binoculars, looking for tiny dots on the wall and the headlamps of climbers spending the night up there, so bring a blanket and stay until dark." }
       ],
       kupiti: [
-        { ime: "Fotografije iz galerije Ansela Adamsa", opis: "U naselju u dolini i danas radi galerija obitelji fotografa koji je proslavio ove stijene, a prodaje otiske, plakate i knjige raznih veličina." },
-        { ime: "Voće i orašasti plodovi iz Središnje doline", opis: "Na putu prema parku cesta prolazi kroz voćnjake, pa na štandovima uz cestu kupite bademe, pistacije, suho voće i med izravno od uzgajivača." }
+        { ime: "Photographs from the Ansel Adams Gallery", opis: "The gallery run by the family of the photographer who made these cliffs famous is still open in the valley village and sells prints, posters and books in all sizes." },
+        { ime: "Fruit and nuts from the Central Valley", opis: "The drive to the park runs through orchards, so stop at the roadside stands for almonds, pistachios, dried fruit and honey straight from the growers." }
       ]
     },
     "utah-parkovi": {
       dragulji: [
-        { ime: "Voćnjaci u Fruiti", opis: "U srcu parka Capitol Reef mormonski doseljenici zasadili su voćnjake koji i danas rode, pa u sezoni možete sami brati trešnje, marelice ili jabuke ispod crvenih litica." },
-        { ime: "Scenic Byway 12", opis: "Cesta između parkova Bryce Canyon i Capitol Reef jedna je od najljepših u zemlji, a kod mjesta Boulder vozi po uskom hrptu s provalijama s obje strane." },
-        { ime: "Goblin Valley", opis: "Mali državni park pun je tisuća kamenih gljiva i patuljaka među kojima se slobodno hoda bez staza, što je doživljaj sasvim drugačiji od velikih parkova." }
+        { ime: "The Fruita orchards", opis: "In the heart of Capitol Reef, Mormon settlers planted orchards that still bear fruit, so in season you can pick your own cherries, apricots or apples beneath the red cliffs." },
+        { ime: "Scenic Byway 12", opis: "The road between Bryce Canyon and Capitol Reef is one of the most beautiful in the country, and near the town of Boulder it runs along a narrow ridge with a drop on both sides." },
+        { ime: "Goblin Valley", opis: "This small state park is filled with thousands of stone mushrooms and gnomes that you can wander among freely with no trails at all, a completely different experience from the big parks." }
       ],
       domaci: [
-        { ime: "Rano ustajanje i podnevni odmor", opis: "Ljudi iz ovih krajeva pješače u zoru i pred večer, a sredinu dana provode u hladu ili u vožnji, pa preuzmite taj ritam jer je ljetno podne u pustinji opasno." },
-        { ime: "Zvjezdano nebo", opis: "Ovi su parkovi među najtamnijim mjestima u zemlji, pa se nakon večere ljudi vraćaju na vidikovce s dekama i gledaju Mliječnu stazu, a rendžeri često vode noćne programe." },
-        { ime: "Fry sauce", opis: "Ružičasti umak od majoneze i kečapa lokalni je ponos i dolazi uz krumpiriće u svakoj zalogajnici u Utahu, pa ga zatražite uz hamburger i gusti mliječni napitak." }
+        { ime: "Up early, rest at noon", opis: "People from this country hike at dawn and toward evening and spend the middle of the day in the shade or on the road, so take up their rhythm because a summer noon in the desert is dangerous." },
+        { ime: "The night sky", opis: "These parks are among the darkest places in the country, so after dinner people go back to the overlooks with blankets to see the Milky Way, and rangers often lead night programs." },
+        { ime: "Fry sauce", opis: "This pink sauce of mayonnaise and ketchup is a local point of pride and comes with fries at every diner in Utah, so ask for it with your burger and a thick milkshake." }
       ],
       kupiti: [
-        { ime: "Pite i džemovi iz Fruite", opis: "U staroj seljačkoj kući u parku Capitol Reef u sezoni se prodaju male voćne pite i džemovi, a pite nestanu do podneva, pa dođite rano." },
-        { ime: "Nakit i keramika naroda Navajo", opis: "Na štandovima uz cestu prema Monument Valleyju i u trgovačkim postajama na jugu Utaha obrtnici prodaju vlastite radove, pa kupujete izravno od onoga tko ih je izradio." }
+        { ime: "Pies and jams from Fruita", opis: "In season the old farmhouse in Capitol Reef sells small fruit pies and jams, and the pies are gone by noon, so get there early." },
+        { ime: "Navajo jewelry and pottery", opis: "At roadside stands on the way to Monument Valley and at trading posts in southern Utah, craftspeople sell their own work, so you buy directly from the person who made it." }
       ]
     },
     "havaji": {
       dragulji: [
-        { ime: "Dolina Pololū", opis: "Na sjevernom kraju Velikog otoka cesta završava vidikovcem iznad zelene doline, a strma staza spušta se do plaže crnog pijeska i oblutaka uokvirene liticama." },
-        { ime: "Makawao i gornji dio Mauija", opis: "Na padinama vulkana Haleakalā nalazi se kaubojski gradić s drvenim pročeljima, galerijama i pekarnicom, a okolo su farme, pašnjaci i svjež zrak, daleko od hotela na obali." },
-        { ime: "Plaža Waimānalo", opis: "Na istočnoj, privjetrinskoj obali Oahua proteže se duga bijela plaža ispod zelenih planina, na koju vikendom dolaze domaće obitelji, a turista je vrlo malo." }
+        { ime: "Pololū Valley", opis: "At the northern tip of the Big Island the road ends at a lookout over a green valley, and a steep trail drops down to a beach of black sand and boulders framed by cliffs." },
+        { ime: "Makawao and Upcountry Maui", opis: "On the slopes of Haleakalā sits a cowboy town with wooden storefronts, galleries and a bakery, surrounded by farms, pastures and cool air, far from the hotels on the coast." },
+        { ime: "Waimānalo Beach", opis: "On the windward east shore of Oahu a long white beach stretches beneath green mountains, and on weekends it fills with local families and very few tourists." }
       ],
       domaci: [
-        { ime: "Poke iz trgovine", opis: "Kockice sirove tune začinjene sojinim umakom, sezamom i algama domaći kupuju na vagu na pultu ribarnice ili supermarketa i nose na plažu, što je bolje i povoljnije nego u restoranu." },
-        { ime: "Plate lunch", opis: "Radnički ručak na otocima čine dvije kugle riže, salata od makarona i meso ili riba, a naručuje se na šalteru male zalogajnice i jede za stolom na otvorenom." },
-        { ime: "Pau hana", opis: "Izraz znači kraj posla, a označava piće i zalogaje u kasno popodne, najčešće uz more i uz živu glazbu na ukuleleu, pa se pridružite prije zalaska sunca." }
+        { ime: "Poke from the store", opis: "Locals buy cubes of raw tuna seasoned with soy sauce, sesame and seaweed by the pound at the fish counter of a market or supermarket and take it to the beach, which beats a restaurant on both taste and price." },
+        { ime: "Plate lunch", opis: "The working lunch of the islands is two scoops of rice, macaroni salad and meat or fish, ordered at the window of a small drive-in and eaten at an outdoor table." },
+        { ime: "Pau hana", opis: "The phrase means the work is done, and it stands for drinks and snacks in the late afternoon, usually by the ocean with live ukulele music, so join in before the sun goes down." }
       ],
       kupiti: [
-        { ime: "Kava Kona", opis: "Kava s padina Velikog otoka kupuje se izravno na malim farmama uz cestu iznad grada Kailua-Kona, a na vrećici mora pisati da je sto posto Kona jer mješavine sadrže vrlo malo prave." },
-        { ime: "Aloha košulja", opis: "Košulju s cvjetnim uzorkom na Havajima se nosi i na posao i na vjenčanje, a lijepe stare primjerke i kvalitetne nove naći ćete u specijaliziranim trgovinama u Honoluluu." },
-        { ime: "Orasi makadamije", opis: "Makadamija raste na otocima i prodaje se slana, u čokoladi ili u medu, najpovoljnije u običnim supermarketima i na farmerskim tržnicama." }
+        { ime: "Kona coffee", opis: "Coffee from the slopes of the Big Island is best bought right at the small farms along the road above Kailua-Kona, and the bag has to say 100% Kona because the blends contain very little of the real thing." },
+        { ime: "Aloha shirt", opis: "In Hawaii a floral print shirt is worn to the office and to weddings alike, and you will find beautiful vintage ones and well-made new ones in specialty shops in Honolulu." },
+        { ime: "Macadamia nuts", opis: "Macadamias grow on the islands and come salted, covered in chocolate or glazed with honey, and they cost the least at ordinary supermarkets and farmers markets." }
       ]
     },
     "nashville-memphis": {
       dragulji: [
-        { ime: "East Nashville", opis: "S druge strane rijeke, oko raskrižja Five Points, žive glazbenici i kuhari, pa su ulice pune malih barova, prodavaonica ploča i kafića bez gužve s Broadwaya." },
-        { ime: "Cooper-Young u Memphisu", opis: "Četvrt starih kuća s trijemovima okupljena je oko jednog raskrižja s restoranima, knjižarom i barovima, i tu se najbolje vidi kako grad živi kada nema turista." },
-        { ime: "Radnor Lake", opis: "Zaštićeno jezero usred šume na južnom rubu Nashvillea ima mirne staze na kojima se viđaju jeleni, sove i kornjače, a domaći ovamo dolaze u šetnju rano ujutro." }
+        { ime: "East Nashville", opis: "Across the river, around the Five Points intersection, is where the musicians and chefs live, so the streets are full of small bars, record shops and cafes without the Broadway crowds." },
+        { ime: "Cooper-Young in Memphis", opis: "This neighborhood of old porch-front houses gathers around a single intersection with restaurants, a bookstore and bars, and it is the best place to see how the city lives when no tourists are around." },
+        { ime: "Radnor Lake", opis: "A protected lake in the woods on the southern edge of Nashville has quiet trails where you see deer, owls and turtles, and locals come to walk here early in the morning." }
       ],
       domaci: [
-        { ime: "Meat and three", opis: "Radnim danom za ručak ide se u jednostavnu kantinu gdje se s pulta bira jedno meso i tri priloga, poput kelja, pirea i makarona sa sirom, uz kukuruzni kruh i slatki ledeni čaj." },
-        { ime: "Ljuta piletina i suha rebra", opis: "Nashville se zaklinje u prženu piletinu premazanu ljutom pastom, na bijelom kruhu s kiselim krastavcima, a Memphis u rebra sa suhom mješavinom začina, pa birajte blažu razinu ljutine nego što mislite da možete podnijeti." },
-        { ime: "Večeri kantautora", opis: "U malim klubovima Nashvillea autori pjesama sjede u krugu i naizmjence sviraju svoje skladbe, a publika sluša u potpunoj tišini, pa mjesto rezervirajte unaprijed i ne razgovarajte tijekom pjesme." }
+        { ime: "Meat and three", opis: "For a weekday lunch people go to a plain cafeteria and pick one meat and three sides from the line, such as collard greens, mashed potatoes and mac and cheese, with cornbread and sweet tea." },
+        { ime: "Hot chicken and dry ribs", opis: "Nashville swears by fried chicken coated in spicy paste and served on white bread with pickles, while Memphis swears by dry-rubbed ribs, and you should order a milder heat level than you think you can handle." },
+        { ime: "Songwriter nights", opis: "In Nashville's small listening rooms songwriters sit in a circle and take turns playing their own songs while the audience listens in complete silence, so reserve a seat ahead of time and do not talk during a song." }
       ],
       kupiti: [
-        { ime: "Plakati tiskare Hatch Show Print", opis: "Stara tiskara u Nashvilleu i danas ručno, drvenim slovima, tiska koncertne plakate, a u njezinoj trgovini u središtu grada možete kupiti otiske i gledati strojeve u radu." },
-        { ime: "Kaubojske čizme", opis: "U Nashvilleu ih nose i glazbenici i publika, a osim trgovina na Broadwayu potražite i prodavaonice rabljenih čizama, gdje je koža već lijepo razgažena." },
-        { ime: "Suha mješavina začina iz Memphisa", opis: "Poznate pečenjarnice Memphisa prodaju vlastite mješavine za rebra u vrećicama i bočicama, pa okus grada možete ponijeti kući za roštilj." }
+        { ime: "Hatch Show Print posters", opis: "This old Nashville print shop still makes concert posters by hand with wooden type, and at its store downtown you can buy prints and watch the presses run." },
+        { ime: "Cowboy boots", opis: "In Nashville both the musicians and the audience wear them, and besides the stores on Broadway you should look for secondhand boot shops, where the leather is already nicely broken in." },
+        { ime: "Memphis dry rub", opis: "The famous barbecue joints of Memphis sell their own rib rubs in bags and shakers, so you can take the flavor of the city home to your own grill." }
       ]
     },
     "michigan": {
       dragulji: [
-        { ime: "Fishtown u Lelandu", opis: "Na poluotoku Leelanau sačuvan je niz sivih drvenih ribarskih koliba uz rječicu, sa sušionicama, čamcima i dimljenom ribom, pa mjesto još miriše na stari život na jezeru." },
-        { ime: "Tunnel of Trees", opis: "Uska cesta M-119 sjeverno od Harbor Springsa vijuga visoko iznad jezera Michigan ispod spojenih krošanja, a najljepša je u jesen, kada lišće pocrveni." },
-        { ime: "Belle Isle u Detroitu", opis: "Otok usred rijeke Detroit gradski je park sa staklenikom, akvarijem i plažom, a s njegove obale vide se u isti mah neboderi Detroita i Kanada." }
+        { ime: "Fishtown in Leland", opis: "On the Leelanau Peninsula a row of weathered gray fishing shanties still stands along the river, with smokehouses, boats and smoked fish, so the place still smells of the old life on the lake." },
+        { ime: "Tunnel of Trees", opis: "The narrow M-119 north of Harbor Springs winds high above Lake Michigan beneath a canopy of branches that meet overhead, and it is at its most beautiful in fall, when the leaves turn red." },
+        { ime: "Belle Isle in Detroit", opis: "This island in the middle of the Detroit River is a city park with a conservatory, an aquarium and a beach, and from its shore you see the Detroit skyline and Canada at the same time." }
       ],
       domaci: [
-        { ime: "Odlazak „Up North“", opis: "Ljeti se cijela država petkom seli na sjever, u kućice na jezerima, gdje se dani provode na molu, u čamcu i uz vatru, pa unajmite kolibu uz vodu i ne planirajte previše." },
-        { ime: "Jesen u prešaonici jabuka", opis: "Čim zahladi, obitelji odlaze u prešaonice jabuka na svjež mošt i tople krafne s cimetom, što je jesenski obred kojeg se ovdje nitko ne odriče." },
-        { ime: "Coney dog u Detroitu", opis: "Hrenovka u pecivu s mesnim umakom, gorušicom i sjeckanim lukom jede se za šankom u zalogajnicama otvorenima do kasno, a svaki stanovnik Detroita ima svoju omiljenu i braniti će je do kraja." }
+        { ime: "Going Up North", opis: "In summer the whole state heads north on Friday to cottages on the lakes, where days are spent on the dock, in a boat and around a fire, so rent a cabin by the water and do not plan too much." },
+        { ime: "Fall at the cider mill", opis: "As soon as it turns cool, families drive out to the cider mills for fresh cider and warm cinnamon donuts, a fall ritual that nobody here gives up." },
+        { ime: "A coney dog in Detroit", opis: "A hot dog in a bun with meat chili, mustard and chopped onion is eaten at the counter of diners that stay open late, and every Detroiter has a favorite and will defend it to the end." }
       ],
       kupiti: [
-        { ime: "Sušene višnje iz Traverse Cityja", opis: "Kraj oko Traverse Cityja glavno je područje uzgoja višanja u zemlji, pa se ondje, u trgovinama i na štandovima uz cestu, prodaju sušene višnje, džemovi, sokovi i umaci." },
-        { ime: "Fudge s otoka Mackinac", opis: "Meki karamelni slatkiš miješa se na mramornim pločama u izlozima slastičarnica na otoku bez automobila, a reže se u debele ploške i pakira za put." },
-        { ime: "Kamen iz Petoskeyja", opis: "Fosilni koralj sa šarom nalik saću nalazi se na plažama sjevernog dijela jezera Michigan, a ispoliran se prodaje u trgovinama u Petoskeyju i okolnim mjestima." }
+        { ime: "Dried cherries from Traverse City", opis: "The Traverse City area is the country's main tart cherry region, so its shops and roadside stands sell dried cherries, jams, juices and sauces." },
+        { ime: "Mackinac Island fudge", opis: "This soft, creamy candy is worked on marble slabs in the windows of the sweet shops on the island with no cars, then cut into thick slices and boxed for the trip." },
+        { ime: "Petoskey stone", opis: "This fossilized coral with a honeycomb pattern washes up on the beaches of northern Lake Michigan, and you can buy it polished in shops in Petoskey and the nearby towns." }
       ]
     }
   }

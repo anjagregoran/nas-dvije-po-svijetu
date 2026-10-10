@@ -2,303 +2,303 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["brazil"] = {
   id: "brazil",
   ime: "Brazil",
-  regija: "Južna Amerika",
-  sazetak: "Zemlja veličine kontinenta u kojoj se samba uči na ulici, a prašuma, kolonijalni gradići i najveći slapovi svijeta stanu u isto putovanje.",
+  regija: "South America",
+  sazetak: "A country the size of a continent, where samba is learned in the street and where rainforest, colonial towns and the largest waterfalls in the world all fit into the same trip.",
   uvod: [
-    "Brazil je peta najveća država svijeta i jedina u Južnoj Americi u kojoj se govori portugalski, jer su 1500. godine na njegovu obalu pristali Portugalci pod vodstvom Pedra Álvaresa Cabrala. Tri stoljeća kolonije obilježili su šećer, zlato i ropstvo, pa je današnja kultura nastala miješanjem portugalskog, afričkog i starosjedilačkog nasljeđa, što se najbolje čuje u glazbi i kuša u hrani. Neovisnost je 1822. proglasio portugalski princ Pedro, koji je postao carem, a republika je došla tek 1889.",
-    "Zbog veličine zemlje svaka regija djeluje kao zasebna država: Bahia živi u ritmu bubnjeva i jede na palminom ulju, jug miriše na roštilj, a u Amazoniji se putuje brodom umjesto autobusom. Za prvo putovanje najbolje je odabrati dvije ili tri regije i povezati ih letovima, jer su udaljenosti goleme."
+    "Brazil is the fifth largest country in the world and the only one in South America where Portuguese is spoken, because in 1500 the Portuguese landed on its coast under the command of Pedro Álvares Cabral. Three centuries as a colony were marked by sugar, gold and slavery, so today's culture grew out of the mixing of Portuguese, African and Indigenous heritage, which is best heard in the music and tasted in the food. Independence was declared in 1822 by the Portuguese prince Pedro, who became emperor, and the republic came only in 1889.",
+    "Because of the country's size, every region feels like a separate nation: Bahia lives to the rhythm of drums and cooks with palm oil, the south smells of barbecue, and in the Amazon you travel by boat instead of by bus. For a first trip it is best to choose two or three regions and link them by flights, because the distances are enormous."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Rio i obala najugodniji su od travnja do listopada, kada je manje sparno i kišovito. Karneval pada u veljaču ili početak ožujka, a Pantanal je za promatranje životinja najbolji u sušnoj sezoni, od svibnja do rujna." },
-    { k: "Valuta", v: "Brazilski real (BRL). Kartice se primaju gotovo svuda, čak i na štandovima na plaži." },
-    { k: "Kretanje", v: "Između regija letovima, jer su autobusne vožnje duge i po dvadeset sati. U gradovima su praktični metro i aplikacije za prijevoz." },
-    { k: "Napojnica", v: "Restorani na račun obično sami dodaju 10 posto za uslugu, pa dodatna napojnica nije nužna." },
-    { k: "Jezik", v: "Portugalski. Španjolski će vas ponegdje razumjeti, ali Brazilci cijene i najmanji trud na portugalskom." }
+    { k: "When to go", v: "Rio and the coast are most pleasant from April to October, when it is less humid and rainy. Carnival falls in February or early March, and the Pantanal is best for wildlife watching in the dry season, from May to September." },
+    { k: "Currency", v: "Brazilian real (BRL). Cards are accepted almost everywhere, even at stalls on the beach." },
+    { k: "Getting around", v: "By plane between regions, because bus rides can last as long as twenty hours. In the cities, the metro and ride-hailing apps are the practical choice." },
+    { k: "Tipping", v: "Restaurants usually add 10 percent for service to the bill themselves, so an extra tip is not necessary." },
+    { k: "Language", v: "Portuguese. Your Spanish will be understood here and there, but Brazilians appreciate even the smallest effort in Portuguese." }
   ],
   hrana: [
-    { ime: "Feijoada", opis: "Gusti gulaš od crnog graha s nekoliko vrsta svinjetine i kobasica.", prica: "Smatra se nacionalnim jelom i tradicionalno se jede subotom, uz rižu, pirjani kelj, narančine kriške i hrskavu farofu od brašna manioke. Naranča na tanjuru ima svrhu, jer osvježava i olakšava probavu teškog jela." },
-    { ime: "Churrasco i picanha", opis: "Meso pečeno na ražnjićima iznad žara, s juga zemlje gdje su ga pekli gaúchosi, stočari pampe.", prica: "U restoranima zvanima churrascaria rodízio konobari kruže s ražnjevima i režu meso izravno na tanjur dok ne okrenete kartončić na crvenu stranu. Najcjenjeniji komad je picanha, gornji dio buta s rubom masnoće, začinjen samo krupnom soli." },
-    { ime: "Pão de queijo", opis: "Male tople pogačice od škroba manioke i sira, hrskave izvana i rastezljive iznutra.", prica: "Potječu iz savezne države Minas Gerais, poznate po sirevima i stočarstvu. Jedu se za doručak ili uz popodnevnu kavu, a prirodno su bez glutena jer u njima nema pšeničnog brašna." },
-    { ime: "Moqueca", opis: "Riblji ili škampov gulaš koji se polako kuha u glinenoj posudi.", prica: "Bahijska verzija kuha se s kokosovim mlijekom i narančastim palminim uljem dendê, koje su donijeli porobljeni Afrikanci. Verzija iz države Espírito Santo ne koristi ni jedno ni drugo, pa se dvije regije oko prave moquece prijateljski prepiru." },
-    { ime: "Acarajé", opis: "Uštipak od oljuštenog graha pržen u palminom ulju i punjen račićima i pastom vatapá.", prica: "Na ulicama Salvadora prodaju ga baianas, žene u bijelim čipkastim haljinama, a jelo je izvorno obredna hrana afrobrazilske religije candomblé. Prodavačica će vas pitati želite li ga ljutog, a i blaga verzija zna zapeći." },
-    { ime: "Brigadeiro", opis: "Kuglica od kondenziranog mlijeka, kakaa i maslaca uvaljana u čokoladne mrvice.", prica: "Nema brazilskog rođendana bez pladnja brigadeira. Prema najraširenijoj priči ime je dobio po brigadiru Eduardu Gomesu, predsjedničkom kandidatu iz 1940-ih, čije su pristaše prodavale slatkiše za njegovu kampanju." },
-    { ime: "Açaí", opis: "Tamnoljubičasta kaša od ploda amazonske palme, služi se ledena.", prica: "Na obali se jede kao slatka zdjelica s bananom i granolom, najčešće nakon plaže. U Amazoniji, odakle potječe, açaí je slan prilog uz prženu ribu i brašno manioke, što putnike redovito iznenadi." },
-    { ime: "Caipirinha", opis: "Koktel od cachaçe, limete, šećera i leda.", prica: "Cachaça je rakija od svježeg soka šećerne trske i po tome se razlikuje od ruma, koji se radi od melase. Dobru zanatsku cachaçu najlakše ćete kušati u Paratyju i u državi Minas Gerais, gdje se pije i čista." },
-    { ime: "Coxinha", opis: "Prženi zalogaj od tijesta u obliku kapljice, punjen pilećim mesom.", prica: "Oblik oponaša pileći batak, a coxinha se prodaje u svakoj pekarnici i zalogajnici, koje se u Brazilu zovu lanchonete. Najbolja je topla, uz čašu svježe iscijeđenog soka." }
+    { ime: "Feijoada", opis: "A thick black bean stew with several kinds of pork and sausage.", prica: "It is considered the national dish and is traditionally eaten on Saturdays, with rice, sautéed collard greens, orange slices and crunchy farofa made from cassava flour. The orange on the plate has a purpose, because it refreshes the palate and helps you digest this heavy dish." },
+    { ime: "Churrasco and picanha", opis: "Meat roasted on skewers over coals, from the south of the country, where it was cooked by the gaúchos, the cattle herders of the pampas.", prica: "In the restaurants known as churrascaria rodízio, waiters circulate with skewers and carve the meat straight onto your plate until you flip your card to the red side. The most prized cut is picanha, the top of the rump with its rim of fat, seasoned with nothing but coarse salt." },
+    { ime: "Pão de queijo", opis: "Small warm rolls of cassava starch and cheese, crisp on the outside and stretchy on the inside.", prica: "They come from the state of Minas Gerais, known for its cheeses and cattle farming. They are eaten for breakfast or with afternoon coffee, and they are naturally gluten-free because they contain no wheat flour." },
+    { ime: "Moqueca", opis: "A fish or shrimp stew that simmers slowly in a clay pot.", prica: "The Bahian version is cooked with coconut milk and the orange palm oil called dendê, which was brought by enslaved Africans. The version from the state of Espírito Santo uses neither, so the two regions carry on a friendly quarrel over which is the true moqueca." },
+    { ime: "Acarajé", opis: "A fritter of peeled beans fried in palm oil and filled with small shrimp and vatapá paste.", prica: "On the streets of Salvador it is sold by baianas, women in white lace dresses, and the dish was originally a ritual food of the Afro-Brazilian religion candomblé. The vendor will ask whether you want it hot, and even the mild version can have a kick." },
+    { ime: "Brigadeiro", opis: "A little ball of condensed milk, cocoa and butter rolled in chocolate sprinkles.", prica: "No Brazilian birthday is complete without a tray of brigadeiros. According to the most widespread story, it was named after Brigadier Eduardo Gomes, a presidential candidate of the 1940s, whose supporters sold the sweets to fund his campaign." },
+    { ime: "Açaí", opis: "A dark purple purée made from the fruit of an Amazonian palm, served ice-cold.", prica: "On the coast it is eaten as a sweet bowl with banana and granola, most often after the beach. In the Amazon, where it comes from, açaí is a savory side dish served with fried fish and cassava flour, which regularly surprises travelers." },
+    { ime: "Caipirinha", opis: "A cocktail of cachaça, lime, sugar and ice.", prica: "Cachaça is a spirit made from fresh sugarcane juice, which sets it apart from rum, which is made from molasses. The easiest places to taste good artisanal cachaça are Paraty and the state of Minas Gerais, where it is also drunk neat." },
+    { ime: "Coxinha", opis: "A fried snack of dough in the shape of a teardrop, filled with chicken.", prica: "The shape imitates a chicken drumstick, and coxinha is sold in every bakery and snack bar, which are called lanchonetes in Brazil. It is best warm, with a glass of freshly squeezed juice." }
   ],
   obicaji: [
-    { ime: "Samba", opis: "Glazba i ples nastali početkom 20. stoljeća u Riju, među potomcima Afrikanaca doseljenima iz Bahije. Roda de samba je krug u kojem glazbenici sjede oko stola i sviraju, a publika pjeva i pleše oko njih.", gdje: "U Riju potražite rodu de samba kod stijene Pedra do Sal u četvrti Saúde, koju zovu kolijevkom sambe, te barove u četvrti Lapa. Škole sambe uoči karnevala, otprilike od rujna do veljače, otvaraju svoje probe publici." },
-    { ime: "Karneval", opis: "Višednevno slavlje prije korizme, u kojem se škole sambe u Riju natječu povorkama s tisućama plesača i golemim alegorijskim kolima. Jednako su važni blocos, ulične povorke koje su besplatne i otvorene svima.", gdje: "Povorke škola sambe održavaju se na Sambódromu u Riju, u veljači ili početkom ožujka. U Salvadoru se slavi na ulici iza kamiona s glazbom, a u Olindi i Recifeu uz ritam frevo." },
-    { ime: "Capoeira", opis: "Spoj borilačke vještine, plesa i glazbe koji su razvili porobljeni Afrikanci u Brazilu. Igra se u krugu zvanom roda, uz jednožičani instrument berimbau koji određuje tempo, a UNESCO je rodu capoeire 2014. upisao na popis nematerijalne baštine.", gdje: "Središte je Salvador: rode se spontano okupljaju na trgovima Pelourinha, a tamošnje škole capoeire primaju i početnike na pojedinačne satove." },
-    { ime: "Bossa nova", opis: "Tiši, profinjeniji izdanak sambe nastao krajem 1950-ih u stanovima uz plaže Rija, uz gitaru Joãa Gilberta i pjesme Toma Jobima. Pjesma „Garota de Ipanema“ iz 1962. postala je jedna od najizvođenijih na svijetu.", gdje: "U Riju, u četvrtima Ipanema i Copacabana, gdje mali glazbeni barovi i danas imaju večeri bossa nove." },
-    { ime: "Forró", opis: "Ples u paru sa sjeveroistoka Brazila, uz harmoniku, trokut i bubanj zabumba. Koraci su jednostavni pa je idealan za prve plesne pokušaje.", gdje: "Vrhunac su lipanjske svetkovine Festa Junina, osobito u gradovima Campina Grande i Caruaru. U São Paulu i Riju postoje plesne dvorane u kojima se forró pleše cijele godine." },
-    { ime: "Cafezinho", opis: "Mala šalica jake, slatke crne kave kojom se u Brazilu dočekuje gost, zaključuje ručak i započinje svaki razgovor.", gdje: "Posvuda: u pekarnicama zvanima padaria, na benzinskim postajama, a često vam je besplatno ponude i nakon obroka u restoranu." }
+    { ime: "Samba", opis: "Music and dance born at the beginning of the 20th century in Rio, among the descendants of Africans who had moved there from Bahia. A roda de samba is a circle in which the musicians sit around a table and play, while the audience sings and dances around them.", gdje: "In Rio, look for the roda de samba at the Pedra do Sal rock in the Saúde neighborhood, which is called the cradle of samba, and for the bars in the Lapa neighborhood. In the run-up to Carnival, roughly from September to February, the samba schools open their rehearsals to the public." },
+    { ime: "Carnival", opis: "A celebration lasting several days before Lent, in which Rio's samba schools compete in parades with thousands of dancers and enormous allegorical floats. Just as important are the blocos, street parades that are free and open to everyone.", gdje: "The samba school parades are held at the Sambódromo in Rio, in February or early March. In Salvador people celebrate in the street behind trucks carrying the music, and in Olinda and Recife to the rhythm of frevo." },
+    { ime: "Capoeira", opis: "A blend of martial art, dance and music developed by enslaved Africans in Brazil. It is played in a circle called a roda, to the single-stringed berimbau, an instrument that sets the tempo, and in 2014 UNESCO added the capoeira circle to its list of intangible heritage.", gdje: "The center is Salvador: rodas gather spontaneously in the squares of Pelourinho, and the capoeira schools there also take beginners for individual lessons." },
+    { ime: "Bossa nova", opis: "A quieter, more refined offshoot of samba that emerged at the end of the 1950s in apartments along the beaches of Rio, to the guitar of João Gilberto and the songs of Tom Jobim. The song “Garota de Ipanema” from 1962 became one of the most performed in the world.", gdje: "In Rio, in the neighborhoods of Ipanema and Copacabana, where small music bars still hold bossa nova evenings." },
+    { ime: "Forró", opis: "A partner dance from the northeast of Brazil, danced to the accordion, the triangle and the zabumba drum. The steps are simple, which makes it ideal for a first try at dancing.", gdje: "The high point is the June festivities of Festa Junina, especially in the cities of Campina Grande and Caruaru. São Paulo and Rio have dance halls where forró is danced all year round." },
+    { ime: "Cafezinho", opis: "A small cup of strong, sweet black coffee with which Brazilians welcome a guest, round off a lunch and begin every conversation.", gdje: "Everywhere: in the bakeries called padarias, at gas stations, and it is often offered to you for free after a meal in a restaurant." }
   ],
   fraze: [
-    { izvorno: "Bom dia", izgovor: "bon DŽI-a", hr: "Dobro jutro, dobar dan" },
-    { izvorno: "Obrigada", izgovor: "o-bri-GA-da", hr: "Hvala (kaže žena)" },
-    { izvorno: "Por favor", izgovor: "por fa-VOR", hr: "Molim" },
-    { izvorno: "Tudo bem?", izgovor: "TU-du bejn", hr: "Kako ste, je li sve u redu?" },
-    { izvorno: "Quanto custa?", izgovor: "KUAN-tu KUS-ta", hr: "Koliko košta?" },
-    { izvorno: "A conta, por favor", izgovor: "a KON-ta, por fa-VOR", hr: "Račun, molim" },
-    { izvorno: "Onde fica o banheiro?", izgovor: "ON-dži FI-ka u ba-NJEJ-ru", hr: "Gdje je zahod?" },
-    { izvorno: "Saúde!", izgovor: "sa-U-dži", hr: "Živjeli!" }
+    { izvorno: "Bom dia", izgovor: "bohn JEE-ah", hr: "Good morning, good day" },
+    { izvorno: "Obrigada", izgovor: "oh-bree-GAH-dah", hr: "Thank you (said by a woman)" },
+    { izvorno: "Por favor", izgovor: "poor fah-VOHR", hr: "Please" },
+    { izvorno: "Tudo bem?", izgovor: "TOO-doo bayn", hr: "How are you, is everything all right?" },
+    { izvorno: "Quanto custa?", izgovor: "KWAHN-too KOOS-tah", hr: "How much is it?" },
+    { izvorno: "A conta, por favor", izgovor: "ah KOHN-tah, poor fah-VOHR", hr: "The check, please" },
+    { izvorno: "Onde fica o banheiro?", izgovor: "OHN-jee FEE-kah oo bahn-YAY-roo", hr: "Where is the restroom?" },
+    { izvorno: "Saúde!", izgovor: "sah-OO-jee", hr: "Cheers!" }
   ],
   zanimljivosti: [
-    "Brazil je ime dobio po drvetu pau-brasil, iz čije se crvene srži dobivala skupocjena boja za tkanine.",
-    "Graniči sa svim južnoameričkim državama osim Čilea i Ekvadora.",
-    "Glavni grad Brasília izgrađen je u manje od četiri godine i otvoren 1960., a iz zraka njegov tlocrt podsjeća na avion ili pticu.",
-    "Brazil je najveći svjetski proizvođač kave već više od 150 godina.",
-    "U São Paulu živi najveća japanska zajednica izvan Japana.",
-    "Ropstvo je u Brazilu ukinuto tek 1888., kasnije nego u bilo kojoj drugoj zemlji Amerike."
+    "Brazil was named after the pau-brasil tree, whose red heartwood yielded a costly dye for fabrics.",
+    "It borders every South American country except Chile and Ecuador.",
+    "The capital, Brasília, was built in less than four years and inaugurated in 1960, and from the air its layout resembles an airplane or a bird.",
+    "Brazil has been the world's largest coffee producer for more than 150 years.",
+    "São Paulo is home to the largest Japanese community outside Japan.",
+    "Slavery was abolished in Brazil only in 1888, later than in any other country in the Americas."
   ],
   mjesta: [
     {
       id: "rio-de-janeiro",
       ime: "Rio de Janeiro",
       vrsta: "grad",
-      sazetak: "Grad stisnut između granitnih vrhova, prašume i oceana, u kojem je plaža produžetak dnevnog boravka.",
+      sazetak: "A city squeezed between granite peaks, rainforest and ocean, where the beach is an extension of the living room.",
       prica: [
-        "Portugalski moreplovci uplovili su u zaljev Guanabara 1. siječnja 1502. i, misleći da je riječ o ušću rijeke, nazvali ga Siječanjskom rijekom. Grad je 1565. osnovao Estácio de Sá, a zahvaljujući zlatu iz unutrašnjosti postao je 1763. prijestolnicom kolonije.",
-        "Godine 1808. ovamo je pred Napoleonom pobjegao cijeli portugalski dvor, pa je Rio jedini grad u Americi koji je bio prijestolnica jednog europskog kraljevstva. Glavnim gradom Brazila ostao je do 1960., kada je tu ulogu preuzela Brasília."
+        "Portuguese navigators sailed into Guanabara Bay on January 1, 1502, and, thinking it was the mouth of a river, named it the River of January. The city was founded in 1565 by Estácio de Sá, and thanks to the gold from the interior it became the capital of the colony in 1763.",
+        "In 1808 the entire Portuguese court fled here from Napoleon, which makes Rio the only city in the Americas to have been the capital of a European kingdom. It remained the capital of Brazil until 1960, when Brasília took over that role."
       ],
       vidjeti: [
-        { ime: "Cristo Redentor", opis: "Kip Krista Otkupitelja na vrhu brda Corcovado, visokom 710 metara, otvoren je 1931. Kip je visok 30 metara, a ako priđete blizu, vidjet ćete da je cijeli obložen mozaikom od tisuća trokutastih pločica milovca, na čiju su poleđinu žene koje su ih lijepile ponekad ispisivale imena svojih bližnjih." },
-        { ime: "Pão de Açúcar", opis: "Granitna stijena visoka 396 metara na ulazu u zaljev, na koju od 1912. vozi žičara u dvije etape. Ime, Glava šećera, dobila je po obliku glinenih kalupa u kojima se u kolonijalno doba sušio šećer." },
-        { ime: "Escadaria Selarón", opis: "Stubište od 215 stuba između četvrti Lapa i Santa Teresa koje je čileanski umjetnik Jorge Selarón od 1990. do smrti oblagao šarenim pločicama. Potražite pločice iz raznih zemalja svijeta koje su mu slali i donosili posjetitelji." },
-        { ime: "Real Gabinete Português de Leitura", opis: "Portugalska čitaonica iz 1887., s tri kata izrezbarenih polica do stropa i vitrajnim svjetlarnikom. Ulaz je besplatan, a u njoj se čuva najveća zbirka portugalske književnosti izvan Portugala." },
-        { ime: "Jardim Botânico", opis: "Botanički vrt koji je 1808. osnovao portugalski princ regent João kako bi u njemu aklimatizirao začine s Istoka. Glavna aleja carskih palmi visokih tridesetak metara potječe od jedne jedine palme posađene 1809." },
-        { ime: "Museu do Amanhã", opis: "Muzej sutrašnjice, znanstveni muzej o budućnosti planeta, otvoren 2015. na obnovljenoj lučkoj obali. Bijelu zgradu s krilima koja se pomiču za suncem projektirao je Santiago Calatrava." }
+        { ime: "Cristo Redentor", opis: "The statue of Christ the Redeemer on top of Corcovado, a hill 710 meters high, was inaugurated in 1931. The statue stands 30 meters tall, and if you come close you will see that it is entirely covered in a mosaic of thousands of triangular soapstone tiles, on the backs of which the women who glued them on sometimes wrote the names of their loved ones." },
+        { ime: "Pão de Açúcar", opis: "A granite rock 396 meters high at the entrance to the bay, served since 1912 by a cable car in two stages. Its name, Sugarloaf, comes from the shape of the clay molds in which sugar was dried in colonial times." },
+        { ime: "Escadaria Selarón", opis: "A stairway of 215 steps between the Lapa and Santa Teresa neighborhoods, which the Chilean artist Jorge Selarón covered in colorful tiles from 1990 until his death. Look for the tiles from countries all over the world that visitors sent and brought him." },
+        { ime: "Real Gabinete Português de Leitura", opis: "The Portuguese reading room of 1887, with three floors of carved shelves reaching to the ceiling and a stained-glass skylight. Admission is free, and it holds the largest collection of Portuguese literature outside Portugal." },
+        { ime: "Jardim Botânico", opis: "The botanical garden founded in 1808 by the Portuguese prince regent João in order to acclimatize spices from the East. The main avenue of imperial palms, about thirty meters tall, descends from one single palm planted in 1809." },
+        { ime: "Museu do Amanhã", opis: "The Museum of Tomorrow, a science museum about the future of the planet, opened in 2015 on the redeveloped port waterfront. The white building, with wings that move to follow the sun, was designed by Santiago Calatrava." }
       ],
       jesti: [
-        { ime: "Feijoada subotom", opis: "U tradicionalnim restoranima i barovima subota je dan za feijoadu, koja se naručuje za cijeli stol." },
-        { ime: "Petiscos u botecu", opis: "Boteco je kvartovski bar u kojem se uz ledeno pivo jedu zalogaji poput bolinhosa de bacalhau, prženih okruglica od bakalara. Najviše ih je u četvrtima Lapa, Botafogo i Santa Teresa." },
-        { ime: "Açaí i sokovi", opis: "Na svakom uglu Ipaneme i Copacabane nalazi se casa de sucos, sokarnica u kojoj se uz zdjelicu açaíja kušaju sokovi od voća za koje u Europi nema ni imena." }
+        { ime: "Feijoada on Saturdays", opis: "In traditional restaurants and bars, Saturday is the day for feijoada, which is ordered for the whole table." },
+        { ime: "Petiscos in a boteco", opis: "A boteco is a neighborhood bar where ice-cold beer comes with snacks such as bolinhos de bacalhau, fried codfish balls. Most of them are found in the Lapa, Botafogo and Santa Teresa neighborhoods." },
+        { ime: "Açaí and juices", opis: "On every corner of Ipanema and Copacabana there is a casa de sucos, a juice bar where, alongside a bowl of açaí, you can taste juices from fruits that do not even have names in Europe." }
       ],
       dozivjeti: [
-        { ime: "Roda de samba na Pedra do Sal", opis: "Kod stijene na kojoj su se nekoć istovarale vreće soli, a okupljali se prvi sambisti, navečer se svira i pleše na otvorenom. Dođite ranije, jer se uličica brzo napuni." },
-        { ime: "Zalazak sunca na Arpoadoru", opis: "Na stijeni između Copacabane i Ipaneme ljudi se okupljaju gledati kako sunce zalazi iza brda Dois Irmãos, a za lijepih večeri prizor isprate pljeskom." },
-        { ime: "Vlak na Corcovado", opis: "Zupčasta željeznica iz 1884. vozi kroz prašumu Tijuca do podnožja kipa, što je ugodnije od vožnje kombijem.", link: "https://www.tremdocorcovado.rio/en" },
-        { ime: "Proba škole sambe", opis: "Od rujna do karnevala velike škole održavaju otvorene probe u svojim dvoranama. Raspored povorki i obavijesti objavljuje liga škola sambe.", link: "https://liesa.org.br/" }
+        { ime: "Roda de samba at Pedra do Sal", opis: "By the rock where sacks of salt were once unloaded and where the first samba musicians gathered, people play and dance in the open air in the evenings. Come early, because the alley fills up fast." },
+        { ime: "Sunset at Arpoador", opis: "On the rock between Copacabana and Ipanema, people gather to watch the sun go down behind the Dois Irmãos hill, and on fine evenings they send the scene off with a round of applause." },
+        { ime: "The train up Corcovado", opis: "The cog railway of 1884 runs through the Tijuca rainforest to the foot of the statue, which is more pleasant than going up by van.", link: "https://www.tremdocorcovado.rio/en" },
+        { ime: "A samba school rehearsal", opis: "From September until Carnival, the big schools hold open rehearsals in their halls. The parade schedule and announcements are published by the league of samba schools.", link: "https://liesa.org.br/" }
       ],
       agencije: [
-        { ime: "Riotur", opis: "Gradska turistička tvrtka Rio de Janeira.", link: "https://riotur.rio/" },
-        { ime: "Bondinho Pão de Açúcar", opis: "Službena stranica žičare na Glavu šećera, s ulaznicama.", link: "https://www.bondinho.com.br/" }
+        { ime: "Riotur", opis: "The municipal tourism company of Rio de Janeiro.", link: "https://riotur.rio/" },
+        { ime: "Bondinho Pão de Açúcar", opis: "The official website of the Sugarloaf cable car, with tickets.", link: "https://www.bondinho.com.br/" }
       ],
-      kada: "Od svibnja do listopada dani su suhi i ugodni. Na Corcovado krenite rano ujutro i samo kada vrh nije u oblacima, što se vidi iz grada."
+      kada: "From May to October the days are dry and pleasant. Head up Corcovado early in the morning and only when the summit is free of clouds, which you can see from the city."
     },
     {
       id: "sao-paulo",
       ime: "São Paulo",
       vrsta: "grad",
-      sazetak: "Najveći grad južne polutke, bez plaže i razglednica, ali s najboljim restoranima i muzejima u zemlji.",
+      sazetak: "The largest city in the Southern Hemisphere, with no beach and no postcard views, but with the best restaurants and museums in the country.",
       prica: [
-        "Grad su 25. siječnja 1554. osnovali isusovci kao misiju među starosjediocima, na mjestu koje se i danas zove Pátio do Colégio. Stoljećima je bio skromno polazište pustolova zvanih bandeirantes, koji su odavde kretali u unutrašnjost u potrazi za zlatom i robovima.",
-        "Sve je promijenila kava: u 19. stoljeću plantaže su donijele bogatstvo, a s njim i milijune doseljenika iz Italije, Japana, Libanona i Portugala. Zato se ovdje jede izvrsna pizza, sushi i kibe, a grad se doživljava za stolom i u galerijama."
+        "The city was founded on January 25, 1554, by Jesuits as a mission among the Indigenous people, on a spot that is still called Pátio do Colégio. For centuries it was a modest starting point for the adventurers known as bandeirantes, who set out from here into the interior in search of gold and slaves.",
+        "Coffee changed everything: in the 19th century the plantations brought wealth, and with it millions of immigrants from Italy, Japan, Lebanon and Portugal. That is why you eat excellent pizza, sushi and kibe here, and why the city is best experienced at the table and in its galleries."
       ],
       vidjeti: [
-        { ime: "MASP", opis: "Umjetnički muzej na Aveniji Paulista, zgrada arhitektice Line Bo Bardi iz 1968., visi na četiri crvena stupa iznad praznog prostora širokog 74 metra. Slike su izložene na staklenim pločama pa izgleda kao da lebde, a opis djela namjerno je na poleđini kako biste sliku prvo pogledale bez predrasuda." },
-        { ime: "Mercado Municipal", opis: "Gradska tržnica iz 1933., poznata kao Mercadão, s vitrajima koji prikazuju berbu kave i rad na polju. Na štandovima s voćem ponudit će vam kušanje, a cijenu je dobro pitati prije nego što pristanete na kupnju." },
-        { ime: "Pinacoteca", opis: "Najstariji umjetnički muzej u gradu, u zgradi od gole opeke kojoj su pri obnovi 1990-ih dodani čelični mostovi preko unutarnjih dvorišta. Najbolje je mjesto za upoznavanje brazilskog slikarstva 19. i 20. stoljeća." },
-        { ime: "Park Ibirapuera", opis: "Glavni gradski park, otvoren 1954. za četiristotu obljetnicu grada, s paviljonima koje je projektirao Oscar Niemeyer. U jednom od njih je Museu Afro Brasil, posvećen afričkom nasljeđu zemlje." },
-        { ime: "Liberdade", opis: "Četvrt s crvenim uličnim svjetiljkama u obliku lampiona, središte japanske zajednice koja se počela doseljavati 1908. Vikendom se na trgu održava sajam ulične hrane." },
-        { ime: "Beco do Batman", opis: "Splet uličica u četvrti Vila Madalena čiji su zidovi u cijelosti prekriveni grafitima koji se stalno preslikavaju. Ime potječe od crteža Batmana koji se ovdje pojavio 1980-ih." }
+        { ime: "MASP", opis: "The art museum on Avenida Paulista, a 1968 building by the architect Lina Bo Bardi, hangs from four red pillars above an empty space 74 meters wide. The paintings are displayed on glass panels so that they seem to float, and the description of each work is deliberately placed on the back so that you look at the painting first, without preconceptions." },
+        { ime: "Mercado Municipal", opis: "The municipal market of 1933, known as the Mercadão, with stained-glass windows depicting the coffee harvest and work in the fields. At the fruit stalls you will be offered a taste, and it is wise to ask the price before you agree to buy." },
+        { ime: "Pinacoteca", opis: "The oldest art museum in the city, in a bare brick building to which steel bridges across the inner courtyards were added during the renovation of the 1990s. It is the best place to get to know Brazilian painting of the 19th and 20th centuries." },
+        { ime: "Ibirapuera Park", opis: "The city's main park, opened in 1954 for its four hundredth anniversary, with pavilions designed by Oscar Niemeyer. One of them houses the Museu Afro Brasil, dedicated to the country's African heritage." },
+        { ime: "Liberdade", opis: "A neighborhood with red street lamps shaped like lanterns, the center of the Japanese community that began arriving in 1908. On weekends a street food fair is held in the square." },
+        { ime: "Beco do Batman", opis: "A tangle of alleys in the Vila Madalena neighborhood whose walls are completely covered in graffiti that is constantly being painted over. The name comes from a drawing of Batman that appeared here in the 1980s." }
       ],
       jesti: [
-        { ime: "Sendvič s mortadelom", opis: "Zaštitni znak Mercadãa: lepinja s nevjerojatno debelim slojem tople mortadele, koju je najbolje podijeliti." },
-        { ime: "Pastel", opis: "Veliki prženi jastučić od tankog tijesta punjen sirom, mesom ili bakalarom, uz koji se na sajmovima pije sok od šećerne trske." },
-        { ime: "Pizza paulistana", opis: "Zahvaljujući talijanskim doseljenicima São Paulo ima tisuće pizzerija, a nedjeljna večer tradicionalno je rezervirana za pizzu." }
+        { ime: "Mortadella sandwich", opis: "The trademark of the Mercadão: a roll with an unbelievably thick layer of warm mortadella, which is best shared." },
+        { ime: "Pastel", opis: "A large fried pillow of thin pastry filled with cheese, meat or salt cod, washed down at the street markets with sugarcane juice." },
+        { ime: "Pizza paulistana", opis: "Thanks to Italian immigrants São Paulo has thousands of pizzerias, and Sunday evening is traditionally reserved for pizza." }
       ],
       dozivjeti: [
-        { ime: "Avenida Paulista nedjeljom", opis: "Glavna gradska avenija nedjeljom se zatvara za promet i pretvara u šetnicu s uličnim glazbenicima, plesačima i štandovima." },
-        { ime: "Večer u Vili Madaleni", opis: "Četvrt barova i malih glazbenih klubova u kojima se uživo svira samba i brazilska popularna glazba." },
-        { ime: "Museu do Ipiranga", opis: "Muzej na mjestu gdje je 1822. proglašena neovisnost Brazila, ponovno otvoren 2022. nakon temeljite obnove, s velikim perivojem po uzoru na francuske.", link: "https://museudoipiranga.org.br/" }
+        { ime: "Avenida Paulista on Sundays", opis: "The city's main avenue is closed to traffic on Sundays and turns into a promenade with street musicians, dancers and stalls." },
+        { ime: "An evening in Vila Madalena", opis: "A neighborhood of bars and small music clubs where samba and Brazilian popular music are played live." },
+        { ime: "Museu do Ipiranga", opis: "The museum on the spot where Brazil's independence was declared in 1822, reopened in 2022 after a thorough renovation, with a large park laid out in the French style.", link: "https://museudoipiranga.org.br/" }
       ],
       agencije: [
-        { ime: "Secretaria Municipal de Turismo", opis: "Gradski ured za turizam São Paula.", link: "https://prefeitura.sp.gov.br/web/turismo" },
-        { ime: "MASP", opis: "Službena stranica muzeja s izložbama i ulaznicama.", link: "https://masp.com.br/pt-br" }
+        { ime: "Secretaria Municipal de Turismo", opis: "The municipal tourism office of São Paulo.", link: "https://prefeitura.sp.gov.br/web/turismo" },
+        { ime: "MASP", opis: "The official website of the museum, with exhibitions and tickets.", link: "https://masp.com.br/pt-br" }
       ],
-      kada: "Grad je cjelogodišnje odredište, a najsuši su mjeseci od travnja do rujna. Između četvrti se krećite metroom, jer su prometne gužve legendarne."
+      kada: "The city is a year-round destination, and the driest months are from April to September. Use the metro to move between neighborhoods, because the traffic jams are legendary."
     },
     {
       id: "salvador",
       ime: "Salvador",
       vrsta: "grad",
-      sazetak: "Prva prijestolnica Brazila i srce afrobrazilske kulture, grad bubnjeva, capoeire i zlatnih crkava.",
+      sazetak: "Brazil's first capital and the heart of Afro-Brazilian culture, a city of drums, capoeira and golden churches.",
       prica: [
-        "Salvador je 1549. osnovao Tomé de Sousa kao sjedište portugalske kolonije, što je ostao do 1763. Bio je jedna od najvećih luka za trgovinu robljem u Americi, pa je danas grad s najsnažnijim afričkim nasljeđem izvan Afrike.",
-        "To se nasljeđe vidi u religiji candomblé, u kojoj se afrička božanstva orixás štuju pod krinkom katoličkih svetaca, čuje u bubnjevima i kuša u hrani na palminom ulju. Grad je podijeljen na Gornji i Donji, koje povezuje dizalo."
+        "Salvador was founded in 1549 by Tomé de Sousa as the seat of the Portuguese colony, which it remained until 1763. It was one of the largest ports of the slave trade in the Americas, so today it is the city with the strongest African heritage outside Africa.",
+        "That heritage can be seen in the candomblé religion, in which the African deities called orixás are worshipped under the guise of Catholic saints, heard in the drums and tasted in the food cooked with palm oil. The city is divided into an Upper Town and a Lower Town, connected by an elevator."
       ],
       vidjeti: [
-        { ime: "Pelourinho", opis: "Povijesna jezgra šarenih kolonijalnih kuća, na UNESCO-ovu popisu od 1985. Ime znači stup srama, jer su se na ovdašnjem trgu javno kažnjavali robovi, što daje drukčiju težinu razglednički lijepim pročeljima." },
-        { ime: "Crkva i samostan sv. Franje", opis: "Barokna crkva iz prve polovice 18. stoljeća čija je unutrašnjost gotovo u cijelosti prekrivena pozlaćenom rezbarijom. U klaustru razgledajte plave portugalske pločice azulejos s poučnim prizorima i latinskim izrekama." },
-        { ime: "Elevador Lacerda", opis: "Gradsko dizalo otvoreno 1873. koje u pola minute svladava 72 metra između Donjeg i Gornjeg grada. Današnji izgled u stilu art déco dobilo je 1930., a s vrha puca pogled na Zaljev Svih svetih." },
-        { ime: "Igreja do Bonfim", opis: "Najvažnije hodočasničko mjesto Bahije, crkva iz 18. stoljeća čija je ograda prekrivena tisućama šarenih vrpci. Vrpca se veže oko zapešća s tri čvora i tri želje, koje se prema vjerovanju ostvare kada sama otpadne." },
-        { ime: "Fundação Casa de Jorge Amado", opis: "Plava kuća na glavnom trgu Pelourinha posvećena piscu Jorgeu Amadu, koji je Bahiju proslavio romanima poput „Gabriele“ i „Done Flor“. Na zidovima su naslovnice njegovih knjiga na desecima jezika." }
+        { ime: "Pelourinho", opis: "The historic core of colorful colonial houses, on the UNESCO list since 1985. The name means pillory, because slaves were publicly punished in the square here, which gives a different weight to the postcard-pretty facades." },
+        { ime: "Church and Convent of St. Francis", opis: "A Baroque church from the first half of the 18th century whose interior is almost entirely covered in gilded woodcarving. In the cloister, take a look at the blue Portuguese azulejo tiles with their moral scenes and Latin sayings." },
+        { ime: "Elevador Lacerda", opis: "The city elevator, opened in 1873, covers the 72 meters between the Lower and Upper Town in half a minute. It was given its present Art Deco look in 1930, and from the top there is a sweeping view of the Bay of All Saints." },
+        { ime: "Igreja do Bonfim", opis: "The most important pilgrimage site in Bahia, a church from the 18th century whose fence is covered with thousands of colorful ribbons. A ribbon is tied around the wrist with three knots and three wishes, which according to belief come true when it falls off by itself." },
+        { ime: "Fundação Casa de Jorge Amado", opis: "The blue house on the main square of Pelourinho dedicated to the writer Jorge Amado, who made Bahia famous with novels such as “Gabriela” and “Dona Flor”. The walls display the covers of his books in dozens of languages." }
       ],
       jesti: [
-        { ime: "Acarajé", opis: "Kupuje se na ulici od baiana u bijelom, osobito u četvrti Rio Vermelho, gdje se navečer stvaraju redovi." },
-        { ime: "Moqueca baiana", opis: "Riba ili škampi u umaku od kokosova mlijeka i palmina ulja, stiže na stol kipuća u glinenoj posudi, uz rižu i pirão od brašna manioke." },
-        { ime: "Cocada", opis: "Slatkiš od kokosa i šećera, bijeli ili tamni od karamele, prodaje se na pladnjevima po cijelom starom gradu." }
+        { ime: "Acarajé", opis: "It is bought in the street from baianas dressed in white, especially in the Rio Vermelho neighborhood, where lines form in the evening." },
+        { ime: "Moqueca baiana", opis: "Fish or shrimp in a sauce of coconut milk and palm oil, which arrives at the table bubbling in a clay pot, with rice and pirão made from cassava flour." },
+        { ime: "Cocada", opis: "A sweet made of coconut and sugar, white or dark with caramel, sold from trays all over the old town." }
       ],
       dozivjeti: [
-        { ime: "Bubnjevi Olodum", opis: "Kulturna skupina koja je stvorila ritam samba-reggae i svirala s Michaelom Jacksonom i Paulom Simonom održava probe i nastupe u Pelourinhu.", link: "https://olodum.com.br/" },
-        { ime: "Sat capoeire", opis: "U Salvadoru su djelovali majstori Bimba i Pastinha, utemeljitelji dviju glavnih škola capoeire. Brojne akademije u starom gradu nude probne satove, a rode na trgovima slobodno se gledaju." },
-        { ime: "Lavagem do Bonfim", opis: "U siječnju povorka baiana u bijelom hoda osam kilometara do crkve Bonfim i mirisnom vodom pere njezine stube, uz glazbu i ples cijelim putem." }
+        { ime: "The Olodum drums", opis: "The cultural group that created the samba-reggae rhythm and played with Michael Jackson and Paul Simon holds rehearsals and performances in Pelourinho.", link: "https://olodum.com.br/" },
+        { ime: "A capoeira lesson", opis: "Salvador was home to the masters Bimba and Pastinha, the founders of the two main schools of capoeira. Numerous academies in the old town offer trial lessons, and the rodas in the squares are free to watch." },
+        { ime: "Lavagem do Bonfim", opis: "In January a procession of baianas in white walks eight kilometers to the Bonfim church and washes its steps with scented water, with music and dancing all the way." }
       ],
       agencije: [
-        { ime: "Salvador da Bahia", opis: "Službeni turistički portal grada s kalendarom događanja.", link: "https://www.salvadordabahia.com/" },
-        { ime: "Bahia Turismo", opis: "Turistički portal savezne države Bahije.", link: "https://www.bahia.com.br/" }
+        { ime: "Salvador da Bahia", opis: "The official tourism portal of the city, with a calendar of events.", link: "https://www.salvadordabahia.com/" },
+        { ime: "Bahia Turismo", opis: "The tourism portal of the state of Bahia.", link: "https://www.bahia.com.br/" }
       ],
-      kada: "Najmanje kiše pada od rujna do ožujka. Utorkom navečer Pelourinho je najživlji, a u sporednim ulicama starog grada čuvajte torbu i mobitel."
+      kada: "The least rain falls from September to March. Pelourinho is at its liveliest on Tuesday evenings, and in the side streets of the old town keep an eye on your bag and your phone."
     },
     {
       id: "iguacu",
-      ime: "Slapovi Iguaçu",
+      ime: "Iguaçu Falls",
       vrsta: "priroda",
-      sazetak: "Gotovo tri kilometra široka zavjesa od 275 slapova na granici Brazila i Argentine, s brazilske strane viđena kao panorama.",
+      sazetak: "A curtain of 275 waterfalls almost three kilometers wide on the border between Brazil and Argentina, seen from the Brazilian side as a panorama.",
       prica: [
-        "Ime na jeziku naroda Guaraní znači velika voda. Prvi Europljanin koji ih je vidio bio je španjolski istraživač Álvar Núñez Cabeza de Vaca 1541. godine.",
-        "Legenda naroda Guaraní kaže da je bog zmija M'Boi, bijesan što mu je obećana djevojka Naipí pobjegla kanuom s ratnikom Tarobom, rasjekao rijeku i tako stvorio slapove. Brazilski nacionalni park osnovan je 1939., a na UNESCO-ovu je popisu od 1986."
+        "In the language of the Guaraní people the name means big water. The first European to see the falls was the Spanish explorer Álvar Núñez Cabeza de Vaca, in 1541.",
+        "A legend of the Guaraní people says that the serpent god M'Boi, furious that the girl promised to him, Naipí, had fled in a canoe with the warrior Tarobá, split the river apart and so created the falls. The Brazilian national park was established in 1939 and has been on the UNESCO list since 1986."
       ],
       vidjeti: [
-        { ime: "Trilha das Cataratas", opis: "Staza duga oko 1200 metara vodi uz rub kanjona i na svakom zavoju otvara širi pogled na argentinske slapove preko puta. Završava mostićem koji vas dovodi usred vodene prašine, pa ponesite kabanicu." },
-        { ime: "Garganta do Diabo", opis: "Vražje ždrijelo je potkovasti ponor u koji se voda ruši s oko 80 metara visine. S brazilske se strane gleda odozdo i sprijeda, a u sunčanim danima nad njim gotovo uvijek stoji duga." },
-        { ime: "Parque das Aves", opis: "Park ptica odmah do ulaza u nacionalni park, posvećen spašavanju vrsta atlantske šume. Kroz goleme krletke se prolazi, pa vam tukani i are prelijeću tik iznad glave." },
-        { ime: "Brana Itaipu", opis: "Hidroelektrana na rijeci Paraná, zajednički projekt Brazila i Paragvaja, jedna od najvećih na svijetu po proizvodnji struje. Razgledava se autobusom, a s vidikovca se vidi koliko je betonski zid zapravo golem." }
+        { ime: "Trilha das Cataratas", opis: "A trail about 1,200 meters long runs along the rim of the canyon and opens a wider view of the Argentine falls across the way at every bend. It ends at a walkway that takes you right into the middle of the spray, so bring a raincoat." },
+        { ime: "Garganta do Diabo", opis: "The Devil's Throat is a horseshoe-shaped chasm into which the water plunges from a height of about 80 meters. From the Brazilian side you look at it from below and head-on, and on sunny days there is almost always a rainbow above it." },
+        { ime: "Parque das Aves", opis: "The bird park right next to the entrance to the national park, devoted to rescuing species of the Atlantic Forest. You walk through the huge aviaries, so toucans and macaws fly just above your head." },
+        { ime: "Itaipu Dam", opis: "The hydroelectric plant on the Paraná River, a joint project of Brazil and Paraguay, is one of the largest in the world by electricity output. It is toured by bus, and from the viewpoint you can see just how enormous the concrete wall really is." }
       ],
       jesti: [
-        { ime: "Riječna riba", opis: "U gradu Foz do Iguaçu na jelovnicima su surubim i dourado, ribe iz rijeke Paraná, najčešće pečene na žaru." },
-        { ime: "Chipa", opis: "Pecivo od škroba manioke i sira, srodnik pão de queijo, koje se prodaje na ulici jer su Paragvaj i Argentina na dohvat ruke." }
+        { ime: "River fish", opis: "In the city of Foz do Iguaçu the menus feature surubim and dourado, fish from the Paraná River, most often grilled." },
+        { ime: "Chipa", opis: "A baked roll of cassava starch and cheese, a relative of pão de queijo, sold in the street because Paraguay and Argentina are within arm's reach." }
       ],
       dozivjeti: [
-        { ime: "Obje strane slapova", opis: "Brazilska strana daje pregled, a argentinska vas vodi tik iznad vode, pa vrijedi odvojiti po jedan dan za svaku. Za prelazak granice ponesite putovnicu." },
-        { ime: "Vožnja čamcem pod slapove", opis: "Gumeni čamci voze uzvodno kroz kanjon do samog podnožja slapova. Bit ćete mokre do kože, pa suhu odjeću ostavite u ormariću." }
+        { ime: "Both sides of the falls", opis: "The Brazilian side gives you the overview, and the Argentine side takes you right above the water, so it is worth setting aside a day for each. Bring your passport for the border crossing." },
+        { ime: "A boat ride under the falls", opis: "Inflatable boats travel upstream through the canyon to the very foot of the falls. You will be soaked to the skin, so leave dry clothes in a locker." }
       ],
       agencije: [
-        { ime: "Cataratas do Iguaçu", opis: "Službena stranica brazilskog nacionalnog parka s ulaznicama.", link: "https://cataratasdoiguacu.com.br/" },
-        { ime: "Parque das Aves", opis: "Službena stranica parka ptica.", link: "https://www.parquedasaves.com.br/" },
-        { ime: "Turismo Itaipu", opis: "Službeni posjeti brani Itaipu.", link: "https://turismoitaipu.com.br/" }
+        { ime: "Cataratas do Iguaçu", opis: "The official website of the Brazilian national park, with tickets.", link: "https://cataratasdoiguacu.com.br/" },
+        { ime: "Parque das Aves", opis: "The official website of the bird park.", link: "https://www.parquedasaves.com.br/" },
+        { ime: "Turismo Itaipu", opis: "Official visits to the Itaipu Dam.", link: "https://turismoitaipu.com.br/" }
       ],
-      kada: "Vode ima najviše od prosinca do ožujka, kada je i najsparnije. Ugodnije je u proljeće i jesen, a u park uđite čim se otvori, prije izletničkih autobusa."
+      kada: "The water is at its highest from December to March, which is also when it is most humid. Spring and fall are more comfortable, and you should enter the park as soon as it opens, ahead of the tour buses."
     },
     {
       id: "manaus",
-      ime: "Manaus i Amazona",
+      ime: "Manaus and the Amazon",
       vrsta: "regija",
-      sazetak: "Dvomilijunski grad usred prašume, s opernom kućom iz doba kaučuka i rijekama koje teku jedna uz drugu, a ne miješaju se.",
+      sazetak: "A city of two million in the middle of the rainforest, with an opera house from the rubber era and rivers that flow side by side without mixing.",
       prica: [
-        "Manaus je nastao 1669. oko male portugalske utvrde na Rio Negru. Krajem 19. stoljeća svijet je trebao gumu za kotače, a kaučukovac je rastao samo u Amazoniji, pa je grad u nekoliko desetljeća postao basnoslovno bogat i među prvima u Brazilu dobio električnu rasvjetu i tramvaj.",
-        "Procvat je naglo završio nakon 1910., kada su plantaže u Aziji, podignute iz sjemena prokrijumčarenog iz Brazila, srušile cijenu kaučuka. Ostale su palače, a Manaus je danas polazište za boravak u prašumi."
+        "Manaus grew up in 1669 around a small Portuguese fort on the Rio Negro. At the end of the 19th century the world needed rubber for tires, and the rubber tree grew only in the Amazon, so within a few decades the city became fabulously rich and was among the first in Brazil to have electric lighting and a streetcar.",
+        "The boom ended abruptly after 1910, when plantations in Asia, raised from seeds smuggled out of Brazil, brought the price of rubber crashing down. The palaces remained, and today Manaus is the starting point for a stay in the rainforest."
       ],
       vidjeti: [
-        { ime: "Teatro Amazonas", opis: "Operna kuća otvorena 1896., za koju su mramor, lusteri i željezna konstrukcija dopremljeni brodovima iz Europe. Kupola je obložena s 36.000 keramičkih pločica u bojama brazilske zastave, a kolnik pred ulazom bio je popločan gumom kako kočije ne bi ometale predstavu." },
-        { ime: "Encontro das Águas", opis: "Susret voda je mjesto gdje se tamni Rio Negro i svijetlosmeđi Solimões spajaju u Amazonu i kilometrima teku jedan uz drugog bez miješanja. Razlog su razlike u temperaturi, brzini i gustoći, a granica se s broda vidi kao povučena ravnalom." },
-        { ime: "Mercado Adolpho Lisboa", opis: "Tržnica od lijevanog željeza i vitraja otvorena 1883., nadahnuta pariškim tržnicama Les Halles. Na štandovima potražite ribu pirarucu, koja može narasti i preko dva metra, i ljekovito bilje iz prašume." },
-        { ime: "Arhipelag Anavilhanas", opis: "Stotine dugih šumovitih otoka na Rio Negru uzvodno od Manausa, jedan od najvećih riječnih arhipelaga na svijetu. Tamna, kisela voda Rio Negra ima i praktičnu prednost, jer u njoj gotovo da nema komaraca." }
+        { ime: "Teatro Amazonas", opis: "The opera house opened in 1896, with marble, chandeliers and an iron structure shipped in from Europe. The dome is clad in 36,000 ceramic tiles in the colors of the Brazilian flag, and the roadway in front of the entrance was paved with rubber so that carriages would not disturb the performance." },
+        { ime: "Encontro das Águas", opis: "The Meeting of the Waters is the place where the dark Rio Negro and the light brown Solimões join to form the Amazon and flow side by side for kilometers without mixing. The reason lies in differences of temperature, speed and density, and from a boat the boundary looks as if it had been drawn with a ruler." },
+        { ime: "Mercado Adolpho Lisboa", opis: "A market of cast iron and stained glass opened in 1883, inspired by the Les Halles markets of Paris. At the stalls, look for the pirarucu fish, which can grow to more than two meters, and for medicinal herbs from the rainforest." },
+        { ime: "Anavilhanas Archipelago", opis: "Hundreds of long, forested islands in the Rio Negro upstream from Manaus, one of the largest river archipelagos in the world. The dark, acidic water of the Rio Negro has a practical advantage too, because there are almost no mosquitoes around it." }
       ],
       jesti: [
-        { ime: "Tambaqui", opis: "Velika riječna riba koja se hrani plodovima što padaju u vodu, a njezina masna rebra peku se na žaru poput svinjskih." },
-        { ime: "Tacacá", opis: "Vruća juha od fermentiranog soka manioke s račićima i listovima jambua, od kojih usne lagano utrnu. Pije se kasno poslijepodne iz izdubljene tikvice na uličnim štandovima." },
-        { ime: "Cupuaçu", opis: "Voće srodno kakau, kiselkasto i mirisno, najbolje u sokovima, kremama i sladoledu." }
+        { ime: "Tambaqui", opis: "A large river fish that feeds on fruit falling into the water, and whose fatty ribs are grilled like pork ribs." },
+        { ime: "Tacacá", opis: "A hot soup of fermented cassava juice with small shrimp and jambu leaves, which make your lips go slightly numb. It is drunk in the late afternoon from a hollowed-out gourd at street stalls." },
+        { ime: "Cupuaçu", opis: "A fruit related to cacao, tart and fragrant, at its best in juices, creams and ice cream." }
       ],
       dozivjeti: [
-        { ime: "Boravak u kolibama u prašumi", opis: "Dva do četiri dana u smještaju uz rijeku uključuju šetnje s vodičem, vožnju kanuom kroz poplavljenu šumu i noćno promatranje kajmana. Birajte smještaj koji ne nudi hvatanje i diranje divljih životinja." },
-        { ime: "Večer u operi", opis: "Kazalište tijekom godine ima koncerte i vođene obilaske, a u proljeće se u njemu održava operni festival.", link: "https://cultura.am.gov.br/espacos-culturais/teatros/teatro-amazonas/" }
+        { ime: "A stay in a jungle lodge", opis: "Two to four days in accommodation by the river include guided walks, canoeing through the flooded forest and spotting caimans at night. Choose a lodge that does not offer catching and handling wild animals." },
+        { ime: "An evening at the opera", opis: "The theater has concerts and guided tours throughout the year, and in spring it hosts an opera festival.", link: "https://cultura.am.gov.br/espacos-culturais/teatros/teatro-amazonas/" }
       ],
       agencije: [
-        { ime: "Prefeitura de Manaus", opis: "Službena stranica grada Manausa.", link: "https://www.manaus.am.gov.br/" },
-        { ime: "Embratur", opis: "Brazilska agencija za međunarodnu promociju turizma.", link: "https://www.embratur.com.br/" }
+        { ime: "Prefeitura de Manaus", opis: "The official website of the city of Manaus.", link: "https://www.manaus.am.gov.br/" },
+        { ime: "Embratur", opis: "The Brazilian agency for the international promotion of tourism.", link: "https://www.embratur.com.br/" }
       ],
-      kada: "Od lipnja do studenoga pada manje kiše i pojavljuju se riječne plaže. Od prosinca do svibnja voda je visoka pa se kanuom plovi između krošnji, što je jednako poseban doživljaj."
+      kada: "From June to November there is less rain and river beaches appear. From December to May the water is high and you canoe among the treetops, which is just as special an experience."
     },
     {
       id: "paraty",
       ime: "Paraty",
       vrsta: "gradić",
-      sazetak: "Bijeli kolonijalni gradić između prašume i mora, čije ulice za visoke plime preplavi more.",
+      sazetak: "A white colonial town between rainforest and sea, whose streets are flooded by the sea at high tide.",
       prica: [
-        "Paraty je u 18. stoljeću bio luka u kojoj je završavao Caminho do Ouro, popločana staza kojom se zlato iz rudnika Minas Geraisa spuštalo na brodove za Portugal. Kada je otvoren kraći put do Rija, gradić je zaboravljen, i upravo ga je to sačuvalo.",
-        "Cesta ga je s ostatkom zemlje povezala tek 1970-ih. Od 2019. Paraty je zajedno s obližnjim otokom Ilha Grande na UNESCO-ovu popisu, i kao kulturna i kao prirodna baština."
+        "In the 18th century Paraty was the port at the end of the Caminho do Ouro, the paved trail along which gold from the mines of Minas Gerais came down to the ships bound for Portugal. When a shorter route to Rio was opened the town was forgotten, and that is exactly what preserved it.",
+        "A road linked it to the rest of the country only in the 1970s. Since 2019 Paraty, together with the nearby island of Ilha Grande, has been on the UNESCO list as both a cultural and a natural heritage site."
       ],
       vidjeti: [
-        { ime: "Povijesna jezgra", opis: "Ulice su popločane velikim nepravilnim kamenjem i blago udubljene prema sredini. Graditelji su ih namjerno tako oblikovali da ih plima za punog mjeseca preplavi i ispere, pa se u lokvama zrcale bijela pročelja s obojenim vratima." },
-        { ime: "Igreja de Santa Rita", opis: "Crkva uz samu obalu, dovršena 1722., najfotografiranija građevina u gradu. Podigli su je oslobođeni mulati, jer je u kolonijalnom Paratyju svaka društvena skupina imala vlastitu crkvu." },
-        { ime: "Caminho do Ouro", opis: "Dio izvorne kamene staze koju su u 18. stoljeću gradili robovi može se prehodati s vodičem kroz atlantsku šumu. Uz put se vide ostaci carinarnice na kojoj se zlato vagalo i oporezivalo." },
-        { ime: "Zaljev i otoci", opis: "Pred gradom su deseci otočića i uvala do kojih voze drvene škune. More je mirno i zeleno, a šuma se spušta do same vode." }
+        { ime: "The historic center", opis: "The streets are paved with large irregular stones and dip gently toward the middle. The builders shaped them that way on purpose so that the tide at full moon would flood them and wash them clean, and the white facades with their painted doors are mirrored in the puddles." },
+        { ime: "Igreja de Santa Rita", opis: "The church right on the waterfront, completed in 1722, is the most photographed building in town. It was built by freed people of mixed race, because in colonial Paraty every social group had a church of its own." },
+        { ime: "Caminho do Ouro", opis: "A section of the original stone trail built by slaves in the 18th century can be walked with a guide through the Atlantic Forest. Along the way you can see the remains of the customs house where the gold was weighed and taxed." },
+        { ime: "The bay and the islands", opis: "Off the town lie dozens of islets and coves served by wooden schooners. The sea is calm and green, and the forest comes right down to the water." }
       ],
       jesti: [
-        { ime: "Cachaça", opis: "Paraty je stoljećima bio toliko poznat po rakiji od šećerne trske da se i sama rakija nekoć zvala parati. Destilerije u okolici primaju posjetitelje na kušanje." },
-        { ime: "Riba s bananom", opis: "Lokalno jelo ribara caiçara: riba kuhana ili pečena s bananama, koje ovdje rastu iza svake kuće." }
+        { ime: "Cachaça", opis: "For centuries Paraty was so well known for its sugarcane spirit that the spirit itself was once called parati. The distilleries in the surrounding area welcome visitors for tastings." },
+        { ime: "Fish with banana", opis: "A local dish of the caiçara fishermen: fish stewed or baked with bananas, which grow behind every house here." }
       ],
       dozivjeti: [
-        { ime: "Izlet škunom", opis: "Cjelodnevna plovidba s nekoliko zaustavljanja za kupanje na otocima i plažama do kojih nema ceste." },
-        { ime: "Trindade", opis: "Bivše ribarsko selo pola sata vožnje od Paratyja, s plažama okruženima prašumom i prirodnim bazenom među stijenama." }
+        { ime: "A schooner trip", opis: "A full day of sailing with several swimming stops at islands and beaches that no road reaches." },
+        { ime: "Trindade", opis: "A former fishing village half an hour's drive from Paraty, with beaches surrounded by rainforest and a natural pool among the rocks." }
       ],
       agencije: [
-        { ime: "Paraty.com.br", opis: "Turistički portal grada s kalendarom događanja i smještajem.", link: "https://paraty.com.br/" },
-        { ime: "Prefeitura de Paraty", opis: "Službena stranica gradske uprave.", link: "https://www.paraty.rj.gov.br/" }
+        { ime: "Paraty.com.br", opis: "The town's tourism portal, with a calendar of events and accommodation.", link: "https://paraty.com.br/" },
+        { ime: "Prefeitura de Paraty", opis: "The official website of the town administration.", link: "https://www.paraty.rj.gov.br/" }
       ],
-      kada: "Od svibnja do rujna najmanje je kiše. Ponesite obuću s ravnim, čvrstim potplatom, jer je hodanje po kolonijalnom kamenju pravi izazov za gležnjeve."
+      kada: "The least rain falls from May to September. Bring shoes with flat, sturdy soles, because walking on the colonial stones is a real challenge for the ankles."
     },
     {
       id: "pantanal-bonito",
-      ime: "Pantanal i Bonito",
+      ime: "The Pantanal and Bonito",
       vrsta: "priroda",
-      sazetak: "Najveća tropska močvara svijeta, u kojoj se životinje vide lakše nego u Amazoniji, i gradić s rijekama prozirnima poput akvarija.",
+      sazetak: "The largest tropical wetland in the world, where animals are easier to see than in the Amazon, and a small town with rivers as clear as an aquarium.",
       prica: [
-        "Pantanal je golema ravnica koju rijeka Paragvaj i njezini pritoci svake godine poplave, a zatim se voda povuče i ostavi jezerca prepuna ribe. Budući da je krajolik otvoren, životinje se ovdje ne skrivaju u krošnjama kao u Amazoniji. Dio područja na UNESCO-ovu je popisu od 2000.",
-        "Bonito, na južnom rubu Pantanala, leži na vapnencu koji filtrira vodu, pa su njegove rijeke nevjerojatno bistre. Mjesto je poznato po strogim pravilima: broj posjetitelja na svakoj atrakciji ograničen je, a ulazi se samo s vodičem."
+        "The Pantanal is a vast plain that the Paraguay River and its tributaries flood every year, after which the water recedes and leaves behind pools teeming with fish. Because the landscape is open, the animals here do not hide in the treetops as they do in the Amazon. Part of the area has been on the UNESCO list since 2000.",
+        "Bonito, on the southern edge of the Pantanal, lies on limestone that filters the water, so its rivers are incredibly clear. The town is known for its strict regulations: the number of visitors at each attraction is limited, and entry is allowed only with a guide."
       ],
       vidjeti: [
-        { ime: "Jaguari i kapibare", opis: "Pantanal je jedno od najboljih mjesta na svijetu za susret s jaguarom u divljini, osobito uz rijeke u sušnoj sezoni. Kapibare, najveći glodavci na svijetu, i kajmani viđaju se gotovo na svakom koraku." },
-        { ime: "Tuiuiú", opis: "Roda jabiru, s bijelim tijelom, crnom glavom i crvenim ovratnikom, simbol je Pantanala. Raspon krila doseže joj dva i pol metra, a gnijezda na vrhovima stabala vide se izdaleka." },
-        { ime: "Gruta do Lago Azul", opis: "Špilja kod Bonita na čijem je dnu jezero intenzivno plave boje. Najljepša je u jutarnjim satima oko prosinca i siječnja, kada sunčeve zrake dopru do vode." },
-        { ime: "Rio da Prata", opis: "Rijeka u kojoj se s maskom i disalicom pluta nizvodno, nošen strujom, između jata velikih riba. Dno se ne smije dirati nogama kako se voda ne bi zamutila." }
+        { ime: "Jaguars and capybaras", opis: "The Pantanal is one of the best places in the world to meet a jaguar in the wild, especially along the rivers in the dry season. Capybaras, the largest rodents in the world, and caimans can be seen at almost every step." },
+        { ime: "Tuiuiú", opis: "The jabiru stork, with its white body, black head and red collar, is the symbol of the Pantanal. Its wingspan reaches two and a half meters, and its nests in the treetops can be seen from far away." },
+        { ime: "Gruta do Lago Azul", opis: "A cave near Bonito with a lake of intense blue at the bottom. It is at its most beautiful in the morning hours around December and January, when the sun's rays reach the water." },
+        { ime: "Rio da Prata", opis: "A river where you float downstream with a mask and snorkel, carried by the current, among shoals of large fish. You must not touch the bottom with your feet, so that the water does not cloud up." }
       ],
       jesti: [
-        { ime: "Pacu i pintado", opis: "Riječne ribe Pantanala, pečene na žaru ili pržene, glavno su jelo na svakom imanju." },
-        { ime: "Tereré", opis: "Hladni mate koji se pije iz roga ili čaše kroz metalnu slamku, navika preuzeta iz susjednog Paragvaja." }
+        { ime: "Pacu and pintado", opis: "The river fish of the Pantanal, grilled or fried, are the main dish on every ranch." },
+        { ime: "Tereré", opis: "Cold mate drunk from a horn or a glass through a metal straw, a habit taken over from neighboring Paraguay." }
       ],
       dozivjeti: [
-        { ime: "Boravak na fazendi", opis: "Stočarska imanja u Pantanalu primaju goste i vode ih na safari džipom, čamcem i na konjima, uz pantaneirose, ovdašnje kauboje." },
-        { ime: "Plutanje u Bonitu", opis: "Izleti se rezerviraju preko mjesnih agencija po jedinstvenim cijenama, a oprema i vodič uvijek su uključeni.", link: "https://www.turismo.bonito.ms.gov.br/" }
+        { ime: "A stay on a fazenda", opis: "The cattle ranches of the Pantanal take in guests and lead them on safaris by jeep, by boat and on horseback, alongside the pantaneiros, the local cowboys." },
+        { ime: "Floating in Bonito", opis: "Trips are booked through local agencies at fixed, uniform prices, and equipment and a guide are always included.", link: "https://www.turismo.bonito.ms.gov.br/" }
       ],
       agencije: [
-        { ime: "Visit MS", opis: "Službeni turistički portal savezne države Mato Grosso do Sul.", link: "https://www.visitms.com.br/" },
-        { ime: "Turismo Bonito", opis: "Ured za turizam općine Bonito.", link: "https://www.turismo.bonito.ms.gov.br/" },
-        { ime: "Sesc Pantanal", opis: "Privatni rezervat prirode sa smještajem i programima za posjetitelje.", link: "https://www.sesc.com.br/sescpantanal/" }
+        { ime: "Visit MS", opis: "The official tourism portal of the state of Mato Grosso do Sul.", link: "https://www.visitms.com.br/" },
+        { ime: "Turismo Bonito", opis: "The tourism office of the municipality of Bonito.", link: "https://www.turismo.bonito.ms.gov.br/" },
+        { ime: "Sesc Pantanal", opis: "A private nature reserve with accommodation and programs for visitors.", link: "https://www.sesc.com.br/sescpantanal/" }
       ],
-      kada: "Sušna sezona od svibnja do rujna najbolja je za promatranje životinja u Pantanalu. Rijeke u Bonitu najbistrije su u isto doba, kada je i voda nešto hladnija."
+      kada: "The dry season from May to September is best for wildlife watching in the Pantanal. The rivers in Bonito are at their clearest at the same time of year, when the water is also somewhat colder."
     },
     {
       id: "fernando-de-noronha",
       ime: "Fernando de Noronha",
       vrsta: "otok",
-      sazetak: "Vulkansko otočje 350 kilometara od obale, s plažama koje redovito proglašavaju najljepšima na svijetu i strogo ograničenim brojem gostiju.",
+      sazetak: "A volcanic archipelago 350 kilometers off the coast, with beaches that are regularly named the most beautiful in the world and a strictly limited number of guests.",
       prica: [
-        "Otočje je početkom 16. stoljeća zabilježila portugalska ekspedicija u kojoj je plovio Amerigo Vespucci, a ime nosi po trgovcu Fernãu de Loronhi, koji ga je financirao. Zbog izoliranosti je stoljećima služilo kao kažnjenička kolonija.",
-        "Danas je veći dio otočja morski nacionalni park, na UNESCO-ovu popisu od 2001. Svaki posjetitelj plaća dnevnu naknadu za očuvanje okoliša i posebnu ulaznicu za park, pa gužvi nema."
+        "The archipelago was recorded at the beginning of the 16th century by a Portuguese expedition on which Amerigo Vespucci sailed, and it is named after the merchant Fernão de Loronha, who financed it. Because of its isolation it served for centuries as a penal colony.",
+        "Today most of the archipelago is a marine national park, on the UNESCO list since 2001. Every visitor pays a daily environmental preservation fee and a separate ticket for the park, so there are no crowds."
       ],
       vidjeti: [
-        { ime: "Baía do Sancho", opis: "Uvala sa zelenom vodom ispod visokih litica, do koje se silazi željeznim ljestvama kroz usku pukotinu u stijeni. Od prosinca do lipnja na plaži se gnijezde morske kornjače, pa je navečer zatvorena." },
-        { ime: "Morro Dois Irmãos", opis: "Dva gotovo jednaka vulkanska stošca koja izranjaju iz mora, zaštitni znak otočja. Najbolje se vide s plaže Cacimba do Padre i s obližnjeg vidikovca." },
-        { ime: "Baía dos Golfinhos", opis: "U zoru se u ovaj zaljev na odmor vraćaju stotine dupina vrtuljaša, nazvanih po tome što se pri skoku okreću oko svoje osi. Promatraju se s vidikovca na litici, jer je u zaljev zabranjen ulazak." },
-        { ime: "Forte dos Remédios", opis: "Portugalska utvrda iz 18. stoljeća iznad glavnog naselja, s topovima još na bedemima. Odavde je najljepši pogled na brdo Morro do Pico, najvišu točku otoka." }
+        { ime: "Baía do Sancho", opis: "A cove of green water beneath high cliffs, reached by climbing down iron ladders through a narrow crack in the rock. From December to June sea turtles nest on the beach, so it is closed in the evening." },
+        { ime: "Morro Dois Irmãos", opis: "Two almost identical volcanic cones rising out of the sea, the emblem of the archipelago. They are best seen from Cacimba do Padre beach and from the nearby viewpoint." },
+        { ime: "Baía dos Golfinhos", opis: "At dawn hundreds of spinner dolphins, named for the way they rotate around their own axis as they leap, return to this bay to rest. They are watched from a viewpoint on the cliff, because entering the bay is forbidden." },
+        { ime: "Forte dos Remédios", opis: "A Portuguese fort from the 18th century above the main settlement, with cannons still on its ramparts. From here you get the finest view of Morro do Pico, the highest point on the island." }
       ],
       jesti: [
-        { ime: "Svježa riba", opis: "Tuna, barakuda i lampuga stižu izravno s brodica, a pripremaju se na žaru ili u umaku od kokosova mlijeka." },
-        { ime: "Tapioca", opis: "Palačinka od škroba manioke punjena sirom ili kokosom, omiljen doručak na sjeveroistoku Brazila." }
+        { ime: "Fresh fish", opis: "Tuna, barracuda and mahi-mahi come straight off the boats and are prepared on the grill or in a coconut milk sauce." },
+        { ime: "Tapioca", opis: "A pancake of cassava starch filled with cheese or coconut, a favorite breakfast in the northeast of Brazil." }
       ],
       dozivjeti: [
-        { ime: "Ronjenje s disalicom", opis: "U prirodnim bazenima i uvalama pliva se s kornjačama, ražama i malim morskim psima, a za neka mjesta termin treba rezervirati unaprijed preko uprave parka.", link: "https://www.parnanoronha.com.br/" },
-        { ime: "Zalazak sunca kod utvrde São Pedro do Boldró", opis: "Ruševine male utvrde na litici omiljeno su okupljalište pred sumrak, s pogledom na Dois Irmãos." }
+        { ime: "Snorkeling", opis: "In the natural pools and coves you swim with turtles, rays and small sharks, and for some spots a time slot has to be reserved in advance through the park administration.", link: "https://www.parnanoronha.com.br/" },
+        { ime: "Sunset at the São Pedro do Boldró fort", opis: "The ruins of a small fort on the cliff are a favorite gathering place before dusk, with a view of Dois Irmãos." }
       ],
       agencije: [
-        { ime: "Fernando de Noronha, službeni portal", opis: "Uprava otočja, s plaćanjem naknade za očuvanje okoliša.", link: "https://www.noronha.pe.gov.br/" },
-        { ime: "Parnamar Fernando de Noronha", opis: "Službena stranica morskog nacionalnog parka s ulaznicama i rezervacijama staza.", link: "https://www.parnanoronha.com.br/" }
+        { ime: "Fernando de Noronha, official portal", opis: "The administration of the archipelago, with payment of the environmental preservation fee.", link: "https://www.noronha.pe.gov.br/" },
+        { ime: "Parnamar Fernando de Noronha", opis: "The official website of the marine national park, with tickets and trail reservations.", link: "https://www.parnanoronha.com.br/" }
       ],
-      kada: "More je najmirnije i najprozirnije od kolovoza do prosinca. Letovi polaze iz Recifea i Natala, a smještaj i naknade rezervirajte što ranije jer je broj posjetitelja ograničen."
+      kada: "The sea is at its calmest and clearest from August to December. Flights leave from Recife and Natal, and you should book accommodation and pay the fees as early as possible because the number of visitors is limited."
     }
   ],
   izvori: [
@@ -310,6 +310,6 @@ window.ATLAS["brazil"] = {
     { ime: "Parnamar Fernando de Noronha", url: "https://www.parnanoronha.com.br/" },
     { ime: "Visit MS", url: "https://www.visitms.com.br/" },
     { ime: "MASP", url: "https://masp.com.br/pt-br" },
-    { ime: "UNESCO, Svjetska baština u Brazilu", url: "https://whc.unesco.org/en/statesparties/br" }
+    { ime: "UNESCO, World Heritage in Brazil", url: "https://whc.unesco.org/en/statesparties/br" }
   ]
 };

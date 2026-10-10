@@ -2,328 +2,328 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["portugal"] = {
   id: "portugal",
   ime: "Portugal",
-  regija: "Južna Europa",
-  sazetak: "Zemlja na rubu Europe koja je otvorila pomorske putove svijeta, a danas osvaja plavim pločicama, fadom, toplim pastel de nata i vinom iz doline Doura.",
+  regija: "Southern Europe",
+  sazetak: "A country on the edge of Europe that opened up the sea routes of the world, and today wins you over with blue tiles, fado, warm pastel de nata and wine from the Douro Valley.",
   uvod: [
-    "Portugal je uska traka kopna okrenuta Atlantiku, a upravo je ocean odredio sve što ćete ovdje vidjeti i kušati. Kraljevstvo je nastalo u 12. stoljeću, kada se Afonso Henriques proglasio kraljem, a granice utvrđene ugovorom iz 1297. gotovo se nisu mijenjale, pa se ubrajaju među najstarije u Europi. U 15. i 16. stoljeću portugalski su moreplovci oplovili Afriku, stigli do Indije i Brazila i donijeli u Lisabon papar, cimet, zlato i šećer, a taj se novac i danas vidi u raskošnim samostanima isklesanima poput kamene čipke.",
-    "Zlatno je doba naglo prekinuo potres koji je 1. studenoga 1755. razorio Lisabon, a 20. stoljeće donijelo je gotovo pola stoljeća diktature, koja je završila 25. travnja 1974. mirnim prevratom poznatim kao Revolucija karanfila. Iz te duge povijesti odlazaka i čekanja potekla je saudade, teško prevediva čežnja za nečim dalekim ili izgubljenim, koja se najbolje razumije kada se uvečer u maloj gostionici ugase svjetla i zapjeva fado. Portugalci su pritom srdačni i nenametljivi domaćini, hrana je jednostavna i izdašna, a udaljenosti su male, pa se u dva tjedna može vidjeti iznenađujuće mnogo."
+    "Portugal is a narrow strip of land facing the Atlantic, and it is the ocean that has shaped everything you will see and taste here. The kingdom came into being in the 12th century, when Afonso Henriques proclaimed himself king, and the borders fixed by a treaty of 1297 have barely changed since, which puts them among the oldest in Europe. In the 15th and 16th centuries Portuguese navigators sailed around Africa, reached India and Brazil and brought pepper, cinnamon, gold and sugar back to Lisbon, and that money can still be seen today in lavish monasteries carved like lace in stone.",
+    "The golden age was cut short by the earthquake that destroyed Lisbon on November 1, 1755, and the 20th century brought almost half a century of dictatorship, which ended on April 25, 1974 in a peaceful coup known as the Carnation Revolution. Out of that long history of departures and waiting came saudade, a hard-to-translate longing for something distant or lost, which you understand best when the lights go down in a small tavern in the evening and someone begins to sing fado. The Portuguese are warm and unobtrusive hosts, the food is simple and generous, and the distances are small, so you can see a surprising amount in two weeks."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od travnja do lipnja te u rujnu i listopadu, kada je toplo, a gužve su manje. Srpanj i kolovoz vrući su u unutrašnjosti i prepuni na obali, dok je Madeira ugodna tijekom cijele godine." },
-    { k: "Valuta", v: "Euro. Kartice se primaju gotovo posvuda, no za male gostionice, tržnice i kioske s kavom dobro je imati nešto gotovine." },
-    { k: "Kretanje", v: "Vlakovi državnog prijevoznika CP dobro povezuju Lisabon, Coimbru i Porto, a za Douro, Alentejo i Algarve korisni su autobusi ili unajmljeni automobil. U Lisabonu i Portu računajte na strme ulice i skliske kamene pločnike, pa ponesite cipele s dobrim potplatom." },
-    { k: "Napojnica", v: "Nije obvezna, ali je uobičajeno zaokružiti račun ili ostaviti pet do deset posto ako ste zadovoljne. Kruh, masline i sir koje konobar donese prije jela naplaćuju se, a ako ih ne želite, slobodno ih vratite." }
+    { k: "When to go", v: "From April to June and in September and October, when it is warm and the crowds are smaller. July and August are hot inland and packed on the coast, while Madeira is pleasant all year round." },
+    { k: "Currency", v: "The euro. Cards are accepted almost everywhere, but it is good to have some cash for small taverns, markets and coffee kiosks." },
+    { k: "Getting around", v: "Trains run by the state operator CP connect Lisbon, Coimbra and Porto well, while buses or a rental car are useful for the Douro, the Alentejo and the Algarve. In Lisbon and Porto, expect steep streets and slippery stone sidewalks, so bring shoes with a good sole." },
+    { k: "Tipping", v: "It is not required, but it is customary to round up the bill or leave five to ten percent if you are happy. The bread, olives and cheese the waiter brings before the meal are charged for, and if you do not want them, feel free to send them back." }
   ],
   hrana: [
-    { ime: "Pastel de nata", opis: "Košarica od hrskavog lisnatog tijesta punjena kremom od žumanjaka, zapečena dok se na površini ne pojave tamne mrlje.", prica: "Predaja kaže da su recept smislili redovnici samostana jeronimaca u Belému, koji su bjelanjcima škrobili odjeću, pa su žumanjke morali nekako iskoristiti. Kada su samostani 1834. zatvoreni, recept je prodan obližnjoj rafineriji šećera, koja je 1837. otvorila slastičarnicu Pastéis de Belém i ondje ga i danas čuva kao tajnu. Jede se topao, posut cimetom i šećerom u prahu." },
-    { ime: "Bacalhau", opis: "Soljeni i sušeni bakalar, namirnica koju Portugalci zovu vjernim prijateljem i pripremaju na bezbroj načina.", prica: "Zanimljivo je da se bakalar ne lovi uz portugalsku obalu, jer su ga ribari stoljećima donosili iz dalekih voda oko Newfoundlanda i Norveške, a sol im je omogućila da ga sačuvaju na dugom putu. Kaže se da postoji po jedan recept za svaki dan u godini. Za početak naručite bacalhau à Brás, s jajima, lukom i tankim prženim krumpirićima." },
-    { ime: "Caldo verde", opis: "Juha od krumpira i vrlo tanko rezanog raštana s kolutom dimljene kobasice chouriço.", prica: "Potječe iz pokrajine Minho na sjeveru i jede se na svadbama, pučkim svetkovinama i u novogodišnjoj noći. Poslužuje se u glinenoj zdjelici uz kukuruzni kruh broa." },
-    { ime: "Sardinhas assadas", opis: "Svježe srdele pečene na žaru, posoljene krupnom solju i položene na krišku kruha.", prica: "Sezona traje otprilike od lipnja do rujna, kada su srdele najmasnije. Tijekom lisabonskih svetkovina svetog Antuna u lipnju roštilji se pale na svakom uglu Alfame, a jedu se prstima, pri čemu kruh upija sokove." },
-    { ime: "Cozido à portuguesa", opis: "Bogato kuhano jelo od nekoliko vrsta mesa, kobasica, kupusa, mrkve i krumpira.", prica: "Svaka pokrajina ima svoju inačicu, a najneobičnija se priprema na azorskom otoku São Miguelu, gdje se lonac zakopa u vruću vulkansku zemlju i ondje kuha satima. To je tipičan nedjeljni obiteljski ručak." },
-    { ime: "Arroz de marisco", opis: "Sočna riža s plodovima mora, rajčicom i korijandrom, rjeđa od rižota i gotovo nalik gustoj juhi.", prica: "Portugalci jedu najviše riže u Europi po stanovniku, pa je ona ovdje pravo glavno jelo. Posuda se donosi na stol i dijeli, i obično je jedna porcija dovoljna za dvije osobe." },
-    { ime: "Vinho do Porto", opis: "Slatko pojačano vino iz doline Doura, kojemu se tijekom vrenja dodaje vinska rakija.", prica: "Rakija zaustavlja vrenje, pa u vinu ostaje prirodni šećer grožđa. Proslavili su ga engleski trgovci u 17. i 18. stoljeću, zbog čega mnoge kuće i danas nose engleska imena. Tawny dozrijeva u malim bačvama i miriše na orahe i karamel, dok je ruby mlađi i voćniji." },
-    { ime: "Vinho verde", opis: "Lagano, svježe i često blago pjenušavo vino sa sjeverozapada zemlje.", prica: "Ime znači zeleno vino, pri čemu se zeleno odnosi na mladost vina, koje se pije ubrzo nakon berbe, a boja mu može biti bijela, ružičasta ili crvena. Izvrsno se slaže s ribom i plodovima mora." },
-    { ime: "Ginjinha", opis: "Liker od višanja maraski koji se pije iz male čašice, katkad i iz čašice od čokolade.", prica: "U Lisabonu se od 1840. toči u sićušnom lokalu A Ginjinha kraj trga Rossio, gdje se pije stojeći na ulici. Prodavač će vas pitati želite li ga com elas ili sem elas, odnosno s višnjama na dnu čašice ili bez njih." }
+    { ime: "Pastel de nata", opis: "A little cup of crisp puff pastry filled with egg yolk custard and baked until dark spots appear on the surface.", prica: "Tradition has it that the recipe was thought up by the monks of the Jerónimos Monastery in Belém, who starched their clothes with egg whites and so had to use up the yolks somehow. When the monasteries were closed in 1834, the recipe was sold to a nearby sugar refinery, which opened the Pastéis de Belém pastry shop in 1837 and has guarded it there as a secret ever since. It is eaten warm, dusted with cinnamon and powdered sugar." },
+    { ime: "Bacalhau", opis: "Salted and dried cod, a food the Portuguese call their faithful friend and prepare in countless ways.", prica: "Interestingly, cod is not caught off the Portuguese coast, because for centuries fishermen brought it from distant waters around Newfoundland and Norway, and salt allowed them to preserve it on the long voyage. It is said that there is one recipe for every day of the year. To start with, order bacalhau à Brás, with eggs, onion and thin fried potato sticks." },
+    { ime: "Caldo verde", opis: "A soup of potatoes and very finely shredded collard greens with a slice of smoked chouriço sausage.", prica: "It comes from the Minho province in the north and is eaten at weddings, at folk festivals and on New Year's Eve. It is served in a small clay bowl with broa corn bread." },
+    { ime: "Sardinhas assadas", opis: "Fresh sardines grilled over charcoal, sprinkled with coarse salt and laid on a slice of bread.", prica: "The season runs roughly from June to September, when the sardines are at their fattest. During Lisbon's festivities for Saint Anthony in June, grills are lit on every corner of Alfama, and you eat the sardines with your fingers while the bread soaks up the juices." },
+    { ime: "Cozido à portuguesa", opis: "A rich boiled dish of several kinds of meat, sausages, cabbage, carrots and potatoes.", prica: "Every province has its own version, and the most unusual one is made on the Azorean island of São Miguel, where the pot is buried in hot volcanic ground and cooks there for hours. It is the typical family Sunday lunch." },
+    { ime: "Arroz de marisco", opis: "Juicy rice with seafood, tomato and cilantro, looser than a risotto and almost like a thick soup.", prica: "The Portuguese eat more rice per person than anyone else in Europe, so here it is a main dish in its own right. The pot is brought to the table and shared, and one portion is usually enough for two people." },
+    { ime: "Vinho do Porto", opis: "A sweet fortified wine from the Douro Valley, to which grape brandy is added during fermentation.", prica: "The brandy stops the fermentation, so the natural sugar of the grapes stays in the wine. It was made famous by English merchants in the 17th and 18th centuries, which is why many houses still bear English names today. Tawny ages in small barrels and smells of walnuts and caramel, while ruby is younger and fruitier." },
+    { ime: "Vinho verde", opis: "A light, fresh and often slightly sparkling wine from the northwest of the country.", prica: "The name means green wine, where green refers to the youth of the wine, which is drunk soon after the harvest, and its color can be white, pink or red. It goes wonderfully with fish and seafood." },
+    { ime: "Ginjinha", opis: "A sour cherry liqueur drunk from a small glass, and sometimes from a little cup made of chocolate.", prica: "In Lisbon it has been poured since 1840 in the tiny bar A Ginjinha beside Rossio square, where you drink it standing in the street. The vendor will ask whether you want it com elas or sem elas, that is, with cherries at the bottom of the glass or without them." }
   ],
   obicaji: [
-    { ime: "Fado", opis: "Gradska pjesma o ljubavi, moru, sudbini i čežnji, koju pjevač ili pjevačica izvodi uz portugalsku gitaru kruškolika oblika s dvanaest žica i klasičnu gitaru. Od 2011. nalazi se na UNESCO-ovu popisu nematerijalne baštine. Tijekom pjesme u lokalu vlada potpuna tišina, pa se tada ne razgovara i ne jede.", gdje: "U lisabonskim četvrtima Alfama, Mouraria i Bairro Alto, uz obavezan posjet Muzeju fada. U Coimbri se njeguje posebna, akademska inačica, koju pjevaju muškarci u crnim studentskim plaštevima." },
-    { ime: "Azulejo", opis: "Glazirane keramičke pločice kojima su obložene crkve, kolodvori, palače i obične kuće. Riječ dolazi od arapskoga al-zulayj, što znači uglačani kamenčić. Plavo-bijele ploče postale su moda u 17. stoljeću pod utjecajem kineskog porculana i nizozemskog Delfta.", gdje: "Nacionalni muzej azuleja u Lisabonu, kolodvor São Bento u Portu i kolodvor u Pinhãu. U Lisabonu se možete upisati na kratke radionice oslikavanja pločica." },
-    { ime: "Festas dos Santos Populares", opis: "Lipanjske pučke svetkovine u čast svetog Antuna, svetog Ivana i svetog Petra, s ulicama okićenima šarenim vrpcama, roštiljima i plesom do jutra. U Lisabonu se tada daruju lončići bosiljka sa stihovima, a u Portu se prolaznici dobroćudno lupkaju plastičnim čekićima po glavi.", gdje: "U Lisabonu u noći s 12. na 13. lipnja, a u Portu u noći s 23. na 24. lipnja." },
-    { ime: "Calçada portuguesa", opis: "Pločnici složeni od malih kocki bijelog vapnenca i crnog bazalta u valove, zvijezde i brodove. Polažu ih ručno majstori zvani calceteiros, a obrt je s vremenom postao zaštitni znak portugalskih gradova, sve do Rio de Janeira i Macaua.", gdje: "Trg Rossio u Lisabonu s uzorkom valova, Avenida da Liberdade i gotovo svaki gradski trg u zemlji." },
-    { ime: "Cante alentejano", opis: "Višeglasno pjevanje bez glazbene pratnje iz pokrajine Alentejo, sporo i svečano, u kojem zbor odgovara dvojici solista. Nastalo je među poljskim radnicima i rudarima, a od 2014. zaštićeno je kao UNESCO-ova nematerijalna baština.", gdje: "U gostionicama i na svetkovinama u okolici Évore, Beje i Serpe." },
-    { ime: "Galo de Barcelos", opis: "Šareno oslikani glineni pijetao, najpoznatiji portugalski suvenir i simbol sreće. Legenda kaže da je nevino osuđeni hodočasnik pred sucem rekao kako će pečeni pijetao na stolu zakukurikati u znak njegove nevinosti, što se i dogodilo.", gdje: "Barcelos na sjeveru zemlje, gdje se četvrtkom održava jedan od najvećih sajmova u Portugalu." }
+    { ime: "Fado", opis: "An urban song about love, the sea, fate and longing, performed by a singer to the accompaniment of the pear-shaped, twelve-string Portuguese guitar and a classical guitar. It has been on the UNESCO list of intangible heritage since 2011. During a song the room falls completely silent, and nobody talks or eats.", gdje: "In the Lisbon neighborhoods of Alfama, Mouraria and Bairro Alto, with a visit to the Fado Museum a must. Coimbra cultivates its own academic version, sung by men in black student capes." },
+    { ime: "Azulejo", opis: "Glazed ceramic tiles that cover churches, train stations, palaces and ordinary houses. The word comes from the Arabic al-zulayj, which means polished little stone. Blue and white panels became the fashion in the 17th century under the influence of Chinese porcelain and Dutch Delftware.", gdje: "The National Tile Museum in Lisbon, São Bento station in Porto and the station in Pinhão. In Lisbon you can sign up for short tile-painting workshops." },
+    { ime: "Festas dos Santos Populares", opis: "The June folk festivals in honor of Saint Anthony, Saint John and Saint Peter, with streets decked in colorful streamers, grills and dancing until morning. In Lisbon people give each other little pots of basil with verses attached, and in Porto passersby good-naturedly tap one another on the head with plastic hammers.", gdje: "In Lisbon on the night of June 12 to 13, and in Porto on the night of June 23 to 24." },
+    { ime: "Calçada portuguesa", opis: "Sidewalks laid with small cubes of white limestone and black basalt in patterns of waves, stars and ships. They are set by hand by craftsmen called calceteiros, and over time the craft has become a trademark of Portuguese cities, all the way to Rio de Janeiro and Macau.", gdje: "Rossio square in Lisbon with its wave pattern, the Avenida da Liberdade and almost every town square in the country." },
+    { ime: "Cante alentejano", opis: "Unaccompanied polyphonic singing from the Alentejo province, slow and solemn, in which a choir answers two soloists. It grew up among farm laborers and miners, and since 2014 it has been protected as UNESCO intangible heritage.", gdje: "In taverns and at festivals around Évora, Beja and Serpa." },
+    { ime: "Galo de Barcelos", opis: "A brightly painted clay rooster, the best-known Portuguese souvenir and a symbol of good luck. Legend says that a wrongly convicted pilgrim told the judge that the roast rooster on the table would crow as a sign of his innocence, and that is exactly what happened.", gdje: "Barcelos in the north of the country, where one of the largest markets in Portugal is held on Thursdays." }
   ],
   fraze: [
-    { izvorno: "Olá, bom dia", izgovor: "o-LA, bon DI-a", hr: "Bok, dobar dan" },
-    { izvorno: "Obrigada", izgovor: "obri-GA-da", hr: "Hvala (kaže žena)" },
-    { izvorno: "Por favor", izgovor: "pur fa-VOR", hr: "Molim" },
-    { izvorno: "Desculpe", izgovor: "deš-KUL-pe", hr: "Oprostite" },
-    { izvorno: "Quanto custa?", izgovor: "KUAN-tu KUŠ-ta", hr: "Koliko košta?" },
-    { izvorno: "A conta, por favor", izgovor: "a KON-ta, pur fa-VOR", hr: "Račun, molim" },
-    { izvorno: "Onde fica...?", izgovor: "ON-de FI-ka", hr: "Gdje se nalazi...?" },
-    { izvorno: "Saúde!", izgovor: "sa-U-de", hr: "Živjeli!" }
+    { izvorno: "Olá, bom dia", izgovor: "oh-LAH, bong DEE-ah", hr: "Hi, good morning" },
+    { izvorno: "Obrigada", izgovor: "oh-bree-GAH-dah", hr: "Thank you (said by a woman)" },
+    { izvorno: "Por favor", izgovor: "poor fah-VOHR", hr: "Please" },
+    { izvorno: "Desculpe", izgovor: "dish-KOOL-peh", hr: "Excuse me, sorry" },
+    { izvorno: "Quanto custa?", izgovor: "KWAHN-too KOOSH-tah", hr: "How much does it cost?" },
+    { izvorno: "A conta, por favor", izgovor: "ah KOHN-tah, poor fah-VOHR", hr: "The check, please" },
+    { izvorno: "Onde fica...?", izgovor: "OHN-deh FEE-kah", hr: "Where is...?" },
+    { izvorno: "Saúde!", izgovor: "sah-OO-deh", hr: "Cheers!" }
   ],
   zanimljivosti: [
-    "Savez Portugala i Engleske, potvrđen ugovorom iz Windsora 1386. godine, smatra se najstarijim diplomatskim savezom na svijetu koji je još na snazi.",
-    "Portugal proizvodi otprilike polovicu svjetskog pluta, a kora se s hrasta plutnjaka smije guliti tek svakih devet godina, pa se na deblo ispisuje zadnja znamenka godine guljenja.",
-    "Lisabonska knjižara Bertrand, otvorena 1732., prema Guinnessovoj knjizi rekorda najstarija je knjižara na svijetu koja još radi.",
-    "Japanska tempura potječe od jela koje su u 16. stoljeću u Japan donijeli portugalski misionari i trgovci.",
-    "Običaj ispijanja čaja na engleskom je dvoru udomaćila portugalska princeza Katarina od Bragançe, koja se 1662. udala za kralja Karla II.",
-    "Sveučilište u Coimbri osnovano je 1290. godine i jedno je od najstarijih u Europi koja neprekidno djeluju.",
-    "Kod ribarskog mjesta Nazaré podmorski kanjon stvara neke od najviših valova na svijetu, a ondje je 2020. izmjeren rekordni val za jahanje na dasci, viši od 26 metara.",
-    "Portugalskim jezikom govori više od 250 milijuna ljudi, od čega tek oko deset milijuna živi u samom Portugalu."
+    "The alliance between Portugal and England, confirmed by the Treaty of Windsor in 1386, is considered the oldest diplomatic alliance in the world still in force.",
+    "Portugal produces roughly half of the world's cork, and the bark may be stripped from a cork oak only once every nine years, so the last digit of the stripping year is written on the trunk.",
+    "Lisbon's Bertrand bookstore, opened in 1732, is the oldest bookstore in the world still in operation, according to Guinness World Records.",
+    "Japanese tempura comes from a dish brought to Japan in the 16th century by Portuguese missionaries and traders.",
+    "The custom of drinking tea was made at home at the English court by the Portuguese princess Catherine of Braganza, who married King Charles II in 1662.",
+    "The University of Coimbra was founded in 1290 and is one of the oldest in Europe in continuous operation.",
+    "Off the fishing town of Nazaré an undersea canyon creates some of the highest waves in the world, and in 2020 a record surfed wave of more than 26 meters was measured there.",
+    "Portuguese is spoken by more than 250 million people, of whom only about ten million live in Portugal itself."
   ],
   mjesta: [
     {
       id: "lisabon",
-      ime: "Lisabon",
+      ime: "Lisbon",
       vrsta: "grad",
-      sazetak: "Grad na sedam brežuljaka iznad ušća rijeke Tejo, s vidikovcima, žutim tramvajima i fadom koji dopire iz malih gostionica.",
+      sazetak: "A city on seven hills above the mouth of the River Tagus, with viewpoints, yellow trams and fado drifting out of small taverns.",
       prica: [
-        "Legenda pripisuje osnutak Lisabona Odiseju, dok povijest govori o feničkoj luci i rimskom gradu Olisipu. Mauri su njime vladali više od četiri stoljeća, sve dok ga 1147. nije osvojio prvi portugalski kralj Afonso Henriques uz pomoć križara koji su plovili prema Svetoj zemlji. Na blagdan Svih svetih 1755. grad su razorili potres, plimni val i požar, pa je markiz od Pombala dao iznova sagraditi donji grad Baixu kao pravilnu mrežu ulica s kućama čiji drveni kostur, zvan gaiola, podnosi podrhtavanje tla. Alfama je potres preživjela, i zato su njezine uličice i danas zamršene kao u maurskom gradu."
+        "Legend credits Odysseus with founding Lisbon, while history speaks of a Phoenician port and the Roman town of Olisipo. The Moors ruled it for more than four centuries, until it was conquered in 1147 by the first Portuguese king, Afonso Henriques, with the help of crusaders sailing for the Holy Land. On All Saints' Day in 1755 the city was destroyed by an earthquake, a tidal wave and fire, so the Marquis of Pombal had the lower town, the Baixa, rebuilt as a regular grid of streets lined with houses whose wooden frame, called a gaiola, can withstand tremors. Alfama survived the earthquake, which is why its lanes are still as tangled today as in a Moorish town."
       ],
       vidjeti: [
-        { ime: "Torre de Belém", opis: "Utvrda podignuta između 1514. i 1520. na ulazu u luku, odakle su isplovljavale karavele. Najljepši je primjer manuelinskog stila, u kojem se kamen kleše u obliku brodske užadi, armilarnih sfera i križeva Kristova reda. Na zapadnoj strani, ispod jedne kule, potražite glavu nosoroga, uspomenu na životinju koju je kralj Manuel I. 1515. dobio na dar iz Indije." },
-        { ime: "Mosteiro dos Jerónimos", opis: "Samostan koji je kralj Manuel I. počeo graditi oko 1501. u zahvalu za Da Gamin put u Indiju, a plaćao ga je porezom na trgovinu začinima. Stupovi u crkvi šire se pri vrhu poput palmi, a odmah kraj ulaza leže grobnice Vasca da Game i pjesnika Luísa de Camõesa. U klaustru zastanite pred svakim stupom, jer ne postoje dva jednaka." },
-        { ime: "Alfama i Castelo de São Jorge", opis: "Najstarija gradska četvrt penje se od rijeke do maurske utvrde, koja je nakon 1147. postala kraljevski dvor. Sa zidina se vidi cijeli grad i most 25. travnja, a putem zastanite na vidikovcu Santa Luzia, gdje ploče od azuleja prikazuju Lisabon prije potresa." },
-        { ime: "Sé de Lisboa", opis: "Katedrala čija je gradnja započela 1147., odmah nakon osvajanja grada, i to na mjestu glavne džamije. Dvije kule s kruništem daju joj izgled tvrđave, što nije slučajno, jer je služila i kao utočište. U klaustru su otkopani rimski, vizigotski i maurski slojevi grada." },
-        { ime: "Convento do Carmo", opis: "Gotička crkva iz 14. stoljeća kojoj se u potresu urušio krov i koja nikada nije obnovljena. Lukovi otvoreni prema nebu ostavljeni su kao spomen na 1. studenoga 1755., a u nekadašnjem svetištu nalazi se mali arheološki muzej s dvjema peruanskim mumijama." },
-        { ime: "Museu Nacional do Azulejo", opis: "Muzej u samostanu Madre de Deus iz 1509. godine vodi vas kroz pet stoljeća keramičkih pločica. Najvrednije je djelo panorama Lisabona duga oko 23 metra, naslikana prije potresa, na kojoj se vide zgrade kojih više nema." }
+        { ime: "Torre de Belém", opis: "A fortress built between 1514 and 1520 at the entrance to the harbor from which the caravels set sail. It is the finest example of the Manueline style, in which stone is carved into ship's ropes, armillary spheres and crosses of the Order of Christ. On the western side, beneath one of the turrets, look for the head of a rhinoceros, a memento of the animal King Manuel I received as a gift from India in 1515." },
+        { ime: "Mosteiro dos Jerónimos", opis: "The monastery that King Manuel I began building around 1501 in thanks for Da Gama's voyage to India, and paid for with a tax on the spice trade. The columns in the church spread out at the top like palm trees, and right by the entrance lie the tombs of Vasco da Gama and the poet Luís de Camões. In the cloister, pause in front of every column, because no two are alike." },
+        { ime: "Alfama and the Castelo de São Jorge", opis: "The oldest neighborhood in the city climbs from the river up to the Moorish fortress, which became the royal court after 1147. From the walls you can see the whole city and the 25 de Abril Bridge, and on the way up stop at the Santa Luzia viewpoint, where azulejo panels show Lisbon before the earthquake." },
+        { ime: "Sé de Lisboa", opis: "The cathedral whose construction began in 1147, immediately after the city was conquered, on the site of the main mosque. Two crenellated towers give it the look of a fortress, which is no accident, because it also served as a refuge. In the cloister, the Roman, Visigothic and Moorish layers of the city have been excavated." },
+        { ime: "Convento do Carmo", opis: "A 14th-century Gothic church whose roof collapsed in the earthquake and which was never rebuilt. The arches open to the sky were left as a memorial to November 1, 1755, and the former sanctuary holds a small archaeological museum with two Peruvian mummies." },
+        { ime: "Museu Nacional do Azulejo", opis: "The museum in the Madre de Deus convent, dating from 1509, takes you through five centuries of ceramic tiles. The most valuable piece is a panorama of Lisbon about 23 meters long, painted before the earthquake, which shows buildings that no longer exist." }
       ],
       jesti: [
-        { ime: "Pastel de Belém", opis: "Izvorni pastel de nata kuša se u slastičarnici Pastéis de Belém, otvorenoj 1837. nedaleko od samostana. Red pred vratima odnosi se na kupnju za van, pa uđite unutra, gdje ima mnogo sala i stolova." },
-        { ime: "Bifana", opis: "Sendvič od tanko rezane svinjetine pirjane u bijelom vinu i češnjaku, koji se jede stojeći za šankom uz malo pivo i senf." },
-        { ime: "Sardinhas assadas", opis: "Srdele sa žara najbolje su u lipnju u Alfami, tijekom svetkovina svetog Antuna, zaštitnika grada." },
-        { ime: "Ginjinha", opis: "Liker od višanja pije se s nogu u lokalu A Ginjinha kraj trga Rossio, koji radi od 1840. godine." }
+        { ime: "Pastel de Belém", opis: "The original pastel de nata is tasted at the Pastéis de Belém pastry shop, opened in 1837 not far from the monastery. The line at the door is for takeout, so go inside, where there are many rooms and tables." },
+        { ime: "Bifana", opis: "A sandwich of thinly sliced pork simmered in white wine and garlic, eaten standing at the counter with a small beer and mustard." },
+        { ime: "Sardinhas assadas", opis: "Grilled sardines are at their best in June in Alfama, during the festivities for Saint Anthony, the city's patron saint." },
+        { ime: "Ginjinha", opis: "The sour cherry liqueur is drunk standing up at the bar A Ginjinha beside Rossio square, which has been in business since 1840." }
       ],
       dozivjeti: [
-        { ime: "Muzej fada", opis: "Prije večernjeg izlaska ovdje ćete uz slušalice upoznati glasove Amálije Rodrigues i drugih velikih pjevača, pa ćete uvečer bolje razumjeti što slušate.", link: "https://www.museudofado.pt/en" },
-        { ime: "Večer fada u Alfami", opis: "Clube de Fado, nedaleko od katedrale, kuća je s večerom u kojoj nastupaju priznati glazbenici, a Mesa de Frades smještena je u nekadašnjoj kapeli obloženoj pločicama iz 18. stoljeća. Mjesto svakako rezervirajte unaprijed.", link: "https://www.clubedefado.pt/en/" },
-        { ime: "Tečaj portugalske kuhinje", opis: "U školi Cooking Lisbon u nekoliko se sati priprema cijeli portugalski obrok, a postoji i radionica posvećena isključivo kremastom kolaču pastel de nata.", link: "https://www.cookinglisbon.com/" },
-        { ime: "Tramvaj 28 i vidikovci", opis: "Stari žuti tramvaj vijuga kroz Graçu, Alfamu i Baixu. Uđite rano ujutro na početnoj stanici Martim Moniz, čuvajte torbu, a za zalazak sunca popnite se na vidikovac Senhora do Monte." }
+        { ime: "The Fado Museum", opis: "Before your evening out, put on the headphones here and get to know the voices of Amália Rodrigues and other great singers, and you will understand what you are hearing much better that night.", link: "https://www.museudofado.pt/en" },
+        { ime: "An evening of fado in Alfama", opis: "Clube de Fado, not far from the cathedral, is a dinner house where acclaimed musicians perform, and Mesa de Frades is set in a former chapel lined with 18th-century tiles. Be sure to reserve your seat in advance.", link: "https://www.clubedefado.pt/en/" },
+        { ime: "A Portuguese cooking class", opis: "At the Cooking Lisbon school you prepare a whole Portuguese meal in a few hours, and there is also a workshop devoted entirely to the creamy pastel de nata.", link: "https://www.cookinglisbon.com/" },
+        { ime: "Tram 28 and the viewpoints", opis: "The old yellow tram winds through Graça, Alfama and the Baixa. Get on early in the morning at the first stop, Martim Moniz, keep an eye on your bag, and for sunset climb up to the Senhora do Monte viewpoint." }
       ],
       agencije: [
-        { ime: "Visit Lisboa", opis: "Službena turistička zajednica grada, koja izdaje i karticu Lisboa Card.", link: "https://www.visitlisboa.com/en" },
-        { ime: "Lisbon Walker", opis: "Lokalna tvrtka koja vodi tematske pješačke ture o povijesti grada, potresu i Alfami.", link: "https://lisbonwalker.com/" },
-        { ime: "Taste of Lisboa", opis: "Gastronomske šetnje s lokalnim vodičima kroz četvrti u kojima jedu sami Lisabonci.", link: "https://www.tasteoflisboa.com/" }
+        { ime: "Visit Lisboa", opis: "The city's official tourist board, which also issues the Lisboa Card.", link: "https://www.visitlisboa.com/en" },
+        { ime: "Lisbon Walker", opis: "A local company that runs themed walking tours on the history of the city, the earthquake and Alfama.", link: "https://lisbonwalker.com/" },
+        { ime: "Taste of Lisboa", opis: "Food walks with local guides through the neighborhoods where Lisboners themselves eat.", link: "https://www.tasteoflisboa.com/" }
       ],
-      kada: "Proljeće i rana jesen. Nakon nesreće uspinjače Glória u rujnu 2025. gradske uspinjače i dizalo Santa Justa bili su zatvoreni, a uspinjača Graça ponovno vozi od travnja 2026., pa prije puta provjerite što radi."
+      kada: "Spring and early fall. After the Glória funicular accident in September 2025 the city's funiculars and the Santa Justa elevator were closed, and the Graça funicular has been running again since April 2026, so check what is operating before you travel."
     },
     {
       id: "porto",
       ime: "Porto",
       vrsta: "grad",
-      sazetak: "Granitni grad na strmoj obali Doura, s mostovima, crkvama obloženima pločicama i vinskim podrumima na suprotnoj obali.",
+      sazetak: "A granite city on the steep bank of the Douro, with bridges, tile-clad churches and wine cellars on the opposite shore.",
       prica: [
-        "Rimsko naselje Portus Cale na ušću Doura dalo je ime ne samo gradu nego i cijeloj zemlji. Ovdje je 1394. rođen princ Henrik Pomorac, a stanovnike Porta i danas zovu tripeiros, što znači jedači tripica. Predaja kaže da su 1415. sve meso dali floti koja je kretala u osvajanje Ceute, a sebi ostavili samo iznutrice. Od 17. stoljeća grad se bogatio trgovinom vinom s Engleskom, a stara jezgra uz rijeku nalazi se na UNESCO-ovu popisu svjetske baštine od 1996. godine."
+        "The Roman settlement of Portus Cale at the mouth of the Douro gave its name not only to the city but to the whole country. Prince Henry the Navigator was born here in 1394, and the people of Porto are still called tripeiros, which means tripe eaters. Tradition has it that in 1415 they gave all their meat to the fleet setting off to conquer Ceuta and kept only the offal for themselves. From the 17th century the city grew rich on the wine trade with England, and the old center by the river has been on the UNESCO World Heritage List since 1996."
       ],
       vidjeti: [
-        { ime: "Ponte Dom Luís I", opis: "Željezni most na dvije razine, otvoren 1886., projektirao je Théophile Seyrig, nekadašnji suradnik Gustavea Eiffela. Gornjom razinom danas vozi metro i hodaju pješaci, a pogled s nje na crvene krovove Ribeire najljepši je u gradu." },
-        { ime: "Kolodvor São Bento", opis: "Predvorje kolodvora, otvorenog 1916., oblaže oko 20 000 pločica koje je oslikao Jorge Colaço. Na velikim plavim pločama potražite osvajanje Ceute 1415. i ulazak kralja Ivana I. u Porto, a u šarenom frizu pod stropom ispričana je povijest prijevoza, od volovskih kola do vlaka." },
-        { ime: "Ribeira", opis: "Srednjovjekovna lučka četvrt s visokim uskim kućama u živim bojama, s čijih se prozora suši rublje. Uz obalu su privezani brodovi rabelo ravnog dna, kakvima su se nekoć bačve vina spuštale niz opasne brzace Doura." },
-        { ime: "Torre dos Clérigos", opis: "Barokni zvonik visok oko 75 metara dovršio je 1763. talijanski arhitekt Nicolau Nasoni, koji je u Portu proveo veći dio života i pokopan je u crkvi pod tornjem. Do vrha vodi više od dvjesto stuba, a toranj je nekoć brodovima služio kao orijentir." },
-        { ime: "Igreja de São Francisco", opis: "Izvana stroga gotička crkva, a iznutra špilja od pozlaćenog drva, na koju je u 18. stoljeću utrošeno više stotina kilograma zlata. Potražite Jesejevo stablo, drveni rodoslov Kristov koji raste iz tijela usnulog Jeseja." },
-        { ime: "Livraria Lello", opis: "Knjižara otvorena 1906. poznata je po crvenom zavojitom stubištu i vitraju na stropu. Ono što izgleda kao rezbareno drvo velikim je dijelom oslikana žbuka. Često se piše da je nadahnula J. K. Rowling, koja je početkom devedesetih živjela u Portu, no ona je sama izjavila da u knjižari nikada nije bila." }
+        { ime: "Ponte Dom Luís I", opis: "The double-deck iron bridge, opened in 1886, was designed by Théophile Seyrig, a former associate of Gustave Eiffel. Today the metro runs across the upper deck alongside pedestrians, and the view from up there over the red roofs of the Ribeira is the most beautiful in the city." },
+        { ime: "São Bento Station", opis: "The entrance hall of the station, which opened in 1916, is lined with around 20,000 tiles painted by Jorge Colaço. On the large blue panels, look for the conquest of Ceuta in 1415 and the entry of King John I into Porto, while the colorful frieze below the ceiling tells the history of transport, from the ox cart to the train." },
+        { ime: "Ribeira", opis: "The medieval harbor district of tall, narrow houses in bright colors, with laundry drying from the windows. Moored along the quay are the flat-bottomed rabelo boats that once carried barrels of wine down the dangerous rapids of the Douro." },
+        { ime: "Torre dos Clérigos", opis: "The Baroque bell tower, about 75 meters high, was completed in 1763 by the Italian architect Nicolau Nasoni, who spent most of his life in Porto and is buried in the church beneath the tower. More than two hundred steps lead to the top, and the tower once served ships as a landmark." },
+        { ime: "Igreja de São Francisco", opis: "A severe Gothic church on the outside and a cave of gilded wood on the inside, on which several hundred kilograms of gold were used in the 18th century. Look for the Tree of Jesse, a wooden genealogy of Christ growing out of the body of the sleeping Jesse." },
+        { ime: "Livraria Lello", opis: "The bookstore that opened in 1906 is known for its red winding staircase and the stained glass in its ceiling. What looks like carved wood is to a large extent painted plaster. It is often written that it inspired J. K. Rowling, who lived in Porto in the early 1990s, but she herself has said that she was never in the bookstore." }
       ],
       jesti: [
-        { ime: "Francesinha", opis: "Sendvič sa šunkom, kobasicama i odreskom, prekriven topljenim sirom i preliven ljutkastim umakom od piva i rajčice. Smislio ga je pedesetih godina povratnik iz Francuske po uzoru na croque-monsieur, a ime mu znači mala Francuskinja." },
-        { ime: "Tripas à moda do Porto", opis: "Varivo od tripica s bijelim grahom i kobasicama, jelo po kojem su stanovnici grada dobili nadimak." },
-        { ime: "Bacalhau à Gomes de Sá", opis: "Bakalar zapečen s krumpirom, lukom, maslinama i tvrdo kuhanim jajima, nazvan po trgovcu bakalarom iz Porta koji je osmislio recept." },
-        { ime: "Vinho do Porto", opis: "Vino dozrijeva u podrumima u Vila Novi de Gaiji, na južnoj obali rijeke, gdje se kuša na kraju svakog obilaska." }
+        { ime: "Francesinha", opis: "A sandwich with ham, sausages and steak, covered in melted cheese and drenched in a spicy beer and tomato sauce. It was thought up in the 1950s by a man who had returned from France, modeled on the croque-monsieur, and its name means little Frenchwoman." },
+        { ime: "Tripas à moda do Porto", opis: "A tripe stew with white beans and sausages, the dish that gave the city's residents their nickname." },
+        { ime: "Bacalhau à Gomes de Sá", opis: "Cod baked with potatoes, onion, olives and hard-boiled eggs, named after the Porto cod merchant who came up with the recipe." },
+        { ime: "Vinho do Porto", opis: "The wine ages in the cellars of Vila Nova de Gaia, on the south bank of the river, where you taste it at the end of every tour." }
       ],
       dozivjeti: [
-        { ime: "Obilazak vinskog podruma", opis: "Taylor's, kuća osnovana 1692., ima obilazak sa slušalicama i terasu s pogledom na grad, a na kraju se kušaju dva vina.", link: "https://www.taylor.pt/en" },
-        { ime: "Podrum i fado u kući Cálem", opis: "Podrumi Cálem uz samu obalu nude obilazak s interaktivnim muzejem, a u pojedinim terminima kušanje prati kratak koncert fada.", link: "https://tour.calem.pt/" },
-        { ime: "Tržnica Bolhão", opis: "Gradska tržnica iz 1914. ponovno je otvorena 2022. nakon temeljite obnove. Ondje možete kupiti sir, konzerve srdela i cvijeće te popiti čašu vina među štandovima.", link: "https://mercadobolhao.pt/" },
-        { ime: "Zalazak sunca u vrtu Jardim do Morro", opis: "Prijeđite gornjom razinom mosta na stranu Gaije i sjednite na travu među mlade ljude i ulične svirače, dok se svjetla Ribeire pale jedno za drugim." }
+        { ime: "A wine cellar tour", opis: "Taylor's, a house founded in 1692, has an audio-guided tour and a terrace with a view of the city, and at the end you taste two wines.", link: "https://www.taylor.pt/en" },
+        { ime: "Cellar and fado at Cálem", opis: "The Cálem cellars, right on the waterfront, offer a tour with an interactive museum, and at certain times the tasting is accompanied by a short fado concert.", link: "https://tour.calem.pt/" },
+        { ime: "Bolhão Market", opis: "The city market from 1914 reopened in 2022 after a thorough renovation. There you can buy cheese, canned sardines and flowers and have a glass of wine among the stalls.", link: "https://mercadobolhao.pt/" },
+        { ime: "Sunset in the Jardim do Morro", opis: "Cross the upper deck of the bridge to the Gaia side and sit down on the grass among the young people and street musicians as the lights of the Ribeira come on one after another." }
       ],
       agencije: [
-        { ime: "Visit Porto", opis: "Službena turistička zajednica grada.", link: "https://visitporto.travel/en-GB" },
-        { ime: "Porto Walkers", opis: "Lokalni vodiči koji vode pješačke ture temeljene na napojnici te ture s kušanjem vina.", link: "https://www.portowalkers.pt/" }
+        { ime: "Visit Porto", opis: "The city's official tourist board.", link: "https://visitporto.travel/en-GB" },
+        { ime: "Porto Walkers", opis: "Local guides who run tip-based walking tours as well as tours with wine tastings.", link: "https://www.portowalkers.pt/" }
       ],
-      kada: "Od svibnja do rujna, a u noći s 23. na 24. lipnja grad slavi svetog Ivana vatrometom nad rijekom. Zimi često kiši, pa ponesite kabanicu."
+      kada: "From May to September, and on the night of June 23 to 24 the city celebrates Saint John with fireworks over the river. It often rains in winter, so bring a raincoat."
     },
     {
       id: "sintra",
       ime: "Sintra",
       vrsta: "gradić",
-      sazetak: "Brdo obraslo maglovitom šumom u kojoj se skrivaju šarene palače, tajanstveni vrtovi i maurska utvrda.",
+      sazetak: "A hill covered in misty forest that hides colorful palaces, mysterious gardens and a Moorish castle.",
       prica: [
-        "Sintra leži na obroncima gorja koje zaustavlja vlagu s Atlantika, pa je ovdje i usred ljeta svježije nego u Lisabonu. Zbog toga su je portugalski kraljevi stoljećima birali za ljetnu rezidenciju, a u 19. stoljeću postala je poprište romantičarske mašte, kada su plemići i bogataši gradili dvorce koji miješaju gotiku, maurske lukove i indijske kupole. Lord Byron nazvao ju je veličanstvenim rajem, a UNESCO ju je 1995. zaštitio kao kulturni krajolik."
+        "Sintra lies on the slopes of a range that traps the moisture coming off the Atlantic, so even in the middle of summer it is cooler here than in Lisbon. That is why the Portuguese kings chose it as their summer residence for centuries, and in the 19th century it became a stage for the Romantic imagination, when nobles and wealthy men built castles that mix Gothic, Moorish arches and Indian domes. Lord Byron called it a glorious Eden, and UNESCO protected it as a cultural landscape in 1995."
       ],
       vidjeti: [
-        { ime: "Palácio da Pena", opis: "Žuto-crveni dvorac na vrhu brda počeo je 1838. graditi Ferdinand II., njemački princ i suprug portugalske kraljice Marije II., na ruševinama samostana jeronimaca. Nad jednim ulazom potražite Tritona, napola čovjeka i napola ribu, koji izranja iz školjke i na leđima nosi stablo. Sobe su ostale namještene onako kako ih je kraljevska obitelj ostavila 1910., kada je pobjegla pred revolucijom." },
-        { ime: "Palácio Nacional de Sintra", opis: "Kraljevska palača u središtu mjesta prepoznaje se po dvama bijelim stožastim dimnjacima kuhinje, visokima 33 metra. U Dvorani svraka strop je oslikan svrakama koje u kljunu drže vrpcu s natpisom Por bem. Predaja kaže da je kralj Ivan I. tim riječima, koje znače iz dobre namjere, opravdao poljubac dan jednoj dvorskoj dami i potom dao naslikati po jednu svraku za svaku dvorjanku koja ga je ogovarala." },
-        { ime: "Quinta da Regaleira", opis: "Imanje je početkom 20. stoljeća dao urediti bogataš António Carvalho Monteiro prema nacrtima talijanskog scenografa Luigija Maninija. Glavna je atrakcija Inicijacijski zdenac, spiralno stubište koje se spušta 27 metara u zemlju i na dnu se nastavlja u podzemne hodnike. Vrt je prepun simbola templara, alkemije i slobodnog zidarstva." },
-        { ime: "Castelo dos Mouros", opis: "Zidine koje su Mauri podigli u 8. i 9. stoljeću vijugaju po grebenu iznad mjesta. Hodanje po kruništu nagrađuje pogledom na palaču Pena s jedne strane i na ocean s druge." },
-        { ime: "Palácio de Monserrate", opis: "Vilu s kupolama i čipkastim lukovima sagradio je 1858. engleski trgovac tkaninama Francis Cook. Mnogima je draža od Pene jer je mirnija, a u parku rastu biljke iz Meksika, Japana i Australije." },
-        { ime: "Cabo da Roca", opis: "Najzapadnija točka kontinentalne Europe, s litice visoke oko 140 metara. Na kamenom križu uklesan je Camõesov stih koji kaže da ovdje kopno završava, a more počinje." }
+        { ime: "Palácio da Pena", opis: "The yellow and red castle at the top of the hill was begun in 1838 by Ferdinand II, a German prince and the husband of Queen Maria II of Portugal, on the ruins of a Hieronymite monastery. Above one of the entrances, look for the Triton, half man and half fish, who rises out of a shell and carries a tree on his back. The rooms are still furnished the way the royal family left them in 1910, when they fled the revolution." },
+        { ime: "Palácio Nacional de Sintra", opis: "The royal palace in the center of town is recognizable by its two white conical kitchen chimneys, 33 meters high. In the Magpie Room the ceiling is painted with magpies holding a ribbon in their beaks that reads Por bem. Tradition has it that King John I used those words, which mean with good intent, to justify a kiss he gave to a lady of the court, and then had one magpie painted for each lady-in-waiting who gossiped about him." },
+        { ime: "Quinta da Regaleira", opis: "The estate was laid out in the early 20th century by the wealthy António Carvalho Monteiro to designs by the Italian set designer Luigi Manini. The main attraction is the Initiation Well, a spiral staircase that descends 27 meters into the earth and continues at the bottom into underground passages. The garden is full of symbols of the Templars, alchemy and Freemasonry." },
+        { ime: "Castelo dos Mouros", opis: "The walls the Moors raised in the 8th and 9th centuries wind along the ridge above the town. Walking the battlements rewards you with a view of the Pena Palace on one side and the ocean on the other." },
+        { ime: "Palácio de Monserrate", opis: "The villa with its domes and lacy arches was built in 1858 by the English textile merchant Francis Cook. Many people prefer it to Pena because it is quieter, and plants from Mexico, Japan and Australia grow in the park." },
+        { ime: "Cabo da Roca", opis: "The westernmost point of mainland Europe, on a cliff about 140 meters high. Carved on the stone cross is a line by Camões saying that here the land ends and the sea begins." }
       ],
       jesti: [
-        { ime: "Travesseiro", opis: "Jastučić od lisnatog tijesta punjen kremom od badema i žumanjaka, koji se topao jede u slastičarnici Piriquita u staroj jezgri." },
-        { ime: "Queijada de Sintra", opis: "Mali kolač od svježeg sira, šećera i cimeta u tankoj hrskavoj kori, koji se u Sintri spominje još u srednjem vijeku." },
-        { ime: "Vino Colares", opis: "Rijetko vino od loze posađene u pijesku uz ocean, koja je zahvaljujući tom pijesku preživjela filokseru u 19. stoljeću." }
+        { ime: "Travesseiro", opis: "A little pillow of puff pastry filled with almond and egg yolk cream, eaten warm at the Piriquita pastry shop in the old center." },
+        { ime: "Queijada de Sintra", opis: "A small cake of fresh cheese, sugar and cinnamon in a thin crisp shell, mentioned in Sintra as far back as the Middle Ages." },
+        { ime: "Colares wine", opis: "A rare wine from vines planted in sand beside the ocean, which survived phylloxera in the 19th century thanks to that sand." }
       ],
       dozivjeti: [
-        { ime: "Šetnja parkom Pena do Cruz Alte", opis: "Većina posjetitelja vidi samo dvorac, a staze kroz park vode do križa na najvišoj točki gorja, odakle se dvorac vidi u cijelosti.", link: "https://www.parquesdesintra.pt/en/" },
-        { ime: "Silazak u Inicijacijski zdenac", opis: "Spustite se stubama do dna i izađite kroz tunel do jezerca sa slapom. Najmanje je ljudi odmah po otvaranju.", link: "https://www.regaleira.pt/en/" },
-        { ime: "Kolači u kući Piriquita", opis: "Slastičarnica radi od 1862., a ime je, prema predaji, dobila po nadimku koji je kralj Karlo I. dao vlasnici niska rasta.", link: "https://piriquita.pt/" }
+        { ime: "A walk through Pena Park to Cruz Alta", opis: "Most visitors see only the castle, yet the paths through the park lead to a cross on the highest point of the range, from which you can see the castle in its entirety.", link: "https://www.parquesdesintra.pt/en/" },
+        { ime: "Descending the Initiation Well", opis: "Take the stairs down to the bottom and come out through the tunnel at a small lake with a waterfall. There are fewest people right at opening time.", link: "https://www.regaleira.pt/en/" },
+        { ime: "Pastries at Piriquita", opis: "The pastry shop has been open since 1862 and, according to tradition, took its name from the nickname King Carlos I gave its owner, who was short in stature.", link: "https://piriquita.pt/" }
       ],
       agencije: [
-        { ime: "Visit Sintra", opis: "Službena turistička stranica općine.", link: "https://visitsintra.travel/en/" },
-        { ime: "Parques de Sintra", opis: "Ustanova koja upravlja Penom, Maurskom utvrdom, Monserrateom i Nacionalnom palačom i prodaje službene ulaznice.", link: "https://www.parquesdesintra.pt/en/" }
+        { ime: "Visit Sintra", opis: "The municipality's official tourism website.", link: "https://visitsintra.travel/en/" },
+        { ime: "Parques de Sintra", opis: "The body that manages Pena, the Moorish Castle, Monserrate and the National Palace and sells the official tickets.", link: "https://www.parquesdesintra.pt/en/" }
       ],
-      kada: "Radnim danom i što ranije ujutro. Ulaznice za palaču Pena vezane su uz točan termin ulaska, pa ih kupite unaprijed, a ponesite i vestu jer je brdo često u magli. Vlak iz Lisabona polazi s kolodvora Rossio."
+      kada: "On a weekday and as early in the morning as possible. Tickets for the Pena Palace are tied to an exact entry time, so buy them in advance, and bring a sweater too, because the hill is often in fog. The train from Lisbon leaves from Rossio station."
     },
     {
       id: "douro",
-      ime: "Dolina Doura",
+      ime: "Douro Valley",
       vrsta: "regija",
-      sazetak: "Strme terase vinograda nad zelenom rijekom, kraj iz kojeg dolazi porto i jedan od najljepših krajolika u Europi.",
+      sazetak: "Steep vineyard terraces above a green river, the land that port comes from and one of the most beautiful landscapes in Europe.",
       prica: [
-        "Ljudi su ovdje gotovo dvije tisuće godina lomili škriljevac i slagali ga u suhozide kako bi na strminama dobili uske trake zemlje za lozu. Markiz od Pombala 1756. dao je granitnim stupovima omeđiti područje iz kojeg se smije proizvoditi porto, pa se Douro smatra jednom od najstarijih zakonom uređenih vinskih regija na svijetu. Vino se bačvama spuštalo niz rijeku na brodovima rabelo do podruma kod Porta, sve dok brane sredinom 20. stoljeća nisu ukrotile brzace. Gornji tok doline nalazi se na UNESCO-ovu popisu svjetske baštine od 2001. godine."
+        "For almost two thousand years people here broke up the schist and stacked it into dry stone walls to win narrow strips of soil for vines on the steep slopes. In 1756 the Marquis of Pombal had granite posts set up to mark out the area from which port may be produced, so the Douro is considered one of the oldest legally regulated wine regions in the world. The wine went down the river in barrels on rabelo boats to the cellars near Porto, until dams tamed the rapids in the mid-20th century. The upper reaches of the valley have been on the UNESCO World Heritage List since 2001."
       ],
       vidjeti: [
-        { ime: "Pinhão", opis: "Selo u srcu doline okruženo najcjenjenijim vinogradima. Na malom kolodvoru pogledajte 24 ploče od azuleja iz 1937., koje prikazuju berbu, gaženje grožđa i brodove natovarene bačvama." },
-        { ime: "Museu do Douro", opis: "Muzej u gradiću Peso da Régua smješten je u nekadašnjem sjedištu vinske kompanije koju je utemeljio Pombal. Objašnjava kako su građene terase i zašto se na škriljevcu loza muči, a vino je upravo zbog toga bolje." },
-        { ime: "Miradouro de São Leonardo de Galafura", opis: "Vidikovac s kojeg se vidi zavoj rijeke i more terasa. Pisac Miguel Torga, čiji su stihovi uklesani u stijenu, nazvao je ovaj krajolik geološkom pjesmom." },
-        { ime: "Lamego", opis: "Gradić poznat po svetištu Nossa Senhora dos Remédios, do kojeg vodi barokno stubište s gotovo sedamsto stuba, ukrašeno pločicama, fontanama i kipovima. Hodočasnici se početkom rujna na koljenima penju do vrha." },
-        { ime: "Casa de Mateus", opis: "Barokna palača iz 18. stoljeća kraj grada Vila Real, čiji se odraz u jezercu nalazi na etiketi poznatog ružičastog vina Mateus. U vrtu prođite kroz tunel od cedrova dug 35 metara." },
-        { ime: "Pruga Linha do Douro", opis: "Željeznica iz 19. stoljeća od Régue do Pocinha ide tik uz vodu, onuda gdje ceste nema. Sjednite na desnu stranu u smjeru vožnje, jer je ondje rijeka." }
+        { ime: "Pinhão", opis: "A village in the heart of the valley, surrounded by the most highly prized vineyards. At the little train station, look at the 24 azulejo panels from 1937, which show the harvest, the treading of the grapes and boats loaded with barrels." },
+        { ime: "Museu do Douro", opis: "The museum in the small town of Peso da Régua is housed in the former headquarters of the wine company founded by Pombal. It explains how the terraces were built and why the vine struggles on schist, and why the wine is better for exactly that reason." },
+        { ime: "Miradouro de São Leonardo de Galafura", opis: "A viewpoint looking out over a bend in the river and a sea of terraces. The writer Miguel Torga, whose verses are carved into the rock, called this landscape a geological poem." },
+        { ime: "Lamego", opis: "A small town known for the sanctuary of Nossa Senhora dos Remédios, reached by a Baroque staircase of almost seven hundred steps decorated with tiles, fountains and statues. In early September pilgrims climb to the top on their knees." },
+        { ime: "Casa de Mateus", opis: "An 18th-century Baroque palace near the town of Vila Real, whose reflection in the pond appears on the label of the well-known Mateus rosé. In the garden, walk through the cedar tunnel 35 meters long." },
+        { ime: "The Linha do Douro railway", opis: "The 19th-century railway from Régua to Pocinho runs right along the water, where there is no road. Sit on the right-hand side in the direction of travel, because that is where the river is." }
       ],
       jesti: [
-        { ime: "Bôla de Lamego", opis: "Slani kruh punjen pršutom, kobasicom ili bakalarom, koji se u Lamegu kupuje u pekarnicama i nosi na izlet." },
-        { ime: "Cabrito assado", opis: "Jaretina pečena u krušnoj peći s krumpirom i rižom iz pećnice, uobičajeni nedjeljni ručak na vinskim imanjima." },
-        { ime: "Vina Douro i porto", opis: "Osim slatkog porta ovdje nastaju i ozbiljna suha crna vina od istih domaćih sorti, među kojima je najpoznatija touriga nacional." }
+        { ime: "Bôla de Lamego", opis: "A savory bread filled with cured ham, sausage or cod, which you buy in the bakeries of Lamego and take along on a day out." },
+        { ime: "Cabrito assado", opis: "Kid goat roasted in a wood-fired bread oven with potatoes and oven-baked rice, the usual Sunday lunch on the wine estates." },
+        { ime: "Douro wines and port", opis: "Besides sweet port, serious dry red wines are also made here from the same native grape varieties, the best known of which is touriga nacional." }
       ],
       dozivjeti: [
-        { ime: "Posjet vinskom imanju", opis: "Quinta do Bomfim obitelji Symington nalazi se nekoliko minuta hoda od kolodvora u Pinhãu i nudi obilazak vinograda i kušanje s pogledom na rijeku.", link: "https://www.symington.com/visit-us" },
-        { ime: "Vožnja vlakom uz rijeku", opis: "Redoviti vlakovi državne željeznice CP voze iz Porta do Régue i Pinhãa, a ljeti između Régue i Tue povremeno vozi i povijesni vlak s parnom lokomotivom.", link: "https://www.cp.pt/passageiros/en" },
-        { ime: "Muzej Doura", opis: "Dobar početak izleta, jer ćete nakon njega terase i imanja gledati drugim očima.", link: "https://www.museudodouro.pt/" },
-        { ime: "Berba u rujnu", opis: "Na pojedinim imanjima gosti se tijekom berbe mogu pridružiti gaženju grožđa u kamenim koritima zvanima lagares, uz harmoniku i pjesmu." }
+        { ime: "A visit to a wine estate", opis: "The Symington family's Quinta do Bomfim is a few minutes' walk from the station in Pinhão and offers a tour of the vineyards and a tasting with a view of the river.", link: "https://www.symington.com/visit-us" },
+        { ime: "A train ride along the river", opis: "Regular trains of the state railway CP run from Porto to Régua and Pinhão, and in summer a historic train with a steam locomotive also runs occasionally between Régua and Tua.", link: "https://www.cp.pt/passageiros/en" },
+        { ime: "The Douro Museum", opis: "A good way to start your trip, because afterward you will look at the terraces and estates with different eyes.", link: "https://www.museudodouro.pt/" },
+        { ime: "The harvest in September", opis: "On some estates, guests can join in the treading of the grapes during the harvest, in stone troughs called lagares, to the sound of an accordion and singing." }
       ],
       agencije: [
-        { ime: "Porto e Norte", opis: "Službena turistička zajednica sjevernog Portugala, koja pokriva i dolinu Doura.", link: "https://www.visitportoandnorth.travel/" },
-        { ime: "Instituto dos Vinhos do Douro e Porto", opis: "Državni institut koji nadzire vina regije i objavljuje podatke o podrumima i imanjima.", link: "https://www.ivdp.pt/en" }
+        { ime: "Porto e Norte", opis: "The official tourist board of northern Portugal, which also covers the Douro Valley.", link: "https://www.visitportoandnorth.travel/" },
+        { ime: "Instituto dos Vinhos do Douro e Porto", opis: "The state institute that oversees the region's wines and publishes information on cellars and estates.", link: "https://www.ivdp.pt/en" }
       ],
-      kada: "Rujan i početak listopada za berbu i jesenske boje, svibanj i lipanj za zelenilo. U srpnju i kolovozu u dolini je vrlo vruće, a posjete imanjima treba rezervirati unaprijed."
+      kada: "September and early October for the harvest and the fall colors, May and June for the greenery. In July and August it is very hot in the valley, and estate visits need to be booked in advance."
     },
     {
       id: "algarve",
       ime: "Algarve",
       vrsta: "regija",
-      sazetak: "Južna obala zlatnih litica, morskih špilja i bijelih ribarskih gradića, odakle su karavele kretale u nepoznato.",
+      sazetak: "The southern coast of golden cliffs, sea caves and white fishing towns, from which the caravels set out into the unknown.",
       prica: [
-        "Ime pokrajine dolazi od arapskog al-Gharb, što znači zapad, jer je ovo bio zapadni rub maurskog svijeta. Mauri su ovdje ostali više od pet stoljeća, do 1249. godine, i ostavili bademe, smokve, bijele kuće s ukrasnim dimnjacima i imena mjesta koja počinju s Al. U 15. stoljeću princ Henrik Pomorac odavde je slao brodove niz afričku obalu, a u Lagos su 1444. dovedeni prvi afrički robovi na prodaju, o čemu danas govori mali muzej u staroj carinarnici. Potres iz 1755. razorio je i ovu obalu, pa je starih građevina manje nego što biste očekivale."
+        "The name of the province comes from the Arabic al-Gharb, which means the west, because this was the western edge of the Moorish world. The Moors stayed here for more than five centuries, until 1249, and left behind almonds, figs, white houses with ornamental chimneys and place names beginning with Al. In the 15th century Prince Henry the Navigator sent ships from here down the African coast, and in 1444 the first enslaved Africans were brought to Lagos to be sold, a story told today by a small museum in the old customs house. The earthquake of 1755 devastated this coast as well, so there are fewer old buildings than you might expect."
       ],
       vidjeti: [
-        { ime: "Ponta da Piedade", opis: "Rt kraj Lagosa na kojem je more u žućkastim liticama izdubilo lukove, stupove i špilje. Niz liticu se spušta oko 180 stuba do malog pristaništa, odakle ribari čamcima voze kroz prolaze." },
-        { ime: "Praia da Marinha i špilja Benagil", opis: "Plaža Marinha s dvostrukim kamenim lukom ubraja se među najljepše u Europi, a nedaleko je morska špilja Benagil s okruglim otvorom na stropu kroz koji pada sunce. Pravila pristupa špilji posljednjih su godina postrožena, pa prije dolaska provjerite kako je posjet trenutačno uređen." },
-        { ime: "Sagres i Cabo de São Vicente", opis: "Vjetroviti jugozapadni kut Europe, koji su stari smatrali krajem svijeta. U tvrđavi u Sagresu pogledajte golemi kameni krug promjera oko 43 metra, zvan ruža vjetrova, čija namjena ni danas nije sa sigurnošću objašnjena. Svjetionik na rtu jedan je od najjačih u Europi." },
-        { ime: "Lagos", opis: "Gradić unutar zidina s crkvom Santo António, čija je unutrašnjost prekrivena pozlaćenim rezbarijama. Na trgu stoji zgrada nekadašnje tržnice robova, danas muzej koji otvoreno govori o tamnoj strani velikih otkrića." },
-        { ime: "Tavira", opis: "Najskladniji grad istočnog Algarvea leži uz rijeku Gilão, ima kameni most na sedam lukova i krovove na četiri vode nalik malim piramidama. Brodićem se odlazi na pješčani otok Ilha de Tavira." },
-        { ime: "Silves", opis: "Nekadašnja maurska prijestolnica Xelb, nad kojom stoji utvrda od crvenog pješčenjaka, najbolje očuvana u pokrajini. U dvorištu se nalaze goleme podzemne cisterne koje su grad opskrbljivale vodom tijekom opsada." }
+        { ime: "Ponta da Piedade", opis: "A headland near Lagos where the sea has hollowed arches, pillars and caves out of the yellowish cliffs. Around 180 steps lead down the cliff to a small landing stage, from which fishermen take you through the passages by boat." },
+        { ime: "Praia da Marinha and the Benagil cave", opis: "Marinha beach, with its double stone arch, ranks among the most beautiful in Europe, and close by is the Benagil sea cave, with a round opening in its roof that lets the sun pour in. The rules for access to the cave have been tightened in recent years, so before you come, check how visits are currently organized." },
+        { ime: "Sagres and Cabo de São Vicente", opis: "The windswept southwestern corner of Europe, which the ancients considered the end of the world. In the fortress at Sagres, look at the enormous stone circle about 43 meters across, known as the wind rose, whose purpose has still not been explained with any certainty. The lighthouse on the cape is one of the most powerful in Europe." },
+        { ime: "Lagos", opis: "A small walled town with the church of Santo António, whose interior is covered in gilded carving. On the square stands the building of the former slave market, today a museum that speaks openly about the dark side of the great discoveries." },
+        { ime: "Tavira", opis: "The most harmonious town in the eastern Algarve lies on the River Gilão and has a stone bridge of seven arches and hipped roofs that look like little pyramids. A small boat takes you out to the sandy island of Ilha de Tavira." },
+        { ime: "Silves", opis: "The former Moorish capital of Xelb, overlooked by a castle of red sandstone, the best preserved in the province. In the courtyard are huge underground cisterns that supplied the town with water during sieges." }
       ],
       jesti: [
-        { ime: "Cataplana de marisco", opis: "Školjke, kozice i riba pirjani s rajčicom i korijandrom u bakrenoj posudi s poklopcem nalik školjki, po kojoj je jelo dobilo ime." },
-        { ime: "Sardine iz Portimãa", opis: "Srdele sa žara uz kuhani krumpir i salatu od pečenih paprika, a grad im u kolovozu posvećuje vlastiti festival." },
-        { ime: "Dom Rodrigo", opis: "Slatkiš od niti žumanjka, badema i cimeta umotan u šarenu foliju, nasljeđe samostanskih kuhinja." },
-        { ime: "Medronho", opis: "Jaka rakija od plodova planike, koja se peče u gorju Monchique i pije nakon jela." }
+        { ime: "Cataplana de marisco", opis: "Shellfish, shrimp and fish stewed with tomato and cilantro in a copper pan with a lid like a clamshell, which gave the dish its name." },
+        { ime: "Sardines from Portimão", opis: "Grilled sardines with boiled potatoes and a roasted pepper salad, and in August the town devotes a festival of its own to them." },
+        { ime: "Dom Rodrigo", opis: "A sweet made of egg yolk threads, almonds and cinnamon wrapped in colored foil, a legacy of the convent kitchens." },
+        { ime: "Medronho", opis: "A strong brandy made from the fruit of the strawberry tree, distilled in the Monchique hills and drunk after a meal." }
       ],
       dozivjeti: [
-        { ime: "Staza sedam visećih dolina", opis: "Staza Sete Vales Suspensos duga je oko šest kilometara u jednom smjeru i vodi vrhom litica od plaže Marinha do plaže Vale Centeanes. Krenite rano, jer hlada gotovo nema.", link: "https://visitalgarve.pt/en/" },
-        { ime: "Hodanje stazom Rota Vicentina", opis: "Mreža staza uz divlju zapadnu obalu, na kojoj Ribarska staza prati litice iznad oceana. Može se prohodati i samo jedna dnevna dionica.", link: "https://rotavicentina.com/en/" },
-        { ime: "Brodićem po laguni Ria Formosa", opis: "Iz Fara ili Olhãa plovi se među pješčanim otocima i plićacima u kojima se uzgajaju školjke, a zimi se ovdje zadržavaju plamenci." },
-        { ime: "Subotnja tržnica u Louléu", opis: "U tržnici s crvenim kupolama u maurskom stilu subotom se okupljaju seljaci iz okolice sa sirom, medom, suhim smokvama i bademima." }
+        { ime: "The Seven Hanging Valleys Trail", opis: "The Sete Vales Suspensos trail is about six kilometers long one way and runs along the top of the cliffs from Marinha beach to Vale Centeanes beach. Set out early, because there is almost no shade.", link: "https://visitalgarve.pt/en/" },
+        { ime: "Walking the Rota Vicentina", opis: "A network of trails along the wild west coast, where the Fishermen's Trail follows the cliffs above the ocean. You can also walk just a single day's section.", link: "https://rotavicentina.com/en/" },
+        { ime: "By boat through the Ria Formosa lagoon", opis: "From Faro or Olhão you sail among sandy islands and shallows where shellfish are farmed, and flamingos stay here in winter." },
+        { ime: "The Saturday market in Loulé", opis: "In the market hall with its red Moorish-style domes, farmers from the surrounding area gather on Saturdays with cheese, honey, dried figs and almonds." }
       ],
       agencije: [
-        { ime: "Visit Algarve", opis: "Službena turistička zajednica pokrajine.", link: "https://visitalgarve.pt/en/" },
-        { ime: "Rota Vicentina", opis: "Udruga koja održava pješačke staze zapadne obale i objavljuje karte i popis lokalnih vodiča.", link: "https://rotavicentina.com/en/" },
-        { ime: "Câmara Municipal de Lagos", opis: "Službena stranica grada Lagosa s podacima o muzejima i događanjima.", link: "https://www.cm-lagos.pt/" }
+        { ime: "Visit Algarve", opis: "The official tourist board of the province.", link: "https://visitalgarve.pt/en/" },
+        { ime: "Rota Vicentina", opis: "The association that maintains the hiking trails of the west coast and publishes maps and a list of local guides.", link: "https://rotavicentina.com/en/" },
+        { ime: "Câmara Municipal de Lagos", opis: "The official website of the town of Lagos, with information on museums and events.", link: "https://www.cm-lagos.pt/" }
       ],
-      kada: "Svibanj, lipanj i rujan, kada je more ugodno, a plaže nisu pretrpane. U veljači cvjetaju bademi, dok je u kolovozu teško pronaći i parkiralište i mir."
+      kada: "May, June and September, when the sea is pleasant and the beaches are not overcrowded. The almond trees bloom in February, while in August it is hard to find either a parking spot or any peace."
     },
     {
       id: "evora",
       ime: "Évora",
       vrsta: "grad",
-      sazetak: "Bijeli grad unutar zidina u srcu Alenteja, s rimskim hramom, kapelicom od kostiju i kuhinjom kojoj se ne žuri.",
+      sazetak: "A white walled city in the heart of the Alentejo, with a Roman temple, a chapel made of bones and a cuisine that is in no hurry.",
       prica: [
-        "Rimljani su Évoru zvali Ebora Liberalitas Julia i ostavili joj hram, a Mauri uske uličice i bijele kuće. Kršćanima ju je 1165. predao vitez pustolov Geraldo zvani Neustrašivi, čiji lik s isukanim mačem i danas stoji u gradskom grbu. U 15. i 16. stoljeću ovdje su često boravili portugalski kraljevi, pa su nicale palače, samostani i isusovačko sveučilište, osnovano 1559. godine. Kada je dvor otišao, grad je utihnuo i upravo se zbog toga sačuvao, a UNESCO ga je zaštitio 1986. godine."
+        "The Romans called Évora Ebora Liberalitas Julia and left it a temple, while the Moors left narrow lanes and white houses. It was handed to the Christians in 1165 by the knight adventurer Geraldo, known as the Fearless, whose figure with drawn sword still stands in the city's coat of arms. In the 15th and 16th centuries the Portuguese kings often stayed here, so palaces, monasteries and a Jesuit university, founded in 1559, sprang up. When the court left, the city fell quiet and was preserved for exactly that reason, and UNESCO protected it in 1986."
       ],
       vidjeti: [
-        { ime: "Rimski hram", opis: "Hram iz 1. stoljeća s četrnaest sačuvanih korintskih stupova dugo se pogrešno nazivao Dijaninim, a vjerojatno je bio posvećen caru Augustu. Preživio je zato što je u srednjem vijeku bio zazidan i služio kao gradska klaonica sve do 19. stoljeća." },
-        { ime: "Sé de Évora", opis: "Najveća srednjovjekovna katedrala u Portugalu, građena od kraja 12. do sredine 13. stoljeća, izgleda poput utvrde s dva različita tornja. Unutra potražite rijedak kip trudne Bogorodice, Nossa Senhora do Ó, a zatim se popnite na krov, odakle se vidi beskrajna ravnica Alenteja." },
-        { ime: "Capela dos Ossos", opis: "Kapelicu uz crkvu svetog Franje sagradili su franjevci na prijelazu iz 16. u 17. stoljeće i zidove obložili kostima oko pet tisuća ljudi s gradskih groblja. Nad ulazom stoji natpis koji u prijevodu glasi: Mi kosti koje smo ovdje, vaše čekamo." },
-        { ime: "Praça do Giraldo", opis: "Glavni gradski trg s arkadama i fontanom s osam mlaznica, po jednom za svaku ulicu koja se ovdje ulijeva. Danas je mjesto za kavu, a nekoć su se na njemu održavale javne osude inkvizicije." },
-        { ime: "Aqueduto da Água de Prata", opis: "Akvedukt dovršen tridesetih godina 16. stoljeća projektirao je Francisco de Arruda, graditelj kule u Belému. U ulici Rua do Cano kuće i trgovine ugrađene su ravno među njegove lukove." },
-        { ime: "Cromeleque dos Almendres", opis: "Devedesetak uspravnih kamenova na proplanku među plutnjacima, petnaestak kilometara od grada, čine najveći megalitski krug na Pirenejskom poluotoku. Stariji je od Stonehengea, a na nekim kamenovima vide se uklesani krugovi i spirale." }
+        { ime: "The Roman Temple", opis: "The 1st-century temple, with fourteen surviving Corinthian columns, was long wrongly called the Temple of Diana and was probably dedicated to Emperor Augustus. It survived because it was walled up in the Middle Ages and served as the town slaughterhouse right up to the 19th century." },
+        { ime: "Sé de Évora", opis: "The largest medieval cathedral in Portugal, built from the late 12th to the mid-13th century, looks like a fortress with two different towers. Inside, look for the rare statue of the pregnant Virgin Mary, Nossa Senhora do Ó, and then climb up to the roof for a view of the endless Alentejo plain." },
+        { ime: "Capela dos Ossos", opis: "The chapel beside the Church of Saint Francis was built by the Franciscans at the turn of the 17th century, and they lined its walls with the bones of around five thousand people from the city's cemeteries. Above the entrance is an inscription that in translation reads: We bones that are here, for yours we wait." },
+        { ime: "Praça do Giraldo", opis: "The main city square, with arcades and a fountain with eight spouts, one for each street that flows into it. Today it is a place for coffee, though it was once where the public sentences of the Inquisition were carried out." },
+        { ime: "Aqueduto da Água de Prata", opis: "The aqueduct completed in the 1530s was designed by Francisco de Arruda, the builder of the tower at Belém. On Rua do Cano, houses and shops are built right in between its arches." },
+        { ime: "Cromeleque dos Almendres", opis: "Some ninety standing stones in a clearing among the cork oaks, about fifteen kilometers from the city, form the largest megalithic circle on the Iberian Peninsula. It is older than Stonehenge, and carved circles and spirals can be seen on some of the stones." }
       ],
       jesti: [
-        { ime: "Açorda alentejana", opis: "Juha od starog kruha, češnjaka, korijandra i maslinova ulja s poširanim jajetom, jelo siromašnih koje je postalo ponos pokrajine." },
-        { ime: "Porco preto", opis: "Meso crne iberske svinje, koja se hrani žirom pod plutnjacima. Naručite secretos ili plumu sa žara." },
-        { ime: "Migas", opis: "Prilog od kruha namočenog i prženog na masti s češnjakom, koji se poslužuje uz svinjetinu." },
-        { ime: "Pão de rala i queijadas de Évora", opis: "Samostanski slatkiši od badema, žumanjaka i svježeg ovčjeg sira, koji se kupuju u slastičarnicama oko glavnog trga." }
+        { ime: "Açorda alentejana", opis: "A soup of stale bread, garlic, cilantro and olive oil with a poached egg, a dish of the poor that has become the pride of the province." },
+        { ime: "Porco preto", opis: "The meat of the black Iberian pig, which feeds on acorns under the cork oaks. Order grilled secretos or pluma." },
+        { ime: "Migas", opis: "A side dish of bread soaked and fried in lard with garlic, served with pork." },
+        { ime: "Pão de rala and queijadas de Évora", opis: "Convent sweets made of almonds, egg yolks and fresh sheep's cheese, sold in the pastry shops around the main square." }
       ],
       dozivjeti: [
-        { ime: "Kušanje vina u podrumu Cartuxa", opis: "Vinarija zaklade Eugénio de Almeida smještena je u nekadašnjoj isusovačkoj blagovaonici izvan zidina i poznata je po vinu Pêra-Manca. Obilazak s kušanjem treba najaviti.", link: "https://www.cartuxa.pt/" },
-        { ime: "Izlet do megalita", opis: "Do kamenog kruga Almendres vodi zemljani put kroz šumu plutnjaka, na čijim ćete deblima vidjeti naslikane brojke koje označavaju godinu zadnjeg guljenja kore." },
-        { ime: "Cante alentejano", opis: "Raspitajte se u turističkom uredu gdje toga tjedna pjevaju muški zborovi, jer se nastupi često održavaju u malim gostionicama i udrugama.", link: "https://www.visitalentejo.pt/en/" }
+        { ime: "A wine tasting at the Cartuxa cellar", opis: "The winery of the Eugénio de Almeida Foundation is housed in a former Jesuit refectory outside the walls and is known for its Pêra-Manca wine. The tour with tasting needs to be booked ahead.", link: "https://www.cartuxa.pt/" },
+        { ime: "A trip out to the megaliths", opis: "A dirt road leads to the Almendres stone circle through a cork oak forest, where you will see numbers painted on the trunks to mark the year the bark was last stripped." },
+        { ime: "Cante alentejano", opis: "Ask at the tourist office where the men's choirs are singing that week, because performances are often held in small taverns and local associations.", link: "https://www.visitalentejo.pt/en/" }
       ],
       agencije: [
-        { ime: "Visit Alentejo", opis: "Službena turistička zajednica pokrajine Alentejo.", link: "https://www.visitalentejo.pt/en/" },
-        { ime: "Câmara Municipal de Évora", opis: "Službena stranica grada s podacima o spomenicima i događanjima.", link: "https://www.cm-evora.pt/" }
+        { ime: "Visit Alentejo", opis: "The official tourist board of the Alentejo province.", link: "https://www.visitalentejo.pt/en/" },
+        { ime: "Câmara Municipal de Évora", opis: "The city's official website, with information on monuments and events.", link: "https://www.cm-evora.pt/" }
       ],
-      kada: "Proljeće, kada je ravnica zelena i puna cvijeća, ili listopad. Ljeti temperature često prelaze 35 stupnjeva, pa razgledajte ujutro i predvečer."
+      kada: "Spring, when the plain is green and full of flowers, or October. In summer temperatures often climb above 35 degrees Celsius, so do your sightseeing in the morning and toward evening."
     },
     {
       id: "coimbra",
       ime: "Coimbra",
       vrsta: "grad",
-      sazetak: "Sveučilišni grad na brežuljku iznad rijeke Mondego, u kojem studenti nose crne plašteve i fado se pjeva pod prozorima.",
+      sazetak: "A university city on a hill above the River Mondego, where students wear black capes and fado is sung beneath the windows.",
       prica: [
-        "Coimbra je u 12. i 13. stoljeću bila prijestolnica mladog kraljevstva i ovdje su pokopana prva dva portugalska kralja. Sveučilište je osnovano 1290. u Lisabonu, nekoliko se puta selilo između dvaju gradova, a 1537. trajno se smjestilo u kraljevsku palaču na vrhu brežuljka. Grad otada živi u ritmu akademske godine, a sveučilište je od 2013. na UNESCO-ovu popisu svjetske baštine. Uz Coimbru je vezana i najpoznatija portugalska ljubavna priča, ona o princu Pedru i dvorskoj dami Inês de Castro, koju su 1355. ubili po nalogu njegova oca."
+        "In the 12th and 13th centuries Coimbra was the capital of the young kingdom, and the first two Portuguese kings are buried here. The university was founded in Lisbon in 1290, moved several times between the two cities, and in 1537 settled for good in the royal palace at the top of the hill. Ever since, the city has lived to the rhythm of the academic year, and the university has been on the UNESCO World Heritage List since 2013. Coimbra is also tied to the most famous Portuguese love story, that of Prince Pedro and the lady-in-waiting Inês de Castro, who was killed in 1355 on the orders of his father."
       ],
       vidjeti: [
-        { ime: "Biblioteca Joanina", opis: "Barokna knjižnica građena od 1717. do 1728. za kralja Ivana V., s pozlaćenim policama od egzotičnog drva i zidovima debelima više od dva metra. U njoj živi kolonija šišmiša koji noću jedu kukce i tako čuvaju knjige, pa se stolovi svake večeri prekrivaju kožom." },
-        { ime: "Paço das Escolas", opis: "Nekadašnja kraljevska palača i srce sveučilišta, s dvorištem otvorenim prema rijeci. Toranj iz 18. stoljeća studenti zovu Cabra, što znači koza, po zvonu koje ih je pozivalo na predavanja. U Sala dos Capelos i danas se brane doktorati." },
-        { ime: "Capela de São Miguel", opis: "Sveučilišna kapela s manuelinskim portalom, zidovima u pločicama iz 17. stoljeća i baroknim orguljama iz 1733. s oko dvije tisuće svirala, oslikanima kineskim motivima." },
-        { ime: "Sé Velha", opis: "Stara katedrala iz druge polovice 12. stoljeća jedna je od najbolje očuvanih romaničkih građevina u zemlji i izgleda poput tvrđave s kruništem. Na njezinim stubama u svibnju počinje noćna serenada kojom se otvara studentska svetkovina." },
-        { ime: "Mosteiro de Santa Cruz", opis: "Samostan utemeljen 1131. u kojem leže Afonso Henriques i njegov sin Sancho I., u raskošnim grobnicama isklesanima u 16. stoljeću. U susjednoj kavani, uređenoj u bivšoj kapeli, možete popiti kavu pod gotičkim svodom." },
-        { ime: "Conímbriga", opis: "Najbolje očuvani rimski grad u Portugalu, šesnaestak kilometara južno od Coimbre. U Kući vodoskoka sačuvani su podni mozaici i vrt s izvornim sustavom mlaznica, a debeli zid koji siječe kuće napola podignut je u žurbi pred provalama barbara." }
+        { ime: "Biblioteca Joanina", opis: "The Baroque library built from 1717 to 1728 for King John V, with gilded shelves of exotic wood and walls more than two meters thick. A colony of bats lives inside and eats insects at night, protecting the books, so the tables are covered with leather every evening." },
+        { ime: "Paço das Escolas", opis: "The former royal palace and the heart of the university, with a courtyard open toward the river. Students call the 18th-century tower the Cabra, which means goat, after the bell that summoned them to lectures. Doctoral theses are still defended in the Sala dos Capelos today." },
+        { ime: "Capela de São Miguel", opis: "The university chapel, with a Manueline portal, walls covered in 17th-century tiles and a Baroque organ from 1733 with around two thousand pipes, painted with Chinese motifs." },
+        { ime: "Sé Velha", opis: "The Old Cathedral, from the second half of the 12th century, is one of the best-preserved Romanesque buildings in the country and looks like a fortress with battlements. In May the nighttime serenade that opens the student festival begins on its steps." },
+        { ime: "Mosteiro de Santa Cruz", opis: "The monastery founded in 1131 where Afonso Henriques and his son Sancho I lie in lavish tombs carved in the 16th century. In the cafe next door, set up in a former chapel, you can have a coffee under a Gothic vault." },
+        { ime: "Conímbriga", opis: "The best-preserved Roman town in Portugal, about sixteen kilometers south of Coimbra. The House of the Fountains has kept its floor mosaics and a garden with the original system of water jets, and the thick wall that cuts houses in half was thrown up in a hurry ahead of the barbarian invasions." }
       ],
       jesti: [
-        { ime: "Pastel de Tentúgal", opis: "Savitak od tijesta razvučenog tako tanko da se kroz njega može čitati, punjen kremom od žumanjaka. Recept potječe od karmelićanki iz obližnjeg sela Tentúgal." },
-        { ime: "Chanfana", opis: "Kozletina koja se satima peče u crnom vinu u glinenoj posudi, specijalitet sela u okolici grada." },
-        { ime: "Leitão da Bairrada", opis: "Hrskavi odojak s ražnja začinjen paprom i češnjakom, zbog kojeg se vrijedi zaustaviti u mjestu Mealhada sjeverno od Coimbre." }
+        { ime: "Pastel de Tentúgal", opis: "A roll of pastry stretched so thin that you can read through it, filled with egg yolk cream. The recipe comes from the Carmelite nuns of the nearby village of Tentúgal." },
+        { ime: "Chanfana", opis: "Goat meat roasted for hours in red wine in a clay pot, a specialty of the villages around the city." },
+        { ime: "Leitão da Bairrada", opis: "Crisp spit-roasted suckling pig seasoned with pepper and garlic, which makes it worth stopping in the town of Mealhada north of Coimbra." }
       ],
       dozivjeti: [
-        { ime: "Fado iz Coimbre", opis: "U kulturnom centru Fado ao Centro svake se večeri održava kratak koncert uz objašnjenja i čašu porta. Ovdašnji fado pjevaju isključivo muškarci, a publika po starom običaju umjesto pljeskom odobrava nakašljavanjem.", link: "https://fadoaocentro.com/en/" },
-        { ime: "Obilazak sveučilišta", opis: "Ulaznica obuhvaća knjižnicu, kapelu, palaču i akademski zatvor, a ulazak u knjižnicu vezan je uz točan termin, pa kartu kupite unaprijed.", link: "https://visit.uc.pt/en" },
-        { ime: "Queima das Fitas", opis: "Svibanjska studentska svetkovina tijekom koje se spaljuju vrpce u bojama fakulteta, a gradom prolazi povorka okićenih kola." },
-        { ime: "Šetnja do Quinta das Lágrimas", opis: "U vrtu na drugoj obali rijeke nalazi se Izvor suza, uz koji su se, prema predaji, sastajali Pedro i Inês. Legenda kaže da su crvene alge na kamenju tragovi njezine krvi." }
+        { ime: "Fado de Coimbra", opis: "At the Fado ao Centro cultural center a short concert is held every evening, with explanations and a glass of port. The fado here is sung exclusively by men, and by old custom the audience shows its approval by clearing its throat in place of applause.", link: "https://fadoaocentro.com/en/" },
+        { ime: "Touring the university", opis: "The ticket covers the library, the chapel, the palace and the academic prison, and entry to the library is tied to an exact time slot, so buy your ticket in advance.", link: "https://visit.uc.pt/en" },
+        { ime: "Queima das Fitas", opis: "The May student festival during which ribbons in the colors of the faculties are burned and a parade of decorated floats moves through the city." },
+        { ime: "A walk to the Quinta das Lágrimas", opis: "In the garden on the other bank of the river is the Fountain of Tears, where, according to tradition, Pedro and Inês used to meet. Legend says the red algae on the stones are the traces of her blood." }
       ],
       agencije: [
-        { ime: "Universidade de Coimbra, turizam", opis: "Službena stranica za posjet sveučilištu i kupnju ulaznica.", link: "https://visit.uc.pt/en" },
-        { ime: "Center of Portugal", opis: "Službena turistička zajednica središnjeg Portugala.", link: "https://www.centerofportugal.com/" },
-        { ime: "Câmara Municipal de Coimbra", opis: "Službena stranica grada s kalendarom događanja.", link: "https://www.cm-coimbra.pt/" }
+        { ime: "Universidade de Coimbra, tourism", opis: "The official website for visiting the university and buying tickets.", link: "https://visit.uc.pt/en" },
+        { ime: "Center of Portugal", opis: "The official tourist board of central Portugal.", link: "https://www.centerofportugal.com/" },
+        { ime: "Câmara Municipal de Coimbra", opis: "The city's official website, with an events calendar.", link: "https://www.cm-coimbra.pt/" }
       ],
-      kada: "Svibanj zbog studentskih svečanosti ili rujan i listopad, kada se studenti vraćaju. Stari je grad strm, pa se do sveučilišta popnite dizalom ili autobusom, a spustite pješice."
+      kada: "May for the student festivities, or September and October, when the students come back. The old town is steep, so go up to the university by elevator or bus and walk back down."
     },
     {
       id: "madeira",
       ime: "Madeira",
       vrsta: "otok",
-      sazetak: "Vulkanski otok vječnog proljeća usred Atlantika, sa stazama uz stare kanale za vodu, šumom lovora i vinom koje ne stari.",
+      sazetak: "A volcanic island of eternal spring in the middle of the Atlantic, with trails along old water channels, a laurel forest and a wine that does not age.",
       prica: [
-        "Portugalski moreplovci João Gonçalves Zarco i Tristão Vaz Teixeira iskrcali su se 1419. na nenaseljen otok toliko obrastao šumom da su ga nazvali Madeira, što znači drvo. Doseljenici su krčili šumu, sadili šećernu trsku, koja je otok u 15. stoljeću učinila bogatim, a poslije vinovu lozu. Kako bi vodu s kišnog sjevera doveli na sunčani jug, isklesali su u liticama kanale zvane levadas, kojih danas ima više od dvije tisuće kilometara. S Hrvatskom otok povezuje neobična sudbina: posljednji austrijski car i hrvatsko-ugarski kralj Karlo I. (IV.) umro je ovdje u progonstvu 1922. godine i pokopan je u crkvi u Monteu."
+        "In 1419 the Portuguese navigators João Gonçalves Zarco and Tristão Vaz Teixeira landed on an uninhabited island so thickly forested that they named it Madeira, which means wood. The settlers cleared the forest and planted sugar cane, which made the island rich in the 15th century, and later grapevines. To bring water from the rainy north to the sunny south, they cut channels called levadas into the cliffs, and today there are more than two thousand kilometers of them. An unusual twist of fate links the island with Croatia: the last Austrian emperor and king of Hungary and Croatia, Charles I (IV), died here in exile in 1922 and is buried in the church at Monte."
       ],
       vidjeti: [
-        { ime: "Funchal i katedrala Sé", opis: "Glavni grad dobio je ime po komoraču, funcho, koji je ovdje rastao u izobilju. U katedrali dovršenoj 1514. podignite pogled prema stropu od domaćeg cedra s umecima od bjelokosti, jednom od najljepših u Portugalu. U staroj četvrti Zona Velha vrata kuća oslikali su suvremeni umjetnici." },
-        { ime: "Monte", opis: "Mjesto iznad Funchala do kojeg vozi žičara. U crkvi Nossa Senhora do Monte nalazi se grob blaženog Karla I., posljednjeg cara Austrije i kralja Hrvatske. Pred crkvom počinje spust u pletenim sanjkama, kojima od sredine 19. stoljeća upravljaju dvojica muškaraca u bijelom, sa slamnatim šeširima." },
-        { ime: "Cabo Girão", opis: "Litica visoka oko 580 metara ubraja se među najviše u Europi, a na vrhu je vidikovac sa staklenim podom. Duboko dolje vide se sićušne obrađene terase, zvane fajãs, do kojih su seljaci nekoć dolazili samo čamcem." },
-        { ime: "Pico do Arieiro i Pico Ruivo", opis: "Do vrha Arieiro na 1818 metara vodi cesta, pa se iznad mora oblaka možete naći bez ijednog koraka uspona. Zahtjevna staza kroz tunele i po grebenima povezuje ga s najvišim vrhom otoka, Pico Ruivom, visokim 1862 metra. Staza je povremeno zatvorena, pa prije polaska provjerite njezino stanje." },
-        { ime: "Šuma Laurisilva i Fanal", opis: "Lovorova prašuma kakva je prije ledenih doba prekrivala južnu Europu sačuvala se na Madeiri i od 1999. nalazi se na UNESCO-ovu popisu. Na visoravni Fanal stoljetna, mahovinom obrasla stabla izranjaju iz magle poput prizora iz bajke." },
-        { ime: "Santana", opis: "Selo na sjevernoj obali poznato po trokutastim kućicama sa slamnatim krovom do zemlje, obojenima u crveno, bijelo i plavo. U takvim su kućama seljaci živjeli sve do 20. stoljeća, jer strmi krov odvodi obilnu kišu." }
+        { ime: "Funchal and the Sé cathedral", opis: "The capital takes its name from fennel, funcho, which grew here in abundance. In the cathedral, completed in 1514, look up at the ceiling of local cedar with ivory inlays, one of the most beautiful in Portugal. In the old Zona Velha quarter the doors of the houses have been painted by contemporary artists." },
+        { ime: "Monte", opis: "A village above Funchal that you reach by cable car. The church of Nossa Senhora do Monte holds the tomb of Blessed Charles I, the last emperor of Austria and king of Croatia. In front of the church is the start of the ride down in wicker sledges, which since the mid-19th century have been steered by two men dressed in white, wearing straw hats." },
+        { ime: "Cabo Girão", opis: "The cliff, about 580 meters high, ranks among the highest in Europe, and at the top there is a viewing platform with a glass floor. Far below you can see tiny cultivated terraces called fajãs, which farmers once reached only by boat." },
+        { ime: "Pico do Arieiro and Pico Ruivo", opis: "A road leads to the summit of Arieiro at 1,818 meters, so you can find yourself above a sea of clouds without taking a single step uphill. A demanding trail through tunnels and along ridges connects it with the island's highest peak, Pico Ruivo, at 1,862 meters. The trail is closed from time to time, so check its condition before you set out." },
+        { ime: "The Laurisilva forest and Fanal", opis: "The primeval laurel forest of the kind that covered southern Europe before the ice ages has survived on Madeira and has been on the UNESCO list since 1999. On the Fanal plateau, centuries-old trees covered in moss loom out of the mist like a scene from a fairy tale." },
+        { ime: "Santana", opis: "A village on the north coast known for its little triangular houses with thatched roofs reaching to the ground, painted red, white and blue. Farmers lived in houses like these right up to the 20th century, because the steep roof sheds the heavy rain." }
       ],
       jesti: [
-        { ime: "Espetada", opis: "Kocke govedine natrljane češnjakom i solju, nabodene na lovorovu granu i pečene nad žarom, a ražanj se objesi iznad stola." },
-        { ime: "Bolo do caco", opis: "Okrugli plosnati kruh sa slatkim krumpirom u tijestu, pečen na vrućoj kamenoj ploči i namazan maslacem s češnjakom." },
-        { ime: "Espada com banana", opis: "File crne dubinske ribe zvane espada preta, koja živi na dubini većoj od tisuću metara, pohan i poslužen s prženom bananom." },
-        { ime: "Poncha i madeirsko vino", opis: "Poncha je piće od rakije od šećerne trske, meda i limunova soka, koje se miješa drvenim štapićem. Pojačano madeirsko vino namjerno se zagrijava dok dozrijeva, pa i otvoreno može stajati godinama." }
+        { ime: "Espetada", opis: "Cubes of beef rubbed with garlic and salt, threaded onto a laurel branch and grilled over embers, with the skewer then hung above the table." },
+        { ime: "Bolo do caco", opis: "A round flatbread with sweet potato in the dough, baked on a hot stone slab and spread with garlic butter." },
+        { ime: "Espada com banana", opis: "A fillet of the black deep-sea fish called espada preta, which lives at depths of more than a thousand meters, breaded and served with fried banana." },
+        { ime: "Poncha and Madeira wine", opis: "Poncha is a drink of sugar cane spirit, honey and lemon juice, mixed with a wooden stick. Fortified Madeira wine is deliberately heated as it ages, so it can keep for years even once opened." }
       ],
       dozivjeti: [
-        { ime: "Kušanje u Blandy's Wine Lodgeu", opis: "U nekadašnjem franjevačkom samostanu u središtu Funchala obitelj Blandy od 19. stoljeća čuva bačve vina. Obilazak vodi kroz tavane na kojima vino dozrijeva na toplini.", link: "https://blandyswinelodge.com/en/home/" },
-        { ime: "Spust pletenim sanjkama", opis: "Vožnja od Montea prema Funchalu duga je oko dva kilometra, a vozači koče potplatima svojih čizama.", link: "https://www.carreirosdomonte.com/v3/en/index.php" },
-        { ime: "Šetnja uz levadu s vodičem", opis: "Staze prate vodene kanale kroz lovorovu šumu, tunele i pokraj slapova. Lokalni vodiči znaju koje su staze otvorene i sigurne, što se nakon kiša često mijenja.", link: "https://naturemeetings.com/" },
-        { ime: "Tržnica Mercado dos Lavradores", opis: "Tržnica iz 1940. s pločama od azuleja na ulazu, na kojoj prodavačice cvijeća nose narodnu nošnju. U ribarnici ćete vidjeti crnu espadu, a voće radije kupujte na štandovima u prizemlju, gdje su cijene poštenije nego na katu." }
+        { ime: "A tasting at Blandy's Wine Lodge", opis: "In a former Franciscan monastery in the center of Funchal, the Blandy family has been keeping barrels of wine since the 19th century. The tour takes you through the attics where the wine ages in the warmth.", link: "https://blandyswinelodge.com/en/home/" },
+        { ime: "The wicker sledge ride", opis: "The ride from Monte toward Funchal is about two kilometers long, and the drivers brake with the soles of their boots.", link: "https://www.carreirosdomonte.com/v3/en/index.php" },
+        { ime: "A guided levada walk", opis: "The trails follow the water channels through the laurel forest, through tunnels and past waterfalls. Local guides know which trails are open and safe, something that often changes after rain.", link: "https://naturemeetings.com/" },
+        { ime: "Mercado dos Lavradores", opis: "A market from 1940 with azulejo panels at the entrance, where the flower sellers wear traditional dress. In the fish hall you will see the black espada, and for fruit you are better off at the stalls on the ground floor, where prices are fairer than upstairs." }
       ],
       agencije: [
-        { ime: "Visit Madeira", opis: "Službena turistička zajednica otočja Madeira.", link: "https://visitmadeira.com/en/" },
-        { ime: "IFCN Madeira", opis: "Zavod za šume i zaštitu prirode, koji objavljuje koje su pješačke staze otvorene te pravila prijave i naknade za njihovo korištenje.", link: "https://ifcn.madeira.gov.pt/" },
-        { ime: "Nature Meetings", opis: "Lokalna agencija specijalizirana za vođeno pješačenje po levadama i planinama.", link: "https://naturemeetings.com/" }
+        { ime: "Visit Madeira", opis: "The official tourist board of the Madeira archipelago.", link: "https://visitmadeira.com/en/" },
+        { ime: "IFCN Madeira", opis: "The Institute of Forests and Nature Conservation, which publishes which hiking trails are open, along with the registration rules and the fees for using them.", link: "https://ifcn.madeira.gov.pt/" },
+        { ime: "Nature Meetings", opis: "A local agency specializing in guided hiking along the levadas and in the mountains.", link: "https://naturemeetings.com/" }
       ],
-      kada: "Tijekom cijele godine, a najljepše je od travnja do lipnja, kada otok cvjeta i održava se Festival cvijeća. Vrijeme se u planinama mijenja iz sata u sat, pa uvijek ponesite vjetrovku i prije svake šetnje provjerite je li staza otvorena."
+      kada: "All year round, and it is at its most beautiful from April to June, when the island is in bloom and the Flower Festival is held. The weather in the mountains changes from hour to hour, so always bring a windbreaker and check that the trail is open before every walk."
     }
   ],
   izvori: [
@@ -337,7 +337,7 @@ window.ATLAS["portugal"] = {
     { ime: "Instituto dos Vinhos do Douro e Porto", url: "https://www.ivdp.pt/en" },
     { ime: "Visit Algarve", url: "https://visitalgarve.pt/en/" },
     { ime: "Visit Alentejo", url: "https://www.visitalentejo.pt/en/" },
-    { ime: "Universidade de Coimbra, turizam", url: "https://visit.uc.pt/en" },
+    { ime: "Universidade de Coimbra, tourism", url: "https://visit.uc.pt/en" },
     { ime: "Visit Madeira", url: "https://visitmadeira.com/en/" }
   ]
 };

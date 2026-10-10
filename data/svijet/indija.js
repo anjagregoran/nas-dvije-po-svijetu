@@ -1,462 +1,462 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["indija"] = {
   id: "indija",
-  ime: "Indija",
-  regija: "Južna i Srednja Azija",
-  sazetak: "Zemlja u kojoj se u jednom danu izmijene mramorni mauzolej, hram star tisuću godina, tržnica začina i čaj iz glinene šalice na kolodvoru.",
+  ime: "India",
+  regija: "South and Central Asia",
+  sazetak: "A country where a single day can take you from a marble mausoleum to a thousand-year-old temple, a spice market and a cup of tea served in clay at a railway station.",
   uvod: [
-    "Indija je najmnogoljudnija zemlja svijeta i zapravo cijeli potkontinent stisnut u jednu državu, s dvadeset i dva službeno priznata jezika, nekoliko pisama i kuhinjom koja se mijenja svakih stotinjak kilometara. Na sjeveru su Himalaja i ravnica Gangesa, na zapadu pustinja Radžastana, a na jugu palme, rižina polja i lagune Kerale, pa se putovanje kroz nju više doima kao obilazak nekoliko zemalja nego jedne.",
-    "Povijesna nit koju ćete stalno susretati ide otprilike ovako: stara hinduistička i budistička kraljevstva, zatim muslimanski sultanati i od 16. stoljeća Mogulsko Carstvo, koje je ostavilo Taj Mahal i Crvenu utvrdu, potom Portugalci u Goi i Britanci, koji su zemljom vladali do 1947. godine. Te je godine Indija stekla neovisnost, ali uz bolnu podjelu na Indiju i Pakistan, čije ćete tragove vidjeti u Amritsaru.",
-    "Za prvi put najbolje je prihvatiti da se sve ne može vidjeti i odabrati jednu cjelinu, primjerice Delhi, Agru i Radžastan, ili jug s Keralom i Goom. Indija nagrađuje one koje putuju polako, puno pitaju i ne boje se sjesti za stol gdje jedu domaći."
+    "India is the most populous country in the world and really a whole subcontinent squeezed into one state, with twenty-two officially recognized languages, several scripts and a cuisine that changes every hundred kilometers or so. In the north you have the Himalayas and the Ganges plain, in the west the desert of Rajasthan, and in the south the palms, rice paddies and backwaters of Kerala, so traveling through it feels more like touring several countries than one.",
+    "The historical thread you will keep running into goes roughly like this: ancient Hindu and Buddhist kingdoms, then Muslim sultanates and, from the 16th century, the Mughal Empire, which left behind the Taj Mahal and the Red Fort, followed by the Portuguese in Goa and the British, who ruled the country until 1947. That year India gained independence, though with a painful partition into India and Pakistan, whose traces you will see in Amritsar.",
+    "For a first visit it is best to accept that you cannot see everything and to choose one area, such as Delhi, Agra and Rajasthan, or the south with Kerala and Goa. India rewards those who travel slowly, ask plenty of questions and are not afraid to sit down at a table where the locals eat."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od listopada do ožujka za veći dio zemlje, jer je tada suho i ugodno toplo. Od travnja do lipnja vrućine na sjeveru prelaze 40 stupnjeva, a od lipnja do rujna traje monsun. U planine poput Rishikesha ide se i u proljeće i ranu jesen." },
-    { k: "Valuta", v: "Indijska rupija (INR). Gotovina je potrebna za rikše, tržnice i male zalogajnice, dok hoteli i veći restorani primaju kartice." },
-    { k: "Kretanje", v: "Vlakovi su najbolji način da se zemlja doživi, a karte za popularne linije treba rezervirati tjednima unaprijed. Za veće udaljenosti isplate se domaći letovi, a po gradovima aplikacije za prijevoz, metro u Delhiju i Mumbaiju te autorikše, s kojima se cijena dogovara prije vožnje." },
-    { k: "Napojnica", v: "U restoranima je uobičajeno ostaviti oko deset posto ako usluga nije već uračunata, a vodičima, vozačima i nosačima daje se manji iznos u gotovini." }
+    { k: "When to go", v: "October to March for most of the country, because it is dry and pleasantly warm then. From April to June the heat in the north climbs above 40 degrees Celsius, and the monsoon lasts from June to September. Mountain towns such as Rishikesh are also good in spring and early fall." },
+    { k: "Currency", v: "Indian rupee (INR). You need cash for rickshaws, markets and small eateries, while hotels and larger restaurants accept cards." },
+    { k: "Getting around", v: "Trains are the best way to experience the country, and tickets for popular routes should be booked weeks in advance. Domestic flights are worth it for longer distances, and within cities you can rely on ride-hailing apps, the metro in Delhi and Mumbai, and auto rickshaws, where you agree on the fare before the ride." },
+    { k: "Tipping", v: "In restaurants it is customary to leave about ten percent if service is not already included, and guides, drivers and porters are given a smaller amount in cash." }
   ],
   hrana: [
-    { ime: "Masala chai", opis: "Crni čaj kuhan s mlijekom, šećerom i začinima poput kardamoma, đumbira i klinčića.", prica: "Naviku pijenja čaja Indijcima su početkom 20. stoljeća promidžbom nametnuli britanski trgovci čajem, a ulični prodavači, chaiwale, dodali su mlijeko i začine i tako stvorili nacionalno piće. Na kolodvorima se još ponegdje poslužuje u nepečenoj glinenoj šalici, kulhadu, koja se nakon čaja jednostavno razbije." },
-    { ime: "Thali", opis: "Okrugli pladanj s nizom malih zdjelica u kojima su leća, povrće, jogurt, riža, kruh, kiseli prilozi i nešto slatko.", prica: "Thali je najbolji način da se u jednom obroku upozna kuhinja neke pokrajine, jer svaka ima svoj. U mnogim se restoranima zdjelice nadopunjavaju dok ne kažete da je dosta, a na jugu se isti obrok poslužuje na listu banane." },
-    { ime: "Biryani", opis: "Riža kuhana u slojevima s mesom ili povrćem, šafranom i začinima, u zatvorenom loncu.", prica: "Jelo se povezuje s mogulskim dvorom i perzijskim utjecajem, a danas se gradovi natječu čiji je najbolji: Hyderabad, Lucknow i Kolkata imaju svaki svoju inačicu. Kolkatski se prepoznaje po krumpiru, a onaj iz Hyderabada po ljutini." },
-    { ime: "Dosa", opis: "Tanka hrskava palačinka od fermentiranog tijesta od riže i crne leće, podrijetlom s juga Indije.", prica: "Najpoznatija je masala dosa, punjena začinjenim krumpirom i poslužena s kokosovim chutneyjem i sambarom, rijetkim varivom od leće. Jede se za doručak i večeru, a budući da je bez glutena i mesa, omiljena je i među putnicama s posebnom prehranom." },
-    { ime: "Dal makhani", opis: "Kremasto varivo od crne leće i crvenog graha, satima kuhano s maslacem i vrhnjem.", prica: "Potječe iz pandžapske kuhinje i proslavili su ga restorani u Delhiju nakon podjele zemlje 1947. godine, kada su izbjeglice iz Pandžaba sa sobom donijele svoje recepte. Jede se s kruhom naan ili roti, kojim se zahvaća umjesto žlicom." },
-    { ime: "Butter chicken i tandoori", opis: "Piletina marinirana u jogurtu i začinima, pečena u glinenoj peći tandoor, a u inačici butter chicken još i u umaku od rajčice i maslaca.", prica: "Prema najraširenijoj priči, butter chicken je nastao pedesetih godina u delhijskom restoranu Moti Mahal, kada je kuhar ostatke pečene piletine spasio umakom. Nasljednici dviju obitelji i danas se spore oko toga tko je jelo izmislio." },
-    { ime: "Samosa i chaat", opis: "Samosa je prženo trokutasto tijesto punjeno začinjenim krumpirom i graškom, a chaat je cijela obitelj uličnih zalogaja koji su istodobno slatki, kiseli, ljuti i hrskavi.", prica: "Samosa je u Indiju stigla sa srednjoazijskim trgovcima, a ondje je dobila vegetarijanski nadjev. Chaat se jede stojeći uz kolica, a riječ dolazi od glagola koji znači lizati, što dovoljno govori o tome koliko je ukusan." },
-    { ime: "Lassi", opis: "Gusti napitak od jogurta, sladak, slan ili s mangom.", prica: "Potječe iz Pandžaba, gdje se pije iz visokih metalnih čaša i dolazi s komadom vrhnja na vrhu. U vrućini je spas za želudac i najsigurniji način da se ublaži preljut zalogaj." },
-    { ime: "Gulab jamun", opis: "Pržene kuglice od zgusnutog mlijeka natopljene sirupom s ružinom vodicom i kardamomom.", prica: "Ime znači ružina voda i jamun, voće kojemu kuglice nalikuju. Poslužuje se toplo na svadbama i za blagdan Diwali, kada se kutije slatkiša nose rodbini i susjedima." }
+    { ime: "Masala chai", opis: "Black tea simmered with milk, sugar and spices such as cardamom, ginger and cloves.", prica: "The habit of drinking tea was pushed on Indians in the early 20th century through advertising by British tea merchants, and the street vendors, the chaiwalas, added milk and spices and so created a national drink. At some railway stations it is still served in an unfired clay cup, a kulhad, which you simply smash once the tea is gone." },
+    { ime: "Thali", opis: "A round platter holding a row of small bowls with lentils, vegetables, yogurt, rice, bread, pickles and something sweet.", prica: "A thali is the best way to get to know a region's cuisine in a single meal, because every region has its own. In many restaurants the bowls are refilled until you say you have had enough, and in the south the same meal is served on a banana leaf." },
+    { ime: "Biryani", opis: "Rice cooked in layers with meat or vegetables, saffron and spices in a sealed pot.", prica: "The dish is associated with the Mughal court and Persian influence, and today cities compete over whose is best: Hyderabad, Lucknow and Kolkata each have their own version. The Kolkata one is recognizable by its potato, and the one from Hyderabad by its heat." },
+    { ime: "Dosa", opis: "A thin, crispy crepe made from a fermented batter of rice and black lentils, originally from southern India.", prica: "The best known is the masala dosa, filled with spiced potato and served with coconut chutney and sambar, a thin lentil stew. It is eaten for breakfast and dinner, and since it contains neither gluten nor meat, it is also a favorite among travelers with special diets." },
+    { ime: "Dal makhani", opis: "A creamy stew of black lentils and red kidney beans, cooked for hours with butter and cream.", prica: "It comes from Punjabi cuisine and was made famous by Delhi restaurants after the partition of the country in 1947, when refugees from Punjab brought their recipes with them. It is eaten with naan or roti, which you use to scoop it up in place of a spoon." },
+    { ime: "Butter chicken and tandoori", opis: "Chicken marinated in yogurt and spices and roasted in a clay tandoor oven, and in the butter chicken version also finished in a tomato and butter sauce.", prica: "According to the most widespread story, butter chicken was born in the 1950s at the Delhi restaurant Moti Mahal, when a cook rescued leftover roast chicken with a sauce. The heirs of two families still argue over who invented the dish." },
+    { ime: "Samosa and chaat", opis: "A samosa is a fried triangular pastry filled with spiced potato and peas, while chaat is a whole family of street snacks that are sweet, sour, spicy and crunchy all at once.", prica: "The samosa arrived in India with Central Asian traders and acquired its vegetarian filling there. Chaat is eaten standing by the cart, and the word comes from a verb meaning to lick, which tells you plenty about how tasty it is." },
+    { ime: "Lassi", opis: "A thick yogurt drink, sweet, salty or blended with mango.", prica: "It comes from Punjab, where it is drunk from tall metal tumblers and arrives with a dollop of cream on top. In the heat it is a lifesaver for your stomach and the surest way to calm a bite that turned out too spicy." },
+    { ime: "Gulab jamun", opis: "Fried balls of thickened milk soaked in a syrup scented with rose water and cardamom.", prica: "The name means rose water and jamun, a fruit the balls resemble. It is served warm at weddings and for the festival of Diwali, when boxes of sweets are carried to relatives and neighbors." }
   ],
   obicaji: [
-    { ime: "Diwali", opis: "Hinduistički blagdan svjetla, kojim se slavi pobjeda svjetla nad tamom i povratak boga Rame u Ayodhyu. Kuće se čiste i ukrašavaju tisućama uljanica i šarenim uzorcima od praha na pragu, a obitelji razmjenjuju slatkiše.", gdje: "Slavi se u cijeloj zemlji u listopadu ili studenom, prema mjesečevu kalendaru. Posebno je lijepo u Jaipuru, gdje su osvijetljene cijele tržnice, i u Varanasiju, gdje se petnaest dana poslije za Dev Deepawali uljanicama okite sve stube uz Ganges." },
-    { ime: "Holi", opis: "Proljetni blagdan boja, kada se ljudi na ulicama posipaju prahom u boji i polijevaju vodom, bez obzira na dob i stalež. Večer prije pale se krijesovi koji podsjećaju na legendu o Prahladi i demonki Holiki.", gdje: "Pada u ožujku. Najpoznatije su proslave u Mathuri i Vrindavanu, između Delhija i Agre, a mirnije i preglednije u Udaipuru i Jaipuru." },
-    { ime: "Namaste i pravila pristojnosti", opis: "Pozdrav sklopljenim dlanovima uz lagani naklon znači otprilike „klanjam se onome božanskom u tebi“. Pred ulazom u hram, džamiju i mnoge domove izuva se obuća, u sikhskim se hramovima pokriva glava, a jede se i daje desnom rukom.", gdje: "Svugdje, od prvog dana. Rupce za glavu u sikhskim hramovima dobit ćete na ulazu." },
-    { ime: "Klasični ples", opis: "Indija ima osam priznatih klasičnih plesova, među kojima su bharatanatyam s juga, kathak sa sjevera i kathakali iz Kerale. Svaki pokret ruke, mudra, ima značenje, pa plesačica zapravo pripovijeda priču iz epova.", gdje: "Kathakali se svake večeri izvodi u kulturnim centrima u Fort Kochiju, a kathak i narodne plesove Radžastana vidjet ćete u Udaipuru, u palači Bagore ki Haveli." },
-    { ime: "Joga i ajurveda", opis: "Joga je u Indiji prije svega duhovna disciplina s dugom tradicijom, a tjelovježba je samo jedan njezin dio. Ajurveda je tradicionalni sustav liječenja koji se oslanja na prehranu, bilje i masaže uljima.", gdje: "Jogu se najlakše uči u ašramima u Rishikeshu, gdje se u ožujku održava Međunarodni festival joge, a ajurvedske tretmane nude lječilišta diljem Kerale." },
-    { ime: "Mehndi i sari", opis: "Mehndi su privremeni crteži kanom po dlanovima i stopalima, obvezni za svadbe i blagdane. Sari je komad tkanine dug pet do devet metara koji se omata bez ijednog šava, a svaka ga pokrajina tka i nosi na svoj način.", gdje: "Kanu crtaju žene na tržnicama Jaipura i Delhija, a tkalce svilenih sarija na tkalačkim stanovima možete posjetiti u Varanasiju." },
-    { ime: "Bollywood", opis: "Filmska industrija na hindskom jeziku sa sjedištem u Mumbaiju, poznata po filmovima od tri sata u kojima se radnja prekida pjesmom i plesom. Odlazak u kino u Indiji je glasan i veseo događaj, publika plješće i dovikuje junacima.", gdje: "U Mumbaiju se može otići na vođeni obilazak studija, a kino s atmosferom doživjet ćete u dvorani Raj Mandir u Jaipuru." }
+    { ime: "Diwali", opis: "The Hindu festival of lights, which celebrates the victory of light over darkness and the return of the god Rama to Ayodhya. Houses are cleaned and decorated with thousands of oil lamps and colorful powder patterns on the doorstep, and families exchange sweets.", gdje: "It is celebrated across the country in October or November, according to the lunar calendar. It is especially beautiful in Jaipur, where entire markets are lit up, and in Varanasi, where fifteen days later, for Dev Deepawali, every step along the Ganges is decked with oil lamps." },
+    { ime: "Holi", opis: "The spring festival of colors, when people in the streets shower each other with colored powder and douse each other with water, regardless of age or social standing. The evening before, bonfires are lit in memory of the legend of Prahlada and the demoness Holika.", gdje: "It falls in March. The most famous celebrations are in Mathura and Vrindavan, between Delhi and Agra, while those in Udaipur and Jaipur are calmer and easier to take in." },
+    { ime: "Namaste and good manners", opis: "The greeting with palms pressed together and a slight bow means roughly “I bow to the divine in you”. You take off your shoes before entering a temple, a mosque and many homes, you cover your head in Sikh temples, and you eat and hand things over with your right hand.", gdje: "Everywhere, from day one. Head scarves for Sikh temples are handed out at the entrance." },
+    { ime: "Classical dance", opis: "India has eight recognized classical dances, among them bharatanatyam from the south, kathak from the north and kathakali from Kerala. Every hand gesture, or mudra, has a meaning, so the dancer is in fact telling a story from the epics.", gdje: "Kathakali is performed every evening at cultural centers in Fort Kochi, and you can see kathak and the folk dances of Rajasthan in Udaipur, at the Bagore ki Haveli mansion." },
+    { ime: "Yoga and Ayurveda", opis: "In India yoga is first and foremost a spiritual discipline with a long tradition, and physical exercise is only one part of it. Ayurveda is a traditional system of healing that relies on diet, herbs and oil massages.", gdje: "Yoga is easiest to learn in the ashrams of Rishikesh, where the International Yoga Festival is held in March, and Ayurvedic treatments are offered at retreats throughout Kerala." },
+    { ime: "Mehndi and the sari", opis: "Mehndi are temporary henna drawings on the palms and feet, a must for weddings and festivals. A sari is a length of fabric five to nine meters long that is wrapped without a single stitch, and every region weaves and wears it in its own way.", gdje: "Women draw henna at the markets of Jaipur and Delhi, and in Varanasi you can visit the weavers of silk saris at their looms." },
+    { ime: "Bollywood", opis: "The Hindi-language film industry based in Mumbai, known for three-hour films in which the plot is interrupted by song and dance. Going to the movies in India is a loud and cheerful affair, with the audience clapping and calling out to the heroes.", gdje: "In Mumbai you can take a guided studio tour, and for a movie theater with real atmosphere head to the Raj Mandir in Jaipur." }
   ],
   fraze: [
-    { izvorno: "Namaste", izgovor: "na-ma-STE", hr: "Dobar dan, pozdrav (i pri dolasku i pri odlasku)" },
-    { izvorno: "Dhanyavaad", izgovor: "dan-ja-VAAD", hr: "Hvala" },
-    { izvorno: "Haan / Nahin", izgovor: "HAAN / na-HIN", hr: "Da / Ne" },
-    { izvorno: "Kitne ka hai?", izgovor: "KIT-ne ka hej", hr: "Koliko košta?" },
-    { izvorno: "Bahut accha", izgovor: "ba-HUT A-ča", hr: "Jako dobro, odlično" },
-    { izvorno: "Maaf kijiye", izgovor: "MAAF KI-đi-je", hr: "Oprostite" },
-    { izvorno: "Kam tikha, please", izgovor: "kam TI-ka", hr: "Manje ljuto, molim" },
-    { izvorno: "Chalo", izgovor: "ČA-lo", hr: "Idemo" }
+    { izvorno: "Namaste", izgovor: "nuh-muh-STAY", hr: "Hello, greetings (both on arriving and on leaving)" },
+    { izvorno: "Dhanyavaad", izgovor: "dhun-yuh-VAHD", hr: "Thank you" },
+    { izvorno: "Haan / Nahin", izgovor: "HAHN / nuh-HEEN", hr: "Yes / No" },
+    { izvorno: "Kitne ka hai?", izgovor: "KIT-nay kah hay", hr: "How much does it cost?" },
+    { izvorno: "Bahut accha", izgovor: "buh-HOOT UH-chah", hr: "Very good, excellent" },
+    { izvorno: "Maaf kijiye", izgovor: "MAHF KEE-jee-yay", hr: "Excuse me, sorry" },
+    { izvorno: "Kam tikha, please", izgovor: "kum TEE-khah", hr: "Less spicy, please" },
+    { izvorno: "Chalo", izgovor: "CHUH-loh", hr: "Let's go" }
   ],
   zanimljivosti: [
-    "Indija je 2023. godine prema procjenama Ujedinjenih naroda pretekla Kinu i postala najmnogoljudnija zemlja svijeta.",
-    "Šah potječe iz Indije, gdje se igra zvala čaturanga, a i znamenke kojima se danas služimo, uključujući nulu, u Europu su preko Arapa stigle iz Indije.",
-    "Riječ šampon dolazi od hindske riječi champo, koja znači masirati ili gnječiti.",
-    "Kumbh Mela, hodočašće na obale svetih rijeka, smatra se najvećim okupljanjem ljudi na svijetu.",
-    "Indijske željeznice svakoga dana prevezu više od dvadeset milijuna putnika.",
-    "Indijci poznato kimanje glavom lijevo-desno najčešće znači „da“, „razumijem“ ili „u redu“, a ne odbijanje.",
-    "Krava je hindusima sveta životinja, pa se u velikom dijelu zemlje govedina ne jede, a krave mirno šeću i najprometnijim ulicama."
+    "In 2023, according to United Nations estimates, India overtook China and became the most populous country in the world.",
+    "Chess originated in India, where the game was called chaturanga, and the numerals we use today, including zero, also reached Europe from India by way of the Arabs.",
+    "The word shampoo comes from the Hindi word champo, which means to massage or knead.",
+    "The Kumbh Mela, a pilgrimage to the banks of the sacred rivers, is considered the largest gathering of people in the world.",
+    "Indian Railways carries more than twenty million passengers every day.",
+    "The famous Indian side-to-side head wobble most often means “yes”, “I understand” or “okay”, and is not a refusal.",
+    "The cow is a sacred animal to Hindus, so beef is not eaten across much of the country, and cows stroll calmly down even the busiest streets."
   ],
   mjesta: [
     {
       id: "delhi",
       ime: "Delhi",
       vrsta: "grad",
-      sazetak: "Glavni grad u kojem se mogulske džamije, britanske avenije i uske ulice začina nalaze na udaljenosti jedne vožnje metroom.",
+      sazetak: "The capital where Mughal mosques, British avenues and narrow spice lanes all lie within a single metro ride of each other.",
       prica: [
-        "Kaže se da je Delhi sedam gradova sagrađenih jedan do drugoga, jer su ga osvajači stoljećima iznova osnivali. Današnji Stari Delhi je Shahjahanabad, prijestolnica koju je u 17. stoljeću podigao mogulski car Šah Džahan, isti onaj koji je sagradio Taj Mahal.",
-        "Britanci su 1911. odlučili premjestiti prijestolnicu iz Kalkute ovamo, pa su arhitekti Edwin Lutyens i Herbert Baker projektirali New Delhi sa širokim avenijama i vrtovima, svečano otvoren 1931. godine. Zato grad ima dva potpuno različita lica, koja dijeli tek nekoliko postaja metroa."
+        "Delhi is said to be seven cities built one beside the other, because conquerors kept founding it anew over the centuries. Today's Old Delhi is Shahjahanabad, the capital raised in the 17th century by the Mughal emperor Shah Jahan, the same man who built the Taj Mahal.",
+        "In 1911 the British decided to move the capital here from Calcutta, so the architects Edwin Lutyens and Herbert Baker designed New Delhi with wide avenues and gardens, and it was inaugurated in 1931. That is why the city has two completely different faces, separated by just a few metro stops."
       ],
       vidjeti: [
-        { ime: "Crvena utvrda (Lal Qila)", opis: "Dvor Šaha Džahana od crvenog pješčenjaka, građen od 1639. do 1648. godine. S njezinih zidina premijer svakog 15. kolovoza, na Dan neovisnosti, podiže zastavu, a u dvorani za privatne audijencije potražite perzijski stih koji kaže da je raj na zemlji upravo ovdje." },
-        { ime: "Jama Masjid", opis: "Najveća delhijska džamija, dovršena 1656. godine, u čije dvorište stane oko dvadeset i pet tisuća vjernika. Vrijedi se popeti na južni minaret, odakle se vidi kako je Crvena utvrda postavljena točno u osi s džamijom." },
-        { ime: "Humayunova grobnica", opis: "Mauzolej drugog mogulskog cara, koji je oko 1570. godine dala podići njegova udovica. Smatra se uzorom za Taj Mahal: obratite pažnju na dvostruku kupolu i vrt podijeljen vodenim kanalima na četiri dijela, koji predstavlja rajski vrt." },
-        { ime: "Qutb Minar", opis: "Minaret od crvenog pješčenjaka visok oko 73 metra, čija je gradnja počela krajem 12. stoljeća nakon muslimanskog osvajanja Delhija. U dvorištu stoji željezni stup star oko 1600 godina koji gotovo uopće ne hrđa, što metalurzi objašnjavaju visokim udjelom fosfora." },
-        { ime: "Gurudwara Bangla Sahib", opis: "Glavni sikhski hram u gradu, sa zlatnom kupolom i svetim bazenom. U njegovoj se kuhinji svakoga dana besplatno nahrane tisuće ljudi bez obzira na vjeru, a posjetitelji smiju ući i pomoći valjati kruh." },
-        { ime: "India Gate i Kartavya Path", opis: "Slavoluk visok 42 metra, spomenik indijskim vojnicima poginulima u Prvom svjetskom ratu, dovršen 1931. godine. Stoji na kraju svečane avenije koja vodi do predsjedničke palače, nekadašnje rezidencije britanskog potkralja." }
+        { ime: "Red Fort (Lal Qila)", opis: "Shah Jahan's red sandstone court, built from 1639 to 1648. From its ramparts the prime minister raises the flag every August 15, on Independence Day, and in the hall of private audience you can look for the Persian verse that says paradise on earth is right here." },
+        { ime: "Jama Masjid", opis: "Delhi's largest mosque, completed in 1656, whose courtyard holds about twenty-five thousand worshippers. It is worth climbing the southern minaret, from where you can see how the Red Fort is set exactly on the same axis as the mosque." },
+        { ime: "Humayun's Tomb", opis: "The mausoleum of the second Mughal emperor, commissioned by his widow around 1570. It is considered the model for the Taj Mahal: notice the double dome and the garden divided by water channels into four parts, which represents the garden of paradise." },
+        { ime: "Qutb Minar", opis: "A red sandstone minaret about 73 meters tall, begun at the end of the 12th century after the Muslim conquest of Delhi. In the courtyard stands an iron pillar about 1,600 years old that barely rusts at all, which metallurgists put down to its high phosphorus content." },
+        { ime: "Gurudwara Bangla Sahib", opis: "The city's main Sikh temple, with a golden dome and a sacred pool. Its kitchen feeds thousands of people for free every day regardless of faith, and visitors are welcome to come in and help roll out the bread." },
+        { ime: "India Gate and Kartavya Path", opis: "A triumphal arch 42 meters tall, a memorial to the Indian soldiers who died in the First World War, completed in 1931. It stands at the end of the ceremonial avenue that leads to the presidential palace, once the residence of the British viceroy." }
       ],
       jesti: [
-        { ime: "Paranthe", opis: "Punjeni prženi kruh s nadjevima od krumpira do banane, koji se već generacijama peče u uličici Paranthe Wali Gali u Starom Delhiju." },
-        { ime: "Chole bhature", opis: "Začinjeni slanutak s napuhanim prženim kruhom, tipičan delhijski doručak koji drži sitom do večeri." },
-        { ime: "Kulfi", opis: "Gusti indijski sladoled od ukuhanog mlijeka, s pistacijama, šafranom ili mangom, koji se u starom gradu prodaje i punjen u cijelo voće." }
+        { ime: "Paranthe", opis: "Stuffed fried bread with fillings ranging from potato to banana, which has been made for generations in the lane called Paranthe Wali Gali in Old Delhi." },
+        { ime: "Chole bhature", opis: "Spiced chickpeas with puffed fried bread, a typical Delhi breakfast that keeps you full until evening." },
+        { ime: "Kulfi", opis: "Dense Indian ice cream made from reduced milk, with pistachios, saffron or mango, which in the old city is also sold stuffed inside whole fruit." }
       ],
       dozivjeti: [
-        { ime: "Gastronomska šetnja Starim Delhijem", opis: "Ako želite kušati uličnu hranu, a ne znate gdje je sigurno, pridružite se vođenoj šetnji kroz Chandni Chowk, gdje vodič bira provjerene štandove i objašnjava što jedete.", link: "https://delhifoodwalks.com/" },
-        { ime: "Tržnica začina Khari Baoli", opis: "Najveća veletržnica začina u Aziji, gdje nosači na glavama nose vreće čilija i kurkume. Popnite se na krov zgrade Gadodia Market za pogled na dvorište i krovove starog grada." },
-        { ime: "Šetnja s nekadašnjom djecom ulice", opis: "Udruga Salaam Baalak Trust organizira obilaske četvrti oko glavnog kolodvora koje vode mladi ljudi odrasli na ulici, a prihod ide skloništima za djecu.", link: "https://www.salaambaalaktrust.com/" }
+        { ime: "Food walk through Old Delhi", opis: "If you want to try street food but do not know where it is safe, join a guided walk through Chandni Chowk, where the guide picks trusted stalls and explains what you are eating.", link: "https://delhifoodwalks.com/" },
+        { ime: "Khari Baoli spice market", opis: "The largest wholesale spice market in Asia, where porters carry sacks of chili and turmeric on their heads. Climb to the roof of the Gadodia Market building for a view of the courtyard and the rooftops of the old city." },
+        { ime: "A walk with former street children", opis: "The Salaam Baalak Trust organizes tours of the neighborhoods around the main railway station led by young people who grew up on the street, and the proceeds go to shelters for children.", link: "https://www.salaambaalaktrust.com/" }
       ],
       agencije: [
-        { ime: "Delhi Tourism", opis: "Službena turistička organizacija grada, s informacijama o znamenitostima i autobusnim razgledima.", link: "https://delhitourism.gov.in/" },
-        { ime: "Delhi Food Walks", opis: "Lokalna tvrtka specijalizirana za gastronomske šetnje starim gradom.", link: "https://delhifoodwalks.com/" },
-        { ime: "Reality Tours and Travel", opis: "Društveno poduzeće koje vodi gradske ture u Delhiju i Mumbaiju i dio prihoda ulaže u obrazovne projekte.", link: "https://realitytoursandtravel.com/" }
+        { ime: "Delhi Tourism", opis: "The city's official tourism organization, with information on sights and sightseeing bus tours.", link: "https://delhitourism.gov.in/" },
+        { ime: "Delhi Food Walks", opis: "A local company specializing in food walks through the old city.", link: "https://delhifoodwalks.com/" },
+        { ime: "Reality Tours and Travel", opis: "A social enterprise that runs city tours in Delhi and Mumbai and invests part of its income in education projects.", link: "https://realitytoursandtravel.com/" }
       ],
-      kada: "Najugodnije je od listopada do ožujka, s tim da je u studenom i prosincu zrak često jako zagađen. Stari Delhi obiđite ujutro, a metro koristite kad god možete jer je brz, čist i ima vagon samo za žene."
+      kada: "It is most pleasant from October to March, although the air is often heavily polluted in November and December. Explore Old Delhi in the morning, and use the metro whenever you can because it is fast, clean and has a women-only car."
     },
     {
       id: "agra",
       ime: "Agra",
       vrsta: "grad",
-      sazetak: "Grad Taj Mahala, ali i goleme utvrde i napuštene carske prijestolnice koje pričaju ostatak priče o Mogulima.",
+      sazetak: "The city of the Taj Mahal, but also of a vast fort and an abandoned imperial capital that tell the rest of the Mughal story.",
       prica: [
-        "Agra je u 16. i 17. stoljeću bila prijestolnica Mogulskog Carstva, jedne od najbogatijih država tadašnjeg svijeta. Car Akbar ovdje je podigao utvrdu, a njegov unuk Šah Džahan mauzolej za suprugu Mumtaz Mahal, koja je 1631. umrla pri porodu njihova četrnaestog djeteta.",
-        "Kada je Šah Džahan prijestolnicu preselio u Delhi, Agra je izgubila politički sjaj, ali su joj ostali spomenici kakvih nema nigdje drugdje u Indiji. Danas je to prometan i bučan grad u kojem se sve vrti oko jedne bijele kupole."
+        "In the 16th and 17th centuries Agra was the capital of the Mughal Empire, one of the richest states in the world at the time. Emperor Akbar built the fort here, and his grandson Shah Jahan built the mausoleum for his wife Mumtaz Mahal, who died in 1631 giving birth to their fourteenth child.",
+        "When Shah Jahan moved the capital to Delhi, Agra lost its political shine but kept monuments unlike any others in India. Today it is a busy, noisy city where everything revolves around a single white dome."
       ],
       vidjeti: [
-        { ime: "Taj Mahal", opis: "Mauzolej od bijelog mramora građen od 1632. godine, s cijelim kompleksom dovršenim oko 1653. Četiri minareta blago su nagnuta prema van kako se u potresu ne bi srušila na grobnicu, a slova kuranskih stihova oko portala povećavaju se prema vrhu da bi odozdo izgledala jednako velika." },
-        { ime: "Utvrda u Agri", opis: "Golema tvrđava od crvenog pješčenjaka koju je Akbar počeo graditi 1565. godine. Potražite osmerokutnu kulu Musamman Burj: u njoj je Šah Džahan, kojega je s vlasti svrgnuo sin Aurangzeb, proveo posljednje godine života gledajući preko rijeke grobnicu svoje žene." },
-        { ime: "Grobnica Itimad-ud-Daulaha", opis: "Mali mauzolej koji je carica Nur Džahan između 1622. i 1628. podigla svojemu ocu, poznat kao „mali Taj“. Prva je mogulska građevina potpuno obložena bijelim mramorom s umetnutim poludragim kamenjem, tehnikom koja je poslije proslavila Taj Mahal." },
-        { ime: "Fatehpur Sikri", opis: "Prijestolnica koju je Akbar podigao 1571. godine četrdesetak kilometara od Agre i napustio nakon samo petnaestak godina, najvjerojatnije zbog nestašice vode. U dvorištu džamije je bijela grobnica sveca Salima Chishtija, na čije mramorne rešetke žene vežu končiće sa željom za dijete." },
-        { ime: "Mehtab Bagh", opis: "Mogulski vrt na suprotnoj obali rijeke Yamune, postavljen točno u osi s Taj Mahalom. Odavde se mauzolej vidi u zalazak sunca bez gužve, a priču da je Šah Džahan ovdje htio sagraditi crni Taj povjesničari smatraju legendom." }
+        { ime: "Taj Mahal", opis: "A white marble mausoleum under construction from 1632, with the whole complex completed around 1653. The four minarets lean slightly outward so that in an earthquake they would not fall onto the tomb, and the letters of the Quranic verses around the portal grow larger toward the top so that they look the same size from below." },
+        { ime: "Agra Fort", opis: "An enormous red sandstone fortress that Akbar began building in 1565. Look for the octagonal tower Musamman Burj: it was here that Shah Jahan, deposed by his son Aurangzeb, spent the last years of his life gazing across the river at his wife's tomb." },
+        { ime: "Tomb of Itimad-ud-Daulah", opis: "A small mausoleum that Empress Nur Jahan built for her father between 1622 and 1628, known as the “Baby Taj”. It is the first Mughal building entirely faced in white marble inlaid with semiprecious stones, the technique that later made the Taj Mahal famous." },
+        { ime: "Fatehpur Sikri", opis: "The capital that Akbar built in 1571 some forty kilometers from Agra and abandoned after only about fifteen years, most likely because of a shortage of water. In the mosque courtyard stands the white tomb of the saint Salim Chishti, where women tie threads to the marble screens with a wish for a child." },
+        { ime: "Mehtab Bagh", opis: "A Mughal garden on the opposite bank of the Yamuna River, laid out exactly on the same axis as the Taj Mahal. From here you can see the mausoleum at sunset without the crowds, and historians consider the story that Shah Jahan wanted to build a black Taj here to be a legend." }
       ],
       jesti: [
-        { ime: "Petha", opis: "Prozirni slatkiš od ušećerene bijele tikve, zaštitni znak Agre, koji se prodaje u desecima okusa, od ruže do šafrana." },
-        { ime: "Bedai i jalebi", opis: "Tradicionalni doručak starog grada: prženi kruh punjen lećom s ljutim varivom od krumpira, a potom vrući jalebi, spirale tijesta natopljene sirupom." },
-        { ime: "Mogulska kuhinja", opis: "Bogata jela s orašastim plodovima, vrhnjem i šafranom, poput korme i kebaba, naslijeđena s carskog dvora." }
+        { ime: "Petha", opis: "A translucent sweet made from candied white gourd, the trademark of Agra, sold in dozens of flavors from rose to saffron." },
+        { ime: "Bedai and jalebi", opis: "The traditional breakfast of the old city: fried bread stuffed with lentils and served with a spicy potato stew, followed by hot jalebi, spirals of batter soaked in syrup." },
+        { ime: "Mughlai cuisine", opis: "Rich dishes with nuts, cream and saffron, such as korma and kebabs, inherited from the imperial court." }
       ],
       dozivjeti: [
-        { ime: "Izlazak sunca u Taj Mahalu", opis: "Ako želite vidjeti kako mramor mijenja boju od sive preko ružičaste do bijele, dođite na otvaranje u zoru. Ulaznice se kupuju na službenoj stranici, a petkom je kompleks zatvoren za posjetitelje.", link: "https://www.tajmahal.gov.in/" },
-        { ime: "Radionice umetanja kamena", opis: "U četvrtima oko Taj Mahala potomci majstora i danas brušenim poludragim kamenjem ukrašavaju mramor. U radionicama možete gledati cijeli postupak, a kupnja nije obvezna, koliko god vas uvjeravali." },
-        { ime: "Šetnja tržnicom Kinari Bazaar", opis: "Uske ulice iza džamije Jama Masjid pune su trgovina svadbenom opremom, začinima i slatkišima, i pokazuju Agru kakvu većina posjetitelja preskoči." }
+        { ime: "Sunrise at the Taj Mahal", opis: "If you want to watch the marble change color from gray through pink to white, come for the opening at dawn. Tickets are bought on the official website, and on Fridays the complex is closed to visitors.", link: "https://www.tajmahal.gov.in/" },
+        { ime: "Stone inlay workshops", opis: "In the neighborhoods around the Taj Mahal, descendants of the original craftsmen still decorate marble with polished semiprecious stones. In the workshops you can watch the whole process, and you are under no obligation to buy, however hard they try to persuade you." },
+        { ime: "A walk through Kinari Bazaar", opis: "The narrow streets behind the Jama Masjid mosque are full of shops selling wedding finery, spices and sweets, and they show you an Agra that most visitors skip." }
       ],
       agencije: [
-        { ime: "Taj Mahal, službena stranica", opis: "Službene informacije i mrežna prodaja ulaznica uprave za turizam savezne države Uttar Pradesh.", link: "https://www.tajmahal.gov.in/" },
-        { ime: "Okrug Agra, turizam", opis: "Službene stranice okružne uprave s popisom znamenitosti i praktičnim podacima.", link: "https://agra.nic.in/tourism/" }
+        { ime: "Taj Mahal, official website", opis: "Official information and online ticket sales from the tourism department of the state of Uttar Pradesh.", link: "https://www.tajmahal.gov.in/" },
+        { ime: "Agra District, tourism", opis: "The official website of the district administration, with a list of sights and practical information.", link: "https://agra.nic.in/tourism/" }
       ],
-      kada: "Od listopada do ožujka, s tim da u prosincu i siječnju jutarnja magla zna potpuno sakriti Taj Mahal. Iz Delhija se stiže brzim vlakom za oko dva sata, pa je moguć i jednodnevni izlet, iako se s noćenjem lakše uhvati zora."
+      kada: "October to March, though in December and January the morning fog can hide the Taj Mahal completely. The fast train from Delhi takes about two hours, so a day trip is possible, although staying overnight makes it easier to catch the dawn."
     },
     {
       id: "jaipur",
       ime: "Jaipur",
       vrsta: "grad",
-      sazetak: "Ružičasti glavni grad Radžastana, planiran po pravilima stare indijske arhitekture i pun palača, zvjezdarnica i tržnica.",
+      sazetak: "The pink capital of Rajasthan, planned according to the principles of ancient Indian architecture and full of palaces, observatories and markets.",
       prica: [
-        "Jaipur je 1727. godine osnovao maharadža Sawai Jai Singh II., strastveni astronom, kada mu je stara prijestolnica Amber postala pretijesna. Grad je planski podijeljen na devet četvrti s ravnim, širokim ulicama, što je za Indiju onoga doba bilo posve neobično.",
-        "Ružičastu boju dobio je 1876. godine, kada su pročelja obojena uoči posjeta britanskog prijestolonasljednika, jer se ta boja smatrala bojom gostoprimstva. Propis da pročelja u starom gradu moraju ostati takva vrijedi i danas, a UNESCO je 2019. cijelu staru jezgru upisao na popis svjetske baštine."
+        "Jaipur was founded in 1727 by Maharaja Sawai Jai Singh II, a passionate astronomer, when his old capital Amber became too cramped for him. The city was laid out by plan in nine quarters with straight, wide streets, which was quite unusual for India at the time.",
+        "It got its pink color in 1876, when the facades were painted ahead of a visit by the British heir to the throne, because that color was considered the color of hospitality. The regulation that facades in the old city must stay that way still applies today, and in 2019 UNESCO inscribed the entire old center on the World Heritage List."
       ],
       vidjeti: [
-        { ime: "Hawa Mahal", opis: "Palača vjetrova iz 1799. godine zapravo je pročelje visoko pet katova, s 953 mala prozora. Sagrađena je da bi dvorske dame, koje se nisu smjele pokazivati u javnosti, mogle neopaženo gledati ulične povorke, a prozori ujedno stvaraju propuh koji hladi unutrašnjost." },
-        { ime: "Utvrda Amber", opis: "Dvor na brdu jedanaest kilometara od grada, koji je 1592. počeo graditi radža Man Singh. U Dvorani zrcala strop je obložen tisućama komadića stakla, pa je, kako kažu vodiči, jedna svijeća bila dovoljna da cijela prostorija zatreperi poput zvjezdanog neba." },
-        { ime: "Jantar Mantar", opis: "Zvjezdarnica na otvorenom s devetnaest zidanih instrumenata, dovršena oko 1734. godine. Najveći među njima je sunčani sat visok 27 metara, čija se sjena pomiče otprilike milimetar u sekundi, pa vrijeme pokazuje s točnošću od oko dvije sekunde." },
-        { ime: "Gradska palača", opis: "Kraljevska rezidencija u kojoj obitelj maharadže dijelom i danas stanuje. Potražite dvije goleme srebrne posude, najveće srebrne predmete na svijetu, u kojima je maharadža 1902. na put u Englesku ponio vodu iz Gangesa jer nije želio piti drugu." },
-        { ime: "Utvrda Nahargarh", opis: "Tvrđava iz 1734. godine na grebenu iznad grada, omiljeno mjesto za zalazak sunca. Odavde se najbolje vidi pravilna mreža ulica starog Jaipura." }
+        { ime: "Hawa Mahal", opis: "The Palace of the Winds from 1799 is really a facade five stories high, with 953 small windows. It was built so that the ladies of the court, who were not allowed to show themselves in public, could watch street processions unseen, and the windows also create a draft that cools the interior." },
+        { ime: "Amber Fort", opis: "A hilltop court eleven kilometers from the city, begun in 1592 by Raja Man Singh. In the Hall of Mirrors the ceiling is covered with thousands of tiny pieces of glass, so that, as the guides tell it, a single candle was enough to make the whole room shimmer like a starry sky." },
+        { ime: "Jantar Mantar", opis: "An open-air observatory with nineteen masonry instruments, completed around 1734. The largest of them is a sundial 27 meters tall whose shadow moves about a millimeter per second, so it tells the time to within about two seconds." },
+        { ime: "City Palace", opis: "The royal residence where the maharaja's family still partly lives. Look for the two enormous silver urns, the largest silver objects in the world, in which the maharaja carried Ganges water with him on his trip to England in 1902 because he did not want to drink any other." },
+        { ime: "Nahargarh Fort", opis: "A fortress from 1734 on the ridge above the city and a favorite spot for sunset. It gives you the best view of the regular street grid of old Jaipur." }
       ],
       jesti: [
-        { ime: "Dal baati churma", opis: "Radžastansko jelo od tvrdih pečenih kuglica kruha koje se lome u leću i preliju pročišćenim maslacem, uz slatku mrvljenu smjesu za kraj." },
-        { ime: "Pyaaz kachori", opis: "Hrskavo prženo tijesto punjeno začinjenim lukom, omiljeni jutarnji zalogaj Jaipura." },
-        { ime: "Lassi iz glinene čaše", opis: "Gusti slatki lassi koji se na glavnoj ulici MI Road toči u čaše od nepečene gline, što mu daje poseban zemljani okus." },
-        { ime: "Ghewar", opis: "Saćasti slatkiš natopljen sirupom, vezan uz ljetne blagdane Teej i Raksha Bandhan." }
+        { ime: "Dal baati churma", opis: "A Rajasthani dish of hard baked balls of bread that are crumbled into lentils and drizzled with clarified butter, with a sweet crumbled mixture to finish." },
+        { ime: "Pyaaz kachori", opis: "Crispy fried pastry filled with spiced onion, Jaipur's favorite morning snack." },
+        { ime: "Lassi from a clay cup", opis: "Thick sweet lassi that is poured into cups of unfired clay on the main street, MI Road, which gives it a distinctive earthy taste." },
+        { ime: "Ghewar", opis: "A honeycomb-like sweet soaked in syrup, tied to the summer festivals of Teej and Raksha Bandhan." }
       ],
       dozivjeti: [
-        { ime: "Šetnja s lokalnim vodičima po starom gradu", opis: "Ako želite zaviriti u radionice srebrnara, hramove u dvorištima i kuhinje uličnih slastičara, pridružite se šetnji tvrtke Virasat Experiences, koja vodi male skupine kroz tržnice Ružičastog grada.", link: "https://virasatexperiences.com/" },
-        { ime: "Ručni tisak tkanina", opis: "Sela Sanganer i Bagru kraj Jaipura stoljećima tiskaju pamuk drvenim pečatima i biljnim bojama. U radionicama možete sami otisnuti maramu, a u gradiću Amber postoji i muzej posvećen tom zanatu." },
-        { ime: "Kino Raj Mandir", opis: "Dvorana iz 1976. godine s raskošnim predvorjem, u kojoj gledanje bolivudskog filma postaje doživljaj čak i bez razumijevanja jezika." }
+        { ime: "A walk with local guides through the old city", opis: "If you want to peek into silversmiths' workshops, courtyard temples and the kitchens of street confectioners, join a walk with Virasat Experiences, which leads small groups through the markets of the Pink City.", link: "https://virasatexperiences.com/" },
+        { ime: "Hand block printing", opis: "The villages of Sanganer and Bagru near Jaipur have been printing cotton with wooden blocks and plant dyes for centuries. In the workshops you can print a scarf yourself, and in the small town of Amber there is also a museum devoted to the craft." },
+        { ime: "Raj Mandir Cinema", opis: "A theater from 1976 with a lavish lobby, where watching a Bollywood film becomes an experience even if you do not understand the language." }
       ],
       agencije: [
-        { ime: "Rajasthan Tourism", opis: "Službena turistička organizacija savezne države Radžastan.", link: "https://www.tourism.rajasthan.gov.in/" },
-        { ime: "Virasat Experiences", opis: "Lokalna tvrtka za šetnje baštinom, hranom i zanatima Jaipura.", link: "https://virasatexperiences.com/" },
-        { ime: "City Palace Jaipur", opis: "Službena stranica muzeja kraljevske obitelji u Gradskoj palači.", link: "https://citypalace.org/" }
+        { ime: "Rajasthan Tourism", opis: "The official tourism organization of the state of Rajasthan.", link: "https://www.tourism.rajasthan.gov.in/" },
+        { ime: "Virasat Experiences", opis: "A local company offering heritage, food and craft walks in Jaipur.", link: "https://virasatexperiences.com/" },
+        { ime: "City Palace Jaipur", opis: "The official website of the royal family's museum in the City Palace.", link: "https://citypalace.org/" }
       ],
-      kada: "Od listopada do ožujka. U utvrdu Amber krenite čim se otvori, prije gužve i vrućine, a jahanje na slonovima preskočite i popnite se pješice ili džipom."
+      kada: "October to March. Head to Amber Fort as soon as it opens, before the crowds and the heat, and skip the elephant rides in favor of walking up or taking a jeep."
     },
     {
       id: "udaipur",
       ime: "Udaipur",
       vrsta: "grad",
-      sazetak: "Bijeli grad na jezerima, s palačama koje kao da plutaju na vodi i najromantičnijim zalascima sunca u Radžastanu.",
+      sazetak: "A white city on the lakes, with palaces that seem to float on the water and the most romantic sunsets in Rajasthan.",
       prica: [
-        "Udaipur je sredinom 16. stoljeća osnovao maharana Udai Singh II. iz dinastije Mewar, kada je postalo jasno da staru prijestolnicu Chittorgarh neće moći obraniti od Mogula. Odabrao je dolinu okruženu brdima Aravalli i umjetnim jezerima, koju je bilo lakše braniti.",
-        "Vladari Mewara ponosili su se time što se Mogulima nikada nisu do kraja pokorili, a njihova se loza smatra jednom od najstarijih vladarskih dinastija na svijetu. Grad je svjetsku slavu stekao 1983. godine, kada je ovdje sniman film o Jamesu Bondu „Octopussy“, koji se u nekim kafićima i danas prikazuje svake večeri."
+        "Udaipur was founded in the mid-16th century by Maharana Udai Singh II of the Mewar dynasty, once it became clear that he could not defend the old capital, Chittorgarh, against the Mughals. He chose a valley ringed by the Aravalli hills and artificial lakes, which was easier to defend.",
+        "The rulers of Mewar prided themselves on never having fully submitted to the Mughals, and their line is considered one of the oldest ruling dynasties in the world. The city won worldwide fame in 1983, when the James Bond film “Octopussy” was shot here, and some cafes still screen it every evening."
       ],
       vidjeti: [
-        { ime: "Gradska palača", opis: "Najveći kompleks palača u Radžastanu, koji su dvadesetak vladara dograđivali više od četiri stoljeća, a ipak djeluje kao cjelina. U dvorištu Mor Chowk potražite paunove složene od tisuća komadića obojenog stakla." },
-        { ime: "Jezero Pichola", opis: "Umjetno jezero iz 14. stoljeća na kojemu stoje dvije otočne palače. Bijela Jag Niwas iz 18. stoljeća danas je hotel, a na Jag Mandiru se, prema predaji, kao pobunjeni princ skrivao budući car Šah Džahan." },
-        { ime: "Hram Jagdish", opis: "Hinduistički hram posvećen Višnuu, dovršen 1651. godine, do kojega vode strme stube između dva kamena slona. Vanjski su zidovi u pojasevima isklesani plesačicama, sviračima i slonovima, pa ih vrijedi obići ukrug." },
-        { ime: "Bagore ki Haveli", opis: "Plemićka kuća iz 18. stoljeća na samoj obali, s više od stotinu soba. U muzeju je izložen turban koji se predstavlja kao najveći na svijetu, a navečer se u dvorištu održava priredba narodnih plesova." },
-        { ime: "Sajjangarh, Monsunska palača", opis: "Palača na vrhu brda koju je krajem 19. stoljeća počeo graditi maharana Sajjan Singh kako bi promatrao dolazak monsunskih oblaka. Danas je prazna, ali pogled na jezera u zalazak sunca vrijedi vožnje." }
+        { ime: "City Palace", opis: "The largest palace complex in Rajasthan, which some twenty rulers kept adding to for more than four centuries and which still feels like a single whole. In the Mor Chowk courtyard, look for the peacocks pieced together from thousands of bits of colored glass." },
+        { ime: "Lake Pichola", opis: "An artificial lake from the 14th century with two island palaces. The white Jag Niwas from the 18th century is now a hotel, and tradition has it that the future emperor Shah Jahan hid on Jag Mandir as a rebel prince." },
+        { ime: "Jagdish Temple", opis: "A Hindu temple dedicated to Vishnu, completed in 1651 and reached by steep steps between two stone elephants. The outer walls are carved in bands with dancers, musicians and elephants, so it is worth walking all the way around." },
+        { ime: "Bagore ki Haveli", opis: "An 18th-century nobleman's mansion right on the shore, with more than a hundred rooms. The museum displays a turban presented as the largest in the world, and in the evening a folk dance show is held in the courtyard." },
+        { ime: "Sajjangarh, the Monsoon Palace", opis: "A hilltop palace that Maharana Sajjan Singh began building in the late 19th century in order to watch the monsoon clouds roll in. Today it stands empty, but the sunset view over the lakes is worth the drive." }
       ],
       jesti: [
-        { ime: "Gatte ki sabzi", opis: "Valjušci od slanutkova brašna u umaku od jogurta, nastali u kraju gdje svježeg povrća nikada nije bilo dovoljno." },
-        { ime: "Laal maas", opis: "Vatreno crvena janjetina ili kozletina s mnogo čilija, nekoć lovačko jelo radžastanskih plemića." },
-        { ime: "Kulhad kava i čaj", opis: "Napici posluženi u glinenim čašama na štandovima uz jezero Fateh Sagar, gdje se u predvečerje okuplja pola grada." }
+        { ime: "Gatte ki sabzi", opis: "Chickpea flour dumplings in a yogurt sauce, created in a region where there were never enough fresh vegetables." },
+        { ime: "Laal maas", opis: "Fiery red lamb or goat with plenty of chili, once a hunting dish of the Rajasthani nobility." },
+        { ime: "Kulhad coffee and tea", opis: "Drinks served in clay cups at the stalls by Fateh Sagar Lake, where half the city gathers in the early evening." }
       ],
       dozivjeti: [
-        { ime: "Priredba Dharohar", opis: "Ako želite vidjeti radžastanske plesove i lutkarsko kazalište, dođite predvečer u Bagore ki Haveli. Vrhunac je ples u kojem plesačica na glavi nosi sve višu kulu od glinenih lonaca." },
-        { ime: "Tečaj minijaturnog slikarstva", opis: "Udaipur je središte mewarske škole minijatura, koje se slikaju kistom od vjeveričje dlake. U ateljeima oko hrama Jagdish nude se kratki tečajevi na kojima naslikate vlastitu sliku na svili ili papiru." },
-        { ime: "Vožnja čamcem u zalazak sunca", opis: "Čamci polaze s pristaništa Gradske palače i kruže jezerom Pichola do otoka Jag Mandir, a palače u tom svjetlu postaju zlatne.", link: "https://www.eternalmewar.in/" }
+        { ime: "The Dharohar show", opis: "If you want to see Rajasthani dances and puppet theater, come to Bagore ki Haveli in the early evening. The highlight is a dance in which the dancer balances an ever taller tower of clay pots on her head." },
+        { ime: "Miniature painting class", opis: "Udaipur is the center of the Mewar school of miniatures, which are painted with a squirrel-hair brush. Studios around the Jagdish Temple offer short classes in which you paint your own picture on silk or paper." },
+        { ime: "Sunset boat ride", opis: "Boats leave from the City Palace jetty and circle Lake Pichola to the island of Jag Mandir, and in that light the palaces turn golden.", link: "https://www.eternalmewar.in/" }
       ],
       agencije: [
-        { ime: "Eternal Mewar", opis: "Službena stranica zaklade kraljevske kuće Mewar, koja upravlja Gradskom palačom, muzejom i vožnjama čamcem.", link: "https://www.eternalmewar.in/" },
-        { ime: "Rajasthan Tourism", opis: "Službena turistička organizacija savezne države.", link: "https://www.tourism.rajasthan.gov.in/" }
+        { ime: "Eternal Mewar", opis: "The official website of the foundation of the royal house of Mewar, which runs the City Palace, the museum and the boat rides.", link: "https://www.eternalmewar.in/" },
+        { ime: "Rajasthan Tourism", opis: "The official state tourism organization.", link: "https://www.tourism.rajasthan.gov.in/" }
       ],
-      kada: "Od listopada do ožujka, a jezera su najpunija odmah nakon monsuna, u rujnu i listopadu. Odsjednite u starom dijelu uz jezero, gdje je sve dostupno pješice."
+      kada: "October to March, and the lakes are fullest right after the monsoon, in September and October. Stay in the old part by the lake, where everything is within walking distance."
     },
     {
       id: "jodhpur",
       ime: "Jodhpur",
       vrsta: "grad",
-      sazetak: "Plavi grad na rubu pustinje Thar, nad kojim se diže jedna od najmoćnijih utvrda Indije.",
+      sazetak: "The blue city on the edge of the Thar Desert, with one of India's mightiest forts rising above it.",
       prica: [
-        "Jodhpur je 1459. godine osnovao Rao Jodha, poglavar klana Rathore, i po njemu je grad dobio ime. Obogatio se zahvaljujući položaju na karavanskom putu između Delhija i Gudžarata, kojim su prolazili opijum, bakar, svila i datulje.",
-        "Kuće u starom dijelu obojene su u plavo, a za to postoji nekoliko objašnjenja: jedni kažu da je plava bila znak brahmanskih kuća, drugi da boja s dodatkom modre galice tjera termite i hladi zidove. Kako god bilo, pogled s utvrde na plavo more krovova jedan je od najljepših u Radžastanu."
+        "Jodhpur was founded in 1459 by Rao Jodha, chief of the Rathore clan, and the city takes its name from him. It grew rich thanks to its position on the caravan route between Delhi and Gujarat, along which opium, copper, silk and dates passed.",
+        "The houses in the old part are painted blue, and there are several explanations for it: some say blue marked the houses of Brahmins, others that paint mixed with copper sulfate repels termites and cools the walls. Either way, the view from the fort over a blue sea of rooftops is one of the loveliest in Rajasthan."
       ],
       vidjeti: [
-        { ime: "Utvrda Mehrangarh", opis: "Tvrđava na stijeni visokoj oko 120 metara, sa zidinama koje kao da rastu iz kamena. Kraj željeznih vrata Loha Pol potražite otiske dlanova u crvenoj boji: ostavile su ih udovice maharadže prije nego što su 1843. godine pošle na njegovu pogrebnu lomaču." },
-        { ime: "Jaswant Thada", opis: "Spomen-grobnica od bijelog mramora podignuta 1899. godine za maharadžu Jaswanta Singha II. Mramorne su ploče tako tanko klesane da na suncu propuštaju toplo, žućkasto svjetlo." },
-        { ime: "Palača Umaid Bhawan", opis: "Jedna od najvećih privatnih rezidencija na svijetu, s 347 soba, građena od 1929. do 1943. godine. Maharadža ju je dao podići kako bi u vrijeme gladi zaposlio tisuće seljaka, a danas je dijelom muzej, dijelom hotel i dijelom dom kraljevske obitelji." },
-        { ime: "Toorji ka Jhalra", opis: "Stubišni bunar iz 18. stoljeća, koji je dala sagraditi jedna kraljica jer je briga za vodu bila tradicionalna dužnost dvorskih žena. Simetrične stube od crvenog pješčenjaka spuštaju se duboko do vode, u kojoj se ljeti kupaju lokalni dječaci." },
-        { ime: "Toranj sa satom i tržnica Sardar", opis: "Srce starog grada, gdje se prodaju začini, narukvice, tkanine i čaj. Odavde se uličice penju prema utvrdi kroz plavu četvrt." }
+        { ime: "Mehrangarh Fort", opis: "A fortress on a rock about 120 meters high, with walls that seem to grow out of the stone. Beside the iron gate Loha Pol, look for the handprints in red: they were left by the widows of a maharaja before they went to his funeral pyre in 1843." },
+        { ime: "Jaswant Thada", opis: "A white marble cenotaph built in 1899 for Maharaja Jaswant Singh II. The marble slabs are carved so thin that in the sun they let through a warm, yellowish light." },
+        { ime: "Umaid Bhawan Palace", opis: "One of the largest private residences in the world, with 347 rooms, built from 1929 to 1943. The maharaja commissioned it to give thousands of farmers work during a time of famine, and today it is part museum, part hotel and part home of the royal family." },
+        { ime: "Toorji ka Jhalra", opis: "An 18th-century stepwell commissioned by a queen, because looking after water was a traditional duty of the women of the court. Symmetrical red sandstone steps lead deep down to the water, where local boys swim in summer." },
+        { ime: "Clock Tower and Sardar Market", opis: "The heart of the old city, where spices, bangles, fabrics and tea are sold. From here the lanes climb toward the fort through the blue quarter." }
       ],
       jesti: [
-        { ime: "Mirchi bada", opis: "Velika zelena paprika punjena začinjenim krumpirom, umočena u tijesto i pržena, najpoznatiji ulični zalogaj Jodhpura." },
-        { ime: "Makhaniya lassi", opis: "Lassi toliko gust da se jede žlicom, s maslacem, šafranom i kardamomom, a toči se kraj tornja sa satom." },
-        { ime: "Mawa kachori", opis: "Slatka inačica kachorija, punjena zgusnutim mlijekom i orašastim plodovima te umočena u sirup." }
+        { ime: "Mirchi bada", opis: "A large green pepper stuffed with spiced potato, dipped in batter and fried, the best-known street snack in Jodhpur." },
+        { ime: "Makhaniya lassi", opis: "A lassi so thick that you eat it with a spoon, with butter, saffron and cardamom, poured next to the clock tower." },
+        { ime: "Mawa kachori", opis: "The sweet version of kachori, filled with thickened milk and nuts and dipped in syrup." }
       ],
       dozivjeti: [
-        { ime: "Obilazak utvrde s audiovodičem", opis: "Ako želite razumjeti što gledate, uzmite audiovodič muzeja Mehrangarh, koji se ubraja među najbolje u Indiji i u kojem priče pripovijedaju i članovi kraljevske obitelji.", link: "https://www.mehrangarh.org/" },
-        { ime: "Festival RIFF", opis: "Međunarodni festival narodne glazbe Radžastana održava se u utvrdi svake jeseni oko punog mjeseca u listopadu, s koncertima od zore do duboko u noć.", link: "https://www.mehrangarh.org/" },
-        { ime: "Sela zajednice Bishnoi", opis: "Izlet džipom u sela južno od grada, gdje žive Bishnoi, zajednica koja već pet stoljeća štiti drveće i divlje životinje, pa antilope ondje mirno pasu kraj kuća." }
+        { ime: "Touring the fort with an audio guide", opis: "If you want to understand what you are looking at, pick up the Mehrangarh museum audio guide, which ranks among the best in India and includes stories told by members of the royal family.", link: "https://www.mehrangarh.org/" },
+        { ime: "RIFF festival", opis: "The international festival of Rajasthani folk music is held at the fort every fall around the October full moon, with concerts from dawn until deep into the night.", link: "https://www.mehrangarh.org/" },
+        { ime: "Villages of the Bishnoi community", opis: "A jeep trip to the villages south of the city, home to the Bishnoi, a community that has been protecting trees and wild animals for five centuries, so antelope graze peacefully there right beside the houses." }
       ],
       agencije: [
-        { ime: "Mehrangarh Museum Trust", opis: "Službena stranica zaklade koja upravlja utvrdom, muzejom i festivalima.", link: "https://www.mehrangarh.org/" },
-        { ime: "Okrug Jodhpur", opis: "Službene stranice okružne uprave s turističkim informacijama.", link: "https://jodhpur.rajasthan.gov.in/" }
+        { ime: "Mehrangarh Museum Trust", opis: "The official website of the trust that runs the fort, the museum and the festivals.", link: "https://www.mehrangarh.org/" },
+        { ime: "Jodhpur District", opis: "The official website of the district administration, with tourist information.", link: "https://jodhpur.rajasthan.gov.in/" }
       ],
-      kada: "Od listopada do ožujka, jer ljeti temperature na rubu pustinje prelaze 45 stupnjeva. U utvrdu se popnite rano ujutro i potom se pješice spustite kroz plavu četvrt."
+      kada: "October to March, because in summer temperatures on the edge of the desert climb above 45 degrees Celsius. Go up to the fort early in the morning and then walk down through the blue quarter."
     },
     {
       id: "varanasi",
       ime: "Varanasi",
       vrsta: "grad",
-      sazetak: "Najsvetiji grad hinduizma, gdje se na stubama uz Ganges život i smrt odvijaju pred očima svih.",
+      sazetak: "The holiest city of Hinduism, where life and death unfold in plain view on the steps along the Ganges.",
       prica: [
-        "Varanasi, koji vjernici zovu i Kashi, grad svjetla, ubraja se među najstarije neprekidno naseljene gradove na svijetu. Hindusi vjeruju da onaj tko ovdje umre i bude spaljen izlazi iz kruga ponovnih rađanja, pa ljudi stoljećima dolaze ovamo dočekati kraj života.",
-        "Uz zapadnu obalu Gangesa niže se više od osamdeset ghatova, širokih kamenih stuba koje su gradili vladari i bogati trgovci iz cijele Indije. Na njima se ujutro ljudi kupaju, peru rublje i mole, a na dvama ghatovima danonoćno gore pogrebne lomače."
+        "Varanasi, which the faithful also call Kashi, the city of light, ranks among the oldest continuously inhabited cities in the world. Hindus believe that whoever dies and is cremated here is released from the cycle of rebirth, so for centuries people have come here to await the end of their lives.",
+        "More than eighty ghats line the western bank of the Ganges, broad stone steps built by rulers and wealthy merchants from all over India. In the morning people bathe, wash laundry and pray on them, and on two of the ghats funeral pyres burn day and night."
       ],
       vidjeti: [
-        { ime: "Ghat Dashashwamedh", opis: "Glavne stube u središtu grada, na kojima se svake večeri održava Ganga aarti, obred u kojem svećenici uz zvona i pjesmu kruže velikim mjedenim svijećnjacima u čast rijeci. Najbolje se vidi iz čamca usidrenog pred stubama." },
-        { ime: "Ghat Manikarnika", opis: "Glavno mjesto spaljivanja pokojnika, gdje vatra, kako se vjeruje, gori bez prekida već stoljećima. Promatrati se smije s poštovanjem i s udaljenosti, a fotografiranje je strogo neprimjereno." },
-        { ime: "Hram Kashi Vishwanath", opis: "Najvažniji hram boga Šive u gradu, čiju je današnju zgradu 1780. godine dala podići kraljica Ahilyabai Holkar. Tornjeve je pozlatio sikhski maharadža Ranjit Singh, pa ga zovu i Zlatnim hramom, a od 2021. s rijekom ga povezuje novo široko predvorje." },
-        { ime: "Sarnath", opis: "Mjesto desetak kilometara od grada gdje je Buda nakon prosvjetljenja održao prvu propovijed. Uz stupu Dhamek u muzeju se čuva kapitel s četiri lava koji je dao isklesati car Ašoka, a koji je danas državni grb Indije." },
-        { ime: "Stari grad iza ghatova", opis: "Labirint uličica širokih jedva za jednu kravu, s malim hramovima u svakom kutu. Ovdje se prodaju svila, mjedeno posuđe i slatkiši, a orijentirati se najlakše možete tako da se uvijek spuštate prema rijeci." }
+        { ime: "Dashashwamedh Ghat", opis: "The main steps in the center of the city, where the Ganga aarti is held every evening, a ritual in which priests circle large brass lamps to the sound of bells and chanting in honor of the river. The best view is from a boat anchored in front of the steps." },
+        { ime: "Manikarnika Ghat", opis: "The main cremation ground, where the fire is believed to have burned without interruption for centuries. You may watch respectfully and from a distance, and taking photographs is strictly inappropriate." },
+        { ime: "Kashi Vishwanath Temple", opis: "The city's most important temple to the god Shiva, whose present building was commissioned in 1780 by Queen Ahilyabai Holkar. The Sikh maharaja Ranjit Singh had the spires gilded, so it is also called the Golden Temple, and since 2021 a wide new corridor has connected it with the river." },
+        { ime: "Sarnath", opis: "A site about ten kilometers from the city where the Buddha delivered his first sermon after his enlightenment. Next to the Dhamek Stupa, the museum holds the capital with four lions that Emperor Ashoka had carved and that is now the national emblem of India." },
+        { ime: "The old city behind the ghats", opis: "A maze of lanes barely wide enough for one cow, with small shrines in every corner. Silk, brassware and sweets are sold here, and the easiest way to find your bearings is always to head downhill toward the river." }
       ],
       jesti: [
-        { ime: "Kachori sabzi", opis: "Jutarnji obrok starog grada: napuhani prženi kruh s ljutim varivom od krumpira, nakon kojega slijedi slatki jalebi." },
-        { ime: "Malaiyo", opis: "Pjenasti zimski desert od mlijeka sa šafranom, lagan poput oblaka, koji se prodaje samo u hladnim jutrima od studenog do veljače." },
-        { ime: "Banarasi paan", opis: "List betela punjen slatkim i mirisnim dodacima, koji se žvače nakon jela i po kojemu je grad poznat u cijeloj Indiji." },
-        { ime: "Lassi i thandai", opis: "Lassi se ovdje poslužuje u glinenim zdjelicama s voćem, a thandai je hladno mlijeko s bademima, komoračem i ružom." }
+        { ime: "Kachori sabzi", opis: "The old city's morning meal: puffed fried bread with a spicy potato stew, followed by sweet jalebi." },
+        { ime: "Malaiyo", opis: "A frothy winter dessert of milk with saffron, as light as a cloud, sold only on cold mornings from November to February." },
+        { ime: "Banarasi paan", opis: "A betel leaf filled with sweet and fragrant additions, chewed after a meal and the thing the city is known for all over India." },
+        { ime: "Lassi and thandai", opis: "Lassi is served here in small clay bowls with fruit, and thandai is cold milk with almonds, fennel and rose." }
       ],
       dozivjeti: [
-        { ime: "Vožnja čamcem u zoru", opis: "Ako želite vidjeti grad dok se budi, unajmite čamac na vesla prije izlaska sunca i zaplovite uz ghatove. Cijenu dogovorite unaprijed i večer prije." },
-        { ime: "Šetnje s lokalnim vodičima", opis: "Tvrtka Varanasi Walks vodi tematske šetnje kroz uličice, hramove i tkalačke četvrti, što je najbolji način da se ne izgubite ni u prostoru ni u značenjima.", link: "https://www.varanasiwalks.com/" },
-        { ime: "Tkalci banaraske svile", opis: "U muslimanskim četvrtima obitelji i danas tkaju svilene sarije sa zlatnim nitima, a za jedan treba od dva tjedna do nekoliko mjeseci. Posjet radionici dogovorite preko vodiča kako biste izbjegle posrednike." }
+        { ime: "Boat ride at dawn", opis: "If you want to see the city as it wakes, hire a rowboat before sunrise and glide along the ghats. Agree on the price in advance, the evening before." },
+        { ime: "Walks with local guides", opis: "Varanasi Walks leads themed walks through the lanes, temples and weavers' quarters, which is the best way to avoid getting lost, either in the streets or in the meanings.", link: "https://www.varanasiwalks.com/" },
+        { ime: "Banarasi silk weavers", opis: "In the Muslim quarters, families still weave silk saris with gold thread, and a single one takes anywhere from two weeks to several months. Arrange a workshop visit through a guide so that you avoid middlemen." }
       ],
       agencije: [
-        { ime: "Okrug Varanasi, turizam", opis: "Službene stranice okružne uprave s opisima ghatova, hramova i muzeja.", link: "https://varanasi.nic.in/tourism/" },
-        { ime: "Varanasi Walks", opis: "Lokalna tvrtka za vođene šetnje starim gradom.", link: "https://www.varanasiwalks.com/" },
-        { ime: "Shri Kashi Vishwanath", opis: "Službena stranica zaklade hrama, s pravilima za posjetitelje.", link: "https://www.shrikashivishwanath.org/" }
+        { ime: "Varanasi District, tourism", opis: "The official website of the district administration, with descriptions of the ghats, temples and museums.", link: "https://varanasi.nic.in/tourism/" },
+        { ime: "Varanasi Walks", opis: "A local company offering guided walks through the old city.", link: "https://www.varanasiwalks.com/" },
+        { ime: "Shri Kashi Vishwanath", opis: "The official website of the temple trust, with rules for visitors.", link: "https://www.shrikashivishwanath.org/" }
       ],
-      kada: "Od listopada do ožujka, a posebno u studenom za Dev Deepawali, kada su sve stube okićene uljanicama. Za vrijeme monsuna rijeka naraste i poplavi niže ghatove, pa su vožnje čamcem ograničene."
+      kada: "October to March, and especially November for Dev Deepawali, when all the steps are decked with oil lamps. During the monsoon the river rises and floods the lower ghats, so boat rides are limited."
     },
     {
       id: "mumbai",
       ime: "Mumbai",
       vrsta: "grad",
-      sazetak: "Najveći grad Indije, lučka metropola Bollywooda, viktorijanskih kolodvora i najbolje ulične hrane u zemlji.",
+      sazetak: "India's largest city, the port metropolis of Bollywood, Victorian railway stations and the best street food in the country.",
       prica: [
-        "Mumbai je nastao na sedam otoka koje su Portugalci 1661. godine dali Englezima kao dio miraza princeze Katarine od Braganze. Istočnoindijska kompanija močvare je postupno isušila i spojila u jedan poluotok, a luka je u 19. stoljeću zahvaljujući pamuku postala najvažnija u Indiji.",
-        "Grad se do 1995. godine službeno zvao Bombay, a mnogi ga stanovnici i danas tako zovu. U njemu se neboderi i najskuplje nekretnine Azije nalaze tik uz goleme sirotinjske četvrti, i baš ga ta mješavina čini tako živim."
+        "Mumbai grew up on seven islands that the Portuguese handed to the English in 1661 as part of the dowry of Princess Catherine of Braganza. The East India Company gradually drained the marshes and joined them into a single peninsula, and in the 19th century, thanks to cotton, the port became the most important in India.",
+        "Until 1995 the city was officially called Bombay, and many residents still call it that today. Skyscrapers and the most expensive real estate in Asia stand right beside enormous slums here, and it is precisely that mix that makes the city so alive."
       ],
       vidjeti: [
-        { ime: "Gateway of India", opis: "Slavoluk od žutog bazalta na obali, dovršen 1924. godine u spomen na dolazak kralja Đure V. Ironijom povijesti, upravo su kroz njega 1948. godine posljednji britanski vojnici napustili Indiju." },
-        { ime: "Kolodvor Chhatrapati Shivaji Maharaj Terminus", opis: "Nekadašnji Victoria Terminus iz 1888. godine, na UNESCO-ovu popisu od 2004., spaja viktorijansku neogotiku s indijskim kupolama. Potražite kamene paunove, majmune i lavove na pročelju, a zatim pogledajte kako zgrada radi punim pogonom kao jedan od najprometnijih kolodvora svijeta." },
-        { ime: "Špilje na otoku Elephanta", opis: "Hramovi isklesani u stijeni u 5. i 6. stoljeću, do kojih se stiže brodom za oko sat vremena. Glavni je prizor kip Šive s tri lica, visok gotovo šest metara, koji prikazuje boga kao stvoritelja, čuvara i razoritelja." },
-        { ime: "Marine Drive i art deco četvrt", opis: "Obalna šetnica duga oko tri i pol kilometra, noću zvana Kraljičina ogrlica zbog niza uličnih svjetala. Uz nju stoji jedna od najvećih skupina art deco zgrada na svijetu, koja je zajedno s viktorijanskim zdanjima preko puta parka Oval upisana na UNESCO-ov popis 2018. godine." },
-        { ime: "Dhobi Ghat", opis: "Praonica na otvorenom iz 19. stoljeća s nizovima betonskih korita, u kojoj se ručno pere rublje gradskih hotela i bolnica. Najbolje se vidi s mosta kraj postaje Mahalaxmi." },
-        { ime: "Muzej CSMVS", opis: "Glavni gradski muzej, otvoren 1922. godine u zgradi indo-saracenskog stila s velikom kupolom. Posebno vrijedi zbirka indijskih minijatura i skulptura iz Elephante." }
+        { ime: "Gateway of India", opis: "A triumphal arch of yellow basalt on the waterfront, completed in 1924 to commemorate the arrival of King George V. By an irony of history, it was through this very arch that the last British soldiers left India in 1948." },
+        { ime: "Chhatrapati Shivaji Maharaj Terminus", opis: "The former Victoria Terminus from 1888, on the UNESCO list since 2004, blends Victorian Gothic Revival with Indian domes. Look for the stone peacocks, monkeys and lions on the facade, and then watch the building run at full tilt as one of the busiest railway stations in the world." },
+        { ime: "Elephanta Caves", opis: "Temples carved into the rock in the 5th and 6th centuries, reached by boat in about an hour. The main sight is a three-faced statue of Shiva almost six meters tall, which shows the god as creator, preserver and destroyer." },
+        { ime: "Marine Drive and the Art Deco district", opis: "A seaside promenade about three and a half kilometers long, known at night as the Queen's Necklace because of its string of street lights. Along it stands one of the largest groups of Art Deco buildings in the world, which was inscribed on the UNESCO list in 2018 together with the Victorian buildings across the Oval park." },
+        { ime: "Dhobi Ghat", opis: "An open-air laundry from the 19th century with rows of concrete wash pens, where the linen of the city's hotels and hospitals is washed by hand. The best view is from the bridge next to Mahalaxmi station." },
+        { ime: "CSMVS Museum", opis: "The city's main museum, opened in 1922 in an Indo-Saracenic building with a large dome. The collection of Indian miniatures and the sculptures from Elephanta are especially worth your time." }
       ],
       jesti: [
-        { ime: "Vada pav", opis: "Prženi okruglica od krumpira u mekom pecivu s ljutim chutneyjem od češnjaka, mumbajski odgovor na hamburger i obrok radnika." },
-        { ime: "Pav bhaji", opis: "Gusti začinjeni pire od povrća s maslacem, uz prepečeno pecivo, nastao kao brza večera radnika u tekstilnim tvornicama." },
-        { ime: "Bhel puri", opis: "Hrskava salata od napuhane riže, luka, krumpira i umaka od tamarinda, koja se jede na plaži Chowpatty u zalazak sunca." },
-        { ime: "Iranski kafići", opis: "Lokali koje su početkom 20. stoljeća otvorili doseljenici zoroastrijci iz Irana, s mramornim stolovima i starim ogledalima, gdje se uz slatki čaj jede pecivo s maslacem, bun maska." }
+        { ime: "Vada pav", opis: "A fried potato dumpling in a soft bun with a spicy garlic chutney, Mumbai's answer to the hamburger and the workers' meal." },
+        { ime: "Pav bhaji", opis: "A thick, spiced vegetable mash with butter, served with toasted buns, which began as a quick dinner for workers in the textile mills." },
+        { ime: "Bhel puri", opis: "A crunchy salad of puffed rice, onion, potato and tamarind sauce, eaten on Chowpatty Beach at sunset." },
+        { ime: "Irani cafes", opis: "Cafes opened in the early 20th century by Zoroastrian immigrants from Iran, with marble tables and old mirrors, where sweet tea comes with a buttered bun, bun maska." }
       ],
       dozivjeti: [
-        { ime: "Šetnje baštinom s Khaki Tours", opis: "Ako želite čuti priče koje stoje iza zgrada u četvrti Fort, pridružite se šetnjama i vožnjama otvorenim džipom koje vode lokalni zaljubljenici u povijest grada.", link: "https://khakitours.com/" },
-        { ime: "Obilazak Dharavija", opis: "Reality Tours vodi obzirne ture kroz jednu od najvećih sirotinjskih četvrti Azije, bez fotografiranja, s naglaskom na radionice reciklaže, lončarstva i kože. Većina dobiti odlazi u obrazovne programe za stanovnike.", link: "https://realitytoursandtravel.com/" },
-        { ime: "Dabbawale u podne", opis: "Oko podneva pred kolodvorom Churchgate gledajte dostavljače u bijelim kapama koji razvrstavaju tisuće limenih posuda s domaćim ručkom. Njihov sustav oznaka bojama gotovo nikada ne pogriješi, pa ga proučavaju i poslovne škole." }
+        { ime: "Heritage walks with Khaki Tours", opis: "If you want to hear the stories behind the buildings of the Fort district, join the walks and open jeep rides led by locals who are in love with the city's history.", link: "https://khakitours.com/" },
+        { ime: "Tour of Dharavi", opis: "Reality Tours runs considerate tours through one of the largest slums in Asia, with no photography and a focus on the recycling, pottery and leather workshops. Most of the profit goes to education programs for residents.", link: "https://realitytoursandtravel.com/" },
+        { ime: "Dabbawalas at noon", opis: "Around noon in front of Churchgate station, watch the delivery men in white caps sorting thousands of tin lunchboxes filled with home-cooked meals. Their system of color codes almost never makes a mistake, so even business schools study it." }
       ],
       agencije: [
-        { ime: "Maharashtra Tourism", opis: "Službena turistička organizacija savezne države Maharaštre.", link: "https://maharashtratourism.gov.in/" },
-        { ime: "Khaki Tours", opis: "Lokalna tvrtka za šetnje baštinom Mumbaija.", link: "https://khakitours.com/" },
-        { ime: "Mumbai Magic", opis: "Tvrtka koja organizira tematske gradske ture s lokalnim vodičima, od tržnica do kuhinje.", link: "https://www.mumbaimagic.com/" }
+        { ime: "Maharashtra Tourism", opis: "The official tourism organization of the state of Maharashtra.", link: "https://maharashtratourism.gov.in/" },
+        { ime: "Khaki Tours", opis: "A local company offering heritage walks in Mumbai.", link: "https://khakitours.com/" },
+        { ime: "Mumbai Magic", opis: "A company that organizes themed city tours with local guides, from markets to cooking.", link: "https://www.mumbaimagic.com/" }
       ],
-      kada: "Od studenog do veljače, kada je najmanje sparno. Od lipnja do rujna monsun donosi obilne kiše, a brodovi za Elephantu tada često ne voze."
+      kada: "November to February, when it is least humid. From June to September the monsoon brings heavy rain, and the boats to Elephanta often do not run then."
     },
     {
       id: "goa",
       ime: "Goa",
       vrsta: "regija",
-      sazetak: "Najmanja indijska savezna država, s plažama pod palmama, bijelim baroknim crkvama i kuhinjom koja miriše na Portugal.",
+      sazetak: "India's smallest state, with palm-shaded beaches, white Baroque churches and a cuisine that smells of Portugal.",
       prica: [
-        "Gou je 1510. godine osvojio portugalski admiral Afonso de Albuquerque i ona je ostala portugalska punih 451 godinu, sve do 1961., dakle mnogo dulje nego što su Britanci vladali ostatkom Indije. Stara Goa bila je u 16. stoljeću sjedište portugalskog carstva na Istoku i grad veći od tadašnjeg Lisabona.",
-        "Od tog su vremena ostale crkve, katolička zajednica, kuće s trijemovima i jela s octom i svinjetinom kakvih drugdje u Indiji nema. U Goi je u 17. stoljeću kao misionar djelovao i hrvatski isusovac Nikola Ratkaj, a predaja povezuje crkvu svetog Vlaha u selu Gandaulim kraj Stare Goe s dubrovačkim trgovcima, iako povjesničari za dubrovačku koloniju nemaju čvrstih dokaza."
+        "Goa was conquered in 1510 by the Portuguese admiral Afonso de Albuquerque and stayed Portuguese for a full 451 years, right up to 1961, which is far longer than the British ruled the rest of India. In the 16th century Old Goa was the seat of the Portuguese empire in the East and a city larger than the Lisbon of the day.",
+        "That era left behind churches, a Catholic community, houses with porches and dishes with vinegar and pork that you will not find elsewhere in India. In the 17th century the Croatian Jesuit Nikola Ratkaj also worked in Goa as a missionary, and tradition links the church of Saint Blaise in the village of Gandaulim near Old Goa with merchants from Dubrovnik, although historians have no firm evidence of a Dubrovnik colony."
       ],
       vidjeti: [
-        { ime: "Bazilika Bom Jesus", opis: "Isusovačka crkva u Staroj Goi posvećena 1605. godine, dio UNESCO-ove baštine. U srebrnom lijesu čuva se tijelo svetog Franje Ksaverskog, koje se otprilike svakih deset godina izlaže vjernicima." },
-        { ime: "Katedrala Sé", opis: "Jedna od najvećih crkava u Aziji, građena od 1562. do 1619. godine. Ima samo jedan toranj jer se drugi srušio 1776. i nikada nije obnovljen, a u preostalom visi veliko „Zlatno zvono“." },
-        { ime: "Fontainhas u Panajiju", opis: "Stara latinska četvrt glavnoga grada, s kućama obojenima u žuto, plavo i crveno i balkonima od kovanog željeza. Na pločicama s nazivima ulica i danas piše portugalski." },
-        { ime: "Utvrda Aguada", opis: "Portugalska tvrđava iz 1612. godine na ušću rijeke Mandovi, sa svjetionikom iz 19. stoljeća. Ime je dobila po izvoru slatke vode na kojem su se brodovi opskrbljivali prije duge plovidbe." },
-        { ime: "Plaže juga", opis: "Dok je sjever Goe poznat po zabavama i tržnicama, na jugu su mirnije uvale poput Palolema i Agonde. Agonda je i gnjezdilište morskih kornjača, pa su dijelovi plaže zimi ograđeni." }
+        { ime: "Basilica of Bom Jesus", opis: "A Jesuit church in Old Goa consecrated in 1605 and part of the UNESCO heritage site. A silver casket holds the body of Saint Francis Xavier, which is displayed to the faithful roughly every ten years." },
+        { ime: "Sé Cathedral", opis: "One of the largest churches in Asia, built from 1562 to 1619. It has only one tower because the other collapsed in 1776 and was never rebuilt, and in the one that remains hangs the great “Golden Bell”." },
+        { ime: "Fontainhas in Panaji", opis: "The old Latin quarter of the capital, with houses painted yellow, blue and red and wrought iron balconies. The street name tiles are still written in Portuguese." },
+        { ime: "Fort Aguada", opis: "A Portuguese fortress from 1612 at the mouth of the Mandovi River, with a 19th-century lighthouse. It was named after the freshwater spring where ships took on supplies before a long voyage." },
+        { ime: "Beaches of the south", opis: "While the north of Goa is known for parties and markets, the south has quieter coves such as Palolem and Agonda. Agonda is also a nesting site for sea turtles, so parts of the beach are fenced off in winter." }
       ],
       jesti: [
-        { ime: "Riblji curry s rižom", opis: "Svakodnevni obrok Goe: riba u umaku od kokosa, čilija i kiselog voća kokum, uz crvenkastu lokalnu rižu." },
-        { ime: "Vindaloo", opis: "Ljuta svinjetina marinirana u octu i češnjaku, čije ime dolazi od portugalskog jela carne de vinha d'alhos, mesa u vinu i češnjaku." },
-        { ime: "Bebinca", opis: "Kolač od kokosova mlijeka, jaja i maslaca koji se peče sloj po sloj, tradicionalno njih sedam ili više, i jede za Božić." },
-        { ime: "Feni", opis: "Jaka rakija od indijskog oraščića ili kokosa, koja se peče samo u Goi i ima zaštićeno zemljopisno podrijetlo." }
+        { ime: "Fish curry rice", opis: "Goa's everyday meal: fish in a sauce of coconut, chili and the sour fruit kokum, served with reddish local rice." },
+        { ime: "Vindaloo", opis: "Spicy pork marinated in vinegar and garlic, whose name comes from the Portuguese dish carne de vinha d'alhos, meat in wine and garlic." },
+        { ime: "Bebinca", opis: "A cake of coconut milk, eggs and butter that is baked layer by layer, traditionally seven of them or more, and eaten at Christmas." },
+        { ime: "Feni", opis: "A strong spirit made from cashew fruit or coconut, which is distilled only in Goa and has protected geographical status." }
       ],
       dozivjeti: [
-        { ime: "Šetnja četvrti Fontainhas", opis: "Ako želite upoznati portugalsku Gou izvan plaža, pridružite se šetnji tvrtke Make It Happen, čiji vodiči vode kroz stare kuće, pekarnice i kapelice Panajija.", link: "https://makeithappen.co.in/" },
-        { ime: "Plantaža začina", opis: "U unutrašnjosti, oko mjesta Ponda, plantaže primaju posjetitelje i pokazuju kako rastu papar, kardamom, vanilija i muškatni oraščić, a obilazak završava ručkom na listu banane.", link: "https://sahakarispicefarm.com/" },
-        { ime: "Subotnja i srijedna tržnica", opis: "U Anjuni se srijedom održava buvljak koji su šezdesetih pokrenuli hipiji, a u Arpori subotom noćna tržnica s glazbom i hranom, obje samo u sezoni." }
+        { ime: "A walk through Fontainhas", opis: "If you want to get to know Portuguese Goa beyond the beaches, join a walk with Make It Happen, whose guides lead you through the old houses, bakeries and chapels of Panaji.", link: "https://makeithappen.co.in/" },
+        { ime: "Spice plantation", opis: "Inland, around the town of Ponda, plantations welcome visitors and show how pepper, cardamom, vanilla and nutmeg grow, and the tour ends with lunch on a banana leaf.", link: "https://sahakarispicefarm.com/" },
+        { ime: "Saturday and Wednesday markets", opis: "Anjuna hosts a Wednesday flea market started by hippies in the 1960s, and Arpora has a Saturday night market with music and food, both in season only." }
       ],
       agencije: [
-        { ime: "Goa Tourism", opis: "Službena turistička organizacija savezne države.", link: "https://goa-tourism.com/" },
-        { ime: "Make It Happen", opis: "Lokalna tvrtka za šetnje baštinom i izlete po Goi.", link: "https://makeithappen.co.in/" }
+        { ime: "Goa Tourism", opis: "The official state tourism organization.", link: "https://goa-tourism.com/" },
+        { ime: "Make It Happen", opis: "A local company offering heritage walks and excursions around Goa.", link: "https://makeithappen.co.in/" }
       ],
-      kada: "Od studenog do ožujka, kada je more mirno i rade sve kolibe na plažama. Za vrijeme monsuna, od lipnja do rujna, većina se plažnih lokala zatvara, ali je unutrašnjost bujno zelena."
+      kada: "November to March, when the sea is calm and all the beach shacks are open. During the monsoon, from June to September, most of the beach places close, but the interior is lush and green."
     },
     {
       id: "kerala",
       ime: "Kerala",
       vrsta: "regija",
-      sazetak: "Zeleni jug Indije, gdje se plovi lagunama među palmama, pije čaj na planinskim plantažama i jede s lista banane.",
+      sazetak: "The green south of India, where you cruise the backwaters among palms, drink tea on mountain plantations and eat off a banana leaf.",
       prica: [
-        "Kerala je uski pojas između Arapskog mora i planina Zapadni Gati, koji je zbog papra, kardamoma i cimeta tisućama godina privlačio trgovce: Rimljane, Arape, Kineze, Židove, a 1498. godine i Vasca da Gamu. Zato u jednom gradiću poput Kochija stoje sinagoga, crkve, džamije i hinduistički hramovi.",
-        "Danas je to savezna država s najvišom pismenošću u Indiji i vrlo opuštenim ritmom. U Kerali je od 1776. do 1789. godine kao misionar živio gradišćanski Hrvat Ivan Filip Vezdin, koji je ondje naučio sanskrt i 1790. u Rimu objavio prvu tiskanu gramatiku tog jezika u Europi."
+        "Kerala is a narrow strip between the Arabian Sea and the Western Ghats mountains that, because of its pepper, cardamom and cinnamon, drew traders for thousands of years: Romans, Arabs, Chinese, Jews and, in 1498, Vasco da Gama. That is why a single small city like Kochi has a synagogue, churches, mosques and Hindu temples.",
+        "Today it is the state with the highest literacy rate in India and a very relaxed pace. From 1776 to 1789 Ivan Filip Vezdin, a Burgenland Croat, lived in Kerala as a missionary, learned Sanskrit there and in 1790 published in Rome the first printed grammar of that language in Europe."
       ],
       vidjeti: [
-        { ime: "Fort Kochi", opis: "Stara lučka četvrt s kineskim ribarskim mrežama na konzolama, koje se spuštaju u more uz pomoć kamenih utega i za koje predaja kaže da su ih donijeli trgovci s dvora Kublaj-kana. U crkvi svetog Franje bio je 1524. pokopan Vasco da Gama, prije nego što su mu posmrtni ostaci preneseni u Lisabon." },
-        { ime: "Sinagoga Paradesi u Mattancherryju", opis: "Sinagoga iz 1568. godine, jedna od najstarijih aktivnih u zemljama Commonwealtha. Pod je prekriven stotinama ručno oslikanih kineskih pločica iz 18. stoljeća, među kojima nema dviju jednakih." },
-        { ime: "Lagune oko Alappuzhe", opis: "Mreža kanala, jezera i rijeka duga stotine kilometara, uz koju ljudi žive na uskim nasipima između vode i rižinih polja koja leže ispod razine mora. Plovi se kettuvallamima, nekadašnjim teglenicama za rižu čija je oplata sašivena užetom od kokosovih vlakana, bez čavala." },
-        { ime: "Munnar", opis: "Planinsko mjesto na oko 1500 metara, okruženo plantažama čaja koje su krajem 19. stoljeća zasadili Britanci. U obližnjem nacionalnom parku Eravikulam živi ugrožena planinska koza nilgirski tahr, a grm neelakurinji cvjeta samo jednom u dvanaest godina." },
-        { ime: "Nacionalni park Periyar", opis: "Rezervat oko umjetnog jezera iz 1895. godine, u kojem žive divlji slonovi i tigrovi. S vodičima iz lokalnih zajednica, od kojih su neki nekadašnji krivolovci, ide se na šetnje i splavarenje bambusovim splavima." }
+        { ime: "Fort Kochi", opis: "The old harbor quarter with its cantilevered Chinese fishing nets, which are lowered into the sea with the help of stone counterweights and which tradition says were brought by traders from the court of Kublai Khan. Vasco da Gama was buried in the Church of Saint Francis in 1524, before his remains were moved to Lisbon." },
+        { ime: "Paradesi Synagogue in Mattancherry", opis: "A synagogue from 1568, one of the oldest active ones in the Commonwealth countries. The floor is covered with hundreds of hand-painted Chinese tiles from the 18th century, no two of which are alike." },
+        { ime: "The backwaters around Alappuzha", opis: "A network of canals, lakes and rivers hundreds of kilometers long, along which people live on narrow embankments between the water and rice paddies that lie below sea level. You travel by kettuvallam, the former rice barges whose planking is stitched together with coconut fiber rope, without nails." },
+        { ime: "Munnar", opis: "A hill station at about 1,500 meters, surrounded by tea plantations that the British planted in the late 19th century. The nearby Eravikulam National Park is home to an endangered mountain goat, the Nilgiri tahr, and the neelakurinji shrub blooms only once every twelve years." },
+        { ime: "Periyar National Park", opis: "A reserve around an artificial lake from 1895, home to wild elephants and tigers. With guides from the local communities, some of them former poachers, you can go on walks and on bamboo raft trips." }
       ],
       jesti: [
-        { ime: "Sadya", opis: "Svečani vegetarijanski obrok od dvadesetak jela posluženih na listu banane, koji se jede rukom, a list se na kraju preklopi prema sebi u znak da je bilo ukusno." },
-        { ime: "Appam i stew", opis: "Zdjelasta palačinka od fermentirane riže, mekana u sredini i čipkasta na rubu, uz blagi gulaš s kokosovim mlijekom." },
-        { ime: "Karimeen pollichathu", opis: "Riba iz laguna premazana začinima, umotana u list banane i pečena, specijalitet Alappuzhe." },
-        { ime: "Puttu i kadala", opis: "Doručak od rižina brašna i kokosa kuhanog na pari u valjkastom kalupu, uz curry od crnog slanutka." }
+        { ime: "Sadya", opis: "A festive vegetarian meal of about twenty dishes served on a banana leaf and eaten with your hand, and at the end you fold the leaf toward yourself as a sign that it was delicious." },
+        { ime: "Appam and stew", opis: "A bowl-shaped pancake of fermented rice, soft in the middle and lacy at the edge, with a mild coconut milk stew." },
+        { ime: "Karimeen pollichathu", opis: "Backwater fish coated in spices, wrapped in a banana leaf and roasted, a specialty of Alappuzha." },
+        { ime: "Puttu and kadala", opis: "A breakfast of rice flour and coconut steamed in a cylindrical mold, with a black chickpea curry." }
       ],
       dozivjeti: [
-        { ime: "Večer kathakalija", opis: "Ako želite vidjeti plesnu dramu u kojoj glumci bez riječi, samo očima i prstima, pripovijedaju epove, dođite sat ranije i gledajte nanošenje šminke, koje traje dulje od same predstave.", link: "https://www.keralatourism.org/kathakali/" },
-        { ime: "Plovidba lagunama", opis: "Umjesto velikog broda za noćenje možete unajmiti kanu ili mali čamac s veslačem, kojim se ulazi u uske kanale kamo veliki brodovi ne mogu i gdje se vidi svakodnevni život.", link: "https://www.keralatourism.org/destination/alappuzha-backwaters/" },
-        { ime: "Tečaj kuhanja u obiteljskoj kući", opis: "U Fort Kochiju i selima uz lagune mnoge domaćice u vlastitoj kuhinji podučavaju keralsku kuhinju, od mljevenja kokosa do pečenja appama." }
+        { ime: "An evening of kathakali", opis: "If you want to see a dance drama in which the actors tell the epics without words, using only their eyes and fingers, come an hour early and watch the makeup being applied, which takes longer than the performance itself.", link: "https://www.keralatourism.org/kathakali/" },
+        { ime: "Cruising the backwaters", opis: "As an alternative to a large overnight houseboat, you can hire a canoe or a small boat with a paddler, which slips into narrow canals where the big boats cannot go and where you see everyday life.", link: "https://www.keralatourism.org/destination/alappuzha-backwaters/" },
+        { ime: "Cooking class in a family home", opis: "In Fort Kochi and the villages along the backwaters, many home cooks teach Keralan cuisine in their own kitchens, from grinding coconut to making appam." }
       ],
       agencije: [
-        { ime: "Kerala Tourism", opis: "Službena turistička organizacija savezne države, s vrlo iscrpnim vodičem po mjestima i običajima.", link: "https://www.keralatourism.org/" }
+        { ime: "Kerala Tourism", opis: "The official state tourism organization, with a very thorough guide to places and customs.", link: "https://www.keralatourism.org/" }
       ],
-      kada: "Od prosinca do ožujka je najsuše. Blagdan Onam, s gozbama i povorkama, pada u kolovoz ili rujan, a utrka dugih „zmijskih“ čamaca za Nehruov trofej održava se u Alappuzhi u kolovozu."
+      kada: "December to March is the driest time. The festival of Onam, with its feasts and processions, falls in August or September, and the race of long “snake” boats for the Nehru Trophy is held in Alappuzha in August."
     },
     {
       id: "amritsar",
       ime: "Amritsar",
       vrsta: "grad",
-      sazetak: "Sveti grad sikha sa Zlatnim hramom, u kojem se svakoga dana besplatno nahrane deseci tisuća ljudi.",
+      sazetak: "The holy city of the Sikhs, with the Golden Temple, where tens of thousands of people are fed for free every day.",
       prica: [
-        "Amritsar je 1577. godine osnovao Guru Ram Das, četvrti sikhski guru, iskopavši sveti bazen po kojemu je grad dobio ime: amrit sar znači jezero nektara. Usred bazena njegov je nasljednik podigao hram koji je postao duhovno središte sikhizma, vjere nastale u Pandžabu krajem 15. stoljeća.",
-        "Grad leži tridesetak kilometara od granice s Pakistanom i teško je stradao 1947. godine, kada je Pandžab podijeljen između dviju država. Tu povijest, uz britanski pokolj prosvjednika 1919. godine, Amritsar pamti u dva potresna spomen-mjesta."
+        "Amritsar was founded in 1577 by Guru Ram Das, the fourth Sikh guru, who dug the sacred pool that gave the city its name: amrit sar means pool of nectar. In the middle of the pool his successor built the temple that became the spiritual center of Sikhism, a faith born in Punjab at the end of the 15th century.",
+        "The city lies some thirty kilometers from the border with Pakistan and suffered badly in 1947, when Punjab was divided between the two states. Amritsar remembers that history, along with the British massacre of protesters in 1919, at two moving memorial sites."
       ],
       vidjeti: [
-        { ime: "Zlatni hram (Harmandir Sahib)", opis: "Svetište usred bazena, čiji je gornji dio početkom 19. stoljeća maharadža Ranjit Singh dao obložiti pozlaćenim bakrom. Hram ima vrata na sve četiri strane svijeta kao znak da je otvoren svima, a silazi se k njemu niz stube, što podsjeća na poniznost." },
-        { ime: "Langar, zajednička kuhinja", opis: "U blagovaonici hrama svakoga se dana besplatno posluži obrok za više desetaka tisuća ljudi, koji svi sjede na podu u istom redu, bez obzira na vjeru i imetak. Kuhaju i peru dobrovoljci, a pridružiti se može svatko." },
-        { ime: "Jallianwala Bagh", opis: "Ograđeni vrt u kojem su britanski vojnici 13. travnja 1919. godine otvorili vatru na nenaoružano okupljeno mnoštvo. Na zidovima su i danas označeni tragovi metaka, a sačuvan je i bunar u koji su ljudi skakali bježeći od pucnjave." },
-        { ime: "Muzej podjele", opis: "Muzej otvoren 2017. godine u staroj gradskoj vijećnici, posvećen podjeli Indije 1947. godine, jednoj od najvećih seoba u povijesti. Izložena su pisma, odjeća i snimljena svjedočanstva obitelji koje su preko noći ostale bez doma." },
-        { ime: "Granični prijelaz Attari-Wagah", opis: "Svake večeri prije zalaska sunca indijski i pakistanski graničari izvode ceremoniju spuštanja zastava, s pretjerano visokim koracima i navijanjem s tribina. Sve podsjeća na utakmicu, a završava kratkim rukovanjem." }
+        { ime: "Golden Temple (Harmandir Sahib)", opis: "A shrine in the middle of a pool, whose upper part Maharaja Ranjit Singh had covered in gilded copper in the early 19th century. The temple has doors on all four sides as a sign that it is open to everyone, and you walk down steps to reach it, which is a reminder of humility." },
+        { ime: "Langar, the community kitchen", opis: "In the temple's dining hall a free meal is served every day to tens of thousands of people, who all sit on the floor in the same row regardless of faith or wealth. Volunteers do the cooking and washing up, and anyone can join in." },
+        { ime: "Jallianwala Bagh", opis: "A walled garden where British soldiers opened fire on an unarmed crowd on April 13, 1919. The bullet marks are still labeled on the walls, and the well that people jumped into as they fled the shooting has been preserved too." },
+        { ime: "Partition Museum", opis: "A museum opened in 2017 in the old town hall and devoted to the Partition of India in 1947, one of the largest migrations in history. On display are letters, clothing and recorded testimonies of families who lost their homes overnight." },
+        { ime: "Attari-Wagah border crossing", opis: "Every evening before sunset, Indian and Pakistani border guards perform a flag-lowering ceremony, with exaggerated high kicks and cheering from the stands. It all feels like a sports match and ends with a brief handshake." }
       ],
       jesti: [
-        { ime: "Amritsari kulcha", opis: "Lisnati kruh punjen krumpirom i začinima, pečen u glinenoj peći i poslužen s komadom maslaca i slanutkom." },
-        { ime: "Lassi", opis: "Ovdje se toči u velike čelične čaše i toliko je gust da zamjenjuje obrok." },
-        { ime: "Dal iz langara", opis: "Jednostavna crna leća kuhana u golemim kotlovima hramske kuhinje, za koju mnogi kažu da je najbolja koju su ikada jeli." }
+        { ime: "Amritsari kulcha", opis: "Flaky bread stuffed with potato and spices, baked in a clay oven and served with a pat of butter and chickpeas." },
+        { ime: "Lassi", opis: "Here it is poured into large steel tumblers and is so thick that it replaces a meal." },
+        { ime: "Dal from the langar", opis: "Simple black lentils cooked in the huge cauldrons of the temple kitchen, which many people say is the best they have ever eaten." }
       ],
       dozivjeti: [
-        { ime: "Noćni obred Palki Sahib", opis: "Ako želite vidjeti hram u najsvečanijem trenutku, dođite kasno navečer, kada se sveta knjiga u pozlaćenoj nosiljci uz pjesmu nosi na počinak, ili u zoru, kada je vraćaju.", link: "https://sgpc.net/" },
-        { ime: "Dobrovoljni rad u kuhinji", opis: "Sjednite među žene koje valjaju kruh ili pomozite prati posuđe: u sat vremena naučit ćete o sikhskom poimanju služenja više nego iz ijednog vodiča." },
-        { ime: "Muzej podjele", opis: "Odvojite barem dva sata za zbirku usmenih svjedočanstava, koja povijest iz udžbenika pretvara u osobne priče.", link: "https://www.partitionmuseum.org/" }
+        { ime: "The Palki Sahib night ceremony", opis: "If you want to see the temple at its most solemn moment, come late in the evening, when the holy book is carried to rest in a gilded palanquin to the sound of hymns, or at dawn, when it is brought back.", link: "https://sgpc.net/" },
+        { ime: "Volunteering in the kitchen", opis: "Sit down among the women rolling out bread or help wash the dishes: in an hour you will learn more about the Sikh idea of service than from any guidebook." },
+        { ime: "Partition Museum", opis: "Set aside at least two hours for the collection of oral testimonies, which turns textbook history into personal stories.", link: "https://www.partitionmuseum.org/" }
       ],
       agencije: [
-        { ime: "Okrug Amritsar, turizam", opis: "Službene stranice okružne uprave s popisom znamenitosti.", link: "https://amritsar.nic.in/tourism/" },
-        { ime: "SGPC", opis: "Službena stranica odbora koji upravlja Zlatnim hramom i drugim sikhskim svetištima.", link: "https://sgpc.net/" }
+        { ime: "Amritsar District, tourism", opis: "The official website of the district administration, with a list of sights.", link: "https://amritsar.nic.in/tourism/" },
+        { ime: "SGPC", opis: "The official website of the committee that manages the Golden Temple and other Sikh shrines.", link: "https://sgpc.net/" }
       ],
-      kada: "Od listopada do ožujka, s tim da su prosinac i siječanj hladni i magloviti. U hram se ulazi bosih nogu i pokrivene glave, a otvoren je gotovo cijelu noć."
+      kada: "October to March, although December and January are cold and foggy. You enter the temple barefoot and with your head covered, and it is open almost all night."
     },
     {
       id: "hampi",
       ime: "Hampi",
       vrsta: "gradić",
-      sazetak: "Ruševine prijestolnice moćnog carstva rasute među golemim granitnim gromadama i nasadima banana.",
+      sazetak: "The ruins of a mighty empire's capital, scattered among giant granite boulders and banana groves.",
       prica: [
-        "Hampi je bio Vijayanagara, prijestolnica istoimenog hinduističkog carstva osnovanog 1336. godine, koje je dva stoljeća vladalo jugom Indije. Portugalski putnik Domingo Paes, koji ju je posjetio oko 1520. godine, usporedio ju je veličinom s Rimom i divio se tržnicama na kojima su se prodavali dijamanti i konji.",
-        "Nakon poraza u bitki kod Talikote 1565. godine vojske sultanata s Dekana mjesecima su pljačkale i razarale grad, koji se više nikada nije oporavio. Ostalo je više od tisuću građevina razasutih po krajoliku od narančastih stijena, a UNESCO ih je zaštitio 1986. godine."
+        "Hampi was Vijayanagara, the capital of the Hindu empire of the same name, founded in 1336, which ruled the south of India for two centuries. The Portuguese traveler Domingo Paes, who visited around 1520, compared it in size to Rome and marveled at markets where diamonds and horses were sold.",
+        "After the defeat at the Battle of Talikota in 1565, the armies of the Deccan sultanates spent months looting and destroying the city, which never recovered. What remains is more than a thousand structures strewn across a landscape of orange rocks, and UNESCO protected them in 1986."
       ],
       vidjeti: [
-        { ime: "Hram Virupaksha", opis: "Jedini hram u Hampiju u kojem se bogoslužje nije prekidalo od 7. stoljeća. U jednoj mračnoj prostoriji iza svetišta kroz mali otvor u zidu pada obrnuta slika ulaznog tornja, kao u kameri opskuri." },
-        { ime: "Hram Vittala", opis: "Vrhunac graditeljstva Vijayanagare iz 16. stoljeća, s kamenim kolima koja su prikazana i na novčanici od pedeset rupija. Tanki stupovi u glavnoj dvorani pri udarcu daju različite glazbene tonove, pa ih je danas zabranjeno dirati." },
-        { ime: "Kraljevska četvrt", opis: "Ograđeni dio grada s paviljonom Lotus Mahal, koji spaja hinduističke i islamske oblike, i dugom zgradom s jedanaest kupola u kojoj su se držali kraljevski slonovi." },
-        { ime: "Brdo Hemakuta i Matanga", opis: "Dva brežuljka sa starim malim hramovima, omiljena za zalazak, odnosno izlazak sunca. S Matange se pruža pogled na cijelu dolinu, rijeku i ulicu nekadašnje tržnice." },
-        { ime: "Kip Lakshmi Narasimhe", opis: "Monolitni kip Višnua u liku čovjeka-lava, visok gotovo sedam metara, isklesan 1528. godine. Božica koja mu je sjedila u krilu odlomljena je pri razaranju grada, a ostala je samo njezina ruka na njegovim leđima." }
+        { ime: "Virupaksha Temple", opis: "The only temple in Hampi where worship has continued without interruption since the 7th century. In a dark room behind the sanctuary, an inverted image of the entrance tower falls through a small opening in the wall, as in a camera obscura." },
+        { ime: "Vittala Temple", opis: "The peak of 16th-century Vijayanagara architecture, with a stone chariot that also appears on the fifty-rupee note. The slender pillars in the main hall produce different musical notes when struck, so touching them is now forbidden." },
+        { ime: "Royal Enclosure", opis: "A walled part of the city with the Lotus Mahal pavilion, which blends Hindu and Islamic forms, and a long building with eleven domes where the royal elephants were kept." },
+        { ime: "Hemakuta and Matanga hills", opis: "Two hills with small old temples, favorites for sunset and sunrise respectively. From Matanga you look out over the whole valley, the river and the street of the former bazaar." },
+        { ime: "Lakshmi Narasimha statue", opis: "A monolithic statue of Vishnu in the form of a man-lion, almost seven meters tall, carved in 1528. The goddess who sat on his lap was broken off when the city was destroyed, and only her hand on his back remains." }
       ],
       jesti: [
-        { ime: "Južnoindijski thali", opis: "Riža, sambar, rasam, povrće i jogurt, posluženi na listu banane u jednostavnim zalogajnicama oko hrama." },
-        { ime: "Jolada rotti", opis: "Tanki kruh od sirka, tipičan za sjever Karnatake, koji se jede s punjenim patlidžanima i ljutim chutneyjem od kikirikija." },
-        { ime: "Dosa i idli", opis: "Doručak koji se u selu priprema od rane zore, uz kokosov chutney i čaj." }
+        { ime: "South Indian thali", opis: "Rice, sambar, rasam, vegetables and yogurt, served on a banana leaf in the simple eateries around the temple." },
+        { ime: "Jolada rotti", opis: "A thin sorghum flatbread, typical of northern Karnataka, eaten with stuffed eggplant and a spicy peanut chutney." },
+        { ime: "Dosa and idli", opis: "A breakfast that the village starts preparing at the crack of dawn, with coconut chutney and tea." }
       ],
       dozivjeti: [
-        { ime: "Bicikl ili skuter među ruševinama", opis: "Ako želite obići što više u jednom danu, unajmite bicikl u selu, jer su spomenici razasuti na dvadesetak četvornih kilometara." },
-        { ime: "Vožnja okruglim čamcem", opis: "Rijeka Tungabhadra prelazi se u coracleu, okrugloj košari od bambusa presvučenoj kožom ili plastikom, kakvom se ovdje plovi stoljećima." },
-        { ime: "Izlazak sunca s brda Matanga", opis: "Uspon traje oko pola sata po kamenim stubama i najljepši je uvod u Hampi, jer se s vrha jasno vidi raspored starog grada." }
+        { ime: "By bicycle or scooter among the ruins", opis: "If you want to cover as much as possible in a day, rent a bicycle in the village, because the monuments are scattered over some twenty square kilometers." },
+        { ime: "A ride in a round boat", opis: "You cross the Tungabhadra River in a coracle, a round bamboo basket covered in hide or plastic, of the kind people here have used for centuries." },
+        { ime: "Sunrise from Matanga Hill", opis: "The climb takes about half an hour up stone steps and is the loveliest introduction to Hampi, because from the top you can clearly see the layout of the old city." }
       ],
       agencije: [
-        { ime: "Karnataka Tourism", opis: "Službena turistička organizacija savezne države Karnatake.", link: "https://karnatakatourism.org/en/" },
-        { ime: "Okrug Vijayanagara, turizam", opis: "Službene stranice okružne uprave kojoj Hampi pripada.", link: "https://vijayanagara.nic.in/en/tourism/" },
-        { ime: "Archaeological Survey of India", opis: "Državna služba koja skrbi o spomenicima Hampija i prodaje ulaznice.", link: "https://asi.nic.in/" }
+        { ime: "Karnataka Tourism", opis: "The official tourism organization of the state of Karnataka.", link: "https://karnatakatourism.org/en/" },
+        { ime: "Vijayanagara District, tourism", opis: "The official website of the district administration that Hampi belongs to.", link: "https://vijayanagara.nic.in/en/tourism/" },
+        { ime: "Archaeological Survey of India", opis: "The government agency that looks after Hampi's monuments and sells tickets.", link: "https://asi.nic.in/" }
       ],
-      kada: "Od studenog do veljače. Najbliži kolodvor je Hosapete, trinaest kilometara dalje, a za razgledavanje ponesite šešir i vodu jer hlada među stijenama gotovo nema."
+      kada: "November to February. The nearest railway station is Hosapete, thirteen kilometers away, and for sightseeing bring a hat and water because there is almost no shade among the rocks."
     },
     {
       id: "rishikesh",
       ime: "Rishikesh",
       vrsta: "grad",
-      sazetak: "Gradić na mjestu gdje Ganges izlazi iz Himalaje, svjetska prijestolnica joge i polazište za hodočašća u planine.",
+      sazetak: "A small town at the spot where the Ganges leaves the Himalayas, the yoga capital of the world and a starting point for pilgrimages into the mountains.",
       prica: [
-        "Rishikesh je stoljećima bio mjesto gdje su se mudraci povlačili na meditaciju prije uspona prema svetištima u Himalaji. Ganges je ovdje još zelen, brz i hladan, a s obje strane rijeke nižu se ašrami i hramovi.",
-        "Zapad ga je otkrio 1968. godine, kada su Beatlesi nekoliko tjedana proveli u ašramu Maharishija Mahesha Yogija i ondje napisali velik dio pjesama za „Bijeli album“. Grad je strogo vegetarijanski i u njemu se ne prodaje alkohol."
+        "For centuries Rishikesh was the place where sages withdrew to meditate before climbing toward the shrines of the Himalayas. The Ganges here is still green, fast and cold, and ashrams and temples line both banks of the river.",
+        "The West discovered it in 1968, when the Beatles spent several weeks at the ashram of Maharishi Mahesh Yogi and wrote a large share of the songs for the “White Album” there. The town is strictly vegetarian and no alcohol is sold in it."
       ],
       vidjeti: [
-        { ime: "Ašram Beatlesa", opis: "Napušteni ašram Chaurasi Kutia na rubu rezervata tigrova, otvoren za posjetitelje 2015. godine. Među kupolastim ćelijama za meditaciju, koje nalikuju kamenim jajima, zidove danas prekrivaju murali posvećeni glazbenicima." },
-        { ime: "Ghat Triveni", opis: "Glavne stube uz rijeku u gradu, gdje hodočasnici puštaju niz vodu košarice od lišća s cvijećem i svijećom. Navečer se ovdje održava aarti, manji i domaćiji od onoga u Varanasiju." },
-        { ime: "Viseći mostovi", opis: "Pješački mostovi Ram Jhula i stariji Lakshman Jhula razapeti su iznad Gangesa na mjestu gdje je, prema predaji, Ramin brat Lakšmana prešao rijeku po užetu od jute. Prije dolaska provjerite koji je otvoren, jer se stariji most obnavlja i zamjenjuje novim." },
-        { ime: "Parmarth Niketan", opis: "Najveći ašram u Rishikeshu, s više od tisuću soba, poznat po večernjem obredu na obali pred velikim kipom Šive. Obred vode dječaci iz škole ašrama odjeveni u žuto." },
-        { ime: "Haridwar", opis: "Jedan od sedam svetih gradova hinduizma, pola sata nizvodno, gdje se na stubama Har Ki Pauri svake večeri okupljaju tisuće hodočasnika. Dobar je za usporedbu, jer je obred ovdje mnogo veći i bučniji." }
+        { ime: "The Beatles Ashram", opis: "The abandoned Chaurasi Kutia ashram on the edge of a tiger reserve, opened to visitors in 2015. Among the domed meditation cells, which look like stone eggs, the walls are now covered with murals dedicated to the musicians." },
+        { ime: "Triveni Ghat", opis: "The town's main riverside steps, where pilgrims set leaf baskets with flowers and a candle afloat on the water. An aarti is held here in the evening, smaller and homier than the one in Varanasi." },
+        { ime: "Suspension bridges", opis: "The pedestrian bridges Ram Jhula and the older Lakshman Jhula span the Ganges at the spot where, according to tradition, Rama's brother Lakshmana crossed the river on a jute rope. Check before you come which one is open, because the older bridge is being renovated and replaced with a new one." },
+        { ime: "Parmarth Niketan", opis: "The largest ashram in Rishikesh, with more than a thousand rooms, known for its evening ceremony on the riverbank in front of a large statue of Shiva. The ceremony is led by boys from the ashram's school, dressed in yellow." },
+        { ime: "Haridwar", opis: "One of the seven holy cities of Hinduism, half an hour downstream, where thousands of pilgrims gather every evening on the steps of Har Ki Pauri. It makes a good comparison, because the ceremony here is much larger and louder." }
       ],
       jesti: [
-        { ime: "Sattvička hrana", opis: "Jednostavna vegetarijanska jela bez luka i češnjaka, kakva se kuhaju u ašramima: leća, riža, povrće i kruh chapati." },
-        { ime: "Aloo puri", opis: "Napuhani prženi kruh s varivom od krumpira, doručak hodočasnika na štandovima uz ghatove." },
-        { ime: "Biljni čajevi i lassi", opis: "Kafići iznad rijeke nude čajeve od himalajskog bilja, đumbira i limuna te voćne lassije." }
+        { ime: "Sattvic food", opis: "Simple vegetarian dishes without onion or garlic, of the kind cooked in the ashrams: lentils, rice, vegetables and chapati bread." },
+        { ime: "Aloo puri", opis: "Puffed fried bread with a potato stew, the pilgrims' breakfast at the stalls along the ghats." },
+        { ime: "Herbal teas and lassi", opis: "The cafes above the river serve teas made with Himalayan herbs, ginger and lemon, as well as fruit lassis." }
       ],
       dozivjeti: [
-        { ime: "Večernji Ganga aarti", opis: "Ako želite sudjelovati u obredu, a ne ga samo gledati, dođite u Parmarth Niketan pola sata prije zalaska sunca i sjednite na stube među vjernike.", link: "https://parmarth.org/" },
-        { ime: "Sat joge u ašramu", opis: "Većina ašrama prima i početnice na jedan sat ili višednevni boravak, a u ožujku se održava Međunarodni festival joge s učiteljima iz cijelog svijeta.", link: "https://internationalyogafestival.org/" },
-        { ime: "Rafting na Gangesu", opis: "Od rujna do lipnja spust kroz brzace uzvodno od grada organiziraju deseci tvrtki, a dionice se biraju prema težini, od mirnih do zahtjevnih." }
+        { ime: "Evening Ganga aarti", opis: "If you want to take part in the ceremony and not just watch it, come to Parmarth Niketan half an hour before sunset and sit on the steps among the worshippers.", link: "https://parmarth.org/" },
+        { ime: "A yoga class in an ashram", opis: "Most ashrams welcome beginners too, for a single class or a stay of several days, and in March the International Yoga Festival brings teachers from all over the world.", link: "https://internationalyogafestival.org/" },
+        { ime: "Rafting on the Ganges", opis: "From September to June dozens of companies run trips down the rapids upstream of the town, and you choose the stretch by difficulty, from calm to demanding." }
       ],
       agencije: [
-        { ime: "Uttarakhand Tourism", opis: "Službena turistička organizacija savezne države Uttarakhand.", link: "https://uttarakhandtourism.gov.in/" },
-        { ime: "Parmarth Niketan", opis: "Službena stranica ašrama s rasporedom joge, obreda i smještajem.", link: "https://parmarth.org/" }
+        { ime: "Uttarakhand Tourism", opis: "The official tourism organization of the state of Uttarakhand.", link: "https://uttarakhandtourism.gov.in/" },
+        { ime: "Parmarth Niketan", opis: "The ashram's official website, with the schedule of yoga and ceremonies and information on accommodation.", link: "https://parmarth.org/" }
       ],
-      kada: "Od veljače do travnja i od rujna do studenog. U srpnju i kolovozu monsun diže rijeku i prekida rafting, a zimi su jutra hladna."
+      kada: "February to April and September to November. In July and August the monsoon swells the river and halts rafting, and in winter the mornings are cold."
     }
   ],
   izvori: [
-    { ime: "Incredible India, službeni turistički portal", url: "https://www.incredibleindia.gov.in/" },
-    { ime: "UNESCO, svjetska baština: Taj Mahal", url: "https://whc.unesco.org/en/list/252" },
-    { ime: "UNESCO, svjetska baština: Hampi", url: "https://whc.unesco.org/en/list/241" },
+    { ime: "Incredible India, official tourism portal", url: "https://www.incredibleindia.gov.in/" },
+    { ime: "UNESCO World Heritage: Taj Mahal", url: "https://whc.unesco.org/en/list/252" },
+    { ime: "UNESCO World Heritage: Hampi", url: "https://whc.unesco.org/en/list/241" },
     { ime: "Archaeological Survey of India", url: "https://asi.nic.in/" },
-    { ime: "Taj Mahal, službena stranica", url: "https://www.tajmahal.gov.in/" },
+    { ime: "Taj Mahal, official website", url: "https://www.tajmahal.gov.in/" },
     { ime: "Rajasthan Tourism", url: "https://www.tourism.rajasthan.gov.in/" },
     { ime: "Mehrangarh Museum Trust", url: "https://www.mehrangarh.org/" },
     { ime: "Kerala Tourism", url: "https://www.keralatourism.org/" },

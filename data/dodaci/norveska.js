@@ -1,163 +1,163 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["norveska"] = {
   kupiti: [
-    { ime: "Brunost", opis: "Smeđi sir karamelnog okusa koji Norvežani režu na tanke listiće i jedu na kruhu ili vaflima. Kupite ga u običnom supermarketu ili na sirnom pultu tržnice, gdje ga kupuju i domaći." },
-    { ime: "Ostehøvel", opis: "Rezač za sir norveški je izum bez kojeg se brunost ne može pošteno narezati, pa je to malen i koristan dar. Dobar ćete naći u trgovinama kućanskih potrepština, gdje je kvalitetniji nego u suvenirnicama." },
-    { ime: "Vuneni džemper s uzorkom", opis: "Klasični norveški džemperi s uzorcima Marius ili Setesdal nose se desetljećima i nasljeđuju u obitelji. Tražite one pletene u Norveškoj od norveške vune, u trgovinama Husfliden ili u tvorničkim prodavaonicama pletionica." },
-    { ime: "Tørrfisk", opis: "Bakalar sušen na vjetru bez soli stoljećima je glavni norveški izvozni proizvod, a narezan na trakice jede se kao grickalica. Najbolji dolazi s Lofota, a kupuje se u ribarnicama i trgovinama delikatesa." },
-    { ime: "Džem od bobice moltebær", opis: "Zlatnožuta bobica sa sjevernih močvara toliko je cijenjena da obitelji čuvaju svoja mjesta za branje kao tajnu. Džem se kupuje u supermarketima i na seoskim tržnicama, a jede se uz vafle ili s tučenim vrhnjem." },
-    { ime: "Akevitt", opis: "Rakija od krumpira začinjena kimom pije se uz božićna jela i dimljenu ribu. Prodaje se samo u državnim trgovinama Vinmonopolet, pa je planirajte kupiti ondje ili u bescarinskoj trgovini u zračnoj luci." }
+    { ime: "Brunost", opis: "This brown, caramel-tasting cheese is shaved into thin slices and eaten on bread or waffles all over Norway. Buy it in an ordinary supermarket or at a market cheese counter, which is exactly where locals get theirs." },
+    { ime: "Ostehøvel", opis: "The cheese slicer is a Norwegian invention, and brunost really cannot be cut properly without one, so it makes a small and useful gift. You will find better ones in kitchenware shops than in souvenir stores." },
+    { ime: "Patterned wool sweater", opis: "Classic Norwegian sweaters in the Marius or Setesdal patterns are worn for decades and handed down in families. Look for ones knitted in Norway from Norwegian wool, in Husfliden craft shops or at the knitting mills' factory outlets." },
+    { ime: "Tørrfisk", opis: "Cod dried in the wind without salt has been Norway's great export for centuries, and torn into strips it is eaten as a snack. The best comes from Lofoten and is sold at fishmongers and delicatessens." },
+    { ime: "Cloudberry jam", opis: "The golden moltebær grows on northern bogs and is so prized that families keep their picking spots secret. The jam is sold in supermarkets and at farm markets, and it is eaten with waffles or whipped cream." },
+    { ime: "Akevitt", opis: "This potato spirit flavored with caraway is poured with Christmas food and smoked fish. It is sold only in the state Vinmonopolet shops, so plan to buy it there or at the airport duty free." }
   ],
   mjesta: {
     "oslo": {
       dragulji: [
-        { ime: "Damstredet i Telthusbakken", opis: "Dvije strme uličice s malim drvenim kućama u boji izgledaju kao selo usred glavnoga grada. Do njih ćete doći za desetak minuta hoda od središta, a pokraj Telthusbakkena su i gradski vrtovi koje vrijedi pogledati." },
-        { ime: "Šetnja uz Akerselvu", opis: "Rijeka koja dijeli grad vodi vas pokraj slapova, starih tvornica od opeke i mostova sve do četvrti Grünerløkka. Krenite od Maridalsveiena nizvodno pa ćete cijelim putem hodati nizbrdo." },
-        { ime: "Ekebergparken", opis: "Šumoviti brežuljak iznad luke pun je skulptura među stablima i ima jedan od najljepših pogleda na fjord i grad. Tramvaj vas iz središta doveze gore za nekoliko minuta." }
+        { ime: "Damstredet and Telthusbakken", opis: "These two steep lanes of small painted wooden houses feel like a village in the middle of the capital. They are about ten minutes on foot from the center, and the allotment gardens beside Telthusbakken are worth a look too." },
+        { ime: "The walk along the Akerselva", opis: "The river that divides the city leads you past waterfalls, old brick factories and footbridges all the way to the Grünerløkka neighborhood. Start up by Maridalsveien and walk downstream so that the whole way is downhill." },
+        { ime: "Ekebergparken", opis: "This wooded hill above the harbor is scattered with sculptures among the trees and has one of the best views over the fjord and the city. A tram from the center takes you up in a few minutes." }
       ],
       domaci: [
-        { ime: "Sauna pa skok u fjord", opis: "Stanovnici Osla cijele se godine griju u plutajućim saunama uz obalu kod Opere i na Sørengi pa skaču ravno u more. Rezervirajte termin unaprijed i ponesite kupaći kostim i ručnik." },
-        { ime: "Nedjeljni izlet u šumu", opis: "Nedjeljom pola grada sjeda na metro broj 1 do Frognerseterena i odlazi pješačiti ili skijati po Nordmarki, uz narezak u ruksaku i termosicu. Pridružite im se pa na kraju popijte kakao u nekoj od šumskih koliba." },
-        { ime: "Trajektom na otoke", opis: "Čim zatopli, domaći običnom kartom javnog prijevoza odlaze trajektom na Hovedøyu i druge otoke Oslofjorda na kupanje i piknik. Ponesite hranu sa sobom, jer se na otocima malo toga može kupiti." }
+        { ime: "Sauna, then a jump in the fjord", opis: "People in Oslo warm up year-round in floating saunas along the waterfront by the Opera and at Sørenga, then jump straight into the sea. Book a slot ahead and bring a swimsuit and a towel." },
+        { ime: "The Sunday trip to the forest", opis: "On Sundays half the city takes metro line 1 up to Frognerseteren and heads into Nordmarka to hike or ski, with sandwiches and a thermos in the backpack. Join them and finish with hot chocolate at one of the forest cabins." },
+        { ime: "The ferry to the islands", opis: "As soon as it warms up, locals use a regular public transport ticket to ride the ferry to Hovedøya and the other Oslofjord islands for a swim and a picnic. Bring your own food, because there is little to buy out there." }
       ],
       kupiti: [
-        { ime: "Čokolada Freia i Kvikk Lunsj", opis: "Mliječna čokolada Freia proizvodi se u Oslu više od stoljeća, a Kvikk Lunsj je pločica koju svaki Norvežanin nosi na izlet. Kupite ih u bilo kojem supermarketu, gdje su znatno povoljnije nego u zračnoj luci." },
-        { ime: "Rabljeno i dizajn na Grünerløkki", opis: "U ulici Markveien i oko nje nižu se trgovine rabljene odjeće i malih norveških dizajnera. Nedjeljom se u parku Birkelunden održava buvljak na kojem domaći traže staro posuđe i ploče." },
-        { ime: "Delikatese iz Mathallena", opis: "U natkrivenoj tržnici u četvrti Vulkan prodaju se sirevi, dimljena riba i suhomesnati proizvodi malih proizvođača iz cijele zemlje. Tu je najlakše na jednom mjestu kušati i kupiti ono što ćete ponijeti kući." }
+        { ime: "Freia chocolate and Kvikk Lunsj", opis: "Freia milk chocolate has been made in Oslo for more than a century, and Kvikk Lunsj is the wafer bar every Norwegian carries on a hike. Buy them in any supermarket, where they cost far less than at the airport." },
+        { ime: "Secondhand and design in Grünerløkka", opis: "Markveien and the streets around it are lined with vintage clothing shops and small Norwegian designers. On Sundays there is a flea market in Birkelunden park where locals hunt for old tableware and records." },
+        { ime: "Delicacies from Mathallen", opis: "The covered food hall in the Vulkan area sells cheeses, smoked fish and cured meats from small producers around the country. It is the easiest place to taste first and then pick what you will carry home." }
       ]
     },
     "bergen": {
       dragulji: [
-        { ime: "Poluotok Nordnes", opis: "Uske kamene uličice s bijelim drvenim kućama počinju odmah iza luke, a turista je ondje neusporedivo manje nego na Bryggenu. Prošećite do parka na samom rtu, odakle se vidi ulaz u luku." },
-        { ime: "Fjellveien", opis: "Ravna šetnica na padini iznad grada pruža pogled na krovove i luku bez ikakva napora. Na nju ćete izaći za desetak minuta uspona od središta, a možete je produžiti do Sandvikena i njegovih starih drvenih kuća." },
-        { ime: "Skostredet", opis: "Kratka ulica nekadašnjih postolara danas je puna malih kafića, trgovina pločama i rabljenom odjećom. Tu ćete osjetiti studentski Bergen, onaj koji ne živi od kruzera." }
+        { ime: "The Nordnes peninsula", opis: "Narrow cobbled lanes of white wooden houses begin right behind the harbor, and there are far fewer visitors here than on Bryggen. Walk out to the park at the very tip, where you can watch ships enter the port." },
+        { ime: "Fjellveien", opis: "This level promenade along the hillside above the city gives you views over rooftops and the harbor with almost no effort. It is a ten-minute climb from the center, and you can follow it on to Sandviken and its old wooden houses." },
+        { ime: "Skostredet", opis: "The short street once home to the shoemakers is now full of small cafes, record shops and secondhand clothing. This is student Bergen, the side of the city that does not live off cruise ships." }
       ],
       domaci: [
-        { ime: "Pješice na Fløyen", opis: "Domaći se na Fløyen penju pješice, često prije ili poslije posla, a uspinjaču prepuštaju gostima. Kad stignete gore, produžite još petnaestak minuta do jezerca Skomakerdiket, gdje se ljeti može veslati u kanuu." },
-        { ime: "Skillingsbolle uz kavu", opis: "Veliko pecivo s cimetom i šećerom bergenski je ponos i jede se uz popodnevnu kavu. Naći ćete ga u svakoj pekarnici, a najbolje je dok je još toplo." },
-        { ime: "Kupanje na Nordnesu", opis: "Na kupalištu Nordnes sjøbad ljudi plivaju u grijanom bazenu s morskom vodom pa se rashlade skokom u fjord. Dođite kasno popodne, kad se poslije posla ondje okuplja pola susjedstva." }
+        { ime: "Walking up Fløyen", opis: "Locals climb Fløyen on foot, often before or after work, and leave the funicular to the visitors. Once you are up, carry on for fifteen minutes to the little lake Skomakerdiket, where you can paddle a canoe in summer." },
+        { ime: "A skillingsbolle with coffee", opis: "This big cinnamon and sugar bun is Bergen's pride and goes with afternoon coffee. Every bakery has it, and it is at its best while still warm." },
+        { ime: "Swimming at Nordnes", opis: "At Nordnes sjøbad people swim in a heated seawater pool and then cool off with a plunge into the fjord. Come in the late afternoon, when half the neighborhood turns up after work." }
       ],
       kupiti: [
-        { ime: "Kabanica i kišna oprema", opis: "U gradu u kojem kiši većinu dana u godini dobra je kabanica dio identiteta, pa je izbor norveških marki ovdje izvrstan. Potražite ih u trgovinama u pješačkoj zoni oko Torgallmenningena." },
-        { ime: "Pletenine iz Dalea", opis: "Selo Dale, na pruzi između Bergena i Vossa, dom je najpoznatije norveške pletionice. U njezinoj tvorničkoj prodavaonici džemperi su povoljniji nego u gradu." },
-        { ime: "Fiskekaker i dimljeni losos", opis: "Riblje polpete jedu se u Bergenu tople, s ulice, a dimljeni losos vakuumiran se lako nosi kući. Kupite ih u ribarnici u koju ulaze i domaći, a štandove za turiste na obali samo razgledajte." }
+        { ime: "A raincoat and rain gear", opis: "In a city where it rains most days of the year, a good raincoat is part of the identity, so the choice of Norwegian brands is excellent. Look in the shops of the pedestrian area around Torgallmenningen." },
+        { ime: "Knitwear from Dale", opis: "The village of Dale, on the railway between Bergen and Voss, is home to Norway's best-known knitting mill. Sweaters at its factory outlet cost less than in the city." },
+        { ime: "Fiskekaker and smoked salmon", opis: "Fish cakes are eaten warm on the go in Bergen, and vacuum-packed smoked salmon travels home easily. Buy them at a fishmonger where locals shop, and treat the tourist stalls on the quay as something to look at." }
       ]
     },
     "geirangerfjord": {
       dragulji: [
-        { ime: "Skageflå", opis: "Napuštena farma na polici stijene visoko iznad fjorda gleda ravno na slap Sedam sestara. Do nje vodi strma staza od obale, kamo vas doveze brodić iz Geirangera, a silazi se pješice natrag u selo." },
-        { ime: "Storseterfossen", opis: "Do ovog slapa hoda se oko sat vremena od farme Westerås, a posebnost mu je staza koja prolazi iza vodene zavjese. Obujte čvrste cipele, jer je kamenje uvijek mokro." },
-        { ime: "Herdalssetra", opis: "Na planinskom pašnjaku iznad Norddala ljeti se i danas drže koze i kuha smeđi sir kao prije nekoliko stoljeća. Do tamo vodi uska makadamska cesta, a nagrada su travnati krovovi koliba i potpuna tišina." }
+        { ime: "Skageflå", opis: "This abandoned farm sits on a rock ledge high above the fjord, looking straight at the Seven Sisters waterfall. A steep path climbs to it from the shore, where a small boat from Geiranger drops you off, and you can walk back to the village." },
+        { ime: "Storseterfossen", opis: "It takes about an hour to hike to this waterfall from the Westerås farm, and the special part is that the path passes behind the curtain of water. Wear sturdy shoes, because the rocks are always wet." },
+        { ime: "Herdalssetra", opis: "On this mountain pasture above Norddal, goats are still kept in summer and brown cheese is still cooked the way it was centuries ago. A narrow gravel road leads up, and the reward is turf-roofed huts and complete quiet." }
       ],
       domaci: [
-        { ime: "Svele na trajektu", opis: "Debela mekana palačinka s maslacem i šećerom ili smeđim sirom obavezni je zalogaj na svakom trajektu u ovom kraju. Naručite je u brodskom kafiću čim se ukrcate, jer vožnja kratko traje." },
-        { ime: "Kajakom u rano jutro", opis: "Prije nego što stignu veliki brodovi, fjord je miran kao ogledalo i čuju se samo slapovi. Kajak možete unajmiti u Geirangeru i veslati uz obalu, bez potrebe da idete daleko." },
-        { ime: "Užina na vrhu staze", opis: "Norvežani na svaki izlet nose kriške kruha umotane u papir i termosicu kave, a jedu tek kad stignu do vidikovca. Složite si takav paket u pansionu pa sjednite na travu kod Westeråsa." }
+        { ime: "Svele on the ferry", opis: "A thick, soft pancake with butter and sugar or brown cheese is the required snack on every ferry in this region. Order it at the onboard cafe as soon as you board, since the crossings are short." },
+        { ime: "Kayaking in the early morning", opis: "Before the big ships arrive, the fjord is as still as a mirror and all you hear are the waterfalls. You can rent a kayak in Geiranger and paddle along the shore without going far." },
+        { ime: "A packed lunch at the top", opis: "Norwegians take slices of bread wrapped in paper and a thermos of coffee on every hike, and they eat only once they reach the viewpoint. Put together a pack like that at your guesthouse and sit down in the grass at Westerås." }
       ],
       kupiti: [
-        { ime: "Čokolada iz Geirangera", opis: "U staroj kućici za čamce uz obalu radi mala čokoladarnica koja u praline stavlja smeđi sir, planinske bobice i druge lokalne okuse. To je najslađi suvenir koji možete ponijeti iz sela." },
-        { ime: "Jagode i sokovi iz Valldala", opis: "Susjedna dolina Valldal poznata je po najslađim jagodama u Norveškoj, koje sazrijevaju polako pod dugim ljetnim danima. U sezoni ih kupite na štandovima uz cestu, a izvan nje potražite sok i džem." },
-        { ime: "Kozji sir s pašnjaka", opis: "Bijeli i smeđi kozji sir kupuje se izravno na ljetnim farmama poput Herdalssetre. Ponesite gotovinu ili provjerite može li se platiti mobitelom, jer kartični uređaji tamo nisu pravilo." }
+        { ime: "Chocolate from Geiranger", opis: "A small chocolate maker works in an old boathouse by the water and fills its pralines with brown cheese, mountain berries and other local flavors. It is the sweetest souvenir you can take from the village." },
+        { ime: "Strawberries and juice from Valldal", opis: "The neighboring Valldal valley is known for the sweetest strawberries in Norway, which ripen slowly under the long summer days. In season buy them at roadside stands, and otherwise look for the juice and jam." },
+        { ime: "Goat cheese from the pasture", opis: "White and brown goat cheese is sold directly at summer farms such as Herdalssetra. Bring some cash or check whether you can pay by phone, because card machines are not a given up there." }
       ]
     },
     "sognefjord-flam": {
       dragulji: [
-        { ime: "Undredal", opis: "Selo s više koza nego stanovnika stisnuto je uz obalu Aurlandsfjorda i ima sićušnu drvenu crkvu. Do njega se stiže cestom iz Flåma ili brodom, a vrijedi ostati na kušanju sira." },
-        { ime: "Otternes", opis: "Skupina starih drvenih gospodarskih kuća stoji na padini između Flåma i Aurlanda i gleda na fjord. Do nje možete prošetati ili doći biciklom, a ljeti je u dvorištu otvoren i mali kafić." },
-        { ime: "Balestrand", opis: "Mjestašce na sjevernoj obali Sognefjorda privlačilo je slikare u 19. stoljeću, pa su ostale drvene vile s izrezbarenim zmajevima na zabatima. Dolazi se ekspresnim brodom i dovoljno je jedno mirno popodne." }
+        { ime: "Undredal", opis: "This village with more goats than people is squeezed against the shore of the Aurlandsfjord and has a tiny wooden church. You get there by road from Flåm or by boat, and it is worth staying for a cheese tasting." },
+        { ime: "Otternes", opis: "A cluster of old wooden farm buildings stands on the slope between Flåm and Aurland, looking out over the fjord. You can walk or cycle there along the shore." },
+        { ime: "Balestrand", opis: "This small place on the north shore of the Sognefjord drew painters in the 19th century, and they left behind wooden villas with carved dragons on the gables. It is reached by express boat, and one quiet afternoon is enough." }
       ],
       domaci: [
-        { ime: "Biciklom niz Flåmsdalen", opis: "Mnogi se vlakom popnu do Myrdala pa se biciklom spuste dvadesetak kilometara niz dolinu do fjorda. Prve su serpentine strme i tu se bicikl gura, ali ostatak puta lagano klizi pokraj slapova i farmi." },
-        { ime: "Večernji uspon do Brekkefossena", opis: "Kad odu brodovi i dnevni gosti, domaći se popnu do slapa Brekkefossen iznad Flåma, što traje manje od sata. Odozgo se vidi cijela dolina u večernjem svjetlu." },
-        { ime: "Linijski brod umjesto izletničkog", opis: "Stanovnici se uz fjord kreću redovitim brodovima i trajektima, koji plove istim vodama kao i izletnički brodovi. Provjerite vozni red i sjednite na palubu s kavom, kao da idete na posao." }
+        { ime: "Cycling down Flåmsdalen", opis: "Many people take the train up to Myrdal and then ride a bike about twenty kilometers down the valley to the fjord. The first hairpins are steep enough that you push the bike, but the rest glides gently past waterfalls and farms." },
+        { ime: "The evening climb to Brekkefossen", opis: "Once the ships and day visitors have left, locals walk up to the Brekkefossen waterfall above Flåm, which takes less than an hour. From the top you see the whole valley in evening light." },
+        { ime: "The scheduled boat instead of the tour boat", opis: "Residents get around the fjord on regular boats and ferries, which sail the same water as the sightseeing cruises. Check the timetable and sit out on deck with a coffee as if you were commuting." }
       ],
       kupiti: [
-        { ime: "Kozji sir iz Undredala", opis: "Undredalski sir radi se od nepasteriziranog kozjeg mlijeka i jedan je od najcjenjenijih u zemlji. Kupite ga u seoskoj trgovini u samom Undredalu, i bijeli i smeđi." },
-        { ime: "Aurlandske cipele", opis: "Ručno šivane kožne mokasinke iz Aurlanda smatraju se pretečom poznatih „penny loafera“. I danas se izrađuju u radionici u selu, u koju možete ući i gledati postolare." },
-        { ime: "Pivo iz Flåma", opis: "Mala pivovara u Flåmu, smještena u zgradi nalik vikinškoj dvorani, kuha piva koja se piju po cijeloj Norveškoj. Boce se ondje mogu kupiti samo slabije, dok se jača piva nose iz trgovina Vinmonopolet." }
+        { ime: "Goat cheese from Undredal", opis: "Undredal cheese is made from unpasteurized goat's milk and is among the most admired in the country. Buy both the white and the brown kind at the village shop in Undredal itself." },
+        { ime: "Aurland shoes", opis: "The hand-sewn leather moccasins from Aurland are considered the forerunner of the famous penny loafer. They are still made at a workshop in the village, where you can step in and watch the shoemakers." },
+        { ime: "Beer from Flåm", opis: "The small brewery in Flåm, housed in a building that looks like a Viking hall, makes beers that are drunk all over Norway. Taste them on the spot beside the open fire in the middle of the hall." }
       ]
     },
     "stavanger-preikestolen": {
       dragulji: [
-        { ime: "Øvre Holmegate", opis: "Ulica koju svi zovu Fargegata ima svaku kuću obojenu u drugu jarku boju i punu malih kafića. Od Starog Stavangera dijeli je samo luka, a atmosfera je sasvim drukčija." },
-        { ime: "Sverd i fjell", opis: "Tri golema brončana mača zabodena u stijenu na obali Hafrsfjorda podsjećaju na bitku kojom je Norveška ujedinjena. Do tamo vozi gradski autobus, a pokraj spomenika je mala plaža na kojoj se ljeti kupa." },
-        { ime: "Plaže Jærena", opis: "Južno od grada pružaju se kilometri pješčanih dina i otvorenog mora, s plažama poput Solastrandena i Orrestrande. Tu ćete vidjeti Norvešku kakvu rijetko tko očekuje, ravnu, vjetrovitu i punu surfera." }
+        { ime: "Øvre Holmegate", opis: "Everyone calls this street Fargegata, the color street, because every house is painted a different bright shade and it is packed with small cafes. Only the harbor separates it from Old Stavanger, yet the mood is completely different." },
+        { ime: "Sverd i fjell", opis: "Three giant bronze swords planted in the rock on the shore of the Hafrsfjord recall the battle that united Norway. A city bus runs there, and next to the monument is a small beach where people swim in summer." },
+        { ime: "The beaches of Jæren", opis: "South of the city stretch miles of sand dunes and open sea, with beaches such as Solastranden and Orrestranda. This is a Norway few people expect, flat, windy and full of surfers." }
       ],
       domaci: [
-        { ime: "Dalsnuten umjesto gužve", opis: "Kad je na Preikestolenu red, domaći se penju na Dalsnuten kod Sandnesa, što traje oko sat vremena i završava širokim pogledom na fjord i grad. Na Preikestolen pak idu u zoru ili predvečer, i to vam je najbolji savjet." },
-        { ime: "Krug oko Mosvatneta", opis: "Jezero na rubu središta ima ravnu stazu od oko tri kilometra kojom se šeće, trči i gura kolica u svako doba dana. Krenite kasno popodne, kad je svjetlo najljepše." },
-        { ime: "Kozice na rivi", opis: "Ljeti se svježe kuhane kozice kupuju na vagu pa se čiste rukama i jedu na bijelom kruhu s majonezom i limunom. Sjednite uz luku s vrećicom kozica i gledajte brodove, kako to rade svi." }
+        { ime: "Dalsnuten instead of the crowds", opis: "When Preikestolen has a line, locals climb Dalsnuten near Sandnes, which takes about an hour and ends with a wide view over the fjord and the city. They save Preikestolen for dawn or early evening, and that is the best advice for you too." },
+        { ime: "A lap around Mosvatnet", opis: "This lake on the edge of the center has a flat path of about three kilometers where people walk, run and push strollers at all hours. Go in the late afternoon, when the light is prettiest." },
+        { ime: "Shrimp on the quay", opis: "In summer, freshly boiled shrimp are bought by weight, peeled by hand and eaten on white bread with mayonnaise and lemon. Sit by the harbor with a bag of them and watch the boats, as everyone does." }
       ],
       kupiti: [
-        { ime: "Riblje konzerve", opis: "Stavanger je desetljećima bio svjetska prijestolnica konzerviranih papalina, pa su limenke s lijepim starim etiketama ovdje dio baštine. Naći ćete ih u trgovini muzeja konzervi u Starom Stavangeru i u boljim delikatesama." },
-        { ime: "Porculan Figgjo", opis: "Tvornica u mjestu Figgjo kod Sandnesa izrađuje posuđe koje stoji u pola norveških kuhinja, a stari uzorci iz šezdesetih danas su kolekcionarski. Nove komade tražite u tvorničkoj prodavaonici, a stare u trgovinama rabljenom robom." }
+        { ime: "Canned fish", opis: "Stavanger was the world capital of canned sprats for decades, so tins with lovely old labels are part of the heritage here. You will find them at the canning museum shop in Old Stavanger and in the better delicatessens." },
+        { ime: "Figgjo porcelain", opis: "The factory in Figgjo near Sandnes makes tableware that sits in half the kitchens in Norway, and the old patterns from the 1960s are now collectibles. Look for new pieces at the factory outlet and old ones in secondhand shops." }
       ]
     },
     "alesund": {
       dragulji: [
-        { ime: "Sukkertoppen", opis: "Vrh na otoku Hessa pruža pogled na grad i otvoreno more, a penje se za oko sat vremena. Susrest ćete gotovo samo domaće, jer gosti uglavnom ostaju na Aksli." },
-        { ime: "Svjetionik Alnes", opis: "Na otoku Godøy, povezanom s gradom podmorskim tunelima, stoji crveno-bijeli svjetionik uz ribarsko selo i kamenitu plažu. U kućici pokraj njega možete pojesti kolač i gledati valove." },
-        { ime: "Brosundet u rano jutro", opis: "Kanal koji prolazi kroz središte okružen je secesijskim skladištima s tornjićima, a ujutro se fasade savršeno zrcale u vodi. Prošećite potom do svjetionika na lukobranu Molja." }
+        { ime: "Sukkertoppen", opis: "This peak on the island of Hessa looks over the city and the open sea, and the climb takes about an hour. You will meet almost only locals, because visitors mostly stay on Aksla." },
+        { ime: "Alnes lighthouse", opis: "On the island of Godøy, linked to the city by undersea tunnels, a red and white lighthouse stands beside a fishing village and a pebble beach. You can have cake in the house next to it and watch the waves." },
+        { ime: "Brosundet in the early morning", opis: "The channel through the center is lined with Art Nouveau warehouses with little towers, and in the morning their fronts are mirrored perfectly in the water. Afterward, walk out to the small lighthouse on the Molja breakwater." }
       ],
       domaci: [
-        { ime: "Bacalao", opis: "Varivo od sušenog i soljenog bakalara s rajčicom, krumpirom i lukom zavičajno je jelo ovog kraja, naslijeđeno iz trgovine s Portugalom i Španjolskom. Naručite ga u konobi uz luku, osobito kad je vani hladno." },
-        { ime: "Stube na Akslu kao trening", opis: "Onih 418 stuba od gradskog parka do vidikovca domaći svladavaju prije posla ili u tenisicama navečer. Krenite u sumrak, kad se pale svjetla i odlaze autobusi s izletnicima." },
-        { ime: "Na otoke po kavu", opis: "Vikendom se stanovnici odvezu na otoke Giske i Godøy u šetnju po plaži i na kavu s domaćim kolačem. Do tamo vozi i gradski autobus, pa vam automobil nije nužan." }
+        { ime: "Bacalao", opis: "This stew of dried salted cod with tomato, potato and onion is the home dish of the region, inherited from the trade with Portugal and Spain. Order it at a harborside restaurant, especially when it is cold outside." },
+        { ime: "The Aksla steps as a workout", opis: "Locals take the 418 steps from the town park to the viewpoint before work or in sneakers in the evening. Go at dusk, when the lights come on and the tour buses have left." },
+        { ime: "Out to the islands for coffee", opis: "On weekends people drive out to the islands of Giske and Godøy for a walk on the beach and coffee with homemade cake. A city bus goes there too, so you do not need a car." }
       ],
       kupiti: [
-        { ime: "Klippfisk", opis: "Ålesund je središte norveške proizvodnje soljenog i sušenog bakalara, istoga koji se u Dalmaciji jede za Badnjak. Kupite ga vakuumiranog u ribarnici ili trgovini delikatesa uz luku." },
-        { ime: "Vuna Devold", opis: "Tvornica vunene odjeće u Langevågu, s druge strane fjorda, odijeva norveške ribare od 19. stoljeća. Do njezine prodavaonice u starim tvorničkim zgradama vozi brodić iz središta grada." }
+        { ime: "Klippfisk", opis: "Ålesund is the center of Norway's salted and dried cod trade, the same fish that ends up in bacalhau across southern Europe. Buy it vacuum-packed at a fishmonger or delicatessen near the harbor." },
+        { ime: "Devold wool", opis: "The woolen clothing factory in Langevåg, across the fjord, has been dressing Norwegian fishermen since the 19th century. A small boat from the center takes you to its shop in the old factory buildings." }
       ]
     },
     "tromso": {
       dragulji: [
-        { ime: "Telegrafbukta", opis: "Mala plaža na južnom rtu otoka ljeti je mjesto za roštilj pod ponoćnim suncem, a zimi za tihu šetnju po snijegu. Dovoljno je tamna i za promatranje polarne svjetlosti bez organiziranog izleta." },
-        { ime: "Jezero Prestvannet", opis: "Na vrhu otoka, usred stambene četvrti, leži jezero oko kojeg vodi ravna staza. Zimi se s njegove zaleđene obale polarna svjetlost vidi bolje nego iz središta, a doći ćete gradskim autobusom." },
-        { ime: "Ersfjordbotn", opis: "Seoce na kraju fjorda okruženo šiljatim vrhovima udaljeno je oko pola sata vožnje autobusom. Tu ćete sjesti uz more, popiti kavu i vidjeti krajolik zbog kojeg ljudi ostaju živjeti na sjeveru." }
+        { ime: "Telegrafbukta", opis: "This small beach at the southern tip of the island is the summer spot for a barbecue under the midnight sun and a quiet snowy walk in winter. It is also dark enough to watch the northern lights without joining a tour." },
+        { ime: "Lake Prestvannet", opis: "At the top of the island, in the middle of a residential area, lies a lake with a flat path around it. In winter the aurora shows better from its frozen shore than from the center, and a city bus gets you there." },
+        { ime: "Ersfjordbotn", opis: "This tiny village at the end of a fjord ringed by sharp peaks is about half an hour away by bus. You sit by the water with a coffee and see the kind of landscape that makes people stay in the north." }
       ],
       domaci: [
-        { ime: "Skijaško trčanje posred otoka", opis: "Osvijetljena staza proteže se cijelom dužinom otoka i domaći na nju izlaze na skije poslije posla, ravno s kućnog praga. Skije se mogu unajmiti u gradu, a staza je ravna i pogodna za početnice." },
-        { ime: "Sherpatrappa", opis: "Kamene stube koje su složili nepalski šerpe vode do platoa iznad grada, pa se mnogi penju pješice i spuštaju žičarom. Ljeti krenite kasno navečer, kad sunce uopće ne zalazi." },
-        { ime: "Pivo u staroj pivnici", opis: "U pivnici gradske pivovare Mack, otvorenoj prije gotovo sto godina, nekoć su sjedili lovci na tuljane i polarni istraživači. Danas se ondje nakon posla okupljaju studenti i ribari uz dugi niz točionika." }
+        { ime: "Cross-country skiing down the island", opis: "A floodlit trail runs the whole length of the island, and locals step onto it on skis after work, right from their front doors. You can rent skis in town, and the trail is flat enough for beginners." },
+        { ime: "Sherpatrappa", opis: "Stone steps laid by Nepalese Sherpas lead up to the plateau above the city, so many people walk up and ride the cable car down. In summer go late in the evening, when the sun does not set at all." },
+        { ime: "A beer in the old beer hall", opis: "Seal hunters and polar explorers once sat in the hall of the town's Mack brewery, which opened almost a hundred years ago. Today students and fishermen gather there after work in front of a long row of taps." }
       ],
       kupiti: [
-        { ime: "Samijske rukotvorine", opis: "Noževi, šalice od brezova čvora i nakit od kositrene žice tradicijski su samijski obrt zvan duodji. Tražite oznaku Sámi Duodji, koja jamči da je predmet izradio samijski majstor." },
-        { ime: "Sušeno meso soba", opis: "Sobovina sušena na hladnom zraku jede se narezana na tanke listiće kao naš pršut. Kupite je vakuumiranu u trgovini delikatesa ili na božićnom sajmu u središtu." },
-        { ime: "Vunene čarape i rukavice", opis: "Na sjeveru se debele ručno pletene čarape s uzorkom nose svaki dan, pa su ovdje kvalitetne i raznolike. Potražite ih u trgovini Husfliden, koja prodaje radove domaćih pletilja." }
+        { ime: "Sami handicrafts", opis: "Knives, cups carved from birch burl and jewelry of pewter thread belong to the traditional Sami craft called duodji. Look for the Sámi Duodji mark, which guarantees the piece was made by a Sami craftsperson." },
+        { ime: "Dried reindeer meat", opis: "Reindeer dried in the cold air is eaten in thin slices, much like prosciutto. Buy it vacuum-packed at a delicatessen in the center." },
+        { ime: "Wool socks and mittens", opis: "Thick hand-knitted socks with patterns are everyday wear in the north, so the quality and variety here are excellent. Look in the Husfliden shop, which sells the work of local knitters." }
       ]
     },
     "lofoti": {
       dragulji: [
-        { ime: "Unstad", opis: "Do ovog zaljeva dolazi se kroz tunel, a s druge strane čeka plaža na kojoj se surfa i usred zime. Čak i ako ne ulazite u more, vrijedi sjesti na obalu i gledati surfere u debelim odijelima." },
-        { ime: "Plaža Kvalvika", opis: "Do plaže između strmih stijena može se samo pješice, preko prijevoja, za oko sat vremena. Zato na njoj i usred ljeta bude tek šačica ljudi." },
-        { ime: "Sund", opis: "U ovom ribarskom selu na Flakstadøyi kovač već desetljećima kuje kormorane od željeza, a uz kovačnicu je mali muzej starih brodskih motora. Selo je tiho i leži tek nekoliko minuta od glavne ceste." }
+        { ime: "Unstad", opis: "You reach this bay through a tunnel, and on the other side waits a beach where people surf even in the middle of winter. Even if you stay out of the water, it is worth sitting on the shore to watch the surfers in their thick wetsuits." },
+        { ime: "Kvalvika beach", opis: "The only way to this beach between steep cliffs is on foot over a pass, which takes about an hour. That is why even in midsummer there is only a handful of people on it." },
+        { ime: "Sund", opis: "In this fishing village on Flakstadøya a blacksmith has been forging iron cormorants for decades, and next to the forge is a small museum of old boat engines. The village is quiet and only a few minutes off the main road." }
       ],
       domaci: [
-        { ime: "Ponoćno sunce na plaži", opis: "Ljeti se domaći navečer voze na plaže okrenute prema sjeveru, poput Uttakleiva i Eggumа, zapale vatru i čekaju ponoć. Ponesite deku i nešto toplo, jer s mora uvijek puše." },
-        { ime: "Cimetna peciva iz Åa", opis: "U selu Å ljeti radi pekarnica sa starom krušnom peći u kojoj se peku peciva s cimetom, pa se red stvara već ujutro. Uzmite ih još topla i pojedite na molu." },
-        { ime: "Sezona bakalara", opis: "Od veljače do travnja u Lofote dolazi bakalar skrei i tada cijelo otočje živi od ribolova, a drveni stalci pune se ribom koja se suši do lipnja. Ako dođete u to doba, naručite svježi skrei s jetrom i ikrom, kako ga jedu ribari." }
+        { ime: "The midnight sun on the beach", opis: "On summer evenings locals drive to the north-facing beaches, such as Uttakleiv and Eggum, light a fire and wait for midnight. Bring a blanket and something warm, because the wind always blows off the sea." },
+        { ime: "Cinnamon buns from Å", opis: "In the village of Å a bakery with an old wood-fired oven opens in summer and bakes cinnamon buns, so a line forms early in the morning. Get them while they are warm and eat them out on the pier." },
+        { ime: "Cod season", opis: "From February to April the skrei cod arrives in Lofoten and the whole archipelago lives for the fishery, while the wooden racks fill with fish that hang drying into June. If you come then, order fresh skrei with its liver and roe, the way the fishermen eat it." }
       ],
       kupiti: [
-        { ime: "Tørrfisk s Lofota", opis: "Sušeni bakalar s ovih otoka ima zaštićeno zemljopisno podrijetlo i izvozi se u Italiju još od srednjeg vijeka. Kupite ga u ribarskim selima izravno od proizvođača, cijelog ili narezanog za grickanje." },
-        { ime: "Staklo iz Viktena", opis: "U zaseoku Vikten na obali otvorenog mora radi staklarska radionica u kojoj možete gledati puhanje stakla. Čaše i zdjele u bojama mora i pijeska lijep su i upotrebljiv dar." },
-        { ime: "Vuna lofotskih ovaca", opis: "Ovce na Lofotima pasu uz samo more, a od njihove se vune prede i boji pređa na malim farmama. Potražite je u obrtničkim trgovinama u Henningsværu i Svolværu." }
+        { ime: "Tørrfisk from Lofoten", opis: "Stockfish from these islands has protected origin status and has been exported to Italy since the Middle Ages. Buy it in the fishing villages directly from producers, whole or cut into strips for snacking." },
+        { ime: "Glass from Vikten", opis: "In the hamlet of Vikten, on the open-sea side, there is a glassblowing studio where you can watch the work. Glasses and bowls in the colors of sea and sand make a lovely gift that actually gets used." },
+        { ime: "Wool from Lofoten sheep", opis: "Sheep in Lofoten graze right by the sea, and small farms spin and dye yarn from their wool. Look for it in the craft shops of Henningsvær and Svolvær." }
       ]
     },
     "trondheim": {
       dragulji: [
-        { ime: "Ilsvikøra", opis: "Dva reda niskih drvenih radničkih kuća zapadno od središta izgledaju kao da je vrijeme stalo. Ljudi ondje i dalje žive, pa prošećite tiho i s poštovanjem." },
-        { ime: "Ladestien", opis: "Obalna staza vijuga uz fjord oko poluotoka Lade, pokraj uvala, kupališta i klupa s pogledom. Do početka staze vozi gradski autobus, a možete hodati koliko vam se sviđa." },
-        { ime: "Svartlamon", opis: "Četvrt šarenih drvenih kuća uz prugu grad je nakon dugih prosvjeda proglasio eksperimentalnom ekološkom zonom. Ondje su muralima oslikane fasade, zajednički vrtovi i mala kulturna scena." }
+        { ime: "Ilsvikøra", opis: "Two rows of low wooden workers' houses west of the center look as if time stopped there. People still live in them, so walk through quietly and respectfully." },
+        { ime: "Ladestien", opis: "This coastal path winds along the fjord around the Lade peninsula, past coves, bathing spots and benches with a view. A city bus takes you to the start, and you can walk as far as you like." },
+        { ime: "Svartlamon", opis: "After long protests the city declared this neighborhood of colorful wooden houses by the railway an experimental ecological zone. You will find painted facades, shared gardens and a small cultural scene." }
       ],
       domaci: [
-        { ime: "Kava u Bakklandetu", opis: "Na kaldrmi istočne obale rijeke studenti i profesori satima sjede u malim drvenim kafićima. Na putu pogledajte i Trampe, jedino dizalo za bicikle na svijetu, kojim se biciklisti daju pogurati uzbrdo." },
-        { ime: "Bymarka", opis: "Šuma zapadno od grada cjelogodišnje je igralište, zimi za skije, a ljeti za pješačenje i branje borovnica. Tramvaj Gråkallbanen odveze vas iz središta ravno do staza." },
-        { ime: "Brodićem na Munkholmen", opis: "Ljeti se na otočić pred lukom, nekoć samostan pa tvrđavu i zatvor, odlazi na kupanje i piknik. Brodić polazi iz luke Ravnkloa, a vožnja traje desetak minuta." }
+        { ime: "Coffee in Bakklandet", opis: "On the cobbles of the river's east bank, students and professors sit for hours in small wooden cafes. On the way, look at Trampe, the world's only bicycle lift, which gives cyclists a push up the hill." },
+        { ime: "Bymarka", opis: "The forest west of the city is a year-round playground, for skiing in winter and for hiking and blueberry picking in summer. The Gråkallbanen tram carries you from the center straight to the trails." },
+        { ime: "The boat to Munkholmen", opis: "In summer people head to this islet off the harbor, once a monastery and later a fortress and a prison, for a swim and a picnic. The boat leaves from the Ravnkloa quay and the ride takes about ten minutes." }
       ],
       kupiti: [
-        { ime: "Sirevi iz Trøndelaga", opis: "Pokrajina oko Trondheima poznata je po malim sirarnama koje osvajaju nagrade i izvan Norveške. Kupite ih na seljačkoj tržnici ili u trgovini delikatesa u središtu, a pitajte domaćine za dan tržnice." },
-        { ime: "Akevitt", opis: "Najpoznatija norveška rakija od krumpira potječe upravo iz Trondheima, gdje ju je u 19. stoljeću počela proizvoditi jedna trgovačka obitelj. Boca iz trgovine Vinmonopolet ovdje ima i zavičajno značenje." },
-        { ime: "Rukotvorine iz Husflidena", opis: "U trgovini udruge za kućnu radinost prodaju se vunene pletenine, tkanje i dijelovi narodne nošnje iz Trøndelaga. Sve je izrađeno u Norveškoj, pa su stvari skuplje od suvenira, ali i trajnije." }
+        { ime: "Cheeses from Trøndelag", opis: "The region around Trondheim is known for small dairies that win prizes well beyond Norway. Buy the cheeses at the farmers' market or a delicatessen in the center, and ask your hosts which day the market is on." },
+        { ime: "Akevitt", opis: "Norway's most famous potato spirit comes from Trondheim, where a merchant family began making it in the 19th century. A bottle from the Vinmonopolet here carries a bit of hometown meaning." },
+        { ime: "Handicrafts from Husfliden", opis: "The shop of the home crafts association sells wool knitwear, weaving and pieces of the Trøndelag folk costume. Everything is made in Norway, so it costs more than a souvenir and lasts much longer." }
       ]
     }
   }

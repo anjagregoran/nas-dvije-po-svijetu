@@ -1,96 +1,96 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["tunis"] = {
   kupiti: [
-    { ime: "Maslinovo ulje", opis: "Tunis je jedan od najvećih proizvođača maslinova ulja na svijetu, a najbolje dolazi iz Sahela i okolice Sfaxa. Kupujte ga u limenkama u trgovinama delikatesa ili izravno u uljarama, jer je tako najlakše za put." },
-    { ime: "Harisa", opis: "Pasta od sušenih ljutih paprika, češnjaka i kima stoji na svakom stolu. Domaća se prodaje na vagu na tržnicama, a najcjenjenija dolazi s poluotoka Cap Bon." },
-    { ime: "Keramika iz Nabeula", opis: "Gradić na Cap Bonu stoljećima oslikava zdjele i pločice u plavoj, zelenoj i žutoj boji. Ručni rad prepoznat ćete po potezima kista koji nikad nisu sasvim jednaki." },
-    { ime: "Fouta", opis: "Tanki pamučni ručnik za hamam s resama služi i kao pareo, stolnjak ili šal. Tkane na razboju naći ćete u medinama i kod tkalaca na Djerbi." },
-    { ime: "Datulje deglet nour", opis: "Prozirne medene datulje iz oaza oko Tozeura i Douza prodaju se još na grančici. Najsvježije su krajem jeseni, a tržnice ih imaju cijele godine." },
-    { ime: "Šešija", opis: "Crvena vunena kapa plete se, valja i boji u nizu koraka koji traju tjednima. Obrtnici još rade u svom souku u medini Tunisa." }
+    { ime: "Olive oil", opis: "Tunisia is one of the world's biggest olive oil producers, and the best comes from the Sahel and the area around Sfax. Buy it in tins from delicatessens or straight from an oil mill, since tins travel best." },
+    { ime: "Harissa", opis: "This paste of dried hot peppers, garlic and caraway sits on every table. The homemade kind is sold by weight at markets, and the most prized comes from the Cap Bon peninsula." },
+    { ime: "Pottery from Nabeul", opis: "This Cap Bon town has been painting bowls and tiles in blue, green and yellow for centuries. You can recognize handwork by brushstrokes that are never quite identical." },
+    { ime: "Fouta", opis: "The thin fringed cotton hammam towel doubles as a beach wrap, tablecloth or scarf. You will find loom-woven ones in the medinas and with the weavers on Djerba." },
+    { ime: "Deglet nour dates", opis: "These translucent honeyed dates from the oases around Tozeur and Douz are sold still on the branch. They are freshest in late fall, though markets carry them all year." },
+    { ime: "Chechia", opis: "The red wool cap is knitted, felted and dyed in a chain of steps that takes weeks. The craftsmen still work in their own souk in the Tunis medina." }
   ],
   mjesta: {
     "tunis-grad": {
       dragulji: [
-        { ime: "Ulice Sidi Ben Arous i Rue du Pacha", opis: "U gornjem dijelu medine nižu se bijele kuće s plavim i žutim okovanim vratima, bez štandova i gužve. Ovdje se vidi kako medina izgleda kad se u njoj samo živi." },
-        { ime: "Četvrt Halfaouine", opis: "Sjeverno predgrađe medine ima trg sa stablima, džamiju i tržnicu na kojoj kupuju samo susjedi. Dođite ujutro i sjednite uz kavu među domaće." },
-        { ime: "La Goulette", opis: "Lučko predgrađe do kojeg vozi prigradski vlak ima kanal, staru tvrđavu i niz ribljih restorana. Ljeti je ovo mjesto na koje cijeli grad izlazi navečer." }
+        { ime: "Rue Sidi Ben Arous and Rue du Pacha", opis: "In the upper medina, white houses with studded blue and yellow doors line streets with no stalls and no crowds. This is what the medina looks like when people simply live in it." },
+        { ime: "The Halfaouine quarter", opis: "This northern extension of the medina has a tree-shaded square, a mosque and a market where only the neighbors shop. Come in the morning and sit with a coffee among the locals." },
+        { ime: "La Goulette", opis: "The port suburb, reached by commuter train, has a canal, an old fort and a row of fish restaurants. In summer this is where the whole city goes out in the evening." }
       ],
       domaci: [
-        { ime: "Lablabi za doručak", opis: "Juha od slanutka prelijeva se preko natrganog starog kruha, s harisom, kimom, jajetom i maslinovim uljem. Jede se rano ujutro u malim zalogajnicama, a kruh u zdjelu trgate sami." },
-        { ime: "Marché Central", opis: "Na središnjoj tržnici Tunižani biraju ribu, sireve, masline i harisu na vagu. Dođite prije podneva i kušajte što vam ponude preko pulta." },
-        { ime: "Brik i riba ljeti u La Goulettei", opis: "U ljetne večeri obitelji sjede na terasama uz hrskavi brik s jajetom i pečenu ribu. Brik se jede rukama i pažljivo, da žumanjak ne pobjegne." }
+        { ime: "Lablabi for breakfast", opis: "Chickpea soup is ladled over torn stale bread and topped with harissa, cumin, an egg and olive oil. It is eaten early in small eateries, and you tear the bread into the bowl yourself." },
+        { ime: "The Marché Central", opis: "At the central market, Tunisians choose fish, cheese, olives and harissa by weight. Come before noon and taste whatever is offered across the counter." },
+        { ime: "Brik and fish on summer nights in La Goulette", opis: "On summer evenings families sit on terraces over a crisp brik with egg and grilled fish. Brik is eaten with your hands, and carefully, so the yolk does not escape." }
       ],
       kupiti: [
-        { ime: "Šešija iz Souk des Chéchias", opis: "U natkrivenom souku majstori sjede u drvenim radnjama i četkaju crvene kape čičkovim glavicama. Ovdje je kupujete izravno od onoga tko ju je izradio." },
-        { ime: "Mirisi iz Souk el Attarine", opis: "Souk parfumera uz džamiju Zitouna prodaje esencije jasmina, narančina cvijeta i ruže u malim bočicama. Dovoljna je kap, pa tražite najmanju bočicu." },
-        { ime: "Voda narančina cvijeta", opis: "Destilat cvjetova gorke naranče s Cap Bona ide u kavu, kolače i dječje napitke. Kupuje se u začinarnicama medine i na tržnici." }
+        { ime: "A chechia from Souk des Chéchias", opis: "In the covered souk, craftsmen sit in wooden shops brushing the red caps with thistle heads. Here you buy from the very person who made it." },
+        { ime: "Scents from Souk el Attarine", opis: "The perfumers' souk beside the Zitouna Mosque sells essences of jasmine, orange blossom and rose in tiny bottles. One drop goes a long way, so ask for the smallest size." },
+        { ime: "Orange blossom water", opis: "Distilled from the bitter orange blossoms of Cap Bon, it goes into coffee, cakes and children's drinks. You can buy it in the medina's spice shops and at the market." }
       ]
     },
     "kartaga-i-sidi-bou-said": {
       dragulji: [
-        { ime: "Palača Ennejma Ezzahra", opis: "Kuća baruna d'Erlangera na rubu Sidi Bou Saida ima vrtove nad morem i sobe pune rezbarenog drva i mramora. Mirnija je od glavne ulice i otkriva odakle selu plavo-bijeli izgled." },
-        { ime: "Stube do marine", opis: "Od vrha sela spušta se dugačko stubište kroz borove i bugenvilije do male luke i plaže. Gotovo svi ostaju na glavnoj ulici, pa ćete ovdje biti gotovo same." },
-        { ime: "Corniche u La Marsi", opis: "Susjedno mjesto ima šetnicu uz plažu, staru kavanu s kupolom i sladoledarnice pune obitelji. Ovamo Tunižani dolaze na more, pa je atmosfera sasvim domaća." }
+        { ime: "Ennejma Ezzahra Palace", opis: "Baron d'Erlanger's house on the edge of Sidi Bou Said has gardens above the sea and rooms of carved wood and marble. It is calmer than the main street and explains where the village got its blue and white look." },
+        { ime: "The steps down to the marina", opis: "From the top of the village a long stairway drops through pines and bougainvillea to a small harbor and beach. Almost everyone stays on the main street, so you will have it nearly to yourself." },
+        { ime: "The Corniche in La Marsa", opis: "The neighboring town has a beachfront promenade, an old domed cafe and ice cream shops full of families. This is where Tunis comes to the sea, so the mood is entirely local." }
       ],
       domaci: [
-        { ime: "Bambalouni", opis: "Vruća pržena krafna u obliku prstena, posuta šećerom, prodaje se s malog prozora u glavnoj ulici Sidi Bou Saida. Jede se odmah, još prevruća za prste." },
-        { ime: "Čaj s pinjolima", opis: "Čaj od mente s pinjolima koji plutaju na površini pije se na terasama s pogledom na zaljev. Dođite kasno popodne i ostanite do zalaska." },
-        { ime: "Buketić jasmina", opis: "Ljeti prodavači nose machmoum, čvrsto svezane pupoljke jasmina koji se otvaraju navečer. Muškarci ga nose iza uha, a žene u ruci ili na torbi." }
+        { ime: "Bambalouni", opis: "A hot ring-shaped doughnut dusted with sugar is sold from a small window on Sidi Bou Said's main street. You eat it right away, while it is still too hot for your fingers." },
+        { ime: "Tea with pine nuts", opis: "Mint tea with pine nuts floating on top is the drink of the terraces overlooking the gulf. Come late in the afternoon and stay through sunset." },
+        { ime: "A jasmine posy", opis: "In summer, sellers carry machmoum, tightly bound jasmine buds that open in the evening. Men wear one behind the ear, and women carry it in the hand or pin it to a bag." }
       ],
       kupiti: [
-        { ime: "Kavez iz Sidi Bou Saida", opis: "Bijelo-plavi kavez od žice i drva s kupolom oponaša prozore sela i lokalni je obrt. Manje veličine služe kao svjetiljke, a prodaju ih radionice u pokrajnjim ulicama." },
-        { ime: "Oslikana keramika", opis: "Zdjele i pločice s ribama i pticama dolaze iz Nabeula, ali se u selu prodaju u malim galerijama s boljim izborom. Tražite potpis radionice na dnu." }
+        { ime: "A Sidi Bou Said birdcage", opis: "The white and blue cage of wire and wood, with a dome on top, echoes the village's window screens and is a local craft. Smaller sizes work as lanterns and are sold by workshops in the side streets." },
+        { ime: "Painted pottery", opis: "Bowls and tiles with fish and birds come from Nabeul, though the small galleries in the village often have a better selection. Look for the workshop's signature on the bottom." }
       ]
     },
     "kairouan": {
       dragulji: [
-        { ime: "Džamija triju vrata", opis: "Mala džamija iz devetog stoljeća ima pročelje s uklesanim kufskim natpisima i cvjetnim uzorcima. Stoji u tihoj ulici medine i lako je promašite ako ne znate za nju." },
-        { ime: "Bazeni Aglabida", opis: "Golemi okrugli spremnici za vodu na rubu grada pokazuju kako se u stepi preživljavalo prije tisuću godina. Navečer oko njih šeću i trče domaći." },
-        { ime: "Ulice medine u bojama", opis: "Vrata i prozori u Kairouanu obojeni su u plavo i zeleno, a pred kućama žene čiste vunu. Skrenite s glavne ulice i hodajte bez plana prema zidinama." }
+        { ime: "The Mosque of the Three Doors", opis: "This small ninth-century mosque has a facade carved with Kufic inscriptions and floral designs. It stands on a quiet medina street and is easy to miss if you do not know about it." },
+        { ime: "The Aghlabid Basins", opis: "Huge round reservoirs on the edge of town show how people survived on the steppe a thousand years ago. In the evening locals walk and jog around them." },
+        { ime: "The painted streets of the medina", opis: "Doors and windows in Kairouan are painted blue and green, and women clean wool outside their houses. Turn off the main street and walk with no plan toward the walls." }
       ],
       domaci: [
-        { ime: "Makroud još topao", opis: "Rombovi od griza punjeni pastom od datulja prže se i umaču u med na svakom uglu medine. Domaći ih kupuju na vagu i jedu uz kavu." },
-        { ime: "Hodočasnici kod Brijačeve džamije", opis: "U zaviju Sidi Sahaba obitelji dovode djecu na blagoslov i dolaze u svečanoj odjeći. Uđite tiho u dvorište s pločicama i pokrijte ramena i kosu." },
-        { ime: "Kava pod zidinama", opis: "Predvečer se muškarci okupljaju u kavanama oko gradskih vrata, a obitelji šeću glavnom ulicom medine. Sjednite na terasu uz zidine i gledajte kako se grad hladi." }
+        { ime: "Makroudh, still warm", opis: "Diamonds of semolina filled with date paste are fried and dipped in honey on every corner of the medina. Locals buy them by weight and eat them with coffee." },
+        { ime: "Pilgrims at the Mosque of the Barber", opis: "Families bring children to the zaouia of Sidi Sahab for a blessing and arrive in their best clothes. Step quietly into the tiled courtyard and cover your shoulders and hair." },
+        { ime: "Coffee under the walls", opis: "Toward evening men gather in the cafes around the city gates while families stroll the medina's main street. Take a terrace seat by the walls and watch the city cool down." }
       ],
       kupiti: [
-        { ime: "Kairouanski tepih", opis: "Grad je tuniska prijestolnica tepiha, vezanih u čvorove ili tkanih kao lagani mergoum. Kvalitetni komadi imaju državnu plombu na poleđini s oznakom gustoće čvorova." },
-        { ime: "Makroud za put", opis: "Slastičarnice u medini pakiraju makroud u kutije koje izdrže nekoliko tjedana. Birajte one punjene datuljama, jer su izvorne." },
-        { ime: "Bakreno posuđe", opis: "U medini još rade kotlari koji čekićem oblikuju pladnjeve i lonce za kuskus. Njihove su radnje u uličicama oko glavne tržnice." }
+        { ime: "Kairouan carpet", opis: "The city is Tunisia's carpet capital, with knotted rugs and lighter flat-woven mergoum. Quality pieces carry an official state seal on the back stating the knot density." },
+        { ime: "Makroudh for the road", opis: "The medina's pastry shops pack makroudh in boxes that keep for a few weeks. Choose the date-filled ones, since they are the original." },
+        { ime: "Copperware", opis: "The medina still has coppersmiths who hammer out trays and couscous pots. Their shops are in the lanes around the main market." }
       ]
     },
     "sousse-i-el-jem": {
       dragulji: [
-        { ime: "Hergla", opis: "Bijelo ribarsko selo na litici sjeverno od Soussea ima groblje nad morem i tihe uličice s plavim vratima. Izgleda kao Sidi Bou Said bez ijednog autobusa." },
-        { ime: "Mahdia", opis: "Stari grad na uskom poluotoku završava svjetionikom i grobljem čiji se bijeli grobovi spuštaju do valova. Ispod stabala na trgu Place du Caire sjedi se uz kavu cijelo jutro." },
-        { ime: "Monastir", opis: "Ribat nad morem ima toranj na koji se smijete popeti, a s vrha se vide luka, zlatna kupola mauzoleja i otočići. Mirniji je od tvrđave u Sousseu." }
+        { ime: "Hergla", opis: "A white fishing village on a cliff north of Sousse has a cemetery above the sea and quiet lanes of blue doors. It looks like Sidi Bou Said without a single tour bus." },
+        { ime: "Mahdia", opis: "The old town on a narrow peninsula ends at a lighthouse and a cemetery whose white graves run down to the waves. Under the trees on Place du Caire, people sit over coffee all morning." },
+        { ime: "Monastir", opis: "The ribat above the sea has a tower you can climb, and from the top you see the harbor, the golden dome of the mausoleum and the little islands. It is calmer than the fortress in Sousse." }
       ],
       domaci: [
-        { ime: "Tržnica petkom u Mahdiji", opis: "Petkom ujutro se pod starim gradskim vratima Skifa el Kahla prodaju svilene tkanine, nakit i svadbena odjeća. Žene iz okolnih sela dolaze u nošnjama, pa dođite rano." },
-        { ime: "Večernja šetnja plažom Boujaffar", opis: "Stanovnici Soussea navečer izlaze na obalnu šetnicu, s kokicama i sladoledom. Hodajte s njima od medine prema sjeveru dok se ne upale svjetla." },
-        { ime: "Riba u luci", opis: "U Mahdiji i Monastiru ribari prodaju ulov na ribarnici uz luku, a obližnje zalogajnice peku ga na žaru. Birajte ribu sami i naručite je uz salatu mechouia." }
+        { ime: "The Friday market in Mahdia", opis: "On Friday mornings, silk cloth, jewelry and wedding clothes are sold under the old town gate, Skifa el Kahla. Women come in from the nearby villages, so arrive early." },
+        { ime: "An evening walk along Boujaffar beach", opis: "The people of Sousse come out to the seafront promenade in the evening with popcorn and ice cream. Walk with them from the medina northward until the lights come on." },
+        { ime: "Fish at the harbor", opis: "In Mahdia and Monastir, fishermen sell their catch at the fish market by the port, and nearby grills cook it over charcoal. Choose your own fish and order it with mechouia salad." }
       ],
       kupiti: [
-        { ime: "Svila iz Mahdije", opis: "Tkalci u medini Mahdije na ručnim razbojima tkaju prugastu svilu sa zlatnim nitima za svadbene nošnje. Šalovi se kupuju izravno u njihovim malim radnjama." },
-        { ime: "Košare od alfe iz Hergle", opis: "Selo je poznato po pletenju trave alfe u košare, prostirke i cjedila za uljare. Prodaju se u radionicama uz glavnu ulicu." },
-        { ime: "Maslinovo ulje iz Sahela", opis: "Između Soussea i El Jema pružaju se beskrajni maslinici. Pitajte domaćine za uljaru u blizini koja prodaje izravno, osobito u vrijeme berbe." }
+        { ime: "Silk from Mahdia", opis: "Weavers in Mahdia's medina work hand looms to make striped silk shot with gold thread for wedding dress. You buy scarves directly in their small shops." },
+        { ime: "Esparto baskets from Hergla", opis: "The village is known for weaving esparto grass into baskets, mats and the filters used in olive presses. They are sold in workshops along the main street." },
+        { ime: "Olive oil from the Sahel", opis: "Between Sousse and El Jem the olive groves seem to have no end. Ask your hosts for a nearby mill that sells directly, especially at harvest time." }
       ]
     },
     "djerba-i-jug": {
       dragulji: [
-        { ime: "Erriadh", opis: "Staro selo u unutrašnjosti Djerbe postalo je galerija na otvorenom, s muralima umjetnika iz cijelog svijeta na bijelim zidovima. Šećite bez karte, jer iza svakog ugla čeka nova slika." },
-        { ime: "Chenini i Douiret", opis: "Berberska sela kod Tataouinea usječena su u vrh brda, s bijelom džamijom na grebenu i nastambama u stijeni. Popnite se s lokalnim vodičem do vrha." },
-        { ime: "Ksar Ouled Soltane", opis: "Utvrđena žitnica na jugu ima spremišta složena na četiri kata oko dva dvorišta, s vanjskim stubama. Bolje je očuvana i mirnija od poznatijih ksara." }
+        { ime: "Erriadh", opis: "This old village in Djerba's interior has become an open-air gallery, with murals by artists from around the world on its white walls. Walk without a map, because a new piece waits around every corner." },
+        { ime: "Chenini and Douiret", opis: "These Berber villages near Tataouine are cut into the top of a hill, with a white mosque on the ridge and dwellings in the rock. Climb to the top with a local guide." },
+        { ime: "Ksar Ouled Soltane", opis: "This fortified granary in the south has storerooms stacked four stories high around two courtyards, reached by outside stairs. It is better preserved and quieter than the more famous ksour." }
       ],
       domaci: [
-        { ime: "Dražba ribe u Houmt Souku", opis: "Na ribarnici prodavač sjedi na visokoj stolici i izvikuje cijene za nizove ribe nanizane na palmino vlakno. Dođite prije podneva i gledajte kako se licitira." },
-        { ime: "Čaj u kući pod zemljom", opis: "U Matmati obitelji još žive u dvorištima iskopanim u zemlji, gdje je ljeti hladno, a zimi toplo. Neke primaju goste na čaj i kruh s uljem, uz mali prilog na odlasku." },
-        { ime: "Kavane u starim fondoucima", opis: "U Houmt Souku nekadašnji karavansaraji imaju dvorišta s bugenvilijama u kojima se pije kava i čaj s bademima. Ovdje domaći čekaju da prođe podnevna vrućina." }
+        { ime: "The fish auction in Houmt Souk", opis: "At the fish market the auctioneer sits on a high chair and calls out prices for strings of fish threaded on palm fiber. Come before noon and watch the bidding." },
+        { ime: "Tea in a house underground", opis: "In Matmata, families still live around courtyards dug into the earth, cool in summer and warm in winter. Some welcome guests for tea and bread with oil, and a small tip on leaving is expected." },
+        { ime: "Cafes in the old fondouks", opis: "In Houmt Souk the former caravanserais have bougainvillea courtyards where people drink coffee and tea with almonds. This is where locals wait out the midday heat." }
       ],
       kupiti: [
-        { ime: "Keramika iz Guellale", opis: "Selo lončara na jugu Djerbe radi goleme ćupove i jednostavno neglazirano posuđe od otočne gline. Radionice su uz cestu, a majstori rado pokažu kolo." },
-        { ime: "Djerbanske deke i fouta", opis: "Tkalačke radionice na otoku imaju prepoznatljive trokutaste zabate. Ondje se kupuju vuneni pokrivači i pamučne foute izravno s razboja." },
-        { ime: "Srebrni nakit", opis: "Zlatari i srebrnari Houmt Souka poznati su po filigranu i berberskim kopčama. Radnje su u uličicama souka, a cijena se računa po težini i radu." }
+        { ime: "Pottery from Guellala", opis: "The potters' village in southern Djerba makes giant storage jars and simple unglazed ware from island clay. The workshops line the road, and the potters gladly show you the wheel." },
+        { ime: "Djerban blankets and foutas", opis: "The island's weaving workshops have distinctive triangular gables. That is where you buy wool blankets and cotton foutas right off the loom." },
+        { ime: "Silver jewelry", opis: "The gold and silversmiths of Houmt Souk are known for filigree and Berber brooches. Their shops are in the lanes of the souk, and the price depends on weight and workmanship." }
       ]
     }
   }

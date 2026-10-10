@@ -1,311 +1,311 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["austrija"] = {
   id: "austrija",
-  ime: "Austrija",
-  regija: "Srednja Europa",
-  sazetak: "Carski gradovi, glazba koja se čuje iz svake crkve i kavane te Alpe na dohvat ruke, a sve to nekoliko sati vožnje od Zagreba.",
+  ime: "Austria",
+  regija: "Central Europe",
+  sazetak: "Imperial cities, music drifting out of every church and coffeehouse, and the Alps within easy reach, all of it just a few hours' drive from Zagreb.",
   uvod: [
-    "Austrija je mala zemlja s golemom prošlošću, jer je iz Beča više od šest stoljeća, sve do 1918., dinastija Habsburg upravljala jednim od najvećih europskih carstava. Od toga su vremena ostale palače, opere, muzeji prepuni blaga i navika da se u kavani uz jednu šalicu kave sjedi satima. Dvije trećine zemlje prekrivaju Alpe, pa se od baroknog grada do ledenjaka ili jezera često stiže za sat ili dva.",
-    "Hrvatskoj je Austrija bliža nego ijedna druga zemlja na ovom popisu. Hrvatski su staleži 1. siječnja 1527. u Cetinu izabrali Ferdinanda Habsburškog za kralja i otada su Hrvati gotovo četiri stoljeća dijelili sudbinu s Bečom: ondje su se školovali, služili vojsku, objavljivali knjige i tražili svoja prava. Zato će vam mnogo toga biti poznato, od žutih pročelja i kolodvora do riječi kao što su šnicla, štrudla i fijaker.",
-    "U austrijskom Gradišću već pet stoljeća žive gradišćanski Hrvati, koji su ovamo doselili u 16. stoljeću bježeći pred Osmanlijama, a hrvatski je ondje i danas priznati manjinski jezik."
+    "Austria is a small country with an enormous past, because for more than six centuries, right up to 1918, the Habsburg dynasty ruled one of the largest empires in Europe from Vienna. What remains from those days are the palaces, the opera houses, the museums full of treasures and the habit of sitting in a coffeehouse for hours over a single cup. The Alps cover two thirds of the country, so you can often get from a Baroque city to a glacier or a lake in an hour or two.",
+    "Austria is closer to Croatia than any other country on this list. On January 1, 1527, the Croatian estates meeting at Cetin elected Ferdinand of Habsburg as their king, and from then on the Croats shared their fate with Vienna for almost four centuries: that was where they studied, served in the army, published books and argued for their rights. That is why so much will feel familiar to a Croatian visitor, from the yellow facades and the train stations to words such as šnicla, štrudla and fijaker.",
+    "In the Austrian state of Burgenland, the Burgenland Croats have lived for five centuries, having settled here in the 16th century as they fled the Ottomans, and Croatian is still a recognized minority language there today."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od svibnja do rujna za gradove, jezera i planinske ceste, a od kraja studenoga do Božića zbog adventskih sajmova. Visoke alpske ceste zimi su zatvorene." },
-    { k: "Valuta", v: "Euro. Kartice se primaju gotovo svugdje, ali za štandove s kobasicama, planinske kolibe i manje kavane dobro je imati gotovinu." },
-    { k: "Kretanje", v: "Vlakovi ÖBB-a brzi su i točni, a iz Zagreba u pravilu vozi izravan vlak za Graz i Beč. Za vožnju autocestama automobilom potrebna je vinjeta, koja se može kupiti i u digitalnom obliku." },
-    { k: "Napojnica", v: "Uobičajeno je od 5 do 10 posto. Konobaru pri plaćanju kažete ukupan iznos koji želite platiti, a u kavanama se račun zaokružuje." }
+    { k: "When to go", v: "From May to September for cities, lakes and mountain roads, and from late November until Christmas for the Advent markets. The high Alpine roads are closed in winter." },
+    { k: "Currency", v: "The euro. Cards are accepted almost everywhere, though it is good to have cash for sausage stands, mountain huts and smaller coffeehouses." },
+    { k: "Getting around", v: "ÖBB trains are fast and punctual, and there is normally a direct train from Zagreb to Graz and Vienna. To drive on the highways you need a vignette, which you can also buy in digital form." },
+    { k: "Tipping", v: "Between 5 and 10 percent is customary. When you pay, you tell the waiter the total amount you want to pay, and in coffeehouses you round up the bill." }
   ],
   hrana: [
-    { ime: "Wiener Schnitzel", opis: "Tanko istučen teleći odrezak, paniran i pržen na masti ili maslacu dok se korica ne napuhne.", prica: "Pravi bečki odrezak mora biti od teletine, a ako je od svinjetine, na jelovniku piše „Schnitzel Wiener Art“. Priča da ga je iz Milana donio maršal Radetzky danas se smatra legendom. Poslužuje se s kriškom limuna i krumpir-salatom, nikada s umakom." },
-    { ime: "Tafelspitz", opis: "Kuhana govedina od vrha buta, poslužena u juhi s povrćem.", prica: "Bilo je to omiljeno jelo cara Franje Josipa, koji ga je jeo gotovo svakodnevno. Prvo se pojede juha, a zatim meso s umakom od jabuka i hrena te umakom od vlasca." },
-    { ime: "Sachertorte", opis: "Čokoladna torta s tankim slojem pekmeza od marelica i tamnom glazurom.", prica: "Prema predaji ju je 1832. smislio šesnaestogodišnji naučnik Franz Sacher, kada se glavni kuhar kneza Metternicha razbolio. Hotel Sacher i slastičarnica Demel godinama su se sudili oko toga tko smije prodavati „originalnu“, pa je kod jednih pekmez u sredini, a kod drugih pod glazurom. Jede se uz nezaslađeno tučeno vrhnje." },
-    { ime: "Apfelstrudel", opis: "Savijača od jabuka u tijestu razvučenom tako tanko da se kroz njega mogu čitati novine.", prica: "Najstariji poznati rukopisni recept za štrudlu potječe iz 1696. i čuva se u Bečkoj knjižnici. Tehnika vučenog tijesta stigla je s Istoka preko Ugarske, što lijepo pokazuje kako se u bečkoj kuhinji sastalo cijelo carstvo." },
-    { ime: "Kaiserschmarrn", opis: "Debela palačinka natrgana na komade, karamelizirana i posuta šećerom u prahu, uz kompot od šljiva.", prica: "Ime znači „carski drobljenac“, a o nastanku postoji više legendi povezanih s carem Franjom Josipom i caricom Elizabetom. U planinskim kolibama jede se kao glavno jelo i jedna je porcija često dovoljna za dvoje." },
-    { ime: "Knödel", opis: "Okruglice od kruha, krumpira ili sira, slane kao prilog ili slatke s marelicom.", prica: "Slane okruglice sa špekom dolaze iz Tirola, a slatke Marillenknödel iz doline Wachau, gdje rastu najbolje marelice. Kažu da se okruglica ne reže nožem, jer se time vrijeđa kuharica." },
-    { ime: "Kürbiskernöl", opis: "Gusto tamnozeleno ulje od prženih bučinih koštica iz Štajerske.", prica: "Zovu ga „zelenim zlatom“ i zaštićeno je oznakom podrijetla. Njime se preljeva salata od krumpira ili graha, bučina juha, pa čak i sladoled od vanilije." },
-    { ime: "Wiener Melange", opis: "Kava s toplim mlijekom i mliječnom pjenom, bečka inačica kapučina.", prica: "U bečkoj kavani kava uvijek stiže na srebrnom pladnju s čašom vode, a žličica je položena preko čaše. Uz jednu šalicu smijete sjediti i čitati novine satima, a da vas nitko ne požuruje." },
-    { ime: "Grüner Veltliner", opis: "Svježe, papreno bijelo vino, najvažnija austrijska sorta.", prica: "Najbolje se upoznaje u vinskim kućama zvanima Heuriger, u kojima vinari toče mlado vino iz vlastitog podruma. Beč je jedina svjetska metropola sa znatnim vinogradima unutar gradskih granica." }
+    { ime: "Wiener Schnitzel", opis: "A veal cutlet pounded thin, breaded and fried in lard or butter until the crust puffs up.", prica: "A true Viennese schnitzel has to be made of veal, and if it is made of pork the menu says “Schnitzel Wiener Art”. The story that Marshal Radetzky brought it from Milan is now regarded as a legend. It is served with a slice of lemon and potato salad, never with a sauce." },
+    { ime: "Tafelspitz", opis: "Boiled beef from the top of the rump, served in its broth with vegetables.", prica: "This was the favorite dish of Emperor Franz Joseph, who ate it almost every day. You have the broth first, and then the meat with an apple and horseradish sauce and a chive sauce." },
+    { ime: "Sachertorte", opis: "A chocolate cake with a thin layer of apricot jam and a dark glaze.", prica: "According to tradition it was invented in 1832 by a sixteen-year-old apprentice, Franz Sacher, when Prince Metternich's head chef fell ill. The Hotel Sacher and the Demel pastry shop spent years in court over who was allowed to sell the “original”, which is why one puts the jam in the middle and the other under the glaze. It is eaten with unsweetened whipped cream." },
+    { ime: "Apfelstrudel", opis: "Apple strudel in a dough stretched so thin that you could read a newspaper through it.", prica: "The oldest known handwritten recipe for strudel dates from 1696 and is kept in the Vienna City Library. The technique of stretched dough arrived from the East by way of Hungary, which shows nicely how the whole empire met in the Viennese kitchen." },
+    { ime: "Kaiserschmarrn", opis: "A thick pancake torn into pieces, caramelized and dusted with powdered sugar, served with plum compote.", prica: "The name means “the emperor's mess”, and there are several legends about its origin linked to Emperor Franz Joseph and Empress Elisabeth. In mountain huts it is eaten as a main course, and one serving is often enough for two." },
+    { ime: "Knödel", opis: "Dumplings made of bread, potato or curd cheese, savory as a side dish or sweet with an apricot inside.", prica: "The savory dumplings with speck come from Tyrol, and the sweet Marillenknödel from the Wachau valley, where the best apricots grow. They say you should never cut a dumpling with a knife, because that insults the cook." },
+    { ime: "Kürbiskernöl", opis: "A thick, dark green oil made from roasted pumpkin seeds from Styria.", prica: "It is called “green gold” and is protected by a designation of origin. It is drizzled over potato or bean salad, pumpkin soup and even vanilla ice cream." },
+    { ime: "Wiener Melange", opis: "Coffee with warm milk and milk foam, the Viennese version of a cappuccino.", prica: "In a Viennese coffeehouse the coffee always arrives on a silver tray with a glass of water, and the spoon is laid across the glass. You are allowed to sit and read the newspapers for hours over a single cup without anyone hurrying you along." },
+    { ime: "Grüner Veltliner", opis: "A fresh, peppery white wine, the most important Austrian grape variety.", prica: "The best way to get to know it is in the wine taverns called Heuriger, where winemakers pour young wine from their own cellars. Vienna is the only major world capital with significant vineyards inside the city limits." }
   ],
   obicaji: [
-    { ime: "Bečka kavanska kultura", opis: "Kavana je Bečanima produženi dnevni boravak, gdje se čita, piše, igra šah i razgovara. Od 2011. nalazi se na austrijskom popisu nematerijalne baštine, uz opis da se u njoj „troše vrijeme i prostor, a na računu stoji samo kava“.", gdje: "Stare kavane u središtu Beča, s mramornim stolićima, tonetovim stolcima i stalcima za novine, cijele godine." },
-    { ime: "Bečki valcer i sezona balova", opis: "Valcer je početkom 19. stoljeća bio skandalozan, jer su se parovi prvi put držali u zagrljaju, a obitelj Strauss učinila ga je simbolom grada. Svake zime u Beču se održi nekoliko stotina balova, od kojih je najpoznatiji Operni bal.", gdje: "Beč, od siječnja do ožujka. Plesne škole u gradu nude i kratke tečajeve valcera za posjetitelje." },
-    { ime: "Heuriger", opis: "Riječ znači „ovogodišnje“ i označava i mlado vino i gostionicu u kojoj ga vinar toči. Grana bora obješena nad vratima znak je da je otvoreno, a jelo se uzima sa švedskog stola.", gdje: "Bečke četvrti Grinzing, Nussdorf i Stammersdorf te sela u dolini Wachau, od proljeća do jeseni." },
-    { ime: "Almabtrieb", opis: "Krajem ljeta krave se s planinskih pašnjaka vraćaju u dolinu. Ako je sezona prošla bez nesreće, okićene su vijencima od cvijeća, vrpcama i velikim zvonima, a selo ih dočekuje glazbom i sajmom.", gdje: "Sela u Tirolu i u Salzburškoj, od sredine rujna do početka listopada." },
-    { ime: "Krampus i Perchten", opis: "Uoči blagdana svetog Nikole ulicama prolaze momci u krznu, s rogatim drvenim maskama i zvonima, koji straše zločestu djecu. Ručno rezbarene maske prava su umjetnička djela i nasljeđuju se u obitelji.", gdje: "Povorke u Salzburgu, Tirolu i Koruškoj, oko 5. prosinca." },
-    { ime: "Novogodišnji koncert", opis: "Bečki filharmoničari svakog 1. siječnja u Zlatnoj dvorani Musikvereina sviraju valcere i polke obitelji Strauss, a prenose ga televizije u devedesetak zemalja. Na kraju publika plješće u ritmu Radetzky marša.", gdje: "Musikverein u Beču. Karte se dijele ždrijebom, ali se dvorana drugih dana može vidjeti na koncertu ili u obilasku." },
-    { ime: "Jodlanje", opis: "Pjevanje bez riječi, u kojem se glas brzo prebacuje iz prsnog u falset, nastalo je kao način dozivanja s jednog pašnjaka na drugi. Svaka dolina ima svoje napjeve.", gdje: "Zavičajne večeri u Tirolu i Salzkammergutu, osobito ljeti." }
+    { ime: "Viennese coffeehouse culture", opis: "For the Viennese the coffeehouse is an extension of the living room, a place to read, write, play chess and talk. Since 2011 it has been on Austria's list of intangible heritage, described as a place where “time and space are consumed, but only the coffee is found on the bill”.", gdje: "The old coffeehouses in the center of Vienna, with marble-topped tables, Thonet chairs and newspaper racks, all year round." },
+    { ime: "The Viennese waltz and the ball season", opis: "In the early 19th century the waltz was scandalous, because for the first time couples held each other in an embrace, and the Strauss family made it the symbol of the city. Several hundred balls are held in Vienna every winter, the most famous of them being the Opera Ball.", gdje: "Vienna, from January to March. The city's dance schools also offer short waltz lessons for visitors." },
+    { ime: "Heuriger", opis: "The word means “this year's” and refers both to the young wine and to the tavern where the winemaker pours it. A pine branch hung over the door is the sign that it is open, and the food is taken from a buffet.", gdje: "The Vienna districts of Grinzing, Nussdorf and Stammersdorf and the villages of the Wachau valley, from spring to fall." },
+    { ime: "Almabtrieb", opis: "At the end of summer the cows come back down from the mountain pastures to the valley. If the season has passed without an accident, they are decked out in wreaths of flowers, ribbons and big bells, and the village welcomes them with music and a fair.", gdje: "Villages in Tyrol and the state of Salzburg, from mid-September to early October." },
+    { ime: "Krampus and Perchten", opis: "On the eve of the feast of Saint Nicholas, young men in fur, wearing horned wooden masks and bells, roam the streets frightening naughty children. The hand-carved masks are real works of art and are handed down within families.", gdje: "Parades in Salzburg, Tyrol and Carinthia, around December 5." },
+    { ime: "The New Year's Concert", opis: "Every January 1 the Vienna Philharmonic plays waltzes and polkas by the Strauss family in the Golden Hall of the Musikverein, and the concert is broadcast by television stations in some ninety countries. At the end the audience claps along to the Radetzky March.", gdje: "The Musikverein in Vienna. Tickets are allocated by lottery, but on other days you can see the hall at a concert or on a guided tour." },
+    { ime: "Yodeling", opis: "This wordless singing, in which the voice switches rapidly from chest voice to falsetto, began as a way of calling from one mountain pasture to another. Every valley has its own tunes.", gdje: "Folk evenings in Tyrol and the Salzkammergut, especially in summer." }
   ],
   fraze: [
-    { izvorno: "Grüß Gott", izgovor: "GRIS got", hr: "Dobar dan (uobičajeni austrijski pozdrav)" },
-    { izvorno: "Servus", izgovor: "SER-vus", hr: "Bok (i pri dolasku i pri odlasku)" },
-    { izvorno: "Danke schön", izgovor: "DAN-ke ŠEN", hr: "Hvala lijepa" },
-    { izvorno: "Bitte", izgovor: "BI-te", hr: "Molim, izvolite" },
-    { izvorno: "Entschuldigung", izgovor: "ent-ŠUL-di-gung", hr: "Oprostite" },
-    { izvorno: "Zahlen, bitte", izgovor: "CA-len BI-te", hr: "Platiti, molim" },
-    { izvorno: "Eine Melange, bitte", izgovor: "AJ-ne me-LANŽ BI-te", hr: "Jednu kavu s mlijekom, molim" },
-    { izvorno: "Auf Wiederschauen", izgovor: "auf VI-der-ša-uen", hr: "Doviđenja" }
+    { izvorno: "Grüß Gott", izgovor: "GROOS got", hr: "Hello, good day (the usual Austrian greeting)" },
+    { izvorno: "Servus", izgovor: "ZAIR-voos", hr: "Hi and bye (used both on arriving and on leaving)" },
+    { izvorno: "Danke schön", izgovor: "DAHN-keh SHURN", hr: "Thank you very much" },
+    { izvorno: "Bitte", izgovor: "BIT-teh", hr: "Please, here you go" },
+    { izvorno: "Entschuldigung", izgovor: "ent-SHOOL-dee-goong", hr: "Excuse me, sorry" },
+    { izvorno: "Zahlen, bitte", izgovor: "TSAH-len BIT-teh", hr: "The check, please" },
+    { izvorno: "Eine Melange, bitte", izgovor: "EYE-neh meh-LAHNZH BIT-teh", hr: "A coffee with milk, please" },
+    { izvorno: "Auf Wiederschauen", izgovor: "owf VEE-der-show-en", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Zoološki vrt u Schönbrunnu, osnovan 1752. kao carska menažerija, najstariji je zoološki vrt na svijetu koji još radi.",
-    "Hrvatske velikaše Petra Zrinskog i Frana Krstu Frankopana pogubili su 30. travnja 1671. u Bečkom Novom Mjestu, a njihovi su posmrtni ostaci 1919. preneseni u zagrebačku katedralu.",
-    "Tradicija uzgoja lipicanaca, koju njeguje osam zemalja, među njima Austrija i Hrvatska, upisana je 2022. na UNESCO-ov popis nematerijalne baštine.",
-    "Snježnu kuglu izumio je oko 1900. bečki mehaničar Erwin Perzy, pokušavajući pojačati svjetlost kirurške svjetiljke, a njegova ih obitelj i danas izrađuje u Beču.",
-    "Bombone PEZ smislio je 1927. Bečanin Eduard Haas kao zamjenu za cigarete, a ime im je skraćenica njemačke riječi za paprenu metvicu, Pfefferminz.",
-    "Karlovac je 1579. utemeljio nadvojvoda Karlo II. Štajerski, koji je stolovao u Grazu, pa grad na četiri rijeke nosi njegovo ime.",
-    "Divovski kotač u bečkom Prateru vrti se od 1897., a jedan krug u njegovim drvenim kabinama traje desetak minuta."
+    "The zoo at Schönbrunn, founded in 1752 as the imperial menagerie, is the oldest zoo in the world still in operation.",
+    "The Croatian magnates Petar Zrinski and Fran Krsto Frankopan were executed on April 30, 1671, in Wiener Neustadt, and in 1919 their remains were transferred to Zagreb Cathedral.",
+    "The tradition of breeding Lipizzaner horses, kept alive by eight countries including Austria and Croatia, was added to the UNESCO list of intangible heritage in 2022.",
+    "The snow globe was invented around 1900 by the Viennese mechanic Erwin Perzy, who was trying to boost the light of a surgical lamp, and his family still makes them in Vienna today.",
+    "PEZ candy was created in 1927 by Eduard Haas of Vienna as a substitute for cigarettes, and its name is an abbreviation of the German word for peppermint, Pfefferminz.",
+    "The Croatian city of Karlovac was founded in 1579 by Archduke Charles II of Styria, who had his seat in Graz, so the city on four rivers bears his name.",
+    "The Giant Ferris Wheel in Vienna's Prater has been turning since 1897, and one full circle in its wooden cabins takes about ten minutes."
   ],
   mjesta: [
     {
       id: "bec",
-      ime: "Beč",
+      ime: "Vienna",
       vrsta: "grad",
-      sazetak: "Carska prijestolnica u kojoj se prijepodne gledaju Bruegel i Klimt, poslijepodne sjedi u kavani, a navečer ide u operu.",
+      sazetak: "The imperial capital where you look at Bruegel and Klimt in the morning, sit in a coffeehouse in the afternoon and go to the opera in the evening.",
       prica: [
-        "Beč je počeo kao rimski vojni logor Vindobona na Dunavu, a od kraja 13. stoljeća do 1918. bio je sjedište Habsburgovaca. Dvaput su ga, 1529. i 1683., bezuspješno opsjedali Osmanlije. Kada su sredinom 19. stoljeća srušeni bedemi, na njihovu je mjestu nastao raskošni bulevar Ring, uz koji su nanizani opera, parlament, vijećnica, sveučilište i muzeji.",
-        "Hrvatskih je tragova u gradu mnogo. Ban Josip Jelačić od 1809. se deset godina školovao u bečkom Theresianumu, Ruđer Bošković ovdje je 1758. objavio svoju Teoriju prirodne filozofije, a Ivan Meštrović početkom 20. stoljeća studirao je na bečkoj Akademiji i izlagao sa secesionistima. Bečki arhitekti Fellner i Helmer projektirali su pak zgradu Hrvatskog narodnog kazališta u Zagrebu."
+        "Vienna began as the Roman military camp of Vindobona on the Danube, and from the late 13th century until 1918 it was the seat of the Habsburgs. The Ottomans besieged it twice, in 1529 and 1683, without success. When the city walls were torn down in the mid-19th century, the grand Ring boulevard took their place, lined with the opera, the parliament, the city hall, the university and the museums.",
+        "The city is full of Croatian traces. From 1809 Ban Josip Jelačić spent ten years at school in Vienna's Theresianum, Ruđer Bošković published his Theory of Natural Philosophy here in 1758, and in the early 20th century Ivan Meštrović studied at the Vienna Academy and exhibited with the Secessionists. The Viennese architects Fellner and Helmer, for their part, designed the building of the Croatian National Theatre in Zagreb."
       ],
       vidjeti: [
-        { ime: "Katedrala sv. Stjepana", opis: "Na strmom krovu od oko 230 000 glaziranih crjepova složeni su dvoglavi orao i grbovi. U sjevernom tornju visi Pummerin, najveće zvono u Austriji, prvi put saliveno 1711. od topova zaplijenjenih Osmanlijama nakon opsade. Na južni toranj, koji Bečani od milja zovu Steffl, vode 343 stube." },
-        { ime: "Hofburg", opis: "Zimska rezidencija Habsburgovaca rasla je sedam stoljeća i ima više od dvije tisuće prostorija. U Carskoj riznici čuva se kruna Svetog Rimskog Carstva iz 10. stoljeća, a u Muzeju Sisi stvari carice Elizabete, koja je mrzila dvorski život i satima vježbala na spravama u svojoj sobi." },
-        { ime: "Dvorac Schönbrunn", opis: "Ljetna rezidencija s 1441 sobom svoj je izgled dobila pod Marijom Terezijom, pa se po njoj i boja pročelja zove „šenbrunska žuta“. U Dvorani zrcala šestogodišnji Mozart svirao je 1762. pred caricom, a zatim joj, kažu, skočio u krilo i poljubio je. Popnite se do paviljona Gloriette, s kojega se vidi cijeli grad." },
-        { ime: "Belvedere", opis: "Dvije barokne palače s vrtom dao je sagraditi princ Eugen Savojski, vojskovođa koji je porazio Osmanlije. U Gornjem Belvedereu visi Klimtov Poljubac, s pravim listićima zlata, a u istoj je zgradi 15. svibnja 1955. potpisan ugovor kojim je Austrija ponovno postala slobodna država." },
-        { ime: "Muzej povijesti umjetnosti", opis: "Carska zbirka slika smještena je u palači na Ringu, otvorenoj 1891. Ovdje je najveća zbirka slika Pietera Bruegela Starijeg na svijetu, pa u Babilonskoj kuli tražite sićušne radnike, dizalice i kralja koji obilazi gradilište." },
-        { ime: "Kapucinska grobnica", opis: "Ispod skromne crkve leži gotovo 150 Habsburgovaca. Najveći je dvostruki sarkofag Marije Terezije i njezina muža, na kojem se supružnici gledaju kao da su se upravo probudili, a do njega je posve jednostavan lijes njihova sina Josipa II." }
+        { ime: "St. Stephen's Cathedral", opis: "On the steep roof, some 230,000 glazed tiles are arranged to form a double-headed eagle and coats of arms. In the north tower hangs the Pummerin, the largest bell in Austria, first cast in 1711 from cannons captured from the Ottomans after the siege. A climb of 343 steps leads up the south tower, which the Viennese fondly call Steffl." },
+        { ime: "Hofburg", opis: "The winter residence of the Habsburgs grew over seven centuries and has more than two thousand rooms. The Imperial Treasury holds the 10th-century crown of the Holy Roman Empire, and the Sisi Museum holds the belongings of Empress Elisabeth, who hated court life and spent hours exercising on gym equipment in her room." },
+        { ime: "Schönbrunn Palace", opis: "The summer residence with its 1,441 rooms took on its present look under Maria Theresa, which is why the color of the facade is known as “Schönbrunn yellow”. In the Hall of Mirrors the six-year-old Mozart played before the empress in 1762 and then, so they say, jumped into her lap and kissed her. Climb up to the Gloriette pavilion, from which you can see the whole city." },
+        { ime: "Belvedere", opis: "The two Baroque palaces with their garden were built for Prince Eugene of Savoy, the general who defeated the Ottomans. Klimt's Kiss, with real gold leaf, hangs in the Upper Belvedere, and it was in the same building that the treaty making Austria a free state once again was signed on May 15, 1955." },
+        { ime: "Kunsthistorisches Museum", opis: "The imperial collection of paintings is housed in a palace on the Ring that opened in 1891. It holds the largest collection of paintings by Pieter Bruegel the Elder in the world, so in the Tower of Babel look for the tiny workers, the cranes and the king touring the building site." },
+        { ime: "The Capuchin Crypt", opis: "Almost 150 Habsburgs lie beneath a modest church. The largest tomb is the double sarcophagus of Maria Theresa and her husband, on which the couple gaze at each other as if they had just woken up, and beside it is the completely plain coffin of their son Joseph II." }
       ],
       jesti: [
-        { ime: "Wiener Schnitzel", opis: "U tradicionalnim gostionicama, koje se zovu Beisl, odrezak je veći od tanjura, a poslužuje se s krumpir-salatom." },
-        { ime: "Sachertorte i Apfelstrudel", opis: "Slastice se jedu u kavanama oko Opere i Hofburga, a uz tortu obavezno ide tučeno vrhnje." },
-        { ime: "Käsekrainer", opis: "Kobasica punjena sirom kupuje se na uličnim kioscima Würstelstand, uz senf, hren i krišku kruha, najčešće kasno navečer nakon opere." },
-        { ime: "Wiener Gulasch", opis: "Bečki gulaš gust je i taman, s jednakom količinom luka i govedine, a naslijeđen je iz ugarske polovice carstva." }
+        { ime: "Wiener Schnitzel", opis: "In the traditional taverns, which are called Beisl, the schnitzel is bigger than the plate and comes with potato salad." },
+        { ime: "Sachertorte and Apfelstrudel", opis: "The pastries are eaten in the coffeehouses around the Opera and the Hofburg, and whipped cream with the cake is a must." },
+        { ime: "Käsekrainer", opis: "A sausage filled with cheese, bought at the street kiosks called Würstelstand with mustard, horseradish and a slice of bread, most often late at night after the opera." },
+        { ime: "Wiener Gulasch", opis: "Viennese goulash is thick and dark, with equal amounts of onion and beef, and was inherited from the Hungarian half of the empire." }
       ],
       dozivjeti: [
-        { ime: "Jutarnji trening lipicanaca", opis: "U Španjolskoj školi jahanja, u baroknoj dvorani Hofburga, bijeli pastusi vježbaju uz klasičnu glazbu. Karta za jutarnji trening jeftinija je od predstave, a pokazuje kako konji i jahači doista rade.", link: "https://www.srs.at/en/" },
-        { ime: "Večer u Državnoj operi", opis: "Kuća otvorena 1869. svake večeri igra drugi naslov. Ako su vam redovne karte preskupe, na dan izvedbe prodaju se vrlo jeftina stajaća mjesta, a zgrada se može vidjeti i u obilasku s vodičem.", link: "https://www.wiener-staatsoper.at/en/" },
-        { ime: "Schönbrunn i njegovi vrtovi", opis: "Karte za unutrašnjost izdaju se za točno vrijeme, pa ih kupite unaprijed na službenoj stranici. Park je besplatan i otvoren od ranog jutra.", link: "https://www.schoenbrunn.at/en/" },
-        { ime: "Tržnica Naschmarkt i četvrt Spittelberg", opis: "Na najvećoj gradskoj tržnici kušajte sireve, masline i slastice, a zatim prošećite do uličica Spittelberga. Taj se kraj u narodu nekoć zvao Krowotendörfel, „hrvatsko seoce“, iako se povjesničari ne slažu o tome tko su točno bili doseljenici." }
+        { ime: "The Lipizzaners' morning exercise", opis: "At the Spanish Riding School, in the Baroque hall of the Hofburg, the white stallions train to classical music. A ticket for the morning exercise is cheaper than one for a performance, and it shows how the horses and riders really work.", link: "https://www.srs.at/en/" },
+        { ime: "An evening at the State Opera", opis: "The house, which opened in 1869, stages a different work every evening. If regular tickets are too expensive for you, very cheap standing-room places are sold on the day of the performance, and you can also see the building on a guided tour.", link: "https://www.wiener-staatsoper.at/en/" },
+        { ime: "Schönbrunn and its gardens", opis: "Tickets for the interior are issued for a set time, so buy them in advance on the official website. The park is free and open from early morning.", link: "https://www.schoenbrunn.at/en/" },
+        { ime: "The Naschmarkt and the Spittelberg quarter", opis: "At the city's biggest market, taste the cheeses, olives and sweets, and then stroll over to the little streets of Spittelberg. Locals once called that area the Krowotendörfel, “the little Croat village”, although historians disagree about who exactly the settlers were." }
       ],
       agencije: [
-        { ime: "Wien Tourismus", opis: "Službena turistička zajednica grada, s karticom Vienna City Card, kalendarom koncerata i popisom tematskih šetnji.", link: "https://www.wien.info/en" }
+        { ime: "Wien Tourismus", opis: "The city's official tourist board, with the Vienna City Card, a concert calendar and a list of themed walks.", link: "https://www.wien.info/en" }
       ],
-      kada: "Travanj, svibanj, rujan i listopad najugodniji su za šetnju, a prosinac je čaroban zbog adventskih sajmova. Muzeje ostavite za dane kada pada kiša, jer ih je previše za jedno putovanje."
+      kada: "April, May, September and October are the most pleasant months for walking, and December is magical because of the Advent markets. Save the museums for rainy days, because there are too many of them for a single trip."
     },
     {
       id: "salzburg",
       ime: "Salzburg",
       vrsta: "grad",
-      sazetak: "Mozartov rodni grad, s baroknim kupolama stisnutima između rijeke i stijene na kojoj stoji golema tvrđava.",
+      sazetak: "Mozart's birthplace, with Baroque domes squeezed between the river and the rock on which a huge fortress stands.",
       prica: [
-        "Salzburg je ime i bogatstvo dobio po soli, „bijelom zlatu“ koje se rijekom Salzach vozilo iz obližnjih rudnika. Više od tisuću godina njime su vladali knezovi-nadbiskupi, crkveni poglavari koji su istodobno bili svjetovni vladari, pa su grad izgradili po uzoru na Rim. Austriji je pripao tek 1816., a stara jezgra je od 1996. na UNESCO-ovu popisu."
+        "Salzburg got both its name and its wealth from salt, the “white gold” that was shipped down the river Salzach from the nearby mines. For more than a thousand years it was ruled by prince-archbishops, church leaders who were secular rulers at the same time, and they built the city on the model of Rome. It only became part of Austria in 1816, and the old town has been on the UNESCO list since 1996."
       ],
       vidjeti: [
-        { ime: "Tvrđava Hohensalzburg", opis: "Gradnju je 1077. počeo nadbiskup Gebhard, a tvrđavu u devet stoljeća nitko nije osvojio na juriš. U njoj su mehaničke orgulje iz 1502. zvane Salzburški bik, koje svakog jutra zatutnje nad gradom. U Zlatnoj sobi pogledajte veliku kaljevu peć, na kojoj je svaka pločica drukčija." },
-        { ime: "Mozartova rodna kuća", opis: "U žutoj kući u ulici Getreidegasse, na broju 9, Wolfgang Amadeus Mozart rodio se 27. siječnja 1756. U muzeju su njegova dječja violina, pramen kose i pisma u kojima se šali s obitelji. Na ulici podignite pogled prema cehovskim znakovima od kovanog željeza, koji su nepismenim kupcima pokazivali što se u radnji prodaje." },
-        { ime: "Salzburška katedrala", opis: "Prva velika ranobarokna crkva sjeverno od Alpa posvećena je 1628., usred Tridesetogodišnjeg rata. U brončanoj krstionici, staroj sedam stoljeća, kršten je Mozart, koji je ovdje poslije bio dvorski orguljaš." },
-        { ime: "Dvorac i vrtovi Mirabell", opis: "Nadbiskup Wolf Dietrich dao je 1606. sagraditi dvorac za Salome Alt, s kojom je imao petnaestero djece. U vrtu potražite baroknu skupinu kamenih patuljaka i stube na kojima je snimljen prizor iz filma Moje pjesme, moji snovi." },
-        { ime: "Dvorac Hellbrunn", opis: "Ljetnikovac nadbiskupa Markusa Sittikusa, sagrađen od 1612. do 1615., poznat je po vodenim igrama. Kameni stol za goste ima skrivene mlaznice u sjedalima, koje bi domaćin uključio usred objeda, a samo je njegovo mjesto ostajalo suho." },
-        { ime: "Samostan i groblje sv. Petra", opis: "Najstariji samostan u njemačkom govornom području osnovan je krajem 7. stoljeća. Na malom groblju s ukrašenim željeznim križevima pogledajte katakombe uklesane u stijenu brda Mönchsberg." }
+        { ime: "Hohensalzburg Fortress", opis: "Archbishop Gebhard began building it in 1077, and in nine centuries no one has ever taken the fortress by storm. It houses a mechanical organ from 1502 known as the Salzburg Bull, which booms out over the city every morning. In the Golden Chamber, look at the great tiled stove, on which every tile is different." },
+        { ime: "Mozart's Birthplace", opis: "Wolfgang Amadeus Mozart was born on January 27, 1756, in the yellow house at number 9 on Getreidegasse. The museum holds his childhood violin, a lock of his hair and letters in which he jokes with his family. Out on the street, look up at the wrought-iron guild signs, which showed customers who could not read what was sold in each shop." },
+        { ime: "Salzburg Cathedral", opis: "The first great early Baroque church north of the Alps was consecrated in 1628, in the middle of the Thirty Years' War. Mozart was baptized in the seven-century-old bronze font, and he later served here as court organist." },
+        { ime: "Mirabell Palace and Gardens", opis: "Archbishop Wolf Dietrich had the palace built in 1606 for Salome Alt, with whom he had fifteen children. In the garden, look for the Baroque group of stone dwarfs and the steps where a scene from the film The Sound of Music was shot." },
+        { ime: "Hellbrunn Palace", opis: "The summer palace of Archbishop Markus Sittikus, built between 1612 and 1615, is famous for its trick fountains. The stone table for guests has hidden jets in the seats, which the host would switch on in the middle of a meal, and his was the only seat that stayed dry." },
+        { ime: "St. Peter's Abbey and Cemetery", opis: "The oldest monastery in the German-speaking world was founded in the late 7th century. In the small cemetery with its ornate iron crosses, take a look at the catacombs carved into the rock of the Mönchsberg." }
       ],
       jesti: [
-        { ime: "Salzburger Nockerl", opis: "Slatki sufle od snijega od bjelanjaka, pečen u tri vrha, koji predstavljaju gradske brežuljke pod snijegom. Jede se čim stigne na stol, jer brzo splasne." },
-        { ime: "Mozartkugel", opis: "Kuglicu od marcipana s pistacijama, nugata i tamne čokolade smislio je 1890. slastičar Paul Fürst. Njegova slastičarnica i danas ih radi ručno i umata u srebrno-plavi papir." },
-        { ime: "Bosna", opis: "Dvije tanke kobasice u prepečenom pecivu s lukom i začinom karijem, salzburška ulična hrana od sredine 20. stoljeća, koja se prodaje u prolazima uz Getreidegasse." }
+        { ime: "Salzburger Nockerl", opis: "A sweet soufflé of beaten egg whites, baked in three peaks that stand for the city's hills under snow. You eat it the moment it reaches the table, because it collapses quickly." },
+        { ime: "Mozartkugel", opis: "This ball of pistachio marzipan, nougat and dark chocolate was created in 1890 by the confectioner Paul Fürst. His pastry shop still makes them by hand today and wraps them in silver and blue paper." },
+        { ime: "Bosna", opis: "Two thin sausages in a toasted roll with onions and curry spice, a Salzburg street food since the mid-20th century, sold in the passageways off Getreidegasse." }
       ],
       dozivjeti: [
-        { ime: "Salzburške svečane igre", opis: "Jedan od najuglednijih festivala opere, glazbe i kazališta održava se od 1920. u srpnju i kolovozu. Na trgu pred katedralom svake se godine izvodi drama Jedermann, o bogatašu kojeg usred gozbe pozove smrt.", link: "https://www.salzburgerfestspiele.at/en/" },
-        { ime: "Posjet Mozartovim kućama", opis: "Zaklada Mozarteum vodi i rodnu kuću i stan na trgu Makartplatz, u koji se obitelj preselila 1773., a često priređuje i koncerte na izvornim glazbalima.", link: "https://mozarteum.at/en/mozart-museums/mozarts-birthplace" },
-        { ime: "Šetnja brdom Mönchsberg", opis: "Šumovitim hrptom iznad grada hoda se od tvrđave do Muzeja moderne umjetnosti, a s vidikovaca se krovovi i kupole vide kao na dlanu." }
+        { ime: "The Salzburg Festival", opis: "One of the most prestigious festivals of opera, music and theater has been held every July and August since 1920. Each year the play Jedermann is performed on the square in front of the cathedral, the story of a rich man who is summoned by Death in the middle of a banquet.", link: "https://www.salzburgerfestspiele.at/en/" },
+        { ime: "A visit to the Mozart houses", opis: "The Mozarteum Foundation runs both the birthplace and the apartment on Makartplatz, where the family moved in 1773, and it often puts on concerts on period instruments as well.", link: "https://mozarteum.at/en/mozart-museums/mozarts-birthplace" },
+        { ime: "A walk over the Mönchsberg", opis: "You can walk along the wooded ridge above the city from the fortress to the Museum of Modern Art, and from the viewpoints the rooftops and domes are laid out before you." }
       ],
       agencije: [
-        { ime: "Tourismus Salzburg", opis: "Službena turistička zajednica grada, s karticom Salzburg Card, koja uključuje tvrđavu, muzeje i javni prijevoz.", link: "https://www.salzburg.info/en" }
+        { ime: "Tourismus Salzburg", opis: "The city's official tourist board, with the Salzburg Card, which covers the fortress, museums and public transportation.", link: "https://www.salzburg.info/en" }
       ],
-      kada: "Svibanj, lipanj i rujan mirniji su od festivalskog ljeta. Salzburg je poznat po sitnoj kiši, pa uvijek ponesite kišobran."
+      kada: "May, June and September are quieter than the festival summer. Salzburg is known for its fine drizzle, so always bring an umbrella."
     },
     {
       id: "hallstatt",
       ime: "Hallstatt",
       vrsta: "gradić",
-      sazetak: "Mjestašce stisnuto između jezera i planine, po kojem je cijelo jedno razdoblje europske prapovijesti dobilo ime.",
+      sazetak: "A tiny village squeezed between a lake and a mountain, which gave its name to an entire period of European prehistory.",
       prica: [
-        "U brdu iznad Hallstatta sol se kopa već oko sedam tisuća godina. Kada je upravitelj rudnika Johann Georg Ramsauer 1846. počeo iskapati prapovijesno groblje s tisuću bogatih grobova, starije željezno doba, od oko 800. do 450. godine prije Krista, nazvano je halštatskom kulturom. Do kraja 19. stoljeća u mjesto se dolazilo samo čamcem ili uskim stazama, a danas je, zajedno s gorjem Dachstein, na UNESCO-ovu popisu."
+        "Salt has been mined in the mountain above Hallstatt for around seven thousand years. When the mine manager Johann Georg Ramsauer began excavating a prehistoric cemetery of a thousand rich graves in 1846, the Early Iron Age, from around 800 to 450 BC, came to be called the Hallstatt culture. Until the end of the 19th century you could reach the village only by boat or along narrow paths, and today it is on the UNESCO list together with the Dachstein mountains."
       ],
       vidjeti: [
-        { ime: "Rudnik soli Salzwelten", opis: "Uspinjača vodi do visoke doline u kojoj je ulaz u najstariji rudnik soli na svijetu. Rudarskim toboganima spuštate se u dubinu, gdje su pronađene drvene stube stare više od tri tisuće godina, najstarije sačuvane u Europi." },
-        { ime: "Kosturnica", opis: "U kapeli sv. Mihaela složeno je oko 1200 lubanja, od kojih je više od šesto oslikano vijencima, ružama i imenima pokojnika. Groblje je bilo premalo, pa su se kosti nakon desetak godina vadile da bi se oslobodilo mjesto. Posljednja lubanja dodana je 1995." },
-        { ime: "Vidikovac Skywalk", opis: "Platforma strši iznad ponora 350 metara nad krovovima mjesta, a s nje se vide jezero i planine. Do nje se stiže istom uspinjačom kojom se ide u rudnik." },
-        { ime: "Trg Marktplatz", opis: "Mali trg sa zdencem okružen je šarenim kućama, obnovljenima nakon požara 1750. Mjesto je toliko skučeno da se povorka za Tijelovo ovdje tradicionalno održava na čamcima po jezeru." },
-        { ime: "Ledene špilje Dachsteina", opis: "U susjednom Obertraunu žičara vodi do špilja s ledenim stupovima i zavjesama te do vidikovca 5 Fingers, čijih pet metalnih prstiju strši nad provalijom." }
+        { ime: "The Salzwelten salt mine", opis: "A funicular takes you up to a high valley where you find the entrance to the oldest salt mine in the world. You slide down miners' slides into the depths, where a wooden staircase more than three thousand years old was discovered, the oldest preserved in Europe." },
+        { ime: "The Bone House", opis: "About 1,200 skulls are stacked in St. Michael's Chapel, and more than six hundred of them are painted with wreaths, roses and the names of the dead. The cemetery was too small, so after ten years or so the bones were dug up to make room. The last skull was added in 1995." },
+        { ime: "The Skywalk viewpoint", opis: "The platform juts out over the drop 350 meters above the rooftops of the village, with views of the lake and the mountains. You reach it on the same funicular that goes to the mine." },
+        { ime: "Marktplatz", opis: "The small square with its fountain is surrounded by colorful houses, rebuilt after the fire of 1750. The village is so cramped that the Corpus Christi procession is traditionally held here in boats on the lake." },
+        { ime: "The Dachstein ice caves", opis: "In neighboring Obertraun a cable car leads to caves with pillars and curtains of ice, and to the 5 Fingers viewpoint, whose five metal fingers stick out over the abyss." }
       ],
       jesti: [
-        { ime: "Reinanke", opis: "Ozimica iz Halštatskog jezera, pečena na maslacu ili dimljena, poslužuje se u gostionicama uz vodu." },
-        { ime: "Holzknechtnocken", opis: "Drvosječki njoki, pečeni na masti sa sirom i lukom, staro su jelo radnika iz šuma Salzkammerguta." }
+        { ime: "Reinanke", opis: "Whitefish from Lake Hallstatt, pan-fried in butter or smoked, served in the inns by the water." },
+        { ime: "Holzknechtnocken", opis: "Woodcutters' dumplings, fried in lard with cheese and onions, are an old dish of the forest workers of the Salzkammergut." }
       ],
       dozivjeti: [
-        { ime: "Obilazak rudnika soli", opis: "Obilazak s vodičem uključuje vožnju rudarskim vlakićem i spust niz drvene tobogane. Ponesite topliju odjeću, jer je u rudniku cijele godine oko osam stupnjeva.", link: "https://www.salzwelten.at/en/hallstatt" },
-        { ime: "Dolazak brodom", opis: "Ako dolazite vlakom, s postaje na suprotnoj obali do mjesta vozi brodić, pa se Hallstatt pred vama otvara baš kao na razglednici." }
+        { ime: "A tour of the salt mine", opis: "The guided tour includes a ride on the miners' train and a descent down the wooden slides. Bring warmer clothes, because it is around eight degrees Celsius in the mine all year round.", link: "https://www.salzwelten.at/en/hallstatt" },
+        { ime: "Arriving by boat", opis: "If you come by train, a small boat runs from the station on the opposite shore to the village, so Hallstatt opens up in front of you just as it does on the postcards." }
       ],
       agencije: [
-        { ime: "Turistička regija Dachstein Salzkammergut", opis: "Službena turistička stranica Hallstatta i okolnih mjesta, s uputama o dolasku, parkiranju i izletima.", link: "https://www.hallstatt.net/home-en-US/" }
+        { ime: "Dachstein Salzkammergut tourism region", opis: "The official tourism website for Hallstatt and the surrounding villages, with directions on getting there, parking and excursions.", link: "https://www.hallstatt.net/home-en-US/" }
       ],
-      kada: "Mjesto je preplavljeno dnevnim izletnicima, pa prespavajte ili dođite prije devet ujutro. Najmirnije je u svibnju i listopadu."
+      kada: "The village is flooded with day-trippers, so stay overnight or arrive before nine in the morning. It is at its quietest in May and October."
     },
     {
       id: "innsbruck",
       ime: "Innsbruck",
       vrsta: "grad",
-      sazetak: "Glavni grad Tirola, u kojem se iz gotičke uličice žičarom za dvadesetak minuta stiže među vrhove više od dvije tisuće metara.",
+      sazetak: "The capital of Tyrol, where a cable car takes you from a Gothic lane to peaks more than two thousand meters high in about twenty minutes.",
       prica: [
-        "Ime grada znači „most na rijeci Inn“, a nastao je u 12. stoljeću na putu preko prijevoja Brenner prema Italiji. Car Maksimilijan I. oko 1500. učinio ga je jednom od prijestolnica svojega carstva, i iz toga doba potječu najvažniji spomenici. Grad je dvaput, 1964. i 1976., bio domaćin Zimskih olimpijskih igara."
+        "The name of the city means “bridge over the river Inn”, and it grew up in the 12th century on the route over the Brenner Pass to Italy. Around 1500 Emperor Maximilian I made it one of the capitals of his empire, and its most important monuments date from that time. The city has hosted the Winter Olympics twice, in 1964 and 1976."
       ],
       vidjeti: [
-        { ime: "Zlatni krov", opis: "Raskošni erker s 2657 pozlaćenih bakrenih pločica dao je od 1497. do 1500. sagraditi car Maksimilijan I. da bi s njega gledao turnire na trgu. Na reljefima se car prikazao s obje svoje supruge, a oko njih plešu akrobati u izvijenim pozama." },
-        { ime: "Dvorska crkva", opis: "Crkva je sagrađena za grobnicu Maksimilijana I., oko koje stražari 28 brončanih figura većih od čovjeka, a domaći ih zovu „crnim ljudima“. Među njima je i legendarni kralj Artur, izliven prema Dürerovu crtežu. Sarkofag je, međutim, prazan, jer je car pokopan u Bečkom Novom Mjestu." },
-        { ime: "Dvorac Ambras", opis: "Nadvojvoda Ferdinand II. uredio je dvorac za svoju suprugu Philippine Welser, građanku s kojom se tajno vjenčao. Njegov kabinet čudesa, sa zbirkom oklopa, rijetkosti i portretima neobičnih ljudi, smatra se jednim od najstarijih muzeja na svijetu." },
-        { ime: "Skakaonica Bergisel", opis: "Na brdu na kojem su tirolski seljaci pod vodstvom Andreasa Hofera 1809. pobijedili Napoleonove saveznike danas stoji skakaonica arhitektice Zahe Hadid iz 2002. Skakači s vrha zaleta gledaju ravno na gradsko groblje podno brda." },
-        { ime: "Ulica Marije Terezije", opis: "Glavna gradska ulica gleda ravno na stjenoviti zid gorja Nordkette. Stup sv. Ane u sredini podignut je u spomen na dan 1703. kada su se bavarske trupe povukle iz Tirola." }
+        { ime: "The Golden Roof", opis: "Emperor Maximilian I had this lavish oriel with its 2,657 gilded copper tiles built between 1497 and 1500 so that he could watch tournaments on the square from it. On the reliefs the emperor had himself shown with both of his wives, while acrobats dance around them in twisted poses." },
+        { ime: "The Court Church", opis: "The church was built to house the tomb of Maximilian I, around which 28 larger-than-life bronze figures stand guard, known to the locals as the “black men”. Among them is the legendary King Arthur, cast from a drawing by Dürer. The sarcophagus is empty, however, because the emperor is buried in Wiener Neustadt." },
+        { ime: "Ambras Castle", opis: "Archduke Ferdinand II fitted out the castle for his wife Philippine Welser, a commoner whom he had married in secret. His cabinet of curiosities, with its collection of armor, rarities and portraits of unusual people, is considered one of the oldest museums in the world." },
+        { ime: "The Bergisel ski jump", opis: "On the hill where Tyrolean peasants led by Andreas Hofer defeated Napoleon's allies in 1809, there now stands a ski jump built in 2002 by the architect Zaha Hadid. From the top of the in-run, the jumpers look straight down at the city cemetery at the foot of the hill." },
+        { ime: "Maria-Theresien-Strasse", opis: "The city's main street looks straight at the rocky wall of the Nordkette range. St. Anne's Column in the middle was raised in memory of the day in 1703 when Bavarian troops withdrew from Tyrol." }
       ],
       jesti: [
-        { ime: "Tiroler Gröstl", opis: "Pržen krumpir s govedinom ili slaninom i lukom, s pečenim jajetom na vrhu, poslužen u željeznoj tavi." },
-        { ime: "Kaspressknödel", opis: "Plosnate okruglice od kruha i planinskog sira, pržene i poslužene u bistroj goveđoj juhi ili sa salatom." },
-        { ime: "Kiachl", opis: "Prženo dizano tijesto s udubinom u sredini, koje se na sajmovima jede sa slatkim pekmezom od brusnica ili s kiselim kupusom." }
+        { ime: "Tiroler Gröstl", opis: "Fried potatoes with beef or bacon and onions, topped with a fried egg and served in an iron skillet." },
+        { ime: "Kaspressknödel", opis: "Flat dumplings of bread and mountain cheese, fried and served in a clear beef broth or with salad." },
+        { ime: "Kiachl", opis: "Fried yeast dough with a hollow in the middle, eaten at fairs with sweet cranberry jam or with sauerkraut." }
       ],
       dozivjeti: [
-        { ime: "Žičarom na Nordkette", opis: "Iz središta grada uspinjača s postajama Zahe Hadid, nalik komadima leda, vodi do četvrti Hungerburg, a zatim dvije žičare do vrha Hafelekar, na više od 2200 metara. S jedne strane vidi se grad, a s druge divljina parka Karwendel.", link: "https://nordkette.com/en/" },
-        { ime: "Uspon na Gradski toranj", opis: "Sa stražarskog tornja iz 15. stoljeća, na koji vodi 133 stube, najbolje se vide Zlatni krov i krovovi staroga grada." }
+        { ime: "By cable car up the Nordkette", opis: "From the city center a funicular with stations by Zaha Hadid, shaped like pieces of ice, runs up to the Hungerburg district, and from there two cable cars continue to the Hafelekar summit at more than 2,200 meters. On one side you see the city, and on the other the wilderness of the Karwendel park.", link: "https://nordkette.com/en/" },
+        { ime: "Climbing the City Tower", opis: "The 15th-century watchtower, reached by 133 steps, gives the best view of the Golden Roof and the rooftops of the old town." }
       ],
       agencije: [
-        { ime: "Innsbruck Tourismus", opis: "Službena turistička zajednica grada i okolice, s karticom Innsbruck Card, koja uključuje muzeje, javni prijevoz i žičare.", link: "https://www.innsbruck.info/en/" }
+        { ime: "Innsbruck Tourismus", opis: "The official tourist board of the city and its surroundings, with the Innsbruck Card, which covers museums, public transportation and cable cars.", link: "https://www.innsbruck.info/en/" }
       ],
-      kada: "Od lipnja do rujna za planinarenje, a u prosincu zbog adventskog sajma pred Zlatnim krovom. Na Nordkette krenite ujutro, dok se vrhovi još nisu zavili u oblake."
+      kada: "From June to September for hiking, and in December for the Advent market in front of the Golden Roof. Head up the Nordkette in the morning, before the peaks wrap themselves in cloud."
     },
     {
       id: "graz",
       ime: "Graz",
       vrsta: "grad",
-      sazetak: "Opušteni glavni grad Štajerske, s crvenim krovovima, renesansnim dvorištima i povijesnom vezom s Hrvatskom na svakom koraku.",
+      sazetak: "The laid-back capital of Styria, with red rooftops, Renaissance courtyards and a historical link with Croatia at every turn.",
       prica: [
-        "Ime Graza dolazi od slavenske riječi gradec, „mali grad“, po utvrdi na brdu Schlossberg. Od 1564. bio je prijestolnica Unutarnje Austrije, a iz njega se od 1578. upravljalo obranom od Osmanlija i Vojnom krajinom na hrvatskom tlu. Odavde je nadvojvoda Karlo II. 1579. dao sagraditi Karlovac, a ovdje je od 1875. do 1878. na tehničkoj visokoj školi studirao Nikola Tesla, kao stipendist uprave Vojne krajine.",
-        "Stara gradska jezgra je od 1999. na UNESCO-ovu popisu, a kada je Graz 2003. bio Europska prijestolnica kulture, dobio je dvije hrabre moderne građevine uz rijeku Muru."
+        "The name Graz comes from the Slavic word gradec, “little castle”, after the stronghold on the Schlossberg hill. From 1564 it was the capital of Inner Austria, and from 1578 it was the place from which the defense against the Ottomans and the Military Frontier on Croatian soil were administered. It was from here that Archduke Charles II had Karlovac built in 1579, and it was here that Nikola Tesla studied at the technical college from 1875 to 1878, on a scholarship from the Military Frontier administration.",
+        "The old town has been on the UNESCO list since 1999, and when Graz was the European Capital of Culture in 2003, it gained two bold modern structures by the river Mur."
       ],
       vidjeti: [
-        { ime: "Schlossberg i Toranj sa satom", opis: "Napoleon je 1809. naredio da se tvrđava sruši, a građani su platili otkupninu da bi spasili toranj i zvonik. Na satu su kazaljke zamijenjene: velika pokazuje sate, da bi se vrijeme vidjelo izdaleka, a manja je za minute dodana naknadno." },
-        { ime: "Zemaljska oružarnica", opis: "Najveća sačuvana povijesna oružarnica na svijetu sagrađena je od 1642. do 1645. i čuva oko 32 000 komada oružja i oklopa. Odavde se opskrbljivala vojska na granici s Osmanskim Carstvom, pa su mnoge od tih pušaka i kaciga bile namijenjene utvrdama u Hrvatskoj i Slavoniji. Sve stoji na drvenim policama, onako kako je ostavljeno." },
-        { ime: "Landhaus", opis: "Sjedište štajerskih staleža ima dvorište s tri kata arkada, djelo talijanskog graditelja iz 16. stoljeća, koje izgleda kao da je preneseno iz Lombardije. Ljeti se u njemu održavaju koncerti, a u adventu jaslice isklesane od leda." },
-        { ime: "Dvostruko spiralno stubište", opis: "U gradskom dvorcu Burg dva se kamena stubišta iz 1499. razdvajaju i ponovno spajaju na svakom katu. Zovu ga i „stubištem pomirenja“, jer se oni koji krenu različitim putovima uvijek opet sretnu." },
-        { ime: "Kunsthaus i Murinsel", opis: "Muzej suvremene umjetnosti iz 2003. modra je zaobljena građevina koju su sami arhitekti nazvali „prijateljskim izvanzemaljcem“. Malo uzvodno u Muri pluta čelična školjka s kafićem i malom pozornicom, povezana mostićima s obje obale." },
-        { ime: "Dvorac Eggenberg", opis: "Barokni dvorac na rubu grada zamišljen je kao kalendar: ima 365 vanjskih prozora, 31 sobu na svakom katu, 24 svečane sobe s 52 vrata i četiri ugaona tornja. Po parku slobodno šeću paunovi." }
+        { ime: "The Schlossberg and the Clock Tower", opis: "In 1809 Napoleon ordered the fortress to be demolished, and the townspeople paid a ransom to save the tower and the belfry. The hands on the clock are swapped: the big one shows the hours, so that the time could be read from far away, and the smaller one for the minutes was added later." },
+        { ime: "The Styrian Armoury", opis: "The largest surviving historic armory in the world was built between 1642 and 1645 and holds around 32,000 pieces of weaponry and armor. The army on the border with the Ottoman Empire was supplied from here, so many of these guns and helmets were destined for fortresses in Croatia and Slavonia. Everything stands on wooden racks, just as it was left." },
+        { ime: "Landhaus", opis: "The seat of the Styrian estates has a courtyard with three floors of arcades, the work of a 16th-century Italian builder, which looks as if it had been carried over from Lombardy. Concerts are held in it in summer, and during Advent it holds a nativity scene carved from ice." },
+        { ime: "The double spiral staircase", opis: "In the Burg, the city castle, two stone staircases from 1499 part and come together again on every floor. It is also called the “staircase of reconciliation”, because those who set off on different paths always meet again." },
+        { ime: "Kunsthaus and Murinsel", opis: "The museum of contemporary art from 2003 is a blue, rounded structure that the architects themselves called a “friendly alien”. A little way upstream, a steel shell with a café and a small stage floats in the Mur, linked to both banks by footbridges." },
+        { ime: "Eggenberg Palace", opis: "The Baroque palace on the edge of the city was conceived as a calendar: it has 365 exterior windows, 31 rooms on each floor, 24 state rooms with 52 doors and four corner towers. Peacocks roam freely in the park." }
       ],
       jesti: [
-        { ime: "Salata s bučinim uljem", opis: "Salata od velikog šarenog graha Käferbohnen, luka i bučina ulja jede se kao predjelo u svakoj štajerskoj gostionici." },
-        { ime: "Steirisches Backhendl", opis: "Pohana piletina, hrskava i sočna, poslužena na salati prelivenoj bučinim uljem." },
-        { ime: "Schilcher", opis: "Oštro ružičasto vino od sorte blauer wildbacher, koje raste samo u zapadnoj Štajerskoj." }
+        { ime: "Salad with pumpkin seed oil", opis: "A salad of the large speckled beans called Käferbohnen, onions and pumpkin seed oil is eaten as a starter in every Styrian tavern." },
+        { ime: "Steirisches Backhendl", opis: "Breaded fried chicken, crisp and juicy, served on a salad dressed with pumpkin seed oil." },
+        { ime: "Schilcher", opis: "A sharp rosé wine made from the Blauer Wildbacher grape, which grows only in western Styria." }
       ],
       dozivjeti: [
-        { ime: "Zemaljska oružarnica", opis: "Četiri kata oklopa, kopalja i mušketa najbolje je vidjeti s vodičem, koji će vam pokazati kako se oklop nosio i koliko je bio težak.", link: "https://www.museum-joanneum.at/en/styrian-armoury" },
-        { ime: "Uspon na Schlossberg", opis: "Na brdo vodi 260 stuba uklesanih u stijenu, a tko ne želi hodati, može uspinjačom ili dizalom u unutrašnjosti brda. Na vrhu su kafići i pogled na crvene krovove." },
-        { ime: "Seljačka tržnica na trgu Kaiser-Josef-Platz", opis: "Svakog jutra osim nedjelje seljaci iz okolice prodaju bučino ulje, jabuke, hren i cvijeće, pa je to najbolje mjesto za kupnju pravog štajerskog ulja." }
+        { ime: "The Styrian Armoury", opis: "The four floors of armor, pikes and muskets are best seen with a guide, who will show you how armor was worn and how heavy it was.", link: "https://www.museum-joanneum.at/en/styrian-armoury" },
+        { ime: "Climbing the Schlossberg", opis: "A flight of 260 steps cut into the rock leads up the hill, and anyone who would rather not walk can take the funicular or the elevator inside the hill. At the top there are cafés and a view over the red rooftops." },
+        { ime: "The farmers' market on Kaiser-Josef-Platz", opis: "Every morning except Sunday, farmers from the surrounding countryside sell pumpkin seed oil, apples, horseradish and flowers, which makes it the best place to buy real Styrian oil." }
       ],
       agencije: [
-        { ime: "Graz Tourismus", opis: "Službena turistička zajednica grada, s uredom u Herrengasse i redovitim vođenim šetnjama starim gradom.", link: "https://www.graztourismus.at/en" }
+        { ime: "Graz Tourismus", opis: "The city's official tourist board, with an office on Herrengasse and regular guided walks through the old town.", link: "https://www.graztourismus.at/en" }
       ],
-      kada: "Od travnja do listopada, a rujan je najljepši zbog berbe na štajerskim vinskim cestama južno od grada. Od Zagreba je udaljen manje od dva sata vožnje."
+      kada: "From April to October, and September is the loveliest month because of the grape harvest on the Styrian wine roads south of the city. It is less than a two-hour drive from Zagreb."
     },
     {
       id: "wachau",
       ime: "Wachau",
       vrsta: "regija",
-      sazetak: "Dolina Dunava između Melka i Kremsa, s terasastim vinogradima, voćnjacima marelica i samostanom koji sja nad rijekom.",
+      sazetak: "The Danube valley between Melk and Krems, with terraced vineyards, apricot orchards and an abbey that gleams above the river.",
       prica: [
-        "Na tridesetak kilometara Dunav se probija između strmih brda, na kojima su još u srednjem vijeku redovnici podigli suhozidne terase za vinovu lozu. Uz rijeku su nanizani gradići, ruševine dvoraca i dva velika samostana, a krajolik je 2000. upisan na UNESCO-ov popis. Ljudi ovdje žive od pamtivijeka, što dokazuje Vilendorfska Venera, kipić star oko 29 500 godina, pronađen 1908. u selu Willendorf."
+        "For about thirty kilometers the Danube forces its way between steep hills, on which monks built dry-stone terraces for vines as far back as the Middle Ages. Little towns, castle ruins and two great abbeys are strung along the river, and the landscape was added to the UNESCO list in 2000. People have lived here since time immemorial, as shown by the Venus of Willendorf, a figurine around 29,500 years old that was found in the village of Willendorf in 1908."
       ],
       vidjeti: [
-        { ime: "Samostan Melk", opis: "Benediktinski samostan na stijeni iznad Dunava sagradio je od 1702. do 1736. graditelj Jakob Prandtauer. U knjižnici s oko sto tisuća svezaka pogledajte strop, a u crkvi pozlaćenu unutrašnjost koja kao da gori. Umberto Eco je po Melku nazvao pripovjedača romana Ime ruže." },
-        { ime: "Dürnstein", opis: "U dvorcu iznad gradića od 1192. do 1193. bio je zatočen engleski kralj Rikard Lavljeg Srca, dok za njega nije plaćena golema otkupnina. Legenda kaže da ga je pronašao trubadur Blondel, pjevajući pod zidinama njihovu zajedničku pjesmu. Uspon do ruševine traje dvadesetak minuta." },
-        { ime: "Plavi toranj samostana Dürnstein", opis: "Plavo-bijeli barokni zvonik uz samu obalu zaštitni je znak doline. Boja je vraćena pri obnovi 1980-ih, kada su pod kasnijim premazima pronađeni tragovi izvorne." },
-        { ime: "Spitz i Brdo tisuću kablova", opis: "Vinogradarsko selo leži podno brežuljka koji u dobrim godinama, prema predaji, daje tisuću kablova vina, a kabao ima 56 litara. Skelom na uže, koju pokreće samo riječna struja, može se prijeći na drugu obalu." },
-        { ime: "Krems i Stein", opis: "Dva srasla gradića na istočnom kraju doline imaju gotičke crkve, gradska vrata Steiner Tor i ulice pune vinskih podruma. U Steinu je i niz muzeja suvremene umjetnosti i karikature." }
+        { ime: "Melk Abbey", opis: "The Benedictine abbey on a rock above the Danube was built between 1702 and 1736 by the master builder Jakob Prandtauer. In the library, with its roughly one hundred thousand volumes, look at the ceiling, and in the church at the gilded interior that seems to be on fire. Umberto Eco named the narrator of his novel The Name of the Rose after Melk." },
+        { ime: "Dürnstein", opis: "The English king Richard the Lionheart was held captive in the castle above the little town from 1192 to 1193, until a huge ransom was paid for him. Legend has it that the troubadour Blondel found him by singing the song they shared beneath the walls. The climb to the ruin takes about twenty minutes." },
+        { ime: "The blue tower of Dürnstein Abbey", opis: "The blue and white Baroque bell tower right on the riverbank is the emblem of the valley. The color was brought back during the restoration in the 1980s, when traces of the original were found beneath later coats of paint." },
+        { ime: "Spitz and the Hill of a Thousand Buckets", opis: "This winegrowing village lies at the foot of a hill that, according to tradition, yields a thousand buckets of wine in a good year, and a bucket holds 56 liters. You can cross to the other bank on a cable ferry driven by the river current alone." },
+        { ime: "Krems and Stein", opis: "The two little towns that have grown together at the eastern end of the valley have Gothic churches, the Steiner Tor town gate and streets full of wine cellars. Stein is also home to a row of museums of contemporary art and caricature." }
       ],
       jesti: [
-        { ime: "Wachauer Marille", opis: "Marelice s oznakom podrijetla dozrijevaju u srpnju, a od njih se rade okruglice Marillenknödel, pekmez, sok i rakija." },
-        { ime: "Wachauer Laberl", opis: "Okruglo, hrskavo raženo-pšenično pecivo koje je 1905. stvorila pekarnica u Dürnsteinu, a jede se uz vino i naresake." },
-        { ime: "Grüner Veltliner i rizling", opis: "Vina se ovdje dijele u tri razreda s lokalnim imenima: lagani Steinfeder, srednji Federspiel i najjači Smaragd, nazvan po zelenom gušteru koji se sunča na suhozidima." }
+        { ime: "Wachauer Marille", opis: "The apricots, which carry a designation of origin, ripen in July and are made into Marillenknödel dumplings, jam, juice and brandy." },
+        { ime: "Wachauer Laberl", opis: "A round, crusty roll of rye and wheat created in 1905 by a bakery in Dürnstein, eaten with wine and cold cuts." },
+        { ime: "Grüner Veltliner and Riesling", opis: "The wines here are divided into three classes with local names: the light Steinfeder, the medium Federspiel and the most powerful, Smaragd, named after the green lizard that suns itself on the dry-stone walls." }
       ],
       dozivjeti: [
-        { ime: "Vožnja brodom od Melka do Kremsa", opis: "Plovidba nizvodno traje manje od dva sata i prolazi pokraj svih gradića i vinograda, a može se prekinuti u Dürnsteinu ili Spitzu.", link: "https://ddsg-blue-danube.at/en/" },
-        { ime: "Posjet samostanu Melk", opis: "Samostan se razgledava samostalno ili s vodičem, a u cijenu je uključen i barokni vrt s paviljonom.", link: "https://www.stiftmelk.at/en/" },
-        { ime: "Biciklom uz Dunav", opis: "Ravna biciklistička staza prati obje obale, bicikli se iznajmljuju u svakom većem mjestu, a usput se staje u vinskim kućama Heuriger." }
+        { ime: "A boat trip from Melk to Krems", opis: "The cruise downstream takes less than two hours and passes all the little towns and vineyards, and you can break the journey in Dürnstein or Spitz.", link: "https://ddsg-blue-danube.at/en/" },
+        { ime: "A visit to Melk Abbey", opis: "You can tour the abbey on your own or with a guide, and the price also includes the Baroque garden with its pavilion.", link: "https://www.stiftmelk.at/en/" },
+        { ime: "Cycling along the Danube", opis: "A flat bike path follows both banks, bikes can be rented in every larger village, and along the way you stop at the Heuriger wine taverns." }
       ],
       agencije: [
-        { ime: "Donau Niederösterreich Tourismus", opis: "Službena turistička zajednica doline Wachau, s popisom vinara, brodskih linija i biciklističkih ruta.", link: "https://www.donau.com/en/wachau-nibelungengau-kremstal" }
+        { ime: "Donau Niederösterreich Tourismus", opis: "The official tourist board of the Wachau valley, with a list of winemakers, boat lines and cycling routes.", link: "https://www.donau.com/en/wachau-nibelungengau-kremstal" }
       ],
-      kada: "Početkom travnja cvatu marelice, u srpnju se beru, a u rujnu i listopadu traje berba grožđa. Iz Beča je do Melka sat vožnje vlakom, pa je Wachau lako obići u jednom danu."
+      kada: "The apricot trees blossom in early April, the fruit is picked in July, and the grape harvest runs through September and October. Melk is an hour by train from Vienna, so the Wachau is easy to see in a day."
     },
     {
       id: "grossglockner",
-      ime: "Grossglockner i Zell am See",
+      ime: "Grossglockner and Zell am See",
       vrsta: "priroda",
-      sazetak: "Panoramska cesta do podnožja najvišeg austrijskog vrha i jezero u kojem se ogledaju snježni vrhovi.",
+      sazetak: "A panoramic road to the foot of Austria's highest peak and a lake that mirrors the snowy summits.",
       prica: [
-        "Grossglockner je s 3798 metara najviši vrh Austrije, a prvi je put osvojen 1800. Cesta preko prijevoja otvorena je 3. kolovoza 1935., a gradilo ju je više tisuća radnika u godinama velike nezaposlenosti. Pri gradnji su pronađeni rimski kipić i stari novac, što je pokazalo da se ovuda preko Alpa prelazilo još u antici. Cijelo je područje danas dio Nacionalnog parka Visoke Ture."
+        "At 3,798 meters the Grossglockner is the highest peak in Austria, and it was first climbed in 1800. The road over the pass opened on August 3, 1935, built by several thousand workers during the years of mass unemployment. A Roman statuette and old coins were found during construction, which showed that people were already crossing the Alps this way in antiquity. The whole area is now part of the Hohe Tauern National Park."
       ],
       vidjeti: [
-        { ime: "Visokoalpska cesta Grossglockner", opis: "Cesta duga 48 kilometara ima 36 zavoja i penje se iznad 2500 metara. Uz nju su poučne staze i mali muzeji, a na svakom je odmorištu ploča koja objašnjava što gledate." },
-        { ime: "Kaiser-Franz-Josefs-Höhe", opis: "Vidikovac je nazvan po caru Franji Josipu, koji je 1856. s caricom Elizabetom došao pješice pogledati ledenjak. Pod vama leži Pasterze, najdulji ledenjak Istočnih Alpa, a oznake uz stazu pokazuju koliko se povukao u posljednjih stotinjak godina. Oko parkirališta se gotovo uvijek mogu vidjeti svisci." },
-        { ime: "Edelweißspitze", opis: "Najviša točka ceste, na 2571 metar, dostupna je uskom popločenom dionicom. S vidikovca se vidi više od trideset vrhova viših od tri tisuće metara." },
-        { ime: "Zell am See", opis: "Gradić na obali jezera ima romaničku crkvu s masivnim tornjem i šetnicu oko vode. Jezero je toliko čisto da je voda pitka, a ljeti se zagrije dovoljno za kupanje." },
-        { ime: "Slapovi Krimml", opis: "Na zapadnom kraju nacionalnog parka voda se u tri stupnja ruši 380 metara, pa su to najviši slapovi u Austriji. Staza uz njih vodi kroz vodenu prašinu do nekoliko vidikovaca." }
+        { ime: "The Grossglockner High Alpine Road", opis: "The 48-kilometer road has 36 hairpin bends and climbs above 2,500 meters. Along it there are nature trails and small museums, and at every rest stop a panel explains what you are looking at." },
+        { ime: "Kaiser-Franz-Josefs-Höhe", opis: "The viewpoint is named after Emperor Franz Joseph, who came here on foot with Empress Elisabeth in 1856 to see the glacier. Below you lies the Pasterze, the longest glacier in the Eastern Alps, and markers along the trail show how far it has retreated over the past hundred years or so. Marmots can almost always be seen around the parking lot." },
+        { ime: "Edelweißspitze", opis: "The highest point on the road, at 2,571 meters, is reached by a narrow cobbled stretch. From the viewpoint you can see more than thirty peaks over three thousand meters high." },
+        { ime: "Zell am See", opis: "This little town on the lakeshore has a Romanesque church with a massive tower and a promenade around the water. The lake is so clean that the water is drinkable, and in summer it gets warm enough for swimming." },
+        { ime: "The Krimml Waterfalls", opis: "At the western end of the national park the water drops 380 meters in three stages, making these the highest waterfalls in Austria. The trail beside them leads through the spray to several viewpoints." }
       ],
       jesti: [
-        { ime: "Pinzgauer Kasnocken", opis: "Njoki s jakim planinskim sirom i prženim lukom, posluženi u željeznoj tavi iz koje svi jedu zajedno." },
-        { ime: "Germknödel", opis: "Velika okruglica od dizanog tijesta punjena pekmezom od šljiva, posuta makom i prelivena maslacem, klasik planinskih koliba." }
+        { ime: "Pinzgauer Kasnocken", opis: "Small dumplings with strong mountain cheese and fried onions, served in an iron skillet from which everyone eats together." },
+        { ime: "Germknödel", opis: "A large yeast dumpling filled with plum jam, sprinkled with poppy seeds and doused in butter, a classic of the mountain huts." }
       ],
       dozivjeti: [
-        { ime: "Vožnja panoramskom cestom", opis: "Cesta se plaća po vozilu i otvorena je otprilike od svibnja do početka studenoga, ovisno o snijegu. Krenite rano, uračunajte cijeli dan i provjerite prognozu, jer se u magli ne vidi ništa.", link: "https://www.grossglockner.at/en" },
-        { ime: "Ledenjak Kitzsteinhorn", opis: "Iz Kapruna žičare vode na vidikovac iznad tri tisuće metara, na kojem snijega ima i usred ljeta." }
+        { ime: "Driving the panoramic road", opis: "The toll is charged per vehicle, and the road is open roughly from May to early November, depending on the snow. Set out early, allow a whole day and check the forecast, because in fog you see nothing at all.", link: "https://www.grossglockner.at/en" },
+        { ime: "The Kitzsteinhorn glacier", opis: "From Kaprun, cable cars take you to a viewing platform above three thousand meters, where there is snow even in the middle of summer." }
       ],
       agencije: [
-        { ime: "Zell am See-Kaprun Tourismus", opis: "Službena turistička zajednica regije, s ljetnom karticom koja uključuje žičare i brod po jezeru.", link: "https://www.zellamsee-kaprun.com/en" },
-        { ime: "Grossglockner Hochalpenstrassen", opis: "Službena stranica panoramske ceste, s cijenama, stanjem na cesti i kamerama uživo.", link: "https://www.grossglockner.at/en" }
+        { ime: "Zell am See-Kaprun Tourismus", opis: "The official tourist board of the region, with a summer card that covers cable cars and the boat on the lake.", link: "https://www.zellamsee-kaprun.com/en" },
+        { ime: "Grossglockner Hochalpenstrassen", opis: "The official website of the panoramic road, with prices, road conditions and live webcams.", link: "https://www.grossglockner.at/en" }
       ],
-      kada: "Od sredine lipnja do rujna, kada je cesta sigurno otvorena, a livade u cvatu. Na vrhu je i ljeti hladno, pa ponesite jaknu."
+      kada: "From mid-June to September, when the road is sure to be open and the meadows are in bloom. It is cold at the top even in summer, so bring a jacket."
     },
     {
       id: "klagenfurt",
-      ime: "Klagenfurt i Wörthersee",
+      ime: "Klagenfurt and Wörthersee",
       vrsta: "grad",
-      sazetak: "Glavni grad Koruške, s renesansnim dvorištima i zmajem na trgu, uz najtoplije veliko alpsko jezero.",
+      sazetak: "The capital of Carinthia, with Renaissance courtyards and a dragon on the square, beside the warmest of the large Alpine lakes.",
       prica: [
-        "Klagenfurt je nakon velikog požara 1514. car Maksimilijan I. darovao koruškim staležima, što je bio jedinstven slučaj u carstvu. Oni su ga dali iznova sagraditi uz pomoć talijanskih graditelja, pa odatle pravilne ulice, trgovi i arkadna dvorišta. U južnoj Koruškoj živi slovenska manjina, pa su mnogi natpisi dvojezični, a grad se slovenski zove Celovec."
+        "After a great fire in 1514, Emperor Maximilian I gave Klagenfurt to the Carinthian estates, which was a unique case in the empire. They had it rebuilt from scratch with the help of Italian builders, which explains the regular streets, the squares and the arcaded courtyards. A Slovene minority lives in southern Carinthia, so many signs are bilingual, and the city's Slovene name is Celovec."
       ],
       vidjeti: [
-        { ime: "Zdenac sa zmajem", opis: "Simbol grada isklesan je krajem 16. stoljeća iz jednog bloka kamena. Glava zmaja oblikovana je prema lubanji pronađenoj 1335. u obližnjem kamenolomu, za koju se vjerovalo da je zmajeva, a poslije se pokazalo da je pripadala vunastom nosorogu. Herkul s toljagom dodan je 1636." },
-        { ime: "Landhaus i Dvorana grbova", opis: "U palači koruških staleža nalazi se dvorana čiji su zidovi prekriveni sa 665 plemićkih grbova, koje je u 18. stoljeću naslikao Josef Ferdinand Fromiller. Strop je oslikan tako da se čini kako se dvorana nastavlja u visinu." },
-        { ime: "Stari trg", opis: "Najstariji dio grada pješačka je zona s baroknim pročeljima i prolazima u dvorišta. Zavirite u svaku otvorenu vežu, jer se iza njih kriju arkade s kafićima." },
-        { ime: "Maria Wörth", opis: "Na poluotoku na južnoj obali jezera stoje dvije crkvice, od kojih manja čuva romaničke freske apostola. Prizor je jedan od najslikanijih u Koruškoj, osobito s broda." },
-        { ime: "Toranj Pyramidenkogel", opis: "Najviši drveni vidikovac na svijetu, visok 100 metara, otvoren je 2013. na brdu iznad jezera. Gore se ide dizalom ili stubama, a dolje se može i najvišim zatvorenim toboganom u Europi." }
+        { ime: "The Dragon Fountain", opis: "The symbol of the city was carved from a single block of stone in the late 16th century. The dragon's head was modeled on a skull found in a nearby quarry in 1335, which was believed to be a dragon's and later turned out to have belonged to a woolly rhinoceros. Hercules with his club was added in 1636." },
+        { ime: "The Landhaus and the Hall of Arms", opis: "The palace of the Carinthian estates contains a hall whose walls are covered with 665 noble coats of arms, painted in the 18th century by Josef Ferdinand Fromiller. The ceiling is painted so that the hall seems to continue upward." },
+        { ime: "Alter Platz", opis: "The oldest part of the city is a pedestrian zone with Baroque facades and passageways leading into courtyards. Peek into every open gateway, because arcades with cafés are hidden behind them." },
+        { ime: "Maria Wörth", opis: "Two little churches stand on a peninsula on the southern shore of the lake, and the smaller one preserves Romanesque frescoes of the apostles. It is one of the most painted views in Carinthia, especially from a boat." },
+        { ime: "The Pyramidenkogel tower", opis: "The tallest wooden observation tower in the world, 100 meters high, opened in 2013 on a hill above the lake. You go up by elevator or by the stairs, and you can come down on the highest enclosed slide in Europe." }
       ],
       jesti: [
-        { ime: "Kärntner Kasnudeln", opis: "Veliki jastučići od tijesta punjeni svježim sirom, krumpirom i mentom, preliveni maslacem. Rub se ručno nabire, a stara izreka kaže da se djevojka koja to ne zna ne može udati." },
-        { ime: "Reindling", opis: "Kolač od dizanog tijesta s cimetom, šećerom i grožđicama, pečen u okrugloj posudi, koji se jede za Uskrs i uz kavu." }
+        { ime: "Kärntner Kasnudeln", opis: "Large pasta pockets filled with curd cheese, potato and mint and drizzled with butter. The edge is crimped by hand, and an old saying has it that a girl who cannot do it cannot get married." },
+        { ime: "Reindling", opis: "A yeast cake with cinnamon, sugar and raisins, baked in a round pan and eaten at Easter and with coffee." }
       ],
       dozivjeti: [
-        { ime: "Minimundus", opis: "U parku uz jezero izloženo je više od stotinu i pedeset maketa poznatih svjetskih građevina u mjerilu 1:25, a prihod od ulaznica ide u dobrotvorne svrhe za djecu.", link: "https://www.minimundus.at/en/" },
-        { ime: "Vožnja brodom po Wörtherseeu", opis: "Linijski brodovi kruže od Klagenfurta do Veldena i pristaju u svim mjestima, pa se izlet može spojiti s kupanjem." }
+        { ime: "Minimundus", opis: "The park by the lake displays more than a hundred and fifty models of famous buildings from around the world at a scale of 1:25, and the proceeds from tickets go to children's charities.", link: "https://www.minimundus.at/en/" },
+        { ime: "A boat trip on the Wörthersee", opis: "Scheduled boats circle from Klagenfurt to Velden and call at every village, so you can combine the outing with a swim." }
       ],
       agencije: [
-        { ime: "Visit Klagenfurt", opis: "Službena turistička zajednica grada, s uredom u vijećnici na Novom trgu i vođenim šetnjama.", link: "https://www.visitklagenfurt.at/en/" }
+        { ime: "Visit Klagenfurt", opis: "The city's official tourist board, with an office in the city hall on Neuer Platz and guided walks.", link: "https://www.visitklagenfurt.at/en/" }
       ],
-      kada: "Od lipnja do rujna, kada se jezero zagrije i iznad 25 stupnjeva. Iz Zagreba i Rijeke do Klagenfurta stiže se za otprilike tri sata vožnje."
+      kada: "From June to September, when the lake warms up to more than 25 degrees Celsius. Klagenfurt is roughly a three-hour drive from Zagreb or Rijeka."
     }
   ],
   izvori: [
-    { ime: "Austria Info, Austrijska turistička zajednica", url: "https://www.austria.info/en-us/" },
+    { ime: "Austria Info, Austrian National Tourist Office", url: "https://www.austria.info/en-us/" },
     { ime: "Wien Tourismus", url: "https://www.wien.info/en" },
-    { ime: "Dvorac Schönbrunn", url: "https://www.schoenbrunn.at/en/" },
+    { ime: "Schönbrunn Palace", url: "https://www.schoenbrunn.at/en/" },
     { ime: "Tourismus Salzburg", url: "https://www.salzburg.info/en" },
     { ime: "Salzwelten Hallstatt", url: "https://www.salzwelten.at/en/hallstatt" },
-    { ime: "Innsbruck Tourismus, Zlatni krov", url: "https://www.innsbruck.info/en/sightseeing/i/golden-roof.html" },
-    { ime: "Universalmuseum Joanneum, Zemaljska oružarnica", url: "https://www.museum-joanneum.at/en/styrian-armoury" },
-    { ime: "TU Graz, Nikola Tesla i tehnika u Grazu", url: "https://www.tugraz.at/en/tu-graz/services/news-stories/tu-graz-news/singleview/article/tesla-nikola-us-und-die-technik-in-graz/" },
+    { ime: "Innsbruck Tourismus, the Golden Roof", url: "https://www.innsbruck.info/en/sightseeing/i/golden-roof.html" },
+    { ime: "Universalmuseum Joanneum, Styrian Armoury", url: "https://www.museum-joanneum.at/en/styrian-armoury" },
+    { ime: "TU Graz, Nikola Tesla and technology in Graz", url: "https://www.tugraz.at/en/tu-graz/services/news-stories/tu-graz-news/singleview/article/tesla-nikola-us-und-die-technik-in-graz/" },
     { ime: "Wien Geschichte Wiki, Krowotendörfel", url: "https://www.geschichtewiki.wien.gv.at/Krowotend%C3%B6rfel" },
     { ime: "Donau Niederösterreich, Wachau", url: "https://www.donau.com/en/wachau-nibelungengau-kremstal" },
     { ime: "Grossglockner Hochalpenstrasse", url: "https://www.grossglockner.at/en" },

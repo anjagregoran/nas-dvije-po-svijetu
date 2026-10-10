@@ -1,315 +1,315 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["irska"] = {
   id: "irska",
-  ime: "Irska",
-  regija: "Britansko otočje",
-  sazetak: "Zeleni otok na rubu Atlantika na kojem svaka večer može završiti uz violinu, priču i čašu tamnog piva u pubu.",
+  ime: "Ireland",
+  regija: "British Isles",
+  sazetak: "A green island on the edge of the Atlantic where any evening can end with a fiddle, a story and a glass of dark beer in a pub.",
   uvod: [
-    "Irska je mala zemlja koja je svijetu dala nerazmjerno mnogo glazbe, književnosti i iseljenika. Do nje nikada nisu stigle rimske legije, pa se keltska kultura ovdje razvijala po svome, a nakon dolaska kršćanstva u 5. stoljeću irski su samostani postali rasadnici pismenosti u kojima su nastali rukopisi poput Knjige iz Kellsa. Zatim su došli Vikinzi, koji su osnovali Dublin, pa Anglo-Normani, a s njima i osam stoljeća engleske vlasti.",
-    "Najdublji trag ostavila je Velika glad od 1845. do 1852., kada je bolest krumpira uništila hranu siromašnih, pa je oko milijun ljudi umrlo, a još više ih se iselilo, najviše u SAD. Otok se od toga brojem stanovnika nije oporavio do danas. Neovisnost je izborena 1922., nakon Uskrsnog ustanka 1916. i rata koji je uslijedio, dok je šest sjevernih grofovija ostalo u Ujedinjenom Kraljevstvu.",
-    "Današnja Irska moderna je i imućna europska zemlja, ali ono zbog čega se putuje ovamo ostalo je isto: krajolik zapadne obale koji se mijenja sa svakim oblakom, mali gradovi šarenih pročelja i ljudi koji će s vama zapodjenuti razgovor prije nego što stignete sjesti."
+    "Ireland is a small country that has given the world a disproportionate amount of music, literature and emigrants. The Roman legions never reached it, so Celtic culture developed here in its own way, and after Christianity arrived in the 5th century, Irish monasteries became seedbeds of literacy where manuscripts such as the Book of Kells were created. Then came the Vikings, who founded Dublin, followed by the Anglo-Normans, and with them eight centuries of English rule.",
+    "The deepest mark was left by the Great Famine of 1845 to 1852, when potato blight destroyed the food of the poor, so that about a million people died and even more emigrated, most of them to the USA. The island's population has not recovered from it to this day. Independence was won in 1922, after the Easter Rising of 1916 and the war that followed, while six northern counties remained in the United Kingdom.",
+    "Today's Ireland is a modern and prosperous European country, but the reasons to travel here have stayed the same: the landscape of the west coast that changes with every cloud, small towns with colorful shopfronts, and people who will strike up a conversation with you before you have even managed to sit down."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od svibnja do rujna dani su najdulji i najtopliji, a svibanj i lipanj u prosjeku su najsuši. Kiša je moguća svakog dana u godini, ali rijetko traje dugo, pa se treba odijevati slojevito i ne odgađati izlete zbog oblaka." },
-    { k: "Ulazak", v: "Irska je članica Europske unije, pa hrvatskim državljanima treba samo važeća osobna iskaznica ili putovnica. Nije u schengenskom prostoru, zbog čega se dokumenti na granici pregledavaju. Ako planirate prijeći u Sjevernu Irsku, vrijede pravila Ujedinjenog Kraljevstva." },
-    { k: "Valuta", v: "Euro. Karticom se plaća gotovo svugdje, a malo gotovine dobro dođe na seoskim tržnicama i za ulične svirače." },
-    { k: "Kretanje", v: "Vlakovi i autobusi dobro povezuju Dublin s većim gradovima, no zapadna obala najbolje se obilazi automobilom ili jednodnevnim izletima iz Galwaya i Killarneyja. Vozi se lijevom stranom, ceste na zapadu vrlo su uske, a utičnice su tipa G, kao u Britaniji." },
-    { k: "Napojnica", v: "U restoranu je uobičajeno ostaviti 10 do 15 posto ako naknada za uslugu nije već uračunata. U pubu se piće plaća za šankom i napojnica se ne očekuje." }
+    { k: "When to go", v: "From May to September the days are longest and warmest, and May and June are on average the driest. Rain is possible on any day of the year but rarely lasts long, so dress in layers and do not put off outings because of clouds." },
+    { k: "Entry", v: "Ireland is a member of the European Union, so Croatian citizens need only a valid ID card or passport. It is not in the Schengen area, which is why documents are checked at the border. If you plan to cross into Northern Ireland, United Kingdom rules apply." },
+    { k: "Currency", v: "The euro. You can pay by card almost everywhere, and a little cash comes in handy at village markets and for street musicians." },
+    { k: "Getting around", v: "Trains and buses connect Dublin well with the larger towns, but the west coast is best explored by car or on day trips from Galway and Killarney. Driving is on the left, the roads in the west are very narrow, and the sockets are type G, as in Britain." },
+    { k: "Tipping", v: "In a restaurant it is customary to leave 10 to 15 percent if a service charge is not already included. In a pub you pay for drinks at the bar and a tip is not expected." }
   ],
   hrana: [
-    { ime: "Irish stew", opis: "Gusto varivo od janjetine ili ovčetine, krumpira, luka i mrkve.", prica: "Nastalo je kao seljačko jelo od onoga čega je bilo, a ovce su se držale ponajprije radi vune i mlijeka, pa je u lonac odlazila starija životinja. Puristi tvrde da pravom varivu ne treba ništa osim mesa, krumpira, luka i vode. Jede se žlicom, uz krišku kruha sa sodom." },
-    { ime: "Soda bread", opis: "Kruh koji se umjesto kvascem diže sodom bikarbonom i mlaćenicom, pa se zamijesi i ispeče za manje od sat vremena.", prica: "Proširio se u 19. stoljeću jer mekano irsko brašno slabo radi s kvascem. Križ urezan na vrhu pomaže da se kruh ravnomjerno ispeče, a predaja kaže i da se njime puštaju vile iz tijesta. Svaka kuća ima svoj recept, a tamna inačica od integralnog brašna zove se brown bread." },
-    { ime: "Boxty", opis: "Palačinka ili pogačica od naribanog sirovog krumpira pomiješanog s pireom, brašnom i mlaćenicom.", prica: "Potječe sa sjeverozapada zemlje, a stara rugalica kaže da djevojka koja ne zna ispeći boxty neće naći muža. Danas se u restoranima poslužuje poput tortilje, punjena mesom ili dimljenim lososom." },
-    { ime: "Colcannon", opis: "Pire krumpir umiješan s keljom ili kupusom, mladim lukom i mnogo maslaca.", prica: "Tradicionalno se jede na Noć vještica, kada su se u njega skrivali prsten, novčić i naprstak. Tko bi našao prsten, čekalo ga je vjenčanje, a tko naprstak, samački život. U sredini se napravi udubina za rastopljeni maslac u koji se umače svaki zalogaj." },
-    { ime: "Full Irish breakfast", opis: "Doručak od slanine, kobasica, jaja, rajčice te crnog i bijelog pudinga, uz kruh sa sodom.", prica: "Crni puding je krvavica sa zobi, a bijeli se radi bez krvi, a najpoznatiji dolaze iz gradića Clonakiltyja u grofoviji Cork. Uz doručak se pije jak crni čaj s mlijekom, kojeg Irci po glavi stanovnika piju među najviše na svijetu." },
-    { ime: "Kamenice i seafood chowder", opis: "Svježe kamenice sa zapadne obale i gusta kremasta juha od ribe, školjaka i krumpira.", prica: "Kamenice iz zaljeva Galway i Clew jedu se sirove, s kriškom limuna i tamnim kruhom, a u Irskoj se uz njih tradicionalno pije stout. Chowder svaki pub kuha na svoj način, pa ga vrijedi naručiti više puta i usporediti." },
-    { ime: "Guinness", opis: "Tamno pivo vrste stout s gustom kremastom pjenom, koje se u Dublinu kuha od 18. stoljeća.", prica: "Arthur Guinness potpisao je 1759. ugovor o najmu pivovare na 9000 godina. Čaša se toči u dva navrata, uz stanku od oko dvije minute da se pjena slegne, i požurivati konobara smatra se nepristojnim. Boja, pogledate li je prema svjetlu, zapravo je tamnocrvena." },
-    { ime: "Irski viski", opis: "Žestoko piće od ječma, koje se ovdje piše whiskey, najčešće se destilira tri puta, pa je mekše od škotskog.", prica: "Riječ viski potječe od irskog uisce beatha, što znači voda života. U 19. stoljeću irski je viski bio najprodavaniji na svijetu, a zatim je gotovo nestao zbog prohibicije u SAD-u i trgovinskog rata s Britanijom. Posljednjih godina otvoreni su deseci novih destilerija." },
-    { ime: "Irish coffee", opis: "Vruća crna kava s viskijem i smeđim šećerom, na kojoj pluta sloj lagano tučenog vrhnja.", prica: "Smislio ju je 1943. kuhar Joe Sheridan u zračnoj luci Foynes na rijeci Shannon kako bi ugrijao promrzle putnike hidroaviona koji se zbog oluje vratio. Vrhnje se ne miješa, već se kava pije kroz njega." },
-    { ime: "Barmbrack", opis: "Slatki kruh s grožđicama i suhim voćem namočenim u čaju.", prica: "Jede se narezan i namazan maslacem uz čaj, a za Noć vještica u njega se zapeče prsten koji onome tko ga nađe proriče skoru udaju ili ženidbu." }
+    { ime: "Irish stew", opis: "A thick stew of lamb or mutton, potatoes, onions and carrots.", prica: "It began as a peasant dish made from whatever was on hand, and since sheep were kept mainly for wool and milk, it was an older animal that went into the pot. Purists insist that a proper stew needs nothing but meat, potatoes, onions and water. It is eaten with a spoon, alongside a slice of soda bread." },
+    { ime: "Soda bread", opis: "A bread raised with baking soda and buttermilk instead of yeast, so it is mixed and baked in under an hour.", prica: "It spread in the 19th century because soft Irish flour does not work well with yeast. The cross cut into the top helps the loaf bake evenly, and tradition also says it lets the fairies out of the dough. Every household has its own recipe, and the dark version made with wholemeal flour is called brown bread." },
+    { ime: "Boxty", opis: "A pancake or griddle cake of grated raw potato mixed with mashed potato, flour and buttermilk.", prica: "It comes from the northwest of the country, and an old rhyme teases that a girl who cannot make boxty will never find a husband. Today restaurants serve it like a tortilla, filled with meat or smoked salmon." },
+    { ime: "Colcannon", opis: "Mashed potatoes mixed with kale or cabbage, scallions and plenty of butter.", prica: "It is traditionally eaten at Halloween, when a ring, a coin and a thimble used to be hidden in it. Whoever found the ring could expect a wedding, and whoever found the thimble a single life. A well is made in the middle for melted butter, and every forkful is dipped into it." },
+    { ime: "Full Irish breakfast", opis: "A breakfast of bacon, sausages, eggs, tomato and black and white pudding, with soda bread.", prica: "Black pudding is a blood sausage made with oats, white pudding is made without blood, and the best known come from the small town of Clonakilty in County Cork. Breakfast comes with strong black tea with milk, of which the Irish drink among the most per person in the world." },
+    { ime: "Oysters and seafood chowder", opis: "Fresh oysters from the west coast and a thick, creamy soup of fish, shellfish and potatoes.", prica: "Oysters from Galway Bay and Clew Bay are eaten raw, with a wedge of lemon and brown bread, and in Ireland the traditional drink to go with them is stout. Every pub makes its chowder its own way, so it is worth ordering more than once and comparing." },
+    { ime: "Guinness", opis: "A dark stout with a thick, creamy head, brewed in Dublin since the 18th century.", prica: "In 1759 Arthur Guinness signed a 9,000-year lease on the brewery. A pint is poured in two stages, with a pause of about two minutes to let the head settle, and hurrying the bartender is considered rude. The color, if you hold it up to the light, is actually dark red." },
+    { ime: "Irish whiskey", opis: "A barley spirit, spelled whiskey here, that is most often distilled three times, which makes it smoother than Scotch.", prica: "The word whiskey comes from the Irish uisce beatha, meaning water of life. In the 19th century Irish whiskey was the best-selling in the world, and then it almost vanished because of Prohibition in the USA and a trade war with Britain. In recent years dozens of new distilleries have opened." },
+    { ime: "Irish coffee", opis: "Hot black coffee with whiskey and brown sugar, with a layer of lightly whipped cream floating on top.", prica: "It was invented in 1943 by the chef Joe Sheridan at Foynes airport on the River Shannon, to warm up the frozen passengers of a flying boat that had turned back because of a storm. The cream is not stirred in, and the coffee is drunk through it." },
+    { ime: "Barmbrack", opis: "A sweet bread with raisins and dried fruit soaked in tea.", prica: "It is eaten sliced and buttered with tea, and at Halloween a ring is baked into it that foretells an early marriage for whoever finds it." }
   ],
   obicaji: [
-    { ime: "Seisiún, glazbeno okupljanje u pubu", opis: "Na sessionu svirači sjednu za stol u kutu puba i sviraju jedan drugome, a ne publici, nižući plesne napjeve na violini, fruli, harmonici, bendžu i bubnju bodhránu. Nema pozornice ni programa, a nepisano je pravilo da se tijekom spore pjesme u prostoriji utiša razgovor.", gdje: "U Dublinu u pubu The Cobblestone u četvrti Smithfield, u Galwayu u Tig Chóilíju, te gotovo svake večeri u Doolinu i Dingleu." },
-    { ime: "Irski ples", opis: "Postoji više vrsta: natjecateljski step s ukočenim gornjim dijelom tijela i brzim nogama, društveni plesovi céilí i set dancing u četvorkama te stari solo stil sean-nós. Svijet ga je upoznao 1994., kada je sedmominutna točka Riverdance izvedena u stanci Eurosonga u Dublinu.", gdje: "Céilí večeri i tečajeve organiziraju ogranci društva Comhaltas Ceoltóirí Éireann diljem zemlje, a u Traleeju djeluje Siamsa Tíre, nacionalno folklorno kazalište." },
-    { ime: "Hurling i galski nogomet", opis: "Hurling je igra stara više od dvije tisuće godina u kojoj se loptica udara drvenom palicom i leti brže od 150 kilometara na sat, a UNESCO ga je 2018. upisao na popis nematerijalne baštine. Igrači obaju sportova amateri su koji igraju isključivo za svoju grofoviju, zbog čega su utakmice stvar zavičajnog ponosa.", gdje: "Na stadionu Croke Park u Dublinu, gdje se finala igraju u srpnju, i u ondašnjem muzeju Galske atletske udruge, a tijekom ljeta na igralištima u svakom mjestu." },
-    { ime: "Dan svetog Patrika", opis: "Blagdan zaštitnika Irske, 17. ožujka, obilježava se povorkama, glazbom i nošenjem djeteline. Predaja kaže da je sveti Patrik, koji je u 5. stoljeću pokrštavao Irce, na trolistu djeteline objašnjavao Sveto Trojstvo.", gdje: "Najveća povorka i višednevni festival održavaju se u Dublinu, a manje povorke u gotovo svakom gradu i selu." },
-    { ime: "Irski jezik i Gaeltacht", opis: "Irski, keltski jezik koji se na engleskom zove Irish, a ne Gaelic, prvi je službeni jezik države i uči se u svim školama. Kao svakodnevni govor živi u područjima zvanima Gaeltacht, uglavnom na zapadnoj obali, a svi prometni znakovi u zemlji dvojezični su.", gdje: "U Connemari, na Aranskim otocima i na poluotoku Dingle, gdje ćete ga čuti u trgovini i pubu." },
-    { ime: "Uilleann gajde i harfa", opis: "Irske gajde ne pušu se ustima, već se zrak tjera mijehom pod laktom, pa svirač može i pjevati, a zvuk je mekši od škotskih. Harfa je državni grb, što Irsku čini jedinom zemljom čiji je simbol glazbalo. UNESCO je sviranje na gajdama zaštitio 2017., a na harfi 2019. godine.", gdje: "Na festivalu Fleadh Cheoil na hÉireann, koji se održava u kolovozu, svake godine ili dvije u drugom gradu, te na večernjim okupljanjima svirača u pubovima." },
-    { ime: "Noć vještica", opis: "Halloween potječe od keltskog blagdana Samhain, koji je označavao kraj žetve i početak tamne polovice godine, kada se vjerovalo da je granica sa svijetom mrtvih najtanja. Irski iseljenici odnijeli su običaje u SAD, gdje je izdubljenu repu zamijenila bundeva.", gdje: "Krajem listopada u Dublinu i grofoviji Meath održavaju se festivali posvećeni izvornim običajima, a u Derryju jedna od najvećih europskih proslava." }
+    { ime: "Seisiún, a music session in the pub", opis: "At a session the musicians sit down at a table in the corner of the pub and play for one another rather than for an audience, stringing together dance tunes on fiddle, whistle, accordion, banjo and the bodhrán drum. There is no stage and no program, and it is an unwritten understanding that conversation in the room quiets down during a slow song.", gdje: "In Dublin at The Cobblestone pub in the Smithfield district, in Galway at Tig Chóilí, and almost every evening in Doolin and Dingle." },
+    { ime: "Irish dance", opis: "There are several kinds: competitive step dancing with a rigid upper body and fast feet, the social céilí dances and set dancing in groups of four couples, and the old solo style, sean-nós. The world discovered it in 1994, when the seven-minute Riverdance number was performed during the interval of the Eurovision Song Contest in Dublin.", gdje: "Céilí evenings and classes are organized by branches of the society Comhaltas Ceoltóirí Éireann across the country, and Tralee is home to Siamsa Tíre, the national folk theater." },
+    { ime: "Hurling and Gaelic football", opis: "Hurling is a game more than two thousand years old in which a small ball is struck with a wooden stick and flies at over 150 kilometers an hour, and in 2018 UNESCO inscribed it on its list of intangible heritage. The players in both sports are amateurs who play only for their own county, which makes the matches a matter of local pride.", gdje: "At Croke Park stadium in Dublin, where the finals are played in July, and in the Gaelic Athletic Association museum there, and throughout the summer on playing fields in every town and village." },
+    { ime: "St. Patrick's Day", opis: "The feast of Ireland's patron saint, March 17, is marked with parades, music and the wearing of shamrock. Tradition says that Saint Patrick, who converted the Irish in the 5th century, used the three leaves of the shamrock to explain the Holy Trinity.", gdje: "The biggest parade and a festival lasting several days take place in Dublin, with smaller parades in almost every town and village." },
+    { ime: "The Irish language and the Gaeltacht", opis: "Irish, a Celtic language that in English is called Irish and not Gaelic, is the first official language of the state and is taught in all schools. It lives on as an everyday language in areas known as the Gaeltacht, mostly on the west coast, and all road signs in the country are bilingual.", gdje: "In Connemara, on the Aran Islands and on the Dingle Peninsula, where you will hear it in the shop and the pub." },
+    { ime: "Uilleann pipes and the harp", opis: "Irish pipes are not blown by mouth; the air is pumped by a bellows under the elbow, so the player can sing as well, and the sound is softer than that of Scottish bagpipes. The harp is the national coat of arms, which makes Ireland the only country whose symbol is a musical instrument. UNESCO protected uilleann piping in 2017 and harping in 2019.", gdje: "At the Fleadh Cheoil na hÉireann festival, held in August and moving to a different town every year or two, and at evening gatherings of musicians in pubs." },
+    { ime: "Halloween", opis: "Halloween goes back to the Celtic festival of Samhain, which marked the end of the harvest and the beginning of the dark half of the year, when the boundary with the world of the dead was believed to be at its thinnest. Irish emigrants took the customs to the USA, where the hollowed-out turnip was replaced by the pumpkin.", gdje: "In late October, festivals devoted to the original customs are held in Dublin and County Meath, and Derry hosts one of the biggest celebrations in Europe." }
   ],
   fraze: [
-    { izvorno: "Dia dhuit", izgovor: "DI-a GVIT", hr: "Dobar dan, doslovno: Bog s tobom (irski)" },
-    { izvorno: "Go raibh maith agat", izgovor: "go rev MA a-gat", hr: "Hvala (irski)" },
-    { izvorno: "Le do thoil", izgovor: "le do HOL", hr: "Molim (irski)" },
-    { izvorno: "Sláinte", izgovor: "SLON-če", hr: "Živjeli, doslovno: zdravlje" },
-    { izvorno: "Slán", izgovor: "SLON", hr: "Doviđenja" },
-    { izvorno: "Céad míle fáilte", izgovor: "KEJD MI-le FOL-če", hr: "Sto tisuća dobrodošlica, pozdrav koji ćete viđati posvuda" },
-    { izvorno: "What's the craic?", izgovor: "vots d KREK", hr: "Što ima novo? (craic znači zabava, dobro društvo, novosti)" },
-    { izvorno: "Mná / Fir", izgovor: "MNO / FIR", hr: "Žene / Muškarci, natpisi na vratima zahoda koje je dobro znati" }
+    { izvorno: "Dia dhuit", izgovor: "DEE-ah GWIT", hr: "Hello, literally: God be with you (Irish)" },
+    { izvorno: "Go raibh maith agat", izgovor: "guh rev MAH ah-gut", hr: "Thank you (Irish)" },
+    { izvorno: "Le do thoil", izgovor: "leh duh HULL", hr: "Please (Irish)" },
+    { izvorno: "Sláinte", izgovor: "SLAWN-cheh", hr: "Cheers, literally: health" },
+    { izvorno: "Slán", izgovor: "SLAWN", hr: "Goodbye" },
+    { izvorno: "Céad míle fáilte", izgovor: "KAYD MEE-leh FAWL-cheh", hr: "A hundred thousand welcomes, a greeting you will see everywhere" },
+    { izvorno: "What's the craic?", izgovor: "wots the CRACK", hr: "What's new? (craic means fun, good company, news)" },
+    { izvorno: "Mná / Fir", izgovor: "MNAW / FIR", hr: "Women / Men, signs on restroom doors that are good to know" }
   ],
   zanimljivosti: [
-    "U Irskoj nema zmija. Legenda kaže da ih je sveti Patrik otjerao u more, a znanost da ih nakon ledenog doba ovdje nikada nije ni bilo.",
-    "Grobni humak Newgrange u dolini rijeke Boyne sagrađen je oko 3200. godine prije Krista, što ga čini starijim od Stonehengea i piramida u Gizi. Na zimski solsticij zraka izlazećeg sunca kroz otvor iznad ulaza obasja unutrašnju komoru.",
-    "Harfa na državnom grbu okrenuta je na jednu stranu, a ona na čaši Guinnessa na drugu, jer je pivovara svoj znak zaštitila prije nego što je država nastala.",
-    "Na otoku je 1841. živjelo više od osam milijuna ljudi. Danas ih je u Republici Irskoj i Sjevernoj Irskoj zajedno oko sedam milijuna, pa je ovo rijedak dio Europe koji ima manje stanovnika nego prije dva stoljeća.",
-    "James Joyce, najslavniji dublinski pisac, zimu s 1904. na 1905. proveo je u Puli podučavajući engleski u Berlitzovoj školi, pa danas ondje sjedi njegov brončani kip za stolom kavane kod Slavoluka Sergijevaca.",
-    "Grof Laval Nugent, rođen 1777. u Irskoj, postao je austrijski feldmaršal, kupio je i obnovio Trsatski kaštel iznad Rijeke i podupirao hrvatski narodni preporod. Pokopan je na Trsatu.",
-    "Titanic je posljednji put pristao u irskoj luci Queenstown, današnjem Cobhu, 11. travnja 1912.",
-    "Arthur Guinness platio je 1759. najam pivovare na 9000 godina, uz godišnju najamninu od 45 funti."
+    "There are no snakes in Ireland. Legend says Saint Patrick drove them into the sea, and science says there have never been any here since the Ice Age.",
+    "The Newgrange passage tomb in the Boyne Valley was built around 3200 BC, which makes it older than Stonehenge and the pyramids of Giza. At the winter solstice a beam of the rising sun shines through an opening above the entrance and lights up the inner chamber.",
+    "The harp on the national coat of arms faces one way and the one on the Guinness glass faces the other, because the brewery trademarked its emblem before the state came into being.",
+    "In 1841 more than eight million people lived on the island. Today there are about seven million in the Republic of Ireland and Northern Ireland combined, so this is a rare part of Europe that has fewer inhabitants than it did two centuries ago.",
+    "James Joyce, Dublin's most celebrated writer, spent the winter of 1904 to 1905 in Pula, Croatia, teaching English at the Berlitz school, so today his bronze statue sits there at a café table beside the Arch of the Sergii.",
+    "Count Laval Nugent, born in Ireland in 1777, became an Austrian field marshal, bought and restored Trsat Castle above Rijeka and supported the Croatian National Revival. He is buried at Trsat.",
+    "The Titanic made its last call at the Irish port of Queenstown, today's Cobh, on April 11, 1912.",
+    "In 1759 Arthur Guinness took out a 9,000-year lease on the brewery, at an annual rent of 45 pounds."
   ],
   mjesta: [
     {
       id: "dublin",
       ime: "Dublin",
       vrsta: "grad",
-      sazetak: "Prijestolnica georgijanskih vrata, književnika i pubova u kojoj se povijest zemlje može pročitati hodajući s jedne obale rijeke Liffey na drugu.",
+      sazetak: "A capital of Georgian doors, writers and pubs, where you can read the country's history by walking from one bank of the River Liffey to the other.",
       prica: [
-        "Vikinzi su se 841. utaborili uz tamnu lokvu na ušću rječice u Liffey, na irskom Dubh Linn, po čemu je grad dobio ime. Anglo-Normani su ga zauzeli 1170. i otada je stoljećima bio uporište engleske vlasti u Irskoj.",
-        "Svoje zlatno doba doživio je u 18. stoljeću, kada su podignuti široki trgovi i nizovi kuća od opeke sa šarenim vratima i polukružnim nadsvjetlima. Na Uskrs 1916. pobunjenici su zauzeli glavnu poštu i proglasili republiku, a pogubljenje njihovih vođa okrenulo je javnost na stranu neovisnosti. Dublin je i grad Jonathana Swifta, Oscara Wildea, W. B. Yeatsa, Samuela Becketta i Jamesa Joycea, koji je cijeli roman „Uliks“ smjestio u jedan ovdašnji dan, 16. lipnja 1904."
+        "In 841 the Vikings set up camp beside a dark pool where a small river met the Liffey, Dubh Linn in Irish, which gave the city its name. The Anglo-Normans took it in 1170, and for centuries afterward it was the stronghold of English rule in Ireland.",
+        "It enjoyed its golden age in the 18th century, when the wide squares and terraces of brick houses with colorful doors and semicircular fanlights were built. At Easter 1916 rebels occupied the General Post Office and proclaimed a republic, and the execution of their leaders swung public opinion toward independence. Dublin is also the city of Jonathan Swift, Oscar Wilde, W. B. Yeats, Samuel Beckett and James Joyce, who set the entire novel “Ulysses” on a single day here, June 16, 1904."
       ],
       vidjeti: [
-        { ime: "Trinity College i Knjiga iz Kellsa", opis: "Sveučilište je 1592. osnovala kraljica Elizabeta I. Ovdje se čuva evanđelistar koji su redovnici oslikali oko 800. godine, a svakog dana izložene su dvije druge stranice. U Dugoj dvorani stare knjižnice, dugoj 65 metara, potražite harfu iz 15. stoljeća po kojoj je oblikovan državni grb. Knjižnica prolazi višegodišnju obnovu, pa prije dolaska provjerite što je otvoreno." },
-        { ime: "Zatvor Kilmainham", opis: "U zatvoru otvorenom 1796. bili su zatočeni gotovo svi vođe irskih ustanaka. U dvorištu za tucanje kamena u svibnju 1916. strijeljano je četrnaest vođa Uskrsnog ustanka, među njima i ranjeni James Connolly, kojeg su morali vezati za stolac. Posjet je moguć samo s vodičem, uz rezervaciju unaprijed." },
-        { ime: "Nacionalni muzej, arheologija", opis: "Besplatan muzej čuva jednu od najvećih zbirki prapovijesnog zlata u Europi te Kalež iz Ardagha i Broš iz Tare, remek-djela iz 8. stoljeća. U zasebnoj dvorani izložena su tijela ljudi iz željeznog doba očuvana u tresetištima, na kojima se još vide nokti i frizure." },
-        { ime: "Katedrala sv. Patrika", opis: "Najveća irska crkva stoji na mjestu gdje je, prema predaji, sveti Patrik krštavao obraćenike. Jonathan Swift, autor „Gulliverovih putovanja“, bio je ovdje dekan od 1713. do 1745. i pokopan je u crkvi. Potražite stara vrata s rupom, kroz koju je 1492. jedan velikaš pružio ruku suparniku u znak pomirenja." },
-        { ime: "Dublinski dvorac i knjižnica Chester Beatty", opis: "Dvorac je više od sedam stoljeća bio sjedište engleske uprave, sve do predaje vlasti Ircima 1922. godine. U njegovu vrtu nalazi se besplatan muzej Chester Beatty, sa zbirkom rukopisa koja uključuje neke od najstarijih sačuvanih ulomaka biblijskih tekstova na papirusu." },
-        { ime: "Glavna pošta (GPO)", opis: "Zgrada u Ulici O'Connell bila je stožer ustanika 1916. i s njezinih je stuba pročitan proglas republike. Na stupovima trijema i danas se pokazuju tragovi metaka, a pošta još uvijek radi." }
+        { ime: "Trinity College and the Book of Kells", opis: "The university was founded in 1592 by Queen Elizabeth I. It holds the gospel book that monks illuminated around the year 800, and two different pages are on display each day. In the Long Room of the Old Library, which is 65 meters long, look for the 15th-century harp on which the national coat of arms is modeled. The library is undergoing a restoration lasting several years, so check what is open before you come." },
+        { ime: "Kilmainham Gaol", opis: "Almost all the leaders of Irish rebellions were held in this jail, which opened in 1796. In the stonebreakers' yard, fourteen leaders of the Easter Rising were shot in May 1916, among them the wounded James Connolly, who had to be tied to a chair. Visits are by guided tour only, with advance booking." },
+        { ime: "National Museum, Archaeology", opis: "The free museum holds one of the largest collections of prehistoric gold in Europe, along with the Ardagh Chalice and the Tara Brooch, masterpieces from the 8th century. A separate gallery displays the bodies of Iron Age people preserved in bogs, on which you can still see fingernails and hairstyles." },
+        { ime: "St. Patrick's Cathedral", opis: "Ireland's largest church stands on the spot where, according to tradition, Saint Patrick baptized converts. Jonathan Swift, the author of “Gulliver's Travels”, was dean here from 1713 to 1745 and is buried in the church. Look for the old door with a hole in it, through which in 1492 one nobleman stretched out his arm to a rival as a sign of reconciliation." },
+        { ime: "Dublin Castle and the Chester Beatty library", opis: "For more than seven centuries the castle was the seat of English administration, until power was handed over to the Irish in 1922. In its garden is the free Chester Beatty museum, with a manuscript collection that includes some of the oldest surviving fragments of biblical texts on papyrus." },
+        { ime: "General Post Office (GPO)", opis: "The building on O'Connell Street was the rebels' headquarters in 1916, and the proclamation of the republic was read from its steps. Bullet marks are still pointed out on the columns of the portico, and the post office is still in operation." }
       ],
       jesti: [
-        { ime: "Dublin coddle", opis: "Lagano kuhano varivo od kobasica, slanine, krumpira i luka pravo je dublinsko jelo, koje se, kako se priča, kuhalo četvrtkom da se potroši meso prije posnog petka. Nude ga tradicionalni pubovi." },
-        { ime: "Riba s krumpirićima", opis: "Zalogajnice s prženom ribom u Dublin su krajem 19. stoljeća donijeli talijanski doseljenici, a ona kod Katedrale Kristove crkve radi od 1913." },
-        { ime: "Kamenice i stout", opis: "Par koji se u Dublinu shvaća ozbiljno najbolje je kušati u nekom od starih viktorijanskih pubova s drvenim pregradama." },
-        { ime: "Čaj i kolači u Bewley'su", opis: "Kavana u Ulici Grafton, otvorena 1927., poznata je po vitrajima Harryja Clarkea i ljepljivim pecivima s grožđicama." }
+        { ime: "Dublin coddle", opis: "A slow-simmered stew of sausages, bacon, potatoes and onions is the true Dublin dish, which, the story goes, was cooked on Thursdays to use up the meat before the meatless Friday. Traditional pubs serve it." },
+        { ime: "Fish and chips", opis: "Fried fish shops were brought to Dublin at the end of the 19th century by Italian immigrants, and the one beside Christ Church Cathedral has been in business since 1913." },
+        { ime: "Oysters and stout", opis: "A pairing that Dublin takes seriously is best tried in one of the old Victorian pubs with wooden partitions." },
+        { ime: "Tea and cakes at Bewley's", opis: "The café on Grafton Street, opened in 1927, is known for Harry Clarke's stained glass windows and its sticky buns with raisins." }
       ],
       dozivjeti: [
-        { ime: "Glazbena šetnja pubovima", opis: "Ako želite razumjeti irsku glazbu, dvoje profesionalnih svirača vodi vas kroz nekoliko pubova, svira i objašnjava glazbala, napjeve i pravila sessiona.", link: "https://www.musicalpubcrawl.com/" },
-        { ime: "Session u pubu The Cobblestone", opis: "U pubu u Smithfieldu, koji za sebe kaže da je pivnica s glazbenim problemom, svake se večeri u prednjem kutu okupljaju svirači, a ulaz je slobodan.", link: "https://www.cobblestonepub.ie/" },
-        { ime: "Kušanje viskija", opis: "Destilerija Teeling, otvorena 2015. u četvrti Liberties, bila je prva nova destilerija u Dublinu nakon više od 125 godina i nudi obilaske s kušanjem. Ako vas više zanima povijest pića, Muzej irskog viskija kod Trinityja uspoređuje više proizvođača.", link: "https://www.teelingwhiskey.com/" },
-        { ime: "Večer narodnih priča", opis: "U Brazen Headu, koji se smatra najstarijim dublinskim pubom, uz večeru se slušaju stare irske priče o vilama i pučkim vjerovanjima, uz živu glazbu.", link: "https://irishfolktours.com/" }
+        { ime: "A musical pub crawl", opis: "If you want to understand Irish music, two professional musicians lead you through several pubs, playing and explaining the instruments, the tunes and the etiquette of a session.", link: "https://www.musicalpubcrawl.com/" },
+        { ime: "A session at The Cobblestone", opis: "At the pub in Smithfield, which describes itself as a drinking pub with a music problem, musicians gather in the front corner every evening and admission is free.", link: "https://www.cobblestonepub.ie/" },
+        { ime: "Whiskey tasting", opis: "The Teeling distillery, opened in 2015 in the Liberties district, was the first new distillery in Dublin in more than 125 years and offers tours with tastings. If you are more interested in the history of the drink, the Irish Whiskey Museum near Trinity compares several producers.", link: "https://www.teelingwhiskey.com/" },
+        { ime: "An evening of folk tales", opis: "At the Brazen Head, considered Dublin's oldest pub, you listen over dinner to old Irish stories about fairies and folk beliefs, with live music.", link: "https://irishfolktours.com/" }
       ],
       agencije: [
-        { ime: "Visit Dublin", opis: "Službeni turistički vodič grada.", link: "https://www.visitdublin.com/" },
-        { ime: "Historical Walking Tours of Dublin", opis: "Dvosatne šetnje kroz povijest grada koje vode diplomirani povjesničari, s polaskom ispred Trinity Collegea.", link: "https://historicaltours.ie/" },
-        { ime: "1916 Rebellion Walking Tour", opis: "Šetnja mjestima Uskrsnog ustanka koju vode autori knjiga o toj temi.", link: "https://www.1916rising.com/" }
+        { ime: "Visit Dublin", opis: "The city's official tourist guide.", link: "https://www.visitdublin.com/" },
+        { ime: "Historical Walking Tours of Dublin", opis: "Two-hour walks through the city's history led by history graduates, departing from the front of Trinity College.", link: "https://historicaltours.ie/" },
+        { ime: "1916 Rebellion Walking Tour", opis: "A walk around the sites of the Easter Rising led by authors of books on the subject.", link: "https://www.1916rising.com/" }
       ],
-      kada: "Od svibnja do rujna najugodnije je za šetnje. Ulaznice za Knjigu iz Kellsa i Kilmainham rezervirajte unaprijed jer se termini popune danima ranije, a četvrt Temple Bar posjetite danju, dok su pubovi u susjednim ulicama jeftiniji i domaćiji."
+      kada: "May to September is the most pleasant time for walking. Book tickets for the Book of Kells and Kilmainham in advance, because slots fill up days ahead, and visit the Temple Bar district during the day, since the pubs in the neighboring streets are cheaper and more local."
     },
     {
       id: "galway",
       ime: "Galway",
       vrsta: "grad",
-      sazetak: "Živahan sveučilišni grad na Atlantiku u kojem se glazba svira na ulici, a irski se čuje u trgovini.",
+      sazetak: "A lively university city on the Atlantic where music is played in the street and Irish is heard in the shops.",
       prica: [
-        "Grad su u 13. stoljeću utvrdili Anglo-Normani, a njime je stoljećima upravljalo četrnaest trgovačkih obitelji, zbog kojih ga zovu Gradom plemena. Obogatile su se trgovinom vinom sa Španjolskom i Francuskom, pa je srednjovjekovni Galway više gledao prema moru nego prema ostatku otoka.",
-        "Nakon što ga je 1652. zauzela Cromwellova vojska, grad je osiromašio i dugo tavorio. Danas je neslužbena prijestolnica irske kulture, s festivalima koji se nižu cijelo ljeto, i polazište za Connemaru, Aranske otoke i litice Moher."
+        "The town was fortified by the Anglo-Normans in the 13th century, and for centuries it was run by fourteen merchant families, which is why it is called the City of the Tribes. They grew rich on the wine trade with Spain and France, so medieval Galway looked more toward the sea than toward the rest of the island.",
+        "After Cromwell's army took it in 1652, the city grew poor and languished for a long time. Today it is the unofficial capital of Irish culture, with festivals that follow one another all summer long, and the starting point for Connemara, the Aran Islands and the Cliffs of Moher."
       ],
       vidjeti: [
-        { ime: "Španjolski luk", opis: "Luk iz 1584. ostatak je bedema koji je štitio pristanište na kojem su se iskrcavali brodovi s vinom. Odmah preko rijeke bilo je ribarsko selo Claddagh, po kojem je nazvan poznati prsten." },
-        { ime: "Crkva sv. Nikole", opis: "Sagrađena 1320., najveća je srednjovjekovna župna crkva u Irskoj koja je još u uporabi. Posvećena je zaštitniku pomoraca, a predaja kaže da se u njoj 1477. pomolio Kristofor Kolumbo. Subotom je uz nju živahna tržnica." },
-        { ime: "Lynchov dvorac i Lynchov prozor", opis: "Utvrđena gradska kuća najmoćnijeg plemena, s kamenim grbovima i vodorigama, danas je poslovnica banke. Nedaleko je gotički prozor uz koji se priča da je gradonačelnik James Lynch 1493. vlastoručno objesio sina osuđenog za ubojstvo, jer to nitko drugi nije htio učiniti. Povjesničari tu priču smatraju legendom." },
-        { ime: "Gradski muzej", opis: "Besplatan muzej uz Španjolski luk objašnjava povijest grada i izlaže galway hooker, tradicionalni ribarski brod crnog trupa i tamnocrvenih jedara." },
-        { ime: "Latinska četvrt", opis: "Ulice Quay Street i High Street, pune šarenih pročelja, uličnih svirača i draguljara, vode od trga Eyre Square do rijeke. U izlozima pogledajte prsten Claddagh s dvije ruke koje drže okrunjeno srce. Ako se nosi sa srcem okrenutim prema zapešću, znači da je vlasnica zauzeta." },
-        { ime: "Šetnica u Salthillu", opis: "Dva kilometra duga šetnica uz zaljev omiljena je mještanima, koji na njezinu kraju po starom običaju nogom dotaknu zid prije nego što se okrenu natrag. Za vedra dana preko zaljeva se vide brda Burrena." }
+        { ime: "Spanish Arch", opis: "The arch from 1584 is a remnant of the wall that protected the quay where ships carrying wine were unloaded. Just across the river was the fishing village of Claddagh, after which the famous ring is named." },
+        { ime: "St. Nicholas' Church", opis: "Built in 1320, it is the largest medieval parish church in Ireland still in use. It is dedicated to the patron saint of seafarers, and tradition says that Christopher Columbus prayed in it in 1477. On Saturdays there is a lively market beside it." },
+        { ime: "Lynch's Castle and the Lynch Window", opis: "The fortified town house of the most powerful of the tribes, with stone coats of arms and gargoyles, is now a bank branch. Nearby is a Gothic window where, the story goes, Mayor James Lynch in 1493 hanged with his own hands his son, who had been convicted of murder, because nobody else would do it. Historians consider the story a legend." },
+        { ime: "City Museum", opis: "The free museum beside the Spanish Arch explains the history of the city and displays a Galway hooker, the traditional fishing boat with a black hull and dark red sails." },
+        { ime: "Latin Quarter", opis: "Quay Street and High Street, full of colorful shopfronts, buskers and jewelers, lead from Eyre Square down to the river. In the shop windows, look at the Claddagh ring with two hands holding a crowned heart. If it is worn with the heart pointing toward the wrist, it means its wearer is taken." },
+        { ime: "The promenade in Salthill", opis: "The two-kilometer promenade along the bay is a favorite with locals, who by old custom kick the wall at its end before turning back. On a clear day you can see the hills of the Burren across the bay." }
       ],
       jesti: [
-        { ime: "Kamenice iz zaljeva Galway", opis: "Domaće plosnate kamenice u sezoni su od rujna do travnja, a krajem rujna grad im posvećuje festival koji se održava od 1954." },
-        { ime: "Riba s krumpirićima u McDonagh'su", opis: "Obiteljska zalogajnica u Ulici Quay generacijama prži svježu ribu s tržnice, a jede se za zajedničkim drvenim stolovima." },
-        { ime: "Irski sirevi", opis: "Trgovina Sheridans kod crkve sv. Nikole najbolje je mjesto za kušanje sireva s malih irskih farmi." },
-        { ime: "Seafood chowder", opis: "Gusta juha od ribe i školjaka uz tamni kruh ovdje je na svakom jelovniku, a nakon šetnje na vjetru ugrije bolje od svega." }
+        { ime: "Galway Bay oysters", opis: "The native flat oysters are in season from September to April, and in late September the city dedicates a festival to them that has been held since 1954." },
+        { ime: "Fish and chips at McDonagh's", opis: "The family-run place on Quay Street has been frying fresh fish from the market for generations, and you eat at shared wooden tables." },
+        { ime: "Irish cheeses", opis: "The Sheridans shop beside St. Nicholas' Church is the best place to taste cheeses from small Irish farms." },
+        { ime: "Seafood chowder", opis: "The thick soup of fish and shellfish with brown bread is on every menu here, and after a walk in the wind it warms you up better than anything." }
       ],
       dozivjeti: [
-        { ime: "Session u Tig Chóilíju", opis: "U malom pubu u Latinskoj četvrti, bez televizora i razglasa, svirači se okupljaju dvaput dnevno, predvečer i navečer.", link: "https://www.tigchoiligalway.com/" },
-        { ime: "Gastronomska šetnja", opis: "Ako želite kušati kamenice, sireve i lokalne proizvode uz priču o proizvođačima, vođena šetnja obilazi tržnicu i male trgovine u središtu.", link: "https://galwayfoodtours.com/" },
-        { ime: "Međunarodni festival umjetnosti", opis: "Dva tjedna u srpnju grad ispune kazalište, koncerti i ulični spektakli, na jednom od najvećih irskih festivala.", link: "https://www.giaf.ie/" },
-        { ime: "Festival kamenica", opis: "Posljednjeg vikenda u rujnu održava se svjetsko prvenstvo u otvaranju kamenica, uz glazbu i kušanja.", link: "https://www.galwayoysterfestival.com/" }
+        { ime: "A session at Tig Chóilí", opis: "In the small pub in the Latin Quarter, with no television and no sound system, musicians gather twice a day, in the early evening and at night.", link: "https://www.tigchoiligalway.com/" },
+        { ime: "A food walk", opis: "If you want to taste oysters, cheeses and local produce along with the stories of the producers, a guided walk takes in the market and the small shops in the center.", link: "https://galwayfoodtours.com/" },
+        { ime: "International Arts Festival", opis: "For two weeks in July the city fills with theater, concerts and street spectacles, at one of Ireland's biggest festivals.", link: "https://www.giaf.ie/" },
+        { ime: "Oyster Festival", opis: "On the last weekend in September the world oyster opening championship is held, with music and tastings.", link: "https://www.galwayoysterfestival.com/" }
       ],
       agencije: [
-        { ime: "Galway Tourism", opis: "Gradski turistički portal s vodičem kroz događanja, pubove s glazbom i izlete.", link: "https://www.galwaytourism.ie/" },
-        { ime: "Galway Walks", opis: "Lokalni vodiči koji vode šetnje srednjovjekovnim središtem grada.", link: "https://www.galwaywalks.com/" }
+        { ime: "Galway Tourism", opis: "The city's tourism portal with a guide to events, music pubs and day trips.", link: "https://www.galwaytourism.ie/" },
+        { ime: "Galway Walks", opis: "Local guides who lead walks through the medieval center of the city.", link: "https://www.galwaywalks.com/" }
       ],
-      kada: "Najživlje je od lipnja do rujna, a u srpnju, tijekom festivala i konjskih utrka, smještaj se rasproda mjesecima unaprijed. Grad je malen i obilazi se pješice, a iz njega svakodnevno polaze izleti prema Connemari i liticama Moher."
+      kada: "It is liveliest from June to September, and in July, during the festivals and the horse races, accommodation sells out months in advance. The city is small and easy to explore on foot, and day trips to Connemara and the Cliffs of Moher leave from it daily."
     },
     {
       id: "moher-burren",
-      ime: "Cliffs of Moher i Burren",
+      ime: "Cliffs of Moher and the Burren",
       vrsta: "priroda",
-      sazetak: "Okomite litice nad Atlantikom i kamena pustinja u kojoj jedno uz drugo rastu arktičko i sredozemno cvijeće.",
+      sazetak: "Sheer cliffs above the Atlantic and a stone desert where Arctic and Mediterranean flowers grow side by side.",
       prica: [
-        "Litice Moher pružaju se oko 14 kilometara duž obale grofovije Clare i na najvišem mjestu dosežu 214 metara. Građene su od slojeva pješčenjaka i škriljevca nataloženih u delti pradavne rijeke prije više od 300 milijuna godina.",
-        "Odmah iza njih počinje Burren, čije ime znači kamenito mjesto, vapnenačka zaravan ispucala u ploče i duboke pukotine. Jedan Cromwellov časnik zapisao je u 17. stoljeću da ovdje nema dovoljno vode da se čovjek utopi, drveta da se objesi ni zemlje da se pokopa. Ipak, ljudi ovdje žive šest tisuća godina, a u pukotinama raste oko tri četvrtine svih irskih biljnih vrsta."
+        "The Cliffs of Moher stretch for about 14 kilometers along the coast of County Clare and reach 214 meters at their highest point. They are built of layers of sandstone and shale laid down in the delta of an ancient river more than 300 million years ago.",
+        "Right behind them begins the Burren, whose name means rocky place, a limestone plateau cracked into slabs and deep fissures. One of Cromwell's officers wrote in the 17th century that there was not enough water here to drown a man, wood to hang him or earth to bury him. Yet people have lived here for six thousand years, and about three quarters of all Irish plant species grow in the fissures."
       ],
       vidjeti: [
-        { ime: "Litice Moher i O'Brienov toranj", opis: "Okrugli kameni toranj na najvišoj točki sagradio je 1835. zemljoposjednik Cornelius O'Brien kao vidikovac za posjetitelje, što ga čini jednim od prvih turističkih objekata u Irskoj. Od travnja do srpnja dalekozorom potražite tupike, male ptice šarenih kljunova koje se gnijezde na travnatim policama." },
-        { ime: "Dolmen Poulnabrone", opis: "Grobnica s tankom krovnom pločom dugom gotovo četiri metra podignuta je prije više od pet tisuća godina. Arheolozi su ispod nje našli ostatke tridesetak odraslih i djece. Oko nje pogledajte tlo, klasičan vapnenački pločnik s dubokim pukotinama iz kojih viri paprat." },
-        { ime: "Špilja Aillwee", opis: "Špilju je 1940. otkrio pastir koji je krenuo za svojim psom, a nikome o tome nije govorio više od trideset godina. U njoj su nađene kosti i ležajevi smeđih medvjeda, kojih u Irskoj nema već tisućljećima." },
-        { ime: "Kilfenora", opis: "Selo zvano gradom križeva čuva skupinu visokih kamenih križeva iz 12. stoljeća pod staklenim krovom ruševne katedrale. Na Doortyjevu križu potražite lik biskupa s pastirskim štapom u ruci." },
-        { ime: "Opatija Corcomroe", opis: "Cistercitski samostan s kraja 12. stoljeća nosio je ime Sveta Marija od plodne stijene. Na kapitelima u svetištu isklesani su cvjetovi zvončića i maka, jedni od najranijih vjernih prikaza biljaka u europskoj klesarskoj umjetnosti." },
-        { ime: "Doolin", opis: "Selo razvučeno uz cestu poznato je kao prijestolnica irske tradicijske glazbe i ima nekoliko pubova u kojima se svira svake večeri. Iz njegove lučice plove brodovi podno litica i prema Aranskim otocima." }
+        { ime: "Cliffs of Moher and O'Brien's Tower", opis: "The round stone tower at the highest point was built in 1835 by the landowner Cornelius O'Brien as a viewing point for visitors, which makes it one of the first tourist facilities in Ireland. From April to July, use binoculars to look for puffins, small birds with colorful beaks that nest on the grassy ledges." },
+        { ime: "Poulnabrone Dolmen", opis: "The tomb with a thin capstone almost four meters long was raised more than five thousand years ago. Archaeologists found the remains of some thirty adults and children beneath it. Look at the ground around it, a classic limestone pavement with deep fissures from which ferns poke out." },
+        { ime: "Aillwee Cave", opis: "The cave was discovered in 1940 by a herdsman who went in after his dog and told nobody about it for more than thirty years. Bones and hibernation pits of brown bears were found inside, animals that have been gone from Ireland for thousands of years." },
+        { ime: "Kilfenora", opis: "The village known as the City of the Crosses keeps a group of 12th-century high stone crosses under the glass roof of a ruined cathedral. On the Doorty Cross, look for the figure of a bishop with a crozier in his hand." },
+        { ime: "Corcomroe Abbey", opis: "The Cistercian monastery from the late 12th century bore the name Saint Mary of the Fertile Rock. Carved on the capitals in the sanctuary are harebell and poppy flowers, among the earliest faithful depictions of plants in European stone carving." },
+        { ime: "Doolin", opis: "The village strung out along the road is known as the capital of Irish traditional music and has several pubs where music is played every evening. From its small harbor, boats sail to the foot of the cliffs and out to the Aran Islands." }
       ],
       jesti: [
-        { ime: "Dimljeni losos iz Burrena", opis: "Dimionica u Lisdoonvarni dimi losos na hrastovini, a u njezinoj se trgovini može kušati i pogledati kako se to radi." },
-        { ime: "Kozji sir St Tola", opis: "Mekani kozji sir s farme kod sela Inagh na jelovnicima je većine dobrih restorana u grofoviji Clare." },
-        { ime: "Chowder i kruh sa sodom u pubu", opis: "Pubovi u Doolinu poslužuju gustu riblju juhu i varivo od janjetine s burrenskih pašnjaka prije nego što počne glazba." }
+        { ime: "Burren smoked salmon", opis: "The smokehouse in Lisdoonvarna smokes salmon over oak, and in its shop you can taste it and see how it is done." },
+        { ime: "St Tola goat cheese", opis: "The soft goat cheese from a farm near the village of Inagh is on the menu of most good restaurants in County Clare." },
+        { ime: "Chowder and soda bread in the pub", opis: "The pubs in Doolin serve thick fish soup and a stew of lamb from the Burren pastures before the music starts." }
       ],
       dozivjeti: [
-        { ime: "Obalna šetnja od Doolina do litica", opis: "Staza od oko osam kilometara vodi rubom obale do posjetiteljskog centra i otkriva litice postupno, bez gužve. Lokalni farmer preko čije zemlje staza prolazi vodi šetnje uz priče o kraju.", link: "https://doolincliffwalk.com/" },
-        { ime: "Vođena šetnja Burrenom", opis: "Ako želite naučiti čitati ovaj krajolik, od orhideja u pukotinama do prapovijesnih zidova, lokalni vodič Tony Kirby vodi šetnje kroz najljepše dijelove.", link: "https://www.heartofburrenwalks.com/" },
-        { ime: "Vožnja brodom podno litica", opis: "Jednosatna vožnja iz Doolina pokazuje litice odozdo, s morskom stijenom Branaunmore i tisućama ptica.", link: "https://doolinferry.com/" },
-        { ime: "Glazbena večer u Doolinu", opis: "U pubu Gus O'Connor's, koji radi od 1832., svirači se okupljaju svake večeri, a mjesto treba zauzeti rano.", link: "https://www.gusoconnorsdoolin.com/" }
+        { ime: "The coastal walk from Doolin to the cliffs", opis: "A trail of about eight kilometers follows the edge of the coast to the visitor center and reveals the cliffs gradually, without the crowds. The local farmer whose land the trail crosses leads walks with stories about the area.", link: "https://doolincliffwalk.com/" },
+        { ime: "A guided walk in the Burren", opis: "If you want to learn to read this landscape, from the orchids in the fissures to the prehistoric walls, the local guide Tony Kirby leads walks through its most beautiful parts.", link: "https://www.heartofburrenwalks.com/" },
+        { ime: "A boat trip below the cliffs", opis: "The one-hour trip from Doolin shows the cliffs from below, with the Branaunmore sea stack and thousands of birds.", link: "https://doolinferry.com/" },
+        { ime: "A music night in Doolin", opis: "At Gus O'Connor's pub, in business since 1832, musicians gather every evening and you need to grab a seat early.", link: "https://www.gusoconnorsdoolin.com/" }
       ],
       agencije: [
-        { ime: "Cliffs of Moher Experience", opis: "Službeni posjetiteljski centar litica, s prodajom ulaznica po terminima.", link: "https://www.cliffsofmoher.ie/" },
-        { ime: "Burren and Cliffs of Moher Geopark", opis: "Uprava UNESCO-ova geoparka s kartama staza i popisom lokalnih vodiča.", link: "https://www.burrengeopark.ie/" },
-        { ime: "Doolin Tourism", opis: "Službena turistička stranica sela Doolin.", link: "https://doolin.ie/" }
+        { ime: "Cliffs of Moher Experience", opis: "The official visitor center for the cliffs, selling timed tickets.", link: "https://www.cliffsofmoher.ie/" },
+        { ime: "Burren and Cliffs of Moher Geopark", opis: "The management of the UNESCO geopark, with trail maps and a list of local guides.", link: "https://www.burrengeopark.ie/" },
+        { ime: "Doolin Tourism", opis: "The official tourism website for the village of Doolin.", link: "https://doolin.ie/" }
       ],
-      kada: "Burren je najljepši u svibnju i lipnju, kada cvjeta. Na litice dođite rano ujutro ili nakon 16 sati, kada autobusi odu. Držite se staze iza kamenih ploča, jer je rub litice nestabilan, a vjetar jak."
+      kada: "The Burren is at its most beautiful in May and June, when it is in bloom. Come to the cliffs early in the morning or after 4 p.m., once the buses have gone. Keep to the path behind the stone slabs, because the cliff edge is unstable and the wind is strong."
     },
     {
       id: "kerry",
-      ime: "Ring of Kerry i Dingle",
+      ime: "Ring of Kerry and Dingle",
       vrsta: "regija",
-      sazetak: "Dva poluotoka na jugozapadu s jezerima, planinskim prijevojima i otokom na kojem su redovnici živjeli na rubu poznatog svijeta.",
+      sazetak: "Two peninsulas in the southwest with lakes, mountain passes and an island where monks lived at the edge of the known world.",
       prica: [
-        "Ring of Kerry kružna je cesta duga 179 kilometara oko poluotoka Iveragh, s polazištem u Killarneyju. Taj je grad postao izletište nakon 1861., kada je kraljica Viktorija boravila u ovdašnjoj kući Muckross, a imanje je 1932. darovano državi i postalo prvi irski nacionalni park.",
-        "Susjedni poluotok Dingle manji je, divljiji i govori irski. Posut je s više od dvije tisuće arheoloških nalazišta, od kamenih utvrda do ranokršćanskih bogomolja, a s njegova se vrha vide Blasketski otoci, čiji su posljednji stanovnici iseljeni 1953. godine."
+        "The Ring of Kerry is a 179-kilometer circular road around the Iveragh Peninsula, starting from Killarney. That town became a resort after 1861, when Queen Victoria stayed at Muckross House here, and in 1932 the estate was donated to the state and became Ireland's first national park.",
+        "The neighboring Dingle Peninsula is smaller, wilder and Irish-speaking. It is dotted with more than two thousand archaeological sites, from stone forts to early Christian oratories, and from its tip you can see the Blasket Islands, whose last inhabitants were evacuated in 1953."
       ],
       vidjeti: [
-        { ime: "Nacionalni park Killarney", opis: "Tri jezera okružena hrastovim šumama dom su jedinog izvornog krda običnog jelena u Irskoj. Kuća Muckross iz 1843. sačuvala je namještaj nabavljen za Viktorijin posjet, zbog čijih su troškova vlasnici poslije zapali u dugove. Vidikovac Ladies View dobio je ime po kraljičinim dvorskim damama, koje su se ondje oduševile pogledom." },
-        { ime: "Skellig Michael", opis: "Na hridi dvanaest kilometara od obale redovnici su između 6. i 8. stoljeća podigli samostan od suho složenog kamena, do kojeg vodi više od šesto stuba. Kolibe u obliku košnice i danas ne propuštaju kišu. Iskrcavanje je moguće samo od sredine svibnja do kraja rujna, kada more dopusti, a mjesta se rasprodaju mjesecima unaprijed." },
-        { ime: "Gap of Dunloe", opis: "Uski ledenjački prijevoj između najviših irskih planina prolazi uz pet malih jezera. Tradicionalno se prelazi pješice ili u dvokolici s konjem, nakon čega se čamcem preko jezera vraća u Killarney." },
-        { ime: "Slea Head", opis: "Cesta oko vrha poluotoka Dingle vodi uz litice i pješčane uvale do najzapadnijeg dijela irskog kopna. Uz put su male kamene kolibe u obliku košnice, a u Dunquinu centar posvećen životu i književnosti Blasketskih otoka." },
-        { ime: "Oratorij Gallarus", opis: "Mala bogomolja nalik prevrnutom čamcu složena je od kamenja bez imalo veziva, tako pažljivo da je unutra suha i nakon više od tisuću godina. O njezinoj se starosti stručnjaci spore, a procjene idu od 7. do 12. stoljeća." },
-        { ime: "Otok Valentia", opis: "Odavde je 1866. položen prvi trajni telegrafski kabel preko Atlantika, do Newfoundlanda. Na sjevernoj obali u stijeni su otisci stopala četveronošca koji je ovuda prošao prije oko 385 milijuna godina, među najstarijim takvim tragovima na svijetu." }
+        { ime: "Killarney National Park", opis: "Three lakes surrounded by oak woods are home to the only native herd of red deer in Ireland. Muckross House, from 1843, has kept the furniture acquired for Victoria's visit, the cost of which later drove the owners into debt. The Ladies View lookout was named after the queen's ladies-in-waiting, who were enchanted by the view there." },
+        { ime: "Skellig Michael", opis: "On a crag twelve kilometers off the coast, monks built a monastery of dry-laid stone between the 6th and 8th centuries, reached by more than six hundred steps. The beehive-shaped huts still keep out the rain today. Landing is possible only from mid-May to the end of September, when the sea allows it, and places sell out months in advance." },
+        { ime: "Gap of Dunloe", opis: "The narrow glacial pass between Ireland's highest mountains runs past five small lakes. It is traditionally crossed on foot or in a horse-drawn jaunting car, after which you return to Killarney by boat across the lakes." },
+        { ime: "Slea Head", opis: "The road around the tip of the Dingle Peninsula runs past cliffs and sandy coves to the westernmost part of the Irish mainland. Along the way are small beehive-shaped stone huts, and in Dunquin a center devoted to the life and literature of the Blasket Islands." },
+        { ime: "Gallarus Oratory", opis: "The little oratory, shaped like an upturned boat, is built of stones with no mortar at all, fitted so carefully that it is still dry inside after more than a thousand years. Experts argue about its age, with estimates ranging from the 7th to the 12th century." },
+        { ime: "Valentia Island", opis: "The first permanent telegraph cable across the Atlantic was laid from here to Newfoundland in 1866. On the north coast, set in the rock, are the footprints of a four-legged creature that passed this way about 385 million years ago, among the oldest such tracks in the world." }
       ],
       jesti: [
-        { ime: "Janjetina iz Kerryja", opis: "Janjad s planinskih pašnjaka daje meso blagog okusa koje se peče ili kuha u varivu u svakoj gostionici duž ceste." },
-        { ime: "Riba i rakovi iz zaljeva Dingle", opis: "U Dingleu se u lučkim restoranima jede ono što su brodovi toga jutra iskrcali, od oslića do rakovica i jastoga." },
-        { ime: "Sladoled s morskom soli", opis: "Slastičarnica Murphy's u Dingleu radi sladoled od mlijeka krava pasmine kerry i soli dobivene iz morske vode s obližnje obale." },
-        { ime: "Viski i džin iz Dinglea", opis: "Mala destilerija na rubu grada, otvorena 2012., bila je među prvima u novom valu irskih zanatskih destilerija i prima posjetitelje." }
+        { ime: "Kerry lamb", opis: "Lambs from the mountain pastures give mild-flavored meat that is roasted or stewed in every inn along the road." },
+        { ime: "Fish and crab from Dingle Bay", opis: "In Dingle, the harbor restaurants serve whatever the boats landed that morning, from hake to crab and lobster." },
+        { ime: "Sea salt ice cream", opis: "Murphy's ice cream shop in Dingle makes ice cream from the milk of Kerry cows and salt made from seawater from the nearby shore." },
+        { ime: "Dingle whiskey and gin", opis: "The small distillery on the edge of town, opened in 2012, was among the first in the new wave of Irish craft distilleries and welcomes visitors." }
       ],
       dozivjeti: [
-        { ime: "Glazbene večeri u Dingleu", opis: "U Dingleu se svira gotovo u svakom pubu. U John Benny'su uz luku vlasnici su i sami glazbenici, a u pubu Dick Mack's s jedne je strane šank, a s druge stara postolarska radionica.", link: "https://johnbennyspub.com/" },
-        { ime: "Folklorno kazalište Siamsa Tíre", opis: "U Traleeju nacionalno folklorno kazalište ljeti izvodi predstave u kojima se plesom, pjesmom i glazbom, bez mnogo riječi, prikazuje stari seoski život.", link: "https://siamsatire.com/" },
-        { ime: "Centar Skellig Experience", opis: "Ako vam se ne penje na hrid ili nema mjesta na brodu, centar na otoku Valentia objašnjava život redovnika i nudi vožnje oko otoka bez iskrcavanja.", link: "https://skelligexperience.com/" },
-        { ime: "Puck Fair", opis: "Od 10. do 12. kolovoza u gradiću Killorglinu divljeg planinskog jarca okrune za kralja i podignu na visoko postolje nasred trga, na jednom od najstarijih irskih sajmova.", link: "https://puckfair.ie/" }
+        { ime: "Music nights in Dingle", opis: "In Dingle there is music in almost every pub. At John Benny's by the harbor the owners are musicians themselves, and Dick Mack's pub has a bar on one side and an old cobbler's workshop on the other.", link: "https://johnbennyspub.com/" },
+        { ime: "Siamsa Tíre folk theater", opis: "In Tralee, the national folk theater stages summer shows that portray old rural life through dance, song and music, without many words.", link: "https://siamsatire.com/" },
+        { ime: "Skellig Experience center", opis: "If you do not feel like climbing the crag or there is no room on the boat, the center on Valentia Island explains the life of the monks and offers cruises around the islands without landing.", link: "https://skelligexperience.com/" },
+        { ime: "Puck Fair", opis: "From August 10 to 12 in the small town of Killorglin, a wild mountain goat is crowned king and hoisted onto a high platform in the middle of the square, at one of Ireland's oldest fairs.", link: "https://puckfair.ie/" }
       ],
       agencije: [
-        { ime: "Nacionalni park Killarney", opis: "Službena stranica parka s kartama staza i informacijama o kući Muckross.", link: "https://www.nationalparks.ie/killarney/" },
-        { ime: "Dingle Peninsula Tourism Alliance", opis: "Službena turistička stranica poluotoka Dingle.", link: "https://dingle-peninsula.ie/" },
-        { ime: "Deros Tours", opis: "Obiteljski prijevoznik iz Killarneyja koji svakodnevno vozi vođene izlete autobusom po Ring of Kerryju i Dingleu.", link: "https://www.derostours.com/" }
+        { ime: "Killarney National Park", opis: "The park's official website, with trail maps and information on Muckross House.", link: "https://www.nationalparks.ie/killarney/" },
+        { ime: "Dingle Peninsula Tourism Alliance", opis: "The official tourism website for the Dingle Peninsula.", link: "https://dingle-peninsula.ie/" },
+        { ime: "Deros Tours", opis: "A family-run coach company from Killarney that operates daily guided bus tours of the Ring of Kerry and Dingle.", link: "https://www.derostours.com/" }
       ],
-      kada: "Od svibnja do rujna vidljivost je najbolja i vozi brod za Skellig. Izletnički autobusi voze Ring of Kerry suprotno od kazaljke na satu, pa ako vozite same, krenite istim smjerom i rano, kako se s njima ne biste mimoilazile na uskim zavojima."
+      kada: "From May to September visibility is at its best and the boat to Skellig is running. The tour buses drive the Ring of Kerry counterclockwise, so if you are driving yourselves, go in the same direction and set off early, so that you do not have to squeeze past them on the narrow bends."
     },
     {
       id: "cork-cobh",
-      ime: "Cork i Cobh",
+      ime: "Cork and Cobh",
       vrsta: "grad",
-      sazetak: "Drugi irski grad, ponosan i sladokusan, i šarena luka iz koje su milijuni Iraca zauvijek otplovili preko oceana.",
+      sazetak: "Ireland's second city, proud and food-loving, and the colorful port from which millions of Irish people sailed across the ocean for good.",
       prica: [
-        "Cork je izrastao oko samostana koji je, prema predaji, početkom 7. stoljeća osnovao sveti Finbarr, a središte mu leži na otoku između dvaju rukavaca rijeke Lee. Nadimak Buntovnička grofovija nosi od 15. stoljeća, a potvrdio ga je u ratu za neovisnost, kada su britanske snage 1920. spalile središte grada.",
-        "U 18. i 19. stoljeću odavde se u cijeli svijet izvozio maslac, a obližnja luka Cobh, koja se od 1849. do 1920. zvala Queenstown, bila je glavno polazište iseljenika. Procjenjuje se da je od 1848. do 1950. iz nje otputovalo oko dva i pol milijuna ljudi."
+        "Cork grew up around a monastery that, according to tradition, was founded by Saint Finbarr in the early 7th century, and its center lies on an island between two channels of the River Lee. It has carried the nickname the Rebel County since the 15th century and lived up to it in the War of Independence, when British forces burned the city center in 1920.",
+        "In the 18th and 19th centuries butter was exported from here all over the world, and the nearby port of Cobh, which was called Queenstown from 1849 to 1920, was the main departure point for emigrants. It is estimated that about two and a half million people left from it between 1848 and 1950."
       ],
       vidjeti: [
-        { ime: "English Market", opis: "Natkrivena tržnica radi od 1788. i jedna je od najstarijih te vrste u Europi. Ime je dobila po tome što su je osnovali protestantski gradski oci. Na štandovima potražite stare specijalitete Corka, začinjenu govedinu, tripice i krvavicu drisheen." },
-        { ime: "Zvona Shandona", opis: "Toranj crkve sv. Ane iz 1722. ima dvije strane od crvenog pješčenjaka i dvije od bijelog vapnenca, po čemu su nastale gradske boje. Posjetitelji se smiju popeti i sami odzvoniti melodiju na osam zvona. Sat na tornju zovu četveroličnim lašcem, jer nijedna od četiri strane ne pokazuje isto vrijeme." },
-        { ime: "Katedrala sv. Finbarra", opis: "Neogotičku katedralu s tri šiljata tornja projektirao je William Burges, a posvećena je 1870. Na vrhu svetišta stoji pozlaćeni anđeo s dvije trube, a legenda kaže da će zatrubiti kada dođe sudnji dan." },
-        { ime: "Gradski zatvor", opis: "Zgrada nalik dvorcu, otvorena 1824., prikazuje život zatvorenika 19. stoljeća, među kojima je bilo i djece zatvorene zbog krađe kruha. U ćelijama su sačuvani natpisi koje su po zidovima ostavili politički zatočenici dvadesetih godina 20. stoljeća." },
-        { ime: "Cobh i katedrala sv. Kolmana", opis: "Nad lukom se uzdiže katedrala koja se gradila od 1868. do 1919., s 49 zvona na kojima se sviraju melodije. Ispod nje niz šarenih kuća na strmoj ulici zovu špilom karata. Na obali stoji kip Annie Moore, djevojčice iz Corka koja je 1. siječnja 1892. bila prva useljenica upisana na otoku Ellis u New Yorku." },
-        { ime: "Titanic u Cobhu", opis: "U izvornoj zgradi ureda kompanije White Star Line prikazana je sudbina 123 putnika koji su se 11. travnja 1912. ovdje ukrcali na Titanic. Iza zgrade još strše ostaci drvenog pristaništa s kojeg su krenuli. Na obližnjem groblju pokopane su i žrtve broda Lusitania, torpediranog pred ovom obalom 1915." }
+        { ime: "English Market", opis: "The covered market has been trading since 1788 and is one of the oldest of its kind in Europe. It got its name because it was founded by the city's Protestant fathers. At the stalls, look for the old Cork specialties of spiced beef, tripe and the blood sausage drisheen." },
+        { ime: "The Shandon Bells", opis: "The tower of St. Anne's Church, from 1722, has two sides of red sandstone and two of white limestone, which gave rise to the city's colors. Visitors are allowed to climb up and ring out a tune on the eight bells themselves. The clock on the tower is known as the Four-Faced Liar, because no two of its four faces show the same time." },
+        { ime: "St. Fin Barre's Cathedral", opis: "The Gothic Revival cathedral with three spires was designed by William Burges and consecrated in 1870. On the top of the sanctuary stands a gilded angel with two trumpets, and legend has it that the angel will sound them when Judgment Day comes." },
+        { ime: "Cork City Gaol", opis: "The castle-like building, opened in 1824, shows the life of 19th-century prisoners, among whom were children locked up for stealing bread. Inscriptions left on the cell walls by political prisoners in the 1920s have been preserved." },
+        { ime: "Cobh and St. Colman's Cathedral", opis: "Rising above the harbor is the cathedral that was built between 1868 and 1919, with 49 bells on which tunes are played. Below it, a row of colorful houses on a steep street is known as the Deck of Cards. On the waterfront stands a statue of Annie Moore, a girl from Cork who on January 1, 1892 was the first immigrant registered at Ellis Island in New York." },
+        { ime: "The Titanic in Cobh", opis: "The original White Star Line office building tells the fate of the 123 passengers who boarded the Titanic here on April 11, 1912. Behind the building, the remains of the wooden pier they left from still jut out. The nearby cemetery also holds victims of the Lusitania, torpedoed off this coast in 1915." }
       ],
       jesti: [
-        { ime: "Začinjena govedina", opis: "Spiced beef, govedina tjednima marinirana u začinima, corkovski je božićni specijalitet koji se na tržnici prodaje cijele godine." },
-        { ime: "Crna krvavica iz Clonakiltyja", opis: "Najpoznatiji irski crni puding dolazi iz gradića na zapadu grofovije i u Corku se poslužuje i u otmjenim restoranima, uz kapice ili jabuke." },
-        { ime: "Murphy's i Beamish", opis: "Cork ima vlastita dva stouta, mekša i slađa od Guinnessa, i ovdje je pristojno naručiti jedan od njih." },
-        { ime: "Maslac i mliječni proizvodi", opis: "Grofovija je poznata po maslacu, vrhnju i sirevima s malih farmi, a priču o trgovini maslacem priča mali muzej u četvrti Shandon." }
+        { ime: "Spiced beef", opis: "Spiced beef, beef cured in spices for weeks, is a Cork Christmas specialty that is sold at the market all year round." },
+        { ime: "Clonakilty black pudding", opis: "Ireland's best known black pudding comes from a small town in the west of the county, and in Cork it is served even in elegant restaurants, with scallops or apples." },
+        { ime: "Murphy's and Beamish", opis: "Cork has two stouts of its own, softer and sweeter than Guinness, and here it is good manners to order one of them." },
+        { ime: "Butter and dairy products", opis: "The county is known for butter, cream and cheeses from small farms, and a small museum in the Shandon district tells the story of the butter trade." }
       ],
       dozivjeti: [
-        { ime: "Jutro na tržnici", opis: "Ako želite vidjeti što grad jede, prošećite kroz English Market i ručajte na galeriji iznad štandova, gdje se kuha od onoga što se prodaje dolje.", link: "https://www.corkcity.ie/en/english-market/" },
-        { ime: "Zvonjenje na Shandonu", opis: "Uspon uz usko stubište vodi pokraj mehanizma sata do vidikovca nad gradom, a notni zapisi za zvona čekaju na prvom katu.", link: "https://www.stanneshandon.ie/" },
-        { ime: "Škola kuhanja Ballymaloe", opis: "Na ekološkoj farmi istočno od grada najpoznatija irska škola kuhanja nudi jednodnevne i poludnevne tečajeve te šetnje vrtovima.", link: "https://www.ballymaloecookeryschool.ie/" },
-        { ime: "Centar baštine u Cobhu", opis: "U staroj željezničkoj postaji izložba prati put iseljenika, kažnjenika i putnika prekooceanskih brodova koji su odavde isplovili.", link: "https://cobhheritage.com/" }
+        { ime: "A morning at the market", opis: "If you want to see what the city eats, stroll through the English Market and have lunch on the gallery above the stalls, where they cook with what is sold below.", link: "https://www.corkcity.ie/en/english-market/" },
+        { ime: "Ringing the bells at Shandon", opis: "The climb up the narrow staircase takes you past the clock mechanism to a viewing balcony over the city, and the sheet music for the bells is waiting on the first floor.", link: "https://www.stanneshandon.ie/" },
+        { ime: "Ballymaloe Cookery School", opis: "On an organic farm east of the city, Ireland's best known cookery school offers one-day and half-day courses and garden walks.", link: "https://www.ballymaloecookeryschool.ie/" },
+        { ime: "Cobh Heritage Centre", opis: "In the old railway station, an exhibition follows the journey of the emigrants, convicts and ocean liner passengers who sailed from here.", link: "https://cobhheritage.com/" }
       ],
       agencije: [
-        { ime: "Pure Cork", opis: "Službeni turistički vodič grada i grofovije Cork.", link: "https://www.purecork.ie/" },
-        { ime: "Titanic Experience Cobh", opis: "Vođeni obilazak izvorne zgrade ureda kompanije White Star Line.", link: "https://titanicexperiencecobh.ie/" },
-        { ime: "Spike Island", opis: "Brodski izlet s vodičem na otok-tvrđavu u zaljevu, koji je sredinom 19. stoljeća bio jedan od najvećih zatvora na svijetu.", link: "https://www.spikeislandcork.ie/" }
+        { ime: "Pure Cork", opis: "The official tourist guide to the city and county of Cork.", link: "https://www.purecork.ie/" },
+        { ime: "Titanic Experience Cobh", opis: "A guided tour of the original White Star Line office building.", link: "https://titanicexperiencecobh.ie/" },
+        { ime: "Spike Island", opis: "A guided boat trip to the fortress island in the harbor, which in the mid-19th century was one of the largest prisons in the world.", link: "https://www.spikeislandcork.ie/" }
       ],
-      kada: "Najugodnije je od svibnja do rujna. Od Corka do Cobha vozi prigradski vlak koji za dvadeset i pet minuta stiže ravno na obalu, pa automobil nije potreban. Tržnica je zatvorena nedjeljom."
+      kada: "It is most pleasant from May to September. A commuter train runs from Cork to Cobh and reaches the waterfront in twenty-five minutes, so you do not need a car. The market is closed on Sundays."
     },
     {
       id: "kilkenny",
       ime: "Kilkenny",
       vrsta: "gradić",
-      sazetak: "Najbolje očuvan srednjovjekovni grad Irske, s dvorcem na jednom i katedralom na drugom kraju jedne ulice.",
+      sazetak: "Ireland's best preserved medieval town, with a castle at one end and a cathedral at the other end of a single street.",
       prica: [
-        "Ime znači Crkva svetog Kanisa, po samostanu iz 6. stoljeća, no grad kakav danas vidimo podigli su Anglo-Normani. Moćna obitelj Butler vladala je odavde gotovo šest stoljeća, a od 1642. do 1649. Kilkenny je nakratko bio i prijestolnica katoličke Irske, dok ga nije zauzeo Cromwell.",
-        "Zovu ga Mramornim gradom zbog crnog vapnenca s fosilima koji se ovdje vadi i kojim su popločene ulice. Danas je središte irskog obrta i dizajna te grofovija s najviše naslova prvaka u hurlingu."
+        "The name means the Church of Saint Canice, after a 6th-century monastery, but the town we see today was built by the Anglo-Normans. The powerful Butler family ruled from here for almost six centuries, and from 1642 to 1649 Kilkenny was briefly the capital of Catholic Ireland, until Cromwell took it.",
+        "It is called the Marble City because of the black fossil-bearing limestone that is quarried here and used to pave the streets. Today it is the center of Irish craft and design, and the county with the most hurling championship titles."
       ],
       vidjeti: [
-        { ime: "Dvorac Kilkenny", opis: "Tvrđavu iznad rijeke Nore podigao je krajem 12. stoljeća William Marshal, a obitelj Butler držala ju je od 1391. do 1935. godine. Građanima je 1967. prodana za simboličnih pedeset funti. U Dugoj galeriji pogledajte oslikani drveni strop i niz obiteljskih portreta." },
-        { ime: "Katedrala sv. Kanisa i okrugli toranj", opis: "Gotička katedrala iz 13. stoljeća čuva izvanrednu zbirku nadgrobnih spomenika od crnog kilkennyjskog mramora. Uz nju stoji trideset metara visok toranj iz 9. stoljeća, jedan od samo dva srednjovjekovna okrugla tornja u Irskoj na koje se može popeti." },
-        { ime: "Medieval Mile Museum", opis: "Muzej u crkvi sv. Marije iz 13. stoljeća čuva gradske povelje i raskošne renesansne grobnice trgovačkih obitelji. Odavde počinje Srednjovjekovna milja, šetnja koja uskim prolazima spaja dvorac i katedralu." },
-        { ime: "Kuća Rothe", opis: "Trgovac John Rothe sagradio je od 1594. do 1610. tri kuće jednu iza druge, povezane dvorištima, za svoju brojnu obitelj. Iza njih obnovljen je vrt s povrćem i voćkama kakve su se uzgajale u 17. stoljeću." },
-        { ime: "Crna opatija", opis: "Dominikanska crkva osnovana 1225. dobila je ime po crnim plaštevima redovnika. Njezin golemi vitraj s prizorima krunice zauzima gotovo cijeli južni zid." },
-        { ime: "Kyteler's Inn", opis: "Gostionica nosi ime Alice Kyteler, bogate vlasnice koja je 1324. optužena za vještičarenje nakon smrti četvrtog muža, u prvom takvom procesu u Irskoj. Ona je pobjegla iz zemlje, a umjesto nje spaljena je njezina sluškinja Petronilla." }
+        { ime: "Kilkenny Castle", opis: "The fortress above the River Nore was built at the end of the 12th century by William Marshal, and the Butler family held it from 1391 to 1935. In 1967 it was sold to the people of the town for a token fifty pounds. In the Long Gallery, look at the painted wooden ceiling and the row of family portraits." },
+        { ime: "St. Canice's Cathedral and round tower", opis: "The 13th-century Gothic cathedral holds an outstanding collection of tomb monuments in black Kilkenny marble. Beside it stands a thirty-meter tower from the 9th century, one of only two medieval round towers in Ireland that you can climb." },
+        { ime: "Medieval Mile Museum", opis: "The museum in the 13th-century St. Mary's Church holds the town charters and the lavish Renaissance tombs of merchant families. It is the starting point of the Medieval Mile, a walk that links the castle and the cathedral through narrow lanes." },
+        { ime: "Rothe House", opis: "Between 1594 and 1610 the merchant John Rothe built three houses one behind the other, linked by courtyards, for his large family. Behind them a garden has been restored with the vegetables and fruit trees that were grown in the 17th century." },
+        { ime: "Black Abbey", opis: "The Dominican church founded in 1225 got its name from the friars' black cloaks. Its enormous stained glass window with scenes of the rosary takes up almost the whole south wall." },
+        { ime: "Kyteler's Inn", opis: "The inn bears the name of Alice Kyteler, a wealthy owner who in 1324 was accused of witchcraft after the death of her fourth husband, in the first such trial in Ireland. She fled the country, and her maid Petronilla was burned in her place." }
       ],
       jesti: [
-        { ime: "Smithwick's", opis: "Crvenkasto pivo kuhalo se od 1710. na mjestu franjevačkog samostana, a izgovara se bez slova w, otprilike SMI-diks." },
-        { ime: "Pastrva iz Goatsbridgea", opis: "Dimljena i svježa pastrva s obiteljskog uzgajališta na rijeci Little Arrigle čest je sastojak predjela u ovdašnjim restoranima." },
-        { ime: "Jabukovača i sirevi iz okolice", opis: "Voćnjaci i male sirane grofovije opskrbljuju gradske restorane, a kušaju se i na tržnici četvrtkom ispred dvorca." }
+        { ime: "Smithwick's", opis: "This reddish ale was brewed from 1710 on the site of a Franciscan friary, and the name is pronounced without the w, roughly SMID-icks." },
+        { ime: "Goatsbridge trout", opis: "Smoked and fresh trout from a family farm on the Little Arrigle river is a frequent ingredient in starters in the restaurants here." },
+        { ime: "Cider and cheeses from the area", opis: "The county's orchards and small dairies supply the town's restaurants, and you can also taste their products at the Thursday market in front of the castle." }
       ],
       dozivjeti: [
-        { ime: "Priča o pivu", opis: "Vođeni obilazak Smithwick's Experience vodi kroz staru pivovaru i tri stoljeća kuhanja piva, uz kušanje na kraju.", link: "https://www.smithwicksexperience.com/" },
-        { ime: "Dizajn i obrt u dvorskim konjušnicama", opis: "Nasuprot dvorcu, u konjušnicama iz 18. stoljeća, šezdesetih godina 20. stoljeća osnovane su državne dizajnerske radionice. Danas su ondje trgovina irskog dizajna i izložbeni prostor.", link: "https://kilkennydesign.com/" },
-        { ime: "Lončarija i staklo u okolici", opis: "U selu Bennettsbridge keramičar Nicholas Mosse u starom mlinu oslikava posuđe spužvom, a nedaleko je i puhaonica stakla Jerpoint Glass, gdje se može gledati rad majstora.", link: "https://nicholasmosse.com/" },
-        { ime: "Glazba u Kyteler's Innu", opis: "U kamenom podrumu srednjovjekovne gostionice gotovo svake večeri svira se tradicijska glazba.", link: "https://www.kytelersinn.com/" }
+        { ime: "The story of beer", opis: "The guided Smithwick's Experience tour takes you through the old brewery and three centuries of brewing, with a tasting at the end.", link: "https://www.smithwicksexperience.com/" },
+        { ime: "Design and craft in the castle stables", opis: "Across from the castle, in the 18th-century stables, state design workshops were set up in the 1960s. Today they house an Irish design shop and an exhibition space.", link: "https://kilkennydesign.com/" },
+        { ime: "Pottery and glass in the area", opis: "In the village of Bennettsbridge, the potter Nicholas Mosse decorates tableware with sponges in an old mill, and nearby is the Jerpoint Glass studio, where you can watch the glassblowers at work.", link: "https://nicholasmosse.com/" },
+        { ime: "Music at Kyteler's Inn", opis: "In the stone cellar of the medieval inn, traditional music is played almost every evening.", link: "https://www.kytelersinn.com/" }
       ],
       agencije: [
-        { ime: "Visit Kilkenny", opis: "Službeni turistički vodič grada i grofovije.", link: "https://visitkilkenny.ie/" },
-        { ime: "Kilkenny Walking Tours", opis: "Lokalni vodiči koji svakodnevno vode šetnje srednjovjekovnim središtem.", link: "https://kilkennywalkingtours.ie/" },
-        { ime: "Heritage Ireland", opis: "Državna služba koja upravlja dvorcem Kilkenny i objavljuje radno vrijeme i cijene.", link: "https://heritageireland.ie/places-to-visit/kilkenny-castle/" }
+        { ime: "Visit Kilkenny", opis: "The official tourist guide to the town and county.", link: "https://visitkilkenny.ie/" },
+        { ime: "Kilkenny Walking Tours", opis: "Local guides who lead daily walks through the medieval center.", link: "https://kilkennywalkingtours.ie/" },
+        { ime: "Heritage Ireland", opis: "The state service that manages Kilkenny Castle and publishes opening hours and prices.", link: "https://heritageireland.ie/places-to-visit/kilkenny-castle/" }
       ],
-      kada: "Grad je ugodan od travnja do listopada, a u kolovozu ga oživi festival umjetnosti. Od Dublina je vlakom udaljen oko sat i pol, pa je zgodna stanica na putu prema jugu."
+      kada: "The town is pleasant from April to October, and in August the arts festival brings it to life. It is about an hour and a half from Dublin by train, which makes it a handy stop on the way south."
     },
     {
       id: "connemara-aran",
-      ime: "Connemara i Aranski otoci",
+      ime: "Connemara and the Aran Islands",
       vrsta: "regija",
-      sazetak: "Tresetišta, planine i kameni otoci zapadno od Galwaya, kraj u kojem se govori irski i gdje se krajolik čini starijim od povijesti.",
+      sazetak: "Bogs, mountains and stone islands west of Galway, a land where Irish is spoken and the landscape seems older than history.",
       prica: [
-        "Connemara je rijetko naseljeno područje jezera, tresetišta i golih planina koje je Oscar Wilde opisao kao divlju ljepotu. U Cromwellovo doba ovamo su protjerivani irski katolici kojima je oduzeta bolja zemlja, a Velika glad pogodila je kraj teže nego ijedan drugi.",
-        "Tri Aranska otoka, Inis Mór, Inis Meáin i Inis Oírr, vapnenačke su ploče na ulazu u zaljev Galway, geološki nastavak Burrena. Otočani su stoljećima sami stvarali tlo, miješajući pijesak i morske alge na goloj stijeni, a svoja sićušna polja ogradili su suhozidima čija se ukupna duljina procjenjuje na više od 1500 kilometara."
+        "Connemara is a sparsely populated area of lakes, bogs and bare mountains that Oscar Wilde described as a savage beauty. In Cromwell's time, Irish Catholics whose better land had been confiscated were driven out here, and the Great Famine hit the area harder than any other.",
+        "The three Aran Islands, Inis Mór, Inis Meáin and Inis Oírr, are limestone slabs at the mouth of Galway Bay, a geological continuation of the Burren. For centuries the islanders made their own soil, mixing sand and seaweed on the bare rock, and they fenced their tiny fields with dry stone walls whose total length is estimated at more than 1,500 kilometers."
       ],
       vidjeti: [
-        { ime: "Opatija Kylemore", opis: "Dvorac na obali jezera sagradio je od 1867. do 1871. liječnik i poduzetnik Mitchell Henry kao dar supruzi Margaret. Kada je ona nekoliko godina poslije umrla, u spomen joj je podigao malu neogotičku crkvu nalik katedrali u malom. Od 1920. ovdje žive benediktinke koje su u Prvom svjetskom ratu izbjegle iz belgijskog Ypresa." },
-        { ime: "Nacionalni park Connemara", opis: "Park kod sela Letterfrack obuhvaća tresetišta, vrištine i dio planinskog lanca Dvanaest Benova. Uređena kružna staza vodi na Diamond Hill, visok 442 metra, s kojeg se vide otoci, opatija Kylemore i ocean. Putem ćete sresti poludivlje ponije." },
-        { ime: "Clifden i Sky Road", opis: "Glavni gradić Connemare polazište je uske kružne ceste koja se penje iznad zaljeva i otoka. Južno od grada, u tresetištu Derrigimlagh, John Alcock i Arthur Brown prisilno su sletjeli 15. lipnja 1919. nakon prvog leta preko Atlantika bez zaustavljanja." },
-        { ime: "Killary", opis: "Šesnaest kilometara dug morski zaljev među planinama često se naziva jedinim irskim fjordom. Uz obalu se vide redovi plutača na kojima se uzgajaju dagnje, a na obroncima brazde napuštenih krumpirišta iz vremena Velike gladi." },
-        { ime: "Dún Aonghasa", opis: "Prapovijesna utvrda na najvećem Aranskom otoku ima tri polukružna kamena bedema koji završavaju na samom rubu stotinjak metara visoke litice, bez ikakve ograde. Najstariji dijelovi potječu iz vremena oko 1100. godine prije Krista. Ispred bedema potražite pojas gusto zabijenog oštrog kamenja, koje je napadačima otežavalo prilaz." },
-        { ime: "Inis Oírr", opis: "Najmanji otok obilazi se pješice ili u kolima s konjem za nekoliko sati. Na obali leži zahrđala olupina teretnog broda Plassey, koji se nasukao 1960., a otočani su tada užetom spasili cijelu posadu." }
+        { ime: "Kylemore Abbey", opis: "The castle on the lakeshore was built between 1867 and 1871 by the doctor and businessman Mitchell Henry as a gift to his wife Margaret. When she died a few years later, he raised a small Gothic Revival church in her memory, like a cathedral in miniature. Since 1920 it has been home to Benedictine nuns who fled Ypres in Belgium during the First World War." },
+        { ime: "Connemara National Park", opis: "The park near the village of Letterfrack takes in bogs, heaths and part of the Twelve Bens mountain range. A well-made loop trail leads up Diamond Hill, 442 meters high, from which you can see the islands, Kylemore Abbey and the ocean. Along the way you will meet semi-wild ponies." },
+        { ime: "Clifden and the Sky Road", opis: "The main town of Connemara is the starting point of a narrow circular road that climbs above the bay and the islands. South of the town, in the Derrigimlagh bog, John Alcock and Arthur Brown crash-landed on June 15, 1919 after the first nonstop flight across the Atlantic." },
+        { ime: "Killary", opis: "The sixteen-kilometer sea inlet among the mountains is often called Ireland's only fjord. Along the shore you can see rows of floats on which mussels are farmed, and on the slopes the ridges of abandoned potato fields from the time of the Great Famine." },
+        { ime: "Dún Aonghasa", opis: "The prehistoric fort on the largest of the Aran Islands has three semicircular stone ramparts that end at the very edge of a cliff about a hundred meters high, with no railing at all. The oldest parts date from around 1100 BC. In front of the ramparts, look for the band of densely planted sharp stones that made the approach harder for attackers." },
+        { ime: "Inis Oírr", opis: "The smallest island can be explored on foot or by pony and trap in a few hours. On the shore lies the rusting wreck of the cargo ship Plassey, which ran aground in 1960, when the islanders rescued the whole crew by rope." }
       ],
       jesti: [
-        { ime: "Janjetina iz Connemare", opis: "Janjad koja pase na brdima uz more jede vrijesak i travu, pa meso ima poseban okus i zaštićenu oznaku podrijetla." },
-        { ime: "Dagnje iz Killaryja", opis: "Dagnje uzgojene u fjordu kuhaju se na pari s češnjakom i vrhnjem u gostionicama u Leenaneu i Letterfracku." },
-        { ime: "Dimljeni losos i rakovica", opis: "Male dimionice na obali Connemare dime losos po starim obiteljskim receptima, a u ribarskom selu Roundstoneu jedu se svježe rakovice." },
-        { ime: "Aranski kozji sir", opis: "Na otoku Inis Mór mala sirana proizvodi svježi kozji sir, koji se nudi u otočnim kafićima uz tamni kruh." }
+        { ime: "Connemara lamb", opis: "The lambs that graze on the hills by the sea eat heather and grass, so the meat has a distinctive flavor and a protected designation of origin." },
+        { ime: "Killary mussels", opis: "Mussels farmed in the fjord are steamed with garlic and cream in the inns of Leenane and Letterfrack." },
+        { ime: "Smoked salmon and crab", opis: "Small smokehouses on the Connemara coast smoke salmon to old family recipes, and in the fishing village of Roundstone you can eat fresh crab." },
+        { ime: "Aran goat cheese", opis: "On the island of Inis Mór a small dairy makes fresh goat cheese, which the island cafés serve with brown bread." }
       ],
       dozivjeti: [
-        { ime: "Biciklom po otoku Inis Mór", opis: "Bicikl se unajmljuje odmah na pristaništu u Kilronanu, a do utvrde Dún Aonghasa vodi mirna obalna cesta uz koloniju tuljana. Brodovi plove cijele godine iz luke Rossaveel, a u sezoni i iz samog Galwaya.", link: "https://www.aranislandferries.com/" },
-        { ime: "Vožnja brodom po Killaryju", opis: "Ako želite vidjeti fjord s vode i čuti priču o uzgoju školjaka, katamaran isplovljava iz mjesta Nancy's Point kod Leenanea.", link: "https://killaryfjord.ie/" },
-        { ime: "Uspon na Diamond Hill", opis: "Kružna staza od posjetiteljskog centra nacionalnog parka traje dva do tri sata i dobro je uređena, s drvenim stazama preko tresetišta.", link: "https://www.nationalparks.ie/connemara/" },
-        { ime: "Aranski pleteni džemperi", opis: "Poznati vuneni džemperi s pletenicama pletu se na otocima od početka 20. stoljeća. Priča da je svaka obitelj imala svoj uzorak, po kojem bi se prepoznao utopljeni ribar, lijepa je legenda, a ne povijesna činjenica. Na otoku Inis Meáin radi pletionica koja izvozi u cijeli svijet.", link: "https://inismeain.ie/" }
+        { ime: "By bike around Inis Mór", opis: "You can rent a bike right on the pier in Kilronan, and a quiet coastal road leads to the fort of Dún Aonghasa past a seal colony. Boats sail all year from the port of Rossaveel, and in season from Galway itself too.", link: "https://www.aranislandferries.com/" },
+        { ime: "A boat trip on Killary", opis: "If you want to see the fjord from the water and hear the story of shellfish farming, a catamaran sets sail from Nancy's Point near Leenane.", link: "https://killaryfjord.ie/" },
+        { ime: "Climbing Diamond Hill", opis: "The loop trail from the national park visitor center takes two to three hours and is well laid out, with boardwalks over the bog.", link: "https://www.nationalparks.ie/connemara/" },
+        { ime: "Aran knitted sweaters", opis: "The famous cable-knit woolen sweaters have been knitted on the islands since the early 20th century. The story that every family had its own pattern, by which a drowned fisherman could be identified, is a lovely legend rather than a historical fact. On the island of Inis Meáin there is a knitwear company that exports all over the world.", link: "https://inismeain.ie/" }
       ],
       agencije: [
-        { ime: "Connemara.ie", opis: "Turistički vodič regije sa sjedištem u Clifdenu.", link: "https://connemara.ie/" },
-        { ime: "Aran Islands", opis: "Turistička stranica triju Aranskih otoka s redom plovidbe i smještajem.", link: "https://www.aranislands.ie/" },
-        { ime: "Heritage Ireland, Dún Aonghasa", opis: "Državna služba koja upravlja utvrdom i posjetiteljskim centrom.", link: "https://heritageireland.ie/places-to-visit/dun-aonghasa/" }
+        { ime: "Connemara.ie", opis: "A tourist guide to the region, based in Clifden.", link: "https://connemara.ie/" },
+        { ime: "Aran Islands", opis: "The tourism website for the three Aran Islands, with sailing timetables and accommodation.", link: "https://www.aranislands.ie/" },
+        { ime: "Heritage Ireland, Dún Aonghasa", opis: "The state service that manages the fort and the visitor center.", link: "https://heritageireland.ie/places-to-visit/dun-aonghasa/" }
       ],
-      kada: "Od svibnja do rujna more je najmirnije, a dani najdulji. Na otocima ponesite vjetrovku i gotovinu, a kod utvrde Dún Aonghasa ne prilazite rubu litice, osobito po vjetru. U kolovozu se u Clifdenu održava velika smotra connemarskih ponija."
+      kada: "From May to September the sea is calmest and the days are longest. Bring a windbreaker and cash to the islands, and at the fort of Dún Aonghasa do not go near the cliff edge, especially when it is windy. In August Clifden hosts a big Connemara pony show."
     }
   ],
   izvori: [
-    { ime: "Ireland.com, službeni turistički vodič Irske", url: "https://www.ireland.com/" },
+    { ime: "Ireland.com, the official tourist guide to Ireland", url: "https://www.ireland.com/" },
     { ime: "Discover Ireland", url: "https://www.discoverireland.ie/" },
     { ime: "Heritage Ireland", url: "https://heritageireland.ie/" },
     { ime: "National Parks of Ireland", url: "https://www.nationalparks.ie/" },
@@ -318,7 +318,7 @@ window.ATLAS["irska"] = {
     { ime: "Kilmainham Gaol Museum", url: "https://www.kilmainhamgaolmuseum.ie/" },
     { ime: "Cliffs of Moher Experience", url: "https://www.cliffsofmoher.ie/" },
     { ime: "Burren and Cliffs of Moher UNESCO Global Geopark", url: "https://www.burrengeopark.ie/" },
-    { ime: "UNESCO, nematerijalna baština: hurling", url: "https://ich.unesco.org/en/RL/hurling-01263" },
+    { ime: "UNESCO, intangible heritage: hurling", url: "https://ich.unesco.org/en/RL/hurling-01263" },
     { ime: "Comhaltas Ceoltóirí Éireann", url: "https://comhaltas.ie/" },
     { ime: "Galway Tourism", url: "https://www.galwaytourism.ie/best-traditional-music-pubs/" }
   ]

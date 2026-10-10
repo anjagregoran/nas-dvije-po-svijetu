@@ -1,299 +1,299 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["egipat"] = {
   id: "egipat",
-  ime: "Egipat",
-  regija: "Sjeverna Afrika",
-  sazetak: "Pet tisuća godina povijesti nanizano uz jednu rijeku, od piramida do hramova čiji se zidovi čitaju kao knjiga.",
+  ime: "Egypt",
+  regija: "North Africa",
+  sazetak: "Five thousand years of history strung along a single river, from the pyramids to temples whose walls read like a book.",
   uvod: [
-    "Egipat je dar Nila, kako je zapisao Herodot, jer gotovo svi Egipćani žive na uskoj zelenoj traci uz rijeku, a sve ostalo je pustinja. Oko 3100. prije Krista Gornji i Donji Egipat ujedinjeni su pod jednim vladarom i otada se niže trideset dinastija faraona, koje povjesničari dijele na Staro kraljevstvo graditelja piramida, Srednje kraljevstvo i Novo kraljevstvo velikih hramova u Luksoru. Poslije su došli Perzijanci, Aleksandar Veliki i Ptolemejevići, Rim, kršćanski Kopti, Arapi 641. godine, Mameluci, Osmanlije i Britanci.",
-    "Putnice ovdje najčešće muči to što svi hramovi nakon trećeg dana počnu sličiti jedan drugome. Zato ovaj vodič objašnjava što točno gledate: koji je faraon gradio, kojem je bogu hram posvećen i kako se prepoznaju likovi na zidu. Dovoljno je zapamtiti nekoliko znakova, primjerice da je ovalni okvir oko hijeroglifa kraljevo ime, da sokolova glava znači Horusa, a šakalova Anubisa, i zidovi odjednom počnu govoriti."
+    "Egypt is the gift of the Nile, as Herodotus wrote, because almost all Egyptians live on the narrow green strip along the river, and everything else is desert. Around 3100 BC Upper and Lower Egypt were united under one ruler, and thirty dynasties of pharaohs follow from that point, which historians divide into the Old Kingdom of the pyramid builders, the Middle Kingdom and the New Kingdom of the great temples at Luxor. After them came the Persians, Alexander the Great and the Ptolemies, Rome, the Christian Copts, the Arabs in 641, the Mamluks, the Ottomans and the British.",
+    "The most common frustration for travelers here is that after the third day all the temples start to look alike. That is why this guide explains exactly what you are looking at: which pharaoh built it, which god the temple is dedicated to and how to recognize the figures on the wall. You only need to remember a few signs, for example that an oval frame around hieroglyphs holds a king's name, that a falcon's head means Horus and a jackal's head Anubis, and the walls suddenly begin to speak."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od listopada do travnja. Ljeti je u Luksoru i Asuanu redovito iznad 40 stupnjeva, a zimi su jutra u pustinji svježa." },
-    { k: "Valuta", v: "Egipatska funta (EGP). Ulaznice za većinu državnih nalazišta i muzeja plaćaju se isključivo karticom, a sitna gotovina treba za napojnice i tržnice." },
-    { k: "Kretanje", v: "Između Kaira, Luksora i Asuana leti se ili putuje vlakom, i noćnim sa spavaćim kolima. U Kairu su najpraktičniji prijevoz po pozivu i metro, a između Luksora i Asuana krstarenje." },
-    { k: "Napojnica", v: "Bakšiš je dio svakodnevice: sitan iznos daje se čuvarima, nosačima i osoblju u toaletima, u restoranu 10 do 15 posto, a vodičima i vozačima više." },
-    { k: "Kako čitati hram", v: "Svaki je hram građen kao put od svjetla prema tami. Prolazi se kroz pilon s dva tornja, otvoreno dvorište za puk i dvoranu sa stupovima u obliku papirusa, sve do malog svetišta s kipom boga. Pritom se pod diže, strop spušta i prostor postaje sve tamniji." },
-    { k: "Kako prepoznati bogove", v: "Amon nosi krunu s dva visoka pera, Horus ima glavu sokola, Anubis šakala, Tot ibisa, Sekmet lavice, Hator kravlje rogove sa sunčevim diskom, Izida prijestolje na glavi, a Oziris je zelene kože, umotan kao mumija. Bijela kruna označava Gornji, a crvena Donji Egipat." }
+    { k: "When to go", v: "From October to April. In summer Luxor and Aswan are regularly above 40 degrees Celsius, and in winter the desert mornings are cool." },
+    { k: "Currency", v: "Egyptian pound (EGP). Tickets for most state-run sites and museums can be paid for by card only, while small cash is needed for tips and markets." },
+    { k: "Getting around", v: "Between Cairo, Luxor and Aswan you fly or take the train, including the overnight sleeper. In Cairo, ride-hailing and the metro are the most practical, and between Luxor and Aswan a cruise." },
+    { k: "Tipping", v: "Baksheesh is part of everyday life: a small amount is given to guards, porters and restroom attendants, 10 to 15 percent in a restaurant, and more to guides and drivers." },
+    { k: "How to read a temple", v: "Every temple is built as a path from light into darkness. You pass through a pylon with two towers, an open courtyard for the common people and a hall with columns shaped like papyrus, all the way to a small sanctuary holding the statue of the god. Along the way the floor rises, the ceiling drops and the space grows darker and darker." },
+    { k: "How to recognize the gods", v: "Amun wears a crown with two tall plumes, Horus has the head of a falcon, Anubis of a jackal, Thoth of an ibis, Sekhmet of a lioness, Hathor has cow's horns with a sun disk, Isis has a throne on her head, and Osiris is green-skinned and wrapped like a mummy. The white crown stands for Upper Egypt and the red crown for Lower Egypt." }
   ],
   hrana: [
-    { ime: "Koshari", opis: "Riža, leća, tjestenina i slanutak pod umakom od rajčice, s hrskavim prženim lukom, octom s češnjakom i ljutim umakom.", prica: "Nacionalno je jelo koje spaja indijski kichri britanskih vojnika i talijansku tjesteninu, a nastalo je u Kairu u 19. stoljeću. Jede se u radnjama koje ne kuhaju ništa drugo, iz metalnih zdjela, a veličina porcije bira se pri narudžbi. UNESCO ga je 2025. upisao na popis nematerijalne baštine." },
-    { ime: "Ful medames", opis: "Bob kuhan cijelu noć u bakrenom vrču, zgnječen s uljem, limunom i kuminom.", prica: "Doručak je bogatih i siromašnih još od faraonskih vremena. Jede se s kruhom aish baladi, a riječ aish u Egiptu znači i kruh i život." },
-    { ime: "Ta'ameya", opis: "Egipatski falafel, koji se umjesto od slanutka radi od boba, s mnogo zelenog začinskog bilja.", prica: "Iznutra je jarko zelena i sočnija od levantske inačice. Mnogi smatraju da je falafel upravo u Egiptu i nastao, među Koptima koji su tražili hranu za posne dane." },
-    { ime: "Molokhia", opis: "Gusta zelena juha od sjeckanog lišća jute, s češnjakom i korijandrom prženima na maslacu.", prica: "Sluzava je i mirisna, a jede se s rižom i piletinom ili zečetinom. Kuharica u trenutku kada vreli češnjak ubaci u lonac tradicionalno glasno udahne, što se zove shahqa. Fatimidski kalif al-Hakim jelo je u 11. stoljeću čak zabranio." },
-    { ime: "Mahshi", opis: "Tikvice, patlidžani, paprike, listovi loze i kupusa punjeni začinjenom rižom.", prica: "Jelo je obiteljskih okupljanja, jer se rola satima i u društvu. Egipatska inačica obično je bez mesa, s mnogo kopra i rajčice." },
-    { ime: "Hamam mahshi", opis: "Golub punjen rižom ili zelenom pšenicom freekeh, pečen dok koža ne postane hrskava.", prica: "Golubovi se uzgajaju u stožastim tornjevima od blata koje ćete vidjeti uz Nil. Smatra se svečanim jelom i poslužuje mladencima." },
-    { ime: "Feteer meshaltet", opis: "Lisnata pita od tijesta razvučenog u prozirno tanke slojeve s pročišćenim maslacem.", prica: "Potječe iz starog Egipta, gdje se prinosila bogovima. Jede se slatka, s medom i vrhnjem, ili slana, sa sirom, a majstor tijesto razvlači bacajući ga zrakom." },
-    { ime: "Om Ali", opis: "Topla slastica od lisnatog tijesta namočenog u mlijeko, s orašastim plodovima, grožđicama i kokosom.", prica: "Ime znači „Alijeva majka“, a predaja je veže uz krvavu dvorsku spletku iz 13. stoljeća, nakon koje je slastica podijeljena narodu u znak slavlja." },
-    { ime: "Karkade i sok od šećerne trske", opis: "Rubinski napitak od cvjetova hibiskusa, topao ili hladan, te svježe prešan sok trske.", prica: "Karkade je piće Asuana i Nubije, kojim se dočekuju gosti. Sok od trske, asab, cijedi se pred vama na svakom uglu i pije odmah, dok ne potamni." }
+    { ime: "Koshari", opis: "Rice, lentils, pasta and chickpeas under a tomato sauce, with crispy fried onions, garlic vinegar and hot sauce.", prica: "It is the national dish, bringing together the Indian khichri of British soldiers and Italian pasta, and it came into being in Cairo in the 19th century. It is eaten in shops that cook nothing else, from metal bowls, and you choose the portion size when you order. UNESCO added it to its list of intangible heritage in 2025." },
+    { ime: "Ful medames", opis: "Fava beans cooked all night in a copper jug, mashed with oil, lemon and cumin.", prica: "It has been the breakfast of rich and poor alike since the time of the pharaohs. It is eaten with aish baladi bread, and the word aish in Egypt means both bread and life." },
+    { ime: "Ta'ameya", opis: "Egyptian falafel, made from fava beans instead of chickpeas, with plenty of green herbs.", prica: "It is bright green inside and juicier than the Levantine version. Many believe that falafel actually originated in Egypt, among Copts who were looking for food for fasting days." },
+    { ime: "Molokhia", opis: "A thick green soup of chopped jute leaves, with garlic and coriander fried in butter.", prica: "It is silky, almost slippery, and fragrant, and it is eaten with rice and chicken or rabbit. At the moment the sizzling garlic goes into the pot, the cook traditionally gasps out loud, which is called shahqa. The Fatimid caliph al-Hakim went so far as to ban the dish in the 11th century." },
+    { ime: "Mahshi", opis: "Zucchini, eggplant, peppers, grape leaves and cabbage leaves stuffed with seasoned rice.", prica: "It is a dish of family gatherings, because the rolling takes hours and is done in company. The Egyptian version is usually meatless, with plenty of dill and tomato." },
+    { ime: "Hamam mahshi", opis: "Pigeon stuffed with rice or the green wheat called freekeh, roasted until the skin turns crisp.", prica: "The pigeons are raised in conical mud towers that you will see along the Nile. It is considered a festive dish and is served to newlyweds." },
+    { ime: "Feteer meshaltet", opis: "A flaky pie of dough stretched into paper-thin layers with clarified butter.", prica: "It goes back to ancient Egypt, where it was offered to the gods. It is eaten sweet, with honey and cream, or savory, with cheese, and the baker stretches the dough by tossing it through the air." },
+    { ime: "Om Ali", opis: "A warm dessert of puff pastry soaked in milk, with nuts, raisins and coconut.", prica: "The name means “Ali's mother”, and tradition ties it to a bloody court intrigue of the 13th century, after which the dessert was handed out to the people in celebration." },
+    { ime: "Karkade and sugarcane juice", opis: "A ruby-red drink of hibiscus flowers, hot or cold, and freshly pressed cane juice.", prica: "Karkade is the drink of Aswan and Nubia, used to welcome guests. Cane juice, asab, is pressed in front of you on every corner and drunk at once, before it darkens." }
   ],
   obicaji: [
-    { ime: "Ahwa", opis: "Tradicionalna kavana u kojoj se pije čaj i turska kava, puši nargila i igra tavla. Nekad isključivo muški prostor, danas je u gradovima sve češće mješovit.", gdje: "Kavana El Fishawy na tržnici Khan el-Khalili u Kairu, koja radi naraštajima, te kavane uz obalu u Aleksandriji." },
-    { ime: "Tanoura", opis: "Egipatska inačica sufijske vrtnje u kojoj plesači u teškim šarenim suknjama kruže i po pola sata bez stanke, uz bubnjeve i zurne. Vrtnja predstavlja kretanje nebeskih tijela i put duše prema Bogu.", gdje: "Predstave u mamelučkom karavan-saraju Wikala al-Ghuri u islamskom Kairu." },
-    { ime: "Sham el-Nessim", opis: "Proljetni blagdan star oko 4500 godina slave svi Egipćani, bez obzira na vjeru, u ponedjeljak nakon koptskog Uskrsa. Izlazi se na piknik uz Nil, a jedu se obojena jaja, mladi luk i usoljena riba feseekh.", gdje: "U parkovima i na obalama Nila diljem zemlje, u travnju ili svibnju." },
-    { ime: "Ramazanski fenjeri", opis: "Šareni limeni fenjeri fanous ukrašavaju ulice i balkone tijekom mjeseca posta. Običaj se pripisuje fatimidskom Kairu 10. stoljeća, kada je narod svjetiljkama dočekao kalifa.", gdje: "Radionice i štandovi u četvrti Sayyida Zeinab i oko vrata Bab Zuweila u Kairu, u tjednima pred ramazan." },
-    { ime: "Khayamiya", opis: "Šatorari od šarenih komada pamuka ručno šivaju aplikacije s arabeskama i prizorima iz faraonskog Egipta, kakvima su se nekad ukrašavali šatori za svadbe i sprovode.", gdje: "Natkrivena Ulica šatorara iz 17. stoljeća, južno od vrata Bab Zuweila u Kairu." },
-    { ime: "Tahtib", opis: "Borba i ples s dugim štapovima uz glazbu prikazana je već na zidovima grobnica starog Egipta. UNESCO ju je upisao 2016.", gdje: "Na svadbama i svetkovinama u Gornjem Egiptu, osobito oko Luksora." },
-    { ime: "Nubijska kultura", opis: "Nubijci na jugu imaju vlastite jezike, glazbu i kuće kupolastih krovova oslikane jarkim bojama. Mnoga su njihova sela potopljena izgradnjom Asuanske brane, pa sjećanje čuvaju pjesmom.", gdje: "Sela Gharb Soheil i otok Elefantina kod Asuana te Nubijski muzej." }
+    { ime: "Ahwa", opis: "A traditional coffeehouse where people drink tea and Turkish coffee, smoke a water pipe and play backgammon. Once an exclusively male space, in the cities it is now increasingly mixed.", gdje: "The El Fishawy coffeehouse in the Khan el-Khalili bazaar in Cairo, which has been open for generations, and the coffeehouses along the waterfront in Alexandria." },
+    { ime: "Tanoura", opis: "The Egyptian version of Sufi whirling, in which dancers in heavy, colorful skirts spin for as long as half an hour without a break, to drums and reed pipes. The whirling represents the movement of the heavenly bodies and the soul's journey toward God.", gdje: "Performances in the Mamluk caravanserai Wikala al-Ghuri in Islamic Cairo." },
+    { ime: "Sham el-Nessim", opis: "A spring festival about 4,500 years old is celebrated by all Egyptians, regardless of religion, on the Monday after Coptic Easter. People go out for a picnic by the Nile and eat colored eggs, green onions and the salted fish called feseekh.", gdje: "In parks and on the banks of the Nile all over the country, in April or May." },
+    { ime: "Ramadan lanterns", opis: "Colorful tin lanterns called fanous decorate streets and balconies during the month of fasting. The custom is attributed to Fatimid Cairo of the 10th century, when the people welcomed the caliph with lamps.", gdje: "Workshops and stalls in the Sayyida Zeinab district and around the Bab Zuweila gate in Cairo, in the weeks before Ramadan." },
+    { ime: "Khayamiya", opis: "Tentmakers hand-stitch appliqué work from colorful pieces of cotton, with arabesques and scenes from pharaonic Egypt, of the kind once used to decorate tents for weddings and funerals.", gdje: "The covered Street of the Tentmakers from the 17th century, south of the Bab Zuweila gate in Cairo." },
+    { ime: "Tahtib", opis: "A combat and dance with long sticks set to music, already depicted on the walls of ancient Egyptian tombs. UNESCO listed it in 2016.", gdje: "At weddings and festivals in Upper Egypt, especially around Luxor." },
+    { ime: "Nubian culture", opis: "The Nubians in the south have their own languages, music and domed houses painted in bright colors. Many of their villages were flooded by the building of the Aswan Dam, so they keep the memory alive in song.", gdje: "The village of Gharb Soheil and Elephantine Island near Aswan, and the Nubian Museum." }
   ],
   fraze: [
-    { izvorno: "Salam alaykum", izgovor: "sa-LAM a-LEJ-kum", hr: "Mir s vama (pozdrav)" },
-    { izvorno: "Izzayak?", izgovor: "iz-ZA-jak", hr: "Kako si? (muškarcu; ženi: izzayik)" },
-    { izvorno: "Shukran", izgovor: "ŠUK-ran", hr: "Hvala" },
-    { izvorno: "Min fadlak", izgovor: "min FAD-lak", hr: "Molim vas (muškarcu; ženi: min fadlik)" },
-    { izvorno: "La, shukran", izgovor: "la, ŠUK-ran", hr: "Ne, hvala" },
-    { izvorno: "Bikam da?", izgovor: "bi-KAM da", hr: "Koliko ovo košta?" },
-    { izvorno: "Mashi", izgovor: "MA-ši", hr: "U redu, može" },
-    { izvorno: "Ma'a as-salama", izgovor: "MA-a sa-LA-ma", hr: "Doviđenja" }
+    { izvorno: "Salam alaykum", izgovor: "sah-LAHM ah-LAY-koom", hr: "Peace be upon you (a greeting)" },
+    { izvorno: "Izzayak?", izgovor: "iz-ZAY-yak", hr: "How are you? (to a man; to a woman: izzayik)" },
+    { izvorno: "Shukran", izgovor: "SHOOK-ran", hr: "Thank you" },
+    { izvorno: "Min fadlak", izgovor: "min FAD-lak", hr: "Please (to a man; to a woman: min fadlik)" },
+    { izvorno: "La, shukran", izgovor: "lah, SHOOK-ran", hr: "No, thank you" },
+    { izvorno: "Bikam da?", izgovor: "bee-KAM dah", hr: "How much is this?" },
+    { izvorno: "Mashi", izgovor: "MAH-shee", hr: "All right, okay" },
+    { izvorno: "Ma'a as-salama", izgovor: "MAH-ah sah-LAH-mah", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Kleopatra je živjela vremenski bliže slijetanju čovjeka na Mjesec nego gradnji Keopsove piramide.",
-    "Piramide su gradili plaćeni radnici, čije je naselje s pekarama i pivovarama pronađeno kraj Gize, pa priča o robovima ne stoji.",
-    "Hijeroglifi se čitaju prema licima životinja i ljudi: ako gledaju ulijevo, čita se slijeva nadesno.",
-    "Ramzes II. vladao je 66 godina i imao, prema natpisima, stotinjak djece.",
-    "Egipatski su radnici u Deir el-Medini oko 1157. prije Krista organizirali prvi zabilježeni štrajk u povijesti, jer im je kasnila plaća u žitu.",
-    "Nil teče s juga na sjever, pa je Gornji Egipat na jugu, a Donji na sjeveru.",
-    "Jedan od dvaju obeliska iz hrama u Luksoru od 1836. stoji na Trgu Concorde u Parizu.",
-    "Champollion je hijeroglife odgonetnuo 1822. uz pomoć kamena iz Rosette, na kojem je isti tekst uklesan trima pismima."
+    "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid of Khufu.",
+    "The pyramids were built by paid workers, whose settlement with bakeries and breweries was found near Giza, so the story about slaves does not hold up.",
+    "Hieroglyphs are read toward the faces of the animals and people: if they look to the left, you read from left to right.",
+    "Ramesses II reigned for 66 years and, according to inscriptions, had about a hundred children.",
+    "Around 1157 BC, Egyptian workers at Deir el-Medina organized the first recorded strike in history, because their grain wages were late.",
+    "The Nile flows from south to north, so Upper Egypt is in the south and Lower Egypt in the north.",
+    "One of the two obelisks from the temple at Luxor has stood on the Place de la Concorde in Paris since 1836.",
+    "Champollion deciphered hieroglyphs in 1822 with the help of the Rosetta Stone, on which the same text is carved in three scripts."
   ],
   mjesta: [
     {
       id: "kairo",
-      ime: "Kairo",
+      ime: "Cairo",
       vrsta: "grad",
-      sazetak: "Bučan grad od dvadeset milijuna ljudi u kojem se u jednom danu prođe kroz faraonsko, koptsko i islamsko tisućljeće.",
-      prica: ["Arapski vojskovođa Amr ibn al-As osnovao je 641. tabor Fustat kraj rimske utvrde Babilon. Fatimidi su 969. sjevernije podigli novi dvorski grad i nazvali ga al-Qahira, „Pobjednica“. Saladin je sagradio citadelu, a Mameluci, vojnici robovi koji su postali sultani, ostavili su od 13. do 16. stoljeća stotine džamija i medresa. Povijesni Kairo zaštićen je pri UNESCO-u od 1979."],
+      sazetak: "A noisy city of twenty million people where in a single day you pass through a pharaonic, a Coptic and an Islamic millennium.",
+      prica: ["In 641 the Arab general Amr ibn al-As founded the camp of Fustat beside the Roman fortress of Babylon. In 969 the Fatimids built a new court city farther north and named it al-Qahira, “the Victorious”. Saladin built the citadel, and the Mamluks, slave soldiers who became sultans, left hundreds of mosques and madrasas between the 13th and 16th centuries. Historic Cairo has been protected by UNESCO since 1979."],
       vidjeti: [
-        { ime: "Nacionalni muzej egipatske civilizacije", opis: "U podzemnoj dvorani počivaju kraljevske mumije, svečano prenesene 2021. u Zlatnoj povorci faraona. Stojite licem u lice s Ramzesom II., koji još ima kosu obojenu kanom, s kraljicom Hatšepsut i sa Setijem I., čije je lice najbolje očuvano. Kraj svake mumije opisano je od čega je vladar bolovao." },
-        { ime: "Egipatski muzej na Trgu Tahrir", opis: "Stara zgrada iz 1902. čuva kipove koji uče gledati egipatsku umjetnost. Potražite Kefrena od tamnog diorita, kojem sokol Horus krilima grli glavu, te Rahotepa i Nofret s očima od kristala, zbog kojih su se radnici pri otkriću prestrašili. Dio zbirke preseljen je u Veliki egipatski muzej." },
-        { ime: "Džamija Ibn Tuluna", opis: "Dovršena 879., najstarija je džamija u Kairu sačuvana u izvornom obliku. Sagradio ju je namjesnik odrastao u iračkoj Samarri, pa minaret ima vanjsko spiralno stubište kao tamošnji. Šiljasti lukovi u dvorištu dva su stoljeća stariji od gotičkih u Europi." },
-        { ime: "Džamija i medresa sultana Hasana", opis: "Građena od 1356. do 1363., jedno je od najvećih djela mamelučke arhitekture, s portalom visokim gotovo četrdeset metara. Dvorište okružuju četiri golema svoda, po jedan za svaku od četiriju sunitskih pravnih škola. Sultan je ubijen prije završetka i nije pokopan u svom mauzoleju." },
-        { ime: "Ulica Al-Muizz i Khan el-Khalili", opis: "Glavna ulica fatimidskog grada ima najgušći niz srednjovjekovnih islamskih građevina na svijetu. Zastanite pred sklopom sultana Qalawuna iz 1285., u kojem je bila bolnica s besplatnim liječenjem, i potražite kuću Bayt al-Suhaymi s drvenim rešetkama mašrabija. Tržnica uz ulicu trguje od 14. stoljeća." },
-        { ime: "Koptski Kairo", opis: "Unutar zidina rimske utvrde stoji Viseća crkva, sagrađena nad vratima utvrde pa joj lađa visi nad prolazom. U kripti crkve svetog Sergija prema predaji je boravila Sveta obitelj na bijegu u Egipat. U susjednoj sinagogi Ben Ezra pronađena je geniza, spremište s četvrt milijuna srednjovjekovnih rukopisa." }
+        { ime: "National Museum of Egyptian Civilization", opis: "The royal mummies rest in an underground hall, having been ceremonially transferred in 2021 in the Pharaohs' Golden Parade. You stand face to face with Ramesses II, whose hair is still dyed with henna, with Queen Hatshepsut and with Seti I, whose face is the best preserved. Beside each mummy is a description of the illnesses the ruler suffered from." },
+        { ime: "Egyptian Museum on Tahrir Square", opis: "The old building from 1902 holds statues that teach you how to look at Egyptian art. Seek out Khafre in dark diorite, with the falcon Horus embracing his head with its wings, and Rahotep and Nofret with crystal eyes that frightened the workers when they were discovered. Part of the collection has been moved to the Grand Egyptian Museum." },
+        { ime: "Mosque of Ibn Tulun", opis: "Completed in 879, it is the oldest mosque in Cairo preserved in its original form. It was built by a governor who grew up in Samarra in Iraq, so the minaret has an external spiral staircase like the one there. The pointed arches in the courtyard are two centuries older than the Gothic ones in Europe." },
+        { ime: "Mosque and Madrasa of Sultan Hasan", opis: "Built from 1356 to 1363, it is one of the greatest works of Mamluk architecture, with a portal almost forty meters high. The courtyard is surrounded by four enormous vaulted halls, one for each of the four Sunni schools of law. The sultan was murdered before it was finished and was not buried in his mausoleum." },
+        { ime: "Al-Muizz Street and Khan el-Khalili", opis: "The main street of the Fatimid city has the densest concentration of medieval Islamic buildings in the world. Stop in front of the complex of Sultan Qalawun from 1285, which included a hospital with free treatment, and look for the house Bayt al-Suhaymi with its wooden mashrabiya screens. The bazaar beside the street has been trading since the 14th century." },
+        { ime: "Coptic Cairo", opis: "Inside the walls of the Roman fortress stands the Hanging Church, built above the fortress gate so that its nave hangs over the passage. According to tradition, the Holy Family stayed in the crypt of the Church of Saint Sergius during the flight into Egypt. In the neighboring Ben Ezra Synagogue the geniza was found, a storeroom holding a quarter of a million medieval manuscripts." }
       ],
       jesti: [
-        { ime: "Koshari", opis: "Najpoznatija je radnja Abou Tarek u središtu grada, višekatnica u kojoj se poslužuje samo to jelo." },
-        { ime: "Ful i ta'ameya", opis: "Doručak s kolica ili u malim radnjama u središtu, u kruhu s rajčicom i ukiseljenim povrćem." },
-        { ime: "Hawawshi", opis: "Kruh punjen začinjenim mljevenim mesom i lukom, pečen u peći dok ne postane hrskav, ulična je večera Kairaca." }
+        { ime: "Koshari", opis: "The best-known shop is Abou Tarek downtown, a multistory building where this is the only dish served." },
+        { ime: "Ful and ta'ameya", opis: "Breakfast from a cart or in the small shops downtown, in bread with tomato and pickled vegetables." },
+        { ime: "Hawawshi", opis: "Bread stuffed with spiced ground meat and onions, baked in an oven until it turns crisp, is the street dinner of Cairenes." }
       ],
       dozivjeti: [
-        { ime: "Gastronomska šetnja središtem", opis: "Bellies En-Route vodi male skupine po radnjama središta Kaira u koje zalaze mještani, uz priče o tome odakle je koje jelo.", link: "https://belliesenroute.com/" },
-        { ime: "Tanoura u Wikali al-Ghuri", opis: "U dvorištu karavan-saraja iz 16. stoljeća nekoliko večeri tjedno nastupa državni ansambl sufijske glazbe i vrtnje." },
-        { ime: "Zalazak sunca s Citadele", opis: "S terase uz džamiju Muhameda Alija vidi se cijeli grad, a za vedra dana i piramide. Sat u dvorištu dar je francuskog kralja u zamjenu za obelisk iz Luksora i gotovo nikada nije radio." }
+        { ime: "A food walk downtown", opis: "Bellies En-Route takes small groups around the downtown Cairo shops that locals go to, with stories about where each dish comes from.", link: "https://belliesenroute.com/" },
+        { ime: "Tanoura at Wikala al-Ghuri", opis: "In the courtyard of a 16th-century caravanserai, the state ensemble of Sufi music and whirling performs several evenings a week." },
+        { ime: "Sunset from the Citadel", opis: "From the terrace beside the Mosque of Muhammad Ali you can see the whole city, and on a clear day the pyramids too. The clock in the courtyard was a gift from the French king in exchange for the obelisk from Luxor, and it has almost never worked." }
       ],
       agencije: [
-        { ime: "Experience Egypt", opis: "Službena turistička stranica Egipta.", link: "https://www.experienceegypt.eg/en" },
-        { ime: "Ministarstvo turizma i starina", opis: "Službeni vodič kroz spomenike i muzeje s opisima i ulaznicama.", link: "https://egymonuments.gov.eg/" },
-        { ime: "Nacionalni muzej egipatske civilizacije", opis: "Službena stranica muzeja.", link: "https://nmec.gov.eg/" }
+        { ime: "Experience Egypt", opis: "The official tourism website of Egypt.", link: "https://www.experienceegypt.eg/en" },
+        { ime: "Ministry of Tourism and Antiquities", opis: "The official guide to monuments and museums, with descriptions and tickets.", link: "https://egymonuments.gov.eg/" },
+        { ime: "National Museum of Egyptian Civilization", opis: "The official website of the museum.", link: "https://nmec.gov.eg/" }
       ],
-      kada: "Od listopada do travnja. Promet je spor pa na dan planirajte najviše dva dijela grada, a petkom prijepodne ulice su najprohodnije."
+      kada: "From October to April. Traffic is slow, so plan on two parts of the city a day at most, and on Friday mornings the streets are at their clearest."
     },
     {
       id: "giza-i-sakara",
-      ime: "Giza i Sakara",
+      ime: "Giza and Saqqara",
       vrsta: "regija",
-      sazetak: "Polje piramida dugo tridesetak kilometara na kojem se vidi kako su Egipćani korak po korak naučili graditi.",
-      prica: ["Faraoni Starog kraljevstva pokapali su se na zapadnoj obali Nila, nasuprot prijestolnici Memfisu, jer na zapadu zalazi sunce. Oko 2650. prije Krista graditelj Imhotep složio je za kralja Džosera šest kamenih stuba jednu na drugu i tako stvorio prvu piramidu. Stoljeće poslije Snofru je u Dahšuru nakon nekoliko pokušaja dobio glatke stranice, a njegov sin Keops, unuk Kefren i praunuk Mikerin sagradili su tri piramide u Gizi."],
+      sazetak: "A field of pyramids some thirty kilometers long, where you can see how the Egyptians learned to build, step by step.",
+      prica: ["The pharaohs of the Old Kingdom were buried on the west bank of the Nile, across from the capital Memphis, because the sun sets in the west. Around 2650 BC the builder Imhotep stacked six stone steps one on top of another for King Djoser and so created the first pyramid. A century later, at Dahshur, Sneferu achieved smooth sides after several attempts, and his son Khufu, grandson Khafre and great-grandson Menkaure built the three pyramids at Giza."],
       vidjeti: [
-        { ime: "Keopsova piramida", opis: "Sagrađena oko 2560. prije Krista od približno 2,3 milijuna blokova, bila je visoka 146 metara i gotovo četiri tisuće godina najviša građevina na svijetu. Bila je obložena glatkim bijelim vapnencem, koji je u srednjem vijeku skinut za gradnju Kaira. Stranice su usmjerene prema stranama svijeta s pogreškom manjom od desetine stupnja." },
-        { ime: "Kefrenova i Mikerinova piramida", opis: "Kefrenova izgleda viša jer stoji na višem tlu, a prepoznat ćete je po kapi izvorne obloge na vrhu, jedinom mjestu gdje se vidi kako su piramide nekad sjale. Mikerinova je mnogo manja, a u podnožju je bila obložena crvenim granitom dovezenim iz Asuana, osamsto kilometara uz rijeku." },
-        { ime: "Sfinga", opis: "Isklesana je iz jedne stijene, duga 73 metra, s tijelom lava i licem koje se pripisuje faraonu Kefrenu. Između šapa stoji ploča na kojoj Tutmozis IV. opisuje san: Sfinga mu je obećala prijestolje ako je otkopa iz pijeska. Nos joj nije odbio Napoleon, jer crteži stariji od njegova pohoda već je prikazuju bez nosa." },
-        { ime: "Veliki egipatski muzej", opis: "Otvoren u studenome 2025. nadomak piramida, najveći je muzej posvećen jednoj civilizaciji. U predvorju vas dočekuje kip Ramzesa II. visok jedanaest metara, a prvi put je na jednome mjestu izloženo svih pet tisuća predmeta iz Tutankamonove grobnice, od zlatne maske do sandala. Ovdje je i Keopsova sunčana lađa od cedrovine, duga 43 metra." },
-        { ime: "Džoserova stepenasta piramida u Sakari", opis: "Najstarija velika kamena građevina na svijetu visoka je šezdesetak metara. Uz nju pogledajte stupove nalik svežnjevima trske i lažna kamena vrata, jer je Imhotep u kamenu oponašao građevine od blata i trske. U maloj komori serdab kroz dvije rupe gleda kip kralja, kako bi njegov duh mogao vidjeti prinose." },
-        { ime: "Grobnice plemića i Unasova piramida u Sakari", opis: "U mastabama dostojanstvenika Tija i Mereruke zidovi prikazuju svakodnevni život: ribolov, klanje goveda, obrtnike i djecu u igri. U Unasovoj piramidi zidovi su prekriveni Tekstovima piramida, najstarijim vjerskim zapisima na svijetu, sa zvjezdanim stropom nad sarkofagom." }
+        { ime: "Great Pyramid of Khufu", opis: "Built around 2560 BC from approximately 2.3 million blocks, it stood 146 meters tall and was the tallest structure in the world for almost four thousand years. It was faced with smooth white limestone, which was stripped away in the Middle Ages to build Cairo. Its sides are aligned to the cardinal directions with an error of less than a tenth of a degree." },
+        { ime: "Pyramids of Khafre and Menkaure", opis: "Khafre's looks taller because it stands on higher ground, and you will recognize it by the cap of original casing at the top, the only place where you can see how the pyramids once shone. Menkaure's is much smaller, and its base was faced with red granite brought from Aswan, eight hundred kilometers up the river." },
+        { ime: "The Sphinx", opis: "It is carved from a single rock, 73 meters long, with the body of a lion and a face attributed to the pharaoh Khafre. Between its paws stands a slab on which Thutmose IV describes a dream: the Sphinx promised him the throne if he dug it out of the sand. Napoleon did not knock off its nose, because drawings older than his campaign already show it without one." },
+        { ime: "Grand Egyptian Museum", opis: "Opened in November 2025 within sight of the pyramids, it is the largest museum dedicated to a single civilization. In the atrium you are greeted by a statue of Ramesses II eleven meters tall, and for the first time all five thousand objects from Tutankhamun's tomb are displayed in one place, from the gold mask to his sandals. Khufu's solar boat of cedar wood, 43 meters long, is here too." },
+        { ime: "Step Pyramid of Djoser at Saqqara", opis: "The oldest large stone structure in the world is some sixty meters tall. Beside it, look at the columns resembling bundles of reeds and the false stone doors, because Imhotep was imitating in stone the buildings made of mud and reeds. In a small chamber called the serdab, a statue of the king looks out through two holes, so that his spirit could see the offerings." },
+        { ime: "Tombs of the Nobles and the Pyramid of Unas at Saqqara", opis: "In the mastabas of the dignitaries Ti and Mereruka the walls show everyday life: fishing, the slaughter of cattle, craftsmen and children at play. In the Pyramid of Unas the walls are covered with the Pyramid Texts, the oldest religious writings in the world, with a starry ceiling above the sarcophagus." }
       ],
       jesti: [
-        { ime: "Feteer", opis: "Uz cestu između Gize i Sakare seoske pekare peku lisnatu pitu u zemljanim pećima i poslužuju je s medom i starim sirom mish." },
-        { ime: "Roštilj s pogledom na piramide", opis: "Restorani na rubu visoravni poslužuju ćevape, golubove i mezze, a stol uz prozor treba rezervirati." }
+        { ime: "Feteer", opis: "Along the road between Giza and Saqqara, village bakeries bake the flaky pie in clay ovens and serve it with honey and the aged cheese called mish." },
+        { ime: "Grilled meat with a view of the pyramids", opis: "Restaurants on the edge of the plateau serve kebabs, pigeon and mezze, and a table by the window should be reserved." }
       ],
       dozivjeti: [
-        { ime: "Dan u Velikom egipatskom muzeju", opis: "Za zbirku treba najmanje pola dana, a ulaznice s terminom kupuju se unaprijed na službenoj stranici.", link: "https://gem.eg/" },
-        { ime: "Dahšur bez gužve", opis: "U Crvenu piramidu faraona Snofrua ulazi se niz dugi hodnik do komora s nadsvođenim stropom, često bez ijednog drugog posjetitelja. Susjedna Lomljena piramida pokazuje trenutak kada su graditelji na pola puta ublažili nagib da se ne uruši." }
+        { ime: "A day at the Grand Egyptian Museum", opis: "The collection needs at least half a day, and timed tickets are bought in advance on the official website.", link: "https://gem.eg/" },
+        { ime: "Dahshur without the crowds", opis: "You enter the Red Pyramid of the pharaoh Sneferu down a long corridor to chambers with corbelled ceilings, often without a single other visitor. The neighboring Bent Pyramid shows the moment when the builders, halfway up, eased the slope so that it would not collapse." }
       ],
       agencije: [
-        { ime: "Grand Egyptian Museum", opis: "Službena stranica muzeja s ulaznicama.", link: "https://gem.eg/" },
-        { ime: "Ministarstvo turizma i starina", opis: "Službeni opisi nalazišta Giza, Sakara i Dahšur.", link: "https://egymonuments.gov.eg/" }
+        { ime: "Grand Egyptian Museum", opis: "The official website of the museum, with tickets.", link: "https://gem.eg/" },
+        { ime: "Ministry of Tourism and Antiquities", opis: "Official descriptions of the sites of Giza, Saqqara and Dahshur.", link: "https://egymonuments.gov.eg/" }
       ],
-      kada: "Od listopada do ožujka. Na visoravan dođite pri otvaranju, a Sakaru i Dahšur spojite u isti dan s vozačem, jer javnog prijevoza nema."
+      kada: "From October to March. Arrive at the plateau at opening time, and combine Saqqara and Dahshur in one day with a driver, because there is no public transit."
     },
     {
       id: "luksor",
-      ime: "Luksor",
+      ime: "Luxor",
       vrsta: "grad",
-      sazetak: "Drevna Teba, s hramovima bogova na istočnoj obali Nila i grobnicama faraona na zapadnoj.",
-      prica: ["Teba je bila prijestolnica Novog kraljevstva, otprilike od 1550. do 1070. prije Krista, kada je Egipat bio na vrhuncu moći. Grad je posložen prema suncu: na istočnoj obali, gdje ono izlazi, živjelo se i slavilo bogove, a na zapadnoj, gdje zalazi, pokapalo se mrtve. Faraoni su tada odustali od piramida, koje su privlačile pljačkaše, i grobnice sakrili u suhu dolinu pod vrhom koji sam nalikuje piramidi. UNESCO je Tebu zaštitio 1979."],
+      sazetak: "Ancient Thebes, with the temples of the gods on the east bank of the Nile and the tombs of the pharaohs on the west.",
+      prica: ["Thebes was the capital of the New Kingdom, roughly from 1550 to 1070 BC, when Egypt was at the height of its power. The city is laid out according to the sun: on the east bank, where it rises, people lived and worshipped the gods, and on the west bank, where it sets, they buried the dead. The pharaohs by then had given up on pyramids, which attracted robbers, and hid their tombs in a dry valley beneath a peak that itself resembles a pyramid. UNESCO listed Thebes in 1979."],
       vidjeti: [
-        { ime: "Hram u Karnaku", opis: "Najveći vjerski sklop starog svijeta posvećen je Amonu, bogu Tebe, a gradilo ga je tridesetak faraona tijekom gotovo dvije tisuće godina. U Velikoj dvorani sa stupovima stoje 134 stupa, od kojih je dvanaest središnjih visoko 21 metar i ima glavice u obliku rascvjetanog papirusa. Dvoranu su podigli Seti I. i Ramzes II. kao kamenu močvaru iz koje je nastao svijet. Potražite i obelisk kraljice Hatšepsut, visok gotovo trideset metara." },
-        { ime: "Hram u Luksoru", opis: "Sagradili su ga Amenhotep III. i Ramzes II., a služio je godišnjoj svetkovini Opet, kada su kipovi bogova u povorci stizali iz Karnaka Alejom sfinga dugom 2,7 kilometara. Pred pilonom stoji samo jedan obelisk, jer je drugi u Parizu. U dvorištu pogledajte džamiju Abu al-Haggaga, sagrađenu na hramu dok je još bio zatrpan, pa su joj vrata danas visoko u zraku." },
-        { ime: "Dolina kraljeva", opis: "U stijenu je uklesano više od šezdeset grobnica faraona Novog kraljevstva. Zidovi hodnika služili su kao vodič za dušu, pa prikazuju dvanaest sati noći kroz koje sunčev bog plovi podzemljem i pobjeđuje zmiju Apofisa. U grobnici Ramzesa VI. pogledajte strop, na kojem božica neba Nut navečer guta sunce, a ujutro ga rađa. Tutankamonova grobnica malena je, ali u njoj i danas leži njegova mumija." },
-        { ime: "Hram kraljice Hatšepsut", opis: "Tri terase pod liticom Deir el-Bahari projektirao je njezin graditelj Senenmut oko 1470. prije Krista. Hatšepsut je vladala kao faraon i dala se prikazivati s muškom bradom. Na reljefima potražite pohod u zemlju Punt, s kućama na stupovima i debelom kraljicom Punta. Mnoga su njezina lica otučena jer je nasljednik Tutmozis III. poslije pokušao izbrisati sjećanje na nju." },
-        { ime: "Medinet Habu", opis: "Posmrtni hram Ramzesa III. najbolje pokazuje kako su hramovi nekad bili obojeni, jer su boje na stropovima i stupovima ostale žive. Hijeroglifi su uklesani i do dvadeset centimetara duboko, da ih nasljednici ne mogu preklesati. Na vanjskom zidu prikazana je bitka s tajanstvenim Narodima s mora i pisari koji broje odsječene ruke neprijatelja." },
-        { ime: "Memnonovi kolosi", opis: "Dva sjedeća kipa Amenhotepa III. visoka osamnaest metara jedino su što je ostalo od njegova hrama, nekad većeg od Karnaka. Nakon potresa 27. prije Krista sjeverni je kip u zoru ispuštao zvuk, pa su ga Grci nazvali po junaku Memnonu koji pozdravlja majku Zoru. Rimski su ga carevi popravili i pjev je utihnuo." }
+        { ime: "Karnak Temple", opis: "The largest religious complex of the ancient world is dedicated to Amun, the god of Thebes, and it was built by some thirty pharaohs over almost two thousand years. The Great Hypostyle Hall holds 134 columns, of which the twelve central ones are 21 meters tall and have capitals shaped like papyrus in full bloom. The hall was raised by Seti I and Ramesses II as a stone marsh from which the world emerged. Look also for the obelisk of Queen Hatshepsut, almost thirty meters tall." },
+        { ime: "Luxor Temple", opis: "It was built by Amenhotep III and Ramesses II and served the annual Opet festival, when the statues of the gods arrived in procession from Karnak along the 2.7-kilometer Avenue of Sphinxes. Only one obelisk stands in front of the pylon, because the other is in Paris. In the courtyard, look at the Mosque of Abu al-Haggag, built on top of the temple while it was still buried, so its door is now high up in the air." },
+        { ime: "Valley of the Kings", opis: "More than sixty tombs of New Kingdom pharaohs are cut into the rock. The corridor walls served as a guide for the soul, so they show the twelve hours of the night through which the sun god sails the underworld and defeats the serpent Apophis. In the tomb of Ramesses VI, look at the ceiling, where the sky goddess Nut swallows the sun in the evening and gives birth to it in the morning. Tutankhamun's tomb is tiny, but his mummy lies in it to this day." },
+        { ime: "Temple of Queen Hatshepsut", opis: "The three terraces beneath the cliff of Deir el-Bahari were designed by her architect Senenmut around 1470 BC. Hatshepsut ruled as pharaoh and had herself depicted with a man's beard. In the reliefs, look for the expedition to the land of Punt, with its houses on stilts and the stout queen of Punt. Many of her faces have been chiseled off, because her successor Thutmose III later tried to erase her memory." },
+        { ime: "Medinet Habu", opis: "The mortuary temple of Ramesses III shows better than any other how temples were once painted, because the colors on the ceilings and columns have stayed vivid. The hieroglyphs are carved as much as twenty centimeters deep, so that successors could not recarve them. The outer wall shows the battle with the mysterious Sea Peoples and scribes counting the severed hands of the enemy." },
+        { ime: "Colossi of Memnon", opis: "Two seated statues of Amenhotep III, eighteen meters tall, are all that remains of his temple, once larger than Karnak. After an earthquake in 27 BC the northern statue gave off a sound at dawn, so the Greeks named it after the hero Memnon greeting his mother, the Dawn. The Roman emperors repaired it and the singing fell silent." }
       ],
       jesti: [
-        { ime: "Golub i jela iz glinenih posuda", opis: "Na zapadnoj obali obiteljski restorani s terasama nad poljima poslužuju punjenog goluba i povrće pečeno u glinenoj posudi tagen." },
-        { ime: "Kruh aish shamsi", opis: "Seljanke Gornjeg Egipta ostavljaju okrugle hljebove da se dižu na suncu prije pečenja, pa ih zovu sunčanim kruhom." },
-        { ime: "Sok od šećerne trske", opis: "Luksor leži usred polja trske, a sok se preša na svakom uglu tržnice." }
+        { ime: "Pigeon and dishes from clay pots", opis: "On the west bank, family-run restaurants with terraces above the fields serve stuffed pigeon and vegetables baked in the clay pot called a tagen." },
+        { ime: "Aish shamsi bread", opis: "The village women of Upper Egypt leave the round loaves to rise in the sun before baking, which is why they call it sun bread." },
+        { ime: "Sugarcane juice", opis: "Luxor lies in the middle of cane fields, and the juice is pressed on every corner of the market." }
       ],
       dozivjeti: [
-        { ime: "Let balonom u zoru", opis: "Baloni polijeću prije svitanja sa zapadne obale i lete nad hramovima i oštrom granicom zelenih polja i pustinje." },
-        { ime: "Selo radnika Deir el-Medina", opis: "Ovdje su živjeli klesari i slikari kraljevskih grobnica, a za sebe su uređivali male grobnice s najživljim bojama u Tebi, poput Sennedjemove s prizorima rajskih polja." },
-        { ime: "Luksorski muzej navečer", opis: "Malen i izvrsno osvijetljen, čuva kipove pronađene 1989. pod dvorištem luksorskog hrama i mumije dvojice faraona.", link: "https://egymonuments.gov.eg/" }
+        { ime: "A balloon flight at dawn", opis: "The balloons take off before daybreak from the west bank and fly over the temples and the sharp line between green fields and desert." },
+        { ime: "The workers' village of Deir el-Medina", opis: "This is where the stonecutters and painters of the royal tombs lived, and for themselves they decorated small tombs with the most vivid colors in Thebes, such as that of Sennedjem with its scenes of the fields of paradise." },
+        { ime: "Luxor Museum in the evening", opis: "Small and superbly lit, it holds the statues found in 1989 beneath the courtyard of Luxor Temple and the mummies of two pharaohs.", link: "https://egymonuments.gov.eg/" }
       ],
       agencije: [
-        { ime: "Ministarstvo turizma i starina", opis: "Službeni opisi i ulaznice za hramove i grobnice Luksora.", link: "https://egymonuments.gov.eg/" },
-        { ime: "Experience Egypt", opis: "Službena turistička stranica Egipta s vodičem kroz Luksor.", link: "https://www.experienceegypt.eg/en" }
+        { ime: "Ministry of Tourism and Antiquities", opis: "Official descriptions and tickets for the temples and tombs of Luxor.", link: "https://egymonuments.gov.eg/" },
+        { ime: "Experience Egypt", opis: "The official tourism website of Egypt, with a guide to Luxor.", link: "https://www.experienceegypt.eg/en" }
       ],
-      kada: "Od studenoga do ožujka. Zapadnu obalu obiđite u šest ujutro, a Karnak kasno poslijepodne. Osnovna ulaznica za Dolinu kraljeva vrijedi za tri grobnice, dok se Tutankamonova, Setijeva i Ramzesa VI. plaćaju posebno."
+      kada: "From November to March. Tour the west bank at six in the morning and Karnak in the late afternoon. The basic ticket for the Valley of the Kings is valid for three tombs, while those of Tutankhamun, Seti I and Ramesses VI are paid for separately."
     },
     {
       id: "asuan-i-abu-simbel",
-      ime: "Asuan i Abu Simbel",
+      ime: "Aswan and Abu Simbel",
       vrsta: "regija",
-      sazetak: "Najjužniji grad Egipta među granitnim otocima Nila i hramovi koji su blok po blok spašeni od jezera.",
-      prica: ["Asuan je bio južna granica faraonskog Egipta i vrata Nubije, zemlje zlata, slonovače i ratnika. Iz njegovih kamenoloma potječe crveni granit svih egipatskih obeliska. Kada je šezdesetih godina 20. stoljeća građena Visoka brana, jezero Naser prijetilo je potopiti dvadesetak hramova, pa je UNESCO pokrenuo najveću akciju spašavanja spomenika u povijesti. Iz te je akcije nastala i sama ideja popisa svjetske baštine."],
+      sazetak: "Egypt's southernmost city, set among the granite islands of the Nile, and temples that were rescued from the lake block by block.",
+      prica: ["Aswan was the southern frontier of pharaonic Egypt and the gateway to Nubia, the land of gold, ivory and warriors. The red granite of every Egyptian obelisk comes from its quarries. When the High Dam was being built in the 1960s, Lake Nasser threatened to flood some twenty temples, so UNESCO launched the largest monument rescue campaign in history. The very idea of a World Heritage List grew out of that campaign."],
       vidjeti: [
-        { ime: "Veliki hram u Abu Simbelu", opis: "Ramzes II. dao ga je u 13. stoljeću prije Krista uklesati u stijenu kao poruku Nubijcima. Četiri njegova sjedeća kipa visoka su dvadeset metara, a među nogama stoje majka, žena i djeca. Oko 22. veljače i 22. listopada zraka sunca prodire šezdeset metara u dubinu i obasjava kipove Ramzesa, Amona i Ra-Horahtija, dok Ptah, bog povezan s podzemljem, ostaje u sjeni. Hram je od 1964. do 1968. izrezan u više od tisuću blokova i podignut 65 metara više." },
-        { ime: "Mali hram u Abu Simbelu", opis: "Posvećen je božici Hator i kraljici Nefertari, Ramzesovoj omiljenoj ženi. Na pročelju su njezini kipovi jednako visoki kao kraljevi, što je u egipatskoj umjetnosti velika rijetkost, jer se kraljice obično prikazuju do kraljeva koljena." },
-        { ime: "Hram na otoku File", opis: "Izidin hram iz ptolemejskog doba bio je posljednje utočište stare vjere. Ovdje je 394. godine uklesan posljednji poznati hijeroglifski natpis, a hram je zatvoren tek u 6. stoljeću. Na zidovima se vide otučena lica bogova i koptski križevi iz doba kada je postao crkvom. I on je preseljen, kamen po kamen, na viši otok Agilkia." },
-        { ime: "Nedovršeni obelisk", opis: "U kamenolomu leži obelisk dug oko 42 metra koji bi bio najveći ikad podignut da nije pukao tijekom klesanja. Na njemu se vidi kako su ga radnici oblikovali udarajući kuglama od tvrđeg kamena dolerita, bez željeznog alata." },
-        { ime: "Nubijski muzej i otok Elefantina", opis: "Muzej priča povijest Nubije od prapovijesti do potapanja sela. Na Elefantini pogledajte nilometar, stube sa zarezima kojima se mjerila visina poplave i prema njoj određivao porez. U dva nubijska sela na otoku kuće su obojene u plavo i žuto." },
-        { ime: "Visoka brana", opis: "Dovršena 1970., duga je gotovo četiri kilometra i ukrotila je godišnje poplave koje su Egipat hranile tisućama godina. Stvorila je jezero Naser, dugo petstotinjak kilometara, i raselila oko sto tisuća Nubijaca." }
+        { ime: "Great Temple of Abu Simbel", opis: "Ramesses II had it cut into the rock in the 13th century BC as a message to the Nubians. His four seated statues are twenty meters tall, and between their legs stand his mother, wife and children. Around February 22 and October 22, a ray of sunlight reaches sixty meters into the interior and lights up the statues of Ramesses, Amun and Ra-Horakhty, while Ptah, a god linked with the underworld, stays in shadow. From 1964 to 1968 the temple was cut into more than a thousand blocks and raised 65 meters higher." },
+        { ime: "Small Temple of Abu Simbel", opis: "It is dedicated to the goddess Hathor and to Queen Nefertari, Ramesses's favorite wife. On the facade her statues are as tall as the king's, which is a great rarity in Egyptian art, because queens are usually shown reaching only to the king's knees." },
+        { ime: "Temple on the island of Philae", opis: "The Temple of Isis from the Ptolemaic period was the last refuge of the old religion. The last known hieroglyphic inscription was carved here in the year 394, and the temple was not closed until the 6th century. On the walls you can see the chiseled-off faces of gods and Coptic crosses from the time when it became a church. It too was moved, stone by stone, to the higher island of Agilkia." },
+        { ime: "Unfinished Obelisk", opis: "In the quarry lies an obelisk about 42 meters long that would have been the largest ever raised had it not cracked during carving. On it you can see how the workers shaped it by pounding with balls of a harder stone, dolerite, without iron tools." },
+        { ime: "Nubian Museum and Elephantine Island", opis: "The museum tells the history of Nubia from prehistory to the flooding of the villages. On Elephantine, look at the nilometer, a flight of steps with notches used to measure the height of the flood and set the tax accordingly. In the two Nubian villages on the island the houses are painted blue and yellow." },
+        { ime: "High Dam", opis: "Completed in 1970, it is almost four kilometers long and tamed the annual floods that had fed Egypt for thousands of years. It created Lake Nasser, some five hundred kilometers long, and displaced about a hundred thousand Nubians." }
       ],
       jesti: [
-        { ime: "Nubijska kuhinja", opis: "U restoranima na Elefantini i u selu Gharb Soheil poslužuju se tagen s kozletinom ili ribom i tanki kruh, uz pogled na rijeku." },
-        { ime: "Karkade i začini s tržnice", opis: "Asuanska tržnica najbolje je mjesto u Egiptu za kupnju sušenog hibiskusa, kikirikija i začina, a cjenkanje je blaže nego u Luksoru." }
+        { ime: "Nubian cuisine", opis: "The restaurants on Elephantine and in the village of Gharb Soheil serve tagen with goat or fish and thin bread, with a view of the river." },
+        { ime: "Karkade and spices from the market", opis: "The Aswan market is the best place in Egypt to buy dried hibiscus, peanuts and spices, and the haggling is gentler than in Luxor." }
       ],
       dozivjeti: [
-        { ime: "Jedrenje felukom u sumrak", opis: "Mali čamac s trokutastim jedrom klizi bez motora između granitnih stijena i otoka, pokraj botaničkog vrta lorda Kitchenera." },
-        { ime: "Čaj na terasi hotela Old Cataract", opis: "U hotelu iz 1899. Agatha Christie pisala je roman „Smrt na Nilu“, a s terase se gleda zalazak sunca nad Elefantinom." },
-        { ime: "Izlet u Abu Simbel", opis: "Do hramova je oko tri sata vožnje kroz pustinju, pa vozila kreću prije zore. Tko prenoći u selu Abu Simbel, ima hramove u sumrak gotovo za sebe.", link: "https://egymonuments.gov.eg/" }
+        { ime: "Sailing on a felucca at dusk", opis: "A small boat with a triangular sail glides without a motor between the granite rocks and islands, past Lord Kitchener's botanical garden." },
+        { ime: "Tea on the terrace of the Old Cataract hotel", opis: "Agatha Christie wrote the novel “Death on the Nile” in this hotel from 1899, and from the terrace you watch the sun set over Elephantine." },
+        { ime: "A trip to Abu Simbel", opis: "The temples are about a three-hour drive through the desert, so vehicles leave before dawn. Anyone who spends the night in the village of Abu Simbel has the temples almost to themselves at dusk.", link: "https://egymonuments.gov.eg/" }
       ],
       agencije: [
-        { ime: "Ministarstvo turizma i starina", opis: "Službeni opisi i ulaznice za Abu Simbel, File i druge nubijske spomenike.", link: "https://egymonuments.gov.eg/" },
-        { ime: "Experience Egypt", opis: "Službena turistička stranica Egipta s vodičem kroz Asuan.", link: "https://www.experienceegypt.eg/en" }
+        { ime: "Ministry of Tourism and Antiquities", opis: "Official descriptions and tickets for Abu Simbel, Philae and other Nubian monuments.", link: "https://egymonuments.gov.eg/" },
+        { ime: "Experience Egypt", opis: "The official tourism website of Egypt, with a guide to Aswan.", link: "https://www.experienceegypt.eg/en" }
       ],
-      kada: "Od studenoga do veljače. Asuan je najtopliji i najsuši grad Egipta, pa se sve obilazi rano ujutro, a podne provodi u hladu uz rijeku."
+      kada: "From November to February. Aswan is the hottest and driest city in Egypt, so all sightseeing is done early in the morning and midday is spent in the shade by the river."
     },
     {
       id: "aleksandrija",
-      ime: "Aleksandrija",
+      ime: "Alexandria",
       vrsta: "grad",
-      sazetak: "Sredozemna luka Aleksandra Velikog i Kleopatre, grad izgubljene knjižnice i svjetionika.",
-      prica: ["Aleksandar Veliki osnovao ju je 331. prije Krista, a njegov vojskovođa Ptolemej učinio prijestolnicom dinastije koja je vladala tri stoljeća, sve do Kleopatre VII. Bila je najveći grad helenističkog svijeta, s knjižnicom u kojoj je Eratosten izmjerio opseg Zemlje. Antički grad danas leži pod morem i pod kućama, a ono što vidite potječe uglavnom iz 19. stoljeća, kada su je ponovno izgradili grčki, talijanski i levantinski trgovci. Dubrovačka Republika trgovala je s Aleksandrijom u 15. i 16. stoljeću, kada su njezini brodovi ovamo dolazili po začine."],
+      sazetak: "The Mediterranean port of Alexander the Great and Cleopatra, the city of the lost library and the lighthouse.",
+      prica: ["Alexander the Great founded it in 331 BC, and his general Ptolemy made it the capital of a dynasty that ruled for three centuries, down to Cleopatra VII. It was the largest city of the Hellenistic world, with a library where Eratosthenes measured the circumference of the Earth. The ancient city now lies under the sea and under houses, and what you see dates mostly from the 19th century, when it was rebuilt by Greek, Italian and Levantine merchants. The Republic of Dubrovnik traded with Alexandria in the 15th and 16th centuries, when its ships came here for spices."],
       vidjeti: [
-        { ime: "Bibliotheca Alexandrina", opis: "Nova knjižnica, otvorena 2002. prema projektu norveškog ureda Snøhetta, ima oblik nagnutog diska koji izranja iz mora poput sunca. Granitni zid uklesan je znakovima iz 120 pisama svijeta. Čitaonica se spušta u jedanaest kaskada pod kosim staklenim krovom i prima dvije tisuće čitatelja." },
-        { ime: "Utvrda Qaitbay", opis: "Mamelučki sultan Qaitbay sagradio ju je 1477. točno na temeljima Farosa, svjetionika koji je bio jedno od sedam svjetskih čuda i koji su srušili potresi. U zidove su ugrađeni blokovi svjetionika, a crveni granitni stupovi položeni vodoravno u vanjskom zidu potječu iz antike." },
-        { ime: "Katakombe Kom el-Shoqafa", opis: "Podzemna grobnica iz 2. stoljeća spušta se spiralnim stubištem tri kata u stijenu. Ovdje se tri kulture stapaju u jednu: bog Anubis stoji odjeven kao rimski legionar, a nad egipatskim prizorima balzamiranja nalaze se grčke glave Meduze." },
-        { ime: "Rimsko kazalište Kom el-Dikka", opis: "Jedino sačuvano rimsko kazalište u Egiptu ima trinaest redova mramornih sjedala. Uz njega su otkrivene predavaonice kasnoantičkog sveučilišta i Vila ptica s podnim mozaicima papiga, paunova i prepelica." },
-        { ime: "Pompejev stup i Serapej", opis: "Stup od crvenog granita visok dvadeset i sedam metara podignut je 297. u čast cara Dioklecijana, kojeg mi pamtimo po splitskoj palači, a Pompejevim su ga pogrešno prozvali križari. Stajao je u svetištu boga Serapisa, u kojem je bila i manja, „kćerinska“ knjižnica." },
-        { ime: "Grčko-rimski muzej", opis: "Nakon duge obnove ponovno je otvoren 2023. i najbolje pokazuje kako su se u Aleksandriji miješali grčki i egipatski svijet. Potražite glavu Aleksandra Velikog i kip bika Apisa od crnog bazalta." }
+        { ime: "Bibliotheca Alexandrina", opis: "The new library, opened in 2002 to a design by the Norwegian firm Snøhetta, is shaped like a tilted disk rising out of the sea like the sun. Its granite wall is carved with characters from 120 of the world's scripts. The reading room descends in eleven tiers beneath a slanted glass roof and seats two thousand readers." },
+        { ime: "Citadel of Qaitbay", opis: "The Mamluk sultan Qaitbay built it in 1477 on the exact foundations of the Pharos, the lighthouse that was one of the Seven Wonders of the World and was brought down by earthquakes. Blocks from the lighthouse are built into the walls, and the red granite columns laid horizontally in the outer wall date from antiquity." },
+        { ime: "Catacombs of Kom el-Shoqafa", opis: "The underground tomb from the 2nd century descends by a spiral staircase three levels into the rock. Three cultures merge into one here: the god Anubis stands dressed as a Roman legionary, and above the Egyptian embalming scenes are Greek heads of Medusa." },
+        { ime: "Roman theater of Kom el-Dikka", opis: "The only surviving Roman theater in Egypt has thirteen rows of marble seats. Beside it, the lecture halls of a late antique university have been uncovered, along with the Villa of the Birds, with floor mosaics of parrots, peacocks and quail." },
+        { ime: "Pompey's Pillar and the Serapeum", opis: "The red granite column twenty-seven meters tall was raised in 297 in honor of the emperor Diocletian, whom Croatians remember for his palace in Split, and it was the Crusaders who mistakenly named it after Pompey. It stood in the sanctuary of the god Serapis, which also held a smaller, “daughter” library." },
+        { ime: "Graeco-Roman Museum", opis: "After a long restoration it reopened in 2023, and it shows better than anywhere how the Greek and Egyptian worlds mingled in Alexandria. Look for the head of Alexander the Great and the statue of the Apis bull in black basalt." }
       ],
       jesti: [
-        { ime: "Riba i plodovi mora", opis: "U restoranima uz istočnu luku i u četvrti Anfushi riba se bira s leda i peče na žaru ili u pećnici s rajčicom i lukom, što se zove singari." },
-        { ime: "Kebda eskandarani", opis: "Jetra sitno rezana i naglo pržena s ljutim papričicama i češnjakom, u kruhu, zaštitni je znak aleksandrijske ulične hrane." },
-        { ime: "Kava i kolači u starim kavanama", opis: "Grčke i talijanske slastičarnice iz prve polovice 20. stoljeća oko Trga Saad Zaghloul još poslužuju kavu u prostorima s ogledalima i drvenim oplatama." }
+        { ime: "Fish and seafood", opis: "In the restaurants along the eastern harbor and in the Anfushi district you pick your fish from the ice and have it grilled, or baked in the oven with tomato and onion, which is called singari." },
+        { ime: "Kebda eskandarani", opis: "Finely sliced liver flash-fried with hot peppers and garlic, served in bread, is the hallmark of Alexandrian street food." },
+        { ime: "Coffee and cakes in the old cafés", opis: "Greek and Italian pastry shops from the first half of the 20th century around Saad Zaghloul Square still serve coffee in rooms with mirrors and wood paneling." }
       ],
       dozivjeti: [
-        { ime: "Obilazak knjižnice", opis: "Vođeni obilasci na više jezika uključuju čitaonicu, muzej starina i muzej rukopisa, a ulaznica se kupuje na ulazu.", link: "https://www.bibalex.org/en/default" },
-        { ime: "Šetnja obalom Corniche", opis: "Uz zaljev dug nekoliko kilometara nižu se ribiči, prodavači kukuruza i pročelja iz doba kada je grad bio kozmopolitska luka." }
+        { ime: "A tour of the library", opis: "Guided tours in several languages include the reading room, the antiquities museum and the manuscript museum, and you buy the ticket at the entrance.", link: "https://www.bibalex.org/en/default" },
+        { ime: "A walk along the Corniche", opis: "Along the bay, which stretches for several kilometers, you pass anglers, corn sellers and facades from the days when the city was a cosmopolitan port." }
       ],
       agencije: [
-        { ime: "Bibliotheca Alexandrina", opis: "Službena stranica knjižnice s obilascima i događanjima.", link: "https://www.bibalex.org/en/default" },
-        { ime: "Ministarstvo turizma i starina", opis: "Službeni opisi aleksandrijskih nalazišta i muzeja.", link: "https://egymonuments.gov.eg/" }
+        { ime: "Bibliotheca Alexandrina", opis: "The official website of the library, with tours and events.", link: "https://www.bibalex.org/en/default" },
+        { ime: "Ministry of Tourism and Antiquities", opis: "Official descriptions of Alexandria's sites and museums.", link: "https://egymonuments.gov.eg/" }
       ],
-      kada: "Od travnja do lipnja i u rujnu i listopadu. Zimi zna kišiti i puhati, a ljeti je grad pun domaćih kupača. Iz Kaira se stiže vlakom za oko tri sata."
+      kada: "From April to June and in September and October. In winter it can be rainy and windy, and in summer the city is full of Egyptian beachgoers. From Cairo the train takes about three hours."
     },
     {
       id: "krstarenje-nilom",
-      ime: "Krstarenje Nilom",
+      ime: "Nile Cruise",
       vrsta: "regija",
-      sazetak: "Tri do četiri dana plovidbe između Luksora i Asuana, uz obale koje izgledaju kao reljefi na hramovima.",
-      prica: ["Nil je tisućama godina bio jedina cesta Egipta: struja je nosila brodove na sjever, a vjetar ih je vraćao na jug. Između Luksora i Asuana rijeka prolazi pokraj triju ptolemejskih hramova, podignutih u posljednja tri stoljeća prije Krista, kada su grčki vladari gradili u faraonskom stilu da bi ih narod prihvatio. S palube se vide volovi, vodene pumpe i golubinjaci, prizori poznati sa zidova grobnica."],
+      sazetak: "Three to four days of sailing between Luxor and Aswan, past riverbanks that look like the reliefs on the temples.",
+      prica: ["For thousands of years the Nile was Egypt's only highway: the current carried boats north, and the wind brought them back south. Between Luxor and Aswan the river passes three Ptolemaic temples, raised in the last three centuries BC, when Greek rulers built in the pharaonic style so that the people would accept them. From the deck you see oxen, water pumps and dovecotes, scenes familiar from the walls of the tombs."],
       vidjeti: [
-        { ime: "Horusov hram u Edfuu", opis: "Građen od 237. do 57. prije Krista, najbolje je očuvan hram u Egiptu, s krovom i svim prostorijama. Pred ulazom stoji granitni sokol s dvostrukom krunom. Na unutarnjoj strani vanjskog zida u nizu prizora Horus s lađe probada Seta, ubojicu svoga oca Ozirisa, prikazanog kao sićušni vodenkonj. Crni strop u dvorani trag je vatri ljudi koji su u hramu stoljećima stanovali." },
-        { ime: "Dvostruki hram u Kom Ombu", opis: "Jedini je egipatski hram posvećen dvama bogovima, pa je sve udvostručeno po središnjoj osi: lijeva polovica pripada sokolu Haroerisu, a desna krokodilu Sobeku. Na stražnjem zidu potražite reljef s kirurškim alatom, škarama, kliještima i vagom. U malom muzeju izložene su mumije svetih krokodila." },
-        { ime: "Hnumov hram u Esni", opis: "Od hrama boga s ovnovskom glavom, koji je prema vjerovanju ljude oblikovao na lončarskom kolu, sačuvana je dvorana devet metara ispod razine današnjeg grada. Nedavno čišćenje otkrilo je pod čađom jarke boje stropa sa znakovima zodijaka i stupove od kojih svaki ima drukčiju biljnu glavicu." },
-        { ime: "Kamenolomi Gebel el-Silsila", opis: "Na mjestu gdje se Nil suzi među stijenama vadio se pješčenjak za Karnak i Luksor. Na liticama se vide tragovi klinova, nedovršeni blokovi i male kapele koje su si uklesali nadglednici. Ovdje pristaju samo manji brodovi." },
-        { ime: "Život na obali", opis: "S palube pratite kako se krajolik mijenja od širokih polja trske kod Luksora do uske doline kod Asuana, gdje se žuta pustinja spušta do same vode. Predvečer djeca skaču u rijeku, a čaplje stoje na leđima vodenih bivola." }
+        { ime: "Temple of Horus at Edfu", opis: "Built from 237 to 57 BC, it is the best-preserved temple in Egypt, with its roof and all its rooms intact. A granite falcon wearing the double crown stands before the entrance. On the inner side of the outer wall, in a series of scenes, Horus stands in a boat and spears Seth, the murderer of his father Osiris, who is shown as a tiny hippopotamus. The blackened ceiling in the hall is the trace of the fires of people who lived in the temple for centuries." },
+        { ime: "Double Temple of Kom Ombo", opis: "It is the only Egyptian temple dedicated to two gods, so everything is doubled along the central axis: the left half belongs to the falcon Haroeris and the right half to the crocodile Sobek. On the back wall, look for the relief with surgical instruments, scissors, forceps and a scale. The small museum displays mummies of sacred crocodiles." },
+        { ime: "Temple of Khnum at Esna", opis: "Of the temple of the ram-headed god, who was believed to have shaped humans on a potter's wheel, what survives is a hall nine meters below the level of today's town. Recent cleaning revealed, beneath the soot, the bright colors of a ceiling with signs of the zodiac and columns that each have a different plant capital." },
+        { ime: "Quarries of Gebel el-Silsila", opis: "At the spot where the Nile narrows between rocks, sandstone was quarried for Karnak and Luxor. On the cliffs you can see wedge marks, unfinished blocks and small chapels that the overseers carved for themselves. Only the smaller boats dock here." },
+        { ime: "Life on the riverbank", opis: "From the deck you watch the landscape change from the broad cane fields near Luxor to the narrow valley near Aswan, where the yellow desert comes right down to the water. Toward evening children jump into the river, and egrets stand on the backs of water buffalo." }
       ],
       jesti: [
-        { ime: "Brodska kuhinja", opis: "Na većim brodovima poslužuje se švedski stol s egipatskim jelima poput molokhije i mahshija, a jedne večeri gosti večeraju u dugim haljama galabeja." },
-        { ime: "Riba iz Nila", opis: "Na manjim jedrenjacima kuhar često kupuje tilapiju izravno od ribara koji priveslaju uz brod." }
+        { ime: "Shipboard cooking", opis: "The larger ships serve a buffet with Egyptian dishes such as molokhia and mahshi, and on one evening guests dine in the long robes called galabeya." },
+        { ime: "Fish from the Nile", opis: "On the smaller sailing boats the cook often buys tilapia directly from fishermen who row up alongside." }
       ],
       dozivjeti: [
-        { ime: "Plovidba dahabijom", opis: "Jedrenjak s dva jarbola i desetak kabina, kakvim su u 19. stoljeću putovali prvi turisti, pristaje na mjestima do kojih veliki brodovi ne mogu i plovi sporo, vjetrom ili uz tegljač." },
-        { ime: "Prolazak kroz prevodnicu u Esni", opis: "Dok brod čeka na red, trgovci iz čamaca bacaju šalove i stolnjake na palubu i cjenkaju se vičući odozdo, što je predstava za sebe." }
+        { ime: "Sailing on a dahabiya", opis: "A two-masted sailing boat with about ten cabins, the kind the first tourists traveled on in the 19th century, docks at places the big ships cannot reach and moves slowly, under sail or behind a tug." },
+        { ime: "Passing through the lock at Esna", opis: "While the ship waits its turn, traders in rowboats throw scarves and tablecloths up onto the deck and haggle by shouting from below, which is a show in itself." }
       ],
       agencije: [
-        { ime: "Experience Egypt", opis: "Službena turistička stranica Egipta s pregledom krstarenja Nilom.", link: "https://www.experienceegypt.eg/en" },
-        { ime: "Ministarstvo turizma i starina", opis: "Službeni opisi hramova u Edfuu, Kom Ombu i Esni.", link: "https://egymonuments.gov.eg/" }
+        { ime: "Experience Egypt", opis: "The official tourism website of Egypt, with an overview of Nile cruises.", link: "https://www.experienceegypt.eg/en" },
+        { ime: "Ministry of Tourism and Antiquities", opis: "Official descriptions of the temples at Edfu, Kom Ombo and Esna.", link: "https://egymonuments.gov.eg/" }
       ],
-      kada: "Od listopada do travnja. Plovidba nizvodno od Asuana do Luksora traje tri noći, a uzvodno četiri. Provjerite ima li brod vlastitog egiptologa, jer se hramovi obilaze brzo i u gužvi."
+      kada: "From October to April. Sailing downstream from Aswan to Luxor takes three nights, and upstream four. Check whether the ship has its own Egyptologist, because the temples are visited quickly and in a crowd."
     },
     {
       id: "sinaj-i-dahab",
-      ime: "Sinaj i Dahab",
+      ime: "Sinai and Dahab",
       vrsta: "regija",
-      sazetak: "Poluotok crvenih planina s najstarijim samostanom na svijetu i koraljnim grebenima na dohvat ruke.",
-      prica: ["Sinaj je trokut pustinje između Afrike i Azije, kojim su prolazile vojske faraona i, prema Bibliji, Izraelci na putu iz Egipta. Na jugu se dižu granitne planine, među njima i ona koju predaja štuje kao goru na kojoj je Mojsije primio Deset zapovijedi. Uz obalu Akapskog zaljeva beduinska ribarska sela pretvorila su se u ronilačka odredišta, od kojih je Dahab ostao najopušteniji. Prije puta u unutrašnjost Sinaja provjerite službene preporuke za putovanja."],
+      sazetak: "A peninsula of red mountains with the oldest monastery in the world and coral reefs within arm's reach.",
+      prica: ["Sinai is a triangle of desert between Africa and Asia, crossed by the armies of the pharaohs and, according to the Bible, by the Israelites on their way out of Egypt. In the south rise granite mountains, among them the one that tradition venerates as the mountain where Moses received the Ten Commandments. Along the coast of the Gulf of Aqaba, Bedouin fishing villages have turned into diving destinations, of which Dahab has stayed the most laid-back. Before traveling into the interior of Sinai, check the official travel advisories."],
       vidjeti: [
-        { ime: "Samostan svete Katarine", opis: "Car Justinijan dao ga je sagraditi između 548. i 565. oko mjesta gorućeg grma i otada u njemu neprekidno žive pravoslavni monasi. U apsidi crkve sačuvan je mozaik Preobraženja iz 6. stoljeća. Samostan čuva pismo zaštite koje se pripisuje proroku Muhamedu, a unutar zidina stoji i mala džamija. UNESCO ga je zaštitio 2002." },
-        { ime: "Ikone i knjižnica samostana", opis: "Zahvaljujući osami ovdje su preživjele ikone starije od bizantskog razdoblja uništavanja slika, među njima Krist Pantokrator iz 6. stoljeća, slikan vrućim voskom. Lijeva i desna strana njegova lica namjerno se razlikuju: jedna je blaga, druga stroga. U knjižnici je pronađen Sinajski kodeks, jedan od najstarijih rukopisa Biblije." },
-        { ime: "Mojsijeva gora", opis: "Na vrh visok 2285 metara vode dva puta: blaža Devina staza i 3750 Stuba pokajanja, koje je prema predaji u stijeni isklesao jedan monah. Većina se penje noću da dočeka izlazak sunca nad morem golih vrhova." },
-        { ime: "Plava rupa kod Dahaba", opis: "Vrtača u grebenu duboka više od sto metara počinje nekoliko koraka od obale. S maskom se pliva uz njezin rub obrastao koraljima, dok dubinu treba prepustiti samo vrlo iskusnim roniocima, na što upozoravaju spomen-ploče na stijeni." },
-        { ime: "Nacionalni park Ras Muhamed", opis: "Na samom vrhu poluotoka dvije se morske struje sudaraju i hrane zidove koralja koji padaju u dubinu. Prvi je egipatski nacionalni park, osnovan 1983., a uz obalu rastu i mangrove." }
+        { ime: "Saint Catherine's Monastery", opis: "The emperor Justinian had it built between 548 and 565 around the site of the burning bush, and Orthodox monks have lived in it without interruption ever since. The apse of the church preserves a 6th-century mosaic of the Transfiguration. The monastery keeps a letter of protection attributed to the Prophet Muhammad, and a small mosque stands inside the walls as well. UNESCO listed it in 2002." },
+        { ime: "The monastery's icons and library", opis: "Thanks to its isolation, icons older than the Byzantine period of iconoclasm have survived here, among them a 6th-century Christ Pantocrator painted in hot wax. The left and right sides of his face deliberately differ: one is gentle, the other stern. The Codex Sinaiticus, one of the oldest manuscripts of the Bible, was found in the library." },
+        { ime: "Mount Sinai", opis: "Two routes lead to the 2,285-meter summit: the gentler Camel Path and the 3,750 Steps of Repentance, which according to tradition a single monk carved into the rock. Most people climb at night to greet the sunrise over a sea of bare peaks." },
+        { ime: "Blue Hole near Dahab", opis: "A sinkhole in the reef more than a hundred meters deep begins a few steps from the shore. With a snorkel mask you swim along its coral-covered rim, while the depths should be left only to very experienced divers, as the memorial plaques on the rock warn." },
+        { ime: "Ras Muhammad National Park", opis: "At the very tip of the peninsula two sea currents collide and feed walls of coral that drop into the deep. It is Egypt's first national park, founded in 1983, and mangroves also grow along the shore." }
       ],
       jesti: [
-        { ime: "Beduinski kruh i čaj", opis: "Kruh farasheeh peče se na izbočenoj metalnoj ploči nad vatrom, a uz njega ide čaj s pustinjskom travom habak." },
-        { ime: "Riba u Dahabu", opis: "Restorani uz šetnicu izlažu dnevni ulov, a jede se sjedeći na jastucima uz samo more." }
+        { ime: "Bedouin bread and tea", opis: "Farasheeh bread is baked on a domed metal plate over the fire, and it comes with tea flavored with the desert herb habak." },
+        { ime: "Fish in Dahab", opis: "The restaurants along the promenade display the day's catch, and you eat sitting on cushions right by the sea." }
       ],
       dozivjeti: [
-        { ime: "Pješačenje s beduinskim vodičima", opis: "Sinai Trail prva je duga pješačka staza u Egiptu, a vode je i održavaju beduinska plemena, pa prihod ostaje u zajednici. Moguće su i kraće, višednevne dionice.", link: "https://sinaitrail.net/" },
-        { ime: "Ronjenje s maskom na grebenu Lighthouse", opis: "U samom Dahabu greben počinje uz obalu, pa se koralji i ribe vide bez broda. Opremu iznajmljuju ronilački centri uz šetnicu." }
+        { ime: "Hiking with Bedouin guides", opis: "The Sinai Trail is the first long-distance hiking trail in Egypt, and it is guided and maintained by Bedouin tribes, so the income stays in the community. Shorter, multi-day sections are possible too.", link: "https://sinaitrail.net/" },
+        { ime: "Snorkeling at the Lighthouse reef", opis: "In Dahab itself the reef begins at the shore, so you can see corals and fish without a boat. Gear is rented by the dive centers along the promenade." }
       ],
       agencije: [
-        { ime: "Sinai Trail", opis: "Beduinska zadruga koja organizira vođena pješačenja Sinajem.", link: "https://sinaitrail.net/" },
-        { ime: "Experience Egypt", opis: "Službena turistička stranica Egipta s vodičem kroz Sinaj i Crveno more.", link: "https://www.experienceegypt.eg/en" }
+        { ime: "Sinai Trail", opis: "A Bedouin cooperative that organizes guided hikes across Sinai.", link: "https://sinaitrail.net/" },
+        { ime: "Experience Egypt", opis: "The official tourism website of Egypt, with a guide to Sinai and the Red Sea.", link: "https://www.experienceegypt.eg/en" }
       ],
-      kada: "Ožujak do svibnja i rujan do studenoga. Na Mojsijevoj gori noću je hladno i ljeti, a samostan prima posjetitelje samo nekoliko sati prijepodne i ne svaki dan."
+      kada: "March to May and September to November. On Mount Sinai it is cold at night even in summer, and the monastery admits visitors for only a few hours in the morning and not every day."
     },
     {
       id: "siwa",
       ime: "Siwa",
       vrsta: "priroda",
-      sazetak: "Daleka oaza blizu libijske granice u kojoj je Aleksandar Veliki pitao proročište tko mu je otac.",
-      prica: ["Siwa leži u udubini ispod razine mora, petstotinjak kilometara od Nila, okružena slanim jezerima i Velikim pješčanim morem. Njezini stanovnici Amazigi su i govore vlastitim jezikom, siwi, a oaza je Egiptu čvrsto pripojena tek u 19. stoljeću. U antici je bila slavna po Amonovu proročištu, kojem je Aleksandar Veliki došao 331. prije Krista. Herodot piše da je perzijski kralj Kambiz poslao vojsku da ga uništi i da ju je progutala pješčana oluja."],
+      sazetak: "A remote oasis near the Libyan border where Alexander the Great asked the oracle who his father was.",
+      prica: ["Siwa lies in a depression below sea level, some five hundred kilometers from the Nile, surrounded by salt lakes and the Great Sand Sea. Its inhabitants are Amazigh and speak their own language, Siwi, and the oasis was firmly joined to Egypt only in the 19th century. In antiquity it was famous for the oracle of Amun, which Alexander the Great visited in 331 BC. Herodotus writes that the Persian king Cambyses sent an army to destroy it and that a sandstorm swallowed it up."],
       vidjeti: [
-        { ime: "Hram proročišta u Aghurmiju", opis: "Na stijeni nad palmama stoje ostaci hrama iz 6. stoljeća prije Krista u kojem su svećenici Aleksandra pozdravili kao Amonova sina. Što je točno pitao i što mu je odgovoreno, nikada nije otkrio. U svetištu se vidi uski hodnik iza zida, iz kojeg je svećenik možda govorio umjesto boga." },
-        { ime: "Tvrđava Shali", opis: "Stari grad iz 13. stoljeća građen je od kershefa, mješavine soli iz jezera, blata i kamena, a kuće su se dizale i do pet katova. Tri dana kiše 1926. otopila su zidove i stanovnici su se iselili. Ruševine izgledaju kao otopljeni dvorac od pijeska, osobito osvijetljene noću." },
-        { ime: "Brdo mrtvih", opis: "Gebel al-Mawta izbušen je grobnicama iz ptolemejskog i rimskog doba. U Si-Amonovoj grobnici sačuvane su slike pokojnika grčkog izgleda, s bradom i kovrčama, pred egipatskim bogovima, što pokazuje kako su se ovdje miješali svjetovi." },
-        { ime: "Kleopatrin izvor", opis: "Okrugli kameni bazen puni se toplom izvorskom vodom s dna, iz kojeg se dižu mjehurići. Legenda kaže da se ovdje kupala Kleopatra, za što nema dokaza, ali izvor spominju već antički pisci." },
-        { ime: "Slana jezera i Veliko pješčano more", opis: "U tirkiznim bazenima nastalima vađenjem soli pluta se kao u Mrtvom moru. Na zapadu počinju dine koje se protežu stotinama kilometara, a u pijesku se nalaze fosilne školjke iz mora koje je ovdje nekad bilo." }
+        { ime: "Temple of the Oracle at Aghurmi", opis: "On a rock above the palms stand the remains of a temple from the 6th century BC, where the priests greeted Alexander as the son of Amun. He never revealed exactly what he asked or what answer he was given. In the sanctuary you can see a narrow corridor behind the wall, from which a priest may have spoken in place of the god." },
+        { ime: "Shali Fortress", opis: "The old town from the 13th century was built of kershef, a mixture of salt from the lakes, mud and stone, and the houses rose as high as five stories. Three days of rain in 1926 melted the walls and the inhabitants moved out. The ruins look like a melted sandcastle, especially when lit up at night." },
+        { ime: "Mountain of the Dead", opis: "Gebel al-Mawta is honeycombed with tombs from the Ptolemaic and Roman periods. The tomb of Si-Amun preserves paintings of the deceased with a Greek appearance, bearded and curly-haired, standing before Egyptian gods, which shows how worlds mingled here." },
+        { ime: "Cleopatra's Spring", opis: "The round stone pool fills with warm spring water from the bottom, where bubbles rise. Legend says that Cleopatra bathed here, for which there is no evidence, but the spring is already mentioned by ancient writers." },
+        { ime: "Salt lakes and the Great Sand Sea", opis: "In the turquoise pools created by salt extraction you float as you would in the Dead Sea. To the west begin dunes that stretch for hundreds of kilometers, and in the sand you find fossil shells from the sea that once lay here." }
       ],
       jesti: [
-        { ime: "Datulje i masline", opis: "Oaza ima stotine tisuća palmi i maslina, a datulje punjene bademima i domaće maslinovo ulje prodaju se na trgu pod tvrđavom." },
-        { ime: "Čaj s limunskom travom", opis: "Sivljani piju vrlo jak čaj s mentom ili limunskom travom, natočen u male čaše, i nude ga gostu tri puta." }
+        { ime: "Dates and olives", opis: "The oasis has hundreds of thousands of palm and olive trees, and dates stuffed with almonds and local olive oil are sold on the square below the fortress." },
+        { ime: "Tea with lemongrass", opis: "Siwans drink very strong tea with mint or lemongrass, poured into small glasses, and offer it to a guest three times." }
       ],
       dozivjeti: [
-        { ime: "Zalazak sunca na otoku Fatnas", opis: "Palmik na rubu slanog jezera Siwa, do kojeg se stiže biciklom, mjesto je gdje se cijela oaza okupi kada sunce pada iza stolnih planina." },
-        { ime: "Izlet terencem u dine", opis: "Lokalni vozači vode do toplih i hladnih izvora usred pijeska i do grebena s fosilima, uz čaj u sumrak.", link: "https://siwa.com/" }
+        { ime: "Sunset on Fatnas Island", opis: "The palm grove on the edge of the salt lake of Siwa, which you reach by bicycle, is the place where the whole oasis gathers as the sun drops behind the table mountains." },
+        { ime: "A four-wheel-drive trip into the dunes", opis: "Local drivers take you to hot and cold springs in the middle of the sand and to a ridge with fossils, with tea at dusk.", link: "https://siwa.com/" }
       ],
       agencije: [
-        { ime: "Experience Egypt", opis: "Službena turistička stranica Egipta s informacijama o zapadnim oazama.", link: "https://www.experienceegypt.eg/en" },
-        { ime: "Siwa.com", opis: "Lokalni vodič s pregledom smještaja i izleta u oazi.", link: "https://siwa.com/" }
+        { ime: "Experience Egypt", opis: "The official tourism website of Egypt, with information about the western oases.", link: "https://www.experienceegypt.eg/en" },
+        { ime: "Siwa.com", opis: "A local guide with an overview of accommodation and excursions in the oasis.", link: "https://siwa.com/" }
       ],
-      kada: "Od listopada do travnja. Vožnja iz Kaira traje oko devet sati, pa predvidite barem tri noći, a zbog blizine granice provjerite službene preporuke i potrebne dozvole za izlete u pustinju."
+      kada: "From October to April. The drive from Cairo takes about nine hours, so allow at least three nights, and because the border is close, check the official advisories and the permits required for trips into the desert."
     }
   ],
   izvori: [
-    { ime: "Ministarstvo turizma i starina Egipta, Discover Egypt's Monuments", url: "https://egymonuments.gov.eg/" },
+    { ime: "Ministry of Tourism and Antiquities of Egypt, Discover Egypt's Monuments", url: "https://egymonuments.gov.eg/" },
     { ime: "Experience Egypt", url: "https://www.experienceegypt.eg/en" },
     { ime: "Grand Egyptian Museum", url: "https://gem.eg/" },
     { ime: "National Museum of Egyptian Civilization", url: "https://nmec.gov.eg/" },
     { ime: "Bibliotheca Alexandrina", url: "https://www.bibalex.org/en/default" },
-    { ime: "National Geographic, otvorenje Velikog egipatskog muzeja", url: "https://www.nationalgeographic.com/travel/article/what-to-know-about-opening-of-the-grand-egyptian-museum-cairo" },
-    { ime: "Nikša Varezić, Dubrovačka Republika i Levant u 16. stoljeću: Aleksandrijski spor", url: "https://zbornik.ffst.unist.hr/?p=1916" },
+    { ime: "National Geographic, the opening of the Grand Egyptian Museum", url: "https://www.nationalgeographic.com/travel/article/what-to-know-about-opening-of-the-grand-egyptian-museum-cairo" },
+    { ime: "Nikša Varezić, Dubrovačka Republika i Levant u 16. stoljeću: Aleksandrijski spor (The Republic of Dubrovnik and the Levant in the 16th century: the Alexandria dispute)", url: "https://zbornik.ffst.unist.hr/?p=1916" },
     { ime: "UNESCO, Koshary, daily life dish and practices associated with it", url: "https://ich.unesco.org/en/RL/02278" },
     { ime: "Sinai Trail", url: "https://sinaitrail.net/" },
     { ime: "Bellies En-Route", url: "https://belliesenroute.com/" }

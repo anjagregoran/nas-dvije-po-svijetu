@@ -1,474 +1,474 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["grcka"] = {
   id: "grcka",
-  ime: "Grčka",
-  regija: "Jugoistočna Europa",
-  sazetak: "Zemlja u kojoj se uz jutarnju kavu gleda u hram star dvadeset i pet stoljeća, a navečer se uz ribu i uzo raspravlja kao da se demokracija izmišlja upravo za tim stolom.",
+  ime: "Greece",
+  regija: "Southeastern Europe",
+  sazetak: "A country where you drink your morning coffee looking at a temple twenty-five centuries old, and where in the evening, over fish and ouzo, people argue as if democracy were being invented at that very table.",
   uvod: [
-    "Grčka je mjesto na kojem su nastale riječi kojima se i danas služimo kad govorimo o politici, kazalištu, filozofiji i sportu, pa se putovanje ovamo često pretvori u prepoznavanje stvari koje smo učile u školi. Povijest ovdje ipak ne staje s antikom: nakon Atene i Aleksandra došli su Rimljani, zatim tisuću godina Bizanta, pa križari i Mlečani na otocima i gotovo četiri stoljeća osmanske vlasti na kopnu. Moderna država rodila se tek u ustanku koji je počeo 1821., a današnje granice dobila je postupno, sve do 1947. godine.",
-    "Upravo ta slojevitost čini Grčku zanimljivom i onima kojima su more i masline svakodnevica. U Solunu ćete u istoj ulici vidjeti rimski slavoluk, bizantsku crkvu i osmansko kupalište, na Krfu i Kreti prepoznat ćete mletačke lavove kakve poznajete iz Dalmacije, a na Peloponezu ćete stajati pred vratima kroz koja je, prema Homeru, Agamemnon krenuo na Troju. Hrana je jednostavna i sezonska, stol se dijeli, a obrok bez žurbe ovdje je pravilo lijepog ponašanja."
+    "Greece is where the words we still use to talk about politics, theater, philosophy and sport were born, so a trip here often turns into recognizing things you learned at school. History does not stop with antiquity, though: after Athens and Alexander came the Romans, then a thousand years of Byzantium, then Crusaders and Venetians on the islands and almost four centuries of Ottoman rule on the mainland. The modern state was born only in the uprising that began in 1821, and it reached its present borders gradually, as late as 1947.",
+    "That layering is exactly what makes Greece interesting even to people for whom the sea and olive trees are everyday life. In Thessaloniki you will see a Roman triumphal arch, a Byzantine church and an Ottoman bathhouse on the same street, on Corfu and Crete you will recognize the Venetian lions familiar from Dalmatia, and in the Peloponnese you will stand before the gate through which, according to Homer, Agamemnon set out for Troy. The food is simple and seasonal, the table is shared, and an unhurried meal is considered plain good manners here."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Svibanj, lipanj, rujan i listopad najbolji su za razgledavanje jer je more toplo, a arheološka nalazišta nisu užarena. U srpnju i kolovozu na antička mjesta idite čim se otvore, a zimi je Atena ugodna i poluprazna, dok mnogi otočni hoteli i trajektne linije miruju." },
-    { k: "Valuta", v: "Euro. Kartice se primaju gotovo svugdje, ali za male taverne, kioske i autobuse na otocima dobro je imati gotovinu." },
-    { k: "Kretanje", v: "Između otoka voze trajekti i brzi katamarani iz Pireja, Rafine i Lavrija, a po kopnu međugradski autobusi KTEL koji stižu i ondje gdje vlak ne vozi. Željeznica povezuje uglavnom Atenu i Solun, dok je za Peloponez i veće otoke najpraktičniji unajmljeni automobil." },
-    { k: "Napojnica", v: "Nije obvezna, ali je uobičajeno zaokružiti račun ili ostaviti 5 do 10 posto u taverni. Voda i kruh često se naplaćuju kao mali „kuver“, a na kraju obroka kuća nerijetko sama donese voće, slatko ili čašicu rakije." }
+    { k: "When to go", v: "May, June, September and October are best for sightseeing, because the sea is warm and the archaeological sites are not scorching. In July and August go to the ancient sites the moment they open, and in winter Athens is pleasant and half empty, while many island hotels and ferry lines shut down." },
+    { k: "Currency", v: "The euro. Cards are accepted almost everywhere, but it is a good idea to carry cash for small tavernas, kiosks and island buses." },
+    { k: "Getting around", v: "Ferries and fast catamarans run between the islands from Piraeus, Rafina and Lavrio, and on the mainland the KTEL intercity buses reach places the train does not. The railway mainly connects Athens and Thessaloniki, while a rental car is the most practical choice for the Peloponnese and the larger islands." },
+    { k: "Tipping", v: "It is not compulsory, but it is customary to round up the bill or leave 5 to 10 percent in a taverna. Water and bread are often charged as a small cover charge, and at the end of the meal the house frequently brings fruit, a sweet or a small glass of spirits on its own initiative." }
   ],
   hrana: [
-    { ime: "Horiatiki", opis: "Seoska salata od rajčice, krastavca, luka, maslina i debele ploške fete, začinjena origanom i maslinovim uljem.", prica: "U pravoj grčkoj salati nema zelene salate, a feta se ne mrvi nego se polaže na vrh u jednom komadu. Sok koji ostane na dnu tanjura zove se papara i sasvim je pristojno pokupiti ga kruhom." },
-    { ime: "Feta", opis: "Bijeli sir iz salamure od ovčjeg mlijeka, kojem se smije dodati do trideset posto kozjeg.", prica: "Od 2002. naziv je zaštićen u Europskoj uniji i smije ga nositi samo sir iz određenih grčkih pokrajina. U tavernama je potražite pečenu u foliji s paprikom i rajčicom ili zamotanu u tijesto i prelivenu medom i sezamom." },
-    { ime: "Musaka", opis: "Zapečeno jelo od slojeva patlidžana, mljevenog mesa u umaku od rajčice i debelog pokrova bešamela.", prica: "Jelo slično našoj musaki postoji posvuda na Balkanu i Bliskom istoku, ali grčku inačicu s bešamelom i patlidžanom popularizirao je kuhar Nikolaos Tselementes u svojoj kuharici dvadesetih godina prošlog stoljeća. Zato je ona zapravo mlađa nego što većina gostiju misli." },
-    { ime: "Suvlaki i giros", opis: "Suvlaki je meso na ražnjiću, a giros meso rezano s okomitog ražnja, i jedno i drugo najčešće umotano u pitu s rajčicom, lukom, pomfritom i tzatzikijem.", prica: "U Ateni ćete zamotanu pitu naručiti kao „suvlaki“, dok će vam u Solunu za istu stvar reći „sendvič“, pa se dva grada oko toga rado zadirkuju. Tražite „apo ola“ ako želite sve priloge." },
-    { ime: "Fasolada", opis: "Gusta juha od bijelog graha, mrkve, celera i rajčice s puno maslinova ulja.", prica: "Grci je često nazivaju svojim pravim nacionalnim jelom jer je stoljećima hranila obitelji u dane posta, kojih u pravoslavnom kalendaru ima više od polovice godine. Jede se uz masline, sirovi luk i komad slane ribe." },
-    { ime: "Spanakopita i tiropita", opis: "Pite od tankih kora punjene špinatom i fetom ili samo sirom.", prica: "Pita je u Grčkoj doručak s nogu, kupuje se u pekarnici i jede putem do posla. U Epiru i Tesaliji kore se još razvlače ručno, a svako selo ima svoju inačicu sa samoniklim zeljem." },
-    { ime: "Hobotnica na žaru", opis: "Krakovi hobotnice sušeni na suncu pa pečeni na ugljenu i poliveni uljem i octom.", prica: "Hobotnice koje vise na konopcu ispred taverne služe i kao reklama i kao priprema, jer sušenje daje čvrstoću koju kuhanje ne može. Uz nju se naručuje uzo, koji s ledom pobijeli kao mlijeko." },
-    { ime: "Lukumades", opis: "Vruće pržene kuglice od dizanog tijesta prelivene medom i posute cimetom ili orasima.", prica: "Antički izvori spominju medene kolačiće koji su se dijelili pobjednicima u Olimpiji, pa se lukumades često navode kao jedan od najstarijih zabilježenih deserta. Danas se jedu u malim slastičarnicama koje ne prodaju ništa drugo." },
-    { ime: "Grčka kava i freddo", opis: "Kava kuhana u džezvi, koja se u Grčkoj zove briki, te ledeni freddo espresso i freddo cappuccino.", prica: "Kuhana kava naručuje se prema slatkoći: sketos je gorka, metrios srednja, a glikos slatka. Freddo je pak grčki izum devedesetih godina i ljeti ga pije cijela zemlja, polako i satima." },
-    { ime: "Uzo, cipuro i retsina", opis: "Uzo je rakija s anisom, cipuro komovica s anisom ili bez njega, a retsina bijelo vino s dodatkom smole alepskog bora.", prica: "Smolom su se u antici brtvile amfore, pa je okus ostao kao navika i nakon što su amfore nestale. Uzo i cipuro nikada se ne piju na prazan želudac, nego uz male tanjuriće mezea koji stižu sa svakom rundom." }
+    { ime: "Horiatiki", opis: "A village salad of tomato, cucumber, onion, olives and a thick slab of feta, seasoned with oregano and olive oil.", prica: "A real Greek salad has no lettuce in it, and the feta is not crumbled but laid on top in a single piece. The juice left at the bottom of the plate is called papara, and it is perfectly polite to mop it up with bread." },
+    { ime: "Feta", opis: "A white brined cheese made from sheep's milk, to which up to thirty percent goat's milk may be added.", prica: "Since 2002 the name has been protected in the European Union and may be used only for cheese from certain Greek regions. In tavernas look for it baked in foil with peppers and tomato, or wrapped in pastry and drizzled with honey and sesame." },
+    { ime: "Moussaka", opis: "A baked dish of layered eggplant, ground meat in tomato sauce and a thick blanket of béchamel.", prica: "Similar dishes, including the Croatian musaka, exist all over the Balkans and the Middle East, but the Greek version with béchamel and eggplant was popularized by the chef Nikolaos Tselementes in his cookbook in the 1920s. That makes it younger than most guests assume." },
+    { ime: "Souvlaki and gyros", opis: "Souvlaki is meat on a skewer and gyros is meat sliced from a vertical spit, and both most often come wrapped in pita with tomato, onion, fries and tzatziki.", prica: "In Athens you order the wrapped pita as “souvlaki”, while in Thessaloniki they will call the same thing a “sandwich”, and the two cities love to tease each other about it. Ask for “apo ola” if you want all the fillings." },
+    { ime: "Fasolada", opis: "A thick soup of white beans, carrot, celery and tomato with plenty of olive oil.", prica: "Greeks often call it their true national dish, because for centuries it fed families on fasting days, which make up more than half the year in the Orthodox calendar. It is eaten with olives, raw onion and a piece of salted fish." },
+    { ime: "Spanakopita and tiropita", opis: "Pies of thin phyllo filled with spinach and feta, or with cheese alone.", prica: "In Greece pie is breakfast on the go, bought at the bakery and eaten on the way to work. In Epirus and Thessaly the dough is still stretched by hand, and every village has its own version with wild greens." },
+    { ime: "Grilled octopus", opis: "Octopus tentacles dried in the sun, then grilled over charcoal and dressed with oil and vinegar.", prica: "The octopuses hanging on a line in front of a taverna serve as both advertisement and preparation, because drying gives a firmness that boiling cannot. People order ouzo with it, which turns as white as milk over ice." },
+    { ime: "Loukoumades", opis: "Hot fried balls of leavened dough drizzled with honey and sprinkled with cinnamon or walnuts.", prica: "Ancient sources mention honey cakes handed out to the winners at Olympia, so loukoumades are often cited as one of the oldest recorded desserts. Today they are eaten in small sweet shops that sell nothing else." },
+    { ime: "Greek coffee and freddo", opis: "Coffee brewed in a small long-handled pot, which in Greece is called a briki, along with iced freddo espresso and freddo cappuccino.", prica: "Brewed coffee is ordered by sweetness: sketos is unsweetened, metrios is medium and glykos is sweet. Freddo, meanwhile, is a Greek invention of the 1990s, and in summer the whole country drinks it, slowly and for hours." },
+    { ime: "Ouzo, tsipouro and retsina", opis: "Ouzo is an anise-flavored spirit, tsipouro is a grape pomace brandy with or without anise, and retsina is a white wine with added Aleppo pine resin.", prica: "In antiquity resin was used to seal amphorae, so the flavor stayed on as a habit even after the amphorae disappeared. Ouzo and tsipouro are never drunk on an empty stomach but with small plates of meze that arrive with every round." }
   ],
   obicaji: [
-    { ime: "Rebetiko", opis: "Gradska glazba luka i predgrađa, nastala među izbjeglicama iz Male Azije nakon 1922., koja uz buzuki pjeva o ljubavi, siromaštvu i zatvoru. Često je zovu grčkim bluesom, a UNESCO ju je 2017. uvrstio na popis nematerijalne baštine.", gdje: "U Ateni je slušajte u malim lokalima zvanim rebetadiko u četvrtima Psiri i Exarchia, a u Solunu u Ladadici i Gornjem gradu, najbolje od listopada do svibnja kada sviraju stalne postave." },
-    { ime: "Sirtaki i narodna kola", opis: "Sirtaki, ples koji cijeli svijet smatra pradavnim, osmišljen je 1964. za film „Grk Zorba“ na glazbu Mikisa Theodorakisa. Pravi narodni plesovi su kalamatianos, tsamikos i zeibekiko, a ovaj posljednji pleše jedan čovjek sam, dok mu društvo kleči uokolo i plješće.", gdje: "Kazalište Dora Stratou na brdu Filopap u Ateni ljeti izvodi plesove svih grčkih pokrajina u izvornim nošnjama, a na otocima ih je najbolje vidjeti na seoskim slavljima." },
-    { ime: "Panigiri", opis: "Seoska svetkovina uz blagdan sveca zaštitnika, na kojoj cijelo mjesto jede za dugim stolovima, a svirači ne staju do jutra. Dobrodošao je svatko tko naiđe, a pleše se u krugu u koji se jednostavno ubacite.", gdje: "Najviše ih je 15. kolovoza, na Veliku Gospu, a posebno su poznata slavlja na Ikariji, Naksosu i Tinosu. Datume pitajte u lokalnom turističkom uredu ili u seoskoj kavani." },
-    { ime: "Pravoslavni Uskrs", opis: "Najveći blagdan u godini, važniji od Božića. U ponoć na Veliku subotu svi iz crkve iznose upaljene svijeće, čuje se „Hristos anesti“, a zatim se jede juha magiritsa i kuca crvenim jajima.", gdje: "Na Krfu se na Veliku subotu u 11 sati s balkona bacaju golemi glineni vrčevi, na Hiosu dvije župe gađaju jedna drugu raketama, a u Ateni je najljepše na brdu Likabet. Datum se računa po drugom kalendaru pa obično pada kasnije od katoličkog." },
-    { ime: "Imendan", opis: "Dan sveca čije ime nosite ovdje se slavi više nego rođendan. Slavljenik drži otvorena vrata i časti, a čestita se riječima „Hronia pola“, što znači mnogo godina.", gdje: "Vidjet ćete ga posvuda: slastičarnice su pune ljudi koji nose kutije kolača, osobito na dane svetog Jurja, Konstantina i Jelene, Marije i Dimitrija." },
-    { ime: "Kafenio i komboloi", opis: "Kafenio je seoska kavana u kojoj se sjedi satima uz jednu kavu, igra tavli i komentira svijet. U rukama starijih muškaraca vrte se komboloi, niska zrna koja nema vjersko značenje, nego služi smirivanju i ubijanju vremena.", gdje: "Najljepše kavane su na seoskim trgovima pod platanom, primjerice u planinskim selima Naksosa i Krete. U Nafpliju postoji mali muzej komboloija u kojem ćete naučiti razlikovati jantar od plastike." },
-    { ime: "Mati", opis: "Plavo stakleno oko koje visi na vratima, retrovizorima i dječjim kolicima štiti od uroka, to jest od zavidna pogleda. Vjerovanje je starije od kršćanstva, a mnogi ga i danas shvaćaju napola ozbiljno.", gdje: "Kupuje se posvuda, ali ljepše ručno puhane primjerke naći ćete kod staklara i zlatara u atenskoj Plaki nego na štandovima sa suvenirima." }
+    { ime: "Rebetiko", opis: "The urban music of ports and suburbs, born among refugees from Asia Minor after 1922, which sings of love, poverty and prison to the sound of the bouzouki. It is often called the Greek blues, and UNESCO added it to its list of intangible heritage in 2017.", gdje: "In Athens listen to it in the small venues called rebetadiko in the Psiri and Exarchia neighborhoods, and in Thessaloniki in Ladadika and the Upper Town, ideally from October to May when the resident bands play." },
+    { ime: "Sirtaki and folk circle dances", opis: "Sirtaki, the dance the whole world believes to be ancient, was created in 1964 for the film “Zorba the Greek” to music by Mikis Theodorakis. The real folk dances are kalamatianos, tsamikos and zeibekiko, and this last one is danced by one man alone while his friends kneel around him and clap.", gdje: "The Dora Stratou Theater on Philopappos Hill in Athens performs dances from every Greek region in original costumes in summer, and on the islands the best place to see them is at village festivals." },
+    { ime: "Panigiri", opis: "A village festival on the feast day of the patron saint, when the whole place eats at long tables and the musicians do not stop until morning. Anyone who happens by is welcome, and people dance in a circle that you simply step into.", gdje: "Most of them fall on August 15, the Feast of the Assumption, and the celebrations on Ikaria, Naxos and Tinos are especially well known. Ask for dates at the local tourist office or in the village coffee house." },
+    { ime: "Orthodox Easter", opis: "The biggest holiday of the year, more important than Christmas. At midnight on Holy Saturday everyone carries lit candles out of the church, you hear “Christos anesti”, and then people eat magiritsa soup and crack red eggs against each other.", gdje: "On Corfu huge clay jugs are thrown from balconies at 11 a.m. on Holy Saturday, on Chios two parishes fire rockets at each other, and in Athens the loveliest spot is Lycabettus Hill. The date is calculated by a different calendar, so it usually falls later than Catholic Easter." },
+    { ime: "Name day", opis: "The feast day of the saint whose name you bear is celebrated here more than a birthday. The person celebrating keeps an open door and treats everyone, and the greeting is “Chronia polla”, which means many years.", gdje: "You will see it everywhere: pastry shops are full of people carrying boxes of cakes, especially on the feast days of Saint George, Constantine and Helen, Mary and Demetrius." },
+    { ime: "Kafenio and komboloi", opis: "The kafenio is a village coffee house where people sit for hours over a single coffee, play tavli and comment on the world. Older men twirl a komboloi in their hands, a string of beads that has no religious meaning and simply serves to calm the nerves and pass the time.", gdje: "The loveliest coffee houses are on village squares under a plane tree, for example in the mountain villages of Naxos and Crete. In Nafplio there is a small komboloi museum where you will learn to tell amber from plastic." },
+    { ime: "Mati", opis: "The blue glass eye that hangs on doors, rearview mirrors and baby strollers protects against the evil eye, meaning an envious glance. The belief is older than Christianity, and many people still take it half seriously today.", gdje: "You can buy it everywhere, but you will find nicer hand-blown pieces at glassmakers and jewelers in the Plaka district of Athens than at the souvenir stalls." }
   ],
   fraze: [
-    { izvorno: "Καλημέρα (Kaliméra)", izgovor: "ka-li-ME-ra", hr: "Dobro jutro, dobar dan (do podneva)" },
-    { izvorno: "Γεια σας (Ja sas)", izgovor: "JA-sas", hr: "Dobar dan i doviđenja (uljudno)" },
-    { izvorno: "Ευχαριστώ (Efharistó)", izgovor: "ef-ha-ri-STO", hr: "Hvala" },
-    { izvorno: "Παρακαλώ (Parakaló)", izgovor: "pa-ra-ka-LO", hr: "Molim, izvolite, nema na čemu" },
-    { izvorno: "Ναι / Όχι (Ne / Óhi)", izgovor: "NE / O-hi", hr: "Da / Ne (pazite, „ne“ znači da)" },
-    { izvorno: "Πόσο κάνει; (Póso káni?)", izgovor: "PO-so KA-ni", hr: "Koliko košta?" },
-    { izvorno: "Τον λογαριασμό, παρακαλώ", izgovor: "ton lo-ga-rjaz-MO pa-ra-ka-LO", hr: "Račun, molim" },
-    { izvorno: "Στην υγειά μας! (Stin ijá mas!)", izgovor: "stin i-JA mas", hr: "Živjeli! (skraćeno „Jamas“)" }
+    { izvorno: "Καλημέρα (Kaliméra)", izgovor: "kah-lee-MEH-rah", hr: "Good morning, good day (until noon)" },
+    { izvorno: "Γεια σας (Ja sas)", izgovor: "YAH-sahs", hr: "Hello and goodbye (polite)" },
+    { izvorno: "Ευχαριστώ (Efharistó)", izgovor: "ef-hah-rees-TOH", hr: "Thank you" },
+    { izvorno: "Παρακαλώ (Parakaló)", izgovor: "pah-rah-kah-LOH", hr: "Please, here you are, you're welcome" },
+    { izvorno: "Ναι / Όχι (Ne / Óhi)", izgovor: "NEH / OH-hee", hr: "Yes / No (careful, “ne” means yes)" },
+    { izvorno: "Πόσο κάνει; (Póso káni?)", izgovor: "POH-soh KAH-nee", hr: "How much does it cost?" },
+    { izvorno: "Τον λογαριασμό, παρακαλώ", izgovor: "ton loh-gah-ryahz-MOH pah-rah-kah-LOH", hr: "The check, please" },
+    { izvorno: "Στην υγειά μας! (Stin ijá mas!)", izgovor: "steen ee-YAH mahs", hr: "Cheers! (shortened to “Yamas”)" }
   ],
   zanimljivosti: [
-    "Grčko „ne“ znači da, a „ohi“ znači ne. Uz to Grci niječu kratkim trzajem glave prema gore i tihim coktanjem, što strancima lako promakne.",
-    "Grčka himna nastala je prema pjesmi Dionisija Solomosa koja ima 158 kitica, pa se na svečanostima pjevaju samo prve dvije.",
-    "Ispružen dlan s raširenim prstima okrenut prema nekome zove se mundza i teška je uvreda, pa broj pet konobaru radije pokažite dlanom okrenutim prema sebi.",
-    "Grci svoju zemlju zovu Elada, a sebe Elines. Ime Grčka došlo je preko Rimljana.",
-    "Dan „Ohi“, 28. listopada, državni je praznik kojim se slavi odbijanje talijanskog ultimatuma 1940. godine.",
-    "U većini kuća i lokala toaletni papir baca se u koš, a ne u školjku, jer su odvodne cijevi uske.",
-    "Maraton se trči 42 kilometra zato što je toliko otprilike od Maratonskog polja do Atene, kamo je glasnik prema predaji dotrčao javiti pobjedu nad Perzijancima 490. prije Krista.",
-    "Grčka ima nekoliko tisuća otoka i hridi, a stalno je naseljeno tek nešto više od stotinu."
+    "The Greek “ne” means yes, and “ohi” means no. On top of that, Greeks say no with a short upward jerk of the head and a quiet click of the tongue, which foreigners easily miss.",
+    "The Greek national anthem is based on a poem by Dionysios Solomos that has 158 stanzas, so only the first two are sung at ceremonies.",
+    "An open palm with spread fingers turned toward someone is called a moutza and is a serious insult, so show the waiter the number five with your palm facing yourself instead.",
+    "Greeks call their country Ellada and themselves Ellines. The name Greece came by way of the Romans.",
+    "“Ohi” Day, October 28, is a national holiday celebrating the rejection of the Italian ultimatum in 1940.",
+    "In most homes and restaurants toilet paper goes in the bin and not in the toilet, because the drainpipes are narrow.",
+    "A marathon is run over 42 kilometers because that is roughly the distance from the plain of Marathon to Athens, where according to tradition a messenger ran to announce the victory over the Persians in 490 BC.",
+    "Greece has several thousand islands and rocky islets, and only a little over a hundred are permanently inhabited."
   ],
   mjesta: [
     {
       id: "atena",
-      ime: "Atena",
+      ime: "Athens",
       vrsta: "grad",
-      sazetak: "Glavni grad u kojem se iznad betonskog mora svake večeri upali Partenon, a ispod njega žive tržnice, taverne i četvrti pune grafita.",
+      sazetak: "The capital where the Parthenon lights up every evening above a sea of concrete, while below it markets, tavernas and graffiti-covered neighborhoods carry on with life.",
       prica: [
-        "Atena je svoj vrhunac doživjela u petom stoljeću prije Krista, kada je nakon pobjede nad Perzijancima Periklo novcem saveznika dao sagraditi hramove na Akropoli. Nakon toga bila je rimski sveučilišni grad, bizantska provincija i osmanska kasaba, a 1834., kada je proglašena prijestolnicom nove države, imala je tek nekoliko tisuća stanovnika.",
-        "Današnji grad zato je uglavnom izgrađen u dvadesetom stoljeću, osobito nakon dolaska izbjeglica iz Male Azije 1922. godine. Antička jezgra povezana je širokom pješačkom šetnicom oko Akropole, pa se najvažnija mjesta mogu obići bez prelaska ijedne ceste."
+        "Athens reached its peak in the fifth century BC, when after the victory over the Persians Pericles used the allies' money to build the temples on the Acropolis. After that it was a Roman university town, a Byzantine province and a small Ottoman town, and in 1834, when it was proclaimed capital of the new state, it had only a few thousand inhabitants.",
+        "That is why today's city was mostly built in the twentieth century, especially after the arrival of refugees from Asia Minor in 1922. The ancient core is linked by a broad pedestrian promenade around the Acropolis, so you can visit the most important sites without crossing a single road."
       ],
       vidjeti: [
-        { ime: "Partenon i Akropola", opis: "Hram božice Atene sagrađen je od 447. do 432. prije Krista prema nacrtima Iktina i Kalikrata, pod nadzorom kipara Fidije. Potražite optičke ispravke: stupovi su blago nagnuti prema unutra i zadebljani u sredini, a pod je izbočen, pa na cijelom hramu gotovo da nema ravne crte. Rupa u sredini potječe iz 1687., kada je mletačka granata pogodila osmansko skladište baruta koje se nalazilo u hramu." },
-        { ime: "Erehtejon", opis: "Nepravilan hram iz 421. do 406. prije Krista stoji na mjestu gdje su se, prema mitu, Atena i Posejdon natjecali za grad, pa se uz zid i danas njeguje maslina. Šest Karijatida na trijemu su kopije: pet izvornih stoji u Muzeju Akropole, a šestu je početkom 19. stoljeća lord Elgin odnio u London. Pogledajte im kosu s leđa, jer debela pletenica zapravo pojačava vrat koji nosi krov." },
-        { ime: "Muzej Akropole", opis: "Otvoren je 2009. podno brda, a staklen pod u prizemlju otkriva iskopane kuće i ulice antičke četvrti. Gornji kat ima točne mjere i orijentaciju Partenona, pa friz gledate onim redom kojim je stajao na hramu. Bijeli gipsani dijelovi označavaju ploče koje se nalaze u Britanskom muzeju i čiji povratak Grčka traži." },
-        { ime: "Antička agora i Hefestov hram", opis: "Na ovom se trgu trgovalo, sudilo i raspravljalo, ovuda je hodao Sokrat, a ovdje je i osuđen. Hefestov hram iz petog stoljeća prije Krista najbolje je očuvan dorski hram u Grčkoj jer je stoljećima služio kao crkva. U muzeju u obnovljenoj Atalovoj stoi potražite ostrake, krhotine posuđa na kojima su građani ispisivali ime onoga koga žele prognati, među njima i Temistoklovo." },
-        { ime: "Nacionalni arheološki muzej", opis: "Najveća zbirka grčke antike na svijetu čuva zlatnu masku koju je Schliemann 1876. u Mikeni proglasio Agamemnonovom, premda je oko tri stoljeća starija od Trojanskog rata. Ne propustite mehanizam s Antikitere, brončani sklop zupčanika iz brodoloma koji je računao kretanje nebeskih tijela, te brončanog dječaka jahača s rta Artemizija." },
-        { ime: "Olimpion i Hadrijanov luk", opis: "Hram Zeusa Olimpijskog započet je u šestom stoljeću prije Krista, a dovršio ga je tek car Hadrijan oko 131. godine, više od šest stoljeća poslije. Od 104 stupa stoji ih petnaest, a šesnaesti leži od oluje 1852. tako da mu se bubnjevi nižu po travi kao pali novčići. Na obližnjem luku pročitajte dva natpisa: s jedne strane piše da je to Tezejev grad, a s druge Hadrijanov." }
+        { ime: "Parthenon and the Acropolis", opis: "The temple of the goddess Athena was built from 447 to 432 BC to designs by Ictinus and Callicrates, under the supervision of the sculptor Phidias. Look for the optical corrections: the columns lean slightly inward and swell in the middle, and the floor is curved upward, so there is hardly a straight line in the whole temple. The gap in the middle dates from 1687, when a Venetian shell hit the Ottoman gunpowder store kept inside the temple." },
+        { ime: "Erechtheion", opis: "This irregular temple from 421 to 406 BC stands on the spot where, according to myth, Athena and Poseidon competed for the city, which is why an olive tree is still tended beside the wall. The six Caryatids on the porch are copies: five originals stand in the Acropolis Museum, and the sixth was taken to London by Lord Elgin in the early 19th century. Look at their hair from behind, because the thick braid actually reinforces the neck that carries the roof." },
+        { ime: "Acropolis Museum", opis: "It opened in 2009 at the foot of the hill, and the glass floor on the ground level reveals the excavated houses and streets of an ancient neighborhood. The top floor has the exact dimensions and orientation of the Parthenon, so you view the frieze in the order in which it stood on the temple. The white plaster sections mark the panels that are in the British Museum and whose return Greece is asking for." },
+        { ime: "Ancient Agora and the Temple of Hephaestus", opis: "This square was where people traded, held trials and debated, where Socrates walked and where he was also condemned. The Temple of Hephaestus from the fifth century BC is the best preserved Doric temple in Greece because it served as a church for centuries. In the museum inside the rebuilt Stoa of Attalos look for the ostraka, pottery shards on which citizens wrote the name of the person they wanted to banish, including that of Themistocles." },
+        { ime: "National Archaeological Museum", opis: "The largest collection of Greek antiquity in the world holds the gold mask that Schliemann declared in 1876 at Mycenae to be Agamemnon's, although it is about three centuries older than the Trojan War. Do not miss the Antikythera mechanism, a bronze assembly of gears from a shipwreck that calculated the movement of the heavenly bodies, or the bronze boy jockey from Cape Artemision." },
+        { ime: "Olympieion and Hadrian's Arch", opis: "The Temple of Olympian Zeus was begun in the sixth century BC and finished only by Emperor Hadrian around the year 131, more than six centuries later. Of its 104 columns fifteen are standing, and a sixteenth has lain where a storm toppled it in 1852, its drums strung out across the grass like fallen coins. On the nearby arch read the two inscriptions: one side says this is the city of Theseus, and the other the city of Hadrian." }
       ],
       jesti: [
-        { ime: "Suvlaki u piti", opis: "Atenska ulična klasika jede se s nogu u četvrti Monastiraki, gdje se nekoliko starih roštiljarnica niže jedna do druge na samom trgu." },
-        { ime: "Kuluri", opis: "Tanki prsten od tijesta posut sezamom prodaje se ujutro s kolica na svakom uglu i najjeftiniji je doručak u gradu." },
-        { ime: "Meze u Psiriju", opis: "U uličicama četvrti Psiri naručuje se mnogo malih tanjura za cijeli stol: fava, pečeni sir saganaki, sitne pržene ribe i mesne okruglice keftedes." },
-        { ime: "Lukumades i jogurt s medom", opis: "Stare mljekare i slastičarnice u središtu grada poslužuju gusti ovčji jogurt s korom na vrhu te vruće lukumades na vagu." }
+        { ime: "Souvlaki in pita", opis: "The Athenian street classic is eaten standing up in the Monastiraki district, where several old grill houses line up side by side right on the square." },
+        { ime: "Koulouri", opis: "A thin ring of dough covered in sesame seeds, sold from carts on every corner in the morning, is the cheapest breakfast in the city." },
+        { ime: "Meze in Psiri", opis: "In the lanes of the Psiri neighborhood you order lots of small plates for the whole table: fava, the fried cheese saganaki, tiny fried fish and the meatballs called keftedes." },
+        { ime: "Loukoumades and yogurt with honey", opis: "The old dairy bars and sweet shops in the city center serve thick sheep's milk yogurt with a skin on top and hot loukoumades sold by weight." }
       ],
       dozivjeti: [
-        { ime: "Zalazak sunca s brda Filopap ili Likabet", opis: "S Filopapa gledate Akropolu u ravnini očiju i more u daljini, a put vodi kroz borovu šumu po stazama koje je pedesetih godina popločio arhitekt Dimitris Pikionis. Na viši Likabet možete uspinjačom ili pješice, ako ste umorne od stuba.", link: "https://www.thisisathens.org/" },
-        { ime: "Smjena straže na trgu Sintagma", opis: "Gardisti evzoni pred Grobom neznanog junaka mijenjaju se svakog punog sata, a velika smjena s orkestrom je nedjeljom u 11 sati. Predaja kaže da njihova suknjica ima 400 nabora, po jedan za svaku godinu osmanske vlasti." },
-        { ime: "Središnja tržnica Varvakios", opis: "U halama u Ulici Athinas prodaju se riba i meso, a u okolnim ulicama začini, masline i sirevi. Dođite prijepodne i doručkujte u nekoj od radničkih zalogajnica u samoj tržnici." },
-        { ime: "Šetnja s lokalnim vodičem", opis: "Besplatne ture uz napojnicu dobar su uvod u prvi dan, a manje agencije nude tematske šetnje o hrani, uličnoj umjetnosti i mitologiji.", link: "https://www.athensfreewalkingtour.com/" }
+        { ime: "Sunset from Philopappos or Lycabettus Hill", opis: "From Philopappos you look at the Acropolis at eye level with the sea in the distance, and the way up leads through a pine wood on paths paved in the 1950s by the architect Dimitris Pikionis. You can reach the higher Lycabettus by funicular or on foot, if you are tired of stairs.", link: "https://www.thisisathens.org/" },
+        { ime: "Changing of the guard on Syntagma Square", opis: "The Evzone guards in front of the Tomb of the Unknown Soldier change every hour on the hour, and the grand change with a band is on Sundays at 11 a.m. Tradition says their kilt has 400 pleats, one for each year of Ottoman rule." },
+        { ime: "Varvakios Central Market", opis: "Fish and meat are sold in the halls on Athinas Street, and spices, olives and cheeses in the surrounding streets. Come in the morning and have breakfast in one of the workers' eateries inside the market itself." },
+        { ime: "A walk with a local guide", opis: "Free tip-based tours are a good introduction on your first day, and smaller agencies offer themed walks about food, street art and mythology.", link: "https://www.athensfreewalkingtour.com/" }
       ],
       agencije: [
-        { ime: "This is Athens", opis: "Službeni turistički vodič grada Atene s kalendarom događanja i prijedlozima šetnji.", link: "https://www.thisisathens.org/" },
-        { ime: "Alternative Athens", opis: "Lokalna agencija poznata po šetnjama kroz tržnice, četvrti izvan turističkih ruta i gastronomskim turama.", link: "https://www.alternativeathens.com/" },
-        { ime: "Savez licenciranih turističkih vodiča Grčke", opis: "Strukovna udruga preko koje možete pronaći ovlaštenog vodiča za Akropolu i muzeje.", link: "https://touristguides.gr/" }
+        { ime: "This is Athens", opis: "The official tourist guide of the city of Athens, with an events calendar and suggested walks.", link: "https://www.thisisathens.org/" },
+        { ime: "Alternative Athens", opis: "A local agency known for walks through markets and neighborhoods off the tourist routes, and for food tours.", link: "https://www.alternativeathens.com/" },
+        { ime: "Association of Licensed Tourist Guides of Greece", opis: "The professional association through which you can find an authorized guide for the Acropolis and the museums.", link: "https://touristguides.gr/" }
       ],
-      kada: "Najugodnije je od ožujka do svibnja i u listopadu. Ulaznice za Akropolu kupuju se za točno određeni termin, pa odaberite prvi jutarnji ili kasni poslijepodnevni i rezervirajte ih unaprijed."
+      kada: "It is most pleasant from March to May and in October. Tickets for the Acropolis are sold for a specific time slot, so pick the first one in the morning or a late afternoon one and book ahead."
     },
     {
       id: "solun",
-      ime: "Solun",
+      ime: "Thessaloniki",
       vrsta: "grad",
-      sazetak: "Drugi grad Grčke i njezina gastronomska prijestolnica, u kojem se rimski, bizantski, osmanski i židovski slojevi vide na jednoj šetnji uz more.",
+      sazetak: "The second city of Greece and its food capital, where the Roman, Byzantine, Ottoman and Jewish layers can all be seen on a single walk along the sea.",
       prica: [
-        "Grad je 315. prije Krista osnovao makedonski kralj Kasandar i nazvao ga po ženi Tesaloniki, polusestri Aleksandra Velikog. U Bizantu je bio drugi grad carstva, a u devetom stoljeću ovdje su rođena braća Ćiril i Metod, tvorci glagoljice, što Solun čini posebno zanimljivim hrvatskim putnicima.",
-        "Od 1430. do 1912. vladali su Osmanlije, a nakon 1492. grad su ispunili sefardski Židovi protjerani iz Španjolske, koji su stoljećima bili najbrojnija zajednica. Veliki požar 1917. uništio je središte, pa je donji grad sagrađen iznova prema francuskom nacrtu, dok je Gornji grad zadržao stare kuće i zidine."
+        "The city was founded in 315 BC by the Macedonian king Cassander, who named it after his wife Thessalonike, half sister of Alexander the Great. In Byzantium it was the second city of the empire, and in the ninth century the brothers Cyril and Methodius were born here, the creators of the Glagolitic script, which makes Thessaloniki especially interesting for Croatian travelers.",
+        "From 1430 to 1912 the Ottomans ruled, and after 1492 the city filled with Sephardic Jews expelled from Spain, who were the largest community for centuries. The great fire of 1917 destroyed the center, so the lower town was rebuilt to a French plan, while the Upper Town kept its old houses and walls."
       ],
       vidjeti: [
-        { ime: "Bijela kula", opis: "Osmanska kula iz 15. stoljeća služila je kao zatvor i zvala se Krvava kula. Predaja kaže da ju je 1890. jedan zatvorenik okrečio u bijelo u zamjenu za slobodu, otkud joj današnje ime. Unutra je muzej povijesti grada, a s vrha se vidi cijeli zaljev i, za bistra dana, Olimp." },
-        { ime: "Rotonda", opis: "Kružnu građevinu promjera gotovo 25 metara dao je oko 306. sagraditi car Galerije, možda kao vlastiti mauzolej. Poslije je bila crkva pa džamija, zbog čega uz nju stoji jedini sačuvani minaret u gradu. Podignite pogled prema zlatnim mozaicima iz ranokršćanskog doba, na kojima sveci stoje pred raskošnim palačama." },
-        { ime: "Galerijev slavoluk", opis: "Solunjani ga zovu Kamara i ovdje se dogovaraju sastanci. Podignut je u spomen na pobjedu nad Perzijancima 298. godine, a na reljefima potražite prizor u kojem car na konju napada perzijskog kralja i slonove koji nose darove." },
-        { ime: "Bazilika svetog Dimitrija", opis: "Najveća crkva u gradu stoji nad rimskim kupalištem u kojem je, prema predaji, početkom četvrtog stoljeća pogubljen časnik Dimitrije, kasniji zaštitnik Soluna. Siđite u kriptu i potražite nekoliko mozaika iz sedmog stoljeća koji su preživjeli požar 1917. i prikazuju sveca s graditeljima crkve." },
-        { ime: "Gornji grad i zidine", opis: "Ano Poli jedini je dio grada koji požar nije dotaknuo, pa su ovdje ostale drvene kuće s istacima i strme kaldrmirane ulice. Popnite se do kule Trigonio pred zalazak sunca, a usput pogledajte malu crkvu Osios David s rijetkim mozaikom golobradog Krista." },
-        { ime: "Arheološki muzej", opis: "Čuva zlato makedonskih grobnica, a glavni izložak je krater iz Dervenija, brončana posuda za vino visoka gotovo metar, koja zbog legure izgleda kao da je od zlata. Na njoj su iskovani Dioniz i Arijadna, okruženi menadama u plesu." }
+        { ime: "White Tower", opis: "This 15th-century Ottoman tower served as a prison and was called the Tower of Blood. Legend says that in 1890 a prisoner whitewashed it in exchange for his freedom, which is where its present name comes from. Inside is a museum of the city's history, and from the top you can see the whole bay and, on a clear day, Mount Olympus." },
+        { ime: "Rotunda", opis: "This circular building almost 25 meters across was commissioned around 306 by Emperor Galerius, perhaps as his own mausoleum. Later it was a church and then a mosque, which is why the only surviving minaret in the city stands beside it. Look up at the golden mosaics from the early Christian period, in which saints stand before lavish palaces." },
+        { ime: "Arch of Galerius", opis: "Locals call it Kamara, and this is where people arrange to meet. It was raised to commemorate the victory over the Persians in 298, and on the reliefs look for the scene in which the emperor on horseback attacks the Persian king, and for the elephants carrying gifts." },
+        { ime: "Basilica of Saint Demetrius", opis: "The largest church in the city stands over the Roman baths where, according to tradition, the officer Demetrius, later patron saint of Thessaloniki, was executed in the early fourth century. Go down into the crypt and look for the few seventh-century mosaics that survived the fire of 1917 and show the saint with the builders of the church." },
+        { ime: "Upper Town and the walls", opis: "Ano Poli is the only part of the city the fire did not touch, so the timber houses with overhanging upper floors and the steep cobbled streets have remained here. Climb to the Trigonio Tower before sunset, and on the way see the little church of Osios David with its rare mosaic of a beardless Christ." },
+        { ime: "Archaeological Museum", opis: "It holds the gold of the Macedonian tombs, and the star exhibit is the Derveni Krater, a bronze wine vessel almost a meter tall that looks as if it were made of gold because of its alloy. Worked into it are Dionysus and Ariadne, surrounded by dancing maenads." }
       ],
       jesti: [
-        { ime: "Bugaca", opis: "Pita od tankih kora s kremom od griza, sirom ili mesom, koja se reže na kockice i posipa šećerom i cimetom. Solun je njezina prijestolnica, a donijeli su je izbjeglice iz Male Azije." },
-        { ime: "Kuluri Thessalonikis", opis: "Sezamov prsten koji se po cijeloj Grčkoj zove po Solunu, najbolji je topao, s uličnih kolica u ranim jutarnjim satima." },
-        { ime: "Trigona Panoramatos", opis: "Hrskavi trokuti od lisnatog tijesta natopljeni sirupom i punjeni kremom nastali su u predgrađu Panorama i pune se tek kad ih naručite." },
-        { ime: "Meze i cipuro", opis: "U uzerijama se uz bocu cipura redaju dagnje s rižom, pečene paprike iz Florine i začinjeni sir tirokafteri." }
+        { ime: "Bougatsa", opis: "A pie of thin phyllo with semolina custard, cheese or meat, which is cut into small squares and dusted with sugar and cinnamon. Thessaloniki is its capital, and it was brought by refugees from Asia Minor." },
+        { ime: "Koulouri Thessalonikis", opis: "The sesame ring that is named after Thessaloniki all over Greece is best warm, from the street carts in the early morning hours." },
+        { ime: "Trigona Panoramatos", opis: "Crisp triangles of puff pastry soaked in syrup and filled with cream were created in the suburb of Panorama and are filled only when you order them." },
+        { ime: "Meze and tsipouro", opis: "In the ouzeri, a bottle of tsipouro comes with a procession of mussels with rice, roasted peppers from Florina and the spicy cheese dip tirokafteri." }
       ],
       dozivjeti: [
-        { ime: "Tržnice Kapani i Modiano", opis: "Dvije susjedne tržnice srce su gradske kuhinje: Kapani je stara, bučna i natkrivena platnom, a hala Modiano iz dvadesetih godina obnovljena je i puna zalogajnica. Idite prijepodne i gladne." },
-        { ime: "Večer u Ladadici", opis: "Nekadašnja četvrt skladišta ulja uz luku danas je puna taverni i lokala sa živom glazbom, gdje se uz rebetiko sjedi do kasno." },
-        { ime: "Muzej bizantske kulture", opis: "Pregledno uređen muzej objašnjava kako se živjelo, molilo i pokapalo u Bizantu, pa je dobra priprema za obilazak solunskih crkava pod zaštitom UNESCO-a.", link: "https://www.mbp.gr/" },
-        { ime: "Šetnica uz more", opis: "Od Bijele kule do koncertne dvorane vodi pet kilometara duga obala s tematskim vrtovima i skulpturom kišobrana Jorgosa Zongolopulosa, najdražim mjestom za fotografiranje u gradu." }
+        { ime: "Kapani and Modiano markets", opis: "Two neighboring markets are the heart of the city's cooking: Kapani is old, noisy and covered with canvas, and the Modiano hall from the 1920s has been restored and is full of eateries. Go in the morning and go hungry." },
+        { ime: "An evening in Ladadika", opis: "The former district of oil warehouses by the port is now full of tavernas and venues with live music, where people sit late into the night to the sound of rebetiko." },
+        { ime: "Museum of Byzantine Culture", opis: "This clearly laid out museum explains how people lived, prayed and were buried in Byzantium, so it is good preparation for touring the churches of Thessaloniki protected by UNESCO.", link: "https://www.mbp.gr/" },
+        { ime: "Seafront promenade", opis: "From the White Tower to the concert hall runs a five-kilometer waterfront with themed gardens and the umbrella sculpture by Giorgos Zongolopoulos, the city's favorite spot for photographs." }
       ],
       agencije: [
-        { ime: "Thessaloniki Tourism", opis: "Turistička organizacija Soluna s praktičnim informacijama i prijedlozima ruta.", link: "https://www.thessalonikitourism.gr/" },
-        { ime: "Arheološki muzej Soluna", opis: "Službena stranica muzeja s informacijama o stalnom postavu i vođenim obilascima.", link: "https://www.amth.gr/" }
+        { ime: "Thessaloniki Tourism", opis: "The tourism organization of Thessaloniki, with practical information and suggested routes.", link: "https://www.thessalonikitourism.gr/" },
+        { ime: "Archaeological Museum of Thessaloniki", opis: "The museum's official website, with information on the permanent exhibition and guided tours.", link: "https://www.amth.gr/" }
       ],
-      kada: "Proljeće i jesen su idealni, a studeni je mjesec filmskog festivala. Do Soluna se iz Hrvatske može i automobilom preko Srbije i Sjeverne Makedonije, pa je zgodna prva postaja na putu prema jugu."
+      kada: "Spring and fall are ideal, and November is the month of the film festival. Thessaloniki can also be reached from Croatia by car through Serbia and North Macedonia, which makes it a handy first stop on the way south."
     },
     {
       id: "meteora",
       ime: "Meteora",
       vrsta: "priroda",
-      sazetak: "Šuma kamenih tornjeva nad tesalskom ravnicom, na čijim vrhovima već šest stoljeća stoje samostani do kojih se nekad dolazilo samo u mreži na konopu.",
+      sazetak: "A forest of stone towers above the plain of Thessaly, with monasteries that have stood on their summits for six centuries and could once be reached only in a net on a rope.",
       prica: [
-        "Stijene od pješčenjaka i konglomerata nastale su taloženjem u davnoj riječnoj delti, a voda i vjetar izrezali su ih u stupove visoke i do 400 metara. Pustinjaci su se u njihove špilje povlačili već od 11. stoljeća, a prvi veliki samostan osnovao je oko 1340. monah Atanasije sa Svete Gore.",
-        "U doba najvećeg procvata bila su ovdje 24 samostana, a danas ih je živih šest, od čega su dva ženska. Ime Meteora znači „ono što lebdi u zraku“, a UNESCO je cijeli kraj zaštitio 1988. i kao prirodnu i kao kulturnu baštinu."
+        "The rocks of sandstone and conglomerate were formed by sediment in an ancient river delta, and water and wind carved them into pillars up to 400 meters high. Hermits were withdrawing to their caves as early as the 11th century, and the first large monastery was founded around 1340 by the monk Athanasios from Mount Athos.",
+        "At the height of their flowering there were 24 monasteries here, and today six are active, two of them convents. The name Meteora means “that which hovers in the air”, and UNESCO protected the whole area in 1988 as both natural and cultural heritage."
       ],
       vidjeti: [
-        { ime: "Veliki Meteoron", opis: "Najstariji i najveći samostan stoji na najvišoj stijeni. U staroj kuhinji vidjet ćete čađavu kupolu i golemo posuđe, a u kosturnici police s lubanjama monaha koji su ovdje živjeli." },
-        { ime: "Varlaam", opis: "Osnovan je u 16. stoljeću, a građu su na vrh dizali više od dvadeset godina. U tornju potražite vitlo i mrežu kojima su se do 20. stoljeća dizali ljudi i zalihe, te golemu hrastovu bačvu za vodu od dvanaest tisuća litara." },
-        { ime: "Sveti Stjepan", opis: "Ženski samostan do kojeg vodi kratak most bez ijedne stube najlakši je za posjet. S terase se pruža pogled na Kalambaku i rijeku Penej, a redovnice prodaju vlastite ikone i vez." },
-        { ime: "Sveto Trojstvo", opis: "Najusamljeniji samostan, do kojeg vodi oko 140 stuba uklesanih u stijenu, poznat je iz filma o Jamesu Bondu „Samo za tvoje oči“ iz 1981. godine. Košara žičare kojom monasi i danas dovoze namirnice visi nad ponorom." },
-        { ime: "Sveti Nikola Anapafsas", opis: "Mali samostan na uskoj stijeni građen je u visinu, kat na kat. Freske je 1527. naslikao Teofan Krećanin, a u prizoru u kojem Adam daje imena životinjama potražite i zmaja među njima." }
+        { ime: "Great Meteoron", opis: "The oldest and largest monastery stands on the highest rock. In the old kitchen you will see a soot-blackened dome and enormous cookware, and in the ossuary shelves holding the skulls of the monks who lived here." },
+        { ime: "Varlaam", opis: "It was founded in the 16th century, and hauling the building material to the top took more than twenty years. In the tower look for the winch and net used to lift people and supplies until the 20th century, and for the huge oak water barrel that holds twelve thousand liters." },
+        { ime: "Saint Stephen", opis: "This convent, reached by a short bridge without a single step, is the easiest to visit. The terrace looks out over Kalambaka and the Pineios River, and the nuns sell their own icons and embroidery." },
+        { ime: "Holy Trinity", opis: "The most isolated monastery, reached by about 140 steps cut into the rock, is known from the 1981 James Bond film “For Your Eyes Only”. The basket of the cable lift the monks still use to bring in provisions hangs over the abyss." },
+        { ime: "Saint Nicholas Anapafsas", opis: "This small monastery on a narrow rock was built upward, floor upon floor. The frescoes were painted in 1527 by Theophanes the Cretan, and in the scene where Adam names the animals, look for the dragon among them." }
       ],
       jesti: [
-        { ime: "Kobasice s porilukom", opis: "Tesalske kobasice iz kraja oko Trikale pune se svinjetinom i porilukom, a u tavernama Kalambake i Kastrakija peku se na žaru." },
-        { ime: "Cipuro i meze", opis: "U Tesaliji se cipuro naručuje u malim bočicama, a uz svaku stiže novi tanjurić mezea koji bira kuća." },
-        { ime: "Jela s gljivama", opis: "Okolne šume bogate su gljivama i tartufima, pa ih taverne poslužuju u pitama, s tjesteninom hilopites i u gulašima." }
+        { ime: "Leek sausages", opis: "Thessalian sausages from the area around Trikala are filled with pork and leek, and in the tavernas of Kalambaka and Kastraki they are cooked on the grill." },
+        { ime: "Tsipouro and meze", opis: "In Thessaly tsipouro is ordered in small bottles, and each one arrives with a new little plate of meze chosen by the house." },
+        { ime: "Mushroom dishes", opis: "The surrounding forests are rich in mushrooms and truffles, so tavernas serve them in pies, with the pasta called hilopites and in stews." }
       ],
       dozivjeti: [
-        { ime: "Pješačenje starim monaškim stazama", opis: "Kalderimi kroz šumu povezuju Kastraki i samostane, pa stijene doživite odozdo, bez autobusa i gužve. Lokalni vodiči vode i ture u zalazak sunca do vidikovaca.", link: "https://visitmeteora.travel/" },
-        { ime: "Muzej prirodne povijesti i gljiva", opis: "Neobičan mali muzej u Kalambaki objašnjava biljni i životinjski svijet Meteore i organizira kušanja proizvoda od gljiva i tartufa." },
-        { ime: "Zalazak sunca s vidikovca", opis: "Na stijenama uz cestu između samostana Varlaam i Rusanu okupljaju se svi pred sumrak, kada tornjevi pocrvene, a ravnica utone u izmaglicu." }
+        { ime: "Hiking the old monks' trails", opis: "Cobbled kalderimi paths through the forest connect Kastraki and the monasteries, so you experience the rocks from below, without buses and crowds. Local guides also lead sunset tours to the viewpoints.", link: "https://visitmeteora.travel/" },
+        { ime: "Natural History and Mushroom Museum", opis: "This unusual little museum in Kalambaka explains the plant and animal life of Meteora and organizes tastings of mushroom and truffle products." },
+        { ime: "Sunset from a viewpoint", opis: "Everyone gathers before dusk on the rocks beside the road between the Varlaam and Roussanou monasteries, when the towers turn red and the plain sinks into haze." }
       ],
       agencije: [
-        { ime: "Visit Meteora", opis: "Lokalna agencija iz Kalambake specijalizirana za pješačke ture, obilaske samostana i izlete iz Atene i Soluna vlakom.", link: "https://visitmeteora.travel/" },
-        { ime: "Visit Greece", opis: "Službeni portal Grčke turističke organizacije s osnovnim informacijama o regiji.", link: "https://www.visitgreece.gr/" }
+        { ime: "Visit Meteora", opis: "A local agency from Kalambaka specializing in hiking tours, monastery visits and train excursions from Athens and Thessaloniki.", link: "https://visitmeteora.travel/" },
+        { ime: "Visit Greece", opis: "The official portal of the Greek National Tourism Organization, with basic information about the region.", link: "https://www.visitgreece.gr/" }
       ],
-      kada: "Najljepše je u travnju, svibnju i listopadu. Svaki samostan zatvoren je jedan drugi dan u tjednu, a žene moraju imati suknju ispod koljena i pokrivena ramena, pa ponesite maramu ili posudite ogrtač na ulazu."
+      kada: "It is loveliest in April, May and October. Each monastery is closed on a different day of the week, and women must wear a skirt below the knee and have their shoulders covered, so bring a scarf or borrow a wrap at the entrance."
     },
     {
       id: "delfi",
-      ime: "Delfi",
+      ime: "Delphi",
       vrsta: "gradić",
-      sazetak: "Svetište na obronku Parnasa koje su stari Grci smatrali pupkom svijeta i u koje su kraljevi dolazili pitati za savjet prije svakog rata.",
+      sazetak: "A sanctuary on the slopes of Parnassus that the ancient Greeks considered the navel of the world, where kings came to ask for advice before every war.",
       prica: [
-        "Mit kaže da je Zeus pustio dva orla s dvaju krajeva svijeta i da su se susreli upravo ovdje, a mjesto je označeno kamenom zvanim omfalos. U Apolonovu hramu svećenica Pitija izgovarala je proročanstva koja su svećenici pretakali u dvosmislene stihove, pa su se gradovi natjecali tko će svetištu darovati bogatiju riznicu.",
-        "Proročište je radilo više od tisuću godina, sve dok ga krajem četvrtog stoljeća nije zatvorio kršćanski car Teodozije. Nad ruševinama je niknulo selo koje su francuski arheolozi 1892. morali preseliti da bi počeli kopati."
+        "Myth says that Zeus released two eagles from the two ends of the world and that they met right here, and the spot is marked by a stone called the omphalos. In the Temple of Apollo the priestess Pythia uttered prophecies that the priests recast into ambiguous verses, and cities competed over who would give the sanctuary the richest treasury.",
+        "The oracle operated for more than a thousand years, until the Christian emperor Theodosius closed it at the end of the fourth century. A village grew up over the ruins, and in 1892 French archaeologists had to relocate it before they could start digging."
       ],
       vidjeti: [
-        { ime: "Sveti put i Riznica Atenjana", opis: "Staza vijuga uzbrdo između postolja nekadašnjih spomenika kojima su se gradovi hvalili pobjedama. Mala mramorna riznica Atenjana ponovno je složena 1906., a na zidovima potražite uklesane himne Apolonu s najstarijim sačuvanim glazbenim zapisom." },
-        { ime: "Apolonov hram", opis: "Šest stupova pripada hramu iz četvrtog stoljeća prije Krista, pod kojim je Pitija sjedila na tronošcu. Na predvorju su bile uklesane izreke sedmorice mudraca, među njima „Upoznaj samoga sebe“ i „Ničega previše“." },
-        { ime: "Kazalište i stadion", opis: "Iz kazališta s pet tisuća mjesta pruža se najljepši pogled na svetište i dolinu maslina. Iznad njega je stadion Pitijskih igara, na kojem su se, osim trkača, natjecali i glazbenici i pjesnici." },
-        { ime: "Tolos Atene Pronaje", opis: "Kružna građevina s tri ponovno podignuta stupa najfotografiraniji je prizor Delfa, a čemu je služila ne zna se ni danas. Nalazi se niže uz cestu, odvojeno od glavnog svetišta, i često je gotovo prazna." },
-        { ime: "Arheološki muzej", opis: "Glavna zvijezda je brončani Vozač kočije iz oko 470. prije Krista, jedan od rijetkih sačuvanih antičkih kipova od bronce u prirodnoj veličini. Priđite mu blizu i pogledajte oči od stakla i kamena te sačuvane trepavice." }
+        { ime: "Sacred Way and the Athenian Treasury", opis: "The path winds uphill between the bases of the monuments with which cities once boasted of their victories. The small marble Athenian Treasury was reassembled in 1906, and on its walls look for the carved hymns to Apollo with the oldest surviving musical notation." },
+        { ime: "Temple of Apollo", opis: "The six columns belong to the temple from the fourth century BC, beneath which the Pythia sat on her tripod. The sayings of the Seven Sages were carved in the forecourt, among them “Know thyself” and “Nothing in excess”." },
+        { ime: "Theater and stadium", opis: "The theater, with five thousand seats, offers the finest view of the sanctuary and the valley of olive trees. Above it is the stadium of the Pythian Games, where musicians and poets competed as well as runners." },
+        { ime: "Tholos of Athena Pronaia", opis: "The circular building with three re-erected columns is the most photographed sight in Delphi, and to this day nobody knows what it was for. It lies lower down beside the road, apart from the main sanctuary, and is often almost empty." },
+        { ime: "Archaeological Museum", opis: "The main star is the bronze Charioteer from around 470 BC, one of the few surviving life-size bronze statues from antiquity. Step up close and look at the eyes of glass and stone and the preserved eyelashes." }
       ],
       jesti: [
-        { ime: "Formaela iz Arahove", opis: "Tvrdi ovčji sir zaštićenog podrijetla iz susjednog planinskog sela peče se na žaru i poslužuje s limunom." },
-        { ime: "Masline iz Amfise", opis: "Krupne masline iz doline pod Delfima, najvećeg maslinika u Grčkoj, kupuju se na vagu u seoskim trgovinama." },
-        { ime: "Hilopites", opis: "Domaća tjestenina izrezana na sitne kvadratiće poslužuje se uz pijetla ili janjetinu u umaku od rajčice." }
+        { ime: "Formaela from Arachova", opis: "A hard sheep's milk cheese with protected designation of origin from the neighboring mountain village, which is grilled and served with lemon." },
+        { ime: "Amfissa olives", opis: "Plump olives from the valley below Delphi, the largest olive grove in Greece, are bought by weight in the village shops." },
+        { ime: "Hilopites", opis: "Homemade pasta cut into tiny squares is served with rooster or lamb in tomato sauce." }
       ],
       dozivjeti: [
-        { ime: "Šetnja do Kastalijskog izvora", opis: "U klancu između dviju stijena hodočasnici su se prali prije ulaska u svetište. Do izvora je nekoliko minuta hoda cestom, a predaja kaže da njegova voda daje pjesničko nadahnuće." },
-        { ime: "Poslijepodne u Arahovi", opis: "Planinsko selo deset kilometara dalje poznato je po tkanim tepisima, siru i kamenom tornju sa satom, a zimi je puno skijaša s Parnasa." },
-        { ime: "Staza kroz maslinik do mora", opis: "Stari hodočasnički put spušta se od Delfa kroz stoljetne masline do luke Kira, kamo su u antici pristajali brodovi s hodočasnicima.", link: "https://visitdelphi.gr/" }
+        { ime: "A walk to the Castalian Spring", opis: "In the ravine between two cliffs pilgrims washed before entering the sanctuary. The spring is a few minutes' walk along the road, and tradition says its water gives poetic inspiration." },
+        { ime: "An afternoon in Arachova", opis: "The mountain village ten kilometers away is known for woven rugs, cheese and a stone clock tower, and in winter it is full of skiers from Parnassus." },
+        { ime: "The trail through the olive grove to the sea", opis: "The old pilgrims' path descends from Delphi through centuries-old olive trees to the port of Kirra, where ships carrying pilgrims docked in antiquity.", link: "https://visitdelphi.gr/" }
       ],
       agencije: [
-        { ime: "Visit Delphi", opis: "Službena turistička stranica općine Delfi s kartama staza i popisom znamenitosti.", link: "https://visitdelphi.gr/" },
-        { ime: "Arheološko nalazište i muzej Delfi", opis: "Službena stranica nalazišta s opisom spomenika i informacijama za posjetitelje.", link: "https://delphi.culture.gr/" }
+        { ime: "Visit Delphi", opis: "The official tourism website of the municipality of Delphi, with trail maps and a list of sights.", link: "https://visitdelphi.gr/" },
+        { ime: "Archaeological Site and Museum of Delphi", opis: "The official website of the site, with descriptions of the monuments and visitor information.", link: "https://delphi.culture.gr/" }
       ],
-      kada: "Proljeće donosi cvijeće među ruševinama i snijeg na vrhu Parnasa. Prenoćite u mjestu i budite na ulazu pri otvaranju, prije nego što stignu izletnički autobusi iz Atene."
+      kada: "Spring brings flowers among the ruins and snow on the summit of Parnassus. Stay overnight in the town and be at the entrance when it opens, before the excursion buses arrive from Athens."
     },
     {
       id: "santorini",
       ime: "Santorini",
       vrsta: "otok",
-      sazetak: "Rub potonulog vulkana na kojem bijela sela vise nad morem dubokim nekoliko stotina metara i čuvaju grad zatrpan pepelom prije 3600 godina.",
+      sazetak: "The rim of a sunken volcano where white villages hang above a sea several hundred meters deep and guard a town buried in ash 3,600 years ago.",
       prica: [
-        "Santorini je nekad bio okrugao otok, sve dok golema vulkanska erupcija u brončanom dobu, oko 1600. prije Krista, nije urušila njegovo središte i ostavila kalderu ispunjenu morem. Pepeo je zatrpao bogat grad kod današnjeg Akrotirija, a val i potresi pogodili su i minojsku Kretu.",
-        "Ime otoku dali su Mlečani po kapelici svete Irene, dok se službeno zove Thira. Sela Fira i Oia obnovljena su nakon razornog potresa 1956., a kuće ukopane u stijenu, nekad siromašni stanovi mornara, danas su najskuplji hoteli na Egeju."
+        "Santorini was once a round island, until a colossal volcanic eruption in the Bronze Age, around 1600 BC, collapsed its center and left a caldera filled by the sea. The ash buried a wealthy town near today's Akrotiri, and the wave and earthquakes also struck Minoan Crete.",
+        "The island was named by the Venetians after the chapel of Saint Irene, while its official name is Thira. The villages of Fira and Oia were rebuilt after the devastating earthquake of 1956, and the houses dug into the rock, once the poor dwellings of sailors, are now the most expensive hotels in the Aegean."
       ],
       vidjeti: [
-        { ime: "Akrotiri", opis: "Natkriveno nalazište otkriva ulice, trgove i kuće na tri kata s kanalizacijom, zatrpane pepelom poput Pompeja. Kosturi nisu pronađeni, što znači da su stanovnici upozoreni potresima stigli pobjeći. Izvorne freske čuvaju se u Ateni i u muzeju u Firi." },
-        { ime: "Muzej prapovijesne Thire", opis: "U Firi ćete vidjeti zidne slike iz Akrotirija, među njima plave majmune, te malu zlatnu figuru kozoroga pronađenu 1999. u drvenoj kutiji. Posjetite ga prije ili poslije nalazišta jer tek zajedno daju cijelu sliku." },
-        { ime: "Oia", opis: "Selo na sjevernom vrhu otoka poznato je po zalasku sunca, ali je ljepše ujutro, kada su uličice prazne. Potražite kapetanske kuće s ravnim pročeljima na vrhu i skromne špiljske kuće posade ukopane niže u stijenu." },
-        { ime: "Antička Thira", opis: "Na grebenu Mesa Vuno, 360 metara nad morem, leže ostaci grada koji su u osmom stoljeću prije Krista osnovali Spartanci. Na stijenama potražite urezane natpise, među najstarijim primjerima grčkog alfabeta." },
-        { ime: "Pirgos", opis: "Nekadašnja prijestolnica otoka u unutrašnjosti sačuvala je oblik mletačkog utvrđenog sela s prstenom kuća oko kaštela. S vrha se vidi cijeli otok, a gužve su mnogo manje nego na rubu kaldere." }
+        { ime: "Akrotiri", opis: "The roofed site reveals streets, squares and three-story houses with sewers, buried in ash like Pompeii. No skeletons have been found, which means the inhabitants, warned by earthquakes, managed to escape. The original frescoes are kept in Athens and in the museum in Fira." },
+        { ime: "Museum of Prehistoric Thera", opis: "In Fira you will see wall paintings from Akrotiri, among them the blue monkeys, and a small gold figure of an ibex found in 1999 inside a wooden box. Visit it before or after the site, because only together do they give the whole picture." },
+        { ime: "Oia", opis: "The village at the northern tip of the island is famous for its sunset, but it is lovelier in the morning, when the lanes are empty. Look for the captains' houses with flat facades at the top and the modest cave houses of the crews dug into the rock lower down." },
+        { ime: "Ancient Thera", opis: "On the ridge of Mesa Vouno, 360 meters above the sea, lie the remains of a city founded by the Spartans in the eighth century BC. On the rocks look for the incised inscriptions, among the oldest examples of the Greek alphabet." },
+        { ime: "Pyrgos", opis: "The island's former capital in the interior has kept the shape of a fortified Venetian village, with a ring of houses around the castle. From the top you can see the whole island, and the crowds are far smaller than on the caldera rim." }
       ],
       jesti: [
-        { ime: "Fava", opis: "Pire od žutog graška sorte koja raste samo u vulkanskom tlu Santorinija poslužuje se topao, s kaparima, lukom i uljem." },
-        { ime: "Tomatokeftedes", opis: "Popečci od sitnih otočnih rajčica, koje rastu gotovo bez vode i zato su iznimno slatke." },
-        { ime: "Asirtiko i vinsanto", opis: "Asirtiko je suho bijelo vino izrazite svježine, a vinsanto slatko vino od grožđa sušenog na suncu, koje su Mlečani izvozili kao „vino iz Santa“." }
+        { ime: "Fava", opis: "A puree of yellow split peas from a variety that grows only in the volcanic soil of Santorini, served warm with capers, onion and oil." },
+        { ime: "Tomatokeftedes", opis: "Fritters made from the island's tiny tomatoes, which grow with almost no water and are exceptionally sweet as a result." },
+        { ime: "Assyrtiko and vinsanto", opis: "Assyrtiko is a dry white wine of striking freshness, and vinsanto is a sweet wine from sun-dried grapes that the Venetians exported as “wine from Santo”." }
       ],
       dozivjeti: [
-        { ime: "Pješačenje od Fire do Oije", opis: "Staza duga oko deset kilometara vodi rubom kaldere kroz Firostefani i Imerovigli i traje tri do četiri sata. Krenite rano ujutro i ponesite vode jer hlada gotovo nema." },
-        { ime: "Kušanje vina u vinariji", opis: "Loza se ovdje plete u niske košare na tlu da bi grožđe bilo zaštićeno od vjetra, a trsovi su među najstarijima u Europi jer filoksera ne preživljava u vulkanskom pijesku. Zadružna vinarija ima terasu nad kalderom.", link: "https://santowines.gr/" },
-        { ime: "Brodom do vulkana", opis: "Izletnički brodovi voze do otočića Nea Kameni, gdje se hoda po još toplom krateru, i do toplih sumpornih izvora u koje se skače s broda." }
+        { ime: "Hiking from Fira to Oia", opis: "The trail of about ten kilometers follows the caldera rim through Firostefani and Imerovigli and takes three to four hours. Set off early in the morning and bring water, because there is almost no shade." },
+        { ime: "Wine tasting at a winery", opis: "The vines here are woven into low baskets on the ground to protect the grapes from the wind, and the rootstocks are among the oldest in Europe because phylloxera does not survive in volcanic sand. The cooperative winery has a terrace above the caldera.", link: "https://santowines.gr/" },
+        { ime: "By boat to the volcano", opis: "Excursion boats go to the islet of Nea Kameni, where you walk on a crater that is still warm, and to the hot sulfur springs that you jump into from the boat." }
       ],
       agencije: [
-        { ime: "Santorini.gr", opis: "Službena turistička stranica općine Thira s opisima sela, plaža i nalazišta.", link: "https://santorini.gr/" },
-        { ime: "Aegean Islands", opis: "Turistički portal regije Južni Egej, koristan za planiranje obilaska više otoka.", link: "https://www.aegeanislands.gr/" }
+        { ime: "Santorini.gr", opis: "The official tourism website of the municipality of Thira, with descriptions of villages, beaches and archaeological sites.", link: "https://santorini.gr/" },
+        { ime: "Aegean Islands", opis: "The tourism portal of the South Aegean region, useful for planning a trip around several islands.", link: "https://www.aegeanislands.gr/" }
       ],
-      kada: "Svibanj i kraj rujna daju isti pogled uz upola manje ljudi. Kada u luci stoji više kruzera, Fira i Oia su zakrčene, pa te dane iskoristite za Akrotiri, Pirgos i unutrašnjost."
+      kada: "May and late September give you the same view with half as many people. When several cruise ships are in port, Fira and Oia are jammed, so use those days for Akrotiri, Pyrgos and the interior."
     },
     {
       id: "naksos",
-      ime: "Naksos",
+      ime: "Naxos",
       vrsta: "otok",
-      sazetak: "Najveći i najzeleniji otok Ciklada, s mramornim vratima nad morem, mletačkim kaštelom i planinskim selima koja žive od sira i krumpira, a ne od turista.",
+      sazetak: "The largest and greenest island of the Cyclades, with a marble gateway above the sea, a Venetian castle and mountain villages that live off cheese and potatoes instead of tourists.",
       prica: [
-        "Mit kaže da je ovdje Tezej ostavio Arijadnu nakon što mu je pomogla pobjeći iz labirinta i da ju je na obali pronašao bog Dioniz. U arhajsko doba Naksos je bio najbogatiji otok Egeja, a od njegova su mramora isklesani lavovi na Delosu i sfinga u Delfima.",
-        "Godine 1207. otok je zauzeo Mlečanin Marco Sanudo i učinio ga sjedištem Egejskog vojvodstva, koje je trajalo više od tri stoljeća. Potomci tih obitelji i danas žive u kaštelu iznad luke, a u unutrašnjosti su ostale mletačke kule ladanjskih imanja."
+        "Myth says that this is where Theseus abandoned Ariadne after she helped him escape from the labyrinth, and that the god Dionysus found her on the shore. In the Archaic period Naxos was the richest island in the Aegean, and the lions on Delos and the sphinx at Delphi were carved from its marble.",
+        "In 1207 the island was seized by the Venetian Marco Sanudo, who made it the seat of the Duchy of the Aegean, which lasted more than three centuries. Descendants of those families still live in the castle above the port, and Venetian towers of country estates remain in the interior."
       ],
       vidjeti: [
-        { ime: "Portara", opis: "Mramorna vrata visoka šest metara jedino su što je ostalo od Apolonova hrama koji je oko 530. prije Krista započeo tiranin Ligdamid i nikada ga nije dovršio. Svaki dovratnik teži oko dvadeset tona, a kroz okvir se u sumrak vidi sunce kako tone u more." },
-        { ime: "Kaštel u Hori", opis: "Mletačka utvrda na vrhu grada ima katoličku katedralu, uršulinsku školu i kuće s grbovima nad vratima. U jednoj od zgrada, nekadašnjoj isusovačkoj školi u kojoj je kratko učio pisac Nikos Kazantzakis, smješten je arheološki muzej s kikladskim idolima." },
-        { ime: "Demetrin hram kod Sangrija", opis: "Hram iz šestog stoljeća prije Krista u cijelosti je od naksoškog mramora, uključujući i krovne ploče koje su propuštale svjetlo. Stoji usred polja žita, što je prikladno mjesto za božicu žetve." },
-        { ime: "Kurosi u Melanesu i Apolonasu", opis: "Golemi nedovršeni kipovi mladića leže u antičkim kamenolomima ondje gdje su ih klesari ostavili kada je mramor napukao. Onaj kod Apolonasa dug je gotovo jedanaest metara i vjerojatno prikazuje Dioniza." },
-        { ime: "Halki i Apirantos", opis: "Halki je nekadašnje središte otoka s neoklasičnim kućama i bizantskom crkvom Panagija Protothroni. Apirantos je planinsko selo u kojem su i ulice popločene mramorom, a stanovnici govore narječjem koje se povezuje s Kretom." }
+        { ime: "Portara", opis: "The marble gateway six meters high is all that remains of the Temple of Apollo that the tyrant Lygdamis began around 530 BC and never finished. Each doorpost weighs about twenty tons, and at dusk you can watch the sun sink into the sea through the frame." },
+        { ime: "The Kastro in Chora", opis: "The Venetian fortress at the top of the town has a Catholic cathedral, an Ursuline school and houses with coats of arms over their doors. One of the buildings, a former Jesuit school where the writer Nikos Kazantzakis briefly studied, houses the archaeological museum with its Cycladic idols." },
+        { ime: "Temple of Demeter near Sangri", opis: "This temple from the sixth century BC is made entirely of Naxian marble, including the roof tiles, which let light through. It stands in the middle of grain fields, a fitting place for the goddess of the harvest." },
+        { ime: "The kouroi at Melanes and Apollonas", opis: "Huge unfinished statues of young men lie in the ancient quarries where the stonecutters left them when the marble cracked. The one near Apollonas is almost eleven meters long and probably depicts Dionysus." },
+        { ime: "Halki and Apeiranthos", opis: "Halki is the island's former center, with neoclassical houses and the Byzantine church of Panagia Protothroni. Apeiranthos is a mountain village where even the streets are paved with marble and the residents speak a dialect associated with Crete." }
       ],
       jesti: [
-        { ime: "Graviera Naxou", opis: "Slatkasti tvrdi sir zaštićenog podrijetla pretežno od kravljeg mlijeka, što je na Cikladama rijetkost. Uz njega kušajte i oštriji arseniko." },
-        { ime: "Naksoški krumpir", opis: "Otok je u cijeloj Grčkoj poznat po krumpiru, pa se ovdje i obični pomfrit naručuje s ponosom, osobito uz domaću svinjetinu rosto." },
-        { ime: "Kitron", opis: "Liker od lišća četruna proizvodi se u tri jakosti koje se razlikuju po boji: zeleni je najslađi, a žuti najjači." }
+        { ime: "Graviera Naxou", opis: "A sweetish hard cheese with protected designation of origin, made mostly from cow's milk, which is a rarity in the Cyclades. Try the sharper arseniko alongside it." },
+        { ime: "Naxos potatoes", opis: "The island is known all over Greece for its potatoes, so here even ordinary fries are ordered with pride, especially with the local pork dish rosto." },
+        { ime: "Kitron", opis: "A liqueur made from citron leaves is produced in three strengths that differ in color: the green one is the sweetest and the yellow one the strongest." }
       ],
       dozivjeti: [
-        { ime: "Stara destilerija u Halkiju", opis: "Obiteljska destilerija Vallindras iz 1896. pokazuje bakrene kotlove i nudi kušanje kitrona u dvorištu punom starih boca." },
-        { ime: "Uspon na Zas", opis: "Najviši vrh Ciklada, visok oko tisuću metara, nosi ime po Zeusu koji je, prema mitu, ovdje odrastao. Staza iz sela Filoti traje dva do tri sata u jednom smjeru i prolazi pokraj špilje.", link: "https://www.naxos.gr/" },
-        { ime: "Večer u Staroj tržnici", opis: "Splet natkrivenih uličica ispod kaštela pun je malih taverni i radionica, a ljeti se u dvorištima kaštela održavaju koncerti." }
+        { ime: "The old distillery in Halki", opis: "The Vallindras family distillery, dating from 1896, shows off its copper stills and offers kitron tastings in a courtyard full of old bottles." },
+        { ime: "Climbing Mount Zas", opis: "The highest peak in the Cyclades, about a thousand meters tall, is named after Zeus, who according to myth grew up here. The trail from the village of Filoti takes two to three hours one way and passes a cave.", link: "https://www.naxos.gr/" },
+        { ime: "An evening in the Old Market", opis: "The tangle of covered lanes below the castle is full of small tavernas and workshops, and in summer concerts are held in the castle courtyards." }
       ],
       agencije: [
-        { ime: "Naxos and the Small Cyclades", opis: "Službena turistička stranica općine s opisima sela, pješačkih staza i kalendarom slavlja.", link: "https://www.naxos.gr/" },
-        { ime: "Visit Greece: Naxos", opis: "Stranica nacionalne turističke organizacije posvećena otoku.", link: "https://www.visitgreece.gr/en/islands/cyclades/naxos" }
+        { ime: "Naxos and the Small Cyclades", opis: "The municipality's official tourism website, with descriptions of villages and hiking trails and a calendar of festivals.", link: "https://www.naxos.gr/" },
+        { ime: "Visit Greece: Naxos", opis: "The national tourism organization's page devoted to the island.", link: "https://www.visitgreece.gr/en/islands/cyclades/naxos" }
       ],
-      kada: "Od svibnja do početka listopada. Otok je velik, pa unajmite automobil barem na dva dana kako biste obišle planinska sela, a trajekt iz Pireja vozi tri i pol do pet i pol sati."
+      kada: "From May to early October. The island is large, so rent a car for at least two days to tour the mountain villages, and the ferry from Piraeus takes three and a half to five and a half hours."
     },
     {
       id: "kreta",
-      ime: "Kreta",
+      ime: "Crete",
       vrsta: "otok",
-      sazetak: "Otok velik poput male države, s najstarijom palačom u Europi, mletačkim lukama i kuhinjom zbog koje se govori o mediteranskoj prehrani.",
+      sazetak: "An island the size of a small country, with the oldest palace in Europe, Venetian harbors and the cuisine that got people talking about the Mediterranean diet.",
       prica: [
-        "Na Kreti je u brončanom dobu cvjetala minojska civilizacija, prva u Europi koja je gradila palače, pisala i trgovala s Egiptom. Njezin je sjaj ugasio niz potresa i dolazak Mikenjana s kopna, a mit o Minotauru i labirintu ostao je kao sjećanje na palaču s tisuću soba.",
-        "Mlečani su otokom vladali više od četiri stoljeća i zvali ga Candia, baš kao i današnji Heraklion, koji su Osmanlije opsjedali čak 21 godinu, do 1669. godine. Kreta se Grčkoj pridružila tek 1913., a ponos, gostoljubivost i osjećaj posebnosti Krećani njeguju i danas."
+        "In the Bronze Age Crete was home to the flourishing Minoan civilization, the first in Europe to build palaces, write and trade with Egypt. Its splendor was extinguished by a series of earthquakes and the arrival of the Mycenaeans from the mainland, and the myth of the Minotaur and the labyrinth survived as the memory of a palace with a thousand rooms.",
+        "The Venetians ruled the island for more than four centuries and called it Candia, the same name they gave today's Heraklion, which the Ottomans besieged for a full 21 years, until 1669. Crete joined Greece only in 1913, and Cretans still cultivate their pride, hospitality and sense of being a place apart."
       ],
       vidjeti: [
-        { ime: "Knosos", opis: "Palaču iz drugog tisućljeća prije Krista počeo je 1900. iskapati Arthur Evans, koji je dijelove dogradio betonom i obojio prema vlastitoj zamisli, zbog čega se stručnjaci spore do danas. Potražite alabastrenu prijestolnu stolicu, najstariju u Europi, i ostatke glinenih cijevi za vodu i odvodnju." },
-        { ime: "Arheološki muzej u Heraklionu", opis: "Ovdje su izvornici svega što je u Knosu kopija: freska skakača preko bika, božice sa zmijama i rog za piće u obliku bikove glave. Zastanite pred diskom iz Festa, glinenom pločom s otisnutim znakovima u spirali koje nitko nije uspio odgonetnuti." },
-        { ime: "Mletačka luka u Haniji", opis: "Polukružnu luku zatvara svjetionik na mletačkim temeljima, koji su tridesetih godina 19. stoljeća nadogradili Egipćani, pa podsjeća na minaret. Na obali stoji džamija s kupolama iz 1645., najstarija osmanska građevina na otoku, a iza nje mletački arsenali za popravak galija." },
-        { ime: "Klanac Samarija", opis: "Šesnaest kilometara dug klanac u Bijelim planinama spušta se do Libijskog mora, a na najužem mjestu, zvanom Željezna vrata, stijene su razmaknute oko četiri metra. Uz malo sreće vidjet ćete divlju kozu kri-kri, koja živi samo na Kreti." },
-        { ime: "Samostan Arkadi", opis: "Crkva s renesansnim pročeljem iz 1587. postala je simbol otpora nakon što su 1866. opkoljeni ustanici i izbjeglice radije zapalili barutanu nego da se predaju. Barutana bez krova stoji i danas, a u kosturnici se čuvaju lubanje poginulih." },
-        { ime: "Retimno i Fortezza", opis: "Stari grad Retimna mješavina je mletačkih portala i osmanskih drvenih balkona. Nad njim se uzdiže utvrda Fortezza iz 1573., u čijem je središtu džamija s golemom kupolom, podignuta na mjestu katedrale." }
+        { ime: "Knossos", opis: "Excavation of the palace from the second millennium BC was begun in 1900 by Arthur Evans, who rebuilt parts of it in concrete and painted them according to his own ideas, which experts still argue about today. Look for the alabaster throne, the oldest in Europe, and the remains of clay pipes for water supply and drainage." },
+        { ime: "Heraklion Archaeological Museum", opis: "Here are the originals of everything that is a copy at Knossos: the bull-leaping fresco, the snake goddesses and the drinking horn in the shape of a bull's head. Pause before the Phaistos Disc, a clay disc with stamped signs in a spiral that nobody has managed to decipher." },
+        { ime: "The Venetian harbor in Chania", opis: "The crescent-shaped harbor is closed off by a lighthouse on Venetian foundations, which the Egyptians rebuilt in the 1830s so that it resembles a minaret. On the waterfront stands a domed mosque from 1645, the oldest Ottoman building on the island, and behind it the Venetian arsenals for repairing galleys." },
+        { ime: "Samaria Gorge", opis: "The sixteen-kilometer gorge in the White Mountains descends to the Libyan Sea, and at its narrowest point, called the Iron Gates, the walls are about four meters apart. With a little luck you will see the wild kri-kri goat, which lives only on Crete." },
+        { ime: "Arkadi Monastery", opis: "The church with a Renaissance facade from 1587 became a symbol of resistance in 1866, when the besieged rebels and refugees chose to blow up the powder magazine sooner than surrender. The roofless magazine still stands today, and the skulls of the dead are kept in the ossuary." },
+        { ime: "Rethymno and the Fortezza", opis: "The old town of Rethymno is a blend of Venetian doorways and Ottoman wooden balconies. Above it rises the Fortezza fortress of 1573, with a mosque with an enormous dome at its center, built on the site of the cathedral." }
       ],
       jesti: [
-        { ime: "Dakos", opis: "Ječmeni dvopek natopljen uljem, prekriven ribanom rajčicom i mekim sirom mizitrom, kretski je odgovor na brusketu." },
-        { ime: "Sfakianopita", opis: "Tanka pita punjena sirom iz planinskog kraja Sfakije peče se u tavi bez ulja i prelijeva timijanovim medom." },
-        { ime: "Bugaca iz Hanije", opis: "Za razliku od solunske, ovdje se puni slankastim ovčjim sirom i posipa šećerom, a jede se za doručak u starim pekarnicama u središtu grada." },
-        { ime: "Rakija cikudija", opis: "Komovica bez anisa stiže na stol besplatno na kraju svakog obroka, zajedno s voćem ili kolačem, i nepristojno ju je odbiti bez barem jednog gutljaja." }
+        { ime: "Dakos", opis: "A barley rusk soaked in oil and covered with grated tomato and the soft cheese mizithra is the Cretan answer to bruschetta." },
+        { ime: "Sfakianopita", opis: "A thin pie filled with cheese from the mountain region of Sfakia, cooked in a pan without oil and drizzled with thyme honey." },
+        { ime: "Bougatsa from Chania", opis: "Unlike the Thessaloniki version, here it is filled with a salty sheep's milk cheese and dusted with sugar, and it is eaten for breakfast in the old bakeries in the center of town." },
+        { ime: "Tsikoudia", opis: "This pomace brandy without anise arrives at the table free at the end of every meal, along with fruit or cake, and it is impolite to refuse it without taking at least one sip." }
       ],
       dozivjeti: [
-        { ime: "Gradska tržnica i kožarska ulica u Haniji", opis: "U uličici Skridlof i danas rade obrtnici koji izrađuju kretske čizme stivanje, a oko tržnice se prodaju bilje, med i sir.", link: "https://www.chaniatourism.gr/" },
-        { ime: "Glazba lire u planinskom selu", opis: "Kretska lira svira se s tri žice i gudalom, uz lutnju i stihove mantinade koji se smišljaju na licu mjesta. Najbolje je čuti je u selima poput Anogije ili na ljetnim slavljima." },
-        { ime: "Dan na Elafonisiju ili Balosu", opis: "Dvije lagune na zapadu otoka imaju plitko tirkizno more i ružičast pijesak od smrvljenih školjaka. Dođite prije deset ujutro jer se parkirališta ljeti brzo pune." },
-        { ime: "Knosos s vodičem", opis: "Bez tumačenja palača je hrpa zidova, pa se isplati uzeti licenciranog vodiča na ulazu ili unaprijed.", link: "https://www.heraklionmuseum.gr/" }
+        { ime: "The municipal market and leather street in Chania", opis: "Skridlof lane is still home to craftsmen who make the Cretan boots called stivania, and herbs, honey and cheese are sold around the market.", link: "https://www.chaniatourism.gr/" },
+        { ime: "Lyra music in a mountain village", opis: "The Cretan lyra is played with three strings and a bow, accompanied by the lute and by mantinades, verses made up on the spot. The best places to hear it are villages like Anogia or the summer festivals." },
+        { ime: "A day at Elafonisi or Balos", opis: "Two lagoons in the west of the island have shallow turquoise water and pink sand made of crushed shells. Arrive before ten in the morning, because the parking lots fill up fast in summer." },
+        { ime: "Knossos with a guide", opis: "Without explanation the palace is a heap of walls, so it is worth hiring a licensed guide at the entrance or in advance.", link: "https://www.heraklionmuseum.gr/" }
       ],
       agencije: [
-        { ime: "Incredible Crete", opis: "Službeni turistički portal regije Kreta s opisima svih četiriju pokrajina.", link: "https://www.incrediblecrete.gr/" },
-        { ime: "Chania Tourism", opis: "Turistički ured grada Hanije.", link: "https://www.chaniatourism.gr/" }
+        { ime: "Incredible Crete", opis: "The official tourism portal of the Region of Crete, with descriptions of all four prefectures.", link: "https://www.incrediblecrete.gr/" },
+        { ime: "Chania Tourism", opis: "The tourist office of the city of Chania.", link: "https://www.chaniatourism.gr/" }
       ],
-      kada: "Sezona traje od travnja do kraja listopada, a klanac Samarija otvoren je otprilike od svibnja do listopada, ovisno o vremenu. Otok je dug 260 kilometara, pa odaberite ili zapad s Hanijom ili središte s Heraklionom umjesto da pokušate vidjeti sve."
+      kada: "The season runs from April to the end of October, and the Samaria Gorge is open roughly from May to October, depending on the weather. The island is 260 kilometers long, so choose either the west with Chania or the center with Heraklion and do not try to see everything."
     },
     {
       id: "rodos",
-      ime: "Rodos",
+      ime: "Rhodes",
       vrsta: "otok",
-      sazetak: "Otok viteških zidina, s najvećim naseljenim srednjovjekovnim gradom u Europi i bijelim Lindosom pod antičkom akropolom.",
+      sazetak: "An island of knightly walls, with the largest inhabited medieval town in Europe and white Lindos beneath an ancient acropolis.",
       prica: [
-        "Antički Rodos bio je pomorska sila čiji je pomorski zakon preuzeo i Rim, a ulaz u luku čuvao je brončani Kolos, jedno od sedam svjetskih čuda. Godine 1309. otok su preuzeli vitezovi ivanovci, koji su nakon gubitka Svete zemlje ovdje sagradili utvrđeni grad s bolnicom i palačom.",
-        "Sulejman Veličanstveni osvojio ga je 1522. nakon šestomjesečne opsade, a vitezovi su se preselili na Maltu. Od 1912. do 1943. otokom je vladala Italija, koja je obnovila viteške građevine i podigla novu četvrt uz luku Mandraki, a Grčkoj je Rodos pripao tek 1947. godine."
+        "Ancient Rhodes was a sea power whose maritime law was adopted even by Rome, and the harbor entrance was guarded by the bronze Colossus, one of the Seven Wonders of the World. In 1309 the island was taken over by the Knights Hospitaller, who built a fortified city with a hospital and a palace here after losing the Holy Land.",
+        "Suleiman the Magnificent conquered it in 1522 after a six-month siege, and the knights moved on to Malta. From 1912 to 1943 the island was ruled by Italy, which restored the knights' buildings and laid out a new district by Mandraki harbor, and Rhodes became part of Greece only in 1947."
       ],
       vidjeti: [
-        { ime: "Palača Velikog meštra", opis: "Sjedište viteškog reda razorila je 1856. eksplozija baruta, a Talijani su je do 1940. iznova sagradili kao ljetnu rezidenciju za kralja i Mussolinija. Zato su podni mozaici doneseni s otoka Kosa, a ne viteški, što vodiči rado prešućuju." },
-        { ime: "Ulica vitezova", opis: "Ravna kamena ulica duga 200 metara jedna je od najbolje očuvanih srednjovjekovnih ulica u Europi. Vitezovi su bili podijeljeni po „jezicima“, pa na pročeljima potražite grbove Francuske, Italije, Provanse i Španjolske nad vratima njihovih konačišta." },
-        { ime: "Arheološki muzej u viteškoj bolnici", opis: "Velika bolesnička dvorana iz 15. stoljeća imala je krevete s baldahinom i male niše za osamljivanje. Među izlošcima potražite Afroditu s Rodosa, malu mramornu božicu koja čuči i suši kosu." },
-        { ime: "Luka Mandraki", opis: "Na ulazu stoje dva stupa s jelenom i košutom, ondje gdje je prema popularnoj slici stajao Kolos raskoračenih nogu. Taj je prikaz srednjovjekovna mašta: kip je stajao samo pedesetak godina, srušio ga je potres 226. prije Krista, a gdje se točno nalazio ne zna se." },
-        { ime: "Akropola u Lindosu", opis: "Na stijeni nad bijelim selom stoji hram Atene Lindije unutar viteških zidina. Na usponu potražite reljef krme ratnog broda uklesan u stijenu u drugom stoljeću prije Krista, a s vrha pogledajte zaljev u koji je, prema predaji, pristao apostol Pavao." },
-        { ime: "Kamiros", opis: "Ostaci antičkog grada na zapadnoj obali pokazuju pravilnu mrežu ulica, kuće, cisternu i trg s hramom, sve bez gužve koja prati Lindos." }
+        { ime: "Palace of the Grand Master", opis: "The seat of the knightly order was wrecked by a gunpowder explosion in 1856, and by 1940 the Italians had rebuilt it as a summer residence for the king and Mussolini. That is why the floor mosaics were brought from the island of Kos and have nothing to do with the knights, a detail guides like to leave out." },
+        { ime: "Street of the Knights", opis: "This straight stone street 200 meters long is one of the best preserved medieval streets in Europe. The knights were divided into “tongues”, so on the facades look for the coats of arms of France, Italy, Provence and Spain above the doors of their inns." },
+        { ime: "Archaeological Museum in the Knights' Hospital", opis: "The great ward from the 15th century had canopied beds and small alcoves for privacy. Among the exhibits look for the Aphrodite of Rhodes, a small marble goddess crouching and drying her hair." },
+        { ime: "Mandraki harbor", opis: "At the entrance stand two columns topped by a stag and a doe, where the popular image places the Colossus with his legs astride. That picture is medieval fantasy: the statue stood for only about fifty years, an earthquake brought it down in 226 BC, and nobody knows exactly where it was." },
+        { ime: "Acropolis of Lindos", opis: "On the rock above the white village stands the temple of Athena Lindia inside the knights' walls. On the way up look for the relief of a warship's stern cut into the rock in the second century BC, and from the top look down at the bay where, according to tradition, the apostle Paul landed." },
+        { ime: "Kamiros", opis: "The remains of an ancient city on the west coast show a regular grid of streets, houses, a cistern and a square with a temple, all without the crowds that come with Lindos." }
       ],
       jesti: [
-        { ime: "Pitarudia", opis: "Popečci od slanutka, rajčice i metvice tradicionalno su posno jelo otočnih sela." },
-        { ime: "Melekuni", opis: "Mekana pločica od sezama i meda s narančinom korom dijeli se na vjenčanjima i krstitkama, a nosi oznaku zaštićenog zemljopisnog podrijetla." },
-        { ime: "Suma", opis: "Otočna komovica peče se u selu Siana, gdje je prodaju uz cestu zajedno s medom." }
+        { ime: "Pitaroudia", opis: "Fritters of chickpeas, tomato and mint are a traditional fasting dish of the island's villages." },
+        { ime: "Melekouni", opis: "A soft bar of sesame and honey with orange peel is handed out at weddings and christenings, and it carries a protected geographical indication." },
+        { ime: "Souma", opis: "The island's pomace brandy is distilled in the village of Siana, where it is sold by the roadside along with honey." }
       ],
       dozivjeti: [
-        { ime: "Šetnja suhim jarkom oko zidina", opis: "Jarak između dvaju pojaseva bedema nikada nije bio ispunjen vodom i danas je park dug više od dva kilometra, iz kojeg se najbolje vidi koliko su zidine debele." },
-        { ime: "Dolina leptira", opis: "Od lipnja do rujna tisuće noćnih leptira, koje privlači smola stabala likvidambra, prekriju debla u sjenovitoj dolini. Hodajte tiho jer ih buka tjera u let i iscrpljuje." },
-        { ime: "Večer u židovskoj i turskoj četvrti", opis: "Daleko od glavne ulice sa suvenirima stari grad ima tihe trgove, Sulejmanovu džamiju i sinagogu Kahal Shalom iz 16. stoljeća, najstariju u Grčkoj." }
+        { ime: "A walk in the dry moat around the walls", opis: "The moat between the two rings of ramparts was never filled with water, and today it is a park more than two kilometers long that gives the best sense of how thick the walls are." },
+        { ime: "Valley of the Butterflies", opis: "From June to September thousands of moths, drawn by the resin of the sweetgum trees, cover the trunks in a shady valley. Walk quietly, because noise makes them take flight and exhausts them." },
+        { ime: "An evening in the Jewish and Turkish quarters", opis: "Far from the main street with its souvenirs, the old town has quiet squares, the Mosque of Suleiman and the Kahal Shalom synagogue from the 16th century, the oldest in Greece." }
       ],
       agencije: [
-        { ime: "Općina Rodos", opis: "Službena stranica grada s novostima i kulturnim programom.", link: "https://www.rhodes.gr/" },
-        { ime: "Aegean Islands", opis: "Turistički portal regije Južni Egej s opisima Rodosa i susjednih otoka Dodekaneza.", link: "https://www.aegeanislands.gr/" }
+        { ime: "Municipality of Rhodes", opis: "The city's official website, with news and the cultural program.", link: "https://www.rhodes.gr/" },
+        { ime: "Aegean Islands", opis: "The tourism portal of the South Aegean region, with descriptions of Rhodes and the neighboring Dodecanese islands.", link: "https://www.aegeanislands.gr/" }
       ],
-      kada: "Rodos ima jednu od najdužih sezona u Grčkoj, od travnja do početka studenoga. U Lindos krenite rano ujutro i ponesite šešir jer na akropoli nema hlada."
+      kada: "Rhodes has one of the longest seasons in Greece, from April to early November. Head to Lindos early in the morning and bring a hat, because there is no shade on the acropolis."
     },
     {
       id: "krf",
-      ime: "Krf",
+      ime: "Corfu",
       vrsta: "otok",
-      sazetak: "Zeleni jonski otok čiji će vas stari grad, s mletačkim tvrđavama i rubljem nad uskim ulicama, podsjetiti na Dalmaciju više nego na ostatak Grčke.",
+      sazetak: "A green Ionian island whose old town, with its Venetian fortresses and laundry strung above narrow streets, will remind you of Dalmatia more than of the rest of Greece.",
       prica: [
-        "Krf je od 1386. do 1797. bio pod Venecijom, jednako dugo kao i velik dio dalmatinske obale, i nikada nije pao pod Osmanlije unatoč nekoliko velikih opsada. Zato ovdje nema džamija, a ima zvonika, talijanskih riječi u govoru i opere u tradiciji.",
-        "Nakon Mlečana kratko su vladali Francuzi, koji su ostavili arkade Listona, a zatim pola stoljeća Britanci, od kojih su ostali kriket i đumbirovo pivo. Otok je Grčkoj pripojen 1864., a stari grad je od 2007. na UNESCO-ovu popisu."
+        "Corfu was under Venice from 1386 to 1797, just as long as much of the Dalmatian coast, and it never fell to the Ottomans despite several great sieges. That is why there are no mosques here, and why there are bell towers, Italian words in the local speech and a tradition of opera.",
+        "After the Venetians came a short period of French rule, which left the arcades of the Liston, and then half a century of the British, who left behind cricket and ginger beer. The island was united with Greece in 1864, and the old town has been on the UNESCO list since 2007."
       ],
       vidjeti: [
-        { ime: "Stara tvrđava", opis: "Mlečani su rt odvojili od grada prokopavši morski kanal, pa se u utvrdu ulazi preko mosta. Unutra iznenađuje crkva svetog Jurja u obliku dorskog hrama, koju su 1840. sagradili Britanci za svoju posadu." },
-        { ime: "Nova tvrđava", opis: "Sagrađena je krajem 16. stoljeća nakon osmanske opsade, a nad vratima potražite krilatog lava svetog Marka. S gornje terase vidi se more krovova i albanska obala preko kanala." },
-        { ime: "Liston i Spianada", opis: "Arkade s kavanama Francuzi su sagradili po uzoru na parišku Rue de Rivoli, a predaja kaže da su njima smjeli šetati samo plemići upisani u popis. Na golemoj livadi ispred njih i danas se igra kriket." },
-        { ime: "Crkva svetog Spiridona", opis: "Crveni zvonik najviši je na otoku, a u srebrnom kovčegu leži tijelo zaštitnika Krfa, koje se četiri puta godišnje nosi gradom u procesiji. Pola muškaraca na otoku zove se Spiros." },
-        { ime: "Ahilion", opis: "Palaču je 1890. dala sagraditi austrijska carica Elizabeta, poznata kao Sisi, i posvetila je Ahileju. U vrtu stoji njezin kip umirućeg junaka, a nedaleko je golemi pobjednički Ahilej kojeg je postavio sljedeći vlasnik, njemački car Vilim II. Unutrašnjost je godinama u obnovi, pa provjerite što je otvoreno." },
-        { ime: "Paleokastrica i Angelokastro", opis: "Šest zaljeva pod samostanom iz 13. stoljeća često se navodi kao mjesto gdje je Odisej isplivao na obalu Feačana. Iznad njih, na stijeni visokoj 300 metara, stoji bizantska utvrda Angelokastro, koja nikada nije osvojena." }
+        { ime: "Old Fortress", opis: "The Venetians separated the headland from the town by cutting a sea channel, so you enter the fortress across a bridge. Inside, the surprise is the Church of Saint George in the form of a Doric temple, built by the British in 1840 for their garrison." },
+        { ime: "New Fortress", opis: "It was built in the late 16th century after an Ottoman siege, and above the gate look for the winged lion of Saint Mark. From the upper terrace you can see a sea of rooftops and the Albanian coast across the channel." },
+        { ime: "The Liston and the Spianada", opis: "The French built the arcades with their cafes on the model of the Rue de Rivoli in Paris, and tradition says that only nobles entered in the register were allowed to stroll there. Cricket is still played on the huge lawn in front of them." },
+        { ime: "Church of Saint Spyridon", opis: "The red bell tower is the tallest on the island, and in a silver casket lies the body of Corfu's patron saint, which is carried through the town in procession four times a year. Half the men on the island are called Spiros." },
+        { ime: "Achilleion", opis: "The palace was built in 1890 for the Austrian empress Elisabeth, known as Sisi, who dedicated it to Achilles. Her statue of the dying hero stands in the garden, and nearby is the enormous victorious Achilles installed by the next owner, the German emperor Wilhelm II. The interior has been under restoration for years, so check what is open." },
+        { ime: "Paleokastritsa and Angelokastro", opis: "The six bays below a 13th-century monastery are often named as the place where Odysseus swam ashore in the land of the Phaeacians. Above them, on a rock 300 meters high, stands the Byzantine fortress of Angelokastro, which was never conquered." }
       ],
       jesti: [
-        { ime: "Pastitsada", opis: "Pijetao ili govedina pirjani u crnom vinu s cimetom i klinčićem, posluženi s debelim makaronima. Ime i recept dolaze iz mletačke kuhinje i podsjetit će vas na pašticadu." },
-        { ime: "Sofrito i burdeto", opis: "Sofrito je teletina u umaku od bijelog vina, češnjaka i peršina, a burdeto ljuti riblji gulaš sa škarpinom i crvenom paprikom, srodan našem brudetu." },
-        { ime: "Kumkvat", opis: "Sitni agrum Britanci su donijeli iz Azije, a danas se od njega rade liker i slatko koje se prodaje na svakom koraku." },
-        { ime: "Cicibira", opis: "Domaće gazirano piće od đumbira i limuna ostalo je iz britanskog doba i pije se u kavanama na Listonu." }
+        { ime: "Pastitsada", opis: "Rooster or beef braised in red wine with cinnamon and cloves, served with thick macaroni. The name and the recipe come from Venetian cooking and will remind you of Dalmatian pašticada." },
+        { ime: "Sofrito and bourdeto", opis: "Sofrito is veal in a sauce of white wine, garlic and parsley, and bourdeto is a spicy fish stew with scorpionfish and red pepper, a relative of the Croatian brudet." },
+        { ime: "Kumquat", opis: "The British brought this tiny citrus fruit from Asia, and today it is made into a liqueur and a spoon sweet sold at every turn." },
+        { ime: "Tsitsibira", opis: "This homemade fizzy drink of ginger and lemon is a leftover from the British era and is drunk in the cafes on the Liston." }
       ],
       dozivjeti: [
-        { ime: "Uskrs na Krfu", opis: "Na Veliku subotu u 11 sati s balkona se bacaju golemi glineni vrčevi puni vode, a gradske limene glazbe sviraju cijeli tjedan. Običaj se povezuje s mletačkim bacanjem starih stvari za Novu godinu." },
-        { ime: "Lutanje četvrti Kampielo", opis: "Najstariji dio grada splet je stubišta, malih trgova s bunarima i kuća na pet katova, najviših u Grčkoj jer se unutar zidina moglo graditi samo uvis." },
-        { ime: "Otok Vido i Mon Repos", opis: "Brodić iz stare luke vozi do pošumljenog otočića Vida, a šetnja parkom Mon Repos vodi do vile u kojoj je 1921. rođen princ Philip, suprug kraljice Elizabete II.", link: "https://corfu.gr/" }
+        { ime: "Easter on Corfu", opis: "At 11 a.m. on Holy Saturday huge clay jugs full of water are thrown from the balconies, and the town's brass bands play all week. The custom is linked to the Venetian habit of throwing out old things for the New Year." },
+        { ime: "Wandering the Campiello quarter", opis: "The oldest part of town is a tangle of stairways, small squares with wells and five-story houses, the tallest in Greece, because inside the walls the only way to build was up." },
+        { ime: "Vido Island and Mon Repos", opis: "A small boat from the old port goes to the wooded islet of Vido, and a walk through Mon Repos park leads to the villa where Prince Philip, husband of Queen Elizabeth II, was born in 1921.", link: "https://corfu.gr/" }
       ],
       agencije: [
-        { ime: "Općina Središnji Krf", opis: "Službena stranica grada s kulturnim programom i novostima.", link: "https://corfu.gr/" },
-        { ime: "Ahilion", opis: "Službena stranica palače s informacijama o posjetu i obnovi.", link: "https://achillion-corfu.gr/" }
+        { ime: "Municipality of Central Corfu", opis: "The city's official website, with the cultural program and news.", link: "https://corfu.gr/" },
+        { ime: "Achilleion", opis: "The palace's official website, with information on visiting and on the restoration.", link: "https://achillion-corfu.gr/" }
       ],
-      kada: "Svibanj, lipanj i rujan su najbolji, a za Uskrs smještaj rezervirajte mjesecima unaprijed. Krf je zeleniji od egejskih otoka jer ovdje kiši i zimi i u proljeće."
+      kada: "May, June and September are best, and for Easter you should book accommodation months ahead. Corfu is greener than the Aegean islands because it rains here in both winter and spring."
     },
     {
       id: "nafplio",
-      ime: "Nafplio i Mikena",
+      ime: "Nafplio and Mycenae",
       vrsta: "gradić",
-      sazetak: "Prva prijestolnica moderne Grčke pod mletačkom tvrđavom, iz koje se u jednom danu stiže do Agamemnonove Mikene i najboljeg antičkog kazališta na svijetu.",
+      sazetak: "The first capital of modern Greece beneath a Venetian fortress, from which you can reach Agamemnon's Mycenae and the finest ancient theater in the world in a single day.",
       prica: [
-        "Nafplio su Mlečani zvali Napoli di Romania i dvaput ga držali, ostavivši mu tvrđave, trg i lavove na zidovima. Nakon ustanka protiv Osmanlija grad je postao prva prijestolnica slobodne Grčke, a 1831. ovdje je pred crkvom ubijen prvi upravitelj države Ioannis Kapodistrias.",
-        "Pola sata vožnje dalje leži Mikena, sjedište civilizacije koja je od 16. do 12. stoljeća prije Krista vladala Egejom i po kojoj je cijelo to razdoblje dobilo ime. Kraj oko zaljeva tako u nekoliko kilometara spaja Homerov svijet, klasično kazalište i početke moderne države."
+        "The Venetians called Nafplio Napoli di Romania and held it twice, leaving it fortresses, a square and lions on the walls. After the uprising against the Ottomans the town became the first capital of free Greece, and in 1831 the first head of state, Ioannis Kapodistrias, was assassinated here in front of a church.",
+        "Half an hour's drive away lies Mycenae, seat of the civilization that dominated the Aegean from the 16th to the 12th century BC and gave its name to that entire period. Within a few kilometers the land around the gulf thus brings together Homer's world, classical theater and the beginnings of the modern state."
       ],
       vidjeti: [
-        { ime: "Tvrđava Palamidi", opis: "Mlečani su je sagradili u samo tri godine, od 1711. do 1714., a Osmanlije su je zauzeli već godinu poslije. Predaja kaže da do vrha vodi 999 stuba, premda ih je zapravo nešto manje od devet stotina. Gore potražite ćeliju u kojoj je bio zatočen junak ustanka Theodoros Kolokotronis." },
-        { ime: "Burdzi", opis: "Mala utvrda na otočiću pred lukom zatvarala je ulaz lancem razapetim do obale. Kasnije su u njoj stanovali gradski krvnici, jer ih nitko nije htio za susjede." },
-        { ime: "Trg Sintagma i crkva svetog Spiridona", opis: "Na mramorom popločanom trgu stoje mletački arsenal, danas arheološki muzej, i džamija u kojoj je zasjedao prvi grčki parlament. Uz vrata obližnje crkve pod staklom se čuva trag metka ispaljenog na Kapodistriasa." },
-        { ime: "Lavlja vrata u Mikeni", opis: "Ulaz u utvrdu iz oko 1250. prije Krista nosi reljef dviju lavica uz stup, jedan od najstarijih primjera monumentalne skulpture u Europi. Glave su im bile od drugog materijala i okrenute prema onome tko dolazi, a zidove od golemih blokova stari su Grci pripisali Kiklopima." },
-        { ime: "Atrejeva riznica", opis: "Grobnica u obliku košnice visoka je trinaest metara i složena od kamenih prstenova bez veziva. Pogledajte nadvratnik nad ulazom: jedan jedini kamen težak oko 120 tona." },
-        { ime: "Kazalište u Epidauru", opis: "Sagrađeno je u četvrtom stoljeću prije Krista u Asklepijevu svetištu, gdje su se bolesnici liječili snom i predstavama. Prima oko 14 tisuća gledatelja, a šapat s kamenog kruga u sredini čuje se u zadnjem redu, što svaki posjetitelj odmah iskuša." }
+        { ime: "Palamidi Fortress", opis: "The Venetians built it in just three years, from 1711 to 1714, and the Ottomans captured it only a year later. Tradition says 999 steps lead to the top, although in fact there are slightly fewer than nine hundred. Up there look for the cell where Theodoros Kolokotronis, hero of the uprising, was imprisoned." },
+        { ime: "Bourtzi", opis: "The little fort on an islet in front of the harbor closed the entrance with a chain stretched to the shore. Later the town's executioners lived in it, because nobody wanted them as neighbors." },
+        { ime: "Syntagma Square and the Church of Saint Spyridon", opis: "On the marble-paved square stand the Venetian arsenal, now the archaeological museum, and the mosque where the first Greek parliament sat. Beside the door of the nearby church, the mark of the bullet fired at Kapodistrias is preserved under glass." },
+        { ime: "The Lion Gate at Mycenae", opis: "The entrance to the citadel from around 1250 BC bears a relief of two lionesses flanking a column, one of the oldest examples of monumental sculpture in Europe. Their heads were made of a different material and turned to face whoever approached, and the ancient Greeks attributed the walls of gigantic blocks to the Cyclopes." },
+        { ime: "Treasury of Atreus", opis: "This beehive tomb is thirteen meters high and built of stone rings laid without mortar. Look at the lintel over the entrance: a single stone weighing about 120 tons." },
+        { ime: "Theater of Epidaurus", opis: "It was built in the fourth century BC in the sanctuary of Asclepius, where the sick were treated with sleep and with performances. It holds about 14 thousand spectators, and a whisper from the stone circle in the center can be heard in the back row, which every visitor tries out at once." }
       ],
       jesti: [
-        { ime: "Vino iz Nemeje", opis: "Crna sorta agiorgitiko raste u dolini četrdesetak kilometara dalje, gdje je prema mitu Heraklo ubio lava. Vinarije primaju goste, a vino se toči u svakoj taverni u Nafpliju." },
-        { ime: "Sladoled na talijanski način", opis: "Mala talijanska slastičarska tradicija u starom gradu čini Nafplio poznatim po sladoledu, koji se jede u šetnji uz more." },
-        { ime: "Naranče iz Argolide", opis: "Ravnica oko Argosa puna je nasada agruma, pa se svježe iscijeđeni sok i slatko od naranče nude posvuda." }
+        { ime: "Wine from Nemea", opis: "The red grape agiorgitiko grows in a valley some forty kilometers away, where according to myth Heracles killed the lion. The wineries welcome visitors, and the wine is poured in every taverna in Nafplio." },
+        { ime: "Italian-style gelato", opis: "A small Italian confectionery tradition in the old town has made Nafplio known for its ice cream, which is eaten on a stroll by the sea." },
+        { ime: "Oranges from the Argolid", opis: "The plain around Argos is full of citrus groves, so freshly squeezed juice and orange spoon sweets are offered everywhere." }
       ],
       dozivjeti: [
-        { ime: "Festival u Epidauru", opis: "Svakog ljeta, petkom i subotom navečer, u antičkom kazalištu igraju se grčke tragedije i komedije s titlovima na engleskom. Gledati Sofokla ondje gdje se izvodio prije 2300 godina doživljaj je vrijedan planiranja puta.", link: "https://aefestival.gr/" },
-        { ime: "Šetnica Arvanitia", opis: "Popločana staza obilazi stijenu Akronafplije tik nad morem i završava na gradskoj plaži. Najljepša je u predvečerje, kada se Burdzi zlati." },
-        { ime: "Muzej komboloija", opis: "Mala privatna zbirka u starom gradu pokazuje brojanice od jantara, koralja i kosti iz cijelog Sredozemlja i objašnjava po čemu se grčki komboloi razlikuje od krunice." }
+        { ime: "The Epidaurus Festival", opis: "Every summer, on Friday and Saturday evenings, Greek tragedies and comedies are staged in the ancient theater with English surtitles. Watching Sophocles where he was performed 2,300 years ago is an experience worth planning a trip around.", link: "https://aefestival.gr/" },
+        { ime: "Arvanitia promenade", opis: "A paved path rounds the rock of Akronafplia just above the sea and ends at the town beach. It is at its most beautiful in the early evening, when the Bourtzi turns gold." },
+        { ime: "Komboloi Museum", opis: "A small private collection in the old town displays strings of beads in amber, coral and bone from all over the Mediterranean and explains how the Greek komboloi differs from a rosary." }
       ],
       agencije: [
-        { ime: "Visit Greece: Nafplio", opis: "Stranica nacionalne turističke organizacije s opisom grada i okolice.", link: "https://www.visitgreece.gr/en/mainland/peloponnese/nafplio" },
-        { ime: "Visit Peloponnese", opis: "Službeni turistički portal regije Peloponez.", link: "https://www.visitpeloponnese.com/en" },
-        { ime: "Arheološki muzeji Grčke", opis: "Portal Ministarstva kulture s podacima o muzejima i nalazištima, uključujući Mikenu i Epidaur.", link: "https://archaeologicalmuseums.gr/" }
+        { ime: "Visit Greece: Nafplio", opis: "The national tourism organization's page describing the town and its surroundings.", link: "https://www.visitgreece.gr/en/mainland/peloponnese/nafplio" },
+        { ime: "Visit Peloponnese", opis: "The official tourism portal of the Peloponnese region.", link: "https://www.visitpeloponnese.com/en" },
+        { ime: "Archaeological Museums of Greece", opis: "The Ministry of Culture portal with details of museums and sites, including Mycenae and Epidaurus.", link: "https://archaeologicalmuseums.gr/" }
       ],
-      kada: "Travanj, svibanj i listopad za nalazišta, srpanj i kolovoz za kazalište. Mikenu obiđite čim se otvori, a u Epidaur idite poslijepodne, kada se izletnici vrate u Atenu."
+      kada: "April, May and October for the archaeological sites, July and August for the theater. Visit Mycenae as soon as it opens, and go to Epidaurus in the afternoon, when the day-trippers have returned to Athens."
     },
     {
       id: "olimpija",
-      ime: "Olimpija",
+      ime: "Olympia",
       vrsta: "gradić",
-      sazetak: "Zelena dolina u kojoj su se više od tisuću godina održavale Olimpijske igre i gdje i danas možete potrčati stazom na kojoj su trčali prvi pobjednici.",
+      sazetak: "A green valley where the Olympic Games were held for more than a thousand years and where you can still run on the track the first champions ran on.",
       prica: [
-        "Igre u čast Zeusa prema predaji su prvi put održane 776. prije Krista i ponavljale su se svake četiri godine, uz sveto primirje koje je natjecateljima jamčilo siguran put. Pobjednik je dobivao samo vijenac od divlje masline, ali ga je rodni grad dočekivao kao junaka i hranio do kraja života.",
-        "Igre je krajem četvrtog stoljeća ukinuo car Teodozije kao poganski običaj, a svetište su zatim srušili potresi i zatrpale rijeke. Njemački arheolozi iskopavaju ga od 1875., a od 1936. ovdje se pali baklja za moderne igre."
+        "According to tradition, the games in honor of Zeus were first held in 776 BC and were repeated every four years, with a sacred truce that guaranteed the competitors safe passage. The winner received only a wreath of wild olive, but his home city welcomed him as a hero and fed him for the rest of his life.",
+        "The games were abolished at the end of the fourth century by Emperor Theodosius as a pagan custom, and the sanctuary was then toppled by earthquakes and buried by rivers. German archaeologists have been excavating it since 1875, and since 1936 the torch for the modern games has been lit here."
       ],
       vidjeti: [
-        { ime: "Stadion", opis: "Na stazu se ulazi kroz kameni tunel kojim su ulazili natjecatelji. Duga je 192 metra, a u tlu su ostale mramorne startne ploče s utorima za nožne prste. Gledalište nije imalo sjedala, osim kamene klupe za suce i oltara s kojeg je igre smjela gledati jedina žena, svećenica božice Demetre." },
-        { ime: "Zeusov hram", opis: "U hramu iz petog stoljeća prije Krista sjedio je Fidijin Zeus od zlata i bjelokosti, visok oko dvanaest metara, jedno od sedam svjetskih čuda. Stupove su srušili potresi, pa im bubnjevi leže poslagani kao narezana kobasica i pokazuju koliko su bili golemi." },
-        { ime: "Herin hram", opis: "Jedan od najstarijih kamenih hramova u Grčkoj, iz oko 600. prije Krista, prvotno je imao drvene stupove koji su se zamjenjivali kamenima kako su trunuli, pa nema dva jednaka. Pred njegovim oltarom glumice u ulozi svećenica pale olimpijski plamen uz pomoć zrcala i sunca." },
-        { ime: "Fidijina radionica", opis: "Zgrada u kojoj je nastao Zeusov kip ima iste mjere kao unutrašnjost hrama. Arheolozi su ovdje našli alat, kalupe i glineni vrčić na čijem dnu piše „Fidijin sam“, koji ćete vidjeti u muzeju." },
-        { ime: "Arheološki muzej", opis: "Čuva zabate Zeusova hrama s Apolonom koji mirno diže ruku usred bitke Lapita i kentaura te Praksitelova Hermesa s malim Dionizom. Potražite i brončanu kacigu s uklesanim imenom Miltijada, pobjednika kod Maratona." }
+        { ime: "Stadium", opis: "You walk onto the track through the stone tunnel the athletes used. It is 192 meters long, and the marble starting blocks with grooves for the toes are still in the ground. The spectator area had no seats, apart from a stone bench for the judges and the altar from which the only woman allowed to watch the games, the priestess of the goddess Demeter, looked on." },
+        { ime: "Temple of Zeus", opis: "In this fifth-century BC temple sat Phidias's Zeus of gold and ivory, about twelve meters tall and one of the Seven Wonders of the World. Earthquakes brought the columns down, so their drums lie stacked like slices of sausage and show how enormous they were." },
+        { ime: "Temple of Hera", opis: "One of the oldest stone temples in Greece, from around 600 BC, originally had wooden columns that were replaced with stone ones as they rotted, so no two are alike. In front of its altar, actresses playing priestesses light the Olympic flame with the help of a mirror and the sun." },
+        { ime: "Workshop of Phidias", opis: "The building where the statue of Zeus was made has the same dimensions as the interior of the temple. Archaeologists found tools, molds and a small clay cup here with the words “I belong to Phidias” on its base, which you will see in the museum." },
+        { ime: "Archaeological Museum", opis: "It holds the pediments of the Temple of Zeus, with Apollo calmly raising his arm in the middle of the battle of Lapiths and centaurs, and Praxiteles's Hermes with the infant Dionysus. Look too for the bronze helmet engraved with the name of Miltiades, the victor at Marathon." }
       ],
       jesti: [
-        { ime: "Maslinovo ulje i masline", opis: "Dolina Alfeja jedan je od najgušćih maslinika na Peloponezu, a seoske zadruge nude kušanja ulja." },
-        { ime: "Korintske grožđice", opis: "Sitne tamne grožđice bez sjemenki stoljećima su bile glavni izvozni proizvod zapadnog Peloponeza i stavljaju se u kolače i jela od riže." },
-        { ime: "Janjetina i pijetao s hilopitama", opis: "Seoske taverne u okolnim brdima poslužuju meso pečeno u krušnoj peći i domaću tjesteninu." }
+        { ime: "Olive oil and olives", opis: "The Alfeios valley is one of the densest olive-growing areas in the Peloponnese, and village cooperatives offer oil tastings." },
+        { ime: "Corinthian currants", opis: "Tiny dark seedless raisins were the main export of the western Peloponnese for centuries and go into cakes and rice dishes." },
+        { ime: "Lamb and rooster with hilopites", opis: "Village tavernas in the surrounding hills serve meat roasted in a bread oven and homemade pasta." }
       ],
       dozivjeti: [
-        { ime: "Utrka na antičkom stadionu", opis: "Nitko vam neće zamjeriti ako stanete na startnu ploču i otrčite jednu dužinu, pa to čine i djeca i umirovljenici. Dođite pri otvaranju da biste imale stazu samo za sebe." },
-        { ime: "Zane, sramotni kipovi", opis: "Pred ulazom u stadion potražite niz postolja na kojima su stajali brončani Zeusovi kipovi plaćeni globama natjecatelja uhvaćenih u varanju, s uklesanim imenima krivaca." },
-        { ime: "Muzej povijesti antičkih igara", opis: "U staroj zgradi muzeja izloženi su diskovi, utezi za skok u dalj i popisi pobjednika, a postav objašnjava kako su izgledale pojedine discipline.", link: "https://ancientolympiamuseum.com/" }
+        { ime: "A race in the ancient stadium", opis: "Nobody will mind if you step onto the starting block and run one length, and children and retirees do it too. Come at opening time to have the track all to yourself." },
+        { ime: "The Zanes, statues of shame", opis: "In front of the stadium entrance look for the row of bases that once held bronze statues of Zeus paid for with the fines of athletes caught cheating, with the names of the culprits carved on them." },
+        { ime: "Museum of the History of the Ancient Olympic Games", opis: "The old museum building displays discuses, jumping weights for the long jump and lists of winners, and the exhibition explains what the individual events looked like.", link: "https://ancientolympiamuseum.com/" }
       ],
       agencije: [
-        { ime: "Općina Antička Olimpija", opis: "Službena stranica općine s lokalnim informacijama.", link: "https://arxaiaolympia.gov.gr/" },
-        { ime: "Arheološki muzej Olimpije", opis: "Stranica muzeja s pregledom zbirke i praktičnim informacijama.", link: "https://ancientolympiamuseum.com/" }
+        { ime: "Municipality of Ancient Olympia", opis: "The municipality's official website, with local information.", link: "https://arxaiaolympia.gov.gr/" },
+        { ime: "Archaeological Museum of Olympia", opis: "The museum's website, with an overview of the collection and practical information.", link: "https://ancientolympiamuseum.com/" }
       ],
-      kada: "Proljeće, kada među stupovima cvjeta judino drvo, ili listopad. Ljeti je dolina vrlo vruća, pa nalazište obiđite rano, a muzej ostavite za podne."
+      kada: "Spring, when the Judas trees bloom among the columns, or October. In summer the valley is very hot, so tour the site early and leave the museum for midday."
     },
     {
       id: "kefalonija",
-      ime: "Kefalonija",
+      ime: "Kefalonia",
       vrsta: "otok",
-      sazetak: "Najveći jonski otok, s podzemnim jezerom u koje sunce ulazi kroz urušeni strop i plažama pod bijelim liticama.",
+      sazetak: "The largest Ionian island, with an underground lake that the sun enters through a collapsed roof and beaches beneath white cliffs.",
       prica: [
-        "Kefalonija je, poput Krfa, bila mletačka od 1500. do 1797., ali je gotovo svu staru arhitekturu izgubila u razornom potresu 1953., koji je poštedio samo sjeverni vrh otoka. Zato su mjesta uglavnom nova, a mletački ugođaj sačuvao je jedino ribarski Fiskardo.",
-        "U rujnu 1943. njemačka je vojska ovdje strijeljala tisuće vojnika talijanske divizije Acqui koji su se odbili predati, a taj je događaj pozadina romana i filma „Mandolina kapetana Corellija“. Otok je planinski, s vlastitom vrstom jele na gori Enos i vinom robola koje raste na vapnencu."
+        "Kefalonia, like Corfu, was Venetian from 1500 to 1797, but it lost almost all its old architecture in the devastating earthquake of 1953, which spared only the northern tip of the island. That is why the towns are mostly new, and only the fishing village of Fiskardo has kept a Venetian feel.",
+        "In September 1943 the German army executed thousands of soldiers of the Italian Acqui Division here after they refused to surrender, and that event is the background to the novel and film “Captain Corelli's Mandolin”. The island is mountainous, with its own species of fir on Mount Ainos and the robola wine that grows on limestone."
       ],
       vidjeti: [
-        { ime: "Jezero Melisani", opis: "U špilju čiji se strop urušio prije nekoliko tisuća godina ulazi se čamcem. Oko podneva sunce pada ravno na vodu, koja tada postaje toliko prozirno plava da čamci izgledaju kao da lebde. U antici je ovdje bilo svetište boga Pana i nimfi." },
-        { ime: "Špilja Drogarati", opis: "Dvorana na šezdeset metara dubine ima tako dobru akustiku da se u njoj održavaju koncerti. Dio stalaktita je odlomljen, što je posljedica potresa i nekadašnjih posjetitelja." },
-        { ime: "Plaža Mirtos", opis: "Polumjesec bijelih oblutaka pod strmim liticama najpoznatiji je prizor otoka. Boja mora posljedica je vapnenačkog praha koji valovi dižu s dna, a najbolji je pogled s vidikovca na cesti iznad plaže." },
-        { ime: "Asos", opis: "Selo šarenih kuća leži na prevlaci pod mletačkom utvrdom iz 1590-ih, do koje vodi sat hoda kroz masline. Unutar zidina još je sredinom 20. stoljeća radio zatvor s poljoprivrednim imanjem." },
-        { ime: "Fiskardo", opis: "Jedino mjesto koje je preživjelo potres sačuvalo je mletačke kuće pastelnih boja uz luku. Ime nosi po normanskom vojskovođi Robertu Guiscardu, koji je ovdje umro 1085. godine." },
-        { ime: "Argostoli", opis: "U glavnom gradu prošećite kamenim mostom De Bosset iz 1813., dugim gotovo 700 metara, i u luci ujutro potražite glavate želve koje čekaju ribare. Na rtu su katavotre, ponori u koje nestaje more, da bi dva tjedna poslije izronilo u jezeru Melisani na drugoj strani otoka." }
+        { ime: "Melissani Lake", opis: "You enter the cave, whose roof collapsed several thousand years ago, by rowboat. Around noon the sun falls straight onto the water, which then turns such a transparent blue that the boats seem to float in the air. In antiquity this was a sanctuary of the god Pan and the nymphs." },
+        { ime: "Drogarati Cave", opis: "The chamber sixty meters underground has such good acoustics that concerts are held in it. Some of the stalactites are broken off, the result of earthquakes and of visitors in the past." },
+        { ime: "Myrtos Beach", opis: "A crescent of white pebbles beneath steep cliffs is the island's most famous view. The color of the sea comes from limestone powder that the waves stir up from the bottom, and the best view is from the lookout on the road above the beach." },
+        { ime: "Assos", opis: "A village of colorful houses lies on an isthmus below a Venetian fortress from the 1590s, an hour's walk away through olive trees. Inside the walls a prison with a farm was still operating in the mid-20th century." },
+        { ime: "Fiskardo", opis: "The only place that survived the earthquake has kept its pastel Venetian houses along the harbor. It is named after the Norman commander Robert Guiscard, who died here in 1085." },
+        { ime: "Argostoli", opis: "In the capital, walk across the stone De Bosset Bridge of 1813, almost 700 meters long, and in the morning look in the harbor for the loggerhead turtles that wait for the fishermen. On the headland are the katavothres, sinkholes where the sea disappears, only to resurface two weeks later in Melissani Lake on the other side of the island." }
       ],
       jesti: [
-        { ime: "Kefalonijska pita od mesa", opis: "Kreatopita se puni s tri vrste mesa, rižom i rajčicom, a peče u debeloj kori. Svaka obitelj tvrdi da je njezina jedina prava." },
-        { ime: "Robola", opis: "Suho bijelo vino mineralnog okusa raste na kamenitim padinama Enosa, a zadružna vinarija u dolini Omala prima posjetitelje." },
-        { ime: "Mandoles i aliada", opis: "Mandoles su crveni ušećereni bademi koji se prodaju u slastičarnicama Argostolija, a aliada je pire od krumpira i češnjaka uz prženi bakalar." }
+        { ime: "Kefalonian meat pie", opis: "Kreatopita is filled with three kinds of meat, rice and tomato and baked in a thick crust. Every family claims that theirs is the only real one." },
+        { ime: "Robola", opis: "A dry white wine with a mineral taste grows on the stony slopes of Ainos, and the cooperative winery in the Omala valley welcomes visitors." },
+        { ime: "Mandoles and aliada", opis: "Mandoles are red candied almonds sold in the pastry shops of Argostoli, and aliada is a potato and garlic puree served with fried salt cod." }
       ],
       dozivjeti: [
-        { ime: "Samostan svetog Gerasima", opis: "Zaštitnik otoka počiva u srebrnom kovčegu u dolini Omala, a posjetitelji se mogu spustiti ljestvama u usku špilju u kojoj je živio kao pustinjak." },
-        { ime: "Vožnja na Enos", opis: "Cesta se penje gotovo do vrha od 1628 metara kroz šumu kefalonijske jele, a za bistra dana vide se Zakintos, Itaka i Peloponez.", link: "https://www.kefaloniageopark.gr/" },
-        { ime: "Izlet brodom na Itaku", opis: "Odisejev otok udaljen je pola sata trajektom iz Samija i miran je kontrast Kefaloniji, s dubokim zaljevom Vathi i malim plažama." }
+        { ime: "Monastery of Saint Gerasimos", opis: "The island's patron saint rests in a silver casket in the Omala valley, and visitors can climb down a ladder into the narrow cave where he lived as a hermit." },
+        { ime: "The drive up Mount Ainos", opis: "The road climbs almost to the 1,628-meter summit through a forest of Kefalonian fir, and on a clear day you can see Zakynthos, Ithaca and the Peloponnese.", link: "https://www.kefaloniageopark.gr/" },
+        { ime: "A boat trip to Ithaca", opis: "The island of Odysseus is half an hour by ferry from Sami and makes a peaceful contrast to Kefalonia, with the deep bay of Vathy and small beaches." }
       ],
       agencije: [
-        { ime: "Visit Greece: Kefalonia", opis: "Stranica nacionalne turističke organizacije posvećena otoku.", link: "https://www.visitgreece.gr/en/islands/ionian-islands/kefalonia" },
-        { ime: "Geopark Kefalonija i Itaka", opis: "UNESCO-ov geopark s kartama geoloških zanimljivosti, špilja i pješačkih staza.", link: "https://www.kefaloniageopark.gr/" }
+        { ime: "Visit Greece: Kefalonia", opis: "The national tourism organization's page devoted to the island.", link: "https://www.visitgreece.gr/en/islands/ionian-islands/kefalonia" },
+        { ime: "Kefalonia and Ithaca Geopark", opis: "A UNESCO geopark with maps of geological features, caves and hiking trails.", link: "https://www.kefaloniageopark.gr/" }
       ],
-      kada: "Od kraja svibnja do početka listopada. U Melisani dođite između 11 i 13 sati zbog svjetla, a otok obilazite automobilom jer su udaljenosti velike i ceste zavojite."
+      kada: "From late May to early October. Come to Melissani between 11 a.m. and 1 p.m. for the light, and explore the island by car, because distances are long and the roads are winding."
     }
   ],
   izvori: [
-    { ime: "Visit Greece, Grčka nacionalna turistička organizacija", url: "https://www.visitgreece.gr/" },
-    { ime: "This is Athens, službeni vodič grada Atene", url: "https://www.thisisathens.org/" },
-    { ime: "Muzej Akropole", url: "https://www.theacropolismuseum.gr/" },
-    { ime: "Nacionalni arheološki muzej u Ateni", url: "https://www.namuseum.gr/" },
-    { ime: "Arheološki muzeji Grčke, Ministarstvo kulture", url: "https://archaeologicalmuseums.gr/" },
-    { ime: "UNESCO, popis svjetske baštine: Grčka", url: "https://whc.unesco.org/en/statesparties/gr" },
-    { ime: "Arheološko nalazište Delfi", url: "https://delphi.culture.gr/" },
+    { ime: "Visit Greece, Greek National Tourism Organization", url: "https://www.visitgreece.gr/" },
+    { ime: "This is Athens, the official guide to the city of Athens", url: "https://www.thisisathens.org/" },
+    { ime: "Acropolis Museum", url: "https://www.theacropolismuseum.gr/" },
+    { ime: "National Archaeological Museum in Athens", url: "https://www.namuseum.gr/" },
+    { ime: "Archaeological Museums of Greece, Ministry of Culture", url: "https://archaeologicalmuseums.gr/" },
+    { ime: "UNESCO World Heritage List: Greece", url: "https://whc.unesco.org/en/statesparties/gr" },
+    { ime: "Archaeological Site of Delphi", url: "https://delphi.culture.gr/" },
     { ime: "Visit Meteora", url: "https://visitmeteora.travel/" },
     { ime: "Incredible Crete", url: "https://www.incrediblecrete.gr/" },
-    { ime: "Arheološki muzej u Heraklionu", url: "https://www.heraklionmuseum.gr/" },
+    { ime: "Heraklion Archaeological Museum", url: "https://www.heraklionmuseum.gr/" },
     { ime: "Athens Epidaurus Festival", url: "https://aefestival.gr/" },
-    { ime: "Geopark Kefalonija i Itaka", url: "https://www.kefaloniageopark.gr/" }
+    { ime: "Kefalonia and Ithaca Geopark", url: "https://www.kefaloniageopark.gr/" }
   ]
 };

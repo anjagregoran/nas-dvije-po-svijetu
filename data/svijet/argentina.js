@@ -2,278 +2,278 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["argentina"] = {
   id: "argentina",
   ime: "Argentina",
-  regija: "Južna Amerika",
-  sazetak: "Od tanga u Buenos Airesu do ledenjaka na kraju svijeta, zemlja u kojoj se večera u deset, a razgovor uz mate traje satima.",
+  regija: "South America",
+  sazetak: "From tango in Buenos Aires to glaciers at the end of the world, a country where dinner is at ten and conversation over mate goes on for hours.",
   uvod: [
-    "Argentina se proteže gotovo 3700 kilometara od suptropskih slapova na sjeveru do Ognjene zemlje na jugu, pa u jednoj državi stanu pustinja, vinogradi pod Andama, beskrajna pampa i ledenjaci. Španjolci su je naselili u 16. stoljeću, a neovisnost je proglašena 1816., nakon revolucije koja je 1810. započela na glavnom trgu Buenos Airesa.",
-    "Krajem 19. i početkom 20. stoljeća u zemlju su stigli milijuni doseljenika, najviše Talijana i Španjolaca, zbog čega Buenos Aires izgledom i navikama podsjeća na europski grad. Među njima je bilo i mnogo Hrvata, pretežno Dalmatinaca: prema procjeni hrvatskog Središnjeg državnog ureda za Hrvate izvan Republike Hrvatske, u Argentini danas živi oko 250.000 Hrvata i njihovih potomaka, a brojne su zajednice u Buenos Airesu, Rosariju i pokrajini Santa Fe."
+    "Argentina stretches almost 3,700 kilometers from the subtropical waterfalls of the north to Tierra del Fuego in the south, so a single country holds desert, vineyards at the foot of the Andes, the endless pampas and glaciers. The Spanish settled it in the 16th century, and independence was declared in 1816, after a revolution that began in 1810 on the main square of Buenos Aires.",
+    "At the end of the 19th century and the beginning of the 20th, millions of immigrants arrived in the country, most of them Italians and Spaniards, which is why Buenos Aires resembles a European city in both its looks and its habits. Among them were many Croatians too, mostly Dalmatians: according to an estimate by Croatia's Central State Office for Croats Abroad, around 250,000 Croatians and their descendants live in Argentina today, with sizeable communities in Buenos Aires, Rosario and the province of Santa Fe."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Buenos Aires je najljepši u proljeće i jesen, od listopada do studenoga i od ožujka do svibnja. Patagonija se posjećuje od studenoga do ožujka, a sjeverozapad oko Salte od travnja do listopada." },
-    { k: "Valuta", v: "Argentinski peso (ARS). Tečaj i pravila plaćanja često se mijenjaju, pa uoči puta provjerite isplati li se više plaćati karticom ili mijenjati gotovinu." },
-    { k: "Kretanje", v: "Zemlja je golema, pa se između regija leti. Noćni autobusi s ležajevima udobni su za srednje udaljenosti, a u Buenos Airesu vozi podzemna željeznica Subte." },
-    { k: "Napojnica", v: "U restoranima se ostavlja oko 10 posto, najbolje u gotovini, jer se napojnica često ne može dodati na karticu." },
-    { k: "Dnevni ritam", v: "Večera se rijetko prije 21 sat, a restorani se otvaraju oko 20 sati. Popodnevni međuobrok zove se merienda." }
+    { k: "When to go", v: "Buenos Aires is at its loveliest in spring and fall, from October to November and from March to May. Patagonia is visited from November to March, and the northwest around Salta from April to October." },
+    { k: "Currency", v: "The Argentine peso (ARS). The exchange rate and the rules on payments change often, so shortly before your trip check whether it pays more to use a card or to exchange cash." },
+    { k: "Getting around", v: "The country is enormous, so people fly between regions. Overnight buses with reclining sleeper seats are comfortable for medium distances, and Buenos Aires has a subway called the Subte." },
+    { k: "Tipping", v: "In restaurants people leave around 10 percent, preferably in cash, because a tip often cannot be added to a card payment." },
+    { k: "Daily rhythm", v: "Dinner is rarely before 9 p.m., and restaurants open at around 8 p.m. The afternoon snack is called merienda." }
   ],
   hrana: [
-    { ime: "Asado", opis: "Meso pečeno polako na roštilju zvanom parrilla ili na križu uz otvorenu vatru.", prica: "Asado je nedjeljni obiteljski obred koji traje cijelo poslijepodne, a osobu za roštiljem, asadora, na kraju se nagrađuje pljeskom. Počinje se kobasicama i iznutricama, a tek potom stižu rebra i odresci, soljeni samo krupnom soli." },
-    { ime: "Empanadas", opis: "Pečeni ili prženi jastučići od tijesta punjeni mesom, sirom ili kukuruzom.", prica: "Svaka pokrajina ima svoju verziju i tvrdi da je najbolja. Empanade iz Salte male su i sočne, s krumpirom i nožem sjeckanom govedinom, a način na koji je rub zavinut otkriva koji je nadjev unutra." },
-    { ime: "Chimichurri", opis: "Umak od peršina, češnjaka, origana, ljute paprike, octa i ulja.", prica: "Stoji na stolu svake parrille i stavlja se na pečeno meso i kobasice, nikada kao marinada. O podrijetlu imena kruži nekoliko priča, ali nijedna nije potvrđena." },
-    { ime: "Choripán", opis: "Pečena kobasica chorizo u prerezanoj lepinji, prelivena chimichurrijem.", prica: "Najdraža ulična hrana Argentinaca, neizostavna pred nogometnim stadionima i na sajmovima. U Buenos Airesu ga potražite na štandovima uz obalnu šetnicu Costanera." },
-    { ime: "Milanesa", opis: "Tanki pohani odrezak od govedine ili piletine, naslijeđe talijanskih doseljenika.", prica: "Verzija a la napolitana prekrivena je šunkom, umakom od rajčice i topljenim sirom. Unatoč imenu nastala je u Buenos Airesu, prema predaji u restoranu koji se zvao Nápoli." },
-    { ime: "Dulce de leche", opis: "Gusta karamel krema od mlijeka i šećera kuhanih satima.", prica: "Argentinci je mažu na kruh, pune njome kroasane medialunas i stavljaju je u sladoled. Tko ju je izmislio, predmet je vječne rasprave s Urugvajem." },
-    { ime: "Alfajores", opis: "Dva mekana keksa spojena slojem dulce de lechea, često preliveni čokoladom.", prica: "Ime i slatkiš arapskog su podrijetla i stigli su preko Španjolske. Prodaju se na svakom kiosku, a obiteljske slastičarnice u svakom gradu imaju vlastiti recept." },
-    { ime: "Mate", opis: "Gorki biljni napitak od listova yerba mate, pije se iz tikvice kroz metalnu slamku bombilla.", prica: "Mate se dijeli: jedna osoba toči vruću vodu i dodaje tikvicu ukrug, a svi piju kroz istu slamku. Riječ gracias izgovara se tek kada više ne želite, pa pripazite da je ne kažete prerano." },
-    { ime: "Malbec", opis: "Crno vino tamne boje i mekih tanina, zaštitni znak Mendoze.", prica: "Sorta je sredinom 19. stoljeća donesena iz Francuske, gdje je kasnije gotovo nestala, dok je u suhoj klimi pod Andama dala svoja najbolja vina. Uz odrezak s roštilja Argentinci teško zamišljaju išta drugo." }
+    { ime: "Asado", opis: "Meat cooked slowly on a grill called a parrilla or on a cross beside an open fire.", prica: "Asado is a Sunday family ritual that lasts the whole afternoon, and the person at the grill, the asador, is rewarded with a round of applause at the end. It begins with sausages and offal, and only then come the ribs and steaks, seasoned with nothing but coarse salt." },
+    { ime: "Empanadas", opis: "Baked or fried pockets of dough filled with meat, cheese or corn.", prica: "Every province has its own version and claims it is the best. The empanadas of Salta are small and juicy, with potato and hand-chopped beef, and the way the edge is crimped reveals which filling is inside." },
+    { ime: "Chimichurri", opis: "A sauce of parsley, garlic, oregano, hot pepper, vinegar and oil.", prica: "It sits on the table at every parrilla and is spooned over grilled meat and sausages, never used as a marinade. Several stories circulate about the origin of the name, but none has been confirmed." },
+    { ime: "Choripán", opis: "A grilled chorizo sausage in a split roll, drizzled with chimichurri.", prica: "This is the Argentines' favorite street food, a fixture outside soccer stadiums and at fairs. In Buenos Aires, look for it at the stands along the Costanera riverside promenade." },
+    { ime: "Milanesa", opis: "A thin breaded cutlet of beef or chicken, a legacy of Italian immigrants.", prica: "The a la napolitana version is topped with ham, tomato sauce and melted cheese. Despite its name it was created in Buenos Aires, according to tradition in a restaurant called Nápoli." },
+    { ime: "Dulce de leche", opis: "A thick caramel spread made from milk and sugar simmered for hours.", prica: "Argentines spread it on bread, fill their medialunas croissants with it and put it in ice cream. Who invented it is the subject of an eternal debate with Uruguay." },
+    { ime: "Alfajores", opis: "Two soft cookies joined by a layer of dulce de leche, often coated in chocolate.", prica: "Both the name and the sweet are of Arab origin and arrived by way of Spain. They are sold at every kiosk, and family pastry shops in every town have their own recipe." },
+    { ime: "Mate", opis: "A bitter herbal drink made from the leaves of yerba mate, drunk from a gourd through a metal straw called a bombilla.", prica: "Mate is shared: one person pours the hot water and passes the gourd around the circle, and everyone drinks through the same straw. You say the word gracias only when you do not want any more, so be careful not to say it too soon." },
+    { ime: "Malbec", opis: "A dark red wine with soft tannins, the signature of Mendoza.", prica: "The grape was brought over in the mid-19th century from France, where it later almost disappeared, while in the dry climate at the foot of the Andes it produced its finest wines. Argentines find it hard to imagine anything else alongside a grilled steak." }
   ],
   obicaji: [
-    { ime: "Tango", opis: "Glazba i ples nastali krajem 19. stoljeća u lučkim četvrtima Buenos Airesa i Montevidea, iz susreta europskih doseljenika, potomaka Afrikanaca i ljudi iz pampe. Milonga je naziv i za plesnu večer na kojoj se pleše društveni tango, a na ples se poziva pogledom i kimanjem glave, što se zove cabeceo. UNESCO ga je 2009. upisao na popis nematerijalne baštine.", gdje: "U Buenos Airesu milonge se održavaju svake večeri u četvrtima San Telmo, Almagro i Palermo, a većina počinje satom za početnike. Nedjeljom se pleše na otvorenom na trgu Plaza Dorrego, a u kolovozu grad organizira festival i svjetsko prvenstvo u tangu." },
-    { ime: "Ritual matea", opis: "Mate je znak gostoprimstva i prijateljstva. Ponijeti termosicu i tikvicu u park, na posao ili na put posve je uobičajeno.", gdje: "Posvuda, osobito u parkovima Buenos Airesa vikendom. Yerba mate uzgaja se u pokrajini Misiones, blizu slapova Iguazú, gdje se mogu posjetiti plantaže." },
-    { ime: "Folklor i peñe", opis: "Na sjeverozapadu se uz gitaru, bubanj bombo i frulu quena plešu chacarera i zamba, ples u kojem par maše rupčićima. Peña je gostionica u kojoj se uz večeru svira uživo, a gosti se često pridruže pjesmom.", gdje: "U Salti, u ulici Balcarce i okolici, gdje su peñe otvorene gotovo svake večeri. Najveći festival folklora održava se u siječnju u gradiću Cosquínu kod Córdobe." },
-    { ime: "Gaučo", opis: "Konjanik i stočar pampe argentinski je narodni junak, opjevan u epu „Martín Fierro“ iz 1872. Njegova nošnja uključuje široke hlače bombachas, pojas s kovanicama i nož facón.", gdje: "Nedjeljom na sajmu Feria de Mataderos na rubu Buenos Airesa, uz narodne plesove i konjaničke igre. U gradiću San Antonio de Areco u studenome se slavi Dan tradicije." },
-    { ime: "Nogomet", opis: "Nogomet je ovdje stvar identiteta, a derbi između klubova Boca Juniors i River Plate zove se Superclásico. Lik Diega Maradone naslikan je na zidovima diljem zemlje.", gdje: "U četvrti La Boca u Buenos Airesu nalazi se stadion La Bombonera s klupskim muzejom." },
-    { ime: "Sobremesa", opis: "Riječ koja označava vrijeme provedeno za stolom nakon jela, u razgovoru, kada nitko ne žuri. Konobar vam račun neće donijeti dok ga sami ne zatražite.", gdje: "U svakom restoranu i u svakoj kući, osobito nedjeljom nakon asada." }
+    { ime: "Tango", opis: "Music and dance that emerged at the end of the 19th century in the port districts of Buenos Aires and Montevideo, from the meeting of European immigrants, descendants of Africans and people from the pampas. Milonga is also the name for a dance evening where social tango is danced, and the invitation to dance is made with a look and a nod of the head, which is called the cabeceo. UNESCO inscribed it on the list of intangible heritage in 2009.", gdje: "In Buenos Aires, milongas are held every night in the neighborhoods of San Telmo, Almagro and Palermo, and most begin with a class for beginners. On Sundays people dance in the open air on Plaza Dorrego, and in August the city hosts a tango festival and world championship." },
+    { ime: "The mate ritual", opis: "Mate is a sign of hospitality and friendship. Taking a thermos and a gourd to the park, to work or on a journey is entirely ordinary.", gdje: "Everywhere, especially in the parks of Buenos Aires on weekends. Yerba mate is grown in the province of Misiones, near Iguazú Falls, where the plantations can be visited." },
+    { ime: "Folk music and peñas", opis: "In the northwest, people dance the chacarera and the zamba, a dance in which the couple wave handkerchiefs, to the guitar, the bombo drum and the quena flute. A peña is a tavern where live music is played over dinner, and the guests often join in with a song.", gdje: "In Salta, on Balcarce Street and around it, where the peñas are open almost every night. The biggest folk festival is held in January in the small town of Cosquín, near Córdoba." },
+    { ime: "The gaucho", opis: "The horseman and cattle herder of the pampas is Argentina's folk hero, celebrated in the epic poem “Martín Fierro” of 1872. His dress includes the baggy trousers called bombachas, a belt decorated with coins and the facón knife.", gdje: "On Sundays at the Feria de Mataderos fair on the edge of Buenos Aires, with folk dances and equestrian games. In the small town of San Antonio de Areco, the Day of Tradition is celebrated in November." },
+    { ime: "Soccer", opis: "Soccer here is a matter of identity, and the derby between the clubs Boca Juniors and River Plate is called the Superclásico. The image of Diego Maradona is painted on walls all across the country.", gdje: "The La Bombonera stadium, with its club museum, is in the La Boca neighborhood of Buenos Aires." },
+    { ime: "Sobremesa", opis: "A word for the time spent at the table after a meal, in conversation, when nobody is in a hurry. The waiter will not bring you the check until you ask for it yourself.", gdje: "In every restaurant and in every home, especially on Sundays after an asado." }
   ],
   fraze: [
-    { izvorno: "Buen día", izgovor: "buen DI-a", hr: "Dobar dan" },
-    { izvorno: "Gracias", izgovor: "GRA-sjas", hr: "Hvala" },
-    { izvorno: "Por favor", izgovor: "por fa-VOR", hr: "Molim" },
-    { izvorno: "¿Cuánto sale?", izgovor: "KUAN-to SA-le", hr: "Koliko košta? (argentinski izraz)" },
-    { izvorno: "La cuenta, por favor", izgovor: "la KUEN-ta, por fa-VOR", hr: "Račun, molim" },
-    { izvorno: "¿Dónde queda...?", izgovor: "DON-de KE-da", hr: "Gdje se nalazi...?" },
-    { izvorno: "Che, ¿cómo andás?", izgovor: "če, KO-mo an-DAS", hr: "Hej, kako si? (prijateljski)" },
-    { izvorno: "¡Qué rico!", izgovor: "ke RI-ko", hr: "Kako je ukusno!" }
+    { izvorno: "Buen día", izgovor: "bwen DEE-ah", hr: "Good day, hello" },
+    { izvorno: "Gracias", izgovor: "GRAH-syahs", hr: "Thank you" },
+    { izvorno: "Por favor", izgovor: "por fah-VOR", hr: "Please" },
+    { izvorno: "¿Cuánto sale?", izgovor: "KWAHN-toh SAH-leh", hr: "How much does it cost? (an Argentine expression)" },
+    { izvorno: "La cuenta, por favor", izgovor: "lah KWEN-tah, por fah-VOR", hr: "The check, please" },
+    { izvorno: "¿Dónde queda...?", izgovor: "DOHN-deh KEH-dah", hr: "Where is...?" },
+    { izvorno: "Che, ¿cómo andás?", izgovor: "cheh, KOH-moh ahn-DAHS", hr: "Hey, how are you doing? (friendly)" },
+    { izvorno: "¡Qué rico!", izgovor: "keh REE-koh", hr: "How delicious!" }
   ],
   zanimljivosti: [
-    "Ime Argentina dolazi od latinske riječi argentum, srebro, jer su prvi istraživači vjerovali da rijeka La Plata vodi do planina od srebra.",
-    "Aconcagua, visoka 6961 metar, najviši je vrh izvan Azije.",
-    "Ivan Vučetić, rođen 1858. u Hvaru, u argentinskoj je policiji u La Plati 1891. uveo prvi sustav razvrstavanja otisaka prstiju, a već iduće godine njegovom je metodom prvi put otiskom riješeno jedno ubojstvo.",
-    "Brodovlasnik Nikola Mihanović iz Dola u Dubrovačkom primorju stigao je na La Platu 1867. bez novca, a početkom 20. stoljeća imao je flotu od nekoliko stotina plovila i zapošljavao tisuće ljudi, većinom Dalmatinaca.",
-    "Argentinci u Buenos Airesu sami sebe zovu porteños, ljudi iz luke.",
-    "Avenija 9 de Julio u Buenos Airesu, široka oko 140 metara, ubraja se među najšire na svijetu.",
-    "Argentinski španjolski koristi vos umjesto tú, a slovo ll i y izgovara slično našem š ili ž."
+    "The name Argentina comes from the Latin word argentum, silver, because the first explorers believed that the Río de la Plata led to mountains of silver.",
+    "Aconcagua, at 6,961 meters, is the highest peak outside Asia.",
+    "Ivan Vučetić, born in 1858 in Hvar, introduced the first system for classifying fingerprints at the Argentine police force in La Plata in 1891, and the very next year his method was used to solve a murder by fingerprint for the first time.",
+    "The shipowner Nikola Mihanović, from Doli in the Dubrovnik coastal region, arrived on the Río de la Plata in 1867 without any money, and by the beginning of the 20th century he had a fleet of several hundred vessels and employed thousands of people, most of them Dalmatians.",
+    "Argentines in Buenos Aires call themselves porteños, people of the port.",
+    "Avenida 9 de Julio in Buenos Aires, about 140 meters wide, ranks among the widest avenues in the world.",
+    "Argentine Spanish uses vos instead of tú, and pronounces the letters ll and y much like 'sh' or the 's' in 'measure', sounds that Croatian speakers know as š and ž."
   ],
   mjesta: [
     {
       id: "buenos-aires",
       ime: "Buenos Aires",
       vrsta: "grad",
-      sazetak: "Grad širokih avenija, knjižara otvorenih do ponoći i tanga koji se pleše na trgovima.",
+      sazetak: "A city of broad avenues, bookstores open until midnight and tango danced in the squares.",
       prica: [
-        "Španjolac Pedro de Mendoza osnovao je naselje 1536., ali su ga glad i sukobi sa starosjediocima prisilili na povlačenje, pa je grad 1580. ponovno utemeljio Juan de Garay. Na trgu Plaza de Mayo 25. svibnja 1810. započela je revolucija koja je dovela do neovisnosti.",
-        "Bogatstvo od izvoza mesa i žita krajem 19. stoljeća pretvorilo je grad u Pariz Južne Amerike, s palačama, bulevarima i operom. Svaka četvrt, koju ovdje zovu barrio, ima svoj karakter: San Telmo je boemski, Recoleta otmjena, a La Boca radnička i šarena."
+        "The Spaniard Pedro de Mendoza founded a settlement in 1536, but hunger and clashes with the Indigenous inhabitants forced a retreat, so the city was founded again in 1580 by Juan de Garay. On May 25, 1810, the revolution that led to independence began on the Plaza de Mayo.",
+        "At the end of the 19th century, the wealth from exports of meat and grain turned the city into the Paris of South America, with palaces, boulevards and an opera house. Every neighborhood, which here is called a barrio, has its own character: San Telmo is bohemian, Recoleta elegant, and La Boca working-class and colorful."
       ],
       vidjeti: [
-        { ime: "Plaza de Mayo i Casa Rosada", opis: "Glavni trg okružuju katedrala, kolonijalna vijećnica Cabildo i ružičasta predsjednička palača, s čijeg se balkona Evita obraćala okupljenima. Na pločniku oko središnje piramide naslikane su bijele marame, znak Majki s Plaze de Mayo, koje ovdje od 1977. svakog četvrtka traže istinu o djeci nestaloj u diktaturi." },
-        { ime: "Teatro Colón", opis: "Operna kuća otvorena 1908., koju pjevači i dirigenti ubrajaju među akustički najbolje na svijetu. Na vođenom obilasku vidjet ćete i podzemne radionice u kojima se izrađuju kostimi i scenografija." },
-        { ime: "Groblje Recoleta", opis: "Grad mrtvih otvoren 1822., s gotovo pet tisuća mauzoleja nalik malim palačama i kapelama. Grob Eve Perón nalazi se u skromnoj crnoj grobnici obitelji Duarte, a prepoznat ćete ga po svježem cvijeću." },
-        { ime: "La Boca i Caminito", opis: "Ulica kuća od valovitog lima obojenih jarkim bojama, jer su ih siromašni genoveški doseljenici bojili ostacima brodske boje iz luke. Muzejem na otvorenom učinio ju je 1959. slikar Benito Quinquela Martín, a ime nosi po poznatom tangu." },
-        { ime: "El Ateneo Grand Splendid", opis: "Knjižara u bivšem kazalištu iz 1919., u kojem su nekoć nastupale zvijezde tanga. Police su u ložama, strop je oslikan freskom, a na pozornici je kavana." },
-        { ime: "Palacio Barolo", opis: "Poslovna zgrada iz 1923., koju je arhitekt Mario Palanti zamislio prema Danteovoj „Božanstvenoj komediji“: sto metara visine za sto pjevanja, a katovi su podijeljeni na pakao, čistilište i raj. Na vrhu je svjetionik s kojeg se vidi cijeli grad." }
+        { ime: "Plaza de Mayo and the Casa Rosada", opis: "The main square is surrounded by the cathedral, the colonial town hall known as the Cabildo, and the pink presidential palace, from whose balcony Evita addressed the crowds. White headscarves are painted on the pavement around the central pyramid, the symbol of the Mothers of the Plaza de Mayo, who have gathered here every Thursday since 1977 to demand the truth about their children who disappeared under the dictatorship." },
+        { ime: "Teatro Colón", opis: "The opera house opened in 1908, and singers and conductors rank it among the best in the world for acoustics. On the guided tour you will also see the underground workshops where the costumes and sets are made." },
+        { ime: "Recoleta Cemetery", opis: "This city of the dead opened in 1822 and has almost five thousand mausoleums that look like small palaces and chapels. The grave of Eva Perón is in the modest black tomb of the Duarte family, and you will recognize it by the fresh flowers." },
+        { ime: "La Boca and Caminito", opis: "A street of corrugated iron houses painted in vivid colors, because the poor Genoese immigrants painted them with leftover ship paint from the port. The painter Benito Quinquela Martín turned it into an open-air museum in 1959, and it is named after a famous tango." },
+        { ime: "El Ateneo Grand Splendid", opis: "A bookstore in a former theater from 1919, where the stars of tango once performed. The shelves are in the boxes, the ceiling is painted with a fresco, and there is a café on the stage." },
+        { ime: "Palacio Barolo", opis: "An office building from 1923, which the architect Mario Palanti designed around Dante's “Divine Comedy”: one hundred meters of height for one hundred cantos, with the floors divided into hell, purgatory and paradise. At the top is a lighthouse from which you can see the whole city." }
       ],
       jesti: [
-        { ime: "Parrilla", opis: "Kvartovski restorani s roštiljem, u kojima se naručuje bife de chorizo, debeli odrezak, uz provoletu, sir zapečen na žaru." },
-        { ime: "Medialunas", opis: "Mali slatki kroasani koji se uz kavu s mlijekom jedu za doručak i meriendu u starim kavanama." },
-        { ime: "Helado", opis: "Sladoled po talijanskoj tradiciji, a okus koji morate kušati je dulce de leche granizado, s komadićima čokolade." }
+        { ime: "Parrilla", opis: "Neighborhood grill restaurants where you order bife de chorizo, a thick steak, along with provoleta, a cheese grilled over the coals." },
+        { ime: "Medialunas", opis: "Small sweet croissants eaten with a milky coffee for breakfast and for merienda in the old cafés." },
+        { ime: "Helado", opis: "Ice cream in the Italian tradition, and the flavor you have to try is dulce de leche granizado, with chocolate chips." }
       ],
       dozivjeti: [
-        { ime: "Milonga sa satom tanga", opis: "Večer obično počinje satom za početnike, nakon čega se pleše do kasno. Gradski turistički portal objavljuje popis milonga i događanja.", link: "https://turismo.buenosaires.gob.ar/es" },
-        { ime: "Sajam u San Telmu", opis: "Nedjeljom se ulica Defensa pretvara u kilometar dug sajam starina i rukotvorina, a na trgu Plaza Dorrego plesači izvode tango za prolaznike." },
-        { ime: "Café Tortoni", opis: "Najstarija kavana u gradu, otvorena 1858., s vitrajnim stropom i mramornim stolićima za kojima su sjedili Borges i Gardel. U podrumu se navečer održavaju predstave tanga.", link: "https://www.cafetortoni.com.ar/" },
-        { ime: "Obilazak kazališta Colón", opis: "Vođeni obilasci održavaju se svakodnevno, a ulaznice za predstave često su povoljnije nego što biste očekivale.", link: "https://teatrocolon.org.ar/" }
+        { ime: "A milonga with a tango class", opis: "The evening usually begins with a class for beginners, after which the dancing goes on until late. The city's tourism portal publishes a list of milongas and events.", link: "https://turismo.buenosaires.gob.ar/es" },
+        { ime: "The San Telmo fair", opis: "On Sundays Defensa Street turns into a kilometer-long fair of antiques and handicrafts, and on Plaza Dorrego dancers perform tango for passersby." },
+        { ime: "Café Tortoni", opis: "The oldest café in the city, opened in 1858, has a stained-glass ceiling and little marble tables where Borges and Gardel once sat. Tango shows are held in the basement in the evening.", link: "https://www.cafetortoni.com.ar/" },
+        { ime: "A tour of the Teatro Colón", opis: "Guided tours run daily, and tickets for performances are often more affordable than you might expect.", link: "https://teatrocolon.org.ar/" }
       ],
       agencije: [
-        { ime: "Turismo Buenos Aires", opis: "Službeni turistički portal grada, s besplatnim vođenim šetnjama.", link: "https://turismo.buenosaires.gob.ar/es" },
-        { ime: "Argentina Travel", opis: "Službeni turistički portal Argentine.", link: "https://www.argentina.travel/" }
+        { ime: "Turismo Buenos Aires", opis: "The city's official tourism portal, with free guided walks.", link: "https://turismo.buenosaires.gob.ar/es" },
+        { ime: "Argentina Travel", opis: "Argentina's official tourism portal.", link: "https://www.argentina.travel/" }
       ],
-      kada: "Najljepše je u listopadu i studenome, kada cvjetaju ljubičaste žakarande. Za večeru rezervirajte stol od 21 sat nadalje, jer su restorani prije toga prazni."
+      kada: "The loveliest time is October and November, when the purple jacarandas are in bloom. For dinner, book a table from 9 p.m. onward, because the restaurants are empty before then."
     },
     {
       id: "iguazu",
-      ime: "Slapovi Iguazú",
+      ime: "Iguazú Falls",
       vrsta: "priroda",
-      sazetak: "Argentinska strana slapova, na kojoj se stazama i mostićima hoda tik iznad vode i staje na sam rub Vražjeg ždrijela.",
+      sazetak: "The Argentine side of the falls, where trails and walkways take you just above the water and right to the edge of the Devil's Throat.",
       prica: [
-        "Oko četiri petine slapova nalazi se na argentinskoj strani rijeke, pa se ovdje provodi cijeli dan. Nacionalni park osnovan je 1934., a UNESCO ga je na popis svjetske baštine upisao 1984.",
-        "Okolna pokrajina Misiones ime duguje isusovačkim misijama, u kojima su u 17. i 18. stoljeću redovnici i narod Guaraní zajedno gradili gradove s crkvama, radionicama i glazbenim školama."
+        "About four fifths of the falls lie on the Argentine side of the river, so you spend a whole day here. The national park was established in 1934, and UNESCO added it to the World Heritage List in 1984.",
+        "The surrounding province of Misiones owes its name to the Jesuit missions, where in the 17th and 18th centuries the priests and the Guaraní people together built towns with churches, workshops and music schools."
       ],
       vidjeti: [
-        { ime: "Garganta del Diablo", opis: "Do Vražjeg ždrijela vodi oko kilometar dug mostić preko mirnog, širokog gornjeg toka rijeke. Tek u posljednjim metrima čuje se tutnjava, a onda se nađete točno iznad ponora u koji se voda ruši s osamdesetak metara." },
-        { ime: "Circuito Superior", opis: "Gornja staza vodi po rubu niza slapova, pa gledate kako voda nestaje pod vašim nogama. Ravna je i lagana, bez stuba." },
-        { ime: "Circuito Inferior", opis: "Donja staza spušta se kroz prašumu do podnožja slapova i daje najbolje poglede izbliza. Uz put pazite na koatije, rakunima srodne životinje dugog nosa, koje vješto kradu hranu iz torbi." },
-        { ime: "San Ignacio Miní", opis: "Ruševine isusovačke misije iz 17. stoljeća, oko 240 kilometara južno od slapova, na UNESCO-ovu su popisu. Na pročelju crkve od crvenog pješčenjaka potražite anđele i biljne ukrase koje su klesali majstori naroda Guaraní." }
+        { ime: "Garganta del Diablo", opis: "A walkway about a kilometer long leads to the Devil's Throat across the calm, wide upper course of the river. Only in the last few meters do you hear the roar, and then you find yourself directly above the chasm into which the water plunges some eighty meters." },
+        { ime: "Circuito Superior", opis: "The upper trail runs along the brink of a series of falls, so you watch the water vanish beneath your feet. It is flat and easy, with no steps." },
+        { ime: "Circuito Inferior", opis: "The lower trail descends through the rainforest to the foot of the falls and gives the best close-up views. Along the way, watch out for the coatis, long-nosed relatives of the raccoon, which are skilled at stealing food from bags." },
+        { ime: "San Ignacio Miní", opis: "The ruins of a 17th-century Jesuit mission, about 240 kilometers south of the falls, are on the UNESCO list. On the red sandstone facade of the church, look for the angels and plant motifs carved by Guaraní craftsmen." }
       ],
       jesti: [
-        { ime: "Surubí", opis: "Velika riječna riba čvrstog bijelog mesa, u Puerto Iguazúu se peče na žaru ili puni." },
-        { ime: "Chipa", opis: "Topla peciva od škroba manioke i sira, nasljeđe naroda Guaraní, prodaju se iz košara na ulici." }
+        { ime: "Surubí", opis: "A large river fish with firm white flesh, which in Puerto Iguazú is grilled over the coals or stuffed." },
+        { ime: "Chipa", opis: "Warm rolls made of cassava starch and cheese, a legacy of the Guaraní people, sold from baskets on the street." }
       ],
       dozivjeti: [
-        { ime: "Tren Ecológico de la Selva", opis: "Otvoreni vlakić vozi kroz prašumu od ulaza do staza i do Vražjeg ždrijela, a vožnja je uključena u ulaznicu." },
-        { ime: "Hito Tres Fronteras", opis: "Vidikovac u Puerto Iguazúu na ušću rijeke Iguazú u Paranu, s kojeg se odjednom vide Argentina, Brazil i Paragvaj. Svaka država ima obelisk u bojama svoje zastave." }
+        { ime: "Tren Ecológico de la Selva", opis: "A little open-sided train runs through the rainforest from the entrance to the trails and to the Devil's Throat, and the ride is included in the admission ticket." },
+        { ime: "Hito Tres Fronteras", opis: "A lookout in Puerto Iguazú at the point where the Iguazú River flows into the Paraná, from which you can see Argentina, Brazil and Paraguay all at once. Each country has an obelisk in the colors of its flag." }
       ],
       agencije: [
-        { ime: "Iguazú Argentina", opis: "Službena stranica posjetiteljskog dijela nacionalnog parka, s ulaznicama.", link: "https://iguazuargentina.com/" },
-        { ime: "Parque Nacional Iguazú", opis: "Stranica Uprave nacionalnih parkova Argentine.", link: "https://www.argentina.gob.ar/parquesnacionales/nea/parque-nacional-iguazu" }
+        { ime: "Iguazú Argentina", opis: "The official website of the visitor area of the national park, with tickets.", link: "https://iguazuargentina.com/" },
+        { ime: "Parque Nacional Iguazú", opis: "The website of Argentina's National Parks Administration.", link: "https://www.argentina.gob.ar/parquesnacionales/nea/parque-nacional-iguazu" }
       ],
-      kada: "Najugodnije je od ožujka do svibnja i od kolovoza do listopada. Mostić do Vražjeg ždrijela zna biti zatvoren nakon velikih voda, pa stanje provjerite na službenoj stranici."
+      kada: "The most pleasant times are from March to May and from August to October. The walkway to the Devil's Throat is sometimes closed after high water, so check the situation on the official website."
     },
     {
       id: "mendoza",
       ime: "Mendoza",
       vrsta: "grad",
-      sazetak: "Zeleni grad u pustinji pod Andama, prijestolnica malbeca i polazište prema Aconcagui.",
+      sazetak: "A green city in the desert at the foot of the Andes, the capital of Malbec and the gateway to Aconcagua.",
       prica: [
-        "Grad je 1561. osnovao Pedro del Castillo, došavši preko Anda iz Čilea. Odavde je 1817. general José de San Martín poveo vojsku preko planina i oslobodio Čile, što je jedan od velikih pothvata južnoameričkih ratova za neovisnost.",
-        "Potres 1861. sravnio je kolonijalni grad sa zemljom, pa je novi sagrađen sa širokim ulicama i velikim trgovima koji služe kao zborna mjesta. Uz svaki pločnik teku kanali acequias, sustav navodnjavanja naslijeđen od starosjedilaca Huarpe, zahvaljujući kojem u pustinji raste drvored uz svaku ulicu."
+        "The city was founded in 1561 by Pedro del Castillo, who had crossed the Andes from Chile. From here in 1817 General José de San Martín led his army over the mountains and liberated Chile, one of the great feats of the South American wars of independence.",
+        "The earthquake of 1861 leveled the colonial city, so the new one was built with wide streets and large squares that serve as assembly points. Channels called acequias run beside every sidewalk, an irrigation system inherited from the Indigenous Huarpe people, thanks to which a row of trees grows along every street in the middle of the desert."
       ],
       vidjeti: [
-        { ime: "Plaza Independencia i četiri trga", opis: "Oko središnjeg trga simetrično su raspoređena četiri manja, svaki drukčije uređen. Plaza España obložena je andaluzijskim keramičkim pločicama s prizorima iz povijesti Španjolske i Mendoze." },
-        { ime: "Parque General San Martín", opis: "Golemi perivoj koji je 1896. oblikovao francuski krajobrazni arhitekt Carlos Thays. Na brdu Cerro de la Gloria stoji spomenik Andskoj vojsci, čiji brončani reljefi prikazuju žene Mendoze kako daruju nakit za opremanje vojske." },
-        { ime: "Vinarije u Luján de Cuyu i Maipúu", opis: "Najstariji vinogradarski krajevi, dvadesetak minuta od grada, gdje se malbec uzgaja na oko tisuću metara nadmorske visine. Mnoge vinarije imaju restorane s pogledom na snježne vrhove." },
-        { ime: "Valle de Uco", opis: "Mlađa i viša vinska dolina, sat i pol južno od grada, s vinarijama smjele suvremene arhitekture. Vinogradi ovdje sežu i do 1500 metara, zbog čega su vina svježija." },
-        { ime: "Aconcagua i Puente del Inca", opis: "Cesta prema čileanskoj granici vodi do vidikovca na najviši vrh Amerike. Puente del Inca je prirodni kameni most nad rijekom, obojen žuto i narančasto mineralima iz termalnih izvora." }
+        { ime: "Plaza Independencia and the four squares", opis: "Four smaller squares, each laid out differently, are arranged symmetrically around the central one. Plaza España is clad in Andalusian ceramic tiles with scenes from the history of Spain and of Mendoza." },
+        { ime: "Parque General San Martín", opis: "A vast park designed in 1896 by the French landscape architect Carlos Thays. On the hill of Cerro de la Gloria stands the monument to the Army of the Andes, whose bronze reliefs show the women of Mendoza donating their jewelry to equip the troops." },
+        { ime: "The wineries of Luján de Cuyo and Maipú", opis: "These are the oldest wine-growing districts, about twenty minutes from the city, where Malbec is grown at an altitude of around a thousand meters. Many wineries have restaurants with a view of the snowy peaks." },
+        { ime: "Valle de Uco", opis: "A younger and higher wine valley, an hour and a half south of the city, with wineries of bold contemporary architecture. The vineyards here reach as high as 1,500 meters, which makes the wines fresher." },
+        { ime: "Aconcagua and Puente del Inca", opis: "The road toward the Chilean border leads to a viewpoint for the highest peak in the Americas. Puente del Inca is a natural stone bridge over the river, stained yellow and orange by minerals from the thermal springs." }
       ],
       jesti: [
-        { ime: "Ručak u vinariji", opis: "Višesatni obrok u sljedovima, od kojih je svaki uparen s drugim vinom, vrhunac je boravka u Mendozi." },
-        { ime: "Chivo", opis: "Jaretina pečena na otvorenoj vatri, specijalitet juga pokrajine, osobito kraja oko Malargüea." },
-        { ime: "Maslinovo ulje", opis: "U Maipúu se uz vinarije nalaze i uljare koje nude kušanja, jer suha klima odgovara i maslinama." }
+        { ime: "Lunch at a winery", opis: "A meal of many courses that lasts for hours, each course paired with a different wine, is the highlight of a stay in Mendoza." },
+        { ime: "Chivo", opis: "Kid goat roasted over an open fire, a specialty of the south of the province, especially the area around Malargüe." },
+        { ime: "Olive oil", opis: "Alongside the wineries, Maipú also has olive oil mills that offer tastings, because the dry climate suits olives as well." }
       ],
       dozivjeti: [
-        { ime: "Vinske ceste", opis: "Vinarije primaju goste uz prethodnu rezervaciju. Udruga Caminos del Vino objedinjuje vinske ceste i popise vinarija.", link: "https://caminosdelvino.org.ar/" },
-        { ime: "Fiesta de la Vendimia", opis: "Svetkovina berbe početkom ožujka, s povorkama, izborom kraljice i velikom predstavom u amfiteatru pod brdom." },
-        { ime: "Biciklom među vinogradima", opis: "U Maipúu i mjestu Chacras de Coria bicikli se iznajmljuju za obilazak nekoliko vinarija u jednom danu, po ravnim cestama u hladu drvoreda." }
+        { ime: "Wine routes", opis: "The wineries receive guests by prior reservation. The Caminos del Vino association brings together the wine routes and lists of wineries.", link: "https://caminosdelvino.org.ar/" },
+        { ime: "Fiesta de la Vendimia", opis: "The grape harvest festival in early March, with parades, the election of a queen and a grand show in the amphitheater at the foot of the hill." },
+        { ime: "By bike among the vineyards", opis: "In Maipú and the village of Chacras de Coria, bikes can be rented to visit several wineries in one day, along flat roads in the shade of the trees." }
       ],
       agencije: [
-        { ime: "Mendoza Turismo", opis: "Službeni turistički portal pokrajine Mendoze.", link: "https://mendoza.tur.ar/" },
-        { ime: "Caminos del Vino", opis: "Udruga vinskih cesta Argentine.", link: "https://caminosdelvino.org.ar/" }
+        { ime: "Mendoza Turismo", opis: "The official tourism portal of the province of Mendoza.", link: "https://mendoza.tur.ar/" },
+        { ime: "Caminos del Vino", opis: "The association of Argentina's wine routes.", link: "https://caminosdelvino.org.ar/" }
       ],
-      kada: "Berba traje od veljače do travnja, kada je i najživlje. Posjete vinarijama rezervirajte unaprijed, a za vožnju između njih uzmite vozača."
+      kada: "The harvest runs from February to April, which is also the liveliest time. Book winery visits in advance, and hire a driver to take you between them."
     },
     {
       id: "bariloche",
       ime: "Bariloche",
       vrsta: "grad",
-      sazetak: "Alpski gradić u Patagoniji, na obali ledenjačkog jezera, poznat po čokoladi i cestama među jezerima.",
+      sazetak: "An alpine town in Patagonia, on the shore of a glacial lake, known for its chocolate and its roads among the lakes.",
       prica: [
-        "San Carlos de Bariloche osnovan je 1902., a prvi doseljenici bili su Nijemci, Švicarci i Talijani, čija se graditeljska tradicija vidi u kućama od kamena i drva. Okolni Nacionalni park Nahuel Huapi najstariji je u Argentini, a nastao je iz zemljišta koje je 1903. državi darovao istraživač Francisco Moreno.",
-        "Tridesetih godina 20. stoljeća država je ovdje planski gradila turističko središte, pa su tada nastali gradski trg i hotel Llao Llao. Danas je Bariloche ljeti polazište za planinarenje i plovidbu, a zimi najveće skijalište Južne Amerike."
+        "San Carlos de Bariloche was founded in 1902, and the first settlers were Germans, Swiss and Italians, whose building tradition can be seen in the houses of stone and wood. The surrounding Nahuel Huapi National Park is the oldest in Argentina, and it grew out of land that the explorer Francisco Moreno donated to the state in 1903.",
+        "In the 1930s the state deliberately developed a tourist resort here, and that is when the town square and the Llao Llao hotel were built. Today Bariloche is a base for hiking and boating in summer, and in winter it is the largest ski resort in South America."
       ],
       vidjeti: [
-        { ime: "Centro Cívico", opis: "Gradski trg iz 1940., okružen zgradama od zelenkastog kamena i čempresovine, djelo arhitekta Ernesta de Estrade. Otvoren je prema jezeru, a na njemu ćete gotovo uvijek zateći bernardince s bačvicom oko vrata, koji poziraju za fotografije." },
-        { ime: "Cerro Campanario", opis: "Do vrha vozi sedežnica, a pogled obuhvaća jezera, poluotoke i snježne vrhove u punom krugu. Mnogi ga smatraju najljepšim vidikovcem u Patagoniji." },
-        { ime: "Circuito Chico", opis: "Kružna cesta duga šezdesetak kilometara vodi uz jezero Nahuel Huapi do poluotoka Llao Llao. Može se proći autom, autobusom ili biciklom, a uz put su plaže i kratke šumske staze." },
-        { ime: "Bosque de Arrayanes", opis: "Šuma stabala arrayán, s korom boje cimeta koja je hladna na dodir, nalazi se na poluotoku Quetrihué. Do nje se plovi brodom, zajedno s posjetom otoku Victoria." },
-        { ime: "Cerro Catedral", opis: "Planina s vrhovima nalik tornjevima gotičke katedrale, zimi skijalište, a ljeti polazište staze do planinarskog doma Refugio Frey." }
+        { ime: "Centro Cívico", opis: "The town square from 1940, surrounded by buildings of greenish stone and cypress wood, is the work of the architect Ernesto de Estrada. It opens toward the lake, and you will almost always find St. Bernard dogs there with a little barrel around their necks, posing for photographs." },
+        { ime: "Cerro Campanario", opis: "A chairlift runs to the summit, and the view takes in lakes, peninsulas and snowy peaks in a full circle. Many people consider it the most beautiful viewpoint in Patagonia." },
+        { ime: "Circuito Chico", opis: "A loop road about sixty kilometers long runs along Lake Nahuel Huapi to the Llao Llao peninsula. You can travel it by car, bus or bike, and there are beaches and short forest trails along the way." },
+        { ime: "Bosque de Arrayanes", opis: "The forest of arrayán trees, with cinnamon-colored bark that is cool to the touch, lies on the Quetrihué peninsula. You reach it by boat, on a trip that also visits Victoria Island." },
+        { ime: "Cerro Catedral", opis: "A mountain with summits that resemble the spires of a Gothic cathedral, a ski resort in winter and in summer the starting point of the trail to the Refugio Frey mountain hut." }
       ],
       jesti: [
-        { ime: "Čokolada", opis: "Glavna ulica Mitre niz je čokolaterija koje su osnovali europski doseljenici, a gotovo svaka nudi kušanje." },
-        { ime: "Patagonska janjetina", opis: "Cordero patagónico peče se satima raširen na željeznom križu uz otvorenu vatru." },
-        { ime: "Pastrva i divljač", opis: "Na jelovnicima su dimljena pastrva, jelen i vepar, a uz njih pivo malih pivovara kojih je uz cestu oko jezera sve više." }
+        { ime: "Chocolate", opis: "The main street, Mitre, is a string of chocolate shops founded by European immigrants, and almost every one of them offers tastings." },
+        { ime: "Patagonian lamb", opis: "Cordero patagónico is roasted for hours, spread out on an iron cross beside an open fire." },
+        { ime: "Trout and game", opis: "The menus feature smoked trout, venison and wild boar, served with beer from the small breweries that are multiplying along the road around the lake." }
       ],
       dozivjeti: [
-        { ime: "Ruta de los Siete Lagos", opis: "Cesta sedam jezera, duga oko 110 kilometara, povezuje gradiće Villa La Angostura i San Martín de los Andes i jedna je od najljepših vožnji u Argentini." },
-        { ime: "Šetnja do doma Frey", opis: "Cjelodnevni uspon kroz šumu do planinarskog doma na obali jezerca, pod granitnim iglama koje privlače penjače iz cijelog svijeta." }
+        { ime: "Ruta de los Siete Lagos", opis: "The Road of the Seven Lakes, about 110 kilometers long, links the small towns of Villa La Angostura and San Martín de los Andes and is one of the most beautiful drives in Argentina." },
+        { ime: "A hike to the Frey hut", opis: "A full-day climb through the forest to a mountain hut on the shore of a small lake, beneath granite needles that attract climbers from all over the world." }
       ],
       agencije: [
-        { ime: "Bariloche Turismo", opis: "Službeni turistički portal grada.", link: "https://barilocheturismo.gob.ar/es/home" },
-        { ime: "Parque Nacional Nahuel Huapi", opis: "Stranica Uprave nacionalnih parkova, sa stanjem staza.", link: "https://www.argentina.gob.ar/parquesnacionales/regionpatagonia/parque-nacional-nahuel-huapi" }
+        { ime: "Bariloche Turismo", opis: "The city's official tourism portal.", link: "https://barilocheturismo.gob.ar/es/home" },
+        { ime: "Parque Nacional Nahuel Huapi", opis: "The website of the National Parks Administration, with trail conditions.", link: "https://www.argentina.gob.ar/parquesnacionales/regionpatagonia/parque-nacional-nahuel-huapi" }
       ],
-      kada: "Za jezera i planinarenje najbolji su mjeseci od prosinca do ožujka, a skija se od srpnja do rujna. Vjetar je u Patagoniji stalan, pa i ljeti ponesite vjetrovku."
+      kada: "The best months for the lakes and for hiking are December to March, and the ski season runs from July to September. The wind in Patagonia is constant, so bring a windbreaker even in summer."
     },
     {
       id: "el-calafate",
-      ime: "El Calafate i Perito Moreno",
+      ime: "El Calafate and Perito Moreno",
       vrsta: "priroda",
-      sazetak: "Gradić u patagonskoj stepi i ledenjak pred kojim se satima stoji i čeka da se od njega odlomi komad veličine zgrade.",
+      sazetak: "A small town on the Patagonian steppe and a glacier where you stand for hours, waiting for a chunk the size of a building to break away.",
       prica: [
-        "El Calafate nosi ime po grmu s tamnoplavim bobicama, a predaja kaže da se onaj tko ih kuša vraća u Patagoniju. Mjesto je bilo skromna postaja za prijevoznike vune dok 1937. nije osnovan Nacionalni park Los Glaciares, upisan 1981. na UNESCO-ov popis.",
-        "Ledenjak je nazvan po istraživaču Franciscu Morenu, kojeg su zvali Perito, što znači vještak, jer je bio stručnjak u razgraničenju s Čileom. Zanimljivo je da on sam taj ledenjak nikada nije vidio."
+        "El Calafate is named after a shrub with dark blue berries, and tradition has it that whoever tastes them returns to Patagonia. The place was a modest staging post for wool haulers until Los Glaciares National Park was established in 1937, and the park was added to the UNESCO list in 1981.",
+        "The glacier is named after the explorer Francisco Moreno, who was known as Perito, which means expert, because he was a specialist in the border demarcation with Chile. Interestingly, he never saw this glacier himself."
       ],
       vidjeti: [
-        { ime: "Ledenjak Perito Moreno", opis: "Čelo ledenjaka široko je oko pet kilometara i diže se šezdesetak metara iznad jezera. Sa sustava šetnica na poluotoku preko puta slušajte pucketanje i grmljavinu leda, jer je ovo jedan od rijetkih ledenjaka koji se ne povlači, već se stalno kreće i lomi." },
-        { ime: "Glaciarium", opis: "Suvremeni muzej leda izvan grada, koji objašnjava kako nastaju ledenjaci i zašto je led plav. Dobar je uvod prije odlaska u park." },
-        { ime: "Laguna Nimez", opis: "Mali rezervat na rubu grada, uz jezero Argentino, gdje se s uređene staze promatraju plamenci i labudovi crnog vrata." },
-        { ime: "El Chaltén i Fitz Roy", opis: "Tri sata vožnje sjevernije leži selo El Chaltén, polazište staza pod granitni vrh Fitz Roy, visok 3405 metara. Starosjedioci Tehuelche zvali su ga Chaltén, planina koja se dimi, jer mu je vrh gotovo uvijek u oblaku." },
-        { ime: "Ledenjak Upsala i Estancia Cristina", opis: "Brodom se plovi među santama do jednog od najvećih ledenjaka u parku i do stoljetnog ovčarskog imanja do kojeg nema ceste." }
+        { ime: "Perito Moreno Glacier", opis: "The face of the glacier is about five kilometers wide and rises some sixty meters above the lake. From the network of boardwalks on the peninsula opposite, listen to the cracking and thunder of the ice, because this is one of the rare glaciers that is not retreating and is constantly moving and breaking apart." },
+        { ime: "Glaciarium", opis: "A modern ice museum outside town, which explains how glaciers form and why ice is blue. It makes a good introduction before you head into the park." },
+        { ime: "Laguna Nimez", opis: "A small reserve on the edge of town, beside Lake Argentino, where you can watch flamingos and black-necked swans from a maintained trail." },
+        { ime: "El Chaltén and Fitz Roy", opis: "Three hours' drive to the north lies the village of El Chaltén, the starting point for trails to the foot of the granite peak of Fitz Roy, which is 3,405 meters high. The Indigenous Tehuelche called it Chaltén, the smoking mountain, because its summit is almost always wrapped in cloud." },
+        { ime: "Upsala Glacier and Estancia Cristina", opis: "A boat sails among the icebergs to one of the largest glaciers in the park and to a century-old sheep ranch that no road reaches." }
       ],
       jesti: [
-        { ime: "Cordero patagónico", opis: "Janjetina s ražnja u obliku križa, koju restorani peku u izlogu kako bi privukli goste." },
-        { ime: "Calafate", opis: "Od bobica se rade džem, liker i sladoled ljubičaste boje, koji je obvezna postaja u glavnoj ulici." }
+        { ime: "Cordero patagónico", opis: "Lamb roasted on a cross-shaped spit, which restaurants cook in the window to draw in customers." },
+        { ime: "Calafate", opis: "The berries are made into jam, liqueur and a purple ice cream that is an essential stop on the main street." }
       ],
       dozivjeti: [
-        { ime: "Hodanje po ledenjaku", opis: "S derezama na nogama i s vodičem hoda se po samom Peritu Morenu, između pukotina i plavih jezeraca. Izlete organizira tvrtka koja za to ima koncesiju u nacionalnom parku.", link: "https://hieloyaventura.com/" },
-        { ime: "Šetnice uz ledenjak", opis: "Nekoliko kilometara drvenih staza na različitim visinama omogućuje da ledenjak gledate satima iz različitih kutova, bez vodiča i vlastitim tempom." }
+        { ime: "Walking on the glacier", opis: "With crampons on your feet and a guide beside you, you walk on Perito Moreno itself, between crevasses and little blue pools. The trips are run by the company that holds the concession for this in the national park.", link: "https://hieloyaventura.com/" },
+        { ime: "The boardwalks by the glacier", opis: "Several kilometers of wooden walkways at different heights let you watch the glacier for hours from different angles, without a guide and at your own pace." }
       ],
       agencije: [
-        { ime: "El Calafate Turismo", opis: "Službeni ured za turizam El Calafatea.", link: "https://www.elcalafate.tur.ar/" },
-        { ime: "Parque Nacional Los Glaciares", opis: "Stranica Uprave nacionalnih parkova, s ulaznicama.", link: "https://www.argentina.gob.ar/parquesnacionales/patagonia-austral/parque-nacional-los-glaciares" },
-        { ime: "El Chaltén", opis: "Turistički portal sela El Chaltén s opisima staza.", link: "https://elchalten.com/" }
+        { ime: "El Calafate Turismo", opis: "The official tourism office of El Calafate.", link: "https://www.elcalafate.tur.ar/" },
+        { ime: "Parque Nacional Los Glaciares", opis: "The website of the National Parks Administration, with tickets.", link: "https://www.argentina.gob.ar/parquesnacionales/patagonia-austral/parque-nacional-los-glaciares" },
+        { ime: "El Chaltén", opis: "The tourism portal of the village of El Chaltén, with trail descriptions.", link: "https://elchalten.com/" }
       ],
-      kada: "Sezona traje od listopada do travnja. Led se najviše lomi u toplim poslijepodnevnim satima, pa na šetnicama ostanite barem nekoliko sati."
+      kada: "The season runs from October to April. The ice calves most in the warm afternoon hours, so stay on the boardwalks for at least a few hours."
     },
     {
       id: "ushuaia",
       ime: "Ushuaia",
       vrsta: "grad",
-      sazetak: "Najjužniji grad na svijetu, između planina i kanala Beagle, luka iz koje isplovljavaju brodovi za Antarktiku.",
+      sazetak: "The southernmost city in the world, between the mountains and the Beagle Channel, and the port from which ships set sail for Antarctica.",
       prica: [
-        "Na Ognjenoj zemlji tisućama su godina živjeli Yámana, narod koji se kanuima kretao među otocima i grijao se vatrama, po kojima su europski moreplovci nazvali otok. Kanal Beagle nosi ime po brodu na kojem je ovuda 1830-ih plovio mladi Charles Darwin.",
-        "Argentina je grad službeno osnovala 1884., a kako bi naselila daleki jug, podigla je ovdje kaznionicu. Zatvorenici su od 1902. do 1947. sjekli šumu i gradili ulice, zgrade i željeznicu."
+        "For thousands of years Tierra del Fuego was home to the Yámana, a people who traveled between the islands by canoe and kept warm with fires, after which European navigators named the island the Land of Fire. The Beagle Channel is named after the ship on which the young Charles Darwin sailed through here in the 1830s.",
+        "Argentina officially founded the city in 1884, and in order to settle the far south it built a penal colony here. From 1902 to 1947 the prisoners felled the forest and built the streets, the buildings and the railway."
       ],
       vidjeti: [
-        { ime: "Museo Marítimo y del Presidio", opis: "Muzej u zgradi bivše kaznionice, čijih se pet krila zrakasto širi iz središnje dvorane. Jedno je krilo ostavljeno neobnovljeno i negrijano, pa se u njemu dobro osjeti kako je izgledala zima u ćeliji." },
-        { ime: "Kanal Beagle", opis: "Plovidba vodi do otočića s morskim lavovima i kormoranima te do svjetionika Les Éclaireurs iz 1920. Često ga zovu svjetionikom na kraju svijeta, iako je onaj iz romana Julesa Vernea zapravo na udaljenom Otoku država." },
-        { ime: "Nacionalni park Tierra del Fuego", opis: "Šume južne bukve, tresetišta i uvale, dvanaestak kilometara od grada. U zaljevu Lapataia završava državna cesta broj 3, a ploča označava da je Aljaska udaljena 17.848 kilometara." },
-        { ime: "Ledenjak Martial", opis: "Do podnožja malog ledenjaka iznad grada vodi strma staza, s koje se vide cijela Ushuaia i kanal." }
+        { ime: "Museo Marítimo y del Presidio", opis: "The museum occupies the former prison building, whose five wings radiate from a central hall. One wing has been left unrestored and unheated, so inside it you get a good sense of what winter in a cell was like." },
+        { ime: "Beagle Channel", opis: "The boat trip takes you to islets with sea lions and cormorants and to the Les Éclaireurs lighthouse of 1920. It is often called the lighthouse at the end of the world, although the one in Jules Verne's novel actually stands on the remote Isla de los Estados." },
+        { ime: "Tierra del Fuego National Park", opis: "Forests of southern beech, peat bogs and coves, about twelve kilometers from the city. National Route 3 ends at Lapataia Bay, where a sign states that Alaska is 17,848 kilometers away." },
+        { ime: "Martial Glacier", opis: "A steep trail leads to the foot of the small glacier above the city, with views of the whole of Ushuaia and the channel." }
       ],
       jesti: [
-        { ime: "Centolla", opis: "Kraljevska rakovica iz hladnog kanala Beagle, s mesom slatkastog okusa, jede se kuhana, gratinirana ili u juhi." },
-        { ime: "Merluza negra", opis: "Riba dubokih antarktičkih voda, masnog bijelog mesa koje se topi u ustima, skupa i vrlo cijenjena." }
+        { ime: "Centolla", opis: "King crab from the cold Beagle Channel, with sweet-tasting meat, eaten boiled, gratinéed or in a soup." },
+        { ime: "Merluza negra", opis: "A fish of the deep Antarctic waters, with rich white flesh that melts in the mouth, expensive and highly prized." }
       ],
       dozivjeti: [
-        { ime: "Tren del Fin del Mundo", opis: "Uskotračna parna željeznica vozi dijelom trase kojom su zatvorenici odlazili u sječu, a panjevi posječenih stabala i danas se vide uz prugu.", link: "https://trendelfindelmundo.com.ar/" },
-        { ime: "Pingvini na otoku Martillo", opis: "Od studenoga do ožujka na otoku se gnijezde magellanski i žutouhi pingvini, a brodovi im prilaze sasvim blizu." },
-        { ime: "Pečat u putovnici", opis: "U turističkom uredu u luci možete dobiti pečat s kraja svijeta, besplatnu i dragu uspomenu.", link: "https://turismoushuaia.com/" }
+        { ime: "Tren del Fin del Mundo", opis: "The narrow-gauge steam railway runs along part of the route that the prisoners took to go logging, and the stumps of the felled trees can still be seen beside the track today.", link: "https://trendelfindelmundo.com.ar/" },
+        { ime: "Penguins on Martillo Island", opis: "From November to March, Magellanic and gentoo penguins nest on the island, and the boats come in very close to them." },
+        { ime: "A stamp in your passport", opis: "At the tourist office in the port you can get a stamp from the end of the world, a free and charming souvenir.", link: "https://turismoushuaia.com/" }
       ],
       agencije: [
-        { ime: "Turismo Ushuaia", opis: "Službena stranica gradskog ureda za turizam.", link: "https://turismoushuaia.com/" },
-        { ime: "Tierra del Fuego, Fin del Mundo", opis: "Službeni turistički portal pokrajine Ognjene zemlje.", link: "https://findelmundo.tur.ar/es" },
-        { ime: "Museo Marítimo de Ushuaia", opis: "Službena stranica muzeja u bivšoj kaznionici.", link: "https://museomaritimo.com/" }
+        { ime: "Turismo Ushuaia", opis: "The official website of the city's tourism office.", link: "https://turismoushuaia.com/" },
+        { ime: "Tierra del Fuego, Fin del Mundo", opis: "The official tourism portal of the province of Tierra del Fuego.", link: "https://findelmundo.tur.ar/es" },
+        { ime: "Museo Marítimo de Ushuaia", opis: "The official website of the museum in the former prison.", link: "https://museomaritimo.com/" }
       ],
-      kada: "Od studenoga do ožujka dan traje i do 17 sati, a temperature su oko deset stupnjeva. Vrijeme se mijenja nekoliko puta dnevno, pa se oblačite slojevito."
+      kada: "From November to March the days last up to 17 hours, and temperatures are around ten degrees Celsius. The weather changes several times a day, so dress in layers."
     },
     {
       id: "salta",
       ime: "Salta",
       vrsta: "grad",
-      sazetak: "Kolonijalni grad na sjeverozapadu, s najboljim empanadama u zemlji i šarenim planinama nadohvat ruke.",
+      sazetak: "A colonial city in the northwest, with the best empanadas in the country and colorful mountains within easy reach.",
       prica: [
-        "Saltu je 1582. osnovao Hernando de Lerma kao postaju na putu između srebrnog Potosíja i Buenos Airesa. Ovaj je kraj nekoć bio južni rub Carstva Inka, pa se andsko nasljeđe ovdje osjeća jače nego igdje drugdje u Argentini.",
-        "Zbog očuvanih kolonijalnih zgrada zovu je Salta la Linda, lijepa Salta. Grad je i srce argentinskog folklora, a iz njega se kreće u klance i doline s planinama u slojevima crvene, zelene i ljubičaste boje."
+        "Salta was founded in 1582 by Hernando de Lerma as a staging post on the route between silver-rich Potosí and Buenos Aires. This region was once the southern edge of the Inca Empire, so the Andean heritage is felt more strongly here than anywhere else in Argentina.",
+        "Because of its well-preserved colonial buildings it is called Salta la Linda, Salta the Beautiful. The city is also the heart of Argentine folk music, and it is the departure point for gorges and valleys with mountains layered in red, green and purple."
       ],
       vidjeti: [
-        { ime: "MAAM", opis: "Muzej visokogorske arheologije čuva troje djece Inka, pronađene 1999. na vulkanu Llullaillaco, na 6739 metara. Žrtvovana su prije petstotinjak godina, a hladnoća ih je sačuvala tako dobro da se vide pletenice i tkanje odjeće. Izlaže se uvijek samo jedno dijete, naizmjence." },
-        { ime: "Iglesia San Francisco", opis: "Crkva tamnocrvenog pročelja sa zlatnožutim ukrasima i zvonikom visokim 54 metra. Na pročelju potražite zastore od štukature, izrađene tako da izgledaju kao pravo platno." },
-        { ime: "Cabildo i Plaza 9 de Julio", opis: "Bijela kolonijalna vijećnica s dva kata arkada najbolje je očuvana u Argentini. Trg okružen kavanama pod arkadama mjesto je za prvu kavu i prve empanade." },
-        { ime: "Quebrada de Humahuaca", opis: "Klanac u susjednoj pokrajini Jujuy, kojim je deset tisuća godina prolazio trgovački put, na UNESCO-ovu je popisu od 2003. U selu Purmamarca nalazi se Brdo sedam boja, najljepše u jutarnjem svjetlu." },
-        { ime: "Cafayate", opis: "Vinski gradić tri sata južno od Salte, poznat po mirisnom bijelom vinu torrontés. Cesta do njega prolazi kroz klanac crvenih stijena s prirodnim amfiteatrom izvrsne akustike." }
+        { ime: "MAAM", opis: "The Museum of High Altitude Archaeology preserves three Inca children, found in 1999 on the Llullaillaco volcano at 6,739 meters. They were sacrificed some five hundred years ago, and the cold preserved them so well that you can see their braids and the weave of their clothing. Only one child is ever on display at a time, in rotation." },
+        { ime: "Iglesia San Francisco", opis: "A church with a dark red facade, golden yellow ornaments and a bell tower 54 meters tall. On the facade, look for the stucco curtains, made to look like real cloth." },
+        { ime: "The Cabildo and Plaza 9 de Julio", opis: "The white colonial town hall with two stories of arcades is the best preserved in Argentina. The square, ringed by cafés under the arcades, is the place for your first coffee and your first empanadas." },
+        { ime: "Quebrada de Humahuaca", opis: "This gorge in the neighboring province of Jujuy, along which a trade route ran for ten thousand years, has been on the UNESCO list since 2003. The village of Purmamarca is home to the Hill of Seven Colors, which is at its most beautiful in the morning light." },
+        { ime: "Cafayate", opis: "A small wine town three hours south of Salta, known for its aromatic white wine, Torrontés. The road to it passes through a gorge of red rock with a natural amphitheater that has superb acoustics." }
       ],
       jesti: [
-        { ime: "Empanadas salteñas", opis: "Male, pečene u glinenoj peći, s nožem sjeckanom govedinom, krumpirom, jajetom i mladim lukom. Jedu se rukama, uz ljuti umak." },
-        { ime: "Locro", opis: "Gusto varivo od bijelog kukuruza, bundeve, graha i mesa, jelo koje se u cijeloj Argentini kuha za državne praznike." },
-        { ime: "Humita i tamal", opis: "Smjese od kukuruza umotane u kukuruznu ljusku i kuhane na pari: humita je kremasta i sa sirom, a tamal punjen mesom." }
+        { ime: "Empanadas salteñas", opis: "They are small and baked in a clay oven, filled with hand-chopped beef, potato, egg and scallions. You eat them with your hands, with a hot sauce." },
+        { ime: "Locro", opis: "A thick stew of white corn, squash, beans and meat, a dish that is cooked all over Argentina for national holidays." },
+        { ime: "Humita and tamal", opis: "Corn mixtures wrapped in a corn husk and steamed: the humita is creamy and made with cheese, and the tamal is filled with meat." }
       ],
       dozivjeti: [
-        { ime: "Večer u peñi", opis: "U gostionicama oko ulice Balcarce uz večeru se sviraju zamba i chacarera, a plesači izvlače goste na podij." },
-        { ime: "Tren a las Nubes", opis: "Vlak u oblake prelazi vijadukt La Polvorilla na 4220 metara nadmorske visine, jedan od najviših željezničkih mostova na svijetu.", link: "https://trenalasnubes.com.ar/inicio-es/" },
-        { ime: "Žičara na San Bernardo", opis: "Kabine voze iz gradskog parka na brdo iznad Salte, s pogledom na dolinu Lerma." }
+        { ime: "An evening at a peña", opis: "In the taverns around Balcarce Street, zamba and chacarera are played over dinner, and the dancers pull guests onto the floor." },
+        { ime: "Tren a las Nubes", opis: "The Train to the Clouds crosses the La Polvorilla viaduct at an altitude of 4,220 meters, one of the highest railway bridges in the world.", link: "https://trenalasnubes.com.ar/inicio-es/" },
+        { ime: "The cable car up San Bernardo", opis: "The cabins run from the city park up the hill above Salta, with a view of the Lerma Valley." }
       ],
       agencije: [
-        { ime: "Visit Salta", opis: "Službeni turistički portal pokrajine Salte.", link: "https://visitsalta.ar/" },
-        { ime: "Turismo Jujuy", opis: "Službeni portal pokrajine Jujuy za Quebradu de Humahuaca.", link: "https://www.turismo.jujuy.gob.ar/" },
-        { ime: "MAAM", opis: "Službena stranica Muzeja visokogorske arheologije.", link: "https://maam.gob.ar/" }
+        { ime: "Visit Salta", opis: "The official tourism portal of the province of Salta.", link: "https://visitsalta.ar/" },
+        { ime: "Turismo Jujuy", opis: "The official portal of the province of Jujuy for the Quebrada de Humahuaca.", link: "https://www.turismo.jujuy.gob.ar/" },
+        { ime: "MAAM", opis: "The official website of the Museum of High Altitude Archaeology.", link: "https://maam.gob.ar/" }
       ],
-      kada: "Suho i sunčano je od travnja do listopada, dok ljeti pljuskovi znaju zatvoriti ceste. Na izletima iznad 3000 metara krećite se polako i pijte puno vode."
+      kada: "It is dry and sunny from April to October, while in summer downpours can close the roads. On trips above 3,000 meters, move slowly and drink plenty of water."
     }
   ],
   izvori: [
@@ -284,6 +284,6 @@ window.ATLAS["argentina"] = {
     { ime: "Mendoza Turismo", url: "https://mendoza.tur.ar/" },
     { ime: "Visit Salta", url: "https://visitsalta.ar/" },
     { ime: "Turismo Ushuaia", url: "https://turismoushuaia.com/" },
-    { ime: "Središnji državni ured za Hrvate izvan RH, Hrvatsko iseljeništvo u Argentini", url: "https://hrvatiizvanrh.gov.hr/croats-abroad/croatian-emigrants-in-european-countries-and-overseas-and-their-descendants/croatian-diaspora-in-argentina/6220" },
+    { ime: "Central State Office for Croats Abroad, Croatian diaspora in Argentina", url: "https://hrvatiizvanrh.gov.hr/croats-abroad/croatian-emigrants-in-european-countries-and-overseas-and-their-descendants/croatian-diaspora-in-argentina/6220" },
   ]
 };

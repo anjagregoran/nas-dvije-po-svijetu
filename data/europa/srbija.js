@@ -1,238 +1,238 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["srbija"] = {
   id: "srbija",
-  ime: "Srbija",
-  regija: "Jugoistočna Europa",
-  sazetak: "Zemlja velikih rijeka i dugih ručkova, u kojoj Dunav probija najveću klisuru Europe, a srednjovjekovni samostani čuvaju freske starije od Giotta.",
+  ime: "Serbia",
+  regija: "Southeastern Europe",
+  sazetak: "A land of great rivers and long lunches, where the Danube cuts through the largest gorge in Europe and medieval monasteries hold frescoes older than Giotto.",
   uvod: [
-    "Srbija se proteže od panonske ravnice na sjeveru, gdje su gradovi barokni i srednjoeuropski, do planina juga, gdje se u jelu i glazbi osjeća Orijent. Između njih teče Dunav, uz koji su Rimljani gradili ceste i mostove i na čijim je obalama rođeno više rimskih careva nego igdje izvan Italije, među njima i Konstantin Veliki.",
-    "Srednjovjekovna država Nemanjića ostavila je samostane s freskama koje se ubrajaju u vrh europske umjetnosti 13. stoljeća, a nakon osmanskih stoljeća i ustanaka u 19. stoljeću izrasla je moderna Srbija s Beogradom kao prijestolnicom. S Hrvatskom je dijeli i povezuje mnogo toga, pa ćete na putu sresti i Meštrovićeva Pobjednika na Kalemegdanu, i rodnu kuću bana Jelačića u Petrovaradinu, i muzej Nikole Tesle, rođenog u Smiljanu."
+    "Serbia stretches from the Pannonian plain in the north, where the towns are Baroque and Central European, to the mountains of the south, where you can sense the Orient in the food and the music. Between them flows the Danube, along which the Romans built roads and bridges and on whose banks more Roman emperors were born than anywhere outside Italy, among them Constantine the Great.",
+    "The medieval state of the Nemanjić dynasty left monasteries with frescoes that rank among the finest European art of the 13th century, and after the Ottoman centuries and the uprisings of the 19th century, modern Serbia grew up with Belgrade as its capital. A great deal both divides and connects it with Croatia, so along the way you will come across Meštrović's Victor on Kalemegdan, the birthplace of Ban Jelačić in Petrovaradin, and the museum of Nikola Tesla, who was born in Smiljan."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Svibanj, lipanj, rujan i početak listopada. Ljeta su u ravnici vrlo vruća, ali tada su festivali, od Exita u Novom Sadu do trubača u Guči, a zimi su gradovi sivi i magloviti, dok planine imaju snijeg." },
-    { k: "Valuta", v: "Srpski dinar. Kartice se primaju u gradovima, a na tržnicama, u seoskim kućanstvima i manjim kafanama plaća se gotovinom. Mijenjajte u mjenjačnicama u gradu, a ne na granici." },
-    { k: "Kretanje", v: "Brzi vlak povezuje Beograd i Novi Sad za nešto više od pola sata, a ostatak zemlje najbolje je obići automobilom ili autobusom. Autoceste se naplaćuju, a do Đerdapa i samostana vode sporije magistrale." },
-    { k: "Napojnica", v: "Deset posto u restoranima i kafanama uobičajeno je i ostavlja se u gotovini, čak i kada račun plaćate karticom." },
-    { k: "Dokumenti", v: "Hrvatskim državljanima za turistički boravak dovoljna je važeća osobna iskaznica, no uvjete prije puta provjerite na stranicama Ministarstva vanjskih i europskih poslova." }
+    { k: "When to go", v: "May, June, September and early October. Summers on the plain are very hot, but that is when the festivals happen, from Exit in Novi Sad to the trumpeters in Guča, while in winter the cities are gray and foggy and the mountains have snow." },
+    { k: "Currency", v: "The Serbian dinar. Cards are accepted in the cities, while at markets, on family farms and in smaller kafanas you pay in cash. Change money at exchange offices in town rather than at the border." },
+    { k: "Getting around", v: "A fast train links Belgrade and Novi Sad in just over half an hour, and the rest of the country is best explored by car or bus. The highways are tolled, and slower main roads lead to Đerdap and the monasteries." },
+    { k: "Tipping", v: "Ten percent is customary in restaurants and kafanas, and it is left in cash even when you pay the bill by card." },
+    { k: "Documents", v: "Croatian citizens need only a valid ID card for a tourist stay, but check the conditions before you travel on the website of the Croatian Ministry of Foreign and European Affairs." }
   ],
   hrana: [
-    { ime: "Pljeskavica", opis: "Velika plosnata pljeskavica od mljevenog mesa s roštilja, u lepinji s lukom, kajmakom i urnebesom, ljutim namazom od sira i paprike.", prica: "Leskovac na jugu smatra se prijestolnicom roštilja i svake jeseni priređuje Roštiljijadu. Gurmanska je punjena sirom i slaninom, a porcije su tolike da se jedna slobodno dijeli." },
-    { ime: "Kajmak", opis: "Masna pokorica skinuta s prokuhanog mlijeka, soljena i slagana u slojeve.", prica: "Mladi je blag i sladak, a stari, odležani, oštar i žut. Najcjenjeniji dolazi iz okolice Kraljeva i Čačka, a jede se uz vruću lepinju, meso i proju." },
-    { ime: "Ajvar", opis: "Namaz od pečene crvene paprike, koja se guli, melje i satima prži u ulju.", prica: "Pravi se u ranu jesen, kada cijele ulice mirišu na pečenu papriku, i u svakoj je kući to obiteljski posao. Leskovački domaći ajvar ima zaštićeno ime podrijetla." },
-    { ime: "Gibanica", opis: "Pita od zgužvanih kora umočenih u smjesu jaja, sira i kajmaka.", prica: "Jede se topla za doručak ili kao predjelo na slavi. Za razliku od međimurske gibanice, ova je slana i nema slojeve maka i oraha." },
-    { ime: "Svadbarski kupus", opis: "Kiseli kupus kuhan u zemljanom loncu s nekoliko vrsta mesa, na laganoj vatri i po desetak sati.", prica: "Selo Mrčajevci kod Čačka svake godine priređuje Kupusijadu, na kojoj se uz cestu puše stotine lonaca. Što se duže kuha, to je bolji, a podgrijan je najbolji." },
-    { ime: "Karađorđeva šnicla", opis: "Teleći ili svinjski odrezak umotan oko kajmaka, paniran i pržen, poslužen s tartarom.", prica: "Jelo je sredinom 20. stoljeća smislio beogradski kuhar Mića Stojanović kao domaći odgovor na kijevski kotlet. U kafanama je zovu i djevojački san." },
-    { ime: "Proja i prebranac", opis: "Proja je kruh od kukuruznog brašna, a prebranac zapečeni grah s mnogo luka i crvene paprike.", prica: "Oboje su posna jela koja se jedu u dane bez mesa, kojih u pravoslavnom kalendaru ima mnogo. Prebranac se poslužuje i hladan, kao meze." },
-    { ime: "Šljivovica", opis: "Rakija od šljive, piće dobrodošlice i svake svečanosti.", prica: "Običaji vezani uz pripremu i ispijanje šljivovice upisani su 2022. na UNESCO-ov popis nematerijalne baštine. Pije se iz malih bočica uskog grla zvanih čokanj, a dobra se nikada ne ispija naiskap." }
+    { ime: "Pljeskavica", opis: "A large, flat patty of ground meat from the grill, served in flatbread with onion, kajmak and urnebes, a spicy spread of cheese and pepper.", prica: "Leskovac in the south is considered the capital of grilling and holds the Roštiljijada festival every fall. The gourmet version is stuffed with cheese and bacon, and the portions are so big that one can easily be shared." },
+    { ime: "Kajmak", opis: "The rich skin skimmed off boiled milk, salted and stacked in layers.", prica: "The young kind is mild and sweet, while the old, aged kind is sharp and yellow. The most prized comes from the area around Kraljevo and Čačak, and it is eaten with hot flatbread, meat and proja." },
+    { ime: "Ajvar", opis: "A spread of roasted red peppers, which are peeled, ground and fried in oil for hours.", prica: "It is made in early fall, when whole streets smell of roasted peppers, and in every home it is a family job. Homemade Leskovac ajvar has a protected designation of origin." },
+    { ime: "Gibanica", opis: "A pie of crumpled phyllo sheets dipped in a mixture of eggs, cheese and kajmak.", prica: "It is eaten warm for breakfast or as a starter at a slava. Unlike the gibanica of Croatia's Međimurje region, this one is savory and has no layers of poppy seeds and walnuts." },
+    { ime: "Svadbarski kupus", opis: "Sauerkraut cooked in an earthenware pot with several kinds of meat, over a low fire for ten hours or so.", prica: "The village of Mrčajevci near Čačak holds the Kupusijada every year, when hundreds of pots steam by the roadside. The longer it cooks the better it gets, and it is best of all reheated." },
+    { ime: "Karađorđeva šnicla", opis: "A veal or pork cutlet rolled around kajmak, breaded and fried, and served with tartar sauce.", prica: "The dish was invented in the mid-20th century by the Belgrade chef Mića Stojanović as a homegrown answer to chicken Kiev. In the kafanas it is also called the maiden's dream." },
+    { ime: "Proja and prebranac", opis: "Proja is a cornmeal bread, and prebranac is baked beans with plenty of onion and red pepper.", prica: "Both are fasting dishes eaten on meatless days, of which the Orthodox calendar has many. Prebranac is also served cold, as a meze." },
+    { ime: "Šljivovica", opis: "Plum brandy, the drink of welcome and of every celebration.", prica: "The customs surrounding the making and drinking of šljivovica were inscribed on the UNESCO list of intangible heritage in 2022. It is drunk from small narrow-necked flasks called čokanj, and a good one is never downed in a single gulp." }
   ],
   obicaji: [
-    { ime: "Slava", opis: "Svaka obitelj slavi dan sveca zaštitnika, koji se nasljeđuje s oca na sina. Toga se dana lomi slavski kolač, pali svijeća, a vrata su otvorena svima, bez poziva. Običaj je od 2014. na UNESCO-ovu popisu.", gdje: "Najčešće slave su Nikoljdan 19. prosinca, Đurđevdan 6. svibnja i Aranđelovdan 21. studenoga. Ako vas netko pozove, ponesite bocu vina ili kavu i ne čestitajte prije nego što domaćin nazdravi." },
-    { ime: "Kolo", opis: "Lančani ples u kojem se plesači drže za ruke ili oko pojasa i kreću u krug sitnim koracima. Pleše se na svadbama, slavama i saborima, a UNESCO ga je upisao 2017. godine.", gdje: "Na svakoj svadbi i seoskom saboru, a scenski ga izvodi Nacionalni ansambl Kolo u Beogradu." },
-    { ime: "Truba i Guča", opis: "Limeni orkestri, nastali iz vojnih glazbi 19. stoljeća, sviraju na veseljima brzo, glasno i s puno improvizacije. Gosti trubačima lijepe novčanice na čelo.", gdje: "Sabor trubača u Guči održava se u kolovozu i okuplja stotine tisuća ljudi. Trubače ćete čuti i u beogradskoj Skadarliji." },
-    { ime: "Kafana", opis: "Kafana je više od gostionice: u njoj se doručkuje, sklapa posao, slavi i tuguje uz glazbu uživo. Stolnjaci su karirani, a svirači dolaze do stola i sviraju po narudžbi.", gdje: "Skadarlija u Beogradu, gdje su početkom 20. stoljeća sjedili pjesnici i glumci, te stare kafane u Nišu i Novom Sadu." },
-    { ime: "Pirotski ćilim", opis: "Vuneni ćilim tkan bez naličja, s obje strane jednak, ukrašen geometrijskim uzorcima od kojih svaki ima ime i značenje, poput kornjače za dug život. Ime mu je zaštićeno.", gdje: "U Pirotu na jugoistoku rade tkalačke zadruge koje se mogu posjetiti, a ćilime ćete vidjeti i u Etnografskom muzeju u Beogradu." },
-    { ime: "Naivno slikarstvo iz Kovačice", opis: "Slovački seljaci u banatskom selu Kovačica od tridesetih godina 20. stoljeća slikaju šarene prizore žetve, svadbi i zime. Praksa je 2024. upisana na UNESCO-ov popis.", gdje: "Galerija naivne umjetnosti u Kovačici, sat vožnje od Beograda." },
-    { ime: "Salaš", opis: "Usamljeno imanje u vojvođanskoj ravnici, s kućom od naboja, đermom i dudom u dvorištu. Mnogi danas primaju goste na ručak koji traje cijelo poslijepodne, uz tamburaše.", gdje: "U okolici Novog Sada, osobito oko Čeneja, te kod Sombora i Subotice." }
+    { ime: "Slava", opis: "Every family celebrates the day of its patron saint, which is passed down from father to son. On that day the slava bread is broken, a candle is lit, and the door is open to everyone, with no invitation needed. The custom has been on the UNESCO list since 2014.", gdje: "The most common slavas are St. Nicholas Day on December 19, St. George's Day on May 6 and the Feast of the Archangel Michael on November 21. If someone invites you, bring a bottle of wine or some coffee, and hold your congratulations until the host has made the toast." },
+    { ime: "Kolo", opis: "A chain dance in which the dancers hold hands or each other's waists and move in a circle with tiny steps. It is danced at weddings, slavas and village fairs, and UNESCO inscribed it in 2017.", gdje: "At every wedding and village fair, and on stage it is performed by the National Ensemble Kolo in Belgrade." },
+    { ime: "The trumpet and Guča", opis: "Brass bands, which grew out of the military bands of the 19th century, play at celebrations fast, loud and with plenty of improvisation. Guests stick banknotes to the trumpeters' foreheads.", gdje: "The Guča Trumpet Festival is held in August and draws hundreds of thousands of people. You will also hear trumpeters in Belgrade's Skadarlija." },
+    { ime: "Kafana", opis: "A kafana is more than a tavern: it is where people have breakfast, close deals, celebrate and grieve to live music. The tablecloths are checkered, and the musicians come up to your table and play requests.", gdje: "Skadarlija in Belgrade, where poets and actors used to sit at the beginning of the 20th century, and the old kafanas in Niš and Novi Sad." },
+    { ime: "Pirot kilim", opis: "A wool rug woven with no reverse side, identical on both faces and decorated with geometric patterns, each of which has a name and a meaning, such as the turtle for long life. Its name is protected.", gdje: "In Pirot in the southeast there are weaving cooperatives you can visit, and you will also see the kilims in the Ethnographic Museum in Belgrade." },
+    { ime: "Naive painting from Kovačica", opis: "Since the 1930s, Slovak farmers in the Banat village of Kovačica have been painting colorful scenes of harvests, weddings and winter. The practice was inscribed on the UNESCO list in 2024.", gdje: "The Gallery of Naive Art in Kovačica, an hour's drive from Belgrade." },
+    { ime: "Salaš", opis: "A solitary farmstead on the Vojvodina plain, with a rammed-earth house, a sweep well and a mulberry tree in the yard. Many of them now welcome guests for a lunch that lasts all afternoon, accompanied by tamburica players.", gdje: "Around Novi Sad, especially near Čenej, and near Sombor and Subotica." }
   ],
   fraze: [
-    { izvorno: "Ćao", izgovor: "ĆAO", hr: "Bok (i pri dolasku i pri odlasku)" },
-    { izvorno: "Važi", izgovor: "VA-ži", hr: "Dogovoreno, u redu" },
-    { izvorno: "Prijatno", izgovor: "PRI-jat-no", hr: "Dobar tek, a i doviđenja" },
-    { izvorno: "Hleb", izgovor: "HLEB", hr: "Kruh" },
-    { izvorno: "Paradajz i šargarepa", izgovor: "pa-RA-dajz, šar-ga-RE-pa", hr: "Rajčica i mrkva" },
-    { izvorno: "Kašika i viljuška", izgovor: "KA-ši-ka, VI-ljuš-ka", hr: "Žlica i vilica" },
-    { izvorno: "Voz, stanica", izgovor: "VOZ, STA-ni-ca", hr: "Vlak, kolodvor" },
-    { izvorno: "Živeli!", izgovor: "ŽI-ve-li", hr: "Živjeli!" }
+    { izvorno: "Ćao", izgovor: "CHOW", hr: "Hi and bye (used both when arriving and when leaving)" },
+    { izvorno: "Važi", izgovor: "VAH-zhee", hr: "Deal, all right" },
+    { izvorno: "Prijatno", izgovor: "PREE-yaht-noh", hr: "Enjoy your meal, and also goodbye" },
+    { izvorno: "Hleb", izgovor: "HLEB", hr: "Bread" },
+    { izvorno: "Paradajz i šargarepa", izgovor: "pah-RAH-dize, shar-gah-REH-pah", hr: "Tomato and carrot" },
+    { izvorno: "Kašika i viljuška", izgovor: "KAH-shee-kah, VEEL-yoosh-kah", hr: "Spoon and fork" },
+    { izvorno: "Voz, stanica", izgovor: "VOHZ, STAH-nee-tsah", hr: "Train, station" },
+    { izvorno: "Živeli!", izgovor: "ZHEE-veh-lee", hr: "Cheers!" }
   ],
   zanimljivosti: [
-    "Na tlu današnje Srbije rođeno je sedamnaest ili osamnaest rimskih careva, ovisno o tome kako se broje.",
-    "Riječ vampir u europske je jezike ušla iz srpskog, nakon što su austrijske vlasti 1725. istraživale slučaj seljaka Petra Blagojevića.",
-    "Srbija je među najvećim svjetskim izvoznicima malina.",
-    "Službeno pismo je ćirilica, ali se latinica koristi jednako često, pa ćete oba pisma vidjeti na istoj ulici.",
-    "Beograd je kroz povijest rušen i obnavljan desetke puta, a nad ušćem Save u Dunav vodile su se bitke od rimskog doba do 20. stoljeća.",
-    "Astronom Milutin Milanković, čiji ciklusi objašnjavaju ledena doba, rođen je u Dalju kod Osijeka, a radio je u Beogradu.",
-    "Đavolja varoš na jugu zemlje ima dvjestotinjak zemljanih stupova s kamenim kapama, koje je isklesala erozija."
+    "Seventeen or eighteen Roman emperors were born on the soil of present-day Serbia, depending on how you count them.",
+    "The word vampire entered European languages from Serbian, after the Austrian authorities investigated the case of the peasant Petar Blagojević in 1725.",
+    "Serbia is among the world's largest exporters of raspberries.",
+    "The official script is Cyrillic, but the Latin alphabet is used just as often, so you will see both scripts on the same street.",
+    "Belgrade has been destroyed and rebuilt dozens of times over its history, and battles were fought above the confluence of the Sava and the Danube from Roman times to the 20th century.",
+    "The astronomer Milutin Milanković, whose cycles explain the ice ages, was born in Dalj near Osijek in Croatia and worked in Belgrade.",
+    "Đavolja Varoš in the south of the country has around two hundred earth pillars with stone caps, sculpted by erosion."
   ],
   mjesta: [
     {
       id: "beograd",
-      ime: "Beograd",
+      ime: "Belgrade",
       vrsta: "grad",
-      sazetak: "Bučna prijestolnica na ušću Save u Dunav, s tvrđavom nad dvjema rijekama, boemskom ulicom i muzejom u kojem iskre Tesline zavojnice.",
+      sazetak: "A noisy capital at the confluence of the Sava and the Danube, with a fortress above two rivers, a bohemian street and a museum where Tesla coils throw sparks.",
       prica: [
-        "Na grebenu nad ušćem Kelti su osnovali Singidun, koji su Rimljani utvrdili, a Slaveni prozvali Bijelim gradom. Zbog položaja na granici Panonije i Balkana bio je stoljećima poprište borbi Ugarske, Osmanlija i Habsburgovaca i više je puta mijenjao gospodara.",
-        "Prijestolnica Srbije postao je u 19. stoljeću, a zatim i glavni grad Jugoslavije, što je ostavilo raskošne zgrade između dva rata i betonski Novi Beograd na drugoj obali Save. Danas je to grad od milijun i pol stanovnika koji ne spava i koji se najbolje upoznaje hodajući."
+        "On the ridge above the confluence the Celts founded Singidunum, which the Romans fortified and the Slavs named the White City. Because of its position on the border between Pannonia and the Balkans, it was for centuries the scene of struggles among Hungary, the Ottomans and the Habsburgs, and it changed hands many times.",
+        "It became the capital of Serbia in the 19th century and later the capital of Yugoslavia, which left behind grand buildings from between the two world wars and concrete New Belgrade on the other bank of the Sava. Today it is a city of a million and a half people that never sleeps and is best discovered on foot."
       ],
       vidjeti: [
-        { ime: "Beogradska tvrđava i Kalemegdan", opis: "Zidine su uglavnom austrijske i osmanske, iz 18. stoljeća, a park oko njih najdraže je gradsko šetalište. Na rubu bedema stoji Pobjednik, djelo Ivana Meštrovića iz 1928., koji je trebao krasiti središte grada, ali je zbog golotinje postavljen ovdje, leđima okrenut šetačima. Potražite i takozvani Rimski bunar, koji su zapravo iskopali Austrijanci." },
-        { ime: "Crkva Ružica", opis: "Mala crkva u podnožju tvrđave bila je barutana prije nego što je postala vojnička kapela. Lusteri su joj izrađeni od čahura, sablji i dijelova pušaka iz Prvog svjetskog rata." },
-        { ime: "Hram svetog Save", opis: "Jedna od najvećih pravoslavnih crkava na svijetu stoji na Vračaru, gdje su Osmanlije 1595. spalili moći svetog Save. Gradnja je počela 1935., a kupola teška četiri tisuće tona podignuta je 1989. u jednom komadu. Unutrašnjost je prekrivena zlatnim mozaicima, a kripta je raskošnija od same crkve." },
-        { ime: "Muzej Nikole Tesle", opis: "Mali muzej čuva izumiteljevu ostavštinu i urnu s njegovim pepelom u obliku zlatne kugle. Na vođenom obilasku fluorescentna cijev zasvijetli vam u ruci bez žice, kraj zavojnice koja ispušta munje." },
-        { ime: "Muzej Jugoslavije i Kuća cvijeća", opis: "U zimskom vrtu na Dedinju počiva Josip Broz Tito, rođen u Kumrovcu, a oko groba su izložene štafete koje su mu mladi nosili za rođendan. Zbirka darova državnika iz cijelog svijeta govori o vremenu više od ikojeg udžbenika." },
-        { ime: "Zemun i kula Gardoš", opis: "Zemun je do 1918. bio pogranični grad Austro-Ugarske i izgleda poput malog panonskog mjesta. Kulu na brdu podigla je 1896. ugarska vlast za tisućugodišnjicu države, a s nje se vidi Dunav i Veliko ratno ostrvo." }
+        { ime: "Belgrade Fortress and Kalemegdan", opis: "The walls are mostly Austrian and Ottoman, from the 18th century, and the park around them is the city's favorite promenade. At the edge of the ramparts stands the Victor, a work by Ivan Meštrović from 1928, which was meant to adorn the city center but was placed here because of its nudity, with its back turned to the strollers. Look for the so-called Roman Well too, which was actually dug by the Austrians." },
+        { ime: "Ružica Church", opis: "The little church at the foot of the fortress was a gunpowder magazine before it became a soldiers' chapel. Its chandeliers are made of shell casings, sabers and rifle parts from the First World War." },
+        { ime: "Church of Saint Sava", opis: "One of the largest Orthodox churches in the world stands on Vračar, where the Ottomans burned the relics of Saint Sava in 1595. Construction began in 1935, and the dome, weighing four thousand tons, was lifted into place in one piece in 1989. The interior is covered in gold mosaics, and the crypt is even more lavish than the church itself." },
+        { ime: "Nikola Tesla Museum", opis: "The small museum holds the inventor's legacy and the urn with his ashes, in the shape of a golden sphere. On the guided tour a fluorescent tube lights up in your hand with no wire, next to a coil that shoots out lightning." },
+        { ime: "Museum of Yugoslavia and the House of Flowers", opis: "Josip Broz Tito, who was born in Kumrovec, rests in a winter garden in Dedinje, and around the tomb are displayed the relay batons that young people carried to him for his birthday. The collection of gifts from statesmen all over the world says more about the era than any textbook." },
+        { ime: "Zemun and the Gardoš Tower", opis: "Until 1918 Zemun was a border town of Austria-Hungary, and it looks like a small Pannonian town. The tower on the hill was built in 1896 by the Hungarian authorities for the thousandth anniversary of their state, and from it you can see the Danube and Great War Island." }
       ],
       jesti: [
-        { ime: "Doručak s burekom", opis: "Burek s mesom ili sirom i čaša jogurta jedu se stojeći u pekarnicama od ranog jutra." },
-        { ime: "Roštilj u kafani", opis: "Ćevapi, pljeskavica i vješalica naručuju se uz kajmak i šopsku salatu." },
-        { ime: "Riblja čorba u Zemunu", opis: "Riblji restorani na zemunskom keju kuhaju ljuti paprikaš od šarana i soma u kotliću." },
-        { ime: "Kolači u poslastičarnici", opis: "U starim slastičarnicama naručuju se šampita, krempita i boza, slatkasto piće od kukuruza." }
+        { ime: "Breakfast with burek", opis: "Burek with meat or cheese and a glass of yogurt are eaten standing up in the bakeries from early morning." },
+        { ime: "Grilled meat in a kafana", opis: "Ćevapi, pljeskavica and vešalica are ordered with kajmak and šopska salad." },
+        { ime: "Fish stew in Zemun", opis: "The fish restaurants on the Zemun quay cook a spicy paprikash of carp and catfish in a cauldron." },
+        { ime: "Cakes at a pastry shop", opis: "In the old pastry shops people order šampita, krempita and boza, a slightly sweet drink made from corn." }
       ],
       dozivjeti: [
-        { ime: "Večer u Skadarliji", opis: "U kaldrmiranoj ulici kafane rade od 19. stoljeća, a starogradski orkestri idu od stola do stola. Turistički jest, ali i sami Beograđani ovamo vode goste." },
-        { ime: "Zalazak sunca na ušću", opis: "S bedema kod Pobjednika gleda se kako se Sava ulijeva u Dunav, a sunce tone iza Novog Beograda.", link: "https://www.beogradskatvrdjava.co.rs/" },
-        { ime: "Besplatna pješačka tura", opis: "Lokalni vodiči svakodnevno vode kroz središte grada i Zemun, uz napojnicu po želji.", link: "https://belgradefreetour.com/" },
-        { ime: "Tržnica Kalenić", opis: "Najveća gradska tržnica na Vračaru najbolja je subotom ujutro, kada seljaci donose kajmak, sir i sušeno meso." }
+        { ime: "An evening in Skadarlija", opis: "On this cobbled street the kafanas have been open since the 19th century, and old-town orchestras go from table to table. It is touristy, but Belgraders bring their own guests here too." },
+        { ime: "Sunset at the confluence", opis: "From the ramparts by the Victor you watch the Sava flow into the Danube as the sun sinks behind New Belgrade.", link: "https://www.beogradskatvrdjava.co.rs/" },
+        { ime: "Free walking tour", opis: "Local guides lead daily walks through the city center and Zemun, for a tip of your choosing.", link: "https://belgradefreetour.com/" },
+        { ime: "Kalenić Market", opis: "The city's largest market, on Vračar, is at its best on Saturday mornings, when farmers bring kajmak, cheese and cured meat." }
       ],
       agencije: [
-        { ime: "Turistička organizacija Beograda", opis: "Službena stranica s informacijama, kartama i kalendarom događanja.", link: "https://www.tob.rs/" },
-        { ime: "Belgrade Free Tour", opis: "Besplatne pješačke ture s lokalnim vodičima.", link: "https://belgradefreetour.com/" },
-        { ime: "Belgrade Walking Tours", opis: "Tematske šetnje po gradu, od podzemlja tvrđave do Zemuna.", link: "https://www.belgradewalkingtours.com/" }
+        { ime: "Tourist Organization of Belgrade", opis: "The official website, with information, maps and an events calendar.", link: "https://www.tob.rs/" },
+        { ime: "Belgrade Free Tour", opis: "Free walking tours with local guides.", link: "https://belgradefreetour.com/" },
+        { ime: "Belgrade Walking Tours", opis: "Themed walks around the city, from the fortress underground to Zemun.", link: "https://www.belgradewalkingtours.com/" }
       ],
-      kada: "Svibanj, lipanj i rujan. Obilazak Teslina muzeja vodi se u određenim terminima, pa dođite ranije, a ponedjeljkom je većina muzeja zatvorena."
+      kada: "May, June and September. Tours of the Tesla Museum run at set times, so arrive early, and most museums are closed on Mondays."
     },
     {
       id: "novi-sad",
-      ime: "Novi Sad i Srijemski Karlovci",
+      ime: "Novi Sad and Sremski Karlovci",
       vrsta: "grad",
-      sazetak: "Srednjoeuropski grad na Dunavu pod golemom Petrovaradinskom tvrđavom, s baroknim vinskim gradićem i šumovitom Fruškom gorom u susjedstvu.",
+      sazetak: "A Central European city on the Danube below the enormous Petrovaradin Fortress, with a Baroque wine town and the wooded Fruška Gora next door.",
       prica: [
-        "Novi Sad nastao je krajem 17. stoljeća kao naselje trgovaca i obrtnika preko puta tvrđave, a status slobodnog kraljevskog grada kupio je 1748. od Marije Terezije. U 19. stoljeću bio je kulturno središte Srba u Habsburškoj Monarhiji, pa su ga prozvali srpskom Atenom.",
-        "U Petrovaradinu, na drugoj obali, rođen je 1801. ban Josip Jelačić, a u susjednim Srijemskim Karlovcima sklopljen je 1699. mir kojim su Osmanlije izgubili Ugarsku i velik dio Hrvatske. Novi Sad je 2022. bio Europska prijestolnica kulture."
+        "Novi Sad arose at the end of the 17th century as a settlement of merchants and craftsmen across from the fortress, and in 1748 it bought the status of a free royal city from Maria Theresa. In the 19th century it was the cultural center of the Serbs in the Habsburg Monarchy, which earned it the name the Serbian Athens.",
+        "Ban Josip Jelačić was born in 1801 in Petrovaradin, on the opposite bank, and in neighboring Sremski Karlovci the peace was concluded in 1699 by which the Ottomans lost Hungary and a large part of Croatia. In 2022 Novi Sad was a European Capital of Culture."
       ],
       vidjeti: [
-        { ime: "Petrovaradinska tvrđava", opis: "Austrijanci su je gradili gotovo cijelo stoljeće, do 1780., i ispod nje iskopali šesnaest kilometara hodnika. Na tornju sa satom velika kazaljka pokazuje sate, a mala minute, kako bi lađari na Dunavu izdaleka vidjeli koliko je sati. U podgrađu potražite rodnu kuću bana Jelačića." },
-        { ime: "Trg slobode", opis: "Glavni trg zatvaraju gradska kuća i katolička crkva Imena Marijina iz 1894., s krovom od šarenih Zsolnayevih pločica. Odavde kreću pješačke Zmaj Jovina i Dunavska ulica s niskim baroknim kućama." },
-        { ime: "Sinagoga", opis: "Sagrađena je 1909. u stilu mađarske secesije prema nacrtu Lipóta Baumhorna i jedna je od najvećih u srednjoj Europi. Danas je zbog odlične akustike koncertna dvorana." },
-        { ime: "Kapela mira u Karlovcima", opis: "Okrugla kapela stoji ondje gdje je 1699. potpisan Karlovački mir. Predaja kaže da je tada prvi put u diplomaciji upotrijebljen okrugli stol, a zgrada ima četvora vrata kako bi sve strane ušle istodobno." },
-        { ime: "Središte Srijemskih Karlovaca", opis: "Na malom trgu stoje Patrijaršijski dvor, saborna crkva i najstarija srpska gimnazija, osnovana 1791. godine. Česma Četiri lava iz 1799. podignuta je u čast prvog gradskog vodovoda." },
-        { ime: "Samostani Fruške gore", opis: "Na niskoj šumovitoj planini skriva se šesnaest pravoslavnih samostana, uglavnom iz 16. stoljeća i poslije barokiziranih. Krušedol čuva grobove posljednjih srpskih despota, a Novo Hopovo freske koje su naslikali majstori sa Svete Gore." }
+        { ime: "Petrovaradin Fortress", opis: "The Austrians spent almost a whole century building it, until 1780, and dug sixteen kilometers of tunnels beneath it. On the clock tower the big hand shows the hours and the small hand the minutes, so that boatmen on the Danube could tell the time from far away. In the lower town, look for the house where Ban Jelačić was born." },
+        { ime: "Trg Slobode", opis: "The main square is framed by the city hall and the Catholic Church of the Name of Mary from 1894, with a roof of colorful Zsolnay tiles. From here the pedestrian streets Zmaj Jovina and Dunavska set off, lined with low Baroque houses." },
+        { ime: "Synagogue", opis: "It was built in 1909 in the Hungarian Secession style to a design by Lipót Baumhorn and is one of the largest in Central Europe. Today, thanks to its excellent acoustics, it is a concert hall." },
+        { ime: "Chapel of Peace in Karlovci", opis: "The round chapel stands where the Treaty of Karlowitz was signed in 1699. Tradition says that a round table was used in diplomacy for the first time on that occasion, and the building has four doors so that all the parties could enter at the same moment." },
+        { ime: "The center of Sremski Karlovci", opis: "On the small square stand the Patriarchal Palace, the cathedral church and the oldest Serbian grammar school, founded in 1791. The Four Lions Fountain from 1799 was built to honor the town's first water supply." },
+        { ime: "The monasteries of Fruška Gora", opis: "Sixteen Orthodox monasteries hide on this low, wooded mountain, mostly from the 16th century and later given a Baroque look. Krušedol holds the tombs of the last Serbian despots, and Novo Hopovo has frescoes painted by masters from Mount Athos." }
       ],
       jesti: [
-        { ime: "Bermet", opis: "Aromatizirano desertno vino s dvadesetak trava i začina radi se u Karlovcima po obiteljskim receptima. Legenda kaže da se nalazio i na vinskoj karti Titanica." },
-        { ime: "Kuglof", opis: "Kolač podunavskih Švaba u Karlovcima ima i vlastiti muzej i festival." },
-        { ime: "Riblji paprikaš", opis: "U čardama uz Dunav kuha se u kotliću i jede s domaćim rezancima." },
-        { ime: "Ručak na salašu", opis: "Juha s rezancima, kuhano meso s umakom od rajčice i štrudla s makom slijede jedno za drugim, kao u starim vojvođanskim kućama." }
+        { ime: "Bermet", opis: "An aromatized dessert wine with some twenty herbs and spices is made in Karlovci according to family recipes. Legend has it that it was even on the wine list of the Titanic." },
+        { ime: "Kuglof", opis: "The cake of the Danube Swabians has its own museum and festival in Karlovci." },
+        { ime: "Fish paprikash", opis: "In the čardas along the Danube it is cooked in a cauldron and eaten with homemade noodles." },
+        { ime: "Lunch on a salaš", opis: "Noodle soup, boiled meat with tomato sauce and poppy seed strudel follow one after another, just as in the old houses of Vojvodina." }
       ],
       dozivjeti: [
-        { ime: "Podzemne galerije tvrđave", opis: "Dio vojnih hodnika otvoren je uz vodiča Muzeja grada. Unutra je hladno i mračno, a vodič objašnjava kako su se pod zemljom vodile bitke minama.", link: "https://novisad.travel/" },
-        { ime: "Kušanje vina u Karlovcima", opis: "Desetak obiteljskih podruma nudi bermet, frušku graševinu i lokalni med, a sve je na pješačkoj udaljenosti od trga.", link: "https://karlovci.org.rs/" },
-        { ime: "Exit", opis: "Glazbeni festival nastao 2000. kao studentski prosvjed održava se u srpnju na bedemima i u jarcima tvrđave. Tih je dana grad pun, a smještaj skup." },
-        { ime: "Pješačenje Fruškom gorom", opis: "Najstariji nacionalni park u Srbiji ima označene staze između samostana, vidikovaca i izletišta.", link: "https://www.fruskac.net/" }
+        { ime: "The fortress's underground galleries", opis: "Part of the military tunnels is open with a guide from the City Museum. It is cold and dark inside, and the guide explains how battles were fought underground with mines.", link: "https://novisad.travel/" },
+        { ime: "Wine tasting in Karlovci", opis: "A dozen or so family cellars offer bermet, Fruška Gora graševina and local honey, all within walking distance of the square.", link: "https://karlovci.org.rs/" },
+        { ime: "Exit", opis: "The music festival that began in 2000 as a student protest is held in July on the ramparts and in the moats of the fortress. The city is full on those days and accommodation is expensive." },
+        { ime: "Hiking on Fruška Gora", opis: "The oldest national park in Serbia has marked trails between monasteries, viewpoints and picnic areas.", link: "https://www.fruskac.net/" }
       ],
       agencije: [
-        { ime: "Turistička organizacija Novog Sada", opis: "Službena stranica grada s prijedlozima ruta i informativnim centrima.", link: "https://novisad.travel/" },
-        { ime: "Turistička organizacija Srijemskih Karlovaca", opis: "Informacije o vinarijama, muzejima i vođenjima po gradiću.", link: "https://karlovci.org.rs/" },
-        { ime: "Fruškać", opis: "Interaktivni vodič po Fruškoj gori sa stazama, samostanima i izletištima.", link: "https://www.fruskac.net/" }
+        { ime: "Tourist Organization of Novi Sad", opis: "The city's official website, with suggested routes and information centers.", link: "https://novisad.travel/" },
+        { ime: "Tourist Organization of Sremski Karlovci", opis: "Information on wineries, museums and guided tours of the town.", link: "https://karlovci.org.rs/" },
+        { ime: "Fruškać", opis: "An interactive guide to Fruška Gora, with trails, monasteries and picnic areas.", link: "https://www.fruskac.net/" }
       ],
-      kada: "Svibanj i lipanj, kada cvjetaju lipe, ili rujan i listopad, u vrijeme berbe i Karlovačke berbe grožđa. Iz Hrvatske je ovo najbliži dio Srbije, na sat vožnje od Vukovara i Iloka."
+      kada: "May and June, when the linden trees are in bloom, or September and October, at harvest time and during the Karlovci Grape Harvest festival. This is the part of Serbia closest to Croatia, an hour's drive from Vukovar and Ilok."
     },
     {
       id: "nis",
       ime: "Niš",
       vrsta: "grad",
-      sazetak: "Rodni grad Konstantina Velikog, u kojem se u jednom danu vide carska vila s mozaicima, osmanska tvrđava i kula sazidana od lubanja.",
+      sazetak: "The birthplace of Constantine the Great, where in a single day you can see an imperial villa with mosaics, an Ottoman fortress and a tower built of skulls.",
       prica: [
-        "Rimski Naissus ležao je na raskrižju putova prema Carigradu i Solunu, a oko 272. godine ovdje je rođen Konstantin, car koji je kršćanima dao slobodu. U predgrađu Medijana imao je ljetnikovac u koji se vraćao i kao vladar.",
-        "Osmanlije su gradom vladali od 15. stoljeća do 1878., a iz tog doba potječu tvrđava i najpotresniji spomenik Balkana, Ćele-kula. Današnji Niš treći je grad Srbije, poznat po dobroj hrani i opuštenim ljudima."
+        "Roman Naissus lay at the crossroads of the routes to Constantinople and Thessaloniki, and around the year 272 Constantine was born here, the emperor who gave Christians their freedom. In the suburb of Mediana he had a summer residence to which he returned even as ruler.",
+        "The Ottomans ruled the city from the 15th century until 1878, and from that era come the fortress and the most harrowing monument in the Balkans, the Skull Tower. Today Niš is Serbia's third city, known for good food and easygoing people."
       ],
       vidjeti: [
-        { ime: "Ćele-kula", opis: "Nakon bitke na Čegru 1809., u kojoj je vojvoda Stevan Sinđelić digao u zrak barutanu sa sobom i napadačima, osmanski je zapovjednik dao u kulu uzidati 952 lubanje ustanika. Danas ih je ostalo pedeset i osam, a kula je zaštićena kapelom. Francuski pjesnik Lamartine, koji je ovuda prošao 1833., zapisao je da je vjetar zviždao kroz kosti." },
-        { ime: "Niška tvrđava", opis: "Osmanlije su je dovršili 1723. na temeljima rimske i bizantske utvrde. Kroz Stambol-kapiju ulazi se u park s džamijom, hamamom i lapidarijem rimskih nadgrobnih ploča." },
-        { ime: "Medijana", opis: "U carskom imanju iz četvrtog stoljeća sačuvani su podni mozaici s geometrijskim uzorcima i glavom Meduze. Ovdje su 364. carevi Valentinijan i Valens podijelili carstvo." },
-        { ime: "Logor Crveni krst", opis: "Jedan od rijetkih potpuno sačuvanih nacističkih logora u Europi čuva ćelije s natpisima zatvorenika. U veljači 1942. odavde se probilo stotinjak zatočenika, u jednom od prvih masovnih bijegova iz logora." },
-        { ime: "Spomen-park Bubanj", opis: "Na mjestu strijeljanja tisuća ljudi stoje tri betonske šake različite veličine, muška, ženska i dječja, djelo kipara Ivana Sabolića, rođenog u Peterancu kod Koprivnice." }
+        { ime: "Skull Tower (Ćele-kula)", opis: "After the Battle of Čegar in 1809, in which the commander Stevan Sinđelić blew up the powder magazine along with himself and the attackers, the Ottoman commander had 952 skulls of the rebels built into a tower. Fifty-eight of them remain today, and the tower is protected by a chapel. The French poet Lamartine, who passed this way in 1833, wrote that the wind whistled through the bones." },
+        { ime: "Niš Fortress", opis: "The Ottomans completed it in 1723 on the foundations of a Roman and Byzantine fort. Through the Stambol Gate you enter a park with a mosque, a hammam and a lapidarium of Roman tombstones." },
+        { ime: "Mediana", opis: "On this imperial estate from the fourth century, floor mosaics with geometric patterns and a head of Medusa have survived. It was here in 364 that the emperors Valentinian and Valens divided the empire." },
+        { ime: "Crveni Krst camp", opis: "One of the few fully preserved Nazi camps in Europe still has cells with the prisoners' inscriptions. In February 1942 around a hundred inmates broke out of here, in one of the first mass escapes from a camp." },
+        { ime: "Bubanj Memorial Park", opis: "On the site where thousands of people were shot stand three concrete fists of different sizes, a man's, a woman's and a child's, the work of the sculptor Ivan Sabolić, who was born in Peteranec near Koprivnica in Croatia." }
       ],
       jesti: [
-        { ime: "Niški burek", opis: "Grad tvrdi da se burek u okruglom obliku ovdje peče od 15. stoljeća i svake godine priređuje Buregdžijadu." },
-        { ime: "Roštilj na južnjački način", opis: "Pljeskavice i ćevapi ovdje su ljući i začinjeniji, a uz njih idu pečene paprike u ulju i češnjaku." },
-        { ime: "Pirotski kačkavalj i peglana kobasica", opis: "S istoka, iz Pirota, stižu tvrdi sir i suha kobasica bez masti, koja se pri sušenju pegla bocom." }
+        { ime: "Niš burek", opis: "The city claims that round burek has been baked here since the 15th century, and it holds the Buregdžijada every year." },
+        { ime: "Grilled meat, southern style", opis: "The pljeskavicas and ćevapi are hotter and spicier here, and they come with roasted peppers in oil and garlic." },
+        { ime: "Pirot kačkavalj and peglana kobasica", opis: "From Pirot in the east come a hard cheese and a lean dry sausage that is ironed flat with a bottle as it dries." }
       ],
       dozivjeti: [
-        { ime: "Kazandžijsko sokače", opis: "Jedina sačuvana stara obrtnička ulica danas je niz kafana pod istim krovovima, gdje se sjedi do kasno." },
-        { ime: "Nišville", opis: "Jazz festival održava se u kolovozu u tvrđavi i dovodi svjetska imena na pozornicu među zidinama.", link: "https://visitnis.org/" },
-        { ime: "Izlet u Sićevačku klisuru", opis: "Nišava je dvadesetak kilometara od grada usjekla klisuru s vinogradima i malim samostanima, a blizu je i Niška Banja s toplim izvorima." }
+        { ime: "Kazandžijsko Sokače", opis: "The only surviving old craftsmen's street is now a row of kafanas under the same old roofs, where people sit until late." },
+        { ime: "Nišville", opis: "The jazz festival is held in August in the fortress and brings world-famous names to a stage among the walls.", link: "https://visitnis.org/" },
+        { ime: "Day trip to the Sićevo Gorge", opis: "About twenty kilometers from the city, the Nišava has cut a gorge with vineyards and small monasteries, and Niška Banja with its warm springs is close by." }
       ],
       agencije: [
-        { ime: "Turistička organizacija Niša", opis: "Službena stranica grada sa zajedničkom ulaznicom za glavne spomenike.", link: "https://visitnis.org/" },
-        { ime: "Turistička organizacija Srbije", opis: "Nacionalni turistički portal.", link: "https://www.serbia.travel/" }
+        { ime: "Tourist Organization of Niš", opis: "The city's official website, with a combined ticket for the main monuments.", link: "https://visitnis.org/" },
+        { ime: "National Tourism Organisation of Serbia", opis: "The national tourism portal.", link: "https://www.serbia.travel/" }
       ],
-      kada: "Proljeće i rana jesen. Niš je zgodna postaja na putu prema Grčkoj i Sjevernoj Makedoniji, a glavni se spomenici mogu obići u jednom danu."
+      kada: "Spring and early fall. Niš is a handy stop on the way to Greece and North Macedonia, and the main monuments can be seen in one day."
     },
     {
       id: "djerdap",
-      ime: "Đerdap",
+      ime: "Đerdap (the Iron Gates)",
       vrsta: "priroda",
-      sazetak: "Stotinu kilometara Dunava stisnutog među stijene, s tvrđavom na ulazu, licima starim osam tisuća godina i rimskim natpisom tik nad vodom.",
+      sazetak: "A hundred kilometers of the Danube squeezed between rock walls, with a fortress at the entrance, faces eight thousand years old and a Roman inscription just above the water.",
       prica: [
-        "Između Karpata i Balkana Dunav se probija kroz najdužu klisuru u Europi, koju Rimljani nisu mogli zaobići, pa je car Trajan uz stijenu usjekao cestu i dao sagraditi most za pohod na Dakiju. Tisućljećima prije na istoj su obali ribari mezolitika podigli jedno od prvih stalnih naselja u Europi.",
-        "Kada je 1972. dovršena hidroelektrana, razina rijeke podigla se za tridesetak metara, pa su nalazišta i spomenici premješteni na više. Srpska obala nacionalni je park od 1974., a od 2020. i UNESCO-ov geopark."
+        "Between the Carpathians and the Balkan Mountains the Danube forces its way through the longest gorge in Europe, which the Romans had no way around, so Emperor Trajan cut a road into the rock and had a bridge built for his campaign against Dacia. Thousands of years earlier, Mesolithic fishermen had built one of the first permanent settlements in Europe on the same bank.",
+        "When the hydroelectric plant was completed in 1972, the level of the river rose by about thirty meters, so the archaeological sites and monuments were moved higher up. The Serbian bank has been a national park since 1974, and since 2020 it has also been a UNESCO geopark."
       ],
       vidjeti: [
-        { ime: "Golubačka tvrđava", opis: "Utvrda iz 14. stoljeća s deset kula spušta se niz stijenu do same vode, na mjestu gdje je Dunav širok poput jezera. U bitki 1428. ovdje je poginuo poljski vitez Zawisza Crni, kojem je posvećena spomen-ploča. Obnovljena je 2019. i u gornje se kule ulazi uz vodiča." },
-        { ime: "Lepenski Vir", opis: "Naselje ribara i lovaca iz razdoblja od oko 9500. do 6000. prije Krista otkrio je 1965. arheolog Dragoslav Srejović. Kuće imaju trapezastu osnovu, koja ponavlja oblik stijene Treskavac preko rijeke, a u njima su nađene kamene glave s ribljim ustima i izbuljenim očima, koje se ubrajaju među najstarije monumentalne skulpture u Europi." },
-        { ime: "Trajanova ploča", opis: "Latinski natpis iz 100. godine slavi dovršetak ceste kroz klisuru. Prije punjenja jezera izrezan je iz stijene i podignut dvadesetak metara, a vidi se samo s broda." },
-        { ime: "Veliki i Mali Kazan", opis: "Na najužem mjestu rijeka je široka oko 150 metara, a duboka i do devedeset, što je čini jednom od najdubljih na svijetu. S rumunjske obale gleda golemo lice dačkog kralja Decebala, uklesano u stijenu krajem 20. stoljeća." },
-        { ime: "Viminacij", opis: "Sat vožnje uzvodno, kod Kostolca, leže ostaci glavnog grada rimske provincije Gornje Mezije, s oslikanim grobnicama i amfiteatrom. U blizini je pronađen i gotovo cjelovit kostur mamuta." }
+        { ime: "Golubac Fortress", opis: "The 14th-century fortress with ten towers runs down the rock to the water's edge, at a spot where the Danube is as wide as a lake. The Polish knight Zawisza the Black was killed here in the battle of 1428, and a memorial plaque is dedicated to him. It was restored in 2019, and the upper towers can be entered with a guide." },
+        { ime: "Lepenski Vir", opis: "This settlement of fishermen and hunters from the period between about 9500 and 6000 BC was discovered in 1965 by the archaeologist Dragoslav Srejović. The houses have a trapezoidal floor plan that echoes the shape of the Treskavac rock across the river, and inside them were found stone heads with fish mouths and bulging eyes, which rank among the oldest monumental sculptures in Europe." },
+        { ime: "Trajan's Plaque", opis: "The Latin inscription from the year 100 celebrates the completion of the road through the gorge. Before the lake was filled it was cut out of the rock and raised about twenty meters, and it can be seen only from a boat." },
+        { ime: "Veliki Kazan and Mali Kazan", opis: "At its narrowest point the river is about 150 meters wide and up to ninety deep, which makes it one of the deepest in the world. From the Romanian bank gazes the enormous face of the Dacian king Decebalus, carved into the rock at the end of the 20th century." },
+        { ime: "Viminacium", opis: "An hour's drive upstream, near Kostolac, lie the remains of the capital of the Roman province of Upper Moesia, with painted tombs and an amphitheater. An almost complete mammoth skeleton was also found nearby." }
       ],
       jesti: [
-        { ime: "Riblja čorba i dimljeni som", opis: "Čarde uz Dunav u Donjem Milanovcu i Tekiji kuhaju čorbu u kotliću i dime ribu na bukovini." },
-        { ime: "Belmuž", opis: "Pastirsko jelo istočne Srbije od mladog sira i kukuruznog brašna miješa se dok se ne počne razvlačiti." },
-        { ime: "Negotinska vina", opis: "U selima Rajac i Rogljevo stoje pivnice, kamena naselja vinskih podruma u kojima nitko ne stanuje, a vino se kuša na pragu." }
+        { ime: "Fish stew and smoked catfish", opis: "The čardas along the Danube in Donji Milanovac and Tekija cook the stew in a cauldron and smoke the fish over beech wood." },
+        { ime: "Belmuž", opis: "A shepherd's dish of eastern Serbia, made of young cheese and cornmeal, is stirred until it begins to stretch." },
+        { ime: "Negotin wines", opis: "In the villages of Rajac and Rogljevo stand the pivnice, stone settlements of wine cellars where nobody lives and the wine is tasted on the doorstep." }
       ],
       dozivjeti: [
-        { ime: "Vožnja brodom kroz klisuru", opis: "Izletnički brodovi iz Donjeg Milanovca i Tekije voze kroz Kazane do Trajanove ploče, što je jedini način da je vidite izbliza.", link: "https://npdjerdap.rs/" },
-        { ime: "Vidikovac Ploče", opis: "Kratka staza kroz šumu izvodi na stijenu nad Velikim Kazanom, odakle se rijeka vidi kao uska traka duboko dolje. Ograde nema, pa se rubu ne približavajte." },
-        { ime: "Tvrđava u sumrak", opis: "Šetnica uz Dunav u Golupcu vodi do tvrđave, koja se navečer osvijetli i ogleda u vodi.", link: "https://tvrdjavagolubackigrad.rs/" }
+        { ime: "A boat ride through the gorge", opis: "Excursion boats from Donji Milanovac and Tekija sail through the Kazan narrows to Trajan's Plaque, which is the only way to see it up close.", link: "https://npdjerdap.rs/" },
+        { ime: "Ploče viewpoint", opis: "A short trail through the forest brings you out onto a rock above Veliki Kazan, from where the river looks like a narrow ribbon far below. There is no railing, so keep well back from the edge." },
+        { ime: "The fortress at dusk", opis: "The promenade along the Danube in Golubac leads to the fortress, which is lit up in the evening and mirrored in the water.", link: "https://tvrdjavagolubackigrad.rs/" }
       ],
       agencije: [
-        { ime: "Nacionalni park Đerdap", opis: "Uprava parka s kartama staza, vidikovaca i centrima za posjetitelje.", link: "https://npdjerdap.rs/" },
-        { ime: "Tvrđava Golubački grad", opis: "Službena stranica tvrđave s terminima obilazaka po zonama.", link: "https://tvrdjavagolubackigrad.rs/" },
-        { ime: "Turistička organizacija Srbije", opis: "Nacionalni turistički portal s prijedlozima ruta uz Dunav.", link: "https://www.serbia.travel/" }
+        { ime: "Đerdap National Park", opis: "The park administration, with maps of trails and viewpoints and visitor centers.", link: "https://npdjerdap.rs/" },
+        { ime: "Golubac Fortress", opis: "The fortress's official website, with tour times by zone.", link: "https://tvrdjavagolubackigrad.rs/" },
+        { ime: "National Tourism Organisation of Serbia", opis: "The national tourism portal, with suggested routes along the Danube.", link: "https://www.serbia.travel/" }
       ],
-      kada: "Od svibnja do listopada. Cesta uz Dunav duga je i zavojita, pa planirajte dva dana s noćenjem u Donjem Milanovcu ili Kladovu, a za vjetrovita vremena brodovi ne isplovljavaju."
+      kada: "From May to October. The road along the Danube is long and winding, so plan two days with a night in Donji Milanovac or Kladovo, and note that the boats do not sail in windy weather."
     },
     {
       id: "studenica",
-      ime: "Studenica i dolina Ibra",
+      ime: "Studenica and the Ibar Valley",
       vrsta: "regija",
-      sazetak: "Dolina u kojoj su Nemanjići gradili samostane od bijelog mramora i crvene opeke, s freskama koje su mijenjale povijest slikarstva.",
+      sazetak: "A valley where the Nemanjić dynasty built monasteries of white marble and red brick, with frescoes that changed the history of painting.",
       prica: [
-        "Veliki župan Stefan Nemanja, utemeljitelj srpske srednjovjekovne države, podigao je krajem 12. stoljeća Studenicu kao svoju grobnu crkvu, a zatim se zamonašio. Njegov sin Sava ovdje je napisao prva pravila samostanskog života i učinio je duhovnim središtem zemlje.",
-        "Uz Ibar su nasljednici podigli Žiču, u kojoj su se krunili kraljevi, te Gradac i Sopoćane. Graditelji su dolazili i s jadranske obale, pa crkve izvana izgledaju romanički, poput onih u Kotoru i Dalmaciji, dok su iznutra bizantske."
+        "Grand Prince Stefan Nemanja, founder of the Serbian medieval state, built Studenica at the end of the 12th century as his burial church and then became a monk. His son Sava wrote the first rules of monastic life here and made it the spiritual center of the country.",
+        "Along the Ibar his successors built Žiča, where kings were crowned, as well as Gradac and Sopoćani. Builders also came from the Adriatic coast, so from the outside the churches look Romanesque, like those in Kotor and Dalmatia, while inside they are Byzantine."
       ],
       vidjeti: [
-        { ime: "Bogorodičina crkva u Studenici", opis: "Sagrađena je od bijelog mramora, a portale i prozore s lavovima, grifonima i lozom isklesali su majstori s primorja. Na zapadnom zidu potražite Raspeće iz 1208. na tamnoplavoj pozadini, jedno od najljepših djela bizantskog slikarstva. UNESCO je samostan zaštitio 1986. godine." },
-        { ime: "Kraljeva crkva", opis: "Malu crkvu u istom dvorištu dao je 1314. podići kralj Milutin. Freske s prizorima iz Bogorodičina života, pune sitnih kućnih pojedinosti, naslikali su solunski majstori Mihailo i Eutihije." },
-        { ime: "Žiča", opis: "Crvena boja zidova, kao na Svetoj Gori, vidi se izdaleka. Ovdje je 1219. sveti Sava postavljen za prvog arhiepiskopa, a predaja kaže da su se za krunidbu svakog kralja probijala nova vrata, koja su se zatim zazidavala." },
-        { ime: "Maglič", opis: "Utvrda iz 13. stoljeća sa sedam kula stoji na stijeni u zavoju Ibra. Do nje vodi viseći most i dvadesetak minuta uspona, a pogled s bedema obuhvaća cijelu klisuru." },
-        { ime: "Sopoćani", opis: "Kod Novog Pazara, na jugu doline, stoji zadužbina kralja Uroša iz 1260-ih. Freska Uspenja Bogorodice na zapadnom zidu svojom veličinom i mirnoćom likova podsjeća na antiku, zbog čega je povjesničari umjetnosti uspoređuju s kasnijom talijanskom renesansom." }
+        { ime: "Church of the Virgin at Studenica", opis: "It is built of white marble, and its portals and windows with lions, griffins and vines were carved by masters from the coast. On the west wall, look for the Crucifixion from 1208 on a dark blue background, one of the most beautiful works of Byzantine painting. UNESCO protected the monastery in 1986." },
+        { ime: "King's Church", opis: "The small church in the same courtyard was built in 1314 on the orders of King Milutin. The frescoes with scenes from the life of the Virgin, full of small domestic details, were painted by the Thessaloniki masters Michael and Eutychios." },
+        { ime: "Žiča", opis: "The red color of its walls, as on Mount Athos, can be seen from afar. Here in 1219 Saint Sava was installed as the first archbishop, and tradition says that a new door was broken through the wall for the coronation of each king and then walled up again." },
+        { ime: "Maglič", opis: "A 13th-century fortress with seven towers stands on a rock in a bend of the Ibar. A suspension bridge and a twenty-minute climb lead up to it, and the view from the ramparts takes in the whole gorge." },
+        { ime: "Sopoćani", opis: "Near Novi Pazar, in the south of the valley, stands the endowment of King Uroš from the 1260s. The fresco of the Dormition of the Virgin on the west wall recalls classical antiquity in its scale and the serenity of its figures, which is why art historians compare it to the later Italian Renaissance." }
       ],
       jesti: [
-        { ime: "Kraljevački kajmak", opis: "Na tržnici u Kraljevu prodaje se mladi i stari kajmak, koji se smatra najboljim u zemlji." },
-        { ime: "Samostanski med i rakija", opis: "U Studenici monasi prodaju vlastiti med, travaricu i sir." },
-        { ime: "Novopazarski ćevapi i mantije", opis: "U Novom Pazaru, na kraju doline, jedu se sitni ćevapi u somunu i male pite s mesom zvane mantije, uz jogurt." }
+        { ime: "Kraljevo kajmak", opis: "The market in Kraljevo sells both young and old kajmak, which is considered the best in the country." },
+        { ime: "Monastery honey and rakija", opis: "At Studenica the monks sell their own honey, herbal brandy and cheese." },
+        { ime: "Novi Pazar ćevapi and mantije", opis: "In Novi Pazar, at the end of the valley, people eat small ćevapi in somun bread and little meat pies called mantije, with yogurt." }
       ],
       dozivjeti: [
-        { ime: "Noćenje u samostanskom konaku", opis: "Studenica ima konak za goste, pa možete prisustvovati večernjoj i jutarnjoj službi, kada crkvu osvjetljavaju samo svijeće.", link: "https://manastirstudenica.rs/" },
-        { ime: "Dolina jorgovana", opis: "Legenda kaže da je kralj Uroš uz Ibar posadio jorgovane kako bi njegova nevjesta Jelena Anžuvinska stigla u kraj koji je podsjeća na Provansu. Cvjetaju potkraj travnja i početkom svibnja." },
-        { ime: "Veseli spust", opis: "Početkom srpnja tisuće ljudi na splavima, čamcima i gumama spuštaju se Ibrom od Magliča do Kraljeva, uz glazbu i roštilj." }
+        { ime: "A night in the monastery guesthouse", opis: "Studenica has a guesthouse, so you can attend the evening and morning services, when the church is lit only by candles.", link: "https://manastirstudenica.rs/" },
+        { ime: "Valley of the Lilacs", opis: "Legend says that King Uroš planted lilacs along the Ibar so that his bride, Helen of Anjou, would arrive in a land that reminded her of Provence. They bloom at the end of April and the beginning of May." },
+        { ime: "Veseli Spust", opis: "At the beginning of July, thousands of people on rafts, boats and inner tubes float down the Ibar from Maglič to Kraljevo, with music and grilled food." }
       ],
       agencije: [
-        { ime: "Samostan Studenica", opis: "Službena stranica samostana s informacijama o posjetu i konaku.", link: "https://manastirstudenica.rs/" },
-        { ime: "Turistička organizacija Srbije", opis: "Nacionalni turistički portal s opisima samostana i ruta.", link: "https://www.serbia.travel/" }
+        { ime: "Studenica Monastery", opis: "The monastery's official website, with information on visits and the guesthouse.", link: "https://manastirstudenica.rs/" },
+        { ime: "National Tourism Organisation of Serbia", opis: "The national tourism portal, with descriptions of monasteries and routes.", link: "https://www.serbia.travel/" }
       ],
-      kada: "Svibanj, kada cvjetaju jorgovani, i rujan. U samostane ulazite pokrivenih ramena i koljena, a fotografiranje fresaka često nije dopušteno."
+      kada: "May, when the lilacs are in bloom, and September. Enter the monasteries with your shoulders and knees covered, and note that photographing the frescoes is often not allowed."
     }
   ],
   izvori: [
-    { ime: "Turistička organizacija Srbije", url: "https://www.serbia.travel/" },
-    { ime: "Turistička organizacija Beograda", url: "https://www.tob.rs/" },
-    { ime: "Beogradska tvrđava", url: "https://www.beogradskatvrdjava.co.rs/" },
-    { ime: "Muzej Nikole Tesle", url: "https://tesla-museum.org/" },
-    { ime: "Turistička organizacija Novog Sada", url: "https://novisad.travel/" },
-    { ime: "Turistička organizacija Niša", url: "https://visitnis.org/" },
-    { ime: "Nacionalni park Đerdap", url: "https://npdjerdap.rs/" },
-    { ime: "Samostan Studenica", url: "https://manastirstudenica.rs/" },
-    { ime: "UNESCO, popis svjetske baštine: Srbija", url: "https://whc.unesco.org/en/statesparties/rs" }
+    { ime: "National Tourism Organisation of Serbia", url: "https://www.serbia.travel/" },
+    { ime: "Tourist Organization of Belgrade", url: "https://www.tob.rs/" },
+    { ime: "Belgrade Fortress", url: "https://www.beogradskatvrdjava.co.rs/" },
+    { ime: "Nikola Tesla Museum", url: "https://tesla-museum.org/" },
+    { ime: "Tourist Organization of Novi Sad", url: "https://novisad.travel/" },
+    { ime: "Tourist Organization of Niš", url: "https://visitnis.org/" },
+    { ime: "Đerdap National Park", url: "https://npdjerdap.rs/" },
+    { ime: "Studenica Monastery", url: "https://manastirstudenica.rs/" },
+    { ime: "UNESCO, World Heritage List: Serbia", url: "https://whc.unesco.org/en/statesparties/rs" }
   ]
 };

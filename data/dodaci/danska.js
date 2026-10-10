@@ -1,109 +1,109 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["danska"] = {
   kupiti: [
-    { ime: "Porculan s plavim uzorkom", opis: "Ručno oslikani bijelo-plavi porculan izrađuje se u Kopenhagenu od 18. stoljeća i u danskim se obiteljima nasljeđuje. Nove komade kupite u matičnoj trgovini u središtu Kopenhagena, a povoljnije stare na buvljacima i u antikvarijatima." },
-    { ime: "Sladić", opis: "Danci sladić jedu slan, sladak, u čokoladi, pa čak i u sladoledu. Vrećicu rasutih bombona napunite u supermarketu, a finije, u čokoladi, potražite u specijaliziranim trgovinama." },
-    { ime: "Jantar", opis: "Smola stara milijune godina izbacuje se na zapadnu obalu Jutlanda nakon zimskih oluja, pa je jantarni nakit ovdje domaći, a ne uvezen. Kupujte kod zlatara koji navodi podrijetlo, osobito u gradovima uz Sjeverno more." },
-    { ime: "Sol s otoka Læsø", opis: "Na malom otoku u Kattegatu sol se dobiva kuhanjem slane podzemne vode u otvorenim tavama, kao u srednjem vijeku. Vrećicu od platna naći ćete u trgovinama delikatesa po cijeloj zemlji." },
-    { ime: "Akvavit", opis: "Rakija začinjena kimom i koprom pije se ledena uz haringe i božićni ručak. Kupuje se u običnim supermarketima, a najpoznatije boce dolaze iz Aalborga." },
-    { ime: "Dizajn za dom", opis: "Svijećnjaci, drvene figurice, vaze i kuhinjske sitnice dio su danske svakodnevice i izrađeni su da traju. Tražite ih u robnim kućama i trgovinama dizajna, a klasike iz pedesetih na buvljacima." }
+    { ime: "Blue-patterned porcelain", opis: "Hand-painted blue and white porcelain has been made in Copenhagen since the 18th century and is passed down in Danish families. Buy new pieces at the flagship store in central Copenhagen, and cheaper old ones at flea markets and antique shops." },
+    { ime: "Licorice", opis: "Danes eat licorice salty, sweet, coated in chocolate and even in ice cream. Fill a bag of loose candy at a supermarket, and look for the finer chocolate-covered kind in specialty shops." },
+    { ime: "Amber", opis: "Resin millions of years old washes up on the west coast of Jutland after winter storms, so amber jewelry here is local and not imported. Buy from a jeweler who states the origin, especially in towns along the North Sea." },
+    { ime: "Salt from the island of Læsø", opis: "On a small island in the Kattegat, salt is made by boiling salty groundwater in open pans, as in the Middle Ages. You will find the little cloth bag in delicatessens across the country." },
+    { ime: "Akvavit", opis: "This spirit flavored with caraway and dill is drunk ice cold with herring and at the Christmas lunch. It is sold in ordinary supermarkets, and the best-known bottles come from Aalborg." },
+    { ime: "Design for the home", opis: "Candleholders, wooden figures, vases and kitchen pieces are part of everyday Danish life and are made to last. Look in department stores and design shops, and hunt for 1950s classics at flea markets." }
   ],
   mjesta: {
     "kopenhagen": {
       dragulji: [
-        { ime: "Jægersborggade i Assistens Kirkegård", opis: "Kratka ulica u Nørrebrou puna je lončarskih radionica, pekarnica i malih vinskih barova. Odmah uz nju je groblje na kojem počiva Andersen, a koje domaćima služi kao park za šetnju i sunčanje." },
-        { ime: "Kartoffelrækkerne", opis: "Nizovi uskih kuća od žute opeke uz jezera sagrađeni su za radnike, a danas su među najpoželjnijim adresama u gradu. Ulice su pune bicikala, klupa i dječjih igračaka, pa se vidi kako Danci zaista žive." },
-        { ime: "Refshaleøen", opis: "Nekadašnje brodogradilište na sjevernom rubu luke pretvorilo se u četvrt s uličnom hranom, saunama i kupanjem s mola. Dođite lučkim brodom javnog prijevoza, koji vozi s istom kartom kao metro." }
+        { ime: "Jægersborggade and Assistens Kirkegård", opis: "This short street in Nørrebro is full of pottery studios, bakeries and small wine bars. Right beside it is the cemetery where Andersen is buried, which locals use as a park for strolling and sunbathing." },
+        { ime: "Kartoffelrækkerne", opis: "These rows of narrow yellow-brick houses by the lakes were built for workers and are now among the most wanted addresses in the city. The streets are full of bikes, benches and children's toys, so you see how Danes really live." },
+        { ime: "Refshaleøen", opis: "The former shipyard on the northern edge of the harbor has turned into a district of street food, saunas and swimming off the piers. Come on the public harbor bus, which takes the same ticket as the metro." }
       ],
       domaci: [
-        { ime: "Kupanje u luci", opis: "Voda u luci toliko je čista da se u gradskim kupalištima poput Islands Bryggea pliva cijelo ljeto. Ponesite kupaći kostim u torbi, kao što ga nose domaći, pa skočite na putu kući." },
-        { ime: "Biciklom kroz grad", opis: "Na posao, u vrtić i u izlazak ovdje se ide biciklom, po svakom vremenu. Unajmite ga, držite se desne strane staze i rukom pokažite kad skrećete ili stajete." },
-        { ime: "Pivo na mostu kraljice Louise", opis: "Čim zasja sunce, široki pločnici mosta između središta i Nørrebroa pune se ljudima s pivom iz obližnjeg kioska. Sjednite na klupu okrenutu zapadu i gledajte rijeku biciklista." }
+        { ime: "Swimming in the harbor", opis: "The harbor water is so clean that people swim all summer at city baths such as Islands Brygge. Keep a swimsuit in your bag as locals do and jump in on your way home." },
+        { ime: "Through the city by bike", opis: "People here cycle to work, to daycare and to a night out, in any weather. Rent a bike, keep to the right side of the lane and signal with your hand when you turn or stop." },
+        { ime: "A beer on Queen Louise's Bridge", opis: "As soon as the sun comes out, the wide sidewalks of the bridge between the center and Nørrebro fill with people holding a beer from the nearby kiosk. Take a bench facing west and watch the river of cyclists." }
       ],
       kupiti: [
-        { ime: "Keramika iz malih radionica", opis: "Šalice i zdjele koje vidite u gradskim kafićima često nastaju u radionicama u Nørrebrou i Vesterbrou. Kupite ih izravno kod lončara, gdje su komadi s malom greškom povoljniji." },
-        { ime: "Starine u Ravnsborggadeu", opis: "Ulica u Nørrebrou poznata je po trgovinama starinama i rabljenim danskim dizajnom, od svjetiljki do porculana. Vrijedi zaviriti i u podrume, gdje se skrivaju najbolji nalazi." },
-        { ime: "Delikatese iz Torvehallernea", opis: "U dvjema staklenim tržnicama kod postaje Nørreport prodaju se sirevi, dimljena riba, sladić i raženi kruh. Tu ćete na jednom mjestu složiti cijeli paket danskih okusa za kući." }
+        { ime: "Ceramics from small studios", opis: "The cups and bowls you see in the city's cafes are often made in studios in Nørrebro and Vesterbro. Buy straight from the potter, where pieces with a small flaw cost less." },
+        { ime: "Antiques on Ravnsborggade", opis: "This street in Nørrebro is known for its antique shops and secondhand Danish design, from lamps to porcelain. Peek into the basements too, where the best finds hide." },
+        { ime: "Delicacies from Torvehallerne", opis: "The two glass market halls by Nørreport station sell cheese, smoked fish, licorice and rye bread. You can put together a whole package of Danish flavors there in one stop." }
       ]
     },
     "aarhus": {
       dragulji: [
-        { ime: "Møllestien", opis: "Popločena uličica s niskim šarenim kućama i ružama penjačicama najljepša je u gradu. Duga je tek stotinjak metara i leži nekoliko minuta od glavne pješačke zone." },
-        { ime: "Den Uendelige Bro", opis: "Kružni drveni mol južno od grada postavlja se svakog proljeća iznad plićaka, pa se po njemu može hodati u krug bez kraja. Do tamo je ugodna šetnja ili vožnja biciklom uz obalu." },
-        { ime: "Park jelena u Marselisborgu", opis: "U šumi južno od središta slobodno šeću jeleni lopatari i sike, koji prilaze sasvim blizu. Smijete ih hraniti samo mrkvom i jabukama, pa ih ponesite sa sobom." }
+        { ime: "Møllestien", opis: "This cobbled lane of low, colorful houses and climbing roses is the prettiest in the city. It is only about a hundred meters long and a few minutes from the main pedestrian area." },
+        { ime: "Den Uendelige Bro", opis: "The Infinite Bridge is a circular wooden pier set up every spring over the shallows south of the city, so you can walk around it without end. It is a pleasant walk or bike ride along the coast to get there." },
+        { ime: "The deer park at Marselisborg", opis: "In the forest south of the center, fallow and sika deer roam freely and come right up to you. You may feed them only carrots and apples, so bring some along." }
       ],
       domaci: [
-        { ime: "Kupanje u Den Permanenteu", opis: "Staro drveno kupalište u šumi Riis Skov, sjeverno od središta, ljeti je besplatno i puno obitelji. Zimi se u njemu kupaju samo članovi kluba ljubitelja hladne vode." },
-        { ime: "Tržnica na Ingerslevs Boulevardu", opis: "Dvaput tjedno, srijedom i subotom prijepodne, široka se ulica pretvori u tržnicu s povrćem, sirom, ribom i cvijećem. Dođite gladne, jer se usput kuša i jede s nogu." },
-        { ime: "Piće uz rijeku", opis: "Rijeka koja je desetljećima tekla ispod betona ponovno je otkrivena, pa se uz nju nižu terase s dekama i grijalicama. Tu se sjeda poslije posla, čak i kad nije osobito toplo." }
+        { ime: "Swimming at Den Permanente", opis: "The old wooden sea bath in the Riis Skov forest, north of the center, is free in summer and full of families. In winter only members of the cold-water swimming club use it." },
+        { ime: "The market on Ingerslevs Boulevard", opis: "Twice a week, on Wednesday and Saturday mornings, the wide street becomes a market of vegetables, cheese, fish and flowers. Come hungry, because you taste and eat as you walk." },
+        { ime: "A drink by the river", opis: "The river ran under concrete for decades before it was uncovered again, and now terraces with blankets and heaters line its banks. People sit here after work even when it is not especially warm." }
       ],
       kupiti: [
-        { ime: "Keramika i dizajn iz Latinske četvrti", opis: "U uličicama Volden, Graven i Klostergade male trgovine prodaju rad jutlandskih keramičara, zlatara i krojača. Tu ćete naći dar koji ne postoji u Kopenhagenu." },
-        { ime: "Proizvodi s tržnice", opis: "Med, džemove od bobica i sireve s jutlandskih farmi najbolje je kupiti na tržnici, izravno od proizvođača. Mnogi rado daju da se kuša prije kupnje." }
+        { ime: "Ceramics and design in the Latin Quarter", opis: "On the little streets Volden, Graven and Klostergade, small shops sell the work of Jutland potters, goldsmiths and tailors. This is where you find a gift that does not exist in Copenhagen." },
+        { ime: "Goods from the market", opis: "Honey, berry jams and cheeses from Jutland farms are best bought at the market, directly from the people who make them. Many are happy to let you taste before you buy." }
       ]
     },
     "odense": {
       dragulji: [
-        { ime: "Nedergade i Paaskestræde", opis: "Dvije stare ulice s nakrivljenim kućama drvene građe i kaldrmom mirnije su od četvrti oko Andersenove kuće. U Nedergadeu su i starinarnice u koje vrijedi ući." },
-        { ime: "Staza uz rijeku Odense", opis: "Zelena šetnica prati rijeku od parka Munke Mose kroz vrtove i šumarke sve do šume Fruens Bøge. Hoda se oko sat vremena, a usput se prolazi pokraj labudova i veslača." },
-        { ime: "Brandts", opis: "Stara tvornica tkanina pretvorena je u četvrt s muzejom umjetnosti, kinom, kafićima i trgovinama. Na dvorištu se ljeti sjedi do kasno, a ulica uz nju puna je studenata." }
+        { ime: "Nedergade and Paaskestræde", opis: "These two old streets of leaning half-timbered houses and cobblestones are calmer than the area around Andersen's house. Nedergade also has antique shops that are worth stepping into." },
+        { ime: "The path along the Odense River", opis: "A green walkway follows the river from Munke Mose park through gardens and groves all the way to the Fruens Bøge woods. It takes about an hour, past swans and rowers." },
+        { ime: "Brandts", opis: "An old textile factory has been turned into a quarter with an art museum, a cinema, cafes and shops. In summer people sit in the courtyard until late, and the street beside it is full of students." }
       ],
       domaci: [
-        { ime: "Brunsviger za doručak", opis: "Mekani kolač od dizanog tijesta preliven maslacem i smeđim šećerom zaštitni je znak otoka Fyna. Jede se uz jutarnju kavu, a djeci se za rođendan peče u obliku dječaka ili djevojčice." },
-        { ime: "Čamcem do šume", opis: "Ljeti se iz parka Munke Mose plovi izletničkim čamcem ili pedalinom uzvodno do Fruens Bøgea. Tamo se šeće šumom i jede sladoled prije povratka." },
-        { ime: "Tržnica na Sortebrødre Torvu", opis: "Srijedom i subotom prijepodne trg u starom dijelu grada pun je štandova s povrćem, cvijećem i sirom s Fyna. Otok zovu vrtom Danske, i ovdje se vidi zašto." }
+        { ime: "Brunsviger for breakfast", opis: "A soft yeast cake covered in butter and brown sugar is the trademark of the island of Funen. It is eaten with morning coffee, and for children's birthdays it is baked in the shape of a boy or a girl." },
+        { ime: "By boat to the woods", opis: "In summer you can ride an excursion boat or a pedal boat from Munke Mose park upstream to Fruens Bøge. There you walk in the woods and have an ice cream before heading back." },
+        { ime: "The market on Sortebrødre Torv", opis: "On Wednesday and Saturday mornings the square in the old part of town fills with stalls of vegetables, flowers and Funen cheese. The island is called the garden of Denmark, and here you see why." }
       ],
       kupiti: [
-        { ime: "Papirnati izresci", opis: "Andersen je škarama izrezivao čudesne likove od papira dok je pričao bajke, pa su takvi izresci postali gradski suvenir. Lijepe pretiske i mobile od papira prodaje muzejska trgovina." },
-        { ime: "Dimljeni sir rygeost", opis: "Svježi sir dimljen nad slamom i koprivom, posut kimom, radi se samo na Fynu. Kupite ga na tržnici ili u sirani i pojedite još isti dan na raženom kruhu s rotkvicama." }
+        { ime: "Paper cuttings", opis: "Andersen snipped wonderful figures out of paper with scissors while he told his tales, and such cuttings have become the town's souvenir. The museum shop sells lovely reproductions and paper mobiles." },
+        { ime: "Rygeost smoked cheese", opis: "Fresh cheese smoked over straw and nettles and sprinkled with caraway is made only on Funen. Buy it at the market or a dairy and eat it the same day on rye bread with radishes." }
       ]
     },
     "helsingor": {
       dragulji: [
-        { ime: "Karmelićanski samostan", opis: "Samostan uz crkvu svete Marije jedan je od najbolje očuvanih srednjovjekovnih samostana u sjevernoj Europi. Klaustar s vrtom tih je i prazan, iako je od Kronborga udaljen desetak minuta hoda." },
-        { ime: "Uličice staroga grada", opis: "Iza glavne ulice kriju se Strandgade i poprečne uličice s niskim kućama drvene građe u žutoj i crvenoj boji. Tu su stanovali skelari i carinici koji su živjeli od naplate prolaza kroz Øresund." },
-        { ime: "Hellebæk i Hammermøllen", opis: "Nekoliko kilometara sjevernije, u bukovoj šumi uz jezerca, stoji stari mlin u kojem se nekoć kovalo oružje za krunu. Danas je u njemu kafić, a do tamo vodi lokalni vlak ili obalna biciklistička staza." }
+        { ime: "The Carmelite priory", opis: "The priory beside St. Mary's Church is one of the best-preserved medieval monasteries in northern Europe. Its cloister and garden are quiet and empty, even though Kronborg is only a ten-minute walk away." },
+        { ime: "The lanes of the old town", opis: "Behind the main street hide Strandgade and its cross lanes, with low half-timbered houses in yellow and red. Ferrymen and customs officers lived here, earning their living from the toll on ships passing through the Øresund." },
+        { ime: "Hellebæk and Hammermøllen", opis: "A few kilometers north, in a beech forest beside small ponds, stands an old mill where weapons were once forged for the crown. Today it holds a cafe, and you get there by local train or the coastal bike path." }
       ],
       domaci: [
-        { ime: "Trajektom na kavu u Švedsku", opis: "Prijelaz do Helsingborga traje dvadesetak minuta, pa domaći plove tamo i natrag samo radi ručka na brodu i pogleda na dvorac s mora. Kupite povratnu kartu i ponesite putnu ispravu." },
-        { ime: "Starinski sladoled", opis: "U uskoj uličici Brostræde generacijama se prodaje sladoled u svježe pečenom kornetu, s tučenim vrhnjem i džemom. Red je dio obreda, pa stanite strpljivo." },
-        { ime: "Kupanje na sjevernoj obali", opis: "Čim zatopli, svi odlaze na pješčane plaže prema Hornbæku, do kojeg vozi mali lokalni vlak. Voda je hladnija nego na Jadranu, ali pijesak i dine vrijede puta." }
+        { ime: "The ferry to Sweden for coffee", opis: "The crossing to Helsingborg takes about twenty minutes, so locals sail over and back just for lunch on board and the view of the castle from the sea. Buy a round-trip ticket and bring your passport or ID." },
+        { ime: "Old-fashioned ice cream", opis: "On the narrow lane Brostræde, ice cream has been sold for generations in a freshly baked cone with whipped cream and jam. The line is part of the ritual, so wait patiently." },
+        { ime: "Swimming on the north coast", opis: "As soon as it gets warm, everyone heads to the sandy beaches toward Hornbæk, which a small local train reaches. The water is cold, but the sand and dunes are worth the trip." }
       ],
       kupiti: [
-        { ime: "Dimljena riba", opis: "Na ovoj se obali haringa, skuša i losos dime na starinski način. Kupite ih u ribarnici uz luku ili u dimionici u obližnjem ribarskom mjestu Gilleleje." },
-        { ime: "Starine iz Stengadea", opis: "U glavnoj ulici i njezinim prolazima nekoliko je trgovina starinama i rabljenim porculanom, koje su povoljnije od kopenhaških. Tu se mogu naći stari plavi tanjuri i mjedeni svijećnjaci." }
+        { ime: "Smoked fish", opis: "On this coast herring, mackerel and salmon are still smoked the old way. Buy them at a fishmonger by the harbor or at a smokehouse in the nearby fishing town of Gilleleje." },
+        { ime: "Antiques on Stengade", opis: "The main street and its passages have several shops with antiques and secondhand porcelain, at lower prices than in Copenhagen. You can turn up old blue plates and brass candleholders." }
       ]
     },
     "roskilde": {
       dragulji: [
-        { ime: "Sankt Jørgensbjerg", opis: "Nekadašnje ribarsko selo na brežuljku iznad fjorda danas je dio grada, ali je sačuvalo kuće sa slamnatim krovovima i krivudave uličice. S crkvenog dvorišta pruža se lijep pogled na luku." },
-        { ime: "Musicon", opis: "Na mjestu stare betonare izrasla je četvrt s muralima, stazama za skejtanje, radionicama i kafićima u kontejnerima. Tu se cijele godine osjeća duh glazbenog festivala po kojem je grad poznat." },
-        { ime: "Boserup Skov", opis: "Bukova šuma na obali fjorda, zapadno od grada, u proljeće je prekrivena bijelim šumaricama. Staze vode do vode, gdje se sjedne na deblo i gleda preko zaljeva." }
+        { ime: "Sankt Jørgensbjerg", opis: "This former fishing village on a hill above the fjord is now part of town, but it has kept its thatched houses and winding lanes. The churchyard gives you a lovely view of the harbor." },
+        { ime: "Musicon", opis: "On the site of an old concrete plant, a district has grown up with murals, skate tracks, workshops and cafes in shipping containers. The spirit of the music festival the town is famous for lives here all year." },
+        { ime: "Boserup Skov", opis: "The beech forest on the fjord shore west of town is carpeted with white wood anemones in spring. Paths lead down to the water, where you sit on a log and look across the bay." }
       ],
       domaci: [
-        { ime: "Tržnica na Stændertorvetu", opis: "Srijedom i subotom trg pred katedralom puni se štandovima s povrćem, sirom, cvijećem i ponekom starinom. Domaći tu obave kupnju pa sjednu na kavu s pogledom na tornjeve." },
-        { ime: "Kupanje u fjordu", opis: "Na travnatom kupalištu Vigen, sjeverno od luke, ljeti se pliva u mirnoj i plitkoj vodi fjorda. Do tamo se lako dođe pješice ili biciklom uz obalu." },
-        { ime: "Predvečer u luci", opis: "Dok brodograditelji u otvorenoj radionici tešu daske za vikinške brodove, domaći uz lukobran jedu ribu i sladoled. Dođite kad se muzej zatvori, jer luka tada pripada gradu." }
+        { ime: "The market on Stændertorvet", opis: "On Wednesdays and Saturdays the square in front of the cathedral fills with stalls of vegetables, cheese, flowers and the odd antique. Locals do their shopping and then sit down for coffee with a view of the spires." },
+        { ime: "Swimming in the fjord", opis: "At the grassy Vigen beach park north of the harbor, people swim in the calm, shallow water of the fjord in summer. It is easy to reach on foot or by bike along the shore." },
+        { ime: "Early evening at the harbor", opis: "While boatbuilders shape planks for Viking ships in the open workshop, locals eat fish and ice cream along the breakwater. Come when the museum closes, because then the harbor belongs to the town." }
       ],
       kupiti: [
-        { ime: "Roba iz stare trgovine", opis: "U ulici Ringstedgade gradski muzej vodi trgovinu mješovitom robom uređenu kao prije sto godina. Na drvenom pultu kupuju se bomboni na vagu, sapun, užad i emajlirano posuđe." },
-        { ime: "Pivo i medovina", opis: "Oko fjorda rade male pivovare, a u muzejskoj trgovini uz vikinške brodove prodaje se i medovina. To je dar koji se ovdje ne čini izmišljenim, jer se oboje pilo i prije tisuću godina." }
+        { ime: "Goods from the old general store", opis: "On Ringstedgade the town museum runs a general store fitted out as it was a hundred years ago. Over the wooden counter you can buy candy by weight, soap, rope and enamelware." },
+        { ime: "Beer and mead", opis: "Small breweries work around the fjord, and the museum shop beside the Viking ships sells mead as well. It is a gift that does not feel invented here, since both were drunk a thousand years ago." }
       ]
     },
     "ribe": {
       dragulji: [
-        { ime: "Fiskergade i prolazi do rijeke", opis: "Od ulice ribara vode uski prolazi do vode, toliko tijesni da su se njima nekoć jedva provlačili čamci. Na zidovima kuća vide se oznake visine velikih poplava." },
-        { ime: "Riberhus Slotsbanke", opis: "Od kraljevskog dvorca ostao je samo travnati humak okružen jarkom, na kojem stoji kip kraljice Dagmar. Odatle se u sumrak najljepše vidi obris grada s katedralom." },
-        { ime: "Otok Mandø", opis: "Do otočića u Vadenskom moru vozi traktorski autobus po morskom dnu, i to samo za oseke. Na otoku je selo s crkvicom, nasip i golemo nebo puno ptica." }
+        { ime: "Fiskergade and the passages to the river", opis: "From the fishermen's street, narrow passages run down to the water, so tight that boats could once barely be dragged through them. Near the river you can find the old flood column marking how high the great storm surges rose." },
+        { ime: "Riberhus Slotsbanke", opis: "All that is left of the royal castle is a grassy mound ringed by a moat, with a statue of Queen Dagmar on top. At dusk it gives the prettiest view of the town's outline and its cathedral." },
+        { ime: "The island of Mandø", opis: "A tractor bus drives across the seabed to this little island in the Wadden Sea, and only at low tide. On the island you find a village with a small church, a dike and an enormous sky full of birds." }
       ],
       domaci: [
-        { ime: "Obilazak s noćnim čuvarom", opis: "U ljetnim večerima čuvar u dugom kaputu, s fenjerom i helebardom, obilazi ulice i pjeva stare stihove. Skupite se s ostalima na glavnom trgu i krenite za njim." },
-        { ime: "Crno sunce", opis: "U proljeće i jesen stotine tisuća čvoraka pred sumrak plešu nad močvarama i na trenutke zaklone sunce. Domaći znaju gdje ptice te večeri slijeću, pa pitajte u svom smještaju." },
-        { ime: "Šetnja po morskom dnu", opis: "Za oseke se more povuče kilometrima i po dnu Vadenskog mora hoda se u gumenim čizmama. Idite s vodičem, koji zna kada se voda vraća i gdje se zimi skupljaju kamenice." }
+        { ime: "The night watchman's round", opis: "On summer evenings a watchman in a long coat, with a lantern and a spiked staff, walks the streets singing the old verses. Gather with everyone else on the main square and follow him." },
+        { ime: "Black sun", opis: "In spring and autumn hundreds of thousands of starlings dance over the marshes before dusk and blot out the sun for moments at a time. Locals know where the birds are landing on a given evening, so ask at your lodging." },
+        { ime: "A walk on the seabed", opis: "At low tide the sea pulls back for miles and you walk on the floor of the Wadden Sea in rubber boots. Go with a guide, who knows when the water returns and where oysters are gathered in winter." }
       ],
       kupiti: [
-        { ime: "Jantar sa zapadne obale", opis: "Obala Sjevernog mora nedaleko od Ribea najbogatije je dansko nalazište jantara. U gradu ga obrađuju zlatari, a nakon oluje možete ga potražiti i sami na plaži." },
-        { ime: "Pivo i proizvodi Vadenskog mora", opis: "Gradska mala pivovara kuha piva nazvana po mjesnim legendama, a iz okolnih slanih močvara dolaze janjetina, sol i med. Sve to prodaju trgovine u glavnoj ulici i na trgu pred katedralom." }
+        { ime: "Amber from the west coast", opis: "The North Sea coast not far from Ribe is Denmark's richest source of amber. Jewelers in town work it, and after a storm you can look for a piece on the beach yourself." },
+        { ime: "Beer and Wadden Sea products", opis: "The town's small brewery makes beers named after local legends, and the surrounding salt marshes give lamb, salt and honey. Shops on the main street and on the cathedral square sell all of it." }
       ]
     }
   }

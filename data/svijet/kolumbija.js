@@ -1,219 +1,219 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["kolumbija"] = {
   id: "kolumbija",
-  ime: "Kolumbija",
-  regija: "Južna Amerika",
-  sazetak: "Zemlja kave, salse i Garcíje Márqueza, s karipskim zidinama, andskim gradovima i ljudima koji vas dočekuju kao davno izgubljenu rodbinu.",
+  ime: "Colombia",
+  regija: "South America",
+  sazetak: "The land of coffee, salsa and García Márquez, with Caribbean city walls, Andean cities and people who welcome you like long-lost family.",
   uvod: [
-    "Kolumbija je jedina zemlja Južne Amerike koja izlazi i na Karipsko more i na Tihi ocean, a Ande se u njoj granaju u tri lanca, pa se klima mijenja s nadmorskom visinom, a ne s godišnjim dobom. U jednom danu vožnje prelazi se iz hladne Bogote na 2600 metara u vruće doline kave. Prije Španjolaca ovdje su živjeli narodi poput Muisca i Tairona, čije je zlatarstvo potaknulo legendu o El Doradu.",
-    "Neovisnost od Španjolske izborena je 1819. pod vodstvom Simóna Bolívara. Zemlja je desetljećima bila poznata po nasilju, no u posljednjih dvadesetak godina velik se dio nje promijenio, a gradovi poput Medellína postali su primjer urbane obnove. Uobičajen oprez u velikim gradovima i dalje je potreban, a Kolumbijci za to imaju izreku no dar papaya, ne nudi papaju, što znači da se vrijedne stvari ne drže na vidiku."
+    "Colombia is the only country in South America with coasts on both the Caribbean Sea and the Pacific Ocean, and the Andes split into three ranges here, so the climate changes with altitude rather than with the season. In a single day's drive you go from chilly Bogotá at 2,600 meters down into the hot coffee valleys. Before the Spanish, peoples such as the Muisca and the Tairona lived here, and their goldwork gave rise to the legend of El Dorado.",
+    "Independence from Spain was won in 1819 under the leadership of Simón Bolívar. For decades the country was known for violence, but over the past twenty years or so much of it has changed, and cities like Medellín have become models of urban renewal. The usual caution in big cities is still needed, and Colombians have a saying for it, no dar papaya, don't offer the papaya, which means you keep your valuables out of sight."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Najsuši su mjeseci od prosinca do ožujka te srpanj i kolovoz. Temperatura ovisi o visini: Cartagena je uvijek vruća, Medellín proljetan, a Bogotá svježa." },
-    { k: "Valuta", v: "Kolumbijski peso (COP). Novčanice imaju mnogo nula, pa pažljivo brojite." },
-    { k: "Kretanje", v: "Zbog planina su letovi između gradova kratki, a vožnje autobusom duge. U gradovima koristite aplikacije za prijevoz ili službene taksije." },
-    { k: "Napojnica", v: "Restorani će pitati želite li uključiti dobrovoljnu uslugu od 10 posto, što je uobičajeno prihvatiti." },
-    { k: "Kava", v: "Mala crna kava zove se tinto i prodaje se na ulici iz termosica. Za bolju kavu tražite specijalizirane kavane koje nude zrna s pojedinih imanja." }
+    { k: "When to go", v: "The driest months are December to March, plus July and August. Temperature depends on altitude: Cartagena is always hot, Medellín is springlike and Bogotá is cool." },
+    { k: "Currency", v: "The Colombian peso (COP). The banknotes have a lot of zeros, so count carefully." },
+    { k: "Getting around", v: "Because of the mountains, flights between cities are short and bus rides are long. In the cities, use ride-hailing apps or official taxis." },
+    { k: "Tipping", v: "Restaurants will ask whether you want to include a voluntary 10 percent service charge, and it is customary to say yes." },
+    { k: "Coffee", v: "A small black coffee is called a tinto and is sold on the street from thermoses. For better coffee, look for specialty coffee shops that offer beans from individual farms." }
   ],
   hrana: [
-    { ime: "Bandeja paisa", opis: "Golemi pladanj s grahom, rižom, mljevenim mesom, hrskavom slaninom chicharrón, kobasicom, jajetom, prženom bananom, avokadom i arepom.", prica: "Jelo je iz kraja oko Medellína, čiji se stanovnici zovu paisas, a nastalo je kao obrok seljaka i goniča mazgi koji su morali izdržati cijeli dan u planini. Slobodno naručite pola porcije, jer je i ona obilna." },
-    { ime: "Ajiaco", opis: "Gusta juha od piletine i tri vrste krumpira, s klipom kukuruza i začinskom travom guascas.", prica: "Zaštitni znak Bogote, savršen za hladna popodneva na visini. Na stol dolazi s vrhnjem, kaparima i avokadom, koje svatko dodaje po volji." },
-    { ime: "Arepa", opis: "Okrugla pogačica od kukuruznog brašna pečena na ploči.", prica: "Jede se uz svaki obrok, a svaka regija ima svoju. Na obali je arepa de huevo, pržena i punjena cijelim jajetom, a u Andama arepa de choclo, slatkasta, od mladog kukuruza, s komadom sira." },
-    { ime: "Sancocho", opis: "Krepka juha s mesom ili ribom, jukom, bananom za kuhanje i kukuruzom.", prica: "Nedjeljno obiteljsko jelo koje se često kuha na otvorenoj vatri uz rijeku, na izletu koji se zove paseo de olla, izlet s loncem. U dolini rijeke Cauca kuha se od kokoši, a na obali od ribe." },
-    { ime: "Tamal", opis: "Kukuruzno tijesto s mesom i povrćem, umotano u list banane i kuhano na pari.", prica: "Tradicionalan je doručak vikendom, uz vruću čokoladu. Najpoznatiji su tamali iz pokrajine Tolima, okrugli i s rižom u nadjevu." },
-    { ime: "Vruća čokolada sa sirom", opis: "Šalica vruće čokolade u koju se ubace komadići blagog bijelog sira.", prica: "Običaj je iz Bogote i zove se chocolate santafereño. Sir se u čokoladi rastopi i vadi žličicom, a uz to se jede slatki kruh." },
-    { ime: "Tropsko voće i sokovi", opis: "Lulo, guanábana, maracuyá, feijoa i deseci drugih voćaka, miksani s vodom ili mlijekom.", prica: "Kolumbija je među zemljama s najvećim brojem vrsta voća na svijetu, a mnoge se izvan nje ne mogu kupiti. Na tržnici pitajte za lulo, kiselkasto voće od kojeg se u Caliju radi osvježavajuća lulada." },
-    { ime: "Buñuelos i natilla", opis: "Pržene kuglice od sira i škroba te krema od mlijeka i cimeta.", prica: "Jedu se zajedno u prosincu, tijekom devetnice pred Božić, kada se obitelji i susjedi okupljaju devet večeri zaredom. Buñuelos se, međutim, prodaju cijele godine u svakoj pekarnici." },
-    { ime: "Aguardiente", opis: "Rakija od šećerne trske s okusom anisa.", prica: "Pije se u malim čašicama, uvijek u društvu i uvijek uz glazbu, a boca kruži stolom. Svaka pokrajina ima svoju marku i odana joj je kao nogometnom klubu." }
+    { ime: "Bandeja paisa", opis: "A huge platter of beans, rice, ground meat, crispy chicharrón pork belly, sausage, egg, fried plantain, avocado and an arepa.", prica: "The dish comes from the region around Medellín, whose people are called paisas, and it began as a meal for farmers and mule drivers who had to last a whole day in the mountains. Feel free to order a half portion, because even that is generous." },
+    { ime: "Ajiaco", opis: "A thick soup of chicken and three kinds of potato, with a corn cob and the herb guascas.", prica: "This is Bogotá's signature dish, perfect for cold afternoons at altitude. It comes to the table with cream, capers and avocado, which everyone adds to taste." },
+    { ime: "Arepa", opis: "A round cornmeal cake cooked on a griddle.", prica: "It is eaten with every meal, and each region has its own. On the coast there is the arepa de huevo, fried and filled with a whole egg, and in the Andes the arepa de choclo, slightly sweet, made from young corn and served with a piece of cheese." },
+    { ime: "Sancocho", opis: "A hearty soup with meat or fish, yuca, plantain and corn.", prica: "This Sunday family dish is often cooked over an open fire by a river, on an outing called a paseo de olla, a trip with the pot. In the Cauca river valley it is made with hen, and on the coast with fish." },
+    { ime: "Tamal", opis: "Corn dough with meat and vegetables, wrapped in a banana leaf and steamed.", prica: "It is the traditional weekend breakfast, served with hot chocolate. The best known are the tamales from the Tolima department, which are round and have rice in the filling." },
+    { ime: "Hot chocolate with cheese", opis: "A cup of hot chocolate into which you drop pieces of mild white cheese.", prica: "The custom comes from Bogotá and is called chocolate santafereño. The cheese melts in the chocolate and is fished out with a teaspoon, and sweet bread is eaten alongside." },
+    { ime: "Tropical fruit and juices", opis: "Lulo, guanábana, maracuyá, feijoa and dozens of other fruits, blended with water or milk.", prica: "Colombia is among the countries with the greatest number of fruit species in the world, and many of them cannot be bought outside it. At the market, ask for lulo, a tangy fruit that Cali turns into the refreshing lulada." },
+    { ime: "Buñuelos and natilla", opis: "Fried balls of cheese and starch, and a custard of milk and cinnamon.", prica: "They are eaten together in December, during the novena before Christmas, when families and neighbors gather nine evenings in a row. Buñuelos, however, are sold all year round in every bakery." },
+    { ime: "Aguardiente", opis: "A sugarcane spirit flavored with anise.", prica: "It is drunk in small shot glasses, always in company and always with music, while the bottle makes its way around the table. Each department has its own brand and is as loyal to it as to a soccer club." }
   ],
   obicaji: [
-    { ime: "Cumbia", opis: "Glazba i ples s karipske obale, u kojima su se spojili afrički bubnjevi, starosjedilačke frule gaita i španjolska nošnja. Plesačica u širokoj suknji drži svežanj upaljenih svijeća, a plesač kruži oko nje sa šeširom u ruci.", gdje: "Najbolje se vidi na karnevalu u Barranquilli, četiri dana prije Čiste srijede, koji je UNESCO proglasio remek-djelom nematerijalne baštine. U Cartageni se folklorne skupine navečer okupljaju na trgovima staroga grada." },
-    { ime: "Salsa caleña", opis: "Cali je razvio vlastiti stil salse, s vrlo brzim radom nogu i akrobatskim figurama. Nastao je, prema predaji, kada su plesači ploče puštali na većoj brzini.", gdje: "U Caliju škole salse nude pojedinačne satove i tečajeve od nekoliko dana, a pleše se u klubovima zvanima salsotecas. Feria de Cali održava se od 25. do 30. prosinca." },
-    { ime: "Vallenato", opis: "Glazba pripovjedača sa sjevera, uz harmoniku, bubanj caja i strugalicu guacharaca. Gabriel García Márquez rekao je da je njegov roman „Sto godina samoće“ vallenato od 350 stranica.", gdje: "U gradu Valleduparu krajem travnja održava se Festival vallenatske legende, na kojem se bira kralj harmonike." },
-    { ime: "Kultura kave", opis: "Kava se bere ručno, zrno po zrno, na strmim obroncima, a obiteljska imanja zovu se fincas. Krajolik kave na UNESCO-ovu je popisu od 2011.", gdje: "U pokrajinama Quindío, Caldas i Risaralda imanja nude obilaske od berbe do šalice, a mnoga i noćenje." },
-    { ime: "Tejo", opis: "Tradicionalna igra u kojoj se metalni disk baca na glinenu ploču s papirnatim vrećicama baruta, koje pri pogotku glasno prasnu. Podrijetlo vuče od naroda Muisca.", gdje: "U dvoranama za tejo u Bogoti i pokrajini Boyacá, gdje se igra uz pivo, a početnike rado poduče." },
-    { ime: "Feria de las Flores", opis: "Svetkovina cvijeća, čiji je vrhunac povorka silleterosa, seljaka koji na leđima nose goleme cvjetne aranžmane na drvenim nosiljkama.", gdje: "U Medellínu početkom kolovoza, a nosiljke se izrađuju u selu Santa Elena iznad grada, gdje obitelji primaju posjetitelje." }
+    { ime: "Cumbia", opis: "Music and dance from the Caribbean coast, in which African drums, indigenous gaita flutes and Spanish dress came together. The woman, in a wide skirt, holds a bundle of lit candles, while the man circles around her with his hat in his hand.", gdje: "It is best seen at the Barranquilla Carnival, held in the four days before Ash Wednesday, which UNESCO has proclaimed a masterpiece of intangible heritage. In Cartagena, folk groups gather in the evening on the squares of the old town." },
+    { ime: "Salsa caleña", opis: "Cali developed its own style of salsa, with very fast footwork and acrobatic moves. According to tradition, it was born when dancers played the records at a faster speed.", gdje: "In Cali, salsa schools offer private lessons and courses lasting a few days, and people dance in clubs called salsotecas. The Feria de Cali is held from December 25 to 30." },
+    { ime: "Vallenato", opis: "The music of the storytellers of the north, played on the accordion, the caja drum and the guacharaca scraper. Gabriel García Márquez said that his novel “One Hundred Years of Solitude” is a 350-page vallenato.", gdje: "At the end of April the city of Valledupar hosts the Vallenato Legend Festival, where the king of the accordion is chosen." },
+    { ime: "Coffee culture", opis: "Coffee is picked by hand, cherry by cherry, on steep hillsides, and the family farms are called fincas. The coffee landscape has been on the UNESCO list since 2011.", gdje: "In the departments of Quindío, Caldas and Risaralda, farms offer tours from harvest to cup, and many offer overnight stays as well." },
+    { ime: "Tejo", opis: "A traditional game in which a metal disc is thrown at a clay board holding small paper packets of gunpowder, which go off with a loud bang when hit. It traces its origins to the Muisca people.", gdje: "In the tejo halls of Bogotá and the Boyacá department, where it is played over beer and beginners are gladly shown the ropes." },
+    { ime: "Feria de las Flores", opis: "The festival of flowers, whose high point is the parade of the silleteros, farmers who carry enormous flower arrangements on wooden frames on their backs.", gdje: "In Medellín at the beginning of August, while the frames are made in the village of Santa Elena above the city, where families welcome visitors." }
   ],
   fraze: [
-    { izvorno: "Buenos días", izgovor: "BUE-nos DI-as", hr: "Dobro jutro, dobar dan" },
-    { izvorno: "Gracias", izgovor: "GRA-sjas", hr: "Hvala" },
-    { izvorno: "Con mucho gusto", izgovor: "kon MU-čo GUS-to", hr: "Nema na čemu, drage volje" },
-    { izvorno: "¿Cuánto vale?", izgovor: "KUAN-to VA-le", hr: "Koliko košta?" },
-    { izvorno: "La cuenta, por favor", izgovor: "la KUEN-ta, por fa-VOR", hr: "Račun, molim" },
-    { izvorno: "Un tinto, por favor", izgovor: "un TIN-to, por fa-VOR", hr: "Jednu crnu kavu, molim" },
-    { izvorno: "¡Qué chévere!", izgovor: "ke ČE-ve-re", hr: "Baš super!" },
-    { izvorno: "¿Me regala...?", izgovor: "me re-GA-la", hr: "Mogu li dobiti...? (uljudan kolumbijski način naručivanja)" }
+    { izvorno: "Buenos días", izgovor: "BWEH-nohs DEE-ahs", hr: "Good morning, good day" },
+    { izvorno: "Gracias", izgovor: "GRAH-syahs", hr: "Thank you" },
+    { izvorno: "Con mucho gusto", izgovor: "kohn MOO-choh GOOS-toh", hr: "You're welcome, with pleasure" },
+    { izvorno: "¿Cuánto vale?", izgovor: "KWAHN-toh VAH-leh", hr: "How much is it?" },
+    { izvorno: "La cuenta, por favor", izgovor: "lah KWEN-tah, por fah-VOR", hr: "The check, please" },
+    { izvorno: "Un tinto, por favor", izgovor: "oon TEEN-toh, por fah-VOR", hr: "One black coffee, please" },
+    { izvorno: "¡Qué chévere!", izgovor: "keh CHEH-veh-reh", hr: "How cool!" },
+    { izvorno: "¿Me regala...?", izgovor: "meh reh-GAH-lah", hr: "Could I have...? (the polite Colombian way to order)" }
   ],
   zanimljivosti: [
-    "Kolumbija je ime dobila po Kristoforu Kolumbu, koji na njezino tlo nikada nije stupio.",
-    "Prva je u svijetu po broju vrsta ptica, kojih ima više od 1900.",
-    "Legenda o El Doradu potječe od obreda naroda Muisca, u kojem je novi poglavica, posut zlatnim prahom, sa splavi bacao zlato u jezero Guatavita.",
-    "Najveći dio svjetskih smaragda najviše kakvoće dolazi iz kolumbijskih rudnika.",
-    "Pjevač tanga Carlos Gardel poginuo je 1935. u zrakoplovnoj nesreći u Medellínu, koji je otad jedan od gradova najodanijih tangu.",
-    "Rijeka Caño Cristales nekoliko mjeseci godišnje postaje crvena, žuta i zelena zbog vodene biljke koja cvjeta na njezinu dnu."
+    "Colombia was named after Christopher Columbus, who never set foot on its soil.",
+    "It ranks first in the world for the number of bird species, with more than 1,900.",
+    "The legend of El Dorado comes from a ritual of the Muisca people in which the new chief, dusted with gold powder, threw gold from a raft into Lake Guatavita.",
+    "Most of the world's highest-quality emeralds come from Colombian mines.",
+    "The tango singer Carlos Gardel died in 1935 in a plane crash in Medellín, which has been one of the cities most devoted to tango ever since.",
+    "For a few months each year the Caño Cristales river turns red, yellow and green because of an aquatic plant that blooms on its bed."
   ],
   mjesta: [
     {
       id: "bogota",
       ime: "Bogotá",
       vrsta: "grad",
-      sazetak: "Prijestolnica na 2640 metara, s muzejom zlata, ulicama punim grafita i nedjeljama rezerviranima za bicikle.",
+      sazetak: "A capital at 2,640 meters, with a gold museum, streets full of graffiti and Sundays reserved for bicycles.",
       prica: [
-        "Grad je 6. kolovoza 1538. osnovao Gonzalo Jiménez de Quesada, koji je uz rijeku Magdalenu krenuo u potragu za El Doradom i na visoravni zatekao narod Muisca. Naselje je nazvao Santa Fe, a starosjedilačko ime Bacatá s vremenom je prevladalo.",
-        "Ovdje je 1810. započeo ustanak protiv Španjolske, a grad je postao prijestolnica Bolívarove Velike Kolumbije. Stara jezgra La Candelaria sačuvala je kolonijalne kuće s drvenim balkonima, dok se moderna Bogotá proteže kilometrima prema sjeveru."
+        "The city was founded on August 6, 1538, by Gonzalo Jiménez de Quesada, who had set off up the Magdalena river in search of El Dorado and found the Muisca people on the high plateau. He named the settlement Santa Fe, and over time the indigenous name Bacatá prevailed.",
+        "The uprising against Spain began here in 1810, and the city became the capital of Bolívar's Gran Colombia. The old core, La Candelaria, has kept its colonial houses with wooden balconies, while modern Bogotá stretches north for kilometers."
       ],
       vidjeti: [
-        { ime: "Museo del Oro", opis: "Muzej Narodne banke čuva desetke tisuća zlatnih predmeta pretkolumbovskih kultura, najveću takvu zbirku na svijetu. Najvažniji je izložak Splav Muisca, minijatura obreda iz kojeg je nastala legenda o El Doradu." },
-        { ime: "Museo Botero", opis: "Slikar i kipar Fernando Botero darovao je državi 2000. godine svoja djela i vlastitu zbirku Picassa, Moneta i Dalíja, uz uvjet da ulaz zauvijek ostane besplatan. Potražite njegovu punašnu Mona Lisu." },
-        { ime: "Plaza de Bolívar", opis: "Glavni trg okružuju katedrala, parlament, sud i gradska vijećnica, a u sredini je Bolívarov kip. Nad ulazom u Palaču pravde, obnovljenu nakon opsade 1985., uklesana je rečenica generala Santandera o tome da je oružje Kolumbijcima donijelo neovisnost, a da će im zakoni donijeti slobodu." },
-        { ime: "Monserrate", opis: "Brdo iznad grada, visoko 3152 metra, na koje voze uspinjača i žičara. Bijela crkva na vrhu hodočasničko je mjesto, a pogled otkriva koliko je Bogotá velika." },
-        { ime: "La Candelaria", opis: "Najstarija četvrt, sa strmim ulicama i zidovima prekrivenima grafitima. Ulična umjetnost ovdje je dopuštena i cijenjena, a o njoj se organiziraju posebni obilasci." },
-        { ime: "Solna katedrala u Zipaquiri", opis: "Pedesetak kilometara od grada, u rudniku soli, rudari su 180 metara pod zemljom isklesali crkvu s golemim osvijetljenim križem. Do nje vodi križni put kroz rudarske hodnike." }
+        { ime: "Museo del Oro", opis: "The museum of the Banco de la República holds tens of thousands of gold objects from pre-Columbian cultures, the largest collection of its kind in the world. The most important exhibit is the Muisca Raft, a miniature of the ritual that gave rise to the legend of El Dorado." },
+        { ime: "Museo Botero", opis: "In 2000 the painter and sculptor Fernando Botero donated his works to the state along with his own collection of Picasso, Monet and Dalí, on the condition that admission stay free forever. Look for his plump Mona Lisa." },
+        { ime: "Plaza de Bolívar", opis: "The main square is surrounded by the cathedral, the congress, the courthouse and the city hall, with a statue of Bolívar in the middle. Above the entrance to the Palace of Justice, rebuilt after the siege of 1985, is carved General Santander's sentence saying that arms brought Colombians independence and laws will bring them freedom." },
+        { ime: "Monserrate", opis: "A hill above the city, 3,152 meters high, reached by funicular and cable car. The white church at the top is a place of pilgrimage, and the view reveals just how big Bogotá is." },
+        { ime: "La Candelaria", opis: "The oldest neighborhood, with steep streets and walls covered in graffiti. Street art is permitted and valued here, and special tours are devoted to it." },
+        { ime: "Salt Cathedral of Zipaquirá", opis: "About fifty kilometers from the city, in a salt mine, miners carved a church 180 meters underground, with an enormous illuminated cross. You reach it along the Stations of the Cross, through the mining tunnels." }
       ],
       jesti: [
-        { ime: "Ajiaco", opis: "Najbolje ga je jesti za ručak u tradicionalnim restoranima La Candelarije." },
-        { ime: "Chocolate santafereño", opis: "Vruća čokolada sa sirom i slatkim kruhom, u starim slastičarnicama oko glavnog trga." },
-        { ime: "Voće na tržnici Paloquemao", opis: "Na najvećoj gradskoj tržnici prodavači će vam otvoriti voće koje ne poznajete, a u jutarnjim satima radi i cvjetna tržnica." }
+        { ime: "Ajiaco", opis: "It is best eaten for lunch in the traditional restaurants of La Candelaria." },
+        { ime: "Chocolate santafereño", opis: "Hot chocolate with cheese and sweet bread, in the old pastry shops around the main square." },
+        { ime: "Fruit at the Paloquemao market", opis: "At the city's largest market, the vendors will cut open fruit you have never seen for you, and in the morning hours the flower market is open too." }
       ],
       dozivjeti: [
-        { ime: "Ciclovía", opis: "Svake nedjelje i praznika, od jutra do ranog poslijepodneva, više od stotinu kilometara ulica zatvara se za automobile i prepušta biciklistima, trkačima i šetačima. Običaj traje od 1974." },
-        { ime: "Sajam u Usaquénu", opis: "Nedjeljni sajam rukotvorina u nekadašnjem selu na sjeveru grada, s kolonijalnim trgom i dobrim restoranima." },
-        { ime: "Muzeji Narodne banke", opis: "Museo del Oro i Museo Botero dio su iste mreže, čije stranice donose radno vrijeme i izložbe.", link: "https://www.banrepcultural.org/bogota/museo-del-oro" }
+        { ime: "Ciclovía", opis: "Every Sunday and public holiday, from morning until early afternoon, more than a hundred kilometers of streets are closed to cars and handed over to cyclists, runners and walkers. The tradition has been going since 1974." },
+        { ime: "Usaquén market", opis: "A Sunday craft market in a former village in the north of the city, with a colonial square and good restaurants." },
+        { ime: "Museums of the Banco de la República", opis: "The Museo del Oro and the Museo Botero are part of the same network, whose website lists opening hours and exhibitions.", link: "https://www.banrepcultural.org/bogota/museo-del-oro" }
       ],
       agencije: [
-        { ime: "Visit Bogotá", opis: "Službeni turistički portal grada.", link: "https://visitbogota.co/es" },
-        { ime: "Colombia Travel", opis: "Službeni turistički portal Kolumbije.", link: "https://colombia.travel/es" },
-        { ime: "Catedral de Sal", opis: "Službena stranica solne katedrale u Zipaquiri.", link: "https://www.catedraldesal.gov.co/" }
+        { ime: "Visit Bogotá", opis: "The city's official tourism portal.", link: "https://visitbogota.co/es" },
+        { ime: "Colombia Travel", opis: "Colombia's official tourism portal.", link: "https://colombia.travel/es" },
+        { ime: "Catedral de Sal", opis: "The official website of the Salt Cathedral of Zipaquirá.", link: "https://www.catedraldesal.gov.co/" }
       ],
-      kada: "Najmanje kiše pada od prosinca do ožujka. Poslijepodne se često naoblači, pa na Monserrate idite ujutro, a jaknu nosite uvijek sa sobom."
+      kada: "The least rain falls from December to March. It often clouds over in the afternoon, so go up Monserrate in the morning and always carry a jacket."
     },
     {
       id: "cartagena",
       ime: "Cartagena",
       vrsta: "grad",
-      sazetak: "Karipski grad unutar jedanaest kilometara zidina, s balkonima pod bugenvilijama i tvrđavom koju nitko nije osvojio.",
+      sazetak: "A Caribbean city inside eleven kilometers of walls, with balconies under bougainvillea and a fortress that no one ever took.",
       prica: [
-        "Cartagenu de Indias osnovao je 1533. Pedro de Heredia, a ubrzo je postala luka iz koje su galije odvozile zlato i srebro u Španjolsku te jedno od glavnih tržišta robljem. Takvo je bogatstvo privlačilo gusare, među njima i Francisa Drakea, koji je 1586. opljačkao grad.",
-        "Španjolska je zato podigla najsnažniji sustav utvrda u Americi. Na njemu se 1741. slomio napad goleme britanske flote, iako je branitelja, pod zapovjedništvom jednookog i jednonogog admirala Blasa de Leza, bilo višestruko manje. UNESCO je grad upisao na popis 1984."
+        "Cartagena de Indias was founded in 1533 by Pedro de Heredia, and it soon became the port from which galleons carried gold and silver to Spain, as well as one of the main slave markets. Such wealth attracted pirates, among them Francis Drake, who sacked the city in 1586.",
+        "Spain therefore built the most powerful system of fortifications in the Americas. In 1741 the attack of a huge British fleet broke against it, even though the defenders, commanded by the one-eyed and one-legged admiral Blas de Lezo, were outnumbered many times over. UNESCO added the city to its list in 1984."
       ],
       vidjeti: [
-        { ime: "Stari grad", opis: "Unutar zidina su ulice kuća žute, plave i ružičaste boje, s drvenim balkonima. Na vratima potražite brončane zvekire: gušter je označavao plemićku kuću, riba trgovca morem, a lav vojnika." },
-        { ime: "Castillo San Felipe de Barajas", opis: "Najveća španjolska tvrđava u Americi, građena od 1657. na brežuljku pred gradom. Kroz nju prolazi splet tunela oblikovanih tako da se u njima čuje svaki korak neprijatelja." },
-        { ime: "Crkva sv. Petra Clavera", opis: "Isusovac Petar Claver, čije tijelo počiva pod oltarom, četrdeset je godina dočekivao brodove s robljem i njegovao bolesne, nazivajući se robom robova. U samostanu uz crkvu može se vidjeti njegova ćelija." },
-        { ime: "Getsemaní", opis: "Nekadašnja četvrt obrtnika i oslobođenih robova, odmah izvan zidina, danas je najživlji dio grada. Navečer se na trgu Trinidad okupljaju mještani i putnici, uz uličnu hranu i glazbu." },
-        { ime: "Palača inkvizicije", opis: "Barokna zgrada na trgu Bolívar, u kojoj je od 1610. zasjedao sud Svetog oficija. Na bočnom zidu još je prozorčić kroz koji su se predavale tajne prijave." }
+        { ime: "The old town", opis: "Inside the walls are streets of yellow, blue and pink houses with wooden balconies. Look for the bronze door knockers: a lizard marked a noble house, a fish a sea merchant, and a lion a soldier." },
+        { ime: "Castillo San Felipe de Barajas", opis: "The largest Spanish fortress in the Americas, built from 1657 on a hill in front of the city. It is threaded with a maze of tunnels shaped so that every footstep of the enemy could be heard in them." },
+        { ime: "Church of San Pedro Claver", opis: "The Jesuit Peter Claver, whose body rests beneath the altar, spent forty years meeting the slave ships and caring for the sick, calling himself the slave of the slaves. In the cloister next to the church you can see his cell." },
+        { ime: "Getsemaní", opis: "The former neighborhood of craftsmen and freed slaves, just outside the walls, is now the liveliest part of the city. In the evening, locals and travelers gather on Plaza de la Trinidad over street food and music." },
+        { ime: "Palace of the Inquisition", opis: "A Baroque building on Plaza de Bolívar where the tribunal of the Holy Office sat from 1610. On the side wall there is still the little window through which secret denunciations were handed in." }
       ],
       jesti: [
-        { ime: "Arepa de huevo", opis: "Pržena kukuruzna pogačica s cijelim jajetom unutra, karipski doručak s uličnog štanda." },
-        { ime: "Riba s kokosovom rižom", opis: "Cijela pržena riba, uz slatkastu rižu kuhanu u kokosovu mlijeku i pržene kriške zelene banane zvane patacones." },
-        { ime: "Slatkiši s Portala de los Dulces", opis: "Pod arkadama kraj Tornja sa satom žene prodaju cocade od kokosa i slatkiše od tamarinda iz staklenki." }
+        { ime: "Arepa de huevo", opis: "A fried corn cake with a whole egg inside, the Caribbean breakfast from a street stall." },
+        { ime: "Fish with coconut rice", opis: "A whole fried fish with slightly sweet rice cooked in coconut milk and fried slices of green plantain called patacones." },
+        { ime: "Sweets from the Portal de los Dulces", opis: "Under the arcades by the Clock Tower, women sell coconut cocadas and tamarind sweets from glass jars." }
       ],
       dozivjeti: [
-        { ime: "Šetnja zidinama u sumrak", opis: "Po bedemima se hoda između topova, s morem s jedne i krovovima s druge strane, a zalazak sunca dočekuje se na zapadnom dijelu zidina." },
-        { ime: "Palenqueras", opis: "Žene u šarenim haljinama, sa zdjelama voća na glavi, dolaze iz San Basilija de Palenque, prvog slobodnog naselja odbjeglih robova u Americi. Fotografija se plaća, a još je bolje kupiti voće i porazgovarati." },
-        { ime: "Champeta", opis: "Ples i glazba Cartagene, nastali iz afričkih ritmova koje su donosili mornari, plešu se u Getsemaníju, gdje se održavaju i satovi za početnike." }
+        { ime: "A walk on the walls at dusk", opis: "You walk along the ramparts between the cannons, with the sea on one side and the rooftops on the other, and the sunset is best watched from the western stretch of the walls." },
+        { ime: "Palenqueras", opis: "The women in bright dresses with bowls of fruit on their heads come from San Basilio de Palenque, the first free settlement of escaped slaves in the Americas. You pay for a photograph, and it is even better to buy some fruit and have a chat." },
+        { ime: "Champeta", opis: "The dance and music of Cartagena, born from African rhythms brought by sailors, are danced in Getsemaní, where beginners' classes are held as well." }
       ],
       agencije: [
-        { ime: "Fortificaciones de Cartagena", opis: "Službena stranica tvrđave San Felipe i gradskih utvrda, s ulaznicama.", link: "https://fortificacionescartagena.com.co/en/" },
-        { ime: "Colombia Travel", opis: "Službeni turistički portal Kolumbije.", link: "https://colombia.travel/es" }
+        { ime: "Fortificaciones de Cartagena", opis: "The official website of the San Felipe fortress and the city fortifications, with tickets.", link: "https://fortificacionescartagena.com.co/en/" },
+        { ime: "Colombia Travel", opis: "Colombia's official tourism portal.", link: "https://colombia.travel/es" }
       ],
-      kada: "Najsuše je od prosinca do travnja. Vrućina i vlaga su stalne, pa razgledavajte rano ujutro i nakon 16 sati, a podne provedite u hladu."
+      kada: "It is driest from December to April. The heat and humidity are constant, so sightsee early in the morning and after 4 p.m., and spend midday in the shade."
     },
     {
       id: "medellin",
       ime: "Medellín",
       vrsta: "grad",
-      sazetak: "Grad vječnog proljeća u zelenoj dolini, koji se od najopasnijeg na svijetu pretvorio u uzor urbane obnove.",
+      sazetak: "The city of eternal spring in a green valley, which went from being the most dangerous in the world to a model of urban renewal.",
       prica: [
-        "Medellín je nastao u 17. stoljeću u dolini Aburrá, na oko 1500 metara, a razvio se zahvaljujući kavi i tekstilnoj industriji. Krajem 20. stoljeća postao je zloglasan po narkokartelu Pabla Escobara.",
-        "Preokret je donijelo ulaganje u najsiromašnije četvrti: metro otvoren 1995., žičare koje od 2004. povezuju naselja na strminama s gradom, knjižnice i škole. Stanovnici na to gledaju s velikim ponosom, pa u metrou nećete vidjeti ni ogrebotinu."
+        "Medellín arose in the 17th century in the Aburrá valley, at about 1,500 meters, and grew thanks to coffee and the textile industry. At the end of the 20th century it became notorious for Pablo Escobar's drug cartel.",
+        "The turnaround came from investment in the poorest neighborhoods: the metro opened in 1995, the cable cars that have linked the hillside settlements with the city since 2004, libraries and schools. Residents look on all this with great pride, so you will not see so much as a scratch in the metro."
       ],
       vidjeti: [
-        { ime: "Plaza Botero", opis: "Na trgu pred Muzejom Antioquije stoje 23 brončane skulpture koje je gradu darovao Fernando Botero, rođen u Medellínu. Mještani vjeruju da dodirivanje kipova donosi sreću, pa su neki dijelovi uglačani do sjaja." },
-        { ime: "Comuna 13", opis: "Nekoć najopasnija četvrt u gradu danas je galerija murala na otvorenom. Od 2011. uz strminu voze pokretne stube pod narančastim krovom, koje su stanovnicima skratile uspon jednak zgradi od dvadeset osam katova." },
-        { ime: "Metrocable i park Arví", opis: "Kabine žičare, koje su dio javnog prijevoza, lete iznad krovova prema rubu doline. Jedna linija nastavlja do parka Arví, šumskog rezervata s pješačkim stazama i seljačkom tržnicom." },
-        { ime: "Guatapé i Piedra del Peñol", opis: "Dva sata od grada stoji granitni monolit na koji vodi više od sedamsto stuba, s pogledom na umjetno jezero puno otočića. U obližnjem gradiću Guatapéu podnožja kuća ukrašena su šarenim reljefima zvanima zócalos." },
-        { ime: "Botanički vrt", opis: "Besplatan vrt u sjevernom dijelu grada, čiji je Orquideorama golema drvena nadstrešnica u obliku saća. U kolovozu se u njemu održava izložba orhideja." }
+        { ime: "Plaza Botero", opis: "On the square in front of the Museum of Antioquia stand 23 bronze sculptures donated to the city by Fernando Botero, who was born in Medellín. Locals believe that touching the statues brings luck, so some parts have been polished to a shine." },
+        { ime: "Comuna 13", opis: "Once the most dangerous neighborhood in the city, it is now an open-air gallery of murals. Since 2011, escalators under an orange roof have run up the slope, sparing residents a climb equal to a twenty-eight-story building." },
+        { ime: "Metrocable and Arví Park", opis: "The cable car cabins, which are part of public transit, fly over the rooftops toward the rim of the valley. One line continues to Arví Park, a forest reserve with hiking trails and a farmers' market." },
+        { ime: "Guatapé and Piedra del Peñol", opis: "Two hours from the city stands a granite monolith with more than seven hundred steps leading to the top and a view of an artificial lake full of little islands. In the nearby town of Guatapé, the bases of the houses are decorated with colorful reliefs called zócalos." },
+        { ime: "Botanical Garden", opis: "A free garden in the northern part of the city, whose Orquideorama is an enormous wooden canopy in the shape of a honeycomb. An orchid show is held there in August." }
       ],
       jesti: [
-        { ime: "Bandeja paisa", opis: "U Medellínu je na domaćem terenu, a najbolja je u jednostavnim gostionicama za ručak." },
-        { ime: "Arepa de choclo", opis: "Debela, slatkasta pogačica od mladog kukuruza, presavijena preko komada svježeg sira." },
-        { ime: "Mondongo", opis: "Juha od tripica s povrćem, uz koju stižu riža, avokado i banana, pa je zapravo cijeli ručak." }
+        { ime: "Bandeja paisa", opis: "It is on home turf in Medellín, and it is at its best in the simple lunch spots." },
+        { ime: "Arepa de choclo", opis: "A thick, slightly sweet cake of young corn, folded over a piece of fresh cheese." },
+        { ime: "Mondongo", opis: "A tripe soup with vegetables that arrives with rice, avocado and banana, which makes it a whole lunch." }
       ],
       dozivjeti: [
-        { ime: "Obilazak Comune 13 s mještanima", opis: "Vodiči su mladi iz četvrti, koji uz murale pričaju i vlastite obiteljske priče, a putem ćete vidjeti plesače hip-hopa." },
-        { ime: "Tango u četvrti Manrique", opis: "U četvrti u kojoj stoji Gardelov kip tango se pleše i sluša u malim salonima, a u lipnju se održava gradski festival tanga." },
-        { ime: "Vožnja metroom i žičarom", opis: "Jednom kartom možete se provozati cijelom dolinom i žičarom do četvrti na brdu.", link: "https://www.metrodemedellin.gov.co/" }
+        { ime: "A tour of Comuna 13 with locals", opis: "The guides are young people from the neighborhood, who tell their own family stories alongside the murals, and you will see hip-hop dancers along the way." },
+        { ime: "Tango in the Manrique neighborhood", opis: "In the neighborhood where Gardel's statue stands, tango is danced and listened to in small salons, and the city's tango festival is held in June." },
+        { ime: "A ride on the metro and the cable car", opis: "A single ticket lets you ride the length of the valley and take the cable car up to a neighborhood on the hill.", link: "https://www.metrodemedellin.gov.co/" }
       ],
       agencije: [
-        { ime: "Medellín Travel", opis: "Službeni turistički vodič grada.", link: "https://www.medellin.travel/" },
-        { ime: "Museo de Antioquia", opis: "Službena stranica muzeja s Boterovom zbirkom.", link: "https://museodeantioquia.co/" }
+        { ime: "Medellín Travel", opis: "The city's official tourist guide.", link: "https://www.medellin.travel/" },
+        { ime: "Museo de Antioquia", opis: "The official website of the museum with the Botero collection.", link: "https://museodeantioquia.co/" }
       ],
-      kada: "Temperatura je cijele godine oko 24 stupnja, a kratki pljuskovi najčešći su u travnju, svibnju i listopadu. Feria de las Flores početkom kolovoza najljepše je vrijeme za posjet."
+      kada: "The temperature is around 24 degrees all year, and short downpours are most common in April, May and October. The Feria de las Flores at the beginning of August is the loveliest time to visit."
     },
     {
       id: "eje-cafetero",
-      ime: "Kraj kave: Salento i dolina Cocora",
+      ime: "Coffee Country: Salento and the Cocora Valley",
       vrsta: "regija",
-      sazetak: "Zeleni brežuljci prekriveni grmovima kave, šarena sela s balkonima i dolina u kojoj rastu najviše palme na svijetu.",
+      sazetak: "Green hills covered in coffee bushes, colorful villages with balconies and a valley where the tallest palms in the world grow.",
       prica: [
-        "Kraj kave, na španjolskom Eje Cafetero, naselili su u 19. stoljeću seljaci iz pokrajine Antioquije, koji su krčili planinske šume i sadili kavu. Iza njih su ostala sela s kućama od bambusa i blata, živo obojenih vrata i balkona.",
-        "UNESCO je 2011. Kulturni krajolik kave upisao na popis svjetske baštine. Salento, osnovan 1842., najstariji je gradić pokrajine Quindío i polazište za dolinu Cocora."
+        "Coffee country, Eje Cafetero in Spanish, was settled in the 19th century by farmers from the Antioquia department, who cleared the mountain forests and planted coffee. They left behind villages with houses of bamboo and mud and brightly painted doors and balconies.",
+        "In 2011 UNESCO added the Coffee Cultural Landscape to the World Heritage List. Salento, founded in 1842, is the oldest town in the Quindío department and the starting point for the Cocora Valley."
       ],
       vidjeti: [
-        { ime: "Valle de Cocora", opis: "Na zelenim pašnjacima stoje voštane palme, visoke i do 60 metara, najviše na svijetu i nacionalno stablo Kolumbije. Rastu na visini na kojoj palme inače ne uspijevaju, a ime su dobile po vosku na deblu, od kojeg su se nekoć radile svijeće." },
-        { ime: "Calle Real u Salentu", opis: "Glavna ulica niz je šarenih kuća s radionicama i kavanama, a završava stubištem do vidikovca nad dolinom. Na trgu čekaju džipovi Willys iz 1950-ih, koji služe kao seoski taksiji i voze i s putnicima na stražnjem braniku." },
-        { ime: "Filandia", opis: "Mirniji i jednako šaren gradić pola sata od Salenta, poznat po košarama pletenima od lijana. S drvenog vidikovca vide se tri pokrajine." },
-        { ime: "Imanja kave", opis: "Na obiteljskim fincama oko Salenta provest će vas kroz nasade, pokazati sušenje i prženje, a na kraju ćete kušati kavu iz zrna koja ste same ubrale." }
+        { ime: "Valle de Cocora", opis: "On the green pastures stand wax palms up to 60 meters tall, the tallest in the world and the national tree of Colombia. They grow at an altitude where palms do not usually thrive, and they take their name from the wax on the trunk, which was once used to make candles." },
+        { ime: "Calle Real in Salento", opis: "The main street is a row of colorful houses with workshops and coffee shops, and it ends in a staircase up to a viewpoint over the valley. Waiting on the square are Willys jeeps from the 1950s, which serve as country taxis and even drive with passengers standing on the rear bumper." },
+        { ime: "Filandia", opis: "A quieter and equally colorful town half an hour from Salento, known for baskets woven from vines. Three departments are visible from its wooden lookout tower." },
+        { ime: "Coffee farms", opis: "On the family fincas around Salento they will walk you through the plantation and show you the drying and roasting, and at the end you will taste coffee made from beans you picked yourself." }
       ],
       jesti: [
-        { ime: "Pastrva s pataconom", opis: "Trucha iz planinskih potoka, pečena s češnjakom ili gratinirana, poslužuje se na golemom hrskavom disku od zelene banane." },
-        { ime: "Kava s imanja", opis: "Ovdje se napokon pije kava kakvu Kolumbija izvozi, pripremljena filtriranjem, bez šećera." }
+        { ime: "Trout with patacón", opis: "Trucha from the mountain streams, grilled with garlic or baked au gratin, is served on a huge crispy disc of green plantain." },
+        { ime: "Coffee from the farm", opis: "Here you finally get to drink the kind of coffee Colombia exports, brewed by filter and without sugar." }
       ],
       dozivjeti: [
-        { ime: "Kružna staza kroz Cocoru", opis: "Pet do šest sati hoda vodi kroz maglenu šumu, preko visećih mostića, do kuće s kolibrićima, a zatim se spušta među palme. Tko želi samo palme, do njih stiže za pola sata." },
-        { ime: "Tejo u Salentu", opis: "U mjesnim dvoranama za tejo početnicima objasne pravila, a prasak baruta pri prvom pogotku teško se zaboravlja." },
-        { ime: "Parque del Café", opis: "Tematski park kod gradića Montenegro, s muzejom kave i predstavom narodnih plesova, zabavan i za odrasle.", link: "https://parquedelcafe.co/" }
+        { ime: "The loop trail through Cocora", opis: "Five to six hours of walking take you through cloud forest, over little hanging bridges, to a house with hummingbirds, and then down among the palms. If you only want the palms, you can reach them in half an hour." },
+        { ime: "Tejo in Salento", opis: "In the local tejo halls they explain the rules to beginners, and the bang of the gunpowder on your first hit is hard to forget." },
+        { ime: "Parque del Café", opis: "A theme park near the town of Montenegro, with a coffee museum and a folk dance show, fun for adults too.", link: "https://parquedelcafe.co/" }
       ],
       agencije: [
-        { ime: "Paisaje Cultural Cafetero", opis: "Službena stranica UNESCO-ova krajolika kave.", link: "https://paisajeculturalcafetero.org.co/" },
-        { ime: "Alcaldía de Salento", opis: "Službena stranica općine Salento.", link: "https://www.salento-quindio.gov.co/" },
-        { ime: "Colombia Travel", opis: "Službeni turistički portal Kolumbije.", link: "https://colombia.travel/es" }
+        { ime: "Paisaje Cultural Cafetero", opis: "The official website of the UNESCO coffee landscape.", link: "https://paisajeculturalcafetero.org.co/" },
+        { ime: "Alcaldía de Salento", opis: "The official website of the municipality of Salento.", link: "https://www.salento-quindio.gov.co/" },
+        { ime: "Colombia Travel", opis: "Colombia's official tourism portal.", link: "https://colombia.travel/es" }
       ],
-      kada: "Najsuši su mjeseci od prosinca do veljače te srpanj i kolovoz. U Cocoru krenite rano, jer se poslijepodne redovito spušta magla, a staza je blatna pa trebaju čvrste cipele."
+      kada: "The driest months are December to February, plus July and August. Set out for Cocora early, because fog regularly rolls in during the afternoon, and the trail is muddy, so you need sturdy shoes."
     },
     {
       id: "cali",
       ime: "Cali",
       vrsta: "grad",
-      sazetak: "Svjetska prijestolnica salse, grad u koji se dolazi plesati, a tek onda razgledavati.",
+      sazetak: "The world capital of salsa, a city you come to for the dancing first and the sightseeing second.",
       prica: [
-        "Santiago de Cali osnovao je 1536. Sebastián de Belalcázar u toploj dolini rijeke Cauca, okruženoj plantažama šećerne trske. Na njima su radili porobljeni Afrikanci, čiji potomci čine velik dio stanovništva i daju gradu njegov ritam.",
-        "Salsa je stigla sredinom 20. stoljeća s pločama iz Kube, Portorika i New Yorka. Plesači iz Calija razvili su vlastiti stil brzih nogu, a danas grad ima stotine plesnih škola i svjetske prvake."
+        "Santiago de Cali was founded in 1536 by Sebastián de Belalcázar in the warm valley of the Cauca river, surrounded by sugarcane plantations. Enslaved Africans worked on them, and their descendants make up a large part of the population and give the city its rhythm.",
+        "Salsa arrived in the middle of the 20th century with records from Cuba, Puerto Rico and New York. The dancers of Cali developed their own fast-footed style, and today the city has hundreds of dance schools and world champions."
       ],
       vidjeti: [
-        { ime: "Barrio San Antonio", opis: "Kolonijalna četvrt na brežuljku, s bijelom kapelom iz 18. stoljeća na vrhu parka. Predvečer se na travnjaku okupljaju pripovjedači i glazbenici, a pogled seže preko cijelog grada." },
-        { ime: "Iglesia La Ermita", opis: "Neogotička crkva svijetloplave i bijele boje uz rijeku, sagrađena u prvoj polovici 20. stoljeća, najfotografiranija je zgrada u gradu. U njoj se čuva slika Gospodina od trske iz 18. stoljeća, koja je preživjela potres u kojem je srušena prethodna crkva." },
-        { ime: "Cristo Rey", opis: "Kip Krista visok 26 metara na brdu iznad grada, podignut 1953. Uz cestu prema vrhu potražite reljefe koje je jedan samouki umjetnik uklesao izravno u padinu." },
-        { ime: "Museo La Tertulia", opis: "Muzej moderne umjetnosti uz rijeku, s važnom zbirkom kolumbijskih i latinoameričkih autora i kinotekom." },
-        { ime: "Bulevar del Río", opis: "Šetnica uz rijeku Cali, nastala kada je prometnica spuštena pod zemlju. Navečer je puna šetača, uličnih svirača i plesača." }
+        { ime: "Barrio San Antonio", opis: "A colonial neighborhood on a hill, with a white 18th-century chapel at the top of the park. Toward evening, storytellers and musicians gather on the lawn, and the view takes in the whole city." },
+        { ime: "Iglesia La Ermita", opis: "The pale blue and white neo-Gothic church by the river, built in the first half of the 20th century, is the most photographed building in the city. It holds an 18th-century image of the Lord of the Cane, which survived the earthquake that brought down the previous church." },
+        { ime: "Cristo Rey", opis: "A 26-meter statue of Christ on a hill above the city, erected in 1953. Along the road to the top, look for the reliefs that a self-taught artist carved directly into the hillside." },
+        { ime: "Museo La Tertulia", opis: "A museum of modern art by the river, with an important collection of Colombian and Latin American artists and a film archive." },
+        { ime: "Bulevar del Río", opis: "A promenade along the Cali river, created when the roadway was moved underground. In the evening it is full of strollers, street musicians and dancers." }
       ],
       jesti: [
-        { ime: "Cholado", opis: "Čaša struganog leda s komadima tropskog voća, sirupima i kondenziranim mlijekom, pola desert, a pola piće." },
-        { ime: "Pandebono", opis: "Toplo pecivo od škroba juke i sira, koje se jede za doručak i uz popodnevnu kavu." },
-        { ime: "Sancocho de gallina", opis: "Juha od domaće kokoši kuhana na drvima, specijalitet doline Cauca, uz rižu i avokado." }
+        { ime: "Cholado", opis: "A cup of shaved ice with chunks of tropical fruit, syrups and condensed milk, half dessert and half drink." },
+        { ime: "Pandebono", opis: "A warm roll made of yuca starch and cheese, eaten for breakfast and with afternoon coffee." },
+        { ime: "Sancocho de gallina", opis: "A soup of free-range hen cooked over a wood fire, a specialty of the Cauca valley, served with rice and avocado." }
       ],
       dozivjeti: [
-        { ime: "Sat salse", opis: "Plesne škole primaju i potpune početnike na pojedinačne satove, a nakon nekoliko dana već možete na podij. Ured Visit Cali objavljuje popise škola i događanja.", link: "https://www.visitcali.travel/" },
-        { ime: "Večer u salsoteci", opis: "U klubovima se pleše uz ploče ili orkestar, a mještani rado zaplešu s početnicima. Tradicionalna mjesta nalaze se u četvrti Juanchito i oko središta." },
-        { ime: "Festival Mundial de Salsa", opis: "Svjetski festival salse okuplja najbolje plesne skupine na natjecanju i besplatnim nastupima.", link: "https://mundialdesalsa.com/" },
-        { ime: "Festival Petronio Álvarez", opis: "U kolovozu Cali slavi glazbu pacifičke obale, uz marimbu, bubnjeve i kuhinju afrokolumbijskih zajednica." }
+        { ime: "A salsa lesson", opis: "The dance schools welcome even complete beginners for private lessons, and after a few days you are ready for the dance floor. The Visit Cali office publishes lists of schools and events.", link: "https://www.visitcali.travel/" },
+        { ime: "An evening at a salsoteca", opis: "In the clubs people dance to records or a live orchestra, and locals are happy to dance with beginners. The traditional spots are in the Juanchito district and around the center." },
+        { ime: "Festival Mundial de Salsa", opis: "The world salsa festival brings together the best dance groups for a competition and free performances.", link: "https://mundialdesalsa.com/" },
+        { ime: "Festival Petronio Álvarez", opis: "In August Cali celebrates the music of the Pacific coast, with marimba, drums and the cooking of the Afro-Colombian communities." }
       ],
       agencije: [
-        { ime: "Visit Cali", opis: "Službeni turistički portal grada.", link: "https://www.visitcali.travel/" },
-        { ime: "Feria de Cali", opis: "Službena stranica prosinačkog sajma i povorke salse.", link: "https://www.feriadecali.com.co/" }
+        { ime: "Visit Cali", opis: "The city's official tourism portal.", link: "https://www.visitcali.travel/" },
+        { ime: "Feria de Cali", opis: "The official website of the December fair and salsa parade.", link: "https://www.feriadecali.com.co/" }
       ],
-      kada: "Toplo je cijele godine, a predvečer redovito puhne svježi vjetar s planina. Za Feriu de Cali, od 25. do 30. prosinca, smještaj rezervirajte mjesecima ranije."
+      kada: "It is warm all year round, and toward evening a fresh breeze regularly blows down from the mountains. For the Feria de Cali, from December 25 to 30, book accommodation months ahead."
     }
   ],
   izvori: [

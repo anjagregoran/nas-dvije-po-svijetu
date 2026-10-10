@@ -1,427 +1,427 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["njemacka"] = {
   id: "njemacka",
-  ime: "Njemačka",
-  regija: "Srednja Europa",
-  sazetak: "Zemlja u kojoj se u istom danu mogu vidjeti rimska vrata, gotička katedrala, dvorac iz bajke i trag Berlinskog zida, a sve to uz kruh i pivo kakvih nema nigdje drugdje.",
+  ime: "Germany",
+  regija: "Central Europe",
+  sazetak: "A country where you can see a Roman gate, a Gothic cathedral, a fairy-tale castle and a trace of the Berlin Wall all in the same day, with bread and beer like nowhere else to go with it.",
   uvod: [
-    "Njemačka je mnogo šarenija nego što se čini iz daljine, jer je stoljećima bila sastavljena od stotina kneževina, biskupija i slobodnih gradova, pa je svaki kraj razvio vlastitu kuhinju, narječje i ponos. Zato Bavarska s pivnicama i baroknim crkvama izgleda kao druga zemlja u odnosu na hanzeatski sjever od crvene opeke ili na vinorodnu dolinu Rajne. Ujedinjena je tek 1871., a ponovno 3. listopada 1990., nakon četrdeset godina podjele na dvije države.",
-    "O povijesti se ovdje govori otvoreno i na svakom koraku, od spomen-ploča ugrađenih u pločnike do muzeja koji bez uljepšavanja pričaju o nacizmu i o životu iza Zida. Uz tu ozbiljnost ide i velika ljubav prema uživanju, pa ćete posvuda nailaziti na pivske vrtove pod kestenima, tržnice s kobasicama i slastičarnice u kojima se poslijepodne obavezno jede kolač uz kavu.",
-    "Hrvatima je Njemačka bliska i zbog ljudi, jer u njoj živi najveća hrvatska zajednica u Europi izvan domovine, pa ćete hrvatski često čuti u Münchenu, Stuttgartu ili Frankfurtu."
+    "Germany is far more colorful than it looks from a distance, because for centuries it was made up of hundreds of principalities, bishoprics and free cities, so every area developed its own cooking, dialect and pride. That is why Bavaria, with its beer halls and Baroque churches, feels like a different country from the red-brick Hanseatic north or the wine-growing Rhine Valley. It was unified only in 1871, and again on October 3, 1990, after forty years of division into two states.",
+    "History is talked about openly here and at every step, from memorial plaques set into the sidewalks to museums that tell the story of Nazism and of life behind the Wall without glossing anything over. Alongside that seriousness comes a great love of enjoying life, so everywhere you go you will come across beer gardens under chestnut trees, markets selling sausages and pastry shops where a slice of cake with coffee is an afternoon must.",
+    "Germany also feels close to Croatians because of its people, since it is home to the largest Croatian community in Europe outside the homeland, and you will often hear Croatian spoken in Munich, Stuttgart or Frankfurt."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od svibnja do rujna za gradove i prirodu, a od kraja studenoga do Badnjaka zbog božićnih sajmova, koji su ovdje nastali i najljepši su u Nürnbergu, Dresdenu i Kölnu." },
-    { k: "Valuta", v: "Euro. Gotovina je i dalje važnija nego u Hrvatskoj, pa manje pivnice, pekarnice i štandovi ponekad ne primaju kartice." },
-    { k: "Kretanje", v: "Vlakovi Deutsche Bahna povezuju sve veće gradove, a mjesečna pretplatna karta Deutschlandticket vrijedi u cijelom regionalnom i gradskom prijevozu, ali ne i u brzim vlakovima ICE i IC. Vlakovi znaju kasniti, pa ostavite vremena za presjedanja." },
-    { k: "Napojnica", v: "Uobičajeno je ostaviti od 5 do 10 posto, i to tako da konobaru pri plaćanju kažete iznos koji želite platiti, jer se novac ne ostavlja na stolu." }
+    { k: "When to go", v: "From May to September for cities and nature, and from late November to Christmas Eve for the Christmas markets, which were born here and are at their loveliest in Nuremberg, Dresden and Cologne." },
+    { k: "Currency", v: "The euro. Cash still matters more here than in Croatia, so smaller beer halls, bakeries and stalls sometimes do not take cards." },
+    { k: "Getting around", v: "Deutsche Bahn trains connect all the larger cities, and the monthly Deutschlandticket pass is valid on all regional and city transport, though not on the fast ICE and IC trains. Trains do run late, so leave yourself time for connections." },
+    { k: "Tipping", v: "It is customary to leave 5 to 10 percent, and you do it by telling the server the amount you want to pay when you settle up, because money is not left on the table." }
   ],
   hrana: [
-    { ime: "Brot i Brezel", opis: "Njemački kruh i slani perec, temelj svakog obroka od doručka do večere.", prica: "Njemačka poznaje više od tri tisuće vrsta kruha, a njemačka kultura kruha upisana je 2014. u nacionalni popis nematerijalne baštine. Večera se u mnogim kućama i danas zove Abendbrot, doslovno „večernji kruh“, i sastoji se od kriški raženog kruha sa sirom i narescima. Perec je na jugu najbolji svjež, prerezan i namazan maslacem." },
-    { ime: "Bratwurst", opis: "Pečena kobasica, koja u svakom kraju ima drukčiju veličinu, začine i pravila.", prica: "Nürnberške su kratke kao prst, tirinške duge i začinjene mažuranom, a bavarska bijela Weißwurst kuha se i jede prije podneva. Na ulici se dobiva u pecivu sa senfom, a kečap će vam u Frankoniji dati tek ako baš inzistirate." },
-    { ime: "Sauerbraten", opis: "Govedina koja se danima marinira u octu i začinima, a zatim polako pirja.", prica: "Smatra se jednim od nacionalnih jela, a u Porajnju se umak zaslađuje grožđicama i mrvljenim medenjacima, pa je slatko-kiseo. Poslužuje se s okruglicama od krumpira i crvenim kupusom, najčešće nedjeljom." },
-    { ime: "Käsespätzle", opis: "Meki rezanci od jaja zapečeni s planinskim sirom i prženim lukom.", prica: "Jelo je švapsko i allgäusko, a tijesto se tradicionalno struže s daske ravno u kipuću vodu. U planinskim kolibama stiže u tavi na stol, pa se jede izravno iz nje." },
-    { ime: "Schwarzwälder Kirschtorte", opis: "Torta od čokoladnog biskvita, vrhnja, višanja i rakije od višanja.", prica: "Ime nosi po Schwarzwaldu, a bez rakije Kirschwasser po njemačkim se pravilima ne smije tako zvati. O tome tko ju je prvi napravio izvori se ne slažu, pa se spominju slastičari iz Bad Godesberga i Tübingena s početka 20. stoljeća." },
-    { ime: "Spargel", opis: "Bijele šparoge, koje Nijemci zovu „bijelim zlatom“ i jedu ih s umakom holandez, krumpirom i šunkom.", prica: "Sezona traje od travnja do 24. lipnja, Ivanja, kada berba po tradiciji prestaje da bi se biljka oporavila. U to doba gotovo svaki restoran ima posebnu kartu samo sa šparogama, a uz ceste niču štandovi proizvođača." },
-    { ime: "Döner Kebab", opis: "Meso s okomitog ražnja u lepinji sa salatom i umacima.", prica: "Döner u pecivu, kakav danas poznaje cijela Europa, proširili su turski doseljenici u Berlinu početkom 1970-ih, a tko je točno bio prvi, i dalje je predmet prijateljskog spora. Danas je to najprodavanija ulična hrana u zemlji." },
-    { ime: "Bier", opis: "Pivo koje se i danas kuha prema Zakonu o čistoći.", prica: "Bavarski vojvoda Vilim IV. propisao je 1516. da se pivo smije raditi samo od vode, ječma i hmelja, a kvasac je dodan kasnije, kada je otkrivena njegova uloga. Svaki kraj ima svoj stil: München svijetli Helles i pšenično Weißbier, Köln svoj Kölsch, a Bamberg dimljeno Rauchbier." },
-    { ime: "Riesling", opis: "Aromatično bijelo vino sa strmih padina uz Rajnu i Mosel.", prica: "Njemačka je domovina rizlinga i ima više vinograda te sorte nego ijedna druga zemlja. Oznaka trocken znači suho, a Kabinett i Spätlese govore o zrelosti grožđa, pa ta vina mogu biti i nježno slatka." }
+    { ime: "Brot and Brezel", opis: "German bread and the salted pretzel, the foundation of every meal from breakfast to dinner.", prica: "Germany has more than three thousand kinds of bread, and German bread culture was added to the national inventory of intangible heritage in 2014. In many homes dinner is still called Abendbrot, literally “evening bread”, and consists of slices of rye bread with cheese and cold cuts. In the south the pretzel is best fresh, sliced open and spread with butter." },
+    { ime: "Bratwurst", opis: "A grilled sausage that has a different size, seasoning and set of customs in every region.", prica: "The Nuremberg ones are as short as a finger, the Thuringian ones are long and seasoned with marjoram, and the white Bavarian Weißwurst is boiled and eaten before noon. On the street you get it in a roll with mustard, and in Franconia they will hand you ketchup only if you really insist." },
+    { ime: "Sauerbraten", opis: "Beef marinated for days in vinegar and spices and then slowly braised.", prica: "It is considered one of the national dishes, and in the Rhineland the sauce is sweetened with raisins and crumbled gingerbread, which makes it sweet and sour. It is served with potato dumplings and red cabbage, most often on Sundays." },
+    { ime: "Käsespätzle", opis: "Soft egg noodles baked with mountain cheese and fried onions.", prica: "The dish comes from Swabia and the Allgäu, and the dough is traditionally scraped off a board straight into boiling water. In mountain huts it arrives at the table in the pan, and you eat it right out of it." },
+    { ime: "Schwarzwälder Kirschtorte", opis: "A cake of chocolate sponge, cream, sour cherries and cherry brandy.", prica: "It is named after the Black Forest, the Schwarzwald, and under German regulations it may not carry that name without Kirschwasser cherry brandy. The sources disagree on who made it first, with pastry chefs from Bad Godesberg and Tübingen in the early 20th century both getting a mention." },
+    { ime: "Spargel", opis: "White asparagus, which Germans call “white gold” and eat with hollandaise sauce, potatoes and ham.", prica: "The season runs from April to June 24, St. John's Day, when by tradition the harvest stops so the plant can recover. At that time of year almost every restaurant has a special menu of nothing but asparagus, and growers' stalls spring up along the roads." },
+    { ime: "Döner Kebab", opis: "Meat from a vertical spit in flatbread with salad and sauces.", prica: "The döner in bread that all of Europe knows today was spread by Turkish immigrants in Berlin in the early 1970s, and exactly who was first is still the subject of a friendly dispute. Today it is the best-selling street food in the country." },
+    { ime: "Bier", opis: "Beer that is still brewed according to the Purity Law.", prica: "In 1516 Duke William IV of Bavaria decreed that beer could be made only from water, barley and hops, and yeast was added later, once its role had been discovered. Every region has its own style: Munich has pale Helles and wheat Weißbier, Cologne has its Kölsch, and Bamberg has smoked Rauchbier." },
+    { ime: "Riesling", opis: "An aromatic white wine from the steep slopes along the Rhine and the Mosel.", prica: "Germany is the homeland of Riesling and has more vineyards of that variety than any other country. The word trocken on the label means dry, while Kabinett and Spätlese tell you how ripe the grapes were, so those wines can also be gently sweet." }
   ],
   obicaji: [
-    { ime: "Oktoberfest", opis: "Najveća pučka svetkovina na svijetu počela je 1810. kao proslava vjenčanja bavarskog prijestolonasljednika Ludwiga i princeze Therese. Livada na kojoj se održava po njoj se i danas zove Theresienwiese, a pivo smiju točiti samo minhenske pivovare.", gdje: "München, Theresienwiese, od druge polovice rujna do prve nedjelje u listopadu. Mirnija je i starinskija ograđena „Oide Wiesn“ na južnom dijelu livade." },
-    { ime: "Weihnachtsmarkt", opis: "Božićni sajmovi njemački su izum, a drezdenski Striezelmarkt prvi se put spominje 1434. Na drvenim štandovima prodaju se kuhano vino Glühwein, medenjaci, pečeni bademi i ručno rađeni ukrasi.", gdje: "Nürnberg (Christkindlesmarkt na Hauptmarktu), Dresden (Striezelmarkt na Altmarktu) i Köln (ispred katedrale), od kraja studenoga do Badnjaka." },
-    { ime: "Karneval i Fasching", opis: "„Peto godišnje doba“ počinje 11. studenoga u 11 sati i 11 minuta, a vrhunac doživljava u tjednu prije Pepelnice. U Porajnju se viče „Alaaf“ ili „Helau“, a s povorki se u publiku bacaju slatkiši i cvijeće.", gdje: "Köln, Düsseldorf i Mainz, osobito na velikoj povorci Rosenmontagszug u ponedjeljak prije Pepelnice (veljača ili ožujak)." },
-    { ime: "Biergarten", opis: "Pivski vrt pod krošnjama kestena bavarska je ustanova s početka 19. stoljeća, kada su pivari dobili dopuštenje točiti pivo iznad svojih hladnih podruma. Otada vrijedi i običaj da se u tradicionalne vrtove smije donijeti vlastita hrana, a kupuje se samo piće.", gdje: "München: Augustiner-Keller, Hirschgarten i vrt kod Kineskog tornja u Engleskom vrtu, od proljeća do jeseni." },
-    { ime: "Kaffee und Kuchen", opis: "Poslijepodnevna kava s kriškom kolača obiteljski je ritual, osobito nedjeljom oko tri ili četiri sata. Slastičarnice se zovu Konditorei, a kolači se biraju na vitrini i potom vam ih donesu za stol.", gdje: "Bilo koja Konditorei u starim gradskim jezgrama, primjerice u Dresdenu, Lübecku ili Heidelbergu." },
-    { ime: "Schuhplattler i narodna nošnja", opis: "Bavarski ples u kojem se plesači u ritmu udaraju dlanovima po bedrima, koljenima i potplatima, a izvorno je bio udvaranje. Uz njega idu kožne hlače Lederhose i haljina Dirndl, čija mašna na pregači govori je li žena slobodna (vezana lijevo) ili zauzeta (desno).", gdje: "Pučke svetkovine i večeri zavičajnih društava u Gornjoj Bavarskoj i Allgäuu, ljeti gotovo svakog vikenda." },
-    { ime: "Nedjeljni mir i Pfand", opis: "Nedjeljom su trgovine zatvorene, pa namirnice valja kupiti u subotu, a u stambenim četvrtima toga se dana ne buši i ne kosi trava. Na boce i limenke plaća se povratna naknada Pfand, koju vraćate na automatu u svakoj trgovini.", gdje: "Posvuda u zemlji. Nedjeljom rade pekarnice ujutro te trgovine na većim kolodvorima." }
+    { ime: "Oktoberfest", opis: "The largest folk festival in the world began in 1810 as a celebration of the wedding of the Bavarian crown prince Ludwig and Princess Therese. The meadow where it is held is still called Theresienwiese after her, and only Munich breweries are allowed to pour the beer.", gdje: "Munich, Theresienwiese, from the second half of September to the first Sunday in October. The fenced-off “Oide Wiesn” at the southern end of the meadow is calmer and more old-fashioned." },
+    { ime: "Weihnachtsmarkt", opis: "Christmas markets are a German invention, and Dresden's Striezelmarkt is first mentioned in 1434. The wooden stalls sell Glühwein mulled wine, gingerbread, roasted almonds and handmade ornaments.", gdje: "Nuremberg (the Christkindlesmarkt on Hauptmarkt), Dresden (the Striezelmarkt on Altmarkt) and Cologne (in front of the cathedral), from late November to Christmas Eve." },
+    { ime: "Karneval and Fasching", opis: "The “fifth season” begins on November 11 at 11:11 a.m. and reaches its peak in the week before Ash Wednesday. In the Rhineland people shout “Alaaf” or “Helau”, and candy and flowers are thrown from the parades into the crowd.", gdje: "Cologne, Düsseldorf and Mainz, especially at the big Rosenmontagszug parade on the Monday before Ash Wednesday (February or March)." },
+    { ime: "Biergarten", opis: "The beer garden under the chestnut canopy is a Bavarian institution from the early 19th century, when brewers were given permission to pour beer above their cool cellars. The custom that you may bring your own food to traditional gardens and buy only the drinks dates from then too.", gdje: "Munich: Augustiner-Keller, Hirschgarten and the garden by the Chinese Tower in the English Garden, from spring to fall." },
+    { ime: "Kaffee und Kuchen", opis: "Afternoon coffee with a slice of cake is a family ritual, especially on Sundays around three or four o'clock. Pastry shops are called Konditorei, and you choose your cake at the display case and then have it brought to your table.", gdje: "Any Konditorei in the old town centers, for example in Dresden, Lübeck or Heidelberg." },
+    { ime: "Schuhplattler and traditional dress", opis: "A Bavarian dance in which the dancers slap their thighs, knees and the soles of their shoes in rhythm, and which was originally a form of courtship. It goes with Lederhose leather pants and the Dirndl dress, where the bow on the apron tells you whether a woman is single (tied on the left) or taken (on the right).", gdje: "Folk festivals and evenings held by local heritage societies in Upper Bavaria and the Allgäu, almost every weekend in summer." },
+    { ime: "Sunday quiet and Pfand", opis: "Stores are closed on Sundays, so groceries are best bought on Saturday, and in residential neighborhoods nobody drills or mows the lawn that day. Bottles and cans carry a deposit called Pfand, which you get back at a machine in any store.", gdje: "Everywhere in the country. On Sundays bakeries are open in the morning, as are the stores in the larger train stations." }
   ],
   fraze: [
-    { izvorno: "Guten Tag", izgovor: "GU-ten TAK", hr: "Dobar dan" },
-    { izvorno: "Danke schön", izgovor: "DAN-ke ŠEN", hr: "Hvala lijepa" },
-    { izvorno: "Bitte", izgovor: "BI-te", hr: "Molim, izvolite" },
-    { izvorno: "Entschuldigung", izgovor: "ent-ŠUL-di-gung", hr: "Oprostite" },
-    { izvorno: "Sprechen Sie Englisch?", izgovor: "ŠPRE-hen zi ENG-liš", hr: "Govorite li engleski?" },
-    { izvorno: "Die Rechnung, bitte", izgovor: "di REH-nung BI-te", hr: "Račun, molim" },
-    { izvorno: "Wo ist der Bahnhof?", izgovor: "vo ist der BAN-hof", hr: "Gdje je kolodvor?" },
-    { izvorno: "Prost!", izgovor: "PROST", hr: "Živjeli! (pri nazdravljanju se gleda u oči)" }
+    { izvorno: "Guten Tag", izgovor: "GOO-ten TAHK", hr: "Good day, hello" },
+    { izvorno: "Danke schön", izgovor: "DAHN-keh SHURN", hr: "Thank you very much" },
+    { izvorno: "Bitte", izgovor: "BIT-teh", hr: "Please, here you go" },
+    { izvorno: "Entschuldigung", izgovor: "ent-SHOOL-di-goong", hr: "Excuse me" },
+    { izvorno: "Sprechen Sie Englisch?", izgovor: "SHPREH-khen zee ENG-lish", hr: "Do you speak English?" },
+    { izvorno: "Die Rechnung, bitte", izgovor: "dee REKH-noong BIT-teh", hr: "The check, please" },
+    { izvorno: "Wo ist der Bahnhof?", izgovor: "voh ist dehr BAHN-hohf", hr: "Where is the train station?" },
+    { izvorno: "Prost!", izgovor: "PROHST", hr: "Cheers! (you look each other in the eye when you toast)" }
   ],
   zanimljivosti: [
-    "Johannes Gutenberg oko 1450. u Mainzu je usavršio tisak pomičnim slovima, a njegova Biblija smatra se prvom velikom tiskanom knjigom u Europi.",
-    "Hamburg ima oko 2500 mostova, više nego Venecija, Amsterdam i London zajedno.",
-    "Gumene medvjediće izmislio je slastičar Hans Riegel iz Bonna početkom 1920-ih, a ime tvrtke Haribo složio je od prvih slova svojega imena, prezimena i grada.",
-    "Dvorci bavarskoga kralja Ludwiga II., među njima i Neuschwanstein, upisani su na UNESCO-ov popis svjetske baštine tek u srpnju 2025.",
-    "Dolina Labe kod Dresdena jedno je od rijetkih mjesta na svijetu kojima je UNESCO oduzeo status svjetske baštine, i to 2009. zbog gradnje novog mosta.",
-    "Na dijelovima njemačkih autocesta nema općeg ograničenja brzine, ali vrijedi preporučena brzina od 130 kilometara na sat.",
-    "Kölnsku katedralu gradili su 632 godine, od 1248. do 1880., a gotovo tristo godina na nedovršenom je tornju stajala drvena dizalica."
+    "Around 1450 in Mainz, Johannes Gutenberg perfected printing with movable type, and his Bible is considered the first major printed book in Europe.",
+    "Hamburg has around 2,500 bridges, more than Venice, Amsterdam and London put together.",
+    "Gummy bears were invented in the early 1920s by the confectioner Hans Riegel of Bonn, who put together the company name Haribo from the first letters of his first name, his last name and his city.",
+    "The castles of King Ludwig II of Bavaria, Neuschwanstein among them, were added to the UNESCO World Heritage List only in July 2025.",
+    "The Elbe Valley at Dresden is one of the few places in the world to have had its World Heritage status withdrawn by UNESCO, which happened in 2009 because of the construction of a new bridge.",
+    "Stretches of the German autobahn have no general speed limit, although a recommended speed of 130 kilometers an hour applies.",
+    "Cologne Cathedral took 632 years to build, from 1248 to 1880, and for almost three hundred years a wooden crane stood on the unfinished tower."
   ],
   mjesta: [
     {
       id: "berlin",
       ime: "Berlin",
       vrsta: "grad",
-      sazetak: "Glavni grad u kojem se 20. stoljeće čita na svakom uglu, od pruske slave do rupa od metaka i ostataka Zida.",
+      sazetak: "The capital where the 20th century can be read on every corner, from Prussian glory to bullet holes and the remains of the Wall.",
       prica: [
-        "Berlin je nastao u 13. stoljeću od dvaju trgovačkih naselja na rijeci Spree, a pravu je veličinu dobio kao prijestolnica Pruske i potom ujedinjene Njemačke. U Drugom svjetskom ratu teško je razoren, a zatim podijeljen na četiri sektora, da bi ga od 13. kolovoza 1961. do 9. studenoga 1989. presijecao Zid. Zato i danas izgleda kao nekoliko gradova u jednom, s carskim avenijama, socijalističkim blokovima i staklenim zgradama izraslima na praznini koja je ostala nakon pada Zida."
+        "Berlin grew out of two trading settlements on the River Spree in the 13th century, and it gained its real stature as the capital of Prussia and then of unified Germany. It was badly destroyed in World War II and then divided into four sectors, and from August 13, 1961 to November 9, 1989 it was cut in two by the Wall. That is why it still looks like several cities in one, with imperial avenues, socialist housing blocks and glass buildings that grew up in the emptiness left behind when the Wall came down."
       ],
       vidjeti: [
-        { ime: "Brandenburška vrata", opis: "Klasicistička vrata dovršena su 1791. po uzoru na ulaz atenske Akropole. Pogledajte četveropreg na vrhu: Napoleon ga je 1806. kao ratni plijen odvezao u Pariz, a kada je 1814. vraćen, božica je u ruku dobila željezni križ i pruskog orla. Dok je stajao Zid, vrata su bila u ničijoj zemlji i nitko im nije mogao prići." },
-        { ime: "Reichstag", opis: "Zgrada parlamenta iz 1894. izgorjela je 1933., što su nacisti iskoristili za ukidanje građanskih sloboda. Staklenu kupolu dodao je 1999. arhitekt Norman Foster, a spiralnom rampom građani hodaju iznad glava zastupnika. U hodnicima su namjerno sačuvani ćirilični grafiti koje su 1945. ostavili sovjetski vojnici." },
-        { ime: "Otok muzeja", opis: "Pet muzeja na otoku u rijeci Spree nalazi se od 1999. na UNESCO-ovu popisu. U Novom muzeju čuva se poprsje kraljice Nefertiti, staro oko 3300 godina, kojem nedostaje lijevo oko. Pergamonski muzej zatvoren je od listopada 2023. zbog velike obnove, pa prije dolaska provjerite što je otvoreno." },
-        { ime: "Spomen-područje Berlinskog zida u Bernauer Straße", opis: "Ovo je jedino mjesto gdje je sačuvan cijeli presjek granice, s oba zida, „pojasom smrti“ i stražarskim tornjem. S vidikovca se vidi kako je uska ta traka bila, a u pločniku su označeni tuneli kojima su ljudi bježali. Kuće u ovoj ulici stajale su na Istoku, a pločnik na Zapadu, pa su ljudi prvih dana skakali kroz prozore." },
-        { ime: "East Side Gallery", opis: "Najdulji sačuvani dio Zida, dug 1,3 kilometra, oslikali su 1990. umjetnici iz dvadesetak zemalja. Najpoznatiji je prizor poljupca sovjetskog vođe Brežnjeva i istočnonjemačkog vođe Honeckera, naslikan prema stvarnoj fotografiji iz 1979." },
-        { ime: "Spomenik ubijenim Židovima Europe", opis: "Polje od 2711 betonskih blokova različite visine projektirao je Peter Eisenman, a otvoreno je 2005. Kada zađete među blokove, tlo se spušta, zvukovi grada nestaju i ostajete sami, što je i bila namjera. Ispod polja je informacijski centar s imenima i pismima žrtava." }
+        { ime: "Brandenburg Gate", opis: "The Neoclassical gate was completed in 1791, modeled on the entrance to the Acropolis in Athens. Look at the four-horse chariot on top: Napoleon carted it off to Paris as war booty in 1806, and when it was returned in 1814, the goddess was given an iron cross and the Prussian eagle to hold. While the Wall stood, the gate was in no man's land and nobody could get near it." },
+        { ime: "Reichstag", opis: "The parliament building from 1894 burned in 1933, which the Nazis used as a pretext to abolish civil liberties. The glass dome was added in 1999 by the architect Norman Foster, and on its spiral ramp citizens walk above the heads of their representatives. In the corridors, the Cyrillic graffiti left by Soviet soldiers in 1945 has been deliberately preserved." },
+        { ime: "Museum Island", opis: "The five museums on an island in the River Spree have been on the UNESCO list since 1999. The Neues Museum holds the bust of Queen Nefertiti, about 3,300 years old and missing its left eye. The Pergamon Museum has been closed since October 2023 for a major renovation, so check what is open before you come." },
+        { ime: "Berlin Wall Memorial on Bernauer Straße", opis: "This is the only place where a complete cross-section of the border survives, with both walls, the “death strip” and a watchtower. From the viewing platform you can see how narrow that strip was, and the tunnels people escaped through are marked in the pavement. The houses on this street stood in the East and the sidewalk in the West, so in the first days people jumped out of the windows." },
+        { ime: "East Side Gallery", opis: "The longest surviving section of the Wall, 1.3 kilometers long, was painted in 1990 by artists from some twenty countries. The best-known scene is the kiss between the Soviet leader Brezhnev and the East German leader Honecker, painted from a real photograph taken in 1979." },
+        { ime: "Memorial to the Murdered Jews of Europe", opis: "The field of 2,711 concrete blocks of varying height was designed by Peter Eisenman and opened in 2005. When you walk in among the blocks, the ground drops away, the sounds of the city disappear and you are left alone, which was exactly the intention. Beneath the field is an information center with the names and letters of the victims." }
       ],
       jesti: [
-        { ime: "Currywurst", opis: "Narezana pečena kobasica prelivena umakom od rajčice i posuta karijem. Prema berlinskoj predaji smislila ju je 1949. Herta Heuwer, koja je začine dobila od britanskih vojnika, a jede se na kioscima, s pomfritom ili pecivom." },
-        { ime: "Döner Kebab", opis: "Berlinski döner dolazi u hrskavoj lepinji s puno salate i tri umaka, a najbolje kioske naći ćete u četvrtima Kreuzberg i Neukölln." },
-        { ime: "Berliner Pfannkuchen", opis: "Krafna punjena pekmezom, koju svugdje u Njemačkoj zovu Berliner, a jedino je u Berlinu zovu Pfannkuchen." }
+        { ime: "Currywurst", opis: "A sliced grilled sausage covered in tomato sauce and dusted with curry powder. According to Berlin tradition it was thought up in 1949 by Herta Heuwer, who got the spices from British soldiers, and it is eaten at kiosks with fries or a bread roll." },
+        { ime: "Döner Kebab", opis: "The Berlin döner comes in crisp flatbread with plenty of salad and three sauces, and you will find the best kiosks in the Kreuzberg and Neukölln neighborhoods." },
+        { ime: "Berliner Pfannkuchen", opis: "A jam-filled doughnut that is called a Berliner everywhere in Germany, while in Berlin alone it is called a Pfannkuchen." }
       ],
       dozivjeti: [
-        { ime: "Uspon na kupolu Reichstaga", opis: "Ulaz je besplatan, ali se morate unaprijed prijaviti imenom i datumom rođenja te ponijeti osobnu iskaznicu ili putovnicu. Vrijedi doći pred zalazak sunca, kada se s terase vidi cijeli grad.", link: "https://www.bundestag.de/en/visittheBundestag/dome/registration-245686" },
-        { ime: "Šetnja uz trag Zida", opis: "U Bernauer Straße počinje otvoreni muzej s fotografijama i zvučnim zapisima, a dvostruki red kamenih kocaka u asfaltu pokazuje gdje je Zid prolazio kroz grad.", link: "https://www.stiftung-berliner-mauer.de/en" },
-        { ime: "Dan na Otoku muzeja", opis: "Ako volite stare civilizacije, krenite od Novog muzeja i Nefertiti, a zatim predahnite na stubama pod kolonadama uz rijeku.", link: "https://www.smb.museum/en/museums-institutions/museumsinsel-berlin/home/" }
+        { ime: "Climbing the Reichstag dome", opis: "Admission is free, but you have to register in advance with your name and date of birth and bring your ID card or passport. It is worth coming just before sunset, when the whole city is visible from the terrace.", link: "https://www.bundestag.de/en/visittheBundestag/dome/registration-245686" },
+        { ime: "A walk along the trace of the Wall", opis: "An open-air museum with photographs and audio recordings begins on Bernauer Straße, and a double row of cobblestones in the asphalt shows where the Wall ran through the city.", link: "https://www.stiftung-berliner-mauer.de/en" },
+        { ime: "A day on Museum Island", opis: "If you love ancient civilizations, start with the Neues Museum and Nefertiti, and then take a break on the steps under the colonnades by the river.", link: "https://www.smb.museum/en/museums-institutions/museumsinsel-berlin/home/" }
       ],
       agencije: [
-        { ime: "visitBerlin", opis: "Službena turistička zajednica grada, s kalendarom događanja, karticom Berlin WelcomeCard i popisom vođenih obilazaka.", link: "https://www.visitberlin.de/en" }
+        { ime: "visitBerlin", opis: "The city's official tourist board, with an events calendar, the Berlin WelcomeCard and a list of guided tours.", link: "https://www.visitberlin.de/en" }
       ],
-      kada: "Od svibnja do rujna grad živi na otvorenom. Berlin je golem, pa odmah kupite dnevnu kartu za javni prijevoz i ne pokušavajte sve obići pješice."
+      kada: "From May to September the city lives outdoors. Berlin is enormous, so buy a day ticket for public transport right away and do not try to cover everything on foot."
     },
     {
       id: "munchen",
-      ime: "München",
+      ime: "Munich",
       vrsta: "grad",
-      sazetak: "Bavarska prijestolnica u kojoj se kraljevske palače, velike galerije i pivnice s limenom glazbom nalaze na nekoliko koraka jedna od druge.",
+      sazetak: "The Bavarian capital where royal palaces, great galleries and beer halls with brass bands are just a few steps from one another.",
       prica: [
-        "Grad je 1158. utemeljio vojvoda Henrik Lav kraj naselja benediktinaca, pa mu ime znači „kod redovnika“, a redovnik je i danas na gradskom grbu. Više od sedam stoljeća, sve do 1918., ovdje je vladala dinastija Wittelsbach, koja je München ispunila palačama, crkvama i zbirkama umjetnina. U Drugom svjetskom ratu stara je jezgra teško stradala, ali je obnovljena prema starim nacrtima, pa nema nebodera koji bi nadvisili tornjeve katedrale."
+        "The city was founded in 1158 by Duke Henry the Lion beside a Benedictine settlement, so its name means “by the monks”, and a monk is still on the city's coat of arms today. For more than seven centuries, right up to 1918, it was ruled by the Wittelsbach dynasty, which filled Munich with palaces, churches and art collections. The old center suffered badly in World War II but was rebuilt from the old plans, which is why there are no skyscrapers rising above the cathedral towers."
       ],
       vidjeti: [
-        { ime: "Marienplatz i Nova vijećnica", opis: "Na pročelju neogotičke vijećnice nalazi se Glockenspiel s 43 zvona i 32 figure, koji svakoga dana u 11 i 12 sati prikazuje viteški turnir s kraljevskog vjenčanja 1568. Gledajte pažljivo, jer bavarski vitez u bijelo-plavom uvijek pobijedi. Ispod turnira bačvari plešu ples kojim su, prema predaji, razveselili grad nakon kuge." },
-        { ime: "Frauenkirche", opis: "Katedrala od opeke sagrađena je za samo dvadeset godina, od 1468. do 1488., a kupole u obliku lukovica dobila je 1525. Na ulazu potražite otisak stopala u podu: legenda kaže da ga je ostavio vrag kada je s tog mjesta pogledao crkvu i nije vidio nijedan prozor, jer su ih zaklanjali stupovi." },
-        { ime: "Residenz", opis: "Gradska palača Wittelsbacha rasla je četiri stoljeća i ima deset dvorišta. Najdojmljiviji je Antiquarium iz 16. stoljeća, 66 metara duga renesansna dvorana oslikana prizorima bavarskih gradova, sagrađena za vojvodinu zbirku antičkih kipova." },
-        { ime: "Engleski vrt", opis: "Jedan od najvećih gradskih parkova na svijetu uređen je 1789. za sve građane, što je tada bila novost. Na južnom ulazu, na potoku Eisbach, surferi cijele godine jašu stojni val, a ljeti se na livadama posve prirodno sunča i bez odjeće." },
-        { ime: "Dvorac Nymphenburg", opis: "Ljetna rezidencija sagrađena je kao dar izborne kneginje za rođenje dugo čekanog nasljednika 1662. U Galeriji ljepotica visi 36 portreta žena koje je kralj Ludwig I. smatrao najljepšima, od plemkinja do postolareve kćeri. U ovom je dvorcu 1845. rođen i Ludwig II., graditelj Neuschwansteina." }
+        { ime: "Marienplatz and the New Town Hall", opis: "On the facade of the Neo-Gothic town hall is the Glockenspiel with 43 bells and 32 figures, which every day at 11 a.m. and noon reenacts the jousting tournament from the royal wedding of 1568. Watch closely, because the Bavarian knight in white and blue always wins. Below the tournament, the coopers dance the dance with which, according to tradition, they cheered up the city after the plague." },
+        { ime: "Frauenkirche", opis: "The brick cathedral was built in just twenty years, from 1468 to 1488, and was given its onion-shaped domes in 1525. At the entrance, look for the footprint in the floor: legend says the devil left it when he looked at the church from that spot and could not see a single window, because the columns were hiding them." },
+        { ime: "Residenz", opis: "The Wittelsbachs' city palace grew over four centuries and has ten courtyards. The most impressive part is the 16th-century Antiquarium, a Renaissance hall 66 meters long painted with scenes of Bavarian towns and built for the duke's collection of ancient statues." },
+        { ime: "English Garden", opis: "One of the largest city parks in the world was laid out in 1789 for all citizens, which was a novelty at the time. At the southern entrance, on the Eisbach stream, surfers ride a standing wave all year round, and in summer people sunbathe on the meadows quite naturally without clothes too." },
+        { ime: "Nymphenburg Palace", opis: "The summer residence was built as a gift to the electress for the birth of a long-awaited heir in 1662. In the Gallery of Beauties hang 36 portraits of the women King Ludwig I considered the most beautiful, from noblewomen to a shoemaker's daughter. Ludwig II, the builder of Neuschwanstein, was also born in this palace in 1845." }
       ],
       jesti: [
-        { ime: "Weißwurst", opis: "Bijela teleća kobasica jede se prije podneva, sa slatkim senfom, perecom i pšeničnim pivom. Kožica se ne jede, nego se meso iz nje „isiše“ ili izreže." },
-        { ime: "Schweinshaxe", opis: "Svinjska koljenica s hrskavom korom, poslužena s okruglicom od krumpira i umakom od tamnog piva, klasik je svake pivnice." },
-        { ime: "Obatzda", opis: "Namaz od zrelog camemberta, maslaca i paprike, koji se u pivskim vrtovima jede s perecom i kolutima luka." }
+        { ime: "Weißwurst", opis: "The white veal sausage is eaten before noon, with sweet mustard, a pretzel and wheat beer. You do not eat the skin, and instead the meat is “sucked” out of it or cut out." },
+        { ime: "Schweinshaxe", opis: "Pork knuckle with a crackling crust, served with a potato dumpling and dark beer gravy, is a classic of every beer hall." },
+        { ime: "Obatzda", opis: "A spread of ripe camembert, butter and paprika, eaten in beer gardens with a pretzel and rings of onion." }
       ],
       dozivjeti: [
-        { ime: "Večer u Hofbräuhausu", opis: "Dvorsku pivovaru utemeljio je vojvoda Vilim V. 1589., a u velikoj dvorani i danas svira limena glazba. Sjeda se za duge zajedničke stolove, osim za one s natpisom Stammtisch, koji su rezervirani za stalne goste.", link: "https://www.hofbraeuhaus.de/en/" },
-        { ime: "Tržnica Viktualienmarkt", opis: "Na tržnici u samom središtu kupite sir, kobasice i voće, pa sjednite u pivski vrt pod kestenima, gdje se pivovare izmjenjuju svakih nekoliko tjedana." },
-        { ime: "Deutsches Museum", opis: "Jedan od najvećih muzeja znanosti i tehnike na svijetu stoji na otoku u rijeci Isar. Dobar je izbor za kišni dan, jer se mnogo toga smije dotaknuti i pokrenuti.", link: "https://www.deutsches-museum.de/en" }
+        { ime: "An evening at the Hofbräuhaus", opis: "The court brewery was founded by Duke William V in 1589, and a brass band still plays in the great hall today. You sit at long shared tables, except for the ones marked Stammtisch, which are reserved for regulars.", link: "https://www.hofbraeuhaus.de/en/" },
+        { ime: "Viktualienmarkt", opis: "At the market right in the center, buy cheese, sausages and fruit and then sit down in the beer garden under the chestnut trees, where the breweries take turns every few weeks." },
+        { ime: "Deutsches Museum", opis: "One of the largest museums of science and technology in the world stands on an island in the River Isar. It is a good choice for a rainy day, because there is a lot you are allowed to touch and set in motion.", link: "https://www.deutsches-museum.de/en" }
       ],
       agencije: [
-        { ime: "München Tourismus", opis: "Službena turistička stranica grada, preko koje se rezerviraju obilasci sa službenim gradskim vodičima, uključujući šetnje po četvrtima i uspon na toranj vijećnice.", link: "https://www.muenchen.travel/" }
+        { ime: "München Tourismus", opis: "The city's official tourism website, where you can book tours with official city guides, including neighborhood walks and the climb up the town hall tower.", link: "https://www.muenchen.travel/" }
       ],
-      kada: "Svibanj, lipanj i rujan najugodniji su za pivske vrtove. Za Oktoberfest smještaj rezervirajte mjesecima unaprijed ili dođite radnim danom prijepodne."
+      kada: "May, June and September are the most pleasant months for beer gardens. For Oktoberfest, book your accommodation months in advance or come on a weekday morning."
     },
     {
       id: "hamburg",
       ime: "Hamburg",
       vrsta: "grad",
-      sazetak: "Lučki grad na Labi, s kanalima, skladištima od crvene opeke i koncertnom dvoranom nalik staklenom valu.",
+      sazetak: "A port city on the Elbe, with canals, red-brick warehouses and a concert hall that looks like a wave of glass.",
       prica: [
-        "Hamburg je izrastao oko utvrde Hammaburg iz 9. stoljeća i obogatio se kao član Hanze, saveza trgovačkih gradova na sjeveru Europe. Do danas se službeno zove Slobodni i hanzeatski grad i sam je sebi savezna zemlja. Dva su ga puta gotovo uništila, veliki požar 1842. i saveznička bombardiranja u srpnju 1943., pa je staro srednjovjekovno tkivo nestalo, a zamijenili su ga trgovačke palače i moderna luka."
+        "Hamburg grew up around the 9th-century Hammaburg fortress and got rich as a member of the Hanseatic League, the alliance of trading cities in northern Europe. To this day its official name is the Free and Hanseatic City, and it is a federal state in its own right. It was almost destroyed twice, by the great fire of 1842 and by the Allied bombing raids of July 1943, so the old medieval fabric disappeared and was replaced by merchants' palaces and a modern port."
       ],
       vidjeti: [
-        { ime: "Speicherstadt", opis: "Najveći skladišni kompleks na svijetu građen je od 1883. na tisućama hrastovih pilota zabijenih u mulj. U kućama od crvene opeke čuvali su se kava, čaj, začini i sagovi, a roba se dizala vitlima koje i danas vidite pod zabatima. Zajedno sa susjednom četvrti poslovnih zgrada upisan je 2015. na UNESCO-ov popis." },
-        { ime: "Elbphilharmonie", opis: "Koncertna dvorana otvorena u siječnju 2017. sagrađena je na starom skladištu kakaa, a staklena kruna sastoji se od oko tisuću zakrivljenih prozora. Do vidikovca Plaza vozi blago zakrivljeno pokretno stubište dugo 82 metra, na kojem ne vidite kraj dok se ne približite." },
-        { ime: "Crkva sv. Mihaela", opis: "Barokni „Michel“ bio je prvo što bi mornari ugledali ploveći uz Labu. S tornja visokog 132 metra svakog dana trubač svira koral na sve četiri strane svijeta, a običaj traje više od tristo godina." },
-        { ime: "Chilehaus", opis: "Poslovna zgrada iz 1924. izgleda kao pramac broda koji siječe ulicu. Naručio ju je trgovac koji se obogatio uvozom salitre iz Čilea, a u nju je ugrađeno gotovo pet milijuna tamnih opeka." },
-        { ime: "Spomen-crkva sv. Nikole", opis: "Od neogotičke crkve ostao je samo pocrnjeli toranj, koji je 1943. pilotima služio kao orijentir pri bombardiranju. Ruševina je ostavljena kao opomena, a staklenim dizalom možete se popeti na 76 metara i pogledati grad." }
+        { ime: "Speicherstadt", opis: "The largest warehouse complex in the world was built from 1883 on thousands of oak piles driven into the mud. Coffee, tea, spices and carpets were stored in the red-brick buildings, and goods were hoisted up by the winches you can still see under the gables. Together with the neighboring district of office buildings it was added to the UNESCO list in 2015." },
+        { ime: "Elbphilharmonie", opis: "The concert hall that opened in January 2017 was built on top of an old cocoa warehouse, and its glass crown is made up of around a thousand curved windows. A gently arched escalator 82 meters long takes you up to the Plaza viewing platform, and you cannot see the end of it until you get close." },
+        { ime: "St. Michael's Church", opis: "The Baroque “Michel” was the first thing sailors would catch sight of as they sailed up the Elbe. From the 132-meter tower a trumpeter plays a chorale every day toward all four points of the compass, a custom that has lasted more than three hundred years." },
+        { ime: "Chilehaus", opis: "The office building from 1924 looks like the bow of a ship slicing through the street. It was commissioned by a merchant who made his fortune importing saltpeter from Chile, and almost five million dark bricks went into it." },
+        { ime: "St. Nicholas Memorial Church", opis: "All that is left of the Neo-Gothic church is the blackened tower, which served pilots as a landmark during the bombing in 1943. The ruin was left as a warning, and you can take a glass elevator up to 76 meters and look out over the city." }
       ],
       jesti: [
-        { ime: "Fischbrötchen", opis: "Pecivo s haringom, kozicama ili prženom ribom i lukom, koje se jede s nogu u luci, najbolje na Landungsbrückenu." },
-        { ime: "Franzbrötchen", opis: "Spljošteno lisnato pecivo s cimetom i šećerom, hamburški odgovor na kroasan, koji ćete naći u svakoj pekarnici." },
-        { ime: "Labskaus", opis: "Mornarsko jelo od usoljene govedine, krumpira i cikle, posluženo s pečenim jajetom, haringom i krastavcem. Izgleda neobično ružičasto, ali je iznenađujuće ukusno." }
+        { ime: "Fischbrötchen", opis: "A roll with herring, shrimp or fried fish and onion, eaten standing up in the harbor, best of all at the Landungsbrücken." },
+        { ime: "Franzbrötchen", opis: "A flattened flaky pastry with cinnamon and sugar, Hamburg's answer to the croissant, which you will find in every bakery." },
+        { ime: "Labskaus", opis: "A sailors' dish of corned beef, potatoes and beets, served with a fried egg, herring and a pickle. It looks unusually pink, but it is surprisingly tasty." }
       ],
       dozivjeti: [
-        { ime: "Vidikovac Plaza u Elbphilharmonie", opis: "S terase na 37 metara visine vide se luka, kanali i tornjevi grada. Karta za Plazu izdaje se za točno vrijeme, pa je provjerite ili rezervirajte na službenoj stranici.", link: "https://www.elbphilharmonie.de/en/plaza" },
-        { ime: "Fischmarkt nedjeljom u zoru", opis: "Riblja tržnica u četvrti Altona održava se nedjeljom rano ujutro još od 1703. Prodavači glasno nadvikuju jedni druge i dijele pune košare voća, a u staroj dražbovnoj dvorani svira glazba uživo." },
-        { ime: "Miniatur Wunderland", opis: "Najveća maketa željeznice na svijetu smještena je u jednom od skladišta Speicherstadta. Svakih petnaestak minuta nastupa noć i pale se tisuće svjetala, a na maketi zračne luke avioni polijeću i slijeću.", link: "https://www.miniatur-wunderland.com/" }
+        { ime: "The Plaza viewing platform at the Elbphilharmonie", opis: "From the terrace 37 meters up you can see the port, the canals and the city's towers. Plaza tickets are issued for a specific time, so check or reserve one on the official website.", link: "https://www.elbphilharmonie.de/en/plaza" },
+        { ime: "The Fischmarkt at dawn on Sunday", opis: "The fish market in the Altona district has been held early on Sunday mornings since 1703. The vendors loudly shout each other down and hand out whole baskets of fruit, while live music plays in the old auction hall." },
+        { ime: "Miniatur Wunderland", opis: "The largest model railway in the world is housed in one of the Speicherstadt warehouses. Every fifteen minutes or so night falls and thousands of lights come on, and at the model airport planes take off and land.", link: "https://www.miniatur-wunderland.com/" }
       ],
       agencije: [
-        { ime: "Hamburg Tourismus", opis: "Službena turistička zajednica grada, s karticom Hamburg CARD i ponudom vožnji brodom po luci i kanalima.", link: "https://www.hamburg-travel.com/" }
+        { ime: "Hamburg Tourismus", opis: "The city's official tourist board, with the Hamburg CARD and a range of boat trips around the port and the canals.", link: "https://www.hamburg-travel.com/" }
       ],
-      kada: "Od svibnja do rujna, a početkom svibnja slavi se rođendan luke s paradom brodova. Ponesite vjetrovku, jer vrijeme se mijenja nekoliko puta dnevno."
+      kada: "From May to September, and in early May the port's birthday is celebrated with a parade of ships. Bring a windbreaker, because the weather changes several times a day."
     },
     {
       id: "koln",
-      ime: "Köln",
+      ime: "Cologne",
       vrsta: "grad",
-      sazetak: "Rimski grad na Rajni nad kojim se uzdiže jedna od najvećih gotičkih katedrala na svijetu.",
+      sazetak: "A Roman city on the Rhine with one of the largest Gothic cathedrals in the world towering above it.",
       prica: [
-        "Köln su osnovali Rimljani, a status grada dobio je 50. godine zahvaljujući carici Agripini, koja je ovdje rođena, pa mu ime dolazi od latinske riječi colonia. U srednjem vijeku bio je najveći grad njemačkih zemalja i veliko hodočasničko odredište. Bombardiranja u Drugom svjetskom ratu uništila su veći dio središta, pa je katedrala ostala stajati gotovo sama među ruševinama, a grad oko nje sagrađen je iznova."
+        "Cologne was founded by the Romans and was granted city status in the year 50 thanks to Empress Agrippina, who was born here, so its name comes from the Latin word colonia. In the Middle Ages it was the largest city in the German lands and a major pilgrimage destination. The bombing raids of World War II destroyed most of the center, leaving the cathedral standing almost alone among the ruins, and the city around it was built anew."
       ],
       vidjeti: [
-        { ime: "Kölnska katedrala", opis: "Gradnja je počela 1248., oko 1560. je stala zbog nedostatka novca, a nastavljena je prema pronađenim srednjovjekovnim nacrtima i dovršena 1880. Tornjevi su visoki 157 metara, a na južni vodi 533 stube. Od 1996. katedrala je na UNESCO-ovu popisu." },
-        { ime: "Škrinja Sveta tri kralja", opis: "Iza glavnog oltara stoji najveći zlatni relikvijar srednjega vijeka, izrađen oko 1200. Relikvije mudraca donesene su 1164. iz Milana i upravo je zbog njih sagrađena ovako velika crkva. Tri krune nalaze se i na gradskom grbu." },
-        { ime: "Richterov prozor", opis: "Prozor u južnom krilu katedrale izradio je 2007. slikar Gerhard Richter od više od jedanaest tisuća staklenih kvadratića u 72 boje, čiji je raspored odredilo računalo. Za sunčana dana obojena svjetlost prelijeva se po podu i stupovima." },
-        { ime: "Hohenzollernov most", opis: "Željeznički most preko Rajne poznat je po tisućama lokota koje parovi vješaju na ogradu, pa su teški više tona. S desne obale pruža se najljepši pogled na katedralu i stari grad, osobito u sumrak." },
-        { ime: "Romaničke crkve", opis: "Köln ima dvanaest velikih romaničkih crkava, starijih od katedrale. Groß St. Martin s četiri tornjića uz Rajnu stoji na temeljima rimskih skladišta, koji se mogu vidjeti u kripti." }
+        { ime: "Cologne Cathedral", opis: "Construction began in 1248, stopped around 1560 for lack of money, and was resumed using rediscovered medieval plans and completed in 1880. The towers are 157 meters high, and 533 steps lead up the south one. The cathedral has been on the UNESCO list since 1996." },
+        { ime: "Shrine of the Three Kings", opis: "Behind the high altar stands the largest gold reliquary of the Middle Ages, made around 1200. The relics of the Magi were brought from Milan in 1164, and they are the very reason such a large church was built. Three crowns appear on the city's coat of arms as well." },
+        { ime: "The Richter Window", opis: "The window in the south transept of the cathedral was made in 2007 by the painter Gerhard Richter from more than eleven thousand small squares of glass in 72 colors, their arrangement determined by a computer. On a sunny day the colored light spills across the floor and the columns." },
+        { ime: "Hohenzollern Bridge", opis: "The railway bridge across the Rhine is known for the thousands of padlocks that couples hang on its railing, which now weigh several tons. The right bank gives you the most beautiful view of the cathedral and the old town, especially at dusk." },
+        { ime: "The Romanesque churches", opis: "Cologne has twelve great Romanesque churches that are older than the cathedral. Groß St. Martin, with its four turrets beside the Rhine, stands on the foundations of Roman warehouses, which can be seen in the crypt." }
       ],
       jesti: [
-        { ime: "Kölsch", opis: "Svijetlo pivo koje se toči u uskim čašama od dva decilitra. Konobar, kojeg zovu Köbes, donosi novu čašu čim se stara isprazni, sve dok podmetač ne stavite na čašu." },
-        { ime: "Halve Hahn", opis: "Ime znači „pola pijetla“, ali je riječ o raženom pecivu s debelom kriškom sira gaude, maslacem, lukom i senfom." },
-        { ime: "Himmel un Ääd", opis: "„Nebo i zemlja“, pire od jabuka i krumpira s prženom krvavicom i lukom." }
+        { ime: "Kölsch", opis: "A pale beer poured into narrow glasses holding two deciliters. The waiter, who is called a Köbes, brings a fresh glass as soon as the old one is empty, and keeps going until you put your coaster on top of the glass." },
+        { ime: "Halve Hahn", opis: "The name means “half a rooster”, but what you get is a rye roll with a thick slice of gouda, butter, onion and mustard." },
+        { ime: "Himmel un Ääd", opis: "“Heaven and earth”, a mash of apples and potatoes with fried blood sausage and onions." }
       ],
       dozivjeti: [
-        { ime: "Uspon na toranj katedrale", opis: "Usput ćete proći pokraj zvona sv. Petra, teškog 24 tone, koje se ubraja među najveća slobodno njišuća crkvena zvona na svijetu. Na službenoj stranici provjerite radno vrijeme tornja i riznice.", link: "https://www.koelner-dom.de/en" },
-        { ime: "Večer u pivnici", opis: "U starim pivnicama oko Starog trga i Heumarkta sjedi se za dugim drvenim stolovima, a Köbes je namjerno pomalo osoran, što je dio predstave." },
-        { ime: "Šetnja uz Rajnu do Muzeja čokolade", opis: "Obalnom promenadom od staroga grada stiže se do poluotoka u nekadašnjoj luci, gdje se može pratiti put od zrna kakaa do čokolade." }
+        { ime: "Climbing the cathedral tower", opis: "On the way up you will pass St. Peter's Bell, which weighs 24 tons and ranks among the largest free-swinging church bells in the world. Check the opening hours of the tower and the treasury on the official website.", link: "https://www.koelner-dom.de/en" },
+        { ime: "An evening in a brewery tavern", opis: "In the old taverns around the Alter Markt and the Heumarkt you sit at long wooden tables, and the Köbes is deliberately a little gruff, which is part of the show." },
+        { ime: "A walk along the Rhine to the Chocolate Museum", opis: "The riverside promenade from the old town brings you to a peninsula in the former harbor, where you can follow the journey from cocoa bean to chocolate." }
       ],
       agencije: [
-        { ime: "KölnTourismus", opis: "Službena turistička zajednica grada, s uredom nasuprot katedrali i ponudom vođenih šetnji.", link: "https://www.cologne-tourism.com/" }
+        { ime: "KölnTourismus", opis: "The city's official tourist board, with an office across from the cathedral and a range of guided walks.", link: "https://www.cologne-tourism.com/" }
       ],
-      kada: "Lijepo je od travnja do listopada i u vrijeme adventa. Za karnevalskih dana u veljači ili ožujku grad je posve drukčiji, bučan i maskiran, pa to uzmite u obzir."
+      kada: "It is lovely from April to October and during Advent. On the carnival days in February or March the city is completely different, noisy and in costume, so take that into account."
     },
     {
       id: "dresden",
       ime: "Dresden",
       vrsta: "grad",
-      sazetak: "Barokna „Firenca na Labi“, koja je iz pepela 1945. podignuta kamen po kamen.",
+      sazetak: "The Baroque “Florence on the Elbe”, raised from the ashes of 1945 stone by stone.",
       prica: [
-        "Dresden je bio prijestolnica saskih izbornih knezova, a zlatno doba doživio je početkom 18. stoljeća pod Augustom Jakim, strastvenim sakupljačem umjetnina i porculana. U noći s 13. na 14. veljače 1945. savezničko bombardiranje i vatrena oluja uništili su staru jezgru. Obnova je trajala desetljećima, a najpoznatije su zgrade sastavljene od izvornog kamenja, pa se na pročeljima vide tamni stari i svijetli novi blokovi."
+        "Dresden was the capital of the electors of Saxony, and it enjoyed its golden age in the early 18th century under Augustus the Strong, a passionate collector of art and porcelain. On the night of February 13 to 14, 1945, Allied bombing and a firestorm destroyed the old center. Reconstruction took decades, and the most famous buildings were pieced together from the original stones, so on the facades you can see dark old blocks next to pale new ones."
       ],
       vidjeti: [
-        { ime: "Frauenkirche", opis: "Protestantska crkva s golemom kamenom kupolom, dovršena 1743., srušila se dva dana nakon bombardiranja. Hrpa kamenja ostala je pola stoljeća kao spomenik, a crkva je ponovno posvećena 2005. Križ na vrhu izradio je britanski zlatar čiji je otac bio među pilotima koji su bombardirali grad." },
-        { ime: "Zwinger", opis: "Barokni kompleks paviljona i galerija August Jaki dao je sagraditi od 1710. kao pozornicu za dvorske svečanosti. U Galeriji starih majstora visi Rafaelova Sikstinska Madona, na čijem su dnu dva zamišljena anđelčića, poznata s bezbrojnih razglednica." },
-        { ime: "Fürstenzug", opis: "Povorka vladara duga 102 metra prikazuje saske vladare kroz osam stoljeća. Izrađena je od oko 23 000 pločica porculana iz Meissena i gotovo je neoštećena preživjela 1945." },
-        { ime: "Semperova opera", opis: "U ovoj su kući praizvedene opere Wagnera i Richarda Straussa. Iznad pozornice je sat s brojkama umjesto kazaljki, koji vrijeme pokazuje u koracima od pet minuta, da ga gledatelji vide i u polumraku." },
-        { ime: "Zeleni svod", opis: "Riznica Augusta Jakog u dvorcu jedna je od najbogatijih u Europi. Potražite košticu trešnje u koju je urezano više od stotinu sićušnih lica i zlatni dvor indijskog velikog mogula s više od stotinu figurica." }
+        { ime: "Frauenkirche", opis: "The Protestant church with its enormous stone dome, completed in 1743, collapsed two days after the bombing. The pile of rubble stayed there for half a century as a memorial, and the church was reconsecrated in 2005. The cross on top was made by a British goldsmith whose father was among the pilots who bombed the city." },
+        { ime: "Zwinger", opis: "Augustus the Strong had this Baroque complex of pavilions and galleries built from 1710 as a stage for court festivities. In the Old Masters Picture Gallery hangs Raphael's Sistine Madonna, with the two pensive little angels at the bottom who are familiar from countless postcards." },
+        { ime: "Fürstenzug", opis: "The Procession of Princes, 102 meters long, shows the rulers of Saxony across eight centuries. It is made of around 23,000 Meissen porcelain tiles and survived 1945 almost undamaged." },
+        { ime: "Semperoper", opis: "Operas by Wagner and Richard Strauss had their premieres in this house. Above the stage is a clock with numerals instead of hands, which shows the time in five-minute steps so that the audience can read it even in the half-dark." },
+        { ime: "The Green Vault", opis: "The treasury of Augustus the Strong in the palace is one of the richest in Europe. Look for the cherry pit carved with more than a hundred tiny faces and the golden court of the Indian Grand Mogul with more than a hundred figurines." }
       ],
       jesti: [
-        { ime: "Dresdner Christstollen", opis: "Božićni kruh s grožđicama, bademima i maslacem, debelo posut šećerom u prahu. Pravi nosi zlatni pečat i peče se samo u Dresdenu i okolici." },
-        { ime: "Eierschecke", opis: "Saski kolač u tri sloja, od tijesta, kreme od svježeg sira i pjenaste kreme od jaja, koji se jede uz poslijepodnevnu kavu." },
-        { ime: "Sächsischer Sauerbraten", opis: "Saska inačica marinirane goveđe pečenke, poslužena s okruglicama i crvenim kupusom." }
+        { ime: "Dresdner Christstollen", opis: "A Christmas bread with raisins, almonds and butter, thickly dusted with powdered sugar. The real thing carries a gold seal and is baked only in Dresden and the surrounding area." },
+        { ime: "Eierschecke", opis: "A Saxon cake in three layers, of dough, a fresh cheese filling and a frothy egg custard, eaten with afternoon coffee." },
+        { ime: "Sächsischer Sauerbraten", opis: "The Saxon version of marinated pot roast, served with dumplings and red cabbage." }
       ],
       dozivjeti: [
-        { ime: "Orguljaška pobožnost u Frauenkirche", opis: "Crkva je otvorena za razgledavanje, a redovito se održavaju kratke pobožnosti s orguljama i koncerti. Tko želi, može se popeti i na vidikovac na kupoli.", link: "https://www.frauenkirche-dresden.de/home" },
-        { ime: "Večer u Semperovoj operi", opis: "Ako nemate kartu za predstavu, zgradu možete razgledati u pratnji vodiča.", link: "https://www.semperoper.de/en/" },
-        { ime: "Šetnja Brühlovom terasom", opis: "Šetnica na nekadašnjim bedemima iznad Labe naziva se „balkonom Europe“. Najljepša je pred večer, kada se na suprotnoj obali pale svjetla." }
+        { ime: "Organ devotions at the Frauenkirche", opis: "The church is open to visitors, and short devotions with organ music and concerts are held regularly. Anyone who wants to can also climb up to the viewing platform on the dome.", link: "https://www.frauenkirche-dresden.de/home" },
+        { ime: "An evening at the Semperoper", opis: "If you do not have a ticket for a performance, you can see the building on a guided tour.", link: "https://www.semperoper.de/en/" },
+        { ime: "A stroll along Brühl's Terrace", opis: "The promenade on the former ramparts above the Elbe is known as the “balcony of Europe”. It is at its most beautiful toward evening, when the lights come on along the opposite bank." }
       ],
       agencije: [
-        { ime: "Dresden Tourismus", opis: "Službene turističke stranice grada Dresdena s obilascima, muzejima i događanjima.", link: "https://www.dresden.de/en/tourism/tourism.php" }
+        { ime: "Dresden Tourismus", opis: "The official tourism pages of the city of Dresden, with tours, museums and events.", link: "https://www.dresden.de/en/tourism/tourism.php" }
       ],
-      kada: "Od svibnja do rujna te u adventu, zbog sajma Striezelmarkt. Zbirke u dvorcu jednog su dana u tjednu zatvorene, pa provjerite raspored."
+      kada: "From May to September and during Advent, for the Striezelmarkt. The collections in the palace are closed one day a week, so check the schedule."
     },
     {
       id: "heidelberg",
       ime: "Heidelberg",
       vrsta: "grad",
-      sazetak: "Sveučilišni grad pod ruševinom dvorca od crvenog pješčenjaka, u koji su se zaljubljivali romantičarski pjesnici i slikari.",
+      sazetak: "A university town beneath a ruined castle of red sandstone, which Romantic poets and painters used to fall in love with.",
       prica: [
-        "Heidelberg je bio sjedište falačkih izbornih knezova, a knez Ruprecht I. ovdje je 1386. osnovao najstarije sveučilište u današnjoj Njemačkoj. Krajem 17. stoljeća francuske su ga trupe dvaput razorile, pa je grad pod dvorcem ponovno sagrađen u baroknom stilu na srednjovjekovnom tlocrtu. Dvorac nikada nije obnovljen, a upravo je ta ruševina iznad rijeke Neckar u 19. stoljeću postala simbol njemačkog romantizma."
+        "Heidelberg was the seat of the electors of the Palatinate, and in 1386 Elector Ruprecht I founded here the oldest university in present-day Germany. At the end of the 17th century French troops destroyed it twice, so the town below the castle was rebuilt in the Baroque style on its medieval street plan. The castle was never restored, and it was precisely this ruin above the River Neckar that became a symbol of German Romanticism in the 19th century."
       ],
       vidjeti: [
-        { ime: "Dvorac Heidelberg", opis: "Francuzi su ga minirali 1689. i 1693., a 1764. dvaput je udario grom, pa je napušten. Pogledajte prepolovljeni Barutni toranj, čija se polovica odlomila i ostala ležati u jarku. Pročelje krila Ottheinrichsbau, s kipovima antičkih junaka, ubraja se među najljepša renesansna pročelja sjeverno od Alpa." },
-        { ime: "Velika bačva", opis: "U podrumu dvorca leži bačva iz 1751., u koju stane oko 220 000 litara vina, a na njoj je mali plesni podij. Čuvao ju je dvorski patuljak Perkeo, čiji kipić stoji nasuprot. Predaja kaže da je pio samo vino i da je umro kada je prvi put popio čašu vode." },
-        { ime: "Stari most", opis: "Kameni most iz 1788. vodi do gradskih vrata s dva tornja. Kraj njih sjedi brončani majmun sa zrcalom, a kažu da donosi sreću onome tko ga dotakne i da podsjeća prolaznike kako nitko nije bolji od drugoga." },
-        { ime: "Studentski zatvor", opis: "Sveučilište je do 1914. imalo vlastiti zatvor za studente koji bi noću bučili ili se tukli. Kazna se smatrala čašću, pa su zatvorenici zidove i stropove iscrtali portretima, grbovima i stihovima, koji su sačuvani do danas." },
-        { ime: "Crkva Duha Svetoga", opis: "U ovoj se gotičkoj crkvi čuvala glasovita knjižnica Bibliotheca Palatina, koju je 1623. kao ratni plijen dobio papa, pa se i danas velikim dijelom nalazi u Vatikanu. Između potpornjaka izvana i sada su ugrađeni mali dućani, kao u srednjem vijeku." }
+        { ime: "Heidelberg Castle", opis: "The French blew it up in 1689 and 1693, and in 1764 lightning struck twice, so it was abandoned. Look at the Powder Tower, split in two, with one half that broke off and still lies in the moat. The facade of the Ottheinrichsbau wing, with its statues of ancient heroes, ranks among the most beautiful Renaissance facades north of the Alps." },
+        { ime: "The Great Barrel", opis: "In the castle cellar lies a barrel from 1751 that holds around 220,000 liters of wine, with a small dance floor on top of it. It was guarded by the court dwarf Perkeo, whose statuette stands across from it. Tradition has it that he drank nothing but wine and died the first time he drank a glass of water." },
+        { ime: "The Old Bridge", opis: "The stone bridge from 1788 leads to a town gate with two towers. Beside it sits a bronze monkey holding a mirror, which is said to bring luck to anyone who touches it and to remind passersby that nobody is better than anybody else." },
+        { ime: "The Student Prison", opis: "Until 1914 the university had its own jail for students who made noise at night or got into fights. The punishment was considered an honor, so the inmates covered the walls and ceilings with portraits, coats of arms and verses, which have survived to this day." },
+        { ime: "Church of the Holy Spirit", opis: "This Gothic church once housed the famous library known as the Bibliotheca Palatina, which the pope received as war booty in 1623, so most of it is still in the Vatican today. Small shops are still built in between the buttresses outside, just as in the Middle Ages." }
       ],
       jesti: [
-        { ime: "Heidelberger Studentenkuss", opis: "Čokoladni slatkiš s nugatom, koji je 1863. smislio slastičar Fridolin Knösel da bi ga studenti, pod budnim okom odgojiteljica, mogli pokloniti djevojkama umjesto poljupca." },
-        { ime: "Pfälzer Saumagen", opis: "Falačka poslastica od svinjetine, krumpira i začina, narezana na kriške i zapečena, uz koju ide kiseli kupus." },
-        { ime: "Vino iz Badena", opis: "Heidelberg leži na početku vinske ceste Bergstraße, pa u gostionicama kušajte lokalni rizling ili pinot." }
+        { ime: "Heidelberger Studentenkuss", opis: "A chocolate sweet with nougat, thought up in 1863 by the confectioner Fridolin Knösel so that students could give it to girls in place of a kiss, under the watchful eye of their chaperones." },
+        { ime: "Pfälzer Saumagen", opis: "A Palatinate specialty of pork, potatoes and spices, cut into slices and browned, served with sauerkraut." },
+        { ime: "Wine from Baden", opis: "Heidelberg lies at the start of the Bergstraße wine route, so try the local Riesling or pinot in the taverns." }
       ],
       dozivjeti: [
-        { ime: "Uspinjačom do dvorca", opis: "Uspinjača kreće s trga Kornmarkt i za nekoliko minuta stiže do dvorca, a karta uključuje dvorište, veliku bačvu i Muzej ljekarništva. S terase je najljepši pogled na grad i rijeku.", link: "https://www.schloss-heidelberg.de/en/" },
-        { ime: "Šetnja Stazom filozofa", opis: "Na suprotnoj obali Neckara staza vodi kroz vrtove u kojima zbog blage klime rastu bademi i smokve. Odatle je najbolji pogled na dvorac, osobito kasno poslijepodne, kada ga obasja sunce." }
+        { ime: "The funicular up to the castle", opis: "The funicular leaves from the Kornmarkt square and reaches the castle in a few minutes, and the ticket includes the courtyard, the Great Barrel and the Pharmacy Museum. The terrace has the most beautiful view of the town and the river.", link: "https://www.schloss-heidelberg.de/en/" },
+        { ime: "A walk on the Philosophers' Way", opis: "On the opposite bank of the Neckar the path leads through gardens where almonds and figs grow thanks to the mild climate. This is where you get the best view of the castle, especially late in the afternoon when the sun lights it up." }
       ],
       agencije: [
-        { ime: "Heidelberg Marketing", opis: "Službena turistička zajednica grada, koja nudi vođene šetnje starom jezgrom i karticu HeidelbergCARD.", link: "https://www.heidelberg-marketing.de/en" }
+        { ime: "Heidelberg Marketing", opis: "The city's official tourist board, which offers guided walks through the old town and the HeidelbergCARD.", link: "https://www.heidelberg-marketing.de/en" }
       ],
-      kada: "Od travnja do listopada. Tri puta ljeti dvorac se osvjetljava vatrometom u spomen na razaranja, a tada su obale rijeke prepune."
+      kada: "From April to October. Three times each summer the castle is lit up with fireworks in memory of its destruction, and the riverbanks are packed on those nights."
     },
     {
       id: "rothenburg",
       ime: "Rothenburg ob der Tauber",
       vrsta: "gradić",
-      sazetak: "Najbolje sačuvan srednjovjekovni gradić u Njemačkoj, opasan zidinama po kojima se može hodati.",
+      sazetak: "The best-preserved medieval small town in Germany, ringed by walls you can walk along.",
       prica: [
-        "Rothenburg je 1274. postao slobodni carski grad i obogatio se trgovinom, ali ga je Tridesetogodišnji rat osiromašio i ostavio izvan glavnih putova. Upravo zato stoljećima nije bilo novca za rušenje i novu gradnju, pa je ostao gotovo netaknut. Bombardiranje u ožujku 1945. uništilo je istočni dio, koji je obnovljen prilozima ljudi iz cijelog svijeta, čija imena i danas stoje na pločama u zidinama."
+        "Rothenburg became a free imperial city in 1274 and grew rich on trade, but the Thirty Years' War impoverished it and left it off the main routes. For exactly that reason there was no money for centuries to tear things down and build anew, so it remained almost untouched. The bombing of March 1945 destroyed the eastern part, which was rebuilt with donations from people all over the world, whose names still appear on plaques in the walls."
       ],
       vidjeti: [
-        { ime: "Plönlein", opis: "Mali trg na kojem se ulica račva oko nakošene žute kuće s drvenim gredama, između dviju gradskih kula, najslikaniji je prizor u gradu. Ime mu dolazi od latinske riječi za ravninu i znači jednostavno „mali trg“." },
-        { ime: "Gradske zidine", opis: "Natkrivenim stražarskim ophodom može se obići velik dio grada i gledati u dvorišta i preko crvenih krovova. Pogledajte kamene ploče s imenima darovatelja, jer je svaki metar obnovljenog zida netko platio." },
-        { ime: "Crkva sv. Jakova", opis: "Na galeriji crkve stoji Oltar Svete krvi, koji je kipar Tilman Riemenschneider izrezbario od 1500. do 1505. U samom središtu Posljednje večere neobično stoji Juda, a njegova se figura može izvaditi iz prizora." },
-        { ime: "Vijećnica i trg Marktplatz", opis: "Na toranj gotičkog dijela vijećnice penje se uskim stubama, a pogled seže preko doline rijeke Tauber. Na susjednoj zgradi sat nekoliko puta dnevno prikazuje prizor „Meistertrunk“: legenda kaže da je 1631. gradonačelnik spasio grad od razaranja tako što je naiskap popio više od tri litre vina." },
-        { ime: "Srednjovjekovni kriminalistički muzej", opis: "Muzej prikazuje tisuću godina pravne povijesti, od pečata i isprava do sprava za kažnjavanje. Najneobičnije su „maske srama“, koje su morali nositi klevetnici, i kavez u kojem su se pekari koji su varali na težini kruha umakali u vodu." }
+        { ime: "Plönlein", opis: "The little square where the street forks around a crooked yellow half-timbered house, between two town towers, is the most photographed scene in town. Its name comes from the Latin word for a level place and simply means “little square”." },
+        { ime: "The town walls", opis: "The covered sentry walk lets you circle a large part of the town and look into the courtyards and out over the red roofs. Notice the stone plaques with the donors' names, because somebody paid for every meter of the rebuilt wall." },
+        { ime: "St. James's Church", opis: "In the gallery of the church stands the Altar of the Holy Blood, which the sculptor Tilman Riemenschneider carved between 1500 and 1505. Unusually, Judas stands at the very center of the Last Supper, and his figure can be lifted out of the scene." },
+        { ime: "The Town Hall and Marktplatz", opis: "You climb the tower of the Gothic part of the town hall by a narrow staircase, and the view reaches out across the Tauber valley. On the building next door, a clock plays out the “Meistertrunk” scene several times a day: legend says that in 1631 the mayor saved the town from destruction by downing more than three liters of wine in one go." },
+        { ime: "Medieval Crime Museum", opis: "The museum presents a thousand years of legal history, from seals and documents to instruments of punishment. The strangest exhibits are the “masks of shame” that slanderers had to wear and the cage in which bakers who cheated on the weight of their bread were dunked in water." }
       ],
       jesti: [
-        { ime: "Schneeballen", opis: "„Snježne grudve“ od traka prhkog tijesta, pržene i posute šećerom u prahu ili prelivene čokoladom, stoje u izlozima svake pekarnice." },
-        { ime: "Frankonsko vino", opis: "Suhi silvanac iz Frankonije toči se iz plosnate trbušaste boce zvane Bocksbeutel." },
-        { ime: "Fränkische Bratwurst", opis: "Krupnija frankonska kobasica, začinjena mažuranom, s kiselim kupusom i kruhom." }
+        { ime: "Schneeballen", opis: "“Snowballs” made of strips of shortcrust pastry, fried and dusted with powdered sugar or coated in chocolate, sit in the window of every bakery." },
+        { ime: "Franconian wine", opis: "Dry Silvaner from Franconia is poured from a flat, round-bellied bottle called a Bocksbeutel." },
+        { ime: "Fränkische Bratwurst", opis: "A coarser Franconian sausage seasoned with marjoram, served with sauerkraut and bread." }
       ],
       dozivjeti: [
-        { ime: "Obilazak s noćnim čuvarom", opis: "Svake večeri u sezoni čuvar u crnom plaštu, s helebardom i svjetiljkom, vodi goste ulicama i duhovito priča o životu u srednjovjekovnom gradu. Obilazak počinje na glavnom trgu, a raspored je na njegovoj stranici.", link: "https://www.nightwatchman.de/" },
-        { ime: "Zalazak sunca u vrtu Burggarten", opis: "Na mjestu nekadašnje utvrde uređen je vrt s kojeg se vidi južni dio grada nad dolinom, a ondje je i najmirnije mjesto za predah." }
+        { ime: "A tour with the night watchman", opis: "Every evening in season a watchman in a black cloak, with a halberd and a lantern, leads visitors through the streets and tells witty stories about life in the medieval town. The tour starts on the main square, and the schedule is on his website.", link: "https://www.nightwatchman.de/" },
+        { ime: "Sunset in the Burggarten", opis: "A garden has been laid out on the site of the former castle, with a view of the southern part of town above the valley, and it is also the most peaceful spot for a rest." }
       ],
       agencije: [
-        { ime: "Rothenburg Tourismus Service", opis: "Službena turistička zajednica, s uredom na glavnom trgu i ponudom vođenih obilazaka.", link: "https://www.rothenburg-tourismus.de/" }
+        { ime: "Rothenburg Tourismus Service", opis: "The official tourist board, with an office on the main square and a range of guided tours.", link: "https://www.rothenburg-tourismus.de/" }
       ],
-      kada: "Prespavajte u gradu ako možete, jer izletnički autobusi odlaze do kasnog poslijepodneva, pa su večer i jutro samo vaši. U adventu se održava sajam Reiterlesmarkt."
+      kada: "Stay overnight in town if you can, because the day-trip buses are gone by late afternoon, so the evening and the morning are all yours. During Advent the Reiterlesmarkt is held."
     },
     {
       id: "nurnberg",
-      ime: "Nürnberg",
+      ime: "Nuremberg",
       vrsta: "grad",
-      sazetak: "Carski grad Albrechta Dürera, medenjaka i najpoznatijeg božićnog sajma, koji se pošteno suočio i s najmračnijim dijelom svoje povijesti.",
+      sazetak: "The imperial city of Albrecht Dürer, gingerbread and the most famous Christmas market, which has also honestly faced the darkest part of its history.",
       prica: [
-        "Nürnberg je u srednjem vijeku bio jedan od najvažnijih gradova Svetog Rimskog Carstva, a Zlatna bula iz 1356. odredila je da svaki novi vladar svoj prvi državni sabor mora održati upravo ovdje. Zbog te su ga simbolike nacisti odabrali za stranačke skupove, a saveznici 1945. za suđenje ratnim zločincima. Stara je jezgra u siječnju 1945. gotovo uništena, a zatim obnovljena u starim oblicima."
+        "In the Middle Ages Nuremberg was one of the most important cities of the Holy Roman Empire, and the Golden Bull of 1356 decreed that every new ruler had to hold his first imperial diet right here. Because of that symbolism the Nazis chose it for their party rallies, and the Allies chose it in 1945 for the trial of war criminals. The old center was almost destroyed in January 1945 and then rebuilt in its old forms."
       ],
       vidjeti: [
-        { ime: "Carski dvorac", opis: "Dvorac na pješčenjačkoj stijeni iznad grada bio je jedna od najvažnijih carskih rezidencija. Pogledajte Duboki bunar, isklesan pedesetak metara u stijenu, u koji vodič spušta svijeće da pokaže dubinu, i dvokatnu kapelu u kojoj je car sjedio iznad dvorjana." },
-        { ime: "Kuća Albrechta Dürera", opis: "U kući s drvenim gredama podno dvorca slikar je živio i radio od 1509. do smrti 1528. Jedna je od rijetkih sačuvanih umjetničkih kuća iz toga doba u Europi, a u radionici se pokazuje kako su nastajali njegovi bakrorezi." },
-        { ime: "Hauptmarkt i Lijepi zdenac", opis: "Na pozlaćenom gotičkom zdencu visokom 19 metara potražite mjedeni prsten u ogradi, koji je ugrađen bez vidljivog spoja. Predaja kaže da donosi sreću onome tko ga okrene. Na pročelju crkve Frauenkirche točno u podne izlaze figure izbornih knezova i klanjaju se caru." },
-        { ime: "Dokumentacijski centar na području stranačkih skupova", opis: "U nedovršenoj kongresnoj dvorani, zamišljenoj za 50 000 ljudi, izložba objašnjava kako je propaganda zavela milijune. Zgrada se obnavlja, pa je postav privremen, a vani možete prošetati do tribine s koje je Hitler držao govore." },
-        { ime: "Memorijal Nürnberških procesa", opis: "U sudnici 600 Palače pravde od studenoga 1945. do listopada 1946. suđeno je vodećim nacistima. Ovdje je prvi put primijenjeno načelo da pojedinac osobno odgovara za zločine države. Izložba je na katu iznad sudnice." },
-        { ime: "Germanski nacionalni muzej", opis: "Najveći muzej kulturne povijesti njemačkog govornog područja čuva globus Martina Behaima iz 1492., najstariji sačuvani globus na svijetu. Na njemu nema Amerike, jer je dovršen netom prije nego što se Kolumbo vratio." }
+        { ime: "The Imperial Castle", opis: "The castle on a sandstone crag above the city was one of the most important imperial residences. See the Deep Well, cut some fifty meters down into the rock, into which the guide lowers candles to show the depth, and the two-story chapel where the emperor sat above his courtiers." },
+        { ime: "Albrecht Dürer's House", opis: "The painter lived and worked in this half-timbered house below the castle from 1509 until his death in 1528. It is one of the few artists' houses from that era to survive in Europe, and in the workshop you are shown how his copper engravings were made." },
+        { ime: "Hauptmarkt and the Beautiful Fountain", opis: "On the gilded Gothic fountain, 19 meters high, look for the brass ring in the railing, which was fitted without any visible seam. Tradition has it that it brings luck to whoever turns it. On the facade of the Frauenkirche, at exactly noon, the figures of the electors come out and bow to the emperor." },
+        { ime: "Documentation Center Nazi Party Rally Grounds", opis: "In the unfinished congress hall, designed for 50,000 people, an exhibition explains how propaganda seduced millions. The building is being renovated, so the display is temporary, and outside you can walk to the grandstand from which Hitler gave his speeches." },
+        { ime: "Memorium Nuremberg Trials", opis: "In Courtroom 600 of the Palace of Justice, the leading Nazis were tried from November 1945 to October 1946. This is where the principle that an individual is personally responsible for the crimes of a state was applied for the first time. The exhibition is on the floor above the courtroom." },
+        { ime: "Germanisches Nationalmuseum", opis: "The largest museum of cultural history in the German-speaking world holds Martin Behaim's globe from 1492, the oldest surviving globe in the world. The Americas are missing from it, because it was finished just before Columbus returned." }
       ],
       jesti: [
-        { ime: "Nürnberger Rostbratwurst", opis: "Kobasice dugačke kao prst peku se na bukovu drvu i jedu po šest, osam ili dvanaest na kositrenom tanjuru s kiselim kupusom, ili po tri u pecivu, što se naručuje riječima „Drei im Weggla“." },
-        { ime: "Nürnberger Lebkuchen", opis: "Medenjaci s orasima i začinima peku se ovdje od srednjeg vijeka, jer je grad ležao na trgovačkom putu začina. Najfiniji, Elisenlebkuchen, gotovo da i nemaju brašna." },
-        { ime: "Schäufele", opis: "Pečena svinjska lopatica s hrskavom korom i okruglicom od krumpira, nedjeljno jelo Frankonije." }
+        { ime: "Nürnberger Rostbratwurst", opis: "Sausages the length of a finger are grilled over beech wood and eaten six, eight or twelve at a time on a pewter plate with sauerkraut, or three in a roll, which you order with the words “Drei im Weggla”." },
+        { ime: "Nürnberger Lebkuchen", opis: "Gingerbread with nuts and spices has been baked here since the Middle Ages, because the city lay on the spice trade route. The finest kind, Elisenlebkuchen, contains almost no flour at all." },
+        { ime: "Schäufele", opis: "Roast pork shoulder with a crackling crust and a potato dumpling, the Sunday dish of Franconia." }
       ],
       dozivjeti: [
-        { ime: "Christkindlesmarkt", opis: "Sajam na Hauptmarktu otvara Christkind, djevojka u zlatnoj haljini s krunom, koja s balkona crkve izgovara svečani proslov. Kupite čašu kuhanog vina, pa za uspomenu zadržite šalicu.", link: "https://www.christkindlesmarkt.de/en/" },
-        { ime: "Posjet Dokumentacijskom centru", opis: "Za posjet odvojite barem dva sata i uzmite audiovodič, koji je uključen u cijenu.", link: "https://museums.nuernberg.de/documentation-center" },
-        { ime: "Šetnja ulicom Weißgerbergasse", opis: "U ulici nekadašnjih kožara sačuvan je najdulji niz kuća s drvenim gredama u gradu, a danas su u njima mali kafići i radionice." }
+        { ime: "Christkindlesmarkt", opis: "The market on Hauptmarkt is opened by the Christkind, a young woman in a golden dress and crown, who recites a ceremonial prologue from the balcony of the church. Buy a cup of mulled wine and then keep the mug as a souvenir.", link: "https://www.christkindlesmarkt.de/en/" },
+        { ime: "Visiting the Documentation Center", opis: "Set aside at least two hours for your visit and pick up the audio guide, which is included in the price.", link: "https://museums.nuernberg.de/documentation-center" },
+        { ime: "A walk down Weißgerbergasse", opis: "The street of the former tanners has the longest surviving row of half-timbered houses in the city, and today they hold small cafes and workshops." }
       ],
       agencije: [
-        { ime: "Tourismus Nürnberg", opis: "Službena turistička zajednica, s karticom NÜRNBERG CARD i vođenim obilascima starog grada i podzemnih pivskih podruma.", link: "https://tourismus.nuernberg.de/en/" }
+        { ime: "Tourismus Nürnberg", opis: "The official tourist board, with the NÜRNBERG CARD and guided tours of the old town and the underground beer cellars.", link: "https://tourismus.nuernberg.de/en/" }
       ],
-      kada: "Tijekom adventa grad je najčarobniji, ali i najpuniji. Ako dolazite zbog muzeja i povijesti, mirniji su svibanj, lipanj i rujan."
+      kada: "During Advent the city is at its most magical, and also at its most crowded. If you are coming for the museums and the history, May, June and September are calmer."
     },
     {
       id: "neuschwanstein",
-      ime: "Neuschwanstein i Füssen",
+      ime: "Neuschwanstein and Füssen",
       vrsta: "regija",
-      sazetak: "Dvorac iz mašte usamljenog kralja, po uzoru na koji su nastali dvorci u crtanim filmovima, i šareni gradić podno Alpa.",
+      sazetak: "A castle from the imagination of a lonely king, the model for the castles in animated films, and a colorful little town at the foot of the Alps.",
       prica: [
-        "Bavarski kralj Ludwig II. počeo je 1869. graditi dvorac kao osobno utočište i posvetu operama Richarda Wagnera, daleko od politike koju nije volio. Do njegove tajanstvene smrti u jezeru Starnberg 1886. dovršen je tek dio prostorija, a kralj je u dvorcu proveo svega 172 dana. Samo nekoliko tjedana poslije dvorac je otvoren za posjetitelje, a u srpnju 2025. uvršten je, zajedno s ostalim Ludwigovim dvorcima, na UNESCO-ov popis svjetske baštine."
+        "In 1869 King Ludwig II of Bavaria began building the castle as a personal refuge and a tribute to the operas of Richard Wagner, far from the politics he disliked. By the time of his mysterious death in Lake Starnberg in 1886 only some of the rooms had been finished, and the king had spent just 172 days in the castle. Only a few weeks later the castle was opened to visitors, and in July 2025 it was added to the UNESCO World Heritage List together with Ludwig's other castles."
       ],
       vidjeti: [
-        { ime: "Dvorac Neuschwanstein", opis: "Iako izgleda srednjovjekovno, dvorac je imao centralno grijanje, tekuću toplu vodu, telefon i električno zvono za poslugu. U Prijestolnoj dvorani, uređenoj poput bizantske crkve, nema prijestolja, jer nije stiglo prije kraljeve smrti. Između dnevne sobe i radne sobe nalazi se umjetna špilja sa stalaktitima." },
-        { ime: "Most Marienbrücke", opis: "Željezni most razapet je 90 metara iznad klanca Pöllat i s njega se pruža onaj poznati pogled na dvorac. Ime nosi po Ludwigovoj majci Mariji, koja je voljela planinariti po okolnim brdima." },
-        { ime: "Dvorac Hohenschwangau", opis: "U žutom dvorcu podno Neuschwansteina Ludwig je proveo djetinjstvo okružen zidnim slikama vitezova i labudova. Iz svoje je sobe dalekozorom pratio kako napreduje gradnja novog dvorca na suprotnoj stijeni." },
-        { ime: "Stari grad Füssena", opis: "U gradiću s pastelnim pročeljima osnovan je 1562. prvi ceh graditelja lutnji u Europi. Na dvorcu Hohes Schloss pogledajte dvorište: erkeri i prozorski okviri zapravo su naslikani, i to tako vješto da varaju oko već pet stoljeća." },
-        { ime: "Wieskirche", opis: "Hodočasnička crkva na livadi, dvadesetak kilometara od Füssena, jedno je od remek-djela bavarskog rokokoa i nalazi se na UNESCO-ovu popisu. Izvana je skromna, a iznutra se bijela i zlatna štukatura stapa sa stropnom slikom, pa se čini da crkva nema svod." }
+        { ime: "Neuschwanstein Castle", opis: "Although it looks medieval, the castle had central heating, hot running water, a telephone and an electric bell for calling the servants. The Throne Hall, decorated like a Byzantine church, has no throne, because it did not arrive before the king's death. Between the living room and the study there is an artificial grotto with stalactites." },
+        { ime: "Marienbrücke", opis: "The iron bridge spans the Pöllat gorge 90 meters up, and it gives you that famous view of the castle. It is named after Ludwig's mother Marie, who loved hiking in the surrounding hills." },
+        { ime: "Hohenschwangau Castle", opis: "Ludwig spent his childhood in the yellow castle below Neuschwanstein, surrounded by wall paintings of knights and swans. From his room he used a telescope to follow the progress of the new castle going up on the crag opposite." },
+        { ime: "Füssen Old Town", opis: "In this small town of pastel facades, the first lute makers' guild in Europe was founded in 1562. At the Hohes Schloss castle, take a look at the courtyard: the oriel windows and window frames are in fact painted on, and so skillfully that they have been fooling the eye for five centuries." },
+        { ime: "Wieskirche", opis: "The pilgrimage church in a meadow, some twenty kilometers from Füssen, is one of the masterpieces of Bavarian Rococo and is on the UNESCO list. It is modest on the outside, while inside the white and gold stucco merges with the ceiling painting, so the church seems to have no vault at all." }
       ],
       jesti: [
-        { ime: "Allgäuer Kässpatzen", opis: "Rezanci Spätzle zapečeni s planinskim sirom i posuti prženim lukom, najbolji u gostionicama i planinskim kolibama oko Füssena." },
-        { ime: "Allgäuer Bergkäse", opis: "Tvrdi sir od sirovog mlijeka krava s alpskih pašnjaka, koji se prodaje u malim siranama uz cestu." }
+        { ime: "Allgäuer Kässpatzen", opis: "Spätzle noodles baked with mountain cheese and topped with fried onions, at their best in the inns and mountain huts around Füssen." },
+        { ime: "Allgäuer Bergkäse", opis: "A hard cheese made from the raw milk of cows on the Alpine pastures, sold in small roadside dairies." }
       ],
       dozivjeti: [
-        { ime: "Razgledavanje dvorca", opis: "Unutrašnjost se može vidjeti samo u pratnji vodiča i u točno određeno vrijeme, pa karte kupite unaprijed preko službene stranice. Od blagajni do dvorca hoda se uzbrdo oko pola sata, a voze i kočije te autobus.", link: "https://www.neuschwanstein.de/englisch/tourist/index.htm" },
-        { ime: "Šetnja oko jezera Alpsee", opis: "Lagana kružna staza oko jezera podno dvoraca vodi kroz šumu, a s nje se oba dvorca vide u miru, bez gužve." }
+        { ime: "Touring the castle", opis: "The interior can be seen only on a guided tour and at a set time, so buy your tickets in advance through the official website. From the ticket office it is about a half-hour walk uphill to the castle, and there are also horse-drawn carriages and a bus.", link: "https://www.neuschwanstein.de/englisch/tourist/index.htm" },
+        { ime: "A walk around the Alpsee", opis: "An easy loop trail around the lake below the castles leads through the forest, and from it you can see both castles in peace, away from the crowds." }
       ],
       agencije: [
-        { ime: "Füssen Tourismus", opis: "Službena turistička zajednica Füssena, s prijedlozima šetnji, obilazaka grada i izleta po okolici.", link: "https://www.fuessen.de/en/" },
-        { ime: "Bavarska uprava dvoraca", opis: "Službena stranica dvorca Neuschwanstein, s informacijama o kartama i dolasku.", link: "https://www.neuschwanstein.de/englisch/tourist/index.htm" }
+        { ime: "Füssen Tourismus", opis: "The official tourist board of Füssen, with suggestions for walks, town tours and excursions in the surrounding area.", link: "https://www.fuessen.de/en/" },
+        { ime: "Bavarian Palace Administration", opis: "The official website of Neuschwanstein Castle, with information on tickets and getting there.", link: "https://www.neuschwanstein.de/englisch/tourist/index.htm" }
       ],
-      kada: "Najljepše je u rujnu i listopadu, kada šuma požuti, ili zimi pod snijegom. Ljeti dođite prvim jutarnjim terminom, a most Marienbrücke zimi zna biti zatvoren zbog leda."
+      kada: "It is at its most beautiful in September and October, when the forest turns yellow, or in winter under snow. In summer come for the first morning slot, and bear in mind that the Marienbrücke is sometimes closed in winter because of ice."
     },
     {
       id: "dolina-rajne",
-      ime: "Dolina Rajne",
+      ime: "Rhine Valley",
       vrsta: "regija",
-      sazetak: "Šezdeset pet kilometara rijeke između Bingena i Koblenza, s dvorcem na gotovo svakom brdu i vinogradima koji se strmo spuštaju do vode.",
+      sazetak: "Sixty-five kilometers of river between Bingen and Koblenz, with a castle on almost every hill and vineyards that drop steeply to the water.",
       prica: [
-        "Gornja dolina srednje Rajne stoljećima je bila najvažniji trgovački put Europe, pa je svaki lokalni gospodar podigao dvorac da bi brodovima naplaćivao prolaz. Tako je na kratkom potezu nastalo četrdesetak utvrda, od kojih su mnoge razorene u ratovima s Francuskom. U 19. stoljeću romantičari su ruševine pretvorili u simbol, a neke su obnovili, pa je dolina 2002. upisana na UNESCO-ov popis."
+        "For centuries the Upper Middle Rhine Valley was the most important trade route in Europe, so every local lord put up a castle in order to charge ships for passage. That is how some forty fortresses came to stand along this short stretch, many of them destroyed in the wars with France. In the 19th century the Romantics turned the ruins into a symbol and restored some of them, and the valley was added to the UNESCO list in 2002."
       ],
       vidjeti: [
-        { ime: "Stijena Loreley", opis: "Na najužem i najdubljem dijelu rijeke diže se 132 metra visoka stijena. Legenda, koju je 1824. opjevao Heinrich Heine, kaže da je na njoj sjedila ljepotica zlatne kose i pjesmom mamila lađare na grebene. Mjesto je doista bilo opasno za plovidbu, a jeka u klancu rodila je priču." },
-        { ime: "Dvorac Marksburg", opis: "Jedini je visinski dvorac na srednjoj Rajni koji nikada nije razoren, pa izgleda onako kako je izgledao u srednjem vijeku. U kuhinji, oružarnici i spavaonici vidi se kako se doista živjelo, a ulaz je isklesan u stijeni da bi konjanici mogli ujahati." },
-        { ime: "Pfalzgrafenstein", opis: "Bijela utvrda u obliku broda stoji na otočiću usred rijeke kod Kauba i služila je isključivo kao carinarnica. Brodove koji ne bi platili zaustavljao je lanac razapet preko rijeke. Do nje se dolazi malom skelom." },
-        { ime: "Bacharach", opis: "Vinski gradić s kućama s drvenim gredama i zidinama s kulama jedan je od najljepših u dolini. Iznad njega stoji ruševina gotičke kapele sv. Wernera od crvenog pješčenjaka, bez krova, koju su slikali mnogi romantičari." },
-        { ime: "Deutsches Eck u Koblenzu", opis: "Na „Njemačkom uglu“ Mosel utječe u Rajnu, a razlika u boji dviju rijeka vidi se i izdaleka. Nad ušćem stoji golemi konjanički spomenik caru Vilimu I., a žičara preko Rajne vodi do tvrđave Ehrenbreitstein." }
+        { ime: "The Loreley Rock", opis: "A rock 132 meters high rises at the narrowest and deepest point of the river. The legend, which Heinrich Heine put into verse in 1824, says that a golden-haired beauty sat on it and lured boatmen onto the reefs with her song. The spot really was dangerous for navigation, and the echo in the gorge gave birth to the story." },
+        { ime: "Marksburg Castle", opis: "It is the only hilltop castle on the Middle Rhine that was never destroyed, so it looks the way it looked in the Middle Ages. The kitchen, the armory and the bedchamber show how people really lived, and the entrance is cut into the rock so that riders could come in on horseback." },
+        { ime: "Pfalzgrafenstein", opis: "The white, ship-shaped fortress stands on an islet in the middle of the river at Kaub and served purely as a toll station. Ships that did not pay were stopped by a chain stretched across the river. You reach it by a small ferry." },
+        { ime: "Bacharach", opis: "This wine town of half-timbered houses and towered walls is one of the prettiest in the valley. Above it stands the roofless ruin of the Gothic chapel of St. Werner, in red sandstone, which many Romantic artists painted." },
+        { ime: "Deutsches Eck in Koblenz", opis: "At the “German Corner” the Mosel flows into the Rhine, and the difference in color between the two rivers can be seen even from a distance. A huge equestrian monument to Emperor William I stands above the confluence, and a cable car across the Rhine takes you to Ehrenbreitstein Fortress." }
       ],
       jesti: [
-        { ime: "Riesling", opis: "Vinogradi su ovdje toliko strmi da se beru ručno, a vino se kuša izravno kod vinara, u podrumima i dvorištima označenima vijencem ili metlom." },
-        { ime: "Rüdesheimer Kaffee", opis: "Kava s vinjakom Asbach, koji se u posebnoj šalici zapali sa šećerom, a zatim prekrije vrhnjem i čokoladom." },
-        { ime: "Zwiebelkuchen i Federweißer", opis: "U jesen se uz mlado, još mutno vino jede topla pita od luka i slanine." }
+        { ime: "Riesling", opis: "The vineyards here are so steep that they are harvested by hand, and you taste the wine right at the winemaker's, in cellars and courtyards marked with a wreath or a broom." },
+        { ime: "Rüdesheimer Kaffee", opis: "Coffee with Asbach brandy, which is set alight with sugar in a special cup and then topped with whipped cream and chocolate." },
+        { ime: "Zwiebelkuchen and Federweißer", opis: "In the fall a warm onion and bacon tart is eaten with young, still cloudy wine." }
       ],
       dozivjeti: [
-        { ime: "Vožnja brodom", opis: "Najljepši je dio između Rüdesheima ili Bingena i St. Goara, gdje se dvorci nižu jedan za drugim. Karta se može kombinirati s vlakom, pa u jednom smjeru plovite, a u drugom se vozite prugom uz obalu.", link: "https://www.k-d.com/en/" },
-        { ime: "Obilazak dvorca Marksburg", opis: "Dvorac iznad Braubacha razgledava se u pratnji vodiča, a s parkirališta se hoda uzbrdo desetak minuta.", link: "https://www.marksburg.de/en/" },
-        { ime: "Rajna u plamenu", opis: "Nekoliko večeri između svibnja i rujna brodovi u koloni plove pokraj dvoraca osvijetljenih bengalskom vatrom i vatrometom." }
+        { ime: "A boat trip", opis: "The most beautiful stretch is between Rüdesheim or Bingen and St. Goar, where the castles follow one after another. The ticket can be combined with the train, so you sail in one direction and ride the riverside railway in the other.", link: "https://www.k-d.com/en/" },
+        { ime: "Touring Marksburg Castle", opis: "The castle above Braubach is visited on a guided tour, and it is a ten-minute walk uphill from the parking lot.", link: "https://www.marksburg.de/en/" },
+        { ime: "Rhine in Flames", opis: "On several evenings between May and September, boats sail in convoy past castles lit up with Bengal fire and fireworks." }
       ],
       agencije: [
-        { ime: "Romantischer Rhein Tourismus", opis: "Službena turistička zajednica doline, s popisom dvoraca, pješačkih staza i vinarija.", link: "https://www.romantischer-rhein.de/en/" }
+        { ime: "Romantischer Rhein Tourismus", opis: "The official tourist board of the valley, with a list of castles, hiking trails and wineries.", link: "https://www.romantischer-rhein.de/en/" }
       ],
-      kada: "Od svibnja do listopada, a berba u rujnu i listopadu donosi vinske svetkovine u gotovo svakom mjestu. Zimi brodovi voze rijetko ili uopće ne voze."
+      kada: "From May to October, and the harvest in September and October brings wine festivals to almost every town. In winter the boats run rarely or not at all."
     },
     {
       id: "bamberg",
       ime: "Bamberg",
       vrsta: "grad",
-      sazetak: "Grad na sedam brežuljaka, s vijećnicom usred rijeke i pivom koje miriše na dim.",
+      sazetak: "A city on seven hills, with a town hall in the middle of the river and beer that smells of smoke.",
       prica: [
-        "Car Henrik II. osnovao je ovdje 1007. biskupiju, želeći od Bamberga stvoriti drugi Rim, pa je grad poput Rima podignut na sedam brežuljaka. Na brdu su stolovali biskupi, a dolje, na otoku među rukavcima rijeke Regnitz, živjeli su trgovci i obrtnici. Drugi svjetski rat gotovo ga je zaobišao, pa je stara jezgra s više od tisuću zaštićenih kuća od 1993. na UNESCO-ovu popisu."
+        "Emperor Henry II founded a bishopric here in 1007, wanting to make Bamberg a second Rome, so the city was built on seven hills just like Rome. The bishops had their seat on the hill, while down below, on the island between the arms of the River Regnitz, lived the merchants and craftsmen. World War II almost passed it by, and the old center, with more than a thousand protected buildings, has been on the UNESCO list since 1993."
       ],
       vidjeti: [
-        { ime: "Stara vijećnica", opis: "Legenda kaže da biskup građanima nije htio dati ni pedalj zemlje za vijećnicu, pa su zabili stupove u rijeku i sagradili je na umjetnom otoku između dvaju mostova. Na oslikanom pročelju potražite nožicu anđelčića koja kao pravi kip viri iz zidne slike." },
-        { ime: "Katedrala i Bamberški konjanik", opis: "Katedrala s četiri tornja posvećena je 1237. Kameni konjanik na stupu, nastao oko 1235., jedna je od najvećih zagonetki njemačke umjetnosti, jer se ne zna koga prikazuje. U katedrali je i grob pape Klementa II., jedini papinski grob u Njemačkoj." },
-        { ime: "Grob cara Henrika II. i Kunigunde", opis: "Mramorni sarkofag carskog para izradio je Tilman Riemenschneider početkom 16. stoljeća. Na bočnom reljefu Kunigunda bosa hoda po užarenim lemešima da bi dokazala vjernost, kako kaže legenda." },
-        { ime: "Nova rezidencija i ružičnjak", opis: "Iz baroknog vrta s tisućama ruža pruža se najljepši pogled na crvene krovove i samostan sv. Mihaela na susjednom brdu." },
-        { ime: "Mala Venecija", opis: "Niz ribarskih kuća s drvenim gredama i sićušnim vrtovima stoji tik uz vodu, a čamci su privezani pred vratima. Najbolje se vidi s mosta kod Stare vijećnice ili s obale nasuprot." }
+        { ime: "The Old Town Hall", opis: "Legend says the bishop refused to give the townspeople so much as an inch of land for a town hall, so they drove piles into the river and built it on an artificial island between two bridges. On the painted facade, look for the little leg of a cherub that sticks out of the mural as a real piece of sculpture." },
+        { ime: "The Cathedral and the Bamberg Horseman", opis: "The four-towered cathedral was consecrated in 1237. The stone horseman on a pillar, made around 1235, is one of the great riddles of German art, because nobody knows whom it depicts. The cathedral also holds the tomb of Pope Clement II, the only papal tomb in Germany." },
+        { ime: "The tomb of Emperor Henry II and Cunigunde", opis: "The marble sarcophagus of the imperial couple was made by Tilman Riemenschneider in the early 16th century. On the side relief Cunigunde walks barefoot over red-hot plowshares to prove her fidelity, as the legend has it." },
+        { ime: "The New Residence and the rose garden", opis: "The Baroque garden with its thousands of roses gives you the most beautiful view of the red roofs and of St. Michael's Monastery on the neighboring hill." },
+        { ime: "Little Venice", opis: "A row of half-timbered fishermen's houses with tiny gardens stands right at the water's edge, with boats moored at the front doors. It is best seen from the bridge by the Old Town Hall or from the bank opposite." }
       ],
       jesti: [
-        { ime: "Rauchbier", opis: "Dimljeno pivo radi se od slada sušenog nad vatrom bukova drva i miriše na dimljenu šunku. Domaći kažu da ga treba popiti barem tri prije nego što ga zavolite." },
-        { ime: "Bamberger Zwiebel", opis: "Luk punjen mljevenim mesom, zapečen i preliven umakom od dimljenog piva, uz pire krumpir." },
-        { ime: "Bamberger Hörnla", opis: "Maslacni rogač sličan kroasanu, koji se u Bambergu peče još od 15. stoljeća." }
+        { ime: "Rauchbier", opis: "Smoked beer is made from malt dried over a beechwood fire and smells of smoked ham. Locals say you need to drink at least three before you come to love it." },
+        { ime: "Bamberger Zwiebel", opis: "An onion stuffed with ground meat, baked and covered in a smoked beer sauce, with mashed potatoes on the side." },
+        { ime: "Bamberger Hörnla", opis: "A buttery crescent roll similar to a croissant, which has been baked in Bamberg since the 15th century." }
       ],
       dozivjeti: [
-        { ime: "Dimljeno pivo u Schlenkerli", opis: "Povijesna pivnica u ulici Dominikanerstraße toči dimljeno pivo iz drvenih bačava, a prvi se put spominje 1405. Sjeda se uz nepoznate ljude za duge stolove, a mnogi piju stojeći u veži.", link: "https://www.schlenkerla.de/indexe.html" },
-        { ime: "Večer u pivskom podrumu", opis: "Ljeti se ide „na podrum“, što znači u pivski vrt na brdu iznad starih podruma, primjerice na Stephansbergu, gdje se uz pivo gleda zalazak sunca nad gradom." }
+        { ime: "Smoked beer at Schlenkerla", opis: "The historic tavern on Dominikanerstraße pours smoked beer from wooden barrels and is first mentioned in 1405. You sit beside strangers at long tables, and many people drink standing up in the entrance hall.", link: "https://www.schlenkerla.de/indexe.html" },
+        { ime: "An evening at a beer cellar", opis: "In summer people go “onto the cellar”, which means to a beer garden on the hill above the old cellars, for example on the Stephansberg, where you watch the sun set over the city with a beer in hand." }
       ],
       agencije: [
-        { ime: "Bamberg Tourismus", opis: "Službena turistička zajednica, koja nudi vođene šetnje baštinom i pivske obilaske.", link: "https://en.bamberg.info/" }
+        { ime: "Bamberg Tourismus", opis: "The official tourist board, which offers guided heritage walks and beer tours.", link: "https://en.bamberg.info/" }
       ],
-      kada: "Od svibnja do rujna, kada su otvoreni pivski podrumi na brdima. Grad je mali, pa ga je lako obići u danu vlakom iz Nürnberga."
+      kada: "From May to September, when the beer cellars on the hills are open. The city is small, so it is easy to see in a day by train from Nuremberg."
     },
     {
       id: "lubeck",
       ime: "Lübeck",
       vrsta: "grad",
-      sazetak: "Nekadašnja „kraljica Hanze“ na otoku, sva od crvene opeke, s mirisom marcipana i mora.",
+      sazetak: "The former “Queen of the Hanse” on an island, all red brick, with the scent of marzipan and the sea.",
       prica: [
-        "Lübeck je 1143. osnovan kao prva njemačka luka na Baltiku, a nakon požara 1159. ponovno ga je podigao Henrik Lav. Tri je stoljeća predvodio Hanzu i po njegovu su pravu uređeni mnogi gradovi oko Baltika. Stari grad na otoku okruženom rijekom Trave od 1987. je na UNESCO-ovu popisu, iako je petinu jezgre 1942. uništilo bombardiranje."
+        "Lübeck was founded in 1143 as the first German port on the Baltic, and after a fire in 1159 it was rebuilt by Henry the Lion. For three centuries it led the Hanseatic League, and many cities around the Baltic were organized according to its law. The old town, on an island encircled by the River Trave, has been on the UNESCO list since 1987, even though a fifth of the center was destroyed by bombing in 1942."
       ],
       vidjeti: [
-        { ime: "Holstentor", opis: "Gradska vrata s dva stožasta tornja dovršena su 1478. i toliko su teška da su utonula u meko tlo, pa se tornjevi vidljivo naginju jedan prema drugome. Nad ulazom stoji latinski natpis koji znači „Sloga unutra, mir vani“." },
-        { ime: "Marienkirche", opis: "Crkva trgovaca ima najviši svod od opeke na svijetu, 38,5 metara, i bila je uzor sedamdesetak crkava oko Baltika. U južnom tornju i danas leže razbijena zvona koja su pala u požaru 1942., a ostavljena su kao opomena. Vani na klupici sjedi brončani vražićak, o kojem će vam ploča ispričati legendu." },
-        { ime: "Bolnica Duha Svetoga", opis: "Jednu od najstarijih socijalnih ustanova u Europi utemeljili su 1286. bogati trgovci. U golemoj dvorani i danas stoje drvene kućice od četiri četvorna metra, u kojima su starci stanovali sve do 1970." },
-        { ime: "Prolazi i dvorišta", opis: "Iza pročelja trgovačkih kuća krije se devedesetak uskih prolaza koji vode u dvorišta sa sićušnim kućama, građenima za radnike i udovice. Ulaz je često toliko nizak da se morate sagnuti, a legenda kaže da je širina određena tako da kroz prolaz stane lijes." },
-        { ime: "Europski muzej Hanze", opis: "Muzej uz nekadašnji samostan vodi vas kroz rekonstruirane prizore, od trgovačke postaje u Novgorodu do ureda u Londonu, i objašnjava kako je savez gradova bez vlastite vojske vladao sjevernim morima." }
+        { ime: "Holstentor", opis: "The city gate with its two conical towers was completed in 1478 and is so heavy that it sank into the soft ground, so the towers visibly lean toward each other. Above the entrance is a Latin inscription that means “Concord within, peace without”." },
+        { ime: "Marienkirche", opis: "The merchants' church has the highest brick vault in the world, at 38.5 meters, and was the model for some seventy churches around the Baltic. In the south tower the shattered bells that fell in the fire of 1942 still lie where they landed, left as a warning. Outside, a little bronze devil sits on a bench, and a plaque will tell you his legend." },
+        { ime: "Hospital of the Holy Spirit", opis: "One of the oldest social institutions in Europe was founded by wealthy merchants in 1286. In the vast hall you can still see the wooden cubicles of four square meters in which elderly residents lived right up until 1970." },
+        { ime: "Passageways and courtyards", opis: "Behind the facades of the merchants' houses hide some ninety narrow passageways leading into courtyards of tiny houses built for workers and widows. The entrance is often so low that you have to duck, and legend says the width was set so that a coffin could fit through." },
+        { ime: "European Hansemuseum", opis: "The museum beside a former monastery takes you through reconstructed scenes, from a trading post in Novgorod to an office in London, and explains how an alliance of cities with no army of its own ruled the northern seas." }
       ],
       jesti: [
-        { ime: "Lübecker Marzipan", opis: "Marcipan od badema i šećera zaštićen je oznakom podrijetla, a najpoznatiji proizvođač radi ga od 1806. Kušajte i tortu od oraha s marcipanom." },
-        { ime: "Rotspon", opis: "Crno vino iz Bordeauxa, koje su hanzeatski trgovci dovozili u bačvama i dozrijevali u lübečkim podrumima, gdje je, kažu, postajalo bolje nego u Francuskoj." },
-        { ime: "Fischbrötchen", opis: "Pecivo s haringom ili dimljenom ribom, najbolje u luci Travemünde, dvadesetak minuta vlakom od grada." }
+        { ime: "Lübecker Marzipan", opis: "The marzipan of almonds and sugar is protected by a designation of origin, and the best-known producer has been making it since 1806. Try the nut cake with marzipan too." },
+        { ime: "Rotspon", opis: "Red wine from Bordeaux, which Hanseatic merchants shipped in barrels and aged in Lübeck's cellars, where, so they say, it turned out better than in France." },
+        { ime: "Fischbrötchen", opis: "A roll with herring or smoked fish, best in the port of Travemünde, some twenty minutes by train from the city." }
       ],
       dozivjeti: [
-        { ime: "Kavana i salon marcipana Niederegger", opis: "U kući nasuprot vijećnici u prizemlju je trgovina, na katu kavana, a iznad nje mali besplatni muzej s likovima od marcipana u prirodnoj veličini.", link: "https://www.niederegger.de/" },
-        { ime: "Europski muzej Hanze", opis: "Postav je dobar uvod u grad, pa ga vrijedi obići prije šetnje, a uključuje i gotički samostan na brijegu.", link: "https://www.hansemuseum.eu/en/" },
-        { ime: "Izlet na plažu u Travemünde", opis: "Na ušću rijeke u Baltik nalazi se staro ljetovalište s pješčanom plažom, pletenim ležaljkama s krovom i jedrenjakom Passat." }
+        { ime: "Café Niederegger and the marzipan salon", opis: "In the building across from the town hall there is a shop on the ground floor, a cafe upstairs, and above that a small free museum with life-size figures made of marzipan.", link: "https://www.niederegger.de/" },
+        { ime: "European Hansemuseum", opis: "The exhibition is a good introduction to the city, so it is worth seeing before your walk, and it also includes the Gothic monastery on the hill.", link: "https://www.hansemuseum.eu/en/" },
+        { ime: "A trip to the beach at Travemünde", opis: "Where the river meets the Baltic there is an old seaside resort with a sandy beach, hooded wicker beach chairs and the sailing ship Passat." }
       ],
       agencije: [
-        { ime: "Lübeck und Travemünde Marketing", opis: "Službena turistička zajednica, s uredom kod Holstentora i vođenim šetnjama kroz prolaze i dvorišta.", link: "https://www.visit-luebeck.com/" }
+        { ime: "Lübeck und Travemünde Marketing", opis: "The official tourist board, with an office by the Holstentor and guided walks through the passageways and courtyards.", link: "https://www.visit-luebeck.com/" }
       ],
-      kada: "Od svibnja do rujna, kada se izlet može spojiti s kupanjem na Baltiku. Kuća Buddenbrookovih, posvećena obitelji Mann, dulje je vrijeme zatvorena zbog obnove, pa provjerite stanje prije dolaska."
+      kada: "From May to September, when the trip can be combined with a swim in the Baltic. The Buddenbrook House, dedicated to the Mann family, has been closed for renovation for some time, so check the situation before you come."
     }
   ],
   izvori: [
-    { ime: "Germany Travel, Njemačka turistička zajednica", url: "https://www.germany.travel/en/home.html" },
+    { ime: "Germany Travel, German National Tourist Board", url: "https://www.germany.travel/en/home.html" },
     { ime: "visitBerlin", url: "https://www.visitberlin.de/en" },
-    { ime: "Njemački Bundestag, posjet kupoli", url: "https://www.bundestag.de/en/visittheBundestag/dome/registration-245686" },
-    { ime: "Zaklada Berlinski zid", url: "https://www.stiftung-berliner-mauer.de/en" },
-    { ime: "Kölnska katedrala", url: "https://www.koelner-dom.de/en" },
-    { ime: "Bavarska uprava dvoraca, Neuschwanstein", url: "https://www.neuschwanstein.de/englisch/tourist/index.htm" },
-    { ime: "Stalno predstavništvo Njemačke pri UNESCO-u, upis dvoraca Ludwiga II.", url: "https://unesco.diplo.de/unesco-en/inscription-of-the-castles-of-king-ludwig-ii-of-bavaria-to-the-list-of-unesco-world-heritage-sites-2727496" },
+    { ime: "German Bundestag, visiting the dome", url: "https://www.bundestag.de/en/visittheBundestag/dome/registration-245686" },
+    { ime: "Berlin Wall Foundation", url: "https://www.stiftung-berliner-mauer.de/en" },
+    { ime: "Cologne Cathedral", url: "https://www.koelner-dom.de/en" },
+    { ime: "Bavarian Palace Administration, Neuschwanstein", url: "https://www.neuschwanstein.de/englisch/tourist/index.htm" },
+    { ime: "Permanent Delegation of Germany to UNESCO, inscription of the castles of Ludwig II", url: "https://unesco.diplo.de/unesco-en/inscription-of-the-castles-of-king-ludwig-ii-of-bavaria-to-the-list-of-unesco-world-heritage-sites-2727496" },
     { ime: "Tourismus Nürnberg", url: "https://tourismus.nuernberg.de/en/" },
     { ime: "Romantischer Rhein Tourismus", url: "https://www.romantischer-rhein.de/en/" },
     { ime: "Bamberg Tourismus", url: "https://en.bamberg.info/" },

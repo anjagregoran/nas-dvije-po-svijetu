@@ -2,461 +2,461 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["japan"] = {
   id: "japan",
   ime: "Japan",
-  regija: "Istočna Azija",
-  sazetak: "Zemlja u kojoj brzi vlak kreće u sekundu točno, a čaj se i dalje priprema polako, pokretima starima nekoliko stoljeća.",
+  regija: "East Asia",
+  sazetak: "A country where the bullet train leaves on the exact second, while tea is still prepared slowly, with movements that are several centuries old.",
   uvod: [
-    "Japan je otočna zemlja s više od četrnaest tisuća otoka, od kojih su četiri glavna: Honshu, Hokkaido, Kyushu i Shikoku. Više od tisuću godina carevi su stolovali u Kyotu, dok su stvarnu vlast od 12. stoljeća držali šoguni, vojni vladari iza kojih su stajali samuraji. Od 17. stoljeća do 1853. zemlja je bila gotovo posve zatvorena za strance, pa su se u tom razdoblju bez vanjskih utjecaja razvili kabuki, drvorezi ukiyo-e, čajna ceremonija kakvu danas poznajemo i kuhinja koja slavi godišnja doba.",
-    "Nakon obnove carske vlasti 1868. Japan se u nekoliko desetljeća pretvorio u industrijsku silu, a nakon razaranja u Drugom svjetskom ratu ponovno se podigao brzinom koja je zadivila svijet. Zato ćete ovdje u istom danu vidjeti drveni hram iz 8. stoljeća i neonsko raskrižje kojim u jednom zelenom svjetlu prijeđe više tisuća ljudi. Dvije religije, šintoizam i budizam, žive jedna uz drugu, i većina Japanaca bez ikakve nelagode posjećuje i svetišta i hramove.",
-    "Putovanje je lako jer je sve čisto, sigurno i točno, a najveća je prepreka jezik, koju ljubaznost domaćina brzo ublaži. Vrijedi naučiti nekoliko pravila ponašanja, jer upravo ona otvaraju vrata: gdje se izuvaju cipele, kako se ulazi u onsen i što se nikada ne radi štapićima."
+    "Japan is an island nation of more than fourteen thousand islands, four of which are the main ones: Honshu, Hokkaido, Kyushu and Shikoku. For more than a thousand years the emperors reigned from Kyoto, while from the 12th century real power lay with the shoguns, military rulers backed by the samurai. From the 17th century until 1853 the country was almost entirely closed to foreigners, and during that time, free of outside influence, it developed kabuki, ukiyo-e woodblock prints, the tea ceremony as we know it today and a cuisine that celebrates the seasons.",
+    "After imperial rule was restored in 1868, Japan turned itself into an industrial power within a few decades, and after the destruction of the Second World War it rose again at a speed that amazed the world. That is why, in a single day here, you will see a wooden temple from the 8th century and a neon crossing where several thousand people walk across on one green light. Two religions, Shinto and Buddhism, live side by side, and most Japanese people visit both shrines and temples without the slightest unease.",
+    "Traveling is easy because everything is clean, safe and on time, and the biggest obstacle is the language, which the kindness of your hosts quickly softens. It is worth learning a few rules of etiquette, because they are what opens doors: where you take off your shoes, how you enter an onsen and what you never do with chopsticks."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Kraj ožujka i početak travnja zbog trešanja u cvatu te studeni zbog crvenog javorova lišća. Lipanj je kišan, kolovoz vruć i sparan, a u rujnu su mogući tajfuni." },
-    { k: "Valuta", v: "Japanski jen (JPY). Kartice se primaju sve češće, ali u malim restoranima, hramovima i na tržnicama i dalje je potrebna gotovina. Bankomati u trgovinama 7-Eleven primaju strane kartice." },
-    { k: "Kretanje", v: "Brzi vlak shinkansen povezuje sve veće gradove, a Japan Rail Pass isplati se samo ako u kratkom roku prelazite velike udaljenosti. Za gradski prijevoz uzmite karticu Suica ili ICOCA, koja vrijedi u gotovo cijeloj zemlji." },
-    { k: "Napojnica", v: "Ne ostavlja se, i konobar bi mogao potrčati za vama da vam vrati novac. Dobra usluga smatra se dijelom posla." },
-    { k: "Ulazak", v: "Hrvatski državljani za turistički boravak do 90 dana ne trebaju vizu. Uvjete svakako provjerite prije puta na stranicama Ministarstva vanjskih i europskih poslova." },
-    { k: "Bonton ukratko", v: "U vlaku se ne telefonira i govori se tiho, na ulici se ne jede u hodu, a smeće se nosi sa sobom jer koševa gotovo nema. Na pokretnim stepenicama u Tokiju stoji se lijevo, a u Osaki desno." }
+    { k: "When to go", v: "Late March and early April for the cherry blossoms, and November for the red maple leaves. June is rainy, August is hot and humid, and typhoons are possible in September." },
+    { k: "Currency", v: "Japanese yen (JPY). Cards are accepted more and more often, but small restaurants, temples and markets still call for cash. ATMs in 7-Eleven stores accept foreign cards." },
+    { k: "Getting around", v: "The shinkansen bullet train links all the larger cities, and the Japan Rail Pass pays off only if you cover long distances in a short time. For city transport, get a Suica or ICOCA card, which works almost everywhere in the country." },
+    { k: "Tipping", v: "Tips are not left, and a waiter might run after you to give the money back. Good service is considered part of the job." },
+    { k: "Entry", v: "Croatian citizens do not need a visa for a tourist stay of up to 90 days. Be sure to check the requirements before you travel on the website of the Croatian Ministry of Foreign and European Affairs." },
+    { k: "Etiquette in brief", v: "On trains you do not make phone calls and you speak quietly, you do not eat while walking down the street, and you carry your trash with you because there are almost no bins. On escalators you stand on the left in Tokyo and on the right in Osaka." }
   ],
   hrana: [
-    { ime: "Sushi", opis: "Zalogaj riže začinjene octom s ribom ili plodovima mora.", prica: "Današnji nigiri nastao je početkom 19. stoljeća u Edu, današnjem Tokiju, kao brza hrana koja se jela s nogu na uličnim štandovima. Za šankom ga smijete jesti prstima, a u umak od soje umače se riba, a ne riža, jer bi se riža raspala." },
-    { ime: "Ramen", opis: "Pšenični rezanci u bogatoj juhi s mesom, jajetom i povrćem.", prica: "Rezanci su stigli iz Kine, a svaka je regija razvila svoju juhu: Sapporo miso, Fukuoka gusti svinjski tonkotsu, Tokio bistru juhu sa sojom. Srkanje je ovdje posve pristojno, hladi rezance i kuharu pokazuje da vam je ukusno." },
-    { ime: "Tempura", opis: "Plodovi mora i povrće u laganom, hrskavom tijestu, kratko prženi u ulju.", prica: "Tehniku su u 16. stoljeću u Nagasaki donijeli portugalski misionari i trgovci, a ime se obično povezuje s latinskim nazivom za dane posta, kada se nije jelo meso. Japanci su tijesto učinili prozračnim tako što ga miješaju s ledenom vodom i tek nekoliko poteza štapićima." },
-    { ime: "Okonomiyaki", opis: "Slana palačinka od kupusa, tijesta i dodataka pečena na vrućoj ploči.", prica: "Ime znači otprilike „peci što voliš“. Osaka sve sastojke umiješa zajedno, dok Hirošima slaže slojeve i dodaje rezance, i oba grada tvrde da je njihova inačica prava." },
-    { ime: "Tonkatsu", opis: "Pohani svinjski odrezak s nasjeckanim kupusom, rižom i miso juhom.", prica: "Nastao je krajem 19. stoljeća, kada je Japan prihvaćao zapadne običaje, kao domaća inačica europskog pohanog odreska. Mrvice panko krupnije su od naših, pa korica ostaje prozračna i hrskava." },
-    { ime: "Soba i udon", opis: "Tanki rezanci od heljde i debeli pšenični rezanci, topli u juhi ili hladni s umakom.", prica: "Soba se jede i na Staru godinu jer dugi rezanci simboliziraju dug život. Nakon hladne sobe konobar donosi vruću vodu u kojoj su se rezanci kuhali, koja se ulije u ostatak umaka i popije kao juha." },
-    { ime: "Wagyu", opis: "Japanska govedina prošarana finim žilicama masnoće.", prica: "Najpoznatije su vrste iz Kobea, Matsusake i Hide, a svaka se životinja može pratiti po matičnom broju. Jede se u malim količinama, kratko pečena na ploči ili u loncu kao sukiyaki, jer je vrlo zasitna." },
-    { ime: "Matcha i wagashi", opis: "Zeleni čaj u prahu koji se pjeni metlicom od bambusa i tradicionalni slatkiši od graha i riže.", prica: "Slatkiš se pojede prije čaja kako bi ublažio njegovu gorčinu. Oblici i boje wagashija mijenjaju se s godišnjim dobima, pa u travnju podsjećaju na cvijet trešnje, a u studenom na javorov list." },
-    { ime: "Sake", opis: "Alkoholno piće od fermentirane riže, s 14 do 16 posto alkohola.", prica: "Pije se hladan ili zagrijan, ovisno o vrsti i godišnjem dobu. Za stolom se nikada ne toči samoj sebi, nego jedna drugoj, i zdravica glasi „kanpai“." },
-    { ime: "Onigiri i bento", opis: "Trokut riže u algi s nadjevom i kutija s pomno složenim obrokom.", prica: "Onigiri iz trgovina koje rade cijeli dan i noć najjeftiniji je dobar doručak u Japanu. Na većim kolodvorima prodaje se ekiben, bento s lokalnim specijalitetima kraja kroz koji vlak prolazi, i jede se u shinkansenu." }
+    { ime: "Sushi", opis: "A bite of vinegar-seasoned rice with fish or seafood.", prica: "Today's nigiri was born in the early 19th century in Edo, present-day Tokyo, as fast food eaten standing at street stalls. At the counter you are welcome to eat it with your fingers, and it is the fish that gets dipped into the soy sauce rather than the rice, because the rice would fall apart." },
+    { ime: "Ramen", opis: "Wheat noodles in a rich broth with meat, egg and vegetables.", prica: "The noodles arrived from China, and every region developed its own broth: miso in Sapporo, thick pork tonkotsu in Fukuoka, a clear soy broth in Tokyo. Slurping is perfectly polite here, since it cools the noodles and shows the cook that you are enjoying the food." },
+    { ime: "Tempura", opis: "Seafood and vegetables in a light, crisp batter, briefly fried in oil.", prica: "The technique was brought to Nagasaki in the 16th century by Portuguese missionaries and traders, and the name is usually linked to the Latin term for the days of fasting, when no meat was eaten. The Japanese made the batter airy by mixing it with ice water and just a few strokes of the chopsticks." },
+    { ime: "Okonomiyaki", opis: "A savory pancake of cabbage, batter and toppings cooked on a hot griddle.", prica: "The name means roughly “grill what you like”. Osaka mixes all the ingredients together, while Hiroshima builds layers and adds noodles, and both cities claim that their version is the real one." },
+    { ime: "Tonkatsu", opis: "A breaded pork cutlet with shredded cabbage, rice and miso soup.", prica: "It appeared at the end of the 19th century, when Japan was taking up Western customs, as a homegrown version of the European breaded cutlet. Panko crumbs are coarser than ordinary European breadcrumbs, so the crust stays airy and crisp." },
+    { ime: "Soba and udon", opis: "Thin buckwheat noodles and thick wheat noodles, served hot in broth or cold with a dipping sauce.", prica: "Soba is also eaten on New Year's Eve because long noodles symbolize a long life. After cold soba the waiter brings the hot water the noodles were cooked in, which you pour into the rest of the sauce and drink as a soup." },
+    { ime: "Wagyu", opis: "Japanese beef marbled with fine threads of fat.", prica: "The best-known kinds come from Kobe, Matsusaka and Hida, and every animal can be traced by its registration number. It is eaten in small amounts, briefly seared on a griddle or cooked in a pot as sukiyaki, because it is very filling." },
+    { ime: "Matcha and wagashi", opis: "Powdered green tea whisked to a froth with a bamboo whisk, and traditional sweets made of beans and rice.", prica: "The sweet is eaten before the tea to soften its bitterness. The shapes and colors of wagashi change with the seasons, so in April they recall a cherry blossom and in November a maple leaf." },
+    { ime: "Sake", opis: "An alcoholic drink made from fermented rice, with 14 to 16 percent alcohol.", prica: "It is drunk chilled or warmed, depending on the type and the season. At the table you never pour for yourself, you pour for each other, and the toast is “kanpai”." },
+    { ime: "Onigiri and bento", opis: "A triangle of rice wrapped in seaweed with a filling, and a box holding a carefully arranged meal.", prica: "Onigiri from the convenience stores that stay open day and night is the cheapest good breakfast in Japan. Larger stations sell ekiben, bento boxes with the local specialties of the region the train passes through, which are eaten on the shinkansen." }
   ],
   obicaji: [
-    { ime: "Onsen", opis: "Kupanje u termalnoj vodi omiljeni je japanski odmor. U bazen se ulazi bez kupaćeg kostima i tek nakon što se sjedeći na stolčiću temeljito operete sapunom i isperete. Mali ručnik ne smije dotaknuti vodu, pa ga ostavite na rubu ili složite na glavu, kosa se veže, a u vodi se ne pliva. Kupališta su podijeljena na muška i ženska, a neka i dalje ne primaju goste s tetovažama, pa to provjerite unaprijed.", gdje: "Hakone kraj Tokija, Kinosaki Onsen, Beppu na Kyushuu i Noboribetsu na Hokkaidu. Mnogi ryokani imaju i privatne kupke koje se mogu rezervirati, što je dobar izbor za prvi put." },
-    { ime: "Izuvanje cipela", opis: "Cipele se skidaju na ulazu u kuću, ryokan, mnoge hramove, neke restorane i garderobe. Znak je povišeni pod ili stepenica na ulazu zvana genkan: cipele ostaju dolje, okrenute prema vratima, a gore se staje u čarapama ili u papučama koje vas čekaju. Na tatami se ne staje ni u papučama, a u zahodu čekaju posebne papuče koje se ondje i ostavljaju.", gdje: "Vidjet ćete to u svakom ryokanu i hramu. Ponesite čiste čarape bez rupa i obuću koja se lako izuva." },
-    { ime: "Štapići", opis: "Dva se poteza nikada ne rade jer podsjećaju na pogrebne obrede: štapići se ne zabadaju uspravno u rižu i hrana se ne dodaje iz štapića u štapiće. Ne pokazuje se njima na ljude, ne nabada se hrana i ne povlači se zdjela prema sebi. Kada ne jedete, odložite ih na mali držač ili na rub zdjele.", gdje: "Za svakim stolom. Zdjelu s rižom ili juhom slobodno podignite jednom rukom do usta, to je pristojno." },
-    { ime: "Hram ili svetište", opis: "Šintoistička svetišta (jinja, taisha, jingu) prepoznat ćete po vratima torii, obično crvenonarančastima, po debelom užetu od rižine slame i po kamenim čuvarima u obliku lavova ili lisica. Ondje se operu ruke na izvoru, ubaci novčić, dvaput nakloni, dvaput pljesne, kratko pomoli i još jednom nakloni. Budistički hramovi (tera, ji, in) imaju masivna drvena vrata s kipovima čuvara, kadionicu, kipove Bude i često pagodu. U njima se ne plješće, nego se tiho sklope ruke i nakloni.", gdje: "Najlakše je usporediti svetište Meiji Jingu i hram Senso-ji u Tokiju ili Fushimi Inari i Kiyomizu-deru u Kyotu. Ime često sve otkriva: završetak -ji ili -dera znači hram, a -jinja, -jingu ili -taisha svetište." },
-    { ime: "Čajna ceremonija", opis: "Chado, „put čaja“, obred je pripreme matche u kojem je svaki pokret unaprijed određen. Današnji oblik oblikovao je u 16. stoljeću majstor Sen no Rikyu, koji je cijenio jednostavnost i ljepotu nesavršenih predmeta. Gost zdjelicu prije pijenja okrene kako ne bi pio s njezine najljepše strane.", gdje: "Kyoto je središte čajne kulture. Kratke ceremonije na engleskom nude čajane u četvrti Higashiyama, a čaj se uzgaja u obližnjem Ujiju." },
-    { ime: "Hanami", opis: "Promatranje trešanja u cvatu običaj je star više od tisuću godina. Cvat traje tek tjedan ili dva, pa podsjeća na prolaznost života, a obitelji i kolege prostiru plahte pod stablima i ondje jedu i piju do večeri.", gdje: "Park Ueno i rijeka Meguro u Tokiju, Filozofova staza u Kyotu i dvorac Himeji, najčešće krajem ožujka i početkom travnja. Na Hokkaidu trešnje cvatu tek početkom svibnja." },
-    { ime: "Matsuri", opis: "Svako svetište ima svoju godišnju svetkovinu na kojoj četvrt nosi božanstvo u prijenosnom svetištu mikoshi ili vuče visoka kola. Uz to idu bubnjevi, štandovi s hranom i ljetni pamučni kimono yukata.", gdje: "Gion Matsuri u Kyotu traje cijeli srpanj, s povorkama 17. i 24. srpnja. Takayama Matsuri održava se 14. i 15. travnja te 9. i 10. listopada, a Nebuta u Aomoriju početkom kolovoza." },
-    { ime: "Sumo", opis: "Japanski nacionalni sport nastao je kao šintoistički obred, što se i danas vidi: hrvači prije borbe bacaju sol da pročiste ring, a sudac je odjeven kao svećenik. Borba često traje tek nekoliko sekundi, a gubi onaj tko izađe iz kruga ili tlo dotakne bilo čime osim stopala.", gdje: "Šest velikih turnira godišnje: u Tokiju u siječnju, svibnju i rujnu, u Osaki u ožujku, u Nagoyi u srpnju i u Fukuoki u studenom. Raspored i ulaznice objavljuje Japanski sumo savez." }
+    { ime: "Onsen", opis: "Bathing in thermal water is Japan's favorite way to unwind. You enter the pool without a swimsuit and only after washing thoroughly with soap and rinsing off while seated on a small stool. The small towel must not touch the water, so leave it on the edge or fold it on top of your head, hair is tied up, and nobody swims in the water. Baths are divided into men's and women's, and some still do not admit guests with tattoos, so check in advance.", gdje: "Hakone near Tokyo, Kinosaki Onsen, Beppu on Kyushu and Noboribetsu on Hokkaido. Many ryokans also have private baths that can be reserved, which is a good choice for a first time." },
+    { ime: "Taking off your shoes", opis: "Shoes come off at the entrance to a house, a ryokan, many temples, some restaurants and changing rooms. The sign is a raised floor or step at the entrance called the genkan: shoes stay below, pointing toward the door, and up above you stand in socks or in the slippers waiting for you. You never step onto tatami even in slippers, and in the restroom there are special slippers that stay right there.", gdje: "You will see it in every ryokan and temple. Bring clean socks without holes and footwear that slips off easily." },
+    { ime: "Chopsticks", opis: "Two gestures are never made because they recall funeral rites: chopsticks are not stuck upright into rice, and food is not passed from chopsticks to chopsticks. You do not point them at people, spear food with them or pull a bowl toward you with them. When you are not eating, rest them on the small holder or on the rim of the bowl.", gdje: "At every table. Feel free to lift a bowl of rice or soup to your mouth with one hand, which is considered polite." },
+    { ime: "Temple or shrine", opis: "You will recognize Shinto shrines (jinja, taisha, jingu) by their torii gates, usually vermilion, by a thick rope of rice straw and by stone guardians in the shape of lions or foxes. There you wash your hands at the fountain, toss in a coin, bow twice, clap twice, say a short prayer and bow once more. Buddhist temples (tera, ji, in) have massive wooden gates with guardian statues, an incense burner, statues of the Buddha and often a pagoda. You do not clap in them, you quietly join your hands and bow.", gdje: "The easiest comparison is between Meiji Jingu shrine and Senso-ji temple in Tokyo, or Fushimi Inari and Kiyomizu-dera in Kyoto. The name often gives it all away: the ending -ji or -dera means a temple, and -jinja, -jingu or -taisha a shrine." },
+    { ime: "Tea ceremony", opis: "Chado, “the way of tea”, is a ritual of preparing matcha in which every movement is set in advance. Its present form was shaped in the 16th century by the master Sen no Rikyu, who valued simplicity and the beauty of imperfect objects. Before drinking, the guest turns the bowl so as not to drink from its most beautiful side.", gdje: "Kyoto is the center of tea culture. Short ceremonies in English are offered by teahouses in the Higashiyama district, and the tea is grown in nearby Uji." },
+    { ime: "Hanami", opis: "Viewing the cherry trees in bloom is a custom more than a thousand years old. The blossom lasts only a week or two, so it is a reminder of how fleeting life is, and families and colleagues spread sheets under the trees and eat and drink there until evening.", gdje: "Ueno Park and the Meguro River in Tokyo, the Philosopher's Path in Kyoto and Himeji Castle, most often in late March and early April. On Hokkaido the cherry trees bloom only in early May." },
+    { ime: "Matsuri", opis: "Every shrine has its own annual festival at which the neighborhood carries the deity in a portable shrine called a mikoshi or pulls tall floats. Along with it come drums, food stalls and the yukata, a cotton summer kimono.", gdje: "Gion Matsuri in Kyoto lasts all of July, with processions on July 17 and 24. Takayama Matsuri is held on April 14 and 15 and on October 9 and 10, and Nebuta in Aomori in early August." },
+    { ime: "Sumo", opis: "Japan's national sport began as a Shinto ritual, which still shows today: before a bout the wrestlers throw salt to purify the ring, and the referee is dressed like a priest. A bout often lasts only a few seconds, and the loser is whoever steps out of the circle or touches the ground with anything other than the soles of the feet.", gdje: "Six grand tournaments a year: in Tokyo in January, May and September, in Osaka in March, in Nagoya in July and in Fukuoka in November. The schedule and tickets are published by the Japan Sumo Association." }
   ],
   fraze: [
-    { izvorno: "Konnichiwa", izgovor: "kon-ni-či-VA", hr: "Dobar dan" },
-    { izvorno: "Arigatou gozaimasu", izgovor: "a-ri-GA-to go-zai-MAS", hr: "Hvala lijepa" },
-    { izvorno: "Sumimasen", izgovor: "su-mi-ma-SEN", hr: "Oprostite (i za dozivanje konobara)" },
-    { izvorno: "Onegaishimasu", izgovor: "o-ne-gai-ši-MAS", hr: "Molim (kada nešto tražite)" },
-    { izvorno: "Itadakimasu", izgovor: "i-ta-da-ki-MAS", hr: "Kaže se prije jela, poput našeg „dobar tek“" },
-    { izvorno: "Gochisousama deshita", izgovor: "go-či-so-SA-ma DEŠ-ta", hr: "Hvala na obroku (kaže se pri odlasku)" },
-    { izvorno: "Oishii", izgovor: "o-i-ŠI", hr: "Ukusno" },
-    { izvorno: "Ikura desu ka?", izgovor: "I-ku-ra des KA", hr: "Koliko košta?" },
-    { izvorno: "Kanpai", izgovor: "KAN-pai", hr: "Živjeli" }
+    { izvorno: "Konnichiwa", izgovor: "kon-nee-chee-WAH", hr: "Hello, good day" },
+    { izvorno: "Arigatou gozaimasu", izgovor: "ah-ree-GAH-toh goh-zye-MAHS", hr: "Thank you very much" },
+    { izvorno: "Sumimasen", izgovor: "soo-mee-mah-SEN", hr: "Excuse me (also used to call a waiter)" },
+    { izvorno: "Onegaishimasu", izgovor: "oh-neh-guy-shee-MAHS", hr: "Please (when asking for something)" },
+    { izvorno: "Itadakimasu", izgovor: "ee-tah-dah-kee-MAHS", hr: "Said before eating, much like “enjoy your meal”" },
+    { izvorno: "Gochisousama deshita", izgovor: "goh-chee-soh-SAH-mah DESH-tah", hr: "Thank you for the meal (said as you leave)" },
+    { izvorno: "Oishii", izgovor: "oh-ee-SHEE", hr: "Delicious" },
+    { izvorno: "Ikura desu ka?", izgovor: "EE-koo-rah dess KAH", hr: "How much is it?" },
+    { izvorno: "Kanpai", izgovor: "KAHN-pie", hr: "Cheers" }
   ],
   zanimljivosti: [
-    "Japan je 2023. ponovno prebrojio svoje otoke i ustanovio da ih ima 14.125, više nego dvostruko u odnosu na raniji službeni broj.",
-    "Shinkansen vozi od 1964., a prosječno kašnjenje vlakova na glavnoj liniji mjeri se u sekundama, a ne u minutama.",
-    "Vrh planine Fuji iznad osme postaje u vlasništvu je šintoističkog svetišta Fujisan Hongu Sengen Taisha, a ne države.",
-    "Čokoladice KitKat popularan su dar pred ispite jer ime zvuči slično izrazu „kitto katsu“, što znači „sigurno ćeš pobijediti“.",
-    "Graditeljska tvrtka Kongo Gumi, koja je gradila hramove, osnovana je 578. godine i smatra se najstarijom tvrtkom na svijetu koja je neprekidno poslovala više od 1400 godina.",
-    "Zgradu u Hirošimi koja je danas poznata kao Kupola atomske bombe projektirao je češki arhitekt Jan Letzel 1915. godine.",
-    "U Japanu postoje kafići s mačkama, sovama i ježevima, a prvi mačji kafić u zemlji otvoren je u Osaki 2004.",
-    "Japanski carski tron smatra se najstarijom nasljednom monarhijom na svijetu koja i danas traje."
+    "In 2023 Japan recounted its islands and found that it has 14,125, more than twice the earlier official figure.",
+    "The shinkansen has been running since 1964, and the average delay of trains on the main line is measured in seconds rather than minutes.",
+    "The summit of Mount Fuji above the eighth station is owned by the Shinto shrine Fujisan Hongu Sengen Taisha rather than by the state.",
+    "KitKat bars are a popular gift before exams because the name sounds like the phrase “kitto katsu”, which means “you will surely win”.",
+    "The construction company Kongo Gumi, which built temples, was founded in the year 578 and is considered the oldest company in the world, having operated without interruption for more than 1,400 years.",
+    "The building in Hiroshima known today as the Atomic Bomb Dome was designed by the Czech architect Jan Letzel in 1915.",
+    "Japan has cafes with cats, owls and hedgehogs, and the country's first cat cafe opened in Osaka in 2004.",
+    "The Japanese imperial throne is considered the oldest hereditary monarchy in the world that still exists today."
   ],
   mjesta: [
     {
       id: "tokio",
-      ime: "Tokio",
+      ime: "Tokyo",
       vrsta: "grad",
-      sazetak: "Najveće gradsko područje na svijetu u kojem se iza svakog nebodera krije uličica s pet stolaca i jednim kuharom.",
+      sazetak: "The largest urban area in the world, where behind every skyscraper hides an alley with five stools and a single cook.",
       prica: [
-        "Do kraja 16. stoljeća ovdje je bilo ribarsko mjesto Edo. Sve se promijenilo kada je Tokugawa Ieyasu ondje podigao dvorac i 1603. postao šogun, pa je Edo postao stvarno središte vlasti, dok je car ostao u Kyotu. Godine 1868. car se preselio u Edo, a grad je dobio ime Tokio, što znači „istočna prijestolnica“.",
-        "Grad je dvaput gotovo izbrisan, u velikom potresu 1923. i u bombardiranjima 1945., i zato ima malo starih zgrada. Stari Edo najbolje se osjeća u Asakusi i Yanaki, a novi Tokio u Shibuyi i Shinjukuu."
+        "Until the end of the 16th century this was the fishing village of Edo. Everything changed when Tokugawa Ieyasu built a castle here and became shogun in 1603, which made Edo the real seat of power while the emperor stayed in Kyoto. In 1868 the emperor moved to Edo, and the city was given the name Tokyo, which means “eastern capital”.",
+        "The city was almost wiped out twice, in the great earthquake of 1923 and in the bombings of 1945, which is why it has few old buildings. Old Edo is best felt in Asakusa and Yanaka, and the new Tokyo in Shibuya and Shinjuku."
       ],
       vidjeti: [
-        { ime: "Senso-ji", opis: "Najstariji tokijski hram posvećen je božici milosrđa Kannon. Legenda kaže da su 628. godine dva brata ribara u rijeci Sumidi mrežom izvukla njezin kipić, koji se čuva u hramu i nikada se ne izlaže. Na ulazu potražite vrata Kaminarimon s golemim crvenim lampionom i kipove bogova groma i vjetra s obiju strana." },
-        { ime: "Meiji Jingu", opis: "Šintoističko svetište dovršeno 1920. posvećeno je caru Meijiju i carici Shoken. Šuma oko njega nije prirodna: zasađena je s oko sto tisuća stabala darovanih iz cijelog Japana. Uz stazu ćete vidjeti zid bačvi sakea, a nasuprot njemu bačve burgundskog vina, jer je car volio zapadnjačke novotarije." },
-        { ime: "Raskrižje Shibuya i Hachiko", opis: "Na najprometnijem pješačkom prijelazu na svijetu sva se svjetla za automobile zacrvene u isti tren, pa ljudi krenu u svim smjerovima odjednom. Pred kolodvorom stoji kip psa Hachika, koji je gotovo deset godina svaki dan dolazio čekati vlasnika koji je umro na poslu. Prvi kip postavljen je 1934., dok je pas još bio živ." },
-        { ime: "Vanjska tržnica Tsukiji", opis: "Veletržnica ribe preselila se 2018. u Toyosu, a uličice oko stare lokacije ostale su pune štandova s noževima, sušenom tunom, omletima na štapiću i svježim sushijem. Dođite prije podneva jer se mnogi štandovi rano zatvaraju." },
-        { ime: "Tokijski nacionalni muzej", opis: "Najstariji i najveći japanski muzej, osnovan 1872., nalazi se u parku Ueno. Ako vas zanima kako su izgledali samurajski oklopi, mačevi, kimona i zasloni oslikani zlatom, ovdje ćete to vidjeti na jednom mjestu. Potražite i prapovijesne glinene figure dogu s golemim očima." },
-        { ime: "Istočni vrtovi Carske palače", opis: "Car i danas živi na mjestu nekadašnjeg dvorca Edo, a javnosti je otvoren istočni dio. Od goleme glavne kule ostao je samo kameni temelj, jer je izgorjela u požaru 1657. i nikada nije obnovljena. Promotrite kako su kameni blokovi zidina složeni bez ikakva veziva." }
+        { ime: "Senso-ji", opis: "Tokyo's oldest temple is dedicated to Kannon, the goddess of mercy. Legend says that in the year 628 two fisherman brothers pulled her small statue out of the Sumida River in their net, and it is kept in the temple and never put on display. At the entrance, look for the Kaminarimon gate with its enormous red lantern and the statues of the gods of thunder and wind on either side." },
+        { ime: "Meiji Jingu", opis: "This Shinto shrine, completed in 1920, is dedicated to Emperor Meiji and Empress Shoken. The forest around it is not natural: it was planted with about a hundred thousand trees donated from all over Japan. Along the path you will see a wall of sake barrels and, facing it, barrels of Burgundy wine, because the emperor was fond of Western novelties." },
+        { ime: "Shibuya Crossing and Hachiko", opis: "At the busiest pedestrian crossing in the world, all the lights for cars turn red at the same instant, so people set off in every direction at once. In front of the station stands the statue of the dog Hachiko, who came every day for almost ten years to wait for an owner who had died at work. The first statue was put up in 1934, while the dog was still alive." },
+        { ime: "Tsukiji Outer Market", opis: "The wholesale fish market moved to Toyosu in 2018, while the alleys around the old site remained full of stalls selling knives, dried tuna, omelets on a stick and fresh sushi. Come before noon, because many stalls close early." },
+        { ime: "Tokyo National Museum", opis: "Japan's oldest and largest museum, founded in 1872, stands in Ueno Park. If you are curious about what samurai armor, swords, kimonos and gold-painted screens looked like, you will see them all in one place here. Look for the prehistoric clay dogu figures with their enormous eyes as well." },
+        { ime: "East Gardens of the Imperial Palace", opis: "The emperor still lives on the site of the former Edo Castle, and the eastern part is open to the public. All that remains of the huge main keep is its stone base, because it burned down in the fire of 1657 and was never rebuilt. Notice how the stone blocks of the walls are fitted together without any mortar." }
       ],
       jesti: [
-        { ime: "Edomae sushi", opis: "Nigiri u stilu starog Eda, s ribom koju kuhar sam marinira ili kratko prokuha. Najbolje ga je jesti za šankom, komad po komad, u Ginzi ili oko Tsukijija." },
-        { ime: "Monjayaki", opis: "Rjeđi tokijski rođak okonomiyakija koji se peče na ploči pred vama i jede malom lopaticom izravno s nje. Cijela ulica restorana nalazi se u četvrti Tsukishima." },
-        { ime: "Tempura", opis: "U Tokiju se prži u sezamovu ulju i poslužuje komad po komad za šankom, a jeftinija je inačica tendon, tempura na zdjeli riže." },
-        { ime: "Tsukemen", opis: "Ramen kod kojeg se hladni rezanci umaču u odvojenu, vrlo gustu juhu. Dobro mjesto za kušanje je podzemna „ulica ramena“ na kolodvoru Tokyo." }
+        { ime: "Edomae sushi", opis: "Nigiri in the style of old Edo, with fish that the chef marinates or briefly simmers himself. It is best eaten at the counter, piece by piece, in Ginza or around Tsukiji." },
+        { ime: "Monjayaki", opis: "A runnier Tokyo cousin of okonomiyaki that is cooked on the griddle in front of you and eaten straight off it with a small spatula. A whole street of restaurants is found in the Tsukishima district." },
+        { ime: "Tempura", opis: "In Tokyo it is fried in sesame oil and served piece by piece at the counter, and the cheaper version is tendon, tempura on a bowl of rice." },
+        { ime: "Tsukemen", opis: "Ramen in which cold noodles are dipped into a separate, very thick broth. A good place to try it is the underground “ramen street” at Tokyo Station." }
       ],
       dozivjeti: [
-        { ime: "Sumo u dvorani Ryogoku Kokugikan", opis: "Turniri se u Tokiju održavaju u siječnju, svibnju i rujnu i traju petnaest dana. Najbolji hrvači bore se kasno poslijepodne, a ulaznice se prodaju na službenoj stranici saveza.", link: "https://www.sumo.or.jp/En/" },
-        { ime: "Tečaj kuhanja uz obilazak tržnice", opis: "Škola Tsukiji Cooking vodi tečajeve na engleskom na kojima se uči sushi, domaća kuhinja ili slatkiši wagashi, često uz šetnju vanjskom tržnicom.", link: "https://tsukiji-cooking.com/" },
-        { ime: "teamLab Planets", opis: "Digitalni muzej u Toyosuu kroz koji se hoda bosih nogu, dijelom kroz vodu do koljena, dok se oko vas kreću projekcije cvijeća i riba. Ulaznice se kupuju unaprijed za točno vrijeme.", link: "https://www.teamlab.art/e/planets/" },
-        { ime: "Pogled s tornja Tokyo Skytree", opis: "S 634 metra najviši je toranj na svijetu, a za vedrih zimskih dana s vidikovca se vidi Fuji.", link: "https://en.tokyo-skytree.jp/" }
+        { ime: "Sumo at the Ryogoku Kokugikan arena", opis: "Tournaments are held in Tokyo in January, May and September and last fifteen days. The best wrestlers fight in the late afternoon, and tickets are sold on the association's official website.", link: "https://www.sumo.or.jp/En/" },
+        { ime: "Cooking class with a market tour", opis: "The Tsukiji Cooking school runs classes in English where you learn sushi, home cooking or wagashi sweets, often with a walk through the outer market.", link: "https://tsukiji-cooking.com/" },
+        { ime: "teamLab Planets", opis: "A digital museum in Toyosu that you walk through barefoot, partly through knee-deep water, while projections of flowers and fish move around you. Tickets are bought in advance for a set time.", link: "https://www.teamlab.art/e/planets/" },
+        { ime: "The view from Tokyo Skytree", opis: "At 634 meters it is the tallest tower in the world, and on clear winter days you can see Fuji from the observation deck.", link: "https://en.tokyo-skytree.jp/" }
       ],
       agencije: [
-        { ime: "Go Tokyo", opis: "Službeni turistički vodič grada Tokija.", link: "https://www.gotokyo.org/en/" },
-        { ime: "Tokyo Free Guide", opis: "Udruga volontera koji besplatno vode poludnevne i cjelodnevne obilaske, a gost plaća samo troškove prijevoza, ulaznica i obroka.", link: "https://www.tokyofreeguide.org/" },
-        { ime: "Tokyo Localized", opis: "Lokalni vodiči s besplatnim i plaćenim pješačkim turama po Asakusi, Uenu, Shibuyi, Shinjukuu i Tsukijiju.", link: "https://www.tokyolocalized.com/" }
+        { ime: "Go Tokyo", opis: "The official travel guide of the city of Tokyo.", link: "https://www.gotokyo.org/en/" },
+        { ime: "Tokyo Free Guide", opis: "An association of volunteers who lead half-day and full-day tours free of charge, with the guest paying only the costs of transport, admission and meals.", link: "https://www.tokyofreeguide.org/" },
+        { ime: "Tokyo Localized", opis: "Local guides with free and paid walking tours of Asakusa, Ueno, Shibuya, Shinjuku and Tsukiji.", link: "https://www.tokyolocalized.com/" }
       ],
-      kada: "Najljepše je krajem ožujka i u studenom. U podzemnoj izbjegavajte jutarnju gužvu od 7.30 do 9 sati, a za Skytree i teamLab kupite ulaznice unaprijed."
+      kada: "It is at its loveliest in late March and in November. On the subway, avoid the morning rush from 7:30 to 9 a.m., and buy tickets for Skytree and teamLab in advance."
     },
     {
       id: "kyoto",
       ime: "Kyoto",
       vrsta: "grad",
-      sazetak: "Carska prijestolnica tijekom više od tisuću godina, s hramovima, vrtovima i četvrtima u kojima još rade gejše.",
+      sazetak: "The imperial capital for more than a thousand years, with temples, gardens and districts where geisha still work.",
       prica: [
-        "Kyoto je osnovan 794. pod imenom Heian-kyo, a ulice su mu povučene u pravilnu mrežu po uzoru na kinesku prijestolnicu Chang'an. Car je ovdje stolovao sve do 1868., pa su se u gradu stoljećima usavršavali čajna ceremonija, tkanje svile, keramika i dvorska kuhinja.",
-        "Grad je u Drugom svjetskom ratu pošteđen bombardiranja, zbog čega je sačuvao drvene kuće machiya i stotine hramova. Sedamnaest lokaliteta u Kyotu i okolici upisano je 1994. na UNESCO-ov popis svjetske baštine."
+        "Kyoto was founded in 794 under the name Heian-kyo, and its streets were laid out in a regular grid modeled on the Chinese capital Chang'an. The emperor reigned here until 1868, so for centuries the city refined the tea ceremony, silk weaving, ceramics and court cuisine.",
+        "The city was spared from bombing in the Second World War, which is how it kept its wooden machiya houses and hundreds of temples. Seventeen sites in Kyoto and its surroundings were added to the UNESCO World Heritage List in 1994."
       ],
       vidjeti: [
-        { ime: "Fushimi Inari Taisha", opis: "Svetište božanstva riže i poslovnog uspjeha osnovano je 711. godine, a poznato je po tisućama crvenonarančastih vrata torii koja vode uz brdo. Svaka su vrata dar neke tvrtke ili pojedinca, i na stražnjoj strani uklesano je ime darovatelja i datum. Kamene lisice, glasnice božanstva, u ustima često drže ključ žitnice." },
-        { ime: "Kinkaku-ji", opis: "Zlatni paviljon bio je vila šoguna Ashikage Yoshimitsua, sagrađena 1397. i nakon njegove smrti pretvorena u zen hram. Zgrada koju gledate obnovljena je 1955., jer je izvornu pet godina ranije zapalio mladi redovnik. Svaki je kat građen u drugom stilu, a na vrhu stoji zlatni feniks." },
-        { ime: "Kiyomizu-dera", opis: "Hram „čiste vode“ osnovan je 778. godine, a glavna dvorana iz 1633. ima drvenu terasu koja se nadvija nad padinu na stupovima visokima oko trinaest metara, složenima bez ijednog čavla. Japanci za hrabru odluku i danas kažu da je netko „skočio s terase Kiyomizua“. Ispod hrama voda teče u tri mlaza, i posjetitelji je hvataju dugim posudicama." },
-        { ime: "Dvorac Nijo", opis: "Tokugawa Ieyasu sagradio ga je 1603. kao svoju rezidenciju u carskom gradu. Podovi u hodnicima namjerno škripe poput ptičjeg pjeva kako se nitko ne bi mogao neopaženo prišuljati, i zovu se „slavujevi podovi“. Upravo je ovdje 1867. posljednji šogun vratio vlast caru." },
-        { ime: "Ryoan-ji", opis: "Najpoznatiji japanski vrt od kamena sastoji se od petnaest stijena na bijelom šljunku. S kojeg god mjesta na trijemu gledale, barem jedna stijena ostaje skrivena. Nitko ne zna pouzdano tko ga je oblikovao ni što predstavlja, pa svatko smije imati svoje tumačenje." },
-        { ime: "Gion", opis: "Najpoznatija četvrt gejši, koje se u Kyotu zovu geiko, a njihove učenice maiko. Maiko ćete prepoznati po dugim rukavima, visokim drvenim sandalama i ukrasima u kosi koji se mijenjaju svaki mjesec. U privatne uličice zabranjeno je ulaziti i fotografirati, pa ostanite na glavnoj ulici Hanamikoji." }
+        { ime: "Fushimi Inari Taisha", opis: "The shrine of the deity of rice and business success was founded in the year 711 and is known for the thousands of vermilion torii gates that lead up the hill. Each gate is the gift of a company or an individual, and the name of the donor and the date are carved on the back. The stone foxes, messengers of the deity, often hold the key to the granary in their mouths." },
+        { ime: "Kinkaku-ji", opis: "The Golden Pavilion was the villa of the shogun Ashikaga Yoshimitsu, built in 1397 and turned into a Zen temple after his death. The building you see was rebuilt in 1955, because the original had been set on fire by a young monk five years earlier. Each floor is built in a different style, and a golden phoenix stands on top." },
+        { ime: "Kiyomizu-dera", opis: "The temple of “pure water” was founded in the year 778, and the main hall from 1633 has a wooden terrace that juts out over the slope on pillars about thirteen meters tall, assembled without a single nail. To this day the Japanese say of a bold decision that someone has “jumped off the terrace of Kiyomizu”. Below the temple, water flows in three streams, and visitors catch it with long-handled cups." },
+        { ime: "Nijo Castle", opis: "Tokugawa Ieyasu built it in 1603 as his residence in the imperial city. The floors in the corridors deliberately squeak like birdsong so that nobody could creep up unnoticed, and they are called “nightingale floors”. It was right here, in 1867, that the last shogun returned power to the emperor." },
+        { ime: "Ryoan-ji", opis: "Japan's most famous rock garden consists of fifteen rocks on white gravel. Wherever you stand on the veranda, at least one rock stays hidden. Nobody knows for certain who designed it or what it represents, so everyone is free to have their own interpretation." },
+        { ime: "Gion", opis: "The best-known district of the geisha, who are called geiko in Kyoto, with their apprentices called maiko. You will recognize maiko by their long sleeves, tall wooden sandals and hair ornaments that change every month. Entering and photographing the private alleys is forbidden, so stay on the main street, Hanamikoji." }
       ],
       jesti: [
-        { ime: "Kaiseki", opis: "Svečani slijed malih jela koji je izrastao iz obroka uz čajnu ceremoniju, a svaki tanjur prati godišnje doba. Najpristupačnije ga je kušati za ručak." },
-        { ime: "Yudofu", opis: "Tofu kuhan u laganom temeljcu od alge kombu, jelo budističkih redovnika. Tradicionalno se jede oko hramova Nanzen-ji i u Arashiyami." },
-        { ime: "Matcha i slatkiši iz Ujija", opis: "Čaj iz obližnjeg Ujija smatra se najboljim u Japanu. U Kyotu ga dobivate u svim oblicima, od zdjelice pjenaste matche do sladoleda i kolača." },
-        { ime: "Zalogaji s tržnice Nishiki", opis: "Natkrivena ulica duga oko 400 metara koju zovu „kuhinjom Kyota“. Kušajte ukiseljeno povrće tsukemono, omlet dashimaki i sitnu hobotnicu s prepeličjim jajetom u glavi." }
+        { ime: "Kaiseki", opis: "A formal sequence of small dishes that grew out of the meal served with the tea ceremony, with every plate following the season. The most affordable way to try it is at lunch." },
+        { ime: "Yudofu", opis: "Tofu simmered in a light stock of kombu seaweed, a dish of Buddhist monks. It is traditionally eaten around Nanzen-ji temple and in Arashiyama." },
+        { ime: "Matcha and sweets from Uji", opis: "Tea from nearby Uji is considered the best in Japan. In Kyoto you get it in every form, from a bowl of frothy matcha to ice cream and cakes." },
+        { ime: "Bites from Nishiki Market", opis: "A covered street about 400 meters long that people call “Kyoto's kitchen”. Try the tsukemono pickled vegetables, the dashimaki omelet and the tiny octopus with a quail egg in its head." }
       ],
       dozivjeti: [
-        { ime: "Čajna ceremonija u čajani Camellia", opis: "Ceremonija na engleskom u tradicionalnoj kući machiya u Higashiyami ili u vrtnoj čajani blizu hrama Ryoan-ji. Domaćica objašnjava svaki pokret, a na kraju same umutite svoju zdjelicu matche.", link: "https://tea-kyoto.com/" },
-        { ime: "Gion Corner", opis: "U jednoj večeri prikazuje se više tradicionalnih umjetnosti, među njima ples maiko, slaganje cvijeća, dvorska glazba i lutkarsko kazalište bunraku. Dobar je uvod prije šetnje Gionom.", link: "https://www.kyoto-gioncorner.com/global/en.html" },
-        { ime: "Tečaj kuhanja Cooking Sun", opis: "Male skupine na engleskom uče slagati bento ili kuhati jela kakva se poslužuju u izakayi. Škola ima kuhinje u Kyotu, Tokiju i Osaki.", link: "https://www.cooking-sun.com/" },
-        { ime: "Šuma bambusa u Arashiyami", opis: "Staza kroz visoki bambus najljepša je u rano jutro, prije dolaska izletničkih autobusa. Šetnju spojite s vrtom hrama Tenryu-ji i mostom Togetsukyo." }
+        { ime: "Tea ceremony at the Camellia teahouse", opis: "A ceremony in English in a traditional machiya house in Higashiyama or in a garden teahouse near Ryoan-ji temple. The host explains every movement, and at the end you whisk your own bowl of matcha.", link: "https://tea-kyoto.com/" },
+        { ime: "Gion Corner", opis: "Several traditional arts are presented in a single evening, among them maiko dance, flower arranging, court music and bunraku puppet theater. It makes a good introduction before a walk through Gion.", link: "https://www.kyoto-gioncorner.com/global/en.html" },
+        { ime: "Cooking Sun cooking class", opis: "Small groups learn in English how to arrange a bento or cook the kind of dishes served in an izakaya. The school has kitchens in Kyoto, Tokyo and Osaka.", link: "https://www.cooking-sun.com/" },
+        { ime: "The bamboo grove in Arashiyama", opis: "The path through the tall bamboo is at its most beautiful in the early morning, before the tour buses arrive. Combine the walk with the garden of Tenryu-ji temple and Togetsukyo Bridge." }
       ],
       agencije: [
-        { ime: "Kyoto City Official Travel Guide", opis: "Službeni turistički vodič grada Kyota, s kalendarom svetkovina i pravilima ponašanja u Gionu.", link: "https://kyoto.travel/en/" },
-        { ime: "Popis volonterskih vodiča JNTO-a", opis: "Japanska turistička organizacija objavljuje popis udruga volonterskih vodiča po gradovima, među njima i onih za Kyoto.", link: "https://www.japan.travel/en/plan/list-of-volunteer-guides/" },
-        { ime: "MAIKOYA", opis: "Kuća kulture s čajnim ceremonijama u kimonu i susretima s maiko, s čajanama kod tržnice Nishiki i u Gionu.", link: "https://mai-ko.com/" }
+        { ime: "Kyoto City Official Travel Guide", opis: "The official travel guide of the city of Kyoto, with a festival calendar and the rules of conduct in Gion.", link: "https://kyoto.travel/en/" },
+        { ime: "JNTO list of volunteer guides", opis: "The Japan National Tourism Organization publishes a list of volunteer guide associations by city, including those for Kyoto.", link: "https://www.japan.travel/en/plan/list-of-volunteer-guides/" },
+        { ime: "MAIKOYA", opis: "A culture house with tea ceremonies in kimono and meetings with maiko, with teahouses by Nishiki Market and in Gion.", link: "https://mai-ko.com/" }
       ],
-      kada: "Trešnje cvatu početkom travnja, a javori crvene u drugoj polovici studenog. Najpoznatije hramove posjetite odmah po otvaranju ili pred zatvaranje, jer su usred dana prepuni."
+      kada: "The cherry trees bloom in early April, and the maples turn red in the second half of November. Visit the most famous temples right at opening or just before closing, because they are packed in the middle of the day."
     },
     {
       id: "osaka",
       ime: "Osaka",
       vrsta: "grad",
-      sazetak: "Trgovački grad koji živi za hranu i čiji stanovnici slove kao najglasniji i najduhovitiji u Japanu.",
+      sazetak: "A merchant city that lives for food and whose people are known as the loudest and wittiest in Japan.",
       prica: [
-        "Osaka je oduvijek bila luka i trgovište. Toyotomi Hideyoshi, vojskovođa koji je ujedinio Japan, podigao je ovdje 1583. golem dvorac, a u razdoblju Edo grad je postao glavno skladište riže za cijelu zemlju i dobio nadimak „kuhinja naroda“.",
-        "Trgovci su imali novca i voljeli su dobro jesti, pa je nastala riječ kuidaore, koja znači otprilike „jesti dok ne propadneš“. Iz iste građanske kulture izrasli su lutkarsko kazalište bunraku i japanska komedija."
+        "Osaka has always been a port and a marketplace. Toyotomi Hideyoshi, the warlord who unified Japan, raised an enormous castle here in 1583, and in the Edo period the city became the main rice warehouse for the whole country and earned the nickname “the nation's kitchen”.",
+        "The merchants had money and loved to eat well, which gave rise to the word kuidaore, meaning roughly “to eat until you go broke”. The same townspeople's culture produced the bunraku puppet theater and Japanese comedy."
       ],
       vidjeti: [
-        { ime: "Dvorac Osaka", opis: "Hideyoshijev dvorac iz 1583. više je puta gorio, a današnja je glavna kula betonska rekonstrukcija iz 1931. s muzejom i dizalom. Izvorne su goleme zidine i opkopi. Kod vrata Sakura-mon potražite „kamen hobotnicu“, najveći blok u zidu, težak oko 108 tona." },
-        { ime: "Dotonbori", opis: "Kanal je 1612. počeo kopati trgovac Yasui Doton, a uz njega je nastala četvrt kazališta, koja je s vremenom postala četvrt restorana. Poznata je po golemim pokretnim reklamama: raku, ribi napuhači i trkaču tvrtke Glico, koji na tom mjestu u raznim inačicama stoji od 1935." },
-        { ime: "Shitenno-ji", opis: "Jedan od najstarijih budističkih hramova u Japanu osnovao je 593. godine princ Shotoku, koji je budizam učinio državnom vjerom. Zgrade su mnogo puta obnavljane, ali raspored je ostao izvoran: vrata, pagoda i glavna dvorana stoje u ravnoj crti od juga prema sjeveru." },
-        { ime: "Sumiyoshi Taisha", opis: "Svetište zaštitnika pomoraca građeno je u stilu koji je stariji od kineskih utjecaja na japansku arhitekturu: ravni krovovi, crvene grede i bijeli zidovi. Preko jezerca vodi strmi lučni most Sorihashi, a predaja kaže da prelazak preko njega čisti od grijeha." },
-        { ime: "Shinsekai i toranj Tsutenkaku", opis: "Četvrt je 1912. zamišljena kao „novi svijet“ po uzoru na Pariz i New York, s tornjem u sredini. Današnji toranj potječe iz 1956. Na vidikovcu sjedi Billiken, nasmiješeni kipić kojem se za sreću trljaju tabani." }
+        { ime: "Osaka Castle", opis: "Hideyoshi's castle of 1583 burned several times, and today's main keep is a concrete reconstruction from 1931 with a museum and an elevator. The huge walls and moats are original. By the Sakura-mon gate, look for the “octopus stone”, the largest block in the wall, weighing about 108 tons." },
+        { ime: "Dotonbori", opis: "The merchant Yasui Doton began digging the canal in 1612, and a theater district grew up along it, which in time became a restaurant district. It is known for its giant moving signs: a crab, a pufferfish and the runner of the Glico company, who has stood on that spot in various versions since 1935." },
+        { ime: "Shitenno-ji", opis: "One of the oldest Buddhist temples in Japan was founded in the year 593 by Prince Shotoku, who made Buddhism the state religion. The buildings have been rebuilt many times, but the layout has stayed original: the gate, the pagoda and the main hall stand in a straight line from south to north." },
+        { ime: "Sumiyoshi Taisha", opis: "The shrine of the protector of sailors is built in a style older than the Chinese influences on Japanese architecture: straight roofs, red beams and white walls. The steep arched Sorihashi bridge crosses the pond, and tradition says that walking over it cleanses you of sin." },
+        { ime: "Shinsekai and Tsutenkaku Tower", opis: "The district was conceived in 1912 as a “new world” modeled on Paris and New York, with a tower at its center. Today's tower dates from 1956. On the observation deck sits Billiken, a smiling little statue whose soles are rubbed for good luck." }
       ],
       jesti: [
-        { ime: "Takoyaki", opis: "Kuglice od tijesta s komadićem hobotnice, pečene u posebnoj ploči s udubinama. Izumljene su u Osaki 1930-ih, a jedu se vrele, sa štanda, na Dotonboriju." },
-        { ime: "Okonomiyaki", opis: "Osačka inačica, u kojoj se kupus, tijesto, jaje i svinjetina umiješaju zajedno i ispeku na ploči, često za vašim stolom." },
-        { ime: "Kushikatsu", opis: "Pohani ražnjići od mesa, povrća i sira, specijalitet četvrti Shinsekai. Zajednički umak služi svima, pa vrijedi strogo pravilo da se ražnjić umače samo jednom." }
+        { ime: "Takoyaki", opis: "Balls of batter with a piece of octopus inside, cooked in a special pan with round hollows. They were invented in Osaka in the 1930s and are eaten piping hot, from a stall, on Dotonbori." },
+        { ime: "Okonomiyaki", opis: "The Osaka version, in which cabbage, batter, egg and pork are mixed together and cooked on a griddle, often at your table." },
+        { ime: "Kushikatsu", opis: "Breaded skewers of meat, vegetables and cheese, a specialty of the Shinsekai district. The shared sauce is for everyone, so the strict custom is that a skewer is dipped only once." }
       ],
       dozivjeti: [
-        { ime: "Tečaj ulične hrane Eat Osaka", opis: "Na tečaju na engleskom same pečete takoyaki i druga ulična jela, pa poslije na štandovima znate što gledate.", link: "https://www.eatosaka.com/" },
-        { ime: "Večer na Dotonboriju", opis: "Dođite nakon mraka, kada se reklame odražavaju u kanalu, i idite od štanda do štanda. Mirniji je kraj uličica Hozenji Yokocho, s kipom obraslim mahovinom koji posjetitelji polijevaju vodom." },
-        { ime: "Tržnica Kuromon", opis: "Natkrivena tržnica na kojoj kuhari kupuju ribu, a posjetitelji na licu mjesta jedu pečene kapice, ježince i ražnjiće govedine." }
+        { ime: "Eat Osaka street food class", opis: "In this class in English you cook takoyaki and other street dishes yourself, so afterward you know what you are looking at when you stand at the stalls.", link: "https://www.eatosaka.com/" },
+        { ime: "An evening on Dotonbori", opis: "Come after dark, when the signs are reflected in the canal, and go from stall to stall. The quieter corner is the Hozenji Yokocho alley, with a moss-covered statue that visitors douse with water." },
+        { ime: "Kuromon Market", opis: "A covered market where chefs buy their fish and visitors eat grilled scallops, sea urchin and beef skewers on the spot." }
       ],
       agencije: [
-        { ime: "Osaka Info", opis: "Službeni turistički vodič Osake.", link: "https://osaka-info.jp/en/" },
-        { ime: "Cooking Sun", opis: "Škola kuhanja na engleskom s kuhinjom i u Osaki.", link: "https://www.cooking-sun.com/" }
+        { ime: "Osaka Info", opis: "The official travel guide of Osaka.", link: "https://osaka-info.jp/en/" },
+        { ime: "Cooking Sun", opis: "A cooking school in English that also has a kitchen in Osaka.", link: "https://www.cooking-sun.com/" }
       ],
-      kada: "Proljeće i jesen najugodniji su, a ljeti je vrlo sparno. Osaka je dobra baza za izlete u Naru, Himeji i na Koyasan."
+      kada: "Spring and fall are the most pleasant, and summer is very humid. Osaka makes a good base for trips to Nara, Himeji and Koyasan."
     },
     {
       id: "nara",
       ime: "Nara",
       vrsta: "grad",
-      sazetak: "Prva stalna japanska prijestolnica, u kojoj jeleni slobodno šeću između hramova iz 8. stoljeća.",
+      sazetak: "Japan's first permanent capital, where deer roam freely among temples from the 8th century.",
       prica: [
-        "Nara je pod imenom Heijo-kyo bila prijestolnica od 710. do 784. godine. U tih sedamdesetak godina budizam je postao državna vjera, a carevi su gradili hramove kakvi do tada nisu postojali.",
-        "Kada se dvor odselio, grad je utihnuo, i upravo je zato toliko toga ostalo sačuvano. Gotovo sve što želite vidjeti nalazi se u velikom parku ili oko njega, pa se Nara lako obiđe pješice u jednom danu."
+        "Under the name Heijo-kyo, Nara was the capital from 710 to 784. In those seventy-odd years Buddhism became the state religion, and the emperors built temples unlike anything that had existed before.",
+        "When the court moved away the city fell quiet, and that is exactly why so much has been preserved. Almost everything you will want to see lies in or around the large park, so Nara is easy to cover on foot in a day."
       ],
       vidjeti: [
-        { ime: "Todai-ji", opis: "U hramu sjedi brončani Veliki Buda visok oko petnaest metara, posvećen 752. godine. Dvorana oko njega obnovljena je 1709. u manjoj širini nego izvorna, a ipak je ostala jedna od najvećih drvenih građevina na svijetu. Iza kipa potražite stup s rupom veličine Budine nosnice: tko se provuče, kaže predaja, dobit će prosvjetljenje." },
-        { ime: "Jeleni u parku Nara", opis: "Predaja kaže da je božanstvo svetišta Kasuga stiglo u Naru jašući na bijelom jelenu, pa su jeleni stoljećima smatrani svetima. Danas ih u parku živi više od tisuću. Naučili su se nakloniti za keks koji se prodaje na štandovima, ali znaju biti i nestrpljivi, pa keks ne skrivajte i ne zadirkujte ih." },
-        { ime: "Kasuga Taisha", opis: "Svetište moćne obitelji Fujiwara osnovano je 768. godine. Prilaz i trijemovi ukrašeni su s oko tri tisuće kamenih i brončanih svjetiljki, darova vjernika kroz stoljeća. Sve se pale samo dvaput godišnje, početkom veljače i sredinom kolovoza." },
-        { ime: "Kofuku-ji", opis: "Obiteljski hram Fujiware nekoć je imao više od 150 zgrada. Peterokatna pagoda visoka pedeset metara, obnovljena 1426., simbol je grada, a posljednjih je godina u dugotrajnoj obnovi, pa može biti pod skelom. U riznici pogledajte kip Ashure s tri lica i šest ruku." },
-        { ime: "Horyu-ji", opis: "Hram koji je 607. osnovao princ Shotoku nalazi se dvadesetak minuta vlakom od središta. Njegova pagoda i glavna dvorana smatraju se najstarijim sačuvanim drvenim građevinama na svijetu. Stupovi su u sredini blago zadebljani, a neki povjesničari u tome vide daleki odjek grčke arhitekture koji je stigao Putem svile." }
+        { ime: "Todai-ji", opis: "Inside the temple sits the bronze Great Buddha, about fifteen meters tall, consecrated in the year 752. The hall around it was rebuilt in 1709 narrower than the original, and yet it has remained one of the largest wooden buildings in the world. Behind the statue, look for the pillar with a hole the size of the Buddha's nostril: whoever squeezes through, tradition says, will attain enlightenment." },
+        { ime: "The deer of Nara Park", opis: "Tradition says that the deity of Kasuga shrine arrived in Nara riding a white deer, so deer were considered sacred for centuries. Today more than a thousand of them live in the park. They have learned to bow for the crackers sold at the stalls, but they can also be impatient, so do not hide the crackers and do not tease them." },
+        { ime: "Kasuga Taisha", opis: "The shrine of the powerful Fujiwara family was founded in the year 768. The approach and the porches are decorated with about three thousand stone and bronze lanterns, gifts from the faithful over the centuries. All of them are lit only twice a year, in early February and in mid-August." },
+        { ime: "Kofuku-ji", opis: "The Fujiwara family temple once had more than 150 buildings. The five-story pagoda, fifty meters tall and rebuilt in 1426, is the symbol of the city, and in recent years it has been under long-term restoration, so it may be covered in scaffolding. In the treasure hall, see the statue of Ashura with three faces and six arms." },
+        { ime: "Horyu-ji", opis: "The temple founded in 607 by Prince Shotoku is about twenty minutes by train from the center. Its pagoda and main hall are considered the oldest surviving wooden buildings in the world. The columns swell slightly in the middle, and some historians see in that a distant echo of Greek architecture that arrived along the Silk Road." }
       ],
       jesti: [
-        { ime: "Kakinoha-zushi", opis: "Sushi od skuše ili lososa umotan u list kakija, koji je nekoć čuvao ribu na putu od mora do grada u unutrašnjosti. List se ne jede." },
-        { ime: "Yomogi mochi", opis: "Mekani rižin kolačić s divljim pelinom i nadjevom od slatkog graha. U središtu grada slastičari ga tuku drvenim batovima pred prolaznicima, munjevitom brzinom." },
-        { ime: "Narazuke", opis: "Povrće ukiseljeno u talogu sakea, tamne boje i jakog okusa, koje se u Nari priprema više od tisuću godina." }
+        { ime: "Kakinoha-zushi", opis: "Mackerel or salmon sushi wrapped in a persimmon leaf, which once preserved the fish on its journey from the sea to the inland city. The leaf is not eaten." },
+        { ime: "Yomogi mochi", opis: "A soft rice cake with mugwort and a sweet bean filling. In the city center, confectioners pound it with wooden mallets in front of passersby, at lightning speed." },
+        { ime: "Narazuke", opis: "Vegetables pickled in sake lees, dark in color and strong in flavor, which have been made in Nara for more than a thousand years." }
       ],
       dozivjeti: [
-        { ime: "Pješačka tura s vodičem NaraWalk", opis: "Lokalni vodiči svakodnevno vode obilazak parka, Todai-jija i Kasuge te poslijepodnevnu šetnju starom trgovačkom četvrti.", link: "https://narawalk.com/" },
-        { ime: "Naramachi", opis: "Stara trgovačka četvrt s uskim drvenim kućama. Na vratima vise crvene platnene lutkice u obliku majmuna, koje po vjerovanju na sebe preuzimaju nesreću ukućana." },
-        { ime: "Zalazak sunca s brda Wakakusa", opis: "Travnato brdo iza parka pruža pogled na cijeli grad. Svake se godine u siječnju trava na njemu svečano spaljuje." }
+        { ime: "Guided walking tour with NaraWalk", opis: "Local guides lead a daily tour of the park, Todai-ji and Kasuga, as well as an afternoon walk through the old merchant quarter.", link: "https://narawalk.com/" },
+        { ime: "Naramachi", opis: "The old merchant quarter with its narrow wooden houses. Little red cloth dolls in the shape of monkeys hang on the doors, and they are believed to take on the misfortunes of the household." },
+        { ime: "Sunset from Mount Wakakusa", opis: "The grassy hill behind the park offers a view over the whole city. Every January the grass on it is ceremonially burned." }
       ],
       agencije: [
-        { ime: "Visit Nara", opis: "Službeni turistički vodič prefekture Nara.", link: "https://www.visitnara.jp/" },
-        { ime: "NaraWalk", opis: "Lokalna tvrtka za pješačke i privatne ture s vodičima koji govore engleski.", link: "https://narawalk.com/" }
+        { ime: "Visit Nara", opis: "The official travel guide of Nara Prefecture.", link: "https://www.visitnara.jp/" },
+        { ime: "NaraWalk", opis: "A local company for walking and private tours with English-speaking guides.", link: "https://narawalk.com/" }
       ],
-      kada: "Lako se posjećuje kao jednodnevni izlet iz Kyota ili Osake. Dođite rano, jer su jeleni ujutro gladni i mirniji, a hramovi prazniji."
+      kada: "It is easy to visit as a day trip from Kyoto or Osaka. Come early, because in the morning the deer are hungry and calmer, and the temples are emptier."
     },
     {
       id: "hirosima-miyajima",
-      ime: "Hirošima i Miyajima",
+      ime: "Hiroshima and Miyajima",
       vrsta: "grad",
-      sazetak: "Grad koji je iz najtežeg dana u svojoj povijesti izrastao u poruku mira, i otok sa svetištem koje za plime lebdi na moru.",
+      sazetak: "A city that grew out of the hardest day in its history into a message of peace, and an island with a shrine that floats on the sea at high tide.",
       prica: [
-        "Hirošima je nastala 1589. oko dvorca velikaša Morija Terumota, na delti rijeke Ote. Dana 6. kolovoza 1945. u 8.15 nad gradom je eksplodirala prva atomska bomba upotrijebljena u ratu, i do kraja te godine umrlo je oko 140.000 ljudi.",
-        "Grad je obnovljen kao zelen i otvoren, s tramvajima i širokim avenijama, i posvetio se zagovaranju svijeta bez nuklearnog oružja. Otok Miyajima, pola sata dalje, stoljećima se smatrao toliko svetim da se na njemu nije smjelo ni rađati ni umirati."
+        "Hiroshima arose in 1589 around the castle of the feudal lord Mori Terumoto, on the delta of the Ota River. On August 6, 1945, at 8:15 a.m., the first atomic bomb ever used in war exploded over the city, and by the end of that year about 140,000 people had died.",
+        "The city was rebuilt green and open, with streetcars and broad avenues, and devoted itself to advocating a world without nuclear weapons. The island of Miyajima, half an hour away, was for centuries considered so sacred that nobody was allowed to be born or to die on it."
       ],
       vidjeti: [
-        { ime: "Kupola atomske bombe", opis: "Zgradu je 1915. kao izložbenu dvoranu projektirao češki arhitekt Jan Letzel. Bomba je eksplodirala gotovo točno iznad nje, pa su zidovi ostali stajati jer je udar došao odozgo. Ostavljena je u stanju u kojem je bila toga jutra i od 1996. je na UNESCO-ovu popisu." },
-        { ime: "Memorijalni muzej mira", opis: "Muzej priča o tom danu kroz osobne predmete: dječji tricikl, sat zaustavljen u 8.15, kutiju za ručak. Posjet je težak, ali iz njega se izlazi s jasnim razumijevanjem zašto grad toliko ustraje na miru. Računajte na barem dva sata." },
-        { ime: "Dječji spomenik mira", opis: "Posvećen je Sadako Sasaki, djevojčici koja je oboljela od leukemije deset godina nakon bombe i u bolnici slagala papirnate ždralove, vjerujući da će ozdraviti ako ih složi tisuću. Djeca iz cijelog svijeta i danas šalju nizove ždralova, koji vise oko spomenika." },
-        { ime: "Svetište Itsukushima", opis: "Današnji oblik svetištu je 1168. dao moćni velikaš Taira no Kiyomori. Sagrađeno je na stupovima nad morem jer je sam otok bio svet. Velika crvena vrata torii, visoka oko šesnaest metara, nisu ukopana u dno, nego stoje vlastitom težinom. Za oseke se do njih može prošetati, a za plime izgledaju kao da plutaju." },
-        { ime: "Brdo Misen", opis: "Najviši vrh Miyajime, na koji vodi žičara i nekoliko staza. Predaja kaže da vatra u dvorani pri vrhu gori neprekidno više od 1200 godina, otkako ju je zapalio redovnik Kobo Daishi. Tom je vatrom upaljen i Plamen mira u Hirošimi." }
+        { ime: "Atomic Bomb Dome", opis: "The building was designed in 1915 as an exhibition hall by the Czech architect Jan Letzel. The bomb exploded almost exactly above it, so the walls were left standing because the blast came from overhead. It has been kept in the state it was in that morning and has been on the UNESCO list since 1996." },
+        { ime: "Peace Memorial Museum", opis: "The museum tells the story of that day through personal objects: a child's tricycle, a watch stopped at 8:15, a lunch box. The visit is hard, but you leave with a clear understanding of why the city is so persistent about peace. Allow at least two hours." },
+        { ime: "Children's Peace Monument", opis: "It is dedicated to Sadako Sasaki, a girl who fell ill with leukemia ten years after the bomb and folded paper cranes in the hospital, believing that she would recover if she folded a thousand of them. Children from all over the world still send strings of cranes, which hang around the monument." },
+        { ime: "Itsukushima Shrine", opis: "The shrine was given its present form in 1168 by the powerful lord Taira no Kiyomori. It was built on pillars over the sea because the island itself was sacred. The great red torii gate, about sixteen meters tall, is not sunk into the seabed and stands by its own weight. At low tide you can walk out to it, and at high tide it looks as though it is floating." },
+        { ime: "Mount Misen", opis: "The highest peak on Miyajima, reached by a ropeway and several trails. Tradition says that the fire in the hall near the summit has burned without interruption for more than 1,200 years, ever since the monk Kobo Daishi lit it. The Flame of Peace in Hiroshima was lit from that same fire." }
       ],
       jesti: [
-        { ime: "Okonomiyaki na hirošimski način", opis: "Slaže se u slojevima: tanka palačinka, brdo kupusa, svinjetina, rezanci i jaje. U zgradi Okonomimura u središtu grada na nekoliko katova nalaze se deseci malih šankova." },
-        { ime: "Kamenice", opis: "Hirošimski zaljev daje većinu japanskih kamenica. Na Miyajimi se peku na žaru pred vama, a jedu se i pohane ili u riži." },
-        { ime: "Momiji manju", opis: "Kolačić u obliku javorova lista s nadjevom od slatkog graha, kreme ili čokolade. Na Miyajimi ga možete kušati još toplog, pa i prženog u tijestu." },
-        { ime: "Anago meshi", opis: "Morska jegulja pečena na žaru, položena na rižu. Specijalitet je Miyajime i jede se i hladna, kao obrok za vlak." }
+        { ime: "Hiroshima-style okonomiyaki", opis: "It is built in layers: a thin pancake, a mound of cabbage, pork, noodles and an egg. The Okonomimura building in the city center holds dozens of small counters spread over several floors." },
+        { ime: "Oysters", opis: "Hiroshima Bay produces most of Japan's oysters. On Miyajima they are grilled in front of you, and they are also eaten breaded or with rice." },
+        { ime: "Momiji manju", opis: "A small cake in the shape of a maple leaf with a filling of sweet bean paste, custard or chocolate. On Miyajima you can try it still warm, or even deep-fried in batter." },
+        { ime: "Anago meshi", opis: "Grilled conger eel laid over rice. It is a Miyajima specialty and is also eaten cold, as a meal for the train." }
       ],
       dozivjeti: [
-        { ime: "Park mira s razumijevanjem", opis: "Prije dolaska pogledajte stranicu muzeja, na kojoj su objašnjeni postav i svjedočanstva preživjelih. U parku pozvonite Zvonom mira, na kojem je karta svijeta bez granica.", link: "https://hpmmuseum.jp/?lang=eng" },
-        { ime: "Miyajima za plime i oseke", opis: "Provjerite tablicu plime i oseke i ostanite dovoljno dugo da vidite oboje. Večer je na otoku mirna, jer većina posjetitelja ode posljednjim popodnevnim trajektima.", link: "https://www.miyajima.or.jp/english/" },
-        { ime: "Vožnja tramvajem", opis: "Hirošima ima najveću tramvajsku mrežu u Japanu. Nekoliko kola koja su preživjela bombu i danas povremeno vozi." }
+        { ime: "The Peace Park with understanding", opis: "Before you come, look at the museum's website, which explains the exhibition and the testimonies of survivors. In the park, ring the Peace Bell, which bears a map of the world without borders.", link: "https://hpmmuseum.jp/?lang=eng" },
+        { ime: "Miyajima at high and low tide", opis: "Check the tide table and stay long enough to see both. Evening on the island is peaceful, because most visitors leave on the last afternoon ferries.", link: "https://www.miyajima.or.jp/english/" },
+        { ime: "A streetcar ride", opis: "Hiroshima has the largest streetcar network in Japan. A few cars that survived the bomb still run from time to time." }
       ],
       agencije: [
-        { ime: "Dive! Hiroshima", opis: "Službeni turistički vodič Hirošime i okolice.", link: "https://dive-hiroshima.com/en/" },
-        { ime: "Turistička zajednica Miyajime", opis: "Službene informacije o otoku, trajektima, plimi i oseki.", link: "https://www.miyajima.or.jp/english/" }
+        { ime: "Dive! Hiroshima", opis: "The official travel guide of Hiroshima and its surroundings.", link: "https://dive-hiroshima.com/en/" },
+        { ime: "Miyajima Tourist Association", opis: "Official information about the island, the ferries and the tides.", link: "https://www.miyajima.or.jp/english/" }
       ],
-      kada: "Proljeće i jesen, kada javori na Miyajimi pocrvene. Za grad i otok odvojite dva dana i prenoćite barem jednom, po mogućnosti na otoku."
+      kada: "Spring and fall, when the maples on Miyajima turn red. Set aside two days for the city and the island and stay at least one night, preferably on the island."
     },
     {
       id: "kanazawa",
       ime: "Kanazawa",
       vrsta: "grad",
-      sazetak: "Grad samuraja, gejši i zlatnih listića na obali Japanskog mora, s jednim od najljepših vrtova u zemlji.",
+      sazetak: "A city of samurai, geisha and gold leaf on the coast of the Sea of Japan, with one of the most beautiful gardens in the country.",
       prica: [
-        "Kanazawom je gotovo tri stoljeća vladala obitelj Maeda, najbogatiji velikaši nakon samih šoguna. Da ne bi izazivali sumnju vojnim jačanjem, novac su ulagali u umjetnost i obrte: lakirano posuđe, keramiku, svilu i zlatne listiće.",
-        "Grad nije bombardiran u Drugom svjetskom ratu, pa su samurajske ulice i četvrti čajana ostale gotovo netaknute. Kanazawa i danas proizvodi gotovo sve japanske zlatne listiće."
+        "Kanazawa was ruled for almost three centuries by the Maeda family, the wealthiest lords after the shoguns themselves. To avoid arousing suspicion by building up their military, they invested their money in arts and crafts: lacquerware, ceramics, silk and gold leaf.",
+        "The city was not bombed in the Second World War, so the samurai streets and teahouse districts have remained almost untouched. Kanazawa still produces nearly all of Japan's gold leaf today."
       ],
       vidjeti: [
-        { ime: "Kenroku-en", opis: "Jedan od tri velika japanska vrta nastajao je gotovo dva stoljeća kao privatni vrt obitelji Maeda. Ime znači „vrt šest odlika“, a to su prostranost, osama, umijeće, starina, voda i vidik. Potražite kamenu svjetiljku Kotoji na dvije nejednake noge, a od studenog i borove vezane užadima u obliku stošca da ih snijeg ne slomi." },
-        { ime: "Dvorac Kanazawa", opis: "Od izvornog dvorca ostala su vrata Ishikawa-mon iz 1788. i nekoliko skladišta, a ostalo je posljednjih desetljeća pažljivo obnovljeno tradicionalnim tehnikama. Krovovi su bijeli jer su crepovi obloženi olovom, što je štitilo od snijega, a kažu i da se olovo u nuždi moglo pretopiti u streljivo." },
-        { ime: "Higashi Chaya", opis: "Četvrt čajana osnovana 1820., u kojoj gejše i danas navečer zabavljaju goste glazbom i plesom. Drvene rešetke na pročeljima napravljene su tako da se iznutra vidi van, a izvana se ne vidi unutra. Dvije su čajane otvorene za razgledavanje." },
-        { ime: "Nagamachi", opis: "Samurajska četvrt sa žutim zemljanim zidovima i kanalima. Zimi se zidovi pokrivaju slamnatim prostirkama da ih mraz ne ošteti. U kući obitelji Nomura pogledajte mali vrt s potokom koji teče tik uz trijem." },
-        { ime: "Muzej suvremene umjetnosti 21. stoljeća", opis: "Niska okrugla zgrada od stakla, otvorena 2004., nema ni prednju ni stražnju stranu i u nju se ulazi sa svih strana. Najpoznatiji je rad „Bazen“ Leandra Erlicha, u kojem ljudi naizgled stoje pod vodom i mašu onima iznad." }
+        { ime: "Kenroku-en", opis: "One of Japan's three great gardens took shape over almost two centuries as the private garden of the Maeda family. The name means “garden of six attributes”, which are spaciousness, seclusion, artifice, antiquity, water and views. Look for the Kotoji stone lantern on its two unequal legs, and from November on, the pines tied with ropes in the shape of a cone so that the snow does not break them." },
+        { ime: "Kanazawa Castle", opis: "What survives of the original castle is the Ishikawa-mon gate from 1788 and a few storehouses, and the rest has been carefully rebuilt in recent decades using traditional techniques. The roofs are white because the tiles are sheathed in lead, which protected them from the snow, and it is also said that in an emergency the lead could be melted down into ammunition." },
+        { ime: "Higashi Chaya", opis: "A teahouse district founded in 1820, where geisha still entertain guests with music and dance in the evenings. The wooden lattices on the facades are made so that you can see out from the inside but cannot see in from the outside. Two of the teahouses are open to visitors." },
+        { ime: "Nagamachi", opis: "The samurai district with its yellow earthen walls and canals. In winter the walls are covered with straw mats so that frost does not damage them. In the Nomura family house, see the small garden with a stream that runs right alongside the veranda." },
+        { ime: "21st Century Museum of Contemporary Art", opis: "The low circular glass building, opened in 2004, has neither a front nor a back and can be entered from every side. The best-known work is Leandro Erlich's “Swimming Pool”, in which people appear to be standing underwater and waving at those above." }
       ],
       jesti: [
-        { ime: "Kaisendon", opis: "Zdjela riže prekrivena sirovom ribom i plodovima mora. Najbolje ju je jesti na tržnici Omicho, koja grad opskrbljuje ribom od razdoblja Edo." },
-        { ime: "Jibuni", opis: "Pačetina uvaljana u brašno i pirjana u slatkastom umaku od soje, s wasabijem. Tipično je jelo kuhinje pokrajine Kaga." },
-        { ime: "Sladoled sa zlatnim listićem", opis: "Kornet preko kojeg se položi cijeli list jestivog zlata. Okusa nema, ali se pamti, a prodaje se u četvrti Higashi Chaya." }
+        { ime: "Kaisendon", opis: "A bowl of rice covered with raw fish and seafood. It is best eaten at Omicho Market, which has supplied the city with fish since the Edo period." },
+        { ime: "Jibuni", opis: "Duck dredged in flour and simmered in a sweetish soy sauce, served with wasabi. It is a typical dish of the cuisine of the Kaga province." },
+        { ime: "Gold leaf ice cream", opis: "A cone with a whole sheet of edible gold laid over it. It has no flavor, but you will remember it, and it is sold in the Higashi Chaya district." }
       ],
       dozivjeti: [
-        { ime: "Radionica zlatnih listića", opis: "U radionicama u gradu možete same ukrasiti štapiće ili kutijicu zlatnim listićima tanjima od desettisućinke milimetra. Tvrtka Hakuichi jedna je od poznatijih kuća koje ih proizvode.", link: "https://www.hakuichi.co.jp/" },
-        { ime: "Muzej 21. stoljeća", opis: "Dio zgrade i nekoliko instalacija može se vidjeti bez ulaznice, a za pogled u Erlichov bazen odozdo potrebna je ulaznica i često rezervacija termina.", link: "https://www.kanazawa21.jp/en/" },
-        { ime: "Jutro na tržnici Omicho", opis: "Oko 170 štandova pod jednim krovom. Zimi su glavna zvijezda snježni rakovi, obilježeni plavom pločicom s imenom luke iz koje dolaze." }
+        { ime: "Gold leaf workshop", opis: "In workshops around the city you can decorate chopsticks or a small box yourself with gold leaf thinner than one ten-thousandth of a millimeter. Hakuichi is one of the better-known houses that produce it.", link: "https://www.hakuichi.co.jp/" },
+        { ime: "21st Century Museum", opis: "Part of the building and several installations can be seen without a ticket, while looking into Erlich's pool from below requires a ticket and often a timed reservation.", link: "https://www.kanazawa21.jp/en/" },
+        { ime: "A morning at Omicho Market", opis: "About 170 stalls under one roof. In winter the main stars are the snow crabs, marked with a blue tag bearing the name of the port they come from." }
       ],
       agencije: [
-        { ime: "Visit Kanazawa", opis: "Službeni turistički vodič grada Kanazawe.", link: "https://visitkanazawa.jp/en/" },
-        { ime: "Vrt Kenroku-en i dvorac Kanazawa", opis: "Službena stranica vrta i parka dvorca, s kalendarom cvatnje i besplatnih dana.", link: "https://shiro-niwa.pref.ishikawa.lg.jp/kenrokuen-garden/" }
+        { ime: "Visit Kanazawa", opis: "The official travel guide of the city of Kanazawa.", link: "https://visitkanazawa.jp/en/" },
+        { ime: "Kenroku-en Garden and Kanazawa Castle", opis: "The official website of the garden and the castle park, with a calendar of blooms and free admission days.", link: "https://shiro-niwa.pref.ishikawa.lg.jp/kenrokuen-garden/" }
       ],
-      kada: "Vrt je lijep u svako doba, a posebno pod snijegom u siječnju i veljači. Ponesite kišobran, jer domaći kažu da možete zaboraviti ručak, ali kišobran ne."
+      kada: "The garden is beautiful at any time, and especially under snow in January and February. Bring an umbrella, because the locals say you can forget your lunch but never your umbrella."
     },
     {
       id: "hakone-fuji",
-      ime: "Hakone i Fuji",
+      ime: "Hakone and Fuji",
       vrsta: "priroda",
-      sazetak: "Termalni izvori, jezero s crvenim vratima u vodi i, ako oblaci dopuste, najslavnija planina Japana.",
+      sazetak: "Hot springs, a lake with a red gate standing in the water and, if the clouds allow, the most celebrated mountain in Japan.",
       prica: [
-        "Fuji je s 3776 metara najviši vrh Japana i vulkan koji je posljednji put eruptirao 1707. Stoljećima je bio cilj hodočasnika i omiljeni motiv slikara, zbog čega je 2013. upisan na UNESCO-ov popis kao kulturno, a ne prirodno dobro.",
-        "Hakone leži u starom vulkanskom krateru na cesti Tokaido, koja je povezivala Edo i Kyoto. Šogunat je ovdje 1619. postavio stražu koja je pregledavala putnike, a danas se dolazi zbog toplih izvora, muzeja i pogleda."
+        "At 3,776 meters, Fuji is the highest peak in Japan and a volcano that last erupted in 1707. For centuries it was a destination for pilgrims and a favorite subject of painters, which is why in 2013 it was added to the UNESCO list as a cultural site rather than a natural one.",
+        "Hakone lies in an old volcanic crater on the Tokaido road, which connected Edo and Kyoto. In 1619 the shogunate set up a guard post here to inspect travelers, and today people come for the hot springs, the museums and the views."
       ],
       vidjeti: [
-        { ime: "Jezero Ashi i svetište Hakone", opis: "Jezero je nastalo u krateru nakon erupcije prije otprilike tri tisuće godina. Crvena vrata torii svetišta Hakone stoje u vodi uz obalu, a za vedra dana iza njih se vidi Fuji. Jezerom plove izletnički brodovi u obliku starih jedrenjaka." },
-        { ime: "Owakudani", opis: "Dolina u kojoj iz tla izbijaju sumporne pare. Ondje se u vrućim izvorima kuhaju jaja kojima ljuska pocrni od minerala, a predaja kaže da svako pojedeno produžuje život za sedam godina. Žičara zbog vulkanskih plinova povremeno ne vozi." },
-        { ime: "Muzej na otvorenom Hakone", opis: "Prvi japanski muzej skulptura na otvorenom, otvoren 1969., izlaže radove Rodina, Moorea i Miróa na travnjacima s pogledom na planine. Ima i zaseban paviljon s Picassovom keramikom te topli izvor u kojem se mogu odmoriti noge." },
-        { ime: "Stražarnica Hakone", opis: "Vjerna rekonstrukcija kontrolne točke iz razdoblja Edo. Stražari su osobito pazili na oružje koje ulazi u Edo i na žene koje iz njega izlaze, jer su obitelji velikaša ondje držane kao taoci. Uz jezero vodi i dio stare ceste kroz drvored golemih cedrova." },
-        { ime: "Pagoda Chureito", opis: "Crvena peterokatna pagoda u Fujiyoshidi sagrađena je 1963. kao spomenik miru. Do vidikovca vodi oko 400 stuba, a odande se na jednoj fotografiji vide pagoda, Fuji i u travnju trešnje u cvatu." },
-        { ime: "Jezero Kawaguchiko", opis: "Najpristupačnije od pet jezera podno Fujija. U mirna jutra planina se odražava u vodi, a taj je prizor otisnut i na japanskoj novčanici." }
+        { ime: "Lake Ashi and Hakone Shrine", opis: "The lake formed in the crater after an eruption about three thousand years ago. The red torii gate of Hakone Shrine stands in the water by the shore, and on a clear day you can see Fuji behind it. Sightseeing boats shaped like old sailing ships cruise the lake." },
+        { ime: "Owakudani", opis: "A valley where sulfurous steam bursts out of the ground. Eggs are boiled in the hot springs there until the minerals turn their shells black, and tradition says that each one you eat adds seven years to your life. The ropeway occasionally stops running because of volcanic gases." },
+        { ime: "Hakone Open-Air Museum", opis: "Japan's first open-air sculpture museum, opened in 1969, shows works by Rodin, Moore and Miró on lawns with mountain views. It also has a separate pavilion of Picasso's ceramics and a hot spring where you can rest your feet." },
+        { ime: "Hakone Checkpoint", opis: "A faithful reconstruction of the checkpoint from the Edo period. The guards kept an especially close watch for weapons coming into Edo and for women leaving it, because the families of the feudal lords were held there as hostages. Along the lake there is also a stretch of the old road running through an avenue of giant cedars." },
+        { ime: "Chureito Pagoda", opis: "The red five-story pagoda in Fujiyoshida was built in 1963 as a peace memorial. About 400 steps lead up to the viewpoint, from which a single photograph takes in the pagoda, Fuji and, in April, the cherry trees in bloom." },
+        { ime: "Lake Kawaguchiko", opis: "The most accessible of the five lakes at the foot of Fuji. On calm mornings the mountain is mirrored in the water, a scene that is also printed on a Japanese banknote." }
       ],
       jesti: [
-        { ime: "Crna jaja kuro-tamago", opis: "Jaja kuhana u sumpornom izvoru u Owakudaniju. Iznutra su posve obična, a prodaju se u vrećicama od nekoliko komada." },
-        { ime: "Hoto", opis: "Široki plosnati rezanci kuhani s bundevom i povrćem u miso juhi, zimsko jelo kraja oko jezera Kawaguchiko." },
-        { ime: "Večera kaiseki u ryokanu", opis: "U tradicionalnim svratištima u Hakoneu večera od desetak malih jela poslužuje se u sobi i uključena je u cijenu noćenja." }
+        { ime: "Kuro-tamago black eggs", opis: "Eggs boiled in the sulfur spring at Owakudani. Inside they are perfectly ordinary, and they are sold in bags of several." },
+        { ime: "Hoto", opis: "Wide, flat noodles cooked with pumpkin and vegetables in a miso broth, a winter dish from the area around Lake Kawaguchiko." },
+        { ime: "Kaiseki dinner in a ryokan", opis: "In the traditional inns of Hakone, a dinner of about ten small dishes is served in your room and is included in the price of the night." }
       ],
       dozivjeti: [
-        { ime: "Kružno putovanje po Hakoneu", opis: "Brdska željeznica koja se uspinje cik-cak, uspinjača, žičara nad Owakudanijem i brod preko jezera spajaju se u krug koji se prođe u jednom danu s jednom kartom Hakone Free Pass.", link: "https://www.hakonenavi.jp/international/en/" },
-        { ime: "Noć u ryokanu s onsenom", opis: "Spavanje na futonu, kupanje u toploj vodi pod vedrim nebom i doručak s ribom i rižom. Za prvi posjet onsenu dobar je izbor soba s vlastitom kupkom." },
-        { ime: "Skulpture u Muzeju na otvorenom", opis: "Popnite se u toranj od vitraja, u kojem svjetlo kroz obojeno staklo pada na spiralne stube.", link: "https://www.hakone-oam.or.jp/en/" }
+        { ime: "The Hakone round trip", opis: "A mountain railway that zigzags uphill, a cable car, a ropeway over Owakudani and a boat across the lake join into a loop that you can cover in one day on a single Hakone Free Pass ticket.", link: "https://www.hakonenavi.jp/international/en/" },
+        { ime: "A night in a ryokan with an onsen", opis: "Sleeping on a futon, bathing in warm water under the open sky and a breakfast of fish and rice. For a first visit to an onsen, a room with its own bath is a good choice." },
+        { ime: "Sculptures at the Open-Air Museum", opis: "Climb the stained-glass tower, where light falls through colored glass onto the spiral staircase.", link: "https://www.hakone-oam.or.jp/en/" }
       ],
       agencije: [
-        { ime: "Hakone Navi", opis: "Službeni vodič željeznice Odakyu s redovima vožnje, kartama Free Pass i obavijestima o žičari.", link: "https://www.hakonenavi.jp/international/en/" },
-        { ime: "Japan National Tourism Organization", opis: "Državna turistička organizacija, s informacijama o sezoni uspona na Fuji i pravilima za penjače.", link: "https://www.japan.travel/en/" }
+        { ime: "Hakone Navi", opis: "The official guide of the Odakyu railway, with timetables, Free Pass tickets and notices about the ropeway.", link: "https://www.hakonenavi.jp/international/en/" },
+        { ime: "Japan National Tourism Organization", opis: "The national tourism organization, with information about the Fuji climbing season and the rules for climbers.", link: "https://www.japan.travel/en/" }
       ],
-      kada: "Fuji se najčešće vidi od studenog do veljače i rano ujutro, a ljeti je često u oblacima. Uspon na vrh moguć je samo u službenoj sezoni, od početka srpnja do početka rujna, uz prijavu i naknadu."
+      kada: "Fuji is most often visible from November to February and early in the morning, while in summer it is frequently in cloud. Climbing to the summit is possible only in the official season, from early July to early September, with registration and a fee."
     },
     {
       id: "nikko",
       ime: "Nikko",
       vrsta: "gradić",
-      sazetak: "Raskošni mauzolej prvog šoguna Tokugawe skriven u šumi divovskih cedrova, dva sata sjeverno od Tokija.",
+      sazetak: "The lavish mausoleum of the first Tokugawa shogun, hidden in a forest of giant cedars two hours north of Tokyo.",
       prica: [
-        "Sveto mjesto u planinama osnovao je u 8. stoljeću budistički redovnik Shodo Shonin. Kada je 1616. umro Tokugawa Ieyasu, čovjek koji je ujedinio Japan, pokopan je ovdje i proglašen božanstvom.",
-        "Njegov unuk Iemitsu dao je 1636. svetište pregraditi u najraskošniji kompleks u zemlji, sa zlatom, lakom i tisućama rezbarija, posve suprotno suzdržanom japanskom ukusu. Svetišta i hramovi Nikka upisani su na UNESCO-ov popis 1999."
+        "This sacred place in the mountains was founded in the 8th century by the Buddhist monk Shodo Shonin. When Tokugawa Ieyasu, the man who unified Japan, died in 1616, he was buried here and declared a deity.",
+        "In 1636 his grandson Iemitsu had the shrine rebuilt into the most lavish complex in the country, with gold, lacquer and thousands of carvings, the complete opposite of restrained Japanese taste. The shrines and temples of Nikko were added to the UNESCO list in 1999."
       ],
       vidjeti: [
-        { ime: "Toshogu", opis: "Mauzolej Tokugawe Ieyasua prekriven je s više od pet tisuća rezbarija. Na konjušnici potražite tri mudra majmuna, koji ne vide, ne čuju i ne govore zlo, a iznad prolaza prema grobu malu usnulu mačku. Na vratima Yomeimon jedan je stup namjerno postavljen naopako, jer se vjerovalo da savršenstvo izaziva zavist bogova." },
-        { ime: "Most Shinkyo", opis: "Crveno lakirani most na ulazu u sveto područje. Legenda kaže da su redovnika Shodoa preko rijeke prenijele dvije zmije koje su se pretvorile u most. Stoljećima su njime smjeli prolaziti samo šogun i carski izaslanici." },
-        { ime: "Rinno-ji", opis: "Najvažniji budistički hram Nikka. U dvorani Sanbutsudo sjede tri pozlaćena drvena kipa visoka oko osam metara, koja predstavljaju budistička lica triju svetih planina iznad grada." },
-        { ime: "Taiyuin", opis: "Mauzolej unuka Iemitsua namjerno je nešto skromniji od djedova i okrenut prema njemu u znak poštovanja. Mnogima je draži jer je mirniji i jer se zlato i crni lak bolje stapaju sa šumom." },
-        { ime: "Slap Kegon i jezero Chuzenji", opis: "Jezero je nastalo kada je lava vulkana Nantai pregradila rijeku, a voda se iz njega ruši niz slap visok 97 metara. Do podnožja slapa spušta se dizalo probijeno kroz stijenu. Cesta do jezera penje se u desecima oštrih zavoja, od kojih svaki nosi ime po jednom slovu stare japanske abecede." }
+        { ime: "Toshogu", opis: "The mausoleum of Tokugawa Ieyasu is covered with more than five thousand carvings. On the stable, look for the three wise monkeys, who see, hear and speak no evil, and above the passage to the tomb, a small sleeping cat. On the Yomeimon gate one pillar was deliberately set upside down, because it was believed that perfection provokes the envy of the gods." },
+        { ime: "Shinkyo Bridge", opis: "A red lacquered bridge at the entrance to the sacred area. Legend says that the monk Shodo was carried across the river by two snakes that turned into a bridge. For centuries only the shogun and imperial envoys were allowed to cross it." },
+        { ime: "Rinno-ji", opis: "The most important Buddhist temple in Nikko. In the Sanbutsudo hall sit three gilded wooden statues about eight meters tall, which represent the Buddhist faces of the three sacred mountains above the town." },
+        { ime: "Taiyuin", opis: "The mausoleum of the grandson Iemitsu is deliberately a little more modest than his grandfather's and faces it as a sign of respect. Many people prefer it because it is quieter and because the gold and black lacquer blend better with the forest." },
+        { ime: "Kegon Falls and Lake Chuzenji", opis: "The lake formed when lava from the Nantai volcano dammed the river, and the water pours out of it down a waterfall 97 meters high. An elevator bored through the rock goes down to the foot of the falls. The road to the lake climbs in dozens of hairpin bends, each named after one letter of the old Japanese syllabary." }
       ],
       jesti: [
-        { ime: "Yuba", opis: "Tanka kožica koja se skuplja na vrućem sojinu mlijeku, hrana redovnika koja je u Nikku postala specijalitet. Jede se svježa, smotana u rolice ili pržena, uz sobu." },
-        { ime: "Kakigori od prirodnog leda", opis: "Strugani led sa sirupom od voća. U Nikku se još uvijek radi od leda koji se zimi polako smrzava u planinskim jezercima, pa je mekan poput snijega." }
+        { ime: "Yuba", opis: "The thin skin that forms on hot soy milk, a food of the monks that became a specialty in Nikko. It is eaten fresh, rolled up or fried, alongside soba." },
+        { ime: "Kakigori made with natural ice", opis: "Shaved ice with fruit syrup. In Nikko it is still made from ice that freezes slowly in mountain ponds over the winter, so it is as soft as snow." }
       ],
       dozivjeti: [
-        { ime: "Ponor Kanmangafuchi", opis: "Kratka šetnja uz rijeku pokraj niza kamenih kipova Jizoa s crvenim kapicama. Predaja kaže da ih nitko ne može dvaput izbrojiti i dobiti isti broj." },
-        { ime: "Drvored cedrova", opis: "Do Nikka vodi stara cesta uz koju je u 17. stoljeću zasađeno oko dvjesto tisuća cedrova. Zasadio ih je velikaš koji nije imao novca za skuplji dar svetištu, a danas ih stoji još oko dvanaest tisuća." },
-        { ime: "Močvara Senjogahara", opis: "Lagana staza po drvenim mostićima kroz visoravan iznad jezera Chuzenji, najljepša početkom listopada, kada trava požuti." }
+        { ime: "Kanmangafuchi Abyss", opis: "A short walk along the river past a row of stone Jizo statues in red caps. Tradition says that nobody can count them twice and arrive at the same number." },
+        { ime: "The cedar avenue", opis: "The old road leading to Nikko was planted with about two hundred thousand cedars in the 17th century. They were planted by a lord who had no money for a costlier gift to the shrine, and about twelve thousand of them still stand today." },
+        { ime: "Senjogahara Marsh", opis: "An easy trail on wooden boardwalks across the plateau above Lake Chuzenji, at its most beautiful in early October, when the grass turns yellow." }
       ],
       agencije: [
-        { ime: "Visit Nikko", opis: "Službeni turistički vodič grada Nikka.", link: "https://www.visitnikko.jp/en/" },
-        { ime: "Turistička zajednica Nikka", opis: "Lokalna turistička zajednica s informacijama o prijevozu i događanjima.", link: "https://www.nikko-kankou.org/" }
+        { ime: "Visit Nikko", opis: "The official travel guide of the city of Nikko.", link: "https://www.visitnikko.jp/en/" },
+        { ime: "Nikko Tourism Association", opis: "The local tourism association, with information on transport and events.", link: "https://www.nikko-kankou.org/" }
       ],
-      kada: "Listopad i početak studenog zbog jesenskih boja, kada je i gužva na cesti prema jezeru najveća. Krenite iz Tokija prvim jutarnjim vlakom."
+      kada: "October and early November for the fall colors, which is also when traffic on the road to the lake is at its heaviest. Leave Tokyo on the first morning train."
     },
     {
       id: "takayama-shirakawa-go",
-      ime: "Takayama i Shirakawa-go",
+      ime: "Takayama and Shirakawa-go",
       vrsta: "regija",
-      sazetak: "Drveni trgovački gradić u Japanskim Alpama i selo kuća sa strmim slamnatim krovovima.",
+      sazetak: "A wooden merchant town in the Japanese Alps and a village of houses with steep thatched roofs.",
       prica: [
-        "Pokrajina Hida bila je toliko siromašna rižom, a toliko bogata drvom i vještim tesarima, da je porez carskom dvoru plaćala slanjem majstora na gradilišta hramova u Nari i Kyotu. Takayama je kasnije došla pod izravnu upravu šoguna, upravo zbog šuma.",
-        "Sat vožnje dalje, u dolini koju snijeg zimi odsiječe od svijeta, ljudi su razvili kuće gassho-zukuri, čije ime znači „ruke sklopljene u molitvi“. Sela Shirakawa-go i Gokayama upisana su 1995. na UNESCO-ov popis."
+        "The province of Hida was so poor in rice, and so rich in timber and skilled carpenters, that it paid its tax to the imperial court by sending craftsmen to the temple building sites in Nara and Kyoto. Takayama later came under the direct administration of the shogun, precisely because of its forests.",
+        "An hour's drive away, in a valley that snow cuts off from the world in winter, people developed the gassho-zukuri houses, whose name means “hands joined in prayer”. The villages of Shirakawa-go and Gokayama were added to the UNESCO list in 1995."
       ],
       vidjeti: [
-        { ime: "Sanmachi Suji", opis: "Tri ulice trgovačkih kuća od tamnog drva iz razdoblja Edo. Nad ulazima pivnica sakea visi kugla od cedrovih grančica: zelena znači da je novo piće upravo napravljeno, a kada posmeđi, sake je dozrio." },
-        { ime: "Takayama Jinya", opis: "Jedina sačuvana zgrada pokrajinske uprave šogunata u cijelom Japanu. Vidjet ćete uredske sobe s tatamijima, sudnicu i golemo skladište u kojem se čuvala riža prikupljena kao porez." },
-        { ime: "Dvorana festivalskih kola", opis: "Takayama Matsuri održava se 14. i 15. travnja te 9. i 10. listopada i ubraja se među najljepše u Japanu. Kola visoka nekoliko metara ukrašena su lakom i zlatom, a na nekima mehaničke lutke izvode akrobacije. Između svetkovina dio kola izložen je u ovoj dvorani." },
-        { ime: "Selo Ogimachi u Shirakawa-gou", opis: "Krovovi kuća strmi su oko šezdeset stupnjeva da snijeg sklizne, a grede su vezane užadima i bez čavala. U potkrovljima su se uzgajale svilene bube. Krov se mijenja svakih nekoliko desetljeća, i tada cijelo selo radi zajedno, po starom običaju uzajamne pomoći." },
-        { ime: "Vidikovac Shiroyama", opis: "S mjesta nekadašnje utvrde vidi se cijelo selo odjednom. Odavde nastaju poznate zimske fotografije, kada se nekoliko večeri u siječnju i veljači kuće posebno osvijetle." },
-        { ime: "Narodno selo Hida", opis: "Muzej na otvorenom na rubu Takayame u koji je preseljeno tridesetak starih seoskih kuća. Dobra je zamjena ako ne stignete do Shirakawa-goa, a u kućama gori ognjište, pa se osjeti miris dima koji je štitio slamu od kukaca." }
+        { ime: "Sanmachi Suji", opis: "Three streets of dark wooden merchant houses from the Edo period. A ball of cedar sprigs hangs over the entrances of the sake breweries: green means that the new brew has just been made, and when it turns brown, the sake has matured." },
+        { ime: "Takayama Jinya", opis: "The only surviving provincial government building of the shogunate in all of Japan. You will see office rooms with tatami mats, a courtroom and an enormous storehouse that held the rice collected as tax." },
+        { ime: "Festival Floats Exhibition Hall", opis: "Takayama Matsuri is held on April 14 and 15 and on October 9 and 10 and ranks among the most beautiful in Japan. The floats, several meters tall, are decorated with lacquer and gold, and on some of them mechanical puppets perform acrobatics. Between festivals, some of the floats are on display in this hall." },
+        { ime: "Ogimachi village in Shirakawa-go", opis: "The roofs of the houses are pitched at about sixty degrees so that the snow slides off, and the beams are bound with rope and without nails. Silkworms were raised in the attics. A roof is replaced every few decades, and then the whole village works together, following the old custom of mutual help." },
+        { ime: "Shiroyama Viewpoint", opis: "From the site of a former fort you can see the whole village at once. This is where the famous winter photographs are taken, when the houses are specially lit up on a few evenings in January and February." },
+        { ime: "Hida Folk Village", opis: "An open-air museum on the edge of Takayama to which about thirty old farmhouses have been moved. It is a good substitute if you cannot make it to Shirakawa-go, and a hearth burns in the houses, so you can smell the smoke that protected the thatch from insects." }
       ],
       jesti: [
-        { ime: "Govedina Hida", opis: "Lokalni wagyu, koji se u Takayami jede i kao ulični zalogaj: ražnjić s roštilja ili komadić sirovog mesa na rižinu krekeru." },
-        { ime: "Hoba miso", opis: "Miso s lukom i gljivama koji se peče na osušenom listu magnolije nad malim žarom na stolu i jede s rižom. Tipičan je doručak u ovdašnjim svratištima." },
-        { ime: "Mitarashi dango", opis: "Rižine kuglice na štapiću, koje su ovdje premazane samo umakom od soje i slane su, za razliku od slatkih u ostatku Japana." }
+        { ime: "Hida beef", opis: "The local wagyu, which in Takayama is also eaten as a street snack: a grilled skewer or a small piece of raw meat on a rice cracker." },
+        { ime: "Hoba miso", opis: "Miso with scallions and mushrooms, cooked on a dried magnolia leaf over a small tabletop grill and eaten with rice. It is a typical breakfast in the local inns." },
+        { ime: "Mitarashi dango", opis: "Rice dumplings on a stick, which here are brushed only with soy sauce and are savory, unlike the sweet ones in the rest of Japan." }
       ],
       dozivjeti: [
-        { ime: "Biciklom kroz sela Hide", opis: "Tvrtka Satoyama Experience vodi lagane biciklističke ture kroz rižina polja i sela oko Hida-Furukawe, s vodičem koji objašnjava svakodnevni život.", link: "https://www.satoyama-experience.com/" },
-        { ime: "Jutarnje tržnice", opis: "Svakog jutra seljanke uz rijeku Miyagawu i pred zgradom Jinya prodaju ukiseljeno povrće, jabuke i rukotvorine. Tržnice se u Takayami održavaju od razdoblja Edo." },
-        { ime: "Kušanje sakea", opis: "U nekoliko starih pivnica u ulicama Sanmachi možete kupiti čašicu i same kušati različite vrste. Hladna planinska voda i zime čine ovaj kraj poznatim po sakeu." }
+        { ime: "Cycling through the villages of Hida", opis: "The company Satoyama Experience leads easy cycling tours through the rice fields and villages around Hida-Furukawa, with a guide who explains everyday life.", link: "https://www.satoyama-experience.com/" },
+        { ime: "The morning markets", opis: "Every morning, village women along the Miyagawa River and in front of the Jinya building sell pickled vegetables, apples and handicrafts. Markets have been held in Takayama since the Edo period." },
+        { ime: "Sake tasting", opis: "In several old breweries on the Sanmachi streets you can buy a small cup and sample the different kinds yourself. The cold mountain water and the winters have made this region known for its sake." }
       ],
       agencije: [
-        { ime: "Hida Takayama", opis: "Službeni turistički vodič grada Takayame.", link: "https://www.hida.jp/english/" },
-        { ime: "Turistička zajednica Shirakawa-goa", opis: "Službene informacije o selu, autobusima i rezervacijama za zimske večeri s rasvjetom.", link: "https://shirakawa-go.gr.jp/en/" }
+        { ime: "Hida Takayama", opis: "The official travel guide of the city of Takayama.", link: "https://www.hida.jp/english/" },
+        { ime: "Shirakawa-go Tourist Association", opis: "Official information about the village, buses and reservations for the winter light-up evenings.", link: "https://shirakawa-go.gr.jp/en/" }
       ],
-      kada: "Travanj i listopad zbog svetkovina te siječanj i veljača zbog snijega. Autobus između Takayame, Shirakawa-goa i Kanazawe rezervirajte unaprijed, a u selu prenoćite u jednoj od kuća ako želite doživjeti tišinu nakon odlaska izletnika."
+      kada: "April and October for the festivals, and January and February for the snow. Reserve the bus between Takayama, Shirakawa-go and Kanazawa in advance, and spend the night in one of the village houses if you want to experience the silence after the day-trippers have gone."
     },
     {
       id: "hokkaido-sapporo",
-      ime: "Hokkaido i Sapporo",
+      ime: "Hokkaido and Sapporo",
       vrsta: "regija",
-      sazetak: "Sjeverni otok širokih polja, snijega, vulkana i najbolje hrane u Japanu, po mišljenju samih Japanaca.",
+      sazetak: "The northern island of wide fields, snow, volcanoes and the best food in Japan, in the opinion of the Japanese themselves.",
       prica: [
-        "Hokkaido je domovina naroda Ainu, koji ima vlastiti jezik i vjerovanja u kojima je medvjed božanstvo. Japan je otok službeno pripojio i nazvao današnjim imenom tek 1869., a zatim ga ubrzano naseljavao.",
-        "Sapporo je zato mlad grad, planski izgrađen u pravilnoj mreži ulica uz pomoć savjetnika iz SAD-a, koji su donijeli i mljekarstvo, pivarstvo i širom otvorene farme. Godine 1972. bio je domaćin prvih Zimskih olimpijskih igara u Aziji."
+        "Hokkaido is the homeland of the Ainu people, who have their own language and beliefs in which the bear is a deity. Japan officially annexed the island and gave it its present name only in 1869, and then settled it at a rapid pace.",
+        "Sapporo is therefore a young city, built to a plan on a regular grid of streets with the help of advisers from the USA, who also brought dairy farming, brewing and wide-open farms. In 1972 it hosted the first Winter Olympic Games held in Asia."
       ],
       vidjeti: [
-        { ime: "Park Odori", opis: "Zeleni pojas dug kilometar i pol dijeli grad na sjever i jug. Zamišljen je kao protupožarna zaštita između upravne i stambene četvrti, a danas je pozornica Snježnog festivala i ljetnih pivskih vrtova." },
-        { ime: "Toranj sa satom u Sapporu", opis: "Drvena zgrada iz 1878. bila je vježbaonica Poljoprivredne škole, preteče današnjeg sveučilišta. Sat je stigao iz Bostona i radi neprekidno od 1881. Školu je kratko vodio profesor William Clark iz SAD-a, čije riječi na odlasku, „Dječaci, budite ambiciozni“, zna svaki japanski učenik." },
-        { ime: "Muzej piva Sapporo", opis: "Pivovara je osnovana 1876. i najstarija je japanska marka piva, a muzej se nalazi u njezinoj zgradi od crvene opeke. Na kraju se pivo kuša, a u susjednoj se dvorani peče janjetina." },
-        { ime: "Otaru", opis: "Lučki gradić pola sata od Sappora, s kanalom iz 1923. uz koji stoje stara kamena skladišta. Ulična svjetla i danas su plinska. Poznat je po staklarskim radionicama i glazbenim kutijama." },
-        { ime: "Upopoy, Nacionalni muzej i park Ainua", opis: "Otvoren je 2020. u Shiraoiju, oko sat vremena od Sappora, kao prvi državni muzej posvećen narodu Ainu. Vidjet ćete tradicionalne kuće, čuti jezik i glazbalo mukkuri te saznati kako su Ainui dugo bili prisiljavani odreći se svojih običaja." }
+        { ime: "Odori Park", opis: "A green belt a kilometer and a half long divides the city into north and south. It was conceived as a firebreak between the administrative and residential districts, and today it is the stage for the Snow Festival and the summer beer gardens." },
+        { ime: "Sapporo Clock Tower", opis: "The wooden building from 1878 was the drill hall of the Agricultural College, the forerunner of today's university. The clock came from Boston and has been running without a break since 1881. The college was briefly headed by Professor William Clark from the USA, whose parting words, “Boys, be ambitious”, are known to every Japanese schoolchild." },
+        { ime: "Sapporo Beer Museum", opis: "The brewery was founded in 1876 and is Japan's oldest beer brand, and the museum is housed in its red brick building. The visit ends with a beer tasting, and lamb is grilled in the hall next door." },
+        { ime: "Otaru", opis: "A small port town half an hour from Sapporo, with a canal from 1923 lined with old stone warehouses. The street lamps are still gas-lit today. It is known for its glassblowing workshops and music boxes." },
+        { ime: "Upopoy, National Ainu Museum and Park", opis: "It opened in 2020 in Shiraoi, about an hour from Sapporo, as the first national museum dedicated to the Ainu people. You will see traditional houses, hear the language and the mukkuri instrument, and learn how the Ainu were long forced to give up their customs." }
       ],
       jesti: [
-        { ime: "Miso ramen", opis: "Gusta juha s misom, kukuruzom i komadićem maslaca nastala je u Sapporu 1950-ih. Kušajte je u uskoj uličici ramena u četvrti Susukino." },
-        { ime: "Jingisukan", opis: "Janjetina i povrće pečeni na izbočenoj metalnoj ploči. Ime je dobila po Džingis-kanu, a oblik ploče navodno podsjeća na mongolsku kacigu." },
-        { ime: "Soup curry", opis: "Rijetka, začinjena juha s curryjem, pilećim batkom i velikim komadima povrća. Izmišljena je u Sapporu i izvan Hokkaida se rijetko nalazi." },
-        { ime: "Rakovi, ježinci i mliječni sladoled", opis: "Hladno more daje najbolje plodove mora u zemlji, a pašnjaci mlijeko od kojeg se radi sladoled koji se prodaje na svakom uglu." }
+        { ime: "Miso ramen", opis: "A thick broth with miso, corn and a pat of butter that originated in Sapporo in the 1950s. Try it in the narrow ramen alley in the Susukino district." },
+        { ime: "Jingisukan", opis: "Lamb and vegetables grilled on a domed metal plate. It was named after Genghis Khan, and the shape of the plate is said to resemble a Mongol helmet." },
+        { ime: "Soup curry", opis: "A thin, spiced curry soup with a chicken drumstick and large pieces of vegetables. It was invented in Sapporo and is rarely found outside Hokkaido." },
+        { ime: "Crab, sea urchin and milk ice cream", opis: "The cold sea yields the best seafood in the country, and the pastures yield the milk for the soft-serve ice cream sold on every corner." }
       ],
       dozivjeti: [
-        { ime: "Snježni festival u Sapporu", opis: "Počeo je 1950., kada su srednjoškolci u parku Odori napravili šest kipova od snijega. Danas se početkom veljače grade skulpture velike poput zgrada, a dolazi oko dva milijuna posjetitelja.", link: "https://www.snowfes.com/en/" },
-        { ime: "Muzej piva i kušaonica", opis: "Razgled je slobodan, a kušanje se plaća po čaši. Usporedite današnje pivo s onim po receptu iz 19. stoljeća.", link: "https://www.sapporobeer.jp/english/brewery/s_museum/" },
-        { ime: "Polja lavande u Furanu", opis: "U srpnju se brežuljci oko Furana i Bieija oboje u ljubičasto. Najlakše je doći vlakom ili unajmljenim automobilom iz Sappora." },
-        { ime: "Onsen u Noboribetsuu", opis: "Najpoznatije termalno mjesto na otoku, s Dolinom pakla iz koje izbija para. Dobro mjesto za prvi posjet onsenu, jer hoteli imaju više vrsta vode." }
+        { ime: "Sapporo Snow Festival", opis: "It began in 1950, when high school students made six snow statues in Odori Park. Today, in early February, sculptures the size of buildings go up, and about two million visitors come.", link: "https://www.snowfes.com/en/" },
+        { ime: "Beer museum and tasting room", opis: "Touring the museum is free, and the tasting is paid for by the glass. Compare today's beer with one brewed to a 19th-century recipe.", link: "https://www.sapporobeer.jp/english/brewery/s_museum/" },
+        { ime: "The lavender fields of Furano", opis: "In July the hills around Furano and Biei turn purple. The easiest way to get there is by train or rental car from Sapporo." },
+        { ime: "Onsen in Noboribetsu", opis: "The best-known hot spring resort on the island, with a Hell Valley where steam bursts from the ground. It is a good place for a first onsen visit, because the hotels have several types of water." }
       ],
       agencije: [
-        { ime: "Visit Sapporo", opis: "Službeni turistički vodič grada Sappora.", link: "https://www.sapporo.travel/en/" },
-        { ime: "Visit Hokkaido", opis: "Službeni vodič Turističke organizacije Hokkaida, s prijedlozima ruta po cijelom otoku.", link: "https://www.visit-hokkaido.jp/en/" }
+        { ime: "Visit Sapporo", opis: "The official travel guide of the city of Sapporo.", link: "https://www.sapporo.travel/en/" },
+        { ime: "Visit Hokkaido", opis: "The official guide of the Hokkaido Tourism Organization, with suggested routes across the whole island.", link: "https://www.visit-hokkaido.jp/en/" }
       ],
-      kada: "Veljača za snijeg i festival, srpanj za lavandu i ugodnu svježinu dok je ostatak Japana pod sparinom. Udaljenosti su velike, pa za otok izvan Sappora računajte na najam automobila."
+      kada: "February for the snow and the festival, July for the lavender and a pleasant coolness while the rest of Japan swelters. Distances are long, so plan on renting a car for the island beyond Sapporo."
     },
     {
       id: "okinawa",
       ime: "Okinawa",
       vrsta: "otok",
-      sazetak: "Suptropski otoci s vlastitom poviješću, glazbom i kuhinjom, bliži Tajvanu nego Tokiju.",
+      sazetak: "Subtropical islands with a history, music and cuisine of their own, closer to Taiwan than to Tokyo.",
       prica: [
-        "Od 1429. do 1879. ovdje je postojalo zasebno Kraljevstvo Ryukyu, koje je živjelo od trgovine između Kine, Japana, Koreje i jugoistočne Azije. Zato dvorac, glazba i hrana podsjećaju jednako na Kinu koliko i na Japan.",
-        "Japan je kraljevstvo pripojio 1879. U proljeće 1945. na otoku se vodila jedna od najkrvavijih bitaka Drugog svjetskog rata, u kojoj je poginula otprilike četvrtina civilnog stanovništva. SAD je Okinawom upravljao do 1972., a vojne baze ondje su i danas."
+        "From 1429 to 1879 a separate Ryukyu Kingdom existed here, living off trade between China, Japan, Korea and Southeast Asia. That is why the castle, the music and the food recall China just as much as Japan.",
+        "Japan annexed the kingdom in 1879. In the spring of 1945 one of the bloodiest battles of the Second World War was fought on the island, and roughly a quarter of the civilian population died in it. The USA administered Okinawa until 1972, and its military bases are still there today."
       ],
       vidjeti: [
-        { ime: "Dvorac Shuri", opis: "Sjedište kraljeva Ryukyua, obojeno crvenim lakom i ukrašeno zmajevima po kineskom uzoru. Glavna dvorana izgorjela je u požaru u listopadu 2019., a završetak obnove najavljen je za jesen 2026., pa prije dolaska provjerite što je otvoreno. Na vratima Shureimon piše da je ovo „zemlja uljudnosti“." },
-        { ime: "Park mira u Mabuniju", opis: "Na mjestu posljednjih borbi 1945. stoje granitne ploče s imenima više od 240.000 poginulih. Upisani su svi, bez obzira na stranu i narodnost: japanski vojnici i vojnici SAD-a, civili s Okinawe, Korejci i Tajvanci." },
-        { ime: "Akvarij Churaumi", opis: "Jedan od najvećih akvarija na svijetu, s golemim spremnikom u kojem plivaju kitopsine i mante. Nalazi se na sjeveru otoka, oko dva sata od Nahe." },
-        { ime: "Sefa Utaki", opis: "Najsvetije mjesto stare ryukyuanske vjere, u kojoj su obrede vodile svećenice, a ne svećenici. Kroz trokutasti prolaz između dviju stijena dolazi se do mjesta s pogledom na otok Kudaka, na koji su, prema predaji, sišli bogovi." },
-        { ime: "Ulica Kokusai i tržnica Makishi", opis: "Glavna ulica Nahe i natkrivena tržnica na kojoj birate ribu jarkih boja u prizemlju, a kuhaju vam je na katu. Na krovovima i vratima kuća uočit ćete parove lavova shisa: onaj otvorenih usta tjera zle duhove, a onaj zatvorenih čuva sreću u kući." }
+        { ime: "Shuri Castle", opis: "The seat of the Ryukyu kings, painted in red lacquer and decorated with dragons in the Chinese manner. The main hall burned down in a fire in October 2019, and the completion of the rebuilding has been announced for the fall of 2026, so check what is open before you come. The Shureimon gate bears an inscription saying that this is “the land of propriety”." },
+        { ime: "Peace Memorial Park in Mabuni", opis: "On the site of the last fighting in 1945 stand granite slabs bearing the names of more than 240,000 people who died. Everyone is inscribed, regardless of side and nationality: Japanese soldiers and soldiers of the USA, Okinawan civilians, Koreans and Taiwanese." },
+        { ime: "Churaumi Aquarium", opis: "One of the largest aquariums in the world, with a gigantic tank in which whale sharks and manta rays swim. It is in the north of the island, about two hours from Naha." },
+        { ime: "Sefa Utaki", opis: "The holiest site of the old Ryukyuan religion, in which the rites were led by priestesses rather than priests. A triangular passage between two rocks leads to a spot with a view of Kudaka Island, where, according to tradition, the gods came down to earth." },
+        { ime: "Kokusai Street and Makishi Market", opis: "The main street of Naha and a covered market where you pick out brightly colored fish on the ground floor and have it cooked for you upstairs. On the roofs and gates of houses you will notice pairs of shisa lions: the one with its mouth open drives away evil spirits, and the one with its mouth closed keeps good fortune in the house." }
       ],
       jesti: [
-        { ime: "Okinawa soba", opis: "Unatoč imenu, rezanci su pšenični, a ne heljdini. Poslužuju se u juhi od svinjskih kostiju i sušene tune, s debelim komadom pirjane svinjske potrbušine." },
-        { ime: "Goya champuru", opis: "Gorka dinja pržena s tofuom, jajetom i svinjetinom. Riječ champuru znači „pomiješano“ i dobro opisuje i samu kulturu otoka." },
-        { ime: "Umibudo", opis: "Alga u obliku sitnih zelenih grozdova koja puca pod zubima poput kavijara. Jede se sirova, s malo octa." },
-        { ime: "Awamori", opis: "Žestoko piće od dugozrnate riže koje se destilira, za razliku od sakea. Najstarije piće te vrste u Japanu dozrijeva godinama u glinenim posudama." }
+        { ime: "Okinawa soba", opis: "Despite the name, the noodles are made of wheat rather than buckwheat. They are served in a broth of pork bones and dried tuna, with a thick piece of braised pork belly." },
+        { ime: "Goya champuru", opis: "Bitter melon stir-fried with tofu, egg and pork. The word champuru means “mixed together” and is a good description of the island's culture itself." },
+        { ime: "Umibudo", opis: "A seaweed shaped like tiny green bunches of grapes that pops between your teeth like caviar. It is eaten raw, with a little vinegar." },
+        { ime: "Awamori", opis: "A strong spirit made from long-grain rice that is distilled, unlike sake. The oldest drink of its kind in Japan, it matures for years in clay pots." }
       ],
       dozivjeti: [
-        { ime: "Ronjenje s maskom na otocima Kerama", opis: "Sat brodom od Nahe more je toliko bistro da boja ima vlastito ime, „plava Kerama“. Ljeti se ondje često viđaju morske kornjače." },
-        { ime: "Večer uz sanshin", opis: "U izakayama u Nahi svira se uživo na sanshinu, glazbalu s tri žice presvučenom zmijskom kožom. Pred kraj večeri gosti obično ustanu i zaplešu s rukama u zraku." },
-        { ime: "Akvarij Churaumi u pravo vrijeme", opis: "Na stranici akvarija objavljen je raspored hranjenja kitopsina. Najmirnije je odmah po otvaranju i kasno poslijepodne.", link: "https://churaumi.okinawa/en/" }
+        { ime: "Snorkeling in the Kerama Islands", opis: "An hour by boat from Naha, the sea is so clear that the color has a name of its own, “Kerama blue”. In summer sea turtles are often seen there." },
+        { ime: "An evening with the sanshin", opis: "In the izakayas of Naha there is live music on the sanshin, a three-stringed instrument covered in snakeskin. Toward the end of the evening the guests usually get up and dance with their hands in the air." },
+        { ime: "Churaumi Aquarium at the right time", opis: "The aquarium's website publishes the feeding schedule for the whale sharks. It is quietest right at opening and late in the afternoon.", link: "https://churaumi.okinawa/en/" }
       ],
       agencije: [
-        { ime: "Visit Okinawa Japan", opis: "Službeni turistički vodič prefekture Okinawa.", link: "https://visitokinawajapan.com/" },
-        { ime: "Park dvorca Shuri", opis: "Službena stranica parka s obavijestima o obnovi i otvorenim dijelovima.", link: "https://oki-park.jp/shurijo/en/" }
+        { ime: "Visit Okinawa Japan", opis: "The official travel guide of Okinawa Prefecture.", link: "https://visitokinawajapan.com/" },
+        { ime: "Shuri Castle Park", opis: "The official website of the park, with notices about the rebuilding and the areas that are open.", link: "https://oki-park.jp/shurijo/en/" }
       ],
-      kada: "Travanj, svibanj i listopad najugodniji su. Kišno razdoblje traje od sredine svibnja do kraja lipnja, a tajfuni su najčešći od srpnja do rujna. Izvan Nahe najlakše je kretati se unajmljenim automobilom."
+      kada: "April, May and October are the most pleasant. The rainy season lasts from mid-May to the end of June, and typhoons are most frequent from July to September. Outside Naha, the easiest way to get around is by rental car."
     },
     {
       id: "koyasan",
       ime: "Koyasan",
       vrsta: "gradić",
-      sazetak: "Sveta planina na kojoj se spava u hramu, jede redovnička hrana i šeće kroz groblje pod tisućljetnim cedrovima.",
+      sazetak: "A sacred mountain where you sleep in a temple, eat the food of monks and walk through a cemetery beneath thousand-year-old cedars.",
       prica: [
-        "Redovnik Kukai, poznat i kao Kobo Daishi, vratio se iz Kine s novim učenjem i 816. godine dobio carevo dopuštenje da na ovoj visoravni okruženoj s osam vrhova osnuje samostan budističke škole Shingon.",
-        "Danas je ovdje više od stotinu hramova, a pedesetak ih prima goste na noćenje. Koyasan je 2004. upisan na UNESCO-ov popis zajedno s hodočasničkim stazama poluotoka Kii."
+        "The monk Kukai, also known as Kobo Daishi, returned from China with a new teaching and in the year 816 received the emperor's permission to found a monastery of the Shingon school of Buddhism on this plateau ringed by eight peaks.",
+        "Today there are more than a hundred temples here, and about fifty of them take in overnight guests. In 2004 Koyasan was added to the UNESCO list together with the pilgrimage routes of the Kii Peninsula."
       ],
       vidjeti: [
-        { ime: "Okunoin", opis: "Najveće groblje u Japanu ima više od dvjesto tisuća nadgrobnih spomenika uz stazu dugu dva kilometra. Vjernici drže da Kukai u mauzoleju na kraju staze i danas meditira, pa mu redovnici dvaput dnevno nose obrok. Među grobovima samuraja potražite i neobične spomenike tvrtki, primjerice onaj u obliku rakete." },
-        { ime: "Dvorana svjetiljki Torodo", opis: "Pred Kukaijevim mauzolejom gori više od deset tisuća svjetiljki koje su darovali vjernici. Za dvije se predajom tvrdi da gore neprekidno više od devetsto godina." },
-        { ime: "Kongobu-ji", opis: "Glavni hram škole Shingon poznat je po kliznim vratima oslikanima ždralovima i šljivama. Uz njega je Banryutei, najveći japanski vrt od kamena, u kojem granitne stijene prikazuju dva zmaja kako izranjaju iz mora oblaka." },
-        { ime: "Danjo Garan", opis: "Prvi sklop zgrada koji je Kukai počeo graditi. Jarkocrvena pagoda Konpon Daito visoka je gotovo pedeset metara, a u njoj kipovi i oslikani stupovi zajedno čine trodimenzionalnu mandalu, sliku svemira." },
-        { ime: "Vrata Daimon", opis: "Golema crvena vrata visoka oko dvadeset pet metara na zapadnom ulazu u grad, s dva kipa čuvara. Ovdje završava stara hodočasnička staza koja se penje iz doline." }
+        { ime: "Okunoin", opis: "The largest cemetery in Japan has more than two hundred thousand gravestones along a path two kilometers long. The faithful hold that Kukai is still meditating in the mausoleum at the end of the path, so the monks bring him a meal twice a day. Among the graves of samurai, look for the unusual corporate memorials too, such as the one shaped like a rocket." },
+        { ime: "Torodo Lantern Hall", opis: "In front of Kukai's mausoleum burn more than ten thousand lanterns donated by the faithful. Tradition holds that two of them have been burning without interruption for more than nine hundred years." },
+        { ime: "Kongobu-ji", opis: "The head temple of the Shingon school is known for its sliding doors painted with cranes and plum trees. Beside it is Banryutei, the largest rock garden in Japan, where granite rocks depict two dragons rising out of a sea of clouds." },
+        { ime: "Danjo Garan", opis: "The first group of buildings that Kukai began to construct. The bright red Konpon Daito pagoda is almost fifty meters tall, and inside it the statues and painted pillars together form a three-dimensional mandala, an image of the universe." },
+        { ime: "Daimon Gate", opis: "An enormous red gate about twenty-five meters tall at the western entrance to the town, with two guardian statues. The old pilgrimage trail that climbs up from the valley ends here." }
       ],
       jesti: [
-        { ime: "Shojin ryori", opis: "Redovnička kuhinja bez mesa, ribe, luka i češnjaka, složena od mnogo malih jela po pravilu pet boja i pet okusa. Poslužuje se za večeru i doručak u hramovima koji primaju goste." },
-        { ime: "Goma dofu", opis: "Kremasti „tofu“ koji se uopće ne radi od soje, nego od sezama i škroba. Najpoznatiji je specijalitet Koyasana." },
-        { ime: "Koya dofu", opis: "Tofu koji se suši smrzavanjem. Predaja kaže da je nastao slučajno, kada je netko zimi ostavio tofu vani preko noći. Spužvast je i upija juhu u kojoj se kuha." }
+        { ime: "Shojin ryori", opis: "Monastic cuisine without meat, fish, onion or garlic, made up of many small dishes following the principle of five colors and five flavors. It is served for dinner and breakfast in the temples that take in guests." },
+        { ime: "Goma dofu", opis: "A creamy “tofu” that is not made from soy at all, but from sesame and starch. It is Koyasan's best-known specialty." },
+        { ime: "Koya dofu", opis: "Tofu that is dried by freezing. Tradition says it came about by accident, when someone left tofu outside overnight in winter. It is spongy and soaks up the broth it is cooked in." }
       ],
       dozivjeti: [
-        { ime: "Noćenje u hramu", opis: "U shukubu spavate na futonu u sobi s tatamijima, večerate shojin ryori i u šest ujutro prisustvujete molitvi redovnika uz pjevanje sutri. Rezervacije vodi udruga hramova koji primaju goste.", link: "https://eng-shukubo.net/" },
-        { ime: "Okunoin u sumrak", opis: "Kada se upale kamene svjetiljke, staza kroz groblje postaje jedno od najtiših mjesta u Japanu. Neki hramovi i lokalni vodiči organiziraju večernje šetnje s objašnjenjima na engleskom." },
-        { ime: "Meditacija i prepisivanje sutri", opis: "Više hramova gostima nudi kratku meditaciju ajikan, u kojoj se sjedi i diše pred jednim slovom sanskrta, ili prepisivanje sutre kistom." }
+        { ime: "A night in a temple", opis: "In a shukubo you sleep on a futon in a tatami room, dine on shojin ryori and at six in the morning attend the monks' prayers with the chanting of sutras. Reservations are handled by the association of temples that take in guests.", link: "https://eng-shukubo.net/" },
+        { ime: "Okunoin at dusk", opis: "When the stone lanterns are lit, the path through the cemetery becomes one of the quietest places in Japan. Some temples and local guides organize evening walks with explanations in English." },
+        { ime: "Meditation and sutra copying", opis: "Several temples offer guests a short ajikan meditation, in which you sit and breathe in front of a single Sanskrit letter, or the copying of a sutra with a brush." }
       ],
       agencije: [
-        { ime: "Udruga hramova Koyasana (Shukubo Association)", opis: "Službeni vodič po Koyasanu i mjesto za rezervaciju noćenja u hramu i aktivnosti.", link: "https://eng-shukubo.net/" },
-        { ime: "Kongobu-ji, Koyasan", opis: "Službena stranica glavnog hrama škole Shingon.", link: "https://www.koyasan.or.jp/en/" }
+        { ime: "Koyasan Temple Association (Shukubo Association)", opis: "The official guide to Koyasan and the place to reserve a temple stay and activities.", link: "https://eng-shukubo.net/" },
+        { ime: "Kongobu-ji, Koyasan", opis: "The official website of the head temple of the Shingon school.", link: "https://www.koyasan.or.jp/en/" }
       ],
-      kada: "Od travnja do studenog, a posebno krajem listopada, kada javori pocrvene. Na planini je i ljeti osjetno hladnije nego u Osaki, pa ponesite topliju odjeću, a zimi u hramskim sobama zna biti vrlo hladno."
+      kada: "From April to November, and especially in late October, when the maples turn red. Even in summer the mountain is noticeably cooler than Osaka, so bring warmer clothing, and in winter the temple rooms can get very cold."
     }
   ],
   izvori: [

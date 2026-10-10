@@ -1,305 +1,305 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["svicarska"] = {
   id: "svicarska",
-  ime: "Švicarska",
-  regija: "Srednja Europa",
-  sazetak: "Četiri jezika, vlakovi koji se penju do ledenjaka i gradovi u kojima se u jezeru i rijeci kupa usred središta.",
+  ime: "Switzerland",
+  regija: "Central Europe",
+  sazetak: "Four languages, trains that climb all the way to the glaciers, and cities where people swim in the lake and the river right in the center of town.",
   uvod: [
-    "Švicarska je nastala kao savez planinskih dolina koje su se, prema predaji, 1291. zavjetovale da će jedna drugu braniti od stranih gospodara. Tom su se savezu stoljećima pridruživali novi krajevi, pa danas ima 26 kantona, od kojih svaki čuva vlastite zakone, praznike i ponos. Zato se na malom prostoru govore četiri jezika, njemački, francuski, talijanski i retoromanski, a iz protestantskog Züricha u katolički Luzern ili u mediteranski Lugano stiže se za sat ili dva.",
-    "Zemlja je neutralna od 1815., nije vodila rat više od dva stoljeća i o gotovo svemu odlučuje se na referendumima. Ono zbog čega se ovamo putuje ipak su Alpe: Švicarci su još u 19. stoljeću naučili probijati tunele i graditi zupčaste željeznice, pa se do vidikovaca na tri tisuće metara stiže udobno, vlakom, bez planinarske opreme.",
-    "Sve je uredno, točno i skupo, pa se isplati unaprijed proučiti kartice za prijevoz i pogodnosti koje gosti dobivaju uz noćenje."
+    "Switzerland began as an alliance of mountain valleys which, according to tradition, swore in 1291 to defend one another against foreign lords. New territories joined that alliance over the centuries, so today there are 26 cantons, each of which guards its own laws, holidays and pride. That is why four languages are spoken in such a small area, German, French, Italian and Romansh, and why you can travel from Protestant Zurich to Catholic Lucerne or Mediterranean Lugano in an hour or two.",
+    "The country has been neutral since 1815, has not fought a war for more than two centuries, and decides almost everything by referendum. What people really come here for, though, is the Alps: as early as the 19th century the Swiss learned to bore tunnels and build cogwheel railways, so you can reach viewpoints at three thousand meters in comfort, by train, with no mountaineering gear.",
+    "Everything is tidy, punctual and expensive, so it pays to study the travel passes and the perks that guests receive with an overnight stay in advance."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od lipnja do rujna za planine, jezera i panoramske vlakove, a od prosinca do ožujka za snijeg. U svibnju i studenom mnoge žičare miruju zbog održavanja." },
-    { k: "Valuta", v: "Švicarski franak (CHF). Euro se ponegdje prima, ali se ostatak vraća u francima i po lošijem tečaju, pa je najjednostavnije plaćati karticom." },
-    { k: "Kretanje", v: "Vlakovi, autobusi, brodovi i žičare povezani su u jedinstven vozni red i gotovo nikada ne kasne. Stranim gostima namijenjen je Swiss Travel Pass, a mnogi gradovi uz noćenje daruju karticu za besplatan lokalni prijevoz." },
-    { k: "Napojnica", v: "Usluga je uračunata u cijenu, pa napojnica nije obavezna. Ako ste zadovoljne, zaokružite račun ili ostavite nekoliko franaka." }
+    { k: "When to go", v: "From June to September for the mountains, lakes and panoramic trains, and from December to March for snow. In May and November many cable cars shut down for maintenance." },
+    { k: "Currency", v: "The Swiss franc (CHF). The euro is accepted in some places, but your change comes back in francs and at a poorer exchange rate, so the simplest thing is to pay by card." },
+    { k: "Getting around", v: "Trains, buses, boats and cable cars are linked in a single timetable and are almost never late. The Swiss Travel Pass is designed for foreign visitors, and many towns give guests a card for free local transport with an overnight stay." },
+    { k: "Tipping", v: "Service is included in the price, so a tip is not obligatory. If you are happy, round up the bill or leave a few francs." }
   ],
   hrana: [
-    { ime: "Fondue", opis: "Rastopljeni sir s bijelim vinom, u koji se dugim vilicama umaču kockice kruha.", prica: "Jelo potječe iz zapadne, frankofone Švicarske, a nacionalnim ga je simbolom 1930-ih učinila promidžba udruženja sirara. Najpoznatija mješavina zove se moitié-moitié, pola sira gruyère, pola vacherina. Tko izgubi kruh u loncu, po običaju časti rundom, a hrskava korica na dnu smatra se najboljim zalogajem." },
-    { ime: "Raclette", opis: "Polovica koluta sira topi se uz vatru, a rastopljeni se sloj struže na tanjur s krumpirom u ljusci i kiselim krastavcima.", prica: "Ime dolazi od francuske riječi racler, strugati, a jelo su smislili pastiri u kantonu Valais, koji su sir topili uz logorsku vatru. Uz njega se pije bijelo vino ili topli čaj, jer domaći tvrde da hladna voda otežava probavu." },
-    { ime: "Rösti", opis: "Pogača od naribanog krumpira pržena na maslacu dok ne dobije zlatnu koricu.", prica: "Nekoć je to bio doručak bernskih seljaka, a danas je prilog uz gotovo sve. Zamišljena granica između njemačkog i francuskog govornog područja u šali se zove Röstigraben, „jarak röstija“." },
-    { ime: "Zürcher Geschnetzeltes", opis: "Teletina narezana na trakice u umaku od vrhnja, bijelog vina i gljiva.", prica: "Ciriško jelo prvi se put spominje u kuharici iz 1947., pa je mlađe nego što se misli. Uvijek se poslužuje s röstijem, koji upija umak." },
-    { ime: "Birchermüesli", opis: "Zobene pahuljice namočene preko noći, s ribanom jabukom, orasima i mlijekom ili jogurtom.", prica: "Smislio ga je oko 1900. ciriški liječnik Maximilian Bircher-Benner za bolesnike u svojem lječilištu, po uzoru na obrok koji je jeo kod pastira. Švicarci ga osim za doručak često jedu i kao laganu večeru." },
-    { ime: "Älplermagronen", opis: "Makaroni s krumpirom, sirom i vrhnjem, posuti prženim lukom, uz pire od jabuka.", prica: "Pastirsko jelo iz središnje Švicarske nastalo je kada je željeznica kroz Gotthard donijela tjesteninu u planine. Slatki pire od jabuka uz slani sir čudno zvuči, ali upravo je taj spoj ono što jelo čini posebnim." },
-    { ime: "Mliječna čokolada", opis: "Švicarski izum iz 19. stoljeća, koji je promijenio slastičarstvo.", prica: "Daniel Peter iz Veveyja prvi je 1875. uspio spojiti kakao s mlijekom, koristeći kondenzirano mlijeko svojega susjeda Henrija Nestléa. Četiri godine poslije Rodolphe Lindt u Bernu izumio je stroj koji čokoladu miješa satima, pa se prvi put topila u ustima." },
-    { ime: "Rivella", opis: "Gazirano piće od mliječne sirutke s biljnim i voćnim aromama.", prica: "Na tržištu je od 1952. i neslužbeno je nacionalno bezalkoholno piće. Boja etikete označava vrstu, a crvena je izvorna." },
-    { ime: "Švicarsko vino", opis: "Bijela vina od sorte chasselas i crna od pinota crnog, s obala Ženevskog jezera, iz Valaisa i Ticina.", prica: "Izvan zemlje gotovo ih nema, jer Švicarci popiju gotovo sve što proizvedu, a izvozi se tek neznatan dio. Zato je kušanje lokalnog vina jedan od rijetkih užitaka koji se doista može doživjeti samo ovdje." }
+    { ime: "Fondue", opis: "Melted cheese with white wine, into which you dip cubes of bread on long forks.", prica: "The dish comes from western, French-speaking Switzerland, and it was turned into a national symbol in the 1930s by a campaign run by the cheesemakers' association. The best-known blend is called moitié-moitié, half Gruyère cheese and half Vacherin. By custom, whoever loses their bread in the pot buys a round, and the crispy crust at the bottom is considered the best bite of all." },
+    { ime: "Raclette", opis: "Half a wheel of cheese is melted beside the fire, and the melted layer is scraped onto a plate of potatoes boiled in their skins and pickles.", prica: "The name comes from the French word racler, to scrape, and the dish was invented by herdsmen in the canton of Valais, who melted cheese by the campfire. It is accompanied by white wine or hot tea, because locals claim that cold water makes it harder to digest." },
+    { ime: "Rösti", opis: "A cake of grated potato fried in butter until it forms a golden crust.", prica: "It was once the breakfast of Bernese farmers, and today it is a side dish with almost everything. The imaginary border between the German-speaking and French-speaking areas is jokingly called the Röstigraben, the 'rösti ditch'." },
+    { ime: "Zürcher Geschnetzeltes", opis: "Veal cut into strips in a sauce of cream, white wine and mushrooms.", prica: "This Zurich dish is first mentioned in a cookbook from 1947, so it is younger than people think. It is always served with rösti, which soaks up the sauce." },
+    { ime: "Birchermüesli", opis: "Rolled oats soaked overnight, with grated apple, nuts and milk or yogurt.", prica: "The Zurich physician Maximilian Bircher-Benner devised it around 1900 for the patients at his sanatorium, modeling it on a meal he had eaten with herdsmen. Besides having it for breakfast, the Swiss often eat it as a light supper too." },
+    { ime: "Älplermagronen", opis: "Macaroni with potatoes, cheese and cream, topped with fried onions and served with applesauce.", prica: "This herdsmen's dish from central Switzerland came about when the railway through the Gotthard brought pasta into the mountains. Sweet applesauce alongside salty cheese sounds odd, yet that very pairing is what makes the dish special." },
+    { ime: "Milk chocolate", opis: "A Swiss invention of the 19th century that changed confectionery.", prica: "In 1875 Daniel Peter of Vevey became the first to succeed in combining cocoa with milk, using the condensed milk made by his neighbor Henri Nestlé. Four years later in Bern, Rodolphe Lindt invented a machine that stirs chocolate for hours, and for the first time it melted in the mouth." },
+    { ime: "Rivella", opis: "A carbonated drink made from milk whey with herbal and fruit flavors.", prica: "It has been on the market since 1952 and is the unofficial national soft drink. The color of the label indicates the variety, and red is the original." },
+    { ime: "Swiss wine", opis: "White wines from the Chasselas grape and reds from Pinot Noir, from the shores of Lake Geneva, from Valais and from Ticino.", prica: "You will hardly find them outside the country, because the Swiss drink almost everything they produce and only a tiny share is exported. That makes tasting the local wine one of the rare pleasures you really can enjoy only here." }
   ],
   obicaji: [
-    { ime: "Alpski rog i jodlanje", opis: "Drveni rog dug oko tri i pol metra služio je pastirima za dozivanje stoke i sporazumijevanje među dolinama. Nema ventila ni rupa, pa se tonovi mijenjaju samo usnama.", gdje: "Pučke svetkovine u Bernskom gorju i središnjoj Švicarskoj ljeti, a često i na vrhovima do kojih voze žičare." },
-    { ime: "Baselski Fasnacht", opis: "Najveći švicarski karneval počinje u ponedjeljak nakon Pepelnice točno u četiri ujutro, kada se u gradu ugase sva svjetla, a ulicama krenu bubnjari i svirači pikola s oslikanim lampionima. Traje točno 72 sata i od 2017. je na UNESCO-ovu popisu nematerijalne baštine.", gdje: "Stari grad Basela, u veljači ili ožujku. Uvodni mimohod zove se Morgestraich." },
-    { ime: "Alpabzug i Désalpe", opis: "U jesen se krave s planinskih pašnjaka spuštaju u dolinu, okićene cvijećem i golemim zvonima, a prate ih pastiri u nošnjama. Tog se dana u selu prodaje sir napravljen tijekom ljeta.", gdje: "Sela u kantonima Appenzell, Bern, Fribourg i Valais, od sredine rujna do početka listopada." },
-    { ime: "Schwingen", opis: "Švicarsko hrvanje odvija se u krugu piljevine, a hrvači se drže za kratke platnene hlače navučene preko odjeće. Pobjednik poraženome po običaju otrese piljevinu s leđa.", gdje: "Ljetne svetkovine na planinskim livadama, primjerice na prijevoju Brünig ili na Rigiju." },
-    { ime: "Prvi kolovoza", opis: "Nacionalni praznik podsjeća na savez iz 1291. Navečer se na brdima pale krijesovi, djeca nose lampione s križem, a mnoga seoska gospodarstva toga jutra pozivaju goste na doručak.", gdje: "Posvuda u zemlji 1. kolovoza, a središnja je svečanost na livadi Rütli iznad jezera Vierwaldstättersee." },
-    { ime: "Sechseläuten", opis: "Ciriški cehovi u povijesnim odorama u proljeće spaljuju snjegovića od vate punjenog petardama, koji se zove Böögg. Vjeruje se da će ljeto biti to ljepše što mu glava prije eksplodira.", gdje: "Trg Sechseläutenplatz u Zürichu, trećeg ponedjeljka u travnju." },
-    { ime: "Urarstvo", opis: "Umijeće izrade mehaničkih satova razvili su u 16. stoljeću protestantski izbjeglice u Ženevi, a zatim seljaci u gorju Jura, koji su zimi sastavljali satove kod kuće. Od 2020. nalazi se na UNESCO-ovu popisu nematerijalne baštine.", gdje: "Muzeji satova u Ženevi i u gradu La Chaux-de-Fonds, čiji je tlocrt prilagođen urarskim radionicama." }
+    { ime: "Alphorn and yodeling", opis: "The wooden horn, about three and a half meters long, was used by herdsmen to call their cattle and to communicate between valleys. It has no valves or holes, so the notes are changed with the lips alone.", gdje: "Folk festivals in the Bernese Oberland and central Switzerland in summer, and often on summits served by cable cars." },
+    { ime: "Basel Fasnacht", opis: "The largest Swiss carnival begins on the Monday after Ash Wednesday at exactly four in the morning, when all the lights in the city go out and drummers and piccolo players set off through the streets with painted lanterns. It lasts exactly 72 hours and has been on UNESCO's list of intangible heritage since 2017.", gdje: "Basel's Old Town, in February or March. The opening procession is called the Morgestraich." },
+    { ime: "Alpabzug and Désalpe", opis: "In the fall the cows come down from the mountain pastures to the valley, decked with flowers and enormous bells and accompanied by herdsmen in traditional dress. On that day the village sells the cheese made over the summer.", gdje: "Villages in the cantons of Appenzell, Bern, Fribourg and Valais, from mid-September to early October." },
+    { ime: "Schwingen", opis: "Swiss wrestling takes place in a ring of sawdust, and the wrestlers grip each other by short canvas breeches worn over their clothes. By custom the winner brushes the sawdust off the loser's back.", gdje: "Summer festivals on mountain meadows, for example on the Brünig Pass or on the Rigi." },
+    { ime: "The First of August", opis: "The national holiday commemorates the alliance of 1291. In the evening bonfires are lit on the hills, children carry lanterns bearing the cross, and many farms invite guests to breakfast that morning.", gdje: "Everywhere in the country on August 1, with the main ceremony on the Rütli meadow above Lake Lucerne." },
+    { ime: "Sechseläuten", opis: "In spring the Zurich guilds, dressed in historical costume, burn a cotton-wool snowman stuffed with firecrackers, known as the Böögg. People believe that the sooner his head explodes, the lovelier the summer will be.", gdje: "Sechseläutenplatz in Zurich, on the third Monday in April." },
+    { ime: "Watchmaking", opis: "The craft of making mechanical watches was developed in the 16th century by Protestant refugees in Geneva, and then by farmers in the Jura mountains, who assembled watches at home in winter. It has been on UNESCO's list of intangible heritage since 2020.", gdje: "The watch museums in Geneva and in the town of La Chaux-de-Fonds, whose street plan was laid out to suit the watchmakers' workshops." }
   ],
   fraze: [
-    { izvorno: "Grüezi", izgovor: "GRI-e-ci", hr: "Dobar dan (švicarski njemački)" },
-    { izvorno: "Merci vilmal", izgovor: "MER-si FIL-mal", hr: "Hvala lijepa (švicarski njemački)" },
-    { izvorno: "En Guete", izgovor: "en GU-e-te", hr: "Dobar tek (švicarski njemački)" },
-    { izvorno: "Uf Widerluege", izgovor: "uf VI-der-lu-e-ge", hr: "Doviđenja (švicarski njemački)" },
-    { izvorno: "Bonjour", izgovor: "bon-ŽUR", hr: "Dobar dan (francuski, Ženeva i Montreux)" },
-    { izvorno: "L'addition, s'il vous plaît", izgovor: "la-di-SJON sil vu PLE", hr: "Račun, molim (francuski)" },
-    { izvorno: "Buongiorno", izgovor: "buon-ĐOR-no", hr: "Dobar dan (talijanski, Lugano)" },
-    { izvorno: "Grazie", izgovor: "GRA-ci-e", hr: "Hvala (talijanski)" }
+    { izvorno: "Grüezi", izgovor: "GRUE-eh-tsee", hr: "Hello, good day (Swiss German)" },
+    { izvorno: "Merci vilmal", izgovor: "MEHR-see FEEL-mahl", hr: "Thank you very much (Swiss German)" },
+    { izvorno: "En Guete", izgovor: "en GOO-eh-teh", hr: "Enjoy your meal (Swiss German)" },
+    { izvorno: "Uf Widerluege", izgovor: "oof VEE-der-loo-eh-geh", hr: "Goodbye (Swiss German)" },
+    { izvorno: "Bonjour", izgovor: "bohn-ZHOOR", hr: "Hello, good day (French, Geneva and Montreux)" },
+    { izvorno: "L'addition, s'il vous plaît", izgovor: "lah-dee-SYOHN seel voo PLEH", hr: "The check, please (French)" },
+    { izvorno: "Buongiorno", izgovor: "bwon-JOR-noh", hr: "Hello, good day (Italian, Lugano)" },
+    { izvorno: "Grazie", izgovor: "GRAH-tsee-eh", hr: "Thank you (Italian)" }
   ],
   zanimljivosti: [
-    "Oznaka CH na automobilima i u internetskim adresama dolazi od latinskog imena države, Confoederatio Helvetica, kojim se izbjeglo davanje prednosti ijednom od četiriju jezika.",
-    "Švicarska zastava je kvadratna, što je čini jednom od samo dvije takve državne zastave na svijetu, uz vatikansku.",
-    "Bazni tunel Gotthard, otvoren 2016., dug je 57,1 kilometar i najdulji je željeznički tunel na svijetu.",
-    "Žene su na saveznoj razini dobile pravo glasa tek 1971., a u kantonu Appenzell Innerrhoden na kantonalnoj razini tek 1990.",
-    "Dvojica kemičara s hrvatskim korijenima dobila su Nobelovu nagradu kao profesori ciriškog ETH-a: Lavoslav Ružička, rođen u Vukovaru, 1939., a Vladimir Prelog, koji se školovao u Zagrebu i Osijeku, 1975.",
-    "Čičak-traku izumio je švicarski inženjer George de Mestral nakon što je 1941. pod povećalom pogledao čičke koji su se uhvatili za dlaku njegova psa.",
-    "Papu u Vatikanu od 1506. čuva Švicarska garda, u koju se primaju samo švicarski državljani."
+    "The CH code on cars and in internet addresses comes from the Latin name of the state, Confoederatio Helvetica, which was chosen to avoid giving preference to any one of the four languages.",
+    "The Swiss flag is square, which makes it one of only two such national flags in the world, along with that of the Vatican.",
+    "The Gotthard Base Tunnel, opened in 2016, is 57.1 kilometers long and is the longest railway tunnel in the world.",
+    "Women gained the right to vote at the federal level only in 1971, and at the cantonal level in the canton of Appenzell Innerrhoden only in 1990.",
+    "Two chemists with Croatian roots won the Nobel Prize as professors at Zurich's ETH: Lavoslav Ružička, born in Vukovar, in 1939, and Vladimir Prelog, who was educated in Zagreb and Osijek, in 1975.",
+    "Velcro was invented by the Swiss engineer George de Mestral after he looked under a magnifying glass, in 1941, at the burrs that had caught in his dog's fur.",
+    "The Pope in the Vatican has been protected since 1506 by the Swiss Guard, which accepts only Swiss citizens."
   ],
   mjesta: [
     {
       id: "zurich",
-      ime: "Zürich",
+      ime: "Zurich",
       vrsta: "grad",
-      sazetak: "Najveći švicarski grad, u kojem se bankarske palače, stare cehovske kuće i kupališta na jezeru nalaze na pješačkoj udaljenosti.",
+      sazetak: "The largest Swiss city, where banking palaces, old guild houses and lakeside bathing spots all lie within walking distance.",
       prica: [
-        "Na mjestu rimske carinske postaje Turicum izrastao je srednjovjekovni grad obrtničkih cehova, koji su njime vladali stoljećima. Propovjednik Huldrych Zwingli pokrenuo je ovdje 1519. reformaciju, koja je iz crkava uklonila slike i kipove, a građanima usadila radišnost i štedljivost. U 19. stoljeću Zürich je postao središte banaka i znanosti, a na Saveznoj tehničkoj visokoj školi ETH studirao je Albert Einstein te predavali nobelovci Lavoslav Ružička i Vladimir Prelog."
+        "On the site of the Roman customs post of Turicum there grew a medieval city of craft guilds, which ruled it for centuries. In 1519 the preacher Huldrych Zwingli launched the Reformation here, which removed paintings and statues from the churches and instilled diligence and thrift in the citizens. In the 19th century Zurich became a center of banking and science, and the Federal Institute of Technology, ETH, is where Albert Einstein studied and where the Nobel laureates Lavoslav Ružička and Vladimir Prelog taught."
       ],
       vidjeti: [
-        { ime: "Grossmünster", opis: "Crkva s dva tornja mjesto je s kojega je Zwingli propovijedao reformaciju. Legenda kaže da ju je osnovao Karlo Veliki, kada mu je konj pokleknuo nad grobom gradskih zaštitnika Feliksa i Regule, pa njegov kip sjedi na južnom tornju. Pogledajte prozore od tankih kriški ahata, koje je 2009. izradio Sigmar Polke." },
-        { ime: "Fraumünster", opis: "Ženski samostan osnovao je 853. kralj Ludvig Njemački za svoju kćer, a njegove su opatice stoljećima upravljale gradom. Danas se ovamo dolazi zbog pet visokih prozora koje je 1970. oslikao Marc Chagall, svaki u drugoj prevladavajućoj boji." },
-        { ime: "Crkva sv. Petra", opis: "Najstarija gradska župna crkva ima najveći crkveni sat u Europi, s brojčanikom promjera 8,7 metara. U tornju je do 1911. stanovao gradski stražar, koji je pazio na požare." },
-        { ime: "Lindenhof", opis: "Brežuljak s lipama iznad rijeke Limmat mjesto je rimske utvrde i kasnije carske palače. Predaja kaže da su 1292. žene Züricha ovdje izašle u oklopima i tako uvjerile neprijatelja da je grad pun vojnika, pa na zdencu stoji kip žene u oklopu." },
-        { ime: "Niederdorf i Cabaret Voltaire", opis: "U uličicama staroga grada na desnoj obali skupina umjetnika, izbjeglih pred Prvim svjetskim ratom, pokrenula je 1916. dadaizam, pokret koji se rugao razumu što je doveo do rata. Nekoliko kuća dalje u istoj je ulici tada stanovao Lenjin." },
-        { ime: "Kunsthaus", opis: "Najveći švicarski muzej umjetnosti čuva najvažniju zbirku kipova Alberta Giacomettija, s njegovim tankim, izduženim figurama. Novo krilo arhitekta Davida Chipperfielda otvoreno je 2021." }
+        { ime: "Grossmünster", opis: "The twin-towered church is the place from which Zwingli preached the Reformation. Legend says it was founded by Charlemagne when his horse knelt over the grave of the city's patron saints, Felix and Regula, which is why his statue sits on the south tower. Take a look at the windows made of thin slices of agate, created by Sigmar Polke in 2009." },
+        { ime: "Fraumünster", opis: "The convent was founded in 853 by King Louis the German for his daughter, and its abbesses governed the city for centuries. Today people come here for the five tall windows painted by Marc Chagall in 1970, each with a different dominant color." },
+        { ime: "St. Peter's Church", opis: "The city's oldest parish church has the largest church clock face in Europe, with a dial 8.7 meters in diameter. Until 1911 the tower was home to the city watchman, who kept a lookout for fires." },
+        { ime: "Lindenhof", opis: "The hill with linden trees above the River Limmat was the site of a Roman fort and later of an imperial palace. Tradition has it that in 1292 the women of Zurich came out here in armor and so convinced the enemy that the city was full of soldiers, which is why a statue of a woman in armor stands on the fountain." },
+        { ime: "Niederdorf and Cabaret Voltaire", opis: "In the lanes of the Old Town on the right bank, a group of artists who had fled the First World War launched Dadaism in 1916, a movement that mocked the reason which had led to the war. Lenin was living a few houses farther along the same street at the time." },
+        { ime: "Kunsthaus", opis: "The largest Swiss art museum holds the most important collection of sculptures by Alberto Giacometti, with his thin, elongated figures. The new wing by the architect David Chipperfield opened in 2021." }
       ],
       jesti: [
-        { ime: "Zürcher Geschnetzeltes", opis: "Teletina u umaku od vrhnja s röstijem jede se u starim cehovskim kućama uz rijeku Limmat." },
-        { ime: "Luxemburgerli", opis: "Sitni, prozračni kolačići od badema punjeni kremom, slični makaronsima, posebnost su ciriške slastičarnice Sprüngli na trgu Paradeplatz." },
-        { ime: "Tirggel", opis: "Tanki, tvrdi medenjaci s utisnutim slikama, koji se u Zürichu peku od srednjeg vijeka i jedu se tako da se polako tope u ustima." }
+        { ime: "Zürcher Geschnetzeltes", opis: "Veal in a cream sauce with rösti is eaten in the old guild houses along the River Limmat." },
+        { ime: "Luxemburgerli", opis: "Tiny, airy almond cookies filled with cream, similar to macarons, are a specialty of the Zurich confectioner Sprüngli on Paradeplatz." },
+        { ime: "Tirggel", opis: "Thin, hard honey cookies with pictures pressed into them, which have been baked in Zurich since the Middle Ages and are eaten by letting them melt slowly in your mouth." }
       ],
       dozivjeti: [
-        { ime: "Lindt Home of Chocolate", opis: "U muzeju u Kilchbergu, na obali jezera, dočekuje vas čokoladna fontana viša od devet metara, a zatim pratite put kakaa od plantaže do pralina i kušate koliko želite. Karte je bolje kupiti unaprijed.", link: "https://www.lindt-home-of-chocolate.com/en/" },
-        { ime: "Vlakom na Uetliberg", opis: "Do gradskog brda, visokog oko 870 metara, vlak s glavnog kolodvora vozi dvadesetak minuta. S vrha se vide grad, jezero i lanac Alpa." },
-        { ime: "Kupanje u jezeru i rijeci", opis: "Ljeti se cijeli grad kupa u javnim kupalištima zvanima Badi, od kojih su neka u drvenim zgradama iz 19. stoljeća, a navečer se pretvaraju u barove." },
-        { ime: "Kunsthaus Zürich", opis: "Uz Giacomettija, vrijedi vidjeti i Munchove slike te Monetove lopoče.", link: "https://www.kunsthaus.ch/en/" }
+        { ime: "Lindt Home of Chocolate", opis: "At the museum in Kilchberg, on the lakeshore, you are greeted by a chocolate fountain more than nine meters high, and then you follow the journey of cocoa from the plantation to the praline and taste as much as you like. It is better to buy tickets in advance.", link: "https://www.lindt-home-of-chocolate.com/en/" },
+        { ime: "By train up the Uetliberg", opis: "The train from the main station takes about twenty minutes to reach the city's own mountain, which is around 870 meters high. From the top you can see the city, the lake and the chain of the Alps." },
+        { ime: "Swimming in the lake and the river", opis: "In summer the whole city swims at the public bathing spots known as Badi, some of which are housed in 19th-century wooden buildings and turn into bars in the evening." },
+        { ime: "Kunsthaus Zürich", opis: "Besides Giacometti, the paintings by Munch and Monet's water lilies are well worth seeing.", link: "https://www.kunsthaus.ch/en/" }
       ],
       agencije: [
-        { ime: "Zürich Tourismus", opis: "Službena turistička zajednica grada, s karticom Zürich Card i vođenim šetnjama starim gradom.", link: "https://www.zuerich.com/en" }
+        { ime: "Zürich Tourismus", opis: "The city's official tourist board, offering the Zürich Card and guided walks through the Old Town.", link: "https://www.zuerich.com/en" }
       ],
-      kada: "Od svibnja do rujna, kada se živi uz vodu. Voda iz više od tisuću gradskih fontana pitka je, pa ponesite bocu i ne kupujte vodu."
+      kada: "From May to September, when life is lived by the water. The water from the city's more than a thousand fountains is drinkable, so bring a bottle and skip buying water."
     },
     {
       id: "luzern",
-      ime: "Luzern",
+      ime: "Lucerne",
       vrsta: "grad",
-      sazetak: "Grad drvenih mostova na jezeru, okružen planinama na koje voze najstarije brdske željeznice u Europi.",
+      sazetak: "A city of wooden bridges on a lake, ringed by mountains served by the oldest mountain railways in Europe.",
       prica: [
-        "Luzern je nastao na mjestu gdje rijeka Reuss istječe iz jezera, a procvao je u 13. stoljeću, kada je otvoren put preko prijevoja Gotthard. Bio je prvi grad koji se, 1332., pridružio savezu triju planinskih dolina. Nakon reformacije ostao je katolički, pa su ovdje sagrađene prve velike barokne crkve u zemlji, a u 19. stoljeću otkrili su ga putnici poput kraljice Viktorije i Marka Twaina."
+        "Lucerne grew up at the spot where the River Reuss flows out of the lake, and it flourished in the 13th century, when the route over the Gotthard Pass was opened. In 1332 it became the first city to join the alliance of the three mountain valleys. After the Reformation it remained Catholic, so the first great Baroque churches in the country were built here, and in the 19th century it was discovered by travelers such as Queen Victoria and Mark Twain."
       ],
       vidjeti: [
-        { ime: "Kapelski most", opis: "Najstariji natkriveni drveni most u Europi potječe iz 14. stoljeća i dug je oko 200 metara. Pod krovom su trokutaste slike iz 17. stoljeća s prizorima iz povijesti grada, od kojih je većina stradala u požaru 18. kolovoza 1993., pa ćete vidjeti i pougljenjene okvire. Osmerokutni Vodeni toranj uz most služio je kao riznica i tamnica." },
-        { ime: "Spomenik lavu", opis: "Umirući lav, deset metara dug, isklesan je 1821. u stijeni nekadašnjeg kamenoloma prema nacrtu kipara Bertela Thorvaldsena. Posvećen je švicarskim gardistima poginulima 1792. pri obrani francuskog kralja u Parizu. Mark Twain nazvao ga je najtužnijim i najdirljivijim komadom kamena na svijetu." },
-        { ime: "Most Spreuerbrücke", opis: "Na ovom mostu iz 1408. pod krovom visi ciklus slika Ples mrtvaca, nastao od 1616. do 1637. Na svakoj kostur prati nekoga drugoga, od pape i kralja do seljaka, kao podsjetnik da smrt dolazi po sve. Ime mostu dolazi od pljeve, koja se samo ovdje smjela bacati u rijeku." },
-        { ime: "Zidine Musegg", opis: "Od srednjovjekovnih utvrda sačuvano je devet kula, od kojih se na nekoliko može popeti. Sat na kuli Zyt ima povlasticu da otkucava minutu prije svih ostalih gradskih satova." },
-        { ime: "Isusovačka crkva", opis: "Prva velika barokna crkva u Švicarskoj sagrađena je od 1666. do 1677. tik uz rijeku. Unutrašnjost u bijeloj i ružičastoj štukaturi izgleda poput svečane dvorane." },
-        { ime: "Švicarski muzej prometa", opis: "Najposjećeniji muzej u zemlji izlaže lokomotive, zrakoplove, žičare i svemirske kapsule. Posebno je zanimljiv dio o gradnji tunela kroz Gotthard." }
+        { ime: "Chapel Bridge", opis: "The oldest covered wooden bridge in Europe dates from the 14th century and is about 200 meters long. Beneath its roof hang triangular paintings from the 17th century with scenes from the city's history, most of which were damaged in the fire of August 18, 1993, so you will see charred frames as well. The octagonal Water Tower beside the bridge once served as a treasury and a dungeon." },
+        { ime: "Lion Monument", opis: "The dying lion, ten meters long, was carved in 1821 into the rock face of a former quarry, to a design by the sculptor Bertel Thorvaldsen. It is dedicated to the Swiss Guards who died in 1792 defending the French king in Paris. Mark Twain called it the most mournful and moving piece of stone in the world." },
+        { ime: "Spreuer Bridge", opis: "Beneath the roof of this bridge from 1408 hangs the Dance of Death cycle of paintings, created between 1616 and 1637. In each one a skeleton accompanies someone different, from pope and king to peasant, as a reminder that death comes for everyone. The bridge takes its name from chaff, which could be thrown into the river only here." },
+        { ime: "Musegg Wall", opis: "Nine towers of the medieval fortifications survive, and you can climb several of them. The clock on the Zyt Tower has the privilege of striking the hour one minute before all the other clocks in the city." },
+        { ime: "Jesuit Church", opis: "The first great Baroque church in Switzerland was built between 1666 and 1677 right beside the river. The interior, in white and pink stucco, looks like a ceremonial hall." },
+        { ime: "Swiss Museum of Transport", opis: "The most visited museum in the country exhibits locomotives, aircraft, cable cars and space capsules. The section on the construction of the tunnel through the Gotthard is especially interesting." }
       ],
       jesti: [
-        { ime: "Luzerner Chügelipastete", opis: "Košarica od lisnatog tijesta punjena kuglicama od teletine i gljivama u bijelom umaku, svečano jelo koje se tradicionalno jede u vrijeme karnevala." },
-        { ime: "Birnenweggen", opis: "Savijača od dizanog tijesta punjena gustom smjesom suhih krušaka, oraha i začina." },
-        { ime: "Älplermagronen", opis: "Pastirski makaroni sa sirom i krumpirom, koje u okolici Luzerna poslužuju s pireom od jabuka." }
+        { ime: "Luzerner Chügelipastete", opis: "A puff pastry shell filled with little veal meatballs and mushrooms in a white sauce, a festive dish traditionally eaten at carnival time." },
+        { ime: "Birnenweggen", opis: "A roll of yeast dough filled with a thick mixture of dried pears, walnuts and spices." },
+        { ime: "Älplermagronen", opis: "Herdsmen's macaroni with cheese and potatoes, which around Lucerne is served with applesauce." }
       ],
       dozivjeti: [
-        { ime: "Izlet na Pilatus", opis: "Na vrh iznad grada vozi najstrmija zupčasta željeznica na svijetu, s usponom do 48 posto, otvorena 1889. Ljeti se izlet može složiti u krug: brodom po jezeru, zupčanicom gore, a žičarom dolje. Prema srednjovjekovnoj legendi u planinskom jezercu počiva duh Poncija Pilata, pa je uspon stoljećima bio zabranjen.", link: "https://pilatus.ch/en" },
-        { ime: "Brodom po jezeru Vierwaldstättersee", opis: "Stari parobrodi s lopaticama plove između strmih obala do livade Rütli, na kojoj je prema predaji sklopljen prvi švicarski savez." },
-        { ime: "Švicarski muzej prometa", opis: "Dobar je izbor za kišni dan, a u sklopu muzeja su i planetarij te simulatori vožnje.", link: "https://www.verkehrshaus.ch/en/" }
+        { ime: "A trip up Pilatus", opis: "The steepest cogwheel railway in the world, with a gradient of up to 48 percent, opened in 1889 and climbs to the summit above the city. In summer you can turn the trip into a loop: by boat across the lake, up on the cogwheel train and down by cable car. According to a medieval legend the ghost of Pontius Pilate rests in a small mountain lake, so for centuries the climb was forbidden.", link: "https://pilatus.ch/en" },
+        { ime: "By boat on Lake Lucerne", opis: "Old paddle steamers sail between the steep shores to the Rütli meadow, where according to tradition the first Swiss alliance was sworn." },
+        { ime: "Swiss Museum of Transport", opis: "It is a good choice for a rainy day, and the museum complex also includes a planetarium and driving simulators.", link: "https://www.verkehrshaus.ch/en/" }
       ],
       agencije: [
-        { ime: "Luzern Tourismus", opis: "Službena turistička zajednica grada i jezera, s uredom na kolodvoru i svakodnevnim vođenim šetnjama.", link: "https://www.luzern.com/en/" }
+        { ime: "Luzern Tourismus", opis: "The official tourist board of the city and the lake, with an office at the train station and daily guided walks.", link: "https://www.luzern.com/en/" }
       ],
-      kada: "Od svibnja do listopada, kada voze svi brodovi i zupčanica na Pilatus. Prije uspona na bilo koji vrh pogledajte kamere uživo, jer se oblaci brzo navlače."
+      kada: "From May to October, when all the boats and the cogwheel railway up Pilatus are running. Before heading up any summit, check the live webcams, because the clouds roll in quickly."
     },
     {
       id: "bern",
       ime: "Bern",
       vrsta: "grad",
-      sazetak: "Mirna savezna prijestolnica u zavoju rijeke Aare, s kilometrima arkada i satom koji je nadahnuo Einsteina.",
+      sazetak: "The quiet federal capital in a bend of the River Aare, with kilometers of arcades and the clock that inspired Einstein.",
       prica: [
-        "Grad je 1191. osnovao vojvoda Berchtold V. od Zähringena na poluotoku koji rijeka Aare okružuje s tri strane. Legenda kaže da ga je nazvao po prvoj životinji ulovljenoj u lovu, a to je bio medvjed, koji je otada na grbu. Nakon velikog požara 1405. drvene su kuće zamijenjene kućama od pješčenjaka s arkadama, i taj je izgled sačuvan do danas, pa je stari grad od 1983. na UNESCO-ovu popisu."
+        "The city was founded in 1191 by Duke Berchtold V of Zähringen on a peninsula that the River Aare surrounds on three sides. Legend says he named it after the first animal caught on the hunt, which was a bear, and it has been on the coat of arms ever since. After the great fire of 1405 the wooden houses were replaced by sandstone houses with arcades, and that appearance has been preserved to this day, so the Old Town has been on the UNESCO list since 1983."
       ],
       vidjeti: [
-        { ime: "Zytglogge", opis: "Nekadašnja gradska vrata dobila su 1530. astronomski sat, koji pokazuje i dan, mjesec, znak zodijaka i mjesečevu mijenu. Nekoliko minuta prije punog sata zakukuriče pijetao, zavrti se povorka medvjedića, a luda zazvoni prerano. Po ovom se satu nekoć ravnalo vrijeme u cijelom kantonu." },
-        { ime: "Arkade i zdenci", opis: "Šest kilometara natkrivenih prolaza čini jednu od najduljih natkrivenih trgovačkih šetnica u Europi, a ulazi u podrume vode ravno s ulice. Među renesansnim zdencima s obojenim kipovima potražite onaj s divom koji proždire dijete, o čijem se značenju i danas raspravlja." },
-        { ime: "Bernska katedrala", opis: "Gradnja je počela 1421., a toranj je dovršen tek 1893. i sa 100 metara najviši je u Švicarskoj. Nad glavnim portalom prizor je Posljednjeg suda s više od dvjesto figura, koje su preživjele reformaciju jer su je protestanti protumačili kao sliku pravde." },
-        { ime: "Einsteinova kuća", opis: "U stanu na drugom katu, u ulici Kramgasse 49, Albert Einstein živio je od 1903. do 1905. kao službenik patentnog ureda. Ovdje je 1905. napisao radove koji su promijenili fiziku, među njima i onaj o posebnoj teoriji relativnosti." },
-        { ime: "Park medvjeda", opis: "Bern drži medvjede od 1513., a od 2009. oni žive na ozelenjenoj padini uz rijeku umjesto u staroj jami. Iz ružičnjaka na brdu iznad parka pruža se najljepši pogled na krovove staroga grada." },
-        { ime: "Savezna palača", opis: "Zgrada parlamenta iz 1902. sagrađena je od kamena iz svih dijelova zemlje. Na trgu pred njom iz pločnika izbija 26 mlazova vode, po jedan za svaki kanton." }
+        { ime: "Zytglogge", opis: "The former city gate was given an astronomical clock in 1530, which also shows the day, the month, the sign of the zodiac and the phase of the moon. A few minutes before the hour a rooster crows, a procession of little bears spins around and a jester rings his bells too early. The time across the whole canton was once set by this clock." },
+        { ime: "Arcades and fountains", opis: "Six kilometers of covered walkways make up one of the longest covered shopping promenades in Europe, and the entrances to the cellars lead straight off the street. Among the Renaissance fountains with their painted statues, look for the one with an ogre devouring a child, whose meaning is still debated today." },
+        { ime: "Bern Minster", opis: "Construction began in 1421, and the tower was only completed in 1893 and, at 100 meters, is the tallest in Switzerland. Above the main portal is a scene of the Last Judgment with more than two hundred figures, which survived the Reformation because the Protestants interpreted it as an image of justice." },
+        { ime: "Einstein House", opis: "Albert Einstein lived in the second-floor apartment at Kramgasse 49 from 1903 to 1905, while working as a clerk at the patent office. It was here in 1905 that he wrote the papers that changed physics, among them the one on the special theory of relativity." },
+        { ime: "Bear Park", opis: "Bern has kept bears since 1513, and since 2009 they have lived on a green slope beside the river instead of in the old pit. The rose garden on the hill above the park offers the most beautiful view of the rooftops of the Old Town." },
+        { ime: "Federal Palace", opis: "The parliament building of 1902 was built of stone from every part of the country. On the square in front of it, 26 jets of water shoot up from the pavement, one for each canton." }
       ],
       jesti: [
-        { ime: "Berner Platte", opis: "Obilna plata kuhanog i dimljenog mesa, kobasica, kiselog kupusa, graha i krumpira, nastala prema predaji 1798. nakon pobjede nad Francuzima." },
-        { ime: "Zibelechueche", opis: "Pita od luka koja se jede na sajmu luka Zibelemärit, kada se četvrtog ponedjeljka u studenom prodaju tone luka spletenog u pletenice." },
-        { ime: "Meringue s vrhnjem", opis: "Hrskave puslice s gustim dvostrukim vrhnjem, slastica cijelog Bernskog kraja." }
+        { ime: "Berner Platte", opis: "A generous platter of boiled and smoked meats, sausages, sauerkraut, beans and potatoes, which according to tradition was created in 1798 after a victory over the French." },
+        { ime: "Zibelechueche", opis: "An onion tart eaten at the Zibelemärit onion market, when tons of onions woven into braids are sold on the fourth Monday in November." },
+        { ime: "Meringue with cream", opis: "Crisp meringues with thick double cream, a dessert of the whole Bern region." }
       ],
       dozivjeti: [
-        { ime: "Obilazak unutrašnjosti tornja Zytglogge", opis: "S vodičem se može ući u toranj, vidjeti mehanizam iz 16. stoljeća i promatrati figure iznutra, a zatim se popeti na vidikovac. Obilaske organizira gradska turistička zajednica.", link: "https://www.bern.com/en" },
-        { ime: "Kupanje u rijeci Aare", opis: "Ljeti se stanovnici Berna puštaju da ih ledeno modra rijeka nosi nizvodno do kupališta Marzili podno parlamenta. Struja je jaka, pa to rade samo dobri plivači, a izlazi su označeni crvenim rukohvatima." },
-        { ime: "Centar Paula Kleea", opis: "U valovitoj zgradi arhitekta Renza Piana na rubu grada čuva se oko četiri tisuće djela slikara Paula Kleea, koji je odrastao u Bernu.", link: "https://www.zpk.org/en" }
+        { ime: "A tour inside the Zytglogge tower", opis: "With a guide you can enter the tower, see the 16th-century mechanism and watch the figures from the inside, and then climb up to the viewing platform. The tours are organized by the city's tourist board.", link: "https://www.bern.com/en" },
+        { ime: "Swimming in the River Aare", opis: "In summer the people of Bern let the icy blue river carry them downstream to the Marzili baths below the parliament. The current is strong, so only good swimmers do this, and the exits are marked with red handrails." },
+        { ime: "Zentrum Paul Klee", opis: "The wave-shaped building by the architect Renzo Piano on the edge of the city holds around four thousand works by the painter Paul Klee, who grew up in Bern.", link: "https://www.zpk.org/en" }
       ],
       agencije: [
-        { ime: "Bern Welcome", opis: "Službena turistička zajednica grada, s uredom na kolodvoru, koja vodi šetnju UNESCO-ovim starim gradom i obilaske tornja sa satom.", link: "https://www.bern.com/en" }
+        { ime: "Bern Welcome", opis: "The city's official tourist board, with an office at the train station, which runs a walk through the UNESCO-listed Old Town and tours of the clock tower.", link: "https://www.bern.com/en" }
       ],
-      kada: "Od svibnja do rujna. Arkade štite od kiše, pa je Bern dobar izbor i za ružno vrijeme, a gosti uz noćenje dobivaju kartu za besplatan gradski prijevoz."
+      kada: "From May to September. The arcades give shelter from the rain, so Bern is a good choice in bad weather too, and guests receive a ticket for free city transport with an overnight stay."
     },
     {
       id: "zeneva",
-      ime: "Ženeva",
+      ime: "Geneva",
       vrsta: "grad",
-      sazetak: "Grad Calvina, Crvenog križa i Ujedinjenih naroda, na kraju jezera iz kojega šiklja vodoskok visok 140 metara.",
+      sazetak: "The city of Calvin, the Red Cross and the United Nations, at the end of a lake from which a fountain shoots 140 meters into the air.",
       prica: [
-        "Ženeva je bila rimski grad i biskupsko sjedište, a sredinom 16. stoljeća Jean Calvin pretvorio ju je u strogo uređen „protestantski Rim“, u koji su se slijevali izbjeglice iz Francuske i Italije, donoseći urarstvo i bankarstvo. Švicarskoj se pridružila tek 1815. Ovdje je 1863. na poticaj Henryja Dunanta osnovan Crveni križ, a nakon Prvog svjetskog rata grad je postao sjedište Lige naroda, pa je danas europsko sjedište Ujedinjenih naroda."
+        "Geneva was a Roman town and a bishop's seat, and in the mid-16th century John Calvin turned it into a strictly ordered 'Protestant Rome', which drew a stream of refugees from France and Italy who brought watchmaking and banking with them. It only joined Switzerland in 1815. The Red Cross was founded here in 1863 at the urging of Henry Dunant, and after the First World War the city became the seat of the League of Nations, which is why it is the European headquarters of the United Nations today."
       ],
       vidjeti: [
-        { ime: "Jet d'Eau", opis: "Vodoskok je nastao 1886. kao sigurnosni ventil hidroelektrane, koji je navečer ispuštao višak tlaka. Građanima se toliko svidio da je premješten u jezero, a danas voda izlazi brzinom od oko 200 kilometara na sat i diže se 140 metara. Kamenim molom može mu se prići sasvim blizu, uz mogućnost da vas vjetar okupa." },
-        { ime: "Katedrala sv. Petra", opis: "U ovoj je crkvi Calvin propovijedao više od dvadeset godina, a njegov jednostavni drveni stolac i danas stoji uz propovjedaonicu. Ispod katedrale je veliko arheološko nalazište s ostacima crkava iz 4. stoljeća, a s tornjeva se vidi jezero." },
-        { ime: "Zid reformatora", opis: "Stotinu metara dug spomenik počeo se graditi 1909., o četiristotoj obljetnici Calvinova rođenja. U sredini stoje četiri kipa visoka pet metara: Calvin, Farel, Bèze i Knox. Uklesano geslo „Post tenebras lux“ znači „Nakon tame svjetlost“." },
-        { ime: "Palača naroda", opis: "Sagrađena je 1930-ih za Ligu naroda, a danas je drugo najveće sjedište Ujedinjenih naroda. Na trgu pred njom stoji golemi drveni stolac sa slomljenom nogom, spomenik žrtvama nagaznih mina." },
-        { ime: "Cvjetni sat", opis: "Sat od nekoliko tisuća cvjetova u Engleskom vrtu postavljen je 1955. u čast ženevskih urara. Kazaljka za sekunde duga je dva i pol metra." },
-        { ime: "Carouge", opis: "Četvrt preko rijeke Arve dali su u 18. stoljeću sagraditi sardinski kraljevi kao suparnika Ženevi, pa niske kuće sa zelenim kapcima i unutarnjim vrtovima izgledaju kao komadić Pijemonta. Danas je puna obrtničkih radionica i kafića." }
+        { ime: "Jet d'Eau", opis: "The fountain came into being in 1886 as the safety valve of a hydraulic power plant, releasing excess pressure in the evenings. The citizens liked it so much that it was moved out into the lake, and today the water leaves the nozzle at around 200 kilometers per hour and rises 140 meters. You can walk right up close to it along the stone jetty, with the chance that the wind will give you a shower." },
+        { ime: "St. Pierre Cathedral", opis: "Calvin preached in this church for more than twenty years, and his simple wooden chair still stands beside the pulpit. Beneath the cathedral is a large archaeological site with the remains of churches from the 4th century, and from the towers you can see the lake." },
+        { ime: "Reformation Wall", opis: "Work on the hundred-meter monument began in 1909, on the four hundredth anniversary of Calvin's birth. In the center stand four statues five meters tall: Calvin, Farel, Beza and Knox. The engraved motto 'Post tenebras lux' means 'After darkness, light'." },
+        { ime: "Palais des Nations", opis: "It was built in the 1930s for the League of Nations, and today it is the second-largest United Nations headquarters. On the square in front of it stands a giant wooden chair with a broken leg, a monument to the victims of landmines." },
+        { ime: "Flower Clock", opis: "The clock made of several thousand flowers in the English Garden was installed in 1955 in honor of Geneva's watchmakers. The second hand is two and a half meters long." },
+        { ime: "Carouge", opis: "The district across the River Arve was built in the 18th century on the orders of the kings of Sardinia as a rival to Geneva, so its low houses with green shutters and inner gardens look like a little piece of Piedmont. Today it is full of craft workshops and cafés." }
       ],
       jesti: [
-        { ime: "Filets de perche", opis: "Fileti grgeča prženi na maslacu s limunom, posluženi s pomfritom, jedu se na terasama uz jezero." },
-        { ime: "Longeole", opis: "Ženevska svinjska kobasica začinjena sjemenkama komorača, zaštićena oznakom podrijetla, kuha se satima i jede s krumpirom." },
-        { ime: "Marmite de l'Escalade", opis: "Čokoladni kotlić punjen povrćem od marcipana razbija se u prosincu u spomen na noć 1602., kada je, prema predaji, gospođa Royaume izlila vrelu juhu na savojske vojnike koji su se penjali na zidine." }
+        { ime: "Filets de perche", opis: "Perch fillets fried in butter with lemon and served with French fries are eaten on the terraces by the lake." },
+        { ime: "Longeole", opis: "A Geneva pork sausage seasoned with fennel seeds and protected by a designation of origin, which is simmered for hours and eaten with potatoes." },
+        { ime: "Marmite de l'Escalade", opis: "A chocolate cauldron filled with marzipan vegetables is smashed in December in memory of the night in 1602 when, according to tradition, Madame Royaume poured boiling soup over the Savoyard soldiers who were scaling the walls." }
       ],
       dozivjeti: [
-        { ime: "CERN Science Gateway", opis: "Europski laboratorij za fiziku čestica otvorio je 2023. besplatan centar za posjetitelje arhitekta Renza Piana, s interaktivnim izložbama o akceleratorima i nastanku svemira. Do njega vozi tramvaj iz središta grada.", link: "https://visit.cern/" },
-        { ime: "Međunarodni muzej Crvenog križa i Crvenog polumjeseca", opis: "Muzej kraj Palače naroda kroz svjedočanstva stvarnih ljudi govori o ratnim zarobljenicima, razdvojenim obiteljima i pomoći u katastrofama, a čuva i milijune kartica zarobljenika iz Prvog svjetskog rata.", link: "https://www.redcrossmuseum.ch/en/" },
-        { ime: "Vožnja brodićem Mouette", opis: "Žuti brodići dio su javnog prijevoza i prevoze s jedne obale jezera na drugu, pa je to najjeftiniji način da vodoskok vidite s vode." }
+        { ime: "CERN Science Gateway", opis: "In 2023 the European laboratory for particle physics opened a free visitor center by the architect Renzo Piano, with interactive exhibitions on accelerators and the origin of the universe. A tram runs to it from the city center.", link: "https://visit.cern/" },
+        { ime: "International Red Cross and Red Crescent Museum", opis: "Through the testimonies of real people, the museum beside the Palais des Nations tells of prisoners of war, separated families and disaster relief, and it also preserves millions of index cards on prisoners from the First World War.", link: "https://www.redcrossmuseum.ch/en/" },
+        { ime: "A ride on a Mouette boat", opis: "The little yellow boats are part of the public transport network and ferry passengers from one shore of the lake to the other, which makes them the cheapest way to see the fountain from the water." }
       ],
       agencije: [
-        { ime: "Genève Tourisme", opis: "Službena turistička zajednica grada, koja nudi vođene šetnje starim gradom i karticu Geneva City Pass.", link: "https://www.geneve.com/en" }
+        { ime: "Genève Tourisme", opis: "The city's official tourist board, which offers guided walks through the Old Town and the Geneva City Pass.", link: "https://www.geneve.com/en" }
       ],
-      kada: "Od svibnja do rujna. Gosti hotela, hostela i kampova dobivaju karticu za besplatan javni prijevoz tijekom cijelog boravka, pa je zatražite na recepciji."
+      kada: "From May to September. Guests of hotels, hostels and campsites receive a card for free public transport throughout their stay, so ask for it at reception."
     },
     {
       id: "interlaken-jungfrau",
-      ime: "Interlaken i Jungfrau",
+      ime: "Interlaken and the Jungfrau",
       vrsta: "priroda",
-      sazetak: "Gradić između dvaju jezera, iz kojega vlakovi voze do doline sa 72 slapa i do najviše željezničke postaje u Europi.",
+      sazetak: "A small town between two lakes, from which trains run to a valley with 72 waterfalls and to the highest railway station in Europe.",
       prica: [
-        "Interlaken je ime dobio po položaju „među jezerima“, Thunskim i Brienškim, a nastao je oko augustinskog samostana iz 12. stoljeća. U 19. stoljeću postao je polazište prvih turista koji su dolazili gledati trojku Eiger, Mönch i Jungfrau. Industrijalac Adolf Guyer-Zeller tada je zamislio željeznicu kroz utrobu Eigera, koja je nakon šesnaest godina gradnje otvorena 1. kolovoza 1912. Područje Jungfrau-Aletsch od 2001. je na UNESCO-ovu popisu."
+        "Interlaken takes its name from its position 'between the lakes', Lake Thun and Lake Brienz, and it grew up around a 12th-century Augustinian monastery. In the 19th century it became the starting point for the first tourists who came to gaze at the trio of the Eiger, the Mönch and the Jungfrau. The industrialist Adolf Guyer-Zeller then conceived a railway through the heart of the Eiger, which opened on August 1, 1912, after sixteen years of construction. The Jungfrau-Aletsch area has been on the UNESCO list since 2001."
       ],
       vidjeti: [
-        { ime: "Jungfraujoch", opis: "Postaja na 3454 metra najviša je u Europi, a posljednjih sedam kilometara pruge prolazi tunelom kroz Eiger i Mönch. S terase opservatorija Sphinx vidi se Aletsch, najdulji ledenjak Alpa, dug oko dvadeset kilometara. Hodajte polako, jer se na toj visini lako zadišete." },
-        { ime: "Dolina Lauterbrunnen", opis: "Ledenjačka dolina s okomitim stijenama ima 72 slapa. Staubbach pada gotovo tristo metara i raspršuje se u vodenu prašinu, a Goethea je 1779. nadahnuo za pjesmu o dušama nad vodama." },
-        { ime: "Slapovi Trümmelbach", opis: "Deset ledenjačkih slapova ruši se unutar planine, kroz klanac do kojega vode dizalo i osvijetljeni tuneli. Njima otječe voda s ledenjaka Eigera, Möncha i Jungfraua, pa unutra tutnji kao u oluji." },
-        { ime: "Harder Kulm", opis: "Uspinjača iz Interlakena za desetak minuta stiže na vidikovac na 1322 metra, s kojega se odjednom vide oba jezera i sva tri slavna vrha. Najljepše je pred zalazak sunca." },
-        { ime: "Brienz i slapovi Giessbach", opis: "Selo na tirkiznom Brienškom jezeru poznato je po rezbarenju drva, koje se ovdje uči u posebnoj školi. Preko jezera, do slapova Giessbach i povijesnog hotela, vozi jedna od najstarijih uspinjača u Europi, iz 1879." }
+        { ime: "Jungfraujoch", opis: "The station at 3,454 meters is the highest in Europe, and the last seven kilometers of track run through a tunnel inside the Eiger and the Mönch. From the terrace of the Sphinx Observatory you can see the Aletsch, the longest glacier in the Alps, about twenty kilometers long. Walk slowly, because it is easy to get out of breath at that altitude." },
+        { ime: "Lauterbrunnen Valley", opis: "The glacial valley with its sheer rock walls has 72 waterfalls. The Staubbach drops almost three hundred meters and scatters into a mist of water, and in 1779 it inspired Goethe to write his poem about spirits over the waters." },
+        { ime: "Trümmelbach Falls", opis: "Ten glacial waterfalls crash down inside the mountain, through a gorge reached by an elevator and illuminated tunnels. They drain the meltwater from the glaciers of the Eiger, the Mönch and the Jungfrau, so inside it rumbles like a storm." },
+        { ime: "Harder Kulm", opis: "The funicular from Interlaken takes about ten minutes to reach the viewpoint at 1,322 meters, from which you can see both lakes and all three famous peaks at once. It is at its most beautiful just before sunset." },
+        { ime: "Brienz and the Giessbach Falls", opis: "The village on turquoise Lake Brienz is known for woodcarving, which is taught here at a dedicated school. Across the lake, one of the oldest funiculars in Europe, dating from 1879, runs up to the Giessbach Falls and the historic hotel." }
       ],
       jesti: [
-        { ime: "Älplermagronen", opis: "Makaroni s krumpirom, sirom i prženim lukom, koje u planinskim kolibama poslužuju s pireom od jabuka." },
-        { ime: "Rösti", opis: "U Bernskom gorju jede se kao glavno jelo, sa slaninom, sirom i pečenim jajetom." },
-        { ime: "Meringue", opis: "Obližnji Meiringen tvrdi da su puslice izmišljene upravo ondje i da po njemu nose ime, što povjesničari ne mogu potvrditi, ali ih svejedno vrijedi kušati s gustim vrhnjem." }
+        { ime: "Älplermagronen", opis: "Macaroni with potatoes, cheese and fried onions, which the mountain huts serve with applesauce." },
+        { ime: "Rösti", opis: "In the Bernese Oberland it is eaten as a main course, with bacon, cheese and a fried egg." },
+        { ime: "Meringue", opis: "Nearby Meiringen claims that meringues were invented right there and take their name from the town, which historians cannot confirm, but they are worth tasting with thick cream all the same." }
       ],
       dozivjeti: [
-        { ime: "Vlakom na Jungfraujoch", opis: "Izlet traje gotovo cijeli dan, a mjesta u vlakovima ljeti treba rezervirati. Na vrhu su ledena palača s kipovima isklesanima u ledenjaku i terasa na snijegu. Prije kupnje karte pogledajte kamere uživo, jer se u oblacima ne vidi ništa.", link: "https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/" },
-        { ime: "Šetnja dolinom Lauterbrunnen", opis: "Ravna staza od sela do slapova Trümmelbach vodi kroz livade pod stijenama i traje oko sat vremena. To je jedan od najljepših laganih putova u Alpama." },
-        { ime: "Brodom po Brienškom jezeru", opis: "S kolodvora Interlaken Ost polaze brodovi, među njima i stari parobrod, koji pristaju kod Giessbacha i u Brienzu." }
+        { ime: "By train to the Jungfraujoch", opis: "The trip takes almost the whole day, and in summer seats on the trains need to be reserved. At the top there is an ice palace with sculptures carved into the glacier and a terrace on the snow. Check the live webcams before you buy a ticket, because in cloud you will see nothing at all.", link: "https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/" },
+        { ime: "A walk through the Lauterbrunnen Valley", opis: "The level path from the village to the Trümmelbach Falls leads through meadows beneath the cliffs and takes about an hour. It is one of the loveliest easy walks in the Alps." },
+        { ime: "By boat on Lake Brienz", opis: "Boats depart from Interlaken Ost station, among them an old steamer, and they call at Giessbach and at Brienz." }
       ],
       agencije: [
-        { ime: "Interlaken Tourismus", opis: "Službena turistička zajednica Interlakena i okolnih mjesta, s uredom u središtu i prijedlozima izleta.", link: "https://www.interlaken.swiss/en/" },
-        { ime: "Jungfraubahnen", opis: "Željeznička tvrtka koja vozi na Jungfraujoch, Harder Kulm i Grindelwald-First, s voznim redom i kamerama uživo.", link: "https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/" }
+        { ime: "Interlaken Tourismus", opis: "The official tourist board of Interlaken and the surrounding villages, with an office in the center and suggestions for day trips.", link: "https://www.interlaken.swiss/en/" },
+        { ime: "Jungfraubahnen", opis: "The railway company that runs to the Jungfraujoch, Harder Kulm and Grindelwald-First, with timetables and live webcams.", link: "https://www.jungfrau.ch/en-gb/jungfraujoch-top-of-europe/" }
       ],
-      kada: "Od lipnja do rujna za šetnje i slapove, koji su najsnažniji početkom ljeta. Na Jungfraujochu je i u kolovozu oko nule, pa ponesite toplu jaknu i sunčane naočale."
+      kada: "From June to September for walks and for the waterfalls, which are at their most powerful in early summer. On the Jungfraujoch it is around freezing even in August, so bring a warm jacket and sunglasses."
     },
     {
       id: "zermatt",
       ime: "Zermatt",
       vrsta: "gradić",
-      sazetak: "Selo bez automobila podno Matterhorna, najprepoznatljivije planine na svijetu.",
+      sazetak: "A car-free village at the foot of the Matterhorn, the most recognizable mountain in the world.",
       prica: [
-        "Zermatt je stoljećima bio siromašno pastirsko selo na kraju doline, dok ga sredinom 19. stoljeća nisu otkrili britanski planinari. Englez Edward Whymper prvi se 14. srpnja 1865. popeo na Matterhorn, visok 4478 metara, ali su se pri silasku četvorica od sedmorice penjača survala u ponor kada je puknulo uže. Tragedija je selo proslavila u cijelom svijetu. Automobili s motorom na gorivo ovdje su zabranjeni, pa se do sela dolazi vlakom, a ulicama voze mala električna vozila."
+        "For centuries Zermatt was a poor herding village at the end of a valley, until British mountaineers discovered it in the middle of the 19th century. The Englishman Edward Whymper made the first ascent of the Matterhorn, which is 4,478 meters high, on July 14, 1865, but on the descent four of the seven climbers plunged into the abyss when the rope snapped. The tragedy made the village famous around the world. Vehicles with combustion engines are banned here, so you arrive by train, and small electric vehicles run through the streets."
       ],
       vidjeti: [
-        { ime: "Matterhorn", opis: "Piramida s četiri strane okrenute gotovo točno prema četirima stranama svijeta najljepše se vidi u zoru, kada vrh postane ružičast, a selo je još u sjeni. Najbolje mjesto za taj prizor u selu je most kod crkve." },
-        { ime: "Muzej Matterhorna", opis: "U podzemnom muzeju Zermatlantis izloženo je puknuto uže s prvog uspona, tanko poput užeta za rublje. Oko njega su rekonstruirane seoske kuće, pa se vidi kako se živjelo prije dolaska turista." },
-        { ime: "Hinterdorf", opis: "U najstarijoj ulici sela stoje spremišta i štale od pocrnjele arišovine, stari i po nekoliko stoljeća. Podignuti su na drvenim stupićima s plosnatim kamenim pločama na vrhu, preko kojih se miševi nisu mogli popeti do žita." },
-        { ime: "Groblje planinara", opis: "Uz župnu crkvu pokopano je pedesetak penjača stradalih na okolnim vrhovima, među njima i stradali s prvog uspona na Matterhorn. Na nekim su nadgrobnim pločama ugrađeni cepini, a na jednoj piše samo „Odabrao sam penjati se“." },
-        { ime: "Gornergrat", opis: "Zupčasta željeznica iz 1898. penje se do 3089 metara, na greben s kojega se vidi dvadeset i devet vrhova viših od četiri tisuće metara i golemi ledenjak Gorner. Siđite postaju niže i prošećite do jezerca Riffelsee, u kojem se za mirna jutra ogleda Matterhorn." }
+        { ime: "Matterhorn", opis: "The pyramid, whose four faces point almost exactly toward the four points of the compass, is at its most beautiful at dawn, when the summit turns pink while the village is still in shadow. The best spot in the village for that view is the bridge by the church." },
+        { ime: "Matterhorn Museum", opis: "The underground Zermatlantis museum displays the snapped rope from the first ascent, as thin as a clothesline. Around it are reconstructed village houses, which show how people lived before the tourists arrived." },
+        { ime: "Hinterdorf", opis: "The oldest street in the village is lined with storehouses and barns of blackened larch wood, some of them several centuries old. They are raised on wooden stilts topped with flat stone slabs, which kept the mice from climbing up to the grain." },
+        { ime: "Mountaineers' Cemetery", opis: "About fifty climbers who died on the surrounding peaks are buried beside the parish church, among them the victims of the first ascent of the Matterhorn. Some of the gravestones have ice axes set into them, and one reads simply 'I chose to climb'." },
+        { ime: "Gornergrat", opis: "The cogwheel railway of 1898 climbs to 3,089 meters, onto a ridge with a view of twenty-nine peaks higher than four thousand meters and the immense Gorner Glacier. Get off one station lower and walk to the little lake of Riffelsee, where the Matterhorn is mirrored on a calm morning." }
       ],
       jesti: [
-        { ime: "Raclette du Valais", opis: "Raclette je ovdje kod kuće, a sir se topi uz otvorenu vatru i struže porciju po porciju, dok ne kažete da je dosta." },
-        { ime: "Walliser Teller", opis: "Daska sa sušenom govedinom, sirovom šunkom, slaninom i sirom iz Valaisa, uz raženi kruh s orasima." },
-        { ime: "Cholera", opis: "Pita od krumpira, poriluka, sira i jabuka, koju su prema predaji smislili mještani za vrijeme epidemije u 19. stoljeću, kada su kuhali od onoga što su imali u kući." }
+        { ime: "Raclette du Valais", opis: "Raclette is at home here, and the cheese is melted beside an open fire and scraped off portion by portion until you say you have had enough." },
+        { ime: "Walliser Teller", opis: "A board of air-dried beef, cured ham, bacon and cheese from Valais, with rye bread studded with walnuts." },
+        { ime: "Cholera", opis: "A pie of potatoes, leeks, cheese and apples which, according to tradition, the villagers came up with during an epidemic in the 19th century, when they cooked with whatever they had in the house." }
       ],
       dozivjeti: [
-        { ime: "Vlakom na Gornergrat", opis: "Vožnja traje nešto više od pola sata, a sjednite s desne strane u smjeru vožnje, da biste cijelim putem gledale Matterhorn. Na povratku siđite na postaji Rotenboden, odakle lagana staza pokraj jezerca Riffelsee vodi nizbrdo do Riffelberga.", link: "https://www.gornergrat.ch/en/" },
-        { ime: "Staza pet jezera", opis: "Kružna planinarska staza iznad sela prolazi pokraj pet jezeraca, a u tri se ogleda Matterhorn. Do početka se dolazi podzemnom uspinjačom i žičarom, a hoda se dva do tri sata." }
+        { ime: "By train to the Gornergrat", opis: "The ride takes a little over half an hour, and you should sit on the right-hand side facing the direction of travel so that you can look at the Matterhorn the whole way. On the way back, get off at Rotenboden station, from where an easy path leads downhill past the Riffelsee to Riffelberg.", link: "https://www.gornergrat.ch/en/" },
+        { ime: "Five Lakes Trail", opis: "The circular hiking trail above the village passes five small lakes, and the Matterhorn is reflected in three of them. You reach the start by underground funicular and cable car, and the walk takes two to three hours." }
       ],
       agencije: [
-        { ime: "Zermatt Tourismus", opis: "Službena turistička zajednica, s uredom kraj kolodvora, stanjem staza i žičara te popisom planinskih vodiča.", link: "https://zermatt.swiss/en" }
+        { ime: "Zermatt Tourismus", opis: "The official tourist board, with an office beside the train station, the status of trails and cable cars, and a list of mountain guides.", link: "https://zermatt.swiss/en" }
       ],
-      kada: "Od kraja lipnja do rujna za planinarenje, a nebo je najvedrije rano ujutro. Automobil se ostavlja u Täschu, odakle vlak vozi svakih dvadesetak minuta."
+      kada: "From late June to September for hiking, and the sky is at its clearest early in the morning. You leave your car in Täsch, from where a train runs about every twenty minutes."
     },
     {
       id: "lugano",
       ime: "Lugano",
       vrsta: "grad",
-      sazetak: "Švicarska koja govori talijanski, s palmama, trgovima pod arkadama i jezerom među strmim zelenim brdima.",
+      sazetak: "The Switzerland that speaks Italian, with palm trees, arcaded squares and a lake among steep green hills.",
       prica: [
-        "Lugano leži u kantonu Ticino, južno od Alpa, koji su švicarski saveznici početkom 16. stoljeća osvojili od milanskih vojvoda i tristo godina njime upravljali kao podložnom zemljom. Ravnopravan kanton postao je tek 1803. Zato je ovdje sve talijansko, od jezika i kuhinje do crkava, a švicarski su red, vlakovi i franci."
+        "Lugano lies in the canton of Ticino, south of the Alps, which the Swiss confederates conquered from the dukes of Milan at the beginning of the 16th century and governed as a subject territory for three hundred years. It became a canton with equal rights only in 1803. That is why everything here is Italian, from the language and the cuisine to the churches, while the order, the trains and the francs are Swiss."
       ],
       vidjeti: [
-        { ime: "Crkva Santa Maria degli Angioli", opis: "Skromna franjevačka crkva uz jezero krije najpoznatiju renesansnu fresku u Švicarskoj. Bernardino Luini, sljedbenik Leonarda da Vincija, naslikao je 1529. preko cijelog pregradnog zida Muku i Raspeće s mnoštvom likova." },
-        { ime: "Park Ciani", opis: "Park uz jezero s magnolijama, kamelijama i stoljetnim stablima uredila su u 19. stoljeću braća Ciani, milanski rodoljubi u izgnanstvu. Željezna vrata koja se otvaraju ravno na vodu jedan su od najslikanijih prizora grada." },
-        { ime: "Katedrala San Lorenzo", opis: "Pročelje od bijelog kamena iz 1517. ubraja se među najljepša djela lombardske renesanse u Švicarskoj. S terase pred crkvom, na pola puta između kolodvora i središta, vide se krovovi i jezero." },
-        { ime: "Gandria", opis: "Ribarsko selo zalijepljeno za strmu obalu nema cesta, samo stube i prolaze. Do njega vodi Staza maslina, koja iz Lugana prati obalu kroz maslinike, a natrag se možete vratiti brodom." },
-        { ime: "Morcote", opis: "Selo na vrhu poluotoka ima arkade uz vodu i više od četiristo stuba koje vode do crkve Santa Maria del Sasso i do groblja na terasama, s pogledom na jezero." }
+        { ime: "Church of Santa Maria degli Angioli", opis: "This modest Franciscan church by the lake hides the most famous Renaissance fresco in Switzerland. In 1529 Bernardino Luini, a follower of Leonardo da Vinci, painted the Passion and the Crucifixion with a multitude of figures across the entire rood screen wall." },
+        { ime: "Parco Ciani", opis: "The lakeside park with its magnolias, camellias and century-old trees was laid out in the 19th century by the Ciani brothers, Milanese patriots in exile. The iron gate that opens straight onto the water is one of the most photographed sights in the city." },
+        { ime: "Cathedral of San Lorenzo", opis: "The white stone facade of 1517 ranks among the finest works of the Lombard Renaissance in Switzerland. From the terrace in front of the church, halfway between the train station and the center, you can see the rooftops and the lake." },
+        { ime: "Gandria", opis: "This fishing village, clinging to the steep shore, has no roads, only steps and passageways. The Olive Trail leads to it, following the shore from Lugano through olive groves, and you can come back by boat." },
+        { ime: "Morcote", opis: "The village at the tip of the peninsula has arcades along the water and more than four hundred steps leading up to the church of Santa Maria del Sasso and to the terraced cemetery, with a view of the lake." }
       ],
       jesti: [
-        { ime: "Polenta i brasato", opis: "Polenta kuhana u bakrenom kotlu nad vatrom, s govedinom pirjanom u crnom vinu, jede se u seoskim gostionicama zvanima grotto, za kamenim stolovima pod kestenima." },
-        { ime: "Risotto", opis: "Rižoto s gljivama ili s luganighom, lokalnom svinjskom kobasicom, zaštitni je znak kuhinje Ticina." },
-        { ime: "Merlot del Ticino", opis: "Gotovo svi vinogradi kantona zasađeni su merlotom, od kojega se ovdje radi i neobično bijelo vino. U grottu ga toče u keramičke zdjelice s ručkom." },
-        { ime: "Torta di pane", opis: "Tamni, sočni kolač od starog kruha natopljenog mlijekom, s kakaom, grožđicama i pinjolima." }
+        { ime: "Polenta and brasato", opis: "Polenta cooked in a copper cauldron over the fire, with beef braised in red wine, is eaten in the rustic taverns known as grotti, at stone tables beneath chestnut trees." },
+        { ime: "Risotto", opis: "Risotto with mushrooms or with luganiga, the local pork sausage, is the hallmark of Ticino's cuisine." },
+        { ime: "Merlot del Ticino", opis: "Almost all of the canton's vineyards are planted with Merlot, which is also used here to make an unusual white wine. In a grotto it is poured into little ceramic bowls with a handle." },
+        { ime: "Torta di pane", opis: "A dark, moist cake made of stale bread soaked in milk, with cocoa, raisins and pine nuts." }
       ],
       dozivjeti: [
-        { ime: "Uspinjačom na Monte Brè", opis: "S vrha visokog 925 metara vide se zaljev, grad i u daljini masiv Monte Rose. Na povratku siđite pješice kroz selo Brè, u kojem su po ulicama postavljena umjetnička djela.", link: "https://www.montebre.ch/en/" },
-        { ime: "Brodom po Luganskom jezeru", opis: "Linijski brodovi povezuju Lugano s Gandrijom i Morcoteom, pa se u danu mogu obići oba sela bez automobila." }
+        { ime: "By funicular up Monte Brè", opis: "From the 925-meter summit you can see the bay, the city and, in the distance, the Monte Rosa massif. On the way back, walk down through the village of Brè, where works of art are displayed along the streets.", link: "https://www.montebre.ch/en/" },
+        { ime: "By boat on Lake Lugano", opis: "Scheduled boats link Lugano with Gandria and Morcote, so you can visit both villages in a day without a car." }
       ],
       agencije: [
-        { ime: "Lugano Region", opis: "Službena turistička zajednica grada i okolice, s besplatnim tematskim šetnjama u sezoni i kartom Ticino Ticket za goste.", link: "https://www.luganoregion.com/en" }
+        { ime: "Lugano Region", opis: "The official tourist board of the city and its surroundings, with free themed walks in season and the Ticino Ticket for guests.", link: "https://www.luganoregion.com/en" }
       ],
-      kada: "Od travnja do listopada, a proljeće dolazi nekoliko tjedana ranije nego sjeverno od Alpa, pa kamelije cvatu već u ožujku. U jesen se u selima održavaju svetkovine kestena."
+      kada: "From April to October, and spring arrives several weeks earlier than north of the Alps, so the camellias are already in bloom in March. In the fall the villages hold chestnut festivals."
     },
     {
       id: "montreux",
-      ime: "Montreux i Lavaux",
+      ime: "Montreux and Lavaux",
       vrsta: "regija",
-      sazetak: "Rivijera na Ženevskom jezeru, s dvorcem na stijeni u vodi, terasastim vinogradima i uspomenama na Freddieja Mercuryja i Charlieja Chaplina.",
+      sazetak: "The riviera on Lake Geneva, with a castle on a rock in the water, terraced vineyards and memories of Freddie Mercury and Charlie Chaplin.",
       prica: [
-        "Zaštićen planinama od sjevernih vjetrova, ovaj dio obale ima toliko blagu klimu da uz jezero rastu palme. U 19. stoljeću otkrili su ga engleski putnici, pa su nikli raskošni hoteli i šetnica s cvijećem duga kilometrima. Poslije su ovamo dolazili glazbenici: Montreux Jazz Festival održava se od 1967., a skupina Queen ovdje je imala vlastiti studio."
+        "Sheltered by the mountains from the north winds, this stretch of shore has such a mild climate that palm trees grow beside the lake. English travelers discovered it in the 19th century, and grand hotels sprang up along with a flower-lined promenade that runs for kilometers. Later the musicians came: the Montreux Jazz Festival has been held since 1967, and the band Queen had its own studio here."
       ],
       vidjeti: [
-        { ime: "Dvorac Chillon", opis: "Dvorac savojskih grofova stoji na stijeni u jezeru i nadzirao je put prema prijevoju Veliki Sveti Bernard. U podzemlju je šest godina, do 1536., bio okovan ženevski prior François Bonivard, o kojemu je lord Byron 1816. napisao poemu. Na trećem stupu potražite Byronovo uklesano ime." },
-        { ime: "Kip Freddieja Mercuryja", opis: "Brončani kip pjevača s podignutom šakom stoji na šetnici od 1996. i uvijek je okićen cvijećem. Mercury je u Montreuxu pronašao mir i snimio svoje posljednje pjesme. U zgradi kasina može se besplatno razgledati nekadašnji studio skupine Queen." },
-        { ime: "Terase Lavauxa", opis: "Između Veveyja i Lausanne protežu se vinogradi na suhozidnim terasama, koje su u 11. i 12. stoljeću počeli graditi redovnici. Vinari kažu da grožđe ovdje griju tri sunca: ono na nebu, njegov odsjaj s jezera i toplina koju noću vraća kamen. Od 2007. Lavaux je na UNESCO-ovu popisu." },
-        { ime: "Chaplin's World", opis: "Charlie Chaplin živio je od 1953. do smrti 1977. na imanju iznad Veveyja, kamo se sklonio kada mu je onemogućen povratak u SAD. U kući su sačuvani njegov radni stol i obiteljske snimke, a u studiju se prolazi kroz kulise njegovih filmova." },
-        { ime: "Vevey", opis: "Gradić u kojem je izumljena mliječna čokolada ima veliku tržnicu na trgu uz jezero. Iz vode pred muzejem prehrane strši čelična vilica visoka osam metara, a nasuprot njoj stoji kip Chaplina sa štapom i šeširom." }
+        { ime: "Chillon Castle", opis: "The castle of the counts of Savoy stands on a rock in the lake and controlled the road to the Great St. Bernard Pass. In its dungeon the Genevan prior François Bonivard was held in chains for six years, until 1536, and Lord Byron wrote a poem about him in 1816. Look for Byron's carved name on the third pillar." },
+        { ime: "Freddie Mercury statue", opis: "The bronze statue of the singer with his fist raised has stood on the promenade since 1996 and is always decked with flowers. Mercury found peace in Montreux and recorded his last songs here. In the casino building you can tour Queen's former studio free of charge." },
+        { ime: "The Lavaux terraces", opis: "Between Vevey and Lausanne stretch vineyards on dry-stone terraces, which monks began building in the 11th and 12th centuries. The winegrowers say the grapes here are warmed by three suns: the one in the sky, its reflection off the lake, and the heat that the stone gives back at night. Lavaux has been on the UNESCO list since 2007." },
+        { ime: "Chaplin's World", opis: "Charlie Chaplin lived from 1953 until his death in 1977 on an estate above Vevey, where he took refuge when he was prevented from returning to the USA. His desk and family films are preserved in the house, and in the studio you walk through the sets of his movies." },
+        { ime: "Vevey", opis: "The small town where milk chocolate was invented has a large market on the square beside the lake. A steel fork eight meters tall rises from the water in front of the food museum, and facing it stands a statue of Chaplin with his cane and hat." }
       ],
       jesti: [
-        { ime: "Chasselas", opis: "Suho, nježno bijelo vino Lavauxa kuša se u podrumima vinara u selima Saint-Saphorin, Rivaz i Epesses." },
-        { ime: "Papet vaudois", opis: "Poriluk i krumpir kuhani zajedno dok se ne raspadnu, s debelom dimljenom kobasicom s kupusom, jelo su kantona Vaud." },
-        { ime: "Malakoff", opis: "Kuglice od sira pržene u tijestu, koje su prema predaji donijeli švicarski plaćenici nakon Krimskog rata." },
-        { ime: "Filets de perche", opis: "Prženi fileti grgeča poslužuju se u restoranima uz samu obalu jezera." }
+        { ime: "Chasselas", opis: "The dry, delicate white wine of Lavaux is tasted in the winegrowers' cellars in the villages of Saint-Saphorin, Rivaz and Epesses." },
+        { ime: "Papet vaudois", opis: "Leeks and potatoes cooked together until they fall apart, with a thick smoked cabbage sausage, are the dish of the canton of Vaud." },
+        { ime: "Malakoff", opis: "Cheese balls fried in batter, which according to tradition were brought back by Swiss mercenaries after the Crimean War." },
+        { ime: "Filets de perche", opis: "Fried perch fillets are served in the restaurants right on the lakeshore." }
       ],
       dozivjeti: [
-        { ime: "Šetnja obalom do dvorca Chillon", opis: "Od središta Montreuxa do dvorca hoda se oko 45 minuta cvjetnom šetnicom uz vodu. U dvorcu odvojite barem sat i pol za dvorane, podzemlje i stražarski ophod.", link: "https://www.chillon.ch/en/" },
-        { ime: "Vlakom i pješice kroz Lavaux", opis: "Siđite s vlaka u selu Saint-Saphorin i prošećite označenom stazom među terasama do Rivaza ili Epessesa. Putem su otvoreni vinski podrumi, a jezero vam je stalno pod nogama." },
-        { ime: "Posjet imanju Charlieja Chaplina", opis: "Muzej je u Corsier-sur-Veveyju, a do njega iz Veveyja vozi gradski autobus.", link: "https://www.chaplinsworld.com/" }
+        { ime: "A lakeside walk to Chillon Castle", opis: "The walk from the center of Montreux to the castle takes about 45 minutes along the flower-lined promenade by the water. At the castle, allow at least an hour and a half for the halls, the dungeon and the sentry walk.", link: "https://www.chillon.ch/en/" },
+        { ime: "By train and on foot through Lavaux", opis: "Get off the train in the village of Saint-Saphorin and follow the marked path among the terraces to Rivaz or Epesses. Wine cellars are open along the way, and the lake lies at your feet the whole time." },
+        { ime: "A visit to Charlie Chaplin's estate", opis: "The museum is in Corsier-sur-Vevey, and a city bus runs to it from Vevey.", link: "https://www.chaplinsworld.com/" }
       ],
       agencije: [
-        { ime: "Montreux-Vevey Tourisme", opis: "Službena turistička zajednica rivijere, s vođenim obilascima Lavauxa i tematskim šetnjama posvećenima Freddieju Mercuryju.", link: "https://www.montreuxriviera.com/en" }
+        { ime: "Montreux-Vevey Tourisme", opis: "The official tourist board of the riviera, with guided tours of Lavaux and themed walks dedicated to Freddie Mercury.", link: "https://www.montreuxriviera.com/en" }
       ],
-      kada: "Od svibnja do listopada. U srpnju je jazz festival, a krajem rujna berba u Lavauxu. Gosti uz noćenje dobivaju karticu za besplatan lokalni prijevoz."
+      kada: "From May to October. The jazz festival is in July, and the grape harvest in Lavaux comes at the end of September. Guests receive a card for free local transport with an overnight stay."
     }
   ],
   izvori: [
@@ -313,7 +313,7 @@ window.ATLAS["svicarska"] = {
     { ime: "Gornergrat Bahn", url: "https://www.gornergrat.ch/en/" },
     { ime: "Lugano Region", url: "https://www.luganoregion.com/en" },
     { ime: "Montreux Riviera", url: "https://www.montreuxriviera.com/en/G58/guided-tours-and-excursions" },
-    { ime: "Dvorac Chillon", url: "https://www.chillon.ch/en/" },
-    { ime: "CERN, posjeti", url: "https://visit.cern/" }
+    { ime: "Chillon Castle", url: "https://www.chillon.ch/en/" },
+    { ime: "CERN, visits", url: "https://visit.cern/" }
   ]
 };

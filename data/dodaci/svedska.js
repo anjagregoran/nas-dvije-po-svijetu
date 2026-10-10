@@ -1,130 +1,130 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["svedska"] = {
   kupiti: [
-    { ime: "Dala konjić", opis: "Crveni drveni konjić oslikan cvjetnim uzorkom rezbari se u pokrajini Dalarni i postao je znak cijele Švedske. Pravi je ručno izrezbaren i oslikan u selu Nusnäs, što piše na naljepnici s donje strane." },
-    { ime: "Knäckebröd", opis: "Hrskavi raženi kruh, često u velikim okruglim pločama s rupom u sredini, stoji na svakom švedskom stolu. Kupite ga u supermarketu, gdje je izbor golem, i lako ćete ga ponijeti jer ne stari." },
-    { ime: "Džem od brusnica i bobice hjortron", opis: "Kiselkasti džem od brusnica jede se uz mesne okruglice, a zlatni džem od bobice hjortron uz topli sir i vafle. Oba ćete naći u svakoj trgovini, a domaće inačice na tržnicama." },
-    { ime: "Staklo iz Smålanda", opis: "U šumama Smålanda staklo se puše stoljećima, pa su švedske čaše, vaze i svijećnjaci poznati po čistim oblicima. Kupujte u trgovinama dizajna ili izravno u staklanama ako putujete kroz taj kraj." },
-    { ime: "Träskor", opis: "Drvene klompe s kožnim gornjim dijelom Šveđani nose po vrtu i ljeti po gradu. Udobne i trajne izrađuju mali obrtnici, a prodaju se u trgovinama obuće i rukotvorina." },
-    { ime: "Slani sladić", opis: "Crni bomboni sa salmijakom okus su na koji se treba naviknuti, ali Šveđani bez njih ne mogu. Naberite ih sami na vagu u supermarketu, iz zida s rasutim slatkišima." }
+    { ime: "Dala horse", opis: "The red wooden horse painted with flower patterns is carved in the Dalarna region and has become a symbol of all of Sweden. A real one is hand-carved and hand-painted in the village of Nusnäs, and the sticker underneath says so." },
+    { ime: "Knäckebröd", opis: "Crisp rye bread, often in big round sheets with a hole in the middle, is on every Swedish table. Buy it in a supermarket, where the choice is huge, and it travels well because it never goes stale." },
+    { ime: "Lingonberry and cloudberry jam", opis: "Tart lingonberry jam goes with meatballs, and golden hjortron jam goes with warm cheese and waffles. Both are in every grocery store, and homemade versions turn up at markets." },
+    { ime: "Glass from Småland", opis: "Glass has been blown in the forests of Småland for centuries, and Swedish glasses, vases and candleholders are known for their clean shapes. Buy in design shops, or straight from the glassworks if you travel through that region." },
+    { ime: "Träskor", opis: "Swedes wear wooden clogs with leather uppers in the garden and around town in summer. The comfortable, lasting ones come from small makers and are sold in shoe and craft shops." },
+    { ime: "Salty licorice", opis: "Black candy with salmiak is a taste you have to get used to, but Swedes cannot do without it. Scoop your own by weight at the pick-and-mix wall in a supermarket." }
   ],
   mjesta: {
     "stockholm": {
       dragulji: [
-        { ime: "Vita bergen", opis: "Na brežuljku u istočnom Södermalmu sačuvane su male crvene drvene kuće s vrtovima, u kojima su nekoć živjeli lučki radnici. Tiho je i zeleno, a do najživljih ulica četvrti samo je nekoliko minuta hoda." },
-        { ime: "Rosendals trädgård", opis: "Vrtlarija na otoku Djurgårdenu ima staklenike, voćnjak i kafić u kojem se jede ono što je ubrano na gredicama. Ljeti se sjedi na travi pod jabukama, a do tamo je ugodna šetnja uz vodu." },
-        { ime: "Skogskyrkogården", opis: "Šumsko groblje na jugu grada djelo je dvojice velikih švedskih arhitekata i nalazi se na popisu svjetske baštine. Borova šuma, niski zidovi i veliki brežuljak s brijestovima djeluju smirujuće, a metro staje pred ulazom." }
+        { ime: "Vita bergen", opis: "On a hill in eastern Södermalm, small red wooden houses with gardens survive from the days when harbor workers lived here. It is quiet and green, and the liveliest streets of the neighborhood are only a few minutes away." },
+        { ime: "Rosendals trädgård", opis: "This garden on the island of Djurgården has greenhouses, an orchard and a cafe that serves what was picked from its own beds. In summer you sit on the grass under the apple trees, and the walk there along the water is lovely." },
+        { ime: "Skogskyrkogården", opis: "The Woodland Cemetery in the south of the city is the work of two great Swedish architects and is on the World Heritage list. The pine forest, low walls and big hill topped with elms are deeply calming, and the metro stops at the entrance." }
       ],
       domaci: [
-        { ime: "Fika", opis: "Stanka uz kavu i pecivo s cimetom ili kardamomom u Švedskoj je gotovo obveza, obično oko tri popodne. Sjednite bez žurbe i ne radite ništa drugo, jer je upravo u tome smisao." },
-        { ime: "Kupanje s Långholmena", opis: "Na zelenom otoku usred grada ljudi se ljeti sunčaju na stijenama i skaču u jezero Mälaren. Ponesite ručnik i nešto za jelo pa ostanite do večeri, kad je svjetlo najduže." },
-        { ime: "Subotnji slatkiši", opis: "Šveđani slatkiše tradicionalno jedu subotom, pa tada cijele obitelji pune papirnate vrećice rasutim bombonima u trgovini. Napunite svoju i pojedite je u parku, kao pravo dijete iz susjedstva." }
+        { ime: "Fika", opis: "A break for coffee and a cinnamon or cardamom bun is close to an obligation in Sweden, usually around three in the afternoon. Sit down without hurrying and do nothing else, because that is the whole point." },
+        { ime: "Swimming off Långholmen", opis: "On this green island in the middle of the city, people sunbathe on the rocks in summer and jump into Lake Mälaren. Bring a towel and something to eat and stay into the evening, when the light lasts longest." },
+        { ime: "Saturday candy", opis: "Swedes traditionally eat sweets on Saturdays, so that is when whole families fill paper bags with loose candy at the store. Fill your own and eat it in a park like a kid from the neighborhood." }
       ],
       kupiti: [
-        { ime: "Tkanine s uzorcima", opis: "Švedski tekstil s velikim cvjetnim i geometrijskim uzorcima prodaje se na metre, kao kuhinjske krpe, jastučnice i torbe. Potražite ga u trgovinama dizajna na Östermalmu i u ulicama Södermalma." },
-        { ime: "Delikatese iz tržnice Östermalms saluhall", opis: "U natkrivenoj tržnici od crvene opeke kupuju se marinirani losos, haringe, zreli sir Västerbotten i hrskavi kruh. Zamolite da vam ribu vakuumiraju za put." },
-        { ime: "Rabljena odjeća i dizajn na Södermalmu", opis: "Ulice južno od Folkungagatana pune su trgovina rabljenom odjećom i predmetima iz pedesetih i šezdesetih. Šveđani ondje kupuju posuđe i svjetiljke koje se više ne proizvode." }
+        { ime: "Patterned textiles", opis: "Swedish fabric with big floral and geometric prints is sold by the meter and as dish towels, pillow covers and bags. Look for it in the design shops of Östermalm and on the streets of Södermalm." },
+        { ime: "Delicacies from Östermalms saluhall", opis: "In this red-brick market hall you can buy cured salmon, pickled herring, aged Västerbotten cheese and crispbread. Ask them to vacuum-pack the fish for your trip." },
+        { ime: "Vintage and design on Södermalm", opis: "The streets south of Folkungagatan are full of shops selling secondhand clothing and objects from the 1950s and 1960s. Swedes come here for tableware and lamps that are no longer made." }
       ]
     },
     "goteborg": {
       dragulji: [
-        { ime: "Majorna", opis: "Nekadašnja mornarska četvrt zapadno od središta ima tipične göteborške kuće s prizemljem od kamena i dva drvena kata. Oko trga Mariaplan nižu se pekarnice, kafići i trgovine rabljenom robom u koje zalaze sami susjedi." },
-        { ime: "Skansen Kronan", opis: "Kamena utvrda na vrhu brežuljka iznad Hage ima najljepši pogled na krovove grada. Uspon stubama traje desetak minuta, a gore je najljepše pred zalazak sunca." },
-        { ime: "Otok Brännö", opis: "Na otoke južnog arhipelaga nema automobila, a do njih se dolazi tramvajem do Saltholmena pa trajektom, s istom kartom javnog prijevoza. Na Brännöu vas čekaju drvene kuće, glatke stijene za kupanje i potpuni mir." }
+        { ime: "Majorna", opis: "The old sailors' quarter west of the center has the typical Gothenburg houses with a stone ground floor and two wooden floors above. Around the square Mariaplan you will find bakeries, cafes and secondhand shops used mostly by the neighbors." },
+        { ime: "Skansen Kronan", opis: "This stone fort on a hilltop above Haga has the best view over the city's rooftops. The stairs take about ten minutes, and it is at its prettiest just before sunset." },
+        { ime: "The island of Brännö", opis: "The islands of the southern archipelago have no cars, and you reach them by tram to Saltholmen and then by ferry, all on the same public transport ticket. On Brännö you get wooden houses, smooth rocks for swimming and complete calm." }
       ],
       domaci: [
-        { ime: "Räkmacka", opis: "Sendvič na kojem se kruh jedva vidi ispod brda kozica, jaja i majoneze klasičan je ručak na zapadnoj obali. Naručite ga u kafiću ili u ribljoj tržnici i jedite nožem i vilicom." },
-        { ime: "Golemo pecivo u Hagi", opis: "U glavnoj ulici četvrti Haga peku se peciva s cimetom velika kao tanjur, koja se dijele za stolom. Dođite prijepodne, prije gužve, i sjednite na ulicu." },
-        { ime: "Piknik u Slottsskogenu", opis: "Veliki gradski park ima livade, jezerca i mali besplatni zoološki vrt s losovima i tuljanima. U sunčane dane tamo se seli cijeli grad, s dekom i jednokratnim roštiljem." }
+        { ime: "Räkmacka", opis: "An open sandwich where you can barely see the bread under a mountain of shrimp, egg and mayonnaise is the classic west coast lunch. Order it at a cafe or in the fish market and eat it with a knife and fork." },
+        { ime: "The giant bun in Haga", opis: "On the main street of the Haga quarter they bake cinnamon buns as big as a plate, meant to be shared at the table. Come in the morning before the crowd and sit outside." },
+        { ime: "A picnic in Slottsskogen", opis: "The big city park has meadows, ponds and a small free zoo with elk and seals. On sunny days the whole city moves there with a blanket and a disposable grill." }
       ],
       kupiti: [
-        { ime: "Riba i školjke", opis: "Göteborg živi od mora, pa se dimljene kozice, skuša i marinirane haringe kupuju u ribljoj tržnici Feskekôrka, zgradi nalik crkvi, i u natkrivenoj tržnici Stora Saluhallen. Zamolite da vam zapakiraju za put." },
-        { ime: "Mali dizajn oko Magasinsgatana", opis: "U ulicama oko Magasinsgatana i Vallgatana švedski dizajneri prodaju odjeću, keramiku i stvari za dom. Tu domaći kupuju darove kad žele nešto što nije iz velikog lanca." }
+        { ime: "Fish and shellfish", opis: "Gothenburg lives off the sea, so people buy smoked shrimp, mackerel and pickled herring at Feskekôrka, the fish market shaped like a church, and at the covered Stora Saluhallen. Ask them to pack it for travel." },
+        { ime: "Small design around Magasinsgatan", opis: "On the streets around Magasinsgatan and Vallgatan, Swedish designers sell clothing, ceramics and things for the home. This is where locals shop for a gift that does not come from a big chain." }
       ]
     },
     "malmo": {
       dragulji: [
-        { ime: "Gamla Väster", opis: "Nekoliko ulica zapadno od glavnog trga puno je niskih šarenih kuća iz 19. stoljeća, s ružama uz pročelja. Tu su i male galerije te kafići u dvorištima, a turista gotovo i nema." },
-        { ime: "Slottsträdgården", opis: "Iza dvorca leži zajednički vrt s gredicama povrća i cvijeća koji uređuju volonteri. U vrtnom kafiću ljeti se jede na otvorenom, a pokraj njega stoji stari mlin na vjetar." },
-        { ime: "Möllevångstorget", opis: "Trg u radničkoj četvrti Möllevången svakog je jutra pun štandova s voćem, povrćem i začinima iz cijelog svijeta. Oko njega su zalogajnice u kojima se osjeti koliko je Malmö šaren grad." }
+        { ime: "Gamla Väster", opis: "A few streets west of the main square are full of low, colorful 19th-century houses with roses along their fronts. There are small galleries and courtyard cafes here, and hardly any tourists." },
+        { ime: "Slottsträdgården", opis: "Behind the castle lies a community garden with beds of vegetables and flowers tended by volunteers. In summer you can eat outdoors at the garden cafe, and an old windmill stands next to it." },
+        { ime: "Möllevångstorget", opis: "This square in the working-class Möllevången district fills with fruit, vegetable and spice stalls on weekday and Saturday mornings. The small eateries around it show you just how many cultures share Malmö." }
       ],
       domaci: [
-        { ime: "Hladna kupka na Ribersborgu", opis: "Drveno kupalište na kraju dugog mola radi više od stoljeća, a ljudi se ondje cijele godine znoje u sauni i spuštaju u more. Kupa se bez kostima, u odvojenim dijelovima za žene i muškarce." },
-        { ime: "Falafel", opis: "Falafel je neslužbeno gradsko jelo, toliko raširen da ga domaći jedu za ručak, poslije izlaska i između toga. Pitajte bilo koga gdje je najbolji i dobit ćete strastven odgovor." },
-        { ime: "Zalazak u četvrti Västra hamnen", opis: "U toplim večerima cijeli grad sjedi na drvenim stubama šetnice uz more, kupa se i gleda most prema Danskoj. Ponesite nešto za jelo i ostanite dok sunce ne zađe." }
+        { ime: "A cold dip at Ribersborg", opis: "The wooden bathhouse at the end of a long pier has been open for more than a century, and people sweat in its sauna and lower themselves into the sea all year. You bathe without a swimsuit, in separate sections for women and men." },
+        { ime: "Falafel", opis: "Falafel is the city's unofficial dish, so widespread that locals eat it for lunch, after a night out and in between. Ask anyone where the best one is and you will get a passionate answer." },
+        { ime: "Sunset in Västra hamnen", opis: "On warm evenings the whole city sits on the wooden steps of the seaside promenade, swims and looks at the bridge to Denmark. Bring something to eat and stay until the sun is down." }
       ],
       kupiti: [
-        { ime: "Spettekaka", opis: "Visoki šuplji kolač od jaja, šećera i krumpirova brašna peče se na ražnju i zaštićeni je proizvod pokrajine Skåne. Kupite ga u slastičarnici, zapakiranog u celofan, i režite ga pilicom jer se lako mrvi." },
-        { ime: "Skånski senf", opis: "Krupno mljeveni, slatkasto ljuti senf iz ove pokrajine jede se uz božićnu šunku i kobasice. Naći ćete ga u svakom supermarketu i u trgovinama s domaćim proizvodima." },
-        { ime: "Dizajn u Davidshallu", opis: "Oko trga Davidshallstorg okupile su se male trgovine švedskom modom, keramikom i rabljenim namještajem. To je četvrt u kojoj domaći provode subotnje prijepodne." }
+        { ime: "Spettekaka", opis: "This tall, hollow cake of eggs, sugar and potato flour is baked on a spit and is a protected product of the Skåne region. Buy it at a pastry shop wrapped in cellophane, and cut it with a small saw blade because it crumbles easily." },
+        { ime: "Skåne mustard", opis: "The coarse, sweet and hot mustard from this region is eaten with Christmas ham and sausages. You will find it in every supermarket and in shops with local products." },
+        { ime: "Design in Davidshall", opis: "Small shops with Swedish fashion, ceramics and secondhand furniture have gathered around the square Davidshallstorg. It is the neighborhood where locals spend their Saturday mornings." }
       ]
     },
     "uppsala": {
       dragulji: [
-        { ime: "Linnéov Hammarby", opis: "Ljetno imanje velikog botaničara, desetak kilometara od grada, sačuvano je s njegovim namještajem i vrtom. Zidovi spavaće sobe oblijepljeni su botaničkim crtežima, a ljeti onamo vozi autobus." },
-        { ime: "Staza Eriksleden", opis: "Stara hodočasnička staza vodi od katedrale kroz polja do kraljevskih humaka u Gamla Uppsali. Hoda se oko sat i pol po ravnom, a natrag se možete vratiti autobusom." },
-        { ime: "Stadsträdgården i obala Fyrisa", opis: "Gradski park uz rijeku ljeti je pun studenata s dekama, a staza uz vodu vodi dalje prema jugu, pokraj starih crpnih postaja. Krenite od središta nizvodno i brzo ćete ostati same." }
+        { ime: "Linnaeus' Hammarby", opis: "The great botanist's summer estate, about ten kilometers from town, is preserved with his furniture and his garden. The bedroom walls are papered with botanical drawings, and a bus runs there in summer." },
+        { ime: "The Eriksleden trail", opis: "This old pilgrim path leads from the cathedral through fields to the royal burial mounds at Gamla Uppsala. It is about an hour and a half of flat walking, and you can take a bus back." },
+        { ime: "Stadsträdgården and the banks of the Fyris", opis: "The city park by the river is full of students on blankets in summer, and the riverside path continues south from there. Start in the center, head downstream, and you will soon have it to yourselves." }
       ],
       domaci: [
-        { ime: "Biciklom posvuda", opis: "U gradu punom studenata bicikl je glavno prijevozno sredstvo, a staze vode do svakog kutka. Unajmite ga na dan i obiđite i Gamla Uppsalu i botanički vrt bez čekanja autobusa." },
-        { ime: "Ručak u studentskoj naciji", opis: "Studentske udruge nazvane po švedskim pokrajinama stoljećima vode vlastite kafiće i pubove u lijepim starim zgradama. Mnoge su za ručak i fiku otvorene svima, pa provjerite na vratima." },
-        { ime: "Fika u staroj slastičarnici", opis: "U ulicama ispod katedrale još rade slastičarnice s plišanim naslonjačima i porculanskim šalicama, u kojima studenti uče satima. Naručite kolač princeze sa zelenim marcipanom i ostanite koliko želite." }
+        { ime: "Everywhere by bike", opis: "In a town full of students the bicycle is the main way of getting around, and paths reach every corner. Rent one for the day and you can see both Gamla Uppsala and the botanical garden without waiting for a bus." },
+        { ime: "Lunch at a student nation", opis: "Student societies named after Swedish provinces have run their own cafes and pubs in handsome old buildings for centuries. Many are open to everyone for lunch and fika, so check at the door." },
+        { ime: "Fika in an old pastry shop", opis: "In the streets below the cathedral there are still pastry shops with plush armchairs and porcelain cups, where students study for hours. Order a slice of princess cake with its green marzipan and stay as long as you like." }
       ],
       kupiti: [
-        { ime: "Botanički otisci i sjeme", opis: "Grad u kojem je Linné razvrstao biljni svijet prodaje lijepe botaničke crteže, bilježnice i sjeme njegovih omiljenih cvjetova. Potražite ih u trgovini Linnéova vrta i muzeja." },
-        { ime: "Medovina iz Gamla Uppsale", opis: "Uz vikinške humke toči se medovina iz rogova, a prodaje se i u bocama. Budući da je alkoholna, bocu za ponijeti tražite u državnoj trgovini Systembolaget." },
-        { ime: "Rabljene knjige", opis: "Sveučilišni grad ima antikvarijate s policama do stropa, u kojima se nađe i starih zemljovida i grafika. Najviše ih je u ulicama oko sveučilišta i katedrale." }
+        { ime: "Botanical prints and seeds", opis: "The town where Linnaeus classified the plant world sells beautiful botanical drawings, notebooks and seeds of his favorite flowers. Look in the shop of the Linnaeus garden and museum." },
+        { ime: "Mead from Gamla Uppsala", opis: "Beside the Viking mounds mead is poured from drinking horns, and it is sold by the bottle as well. Since it is alcoholic, look for a bottle to take home at the state Systembolaget store." },
+        { ime: "Secondhand books", opis: "A university town has antiquarian bookshops with shelves up to the ceiling, where you can also find old maps and prints. Most of them are on the streets around the university and the cathedral." }
       ]
     },
     "visby": {
       dragulji: [
-        { ime: "Östergravar", opis: "S vanjske, kopnene strane gradskih zidina pruža se široki travnati jarak kojim se može prošetati uz kule. Odatle se zidine vide u punoj veličini, a ljudi je mnogo manje nego u gradu." },
-        { ime: "Högklint", opis: "Vapnenačka litica nekoliko kilometara južno od grada pada ravno u more i gleda na Visby izdaleka. Dođite biciklom ili autobusom i ostanite do zalaska sunca." },
-        { ime: "Botanički vrt", opis: "Vrt uz sjeverni dio zidina skriva ruševinu crkve obraslu bršljanom, stare ruže i stabla koja inače ne rastu ovako sjeverno. Ulaz je slobodan, a klupe su savršene za predah od kaldrme." }
+        { ime: "Östergravar", opis: "Along the outer, landward side of the town wall runs a wide grassy moat where you can stroll beside the towers. From there you see the wall at its full size, with far fewer people than inside town." },
+        { ime: "Högklint", opis: "This limestone cliff a few kilometers south of town drops straight into the sea and looks back at Visby from a distance. Come by bike or bus and stay for the sunset." },
+        { ime: "The botanical garden", opis: "The garden by the northern stretch of the wall hides an ivy-covered church ruin, old roses and trees that do not normally grow this far north. Entry is free, and the benches are perfect for a rest from the cobblestones." }
       ],
       domaci: [
-        { ime: "Palačinka sa šafranom", opis: "Gotlandski kolač od riže, šafrana i badema jede se s tučenim vrhnjem i džemom od bobice salmbär, koja raste gotovo samo na ovom otoku. Naći ćete ga u svakom kafiću unutar zidina." },
-        { ime: "Zalazak uz more", opis: "Navečer se svi spuštaju na šetnicu uz obalu i travnjak kod Barutne kule gledati kako sunce tone u Baltik. Ponesite piće i sjednite na travu s ostalima." },
-        { ime: "Biciklom do plaže", opis: "Otok je ravan i stvoren za bicikl, pa se na kupanje odlazi na dva kotača, do Snäcka na sjeveru ili do pješčane Tofte na jugu. Bicikle iznajmljuju uz luku." }
+        { ime: "Saffron pancake", opis: "Gotland's baked pudding of rice, saffron and almonds is eaten with whipped cream and jam made from salmbär, a berry that grows almost only on this island. Every cafe inside the walls serves it." },
+        { ime: "Sunset by the sea", opis: "In the evening everyone drifts down to the shoreline promenade and the lawn by the Powder Tower to watch the sun sink into the Baltic. Bring a drink and sit on the grass with the rest." },
+        { ime: "By bike to the beach", opis: "The island is flat and made for cycling, so people ride to the water, to Snäck in the north or to sandy Tofta in the south. Bikes are rented near the harbor." }
       ],
       kupiti: [
-        { ime: "Krzno i vuna gotlandske ovce", opis: "Sive kovrčave gotlandske ovce daju meka krzna i vunu od koje se pletu rukavice i papuče. Kupujte u trgovinama unutar zidina koje navode farmu s koje krzno potječe." },
-        { ime: "Džem od bobice salmbär", opis: "Tamnoplava bobica nalik kupini gotlandski je ponos i u džemu se jede uz palačinku sa šafranom. Staklenku ćete naći u trgovinama s otočnim proizvodima i na ljetnim tržnicama." },
-        { ime: "Keramika otočnih radionica", opis: "Na Gotlandu radi mnogo lončara, a njihove su zdjele i šalice u bojama vapnenca i mora. Dio ih prodaje u Visbyju, a dio u radionicama po selima, koje su ljeti otvorene." }
+        { ime: "Gotland sheepskin and wool", opis: "The gray, curly Gotland sheep give soft skins and wool that is knitted into mittens and slippers. Buy in shops inside the walls that name the farm the skin came from." },
+        { ime: "Salmbär jam", opis: "This dark blue berry, similar to a blackberry, is Gotland's pride, and the jam goes with saffron pancake. You will find jars in shops with island products and at summer markets." },
+        { ime: "Ceramics from island studios", opis: "Many potters work on Gotland, and their bowls and cups come in the colors of limestone and sea. Some sell in Visby and others in village studios that open in summer." }
       ]
     },
     "laponija": {
       dragulji: [
-        { ime: "Nikkaluokta", opis: "Samijsko seoce na kraju ceste, oko sat vožnje od Kirune, polazište je staze prema Kebnekaiseu, najvišem švedskom vrhu. I bez planinarenja vrijedi doći zbog pogleda na doline i ručka od sobovine." },
-        { ime: "Crkva u Jukkasjärviju", opis: "Crvena drvena crkva iz 17. stoljeća stoji nedaleko od ledenog hotela, a većina gostiju prođe pokraj nje. Unutra je živopisna oltarna slika koja prikazuje Samije i orgulje ukrašene sobovim rogom." },
-        { ime: "Kanjon Abiska", opis: "Odmah iza turističke postaje rijeka je usjekla uski kanjon uz koji vodi lagana staza. Pogled puca na jezero Torneträsk i na Lapporten, usjek u obliku slova U koji je simbol Laponije." }
+        { ime: "Nikkaluokta", opis: "This Sami hamlet at the end of the road, about an hour's drive from Kiruna, is the trailhead for Kebnekaise, Sweden's highest peak. Even without hiking it is worth coming for the valley views and a reindeer lunch." },
+        { ime: "Jukkasjärvi church", opis: "The red wooden church from the 17th century stands not far from the ice hotel, and most guests walk right past it. Inside there is a vivid altarpiece showing Sami people and an organ decorated with reindeer antler." },
+        { ime: "Abisko canyon", opis: "Right behind the tourist station the river has cut a narrow canyon, with an easy trail along its edge. The view opens to Lake Torneträsk and to Lapporten, the U-shaped gap that is the symbol of Lapland." }
       ],
       domaci: [
-        { ime: "Kava kuhana na vatri", opis: "Na sjeveru se kava kuha u čađavom kotliću nad vatrom, a u šalicu se stavlja kockica sira koja u njoj omekša. Uz to se žvače sušena sobovina, pa prihvatite kad vam vodič ponudi." },
-        { ime: "Ribolov na ledu", opis: "Zimi se na zaleđenim jezerima buši rupa i sjedi na sobovu krznu s kratkim štapom u ruci. Strpljenje je važnije od ulova, a organizirani izleti polaze iz Kirune i Abiska." },
-        { ime: "Sauna pa snijeg", opis: "Gotovo svaka kuća i koliba ima saunu, iz koje se izlazi ravno u snijeg ili u rupu u ledu. Probajte barem jednom, jer se poslije toga spava bolje nego ikad." }
+        { ime: "Coffee boiled over the fire", opis: "In the north coffee is boiled in a sooty kettle over an open fire, and a cube of cheese goes into the cup to soften. Dried reindeer meat is chewed alongside, so say yes when your guide offers." },
+        { ime: "Ice fishing", opis: "In winter people drill a hole in a frozen lake and sit on a reindeer skin with a short rod in hand. Patience matters more than the catch, and guided outings leave from Kiruna and Abisko." },
+        { ime: "Sauna, then snow", opis: "Almost every house and cabin has a sauna, and people step out of it straight into the snow or a hole in the ice. Try it at least once, because you will sleep better afterward than you ever have." }
       ],
       kupiti: [
-        { ime: "Drvena šalica guksi", opis: "Šalica izrezbarena iz brezova čvora nosi se obješena o pojas i služi cijeli život. Tražite oznaku Sámi Duodji i kupujte u trgovinama samijskih obrtnika u Kiruni i Jukkasjärviju." },
-        { ime: "Suovas", opis: "Lagano soljena i dimljena sobovina peče se na tavi i jede u tankom kruhu. Vakuumiranu je možete kupiti u trgovinama u Kiruni i ponijeti kući." },
-        { ime: "Narukvice od kositrene žice", opis: "Pletene narukvice od kože soba i tanke kositrene žice stari su samijski nakit. Prave se izrađuju ručno i kopčaju gumbom od sobova roga." }
+        { ime: "The guksi wooden cup", opis: "A cup carved from birch burl hangs from the belt and lasts a lifetime. Look for the Sámi Duodji mark and buy from Sami craftspeople's shops in Kiruna and Jukkasjärvi." },
+        { ime: "Suovas", opis: "Lightly salted and smoked reindeer meat is fried in a pan and eaten in thin flatbread. You can buy it vacuum-packed in Kiruna's shops and take it home." },
+        { ime: "Pewter thread bracelets", opis: "Braided bracelets of reindeer leather and fine pewter wire are old Sami jewelry. Real ones are made by hand and fasten with a button of reindeer antler." }
       ]
     },
     "dalarna": {
       dragulji: [
-        { ime: "Tällberg", opis: "Selo na padini iznad jezera Siljan sastoji se od crvenih brvnara, ograda od kosih motki i starih jabuka. Prošećite seoskim putovima do obale, gdje je malo kupalište s molom." },
-        { ime: "Fryksås", opis: "Nekadašnji ljetni pašnjak visoko iznad Orse sačuvao je sive drvene kolibe i pogled koji seže preko jezera i šuma. U kolibama se ljeti poslužuju vafli i sir od sirutke." },
-        { ime: "Styggforsen", opis: "Slap kod sela Boda ruši se u klanac nastao udarom meteorita koji je oblikovao cijeli kraj oko Siljana. Kružna staza kroz šumu traje manje od sata." }
+        { ime: "Tällberg", opis: "This village on a slope above Lake Siljan is made up of red log houses, slanted pole fences and old apple trees. Walk the village lanes down to the shore, where there is a small bathing place with a pier." },
+        { ime: "Fryksås", opis: "A former summer pasture high above Orsa has kept its gray wooden huts and a view that reaches across lakes and forest. In summer the huts serve waffles and whey cheese." },
+        { ime: "Styggforsen", opis: "The waterfall near the village of Boda drops into a gorge created by the meteorite impact that shaped the whole Siljan area. The loop trail through the forest takes less than an hour." }
       ],
       domaci: [
-        { ime: "Ivanjsko slavlje", opis: "Nigdje se sredina ljeta ne slavi tako predano kao oko Siljana, gdje se u svakom selu podiže okićeni stup i pleše u narodnim nošnjama. Ako ste tu potkraj lipnja, pridružite se kolu i pletite vijenac od poljskog cvijeća." },
-        { ime: "Kupanje u jezeru", opis: "Ljeti se dan završava skokom s mola u Siljan ili u neko od manjih šumskih jezera, često poslije saune. Voda je meka i tamna, a plaže su male i gotovo prazne." },
-        { ime: "Falukorv", opis: "Debela kobasica iz Faluna, nastala kao hrana rudara, jede se pržena s pireom ili pečena s gorušicom i sirom. Naći ćete je na svakom jelovniku domaće kuhinje." }
+        { ime: "Midsummer", opis: "Nowhere is midsummer celebrated as wholeheartedly as around Siljan, where every village raises a decorated pole and dances in folk costume. If you are here in late June, join the ring dance and weave a wreath of wildflowers." },
+        { ime: "Swimming in the lake", opis: "In summer the day ends with a jump off the pier into Siljan or one of the smaller forest lakes, often after a sauna. The water is soft and dark, and the beaches are small and nearly empty." },
+        { ime: "Falukorv", opis: "The thick sausage from Falun began as miners' food and is eaten fried with mashed potatoes or baked with mustard and cheese. You will find it on every menu of home cooking." }
       ],
       kupiti: [
-        { ime: "Dala konjić iz Nusnäsa", opis: "U selu Nusnäs kod More dvije radionice rezbare i oslikavaju konjiće pred posjetiteljima. Kupite ga ondje, a možete uzeti i neobojenog pa ga oslikati sami." },
-        { ime: "Nož iz More", opis: "Jednostavni noževi s crvenom drškom kuju se u Mori više od stoljeća i svaki ih Šveđanin ima u kolibi. Prodaju se u trgovinama alata i opreme za prirodu, a u prtljazi moraju ići u predani kovčeg." },
-        { ime: "Hrskavi kruh iz Leksanda", opis: "Veliki okrugli raženi kruh peče se u Leksandu po obiteljskom receptu i poznat je po cijeloj zemlji. U prodavaonici uz pekaru naći ćete i vrste kojih nema u supermarketima." }
+        { ime: "A Dala horse from Nusnäs", opis: "In the village of Nusnäs near Mora, two workshops carve and paint the horses in front of visitors. Buy one there, or take an unpainted one and decorate it yourself." },
+        { ime: "A knife from Mora", opis: "Simple knives with a red handle have been made in Mora for more than a century, and every Swede has one at the cabin. They are sold in hardware and outdoor shops, and they must go in checked luggage." },
+        { ime: "Crispbread from Leksand", opis: "The big round rye crispbread is baked in Leksand to a family recipe and is known across the country. The shop by the bakery carries kinds you will not see in supermarkets." }
       ]
     }
   }

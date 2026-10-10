@@ -1,321 +1,321 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["vijetnam"] = {
   id: "vijetnam",
-  ime: "Vijetnam",
-  regija: "Jugoistočna Azija",
-  sazetak: "Duga, uska zemlja u obliku slova S, u kojoj se doručkuje juha, kava se pije sa žumanjkom, a svaka pokrajina ima svoje rezance.",
+  ime: "Vietnam",
+  regija: "Southeast Asia",
+  sazetak: "A long, narrow country shaped like the letter S, where breakfast is a bowl of soup, coffee is drunk with egg yolk and every province has noodles of its own.",
   uvod: [
-    "Vijetnam se proteže više od 1600 kilometara od kineske granice do delte Mekonga, pa se na jednom putovanju promijene klima, narječje i kuhinja. Sjever je suzdržan i tradicionalan, s četiri godišnja doba, središnji dio čuva carske i trgovačke gradove, a jug je topao, glasan i poduzetan.",
-    "Povijest zemlje priča je o upornosti. Oko tisuću godina Vijetnamom je vladala Kina, sve do 938. godine, kada je vojskovođa Ngo Quyen pobijedio kinesku flotu na rijeci Bach Dang. Slijedila su stoljeća domaćih dinastija, zatim francuska kolonijalna vlast od sredine 19. stoljeća, pobjeda nad Francuzima kod Dien Bien Phua 1954., podjela zemlje i dugi rat koji je završio 30. travnja 1975. ulaskom sjevernovijetnamskih tenkova u Saigon.",
-    "Današnji Vijetnam mlada je i užurbana zemlja u kojoj se gospodarstvo otvorilo reformama Doi Moi 1986. godine. Ratne rane ovdje se ne skrivaju, ali ćete brzo primijetiti da ljudi gledaju naprijed, a strance dočekuju s iskrenom znatiželjom."
+    "Vietnam stretches for more than 1,600 kilometers from the Chinese border to the Mekong Delta, so the climate, the dialect and the cuisine all change over the course of a single trip. The north is reserved and traditional, with four seasons, the central part holds the imperial and merchant cities, and the south is warm, loud and enterprising.",
+    "The history of the country is a story of persistence. China ruled Vietnam for about a thousand years, right up to the year 938, when the commander Ngo Quyen defeated the Chinese fleet on the Bach Dang River. Centuries of native dynasties followed, then French colonial rule from the middle of the 19th century, the victory over the French at Dien Bien Phu in 1954, the division of the country and a long war that ended on April 30, 1975, when North Vietnamese tanks rolled into Saigon.",
+    "Today's Vietnam is a young and bustling country whose economy opened up with the Doi Moi reforms of 1986. The wounds of war are not hidden here, but you will quickly notice that people look ahead and welcome foreigners with sincere curiosity."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Zemlja je toliko duga da nema jednog savršenog razdoblja. Za put od sjevera do juga najbolji su ožujak i travanj. Sjever je najugodniji u jesen i proljeće, središnji dio od veljače do kolovoza, a jug je suh od prosinca do travnja. Središnju obalu od rujna do studenoga pogađaju tajfuni i poplave." },
-    { k: "Valuta", v: "Vijetnamski dong (VND), s puno nula: novčanice idu do 500.000 donga i lako ih je zamijeniti jer su sličnih boja. Na svima je lik Ho Ši Mina." },
-    { k: "Kretanje", v: "Velike udaljenosti najbolje je preletjeti. Vlak Ujedinjenja vozi cijelom dužinom zemlje, a najljepša mu je dionica uz more između Huea i Da Nanga. U gradovima se taksi i mopedi naručuju aplikacijom Grab." },
-    { k: "Napojnica", v: "Nije dio tradicije i u uličnim zalogajnicama se ne očekuje. Vodičima, vozačima i posadi broda u zaljevu Ha Long napojnica se ipak daje jer im je važan dio zarade." }
+    { k: "When to go", v: "The country is so long that there is no single perfect season. For a trip from north to south, March and April are best. The north is most pleasant in fall and spring, the central part from February to August, and the south is dry from December to April. The central coast is hit by typhoons and floods from September to November." },
+    { k: "Currency", v: "Vietnamese dong (VND), with lots of zeros: banknotes go up to 500,000 dong and are easy to mix up because their colors are similar. All of them carry the portrait of Ho Chi Minh." },
+    { k: "Getting around", v: "Long distances are best covered by plane. The Reunification Express runs the whole length of the country, and its most beautiful stretch follows the sea between Hue and Da Nang. In the cities, taxis and motorbikes are ordered through the Grab app." },
+    { k: "Tipping", v: "It is not part of the tradition and is not expected at street food stalls. Guides, drivers and boat crews in Ha Long Bay are tipped all the same, because tips are an important part of their earnings." }
   ],
   hrana: [
-    { ime: "Phở", opis: "Juha od dugo kuhanog goveđeg temeljca s plosnatim rižinim rezancima, tankim ploškama govedine i svježim začinskim biljem.", prica: "Nastala je na sjeveru početkom 20. stoljeća, u okolici Nam Dinha i Hanoija, a o njezinu podrijetlu još se raspravlja: jedni u njoj vide utjecaj francuskog pot-au-feua, drugi kineskih rezanaca. Izgovara se otprilike „fa“ s upitnim tonom. Na sjeveru se jede gotovo bez dodataka, a na jugu uz nju stiže cijeli tanjur bilja, klica i umaka." },
-    { ime: "Bánh mì", opis: "Hrskavi baget punjen paštetom, hladnim narescima ili pečenim mesom, ukiseljenom mrkvom i rotkvom, korijandrom i čilijem.", prica: "Kruh su donijeli Francuzi, a Vijetnamci su ga učinili lakšim dodavši rižino brašno. Sendvič kakav danas poznajemo nastao je u Saigonu pedesetih godina 20. stoljeća. Riječ bánh mì ušla je 2011. u Oxfordski rječnik engleskog jezika." },
-    { ime: "Bún chả", opis: "Svinjske polpete i ploške potrbušine s roštilja u toplom slatko-kiselom umaku, uz hladne rižine rezance i brdo zelenja.", prica: "Hanojski ručak, koji se prepoznaje po dimu s roštilja na pločniku oko podneva. Proslavili su ga 2016. Barack Obama i Anthony Bourdain, koji su ga jeli na plastičnim stolcima u jednoj hanojskoj zalogajnici, a njihov je stol danas pod staklom." },
-    { ime: "Gỏi cuốn", opis: "Svježe rolice od rižina papira s kozicama, svinjetinom, rezancima i biljem, koje se umaču u umak od kikirikija ili riblji umak.", prica: "Ne prže se, pa su lagan zalogaj za vruće dane, osobito na jugu. Kroz prozirni rižin papir trebaju se vidjeti ružičaste polovice kozica, po čemu se prepoznaje pažljivo smotana rolica." },
-    { ime: "Bánh xèo", opis: "Tanka, hrskava palačinka od rižina brašna i kurkume, punjena kozicama, svinjetinom i klicama.", prica: "Ime oponaša zvuk tijesta koje zacvrči kad dotakne vrelu tavu. Ne jede se priborom: komad palačinke zamota se u list salate ili rižin papir s biljem i umoči u umak." },
-    { ime: "Bún bò Huế", opis: "Ljuta juha od govedine i svinjetine s debelim okruglim rezancima, limunskom travom i fermentiranom pastom od kozica.", prica: "Potječe iz carskog grada Huea i snažnija je i ljuća od phoa. Tamni kockasti komadi u zdjeli su zgrušana svinjska krv, koju možete ostaviti sa strane ako vam ne prija." },
-    { ime: "Cà phê sữa đá", opis: "Jaka kava robusta koja kaplje kroz mali metalni filter na sloj zaslađenog kondenziranog mlijeka, a zatim se prelije preko leda.", prica: "Kavu su donijeli Francuzi u 19. stoljeću, a kondenzirano mlijeko zamijenilo je svježe kojeg nije bilo. Vijetnam je danas drugi najveći izvoznik kave na svijetu, odmah iza Brazila." },
-    { ime: "Cà phê trứng", opis: "Kava s gustom, slatkom kremom od tučenog žumanjka, koja okusom podsjeća na tiramisu.", prica: "Osmislio ju je 1946. u Hanoiju barmen Nguyen Van Giang kada je u gradu nedostajalo mlijeka. Njegova obitelj i danas vodi kavanu Giang u Starom gradu. Šalica se poslužuje u zdjelici tople vode da krema ostane topla." },
-    { ime: "Nước mắm", opis: "Riblji umak od inćuna i soli koji mjesecima fermentira u drvenim bačvama, temelj gotovo svakog jela.", prica: "Najcjenjeniji dolazi s otoka Phu Quoc i iz Phan Thieta. Razrijeđen limetom, šećerom, češnjakom i čilijem postaje nước chấm, umak u koji se umače sve, od rolica do palačinki." }
+    { ime: "Phở", opis: "A soup of long-simmered beef stock with flat rice noodles, thin slices of beef and fresh herbs.", prica: "It was born in the north at the beginning of the 20th century, around Nam Dinh and Hanoi, and its origin is still debated: some see in it the influence of the French pot-au-feu, others that of Chinese noodles. It is pronounced roughly “fuh”, with a questioning tone. In the north it is eaten almost without garnishes, while in the south it arrives with a whole plate of herbs, bean sprouts and sauces." },
+    { ime: "Bánh mì", opis: "A crisp baguette filled with pâté, cold cuts or roast meat, pickled carrot and radish, cilantro and chili.", prica: "The bread was brought by the French, and the Vietnamese made it lighter by adding rice flour. The sandwich as we know it today was created in Saigon in the 1950s. The word bánh mì entered the Oxford English Dictionary in 2011." },
+    { ime: "Bún chả", opis: "Grilled pork patties and slices of pork belly in a warm sweet-and-sour sauce, with cold rice noodles and a mound of greens.", prica: "A Hanoi lunch, which you can spot by the grill smoke on the sidewalk around noon. It was made famous in 2016 by Barack Obama and Anthony Bourdain, who ate it on plastic stools in a Hanoi eatery, and their table is now kept under glass." },
+    { ime: "Gỏi cuốn", opis: "Fresh rice paper rolls with shrimp, pork, noodles and herbs, dipped in peanut sauce or fish sauce.", prica: "They are not fried, which makes them a light bite for hot days, especially in the south. The pink halves of the shrimp should show through the translucent rice paper, which is how you recognize a carefully rolled roll." },
+    { ime: "Bánh xèo", opis: "A thin, crisp pancake of rice flour and turmeric, filled with shrimp, pork and bean sprouts.", prica: "The name imitates the sound of the batter sizzling as it hits the hot pan. It is not eaten with cutlery: a piece of the pancake is wrapped in a lettuce leaf or rice paper with herbs and dipped in sauce." },
+    { ime: "Bún bò Huế", opis: "A spicy beef and pork soup with thick round noodles, lemongrass and fermented shrimp paste.", prica: "It comes from the imperial city of Hue and is bolder and hotter than pho. The dark cubes in the bowl are congealed pig's blood, which you can leave to one side if it is not to your taste." },
+    { ime: "Cà phê sữa đá", opis: "Strong robusta coffee that drips through a small metal filter onto a layer of sweetened condensed milk and is then poured over ice.", prica: "Coffee was brought by the French in the 19th century, and condensed milk stood in for the fresh milk that was not available. Vietnam is now the second largest coffee exporter in the world, right behind Brazil." },
+    { ime: "Cà phê trứng", opis: "Coffee topped with a thick, sweet cream of whipped egg yolk that tastes a little like tiramisu.", prica: "It was devised in Hanoi in 1946 by the bartender Nguyen Van Giang, at a time when the city was short of milk. His family still runs Cafe Giang in the Old Quarter. The cup is served in a small bowl of warm water so that the cream stays warm." },
+    { ime: "Nước mắm", opis: "A fish sauce of anchovies and salt that ferments for months in wooden barrels, the foundation of almost every dish.", prica: "The most prized comes from the island of Phu Quoc and from Phan Thiet. Thinned with lime, sugar, garlic and chili it becomes nước chấm, the sauce into which everything is dipped, from rolls to pancakes." }
   ],
   obicaji: [
-    { ime: "Tết", opis: "Lunarna Nova godina, najvažniji blagdan u godini, kada se cijela zemlja vraća kući obitelji. Kuće se ukrašavaju granama rascvjetane breskve na sjeveru i žutim cvjetovima marelice na jugu, djeca dobivaju novac u crvenim omotnicama, a jede se bánh chưng, četvrtasti kolač od ljepljive riže kuhan u lišću.", gdje: "Potkraj siječnja ili u veljači, ovisno o mjesečevu kalendaru. Tjedan prije blagdana cvjetne tržnice u Hanoiju i Ho Ši Minu najljepše su, a tijekom samog Tết mnogi su restorani i trgovine zatvoreni." },
-    { ime: "Múa rối nước, lutkarstvo na vodi", opis: "Umjetnost stara oko tisuću godina, nastala na poplavljenim rižinim poljima delte Crvene rijeke. Lutkari stoje do pojasa u vodi iza zastora od bambusa i dugim motkama pod površinom pokreću drvene lutke zmajeva, ribara i bivola.", gdje: "U kazalištu Thang Long uz jezero Hoan Kiem u Hanoiju predstave se održavaju svakodnevno." },
-    { ime: "Áo dài", opis: "Duga, uska tunika s visokim prorezima koja se nosi preko širokih svilenih hlača. Današnji kroj oblikovan je tridesetih godina 20. stoljeća, a nose ga srednjoškolke kao bijelu uniformu, mladenke i žene za blagdane.", gdje: "U Hoi Anu i Hueu krojači ga šivaju po mjeri za dan ili dva, a ponedjeljkom ujutro vidjet ćete učenice u bijelom na biciklima." },
-    { ime: "Štovanje predaka", opis: "Gotovo svaka kuća, trgovina i restoran ima oltar s fotografijama preminulih članova obitelji, voćem i mirisnim štapićima. Vjeruje se da preci i dalje bdiju nad obitelji, pa se na godišnjicu smrti priprema svečani ručak. Na ulici ćete vidjeti i spaljivanje papirnatog novca i predmeta koji se tako šalju na onaj svijet.", gdje: "Prvog i petnaestog dana lunarnog mjeseca pagode su pune, a u hanojskoj ulici Hang Ma prodaju se papirnati darovi za pretke." },
-    { ime: "Nhã nhạc, dvorska glazba", opis: "Svečana glazba koja je pratila krunidbe, žrtvovanja i prijeme na dvoru dinastije Nguyen. UNESCO ju je priznao kao prvu vijetnamsku nematerijalnu baštinu čovječanstva.", gdje: "U kraljevskom kazalištu Duyet Thi Duong unutar carskog grada u Hueu." },
-    { ime: "Đờn ca tài tử", opis: "Komorna glazba juga u kojoj mala skupina prijatelja uz žičana glazbala pjeva i improvizira, obično navečer nakon posla. UNESCO ju je uvrstio na popis nematerijalne baštine 2013. godine.", gdje: "U voćnjacima i obiteljskim kućama u delti Mekonga, često kao dio posjeta otocima kod My Thoa i Vinh Longa." },
-    { ime: "Noć lampiona", opis: "Svake večeri punog mjeseca, četrnaestog dana lunarnog mjeseca, stari grad Hoi An gasi električnu rasvjetu i ostaje osvijetljen samo svilenim lampionima i svijećama koje se puštaju niz rijeku.", gdje: "U Hoi Anu jednom mjesečno, a najsvečanije za Praznik sredine jeseni u rujnu ili listopadu." },
-    { ime: "Kava na pločniku", opis: "Vijetnamci satima sjede na niskim plastičnim stolcima, piju kavu ili ledeni čaj i gledaju promet. To je društveni život grada, mjesto dogovora, ogovaranja i poslovnih sastanaka.", gdje: "U Starom gradu Hanoija i oko katedrale u Ho Ši Minu, od ranog jutra." }
+    { ime: "Tết", opis: "The Lunar New Year is the most important holiday of the year, when the whole country goes home to family. Houses are decorated with branches of flowering peach in the north and with yellow apricot blossoms in the south, children receive money in red envelopes, and people eat bánh chưng, a square cake of sticky rice boiled in leaves.", gdje: "In late January or in February, depending on the lunar calendar. The flower markets in Hanoi and Ho Chi Minh City are at their loveliest in the week before the holiday, and during Tết itself many restaurants and shops are closed." },
+    { ime: "Múa rối nước, water puppetry", opis: "An art about a thousand years old, born in the flooded rice fields of the Red River Delta. The puppeteers stand waist-deep in water behind a bamboo screen and use long poles beneath the surface to move wooden puppets of dragons, fishermen and water buffalo.", gdje: "At the Thang Long theater by Hoan Kiem Lake in Hanoi, where shows are held daily." },
+    { ime: "Áo dài", opis: "A long, fitted tunic with high slits that is worn over wide silk trousers. Today's cut took shape in the 1930s, and it is worn by high school girls as a white uniform, by brides and by women on holidays.", gdje: "In Hoi An and Hue, tailors make one to measure in a day or two, and on Monday mornings you will see schoolgirls in white riding their bicycles." },
+    { ime: "Ancestor worship", opis: "Almost every house, shop and restaurant has an altar with photographs of deceased family members, fruit and incense sticks. Ancestors are believed to keep watching over the family, so a festive lunch is prepared on the anniversary of a death. In the street you will also see the burning of paper money and paper objects, which are sent to the next world that way.", gdje: "On the first and fifteenth day of the lunar month the pagodas are full, and paper gifts for the ancestors are sold on Hang Ma Street in Hanoi." },
+    { ime: "Nhã nhạc, court music", opis: "The ceremonial music that accompanied coronations, sacrifices and receptions at the court of the Nguyen dynasty. UNESCO recognized it as Vietnam's first intangible heritage of humanity.", gdje: "At the Duyet Thi Duong royal theater inside the Imperial City in Hue." },
+    { ime: "Đờn ca tài tử", opis: "The chamber music of the south, in which a small group of friends sings and improvises to stringed instruments, usually in the evening after work. UNESCO added it to the list of intangible heritage in 2013.", gdje: "In orchards and family homes in the Mekong Delta, often as part of a visit to the islands near My Tho and Vinh Long." },
+    { ime: "Lantern night", opis: "On every full moon evening, the fourteenth day of the lunar month, the old town of Hoi An switches off its electric lights and is lit only by silk lanterns and by candles set afloat down the river.", gdje: "In Hoi An once a month, and most festively for the Mid-Autumn Festival in September or October." },
+    { ime: "Coffee on the sidewalk", opis: "The Vietnamese sit for hours on low plastic stools, drinking coffee or iced tea and watching the traffic. This is the social life of the city, the place for making plans, gossiping and holding business meetings.", gdje: "In Hanoi's Old Quarter and around the cathedral in Ho Chi Minh City, from early morning." }
   ],
   fraze: [
-    { izvorno: "Xin chào", izgovor: "sin ČAO", hr: "Dobar dan" },
-    { izvorno: "Cảm ơn", izgovor: "kam ON", hr: "Hvala" },
-    { izvorno: "Xin lỗi", izgovor: "sin LOJ", hr: "Oprostite" },
-    { izvorno: "Vâng / Không", izgovor: "VANG / HOM", hr: "Da / Ne" },
-    { izvorno: "Bao nhiêu tiền?", izgovor: "bao NJEU tjen", hr: "Koliko košta?" },
-    { izvorno: "Không cay", izgovor: "hom KAJ", hr: "Ne ljuto" },
-    { izvorno: "Ngon quá!", izgovor: "ngon KVA", hr: "Jako ukusno!" },
-    { izvorno: "Một, hai, ba, dô!", izgovor: "mot, haj, ba, ZO", hr: "Jedan, dva, tri, živjeli!" }
+    { izvorno: "Xin chào", izgovor: "sin CHOW", hr: "Hello" },
+    { izvorno: "Cảm ơn", izgovor: "kahm UHN", hr: "Thank you" },
+    { izvorno: "Xin lỗi", izgovor: "sin LOY", hr: "Excuse me, sorry" },
+    { izvorno: "Vâng / Không", izgovor: "VUNG / KHOHM", hr: "Yes / No" },
+    { izvorno: "Bao nhiêu tiền?", izgovor: "bow NYEW tee-en", hr: "How much is it?" },
+    { izvorno: "Không cay", izgovor: "khohm KYE", hr: "Not spicy" },
+    { izvorno: "Ngon quá!", izgovor: "ngon KWAH", hr: "Really delicious!" },
+    { izvorno: "Một, hai, ba, dô!", izgovor: "moht, hye, bah, ZOH", hr: "One, two, three, cheers!" }
   ],
   zanimljivosti: [
-    "Vijetnamski se piše latinicom s mnoštvom kvačica i točkica. Pismo su u 17. stoljeću razvili portugalski i francuski misionari, a rječnik isusovca Alexandrea de Rhodesa tiskan je u Rimu 1651. godine.",
-    "Otprilike četiri od deset Vijetnamaca preziva se Nguyen, po posljednjoj carskoj dinastiji.",
-    "Jezik ima šest tonova, pa slog „ma“ ovisno o visini glasa može značiti duh, majka, ali, grob, konj ili rižina sadnica.",
-    "U zemlji službeno živi 54 naroda, a mnogi od manjih žive u planinama sjevera i nose vlastite nošnje.",
-    "Špilja Son Doong u nacionalnom parku Phong Nha-Ke Bang najveća je poznata špilja na svijetu, toliko prostrana da u njoj raste prašuma i stvaraju se oblaci.",
-    "Cestu u Vijetnamu ne prelazi se trčeći: krene se polako i ravnomjerno, bez naglih zastajanja, a rijeka mopeda sama vas zaobiđe.",
-    "Vijetnam je najveći svjetski izvoznik crnog papra i jedan od vodećih izvoznika indijskih oraščića."
+    "Vietnamese is written in the Latin alphabet with a great many accents and dots. The script was developed in the 17th century by Portuguese and French missionaries, and the dictionary by the Jesuit Alexandre de Rhodes was printed in Rome in 1651.",
+    "Roughly four out of ten Vietnamese people have the surname Nguyen, after the last imperial dynasty.",
+    "The language has six tones, so the syllable “ma”, depending on the pitch of the voice, can mean ghost, mother, but, grave, horse or rice seedling.",
+    "The country is officially home to 54 ethnic groups, and many of the smaller ones live in the mountains of the north and wear their own traditional dress.",
+    "Son Doong Cave in Phong Nha-Ke Bang National Park is the largest known cave in the world, so vast that a rainforest grows inside it and clouds form there.",
+    "You do not run across a road in Vietnam: you set off slowly and steadily, without stopping suddenly, and the river of motorbikes flows around you on its own.",
+    "Vietnam is the world's largest exporter of black pepper and one of the leading exporters of cashew nuts."
   ],
   mjesta: [
     {
       id: "hanoi",
       ime: "Hanoi",
       vrsta: "grad",
-      sazetak: "Tisućljetna prijestolnica jezera, drvoreda i uskih kuća, u kojoj se život odvija na pločniku.",
+      sazetak: "A thousand-year-old capital of lakes, tree-lined avenues and narrow houses, where life takes place on the sidewalk.",
       prica: [
-        "Car Ly Thai To preselio je 1010. godine prijestolnicu na obalu Crvene rijeke. Legenda kaže da je pri dolasku vidio zlatnog zmaja kako se diže u nebo, pa je grad nazvao Thang Long, „zmaj koji uzlijeće“. Današnje ime Hanoi, „grad unutar rijeka“, dobio je 1831. godine.",
-        "Francuzi su ga 1902. učinili glavnim gradom Indokine i sagradili široke bulevare, operu i vile oker boje, koje i danas stoje južno od jezera Hoan Kiem. Sjeverno od jezera ostao je Stari grad, u kojem je svaka ulica nekoć pripadala jednom cehu i po njemu nosi ime."
+        "In the year 1010 Emperor Ly Thai To moved the capital to the banks of the Red River. Legend says that on arriving he saw a golden dragon rising into the sky, so he named the city Thang Long, “the soaring dragon”. It received its present name Hanoi, “the city within the rivers”, in 1831.",
+        "In 1902 the French made it the capital of Indochina and built wide boulevards, an opera house and ocher-colored villas, which still stand south of Hoan Kiem Lake. North of the lake the Old Quarter remained, where every street once belonged to a single guild and is named after it."
       ],
       vidjeti: [
-        { ime: "Stari grad, 36 ulica", opis: "Imena ulica počinju riječju Hang, što znači roba: Hang Bac je ulica srebra, Hang Gai svile, Hang Ma papirnatih ukrasa. Kuće su vrlo uske i duboke jer se porez nekoć plaćao prema širini pročelja, pa ih zovu kućama cijevima." },
-        { ime: "Jezero Hoan Kiem i hram Ngoc Son", opis: "Legenda kaže da je car Le Loi u 15. stoljeću ovdje vratio čarobni mač zlatnoj kornjači nakon pobjede nad Kinezima, pa se jezero zove Jezero vraćenog mača. Do hrama na otočiću vodi crveni drveni most, a u hramu je izložena preparirana divovska kornjača ulovljena u jezeru." },
-        { ime: "Hram književnosti", opis: "Sagrađen je 1070. godine u čast Konfuciju, a 1076. u njemu je otvorena prva vijetnamska visoka škola. U trećem dvorištu stoje 82 kamene ploče na leđima kornjača s uklesanim imenima svih koji su od 15. do 18. stoljeća položili državni ispit. Studenti i danas dolaze ovamo prije ispita." },
-        { ime: "Mauzolej Ho Ši Mina i kuća na stupovima", opis: "Vođa vijetnamske neovisnosti umro je 1969. i u oporuci je zatražio da bude kremiran, ali je njegovo tijelo balzamirano i od 1975. izloženo u mramornom mauzoleju. Odmah iza je skromna drvena kuća na stupovima u kojoj je živio, odbivši raskošnu guvernerovu palaču." },
-        { ime: "Zatvor Hoa Lo", opis: "Francuzi su ga sagradili potkraj 19. stoljeća za vijetnamske političke zatvorenike, a tijekom rata s SAD-om u njemu su držani oboreni američki piloti, koji su ga ironično prozvali Hanoi Hilton. Među njima je bio i kasniji senator John McCain. Izložba je ispričana iz vijetnamskog kuta, što je samo po sebi zanimljivo." },
-        { ime: "Pagoda Tran Quoc", opis: "Najstarija pagoda u gradu, čiji počeci sežu u 6. stoljeće, stoji na otočiću u Zapadnom jezeru. Crveni toranj od jedanaest katova u svakom luku čuva mali bijeli kip Bude." }
+        { ime: "The Old Quarter, 36 streets", opis: "The street names begin with the word Hang, which means merchandise: Hang Bac is the street of silver, Hang Gai of silk, Hang Ma of paper decorations. The houses are very narrow and deep because tax was once paid according to the width of the facade, which is why they are called tube houses." },
+        { ime: "Hoan Kiem Lake and Ngoc Son Temple", opis: "Legend says that in the 15th century Emperor Le Loi returned a magic sword to a golden turtle here after his victory over the Chinese, so the lake is called the Lake of the Returned Sword. A red wooden bridge leads to the temple on the islet, where a preserved giant turtle caught in the lake is on display." },
+        { ime: "Temple of Literature", opis: "It was built in 1070 in honor of Confucius, and in 1076 the first Vietnamese university opened within it. In the third courtyard stand 82 stone slabs on the backs of turtles, carved with the names of everyone who passed the state examination from the 15th to the 18th century. Students still come here before their exams." },
+        { ime: "Ho Chi Minh Mausoleum and the stilt house", opis: "The leader of Vietnamese independence died in 1969 and asked in his will to be cremated, but his body was embalmed and has been on display in a marble mausoleum since 1975. Right behind it is the modest wooden stilt house where he lived, having turned down the lavish governor's palace." },
+        { ime: "Hoa Lo Prison", opis: "The French built it toward the end of the 19th century for Vietnamese political prisoners, and during the war with the USA it held downed US pilots, who ironically nicknamed it the Hanoi Hilton. Among them was the future senator John McCain. The exhibition is told from the Vietnamese point of view, which is interesting in itself." },
+        { ime: "Tran Quoc Pagoda", opis: "The oldest pagoda in the city, whose beginnings reach back to the 6th century, stands on an islet in West Lake. The red tower of eleven stories holds a small white statue of the Buddha in every arch." }
       ],
       jesti: [
-        { ime: "Phở bò", opis: "Hanojska goveđa juha jede se za doručak, bistra i bez gomile dodataka, tek s malo limete, čilija i octa s češnjakom." },
-        { ime: "Chả cá Lã Vọng", opis: "Komadi ribe marinirani u kurkumi prže se na stolu s gomilom kopra i mladog luka. Jelo je toliko vezano uz grad da se po njemu zove cijela ulica u Starom gradu." },
-        { ime: "Bia hơi", opis: "Lagano svježe pivo koje se toči istog dana kad je skuhano, pije se na pločniku iz debelih čaša, a najživlje je na križanju ulica Ta Hien i Luong Ngoc Quyen." }
+        { ime: "Phở bò", opis: "Hanoi's beef soup is eaten for breakfast, clear and without a heap of garnishes, with just a little lime, chili and garlic vinegar." },
+        { ime: "Chả cá Lã Vọng", opis: "Pieces of fish marinated in turmeric are fried at the table with a heap of dill and scallions. The dish is so closely tied to the city that a whole street in the Old Quarter is named after it." },
+        { ime: "Bia hơi", opis: "A light fresh beer that is poured on the same day it is brewed and drunk on the sidewalk from thick glasses, and the liveliest spot for it is the corner of Ta Hien and Luong Ngoc Quyen streets." }
       ],
       dozivjeti: [
-        { ime: "Lutkarsko kazalište na vodi Thang Long", opis: "Predstava traje oko 50 minuta, uz orkestar s tradicionalnim glazbalima, i razumljiva je bez riječi. Sjednite u prve redove ako želite vidjeti kako zmajevi rigaju vodu.", link: "https://www.thanglongwaterpuppet.org/" },
-        { ime: "Šetnja sa studentima", opis: "Hanoikids je studentska udruga čiji članovi besplatno vode strance kroz grad kako bi vježbali engleski, pa obilazak postaje razgovor o svakodnevnom životu.", link: "https://hanoikids.org/" },
-        { ime: "Gastronomska šetnja Starim gradom", opis: "Ako vas zbunjuje što se gdje jede, vodič će vas provesti kroz desetak malih zalogajnica u kojima se kuha po jedno jelo.", link: "https://www.hanoistreetfoodtour.com/" }
+        { ime: "Thang Long Water Puppet Theater", opis: "The show lasts about 50 minutes, with an orchestra of traditional instruments, and can be followed without words. Sit in the front rows if you want to see the dragons spouting water.", link: "https://www.thanglongwaterpuppet.org/" },
+        { ime: "A walk with students", opis: "Hanoikids is a student association whose members show foreigners around the city for free in order to practice their English, so the tour turns into a conversation about everyday life.", link: "https://hanoikids.org/" },
+        { ime: "A food walk through the Old Quarter", opis: "If you are puzzled about what is eaten where, a guide will take you through about ten small eateries that each cook a single dish.", link: "https://www.hanoistreetfoodtour.com/" }
       ],
       agencije: [
-        { ime: "Vietnam Tourism", opis: "Službena turistička stranica Vijetnama.", link: "https://vietnam.travel/" },
-        { ime: "Hanoi Free Tour Guides", opis: "Neprofitna organizacija koja nudi obilaske s lokalnim vodičima volonterima.", link: "https://hanoifreetourguides.com/" },
-        { ime: "Hanoikids", opis: "Studentski klub koji od 2006. godine vodi besplatne ture na engleskom jeziku.", link: "https://hanoikids.org/" }
+        { ime: "Vietnam Tourism", opis: "The official tourism website of Vietnam.", link: "https://vietnam.travel/" },
+        { ime: "Hanoi Free Tour Guides", opis: "A nonprofit organization offering tours with local volunteer guides.", link: "https://hanoifreetourguides.com/" },
+        { ime: "Hanoikids", opis: "A student club that has been leading free tours in English since 2006.", link: "https://hanoikids.org/" }
       ],
-      kada: "Listopad i studeni te ožujak i travanj. Zime su sive i prohladne, pa ponesite jaknu. Mauzolej je otvoren samo prijepodne i svake je godine nekoliko tjedana zatvoren zbog održavanja."
+      kada: "October and November, and March and April. Winters are gray and chilly, so bring a jacket. The mausoleum is open only in the morning and closes for several weeks every year for maintenance."
     },
     {
       id: "ha-long",
-      ime: "Zaljev Ha Long",
+      ime: "Ha Long Bay",
       vrsta: "priroda",
-      sazetak: "Tisuće vapnenačkih otoka koji izranjaju iz smaragdnog mora, najljepši u zoru s palube broda.",
+      sazetak: "Thousands of limestone islands rising out of an emerald sea, at their most beautiful at dawn from the deck of a boat.",
       prica: [
-        "Ime Ha Long znači „zmaj koji se spušta“. Legenda kaže da su bogovi poslali zmajeve da obrane Vijetnamce od napadača s mora, a oni su rigali dragulje i žad koji su se pretvorili u otoke i zapriječili put neprijateljskim brodovima.",
-        "Geolozi govore o vapnencu koji se taložio stotinama milijuna godina, a zatim ga je more izjelo u tornjeve i špilje. UNESCO je zaljev s oko 1600 otoka i otočića upisao na popis svjetske baštine 1994. godine, a 2023. zaštita je proširena na susjedno otočje Cat Ba."
+        "The name Ha Long means “descending dragon”. Legend says that the gods sent dragons to defend the Vietnamese from invaders coming by sea, and the dragons spat out jewels and jade that turned into islands and blocked the way of the enemy ships.",
+        "Geologists speak of limestone that was laid down over hundreds of millions of years and then eaten away by the sea into towers and caves. UNESCO added the bay, with its roughly 1,600 islands and islets, to the World Heritage List in 1994, and in 2023 the protection was extended to the neighboring Cat Ba archipelago."
       ],
       vidjeti: [
-        { ime: "Špilja Sung Sot", opis: "Francuzi su je početkom 20. stoljeća nazvali Špiljom iznenađenja jer se iza uskog ulaza otvaraju dvije goleme dvorane. Vodiči će vam pokazivati stijene nalik na zmajeve, kornjače i Budu, pa pustite mašti na volju." },
-        { ime: "Otok Ti Top", opis: "Ho Ši Min doveo je ovamo 1962. sovjetskog kozmonauta Germana Titova i nazvao otok po njemu. Do vidikovca vodi oko 400 stuba, a pogled na zaljev pun brodova vrijedan je uspona." },
-        { ime: "Stijene Trong Mai", opis: "Dvije stijene koje strše iz mora nalik su pijetlu i kokoši okrenutima jedno prema drugom i postale su zaštitni znak zaljeva. Najbolje se vide iz čamca u prolazu." },
-        { ime: "Plutajuća sela", opis: "U selima poput Cua Vana i Vung Vienga ribarske obitelji naraštajima žive na splavima, uzgajaju ribu i bisere. Dio stanovnika preseljen je na kopno, a kroz sela vas veslajući provode mještanke u malim čamcima od bambusa." },
-        { ime: "Zaljev Lan Ha i otok Cat Ba", opis: "Južni nastavak Ha Longa ima isti krajolik, ali mnogo manje brodova i male pješčane plaže. U šumama Cat Be živi zlatoglavi langur, jedan od najrjeđih majmuna na svijetu, kojih je ostalo manje od stotinu." }
+        { ime: "Sung Sot Cave", opis: "At the beginning of the 20th century the French named it the Cave of Surprises, because two enormous chambers open up behind its narrow entrance. The guides will point out rocks that resemble dragons, turtles and the Buddha, so let your imagination run free." },
+        { ime: "Ti Top Island", opis: "In 1962 Ho Chi Minh brought the Soviet cosmonaut Gherman Titov here and named the island after him. About 400 steps lead to the viewpoint, and the view of the bay full of boats is worth the climb." },
+        { ime: "Trong Mai rocks", opis: "Two rocks jutting out of the sea resemble a rooster and a hen facing each other, and they have become the emblem of the bay. They are best seen from a boat as you pass." },
+        { ime: "Floating villages", opis: "In villages such as Cua Van and Vung Vieng, fishing families have lived on rafts for generations, farming fish and pearls. Some of the residents have been resettled on the mainland, and local women row you through the villages in small bamboo boats." },
+        { ime: "Lan Ha Bay and Cat Ba Island", opis: "The southern continuation of Ha Long has the same scenery but far fewer boats, along with small sandy beaches. The forests of Cat Ba are home to the golden-headed langur, one of the rarest monkeys in the world, of which fewer than a hundred remain." }
       ],
       jesti: [
-        { ime: "Chả mực", opis: "Pržene polpete od ručno tučene sipe ili lignje specijalitet su grada Ha Longa, hrskave izvana i žilave iznutra, a jedu se s ljepljivom rižom." },
-        { ime: "Kamenice i plodovi mora", opis: "Kamenice se peku na žaru s mladim lukom i kikirikijem, a na brodovima se večera obično sastoji od rakova, kozica i ribe ulovljenih u zaljevu." }
+        { ime: "Chả mực", opis: "Fried patties of hand-pounded cuttlefish or squid are the specialty of Ha Long City, crisp on the outside and chewy on the inside, and they are eaten with sticky rice." },
+        { ime: "Oysters and seafood", opis: "Oysters are grilled with scallions and peanuts, and dinner on the boats usually consists of crab, shrimp and fish caught in the bay." }
       ],
       dozivjeti: [
-        { ime: "Noćenje na brodu", opis: "Jednodnevni izlet iz Hanoija uglavnom se svodi na vožnju. Tek s noćenjem na brodu dočekat ćete suton i zoru među otocima, kada dnevni izletnici odu. Tvrtka Indochina Junk plovi mirnijim zaljevom Bai Tu Long.", link: "https://www.indochina-junk.com/" },
-        { ime: "Kajakom kroz stjenovite lukove", opis: "Kroz niske prolaze u stijenama uplovljava se u zatvorene lagune u kojima vlada potpuna tišina, a može se proći samo za oseke." },
-        { ime: "Tai chi u zoru", opis: "Na većini brodova posada na gornjoj palubi u šest ujutro vodi polusatnu vježbu, dok se magla diže s mora." }
+        { ime: "A night on a boat", opis: "A day trip from Hanoi mostly comes down to driving. Only by spending a night on a boat will you see dusk and dawn among the islands, once the day-trippers have left. The company Indochina Junk sails the quieter Bai Tu Long Bay.", link: "https://www.indochina-junk.com/" },
+        { ime: "Kayaking through the rock arches", opis: "Low passages in the rock lead into enclosed lagoons where the silence is complete, and you can get through only at low tide." },
+        { ime: "Tai chi at dawn", opis: "On most boats the crew leads a half-hour session on the upper deck at six in the morning, as the mist lifts off the sea." }
       ],
       agencije: [
-        { ime: "Vietnam Tourism", opis: "Službena turistička stranica Vijetnama s vodičem po zaljevu.", link: "https://vietnam.travel/" },
-        { ime: "Indochina Junk", opis: "Organizator krstarenja tradicionalnim drvenim brodovima po zaljevima Ha Long i Bai Tu Long.", link: "https://www.indochina-junk.com/" }
+        { ime: "Vietnam Tourism", opis: "The official tourism website of Vietnam, with a guide to the bay.", link: "https://vietnam.travel/" },
+        { ime: "Indochina Junk", opis: "An operator of cruises on traditional wooden boats in Ha Long and Bai Tu Long bays.", link: "https://www.indochina-junk.com/" }
       ],
-      kada: "Od listopada do prosinca i od ožujka do svibnja. Zimi je zaljev često u magli, što je lijepo, ali hladno, a ljeti su mogući tajfuni zbog kojih se plovidbe otkazuju."
+      kada: "From October to December and from March to May. In winter the bay is often wrapped in mist, which is beautiful but cold, and in summer typhoons are possible and cause sailings to be canceled."
     },
     {
       id: "sapa",
       ime: "Sapa",
       vrsta: "gradić",
-      sazetak: "Planinsko mjesto na sjeveru, okruženo stubama rižinih terasa i selima naroda Hmong i Dao.",
+      sazetak: "A mountain town in the north, surrounded by stairways of rice terraces and the villages of the Hmong and Dao peoples.",
       prica: [
-        "Francuzi su početkom 20. stoljeća na 1500 metara nadmorske visine osnovali vojnu postaju, a zatim i lječilište u koje su kolonijalni službenici bježali od hanojske vrućine. Od tog je doba ostala kamena crkva u središtu mjesta.",
-        "Pravi domaćini ovih planina su narodi Hmong, Dao, Tay i Giay, koji su terase u strmim padinama klesali stoljećima. Svaki narod prepoznaje se po nošnji: Crni Hmong nose odjeću obojenu indigom, a žene Crvenih Dao crvene marame i obrijane obrve."
+        "At the beginning of the 20th century the French set up a military post at an altitude of 1,500 meters, followed by a health resort where colonial officials escaped the heat of Hanoi. The stone church in the center of town dates from that time.",
+        "The true hosts of these mountains are the Hmong, Dao, Tay and Giay peoples, who carved the terraces into the steep slopes over centuries. Each people can be recognized by its dress: the Black Hmong wear clothes dyed with indigo, and the women of the Red Dao wear red headscarves and shave their eyebrows."
       ],
       vidjeti: [
-        { ime: "Dolina Muong Hoa", opis: "Najljepše terase prostiru se ispod mjesta, kroz sela Lao Chai i Ta Van. U dolini leže i velike stijene s uklesanim crtežima čije značenje nije odgonetnuto: neki u njima vide zemljovide terasa, drugi kalendare." },
-        { ime: "Fansipan", opis: "S 3147 metara najviši je vrh Indokine. Nekoć se do njega pješačilo dva dana, a od 2016. vozi žičara koja stiže gotovo do vrha. Gore je često desetak stupnjeva hladnije nego u mjestu, pa ponesite toplu odjeću." },
-        { ime: "Selo Cat Cat", opis: "Selo Crnih Hmonga najbliže mjestu prilično je turističko, ali ovdje možete vidjeti kako se konoplja prede, tka i namače u bačvama indiga. Ruke žena koje boje tkaninu trajno su plave." },
-        { ime: "Selo Ta Phin", opis: "Dom Crvenih Dao, poznatih po vezu i kupkama od ljekovitog bilja. U drvenu bačvu ulijeva se tamnocrveni uvarak od desetaka šumskih biljaka, u kojem se nakon pješačenja namače dvadesetak minuta." },
-        { ime: "Tržnica u Bac Hi", opis: "Nedjeljom se, dva i pol sata vožnje od Sape, okupljaju Cvjetni Hmong u živopisno izvezenim suknjama. Prodaje se sve, od bivola i konja do rakije od kukuruza." }
+        { ime: "Muong Hoa Valley", opis: "The most beautiful terraces spread out below the town, through the villages of Lao Chai and Ta Van. The valley also holds large rocks with carved drawings whose meaning has not been deciphered: some see maps of the terraces in them, others calendars." },
+        { ime: "Fansipan", opis: "At 3,147 meters it is the highest peak in Indochina. Reaching it used to take two days on foot, and since 2016 a cable car has run almost to the summit. It is often about ten degrees colder up there than in town, so bring warm clothing." },
+        { ime: "Cat Cat village", opis: "The Black Hmong village closest to town is fairly touristy, but here you can see how hemp is spun, woven and soaked in vats of indigo. The hands of the women who dye the cloth are permanently blue." },
+        { ime: "Ta Phin village", opis: "Home of the Red Dao, known for their embroidery and their medicinal herbal baths. A dark red decoction of dozens of forest plants is poured into a wooden tub, where you soak for about twenty minutes after a hike." },
+        { ime: "Bac Ha market", opis: "On Sundays, two and a half hours' drive from Sapa, the Flower Hmong gather in their vividly embroidered skirts. Everything is for sale, from water buffalo and horses to corn liquor." }
       ],
       jesti: [
-        { ime: "Cơm lam", opis: "Ljepljiva riža pečena u cijevi bambusa na žaru, koja se guli poput banane i umače u sol s mljevenim sezamom." },
-        { ime: "Vrući lonac s lososom", opis: "U hladnim planinskim potocima uzgajaju se losos i jesetra, koji se poslužuju u juhi što kuha na stolu s planinskim povrćem." },
-        { ime: "Ražnjići s tržnice", opis: "Navečer se na štandovima uz crkvu peku ražnjići od mesa, gljiva i povrća, uz pečene batate, kestene i jaja." }
+        { ime: "Cơm lam", opis: "Sticky rice roasted in a bamboo tube over coals, which is peeled like a banana and dipped in salt mixed with ground sesame." },
+        { ime: "Salmon hot pot", opis: "Salmon and sturgeon are farmed in the cold mountain streams and served in a broth that simmers at the table with mountain vegetables." },
+        { ime: "Skewers from the market", opis: "In the evening the stalls by the church grill skewers of meat, mushrooms and vegetables, alongside roasted sweet potatoes, chestnuts and eggs." }
       ],
       dozivjeti: [
-        { ime: "Pješačenje s vodičicama Hmong", opis: "Sapa Sisters je tvrtka u vlasništvu samih vodičica naroda Hmong, koje vode jednodnevne i višednevne ture kroz terase s noćenjem u seoskim kućama.", link: "https://sapasisters.com/" },
-        { ime: "Radionica batika i indiga", opis: "Sapa O'Chau društveno je poduzeće koje je osnovala Hmong djevojka Shu Tan kako bi školovala djecu iz sela. Nudi pješačke ture, smještaj kod obitelji i radionice tradicionalnih tehnika.", link: "https://sapaochau.org/" }
+        { ime: "Trekking with Hmong women guides", opis: "Sapa Sisters is a company owned by the Hmong women guides themselves, who lead one-day and multi-day treks through the terraces with nights in village homes.", link: "https://sapasisters.com/" },
+        { ime: "Batik and indigo workshop", opis: "Sapa O'Chau is a social enterprise founded by Shu Tan, a young Hmong woman, to put village children through school. It offers treks, homestays and workshops in traditional techniques.", link: "https://sapaochau.org/" }
       ],
       agencije: [
-        { ime: "Vietnam Tourism", opis: "Službena turistička stranica Vijetnama.", link: "https://vietnam.travel/" },
-        { ime: "Sapa Sisters", opis: "Pješačke ture koje vode i posjeduju žene naroda Hmong.", link: "https://sapasisters.com/" },
-        { ime: "Sapa O'Chau", opis: "Društveno poduzeće za ture i smještaj kod domaćina, čija dobit ide u školovanje djece.", link: "https://sapaochau.org/" }
+        { ime: "Vietnam Tourism", opis: "The official tourism website of Vietnam.", link: "https://vietnam.travel/" },
+        { ime: "Sapa Sisters", opis: "Treks led and owned by women of the Hmong people.", link: "https://sapasisters.com/" },
+        { ime: "Sapa O'Chau", opis: "A social enterprise for tours and homestays whose profits go toward children's schooling.", link: "https://sapaochau.org/" }
       ],
-      kada: "U rujnu, kada riža požuti prije žetve, te od ožujka do svibnja. Zimi je vrlo hladno i maglovito, a staze su blatne, pa su dobre cipele obvezne."
+      kada: "In September, when the rice turns golden before the harvest, and from March to May. Winter is very cold and foggy and the trails are muddy, so good shoes are a must."
     },
     {
       id: "hue",
       ime: "Hue",
       vrsta: "grad",
-      sazetak: "Nekadašnja carska prijestolnica na Mirisnoj rijeci, s utvrđenim gradom, grobnicama careva i najprofinjenijom kuhinjom u zemlji.",
+      sazetak: "The former imperial capital on the Perfume River, with a walled citadel, the tombs of emperors and the most refined cuisine in the country.",
       prica: [
-        "Car Gia Long ujedinio je zemlju 1802. i za prijestolnicu dinastije Nguyen odabrao Hue. Sagradio je golemu utvrdu sa zidinama dugima oko deset kilometara, a unutar nje carski grad i Zabranjeni purpurni grad, po uzoru na Peking.",
-        "Dinastija je vladala do 1945., posljednjih desetljeća pod francuskim nadzorom. Velik dio palača stradao je u požaru 1947. i u bitki za Hue tijekom ofenzive Tet 1968. godine, a obnova traje do danas. UNESCO je spomenike Huea 1993. upisao kao prvu vijetnamsku svjetsku baštinu."
+        "Emperor Gia Long unified the country in 1802 and chose Hue as the capital of the Nguyen dynasty. He built a huge citadel with walls about ten kilometers long, and inside it the Imperial City and the Forbidden Purple City, modeled on Beijing.",
+        "The dynasty ruled until 1945, in its last decades under French supervision. A large part of the palaces was lost in the fire of 1947 and in the Battle of Hue during the Tet Offensive of 1968, and the restoration continues to this day. In 1993 UNESCO inscribed the monuments of Hue as Vietnam's first World Heritage Site."
       ],
       vidjeti: [
-        { ime: "Carski grad", opis: "Ulazi se kroz vrata Ngo Mon, čiji je srednji prolaz bio rezerviran samo za cara. S paviljona iznad njih posljednji je car Bao Dai 30. kolovoza 1945. predao vlast revoluciji. U dvorištu potražite devet brončanih urni, svaku posvećenu jednom caru i ukrašenu prizorima vijetnamskih rijeka, planina i životinja." },
-        { ime: "Grobnica Tu Duca", opis: "Car pjesnik sagradio ju je šezdesetih godina 19. stoljeća još za života i ovdje je boravio, lovio i pisao stihove u paviljonu na jezeru. Na kamenoj ploči sam je sastavio vlastiti, iznenađujuće samokritičan životopis. Pokopan je na tajnom mjestu koje do danas nije otkriveno." },
-        { ime: "Grobnica Khai Dinha", opis: "Dovršena 1931. godine, spaja beton, gotičke i vijetnamske elemente i izvana djeluje gotovo mračno. Unutrašnjost je, naprotiv, eksplozija boja: zidovi su prekriveni mozaicima od razbijenog porculana i stakla, a među komadićima se prepoznaju i dna boca." },
-        { ime: "Grobnica Minh Manga", opis: "Najskladnija od carskih grobnica, s paviljonima, mostovima i jezerima poredanima na jednoj osi dugoj 700 metara. Car je pokopan pod okruglim humkom obraslim borovima, iza vrata koja se otvaraju jednom godišnje." },
-        { ime: "Pagoda Thien Mu", opis: "Osmerokutni toranj od sedam katova iznad rijeke simbol je grada. U dvorištu je izložen plavi automobil Austin kojim se redovnik Thich Quang Duc 1963. odvezao u Saigon, gdje se spalio u znak prosvjeda protiv progona budista." }
+        { ime: "The Imperial City", opis: "You enter through the Ngo Mon gate, whose central passage was reserved for the emperor alone. From the pavilion above it, the last emperor, Bao Dai, handed power over to the revolution on August 30, 1945. In the courtyard, look for the nine bronze urns, each dedicated to one emperor and decorated with scenes of Vietnamese rivers, mountains and animals." },
+        { ime: "Tomb of Tu Duc", opis: "The poet emperor built it in the 1860s while he was still alive, and he stayed here, hunted and wrote verse in the pavilion on the lake. On a stone slab he composed his own surprisingly self-critical biography. He was buried in a secret place that has not been found to this day." },
+        { ime: "Tomb of Khai Dinh", opis: "Completed in 1931, it combines concrete with Gothic and Vietnamese elements and looks almost somber from the outside. The interior, on the other hand, is an explosion of color: the walls are covered in mosaics of broken porcelain and glass, and among the fragments you can make out the bottoms of bottles." },
+        { ime: "Tomb of Minh Mang", opis: "The most harmonious of the imperial tombs, with pavilions, bridges and lakes arranged along a single axis 700 meters long. The emperor is buried beneath a round mound overgrown with pines, behind a gate that is opened once a year." },
+        { ime: "Thien Mu Pagoda", opis: "The octagonal seven-story tower above the river is the symbol of the city. On display in the courtyard is the blue Austin car in which the monk Thich Quang Duc drove to Saigon in 1963, where he set himself on fire in protest against the persecution of Buddhists." }
       ],
       jesti: [
-        { ime: "Bún bò Huế", opis: "Gradska juha s limunskom travom i čilijem jede se ujutro, a prodavačice je nose i po ulicama u loncima na obramnici." },
-        { ime: "Bánh bèo, bánh nậm i bánh lọc", opis: "Sitni zalogaji od rižina i tapiokina brašna sa sušenim kozicama, kuhani na pari u zdjelicama ili u lišću banane. Nasljeđe su carske kuhinje, koja je tražila mnogo malih, lijepo oblikovanih jela." },
-        { ime: "Cơm hến", opis: "Riža sa sitnim riječnim školjkama, kikirikijem, hrskavom svinjskom kožicom i biljem, jelo siromašnih s otočića na Mirisnoj rijeci koje je postalo gradski ponos." }
+        { ime: "Bún bò Huế", opis: "The city's soup with lemongrass and chili is eaten in the morning, and women vendors also carry it through the streets in pots hung from a shoulder pole." },
+        { ime: "Bánh bèo, bánh nậm and bánh lọc", opis: "Small bites of rice and tapioca flour with dried shrimp, steamed in little dishes or in banana leaves. They are a legacy of the imperial kitchen, which called for many small, beautifully shaped dishes." },
+        { ime: "Cơm hến", opis: "Rice with tiny river clams, peanuts, crispy pork rind and herbs, a poor people's dish from the islets on the Perfume River that has become the pride of the city." }
       ],
       dozivjeti: [
-        { ime: "Zmajevim brodom po Mirisnoj rijeci", opis: "Šareni brodovi s glavom zmaja voze do pagode Thien Mu i grobnica, a navečer se na njima izvode tradicionalne pjesme Huea uz puštanje lampiona na vodu." },
-        { ime: "Dvorska glazba u carskom kazalištu", opis: "U obnovljenom kazalištu Duyet Thi Duong unutar carskog grada izvode se kratki programi dvorske glazbe i plesa." },
-        { ime: "Biciklom do mosta Thanh Toan", opis: "Sedam kilometara kroz rižina polja vodi do natkrivenog drvenog mosta iz 18. stoljeća, na kojem seljaci odmaraju u hladu, a uz njega je mali muzej poljodjelskog alata." }
+        { ime: "A dragon boat on the Perfume River", opis: "Colorful boats with dragon heads sail to Thien Mu Pagoda and the tombs, and in the evening traditional Hue songs are performed on board while lanterns are set afloat on the water." },
+        { ime: "Court music at the imperial theater", opis: "Short programs of court music and dance are performed in the restored Duyet Thi Duong theater inside the Imperial City." },
+        { ime: "By bicycle to Thanh Toan Bridge", opis: "Seven kilometers through the rice fields lead to a covered wooden bridge from the 18th century, where farmers rest in the shade, and next to it is a small museum of farming tools." }
       ],
       agencije: [
-        { ime: "Vietnam Tourism", opis: "Službena turistička stranica Vijetnama s vodičem po Hueu.", link: "https://vietnam.travel/" }
+        { ime: "Vietnam Tourism", opis: "The official tourism website of Vietnam, with a guide to Hue.", link: "https://vietnam.travel/" }
       ],
-      kada: "Od veljače do travnja. Od rujna do prosinca Hue je najkišovitiji grad u zemlji i česte su poplave, a ljeti je vrlo vruće. Za grobnice odvojite cijeli dan."
+      kada: "From February to April. From September to December Hue is the rainiest city in the country and floods are frequent, and summer is very hot. Set aside a whole day for the tombs."
     },
     {
       id: "hoi-an",
       ime: "Hoi An",
       vrsta: "gradić",
-      sazetak: "Žuti trgovački gradić na rijeci, pun lampiona, krojača i jela koja se ne mogu kušati nigdje drugdje.",
+      sazetak: "A yellow merchant town on a river, full of lanterns, tailors and dishes you cannot taste anywhere else.",
       prica: [
-        "Od 15. do 19. stoljeća Hoi An je bio jedna od najprometnijih luka jugoistočne Azije. Ovamo su po svilu, porculan i začine dolazili kineski, japanski, portugalski i nizozemski brodovi, a Kinezi i Japanci imali su vlastite četvrti.",
-        "Kada se rijeka Thu Bon zamuljila, trgovina se preselila u obližnji Da Nang, a Hoi An je jednostavno zaspao. Upravo ga je to spasilo: ratovi su ga zaobišli, a drvene trgovačke kuće ostale su netaknute. UNESCO ga je uvrstio na popis svjetske baštine 1999. godine."
+        "From the 15th to the 19th century Hoi An was one of the busiest ports in Southeast Asia. Chinese, Japanese, Portuguese and Dutch ships came here for silk, porcelain and spices, and the Chinese and the Japanese had quarters of their own.",
+        "When the Thu Bon River silted up, trade moved to nearby Da Nang, and Hoi An simply fell asleep. That is exactly what saved it: the wars passed it by, and the wooden merchant houses remained untouched. UNESCO added it to the World Heritage List in 1999."
       ],
       vidjeti: [
-        { ime: "Japanski natkriveni most", opis: "Sagradila ga je japanska zajednica potkraj 16. stoljeća kako bi svoju četvrt povezala s kineskom. Jedan ulaz čuvaju kipovi majmuna, a drugi pasa. Unutar mosta je mali hram posvećen božanstvu koje štiti od poplava i potresa. Temeljito je obnovljen 2024. godine." },
-        { ime: "Stara kuća Tan Ky", opis: "U trgovačkoj kući iz 18. stoljeća živi već sedmi naraštaj iste obitelji. Na zidu su označene razine svih velikih poplava, od kojih neke sežu iznad glave, a namještaj se tada užetima diže na kat kroz otvor u stropu." },
-        { ime: "Dvorana zajednice iz Fujiana", opis: "Kineski trgovci iz pokrajine Fujian sagradili su je kao mjesto okupljanja i hram božice mora Thien Hau, zaštitnice pomoraca. Sa stropa vise goleme spirale tamjana koje gore tjednima, s ceduljicama na kojima su želje obitelji." },
-        { ime: "My Son", opis: "Sat vremena vožnje u unutrašnjost, u dolini okruženoj brdima, leže hramovi od opeke kraljevstva Champa, građeni od 4. do 13. stoljeća i posvećeni hinduističkom bogu Šivi. Ni danas nije posve jasno čime su Chami spajali opeku bez vidljivog veziva. Američko bombardiranje 1969. uništilo je najveći toranj, a krateri se još vide." },
-        { ime: "Selo Tra Que", opis: "Na otočiću između grada i mora obitelji stoljećima uzgajaju povrće i začinsko bilje, gnojeći ga algama iz lagune. Odavde dolaze metvica i bosiljak u svim gradskim jelima." }
+        { ime: "Japanese Covered Bridge", opis: "It was built by the Japanese community toward the end of the 16th century to link their quarter with the Chinese one. One entrance is guarded by statues of monkeys and the other by statues of dogs. Inside the bridge is a small temple dedicated to a deity that protects against floods and earthquakes. It was thoroughly restored in 2024." },
+        { ime: "Tan Ky Old House", opis: "The seventh generation of the same family now lives in this merchant house from the 18th century. The levels of all the great floods are marked on the wall, some of them reaching above head height, and at those times the furniture is hoisted upstairs on ropes through an opening in the ceiling." },
+        { ime: "Fujian Assembly Hall", opis: "Chinese merchants from Fujian province built it as a meeting place and a temple to the sea goddess Thien Hau, the protector of sailors. Huge spirals of incense that burn for weeks hang from the ceiling, with slips of paper carrying the wishes of families." },
+        { ime: "My Son", opis: "An hour's drive inland, in a valley ringed by hills, lie the brick temples of the Champa kingdom, built from the 4th to the 13th century and dedicated to the Hindu god Shiva. Even today it is not entirely clear how the Cham bonded the bricks without any visible mortar. US bombing in 1969 destroyed the largest tower, and the craters can still be seen." },
+        { ime: "Tra Que village", opis: "On an islet between the town and the sea, families have grown vegetables and herbs for centuries, fertilizing them with seaweed from the lagoon. This is where the mint and basil in all the town's dishes come from." }
       ],
       jesti: [
-        { ime: "Cao lầu", opis: "Debeli, žilavi rezanci s ploškama svinjetine, zelenjem i hrskavim kvadratićima tijesta, s vrlo malo juhe. Predaja kaže da se pravi rezanci rade samo s vodom iz starog chamskog bunara Ba Le i lužinom od pepela drva s otočja Cham." },
-        { ime: "Bánh mì", opis: "Hoi An se diči najboljim sendvičima u zemlji, a red pred pekarnicom Phuong traje otkako ju je u svojoj emisiji pohvalio Anthony Bourdain." },
-        { ime: "Bánh bao bánh vạc, bijele ruže", opis: "Prozirne okruglice od rižina tijesta punjene kozicama, oblikovane poput cvijeta i posute prženim lukom. Tijesto po tajnom receptu za cijeli grad priprema jedna obitelj." },
-        { ime: "Cơm gà Hội An", opis: "Žuta riža kuhana u pilećem temeljcu s kurkumom, s natrganom piletinom, lukom i vijetnamskim korijandrom." }
+        { ime: "Cao lầu", opis: "Thick, chewy noodles with slices of pork, greens and crisp squares of dough, with very little broth. Tradition says that the real noodles are made only with water from the old Cham well of Ba Le and with lye from the ash of wood from the Cham Islands." },
+        { ime: "Bánh mì", opis: "Hoi An prides itself on the best sandwiches in the country, and the line outside the Phuong bakery has not let up since Anthony Bourdain praised it on his show." },
+        { ime: "Bánh bao bánh vạc, white roses", opis: "Translucent rice-dough dumplings filled with shrimp, shaped like a flower and sprinkled with fried shallots. A single family prepares the dough for the entire town from a secret recipe." },
+        { ime: "Cơm gà Hội An", opis: "Yellow rice cooked in chicken stock with turmeric, served with shredded chicken, onion and Vietnamese coriander." }
       ],
       dozivjeti: [
-        { ime: "Odjeća po mjeri", opis: "Grad ima stotine krojačkih radnji koje za dan ili dva sašiju haljinu, kaput ili áo dài. Ponesite fotografiju ili komad odjeće koji volite i ostavite vremena za barem dvije probe." },
-        { ime: "Čaj u tišini", opis: "U čajani Reaching Out rade gluhe i nagluhe osobe, a naručuje se drvenim pločicama s riječima. Uz kuću je i radionica u kojoj osobe s invaliditetom izrađuju nakit i keramiku.", link: "https://reachingoutvietnam.com/" },
-        { ime: "Predstava Sjećanja Hoi Ana", opis: "Večernji spektakl na otvorenom s nekoliko stotina izvođača prikazuje povijest grada, od chamskih princeza do trgovačkih brodova.", link: "https://hoianmemoriesland.com/" },
-        { ime: "Košarastim čamcem i tečaj kuhanja", opis: "Mnoge škole kuhanja počinju na tržnici, nastavljaju vožnjom okruglim čamcem od bambusa kroz šumu vodenih palmi i završavaju kuhanjem bánh xèa i rolica." }
+        { ime: "Made-to-measure clothing", opis: "The town has hundreds of tailor shops that will sew a dress, a coat or an áo dài in a day or two. Bring a photograph or a piece of clothing you love and leave time for at least two fittings." },
+        { ime: "Tea in silence", opis: "The Reaching Out teahouse is staffed by people who are deaf or hard of hearing, and you order using small wooden blocks with words on them. Next to the house is a workshop where people with disabilities make jewelry and ceramics.", link: "https://reachingoutvietnam.com/" },
+        { ime: "The Hoi An Memories show", opis: "An open-air evening spectacle with several hundred performers presents the history of the town, from Cham princesses to merchant ships.", link: "https://hoianmemoriesland.com/" },
+        { ime: "A basket boat ride and a cooking class", opis: "Many cooking schools start at the market, continue with a ride in a round bamboo boat through a forest of water coconut palms and end with cooking bánh xèo and fresh rolls." }
       ],
       agencije: [
-        { ime: "Centar za očuvanje kulturne baštine Hoi Ana", opis: "Službena stranica staroga grada s popisom kuća, muzeja i pravilima o ulaznicama.", link: "https://hoianworldheritage.org.vn/" },
-        { ime: "Vietnam Tourism", opis: "Službena turistička stranica Vijetnama.", link: "https://vietnam.travel/" }
+        { ime: "Hoi An Center for Cultural Heritage Management and Preservation", opis: "The official website of the old town, with a list of houses and museums and the rules on tickets.", link: "https://hoianworldheritage.org.vn/" },
+        { ime: "Vietnam Tourism", opis: "The official tourism website of Vietnam.", link: "https://vietnam.travel/" }
       ],
-      kada: "Od veljače do svibnja. U listopadu i studenome grad redovito poplavi, pa se ulicama plovi čamcima. Stari grad najljepši je rano ujutro, prije vrućine i gužve, te navečer pod lampionima."
+      kada: "From February to May. In October and November the town floods regularly, and people get around the streets by boat. The old town is at its most beautiful early in the morning, before the heat and the crowds, and in the evening under the lanterns."
     },
     {
       id: "da-nang",
       ime: "Da Nang",
       vrsta: "grad",
-      sazetak: "Moderan grad na dugoj pješčanoj plaži, s mostom zmajem koji riga vatru i najboljim muzejem chamske umjetnosti.",
+      sazetak: "A modern city on a long sandy beach, with a dragon bridge that breathes fire and the best museum of Cham art.",
       prica: [
-        "Francuzi su ga zvali Tourane i učinili ga glavnom lukom središnjeg Vijetnama. U ožujku 1965. ovdje su se iskrcali prvi američki marinci, a Da Nang je postao jedna od najvećih zračnih baza u ratu. Vojnici su se odmarali na obližnjoj plaži My Khe.",
-        "Danas je to treći grad u zemlji, uredan i okrenut budućnosti, s nizom novih mostova preko rijeke Han. Praktična je baza za obilazak Huea i Hoi Ana, do kojeg ima samo pola sata vožnje."
+        "The French called it Tourane and made it the main port of central Vietnam. In March 1965 the first US Marines landed here, and Da Nang became one of the largest air bases of the war. The soldiers took their rest on nearby My Khe Beach.",
+        "Today it is the third city of the country, tidy and forward-looking, with a string of new bridges across the Han River. It makes a practical base for visiting Hue and Hoi An, which is only half an hour's drive away."
       ],
       vidjeti: [
-        { ime: "Muzej chamske skulpture", opis: "Osnovala ga je francuska škola za istraživanje Dalekog istoka početkom 20. stoljeća i čuva najveću svjetsku zbirku umjetnosti kraljevstva Champa. Pogledajte oltar iz Tra Kieua s plesačicama i sviračima, isklesan s nevjerojatnom lakoćom pokreta. Dobro ga je posjetiti prije odlaska u My Son." },
-        { ime: "Zmajev most", opis: "Otvoren 2013. godine, dug 666 metara, ima oblik zlatnog zmaja koji preskače rijeku. Vikendom navečer promet se zaustavlja, a zmaj nekoliko minuta riga vatru, a zatim vodu, pa ne stojte preblizu glavi ako ne želite biti mokre." },
-        { ime: "Mramorne planine", opis: "Pet vapnenačkih brežuljaka nosi imena pet elemenata: metala, drva, vode, vatre i zemlje. U špilji Huyen Khong svjetlo pada kroz otvore u stropu na kip Bude, a tijekom rata u špiljama se skrivala poljska bolnica Vijetkonga. U podnožju je selo klesara Non Nuoc." },
-        { ime: "Poluotok Son Tra", opis: "Šumovito brdo iznad grada čuva bijeli kip božice milosrđa visok 67 metara, okrenut prema moru da štiti ribare. U krošnjama živi crvenonogi langur, majmun živih boja kojeg zovu kraljicom primata." },
-        { ime: "Ba Na Hills i Zlatni most", opis: "Na planini na kojoj su Francuzi 1919. sagradili ljetovalište danas je zabavni park do kojeg vozi vrlo duga žičara. Pješački Zlatni most iz 2018. godine drže dvije goleme kamene ruke, namjerno izrađene da izgledaju drevno i obraslo mahovinom." },
-        { ime: "Prijevoj Hai Van", opis: "Cesta se penje na 500 metara iznad mora, a ime znači „more oblaka“. Prijevoj je stoljećima bio granica između kraljevstava i klimatska razdjelnica: sa sjeverne strane često je oblačno, a s južne sunčano." }
+        { ime: "Museum of Cham Sculpture", opis: "It was founded by the French School of the Far East at the beginning of the 20th century and holds the world's largest collection of art from the Champa kingdom. See the altar from Tra Kieu with its dancers and musicians, carved with an astonishing lightness of movement. It is worth visiting before you go to My Son." },
+        { ime: "Dragon Bridge", opis: "Opened in 2013 and 666 meters long, it has the shape of a golden dragon leaping across the river. On weekend evenings the traffic is stopped and the dragon breathes fire for a few minutes and then spouts water, so do not stand too close to the head unless you want to get wet." },
+        { ime: "Marble Mountains", opis: "Five limestone hills bear the names of the five elements: metal, wood, water, fire and earth. In Huyen Khong Cave, light falls through openings in the ceiling onto a statue of the Buddha, and during the war a Viet Cong field hospital was hidden in the caves. At the foot of the hills lies the stone carvers' village of Non Nuoc." },
+        { ime: "Son Tra Peninsula", opis: "The wooded hill above the city holds a white statue of the goddess of mercy, 67 meters tall, facing the sea to protect the fishermen. The treetops are home to the red-shanked douc langur, a brightly colored monkey that people call the queen of primates." },
+        { ime: "Ba Na Hills and the Golden Bridge", opis: "On the mountain where the French built a hill resort in 1919 there is now an amusement park reached by a very long cable car. The pedestrian Golden Bridge of 2018 is held up by two gigantic stone hands, deliberately made to look ancient and overgrown with moss." },
+        { ime: "Hai Van Pass", opis: "The road climbs to 500 meters above the sea, and the name means “sea of clouds”. For centuries the pass was the border between kingdoms and a climatic divide: it is often cloudy on the northern side and sunny on the southern." }
       ],
       jesti: [
-        { ime: "Mì Quảng", opis: "Široki žuti rezanci s kurkumom, kozicama, svinjetinom i prepeličjim jajetom, s tek malo guste juhe, posuti kikirikijem i hrskavim rižinim krekerom." },
-        { ime: "Bánh tráng cuốn thịt heo", opis: "Tanke ploške kuhane svinjetine s brdom svježeg bilja koje same motate u rižin papir i umačete u jak umak od fermentirane ribe." },
-        { ime: "Bún chả cá", opis: "Juha s rižinim rezancima i prženim ribljim polpetama, rajčicom, ananasom i bundevom, lagana i slatkasta." }
+        { ime: "Mì Quảng", opis: "Wide yellow turmeric noodles with shrimp, pork and a quail egg, with just a little thick broth, sprinkled with peanuts and a crisp rice cracker." },
+        { ime: "Bánh tráng cuốn thịt heo", opis: "Thin slices of boiled pork with a mound of fresh herbs, which you roll in rice paper yourself and dip in a strong sauce of fermented fish." },
+        { ime: "Bún chả cá", opis: "A soup with rice noodles and fried fish cakes, tomato, pineapple and pumpkin, light and slightly sweet." }
       ],
       dozivjeti: [
-        { ime: "Vlakom ili mopedom preko prijevoja Hai Van", opis: "Pruga između Da Nanga i Huea vijuga uz samu obalu, a cesta preko prijevoja jedna je od najljepših u Aziji. Može se unajmiti vozač s terencem ili mopedom." },
-        { ime: "Jutro na plaži My Khe", opis: "U pet ujutro pola grada je na plaži: vježba se, pliva i igra odbojka, a ribari izvlače okrugle čamce od bambusa." },
-        { ime: "Tržnica Han", opis: "Na gradskoj tržnici kupuju se sušeni plodovi mora, čili umak i kava, a na katu krojačice šivaju áo dài po mjeri u jednom danu." }
+        { ime: "By train or motorbike over the Hai Van Pass", opis: "The railway between Da Nang and Hue winds right along the coast, and the road over the pass is one of the most beautiful in Asia. You can hire a driver with a jeep or a motorbike." },
+        { ime: "A morning on My Khe Beach", opis: "At five in the morning half the city is on the beach: people exercise, swim and play volleyball, while fishermen haul in their round bamboo boats." },
+        { ime: "Han Market", opis: "At the city market people buy dried seafood, chili sauce and coffee, and upstairs seamstresses sew a made-to-measure áo dài in a single day." }
       ],
       agencije: [
-        { ime: "Danang Fantasticity", opis: "Službeni turistički portal grada Da Nanga.", link: "https://danangfantasticity.com/" },
-        { ime: "Vietnam Tourism", opis: "Službena turistička stranica Vijetnama.", link: "https://vietnam.travel/" }
+        { ime: "Danang Fantasticity", opis: "The official tourism portal of the city of Da Nang.", link: "https://danangfantasticity.com/" },
+        { ime: "Vietnam Tourism", opis: "The official tourism website of Vietnam.", link: "https://vietnam.travel/" }
       ],
-      kada: "Od veljače do kolovoza. Na Ba Na Hills idite radnim danom i rano, jer se Zlatni most do podneva napuni, a vrh je često u oblaku."
+      kada: "From February to August. Go to Ba Na Hills on a weekday and early, because the Golden Bridge fills up by noon and the summit is often in cloud."
     },
     {
       id: "ho-si-min",
-      ime: "Ho Ši Min",
+      ime: "Ho Chi Minh City",
       vrsta: "grad",
-      sazetak: "Najveći grad zemlje, koji svi i dalje zovu Saigon, s milijunima mopeda, ratnim muzejima i najboljom uličnom hranom juga.",
+      sazetak: "The country's largest city, which everyone still calls Saigon, with millions of motorbikes, war museums and the best street food in the south.",
       prica: [
-        "Na mjestu današnjeg grada nekoć je bilo kmersko ribarsko naselje Prey Nokor. Vijetnamci su ga naselili u 17. stoljeću, a Francuzi su ga osvojili 1859. i pretvorili u prijestolnicu svoje kolonije Kočinčine, s katedralom, poštom i bulevarima zbog kojih su ga zvali Parizom Istoka.",
-        "Od 1955. do 1975. bio je glavni grad Južnog Vijetnama. Rat je završio 30. travnja 1975., kada su sjevernovijetnamski tenkovi probili ogradu predsjedničke palače. Sljedeće je godine grad preimenovan u čast Ho Ši Mina, ali je ime Saigon ostalo u svakodnevnom govoru, osobito za središnji okrug."
+        "The site of today's city was once the Khmer fishing settlement of Prey Nokor. The Vietnamese settled it in the 17th century, and the French conquered it in 1859 and turned it into the capital of their colony of Cochinchina, with a cathedral, a post office and boulevards that earned it the name Paris of the East.",
+        "From 1955 to 1975 it was the capital of South Vietnam. The war ended on April 30, 1975, when North Vietnamese tanks broke through the fence of the presidential palace. The following year the city was renamed in honor of Ho Chi Minh, but the name Saigon has stayed in everyday speech, especially for the central district."
       ],
       vidjeti: [
-        { ime: "Muzej ratnih ostataka", opis: "Potresna izložba o ratu s SAD-om iz vijetnamske perspektive, s fotografijama ratnih izvjestitelja koji su poginuli na obje strane i svjedočanstvima o posljedicama otrova Agent Orange. U dvorištu stoje zarobljeni američki zrakoplovi i tenkovi. Za posjet treba jak želudac i barem dva sata." },
-        { ime: "Palača neovisnosti", opis: "Sjedište predsjednika Južnog Vijetnama dovršeno je 1966. godine i ostalo je kao zamrznuto u tom vremenu, s namještajem, telefonima i tepisima iz šezdesetih. U podrumu je ratni bunker sa zemljovidima na zidovima, a na travnjaku stoje tenkovi istog tipa kao oni koji su 1975. probili ogradu." },
-        { ime: "Središnja pošta", opis: "Sagrađena je od 1886. do 1891. godine. Često se pogrešno pripisuje Gustaveu Eiffelu, a projektirao ju je arhitekt Alfred Foulhoux. Pod zelenim željeznim svodom gledajte dva oslikana zemljovida s kraja 19. stoljeća i stare drvene telefonske govornice." },
-        { ime: "Katedrala Notre-Dame", opis: "Podignuta je od 1863. do 1880. od crvene opeke dopremljene brodovima iz Marseillea, koja ni nakon stoljeća i pol nije izblijedjela. Već godinama je u velikoj obnovi, pa je uglavnom pod skelama i gleda se izvana." },
-        { ime: "Pagoda Thien Hau u Cholonu", opis: "Kineska četvrt Cholon, čije ime znači „velika tržnica“, čuva hram božice mora iz 18. stoljeća. Pogledajte gore: rub krova prekriva friz od stotina sitnih keramičkih figura koje prikazuju prizore iz kineskih legendi." },
-        { ime: "Tuneli Cu Chi", opis: "Četrdesetak kilometara od grada gerilci su iskopali mrežu tunela dugu oko 250 kilometara, s kuhinjama, bolnicama i spavaonicama na tri razine. Kroz kratku, za posjetitelje proširenu dionicu možete se provući i same, što brzo objasni kako je bilo živjeti pod zemljom." }
+        { ime: "War Remnants Museum", opis: "A harrowing exhibition about the war with the USA from the Vietnamese perspective, with photographs by war correspondents who were killed on both sides and testimonies about the consequences of the toxic defoliant Agent Orange. Captured US aircraft and tanks stand in the courtyard. The visit takes a strong stomach and at least two hours." },
+        { ime: "Independence Palace", opis: "The seat of the president of South Vietnam was completed in 1966 and has stayed as if frozen in that time, with furniture, telephones and carpets from the sixties. In the basement is a wartime bunker with maps on the walls, and on the lawn stand tanks of the same type as those that broke through the fence in 1975." },
+        { ime: "Central Post Office", opis: "It was built from 1886 to 1891. It is often wrongly attributed to Gustave Eiffel, and it was actually designed by the architect Alfred Foulhoux. Under the green iron vault, look at the two painted maps from the end of the 19th century and the old wooden telephone booths." },
+        { ime: "Notre-Dame Cathedral", opis: "It was raised from 1863 to 1880 out of red brick shipped in from Marseille, which has not faded even after a century and a half. It has been under major restoration for years, so it is mostly covered in scaffolding and is viewed from the outside." },
+        { ime: "Thien Hau Pagoda in Cholon", opis: "The Chinese quarter of Cholon, whose name means “big market”, holds a temple to the sea goddess from the 18th century. Look up: the edge of the roof is covered by a frieze of hundreds of tiny ceramic figures showing scenes from Chinese legends." },
+        { ime: "Cu Chi Tunnels", opis: "About forty kilometers from the city, guerrilla fighters dug a network of tunnels around 250 kilometers long, with kitchens, hospitals and sleeping quarters on three levels. You can crawl through a short section, widened for visitors, yourself, which quickly explains what it was like to live underground." }
       ],
       jesti: [
-        { ime: "Cơm tấm", opis: "Lomljena riža, nekoć ostatak koji se nije mogao prodati, poslužena sa svinjskim kotletom s roštilja, pečenim jajetom i ukiseljenim povrćem, pravi je saigonski doručak." },
-        { ime: "Hủ tiếu Nam Vang", opis: "Juha s tankim rezancima, svinjetinom, kozicama i prepeličjim jajima koja je stigla iz Phnom Penha, a može se naručiti i suha, s juhom sa strane." },
-        { ime: "Ốc", opis: "Večernji izlazak na puževe i školjke pripremljene na desetke načina, s maslacem i češnjakom, tamarindom ili kokosovim mlijekom, uz hladno pivo na pločniku." }
+        { ime: "Cơm tấm", opis: "Broken rice, once the leftovers that could not be sold, served with a grilled pork chop, a fried egg and pickled vegetables, is the true Saigon breakfast." },
+        { ime: "Hủ tiếu Nam Vang", opis: "A soup with thin noodles, pork, shrimp and quail eggs that arrived from Phnom Penh, and it can also be ordered dry, with the broth on the side." },
+        { ime: "Ốc", opis: "An evening out for snails and shellfish prepared in dozens of ways, with butter and garlic, tamarind or coconut milk, alongside a cold beer on the sidewalk." }
       ],
       dozivjeti: [
-        { ime: "A O Show u zgradi Opere", opis: "Akrobati i plesači uz živu glazbu, koristeći samo košare i motke od bambusa, pričaju o životu u delti i dolasku u veliki grad. Izvodi se u francuskoj Operi iz 1900. godine.", link: "https://www.luneproduction.com/" },
-        { ime: "Večernja gastronomska tura na mopedu", opis: "XO Tours vode vozačice u tradicionalnom áo dàiju, a vozi se kroz okruge u koje stranci inače ne zalaze, sa zaustavljanjima na jelima koja nisu na turističkim jelovnicima.", link: "https://xotours.vn/" },
-        { ime: "Besplatna šetnja sa studentima", opis: "Saigon Free Walking Tours okuplja studente volontere koji vode kroz središte grada i objašnjavaju povijest zgrada.", link: "https://saigonfreewalkingtours.com/" }
+        { ime: "A O Show at the Opera House", opis: "Acrobats and dancers, accompanied by live music and using nothing but bamboo baskets and poles, tell of life in the delta and of arriving in the big city. It is performed in the French Opera House of 1900.", link: "https://www.luneproduction.com/" },
+        { ime: "Evening food tour by motorbike", opis: "XO Tours are led by women drivers in the traditional áo dài, and the ride goes through districts that foreigners do not usually visit, with stops for dishes that are not on tourist menus.", link: "https://xotours.vn/" },
+        { ime: "A free walk with students", opis: "Saigon Free Walking Tours brings together student volunteers who guide you through the city center and explain the history of the buildings.", link: "https://saigonfreewalkingtours.com/" }
       ],
       agencije: [
-        { ime: "Vietnam Tourism", opis: "Službena turistička stranica Vijetnama.", link: "https://vietnam.travel/" },
-        { ime: "Saigon Free Walking Tours", opis: "Studentske pješačke ture po središtu grada na temelju dobrovoljnog priloga.", link: "https://saigonfreewalkingtours.com/" },
-        { ime: "Back of the Bike Tours", opis: "Gastronomske ture na mopedima s vozačima, koje vodi profesionalni kuhar.", link: "https://backofthebiketours.com/" }
+        { ime: "Vietnam Tourism", opis: "The official tourism website of Vietnam.", link: "https://vietnam.travel/" },
+        { ime: "Saigon Free Walking Tours", opis: "Student-led walking tours of the city center, offered on a voluntary donation basis.", link: "https://saigonfreewalkingtours.com/" },
+        { ime: "Back of the Bike Tours", opis: "Food tours on motorbikes with drivers, run by a professional chef.", link: "https://backofthebiketours.com/" }
       ],
-      kada: "Od prosinca do travnja je suho. U kišnoj sezoni pljusak obično pada poslijepodne i traje sat vremena, pa muzeje ostavite za to doba dana."
+      kada: "It is dry from December to April. In the rainy season the downpour usually comes in the afternoon and lasts an hour, so save the museums for that time of day."
     },
     {
       id: "delta-mekonga",
-      ime: "Delta Mekonga",
+      ime: "Mekong Delta",
       vrsta: "regija",
-      sazetak: "Labirint rijeka, kanala i voćnjaka na krajnjem jugu, gdje se živi, trguje i putuje po vodi.",
+      sazetak: "A maze of rivers, canals and orchards in the far south, where people live, trade and travel on the water.",
       prica: [
-        "Nakon više od 4000 kilometara puta s Tibeta Mekong se u Vijetnamu grana u rukavce koje Vijetnamci zovu Cuu Long, „devet zmajeva“. Mulj koji rijeka nanosi čini deltu žitnicom zemlje: ovdje raste više od polovice vijetnamske riže i većina voća.",
-        "Do 18. stoljeća ovo je područje pripadalo Kmerskom Carstvu. Kmeri i danas žive u pokrajinama Tra Vinh i Soc Trang, gdje ćete uz vijetnamske pagode vidjeti šiljaste zlatne krovove kmerskih hramova."
+        "After a journey of more than 4,000 kilometers from Tibet, the Mekong branches out in Vietnam into channels that the Vietnamese call Cuu Long, “nine dragons”. The silt the river deposits makes the delta the breadbasket of the country: more than half of Vietnam's rice and most of its fruit grow here.",
+        "Until the 18th century this area belonged to the Khmer Empire. Khmer people still live in the provinces of Tra Vinh and Soc Trang, where alongside Vietnamese pagodas you will see the pointed golden roofs of Khmer temples."
       ],
       vidjeti: [
-        { ime: "Plutajuća tržnica Cai Rang", opis: "Kod grada Can Thoa trgovci na veliko prodaju voće i povrće s brodova. Svaki brod na visoku motku objesi ono što nudi, pa kupci izdaleka vide gdje su ananasi, a gdje bundeve. Tržnica je posljednjih godina sve manja jer se trgovina seli na ceste, zato dođite u zoru dok je još živa." },
-        { ime: "Ben Tre, zemlja kokosa", opis: "Pokrajina prekrivena kokosovim palmama, gdje se u malim obiteljskim radionicama kuhaju kokosovi bomboni i zamataju u jestivi rižin papir. Uskim kanalima u sjeni vodenih palmi vozi se u čamcima na vesla." },
-        { ime: "Pagoda Vinh Trang u My Thou", opis: "Pagoda iz 19. stoljeća spaja vijetnamske, kmerske, kineske i francuske ukrase, s pročeljem obloženim mozaikom od razbijenog porculana. U vrtu su tri golema kipa Bude: stojeći, ležeći i nasmijani." },
-        { ime: "Sa Dec", opis: "Gradić cvjećara, gdje se pred Tết polja pretvaraju u more krizantema i ruža uzgojenih na povišenim rešetkama iznad vode. Ovdje je i kuća Huynh Thuy Lea, bogatog Kineza koji je bio ljubavnik Marguerite Duras i lik iz njezina romana Ljubavnik." },
-        { ime: "Chau Doc i šuma Tra Su", opis: "Na granici s Kambodžom žive Vijetnamci, Kmeri i muslimani Chami, koji drže plutajuće kuće s ribnjacima ispod poda. U obližnjoj poplavljenoj šumi Tra Su plovi se čamcem kroz zeleni sag vodene leće, ispod stabala punih čaplji i roda." }
+        { ime: "Cai Rang Floating Market", opis: "Near the city of Can Tho, wholesalers sell fruit and vegetables from boats. Each boat hangs what it is offering on a tall pole, so buyers can see from far away where the pineapples are and where the pumpkins are. The market has been shrinking in recent years as trade moves to the roads, so come at dawn while it is still lively." },
+        { ime: "Ben Tre, land of coconuts", opis: "A province covered in coconut palms, where coconut candy is cooked in small family workshops and wrapped in edible rice paper. You travel along narrow canals in the shade of water coconut palms in rowboats." },
+        { ime: "Vinh Trang Pagoda in My Tho", opis: "This pagoda from the 19th century blends Vietnamese, Khmer, Chinese and French ornament, with a facade clad in a mosaic of broken porcelain. In the garden are three enormous statues of the Buddha: standing, reclining and laughing." },
+        { ime: "Sa Dec", opis: "A small town of flower growers, where before Tết the fields turn into a sea of chrysanthemums and roses grown on raised trellises above the water. Here too is the house of Huynh Thuy Le, the wealthy Chinese man who was the lover of Marguerite Duras and a character in her novel The Lover." },
+        { ime: "Chau Doc and Tra Su forest", opis: "On the border with Cambodia live Vietnamese, Khmer and Muslim Cham people, who keep floating houses with fish pens beneath the floor. In the nearby flooded forest of Tra Su you glide by boat through a green carpet of duckweed, beneath trees full of herons and storks." }
       ],
       jesti: [
-        { ime: "Cá tai tượng chiên xù", opis: "Cijela riba „slonovo uho“ pržena u dubokom ulju dok ljuske ne postanu hrskave. Donosi se uspravno na stalku, a meso se kida i mota u rižin papir s biljem i ananasom." },
-        { ime: "Hủ tiếu Mỹ Tho", opis: "Juha s tankim, žilavim rezancima od riže iz okolice My Thoa, sa svinjetinom, kozicama i sušenom lignjom." },
-        { ime: "Tropsko voće", opis: "U voćnjacima se kuša izravno sa stabla: rambutan, longan, mangostin, zvjezdasta jabuka i durian, voće oštrog mirisa koje se ili obožava ili se od njega bježi." }
+        { ime: "Cá tai tượng chiên xù", opis: "A whole “elephant ear” fish deep-fried until the scales turn crisp. It is brought to the table upright on a stand, and the flesh is pulled off and rolled in rice paper with herbs and pineapple." },
+        { ime: "Hủ tiếu Mỹ Tho", opis: "A soup with thin, chewy rice noodles from the area around My Tho, with pork, shrimp and dried squid." },
+        { ime: "Tropical fruit", opis: "In the orchards you taste it straight from the tree: rambutan, longan, mangosteen, star apple and durian, a pungent fruit that people either adore or run away from." }
       ],
       dozivjeti: [
-        { ime: "Noćenje kod obitelji na otoku", opis: "Na otocima kod Vinh Longa i Ben Trea obitelji primaju goste u kuće u voćnjacima, kuha se zajedno, a navečer se uz rižinu rakiju sluša đờn ca tài tử." },
-        { ime: "Ture u malim skupinama", opis: "Innoviet organizira izlete iz Ho Ši Mina u manje poznate dijelove delte, biciklom i čamcem, izbjegavajući mjesta na koja staju veliki autobusi.", link: "https://innoviet.com/" },
-        { ime: "Krstarenje drvenim brodom", opis: "Mekong Eyes plovi preuređenim teglenicama za rižu od Cai Bea do Can Thoa, s noćenjem na rijeci i dolaskom na plutajuću tržnicu u zoru.", link: "https://www.mekongeyes.com/" }
+        { ime: "A homestay on an island", opis: "On the islands near Vinh Long and Ben Tre, families welcome guests into houses set in orchards, everyone cooks together, and in the evening you listen to đờn ca tài tử over rice liquor." },
+        { ime: "Small-group tours", opis: "Innoviet organizes trips from Ho Chi Minh City to lesser-known parts of the delta, by bicycle and boat, avoiding the places where the big buses stop.", link: "https://innoviet.com/" },
+        { ime: "A cruise on a wooden boat", opis: "Mekong Eyes sails converted rice barges from Cai Be to Can Tho, with a night on the river and arrival at the floating market at dawn.", link: "https://www.mekongeyes.com/" }
       ],
       agencije: [
-        { ime: "Vietnam Tourism", opis: "Službena turistička stranica Vijetnama s vodičem po delti.", link: "https://vietnam.travel/" },
-        { ime: "Innoviet", opis: "Lokalni organizator izleta u malim skupinama po delti Mekonga.", link: "https://innoviet.com/" }
+        { ime: "Vietnam Tourism", opis: "The official tourism website of Vietnam, with a guide to the delta.", link: "https://vietnam.travel/" },
+        { ime: "Innoviet", opis: "A local operator of small-group trips in the Mekong Delta.", link: "https://innoviet.com/" }
       ],
-      kada: "Od prosinca do travnja je suho. Od rujna do studenoga rijeka poplavi polja, što krajolik čini osobito lijepim. Jednodnevni izlet iz grada daje samo površan dojam, pa ostanite barem jednu noć u Can Thou ili na otoku."
+      kada: "It is dry from December to April. From September to November the river floods the fields, which makes the landscape especially beautiful. A day trip from the city gives only a superficial impression, so stay at least one night in Can Tho or on an island."
     }
   ],
   izvori: [
@@ -323,9 +323,9 @@ window.ATLAS["vijetnam"] = {
     { ime: "UNESCO: Ha Long Bay - Cat Ba Archipelago", url: "https://whc.unesco.org/en/list/672" },
     { ime: "UNESCO: Complex of Hué Monuments", url: "https://whc.unesco.org/en/list/678" },
     { ime: "UNESCO: Hoi An Ancient Town", url: "https://whc.unesco.org/en/list/948" },
-    { ime: "Hram književnosti (Van Mieu - Quoc Tu Giam)", url: "https://vanmieu.gov.vn/" },
-    { ime: "Centar za očuvanje baštine Hoi Ana", url: "https://hoianworldheritage.org.vn/" },
-    { ime: "Muzej ratnih ostataka", url: "https://baotangchungtichchientranh.vn/" },
+    { ime: "Temple of Literature (Van Mieu - Quoc Tu Giam)", url: "https://vanmieu.gov.vn/" },
+    { ime: "Hoi An Center for Cultural Heritage Management and Preservation", url: "https://hoianworldheritage.org.vn/" },
+    { ime: "War Remnants Museum", url: "https://baotangchungtichchientranh.vn/" },
     { ime: "Danang Fantasticity", url: "https://danangfantasticity.com/" },
   ]
 };

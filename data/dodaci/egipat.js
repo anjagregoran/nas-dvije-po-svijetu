@@ -1,144 +1,144 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["egipat"] = {
   kupiti: [
-    { ime: "Egipatski pamuk", opis: "Dugovlaknati pamuk iz delte Nila daje mekane plahte, ručnike i košulje koje traju godinama. Kupujte u trgovinama tekstila u kojima kupuju i domaći, i provjerite piše li na etiketi sto posto egipatski pamuk." },
-    { ime: "Papirus", opis: "Pravi papirus radi se od prešanih traka stabljike, pa se protiv svjetla vidi mreža vlakana i list se može smotati bez pucanja. Jeftine kopije od bananina lišća prodaju se posvuda, zato birajte radionice gdje pokazuju izradu." },
-    { ime: "Alabaster", opis: "Meki prozirni kamen vadi se u brdima kod Luksora i ručno dubi u vaze i svjetiljke. Ručni rad je lagan, neravan i propušta svjetlo, dok su strojni komadi teški i savršeno glatki." },
-    { ime: "Hibiskus i začini", opis: "Suhi cvjetovi hibiskusa za napitak karkade, kumin, korijandar i mješavina dukkah osnova su egipatske kuhinje. Najbolji se kupuju na vagu na tržnicama Asuana i u starim začinarnicama Kaira." },
-    { ime: "Šatorski vez khayamiya", opis: "Šarene aplikacije na platnu nekad su ukrašavale svečane šatore, a danas se šiju kao jastučnice i zidni pokrivači. Rade ih muškarci iglom u uličici šatordžija u Kairu." },
-    { ime: "Staklene bočice i mirisna ulja", opis: "Ručno puhane bočice za parfem i ulja lotosa, jasmina i ambre stari su kairski obrt. Kupujte u malim parfumerijama u starom gradu i tražite da vam ulje natoče pred vama." }
+    { ime: "Egyptian cotton", opis: "Long-staple cotton from the Nile Delta makes soft sheets, towels and shirts that last for years. Buy in the textile shops where locals shop, and check that the label says one hundred percent Egyptian cotton." },
+    { ime: "Papyrus", opis: "Real papyrus is made of pressed strips of the stalk, so you can see a grid of fibers against the light and roll the sheet without cracking it. Cheap copies made of banana leaf are sold everywhere, so choose workshops that show you how it is made." },
+    { ime: "Alabaster", opis: "This soft translucent stone is quarried in the hills near Luxor and hollowed by hand into vases and lamps. Handmade pieces are light, uneven and let light through, while machine-made ones are heavy and perfectly smooth." },
+    { ime: "Hibiscus and spices", opis: "Dried hibiscus flowers for the drink karkade, cumin, coriander and the nut and spice mix dukkah are the base of Egyptian cooking. The best are sold by weight in Aswan's market and in Cairo's old spice shops." },
+    { ime: "Khayamiya tentmakers' applique", opis: "These bright applique panels once decorated ceremonial tents and are now sewn as cushion covers and wall hangings. Men stitch them by hand in the Street of the Tentmakers in Cairo." },
+    { ime: "Glass perfume bottles and scented oils", opis: "Hand-blown perfume bottles and oils of lotus, jasmine and amber are an old Cairo trade. Buy in the small perfume shops of the old city and ask to have the oil poured in front of you." }
   ],
   mjesta: {
     "kairo": {
       dragulji: [
-        { ime: "Ulica šatordžija", opis: "Jedina preostala natkrivena tržnica u Kairu nalazi se odmah iza vrata Bab Zuweila, a u njoj obrtnici sjede prekriženih nogu i šiju šarene aplikacije. Mirna je, kratka i bez nametljivosti." },
-        { ime: "Park Al-Azhar", opis: "Zeleno brdo podignuto na nekadašnjem odlagalištu gleda na minarete starog grada i Citadelu. Dođite pred zalazak, kad ovamo dolaze kairske obitelji i mladenci na fotografiranje." },
-        { ime: "Kuća Gayer-Anderson", opis: "Dvije spojene stare kuće uz džamiju Ibn Tuluna pune su rezbarenih drvenih rešetki, tajnih prolaza i krovne terase. Daju najbolju sliku o tome kako se nekad živjelo iza visokih zidova." }
+        { ime: "The Street of the Tentmakers", opis: "Cairo's last covered market street sits right behind Bab Zuweila gate, and its craftsmen sit cross-legged sewing colorful applique. It is calm, short and free of hassle." },
+        { ime: "Al-Azhar Park", opis: "This green hill, raised on a former dump, looks out over the minarets of the old city and the Citadel. Come before sunset, when Cairo families and newlyweds arrive for photos." },
+        { ime: "The Gayer-Anderson House", opis: "Two joined old houses beside the Mosque of Ibn Tulun are full of carved wooden screens, secret passages and a roof terrace. They give the best sense of how people once lived behind those high walls." }
       ],
       domaci: [
-        { ime: "Košari za ručak", opis: "Zdjela riže, leće, tjestenine i slanutka s umakom od rajčice i prženim lukom gradsko je jelo broj jedan. Jede se u zalogajnicama koje ne nude ništa drugo, a ocat s češnjakom i ljuti umak dodajete sami." },
-        { ime: "Ahwa na pločniku", opis: "U kvartovskim kavanama pije se čaj s mentom ili gusta kava, igra tavla i puši nargila do kasno u noć. Žene su dobrodošle u središtu i na Zamaleku, gdje sjede i mlade Kairčanke." },
-        { ime: "Feluka u sumrak", opis: "Domaće obitelji i društva unajmljuju jedrenjak na sat vremena i ponesu hranu i glazbu. Brodice čekaju uz obalu Nila u središtu, a cijena se dogovara za cijeli čamac." }
+        { ime: "Koshari for lunch", opis: "A bowl of rice, lentils, pasta and chickpeas with tomato sauce and fried onions is the city's number one dish. It is eaten in places that serve nothing else, and you add the garlic vinegar and hot sauce yourself." },
+        { ime: "An ahwa on the sidewalk", opis: "In neighborhood coffeehouses people drink mint tea or thick coffee, play backgammon and smoke shisha late into the night. Women are welcome downtown and in Zamalek, where young Cairo women sit too." },
+        { ime: "A felucca at dusk", opis: "Local families and groups of friends rent a sailboat for an hour and bring food and music along. The boats wait along the Nile bank in the center, and the price is agreed for the whole boat." }
       ],
       kupiti: [
-        { ime: "Khayamiya jastučnice", opis: "U uličici šatordžija kod Bab Zuweile svaki majstor ima svoje uzorke, od arabeski do lotosa. Sitniji bod znači više dana rada, pa usporedite nekoliko radnji." },
-        { ime: "Bakar i mesing s ulice Al-Muizz", opis: "U starom islamskom Kairu još rade kotlari i graveri koji čekićem ukrašavaju pladnjeve i svjetiljke. Tražite radionice u pokrajnjim uličicama, gdje se rad vidi i čuje." },
-        { ime: "Začini i dukkah", opis: "U starim začinarnicama oko Al-Azhara kupuje se na vagu iz drvenih ladica. Zamolite za mješavinu dukkah od orašastih plodova i sezama, koja se jede s kruhom i uljem." }
+        { ime: "Khayamiya cushion covers", opis: "In the tentmakers' street near Bab Zuweila, every craftsman has his own designs, from arabesques to lotus flowers. Smaller stitches mean more days of work, so compare a few shops." },
+        { ime: "Copper and brass from Al-Muizz Street", opis: "In Islamic Cairo there are still coppersmiths and engravers who decorate trays and lamps with a hammer. Look for workshops in the side lanes, where you can see and hear the work." },
+        { ime: "Spices and dukkah", opis: "In the old spice shops around Al-Azhar everything is weighed out of wooden drawers. Ask for dukkah, the blend of nuts and sesame that is eaten with bread and oil." }
       ]
     },
     "giza-i-sakara": {
       dragulji: [
-        { ime: "Dahšur", opis: "Južno od Sakare stoje Savijena i Crvena piramida, u koju se može ući gotovo bez čekanja. Oko vas su samo pustinja i poneki čuvar, pa je dojam snažniji nego u Gizi." },
-        { ime: "Serapeum u Sakari", opis: "Pod zemljom se pruža dugačak hodnik s golemim granitnim sarkofazima svetih bikova. Hladno je, tiho i potpuno drukčije od svega ostalog što ćete vidjeti." },
-        { ime: "Palmini gajevi Sakare", opis: "Cesta od Gize prema jugu prolazi kroz polja, kanale i šume datulja, s magarcima i bivolima uz put. Zamolite vozača da ide starom seoskom cestom uz kanal." }
+        { ime: "Dahshur", opis: "South of Saqqara stand the Bent Pyramid and the Red Pyramid, which you can enter almost without waiting. Around you there is only desert and the occasional guard, so the effect is stronger than at Giza." },
+        { ime: "The Serapeum at Saqqara", opis: "Underground runs a long corridor lined with enormous granite sarcophagi made for sacred bulls. It is cool, quiet and unlike anything else you will see." },
+        { ime: "The palm groves of Saqqara", opis: "The road south from Giza passes fields, canals and date palm forests, with donkeys and water buffalo along the way. Ask your driver to take the old village road along the canal." }
       ],
       domaci: [
-        { ime: "Selo podno Sfinge", opis: "U Nazlet el-Sammanu generacije obitelji žive od konja i deva koje vode na visoravan. Ako želite jahati, dogovorite cijenu i trajanje unaprijed, i birajte životinje koje izgledaju njegovano." },
-        { ime: "Ručak pod palmama", opis: "Kairske obitelji petkom dolaze u seoske vrtne restorane oko Sakare na pečeno meso i svježi kruh iz zemljane peći. Tu se sjedi dugo, pa ostavite vremena nakon obilaska." },
-        { ime: "Čaj s čuvarima", opis: "Čuvari grobnica rado ponude čašu slatkog crnog čaja i pokažu reljef koji biste inače promašile. Mala napojnica na kraju je uobičajena i očekivana." }
+        { ime: "The village below the Sphinx", opis: "In Nazlet el-Samman, generations of families have made a living from the horses and camels they lead up to the plateau. If you want to ride, agree on price and duration beforehand and choose animals that look well cared for." },
+        { ime: "Lunch under the palms", opis: "On Fridays, Cairo families come to the village garden restaurants around Saqqara for grilled meat and fresh bread from a clay oven. People linger here, so leave time after your visit." },
+        { ime: "Tea with the guardians", opis: "The tomb guardians often offer a glass of sweet black tea and point out a relief you would otherwise miss. A small tip at the end is customary and expected." }
       ],
       kupiti: [
-        { ime: "Tapiserije iz Harranije", opis: "U selu između Gize i Sakare nalazi se umjetnički centar Wissa Wassef, gdje tkalci bez predloška tkaju prizore sela, ptica i polja. Svaki je komad jedinstven i kupuje se izravno ondje." },
-        { ime: "Papirus iz radionice", opis: "Uz cestu prema piramidama mnogo je takozvanih instituta papirusa različite kvalitete. Kupujte samo ondje gdje vam pokažu izradu i dopuste da list savijete i pogledate protiv svjetla." }
+        { ime: "Tapestries from Harraniya", opis: "In a village between Giza and Saqqara is the Ramses Wissa Wassef Art Centre, where weavers work without a pattern to create scenes of villages, birds and fields. Every piece is one of a kind and is bought right there." },
+        { ime: "Papyrus from a workshop", opis: "The road to the pyramids is lined with so-called papyrus institutes of very mixed quality. Buy only where they show you the process and let you bend the sheet and hold it up to the light." }
       ]
     },
     "luksor": {
       dragulji: [
-        { ime: "Deir el-Medina", opis: "Selo graditelja kraljevskih grobnica čuva temelje kuća i male grobnice majstora, oslikane živim bojama. Ovdje se vidi svakodnevica običnih ljudi, a posjetitelja je malo." },
-        { ime: "Medinet Habu", opis: "Hram Ramzesa III. na rubu polja ima duboke reljefe i stropove s još svježim bojama. Dođite kasno popodne, kad se kamen zažari i grupe su već otišle." },
-        { ime: "Grobnice plemića", opis: "Na padini iznad sela male su grobnice sa slikama žetve, ribolova i gozbi umjesto bogova. Čuvari otključavaju jednu po jednu, pa birajte dvije ili tri." }
+        { ime: "Deir el-Medina", opis: "The village of the men who built the royal tombs preserves the foundations of their houses and their own small tombs, painted in vivid color. Here you see the daily life of ordinary people, and there are few visitors." },
+        { ime: "Medinet Habu", opis: "The temple of Ramses III at the edge of the fields has deep-cut reliefs and ceilings with color that still looks fresh. Come late in the afternoon, when the stone glows and the groups have gone." },
+        { ime: "The Tombs of the Nobles", opis: "On the hillside above the village are small tombs painted with harvests, fishing and banquets in place of gods. Guardians unlock them one at a time, so pick two or three." }
       ],
       domaci: [
-        { ime: "Javni trajekt preko Nila", opis: "Domaći za nekoliko minuta prelaze rijeku plavim trajektom koji vozi cijeli dan. Ukrcajte se s njima, sa školarcima i ženama koje nose kupnju s tržnice." },
-        { ime: "Biciklom kroz polja šećerne trske", opis: "Zapadna obala ravna je i mirna, pa se od trajekta do hramova lako stigne iznajmljenim biciklom. Krenite u zoru, kad seljaci idu u polja na magarcima." },
-        { ime: "Večer na Cornicheu", opis: "Kad sunce zađe iza tebanskih brda, obitelji šeću uz rijeku i piju sok od šećerne trske ili manga. Sjednite na zidić nasuprot osvijetljenom hramu." }
+        { ime: "The public ferry across the Nile", opis: "Locals cross the river in a few minutes on the ferry that runs all day. Board with them, among schoolchildren and women carrying shopping from the market." },
+        { ime: "By bike through the sugarcane fields", opis: "The West Bank is flat and calm, so it is easy to reach the temples from the ferry on a rented bike. Set out at dawn, when farmers are heading to the fields on donkeys." },
+        { ime: "Evening on the Corniche", opis: "When the sun sets behind the Theban hills, families stroll by the river and drink sugarcane or mango juice. Sit on the low wall across from the floodlit temple." }
       ],
       kupiti: [
-        { ime: "Alabaster sa zapadne obale", opis: "Radionice uz cestu prema Dolini kraljeva dube vaze ručnim svrdlima pred kućama oslikanim šarenim prizorima. Ručni komad je lagan i nepravilan, i takav vrijedi kupiti." },
-        { ime: "Šalovi i galabeje sa souka", opis: "Na tržnici iza hrama u Luksoru prodaje se pamučna odjeća i šalovi kakve nose domaći. Dublje u souku, gdje prestaju suveniri, cijene su mirnije." },
-        { ime: "Karkade", opis: "Tamnocrveni suhi hibiskus iz gornjeg Egipta kupuje se na vagu u začinarnicama na tržnici. Kod kuće ga možete piti topao ili hladan." }
+        { ime: "Alabaster from the West Bank", opis: "Workshops on the road to the Valley of the Kings hollow out vases with hand drills, in front of houses painted with bright scenes. A handmade piece is light and irregular, and that is the one worth buying." },
+        { ime: "Scarves and galabeyas from the souk", opis: "The market behind Luxor Temple sells the cotton clothes and scarves that locals wear. Deeper into the souk, where the souvenirs end, prices settle down." },
+        { ime: "Karkade", opis: "Dark red dried hibiscus from Upper Egypt is sold by weight in the market's spice shops. At home you can drink it hot or cold." }
       ]
     },
     "asuan-i-abu-simbel": {
       dragulji: [
-        { ime: "Nubijska sela na Elefantini", opis: "Na otoku nasuprot gradu dva su sela s kućama u plavoj i žutoj boji, vrtovima manga i kozama na puteljcima. Prijeđite javnim čamcem i samo lutajte." },
-        { ime: "Qubbet el-Hawa u sumrak", opis: "Grobnice plemića uklesane su u brdo na zapadnoj obali, a s vrha kod kupole vidi se cijeli Asuan, otoci i pustinja. Dolazi se čamcem pa pješice uz pješčanu padinu." },
-        { ime: "Samostan svetog Simeona", opis: "Ruševine koptskog samostana stoje usred pustinje iznad Nila, bez gužve i gotovo bez zvuka. Do njih se penje pješice ili na devi od pristaništa." }
+        { ime: "The Nubian villages on Elephantine", opis: "On the island facing town are two villages of blue and yellow houses, mango gardens and goats on the footpaths. Cross on the public boat and simply wander." },
+        { ime: "Qubbet el-Hawa at dusk", opis: "The Tombs of the Nobles are cut into a hill on the west bank, and from the dome on top you see all of Aswan, the islands and the desert. You get there by boat and then on foot up a sandy slope." },
+        { ime: "The Monastery of St. Simeon", opis: "The ruins of a Coptic monastery stand in the desert above the Nile, with no crowds and almost no sound. You climb up on foot or by camel from the landing." }
       ],
       domaci: [
-        { ime: "Večernji souk", opis: "Glavna trgovačka ulica oživi kad padne vrućina, a domaći tada kupuju začine, kikiriki i tkanine. Šećite polako i zastanite na čaši soka od hibiskusa." },
-        { ime: "Nubijska kava jebena", opis: "U nubijskim kućama kava se prži pred gostom, kuha s đumbirom i toči iz glinenog vrča u male šalice. Prihvatite poziv na čaj ili kavu ako vas pozovu u selu." },
-        { ime: "Jedrenjem između otoka", opis: "Lađari na felukama znaju svaku stijenu i struju prvog katarakta. Dogovorite sat ili dva vožnje pred zalazak i pustite da vas vjetar nosi oko otoka." }
+        { ime: "The evening souk", opis: "The main market street comes alive when the heat drops, and that is when locals buy spices, peanuts and fabric. Stroll slowly and stop for a glass of hibiscus juice." },
+        { ime: "Nubian jebena coffee", opis: "In Nubian homes, coffee is roasted in front of the guest, brewed with ginger and poured from a clay pot into tiny cups. If you are invited in for tea or coffee in a village, say yes." },
+        { ime: "Sailing between the islands", opis: "The felucca boatmen know every rock and current of the First Cataract. Arrange an hour or two before sunset and let the wind carry you around the islands." }
       ],
       kupiti: [
-        { ime: "Začini i kikiriki s tržnice", opis: "Asuan je grad začina, a hibiskus, kumin i prženi kikiriki u ljusci ovdje su svježiji nego igdje na sjeveru. Kupuju se na vagu u ulici tržnice paralelnoj s rijekom." },
-        { ime: "Nubijske košare i kapice", opis: "Šarene pletene posude od palmina lišća i vezene kapice rade žene u selima. Kupujte ih u selima na Elefantini ili u Gharb Soheilu, izravno ispred kuća." },
-        { ime: "Kana", opis: "Prah kane za kosu i ruke dolazi s juga i prodaje se na tržnici u vrećama. Nubijke u selima rado će vam oslikati dlan." }
+        { ime: "Spices and peanuts from the market", opis: "Aswan is a spice town, and the hibiscus, cumin and roasted peanuts in the shell are fresher here than anywhere to the north. They are sold by weight on the market street that runs parallel to the river." },
+        { ime: "Nubian baskets and caps", opis: "Village women weave colorful palm leaf dishes and embroider caps. Buy them in the villages on Elephantine or in Gharb Soheil, right outside the houses." },
+        { ime: "Henna", opis: "Henna powder for hair and hands comes from the south and is sold from sacks at the market. Nubian women in the villages will happily decorate your palm." }
       ]
     },
     "aleksandrija": {
       dragulji: [
-        { ime: "Četvrt Anfushi", opis: "Na vrhu poluotoka su brodograditelji koji i danas rade drvene ribarice na plaži, riblja tržnica i stare kuće. Dođite ujutro, dok se ulov još razvrstava." },
-        { ime: "Souk Attarine", opis: "U uličicama iza istoimene džamije prodaju se starine, namještaj i sitnice iz vremena kad je grad bio kozmopolitski. Ovdje je užitak i samo gledati." },
-        { ime: "Most Stanley u sumrak", opis: "Most s tornjićima nad malom uvalom omiljeno je mjesto za šetnju i fotografije mladih Aleksandrijaca. S njega se vidi cijeli luk obale kad se upale svjetla." }
+        { ime: "The Anfushi quarter", opis: "At the tip of the peninsula are boatbuilders who still make wooden fishing boats on the beach, a fish market and old houses. Come in the morning, while the catch is still being sorted." },
+        { ime: "Souk Attarine", opis: "The lanes behind the mosque of the same name sell antiques, furniture and odds and ends from the days when the city was cosmopolitan. It is a pleasure just to look." },
+        { ime: "Stanley Bridge at dusk", opis: "This bridge with little towers over a small bay is a favorite spot for young Alexandrians to walk and take pictures. From it you see the whole curve of the coast as the lights come on." }
       ],
       domaci: [
-        { ime: "Riba koju sami birate", opis: "U ribljim restoranima četvrti Bahari i Anfushi ribu birate s leda, kažete kako je želite i dobijete je s rižom i salatama. Tako se ovdje jede za obiteljskim stolom, polako i rukama." },
-        { ime: "Šetnja Cornicheom", opis: "Aleksandrijci žive na obali, s kukuruzom, sjemenkama i čajem iz pokretnih kolica. Zimi ovdje gledaju valove kako prelaze zid, a ljeti traže povjetarac." },
-        { ime: "Stare kavane u središtu", opis: "Oko trga Saad Zaghloul ostale su velike kavane i slastičarnice s visokim stropovima i konobarima u prslucima. Naručite kavu i kolač i čitajte kao što se to ovdje radi desetljećima." }
+        { ime: "Fish you pick yourself", opis: "In the fish restaurants of Bahari and Anfushi you choose your fish from the ice, say how you want it and get it with rice and salads. This is how families eat here, slowly and with their hands." },
+        { ime: "A walk on the Corniche", opis: "Alexandrians live on the waterfront, with grilled corn, seeds and tea from pushcarts. In winter they come to watch waves break over the wall, and in summer to catch the breeze." },
+        { ime: "The old cafes downtown", opis: "Around Saad Zaghloul Square, grand cafes and pastry shops survive with high ceilings and waiters in vests. Order a coffee and a pastry and read, as people have done here for decades." }
       ],
       kupiti: [
-        { ime: "Starine iz Attarina", opis: "Mesingani svijećnjaci, stare fotografije i porculan nalaze se u desecima malih radnji. Cjenkajte se strpljivo i ne kupujte ništa što izgleda kao arheološki nalaz." },
-        { ime: "Knjige s ulice Nabi Daniel", opis: "Uz ulicu su nanizani štandovi s rabljenim knjigama, starim časopisima i razglednicama na raznim jezicima. Lijepo je mjesto za traženje uspomene koja ne izgleda kao suvenir." }
+        { ime: "Antiques from Attarine", opis: "Brass candlesticks, old photographs and porcelain fill dozens of small shops. Bargain patiently, and do not buy anything that looks like an archaeological find." },
+        { ime: "Books from Nabi Daniel Street", opis: "The street is lined with stalls of used books, old magazines and postcards in many languages. It is a lovely place to hunt for a keepsake that does not look like a souvenir." }
       ]
     },
     "krstarenje-nilom": {
       dragulji: [
-        { ime: "Esna", opis: "Hram boga Khnuma leži u jami usred gradića, a nakon čišćenja stropovi su opet puni izvornih boja. Oko njega je stara tržnica i kuće s drvenim balkonima." },
-        { ime: "Gebel el-Silsila", opis: "Na najužem dijelu Nila stari su kamenolomi iz kojih je vađen pješčenjak za hramove, s malim svetištima uklesanim u stijenu. Ovdje pristaju samo manje jedrilice, pa pitajte za rutu prije rezervacije." },
-        { ime: "Tržnica deva u Darawu", opis: "U mjestu blizu Kom Omba trguje se devama koje dolaze iz Sudana, glasno i uz puno rukovanja. Pitajte posadu za dan tržnice i može li se organizirati posjet." }
+        { ime: "Esna", opis: "The Temple of Khnum sits in a pit in the middle of town, and after cleaning its ceilings are full of original color again. Around it are an old market and houses with wooden balconies." },
+        { ime: "Gebel el-Silsila", opis: "At the narrowest point of the Nile are the ancient quarries that supplied sandstone for the temples, with small shrines cut into the rock. Only the smaller sailing boats stop here, so ask about the route before you book." },
+        { ime: "The camel market at Daraw", opis: "In a town near Kom Ombo, camels that have come up from Sudan are traded loudly and with a lot of handshaking. Ask the crew which day the market is held and whether a visit can be arranged." }
       ],
       domaci: [
-        { ime: "Život uz obalu s palube", opis: "Najbolji dio plovidbe su sati između hramova, kad prolaze ribari u čamcima, djeca koja mašu i bivoli u plićaku. Ustanite rano i sjednite na palubu s čajem." },
-        { ime: "Trgovci na ustavi u Esni", opis: "Dok brodovi čekaju prolaz, prodavači u čamcima dobacuju stolnjake i galabeje na palubu, a cijena se dovikuje preko ograde. Sudjelujte iz zabave, ali kupujte samo ono što vam se doista sviđa." },
-        { ime: "Karkade u sumrak", opis: "Hladan napitak od hibiskusa egipatska je dobrodošlica, a na brodu se pije dok sunce pada iza palmi. Zamolite posadu da vam ga posluže manje slatkog." }
+        { ime: "Riverbank life from the deck", opis: "The best part of the cruise is the hours between temples, when fishermen in rowboats, waving children and water buffalo in the shallows slide past. Get up early and sit on deck with a tea." },
+        { ime: "The traders at Esna lock", opis: "While the ships wait to pass, sellers in rowboats toss tablecloths and galabeyas up onto the deck and shout prices over the railing. Join in for fun, and buy only what you really like." },
+        { ime: "Karkade at dusk", opis: "A cold hibiscus drink is the Egyptian welcome, and on board you sip it as the sun drops behind the palms. Ask the crew to make yours less sweet." }
       ],
       kupiti: [
-        { ime: "Pamučna galabeja", opis: "Duga široka haljina kakvu nose domaći ugodna je za vruće dane i kao kućna odjeća. Kupite je na tržnici u Esni ili Edfuu, gdje se šije i po mjeri." },
-        { ime: "Začini iz gradića uz rijeku", opis: "Tržnice u Esni i Kom Ombu opskrbljuju okolna sela, pa su začini i hibiskus svježi i bez turističke marže. Kupujte na vagu i zamolite da vam ih dobro zamotaju." }
+        { ime: "Cotton galabeya", opis: "The long loose robe that locals wear is comfortable on hot days and as a house dress. Buy it at the market in Esna or Edfu, where they also sew to measure." },
+        { ime: "Spices from the river towns", opis: "The markets in Esna and Kom Ombo supply the surrounding villages, so the spices and hibiscus are fresh and free of a tourist markup. Buy by weight and ask for everything to be wrapped well." }
       ]
     },
     "sinaj-i-dahab": {
       dragulji: [
-        { ime: "Ras Abu Galum", opis: "Sjeverno od Blue Holea je zaštićena obala do koje se stiže pješice uz more, na devi ili čamcem. Tamo su beduinske kolibe, plitka laguna i koralji bez gužve." },
-        { ime: "Laguna u Dahabu", opis: "Na južnom kraju mjesta je pješčani jezičac s plitkom tirkiznom vodom, gdje domaći uče jedriti na dasci. Mirnija je od šetnice i dobra za cijeli dan na pijesku." },
-        { ime: "Obojeni kanjon", opis: "U unutrašnjosti kod Nuweibe uski se prolaz probija kroz stijene u slojevima crvene, žute i ljubičaste boje. Ide se s beduinskim vodičem, uz malo provlačenja i penjanja." }
+        { ime: "Ras Abu Galum", opis: "North of the Blue Hole is a protected stretch of coast you reach on foot along the sea, by camel or by boat. There you find Bedouin huts, a shallow lagoon and coral without the crowds." },
+        { ime: "The Lagoon in Dahab", opis: "At the south end of town is a sand spit with shallow turquoise water where locals learn to windsurf. It is calmer than the promenade and good for a whole day on the sand." },
+        { ime: "The Colored Canyon", opis: "Inland near Nuweiba, a narrow passage winds through rock layered in red, yellow and purple. You go with a Bedouin guide, with a bit of squeezing and scrambling." }
       ],
       domaci: [
-        { ime: "Beduinski čaj s biljem", opis: "Čaj se kuha na vatri s pustinjskom kaduljom ili biljkom habak i pije vrlo sladak. Poslužit će vam ga svugdje, od ronilačkog centra do planinskog skloništa." },
-        { ime: "Večera na jastucima uz more", opis: "U Dahabu se sjedi nisko, na prostirkama uz samu vodu, satima i bez žurbe. Naručite ribu i pustite da večer prođe uz zvuk valova." },
-        { ime: "Noćni uspon s vodičima Jebeliya", opis: "Na goru Sinaj penje se noću, s beduinima plemena koje stoljećima čuva samostan Svete Katarine. Usput su kolibe s čajem i dekama, a izlazak sunca dočeka se na vrhu." }
+        { ime: "Bedouin tea with herbs", opis: "Tea is brewed on the fire with desert sage or the herb habak and drunk very sweet. You will be served it everywhere, from the dive center to the mountain hut." },
+        { ime: "Dinner on cushions by the sea", opis: "In Dahab people sit low, on rugs right at the water's edge, for hours and with no rush. Order fish and let the evening pass to the sound of the waves." },
+        { ime: "The night climb with Jebeliya guides", opis: "Mount Sinai is climbed at night with Bedouin of the tribe that has looked after St. Catherine's Monastery for centuries. Along the way are huts with tea and blankets, and you meet the sunrise at the top." }
       ],
       kupiti: [
-        { ime: "Beduinski vez", opis: "Žene Sinaja vezu torbice i narukvice sitnim perlicama i križnim bodom u uzorcima svog plemena. Najpoštenije je kupiti ih od ženske zadruge u Svetoj Katarini ili od žena u selima." },
-        { ime: "Pustinjsko bilje", opis: "Sušena kadulja, majčina dušica i habak beru se u planinama Sinaja i prodaju u malim vrećicama. Naći ćete ih kod beduina uz planinske staze i u trgovinicama u Dahabu." }
+        { ime: "Bedouin embroidery", opis: "Sinai women embroider pouches and bracelets with tiny beads and cross-stitch in their tribe's patterns. The fairest way to buy is from the women's cooperative in St. Catherine or from women in the villages." },
+        { ime: "Desert herbs", opis: "Dried sage, thyme and habak are gathered in the Sinai mountains and sold in small bags. You will find them with Bedouin along the mountain trails and in little shops in Dahab." }
       ]
     },
     "siwa": {
       dragulji: [
-        { ime: "Otok Fatnas", opis: "Palmin gaj na rubu slanog jezera ima izvor za kupanje i pogled na zalazak iza stolnih planina. Dolazi se biciklom ili magarećim kolima, sat prije sumraka." },
-        { ime: "Bir Wahed", opis: "Usred dina Velikog pješčanog mora nalazi se vrući izvor, a nedaleko i hladno jezerce. Do tamo vode domaći vozači terenskim vozilima, obično kasno popodne." },
-        { ime: "Planina mrtvih", opis: "Brdo izbušeno grobnicama gleda na cijelu oazu, s more palmi i jezerima u daljini. Nekoliko grobnica ima očuvane slike, a čuvar ih otključava na zamolbu." }
+        { ime: "Fatnas Island", opis: "A palm grove on the edge of a salt lake has a spring for swimming and a sunset view behind flat-topped hills. You get there by bike or donkey cart, an hour before dusk." },
+        { ime: "Bir Wahed", opis: "In the dunes of the Great Sand Sea there is a hot spring, with a cold lake not far away. Local drivers take you there in four-wheel-drive vehicles, usually late in the afternoon." },
+        { ime: "The Mountain of the Dead", opis: "A hill honeycombed with tombs looks over the entire oasis, with a sea of palms and lakes in the distance. A few tombs have preserved paintings, and the guardian unlocks them if you ask." }
       ],
       domaci: [
-        { ime: "Kupanje na Kleopatrinu izvoru", opis: "Okrugli kameni bazen s vodom koja izvire s dna mjesto je gdje se kupaju i domaći mladići. Žene iz oaze žive vrlo povučeno, pa se ovdje kupajte u majici i kratkim hlačama." },
-        { ime: "Magarećim kolima kroz vrtove", opis: "Dječaci i starci na kolima karetta još su uobičajen prijevoz kroz palmike. Dogovorite vožnju do vrtova i izvora i pustite da vas vode svojim tempom." },
-        { ime: "Čaj uz vatru", opis: "Siwanski čaj kuha se dugo, vrlo je jak i pije se iz malih čaša, često s limunskom travom. Večeri se provode uz vatru u vrtovima, pod nebom punim zvijezda." }
+        { ime: "A swim at Cleopatra's Spring", opis: "This round stone pool, with water rising from the bottom, is where local young men swim too. The women of the oasis live very privately, so swim here in a T-shirt and shorts." },
+        { ime: "By donkey cart through the gardens", opis: "Boys and old men driving a karetta cart are still an everyday way to get through the palm groves. Arrange a ride to the gardens and springs and let them set the pace." },
+        { ime: "Tea by the fire", opis: "Siwan tea is brewed for a long time, comes very strong and is drunk from small glasses, often with lemongrass. Evenings are spent around a fire in the gardens, under a sky packed with stars." }
       ],
       kupiti: [
-        { ime: "Datulje i maslinovo ulje", opis: "Oaza živi od stotina tisuća palmi i maslina, a datulje punjene bademima lokalna su poslastica. Kupuju se u trgovinicama oko glavnog trga podno tvrđave Shali." },
-        { ime: "Siwanski vez", opis: "Žene vezu šalove i haljine narančastim, crvenim i zelenim koncem sa sedefnim gumbima. Kupujte preko ženskih radionica u oazi, jer žene same rijetko prodaju na ulici." },
-        { ime: "Sol iz jezera", opis: "Iz slanih jezera vadi se sol od koje se klešu svjetiljke i svijećnjaci. Manji komadi lako stanu u kovčeg, a prodaju se u radnjama u središtu." }
+        { ime: "Dates and olive oil", opis: "The oasis lives off hundreds of thousands of palms and olive trees, and dates stuffed with almonds are the local treat. They are sold in the small shops around the main square below Shali fortress." },
+        { ime: "Siwan embroidery", opis: "Women embroider shawls and dresses in orange, red and green thread with mother-of-pearl buttons. Buy through the women's workshops in the oasis, since the women rarely sell in the street themselves." },
+        { ime: "Salt from the lakes", opis: "Salt cut from the salt lakes is carved into lamps and candleholders. Smaller pieces fit easily in a suitcase and are sold in shops in the center." }
       ]
     }
   }

@@ -1,311 +1,311 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["nizozemska"] = {
   id: "nizozemska",
-  ime: "Nizozemska",
-  regija: "Zapadna Europa",
-  sazetak: "Zemlja koju su ljudi oteli moru, s kanalima, vjetrenjačama, biciklima i muzejima punima Rembrandta, Vermeera i Van Gogha.",
+  ime: "Netherlands",
+  regija: "Western Europe",
+  sazetak: "A country that people wrested from the sea, with canals, windmills, bicycles and museums full of Rembrandt, Vermeer and Van Gogh.",
   uvod: [
-    "Nizozemska je doslovno napravljena rukama. Otprilike četvrtina zemlje leži ispod razine mora, a suhom je drže nasipi, kanali i crpke, zbog čega Nizozemci vole reći da je Bog stvorio svijet, a oni Nizozemsku. Ta stoljetna borba s vodom naučila ih je dogovaranju i praktičnosti, što se osjeća i danas, od urednih gradova do načina na koji se razgovara, izravno i bez okolišanja.",
-    "Zlatno doba zemlje bilo je 17. stoljeće. Nakon pobune protiv španjolske vlasti, koja je počela 1568. i završila priznanjem neovisnosti 1648., mala republika trgovaca postala je pomorska sila s brodovima na svim morima. Tada su iskopani amsterdamski kanali, tada su slikali Rembrandt, Vermeer i Frans Hals, a građani su prvi put kupovali slike za vlastite domove. Imajte na umu da je Holland ime samo dviju zapadnih pokrajina, pa se cijela zemlja ispravno zove Nizozemska."
+    "The Netherlands was quite literally made by hand. Roughly a quarter of the country lies below sea level, kept dry by dikes, canals and pumps, which is why the Dutch like to say that God created the world and they created the Netherlands. That centuries-long struggle with water taught them cooperation and practicality, and you can still feel it today, from the tidy towns to the way people talk, directly and without beating around the bush.",
+    "The country's golden age was the 17th century. After the revolt against Spanish rule, which began in 1568 and ended with the recognition of independence in 1648, a small republic of merchants became a sea power with ships on every ocean. That was when Amsterdam's canals were dug, when Rembrandt, Vermeer and Frans Hals were painting, and when ordinary citizens bought paintings for their own homes for the first time. Keep in mind that Holland is the name of just two western provinces, so the correct name for the whole country is the Netherlands."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od sredine travnja do početka svibnja zbog polja tulipana, a zatim sve do rujna zbog dugih dana i terasa uz kanale. Vrijeme je promjenjivo u svako doba godine, pa kišna jakna treba i ljeti." },
-    { k: "Valuta", v: "Euro. Plaća se gotovo isključivo karticom, a neka mjesta gotovinu uopće ne primaju." },
-    { k: "Kretanje", v: "Vlakovi povezuju sve veće gradove nekoliko puta na sat, a u vlak, tramvaj i autobus ulazi se prislanjanjem beskontaktne bankovne kartice pri ulasku i izlasku. Gradovi su mali i ravni, pa se sve obilazi pješice ili biciklom." },
-    { k: "Napojnica", v: "Usluga je uračunata u cijenu. Za dobru uslugu uobičajeno je zaokružiti račun ili ostaviti pet do deset posto." },
-    { k: "Bicikli", v: "Crvenkaste staze namijenjene su samo biciklistima, koji voze brzo i imaju prednost. Prije prelaska ulice pogledajte na obje strane i nikada ne hodajte po biciklističkoj stazi." }
+    { k: "When to go", v: "From mid-April to early May for the tulip fields, and then right through September for the long days and the terraces along the canals. The weather is changeable at any time of year, so you need a rain jacket even in summer." },
+    { k: "Currency", v: "Euro. People pay almost exclusively by card, and some places do not accept cash at all." },
+    { k: "Getting around", v: "Trains link all the larger cities several times an hour, and you board trains, trams and buses by tapping a contactless bank card when you get on and off. The cities are small and flat, so you can see everything on foot or by bike." },
+    { k: "Tipping", v: "Service is included in the price. For good service it is customary to round up the bill or leave five to ten percent." },
+    { k: "Bicycles", v: "The reddish paths are for cyclists only, who ride fast and have the right of way. Look both ways before you cross the street and never walk on a bike path." }
   ],
   hrana: [
-    { ime: "Hollandse Nieuwe", opis: "Mlada haringa, lagano usoljena i sirova, poslužena sa sitno sjeckanim lukom i kiselim krastavcima.", prica: "Sezona počinje sredinom lipnja, kada u luku stigne prvi ulov i prva se bačva prodaje na dražbi u dobrotvorne svrhe. Tradicionalno se riba uhvati za rep, zabaci glava i zagrize odozdo, dok je u Amsterdamu režu na komadiće i jedu čačkalicom." },
-    { ime: "Stroopwafel", opis: "Dva tanka hrskava vafla slijepljena toplim sirupom od karamele.", prica: "Potječe iz grada Goude, gdje su ga pekari početkom 19. stoljeća radili od ostataka tijesta i mrvica. Kupljeni u trgovini najbolji su ako ih minutu držite na šalici vruće kave ili čaja, da para omekša sirup, a na tržnicama se peku pred vama, veliki kao tanjur." },
-    { ime: "Bitterballen", opis: "Pržene okruglice hrskave kore punjene gustim, kremastim goveđim raguom.", prica: "Jedu se uz piće u kasno poslijepodne, u vrijeme koje Nizozemci zovu borrel, uvijek sa senfom. Pričekajte minutu prije prvog zalogaja, jer je punjenje vrelo i svatko se jednom opeče." },
-    { ime: "Stamppot", opis: "Pire krumpir izgnječen s povrćem, najčešće s keljom, uz dimljenu kobasicu rookworst.", prica: "To je zimsko jelo iz jednog lonca i prava nizozemska kućna kuhinja. U sredini pirea napravi se udubina za umak od pečenja, koju djeca zovu jezerce." },
-    { ime: "Erwtensoep", opis: "Juha od suhog graška s celerom, porilukom i svinjetinom, poznata i kao snert.", prica: "Mora biti toliko gusta da žlica u njoj stoji uspravno, a mnogi tvrde da je najbolja sutradan. Jede se zimi, s raženim kruhom i slaninom, a tradicionalno se prodavala i na zaleđenim kanalima za klizače." },
-    { ime: "Sir", opis: "Gouda i edamer, polutvrdi kravlji sirevi koji se prodaju prema zrelosti, od mladog do dugo odležanog.", prica: "Na etiketi tražite riječi jong za mladi, belegen za srednje zreli i oud za stari sir, koji je mrvljiv i ima kristaliće poput parmezana. Oznaka boerenkaas znači da je sir napravljen na farmi od sirovog mlijeka." },
-    { ime: "Poffertjes", opis: "Sitne, napuhane palačinkice od heljdinog brašna, s maslacem i šećerom u prahu.", prica: "Peku se u teškoj tavi s udubinama i okreću vilicom jednim brzim pokretom. Jedu se na sajmovima i tržnicama, još vruće, dok se maslac topi po njima." },
-    { ime: "Rijsttafel", opis: "Stol pun malih zdjelica indonezijskih jela, od saté ražnjića i rendanga do povrća u kikirikijevu umaku, uz rižu.", prica: "Taj su način posluživanja smislili nizozemski kolonisti u Indoneziji kako bi odjednom kušali jela s različitih otoka, pa je to više kolonijalna nego izvorna indonezijska navika. Danas je indonezijska kuhinja u Nizozemskoj domaća gotovo kao i sir." },
-    { ime: "Appeltaart", opis: "Visoka pita od jabuka s cimetom i grožđicama, s debelom prhkom korom.", prica: "Recept se nalazi već u nizozemskoj kuharici iz 1514. godine. Poslužuje se uz kavu, s tučenim vrhnjem, a uz pitanje želite li šlag odgovara se bez razmišljanja potvrdno." },
-    { ime: "Jenever", opis: "Žitna rakija s okusom borovice, preteča engleskoga gina.", prica: "Toči se u čašicu u obliku tulipana do samog ruba, pa se prvi gutljaj srkne sagnuvši se nad šank, bez ruku. Uz čašu piva zove se kopstootje, što znači udarac glavom." }
+    { ime: "Hollandse Nieuwe", opis: "Young herring, lightly salted and raw, served with finely chopped onion and pickles.", prica: "The season begins in mid-June, when the first catch reaches port and the first barrel is auctioned for charity. Traditionally you hold the fish by the tail, tip your head back and bite from below, while in Amsterdam it is cut into pieces and eaten with a toothpick." },
+    { ime: "Stroopwafel", opis: "Two thin crisp waffles stuck together with warm caramel syrup.", prica: "It comes from the town of Gouda, where bakers in the early 19th century made it from leftover dough and crumbs. The store-bought ones are best if you rest them for a minute on a cup of hot coffee or tea so that the steam softens the syrup, and at markets they are baked in front of you, as big as a plate." },
+    { ime: "Bitterballen", opis: "Fried balls with a crisp crust, filled with a thick, creamy beef ragout.", prica: "They are eaten with a drink in the late afternoon, at the hour the Dutch call borrel, always with mustard. Wait a minute before your first bite, because the filling is scalding and everyone gets burned once." },
+    { ime: "Stamppot", opis: "Mashed potatoes mashed together with vegetables, most often kale, served with the smoked sausage rookworst.", prica: "This is a one-pot winter dish and true Dutch home cooking. A hollow is made in the middle of the mash for the gravy, and children call it the little lake." },
+    { ime: "Erwtensoep", opis: "A soup of dried peas with celery, leek and pork, also known as snert.", prica: "It has to be so thick that a spoon stands upright in it, and many people swear it is best the next day. It is eaten in winter, with rye bread and bacon, and it was traditionally sold to skaters on the frozen canals as well." },
+    { ime: "Cheese", opis: "Gouda and Edam, semi-hard cow's milk cheeses sold by age, from young to long matured.", prica: "On the label look for the words jong for young, belegen for medium matured and oud for old cheese, which is crumbly and has little crystals like Parmesan. The label boerenkaas means the cheese was made on a farm from raw milk." },
+    { ime: "Poffertjes", opis: "Tiny, puffy pancakes made with buckwheat flour, served with butter and powdered sugar.", prica: "They are cooked in a heavy pan with hollows and turned with a fork in one quick movement. You eat them at fairs and markets, still hot, while the butter melts over them." },
+    { ime: "Rijsttafel", opis: "A table full of small bowls of Indonesian dishes, from saté skewers and rendang to vegetables in peanut sauce, served with rice.", prica: "This way of serving was devised by Dutch colonists in Indonesia so they could taste dishes from different islands at once, which makes it more of a colonial habit than an original Indonesian one. Today Indonesian food is almost as much at home in the Netherlands as cheese." },
+    { ime: "Appeltaart", opis: "A deep apple pie with cinnamon and raisins and a thick, crumbly crust.", prica: "The recipe already appears in a Dutch cookbook from 1514. It is served with coffee and whipped cream, and when you are asked whether you want cream, the answer is yes without a second thought." },
+    { ime: "Jenever", opis: "A grain spirit flavored with juniper, the forerunner of English gin.", prica: "It is poured into a tulip-shaped glass right to the brim, so you slurp the first sip bending over the bar, without using your hands. Paired with a glass of beer it is called a kopstootje, which means a headbutt." }
   ],
   obicaji: [
-    { ime: "Koningsdag", opis: "Na kraljev rođendan cijela se zemlja oblači u narančasto, boju kraljevske kuće Oranje-Nassau, a ulice postaju golemi buvljak na kojem svatko smije prodavati bez dozvole. Kanali su puni čamaca s glazbom, a djeca sviraju i prodaju kolače na pločniku.", gdje: "U svim gradovima, 27. travnja. Najveća je gužva u Amsterdamu, a opuštenije je u Utrechtu i Haarlemu." },
-    { ime: "Sinterklaas", opis: "Sveti Nikola u Nizozemsku stiže parobrodom iz Španjolske sredinom studenoga, a djeci darove donosi navečer 5. prosinca. Odrasli jedni drugima pišu šaljive pjesmice i pakiraju darove u domišljata iznenađenja.", gdje: "Svečani dolazak održava se svake godine u drugom gradu, a zatim i u svakom mjestu posebno, sredinom studenoga." },
-    { ime: "Biciklistička kultura", opis: "U zemlji ima više bicikala nego stanovnika, a na posao, u školu i u kazalište vozi se u svakodnevnoj odjeći i po svakom vremenu. Tipičan je teški gradski bicikl s kočnicom na pedalama, zvan omafiets, bakin bicikl.", gdje: "Bicikl se može unajmiti u svakom gradu, a za prvu vožnju mirniji su Utrecht, Haarlem ili Delft nego Amsterdam." },
-    { ime: "Tulipani i cvjetna polja", opis: "Tulipan je u Nizozemsku stigao iz Osmanskog Carstva krajem 16. stoljeća, a 1637. cijene lukovica narasle su do vrijednosti kuće i preko noći se srušile, što se pamti kao jedna od prvih gospodarskih groznica u povijesti. Danas je zemlja najveći svjetski izvoznik cvijeća.", gdje: "Park Keukenhof kod Lissea, otvoren od sredine ožujka do sredine svibnja, i polja oko njega u drugoj polovici travnja." },
-    { ime: "Tržnice sira", opis: "Na povijesnim sajmovima nosači u bijelom, sa slamnatim šeširima u boji svojega ceha, trčećim korakom nose kolutove na drvenim nosilima, a kupac i prodavač cijenu dogovaraju pljeskanjem dlanom o dlan. Danas je to predstava za posjetitelje, izvedena po starim pravilima.", gdje: "Alkmaar, petkom ujutro od proljeća do rujna, i Gouda, četvrtkom ujutro od travnja do kolovoza." },
-    { ime: "Mlinari i vjetrenjače", opis: "Vjetrenjače su u prvom redu bile crpke koje su vodu iz nizina prebacivale u više kanale, a tek onda mlinovi. Mlinarski zanat od 2017. nalazi se na UNESCO-ovu popisu nematerijalne baštine, a položaj krila nekad je susjedima javljao veselje ili žalost u obitelji.", gdje: "Kinderdijk kod Rotterdama i Zaanse Schans kod Amsterdama. Drugoga vikenda u svibnju, na Nacionalni dan mlinova, stotine vjetrenjača otvaraju vrata." },
-    { ime: "Gezelligheid", opis: "Riječ koju Nizozemci smatraju neprevodivom označava toplu, opuštenu ugodu u dobrom društvu, uz svijeće, kavu ili pivo. Gezellig može biti kavana, večer, pa i osoba.", gdje: "U takozvanim smeđim kavanama, starim pivnicama s drvenim oblogama potamnjelima od dima, kakvih je najviše u amsterdamskom Jordaanu." }
+    { ime: "Koningsdag", opis: "On the king's birthday the whole country dresses in orange, the color of the royal House of Orange-Nassau, and the streets become a giant flea market where anyone may sell without a permit. The canals are full of boats with music, and children play instruments and sell cakes on the sidewalk.", gdje: "In every town, on April 27. Amsterdam is the most crowded, while Utrecht and Haarlem are more relaxed." },
+    { ime: "Sinterklaas", opis: "Saint Nicholas arrives in the Netherlands by steamboat from Spain in mid-November and brings children their presents on the evening of December 5. Adults write each other funny little poems and wrap gifts as ingenious surprises.", gdje: "The ceremonial arrival is held in a different town every year, and then in each place separately, in mid-November." },
+    { ime: "Cycling culture", opis: "The country has more bicycles than inhabitants, and people ride to work, to school and to the theater in everyday clothes and in any weather. The typical bike is a heavy city model with a back-pedal brake, called an omafiets, or granny bike.", gdje: "You can rent a bike in any town, and for a first ride Utrecht, Haarlem or Delft are calmer than Amsterdam." },
+    { ime: "Tulips and flower fields", opis: "The tulip reached the Netherlands from the Ottoman Empire at the end of the 16th century, and in 1637 bulb prices rose to the value of a house and collapsed overnight, which is remembered as one of the first speculative manias in history. Today the country is the world's largest exporter of flowers.", gdje: "Keukenhof park near Lisse, open from mid-March to mid-May, and the fields around it in the second half of April." },
+    { ime: "Cheese markets", opis: "At the historic markets, porters in white, wearing straw hats in the color of their guild, carry the wheels at a trot on wooden barrows, and buyer and seller settle the price by clapping palm against palm. Today it is a show for visitors, performed by the old customs.", gdje: "Alkmaar, on Friday mornings from spring to September, and Gouda, on Thursday mornings from April to August." },
+    { ime: "Millers and windmills", opis: "Windmills were first of all pumps that moved water from the lowlands into higher canals, and only then mills. The miller's craft has been on UNESCO's intangible heritage list since 2017, and the position of the sails once told the neighbors of joy or mourning in the family.", gdje: "Kinderdijk near Rotterdam and Zaanse Schans near Amsterdam. On the second weekend of May, National Mill Day, hundreds of windmills open their doors." },
+    { ime: "Gezelligheid", opis: "A word the Dutch consider untranslatable, it describes a warm, relaxed coziness in good company, with candles, coffee or beer. A cafe can be gezellig, and so can an evening or even a person.", gdje: "In the so-called brown cafes, old pubs with wood paneling darkened by smoke, most of which are in Amsterdam's Jordaan." }
   ],
   fraze: [
-    { izvorno: "Goedemorgen", izgovor: "hu-de-MOR-hen", hr: "Dobro jutro" },
-    { izvorno: "Dank je wel", izgovor: "DANK je vel", hr: "Hvala lijepa" },
-    { izvorno: "Alstublieft", izgovor: "AL-stu-blift", hr: "Molim, izvolite" },
-    { izvorno: "Tot ziens", izgovor: "tot ZINS", hr: "Doviđenja" },
-    { izvorno: "Spreekt u Engels?", izgovor: "sprejkt u ENG-els", hr: "Govorite li engleski?" },
-    { izvorno: "De rekening, alstublieft", izgovor: "de REJ-ke-ning, AL-stu-blift", hr: "Račun, molim" },
-    { izvorno: "Lekker!", izgovor: "LE-ker", hr: "Ukusno! (kaže se i za lijepo vrijeme)" },
-    { izvorno: "Proost!", izgovor: "prost", hr: "Živjeli!" }
+    { izvorno: "Goedemorgen", izgovor: "khoo-duh-MOR-khun", hr: "Good morning" },
+    { izvorno: "Dank je wel", izgovor: "DAHNK yuh vel", hr: "Thank you very much" },
+    { izvorno: "Alstublieft", izgovor: "AHL-stoo-bleeft", hr: "Please, here you are" },
+    { izvorno: "Tot ziens", izgovor: "tot ZEENS", hr: "Goodbye" },
+    { izvorno: "Spreekt u Engels?", izgovor: "spraykt oo ENG-uls", hr: "Do you speak English?" },
+    { izvorno: "De rekening, alstublieft", izgovor: "duh RAY-kuh-ning, AHL-stoo-bleeft", hr: "The check, please" },
+    { izvorno: "Lekker!", izgovor: "LEK-ker", hr: "Delicious! (also said of nice weather)" },
+    { izvorno: "Proost!", izgovor: "prohst", hr: "Cheers!" }
   ],
   zanimljivosti: [
-    "Zračna luka Schiphol leži nekoliko metara ispod razine mora, na dnu isušenog jezera na kojem se 1573. vodila pomorska bitka.",
-    "Nizozemci su u prosjeku najviši narod na svijetu.",
-    "New York se do 1664. zvao Novi Amsterdam, a četvrti Harlem i Brooklyn nose imena nizozemskih gradova Haarlema i Breukelena.",
-    "Pokrajina Flevoland u cijelosti je nastala isušivanjem mora u 20. stoljeću, a službeno je osnovana tek 1986.",
-    "Amsterdamska burza, osnovana 1602. radi trgovine dionicama Ujedinjene istočnoindijske kompanije, smatra se najstarijom burzom dionica na svijetu.",
-    "Kuće uz amsterdamske kanale imaju na vrhu zabata gredu s kukom, jer su stubišta preuska i namještaj se i danas unosi užetom kroz prozor.",
-    "Popularna priča kaže da su nizozemski vrtlari u 17. stoljeću uzgojili narančastu mrkvu u čast kuće Oranje, ali za to nema čvrstih dokaza."
+    "Schiphol Airport lies several meters below sea level, on the bed of a drained lake where a naval battle was fought in 1573.",
+    "The Dutch are, on average, the tallest people in the world.",
+    "Until 1664 New York was called New Amsterdam, and the neighborhoods of Harlem and Brooklyn bear the names of the Dutch towns of Haarlem and Breukelen.",
+    "The province of Flevoland was created entirely by draining the sea in the 20th century, and it was officially founded only in 1986.",
+    "The Amsterdam exchange, founded in 1602 to trade shares of the Dutch East India Company, is considered the oldest stock exchange in the world.",
+    "The houses along Amsterdam's canals have a beam with a hook at the top of the gable, because the staircases are too narrow and furniture is still hauled in by rope through the window today.",
+    "A popular story says that Dutch gardeners bred the orange carrot in the 17th century in honor of the House of Orange, but there is no solid evidence for it."
   ],
   mjesta: [
     {
       id: "amsterdam",
       ime: "Amsterdam",
       vrsta: "grad",
-      sazetak: "Grad na 165 kanala i tisućama drvenih pilota, s muzejima svjetske klase i kućama koje se naginju jedna na drugu.",
+      sazetak: "A city on 165 canals and thousands of wooden piles, with world-class museums and houses that lean on one another.",
       prica: [
-        "Amsterdam je počeo kao ribarsko naselje uz branu na rijeci Amstel, što mu je dalo i ime, a prvi se put spominje 1275. u povelji kojom je oslobođen plaćanja mostarine. Pravi uzlet došao je nakon 1585., kada su trgovci i obrtnici iz Antwerpena, koji su zauzeli Španjolci, prebjegli na sjever i sa sobom donijeli novac i znanje.",
-        "U 17. stoljeću grad je bio najbogatija luka svijeta i tada je, prema jedinstvenom planu, iskopan polukružni prsten od tri velika kanala, koji je od 2010. na UNESCO-ovu popisu. Budući da je tlo močvarno, svaka kuća stoji na drvenim pilotima zabijenima do čvrstog sloja pijeska, a kako se porez plaćao prema širini pročelja, kuće su uske, duboke i visoke."
+        "Amsterdam began as a fishing settlement beside a dam on the Amstel River, which also gave it its name, and it is first mentioned in 1275 in a charter that freed it from paying bridge tolls. The real takeoff came after 1585, when merchants and craftsmen from Antwerp, which had been taken by the Spanish, fled north and brought their money and know-how with them.",
+        "In the 17th century the city was the richest port in the world, and that was when the semicircular ring of three great canals was dug to a single plan, a ring that has been on the UNESCO list since 2010. Because the ground is marshy, every house stands on wooden piles driven down to a firm layer of sand, and because tax was paid according to the width of the facade, the houses are narrow, deep and tall."
       ],
       vidjeti: [
-        { ime: "Rijksmuseum", opis: "Nacionalni muzej u zgradi Pierrea Cuypersa iz 1885. vodi vas ravno u Galeriju časti, na čijem kraju visi Rembrandtova Noćna straža iz 1642. godine. Slika se posljednjih godina istražuje i restaurira u staklenoj komori pred očima posjetitelja. Potražite i Vermeerovu Mljekaricu, malu sliku na kojoj mlaz mlijeka kao da stvarno teče." },
-        { ime: "Kuća Anne Frank", opis: "U stražnjem dijelu kuće na Prinsengrachtu 263 osmero se ljudi skrivalo od 6. srpnja 1942. do uhićenja 4. kolovoza 1944. Ulazi se kroz pomičnu policu za knjige, a sobe su po želji Otta Franka ostale prazne. Na zidu Annine sobe još su slike filmskih zvijezda koje je sama zalijepila. Ulaznice se prodaju samo putem interneta, za točno određen termin, i brzo se rasprodaju." },
-        { ime: "Muzej Van Gogh", opis: "Najveća zbirka Van Goghovih djela na svijetu poredana je kronološki, pa pratite kako tamne, zemljane boje iz Nizozemske u samo nekoliko godina prelaze u žarke žute i plave s juga Francuske. Ovdje su Suncokreti, Ljudi koji jedu krumpir i Žitno polje s vranama, kao i pisma bratu Theu." },
-        { ime: "Prsten kanala i Jordaan", opis: "Herengracht, Keizersgracht i Prinsengracht iskopani su u 17. stoljeću kao gospodski, carski i prinčev kanal. Gledajte vrhove pročelja: stepenasti zabati stariji su, zvonoliki mlađi, a kuće su namjerno nagnute prema naprijed kako teret koji se diže užetom ne bi udarao u prozore. Susjedni Jordaan bio je radnička četvrt, a danas je pun malih galerija i kavana." },
-        { ime: "Begijnhof", opis: "Tiho dvorište u kojem su od 14. stoljeća živjele begine skriveno je iza neuglednih vrata usred trgovačke četvrti. Na broju 34 stoji jedna od dviju preostalih drvenih kuća u gradu, iz oko 1528., sagrađena prije nego što je drvena gradnja zabranjena zbog požara. Nasuprot njoj je katolička kapela skrivena iza običnog pročelja." },
-        { ime: "Kraljevska palača na Damu", opis: "Sagrađena je od 1648. do 1665. kao gradska vijećnica, tada najveća upravna zgrada u Europi, i počiva na 13.659 drvenih pilota, što nizozemska djeca uče napamet. Palačom je postala 1808., kada se u nju uselio Napoleonov brat Luj. U Građanskoj dvorani na mramornom su podu izrađene karte neba i dviju Zemljinih polutki, s Amsterdamom u središtu svijeta." }
+        { ime: "Rijksmuseum", opis: "The national museum, in Pierre Cuypers's building from 1885, leads you straight into the Gallery of Honour, at the end of which hangs Rembrandt's Night Watch from 1642. In recent years the painting has been studied and restored in a glass chamber in full view of visitors. Look for Vermeer's Milkmaid too, a small painting in which the stream of milk seems to really flow." },
+        { ime: "Anne Frank House", opis: "In the rear part of the house at Prinsengracht 263, eight people hid from July 6, 1942, until their arrest on August 4, 1944. You enter through a movable bookcase, and at Otto Frank's wish the rooms have been left empty. On the wall of Anne's room there are still the pictures of film stars she pasted up herself. Tickets are sold online only, for a specific time slot, and they sell out fast." },
+        { ime: "Van Gogh Museum", opis: "The largest collection of Van Gogh's works in the world is arranged chronologically, so you can follow how the dark, earthy colors of the Netherlands turn within just a few years into the blazing yellows and blues of the south of France. Here are the Sunflowers, The Potato Eaters and Wheatfield with Crows, as well as his letters to his brother Theo." },
+        { ime: "The canal ring and the Jordaan", opis: "Herengracht, Keizersgracht and Prinsengracht were dug in the 17th century as the gentlemen's, the emperor's and the prince's canal. Watch the tops of the facades: stepped gables are older, bell-shaped ones younger, and the houses lean forward on purpose so that loads hoisted by rope would not bang into the windows. The neighboring Jordaan was a working-class district, and today it is full of small galleries and cafes." },
+        { ime: "Begijnhof", opis: "A quiet courtyard where Beguines lived from the 14th century is hidden behind an unremarkable door in the middle of the shopping district. At number 34 stands one of the two remaining wooden houses in the city, from around 1528, built before timber construction was banned because of fires. Opposite it is a Catholic chapel hidden behind an ordinary facade." },
+        { ime: "The Royal Palace on Dam Square", opis: "It was built from 1648 to 1665 as the town hall, then the largest administrative building in Europe, and it rests on 13,659 wooden piles, a number Dutch children learn by heart. It became a palace in 1808, when Napoleon's brother Louis moved in. In the Citizens' Hall, maps of the sky and of the two hemispheres of the Earth are laid into the marble floor, with Amsterdam at the center of the world." }
       ],
       jesti: [
-        { ime: "Haringa s kioska", opis: "U Amsterdamu se poslužuje narezana, s lukom i krastavcima, na kioscima koji se zovu haringhandel i stoje uz mostove i tržnice." },
-        { ime: "Appeltaart u Jordaanu", opis: "Debela kriška pite od jabuka sa šlagom specijalitet je kavana u četvrti Jordaan, osobito oko tržnice Noordermarkt." },
-        { ime: "Stroopwafel s tržnice Albert Cuyp", opis: "Na najvećoj dnevnoj tržnici u gradu vafli se peku i pune sirupom pred kupcem, pa se jedu topli." },
-        { ime: "Bitterballen uz jenever", opis: "U starim točionicama, zvanima proeflokaal, i smeđim kavanama naručuju se pržene okruglice sa senfom i čašica jenevera natočena do ruba." }
+        { ime: "Herring from a stand", opis: "In Amsterdam it is served sliced, with onion and pickles, at stands called haringhandel that sit beside bridges and markets." },
+        { ime: "Appeltaart in the Jordaan", opis: "A thick slice of apple pie with whipped cream is the specialty of the cafes in the Jordaan district, especially around the Noordermarkt market." },
+        { ime: "Stroopwafel from the Albert Cuyp market", opis: "At the city's biggest daily market the waffles are baked and filled with syrup in front of the customer, so you eat them warm." },
+        { ime: "Bitterballen with jenever", opis: "In the old tasting rooms, called proeflokaal, and in the brown cafes, you order the fried balls with mustard and a small glass of jenever poured to the brim." }
       ],
       dozivjeti: [
-        { ime: "Vožnja kanalima", opis: "S vode se grad vidi onako kako je zamišljen, jer su pročelja građena da se gledaju s kanala. Birajte manji otvoreni čamac umjesto velikog staklenog broda, a najljepše je pred sumrak, kada se pale svjetla na mostovima." },
-        { ime: "Muzej pokreta otpora", opis: "Ako želite razumjeti kako je izgledao svakodnevni život pod okupacijom od 1940. do 1945., ovaj muzej kroz osobne priče pokazuje dvojbe običnih ljudi između prilagodbe, suradnje i otpora.", link: "https://www.verzetsmuseum.org/" },
-        { ime: "Kušanje sira", opis: "Obiteljska sirana Reypenaer u svojoj kušaonici u središtu grada vodi kroz sireve različite zrelosti uz vino, pa ćete naučiti razlikovati mladu od stare goude po mirisu i teksturi.", link: "https://www.reypenaer.nl/" },
-        { ime: "Tržnica Albert Cuyp", opis: "Ulična tržnica u četvrti De Pijp radi od 1905. godine, od ponedjeljka do subote, i nudi sir, haringu, vafle, začine i tkanine. Dobro je mjesto za ručak s nogu i za promatranje svakodnevnog Amsterdama.", link: "https://albertcuyp-markt.amsterdam/" }
+        { ime: "A canal cruise", opis: "From the water you see the city the way it was conceived, because the facades were built to be seen from the canals. Choose a smaller open boat over a big glass-topped one, and the loveliest time is just before dusk, when the lights come on along the bridges." },
+        { ime: "The Resistance Museum", opis: "If you want to understand what daily life was like under the occupation from 1940 to 1945, this museum uses personal stories to show the dilemmas of ordinary people caught between adapting, collaborating and resisting.", link: "https://www.verzetsmuseum.org/" },
+        { ime: "A cheese tasting", opis: "The family cheesemaker Reypenaer guides you through cheeses of different ages with wine in its tasting room in the city center, so you will learn to tell young Gouda from old by its smell and texture.", link: "https://www.reypenaer.nl/" },
+        { ime: "The Albert Cuyp market", opis: "This street market in the De Pijp district has been running since 1905, Monday through Saturday, and sells cheese, herring, waffles, spices and fabrics. It is a good place for lunch on the go and for watching everyday Amsterdam.", link: "https://albertcuyp-markt.amsterdam/" }
       ],
       agencije: [
-        { ime: "I amsterdam", opis: "Službeni turistički portal grada, s informacijama o muzejima, događanjima i gradskoj kartici.", link: "https://www.iamsterdam.com/" },
-        { ime: "Gilde Amsterdam", opis: "Udruga volontera, rođenih Amsterdamaca, koji vode male skupine u šetnje gradom i pričaju ga iz vlastitog iskustva.", link: "https://gildeamsterdam.nl/" }
+        { ime: "I amsterdam", opis: "The city's official tourism portal, with information on museums, events and the city card.", link: "https://www.iamsterdam.com/" },
+        { ime: "Gilde Amsterdam", opis: "An association of volunteers, born Amsterdammers, who take small groups on city walks and tell its story from their own experience.", link: "https://gildeamsterdam.nl/" }
       ],
-      kada: "Travanj i svibanj te rujan. Ulaznice za Kuću Anne Frank, Muzej Van Gogh i Rijksmuseum kupite na službenim stranicama tjednima unaprijed, jer se na blagajni često ne mogu dobiti."
+      kada: "April and May, and September. Buy tickets for the Anne Frank House, the Van Gogh Museum and the Rijksmuseum on the official websites weeks ahead, because they often cannot be had at the door."
     },
     {
       id: "rotterdam",
       ime: "Rotterdam",
       vrsta: "grad",
-      sazetak: "Najveća europska luka i grad smjele suvremene arhitekture, izrastao iz pepela nakon bombardiranja 1940.",
+      sazetak: "Europe's largest port and a city of bold contemporary architecture, risen from the ashes after the bombing of 1940.",
       prica: [
-        "Rotterdam je nastao oko 1270. uz branu na rječici Rotte i polako rastao kao luka na ušću Rajne i Maasa. Sve se promijenilo 14. svibnja 1940., kada je njemačko zrakoplovstvo u petnaestak minuta razorilo cijelo povijesno središte, pri čemu je poginulo oko 850 ljudi, a oko 80.000 ostalo je bez doma.",
-        "Umjesto da obnovi staro, grad je odlučio graditi iznova i drukčije, pa je postao poligon za arhitekte. Zato Rotterdam ne nalikuje nijednom drugom nizozemskom gradu: ovdje su neboderi, mostovi i zgrade neobičnih oblika, a granica požara iz 1940. označena je u pločniku crvenim svjetlima."
+        "Rotterdam grew up around 1270 beside a dam on the little Rotte River and slowly expanded as a port at the mouth of the Rhine and the Maas. Everything changed on May 14, 1940, when the German air force destroyed the entire historic center in about fifteen minutes, killing around 850 people and leaving around 80,000 homeless.",
+        "Instead of restoring the old, the city decided to build anew and differently, and so it became a testing ground for architects. That is why Rotterdam looks like no other Dutch city: here there are skyscrapers, bridges and buildings of unusual shapes, and the edge of the 1940 fire is marked in the pavement with red lights."
       ],
       vidjeti: [
-        { ime: "Markthal", opis: "Tržnica otvorena 2014. ima oblik golema potkovastog luka u čijim su zidovima stanovi, pa stanari kroz prozore gledaju na štandove ispod sebe. Unutarnji svod prekriva Rog obilja, slika voća, cvijeća i kukaca površine oko 11.000 četvornih metara. Uz pokretne stube prema garaži izloženi su predmeti iz srednjega vijeka pronađeni pri kopanju temelja." },
-        { ime: "Kockaste kuće", opis: "Arhitekt Piet Blom sagradio je 1984. niz žutih kocaka nagnutih na vrh i postavljenih na stupove, zamislivši svaku kao stablo, a cijeli sklop kao šumu. U kućama se doista stanuje, a jedna je uređena kao muzej, pa možete vidjeti kako se živi kada nijedan zid nije okomit." },
-        { ime: "Erasmusov most", opis: "Most iz 1996. s nesimetričnim bijelim pilonom visokim 139 metara građani zovu Labud. Povezao je središte s nekadašnjim lučkim otokom Kop van Zuid, na kojem stoji Hotel New York, bivše sjedište brodarske kompanije Holland America Line, odakle su stotine tisuća iseljenika krenule u SAD." },
-        { ime: "Crkva svetog Lovre i Razoreni grad", opis: "Kasnogotička Laurenskerk jedina je srednjovjekovna građevina središta koja je, teško oštećena, preživjela bombardiranje. Nedaleko, uz staru luku, stoji brončani kip Ossipa Zadkinea iz 1953.: čovjek s rukama podignutima prema nebu i rupom na mjestu srca, kao slika grada kojemu je srce istrgnuto." },
-        { ime: "Depot Boijmans Van Beuningen", opis: "Zdjela obložena zrcalima u kojoj se ogleda cijeli grad otvorena je 2021. kao prvo muzejsko spremište na svijetu dostupno javnosti. Umjesto izložbe vidite kako se čuva više od 150.000 djela, na policama, u ladicama i na pomičnim rešetkama, a na krovu je vrt s brezama i pogledom." },
-        { ime: "Delfshaven", opis: "Mala stara luka izbjegla je bombe, pa ovdje još stoje kuće uz kanal, vjetrenjača i crkva iz koje su 1620. engleski vjerski izbjeglice krenuli na put koji će ih brodom Mayflower odvesti u Novi svijet. Zato se crkva zove Crkva otaca hodočasnika." }
+        { ime: "Markthal", opis: "The market hall opened in 2014 is shaped like a giant horseshoe arch with apartments in its walls, so the residents look down through their windows at the stalls below. The inner vault is covered by the Horn of Plenty, a picture of fruit, flowers and insects with an area of about 11,000 square meters. Beside the escalators down to the garage, medieval objects found while digging the foundations are on display." },
+        { ime: "The Cube Houses", opis: "In 1984 the architect Piet Blom built a row of yellow cubes tilted onto a corner and set on pillars, imagining each one as a tree and the whole complex as a forest. People really do live in the houses, and one is set up as a museum, so you can see what life is like when not a single wall is vertical." },
+        { ime: "The Erasmus Bridge", opis: "The bridge from 1996, with its asymmetrical white pylon 139 meters tall, is known to locals as the Swan. It linked the center with the former harbor island of Kop van Zuid, where Hotel New York stands, the old headquarters of the Holland America Line shipping company, from which hundreds of thousands of emigrants set out for the USA." },
+        { ime: "The Church of St. Lawrence and The Destroyed City", opis: "The late Gothic Laurenskerk is the only medieval building in the center that survived the bombing, badly damaged. Not far away, beside the old harbor, stands Ossip Zadkine's bronze statue from 1953: a man with his arms raised to the sky and a hole where his heart should be, an image of a city whose heart was torn out." },
+        { ime: "Depot Boijmans Van Beuningen", opis: "A bowl clad in mirrors that reflects the whole city, it opened in 2021 as the first museum storage facility in the world accessible to the public. Instead of an exhibition you see how more than 150,000 works are kept, on shelves, in drawers and on sliding racks, and on the roof there is a garden with birch trees and a view." },
+        { ime: "Delfshaven", opis: "This small old harbor escaped the bombs, so it still has its canal houses, a windmill and the church from which English religious refugees set out in 1620 on the journey that would take them on the Mayflower to the New World. That is why the church is called the Pilgrim Fathers' Church." }
       ],
       jesti: [
-        { ime: "Kapsalon", opis: "Posuda krumpirića prekrivena mesom s ražnja, rastopljenom goudom, salatom i umacima nastala je 2003. u rotterdamskoj zalogajnici po narudžbi mjesnoga frizera, pa se zove frizerski salon. Danas se jede u cijeloj zemlji, obično kasno navečer." },
-        { ime: "Kibbeling", opis: "Komadići bijele ribe prženi u tijestu, s umakom od češnjaka ili tartarom, prodaju se na ribljim štandovima u Markthalu i na tržnici pred njim." },
-        { ime: "Surinamska kuhinja", opis: "Rotterdam ima veliku surinamsku zajednicu, pa probajte roti s piletinom i krumpirom ili sendvič broodje pom, osobito oko ulice West-Kruiskade." }
+        { ime: "Kapsalon", opis: "A tray of fries topped with spit-roasted meat, melted Gouda, salad and sauces was created in 2003 in a Rotterdam snack bar at the request of a local hairdresser, which is why it is called the hair salon. Today it is eaten all over the country, usually late at night." },
+        { ime: "Kibbeling", opis: "Pieces of white fish fried in batter, with garlic sauce or tartar sauce, sold at the fish stalls in the Markthal and at the market in front of it." },
+        { ime: "Surinamese food", opis: "Rotterdam has a large Surinamese community, so try roti with chicken and potatoes or the sandwich broodje pom, especially around the street West-Kruiskade." }
       ],
       dozivjeti: [
-        { ime: "Obilazak luke brodom", opis: "Brod u sat i pol prolazi pokraj dokova, brodogradilišta i brda kontejnera, pa dobijete dojam o veličini luke koja se proteže četrdesetak kilometara do mora. Polazi podno Erasmusova mosta.", link: "https://www.spido.nl/" },
-        { ime: "Fenix, muzej migracija", opis: "U nekadašnjem lučkom skladištu na poluotoku Katendrecht 2025. otvoren je muzej koji kroz umjetnost i osobne priče govori o odlascima i dolascima ljudi. Kroz krov se uzdiže dvostruko spiralno stubište od sjajnog čelika, s vidikovcem nad rijekom.", link: "https://www.fenix.nl/" },
-        { ime: "Vodeni taksi", opis: "Mali žuti gliseri jure preko rijeke između tridesetak pristaništa i najzabavniji su način prelaska s jedne obale na drugu. Vožnja do Hotela New York traje nekoliko minuta.", link: "https://www.watertaxirotterdam.nl/" },
-        { ime: "Pogled s Euromasta", opis: "Toranj iz 1960., poslije nadograđen na 185 metara, ima vidikovac s kojeg se za vedrog dana vidi sve do Haaga i Antwerpena. Ako želite shvatiti kako je grad složen oko rijeke, počnite ovdje.", link: "https://euromast.nl/" }
+        { ime: "A harbor tour by boat", opis: "In an hour and a half the boat passes docks, shipyards and hills of containers, so you get a sense of the size of a port that stretches some forty kilometers to the sea. It departs from the foot of the Erasmus Bridge.", link: "https://www.spido.nl/" },
+        { ime: "Fenix, the museum of migration", opis: "In a former harbor warehouse on the Katendrecht peninsula, a museum opened in 2025 that speaks through art and personal stories about people leaving and arriving. A double spiral staircase of gleaming steel rises through the roof, with a viewing platform over the river.", link: "https://www.fenix.nl/" },
+        { ime: "The water taxi", opis: "Small yellow speedboats race across the river between about thirty landing stages and are the most fun way to cross from one bank to the other. The ride to Hotel New York takes a few minutes.", link: "https://www.watertaxirotterdam.nl/" },
+        { ime: "The view from the Euromast", opis: "The tower from 1960, later extended to 185 meters, has an observation deck from which on a clear day you can see as far as The Hague and Antwerp. If you want to understand how the city is arranged around the river, start here.", link: "https://euromast.nl/" }
       ],
       agencije: [
-        { ime: "Rotterdam Tourist Information", opis: "Službeni turistički ured grada, s informacijama o muzejima, prijevozu i događanjima.", link: "https://www.rotterdam.info/" },
-        { ime: "UrbanGuides", opis: "Mjesna tvrtka specijalizirana za vođene arhitektonske šetnje i obilaske biciklom, s vodičima arhitektima i urbanistima.", link: "https://urbanguides.nl/" },
-        { ime: "Gilde Rotterdam", opis: "Udruga volontera koji vode šetnje gradom i dijele vlastito znanje o svojim četvrtima.", link: "https://gilderotterdam.nl/" }
+        { ime: "Rotterdam Tourist Information", opis: "The city's official tourist office, with information on museums, transport and events.", link: "https://www.rotterdam.info/" },
+        { ime: "UrbanGuides", opis: "A local company specializing in guided architecture walks and bike tours, with architects and urban planners as guides.", link: "https://urbanguides.nl/" },
+        { ime: "Gilde Rotterdam", opis: "An association of volunteers who lead city walks and share their own knowledge of their neighborhoods.", link: "https://gilderotterdam.nl/" }
       ],
-      kada: "Od svibnja do rujna. Glavna zgrada Muzeja Boijmans Van Beuningen zatvorena je zbog dugotrajne obnove, pa se zbirka zasad može vidjeti samo u Depotu."
+      kada: "From May to September. The main building of the Museum Boijmans Van Beuningen is closed for a lengthy renovation, so for now the collection can be seen only in the Depot."
     },
     {
       id: "utrecht",
       ime: "Utrecht",
       vrsta: "grad",
-      sazetak: "Sveučilišni grad s najvišim crkvenim tornjem u zemlji i kanalima uz koje se sjedi na razini vode.",
+      sazetak: "A university city with the tallest church tower in the country and canals where you sit right at water level.",
       prica: [
-        "Utrecht je počeo kao rimska utvrda Traiectum, podignuta oko 47. godine na tadašnjem toku Rajne, koja je bila granica Carstva. Godine 695. ovdje je sjedište dobio misionar Willibrord, isti onaj koji je osnovao opatiju u luksemburškom Echternachu, pa je grad stoljećima bio vjersko središte sjeverne Nizozemske.",
-        "Ovdje je 1579. sklopljena Utrechtska unija, savez sjevernih pokrajina iz kojeg je izrasla nizozemska država, a 1713. potpisan je mir kojim je završen Rat za španjolsku baštinu. Danas je to živ grad studenata, znatno mirniji od Amsterdama, a jednako lijep."
+        "Utrecht began as the Roman fort of Traiectum, built around the year 47 on what was then the course of the Rhine, the frontier of the Empire. In 695 the missionary Willibrord made his seat here, the same man who founded the abbey in Echternach in Luxembourg, and so for centuries the city was the religious center of the northern Netherlands.",
+        "The Union of Utrecht was concluded here in 1579, the alliance of the northern provinces out of which the Dutch state grew, and in 1713 the peace that ended the War of the Spanish Succession was signed here. Today it is a lively student city, considerably calmer than Amsterdam and every bit as beautiful."
       ],
       vidjeti: [
-        { ime: "Domtoren", opis: "Toranj visok 112 metara građen je od 1321. do 1382. i najviši je crkveni toranj u Nizozemskoj. Stoji odvojeno od katedrale, jer je srednji dio crkve srušila oluja 1. kolovoza 1674. i nikada nije obnovljen, pa je na njegovu mjestu danas trg. Do vrha vodi 465 stuba, a penje se samo uz vodiča." },
-        { ime: "Oudegracht i podrumi na obali", opis: "Stari kanal ima dvije razine: gore je ulica, a dolje, uz samu vodu, obala s nadsvođenim podrumima koji su iz skladišta vodili ravno u kuće trgovaca. Takav sustav ne postoji nigdje drugdje, a u podrumima su danas restorani i kavane s terasama uz vodu." },
-        { ime: "DOMunder", opis: "Ispod trga Domplein silazi se sa svjetiljkom u ruci među ostatke rimske utvrde, ranih crkava i srušene lađe katedrale. Svjetiljka pokreće priču kad je usmjerite na označeno mjesto, pa sami otkrivate dvije tisuće godina slojeva." },
-        { ime: "Kuća Rietveld Schröder", opis: "Stolar i arhitekt Gerrit Rietveld sagradio je 1924. za udovicu Truus Schröder kuću koja izgleda kao Mondrianova slika u tri dimenzije, s plohama u bijeloj, sivoj, crvenoj, žutoj i plavoj boji. Kat je umjesto stalnim zidovima podijeljen kliznim pregradama, kojima se prostor preslaguje tijekom dana. Kuća je na UNESCO-ovu popisu, a posjet treba rezervirati." },
-        { ime: "Muzej Speelklok", opis: "U srednjovjekovnoj crkvi izloženi su instrumenti koji sviraju sami, od glazbenih satova i kutija do golemih uličnih orgulja. Vodiči ih pokreću pred vama, pa je obilazak zapravo koncert." },
-        { ime: "Centraal Museum i Miffy", opis: "Gradski muzej čuva najveću zbirku Rietveldova namještaja i djela utrechtskih slikara 17. stoljeća, koji su pod Caravaggiovim utjecajem slikali prizore pri svjetlu svijeće. U Utrechtu je živio i Dick Bruna, tvorac zečice Miffy, kojoj je preko puta posvećen muzej za najmlađe, a u središtu grada postoji i semafor s njezinim likom." }
+        { ime: "Domtoren", opis: "The 112-meter tower was built from 1321 to 1382 and is the tallest church tower in the Netherlands. It stands apart from the cathedral because the middle section of the church was brought down by a storm on August 1, 1674, and never rebuilt, so a square now takes its place. There are 465 steps to the top, and you can climb only with a guide." },
+        { ime: "Oudegracht and the wharf cellars", opis: "The Old Canal has two levels: the street is above, and below, right by the water, is a wharf with vaulted cellars that led from the storerooms straight into the merchants' houses. No such system exists anywhere else, and today the cellars hold restaurants and cafes with terraces by the water." },
+        { ime: "DOMunder", opis: "Beneath the Domplein square you descend, flashlight in hand, among the remains of the Roman fort, the early churches and the collapsed nave of the cathedral. The flashlight triggers the story when you point it at a marked spot, so you uncover two thousand years of layers for yourself." },
+        { ime: "Rietveld Schröder House", opis: "In 1924 the carpenter and architect Gerrit Rietveld built a house for the widow Truus Schröder that looks like a Mondrian painting in three dimensions, with planes in white, gray, red, yellow and blue. Instead of fixed walls, the upper floor is divided by sliding partitions that rearrange the space over the course of the day. The house is on the UNESCO list, and visits must be booked." },
+        { ime: "Museum Speelklok", opis: "A medieval church houses instruments that play by themselves, from musical clocks and boxes to enormous street organs. The guides set them going in front of you, so the tour is really a concert." },
+        { ime: "Centraal Museum and Miffy", opis: "The city museum holds the largest collection of Rietveld furniture and works by the Utrecht painters of the 17th century, who painted candlelit scenes under the influence of Caravaggio. Dick Bruna, the creator of the bunny Miffy, also lived in Utrecht, and across the street a museum for little ones is dedicated to her, while in the city center there is even a traffic light with her figure." }
       ],
       jesti: [
-        { ime: "Broodje Mario", opis: "Sendvič u talijanskom pecivu s nekoliko vrsta salame, sirom i ukiseljenim povrćem prodaje se od 1970-ih na kiosku uz Oudegracht i postao je gradska ulična klasika." },
-        { ime: "Boterspritsen", opis: "Prhki keksi od maslaca, štrcani u valovite trake, tradicionalni su utrechtski kolačić koji se kupuje u pekarnicama u središtu." },
-        { ime: "Ručak u podrumu uz kanal", opis: "Stari skladišni podrumi uz Oudegracht pretvoreni su u restorane, pa se ovdje jede na razini vode, ispod ulice, što je iskustvo kakvo drugi nizozemski gradovi nemaju." }
+        { ime: "Broodje Mario", opis: "A sandwich in an Italian roll with several kinds of salami, cheese and pickled vegetables has been sold since the 1970s at a stand beside the Oudegracht and has become a city street classic." },
+        { ime: "Boterspritsen", opis: "Crumbly butter cookies piped into wavy strips are the traditional Utrecht treat, sold in the bakeries of the center." },
+        { ime: "Lunch in a canal cellar", opis: "The old storage cellars along the Oudegracht have been turned into restaurants, so here you eat at water level, below the street, an experience other Dutch cities do not have." }
       ],
       dozivjeti: [
-        { ime: "Uspon na Domtoren", opis: "Vodič putem pokazuje kapele, zvona teška više tona i sustav zvončića koji se čuje nad gradom. S vrha se za lijepog dana vidi Amsterdam, a ulaznice se rezerviraju unaprijed za točan termin.", link: "https://www.domtoren.nl/" },
-        { ime: "Vožnja kanalima", opis: "Brod prolazi ispod niskih mostova tik uz podrumska vrata, pa s vode najbolje vidite kako je sustav dviju razina funkcionirao. Ljeti se mogu unajmiti i kajaci ili pedaline.", link: "https://www.schuttevaer.com/" },
-        { ime: "Podzemni Utrecht", opis: "Ako vas zanima arheologija, obilazak DOMundera vodi u male skupine i traje oko sat vremena. Zbog ograničenog broja mjesta rezervirajte termin na službenoj stranici.", link: "https://www.domunder.nl/" }
+        { ime: "Climbing the Domtoren", opis: "Along the way the guide shows you chapels, bells weighing several tons and the carillon that can be heard over the city. On a fine day you can see Amsterdam from the top, and tickets are booked in advance for a set time.", link: "https://www.domtoren.nl/" },
+        { ime: "A canal cruise", opis: "The boat passes under low bridges right beside the cellar doors, so from the water you get the best view of how the two-level system worked. In summer you can also rent kayaks or pedal boats.", link: "https://www.schuttevaer.com/" },
+        { ime: "Underground Utrecht", opis: "If archaeology interests you, the DOMunder tour takes small groups and lasts about an hour. Because places are limited, book a time slot on the official website.", link: "https://www.domunder.nl/" }
       ],
       agencije: [
-        { ime: "Discover Utrecht", opis: "Službeni turistički portal grada i okolice, s prijedlozima ruta i popisom događanja.", link: "https://www.discover-utrecht.com/" },
-        { ime: "Gilde Utrecht", opis: "Udruga volontera koji vode tematske šetnje gradom, od srednjovjekovnih dvorišta do kanala.", link: "https://gildeutrecht.nl/" }
+        { ime: "Discover Utrecht", opis: "The official tourism portal of the city and its surroundings, with suggested routes and a list of events.", link: "https://www.discover-utrecht.com/" },
+        { ime: "Gilde Utrecht", opis: "An association of volunteers who lead themed walks through the city, from medieval courtyards to the canals.", link: "https://gildeutrecht.nl/" }
       ],
-      kada: "Od travnja do listopada, kada su terase uz vodu otvorene. Iz Amsterdama vlak vozi manje od pola sata, pa je Utrecht i lagan izlet i mirnija baza za boravak."
+      kada: "From April to October, when the terraces by the water are open. The train from Amsterdam takes less than half an hour, so Utrecht is both an easy day trip and a calmer base for your stay."
     },
     {
       id: "haag-delft",
-      ime: "Haag i Delft",
+      ime: "The Hague and Delft",
       vrsta: "grad",
-      sazetak: "Otmjeni grad vlade, kralja i međunarodnih sudova, i petnaest minuta dalje gradić plave keramike u kojem je cijeli život proveo Vermeer.",
+      sazetak: "An elegant city of government, king and international courts, and fifteen minutes away a small town of blue pottery where Vermeer spent his whole life.",
       prica: [
-        "Haag je nastao u 13. stoljeću oko lovačkog dvorca holandskih grofova, a iako je glavni grad Amsterdam, ovdje zasjedaju vlada i parlament i radi kralj. Od početka 20. stoljeća grad je i svjetsko središte međunarodnog prava: u Palači mira zasjeda Međunarodni sud pravde, a od 1993. do 2017. ovdje je djelovao i Međunarodni kazneni sud za bivšu Jugoslaviju, zbog kojega je ime Haaga dobro poznato i u Hrvatskoj.",
-        "Delft je stariji i manji, grad kanala i opeke, u koji se 1572. sklonio Vilim Oranski, vođa pobune protiv Španjolske, i u kojem je 1584. ubijen. U 17. stoljeću ovdašnji su lončari počeli oponašati skupocjeni kineski porculan i tako stvorili delftsku plavu keramiku, a Johannes Vermeer naslikao je u ovom gradu svih svojih tridesetak sačuvanih slika."
+        "The Hague grew up in the 13th century around a hunting lodge of the counts of Holland, and although Amsterdam is the capital, this is where the government and parliament sit and where the king works. Since the early 20th century the city has also been a world center of international law: the International Court of Justice sits in the Peace Palace, and from 1993 to 2017 the International Criminal Tribunal for the former Yugoslavia worked here too, which is why the name of The Hague is well known in Croatia.",
+        "Delft is older and smaller, a town of canals and brick, where William of Orange, the leader of the revolt against Spain, took refuge in 1572 and where he was assassinated in 1584. In the 17th century the local potters began imitating costly Chinese porcelain and so created Delft Blue pottery, and Johannes Vermeer painted all of his thirty or so surviving pictures in this town."
       ],
       vidjeti: [
-        { ime: "Mauritshuis", opis: "Mala gradska palača iz 17. stoljeća čuva neke od najpoznatijih nizozemskih slika. Djevojka s bisernom naušnicom studija je izmišljenog lika, kakve su Nizozemci zvali tronie, a biser je naslikan s tek nekoliko poteza kista. Potražite i Vermeerov Pogled na Delft te sitnog Češljugara Carela Fabritiusa, koji je iste 1654. godine poginuo u eksploziji delftske barutane." },
-        { ime: "Binnenhof", opis: "Sklop zgrada oko Viteške dvorane iz 13. stoljeća jedno je od najstarijih sjedišta parlamenta na svijetu koje je još u upotrebi. Trenutačno se temeljito obnavlja, a završetak radova očekuje se 2031., pa se u dvorište ne može ući. Lijep pogled na pročelja i toranjčić premijerova ureda pruža se preko jezerca Hofvijver." },
-        { ime: "Palača mira", opis: "Zgradu dovršenu 1913. platio je američki industrijalac Andrew Carnegie, a države su darovale opremu, od talijanskog mramora do ruske vaze teške više od tri tone. Pred ulazom gori Vječni plamen mira okružen kamenjem iz gotovo dvjesto zemalja. Centar za posjetitelje otvoren je bez najave, dok se sama zgrada obilazi samo u rijetkim vođenim terminima." },
-        { ime: "Panorama Mesdag", opis: "Kružna slika opsega oko 120 metara prikazuje ribarsko selo Scheveningen 1881. godine, a gleda se sa središnjeg podija okruženog pravim pijeskom, pa se granica između slike i stvarnosti gubi. Slikar Hendrik Willem Mesdag u prizor je uvrstio i svoju suprugu, slikaricu Sientje, pa je potražite na plaži kako slika pod bijelim suncobranom." },
-        { ime: "Nieuwe Kerk i Oude Kerk u Delftu", opis: "U Novoj crkvi na glavnom trgu nalazi se raskošna grobnica Vilima Oranskog, uz čije noge leži njegov pas, a u kripti ispod nje pokapaju se članovi kraljevske obitelji. Stara crkva prepoznaje se po tornju nagnutom oko dva metra, a u njezinu je podu jednostavna ploča s Vermeerovim imenom." },
-        { ime: "Prinsenhof u Delftu", opis: "U nekadašnjem samostanu Vilim Oranski ubijen je 10. srpnja 1584. hicima Balthasara Gérarda, a rupe od metaka u zidu uz stubište čuvaju se iza stakla. Muzej je zatvoren zbog obnove i ponovno otvaranje očekuje se 2027., pa prije dolaska provjerite stanje na službenoj stranici." }
+        { ime: "Mauritshuis", opis: "This small 17th-century city palace holds some of the most famous Dutch paintings. Girl with a Pearl Earring is a study of an imaginary figure, the kind the Dutch called a tronie, and the pearl is painted with just a few strokes of the brush. Look also for Vermeer's View of Delft and the tiny Goldfinch by Carel Fabritius, who died that same year, 1654, in the explosion of the Delft gunpowder store." },
+        { ime: "Binnenhof", opis: "The complex of buildings around the 13th-century Hall of Knights is one of the oldest parliamentary seats in the world still in use. It is currently undergoing a thorough renovation that is expected to finish in 2031, so you cannot enter the courtyard. There is a lovely view of the facades and the little tower of the prime minister's office across the Hofvijver pond." },
+        { ime: "The Peace Palace", opis: "The building, completed in 1913, was paid for by the American industrialist Andrew Carnegie, and countries donated the furnishings, from Italian marble to a Russian vase weighing more than three tons. In front of the entrance burns the Eternal Peace Flame, surrounded by stones from almost two hundred countries. The visitor center is open without booking, while the building itself can be toured only on rare guided dates." },
+        { ime: "Panorama Mesdag", opis: "This circular painting, about 120 meters around, shows the fishing village of Scheveningen in 1881, and you view it from a central platform surrounded by real sand, so the line between painting and reality disappears. The painter Hendrik Willem Mesdag also included his wife, the painter Sientje, in the scene, so look for her on the beach, painting under a white parasol." },
+        { ime: "Nieuwe Kerk and Oude Kerk in Delft", opis: "The New Church on the main square holds the lavish tomb of William of Orange, with his dog lying at his feet, and members of the royal family are buried in the crypt beneath it. You can recognize the Old Church by its tower, which leans about two meters, and in its floor is a simple slab bearing Vermeer's name." },
+        { ime: "Prinsenhof in Delft", opis: "In this former convent William of Orange was killed on July 10, 1584, by shots fired by Balthasar Gérard, and the bullet holes in the wall beside the staircase are kept behind glass. The museum is closed for renovation and is expected to reopen in 2027, so check the situation on the official website before you come." }
       ],
       jesti: [
-        { ime: "Rijsttafel u Haagu", opis: "Haag se zbog brojnih povratnika iz kolonija nazivao udovicom Indije i ima najdužu tradiciju indonezijskih restorana u zemlji, pa je ovo pravo mjesto za stol pun malih jela s rižom." },
-        { ime: "Haagse hopjes", opis: "Tvrdi bomboni od kave i karamele, nazvani po barunu Hopu, koji ih je prema predaji krajem 18. stoljeća dao napraviti jer mu je liječnik zabranio kavu." },
-        { ime: "Haringa i kibbeling u Scheveningenu", opis: "U ribarskoj luci na haškoj obali riba se jede s kioska, s pogledom na brodove, a sredinom lipnja ovdje se slavi dolazak prve mlade haringe." }
+        { ime: "Rijsttafel in The Hague", opis: "Because of its many returnees from the colonies, The Hague was called the widow of the Indies, and it has the longest tradition of Indonesian restaurants in the country, so this is the right place for a table full of small dishes with rice." },
+        { ime: "Haagse hopjes", opis: "Hard coffee and caramel candies named after Baron Hop, who, according to tradition, had them made at the end of the 18th century because his doctor had forbidden him coffee." },
+        { ime: "Herring and kibbeling in Scheveningen", opis: "In the fishing harbor on The Hague's coast you eat fish from a stand with a view of the boats, and in mid-June the arrival of the first young herring is celebrated here." }
       ],
       dozivjeti: [
-        { ime: "Radionica Royal Delft", opis: "Posljednja od tridesetak delftskih manufaktura iz 17. stoljeća radi bez prekida od 1653. godine. U obilasku gledate slikare koji crnom bojom, što tek u peći postane plava, oslikavaju svaki komad rukom, a možete oslikati i vlastitu pločicu.", link: "https://royaldelft.com/" },
-        { ime: "Vermeer Centrum", opis: "U zgradi nekadašnjeg slikarskog ceha nema izvornih slika, ali su sve Vermeerove slike prikazane u stvarnoj veličini i objašnjeno je kako je gradio svjetlo i perspektivu. Dobra je priprema prije Mauritshuisa.", link: "https://www.vermeerdelft.nl/" },
-        { ime: "Escher u palači", opis: "U nekadašnjoj zimskoj palači kraljice majke Emme izložene su grafike M. C. Eschera, s beskonačnim stubištima i pticama koje se pretvaraju u ribe. Na gornjem katu možete i same ući u optičke varke.", link: "https://escherinhetpaleis.nl/" },
-        { ime: "Šetnja plažom u Scheveningenu", opis: "Tramvaj iz središta Haaga za dvadesetak minuta stiže do duge pješčane plaže s molom i secesijskim lječilišnim hotelom Kurhaus. Ako želite osjetiti Sjeverno more, dovoljan je sat hoda uz vodu, u svako doba godine." }
+        { ime: "The Royal Delft workshop", opis: "The last of some thirty Delft factories from the 17th century has been working without interruption since 1653. On the tour you watch the painters decorate every piece by hand in a black paint that turns blue only in the kiln, and you can paint your own tile as well.", link: "https://royaldelft.com/" },
+        { ime: "Vermeer Centrum", opis: "There are no original paintings in the building of the former painters' guild, but all of Vermeer's pictures are shown at actual size, with an explanation of how he built up light and perspective. It is good preparation for the Mauritshuis.", link: "https://www.vermeerdelft.nl/" },
+        { ime: "Escher in the Palace", opis: "The former winter palace of Queen Mother Emma displays the prints of M. C. Escher, with their endless staircases and birds turning into fish. On the top floor you can step into the optical illusions yourself.", link: "https://escherinhetpaleis.nl/" },
+        { ime: "A walk on the beach at Scheveningen", opis: "The tram from the center of The Hague takes about twenty minutes to reach a long sandy beach with a pier and the Art Nouveau spa hotel Kurhaus. If you want to feel the North Sea, an hour's walk along the water is enough, at any time of year." }
       ],
       agencije: [
-        { ime: "Den Haag", opis: "Službeni turistički portal grada, koji vodi organizacija The Hague & Partners.", link: "https://denhaag.com/" },
-        { ime: "In Delft", opis: "Službeni turistički portal Delfta, s kartom šetnji i informacijama o crkvama i muzejima.", link: "https://www.indelft.nl/" },
-        { ime: "Gilde Den Haag", opis: "Udruga volontera koji vode šetnje Haagom, od dvorskih četvrti do skrivenih dvorišta.", link: "https://www.gildedenhaag.nl/" }
+        { ime: "Den Haag", opis: "The city's official tourism portal, run by the organization The Hague & Partners.", link: "https://denhaag.com/" },
+        { ime: "In Delft", opis: "The official tourism portal of Delft, with a map of walks and information on churches and museums.", link: "https://www.indelft.nl/" },
+        { ime: "Gilde Den Haag", opis: "An association of volunteers who lead walks through The Hague, from the court quarters to hidden courtyards.", link: "https://www.gildedenhaag.nl/" }
       ],
-      kada: "Od travnja do rujna. Haag i Delft povezuje tramvaj broj 1, kojim se u jednom danu lako obiđu Mauritshuis, delftski trg i plaža u Scheveningenu."
+      kada: "From April to September. The Hague and Delft are linked by tram number 1, which makes it easy to see the Mauritshuis, Delft's square and the beach at Scheveningen in a single day."
     },
     {
       id: "haarlem",
       ime: "Haarlem",
       vrsta: "grad",
-      sazetak: "Amsterdam u malom, bez gužve: grad Fransa Halsa, skrivenih dvorišta i najstarijeg muzeja u zemlji.",
+      sazetak: "Amsterdam in miniature, without the crowds: the city of Frans Hals, hidden courtyards and the oldest museum in the country.",
       prica: [
-        "Haarlem je bio sjedište holandskih grofova i gradska prava ima od 1245., ranije nego Amsterdam. Godine 1573. Španjolci su ga nakon sedam mjeseci opsade izgladnjivanjem natjerali na predaju, ali se grad brzo oporavio zahvaljujući flamanskim izbjeglicama, tkalcima i slikarima, među kojima je bila i obitelj malog Fransa Halsa.",
-        "U 17. stoljeću živio je od piva, platna i lukovica tulipana, a njegovi su slikari među prvima slikali obične krajolike, more i oblake. Po Haarlemu je ime dobila njujorška četvrt Harlem."
+        "Haarlem was a seat of the counts of Holland and has had city rights since 1245, earlier than Amsterdam. In 1573, after a seven-month siege, the Spanish starved it into surrender, but the city recovered quickly thanks to Flemish refugees, weavers and painters, among them the family of the young Frans Hals.",
+        "In the 17th century it lived on beer, linen and tulip bulbs, and its painters were among the first to paint ordinary landscapes, the sea and the clouds. New York's Harlem neighborhood was named after Haarlem."
       ],
       vidjeti: [
-        { ime: "Muzej Fransa Halsa", opis: "U nekadašnjem domu za starce iz 1609. visi niz golemih skupnih portreta gradskih strijelaca, na kojima je Hals prvi put uspio da dvadesetak ljudi izgleda kao živo društvo za stolom umjesto kao red glava. Priđite blizu i pogledajte čipkaste ovratnike, naslikane s nekoliko brzih, gotovo nemarnih poteza." },
-        { ime: "Velika crkva svetog Bave", opis: "Gotička crkva na glavnom trgu ima drveni svod i orgulje Christiana Müllera iz 1738. s oko pet tisuća svirala, na kojima su svirali Händel i desetogodišnji Mozart. U podu kora nalazi se grob Fransa Halsa, označen malom svjetiljkom. Uza zid crkve prislonjene su sićušne trgovine, koje su je stoljećima uzdržavale najamninom." },
-        { ime: "Teylers Museum", opis: "Najstariji muzej u Nizozemskoj otvoren je 1784. kao mjesto gdje se umjetnost i znanost izlažu zajedno, a Ovalna dvorana osvijetljena samo dnevnim svjetlom izgleda isto kao tada. Ovdje su fosili, minerali, golemi stroj za proizvodnju statičkog elektriciteta i crteži Michelangela i Rafaela." },
-        { ime: "Hofjes", opis: "Haarlem ima dvadesetak dvorišta s nizovima kućica oko vrta, koja su bogati građani od srednjeg vijeka osnivali za siromašne starije žene. Mnoga su još nastanjena i danju otvorena posjetiteljima, uz molbu za tišinu. Najstarije, Hofje van Bakenes, potječe iz 1395. godine." },
-        { ime: "Kuća Corrie ten Boom", opis: "Iznad urarske radnje obitelj ten Boom skrivala je tijekom Drugog svjetskog rata Židove i članove pokreta otpora iza lažnog zida u Corrienoj spavaćoj sobi. Skrovište, veliko tek toliko da u njemu stoji šestero ljudi, može se vidjeti u besplatnom vođenom obilasku, za koji se mjesto rezervira unaprijed." },
-        { ime: "Vjetrenjača De Adriaan", opis: "Vjetrenjača na obali rijeke Spaarne izgorjela je 1932., a građani su je vlastitim sredstvima ponovno podigli tek 2002. godine. Unutra vodič pokazuje kako se krila okreću prema vjetru, a s galerije se pruža pogled na krovove i toranj svetog Bave." }
+        { ime: "Frans Hals Museum", opis: "In a former old men's home from 1609 hangs a series of enormous group portraits of the city's civic guards, in which Hals managed for the first time to make twenty or so people look like a lively company at a table instead of a row of heads. Step up close and look at the lace collars, painted with a few quick, almost careless strokes." },
+        { ime: "The Great Church of St. Bavo", opis: "The Gothic church on the main square has a wooden vault and an organ by Christian Müller from 1738 with about five thousand pipes, played by Handel and by the ten-year-old Mozart. In the floor of the choir is the grave of Frans Hals, marked by a small lamp. Tiny shops lean against the wall of the church, and for centuries their rent paid for its upkeep." },
+        { ime: "Teylers Museum", opis: "The oldest museum in the Netherlands opened in 1784 as a place where art and science are shown together, and the Oval Room, lit only by daylight, looks the same as it did then. Here are fossils, minerals, a huge machine for generating static electricity and drawings by Michelangelo and Raphael." },
+        { ime: "Hofjes", opis: "Haarlem has about twenty courtyards with rows of little houses around a garden, founded by wealthy citizens from the Middle Ages onward for poor elderly women. Many are still lived in and open to visitors during the day, with a request for quiet. The oldest, Hofje van Bakenes, dates from 1395." },
+        { ime: "Corrie ten Boom House", opis: "Above the watchmaker's shop, the ten Boom family hid Jews and members of the resistance during the Second World War behind a false wall in Corrie's bedroom. The hiding place, just big enough for six people to stand in, can be seen on a free guided tour for which you reserve a place in advance." },
+        { ime: "De Adriaan windmill", opis: "The windmill on the bank of the Spaarne River burned down in 1932, and the citizens rebuilt it with their own funds only in 2002. Inside, a guide shows how the sails are turned into the wind, and from the gallery there is a view over the rooftops and the tower of St. Bavo." }
       ],
       jesti: [
-        { ime: "Pivo Jopen", opis: "Gradska pivovara oživjela je haarlemske recepte iz 15. i 16. stoljeća, a toči ih u nekadašnjoj crkvi pretvorenoj u pivnicu, između bakrenih kotlova i vitraja." },
-        { ime: "Haarlemmer Halletjes", opis: "Tanki, hrskavi začinjeni keksi koji se u gradu peku od 19. stoljeća i kupuju u slastičarnicama oko glavnog trga." },
-        { ime: "Sir i haringa sa subotnje tržnice", opis: "Subotom se Grote Markt pod crkvom pretvara u jednu od najljepših tržnica u zemlji, sa štandovima sira, ribe, cvijeća i svježih stroopwafela." }
+        { ime: "Jopen beer", opis: "The city brewery has revived Haarlem recipes from the 15th and 16th centuries and pours them in a former church turned beer hall, between copper kettles and stained glass." },
+        { ime: "Haarlemmer Halletjes", opis: "Thin, crisp spiced cookies that have been baked in the city since the 19th century and are sold in the pastry shops around the main square." },
+        { ime: "Cheese and herring from the Saturday market", opis: "On Saturdays the Grote Markt below the church turns into one of the loveliest markets in the country, with stalls of cheese, fish, flowers and fresh stroopwafels." }
       ],
       dozivjeti: [
-        { ime: "Pivnica u crkvi", opis: "Jopenkerk je dobar primjer nizozemske praktičnosti, jer je napuštena crkva postala pivovara s restoranom. Naručite dasku za kušanje s nekoliko malih čaša i usporedite pivo po receptu iz 1407. s onim iz 1501. godine.", link: "https://www.jopenkerk.nl/" },
-        { ime: "Koncert na Müllerovim orguljama", opis: "Od svibnja do listopada u crkvi svetog Bave održavaju se orguljaški koncerti, na kojima instrument iz 1738. čujete u punoj snazi. Raspored objavljuje crkva.", link: "https://www.bavo.nl/" },
-        { ime: "Vožnja Spaarneom", opis: "Otvoreni čamac obilazi stari grad u pedesetak minuta, pokraj vjetrenjače, pomičnih mostova i starih pivovara. Skiper usput priča gradske zgode.", link: "https://haarlemcanaltours.com/" },
-        { ime: "Biciklom do dina i mora", opis: "Ako želite vidjeti nizozemsku obalu, unajmite bicikl i odvezite se kroz Nacionalni park Zuid-Kennemerland do plaže u Zandvoortu ili Bloemendaalu. Staza vodi kroz pješčane dine i dugačka je desetak kilometara u jednom smjeru." }
+        { ime: "A beer hall in a church", opis: "The Jopenkerk is a good example of Dutch practicality, because an abandoned church became a brewery with a restaurant. Order a tasting board with several small glasses and compare the beer made to the 1407 recipe with the one from 1501.", link: "https://www.jopenkerk.nl/" },
+        { ime: "A concert on the Müller organ", opis: "From May to October organ concerts are held in St. Bavo's, where you hear the instrument from 1738 at full power. The church publishes the schedule.", link: "https://www.bavo.nl/" },
+        { ime: "A cruise on the Spaarne", opis: "An open boat circles the old town in about fifty minutes, past the windmill, the drawbridges and the old breweries. The skipper tells stories of the city along the way.", link: "https://haarlemcanaltours.com/" },
+        { ime: "By bike to the dunes and the sea", opis: "If you want to see the Dutch coast, rent a bike and ride through Zuid-Kennemerland National Park to the beach at Zandvoort or Bloemendaal. The path runs through sand dunes and is about ten kilometers long each way." }
       ],
       agencije: [
-        { ime: "Visit Haarlem", opis: "Službeni turistički portal grada, s uredom na trgu Grote Markt.", link: "https://www.visithaarlem.com/" },
-        { ime: "Gilde Haarlem", opis: "Udruga volontera koji vode šetnje po dvorištima, spomenicima i povijesti grada.", link: "https://www.gildehaarlem.nl/" }
+        { ime: "Visit Haarlem", opis: "The city's official tourism portal, with an office on the Grote Markt square.", link: "https://www.visithaarlem.com/" },
+        { ime: "Gilde Haarlem", opis: "An association of volunteers who lead walks through the courtyards, monuments and history of the city.", link: "https://www.gildehaarlem.nl/" }
       ],
-      kada: "Travanj je idealan, jer su polja tulipana i park Keukenhof udaljeni samo pola sata autobusom. Vlak iz Amsterdama vozi petnaestak minuta, pa je Haarlem i odlična, mirnija baza."
+      kada: "April is ideal, because the tulip fields and Keukenhof park are only half an hour away by bus. The train from Amsterdam takes about fifteen minutes, so Haarlem also makes an excellent, calmer base."
     },
     {
       id: "kinderdijk",
       ime: "Kinderdijk",
       vrsta: "priroda",
-      sazetak: "Devetnaest vjetrenjača u nizu uz kanale, najbolje mjesto u zemlji da shvatite kako su Nizozemci isušili vlastitu domovinu.",
+      sazetak: "Nineteen windmills in a row along the canals, the best place in the country to understand how the Dutch drained their own homeland.",
       prica: [
-        "Polder Alblasserwaard leži ispod razine okolnih rijeka, pa su ga stanovnici od 13. stoljeća branili nasipima i odvodnim kanalima. Kada ni to više nije bilo dovoljno, vodne su zajednice oko 1740. podigle devetnaest vjetrenjača koje su vodu stupnjevito podizale iz nižih kanala u više spremnike, a odatle se ispuštala u rijeku Lek.",
-        "Ime znači dječji nasip. Legenda kaže da je nakon velike poplave na blagdan svete Elizabete 1421. voda na nasip nanijela kolijevku s usnulim djetetom, a na rubu kolijevke mačka je skakanjem lijevo i desno održavala ravnotežu. Cijeli je sustav od 1997. na UNESCO-ovu popisu svjetske baštine."
+        "The Alblasserwaard polder lies below the level of the surrounding rivers, so from the 13th century its inhabitants defended it with dikes and drainage canals. When even that was no longer enough, the water boards built nineteen windmills around 1740 that lifted the water step by step from the lower canals into higher basins, from which it was released into the Lek River.",
+        "The name means children's dike. Legend says that after the great St. Elizabeth's Day flood of 1421, the water washed a cradle with a sleeping baby onto the dike, and on the edge of the cradle a cat kept it balanced by jumping left and right. The whole system has been on UNESCO's World Heritage list since 1997."
       ],
       vidjeti: [
-        { ime: "Vjetrenjače Nederwaarda i Overwaarda", opis: "Osam okruglih vjetrenjača od opeke iz 1738. stoji uz jedan kanal, a osam osmerokutnih, pokrivenih trskom, iz 1740. uz drugi, jer su pripadale dvjema različitim vodnim zajednicama. Usporedite ih s nasipa između dvaju kanala i primijetit ćete da se kod svih okreće samo kapa s krilima, koju mlinar izvana, pomoću kola na repu, zakreće prema vjetru." },
-        { ime: "Muzejska vjetrenjača Nederwaard", opis: "Unutra je sve ostavljeno kao u doba posljednje mlinarske obitelji, s krevetima u zidnim ormarima i kuhinjom veličine ostave. U takvoj je vjetrenjači živjela obitelj s trinaestero djece, dok se golemo zupčasto kolo okretalo usred njihova doma." },
-        { ime: "Muzejska vjetrenjača Blokweer", opis: "Najstarija vjetrenjača u Kinderdijku, starija od ostalih za stotinjak godina, drukčijeg je tipa: cijelo gornje tijelo okreće se na stupu, a lopatasto kolo je izvana. Oko nje su povrtnjak, koze i radionica, pa se vidi kako je mlinar živio i od zemlje." },
-        { ime: "Crpna stanica Wisboom", opis: "Parna crpka iz 1868., poslije prebačena na struju, preuzela je posao vjetrenjača i radila do 1990-ih. Danas je u njoj centar za posjetitelje, gdje se na maketama i filmu objašnjava kako voda putuje od polja do rijeke i zašto bi bez crpki ovaj kraj bio jezero." }
+        { ime: "The Nederwaard and Overwaard windmills", opis: "Eight round brick windmills from 1738 stand along one canal, and eight octagonal thatched ones from 1740 along the other, because they belonged to two different water boards. Compare them from the dike between the two canals and you will notice that on all of them only the cap with the sails turns, which the miller swings into the wind from outside using a wheel on the tail pole." },
+        { ime: "Museum Windmill Nederwaard", opis: "Inside, everything has been left as it was in the time of the last miller's family, with beds in wall cupboards and a kitchen the size of a pantry. A family with thirteen children lived in a windmill like this, while the huge cogwheel turned in the middle of their home." },
+        { ime: "Museum Windmill Blokweer", opis: "The oldest windmill at Kinderdijk, about a hundred years older than the others, is of a different type: the whole upper body turns on a post, and the scoop wheel is on the outside. Around it are a vegetable garden, goats and a workshop, so you can see how the miller also lived off the land." },
+        { ime: "Wisboom pumping station", opis: "The steam pump from 1868, later converted to electricity, took over the work of the windmills and ran until the 1990s. Today it houses the visitor center, where models and a film explain how the water travels from the fields to the river and why this area would be a lake without pumps." }
       ],
       jesti: [
-        { ime: "Palačinke", opis: "Uz ulaz u zaštićeno područje i u okolnim selima nude se velike nizozemske palačinke, slane sa slaninom i sirom ili slatke s jabukom i sirupom, klasičan ručak za izletnike." },
-        { ime: "Sir s farmi u polderu", opis: "Alblasserwaard je kraj krava i pašnjaka, pa se na seoskim imanjima uz cestu prodaje domaća gouda izravno od proizvođača." }
+        { ime: "Pancakes", opis: "By the entrance to the protected area and in the surrounding villages you will find big Dutch pancakes, savory with bacon and cheese or sweet with apple and syrup, the classic day-tripper's lunch." },
+        { ime: "Cheese from the polder farms", opis: "The Alblasserwaard is a land of cows and pastures, so the farms along the road sell homemade Gouda directly from the producer." }
       ],
       dozivjeti: [
-        { ime: "Dolazak vodenim autobusom", opis: "Najljepše je doći rijekom iz Rotterdama, brodom koji polazi kod Erasmusova mosta, jer se s vode vidi koliko su polja niža od rijeke. Vozni red mijenja se prema sezoni, pa ga provjerite na službenoj stranici Kinderdijka.", link: "https://kinderdijk.nl/" },
-        { ime: "Šetnja ili vožnja biciklom nasipom", opis: "Staza između kanala otvorena je cijele godine i besplatna, a ulaznica se plaća za muzejske vjetrenjače, crpnu stanicu i izletnički brod. Dođite rano ujutro ili predvečer, kada odu autobusi i ostanu samo trska, ptice i krila vjetrenjača." },
-        { ime: "Tjedan osvjetljenja", opis: "Nekoliko večeri početkom rujna svih je devetnaest vjetrenjača osvijetljeno i ogleda se u vodi. Ako ste tada u blizini, vrijedi ostati do mraka." }
+        { ime: "Arriving by waterbus", opis: "The loveliest way to come is by river from Rotterdam, on the boat that leaves from the Erasmus Bridge, because from the water you see how much lower the fields are than the river. The timetable changes with the season, so check it on the official Kinderdijk website.", link: "https://kinderdijk.nl/" },
+        { ime: "Walking or cycling along the dike", opis: "The path between the canals is open all year and free, and you pay for a ticket for the museum windmills, the pumping station and the tour boat. Come early in the morning or toward evening, when the buses have gone and only the reeds, the birds and the sails of the windmills remain." },
+        { ime: "Illumination week", opis: "For a few evenings in early September all nineteen windmills are lit up and reflected in the water. If you are nearby then, it is worth staying until dark." }
       ],
       agencije: [
-        { ime: "Svjetska baština Kinderdijk", opis: "Zaklada koja upravlja zaštićenim područjem i prodaje ulaznice za muzejske vjetrenjače i brod.", link: "https://kinderdijk.nl/" },
-        { ime: "Rotterdam Tourist Information", opis: "Turistički ured Rotterdama, koji daje upute o prijevozu brodom do Kinderdijka.", link: "https://www.rotterdam.info/" }
+        { ime: "Kinderdijk World Heritage", opis: "The foundation that manages the protected area and sells tickets for the museum windmills and the boat.", link: "https://kinderdijk.nl/" },
+        { ime: "Rotterdam Tourist Information", opis: "Rotterdam's tourist office, which gives directions for getting to Kinderdijk by boat.", link: "https://www.rotterdam.info/" }
       ],
-      kada: "Od travnja do listopada, kada su otvorene sve muzejske vjetrenjače. Vjetrenjače se najčešće okreću subotom u srpnju i kolovozu te na Nacionalni dan mlinova u svibnju."
+      kada: "From April to October, when all the museum windmills are open. The windmills turn most often on Saturdays in July and August and on National Mill Day in May."
     },
     {
       id: "maastricht",
       ime: "Maastricht",
       vrsta: "grad",
-      sazetak: "Najjužniji i najmanje nizozemski grad u zemlji, s rimskim korijenima, romaničkim bazilikama i burgundskim uživanjem u hrani.",
+      sazetak: "The southernmost and least Dutch city in the country, with Roman roots, Romanesque basilicas and a Burgundian delight in food.",
       prica: [
-        "Rimljani su ovdje sagradili most preko rijeke Maas na cesti od Kölna prema moru, pa ime grada znači prijelaz preko Maasa. U 4. stoljeću ovamo je svoje sjedište prenio biskup Servacije, prvi biskup na tlu današnje Nizozemske, nad čijim je grobom izrasla bazilika.",
-        "Kao važna tvrđava grad je opsjedan dvadesetak puta. Pri francuskoj opsadi 1673. pod zidinama je poginuo zapovjednik kraljevih mušketira d'Artagnan, stvarna osoba po kojoj je Dumas oblikovao svojega junaka. Dana 7. veljače 1992. ovdje je potpisan ugovor kojim je osnovana Europska unija i utrt put euru."
+        "The Romans built a bridge here over the Maas River on the road from Cologne to the sea, so the city's name means the crossing of the Maas. In the 4th century Bishop Servatius, the first bishop on the soil of today's Netherlands, moved his seat here, and a basilica grew up over his grave.",
+        "As an important fortress the city was besieged about twenty times. During the French siege of 1673, d'Artagnan, the commander of the king's musketeers and the real person on whom Dumas modeled his hero, was killed beneath the walls. On February 7, 1992, the treaty that founded the European Union and paved the way for the euro was signed here."
       ],
       vidjeti: [
-        { ime: "Bazilika svetog Servacija", opis: "Najstarija crkva u Nizozemskoj stoji nad svečevim grobom iz 384. godine, a današnja romanička građevina potječe uglavnom iz 11. i 12. stoljeća. U riznici potražite pozlaćeno poprsje s relikvijama i škrinju iz 12. stoljeća, koja se u svečanoj procesiji iznosi svakih sedam godina." },
-        { ime: "Bazilika Naše Gospe", opis: "Zapadno pročelje ove romaničke crkve izgleda kao zid tvrđave, gotovo bez prozora, jer je služilo i obrani. Uz ulaz je kapela Zvijezde mora, u kojoj danonoćno gore stotine svijeća pred malim Gospinim kipom iz 15. stoljeća, i u koju mještani svraćaju usput, na putu s tržnice." },
-        { ime: "Knjižara Dominicanen", opis: "U gotičkoj dominikanskoj crkvi iz 13. stoljeća, koja je nakon Napoleona služila kao skladište, konjušnica i spremište bicikala, 2006. uređena je knjižara. Crna čelična konstrukcija s policama na tri kata stoji slobodno u lađi, pa se penjanjem približavate stropnim freskama, a u svetištu je kavana sa stolom u obliku križa." },
-        { ime: "Most svetog Servacija", opis: "Kameni most sagrađen krajem 13. stoljeća, nakon što se stari rimski most srušio pod procesijom, smatra se najstarijim mostom u Nizozemskoj. S njega se pruža najljepši pogled na obje obale, staro središte i četvrt Wyck." },
-        { ime: "Helpoort i gradske zidine", opis: "Vrata s dva šiljasta tornja sagrađena su oko 1229. i najstarija su sačuvana gradska vrata u zemlji. Ime Vrata pakla dobila su mnogo kasnije, prema nazivu obližnje kuće. Odavde se može prošetati po ostatku prvog prstena zidina i kroz gradski park." },
-        { ime: "Špilje brda Sint-Pietersberg", opis: "Stoljećima se iz brda vadio mekani vapnenac za gradnju, pa je nastao labirint od nekoć dvadesetak tisuća hodnika. Tijekom Drugog svjetskog rata u posebnom je trezoru ovdje bila skrivena Rembrandtova Noćna straža. Na zidovima su crteži ugljenom i potpisi stari stoljećima, a obilazak je moguć samo uz vodiča, jer u hodnicima vlada potpuni mrak." }
+        { ime: "Basilica of St. Servatius", opis: "The oldest church in the Netherlands stands over the saint's grave from the year 384, and today's Romanesque building dates mostly from the 11th and 12th centuries. In the treasury look for the gilded reliquary bust and the 12th-century shrine, which is carried out in a solemn procession every seven years." },
+        { ime: "Basilica of Our Lady", opis: "The west front of this Romanesque church looks like a fortress wall, almost without windows, because it also served for defense. Beside the entrance is the chapel of the Star of the Sea, where hundreds of candles burn day and night before a small 15th-century statue of Our Lady, and where locals drop in on their way back from the market." },
+        { ime: "Dominicanen bookstore", opis: "In the 13th-century Gothic Dominican church, which after Napoleon served as a warehouse, a stable and a bicycle shed, a bookstore was installed in 2006. A black steel structure with shelves on three levels stands free in the nave, so as you climb you come closer to the ceiling frescoes, and in the chancel there is a cafe with a cross-shaped table." },
+        { ime: "St. Servatius Bridge", opis: "The stone bridge built at the end of the 13th century, after the old Roman bridge collapsed under a procession, is considered the oldest bridge in the Netherlands. It gives the loveliest view of both banks, the old center and the Wyck district." },
+        { ime: "Helpoort and the city walls", opis: "The gate with two pointed towers was built around 1229 and is the oldest surviving city gate in the country. It got the name Hell's Gate much later, after the name of a nearby house. From here you can stroll along what remains of the first ring of walls and through the city park." },
+        { ime: "The caves of Sint-Pietersberg hill", opis: "For centuries soft limestone was quarried from the hill for building, which created a labyrinth of what were once some twenty thousand corridors. During the Second World War Rembrandt's Night Watch was hidden here in a special vault. The walls carry charcoal drawings and signatures centuries old, and you can visit only with a guide, because the corridors are in total darkness." }
       ],
       jesti: [
-        { ime: "Limburgse vlaai", opis: "Plitak kolač od dizanog tijesta punjen voćem, najčešće trešnjama, marelicama ili šljivama, s rešetkom od tijesta na vrhu. Jede se uz kavu u svako doba dana, a u pekarnici u starom vodenom mlinu u središtu grada peče se od brašna mljevenog na licu mjesta." },
-        { ime: "Zoervleis", opis: "Slatko-kiseli gulaš od mesa mariniranog u octu, zgusnut medenjakom i sirupom od jabuka i krušaka. Tradicionalno se radio od konjetine, a danas često od govedine, i poslužuje se s krumpirićima." },
-        { ime: "Rommedoe", opis: "Mekani limburški sir crvenkaste kore i vrlo snažnog mirisa, koji se jede na raženom kruhu sa sirupom, a domaći uz njega piju pivo ili kavu." }
+        { ime: "Limburgse vlaai", opis: "A shallow pie of yeast dough filled with fruit, most often cherries, apricots or plums, with a lattice of dough on top. It is eaten with coffee at any time of day, and in the bakery in the old water mill in the city center it is baked from flour ground on the spot." },
+        { ime: "Zoervleis", opis: "A sweet-and-sour stew of meat marinated in vinegar, thickened with gingerbread and apple and pear syrup. It was traditionally made with horse meat and today often with beef, and it is served with fries." },
+        { ime: "Rommedoe", opis: "A soft Limburg cheese with a reddish rind and a very strong smell, eaten on rye bread with syrup, which the locals wash down with beer or coffee." }
       ],
       dozivjeti: [
-        { ime: "Obilazak špilja i utvrde", opis: "Vodič sa svjetiljkom vodi vas kroz hodnike u brdu i priča o klesarima, skrivenim umjetninama i ljudima koji su se ovdje sklanjali u ratovima. U hodnicima je cijele godine oko deset stupnjeva, pa ponesite jaknu i ljeti.", link: "https://www.exploremaastricht.nl/" },
-        { ime: "Vožnja brodom po Maasu", opis: "S broda vidite gradske mostove i zidine, a duže vožnje vode do brda Sint-Pietersberg ili preko granice u Belgiju, prema Liègeu.", link: "https://www.stiphout.nl/" },
-        { ime: "Koncerti na trgu Vrijthof", opis: "Violinist André Rieu, rođen u Maastrichtu, svakog srpnja sa svojim orkestrom održava niz koncerata na otvorenom na glavnom gradskom trgu. Ako ne nađete ulaznice, glazba se čuje i s terasa okolnih kavana." },
-        { ime: "Muzej Bonnefanten", opis: "Zgradu s tornjem u obliku rakete uz rijeku projektirao je talijanski arhitekt Aldo Rossi. Unutra su stari majstori iz ovih krajeva i suvremena umjetnost, a do vrha tornja vodi dugačko, strmo stubište.", link: "https://www.bonnefanten.nl/" }
+        { ime: "A tour of the caves and the fort", opis: "A guide with a lamp leads you through the corridors in the hill and tells of the stonecutters, the hidden artworks and the people who sheltered here in wartime. It is about ten degrees Celsius in the corridors all year, so bring a jacket even in summer.", link: "https://www.exploremaastricht.nl/" },
+        { ime: "A boat trip on the Maas", opis: "From the boat you see the city's bridges and walls, and longer trips go to Sint-Pietersberg hill or across the border into Belgium, toward Liège.", link: "https://www.stiphout.nl/" },
+        { ime: "Concerts on the Vrijthof square", opis: "The violinist André Rieu, born in Maastricht, gives a series of open-air concerts with his orchestra on the city's main square every July. If you cannot find tickets, you can hear the music from the terraces of the surrounding cafes too." },
+        { ime: "Bonnefanten Museum", opis: "The building by the river with a rocket-shaped tower was designed by the Italian architect Aldo Rossi. Inside are old masters from this region and contemporary art, and a long, steep staircase leads to the top of the tower.", link: "https://www.bonnefanten.nl/" }
       ],
       agencije: [
-        { ime: "Visit Maastricht", opis: "Službeni turistički ured grada, smješten u srednjovjekovnoj zgradi Dinghuis u središtu.", link: "https://www.visitmaastricht.com/" },
-        { ime: "Maastricht Underground", opis: "Organizacija koja vodi obilaske špilja, kazamata i utvrde Sint Pieter.", link: "https://www.exploremaastricht.nl/" },
-        { ime: "Gilde Maastricht", opis: "Udruga volontera koji vode šetnje gradom i pričaju o njegovoj povijesti iz prve ruke.", link: "https://www.gildemaastricht.nl/" }
+        { ime: "Visit Maastricht", opis: "The city's official tourist office, housed in the medieval Dinghuis building in the center.", link: "https://www.visitmaastricht.com/" },
+        { ime: "Maastricht Underground", opis: "The organization that runs tours of the caves, the casemates and Fort Sint Pieter.", link: "https://www.exploremaastricht.nl/" },
+        { ime: "Gilde Maastricht", opis: "An association of volunteers who lead city walks and tell its history firsthand.", link: "https://www.gildemaastricht.nl/" }
       ],
-      kada: "Od svibnja do rujna, a posebno je živo za karnevala u veljači ili ožujku, kada se tri dana slavi na ulicama. Iz Amsterdama vlak vozi oko dva i pol sata, pa se Maastricht lijepo spaja s izletom u Belgiju."
+      kada: "From May to September, and it is especially lively at carnival in February or March, when the celebrations fill the streets for three days. The train from Amsterdam takes about two and a half hours, so Maastricht combines nicely with a trip into Belgium."
     }
   ],
   izvori: [
-    { ime: "Holland.com, službeni turistički portal Nizozemske", url: "https://www.holland.com/" },
+    { ime: "Holland.com, the official tourism portal of the Netherlands", url: "https://www.holland.com/" },
     { ime: "I amsterdam", url: "https://www.iamsterdam.com/" },
     { ime: "Rijksmuseum", url: "https://www.rijksmuseum.nl/" },
-    { ime: "Kuća Anne Frank", url: "https://www.annefrank.org/" },
+    { ime: "Anne Frank House", url: "https://www.annefrank.org/" },
     { ime: "Rotterdam Tourist Information", url: "https://www.rotterdam.info/" },
     { ime: "Discover Utrecht", url: "https://www.discover-utrecht.com/" },
     { ime: "Domtoren Utrecht", url: "https://www.domtoren.nl/" },
     { ime: "Den Haag", url: "https://denhaag.com/" },
     { ime: "Museum Prinsenhof Delft", url: "https://museumprinsenhofdelft.nl/" },
     { ime: "Visit Haarlem", url: "https://www.visithaarlem.com/" },
-    { ime: "Svjetska baština Kinderdijk", url: "https://kinderdijk.nl/" },
+    { ime: "Kinderdijk World Heritage", url: "https://kinderdijk.nl/" },
     { ime: "Visit Maastricht", url: "https://www.visitmaastricht.com/" }
   ]
 };

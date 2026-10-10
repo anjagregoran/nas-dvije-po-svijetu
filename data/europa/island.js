@@ -1,248 +1,248 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["island"] = {
   id: "island",
-  ime: "Island",
-  regija: "Sjeverna Europa",
-  sazetak: "Otok na kojem se zemlja još stvara pred vašim očima: vulkani, ledenjaci, gejziri i slapovi poredani uz jednu jedinu kružnu cestu.",
+  ime: "Iceland",
+  regija: "Northern Europe",
+  sazetak: "An island where the earth is still being made before your eyes: volcanoes, glaciers, geysers and waterfalls lined up along one single ring road.",
   uvod: [
-    "Island leži točno na Srednjoatlantskom hrptu, pukotini duž koje se Sjevernoamerička i Euroazijska ploča razmiču oko dva centimetra godišnje. Zato ovdje vulkani eruptiraju svakih nekoliko godina, vruća voda izvire iz tla, a krajolik je mjestimice mlađi od naših baka. Desetinu otoka pokrivaju ledenjaci, a drveća gotovo da i nema.",
-    "Prema predaji prvi stalni doseljenik bio je Norvežanin Ingólfur Arnarson, koji se oko 874. nastanio na mjestu današnjeg Reykjavíka. Doseljenici su već 930. osnovali Alþingi, skupštinu slobodnih ljudi na otvorenom, koja se smatra jednim od najstarijih parlamenata na svijetu. Otok je 1262. došao pod norvešku, a potom pod dansku krunu, i punu je neovisnost kao republika proglasio 17. lipnja 1944.",
-    "Islanđana je manje od četiristo tisuća, a dvije trećine žive u Reykjavíku i okolici. Jezik im se od vikinškog doba promijenio tako malo da djeca u školi čitaju sage iz 13. stoljeća u izvorniku. Umjesto prezimena nose očevo ili majčino ime, pa se i predsjednicu države oslovljava samo osobnim imenom."
+    "Iceland sits right on the Mid-Atlantic Ridge, the rift along which the North American and Eurasian plates are pulling apart by about two centimeters a year. That is why volcanoes erupt here every few years, hot water wells up out of the ground, and the landscape is in places younger than our grandmothers. A tenth of the island is covered by glaciers, and there are almost no trees.",
+    "According to tradition the first permanent settler was the Norwegian Ingólfur Arnarson, who made his home around 874 on the site of present-day Reykjavík. As early as 930 the settlers founded the Alþingi, an open-air assembly of free men that is considered one of the oldest parliaments in the world. The island came under the Norwegian crown in 1262 and then the Danish one, and it proclaimed full independence as a republic on June 17, 1944.",
+    "There are fewer than four hundred thousand Icelanders, and two thirds of them live in and around Reykjavík. Their language has changed so little since the Viking age that children at school read the 13th-century sagas in the original. In place of surnames they carry their father's or mother's name, so even the president of the country is addressed by her first name alone."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od lipnja do kolovoza za duge dane, otvorene ceste, ptice tupike i zelene krajolike. Od rujna do ožujka za polarnu svjetlost i ledene špilje, uz kratke dane i ćudljivo vrijeme." },
-    { k: "Valuta", v: "Islandska kruna (ISK). Karticom se plaća apsolutno sve, pa mnogi posjetitelji gotovinu uopće ne vide." },
-    { k: "Kretanje", v: "Vlakova nema. Oko otoka vodi kružna cesta broj 1, duga oko 1 320 kilometara, a većina putuje unajmljenim automobilom ili organiziranim autobusnim izletima iz Reykjavíka. Stanje cesta i vrijeme provjeravajte svaki dan, jer se mijenjaju iz sata u sat." },
-    { k: "Napojnica", v: "Ne očekuje se, usluga je uračunata u cijenu." },
-    { k: "Cijene i voda", v: "Island je vrlo skup, osobito restorani i alkohol. Voda iz slavine jedna je od najčišćih na svijetu, pa ponesite bocu, a topla voda u Reykjavíku blago miriše na sumpor jer dolazi ravno iz zemlje." },
-    { k: "Sigurnost", v: "Priroda je ovdje opasnija nego što izgleda. Držite se označenih staza, ne prilazite rubu litica ni moru na plaži Reynisfjara i prije izleta pogledajte upozorenja službe Safetravel." }
+    { k: "When to go", v: "From June to August for long days, open roads, puffins and green landscapes. From September to March for the northern lights and ice caves, with short days and moody weather." },
+    { k: "Currency", v: "The Icelandic króna (ISK). You can pay for absolutely everything by card, so many visitors never see cash at all." },
+    { k: "Getting around", v: "There are no trains. Ring Road number 1, about 1,320 kilometers long, circles the island, and most people travel by rental car or on organized bus tours from Reykjavík. Check the road conditions and the weather every day, because they change from hour to hour." },
+    { k: "Tipping", v: "It is not expected, since service is included in the price." },
+    { k: "Prices and water", v: "Iceland is very expensive, especially restaurants and alcohol. The tap water is among the cleanest in the world, so bring a bottle, and the hot water in Reykjavík smells faintly of sulfur because it comes straight out of the ground." },
+    { k: "Safety", v: "Nature here is more dangerous than it looks. Stay on the marked trails, keep away from cliff edges and from the sea at Reynisfjara beach, and look at the Safetravel alerts before any outing." }
   ],
   hrana: [
-    { ime: "Skyr", opis: "Gust, blago kiselkast mliječni proizvod nalik jogurtu, koji je zapravo svježi sir od obranog mlijeka.", prica: "Islanđani ga jedu više od tisuću godina, spominje se i u sagama, a u Skandinaviji je u međuvremenu zaboravljen. Jede se s vrhnjem i borovnicama ili šećerom, za doručak ili kao desert." },
-    { ime: "Kjötsúpa", opis: "Bistra juha od janjetine na kosti s korjenastim povrćem, krumpirom i kupusom.", prica: "Islandske ovce cijelo ljeto slobodno pasu po planinama travu, mahovinu i bilje, pa meso ima poseban okus. Juha se jede nakon hladnog dana vani i u mnogim se kavanama uz cestu može dobiti repete." },
-    { ime: "Plokkfiskur", opis: "Gusto jelo od kuhanog bakalara ili vahnje, krumpira i luka u bijelom umaku.", prica: "Nastalo je kao način da se iskoriste ostaci ribe od prethodnog dana. Poslužuje se sa slatkim tamnim raženim kruhom i maslacem." },
-    { ime: "Harðfiskur", opis: "Riba sušena na vjetru dok ne postane tvrda kao drvo, koja se trga na vlakna i jede s maslacem.", prica: "Stoljećima je zamjenjivala kruh, jer žito na otoku gotovo ne uspijeva. Danas je zdrava grickalica bogata bjelančevinama, koja se prodaje u svakoj trgovini." },
-    { ime: "Pylsa", opis: "Hrenovka u kojoj je uz svinjetinu i govedinu i janjetina, u pecivu sa sirovim i prženim lukom, kečapom, slatkim senfom i remuladom.", prica: "Naručuje se riječima „eina með öllu“, jednu sa svime. Smatra se neslužbenim nacionalnim jelom i jedan je od rijetkih povoljnih obroka na otoku." },
-    { ime: "Rúgbrauð", opis: "Taman, gust i sladak raženi kruh bez kore.", prica: "U geotermalnim krajevima peče se dvadeset četiri sata u loncu zakopanom u vrući pijesak uz izvor, pa ga zovu i kruhom iz gejzira. Jede se s maslacem i dimljenom pastrvom ili janjetinom." },
-    { ime: "Hákarl i brennivín", opis: "Meso grenlandskog morskog psa, koje se mjesecima fermentira i suši, i rakija od krumpira s kimom kojom se zalijeva.", prica: "Svježe meso tog morskog psa otrovno je, pa je fermentacija bila jedini način da se pojede. Miriše na amonijak, a okus je blaži od mirisa. Islanđani ga jedu uglavnom na zimskoj svečanosti þorrablót, a posjetiteljima ga nude kao ispit hrabrosti." },
-    { ime: "Hangikjöt", opis: "Dimljena janjetina, tradicionalno dimljena nad sušenim ovčjim gnojem, kuhana i narezana na tanke kriške.", prica: "Glavno je božićno jelo, uz bijeli umak, krumpir i grašak. Uz nju se jede laufabrauð, tanki prženi kruh u koji cijela obitelj prije Božića urezuje uzorke nalik pahuljama." },
-    { ime: "Kleinur i snúður", opis: "Kleinur su uvijeni prženi kolačići s kardamomom, a snúður veliko pecivo s cimetom, preliveno čokoladom ili karamelom.", prica: "Jedu se uz kavu, koju Islanđani piju u velikim količinama. Kleinur se peku po kućama već stoljećima, i svaka baka ima svoj recept." },
-    { ime: "Humar", opis: "Mali islandski škampi, koji se peku na maslacu s češnjakom ili kuhaju u kremastoj juhi.", prica: "Love se uz jugoistočnu obalu, a gradić Höfn zove se prijestolnicom škampa. Juha od škampa najbolje je što se može pojesti nakon dana provedenog kraj ledenjačke lagune." }
+    { ime: "Skyr", opis: "A thick, mildly tangy dairy product that resembles yogurt and is in fact a fresh cheese made from skim milk.", prica: "Icelanders have been eating it for more than a thousand years and it is mentioned in the sagas, while in Scandinavia it has since been forgotten. It is eaten with cream and blueberries or sugar, for breakfast or as dessert." },
+    { ime: "Kjötsúpa", opis: "A clear soup of lamb on the bone with root vegetables, potatoes and cabbage.", prica: "Icelandic sheep roam the mountains freely all summer, grazing on grass, moss and herbs, which gives the meat a flavor of its own. The soup is eaten after a cold day outdoors, and in many roadside cafes you can have a second helping." },
+    { ime: "Plokkfiskur", opis: "A thick dish of boiled cod or haddock, potatoes and onion in a white sauce.", prica: "It came about as a way of using up leftover fish from the day before. It is served with sweet dark rye bread and butter." },
+    { ime: "Harðfiskur", opis: "Fish dried in the wind until it is as hard as wood, then torn into fibers and eaten with butter.", prica: "For centuries it took the place of bread, because grain hardly grows on the island. Today it is a healthy, protein-rich snack sold in every store." },
+    { ime: "Pylsa", opis: "A hot dog that has lamb in it along with pork and beef, in a bun with raw and fried onion, ketchup, sweet mustard and remoulade.", prica: "You order it with the words “eina með öllu”, one with everything. It is considered the unofficial national dish and is one of the few inexpensive meals on the island." },
+    { ime: "Rúgbrauð", opis: "A dark, dense and sweet rye bread without a crust.", prica: "In geothermal areas it is baked for twenty-four hours in a pot buried in hot sand beside a spring, so it is also called geyser bread. It is eaten with butter and smoked trout or lamb." },
+    { ime: "Hákarl and brennivín", opis: "The meat of the Greenland shark, fermented and dried for months, and the potato schnapps with caraway that washes it down.", prica: "The fresh meat of this shark is poisonous, so fermentation was the only way to eat it. It smells of ammonia, and the taste is milder than the smell. Icelanders eat it mostly at the winter feast of þorrablót, and they offer it to visitors as a test of courage." },
+    { ime: "Hangikjöt", opis: "Smoked lamb, traditionally smoked over dried sheep dung, then boiled and cut into thin slices.", prica: "It is the main Christmas dish, served with white sauce, potatoes and peas. It is eaten with laufabrauð, a thin fried bread into which the whole family cuts snowflake-like patterns before Christmas." },
+    { ime: "Kleinur and snúður", opis: "Kleinur are twisted fried pastries with cardamom, and a snúður is a big cinnamon roll topped with chocolate or caramel.", prica: "They are eaten with coffee, which Icelanders drink in large quantities. Kleinur have been made at home for centuries, and every grandmother has her own recipe." },
+    { ime: "Humar", opis: "Small Icelandic langoustines, pan-fried in butter with garlic or cooked into a creamy soup.", prica: "They are caught off the southeast coast, and the small town of Höfn is called the langoustine capital. Langoustine soup is the best thing you can eat after a day spent beside the glacier lagoon." }
   ],
   obicaji: [
-    { ime: "Bazeni i vruće kade", opis: "Svako selo ima vanjski bazen s geotermalnom vodom i nekoliko vrućih kada, u kojima se sjedi po svakom vremenu i razgovara sa susjedima. To je islandska inačica kavane ili trga. Prije ulaska obavezno se temeljito otuširate bez kupaćeg kostima, i na to se strogo pazi.", gdje: "U Reykjavíku u bazenima Laugardalslaug ili Sundhöllin, najstarijem gradskom bazenu, iz 1937." },
-    { ime: "Jólabókaflóð", opis: "Božićna poplava knjiga: većina novih knjiga izlazi u tjednima pred Božić, a knjiga je najčešći dar. Na Badnjak se darovi otvaraju navečer, a zatim se čita u krevetu uz čokoladu. Island izdaje više knjiga po stanovniku od gotovo svih zemalja svijeta.", gdje: "U knjižarama u ulici Laugavegur u Reykjavíku u studenome i prosincu, kada svako kućanstvo dobije besplatni katalog svih novih naslova." },
-    { ime: "Trinaest božićnih momaka", opis: "Umjesto jednog Djeda Mraza Island ima trinaest nestašnih jólasveinara, sinova trolice Grýle, koji od 12. prosinca jedan po jedan silaze s planina. Svaki ima ime po svojoj nepodopštini, primjerice Lizač žlica ili Kradljivac kobasica, a djeci ostavljaju darić u cipeli na prozoru, ili truli krumpir ako nisu bila dobra.", gdje: "Prema predaji žive u poljima lave Dimmuborgir kraj jezera Mývatn, gdje ih se u prosincu može i sresti." },
-    { ime: "Huldufólk", opis: "Skriveni narod, vilenjaci koji prema predaji žive u stijenama i brežuljcima. Mnogi Islanđani neće reći da u njih vjeruju, ali ni da ne vjeruju, pa se događalo da se trasa ceste pomakne kako bi se zaobišla stijena za koju se zna da je nastanjena.", gdje: "U gradiću Hafnarfjörðuru kraj Reykjavíka, gdje su vilinske stijene označene na karti, i na poluotoku Snæfellsnesu." },
-    { ime: "Þorrablót", opis: "Zimska gozba od kraja siječnja do kraja veljače, na kojoj se jede hrana kakvu su jeli preci: fermentirani morski pas, kuhana ovčja glava, kiseli ovnujski testisi i sušena riba. Uz to se recitiraju pjesme, pjeva se i pije brennivín.", gdje: "Slavi se po društvima i selima, a u to doba godine tradicionalni restorani u Reykjavíku nude tanjur s takvim jelima za kušanje." },
-    { ime: "Lopapeysa", opis: "Debeli vuneni džemper s kružnim uzorkom oko vrata, pleten od neispredene vune islandskih ovaca, koja je lagana, topla i odbija vodu. Postao je nacionalni simbol sredinom 20. stoljeća i nosi se svuda, od štale do parlamenta.", gdje: "U trgovini Udruge islandskih pletilja u Reykjavíku, gdje su svi džemperi ručno pleteni i potpisani." },
-    { ime: "Réttir", opis: "U rujnu seljaci na konjima silaze u planine i skupljaju ovce koje su se cijelo ljeto slobodno kretale. Stado se sjera u velik kružni tor s pregradama poput kriški torte, gdje svaka obitelj po oznaci na uhu izdvaja svoje. Dan završava pjesmom i plesom.", gdje: "Po cijeloj zemlji u prva tri tjedna rujna, a datumi se objavljuju u poljoprivrednim novinama i na stranicama turističkih ureda." },
-    { ime: "Sage", opis: "Prozne pripovijesti iz 13. stoljeća o prvim naraštajima doseljenika, njihovim zavadama, putovanjima i ljubavima, pisane suhim, modernim stilom. Islanđani ih i danas čitaju bez prijevoda i znaju pokazati farmu na kojoj je živio neki junak prije tisuću godina.", gdje: "U Nacionalnom muzeju u Reykjavíku i na samim mjestima radnje, poput Þingvellira, koja su označena pločama." }
+    { ime: "Pools and hot tubs", opis: "Every village has an outdoor pool with geothermal water and several hot tubs, where people sit in any weather and chat with their neighbors. It is the Icelandic version of the cafe or the town square. Before going in you must shower thoroughly without your swimsuit, and this is strictly enforced.", gdje: "In Reykjavík at the Laugardalslaug pools or at Sundhöllin, the oldest city pool, from 1937." },
+    { ime: "Jólabókaflóð", opis: "The Christmas book flood: most new books come out in the weeks before Christmas, and a book is the most common gift. On Christmas Eve the presents are opened in the evening, and then everyone reads in bed with chocolate. Iceland publishes more books per capita than almost any other country in the world.", gdje: "In the bookstores on Laugavegur street in Reykjavík in November and December, when every household receives a free catalog of all the new titles." },
+    { ime: "The thirteen Yule Lads", opis: "In place of a single Santa Claus, Iceland has thirteen mischievous jólasveinar, the sons of the troll woman Grýla, who come down from the mountains one by one starting on December 12. Each is named after his particular prank, for example Spoon Licker or Sausage Swiper, and they leave children a small gift in a shoe on the windowsill, or a rotten potato if they have not been good.", gdje: "According to tradition they live in the Dimmuborgir lava fields beside Lake Mývatn, where you can even meet them in December." },
+    { ime: "Huldufólk", opis: "The hidden people, elves who according to tradition live in rocks and hillocks. Many Icelanders will not say that they believe in them, nor that they do not, and it has happened that the route of a road was shifted to go around a rock known to be inhabited.", gdje: "In the town of Hafnarfjörður near Reykjavík, where the elf rocks are marked on a map, and on the Snæfellsnes peninsula." },
+    { ime: "Þorrablót", opis: "A winter feast from late January to late February at which people eat the kind of food their ancestors ate: fermented shark, boiled sheep's head, pickled ram's testicles and dried fish. It comes with recited poems, singing and brennivín.", gdje: "It is celebrated by clubs and villages, and at that time of year traditional restaurants in Reykjavík offer a tasting plate of these dishes." },
+    { ime: "Lopapeysa", opis: "A thick wool sweater with a circular pattern around the neck, knitted from the unspun wool of Icelandic sheep, which is light, warm and water-repellent. It became a national symbol in the mid-20th century and is worn everywhere, from the barn to parliament.", gdje: "At the store of the Handknitting Association of Iceland in Reykjavík, where all the sweaters are hand-knitted and signed." },
+    { ime: "Réttir", opis: "In September farmers ride into the mountains on horseback and round up the sheep that have roamed freely all summer. The flock is driven into a large circular pen with compartments like slices of a cake, where each family picks out its own by the mark on the ear. The day ends with singing and dancing.", gdje: "All over the country in the first three weeks of September, with the dates published in the farmers' newspaper and on the websites of the tourist offices." },
+    { ime: "The sagas", opis: "Prose narratives from the 13th century about the first generations of settlers, their feuds, voyages and loves, written in a dry, modern style. Icelanders still read them today without translation and can point out the farm where some hero lived a thousand years ago.", gdje: "At the National Museum in Reykjavík and at the actual settings of the stories, such as Þingvellir, which are marked with plaques." }
   ],
   fraze: [
-    { izvorno: "Góðan daginn", izgovor: "GOU-dan DAJ-in", hr: "Dobar dan" },
-    { izvorno: "Takk fyrir", izgovor: "tak FI-rir", hr: "Hvala" },
-    { izvorno: "Gjörðu svo vel", izgovor: "GJER-du svo vel", hr: "Izvoli, nema na čemu" },
-    { izvorno: "Afsakið", izgovor: "AF-sa-kid", hr: "Oprostite" },
-    { izvorno: "Talarðu ensku?", izgovor: "TA-lar-du EN-sku", hr: "Govoriš li engleski?" },
-    { izvorno: "Hvar er ...?", izgovor: "kvar er", hr: "Gdje je ...?" },
-    { izvorno: "Skál", izgovor: "skaul", hr: "Živjeli" },
-    { izvorno: "Bless", izgovor: "bles", hr: "Doviđenja" }
+    { izvorno: "Góðan daginn", izgovor: "GOH-than DYE-in", hr: "Good day, hello" },
+    { izvorno: "Takk fyrir", izgovor: "tahk FIH-rir", hr: "Thank you" },
+    { izvorno: "Gjörðu svo vel", izgovor: "GYUR-thu svoh vel", hr: "Here you go, you're welcome" },
+    { izvorno: "Afsakið", izgovor: "AHF-sah-kith", hr: "Excuse me" },
+    { izvorno: "Talarðu ensku?", izgovor: "TAH-lar-thu EN-sku", hr: "Do you speak English?" },
+    { izvorno: "Hvar er ...?", izgovor: "kvar ehr", hr: "Where is ...?" },
+    { izvorno: "Skál", izgovor: "skowl", hr: "Cheers" },
+    { izvorno: "Bless", izgovor: "bless", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Island je 19. prosinca 1991. priznao neovisnost Hrvatske, prije svih ostalih zapadnoeuropskih država.",
-    "Pivo je na Islandu bilo zabranjeno sve do 1. ožujka 1989., pa se taj datum svake godine slavi kao Dan piva.",
-    "Oko devedeset posto islandskih domova grije se vrućom vodom iz zemlje, a u Reykjavíku se zimi njome griju i neki pločnici da se ne zalede.",
-    "Islanđani umjesto prezimena imaju očevo ili majčino ime s nastavkom za sina ili kćer, pa se telefonski imenik slaže po osobnim imenima.",
-    "Riječ gejzir u svim jezicima svijeta dolazi od jednog jedinog islandskog izvora, Geysira u dolini Haukadalur.",
-    "Erupcija vulkana pod ledenjakom Eyjafjallajökull u travnju 2010. danima je zaustavila zračni promet u Europi, a spikeri diljem svijeta mučili su se izgovoriti njegovo ime.",
-    "Island nema vojsku, a policajci na ulici ne nose vatreno oružje.",
-    "Islandski konj jedina je pasmina na otoku već više od tisuću godina. Konj koji jednom napusti Island ne smije se vratiti, da ne bi donio bolesti."
+    "Iceland recognized Croatia's independence on December 19, 1991, ahead of every other Western European state.",
+    "Beer was banned in Iceland right up until March 1, 1989, so that date is celebrated every year as Beer Day.",
+    "Around ninety percent of Icelandic homes are heated with hot water from the ground, and in Reykjavík it also heats some of the sidewalks in winter so that they do not ice over.",
+    "In place of surnames Icelanders have their father's or mother's name with an ending meaning son or daughter, so the phone book is arranged by first name.",
+    "The word geyser in every language of the world comes from one single Icelandic hot spring, Geysir in the Haukadalur valley.",
+    "The eruption of the volcano beneath the Eyjafjallajökull glacier in April 2010 halted air traffic in Europe for days, and newscasters around the world struggled to pronounce its name.",
+    "Iceland has no army, and police officers on the street do not carry firearms.",
+    "The Icelandic horse has been the only breed on the island for more than a thousand years. A horse that once leaves Iceland may never return, so that it cannot bring back diseases."
   ],
   mjesta: [
     {
       id: "reykjavik",
       ime: "Reykjavík",
       vrsta: "grad",
-      sazetak: "Najsjevernija prijestolnica na svijetu, mala i šarena, s crkvom nalik stijeni od lave i bazenima koje grije sama zemlja.",
+      sazetak: "The northernmost capital in the world, small and colorful, with a church like a cliff of lava and pools heated by the earth itself.",
       prica: [
-        "Predaja kaže da je Ingólfur Arnarson, kada je ugledao Island, bacio u more stupove svoga počasnog sjedala i zavjetovao se da će se nastaniti ondje gdje ih valovi izbace. Našao ih je u zaljevu iz kojega se dizala para vrućih izvora i nazvao ga Reykjavík, Zadimljeni zaljev.",
-        "Stoljećima je tu bila samo farma, a gradska prava naselje je dobilo 1786. s nekoliko stotina stanovnika. Pravi grad postao je tek u 20. stoljeću, pa su kuće uglavnom niske, obložene valovitim limom u jakim bojama, koji je najbolje podnosio vjetar i kišu."
+        "Tradition has it that when Ingólfur Arnarson caught sight of Iceland, he threw the pillars of his high seat into the sea and vowed to settle wherever the waves cast them ashore. He found them in a bay where steam was rising from hot springs and named it Reykjavík, Smoky Bay.",
+        "For centuries there was only a farm here, and the settlement was granted town rights in 1786 with a few hundred inhabitants. It became a real city only in the 20th century, which is why the houses are mostly low and clad in brightly painted corrugated iron, the material that stood up best to the wind and rain."
       ],
       vidjeti: [
-        { ime: "Hallgrímskirkja", opis: "Luteranska crkva visoka 74,5 metara vidi se iz cijeloga grada. Arhitekt Guðjón Samúelsson nacrtao ju je 1937. po uzoru na bazaltne stupove koji nastaju kada se lava polako hladi, a gradila se četrdeset jednu godinu, od 1945. do 1986. Unutra je namjerno gola i svijetla, s orguljama od više od pet tisuća cijevi. Na toranj se penje dizalom. Kip pred crkvom prikazuje Leifa Erikssona, a darovao ga je SAD 1930., za tisuću godina Alþingija." },
-        { ime: "Harpa", opis: "Koncertna dvorana na obali otvorena je 2011., a staklenu fasadu od šesterokutnih saća, nadahnutu bazaltom, oblikovao je umjetnik Olafur Eliasson. Gradnja je počela prije financijskog sloma 2008. i država je odlučila dovršiti je unatoč krizi, kao znak da se zemlja neće predati. U predvorje se ulazi slobodno, a svjetlo se na staklu mijenja sa svakim oblakom." },
-        { ime: "Sólfar (Sunčev putnik)", opis: "Čelična skulptura Jóna Gunnara Árnasona iz 1990. na obali podsjeća na vikinški brod, ali ju je autor zamislio kao brod snova i odu suncu, okrenutu prema planini Esji. Najljepša je u vrijeme zalaska sunca." },
-        { ime: "Nacionalni muzej Islanda", opis: "Postav vodi od prvih doseljenika do danas. Najvredniji je predmet rezbarena crkvena vrata iz Valþjófsstaðura, iz oko 1200., s prizorom viteza koji spašava lava od zmaja, a lav ga zatim vjerno prati do groba. Vide se i vikinški mačevi, srebrna figurica boga Thora i nošnje." },
-        { ime: "Izložba o naseljavanju (Aðalstræti)", opis: "Pod današnjom ulicom sačuvani su ostaci duge kuće iz 10. stoljeća i dio zida koji je stariji od 871. godine. To se zna vrlo točno jer zid leži ispod sloja vulkanskog pepela koji je datiran prema grenlandskom ledu. Muzej je sagrađen oko samog nalaza." },
-        { ime: "Perlan", opis: "Na brdu Öskjuhlíð stoji šest golemih spremnika gradske vruće vode, pokrivenih staklenom kupolom. Unutra je muzej prirode s pravom ledenom špiljom dugom sto metara, planetarij s projekcijom polarne svjetlosti i vidikovac oko cijele kupole." }
+        { ime: "Hallgrímskirkja", opis: "The Lutheran church, 74.5 meters high, can be seen from all over the city. The architect Guðjón Samúelsson designed it in 1937, modeling it on the basalt columns that form when lava cools slowly, and it took forty-one years to build, from 1945 to 1986. Inside it is deliberately bare and bright, with an organ of more than five thousand pipes. An elevator takes you up the tower. The statue in front of the church shows Leif Eriksson and was a gift from the USA in 1930, for the thousandth anniversary of the Alþingi." },
+        { ime: "Harpa", opis: "The concert hall on the waterfront opened in 2011, and its glass facade of hexagonal honeycomb cells, inspired by basalt, was designed by the artist Olafur Eliasson. Construction began before the financial crash of 2008, and the state decided to finish it despite the crisis, as a sign that the country would not give up. You can walk into the foyer freely, and the light on the glass changes with every passing cloud." },
+        { ime: "Sólfar (the Sun Voyager)", opis: "Jón Gunnar Árnason's steel sculpture from 1990 on the waterfront recalls a Viking ship, but the artist conceived it as a dream boat and an ode to the sun, facing Mount Esja. It is at its most beautiful at sunset." },
+        { ime: "National Museum of Iceland", opis: "The exhibition leads from the first settlers to the present day. The most valuable object is the carved church door from Valþjófsstaður, from around 1200, with a scene of a knight rescuing a lion from a dragon, after which the lion faithfully follows him to his grave. You can also see Viking swords, a silver figurine of the god Thor and traditional costumes." },
+        { ime: "The Settlement Exhibition (Aðalstræti)", opis: "Beneath today's street lie the preserved remains of a 10th-century longhouse and a section of wall that is older than the year 871. This is known very precisely because the wall lies under a layer of volcanic ash that has been dated using the Greenland ice. The museum was built around the find itself." },
+        { ime: "Perlan", opis: "On Öskjuhlíð hill stand six huge tanks of the city's hot water, topped by a glass dome. Inside is a nature museum with a real ice cave a hundred meters long, a planetarium with a northern lights show and a viewing deck running all the way around the dome." }
       ],
       jesti: [
-        { ime: "Hrenovka s kioska Bæjarins Beztu", opis: "Mali kiosk kraj luke prodaje hrenovke od 1937. i pred njim je uvijek red. Naručite jednu sa svime." },
-        { ime: "Kjötsúpa i plokkfiskur", opis: "Janjeću juhu i riblje jelo s krumpirom nude tradicionalne gostionice u središtu, često s neograničenim kruhom i maslacem." },
-        { ime: "Riba dana", opis: "Bakalar, vahnja, arktička zlatovčica ili vučja riba stižu svježi svako jutro, pa je riba dana u gotovo svakom restoranu najsigurniji izbor." },
-        { ime: "Snúður i kava", opis: "Reykjavík ima odlične pekarnice, a pecivo s cimetom i šalica kave najjeftiniji su način da se ugrijete." }
+        { ime: "A hot dog from the Bæjarins Beztu stand", opis: "The little stand by the harbor has been selling hot dogs since 1937, and there is always a line in front of it. Order one with everything." },
+        { ime: "Kjötsúpa and plokkfiskur", opis: "The lamb soup and the fish dish with potatoes are served in the traditional restaurants downtown, often with unlimited bread and butter." },
+        { ime: "Fish of the day", opis: "Cod, haddock, Arctic char or wolffish arrive fresh every morning, so the fish of the day is the safest choice in almost every restaurant." },
+        { ime: "Snúður and coffee", opis: "Reykjavík has excellent bakeries, and a cinnamon roll with a cup of coffee is the cheapest way to warm up." }
       ],
       dozivjeti: [
-        { ime: "Šetnja gradom s lokalnim vodičem", opis: "Dvosatna šetnja na engleskom vodi od parlamenta do Harpe uz mnogo priča o politici, vilenjacima i svakodnevici, a na kraju platite koliko mislite da vrijedi.", link: "https://citywalk.is/" },
-        { ime: "Gradski bazen", opis: "Za cijenu kave dobivate vanjski bazen, nekoliko vrućih kada različite temperature i parnu kupelj, i sjedite među samim Islanđanima. Ne zaboravite obavezno tuširanje prije ulaska." },
-        { ime: "Sky Lagoon", opis: "Geotermalna laguna na rubu grada, otvorena 2021., s rubom koji se stapa s oceanom i obredom od sedam koraka koji uključuje saunu s golemim prozorom i hladnu maglu.", link: "https://www.skylagoon.com/" },
-        { ime: "Buvljak Kolaportið", opis: "Vikendom se u hali kraj luke prodaju rabljeni džemperi, knjige i domaća hrana, a na ribljem štandu može se kušati komadić fermentiranog morskog psa bez kupovanja cijele porcije.", link: "https://kolaportid.is/" }
+        { ime: "A city walk with a local guide", opis: "The two-hour walk in English leads from the parliament to Harpa, with plenty of stories about politics, elves and everyday life, and at the end you pay what you think it was worth.", link: "https://citywalk.is/" },
+        { ime: "A city pool", opis: "For the price of a coffee you get an outdoor pool, several hot tubs at different temperatures and a steam bath, and you sit among nothing but Icelanders. Do not forget the mandatory shower before you go in." },
+        { ime: "Sky Lagoon", opis: "A geothermal lagoon on the edge of the city, opened in 2021, with an edge that blends into the ocean and a seven-step ritual that includes a sauna with a giant window and a cold mist.", link: "https://www.skylagoon.com/" },
+        { ime: "The Kolaportið flea market", opis: "On weekends the hall by the harbor sells secondhand sweaters, books and homemade food, and at the fish stall you can try a little piece of fermented shark without buying a whole portion.", link: "https://kolaportid.is/" }
       ],
       agencije: [
-        { ime: "Visit Reykjavík", opis: "Službeni turistički vodič grada.", link: "https://visitreykjavik.is/" },
-        { ime: "CityWalk Reykjavík", opis: "Lokalni vodiči koji svakodnevno vode pješačke ture po središtu na engleskom.", link: "https://citywalk.is/" },
-        { ime: "Reykjavik Excursions", opis: "Dugogodišnji autobusni prijevoznik i organizator izleta, koji vozi i liniju do zračne luke te izlete na Zlatni krug i južnu obalu.", link: "https://www.re.is/" }
+        { ime: "Visit Reykjavík", opis: "The city's official tourist guide.", link: "https://visitreykjavik.is/" },
+        { ime: "CityWalk Reykjavík", opis: "Local guides who lead daily walking tours of downtown in English.", link: "https://citywalk.is/" },
+        { ime: "Reykjavik Excursions", opis: "A long-established bus company and tour operator, which also runs the airport line and day trips to the Golden Circle and the South Coast.", link: "https://www.re.is/" }
       ],
-      kada: "Ljeti je svijetlo gotovo cijelu noć, a zimi dan traje četiri do pet sati, ali je grad okićen i živ. Plava laguna i ceste na poluotoku Reykjanesu posljednjih su godina povremeno zatvarane zbog erupcija kod Grindavíka, pa prije puta provjerite stanje."
+      kada: "In summer it is light almost all night, and in winter the day lasts four to five hours, yet the city is decked out and lively. The Blue Lagoon and the roads on the Reykjanes peninsula have been closed from time to time in recent years because of the eruptions near Grindavík, so check the situation before you travel."
     },
     {
       id: "zlatni-krug",
-      ime: "Zlatni krug",
+      ime: "Golden Circle",
       vrsta: "regija",
-      sazetak: "Kružni izlet od tristo kilometara iz Reykjavíka, koji u jednom danu spaja pukotinu između kontinenata, gejzir koji eruptira svakih nekoliko minuta i slap u dva stupnja.",
+      sazetak: "A three-hundred-kilometer loop from Reykjavík that brings together, in a single day, a rift between continents, a geyser that erupts every few minutes and a two-tiered waterfall.",
       prica: [
-        "Zlatni krug ime je za tri mjesta koja su islandski turistički djelatnici povezali u jednodnevni izlet: nacionalni park Þingvellir, geotermalno polje Geysir i slap Gullfoss. Sva tri leže na rubu vulkanske zone u kojoj se otok širi.",
-        "Þingvellir je ujedno najvažnije povijesno mjesto u zemlji. Ovdje su se od 930. svakog ljeta na dva tjedna okupljali poglavari sa cijelog otoka da donose zakone i sude, ovdje je oko 1000. godine odlučeno da Island prijeđe na kršćanstvo, i ovdje je 17. lipnja 1944. proglašena republika."
+        "The Golden Circle is the name for three places that Iceland's tourism people linked into a day trip: Þingvellir National Park, the Geysir geothermal field and the Gullfoss waterfall. All three lie on the edge of the volcanic zone where the island is spreading apart.",
+        "Þingvellir is also the most important historic site in the country. From 930 onward, chieftains from all over the island gathered here for two weeks every summer to make laws and pass judgment, it was here that the decision was made around the year 1000 for Iceland to convert to Christianity, and it was here that the republic was proclaimed on June 17, 1944."
       ],
       vidjeti: [
-        { ime: "Þingvellir i pukotina Almannagjá", opis: "Hodate kroz usjek kojemu je jedna stijenka rub Sjevernoameričke ploče, dok je Euroazijska ploča nekoliko kilometara istočnije, a dolina između njih polako tone i širi se. Kod Stijene zakona, označene zastavom, zakonoša je napamet izgovarao zakone okupljenima, a litica iza njega služila je kao prirodni razglas. Park je na UNESCO-ovu popisu." },
-        { ime: "Öxarárfoss i Jezerce utapanja", opis: "Slap u pukotini vjerojatno nije prirodan: prema sagama doseljenici su skrenuli rijeku da skupština ima pitku vodu. Nizvodno je Drekkingarhylur, duboki vir u kojem su od 16. do 18. stoljeća utapane žene osuđene za preljub i čedomorstvo, o čemu govori ploča uz stazu." },
-        { ime: "Pukotina Silfra", opis: "Pukotina ispunjena ledenjačkom vodom, koja se desetljećima cijedila kroz lavu, tako je bistra da se pod vodom vidi više od sto metara. Ronioci ovdje plivaju između dviju kontinentalnih ploča, a s obale se vidi nestvarno plava boja vode." },
-        { ime: "Geysir i Strokkur", opis: "Veliki Geysir, po kojemu su nazvani svi gejziri svijeta, danas uglavnom miruje, ali njegov susjed Strokkur izbacuje stup kipuće vode visok petnaest do dvadeset metara svakih pet do deset minuta. Gledajte površinu vode: trenutak prije erupcije napne se u tirkiznu kupolu. Stanite s one strane odakle puše vjetar, jer voda pada vruća." },
-        { ime: "Gullfoss", opis: "Zlatni slap ruši se u dva stupnja, od 11 i 21 metra, u kanjon dubok sedamdeset metara, pod pravim kutom, pa izgleda kao da rijeka nestaje u zemlji. Početkom 20. stoljeća strani ulagači htjeli su ovdje graditi hidroelektranu, a Sigríður Tómasdóttir, kći seljaka s obližnje farme, godinama je pješačila u Reykjavík boriti se protiv toga i, kaže predaja, prijetila da će se baciti u slap. Njezin je lik uklesan u kamenu uz stazu." },
-        { ime: "Krater Kerið", opis: "Vulkanski krater star oko 6 500 godina ima stijenke od crvene troske, obrasle zelenom mahovinom, i jezero mliječno plave boje na dnu. Stazom po rubu obiđe se za dvadesetak minuta, a ulaz se naplaćuje jer je na privatnom zemljištu." }
+        { ime: "Þingvellir and the Almannagjá rift", opis: "You walk through a gorge where one wall is the edge of the North American plate, while the Eurasian plate lies a few kilometers to the east, and the valley between them is slowly sinking and widening. At the Law Rock, marked by a flag, the lawspeaker recited the laws from memory to the assembled crowd, and the cliff behind him served as a natural loudspeaker. The park is on the UNESCO list." },
+        { ime: "Öxarárfoss and the Drowning Pool", opis: "The waterfall in the rift is probably not natural: according to the sagas, the settlers diverted the river so that the assembly would have drinking water. Downstream is Drekkingarhylur, a deep pool in which women convicted of adultery and infanticide were drowned from the 16th to the 18th century, as a plaque beside the path explains." },
+        { ime: "The Silfra fissure", opis: "The fissure, filled with glacial water that has seeped through lava for decades, is so clear that you can see more than a hundred meters underwater. Divers here swim between two continental plates, and from the bank you can see the unreal blue color of the water." },
+        { ime: "Geysir and Strokkur", opis: "The Great Geysir, which gave its name to every geyser in the world, is mostly dormant today, but its neighbor Strokkur shoots up a column of boiling water fifteen to twenty meters high every five to ten minutes. Watch the surface of the water: a moment before the eruption it swells into a turquoise dome. Stand on the side the wind is blowing from, because the water comes down hot." },
+        { ime: "Gullfoss", opis: "The Golden Falls plunge in two tiers, of 11 and 21 meters, into a canyon seventy meters deep, at a right angle, so it looks as though the river is vanishing into the earth. In the early 20th century foreign investors wanted to build a hydroelectric plant here, and Sigríður Tómasdóttir, the daughter of a farmer from the nearby farm, walked to Reykjavík for years to fight against it and, tradition says, threatened to throw herself into the falls. Her likeness is carved in stone beside the path." },
+        { ime: "Kerið crater", opis: "The volcanic crater, about 6,500 years old, has walls of red scoria overgrown with green moss and a milky blue lake at the bottom. The path around the rim takes about twenty minutes, and there is an admission fee because it is on private land." }
       ],
       jesti: [
-        { ime: "Juha od rajčice u stakleniku Friðheimar", opis: "Na obiteljskom imanju rajčice rastu cijele godine u staklenicima grijanima vrućom vodom iz zemlje, a ruča se među biljkama: juha od rajčice s kruhom, koliko želite. Stol treba rezervirati unaprijed." },
-        { ime: "Kruh iz vrućeg pijeska u Laugarvatnu", opis: "U kupalištu Fontana dvaput dnevno iskopavaju lonac raženog kruha koji se dvadeset četiri sata pekao u pijesku uz jezero i poslužuju ga toplog, s maslacem i dimljenom pastrvom." },
-        { ime: "Sladoled na farmi", opis: "Na nekoliko farmi uz cestu prodaje se sladoled od mlijeka krava koje se kroz staklo vide u štali. Islanđani sladoled jedu po svakom vremenu." }
+        { ime: "Tomato soup in the Friðheimar greenhouse", opis: "On this family farm tomatoes grow all year round in greenhouses heated with hot water from the ground, and you have lunch among the plants: tomato soup with bread, as much as you like. A table has to be reserved in advance." },
+        { ime: "Bread from the hot sand at Laugarvatn", opis: "At the Fontana baths, twice a day they dig up a pot of rye bread that has been baking for twenty-four hours in the sand beside the lake, and serve it warm with butter and smoked trout." },
+        { ime: "Ice cream on the farm", opis: "Several farms along the road sell ice cream made with milk from cows you can see through a window in the barn. Icelanders eat ice cream in any weather." }
       ],
       dozivjeti: [
-        { ime: "Šetnja kroz Almannagjá do Stijene zakona", opis: "Ostavite barem sat i pol za park. S vidikovca kod centra za posjetitelje spustite se kroz usjek do slapa i natrag uz rijeku do crkvice i pet zabata stare farme.", link: "https://www.thingvellir.is/en/" },
-        { ime: "Geotermalno kupalište Laugarvatn Fontana", opis: "Parne kupelji sagrađene su izravno nad vrelom, pa se kroz rešetke u podu čuje kako voda ključa. Nakon toga hrabri ulaze u hladno jezero.", link: "https://fontana.is/" },
-        { ime: "Organizirani izlet autobusom", opis: "Tko ne vozi, može iz Reykjavíka na cjelodnevni izlet s vodičem, koji pokriva sva tri glavna mjesta i obično krater Kerið.", link: "https://www.re.is/" }
+        { ime: "A walk through Almannagjá to the Law Rock", opis: "Allow at least an hour and a half for the park. From the viewpoint at the visitor center, walk down through the gorge to the waterfall and back along the river to the little church and the five gables of the old farm.", link: "https://www.thingvellir.is/en/" },
+        { ime: "Laugarvatn Fontana geothermal baths", opis: "The steam rooms are built directly over the hot spring, so you can hear the water boiling through the grates in the floor. Afterward the brave go into the cold lake.", link: "https://fontana.is/" },
+        { ime: "An organized bus tour", opis: "Anyone who is not driving can take a full-day guided tour from Reykjavík, which covers all three main sites and usually the Kerið crater.", link: "https://www.re.is/" }
       ],
       agencije: [
-        { ime: "Nacionalni park Þingvellir", opis: "Službene stranice parka, s kartama staza i podacima o vođenim šetnjama čuvara prirode ljeti.", link: "https://www.thingvellir.is/en/" },
-        { ime: "Visit South Iceland", opis: "Službena turistička zajednica južnog Islanda.", link: "https://www.south.is/en" },
-        { ime: "Safetravel", opis: "Služba islandske udruge za traganje i spašavanje, s dnevnim upozorenjima o vremenu i cestama.", link: "https://safetravel.is/" }
+        { ime: "Þingvellir National Park", opis: "The park's official website, with trail maps and information on the walks led by park rangers in summer.", link: "https://www.thingvellir.is/en/" },
+        { ime: "Visit South Iceland", opis: "The official tourist board of South Iceland.", link: "https://www.south.is/en" },
+        { ime: "Safetravel", opis: "A service of the Icelandic Association for Search and Rescue, with daily alerts on weather and roads.", link: "https://safetravel.is/" }
       ],
-      kada: "Cijele godine. Ljeti krenite vrlo rano ili kasno poslijepodne da izbjegnete autobuse, jer je svijetlo do ponoći. Zimi su staze oko Gullfossa i Geysira zaleđene, pa su korisne cipele s dobrim potplatom."
+      kada: "All year round. In summer, set out very early or late in the afternoon to avoid the buses, since it stays light until midnight. In winter the paths around Gullfoss and Geysir are icy, so shoes with a good sole come in handy."
     },
     {
       id: "juzna-obala",
-      ime: "Južna obala",
+      ime: "South Coast",
       vrsta: "regija",
-      sazetak: "Niz slapova, crnih plaža i ledenjačkih jezika uz kružnu cestu, koji završava lagunom punom santi leda.",
+      sazetak: "A string of waterfalls, black beaches and glacier tongues along the Ring Road, ending at a lagoon full of icebergs.",
       prica: [
-        "Južna obala uski je pojas ravnice između oceana i vulkana pokrivenih ledom. Litice uz cestu nekoć su bile morska obala, a slapovi se s njih ruše otkako se kopno nakon ledenog doba izdiglo.",
-        "Ispod ledenjaka spavaju neki od najopasnijih islandskih vulkana. Erupcija pukotine Laki 1783. izbacila je toliko otrovnih plinova da je pomrla većina stoke i petina stanovništva otoka, a izmaglica se osjetila diljem Europe. Kada vulkan eruptira pod ledom, otopljena voda juri prema moru u golemim bujicama, i zato su ravnice ovdje crne, široke i prazne."
+        "The South Coast is a narrow belt of lowland between the ocean and ice-covered volcanoes. The cliffs beside the road were once the seashore, and the waterfalls have been tumbling off them ever since the land rose after the Ice Age.",
+        "Beneath the glaciers sleep some of Iceland's most dangerous volcanoes. The eruption of the Laki fissure in 1783 released so much poisonous gas that most of the livestock and a fifth of the island's population died, and the haze was felt across Europe. When a volcano erupts under the ice, the meltwater rushes toward the sea in enormous floods, which is why the plains here are black, wide and empty."
       ],
       vidjeti: [
-        { ime: "Seljalandsfoss", opis: "Slap visok šezdeset metara pada preko nekadašnje morske litice, a iza vodene zavjese vodi staza, pa ga možete gledati iznutra. Ponesite kabanicu jer ćete se smočiti. Nekoliko stotina metara dalje u pukotini stijene skriva se slap Gljúfrabúi, do kojeg se gazi kroz plitak potok." },
-        { ime: "Skógafoss", opis: "Savršeno pravilan slap, visok šezdeset i širok dvadeset pet metara, kojemu se može prići do samog podnožja. Za sunčana dana u vodenoj prašini gotovo uvijek stoji duga, često dvostruka. Legenda kaže da je doseljenik Þrasi iza slapa sakrio škrinju sa zlatom, a prsten s te škrinje navodno je onaj izložen u muzeju u Skógaru. Uz slap vodi više od petsto stuba do vidikovca." },
-        { ime: "Reynisfjara i Reynisdrangar", opis: "Crna plaža od vulkanskog pijeska kraj sela Vík ima liticu od pravilnih bazaltnih stupova, složenih poput orgulja, i špilju sa stropom od istih stupova. Iz mora strše stijene Reynisdrangar, za koje predaja kaže da su trolovi koji su noću vukli brod na obalu i okamenili se kada ih je zateklo svitanje. Valovi ovdje dolaze iznenada i daleko na plažu i odnijeli su više života, pa moru nikada ne okrećite leđa." },
-        { ime: "Dyrhólaey", opis: "Rt visok 120 metara s golemim kamenim lukom kroz koji može proći brod. S njega se vidi beskrajna crna obala na obje strane, a od svibnja do sredine kolovoza na travnatim rubovima gnijezde se tupici, ptice sa šarenim kljunom." },
-        { ime: "Skaftafell i slap Svartifoss", opis: "U zelenoj oazi podno najvećeg europskog ledenjaka Vatnajökulla staza od četrdeset pet minuta vodi do Crnog slapa, koji pada preko amfiteatra visećih tamnih bazaltnih stupova. Upravo su ti stupovi nadahnuli arhitekta crkve Hallgrímskirkje u Reykjavíku." },
-        { ime: "Jökulsárlón i Dijamantna plaža", opis: "Laguna je nastala tek 1930-ih, kada se ledenjak počeo povlačiti, i danas je s više od 280 metara najdublje jezero na Islandu. Po njoj plutaju sante bijele, plave i crno prugaste od vulkanskog pepela, a među njima plivaju tuljani. Sante zatim otplove kratkom rijekom u more, a valovi ih vrate na crni pijesak, gdje svjetlucaju kao brušeno staklo." }
+        { ime: "Seljalandsfoss", opis: "The sixty-meter waterfall drops over a former sea cliff, and a path leads behind the curtain of water, so you can watch it from the inside. Bring a raincoat, because you will get wet. A few hundred meters farther on, the Gljúfrabúi waterfall hides in a cleft in the rock, and you wade through a shallow stream to reach it." },
+        { ime: "Skógafoss", opis: "A perfectly regular waterfall, sixty meters high and twenty-five wide, which you can approach right to its foot. On a sunny day there is almost always a rainbow in the spray, often a double one. Legend says the settler Þrasi hid a chest of gold behind the falls, and the ring from that chest is said to be the one on display in the museum in Skógar. More than five hundred steps lead up beside the waterfall to a viewpoint." },
+        { ime: "Reynisfjara and Reynisdrangar", opis: "The black beach of volcanic sand near the village of Vík has a cliff of regular basalt columns, stacked like organ pipes, and a cave with a ceiling made of the same columns. Rising from the sea are the Reynisdrangar rocks, which tradition says are trolls who were hauling a ship ashore by night and turned to stone when daybreak caught them. The waves here come suddenly and far up the beach and have taken several lives, so never turn your back on the sea." },
+        { ime: "Dyrhólaey", opis: "A headland 120 meters high with a huge stone arch that a boat can pass through. From it you can see the endless black coast in both directions, and from May to mid-August puffins, the birds with the colorful beaks, nest on its grassy edges." },
+        { ime: "Skaftafell and the Svartifoss waterfall", opis: "In a green oasis at the foot of Vatnajökull, Europe's largest glacier, a forty-five-minute trail leads to the Black Falls, which drop over an amphitheater of hanging dark basalt columns. Those very columns inspired the architect of the Hallgrímskirkja church in Reykjavík." },
+        { ime: "Jökulsárlón and Diamond Beach", opis: "The lagoon formed only in the 1930s, when the glacier began to retreat, and today, at more than 280 meters, it is the deepest lake in Iceland. Icebergs float on it, white, blue and striped black with volcanic ash, and seals swim among them. The icebergs then drift down a short river into the sea, and the waves bring them back onto the black sand, where they glitter like cut glass." }
       ],
       jesti: [
-        { ime: "Janjeća juha", opis: "Kavane uz cestu u Víku, Skógaru i Skaftafellu nude kjötsúpu, koja nakon vjetra i kiše djeluje kao lijek." },
-        { ime: "Juha od škampa", opis: "U gradiću Höfnu i u okolici lagune jede se humarsúpa, kremasta juha od islandskih škampa, i pečeni repovi s češnjakom." },
-        { ime: "Arktička zlatovčica", opis: "Riba hladnih rijeka i jezera, nježnija od lososa, uzgaja se u čistoj vodi u okolici Kirkjubæjarklaustura i česta je na jelovnicima uz južnu obalu." }
+        { ime: "Lamb soup", opis: "The roadside cafes in Vík, Skógar and Skaftafell serve kjötsúpa, which works like medicine after the wind and rain." },
+        { ime: "Langoustine soup", opis: "In the town of Höfn and around the lagoon people eat humarsúpa, a creamy soup of Icelandic langoustines, and roasted tails with garlic." },
+        { ime: "Arctic char", opis: "A fish of cold rivers and lakes, more delicate than salmon, it is farmed in clean water around Kirkjubæjarklaustur and is common on menus along the South Coast." }
       ],
       dozivjeti: [
-        { ime: "Vožnja među santama", opis: "Od proljeća do jeseni po laguni voze vozila amfibije i manji gumeni čamci, s vodičem koji vam u ruke da komad leda star tisuću godina.", link: "https://icelagoon.is/" },
-        { ime: "Muzej u Skógaru", opis: "Muzej koji je jedan čovjek skupljao sedamdeset godina ima kuće s travnatim krovom, ribarski čamac na vesla i tisuće predmeta iz svakodnevnog života, pa se vidi kako se na Islandu živjelo do prije stotinjak godina.", link: "https://www.skogasafn.is/" },
-        { ime: "Centar lave u Hvolsvölluru", opis: "Interaktivna izložba o islandskim vulkanima i potresima, s podom koji se trese i prikazom žarišta pod otokom, dobra je priprema za sve što ćete vidjeti dalje uz cestu.", link: "https://lavacentre.is/" },
-        { ime: "Šetnja po nacionalnom parku", opis: "U Skaftafellu čuvari prirode ljeti vode besplatne šetnje, a hodanje po ledenjaku dopušteno je samo s ovlaštenim vodičima i opremom.", link: "https://www.vatnajokulsthjodgardur.is/en" }
+        { ime: "A ride among the icebergs", opis: "From spring to fall, amphibious vehicles and smaller inflatable boats cruise the lagoon, with a guide who puts a thousand-year-old piece of ice in your hands.", link: "https://icelagoon.is/" },
+        { ime: "The museum in Skógar", opis: "The museum that one man spent seventy years collecting has turf-roofed houses, a rowing boat used for fishing and thousands of objects from everyday life, so you can see how people lived in Iceland until about a hundred years ago.", link: "https://www.skogasafn.is/" },
+        { ime: "The Lava Centre in Hvolsvöllur", opis: "The interactive exhibition on Iceland's volcanoes and earthquakes, with a floor that shakes and a model of the hot spot beneath the island, is good preparation for everything you will see farther along the road.", link: "https://lavacentre.is/" },
+        { ime: "A walk in the national park", opis: "In Skaftafell park rangers lead free walks in summer, and walking on the glacier is allowed only with licensed guides and equipment.", link: "https://www.vatnajokulsthjodgardur.is/en" }
       ],
       agencije: [
-        { ime: "Visit South Iceland", opis: "Službena turistička zajednica juga, s popisom smještaja i organizatora izleta.", link: "https://www.south.is/en" },
-        { ime: "Nacionalni park Vatnajökull", opis: "Službene stranice parka, koji je na UNESCO-ovu popisu, s centrima za posjetitelje u Skaftafellu i kod lagune.", link: "https://www.vatnajokulsthjodgardur.is/en" },
-        { ime: "Geopark Katla", opis: "UNESCO-ov geopark koji obuhvaća Vík, Skógar i vulkane Katlu i Eyjafjallajökull.", link: "https://www.katlageopark.com/" }
+        { ime: "Visit South Iceland", opis: "The official tourist board of the south, with a list of accommodation and tour operators.", link: "https://www.south.is/en" },
+        { ime: "Vatnajökull National Park", opis: "The official website of the park, which is on the UNESCO list, with visitor centers in Skaftafell and at the lagoon.", link: "https://www.vatnajokulsthjodgardur.is/en" },
+        { ime: "Katla Geopark", opis: "A UNESCO geopark that takes in Vík, Skógar and the Katla and Eyjafjallajökull volcanoes.", link: "https://www.katlageopark.com/" }
       ],
-      kada: "Od svibnja do rujna za duge dane i tupike. Ledene špilje u ledenjaku posjećuju se samo zimi, otprilike od studenoga do ožujka, uz vodiča. Do lagune je od Reykjavíka oko 370 kilometara, pa je bolje prenoćiti putem nego sve stiskati u jedan dan."
+      kada: "From May to September for long days and puffins. The ice caves in the glacier are visited only in winter, roughly from November to March, with a guide. The lagoon is about 370 kilometers from Reykjavík, so it is better to spend a night along the way than to squeeze everything into one day."
     },
     {
       id: "akureyri-myvatn",
-      ime: "Akureyri i Mývatn",
+      ime: "Akureyri and Mývatn",
       vrsta: "regija",
-      sazetak: "Prijestolnica sjevera na dnu dugog fjorda i jezero oko kojeg zemlja kipi, puši se i miriše na sumpor.",
+      sazetak: "The capital of the north at the head of a long fjord, and a lake around which the earth boils, steams and smells of sulfur.",
       prica: [
-        "Akureyri, s dvadesetak tisuća stanovnika, najveći je grad izvan okolice Reykjavíka. Leži na dnu Eyjafjörðura, najdužeg fjorda u zemlji, zaklonjen planinama, pa su ljeta ovdje toplija nego što bi se šezdesetak kilometara od polarnog kruga očekivalo.",
-        "Sat vremena istočnije je Mývatn, plitko jezero nastalo prije oko 2 300 godina u velikoj erupciji. Ime znači Jezero mušica, jer se ljeti nad njim roje oblaci sitnih mušica koje ne grizu, ali hrane pastrve i više vrsta pataka nego igdje drugdje u Europi. Susjedni vulkan Krafla eruptirao je devet puta između 1975. i 1984."
+        "Akureyri, with some twenty thousand inhabitants, is the largest town outside the Reykjavík area. It lies at the head of Eyjafjörður, the longest fjord in the country, sheltered by mountains, so summers here are warmer than you would expect some sixty kilometers from the Arctic Circle.",
+        "An hour to the east is Mývatn, a shallow lake formed about 2,300 years ago in a great eruption. The name means Midge Lake, because in summer clouds of tiny midges swarm above it, and although they do not bite, they feed the trout and more species of duck than anywhere else in Europe. The neighboring volcano Krafla erupted nine times between 1975 and 1984."
       ],
       vidjeti: [
-        { ime: "Akureyri: crkva i botanički vrt", opis: "Crkvu na brdu iznad središta, do koje vodi stotinjak stuba, projektirao je isti arhitekt kao Hallgrímskirkju i dovršena je 1940. Botanički vrt, osnovan 1912., jedan je od najsjevernijih na svijetu i pokazuje gotovo sve biljke koje rastu na Islandu. Na semaforima u gradu crveno svjetlo ima oblik srca, što je uvedeno nakon financijskog sloma 2008. da razvedri ljude." },
-        { ime: "Goðafoss", opis: "Slap bogova širok je trideset i visok dvanaest metara, u obliku potkove. Predaja kaže da je zakonoša Þorgeir, koji je oko 1000. godine na Alþingiju odlučio da će Island primiti kršćanstvo, po povratku kući u ovaj slap bacio svoje kipove starih bogova." },
-        { ime: "Pseudokrateri Skútustaðagígar", opis: "Uz južnu obalu Mývatna niz je pravilnih travnatih čunjeva koji izgledaju kao mali vulkani, ali iz njih nikada nije tekla lava. Nastali su kada je užarena lava prešla preko močvare, pa je zarobljena voda eksplodirala u paru. Ista se pojava vidi na Marsu." },
-        { ime: "Dimmuborgir", opis: "Mračne utvrde labirint su tornjeva, lukova i špilja od lave, visokih do dvadeset metara, nastalih kada se jezero lave ispraznilo, a okorjeli stupovi ostali stajati. Predaja ovdje smješta dom trinaest božićnih momaka i njihove majke trolice. Staze su označene bojama, a najpoznatija vodi do špilje zvane Crkva." },
-        { ime: "Hverir kod prijevoja Námaskarð", opis: "Narančasta, gola padina puna je lonaca sivog blata koje ključa i otvora iz kojih para sikće pod tlakom. Miris sumpora je jak, a tlo izvan označenih staza tanko je i vruće, pa se s njih ne silazi." },
-        { ime: "Dettifoss", opis: "Jedan od najsnažnijih slapova u Europi, širok sto i visok četrdeset četiri metra, nosi sivu ledenjačku vodu s Vatnajökulla, pa tlo pod nogama podrhtava. Nalazi se oko sat vremena vožnje od Mývatna, a istočna i zapadna strana imaju odvojene prilazne ceste." }
+        { ime: "Akureyri: the church and the botanical garden", opis: "The church on the hill above the center, reached by about a hundred steps, was designed by the same architect as Hallgrímskirkja and completed in 1940. The botanical garden, founded in 1912, is one of the northernmost in the world and displays almost every plant that grows in Iceland. On the town's traffic lights the red light is shaped like a heart, which was introduced after the financial crash of 2008 to cheer people up." },
+        { ime: "Goðafoss", opis: "The Waterfall of the Gods is thirty meters wide and twelve meters high, in the shape of a horseshoe. Tradition has it that the lawspeaker Þorgeir, who decided at the Alþingi around the year 1000 that Iceland would accept Christianity, threw his statues of the old gods into this waterfall when he got home." },
+        { ime: "The Skútustaðagígar pseudocraters", opis: "Along the southern shore of Mývatn is a row of regular grassy cones that look like little volcanoes, although lava never flowed from them. They formed when molten lava ran over a marsh and the trapped water exploded into steam. The same phenomenon can be seen on Mars." },
+        { ime: "Dimmuborgir", opis: "The Dark Castles are a labyrinth of lava towers, arches and caves up to twenty meters high, created when a lava lake drained away and the hardened pillars were left standing. Tradition places the home of the thirteen Yule Lads and their troll mother here. The trails are color-coded, and the best known leads to a cave called the Church." },
+        { ime: "Hverir at the Námaskarð pass", opis: "The bare orange slope is full of pots of boiling gray mud and vents where steam hisses out under pressure. The smell of sulfur is strong, and the ground beyond the marked paths is thin and hot, so nobody steps off them." },
+        { ime: "Dettifoss", opis: "One of the most powerful waterfalls in Europe, a hundred meters wide and forty-four meters high, carries gray glacial water from Vatnajökull, and the ground trembles beneath your feet. It is about an hour's drive from Mývatn, and the east and west sides have separate access roads." }
       ],
       jesti: [
-        { ime: "Hverabrauð s dimljenom pastrvom", opis: "Oko Mývatna raženi se kruh peče u rupama u vrućem tlu, a jede se s pastrvom iz jezera, dimljenom na tradicionalan način." },
-        { ime: "Sladoled u Akureyriju", opis: "Grad je poznat po mekom mliječnom sladoledu, koji se u istoj slastičarnici Brynja prodaje od 1939., i po tome što ga stanovnici jedu i usred zime." },
-        { ime: "Janjetina i pivo sa sjevera", opis: "Sjever je ovčarski kraj, pa je janjetina na svakom jelovniku, a uz fjord radi nekoliko malih pivovara, od kojih je najpoznatija Kaldi." }
+        { ime: "Hverabrauð with smoked trout", opis: "Around Mývatn rye bread is baked in holes in the hot ground and eaten with trout from the lake, smoked the traditional way." },
+        { ime: "Ice cream in Akureyri", opis: "The town is known for its soft-serve ice cream, sold at the same Brynja ice cream shop since 1939, and for the fact that locals eat it even in the dead of winter." },
+        { ime: "Lamb and beer from the north", opis: "The north is sheep country, so lamb is on every menu, and several small breweries operate along the fjord, the best known of which is Kaldi." }
       ],
       dozivjeti: [
-        { ime: "Geotermalna laguna kod Mývatna", opis: "Mliječno plava voda bogata mineralima, u polju lave s pogledom na jezero, mirnija je i jeftinija sestra Plave lagune. Kupalište je donedavno nosilo ime Mývatn Nature Baths, a sada se zove Earth Lagoon Mývatn i temeljito je obnovljeno.", link: "https://www.earthlagoon.is/" },
-        { ime: "Promatranje kitova iz Húsavíka", opis: "Ribarski gradić sat vremena sjevernije slovi za europsku prijestolnicu promatranja kitova. Ljeti se s obnovljenih hrastovih ribarica gotovo uvijek vide grbavi kitovi, a ponekad i plavetni.", link: "https://www.northsailing.is/" },
-        { ime: "Šumska laguna kraj Akureyrija", opis: "Kupalište otvoreno 2022. usred brezove i borove šume, preko fjorda od grada, koristi vruću vodu na koju se slučajno naišlo pri bušenju cestovnog tunela.", link: "https://www.forestlagoon.is/" },
-        { ime: "Uspon na krater Hverfjall", opis: "Savršeno okrugao krater od crnog pepela, širok kilometar, nastao je u jednoj eksploziji prije oko 2 500 godina. Staza do ruba traje dvadeset minuta, a s vrha se vidi cijelo jezero." }
+        { ime: "The geothermal lagoon at Mývatn", opis: "The milky blue, mineral-rich water, set in a lava field with a view of the lake, is the calmer and cheaper sister of the Blue Lagoon. Until recently the baths went by the name Mývatn Nature Baths, and they are now called Earth Lagoon Mývatn and have been thoroughly renovated.", link: "https://www.earthlagoon.is/" },
+        { ime: "Whale watching from Húsavík", opis: "The fishing town an hour to the north is reputed to be the whale-watching capital of Europe. In summer you almost always see humpback whales from the restored oak fishing boats, and sometimes blue whales too.", link: "https://www.northsailing.is/" },
+        { ime: "The Forest Lagoon near Akureyri", opis: "The baths that opened in 2022 in the middle of a birch and pine forest, across the fjord from town, use hot water that was struck by accident while a road tunnel was being drilled.", link: "https://www.forestlagoon.is/" },
+        { ime: "Climbing the Hverfjall crater", opis: "The perfectly round crater of black ash, a kilometer wide, was formed in a single explosion about 2,500 years ago. The trail to the rim takes twenty minutes, and from the top you can see the whole lake." }
       ],
       agencije: [
-        { ime: "Visit North Iceland", opis: "Službena turistička zajednica sjevernog Islanda.", link: "https://www.northiceland.is/en" },
-        { ime: "Visit Akureyri", opis: "Turističke informacije grada Akureyrija.", link: "https://www.visitakureyri.is/en" },
-        { ime: "Visit Mývatn", opis: "Turističke stranice okolice jezera, s kartama staza.", link: "https://www.visitmyvatn.is/en" }
+        { ime: "Visit North Iceland", opis: "The official tourist board of North Iceland.", link: "https://www.northiceland.is/en" },
+        { ime: "Visit Akureyri", opis: "Tourist information for the town of Akureyri.", link: "https://www.visitakureyri.is/en" },
+        { ime: "Visit Mývatn", opis: "The tourism website for the lake area, with trail maps.", link: "https://www.visitmyvatn.is/en" }
       ],
-      kada: "Od lipnja do kolovoza, kada su sve ceste otvorene, a sunce jedva zalazi. Mušice su najgušće u lipnju i kolovozu, pa je mrežica za glavu vrlo korisna. Zimi je sjever pod snijegom i izvrstan za polarnu svjetlost, ali je cesta do Dettifossa često zatvorena."
+      kada: "From June to August, when all the roads are open and the sun barely sets. The midges are thickest in June and August, so a head net is very useful. In winter the north is under snow and excellent for the northern lights, though the road to Dettifoss is often closed."
     },
     {
       id: "snaefellsnes",
-      ime: "Poluotok Snæfellsnes",
+      ime: "Snæfellsnes Peninsula",
       vrsta: "regija",
-      sazetak: "Island u malom: ledenjak na vulkanu, crne i zlatne plaže, bazaltne litice i ribarska sela na poluotoku dugom devedeset kilometara.",
+      sazetak: "Iceland in miniature: a glacier on a volcano, black and golden beaches, basalt cliffs and fishing villages on a peninsula ninety kilometers long.",
       prica: [
-        "Poluotok strši u ocean dva sata vožnje sjeverno od Reykjavíka, a na njegovu vrhu stoji Snæfellsjökull, vulkan visok 1 446 metara s ledenom kapom, koji se za vedrog dana vidi iz glavnog grada. Jules Verne upravo je kroz njegov krater 1864. poslao svoje junake na „Put u središte Zemlje“.",
-        "Uz obalu su nekoć bila brojna ribarska naselja, iz kojih se veslalo na otvoreno more. Ovdje je oko 980. rođena Guðríður Þorbjarnardóttir, koja je prema sagama otplovila u Sjevernu Ameriku, ondje rodila prvo europsko dijete i poslije pješice hodočastila u Rim, pa je zovu najproputovanijom ženom srednjeg vijeka."
+        "The peninsula juts into the ocean a two-hour drive north of Reykjavík, and at its tip stands Snæfellsjökull, a volcano 1,446 meters high with an ice cap, which can be seen from the capital on a clear day. It was through its crater that Jules Verne sent his heroes on their “Journey to the Center of the Earth” in 1864.",
+        "The coast was once dotted with fishing settlements from which men rowed out to the open sea. Guðríður Þorbjarnardóttir was born here around 980, and according to the sagas she sailed to North America, gave birth there to the first European child and later made a pilgrimage to Rome on foot, which is why she is called the most widely traveled woman of the Middle Ages."
       ],
       vidjeti: [
-        { ime: "Kirkjufell", opis: "Crkvena planina kraj gradića Grundarfjörðura, visoka 463 metra, ima pravilan oblik zvonika ili vrha strelice i najfotografiranija je planina na Islandu. Slojevi koji se vide na njoj naizmjence su lava i naslage iz međuledenih doba, a oblik joj je dao led koji je tekao s obje strane. Najbolji je pogled s mostića kod malog slapa Kirkjufellsfossa." },
-        { ime: "Arnarstapi i Hellnar", opis: "Između dvaju sela vodi obalna staza duga oko dva i pol kilometra, uz bazaltne litice s lukovima, stupovima i rupama kroz koje šiklja more, pune galebova. U Arnarstapiju stoji golemi kameni kip Bárðura, poludiva i polučovjeka iz sage, koji je prema predaji nestao u ledenjaku i otada štiti poluotok." },
-        { ime: "Crna crkva u Búðiru", opis: "Mala drvena crkva premazana katranom stoji sama u polju lave uz zlatnu plažu. Prvu crkvu na tom mjestu sagradio je 1703. jedan trgovac, a kada je župa ukinuta, mještanka Steinunn Sveinsdóttir izborila je kod kralja dopuštenje da je 1848. ponovno podigne. Na kvaki piše da je sagrađena bez pomoći duhovnih otaca." },
-        { ime: "Plaža Djúpalónssandur", opis: "U uvali od crnih, morem uglačanih oblutaka leže četiri kamena kojima su ribari mjerili snagu: tko nije mogao podići barem onaj od 54 kilograma na izbočinu u visini kuka, nije primljen na brod. Po plaži su razasuti zahrđali ostaci britanske ribarice koja se ovdje razbila 1948. i koji su ostavljeni kao spomenik." },
-        { ime: "Nacionalni park Snæfellsjökull", opis: "Park obuhvaća vulkan i obalu podno njega, s poljima lave obraslima mahovinom, kraterom Saxhóll, na koji vode stube, i stijenama Lóndrangar, dvama bazaltnim tornjevima koji su ostatak starog kratera. Ledena kapa se brzo smanjuje i znanstvenici procjenjuju da bi mogla nestati do sredine stoljeća." },
-        { ime: "Stykkishólmur", opis: "Ribarski gradić na sjevernoj obali sačuvao je drvene kuće iz 19. stoljeća u jakim bojama. S bazaltnog otočića Súgandisey, koji štiti luku, pruža se pogled na zaljev Breiðafjörður, za čije se otoke kaže da ih je nemoguće prebrojiti." }
+        { ime: "Kirkjufell", opis: "Church Mountain, beside the small town of Grundarfjörður, is 463 meters high, has the regular shape of a steeple or an arrowhead and is the most photographed mountain in Iceland. The layers visible on it alternate between lava and deposits from the interglacial periods, and its shape was given to it by ice flowing past on both sides. The best view is from the little bridge at the small Kirkjufellsfoss waterfall." },
+        { ime: "Arnarstapi and Hellnar", opis: "A coastal path about two and a half kilometers long runs between the two villages, past basalt cliffs full of gulls, with arches, columns and blowholes where the sea shoots up. In Arnarstapi stands a huge stone statue of Bárður, the half giant and half man of the saga, who according to tradition vanished into the glacier and has protected the peninsula ever since." },
+        { ime: "The black church at Búðir", opis: "The small wooden church, coated in tar, stands alone in a lava field beside a golden beach. The first church on the site was built by a merchant in 1703, and when the parish was abolished, a local woman, Steinunn Sveinsdóttir, won permission from the king to rebuild it in 1848. The door handle says that it was built without the help of the spiritual fathers." },
+        { ime: "Djúpalónssandur beach", opis: "In a cove of black, sea-polished pebbles lie four stones that fishermen used to measure strength: anyone who could not lift at least the 54-kilogram one onto a ledge at hip height was not taken on board. Scattered across the beach are the rusted remains of a British trawler that was wrecked here in 1948, left in place as a memorial." },
+        { ime: "Snæfellsjökull National Park", opis: "The park takes in the volcano and the coast below it, with moss-covered lava fields, the Saxhóll crater, which has steps leading up it, and the Lóndrangar rocks, two basalt towers that are the remnant of an old crater. The ice cap is shrinking fast, and scientists estimate that it could disappear by the middle of the century." },
+        { ime: "Stykkishólmur", opis: "The fishing town on the north coast has kept its brightly painted wooden houses from the 19th century. The basalt islet of Súgandisey, which shelters the harbor, has a view over Breiðafjörður bay, whose islands are said to be impossible to count." }
       ],
       jesti: [
-        { ime: "Fermentirani morski pas u Bjarnarhöfnu", opis: "Obiteljska farma na sjevernoj obali naraštajima priprema hákarl. U malom muzeju objasne cijeli postupak, pokažu sušaru na vjetru i daju vam da kušate kockicu s komadićem raženog kruha." },
-        { ime: "Riblja juha i riba s krumpirićima", opis: "Male sezonske kavane u Hellnaru i Arnarstapiju poslužuju gustu riblju juhu i svježe prženu ribu, s pogledom na litice." },
-        { ime: "Kapice i dagnje iz Breiðafjörðura", opis: "Zaljev je pun školjaka, koje u Stykkishólmuru stižu na stol isti dan, a na izletničkim brodovima jedu se sirove, ravno iz mreže." }
+        { ime: "Fermented shark at Bjarnarhöfn", opis: "A family farm on the north coast has been making hákarl for generations. In the small museum they explain the whole process, show you the wind-drying shed and let you taste a cube with a little piece of rye bread." },
+        { ime: "Fish soup and fish and chips", opis: "The small seasonal cafes in Hellnar and Arnarstapi serve thick fish soup and freshly fried fish, with a view of the cliffs." },
+        { ime: "Scallops and mussels from Breiðafjörður", opis: "The bay is full of shellfish, which reach the table in Stykkishólmur the same day, and on the excursion boats they are eaten raw, straight out of the net." }
       ],
       dozivjeti: [
-        { ime: "Brodom među otoke Breiðafjörðura", opis: "Iz Stykkishólmura se plovi uz otočiće s bazaltnim stupovima i gnijezdima tupika i orlova štekavaca, a mreža s dna izvlači kapice i ježince, koji se kušaju na palubi.", link: "https://seatours.is/" },
-        { ime: "Obalna šetnja od Arnarstapija do Hellnara", opis: "Laganih četrdeset pet minuta u jednom smjeru, s kavom na kraju. Ljeti litice vrve pticama, pa ponesite dalekozor.", link: "https://www.west.is/en" },
-        { ime: "Muzej morskog psa", opis: "Posjet traje pola sata i uključuje kušanje. Najbolje je mjesto da se hákarl proba uz objašnjenje ljudi koji ga sami pripremaju.", link: "https://bjarnarhofn.is/" },
-        { ime: "Lavina špilja Vatnshellir", opis: "S vodičem i svjetiljkom silazi se zavojitim stubama trideset pet metara pod zemlju, u tunel kroz koji je prije osam tisuća godina tekla lava. Ture se ljeti održavaju više puta dnevno, a podatke o njima daje nacionalni park.", link: "https://snaefellsjokull.is/" }
+        { ime: "By boat among the islands of Breiðafjörður", opis: "From Stykkishólmur you sail past islets with basalt columns and the nests of puffins and white-tailed eagles, and a net pulls scallops and sea urchins up from the bottom for tasting on deck.", link: "https://seatours.is/" },
+        { ime: "The coastal walk from Arnarstapi to Hellnar", opis: "An easy forty-five minutes one way, with coffee at the end. In summer the cliffs teem with birds, so bring binoculars.", link: "https://www.west.is/en" },
+        { ime: "The Shark Museum", opis: "A visit takes half an hour and includes a tasting. It is the best place to try hákarl with an explanation from the people who make it themselves.", link: "https://bjarnarhofn.is/" },
+        { ime: "Vatnshellir lava cave", opis: "With a guide and a flashlight you go down a spiral staircase thirty-five meters underground, into a tunnel that lava flowed through eight thousand years ago. In summer tours run several times a day, and the national park provides information about them.", link: "https://snaefellsjokull.is/" }
       ],
       agencije: [
-        { ime: "Visit West Iceland", opis: "Službena turistička zajednica zapadnog Islanda.", link: "https://www.west.is/en" },
-        { ime: "Nacionalni park Snæfellsjökull", opis: "Službene stranice parka, s centrom za posjetitelje i vođenim šetnjama čuvara prirode ljeti.", link: "https://snaefellsjokull.is/" }
+        { ime: "Visit West Iceland", opis: "The official tourist board of West Iceland.", link: "https://www.west.is/en" },
+        { ime: "Snæfellsjökull National Park", opis: "The park's official website, with a visitor center and walks led by park rangers in summer.", link: "https://snaefellsjokull.is/" }
       ],
-      kada: "Od svibnja do rujna, kada rade kavane i voze brodovi. Poluotok se može obići u jednom dugom danu iz Reykjavíka, ali je s jednim noćenjem mnogo ugodnije, jer se vrijeme oko ledenjaka brzo mijenja."
+      kada: "From May to September, when the cafes are open and the boats are running. The peninsula can be done in one long day from Reykjavík, but it is much more pleasant with an overnight stay, because the weather around the glacier changes quickly."
     }
   ],
   izvori: [
     { ime: "Visit Iceland", url: "https://www.visiticeland.com/" },
     { ime: "Visit Reykjavík", url: "https://visitreykjavik.is/" },
-    { ime: "Nacionalni muzej Islanda", url: "https://www.thjodminjasafn.is/en" },
+    { ime: "National Museum of Iceland", url: "https://www.thjodminjasafn.is/en" },
     { ime: "Harpa", url: "https://www.harpa.is/en" },
-    { ime: "Nacionalni park Þingvellir", url: "https://www.thingvellir.is/en/" },
+    { ime: "Þingvellir National Park", url: "https://www.thingvellir.is/en/" },
     { ime: "Visit South Iceland", url: "https://www.south.is/en" },
-    { ime: "Nacionalni park Vatnajökull", url: "https://www.vatnajokulsthjodgardur.is/en" },
+    { ime: "Vatnajökull National Park", url: "https://www.vatnajokulsthjodgardur.is/en" },
     { ime: "Visit North Iceland", url: "https://www.northiceland.is/en" },
     { ime: "Visit West Iceland", url: "https://www.west.is/en" },
     { ime: "Safetravel", url: "https://safetravel.is/" },

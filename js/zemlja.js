@@ -125,11 +125,13 @@
         html: function () { return '<div class="prose">' + paras(m.prica) + '</div>'; } },
       vidjeti: { t: 'Znamenitosti', s: (m.vidjeti || []).length + ' stvari koje vrijedi vidjeti', on: has(m.vidjeti),
         html: function () { return cards(m.vidjeti); } },
-      hrana: { t: 'Kuhinja', s: 'Specijaliteti i tradicionalna jela', on: has(m.jesti) || has(Z.hrana),
+      hrana: { t: 'Kuhinja i restorani', s: 'Specijaliteti, restorani, tradicionalna jela', on: has(m.jesti) || has(Z.hrana),
         html: function () {
           return (has(m.jesti) ? '<h3 class="group-title" style="margin-top:0">Specijaliteti ovog mjesta</h3>' + cards(m.jesti) : '') +
+            (KO[Z.id + '/' + m.id] ? '<h3 class="group-title">Restorani</h3><div id="rest"></div>' : '') +
             (has(Z.hrana) ? '<h3 class="group-title">Tradicionalna jela: ' + esc(Z.ime) + '</h3>' + cards(Z.hrana) : '');
-        } },
+        },
+        after: function () { var c = KO[Z.id + '/' + m.id]; if (c) window.Restorani.load('rest', c[0], c[1], m.ime); } },
       dozivjeti: { t: 'Doživljaji', s: 'Tečajevi, tržnice, vidikovci, večeri', on: has(m.dozivjeti),
         html: function () { return cards(m.dozivjeti); } },
       agencije: { t: 'Agencije i vodiči', s: 'Turistički uredi i provjerene ture', on: has(m.agencije),

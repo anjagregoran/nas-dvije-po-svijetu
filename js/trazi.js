@@ -65,8 +65,7 @@
     var a = '(around:' + radius + ',' + lat + ',' + lon + ')';
     var q = '[out:json][timeout:20];(nwr' + a + '[tourism~"^(attraction|museum|gallery|viewpoint)$"][name];nwr' + a +
       '[historic~"^(castle|monument|ruins|archaeological_site|church|cathedral|monastery|fort|city_gate|tower|palace|manor|fountain|bridge|tomb|mosque|temple|citywalls|aqueduct|memorial)$"][name];);out center 120;';
-    return fetch('https://overpass-api.de/api/interpreter', { method: 'POST', body: 'data=' + encodeURIComponent(q) })
-      .then(function (r) { return r.json(); })
+    return window.Restorani.overpass(q)
       .then(function (j) {
         var seen = {};
         return (j.elements || []).map(function (e) {
@@ -114,6 +113,8 @@
       '<p class="note" style="max-width:40em">Za ovo mjesto još nemamo vlastiti tekst. Dolje su karta, najbliža mjesta koja vodič već opisuje i znamenitosti u okolici s njihovim službenim stranicama.</p>' +
       (ours ? '<p><a class="btn" href="zemlja.html?z=' + ours[0] + '">Otvori vodič: ' + esc(ours[1]) + '</a></p>' : '') +
       '<div class="map" id="map"></div>' +
+      (big ? '' : '<div class="sec-head" style="margin-top:40px"><h2>Kuhinja i <em>restorani</em></h2></div>' +
+        (ours ? '<p><a class="btn ghost" href="zemlja.html?z=' + ours[0] + '#/o/hrana">Tradicionalna jela: ' + esc(ours[1]) + '</a></p>' : '') + '<div id="rest"></div>') +
       '<div id="guide"></div><div id="sights"><p class="note" style="margin-top:26px">Tražim znamenitosti u okolici…</p></div>' +
       (others.length ? '<div class="sec-head" style="margin-top:40px"><h2>Možda ste <em>mislile</em></h2></div><div class="chips wrapc">' +
         others.map(function (o) { return '<a href="trazi.html?q=' + encodeURIComponent(o.display_name.split(',').slice(0, 3).join(',')) + '">' + esc(o.display_name.split(',').slice(0, 3).join(',')) + '</a>'; }).join('') + '</div>' : '');
@@ -122,6 +123,7 @@
     document.getElementById('guide').innerHTML = guideHtml(near, 'Najbliže u <em>vodiču</em>');
     window.Karta.draw('map', [{ c: [lat, lon], t: name, s: where }], { zoom: big ? 5 : 11 });
     if (big) { document.getElementById('sights').innerHTML = ''; return; }
+    window.Restorani.load('rest', lat, lon, name);
     sights(lat, lon, 6000).then(function (list) {
       list.sort(function (x, y) { return x.rank - y.rank || x.d - y.d; });
       list = list.slice(0, 30);

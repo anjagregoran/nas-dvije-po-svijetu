@@ -26,6 +26,37 @@ window.Karta = (function () {
     });
   }
 
+  // Nazivi na karti na hrvatskom (ili barem latinicom), a boje u tonovima stranice.
+  var NAME = ['coalesce', ['get', 'name:hr'], ['get', 'name:latin'], ['get', 'name_en'], ['get', 'name']];
+  function dress(map) {
+    (map.getStyle().layers || []).forEach(function (l) {
+      var id = l.id, src = l['source-layer'] || '';
+      function paint(prop, val) { try { map.setPaintProperty(id, prop, val); } catch (e) {} }
+      try {
+        if (l.type === 'background') paint('background-color', '#f7eedf');
+        else if (l.type === 'symbol') {
+          if (l.layout && l.layout['text-field']) map.setLayoutProperty(id, 'text-field', NAME);
+          var water = /water/.test(src) || /water|ocean|sea/.test(id);
+          paint('text-color', water ? '#5d8ea3' : /country|continent|state/.test(id) ? '#5a1830' : '#6f4a55');
+          paint('text-halo-color', water ? 'rgba(207,228,236,.7)' : '#fbf4ea');
+          paint('text-halo-width', 1.4);
+        }
+        else if (l.type === 'fill') {
+          if (/water/.test(src) || /water/.test(id)) paint('fill-color', '#cfe4ec');
+          else if (/park|wood|forest|grass|landcover|green/.test(src + id)) { paint('fill-color', '#dfe6cf'); paint('fill-opacity', 0.7); }
+          else if (/building/.test(src + id)) paint('fill-color', '#efe2cf');
+          else if (/landuse|residential/.test(src + id)) paint('fill-color', '#f3e8d6');
+        }
+        else if (l.type === 'line') {
+          if (/boundary|admin/.test(src + id)) { paint('line-color', '#5a1830'); paint('line-opacity', 0.35); }
+          else if (/water/.test(src + id)) paint('line-color', '#b9d6e1');
+          else if (/transportation|road|highway|bridge|tunnel/.test(src + id)) paint('line-color', /motorway|trunk|primary/.test(id) ? '#f3c9a8' : '#ffffff');
+          else if (/rail/.test(id)) paint('line-color', '#d9c7b0');
+        }
+      } catch (e) {}
+    });
+  }
+
   // points: [{ c: [lat, lng], t: naslov, s: podnaslov, h: poveznica }]
   function draw(elId, points, opts) {
     opts = opts || {};
@@ -49,6 +80,7 @@ window.Karta = (function () {
       });
       maps[elId] = map;
       map.touchZoomRotate.disableRotation();
+      map.on('style.load', function () { dress(map); });
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
 
       var bounds = new maplibregl.LngLatBounds();

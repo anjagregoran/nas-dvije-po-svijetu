@@ -29,6 +29,7 @@
     'Južna Amerika': 'Južna Amerika', 'Oceanija': 'Oceanija'
   };
   var KO = window.KOORDINATE || {};
+  var D = (window.DODACI || {})[Z.id] || { mjesta: {} };
 
   // ---------- ikone (tanke linije, bez emojija) ----------
   var P = {
@@ -42,6 +43,9 @@
     obicaji: '<path d="M9 18V6l10-2v12"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="16" r="2.5"/>',
     fraze: '<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/>',
     zanimljivosti: '<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9V16h7v-2.1A6 6 0 0 0 12 3z"/>',
+    dragulji: '<path d="M6 4h12l3 5-9 11L3 9z"/><path d="M3 9h18M9 4l-2 5 5 11 5-11-2-5"/>',
+    kupiti: '<path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/>',
+    domaci: '<path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/>',
     ukratko: '<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2.5h6V4M8.5 10h7M8.5 14h7M8.5 18h4"/>'
   };
   function icon(k) {
@@ -73,6 +77,8 @@
       html: function () { return '<div class="prose">' + paras(Z.uvod) + '</div>'; } },
     hrana: { t: 'Kuhinja', s: 'Tradicionalna jela i pića', on: function () { return has(Z.hrana); },
       html: function () { return cards(Z.hrana); } },
+    kupiti: { t: 'Što kupiti', s: 'Tradicionalni proizvodi za ponijeti kući', on: function () { return has(D.kupiti); },
+      html: function () { return cards(D.kupiti); } },
     obicaji: { t: 'Običaji, glazba i ples', s: 'Što vidjeti i gdje naučiti', on: function () { return has(Z.obicaji); },
       html: function () { return cards(Z.obicaji); } },
     fraze: { t: 'Nekoliko riječi', s: 'Fraze s izgovorom', on: function () { return has(Z.fraze); },
@@ -99,8 +105,8 @@
     izvori: { t: 'Izvori', s: 'Odakle podaci', on: function () { return has(Z.izvori); },
       html: function () { return '<ul class="list">' + Z.izvori.map(function (s) { return '<li>' + link(s.url, s.ime) + '</li>'; }).join('') + '</ul>'; } }
   };
-  var C_ORDER = ['prica', 'hrana', 'obicaji', 'fraze', 'ukratko', 'zanimljivosti', 'karta'];
-  var C_ICON = { prica: 'prica', hrana: 'hrana', obicaji: 'obicaji', fraze: 'fraze', ukratko: 'ukratko', zanimljivosti: 'zanimljivosti', karta: 'karta', izvori: 'ukratko' };
+  var C_ORDER = ['hrana', 'kupiti', 'obicaji', 'prica', 'fraze', 'ukratko', 'zanimljivosti', 'karta'];
+  var C_ICON = { kupiti: 'kupiti', prica: 'prica', hrana: 'hrana', obicaji: 'obicaji', fraze: 'fraze', ukratko: 'ukratko', zanimljivosti: 'zanimljivosti', karta: 'karta', izvori: 'ukratko' };
 
   function overview() {
     var n = 0;
@@ -120,10 +126,20 @@
 
   // ---------- odjeljci mjesta ----------
   function placeSections(m) {
+    var X = (D.mjesta || {})[m.id] || {};
     return {
-      prica: { t: 'Priča', s: 'Povijest i zašto izgleda kako izgleda', on: has(m.prica),
+      dragulji: { t: 'Skriveni dragulji', s: 'Mjesta koja većina propusti', on: has(X.dragulji),
+        html: function () { return cards(X.dragulji); } },
+      domaci: { t: 'Kao domaći', s: 'Što ovdje ljudi stvarno rade', on: has(X.domaci),
+        html: function () { return cards(X.domaci); } },
+      kupiti: { t: 'Što kupiti', s: 'Tradicionalni proizvodi ovog kraja', on: has(X.kupiti) || has(D.kupiti),
+        html: function () {
+          return (has(X.kupiti) ? '<h3 class="group-title" style="margin-top:0">Tipično za mjesto ' + esc(m.ime) + '</h3>' + cards(X.kupiti) : '') +
+            (has(D.kupiti) ? '<h3 class="group-title"' + (has(X.kupiti) ? '' : ' style="margin-top:0"') + '>Iz cijele zemlje: ' + esc(Z.ime) + '</h3>' + cards(D.kupiti) : '');
+        } },
+      prica: { t: 'Priča mjesta', s: 'Kratka povijest, za one koje zanima', on: has(m.prica),
         html: function () { return '<div class="prose">' + paras(m.prica) + '</div>'; } },
-      vidjeti: { t: 'Znamenitosti', s: (m.vidjeti || []).length + ' stvari koje vrijedi vidjeti', on: has(m.vidjeti),
+      vidjeti: { t: 'Znamenitosti', s: 'Što je to i što na tome potražiti', on: has(m.vidjeti),
         html: function () { return cards(m.vidjeti); } },
       hrana: { t: 'Kuhinja', s: 'Što se ovdje jede i tradicionalna jela', on: has(m.jesti) || has(Z.hrana),
         html: function () {
@@ -148,7 +164,7 @@
         after: function () { window.Karta.draw('map', [{ c: KO[Z.id + '/' + m.id], t: m.ime, s: Z.ime }], { zoom: 11 }); } }
     };
   }
-  var P_ORDER = ['prica', 'vidjeti', 'hrana', 'dozivjeti', 'agencije', 'kada', 'karta'];
+  var P_ORDER = ['hrana', 'dragulji', 'domaci', 'kupiti', 'dozivjeti', 'vidjeti', 'prica', 'agencije', 'kada', 'karta'];
 
   function place(m) {
     var S = placeSections(m), n = 0;

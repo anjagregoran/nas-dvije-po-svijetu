@@ -1,188 +1,188 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["ekvador"] = {
   id: "ekvador",
-  ime: "Ekvador",
-  regija: "Južna Amerika",
-  sazetak: "Mala zemlja na ekvatoru u koju stanu vulkani, kolonijalni gradovi, indijanske tržnice i otočje koje je promijenilo znanost.",
+  ime: "Ecuador",
+  regija: "South America",
+  sazetak: "A small country on the equator that manages to hold volcanoes, colonial cities, Indigenous markets and an archipelago that changed science.",
   uvod: [
-    "Ekvador je dobio ime po ekvatoru, koji prolazi nedaleko od glavnog grada, i jedna je od najmanjih država Južne Amerike. Unatoč tome ima četiri posve različita svijeta: tihooceansku obalu, Ande s nizom vulkana koji je istraživač Alexander von Humboldt nazvao Avenijom vulkana, amazonsku prašumu i otočje Galápagos, tisuću kilometara od kopna.",
-    "Sjeverni dio Carstva Inka ovdje je trajao kratko prije dolaska Španjolaca, koji su 1534. osnovali Quito. Neovisnost je izborena 1822. bitkom na obroncima vulkana Pichincha, iznad samoga grada. U Andama i danas živi brojno starosjedilačko stanovništvo koje govori jezik kichwa, a zemlja od 2000. godine kao valutu koristi američki dolar."
+    "Ecuador was named after the equator, which passes not far from the capital, and it is one of the smallest countries in South America. Even so, it has four entirely different worlds: the Pacific coast, the Andes with a chain of volcanoes that the explorer Alexander von Humboldt called the Avenue of the Volcanoes, the Amazon rainforest and the Galápagos Islands, a thousand kilometers from the mainland.",
+    "The northern part of the Inca Empire lasted only briefly here before the arrival of the Spanish, who founded Quito in 1534. Independence was won in 1822 in a battle on the slopes of the Pichincha volcano, right above the city. A large Indigenous population that speaks the Kichwa language still lives in the Andes today, and since 2000 the country has used the US dollar as its currency."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Ande su najsuše od lipnja do rujna. Galápagos se posjećuje cijele godine: od prosinca do svibnja more je toplije i mirnije, a od lipnja do studenoga hladnije i bogatije životom." },
-    { k: "Valuta", v: "Američki dolar (USD). Ponesite sitne novčanice, jer se krupne teško razmjenjuju." },
-    { k: "Kretanje", v: "Autobusi su česti i jeftini, a udaljenosti u Andama kratke. Na Galápagos se leti iz Quita ili Guayaquila." },
-    { k: "Napojnica", v: "Restorani često na račun dodaju 10 posto za uslugu. Vodičima na Galápagosu napojnica se daje na kraju izleta ili krstarenja." },
-    { k: "Visina", v: "Quito je na 2850 metara, pa prvi dan hodajte polako i pijte puno vode." }
+    { k: "When to go", v: "The Andes are driest from June to September. The Galápagos can be visited all year: from December to May the sea is warmer and calmer, and from June to November it is colder and richer in life." },
+    { k: "Currency", v: "US dollar (USD). Bring small bills, because large ones are hard to break." },
+    { k: "Getting around", v: "Buses are frequent and cheap, and distances in the Andes are short. You fly to the Galápagos from Quito or Guayaquil." },
+    { k: "Tipping", v: "Restaurants often add 10 percent for service to the bill. Guides in the Galápagos are tipped at the end of the excursion or cruise." },
+    { k: "Altitude", v: "Quito sits at 2,850 meters, so walk slowly on your first day and drink plenty of water." }
   ],
   hrana: [
-    { ime: "Ceviche", opis: "Ekvadorski ceviche radi se od kuhanih škampa u hladnom umaku od limete, naranče i rajčice.", prica: "Za razliku od peruanskog, jede se žlicom, poput hladne juhe. Uz njega se poslužuju kokice i chifles, tanko rezane pržene kriške zelene banane, koje se ubacuju u zdjelu." },
-    { ime: "Locro de papa", opis: "Kremasta juha od krumpira sa sirom i avokadom.", prica: "Jelo andskih krajeva, starije od dolaska Španjolaca, žutu boju dobiva od sjemenki achiote. U Quitu se jede za ručak gotovo svakodnevno." },
-    { ime: "Encebollado", opis: "Riblja juha od tune s jukom i ukiseljenim crvenim lukom.", prica: "Nacionalno jelo obale, osobito Guayaquila, jede se za doručak i slovi kao najbolji lijek nakon duge noći. U zdjelu se cijedi limeta i dodaju chifles." },
-    { ime: "Hornado", opis: "Cijelo prase pečeno satima u peći na drva.", prica: "Na tržnicama u Andama prodavačice režu meso izravno s pečenog praseta, a uz njega stižu kukuruz mote, pogačice od krumpira i kisela salata. Koricu će vam ponuditi da je kušate prije nego što naručite." },
-    { ime: "Llapingachos", opis: "Pogačice od pire krumpira punjene sirom i pržene na ploči.", prica: "Jelo je iz grada Ambata u središnjim Andama. Poslužuju se s umakom od kikirikija, pečenim jajetom, kobasicom i avokadom." },
-    { ime: "Fanesca", opis: "Gusta juha od dvanaest vrsta zrna i mahunarki sa sušenim bakalarom.", prica: "Kuha se samo u Velikom tjednu, a dvanaest sastojaka predstavlja dvanaest apostola. Priprema traje i po dva dana i okuplja cijelu obitelj." },
-    { ime: "Colada morada", opis: "Gust, topao napitak od ljubičastog kukuruza, šumskog voća i začina.", prica: "Pije se oko Dana mrtvih, 2. studenoga, uz guaguas de pan, slatki kruh u obliku povijenog djeteta. Običaj potječe iz andskih obreda sjećanja na pretke." },
-    { ime: "Čokolada", opis: "Tamna čokolada od domaće sorte kakaovca.", prica: "Ekvador je domovina aromatičnog kakaa koji se zove Nacional ili Arriba, a arheolozi su u ekvadorskoj Amazoniji pronašli tragove kakaa stare više od pet tisuća godina. U Quitu se čokolade malih proizvođača kušaju u specijaliziranim trgovinama." },
-    { ime: "Canelazo", opis: "Vruće piće od cimeta, šećera, voćnog soka naranjilla i rakije od šećerne trske.", prica: "Grije u hladnim andskim večerima i prodaje se na ulici, osobito u staroj jezgri Quita. Postoji i verzija bez alkohola." }
+    { ime: "Ceviche", opis: "Ecuadorian ceviche is made with cooked shrimp in a cold sauce of lime, orange and tomato.", prica: "Unlike the Peruvian kind, it is eaten with a spoon, like a cold soup. It is served with popcorn and chifles, thinly sliced fried green plantain chips, which you drop into the bowl." },
+    { ime: "Locro de papa", opis: "A creamy potato soup with cheese and avocado.", prica: "This dish of the Andean highlands, older than the arrival of the Spanish, gets its yellow color from achiote seeds. In Quito it is eaten for lunch almost every day." },
+    { ime: "Encebollado", opis: "A tuna fish soup with yuca and pickled red onion.", prica: "The national dish of the coast, especially of Guayaquil, is eaten for breakfast and has a reputation as the best cure after a long night. Lime is squeezed into the bowl and chifles are added." },
+    { ime: "Hornado", opis: "A whole pig roasted for hours in a wood-fired oven.", prica: "At markets in the Andes the women vendors carve the meat straight from the roast pig, and it comes with mote corn, potato patties and a tangy salad. They will offer you a taste of the crackling before you order." },
+    { ime: "Llapingachos", opis: "Patties of mashed potato stuffed with cheese and fried on a griddle.", prica: "The dish comes from the city of Ambato in the central Andes. They are served with peanut sauce, a fried egg, sausage and avocado." },
+    { ime: "Fanesca", opis: "A thick soup of twelve kinds of grains and legumes with dried salt cod.", prica: "It is cooked only during Holy Week, and the twelve ingredients stand for the twelve apostles. Preparing it can take two days and brings the whole family together." },
+    { ime: "Colada morada", opis: "A thick, warm drink of purple corn, berries and spices.", prica: "It is drunk around the Day of the Dead, November 2, with guaguas de pan, a sweet bread in the shape of a swaddled baby. The custom goes back to Andean rites of remembering the ancestors." },
+    { ime: "Chocolate", opis: "Dark chocolate from a native variety of cacao.", prica: "Ecuador is the homeland of the aromatic cacao called Nacional or Arriba, and archaeologists in the Ecuadorian Amazon have found traces of cacao more than five thousand years old. In Quito you can taste the chocolates of small producers in specialty shops." },
+    { ime: "Canelazo", opis: "A hot drink of cinnamon, sugar, the fruit juice called naranjilla and sugarcane liquor.", prica: "It warms you up on cold Andean evenings and is sold on the street, especially in the old town of Quito. There is also a version without alcohol." }
   ],
   obicaji: [
-    { ime: "Pasillo", opis: "Sjetna glazba uz gitaru, potekla od europskog valcera, kojom Ekvadorci pjevaju o ljubavi i čežnji. UNESCO ju je 2021. upisao na popis nematerijalne baštine.", gdje: "U Quitu i Guayaquilu, u malim glazbenim lokalima zvanima peñas i na koncertima oko 1. listopada, koji se slavi kao Dan pasilla." },
-    { ime: "Sanjuanito i Inti Raymi", opis: "Sanjuanito je veseli andski ples u krugu, uz frule i gitare. Najviše se pleše o Inti Raymiju, svetkovini Sunca i žetve, kada skupine plesača danima obilaze kuće.", gdje: "U Otavalu i okolnim selima u drugoj polovici lipnja, a obred započinje noćnim kupanjem na slapu Peguche." },
-    { ime: "Šešir od slame toquilla", opis: "Panamski šešir zapravo je ekvadorski: plete se ručno od vlakana palme toquilla, a za najfinije primjerke treba i nekoliko mjeseci. Ime je dobio jer se u svijet izvozio preko Paname.", gdje: "U Cuenci radionice pokazuju cijeli postupak, a najfiniji šeširi pletu se u mjestu Montecristi na obali." },
-    { ime: "Año Viejo", opis: "Na Staru godinu obitelji izrađuju lutke od stare odjeće i papira, često s licima političara, i u ponoć ih spaljuju na ulici kako bi s njima izgorjelo sve loše iz protekle godine.", gdje: "U cijeloj zemlji 31. prosinca, a u Quitu i Guayaquilu lutke se danima prije prodaju uz ceste." },
-    { ime: "Tržnice u Andama", opis: "Svako selo ima svoj dan u tjednu kada se trguje stokom, povrćem i tkaninama. Žene naroda Otavalo nose bijele vezene bluze i nizove zlatnih ogrlica, a muškarci dugu pletenicu i tamni pončo.", gdje: "Subotom u Otavalu, četvrtkom u Saquisilíju kod vulkana Cotopaxi." },
-    { ime: "Mama Negra", opis: "Povorka u kojoj glavni lik, muškarac prerušen u crnu ženu, jaše kroz grad i prska gledatelje mlijekom. U njoj se miješaju katolički, starosjedilački i afrički elementi.", gdje: "U gradu Latacungi, u rujnu i ponovno u studenome." }
+    { ime: "Pasillo", opis: "A wistful music accompanied by guitar, descended from the European waltz, in which Ecuadorians sing of love and longing. UNESCO added it to its list of intangible heritage in 2021.", gdje: "In Quito and Guayaquil, in small music venues called peñas and at concerts around October 1, which is celebrated as Pasillo Day." },
+    { ime: "Sanjuanito and Inti Raymi", opis: "The sanjuanito is a cheerful Andean circle dance, to flutes and guitars. It is danced most of all at Inti Raymi, the festival of the Sun and the harvest, when groups of dancers go from house to house for days.", gdje: "In Otavalo and the surrounding villages in the second half of June, with the ritual beginning with a nighttime bath at the Peguche waterfall." },
+    { ime: "The toquilla straw hat", opis: "The Panama hat is actually Ecuadorian: it is woven by hand from the fibers of the toquilla palm, and the finest examples take as long as several months. It got its name because it was exported to the world by way of Panama.", gdje: "In Cuenca, workshops show the whole process, and the finest hats are woven in the town of Montecristi on the coast." },
+    { ime: "Año Viejo", opis: "On New Year's Eve families make effigies out of old clothes and paper, often with the faces of politicians, and burn them in the street at midnight so that everything bad from the past year burns with them.", gdje: "All over the country on December 31, and in Quito and Guayaquil the effigies are sold along the roads for days beforehand." },
+    { ime: "Markets in the Andes", opis: "Every village has its own day of the week for trading in livestock, vegetables and textiles. The women of the Otavalo people wear white embroidered blouses and strands of golden necklaces, and the men wear a long braid and a dark poncho.", gdje: "On Saturdays in Otavalo, on Thursdays in Saquisilí near the Cotopaxi volcano." },
+    { ime: "Mama Negra", opis: "A parade in which the main character, a man dressed up as a Black woman, rides through the city and sprays the spectators with milk. Catholic, Indigenous and African elements all mingle in it.", gdje: "In the city of Latacunga, in September and again in November." }
   ],
   fraze: [
-    { izvorno: "Buenos días", izgovor: "BUE-nos DI-as", hr: "Dobro jutro, dobar dan" },
-    { izvorno: "Gracias", izgovor: "GRA-sjas", hr: "Hvala" },
-    { izvorno: "Por favor", izgovor: "por fa-VOR", hr: "Molim" },
-    { izvorno: "¿Cuánto cuesta?", izgovor: "KUAN-to KUES-ta", hr: "Koliko košta?" },
-    { izvorno: "La cuenta, por favor", izgovor: "la KUEN-ta, por fa-VOR", hr: "Račun, molim" },
-    { izvorno: "¿Dónde está...?", izgovor: "DON-de es-TA", hr: "Gdje je...?" },
-    { izvorno: "¡Chévere!", izgovor: "ČE-ve-re", hr: "Super!" },
-    { izvorno: "Yupaychani", izgovor: "ju-paj-ČA-ni", hr: "Hvala (kichwa)" }
+    { izvorno: "Buenos días", izgovor: "BWEH-nohs DEE-ahs", hr: "Good morning, good day" },
+    { izvorno: "Gracias", izgovor: "GRAH-syahs", hr: "Thank you" },
+    { izvorno: "Por favor", izgovor: "por fah-VOR", hr: "Please" },
+    { izvorno: "¿Cuánto cuesta?", izgovor: "KWAHN-toh KWES-tah", hr: "How much does it cost?" },
+    { izvorno: "La cuenta, por favor", izgovor: "lah KWEN-tah, por fah-VOR", hr: "The check, please" },
+    { izvorno: "¿Dónde está...?", izgovor: "DOHN-deh es-TAH", hr: "Where is...?" },
+    { izvorno: "¡Chévere!", izgovor: "CHEH-veh-reh", hr: "Great!" },
+    { izvorno: "Yupaychani", izgovor: "yoo-pie-CHAH-nee", hr: "Thank you (Kichwa)" }
   ],
   zanimljivosti: [
-    "Vrh vulkana Chimborazo najudaljenija je točka od središta Zemlje, dalja i od vrha Mount Everesta, jer je planet na ekvatoru ispupčen.",
-    "Quito i Galápagos bili su 1978. među prvih dvanaest mjesta upisanih na UNESCO-ov popis svjetske baštine.",
-    "Ekvador je 2008. postao prva država na svijetu koja je u ustavu priznala prava prirode.",
-    "Panamski šešir potječe iz Ekvadora, a njegovo je pletenje na UNESCO-ovu popisu nematerijalne baštine.",
-    "Zemlja je među najvećim svjetskim izvoznicima banana.",
-    "Na Galápagosu žive jedini pingvini koji se prirodno pojavljuju sjeverno od ekvatora."
+    "The summit of the Chimborazo volcano is the farthest point from the center of the Earth, farther even than the top of Mount Everest, because the planet bulges at the equator.",
+    "In 1978 Quito and the Galápagos were among the first twelve sites inscribed on the UNESCO World Heritage List.",
+    "In 2008 Ecuador became the first country in the world to recognize the rights of nature in its constitution.",
+    "The Panama hat comes from Ecuador, and its weaving is on the UNESCO list of intangible heritage.",
+    "The country is among the world's largest exporters of bananas.",
+    "The Galápagos are home to the only penguins that occur naturally north of the equator."
   ],
   mjesta: [
     {
       id: "quito",
       ime: "Quito",
       vrsta: "grad",
-      sazetak: "Prijestolnica na 2850 metara, s najvećom očuvanom kolonijalnom jezgrom Južne Amerike i crkvama prekrivenima zlatom.",
+      sazetak: "A capital at 2,850 meters, with the largest preserved colonial center in South America and churches covered in gold.",
       prica: [
-        "Quito je 6. prosinca 1534. osnovao Sebastián de Belalcázar, na ruševinama grada koji je inkovski vojskovođa Rumiñahui spalio kako ne bi pao Španjolcima u ruke. Grad se proteže uskom dolinom pod vulkanom Pichincha.",
-        "U kolonijalno doba ovdje je djelovala Škola iz Quita, u kojoj su starosjedilački i mestički majstori slikali i rezbarili za crkve cijelog kontinenta, unoseći u kršćanske prizore domaće voće, lica i krajolike. Stara jezgra upisana je na UNESCO-ov popis 1978."
+        "Quito was founded on December 6, 1534, by Sebastián de Belalcázar, on the ruins of a city that the Inca general Rumiñahui had burned so that it would not fall into Spanish hands. The city stretches along a narrow valley beneath the Pichincha volcano.",
+        "In colonial times this was the home of the Quito School, in which Indigenous and mestizo masters painted and carved for the churches of the whole continent, bringing local fruit, faces and landscapes into Christian scenes. The old town was added to the UNESCO list in 1978."
       ],
       vidjeti: [
-        { ime: "Iglesia de la Compañía de Jesús", opis: "Isusovačka crkva građena od 1605. do 1765., čija je unutrašnjost od poda do svoda obložena rezbarijom prekrivenom zlatnim listićima. Graditelji su zbog simetrije nasuprot pravom zavojitom stubištu naslikali lažno, pa pokušajte otkriti koje je koje." },
-        { ime: "Crkva i samostan San Francisco", opis: "Najstarija i najveća vjerska građevina u gradu, započeta nedugo nakon osnutka. Na glavnom oltaru stoji Djevica iz Quita, kip Bernarda de Legarde iz 1734., rijedak prikaz Bogorodice s krilima i u plesnom pokretu." },
-        { ime: "Basílica del Voto Nacional", opis: "Neogotička bazilika na kojoj umjesto zmajeva i vragova vodu izbacuju iguane, kornjače, mravojedi i plavonoge blune. Na tornjeve se može popeti, dijelom strmim željeznim ljestvama." },
-        { ime: "El Panecillo", opis: "Brežuljak usred grada s aluminijskim kipom krilate Djevice, povećanom kopijom Legardina kipa. Okrenuta je prema sjeveru, pa stanovnici južnih četvrti u šali kažu da im je okrenula leđa." },
-        { ime: "Mitad del Mundo", opis: "Spomenik ekvatoru sjeverno od grada stoji na mjestu koje su u 18. stoljeću odredili francuski geodeti. Mjerenja GPS-om pokazala su da prava crta prolazi oko 240 metara dalje, gdje je starosjedilačko svetište postojalo i prije." },
-        { ime: "Capilla del Hombre", opis: "Kapela čovjeka, muzej koji je slikar Oswaldo Guayasamín zamislio kao spomenik patnji i nadi naroda Latinske Amerike. Uz nju je njegova kuća, s pogledom na cijeli grad." }
+        { ime: "Iglesia de la Compañía de Jesús", opis: "A Jesuit church built from 1605 to 1765, whose interior is lined from floor to vault with carving covered in gold leaf. For the sake of symmetry the builders painted a false spiral staircase opposite the real one, so try to work out which is which." },
+        { ime: "Church and Monastery of San Francisco", opis: "The oldest and largest religious building in the city, begun shortly after its founding. On the main altar stands the Virgin of Quito, a statue by Bernardo de Legarda from 1734, a rare depiction of the Virgin Mary with wings and in a dancing pose." },
+        { ime: "Basílica del Voto Nacional", opis: "A neo-Gothic basilica where, instead of dragons and devils, the water spouts are iguanas, tortoises, anteaters and blue-footed boobies. You can climb the towers, partly by steep iron ladders." },
+        { ime: "El Panecillo", opis: "A hill in the middle of the city with an aluminum statue of the winged Virgin, an enlarged copy of Legarda's statue. She faces north, so residents of the southern neighborhoods joke that she has turned her back on them." },
+        { ime: "Mitad del Mundo", opis: "The monument to the equator north of the city stands on the spot determined by French surveyors in the 18th century. GPS measurements have shown that the true line runs about 240 meters away, where an Indigenous sanctuary had existed even earlier." },
+        { ime: "Capilla del Hombre", opis: "The Chapel of Man, a museum that the painter Oswaldo Guayasamín conceived as a monument to the suffering and hope of the peoples of Latin America. Next to it is his house, with a view of the whole city." }
       ],
       jesti: [
-        { ime: "Locro de papa", opis: "Najbolji je u tradicionalnim restoranima stare jezgre, uz ljuti umak ají, koji svaka kuća radi po svome." },
-        { ime: "Empanadas de viento", opis: "Velike, šuplje empanade sa sirom, napuhane poput jastuka i posute šećerom, jedu se uz kavu ili morocho, topli kukuruzni napitak." },
-        { ime: "Helado de paila", opis: "Voćni sladoled koji se ručno miješa u bakrenoj tavi položenoj na led i slamu, bez mlijeka, podrijetlom iz grada Ibarre." }
+        { ime: "Locro de papa", opis: "It is best in the traditional restaurants of the old town, with the hot sauce called ají, which every house makes in its own way." },
+        { ime: "Empanadas de viento", opis: "Large, hollow cheese empanadas, puffed up like pillows and sprinkled with sugar, are eaten with coffee or with morocho, a warm corn drink." },
+        { ime: "Helado de paila", opis: "A fruit ice cream stirred by hand in a copper pan set on ice and straw, made without milk and originally from the city of Ibarra." }
       ],
       dozivjeti: [
-        { ime: "Calle La Ronda", opis: "Uska kolonijalna ulica u kojoj su nekoć živjeli pjesnici i glazbenici, danas puna radionica i lokala. Navečer se ovdje pije canelazo i sluša glazba uživo." },
-        { ime: "TelefériQo", opis: "Žičara se penje na obronke Pichinche do gotovo 4000 metara, odakle se za vedrih jutara vidi niz snježnih vulkana.", link: "https://teleferico.com.ec/" },
-        { ime: "Guayasamínov muzej", opis: "Slike golemih ruku i izduženih lica ostavljaju snažan dojam, a vodiči objašnjavaju političku pozadinu svakog ciklusa.", link: "https://www.guayasamin.org/" }
+        { ime: "Calle La Ronda", opis: "A narrow colonial street where poets and musicians once lived, now full of workshops and bars. In the evening people come here to drink canelazo and listen to live music." },
+        { ime: "TelefériQo", opis: "The cable car climbs the slopes of Pichincha to almost 4,000 meters, from where a line of snowcapped volcanoes can be seen on clear mornings.", link: "https://teleferico.com.ec/" },
+        { ime: "The Guayasamín museum", opis: "The paintings of enormous hands and elongated faces leave a powerful impression, and the guides explain the political background of each cycle.", link: "https://www.guayasamin.org/" }
       ],
       agencije: [
-        { ime: "Quito Turismo", opis: "Službena stranica gradske turističke tvrtke.", link: "https://turismo.quito.gob.ec/" },
-        { ime: "Visit Quito", opis: "Službeni turistički vodič grada.", link: "https://visitquito.ec/" },
-        { ime: "Ecuador Travel", opis: "Službeni turistički portal Ekvadora.", link: "https://ecuador.travel/" }
+        { ime: "Quito Turismo", opis: "The official website of the city's tourism company.", link: "https://turismo.quito.gob.ec/" },
+        { ime: "Visit Quito", opis: "The official tourist guide to the city.", link: "https://visitquito.ec/" },
+        { ime: "Ecuador Travel", opis: "The official tourism portal of Ecuador.", link: "https://ecuador.travel/" }
       ],
-      kada: "Od lipnja do rujna najmanje je kiše. Jutra su tijekom cijele godine vedra, a poslijepodne se naoblači, pa vidikovce planirajte prije podneva."
+      kada: "June to September has the least rain. Mornings are clear all year round and it clouds over in the afternoon, so plan the viewpoints for before noon."
     },
     {
       id: "galapagos",
       ime: "Galápagos",
       vrsta: "otok",
-      sazetak: "Vulkansko otočje na kojem se životinje ne boje ljudi i na kojem je Darwin počeo naslućivati kako nastaju vrste.",
+      sazetak: "A volcanic archipelago where the animals have no fear of people and where Darwin first began to sense how species arise.",
       prica: [
-        "Otočje je 1535. slučajno otkrio panamski biskup Tomás de Berlanga, kada su morske struje odnijele njegov brod s kursa. Ime je dobilo po divovskim kornjačama, čiji je oklop Španjolce podsjećao na sedlo zvano galápago.",
-        "Charles Darwin boravio je ovdje pet tjedana 1835. i primijetio da se ptice i kornjače razlikuju od otoka do otoka, što ga je kasnije dovelo do teorije evolucije. Nacionalni park osnovan je 1959., na stotu obljetnicu objave njegove knjige, i obuhvaća gotovo cijelu kopnenu površinu otočja."
+        "The islands were discovered by accident in 1535 by Tomás de Berlanga, the bishop of Panama, when ocean currents carried his ship off course. They were named after the giant tortoises, whose shell reminded the Spanish of a saddle called a galápago.",
+        "Charles Darwin spent five weeks here in 1835 and noticed that the birds and tortoises differed from island to island, which later led him to the theory of evolution. The national park was founded in 1959, on the hundredth anniversary of the publication of his book, and it covers almost the entire land area of the archipelago."
       ],
       vidjeti: [
-        { ime: "Postaja Charles Darwin", opis: "U mjestu Puerto Ayora na otoku Santa Cruz uzgajaju se mlade divovske kornjače dok ne narastu dovoljno da ih se pusti na matične otoke. Ovdje je živio Usamljeni George, posljednji pripadnik svoje podvrste, koji je uginuo 2012." },
-        { ime: "Tortuga Bay", opis: "Do duge plaže bijelog pijeska na Santa Cruzu hoda se četrdesetak minuta kroz šumu kaktusa. Morske iguane, jedini gušteri na svijetu koji se hrane u moru, ovdje leže na hrpama i griju se na suncu." },
-        { ime: "Otok Isabela", opis: "Najveći otok nastao je spajanjem šest vulkana. Krater vulkana Sierra Negra širok je desetak kilometara, a u laguni kraj sela mogu se vidjeti pingvini i mali morski psi." },
-        { ime: "León Dormido", opis: "Stijena pred otokom San Cristóbal, ostatak vulkanskog stošca rascijepljen na dva dijela, ime je dobila po obliku usnulog lava. U prolazu između stijena roni se s disalicom među kornjačama i morskim psima." },
-        { ime: "Otok Bartolomé", opis: "S vrha otoka pruža se najpoznatiji pogled na otočje: šiljasta stijena Pinnacle Rock, dvije uvale i polja lave. Krajolik je toliko gol da podsjeća na Mjesec." },
-        { ime: "Otok North Seymour", opis: "Ovdje se gnijezde plavonoge blune, koje u udvaranju naizmjence podižu jarkoplava stopala, i fregate, čiji mužjaci napuhuju crvenu vreću pod grlom." }
+        { ime: "Charles Darwin Research Station", opis: "In the town of Puerto Ayora on Santa Cruz Island, young giant tortoises are raised until they are big enough to be released on their home islands. This was the home of Lonesome George, the last member of his subspecies, who died in 2012." },
+        { ime: "Tortuga Bay", opis: "The walk to this long beach of white sand on Santa Cruz takes about forty minutes through a cactus forest. Marine iguanas, the only lizards in the world that feed in the sea, lie here in heaps and warm themselves in the sun." },
+        { ime: "Isabela Island", opis: "The largest island was formed by the merging of six volcanoes. The crater of the Sierra Negra volcano is about ten kilometers wide, and in the lagoon beside the village you can see penguins and small sharks." },
+        { ime: "León Dormido", opis: "The rock off San Cristóbal Island, the remnant of a volcanic cone split in two, was named for its resemblance to a sleeping lion. In the channel between the rocks you snorkel among turtles and sharks." },
+        { ime: "Bartolomé Island", opis: "From the top of the island you get the most famous view of the archipelago: the pointed Pinnacle Rock, two coves and fields of lava. The landscape is so bare that it recalls the Moon." },
+        { ime: "North Seymour Island", opis: "This is the nesting ground of blue-footed boobies, which lift their bright blue feet in turn during courtship, and of frigatebirds, whose males inflate a red pouch under the throat." }
       ],
       jesti: [
-        { ime: "Riba brujo", opis: "Škarpina, koju otočani zovu brujo, cijenjena je zbog čvrstog bijelog mesa i peče se cijela na žaru." },
-        { ime: "Jastog u sezoni", opis: "Lov je dopušten samo dio godine, pa ga na jelovnicima ima u drugoj polovici godine. U ulici s ribljim štandovima u Puerto Ayori navečer se jede na otvorenom, za zajedničkim stolovima." }
+        { ime: "Brujo fish", opis: "Scorpionfish, which the islanders call brujo, is prized for its firm white flesh and is grilled whole." },
+        { ime: "Lobster in season", opis: "Fishing is permitted for only part of the year, so it appears on menus in the second half of the year. On the street of fish stalls in Puerto Ayora, people eat outdoors in the evening at shared tables." }
       ],
       dozivjeti: [
-        { ime: "Krstarenje ili boravak na otocima", opis: "Krstarenje brodom od četiri do osam dana vodi na udaljene, nenaseljene otoke. Jeftinija je mogućnost boravak na Santa Cruzu, Isabeli i San Cristóbalu, uz dnevne izlete brodicama." },
-        { ime: "Ronjenje s morskim lavovima", opis: "Mladi morski lavovi sami prilaze plivačima i igraju se s njima. Pravilo parka je držati razmak od dva metra i nikada ne dirati životinje, čak ni kada one priđu vama." },
-        { ime: "Kornjače u gorju Santa Cruza", opis: "Na imanjima u unutrašnjosti otoka divovske kornjače slobodno pasu po livadama, a mogu se razgledati i tuneli nastali tečenjem lave." }
+        { ime: "A cruise or a stay on the islands", opis: "A cruise of four to eight days takes you to remote, uninhabited islands. The cheaper option is to stay on Santa Cruz, Isabela and San Cristóbal and take day trips by boat." },
+        { ime: "Snorkeling with sea lions", opis: "Young sea lions come up to swimmers on their own and play with them. The park rule is to keep a distance of two meters and never touch the animals, even when they approach you." },
+        { ime: "Tortoises in the highlands of Santa Cruz", opis: "On ranches in the interior of the island, giant tortoises graze freely in the meadows, and you can also explore tunnels formed by flowing lava." }
       ],
       agencije: [
-        { ime: "Parque Nacional Galápagos", opis: "Službena stranica Uprave nacionalnog parka, s pravilima posjeta.", link: "https://www.galapagos.gob.ec/" },
-        { ime: "Charles Darwin Foundation", opis: "Zaklada koja vodi istraživačku postaju u Puerto Ayori.", link: "https://www.darwinfoundation.org/en/" },
-        { ime: "Ecuador Travel", opis: "Službeni turistički portal Ekvadora.", link: "https://ecuador.travel/" }
+        { ime: "Parque Nacional Galápagos", opis: "The official website of the National Park Directorate, with the rules for visitors.", link: "https://www.galapagos.gob.ec/" },
+        { ime: "Charles Darwin Foundation", opis: "The foundation that runs the research station in Puerto Ayora.", link: "https://www.darwinfoundation.org/en/" },
+        { ime: "Ecuador Travel", opis: "The official tourism portal of Ecuador.", link: "https://ecuador.travel/" }
       ],
-      kada: "Od prosinca do svibnja toplo je i more je mirno, a od lipnja do studenoga hladnije, ali s više morskog života. Pri dolasku se plaćaju ulaznina u nacionalni park i tranzitna kartica, a iznose provjerite na službenoj stranici parka."
+      kada: "From December to May it is warm and the sea is calm, and from June to November it is cooler but with more marine life. On arrival you pay the national park entrance fee and the transit control card, so check the amounts on the park's official website."
     },
     {
       id: "cuenca",
       ime: "Cuenca",
       vrsta: "grad",
-      sazetak: "Najljepši kolonijalni grad Ekvadora, s plavim kupolama, četiri rijeke i radionicama u kojima nastaje panamski šešir.",
+      sazetak: "The most beautiful colonial city in Ecuador, with blue domes, four rivers and workshops where the Panama hat is made.",
       prica: [
-        "Španjolci su Cuencu osnovali 1557. na ruševinama Tomebambe, inkovskog grada koji je trebao biti druga prijestolnica carstva. Prije Inka ovdje je živio narod Cañari.",
-        "Grad je sagrađen po strogom pravokutnom planu propisanom za španjolske kolonije i sačuvao ga je do danas, zbog čega je 1999. upisan na UNESCO-ov popis. Poznat je po sveučilištima, keramici i šeširima, a mirnoćom privlači i brojne umirovljenike iz inozemstva."
+        "The Spanish founded Cuenca in 1557 on the ruins of Tomebamba, an Inca city that was meant to be the second capital of the empire. Before the Incas, the Cañari people lived here.",
+        "The city was built to the strict grid plan prescribed for Spanish colonies and has kept it to this day, which is why it was added to the UNESCO list in 1999. It is known for its universities, ceramics and hats, and its tranquility also attracts many retirees from abroad."
       ],
       vidjeti: [
-        { ime: "Nova katedrala", opis: "Katedrala Bezgrešnog začeća, građena od 1885., prepoznaje se po trima golemim kupolama obloženima plavim pločicama. Tornjevi su ostali niži od zamišljenih, jer se pokazalo da temelji ne bi izdržali težinu predviđenu nacrtom." },
-        { ime: "Museo Pumapungo", opis: "Muzej s etnografskom zbirkom svih naroda Ekvadora, među kojom su i smanjene ljudske glave naroda Shuar. Iza zgrade su ruševine inkovske Tomebambe, s terasama i vrtom andskih biljaka." },
-        { ime: "El Barranco", opis: "Niz kolonijalnih kuća koje vise nad strmom obalom rijeke Tomebamba. Šetnica uz rijeku najljepši je put između starog i novog dijela grada." },
-        { ime: "Ingapirca", opis: "Najveće inkovsko nalazište u Ekvadoru, sat i pol sjevernije. Hram Sunca ima neobičan eliptični tlocrt i zidove od zelenkastog kamena složenog bez žbuke, a sagrađen je na starijem svetištu naroda Cañari." },
-        { ime: "Nacionalni park Cajas", opis: "Pola sata od grada, na oko 4000 metara, prostire se visoravan s više od dvjesto ledenjačkih jezera. Među njima rastu šumarci stabala papirnate crvene kore." }
+        { ime: "The New Cathedral", opis: "The Cathedral of the Immaculate Conception, under construction from 1885, is recognizable by its three enormous domes clad in blue tiles. The towers ended up lower than intended, because it turned out that the foundations would not bear the weight called for in the design." },
+        { ime: "Museo Pumapungo", opis: "A museum with an ethnographic collection covering all the peoples of Ecuador, which includes the shrunken human heads of the Shuar people. Behind the building are the ruins of Inca Tomebamba, with terraces and a garden of Andean plants." },
+        { ime: "El Barranco", opis: "A row of colonial houses that hang above the steep bank of the Tomebamba River. The riverside walk is the loveliest route between the old and new parts of the city." },
+        { ime: "Ingapirca", opis: "The largest Inca site in Ecuador, an hour and a half to the north. The Temple of the Sun has an unusual elliptical floor plan and walls of greenish stone fitted together without mortar, and it was built on an older sanctuary of the Cañari people." },
+        { ime: "Cajas National Park", opis: "Half an hour from the city, at about 4,000 meters, lies a high plateau with more than two hundred glacial lakes. Among them grow groves of trees with papery red bark." }
       ],
       jesti: [
-        { ime: "Mote pillo", opis: "Kuhani bijeli kukuruz pirjan s jajima, lukom i mlijekom, doručak i prilog bez kojeg nema obroka u Cuenci." },
-        { ime: "Hornado na tržnici 10 de Agosto", opis: "Na katu tržnice cijela pečena prasad čeka u nizu, a prodavačice dozivaju goste i nude komadić za kušanje." },
-        { ime: "Tortillas de choclo", opis: "Slatkaste pogačice od mladog kukuruza pečene na glinenoj ploči, jedu se tople s kavom." }
+        { ime: "Mote pillo", opis: "Boiled white corn sautéed with eggs, onion and milk, a breakfast and side dish without which no meal in Cuenca is complete." },
+        { ime: "Hornado at the 10 de Agosto market", opis: "Upstairs in the market, whole roast pigs wait in a row, and the women vendors call out to customers and offer a morsel to taste." },
+        { ime: "Tortillas de choclo", opis: "Slightly sweet patties of fresh corn cooked on a clay griddle, eaten warm with coffee." }
       ],
       dozivjeti: [
-        { ime: "Radionica šešira", opis: "U tvornici i muzeju obitelji Ortega vidi se kako se ispleteni šešir pere, izbjeljuje, oblikuje na kalupu i glača, a fini primjerak može se smotati i provući kroz prsten.", link: "https://homeroortega.com/" },
-        { ime: "Sela obrtnika", opis: "U Gualaceu se tkaju šalovi tehnikom ikat, a u Chordelegu se izrađuje srebrni filigranski nakit. Oba su mjesta dostupna autobusom za manje od sat vremena." },
-        { ime: "Vidikovac Turi", opis: "S brežuljka južno od grada vide se sve kupole i crveni krovovi, najljepše u sumrak, kada se pale svjetla." }
+        { ime: "A hat workshop", opis: "At the Ortega family's factory and museum you see how the woven hat is washed, bleached, shaped on a block and pressed, and a fine one can be rolled up and passed through a ring.", link: "https://homeroortega.com/" },
+        { ime: "Artisan villages", opis: "In Gualaceo shawls are woven using the ikat technique, and in Chordeleg silver filigree jewelry is made. Both towns can be reached by bus in less than an hour." },
+        { ime: "The Turi lookout", opis: "From the hill south of the city you can see all the domes and red roofs, at their most beautiful at dusk, when the lights come on." }
       ],
       agencije: [
-        { ime: "Fundación Municipal Turismo para Cuenca", opis: "Gradska turistička zaklada.", link: "https://cuenca.com.ec/" },
-        { ime: "Visit Cuenca", opis: "Promotivni portal odredišta Cuenca.", link: "https://www.visitcuencaecuador.com.ec/" }
+        { ime: "Fundación Municipal Turismo para Cuenca", opis: "The city's tourism foundation.", link: "https://cuenca.com.ec/" },
+        { ime: "Visit Cuenca", opis: "The promotional portal for Cuenca as a destination.", link: "https://www.visitcuencaecuador.com.ec/" }
       ],
-      kada: "Klima je proljetna cijele godine, s najmanje kiše od lipnja do rujna. Za park Cajas ponesite toplu i nepromočivu odjeću, jer se vrijeme mijenja u nekoliko minuta."
+      kada: "The climate is springlike all year, with the least rain from June to September. For Cajas park, bring warm and waterproof clothing, because the weather changes within minutes."
     },
     {
       id: "otavalo",
       ime: "Otavalo",
       vrsta: "gradić",
-      sazetak: "Grad tkalaca pod vulkanom Imbabura, s najpoznatijom starosjedilačkom tržnicom Južne Amerike.",
+      sazetak: "A town of weavers beneath the Imbabura volcano, with the most famous Indigenous market in South America.",
       prica: [
-        "Narod Otavalo tkao je i prije Inka, a Španjolci su tu vještinu iskoristili u radionicama u kojima se radilo pod prisilom. Nakon što su u 20. stoljeću stekli zemlju i slobodu, Otavalci su tkanje pretvorili u posao kojim sami upravljaju.",
-        "Danas njihove tkanine putuju po cijelom svijetu, a zajednica je sačuvala jezik, nošnju i običaje. Gradić leži dva sata sjeverno od Quita, u kraju jezera i vulkana."
+        "The Otavalo people were weaving before the Incas, and the Spanish exploited that skill in workshops where people labored under compulsion. After gaining land and freedom in the 20th century, the Otavalos turned weaving into a business that they run themselves.",
+        "Today their textiles travel all over the world, and the community has kept its language, dress and customs. The town lies two hours north of Quito, in a region of lakes and volcanoes."
       ],
       vidjeti: [
-        { ime: "Plaza de los Ponchos", opis: "Tržnica tkanina, ponča, pokrivača i nakita radi svaki dan, a subotom se širi na okolne ulice. Cjenkanje je uobičajeno i odvija se tiho i uz osmijeh." },
-        { ime: "Slap Peguche", opis: "Slap visok oko 18 metara u šumi eukaliptusa, do kojeg se hoda iz grada, sveto je mjesto zajednice. Uoči Inti Raymija ovdje se održava obredno noćno kupanje." },
-        { ime: "Laguna Cuicocha", opis: "Kratersko jezero pod vulkanom Cotacachi, s dva šumovita otočića u sredini. Ime na jeziku kichwa znači jezero zamoraca, po obliku otoka, a rubom kratera vodi staza od četiri do pet sati hoda." },
-        { ime: "Cotacachi", opis: "Gradić petnaestak minuta od Otavala, čija je glavna ulica niz trgovina kožnom galanterijom, od torbi do jakni, izrađenom u mjesnim radionicama." },
-        { ime: "Jezero San Pablo", opis: "Najveće jezero pokrajine, u kojem se zrcali vulkan Imbabura. Uz obalu se od trske totora pletu prostirke i čamci." }
+        { ime: "Plaza de los Ponchos", opis: "The market for textiles, ponchos, blankets and jewelry is open every day, and on Saturdays it spreads into the surrounding streets. Haggling is customary and is done quietly and with a smile." },
+        { ime: "Peguche Waterfall", opis: "The waterfall, about 18 meters high in a eucalyptus forest and within walking distance of town, is a sacred place for the community. On the eve of Inti Raymi a ritual nighttime bath is held here." },
+        { ime: "Laguna Cuicocha", opis: "A crater lake beneath the Cotacachi volcano, with two wooded islets in the middle. The name in Kichwa means guinea pig lake, after the shape of the islands, and a trail of four to five hours follows the rim of the crater." },
+        { ime: "Cotacachi", opis: "A small town about fifteen minutes from Otavalo, whose main street is a row of shops selling leather goods, from bags to jackets, made in local workshops." },
+        { ime: "Lake San Pablo", opis: "The largest lake in the province, in which the Imbabura volcano is reflected. Along the shore, mats and boats are woven from totora reeds." }
       ],
       jesti: [
-        { ime: "Fritada", opis: "Komadi svinjetine kuhani pa prženi u vlastitoj masti u velikom bakrenom kotlu, uz kukuruz, krumpir i avokado." },
-        { ime: "Chicha del Yamor", opis: "Napitak od sedam vrsta kukuruza, koji se priprema početkom rujna za svetkovinu Yamor, zahvalu za žetvu." },
-        { ime: "Bizcochos iz Cayambea", opis: "Hrskavi slani keksi koji se u gradiću na putu iz Quita jedu sa svježim sirom i karamel kremom." }
+        { ime: "Fritada", opis: "Chunks of pork boiled and then fried in their own fat in a large copper cauldron, served with corn, potatoes and avocado." },
+        { ime: "Chicha del Yamor", opis: "A drink made from seven kinds of corn, prepared in early September for the Yamor festival, a thanksgiving for the harvest." },
+        { ime: "Bizcochos from Cayambe", opis: "Crisp savory biscuits that are eaten with fresh cheese and caramel spread in a small town on the way from Quito." }
       ],
       dozivjeti: [
-        { ime: "Posjet tkalačkoj obitelji", opis: "U selima Peguche i Agato tkalci na starim tkalačkim stanovima pokazuju kako se vuna češlja, prede i boji orahovom ljuskom i kukcem cochinilla." },
-        { ime: "Stočni sajam", opis: "Subotom u zoru na rubu grada trguje se kravama, svinjama i zamorcima, a prizor je posve drukčiji od tržnice suvenira." },
-        { ime: "Glazbala u Pegucheu", opis: "U radionicama se izrađuju panove frule, quene i charanga, a majstori rado zasviraju i objasne kako se koja svira." }
+        { ime: "A visit to a weaving family", opis: "In the villages of Peguche and Agato, weavers at old looms show how wool is carded, spun and dyed with walnut husks and the cochineal insect." },
+        { ime: "The livestock market", opis: "At dawn on Saturdays, cows, pigs and guinea pigs are traded on the edge of town, and the scene is nothing like the souvenir market." },
+        { ime: "Musical instruments in Peguche", opis: "The workshops make panpipes, quenas and charangos, and the craftsmen are happy to play a tune and explain how each one is played." }
       ],
       agencije: [
-        { ime: "Municipio de Otavalo", opis: "Službena stranica općine Otavalo.", link: "https://www.otavalo.gob.ec/" },
-        { ime: "Ecuador Travel", opis: "Službeni turistički portal Ekvadora.", link: "https://ecuador.travel/" }
+        { ime: "Municipio de Otavalo", opis: "The official website of the municipality of Otavalo.", link: "https://www.otavalo.gob.ec/" },
+        { ime: "Ecuador Travel", opis: "The official tourism portal of Ecuador.", link: "https://ecuador.travel/" }
       ],
-      kada: "Subota je glavni tržni dan, pa dođite u petak navečer i krenite rano. Od lipnja do rujna najsuše je, a krajem lipnja slavi se Inti Raymi."
+      kada: "Saturday is the main market day, so arrive on Friday evening and get an early start. June to September is the driest period, and Inti Raymi is celebrated in late June."
     }
   ],
   izvori: [

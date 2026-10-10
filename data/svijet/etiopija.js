@@ -1,196 +1,196 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["etiopija"] = {
   id: "etiopija",
-  ime: "Etiopija",
-  regija: "Podsaharska Afrika",
-  sazetak: "Zemlja s vlastitim pismom, kalendarom i satom, u kojoj se crkve klešu odozgo prema dolje, a kava pije uz obred.",
+  ime: "Ethiopia",
+  regija: "Sub-Saharan Africa",
+  sazetak: "A country with its own script, calendar and clock, where churches are carved from the top down and coffee is drunk as a ceremony.",
   uvod: [
-    "Etiopija je jedina afrička zemlja koja nikada nije bila kolonija. Talijane je 1896. porazila u bitki kod Adue, a njihova okupacija od 1936. do 1941. bila je kratka epizoda u povijesti dugoj tri tisuće godina. Ta je neprekinutost sačuvala stvari kojih nema nigdje drugdje: pismo geez s više od dvjesto znakova, kalendar od trinaest mjeseci i jednu od najstarijih kršćanskih crkava na svijetu.",
-    "Kraljevstvo Aksum bilo je u prvim stoljećima naše ere trgovačka sila između Rima i Indije, a kršćanstvo je primilo već oko 330. godine. Carevi su se do 1974. smatrali potomcima kralja Salomona i kraljice od Sabe, a posljednji među njima, Haile Selassie, postao je i božanstvo rastafarijanaca na dalekoj Jamajci.",
-    "Veći dio zemlje je visoravan na više od 2000 metara, ispresijecana klancima. Ovdje je pronađena Lucy, jedan od najpoznatijih fosila ljudskog pretka, i odavde potječe kava. Sigurnosno stanje na sjeveru posljednjih se godina mijenjalo, pa je dobra priprema važnija nego drugdje."
+    "Ethiopia is the only African country that was never a colony. It defeated the Italians in 1896 at the Battle of Adwa, and their occupation from 1936 to 1941 was a brief episode in a history three thousand years long. That continuity has preserved things found nowhere else: the Ge'ez script with more than two hundred characters, a calendar of thirteen months and one of the oldest Christian churches in the world.",
+    "In the first centuries AD the Kingdom of Aksum was a trading power between Rome and India, and it adopted Christianity as early as around 330. Until 1974 the emperors considered themselves descendants of King Solomon and the Queen of Sheba, and the last of them, Haile Selassie, also became a deity to the Rastafarians in faraway Jamaica.",
+    "Most of the country is a plateau more than 2,000 meters high, cut through by gorges. This is where Lucy was found, one of the best-known fossils of a human ancestor, and this is where coffee comes from. The security situation in the north has shifted in recent years, so good preparation matters more here than elsewhere."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suho je od listopada do ožujka. Najsvečanije je oko etiopskog Božića 7. siječnja i blagdana Timkat 19. siječnja. Glavne kiše padaju od lipnja do rujna." },
-    { k: "Sigurnost", v: "U pokrajinama Amhara i Tigray, gdje su Lalibela, Gondar i Aksum, posljednjih je godina bilo oružanih sukoba. Prije puta obvezno provjerite preporuke Ministarstva vanjskih i europskih poslova, između gradova letite, a ne vozite se, i putujte s provjerenom lokalnom agencijom." },
-    { k: "Valuta", v: "Etiopski bir (ETB). Izvan Addis Abebe plaća se gotovo samo gotovinom." },
-    { k: "Kretanje", v: "Povijesni gradovi na sjeveru povezani su unutarnjim letovima Ethiopian Airlinesa, koji su znatno jeftiniji ako ste i u zemlju doletjeli istom kompanijom." },
-    { k: "Vrijeme i datum", v: "Etiopski kalendar kasni sedam do osam godina za našim, a dan se broji od izlaska sunca, pa je naših sedam ujutro ondje jedan sat. Uvijek pitajte na koje se vrijeme misli." },
-    { k: "Napojnica", v: "U restoranima oko 10 posto, a vodičima i čuvarima crkava koji otključavaju riznice daje se manji iznos." }
+    { k: "When to go", v: "It is dry from October to March. The most festive time is around Ethiopian Christmas on January 7 and the feast of Timkat on January 19. The main rains fall from June to September." },
+    { k: "Safety", v: "The Amhara and Tigray regions, home to Lalibela, Gondar and Aksum, have seen armed conflict in recent years. Before you travel, be sure to check the advice of the Croatian Ministry of Foreign and European Affairs, fly between cities instead of driving, and travel with a trusted local agency." },
+    { k: "Currency", v: "The Ethiopian birr (ETB). Outside Addis Ababa you pay almost entirely in cash." },
+    { k: "Getting around", v: "The historic cities of the north are linked by Ethiopian Airlines domestic flights, which are considerably cheaper if you also flew into the country with the same airline." },
+    { k: "Time and date", v: "The Ethiopian calendar runs seven to eight years behind the Gregorian one, and the day is counted from sunrise, so seven in the morning by international time is one o'clock there. Always ask which time is meant." },
+    { k: "Tipping", v: "About 10 percent in restaurants, and a smaller amount is given to guides and to the church keepers who unlock the treasuries." }
   ],
   hrana: [
-    { ime: "Injera", opis: "Velika spužvasta kiselkasta palačinka od brašna žitarice teff, koja je ujedno tanjur, pribor i kruh.", prica: "Tijesto fermentira nekoliko dana, otuda kiselost. Teff ima zrno manje od zrna maka i raste gotovo samo u Etiopiji. Jela se poslažu na injeru, a jede se desnom rukom, tako da se komadićem palačinke zahvati zalogaj." },
-    { ime: "Doro wat", opis: "Piletina i tvrdo kuhana jaja u tamnocrvenom, ljutom umaku od luka i začinske mješavine berbere.", prica: "Blagdansko je jelo za koje se luk pirja satima bez masnoće. Predaja kaže da se pile mora rasjeći na točno dvanaest komada, po jedan za svakog apostola." },
-    { ime: "Shiro", opis: "Gusti umak od brašna slanutka s češnjakom i začinima, koji stiže ključajući u glinenoj posudi.", prica: "Najčešće je posno jelo. Etiopski pravoslavci poste više od 180 dana na godinu, srijedom, petkom i pred blagdane, i tada ne jedu ništa životinjskog podrijetla, pa je kuhinja puna izvrsnih veganskih jela." },
-    { ime: "Kitfo", opis: "Sitno sjeckana nemasna govedina sa začinjenim maslacem i ljutom mješavinom mitmita.", prica: "Specijalitet je naroda Gurage i tradicionalno se jede sirov. Možete ga naručiti i lagano zagrijanog, što se zove leb leb, uz svježi sir i kuhano zelje." },
-    { ime: "Tibs", opis: "Komadići govedine ili janjetine prženi s lukom, ružmarinom i ljutom papričicom.", prica: "Poslužuje se na glinenoj posudi sa žarom ispod. To je jelo za goste i slavlja i najsigurniji izbor za one koji ne vole ljuto." },
-    { ime: "Beyaynetu", opis: "Posni pladanj s desetak hrpica različitih jela od leće, graška, zelja, cikle i krumpira na jednoj injeri.", prica: "Ime znači od svake vrste. Naručuje se srijedom i petkom u svakom restoranu i najbolji je način da odjednom kušate cijelu posnu kuhinju." },
-    { ime: "Buna", opis: "Kava pripremljena pred gostom, od prženja zelenih zrna do točenja iz glinenog vrča.", prica: "Legenda kaže da je pastir Kaldi u pokrajini Kaffa primijetio kako mu koze poskakuju nakon što pojedu crvene bobice. Obred traje sat vremena i piju se tri šalice, a treća se zove baraka, blagoslov." },
-    { ime: "Tej", opis: "Medovina zlatne boje, s gorkim lišćem grma gesho umjesto hmelja.", prica: "Nekoć je bila piće careva i plemstva. Pije se iz staklene boce okruglog dna i uskoga grla, zvane berele, koja nalikuje laboratorijskoj tikvici." }
+    { ime: "Injera", opis: "A large, spongy, slightly sour flatbread made from the flour of the grain teff, which serves as plate, cutlery and bread all at once.", prica: "The batter ferments for several days, which is where the sourness comes from. Teff has a grain smaller than a poppy seed and grows almost only in Ethiopia. The dishes are arranged on the injera, and you eat with your right hand, using a piece of the flatbread to pick up each mouthful." },
+    { ime: "Doro wat", opis: "Chicken and hard-boiled eggs in a dark red, spicy sauce of onions and the berbere spice blend.", prica: "It is a feast-day dish for which the onions are simmered for hours without any fat. Tradition has it that the chicken must be cut into exactly twelve pieces, one for each apostle." },
+    { ime: "Shiro", opis: "A thick sauce of chickpea flour with garlic and spices, which arrives bubbling in a clay pot.", prica: "It is the most common fasting dish. Ethiopian Orthodox Christians fast more than 180 days a year, on Wednesdays, on Fridays and before feast days, and at those times eat nothing of animal origin, so the cuisine is full of excellent vegan dishes." },
+    { ime: "Kitfo", opis: "Finely minced lean beef with spiced butter and the hot mitmita spice blend.", prica: "It is a specialty of the Gurage people and is traditionally eaten raw. You can also order it lightly warmed, which is called leb leb, with fresh cheese and cooked greens." },
+    { ime: "Tibs", opis: "Pieces of beef or lamb fried with onion, rosemary and hot pepper.", prica: "It is served on a clay dish with embers underneath. It is a dish for guests and celebrations, and the safest choice for anyone who does not like spicy food." },
+    { ime: "Beyaynetu", opis: "A fasting platter with a dozen or so little mounds of different dishes made from lentils, peas, greens, beets and potatoes on a single injera.", prica: "The name means a bit of every kind. You can order it on Wednesdays and Fridays in every restaurant, and it is the best way to taste the whole fasting cuisine in one go." },
+    { ime: "Buna", opis: "Coffee prepared in front of the guest, from roasting the green beans to pouring from a clay pot.", prica: "Legend says that the goatherd Kaldi, in the Kaffa region, noticed his goats leaping about after eating red berries. The ceremony lasts an hour and three cups are drunk, the third of which is called baraka, blessing." },
+    { ime: "Tej", opis: "A golden honey wine, with the bitter leaves of the gesho shrub in place of hops.", prica: "It was once the drink of emperors and the nobility. It is drunk from a round-bottomed, narrow-necked glass bottle called a berele, which resembles a laboratory flask." }
   ],
   obicaji: [
-    { ime: "Obred kave", opis: "Domaćica na tlo prostre svježu travu, zapali tamjan, isprži zrna i pronese ih među gostima da pomirišu dim. Zatim ih istuče u mužaru i skuha u vrču zvanom jebena. Odbiti poziv na kavu smatra se nepristojnim.", gdje: "U svakoj kući i gotovo svakom restoranu i hotelu; u Addis Abebi u tradicionalnim kavanama u četvrti Piassa." },
-    { ime: "Timkat", opis: "Blagdan Bogojavljenja, kojim se slavi Kristovo krštenje. Svećenici pod šarenim kišobranima iznose iz crkava tabote, kopije ploča Zavjeta, i nose ih do vode. U zoru se voda blagoslovi, a vjernici se poliju ili skaču u nju. UNESCO je blagdan 2019. uvrstio u nematerijalnu baštinu.", gdje: "Najsvečanije u Gondaru, kod Fasilidesova kupališta, i u Lalibeli, 19. siječnja." },
-    { ime: "Meskel", opis: "Blagdan pronalaska Svetoga križa. Na trgovima se pale visoke lomače okićene žutim cvijećem meskel, koje cvjeta upravo tada, na kraju kišne sezone.", gdje: "Trg Meskel u Addis Abebi, 27. rujna navečer." },
-    { ime: "Gursha", opis: "Znak prijateljstva i poštovanja kojim nekomu rukom stavite zalogaj injere ravno u usta. Što je zalogaj veći, to je naklonost veća, a uzvraća se istom mjerom.", gdje: "Za stolom u obiteljskom domu ili u društvu; ako vam ga ponude, prihvatite." },
-    { ime: "Eskista", opis: "Ples naroda Amhara u kojem se gotovo sve događa u ramenima, koja se tresu, kruže i trzaju dok noge miruju. Prate ga jednožičane gusle masenko i bubanj.", gdje: "Tradicionalni lokali azmari bet u Addis Abebi i Gondaru, gdje pjevači usput smišljaju šaljive stihove o gostima." },
-    { ime: "Trinaest mjeseci sunca", opis: "Etiopska godina ima dvanaest mjeseci od po trideset dana i trinaesti od pet ili šest dana. Nova godina, Enkutatash, slavi se 11. rujna, kada prestanu kiše.", gdje: "Vidjet ćete to na svakom računu i novinama, gdje je godina sedam ili osam manja od naše." }
+    { ime: "The coffee ceremony", opis: "The hostess spreads fresh grass on the floor, lights incense, roasts the beans and carries them around among the guests so they can smell the smoke. Then she pounds them in a mortar and brews them in a pot called a jebena. Turning down an invitation to coffee is considered rude.", gdje: "In every home and in almost every restaurant and hotel; in Addis Ababa, in the traditional coffee houses of the Piassa district." },
+    { ime: "Timkat", opis: "The feast of Epiphany, which celebrates the baptism of Christ. Priests under colorful umbrellas bring the tabots, replicas of the Tablets of the Covenant, out of the churches and carry them to the water. At dawn the water is blessed, and the faithful are sprinkled with it or jump in. UNESCO added the feast to its list of intangible heritage in 2019.", gdje: "At its most festive in Gondar, at Fasilides' Bath, and in Lalibela, on January 19." },
+    { ime: "Meskel", opis: "The feast of the Finding of the True Cross. Tall bonfires decorated with yellow meskel flowers, which bloom at just that time, at the end of the rainy season, are lit on town squares.", gdje: "Meskel Square in Addis Ababa, on the evening of September 27." },
+    { ime: "Gursha", opis: "A sign of friendship and respect in which you place a mouthful of injera straight into someone's mouth with your hand. The bigger the mouthful, the greater the affection, and it is returned in kind.", gdje: "At the table in a family home or among friends; if you are offered one, accept." },
+    { ime: "Eskista", opis: "A dance of the Amhara people in which almost everything happens in the shoulders, which shake, roll and twitch while the feet stay still. It is accompanied by the masenko, a one-string fiddle, and a drum.", gdje: "The traditional azmari bet venues in Addis Ababa and Gondar, where the singers make up humorous verses about the guests as they go." },
+    { ime: "Thirteen months of sunshine", opis: "The Ethiopian year has twelve months of thirty days each and a thirteenth of five or six days. The New Year, Enkutatash, is celebrated on September 11, when the rains stop.", gdje: "You will see it on every receipt and newspaper, where the year is seven or eight behind the Gregorian one." }
   ],
   fraze: [
-    { izvorno: "Selam", izgovor: "se-LAM", hr: "Zdravo" },
-    { izvorno: "Dehna neh? / Dehna nesh?", izgovor: "DEH-na neh / DEH-na neš", hr: "Kako si? (muškarcu / ženi)" },
-    { izvorno: "Ameseginalehu", izgovor: "a-me-se-gi-NA-le-hu", hr: "Hvala" },
-    { izvorno: "Ishi", izgovor: "I-ši", hr: "U redu, može" },
-    { izvorno: "Awo / Aydelem", izgovor: "A-vo / aj-DE-lem", hr: "Da / Ne" },
-    { izvorno: "Sint new?", izgovor: "sint NO", hr: "Koliko košta?" },
-    { izvorno: "Konjo", izgovor: "KO-njo", hr: "Lijepo" },
-    { izvorno: "Betam tiru", izgovor: "be-TAM TI-ru", hr: "Vrlo dobro" }
+    { izvorno: "Selam", izgovor: "seh-LAHM", hr: "Hello" },
+    { izvorno: "Dehna neh? / Dehna nesh?", izgovor: "DEH-nah neh / DEH-nah nesh", hr: "How are you? (to a man / to a woman)" },
+    { izvorno: "Ameseginalehu", izgovor: "ah-meh-seh-gee-NAH-leh-hoo", hr: "Thank you" },
+    { izvorno: "Ishi", izgovor: "EE-shee", hr: "Okay, sure" },
+    { izvorno: "Awo / Aydelem", izgovor: "AH-woh / eye-DEH-lem", hr: "Yes / No" },
+    { izvorno: "Sint new?", izgovor: "sint NOH", hr: "How much does it cost?" },
+    { izvorno: "Konjo", izgovor: "KOHN-joh", hr: "Beautiful" },
+    { izvorno: "Betam tiru", izgovor: "beh-TAHM TEE-roo", hr: "Very good" }
   ],
   zanimljivosti: [
-    "Lucy, kostur ženke vrste Australopithecus afarensis star oko 3,2 milijuna godina, pronađena je 1974. Etiopljani je zovu Dinkinesh, što znači divna si.",
-    "Etiopska pravoslavna crkva vjeruje da se Kovčeg saveza čuva u kapeli u Aksumu i da ga smije vidjeti samo jedan redovnik čuvar.",
-    "Abebe Bikila osvojio je olimpijski maraton u Rimu 1960. trčeći bos, kao prvi crni Afrikanac sa zlatnom olimpijskom medaljom.",
-    "Addis Abeba leži na oko 2400 metara i među najvišim je glavnim gradovima na svijetu.",
-    "Depresija Danakil na sjeveroistoku jedno je od najvrućih i najnižih mjesta na Zemlji, više od stotinu metara ispod razine mora.",
-    "Dželada, majmun s crvenom mrljom na prsima koji živi samo na etiopskoj visoravni, jedini je primat koji se hrani gotovo isključivo travom.",
-    "U zemlji se govori više od osamdeset jezika, a amharski se piše vlastitim slogovnim pismom."
+    "Lucy, the skeleton of a female Australopithecus afarensis about 3.2 million years old, was found in 1974. Ethiopians call her Dinkinesh, which means you are marvelous.",
+    "The Ethiopian Orthodox Church believes that the Ark of the Covenant is kept in a chapel in Aksum and that only one guardian monk is allowed to see it.",
+    "Abebe Bikila won the Olympic marathon in Rome in 1960 running barefoot, becoming the first Black African with an Olympic gold medal.",
+    "Addis Ababa lies at about 2,400 meters and is among the highest capital cities in the world.",
+    "The Danakil Depression in the northeast is one of the hottest and lowest places on Earth, more than a hundred meters below sea level.",
+    "The gelada, a monkey with a red patch on its chest that lives only on the Ethiopian plateau, is the only primate that feeds almost exclusively on grass.",
+    "More than eighty languages are spoken in the country, and Amharic is written in its own syllabic script."
   ],
   mjesta: [
     {
       id: "addis-abeba",
-      ime: "Addis Abeba",
+      ime: "Addis Ababa",
       vrsta: "grad",
-      sazetak: "Glavni grad na visoravni, diplomatsko središte Afrike i dom našega dalekog pretka Lucy.",
+      sazetak: "The capital on the plateau, the diplomatic center of Africa and the home of our distant ancestor Lucy.",
       prica: [
-        "Grad je 1886. osnovao car Menelik II. na poticaj carice Taytu, koja je ispod hladnog brda Entoto otkrila tople izvore i nazvala mjesto Addis Abeba, novi cvijet. Zbog potrebe za ogrjevom Menelik je iz Australije dao dovesti eukaliptus, koji danas pokriva sva okolna brda.",
-        "Ovdje je 1963. osnovana Organizacija afričkog jedinstva, pa je grad sjedište Afričke unije. Posljednjih godina mijenja se vrlo brzo, s novim neboderima, parkovima i muzejima."
+        "The city was founded in 1886 by Emperor Menelik II at the urging of Empress Taytu, who discovered hot springs below the cold Entoto hill and named the place Addis Ababa, new flower. Because firewood was needed, Menelik had eucalyptus brought from Australia, and today it covers all the surrounding hills.",
+        "The Organization of African Unity was founded here in 1963, so the city is the seat of the African Union. In recent years it has been changing very fast, with new high-rises, parks and museums."
       ],
       vidjeti: [
-        { ime: "Nacionalni muzej", opis: "U prizemlju je izložen odljev Lucyna kostura, dok se izvorne kosti čuvaju u trezoru. Stanite uz nju i usporedite visinu: imala je tek nešto više od metra, a hodala je uspravno. Uz nju je i Selam, kostur trogodišnje djevojčice iste vrste, još stariji od Lucy." },
-        { ime: "Katedrala Svetoga Trojstva", opis: "U crkvi dovršenoj 1940-ih pokopani su car Haile Selassie i carica Menen, u granitnim sarkofazima lijevo od oltara. Vitraji prikazuju biblijske prizore s likovima etiopskih crta lica." },
-        { ime: "Etnološki muzej", opis: "Smješten je u nekadašnjoj carevoj palači na sveučilišnom kampusu. Sačuvane su spavaća soba i kupaonica Hailea Selassieja, a zbirka je uređena prema životnom ciklusu, od rođenja do smrti. Pred zgradom je betonsko spiralno stubište koje su podigli Talijani, po jedna stuba za svaku godinu fašizma, a Etiopljani su mu na vrh postavili lava." },
-        { ime: "Merkato", opis: "Jedna od najvećih tržnica na otvorenom u Africi ima posebne ulice za začine, kavu, košare i recikliranje, u kojoj se od starih guma rade sandale. Idite s vodičem i bez dragocjenosti." },
-        { ime: "Spomen-muzej pobjede kod Adue", opis: "Novi muzej u središtu grada posvećen je bitki iz 1896., u kojoj je Menelikova vojska porazila Talijane i sačuvala neovisnost. Pred zgradom stoje kipovi cara i carice Taytu, koja je i sama vodila postrojbe." }
+        { ime: "National Museum", opis: "A cast of Lucy's skeleton is displayed on the ground floor, while the original bones are kept in a vault. Stand next to her and compare heights: she was only a little over a meter tall, and she walked upright. Beside her is Selam, the skeleton of a three-year-old girl of the same species, even older than Lucy." },
+        { ime: "Holy Trinity Cathedral", opis: "In the church completed in the 1940s, Emperor Haile Selassie and Empress Menen are buried in granite sarcophagi to the left of the altar. The stained glass windows show biblical scenes with figures that have Ethiopian features." },
+        { ime: "Ethnological Museum", opis: "It is housed in the emperor's former palace on the university campus. Haile Selassie's bedroom and bathroom have been preserved, and the collection is arranged according to the cycle of life, from birth to death. In front of the building is a concrete spiral staircase put up by the Italians, one step for each year of Fascism, and the Ethiopians placed a lion on top of it." },
+        { ime: "Merkato", opis: "One of the largest open-air markets in Africa has separate streets for spices, coffee, baskets and recycling, where sandals are made from old tires. Go with a guide and without valuables." },
+        { ime: "Adwa Victory Memorial Museum", opis: "The new museum downtown is dedicated to the battle of 1896 in which Menelik's army defeated the Italians and preserved the country's independence. In front of the building stand statues of the emperor and of Empress Taytu, who led troops herself." }
       ],
       jesti: [
-        { ime: "Beyaynetu", opis: "Šareni posni pladanj najbolje je kušati u jednostavnim mjesnim restoranima, osobito srijedom i petkom." },
-        { ime: "Macchiato", opis: "Talijani su ostavili aparate za espresso, pa se u starim kavanama u četvrti Piassa pije odličan macchiato od etiopskih zrna." },
-        { ime: "Kitfo", opis: "U restoranima specijaliziranima za kuhinju naroda Gurage poslužuje se uz kruh od lažne banane, zvan kocho." }
+        { ime: "Beyaynetu", opis: "The colorful fasting platter is best tasted in simple local restaurants, especially on Wednesdays and Fridays." },
+        { ime: "Macchiato", opis: "The Italians left behind espresso machines, so in the old cafes of the Piassa district you can drink an excellent macchiato made with Ethiopian beans." },
+        { ime: "Kitfo", opis: "In restaurants specializing in the cuisine of the Gurage people it is served with a bread made from false banana, called kocho." }
       ],
       dozivjeti: [
-        { ime: "Večer u kulturnom restoranu", opis: "Uz zajednički pladanj i medovinu gledaju se plesovi različitih naroda, od treskanja ramenima Amhara do skokova naroda s juga." },
-        { ime: "Brdo Entoto", opis: "S više od 3000 metara vidi se cijeli grad. Na brdu je uređen park sa stazama kroz eukaliptusovu šumu, a uz cestu ćete sresti žene koje na leđima nose golema bremena drva." },
-        { ime: "Obred kave", opis: "Sjednite na nisku stolicu, pomirišite dim prženih zrna i popijte sve tri šalice, uz kokice koje se uvijek poslužuju uz kavu." }
+        { ime: "An evening at a cultural restaurant", opis: "Over a shared platter and honey wine you watch the dances of different peoples, from the shoulder-shaking of the Amhara to the leaps of the peoples of the south." },
+        { ime: "Entoto hill", opis: "From more than 3,000 meters up you can see the whole city. A park has been laid out on the hill with trails through the eucalyptus forest, and along the road you will meet women carrying enormous loads of firewood on their backs." },
+        { ime: "The coffee ceremony", opis: "Sit down on a low stool, breathe in the smoke of the roasting beans and drink all three cups, with the popcorn that is always served with coffee." }
       ],
       agencije: [
-        { ime: "Visit Ethiopia", opis: "Službeni turistički portal Etiopije.", link: "https://www.visitethiopia.et/" },
-        { ime: "Ethiopian Airlines", opis: "Nacionalna zrakoplovna kompanija, s unutarnjim letovima do povijesnih gradova.", link: "https://www.ethiopianairlines.com/" }
+        { ime: "Visit Ethiopia", opis: "Ethiopia's official tourism portal.", link: "https://www.visitethiopia.et/" },
+        { ime: "Ethiopian Airlines", opis: "The national airline, with domestic flights to the historic cities.", link: "https://www.ethiopianairlines.com/" }
       ],
-      kada: "Od listopada do ožujka dani su sunčani. Zbog visine prvi dan hodajte polako i pijte mnogo vode."
+      kada: "From October to March the days are sunny. Because of the altitude, walk slowly on your first day and drink plenty of water."
     },
     {
       id: "lalibela",
       ime: "Lalibela",
       vrsta: "gradić",
-      sazetak: "Jedanaest crkava isklesanih iz žive stijene, u kojima se bogoslužje obavlja kao prije osam stoljeća.",
+      sazetak: "Eleven churches carved out of living rock, where services are held just as they were eight centuries ago.",
       prica: [
-        "Kralj Lalibela iz dinastije Zagwe dao je krajem 12. i početkom 13. stoljeća isklesati crkve kao novi Jeruzalem, nakon što su muslimani osvojili Svetu zemlju i hodočašća postala opasna. Zato se potok koji teče kroz mjesto zove Jordan.",
-        "Predaja kaže da su danju klesali ljudi, a noću anđeli, pa je sve bilo gotovo za dvadeset četiri godine. Umjesto da se zidaju, crkve su klesane odozgo prema dolje: prvo je u stijeni iskopan rov, a zatim je preostali blok izdubljen. UNESCO ih je zaštitio 1978., među prvima na svijetu."
+        "King Lalibela of the Zagwe dynasty had the churches carved in the late 12th and early 13th centuries as a new Jerusalem, after the Muslims had conquered the Holy Land and pilgrimages had become dangerous. That is why the stream flowing through the town is called the Jordan.",
+        "Tradition has it that men carved by day and angels by night, so everything was finished in twenty-four years. The churches were carved from the top down and not built up: first a trench was dug into the rock, and then the remaining block was hollowed out. UNESCO protected them in 1978, among the first sites in the world."
       ],
       vidjeti: [
-        { ime: "Bete Giyorgis", opis: "Crkva svetoga Jurja isklesana je u obliku križa jednakih krakova u jami dubokoj oko dvanaest metara. Stojite na razini njezina krova i gledate dolje. Predaja kaže da se svetac naljutio jer nijedna crkva nije bila posvećena njemu, pa je kralj obećao najljepšu. U zidu jame vodič će vam pokazati otiske kopita svečeva konja." },
-        { ime: "Bete Medhane Alem", opis: "Kuća Spasitelja svijeta smatra se najvećom monolitnom crkvom na svijetu. Okružuju je trideset četiri četvrtasta stupa, a unutra se čuva Lalibelin križ, težak oko sedam kilograma, kojim svećenik blagoslivlja hodočasnike." },
-        { ime: "Bete Maryam", opis: "Najstarija i hodočasnicima najdraža crkva ima oslikane stropove i reljefe. U njoj je stup omotan platnom, na kojem su, vjeruje se, zapisani prošlost i budućnost svijeta, pa ga nitko ne smije otkriti." },
-        { ime: "Bete Golgotha i Lalibelin grob", opis: "U ovu crkvu smiju ući samo muškarci. U zidove su uklesani likovi svetaca u prirodnoj veličini, a prema predaji ovdje je pokopan sam kralj." },
-        { ime: "Tuneli i rovovi", opis: "Crkve su povezane prolazima isklesanima u stijeni. Jedan potpuno mračan tunel dug tridesetak metara simbolizira pakao, a iz njega se izlazi na svjetlo pred crkvom. U zidovima rovova vide se niše u kojima su živjeli pustinjaci." },
-        { ime: "Yemrehanna Kristos", opis: "Sat i pol vožnje od mjesta nalazi se starija crkva, sagrađena unutar špilje od naizmjeničnih slojeva drva i žbuke. Iza nje leže kosti hodočasnika koji su ovamo došli umrijeti." }
+        { ime: "Bete Giyorgis", opis: "The Church of Saint George is carved in the shape of a cross with equal arms in a pit about twelve meters deep. You stand level with its roof and look down. Tradition says the saint was angry that no church had been dedicated to him, so the king promised him the most beautiful one. In the wall of the pit your guide will show you the hoofprints of the saint's horse." },
+        { ime: "Bete Medhane Alem", opis: "The House of the Savior of the World is considered the largest monolithic church in the world. It is surrounded by thirty-four square pillars, and inside is kept the Lalibela Cross, weighing about seven kilograms, with which the priest blesses pilgrims." },
+        { ime: "Bete Maryam", opis: "The oldest church, and the one pilgrims love best, has painted ceilings and reliefs. Inside is a pillar wrapped in cloth on which, it is believed, the past and future of the world are written, so nobody is allowed to uncover it." },
+        { ime: "Bete Golgotha and the Tomb of Lalibela", opis: "Only men may enter this church. Life-size figures of saints are carved into the walls, and according to tradition the king himself is buried here." },
+        { ime: "The tunnels and trenches", opis: "The churches are connected by passages carved into the rock. One completely dark tunnel about thirty meters long symbolizes hell, and you emerge from it into the light in front of a church. In the walls of the trenches you can see the niches where hermits lived." },
+        { ime: "Yemrehanna Kristos", opis: "An hour and a half's drive from town is an older church, built inside a cave from alternating layers of wood and plaster. Behind it lie the bones of pilgrims who came here to die." }
       ],
       jesti: [
-        { ime: "Injera s tibsom", opis: "U obiteljskim restoranima oko trga meso se prži pred vama i donosi u glinenoj posudi sa žarom." },
-        { ime: "Medovina", opis: "Lalibela je poznata po medu, a i ime kralja znači onaj kojega pčele prepoznaju. Tej se pije u malim kućnim točionicama uz glazbu." },
-        { ime: "Posna jela", opis: "U svetome gradu posni su dani osobito strogi, pa je izbor jela od leće i slanutka velik." }
+        { ime: "Injera with tibs", opis: "In the family restaurants around the square the meat is fried in front of you and brought in a clay dish with embers." },
+        { ime: "Honey wine", opis: "Lalibela is known for its honey, and even the king's name means the one the bees recognize. Tej is drunk in small house taverns with music." },
+        { ime: "Fasting dishes", opis: "In the holy town the fasting days are especially strict, so the choice of lentil and chickpea dishes is wide." }
       ],
       dozivjeti: [
-        { ime: "Jutarnja služba", opis: "Dođite u zoru, kada svećenici i đakoni u bijelome pjevaju uz bubnjeve i zvečke sistrume, naslonjeni na molitvene štapove jer služba traje satima. Glava se pokriva šalom, a cipele se izuvaju." },
-        { ime: "Etiopski Božić", opis: "Za blagdan Genna 7. siječnja u Lalibelu pješice dolaze deseci tisuća hodočasnika u bijelim ogrtačima i spavaju na otvorenom oko crkava." },
-        { ime: "Uspon do samostana Asheton Maryam", opis: "Strma staza vodi na više od 3000 metara do crkve u stijeni, s pogledom na cijelu visoravan." }
+        { ime: "The morning service", opis: "Come at dawn, when priests and deacons in white chant to drums and sistrum rattles, leaning on prayer sticks because the service lasts for hours. You cover your head with a shawl and take off your shoes." },
+        { ime: "Ethiopian Christmas", opis: "For the feast of Genna on January 7, tens of thousands of pilgrims in white robes come to Lalibela on foot and sleep in the open around the churches." },
+        { ime: "The climb to Asheton Maryam monastery", opis: "A steep trail leads up to more than 3,000 meters to a church in the rock, with a view over the whole plateau." }
       ],
       agencije: [
-        { ime: "Visit Ethiopia, Lalibela", opis: "Službena stranica odredišta. Lokalni licencirani vodiči uzimaju se na ulazu u kompleks crkava.", link: "https://www.visitethiopia.et/space/lalibela-1" },
-        { ime: "UNESCO, crkve u stijeni", opis: "Opis lokaliteta i stanja zaštite.", link: "https://whc.unesco.org/en/list/18" }
+        { ime: "Visit Ethiopia, Lalibela", opis: "The official destination page. Licensed local guides are hired at the entrance to the church complex.", link: "https://www.visitethiopia.et/space/lalibela-1" },
+        { ime: "UNESCO, Rock-Hewn Churches", opis: "A description of the site and its state of conservation.", link: "https://whc.unesco.org/en/list/18" }
       ],
-      kada: "Od listopada do ožujka je suho. Zbog sigurnosnog stanja u pokrajini Amhara putujte samo zrakoplovom i tek nakon što provjerite aktualne službene preporuke."
+      kada: "It is dry from October to March. Because of the security situation in the Amhara region, travel only by plane and only after you have checked the current official advice."
     },
     {
       id: "gondar",
       ime: "Gondar",
       vrsta: "grad",
-      sazetak: "Carski grad s kamenim dvorcima iz 17. stoljeća i crkvom čiji strop gleda stotinu anđela.",
+      sazetak: "An imperial city with stone castles from the 17th century and a church whose ceiling is watched over by a hundred angels.",
       prica: [
-        "Etiopski carevi stoljećima su se selili s dvorom pod šatorima. Car Fasilides odlučio je 1636. podići stalnu prijestolnicu, i Gondar je to ostao više od dvjesto godina.",
-        "U ograđenom carskom kompleksu svaki je sljedeći vladar sagradio vlastiti dvorac. U gradnji se vide portugalski, indijski i arapski utjecaji, jer su Portugalci prethodno pomogli Etiopiji u ratu, a majstori su stizali iz Indije. UNESCO je kompleks zaštitio 1979."
+        "For centuries the Ethiopian emperors moved around with their court under tents. In 1636 Emperor Fasilides decided to build a permanent capital, and Gondar remained one for more than two hundred years.",
+        "In the walled imperial compound each successive ruler built a castle of his own. Portuguese, Indian and Arab influences are visible in the architecture, because the Portuguese had earlier helped Ethiopia in a war and the craftsmen came from India. UNESCO protected the compound in 1979."
       ],
       vidjeti: [
-        { ime: "Fasil Ghebbi", opis: "Unutar zidina dugih gotovo kilometar stoji šest dvoraca. Najstariji, Fasilidesov, ima četiri okrugle kule s kupolama, a s krova se, kažu, za vedra dana vidi jezero Tana. Potražite i kaveze u kojima su se do 20. stoljeća držali abesinski lavovi, simbol carske vlasti." },
-        { ime: "Crkva Debre Berhan Selassie", opis: "Strop je oslikan s više od stotinu lica anđela krupnih očiju, od kojih svako gleda u malo drukčijem smjeru, pa vas pogled prati kamo god stali. Predaja kaže da je roj pčela otjerao sudansku vojsku koja je 1880-ih spalila ostale gradske crkve." },
-        { ime: "Fasilidesovo kupalište", opis: "Kamena kula stoji usred velikoga četvrtastog bazena, koji je veći dio godine prazan, a korijenje starih stabala obraslo je zid. Za Timkat se bazen napuni vodom, svećenik je blagoslovi i mnoštvo skače u nju." },
-        { ime: "Kompleks carice Mentewab", opis: "Na brdu iznad grada carica je u 18. stoljeću sagradila palaču i samostan Kuskuam. U kripti se u staklenoj škrinji čuvaju njezine kosti te kosti njezina sina i unuka." },
-        { ime: "Nacionalni park Simien", opis: "Sto kilometara sjeverno diže se gorje s liticama dubokima i više od tisuću metara, zaštićeno 1978. Ovdje pasu krda dželada, majmuna s crvenom mrljom u obliku pješčanog sata na prsima, kojima se može prići na nekoliko metara. Na strminama živi abesinski kozorog, kojega nema nigdje drugdje." }
+        { ime: "Fasil Ghebbi", opis: "Six castles stand inside walls almost a kilometer long. The oldest, that of Fasilides, has four round domed towers, and from the roof, they say, you can see Lake Tana on a clear day. Look also for the cages in which Abyssinian lions, the symbol of imperial power, were kept until the 20th century." },
+        { ime: "Debre Berhan Selassie Church", opis: "The ceiling is painted with more than a hundred faces of large-eyed angels, each looking in a slightly different direction, so the gaze follows you wherever you stand. Tradition says that a swarm of bees drove off the Sudanese army that burned the city's other churches in the 1880s." },
+        { ime: "Fasilides' Bath", opis: "A stone tower stands in the middle of a large rectangular pool, which is empty for most of the year, and the roots of old trees have overgrown the wall. For Timkat the pool is filled with water, a priest blesses it and the crowd jumps in." },
+        { ime: "Empress Mentewab's compound", opis: "On the hill above the city the empress built a palace and the Kuskuam monastery in the 18th century. In the crypt, a glass case holds her bones and those of her son and grandson." },
+        { ime: "Simien Mountains National Park", opis: "A hundred kilometers to the north rises a mountain range with cliffs more than a thousand meters deep, protected in 1978. Herds of geladas graze here, monkeys with a red hourglass-shaped patch on their chests, and you can get within a few meters of them. On the steep slopes lives the walia ibex, which is found nowhere else." }
       ],
       jesti: [
-        { ime: "Doro wat", opis: "Gondar je poznat po kuharicama, pa blagdansku piletinu u crvenom umaku kušajte upravo ovdje." },
-        { ime: "Tej u točionici", opis: "Medovina se pije u jednostavnim točionicama, a domaćin će pitati želite li slatku ili suhu, jaču." },
-        { ime: "Pivo Dashen", opis: "Lokalno pivo nosi ime najvišeg vrha Etiopije, Ras Dashena u gorju Simien." }
+        { ime: "Doro wat", opis: "Gondar is known for its women cooks, so this is the place to try the feast-day chicken in red sauce." },
+        { ime: "Tej in a tej house", opis: "Honey wine is drunk in simple taverns, and the host will ask whether you want it sweet or dry, which is stronger." },
+        { ime: "Dashen beer", opis: "The local beer is named after the highest peak in Ethiopia, Ras Dashen in the Simien Mountains." }
       ],
       dozivjeti: [
-        { ime: "Timkat", opis: "Gondar je najbolje mjesto u zemlji za doživjeti blagdan 19. siječnja. Smještaj rezervirajte mjesecima unaprijed." },
-        { ime: "Dan među dželadama", opis: "Na izletu u Simien sjednite u travu i gledajte kako mužjaci s dugom grivom pokazuju zube i zavrću gornju usnu, što je prijetnja suparniku, a ne vama. Obvezan je naoružani pratitelj iz parka.", link: "https://ewca.gov.et/" },
-        { ime: "Azmari bet", opis: "U malim glazbenim lokalima pjevač uz gusle masenko improvizira stihove o svakome gostu, a publika plješće i trese ramenima." }
+        { ime: "Timkat", opis: "Gondar is the best place in the country to experience the feast on January 19. Book your accommodation months in advance." },
+        { ime: "A day among the geladas", opis: "On a trip to the Simien Mountains, sit down in the grass and watch the long-maned males bare their teeth and flip back their upper lip, which is a threat to a rival and not to you. An armed scout from the park is mandatory.", link: "https://ewca.gov.et/" },
+        { ime: "Azmari bet", opis: "In small music venues a singer with a masenko fiddle improvises verses about every guest, while the audience claps and shakes its shoulders." }
       ],
       agencije: [
-        { ime: "Visit Ethiopia, Gondar", opis: "Službena stranica odredišta.", link: "https://www.visitethiopia.et/space/gondar-1" },
-        { ime: "Ethiopian Wildlife Conservation Authority", opis: "Državna uprava za zaštitu divljih životinja, nadležna za Nacionalni park Simien.", link: "https://ewca.gov.et/" }
+        { ime: "Visit Ethiopia, Gondar", opis: "The official destination page.", link: "https://www.visitethiopia.et/space/gondar-1" },
+        { ime: "Ethiopian Wildlife Conservation Authority", opis: "The state authority for wildlife protection, responsible for Simien Mountains National Park.", link: "https://ewca.gov.et/" }
       ],
-      kada: "Najljepše je od listopada do siječnja, kada je gorje nakon kiša zeleno. Prije puta provjerite sigurnosne preporuke za pokrajinu Amhara."
+      kada: "It is at its most beautiful from October to January, when the mountains are green after the rains. Check the security advice for the Amhara region before you travel."
     },
     {
       id: "aksum",
       ime: "Aksum",
       vrsta: "gradić",
-      sazetak: "Prijestolnica drevnoga carstva s granitnim obeliscima i kapelom za koju se vjeruje da čuva Kovčeg saveza.",
+      sazetak: "The capital of an ancient empire, with granite obelisks and a chapel believed to hold the Ark of the Covenant.",
       prica: [
-        "Od 1. do 7. stoljeća Aksum je bio središte kraljevstva koje je trgovalo bjelokošću i zlatom s Rimom, Perzijom i Indijom i kovalo vlastiti novac. Kralj Ezana primio je kršćanstvo oko 330. godine.",
-        "Prema etiopskom nacionalnom epu Kebra Nagast, kraljica od Sabe vladala je odavde, a njezin sin Menelik, kojega je imala s kraljem Salomonom, donio je iz Jeruzalema Kovčeg saveza. UNESCO je grad zaštitio 1980. Budući da leži u pokrajini Tigray, koja je od 2020. do 2022. bila zahvaćena ratom, posjet zahtijeva pažljivu provjeru."
+        "From the 1st to the 7th century Aksum was the center of a kingdom that traded ivory and gold with Rome, Persia and India and minted its own coins. King Ezana adopted Christianity around the year 330.",
+        "According to the Ethiopian national epic, the Kebra Nagast, the Queen of Sheba ruled from here, and her son Menelik, whom she had with King Solomon, brought the Ark of the Covenant from Jerusalem. UNESCO protected the town in 1980. Because it lies in the Tigray region, which was engulfed by war from 2020 to 2022, a visit calls for careful checking."
       ],
       vidjeti: [
-        { ime: "Polje stela", opis: "Granitni obelisci označavali su grobove vladara. Isklesani su tako da izgledaju kao višekatnice, s lažnim vratima u podnožju, čak i s uklesanom kvakom, i s redovima prozora. Najveća stela, duga 33 metra i teška oko 500 tona, leži razlomljena i vjerojatno se srušila već pri podizanju." },
-        { ime: "Vraćeni obelisk", opis: "Stelu visoku 24 metra Mussolinijevi su vojnici 1937. razrezali i odvezli u Rim, gdje je desetljećima stajala na trgu. Italija ju je vratila 2005., a ponovno je podignuta 2008. Na njoj se još vide spojevi triju dijelova." },
-        { ime: "Crkva svete Marije Sionske", opis: "Staru crkvu iz 17. stoljeća, u koju ulaze samo muškarci, i novu, koju je 1960-ih sagradio Haile Selassie, dijeli mala kapela s ogradom. U njoj se, prema vjerovanju, čuva Kovčeg saveza, a redovnik čuvar ne napušta je do smrti." },
-        { ime: "Ezanin kamen", opis: "Kamena ploča iz 4. stoljeća nosi isti natpis na tri jezika: geezu, sabejskom i grčkom. Kralj na njoj zahvaljuje Bogu na pobjedama, a natpis završava kletvom za onoga tko kamen pomakne." },
-        { ime: "Kupalište kraljice od Sabe", opis: "Veliki spremnik za vodu isklesan u stijeni mještani i danas rabe, a za Timkat se ovdje blagoslivlja voda. Arheolozi smatraju da je mlađi od kraljice, ali se ime zadržalo." }
+        { ime: "The Stelae Field", opis: "The granite obelisks marked the graves of rulers. They are carved to look like multistory buildings, with a false door at the base, complete with a carved door handle, and with rows of windows. The largest stela, 33 meters long and weighing about 500 tons, lies broken and probably collapsed while it was being raised." },
+        { ime: "The returned obelisk", opis: "In 1937 Mussolini's soldiers cut up a stela 24 meters high and hauled it off to Rome, where it stood on a square for decades. Italy returned it in 2005, and it was raised again in 2008. The joins between the three sections can still be seen on it." },
+        { ime: "Church of Our Lady Mary of Zion", opis: "Between the old 17th-century church, which only men may enter, and the new one built by Haile Selassie in the 1960s stands a small fenced chapel. According to belief it holds the Ark of the Covenant, and the guardian monk does not leave it until he dies." },
+        { ime: "The Ezana Stone", opis: "A stone slab from the 4th century bears the same inscription in three languages: Ge'ez, Sabaean and Greek. On it the king thanks God for his victories, and the inscription ends with a curse on anyone who moves the stone." },
+        { ime: "The Queen of Sheba's Bath", opis: "The large reservoir cut into the rock is still used by the locals today, and at Timkat the water is blessed here. Archaeologists believe it is more recent than the queen, but the name has stuck." }
       ],
       jesti: [
-        { ime: "Tihlo", opis: "Jelo pokrajine Tigray: kuglice od prženoga ječmenog brašna koje se drvenom vilicom umaču u ljuti umak od mesa." },
-        { ime: "Injera s medom", opis: "Tigray je poznat po bijelome medu, koji se za doručak jede s kruhom ambasha." },
-        { ime: "Pivo sewa", opis: "Domaće mutno pivo od ječma i lišća gesho, koje se pije na svečanostima." }
+        { ime: "Tihlo", opis: "A dish of the Tigray region: balls of roasted barley flour that you dip into a spicy meat sauce with a wooden fork." },
+        { ime: "Injera with honey", opis: "Tigray is known for its white honey, which is eaten for breakfast with ambasha bread." },
+        { ime: "Sewa beer", opis: "A cloudy homemade beer of barley and gesho leaves, drunk at celebrations." }
       ],
       dozivjeti: [
-        { ime: "Obilazak s lokalnim vodičem", opis: "Licencirani vodiči iz mjesne udruge objašnjavaju simboliku stela i vode u podzemne grobnice s golemim kamenim vratima." },
-        { ime: "Blagdan Marije Sionske", opis: "Krajem studenoga tisuće hodočasnika u bijelome okupljaju se oko crkve na jedan od najvećih blagdana u zemlji." },
-        { ime: "Arheološki muzej", opis: "Izloženi su aksumski zlatnici i srebrnjaci, staklo iz Sredozemlja i natpisi koji pokazuju koliko je daleko sezala trgovina." }
+        { ime: "A tour with a local guide", opis: "Licensed guides from the local association explain the symbolism of the stelae and take you into underground tombs with enormous stone doors." },
+        { ime: "The feast of Mary of Zion", opis: "In late November thousands of pilgrims in white gather around the church for one of the biggest feast days in the country." },
+        { ime: "The Archaeological Museum", opis: "On display are Aksumite gold and silver coins, glass from the Mediterranean and inscriptions that show how far the trade reached." }
       ],
       agencije: [
-        { ime: "Visit Ethiopia, Aksum", opis: "Službena stranica odredišta.", link: "https://www.visitethiopia.et/space/aksum" },
-        { ime: "UNESCO, Aksum", opis: "Opis lokaliteta i stanja zaštite.", link: "https://whc.unesco.org/en/list/15" }
+        { ime: "Visit Ethiopia, Aksum", opis: "The official destination page.", link: "https://www.visitethiopia.et/space/aksum" },
+        { ime: "UNESCO, Aksum", opis: "A description of the site and its state of conservation.", link: "https://whc.unesco.org/en/list/15" }
       ],
-      kada: "Suho je od listopada do ožujka. Prije planiranja provjerite lete li zrakoplovi do Aksuma i što o putovanju u Tigray kažu aktualne službene preporuke."
+      kada: "It is dry from October to March. Before you start planning, check whether planes are flying to Aksum and what the current official advice says about travel to Tigray."
     }
   ],
   izvori: [
     { ime: "Visit Ethiopia", url: "https://www.visitethiopia.et/" },
-    { ime: "UNESCO: Crkve u stijeni, Lalibela", url: "https://whc.unesco.org/en/list/18" },
+    { ime: "UNESCO: Rock-Hewn Churches, Lalibela", url: "https://whc.unesco.org/en/list/18" },
     { ime: "UNESCO: Fasil Ghebbi, Gondar", url: "https://whc.unesco.org/en/list/19" },
     { ime: "UNESCO: Aksum", url: "https://whc.unesco.org/en/list/15" },
-    { ime: "UNESCO: Nacionalni park Simien", url: "https://whc.unesco.org/en/list/9" },
+    { ime: "UNESCO: Simien National Park", url: "https://whc.unesco.org/en/list/9" },
     { ime: "Ethiopian Wildlife Conservation Authority", url: "https://ewca.gov.et/" },
     { ime: "Ethiopian Airlines", url: "https://www.ethiopianairlines.com/" }
   ]

@@ -1,168 +1,168 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["armenija"] = {
   id: "armenija",
-  ime: "Armenija",
-  regija: "Južna i Srednja Azija",
-  sazetak: "Prva kršćanska država na svijetu, zemlja kamenih samostana na rubovima klanaca, marelica i pogleda na Ararat.",
+  ime: "Armenia",
+  regija: "South and Central Asia",
+  sazetak: "The first Christian state in the world, a land of stone monasteries on the edges of gorges, of apricots and of views of Ararat.",
   uvod: [
-    "Armenija je mala planinska zemlja na južnom Kavkazu, bez izlaza na more, u kojoj je prosječna nadmorska visina veća od 1800 metara. Armenci je zovu Hajastan, a njihova je povijest mnogo veća od današnjih granica: stara Armenija sezala je od Kaspijskog jezera do Sredozemlja, a sveta planina Ararat, koja se vidi iz Erevana, danas je s druge strane turske granice.",
-    "Godine 301. kralj Trdat III. proglasio je kršćanstvo državnom vjerom, prvi na svijetu, a 405. redovnik Mesrop Maštoc stvorio je armensko pismo, kojim se piše i danas. Vjera i pismo održali su narod kroz stoljeća pod Perzijancima, Arapima, Turcima i Rusima, i kroz genocid 1915. godine, u kojem je u Osmanskom Carstvu stradalo oko milijun i pol Armenaca. Zato danas izvan Armenije živi više Armenaca nego u njoj.",
-    "Neovisna je od 1991. godine. Putnicama nudi samostane starije od većine europskih katedrala, kuhinju punu začinskog bilja i ljude koji će vas pitati odakle ste i odmah ponuditi kavu."
+    "Armenia is a small, landlocked mountain country in the South Caucasus, where the average elevation is more than 1,800 meters. Armenians call it Hayastan, and their history is far larger than today's borders: ancient Armenia reached from the Caspian Sea to the Mediterranean, and the sacred Mount Ararat, which can be seen from Yerevan, is now on the other side of the Turkish border.",
+    "In the year 301 King Tiridates III proclaimed Christianity the state religion, the first ruler in the world to do so, and in 405 the monk Mesrop Mashtots created the Armenian alphabet, which is still used today. Faith and script sustained the nation through centuries under Persians, Arabs, Turks and Russians, and through the genocide of 1915, in which about a million and a half Armenians perished in the Ottoman Empire. That is why more Armenians live outside Armenia today than in it.",
+    "It has been independent since 1991. It offers you monasteries older than most European cathedrals, a cuisine full of fresh herbs, and people who will ask where you are from and immediately offer you coffee."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Svibanj, lipanj, rujan i listopad. Ljeti je u Erevanu vruće, ali je na Sevanu i u Dilidžanu ugodno, a jesen donosi berbu grožđa i zlatne šume." },
-    { k: "Valuta", v: "Armenski dram (AMD). U Erevanu se gotovo svuda plaća karticom, a za sela, tržnice i minibuseve treba gotovina." },
-    { k: "Kretanje", v: "Zemlja je mala, pa se većina znamenitosti može obići jednodnevnim izletima iz Erevana, minibusom, taksijem preko aplikacije ili s vozačem. Erevan ima i jednu liniju metroa." },
-    { k: "Napojnica", v: "U restoranima se često doda deset posto za uslugu. Ako nije uračunato, toliko se i ostavlja." }
+    { k: "When to go", v: "May, June, September and October. In summer it is hot in Yerevan but pleasant at Sevan and in Dilijan, and fall brings the grape harvest and golden forests." },
+    { k: "Currency", v: "The Armenian dram (AMD). In Yerevan you can pay by card almost everywhere, and you need cash for villages, markets and minibuses." },
+    { k: "Getting around", v: "The country is small, so most of the sights can be visited on day trips from Yerevan, by minibus, by app-based taxi or with a driver. Yerevan also has one metro line." },
+    { k: "Tipping", v: "Restaurants often add ten percent for service. If it is not included, that is the amount people leave." }
   ],
   hrana: [
-    { ime: "Lavaš", opis: "Tanki beskvasni kruh pečen na stijenci ukopane glinene peći, tonira.", prica: "Peku ga žene, obično po dvije ili tri zajedno: jedna razvlači tijesto preko ruku, druga ga jastukom lijepi na vruću stijenku. UNESCO ga je 2014. upisao u nematerijalnu baštinu, a na svadbama se mladencima prebacuje preko ramena za blagostanje." },
-    { ime: "Horovac", opis: "Meso na žaru, najčešće svinjetina, janjetina ili piletina, pečeno na dugim ražnjevima.", prica: "To je više obred nego jelo i priprema se za svako okupljanje. Uz meso se peku cijeli patlidžani, paprike i rajčice, koji se zatim ogule i jedu umotani u lavaš." },
-    { ime: "Tolma", opis: "Listovi vinove loze ili povrće punjeni mljevenim mesom, rižom i začinskim biljem.", prica: "Postoji i posna inačica s lećom, slanutkom i grahom, koja se kuha za Novu godinu. U Armeniji se svake godine održava festival tolme, na kojem se kuhari natječu u desecima vrsta." },
-    { ime: "Harisa", opis: "Gusta kaša od pšenice i piletine ili janjetine, kuhana satima.", prica: "Vezana je uz obranu brda Musa Dagh 1915. godine, kada su se armenski seljaci četrdesetak dana odupirali opsadi, pa se u njihov spomen svakog rujna kuha u golemim kotlovima." },
-    { ime: "Haš", opis: "Bistra juha od goveđih nogu, kuhana cijelu noć, koja se jede rano ujutro.", prica: "Jede se samo u hladnim mjesecima, s puno češnjaka i sušenim lavašem koji se mrvi u tanjur. Običaj nalaže da se uz haš pije votka i da se toga dana više ništa ne radi." },
-    { ime: "Gapama", opis: "Bundeva punjena rižom, sušenim voćem, orasima i medom, pečena cijela.", prica: "Jelo je svadbi i blagdana, a posvećena mu je i vesela narodna pjesma koju zna svaki Armenac. Reže se za stolom na kriške poput dinje." },
-    { ime: "Gata", opis: "Slatki kruh ili kolač s nadjevom od maslaca, brašna i šećera.", prica: "Svako mjesto ima svoj oblik, a najpoznatija je velika okrugla gata s utisnutim ukrasima koju žene prodaju pred samostanom Geghard. U blagdansku se stavlja novčić, koji donosi sreću onome tko ga nađe." },
-    { ime: "Marelice", opis: "Voće koje je botanika po Armeniji nazvala Prunus armeniaca.", prica: "Narančasta pruga na državnoj zastavi tumači se i kao boja marelice. Od njezina se drva izrađuje duduk, narodno glazbalo meka i tužna zvuka." },
-    { ime: "Konjak i vino", opis: "Armenski vinjak, koji domaći zovu konjak, i crno vino sorte areni.", prica: "U špilji kraj sela Areni pronađena je vinarija stara oko 6100 godina, najstarija poznata na svijetu. Priča da je Churchill redovito pio armenski konjak rado se prepričava, iako je povjesničari smatraju legendom." }
+    { ime: "Lavash", opis: "A thin unleavened bread baked on the wall of a sunken clay oven, the tonir.", prica: "It is baked by women, usually two or three working together: one stretches the dough over her arms, and another uses a cushion to slap it onto the hot oven wall. UNESCO inscribed it as intangible heritage in 2014, and at weddings it is draped over the newlyweds' shoulders for prosperity." },
+    { ime: "Khorovats", opis: "Grilled meat, most often pork, lamb or chicken, cooked on long skewers.", prica: "It is more of a ritual than a dish and is prepared for every gathering. Whole eggplants, peppers and tomatoes are grilled alongside the meat, then peeled and eaten wrapped in lavash." },
+    { ime: "Tolma", opis: "Grape leaves or vegetables stuffed with ground meat, rice and herbs.", prica: "There is also a meatless version with lentils, chickpeas and beans, which is cooked for New Year. Every year Armenia holds a tolma festival, where cooks compete with dozens of varieties." },
+    { ime: "Harissa", opis: "A thick porridge of wheat and chicken or lamb, cooked for hours.", prica: "It is linked to the defense of Musa Dagh in 1915, when Armenian villagers held out against a siege for some forty days, so in their memory it is cooked in huge cauldrons every September." },
+    { ime: "Khash", opis: "A clear soup of cow's feet, simmered all night and eaten early in the morning.", prica: "It is eaten only in the cold months, with plenty of garlic and dried lavash crumbled into the bowl. Custom dictates that vodka is drunk with khash and that no more work is done that day." },
+    { ime: "Ghapama", opis: "A pumpkin stuffed with rice, dried fruit, walnuts and honey, baked whole.", prica: "It is a dish for weddings and holidays, and there is even a cheerful folk song devoted to it that every Armenian knows. It is cut into wedges at the table like a melon." },
+    { ime: "Gata", opis: "A sweet bread or pastry with a filling of butter, flour and sugar.", prica: "Every place has its own shape, and the best known is the large round gata with pressed-in decorations that women sell in front of Geghard Monastery. A coin is put into the holiday version, bringing luck to whoever finds it." },
+    { ime: "Apricots", opis: "The fruit that botany named Prunus armeniaca after Armenia.", prica: "The orange stripe on the national flag is also interpreted as the color of the apricot. Its wood is used to make the duduk, a folk instrument with a soft, mournful sound." },
+    { ime: "Cognac and wine", opis: "Armenian brandy, which locals call cognac, and red wine from the areni grape.", prica: "In a cave near the village of Areni, a winery about 6,100 years old was found, the oldest known in the world. The story that Churchill regularly drank Armenian cognac is retold with relish, although historians consider it a legend." }
   ],
   obicaji: [
-    { ime: "Vardavar", opis: "Ljetni blagdan na koji svatko svakoga smije politi vodom, i nitko se ne smije ljutiti. Danas se slavi kao crkveni blagdan Preobraženja, ali potječe iz poganskih vremena, kada se božici Astghik prinosila voda i ruže.", gdje: "Na ulicama Erevana i svih gradova, jedne nedjelje u srpnju, četrnaest tjedana nakon Uskrsa." },
-    { ime: "Hačkari", opis: "Kamene ploče s isklesanim križem iz kojega rastu listovi i pleteri, podizane za spas duše, u spomen na pobjedu ili gradnju mosta. Nema dva jednaka, a umijeće klesanja UNESCO je 2010. uvrstio u nematerijalnu baštinu.", gdje: "Na groblju Noratus kraj Sevana, u samostanima Goshavank i Geghard, a u Erevanu se klesari mogu vidjeti pri radu u radionicama na otvorenom." },
-    { ime: "Duduk", opis: "Puhaće glazbalo od marelična drva s velikim dvostrukim jezičkom, čiji je zvuk nalik ljudskom glasu. Obično sviraju dvojica: jedan melodiju, a drugi neprekidni ležeći ton.", gdje: "Na koncertima u Erevanu, u nekim restoranima s narodnom glazbom i na ulici oko tržnice Vernissage." },
-    { ime: "Zdravice", opis: "Za armenskim stolom zdravice vodi tamada i svaka ima svoj red: za susret, roditelje, djecu, one kojih više nema. Kaže se genac, što znači za život.", gdje: "Za svakim obiteljskim stolom, osobito na selu, gdje će vas rado pozvati." },
-    { ime: "Sagovi", opis: "Armenski sagovi tkaju se dvostrukim čvorom, a u uzorcima se ponavljaju zmajevi, orlovi i križevi. Najstariji sačuvani sag na svijetu, pronađen u Sibiru, neki stručnjaci pripisuju upravo armenskim tkalcima, iako o tome nema suglasja.", gdje: "U erevanskim radionicama u kojima se tkalje mogu gledati pri radu i na tržnici Vernissage, vikendom." },
-    { ime: "Dan sjećanja", opis: "Svakog 24. travnja Armenci se sjećaju žrtava genocida 1915. godine. Stotine tisuća ljudi u tišini hodaju do spomenika i polažu cvijet uz vječnu vatru.", gdje: "Na brdu Cicernakaberd u Erevanu." }
+    { ime: "Vardavar", opis: "A summer holiday on which anyone may douse anyone else with water, and nobody is allowed to get angry. Today it is celebrated as the church feast of the Transfiguration, but it goes back to pagan times, when water and roses were offered to the goddess Astghik.", gdje: "On the streets of Yerevan and every town, on a Sunday in July, fourteen weeks after Easter." },
+    { ime: "Khachkars", opis: "Stone slabs carved with a cross from which leaves and interlace grow, raised for the salvation of a soul, in memory of a victory or to mark the building of a bridge. No two are alike, and UNESCO added the art of carving them to its intangible heritage list in 2010.", gdje: "At the Noratus cemetery near Sevan and in the Goshavank and Geghard monasteries, and in Yerevan you can watch stone carvers at work in open-air workshops." },
+    { ime: "Duduk", opis: "A wind instrument of apricot wood with a large double reed, whose sound resembles the human voice. It is usually played by two musicians: one plays the melody and the other a continuous drone.", gdje: "At concerts in Yerevan, in some restaurants with folk music and on the street around the Vernissage market." },
+    { ime: "Toasts", opis: "At an Armenian table the toasts are led by the tamada, and each has its turn: to the gathering, to parents, to children, to those who are no longer with us. The word is genats, which means to life.", gdje: "At every family table, especially in the countryside, where people will gladly invite you in." },
+    { ime: "Carpets", opis: "Armenian carpets are woven with a double knot, and dragons, eagles and crosses recur in the patterns. The oldest surviving carpet in the world, found in Siberia, is attributed by some experts to Armenian weavers, although there is no consensus on that.", gdje: "In Yerevan workshops where you can watch the weavers at work, and at the Vernissage market on weekends." },
+    { ime: "Remembrance Day", opis: "Every April 24 Armenians remember the victims of the 1915 genocide. Hundreds of thousands of people walk in silence to the memorial and lay a flower beside the eternal flame.", gdje: "On Tsitsernakaberd hill in Yerevan." }
   ],
   fraze: [
-    { izvorno: "Barev dzez", izgovor: "ba-REV dzez", hr: "Dobar dan" },
-    { izvorno: "Shnorhakalutyun", izgovor: "šnor-ha-ka-lu-TJUN", hr: "Hvala (u svakodnevnom govoru često i samo: merci)" },
-    { izvorno: "Ayo / Voch", izgovor: "a-JO / VOČ", hr: "Da / Ne" },
-    { izvorno: "Khndrum em", izgovor: "hn-DRUM em", hr: "Molim" },
-    { izvorno: "Inch arzhe?", izgovor: "inč ar-ŽE", hr: "Koliko košta?" },
-    { izvorno: "Neretsek", izgovor: "ne-re-CEK", hr: "Oprostite" },
-    { izvorno: "Shat hamegh e", izgovor: "šat ha-MEG e", hr: "Jako je ukusno" },
-    { izvorno: "Kenats!", izgovor: "ge-NAC", hr: "Živjeli!" }
+    { izvorno: "Barev dzez", izgovor: "bah-REV dzez", hr: "Hello" },
+    { izvorno: "Shnorhakalutyun", izgovor: "shnor-hah-kah-loo-TYOON", hr: "Thank you (in everyday speech often simply: merci)" },
+    { izvorno: "Ayo / Voch", izgovor: "ah-YO / VOCH", hr: "Yes / No" },
+    { izvorno: "Khndrum em", izgovor: "khn-DROOM em", hr: "Please" },
+    { izvorno: "Inch arzhe?", izgovor: "inch ar-ZHEH", hr: "How much does it cost?" },
+    { izvorno: "Neretsek", izgovor: "neh-reh-TSEK", hr: "Excuse me, sorry" },
+    { izvorno: "Shat hamegh e", izgovor: "shaht hah-MEGH eh", hr: "It is very tasty" },
+    { izvorno: "Kenats!", izgovor: "geh-NATS", hr: "Cheers!" }
   ],
   zanimljivosti: [
-    "Erevan je osnovan 782. godine prije Krista, pa je dvadeset i devet godina stariji od Rima.",
-    "U špilji Areni pronađena je kožna cipela stara oko 5500 godina, najstarija sačuvana na svijetu, koja se čuva u Povijesnom muzeju u Erevanu.",
-    "Šah je u armenskim osnovnim školama obvezan predmet od 2011. godine.",
-    "Armensko pismo izvorno je imalo trideset i šest slova, a slova su služila i kao brojke.",
-    "Ararat, na kojem se prema Bibliji zaustavila Noina arka, nalazi se na armenskom grbu, iako leži u Turskoj.",
-    "Erevan zovu ružičastim gradom jer je sagrađen od vulkanskog kamena tufa, koji mijenja boju od ružičaste do narančaste, ovisno o dobu dana.",
-    "Prema procjenama, u Armeniji živi oko tri milijuna ljudi, a u dijaspori još najmanje dvostruko toliko."
+    "Yerevan was founded in 782 BC, which makes it twenty-nine years older than Rome.",
+    "A leather shoe about 5,500 years old was found in the Areni cave, the oldest surviving shoe in the world, and it is kept in the History Museum in Yerevan.",
+    "Chess has been a compulsory subject in Armenian primary schools since 2011.",
+    "The Armenian alphabet originally had thirty-six letters, and the letters also served as numerals.",
+    "Ararat, where according to the Bible Noah's Ark came to rest, appears on the Armenian coat of arms even though it lies in Turkey.",
+    "Yerevan is called the pink city because it is built of the volcanic stone tuff, which changes color from pink to orange depending on the time of day.",
+    "By current estimates, about three million people live in Armenia, with at least twice as many again in the diaspora."
   ],
   mjesta: [
     {
       id: "erevan",
-      ime: "Erevan",
+      ime: "Yerevan",
       vrsta: "grad",
-      sazetak: "Ružičasta prijestolnica kavana i fontana, starija od Rima, nad kojom za vedra dana lebdi snježni Ararat.",
+      sazetak: "A pink capital of cafés and fountains, older than Rome, with snowy Ararat floating above it on a clear day.",
       prica: [
-        "Erevan vuče ime od tvrđave Erebuni, koju je 782. godine prije Krista podigao urartski kralj Argišti I. i o tome ostavio klinopisnu ploču, pa grad ima i svoj rodni list. Ipak, do 20. stoljeća bio je provincijsko mjesto od blata i vrtova.",
-        "Današnji izgled dao mu je arhitekt Aleksandar Tamanjan, koji je 1924. godine nacrtao kružni plan s osima usmjerenima prema Araratu i odredio da se gradi od ružičastog tufa. Grad je živ do kasno u noć, a ljeti se cijeli život seli na terase i u parkove."
+        "Yerevan takes its name from the fortress of Erebuni, raised in 782 BC by the Urartian king Argishti I, who left a cuneiform tablet recording it, so the city even has its own birth certificate. Even so, until the 20th century it was a provincial town of mud brick and gardens.",
+        "Its present appearance was given to it by the architect Alexander Tamanian, who in 1924 drew a circular plan with axes pointing toward Ararat and specified that it be built of pink tuff. The city is lively until late at night, and in summer all of life moves out onto terraces and into the parks."
       ],
       vidjeti: [
-        { ime: "Trg Republike", opis: "Ovalni trg okružen zgradama od ružičastog i žutog tufa, čiji uzorak pločnika iz zraka izgleda kao armenski sag. Od proljeća do jeseni fontane pred Povijesnim muzejem navečer plešu uz glazbu." },
-        { ime: "Kaskada", opis: "Golemo stubište od vapnenca s 572 stube, vrtovima i fontanama, koje spaja središte s gornjim dijelom grada. U njegovoj je unutrašnjosti Centar za umjetnost Cafesjian s pokretnim stubama, a pri dnu stoji Boterov debeli mačak. S vrha se za vedra jutra vidi Ararat." },
-        { ime: "Matenadaran", opis: "Institut i muzej starih rukopisa, jedan od najbogatijih na svijetu, s kipom Mesropa Maštoca pred ulazom. Izložene su najveća armenska knjiga, teška oko dvadeset i osam kilograma, za čije je listove trebalo više stotina telećih koža, i najmanja, kalendar lakši od dvadeset grama." },
-        { ime: "Cicernakaberd", opis: "Spomenik žrtvama genocida iz 1967. godine: dvanaest nagnutih kamenih ploča oko vječne vatre i šiljak visok četrdeset i četiri metra. Podzemni muzej dokumentima i fotografijama pripovijeda što se 1915. dogodilo." },
-        { ime: "Ečmiadzin i Zvartnoc", opis: "Dvadesetak kilometara od grada nalazi se sjedište Armenske apostolske crkve, s katedralom utemeljenom početkom 4. stoljeća, koja se smatra najstarijom na svijetu. Na putu su ruševine kružne crkve Zvartnoc iz 7. stoljeća, s kapitelima u obliku orlova." },
-        { ime: "Hor Virap", opis: "Samostan na brežuljku tik uz tursku granicu, s najbližim pogledom na Ararat. Ljestvama se može spustiti u jamu u kojoj je, prema predaji, sveti Grgur Prosvjetitelj bio zatočen trinaest godina prije nego što je pokrstio kralja." }
+        { ime: "Republic Square", opis: "An oval square surrounded by buildings of pink and yellow tuff, whose paving pattern looks like an Armenian carpet from the air. From spring to fall the fountains in front of the History Museum dance to music in the evenings." },
+        { ime: "Cascade", opis: "A giant limestone stairway with 572 steps, gardens and fountains, linking the center with the upper part of the city. Inside it is the Cafesjian Center for the Arts, with escalators, and at the bottom stands Botero's fat cat. From the top you can see Ararat on a clear morning." },
+        { ime: "Matenadaran", opis: "An institute and museum of ancient manuscripts, one of the richest in the world, with a statue of Mesrop Mashtots in front of the entrance. On display are the largest Armenian book, weighing about twenty-eight kilograms, whose pages took several hundred calfskins, and the smallest, a calendar weighing under twenty grams." },
+        { ime: "Tsitsernakaberd", opis: "The memorial to the victims of the genocide, from 1967: twelve leaning stone slabs around an eternal flame and a spire forty-four meters tall. The underground museum uses documents and photographs to tell what happened in 1915." },
+        { ime: "Etchmiadzin and Zvartnots", opis: "About twenty kilometers from the city is the seat of the Armenian Apostolic Church, with a cathedral founded at the beginning of the 4th century, considered the oldest in the world. On the way are the ruins of the 7th-century circular church of Zvartnots, with capitals in the shape of eagles." },
+        { ime: "Khor Virap", opis: "A monastery on a hillock right beside the Turkish border, with the closest view of Ararat. You can climb down a ladder into the pit where, according to tradition, Saint Gregory the Illuminator was imprisoned for thirteen years before he baptized the king." }
       ],
       jesti: [
-        { ime: "Horovac", opis: "U gradu postoji cijela ulica roštiljarnica, gdje se meso peče pred gostima i donosi umotano u lavaš." },
-        { ime: "Žingjalov hac", opis: "Tanki kruh punjen s desetak ili više vrsta sitno sjeckanog samoniklog i vrtnog bilja, podrijetlom iz Arcaha, pečen na ploči." },
-        { ime: "Armenska kava", opis: "Kuha se u džezvi, koja se ovdje zove surdž, i pije u kavanama oko Opere, uz komad gate." }
+        { ime: "Khorovats", opis: "The city has an entire street of grill houses, where the meat is cooked in front of the guests and brought to the table wrapped in lavash." },
+        { ime: "Zhingyalov hats", opis: "A thin flatbread filled with ten or more kinds of finely chopped wild and garden herbs, originally from Artsakh, cooked on a griddle." },
+        { ime: "Armenian coffee", opis: "It is brewed in a small long-handled pot, which is called a surj here, and drunk in the cafés around the Opera with a piece of gata." }
       ],
       dozivjeti: [
-        { ime: "Besplatna pješačka tura", opis: "Ako želite u nekoliko sati dobiti pregled grada i njegovih priča, pridružite se šetnji s lokalnim vodičem kroz središte, koja se plaća napojnicom.", link: "https://yerevanfreewalkingtours.com/" },
-        { ime: "Tržnica Vernissage", opis: "Vikendom se kraj Trga Republike prodaju sagovi, srebrni nakit, šahovske ploče od opsidijana, duduci i stare knjige, a dio je otvoren i radnim danom." },
-        { ime: "Muzej u Kaskadi", opis: "Centar Cafesjian izlaže suvremenu umjetnost i staklo, a vožnja pokretnim stubama kroz galerije ugodna je zamjena za penjanje po suncu.", link: "https://www.cmf.am/en" }
+        { ime: "A free walking tour", opis: "If you want an overview of the city and its stories in a few hours, join a walk through the center with a local guide, which you pay for with a tip.", link: "https://yerevanfreewalkingtours.com/" },
+        { ime: "Vernissage market", opis: "On weekends, carpets, silver jewelry, obsidian chessboards, duduks and old books are sold near Republic Square, and part of it is open on weekdays too." },
+        { ime: "The museum in the Cascade", opis: "The Cafesjian Center exhibits contemporary art and glass, and riding the escalators through the galleries is a pleasant alternative to climbing in the sun.", link: "https://www.cmf.am/en" }
       ],
       agencije: [
-        { ime: "Armenia Travel", opis: "Službeni nacionalni turistički portal.", link: "https://armenia.travel/" },
-        { ime: "Yerevan Free Walking Tours", opis: "Lokalni vodiči koji vode svakodnevne šetnje središtem grada.", link: "https://yerevanfreewalkingtours.com/" },
-        { ime: "Hyur Service", opis: "Veliki armenski organizator putovanja, poznat po svakodnevnim skupnim izletima iz Erevana s vodičem.", link: "https://hyurservice.com/en" }
+        { ime: "Armenia Travel", opis: "The official national tourism portal.", link: "https://armenia.travel/" },
+        { ime: "Yerevan Free Walking Tours", opis: "Local guides who lead daily walks through the city center.", link: "https://yerevanfreewalkingtours.com/" },
+        { ime: "Hyur Service", opis: "A large Armenian tour operator, known for its daily guided group excursions from Yerevan.", link: "https://hyurservice.com/en" }
       ],
-      kada: "Svibanj, lipanj, rujan i listopad. Ararat se najbolje vidi rano ujutro u jesen i zimi, a ljeti se često skriva u izmaglici."
+      kada: "May, June, September and October. Ararat is best seen early in the morning in fall and winter, and in summer it often hides in the haze."
     },
     {
       id: "garni-geghard",
-      ime: "Garni i Geghard",
+      ime: "Garni and Geghard",
       vrsta: "regija",
-      sazetak: "Rimski hram nad klancem bazaltnih orgulja i samostan uklesan u stijenu, sat vožnje od Erevana.",
+      sazetak: "A Roman temple above a gorge of basalt organ pipes and a monastery carved into the rock, an hour's drive from Yerevan.",
       prica: [
-        "Dolina rijeke Azat istočno od Erevana čuva dva lica armenske povijesti jedno do drugoga. Garni je bio ljetna rezidencija armenskih kraljeva, s hramom iz 1. stoljeća, posvećenim, kako se vjeruje, bogu sunca Mihru.",
-        "Desetak kilometara uzvodno, gdje se klanac sužava, nalazi se Geghard, samostan koji je prema predaji u 4. stoljeću osnovao sveti Grgur Prosvjetitelj kraj izvora u špilji. Ime znači koplje, po koplju kojim je proboden Krist i koje se ovdje stoljećima čuvalo, a danas je u riznici u Ečmiadzinu."
+        "The valley of the Azat river east of Yerevan keeps two faces of Armenian history side by side. Garni was the summer residence of the Armenian kings, with a temple from the 1st century dedicated, it is believed, to the sun god Mihr.",
+        "About ten kilometers upstream, where the gorge narrows, is Geghard, a monastery that according to tradition was founded in the 4th century by Saint Gregory the Illuminator beside a spring in a cave. The name means spear, after the spear that pierced Christ, which was kept here for centuries and is now in the treasury at Etchmiadzin."
       ],
       vidjeti: [
-        { ime: "Hram Garni", opis: "Jedini sačuvani hram s kolonadom u grčko-rimskom stilu na području bivšeg Sovjetskog Saveza, s dvadeset i četiri jonska stupa. Srušio se u potresu 1679. godine, a sedamdesetih godina 20. stoljeća ponovno je složen od izvornih blokova, pa se novi dijelovi razlikuju po tome što nemaju ukrasa." },
-        { ime: "Rimsko kupalište", opis: "Kraj hrama su ostaci kupelji s podnim mozaikom na kojem su morska božanstva i ribe. Uz njega stoji grčki natpis koji se prevodi kao „radili smo, a ništa nismo dobili“, vjerojatno gorka primjedba majstora." },
-        { ime: "Simfonija kamenja", opis: "U klancu ispod Garnija stijene čine tisuće pravilnih šesterokutnih bazaltnih stupova, koji vise nad rijekom poput cijevi golemih orgulja. Nastali su polaganim hlađenjem lave." },
-        { ime: "Samostan Geghard", opis: "Glavna crkva potječe iz 1215. godine, a iza nje su u 13. stoljeću dvije crkve i grobnica isklesane ravno u stijeni, odozgo prema dolje, kroz otvor u stropu. U grobnici potražite grb kneževske obitelji Prošjan: dva lava na lancu i orla s janjetom u pandžama." },
-        { ime: "Charentsov luk", opis: "Kameni luk uz cestu, postavljen tako da za vedra dana uokviruje Ararat. Nosi stihove pjesnika Jegišea Čarenca o tome da na svijetu nema vrha nalik Araratovu." }
+        { ime: "Garni Temple", opis: "The only surviving colonnaded temple in the Greco-Roman style in the territory of the former Soviet Union, with twenty-four Ionic columns. It collapsed in the earthquake of 1679, and in the 1970s it was reassembled from the original blocks, so the new parts can be told apart by their lack of decoration." },
+        { ime: "Roman bathhouse", opis: "Beside the temple are the remains of a bath with a floor mosaic of sea deities and fish. Next to it is a Greek inscription that translates as “we worked, but got nothing”, probably a bitter remark by the craftsmen." },
+        { ime: "Symphony of Stones", opis: "In the gorge below Garni the cliffs are made up of thousands of regular hexagonal basalt columns, hanging over the river like the pipes of a giant organ. They were formed by the slow cooling of lava." },
+        { ime: "Geghard Monastery", opis: "The main church dates from 1215, and behind it, in the 13th century, two churches and a tomb were carved straight into the rock, from the top down, through an opening in the ceiling. In the tomb, look for the coat of arms of the princely Proshian family: two lions on a chain and an eagle with a lamb in its talons." },
+        { ime: "Charents Arch", opis: "A stone arch beside the road, placed so that on a clear day it frames Ararat. It bears lines by the poet Yeghishe Charents saying that there is no peak in the world like Ararat's." }
       ],
       jesti: [
-        { ime: "Gata iz Gegharda", opis: "Veliki okrugli slatki kruhovi s utisnutim uzorcima, koje žene prodaju uz cestu pred samostanom." },
-        { ime: "Slatki sudžuk", opis: "Orasi nanizani na konac i umočeni u zgusnuti sok od grožđa sa začinima, armenska inačica gruzijske čurčhele." },
-        { ime: "Lavaš ravno iz tonira", opis: "U selu Garni domaćinstva peku lavaš pred gostima i poslužuju ga toplog, sa sirom i začinskim biljem." }
+        { ime: "Gata from Geghard", opis: "Large round sweet breads with pressed-in patterns, sold by women along the road in front of the monastery." },
+        { ime: "Sweet sujukh", opis: "Walnuts threaded on a string and dipped in thickened, spiced grape juice, the Armenian version of Georgian churchkhela." },
+        { ime: "Lavash straight from the tonir", opis: "In the village of Garni, households bake lavash in front of their guests and serve it warm, with cheese and herbs." }
       ],
       dozivjeti: [
-        { ime: "Pjevanje u stijeni", opis: "Ako želite čuti zašto su redovnici klesali crkve u brdu, stanite u gornju grobnu dvoranu Gegharda i tiho zapjevajte jedan ton. Jeka traje nekoliko sekundi, a ponekad ovdje nastupaju i vokalni sastavi." },
-        { ime: "Šetnja klancem Azat", opis: "Iz sela Garni spušta se cesta do rijeke, pa se uz bazaltne stupove može hodati pola sata u jednom smjeru. Tko ne želi pješice, mještani voze starim terencima." },
-        { ime: "Pješačenje do samostana Havuts Tar", opis: "Označena staza kroz rezervat Hosrov vodi od Garnija do ruševina samostana iz 11. stoljeća na rubu klanca. Opis i karta dostupni su u aplikaciji i na stranicama udruge HIKEArmenia.", link: "https://hikearmenia.org/" }
+        { ime: "Singing in the rock", opis: "If you want to hear why the monks carved churches into the mountain, stand in the upper burial chamber of Geghard and quietly sing a single note. The echo lasts several seconds, and vocal ensembles sometimes perform here too." },
+        { ime: "A walk in the Azat gorge", opis: "A road runs down from the village of Garni to the river, and you can walk along the basalt columns for half an hour in one direction. If you would rather not walk, locals drive visitors in old off-road vehicles." },
+        { ime: "The hike to Havuts Tar Monastery", opis: "A marked trail through the Khosrov reserve leads from Garni to the ruins of an 11th-century monastery on the edge of the gorge. A description and map are available in the app and on the website of the organization HIKEArmenia.", link: "https://hikearmenia.org/" }
       ],
       agencije: [
-        { ime: "Armenia Travel", opis: "Službeni nacionalni turistički portal.", link: "https://armenia.travel/" },
-        { ime: "Hyur Service", opis: "Organizator svakodnevnih skupnih izleta iz Erevana u Garni i Geghard.", link: "https://hyurservice.com/en" },
-        { ime: "HIKEArmenia", opis: "Neprofitna udruga s besplatnim kartama staza i popisom lokalnih vodiča.", link: "https://hikearmenia.org/" }
+        { ime: "Armenia Travel", opis: "The official national tourism portal.", link: "https://armenia.travel/" },
+        { ime: "Hyur Service", opis: "An organizer of daily group excursions from Yerevan to Garni and Geghard.", link: "https://hyurservice.com/en" },
+        { ime: "HIKEArmenia", opis: "A nonprofit organization with free trail maps and a list of local guides.", link: "https://hikearmenia.org/" }
       ],
-      kada: "Od travnja do listopada. Dođite prijepodne, prije izletničkih autobusa, a u Geghard ponesite nešto za ramena jer je u stijeni hladno i ljeti."
+      kada: "From April to October. Come in the morning, before the tour buses, and bring something for your shoulders to Geghard, because it is cold inside the rock even in summer."
     },
     {
       id: "sevan-dilidzan",
-      ime: "Sevan i Dilidžan",
+      ime: "Sevan and Dilijan",
       vrsta: "regija",
-      sazetak: "Veliko planinsko jezero zvano armenskim morem i šumoviti gradić drvenih balkona, koji domaći zovu armenskom Švicarskom.",
+      sazetak: "A great mountain lake known as the Armenian sea and a small wooded town of wooden balconies that locals call the Armenian Switzerland.",
       prica: [
-        "Sevan leži na 1900 metara i zauzima gotovo šestinu površine zemlje, pa je Armencima, koji nemaju more, mjesto ljetovanja. U sovjetsko doba voda se toliko crpila za navodnjavanje i struju da je razina pala za oko dvadeset metara, a otok sa samostanom postao je poluotok.",
-        "Čim se cesta od jezera spusti kroz tunel, goli se krajolik pretvara u gustu bukovu i hrastovu šumu Dilidžana. Gradić je u sovjetsko doba bio lječilište i utočište skladatelja i slikara, a danas je središte nacionalnog parka i polazište najljepših pješačkih staza u zemlji."
+        "Sevan lies at 1,900 meters and covers almost a sixth of the country's area, so for Armenians, who have no sea, it is the place for summer vacations. In Soviet times so much water was drawn off for irrigation and electricity that the level fell by about twenty meters, and the island with the monastery became a peninsula.",
+        "As soon as the road from the lake drops through a tunnel, the bare landscape turns into the dense beech and oak forest of Dilijan. In Soviet times the little town was a health resort and a retreat for composers and painters, and today it is the heart of a national park and the starting point for the most beautiful hiking trails in the country."
       ],
       vidjeti: [
-        { ime: "Sevanavank", opis: "Dvije male crkve od crnog tufa na vrhu poluotoka, koje je 874. godine dala podići princeza Mariam. Predaja kaže da se nakon muževe smrti zavjetovala sagraditi trideset crkava. Do njih vodi oko dvjesto stuba, a pogled obuhvaća cijelo jezero." },
-        { ime: "Groblje Noratus", opis: "Najveće sačuvano polje hačkara, s nekoliko stotina kamenih križeva od 10. do 17. stoljeća. Legenda kaže da su seljaci pred Timurovom vojskom na hačkare stavili kacige i naslonili mačeve, pa su se napadači, misleći da je to vojska, povukli." },
-        { ime: "Stari Dilidžan", opis: "Obnovljena ulica Šarambejan s kućama od kamena i izrezbarenim drvenim balkonima, u kojima rade lončari, rezbari i tkalje. Pokazuje kako je gradić izgledao u 19. stoljeću." },
-        { ime: "Samostan Haghartsin", opis: "Skupina crkava od 10. do 13. stoljeća u šumovitoj dolini. U blagovaonici potražite križno-rebrasti svod koji počiva na samo dva stupa, a kraj nje ostatke golemog oraha starog nekoliko stoljeća." },
-        { ime: "Samostan Goshavank", opis: "Osnovao ga je krajem 12. stoljeća Mhitar Goš, autor prvog armenskog zbornika zakona. Pred crkvom stoji hačkar iz 1291. godine, isklesan tako sitno da ga zovu vezenim, jer kamen izgleda kao čipka." }
+        { ime: "Sevanavank", opis: "Two small churches of black tuff at the top of the peninsula, built in 874 at the behest of Princess Mariam. Tradition says that after her husband's death she vowed to build thirty churches. About two hundred steps lead up to them, and the view takes in the whole lake." },
+        { ime: "Noratus cemetery", opis: "The largest surviving field of khachkars, with several hundred stone crosses from the 10th to the 17th century. Legend has it that, faced with Timur's army, the villagers put helmets on the khachkars and leaned swords against them, so the attackers, thinking it was an army, withdrew." },
+        { ime: "Old Dilijan", opis: "The restored Sharambeyan Street, with stone houses and carved wooden balconies, where potters, woodcarvers and weavers work. It shows what the town looked like in the 19th century." },
+        { ime: "Haghartsin Monastery", opis: "A group of churches from the 10th to the 13th century in a wooded valley. In the refectory, look for the cross-ribbed vault that rests on only two columns, and next to it the remains of a huge walnut tree several centuries old." },
+        { ime: "Goshavank Monastery", opis: "It was founded at the end of the 12th century by Mkhitar Gosh, the author of the first Armenian code of laws. In front of the church stands a khachkar from 1291, carved so finely that it is called the embroidered one, because the stone looks like lace." }
       ],
       jesti: [
-        { ime: "Riba iz Sevana", opis: "Pastrva išhan, čije ime znači knez, zaštićena je u divljini, pa se poslužuje uzgojena, kao i bijela riba sig, pečena na žaru ili dimljena." },
-        { ime: "Ražnjići od riječnih rakova", opis: "Repovi rakova iz jezera, nanizani i pečeni na žaru, specijalitet restorana uz obalu." },
-        { ime: "Šumske gljive i bobice", opis: "U Dilidžanu se u sezoni poslužuju gljive s jajima i pekmezi od šumskog voća, uz čaj od majčine dušice." }
+        { ime: "Fish from Sevan", opis: "The ishkhan trout, whose name means prince, is protected in the wild, so it is served farmed, as is the whitefish sig, grilled or smoked." },
+        { ime: "Crayfish skewers", opis: "Tails of crayfish from the lake, skewered and grilled, are a specialty of the restaurants along the shore." },
+        { ime: "Forest mushrooms and berries", opis: "In Dilijan, mushrooms with eggs and jams made from forest fruit are served in season, with wild thyme tea." }
       ],
       dozivjeti: [
-        { ime: "Staze nacionalnog parka Dilidžan", opis: "Ako želite šumu samo za sebe, krenite označenom stazom od jezera Parz do Goshavanka, dugom oko sedam kilometara. Dio je Transkavkaskog puta, a karte se besplatno preuzimaju.", link: "https://hikearmenia.org/" },
-        { ime: "Radionice u Starom Dilidžanu", opis: "U ulici Šarambejan može se sjesti za lončarsko kolo ili kupiti rezbarija izravno od majstora." },
-        { ime: "Kupanje i plaže na Sevanu", opis: "U srpnju i kolovozu voda dosegne dvadesetak stupnjeva, a na uređenim plažama sjeverne obale iznajmljuju se pedaline i daske." }
+        { ime: "The trails of Dilijan National Park", opis: "If you want the forest all to yourselves, set off on the marked trail from Lake Parz to Goshavank, which is about seven kilometers long. It is part of the Transcaucasian Trail, and the maps can be downloaded for free.", link: "https://hikearmenia.org/" },
+        { ime: "Workshops in Old Dilijan", opis: "On Sharambeyan Street you can sit down at a potter's wheel or buy a carving directly from the craftsman." },
+        { ime: "Swimming and beaches at Sevan", opis: "In July and August the water reaches about twenty degrees, and pedal boats and boards can be rented on the managed beaches of the northern shore." }
       ],
       agencije: [
-        { ime: "Armenia Travel", opis: "Službeni nacionalni turistički portal.", link: "https://armenia.travel/" },
-        { ime: "HIKEArmenia", opis: "Besplatne karte staza u nacionalnom parku Dilidžan i popis vodiča.", link: "https://hikearmenia.org/" },
-        { ime: "Transcaucasian Trail", opis: "Udruga koja gradi dugu pješačku stazu preko Kavkaza, s dionicom kroz Dilidžan.", link: "https://transcaucasiantrail.org/en/home-2/" }
+        { ime: "Armenia Travel", opis: "The official national tourism portal.", link: "https://armenia.travel/" },
+        { ime: "HIKEArmenia", opis: "Free trail maps for Dilijan National Park and a list of guides.", link: "https://hikearmenia.org/" },
+        { ime: "Transcaucasian Trail", opis: "An organization building a long-distance hiking trail across the Caucasus, with a section through Dilijan.", link: "https://transcaucasiantrail.org/en/home-2/" }
       ],
-      kada: "Od lipnja do rujna za jezero, a kraj rujna i listopad za jesenske boje u šumama Dilidžana. Na Sevanu i ljeti puše svjež vjetar, pa ponesite vestu."
+      kada: "From June to September for the lake, and late September and October for the fall colors in the forests of Dilijan. A cool wind blows at Sevan even in summer, so bring a sweater."
     }
   ],
   izvori: [
-    { ime: "Armenia Travel, službeni turistički portal", url: "https://armenia.travel/" },
-    { ime: "UNESCO, svjetska baština: samostan Geghard i gornja dolina Azata", url: "https://whc.unesco.org/en/list/960" },
-    { ime: "UNESCO, svjetska baština: Ečmiadzin i Zvartnoc", url: "https://whc.unesco.org/en/list/1011" },
+    { ime: "Armenia Travel, the official tourism portal", url: "https://armenia.travel/" },
+    { ime: "UNESCO World Heritage: Monastery of Geghard and the Upper Azat Valley", url: "https://whc.unesco.org/en/list/960" },
+    { ime: "UNESCO World Heritage: Etchmiadzin and Zvartnots", url: "https://whc.unesco.org/en/list/1011" },
     { ime: "Matenadaran", url: "https://matenadaran.am/" },
-    { ime: "Muzej-institut armenskog genocida", url: "https://www.genocide-museum.am/eng/" },
+    { ime: "Armenian Genocide Museum-Institute", url: "https://www.genocide-museum.am/eng/" },
     { ime: "Cafesjian Center for the Arts", url: "https://www.cmf.am/en" },
-    { ime: "Povijesni muzej Armenije", url: "https://historymuseum.am/en/" },
+    { ime: "History Museum of Armenia", url: "https://historymuseum.am/en/" },
     { ime: "HIKEArmenia", url: "https://hikearmenia.org/" }
   ]
 };

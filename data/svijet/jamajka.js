@@ -1,160 +1,160 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["jamajka"] = {
   id: "jamajka",
-  ime: "Jamajka",
-  regija: "Srednja Amerika i Karibi",
-  sazetak: "Otok koji je svijetu dao reggae, jerk i najbrže trkače, s planinama u magli, slapovima i ljudima koji na sve odgovaraju s no problem.",
+  ime: "Jamaica",
+  regija: "Central America and the Caribbean",
+  sazetak: "The island that gave the world reggae, jerk and the fastest sprinters, with mountains in the mist, waterfalls and people who answer everything with no problem.",
   uvod: [
-    "Starosjedioci Taíno zvali su otok Xaymaca, zemlja drva i vode, i to ime još stoji: unutrašnjost je brdovita, zelena i puna rijeka. Kolumbo je pristao 1494., Španjolci su otok držali stoljeće i pol, a 1655. oteli su im ga Englezi i pretvorili u svoju najbogatiju koloniju šećera. To je bogatstvo počivalo na stotinama tisuća porobljenih Afrikanaca, čiji su se odbjegli potomci, Maruni, u planinama izborili za slobodu i ugovorom je 1739. dobili od Britanaca.",
-    "Ropstvo je posve ukinuto 1838., a neovisnost je stigla 6. kolovoza 1962. godine. Iz siromašnih četvrti Kingstona u desetljeću nakon toga potekli su ska, rocksteady i reggae, glazba koja je s Bobom Marleyjem obišla svijet i pronijela poruke rastafarijanstva. Geslo zemlje glasi Out of Many, One People, jer su ovdje uz afričke potomke ostavili trag Indijci, Kinezi, Libanonci, Nijemci i Židovi, što se najbolje osjeti u kuhinji."
+    "The indigenous Taíno called the island Xaymaca, land of wood and water, and the name still fits: the interior is hilly, green and full of rivers. Columbus landed in 1494, the Spanish held the island for a century and a half, and in 1655 the English seized it from them and turned it into their richest sugar colony. That wealth rested on hundreds of thousands of enslaved Africans, whose runaway descendants, the Maroons, fought for their freedom in the mountains and won it from the British by treaty in 1739.",
+    "Slavery was fully abolished in 1838, and independence came on August 6, 1962. In the decade that followed, ska, rocksteady and reggae poured out of the poor neighborhoods of Kingston, music that traveled the world with Bob Marley and carried the messages of Rastafari. The country's motto is Out of Many, One People, because alongside the descendants of Africans, Indians, Chinese, Lebanese, Germans and Jews have all left their mark here, which you sense best in the cooking."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od prosinca do travnja suho je i malo svježije. Sezona uragana traje od lipnja do studenoga, a reggae festivali održavaju se u veljači i srpnju." },
-    { k: "Valuta", v: "Jamajčanski dolar (JMD). U turističkim mjestima cijene se često navode u američkim dolarima, pa uvijek pitajte na koje se dolare misli." },
-    { k: "Kretanje", v: "Vozi se lijevom stranom, a ceste su uske i zavojite. Između gradova prometuje udoban autobus Knutsford Express, a za kraće relacije koriste se licencirani taksiji s crvenim tablicama." },
-    { k: "Napojnica", v: "U restoranima se ostavlja od 10 do 15 posto ako usluga nije uračunata. Splavarima, vodičima i vozačima napojnica je uobičajena." },
-    { k: "Nakon uragana", v: "Uragan Melissa pogodio je zapad i jugozapad otoka krajem listopada 2025. godine. Glavna turistička područja ponovno rade, ali za pojedine atrakcije na zapadu provjerite jesu li otvorene." }
+    { k: "When to go", v: "From December to April it is dry and a little cooler. Hurricane season runs from June to November, and the reggae festivals are held in February and July." },
+    { k: "Currency", v: "The Jamaican dollar (JMD). In tourist areas prices are often quoted in US dollars, so always ask which dollars are meant." },
+    { k: "Getting around", v: "You drive on the left, and the roads are narrow and winding. The comfortable Knutsford Express bus runs between towns, and for shorter distances people use licensed taxis with red license plates." },
+    { k: "Tipping", v: "In restaurants you leave 10 to 15 percent if service is not included. Tipping is customary for raft captains, guides and drivers." },
+    { k: "After the hurricane", v: "Hurricane Melissa struck the west and southwest of the island at the end of October 2025. The main tourist areas are operating again, but for individual attractions in the west, check whether they are open." }
   ],
   hrana: [
-    { ime: "Jerk", opis: "Piletina ili svinjetina marinirana u pasti od ljutih papričica scotch bonnet, pimenta, majčine dušice i mladoga luka, polagano pečena nad drvom pimenta.", prica: "Tehniku su razvili Maruni u planinama, nadograđujući način na koji su Taíno sušili meso na rešetki. Dim je morao biti što slabiji da ne oda skrovište, pa se meso peklo u pokrivenim jamama. Rodnim mjestom današnjega jerka smatra se Boston Bay kraj Port Antonija." },
-    { ime: "Ackee and saltfish", opis: "Žuti plod drveta ackee pirjan s usoljenim bakalarom, lukom, rajčicom i paprom.", prica: "Nacionalno jelo izgleda kao kajgana, a jede se za doručak s prženim okruglicama ili kuhanom zelenom bananom. Ackee je stigao iz zapadne Afrike u 18. stoljeću, a nezreo je otrovan, pa se bere tek kad se mahuna sama otvori. Bakalar je bio jeftina hrana koju su robovlasnici uvozili iz Kanade." },
-    { ime: "Patty", opis: "Polukružno lisnato pecivo žute boje od kurkume, punjeno začinjenom mljevenom govedinom.", prica: "Potomak je engleske pite iz Cornwalla, kojoj su indijski radnici dodali curry, a Afrikanci ljutu papriku. Jede se s nogu u svako doba dana, a domaći ga vole staviti u meko slatko pecivo coco bread, pa se dobije sendvič od tijesta u tijestu." },
-    { ime: "Curry goat", opis: "Kozletina na kosti pirjana u jamajčanskom curryju s pimentom i majčinom dušicom.", prica: "Jelo su donijeli radnici iz Indije, koji su nakon ukidanja ropstva od 1845. dolazili raditi na plantaže. Bez njega nema vjenčanja ni velike proslave. Od glave i iznutrica iste koze kuha se juha mannish water." },
-    { ime: "Rice and peas", opis: "Riža kuhana u kokosovu mlijeku s crvenim grahom, majčinom dušicom i cijelom ljutom papričicom.", prica: "Grašak iz imena zapravo je grah. To je nedjeljni prilog uz piletinu, a papričica se kuha cijela da pusti miris bez ljutine, pa je ne smijete probušiti žlicom. Slična se jela nalaze duž cijele karipske obale Srednje Amerike, kamo su ih odnijeli jamajčanski radnici." },
-    { ime: "Escovitch fish s bammyjem i festivalom", opis: "Cijela pržena riba prelivena ukiseljenim lukom, mrkvom i ljutim papričicama, uz pogaču od manioke i slatkastu prženu okruglicu.", prica: "Način pripreme stigao je sa španjolskim Židovima i srodan je escabecheu. Bammy je naslijeđe starosjedilaca Taíno, a festival je mlađi izum, dugoljasta okruglica od kukuruznoga brašna. Jede se na plaži, rukama." },
-    { ime: "Kava Blue Mountain", opis: "Blaga arabica gotovo bez gorčine, uzgojena na strmim padinama Plavih planina iznad 900 metara.", prica: "Kavu je na otok 1728. donio guverner Nicholas Lawes. Zbog magle i hladnoće zrna dozrijevaju sporo, a svaka pošiljka prolazi državnu provjeru prije izvoza. Najveći dio uroda desetljećima kupuje Japan, pa je i na samom otoku skupa." },
-    { ime: "Rum i sorrel", opis: "Jamajčanski rum punoga, voćnog okusa i božićno piće od cvjetova hibiskusa s đumbirom.", prica: "Jamajčanski se rum destilira u bakrenim kotlovima nakon duge fermentacije, što mu daje prepoznatljiv teški miris. Najstarije imanje koje neprekidno radi bilježi proizvodnju od 1749. godine. Sorrel se kuha u prosincu, hladi i začini rumom, a boca se nosi u goste." }
+    { ime: "Jerk", opis: "Chicken or pork marinated in a paste of Scotch bonnet chili peppers, allspice, thyme and scallions, slowly cooked over pimento wood.", prica: "The technique was developed by the Maroons in the mountains, building on the way the Taíno dried meat on a rack. The smoke had to be as faint as possible so as not to give away their hiding place, so the meat was cooked in covered pits. Boston Bay near Port Antonio is considered the birthplace of today's jerk." },
+    { ime: "Ackee and saltfish", opis: "The yellow fruit of the ackee tree sautéed with salt cod, onion, tomato and pepper.", prica: "The national dish looks like scrambled eggs and is eaten for breakfast with fried dumplings or boiled green banana. Ackee arrived from West Africa in the 18th century, and it is poisonous when unripe, so it is picked only once the pod has opened on its own. Salt cod was a cheap food that the slaveholders imported from Canada." },
+    { ime: "Patty", opis: "A half-moon of flaky pastry, yellow with turmeric, filled with spiced ground beef.", prica: "It is a descendant of the English pasty from Cornwall, to which Indian laborers added curry and Africans added hot pepper. It is eaten on the go at any time of day, and locals like to tuck it into a soft, sweet coco bread roll, which gives you a sandwich of pastry inside bread." },
+    { ime: "Curry goat", opis: "Goat on the bone braised in Jamaican curry with allspice and thyme.", prica: "The dish was brought by laborers from India, who came to work on the plantations from 1845, after the abolition of slavery. No wedding or big celebration is complete without it. The head and offal of the same goat go into a soup called mannish water." },
+    { ime: "Rice and peas", opis: "Rice cooked in coconut milk with red kidney beans, thyme and a whole hot pepper.", prica: "The peas of the name are actually beans. This is the Sunday side dish with chicken, and the pepper is cooked whole so that it releases its aroma without the heat, which means you must not pierce it with the spoon. Similar dishes are found all along the Caribbean coast of Central America, where Jamaican workers took them." },
+    { ime: "Escovitch fish with bammy and festival", opis: "A whole fried fish topped with pickled onion, carrot and hot peppers, served with a cassava flatbread and a sweetish fried dumpling.", prica: "The method of preparation arrived with Spanish Jews and is related to escabeche. Bammy is a legacy of the indigenous Taíno, while festival is a more recent invention, an elongated dumpling made of cornmeal. It is eaten on the beach, with your hands." },
+    { ime: "Blue Mountain coffee", opis: "A mild arabica with almost no bitterness, grown on the steep slopes of the Blue Mountains above 900 meters.", prica: "Coffee was brought to the island in 1728 by Governor Nicholas Lawes. Because of the mist and the cold the beans ripen slowly, and every shipment goes through a government inspection before export. Japan has been buying most of the crop for decades, so it is expensive even on the island itself." },
+    { ime: "Rum and sorrel", opis: "Jamaican rum with a full, fruity flavor, and a Christmas drink made from hibiscus flowers with ginger.", prica: "Jamaican rum is distilled in copper pot stills after a long fermentation, which gives it its distinctive heavy aroma. The oldest estate in continuous operation has records of production going back to 1749. Sorrel is brewed in December, chilled and spiked with rum, and a bottle is taken along when you go visiting." }
   ],
   obicaji: [
-    { ime: "Reggae", opis: "Reggae je nastao krajem šezdesetih godina 20. stoljeća u Kingstonu iz ska i rocksteadyja, s naglaskom na drugoj i četvrtoj dobi i s teškim basom. Od početka je bio glas siromašnih i govorio o nepravdi, vjeri i ljubavi. UNESCO ga je 2018. uvrstio u nematerijalnu baštinu čovječanstva.", gdje: "U Kingstonu posjetite Muzej Boba Marleyja u ulici Hope Road i dvorište Culture Yard u Trench Townu. Veljača je Mjesec reggaea, s koncertima oko Marleyjeva rođendana 6. veljače, a u srpnju se održava festival Reggae Sumfest." },
-    { ime: "Rastafari", opis: "Vjerski i društveni pokret nastao je tridesetih godina 20. stoljeća među siromašnim Jamajčanima koji su u etiopskom caru Haileu Selassieju vidjeli mesiju. Sljedbenici ne šišaju kosu, jedu prirodnu hranu bez soli i mesa, zvanu ital, i okupljaju se uz bubnjeve nyabinghi. Crvena, zlatna i zelena boje su etiopske zastave.", gdje: "Kraj Montego Baya zajednica Rastafari Indigenous Village prima posjetitelje i objašnjava način života, bilje i bubnjanje. Dan Grounation slavi se 21. travnja, na obljetnicu Selassiejeva posjeta 1966. godine." },
-    { ime: "Dancehall i sound system", opis: "Sound system je pokretna diskoteka s tornjevima zvučnika, voditeljem i birateljem ploča, koja od pedesetih godina 20. stoljeća svira na ulici jer si ljudi nisu mogli priuštiti klubove. Iz nje je izrastao dancehall, brža i tvrđa glazba s vlastitim plesnim koracima koji imaju imena i autore.", gdje: "U Kingstonu plesni studiji drže satove dancehalla za posjetitelje, a ulične zabave održavaju se gotovo svake večeri u drugom kvartu, na koje je najbolje otići s mjesnim vodičem. Nedjeljom navečer na brdu iznad grada svira Kingston Dub Club." },
-    { ime: "Maruni", opis: "Maruni su potomci ljudi koji su pobjegli s plantaža i u planinama osnovali slobodne zajednice. Nakon desetljeća gerilskoga rata Britanci su s njima 1739. sklopili mir i priznali im zemlju. Sporazumijevali su se rogom zvanim abeng, a njihovu glazbu i predaju iz Moore Towna zaštitio je UNESCO.", gdje: "Moore Town u dolini rijeke Rio Grande kraj Port Antonija čuva grob vođe Nanny, nacionalne junakinje. U Accompongu na zapadu otoka svakoga se 6. siječnja slavi obljetnica mira, s bubnjevima i hranom bez soli." },
-    { ime: "Mento i Jonkonnu", opis: "Mento je starija seoska glazba s bendžom, gitarom i velikom drvenom kutijom s metalnim jezičcima koja služi kao bas, a tekstovi su mu šaljivi i dvosmisleni. Jonkonnu je božićna povorka maskiranih likova, poput konjske glave, vraga i kralja, afričkoga podrijetla.", gdje: "Mento sastavi sviraju u hotelima i na seoskim svetkovinama, osobito u okrugu Portland. Jonkonnu se viđa oko Božića i na Dan neovisnosti." },
-    { ime: "Emancipendence", opis: "Prvoga kolovoza slavi se Dan emancipacije, a šestoga Dan neovisnosti, pa se cijeli tjedan između stopio u jednu proslavu. Ljudi nose odjeću od karirane tkanine bandana u crvenoj, bijeloj i plavoj boji, a održavaju se natjecanja u pjesmi, plesu i kuhanju.", gdje: "Glavna svečanost s paradom i koncertom održava se na Nacionalnom stadionu u Kingstonu, a manja slavlja u svakom mjestu." }
+    { ime: "Reggae", opis: "Reggae emerged in Kingston in the late 1960s out of ska and rocksteady, with the accent on the second and fourth beats and a heavy bass. From the start it was the voice of the poor and spoke of injustice, faith and love. In 2018 UNESCO added it to the intangible heritage of humanity.", gdje: "In Kingston, visit the Bob Marley Museum on Hope Road and the Culture Yard in Trench Town. February is Reggae Month, with concerts around Marley's birthday on February 6, and the Reggae Sumfest festival is held in July." },
+    { ime: "Rastafari", opis: "This religious and social movement arose in the 1930s among poor Jamaicans who saw the messiah in the Ethiopian emperor Haile Selassie. Its followers do not cut their hair, eat natural food without salt or meat, known as ital, and gather to the sound of nyabinghi drums. Red, gold and green are the colors of the Ethiopian flag.", gdje: "Near Montego Bay the community of the Rastafari Indigenous Village welcomes visitors and explains its way of life, its herbs and its drumming. Grounation Day is celebrated on April 21, the anniversary of Selassie's visit in 1966." },
+    { ime: "Dancehall and the sound system", opis: "A sound system is a mobile disco with towers of speakers, an MC and a record selector, which has been playing in the street since the 1950s because people could not afford clubs. Out of it grew dancehall, a faster and harder music with its own dance moves that have names and creators.", gdje: "In Kingston, dance studios run dancehall classes for visitors, and street parties are held almost every night in a different neighborhood, which are best visited with a local guide. On Sunday nights the Kingston Dub Club plays on the hill above the city." },
+    { ime: "The Maroons", opis: "The Maroons are the descendants of people who escaped from the plantations and founded free communities in the mountains. After decades of guerrilla warfare the British made peace with them in 1739 and recognized their land. They communicated with a horn called the abeng, and their music and traditions from Moore Town are protected by UNESCO.", gdje: "Moore Town, in the valley of the Rio Grande near Port Antonio, holds the grave of their leader Nanny, a national heroine. In Accompong in the west of the island the anniversary of the peace is celebrated every January 6, with drums and food cooked without salt." },
+    { ime: "Mento and Jonkonnu", opis: "Mento is an older rural music played on banjo, guitar and a large wooden box with metal tongues that serves as the bass, and its lyrics are humorous and full of double meanings. Jonkonnu is a Christmas parade of masked characters of African origin, such as the horse head, the devil and the king.", gdje: "Mento bands play in hotels and at village festivals, especially in the parish of Portland. Jonkonnu can be seen around Christmas and on Independence Day." },
+    { ime: "Emancipendence", opis: "Emancipation Day is celebrated on August 1 and Independence Day on August 6, so the whole week in between has merged into one celebration. People wear clothes made of the plaid bandana cloth in red, white and blue, and there are competitions in song, dance and cooking.", gdje: "The main ceremony, with a parade and a concert, is held at the National Stadium in Kingston, with smaller celebrations in every town." }
   ],
   fraze: [
-    { izvorno: "Wah gwaan?", izgovor: "va GVAN", hr: "Što ima? Kako si?" },
-    { izvorno: "Mi deh yah", izgovor: "mi DE ja", hr: "Tu sam, dobro sam (odgovor na Wah gwaan)" },
-    { izvorno: "Irie", izgovor: "AJ-ri", hr: "Sve je dobro, odlično" },
-    { izvorno: "Respect", izgovor: "ri-SPEKT", hr: "Poštovanje (pozdrav i zahvala)" },
-    { izvorno: "Thank you", izgovor: "TENK ju", hr: "Hvala" },
-    { izvorno: "How much fi dis?", izgovor: "hau MAČ fi dis", hr: "Koliko je ovo?" },
-    { izvorno: "Likkle more", izgovor: "LI-kl mor", hr: "Vidimo se poslije" },
-    { izvorno: "Walk good", izgovor: "vok GUD", hr: "Sretan put, čuvaj se" }
+    { izvorno: "Wah gwaan?", izgovor: "wah GWAHN", hr: "What's up? How are you?" },
+    { izvorno: "Mi deh yah", izgovor: "mee DEH yah", hr: "I'm here, I'm fine (the reply to Wah gwaan)" },
+    { izvorno: "Irie", izgovor: "EYE-ree", hr: "Everything is good, great" },
+    { izvorno: "Respect", izgovor: "ree-SPEKT", hr: "Respect (a greeting and a thank-you)" },
+    { izvorno: "Thank you", izgovor: "TANK yoo", hr: "Thank you" },
+    { izvorno: "How much fi dis?", izgovor: "how MUCH fee dis", hr: "How much is this?" },
+    { izvorno: "Likkle more", izgovor: "LIK-kl more", hr: "See you later" },
+    { izvorno: "Walk good", izgovor: "wahk GOOD", hr: "Safe travels, take care" }
   ],
   zanimljivosti: [
-    "Potres je 7. lipnja 1692. potopio dvije trećine Port Royala, tada najbogatije gusarske luke na Karibima, a njegovi su podvodni ostaci 2025. upisani na UNESCO-ov popis svjetske baštine.",
-    "Ian Fleming napisao je sve romane o Jamesu Bondu na svojem imanju Goldeneye na sjevernoj obali, a junaku je dao ime po autoru priručnika o karipskim pticama.",
-    "Jamajka je tropska zemlja koja je 1988. poslala posadu boba na Zimske olimpijske igre.",
-    "Krušno drvo donio je na otok 1793. kapetan William Bligh, isti onaj protiv kojega se pobunila posada broda Bounty.",
-    "Na jamajčanskoj zastavi nema ni crvene, ni bijele, ni plave boje, što je među državnim zastavama rijetkost.",
-    "Jamajka je 1845. dobila željeznicu, jednu od prvih izvan Europe i Sjeverne Amerike.",
-    "Gradić Falmouth imao je vodovod već 1799., prije nego New York."
+    "On June 7, 1692, an earthquake sank two thirds of Port Royal, then the richest pirate port in the Caribbean, and in 2025 its underwater remains were added to the UNESCO World Heritage List.",
+    "Ian Fleming wrote all the James Bond novels at his Goldeneye estate on the north coast, and he named his hero after the author of a field guide to Caribbean birds.",
+    "Jamaica is the tropical country that sent a bobsled team to the Winter Olympic Games in 1988.",
+    "Breadfruit was brought to the island in 1793 by Captain William Bligh, the very same man against whom the crew of the Bounty mutinied.",
+    "The Jamaican flag contains no red, white or blue, which is a rarity among national flags.",
+    "Jamaica got a railway in 1845, one of the first outside Europe and North America.",
+    "The little town of Falmouth had piped water as early as 1799, before New York did."
   ],
   mjesta: [
     {
       id: "kingston",
-      ime: "Kingston i Plave planine",
+      ime: "Kingston and the Blue Mountains",
       vrsta: "grad",
-      sazetak: "Glasna, kreativna prijestolnica u kojoj je rođen reggae, s gusarskim Port Royalom pred lukom i planinama kave iza leđa.",
+      sazetak: "A loud, creative capital where reggae was born, with pirate Port Royal out in front of the harbor and coffee mountains at its back.",
       prica: [
-        "Kingston su 1692. osnovali preživjeli iz Port Royala, nakon što je potres potopio njihov grad na pješčanom sprudu s druge strane zaljeva. Zahvaljujući jednoj od najvećih prirodnih luka na svijetu brzo je postao trgovačko središte, a prijestolnicom je proglašen 1872. godine.",
-        "Grad se dijeli na stari donji dio uz luku i noviji gornji, podno planina. U zapadnim četvrtima, u dvorištima državnih stanova, pedesetih i šezdesetih godina 20. stoljeća nastala je glazba po kojoj se Jamajka zna. Sat vožnje iznad grada cesta se uspinje u Plave planine, gdje je deset stupnjeva hladnije i gdje raste slavna kava."
+        "Kingston was founded in 1692 by survivors from Port Royal, after an earthquake sank their town on the sandspit on the other side of the bay. Thanks to one of the largest natural harbors in the world it quickly became a trading center, and it was declared the capital in 1872.",
+        "The city is divided into the old downtown by the harbor and the newer uptown at the foot of the mountains. In the western neighborhoods, in the yards of the government housing, the music that Jamaica is known for came into being in the 1950s and 1960s. An hour's drive above the city the road climbs into the Blue Mountains, where it is ten degrees cooler and where the famous coffee grows."
       ],
       vidjeti: [
-        { ime: "Bob Marley Museum", opis: "Drvena kolonijalna kuća u ulici Hope Road bila je Marleyjev dom i studio od 1975. do smrti 1981. godine. U stražnjoj se sobi i danas vide rupe od metaka iz atentata u prosincu 1976., nakon kojega je, ranjen, dva dana poslije ipak održao koncert. Razgledava se samo uz vodiča." },
-        { ime: "Trench Town Culture Yard", opis: "U ovom je dvorištu državnih stanova mladi Marley živio i učio svirati gitaru od Vincenta Forda, kojemu je poslije pripisao autorstvo pjesme No Woman, No Cry. Izloženi su njegov prvi krevet, gitara i olupina kombija kojim su Wailersi išli na nastupe. Vode vas mještani." },
-        { ime: "Devon House", opis: "Vilu je 1881. sagradio George Stiebel, sin njemačkoga Židova i Jamajčanke, koji se obogatio u rudnicima zlata u Venezueli i postao prvi crni milijunaš na otoku. U nekadašnjim konjušnicama danas su trgovine i slastičarnica pred kojom je uvijek red." },
-        { ime: "National Gallery of Jamaica", opis: "Galerija uz luku čuva najveću zbirku jamajčanske umjetnosti, od rezbarija starosjedilaca Taíno do suvremenih radova. Potražite skulpture Edne Manley, majke moderne jamajčanske umjetnosti, i vizionarske slike samoukih umjetnika koje ovdje zovu intuitivcima." },
-        { ime: "Port Royal", opis: "Od zloglasnoga gusarskog grada ostali su Fort Charles, u kojem je kao mlad časnik služio Horatio Nelson, i nakrivljeno skladište Giddy House, koje je potres 1907. utisnuo u pijesak pod kutom. Tko uđe, izgubi ravnotežu, pa je kuća i dobila ime vrtoglava." },
-        { ime: "Plave planine", opis: "Nacionalni park Blue and John Crow Mountains na UNESCO-ovu je popisu i zbog prirode i zbog marunske povijesti. Do najvišega vrha, na 2256 metara, polazi se u dva ujutro da se dočeka izlazak sunca, a za vedra jutra vidi se, kažu, i obris Kube." }
+        { ime: "Bob Marley Museum", opis: "The wooden colonial house on Hope Road was Marley's home and studio from 1975 until his death in 1981. In the back room you can still see the bullet holes from the assassination attempt of December 1976, after which, wounded, he went ahead and played a concert two days later. It can only be visited with a guide." },
+        { ime: "Trench Town Culture Yard", opis: "It was in this government housing yard that the young Marley lived and learned to play guitar from Vincent Ford, whom he later credited as the writer of the song No Woman, No Cry. On display are his first bed, a guitar and the wreck of the van in which the Wailers drove to their gigs. Local residents show you around." },
+        { ime: "Devon House", opis: "The mansion was built in 1881 by George Stiebel, the son of a German Jew and a Jamaican woman, who made his fortune in the gold mines of Venezuela and became the first Black millionaire on the island. The former stables now hold shops and an ice cream parlor that always has a line outside." },
+        { ime: "National Gallery of Jamaica", opis: "The gallery by the harbor holds the largest collection of Jamaican art, from the carvings of the indigenous Taíno to contemporary works. Look for the sculptures of Edna Manley, the mother of modern Jamaican art, and the visionary paintings of the self-taught artists who are known here as the Intuitives." },
+        { ime: "Port Royal", opis: "What remains of the notorious pirate town are Fort Charles, where Horatio Nelson served as a young officer, and the lopsided storehouse called Giddy House, which the earthquake of 1907 pressed into the sand at an angle. Anyone who walks in loses their balance, which is how the house came to be called giddy." },
+        { ime: "The Blue Mountains", opis: "The Blue and John Crow Mountains National Park is on the UNESCO list for both its nature and its Maroon history. For the highest peak, at 2,256 meters, you set out at two in the morning to catch the sunrise, and on a clear morning, they say, you can even see the outline of Cuba." }
       ],
       jesti: [
-        { ime: "Sladoled u Devon Houseu", opis: "Slastičarnica u dvorištu vile nudi okuse poput ruma s grožđicama, soursopa i piva Guinness." },
-        { ime: "Pržena riba u Port Royalu", opis: "U jednostavnim restoranima na obali riba se bira iz hladnjaka i prži ili pirja pred vama, uz bammy i festival." },
-        { ime: "Kava na izvoru", opis: "Na imanjima u Plavim planinama pije se kava ubrana nekoliko stotina metara dalje, uz pogled na Kingston duboko ispod." },
-        { ime: "Patty za ponijeti", opis: "Nekoliko lanaca pekarnica prodaje vruće pattyje na svakom uglu, i svatko u gradu ima svojega favorita." }
+        { ime: "Ice cream at Devon House", opis: "The ice cream parlor in the courtyard of the mansion offers flavors such as rum and raisin, soursop and Guinness stout." },
+        { ime: "Fried fish in Port Royal", opis: "In the simple restaurants on the shore you choose your fish from the cooler and it is fried or stewed in front of you, with bammy and festival." },
+        { ime: "Coffee at the source", opis: "On the estates in the Blue Mountains you drink coffee picked a few hundred meters away, with a view of Kingston far below." },
+        { ime: "A patty to go", opis: "Several bakery chains sell hot patties on every corner, and everyone in the city has their own favorite." }
       ],
       dozivjeti: [
-        { ime: "Obilazak Muzeja Boba Marleyja", opis: "Vođenje traje oko sat i petnaest minuta i završava filmom u nekadašnjem studiju. Ulaznice je bolje rezervirati unaprijed.", link: "https://www.bobmarleymuseum.com/" },
-        { ime: "Culture Yard s mještanima", opis: "Posjet Trench Townu dogovorite izravno s muzejom, koji šalje vodiča iz susjedstva i brine se da se u četvrti osjećate dobrodošlo.", link: "https://www.ttcultureyard.com/" },
-        { ime: "Sat dancehalla", opis: "Plesni studiji u gornjem dijelu grada drže satove na kojima se uče koraci s imenima i priča o tome tko ih je smislio. Sat je naporan i vrlo zabavan, a prethodno iskustvo nije potrebno." },
-        { ime: "Pješačenje i kava u Plavim planinama", opis: "Uprava nacionalnoga parka održava staze i planinarske kuće te daje podatke o usponu na vrh i o vodičima iz okolnih sela.", link: "https://www.blueandjohncrowmountains.org/" }
+        { ime: "A tour of the Bob Marley Museum", opis: "The guided tour lasts about an hour and fifteen minutes and ends with a film in the former studio. It is better to book tickets in advance.", link: "https://www.bobmarleymuseum.com/" },
+        { ime: "The Culture Yard with local residents", opis: "Arrange your visit to Trench Town directly with the museum, which sends a guide from the neighborhood and makes sure you feel welcome in the area.", link: "https://www.ttcultureyard.com/" },
+        { ime: "A dancehall class", opis: "Dance studios in the uptown part of the city run classes where you learn moves that have names, along with the story of who came up with them. The class is strenuous and a lot of fun, and no previous experience is needed." },
+        { ime: "Hiking and coffee in the Blue Mountains", opis: "The national park authority maintains the trails and mountain cabins and provides information about the climb to the peak and about guides from the surrounding villages.", link: "https://www.blueandjohncrowmountains.org/" }
       ],
       agencije: [
-        { ime: "Visit Jamaica", opis: "Službena stranica Jamajčanske turističke zajednice.", link: "https://www.visitjamaica.com/" },
-        { ime: "Jamaica National Heritage Trust", opis: "Državna ustanova za zaštitu baštine, koja upravlja Port Royalom i drugim spomenicima.", link: "https://www.jnht.com/" }
+        { ime: "Visit Jamaica", opis: "The official website of the Jamaica Tourist Board.", link: "https://www.visitjamaica.com/" },
+        { ime: "Jamaica National Heritage Trust", opis: "The government agency for heritage protection, which manages Port Royal and other monuments.", link: "https://www.jnht.com/" }
       ],
-      kada: "Najugodnije je od prosinca do travnja, a veljača je puna koncerata. Po gradu se krećite taksijem koji vam pozove smještaj, a donji grad i Trench Town obiđite danju i s vodičem."
+      kada: "December to April is the most pleasant time, and February is full of concerts. Get around the city in a taxi called for you by your accommodation, and visit downtown and Trench Town during the day and with a guide."
     },
     {
       id: "montego-bay",
-      ime: "Montego Bay i sjeverna obala",
+      ime: "Montego Bay and the North Coast",
       vrsta: "regija",
-      sazetak: "Obala velikih plaža, plantažnih kuća, slapova po kojima se penje i lagune koja noću svijetli.",
+      sazetak: "A coast of big beaches, plantation great houses, waterfalls you can climb and a lagoon that glows at night.",
       prica: [
-        "Španjolci su zaljev zvali Bahía de Manteca, po svinjskoj masti koju su odavde izvozili, i od toga je nastalo ime Montego. Englezi su zaleđe pretvorili u plantaže šećera s velikim kamenim kućama na brežuljcima. Odavde je na Božić 1831. krenuo ustanak porobljenih pod vodstvom baptističkoga propovjednika Sama Sharpea, koji je ubrzao ukidanje ropstva.",
-        "Turizam je počeo početkom 20. stoljeća, kad je jedan britanski liječnik proglasio more na plaži Doctor's Cave ljekovitim. Danas se hoteli nižu obalom sve do Ocho Riosa, sto kilometara istočno. Zapadni dio obale teško je pogodio uragan Melissa u listopadu 2025., pa se dio objekata još obnavlja."
+        "The Spanish called the bay Bahía de Manteca, after the lard they exported from here, and that is where the name Montego comes from. The English turned the hinterland into sugar plantations with large stone houses on the hills. It was from here, at Christmas 1831, that the uprising of the enslaved set out under the leadership of the Baptist preacher Sam Sharpe, which hastened the abolition of slavery.",
+        "Tourism began in the early 20th century, when a British doctor declared the sea at Doctor's Cave Beach to have healing powers. Today the hotels line the coast all the way to Ocho Rios, a hundred kilometers to the east. The western part of the coast was hit hard by Hurricane Melissa in October 2025, so some of the properties are still being rebuilt."
       ],
       vidjeti: [
-        { ime: "Rose Hall Great House", opis: "Georgijanska plantažna kuća iz 1770-ih poznata je po legendi o Annie Palmer, Bijeloj vještici, koja je navodno ubila tri muža. Povjesničari su utvrdili da priča potječe iz romana objavljenoga 1929., ali kuća i pogled na more vrijede posjeta, a vodiči priču pričaju s užitkom." },
-        { ime: "Sam Sharpe Square", opis: "Na glavnom trgu Montego Baya stoji spomenik Samu Sharpeu, koji je ovdje obješen 1832. i danas je nacionalni junak. Uz njega je The Cage, kamena ćelija iz 1806. u koju su zatvarali odbjegle robove i pijane mornare." },
-        { ime: "Falmouth", opis: "Gradić osnovan 1769. bio je najprometnija luka šećera na otoku i sačuvao je najbolju cjelinu georgijanske arhitekture na Karibima. Prošećite ulicom Market Street i pogledajte sudnicu i baptističku crkvu Williama Knibba, borca protiv ropstva." },
-        { ime: "Svjetleća laguna", opis: "Na ušću rijeke Martha Brae kraj Falmoutha žive mikroskopski organizmi koji zasvijetle plavozeleno kad se voda uzburka. Noću se čamcem isplovi na sredinu, pa tko zapliva, ostavlja za sobom svijetleći trag." },
-        { ime: "Dunn's River Falls", opis: "Kraj Ocho Riosa rijeka se niz sto osamdeset metara vapnenačkih terasa spušta ravno na plažu. Uzvodno se penje u lancu, držeći se za ruke, s vodičem koji zna gdje je kamen sklizak. Slap sam obnavlja svoje stijene taloženjem vapnenca." },
-        { ime: "Nine Mile", opis: "U selu u brdima iznad obale Bob Marley rodio se 1945. i ondje je pokopan, u mauzoleju uz kućicu u kojoj je odrastao. Posjetiteljima se pokazuje kamen na koji je, prema pjesmi, naslanjao glavu." }
+        { ime: "Rose Hall Great House", opis: "This Georgian plantation house from the 1770s is known for the legend of Annie Palmer, the White Witch, who supposedly murdered three husbands. Historians have established that the story comes from a novel published in 1929, but the house and the view of the sea are worth the visit, and the guides tell the tale with relish." },
+        { ime: "Sam Sharpe Square", opis: "On the main square of Montego Bay stands a monument to Sam Sharpe, who was hanged here in 1832 and is now a national hero. Beside it is The Cage, a stone cell from 1806 in which runaway slaves and drunken sailors were locked up." },
+        { ime: "Falmouth", opis: "This little town, founded in 1769, was the busiest sugar port on the island and has preserved the finest ensemble of Georgian architecture in the Caribbean. Stroll down Market Street and take a look at the courthouse and the Baptist church of William Knibb, a campaigner against slavery." },
+        { ime: "The Luminous Lagoon", opis: "At the mouth of the Martha Brae River near Falmouth live microscopic organisms that glow blue-green when the water is stirred. At night a boat takes you out to the middle, and anyone who goes for a swim leaves a glowing trail behind them." },
+        { ime: "Dunn's River Falls", opis: "Near Ocho Rios the river drops down one hundred and eighty meters of limestone terraces straight onto the beach. You climb upstream in a chain, holding hands, with a guide who knows where the rock is slippery. The waterfall renews its own rocks by depositing limestone." },
+        { ime: "Nine Mile", opis: "Bob Marley was born in 1945 in this village in the hills above the coast, and he is buried there, in a mausoleum beside the little house where he grew up. Visitors are shown the stone on which, according to the song, he used to rest his head." }
       ],
       jesti: [
-        { ime: "Jerk s ražnja uz cestu", opis: "Na obalnoj cesti nekoliko je poznatih pečenjarnica u kojima se meso peče na trupcima pimenta pokriveno limom, a prodaje se na vagu, s prženim okruglicama." },
-        { ime: "Escovitch riba na plaži", opis: "Na javnim plažama žene prže ribu u velikim loncima i prelijevaju je ukiseljenim povrćem, što je ručak za ruke i papirnati tanjur." },
-        { ime: "Red Stripe i voćni punč", opis: "Domaće pivo u niskoj bočici pije se ledeno, a punč s rumom svaki bar miješa po svojem receptu." }
+        { ime: "Roadside jerk", opis: "Along the coast road there are several well-known jerk centers where the meat is cooked on pimento logs under sheets of zinc and sold by weight, with fried dumplings." },
+        { ime: "Escovitch fish on the beach", opis: "On the public beaches women fry fish in large pots and cover it with pickled vegetables, which makes a lunch for your hands and a paper plate." },
+        { ime: "Red Stripe and fruit punch", opis: "The local beer in its stubby little bottle is drunk ice cold, and every bar mixes its rum punch to its own recipe." }
       ],
       dozivjeti: [
-        { ime: "Splavarenje rijekom Martha Brae", opis: "Na splavi od bambusa duge devet metara sjedi dvoje putnika, a splavar je motkom vodi niz mirnu rijeku oko sat vremena. Takve su splavi nekoć služile za prijevoz banana do obale.", link: "https://jamaicarafting.com/" },
-        { ime: "Penjanje uz Dunn's River", opis: "Dođite na otvaranje, prije skupina s kruzera, i ponesite ili unajmite obuću za vodu.", link: "https://dunnsriverfallsja.com/" },
-        { ime: "Reggae Sumfest", opis: "Najveći jamajčanski glazbeni festival održava se svakoga srpnja, s jednom večeri za dancehall i jednom za reggae, a koncerti traju do svitanja. Mjesto održavanja provjerite na službenoj stranici.", link: "https://reggaesumfest.com/" },
-        { ime: "Posjet rastafarijanskoj zajednici", opis: "U selu Rastafari Indigenous Village kraj Montego Baya gosti prelaze rijeku pješice, kušaju ital hranu i uče bubnjati, uz razgovor o vjeri koji razbija mnoge predrasude." }
+        { ime: "Rafting on the Martha Brae River", opis: "Two passengers sit on a bamboo raft nine meters long while the raft captain poles it down the calm river for about an hour. Rafts like these were once used to carry bananas to the coast.", link: "https://jamaicarafting.com/" },
+        { ime: "Climbing Dunn's River", opis: "Arrive at opening time, before the cruise ship groups, and bring or rent water shoes.", link: "https://dunnsriverfallsja.com/" },
+        { ime: "Reggae Sumfest", opis: "Jamaica's biggest music festival is held every July, with one night for dancehall and one for reggae, and the concerts go on until dawn. Check the venue on the official website.", link: "https://reggaesumfest.com/" },
+        { ime: "A visit to a Rastafari community", opis: "At the Rastafari Indigenous Village near Montego Bay, guests wade across the river, taste ital food and learn to drum, along with a conversation about the faith that breaks down many prejudices." }
       ],
       agencije: [
-        { ime: "Visit Jamaica", opis: "Službena stranica Jamajčanske turističke zajednice.", link: "https://www.visitjamaica.com/" },
-        { ime: "Rose Hall", opis: "Uprava plantažne kuće, s dnevnim i večernjim vođenjima.", link: "https://rosehall.com/" },
-        { ime: "Chukka Caribbean Adventures", opis: "Veliki jamajčanski organizator izleta u prirodu duž sjeverne obale.", link: "https://chukka.com/" }
+        { ime: "Visit Jamaica", opis: "The official website of the Jamaica Tourist Board.", link: "https://www.visitjamaica.com/" },
+        { ime: "Rose Hall", opis: "The management of the plantation house, with day and evening tours.", link: "https://rosehall.com/" },
+        { ime: "Chukka Caribbean Adventures", opis: "A large Jamaican operator of outdoor excursions along the north coast.", link: "https://chukka.com/" }
       ],
-      kada: "Od prosinca do travnja najmanje je kiše. Danima kad su u luci kruzeri slapovi i Rose Hall puni su do podneva, pa ih tada posjetite kasno poslijepodne."
+      kada: "There is the least rain from December to April. On days when cruise ships are in port, the falls and Rose Hall are full until noon, so on those days visit them in the late afternoon."
     },
     {
       id: "port-antonio",
       ime: "Port Antonio",
       vrsta: "gradić",
-      sazetak: "Mirni, kišom oprani sjeveroistok otoka, s modrom lagunom, splavarenjem i selom u kojem je nastao jerk.",
+      sazetak: "The quiet, rain-washed northeast of the island, with a deep blue lagoon, rafting and the village where jerk was born.",
       prica: [
-        "Port Antonio se obogatio sedamdesetih godina 19. stoljeća, kada je američki kapetan Lorenzo Dow Baker odavde počeo voziti banane u Boston. Na povratku su brodovi dovozili prve turiste, pa se ovaj gradić smatra kolijevkom jamajčanskoga turizma.",
-        "Kad je bolest uništila nasade banana, kraj je utonuo u tišinu, sve dok 1946. oluja ovamo nije nanijela jahtu holivudskoga glumca Errola Flynna. Zaljubio se, kupio otočić u luci i dovodio prijatelje. Danas je ovo najzeleniji i najmanje izgrađen dio obale, s planinama odmah iza plaža."
+        "Port Antonio grew rich in the 1870s, when Lorenzo Dow Baker, a sea captain from the USA, began shipping bananas from here to Boston. On the return trip the ships brought the first tourists, so this little town is considered the cradle of Jamaican tourism.",
+        "When disease wiped out the banana plantations, the area sank into silence, until a storm in 1946 washed the yacht of the Hollywood actor Errol Flynn ashore here. He fell in love, bought an islet in the harbor and brought his friends. Today this is the greenest and least developed part of the coast, with the mountains right behind the beaches."
       ],
       vidjeti: [
-        { ime: "Blue Lagoon", opis: "Laguna okružena šumom duboka je pedesetak metara i hrane je hladni slatkovodni izvori s dna, dok s mora ulazi topla slana voda. Zato boja tijekom dana prelazi iz tirkizne u tamnomodru, a pri plivanju se osjećaju topli i hladni slojevi." },
-        { ime: "Frenchman's Cove", opis: "U maloj uvali hladna rječica vijuga preko bijeloga pijeska i ulijeva se u more, pa se možete kupati u slatkoj i slanoj vodi u razmaku od deset koraka. Plaža pripada imanju i ulaz se naplaćuje." },
-        { ime: "Boston Bay", opis: "Na ovoj se plaži prodaje jerk od četrdesetih godina 20. stoljeća, a mještani je zovu njegovom kolijevkom. Meso se peče satima na zelenim granama pimenta iznad žara, pokriveno limom. Zaljev je i jedno od rijetkih mjesta na otoku s valovima za jahanje na dasci." },
-        { ime: "Reach Falls", opis: "Na istoku okruga rijeka pada preko vapnenačke stijene u smaragdni bazen, a uzvodno se s vodičem hoda i pliva kroz niz manjih bazena i prolazi kroz špilju iza vodenoga zastora." },
-        { ime: "Moore Town", opis: "Marunsko selo u dolini rijeke Rio Grande osnovano je nakon mira 1739. i do danas ima vlastitoga poglavara, koji nosi naslov pukovnika. Ondje je Bump Grave, grob vođe Nanny, jedine žene među nacionalnim junacima Jamajke." },
-        { ime: "Folly Ruins", opis: "Američki bogataš Alfred Mitchell sagradio je 1905. na rtu vilu sa šezdeset soba. Predaja kaže da je beton miješan s morskom vodom, pa je armatura zahrđala i kuća se počela raspadati za tridesetak godina. Ruševine sa stupovima danas služe kao kulisa za glazbene spotove." }
+        { ime: "Blue Lagoon", opis: "The lagoon, ringed by forest, is about fifty meters deep and fed by cold freshwater springs from the bottom, while warm salt water comes in from the sea. That is why its color shifts over the course of the day from turquoise to deep blue, and why you feel warm and cold layers as you swim." },
+        { ime: "Frenchman's Cove", opis: "In this small cove a cold little river winds across white sand and flows into the sea, so you can swim in fresh water and salt water ten steps apart. The beach belongs to an estate and there is an entrance fee." },
+        { ime: "Boston Bay", opis: "Jerk has been sold on this beach since the 1940s, and locals call it its cradle. The meat cooks for hours on green pimento branches over the coals, covered with sheets of zinc. The bay is also one of the few places on the island with waves for surfing." },
+        { ime: "Reach Falls", opis: "In the east of the parish the river drops over a limestone ledge into an emerald pool, and upstream you walk and swim with a guide through a series of smaller pools and pass through a cave behind a curtain of water." },
+        { ime: "Moore Town", opis: "This Maroon village in the valley of the Rio Grande was founded after the peace of 1739 and still has its own chief today, who bears the title of colonel. It is the site of Bump Grave, the grave of the leader Nanny, the only woman among Jamaica's national heroes." },
+        { ime: "Folly Ruins", opis: "In 1905 Alfred Mitchell, a wealthy man from the USA, built a sixty-room mansion on the headland. Tradition says that the concrete was mixed with seawater, so the reinforcement rusted and the house began to fall apart within some thirty years. The ruins with their columns now serve as a backdrop for music videos." }
       ],
       jesti: [
-        { ime: "Jerk svinjetina u Boston Bayu", opis: "Naručuje se na funte, sječe mačetom na panju i jede iz folije, uz pečeno krušno drvo i ledeno pivo. Ljuti umak sa strane doista je ljut." },
-        { ime: "Riba na plaži Winnifred", opis: "Na javnoj plaži, koju je mjesna zajednica sudski obranila od privatizacije, nekoliko drvenih koliba kuha ribu, jastoga i rižu s grahom." },
-        { ime: "Run down", opis: "Usoljena skuša polako kuhana u kokosovu mlijeku dok se umak ne zgusne, tradicijski doručak s kuhanom zelenom bananom." }
+        { ime: "Jerk pork in Boston Bay", opis: "It is ordered by the pound, chopped with a machete on a tree stump and eaten out of foil, with roasted breadfruit and an ice-cold beer. The hot sauce on the side really is hot." },
+        { ime: "Fish on Winnifred Beach", opis: "On this public beach, which the local community defended against privatization in court, a few wooden shacks cook fish, lobster and rice and peas." },
+        { ime: "Run down", opis: "Salted mackerel slowly simmered in coconut milk until the sauce thickens, a traditional breakfast with boiled green banana." }
       ],
       dozivjeti: [
-        { ime: "Splavarenje rijekom Rio Grande", opis: "Vožnja bambusovom splavi ovdje traje dva do tri sata i prolazi kroz široku dolinu bez ijedne kuće. Splavarenje kao zabavu izmislio je upravo Errol Flynn, koji je organizirao utrke splavara. Na pola puta žena na obali kuha ručak u loncima na vatri." },
-        { ime: "Posjet Marunima", opis: "U Moore Town ide se s vodičem iz zajednice, koji pokaže rog abeng i ispriča povijest otpora. Posjet dogovorite unaprijed preko smještaja ili uprave nacionalnoga parka.", link: "https://www.blueandjohncrowmountains.org/" },
-        { ime: "Dan na Frenchman's Coveu", opis: "Dođite ujutro, dok je uvala prazna, i ostanite na ručku, jer se roštilj pali oko podneva.", link: "https://frenchmanscove.com/" }
+        { ime: "Rafting on the Rio Grande", opis: "The bamboo raft ride here lasts two to three hours and passes through a wide valley without a single house. Rafting for fun was invented by none other than Errol Flynn, who organized races among the raftsmen. Halfway down, a woman on the bank cooks lunch in pots over a fire." },
+        { ime: "A visit to the Maroons", opis: "You go to Moore Town with a guide from the community, who shows you the abeng horn and tells the story of the resistance. Arrange the visit in advance through your accommodation or the national park authority.", link: "https://www.blueandjohncrowmountains.org/" },
+        { ime: "A day at Frenchman's Cove", opis: "Come in the morning, while the cove is empty, and stay for lunch, because the grill is lit around noon.", link: "https://frenchmanscove.com/" }
       ],
       agencije: [
-        { ime: "Visit Jamaica", opis: "Službena stranica Jamajčanske turističke zajednice.", link: "https://www.visitjamaica.com/" },
-        { ime: "Blue and John Crow Mountains National Park", opis: "Uprava nacionalnoga parka, koja surađuje s marunskim zajednicama u dolini Rio Grande.", link: "https://www.blueandjohncrowmountains.org/" }
+        { ime: "Visit Jamaica", opis: "The official website of the Jamaica Tourist Board.", link: "https://www.visitjamaica.com/" },
+        { ime: "Blue and John Crow Mountains National Park", opis: "The national park authority, which works with the Maroon communities in the Rio Grande valley.", link: "https://www.blueandjohncrowmountains.org/" }
       ],
-      kada: "Ovo je najkišovitiji dio otoka, zato je i najzeleniji. Najsuše je od veljače do travnja, a pljuskovi su i tada kratki. Iz Kingstona se vozi oko dva i pol sata zavojitom cestom preko planina ili obalom."
+      kada: "This is the rainiest part of the island, which is why it is also the greenest. It is driest from February to April, and even then the showers are short. From Kingston the drive takes about two and a half hours on a winding road over the mountains or along the coast."
     }
   ],
   izvori: [
@@ -163,9 +163,9 @@ window.ATLAS["jamajka"] = {
     { ime: "Bob Marley Museum", url: "https://www.bobmarleymuseum.com/" },
     { ime: "Trench Town Culture Yard", url: "https://www.ttcultureyard.com/" },
     { ime: "Blue and John Crow Mountains National Park", url: "https://www.blueandjohncrowmountains.org/" },
-    { ime: "UNESCO: Plave planine i planine John Crow", url: "https://whc.unesco.org/en/list/1356" },
-    { ime: "UNESCO: Arheološka cjelina Port Royala iz 17. stoljeća", url: "https://whc.unesco.org/en/list/1595" },
-    { ime: "Jamaica Tourist Board, vijesti o obnovi nakon uragana Melissa", url: "https://www.jtbonline.org/" },
+    { ime: "UNESCO: Blue and John Crow Mountains", url: "https://whc.unesco.org/en/list/1356" },
+    { ime: "UNESCO: The Archaeological Ensemble of 17th Century Port Royal", url: "https://whc.unesco.org/en/list/1595" },
+    { ime: "Jamaica Tourist Board, news on the recovery after Hurricane Melissa", url: "https://www.jtbonline.org/" },
     { ime: "Reggae Sumfest", url: "https://reggaesumfest.com/" }
   ]
 };

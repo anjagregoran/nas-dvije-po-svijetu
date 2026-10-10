@@ -2,158 +2,158 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["belize"] = {
   id: "belize",
   ime: "Belize",
-  regija: "Srednja Amerika i Karibi",
-  sazetak: "Mala zemlja u kojoj se govori engleski, roni uz drugi najveći koraljni greben na svijetu i ulazi u špilje koje su Majama bile vrata podzemlja.",
+  regija: "Central America and the Caribbean",
+  sazetak: "A small country where English is spoken, where you dive along the second largest coral reef in the world and enter caves that were the gateway to the underworld for the Maya.",
   uvod: [
-    "Belize je jedina zemlja Srednje Amerike u kojoj je službeni jezik engleski, jer je do 1981. bio britanska kolonija pod imenom Britanski Honduras. Prije toga ovdje su više od tisuću godina cvali majanski gradovi poput Caracola, koji je u 7. stoljeću bio veći od današnjega najvećeg grada u zemlji. U 17. stoljeću na obalu su stigli britanski drvosječe i bivši gusari zvani Baymen, koji su sjekli kampeševo drvo za boju, a poslije mahagonij.",
-    "Na malom prostoru danas žive Kreoli, Mestici, tri majanska naroda, Garifune, čiji su se preci doselili s karipskoga otoka Sveti Vincent, te menoniti njemačkoga podrijetla koji proizvode velik dio hrane. Zemlja ima manje od pola milijuna stanovnika, a više od trećine kopna je zaštićeno. Zato se ovamo dolazi zbog grebena, džungle i špilja te zbog opuštenoga karipskog ritma koji mještani sažimaju u dvije riječi: go slow."
+    "Belize is the only country in Central America where the official language is English, because until 1981 it was a British colony under the name British Honduras. Before that, Maya cities flourished here for more than a thousand years, among them Caracol, which in the 7th century was larger than the country's biggest city is today. In the 17th century British woodcutters and former pirates known as Baymen arrived on the coast, cutting logwood for dye and later mahogany.",
+    "Today this small space is shared by Creoles, Mestizos, three Maya peoples, the Garifuna, whose ancestors came from the Caribbean island of Saint Vincent, and Mennonites of German descent who produce much of the food. The country has fewer than half a million inhabitants, and more than a third of its land is protected. That is why people come here for the reef, the jungle and the caves, and for the laid-back Caribbean rhythm that locals sum up in two words: go slow."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suho razdoblje traje od prosinca do svibnja. Sezona uragana je od lipnja do studenoga, a 19. studenoga slavi se Dan doseljenja Garifuna." },
-    { k: "Valuta", v: "Belizeanski dolar (BZD), čvrsto vezan uz američki u omjeru dva naprama jedan. Američki dolari primaju se svugdje, samo uvijek pitajte u kojim je dolarima cijena." },
-    { k: "Kretanje", v: "Na otoke voze brzi brodovi iz grada Belize Cityja ili mali zrakoplovi. Po kopnu prometuju stari školski autobusi, a za špilje i ruševine najjednostavnije je uzeti izlet s lokalnom agencijom." },
-    { k: "Napojnica", v: "U restoranima se ostavlja od 10 do 15 posto ako usluga nije uračunata. Vodičima za ronjenje i špilje napojnica je uobičajena." }
+    { k: "When to go", v: "The dry season lasts from December to May. Hurricane season runs from June to November, and Garifuna Settlement Day is celebrated on November 19." },
+    { k: "Currency", v: "The Belize dollar (BZD), pegged to the US dollar at two to one. US dollars are accepted everywhere, but always ask which dollars a price is in." },
+    { k: "Getting around", v: "Fast boats from Belize City or small planes go to the islands. Old school buses run on the mainland, and for the caves and ruins the simplest thing is to take a tour with a local agency." },
+    { k: "Tipping", v: "In restaurants people leave 10 to 15 percent if service is not included. Tipping is customary for dive and cave guides." }
   ],
   hrana: [
-    { ime: "Rice and beans sa stew chicken", opis: "Riža i crveni grah kuhani zajedno u kokosovu mlijeku, uz piletinu pirjanu u crvenoj začinskoj pasti recado, krumpirovu salatu i prženu bananu.", prica: "Ovo je nacionalni ručak, osobito nedjeljom. Pazite na razliku: rice and beans kuha se zajedno, a beans and rice znači da grah dolazi posebno, u umaku. Na stolu uvijek stoji boca ljutoga umaka od habanera i mrkve, koji se u Belizeu proizvodi od 1981. godine." },
-    { ime: "Fry jacks", opis: "Jastučići od dizanoga tijesta prženi u dubokom ulju, napuhani i šuplji.", prica: "Jedu se za doručak, punjeni grahom, sirom, jajima ili piletinom, a na otoku Caye Caulker prodaju se kroz prozore malih zalogajnica od ranoga jutra. Srodni su im johnny cakes, pečeni kruščići s kokosovim mlijekom." },
-    { ime: "Hudut", opis: "Riba kuhana u kokosovu mlijeku sa začinima, uz kuglu od zgnječene zelene i zrele banane.", prica: "Glavno jelo Garifuna jede se tako da se rukom otkine komadić bananine kugle i umoči u juhu. Banane se tuku u velikom drvenom mužaru, a zvuk udaraca u selima poput Hopkinsa najavljuje ručak." },
-    { ime: "Ceviche od školjke conch", opis: "Sitno sjeckano meso velikoga morskog puža marinirano u limeti s rajčicom, lukom, korijandrom i habanerom.", prica: "Poslužuje se s tortilja čipsom kao predjelo uz pivo. Lov na conch zabranjen je tijekom ljetnih mjeseci, a lov na jastoga u proljeće, pa pošteni restorani tada ta jela nemaju. Otvaranje sezone jastoga početkom srpnja otoci slave festivalima." },
-    { ime: "Salbutes, garnaches i panades", opis: "Male pržene kukuruzne tortilje s piletinom, grahom i sirom ili punjene ribom.", prica: "To je ulična hrana Mestika i Maja na sjeveru i zapadu zemlje, koja se prodaje po komadu sa štandova i iz kućnih prozora. Uz njih ide ukiseljeni luk s habanerom." },
-    { ime: "Chimole", opis: "Crna juha od piletine i jaja sa začinskom pastom od pougljenjenih čilija.", prica: "Zovu je i black dinner, a potječe od Maja s Yucatána. Boja plaši, ali okus je dimljen i blag. Kuha se za svetkovine i jede s kukuruznim tortiljama." },
-    { ime: "Ereba", opis: "Tanak, hrskav kruh od gorke manioke.", prica: "Garifune manioku ribaju, cijede u dugim pletenim cijevima da uklone otrovni sok i peku na velikim pločama. Posao traje dva dana i radi ga cijela obitelj uz pjesmu. Kruh može stajati mjesecima, pa je bio hrana za plovidbu." },
-    { ime: "Belikin i rum punch", opis: "Domaće pivo s majanskim hramom na etiketi i koktel od ruma s voćnim sokovima.", prica: "Belikin je gotovo jedino pivo u zemlji, a hram na etiketi nalazi se u Altun Hau. Na otocima se pije i seaweed shake, gusti napitak od morske alge, mlijeka i cimeta, a u selu Crooked Tree u svibnju se slavi vino od indijskoga oraščića." }
+    { ime: "Rice and beans with stew chicken", opis: "Rice and red beans cooked together in coconut milk, served with chicken stewed in the red spice paste recado, potato salad and fried plantain.", prica: "This is the national lunch, especially on Sundays. Mind the difference: rice and beans is cooked together, and beans and rice means the beans come separately, in a sauce. A bottle of hot sauce made from habanero and carrot, produced in Belize since 1981, is always on the table." },
+    { ime: "Fry jacks", opis: "Pillows of leavened dough, deep fried until puffed and hollow.", prica: "They are eaten for breakfast, stuffed with beans, cheese, eggs or chicken, and on the island of Caye Caulker they are sold through the windows of small snack shops from early morning. Their relatives are johnny cakes, small baked breads made with coconut milk." },
+    { ime: "Hudut", opis: "Fish simmered in coconut milk with spices, served with a ball of mashed green and ripe plantain.", prica: "The main dish of the Garifuna is eaten by tearing off a piece of the plantain ball with your hand and dipping it in the broth. The plantains are pounded in a large wooden mortar, and in villages like Hopkins the sound of the pounding announces lunch." },
+    { ime: "Conch ceviche", opis: "Finely chopped meat of the large sea snail marinated in lime with tomato, onion, cilantro and habanero.", prica: "It is served with tortilla chips as a starter with beer. Conch fishing is banned during the summer months and lobster fishing in spring, so honest restaurants do not have those dishes then. The islands celebrate the opening of lobster season in early July with festivals." },
+    { ime: "Salbutes, garnaches and panades", opis: "Small fried corn tortillas topped with chicken, with beans and cheese, or stuffed with fish.", prica: "This is the street food of the Mestizos and Maya in the north and west of the country, sold by the piece from stalls and house windows. It comes with pickled onion and habanero." },
+    { ime: "Chimole", opis: "A black soup of chicken and eggs with a spice paste made from charred chilies.", prica: "It is also called black dinner, and it comes from the Maya of Yucatán. The color is alarming, but the flavor is smoky and mild. It is cooked for celebrations and eaten with corn tortillas." },
+    { ime: "Ereba", opis: "A thin, crisp bread made from bitter cassava.", prica: "The Garifuna grate the cassava, squeeze it in long woven tubes to remove the poisonous juice and bake it on large griddles. The job takes two days, and the whole family does it while singing. The bread keeps for months, so it used to be food for sea voyages." },
+    { ime: "Belikin and rum punch", opis: "The local beer with a Maya temple on the label, and a cocktail of rum with fruit juices.", prica: "Belikin is almost the only beer in the country, and the temple on the label is at Altun Ha. On the islands people also drink the seaweed shake, a thick drink of seaweed, milk and cinnamon, and in May the village of Crooked Tree celebrates cashew wine." }
   ],
   obicaji: [
-    { ime: "Garifunski bubnjevi i punta", opis: "Garifune su potomci Afrikanaca i karipskih starosjedilaca, koje su Britanci krajem 18. stoljeća prognali s otoka Sveti Vincent. Njihova se glazba svira na dva bubnja, višem primeru i nižem segundi, uz zvečke i oklope kornjače, a punta je brz ples kukovima koji se izvorno plesao na bdjenjima. UNESCO je njihov jezik, ples i glazbu zaštitio 2001. godine.", gdje: "U selu Hopkins škola Lebeha Drumming Center drži satove bubnjanja i plesa te večernje nastupe. Bubnjevi se čuju i u Dangrigi i Seine Bightu, osobito oko 19. studenoga." },
-    { ime: "Dan doseljenja Garifuna", opis: "Svakoga 19. studenoga Garifune u zoru čamcima dolaze na obalu, mašući palminim granama i listovima banane, i tako uprizoruju dolazak svojih predaka u Belize u 19. stoljeću. Slijede misa na garifunskom jeziku, povorka i cjelodnevno bubnjanje.", gdje: "Najveća je proslava u Dangrigi, a manje su u Hopkinsu, Seine Bightu i Punta Gordi. Slavlje počinje već večer prije." },
-    { ime: "Jankunu", opis: "Ples pod maskama s ružičastim licima i tankim brkovima, u kojem plesači s krunama od perja i školjkama oko koljena oponašaju i ismijavaju nekadašnje robovlasnike. Bubnjar pritom prati plesača, a ne obratno.", gdje: "Pleše se od Božića do Sveta tri kralja po ulicama Dangrige i garifunskih sela, od kuće do kuće." },
-    { ime: "Rujanske proslave", opis: "Cijeli rujan zemlja slavi dva datuma: 10. rujna, obljetnicu bitke kod otočića St. George's Caye 1798., u kojoj su doseljenici odbili španjolsku flotu, i 21. rujna, Dan neovisnosti. Ulice su okićene zastavama, a vrhunac je karnevalska povorka.", gdje: "Najveće su povorke i koncerti u Belize Cityju, ali slavi se u svakom mjestu, pa i na otocima." },
-    { ime: "Brukdown i kreolska kultura", opis: "Brukdown je vesela glazba kreolskih drvosječa iz šumskih logora, svirana na harmonici, bendžu, bubnju i magarećoj čeljusti po kojoj se struže štapom. Najpoznatiji mu je izvođač bio Wilfred Peters, kojega su zvali kraljem brukdowna.", gdje: "Čuje se na rujanskim proslavama i u selima uz rijeku Belize. Kreolski jezik, kriol, čut ćete svugdje, a razumjet ćete ga napola." },
-    { ime: "Go slow", opis: "Na otoku Caye Caulker nema asfalta ni automobila, a natpisi mole prolaznike da uspore. To je i životno pravilo: ručak se čeka, brod kasni, i nitko se zbog toga ne uzrujava.", gdje: "Na otocima Caye Caulker i Ambergris Caye vozi se u kolicima za golf i na biciklu, a po otoku se hoda bosonogo." }
+    { ime: "Garifuna drums and punta", opis: "The Garifuna are descendants of Africans and indigenous Caribbean people, whom the British exiled from the island of Saint Vincent at the end of the 18th century. Their music is played on two drums, the higher primero and the lower segunda, with rattles and turtle shells, and punta is a fast hip dance that was originally danced at wakes. UNESCO recognized their language, dance and music in 2001.", gdje: "In the village of Hopkins the Lebeha Drumming Center gives drumming and dance lessons and evening performances. The drums can also be heard in Dangriga and Seine Bight, especially around November 19." },
+    { ime: "Garifuna Settlement Day", opis: "Every November 19 at dawn the Garifuna come ashore in boats, waving palm fronds and banana leaves, reenacting the arrival of their ancestors in Belize in the 19th century. This is followed by a mass in the Garifuna language, a parade and drumming all day long.", gdje: "The biggest celebration is in Dangriga, with smaller ones in Hopkins, Seine Bight and Punta Gorda. The festivities begin the evening before." },
+    { ime: "Jankunu", opis: "A masked dance with pink faces and thin mustaches, in which dancers wearing feathered crowns and shells around their knees imitate and mock the slave owners of the past. Here the drummer follows the dancer, the reverse of the usual arrangement.", gdje: "It is danced from Christmas to Epiphany through the streets of Dangriga and the Garifuna villages, from house to house." },
+    { ime: "The September Celebrations", opis: "The country spends all of September celebrating two dates: September 10, the anniversary of the 1798 Battle of St. George's Caye, in which the settlers drove off a Spanish fleet, and September 21, Independence Day. The streets are decked with flags, and the high point is the carnival parade.", gdje: "The biggest parades and concerts are in Belize City, but every town celebrates, the islands included." },
+    { ime: "Brukdown and Creole culture", opis: "Brukdown is the cheerful music of the Creole woodcutters from the logging camps, played on accordion, banjo, drum and a donkey's jawbone scraped with a stick. Its most famous performer was Wilfred Peters, who was known as the king of brukdown.", gdje: "You can hear it at the September Celebrations and in the villages along the Belize River. You will hear the Creole language, Kriol, everywhere, and you will understand about half of it." },
+    { ime: "Go slow", opis: "The island of Caye Caulker has no pavement and no cars, and signs ask passersby to slow down. It is also a way of life: lunch takes a while, the boat is late, and nobody gets upset about it.", gdje: "On the islands of Caye Caulker and Ambergris Caye people get around by golf cart and bicycle, and they walk around the island barefoot." }
   ],
   fraze: [
-    { izvorno: "Gud maanin", izgovor: "gud MA-nin", hr: "Dobro jutro (kriol)" },
-    { izvorno: "Weh di go aan?", izgovor: "ve di go AN", hr: "Što ima? Kako je? (kriol)" },
-    { izvorno: "Aarait", izgovor: "a-RAJT", hr: "Dobro je, u redu (kriol, i kao pozdrav)" },
-    { izvorno: "Tenk yu", izgovor: "TENK ju", hr: "Hvala (kriol)" },
-    { izvorno: "How much is it?", izgovor: "hau mač IZ it", hr: "Koliko košta? (engleski)" },
-    { izvorno: "Buiti binafi", izgovor: "BUI-ti bi-NA-fi", hr: "Dobro jutro (garifunski)" },
-    { izvorno: "Seremein", izgovor: "se-re-MEJN", hr: "Hvala (garifunski)" },
-    { izvorno: "Buenos días", izgovor: "BUE-nos DI-as", hr: "Dobro jutro (španjolski, čut ćete ga na zapadu i sjeveru)" }
+    { izvorno: "Gud maanin", izgovor: "good MAH-neen", hr: "Good morning (Kriol)" },
+    { izvorno: "Weh di go aan?", izgovor: "weh dee go AHN", hr: "What's up? How's it going? (Kriol)" },
+    { izvorno: "Aarait", izgovor: "ah-RITE", hr: "All right, okay (Kriol, also used as a greeting)" },
+    { izvorno: "Tenk yu", izgovor: "TENK yoo", hr: "Thank you (Kriol)" },
+    { izvorno: "How much is it?", izgovor: "how much IZ it", hr: "How much does it cost? (English)" },
+    { izvorno: "Buiti binafi", izgovor: "BWEE-tee bee-NAH-fee", hr: "Good morning (Garifuna)" },
+    { izvorno: "Seremein", izgovor: "seh-reh-MAYN", hr: "Thank you (Garifuna)" },
+    { izvorno: "Buenos días", izgovor: "BWEH-nohs DEE-ahs", hr: "Good morning (Spanish, you will hear it in the west and north)" }
   ],
   zanimljivosti: [
-    "Najviša građevina u Belizeu i danas je majanska piramida Caana u Caracolu, visoka oko 43 metra.",
-    "Velika plava rupa promjera je oko 300 metara i duboka više od 120 metara, a nastala je kao špilja na suhom, čiji se strop urušio kad se nakon ledenoga doba podiglo more.",
-    "U Belizeu je 1986. osnovan prvi rezervat na svijetu namijenjen zaštiti jaguara, Cockscomb Basin.",
-    "Glavni grad Belmopan sagrađen je u unutrašnjosti nakon što je uragan Hattie 1961. opustošio Belize City, i jedan je od najmanjih glavnih gradova na svijetu.",
-    "Belizeanski koraljni greben skinut je 2018. s UNESCO-ova popisa ugrožene baštine nakon što je zemlja zabranila bušenje nafte u svojem moru.",
-    "Nacionalna životinja je tapir, kojega mještani zovu planinska krava.",
-    "Mještani San Pedra uvjereni su da je Madonna pjesmu La Isla Bonita napisala o njihovu otoku, iako je pjevačica rekla da nije mislila na određeno mjesto."
+    "The tallest structure in Belize is still the Maya pyramid of Caana at Caracol, about 43 meters high.",
+    "The Great Blue Hole is about 300 meters across and more than 120 meters deep, and it formed as a cave on dry land whose roof collapsed when the sea rose after the Ice Age.",
+    "In 1986 the first reserve in the world dedicated to protecting jaguars, Cockscomb Basin, was established in Belize.",
+    "The capital, Belmopan, was built inland after Hurricane Hattie devastated Belize City in 1961, and it is one of the smallest capital cities in the world.",
+    "The Belize Barrier Reef was removed from the UNESCO List of World Heritage in Danger in 2018 after the country banned oil drilling in its waters.",
+    "The national animal is the tapir, which locals call the mountain cow.",
+    "The people of San Pedro are convinced that Madonna wrote the song La Isla Bonita about their island, even though the singer has said she did not have a particular place in mind."
   ],
   mjesta: [
     {
       id: "ambergris-caye-caulker",
-      ime: "Ambergris Caye i Caye Caulker",
+      ime: "Ambergris Caye and Caye Caulker",
       vrsta: "otok",
-      sazetak: "Dva pješčana otoka tik uz koraljni greben, jedan živahan, drugi bosonog, s morskim psima dojiljama i ražama u plićaku.",
+      sazetak: "Two sandy islands right beside the coral reef, one lively and the other barefoot, with nurse sharks and rays in the shallows.",
       prica: [
-        "Otoci leže uz greben koji se duž belizeanske obale proteže oko tristo kilometara i dio je drugoga najvećeg sustava koraljnih grebena na svijetu. Maje su ovdje imali trgovačke postaje, a današnje stanovnike čine uglavnom potomci Mestika koji su sredinom 19. stoljeća pobjegli pred ratom na Yucatánu i živjeli od ribolova i kokosa.",
-        "Ambergris Caye, s gradićem San Pedro, najveći je otok i središte ronjenja. Caye Caulker je manji, jeftiniji i sporiji, s tri pješčane ulice. Na oba se otoka more gleda prema bijeloj crti valova koji se lome na grebenu, kilometar od obale."
+        "The islands lie along the reef that stretches for about three hundred kilometers down the coast of Belize and is part of the second largest coral reef system in the world. The Maya had trading posts here, and today's residents are mostly descendants of Mestizos who fled the war in Yucatán in the mid-19th century and lived off fishing and coconuts.",
+        "Ambergris Caye, with the small town of San Pedro, is the largest island and the center of diving. Caye Caulker is smaller, cheaper and slower, with three sandy streets. On both islands you look out to sea toward the white line of waves breaking on the reef, a kilometer from shore."
       ],
       vidjeti: [
-        { ime: "Morski rezervat Hol Chan", opis: "Ime na majanskom znači mali kanal, a odnosi se na prirodni usjek u grebenu kroz koji prolaze ribe. Otkako je 1987. zabranjen ribolov, riblji se fond obnovio, pa se s maskom vide kirnje, barakude, kornjače i murine na nekoliko metara dubine." },
-        { ime: "Shark Ray Alley", opis: "Na ovom su mjestu ribari godinama čistili ulov, pa su se morski psi dojilje i raže naviknuli na čamce. Dojilje su bezopasne i hrane se s dna, a plivanje među desecima njih mnogima je vrhunac putovanja." },
-        { ime: "Velika plava rupa", opis: "Savršeno okrugli tamnoplavi ponor usred atola Lighthouse Reef proslavio je Jacques Cousteau 1971., kada ga je istraživao svojim brodom Calypso. Roniocima nudi stalaktite na četrdeset metara dubine, a svima ostalima let malim zrakoplovom, iz kojega se oblik najbolje vidi." },
-        { ime: "The Split", opis: "Uski kanal koji dijeli Caye Caulker na dva dijela nastao je kad je uragan Hattie 1961. probio otok, a mještani su ga poslije produbili. Danas je to glavno kupalište i mjesto na kojem se dočekuje zalazak sunca." },
-        { ime: "Lamantini i tarponi", opis: "U plitkim lagunama oko otoka žive lamantini, spore morske krave koje se gledaju iz čamca, bez ulaska u vodu. Uz zapadnu obalu Caye Caulkera okuplja se jato tarpona, srebrnih riba dugih i do dva metra." }
+        { ime: "Hol Chan Marine Reserve", opis: "The name means little channel in Maya and refers to a natural cut in the reef that fish pass through. Since fishing was banned in 1987 the fish stocks have recovered, so with a snorkel mask you can see groupers, barracudas, turtles and moray eels at a depth of a few meters." },
+        { ime: "Shark Ray Alley", opis: "Fishermen cleaned their catch at this spot for years, so the nurse sharks and rays grew used to boats. Nurse sharks are harmless and feed on the bottom, and for many people swimming among dozens of them is the highlight of the trip." },
+        { ime: "The Great Blue Hole", opis: "The perfectly round, dark blue abyss in the middle of Lighthouse Reef Atoll was made famous by Jacques Cousteau in 1971, when he explored it with his ship Calypso. It offers divers stalactites at forty meters down, and everyone else a flight in a small plane, from which the shape is seen best." },
+        { ime: "The Split", opis: "The narrow channel that divides Caye Caulker in two was created when Hurricane Hattie cut through the island in 1961, and locals later deepened it. Today it is the main swimming spot and the place to watch the sunset." },
+        { ime: "Manatees and tarpon", opis: "The shallow lagoons around the islands are home to manatees, slow sea cows that are watched from the boat, without getting into the water. Along the west coast of Caye Caulker gathers a school of tarpon, silver fish up to two meters long." }
       ],
       jesti: [
-        { ime: "Jastog s roštilja", opis: "Od srpnja do veljače peče se na bačvama uz obalu, a početak sezone oba otoka slave višednevnim festivalom." },
-        { ime: "Fry jacks za doručak", opis: "Na Caye Caulkeru stanite u red pred malom zalogajnicom ujutro i uzmite ih punjene, za ponijeti na mol." },
-        { ime: "Ceviche i riba na žaru", opis: "Navečer ribari na cesti peku dnevni ulov, a prilog su riža s kokosom i salata od kupusa." }
+        { ime: "Grilled lobster", opis: "From July to February it is grilled on barrel barbecues along the shore, and both islands celebrate the start of the season with a festival lasting several days." },
+        { ime: "Fry jacks for breakfast", opis: "On Caye Caulker, join the line in front of a small snack shop in the morning and get them stuffed, to take out to the pier." },
+        { ime: "Ceviche and grilled fish", opis: "In the evening fishermen grill the day's catch by the road, and the sides are coconut rice and coleslaw." }
       ],
       dozivjeti: [
-        { ime: "Poludnevno ronjenje s maskom", opis: "Izlet čamcem obično spaja Hol Chan i Shark Ray Alley s vodičem koji u vodi pokazuje životinje. Odaberite prijevoznika koji životinje ne hrani i ne dopušta da ih se dira.", link: "https://holchanbelize.org/" },
-        { ime: "Let iznad Plave rupe", opis: "Mali zrakoplovi polijeću iz San Pedra i s Caye Caulkera i u jednom satu obiđu atol i rupu. Tko ne roni s bocom, tako će vidjeti više nego s broda." },
-        { ime: "Biciklom ili kolicima po otoku", opis: "Na Ambergris Cayeu unajmite kolica za golf i odvezite se na sjever do mirnijih plaža, a na Caye Caulkeru je dovoljan bicikl i pola sata." }
+        { ime: "A half-day snorkeling trip", opis: "A boat trip usually combines Hol Chan and Shark Ray Alley, with a guide who points out the animals in the water. Choose an operator that does not feed the animals and does not allow them to be touched.", link: "https://holchanbelize.org/" },
+        { ime: "A flight over the Blue Hole", opis: "Small planes take off from San Pedro and Caye Caulker and circle the atoll and the hole within an hour. Anyone who does not scuba dive will see more this way than from a boat." },
+        { ime: "Around the island by bike or golf cart", opis: "On Ambergris Caye rent a golf cart and drive north to the quieter beaches, and on Caye Caulker a bicycle and half an hour are enough." }
       ],
       agencije: [
-        { ime: "Travel Belize", opis: "Službena stranica Turističke zajednice Belizea.", link: "https://www.travelbelize.org/" },
-        { ime: "Hol Chan Marine Reserve", opis: "Uprava morskoga rezervata, s pravilima ponašanja i naknadama za ulaz.", link: "https://holchanbelize.org/" }
+        { ime: "Travel Belize", opis: "The official website of the Belize Tourism Board.", link: "https://www.travelbelize.org/" },
+        { ime: "Hol Chan Marine Reserve", opis: "The marine reserve's management, with the rules of conduct and entrance fees.", link: "https://holchanbelize.org/" }
       ],
-      kada: "More je najmirnije i najbistrije od ožujka do lipnja. Od prosinca do veljače povremeno pušu hladni sjeverni vjetrovi, pa se izleti na otvoreno more znaju otkazati."
+      kada: "The sea is calmest and clearest from March to June. From December to February cold north winds blow now and then, and trips out to open water are sometimes canceled."
     },
     {
       id: "san-ignacio",
-      ime: "San Ignacio i okrug Cayo",
+      ime: "San Ignacio and the Cayo District",
       vrsta: "regija",
-      sazetak: "Brdovita unutrašnjost s majanskim gradovima, rijekama i špiljom u kojoj kosturi žrtava svjetlucaju od kristala.",
+      sazetak: "A hilly interior with Maya cities, rivers and a cave where the skeletons of sacrificial victims sparkle with crystals.",
       prica: [
-        "San Ignacio leži na rijeci Macal blizu gvatemalske granice i polazište je za majanske gradove zapadnoga Belizea. Najveći među njima, Caracol, u 6. i 7. stoljeću pobijedio je moćni Tikal i imao više od sto tisuća stanovnika.",
-        "Vapnenačko gorje oko gradića puno je špilja koje su Maje smatrali ulazom u Xibalbu, podzemni svijet, i u njima su prinosili žrtve bogovima kiše. U 20. stoljeću ovuda su prolazili sakupljači smole za žvakaće gume, a danas je to kraj farmi, menonitskih sela i šumskih koliba."
+        "San Ignacio lies on the Macal River near the Guatemalan border and is the starting point for the Maya cities of western Belize. The largest of them, Caracol, defeated mighty Tikal in the 6th and 7th centuries and had more than a hundred thousand inhabitants.",
+        "The limestone hills around the town are full of caves that the Maya regarded as the entrance to Xibalba, the underworld, and where they made offerings to the rain gods. In the 20th century chicle gatherers, who collected the sap for chewing gum, passed through here, and today it is an area of farms, Mennonite villages and jungle lodges."
       ],
       vidjeti: [
-        { ime: "Xunantunich", opis: "Do nalazišta se prelazi rijeka Mopan skelom koju skelar pokreće ručnom kurblom. Glavna građevina El Castillo visoka je oko 40 metara, a na njezinim bokovima vidi se friz u štukaturi s likovima bogova i nebeskih tijela. Ime znači kamena žena, prema prikazi koja se, kaže legenda, ukazuje na stubama." },
-        { ime: "Caracol", opis: "Najveći majanski grad u Belizeu leži duboko u šumskom rezervatu Chiquibul. S vrha piramide Caana, što znači nebeska palača, vidi se samo krošnja do obzora. Na oltarima su zapisi o pobjedi nad Tikalom 562. godine." },
-        { ime: "Actun Tunichil Muknal", opis: "U špilju se ulazi plivajući, zatim se gazi podzemnom rijekom i penje u suhu dvoranu punu majanskih posuda i ljudskih ostataka. Najpoznatiji je kostur mlade osobe prekriven kalcitom, pa svjetluca i zovu ga Kristalna djevojka. Fotoaparati su zabranjeni otkako je jedan posjetitelj svojim oštetio lubanju." },
-        { ime: "Cahal Pech", opis: "Mali kraljevski dvor na brežuljku iznad samoga gradića jedan je od najstarijih majanskih lokaliteta u dolini rijeke Belize. Uski prolazi i lažni svodovi lijepo se vide, a posjetitelja je malo." },
-        { ime: "Belizeanski zoološki vrt", opis: "Na cesti prema obali nalazi se zoološki vrt koji je 1983. osnovala Sharon Matola da zbrine životinje preostale nakon snimanja dokumentarnoga filma. Drži samo domaće vrste, većinom spašene, pa je to najbolja prilika da izbliza vidite jaguara, tapira i harpiju.", }
+        { ime: "Xunantunich", opis: "To reach the site you cross the Mopan River on a ferry that the ferryman moves with a hand crank. The main structure, El Castillo, is about 40 meters high, and on its sides you can see a stucco frieze with figures of gods and celestial bodies. The name means stone woman, after an apparition that, legend says, appears on the steps." },
+        { ime: "Caracol", opis: "The largest Maya city in Belize lies deep in the Chiquibul Forest Reserve. From the top of the Caana pyramid, whose name means sky palace, you see nothing but canopy all the way to the horizon. The altars carry records of the victory over Tikal in 562." },
+        { ime: "Actun Tunichil Muknal", opis: "You enter the cave by swimming, then wade up an underground river and climb into a dry chamber full of Maya pottery and human remains. The best known is the skeleton of a young person coated in calcite, which makes it sparkle and has earned it the name the Crystal Maiden. Cameras have been banned ever since a visitor damaged a skull with his." },
+        { ime: "Cahal Pech", opis: "A small royal court on a hill right above the town is one of the oldest Maya sites in the Belize River valley. The narrow passages and corbeled vaults are easy to see, and there are few visitors." },
+        { ime: "The Belize Zoo", opis: "On the road to the coast is the zoo founded in 1983 by Sharon Matola to care for the animals left over after the filming of a documentary. It keeps only native species, most of them rescued, so it is your best chance to see a jaguar, a tapir and a harpy eagle up close." }
       ],
       jesti: [
-        { ime: "Tržnica u San Ignaciju", opis: "Subotom ujutro majanski i menonitski seljaci prodaju voće i povrće, a štandovi peku pupuse, tortilje i tamales za doručak." },
-        { ime: "Salbutes i garnaches", opis: "Ulična hrana zapada zemlje, najbolja navečer na štandovima oko glavnoga trga." },
-        { ime: "Čokolada od majanskoga kakaa", opis: "U gradiću male radionice melju kakao iz južnoga okruga Toledo i poslužuju ga kao gorko piće sa začinima." }
+        { ime: "San Ignacio Market", opis: "On Saturday mornings Maya and Mennonite farmers sell fruit and vegetables, and stalls cook pupusas, tortillas and tamales for breakfast." },
+        { ime: "Salbutes and garnaches", opis: "The street food of the west of the country, at its best in the evening at the stalls around the main square." },
+        { ime: "Chocolate from Maya cacao", opis: "In town, small workshops grind cacao from the southern Toledo District and serve it as a bitter drink with spices." }
       ],
       dozivjeti: [
-        { ime: "Izlet u špilju ATM", opis: "U špilju se smije samo s licenciranim vodičem, u maloj skupini. Tura traje cijeli dan, traži osnovnu kondiciju i znanje plivanja, a hoda se u čarapama da se ne ošteti tlo. Vode je agencije iz San Ignacija.", link: "https://pacztours.net/" },
-        { ime: "Cjelodnevni izlet u Caracol", opis: "Put vodi kroz borovu šumu Mountain Pine Ridge, pa se na povratku obično stane na kupanje na slapovima i bazenima rijeke Río On.", link: "https://www.mayawalk.com/" },
-        { ime: "Kanuom po rijeci Macal", opis: "Mirna vožnja uzvodno od gradića prolazi uz iguane na granama i šišmiše pod stijenama, a traje sat ili dva." }
+        { ime: "A trip to the ATM cave", opis: "You may enter the cave only with a licensed guide, in a small group. The tour takes a full day and calls for basic fitness and the ability to swim, and you walk in socks so as not to damage the floor. It is run by agencies in San Ignacio.", link: "https://pacztours.net/" },
+        { ime: "A full-day trip to Caracol", opis: "The route runs through the Mountain Pine Ridge pine forest, so on the way back there is usually a stop for a swim at the waterfalls and pools of the Río On.", link: "https://www.mayawalk.com/" },
+        { ime: "By canoe on the Macal River", opis: "A peaceful paddle upstream from town passes iguanas on the branches and bats under the rock faces, and it takes an hour or two." }
       ],
       agencije: [
-        { ime: "Travel Belize", opis: "Službena stranica Turističke zajednice Belizea.", link: "https://www.travelbelize.org/" },
-        { ime: "Pacz Tours", opis: "Agencija iz San Ignacija specijalizirana za špilju ATM, Caracol i Tikal.", link: "https://pacztours.net/" },
-        { ime: "MayaWalk Tours", opis: "Lokalna agencija s licenciranim vodičima za špilje i majanska nalazišta.", link: "https://www.mayawalk.com/" }
+        { ime: "Travel Belize", opis: "The official website of the Belize Tourism Board.", link: "https://www.travelbelize.org/" },
+        { ime: "Pacz Tours", opis: "A San Ignacio agency specializing in the ATM cave, Caracol and Tikal.", link: "https://pacztours.net/" },
+        { ime: "MayaWalk Tours", opis: "A local agency with licensed guides for the caves and the Maya sites.", link: "https://www.mayawalk.com/" }
       ],
-      kada: "Od veljače do svibnja rijeke su niske i špilje sigurno dostupne. Nakon jakih kiša špilja ATM zna se zatvoriti na dan ili dva, pa je ne ostavljajte za zadnji dan."
+      kada: "From February to May the rivers are low and the caves are safely accessible. After heavy rain the ATM cave is sometimes closed for a day or two, so do not leave it for your last day."
     },
     {
       id: "hopkins-placencia",
-      ime: "Hopkins i Placencia",
+      ime: "Hopkins and Placencia",
       vrsta: "gradić",
-      sazetak: "Garifunsko selo bubnjeva i uski pješčani poluotok na jugu, s rezervatom jaguara u zaleđu.",
+      sazetak: "A Garifuna village of drums and a narrow sandy peninsula in the south, with a jaguar reserve in the hinterland.",
       prica: [
-        "Hopkins je nastao 1942., kada su se ovamo preselile garifunske obitelji čije je selo uništio uragan. Proteže se uz jednu cestu paralelnu s plažom, a mještani ga smatraju kulturnim središtem Garifuna u Belizeu.",
-        "Placencia, sat vožnje južnije, leži na vrhu uskoga poluotoka između mora i lagune. Bila je ribarsko selo Kreola do kojega je vodio samo betonski puteljak kroz pijesak, koji i danas služi kao glavna pješačka ulica."
+        "Hopkins came into being in 1942, when Garifuna families whose village had been destroyed by a hurricane moved here. It stretches along a single road parallel to the beach, and locals consider it the cultural center of the Garifuna in Belize.",
+        "Placencia, an hour's drive farther south, lies at the tip of a narrow peninsula between the sea and a lagoon. It was a Creole fishing village reached only by a concrete footpath through the sand, which still serves as the main pedestrian street today."
       ],
       vidjeti: [
-        { ime: "Rezervat Cockscomb Basin", opis: "U dolini pod planinama Maya nalazi se prvi rezervat na svijetu osnovan radi zaštite jaguara. Mačke su noćne i gotovo ih je nemoguće vidjeti, ali na blatnim stazama često se nađu njihovi tragovi. Staze vode do slapova s bazenima za kupanje." },
-        { ime: "Selo Hopkins", opis: "Uz cestu su drvene kuće na stupovima, radionice bubnjeva i čamci izdubljeni iz jednoga debla. Bubnjevi se rade od mahagonija ili drva mayflower, s jelenjom kožom i žicama preko opne koje daju zujav zvuk." },
-        { ime: "Pješačka staza u Placenciji", opis: "Betonski puteljak dug oko kilometar i pol vodi između kuća, pansiona i štandova i nekoć se spominjao kao najuža glavna ulica na svijetu. S jedne je strane plaža, a s druge selo." },
-        { ime: "Laughing Bird Caye", opis: "Otočić sat vožnje čamcem od Placencije nacionalni je park na neobičnoj vrsti izduženoga atola. Greben je odmah uz plažu, pa se roni s maskom ravno s pijeska." },
-        { ime: "Kitopsine kod Gladden Spita", opis: "U proljeće, oko punoga mjeseca, na rubu grebena mrijeste se jata šnjura, a njihovom se ikrom dolaze hraniti kitopsine. Izleti su strogo regulirani i ovise o mjesečevim mijenama." }
+        { ime: "Cockscomb Basin Wildlife Sanctuary", opis: "In a valley beneath the Maya Mountains is the first reserve in the world established to protect jaguars. The cats are nocturnal and almost impossible to see, but their tracks often turn up on the muddy trails. The trails lead to waterfalls with swimming pools." },
+        { ime: "Hopkins village", opis: "Along the road are wooden houses on stilts, drum workshops and boats hollowed out of a single trunk. The drums are made of mahogany or mayflower wood, with deerskin and with wires across the head that give a buzzing sound." },
+        { ime: "The Placencia Sidewalk", opis: "The concrete footpath about a kilometer and a half long runs between houses, guesthouses and stalls and was once cited as the narrowest main street in the world. The beach is on one side and the village on the other." },
+        { ime: "Laughing Bird Caye", opis: "The islet an hour by boat from Placencia is a national park on an unusual kind of elongated atoll. The reef is right beside the beach, so you snorkel straight off the sand." },
+        { ime: "Whale sharks at Gladden Spit", opis: "In spring, around the full moon, schools of snapper spawn at the edge of the reef, and whale sharks come to feed on their eggs. The trips are strictly regulated and depend on the phases of the moon." }
       ],
       jesti: [
-        { ime: "Hudut", opis: "U Hopkinsu ga kuhaju obiteljske zalogajnice uz plažu, a neke nude i da same istučete banane u mužaru." },
-        { ime: "Kruh od manioke i sahou", opis: "Uz hrskavi kruh ereba kušajte i sahou, gusti slatki napitak od manioke s kokosovim mlijekom i muškatnim oraščićem." },
-        { ime: "Sladoled i riba u Placenciji", opis: "Na stazi je nekoliko malih slastičarnica s domaćim sladoledom od tropskoga voća, a na vrhu poluotoka ribari prodaju ulov s mola." }
+        { ime: "Hudut", opis: "In Hopkins it is cooked by the family eateries along the beach, and some let you pound the plantains in the mortar yourself." },
+        { ime: "Cassava bread and sahou", opis: "Along with the crisp ereba bread, try sahou, a thick, sweet cassava drink with coconut milk and nutmeg." },
+        { ime: "Ice cream and fish in Placencia", opis: "On the Sidewalk are several small parlors with homemade tropical fruit ice cream, and at the tip of the peninsula fishermen sell their catch from the pier." }
       ],
       dozivjeti: [
-        { ime: "Sat bubnjanja i plesa", opis: "U školi Lebeha u Hopkinsu naučit ćete osnovne ritmove punte i parande na dva bubnja i nekoliko plesnih koraka, a navečer učitelji i djeca iz sela sviraju za goste.", link: "https://lebeha.com/" },
-        { ime: "Šetnja u Cockscombu", opis: "Dođite rano, s vodičem iz obližnjega majanskog sela, koji će vam pokazati tragove jaguara, tukane i biljke kojima se liječi. Na kraju se rijekom spušta u zračnicama.", link: "https://belizeaudubon.org/" },
-        { ime: "Rijekom Monkey River", opis: "Iz Placencije se čamcem ide kroz mangrove do ušća rijeke i uzvodno, gdje se u krošnjama vide majmuni urlikavci, a uz obalu krokodili." }
+        { ime: "A drumming and dance lesson", opis: "At the Lebeha school in Hopkins you will learn the basic punta and paranda rhythms on two drums and a few dance steps, and in the evening the teachers and children from the village play for guests.", link: "https://lebeha.com/" },
+        { ime: "A walk in Cockscomb", opis: "Come early, with a guide from the nearby Maya village, who will show you jaguar tracks, toucans and medicinal plants. At the end you float down the river on inner tubes.", link: "https://belizeaudubon.org/" },
+        { ime: "Up the Monkey River", opis: "From Placencia you go by boat through the mangroves to the river mouth and upstream, where you see howler monkeys in the treetops and crocodiles along the bank." }
       ],
       agencije: [
-        { ime: "Placencia BTIA", opis: "Mjesni ogranak udruge turističke industrije, s uredom za posjetitelje u Placenciji.", link: "https://www.placencia.com/" },
-        { ime: "Belize Audubon Society", opis: "Udruga koja upravlja rezervatom Cockscomb Basin i drugim zaštićenim područjima.", link: "https://belizeaudubon.org/" },
-        { ime: "Travel Belize", opis: "Službena stranica Turističke zajednice Belizea.", link: "https://www.travelbelize.org/" }
+        { ime: "Placencia BTIA", opis: "The local chapter of the tourism industry association, with a visitor office in Placencia.", link: "https://www.placencia.com/" },
+        { ime: "Belize Audubon Society", opis: "The organization that manages the Cockscomb Basin reserve and other protected areas.", link: "https://belizeaudubon.org/" },
+        { ime: "Travel Belize", opis: "The official website of the Belize Tourism Board.", link: "https://www.travelbelize.org/" }
       ],
-      kada: "Najsuše je od veljače do svibnja, a kitopsine dolaze od ožujka do lipnja. Za garifunsku kulturu dođite oko 19. studenoga, kada cijela obala slavi."
+      kada: "It is driest from February to May, and the whale sharks come from March to June. For Garifuna culture come around November 19, when the whole coast celebrates."
     }
   ],
   izvori: [
     { ime: "Travel Belize (Belize Tourism Board)", url: "https://www.travelbelize.org/" },
-    { ime: "UNESCO: Sustav rezervata Belizeanskoga koraljnog grebena", url: "https://whc.unesco.org/en/list/764" },
+    { ime: "UNESCO: Belize Barrier Reef Reserve System", url: "https://whc.unesco.org/en/list/764" },
     { ime: "National Institute of Culture and History, Institute of Archaeology", url: "https://nichbelize.org/institute-of-archaeology/" },
     { ime: "Belize Audubon Society", url: "https://belizeaudubon.org/" },
     { ime: "Hol Chan Marine Reserve", url: "https://holchanbelize.org/" },

@@ -1,190 +1,190 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["bolivija"] = {
   id: "bolivija",
-  ime: "Bolivija",
-  regija: "Južna Amerika",
-  sazetak: "Zemlja na krovu Južne Amerike, s najvećom slanom pustinjom svijeta, gradom srebra i tržnicama na kojima andski svijet živi punim plućima.",
+  ime: "Bolivia",
+  regija: "South America",
+  sazetak: "A country on the roof of South America, with the largest salt flat in the world, a city of silver and markets where the Andean world lives life to the fullest.",
   uvod: [
-    "Bolivija nema izlaz na more, a njezin zapadni dio leži na Altiplanu, visoravni na gotovo 4000 metara, dok se na istoku spušta u amazonske nizine. Ovdje je prije više od tisuću godina cvjetala kultura Tiwanaku, a potom su zemljom vladali Inke i Španjolci, koje je privuklo srebro brda Cerro Rico u Potosíju.",
-    "Neovisnost je proglašena 1825., a država je nazvana po osloboditelju Simónu Bolívaru. Više od polovice stanovnika pripada starosjedilačkim narodima, ponajviše Quechua i Aymara, pa su jezici, nošnje i vjerovanja Anda ovdje svakodnevica, a ne folklor za posjetitelje. Putovanje je zahtjevnije nego u susjednim zemljama, no nagrada su krajolici i susreti kakvih drugdje nema."
+    "Bolivia has no access to the sea, and its western part lies on the Altiplano, a high plateau at almost 4,000 meters, while in the east it descends into the Amazonian lowlands. The Tiwanaku culture flourished here more than a thousand years ago, and after it the land was ruled by the Incas and then by the Spanish, who were drawn by the silver of the Cerro Rico mountain in Potosí.",
+    "Independence was declared in 1825, and the state was named after the liberator Simón Bolívar. More than half of the population belongs to Indigenous peoples, mostly Quechua and Aymara, so the languages, dress and beliefs of the Andes are part of everyday life here and far more than folklore for visitors. Travel is more demanding than in the neighboring countries, but the reward is landscapes and encounters you will not find anywhere else."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suha sezona traje od svibnja do listopada, s vedrim danima i vrlo hladnim noćima. Od siječnja do ožujka kiša pretvara Salar de Uyuni u golemo zrcalo." },
-    { k: "Valuta", v: "Bolivijano (BOB). Gotovina je nužna gotovo svuda izvan većih hotela i restorana." },
-    { k: "Kretanje", v: "Između gradova letovima ili noćnim autobusima. Ceste su spore, a prosvjedi ih povremeno zatvore, pa u planu ostavite rezervni dan." },
-    { k: "Napojnica", v: "Nije obvezna. U restoranima se ostavlja sitniš ili do 10 posto, a vozačima i kuharima na višednevnim izletima napojnica se daje na kraju." },
-    { k: "Visina", v: "La Paz, Potosí i Uyuni leže iznad 3600 metara. Ako možete, putovanje počnite u nižem Sucreu i penjite se postupno." }
+    { k: "When to go", v: "The dry season lasts from May to October, with clear days and very cold nights. From January to March the rain turns the Salar de Uyuni into an enormous mirror." },
+    { k: "Currency", v: "Boliviano (BOB). Cash is essential almost everywhere outside the larger hotels and restaurants." },
+    { k: "Getting around", v: "By plane or night bus between cities. The roads are slow and protests occasionally close them, so leave a spare day in your plan." },
+    { k: "Tipping", v: "It is not obligatory. In restaurants you leave small change or up to 10 percent, and drivers and cooks on multi-day trips are tipped at the end." },
+    { k: "Altitude", v: "La Paz, Potosí and Uyuni lie above 3,600 meters. If you can, start your trip in lower Sucre and climb gradually." }
   ],
   hrana: [
-    { ime: "Salteña", opis: "Pečena empanada slatkastog tijesta, punjena sočnim gulašem od mesa, krumpira, graška, masline i jajeta.", prica: "Jede se isključivo prijepodne, kao druga marenda. Unutra je toliko soka da se drži uspravno i grize odozgo, a tko se prvi polije, prema običaju plaća rundu." },
-    { ime: "Pique macho", opis: "Brdo prženih krumpirića prekriveno komadima govedine, kobasicama, lukom, rajčicom, jajima i ljutim papričicama.", prica: "Jelo je iz Cochabambe, grada koji slovi kao gastronomska prijestolnica zemlje. Predaja kaže da ga je kuharica složila od ostataka za kasne goste i rekla im da ga pojedu ako su dovoljno hrabri." },
-    { ime: "Silpancho", opis: "Vrlo tanak, velik pohani odrezak na podlozi od riže i krumpira, s pečenim jajima i salatom od rajčice i luka.", prica: "Još jedno jelo iz Cochabambe, čije ime na kečuanskom znači tanko i istučeno. Porcija prekriva cijeli tanjur." },
-    { ime: "Sopa de maní", opis: "Kremasta juha od mljevenog kikirikija s povrćem i tjesteninom, posuta prženim krumpirićima.", prica: "Kikiriki potječe upravo s ovih prostora, s istočnih obronaka Anda. Juha je sastavni dio dnevnog ručka zvanog almuerzo, koji se u pučkim restoranima služi u tri slijeda." },
-    { ime: "Anticucho", opis: "Ražnjići od goveđeg srca s krumpirom, preliveni ljutim umakom od kikirikija.", prica: "Peku se navečer na uličnim roštiljima, a dim i miris vide se i osjete izdaleka. U La Pazu se jedu kasno, nakon izlaska." },
-    { ime: "Api con pastel", opis: "Gust, vruć napitak od ljubičastog kukuruza s cimetom i klinčićem, uz veliku prženu lepinju sa sirom posutu šećerom.", prica: "Doručak Altiplana, koji grije ruke i želudac u ledena jutra. Najbolji je na tržnicama, gdje se api toči iz velikih lonaca." },
-    { ime: "Chuño", opis: "Krumpir sušen smrzavanjem, taman i lagan poput pluta.", prica: "Andski narodi tisućama godina ostavljaju krumpir na noćnom mrazu i dnevnom suncu te ga gaze kako bi iz njega istisnuli vodu. Tako osušen može trajati godinama, a jede se kuhan, u juhama i varivima." },
-    { ime: "Kvinoja", opis: "Sitno zrno Altiplana, bogato bjelančevinama, koje se kuha poput riže.", prica: "Inke su je zvali majkom svih žitarica. Najcjenjenija kraljevska kvinoja raste na slanom tlu oko Salara de Uyuni." },
-    { ime: "Singani", opis: "Rakija od grožđa muškat aleksandrijski, koje raste na velikoj nadmorskoj visini.", prica: "Nacionalno piće Bolivije proizvodi se od 16. stoljeća u dolinama oko grada Tarije. Najčešće se pije kao chuflay, s gaziranim sokom od đumbira i kriškom limete." }
+    { ime: "Salteña", opis: "A baked empanada of slightly sweet dough, filled with a juicy stew of meat, potato, peas, olive and egg.", prica: "It is eaten strictly before noon, as a mid-morning snack. There is so much juice inside that you hold it upright and bite from the top, and by custom whoever spills first pays for the round." },
+    { ime: "Pique macho", opis: "A mountain of french fries covered with pieces of beef, sausages, onion, tomato, eggs and hot peppers.", prica: "The dish comes from Cochabamba, a city reputed to be the country's food capital. Tradition says that a cook threw it together from leftovers for some late guests and told them to eat it if they were brave enough." },
+    { ime: "Silpancho", opis: "A very thin, large breaded cutlet on a bed of rice and potatoes, with fried eggs and a tomato and onion salad.", prica: "Another dish from Cochabamba, whose name in Quechua means thin and pounded. A portion covers the whole plate." },
+    { ime: "Sopa de maní", opis: "A creamy soup of ground peanuts with vegetables and pasta, sprinkled with french fries.", prica: "The peanut comes from this very part of the world, from the eastern slopes of the Andes. The soup is a standard part of the daily lunch called almuerzo, which is served in three courses in the simple neighborhood restaurants." },
+    { ime: "Anticucho", opis: "Skewers of beef heart with potato, topped with a spicy peanut sauce.", prica: "They are grilled in the evening on street barbecues, and you can see the smoke and smell the aroma from far away. In La Paz they are eaten late, after a night out." },
+    { ime: "Api con pastel", opis: "A thick, hot drink of purple corn with cinnamon and cloves, served with a large fried cheese pastry dusted with sugar.", prica: "The breakfast of the Altiplano, which warms the hands and the stomach on icy mornings. It is best at the markets, where api is ladled out of large pots." },
+    { ime: "Chuño", opis: "Freeze-dried potato, dark and as light as cork.", prica: "For thousands of years the Andean peoples have been leaving potatoes out in the night frost and the daytime sun and treading on them to squeeze out the water. Dried in this way they can keep for years, and they are eaten boiled, in soups and stews." },
+    { ime: "Quinoa", opis: "The tiny grain of the Altiplano, rich in protein, which is cooked like rice.", prica: "The Incas called it the mother of all grains. The most prized royal quinoa grows in the salty soil around the Salar de Uyuni." },
+    { ime: "Singani", opis: "A spirit made from Muscat of Alexandria grapes, which grow at high altitude.", prica: "Bolivia's national drink has been produced since the 16th century in the valleys around the city of Tarija. It is most often drunk as a chuflay, with ginger ale and a slice of lime." }
   ],
   obicaji: [
-    { ime: "Karneval u Oruru", opis: "Najveća bolivijska svetkovina, u kojoj tisuće plesača i svirača prolaze trasom dugom četiri kilometra, u čast Djevice iz rudarskog okna. UNESCO ga je proglasio remek-djelom nematerijalne baštine.", gdje: "U rudarskom gradu Oruru, u subotu prije Čiste srijede, u veljači ili ožujku. Probne povorke održavaju se nedjeljama uoči karnevala." },
-    { ime: "Diablada, morenada i caporales", opis: "Diablada je ples vragova s rogatim maskama, koji prikazuje borbu arkanđela Mihaela i sedam grijeha. Morenada sporim korakom i teškim kostimima podsjeća na robove dovedene u rudnike, a caporales je brz ples s praporcima na čizmama.", gdje: "Na karnevalu u Oruru i na povorci Gran Poder u La Pazu, krajem svibnja ili u lipnju. U La Pazu plesne bratovštine mjesecima prije vježbaju na ulicama." },
-    { ime: "Ch'alla", opis: "Obred zahvale Pachamami, Majci Zemlji, u kojem se tlo, kuća ili novi automobil poškrope pićem i ukrase cvijećem i papirnatim vrpcama.", gdje: "U cijelim Andama, osobito na pokladni utorak i u kolovozu. Pred bazilikom u Copacabani na jezeru Titicaca svakodnevno se blagoslivljaju okićeni automobili." },
-    { ime: "Alasitas", opis: "Sajam minijatura na kojem ljudi kupuju sićušne kuće, automobile, diplome i novčanice, vjerujući da će im Ekeko, bog obilja, tijekom godine donijeti prave. Kupljeno treba dati blagosloviti točno u podne.", gdje: "U La Pazu, počevši od 24. siječnja, nekoliko tjedana." },
-    { ime: "Cholita", opis: "Žene naroda Aymara nose slojevite suknje polleras, vezeni šal i polucilindar, koji je u modu ušao 1920-ih. Odjeća koja je nekoć bila povod za prezir danas je znak ponosa.", gdje: "Posvuda u La Pazu i El Altu. U El Altu se nedjeljom održavaju hrvačke priredbe na kojima nastupaju cholite u punoj nošnji." },
-    { ime: "Tkanje i aguayo", opis: "Aguayo je šareni tkani kvadrat u kojem žene na leđima nose djecu i teret. Uzorci tkanina naroda Jalq'a i Tarabuco iz okolice Sucrea prikazuju čitave svjetove, od sanjanih bića do prizora iz svakodnevice.", gdje: "U Sucreu, u muzeju i radionici starosjedilačkog tekstila, te nedjeljom na tržnici u Tarabucu." }
+    { ime: "The Carnival of Oruro", opis: "The biggest Bolivian festival, in which thousands of dancers and musicians pass along a route four kilometers long, in honor of the Virgin of the Mineshaft. UNESCO has proclaimed it a masterpiece of intangible heritage.", gdje: "In the mining city of Oruro, on the Saturday before Ash Wednesday, in February or March. Rehearsal parades are held on the Sundays leading up to Carnival." },
+    { ime: "Diablada, morenada and caporales", opis: "The diablada is a dance of devils in horned masks, depicting the battle between the Archangel Michael and the seven sins. The morenada, with its slow step and heavy costumes, recalls the slaves brought to the mines, and caporales is a fast dance with bells on the boots.", gdje: "At the Carnival of Oruro and at the Gran Poder parade in La Paz, in late May or in June. In La Paz the dance fraternities practice in the streets for months beforehand." },
+    { ime: "Ch'alla", opis: "A rite of thanksgiving to Pachamama, Mother Earth, in which the ground, a house or a new car is sprinkled with drink and decorated with flowers and paper streamers.", gdje: "Throughout the Andes, especially on Shrove Tuesday and in August. In front of the basilica in Copacabana on Lake Titicaca, decorated cars are blessed every day." },
+    { ime: "Alasitas", opis: "A fair of miniatures where people buy tiny houses, cars, diplomas and banknotes, believing that Ekeko, the god of abundance, will bring them the real ones during the year. Whatever you buy should be blessed at exactly noon.", gdje: "In La Paz, starting on January 24 and lasting several weeks." },
+    { ime: "Cholita", opis: "Aymara women wear layered pollera skirts, an embroidered shawl and a bowler hat, which came into fashion in the 1920s. Clothing that was once a cause for contempt is today a mark of pride.", gdje: "Everywhere in La Paz and El Alto. On Sundays El Alto hosts wrestling shows in which cholitas perform in full traditional dress." },
+    { ime: "Weaving and the aguayo", opis: "The aguayo is a colorful woven square in which women carry children and loads on their backs. The patterns of the textiles of the Jalq'a and Tarabuco peoples from the area around Sucre depict entire worlds, from dreamed creatures to scenes of everyday life.", gdje: "In Sucre, at the museum and workshop of Indigenous textiles, and on Sundays at the market in Tarabuco." }
   ],
   fraze: [
-    { izvorno: "Buenos días", izgovor: "BUE-nos DI-as", hr: "Dobro jutro, dobar dan" },
-    { izvorno: "Gracias", izgovor: "GRA-sjas", hr: "Hvala" },
-    { izvorno: "Por favor", izgovor: "por fa-VOR", hr: "Molim" },
-    { izvorno: "¿Cuánto cuesta?", izgovor: "KUAN-to KUES-ta", hr: "Koliko košta?" },
-    { izvorno: "La cuenta, por favor", izgovor: "la KUEN-ta, por fa-VOR", hr: "Račun, molim" },
-    { izvorno: "¿A qué hora sale?", izgovor: "a ke O-ra SA-le", hr: "U koliko sati polazi?" },
-    { izvorno: "Kamisaki", izgovor: "ka-mi-SA-ki", hr: "Kako si? (ajmarski pozdrav)" },
-    { izvorno: "Yuspagara", izgovor: "jus-pa-GA-ra", hr: "Hvala (ajmarski)" }
+    { izvorno: "Buenos días", izgovor: "BWEH-nohs DEE-ahs", hr: "Good morning, good day" },
+    { izvorno: "Gracias", izgovor: "GRAH-syahs", hr: "Thank you" },
+    { izvorno: "Por favor", izgovor: "por fah-VOR", hr: "Please" },
+    { izvorno: "¿Cuánto cuesta?", izgovor: "KWAHN-toh KWES-tah", hr: "How much is it?" },
+    { izvorno: "La cuenta, por favor", izgovor: "lah KWEN-tah, por fah-VOR", hr: "The check, please" },
+    { izvorno: "¿A qué hora sale?", izgovor: "ah keh OH-rah SAH-leh", hr: "What time does it leave?" },
+    { izvorno: "Kamisaki", izgovor: "kah-mee-SAH-kee", hr: "How are you? (Aymara greeting)" },
+    { izvorno: "Yuspagara", izgovor: "yoos-pah-GAH-rah", hr: "Thank you (Aymara)" }
   ],
   zanimljivosti: [
-    "Bolivija ima dva glavna grada: Sucre je ustavna prijestolnica, a u La Pazu zasjedaju vlada i parlament.",
-    "Ustav priznaje 36 starosjedilačkih jezika kao službene, uz španjolski.",
-    "Sat na zgradi parlamenta u La Pazu od 2014. ide ulijevo, kao simbol toga da zemlja leži na južnoj polutki.",
-    "Bolivija je izlaz na more izgubila u ratu s Čileom krajem 19. stoljeća, ali i dalje ima ratnu mornaricu, koja plovi jezerom Titicaca i rijekama.",
-    "Španjolski izraz vale un Potosí, vrijedi kao Potosí, znači da je nešto neprocjenjivo, a upotrijebio ga je i Cervantes u „Don Quijoteu“.",
-    "Ispod kore Salara de Uyuni nalaze se neke od najvećih svjetskih zaliha litija."
+    "Bolivia has two capitals: Sucre is the constitutional capital, while the government and parliament sit in La Paz.",
+    "The constitution recognizes 36 Indigenous languages as official, alongside Spanish.",
+    "Since 2014 the clock on the parliament building in La Paz has run counterclockwise, as a symbol of the fact that the country lies in the Southern Hemisphere.",
+    "Bolivia lost its access to the sea in a war with Chile at the end of the 19th century, but it still has a navy, which sails on Lake Titicaca and the rivers.",
+    "The Spanish expression vale un Potosí, worth a Potosí, means that something is priceless, and Cervantes himself used it in “Don Quixote”.",
+    "Beneath the crust of the Salar de Uyuni lie some of the world's largest reserves of lithium."
   ],
   mjesta: [
     {
       id: "la-paz",
       ime: "La Paz",
       vrsta: "grad",
-      sazetak: "Grad u kanjonu na 3600 metara, nad kojim umjesto podzemne željeznice lete žičare.",
+      sazetak: "A city in a canyon at 3,600 meters, where cable cars fly overhead in place of a subway.",
       prica: [
-        "La Paz je 1548. osnovao Alonso de Mendoza na putu kojim se srebro iz Potosíja prevozilo prema obali. Grad se spustio u kanjon rijeke Choqueyapu kako bi se zaklonio od vjetrova Altiplana, pa bogatije četvrti leže niže, gdje je toplije, a siromašnije se penju uz strmine.",
-        "Na rubu kanjona izrastao je El Alto, danas zaseban grad s više od milijun stanovnika, većinom naroda Aymara. Iznad svega bdije snježna planina Illimani, visoka gotovo 6500 metara."
+        "La Paz was founded in 1548 by Alonso de Mendoza on the route along which silver from Potosí was carried toward the coast. The city dropped down into the canyon of the Choqueyapu River to shelter from the winds of the Altiplano, so the wealthier neighborhoods lie lower down, where it is warmer, and the poorer ones climb the steep slopes.",
+        "On the rim of the canyon El Alto has grown up, today a separate city of more than a million people, most of them Aymara. Watching over it all is the snowcapped mountain Illimani, almost 6,500 meters high."
       ],
       vidjeti: [
-        { ime: "Mi Teleférico", opis: "Mreža žičara otvorena 2014. najveći je sustav gradskih žičara na svijetu, s linijama u različitim bojama. Vožnja crvenom ili žutom linijom do El Alta najbolji je razgled grada, iznad krovova, dvorišta i groblja." },
-        { ime: "Mercado de las Brujas", opis: "Na Vještičjoj tržnici travarice prodaju bilje, amulete i sušene fetuse ljame, koji se zakapaju u temelje nove kuće kao dar Pachamami. Prije fotografiranja zamolite za dopuštenje." },
-        { ime: "Bazilika San Francisco", opis: "Crkva iz 18. stoljeća s pročeljem u stilu andskog baroka, koje su klesali starosjedilački majstori. Među svecima i anđelima potražite tropsko voće, ptice i maske." },
-        { ime: "Calle Jaén", opis: "Najbolje očuvana kolonijalna ulica u gradu, popločana i bez prometa, s nekoliko malih muzeja u šarenim kućama. Mještani o njoj pričaju priče o duhovima, zbog kojih je na jednom zidu postavljen zeleni križ." },
-        { ime: "Tiwanaku", opis: "Sedamdesetak kilometara od grada leže ruševine prijestolnice kulture koja je cvjetala između 500. i 1000. godine. Vrata Sunca isklesana su iz jednog bloka andezita, a na nadvratniku je lik božanstva sa štapovima u rukama, okružen krilatim pratiocima." },
-        { ime: "Valle de la Luna", opis: "Na južnom rubu grada erozija je glinu i pješčenjak oblikovala u šumu šiljaka i jaruga. Staza kroz dolinu prolazi se za manje od sata." }
+        { ime: "Mi Teleférico", opis: "The cable car network that opened in 2014 is the largest urban cable car system in the world, with lines in different colors. A ride on the red or yellow line up to El Alto is the best tour of the city, above rooftops, courtyards and the cemetery." },
+        { ime: "Mercado de las Brujas", opis: "At the Witches' Market, women herbalists sell herbs, amulets and dried llama fetuses, which are buried in the foundations of a new house as a gift to Pachamama. Ask permission before taking photographs." },
+        { ime: "Basilica of San Francisco", opis: "A church from the 18th century with a facade in the Andean Baroque style, carved by Indigenous craftsmen. Among the saints and angels, look for tropical fruit, birds and masks." },
+        { ime: "Calle Jaén", opis: "The best-preserved colonial street in the city, cobbled and free of traffic, with several small museums in colorful houses. Locals tell ghost stories about it, which is why a green cross was put up on one of the walls." },
+        { ime: "Tiwanaku", opis: "About seventy kilometers from the city lie the ruins of the capital of a culture that flourished between the years 500 and 1000. The Gate of the Sun is carved from a single block of andesite, and on the lintel is the figure of a deity holding staffs in its hands, surrounded by winged attendants." },
+        { ime: "Valle de la Luna", opis: "On the southern edge of the city, erosion has shaped clay and sandstone into a forest of spires and gullies. The trail through the valley can be walked in under an hour." }
       ],
       jesti: [
-        { ime: "Salteñas prijepodne", opis: "Prodaju se u specijaliziranim lokalima od jutra do podneva, dok ih ne nestane." },
-        { ime: "Chairo", opis: "Gusta juha od chuña, mesa, kukuruza i povrća, tipična za La Paz i savršena za hladne dane." },
-        { ime: "Api con pastel", opis: "Najbolji doručak je na tržnicama, primjerice na tržnici Lanza u središtu grada." }
+        { ime: "Salteñas in the morning", opis: "They are sold in specialized shops from morning until noon, or until they run out." },
+        { ime: "Chairo", opis: "A thick soup of chuño, meat, corn and vegetables, typical of La Paz and perfect for cold days." },
+        { ime: "Api con pastel", opis: "The best breakfast is at the markets, for example at Lanza Market in the city center." }
       ],
       dozivjeti: [
-        { ime: "Sajam u El Altu", opis: "Četvrtkom i nedjeljom na rubu kanjona širi se jedna od najvećih tržnica na otvorenom u Južnoj Americi, do koje vozi žičara. Vrijedne stvari ostavite u hotelu." },
-        { ime: "Vožnja žičarama", opis: "S jednom kartom po liniji možete presjedati i obići grad sa svih strana, a karta mreže dostupna je na službenoj stranici.", link: "https://www.miteleferico.bo/" },
-        { ime: "Copacabana i Isla del Sol", opis: "Tri i pol sata od La Paza, na jezeru Titicaca, nalazi se hodočasnički gradić po kojem je nazvana plaža u Riju. Brodom se stiže na Otok Sunca, s kojeg su prema legendi potekli prvi Inke." }
+        { ime: "The El Alto market", opis: "On Thursdays and Sundays one of the largest open-air markets in South America spreads out along the rim of the canyon, and you can reach it by cable car. Leave your valuables at the hotel." },
+        { ime: "Riding the cable cars", opis: "With one ticket per line you can transfer and see the city from every side, and a map of the network is available on the official website.", link: "https://www.miteleferico.bo/" },
+        { ime: "Copacabana and Isla del Sol", opis: "Three and a half hours from La Paz, on Lake Titicaca, is the small pilgrimage town after which the beach in Rio was named. A boat takes you to the Island of the Sun, from which, according to legend, the first Incas came." }
       ],
       agencije: [
-        { ime: "Gobierno Autónomo Municipal de La Paz", opis: "Službena stranica gradske uprave La Paza.", link: "https://lapaz.bo/" },
-        { ime: "Tiwanaku", opis: "Službena stranica arheološkog nalazišta Tiwanaku.", link: "https://www.tiwanaku.gob.bo/" },
-        { ime: "Bolivia es Turismo", opis: "Putni vodič po Boliviji i njezinim gradovima.", link: "https://boliviaesturismo.com/" }
+        { ime: "Gobierno Autónomo Municipal de La Paz", opis: "The official website of the La Paz city government.", link: "https://lapaz.bo/" },
+        { ime: "Tiwanaku", opis: "The official website of the Tiwanaku archaeological site.", link: "https://www.tiwanaku.gob.bo/" },
+        { ime: "Bolivia es Turismo", opis: "A travel guide to Bolivia and its cities.", link: "https://boliviaesturismo.com/" }
       ],
-      kada: "Od svibnja do listopada dani su suhi i sunčani, a noći hladne. Prvi dan hodajte polako, jer su ulice strme, a zraka je trećinu manje nego na moru."
+      kada: "From May to October the days are dry and sunny and the nights are cold. Walk slowly on your first day, because the streets are steep and there is a third less air than at sea level."
     },
     {
       id: "uyuni",
       ime: "Salar de Uyuni",
       vrsta: "priroda",
-      sazetak: "Bijela ravnica soli velika gotovo kao petina Hrvatske, koja se u kišnoj sezoni pretvara u najveće zrcalo na svijetu.",
+      sazetak: "A white plain of salt almost a fifth the size of Croatia, which turns into the largest mirror in the world in the rainy season.",
       prica: [
-        "Salar de Uyuni prostire se na više od 10.000 četvornih kilometara, na 3650 metara nadmorske visine. Nastao je isušivanjem pretpovijesnih jezera, nakon kojih je ostala kora soli debela i po nekoliko metara.",
-        "Legenda naroda Aymara kaže da su planine oko salara nekoć bili divovi. Kada je Tunupu napustio muž, njezine su se suze pomiješale s mlijekom kojim je dojila dijete i stvorile bijelu ravnicu, zbog čega je mještani zovu i Salar de Tunupa."
+        "The Salar de Uyuni extends over more than 10,000 square kilometers, at an altitude of 3,650 meters. It was formed when prehistoric lakes dried up, leaving behind a crust of salt as much as several meters thick.",
+        "A legend of the Aymara people says that the mountains around the salt flat were once giants. When Tunupa was abandoned by her husband, her tears mixed with the milk she was nursing her child with and created the white plain, which is why locals also call it the Salar de Tunupa."
       ],
       vidjeti: [
-        { ime: "Slana ravnica", opis: "Sol se pri sušenju lomi u pravilne šesterokutne ploče, koje se nižu do obzora. Budući da nema ničega po čemu bi oko procijenilo udaljenost, ovdje nastaju fotografije na kojima ljudi stoje na dlanu ili izlaze iz boce." },
-        { ime: "Isla Incahuasi", opis: "Stjenoviti otok usred soli, ostatak vulkana prekriven okamenjenim koraljima, obrastao je divovskim kaktusima visokima i do deset metara. Rastu oko centimetar godišnje, pa su najviši stari stoljećima." },
-        { ime: "Groblje vlakova", opis: "Na rubu grada Uyunija hrđaju parne lokomotive s kraja 19. i početka 20. stoljeća, koje su vozile rudu do pacifičkih luka. Napuštene su kada je rudarstvo propalo 1940-ih." },
-        { ime: "Colchani", opis: "U selu na rubu salara obitelji ručno skupljaju sol u stošce, suše je i pakiraju. Od blokova soli ovdje se grade i kuće, pa i cijeli hoteli s namještajem od soli." },
-        { ime: "Laguna Colorada", opis: "Na jugu, u rezervatu Eduardo Avaroa, leži jezero crvene boje, koju mu daju alge i minerali. U njemu se hrane tisuće plamenaca triju vrsta, među kojima i rijetki Jamesov plamenac." }
+        { ime: "The salt flat", opis: "As it dries, the salt cracks into regular hexagonal tiles that stretch to the horizon. Since there is nothing by which the eye can judge distance, this is where the photographs are taken in which people stand on the palm of a hand or climb out of a bottle." },
+        { ime: "Isla Incahuasi", opis: "A rocky island in the middle of the salt, the remnant of a volcano covered in fossilized coral, is overgrown with giant cacti as much as ten meters tall. They grow about a centimeter a year, so the tallest are centuries old." },
+        { ime: "The train cemetery", opis: "On the edge of the town of Uyuni, steam locomotives from the end of the 19th and the beginning of the 20th century, which hauled ore to the Pacific ports, are rusting away. They were abandoned when mining collapsed in the 1940s." },
+        { ime: "Colchani", opis: "In this village on the edge of the salt flat, families gather the salt by hand into cones, dry it and pack it. Houses are also built here from blocks of salt, and even entire hotels with furniture made of salt." },
+        { ime: "Laguna Colorada", opis: "In the south, in the Eduardo Avaroa reserve, lies a lake whose red color comes from algae and minerals. Thousands of flamingos of three species feed in it, among them the rare James's flamingo." }
       ],
       jesti: [
-        { ime: "Meso ljame", opis: "Nemasno i blago, na izletima se poslužuje kao odrezak ili sušeno, kao charque, uz kvinoju." },
-        { ime: "Juha od kvinoje", opis: "Kraljevska kvinoja raste na poljima uz salar, a u juhi s povrćem svakodnevni je obrok kraja." }
+        { ime: "Llama meat", opis: "Lean and mild, it is served on the trips as a steak or dried, as charque, with quinoa." },
+        { ime: "Quinoa soup", opis: "Royal quinoa grows in the fields beside the salt flat, and in a soup with vegetables it is the everyday meal of the region." }
       ],
       dozivjeti: [
-        { ime: "Trodnevni izlet džipom", opis: "Klasična ruta vodi preko salara do šarenih laguna, gejzira i termalnih izvora na granici s Čileom, na visinama do 5000 metara. Agenciju birajte pažljivo i pitajte za stanje vozila i broj putnika, jer se kvaliteta vrlo razlikuje." },
-        { ime: "Izlazak ili zalazak sunca na soli", opis: "U kišnoj sezoni tanak sloj vode zrcali nebo tako da se obzor gubi. U suhoj sezoni noću se nad bijelom ravnicom vidi Mliječni put." }
+        { ime: "A three-day jeep trip", opis: "The classic route leads across the salt flat to colored lagoons, geysers and hot springs on the border with Chile, at altitudes of up to 5,000 meters. Choose your agency carefully and ask about the condition of the vehicle and the number of passengers, because quality varies a great deal." },
+        { ime: "Sunrise or sunset on the salt", opis: "In the rainy season a thin layer of water mirrors the sky so that the horizon disappears. In the dry season the Milky Way can be seen above the white plain at night." }
       ],
       agencije: [
-        { ime: "Salar de Uyuni", opis: "Informativna stranica o salaru, s opisima ruta i sezona.", link: "https://www.salardeuyuni.com/" },
-        { ime: "SERNAP", opis: "Državna služba zaštićenih područja Bolivije, koja upravlja rezervatom Eduardo Avaroa.", link: "https://www.sernap.gob.bo/" }
+        { ime: "Salar de Uyuni", opis: "An information website about the salt flat, with descriptions of routes and seasons.", link: "https://www.salardeuyuni.com/" },
+        { ime: "SERNAP", opis: "Bolivia's national service for protected areas, which manages the Eduardo Avaroa reserve.", link: "https://www.sernap.gob.bo/" }
       ],
-      kada: "Zrcalo se pojavljuje od siječnja do ožujka, kada je dio ruta neprohodan. Od svibnja do listopada suho je i vedro, ali noću temperatura pada duboko ispod ništice, pa ponesite najtopliju odjeću i naočale za sunce."
+      kada: "The mirror appears from January to March, when some of the routes are impassable. From May to October it is dry and clear, but at night the temperature drops far below freezing, so bring your warmest clothing and sunglasses."
     },
     {
       id: "sucre",
       ime: "Sucre",
       vrsta: "grad",
-      sazetak: "Bijeli grad u kojem je rođena Bolivija, ugodne klime i sporijeg ritma, idealan za predah i učenje španjolskog.",
+      sazetak: "The white city where Bolivia was born, with a pleasant climate and a slower pace, ideal for a break and for learning Spanish.",
       prica: [
-        "Grad su Španjolci osnovali 1538. pod imenom La Plata, kao sjedište uprave i mjesto u kojem su živjeli vlasnici rudnika iz hladnog Potosíja. Sveučilište, osnovano 1624., jedno je od najstarijih u Americi, i iz njega su potekle ideje o neovisnosti.",
-        "Ovdje je 6. kolovoza 1825. potpisana Deklaracija o neovisnosti, a grad je kasnije nazvan po maršalu Antoniju Joséu de Sucreu. Zgrade u središtu po propisu se svake godine bijele, a UNESCO je grad upisao na popis 1991."
+        "The Spanish founded the city in 1538 under the name La Plata, as the seat of administration and the place where the mine owners from cold Potosí made their homes. The university, founded in 1624, is one of the oldest in the Americas, and the ideas of independence sprang from it.",
+        "The Declaration of Independence was signed here on August 6, 1825, and the city was later named after Marshal Antonio José de Sucre. By regulation the buildings in the center are whitewashed every year, and UNESCO added the city to its list in 1991."
       ],
       vidjeti: [
-        { ime: "Casa de la Libertad", opis: "U nekadašnjoj isusovačkoj kapeli na glavnom trgu potpisana je neovisnost, a izvorni dokument i danas je izložen. U dvorani stoji i portret Simóna Bolívara, za koji je on sam rekao da mu je najsličniji." },
-        { ime: "Samostan San Felipe Neri", opis: "S valovitog bijelog krova samostana, po kojem se može hodati, pruža se najljepši pogled na grad. Redovnici su ovdje nekoć šetali i molili gledajući zvonike." },
-        { ime: "La Recoleta", opis: "Trg s arkadama na brežuljku iznad grada, uz franjevački samostan iz 1601. U vrtu samostana raste cedar star više stoljeća, čije deblo jedva obuhvati nekoliko ljudi." },
-        { ime: "Cal Orck'o", opis: "Na rubu grada, u kamenolomu tvornice cementa, otkriven je gotovo okomit zid s više od pet tisuća otisaka stopala dinosaura. Zid je nekoć bio obala jezera, a uspravilo ga je izdizanje Anda." },
-        { ime: "Opće groblje", opis: "Uređeno poput parka, s visokim stablima i mauzolejima predsjednika i bogatih rudarskih obitelji. Obitelji ovamo dolaze nedjeljom, a pred nišama ostavljaju cvijeće, piće i igračke." }
+        { ime: "Casa de la Libertad", opis: "Independence was signed in the former Jesuit chapel on the main square, and the original document is still on display today. The hall also holds a portrait of Simón Bolívar which he himself said was his closest likeness." },
+        { ime: "Convent of San Felipe Neri", opis: "The undulating white roof of the convent, which you can walk on, gives the finest view of the city. The monks once strolled and prayed here while gazing at the bell towers." },
+        { ime: "La Recoleta", opis: "An arcaded square on a hill above the city, beside a Franciscan monastery of 1601. In the monastery garden grows a cedar several centuries old, whose trunk a few people can barely get their arms around." },
+        { ime: "Cal Orck'o", opis: "On the edge of the city, in the quarry of a cement factory, an almost vertical wall was discovered with more than five thousand dinosaur footprints. The wall was once the shore of a lake, and it was tilted upright by the rise of the Andes." },
+        { ime: "General Cemetery", opis: "It is laid out like a park, with tall trees and the mausoleums of presidents and wealthy mining families. Families come here on Sundays and leave flowers, drinks and toys in front of the niches." }
       ],
       jesti: [
-        { ime: "Chorizos chuquisaqueños", opis: "Začinjene svinjske kobasice, koje se poslužuju u lepinji ili sa salatom, najpoznatiji su zalogaj grada." },
-        { ime: "Mondongo", opis: "Svinjetina u crvenom umaku od ljute paprike s bijelim kukuruzom, jelo koje se tradicionalno kuha za Dan mrtvih." },
-        { ime: "Čokolada", opis: "Sucre je čokoladna prijestolnica Bolivije, a trgovine oko glavnog trga prodaju praline s kvinojom i solju iz Uyunija." }
+        { ime: "Chorizos chuquisaqueños", opis: "Spiced pork sausages, served in a roll or with a salad, are the city's best-known bite." },
+        { ime: "Mondongo", opis: "Pork in a red chili sauce with white corn, a dish that is traditionally cooked for the Day of the Dead." },
+        { ime: "Chocolate", opis: "Sucre is the chocolate capital of Bolivia, and the shops around the main square sell pralines with quinoa and with salt from Uyuni." }
       ],
       dozivjeti: [
-        { ime: "Nedjeljna tržnica u Tarabucu", opis: "Šezdesetak kilometara od grada okupljaju se pripadnici naroda Yampara u kožnim kapama nalik španjolskim kacigama. U ožujku se ovdje pleše Pujllay, obredni ples s UNESCO-ova popisa nematerijalne baštine." },
-        { ime: "Tečaj španjolskog", opis: "Zbog blage klime, niskih cijena i jasnog izgovora Sucre je omiljeno mjesto za učenje jezika, a škole nude i pojedinačne satove od nekoliko dana." },
-        { ime: "Središnja tržnica", opis: "Na katu se pije sok od svježe iscijeđenog voća po izboru, a u prizemlju se kupuju sir, kruh i začini." }
+        { ime: "The Sunday market in Tarabuco", opis: "About sixty kilometers from the city, members of the Yampara people gather in leather caps that resemble Spanish helmets. In March the Pujllay is danced here, a ritual dance on the UNESCO list of intangible heritage." },
+        { ime: "A Spanish course", opis: "Thanks to its mild climate, low prices and clear pronunciation, Sucre is a favorite place for learning the language, and the schools also offer one-on-one lessons for just a few days." },
+        { ime: "The Central Market", opis: "Upstairs you drink freshly squeezed juice from the fruit of your choice, and on the ground floor you buy cheese, bread and spices." }
       ],
       agencije: [
-        { ime: "Gobierno Autónomo Municipal de Sucre", opis: "Službena stranica gradske uprave Sucrea.", link: "https://sucre.bo/" },
-        { ime: "Casa de la Libertad", opis: "Službena stranica muzeja u kojem je proglašena neovisnost.", link: "https://casadelalibertad.org.bo/" }
+        { ime: "Gobierno Autónomo Municipal de Sucre", opis: "The official website of the Sucre city government.", link: "https://sucre.bo/" },
+        { ime: "Casa de la Libertad", opis: "The official website of the museum where independence was declared.", link: "https://casadelalibertad.org.bo/" }
       ],
-      kada: "Na 2800 metara klima je blaga cijele godine, a najsuše je od svibnja do listopada. Dobro je mjesto za privikavanje na visinu prije Potosíja i Uyunija."
+      kada: "At 2,800 meters the climate is mild all year round, and it is driest from May to October. It is a good place to get used to the altitude before Potosí and Uyuni."
     },
     {
       id: "potosi",
       ime: "Potosí",
       vrsta: "grad",
-      sazetak: "Jedan od najviših gradova svijeta, podno brda čije je srebro financiralo Španjolsko Carstvo i odnijelo nebrojene živote.",
+      sazetak: "One of the highest cities in the world, at the foot of a mountain whose silver financed the Spanish Empire and took countless lives.",
       prica: [
-        "Srebro u brdu Cerro Rico otkriveno je 1545. i u nekoliko desetljeća Potosí je postao jedan od najvećih gradova na svijetu, s više stanovnika nego tadašnji London ili Sevilla. Kovanice iskovane ovdje kružile su od Europe do Kine.",
-        "Cijenu su platili starosjedioci, prisiljeni na rad u rudniku sustavom zvanim mita, i afrički robovi. Kada je srebra ponestalo, grad je osiromašio, ali su ostale crkve i kovnica. UNESCO ga je upisao na popis 1987., a od 2014. vodi ga kao ugroženu baštinu, jer se izrovano brdo urušava."
+        "Silver was discovered in the Cerro Rico mountain in 1545, and within a few decades Potosí had become one of the largest cities in the world, with more inhabitants than London or Seville had at the time. Coins minted here circulated from Europe to China.",
+        "The price was paid by the Indigenous people, forced to work in the mine under a system called the mita, and by African slaves. When the silver ran out the city grew poor, but the churches and the mint remained. UNESCO added it to its list in 1987, and since 2014 it has been listed as heritage in danger, because the mountain, riddled with tunnels, is collapsing."
       ],
       vidjeti: [
-        { ime: "Casa Nacional de Moneda", opis: "Kraljevska kovnica, građena od 1759. do 1773., jedna je od najvećih kolonijalnih građevina u Americi. Sačuvani su golemi drveni strojevi za valjanje srebra, koje su pokretale mazge, a u dvorištu vas dočekuje nasmiješena maska Mascarón, o čijem značenju postoji desetak teorija." },
-        { ime: "Cerro Rico", opis: "Crvenkasti stožac visok oko 4800 metara izbušen je stotinama okana, u kojima zadruge rudara rade i danas, u vrlo teškim uvjetima. U svakom oknu sjedi kip El Tía, gospodara podzemlja, kojem rudari daruju lišće koke, alkohol i cigarete." },
-        { ime: "Crkva San Lorenzo de Carangas", opis: "Portal iz 18. stoljeća vrhunac je andskog baroka. Među isklesanim lozama i suncima potražite sirene koje sviraju charango i starosjedilačke likove koji nose stupove." },
-        { ime: "Toranj isusovačke crkve", opis: "Od crkve iz 1707. ostao je raskošan zvonik u obliku slavoluka s pet otvora, na koji se može popeti radi pogleda na krovove i Cerro Rico." },
-        { ime: "Samostan Santa Teresa", opis: "Karmelićanski samostan iz 1685. u koji su bogate obitelji slale drugu kćer, uz miraz u srebru. Obilazak pokazuje život u strogoj klauzuri, a časne sestre i danas prodaju slatkiše kroz okretni prozorčić." }
+        { ime: "Casa Nacional de Moneda", opis: "The royal mint, built from 1759 to 1773, is one of the largest colonial buildings in the Americas. The huge wooden machines for rolling silver, which were driven by mules, have been preserved, and in the courtyard you are greeted by the smiling mask called the Mascarón, about whose meaning there are a dozen or so theories." },
+        { ime: "Cerro Rico", opis: "The reddish cone, about 4,800 meters high, is pierced by hundreds of shafts in which miners' cooperatives still work today, in very harsh conditions. In every shaft sits a statue of El Tío, the lord of the underworld, to whom the miners offer coca leaves, alcohol and cigarettes." },
+        { ime: "Church of San Lorenzo de Carangas", opis: "The portal from the 18th century is the pinnacle of Andean Baroque. Among the carved vines and suns, look for mermaids playing the charango and Indigenous figures holding up the columns." },
+        { ime: "The tower of the Jesuit church", opis: "What remains of the church of 1707 is a lavish bell tower in the form of a triumphal arch with five openings, which you can climb for a view of the rooftops and Cerro Rico." },
+        { ime: "Convent of Santa Teresa", opis: "A Carmelite convent of 1685 to which wealthy families sent their second daughter, along with a dowry in silver. The tour shows life in strict enclosure, and the nuns still sell sweets through a revolving hatch." }
       ],
       jesti: [
-        { ime: "K'alapurka", opis: "Gusta juha od kukuruznog brašna u koju se pred gostom ubaci užareni vulkanski kamen, pa na stol stiže ključajući." },
-        { ime: "Salteñas potosinas", opis: "Ovdašnje su salteñe ljuće i sočnije od onih u drugim gradovima, a mještani tvrde i da su prve." }
+        { ime: "K'alapurka", opis: "A thick corn flour soup into which a red-hot volcanic stone is dropped in front of the guest, so that it arrives at the table boiling." },
+        { ime: "Salteñas potosinas", opis: "The local salteñas are spicier and juicier than those in other cities, and the locals also claim that theirs were the first." }
       ],
       dozivjeti: [
-        { ime: "Obilazak kovnice", opis: "Vođeni obilazak traje oko dva sata i najbolji je uvod u povijest grada, a zgrada je iznutra hladna pa se toplo odjenite.", link: "https://www.casanacionaldemoneda.bo/" },
-        { ime: "Posjet rudniku", opis: "Obilaske vode bivši rudari, a dio zarade ide zadrugama. Hodnici su niski, prašnjavi i na velikoj visini, pa dobro razmislite je li to za vas, osobito ako imate tegoba s disanjem ili sa zatvorenim prostorom." },
-        { ime: "Tržnica rudara", opis: "Na tržnici pod brdom rudari kupuju lišće koke, svjetiljke i alat, a posjetitelji im prije obilaska običavaju kupiti dar." }
+        { ime: "A tour of the mint", opis: "The guided tour lasts about two hours and is the best introduction to the history of the city, and the building is cold inside, so dress warmly.", link: "https://www.casanacionaldemoneda.bo/" },
+        { ime: "A visit to the mine", opis: "The tours are led by former miners, and part of the proceeds goes to the cooperatives. The tunnels are low, dusty and at high altitude, so think carefully about whether this is for you, especially if you have trouble with breathing or with enclosed spaces." },
+        { ime: "The miners' market", opis: "At the market below the mountain the miners buy coca leaves, lamps and tools, and visitors customarily buy them a gift before the tour." }
       ],
       agencije: [
-        { ime: "Casa Nacional de Moneda", opis: "Službena stranica muzeja kovnice.", link: "https://www.casanacionaldemoneda.bo/" },
-        { ime: "Gobierno Autónomo Municipal de Potosí", opis: "Službena stranica gradske uprave Potosíja.", link: "https://potosi.bo/" }
+        { ime: "Casa Nacional de Moneda", opis: "The official website of the mint museum.", link: "https://www.casanacionaldemoneda.bo/" },
+        { ime: "Gobierno Autónomo Municipal de Potosí", opis: "The official website of the Potosí city government.", link: "https://potosi.bo/" }
       ],
-      kada: "Od svibnja do listopada suho je i sunčano, ali na 4000 metara hladno je cijele godine. Dođite iz Sucrea, nakon nekoliko dana privikavanja, i ne planirajte više od jednog napornijeg obilaska dnevno."
+      kada: "From May to October it is dry and sunny, but at 4,000 meters it is cold all year round. Come from Sucre, after a few days of acclimatizing, and do not plan more than one strenuous visit a day."
     }
   ],
   izvori: [
     { ime: "Gobierno Autónomo Municipal de La Paz", url: "https://lapaz.bo/" },
     { ime: "Mi Teleférico", url: "https://www.miteleferico.bo/" },
-    { ime: "Tiwanaku, službena stranica", url: "https://www.tiwanaku.gob.bo/" },
+    { ime: "Tiwanaku, official website", url: "https://www.tiwanaku.gob.bo/" },
     { ime: "Casa Nacional de Moneda", url: "https://www.casanacionaldemoneda.bo/" },
     { ime: "Casa de la Libertad", url: "https://casadelalibertad.org.bo/" },
     { ime: "SERNAP", url: "https://www.sernap.gob.bo/" },

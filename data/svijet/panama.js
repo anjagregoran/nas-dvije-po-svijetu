@@ -2,154 +2,154 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["panama"] = {
   id: "panama",
   ime: "Panama",
-  regija: "Srednja Amerika i Karibi",
-  sazetak: "Uska prevlaka koja spaja dva kontinenta i dva oceana, s kanalom kroz prašumu, kolonijalnom jezgrom uz nebodere i otocima naroda Guna.",
+  regija: "Central America and the Caribbean",
+  sazetak: "A narrow isthmus joining two continents and two oceans, with a canal through the rainforest, a colonial quarter beside the skyscrapers and the islands of the Guna people.",
   uvod: [
-    "Panama je najuži dio američkoga kopna i ta joj je činjenica odredila cijelu povijest. Vasco Núñez de Balboa prešao je prevlaku 1513. i kao prvi Europljanin ugledao Tihi ocean s američke obale, a šest godina poslije osnovan je grad Panama, prvo europsko naselje na pacifičkoj strani kontinenta. Preko prevlake se zatim stoljećima na mazgama prenosilo peruansko srebro do karipskih luka, što je privlačilo gusare poput Henryja Morgana.",
-    "Francuzi su krajem 19. stoljeća pokušali prokopati kanal i odustali nakon dvadesetak tisuća mrtvih od žute groznice i malarije. Panama se 1903. odvojila od Kolumbije uz potporu SAD-a, koji je kanal dovršio 1914. i njime upravljao sve do 31. prosinca 1999. godine. Danas je glavni grad financijsko središte s neboderima, a samo sat ili dva dalje žive domorodački narodi koji su sačuvali vlastitu samoupravu."
+    "Panama is the narrowest part of the Americas, and that fact has shaped its entire history. Vasco Núñez de Balboa crossed the isthmus in 1513 and became the first European to see the Pacific Ocean from the American shore, and six years later the city of Panama was founded, the first European settlement on the Pacific side of the continent. For centuries after that, Peruvian silver was carried across the isthmus on mules to the Caribbean ports, which drew pirates such as Henry Morgan.",
+    "In the late 19th century the French tried to dig a canal and gave up after some twenty thousand deaths from yellow fever and malaria. In 1903 Panama broke away from Colombia with the support of the USA, which finished the canal in 1914 and ran it right up to December 31, 1999. Today the capital is a financial center full of skyscrapers, while just an hour or two away live indigenous peoples who have kept their own self-government."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suho razdoblje na pacifičkoj strani traje od sredine prosinca do travnja. Na karipskoj obali kiša pada cijele godine, a u Bocas del Toru najmanje je ima u rujnu i listopadu te u veljači i ožujku." },
-    { k: "Valuta", v: "Balboa je vezana uz američki dolar u omjeru jedan naprama jedan. Panama nema vlastite novčanice, pa se plaća dolarskim novčanicama i panamskim ili američkim kovanicama." },
-    { k: "Kretanje", v: "Glavni grad ima metro i mnogo taksija. Do otočja Guna Yala vozi se terenskim vozilom pa čamcem, a do Bocas del Tora najbrže je letjeti." },
-    { k: "Napojnica", v: "U restoranima se ostavlja oko 10 posto ako usluga nije već uračunata. Na otocima Guna Yala posebno se plaća fotografiranje ljudi, obično jedan dolar." }
+    { k: "When to go", v: "The dry season on the Pacific side runs from mid-December to April. On the Caribbean coast it rains all year, and in Bocas del Toro there is the least rain in September and October and again in February and March." },
+    { k: "Currency", v: "The balboa is pegged to the US dollar at one to one. Panama has no banknotes of its own, so you pay with dollar bills and with Panamanian or US coins." },
+    { k: "Getting around", v: "The capital has a metro and plenty of taxis. You reach the Guna Yala islands by four-wheel-drive vehicle and then by boat, and the fastest way to Bocas del Toro is to fly." },
+    { k: "Tipping", v: "In restaurants people leave around 10 percent if service is not already included. On the Guna Yala islands you pay separately to photograph people, usually one dollar." }
   ],
   hrana: [
-    { ime: "Sancocho de gallina", opis: "Juha od domaće kokoši s korijenom ñame i mirisnom travom culantro, poslužena s bijelom rižom.", prica: "Nacionalno jelo dolazi s poluotoka Azuero i smatra se lijekom za sve, od prehlade do mamurluka. Culantro je rođak korijandra jačega mirisa, a gomolj ñame zgušnjava juhu dok se raskuhava. Panamci tvrde da vruća juha na vrućini hladi, pa je jedu u podne." },
-    { ime: "Ceviche de corvina", opis: "Kockice bijele ribe marinirane u soku limete s lukom i ljutom papričicom ají chombo.", prica: "Na ribljoj tržnici Mercado de Mariscos kraj stare jezgre glavnoga grada prodaje se u plastičnim čašama, s krekerima, na desetak štandova u nizu. Uz ribu se nudi i inačica s hobotnicom ili škampima." },
-    { ime: "Arroz con pollo", opis: "Riža kuhana s piletinom, povrćem, maslinama i sjemenkama achiote, koje joj daju narančastu boju.", prica: "Nema rođendana, krštenja ni slavlja bez velikoga lonca ovoga jela. Uz nju se obično poslužuje krumpirova salata s ciklom, zbog koje je cijeli tanjur ružičast." },
-    { ime: "Carimañolas i hojaldras", opis: "Prženi valjušci od manioke punjeni mljevenim mesom i prženo dizano tijesto, oboje za doručak.", prica: "Panamski je doručak obilan i pržen, a jede se u jednostavnim zalogajnicama zvanima fondas. Hojaldre se jedu sa sirom ili posute šećerom, uz kavu s mlijekom." },
-    { ime: "Patacones", opis: "Debele kriške zelene banane za kuhanje, pržene, spljoštene i ponovno pržene do hrskavosti.", prica: "Prilog su gotovo svakom jelu, osobito prženoj ribi na obali. Najbolji su odmah iz ulja, posoljeni, a ponegdje služe i kao podloga za ceviche." },
-    { ime: "Raspao", opis: "Strugani led preliven voćnim sirupom i kondenziranim mlijekom.", prica: "Prodavači s kolicima stružu led ručnom blanjom s velikoga bloka. Na vrućini i vlazi glavnoga grada to je najjeftinije i najbrže osvježenje, a kondenzirano mlijeko odozgo se ne preskače." },
-    { ime: "Kava geisha", opis: "Rijetka sorta arabice cvjetnoga, gotovo čajnoga mirisa, koja raste na padinama vulkana Barú kraj Boquetea.", prica: "Sorta potječe iz Etiopije, a svjetsku je slavu stekla 2004., kada je s jednoga panamskog imanja pobijedila na nacionalnom ocjenjivanju i postigla dotad neviđenu cijenu. Otada redovito ruši rekorde na dražbama, pa je šalica i u Panami skuplja od obične." },
-    { ime: "Seco i rum", opis: "Seco je bistra rakija od šećerne trske, a panamski rumovi dozrijevaju u hrastovim bačvama.", prica: "Seco se proizvodi u pokrajini Herrera i na selu se pije s mlijekom i ledom. Uz njega se ljeti pije i chicheme, slatki hladni napitak od kukuruza, mlijeka i cimeta." }
+    { ime: "Sancocho de gallina", opis: "A soup of free-range hen with ñame root and the fragrant herb culantro, served with white rice.", prica: "The national dish comes from the Azuero Peninsula and is considered a cure for everything from a cold to a hangover. Culantro is a stronger-smelling relative of cilantro, and the ñame tuber thickens the soup as it cooks down. Panamanians maintain that hot soup cools you down in the heat, so they eat it at noon." },
+    { ime: "Ceviche de corvina", opis: "Cubes of white fish marinated in lime juice with onion and the hot ají chombo pepper.", prica: "At the Mercado de Mariscos fish market, next to the old quarter of the capital, it is sold in plastic cups with crackers at a dozen or so stalls in a row. Besides the fish, there are versions with octopus or shrimp." },
+    { ime: "Arroz con pollo", opis: "Rice cooked with chicken, vegetables, olives and achiote seeds, which give it its orange color.", prica: "No birthday, christening or celebration is complete without a big pot of this dish. It is usually served with a potato salad made with beets, which turns the whole plate pink." },
+    { ime: "Carimañolas and hojaldras", opis: "Fried cassava fritters stuffed with ground meat, and fried leavened dough, both eaten for breakfast.", prica: "The Panamanian breakfast is hearty and fried, and it is eaten in the simple eateries called fondas. Hojaldras are eaten with cheese or dusted with sugar, alongside coffee with milk." },
+    { ime: "Patacones", opis: "Thick slices of green plantain, fried, flattened and fried again until crisp.", prica: "They come with almost every dish, especially fried fish on the coast. They are best straight out of the oil, salted, and in some places they also serve as a base for ceviche." },
+    { ime: "Raspao", opis: "Shaved ice doused in fruit syrup and condensed milk.", prica: "Vendors with carts shave the ice from a big block with a hand plane. In the heat and humidity of the capital it is the cheapest and quickest way to cool off, and the condensed milk on top is not to be skipped." },
+    { ime: "Geisha coffee", opis: "A rare variety of arabica with a floral, almost tea-like aroma, grown on the slopes of the Barú volcano near Boquete.", prica: "The variety comes from Ethiopia, and it won worldwide fame in 2004, when beans from one Panamanian farm won the national competition and fetched a price never seen before. It has regularly broken auction records ever since, so even in Panama a cup costs more than an ordinary coffee." },
+    { ime: "Seco and rum", opis: "Seco is a clear spirit made from sugarcane, and Panamanian rums are aged in oak barrels.", prica: "Seco is produced in the province of Herrera, and in the countryside it is drunk with milk and ice. In summer people also drink chicheme, a sweet cold drink of corn, milk and cinnamon." }
   ],
   obicaji: [
-    { ime: "Pollera i tamborito", opis: "Pollera je svečana ženska nošnja od bijeloga platna s ručnim vezom, čija izrada traje i godinu dana, a uz nju se u kosu stavljaju deseci treperavih ukrasa od bisera i ribljih ljuski. U njoj se pleše tamborito, nacionalni ples u kojem par kruži unutar kruga pjevačica i bubnjara.", gdje: "Najljepše se vidi u gradiću Las Tablas na poluotoku Azuero, na karnevalu u veljači ili ožujku i na povorci Tisuću pollera u siječnju. U glavnom gradu folklorne skupine nastupaju o državnim praznicima u studenome." },
-    { ime: "Kultura Congo", opis: "Potomci odbjeglih robova na karipskoj obali čuvaju ples i glazbu u kojima se izruguju nekadašnjim gospodarima: odjeću nose naopako, govore izvrnutim jezikom, a kraljica i njezin dvor plešu uz bubnjeve bosi. UNESCO je te obrede upisao 2018. godine.", gdje: "Središte je Portobelo, sat i pol od glavnoga grada, gdje se pleše od siječnja do Pepelnice, a svake druge godine održava se i Festival vragova i Conga." },
-    { ime: "Mola", opis: "Mola je višeslojna tkanina koju žene naroda Guna izrađuju tako da slojeve platna izrezuju i podšivaju sitnim bodovima, pa uzorak nastaje iz donjih boja. Motivi su se razvili iz starijega oslikavanja tijela, a dvije mole čine prednju i stražnju stranu bluze.", gdje: "Kupite je izravno od žene koja ju je sašila, na otocima Guna Yala ili na štandovima u staroj jezgri glavnoga grada. Povijest i tehniku objašnjava mali Museo de la Mola u četvrti Casco Viejo." },
-    { ime: "Salsa", opis: "Panama je dala jednoga od najvećih autora salse, Rubéna Bladesa, rođenoga u staroj jezgri glavnoga grada, čije pjesme pričaju priče o ljudima s ulice. Zbog luke i kanala grad je oduvijek upijao kubanske, portorikanske i kolumbijske ritmove.", gdje: "U četvrti Casco Viejo barovi i krovne terase imaju večeri salse uživo, osobito od četvrtka do subote, a plesne škole u gradu nude satove i početnicama." },
-    { ime: "Típico i festival Mejorana", opis: "Panamska narodna glazba svira se na harmonici, bubnjevima i maloj gitari mejorani s pet žica, a pjevačice je ukrašavaju visokim grlenim uzvicima zvanima saloma. Uz nju se pleše u paru, sitnim brzim koracima.", gdje: "Najveća smotra folklora, Festival de la Mejorana, održava se svakoga rujna u mjestu Guararé na poluotoku Azuero." },
-    { ime: "Šešir pintao", opis: "Panamski seljački šešir plete se ručno od biljnih vlakana u crno-bijelim prugama, a način na koji mu je obod savijen govori o raspoloženju vlasnika. Slavni panama šešir, usprkos imenu, potječe iz Ekvadora, a ime je dobio jer se prodavao radnicima i putnicima na prevlaci.", gdje: "Pintao se plete u selima oko La Pintade u pokrajini Coclé, dva i pol sata od glavnoga grada. UNESCO je to umijeće zaštitio 2017. godine." }
+    { ime: "The pollera and the tamborito", opis: "The pollera is the women's ceremonial dress of white cloth with hand embroidery, which can take as long as a year to make, and it is worn with dozens of quivering hair ornaments of pearls and fish scales. In it women dance the tamborito, the national dance, in which a couple circles inside a ring of women singers and drummers.", gdje: "You see it at its finest in the little town of Las Tablas on the Azuero Peninsula, at the carnival in February or March and at the Parade of a Thousand Polleras in January. In the capital, folk groups perform on the national holidays in November." },
+    { ime: "Congo culture", opis: "The descendants of escaped slaves on the Caribbean coast keep alive a dance and music in which they mock their former masters: they wear their clothes inside out and speak a topsy-turvy language, while the queen and her court dance barefoot to the drums. UNESCO inscribed these rituals in 2018.", gdje: "The center is Portobelo, an hour and a half from the capital, where the dancing goes on from January to Ash Wednesday, and every other year the Festival of Devils and Congos is held as well." },
+    { ime: "Mola", opis: "The mola is a layered textile that the women of the Guna people make by cutting through layers of cloth and stitching them under with tiny stitches, so that the pattern emerges from the colors beneath. The motifs grew out of an older tradition of body painting, and two molas form the front and back of a blouse.", gdje: "Buy one directly from the woman who sewed it, on the Guna Yala islands or at the stalls in the old quarter of the capital. The small Museo de la Mola in the Casco Viejo district explains the history and the technique." },
+    { ime: "Salsa", opis: "Panama gave the world one of the greatest salsa songwriters, Rubén Blades, who was born in the old quarter of the capital and whose songs tell the stories of people from the street. Because of the port and the canal, the city has always soaked up Cuban, Puerto Rican and Colombian rhythms.", gdje: "In the Casco Viejo district the bars and rooftop terraces have live salsa nights, especially from Thursday to Saturday, and the dance schools in the city offer lessons for beginners too." },
+    { ime: "Típico and the Mejorana festival", opis: "Panamanian folk music is played on the accordion, drums and the mejorana, a small five-string guitar, and women singers embellish it with the high, throaty cries known as saloma. People dance to it in couples, with small, quick steps.", gdje: "The biggest folklore gathering, the Festival de la Mejorana, is held every September in the town of Guararé on the Azuero Peninsula." },
+    { ime: "The pintao hat", opis: "The Panamanian country hat is woven by hand from plant fibers in black and white stripes, and the way its brim is turned says something about its owner's mood. The famous Panama hat, despite its name, comes from Ecuador, and it got the name because it was sold to workers and travelers on the isthmus.", gdje: "The pintao is woven in the villages around La Pintada in the province of Coclé, two and a half hours from the capital. UNESCO protected this craft in 2017." }
   ],
   fraze: [
-    { izvorno: "Buenas", izgovor: "BUE-nas", hr: "Dobar dan (u svako doba)" },
-    { izvorno: "¿Qué xopá?", izgovor: "ke so-PA", hr: "Što ima? (panamski pozdrav, izvrnuto qué pasó)" },
-    { izvorno: "Gracias", izgovor: "GRA-sjas", hr: "Hvala" },
-    { izvorno: "¡Chuleta!", izgovor: "ču-LE-ta", hr: "Ajme! Opa! (usklik iznenađenja)" },
-    { izvorno: "¿Cuánto cuesta?", izgovor: "KUAN-to KUES-ta", hr: "Koliko košta?" },
-    { izvorno: "La cuenta, por favor", izgovor: "la KUEN-ta por fa-VOR", hr: "Račun, molim" },
-    { izvorno: "¿Puedo tomar una foto?", izgovor: "PUE-do to-MAR U-na FO-to", hr: "Smijem li fotografirati?" },
-    { izvorno: "Nuedi", izgovor: "nu-E-di", hr: "Hvala, dobro (na jeziku naroda Guna)" }
+    { izvorno: "Buenas", izgovor: "BWEH-nahs", hr: "Hello (at any time of day)" },
+    { izvorno: "¿Qué xopá?", izgovor: "keh soh-PAH", hr: "What's up? (a Panamanian greeting, qué pasó turned around)" },
+    { izvorno: "Gracias", izgovor: "GRAH-syahs", hr: "Thank you" },
+    { izvorno: "¡Chuleta!", izgovor: "choo-LEH-tah", hr: "Wow! Oh my! (an exclamation of surprise)" },
+    { izvorno: "¿Cuánto cuesta?", izgovor: "KWAHN-toh KWES-tah", hr: "How much does it cost?" },
+    { izvorno: "La cuenta, por favor", izgovor: "lah KWEN-tah por fah-VOR", hr: "The check, please" },
+    { izvorno: "¿Puedo tomar una foto?", izgovor: "PWEH-doh toh-MAR OO-nah FOH-toh", hr: "May I take a photo?" },
+    { izvorno: "Nuedi", izgovor: "noo-EH-dee", hr: "Thank you, good (in the language of the Guna people)" }
   ],
   zanimljivosti: [
-    "Zbog zavoja prevlake atlantski je ulaz u kanal zapadnije od pacifičkoga, pa se u Panami može gledati kako sunce izlazi nad Tihim oceanom.",
-    "Brodovi se u kanalu ustavama podižu 26 metara do umjetnoga jezera Gatún i zatim spuštaju na drugoj strani, a za sve se koristi slatka kišnica.",
-    "Najnižu cestarinu u povijesti kanala, 36 centi, platio je 1928. pustolov Richard Halliburton, koji ga je preplivao.",
-    "Panama šešir potječe iz Ekvadora.",
-    "Izdizanje panamske prevlake prije otprilike tri milijuna godina razdvojilo je dva oceana i spojilo dva kontinenta, što je promijenilo morske struje i klimu cijeloga planeta.",
-    "Narod Guna izborio je 1925. ustankom vlastitu autonomiju, jednu od prvih domorodačkih samouprava u Americi.",
-    "Francuskim pokušajem gradnje kanala upravljao je Ferdinand de Lesseps, graditelj Sueskoga kanala, a završio je jednim od najvećih financijskih skandala 19. stoljeća."
+    "Because of the bend in the isthmus, the Atlantic entrance to the canal lies farther west than the Pacific one, so in Panama you can watch the sun rise over the Pacific Ocean.",
+    "In the canal, locks lift ships 26 meters up to the artificial Lake Gatún and then lower them on the other side, and fresh rainwater is used for all of it.",
+    "The lowest toll in the history of the canal, 36 cents, was paid in 1928 by the adventurer Richard Halliburton, who swam it.",
+    "The Panama hat comes from Ecuador.",
+    "The rise of the Isthmus of Panama about three million years ago separated two oceans and joined two continents, which changed the ocean currents and the climate of the entire planet.",
+    "In 1925 the Guna people won their autonomy through an uprising, one of the first cases of indigenous self-government in the Americas.",
+    "The French attempt to build the canal was led by Ferdinand de Lesseps, the builder of the Suez Canal, and it ended in one of the biggest financial scandals of the 19th century."
   ],
   mjesta: [
     {
       id: "ciudad-de-panama",
-      ime: "Ciudad de Panamá i kanal",
+      ime: "Panama City and the canal",
       vrsta: "grad",
-      sazetak: "Grad triju lica: ruševine iz 16. stoljeća, kolonijalna jezgra na poluotoku i šuma nebodera, s kanalom i prašumom na rubu.",
+      sazetak: "A city with three faces: 16th-century ruins, a colonial quarter on a peninsula and a forest of skyscrapers, with the canal and the rainforest at its edge.",
       prica: [
-        "Prvi grad osnovao je 15. kolovoza 1519. Pedro Arias Dávila i odatle su kretale ekspedicije na Peru. Velški gusar Henry Morgan napao ga je 1671. i grad je izgorio, pa su ga Španjolci dvije godine poslije ponovno sagradili osam kilometara dalje, na stjenovitom poluotoku koji se lakše branio. To je današnji Casco Viejo.",
-        "Kad je 1914. otvoren kanal, uz njega je nastala Zona kanala, pojas pod upravom SAD-a s vlastitim školama, poštom i policijom, koji je grad dijelio od vlastitoga zaleđa sve do kraja stoljeća. Otkako je kanal 1999. vraćen Panami, grad se naglo izgradio, a stara je jezgra obnovljena."
+        "The first city was founded on August 15, 1519, by Pedro Arias Dávila, and the expeditions to Peru set out from there. The Welsh pirate Henry Morgan attacked it in 1671 and the city burned down, so two years later the Spanish rebuilt it eight kilometers away, on a rocky peninsula that was easier to defend. That is today's Casco Viejo.",
+        "When the canal opened in 1914, the Canal Zone grew up alongside it, a strip under US administration with its own schools, post office and police, which cut the city off from its own hinterland until the end of the century. Since the canal was handed back to Panama in 1999, the city has grown at speed and the old quarter has been restored."
       ],
       vidjeti: [
-        { ime: "Ustave Miraflores", opis: "S terasa posjetiteljskoga centra gleda se kako golemi brod ulazi u komoru sa samo nekoliko desetaka centimetara razmaka sa svake strane, a male lokomotive zvane mule drže ga u sredini. Voda u komoru ulazi samo silom teže, bez ijedne pumpe. Najviše brodova prolazi rano ujutro i poslijepodne." },
-        { ime: "Casco Viejo", opis: "Stara jezgra na poluotoku mješavina je španjolskih, francuskih i karipskih kuća s balkonima od kovanoga željeza. Na glavnom trgu, pred katedralom čiji su tornjevi obloženi sedefom školjaka, 1903. je proglašena neovisnost. UNESCO je četvrt zaštitio 1997. godine." },
-        { ime: "Zlatni oltar u crkvi San José", opis: "Barokni oltar od mahagonija obložen je zlatnim listićima. Legenda kaže da ga je pred Morganovim gusarima spasio redovnik koji ga je premazao crnom bojom, pa su napadači mislili da je bezvrijedan. Povjesničari napominju da je oltar zapravo mlađi od napada, ali priču ovdje svi rado pričaju." },
-        { ime: "Panamá Viejo", opis: "Od prvoga grada ostali su kameni zidovi samostana i toranj katedrale, visok tridesetak metara, na koji se možete popeti. Zanimljivo je gledati ruševine iz 16. stoljeća s neboderima u pozadini. U muzeju je maketa grada prije Morganova napada." },
-        { ime: "Museo del Canal Interoceánico", opis: "Muzej je u zgradi na glavnom trgu stare jezgre koja je sagrađena kao hotel, a zatim je bila sjedište francuske pa američke uprave gradnje. Izlošci prate priču od španjolskih staza za mazge do predaje kanala, uključujući i dugu borbu Panamaca za suverenitet." },
-        { ime: "Biomuseo", opis: "Šarenu zgradu na nasipu Amador projektirao je Frank Gehry, čija je supruga Panamka, i to mu je jedino djelo u Latinskoj Americi. Muzej objašnjava kako je nastanak prevlake promijenio život na Zemlji, uz dvoranu u kojoj vas okruže životinje dvaju kontinenata u prirodnoj veličini." },
-        { ime: "Portobelo", opis: "Na karipskoj obali, sat i pol od grada, stoje zarasle utvrde luke iz koje je španjolsko srebro kretalo za Europu, a u čijim je vodama 1596. u olovnom lijesu pokopan Francis Drake. U crkvi se štuje Crni Krist, kojemu 21. listopada hodočaste deseci tisuća ljudi." }
+        { ime: "Miraflores Locks", opis: "From the terraces of the visitor center you watch a huge ship enter the chamber with only a few dozen centimeters to spare on each side, while the little locomotives called mules keep it centered. The water enters the chamber by gravity alone, without a single pump. Most ships pass through early in the morning and in the afternoon." },
+        { ime: "Casco Viejo", opis: "The old quarter on the peninsula is a mix of Spanish, French and Caribbean houses with wrought-iron balconies. Independence was proclaimed in 1903 on the main square, in front of the cathedral whose towers are faced with mother-of-pearl. UNESCO protected the district in 1997." },
+        { ime: "The Golden Altar in the church of San José", opis: "The Baroque mahogany altar is covered in gold leaf. Legend has it that a friar saved it from Morgan's pirates by painting it black, so the attackers thought it was worthless. Historians point out that the altar is actually younger than the attack, but everyone here loves to tell the story." },
+        { ime: "Panamá Viejo", opis: "What remains of the first city are the stone walls of the convents and the cathedral tower, about thirty meters high, which you can climb. It is striking to look at 16th-century ruins with skyscrapers in the background. The museum has a model of the city before Morgan's attack." },
+        { ime: "Museo del Canal Interoceánico", opis: "The museum is in a building on the main square of the old quarter that was built as a hotel and then served as headquarters for the French and later the US construction administration. The exhibits follow the story from the Spanish mule trails to the handover of the canal, including the Panamanians' long struggle for sovereignty." },
+        { ime: "Biomuseo", opis: "The colorful building on the Amador Causeway was designed by Frank Gehry, whose wife is Panamanian, and it is his only work in Latin America. The museum explains how the formation of the isthmus changed life on Earth, with a hall where life-size animals of the two continents surround you." },
+        { ime: "Portobelo", opis: "On the Caribbean coast, an hour and a half from the city, stand the overgrown forts of the port from which Spanish silver set sail for Europe, and in whose waters Francis Drake was buried in a lead coffin in 1596. The church is home to the venerated Black Christ, to whom tens of thousands of people make a pilgrimage on October 21." }
       ],
       jesti: [
-        { ime: "Ceviche na ribljoj tržnici", opis: "Na Mercado de Mariscos, na početku obalne šetnice, kupite čašu cevichea na štandu i pojedite je stojeći, s pogledom na ribarske brodice." },
-        { ime: "Sancocho", opis: "Najbolji je u jednostavnim zalogajnicama fondas i u restoranima domaće kuhinje u četvrtima oko stare jezgre." },
-        { ime: "Šalica geishe", opis: "Specijalizirane kavane u Casco Vieju pripremaju geishu ručnim prelijevanjem i objasne po čemu se razlikuje, što je najjeftiniji način da kušate jednu od najskupljih kava na svijetu." },
-        { ime: "Raspao na šetnici", opis: "Na obalnoj šetnici Cinta Costera prodavači stružu led pred vama, a uz zalazak sunca tu šeće cijeli grad." }
+        { ime: "Ceviche at the fish market", opis: "At the Mercado de Mariscos, at the start of the waterfront promenade, buy a cup of ceviche at a stall and eat it standing up, with a view of the fishing boats." },
+        { ime: "Sancocho", opis: "It is at its best in the simple fondas and in the home-style restaurants of the neighborhoods around the old quarter." },
+        { ime: "A cup of geisha", opis: "The specialty coffee shops in Casco Viejo brew geisha as a pour-over and explain what sets it apart, which is the cheapest way to taste one of the most expensive coffees in the world." },
+        { ime: "Raspao on the promenade", opis: "On the Cinta Costera waterfront promenade, vendors shave the ice in front of you, and at sunset the whole city is out for a stroll here." }
       ],
       dozivjeti: [
-        { ime: "Prolazak broda kroz ustave", opis: "U posjetiteljskom centru Miraflores prije terase pogledajte film o kanalu, pa pričekajte da se komora napuni i brod podigne pred vama. Ulaznice i raspored objavljuje uprava kanala.", link: "https://visitcanaldepanama.com/es/" },
-        { ime: "Šetnja na Cerro Ancón", opis: "Na šumoviti brežuljak s velikom zastavom penje se asfaltiranom cestom zatvorenom za promet. Putem se često vide ljenivci, tukani i aguti, a s vrha se odjednom vide stara jezgra, neboderi i kanal." },
-        { ime: "Večer salse u Casco Vieju", opis: "Navečer se stara jezgra pretvara u najživlji dio grada. Potražite bar sa sastavom uživo, a tko želi naučiti korake, može dan prije uzeti sat u nekoj od plesnih škola." },
-        { ime: "Museo de la Mola", opis: "Mali besplatni muzej u staroj jezgri pokazuje stotine mola i objašnjava njihove simbole, što je dobar uvod prije puta na otoke Guna.", link: "https://museodelamola.org/" }
+        { ime: "Watching a ship pass through the locks", opis: "At the Miraflores visitor center, watch the film about the canal before going out to the terrace, then wait for the chamber to fill and the ship to rise in front of you. Tickets and schedules are published by the canal authority.", link: "https://visitcanaldepanama.com/es/" },
+        { ime: "A walk up Cerro Ancón", opis: "You climb the wooded hill with its big flag on a paved road that is closed to traffic. Sloths, toucans and agoutis are often seen along the way, and from the top you can take in the old quarter, the skyscrapers and the canal all at once." },
+        { ime: "A salsa night in Casco Viejo", opis: "In the evening the old quarter turns into the liveliest part of the city. Look for a bar with a live band, and if you want to learn the steps, you can take a lesson at one of the dance schools the day before." },
+        { ime: "Museo de la Mola", opis: "This small free museum in the old quarter displays hundreds of molas and explains their symbols, which makes it a good introduction before a trip to the Guna islands.", link: "https://museodelamola.org/" }
       ],
       agencije: [
-        { ime: "Visit Panama", opis: "Službena stranica Panamske turističke uprave.", link: "https://www.tourismpanama.com/" },
-        { ime: "Visita Canal de Panamá", opis: "Službena stranica uprave kanala za posjetitelje, s ulaznicama za Miraflores.", link: "https://visitcanaldepanama.com/es/" },
-        { ime: "Patronato Panamá Viejo", opis: "Zaklada koja upravlja arheološkim nalazištem i muzejom prvoga grada.", link: "https://www.patronatopanamaviejo.org/" }
+        { ime: "Visit Panama", opis: "The official website of the Panama Tourism Authority.", link: "https://www.tourismpanama.com/" },
+        { ime: "Visita Canal de Panamá", opis: "The canal authority's official website for visitors, with tickets for Miraflores.", link: "https://visitcanaldepanama.com/es/" },
+        { ime: "Patronato Panamá Viejo", opis: "The foundation that manages the archaeological site and museum of the first city.", link: "https://www.patronatopanamaviejo.org/" }
       ],
-      kada: "Od siječnja do travnja suho je i vjetrovito, pa je vrućina podnošljivija. Staru jezgru obilazite rano ujutro ili predvečer, a podne provedite u muzeju."
+      kada: "From January to April it is dry and breezy, which makes the heat easier to bear. Explore the old quarter early in the morning or toward evening, and spend midday in a museum."
     },
     {
       id: "guna-yala",
       ime: "Guna Yala (San Blas)",
       vrsta: "otok",
-      sazetak: "Stotine koraljnih otočića s palmama kojima upravlja narod Guna, bez hotela, cesta i žurbe.",
+      sazetak: "Hundreds of coral islets with palm trees, governed by the Guna people, with no hotels, no roads and no hurry.",
       prica: [
-        "Duž karipske obale prema Kolumbiji proteže se otočje s više od tristo šezdeset otočića, od kojih je naseljeno pedesetak. Narod Guna doselio se na njih s kopna prije nekoliko stoljeća, bježeći od bolesti i sukoba. Kad im je panamska država početkom 20. stoljeća pokušala zabraniti nošnju i običaje, pobunili su se u veljači 1925. i izborili autonomiju.",
-        "Zemlja je ovdje zajednička i ne može se prodati strancima, pa nema velikih hotela, a goste primaju same obitelji u kolibama od trske. O svemu odlučuje zajednica na skupovima u kući zvanoj onmaked nega, gdje poglavari saile pjevaju predaju. Zbog podizanja mora stanovnici otoka Gardi Sugdub preselili su se 2024. u novo naselje na kopnu."
+        "Along the Caribbean coast toward Colombia stretches an archipelago of more than three hundred and sixty islets, about fifty of which are inhabited. The Guna people moved out to them from the mainland a few centuries ago, fleeing disease and conflict. When the Panamanian state tried to ban their dress and customs in the early 20th century, they rose up in February 1925 and won their autonomy.",
+        "The land here is held in common and cannot be sold to outsiders, so there are no big hotels, and guests are hosted by the families themselves in cane huts. Everything is decided by the community at gatherings in a house called the onmaked nega, where the chiefs, the sailas, chant the oral tradition. Because of rising seas, the residents of the island of Gardi Sugdub moved in 2024 to a new settlement on the mainland."
       ],
       vidjeti: [
-        { ime: "Naseljeni otoci", opis: "Na otocima-selima kolibe od trske i palmina lišća stoje tik jedna do druge, sve do ruba mora. Žene nose mole, crveno-žute marame, zlatnu karičicu u nosu i niske perlica omotane oko listova i podlaktica u geometrijske uzorke. Prije fotografiranja uvijek pitajte i platite." },
-        { ime: "Isla Perro", opis: "Uz otočić u plićaku leži olupina teretnoga broda potonuloga pedesetih godina 20. stoljeća, obrasla koraljima. Do nje se dopliva s plaže, pa je i početnice mogu razgledati s maskom." },
-        { ime: "Cayos Holandeses", opis: "Najudaljenija skupina otočića, zaštićena vanjskim grebenom, ima najbistrije more u otočju. Ovamo dolaze jedrilice, a na pješčanim sprudovima često nema nikoga." },
-        { ime: "Prirodni bazen", opis: "Usred mora, daleko od otoka, pješčani je sprud toliko plitak da voda seže do struka. Na dnu leže velike narančaste morske zvijezde, koje se gledaju, ali se ne vade iz mora." }
+        { ime: "The inhabited islands", opis: "On the village islands the huts of cane and palm leaves stand right up against one another, all the way to the edge of the sea. The women wear molas, red and yellow headscarves, a small gold ring in the nose and strings of beads wound around their calves and forearms in geometric patterns. Always ask before taking a photograph, and pay." },
+        { ime: "Isla Perro", opis: "In the shallows beside the islet lies the wreck of a cargo ship that sank in the 1950s, now overgrown with coral. You can swim out to it from the beach, so even beginners can explore it with a mask." },
+        { ime: "Cayos Holandeses", opis: "The most remote group of islets, sheltered by the outer reef, has the clearest water in the archipelago. Sailboats come here, and there is often no one at all on the sandbars." },
+        { ime: "The natural pool", opis: "Out in the middle of the sea, far from the islands, a sandbar is so shallow that the water comes up to your waist. Big orange starfish lie on the bottom, to be looked at and never lifted out of the sea." }
       ],
       jesti: [
-        { ime: "Jastog i riba s kokosovom rižom", opis: "Obroci su uključeni u cijenu boravka i ovise o ulovu: pržena riba ili jastog, riža kuhana u kokosovu mlijeku i patakoni." },
-        { ime: "Dule masi", opis: "Tradicijska juha naroda Guna od ribe, kokosova mlijeka i zelene banane, koju vrijedi zamoliti domaćine da skuhaju." },
-        { ime: "Kokos", opis: "Kokosovi su orasi donedavno služili kao novac u trgovini s kolumbijskim brodarima, a svaka palma i danas ima vlasnika, pa ih ne berite sami." }
+        { ime: "Lobster and fish with coconut rice", opis: "Meals are included in the price of your stay and depend on the catch: fried fish or lobster, rice cooked in coconut milk and patacones." },
+        { ime: "Dule masi", opis: "The traditional Guna soup of fish, coconut milk and green plantain, which is worth asking your hosts to cook." },
+        { ime: "Coconut", opis: "Until recently coconuts served as money in trade with Colombian boatmen, and every palm tree still has an owner today, so do not pick them yourself." }
       ],
       dozivjeti: [
-        { ime: "Noć u kolibi na otoku", opis: "Smještaj je jednostavan, s pješčanim podom i zajedničkom kupaonicom, a struje ima nekoliko sati navečer. Zauzvrat dobivate otok s kojega se zvijezde vide do obzora." },
-        { ime: "Kupnja mole od autorice", opis: "Dobra mola ima više slojeva, sitne i gotovo nevidljive bodove i uzorak koji ispunjava cijelu plohu. Cijena odražava tjedne rada, pa se oko nje ne cjenka grubo." },
-        { ime: "Izlet čamcem po otocima", opis: "Domaćini svaki dan vode goste na dva ili tri druga otoka i na ronjenje s maskom. Ponesite gotovinu u sitnim dolarskim novčanicama, jer bankomata nema." }
+        { ime: "A night in a hut on an island", opis: "The accommodation is simple, with a sand floor and a shared bathroom, and there is electricity for a few hours in the evening. In return you get an island where the stars are visible right down to the horizon." },
+        { ime: "Buying a mola from the woman who made it", opis: "A good mola has several layers, tiny and almost invisible stitches and a pattern that fills the whole surface. The price reflects weeks of work, so do not haggle hard over it." },
+        { ime: "A boat trip around the islands", opis: "Every day the hosts take their guests to two or three other islands and out snorkeling. Bring cash in small dollar bills, because there are no ATMs." }
       ],
       agencije: [
-        { ime: "Congresos Generales de Gunayala", opis: "Službena stranica vrhovne vlasti naroda Guna, s pravilima za posjetitelje.", link: "https://www.gunayala.org.pa/" },
-        { ime: "Visit Panama", opis: "Službena turistička stranica zemlje s opisom otočja.", link: "https://www.tourismpanama.com/" }
+        { ime: "Congresos Generales de Gunayala", opis: "The official website of the highest authority of the Guna people, with the rules for visitors.", link: "https://www.gunayala.org.pa/" },
+        { ime: "Visit Panama", opis: "The country's official tourism website, with a description of the archipelago.", link: "https://www.tourismpanama.com/" }
       ],
-      kada: "Najmirnije je more od veljače do travnja, dok od prosinca do veljače pušu jaki vjetrovi. Na ulazu u područje plaća se pristojba zajednici i pokazuje putovnica."
+      kada: "The sea is calmest from February to April, while strong winds blow from December to February. At the entrance to the territory you pay a fee to the community and show your passport."
     },
     {
       id: "bocas-del-toro",
       ime: "Bocas del Toro",
       vrsta: "otok",
-      sazetak: "Karipsko otočje drvenih kuća na stupovima, mangrova, crvenih žabica i opuštenoga afrokaripskog ritma.",
+      sazetak: "A Caribbean archipelago of wooden houses on stilts, mangroves, little red frogs and a laid-back Afro-Caribbean rhythm.",
       prica: [
-        "Kolumbo je 1502., na svojem četvrtom putovanju, u ovim zaštićenim zaljevima popravljao brodove, pa glavni otok nosi ime Colón, a zaljev Almirante. Krajem 19. stoljeća ovdje je sjedište imala tvrtka United Fruit, koja je na plantaže banana dovela radnike s Jamajke i drugih karipskih otoka.",
-        "Njihovi potomci i danas govore kreolski engleski zvan guari-guari, a uz njih ovdje živi domorodački narod Ngäbe. Gradić Bocas na otoku Colón sačuvao je drvene kuće s verandama iz doba banana, od kojih mnoge stoje na stupovima iznad mora."
+        "In 1502, on his fourth voyage, Columbus repaired his ships in these sheltered bays, which is why the main island is called Colón and the bay Almirante. In the late 19th century the United Fruit Company had its headquarters here and brought workers from Jamaica and other Caribbean islands to its banana plantations.",
+        "Their descendants still speak a creole English called guari-guari, and the indigenous Ngäbe people live here alongside them. The little town of Bocas on Isla Colón has kept its wooden houses with verandas from the banana era, many of which stand on stilts above the sea."
       ],
       vidjeti: [
-        { ime: "Bocas Town", opis: "Glavna ulica niz je šarenih drvenih kuća u karipskom stilu, s restoranima na molovima iza njih. Pogledajte park Simón Bolívar i staru zgradu pokrajinske uprave, ostatke vremena kad je ovo bio jedan od najbogatijih gradova u zemlji." },
-        { ime: "Isla Bastimentos i Red Frog Beach", opis: "Na ovom je otoku 1988. osnovan prvi morski nacionalni park u Panami. Na stazi do plaže živi sitna jagodasta otrovna žabica, crvena s crnim točkicama, koja na svakom otoku arhipelaga ima drukčiju boju." },
-        { ime: "Cayos Zapatilla", opis: "Dva nenaseljena otočića unutar parka imaju bijeli pijesak i greben odmah uz obalu. Od travnja do rujna na njihovim se plažama gnijezde morske kornjače, pa su dijelovi tada ograđeni." },
-        { ime: "Playa Estrella", opis: "Mirna plaža na sjeverozapadu otoka Colón poznata je po morskim zvijezdama u plićaku. Lokalna pravila zabranjuju da ih se dira ili vadi iz vode, jer na zraku brzo ugibaju." },
-        { ime: "Isla Pájaros", opis: "Na stjenovitom otočiću pred sjevernom obalom gnijezdi se crvenokljuna tropska ptica s dugim bijelim repnim perima, koju je u Panami moguće vidjeti samo ovdje. Čamci otok obilaze izdaleka." }
+        { ime: "Bocas Town", opis: "The main street is a row of colorful wooden houses in the Caribbean style, with restaurants on the piers behind them. Take a look at Parque Simón Bolívar and the old provincial government building, reminders of the time when this was one of the richest towns in the country." },
+        { ime: "Isla Bastimentos and Red Frog Beach", opis: "The first marine national park in Panama was established on this island in 1988. Along the trail to the beach lives the tiny strawberry poison frog, red with black spots, which has a different color on every island of the archipelago." },
+        { ime: "Cayos Zapatilla", opis: "The two uninhabited islets inside the park have white sand and a reef right off the shore. From April to September sea turtles nest on their beaches, so some sections are fenced off then." },
+        { ime: "Playa Estrella", opis: "This calm beach in the northwest of Isla Colón is known for the starfish in its shallows. Local rules forbid touching them or taking them out of the water, because they die quickly in the air." },
+        { ime: "Isla Pájaros", opis: "On a rocky islet off the north coast nests the red-billed tropicbird, with its long white tail feathers, which can be seen in Panama only here. The boats circle the island at a distance." }
       ],
       jesti: [
-        { ime: "Rondón", opis: "Gusta juha od ribe, rakova, manioke i zelene banane u kokosovu mlijeku, naslijeđe jamajčanskih doseljenika." },
-        { ime: "Kokosov kruh i johnny cakes", opis: "Slatkasta peciva s kokosovim mlijekom, koja se ujutro prodaju topla iz košara po ulicama gradića." },
-        { ime: "Čokolada naroda Ngäbe", opis: "Na kopnu nasuprot otocima zajednice Ngäbe uzgajaju kakao u sjeni prašume i rade čokoladu na tradicijski način, mljevenjem na kamenu." }
+        { ime: "Rondón", opis: "A thick soup of fish, crab, cassava and green plantain in coconut milk, a legacy of the Jamaican settlers." },
+        { ime: "Coconut bread and johnny cakes", opis: "Slightly sweet breads made with coconut milk, sold warm from baskets on the streets of the little town in the morning." },
+        { ime: "Ngäbe chocolate", opis: "On the mainland facing the islands, Ngäbe communities grow cacao in the shade of the rainforest and make chocolate the traditional way, by grinding it on stone." }
       ],
       dozivjeti: [
-        { ime: "Izlet čamcem po arhipelagu", opis: "Cjelodnevna tura obično uključuje zaljev u kojem žive dupini, ronjenje s maskom na koraljnom vrtu, ručak na molu i plažu. Odaberite prijevoznika koji se dupinima ne približava velikom brzinom." },
-        { ime: "Posjet nasadu kakaa", opis: "Zajednice Ngäbe na kopnu vode kroz šumske nasade, pokazuju fermentaciju i prženje zrna te kuhaju ručak. Izlet se dogovara u gradiću, a prihod ostaje u selu." },
-        { ime: "Glazba na molovima", opis: "Navečer se u barovima nad vodom čuju reggae, calypso i salsa, a o lokalnim se praznicima u studenome ulicama kreću limene glazbe i mažoretkinje." }
+        { ime: "A boat trip around the archipelago", opis: "A full-day tour usually takes in a bay where dolphins live, snorkeling over a coral garden, lunch on a pier and a beach. Choose an operator who does not approach the dolphins at high speed." },
+        { ime: "A visit to a cacao farm", opis: "Ngäbe communities on the mainland lead visitors through their forest plantings, show how the beans are fermented and roasted, and cook lunch. The trip is arranged in town, and the income stays in the village." },
+        { ime: "Music on the piers", opis: "In the evening you hear reggae, calypso and salsa in the bars over the water, and during the local holidays in November brass bands and majorettes move through the streets." }
       ],
       agencije: [
-        { ime: "Visit Panama", opis: "Službena turistička stranica zemlje s opisom otočja Bocas del Toro.", link: "https://www.tourismpanama.com/" }
+        { ime: "Visit Panama", opis: "The country's official tourism website, with a description of the Bocas del Toro archipelago.", link: "https://www.tourismpanama.com/" }
       ],
-      kada: "Najmanje kiše padne u rujnu i listopadu te u veljači i ožujku, ali pljusak je moguć svaki dan. More je najmirnije i najbistrije upravo u ranu jesen."
+      kada: "The least rain falls in September and October and again in February and March, although a downpour is possible on any day. The sea is at its calmest and clearest in early fall."
     }
   ],
   izvori: [
@@ -158,8 +158,8 @@ window.ATLAS["panama"] = {
     { ime: "Visita Canal de Panamá", url: "https://visitcanaldepanama.com/es/" },
     { ime: "Museo del Canal Interoceánico de Panamá", url: "https://museodelcanal.com/" },
     { ime: "Patronato Panamá Viejo", url: "https://www.patronatopanamaviejo.org/" },
-    { ime: "UNESCO: Arheološko nalazište Panamá Viejo i povijesna četvrt Paname", url: "https://whc.unesco.org/en/list/790" },
-    { ime: "UNESCO: Utvrde na karipskoj strani Paname, Portobelo i San Lorenzo", url: "https://whc.unesco.org/en/list/135" },
+    { ime: "UNESCO: Archaeological Site of Panamá Viejo and Historic District of Panamá", url: "https://whc.unesco.org/en/list/790" },
+    { ime: "UNESCO: Fortifications on the Caribbean Side of Panama, Portobelo and San Lorenzo", url: "https://whc.unesco.org/en/list/135" },
     { ime: "Biomuseo", url: "https://biomuseo.org/" },
     { ime: "Museo de la Mola", url: "https://museodelamola.org/" },
     { ime: "Congresos Generales de Gunayala", url: "https://www.gunayala.org.pa/" }

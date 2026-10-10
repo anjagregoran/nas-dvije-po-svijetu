@@ -30,9 +30,10 @@
       <section class="hero">
         <span class="label">Vodič po svijetu</span>
         <h1>Znati što <em>gledaš.</em></h1>
-        <p class="lead">Gradovi i gradići, jela, plesovi i priče iza svake katedrale, trga i tanjura. Upišite mjesto, znamenitost, jelo ili agenciju.</p>
-        <div class="search"><input type="search" id="q" placeholder="Npr. Lecce, Kyoto, fado, safari" autocomplete="off"></div>
+        <p class="lead">Gradovi i gradići, jela, plesovi i priče iza svake katedrale, trga i tanjura. Upišite bilo koje mjesto na svijetu, znamenitost, jelo ili agenciju.</p>
+        <form class="search" id="form"><input type="search" id="q" placeholder="Bilo koji grad, zemlja, jelo ili znamenitost" autocomplete="off"></form>
         <div class="results" id="res"></div>
+        <p style="margin:18px 0 0"><a class="btn ghost" href="trazi.html?blizu=1">Što je oko mene?</a></p>
       </section>
     </div>
 
@@ -49,6 +50,7 @@
           <span class="label" id="count"></span>
         </div>
         <div class="grid" id="continents"></div>
+        <div class="map" id="map"></div>
         <div id="countries"></div>
       </section>
 
@@ -68,6 +70,7 @@
   </footer>
 
   <script src="data/europa/index.js"></script>
+  <script src="js/karta.js"></script>
   <script src="js/home.js"></script>
 </body>
 </html>

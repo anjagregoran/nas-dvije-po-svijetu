@@ -29,6 +29,8 @@
 
   // ---------- kontinenti i zemlje ----------
   var active = I.kontinenti[0].ime;
+  var fromHash = decodeURIComponent((location.hash.match(/^#k=(.+)$/) || [])[1] || '');
+  if (I.kontinenti.some(function (k) { return k.ime === fromHash; })) active = fromHash;
   var cont = document.getElementById('continents');
   var box = document.getElementById('countries');
   function count(k) {
@@ -46,8 +48,18 @@
         '<span class="label">' + (n ? n + ' zemalja' : 'Uskoro') + '</span><h3>' + esc(k.ime) + '</h3></a>';
     }).join('');
   }
+  function drawMap(k) {
+    var pts = [];
+    k.regije.forEach(function (r) {
+      r.zemlje.forEach(function (z) {
+        if (z.spremno && z.c) pts.push({ c: z.c, t: z.ime, s: z.n + ' mjesta · ' + r.ime, h: 'zemlja.html?z=' + z.id });
+      });
+    });
+    window.Karta.draw('map', pts, { maxZoom: 5 });
+  }
   function drawCountries() {
     var k = I.kontinenti.filter(function (x) { return x.ime === active; })[0];
+    drawMap(k);
     var c = 0;
     box.innerHTML = '<h2 id="kontinent" style="margin-top:44px">' + esc(k.ime) + '</h2>' + k.regije.map(function (r) {
       return (k.regije.length > 1 ? '<h3 class="group-title">' + esc(r.ime) + '</h3>' : '<div style="height:14px"></div>') + '<div class="grid">' +
@@ -65,9 +77,11 @@
     e.preventDefault();
     active = a.getAttribute('data-k');
     drawContinents(); drawCountries();
-    document.getElementById('kontinent').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    history.replaceState(null, '', '#k=' + encodeURIComponent(active));
   });
   drawContinents(); drawCountries();
+  if (fromHash) setTimeout(function () { document.getElementById('zemlje').scrollIntoView(); }, 50);
 
   // ---------- tražilica ----------
   var idx = I.trazi.map(function (e) { return { t: e[0], k: e[1], h: e[2], x: norm(e[0]), y: norm(e[1]) }; });
@@ -81,9 +95,14 @@
       if (p === 0) a.push(it); else if (p > 0) b.push(it); else if (it.y.indexOf(q) > -1) c.push(it);
     });
     var hits = a.concat(b, c).slice(0, 14);
-    res.innerHTML = hits.length
-      ? hits.map(function (it) { return '<a href="' + esc(it.h) + '"><small>' + esc(it.k) + '</small>' + esc(it.t) + '</a>'; }).join('')
-      : '<p class="note">Ništa pod tim imenom. Pokušajte kraće ili na izvornom jeziku.</p>';
+    var raw = e.target.value.trim();
+    res.innerHTML = hits.map(function (it) { return '<a href="' + esc(it.h) + '"><small>' + esc(it.k) + '</small>' + esc(it.t) + '</a>'; }).join('') +
+      '<a href="trazi.html?q=' + encodeURIComponent(raw) + '"><small>Cijeli svijet · uživo</small>Potraži „' + esc(raw) + '“ bilo gdje na svijetu →</a>';
+  });
+  document.getElementById('form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var raw = document.getElementById('q').value.trim();
+    if (raw) location.href = 'trazi.html?q=' + encodeURIComponent(raw);
   });
 
   // ---------- činjenice ----------

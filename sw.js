@@ -1,8 +1,8 @@
 // Vodič radi i bez interneta: uvijek prvo pokušaj mrežu, a ako je nema, posluži spremljenu kopiju.
-var CACHE = 'putokaz-v2';
+var CACHE = 'putokaz-v3';
 var CORE = [
-  './', 'index.html', 'putovanje.html', 'zemlja.html',
-  'css/style.css', 'js/home.js', 'js/trip.js', 'js/zemlja.js',
+  './', 'index.html', 'putovanje.html', 'zemlja.html', 'trazi.html', 'js/trazi.js',
+  'css/style.css', 'js/home.js', 'js/trip.js', 'js/zemlja.js', 'js/karta.js', 'data/koordinate.js',
   'data/europa/index.js', 'data/apulija.js', 'data/apulija-mjesta-1.js', 'data/apulija-mjesta-2.js',
   'data/apulija-hrana.js', 'data/apulija-kultura.js', 'data/apulija-ako-zelis.js', 'icon.svg'
 ];

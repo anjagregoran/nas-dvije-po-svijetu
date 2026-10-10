@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Pretraga · Putokaz</title>
+  <meta name="theme-color" content="#fbf4ea">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="back" href="index.html">← Putokaz</a>
+      <span class="title">Cijeli svijet</span>
+    </div>
+  </header>
+
+  <main class="wrap narrow" style="min-height:80vh">
+    <form class="search left" id="form" style="margin-top:26px">
+      <input type="search" id="q" placeholder="Bilo koji grad, zemlja ili znamenitost" autocomplete="off">
+    </form>
+    <p style="margin:14px 0 0"><button type="button" class="ghost" id="near">Što je oko mene?</button></p>
+    <div id="app"></div>
+  </main>
+
+  <footer class="foot">
+    <a class="logo" href="index.html">Putokaz</a>
+    Tekstovi na ovoj stranici dolaze uživo s Wikipedije i dostupni su pod licencijom CC BY-SA.
+  </footer>
+
+  <script src="data/europa/index.js"></script>
+  <script src="js/karta.js"></script>
+  <script src="js/trazi.js"></script>
+</body>
+</html>

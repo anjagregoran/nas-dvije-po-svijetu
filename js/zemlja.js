@@ -17,10 +17,27 @@
     return url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(text || 'Službena stranica') + ' ↗</a>' : '';
   }
   function has(a) { return a && a.length; }
+  var KONT = {
+    'Južna Europa': 'Europa', 'Zapadna Europa': 'Europa', 'Srednja Europa': 'Europa', 'Sjeverna Europa': 'Europa',
+    'Britansko otočje': 'Europa', 'Jugoistočna Europa': 'Europa',
+    'Istočna Azija': 'Azija', 'Jugoistočna Azija': 'Azija', 'Južna i Srednja Azija': 'Azija', 'Bliski istok': 'Azija',
+    'Sjeverna Afrika': 'Afrika', 'Podsaharska Afrika': 'Afrika',
+    'Sjeverna Amerika': 'Sjeverna i Srednja Amerika', 'Srednja Amerika i Karibi': 'Sjeverna i Srednja Amerika',
+    'Južna Amerika': 'Južna Amerika', 'Oceanija': 'Oceanija'
+  };
+  var KO = window.KOORDINATE || {};
+  function crumbs(m) {
+    var k = KONT[Z.regija] || '';
+    var home = 'index.html' + (k ? '#k=' + encodeURIComponent(k) : '');
+    return '<p class="crumbs">' +
+      (k ? '<a href="' + home + '">' + esc(k) + '</a><i>›</i>' : '') +
+      (Z.regija && Z.regija !== k ? '<a href="' + home + '">' + esc(Z.regija) + '</a><i>›</i>' : '') +
+      (m ? '<a href="#/mjesta">' + esc(Z.ime) + '</a><i>›</i>' + esc(m.ime) : esc(Z.ime)) + '</p>';
+  }
   var VRSTA = { grad: 'Grad', 'gradić': 'Gradić', regija: 'Regija', otok: 'Otok', priroda: 'Priroda' };
 
   function overview() {
-    return '<header class="hero left"><span class="label">' + esc(Z.regija) + '</span><h1>' + esc(Z.ime) + '</h1>' +
+    return crumbs() + '<header class="hero left" style="padding-top:14px"><span class="label">' + esc(Z.mjesta.length) + ' mjesta</span><h1>' + esc(Z.ime) + '</h1>' +
       '<div class="lead">' + paras(Z.uvod) + '</div></header>' +
       '<div class="chips">' +
         '<a href="#/mjesta">Mjesta</a>' +
@@ -31,7 +48,7 @@
       '</div>' +
       (has(Z.ukratko) ? '<div class="card kv">' + Z.ukratko.map(function (u) { return '<div><b>' + esc(u.k) + '</b>' + esc(u.v) + '</div>'; }).join('') + '</div>' : '') +
 
-      '<h2 class="group-title" id="mjesta">Mjesta</h2>' +
+      '<h2 class="group-title" id="mjesta">Mjesta</h2><div class="map" id="map" style="margin:0 0 14px"></div>' +
       Z.mjesta.map(function (m) {
         return '<a class="card place" href="#/mjesto/' + m.id + '"><div>' +
           '<span class="badge plain">' + esc(VRSTA[m.vrsta] || 'Mjesto') + '</span>' +
@@ -68,7 +85,7 @@
   function place(id, open) {
     var m = Z.mjesta.filter(function (x) { return x.id === id; })[0];
     if (!m) return overview();
-    return '<p style="margin:26px 0 0"><a href="#/mjesta" class="label" style="text-decoration:none">← ' + esc(Z.ime) + '</a></p>' +
+    return crumbs(m) +
       '<header class="hero left" style="padding-top:14px"><span class="label">' + esc(VRSTA[m.vrsta] || 'Mjesto') + '</span><h1>' + esc(m.ime) + '</h1>' +
       '<div class="lead">' + paras(m.prica) + '</div></header>' +
 
@@ -79,14 +96,23 @@
       (has(m.jesti) ? '<h2 class="group-title" id="jesti">Što ovdje jesti</h2>' + items(m.jesti) : '') +
       (has(m.dozivjeti) ? '<h2 class="group-title" id="dozivjeti">Ako želiš</h2>' + items(m.dozivjeti) : '') +
       (has(m.agencije) ? '<h2 class="group-title" id="agencije">Agencije i vodiči</h2>' + items(m.agencije) : '') +
+      (KO[Z.id + '/' + m.id] ? '<h2 class="group-title">Na karti</h2><div class="map small" id="map"></div>' : '') +
       (m.kada ? '<h2 class="group-title">Kada ići</h2><div class="look">' + paras(m.kada) + '</div>' : '');
   }
 
   function route() {
     var parts = decodeURIComponent(location.hash).replace(/^#\/?/, '').split('/');
     var target = null;
-    if (parts[0] === 'mjesto') { app.innerHTML = place(parts[1], parts[2]); target = parts[2]; }
-    else { app.innerHTML = overview(); target = parts[0]; }
+    if (parts[0] === 'mjesto') {
+      app.innerHTML = place(parts[1], parts[2]); target = parts[2];
+      var pm = Z.mjesta.filter(function (x) { return x.id === parts[1]; })[0];
+      if (pm) window.Karta.draw('map', [{ c: KO[Z.id + '/' + pm.id], t: pm.ime, s: Z.ime }], { small: true, zoom: 11 });
+    } else {
+      app.innerHTML = overview(); target = parts[0];
+      window.Karta.draw('map', Z.mjesta.map(function (m) {
+        return { c: KO[Z.id + '/' + m.id], t: m.ime, s: m.sazetak, h: '#/mjesto/' + m.id };
+      }), { maxZoom: 8 });
+    }
     var el = target && document.getElementById(target);
     if (el) { el.scrollIntoView(); window.scrollBy(0, -76); } else { window.scrollTo(0, 0); }
   }

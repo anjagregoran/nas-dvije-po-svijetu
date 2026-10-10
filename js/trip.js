@@ -131,7 +131,7 @@
       g.m.push(m);
     });
     return head(T.naziv, 'Mjesta', 'Otvorite mjesto u kojem ste i čitajte dok hodate. Svaka znamenitost ima svoju priču i sitnice koje vrijedi potražiti.') +
-      searchBox() +
+      searchBox() + '<div class="map" id="map" style="margin-top:20px"></div>' +
       groups.map(function (g) {
         return '<h2 class="group-title">' + esc(g.n) + '</h2>' +
           g.m.map(function (m) {
@@ -277,6 +277,12 @@
     else { html = views.pocetak(); tab = ''; }
 
     app.innerHTML = html;
+    if (v === 'mjesta' && window.Karta) {
+      var KO = window.KOORDINATE || {};
+      window.Karta.draw('map', T.mjesta.map(function (m) {
+        return { c: KO[T.id + '/' + m.id], t: m.ime, s: m.sazetak, h: '#/mjesto/' + m.id };
+      }), { maxZoom: 9 });
+    }
     document.querySelectorAll('.tabs a').forEach(function (a) {
       a.classList.toggle('active', a.getAttribute('data-tab') === tab);
     });

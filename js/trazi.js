@@ -179,7 +179,6 @@
     var q = input.value.trim();
     if (q) location.href = 'trazi.html?q=' + encodeURIComponent(q);
   });
-  document.getElementById('near').addEventListener('click', function () { location.href = 'trazi.html?blizu=1'; });
 
   var Q = new URLSearchParams(location.search);
   if (Q.get('blizu')) around();

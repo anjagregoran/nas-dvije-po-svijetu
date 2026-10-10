@@ -87,7 +87,7 @@ window.Karta = (function () {
       points.forEach(function (p) {
         var ll = [p.c[1], p.c[0]];
         var pin = document.createElement('div');
-        pin.className = 'pin';
+        pin.className = 'pin' + (p.k ? ' ' + p.k : '');
         pin.title = p.t;
         var popup = new maplibregl.Popup({ offset: 14, closeButton: false, maxWidth: '260px' }).setHTML(
           '<b>' + esc(p.t) + '</b>' + (p.s ? '<span>' + esc(p.s) + '</span>' : '') +

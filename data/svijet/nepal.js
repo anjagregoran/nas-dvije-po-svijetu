@@ -2,194 +2,194 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["nepal"] = {
   id: "nepal",
   ime: "Nepal",
-  regija: "Južna i Srednja Azija",
-  sazetak: "Zemlja pod najvišim vrhovima svijeta, u kojoj se dan počinje krugom oko stupe, a završava tanjurom leće i riže.",
+  regija: "South and Central Asia",
+  sazetak: "A country beneath the highest peaks in the world, where the day begins with a circuit around a stupa and ends with a plate of lentils and rice.",
   uvod: [
-    "Nepal je uska zemlja između Indije i Tibeta koja se na samo dvjestotinjak kilometara širine uspinje od vruće džungle s nosorozima do Mount Everesta. Osam od četrnaest vrhova viših od osam tisuća metara nalazi se ovdje ili na njegovim granicama, ali Nepal je mnogo više od planina: dolina Katmandua jedno je od najgušćih područja umjetnosti i hramova u Aziji.",
-    "Zemlju je 1768. godine ujedinio kralj Prithvi Narayan Shah, pokorivši tri gradska kraljevstva u dolini, i Nepal nikada nije bio ničija kolonija. Monarhija je ukinuta 2008. godine, a razorni potres 2015. srušio je mnoge hramove, od kojih je većina otad pomno obnovljena. Hinduizam i budizam ovdje su toliko isprepleteni da ljudi često štuju ista svetišta, a gostoljubivost je takva da se mnoge putnice vraćaju više puta."
+    "Nepal is a narrow country between India and Tibet that, across a width of only some two hundred kilometers, climbs from hot jungle with rhinos to Mount Everest. Eight of the fourteen peaks higher than eight thousand meters stand here or on its borders, but Nepal is much more than mountains: the Kathmandu Valley is one of the densest concentrations of art and temples in Asia.",
+    "The country was unified in 1768 by King Prithvi Narayan Shah, who subdued the three city kingdoms of the valley, and Nepal has never been anyone's colony. The monarchy was abolished in 2008, and the devastating earthquake of 2015 brought down many temples, most of which have since been painstakingly restored. Hinduism and Buddhism are so intertwined here that people often worship at the same shrines, and the hospitality is such that many travelers come back more than once."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Listopad i studeni donose najbistrije poglede na planine, a ožujak i travanj cvjetanje rododendrona. Od lipnja do rujna traje monsun, kada su vrhovi u oblacima, a staze skliske." },
-    { k: "Valuta", v: "Nepalska rupija (NPR). U Katmanduu i Pokhari ima dovoljno bankomata, ali za sela i planinske staze treba ponijeti gotovinu." },
-    { k: "Kretanje", v: "Ceste su spore i zavojite, pa se između Katmandua i Pokhare često leti ili vozi turističkim autobusom šest do osam sati. Po dolini Katmandua najjednostavnije je uzeti taksi ili aplikaciju za prijevoz." },
-    { k: "Napojnica", v: "U restoranima se obično naplaćuje deset posto za uslugu. Vodičima i nosačima na kraju pješačenja daje se napojnica, što je važan dio njihove zarade." }
+    { k: "When to go", v: "October and November bring the clearest views of the mountains, and March and April the rhododendron bloom. The monsoon lasts from June to September, when the peaks are in cloud and the trails are slippery." },
+    { k: "Currency", v: "Nepalese rupee (NPR). There are plenty of ATMs in Kathmandu and Pokhara, but for the villages and the mountain trails you need to bring cash." },
+    { k: "Getting around", v: "The roads are slow and winding, so between Kathmandu and Pokhara people often fly or take a tourist bus for six to eight hours. Around the Kathmandu Valley the simplest thing is to take a taxi or use a ride-hailing app." },
+    { k: "Tipping", v: "Restaurants usually add ten percent for service. Guides and porters are tipped at the end of a trek, which is an important part of their income." }
   ],
   hrana: [
-    { ime: "Dal bhat", opis: "Riža s varivom od leće, curryjem od povrća, kiselim prilozima i ponekad mesom.", prica: "Nepalci ga jedu dvaput na dan, a planinski vodiči imaju uzrečicu da dal bhat daje snagu za dvadeset i četiri sata. Tanjur se besplatno nadopunjuje dok niste site, što nakon cjelodnevnog hodanja dobro dođe." },
-    { ime: "Momo", opis: "Okruglice na pari ili pržene, punjene bivoljim mesom, piletinom ili povrćem, uz ljuti umak od rajčice i sezama.", prica: "U Katmandu su ih donijeli trgovci iz naroda Newar koji su poslovali s Tibetom, a danas su najdraži zalogaj cijele zemlje. Svaka zalogajnica ima svoj umak i svoje vjerne goste." },
-    { ime: "Newarska kuhinja", opis: "Kuhinja starosjedilaca doline Katmandua, s jelima poput palačinki od leće bara, rižine „pizze“ chatamari i začinjenog pečenog mesa choila.", prica: "Newari imaju posebno jelo za gotovo svaki blagdan i svaki dio bivola. Jede se sjedeći na podu, uz spljoštenu rižu chiura umjesto kruha i domaće rižino pivo." },
-    { ime: "Juju dhau", opis: "Gusti slatki jogurt od bivoljeg mlijeka, koji se zgrušava u glinenim posudama.", prica: "Ime znači kralj jogurta, a potječe iz Bhaktapura. Glina upija višak vode, pa je jogurt toliko čvrst da se posuda može okrenuti naopako." },
-    { ime: "Sel roti", opis: "Prženi slatkasti prsten od rižina tijesta, hrskav izvana i mekan iznutra.", prica: "Priprema se u velikim količinama za blagdane Dashain i Tihar i nosi rodbini kao dar. Na ulici se jede ujutro uz čaj." },
-    { ime: "Thukpa", opis: "Topla juha s rezancima, povrćem i mesom, tibetskog podrijetla.", prica: "Jede se u planinskim krajevima i tibetskim četvrtima poput Boudhe. Nakon dana na hladnoći nema boljeg obroka." },
-    { ime: "Chiya", opis: "Slatki čaj s mlijekom i začinima, kuhan u istom loncu.", prica: "Pije se svuda i u svako doba, u malim čašama, a ponuđena čaša čaja znak je dobrodošlice koji nije pristojno odbiti. U planinama se pije i slani tibetski čaj s maslacem." },
-    { ime: "Tongba", opis: "Toplo piće od fermentiranog prosa preko kojega se lijeva vruća voda i pije na bambusovu slamku.", prica: "Tradicionalno je piće naroda Limbu s istoka zemlje. Posuda se nadolijeva nekoliko puta, a okus je svaki put malo blaži." }
+    { ime: "Dal bhat", opis: "Rice with lentil stew, vegetable curry, pickles and sometimes meat.", prica: "Nepalis eat it twice a day, and the mountain guides have a saying that dal bhat gives you power for twenty-four hours. Your plate is refilled for free until you are full, which comes in handy after a whole day of walking." },
+    { ime: "Momo", opis: "Dumplings, steamed or fried, filled with buffalo meat, chicken or vegetables, with a spicy tomato and sesame sauce.", prica: "They were brought to Kathmandu by traders of the Newar people who did business with Tibet, and today they are the favorite snack of the entire country. Every eatery has its own sauce and its own loyal customers." },
+    { ime: "Newari cuisine", opis: "The cuisine of the original inhabitants of the Kathmandu Valley, with dishes such as the lentil pancakes called bara, the rice “pizza” called chatamari and the spiced grilled meat called choila.", prica: "The Newars have a special dish for almost every festival and for every part of the buffalo. You eat sitting on the floor, with the beaten rice called chiura in place of bread and with homemade rice beer." },
+    { ime: "Juju dhau", opis: "A thick sweet yogurt made from buffalo milk, which sets in clay pots.", prica: "The name means king of yogurt, and it comes from Bhaktapur. The clay absorbs the excess water, so the yogurt is firm enough that you can turn the pot upside down." },
+    { ime: "Sel roti", opis: "A fried, slightly sweet ring of rice dough, crisp on the outside and soft on the inside.", prica: "It is made in large quantities for the festivals of Dashain and Tihar and taken to relatives as a gift. On the street it is eaten in the morning with tea." },
+    { ime: "Thukpa", opis: "A warm soup with noodles, vegetables and meat, of Tibetan origin.", prica: "It is eaten in the mountain regions and in Tibetan neighborhoods such as Boudha. After a day out in the cold there is no better meal." },
+    { ime: "Chiya", opis: "Sweet tea with milk and spices, all brewed in the same pot.", prica: "It is drunk everywhere and at all hours, in small glasses, and an offered glass of tea is a sign of welcome that it is not polite to refuse. In the mountains people also drink salty Tibetan butter tea." },
+    { ime: "Tongba", opis: "A warm drink of fermented millet over which hot water is poured, sipped through a bamboo straw.", prica: "It is the traditional drink of the Limbu people from the east of the country. The vessel is topped up several times, and the flavor is a little milder each time." }
   ],
   obicaji: [
-    { ime: "Dashain", opis: "Najveći blagdan u zemlji traje petnaest dana i slavi pobjedu božice Durge nad demonom. Obitelji se okupljaju, a stariji mlađima stavljaju na čelo tiku, crvenu smjesu riže i jogurta, uz blagoslov.", gdje: "U rujnu ili listopadu, u cijeloj zemlji. Djeca se tada ljuljaju na visokim bambusovim ljuljačkama podignutima samo za tu prigodu." },
-    { ime: "Tihar", opis: "Petodnevni blagdan svjetla, tijekom kojega se redom časte vrane, psi, krave i braća. Na dan pasa, Kukur Tihar, i ulični psi dobivaju vijence od nevena i crvenu točku na čelu.", gdje: "U listopadu ili studenom. Najljepše je u starim jezgrama Katmandua, Patana i Bhaktapura, gdje su pragovi ukrašeni uzorcima od obojenog praha i uljanicama." },
-    { ime: "Kumari, živa božica", opis: "Djevojčica iz newarske zajednice koju nakon niza provjera odabiru kao utjelovljenje božice Taleju. Živi u posebnoj palači i izlazi samo za velike svetkovine, a božicom prestaje biti s prvom mjesečnicom.", gdje: "U kući Kumari Ghar na trgu Durbar u Katmanduu ponekad se nakratko pojavi na prozoru unutarnjeg dvorišta. Fotografirati je nije dopušteno." },
-    { ime: "Kora oko stupe", opis: "Budistički vjernici obilaze stupe u smjeru kazaljke na satu, vrteći molitvene mlinove i prebirući krunicu. Šarene molitvene zastavice nose molitve niz vjetar, a pet boja predstavlja pet elemenata.", gdje: "U zoru i u sumrak oko stupe Boudhanath u Katmanduu, kada se hodu pridruže stotine tibetskih redovnika i starica." },
-    { ime: "Indra Jatra", opis: "Osam dana maskiranih plesova i povorki u čast boga kiše Indre. Tada se kroz stari grad vuku tri drvena kola, a u jednima sjedi Kumari.", gdje: "U rujnu, na trgu Durbar u Katmanduu." },
-    { ime: "Slikanje thangki i lijevanje kipova", opis: "Thangka je budistička slika na platnu, rađena prema strogim pravilima razmjera, koja služi kao pomagalo u meditaciji. Patan je pak stoljećima poznat po majstorima koji kipove lijevaju u bronci tehnikom izgubljenog voska.", gdje: "Škole i ateljei thangki nalaze se u Bhaktapuru i oko Boudhe, a ljevaonice u uličicama Patana." }
+    { ime: "Dashain", opis: "The biggest festival in the country lasts fifteen days and celebrates the victory of the goddess Durga over a demon. Families gather, and the elders place tika, a red mixture of rice and yogurt, on the foreheads of the younger ones, along with a blessing.", gdje: "In September or October, throughout the country. Children swing then on tall bamboo swings put up just for the occasion." },
+    { ime: "Tihar", opis: "A five-day festival of lights, during which crows, dogs, cows and brothers are honored in turn. On the day of the dogs, Kukur Tihar, even street dogs receive garlands of marigolds and a red dot on the forehead.", gdje: "In October or November. It is loveliest in the old centers of Kathmandu, Patan and Bhaktapur, where the doorsteps are decorated with patterns of colored powder and oil lamps." },
+    { ime: "Kumari, the living goddess", opis: "A young girl from the Newar community who, after a series of tests, is chosen as the incarnation of the goddess Taleju. She lives in a special palace and comes out only for the major festivals, and she ceases to be a goddess with her first period.", gdje: "At the Kumari Ghar house on Durbar Square in Kathmandu she sometimes appears briefly at a window of the inner courtyard. Photographing her is not allowed." },
+    { ime: "Kora around the stupa", opis: "Buddhist worshippers walk around stupas clockwise, spinning prayer wheels and fingering their prayer beads. Colorful prayer flags carry prayers on the wind, and the five colors represent the five elements.", gdje: "At dawn and at dusk around the Boudhanath stupa in Kathmandu, when hundreds of Tibetan monks and elderly women join the walk." },
+    { ime: "Indra Jatra", opis: "Eight days of masked dances and processions in honor of Indra, the god of rain. Three wooden chariots are pulled through the old city then, and the Kumari sits in one of them.", gdje: "In September, on Durbar Square in Kathmandu." },
+    { ime: "Thangka painting and statue casting", opis: "A thangka is a Buddhist painting on cloth, made according to strict rules of proportion, which serves as an aid to meditation. Patan, for its part, has been known for centuries for the masters who cast statues in bronze using the lost-wax technique.", gdje: "Thangka schools and studios are found in Bhaktapur and around Boudha, and the foundries in the alleys of Patan." }
   ],
   fraze: [
-    { izvorno: "Namaste", izgovor: "na-ma-STE", hr: "Dobar dan, doviđenja" },
-    { izvorno: "Dhanyabad", izgovor: "dan-ja-BAAD", hr: "Hvala" },
-    { izvorno: "Ho / Hoina", izgovor: "HO / HOJ-na", hr: "Da / Ne" },
-    { izvorno: "Kati ho?", izgovor: "KA-ti ho", hr: "Koliko košta?" },
-    { izvorno: "Mitho chha", izgovor: "MI-to ča", hr: "Ukusno je" },
-    { izvorno: "Maaf garnuhos", izgovor: "MAAF GAR-nu-hos", hr: "Oprostite" },
-    { izvorno: "Bistari", izgovor: "bis-TA-ri", hr: "Polako (najčešći savjet na stazi)" },
-    { izvorno: "Jam jam", izgovor: "đam đam", hr: "Idemo" }
+    { izvorno: "Namaste", izgovor: "nah-mah-STAY", hr: "Hello, goodbye" },
+    { izvorno: "Dhanyabad", izgovor: "dhun-yah-BAHD", hr: "Thank you" },
+    { izvorno: "Ho / Hoina", izgovor: "HO / HOY-nah", hr: "Yes / No" },
+    { izvorno: "Kati ho?", izgovor: "KAH-tee ho", hr: "How much does it cost?" },
+    { izvorno: "Mitho chha", izgovor: "MEE-toh chah", hr: "It is delicious" },
+    { izvorno: "Maaf garnuhos", izgovor: "MAHF GAR-noo-hos", hr: "Excuse me, sorry" },
+    { izvorno: "Bistari", izgovor: "bis-TAH-ree", hr: "Slowly (the most common advice on the trail)" },
+    { izvorno: "Jam jam", izgovor: "jum jum", hr: "Let's go" }
   ],
   zanimljivosti: [
-    "Nepalska zastava jedina je državna zastava na svijetu koja nije četverokutna: čine je dva trokuta jedan iznad drugoga.",
-    "Nepal ima vlastiti kalendar, Bikram Sambat, koji je gotovo pedeset i sedam godina ispred našega, pa Nova godina pada sredinom travnja.",
-    "Vremenska zona Nepala pomaknuta je za pet sati i četrdeset pet minuta u odnosu na univerzalno vrijeme, što je jedan od rijetkih pomaka na četvrt sata u svijetu.",
-    "Mount Everest Nepalci zovu Sagarmatha, a Tibetanci Chomolungma, majka božica svijeta.",
-    "Buda je rođen u Lumbiniju, na jugu današnjeg Nepala, oko 6. ili 5. stoljeća prije Krista.",
-    "Vrh Machhapuchhre iznad Pokhare smatra se svetim i na njega se nitko ne smije penjati."
+    "The flag of Nepal is the only national flag in the world that is not a quadrilateral: it is made up of two triangles, one above the other.",
+    "Nepal has its own calendar, the Bikram Sambat, which runs almost fifty-seven years ahead of the Gregorian one, so New Year falls in the middle of April.",
+    "Nepal's time zone is offset from Coordinated Universal Time by five hours and forty-five minutes, one of the few quarter-hour offsets in the world.",
+    "Nepalis call Mount Everest Sagarmatha, and Tibetans call it Chomolungma, goddess mother of the world.",
+    "The Buddha was born in Lumbini, in the south of present-day Nepal, around the 6th or 5th century BC.",
+    "The peak of Machhapuchhre above Pokhara is considered sacred, and nobody is allowed to climb it."
   ],
   mjesta: [
     {
       id: "katmandu",
-      ime: "Katmandu",
+      ime: "Kathmandu",
       vrsta: "grad",
-      sazetak: "Kaotična i čarobna prijestolnica u kojoj iza svakog ugla stoji hram, a nad svime bdiju oči Bude naslikane na stupama.",
+      sazetak: "A chaotic and magical capital where a temple stands around every corner, and the eyes of the Buddha painted on the stupas watch over it all.",
       prica: [
-        "Dolina Katmandua bila je, prema legendi, jezero koje je bodhisattva Manjushri isušio jednim zamahom mača. U srednjem su je vijeku među sobom podijelila tri kraljevstva dinastije Malla sa sjedištima u Katmanduu, Patanu i Bhaktapuru, koja su se nadmetala tko će podići ljepši trg i više hramova.",
-        "Zahvaljujući tom nadmetanju dolina danas ima sedam skupina spomenika na UNESCO-ovu popisu. Grad je šezdesetih i sedamdesetih bio krajnje odredište hipijevske rute iz Europe, a četvrt Thamel i danas je polazište svih planinarskih pohoda."
+        "According to legend, the Kathmandu Valley was a lake that the bodhisattva Manjushri drained with a single stroke of his sword. In the Middle Ages it was divided among three kingdoms of the Malla dynasty, with seats in Kathmandu, Patan and Bhaktapur, which competed over who would build the more beautiful square and the greater number of temples.",
+        "Thanks to that rivalry the valley today has seven groups of monuments on the UNESCO list. In the 1960s and 1970s the city was the final destination of the hippie trail from Europe, and the Thamel district is still the starting point for every trekking expedition."
       ],
       vidjeti: [
-        { ime: "Trg Durbar i Hanuman Dhoka", opis: "Stari kraljevski trg s palačom i desecima hramova, od kojih su neki obnovljeni nakon potresa 2015. godine. Potražite Kasthamandap, drveni paviljon po kojemu je grad dobio ime i za koji predaja kaže da je sagrađen od jednog jedinog stabla." },
-        { ime: "Swayambhunath", opis: "Stupa na brežuljku do koje vodi 365 stuba, poznata i kao Hram majmuna zbog životinja koje ondje slobodno žive. S pozlaćenog tornja na sve četiri strane gledaju Budine oči, a ono što izgleda kao nos zapravo je nepalska znamenka jedan, znak jedinstva." },
-        { ime: "Boudhanath", opis: "Jedna od najvećih stupa na svijetu, koja je nakon 1959. godine postala središte tibetskih izbjeglica. Tlocrt joj je mandala, pa se obilaskom u smjeru kazaljke na satu simbolično prolazi put do prosvjetljenja." },
-        { ime: "Pashupatinath", opis: "Najsvetiji hinduistički hram u Nepalu, posvećen Šivi, na obali rijeke Bagmati. U glavno svetište smiju samo hindusi, ali se s druge obale vide kremacije na kamenim platformama i sveti ljudi, sadhui, premazani pepelom." },
-        { ime: "Patan", opis: "Nekadašnje zasebno kraljevstvo s druge strane rijeke, s trgom Durbar koji mnogi smatraju najskladnijim u dolini. Hram Krishna Mandir iz 1637. godine sav je od kamena, s dvadeset i jednim tornjićem, a muzej u palači ubraja se među najbolje u Aziji." },
-        { ime: "Vrt snova", opis: "Neoklasicistički vrt iz dvadesetih godina 20. stoljeća na rubu Thamela, s paviljonima i jezercima. Savršeno je mjesto za predah kada vam buka motora dosadi." }
+        { ime: "Durbar Square and Hanuman Dhoka", opis: "The old royal square with its palace and dozens of temples, some of which have been rebuilt since the 2015 earthquake. Look for Kasthamandap, the wooden pavilion that gave the city its name and that tradition says was built from one single tree." },
+        { ime: "Swayambhunath", opis: "A stupa on a hill reached by 365 steps, also known as the Monkey Temple for the animals that live there freely. The eyes of the Buddha gaze out in all four directions from the gilded tower, and what looks like a nose is in fact the Nepali numeral one, a sign of unity." },
+        { ime: "Boudhanath", opis: "One of the largest stupas in the world, which after 1959 became the center of the Tibetan refugees. Its ground plan is a mandala, so walking around it clockwise symbolically traces the path to enlightenment." },
+        { ime: "Pashupatinath", opis: "The holiest Hindu temple in Nepal, dedicated to Shiva, on the bank of the Bagmati River. Only Hindus may enter the main shrine, but from the opposite bank you can see the cremations on the stone platforms and the holy men, the sadhus, smeared with ash." },
+        { ime: "Patan", opis: "A formerly separate kingdom on the other side of the river, with a Durbar Square that many consider the most harmonious in the valley. The Krishna Mandir temple from 1637 is made entirely of stone, with twenty-one little spires, and the museum in the palace ranks among the best in Asia." },
+        { ime: "Garden of Dreams", opis: "A neoclassical garden from the 1920s on the edge of Thamel, with pavilions and ponds. It is the perfect place for a break when the roar of the motorbikes gets to be too much." }
       ],
       jesti: [
-        { ime: "Momo", opis: "U gradu se jedu na svakom koraku, a posebno su cijenjeni oni od bivoljeg mesa u malim zalogajnicama starog dijela." },
-        { ime: "Bara i chatamari", opis: "Newarske palačinke od leće i rižina brašna, s jajem ili mljevenim mesom, koje se peku u starim kućama Patana i Kirtipura." },
-        { ime: "Lassi s tržnice Indra Chowk", opis: "Gusti lassi s orašastim plodovima i grožđicama, koji se pije stojeći usred gužve stare tržnice." }
+        { ime: "Momo", opis: "In the city they are eaten at every turn, and the buffalo ones from the little eateries of the old quarter are especially prized." },
+        { ime: "Bara and chatamari", opis: "Newari pancakes of lentils and rice flour, with egg or ground meat, cooked in the old houses of Patan and Kirtipur." },
+        { ime: "Lassi from the Indra Chowk market", opis: "A thick lassi with nuts and raisins, which you drink standing up in the middle of the crowds of the old market." }
       ],
       dozivjeti: [
-        { ime: "Tečaj kuhanja i šetnja tržnicom", opis: "Ako želite naučiti motati momo i kuhati dal bhat, tvrtka Socialtours vodi trosatni tečaj kuhanja i šetnju lokalnim tržnicama južno od Thamela.", link: "https://socialtours.com/" },
-        { ime: "Sumrak u Boudhi", opis: "Dođite predvečer, pridružite se krugu vjernika oko stupe, a zatim s jedne od krovnih terasa gledajte kako se pale uljanice." },
-        { ime: "Tržnica Asan", opis: "Šest ulica slijeva se na mali trg gdje se od jutra prodaju začini, povrće, mjedeno posuđe i molitvene zastavice, baš kao prije nekoliko stoljeća." }
+        { ime: "A cooking class and market walk", opis: "If you want to learn to fold momo and cook dal bhat, the company Socialtours runs a three-hour cooking class and a walk through the local markets south of Thamel.", link: "https://socialtours.com/" },
+        { ime: "Dusk at Boudha", opis: "Come toward evening, join the circle of worshippers around the stupa, and then watch from one of the rooftop terraces as the butter lamps are lit." },
+        { ime: "Asan market", opis: "Six streets pour into a small square where spices, vegetables, brassware and prayer flags are sold from early morning, just as they were several centuries ago." }
       ],
       agencije: [
-        { ime: "Nepal Tourism Board", opis: "Službena turistička organizacija zemlje, sa stranicom o Katmanduu.", link: "https://ntb.gov.np/en/kathmandu" },
-        { ime: "Socialtours", opis: "Lokalna tvrtka sa sjedištem u Patanu, poznata po tečajevima kuhanja, gradskim šetnjama i odgovornim pješačkim turama.", link: "https://socialtours.com/" },
-        { ime: "TAAN", opis: "Udruga nepalskih agencija za planinarenje, kod koje se može provjeriti je li agencija registrirana.", link: "https://www.taan.org.np/" }
+        { ime: "Nepal Tourism Board", opis: "The country's official tourism organization, with a page on Kathmandu.", link: "https://ntb.gov.np/en/kathmandu" },
+        { ime: "Socialtours", opis: "A local company based in Patan, known for cooking classes, city walks and responsible trekking tours.", link: "https://socialtours.com/" },
+        { ime: "TAAN", opis: "The association of Nepali trekking agencies, where you can check whether an agency is registered.", link: "https://www.taan.org.np/" }
       ],
-      kada: "Od listopada do travnja. Ponesite masku zbog prašine i ispušnih plinova, a u hramove ulazite s lijeve strane i obilazite ih u smjeru kazaljke na satu."
+      kada: "From October to April. Bring a mask for the dust and the exhaust fumes, and enter temples from the left and walk around them clockwise."
     },
     {
       id: "bhaktapur",
       ime: "Bhaktapur",
       vrsta: "gradić",
-      sazetak: "Najbolje očuvan srednjovjekovni grad doline, od crvene opeke i izrezbarenog drva, u kojem lončari i danas suše posuđe na trgu.",
+      sazetak: "The best-preserved medieval city in the valley, built of red brick and carved wood, where potters still dry their wares on the square.",
       prica: [
-        "Bhaktapur, grad vjernika, bio je do 15. stoljeća prijestolnica cijele doline, a potom jedno od triju suparničkih kraljevstava dinastije Malla. Leži na staroj trgovačkoj cesti prema Tibetu, od koje se i obogatio.",
-        "Newarski su majstori ovdje doveli rezbarenje drva i gradnju pagoda do savršenstva. Grad je teško stradao u potresima 1934. i 2015. godine, ali su ga mještani oba puta obnovili starim tehnikama, a promet motornih vozila u jezgri je ograničen, pa se njime hoda u miru."
+        "Bhaktapur, the city of devotees, was the capital of the whole valley until the 15th century, and afterward one of the three rival kingdoms of the Malla dynasty. It lies on the old trade route to Tibet, which is also what made it rich.",
+        "Here the Newar craftsmen brought woodcarving and pagoda building to perfection. The city suffered badly in the earthquakes of 1934 and 2015, but both times the residents rebuilt it using the old techniques, and motor traffic in the core is restricted, so you can walk around it in peace."
       ],
       vidjeti: [
-        { ime: "Hram Nyatapola", opis: "Pagoda s pet krovova visoka trideset metara, podignuta 1702. godine, koja je preživjela oba velika potresa. Stube čuva pet parova kipova, od hrvača do božica, a za svaki se par kaže da je deset puta snažniji od onoga ispod sebe." },
-        { ime: "Trg Durbar i Zlatna vrata", opis: "Kraljevski trg s Palačom pedeset i pet prozora, čije je cijelo pročelje jedan niz izrezbarenih drvenih rešetki. Pozlaćena vrata iz 18. stoljeća, s božicom Taleju iznad ulaza, smatraju se najljepšim djelom metalne umjetnosti u Nepalu." },
-        { ime: "Lončarski trg", opis: "Otvoreni trg na kojem obitelji iz lončarske kaste vrte kola, a stotine posuda suše se na suncu prije pečenja u slami. Ovdje se izrađuju i glinene zdjelice za juju dhau." },
-        { ime: "Trg Dattatreya i Paunov prozor", opis: "Najstariji dio grada, s hramom iz 15. stoljeća. U uličici iza njega nalazi se drveni prozor s paunom raširena repa, izrezbaren tako fino da ga zovu Mona Lizom Nepala." },
-        { ime: "Changu Narayan", opis: "Hram na brdu šest kilometara sjevernije, koji se smatra najstarijim u dolini. Kameni stup pred ulazom nosi natpis iz 5. stoljeća, najstariji poznati u Nepalu." }
+        { ime: "Nyatapola Temple", opis: "A five-roofed pagoda thirty meters tall, built in 1702, which survived both great earthquakes. The steps are guarded by five pairs of statues, from wrestlers to goddesses, and each pair is said to be ten times stronger than the one below it." },
+        { ime: "Durbar Square and the Golden Gate", opis: "The royal square with the Palace of Fifty-Five Windows, whose entire facade is a single row of carved wooden lattices. The gilded gate from the 18th century, with the goddess Taleju above the entrance, is considered the finest piece of metalwork in Nepal." },
+        { ime: "Pottery Square", opis: "An open square where families of the potter caste turn their wheels, and hundreds of pots dry in the sun before being fired in straw. The little clay bowls for juju dhau are made here too." },
+        { ime: "Dattatreya Square and the Peacock Window", opis: "The oldest part of the city, with a temple from the 15th century. In the alley behind it is a wooden window with a peacock spreading its tail, carved so finely that it is called the Mona Lisa of Nepal." },
+        { ime: "Changu Narayan", opis: "A hilltop temple six kilometers to the north, considered the oldest in the valley. The stone pillar in front of the entrance bears an inscription from the 5th century, the oldest known in Nepal." }
       ],
       jesti: [
-        { ime: "Juju dhau", opis: "Kralj jogurta, koji se u Bhaktapuru jede iz glinene zdjelice na svakom uglu, i nigdje nije tako dobar." },
-        { ime: "Bara", opis: "Slane palačinke od crne leće, pržene na ploči i poslužene s jajem ili mesom." },
-        { ime: "Yomari", opis: "Slatka okruglica od rižina tijesta u obliku ribe, punjena melasom i sezamom, koja se priprema za blagdan žetve u prosincu." }
+        { ime: "Juju dhau", opis: "The king of yogurt, which in Bhaktapur is eaten from a little clay bowl on every corner, and nowhere else is it this good." },
+        { ime: "Bara", opis: "Savory pancakes of black lentils, fried on a griddle and served with egg or meat." },
+        { ime: "Yomari", opis: "A sweet fish-shaped dumpling of rice dough, filled with molasses and sesame, which is made for the harvest festival in December." }
       ],
       dozivjeti: [
-        { ime: "Sat lončarstva", opis: "Ako želite okušati ruke na lončarskom kolu, obitelji na Lončarskom trgu nude kratke radionice, a zdjelicu možete ponijeti kući." },
-        { ime: "Bisket Jatra", opis: "Za nepalsku Novu godinu, sredinom travnja, dvije se gradske četvrti natežu oko golemih drvenih kola s kipom boga Bhairave, a zatim se podiže dvadeset i pet metara visok jarbol." },
-        { ime: "Jutarnja šetnja prije izletnika", opis: "Prenoćite u gradu, jer rano ujutro žene nose prinose u hramove, a trgovi su prazni i tihi, što posjetitelji iz Katmandua nikada ne vide." }
+        { ime: "A pottery lesson", opis: "If you want to try your hand at the potter's wheel, the families on Pottery Square offer short workshops, and you can take your little bowl home." },
+        { ime: "Bisket Jatra", opis: "For the Nepali New Year, in the middle of April, two city districts hold a tug-of-war over a huge wooden chariot carrying a statue of the god Bhairava, and then a pole twenty-five meters tall is raised." },
+        { ime: "A morning walk before the day-trippers", opis: "Spend the night in the city, because early in the morning the women carry offerings to the temples and the squares are empty and quiet, which visitors from Kathmandu never get to see." }
       ],
       agencije: [
-        { ime: "Nepal Tourism Board, Bhaktapur", opis: "Službena stranica nacionalne turističke organizacije o gradu.", link: "https://ntb.gov.np/en/bhaktapur" },
-        { ime: "Općina Bhaktapur", opis: "Službene stranice grada, koji naplaćuje ulaz u staru jezgru i tim novcem obnavlja spomenike.", link: "https://bhaktapurmun.gov.np/" }
+        { ime: "Nepal Tourism Board, Bhaktapur", opis: "The national tourism organization's official page on the city.", link: "https://ntb.gov.np/en/bhaktapur" },
+        { ime: "Bhaktapur Municipality", opis: "The official website of the city, which charges admission to the old core and uses that money to restore the monuments.", link: "https://bhaktapurmun.gov.np/" }
       ],
-      kada: "Od listopada do travnja. Ulaznicu u staru jezgru sačuvajte, jer se uz putovnicu može produljiti za cijeli boravak."
+      kada: "From October to April. Hold on to your ticket for the old core, because with your passport it can be extended for your entire stay."
     },
     {
       id: "pokhara",
       ime: "Pokhara",
       vrsta: "grad",
-      sazetak: "Opušten grad na jezeru u kojem se zrcale vrhovi Annapurne, polazište najljepših pješačkih staza u zemlji.",
+      sazetak: "A laid-back city on a lake that mirrors the peaks of Annapurna, the starting point for the most beautiful trekking routes in the country.",
       prica: [
-        "Pokhara je stoljećima bila postaja na trgovačkom putu kojim su karavane mazgi nosile sol iz Tibeta i žito iz Indije. Do nje do šezdesetih godina 20. stoljeća nije vodila cesta, pa je roba stizala pješice ili zrakoplovom.",
-        "Poseban je to prizor: grad leži na samo osamsto metara nadmorske visine, a tridesetak kilometara dalje dižu se vrhovi viši od sedam i osam tisuća metara. Nigdje drugdje na svijetu planine se ne dižu tako naglo, pa se za vedra jutra čini da su nadohvat ruke."
+        "For centuries Pokhara was a staging post on the trade route along which mule caravans carried salt from Tibet and grain from India. No road led to it until the 1960s, so goods arrived on foot or by plane.",
+        "The setting is a sight of its own: the city lies at an elevation of only eight hundred meters, and some thirty kilometers away rise peaks of more than seven and eight thousand meters. Nowhere else in the world do mountains rise so abruptly, so on a clear morning they seem to be within arm's reach."
       ],
       vidjeti: [
-        { ime: "Jezero Phewa", opis: "Drugo po veličini jezero u Nepalu, po kojemu se vozi u šarenim drvenim čamcima. Na otočiću usred jezera stoji hram Tal Barahi, kamo mještani veslaju subotom s prinosima." },
-        { ime: "Pagoda mira", opis: "Bijela stupa na grebenu iznad jezera, koju su podigli japanski budistički redovnici. Do nje se može prijeći čamcem i zatim se sat vremena penjati kroz šumu, a s platoa se vidi cijeli lanac Annapurne." },
-        { ime: "Sarangkot", opis: "Vidikovac na 1600 metara, kamo se ide prije zore gledati kako prve zrake boje u ružičasto vrh Machhapuchhre, čije ime znači riblji rep. Odavde polijeću i padobranska jedrilica s putnicima." },
-        { ime: "Međunarodni muzej planina", opis: "Muzej otvoren 2004. godine, posvećen Himalaji, njezinim narodima i povijesti osvajanja vrhova. Izložena je oprema prvih ekspedicija, uz koju se čovjek zapita kako su se u tome uopće penjali." },
-        { ime: "Stari bazar", opis: "Četiri kilometra od jezera sačuvano je nekoliko ulica newarskih kuća od opeke s izrezbarenim prozorima i hram Bindhyabasini, pa se ovdje vidi Pokhara kakva je bila prije turizma." }
+        { ime: "Phewa Lake", opis: "The second-largest lake in Nepal, which you cross in colorful wooden boats. On an islet in the middle of the lake stands the Tal Barahi temple, where the locals row out on Saturdays with offerings." },
+        { ime: "World Peace Pagoda", opis: "A white stupa on the ridge above the lake, built by Japanese Buddhist monks. You can cross to it by boat and then climb for an hour through the forest, and from the terrace you can see the whole Annapurna range." },
+        { ime: "Sarangkot", opis: "A lookout at 1,600 meters, where people go before dawn to watch the first rays turn the peak of Machhapuchhre pink, a name that means fish tail. Tandem paragliders with passengers take off from here too." },
+        { ime: "International Mountain Museum", opis: "A museum opened in 2004, dedicated to the Himalayas, their peoples and the history of the conquest of the summits. The equipment of the first expeditions is on display, and looking at it you wonder how anyone managed to climb in such gear." },
+        { ime: "The Old Bazaar", opis: "Four kilometers from the lake a few streets of Newar brick houses with carved windows have been preserved, along with the Bindhyabasini temple, so here you can see Pokhara as it was before tourism." }
       ],
       jesti: [
-        { ime: "Thakali thali", opis: "Inačica dal bhata naroda Thakali iz doline Kali Gandaki, s heljdinom kašom, sušenim mesom i posebno aromatičnim začinom timur." },
-        { ime: "Riba iz jezera", opis: "Pržena ili u curryju, poslužuje se u restoranima uz obalu i u selima na drugoj strani jezera." },
-        { ime: "Tibetski kruh i thukpa", opis: "U tibetskim naseljima oko grada peče se prženi kruh za doručak i kuha juha s rezancima." }
+        { ime: "Thakali thali", opis: "The version of dal bhat made by the Thakali people of the Kali Gandaki valley, with buckwheat porridge, dried meat and the especially aromatic spice called timur." },
+        { ime: "Fish from the lake", opis: "Fried or in a curry, it is served in the restaurants along the shore and in the villages on the far side of the lake." },
+        { ime: "Tibetan bread and thukpa", opis: "In the Tibetan settlements around the city, fried bread is made for breakfast and noodle soup is cooked." }
       ],
       dozivjeti: [
-        { ime: "Kratko pješačenje do Poon Hilla", opis: "Ako želite okusiti Himalaju bez višetjednog pohoda, ova staza traje tri do pet dana i vodi kroz sela naroda Gurung i šume rododendrona. Prije polaska provjerite trenutačna pravila o dozvolama i obveznom vodiču.", link: "https://ntb.gov.np/en/pokhara" },
-        { ime: "Veslanje u zoru", opis: "Unajmite čamac prije sedam sati, dok je jezero mirno, a planine se u njemu zrcale bez ijednog vala." },
-        { ime: "Posjet tibetskom naselju", opis: "U naseljima Tashi Palkhel i Tashiling žive obitelji izbjegle 1959. godine. Može se razgledati samostan i tkaonica tepiha." }
+        { ime: "A short trek to Poon Hill", opis: "If you want a taste of the Himalayas without a trek lasting several weeks, this trail takes three to five days and leads through villages of the Gurung people and rhododendron forests. Before you set out, check the current rules on permits and the mandatory guide.", link: "https://ntb.gov.np/en/pokhara" },
+        { ime: "Rowing at dawn", opis: "Rent a boat before seven o'clock, while the lake is calm and the mountains are mirrored in it without a single ripple." },
+        { ime: "A visit to a Tibetan settlement", opis: "The settlements of Tashi Palkhel and Tashiling are home to families who fled in 1959. You can visit the monastery and the carpet-weaving workshop." }
       ],
       agencije: [
-        { ime: "Nepal Tourism Board, Pokhara", opis: "Službena stranica nacionalne turističke organizacije o gradu i okolici.", link: "https://ntb.gov.np/en/pokhara" },
-        { ime: "TAAN", opis: "Udruga registriranih agencija za planinarenje, koja ima podružnicu u Pokhari.", link: "https://www.taan.org.np/" },
-        { ime: "Međunarodni muzej planina", opis: "Službena stranica muzeja.", link: "https://internationalmountainmuseum.org/" }
+        { ime: "Nepal Tourism Board, Pokhara", opis: "The national tourism organization's official page on the city and its surroundings.", link: "https://ntb.gov.np/en/pokhara" },
+        { ime: "TAAN", opis: "The association of registered trekking agencies, which has a branch in Pokhara.", link: "https://www.taan.org.np/" },
+        { ime: "International Mountain Museum", opis: "The museum's official website.", link: "https://internationalmountainmuseum.org/" }
       ],
-      kada: "Listopad, studeni i od ožujka do svibnja. Planine se najbolje vide rano ujutro, prije nego što se oko podneva navuku oblaci."
+      kada: "October, November and from March to May. The mountains are best seen early in the morning, before the clouds draw in around noon."
     },
     {
       id: "chitwan",
       ime: "Chitwan",
       vrsta: "priroda",
-      sazetak: "Nacionalni park u nizinskoj džungli, gdje se s kanua i iz džipa promatraju nosorozi, krokodili i, uz puno sreće, tigar.",
+      sazetak: "A national park in the lowland jungle, where from a canoe or a jeep you watch rhinos, crocodiles and, with a great deal of luck, a tiger.",
       prica: [
-        "Chitwan leži u Teraiju, vrućoj ravnici uz indijsku granicu, i potpuno je drukčiji od planinskog Nepala. Do sredine 20. stoljeća bio je lovište nepalskih vladara i njihovih britanskih gostiju, koji su u jednom pohodu znali ustrijeliti desetke tigrova i nosoroga.",
-        "Godine 1973. proglašen je prvim nacionalnim parkom u zemlji, a 1984. upisan na UNESCO-ov popis. Otada se broj indijskih jednorogih nosoroga povećao s manje od stotinu na nekoliko stotina, što je jedna od najuspješnijih priča zaštite prirode u Aziji."
+        "Chitwan lies in the Terai, the hot plain along the Indian border, and is completely different from mountainous Nepal. Until the middle of the 20th century it was the hunting ground of the Nepali rulers and their British guests, who were known to shoot dozens of tigers and rhinos on a single hunt.",
+        "In 1973 it was declared the country's first national park, and in 1984 it was inscribed on the UNESCO list. Since then the number of greater one-horned rhinoceroses has grown from fewer than a hundred to several hundred, which is one of the most successful conservation stories in Asia."
       ],
       vidjeti: [
-        { ime: "Indijski jednorogi nosorog", opis: "Zaštitni znak parka, s kožom nabranom poput oklopa. Najčešće se viđa na travnjacima i u rijeci, gdje se hladi u vrijeme najveće vrućine." },
-        { ime: "Rijeka Rapti", opis: "Uz obale se sunčaju dvije vrste krokodila: močvarni i rijetki gavijal, koji ima dugu usku njušku i jede samo ribu. Gavijali se uzgajaju u centru unutar parka i potom puštaju u rijeke." },
-        { ime: "Šume sala i travnjaci", opis: "Park čine šume stabla sal i travnjaci na kojima trava naraste više od pet metara. U njima živi i bengalski tigar, kojega je teško vidjeti, ali se otisci šapa na stazi viđaju često." },
-        { ime: "Sela naroda Tharu", opis: "Starosjedioci Teraija žive u kućama od blata i trske, oslikanima otiscima dlanova i likovima životinja. Stoljećima su ovdje živjeli unatoč malariji, koja je druge narode držala podalje." },
-        { ime: "Jezera Bishazari", opis: "Močvarno područje u zaštitnom pojasu parka, čije ime znači dvadeset tisuća jezera. Raj je za promatranje ptica, osobito zimi, kada dolaze selice." }
+        { ime: "The greater one-horned rhinoceros", opis: "The emblem of the park, with skin folded like armor. It is most often seen on the grasslands and in the river, where it cools off during the hottest part of the day." },
+        { ime: "The Rapti River", opis: "Two species of crocodile bask along its banks: the mugger and the rare gharial, which has a long narrow snout and eats only fish. Gharials are bred at a center inside the park and then released into the rivers." },
+        { ime: "Sal forests and grasslands", opis: "The park is made up of forests of sal trees and grasslands where the grass grows more than five meters tall. The Bengal tiger lives in them too, and although it is hard to see, its paw prints are often spotted on the trail." },
+        { ime: "The villages of the Tharu people", opis: "The original inhabitants of the Terai live in houses of mud and reeds, painted with handprints and animal figures. They lived here for centuries despite the malaria that kept other peoples away." },
+        { ime: "Bishazari Lakes", opis: "A wetland in the park's buffer zone, whose name means twenty thousand lakes. It is a paradise for birdwatching, especially in winter, when the migratory birds arrive." }
       ],
       jesti: [
-        { ime: "Kuhinja naroda Tharu", opis: "Riječni puževi ghonghi u ljutom umaku, riba s gorušičinim uljem i rižine okruglice dhikri kuhane na pari." },
-        { ime: "Dal bhat s povrćem iz vrta", opis: "U obiteljskim smještajima poslužuje se s kiselim prilozima od rotkve i manga." },
-        { ime: "Rižino pivo", opis: "Blago fermentirano domaće piće koje se u selima nudi gostima." }
+        { ime: "Tharu cuisine", opis: "River snails called ghonghi in a spicy sauce, fish with mustard oil and the steamed rice dumplings called dhikri." },
+        { ime: "Dal bhat with vegetables from the garden", opis: "In the family homestays it is served with pickles of radish and mango." },
+        { ime: "Rice beer", opis: "A mildly fermented homemade drink that is offered to guests in the villages." }
       ],
       dozivjeti: [
-        { ime: "Vožnja kanuom u zoru", opis: "Ako želite vidjeti park dok se budi, zaplovite niz rijeku u izdubljenom deblu, tiho, uz ptice i krokodile na obalama, a natrag se vratite pješice s vodičem." },
-        { ime: "Safari džipom", opis: "Poludnevna ili cjelodnevna vožnja dublje u park najbolja je prilika za nosoroge, jelene i medvjede. Jahanje na slonovima preskočite, jer se uvjeti u kojima se životinje drže često kritiziraju.", link: "https://chitwannationalpark.gov.np/" },
-        { ime: "Večer s plesom Tharua", opis: "U kulturnom centru u Sauraha mladi iz sela izvode ples sa štapovima, koji je nekoć služio za tjeranje divljih životinja s polja." }
+        { ime: "A canoe ride at dawn", opis: "If you want to see the park as it wakes up, drift down the river in a dugout canoe, quietly, with birds and crocodiles on the banks, and come back on foot with a guide." },
+        { ime: "Jeep safari", opis: "A half-day or full-day drive deeper into the park is the best chance for rhinos, deer and bears. Skip the elephant rides, because the conditions in which the animals are kept are often criticized.", link: "https://chitwannationalpark.gov.np/" },
+        { ime: "An evening of Tharu dance", opis: "At the cultural center in Sauraha young people from the village perform the stick dance, which once served to drive wild animals out of the fields." }
       ],
       agencije: [
-        { ime: "Chitwan National Park", opis: "Službena stranica uprave parka, s pravilima i podacima o dozvolama.", link: "https://chitwannationalpark.gov.np/" },
-        { ime: "Nepal Tourism Board, Chitwan", opis: "Službena stranica nacionalne turističke organizacije o parku i okolici.", link: "https://ntb.gov.np/en/chitwan" },
-        { ime: "National Trust for Nature Conservation", opis: "Nepalska zaklada za zaštitu prirode, koja u Chitwanu vodi istraživački centar.", link: "https://ntnc.org.np/" }
+        { ime: "Chitwan National Park", opis: "The official website of the park administration, with rules and information on permits.", link: "https://chitwannationalpark.gov.np/" },
+        { ime: "Nepal Tourism Board, Chitwan", opis: "The national tourism organization's official page on the park and its surroundings.", link: "https://ntb.gov.np/en/chitwan" },
+        { ime: "National Trust for Nature Conservation", opis: "A Nepali conservation trust that runs a research center in Chitwan.", link: "https://ntnc.org.np/" }
       ],
-      kada: "Od listopada do ožujka je ugodno toplo, a od veljače do travnja, nakon što mještani pokose visoku travu, životinje se najlakše vide. Ponesite odjeću neutralnih boja i sredstvo protiv komaraca."
+      kada: "From October to March it is pleasantly warm, and from February to April, after the locals have cut the tall grass, the animals are easiest to see. Bring clothes in neutral colors and mosquito repellent."
     }
   ],
   izvori: [
     { ime: "Nepal Tourism Board", url: "https://ntb.gov.np/" },
-    { ime: "UNESCO, svjetska baština: dolina Katmandua", url: "https://whc.unesco.org/en/list/121" },
-    { ime: "UNESCO, svjetska baština: Nacionalni park Chitwan", url: "https://whc.unesco.org/en/list/284" },
+    { ime: "UNESCO World Heritage: Kathmandu Valley", url: "https://whc.unesco.org/en/list/121" },
+    { ime: "UNESCO World Heritage: Chitwan National Park", url: "https://whc.unesco.org/en/list/284" },
     { ime: "Chitwan National Park", url: "https://chitwannationalpark.gov.np/" },
-    { ime: "Općina Bhaktapur", url: "https://bhaktapurmun.gov.np/" },
+    { ime: "Bhaktapur Municipality", url: "https://bhaktapurmun.gov.np/" },
     { ime: "International Mountain Museum", url: "https://internationalmountainmuseum.org/" },
     { ime: "Trekking Agencies' Association of Nepal", url: "https://www.taan.org.np/" },
     { ime: "National Trust for Nature Conservation", url: "https://ntnc.org.np/" }

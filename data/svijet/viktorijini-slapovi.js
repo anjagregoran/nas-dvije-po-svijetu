@@ -1,164 +1,164 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["viktorijini-slapovi"] = {
   id: "viktorijini-slapovi",
-  ime: "Zimbabve i Zambija",
-  regija: "Podsaharska Afrika",
-  sazetak: "Rijeka široka gotovo dva kilometra ruši se u pukotinu u zemlji i diže oblak vodene prašine koji se vidi izdaleka.",
+  ime: "Zimbabwe and Zambia",
+  regija: "Sub-Saharan Africa",
+  sazetak: "A river almost two kilometers wide plunges into a crack in the earth and sends up a cloud of spray that can be seen from far away.",
   uvod: [
-    "Viktorijini slapovi leže na rijeci Zambezi, koja je ovdje granica između Zimbabvea i Zambije. Narod Kololo zvao ih je Mosi-oa-Tunya, dim koji grmi, a škotski misionar i istraživač David Livingstone, koji ih je ugledao 16. studenoga 1855., nazvao ih je po britanskoj kraljici. Danas se službeno koriste oba imena.",
-    "Obje su zemlje bile britanske kolonije, Južna i Sjeverna Rodezija, nazvane po Cecilu Rhodesu, koji je sanjao željeznicu od Cape Towna do Kaira. Zambija je neovisnost stekla 1964., a Zimbabve 1980. Ime Zimbabve dolazi od Velikog Zimbabvea, kamenoga grada koji su preci naroda Shona gradili od 11. do 15. stoljeća.",
-    "Slapovi se mogu gledati s obje strane i svaka pokazuje nešto drugo, a gradovi Victoria Falls i Livingstone udaljeni su desetak kilometara i povezani mostom. Na nekoliko sati vožnje nalazi se Hwange, najveći nacionalni park Zimbabvea."
+    "Victoria Falls lies on the Zambezi River, which here forms the border between Zimbabwe and Zambia. The Kololo people called the falls Mosi-oa-Tunya, the smoke that thunders, and the Scottish missionary and explorer David Livingstone, who first saw them on November 16, 1855, named them after the British queen. Today both names are in official use.",
+    "Both countries were British colonies, Southern and Northern Rhodesia, named after Cecil Rhodes, who dreamed of a railway from Cape Town to Cairo. Zambia gained independence in 1964 and Zimbabwe in 1980. The name Zimbabwe comes from Great Zimbabwe, the stone city that the ancestors of the Shona people built from the 11th to the 15th century.",
+    "The falls can be viewed from both sides and each shows you something different, and the towns of Victoria Falls and Livingstone are about ten kilometers apart and linked by a bridge. A few hours' drive away lies Hwange, the largest national park in Zimbabwe."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Vode je najviše od ožujka do svibnja, kada je vodena prašina tolika da se slapovi mjestimično ne vide. Od lipnja do rujna vode je još mnogo, a pogled je čist. U listopadu i studenome zambijska strana gotovo presuši, ali je tada moguće kupanje na rubu slapa." },
-    { k: "Valuta", v: "U Zimbabveu se u turizmu sve plaća američkim dolarima, pa ponesite sitne novčanice u dobrom stanju. U Zambiji je valuta kvača (ZMW), a primaju se i dolari i kartice." },
-    { k: "Viza", v: "Postoji zajednička viza KAZA Univisa, koja vrijedi za obje zemlje i jednodnevni izlet u Bocvanu. Prije puta provjerite izdaje li se trenutačno i vrijedi li za hrvatsku putovnicu." },
-    { k: "Kretanje", v: "Oba grada imaju zračnu luku. Most se može prijeći pješice, uz putovnicu, a taksiji voze između granice i središta gradova." },
-    { k: "Napojnica", v: "U restoranima 10 posto, a vodičima na izletima nekoliko dolara po osobi." }
+    { k: "When to go", v: "The water is highest from March to May, when there is so much spray that in places you cannot see the falls. From June to September there is still plenty of water and the view is clear. In October and November the Zambian side almost dries up, but that is when swimming on the edge of the falls becomes possible." },
+    { k: "Currency", v: "In Zimbabwe everything in tourism is paid for in US dollars, so bring small bills in good condition. In Zambia the currency is the kwacha (ZMW), and dollars and cards are accepted too." },
+    { k: "Visa", v: "There is a joint visa, the KAZA Univisa, which is valid for both countries and for a day trip to Botswana. Before you travel, check whether it is currently being issued and whether it is valid for a Croatian passport." },
+    { k: "Getting around", v: "Both towns have an airport. You can cross the bridge on foot, with your passport, and taxis run between the border and the town centers." },
+    { k: "Tipping", v: "In restaurants 10 percent, and for guides on excursions a few dollars per person." }
   ],
   hrana: [
-    { ime: "Sadza i nshima", opis: "Gusta bijela kaša od kukuruznog brašna, koja se u Zimbabveu zove sadza, a u Zambiji nshima.", prica: "Jede se desnom rukom, tako da se od kaše oblikuje loptica i umoči u umak. U obje zemlje obrok bez nje nije pravi obrok, a pitanje „jeste li jeli?“ zapravo znači jeste li jeli sadzu." },
-    { ime: "Bream iz Zambezija", opis: "Riječna tilapija, pržena cijela ili pečena na žaru.", prica: "Lovi se u Zambeziju i u jezeru Kariba. Poslužuje se s kašom i umakom od rajčice i luka, i najsvježije je što možete naručiti uz slapove." },
-    { ime: "Kapenta", opis: "Sitna srdela iz jezera Kariba, sušena pa pržena s rajčicom i lukom.", prica: "Riba je 1960-ih unesena iz jezera Tanganjike u novo umjetno jezero Kariba i postala je jeftin izvor bjelančevina za obje zemlje. Lovi se noću, uz svjetiljke koje je privlače u mreže." },
-    { ime: "Ifisashi i dovi", opis: "Zelje kuhano u umaku od mljevenoga kikirikija, odnosno gulaš s maslacem od kikirikija.", prica: "Kikiriki je ovdje osnovni zgušnjivač umaka. Zambijski ifisashi je bezmesan, a zimbabveanski dovi obično sadrži piletinu." },
-    { ime: "Gusjenice mopane", opis: "Sušene i pržene gusjenice koje žive na stablu mopane.", prica: "U Zimbabveu ih zovu madora ili amacimbi. Restorani uz slapove gostima koji ih kušaju dijele potvrdu o hrabrosti, ali za mještane je to obična sezonska hrana." },
-    { ime: "Meso divljači", opis: "Odresci i gulaši od antilope kudu, bradavičaste svinje ili krokodilova repa.", prica: "Poslužuju se u restoranima koji nabavljaju meso s farmi divljači. Krokodilov rep bijelo je meso, okusom između piletine i ribe." },
-    { ime: "Mosi i Zambezi", opis: "Dva svijetla piva, zambijsko nazvano po slapovima i zimbabveansko po rijeci.", prica: "Na etiketi piva Mosi nalaze se sami slapovi. Navečer na terasi svatko naručuje ono sa svoje strane rijeke." },
-    { ime: "Maheu", opis: "Gusto, blago kiselo bezalkoholno piće od fermentirane kukuruzne kaše.", prica: "Pije se hladno kao okrepa na poslu i u polju, a prodaje se i u kartonskoj ambalaži u svakoj trgovini." }
+    { ime: "Sadza and nshima", opis: "A thick white porridge of cornmeal, which is called sadza in Zimbabwe and nshima in Zambia.", prica: "It is eaten with the right hand, by shaping the porridge into a little ball and dipping it into the sauce. In both countries a meal without it is no real meal, and the question “have you eaten?” really means have you eaten sadza." },
+    { ime: "Bream from the Zambezi", opis: "River tilapia, fried whole or grilled.", prica: "It is caught in the Zambezi and in Lake Kariba. It is served with the porridge and a sauce of tomato and onion, and it is the freshest thing you can order near the falls." },
+    { ime: "Kapenta", opis: "A tiny sardine from Lake Kariba, dried and then fried with tomato and onion.", prica: "The fish was introduced in the 1960s from Lake Tanganyika into the new reservoir of Kariba and became a cheap source of protein for both countries. It is caught at night, with lamps that draw it into the nets." },
+    { ime: "Ifisashi and dovi", opis: "Greens cooked in a sauce of ground peanuts, and a stew made with peanut butter.", prica: "Peanuts are the basic thickener for sauces here. Zambian ifisashi is meatless, while Zimbabwean dovi usually contains chicken." },
+    { ime: "Mopane worms", opis: "Dried and fried caterpillars that live on the mopane tree.", prica: "In Zimbabwe they are called madora or amacimbi. The restaurants near the falls hand out a certificate of bravery to guests who try them, but for the locals this is ordinary seasonal food." },
+    { ime: "Game meat", opis: "Steaks and stews of kudu antelope, warthog or crocodile tail.", prica: "They are served in restaurants that source their meat from game farms. Crocodile tail is white meat, with a flavor somewhere between chicken and fish." },
+    { ime: "Mosi and Zambezi", opis: "Two lagers, the Zambian one named after the falls and the Zimbabwean one after the river.", prica: "The label of Mosi beer shows the falls themselves. In the evening on the terrace everyone orders the one from their own side of the river." },
+    { ime: "Maheu", opis: "A thick, mildly sour non-alcoholic drink made from fermented corn porridge.", prica: "It is drunk cold as a pick-me-up at work and in the fields, and it is also sold in cartons in every shop." }
   ],
   obicaji: [
-    { ime: "Mbira", opis: "Glazbalo naroda Shona s metalnim jezičcima na drvenoj pločici, koje se svira palčevima i stavlja u izdubljenu tikvu radi jačeg zvuka. Svira se na obredima kojima se dozivaju duhovi predaka, a UNESCO ju je 2020. uvrstio u nematerijalnu baštinu.", gdje: "Glazbenici sviraju u restoranima i na tržnici rukotvorina u gradu Victoria Falls." },
-    { ime: "Kiparstvo naroda Shona", opis: "Zimbabveanski kipari rade u kamenu serpentinitu, koji se polira do sjaja. Likovi su stilizirani i često prikazuju obitelj, duhove i životinje. Sama riječ Zimbabve znači „kamene kuće“.", gdje: "Tržnica rukotvorina Elephant's Walk u gradu Victoria Falls i galerije u Harareu." },
-    { ime: "Makishi", opis: "Maskirani plesači predstavljaju duhove predaka koji se vraćaju iz svijeta mrtvih kako bi pomogli dječacima tijekom obreda zrelosti. Običaj njeguju narodi sjeverozapadne Zambije, a UNESCO ga je uvrstio u nematerijalnu baštinu.", gdje: "Svečanost Likumbi Lya Mize održava se u kolovozu u Zambeziju na sjeverozapadu Zambije, a plesači nastupaju i u kulturnim selima oko Livingstonea." },
-    { ime: "Kuomboka", opis: "Kada Zambezi poplavi ravnicu, kralj naroda Lozi seli se golemim crno-bijelim čamcem sa stotinjak veslača iz ljetne u zimsku palaču. Ime znači izaći iz vode.", gdje: "Zapadna Zambija, kod Mongua, obično u ožujku ili travnju; datum ovisi o vodostaju i ne održava se svake godine." },
-    { ime: "Nyami Nyami", opis: "Riječni bog naroda Tonga ima tijelo zmije i glavu ribe. Predaja kaže da ga je brana Kariba razdvojila od žene i da zato rijeka ponekad podivlja.", gdje: "Privjesak s njegovim likom prodaju rezbari uz slapove, a nose ga vodiči raftinga kao zaštitu." }
+    { ime: "Mbira", opis: "An instrument of the Shona people with metal tongues on a wooden board, which is played with the thumbs and placed inside a hollowed-out gourd for a louder sound. It is played at ceremonies that summon the spirits of the ancestors, and UNESCO added it to its intangible heritage list in 2020.", gdje: "Musicians play in the restaurants and at the craft market in the town of Victoria Falls." },
+    { ime: "Shona sculpture", opis: "Zimbabwean sculptors work in serpentine stone, which is polished to a shine. The figures are stylized and often depict the family, spirits and animals. The word Zimbabwe itself means “houses of stone.”", gdje: "The Elephant's Walk craft market in the town of Victoria Falls and the galleries in Harare." },
+    { ime: "Makishi", opis: "Masked dancers represent the spirits of the ancestors who return from the world of the dead to help boys through their initiation rites. The custom is kept by the peoples of northwestern Zambia, and UNESCO has added it to its intangible heritage list.", gdje: "The Likumbi Lya Mize ceremony is held in August in the town of Zambezi in northwestern Zambia, and the dancers also perform in the cultural villages around Livingstone." },
+    { ime: "Kuomboka", opis: "When the Zambezi floods the plain, the king of the Lozi people moves in a huge black and white barge with about a hundred paddlers from his summer palace to his winter one. The name means to get out of the water.", gdje: "Western Zambia, near Mongu, usually in March or April; the date depends on the water level and the ceremony is not held every year." },
+    { ime: "Nyami Nyami", opis: "The river god of the Tonga people has the body of a snake and the head of a fish. Tradition says the Kariba Dam separated him from his wife, and that this is why the river sometimes runs wild.", gdje: "A pendant with his image is sold by the carvers near the falls, and the rafting guides wear it for protection." }
   ],
   fraze: [
-    { izvorno: "Mhoro", izgovor: "MO-ro", hr: "Zdravo (shona, Zimbabve)" },
-    { izvorno: "Makadii?", izgovor: "ma-ka-DI", hr: "Kako ste? (shona)" },
-    { izvorno: "Tatenda", izgovor: "ta-TEN-da", hr: "Hvala (shona)" },
-    { izvorno: "Sawubona / Ngiyabonga", izgovor: "sa-u-BO-na / ngi-ja-BON-ga", hr: "Zdravo / Hvala (ndebele, zapadni Zimbabve)" },
-    { izvorno: "Muli bwanji?", izgovor: "MU-li BVAN-dži", hr: "Kako ste? (nyanja, Zambija)" },
-    { izvorno: "Zikomo", izgovor: "zi-KO-mo", hr: "Hvala (nyanja)" },
-    { izvorno: "Mwabuka buti?", izgovor: "mva-BU-ka BU-ti", hr: "Dobro jutro (tonga, oko slapova)" },
-    { izvorno: "Twalumba", izgovor: "tva-LUM-ba", hr: "Hvala (tonga)" }
+    { izvorno: "Mhoro", izgovor: "MO-ro", hr: "Hello (Shona, Zimbabwe)" },
+    { izvorno: "Makadii?", izgovor: "mah-kah-DEE", hr: "How are you? (Shona)" },
+    { izvorno: "Tatenda", izgovor: "tah-TEN-dah", hr: "Thank you (Shona)" },
+    { izvorno: "Sawubona / Ngiyabonga", izgovor: "sah-woo-BO-nah / ngee-yah-BONG-gah", hr: "Hello / Thank you (Ndebele, western Zimbabwe)" },
+    { izvorno: "Muli bwanji?", izgovor: "MOO-lee BWAHN-jee", hr: "How are you? (Nyanja, Zambia)" },
+    { izvorno: "Zikomo", izgovor: "zee-KO-mo", hr: "Thank you (Nyanja)" },
+    { izvorno: "Mwabuka buti?", izgovor: "mwah-BOO-kah BOO-tee", hr: "Good morning (Tonga, around the falls)" },
+    { izvorno: "Twalumba", izgovor: "twah-LOOM-bah", hr: "Thank you (Tonga)" }
   ],
   zanimljivosti: [
-    "Slapovi su široki 1708 metara i visoki do 108 metara, što ih čini najvećom vodenom zavjesom na svijetu.",
-    "Za punog mjeseca i visokog vodostaja u vodenoj prašini noću nastaje mjesečeva duga.",
-    "Oblak vodene prašine može se dići nekoliko stotina metara i vidi se s udaljenosti od više desetaka kilometara.",
-    "Slapovi se polako sele uzvodno: klanci nizvodno, koji vijugaju poput slova Z, mjesta su na kojima su se slapovi nalazili prije.",
-    "Livingstoneovo srce pokopano je u Zambiji, pod stablom gdje je umro 1873., a tijelo su njegovi pratitelji nosili više od tisuću i pol kilometara do obale kako bi bilo pokopano u Westminsterskoj opatiji.",
-    "Umjetno jezero Kariba, nizvodno na Zambeziju, po obujmu je najveće umjetno jezero na svijetu.",
-    "Zimbabve ima šesnaest službenih jezika, više nego gotovo ijedna druga država."
+    "The falls are 1,708 meters wide and up to 108 meters high, which makes them the largest curtain of falling water in the world.",
+    "At full moon and high water a lunar rainbow forms in the spray at night.",
+    "The cloud of spray can rise several hundred meters and is visible from dozens of kilometers away.",
+    "The falls are slowly moving upstream: the gorges downstream, which zigzag like the letter Z, mark the places where the falls used to be.",
+    "Livingstone's heart is buried in Zambia, under the tree where he died in 1873, and his companions carried his body more than fifteen hundred kilometers to the coast so that it could be buried in Westminster Abbey.",
+    "Lake Kariba, downstream on the Zambezi, is the largest artificial lake in the world by volume.",
+    "Zimbabwe has sixteen official languages, more than almost any other country."
   ],
   mjesta: [
     {
       id: "victoria-falls",
       ime: "Victoria Falls",
       vrsta: "grad",
-      sazetak: "Gradić na zimbabveanskoj strani, odakle se vidi najveći dio slapova.",
+      sazetak: "A small town on the Zimbabwean side, from which you can see the greater part of the falls.",
       prica: [
-        "Naselje je nastalo početkom 20. stoljeća, kada je do slapova stigla željeznica. Cecil Rhodes zahtijevao je da most bude toliko blizu slapova da vodena prašina kvasi vagone, premda ga sam nikada nije vidio jer je umro prije početka gradnje.",
-        "S ove se strane vidi oko tri četvrtine ukupne širine slapova, i to tijekom cijele godine, jer glavni tok rijeke ne presušuje."
+        "The settlement grew up at the beginning of the 20th century, when the railway reached the falls. Cecil Rhodes insisted that the bridge be so close to the falls that the spray would wet the train cars, although he never saw it himself because he died before construction began.",
+        "From this side you can see about three quarters of the total width of the falls, and all year round, because the main channel of the river does not dry up."
       ],
       vidjeti: [
-        { ime: "Staza kroz kišnu šumu", opis: "Staza s petnaestak vidikovaca prolazi kroz šumu koja postoji samo zato što je slapovi neprestano zalijevaju. Počinje kod Vražjeg slapa, najnižeg i najglasnijeg, i vodi do Glavnog slapa i točke Danger Point, gdje nema ograde. Ponesite kabanicu, jer ćete za visokog vodostaja biti mokre do kože." },
-        { ime: "Kip Davida Livingstonea", opis: "Brončani kip kod Vražjeg slapa gleda prema mjestu s kojeg je istraživač prvi put vidio slapove, otoku usred rijeke. U dnevnik je zapisao da su tako lijepe prizore zacijelo gledali anđeli u letu." },
-        { ime: "Most Victoria Falls", opis: "Čelični luk raspona 156 metara izrađen je u Engleskoj, dopremljen u dijelovima i sastavljen 1905. za svega četrnaest mjeseci. Stoji 128 metara nad rijekom i po sredini mu prolazi granica. S njega se skače bungee, a ispod kolnika vodi staza za obilazak s vodičem." },
-        { ime: "Hotel Victoria Falls", opis: "Otvoren je 1904. za putnike željeznicom i sačuvao je kolonijalni izgled, s hodnicima punima starih plakata i lovačkih trofeja. S terase se vidi most i oblak vodene prašine, a poslijepodnevni čaj mogu popiti i oni koji ondje ne odsjedaju." },
-        { ime: "Veliko stablo", opis: "Baobab opsega oko 18 metara, star više od tisuću godina, stoji uz cestu nedaleko od rijeke. Trgovci i putnici nekoć su se pod njim okupljali prije prelaska Zambezija." }
+        { ime: "The rainforest trail", opis: "A trail with some fifteen viewpoints passes through a forest that exists only because the falls water it without pause. It begins at the Devil's Cataract, the lowest and loudest, and leads to the Main Falls and to Danger Point, where there is no railing. Bring a raincoat, because at high water you will be soaked to the skin." },
+        { ime: "The statue of David Livingstone", opis: "The bronze statue at the Devil's Cataract looks toward the place from which the explorer first saw the falls, an island in the middle of the river. He wrote in his journal that scenes so lovely must have been gazed upon by angels in their flight." },
+        { ime: "Victoria Falls Bridge", opis: "The steel arch with a span of 156 meters was made in England, shipped in sections and assembled in 1905 in just fourteen months. It stands 128 meters above the river, and the border runs through its middle. People bungee jump from it, and beneath the roadway runs a walkway for guided tours." },
+        { ime: "The Victoria Falls Hotel", opis: "It opened in 1904 for rail travelers and has kept its colonial look, with corridors full of old posters and hunting trophies. From the terrace you can see the bridge and the cloud of spray, and afternoon tea is open to those who are not staying there too." },
+        { ime: "The Big Tree", opis: "A baobab about 18 meters around and more than a thousand years old stands beside the road not far from the river. Traders and travelers once gathered beneath it before crossing the Zambezi." }
       ],
       jesti: [
-        { ime: "Večera u bomi", opis: "U natkrivenom prostoru uz vatru nude se pečenja od divljači, sadza i gusjenice mopane, uz bubnjare koji goste uče ritmove." },
-        { ime: "Poslijepodnevni čaj", opis: "Na terasi hotela Victoria Falls poslužuju se sendviči i kolačići na katove, kao u doba kada su gosti stizali vlakom iz Cape Towna." },
-        { ime: "Bream s roštilja", opis: "Riječna riba s limunom i sadzom, najbolja u restoranima uz Zambezi uzvodno od grada." }
+        { ime: "Dinner in a boma", opis: "In a roofed enclosure by the fire you are offered roasted game, sadza and mopane worms, to the sound of drummers who teach the guests their rhythms." },
+        { ime: "Afternoon tea", opis: "On the terrace of the Victoria Falls Hotel sandwiches and little cakes are served on tiered stands, as in the days when guests arrived by train from Cape Town." },
+        { ime: "Grilled bream", opis: "River fish with lemon and sadza, best in the restaurants along the Zambezi upstream from town." }
       ],
       dozivjeti: [
-        { ime: "Krstarenje Zambezijem pred zalazak sunca", opis: "Uzvodno od slapova rijeka je široka i mirna, pa se s broda gledaju vodenkonji, krokodili i slonovi koji dolaze piti.", link: "https://wildhorizons.co.za/" },
-        { ime: "Rafting u klancu Batoka", opis: "Ispod slapova je jedna od najuzbudljivijih dionica za rafting na svijetu, na kojoj se vozi pri niskom vodostaju, otprilike od kolovoza do prosinca.", link: "https://www.shearwatervictoriafalls.com/" },
-        { ime: "Obilazak mosta", opis: "Privezane za sigurnosno uže hodate servisnom stazom ispod kolnika i slušate priču o gradnji.", link: "https://www.victoriafallsbridge.com/" },
-        { ime: "Mjesečeva duga", opis: "Tri večeri oko punog mjeseca park ostaje otvoren i nakon mraka, pa se u vodenoj prašini može vidjeti blijeda noćna duga." }
+        { ime: "A sunset cruise on the Zambezi", opis: "Upstream from the falls the river is wide and calm, so from the boat you watch hippos, crocodiles and the elephants that come down to drink.", link: "https://wildhorizons.co.za/" },
+        { ime: "Rafting in the Batoka Gorge", opis: "Below the falls is one of the most thrilling stretches of whitewater in the world, which is run at low water, roughly from August to December.", link: "https://www.shearwatervictoriafalls.com/" },
+        { ime: "The bridge tour", opis: "Clipped to a safety line, you walk along the service catwalk beneath the roadway and listen to the story of how the bridge was built.", link: "https://www.victoriafallsbridge.com/" },
+        { ime: "The lunar rainbow", opis: "For three evenings around the full moon the park stays open after dark, so you can see a pale nighttime rainbow in the spray." }
       ],
       agencije: [
-        { ime: "Zimbabwe Parks and Wildlife Management Authority", opis: "Uprava nacionalnog parka Victoria Falls, s cijenama ulaznica.", link: "https://zimparks.org.zw/victoria-falls-national-park/" },
-        { ime: "Zimbabwe Tourism Authority", opis: "Službena turistička zajednica Zimbabvea.", link: "https://zimbabwetourism.net/en/" },
-        { ime: "Wild Horizons", opis: "Dugogodišnji lokalni organizator krstarenja, raftinga i izleta.", link: "https://wildhorizons.co.za/" }
+        { ime: "Zimbabwe Parks and Wildlife Management Authority", opis: "The authority that runs Victoria Falls National Park, with ticket prices.", link: "https://zimparks.org.zw/victoria-falls-national-park/" },
+        { ime: "Zimbabwe Tourism Authority", opis: "Zimbabwe's official tourism board.", link: "https://zimbabwetourism.net/en/" },
+        { ime: "Wild Horizons", opis: "A long-established local operator of cruises, rafting and excursions.", link: "https://wildhorizons.co.za/" }
       ],
-      kada: "Za najbolji omjer vode i vidljivosti dođite od lipnja do rujna. Na stazu idite rano ujutro ili kasno poslijepodne, kada sunce stvara dugu u klancu."
+      kada: "For the best balance of water and visibility, come from June to September. Walk the trail early in the morning or late in the afternoon, when the sun makes a rainbow in the gorge."
     },
     {
       id: "livingstone",
       ime: "Livingstone",
       vrsta: "grad",
-      sazetak: "Zambijska strana slapova, gdje se voda gleda izbliza i gdje se u sušnoj sezoni kupa na samom rubu.",
+      sazetak: "The Zambian side of the falls, where you see the water up close and where in the dry season you can swim on the very edge.",
       prica: [
-        "Grad je osnovan 1905. i nazvan po istraživaču, a do 1935. bio je glavni grad Sjeverne Rodezije. Zadržao je široke ulice i kolonijalne zgrade s trijemovima.",
-        "Oko slapova živi narod Toka-Leya, čiji poglavica Mukuni stoluje u selu osnovanom, prema predaji, još u 13. stoljeću, a slapovi su mu sveto mjesto."
+        "The town was founded in 1905 and named after the explorer, and until 1935 it was the capital of Northern Rhodesia. It has kept its wide streets and colonial buildings with verandas.",
+        "Around the falls live the Toka-Leya people, whose Chief Mukuni has his seat in a village founded, according to tradition, as far back as the 13th century, and for him the falls are a sacred place."
       ],
       vidjeti: [
-        { ime: "Most Knife-Edge", opis: "Uski pješački most vodi do stijene nasuprot Istočnom slapu, toliko blizu da za visokog vodostaja hodate kroz pljusak koji pada odozdo. Odavde se vidi i Vrelo kotao, vrtlog u koji se slijeva cijela rijeka prije ulaska u klanac." },
-        { ime: "Vražji bazen", opis: "Kada vodostaj padne, otprilike od kraja kolovoza do početka siječnja, s otoka Livingstone može se doplivati do prirodnog bazena na samom rubu slapa, gdje vas kamena izbočina zadržava da vas struja ne odnese. Ide se isključivo s vodičima koji imaju dozvolu." },
-        { ime: "Otok Livingstone", opis: "S ovog je otočića usred rijeke Livingstone 1855. prvi put pogledao u ponor, kamo su ga u čamcu dovezli ljudi poglavice Sekeletua. Posjećuje se čamcem u malim skupinama." },
-        { ime: "Muzej Livingstone", opis: "Najstariji i najveći muzej u Zambiji čuva istraživačeva pisma, bilježnice i instrumente. Pogledajte i odjel o vračanju te odljev lubanje iz Kabwea, jednoga od prvih nalaza ranog čovjeka u Africi." },
-        { ime: "Nacionalni park Mosi-oa-Tunya", opis: "U malom parku uzvodno od slapova s rendžerima se pješice prilazi bijelim nosorozima, koji su pod stalnom naoružanom stražom." }
+        { ime: "Knife-Edge Bridge", opis: "A narrow footbridge leads to a rock facing the Eastern Cataract, so close that at high water you walk through a downpour that falls from below. From here you can also see the Boiling Pot, the whirlpool into which the whole river pours before entering the gorge." },
+        { ime: "Devil's Pool", opis: "When the water level drops, roughly from late August to early January, you can swim from Livingstone Island to a natural pool on the very edge of the falls, where a rock ledge holds you back so that the current does not carry you over. You go only with licensed guides." },
+        { ime: "Livingstone Island", opis: "It was from this little island in the middle of the river that Livingstone first looked into the chasm in 1855, after the men of Chief Sekeletu had paddled him there in a canoe. It is visited by boat in small groups." },
+        { ime: "Livingstone Museum", opis: "The oldest and largest museum in Zambia holds the explorer's letters, notebooks and instruments. Take a look at the section on witchcraft too, and at the cast of the Kabwe skull, one of the first finds of early humans in Africa." },
+        { ime: "Mosi-oa-Tunya National Park", opis: "In the small park upstream from the falls you approach white rhinos on foot with the rangers, and the rhinos are under constant armed guard." }
       ],
       jesti: [
-        { ime: "Nshima s ifisashijem", opis: "Kaša uz zelje u umaku od kikirikija, koja se u mjesnim restoranima jede rukom nakon što vam konobar donese vodu za pranje ruku." },
-        { ime: "Pržena kapenta", opis: "Hrskave sitne ribe s rajčicom, omiljen i jeftin prilog." },
-        { ime: "Doručak na otoku Livingstone", opis: "Izlet do otoka uključuje obrok pod šatorom nekoliko metara od ruba slapa." }
+        { ime: "Nshima with ifisashi", opis: "Porridge with greens in peanut sauce, which in the local restaurants you eat with your hand after the waiter has brought you water for washing." },
+        { ime: "Fried kapenta", opis: "Crispy little fish with tomato, a popular and inexpensive side dish." },
+        { ime: "Breakfast on Livingstone Island", opis: "The excursion to the island includes a meal under a tent a few meters from the edge of the falls." }
       ],
       dozivjeti: [
-        { ime: "Kupanje u Vražjem bazenu", opis: "Rezervira se preko jedinog ovlaštenog organizatora izleta na otok Livingstone, s jutarnjim i poslijepodnevnim terminima.", link: "https://devilspool.net/" },
-        { ime: "Spust do Vrelog kotla", opis: "Strma staza kroz šumu spušta se do rijeke ispod slapova, odakle se most vidi odozdo. Pazite na pavijane i ponesite vodu za povratak uzbrdo." },
-        { ime: "Selo Mukuni", opis: "S vodičem iz sela obilazi se naselje od nekoliko tisuća stanovnika, palača poglavice i radionice rezbara." }
+        { ime: "Swimming in Devil's Pool", opis: "It is booked through the only authorized operator of excursions to Livingstone Island, with morning and afternoon slots.", link: "https://devilspool.net/" },
+        { ime: "The descent to the Boiling Pot", opis: "A steep trail through the forest drops down to the river below the falls, from where you see the bridge from underneath. Watch out for the baboons and bring water for the climb back up." },
+        { ime: "Mukuni Village", opis: "With a guide from the village you tour a settlement of several thousand people, the chief's palace and the carvers' workshops." }
       ],
       agencije: [
-        { ime: "Zambia Tourism", opis: "Službena turistička zajednica Zambije.", link: "https://www.zambia.travel/" },
-        { ime: "Livingstone Tourism Association", opis: "Udruga lokalnih smještaja, vodiča i organizatora izleta.", link: "https://www.livingstonetourism.com/" },
-        { ime: "Livingstone Museum", opis: "Službena stranica muzeja.", link: "https://livingstonemuseum.org/" }
+        { ime: "Zambia Tourism", opis: "Zambia's official tourism board.", link: "https://www.zambia.travel/" },
+        { ime: "Livingstone Tourism Association", opis: "An association of local accommodation providers, guides and excursion operators.", link: "https://www.livingstonetourism.com/" },
+        { ime: "Livingstone Museum", opis: "The museum's official website.", link: "https://livingstonemuseum.org/" }
       ],
-      kada: "Zambijska je strana najdojmljivija od veljače do lipnja. Od listopada do prosinca Istočni slap može biti gotovo suh, ali je tada otvoren Vražji bazen."
+      kada: "The Zambian side is at its most impressive from February to June. From October to December the Eastern Cataract can be almost dry, but that is when Devil's Pool is open."
     },
     {
       id: "hwange",
       ime: "Hwange",
       vrsta: "priroda",
-      sazetak: "Najveći park Zimbabvea, s desecima tisuća slonova i jednim od najboljih mjesta za afričke divlje pse.",
+      sazetak: "Zimbabwe's largest park, with tens of thousands of elephants and one of the best places to see African wild dogs.",
       prica: [
-        "Park površine oko 14 600 kilometara četvornih proglašen je rezervatom 1928. na zemlji koja je prije bila kraljevsko lovište kralja naroda Ndebele. Leži na rubu Kalaharija i nema stalnih rijeka.",
-        "Prvi upravitelj Ted Davison zato je počeo bušiti bunare i crpiti vodu u umjetna pojila, i o tim crpkama život parka u suši ovisi do danas."
+        "The park, which covers about 14,600 square kilometers, was declared a reserve in 1928 on land that had previously been the royal hunting ground of the king of the Ndebele people. It lies on the edge of the Kalahari and has no permanent rivers.",
+        "That is why the first warden, Ted Davison, began drilling boreholes and pumping water into artificial waterholes, and the life of the park in the dry season depends on those pumps to this day."
       ],
       vidjeti: [
-        { ime: "Slonovi na pojilima", opis: "U parku živi oko 45 000 slonova, jedna od najvećih populacija u Africi. Od kolovoza do listopada krda u redu čekaju na pojilima, a najstarije ženke piju prve, i to ravno s cijevi kojom dotječe čista voda. Gledajte kako mladunci još ne znaju rabiti surlu pa piju ustima." },
-        { ime: "Platforma Nyamandhlovu", opis: "S povišenog zaklona nad pojilom blizu glavnog kampa satima se promatra izmjena životinja: zebre, žirafe, sabljaste antilope s dugim povijenim rogovima, a predvečer i lavovi." },
-        { ime: "Afrički divlji psi", opis: "Hwange je jedno od najvažnijih utočišta ove vrste, koje u cijeloj Africi ima tek nekoliko tisuća. Imaju velike okrugle uši i šareno krzno, a čopor hrani i ranjene i stare članove. Najlakše ih je vidjeti od svibnja do kolovoza, dok su vezani uz jazbinu." },
-        { ime: "Sabljaste i konjske antilope", opis: "Dvije velike i rijetke antilope ovdje se viđaju češće nego u većini afričkih parkova. Mužjak sabljaste antilope crn je kao ugljen, s bijelim licem, i rogovima se uspješno brani i od lavova." },
-        { ime: "Što se kada vidi", opis: "U suši, od srpnja do listopada, sve se okuplja oko crpljene vode. S kišama u studenome životinje se raziđu, ali tada se rađaju mladunci antilopa i stižu ptice selice, pa park ozeleni i isprazni se od posjetitelja." }
+        { ime: "Elephants at the waterholes", opis: "About 45,000 elephants live in the park, one of the largest populations in Africa. From August to October the herds wait in line at the waterholes, and the oldest females drink first, straight from the pipe where the clean water flows in. Watch how the calves do not yet know how to use their trunks and drink with their mouths." },
+        { ime: "Nyamandhlovu Platform", opis: "From a raised hide above a waterhole near Main Camp you can watch the comings and goings of the animals for hours: zebras, giraffes, sable antelopes with their long curved horns, and toward evening lions as well." },
+        { ime: "African wild dogs", opis: "Hwange is one of the most important refuges of this species, of which only a few thousand remain in all of Africa. They have large round ears and mottled coats, and the pack feeds its injured and elderly members too. They are easiest to see from May to August, while they are tied to the den." },
+        { ime: "Sable and roan antelopes", opis: "Two large and rare antelopes are seen here more often than in most African parks. The male sable is as black as coal, with a white face, and with his horns he successfully defends himself even against lions." },
+        { ime: "What you see when", opis: "In the dry season, from July to October, everything gathers around the pumped water. With the rains in November the animals disperse, but that is when the antelope calves are born and the migratory birds arrive, so the park turns green and empties of visitors." }
       ],
       jesti: [
-        { ime: "Čaj na platformi", opis: "Vodiči donose čaj i kolače na promatračnicu, pa se jede u tišini dok slonovi piju nekoliko metara dalje." },
-        { ime: "Braai u kampu", opis: "Večera s roštilja uz sadzu i umak od rajčice, pod nebom bez svjetlosnog onečišćenja." }
+        { ime: "Tea on the platform", opis: "The guides bring tea and cake up to the viewing hide, so you eat in silence while the elephants drink a few meters away." },
+        { ime: "A braai at camp", opis: "A barbecue dinner with sadza and tomato sauce, under a sky free of light pollution." }
       ],
       dozivjeti: [
-        { ime: "Centar za zaštitu divljih pasa", opis: "Kod glavnog ulaza u park udruga Painted Dog Conservation ima centar s izložbom i rehabilitacijskim nastambama, gdje ćete naučiti zašto su žičane zamke najveća prijetnja ovim životinjama.", link: "https://www.painteddog.org/" },
-        { ime: "Pješački safari", opis: "Zimbabveanski profesionalni vodiči prolaze jednu od najzahtjevnijih obuka u Africi, pa je hodanje s njima posebno poučno." },
-        { ime: "Noć u zaklonu uz pojilo", opis: "Neki kampovi imaju ukopana skrovišta iz kojih se slonovi gledaju iz razine tla, na dohvat ruke." }
+        { ime: "The wild dog conservation center", opis: "At the main entrance to the park the organization Painted Dog Conservation has a center with an exhibition and rehabilitation enclosures, where you will learn why wire snares are the greatest threat to these animals.", link: "https://www.painteddog.org/" },
+        { ime: "A walking safari", opis: "Zimbabwean professional guides go through some of the most demanding training in Africa, so walking with them is especially instructive." },
+        { ime: "A night in a hide by a waterhole", opis: "Some camps have sunken hides from which you watch the elephants at ground level, within arm's reach." }
       ],
       agencije: [
-        { ime: "Zimbabwe Parks and Wildlife Management Authority", opis: "Uprava parka Hwange, s kampovima i cjenikom.", link: "https://zimparks.org.zw/hwange-national-park/" },
-        { ime: "Painted Dog Conservation", opis: "Udruga za zaštitu afričkih divljih pasa s centrom za posjetitelje.", link: "https://www.painteddog.org/" },
-        { ime: "Zimbabwe Tourism Authority", opis: "Službena turistička zajednica.", link: "https://zimbabwetourism.net/en/" }
+        { ime: "Zimbabwe Parks and Wildlife Management Authority", opis: "The authority that runs Hwange, with camps and a price list.", link: "https://zimparks.org.zw/hwange-national-park/" },
+        { ime: "Painted Dog Conservation", opis: "An organization for the protection of African wild dogs, with a visitor center.", link: "https://www.painteddog.org/" },
+        { ime: "Zimbabwe Tourism Authority", opis: "The official tourism board.", link: "https://zimbabwetourism.net/en/" }
       ],
-      kada: "Najbolje je od srpnja do listopada. Do glavnog ulaza vozi se oko dva sata od grada Victoria Falls, pa se park lako dodaje posjetu slapovima."
+      kada: "The best time is from July to October. The drive to the main entrance takes about two hours from the town of Victoria Falls, so the park is easy to add to a visit to the falls."
     }
   ],
   izvori: [
-    { ime: "UNESCO: Mosi-oa-Tunya / Viktorijini slapovi", url: "https://whc.unesco.org/en/list/509" },
+    { ime: "UNESCO: Mosi-oa-Tunya / Victoria Falls", url: "https://whc.unesco.org/en/list/509" },
     { ime: "Zimbabwe Parks and Wildlife Management Authority", url: "https://www.zimparks.org.zw/" },
     { ime: "Zimbabwe Tourism Authority", url: "https://zimbabwetourism.net/en/" },
     { ime: "Zambia Tourism", url: "https://www.zambia.travel/" },
-    { ime: "Zambia Tourism, informativni portal", url: "https://www.zambiatourism.com/" },
+    { ime: "Zambia Tourism, information portal", url: "https://www.zambiatourism.com/" },
     { ime: "Victoria Falls Tourism", url: "https://victoriafallstourism.org/" },
     { ime: "Livingstone Museum", url: "https://livingstonemuseum.org/" },
     { ime: "Painted Dog Conservation", url: "https://www.painteddog.org/" },

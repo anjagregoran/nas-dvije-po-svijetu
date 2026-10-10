@@ -100,15 +100,7 @@ for (const [kontinent, regije] of PLAN) {
       const h = 'zemlja.html?z=' + id;
       zemlje.push({ id, ime: z.ime, sazetak: z.sazetak, n: z.mjesta.length, spremno: true, c: centre(id, z.mjesta) });
       add(z.ime, 'Zemlja', h);
-      z.mjesta.forEach(m => {
-        add(m.ime, z.ime, h + '#/mjesto/' + m.id);
-        (m.vidjeti || []).forEach((v, i) => add(v.ime, m.ime + ' · znamenitost', h + '#/mjesto/' + m.id + '/v' + i));
-        (m.jesti || []).forEach(v => add(v.ime, m.ime + ' · hrana', h + '#/mjesto/' + m.id + '/jesti'));
-        (m.dozivjeti || []).forEach(v => add(v.ime, m.ime + ' · doživljaj', h + '#/mjesto/' + m.id + '/dozivjeti'));
-        (m.agencije || []).forEach(v => add(v.ime, m.ime + ' · agencija', h + '#/mjesto/' + m.id + '/agencije'));
-      });
-      (z.hrana || []).forEach(v => add(v.ime, z.ime + ' · hrana', h + '#/hrana'));
-      (z.obicaji || []).forEach(v => add(v.ime, z.ime + ' · običaji', h + '#/obicaji'));
+      z.mjesta.forEach(m => add(m.ime, z.ime, h + '#/mjesto/' + m.id));
       (z.zanimljivosti || []).forEach(c => out.cinjenice.push([c, z.ime]));
     } catch (e) {
       console.warn('! preskačem', id, '-', e.message); problems++;
@@ -131,16 +123,7 @@ for (const gid of ['apulija']) {
   const foods = T.hrana.reduce((n, k) => n + k.stavke.length, 0);
   out.vodici.push({ id: gid, naziv: T.naziv, nadnaslov: T.nadnaslov, uvod: T.uvod, mjesta: T.mjesta.length, znamenitosti: sights, jela: foods });
   add(T.naziv, 'Veliki vodič', h);
-  T.mjesta.forEach(m => {
-    add(m.ime, T.naziv, h + '#/mjesto/' + m.id);
-    (m.znamenitosti || []).forEach((z, i) => add(z.ime, m.ime + ' · znamenitost', h + '#/mjesto/' + m.id + '/' + i));
-  });
-  T.hrana.forEach((k, ki) => k.stavke.forEach((s, i) => add(s.ime, T.naziv + ' · hrana', h + '#/hrana/h-' + ki + '-' + i)));
-  T.kultura.forEach((c, i) => add(c.naslov, T.naziv + ' · kultura', h + '#/kultura/' + i));
-  T.akoZelis.forEach((a, i) => {
-    add(a.zelja, T.naziv + ' · ako želiš', h + '#/ako-zelis/' + i);
-    a.opcije.forEach(o => add(o.ime, o.mjesto, h + '#/ako-zelis/' + i));
-  });
+  T.mjesta.forEach(m => add(m.ime, T.naziv + ' · veliki vodič', h + '#/mjesto/' + m.id));
   T.jesteLiZnale.forEach(c => out.cinjenice.push([c, T.naziv]));
 }
 

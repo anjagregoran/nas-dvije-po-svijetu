@@ -164,5 +164,5 @@
   var P = new URLSearchParams(location.search);
   if (P.get('blizu')) around();
   else if (P.get('q')) run(P.get('q'), P.get('j') === 'en' || P.get('j') === 'hr' ? P.get('j') : null);
-  else app.innerHTML = '<p class="lead" style="margin-top:30px">Upišite bilo koji grad, zemlju ili znamenitost na svijetu. Ono što u vodiču još nije napisano stiže uživo s Wikipedije, uvijek u najnovijem izdanju.</p>';
+  else app.innerHTML = '<p class="lead" style="margin-top:30px">Upišite bilo koji grad ili zemlju na svijetu. Ono što u vodiču još nije napisano stiže uživo s Wikipedije, uvijek u najnovijem izdanju.</p>';
 })();

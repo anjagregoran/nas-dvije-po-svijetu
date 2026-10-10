@@ -1,212 +1,212 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["mali-antili"] = {
   id: "mali-antili",
-  ime: "Mali Antili",
-  regija: "Srednja Amerika i Karibi",
-  sazetak: "Luk malih otoka na rubu Karipskoga mora, na kojima se u jednom tjednu čuju engleski, francuski, nizozemski i kreolski, a svaki otok ima svoj rum i svoj ritam.",
+  ime: "Lesser Antilles",
+  regija: "Central America and the Caribbean",
+  sazetak: "An arc of small islands on the edge of the Caribbean Sea, where in a single week you hear English, French, Dutch and Creole, and every island has its own rum and its own rhythm.",
   uvod: [
-    "Mali Antili protežu se u luku od Djevičanskih otoka do obale Venezuele i čine istočnu granicu Karipskoga mora. Starosjedioci Arawaci i Karibi dočekali su ovdje Kolumba, a u 17. stoljeću otoke su međusobno podijelile Engleska, Francuska i Nizozemska, koje su ih pretvorile u plantaže šećera i na njih dovele milijune porobljenih Afrikanaca. Iz toga su susreta nastali kreolski jezici, kuhinja i glazba koji danas čine pravi identitet otoka.",
-    "Ovdje predstavljamo četiri vrlo različita svijeta. Barbados je bio britanski bez prekida više od tri stoljeća, a od 2021. je republika. Sveta Lucija četrnaest je puta prelazila iz francuskih u britanske ruke, pa govori engleski, a pjeva na kreolskom. Curaçao, uz susjednu Arubu, autonomna je zemlja u Kraljevini Nizozemskoj, s vlastitim jezikom papiamentu. Martinik je francuski prekomorski departman i dio Europske unije, pa se ondje plaća eurom i jede baguette pod palmama."
+    "The Lesser Antilles stretch in an arc from the Virgin Islands to the coast of Venezuela and form the eastern boundary of the Caribbean Sea. The indigenous Arawaks and Caribs were here to meet Columbus, and in the 17th century the islands were divided up among England, France and the Netherlands, which turned them into sugar plantations and brought millions of enslaved Africans to them. Out of that encounter came the Creole languages, the cooking and the music that make up the true identity of the islands today.",
+    "Here we present four very different worlds. Barbados was British without interruption for more than three centuries, and it has been a republic since 2021. Saint Lucia passed between French and British hands fourteen times, so it speaks English and sings in Creole. Curaçao, along with neighboring Aruba, is an autonomous country within the Kingdom of the Netherlands, with its own language, Papiamentu. Martinique is a French overseas department and part of the European Union, so you pay in euros there and eat baguettes under the palm trees."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od prosinca do svibnja suho je i vjetrovito. Sezona uragana traje od lipnja do studenoga, ali Curaçao i Aruba leže južno od uobičajenih putanja oluja, pa su sigurni cijele godine." },
-    { k: "Valuta", v: "Svaki otok ima svoju: barbadoski dolar, istočnokaripski dolar na Svetoj Luciji, karipski gulden na Curaçau, arupski florin i euro na Martiniku. Američki dolar prima se gotovo svugdje osim na Martiniku." },
-    { k: "Kretanje", v: "Između otoka lete regionalni zrakoplovni prijevoznici, a između Martinika, Svete Lucije, Dominike i Guadeloupea plovi brzi trajekt. Na Barbadosu i Svetoj Luciji vozi se lijevom stranom." },
-    { k: "Napojnica", v: "Na Barbadosu i Svetoj Luciji račun često već sadržava 10 posto za uslugu. Na Martiniku je usluga uračunata kao u Francuskoj, a na Curaçau i Arubi ostavlja se od 10 do 15 posto." }
+    { k: "When to go", v: "From December to May it is dry and breezy. The hurricane season runs from June to November, but Curaçao and Aruba lie south of the usual storm tracks, so they are safe all year round." },
+    { k: "Currency", v: "Each island has its own: the Barbadian dollar, the Eastern Caribbean dollar on Saint Lucia, the Caribbean guilder on Curaçao, the Aruban florin and the euro on Martinique. The US dollar is accepted almost everywhere except on Martinique." },
+    { k: "Getting around", v: "Regional airlines fly between the islands, and a fast ferry sails between Martinique, Saint Lucia, Dominica and Guadeloupe. On Barbados and Saint Lucia people drive on the left." },
+    { k: "Tipping", v: "On Barbados and Saint Lucia the bill often already includes a 10 percent service charge. On Martinique service is included as in France, and on Curaçao and Aruba people leave 10 to 15 percent." }
   ],
   hrana: [
-    { ime: "Cou-cou i leteća riba", opis: "Gusta kaša od kukuruznoga brašna i bamije, uz filete leteće ribe pirjane u umaku od rajčice, luka i majčine dušice.", prica: "Nacionalno jelo Barbadosa potječe od zapadnoafričkih kaša. Cou-cou se miješa posebnom drvenom lopaticom nalik maloj palici za kriket, koja se zove cou-cou stick. Leteća riba toliko je važna da je na barbadoskoj kovanici od jednoga dolara." },
-    { ime: "Pudding and souse", opis: "Ukiseljena kuhana svinjetina s krastavcem, limetom i ljutom paprikom, uz kobasicu od začinjenoga slatkog krumpira.", prica: "Na Barbadosu je to subotnji ručak, koji se kupuje u seoskim kućama i krčmama što ga kuhaju samo toga dana. Običaj potječe iz doba kad su porobljeni dobivali ostatke svinje, pa su naučili od njih napraviti poslasticu." },
-    { ime: "Green fig and saltfish", opis: "Kuhane zelene banane s usoljenim bakalarom, lukom, paprikom i začinskim biljem.", prica: "Na Svetoj Luciji zelenu bananu zovu smokvom, pa otuda ime nacionalnoga jela. Banane su desetljećima bile glavni izvozni proizvod otoka, a bakalar je bio jeftina hrana s kanadskih brodova. Jede se osobito za Dan kreolske kulture u listopadu." },
-    { ime: "Accras de morue", opis: "Male pržene okruglice od tijesta s bakalarom, mladim lukom, peršinom i ljutom papričicom.", prica: "Na Martiniku i Guadeloupeu accras su obvezan početak svakoga obroka, uz čašicu ti-puncha. Tehnika prženja u tijestu stigla je iz zapadne Afrike, a na Veliki petak rade se i posne, s povrćem." },
-    { ime: "Colombo", opis: "Blagi curry od piletine, svinjetine ili kozletine s tikvom, patlidžanom i mješavinom začina koja uključuje kurkumu, korijandar i gorušicu.", prica: "Začin su sredinom 19. stoljeća na francuske otoke donijeli radnici iz južne Indije i Šri Lanke, dovedeni nakon ukidanja ropstva, a ime dolazi od grada Colomba. Kreolska je kuhinja začin prigrlila i prilagodila domaćim sastojcima." },
-    { ime: "Keshi yená", opis: "Kora sira edama ili goude punjena začinjenim mesom, maslinama, kaparima i grožđicama, zapečena dok se sir ne rastopi.", prica: "Najpoznatije jelo Curaçaa nastalo je, prema predaji, u kuhinjama porobljenih, koji su izdubljenu koru sira što bi ostala gospodarima punili ostacima mesa. Ime na papiamentuu znači punjeni sir." },
-    { ime: "Rhum agricole i ti-punch", opis: "Rum destiliran od svježega soka šećerne trske te piće od toga ruma, kriške limete i malo šećernoga sirupa.", prica: "Martinički rum jedini na svijetu ima francusku zaštićenu oznaku izvornosti, dobivenu 1996. godine. Ti-punch se ne miješa za šankom: gost dobije bocu, limetu i šećer, pa si ga složi sam, a domaći kažu da svatko sam priprema svoju propast." },
-    { ime: "Barbadoski rum i likeri otoka", opis: "Rum od melase s Barbadosa, punč s rumom i plavi liker od kore gorke naranče s Curaçaa.", prica: "Najstarija isprava koja spominje destileriju Mount Gay na Barbadosu potječe iz 1703., pa se ona smatra najstarijom markom ruma na svijetu. Punč se na otocima miješa po rimi: jedan dio kiseloga, dva slatkoga, tri jakoga i četiri slaboga. Liker Curaçao radi se od kore naranče laraha, potomka valencijskih naranči koje su na suhom otoku podivljale i postale nejestive." }
+    { ime: "Cou-cou and flying fish", opis: "A thick porridge of cornmeal and okra, served with fillets of flying fish stewed in a sauce of tomato, onion and thyme.", prica: "The national dish of Barbados descends from West African porridges. Cou-cou is stirred with a special wooden paddle that looks like a small cricket bat and is called a cou-cou stick. Flying fish matters so much that it appears on the Barbadian one dollar coin." },
+    { ime: "Pudding and souse", opis: "Pickled boiled pork with cucumber, lime and hot pepper, served with a sausage of spiced sweet potato.", prica: "On Barbados this is Saturday lunch, bought from village houses and taverns that cook it only on that day. The custom goes back to the time when enslaved people were given the leftover parts of the pig and learned to turn them into a delicacy." },
+    { ime: "Green fig and saltfish", opis: "Boiled green bananas with salted cod, onion, peppers and herbs.", prica: "On Saint Lucia the green banana is called a fig, which is where the name of the national dish comes from. For decades bananas were the island's main export, and salt cod was cheap food from Canadian ships. It is eaten especially for Creole Day in October." },
+    { ime: "Accras de morue", opis: "Small fried fritters of batter with salt cod, scallions, parsley and hot chili.", prica: "On Martinique and Guadeloupe, accras are the obligatory start to every meal, with a small glass of ti-punch. The technique of frying in batter came from West Africa, and on Good Friday meatless ones are made too, with vegetables." },
+    { ime: "Colombo", opis: "A mild curry of chicken, pork or goat with squash, eggplant and a spice blend that includes turmeric, coriander and mustard.", prica: "The spice was brought to the French islands in the mid-19th century by workers from southern India and Sri Lanka, who were brought in after the abolition of slavery, and the name comes from the city of Colombo. Creole cooking embraced the spice and adapted it to local ingredients." },
+    { ime: "Keshi yená", opis: "The rind of an Edam or Gouda cheese stuffed with spiced meat, olives, capers and raisins, baked until the cheese melts.", prica: "According to tradition, the best-known dish of Curaçao was born in the kitchens of the enslaved, who filled the hollowed-out cheese rind left over by their masters with scraps of meat. The name in Papiamentu means stuffed cheese." },
+    { ime: "Rhum agricole and ti-punch", opis: "Rum distilled from fresh sugarcane juice, and a drink made of that rum, a slice of lime and a little sugar syrup.", prica: "Martinique rum is the only one in the world with a French protected designation of origin, granted in 1996. Ti-punch is not mixed at the bar: the guest is given the bottle, the lime and the sugar and puts it together alone, and the locals say that everyone prepares their own downfall." },
+    { ime: "Barbados rum and the liqueurs of the islands", opis: "Molasses rum from Barbados, rum punch and the blue liqueur made from bitter orange peel on Curaçao.", prica: "The oldest document mentioning the Mount Gay distillery on Barbados dates from 1703, so it is considered the oldest rum brand in the world. On the islands punch is mixed according to a rhyme: one part sour, two of sweet, three of strong and four of weak. Curaçao liqueur is made from the peel of the laraha orange, a descendant of Valencia oranges that went wild on the dry island and became inedible." }
   ],
   obicaji: [
-    { ime: "Crop Over", opis: "Najveća svetkovina Barbadosa nastala je krajem 18. stoljeća kao proslava završetka berbe šećerne trske. Obnovljena je 1974. i danas traje tjednima, s natjecanjima u calypsu i soci, a završava povorkom Grand Kadooment u kostimima od perja i šljokica.", gdje: "Održava se od lipnja do prvoga ponedjeljka u kolovozu, kada povorka prolazi Bridgetownom. Program objavljuje barbadoska Nacionalna zaklada za kulturu." },
-    { ime: "Petak navečer u Oistinsu", opis: "U ribarskom mjestu na jugu Barbadosa petkom se na desecima štandova peče riba, a na dva podija svira glazba. Na jednom mladi plešu uz socu i reggae, a na drugom stariji parovi plešu standardne plesove uz stare hitove, elegantno kao u plesnoj dvorani.", gdje: "Oistins Bay Gardens, petkom i subotom navečer. Dođite oko sedam, naručite ribu marlin ili mahi-mahi i pridružite se plesu." },
-    { ime: "Kreolski dan i ulične zabave Svete Lucije", opis: "Jounen Kwéyòl dan je kada cijeli otok oblači karirano platno madras, govori samo kreolski i kuha stara jela na otvorenoj vatri. Tijekom godine petkom se u ribarskim mjestima cesta zatvori za promet i pretvori u plesni podij.", gdje: "Kreolski dan slavi se posljednje nedjelje u listopadu, svake godine u drugim selima. Ulična zabava u mjestu Gros Islet i riblja večer u Anse La Rayeu održavaju se petkom, a jazz festival u svibnju." },
-    { ime: "Bèlè, biguine i zouk", opis: "Bèlè je martinički ples uz bubanj na kojem bubnjar sjedi jašući, dok drugi štapićima udara po njegovu boku, a plesači u krugu odgovaraju pjevaču. Iz susreta afričkih ritmova i europskih salonskih plesova nastala je u 19. stoljeću biguine, a osamdesetih godina 20. stoljeća zouk, koji je osvojio svijet.", gdje: "Večeri bèlèa, zvane swaré bèlè, održavaju se vikendom u selima na sjeveru Martinika, osobito oko Sainte-Marie, gdje djeluje i Kuća bèlèa. Raspored pitajte u turističkom uredu." },
-    { ime: "Karneval i yole na Martiniku", opis: "Martinički karneval jedini traje i na Pepelnicu, kada se svi odjenu u crno i bijelo i oplakuju kralja Vavala, golemu lutku koja se navečer spaljuje. Ljeti otok prati utrku yola, uskih drvenih jedrilica bez kobilice, na kojima posada visi na motkama izbačenima preko boka.", gdje: "Karneval se održava u Fort-de-Franceu od nedjelje do Pepelnice, a utrka Tour des Yoles Rondes krajem srpnja i početkom kolovoza obilazi cijeli otok." },
-    { ime: "Tumba, tambú i latino večeri Curaçaa", opis: "Tumba je karnevalska glazba Curaçaa afričkih korijena, a tambú, koji zovu i bluesom Curaçaa, pjeva se uz bubanj i željeznu udaraljku i dugo je bio zabranjen. Zbog blizine Venezuele i Kolumbije otok jednako strastveno pleše salsu, merengue i bachatu.", gdje: "Karneval traje od siječnja do Pepelnice, s festivalom tumbe na početku. Četvrtkom navečer u četvrti Punda u Willemstadu svira se uživo i nastupaju folklorne skupine, a barovi u četvrti Pietermaai imaju večeri salse sa satom za početnice." },
-    { ime: "Rum shop", opis: "Na Barbadosu ima više od tisuću rum shopova, malih šarenih krčmi koje su ujedno trgovina i mjesna vijećnica. Rum se kupuje na boce, s ledom i sokom sa strane, i dijeli za stolom uz domino i raspravu o kriketu.", gdje: "Ima ih u svakom selu. Uđite, pozdravite sve prisutne i naručite malu bocu ruma i riblje okruglice." }
+    { ime: "Crop Over", opis: "The biggest festival on Barbados arose in the late 18th century as a celebration of the end of the sugarcane harvest. It was revived in 1974 and today lasts for weeks, with calypso and soca competitions, ending with the Grand Kadooment parade in costumes of feathers and sequins.", gdje: "It runs from June to the first Monday in August, when the parade passes through Bridgetown. The program is published by the Barbados National Cultural Foundation." },
+    { ime: "Friday night in Oistins", opis: "In this fishing town in the south of Barbados, fish is grilled at dozens of stalls on Fridays and music plays on two dance floors. On one, young people dance to soca and reggae, and on the other, older couples dance ballroom steps to old hits, as elegantly as in a dance hall.", gdje: "Oistins Bay Gardens, on Friday and Saturday evenings. Come around seven, order marlin or mahi-mahi and join the dancing." },
+    { ime: "Creole Day and the street parties of Saint Lucia", opis: "Jounen Kwéyòl is the day when the whole island dresses in checked madras cloth, speaks only Creole and cooks old dishes over an open fire. Throughout the year, on Fridays, the road in the fishing villages is closed to traffic and turned into a dance floor.", gdje: "Creole Day is celebrated on the last Sunday in October, in different villages each year. The street party in the town of Gros Islet and the fish night in Anse La Raye are held on Fridays, and the jazz festival takes place in May." },
+    { ime: "Bèlè, biguine and zouk", opis: "Bèlè is a dance from Martinique performed to a drum that the drummer sits astride, while another player strikes its side with sticks and the dancers in a circle answer the singer. Out of the meeting of African rhythms and European salon dances came the biguine in the 19th century, and in the 1980s zouk, which conquered the world.", gdje: "Bèlè evenings, called swaré bèlè, are held on weekends in the villages of northern Martinique, especially around Sainte-Marie, which is also home to the House of Bèlè. Ask for the schedule at the tourist office." },
+    { ime: "Carnival and the yoles of Martinique", opis: "The Martinique carnival is the only one that carries on into Ash Wednesday, when everyone dresses in black and white and mourns King Vaval, a huge effigy that is burned in the evening. In summer the island follows the race of the yoles, narrow wooden sailboats without a keel, on which the crew hangs out on poles thrust over the side.", gdje: "Carnival is held in Fort-de-France from Sunday to Ash Wednesday, and the Tour des Yoles Rondes race circles the whole island in late July and early August." },
+    { ime: "Tumba, tambú and the Latin nights of Curaçao", opis: "Tumba is the carnival music of Curaçao, with African roots, and tambú, also called the blues of Curaçao, is sung to a drum and an iron percussion instrument and was banned for a long time. Because Venezuela and Colombia are so close, the island dances salsa, merengue and bachata with just as much passion.", gdje: "Carnival lasts from January to Ash Wednesday, with the tumba festival at the start. On Thursday evenings in the Punda district of Willemstad there is live music and folk groups perform, and the bars in the Pietermaai district hold salsa nights with a beginners' class." },
+    { ime: "Rum shop", opis: "Barbados has more than a thousand rum shops, small colorful taverns that double as the grocery store and the village hall. Rum is bought by the bottle, with ice and a mixer on the side, and shared around the table over dominoes and arguments about cricket.", gdje: "There is one in every village. Walk in, greet everyone present and order a small bottle of rum and fish cakes." }
   ],
   fraze: [
-    { izvorno: "Wuh gine on?", izgovor: "vo gajn ON", hr: "Što ima? (barbadoski engleski)" },
-    { izvorno: "Bonjou", izgovor: "bon-ŽU", hr: "Dobar dan (kreolski na Svetoj Luciji i Martiniku)" },
-    { izvorno: "Mèsi anpil", izgovor: "me-SI an-PIL", hr: "Puno hvala (kreolski)" },
-    { izvorno: "Sa ka fèt?", izgovor: "sa ka FET", hr: "Kako ide? (kreolski)" },
-    { izvorno: "Bon dia", izgovor: "bon DI-a", hr: "Dobro jutro (papiamentu)" },
-    { izvorno: "Danki", izgovor: "DAN-ki", hr: "Hvala (papiamentu)" },
-    { izvorno: "Kon ta bai?", izgovor: "kon ta BAJ", hr: "Kako si? (papiamentu)" },
-    { izvorno: "Dushi", izgovor: "DU-ši", hr: "Slatko, drago, ukusno (najdraža riječ Curaçaa i Arube)" }
+    { izvorno: "Wuh gine on?", izgovor: "wuh gyne ON", hr: "What's up? (Barbadian English)" },
+    { izvorno: "Bonjou", izgovor: "bohn-ZHOO", hr: "Hello (Creole on Saint Lucia and Martinique)" },
+    { izvorno: "Mèsi anpil", izgovor: "meh-SEE ahn-PEEL", hr: "Thank you very much (Creole)" },
+    { izvorno: "Sa ka fèt?", izgovor: "sah kah FET", hr: "How's it going? (Creole)" },
+    { izvorno: "Bon dia", izgovor: "bohn DEE-ah", hr: "Good morning (Papiamentu)" },
+    { izvorno: "Danki", izgovor: "DAHN-kee", hr: "Thank you (Papiamentu)" },
+    { izvorno: "Kon ta bai?", izgovor: "kohn tah BYE", hr: "How are you? (Papiamentu)" },
+    { izvorno: "Dushi", izgovor: "DOO-shee", hr: "Sweet, dear, tasty (the favorite word of Curaçao and Aruba)" }
   ],
   zanimljivosti: [
-    "Barbados je 30. studenoga 2021. postao republika, a iste je večeri pjevačicu Rihannu, rođenu na otoku, proglasio nacionalnom junakinjom.",
-    "Jedino putovanje izvan domovine u životu Georgea Washingtona bilo je na Barbados 1751., gdje je prebolio velike boginje.",
-    "Sveta Lucija dala je dva nobelovca, ekonomista Arthura Lewisa i pjesnika Dereka Walcotta, koji su obojica rođeni 23. siječnja.",
-    "Erupcija vulkana Mont Pelée 8. svibnja 1902. u nekoliko je minuta usmrtila gotovo sve stanovnike Saint-Pierrea, njih oko 28 000, a među rijetkim preživjelima bio je zatvorenik u ćeliji debelih zidova.",
-    "Pod u sinagogi u Willemstadu prekriven je pijeskom, u spomen na pretke koji su u Španjolskoj i Portugalu tako prigušivali korake pri tajnim molitvama.",
-    "Curaçao se plasirao na Svjetsko nogometno prvenstvo 2026. kao zemlja s najmanje stanovnika koja je to ikad uspjela.",
-    "Grejp je nastao na Barbadosu u 18. stoljeću, slučajnim križanjem naranče i pomela.",
-    "Na Arubi i Curaçau stabla divi-divi rastu nagnuta prema jugozapadu, jer ih cijele godine savija isti pasat."
+    "Barbados became a republic on November 30, 2021, and that same evening it declared the singer Rihanna, who was born on the island, a national hero.",
+    "The only trip George Washington ever made outside his homeland was to Barbados in 1751, where he recovered from smallpox.",
+    "Saint Lucia has produced two Nobel laureates, the economist Arthur Lewis and the poet Derek Walcott, both of whom were born on January 23.",
+    "The eruption of the Mont Pelée volcano on May 8, 1902, killed almost all the inhabitants of Saint-Pierre, about 28,000 of them, within a few minutes, and among the few survivors was a prisoner in a thick-walled cell.",
+    "The floor of the synagogue in Willemstad is covered with sand, in memory of the ancestors who muffled their footsteps this way during secret prayers in Spain and Portugal.",
+    "Curaçao qualified for the 2026 FIFA World Cup as the country with the smallest population ever to do so.",
+    "The grapefruit originated on Barbados in the 18th century, as an accidental cross between the orange and the pomelo.",
+    "On Aruba and Curaçao the divi-divi trees grow leaning toward the southwest, because the same trade wind bends them all year long."
   ],
   mjesta: [
     {
       id: "barbados",
       ime: "Barbados",
       vrsta: "otok",
-      sazetak: "Koraljni otok najistočnije na Karibima, s kolonijalnim Bridgetownom, plantažnim kućama, divljom atlantskom obalom i rumom starim tri stoljeća.",
+      sazetak: "A coral island at the far eastern edge of the Caribbean, with colonial Bridgetown, plantation houses, a wild Atlantic coast and rum three centuries old.",
       prica: [
-        "Englezi su se 1627. iskrcali kod današnjega Holetowna i otok je ostao britanski bez prekida sve do neovisnosti 1966., što je na Karibima iznimka. Ovdje je četrdesetih godina 17. stoljeća počela šećerna revolucija: mali posjedi pretvoreni su u velike plantaže, a Barbados je postao najbogatija engleska kolonija i uzor ropskoga sustava koji se potom proširio regijom.",
-        "Otok je, za razliku od vulkanskih susjeda, građen od koraljnoga vapnenca, pa je nizak, s bijelim plažama i špiljama. Zapadna obala gleda na mirno Karipsko more, a istočna na Atlantik, čiji se valovi lome o stijene. Stanovnici sebe zovu Bajans, što se izgovara bejdžans."
+        "The English landed in 1627 near what is now Holetown, and the island remained British without interruption until independence in 1966, which is an exception in the Caribbean. The sugar revolution began here in the 1640s: small holdings were turned into large plantations, and Barbados became the richest English colony and the model for the system of slavery that then spread across the region.",
+        "Unlike its volcanic neighbors, the island is built of coral limestone, so it is low-lying, with white beaches and caves. The west coast faces the calm Caribbean Sea and the east coast faces the Atlantic, whose waves break against the rocks. The inhabitants call themselves Bajans, pronounced BAY-juns."
       ],
       vidjeti: [
-        { ime: "Bridgetown i Garrison", opis: "Povijesna jezgra s vojnim kompleksom na UNESCO-ovu je popisu od 2011. godine. Neogotičke zgrade parlamenta iz 1870-ih sjedište su zastupničkoga doma osnovanoga 1639., jednoga od najstarijih u Commonwealthu. U Garrisonu je hipodrom na nekadašnjem vojnom vježbalištu i kuća u kojoj je boravio mladi George Washington." },
-        { ime: "Sinagoga Nidhe Israel", opis: "Sinagogu su 1654. osnovali sefardski Židovi izbjegli iz Brazila, koji su na otok donijeli znanje o preradi šećera. Današnja je zgrada iz 1833., a arheolozi su 2008. u dvorištu otkrili obrednu kupelj iz 17. stoljeća, koju i danas puni izvor." },
-        { ime: "St. Nicholas Abbey", opis: "Unatoč imenu, ovdje nikad nije bilo redovnika: riječ je o plantažnoj kući iz 1658., jednoj od samo triju jakobinskih kuća sačuvanih na zapadnoj polutki. Ima zabate i kamine, premda kamin na tropima nikomu ne treba. Na imanju se i danas preša trska i peče rum, a posjetitelje vozi parni vlak." },
-        { ime: "Harrison's Cave", opis: "Kroz vapnenačku špilju u središtu otoka vozi električni vlakić, pokraj podzemnih potoka i dvorane visoke petnaestak metara. Špilja se spominje još u 18. stoljeću, ali je temeljito istražena i otvorena tek 1981. godine." },
-        { ime: "Bathsheba", opis: "Na atlantskoj obali valovi su podlokali golemo kamenje koje sada stoji u plićaku poput gljiva. More je ovdje preopasno za plivanje izvan prirodnih bazena među stijenama, ali je val poznat jahačima na dasci iz cijeloga svijeta." },
-        { ime: "Barbados Museum", opis: "Muzej je smješten u nekadašnjem britanskom vojnom zatvoru u Garrisonu. Prikazuje život otoka od starosjedilaca do neovisnosti, s posebnom galerijom o ropstvu i plantažama, pa je dobar uvod prije obilaska plantažnih kuća." }
+        { ime: "Bridgetown and the Garrison", opis: "The historic core with its military complex has been on the UNESCO list since 2011. The neo-Gothic parliament buildings from the 1870s are the seat of a House of Assembly founded in 1639, one of the oldest in the Commonwealth. In the Garrison there is a racecourse on the former military parade ground and the house where the young George Washington stayed." },
+        { ime: "Nidhe Israel Synagogue", opis: "The synagogue was founded in 1654 by Sephardic Jews who had fled Brazil and who brought knowledge of sugar processing to the island. The present building dates from 1833, and in 2008 archaeologists uncovered a 17th-century ritual bath in the courtyard, which is still fed by a spring." },
+        { ime: "St. Nicholas Abbey", opis: "Despite the name, there were never any monks here: this is a plantation house from 1658, one of only three Jacobean houses surviving in the Western Hemisphere. It has gables and fireplaces, although nobody needs a fireplace in the tropics. Cane is still pressed and rum distilled on the estate today, and visitors ride a steam train." },
+        { ime: "Harrison's Cave", opis: "A small electric tram runs through this limestone cave in the center of the island, past underground streams and a chamber some fifteen meters high. The cave is mentioned as early as the 18th century, but it was thoroughly explored and opened only in 1981." },
+        { ime: "Bathsheba", opis: "On the Atlantic coast the waves have undercut huge boulders that now stand in the shallows like mushrooms. The sea here is too dangerous for swimming outside the natural pools among the rocks, but the wave is known to surfers from all over the world." },
+        { ime: "Barbados Museum", opis: "The museum is housed in the former British military prison in the Garrison. It shows the life of the island from the indigenous inhabitants to independence, with a special gallery on slavery and the plantations, so it makes a good introduction before you tour the plantation houses." }
       ],
       jesti: [
-        { ime: "Cou-cou i leteća riba", opis: "Najčešće se poslužuje petkom u restoranima domaće kuhinje, a pržena leteća riba u pecivu, zvana cutter, jede se na plaži." },
-        { ime: "Riblje okruglice i makaroni pita", opis: "Fish cakes od bakalara grickaju se uz rum, a zapečeni makaroni sa sirom prilog su svakom tanjuru." },
-        { ime: "Rum na izvoru", opis: "U posjetiteljskom centru Mount Gay u Bridgetownu kušaju se rumovi različite starosti uz priču o povijesti destilerije." }
+        { ime: "Cou-cou and flying fish", opis: "It is most often served on Fridays in restaurants that cook local food, while fried flying fish in a bun, called a cutter, is eaten on the beach." },
+        { ime: "Fish cakes and macaroni pie", opis: "Salt cod fish cakes are nibbled with rum, and baked macaroni and cheese is the side dish on every plate." },
+        { ime: "Rum at the source", opis: "At the Mount Gay visitor center in Bridgetown you taste rums of different ages while hearing the story of the distillery's history." }
       ],
       dozivjeti: [
-        { ime: "Fish fry u Oistinsu", opis: "Petkom navečer birajte štand po dimu i redu pred njim, pojedite ribu za dugim zajedničkim stolom, a zatim pogledajte starije parove kako plešu na podiju." },
-        { ime: "Obilazak destilerije i plantaže", opis: "Na imanju St. Nicholas Abbey obilazak kuće spaja se s kušanjem ruma i vožnjom parnim vlakom do vidikovca Cherry Tree Hill.", link: "https://www.stnicholasabbey.com/" },
-        { ime: "Crop Over", opis: "Tko je na otoku u srpnju, neka ode na jedno od natjecanja u calypsu ili na dječju povorku, koje su opuštenije od velike završne.", link: "https://ncf.bb/" },
-        { ime: "Kušanje u Mount Gayu", opis: "U sat vremena doznat ćete zašto barbadoski rum dozrijeva brže nego viski u Škotskoj i naučiti razliku između destilacije u kotlu i u koloni.", link: "https://www.mountgayrum.com/" }
+        { ime: "Fish fry in Oistins", opis: "On Friday evening, choose a stall by its smoke and the line in front of it, eat your fish at a long shared table and then watch the older couples dancing on the floor." },
+        { ime: "Touring a distillery and plantation", opis: "On the St. Nicholas Abbey estate, a tour of the house is combined with a rum tasting and a steam train ride to the Cherry Tree Hill lookout.", link: "https://www.stnicholasabbey.com/" },
+        { ime: "Crop Over", opis: "If you are on the island in July, go to one of the calypso competitions or to the children's parade, which are more relaxed than the big finale.", link: "https://ncf.bb/" },
+        { ime: "Tasting at Mount Gay", opis: "In an hour you will find out why Barbados rum matures faster than whisky in Scotland and learn the difference between pot still and column still distillation.", link: "https://www.mountgayrum.com/" }
       ],
       agencije: [
-        { ime: "Visit Barbados", opis: "Službena stranica barbadoske turističke organizacije.", link: "https://www.visitbarbados.org/" },
-        { ime: "Barbados Museum and Historical Society", opis: "Muzej i povijesno društvo, s podacima o izložbama i vođenjima.", link: "https://barbmuse.org.bb/" },
-        { ime: "Barbados Synagogue Historic District", opis: "Uprava povijesne četvrti sa sinagogom, muzejom i obrednom kupelji.", link: "https://synagoguehistoricdistrict.com/" }
+        { ime: "Visit Barbados", opis: "The official website of the Barbados tourism organization.", link: "https://www.visitbarbados.org/" },
+        { ime: "Barbados Museum and Historical Society", opis: "The museum and historical society, with information on exhibitions and guided tours.", link: "https://barbmuse.org.bb/" },
+        { ime: "Barbados Synagogue Historic District", opis: "The management of the historic district with the synagogue, the museum and the ritual bath.", link: "https://synagoguehistoricdistrict.com/" }
       ],
-      kada: "Najsuše je od siječnja do travnja. Otok je malen, pa se s jedne obale na drugu stigne za manje od sata, a javni autobusi voze svugdje po jedinstvenoj cijeni."
+      kada: "It is driest from January to April. The island is small, so you can get from one coast to the other in less than an hour, and public buses go everywhere for a flat fare."
     },
     {
       id: "sveta-lucija",
-      ime: "Sveta Lucija",
+      ime: "Saint Lucia",
       vrsta: "otok",
-      sazetak: "Zeleni vulkanski otok s dva šiljasta vrha koji izranjaju iz mora, sumpornim izvorima i selima u kojima se govori kreolski.",
+      sazetak: "A green volcanic island with two pointed peaks rising out of the sea, sulfur springs and villages where Creole is spoken.",
       prica: [
-        "Francuzi i Britanci otimali su se za Svetu Luciju stoljeće i pol, jer ima jednu od najboljih prirodnih luka na Karibima. Otok je promijenio gospodara četrnaest puta, pa su ga prozvali Helenom Zapadne Indije, a 1814. konačno je pripao Britaniji. Neovisnost je stekao 1979. godine.",
-        "Službeni je jezik engleski, ali se kod kuće govori kwéyòl, kreolski s francuskom osnovom, a imena mjesta gotovo su sva francuska. Sjever otoka je suh i hotelski, a jug oko gradića Soufrièrea planinski, s prašumom, plantažama kakaa i vulkanskim krajolikom."
+        "The French and the British fought over Saint Lucia for a century and a half, because it has one of the best natural harbors in the Caribbean. The island changed hands fourteen times, which earned it the nickname Helen of the West Indies, and in 1814 it finally went to Britain. It gained independence in 1979.",
+        "The official language is English, but at home people speak Kwéyòl, a French-based Creole, and almost all the place names are French. The north of the island is dry and lined with hotels, while the south around the small town of Soufrière is mountainous, with rainforest, cocoa plantations and a volcanic landscape."
       ],
       vidjeti: [
-        { ime: "Pitoni", opis: "Gros Piton, visok 798 metara, i Petit Piton, visok 743 metra, čepovi su ugaslih vulkana koji se dižu ravno iz mora. UNESCO ih je zaštitio 2004. godine, a nalaze se i na zastavi otoka, kao dva trokuta. Najbolje se vide s mora ili s vidikovaca iznad Soufrièrea." },
-        { ime: "Sulphur Springs", opis: "Urušeni krater kraj Soufrièrea reklamira se kao jedini vulkan na svijetu u koji se ulazi automobilom. Iz tla kuljaju para i kipuće sivo blato, a miriše na sumpor. Nizvodno se voda dovoljno ohladi da se u njoj kupa i maže toplim blatom." },
-        { ime: "Diamond Falls i mineralne kupke", opis: "Slap u botaničkom vrtu mijenja boju stijene iz žute u zelenu i ljubičastu, ovisno o mineralima u vodi. Kupke je 1784. dao sagraditi francuski guverner za vojnike kralja Luja XVI., nakon što su liječnici vodu usporedili s onom u Aix-les-Bainsu." },
-        { ime: "Pigeon Island", opis: "Nekadašnji otočić, od 1972. nasipom spojen s kopnom, bio je u 16. stoljeću skrovište gusara s drvenom nogom Françoisa le Clerca. S utvrde Fort Rodney britanski je admiral 1782. motrio francusku flotu u Martiniku, koji se za vedra dana vidi na obzoru. Ovdje se održavaju glavni koncerti jazz festivala." },
-        { ime: "Castries", opis: "Na trgu Dereka Walcotta raste golemo stablo staro nekoliko stoljeća, a u katedrali uz trg zidove je oslikao domaći slikar Dunstan St. Omer, koji je svece prikazao tamnoputima. Natkrivena tržnica iz 1894. najživlja je subotom ujutro." },
-        { ime: "Marigot Bay", opis: "Uski zaljev zaklonjen brdima i palmama smatra se jednim od najljepših sidrišta na Karibima. Predaja kaže da se ovdje britanska flota sakrila od Francuza zamaskiravši jarbole palminim lišćem. U zaljevu je 1967. sniman film Doktor Dolittle." }
+        { ime: "The Pitons", opis: "Gros Piton, 798 meters high, and Petit Piton, 743 meters high, are the plugs of extinct volcanoes that rise straight out of the sea. UNESCO protected them in 2004, and they also appear on the island's flag, as two triangles. They are best seen from the sea or from the lookouts above Soufrière." },
+        { ime: "Sulphur Springs", opis: "The collapsed crater near Soufrière is advertised as the only volcano in the world that you can drive into. Steam and boiling gray mud bubble up out of the ground, and the air smells of sulfur. Downstream the water cools enough for you to bathe in it and smear yourself with warm mud." },
+        { ime: "Diamond Falls and the mineral baths", opis: "The waterfall in the botanical garden changes the color of the rock from yellow to green and purple, depending on the minerals in the water. The baths were built in 1784 on the orders of the French governor for the soldiers of King Louis XVI, after doctors compared the water with that of Aix-les-Bains." },
+        { ime: "Pigeon Island", opis: "This former islet, joined to the mainland by a causeway since 1972, was in the 16th century the hideout of François le Clerc, the pirate with a wooden leg. From Fort Rodney the British admiral kept watch in 1782 on the French fleet in Martinique, which can be seen on the horizon on a clear day. The main concerts of the jazz festival are held here." },
+        { ime: "Castries", opis: "On Derek Walcott Square grows a huge tree several centuries old, and in the cathedral beside the square the walls were painted by the local artist Dunstan St. Omer, who portrayed the saints as dark-skinned. The covered market from 1894 is at its liveliest on Saturday mornings." },
+        { ime: "Marigot Bay", opis: "This narrow bay sheltered by hills and palm trees is considered one of the most beautiful anchorages in the Caribbean. Tradition says the British fleet hid from the French here by disguising its masts with palm leaves. The film Doctor Dolittle was shot in the bay in 1967." }
       ],
       jesti: [
-        { ime: "Green fig and saltfish", opis: "Nacionalno jelo poslužuju kreolski restorani u Soufrièreu i na tržnici u Castriesu, najčešće subotom." },
-        { ime: "Cocoa tea", opis: "Jutarnji napitak od ribanoga štapića čistoga kakaa kuhanoga s cimetom, muškatnim oraščićem i mlijekom, uz prženo tijesto zvano bakes." },
-        { ime: "Riba i školjke petkom", opis: "U ribarskom selu Anse La Raye petkom se duž obale peku jastozi, hobotnica i riba, a jede se za stolovima na cesti." }
+        { ime: "Green fig and saltfish", opis: "The national dish is served by Creole restaurants in Soufrière and at the market in Castries, most often on Saturdays." },
+        { ime: "Cocoa tea", opis: "A morning drink made from a grated stick of pure cocoa simmered with cinnamon, nutmeg and milk, served with fried dough called bakes." },
+        { ime: "Fish and shellfish on Fridays", opis: "In the fishing village of Anse La Raye, lobsters, octopus and fish are grilled along the waterfront on Fridays, and people eat at tables set out on the road." }
       ],
       dozivjeti: [
-        { ime: "Uspon na Gros Piton", opis: "Na viši, ali blaži vrh penje se s obveznim vodičem iz sela Fond Gens Libre, čije ime znači dolina slobodnih ljudi, jer su ga osnovali odbjegli robovi. Uspon i silazak traju oko četiri sata, a kreće se rano zbog vrućine." },
-        { ime: "Blatna kupka u Sulphur Springsu", opis: "Namažite se toplim sivim blatom, pustite da se osuši i isperite u toplom bazenu. Ponesite stari kupaći kostim, jer miris sumpora dugo ostaje.", link: "https://www.sulphurspringstlucia.com/" },
-        { ime: "Ulična zabava u Gros Isletu", opis: "Petkom navečer mjesto zatvori glavnu ulicu, iznese roštilje i zvučnike, pa se uz socu, reggae i zouk pleše do kasno. Tradicija traje od kraja šezdesetih godina 20. stoljeća." },
-        { ime: "Imanje kakaa", opis: "Na starim plantažama oko Soufrièrea vidjet ćete kako se zrna kakaa fermentiraju i suše, a ponegdje i kako se glačaju plesom bosih nogu u velikom kotlu." }
+        { ime: "Climbing Gros Piton", opis: "The higher but gentler peak is climbed with a mandatory guide from the village of Fond Gens Libre, whose name means valley of the free people, because it was founded by escaped slaves. The climb and descent take about four hours, and you set off early because of the heat." },
+        { ime: "Mud bath at Sulphur Springs", opis: "Cover yourself in warm gray mud, let it dry and rinse off in the warm pool. Bring an old swimsuit, because the smell of sulfur lingers for a long time.", link: "https://www.sulphurspringstlucia.com/" },
+        { ime: "Street party in Gros Islet", opis: "On Friday evenings the town closes its main street and brings out the grills and the speakers, and people dance until late to soca, reggae and zouk. The tradition goes back to the late 1960s." },
+        { ime: "A cocoa estate", opis: "On the old plantations around Soufrière you will see how cocoa beans are fermented and dried, and in some places how they are polished by dancing barefoot in a large cauldron." }
       ],
       agencije: [
-        { ime: "Saint Lucia Tourism Authority", opis: "Službena turistička stranica Svete Lucije.", link: "https://stlucia.org/en/" },
-        { ime: "Saint Lucia National Trust", opis: "Zaklada koja upravlja Pigeon Islandom i drugim zaštićenim mjestima.", link: "https://saintlucianationaltrust.com/" },
-        { ime: "Diamond Falls Botanical Gardens", opis: "Uprava botaničkoga vrta, slapa i mineralnih kupki u Soufrièreu.", link: "https://www.diamondstlucia.com/" }
+        { ime: "Saint Lucia Tourism Authority", opis: "The official tourism website of Saint Lucia.", link: "https://stlucia.org/en/" },
+        { ime: "Saint Lucia National Trust", opis: "The trust that manages Pigeon Island and other protected sites.", link: "https://saintlucianationaltrust.com/" },
+        { ime: "Diamond Falls Botanical Gardens", opis: "The management of the botanical garden, the waterfall and the mineral baths in Soufrière.", link: "https://www.diamondstlucia.com/" }
       ],
-      kada: "Od prosinca do svibnja najmanje je kiše. Cesta između sjevera i Soufrièrea vrlo je zavojita, pa je do Pitona ugodnije doći brodom ili prespavati na jugu."
+      kada: "There is the least rain from December to May. The road between the north and Soufrière is very winding, so it is more pleasant to reach the Pitons by boat or to spend the night in the south."
     },
     {
       id: "curacao",
-      ime: "Curaçao i Aruba",
+      ime: "Curaçao and Aruba",
       vrsta: "otok",
-      sazetak: "Suhi otoci pred obalom Venezuele, s nizozemskim zabatima u tropskim bojama, kaktusima, tirkiznim uvalama i jezikom koji je mješavina pola svijeta.",
+      sazetak: "Dry islands off the coast of Venezuela, with Dutch gables in tropical colors, cacti, turquoise coves and a language that is a blend of half the world.",
       prica: [
-        "Španjolci su 1499. stigli na Curaçao, Arubu i Bonaire i, ne našavši zlato, proglasili ih beskorisnim otocima. Nizozemska zapadnoindijska kompanija zauzela je Curaçao 1634. zbog duboke prirodne luke i pretvorila ga u veliko trgovište, nažalost i u jedno od glavnih tržišta robljem na Karibima. Ropstvo je u nizozemskim kolonijama ukinuto 1. srpnja 1863. godine.",
-        "U trgovačkom gradu susreli su se nizozemski činovnici, sefardski Židovi, Afrikanci i Južnoamerikanci, pa je nastao papiamentu, kreolski jezik s portugalskim, španjolskim, nizozemskim i afričkim riječima, koji je danas službeni. Curaçao je od 2010. autonomna zemlja unutar Kraljevine Nizozemske, kao i Aruba, koja je taj status dobila 1986. godine."
+        "The Spanish reached Curaçao, Aruba and Bonaire in 1499 and, finding no gold, declared them useless islands. The Dutch West India Company seized Curaçao in 1634 for its deep natural harbor and turned it into a great trading post and, sadly, also into one of the main slave markets in the Caribbean. Slavery was abolished in the Dutch colonies on July 1, 1863.",
+        "Dutch officials, Sephardic Jews, Africans and South Americans all met in the trading town, and out of that came Papiamentu, a Creole language with Portuguese, Spanish, Dutch and African words, which is an official language today. Since 2010 Curaçao has been an autonomous country within the Kingdom of the Netherlands, as has Aruba, which gained that status in 1986."
       ],
       vidjeti: [
-        { ime: "Handelskade i most kraljice Emme", opis: "Niz uskih kuća s nizozemskim zabatima u žutoj, plavoj i crvenoj boji stoji uz kanal Sint Annabaai. Legenda kaže da je guverner 1817. zabranio bijelu boju jer mu je bliještanje izazivalo glavobolju. Preko kanala vodi pontonski pješački most iz 1888., koji se cijeli zakrene u stranu da propusti brodove." },
-        { ime: "Sinagoga Mikvé Israel-Emanuel", opis: "Posvećena 1732., ovo je najstarija sinagoga u Americi u kojoj se bogoslužje održava bez prekida. Unutrašnjost od mahagonija ima mjedene lustere po uzoru na amsterdamsku sinagogu, a pod je prekriven debelim slojem pijeska." },
-        { ime: "Fort Amsterdam", opis: "Utvrda iz 1635. i danas je sjedište vlade i guvernera, a kroz dvorište se slobodno prolazi. U zidu protestantske crkve unutar utvrde ostala je zaglavljena topovska kugla koju je 1804. ispalila britanska mornarica." },
-        { ime: "Otrobanda, Pietermaai i Scharloo", opis: "Otrobanda znači druga strana, a njezine su uličice pune murala i obnovljenih kućica. U Scharloou su bogati trgovci u 19. stoljeću gradili vile, među kojima je i zelena palača s bijelim ukrasima koju zovu svadbenom tortom." },
-        { ime: "Christoffelpark i Shete Boka", opis: "Na zapadu otoka nacionalni park čuva najviši vrh, visok 372 metra, na koji se penje u zoru, te staru plantažnu kuću Savonet s muzejom. Susjedni park Shete Boka niz je uvala na sjevernoj obali u koje valovi udaraju tolikom snagom da voda šiklja kroz rupe u stijeni." },
-        { ime: "Grote Knip i plaže zapada", opis: "Uvale zapadne obale usječene su u vapnenac, s bijelim pijeskom i morem neobično jarke boje. Iznad plaže Grote Knip stoji plantažna kuća u kojoj je 1795. počeo najveći ustanak robova na otoku, pod vodstvom Tule, i u njoj je danas muzej posvećen tom događaju." },
-        { ime: "Aruba: Arikok i Eagle Beach", opis: "Na susjednoj Arubi nacionalni park Arikok zauzima gotovo petinu otoka, s kaktusima, špiljama s crtežima starosjedilaca i prirodnim bazenom među stijenama. Na suprotnoj su obali duge bijele plaže, a na Eagle Beachu rastu dva vjetrom savijena stabla koja su postala znak otoka." }
+        { ime: "Handelskade and the Queen Emma Bridge", opis: "A row of narrow houses with Dutch gables in yellow, blue and red stands along the Sint Annabaai channel. Legend says that in 1817 the governor banned the color white because the glare gave him headaches. The channel is crossed by a floating pedestrian bridge from 1888, which swings entirely to one side to let ships through." },
+        { ime: "Mikvé Israel-Emanuel Synagogue", opis: "Consecrated in 1732, this is the oldest synagogue in the Americas in which services have been held without interruption. The mahogany interior has brass chandeliers modeled on the Amsterdam synagogue, and the floor is covered with a thick layer of sand." },
+        { ime: "Fort Amsterdam", opis: "The fort from 1635 is still the seat of the government and the governor, and you can walk freely through the courtyard. Lodged in the wall of the Protestant church inside the fort is a cannonball fired by the British navy in 1804." },
+        { ime: "Otrobanda, Pietermaai and Scharloo", opis: "Otrobanda means the other side, and its lanes are full of murals and restored little houses. In Scharloo wealthy merchants built villas in the 19th century, among them the green palace with white ornaments known as the wedding cake." },
+        { ime: "Christoffelpark and Shete Boka", opis: "In the west of the island, the national park protects the highest peak, 372 meters high, which is climbed at dawn, and the old Savonet plantation house with its museum. The neighboring Shete Boka park is a string of inlets on the north coast, where the waves hit with such force that water shoots up through holes in the rock." },
+        { ime: "Grote Knip and the beaches of the west", opis: "The coves of the west coast are cut into limestone, with white sand and a sea of unusually vivid color. Above Grote Knip beach stands the plantation house where the island's largest slave uprising began in 1795, led by Tula, and it now holds a museum dedicated to that event." },
+        { ime: "Aruba: Arikok and Eagle Beach", opis: "On neighboring Aruba, Arikok National Park takes up almost a fifth of the island, with cacti, caves with drawings by the indigenous inhabitants and a natural pool among the rocks. On the opposite coast are long white beaches, and on Eagle Beach grow two wind-bent trees that have become the emblem of the island." }
       ],
       jesti: [
-        { ime: "Ručak u Plasa Bieu", opis: "U staroj tržnici u četvrti Punda nekoliko kuharica u otvorenim kuhinjama kuha gulaše stobá, palentu funchi, prženu ribu i juhu od kaktusa, a jede se za dugim zajedničkim stolovima." },
-        { ime: "Keshi yená", opis: "Punjeni sir poslužuju restorani domaće kuhinje u Willemstadu i u plantažnim kućama na zapadu otoka." },
-        { ime: "Pastechi i truk'i pan", opis: "Pastechi je prženo lisnato pecivo sa sirom ili mesom za doručak, a truk'i pan kamion koji noću prodaje meso s roštilja u kruhu, uz umak od češnjaka." }
+        { ime: "Lunch at Plasa Bieu", opis: "In the old market in the Punda district, several women cook in open kitchens, turning out stobá stews, funchi polenta, fried fish and cactus soup, and people eat at long shared tables." },
+        { ime: "Keshi yená", opis: "Stuffed cheese is served by restaurants that cook local food in Willemstad and in the plantation houses in the west of the island." },
+        { ime: "Pastechi and truk'i pan", opis: "A pastechi is a fried flaky pastry with cheese or meat for breakfast, and a truk'i pan is a truck that sells grilled meat in bread at night, with garlic sauce." }
       ],
       dozivjeti: [
-        { ime: "Četvrtak navečer u Pundi", opis: "Jednom tjedno trgovine ostaju otvorene dulje, na trgovima sviraju sastavi, folklorne skupine plešu u nošnjama, a večer završava vatrometom nad kanalom." },
-        { ime: "Destilerija likera Curaçao", opis: "U plantažnoj kući Landhuis Chobolobo liker se od 1896. radi u istom bakrenom kotlu. Obilazak je besplatan, a na kraju se kuša i doznaje zašto je liker plav.", link: "https://www.chobolobo.com/" },
-        { ime: "Šetnja s lokalnim vodičem", opis: "Udruga za zaštitu spomenika nudi pregled povijesnih zgrada i obnovljenih plantažnih kuća, od kojih su mnoge otvorene posjetiteljima.", link: "https://curacaomonuments.org/" },
-        { ime: "Uspon na Christoffelberg", opis: "Zbog vrućine se na stazu smije krenuti samo rano ujutro. Parkom upravlja zaklada Carmabi, koja objavljuje pravila i vođene ture.", link: "https://www.carmabi.org/" }
+        { ime: "Thursday night in Punda", opis: "Once a week the shops stay open late, bands play on the squares, folk groups dance in costume and the evening ends with fireworks over the channel." },
+        { ime: "The Curaçao liqueur distillery", opis: "At the Landhuis Chobolobo plantation house, the liqueur has been made in the same copper still since 1896. The tour is free, and at the end you get a tasting and find out why the liqueur is blue.", link: "https://www.chobolobo.com/" },
+        { ime: "A walk with a local guide", opis: "The monument preservation association offers an overview of the historic buildings and restored plantation houses, many of which are open to visitors.", link: "https://curacaomonuments.org/" },
+        { ime: "Climbing Christoffelberg", opis: "Because of the heat, you may set out on the trail only early in the morning. The park is managed by the Carmabi foundation, which publishes the rules and guided tours.", link: "https://www.carmabi.org/" }
       ],
       agencije: [
-        { ime: "Curaçao Tourist Board", opis: "Službena turistička stranica Curaçaa.", link: "https://www.curacao.com/en/" },
-        { ime: "Aruba Tourism Authority", opis: "Službena turistička stranica Arube.", link: "https://www.aruba.com/" },
-        { ime: "Curaçao Monuments", opis: "Stranica zaklade za zaštitu spomenika s vodičem kroz povijesne zgrade.", link: "https://curacaomonuments.org/" }
+        { ime: "Curaçao Tourist Board", opis: "The official tourism website of Curaçao.", link: "https://www.curacao.com/en/" },
+        { ime: "Aruba Tourism Authority", opis: "The official tourism website of Aruba.", link: "https://www.aruba.com/" },
+        { ime: "Curaçao Monuments", opis: "The website of the monument preservation foundation, with a guide to the historic buildings.", link: "https://curacaomonuments.org/" }
       ],
-      kada: "Otoci su suhi i sunčani cijele godine, s kratkim pljuskovima od listopada do prosinca. Stalni pasat ublažava vrućinu, ali sunce prži jače nego što se čini, pa zaštitu nanosite često."
+      kada: "The islands are dry and sunny all year, with short showers from October to December. The steady trade wind takes the edge off the heat, but the sun burns harder than it seems, so reapply sunscreen often."
     },
     {
       id: "martinik",
-      ime: "Martinik",
+      ime: "Martinique",
       vrsta: "otok",
-      sazetak: "Komadić Francuske na Karibima, s vulkanom koji je izbrisao grad, destilerijama među poljima trske i crnim i bijelim plažama.",
+      sazetak: "A little piece of France in the Caribbean, with a volcano that wiped out a town, distilleries among the cane fields and beaches both black and white.",
       prica: [
-        "Francuzi su se iskrcali 1635. i osnovali Saint-Pierre, koji je postao najotmjeniji grad francuskih Antila, s kazalištem, električnom rasvjetom i tramvajem. Ropstvo je ukinuto u svibnju 1848., nakon ustanka koji je preduhitrio službenu odluku iz Pariza. Na otoku je 1763. rođena i Joséphine, buduća Napoleonova supruga, o kojoj današnji Martiničani imaju podijeljeno mišljenje.",
-        "Ujutro 8. svibnja 1902. s vulkana Mont Pelée sručio se na Saint-Pierre užareni oblak plina i pepela i u nekoliko minuta uništio grad. Prijestolnica je preseljena u Fort-de-France. Martinik je od 1946. francuski departman, a dao je i velike pisce, među njima pjesnika Aiméa Césairea, jednoga od utemeljitelja pokreta crnačkoga identiteta négritude."
+        "The French landed in 1635 and founded Saint-Pierre, which became the most elegant town in the French Antilles, with a theater, electric lighting and a tram. Slavery was abolished in May 1848, after an uprising that got ahead of the official decision from Paris. The island was also the birthplace, in 1763, of Joséphine, Napoleon's future wife, about whom today's Martinicans are of two minds.",
+        "On the morning of May 8, 1902, a glowing cloud of gas and ash swept down from the Mont Pelée volcano onto Saint-Pierre and destroyed the town within a few minutes. The capital was moved to Fort-de-France. Martinique has been a French department since 1946, and it has also produced great writers, among them the poet Aimé Césaire, one of the founders of négritude, the movement of Black identity."
       ],
       vidjeti: [
-        { ime: "Saint-Pierre", opis: "Grad je ponovno naseljen, ali među kućama stoje ruševine: stubište kazališta građenoga po uzoru na ono u Bordeauxu i ćelija u kojoj je preživio zatvorenik Cyparis, kojega su poslije pokazivali u američkom cirkusu. U muzeju Mémorial de la catastrophe de 1902 izloženo je crkveno zvono koje je vrućina napola rastopila." },
-        { ime: "Mont Pelée", opis: "Vulkan visok 1397 metara i danas je aktivan i pod stalnim nadzorom. UNESCO ga je 2023. upisao na popis svjetske baštine zajedno sa šumovitim vrhovima sjevera otoka. Do ruba kratera penje se oko dva sata, a vrh je većinu dana u oblaku." },
-        { ime: "Bibliothèque Schœlcher", opis: "Knjižnica u Fort-de-Franceu, sa željeznom konstrukcijom, šarenim mozaicima i staklenom kupolom, sagrađena je u Parizu za Svjetsku izložbu 1889. godine. Zatim je rastavljena, prevezena brodom i ovdje ponovno sastavljena. Nosi ime Victora Schœlchera, borca za ukidanje ropstva, koji je otoku darovao svoje knjige." },
-        { ime: "Jardin de Balata", opis: "Hortikulturist Jean-Philippe Thoze od 1982. je oko bakine kreolske kuće u brdima iznad grada zasadio tisuće tropskih biljaka. Staza vodi i visećim mostićima među krošnjama, a na hranilice dolaze kolibrići. Na putu do vrta stoji crkva koja je umanjena kopija pariške bazilike Sacré-Cœur." },
-        { ime: "La Savane des Esclaves", opis: "U Trois-Îletsu mještanin Gilbert Larose vlastitim je rukama podigao selo koliba kakve su gradili porobljeni i oslobođeni ljudi. Kroz vrt ljekovitoga bilja i kolibe vodi priča o četiri stoljeća otočne povijesti, ispričana iz njihova kuta." },
-        { ime: "Spomenik Cap 110 kod Le Diamanta", opis: "Na rtu Anse Cafard petnaest bijelih kamenih likova pognutih glava gleda prema Gvinejskom zaljevu. Kipar Laurent Valère postavio ih je 1998. u spomen na Afrikance koji su 1830. poginuli kad se brod krijumčara robljem razbio o stijene. Pred obalom strši hrid Diamant, koju je britanska mornarica 1804. upisala u registar kao ratni brod." }
+        { ime: "Saint-Pierre", opis: "The town has been resettled, but ruins stand among the houses: the staircase of the theater modeled on the one in Bordeaux, and the cell in which the prisoner Cyparis survived, later to be put on show in a circus in the USA. The Mémorial de la catastrophe de 1902 museum displays a church bell half melted by the heat." },
+        { ime: "Mont Pelée", opis: "The volcano, 1,397 meters high, is still active and under constant monitoring. In 2023 UNESCO added it to the World Heritage List together with the forested peaks of the north of the island. The climb to the crater rim takes about two hours, and the summit is in cloud for most of the day." },
+        { ime: "Bibliothèque Schœlcher", opis: "The library in Fort-de-France, with its iron frame, colorful mosaics and glass dome, was built in Paris for the 1889 World's Fair. It was then dismantled, shipped across and reassembled here. It bears the name of Victor Schœlcher, a campaigner for the abolition of slavery, who gave his books to the island." },
+        { ime: "Jardin de Balata", opis: "Since 1982 the horticulturist Jean-Philippe Thoze has planted thousands of tropical plants around his grandmother's Creole house in the hills above the town. The path also crosses suspension bridges among the treetops, and hummingbirds come to the feeders. On the way to the garden stands a church that is a scaled-down copy of the Sacré-Cœur basilica in Paris." },
+        { ime: "La Savane des Esclaves", opis: "In Trois-Îlets a local man, Gilbert Larose, built with his own hands a village of huts of the kind put up by enslaved and freed people. A walk through the garden of medicinal plants and the huts tells the story of four centuries of island history from their point of view." },
+        { ime: "The Cap 110 memorial near Le Diamant", opis: "On the Anse Cafard headland, fifteen white stone figures with bowed heads look toward the Gulf of Guinea. The sculptor Laurent Valère placed them there in 1998 in memory of the Africans who died in 1830 when a slave smuggler's ship was wrecked on the rocks. Offshore rises Diamond Rock, which the British navy entered in its register in 1804 as a warship." }
       ],
       jesti: [
-        { ime: "Accras i boudin", opis: "Okruglice s bakalarom i začinjena kreolska krvavica predjelo su u svakom restoranu i na svakoj tržnici, uz ti-punch." },
-        { ime: "Poulet boucané", opis: "Piletina dimljena nad stabljikama šećerne trske, prelivena umakom chien od luka, limete i ljute paprike, prodaje se uz cestu i na plažama." },
-        { ime: "Sorbet coco", opis: "Kokosov sladoled koji žene na plaži ručno okreću u drvenoj posudi s ledom i soli, začinjen cimetom i muškatnim oraščićem." },
-        { ime: "Blanc-manger coco", opis: "Lagani puding od kokosova mlijeka s vanilijom i limetom, najčešći desert kreolskoga ručka." }
+        { ime: "Accras and boudin", opis: "Salt cod fritters and spiced Creole blood sausage are the starter in every restaurant and at every market, with ti-punch." },
+        { ime: "Poulet boucané", opis: "Chicken smoked over sugarcane stalks and covered in sauce chien, made of onion, lime and hot pepper, is sold by the roadside and on the beaches." },
+        { ime: "Sorbet coco", opis: "A coconut ice cream that women on the beach churn by hand in a wooden tub with ice and salt, spiced with cinnamon and nutmeg." },
+        { ime: "Blanc-manger coco", opis: "A light coconut milk pudding with vanilla and lime, the most common dessert of a Creole lunch." }
       ],
       dozivjeti: [
-        { ime: "Habitation Clément", opis: "Na staroj plantaži ruma razgledavaju se gospodska kuća, podrumi s bačvama i park s palmama, a zaklada u bivšim skladištima priređuje izložbe suvremene karipske umjetnosti.", link: "https://www.fondation-clement.org/" },
-        { ime: "Muzej katastrofe 1902.", opis: "Mali, suvremeno uređen muzej u Saint-Pierreu imenom spominje žrtve i pokazuje predmete izvađene iz ruševina. Prije obilaska grada svakako počnite ovdje.", link: "https://www.memorial1902.org/" },
-        { ime: "Večer bèlèa", opis: "Na swaré bèlè dolazi cijelo selo, pleše se u krugu na zemlji, a posjetitelje se poziva da se pridruže. Nema ulaznica ni pozornice, pa je to jedan od najiskrenijih susreta s otokom." },
-        { ime: "Šetnja vrtom Balata", opis: "Dođite ujutro, kad su boje najjače, a kolibrići najaktivniji.", link: "https://www.jardindebalata.fr/" }
+        { ime: "Habitation Clément", opis: "On this old rum plantation you can tour the manor house, the cellars with their barrels and the park with its palm trees, and the foundation stages exhibitions of contemporary Caribbean art in the former warehouses.", link: "https://www.fondation-clement.org/" },
+        { ime: "The museum of the 1902 disaster", opis: "This small, modern museum in Saint-Pierre names the victims and shows objects recovered from the ruins. Be sure to start here before touring the town.", link: "https://www.memorial1902.org/" },
+        { ime: "A bèlè evening", opis: "The whole village comes to a swaré bèlè, people dance in a circle on the bare ground and visitors are invited to join in. There are no tickets and no stage, which makes it one of the most genuine encounters with the island." },
+        { ime: "A walk through the Balata garden", opis: "Come in the morning, when the colors are at their strongest and the hummingbirds are most active.", link: "https://www.jardindebalata.fr/" }
       ],
       agencije: [
-        { ime: "Martinique Tourism Authority", opis: "Službena turistička stranica Martinika.", link: "https://www.martinique.org/en" },
-        { ime: "La Savane des Esclaves", opis: "Muzej na otvorenom u Trois-Îletsu, s vođenim obilascima.", link: "https://www.lasavanedesesclaves.fr/" },
-        { ime: "Ville de Saint-Pierre", opis: "Stranica grada Saint-Pierrea s podacima o spomenicima i događanjima.", link: "https://www.ville-saintpierre.fr/" }
+        { ime: "Martinique Tourism Authority", opis: "The official tourism website of Martinique.", link: "https://www.martinique.org/en" },
+        { ime: "La Savane des Esclaves", opis: "An open-air museum in Trois-Îlets, with guided tours.", link: "https://www.lasavanedesesclaves.fr/" },
+        { ime: "Ville de Saint-Pierre", opis: "The website of the town of Saint-Pierre, with information on monuments and events.", link: "https://www.ville-saintpierre.fr/" }
       ],
-      kada: "Suho razdoblje, koje ovdje zovu carême, traje od prosinca do travnja. Budući da je Martinik dio Francuske, za put vam je dovoljna osobna iskaznica, a francuski će vam koristiti više od engleskoga."
+      kada: "The dry season, which is called carême here, lasts from December to April. Since Martinique is part of France, Croatian citizens need only an identity card for the trip, and French will serve you better than English."
     }
   ],
   izvori: [
     { ime: "Visit Barbados", url: "https://www.visitbarbados.org/" },
-    { ime: "UNESCO: Povijesni Bridgetown i njegov Garrison", url: "https://whc.unesco.org/en/list/1376" },
+    { ime: "UNESCO: Historic Bridgetown and its Garrison", url: "https://whc.unesco.org/en/list/1376" },
     { ime: "Saint Lucia Tourism Authority", url: "https://stlucia.org/en/" },
-    { ime: "UNESCO: Zaštićeno područje Pitona", url: "https://whc.unesco.org/en/list/1161" },
+    { ime: "UNESCO: Pitons Management Area", url: "https://whc.unesco.org/en/list/1161" },
     { ime: "Curaçao Tourist Board", url: "https://www.curacao.com/en/" },
-    { ime: "UNESCO: Povijesno područje Willemstada", url: "https://whc.unesco.org/en/list/819" },
+    { ime: "UNESCO: Historic Area of Willemstad", url: "https://whc.unesco.org/en/list/819" },
     { ime: "Mikvé Israel-Emanuel", url: "https://snoa.com/" },
     { ime: "Martinique Tourism Authority", url: "https://www.martinique.org/en" },
-    { ime: "UNESCO: Vulkani i šume Mont Peléea i vrhova sjevernoga Martinika", url: "https://whc.unesco.org/en/list/1657" },
+    { ime: "UNESCO: Volcanoes and Forests of Mount Pelée and the Pitons of Northern Martinique", url: "https://whc.unesco.org/en/list/1657" },
     { ime: "Mémorial de la catastrophe de 1902, Musée Frank A. Perret", url: "https://www.memorial1902.org/" },
     { ime: "Aruba Tourism Authority", url: "https://www.aruba.com/" },
     { ime: "National Cultural Foundation, Barbados", url: "https://ncf.bb/" }

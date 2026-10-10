@@ -1,459 +1,476 @@
-// Apulija: hrana i piće.
-// Priče o podrijetlu jela ovdje su većinom usmene predaje, pa su tako i ispričane.
+// Apulia: food and drink.
+// The stories about where dishes come from are mostly oral tradition here, and they are told as such.
 
 TRIP.hranaUvod = [
-  "Apulijska kuhinja zove se cucina povera, sirotinjska kuhinja, i upravo je zato tako dobra. Nastala je od onoga što je bilo pri ruci: tvrde pšenice, maslinova ulja, povrća s polja, ribe iz mreže i sira napravljenog isto jutro.",
-  "Svako se jelo otvara dodirom i ima svoju priču, mjesto gdje ga vrijedi kušati i gumb kojim ga možete označiti kad ga probate."
+  "Apulian cooking is called cucina povera, the cooking of the poor, and that is exactly why it is so good. It grew out of whatever was at hand: durum wheat, olive oil, vegetables from the field, fish from the net and cheese made that same morning.",
+  "Each dish opens with a tap and has its own story, a place where it is worth tasting and a button you can use to tick it off once you have tried it."
 ];
 
 TRIP.hrana = [
   {
-    kategorija: "Tjestenina",
+    kategorija: "Pasta",
     stavke: [
       {
         ime: "Orecchiette con le cime di rapa",
-        izgovor: "orekjete kon le čime di rapa",
-        opis: "Tjestenina u obliku malih ušiju s lišćem i cvjetovima repe, češnjakom, inćunima i ljutom papričicom.",
+        izgovor: "oh-reh-KYET-teh kon leh CHEE-meh dee RAH-pah",
+        opis: "Pasta shaped like little ears with turnip greens and their flowers, garlic, anchovies and chili.",
         prica: [
-          "Orecchiette znači ušice. Komadić tijesta od tvrde pšenice povuče se nožem po drvenoj dasci i izvrne preko palca, i tako tisuću puta na sat. Nitko ne zna sa sigurnošću odakle potječu: jedni ih vežu uz židovsku zajednicu u okolici Barija u 12. stoljeću, drugi uz Provansu i Anžuvince koji su u 13. stoljeću zavladali jugom Italije.",
-          "Udubljeni oblik bio je vrlo praktičan jer se takva tjestenina brzo suši i dugo traje, pa se mogla nositi i na brodove. Zimi se jede s repinim lišćem, ljeti s rajčicom i sirom cacioricotta, a nedjeljom s mesnim umakom."
+          "Orecchiette means little ears. A small piece of durum wheat dough is dragged across a wooden board with a knife and flipped over the thumb, a thousand times an hour. Nobody knows for certain where they come from: some link them to the Jewish community around Bari in the 12th century, others to Provence and the Angevins who took over southern Italy in the 13th century.",
+          "The hollow shape was very practical because pasta like this dries quickly and keeps for a long time, so it could be taken aboard ships as well. In winter it is eaten with turnip greens, in summer with tomato and cacioricotta cheese, and on Sundays with meat sauce."
         ],
-        gdje: "Bari Vecchia, gdje ih gospođe rade pred vratima u ulici Arco Basso. Svježe stoje otprilike 4 do 6 eura po kilogramu.",
-        savjet: "Cime di rapa zimsko su povrće, pa ljeti nemojte očekivati pravu verziju."
+        gdje: "Bari Vecchia, where the ladies make them outside their doors on the street of Arco Basso. Fresh ones cost roughly 4 to 6 euros a kilogram.",
+        savjet: "Cime di rapa are a winter vegetable, so do not expect the real version in summer."
       },
       {
         ime: "Spaghetti all'assassina",
-        izgovor: "spageti al asasina",
-        opis: "Špageti koji se ne kuhaju u vodi nego se peku u željeznoj tavi dok ne zagore i postanu hrskavi.",
+        izgovor: "spah-GET-tee ahl-lah-sah-SEE-nah",
+        opis: "Spaghetti that is fried in an iron pan until it chars and turns crisp instead of being boiled in water.",
         prica: [
-          "Ovo jelo krši prvo pravilo talijanske tjestenine. Sirovi špageti stavljaju se ravno u tavu i zalijevaju juhom od rajčice kao rižoto, s puno češnjaka i ljute papričice, sve dok se namjerno ne zapeku.",
-          "Najčešće se priča da ih je 1967. u barskom restoranu Al Sorso Preferito prvi napravio kuhar Enzo Francavilla za dvojicu gostiju sa sjevera. Ime „ubojičini špageti“ navodno su dobili po ljutini. Godine 2013. jedan je fizičar osnovao Akademiju assassine, koja je jelo proslavila i ocjenjuje restorane po tome koliko ga dobro peku."
+          "This dish breaks the first commandment of Italian pasta. Raw spaghetti goes straight into the pan and is fed with tomato broth like a risotto, with plenty of garlic and chili, until it scorches on purpose.",
+          "The story most often told is that the cook Enzo Francavilla first made it in 1967 at the Bari restaurant Al Sorso Preferito for two guests from the north. The name, “the assassin's spaghetti”, is said to come from the heat. In 2013 a physicist founded the Accademia dell'Assassina, which made the dish famous and rates restaurants on how well they fry it."
         ],
-        gdje: "Bari, u trattorijama navečer. U starom gradu rade ga, među ostalima, La Tana del Polpo u ulici Strada Vallisa, i to u verziji s hobotnicom.",
-        savjet: "Stvarno je ljuto, pa pitajte može li blaže."
+        gdje: "Bari, in trattorias in the evening. In the old town it is made by, among others, La Tana del Polpo on Strada Vallisa, in a version with octopus.",
+        savjet: "It really is spicy, so ask whether they can make it milder."
       },
       {
         ime: "Ciceri e tria",
-        izgovor: "čičeri e trija",
-        opis: "Slanutak s domaćim rezancima, od kojih se trećina isprži da hrska.",
-        prica: "Riječ tria dolazi od arapskog itriyah, što je jedna od najstarijih riječi za tjesteninu u Europi. Jelo se tradicionalno sprema za blagdan svetog Josipa, 19. ožujka, a danas je na jelovnicima cijele godine. Prženi rezanci zovu se frizzuli i upravo oni čine razliku između ovoga i obične juhe od slanutka.",
-        gdje: "Lecce i Salento. U Lecceu ga kuha Alle Due Corti (Corte dei Giugni 1), gdje je jelovnik napisan na dijalektu."
+        izgovor: "CHEE-cheh-ree eh TREE-ah",
+        opis: "Chickpeas with homemade noodles, a third of which are fried for crunch.",
+        prica: "The word tria comes from the Arabic itriyah, one of the oldest words for pasta in Europe. The dish is traditionally made for the feast of Saint Joseph on March 19, and today it is on menus all year round. The fried noodles are called frizzuli, and they are what sets this apart from an ordinary chickpea soup.",
+        gdje: "Lecce and Salento. In Lecce it is cooked at Alle Due Corti (Corte dei Giugni 1), where the menu is written in dialect."
       },
       {
         ime: "Sagne 'ncannulate",
-        izgovor: "sanje nkanulate",
-        opis: "Dugačke uvijene trake tjestenine s rajčicom i sirom ricotta forte.",
-        prica: "Trake tijesta uvijaju se rukom u spiralu, pa izgledaju kao kovrče. U Lecceu se poslužuju s umakom od rajčice u koji se umiješa žličica oštre, fermentirane ricotte.",
-        gdje: "Lecce i Salento."
+        izgovor: "SAHN-yeh n-kahn-noo-LAH-teh",
+        opis: "Long twisted ribbons of pasta with tomato and ricotta forte cheese.",
+        prica: "The ribbons of dough are twisted by hand into a spiral, so they look like curls. In Lecce they are served with a tomato sauce into which a teaspoon of sharp, fermented ricotta is stirred.",
+        gdje: "Lecce and Salento."
       },
       {
-        ime: "Troccoli, cavatelli, capunti i lagane",
-        opis: "Četiri oblika tjestenine koje ćete sretati ovisno o tome gdje ste.",
-        prica: "Troccoli su debeli četvrtasti špageti s Gargana i najčešće dolaze s plodovima mora. Cavatelli su male školjkice koje se u Polignanu poslužuju s morskim plodovima i kremom od boba. Capunti su duguljaste ljuskice iz Murge, dobre s kobasicom, a lagane su kratki široki rezanci iz Matere.",
-        gdje: "Troccoli u Viesteu, capunti u Martini Franci, lagane u Materi."
+        ime: "Troccoli, cavatelli, capunti and lagane",
+        opis: "Four pasta shapes you will come across depending on where you are.",
+        prica: "Troccoli are thick square spaghetti from the Gargano and usually come with seafood. Cavatelli are little shells that in Polignano are served with seafood and a fava bean cream. Capunti are elongated pods from the Murgia, good with sausage, and lagane are short wide noodles from Matera.",
+        gdje: "Troccoli in Vieste, capunti in Martina Franca, lagane in Matera."
       }
     ]
   },
   {
-    kategorija: "Kruh i peciva",
+    kategorija: "Bread and baked goods",
     stavke: [
       {
         ime: "Focaccia barese",
-        izgovor: "fokača bareze",
-        opis: "Okrugla, mekana iznutra i hrskava na rubovima, s rajčicama, maslinovim uljem i cijelim maslinama.",
+        izgovor: "foh-KAH-chah bah-REH-zeh",
+        opis: "Round, soft inside and crisp at the edges, with tomatoes, olive oil and whole olives.",
         prica: [
-          "Vjerojatno je nastala u Altamuri, kao način da se iskoristi prva, prejaka vatra krušne peći dok se čeka da se smiri za kruh. Mnogi pekari u tijesto dodaju kuhani krumpir, zbog kojeg ostaje mekana.",
-          "Peče se u okruglom limu i zove ruota, kotač, a kupuje se na komad ili kao pola kotača. Jede se topla, stojeći na ulici, sredinom jutra i oko pet popodne, kad pekare ponovno otvore. Barežani uz nju piju hladno pivo Peroni."
+          "It probably originated in Altamura, as a way of using the first, fiercest heat of the bread oven while waiting for it to settle down for the loaves. Many bakers add boiled potato to the dough, which keeps it soft.",
+          "It is baked in a round pan and called a ruota, a wheel, and you buy it by the piece or as half a wheel. It is eaten warm, standing in the street, in the middle of the morning and around five in the afternoon, when the bakeries reopen. The people of Bari drink a cold Peroni beer with it."
         ],
-        gdje: "Bari Vecchia: Panificio Fiore (Strada Palazzo di Città 38), pekara u nekadašnjoj crkvi, i Panificio Santa Rita (Strada dei Bianchi Dottula 8), koji peče tanku i hrskavu od 1921.",
-        savjet: "Masline su cijele, s košticom, pa zagrizite oprezno."
+        gdje: "Bari Vecchia: Panificio Fiore (Strada Palazzo di Città 38), a bakery in a former church, and Panificio Santa Rita (Strada dei Bianchi Dottula 8), which has been baking a thin and crisp one since 1921.",
+        savjet: "The olives are whole, with the pit in, so bite carefully."
       },
       {
         ime: "Pane di Altamura",
-        izgovor: "pane di Altamura",
-        opis: "Veliki kruh od tvrde pšenice s debelom tamnom korom i žutom sredinom, koji traje tjedan dana.",
+        izgovor: "PAH-neh dee ahl-tah-MOO-rah",
+        opis: "A large durum wheat loaf with a thick dark crust and a yellow crumb, which keeps for a week.",
         prica: [
-          "Ovaj kruh ima zaštićenu oznaku izvornosti od 2003., a pravila o njegovu pečenju stoje u gradskim statutima još od 1527. godine. Pekao se velik jer su pastiri i težaci s njim odlazili u polje na više dana.",
-          "U Altamuri se 2001. otvorio McDonald's i ubrzo zatvorio, jer ga je pobijedila pekara u susjedstvu. Priča je obišla svijet kao dokaz da dobar kruh može nadjačati i najveći lanac brze hrane."
+          "This bread has held a protected designation of origin since 2003, and the regulations on baking it have been in the town statutes ever since 1527. It was baked large because shepherds and field hands took it out to the fields with them for days at a time.",
+          "A McDonald's opened in Altamura in 2001 and soon closed, beaten by the bakery next door. The story went around the world as proof that good bread can get the better of even the biggest fast-food chain."
         ],
-        gdje: "Altamura: Antico Forno Santa Chiara (Via Martucci 10), sićušna pekara s krušnom peći iz 15. stoljeća, i Panificio Di Gesù, koji peče od 1934."
+        gdje: "Altamura: Antico Forno Santa Chiara (Via Martucci 10), a tiny bakery with a 15th-century bread oven, and Panificio Di Gesù, which has been baking since 1934."
       },
       {
         ime: "Pane di Matera",
-        opis: "Kruh od tvrde pšenice u obliku roga, koji ostaje svjež sedam dana.",
-        prica: "Do pedesetih godina prošlog stoljeća obitelji su kruh mijesile kod kuće i nosile ga u zajedničku peć. Da bi se znalo čiji je koji, svaka ga je obitelj prije pečenja otisnula vlastitim drvenim pečatom, a ti su pečati danas tražen suvenir.",
+        izgovor: "PAH-neh dee mah-TEH-rah",
+        opis: "A horn-shaped durum wheat bread that stays fresh for seven days.",
+        prica: "Until the 1950s families kneaded their bread at home and carried it to a communal oven. So that everyone knew whose was whose, each family stamped its loaf before baking with its own wooden stamp, and those stamps are now a sought-after souvenir.",
         gdje: "Matera."
       },
       {
         ime: "Taralli",
-        opis: "Hrskavi kolutići od brašna, maslinova ulja, bijelog vina i soli.",
-        prica: "Prije pečenja kratko se prokuhaju, i zato tako krckaju. Rade se s komoračem, paprom, ljutom papričicom ili lukom, a dobit ćete ih uz svaku čašu vina. Talijani kažu da je nešto završilo „a tarallucci e vino“ kad se svađa okonča mirno, uz taralle i vino.",
-        gdje: "Posvuda, a dobri su i kao dar za ponijeti kući."
+        izgovor: "tah-RAHL-lee",
+        opis: "Crunchy little rings of flour, olive oil, white wine and salt.",
+        prica: "They are boiled briefly before baking, which is why they snap the way they do. They are made with fennel seed, pepper, chili or onion, and you will get them with every glass of wine. Italians say that something ended “a tarallucci e vino” when a quarrel is settled peacefully, over taralli and wine.",
+        gdje: "Everywhere, and they also make a good gift to take home."
       },
       {
         ime: "Friselle",
-        izgovor: "frizele",
-        opis: "Dvaput pečeni tvrdi kolut kruha koji se namoči i prelije rajčicom, uljem i origanom.",
-        prica: "Predaja kaže da su ih mornari nosili na brodove nanizane na uže kroz rupu u sredini i omekšavali ih u moru. Kolut se prije drugog pečenja prereže vodoravno, pa jedna strana ostane hrapava i upija rajčicu. Koliko se dugo frisella drži u vodi stvar je obiteljske časti, a pravi je odgovor nekoliko sekundi.",
-        gdje: "Salento i cijela Apulija, kao ljetni ručak ili lagana večera."
+        izgovor: "free-ZEL-leh",
+        opis: "A hard, twice-baked ring of bread that is soaked and topped with tomato, oil and oregano.",
+        prica: "Tradition says that sailors took them aboard strung on a rope through the hole in the middle and softened them in the sea. The ring is sliced horizontally before the second baking, so one side stays rough and soaks up the tomato. How long a frisella stays in the water is a matter of family honor, and the right answer is a few seconds.",
+        gdje: "Salento and the whole of Apulia, as a summer lunch or a light dinner."
       },
       {
         ime: "Puccia",
-        izgovor: "puča",
-        opis: "Okrugli, šuplji kruh od tijesta za pizzu, pečen u krušnoj peći i punjen po želji.",
-        prica: "Punjena puccia kakvu danas jedu svi u Lecceu nastala je sedamdesetih godina, a najčešće se pripisuje Giovanniju Caccetti iz Trepuzzija, stolaru koji je volio kuhati i pekao ostatke tijesta. Ime se veže uz buccellatum, kruh rimskih legionara.",
-        gdje: "Lecce: L'Angolino di Via Matteotti (Via Matteotti 31), gdje punjenje birate sami s dugog pulta."
+        izgovor: "POO-chah",
+        opis: "A round, hollow bread made of pizza dough, baked in a wood-fired oven and filled with whatever you like.",
+        prica: "The filled puccia that everyone in Lecce eats today dates from the 1970s and is most often credited to Giovanni Caccetta of Trepuzzi, a carpenter who loved to cook and baked the leftover dough. The name is linked to buccellatum, the bread of the Roman legionaries.",
+        gdje: "Lecce: L'Angolino di Via Matteotti (Via Matteotti 31), where you choose the filling yourself from a long counter."
       },
       {
         ime: "Panzerotti",
-        izgovor: "pancerotti",
-        opis: "Polumjeseci od dizanog tijesta punjeni rajčicom i mozzarellom, prženi u dubokom ulju.",
-        prica: "Nastali su od ostataka tijesta za kruh i postali večernja ulična hrana Barija. Jedu se vreli, i to nagnute prema naprijed, da vam nadjev ne iscuri po majici. Osim klasičnog, pune se i repinim lišćem, mesom ili oštrom ricottom.",
-        gdje: "Bari: Pizzeria Di Cosimo (Via Giovanni Modugno 1), kamo idu domaći, te Mastro Ciccio na Corso Vittorio Emanuele II. Stoje 3 do 6,50 eura.",
-        savjet: "Ako piše ricotta forte, prvo pitajte za kušanje jer je jako oštra."
+        izgovor: "pahn-tseh-ROT-tee",
+        opis: "Half-moons of leavened dough filled with tomato and mozzarella and deep-fried.",
+        prica: "They began as leftover bread dough and became Bari's evening street food. You eat them piping hot and leaning forward, so that the filling does not run down your shirt. Besides the classic, they are also filled with turnip greens, meat or sharp ricotta.",
+        gdje: "Bari: Pizzeria Di Cosimo (Via Giovanni Modugno 1), where the locals go, and Mastro Ciccio on Corso Vittorio Emanuele II. They cost 3 to 6.50 euros.",
+        savjet: "If it says ricotta forte, ask for a taste first, because it is very sharp."
       },
       {
         ime: "Rustico leccese",
-        izgovor: "rustiko lečeze",
-        opis: "Dva kruga lisnatog tijesta punjena bešamelom, mozzarellom, rajčicom i paprom.",
-        prica: "Ovo je jedina ulična hrana juga napravljena od maslaca i francuskog umaka. Budući da ni maslac ni bešamel nisu domaći sastojci, vjeruje se da je recept stigao u 18. ili 19. stoljeću preko kuhara burbonskog dvora, koji su se učili od Francuza.",
-        gdje: "Lecce: Caffè Alvino na trgu Sant'Oronzo, gdje ih peku nekoliko puta na dan.",
-        savjet: "Jede se uvijek topao, sredinom jutra ili uz popodnevno piće."
+        izgovor: "ROO-stee-koh leh-CHEH-zeh",
+        opis: "Two rounds of puff pastry filled with béchamel, mozzarella, tomato and pepper.",
+        prica: "This is the only street food of the south made with butter and a French sauce. Since neither butter nor béchamel is a local ingredient, the recipe is believed to have arrived in the 18th or 19th century through the cooks of the Bourbon court, who had trained under the French.",
+        gdje: "Lecce: Caffè Alvino on Piazza Sant'Oronzo, where they bake them several times a day.",
+        savjet: "It is always eaten warm, in the middle of the morning or with an afternoon drink."
       },
       {
         ime: "Pasqualino",
-        izgovor: "paskvalino",
-        opis: "Sendvič iz Alberobella s tunom, kaparima, salamom i sirom, upravo tim redom.",
-        prica: "Nazvan je po trgovcu Pasqualeu Dell'Erbi, koji ga je šezdesetih godina slagao za prijatelje i učenike obližnje poljoprivredne škole. Spoj tune i salame zvuči čudno dok ga ne probate, a Alberobello mu je posvetio i vlastitu feštu u kolovozu.",
-        gdje: "Samo u Alberobellu, primjerice u Focacceriji La Lira na Largo Martellotta."
+        izgovor: "pah-skwah-LEE-noh",
+        opis: "A sandwich from Alberobello with tuna, capers, salami and cheese, in exactly that order.",
+        prica: "It is named after the shopkeeper Pasquale Dell'Erba, who put it together in the 1960s for his friends and for students from the nearby agricultural school. The pairing of tuna and salami sounds odd until you try it, and Alberobello has even given it a festival of its own in August.",
+        gdje: "Only in Alberobello, for example at Focacceria La Lira on Largo Martellotta."
       },
       {
         ime: "Paposcia",
-        izgovor: "papoša",
-        opis: "Dugački plosnati kruh s Gargana, prerezan i punjen sirom, rikulom i pršutom.",
-        prica: "Dolazi iz mjesta Vico del Gargano, a ime na dijalektu znači papuča, na koju oblikom i podsjeća.",
-        gdje: "Vieste i okolica, za 4 do 7 eura."
+        izgovor: "pah-POH-shah",
+        opis: "A long flat bread from the Gargano, split and filled with cheese, arugula and prosciutto.",
+        prica: "It comes from the town of Vico del Gargano, and in dialect the name means slipper, which is what its shape resembles.",
+        gdje: "Vieste and the surrounding area, for 4 to 7 euros."
       }
     ]
   },
   {
-    kategorija: "S ulice",
+    kategorija: "From the street",
     stavke: [
       {
         ime: "Sgagliozze",
-        izgovor: "zgaljoce",
-        opis: "Kriške palente pržene u ulju, posoljene i poslužene u papirnatom tuljcu.",
-        prica: "Sjevernjačka palenta ovdje je postala južnjački zalogaj s ulice. Predvečer ih žene prže na pragu vlastite kuće u starom Bariju, a najpoznatija je bila Maria delle Sgagliozze iz ulice Strada delle Crociate, čiji se prag i danas traži.",
-        gdje: "Bari Vecchia, od šest navečer, oko Largo Albicocca i Piazza Mercantile. Tuljac stoji 1 do 3 eura."
+        izgovor: "zgah-LYOT-tseh",
+        opis: "Slices of polenta fried in oil, salted and served in a paper cone.",
+        prica: "Here the polenta of the north became a southern street snack. Toward evening women fry them on the doorsteps of their own homes in old Bari, and the most famous of them was Maria delle Sgagliozze of Strada delle Crociate, whose doorstep people still seek out.",
+        gdje: "Bari Vecchia, from six in the evening, around Largo Albicocca and Piazza Mercantile. A cone costs 1 to 3 euros."
       },
       {
-        ime: "Popizze ili pettole",
-        izgovor: "popice, petole",
-        opis: "Nepravilne kuglice mekog dizanog tijesta pržene u ulju, nalik našim fritulama bez šećera.",
-        prica: "U Bariju se zovu popizze, oko Leccea pittule, a drugdje pettole. Zovu ih i jastučićima malog Isusa, jer svaki grad Božić počinje onog dana kad isprži prve: Gallipoli već 15. listopada, Lecce na Martinje, a Taranto u noći svete Cecilije, 22. studenoga.",
-        gdje: "Bari Vecchia, na istim pragovima gdje se prže sgagliozze."
+        ime: "Popizze or pettole",
+        izgovor: "poh-PEET-tseh, PET-toh-leh",
+        opis: "Irregular little balls of soft leavened dough fried in oil, much like Croatian fritule without the sugar.",
+        prica: "In Bari they are called popizze, around Lecce pittule, and elsewhere pettole. They are also known as the baby Jesus's pillows, because every town starts its Christmas on the day it fries the first batch: Gallipoli as early as October 15, Lecce on Saint Martin's Day, and Taranto on the night of Saint Cecilia, November 22.",
+        gdje: "Bari Vecchia, on the same doorsteps where sgagliozze are fried."
       },
       {
         ime: "Panino col polpo",
-        izgovor: "panino kol polpo",
-        opis: "Sendvič s hobotnicom, pečenom na žaru ili prženom.",
-        prica: "Hobotnica se oduvijek pekla na feštama uz more, a sendvič je proslavila Pescaria, riblji fast food otvoren u Polignanu sredinom prošlog desetljeća. Njihov je s prženom hobotnicom, repinim lišćem, ricottom i kuhanim moštom. Danas imaju lokale i po sjeveru Italije, pa neki kažu da je izgubila čar, ali red pred vratima i dalje stoji.",
-        gdje: "Polignano a Mare: Pescaria (Piazza Aldo Moro 6). Bari: La Tana del Polpo i Mastro Ciccio, gdje stoji 10 do 15 eura."
+        izgovor: "pah-NEE-noh kol POL-poh",
+        opis: "An octopus sandwich, with the octopus grilled or fried.",
+        prica: "Octopus has always been grilled at seaside festivals, and the sandwich was made famous by Pescaria, a seafood fast-food spot that opened in Polignano in the mid-2010s. Theirs comes with fried octopus, turnip greens, ricotta and cooked grape must. Today they have outlets across northern Italy too, so some say it has lost its charm, but the line outside the door is still there.",
+        gdje: "Polignano a Mare: Pescaria (Piazza Aldo Moro 6). Bari: La Tana del Polpo and Mastro Ciccio, where it costs 10 to 15 euros."
       },
       {
         ime: "Bombette",
-        opis: "Smotuljci svinjskog vrata punjeni sirom, pečeni na ražnjiću u mesarovoj peći.",
+        izgovor: "bom-BET-teh",
+        opis: "Little rolls of pork neck stuffed with cheese, roasted on a skewer in the butcher's oven.",
         prica: [
-          "Ime znači bombice, po obliku i po siru koji iz njih prsne kad zagrizete. Tanka kriška svinjetine omota se oko komadića caciocavalla, posoli i popapri, a postoje i verzije omotane pancetom ili pohane.",
-          "Za izum se prepiru Martina Franca i Fasano, a Cisternino se danas naziva gradom bombetta. Jedu se u mesnici koja je ujedno i gostionica, o čemu više piše niže, u dijelu Za stolom."
+          "The name means little bombs, for their shape and for the cheese that bursts out of them when you bite in. A thin slice of pork is wrapped around a piece of caciocavallo, salted and peppered, and there are also versions wrapped in pancetta or breaded.",
+          "Martina Franca and Fasano argue over who invented them, and Cisternino now calls itself the town of bombette. They are eaten in a butcher shop that doubles as a tavern, which you can read more about below, in the At the table section."
         ],
-        gdje: "Cisternino: Al Vecchio Fornello (Via Basiliani 18) i Bère Vecchie (Via Regina Elena 8). U Ostuniju La Braceria u ulici Via Verona.",
-        savjet: "Ovo je večera, a ljeti treba doći rano ili rezervirati."
+        gdje: "Cisternino: Al Vecchio Fornello (Via Basiliani 18) and Bère Vecchie (Via Regina Elena 8). In Ostuni, La Braceria on Via Verona.",
+        savjet: "This is dinner, and in summer you need to come early or book."
       },
       {
         ime: "Sporcamuss",
-        izgovor: "sporkamus",
-        opis: "Topli kvadrat lisnatog tijesta punjen kremom i posut šećerom u prahu.",
-        prica: "Ime na barskom dijalektu znači „uprljaj usta“, i nema načina da ga pojedete uredno.",
-        gdje: "Bari, oko Piazza Mercantile."
+        izgovor: "spor-kah-MOOSS",
+        opis: "A warm square of puff pastry filled with custard cream and dusted with powdered sugar.",
+        prica: "In the Bari dialect the name means “dirty your mouth”, and there is no way to eat one neatly.",
+        gdje: "Bari, around Piazza Mercantile."
       }
     ]
   },
   {
-    kategorija: "Iz mora",
+    kategorija: "From the sea",
     stavke: [
       {
         ime: "Crudo di mare",
-        izgovor: "krudo di mare",
-        opis: "Sirovi plodovi mora koji se jedu na licu mjesta, s limunom i kruhom.",
+        izgovor: "KROO-doh dee MAH-reh",
+        opis: "Raw seafood eaten on the spot, with lemon and bread.",
         prica: [
-          "Bari je sirovu ribu jeo davno prije nego što je svijet otkrio sushi. Na molu se jedu ježinci, čija se ikra vadi komadićem kruha, male sipe, dagnje, divlje „dlakave“ dagnje i polpo arricciato, hobotnica koju ribar tuče o kamen i vrti u košari dok se ne skovrča i postane čvrsta.",
-          "Ovaj prizor zovu ribarskim doručkom. Najljepše ga je gledati ujutro, kad ribari tek dođu s mora."
+          "Bari was eating raw fish long before the world discovered sushi. On the pier people eat sea urchins, whose roe is scooped out with a piece of bread, baby cuttlefish, mussels, wild “hairy” mussels and polpo arricciato, octopus that the fisherman beats against a rock and swirls in a basket until it curls up and turns firm.",
+          "The scene is known as the fishermen's breakfast. It is best watched in the morning, when the fishermen have just come in from the sea."
         ],
-        gdje: "Bari, mol N'dèrr'a la lanze uz Teatro Margherita, od sedam ujutro do podneva. Za mirniji želudac isto se jede u restoranima: La Tana del Polpo u Bariju ili L'Osteria di Chichibio u Polignanu.",
-        savjet: "Na molu nema ni slavina ni inspekcije, pa tko nije naviknut na sirove školjke neka radije gleda ondje, a jede u restoranu. Ježinci imaju lovostaj u svibnju i lipnju."
+        gdje: "Bari, the N'dèrr'a la lanze pier beside the Teatro Margherita, from seven in the morning until noon. For a calmer stomach, the same things are served in restaurants: La Tana del Polpo in Bari or L'Osteria di Chichibio in Polignano.",
+        savjet: "The pier has neither running water nor health inspections, so if you are not used to raw shellfish, you are better off watching there and eating in a restaurant. Sea urchins have a closed season in May and June."
       },
       {
         ime: "Riso, patate e cozze",
-        izgovor: "rizo, patate e koce",
-        opis: "Slojevi riže, krumpira, dagnji, luka i rajčice zapečeni u pećnici.",
-        prica: "Jelo se zove i tiella, po posudi u kojoj se peče. Često se uspoređuje sa španjolskom paellom jer je Bari stoljećima bio pod španjolskom vlašću, ali za tu vezu nema dokaza. Sigurno je samo to da se svaka barska obitelj svađa oko redoslijeda slojeva i oko toga smije li unutra tikvica.",
-        gdje: "Bari: La Cantina dello Zio u ulici Strada Palazzo di Città.",
-        savjet: "Naručite ga za ručak, jer se navečer često poslužuje podgrijan."
+        izgovor: "REE-zoh, pah-TAH-teh eh KOT-tseh",
+        opis: "Layers of rice, potatoes, mussels, onion and tomato baked in the oven.",
+        prica: "The dish is also called tiella, after the pan it is baked in. It is often compared with Spanish paella because Bari was under Spanish rule for centuries, but there is no evidence for the connection. The only sure thing is that every family in Bari argues over the order of the layers and over whether zucchini is allowed in.",
+        gdje: "Bari: La Cantina dello Zio on Strada Palazzo di Città.",
+        savjet: "Order it for lunch, because in the evening it is often served reheated."
       },
       {
         ime: "Scapece gallipolina",
-        izgovor: "skapeče",
-        opis: "Sitna pržena riba složena u drvene bačvice s krušnim mrvicama namočenim u ocat i šafran.",
-        prica: "Gallipoli je bio utvrđena luka koja je morala izdržati opsade, pa mu je trebala riba koja se ne kvari. Ocat omekša kosti toliko da se riba jede cijela, a šafran joj daje jarko žutu boju. Nama će odmah zamirisati na savur, jer je to isti stari mornarski način čuvanja ribe.",
-        gdje: "Gallipoli i štandovi na feštama po cijelom Salentu."
+        izgovor: "skah-PEH-cheh gahl-lee-poh-LEE-nah",
+        opis: "Small fried fish layered in little wooden barrels with breadcrumbs soaked in vinegar and saffron.",
+        prica: "Gallipoli was a fortified port that had to withstand sieges, so it needed fish that would not spoil. The vinegar softens the bones so much that the fish is eaten whole, and the saffron gives it a bright yellow color. It will instantly remind Croatian readers of Dalmatian savur, because it is the same old sailors' way of preserving fish.",
+        gdje: "Gallipoli and the stalls at festivals all over Salento."
       },
       {
         ime: "Gambero viola di Gallipoli",
-        opis: "Ljubičasti škamp iz dubina Jonskog mora, sladak i mekan.",
-        prica: "Lovi se na velikim dubinama pred Gallipolijem i jede sirov, s kapi ulja, ili na lingvinima.",
-        gdje: "Gallipoli: La Vinaigrette na Rivieri Armando Diaz."
+        izgovor: "GAHM-beh-roh vee-OH-lah dee gahl-LEE-poh-lee",
+        opis: "A purple shrimp from the depths of the Ionian Sea, sweet and tender.",
+        prica: "It is caught at great depths off Gallipoli and eaten raw, with a drop of oil, or on linguine.",
+        gdje: "Gallipoli: La Vinaigrette on Riviera Armando Diaz."
       }
     ]
   },
   {
-    kategorija: "Povrće i sirotinjska kuhinja",
+    kategorija: "Vegetables and the cooking of the poor",
     stavke: [
       {
         ime: "Fave e cicoria",
-        izgovor: "fave e čikorja",
-        opis: "Pire od sušenog boba s kuhanom divljom cikorijom i sirovim maslinovim uljem.",
-        prica: "Za siromašne obitelji ovo je često bilo jedino jelo, i to svaki dan. Žene su bob ljuštile uz žeravnik, namakale ga preko noći i tri sata kuhale u zemljanom loncu na ognjištu. Jelo je starije od rajčice u Italiji i danas se poslužuje kao delicija, uz prženi kruh ili sirovi crveni luk.",
-        gdje: "Posvuda, od Murge do Salenta."
+        izgovor: "FAH-veh eh chee-KOR-yah",
+        opis: "A purée of dried fava beans with boiled wild chicory and raw olive oil.",
+        prica: "For poor families this was often the only dish, day in and day out. The women shelled the beans beside the brazier, soaked them overnight and simmered them for three hours in an earthenware pot on the hearth. The dish is older than the tomato in Italy and is served today as a delicacy, with fried bread or raw red onion.",
+        gdje: "Everywhere, from the Murgia to Salento."
       },
       {
         ime: "Cialledda",
-        izgovor: "čaleda",
-        opis: "Stari kruh namočen u vodu s rajčicom, krastavcem, lukom i uljem.",
-        prica: "Zvali su je doručkom žetelaca, jer se spremala na polju od onoga što se našlo u torbi. Jede se hladna i u vrućini je spas.",
-        gdje: "Matera i Murgia."
+        izgovor: "chahl-LED-dah",
+        opis: "Stale bread soaked in water with tomato, cucumber, onion and oil.",
+        prica: "It was called the reapers' breakfast, because it was put together in the field from whatever was in the bag. It is eaten cold and is a lifesaver in the heat.",
+        gdje: "Matera and the Murgia."
       },
       {
         ime: "Peperoni cruschi",
-        izgovor: "peperoni kruski",
-        opis: "Sušene slatke paprike koje se na tren urone u vrelo ulje, pa postanu hrskave kao čips.",
-        prica: "Ovo je ponos Basilicate. Paprike se ljeti nižu u vijence i suše na zidovima kuća, a pržene se mrve preko tjestenine, jaja i bakalara.",
+        izgovor: "peh-peh-ROH-nee KROO-skee",
+        opis: "Dried sweet peppers dipped for an instant in hot oil, which turns them as crisp as chips.",
+        prica: "These are the pride of Basilicata. In summer the peppers are strung into garlands and dried on the walls of houses, and once fried they are crumbled over pasta, eggs and salt cod.",
         gdje: "Matera."
       },
       {
         ime: "Lampascioni",
-        izgovor: "lampašoni",
-        opis: "Gorke lukovice divljeg zumbula, kuhane i ukiseljene ili pržene.",
-        prica: "Izgledaju kao mali luk, ali su zapravo lukovice divljeg cvijeta koje se vade iz zemlje motikom. Gorčina je namjerna i ovdje je jako vole.",
-        gdje: "U predjelima po trattorijama Murge i Valle d'Itrije."
+        izgovor: "lahm-pah-SHOH-nee",
+        opis: "The bitter bulbs of the wild hyacinth, boiled and pickled or fried.",
+        prica: "They look like small onions, but they are actually the bulbs of a wild flower that are dug out of the ground with a hoe. The bitterness is intentional, and people here love it.",
+        gdje: "Among the appetizers in the trattorias of the Murgia and the Valle d'Itria."
       }
     ]
   },
   {
-    kategorija: "Sirevi",
+    kategorija: "Cheeses",
     stavke: [
       {
         ime: "Burrata di Andria",
-        opis: "Vrećica od mozzarelle punjena vrhnjem i nitima svježeg sira.",
+        izgovor: "boor-RAH-tah dee AHN-dree-ah",
+        opis: "A pouch of mozzarella filled with cream and strands of fresh cheese.",
         prica: [
-          "Burrata znači „namaslena“. Predaja je pripisuje siraru Lorenzu Bianchinu s imanja kraj Andrije: kad ga je snijeg odsjekao od svijeta i nije mogao odvesti mlijeko, vrhnje i ostatke sira zatvorio je u vrećicu od mozzarelle da se ništa ne baci. Jedni priču smještaju na početak 20. stoljeća, a drugi u 1956. godinu.",
-          "Prava burrata jede se unutar dva dana, sjajno je bijela bez žućkastog tona i nikad se ne poslužuje hladna iz hladnjaka."
+          "Burrata means “buttered”. Tradition credits it to the cheesemaker Lorenzo Bianchino from an estate near Andria: when snow cut him off from the world and he could not deliver his milk, he sealed the cream and the cheese scraps inside a pouch of mozzarella so that nothing would go to waste. Some set the story at the start of the 20th century, others in 1956.",
+          "Real burrata is eaten within two days, is a gleaming white with no yellowish tinge, and is never served cold from the refrigerator."
         ],
-        gdje: "Andria: Caseificio Olanda, sirana s Muzejom mlijeka u kojem se mogu dogovoriti posjet i kušanje. Najbolje je doći prije deset ujutro."
+        gdje: "Andria: Caseificio Olanda, a dairy with a Milk Museum where you can arrange a visit and a tasting. It is best to arrive before ten in the morning."
       },
       {
         ime: "Stracciatella",
-        izgovor: "stračatela",
-        opis: "Nadjev burrate koji se prodaje i sam: rukom trgane niti sira u vrhnju.",
-        prica: "Ime dolazi od riječi straccia, krpica, jer se sir trga na trake. Jede se na kruhu, pizzi i tjestenini, i nema nikakve veze s istoimenim sladoledom.",
-        gdje: "Posvuda u Apuliji."
+        izgovor: "strah-chah-TEL-lah",
+        opis: "The filling of burrata, which is also sold by itself: hand-torn strands of cheese in cream.",
+        prica: "The name comes from the word straccia, a little rag, because the cheese is torn into strips. It is eaten on bread, pizza and pasta, and it has nothing whatsoever to do with the ice cream of the same name.",
+        gdje: "Everywhere in Apulia."
       },
       {
-        ime: "Mozzarella, nodini i trecce",
-        opis: "Svježi kravlji sir u obliku kugle, čvorića ili pletenice.",
-        prica: "Apulijska mozzarella radi se od kravljeg mlijeka, a ne od bivoljeg kao ona iz Napulja. Ona iz Gioie del Colle od 2020. ima zaštićenu oznaku izvornosti. Čvorići se zovu nodini, a pletenice trecce, i svi se vežu rukom dok je sir još vruć.",
-        gdje: "U svakoj sirani, ujutro."
+        ime: "Mozzarella, nodini and trecce",
+        izgovor: "mot-tsah-REL-lah, noh-DEE-nee, TRET-cheh",
+        opis: "Fresh cow's milk cheese in the shape of a ball, a little knot or a braid.",
+        prica: "Apulian mozzarella is made from cow's milk, unlike the buffalo milk version from Naples. The one from Gioia del Colle has held a protected designation of origin since 2020. The little knots are called nodini and the braids trecce, and all of them are tied by hand while the cheese is still hot.",
+        gdje: "In every dairy, in the morning."
       },
       {
         ime: "Caciocavallo podolico",
-        izgovor: "kačokavalo",
-        opis: "Sir u obliku kruške s glavicom, koji zrije obješen u paru preko motke.",
-        prica: "Ime znači „sir na konju“, jer dva sira vise s obje strane grede kao bisage. Najcjenjeniji je onaj od mlijeka polududivljih podolskih krava s Gargana, koje daju tako malo mlijeka da većina tog sira nikad ne napusti obitelji koje ga rade.",
-        gdje: "Gargano i Murgia."
+        izgovor: "kah-choh-kah-VAHL-loh poh-DOH-lee-koh",
+        opis: "A pear-shaped cheese with a little head, which matures hung in pairs over a pole.",
+        prica: "The name means “cheese on horseback”, because two cheeses hang on either side of a beam like saddlebags. The most prized is made from the milk of the half-wild Podolica cows of the Gargano, which give so little milk that most of this cheese never leaves the families who make it.",
+        gdje: "The Gargano and the Murgia."
       },
       {
         ime: "Ricotta forte",
-        opis: "Fermentirana, mazava i vrlo oštra ricotta.",
-        prica: "Na dijalektu je zovu scante, „ona koja peče“. Mjesecima se miješa i soli dok ne postane toliko jaka da je dovoljna žličica u umaku od rajčice.",
-        gdje: "Salento i Murgia, u umacima i panzerottima.",
-        savjet: "Kušajte prvo malo na vrhu noža."
+        izgovor: "ree-KOT-tah FOR-teh",
+        opis: "A fermented, spreadable and very sharp ricotta.",
+        prica: "In dialect it is called scante, “the one that burns”. It is stirred and salted for months until it becomes so strong that a teaspoon in a tomato sauce is enough.",
+        gdje: "Salento and the Murgia, in sauces and panzerotti.",
+        savjet: "Taste a little on the tip of a knife first."
       },
       {
-        ime: "Cacioricotta i canestrato",
-        opis: "Dva sira koja se ribaju preko tjestenine.",
-        prica: "Cacioricotta je nešto između sira i ricotte, od kozjeg ili ovčjeg mlijeka, i ljeti se riba preko orecchietta s rajčicom. Canestrato je tvrdi ovčji sir oblikovan u košarama od rogoza, koje mu ostave otisak na kori. Povezan je sa stadima koja su stoljećima silazila iz Abruzza na zimsku ispašu u ravnicu Tavoliere.",
-        gdje: "Canestrato oko Foggie, cacioricotta posvuda."
+        ime: "Cacioricotta and canestrato",
+        izgovor: "kah-choh-ree-KOT-tah, kah-neh-STRAH-toh",
+        opis: "Two cheeses that are grated over pasta.",
+        prica: "Cacioricotta is something between a cheese and a ricotta, made from goat's or sheep's milk, and in summer it is grated over orecchiette with tomato. Canestrato is a hard sheep's milk cheese shaped in rush baskets, which leave their imprint on the rind. It is tied to the flocks that for centuries came down from Abruzzo to winter pasture on the Tavoliere plain.",
+        gdje: "Canestrato around Foggia, cacioricotta everywhere."
       }
     ]
   },
   {
-    kategorija: "Meso",
+    kategorija: "Meat",
     stavke: [
       {
         ime: "Capocollo di Martina Franca",
-        izgovor: "kapokolo",
-        opis: "Sušeni svinjski vrat, opran u kuhanom vinu i dimljen na hrastovoj kori.",
-        prica: "Poznat je u Napuljskom Kraljevstvu još od 18. stoljeća. Svinje su se dovodile gore u Martinu Francu jer suh i prozračan zrak na četiristo metara visine odgovara sušenju mesa. Dimi se na kori hrasta fragna, koji u Italiji raste samo ovdje i u susjednoj Basilicati, i na ljuskama badema.",
-        gdje: "Martina Franca, Locorotondo i Cisternino, u mesnicama i na svakoj dasci s narescima."
+        izgovor: "kah-poh-KOL-loh",
+        opis: "Cured pork neck, washed in cooked wine and smoked over oak bark.",
+        prica: "It has been known in the Kingdom of Naples since the 18th century. Pigs were brought up to Martina Franca because the dry, breezy air at four hundred meters is ideal for curing meat. It is smoked over the bark of the fragno oak, which in Italy grows only here and in neighboring Basilicata, and over almond shells.",
+        gdje: "Martina Franca, Locorotondo and Cisternino, in butcher shops and on every charcuterie board."
       },
       {
         ime: "Gnummareddi",
-        izgovor: "njumaredi",
-        opis: "Smotuljci janjećih iznutrica omotani crijevom i pečeni na žaru.",
-        prica: "U Salentu ih zovu turcinieddi, a nama će biti poznati jer su rođaci naših vitalaca. Locorotondo ima i vlastitu verziju, pirjanu u zemljanom loncu.",
-        gdje: "Mesnice s roštiljem u Valle d'Itriji."
+        izgovor: "nyoo-mah-RED-dee",
+        opis: "Little bundles of lamb offal wrapped in intestine and grilled.",
+        prica: "In Salento they are called turcinieddi, and they will be familiar to Croatian readers because they are relatives of Dalmatian vitalac. Locorotondo has its own version too, braised in an earthenware pot.",
+        gdje: "Butcher shops with a grill in the Valle d'Itria."
       },
       {
         ime: "Brasciole al sugo",
-        izgovor: "brašole",
-        opis: "Mesne rolice s pecorinom, češnjakom i peršinom, kuhane satima u umaku od rajčice.",
-        prica: "Ovo je nedjeljni ručak Barija. Umakom se najprije začine orecchiette, a meso se jede kao drugo jelo. Tradicionalno se rade od konjetine, koja je u Apuliji vrlo česta.",
+        izgovor: "brah-SHOH-leh ahl SOO-goh",
+        opis: "Meat rolls with pecorino, garlic and parsley, simmered for hours in tomato sauce.",
+        prica: "This is Sunday lunch in Bari. The sauce first dresses the orecchiette, and the meat is eaten as the second course. They are traditionally made with horse meat, which is very common in Apulia.",
         gdje: "Bari.",
-        savjet: "Tko ne jede konjetinu neka pita od kojeg su mesa, a isto vrijedi za jelo pezzetti di cavallo u Salentu."
+        savjet: "If you do not eat horse meat, ask what meat they are made of, and the same goes for the dish pezzetti di cavallo in Salento."
       }
     ]
   },
   {
-    kategorija: "Slatko",
+    kategorija: "Sweets",
     stavke: [
       {
         ime: "Pasticciotto leccese",
-        izgovor: "pastičoto lečeze",
-        opis: "Ovalna košarica od prhkog tijesta punjena kremom od jaja, koja se jede topla.",
+        izgovor: "pah-stee-CHOT-toh leh-CHEH-zeh",
+        opis: "An oval shortcrust pastry case filled with egg custard, eaten warm.",
         prica: [
-          "Najslavnija slastica Leccea nije nastala u Lecceu. Predaja kaže da ju je 1745. u obližnjoj Galatini napravio slastičar iz obitelji Ascalone od ostataka tijesta i kreme, za blagdan svetog Pavla, i nazvao je pasticcio, što znači zbrka.",
-          "Povjesničari sumnjaju u tu godinu, ali slastičarnica Ascalone u Galatini i danas stoji. Tijesto se radi sa svinjskom mašću, i zato je tako prhko."
+          "Lecce's most famous pastry was not invented in Lecce. Tradition says that in 1745, in nearby Galatina, a pastry cook of the Ascalone family made it from leftover dough and custard for the feast of Saint Paul and called it pasticcio, which means a mess.",
+          "Historians doubt that date, but the Ascalone pastry shop in Galatina is still standing. The dough is made with lard, which is why it is so crumbly."
         ],
-        gdje: "Lecce: Caffè Alvino (Piazza Sant'Oronzo 30) i Pasticceria Natale (Via Trinchese 7).",
-        savjet: "Jede se za doručak, još topao, uz caffè leccese."
+        gdje: "Lecce: Caffè Alvino (Piazza Sant'Oronzo 30) and Pasticceria Natale (Via Trinchese 7).",
+        savjet: "It is eaten for breakfast, still warm, with a caffè leccese."
       },
       {
         ime: "Cartellate",
-        izgovor: "kartelate",
-        opis: "Tanke trake tijesta savijene u ružu, pržene i natopljene kuhanim moštom ili medom.",
-        prica: "Prvi zapis o njima potječe iz 1762., iz knjiga benediktinki samostana Santa Scolastica u Bariju. Kažu da oblik podsjeća na povoje malog Isusa ili na aureolu. Kuhani mošt, vincotto, koristio se jer je med bio preskup.",
-        gdje: "Samo o Božiću, po cijeloj Apuliji."
+        izgovor: "kar-tel-LAH-teh",
+        opis: "Thin strips of dough curled into a rose, fried and drenched in cooked grape must or honey.",
+        prica: "The first written record of them dates from 1762, in the books of the Benedictine nuns of the convent of Santa Scolastica in Bari. The shape is said to recall the swaddling clothes of the baby Jesus, or a halo. Cooked grape must, vincotto, was used because honey was too expensive.",
+        gdje: "Only at Christmas, all over Apulia."
       },
       {
         ime: "Sospiri di Bisceglie",
-        izgovor: "sospiri di Bišelje",
-        opis: "Male kupole od biskvita punjene kremom i prelivene blijedom glazurom.",
-        prica: "Sospiri znači uzdasi. Legenda kaže da su ih klarise ispekle za vjenčanje Lucrezije Borgije, a kad mladenka nije došla, gosti su ih pojeli uzdišući.",
-        gdje: "Bisceglie, između Tranija i Barija."
+        izgovor: "soh-SPEE-ree dee bee-SHEL-yeh",
+        opis: "Little sponge cake domes filled with cream and coated in a pale glaze.",
+        prica: "Sospiri means sighs. Legend has it that the Poor Clares baked them for the wedding of Lucrezia Borgia, and when the bride failed to turn up, the guests ate them with a sigh.",
+        gdje: "Bisceglie, between Trani and Bari."
       },
       {
         ime: "Tette delle monache",
-        izgovor: "tete dele monake",
-        opis: "Mekane kupole od biskvita s vrškom, punjene kremom.",
-        prica: "Ime doslovno znači „grudi časnih sestara“, a slastica se veže uz klarise iz Altamure. Zašto su je časne tako nazvale, ako su je uopće one nazvale, nitko ne zna, ali svatko ima svoju teoriju.",
+        izgovor: "TET-teh DEL-leh MOH-nah-keh",
+        opis: "Soft sponge cake domes with a little peak, filled with cream.",
+        prica: "The name literally means “nuns' breasts”, and the pastry is linked to the Poor Clares of Altamura. Why the nuns gave it that name, if they were even the ones who named it, nobody knows, but everybody has a theory.",
         gdje: "Altamura."
       },
       {
         ime: "Spumone",
-        opis: "Sladoled u slojevima iz kalupa, s mekom sredinom.",
-        prica: "Potječe od ledenih „bombi“ kojima su se na napuljskom dvoru hvalili kuhari školovani kod Francuza, a u Salento je stigao u 19. stoljeću. Reže se na kriške i poslužuje nakon nedjeljnog ručka i na svadbama.",
-        gdje: "Gallipoli i Salento."
+        izgovor: "spoo-MOH-neh",
+        opis: "Layered molded ice cream with a soft center.",
+        prica: "It descends from the iced “bombes” that French-trained cooks showed off at the court of Naples, and it reached Salento in the 19th century. It is cut into slices and served after Sunday lunch and at weddings.",
+        gdje: "Gallipoli and Salento."
       },
       {
         ime: "Bocconotto",
-        izgovor: "bokonoto",
-        opis: "Mala pita od prhkog tijesta s bademima i višnjama ili s ricottom i kruškom.",
-        gdje: "Martina Franca: Caffè Tripoli u ulici Via Garibaldi."
+        izgovor: "bok-koh-NOT-toh",
+        opis: "A small shortcrust tart with almonds and sour cherries or with ricotta and pear.",
+        gdje: "Martina Franca: Caffè Tripoli on Via Garibaldi."
       },
       {
         ime: "Confetti Mucci",
-        izgovor: "konfeti muči",
-        opis: "Bademi i lješnjaci u čokoladi i šećernoj ovojnici iz Andrije.",
-        prica: "Obitelj Mucci radi ih od 1894. godine. Najpoznatiji su Tenerelli iz 1930., s bademom iz Toritta i dva sloja čokolade. U Italiji se confetti dijele na svadbama, krštenjima i diplomama, uvijek u neparnom broju.",
-        gdje: "Andria, tvornica s malim muzejom slatkiša."
+        izgovor: "kon-FET-tee MOO-chee",
+        opis: "Almonds and hazelnuts in chocolate and a sugar shell, from Andria.",
+        prica: "The Mucci family has been making them since 1894. The best known are the Tenerelli of 1930, with an almond from Toritto and two layers of chocolate. In Italy confetti are handed out at weddings, christenings and graduations, always in an odd number.",
+        gdje: "Andria, at the factory with its small candy museum."
       }
     ]
   },
   {
-    kategorija: "Kava, vino i ostalo u čaši",
+    kategorija: "Coffee, wine and everything else in a glass",
     stavke: [
       {
         ime: "Caffè leccese",
-        izgovor: "kafe lečeze",
-        opis: "Vrući espresso preliven preko kockica leda i zaslađen bademovim mlijekom.",
-        prica: "Pripisuje se Antoniju Quarti, osnivaču pržionice Quarta Caffè, koji je pedesetih godina uz kavu dostavljao i led. Budući da se šećer u hladnom ne topi, zamijenio ga je gustim sirupom od badema. Espresso preko leda prelijete same.",
-        gdje: "Lecce, u svakom baru. Naručuje se i kao caffè in ghiaccio con latte di mandorla.",
-        savjet: "Latte di mandorla ovdje je sladak sirup, a ne bademov napitak kakav poznajemo iz dućana."
+        izgovor: "kahf-FEH leh-CHEH-zeh",
+        opis: "Hot espresso poured over ice cubes and sweetened with almond milk.",
+        prica: "It is credited to Antonio Quarta, founder of the roaster Quarta Caffè, who in the 1950s delivered ice along with his coffee. Because sugar does not dissolve in a cold drink, he replaced it with a thick almond syrup. You pour the espresso over the ice yourself.",
+        gdje: "Lecce, in every bar. You can also order it as caffè in ghiaccio con latte di mandorla.",
+        savjet: "Latte di mandorla here is a sweet syrup, quite different from the almond drink you know from the store."
       },
       {
         ime: "Caffè speciale",
-        izgovor: "kafe spečale",
-        opis: "Espresso s vrhnjem, amarettom i limunovom koricom.",
-        prica: "Nastao je u Polignanu, u slastičarnici Il Super Mago del Gelo, koja radi od 1935. godine. Susjedni Monopoli ima svoju verziju, u koju ide i liker Strega.",
+        izgovor: "kahf-FEH speh-CHAH-leh",
+        opis: "Espresso with cream, amaretto and lemon zest.",
+        prica: "It was created in Polignano, at Il Super Mago del Gelo, an ice cream parlor that has been in business since 1935. Neighboring Monopoli has its own version, which also gets a splash of Strega liqueur.",
         gdje: "Polignano a Mare, Piazza Garibaldi."
       },
       {
         ime: "Espressino",
-        opis: "Mali espresso s mliječnom pjenom i kakaom, poslužen u čašici.",
-        prica: "Ovo je apulijski naziv za ono što se drugdje u Italiji zove marocchino.",
-        gdje: "U svakom baru."
+        izgovor: "es-pres-SEE-noh",
+        opis: "A small espresso with milk foam and cocoa, served in a little glass.",
+        prica: "This is the Apulian name for what the rest of Italy calls a marocchino.",
+        gdje: "In every bar."
       },
       {
         ime: "Primitivo",
-        opis: "Gusto, tamno i gotovo slatko crno vino, ponos Mandurije i Gioie del Colle.",
+        izgovor: "pree-mee-TEE-voh",
+        opis: "A dense, dark and almost sweet red wine, the pride of Manduria and Gioia del Colle.",
         prica: [
-          "Ime mu je krajem 18. stoljeća dao svećenik i agronom Francesco Filippo Indellicati iz Gioie del Colle, jer ta loza dozrijeva prva, ranije od svih ostalih.",
-          "Najbolji dio priče tiče se nas. Genetičari su 2001. dokazali da su apulijski primitivo i kalifornijski zinfandel ista sorta i da oboje potječu od crljenka kaštelanskog, odnosno tribidraga, koji se u Dalmaciji spominje još u 15. stoljeću. Najpoznatije crno vino Apulije zapravo je dalmatinska loza koja je prešla more."
+          "It was named at the end of the 18th century by Francesco Filippo Indellicati, a priest and agronomist from Gioia del Colle, because this vine ripens first, earlier than all the others.",
+          "The best part of the story leads to Croatia. In 2001 geneticists proved that Apulian primitivo and Californian zinfandel are the same variety and that both descend from crljenak kaštelanski, also known as tribidrag, which is recorded in Dalmatia as far back as the 15th century. The best-known red wine of Apulia is really a Dalmatian vine that crossed the sea."
         ],
-        gdje: "Manduria, u zadruzi Produttori di Manduria s muzejom primitiva."
+        gdje: "Manduria, at the Produttori di Manduria cooperative with its primitivo museum."
       },
       {
         ime: "Negroamaro",
-        opis: "Tamno crno vino Salenta, zemljano i s blago gorkim završetkom.",
-        prica: "Ime se tumači na dva načina: kao „crno i gorko“ ili kao spoj latinske i grčke riječi za crno, dakle „crno crno“. Glavna je sorta vina Salice Salentino.",
-        gdje: "Salice Salentino i Guagnano, u vinarijama Leone de Castris i Cantele."
+        izgovor: "neh-groh-ah-MAH-roh",
+        opis: "The dark red wine of Salento, earthy and with a slightly bitter finish.",
+        prica: "The name is explained in two ways: as “black and bitter”, or as a pairing of the Latin and Greek words for black, in other words “black black”. It is the main grape of Salice Salentino wine.",
+        gdje: "Salice Salentino and Guagnano, at the Leone de Castris and Cantele wineries."
       },
       {
-        ime: "Rosato i Five Roses",
-        opis: "Ružičasto vino od negroamara, koje se ovdje pije cijelo ljeto.",
-        prica: "Vinarija Leone de Castris napunila je 1943. vino Five Roses, koje se smatra prvim roséom flaširanim u Italiji. Budući da u ratu nije bilo staklenih boca, punili su ga u pivske, a englesko ime zatražio je američki general koji je naručio veliku količinu za savezničku vojsku.",
+        ime: "Rosato and Five Roses",
+        izgovor: "roh-ZAH-toh",
+        opis: "A pink wine made from negroamaro, which people here drink all summer long.",
+        prica: "In 1943 the Leone de Castris winery bottled Five Roses, which is considered the first rosé bottled in Italy. Since there were no glass wine bottles to be had in wartime, they filled beer bottles, and the English name was requested by a general from the USA who ordered a large quantity for the Allied army.",
         gdje: "Salento."
       },
       {
         ime: "Nero di Troia",
-        opis: "Snažno crno vino sjevera Apulije, s okusom višnje i papra.",
-        gdje: "Okolica Castel del Montea, Andrije i Tranija."
+        izgovor: "NEH-roh dee TROH-yah",
+        opis: "A powerful red wine from northern Apulia, with flavors of sour cherry and pepper.",
+        gdje: "The area around Castel del Monte, Andria and Trani."
       },
       {
-        ime: "Verdeca i Locorotondo",
-        opis: "Lagano, svježe bijelo vino Valle d'Itrije.",
-        prica: "Locorotondo ima zaštićeno ime od 1969. i radi se od sorti verdeca i bianco d'Alessano. Ovo je vino za vruće popodne među trullima.",
-        gdje: "Locorotondo, Martina Franca i Alberobello."
+        ime: "Verdeca and Locorotondo",
+        izgovor: "ver-DEH-kah, loh-koh-roh-TON-doh",
+        opis: "The light, fresh white wine of the Valle d'Itria.",
+        prica: "Locorotondo has had a protected name since 1969 and is made from the verdeca and bianco d'Alessano grapes. This is a wine for a hot afternoon among the trulli.",
+        gdje: "Locorotondo, Martina Franca and Alberobello."
       },
       {
         ime: "Moscato di Trani",
-        opis: "Slatko bijelo vino od muškata, kojeg ima vrlo malo.",
-        prica: "Mletački trgovci pronijeli su mu glas još u 13. stoljeću. Danas se uzgaja na tek desetak hektara.",
+        izgovor: "moh-SKAH-toh dee TRAH-nee",
+        opis: "A sweet white wine made from muscat, of which there is very little.",
+        prica: "Venetian merchants were already spreading its fame in the 13th century. Today it is grown on barely ten hectares or so.",
         gdje: "Trani."
       },
       {
         ime: "Padre Peppe",
-        opis: "Tamni liker od zelenih oraha iz Altamure.",
-        gdje: "Altamura, u kavani Ronchi Striccoli kraj katedrale."
+        izgovor: "PAH-dreh PEP-peh",
+        opis: "A dark green-walnut liqueur from Altamura.",
+        gdje: "Altamura, at Caffè Ronchi Striccoli beside the cathedral."
       },
       {
-        ime: "Maslinovo ulje",
-        opis: "Otprilike polovica svega talijanskog maslinovog ulja dolazi iz Apulije.",
+        ime: "Olive oil",
+        opis: "Roughly half of all Italian olive oil comes from Apulia.",
         prica: [
-          "Na sjeveru, oko Andrije i Corata, raste sorta coratina, koja daje gorko i pikantno ulje od kojeg zapeče grlo. Na jugu su ogliarola i cellina di Nardò, blaže i slađe. Ulje se ovdje lije sirovo preko svega, i to obilno.",
-          "Južno od Leccea vidjet ćete cijele sive, mrtve maslinike. To je posljedica bakterije Xylella fastidiosa, koja je od 2013. uništila milijune stabala, o čemu više piše u dijelu o kulturi."
+          "In the north, around Andria and Corato, the coratina variety grows, giving a bitter, peppery oil that catches in your throat. In the south there are ogliarola and cellina di Nardò, which are milder and sweeter. Here oil is poured raw over everything, and generously.",
+          "South of Lecce you will see whole olive groves gray and dead. They are the result of the bacterium Xylella fastidiosa, which has destroyed millions of trees since 2013, and you can read more about it in the culture section."
         ],
-        gdje: "Ostuni, kušanje među tisućljetnim stablima na imanju Masseria Brancati."
+        gdje: "Ostuni, at a tasting among the thousand-year-old trees on the Masseria Brancati estate."
       }
     ]
   }
@@ -461,37 +478,37 @@ TRIP.hrana = [
 
 TRIP.zaStolom = [
   {
-    naslov: "Kada se jede",
-    tekst: "Ručak je otprilike od 12:30 do 14:30, a večera od 19:30 ili 20 sati, s tim da domaći sjedaju tek oko devet. Između ručka i večere kuhinje su zatvorene, pa je spas bar, koji radi cijeli dan. Pekare se ponovno otvaraju oko pet popodne, kad je druga runda focaccie. Mnogi restorani ne rade jedan dan u tjednu, najčešće ponedjeljkom."
+    naslov: "When people eat",
+    tekst: "Lunch runs roughly from 12:30 to 14:30, and dinner starts at 19:30 or 20:00, although the locals only sit down around nine. Between lunch and dinner the kitchens are closed, so your lifeline is the bar, which is open all day. Bakeries reopen around five in the afternoon, when the second round of focaccia comes out. Many restaurants close one day a week, most often on Monday."
   },
   {
-    naslov: "Coperto i napojnica",
-    tekst: "Coperto je naknada po osobi za stol i kruh, zakonita je i mora pisati na jelovniku. U Apuliji iznosi 2 do 3 eura, a na glavnom trgu u Ostuniju zabilježeno je i 5. To nije napojnica. Napojnica se ne očekuje, a dovoljno je zaokružiti račun ili ostaviti nekoliko kovanica."
+    naslov: "Coperto and tipping",
+    tekst: "The coperto is a per-person charge for the table and the bread, it is legal and it has to be stated on the menu. In Apulia it comes to 2 to 3 euros, and on the main square in Ostuni as much as 5 has been recorded. It is not a tip. A tip is not expected, and it is enough to round up the bill or leave a few coins."
   },
   {
-    naslov: "Kako naručiti kavu",
-    tekst: "Kava se naručuje i pije stojeći za šankom, što se kaže al banco. Za stolom ista kava stoji osjetno više. Espresso je oko 1,20 eura. Cappuccino se pije samo ujutro, a naručiti ga poslije ručka siguran je znak da ste turist."
+    naslov: "How to order coffee",
+    tekst: "Coffee is ordered and drunk standing at the counter, which is called al banco. At a table the same coffee costs noticeably more. An espresso is about 1.20 euros. Cappuccino is drunk only in the morning, and ordering one after lunch is a sure sign that you are a tourist."
   },
   {
     naslov: "Aperitivo",
-    tekst: "Između 18:30 i 20:30 uz spritz ili čašu domaćeg rosata stižu taralli, masline i ponekad focaccia. U Bariju je narodna verzija pivo Peroni uz komad focaccie ili sirove dagnje."
+    tekst: "Between 18:30 and 20:30 a spritz or a glass of local rosato arrives with taralli, olives and sometimes focaccia. In Bari the people's version is a Peroni beer with a piece of focaccia or raw mussels."
   },
   {
-    naslov: "Fornello pronto: večera kod mesara",
+    naslov: "Fornello pronto: dinner at the butcher's",
     tekst: [
-      "U Cisterninu i po Valle d'Itriji mesnice se navečer pretvaraju u gostionice. Uđete, na pultu odaberete meso (bombette, kobasicu, gnummaredde, kotlete), mesar ga izvaže i platite po težini.",
-      "Zatim sjednete za stol u uličici, a meso se na ražnjićima peče u kamenoj peći uz vatru, a ne iznad nje. Stiže na papiru, s kruhom, a dok čekate naručite pečeni krumpir, salatu i domaće vino. Računajte na 15 do 25 eura po osobi."
+      "In Cisternino and across the Valle d'Itria, the butcher shops turn into taverns in the evening. You walk in, choose your meat at the counter (bombette, sausage, gnummareddi, chops), the butcher weighs it and you pay by weight.",
+      "Then you sit down at a table in the lane while the meat roasts on skewers in a stone oven, beside the fire and never over it. It arrives on paper, with bread, and while you wait you order roast potatoes, a salad and house wine. Reckon on 15 to 25 euros per person."
     ]
   },
   {
-    naslov: "Gospođe s orecchiettama: što treba znati",
+    naslov: "The orecchiette ladies: what you should know",
     tekst: [
-      "Ulica Arco Basso u starom Bariju poznata je u cijelom svijetu po ženama koje pred kućom rade tjesteninu. Posljednjih godina oko nje je bilo i dosta buke: 2024. jedan je turist snimio kutije tvorničke tjestenine u blizini, a grad je nakon toga uveo pravila o prijavi, higijeni i podrijetlu brašna. Godine 2025. policija je zaplijenila dio robe za koju je ocijenila da je industrijska, a gospođe su prosvjedovale.",
-      "Vještina je i dalje prava i vrijedi je gledati, a gledanje je besplatno. Pri kupnji pitajte je li vrećica svježa ili sušena, a ako vas pozovu na ručak u kuću, prvo pitajte za cijenu."
+      "The street of Arco Basso in old Bari is famous the world over for the women who make pasta outside their homes. In recent years it has also been the subject of a fair amount of fuss: in 2024 a tourist filmed boxes of factory-made pasta nearby, and afterward the city introduced regulations on registration, hygiene and the origin of the flour. In 2025 the police seized some goods that they judged to be industrial, and the ladies protested.",
+      "The skill is still real and well worth watching, and watching is free. When you buy, ask whether the bag is fresh or dried, and if you are invited into a house for lunch, ask the price first."
     ]
   },
   {
-    naslov: "Okvirne cijene",
-    tekst: "Komad focaccie stoji 1,50 do 3 eura, tuljac sgagliozza 1 do 3, panzerotto 3 do 6,50, a sendvič s hobotnicom 10 do 15 eura. Burrata u restoranu je 8 do 12 eura, večera u trattoriji s pićem 25 do 40, a večera kod mesara 15 do 25 eura po osobi."
+    naslov: "Rough prices",
+    tekst: "A piece of focaccia costs 1.50 to 3 euros, a cone of sgagliozze 1 to 3, a panzerotto 3 to 6.50, and an octopus sandwich 10 to 15 euros. Burrata in a restaurant is 8 to 12 euros, dinner in a trattoria with drinks 25 to 40, and dinner at the butcher's 15 to 25 euros per person."
   }
 ];

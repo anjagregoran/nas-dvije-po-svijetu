@@ -54,7 +54,7 @@ window.DODACI["latvija"] = {
       ],
       kupiti: [
         { ime: "Courland crafts", opis: "Local craftspeople sell woven belts, wool and ceramics in small shops on the pedestrian street. The patterns belong to this region." },
-        { ime: "Sklandrausis to go", opis: "The carrot tarts keep well for a day, so take a few for the road. Ask at a bakery for ones baked that morning." }
+        { ime: "Honey and herbal teas", opis: "Beekeepers and herb gatherers from the Courland countryside sell honey and dried meadow teas at the town market. Ask your hosts which day the market is on." }
       ]
     }
   }

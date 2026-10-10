@@ -1,373 +1,373 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["kanada"] = {
   id: "kanada",
-  ime: "Kanada",
-  regija: "Sjeverna Amerika",
-  sazetak: "Druga najveća zemlja svijeta, u kojoj se u istom putovanju mogu čuti francuski u kamenim ulicama Québeca i tišina tirkiznih jezera Stjenjaka.",
+  ime: "Canada",
+  regija: "North America",
+  sazetak: "The second-largest country in the world, where a single trip can take in French spoken in the stone streets of Québec and the silence of the turquoise lakes of the Rockies.",
   uvod: [
-    "Kanada se proteže od Atlantika do Tihog oceana i na sjever do Arktika, a ipak velika većina stanovnika živi u uskom pojasu uz južnu granicu. Između gradova leže šume, prerije i planine tolikih razmjera da se udaljenosti ovdje mjere satima vožnje. Tisućama godina prije Europljana ovdje su živjeli brojni domorodački narodi, koje Kanada danas naziva Prvim narodima, Inuitima i Métisima.",
-    "Zemlju su oblikovale dvije europske sile. Francuzi su se u 17. stoljeću naselili uz rijeku Svetog Lovre, a Britanci su im 1759. preoteli Québec, pa Kanada do danas ima dva službena jezika i dvije kulture koje žive jedna uz drugu. Kao država nastala je 1867. mirnim ujedinjenjem kolonija, a željeznička pruga do Tihog oceana povezala ju je u cjelinu.",
-    "Putnice koje vole priče ovdje će naći mnogo više od krajolika: francuske tržnice i bagele iz peći na drva u Montréalu, totemske stupove na zapadnoj obali, škotske gusle u Novoj Škotskoj i gradove u kojima je više od polovice stanovnika rođeno negdje drugdje."
+    "Canada stretches from the Atlantic to the Pacific and north to the Arctic, yet the great majority of its people live in a narrow band along the southern border. Between the cities lie forests, prairies and mountains on such a scale that distances here are measured in hours of driving. For thousands of years before the Europeans, numerous Indigenous peoples lived here, whom Canada today calls First Nations, Inuit and Métis.",
+    "The country was shaped by two European powers. The French settled along the St. Lawrence River in the 17th century, and the British took Québec from them in 1759, so to this day Canada has two official languages and two cultures living side by side. As a state it came into being in 1867 through the peaceful union of colonies, and the railway to the Pacific bound it into a whole.",
+    "Travelers who love stories will find far more than landscapes here: French markets and bagels from wood-fired ovens in Montréal, totem poles on the west coast, Scottish fiddles in Nova Scotia and cities where more than half the residents were born somewhere else."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od lipnja do rujna za Stjenjak, zapadnu obalu i Novu Škotsku, a krajem rujna i početkom listopada za jesenske boje u Ontariju i Québecu. Zima je duga i hladna, ali upravo tada Québec i Ottawa imaju svoje najljepše svečanosti." },
-    { k: "Valuta", v: "Kanadski dolar (CAD). Kovanicu od jednog dolara zovu loonie, a onu od dva dolara toonie. Cijene su najčešće istaknute bez poreza, koji se dodaje na blagajni." },
-    { k: "Kretanje", v: "Između istoka i zapada leti se, jer su udaljenosti goleme. Toronto, Ottawu, Montréal i grad Québec udobno povezuje vlak VIA Rail, a za Stjenjak, otok Vancouver i Novu Škotsku potreban je automobil." },
-    { k: "Napojnica", v: "U restoranima se ostavlja 15 do 20 posto, a slično vrijedi za taksi i frizere. Čitač kartica sam će vam ponuditi postotke." },
-    { k: "Ulazak", v: "Hrvatskim državljanima za turistički boravak nije potrebna viza, ali za dolazak zrakoplovom moraju prije puta na službenoj stranici vlade ishoditi elektroničko odobrenje eTA." },
-    { k: "Jezik", v: "Engleski i francuski službeni su u cijeloj zemlji. U pokrajini Québec francuski je prvi jezik, pa razgovor lijepo počnite s bonjour, iako u turističkim mjestima gotovo svi govore i engleski." }
+    { k: "When to go", v: "From June to September for the Rockies, the west coast and Nova Scotia, and in late September and early October for the fall colors in Ontario and Québec. Winter is long and cold, but that is exactly when Québec City and Ottawa hold their loveliest festivities." },
+    { k: "Currency", v: "Canadian dollar (CAD). The one-dollar coin is called a loonie and the two-dollar coin a toonie. Prices are usually shown without tax, which is added at the register." },
+    { k: "Getting around", v: "Between east and west you fly, because the distances are enormous. Toronto, Ottawa, Montréal and Québec City are comfortably linked by the VIA Rail train, while for the Rockies, Vancouver Island and Nova Scotia you need a car." },
+    { k: "Tipping", v: "In restaurants people leave 15 to 20 percent, and much the same goes for taxis and hairdressers. The card reader will offer you the percentages itself." },
+    { k: "Entry", v: "Croatian citizens do not need a visa for a tourist stay, but to arrive by air they must obtain the eTA electronic authorization on the government's official website before they travel." },
+    { k: "Language", v: "English and French are official throughout the country. In the province of Québec French is the first language, so it is nice to open a conversation with bonjour, although in tourist places almost everyone speaks English too." }
   ],
   hrana: [
-    { ime: "Poutine", opis: "Krumpirići s grudicama svježeg sira koje škripe pod zubima, preliveni vrućim tamnim umakom.", prica: "Nastao je pedesetih godina 20. stoljeća u seoskim zalogajnicama Québeca, a nekoliko se gradića i danas spori oko toga kojem pripada čast. Ime u domaćem govoru znači otprilike nered, što jelo vjerno opisuje." },
-    { ime: "Javorov sirup", opis: "Gusti sirup dobiven ukuhavanjem soka šećernog javora, potrebno ga je četrdesetak litara za jednu litru sirupa.", prica: "Vađenju soka doseljenike su naučili domorodački narodi. Québec danas proizvodi većinu svjetskog javorova sirupa i čak drži stratešku pričuvu u bačvama, da ublaži loše godine." },
-    { ime: "Butter tart", opis: "Mala košarica od prhkog tijesta punjena kremom od maslaca, šećera i jaja, koja se pri zagrizu razlijeva.", prica: "Jedan je od rijetkih kolača koji se smatraju izvorno kanadskima, a potječe iz Ontarija. Kanađani se strastveno dijele na one koji ga vole s grožđicama i one koji to smatraju pogreškom." },
-    { ime: "Nanaimo bar", opis: "Kolač koji se ne peče, s podlogom od keksa, kokosa i oraha, slojem žute kreme i čokoladom na vrhu.", prica: "Ime je dobio po gradu Nanaimu na otoku Vancouveru, gdje se recept pojavio sredinom 20. stoljeća. Grad danas ima i stazu po slastičarnicama koje ga rade na desetke načina." },
-    { ime: "Montrealski bagel", opis: "Manji, slađi i gušći od njujorškog, kuhan u vodi s medom i pečen u peći na drva.", prica: "Donijeli su ga židovski doseljenici iz istočne Europe početkom 20. stoljeća. Dvije stare pekarnice u četvrti Mile End rade danonoćno, pa se bageli kupuju još vrući, posuti sezamom." },
-    { ime: "Tourtière", opis: "Zatvorena pita od mljevenog mesa začinjena cimetom i klinčićem.", prica: "Tradicionalno je jelo frankokanadskog Božića i Nove godine, koje se jede nakon ponoćke. Svaka obitelj ima svoj recept, a u nekim krajevima Québeca radi se od divljači i krumpira na kockice." },
-    { ime: "Peameal bacon", opis: "Nedimljeni, salamureni svinjski kare uvaljan u kukuruznu krupicu, narezan na debele ploške i pečen.", prica: "Posebnost je Toronta, koji su zbog mesne industrije nekoć zvali Hogtown. Jede se u pecivu sa senfom, najbolje na tržnici St. Lawrence." },
-    { ime: "Caesar", opis: "Koktel od votke i soka od rajčice sa sokom od školjaka, začinjen ljutim umakom, s rubom čaše umočenim u začinsku sol.", prica: "Osmislio ga je 1969. barmen Walter Chell u Calgaryju, nadahnut talijanskim špagetima sa školjkama. Kanađani ga smatraju nacionalnim koktelom i najradije ga piju uz kasni doručak." },
-    { ime: "Ledeno vino", opis: "Slatko desertno vino od grožđa koje se bere smrznuto, pri najmanje osam stupnjeva ispod nule.", prica: "Kanada je najveći svjetski proizvođač, ponajprije u vinogorju Niagare. Iz smrznutih bobica istisne se tek nekoliko kapi gustog soka, pa se vino prodaje u malim bocama." }
+    { ime: "Poutine", opis: "French fries with fresh cheese curds that squeak between your teeth, smothered in hot brown gravy.", prica: "It originated in the 1950s in the country diners of Québec, and several small towns still argue over which of them deserves the honor. In local speech the name means roughly a mess, which describes the dish faithfully." },
+    { ime: "Maple syrup", opis: "A thick syrup made by boiling down the sap of the sugar maple, and it takes about forty liters of sap to make one liter of syrup.", prica: "It was the Indigenous peoples who taught the settlers how to tap the sap. Québec today produces most of the world's maple syrup and even keeps a strategic reserve in barrels to cushion the bad years." },
+    { ime: "Butter tart", opis: "A small shortcrust pastry shell filled with a custard of butter, sugar and eggs that runs when you bite into it.", prica: "It is one of the few pastries considered originally Canadian, and it comes from Ontario. Canadians are passionately divided into those who love it with raisins and those who consider that a mistake." },
+    { ime: "Nanaimo bar", opis: "A no-bake bar with a base of cookie crumbs, coconut and nuts, a layer of yellow custard cream and chocolate on top.", prica: "It takes its name from the city of Nanaimo on Vancouver Island, where the recipe appeared in the middle of the 20th century. The city now even has a trail of pastry shops that make it in dozens of ways." },
+    { ime: "Montréal bagel", opis: "Smaller, sweeter and denser than the New York bagel, boiled in honey water and baked in a wood-fired oven.", prica: "It was brought by Jewish immigrants from Eastern Europe at the beginning of the 20th century. Two old bakeries in the Mile End neighborhood work around the clock, so the bagels are bought still hot, coated in sesame seeds." },
+    { ime: "Tourtière", opis: "A double-crust pie of ground meat seasoned with cinnamon and cloves.", prica: "It is the traditional dish of French Canadian Christmas and New Year, eaten after midnight mass. Every family has its own recipe, and in some parts of Québec it is made with game and diced potatoes." },
+    { ime: "Peameal bacon", opis: "Unsmoked, brined pork loin rolled in cornmeal, cut into thick slices and griddled.", prica: "It is a specialty of Toronto, which was once nicknamed Hogtown for its meatpacking industry. It is eaten in a bun with mustard, best of all at the St. Lawrence Market." },
+    { ime: "Caesar", opis: "A cocktail of vodka and tomato juice with clam broth, seasoned with hot sauce and served in a glass rimmed with spiced salt.", prica: "It was invented in 1969 by the bartender Walter Chell in Calgary, inspired by Italian spaghetti with clams. Canadians regard it as their national cocktail and like it best with brunch." },
+    { ime: "Icewine", opis: "A sweet dessert wine made from grapes that are harvested frozen, at a minimum of eight degrees below zero.", prica: "Canada is the world's largest producer, above all in the Niagara wine region. Only a few drops of thick juice can be pressed from the frozen berries, so the wine is sold in small bottles." }
   ],
   obicaji: [
-    { ime: "Hokej na ledu", opis: "Hokej je ovdje više od sporta: djeca ga igraju na zaleđenim jezercima i u dvorištima, a subotnji televizijski prijenos obiteljski je običaj još od radijskih vremena. Kup Stanley, za koji se igra od 1893., najstariji je trofej profesionalnog sporta u Sjevernoj Americi.", gdje: "Utakmica u Montréalu ili Torontu od listopada do travnja, te Hokejaška kuća slavnih u Torontu, gdje je izložen Kup Stanley." },
-    { ime: "Cabane à sucre", opis: "U rano proljeće, kada sok javora poteče, obitelji u Québecu odlaze u drvene kolibe u šumi na obilan ručak u kojem je sve preliveno sirupom. Na kraju se vrući sirup izlijeva na snijeg i namata na štapić kao karamela.", gdje: "Sela oko Montréala i grada Québeca te otok Orléans, od ožujka do kraja travnja." },
-    { ime: "Totemski stupovi i umjetnost zapadne obale", opis: "Narodi sjeverozapadne obale rezbare od cedrovine visoke stupove s likovima gavrana, orla, medvjeda i kita, koji pripovijedaju povijest i prava jedne obitelji. To nisu vjerski predmeti, nego nešto poput grba i obiteljske kronike.", gdje: "Muzej antropologije i park Stanley u Vancouveru te Kraljevski muzej Britanske Kolumbije u Victoriji." },
-    { ime: "Powwow", opis: "Okupljanje domorodačkih naroda s plesom uz velike bubnjeve, u nošnjama ukrašenima perjem, perlama i zvončićima. Posjetitelji su dobrodošli, a voditelj objavljuje kada se smije fotografirati.", gdje: "Održavaju se cijelog ljeta diljem zemlje, a Dan domorodačkih naroda obilježava se 21. lipnja." },
-    { ime: "Keltska glazba Cape Bretona", opis: "Škotski gorštaci koji su se u 18. i 19. stoljeću naselili u Novoj Škotskoj sačuvali su način sviranja gusala koji je u samoj Škotskoj gotovo nestao. Na seoskim zabavama zvanima ceilidh svira se, pleše i pripovijeda.", gdje: "Otok Cape Breton, osobito u listopadu tijekom festivala Celtic Colours." },
-    { ime: "Calgary Stampede", opis: "Deset dana rodea, utrka zaprežnih kola i povorki, tijekom kojih cijeli grad nosi kaubojske šešire i doručkuje besplatne palačinke na ulici. Održava se od 1912. i čuva sjećanje na stočarsku prošlost prerija.", gdje: "Calgary, početkom srpnja, sat i pol vožnje od Banffa." },
-    { ime: "Zimske svečanosti", opis: "Umjesto da se skrivaju od hladnoće, Kanađani je slave skulpturama od leda, klizanjem i noćnim povorkama. Zaštitno lice karnevala u Québecu je Bonhomme, nasmijani snjegović s crvenom kapom i šarenim pojasom.", gdje: "Carnaval de Québec u gradu Québecu i Winterlude u Ottawi, oba u veljači." }
+    { ime: "Ice hockey", opis: "Hockey here is more than a sport: children play it on frozen ponds and in backyards, and the Saturday television broadcast has been a family ritual since the days of radio. The Stanley Cup, which has been played for since 1893, is the oldest trophy in professional sports in North America.", gdje: "A game in Montréal or Toronto from October to April, and the Hockey Hall of Fame in Toronto, where the Stanley Cup is on display." },
+    { ime: "Cabane à sucre", opis: "In early spring, when the maple sap starts to run, families in Québec head to wooden cabins in the woods for a hearty lunch in which everything is drenched in syrup. At the end, hot syrup is poured onto snow and rolled onto a stick like taffy.", gdje: "The villages around Montréal and Québec City and the Île d'Orléans, from March to the end of April." },
+    { ime: "Totem poles and the art of the west coast", opis: "The peoples of the Northwest Coast carve tall poles from cedar with the figures of the raven, the eagle, the bear and the whale, which recount the history and the rights of a single family. They are not religious objects but something closer to a coat of arms and a family chronicle.", gdje: "The Museum of Anthropology and Stanley Park in Vancouver, and the Royal BC Museum in Victoria." },
+    { ime: "Powwow", opis: "A gathering of Indigenous peoples with dancing to large drums, in regalia decorated with feathers, beads and little bells. Visitors are welcome, and the master of ceremonies announces when photography is allowed.", gdje: "They are held all summer long across the country, and National Indigenous Peoples Day is marked on June 21." },
+    { ime: "The Celtic music of Cape Breton", opis: "The Scottish Highlanders who settled in Nova Scotia in the 18th and 19th centuries preserved a style of fiddle playing that has almost vanished in Scotland itself. At the village gatherings called ceilidhs there is music, dancing and storytelling.", gdje: "Cape Breton Island, especially in October during the Celtic Colours festival." },
+    { ime: "Calgary Stampede", opis: "Ten days of rodeo, chuckwagon races and parades, during which the whole city wears cowboy hats and eats free pancake breakfasts in the street. It has been held since 1912 and keeps alive the memory of the ranching past of the prairies.", gdje: "Calgary, in early July, an hour and a half's drive from Banff." },
+    { ime: "Winter festivities", opis: "Instead of hiding from the cold, Canadians celebrate it with ice sculptures, skating and night parades. The face of the carnival in Québec City is Bonhomme, a smiling snowman with a red cap and a colorful sash.", gdje: "The Carnaval de Québec in Québec City and Winterlude in Ottawa, both in February." }
   ],
   fraze: [
-    { izvorno: "Bonjour", izgovor: "bon-ŽUR", hr: "Dobar dan (u Québecu se često čuje i „Bonjour, hi“)" },
-    { izvorno: "Merci beaucoup", izgovor: "mer-SI bo-KU", hr: "Puno hvala" },
-    { izvorno: "S'il vous plaît", izgovor: "sil vu PLE", hr: "Molim" },
-    { izvorno: "Parlez-vous anglais?", izgovor: "par-LE vu an-GLE", hr: "Govorite li engleski?" },
-    { izvorno: "L'addition, s'il vous plaît", izgovor: "la-di-SJON, sil vu PLE", hr: "Račun, molim" },
-    { izvorno: "Excuse me, sorry", izgovor: "eks-KJUZ mi, SO-ri", hr: "Oprostite (Kanađani se ispričavaju i kada nisu krivi)" },
-    { izvorno: "A double-double, please", izgovor: "e DA-bl DA-bl, pliz", hr: "Kavu s dva vrhnja i dva šećera, molim" },
-    { izvorno: "Where is the washroom?", izgovor: "ver iz d VOŠ-rum", hr: "Gdje je zahod? (u Kanadi se kaže washroom)" }
+    { izvorno: "Bonjour", izgovor: "bohn-ZHOOR", hr: "Hello, good day (in Québec you will often also hear “Bonjour, hi”)" },
+    { izvorno: "Merci beaucoup", izgovor: "mehr-SEE boh-KOO", hr: "Thank you very much" },
+    { izvorno: "S'il vous plaît", izgovor: "seel voo PLEH", hr: "Please" },
+    { izvorno: "Parlez-vous anglais?", izgovor: "par-LAY voo ahn-GLEH", hr: "Do you speak English?" },
+    { izvorno: "L'addition, s'il vous plaît", izgovor: "lah-dee-SYOHN, seel voo PLEH", hr: "The check, please" },
+    { izvorno: "Excuse me, sorry", izgovor: "ek-SKYOOZ mee, SORE-ee", hr: "Excuse me (Canadians apologize even when it is not their fault)" },
+    { izvorno: "A double-double, please", izgovor: "uh DUH-bul DUH-bul, pleez", hr: "A coffee with two creams and two sugars, please" },
+    { izvorno: "Where is the washroom?", izgovor: "wair iz thuh WOSH-room", hr: "Where is the restroom? (in Canada people say washroom)" }
   ],
   zanimljivosti: [
-    "Kanada ima najdulju obalu na svijetu, a s više stotina tisuća jezera ima ih više nego ijedna druga zemlja.",
-    "Zemlja se proteže kroz šest vremenskih zona, a Newfoundland je od susjeda pomaknut za neobičnih pola sata.",
-    "Inzulin su 1921. na Sveučilištu u Torontu otkrili Frederick Banting i Charles Best, a patent su sveučilištu ustupili za simboličan dolar.",
-    "Košarku je 1891. izmislio Kanađanin James Naismith, koji je tada radio kao učitelj tjelesnog u Massachusettsu.",
-    "Kovanica od jednog dolara zove se loonie po ptici plijenoru, na engleskom loon, koja je na njoj prikazana.",
-    "Pokrajina Ontario ima zakon prema kojem se isprika ne smatra priznanjem krivnje, jer se Kanađani ispričavaju toliko često.",
-    "Na kanadskoj strani slapova Niagare stoji brončani spomenik Nikoli Tesli, rođenom u Smiljanu u Lici, čiji je sustav izmjenične struje ovdje prvi put primijenjen u velikim razmjerima.",
-    "Javorov list na zastavi ima jedanaest vrhova, a zastava je usvojena tek 1965."
+    "Canada has the longest coastline in the world, and with several hundred thousand lakes it has more of them than any other country.",
+    "The country spans six time zones, and Newfoundland is offset from its neighbors by an unusual half hour.",
+    "Insulin was discovered in 1921 at the University of Toronto by Frederick Banting and Charles Best, who handed the patent over to the university for a symbolic dollar.",
+    "Basketball was invented in 1891 by the Canadian James Naismith, who was working at the time as a physical education teacher in Massachusetts.",
+    "The one-dollar coin is called the loonie after the loon, the bird that is pictured on it.",
+    "The province of Ontario has a law under which an apology does not count as an admission of guilt, because Canadians apologize so often.",
+    "On the Canadian side of Niagara Falls stands a bronze monument to Nikola Tesla, born in Smiljan in the Lika region of Croatia, whose alternating current system was first applied here on a large scale.",
+    "The maple leaf on the flag has eleven points, and the flag was adopted only in 1965."
   ],
   mjesta: [
     {
       id: "toronto",
       ime: "Toronto",
       vrsta: "grad",
-      sazetak: "Najveći kanadski grad, u kojem je više od polovice stanovnika rođeno izvan zemlje, pa se svijet može obići tramvajem.",
+      sazetak: "Canada's largest city, where more than half the residents were born outside the country, so you can travel the world by streetcar.",
       prica: [
-        "Britanski namjesnik John Graves Simcoe osnovao je 1793. na obali jezera Ontario naselje York kao glavni grad Gornje Kanade. Američka vojska spalila ga je 1813., a 1834. grad je uzeo ime Toronto, koje potječe iz jezika domorodačkih naroda.",
-        "Dugo je bio ozbiljan i pomalo strog protestantski grad, a preobrazili su ga valovi doseljenika nakon Drugog svjetskog rata. Danas se sastoji od niza četvrti s vlastitim jezikom i kuhinjom, od kineske i portugalske do karipske."
+        "In 1793 the British lieutenant governor John Graves Simcoe founded the settlement of York on the shore of Lake Ontario as the capital of Upper Canada. The army of the USA burned it in 1813, and in 1834 the city took the name Toronto, which comes from the language of the Indigenous peoples.",
+        "For a long time it was a serious and rather strict Protestant city, and it was transformed by the waves of immigrants after the Second World War. Today it is made up of a string of neighborhoods with their own language and cuisine, from Chinese and Portuguese to Caribbean."
       ],
       vidjeti: [
-        { ime: "CN Tower", opis: "Toranj visok 553 metra sagradila je 1976. željeznička tvrtka kao odašiljač, jer su novi neboderi ometali signal. Više od trideset godina bio je najviša samostojeća građevina na svijetu, a na vidikovcu se može stati na stakleni pod." },
-        { ime: "Tržnica St. Lawrence", opis: "Na ovom se mjestu trguje od 1803., a u zgradu je ugrađeno pročelje stare gradske vijećnice, koje se vidi iznutra. Na katu je mala galerija s pogledom na štandove." },
-        { ime: "Distillery District", opis: "Kompleks zgrada od crvene opeke bio je sredinom 19. stoljeća jedna od najvećih destilerija viskija na svijetu. Danas je to pješačka četvrt galerija i kavana s najbolje očuvanom viktorijanskom industrijskom arhitekturom u Sjevernoj Americi." },
-        { ime: "Royal Ontario Museum", opis: "Na staru zgradu muzeja 2007. je prema zamisli Daniela Libeskinda dograđen kristal od stakla i aluminija, koji izgleda kao da je probio pročelje. Unutra su dinosauri, kineske hramske freske i velika zbirka umjetnosti Prvih naroda." },
-        { ime: "Kensington Market i Chinatown", opis: "Uske ulice s viktorijanskim kućama nekoć su bile židovska tržnica, a danas su mješavina karipskih, latinoameričkih i azijskih trgovina. Automobil zasađen biljem na uglu služi kao neslužbeni spomenik četvrti." },
-        { ime: "Casa Loma", opis: "Dvorac s 98 soba sagradio je 1914. financijer Henry Pellatt, koji se obogatio dovodeći struju s Niagare. Uživao je u njemu manje od deset godina prije nego što je bankrotirao, a tajni prolazi i tunel do konjušnice i danas su otvoreni." }
+        { ime: "CN Tower", opis: "The 553-meter tower was built in 1976 by a railway company as a transmission tower, because the new skyscrapers were interfering with the signal. For more than thirty years it was the tallest freestanding structure in the world, and on the observation level you can stand on a glass floor." },
+        { ime: "St. Lawrence Market", opis: "People have been trading on this spot since 1803, and the facade of the old city hall is built into the market building, where you can see it from the inside. Upstairs there is a small gallery with a view over the stalls." },
+        { ime: "Distillery District", opis: "In the middle of the 19th century this complex of red-brick buildings was one of the largest whisky distilleries in the world. Today it is a pedestrian district of galleries and cafes with the best-preserved Victorian industrial architecture in North America." },
+        { ime: "Royal Ontario Museum", opis: "In 2007 a crystal of glass and aluminum, designed by Daniel Libeskind, was added to the old museum building, and it looks as though it has burst through the facade. Inside are dinosaurs, Chinese temple murals and a large collection of First Nations art." },
+        { ime: "Kensington Market and Chinatown", opis: "The narrow streets of Victorian houses were once a Jewish market, and today they are a mix of Caribbean, Latin American and Asian shops. A car planted with greenery on one corner serves as the neighborhood's unofficial monument." },
+        { ime: "Casa Loma", opis: "The 98-room castle was built in 1914 by the financier Henry Pellatt, who made his fortune bringing electricity from Niagara. He enjoyed it for less than ten years before going bankrupt, and the secret passages and the tunnel to the stables are still open today." }
       ],
       jesti: [
-        { ime: "Sendvič s peameal slaninom", opis: "Debele ploške pečenog svinjskog karea u mekom pecivu, zaštitni znak tržnice St. Lawrence." },
-        { ime: "Jamajčanska pašteta", opis: "Žuto prhko tijesto punjeno ljutom mljevenom govedinom, koje se prodaje i na postajama podzemne željeznice, podsjetnik na veliku karipsku zajednicu." },
-        { ime: "Butter tart", opis: "Košarica s kremom od maslaca i šećera, koju ćete naći u pekarnicama i na tržnicama diljem Ontarija." }
+        { ime: "Peameal bacon sandwich", opis: "Thick slices of griddled pork loin in a soft bun, the signature of the St. Lawrence Market." },
+        { ime: "Jamaican patty", opis: "Yellow flaky pastry filled with spicy ground beef, sold even in subway stations, a reminder of the large Caribbean community." },
+        { ime: "Butter tart", opis: "A pastry shell with a filling of butter and sugar, which you will find in bakeries and at markets all over Ontario." }
       ],
       dozivjeti: [
-        { ime: "Trajektom na Torontske otoke", opis: "Ako želite najljepši pogled na grad, prijeđite na otoke bez automobila, do kojih se plovi petnaestak minuta, i unajmite bicikl." },
-        { ime: "Hokejaška kuća slavnih", opis: "U nekadašnjoj banci, pod staklenom kupolom, izložen je Kup Stanley, koji se smije dotaknuti i fotografirati.", link: "https://www.hhof.com/" },
-        { ime: "Šetnje s lokalnim povjesničarima", opis: "Gradska zaklada za baštinu organizira od proljeća do jeseni šetnje po četvrtima, koje vode volonteri i stručnjaci.", link: "https://www.heritagetoronto.org/" },
-        { ime: "Jutro na tržnici", opis: "Subotom se uz stalne štandove održava i tržnica farmera iz okolice.", link: "https://www.stlawrencemarket.com/" }
+        { ime: "By ferry to the Toronto Islands", opis: "If you want the best view of the city, cross over to the car-free islands, a sail of about fifteen minutes, and rent a bicycle." },
+        { ime: "Hockey Hall of Fame", opis: "In a former bank, under a stained-glass dome, the Stanley Cup is on display, and you are allowed to touch it and take photographs.", link: "https://www.hhof.com/" },
+        { ime: "Walks with local historians", opis: "From spring to fall the city's heritage foundation organizes neighborhood walks led by volunteers and experts.", link: "https://www.heritagetoronto.org/" },
+        { ime: "A morning at the market", opis: "On Saturdays a market of farmers from the surrounding area is held alongside the permanent stalls.", link: "https://www.stlawrencemarket.com/" }
       ],
       agencije: [
-        { ime: "Destination Toronto", opis: "Službena turistička organizacija grada.", link: "https://www.destinationtoronto.com/" },
-        { ime: "Heritage Toronto", opis: "Gradska zaklada koja organizira vođene šetnje o povijesti i arhitekturi.", link: "https://www.heritagetoronto.org/" }
+        { ime: "Destination Toronto", opis: "The city's official tourism organization.", link: "https://www.destinationtoronto.com/" },
+        { ime: "Heritage Toronto", opis: "The city foundation that organizes guided walks on history and architecture.", link: "https://www.heritagetoronto.org/" }
       ],
-      kada: "Od svibnja do listopada. U rujnu se održava međunarodni filmski festival, a zimi se velik dio središta može prehodati podzemnim prolazima."
+      kada: "From May to October. The international film festival is held in September, and in winter you can cross much of downtown on foot through underground passages."
     },
     {
       id: "niagara",
-      ime: "Slapovi Niagare",
+      ime: "Niagara Falls",
       vrsta: "priroda",
-      sazetak: "Tri slapa na granici Kanade i SAD-a, na kojima je Teslina izmjenična struja prvi put osvijetlila grad.",
+      sazetak: "Three waterfalls on the border between Canada and the USA, where Tesla's alternating current lit up a city for the first time.",
       prica: [
-        "Slapovi su nastali prije otprilike dvanaest tisuća godina, kada se povukao ledeni pokrov, i otada su se zbog erozije pomaknuli jedanaest kilometara uzvodno. Najveći, u obliku potkove, pripada Kanadi, a manja dva leže na strani SAD-a.",
-        "Krajem 19. stoljeća ovdje je sagrađena prva velika hidroelektrana na izmjeničnu struju, prema patentima Nikole Tesle, koja je 1896. poslala struju u četrdesetak kilometara udaljeni Buffalo. Teslin spomenik stoji s obje strane rijeke."
+        "The falls were formed roughly twelve thousand years ago, when the ice sheet retreated, and since then erosion has moved them eleven kilometers upstream. The largest, shaped like a horseshoe, belongs to Canada, while the two smaller ones lie on the USA side.",
+        "At the end of the 19th century the first large alternating current hydroelectric plant was built here, based on the patents of Nikola Tesla, and in 1896 it sent electricity to Buffalo, some forty kilometers away. A monument to Tesla stands on both sides of the river."
       ],
       vidjeti: [
-        { ime: "Slap Potkova", opis: "Preko ruba širokog gotovo 700 metara i visokog 57 metara prelijeva se oko devet desetina vode rijeke Niagare. Noću se protok namjerno smanjuje, jer se više vode preusmjerava u elektrane." },
-        { ime: "Spomenik Nikoli Tesli", opis: "U parku Queen Victoria, s pogledom na slap, od 2006. stoji brončani Tesla u dugom kaputu, sa štapom i cilindrom u ruci, na postolju u obliku motora na izmjeničnu struju. Na strani SAD-a, na otoku Goat, nalazi se stariji kip sjedećeg Tesle, rad hrvatskog kipara Frane Kršinića, darovan 1976." },
-        { ime: "Elektrana Niagara Parks", opis: "Elektrana iz 1905. radila je stotinu godina, a danas se u njoj razgledavaju izvorni generatori. Dizalom se spušta u tunel dug više od 600 metara, kojim je voda otjecala natrag u rijeku, sve do izlaza u podnožju slapa." },
-        { ime: "Journey Behind the Falls", opis: "Tuneli probijeni kroz stijenu vode do otvora iza same vodene zavjese, gdje se osjeti kako tlo podrhtava. Vanjska terasa nalazi se tik uz podnožje slapa." },
-        { ime: "Niagara-on-the-Lake", opis: "Gradić na ušću rijeke bio je 1792. prvi glavni grad Gornje Kanade, a američka ga je vojska spalila 1813., pa su njegove skladne kuće iz godina obnove. Okružen je vinogradima i poznat po kazališnom festivalu posvećenom Georgeu Bernardu Shawu." },
-        { ime: "Niagara Parkway", opis: "Cesta duga pedesetak kilometara prati rijeku od jezera Erie do jezera Ontario, kroz voćnjake i vinograde. Uz nju su vrtlog Whirlpool u klancu i cvjetni sat promjera dvanaest metara." }
+        { ime: "Horseshoe Falls", opis: "About nine tenths of the water of the Niagara River pours over a brink almost 700 meters wide and 57 meters high. At night the flow is deliberately reduced, because more water is diverted to the power plants." },
+        { ime: "The Nikola Tesla monument", opis: "In Queen Victoria Park, with a view of the falls, a bronze Tesla has stood since 2006 in a long coat, with a cane and a top hat in his hand, on a pedestal shaped like an alternating current motor. On the USA side, on Goat Island, there is an older statue of a seated Tesla, the work of the Croatian sculptor Frano Kršinić, donated in 1976." },
+        { ime: "Niagara Parks Power Station", opis: "The power station from 1905 ran for a hundred years, and today you can tour its original generators. An elevator takes you down into a tunnel more than 600 meters long, through which the water flowed back into the river, all the way to the outlet at the foot of the falls." },
+        { ime: "Journey Behind the Falls", opis: "Tunnels bored through the rock lead to openings right behind the curtain of water, where you can feel the ground tremble. The outdoor terrace sits right beside the foot of the falls." },
+        { ime: "Niagara-on-the-Lake", opis: "The small town at the mouth of the river was the first capital of Upper Canada in 1792, and the army of the USA burned it in 1813, so its harmonious houses date from the years of rebuilding. It is surrounded by vineyards and known for its theater festival dedicated to George Bernard Shaw." },
+        { ime: "Niagara Parkway", opis: "A road some fifty kilometers long follows the river from Lake Erie to Lake Ontario, through orchards and vineyards. Along it are the Whirlpool in the gorge and a floral clock twelve meters in diameter." }
       ],
       jesti: [
-        { ime: "Ledeno vino", opis: "Slatko vino od smrznutog grožđa kuša se u vinarijama oko Niagara-on-the-Lakea, a u siječnju mu je posvećen festival." },
-        { ime: "Breskve i trešnje s Niagare", opis: "Poluotok između dva jezera ima blagu klimu, pa su ljeti uz cestu štandovi s voćem i pitama." },
-        { ime: "Vina hladne klime", opis: "Rizling, chardonnay i crni pinot uspijevaju na obroncima iznad jezera Ontario, a mnoge vinarije nude ručak s pogledom na trsje." }
+        { ime: "Icewine", opis: "The sweet wine made from frozen grapes can be tasted at the wineries around Niagara-on-the-Lake, and in January a festival is devoted to it." },
+        { ime: "Niagara peaches and cherries", opis: "The peninsula between the two lakes has a mild climate, so in summer the roadside is lined with stands selling fruit and pies." },
+        { ime: "Cool-climate wines", opis: "Riesling, chardonnay and pinot noir thrive on the slopes above Lake Ontario, and many wineries offer lunch with a view of the vines." }
       ],
       dozivjeti: [
-        { ime: "Brodom pod slap", opis: "Ako želite osjetiti snagu vode na vlastitoj koži, ukrcajte se na brod koji uplovljava u oblak vodene prašine u samoj potkovi. Kabanica se dobije, no ipak ćete se smočiti.", link: "https://niagaracitycruises.com/" },
-        { ime: "Tunel stare elektrane", opis: "Ovo je najbolje mjesto da shvatite kako je Teslina zamisao pretvorena u struju, a uvečer se u dvorani generatora održava svjetlosna predstava.", link: "https://www.niagaraparks.com/visit/attractions/niagara-parks-power-station" },
-        { ime: "Predstava na Shaw Festivalu", opis: "Kazališna sezona u Niagara-on-the-Lakeu traje od proljeća do zime i jedna je od najuglednijih u zemlji.", link: "https://www.shawfest.com/" }
+        { ime: "By boat beneath the falls", opis: "If you want to feel the power of the water on your own skin, board the boat that sails into the cloud of mist inside the horseshoe itself. You are given a poncho, but you will get wet all the same.", link: "https://niagaracitycruises.com/" },
+        { ime: "The tunnel of the old power station", opis: "This is the best place to understand how Tesla's idea was turned into electricity, and in the evening a light show is held in the generator hall.", link: "https://www.niagaraparks.com/visit/attractions/niagara-parks-power-station" },
+        { ime: "A play at the Shaw Festival", opis: "The theater season in Niagara-on-the-Lake runs from spring to winter and is one of the most respected in the country.", link: "https://www.shawfest.com/" }
       ],
       agencije: [
-        { ime: "Niagara Parks", opis: "Agencija vlade Ontarija koja od 1885. skrbi o parkovima i atrakcijama uz slapove.", link: "https://www.niagaraparks.com/" },
-        { ime: "Niagara Falls Tourism", opis: "Službena turistička organizacija grada Niagara Falls.", link: "https://www.niagarafallstourism.com/" },
-        { ime: "Niagara-on-the-Lake Tourism", opis: "Službena turistička stranica gradića i vinske regije.", link: "https://www.niagaraonthelake.com/" }
+        { ime: "Niagara Parks", opis: "The Ontario government agency that has cared for the parks and attractions along the falls since 1885.", link: "https://www.niagaraparks.com/" },
+        { ime: "Niagara Falls Tourism", opis: "The official tourism organization of the city of Niagara Falls.", link: "https://www.niagarafallstourism.com/" },
+        { ime: "Niagara-on-the-Lake Tourism", opis: "The official tourism website of the town and the wine region.", link: "https://www.niagaraonthelake.com/" }
       ],
-      kada: "Od svibnja do listopada, kada voze brodovi. Dođite rano ujutro ili navečer, kada su slapovi osvijetljeni, a ne propustite ni zimski prizor leda i pare."
+      kada: "From May to October, when the boats are running. Come early in the morning or in the evening, when the falls are illuminated, and do not miss the winter scene of ice and mist either."
     },
     {
       id: "montreal",
       ime: "Montréal",
       vrsta: "grad",
-      sazetak: "Najveći grad francuskog govornog područja u Sjevernoj Americi, s europskom starom jezgrom, vanjskim stubištima i festivalima cijelog ljeta.",
+      sazetak: "The largest French-speaking city in North America, with a European old town, outdoor staircases and festivals all summer long.",
       prica: [
-        "Skupina francuskih misionara, koju su vodili Paul de Chomedey de Maisonneuve i bolničarka Jeanne Mance, osnovala je 1642. na otoku u rijeci Svetog Lovre naselje Ville-Marie. Ono je izraslo u središte trgovine krznom, a u 19. stoljeću u najveću luku i industrijski grad Kanade.",
-        "Grad je ime dobio po brdu Mont Royal, koje se uzdiže u njegovu središtu. Svjetska izložba 1967. i Olimpijske igre 1976. ostavile su mu smjelu arhitekturu, a francuski jezik i ljubav prema dobrom stolu čine ga posebnim na kontinentu."
+        "In 1642 a group of French missionaries, led by Paul de Chomedey de Maisonneuve and the nurse Jeanne Mance, founded the settlement of Ville-Marie on an island in the St. Lawrence River. It grew into the center of the fur trade, and in the 19th century into Canada's largest port and industrial city.",
+        "The city takes its name from Mont Royal, the hill that rises at its center. The 1967 World's Fair and the 1976 Olympic Games left it with bold architecture, while the French language and a love of good food set it apart on the continent."
       ],
       vidjeti: [
-        { ime: "Bazilika Notre-Dame", opis: "Neogotičku crkvu sagradio je od 1824. do 1829. James O'Donnell, irski protestant iz New Yorka, koji se obratio na katoličanstvo da bi mogao biti pokopan u njezinoj kripti. Svod je tamnoplav i posut zlatnim zvijezdama, a vitraji prikazuju povijest grada umjesto biblijskih prizora." },
-        { ime: "Stari Montréal", opis: "Popločene ulice uz luku čuvaju kamene kuće iz 18. i 19. stoljeća. Na trgu Place d'Armes dvije skulpture, Englez s mopsom i Francuskinja s pudlom, prkosno gledaju svaka na svoju stranu." },
-        { ime: "Pointe-à-Callière", opis: "Muzej arheologije sagrađen je točno iznad mjesta na kojem je grad osnovan. Ispod zemlje hoda se među temeljima prvih kuća i kroz stari kanal za otpadne vode." },
-        { ime: "Mont Royal", opis: "Park na brdu uredio je 1876. Frederick Law Olmsted, koji je oblikovao i njujorški Central Park. S vidikovca Kondiaronk vidi se cijelo središte, u kojem nijedna zgrada ne smije nadvisiti brdo." },
-        { ime: "Plateau i Mile End", opis: "Kuće u ovim četvrtima imaju vijugava željezna stubišta izvana, jer se tako štedio prostor u stanovima. Zimi su zloglasno skliska, a ljeti su ukras ulica." },
-        { ime: "Habitat 67", opis: "Stambeni kompleks od 354 betonske kocke naslagane poput dječjih kocaka projektirao je Moshe Safdie kao studentski rad, a sagrađen je za svjetsku izložbu. Svaki stan ima terasu na krovu susjeda." }
+        { ime: "Notre-Dame Basilica", opis: "The Gothic Revival church was built from 1824 to 1829 by James O'Donnell, an Irish Protestant from New York, who converted to Catholicism so that he could be buried in its crypt. The vault is deep blue and scattered with golden stars, and the stained-glass windows depict the history of the city instead of biblical scenes." },
+        { ime: "Old Montréal", opis: "The cobbled streets by the port preserve stone houses from the 18th and 19th centuries. On the Place d'Armes two sculptures, an Englishman with a pug and a Frenchwoman with a poodle, defiantly look off in opposite directions." },
+        { ime: "Pointe-à-Callière", opis: "The archaeology museum is built directly above the spot where the city was founded. Below ground you walk among the foundations of the first houses and through an old sewer." },
+        { ime: "Mont Royal", opis: "The park on the hill was laid out in 1876 by Frederick Law Olmsted, who also designed New York's Central Park. From the Kondiaronk lookout you can see the whole downtown, where no building is allowed to rise higher than the hill." },
+        { ime: "The Plateau and Mile End", opis: "The houses in these neighborhoods have winding iron staircases on the outside, because that saved space inside the apartments. In winter they are notoriously slippery, and in summer they are the ornament of the streets." },
+        { ime: "Habitat 67", opis: "The housing complex of 354 concrete cubes stacked like children's blocks was designed by Moshe Safdie as a student project and built for the World's Fair. Every apartment has a terrace on its neighbor's roof." }
       ],
       jesti: [
-        { ime: "Bagel iz peći na drva", opis: "Kupuje se vruć u pekarnicama četvrti Mile End, koje rade i noću, i jede bez ičega." },
-        { ime: "Smoked meat", opis: "Goveđa prsa tjedan dana odležavaju u začinima, potom se dime i kuhaju na pari, a režu se ručno i slažu na raženi kruh sa senfom. Tradicija židovskih zalogajnica na bulevaru Saint-Laurent traje od 1920-ih." },
-        { ime: "Poutine", opis: "U Montréalu se jede u svako doba, a najviše nakon ponoći, u zalogajnicama koje nude desetke inačica." }
+        { ime: "Bagel from a wood-fired oven", opis: "You buy it hot in the bakeries of Mile End, which stay open through the night, and eat it plain." },
+        { ime: "Smoked meat", opis: "Beef brisket is cured in spices for a week, then smoked and steamed, and it is sliced by hand and piled onto rye bread with mustard. The tradition of the Jewish delis on Saint-Laurent Boulevard goes back to the 1920s." },
+        { ime: "Poutine", opis: "In Montréal it is eaten at any hour, and most of all after midnight, in diners that offer dozens of versions." }
       ],
       dozivjeti: [
-        { ime: "Međunarodni festival jazza", opis: "Krajem lipnja i početkom srpnja središte grada zatvara se za promet, a većina koncerata na otvorenom je besplatna. Festival slovi kao najveći jazz festival na svijetu.", link: "https://montrealjazzfest.com/" },
-        { ime: "Tržnica Jean-Talon", opis: "Ako želite kušati Québec na jednom mjestu, ovdje su sirevi, javorovi proizvodi i ljetno voće, a prodavači nude komadiće na kušanje.", link: "https://www.marchespublics-mtl.com/" },
-        { ime: "Nedjeljni tam-tam", opis: "Od svibnja do rujna podno brda Mont Royal nedjeljom se spontano okupljaju stotine bubnjara i plesača." },
-        { ime: "Šetnja Starim Montréalom s vodičem", opis: "Licencirani gradski vodiči vode šetnje kroz staru jezgru i objašnjavaju pročelja, trgove i nekadašnju luku.", link: "https://www.guidatour.qc.ca/" }
+        { ime: "International Jazz Festival", opis: "In late June and early July downtown is closed to traffic, and most of the outdoor concerts are free. The festival is reputed to be the largest jazz festival in the world.", link: "https://montrealjazzfest.com/" },
+        { ime: "Jean-Talon Market", opis: "If you want to taste Québec in one place, here you will find cheeses, maple products and summer fruit, and the vendors offer little pieces to sample.", link: "https://www.marchespublics-mtl.com/" },
+        { ime: "The Sunday tam-tams", opis: "From May to September hundreds of drummers and dancers gather spontaneously on Sundays at the foot of Mont Royal." },
+        { ime: "A guided walk through Old Montréal", opis: "Licensed city guides lead walks through the old town and explain the facades, the squares and the former port.", link: "https://www.guidatour.qc.ca/" }
       ],
       agencije: [
-        { ime: "Tourisme Montréal", opis: "Službena turistička organizacija grada.", link: "https://www.mtl.org/en" },
-        { ime: "Guidatour", opis: "Agencija koja okuplja licencirane vodiče i organizira pješačke ture.", link: "https://www.guidatour.qc.ca/" }
+        { ime: "Tourisme Montréal", opis: "The city's official tourism organization.", link: "https://www.mtl.org/en" },
+        { ime: "Guidatour", opis: "An agency that brings together licensed guides and organizes walking tours.", link: "https://www.guidatour.qc.ca/" }
       ],
-      kada: "Od lipnja do rujna zbog festivala i terasa, a početkom listopada zbog boja na brdu Mont Royal. Zimi se grad povlači u tridesetak kilometara podzemnih prolaza."
+      kada: "From June to September for the festivals and the terraces, and in early October for the colors on Mont Royal. In winter the city retreats into some thirty kilometers of underground passages."
     },
     {
       id: "quebec",
-      ime: "Québec",
+      ime: "Québec City",
       vrsta: "grad",
-      sazetak: "Jedini grad sjeverno od Meksika koji je sačuvao zidine, s francuskim trgovima, strmim ulicama i dvorcem iznad rijeke.",
+      sazetak: "The only city north of Mexico that has kept its walls, with French squares, steep streets and a castle above the river.",
       prica: [
-        "Samuel de Champlain osnovao je grad 1608. na stijeni iznad suženja rijeke Svetog Lovre, a ime na jeziku Algonkina znači mjesto gdje se rijeka sužava. Bio je prijestolnica Nove Francuske sve do 1759., kada su ga Britanci osvojili u bitki koja je trajala manje od pola sata i u kojoj su poginula oba zapovjednika.",
-        "Stanovnici su unatoč britanskoj vlasti sačuvali jezik, vjeru i običaje. Stara jezgra unutar zidina od 1985. nalazi se na UNESCO-ovu popisu svjetske baštine."
+        "Samuel de Champlain founded the city in 1608 on a cliff above a narrowing of the St. Lawrence River, and the name in the Algonquin language means the place where the river narrows. It was the capital of New France until 1759, when the British captured it in a battle that lasted less than half an hour and in which both commanders were killed.",
+        "Despite British rule the inhabitants kept their language, their faith and their customs. The old town within the walls has been on the UNESCO World Heritage List since 1985."
       ],
       vidjeti: [
-        { ime: "Château Frontenac", opis: "Zgrada koja izgleda kao dvorac s Loire zapravo je hotel koji je 1893. sagradila željeznička tvrtka da privuče putnike. Ovdje su se 1943. i 1944. sastali Churchill i Roosevelt i dogovarali iskrcavanje u Normandiji." },
-        { ime: "Place Royale i Petit-Champlain", opis: "Na malom trgu u Donjem gradu Champlain je podigao prvu nastambu, a crkva Notre-Dame-des-Victoires iz 1688. ima oltar u obliku utvrde. Pod stropom visi model broda, zavjetni dar za sretnu plovidbu." },
-        { ime: "Mural Québečana", opis: "Golema oslikana zabat-stijena uz Place Royale prikazuje četiri stoljeća povijesti grada. Na prozorima i balkonima naslikani su Champlain i drugi povijesni likovi, pa ih je zabavno prepoznavati." },
-        { ime: "Zidine i Citadela", opis: "Zidinama dugim 4,6 kilometara može se hodati, a zvjezdasta utvrda na vrhu i danas je vojarna frankofone pukovnije. Ljeti se ondje prijepodne održava smjena straže s pukovnijskom maskotom, kozom." },
-        { ime: "Abrahamove poljane", opis: "Na bojištu iz 1759. danas je veliki gradski park s pogledom na rijeku. Ime je dobio po Abrahamu Martinu, kormilaru koji je ondje u 17. stoljeću napasao stoku." },
-        { ime: "Slap Montmorency i otok Orléans", opis: "Deset minuta od grada slap se ruši s 83 metra, što je tridesetak metara više od Niagare, a preko njega vodi viseći most. Preko puta leži otok sa starim seoskim imanjima, jagodama i jabučnim vinom." }
+        { ime: "Château Frontenac", opis: "The building that looks like a Loire château is in fact a hotel, built in 1893 by a railway company to attract travelers. Churchill and Roosevelt met here in 1943 and 1944 and planned the Normandy landings." },
+        { ime: "Place Royale and Petit-Champlain", opis: "On the little square in the Lower Town Champlain built his first dwelling, and the church of Notre-Dame-des-Victoires from 1688 has an altar shaped like a fortress. A model ship hangs from the ceiling, a votive offering for a safe voyage." },
+        { ime: "The Fresco of Quebecers", opis: "A huge painted gable wall beside Place Royale depicts four centuries of the city's history. Champlain and other historical figures are painted at the windows and on the balconies, so it is fun to pick them out." },
+        { ime: "The walls and the Citadelle", opis: "You can walk along the 4.6 kilometers of walls, and the star-shaped fortress at the top is still the garrison of a French-speaking regiment. In summer the changing of the guard takes place there in the morning, together with the regimental mascot, a goat." },
+        { ime: "Plains of Abraham", opis: "The battlefield of 1759 is now a large city park with a view of the river. It takes its name from Abraham Martin, a river pilot who grazed his livestock there in the 17th century." },
+        { ime: "Montmorency Falls and the Île d'Orléans", opis: "Ten minutes from the city the waterfall drops 83 meters, about thirty meters more than Niagara, and a suspension bridge crosses over it. Opposite lies an island with old farmsteads, strawberries and apple wine." }
       ],
       jesti: [
-        { ime: "Tourtière", opis: "Začinjena pita od mesa, koja se u restoranima s tradicionalnom kuhinjom poslužuje s domaćim voćnim kečapom." },
-        { ime: "Tire sur la neige", opis: "Vrući javorov sirup izlije se na snijeg i namota na drveni štapić. Zimi se prodaje na ulicama Staroga grada." },
-        { ime: "Pouding chômeur", opis: "Jednostavan biskvit zapečen u javorovu sirupu, čije ime znači puding nezaposlenih, nastao je u vrijeme Velike krize." },
-        { ime: "Ledena jabukovača", opis: "Slatko vino od jabuka koje su se smrznule na stablu ili nakon berbe, izum Québeca s kraja 20. stoljeća." }
+        { ime: "Tourtière", opis: "A spiced meat pie, which restaurants serving traditional cuisine bring to the table with homemade fruit ketchup." },
+        { ime: "Tire sur la neige", opis: "Hot maple syrup is poured onto snow and rolled onto a wooden stick. In winter it is sold in the streets of the Old Town." },
+        { ime: "Pouding chômeur", opis: "A simple sponge cake baked in maple syrup, whose name means poor man's pudding, literally pudding of the unemployed, and which came out of the Great Depression." },
+        { ime: "Ice cider", opis: "A sweet wine made from apples that froze on the tree or after the harvest, a Québec invention from the end of the 20th century." }
       ],
       dozivjeti: [
-        { ime: "Carnaval de Québec", opis: "U veljači grad slavi zimu noćnim povorkama, utrkom kanua preko zaleđene rijeke i ledenom palačom maskote Bonhommea. Običaj seže u 19. stoljeće, a u današnjem obliku održava se od 1955.", link: "https://carnaval.qc.ca/" },
-        { ime: "Šetnja zidinama", opis: "Ako želite razumjeti zašto se grad nikada nije prelio preko svojih bedema, prođite s vodičima državne službe za parkove kroz vrata i bastione.", link: "https://parks.canada.ca/lhn-nhs/qc/fortifications" },
-        { ime: "Trajekt za Lévis", opis: "Vožnja preko rijeke traje dvanaestak minuta i pruža najljepši pogled na dvorac i stijenu, osobito u sumrak." },
-        { ime: "Vođena šetnja Starim gradom", opis: "Lokalni vodiči u dva sata prođu Gornji i Donji grad, uz priče koje se ne nalaze na pločama.", link: "https://www.toursvoirquebec.com/en/" }
+        { ime: "Carnaval de Québec", opis: "In February the city celebrates winter with night parades, a canoe race across the frozen river and the ice palace of the mascot Bonhomme. The custom goes back to the 19th century, and it has been held in its present form since 1955.", link: "https://carnaval.qc.ca/" },
+        { ime: "A walk on the walls", opis: "If you want to understand why the city never spilled over its ramparts, walk through the gates and bastions with guides from the national parks service.", link: "https://parks.canada.ca/lhn-nhs/qc/fortifications" },
+        { ime: "The ferry to Lévis", opis: "The ride across the river takes about twelve minutes and offers the finest view of the château and the cliff, especially at dusk." },
+        { ime: "A guided walk through the Old Town", opis: "In two hours local guides take you through the Upper and Lower Town, with stories you will not find on any plaque.", link: "https://www.toursvoirquebec.com/en/" }
       ],
       agencije: [
-        { ime: "Destination Québec cité", opis: "Službena turistička organizacija grada i okolice.", link: "https://www.quebec-cite.com/en" },
-        { ime: "Tours Voir Québec", opis: "Lokalna agencija s pješačkim i gastronomskim turama po Starom gradu.", link: "https://www.toursvoirquebec.com/en/" },
-        { ime: "Parks Canada: zidine Québeca", opis: "Državna služba koja skrbi o zidinama i organizira vođenja.", link: "https://parks.canada.ca/lhn-nhs/qc/fortifications" }
+        { ime: "Destination Québec cité", opis: "The official tourism organization of the city and its surroundings.", link: "https://www.quebec-cite.com/en" },
+        { ime: "Tours Voir Québec", opis: "A local agency with walking and food tours of the Old Town.", link: "https://www.toursvoirquebec.com/en/" },
+        { ime: "Parks Canada: Fortifications of Québec", opis: "The national agency that looks after the walls and organizes guided tours.", link: "https://parks.canada.ca/lhn-nhs/qc/fortifications" }
       ],
-      kada: "Od lipnja do početka listopada, ili u veljači za karneval, kada treba ponijeti najtopliju odjeću koju imate. Ulice su strme i popločene, pa su udobne cipele obvezne."
+      kada: "From June to early October, or in February for the carnival, when you should bring the warmest clothes you own. The streets are steep and cobbled, so comfortable shoes are a must."
     },
     {
       id: "ottawa",
       ime: "Ottawa",
       vrsta: "grad",
-      sazetak: "Mirna prijestolnica na granici engleske i francuske Kanade, s neogotičkim parlamentom, kanalom po kojem se zimi kliže i poljima tulipana.",
+      sazetak: "A calm capital on the border between English and French Canada, with a Gothic Revival parliament, a canal you can skate on in winter and fields of tulips.",
       prica: [
-        "Grad je nastao kao radničko naselje Bytown uz kanal Rideau, koji je britanska vojska gradila kao siguran vodeni put podalje od granice sa SAD-om. Kraljica Viktorija odabrala ga je 1857. za glavni grad upravo zato što leži na razmeđi engleskog i francuskog govornog područja i dovoljno daleko od granice.",
-        "S druge strane rijeke nalazi se Gatineau u pokrajini Québec, pa se u istoj šetnji prelazi iz jednog jezika u drugi."
+        "The city began as the workers' settlement of Bytown beside the Rideau Canal, which the British army built as a safe waterway well away from the border with the USA. Queen Victoria chose it as the capital in 1857 precisely because it lies on the boundary between the English-speaking and French-speaking regions and far enough from the border.",
+        "On the other side of the river is Gatineau, in the province of Québec, so in a single walk you cross from one language into the other."
       ],
       vidjeti: [
-        { ime: "Parlamentarni brežuljak", opis: "Neogotičke zgrade s bakrenim krovovima stoje na stijeni iznad rijeke. Izvorna središnja zgrada izgorjela je 1916., a spašena je samo okrugla knjižnica, jer je jedan službenik na vrijeme zatvorio željezna vrata. Središnja se zgrada godinama obnavlja, pa se razgledavaju privremene dvorane obaju domova." },
-        { ime: "Kanal Rideau", opis: "Kanal dug 202 kilometra otvoren je 1832. i najstariji je u Sjevernoj Americi koji i danas radi gotovo na izvorni način. Uz parlament se niz od osam prijevodnica otvara ručno, pomoću poluga, a cijeli je kanal na UNESCO-ovu popisu svjetske baštine." },
-        { ime: "Tržnica ByWard", opis: "Tržnicu je 1826. zacrtao pukovnik John By, graditelj kanala, a ulice su namjerno široke da se zaprežna kola mogu okrenuti. Danas je to četvrt štandova, pekarnica i restorana." },
-        { ime: "Nacionalna galerija Kanade", opis: "Zgradu od stakla i ružičastog granita projektirao je Moshe Safdie, a pred ulazom stoji golemi brončani pauk Louise Bourgeois. Unutra je obnovljena cijela kapelica iz 19. stoljeća, spašena od rušenja." },
-        { ime: "Kanadski muzej povijesti", opis: "Valovita zgrada preko rijeke, djelo arhitekta Douglasa Cardinala, oponaša krajolik koji su oblikovali ledenjaci. U velikoj dvorani stoji najveća zbirka totemskih stupova na svijetu pod jednim krovom." }
+        { ime: "Parliament Hill", opis: "The Gothic Revival buildings with their copper roofs stand on a cliff above the river. The original Centre Block burned down in 1916, and only the round library was saved, because a clerk closed the iron doors in time. The Centre Block has been under restoration for years, so visitors tour the temporary chambers of the two houses." },
+        { ime: "Rideau Canal", opis: "The 202-kilometer canal opened in 1832 and is the oldest in North America that still operates almost in its original way. Beside Parliament a flight of eight locks is opened by hand, using cranks, and the entire canal is on the UNESCO World Heritage List." },
+        { ime: "ByWard Market", opis: "The market was laid out in 1826 by Colonel John By, the builder of the canal, and the streets are deliberately wide so that horse-drawn wagons could turn around. Today it is a district of stalls, bakeries and restaurants." },
+        { ime: "National Gallery of Canada", opis: "The building of glass and pink granite was designed by Moshe Safdie, and a giant bronze spider by Louise Bourgeois stands at the entrance. Inside, an entire 19th-century chapel, saved from demolition, has been reconstructed." },
+        { ime: "Canadian Museum of History", opis: "The undulating building across the river, the work of the architect Douglas Cardinal, echoes a landscape shaped by glaciers. The Grand Hall holds the largest collection of totem poles in the world under one roof." }
       ],
       jesti: [
-        { ime: "BeaverTails", opis: "Prženo tijesto razvučeno u oblik dabrova repa, posuto cimetom i šećerom. Prodaje se na tržnici ByWard od 1980., a zimi i na ledu kanala." },
-        { ime: "Shawarma", opis: "Ottawa ima veliku libanonsku zajednicu, pa je piletina s ražnja u tankom kruhu s umakom od češnjaka neslužbeno jelo grada." },
-        { ime: "Javorovi slatkiši", opis: "Na tržnici ByWard prodaju se sirup, maslac i bomboni od javora s imanja iz okolice." }
+        { ime: "BeaverTails", opis: "Fried dough stretched into the shape of a beaver's tail and dusted with cinnamon and sugar. It has been sold at the ByWard Market since 1980, and in winter on the ice of the canal as well." },
+        { ime: "Shawarma", opis: "Ottawa has a large Lebanese community, so spit-roasted chicken in thin bread with garlic sauce is the city's unofficial dish." },
+        { ime: "Maple sweets", opis: "The ByWard Market sells maple syrup, maple butter and maple candy from farms in the surrounding area." }
       ],
       dozivjeti: [
-        { ime: "Festival tulipana", opis: "Nizozemska kraljevska obitelj provela je Drugi svjetski rat u Ottawi, gdje je 1943. rođena princeza Margriet, a Nizozemska je u znak zahvalnosti 1945. poslala sto tisuća lukovica. Otada ih šalje svake godine, pa u svibnju cvjeta više stotina tisuća tulipana.", link: "https://tulipfestival.ca/" },
-        { ime: "Klizanje po kanalu", opis: "Kada led dovoljno očvrsne, kanal postaje klizalište dugo 7,8 kilometara, po kojem neki stanovnici odlaze na posao. U veljači se uz njega održava zimski festival Winterlude." },
-        { ime: "Vožnja kroz prijevodnice", opis: "Ljeti se kanalom može ploviti izletničkim brodom ili ga pratiti biciklom po stazi uz obalu.", link: "https://parks.canada.ca/lhn-nhs/on/rideau" },
-        { ime: "Smjena straže", opis: "Ljeti se prijepodne pred parlamentom održava svečana smjena straže u crvenim odorama i krznenim kapama." }
+        { ime: "Tulip Festival", opis: "The Dutch royal family spent the Second World War in Ottawa, where Princess Margriet was born in 1943, and in gratitude the Netherlands sent a hundred thousand bulbs in 1945. It has sent them every year since, so in May several hundred thousand tulips come into bloom.", link: "https://tulipfestival.ca/" },
+        { ime: "Skating on the canal", opis: "When the ice is thick enough, the canal becomes a skating rink 7.8 kilometers long, which some residents use to get to work. In February the Winterlude festival is held alongside it." },
+        { ime: "A ride through the locks", opis: "In summer you can cruise the canal on a sightseeing boat or follow it by bicycle on the path along the bank.", link: "https://parks.canada.ca/lhn-nhs/on/rideau" },
+        { ime: "Changing of the Guard", opis: "In summer the ceremonial changing of the guard, in red uniforms and bearskin hats, takes place in the morning in front of Parliament." }
       ],
       agencije: [
-        { ime: "Ottawa Tourism", opis: "Službena turistička organizacija grada.", link: "https://ottawatourism.ca/en" },
-        { ime: "Parks Canada: kanal Rideau", opis: "Državna služba koja upravlja kanalom i prijevodnicama.", link: "https://parks.canada.ca/lhn-nhs/on/rideau" }
+        { ime: "Ottawa Tourism", opis: "The city's official tourism organization.", link: "https://ottawatourism.ca/en" },
+        { ime: "Parks Canada: Rideau Canal", opis: "The national agency that manages the canal and its locks.", link: "https://parks.canada.ca/lhn-nhs/on/rideau" }
       ],
-      kada: "U svibnju zbog tulipana, od lipnja do rujna zbog ugodnog vremena, a u veljači zbog klizanja, ako zima bude dovoljno hladna. Besplatne ulaznice za razgled parlamenta rezerviraju se unaprijed."
+      kada: "In May for the tulips, from June to September for the pleasant weather, and in February for the skating, if the winter turns out cold enough. Free tickets for the tour of Parliament are reserved in advance."
     },
     {
       id: "vancouver",
       ime: "Vancouver",
       vrsta: "grad",
-      sazetak: "Stakleni grad između oceana i planina, u kojem se istog dana može šetati kišnom šumom i jesti sushi uz more.",
+      sazetak: "A city of glass between ocean and mountains, where on the same day you can walk in a rainforest and eat sushi by the sea.",
       prica: [
-        "Na ovom su području tisućama godina živjeli narodi Musqueam, Squamish i Tsleil-Waututh, na čijoj zemlji grad i danas leži. Naselje je počelo 1867. oko krčme brbljavog kapetana Johna Deightona, zvanog Gassy Jack, po kojem je četvrt Gastown dobila ime.",
-        "Grad je osnovan 1886. kao krajnja postaja transkontinentalne pruge i iste godine izgorio do temelja. Svjetska izložba 1986. i Zimske olimpijske igre 2010. pretvorile su ga u jedan od najpoželjnijih gradova za život, s jakim azijskim utjecajem."
+        "The Musqueam, Squamish and Tsleil-Waututh peoples lived in this area for thousands of years, and the city still lies on their land today. The settlement began in 1867 around the saloon of the talkative captain John Deighton, known as Gassy Jack, after whom the Gastown district is named.",
+        "The city was founded in 1886 as the terminus of the transcontinental railway and burned to the ground that same year. The 1986 World's Fair and the 2010 Winter Olympics turned it into one of the most desirable cities to live in, with a strong Asian influence."
       ],
       vidjeti: [
-        { ime: "Park Stanley", opis: "Šuma cedrova i jela na poluotoku uz samo središte veća je od njujorškog Central Parka, a oko nje vodi obalna šetnica duga oko devet kilometara. Kod rta Brockton stoji skupina totemskih stupova, od kojih svaki pripovijeda priču jedne obitelji." },
-        { ime: "Granville Island", opis: "Industrijsko zemljište ispod mosta sedamdesetih je pretvoreno u tržnicu i četvrt obrtnika, a betonara na njemu radi i danas. Njezine je silose brazilski dvojac OSGEMEOS oslikao kao divove." },
-        { ime: "Gastown", opis: "Najstarija četvrt ima ulice od opeke i slavni parni sat, koji svakih četvrt sata zviždi melodiju. Iako izgleda viktorijanski, sagrađen je 1977." },
-        { ime: "Muzej antropologije", opis: "Zgradu od betona i stakla Arthur Erickson oblikovao je po uzoru na drvene kuće naroda sjeverozapadne obale. U Velikoj dvorani stoje stari totemski stupovi, a u rotondi skulptura Billa Reida „Gavran i prvi ljudi“, izrezbarena iz golemog bloka žutog cedra." },
-        { ime: "Kineska četvrt i vrt Sun Yat-Sena", opis: "Vrt iz 1986. prvi je klasični kineski vrt u punoj veličini sagrađen izvan Kine, a podigli su ga majstori iz Suzhoua bez čavala i vijaka. U blizini je zgrada Sam Kee, duboka manje od dva metra." },
-        { ime: "Viseći most Capilano", opis: "Most dug 137 metara njiše se 70 metara iznad rijeke, na mjestu gdje je prvi, od konoplje i cedrovih dasaka, razapet 1889. S druge strane staze vode među krošnjama starih duglazija." }
+        { ime: "Stanley Park", opis: "The forest of cedars and firs on a peninsula right beside downtown is larger than New York's Central Park, and a seawall promenade about nine kilometers long runs around it. At Brockton Point stands a group of totem poles, each of which tells the story of one family." },
+        { ime: "Granville Island", opis: "The industrial land beneath the bridge was turned into a market and a craftspeople's quarter in the 1970s, and the concrete plant on it still operates today. Its silos were painted as giants by the Brazilian duo OSGEMEOS." },
+        { ime: "Gastown", opis: "The oldest district has brick streets and a famous steam clock that whistles a tune every quarter of an hour. Although it looks Victorian, it was built in 1977." },
+        { ime: "Museum of Anthropology", opis: "Arthur Erickson modeled the building of concrete and glass on the wooden houses of the peoples of the Northwest Coast. Old totem poles stand in the Great Hall, and in the rotunda is Bill Reid's sculpture “The Raven and the First Men,” carved from a huge block of yellow cedar." },
+        { ime: "Chinatown and the Sun Yat-Sen garden", opis: "The garden from 1986 is the first full-scale classical Chinese garden built outside China, and it was put up by craftsmen from Suzhou without nails or screws. Nearby is the Sam Kee Building, which is less than two meters deep." },
+        { ime: "Capilano Suspension Bridge", opis: "The 137-meter bridge sways 70 meters above the river, on the spot where the first one, made of hemp rope and cedar planks, was strung in 1889. On the far side, trails lead through the canopy of old Douglas firs." }
       ],
       jesti: [
-        { ime: "Divlji losos", opis: "Jede se pečen na cedrovoj dasci ili kao „indijanski slatkiš“, dimljen i glaziran javorovim sirupom, što je domorodački način konzerviranja." },
-        { ime: "Sushi", opis: "Zahvaljujući svježoj ribi i velikoj japanskoj zajednici, sushi je ovdje svakodnevna i pristupačna hrana. Lokalna je posebnost B.C. roll s pečenom kožom lososa." },
-        { ime: "Kozice spot prawn", opis: "Slatke lokalne kozice imaju kratku sezonu u svibnju i lipnju, kada im restorani posvećuju cijele jelovnike." }
+        { ime: "Wild salmon", opis: "It is eaten roasted on a cedar plank or as candied salmon, known locally as “Indian candy,” smoked and glazed with maple syrup, which is an Indigenous way of preserving it." },
+        { ime: "Sushi", opis: "Thanks to the fresh fish and the large Japanese community, sushi here is everyday, affordable food. A local specialty is the B.C. roll with grilled salmon skin." },
+        { ime: "Spot prawns", opis: "The sweet local prawns have a short season in May and June, when restaurants devote entire menus to them." }
       ],
       dozivjeti: [
-        { ime: "Šetnja s domorodačkim vodičima", opis: "Ako želite park Stanley vidjeti očima naroda koji je ovdje živio, pridružite se šetnji na kojoj vodiči iz Prvih naroda objašnjavaju koje se biljke koriste za hranu, lijek i tkanje.", link: "https://www.talaysay.com/" },
-        { ime: "Biciklom oko parka Stanley", opis: "Obalna šetnica ravna je i jednosmjerna, pa krug s pogledom na planine, most Lions Gate i plaže traje oko sat vremena." },
-        { ime: "Tržnica na Granville Islandu", opis: "Do otoka vozi mali brod u duginim bojama, a na tržnici se kušaju dimljeni losos, sirevi i bobičasto voće.", link: "https://granvilleisland.com/" },
-        { ime: "Izlet u Whistler", opis: "Cesta Sea to Sky vodi dva sata uz fjord i slapove do planinskog mjesta koje je bilo domaćin olimpijskih natjecanja, a gondola ondje povezuje dva vrha.", link: "https://www.whistler.com/" }
+        { ime: "A walk with Indigenous guides", opis: "If you want to see Stanley Park through the eyes of the people who lived here, join a walk on which First Nations guides explain which plants are used for food, medicine and weaving.", link: "https://www.talaysay.com/" },
+        { ime: "By bike around Stanley Park", opis: "The seawall is flat and one-way, so a loop with views of the mountains, the Lions Gate Bridge and the beaches takes about an hour." },
+        { ime: "The market on Granville Island", opis: "A little boat in rainbow colors runs to the island, and at the market you can sample smoked salmon, cheeses and berries.", link: "https://granvilleisland.com/" },
+        { ime: "A day trip to Whistler", opis: "The Sea to Sky Highway runs for two hours along a fjord and past waterfalls to the mountain resort that hosted Olympic events, where a gondola links two peaks.", link: "https://www.whistler.com/" }
       ],
       agencije: [
-        { ime: "Destination Vancouver", opis: "Službena turistička organizacija grada.", link: "https://www.destinationvancouver.com/" },
-        { ime: "Forbidden Vancouver Walking Tours", opis: "Pješačke ture o povijesti Gastowna, prohibiciji i parku Stanley.", link: "https://forbiddenvancouver.ca/" },
-        { ime: "Talaysay Tours", opis: "Tvrtka u vlasništvu pripadnika Prvih naroda, s kulturnim i prirodoslovnim šetnjama.", link: "https://www.talaysay.com/" }
+        { ime: "Destination Vancouver", opis: "The city's official tourism organization.", link: "https://www.destinationvancouver.com/" },
+        { ime: "Forbidden Vancouver Walking Tours", opis: "Walking tours on the history of Gastown, Prohibition and Stanley Park.", link: "https://forbiddenvancouver.ca/" },
+        { ime: "Talaysay Tours", opis: "A First Nations-owned company offering cultural and nature walks.", link: "https://www.talaysay.com/" }
       ],
-      kada: "Od lipnja do rujna, kada je suho i sunčano. Ostatak godine često kiši, ali je blago, pa ponesite kabanicu umjesto kišobrana."
+      kada: "From June to September, when it is dry and sunny. The rest of the year it rains often but stays mild, so bring a rain jacket instead of an umbrella."
     },
     {
       id: "banff-jasper",
-      ime: "Banff i Jasper",
+      ime: "Banff and Jasper",
       vrsta: "priroda",
-      sazetak: "Dva nacionalna parka u Stjenjaku, povezana jednom od najljepših cesta na svijetu, s jezerima boje tirkiza i ledenjacima.",
+      sazetak: "Two national parks in the Rockies, linked by one of the most beautiful roads in the world, with turquoise lakes and glaciers.",
       prica: [
-        "Trojica željezničkih radnika naišla su 1883. na vruće izvore u spilji podno planine, a spor oko toga tko će na njima zarađivati potaknuo je vladu da 1885. područje zaštiti. Tako je nastao Banff, prvi kanadski nacionalni park, a željeznica je uz prugu podigla hotele nalik dvorcima.",
-        "Jasper, osnovan 1907., veći je i divljiji. Požar je u srpnju 2024. uništio otprilike trećinu zgrada u gradiću Jasperu, koji se otada obnavlja i ponovno prima goste. Oba su parka dio UNESCO-ove svjetske baštine."
+        "In 1883 three railway workers came upon hot springs in a cave at the foot of a mountain, and the dispute over who would profit from them prompted the government to protect the area in 1885. That is how Banff came about, Canada's first national park, and the railway went on to build castle-like hotels along the line.",
+        "Jasper, established in 1907, is larger and wilder. In July 2024 a wildfire destroyed roughly a third of the buildings in the town of Jasper, which has been rebuilding ever since and is welcoming guests again. Both parks are part of a UNESCO World Heritage Site."
       ],
       vidjeti: [
-        { ime: "Jezero Louise", opis: "Jezero je nazvano po kćeri kraljice Viktorije, a boju mu daje kameno brašno, sitna prašina koju ledenjak samelje i koja lebdi u vodi. Najjača je u srpnju i kolovozu, kada se led najviše topi." },
-        { ime: "Jezero Moraine", opis: "Leži u Dolini deset vrhova, a prizor s hrpe stijena na njegovu kraju nekoć je bio na novčanici od dvadeset dolara. Cesta je zatvorena za osobne automobile, pa se dolazi autobusom koji treba rezervirati." },
-        { ime: "Icefields Parkway", opis: "Cesta duga 232 kilometra povezuje jezero Louise i Jasper i prolazi pokraj više od stotinu ledenjaka. Zaustavite se kod jezera Peyto, koje s vidikovca ima oblik vučje glave." },
-        { ime: "Ledenjak Athabasca", opis: "Jezik ledenog polja Columbia spušta se gotovo do ceste. Uz stazu su oznake s godinama, koje pokazuju dokle je led nekoć sezao i koliko se brzo povlači." },
-        { ime: "Cave and Basin i grad Banff", opis: "Na mjestu gdje je park začet može se ući u spilju s toplim sumpornim izvorom. Iznad grada stoji hotel Banff Springs iz 1888., sagrađen po uzoru na škotske dvorce." },
-        { ime: "Jezero Maligne", opis: "Najveće prirodno jezero kanadskog Stjenjaka dugo je 22 kilometra, a brodom se stiže do otočića Spirit Island, svetog mjesta naroda Stoney Nakoda. Na putu se prolazi pokraj klanca Maligne, dubokog pedesetak metara." }
+        { ime: "Lake Louise", opis: "The lake is named after a daughter of Queen Victoria, and its color comes from rock flour, the fine dust that the glacier grinds up and that stays suspended in the water. It is most intense in July and August, when the ice is melting fastest." },
+        { ime: "Moraine Lake", opis: "It lies in the Valley of the Ten Peaks, and the view from the rockpile at its end once appeared on the twenty-dollar bill. The road is closed to private cars, so you arrive by a shuttle bus that has to be reserved." },
+        { ime: "Icefields Parkway", opis: "The 232-kilometer road links Lake Louise and Jasper and passes more than a hundred glaciers. Stop at Peyto Lake, which from the lookout has the shape of a wolf's head." },
+        { ime: "Athabasca Glacier", opis: "This tongue of the Columbia Icefield comes down almost to the road. Along the trail there are markers with years on them, showing how far the ice once reached and how quickly it is retreating." },
+        { ime: "Cave and Basin and the town of Banff", opis: "At the place where the park was born you can enter the cave with its warm sulfur spring. Above the town stands the Banff Springs Hotel from 1888, built in the style of Scottish castles." },
+        { ime: "Maligne Lake", opis: "The largest natural lake in the Canadian Rockies is 22 kilometers long, and a boat takes you to tiny Spirit Island, a sacred place of the Stoney Nakoda people. On the way you pass Maligne Canyon, some fifty meters deep." }
       ],
       jesti: [
-        { ime: "Govedina iz Alberte", opis: "Prerije podno planina stočarski su kraj, pa je odrezak ovdje stvar ponosa." },
-        { ime: "Bizon i divljač", opis: "U planinskim restoranima poslužuju se bizon, jelen i los, često sušeni ili dimljeni, na dasci s kiselim povrćem." },
-        { ime: "Pita od bobica saskatoon", opis: "Tamne bobice nalik borovnicama, s okusom badema, bile su važna hrana naroda prerija, a danas se od njih rade pite i džemovi." }
+        { ime: "Alberta beef", opis: "The prairies at the foot of the mountains are cattle country, so a steak here is a matter of pride." },
+        { ime: "Bison and game", opis: "The mountain restaurants serve bison, venison and elk, often dried or smoked, on a board with pickled vegetables." },
+        { ime: "Saskatoon berry pie", opis: "These dark berries, which resemble blueberries and taste of almond, were an important food for the peoples of the prairies, and today they go into pies and jams." }
       ],
       dozivjeti: [
-        { ime: "Vožnja kanuom po jezeru", opis: "Ako želite mir usred gužve, unajmite crveni kanu na jezeru Louise ili Moraine rano ujutro, kada je voda glatka kao zrcalo." },
-        { ime: "Programi čuvara parka", opis: "Državna služba za parkove organizira vođene šetnje i večernja predavanja o medvjedima, ledenjacima i povijesti.", link: "https://parks.canada.ca/pn-np/ab/banff" },
-        { ime: "Zvjezdano nebo nad Jasperom", opis: "Jasper je jedan od najvećih rezervata tamnog neba na svijetu, a u listopadu se ondje održava festival posvećen zvijezdama.", link: "https://www.jasper.travel/" },
-        { ime: "Vožnja cestom Icefields Parkway", opis: "Odvojite cijeli dan i stajte često, jer su vidikovci i kratke staze do slapova ono najbolje na ovoj cesti.", link: "https://icefieldsparkway.com/" }
+        { ime: "Canoeing on the lake", opis: "If you want peace in the middle of the crowds, rent a red canoe on Lake Louise or Moraine Lake early in the morning, when the water is as smooth as a mirror." },
+        { ime: "Park ranger programs", opis: "The national parks service organizes guided walks and evening talks about bears, glaciers and history.", link: "https://parks.canada.ca/pn-np/ab/banff" },
+        { ime: "The starry sky over Jasper", opis: "Jasper is one of the largest dark sky preserves in the world, and in October a festival devoted to the stars is held there.", link: "https://www.jasper.travel/" },
+        { ime: "Driving the Icefields Parkway", opis: "Set aside a full day and stop often, because the lookouts and the short trails to the waterfalls are the best thing about this road.", link: "https://icefieldsparkway.com/" }
       ],
       agencije: [
-        { ime: "Banff & Lake Louise Tourism", opis: "Službena turistička organizacija Banffa i jezera Louise.", link: "https://www.banfflakelouise.com/" },
-        { ime: "Parks Canada: Banff", opis: "Službene informacije o ulaznicama, autobusima do jezera i stanju staza.", link: "https://parks.canada.ca/pn-np/ab/banff" },
-        { ime: "Tourism Jasper", opis: "Službena turistička organizacija Jaspera, s novostima o obnovi nakon požara.", link: "https://www.jasper.travel/" }
+        { ime: "Banff & Lake Louise Tourism", opis: "The official tourism organization of Banff and Lake Louise.", link: "https://www.banfflakelouise.com/" },
+        { ime: "Parks Canada: Banff", opis: "Official information on passes, shuttle buses to the lakes and trail conditions.", link: "https://parks.canada.ca/pn-np/ab/banff" },
+        { ime: "Tourism Jasper", opis: "The official tourism organization of Jasper, with news on the rebuilding after the fire.", link: "https://www.jasper.travel/" }
       ],
-      kada: "Od kraja lipnja do sredine rujna, kada su jezera odmrznuta i najjačih boja. Krajem rujna ariši požute, a smještaj i autobuse do jezera valja rezervirati mjesecima unaprijed."
+      kada: "From late June to mid-September, when the lakes are free of ice and at their most vivid. In late September the larches turn yellow, and accommodation and the shuttle buses to the lakes should be booked months in advance."
     },
     {
       id: "victoria-otok-vancouver",
-      ime: "Victoria i otok Vancouver",
+      ime: "Victoria and Vancouver Island",
       vrsta: "otok",
-      sazetak: "Glavni grad Britanske Kolumbije s engleskim vrtovima i čajem, na otoku prašuma, kitova i divljih plaža.",
+      sazetak: "The capital of British Columbia, with English gardens and tea, on an island of old-growth forests, whales and wild beaches.",
       prica: [
-        "Otok su tisućama godina nastanjivali narodi obale Salish, Nuu-chah-nulth i Kwakwakaʼwakw. Kompanija Hudsonova zaljeva podigla je ovdje 1843. utvrdu za trgovinu krznom i nazvala je po kraljici Viktoriji.",
-        "Zlatna groznica 1858. pretvorila je mirnu postaju u prometnu luku, a grad je poslije postao prijestolnica pokrajine. Zadržao je britanski duh, s dvokatnim autobusima i popodnevnim čajem, dok ostatak otoka, koji je velik gotovo kao pola Hrvatske, pripada šumi i oceanu."
+        "For thousands of years the island was home to the Coast Salish, Nuu-chah-nulth and Kwakwakaʼwakw peoples. In 1843 the Hudson's Bay Company built a fur-trading fort here and named it after Queen Victoria.",
+        "The gold rush of 1858 turned the quiet outpost into a busy port, and the city later became the capital of the province. It has kept its British spirit, with double-decker buses and afternoon tea, while the rest of the island, which is almost half the size of Croatia, belongs to the forest and the ocean."
       ],
       vidjeti: [
-        { ime: "Unutarnja luka i zgrada parlamenta", opis: "Parlament pokrajine dovršen je 1898. prema nacrtu Francisa Rattenburyja, kojem je bilo 25 godina kada je pobijedio na natječaju. Noću su obrisi zgrade ocrtani tisućama žarulja, a na vrhu kupole stoji pozlaćeni kapetan George Vancouver." },
-        { ime: "Vrtovi Butchart", opis: "Jennie Butchart počela je 1904. saditi cvijeće u iscrpljenom kamenolomu vapnenca, iz kojeg je njezin suprug vadio sirovinu za cement. Spušteni vrt s vidikovcem i danas pokazuje strme stijene kamenoloma, a vrtove vodi ista obitelj." },
-        { ime: "Kraljevski muzej Britanske Kolumbije", opis: "Muzej čuva veliku zbirku totemskih stupova, maski i predmeta Prvih naroda, a u parku Thunderbird uz njega rezbari se i danas." },
-        { ime: "Kineska četvrt", opis: "Najstarija kineska četvrt u Kanadi nastala je u vrijeme zlatne groznice. Uličica Fan Tan Alley na najužem je mjestu široka manje od metra." },
-        { ime: "Cathedral Grove", opis: "Uz cestu prema zapadnoj obali staze vode među duglazijama starima i do osamsto godina, od kojih najveća ima opseg veći od devet metara." },
-        { ime: "Tofino i nacionalni park Pacific Rim", opis: "Na zapadnoj obali otoka plaža Long Beach proteže se šesnaest kilometara, a iza nje raste kišna šuma umjerenog pojasa. Zimi ljudi dolaze samo zato da gledaju oluje i goleme valove." }
+        { ime: "The Inner Harbour and the Parliament Buildings", opis: "The provincial parliament was completed in 1898 to a design by Francis Rattenbury, who was 25 years old when he won the competition. At night the outline of the building is traced by thousands of light bulbs, and a gilded Captain George Vancouver stands on top of the dome." },
+        { ime: "Butchart Gardens", opis: "In 1904 Jennie Butchart began planting flowers in an exhausted limestone quarry, from which her husband had extracted the raw material for cement. The Sunken Garden with its lookout still shows the steep walls of the quarry, and the gardens are run by the same family." },
+        { ime: "Royal BC Museum", opis: "The museum holds a large collection of First Nations totem poles, masks and objects, and in Thunderbird Park next door carving still goes on today." },
+        { ime: "Chinatown", opis: "The oldest Chinatown in Canada came into being at the time of the gold rush. The little lane called Fan Tan Alley is less than a meter wide at its narrowest point." },
+        { ime: "Cathedral Grove", opis: "Beside the road to the west coast, trails lead among Douglas firs up to eight hundred years old, the largest of which is more than nine meters around." },
+        { ime: "Tofino and Pacific Rim National Park", opis: "On the west coast of the island Long Beach stretches for sixteen kilometers, and behind it grows temperate rainforest. In winter people come simply to watch the storms and the enormous waves." }
       ],
       jesti: [
-        { ime: "Popodnevni čaj", opis: "Sendviči, pogačice s vrhnjem i kolačići na stalku s tri kata poslužuju se u hotelu Empress od njegova otvorenja 1908., a i u mnogim manjim čajanama." },
-        { ime: "Nanaimo bar", opis: "Troslojni kolač najbolje je probati u gradu Nanaimu, sat i pol vožnje sjeverno od Victorije." },
-        { ime: "Riba s krumpirićima od iverka", opis: "Na plutajućim gatovima ribarske luke prodaje se svježe pržen pacifički iverak, a uz gat često vire tuljani." }
+        { ime: "Afternoon tea", opis: "Sandwiches, scones with cream and little cakes on a three-tiered stand have been served at the Empress hotel since it opened in 1908, and in many smaller tearooms too." },
+        { ime: "Nanaimo bar", opis: "The three-layer bar is best tried in the city of Nanaimo, an hour and a half's drive north of Victoria." },
+        { ime: "Halibut fish and chips", opis: "Freshly fried Pacific halibut is sold on the floating docks of the fishing harbor, and seals often pop their heads up beside the pier." }
       ],
       dozivjeti: [
-        { ime: "Promatranje kitova", opis: "U vodama oko juga otoka žive orke, a u proljeće duž zapadne obale prolaze sivi kitovi. Odaberite prijevoznika koji drži propisanu udaljenost od životinja.", link: "https://www.tourismvictoria.com/" },
-        { ime: "Večer u vrtovima Butchart", opis: "Ljeti su vrtovi osvijetljeni i otvoreni do kasno, uz koncerte na otvorenom.", link: "https://www.butchartgardens.com/" },
-        { ime: "Šetnja kišnom šumom", opis: "U nacionalnom parku Pacific Rim kratke staze na drvenim mostićima vode među cedrovima obraslima mahovinom do divljih plaža.", link: "https://parks.canada.ca/pn-np/bc/pacificrim" }
+        { ime: "Whale watching", opis: "Orcas live in the waters around the south of the island, and in spring gray whales pass along the west coast. Choose an operator that keeps the required distance from the animals.", link: "https://www.tourismvictoria.com/" },
+        { ime: "An evening at Butchart Gardens", opis: "In summer the gardens are illuminated and open late, with outdoor concerts.", link: "https://www.butchartgardens.com/" },
+        { ime: "A rainforest walk", opis: "In Pacific Rim National Park short boardwalk trails lead among moss-covered cedars to wild beaches.", link: "https://parks.canada.ca/pn-np/bc/pacificrim" }
       ],
       agencije: [
-        { ime: "Destination Greater Victoria", opis: "Službena turistička organizacija Victorije.", link: "https://www.tourismvictoria.com/" },
-        { ime: "Tourism Tofino", opis: "Službena turistička organizacija Tofina i zapadne obale otoka.", link: "https://tourismtofino.com/" },
-        { ime: "Parks Canada: Pacific Rim", opis: "Službene informacije o stazama, plažama i sigurnosti uz ocean.", link: "https://parks.canada.ca/pn-np/bc/pacificrim" }
+        { ime: "Destination Greater Victoria", opis: "The official tourism organization of Victoria.", link: "https://www.tourismvictoria.com/" },
+        { ime: "Tourism Tofino", opis: "The official tourism organization of Tofino and the island's west coast.", link: "https://tourismtofino.com/" },
+        { ime: "Parks Canada: Pacific Rim", opis: "Official information on trails, beaches and safety by the ocean.", link: "https://parks.canada.ca/pn-np/bc/pacificrim" }
       ],
-      kada: "Od svibnja do rujna za vrtove, kitove i plaže. Trajekt iz Vancouvera plovi oko sat i pol kroz otočje, a u sezoni ga je pametno rezervirati."
+      kada: "From May to September for the gardens, the whales and the beaches. The ferry from Vancouver sails for about an hour and a half through the islands, and in season it is wise to reserve it."
     },
     {
       id: "nova-skotska",
-      ime: "Nova Škotska",
+      ime: "Nova Scotia",
       vrsta: "regija",
-      sazetak: "Atlantska pokrajina svjetionika, šarenih ribarskih gradića, jastoga i škotskih gusala.",
+      sazetak: "An Atlantic province of lighthouses, colorful fishing towns, lobster and Scottish fiddles.",
       prica: [
-        "Ovo je zemlja naroda Mi'kmaq, koji je zovu Mi'kma'ki. Francuzi su je u 17. stoljeću naselili kao Akadiju, no Britanci su Akađane 1755. silom protjerali, a dio njih završio je u Louisiani, gdje su postali Cajuni.",
-        "Britanci su 1749. osnovali Halifax kao vojnu luku, a poslije su stigli škotski gorštaci, po kojima pokrajina nosi latinsko ime Nova Škotska. Halifax je 6. prosinca 1917. pogodila eksplozija broda natovarenog streljivom, u kojoj je poginulo oko dvije tisuće ljudi."
+        "This is the land of the Mi'kmaq people, who call it Mi'kma'ki. The French settled it in the 17th century as Acadia, but in 1755 the British expelled the Acadians by force, and some of them ended up in Louisiana, where they became the Cajuns.",
+        "The British founded Halifax in 1749 as a military port, and later the Scottish Highlanders arrived, after whom the province bears the Latin name Nova Scotia, New Scotland. On December 6, 1917, Halifax was struck by the explosion of a ship loaded with munitions, in which about two thousand people were killed."
       ],
       vidjeti: [
-        { ime: "Halifax: Citadela i luka", opis: "S utvrde u obliku zvijezde svakog se dana točno u podne ispaljuje top, a običaj traje od 19. stoljeća. Na groblju Fairview Lawn pokopana je 121 žrtva Titanica, jer su brodovi iz Halifaxa izvlačili tijela iz mora." },
-        { ime: "Pier 21", opis: "Kroz ovo je pristanište od 1928. do 1971. u Kanadu ušlo gotovo milijun doseljenika. Danas je ondje nacionalni muzej useljeništva, u čijem se arhivu mogu potražiti brodski popisi putnika." },
-        { ime: "Peggy's Cove", opis: "Bijeli svjetionik iz 1915. stoji na golim granitnim stijenama koje je izgladio ledenjak. Ne silazite na tamne, mokre stijene, jer valovi ondje iznenada odnose ljude." },
-        { ime: "Lunenburg", opis: "Gradić osnovan 1753. sačuvao je pravilnu mrežu ulica i drvene kuće žarkih boja, zbog čega je na UNESCO-ovu popisu svjetske baštine. Ovdje je 1921. sagrađena jedrenjača Bluenose, prikazana na kovanici od deset centi, a njezina replika ljeti plovi iz luke." },
-        { ime: "Cabot Trail", opis: "Cesta duga 298 kilometara obilazi sjever otoka Cape Bretona, penje se na visoravan i spušta do ribarskih sela. Na zapadnoj strani žive potomci Akađana, a na istočnoj Škota, pa se natpisi mijenjaju iz francuskih u galske." },
-        { ime: "Zaljev Fundy i Grand-Pré", opis: "Zaljev ima najveće morske mijene na svijetu, s razlikom do šesnaest metara između plime i oseke, pa brodovi u lukama dvaput dnevno leže na suhom. U Grand-Préu, na poljima koja su Akađani nasipima oteli moru, spomen-područje čuva sjećanje na njihov progon." }
+        { ime: "Halifax: the Citadel and the harbor", opis: "A cannon is fired from the star-shaped fort every day at exactly noon, a custom that goes back to the 19th century. In Fairview Lawn Cemetery 121 victims of the Titanic are buried, because ships from Halifax recovered the bodies from the sea." },
+        { ime: "Pier 21", opis: "From 1928 to 1971 almost a million immigrants entered Canada through this pier. Today it houses the national museum of immigration, in whose archive you can look up ships' passenger lists." },
+        { ime: "Peggy's Cove", opis: "The white lighthouse from 1915 stands on bare granite rocks smoothed by a glacier. Do not go down onto the dark, wet rocks, because the waves there sweep people away without warning." },
+        { ime: "Lunenburg", opis: "The town founded in 1753 has kept its regular grid of streets and its brightly colored wooden houses, which is why it is on the UNESCO World Heritage List. The schooner Bluenose, pictured on the ten-cent coin, was built here in 1921, and her replica sails from the harbor in summer." },
+        { ime: "Cabot Trail", opis: "The 298-kilometer road loops around the north of Cape Breton Island, climbing onto the highland plateau and dropping down to fishing villages. Descendants of the Acadians live on the western side and of the Scots on the eastern, so the signs change from French to Gaelic." },
+        { ime: "The Bay of Fundy and Grand-Pré", opis: "The bay has the highest tides in the world, with a difference of up to sixteen meters between high and low water, so twice a day the boats in the harbors lie on dry ground. At Grand-Pré, on fields that the Acadians won from the sea with dikes, a memorial site keeps alive the memory of their expulsion." }
       ],
       jesti: [
-        { ime: "Jastog", opis: "Kuha se cijeli i jede s rastopljenim maslacem ili u pecivu kao lobster roll. Ljeti crkve i vatrogasna društva po selima priređuju zajedničke večere s jastogom." },
-        { ime: "Jakobove kapice iz Digbyja", opis: "Gradić na zaljevu Fundy ima jednu od najvećih flota za izlov kapica, koje se jedu kratko popečene na maslacu." },
-        { ime: "Donair", opis: "Halifaška inačica kebaba od začinjene govedine, s vrlo slatkim umakom od kondenziranog mlijeka i češnjaka. Grad ju je 2015. proglasio svojim službenim jelom." },
-        { ime: "Blueberry grunt", opis: "Divlje borovnice kuhane pod poklopcem s okruglicama od tijesta, koje pritom, kažu, tiho gunđaju, pa odatle ime." }
+        { ime: "Lobster", opis: "It is boiled whole and eaten with melted butter, or in a bun as a lobster roll. In summer churches and volunteer fire departments in the villages put on community lobster suppers." },
+        { ime: "Digby scallops", opis: "The small town on the Bay of Fundy has one of the largest scallop fleets, and the scallops are eaten quickly seared in butter." },
+        { ime: "Donair", opis: "The Halifax version of the kebab, made of spiced beef with a very sweet sauce of condensed milk and garlic. The city declared it its official food in 2015." },
+        { ime: "Blueberry grunt", opis: "Wild blueberries simmered under a lid with dough dumplings, which are said to grunt quietly as they cook, hence the name." }
       ],
       dozivjeti: [
-        { ime: "Ceilidh na Cape Bretonu", opis: "Ako želite čuti gusle i vidjeti step, ljeti se u seoskim domovima duž zapadne obale otoka gotovo svake večeri održava ceilidh. U listopadu cijeli otok svira na festivalu Celtic Colours.", link: "https://celtic-colours.com/" },
-        { ime: "Muzej useljeništva na Pieru 21", opis: "Volonteri, od kojih su neki i sami stigli ovuda, pričaju kako je izgledao prvi dan u novoj zemlji.", link: "https://pier21.ca/" },
-        { ime: "Staza Skyline", opis: "U nacionalnom parku Cape Breton Highlands lagana staza vodi do drvenih stuba na hrptu iznad oceana, gdje se često vide losovi, a ponekad i kitovi u moru.", link: "https://parks.canada.ca/pn-np/ns/cbreton" },
-        { ime: "Jedrenje na Bluenoseu II", opis: "Kada je replika slavne jedrenjače u matičnoj luci Lunenburg, moguće je ukrcati se na kratku plovidbu.", link: "https://bluenose.novascotia.ca/" }
+        { ime: "A ceilidh on Cape Breton", opis: "If you want to hear the fiddle and see step dancing, in summer a ceilidh is held almost every evening in the community halls along the west coast of the island. In October the whole island plays at the Celtic Colours festival.", link: "https://celtic-colours.com/" },
+        { ime: "The immigration museum at Pier 21", opis: "Volunteers, some of whom arrived this way themselves, describe what the first day in a new country was like.", link: "https://pier21.ca/" },
+        { ime: "Skyline Trail", opis: "In Cape Breton Highlands National Park an easy trail leads to wooden steps on a ridge above the ocean, where moose are often seen, and sometimes whales out at sea.", link: "https://parks.canada.ca/pn-np/ns/cbreton" },
+        { ime: "Sailing on Bluenose II", opis: "When the replica of the famous schooner is in her home port of Lunenburg, you can go aboard for a short sail.", link: "https://bluenose.novascotia.ca/" }
       ],
       agencije: [
-        { ime: "Tourism Nova Scotia", opis: "Službena turistička stranica pokrajine.", link: "https://www.novascotia.com/" },
-        { ime: "Discover Halifax", opis: "Službena turistička organizacija Halifaxa.", link: "https://discoverhalifaxns.com/" },
-        { ime: "Parks Canada: Cape Breton Highlands", opis: "Službene informacije o stazama i cesti Cabot Trail.", link: "https://parks.canada.ca/pn-np/ns/cbreton" }
+        { ime: "Tourism Nova Scotia", opis: "The province's official tourism website.", link: "https://www.novascotia.com/" },
+        { ime: "Discover Halifax", opis: "The official tourism organization of Halifax.", link: "https://discoverhalifaxns.com/" },
+        { ime: "Parks Canada: Cape Breton Highlands", opis: "Official information on the trails and the Cabot Trail road.", link: "https://parks.canada.ca/pn-np/ns/cbreton" }
       ],
-      kada: "Od lipnja do sredine listopada. Sezona jastoga na dijelu obale traje u proljeće i rano ljeto, a prva polovica listopada donosi jesenske boje na Cabot Trailu."
+      kada: "From June to mid-October. Lobster season on part of the coast runs through spring and early summer, and the first half of October brings the fall colors to the Cabot Trail."
     }
   ],
   izvori: [

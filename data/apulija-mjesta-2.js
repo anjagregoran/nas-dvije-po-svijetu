@@ -1,4 +1,4 @@
-// Apulija: mjesta, drugi dio (Salento, sjeverno od Barija, Gargano, Taranto i Matera).
+// Apulia: places, part two (Salento, north of Bari, Gargano, Taranto and Matera).
 
 TRIP.mjesta = TRIP.mjesta.concat([
   {
@@ -6,61 +6,61 @@ TRIP.mjesta = TRIP.mjesta.concat([
     ime: "Otranto",
     regija: "Salento",
     znak: "🧩",
-    sazetak: "Najistočniji grad Italije, s podom katedrale na kojem su kralj Artur i Aleksandar Veliki.",
+    sazetak: "The easternmost town in Italy, with a cathedral floor that features King Arthur and Alexander the Great.",
     prica: [
-      "Otranto je stoljećima bio bizantska vrata između Italije i Istoka. Normani su 1088. posvetili katedralu, a stoljeće poslije jedan je redovnik cijeli njezin pod prekrio jednim od najvećih srednjovjekovnih mozaika u Europi.",
-      "Dana 28. srpnja 1480. pred gradom se iskrcala osmanska flota Gedik Ahmed-paše. Grad je pao nakon dva tjedna, a 14. kolovoza na brdu Minerve pogubljeno je oko osam stotina muškaraca koji su odbili prijeći na islam. Otranto je vraćen 1481. i tek je tada dobio zidine i dvorac koje danas vidimo."
+      "For centuries Otranto was the Byzantine gateway between Italy and the East. The Normans consecrated the cathedral in 1088, and a century later a monk covered its entire floor with one of the largest medieval mosaics in Europe.",
+      "On July 28, 1480, the Ottoman fleet of Gedik Ahmed Pasha landed outside the town. Otranto fell after two weeks, and on August 14 about eight hundred men who refused to convert to Islam were executed on the Hill of Minerva. The town was recovered in 1481, and only then did it gain the walls and castle we see today."
     ],
     znamenitosti: [
       {
-        ime: "Podni mozaik katedrale",
-        sto: "Golemo Drvo života složeno od kamenčića između 1163. i 1165., duž cijele crkve.",
-        prica: "Izradila ga je skupina majstora pod vodstvom redovnika Pantaleonea iz obližnjeg samostana San Nicola di Casole, po narudžbi nadbiskupa Jonate. Obojica su potpisana u samom podu. Mozaik je kao srednjovjekovna enciklopedija u kojoj su se bez ikakve nelagode našli Biblija, grčki mitovi, viteške priče i seoski kalendar. Preživio je i 1480., iako su Osmanlije crkvu pretvorili u džamiju i uništili freske.",
+        ime: "The cathedral floor mosaic",
+        sto: "A vast Tree of Life pieced together from tiny stones between 1163 and 1165, running the full length of the church.",
+        prica: "It was made by a team of craftsmen led by the monk Pantaleone from the nearby monastery of San Nicola di Casole, on commission from Archbishop Jonathan. Both men are named in the floor itself. The mosaic is like a medieval encyclopedia in which the Bible, Greek myths, tales of chivalry and the farming calendar sit side by side without the slightest awkwardness. It even survived 1480, although the Ottomans turned the church into a mosque and destroyed the frescoes.",
         potrazi: [
-          "Na ulazu dva slona koji na leđima nose deblo Drveta života.",
-          "Kulu babilonsku s dječakom na ljestvama i Nou kako gradi arku.",
-          "Dvanaest mjeseci u krugovima, sa znakovima zodijaka i poslovima u polju: u studenom se cijepaju drva, a u prosincu kolje svinja.",
-          "Natpis ALEXANDER REX: Aleksandra Velikog dva grifona nose u nebo.",
-          "Natpis REX ARTURUS: kralj Artur jaše životinju nalik jarcu i susreće čudovišnu mačku. To je jedan od najstarijih prikaza Artura uopće, i to dvije tisuće kilometara daleko od Britanije.",
-          "Na vrhu, kod oltara, Adama i Evu te pakao i raj s anđelom koji važe duše."
+          "At the entrance, two elephants carrying the trunk of the Tree of Life on their backs.",
+          "The Tower of Babel with a boy on a ladder, and Noah building the ark.",
+          "The twelve months in roundels, with the signs of the zodiac and the work of the fields: in November wood is chopped, and in December the pig is slaughtered.",
+          "The inscription ALEXANDER REX: Alexander the Great is carried up to heaven by two griffins.",
+          "The inscription REX ARTURUS: King Arthur rides a goat-like animal and meets a monstrous cat. This is one of the oldest depictions of Arthur anywhere, and it is two thousand kilometers away from Britain.",
+          "At the top, by the altar, Adam and Eve, and hell and paradise with an angel weighing souls."
         ],
-        prakticno: "Dio mozaika ograđen je užetom. Dođite čim se crkva otvori ili kasno popodne, kad je brod prazan. Računajte na 45 do 60 minuta."
+        prakticno: "Part of the mosaic is roped off. Come as soon as the church opens or late in the afternoon, when the nave is empty. Allow 45 to 60 minutes."
       },
       {
-        ime: "Kapela mučenika",
-        sto: "Desna apsida katedrale sa sedam visokih staklenih ormara punih lubanja i kostiju.",
+        ime: "The Chapel of the Martyrs",
+        sto: "The right-hand apse of the cathedral, with seven tall glass cabinets full of skulls and bones.",
         prica: [
-          "Ovdje počivaju ostaci otrantskih mučenika, kojih je prema predaji bilo 813. Predvodio ih je Antonio Primaldo, obrtnik koji je u ime svih odgovorio da ostaju kršćani. Papa Franjo proglasio ih je svetima 2013.",
-          "Legenda kaže da je Primaldovo tijelo bez glave ostalo stajati sve dok nije pogubljen i posljednji čovjek. Neki današnji povjesničari smatraju da pokolj nije imao isključivo vjerske razloge."
+          "Here lie the remains of the Martyrs of Otranto, who according to tradition numbered 813. They were led by Antonio Primaldo, a craftsman who answered on behalf of them all that they would remain Christians. Pope Francis declared them saints in 2013.",
+          "Legend has it that Primaldo's headless body stayed standing until the very last man had been executed. Some present-day historians believe that the massacre was not driven by religion alone."
         ],
         potrazi: [
-          "Kamen iza oltara, na kojem su prema predaji pogubljeni."
+          "The stone behind the altar, on which tradition says they were executed."
         ]
       },
       {
-        ime: "Kripta",
-        sto: "Kamena šuma od sedamdesetak stupova iz 11. stoljeća.",
-        prica: "Svaki je kapitel drukčiji jer su stupovi doneseni iz starijih, antičkih i bizantskih građevina. Uspoređuju je s cisternama u Carigradu i džamijom u Córdobi."
+        ime: "The crypt",
+        sto: "A stone forest of some seventy columns from the 11th century.",
+        prica: "Every capital is different because the columns were brought from older ancient and Byzantine buildings. It is compared to the cisterns of Constantinople and the mosque of Córdoba."
       },
       {
         ime: "Castello Aragonese",
-        sto: "Peterokutni dvorac s jarkom, sagrađen nakon povratka grada pod kršćansku vlast.",
-        prica: "Tri okrugle kule zovu se Alfonsina, Ippolita i Duchessa, a oštri bastion Punta di Diamante, dijamantni šiljak. Po ovom je dvorcu naslov dobio prvi gotski roman, Otrantski dvorac Horacea Walpolea iz 1764.",
+        sto: "A pentagonal castle with a moat, built after the town returned to Christian rule.",
+        prica: "The three round towers are called Alfonsina, Ippolita and Duchessa, and the sharp bastion is the Punta di Diamante, the diamond point. This castle gave its name to the first Gothic novel, Horace Walpole's The Castle of Otranto of 1764.",
         potrazi: [
-          "Kamene topovske kugle koje i danas leže po uličicama starog grada."
+          "The stone cannonballs that still lie around the lanes of the old town."
         ]
       }
     ],
     zanimljivosti: [
-      "Otranto se mučenika spominje svake godine 13. i 14. kolovoza.",
-      "Svjetionik Punta Palascìa južno od grada najistočnija je točka Italije, pa se onamo ide dočekati prvi izlazak sunca u novoj godini."
+      "Otranto commemorates the martyrs every year on August 13 and 14.",
+      "The Punta Palascìa lighthouse south of town is the easternmost point of Italy, so people go there to greet the first sunrise of the new year."
     ],
     hrvatska: [
-      "Otrantska vrata, tjesnac širok tek sedamdesetak kilometara, ulaz su u Jadran. Tko je držao Otranto, mogao je zatvoriti put prema Dubrovniku, Splitu i Veneciji, pa je vijest o padu grada 1480. prestravila cijelu našu obalu.",
-      "Kad se grad 1481. oslobađao, kralj Matija Korvin poslao je u pomoć vojsku pod zapovjedništvom Blaža Mađara, koji je nekoliko godina prije bio hrvatski ban."
+      "The Strait of Otranto, only about seventy kilometers wide, is the entrance to the Adriatic. Whoever held Otranto could close the route to Dubrovnik, Split and Venice, so news of the town's fall in 1480 terrified the whole Croatian coast.",
+      "When the town was being liberated in 1481, King Matthias Corvinus sent an army to help under the command of Blaž Mađar, who a few years earlier had been Ban of Croatia."
     ],
     jedi: [
-      "Riba i sirovi plodovi mora",
+      "Fish and raw seafood",
       "Puccia",
       "Pasticciotto"
     ]
@@ -70,246 +70,246 @@ TRIP.mjesta = TRIP.mjesta.concat([
     ime: "Gallipoli",
     regija: "Salento",
     znak: "🪔",
-    sazetak: "Stari grad na otoku, obogaćen uljem koje je gorjelo u svjetiljkama Europe.",
-    prica: "Ime dolazi od grčkog Kallipolis, lijepi grad. Stara jezgra je vapnenački otok spojen s kopnom mostom i opasan morskim zidinama. U 17. i 18. stoljeću obogatio se uljem, ali ne onim za jelo. Maslinovo ulje tiješteno u podzemnim mlinovima odlazilo je brodovima na sjever, gdje je gorjelo u uličnim svjetiljkama i podmazivalo strojeve.",
+    sazetak: "An old town on an island, made rich by oil that burned in the lamps of Europe.",
+    prica: "The name comes from the Greek Kallipolis, the beautiful city. The old core is a limestone island joined to the mainland by a bridge and ringed by sea walls. In the 17th and 18th centuries it grew rich on oil, though not the kind you eat. Olive oil pressed in underground mills went north by ship, where it burned in street lamps and lubricated machinery.",
     znamenitosti: [
       {
         ime: "Fontana Greca",
-        sto: "Fontana kraj mosta koju zovu najstarijom u Italiji.",
-        prica: "Dugo se tvrdilo da je iz 3. stoljeća prije Krista, ali povjesničari umjetnosti danas misle da je vjerojatnije renesansni rad iz 16. stoljeća izrađen po antičkom uzoru.",
+        sto: "A fountain by the bridge that is called the oldest in Italy.",
+        prica: "It was long claimed to date from the 3rd century BC, but art historians now think it is more likely a 16th-century Renaissance work made on an ancient model.",
         potrazi: [
-          "Tri reljefa s mitološkim prizorima žena pretvorenih u izvore."
+          "Three reliefs with mythological scenes of women turned into springs."
         ]
       },
       {
-        ime: "Dvorac i Rivellino",
-        sto: "Morski dvorac s odvojenom okruglom kulom koja čuva most."
+        ime: "The castle and the Rivellino",
+        sto: "A sea castle with a detached round tower guarding the bridge."
       },
       {
         ime: "Cattedrale di Sant'Agata",
-        sto: "Barokna katedrala od zlatnog kamena na najvišoj točki otoka.",
-        prica: "Građena je u 17. stoljeću, a dio nacrta pripisuje se Giuseppeu Zimbalu, majstoru leccanskog baroka. Unutra su zidovi prekriveni velikim slikama, pa crkva izgleda kao galerija."
+        sto: "A baroque cathedral of golden stone at the highest point of the island.",
+        prica: "It was built in the 17th century, and part of the design is attributed to Giuseppe Zimbalo, the master of Lecce baroque. Inside, the walls are covered with large paintings, so the church looks like a gallery."
       },
       {
         ime: "Frantoio Ipogeo",
-        sto: "Mlin za ulje uklesan u stijenu ispod palače Granafei.",
-        prica: "Ovdje se vidi odakle je stiglo bogatstvo grada. Pod zemljom je bilo toplije, pa je ulje lakše teklo, a ljudi i životinje radili su u tami cijelu zimu."
+        sto: "An oil mill cut into the rock beneath Palazzo Granafei.",
+        prica: "This is where you see the source of the town's wealth. It was warmer underground, so the oil flowed more easily, and men and animals worked in the dark all winter long."
       },
       {
         ime: "Chiesa di San Francesco d'Assisi",
-        sto: "Crkva u kojoj stoji drveni kip Malladronea, nepokajanog razbojnika.",
-        prica: "Kip prikazuje razbojnika razapetog uz Krista koji se nije pokajao, i ima zastrašujući cerek. Legenda kaže da mu odjeća neprestano trune, pa je moraju mijenjati."
+        sto: "The church that holds the wooden statue of the Malladrone, the unrepentant thief.",
+        prica: "The statue shows the thief crucified beside Christ who did not repent, and it wears a terrifying grin. Legend has it that his clothes keep rotting away, so they have to be replaced."
       }
     ],
-    hrvatska: "Venecija je Gallipoli opsjela i opljačkala 1484., a zatim ga nekoliko godina i držala.",
+    hrvatska: "Venice besieged and sacked Gallipoli in 1484, and then held it for several years.",
     jedi: [
-      "Gambero viola, sirov",
+      "Gambero viola, raw",
       "Scapece gallipolina",
       "Spumone"
     ],
-    savjet: "Obiđite cijeli prsten zidina, za što treba 30 do 40 minuta, i to u zalazak sunca, jer Gallipoli gleda na zapad."
+    savjet: "Walk the full ring of the walls, which takes 30 to 40 minutes, and do it at sunset, because Gallipoli faces west."
   },
   {
     id: "leuca",
     ime: "Santa Maria di Leuca",
     regija: "Salento",
     znak: "🗼",
-    sazetak: "Kraj kopna, gdje se prema predaji susreću dva mora.",
-    prica: "Rimljani su ovaj rt zvali finibus terrae, kraj zemlje. Na njemu je stajao Minervin hram, a predaja kaže da se ovdje iskrcao sveti Petar na putu iz Palestine u Rim i hram pretvorio u crkvu. Krajem 19. stoljeća bogate obitelji Salenta sagradile su uz zaljev vile u svim mogućim stilovima, a 1939. ovdje je svečano završen veliki apulijski akvadukt.",
+    sazetak: "Land's end, where tradition says two seas meet.",
+    prica: "The Romans called this cape finibus terrae, the end of the earth. A temple of Minerva stood on it, and tradition says that Saint Peter landed here on his way from Palestine to Rome and turned the temple into a church. At the end of the 19th century the wealthy families of Salento built villas along the bay in every style imaginable, and in 1939 the great Apulian aqueduct was ceremonially completed here.",
     znamenitosti: [
       {
-        ime: "Svetište Santa Maria de Finibus Terrae",
-        sto: "Bazilika s početka 18. stoljeća, građena poput utvrde zbog gusarskih napada.",
-        prica: "Legenda kaže da svaki kršćanin mora barem jednom doći u Leucu, za života ili nakon smrti, da bi ušao u raj.",
-        prakticno: "S terase pred crkvom najljepši je zalazak sunca."
+        ime: "The sanctuary of Santa Maria de Finibus Terrae",
+        sto: "An early 18th-century basilica, built like a fortress because of pirate raids.",
+        prica: "Legend has it that every Christian must come to Leuca at least once, in life or after death, in order to enter paradise.",
+        prakticno: "The terrace in front of the church has the best sunset."
       },
       {
-        ime: "Svjetionik",
-        sto: "Bijeli osmerokutni toranj visok 47 metara, na stijeni 102 metra iznad mora.",
-        prica: "Sagrađen je 1866. i jedan je od najviših u Italiji. Do vrha vode 254 stepenice."
+        ime: "The lighthouse",
+        sto: "A white octagonal tower 47 meters high, on a rock 102 meters above the sea.",
+        prica: "It was built in 1866 and is one of the tallest in Italy. There are 254 steps to the top."
       },
       {
         ime: "Cascata Monumentale",
-        sto: "Slap i stubište od tristotinjak stepenica, završetak apulijskog akvadukta.",
-        prica: "Akvadukt koji je žednoj Apuliji donio vodu s druge strane Apenina ovdje se 1939. svečano ulio u more. Mussolini se očekivao na otvorenju, ali je poslao ministra. Voda se pušta samo povremeno, ljeti.",
+        sto: "A waterfall and a stairway of some three hundred steps, the end point of the Apulian aqueduct.",
+        prica: "The aqueduct that brought water to thirsty Apulia from the far side of the Apennines was ceremonially released into the sea here in 1939. Mussolini was expected at the opening, but he sent a minister. The water is turned on only occasionally, in summer.",
         potrazi: [
-          "Stubište se spušta od svetišta do luke, pa se isplati sići njime, a ne popeti."
+          "The stairway runs down from the sanctuary to the harbor, so it pays to walk down it and skip the climb."
         ]
       },
       {
-        ime: "Punta Meliso i Punta Ristola",
-        sto: "Dva rta koja zatvaraju zaljev.",
-        prica: "Punta Ristola prava je najjužnija točka potpetice. Predaja kaže da se ovdje susreću Jadransko i Jonsko more, i ljudi vam znaju pokazati crtu na vodi. Na pomorskim kartama granica je ipak sjevernije, kod Otranta."
+        ime: "Punta Meliso and Punta Ristola",
+        sto: "The two headlands that close the bay.",
+        prica: "Punta Ristola is the true southernmost point of the heel. Tradition says that the Adriatic and the Ionian Sea meet here, and people will happily show you the line on the water. On nautical charts, though, the boundary lies farther north, at Otranto."
       }
     ],
-    savjet: "Špilje s obje strane rta obilaze se brodom iz marine."
+    savjet: "The caves on both sides of the cape are visited by boat from the marina."
   },
   {
     id: "trani",
     ime: "Trani",
-    regija: "Sjeverno od Barija",
+    regija: "North of Bari",
     znak: "⛪",
-    sazetak: "Katedrala koja izgleda kao da pluta, na samom rubu mora.",
-    prica: "Trani je bio srednjovjekovna trgovačka luka čiji se pomorski zakonik tradicionalno datira u 1063. i smatra najstarijim sačuvanim na latinskom Zapadu. Godine 1094. ovdje je umro mladi grčki hodočasnik Nikola, koji je ubrzo proglašen svecem, i grad mu je počeo graditi katedralu uz samu vodu. Trani je imao i jednu od najvažnijih židovskih zajednica juga Italije.",
+    sazetak: "A cathedral that seems to float, right at the edge of the sea.",
+    prica: "Trani was a medieval trading port whose maritime code is traditionally dated to 1063 and considered the oldest surviving one in the Latin West. In 1094 a young Greek pilgrim named Nicholas died here and was soon declared a saint, and the town began building him a cathedral right beside the water. Trani also had one of the most important Jewish communities in southern Italy.",
     znamenitosti: [
       {
         ime: "Cattedrale di San Nicola Pellegrino",
-        sto: "Romanička katedrala svetog Nikole Hodočasnika, započeta 1099.",
-        prica: "More je s tri strane, pa bijelo-ružičasti kamen u zalazak sunca izgleda kao da lebdi. Zapravo su to tri crkve jedna nad drugom: gornja crkva, kripta svetog Nikole Hodočasnika i ispod nje još starija crkva.",
+        sto: "The Romanesque cathedral of Saint Nicholas the Pilgrim, begun in 1099.",
+        prica: "The sea lies on three sides, so at sunset the white and pink stone seems to hover. It is actually three churches stacked one above the other: the upper church, the crypt of Saint Nicholas the Pilgrim and, beneath that, an even older church.",
         potrazi: [
-          "Zvonik koji stoji na otvorenom šiljastom luku, kroz koji se može proći. To je vrlo neobično za romaniku.",
-          "Brončana vrata Barisana da Tranija iz oko 1175. Isti je majstor izlio i vrata katedrala u Ravellu i Monrealeu.",
-          "Tri visoke apside okrenute prema luci."
+          "The bell tower, which stands on an open pointed arch that you can walk through. That is very unusual for Romanesque architecture.",
+          "The bronze doors by Barisano da Trani from around 1175. The same master cast the doors of the cathedrals in Ravello and Monreale.",
+          "The three tall apses facing the harbor."
         ],
-        prakticno: "Trg pred katedralom najljepši je u zalazak sunca i noću, kad je kamen osvijetljen."
+        prakticno: "The square in front of the cathedral is at its best at sunset and at night, when the stone is floodlit."
       },
       {
         ime: "Castello Svevo",
-        sto: "Morski dvorac cara Fridrika II. iz 1233., stotinjak metara od katedrale."
+        sto: "The sea castle of Emperor Frederick II from 1233, about a hundred meters from the cathedral."
       },
       {
-        ime: "Giudecca i sinagoga Scolanova",
-        sto: "Židovska četvrt sa sinagogom iz 13. stoljeća.",
-        prica: "Sinagoga je oko 1380. pretvorena u crkvu, a 2006. vraćena je židovskoj zajednici i ponovno služi molitvi, nakon više od šest stoljeća."
+        ime: "The Giudecca and the Scolanova synagogue",
+        sto: "The Jewish quarter, with a 13th-century synagogue.",
+        prica: "Around 1380 the synagogue was turned into a church, and in 2006 it was returned to the Jewish community and is used for prayer once again, after more than six centuries."
       },
       {
-        ime: "Luka",
-        sto: "Polukružna ribarska luka s restoranima i šetnicom.",
-        prica: "Predvečer se ovdje okupi cijeli grad, a na bedemu iznad luke gradski je park s pogledom na katedralu."
+        ime: "The harbor",
+        sto: "A crescent-shaped fishing harbor with restaurants and a promenade.",
+        prica: "Toward evening the whole town gathers here, and on the rampart above the harbor is the town park with a view of the cathedral."
       }
     ],
     zanimljivosti: [
-      "Predaja kaže da je Nikola Hodočasnik lutao vičući samo „Kyrie eleison“, pa su ga smatrali ludim sve dok nije umro i počela se događati čuda."
+      "Tradition says that Nicholas the Pilgrim wandered about crying only “Kyrie eleison”, so people thought he was mad until he died and miracles began to happen."
     ],
     hrvatska: [
-      "Na portalu crkve Sant'Andrea u obližnjoj Barletti kipar se potpisao kao Simeon Dubrovčanin, stanovnik Tranija. To je dokaz da su majstori u 13. stoljeću radili s obje strane Jadrana.",
-      "Tri visoke apside nad morem stručnjaci uspoređuju s crkvama naše obale, primjerice sa svetim Donatom u Zadru."
+      "On the portal of the church of Sant'Andrea in nearby Barletta, the sculptor signed himself as Simeon of Dubrovnik, resident of Trani. It is proof that 13th-century craftsmen worked on both sides of the Adriatic.",
+      "Experts compare the three tall apses above the sea with churches on the Croatian coast, such as Saint Donatus in Zadar."
     ],
     jedi: [
-      "Sirovi plodovi mora",
-      "Hobotnica na žaru",
+      "Raw seafood",
+      "Grilled octopus",
       "Moscato di Trani"
     ]
   },
   {
     id: "castel-del-monte",
     ime: "Castel del Monte",
-    regija: "Sjeverno od Barija",
+    regija: "North of Bari",
     znak: "👑",
-    sazetak: "Osmerokutna kamena kruna na brdu, za koju nitko ne zna čemu je služila.",
-    prica: "Sam na brdu visokom 540 metara, vidljiv kilometrima, stoji osmerokutni dvorac s osam osmerokutnih kula. Jedini dokument iz tog vremena je pismo od 29. siječnja 1240. u kojem car Fridrik II. naređuje da se nabavi građa. Ne zna se čemu je trebao služiti niti je li car u njemu ikada boravio. UNESCO ga je 1996. opisao kao jedinstveno djelo u kojem su se spojili antika, islamski Istok i sjevernjačka gotika.",
+    sazetak: "An octagonal stone crown on a hill, and nobody knows what it was for.",
+    prica: "Alone on a hill 540 meters high and visible for kilometers around stands an octagonal castle with eight octagonal towers. The only document from the period is a letter of January 29, 1240, in which Emperor Frederick II orders building materials to be procured. Nobody knows what it was meant for or whether the emperor ever stayed in it. In 1996 UNESCO described it as a unique work in which classical antiquity, the Islamic East and northern Gothic came together.",
     znamenitosti: [
       {
-        ime: "Osmerokut",
-        sto: "Dva kata, na svakom osam soba oko osmerokutnog dvorišta.",
-        prica: "Svaka stranica duga je 16,5 metara, a zidovi su visoki 25. Nema jarka, pokretnog mosta, konjušnica ni kuhinja, što je za utvrdu vrlo čudno. Ima, međutim, kamine i za ono doba začuđujuće napredne zahode na oba kata.",
+        ime: "The octagon",
+        sto: "Two floors, each with eight rooms around an octagonal courtyard.",
+        prica: "Each side is 16.5 meters long and the walls are 25 meters high. There is no moat, no drawbridge, no stables and no kitchens, which is very strange for a fortress. It does, however, have fireplaces and, for its day, astonishingly advanced toilets on both floors.",
         potrazi: [
-          "Broj osam, koji se ponavlja posvuda.",
-          "Glavni portal okrenut istoku, koji izgleda kao pročelje rimskog hrama usred gotičkog dvorca.",
-          "Zaglavne kamene na svodovima s isklesanim glavama i lišćem.",
-          "Mramorne klupe ispod prozora i ostatke obojenog mramora kojim su sobe nekad bile obložene."
+          "The number eight, which is repeated everywhere.",
+          "The main portal facing east, which looks like the front of a Roman temple in the middle of a Gothic castle.",
+          "The keystones of the vaults, carved with heads and foliage.",
+          "The marble benches beneath the windows and the remains of the colored marble that once lined the rooms."
         ]
       },
       {
-        ime: "Teorije",
-        sto: "Zašto je sagrađen: pet pokušaja odgovora.",
+        ime: "The theories",
+        sto: "Why it was built: five attempts at an answer.",
         prica: [
-          "Prva teorija kaže da je bio lovački dvorac, jer je Fridrik napisao raspravu o lovu sa sokolima, no nema konjušnica. Druga ga vidi kao utvrdu koja je nekad imala i vanjski zid.",
-          "Treća ga čita kao simbol u kamenu: osmerokut je lik između kvadrata, koji predstavlja zemlju, i kruga, koji predstavlja nebo, a osmerokutne su i Kupola na stijeni u Jeruzalemu i kapela Karla Velikog u Aachenu. Četvrta tvrdi da je astronomski instrument, a peta da je bio neka vrsta kupališta po uzoru na hamam."
+          "The first theory says it was a hunting lodge, since Frederick wrote a treatise on hunting with falcons, yet there are no stables. The second sees it as a fortress that once had an outer wall as well.",
+          "The third reads it as a symbol in stone: the octagon is the shape between the square, which stands for the earth, and the circle, which stands for heaven, and both the Dome of the Rock in Jerusalem and Charlemagne's chapel in Aachen are octagonal too. The fourth claims it is an astronomical instrument, and the fifth that it was a kind of bathhouse modeled on a hammam."
         ]
       }
     ],
     zanimljivosti: [
-      "Nalazi se na talijanskoj kovanici od jednog centa, pa ga vjerojatno već nosite u novčaniku.",
-      "Poslužio je kao uzor za knjižnicu u romanu Ime ruže Umberta Eca.",
-      "Karlo Anžuvinski pretvorio ga je u tamnicu za sinove Fridrikova nasljednika Manfreda.",
-      "U 18. stoljeću mramor i stupovi su opljačkani, a talijanska država kupila je ruševinu 1876. za 25 000 lira."
+      "It appears on the Italian one-cent coin, so you are probably already carrying it in your wallet.",
+      "It served as the model for the library in Umberto Eco's novel The Name of the Rose.",
+      "Charles of Anjou turned it into a prison for the sons of Frederick's successor Manfred.",
+      "In the 18th century its marble and columns were plundered, and the Italian state bought the ruin in 1876 for 25,000 lire."
     ],
-    savjet: "Auto ostaje na parkiralištu ispod brda, a do dvorca se ide autobusom ili petnaestak minuta uzbrdo pješice. Unutrašnjost je prazna, pa je dovoljno 45 do 60 minuta. Cijenu i radno vrijeme provjerite na službenoj stranici casteldelmonte.cultura.gov.it."
+    savjet: "The car stays in the parking lot at the foot of the hill, and you reach the castle by bus or on foot, about fifteen minutes uphill. The interior is empty, so 45 to 60 minutes is enough. Check the price and opening hours on the official website, casteldelmonte.cultura.gov.it."
   },
   {
     id: "altamura",
     ime: "Altamura",
-    regija: "Sjeverno od Barija",
+    regija: "North of Bari",
     znak: "🍞",
-    sazetak: "Grad kruha, katedrale Fridrika II. i neandertalca zarobljenog u stijeni.",
-    prica: "Ime znači visoki zidovi i podsjeća na megalitske zidine koje su ovdje podigli Peuceti. Mjesto je bilo pusto kad ga je 1232. ponovno osnovao Fridrik II. i naručio veliku katedralu. Danas je Altamura talijanska prijestolnica kruha.",
+    sazetak: "The town of bread, of Frederick II's cathedral and of a Neanderthal trapped in the rock.",
+    prica: "The name means high walls and recalls the megalithic walls raised here by the Peucetians. The place was deserted when Frederick II refounded it in 1232 and commissioned a great cathedral. Today Altamura is Italy's capital of bread.",
     znamenitosti: [
       {
         ime: "Cattedrale di Santa Maria Assunta",
-        sto: "Katedrala koju je 1232. dao graditi car Fridrik II.",
+        sto: "The cathedral that Emperor Frederick II ordered built in 1232.",
         potrazi: [
-          "Portal, jedan od najbogatijih u Apuliji. Stoji na dva kamena lava, a luk mu je isklesan s dvadeset dva mala prizora iz Kristova života.",
-          "Kruh u kamenu: u prizoru Josipa i Marije na putu u Betlehem i na stolu Posljednje večere isklesana je pogača. Altamurani tvrde da je to, naravno, njihov kruh."
+          "The portal, one of the richest in Apulia. It rests on two stone lions, and its arch is carved with twenty-two small scenes from the life of Christ.",
+          "Bread in stone: a round loaf is carved in the scene of Joseph and Mary on the road to Bethlehem and on the table of the Last Supper. The people of Altamura insist that it is, of course, their bread."
         ]
       },
       {
         ime: "Claustri",
-        sto: "Sićušna slijepa dvorišta koja se otvaraju s glavnih ulica.",
-        prica: "Altamura ih ima na desetke. U svakom je oko zajedničkog bunara živjela jedna proširena obitelj ili zajednica."
+        sto: "Tiny dead-end courtyards that open off the main streets.",
+        prica: "Altamura has dozens of them. In each one an extended family or a community lived around a shared well."
       },
       {
-        ime: "Čovjek iz Altamure",
-        sto: "Kostur neandertalca star najmanje 130 000 godina.",
-        prica: "Speleolozi su ga 1993. pronašli u špilji Lamalunga, sraslog sa stijenom i prekrivenog kalcitom kao koraljima. I danas je u špilji, jer ga je nemoguće izvaditi, a o njemu govori posjetiteljski centar."
+        ime: "The Altamura Man",
+        sto: "The skeleton of a Neanderthal at least 130,000 years old.",
+        prica: "Speleologists found him in 1993 in the Lamalunga cave, fused with the rock and covered in calcite as if in coral. He is still in the cave, because it is impossible to remove him, and a visitor center tells his story."
       },
       {
-        ime: "Krušne peći",
-        sto: "Pekare na drva u kojima se peče Pane di Altamura.",
-        prica: "Kruh se ovdje kupuje ujutro, još topao. Najstarije peći potječu još iz srednjeg vijeka."
+        ime: "The bread ovens",
+        sto: "Wood-fired bakeries where Pane di Altamura is baked.",
+        prica: "Here you buy bread in the morning, while it is still warm. The oldest ovens go back to the Middle Ages."
       }
     ],
     zanimljivosti: [
-      "U kamenolomu Pontrelli pronađeno je 1999. oko trideset tisuća otisaka stopala dinosaura.",
-      "Godine 1799. Altamura se proglasila republikom i tri mjeseca sama upravljala sobom, sve dok je nisu zauzele kraljeve snage."
+      "In 1999 about thirty thousand dinosaur footprints were found in the Pontrelli quarry.",
+      "In 1799 Altamura declared itself a republic and governed itself for three months, until the king's forces took it."
     ],
     jedi: [
-      "Pane di Altamura i focaccia iz krušne peći",
+      "Pane di Altamura and focaccia from a wood-fired oven",
       "Tette delle monache",
-      "Liker Padre Peppe"
+      "Padre Peppe liqueur"
     ]
   },
   {
     id: "vieste",
-    ime: "Vieste i Gargano",
+    ime: "Vieste and the Gargano",
     regija: "Gargano",
     znak: "🪨",
-    sazetak: "Ostruga talijanske čizme: bijele litice, drvene ribarske naprave i hladna bukova šuma.",
-    prica: "Gargano je vapnenačka planina gurnuta u Jadran, s bijelim liticama i morskim lukovima uz obalu i prastarom šumom u unutrašnjosti. Vieste stoji na stjenovitom rtu. U srpnju 1554. pred njim se pojavio gusar Dragut sa šezdeset do sedamdeset galija, zauzeo grad i tisuće ljudi odveo u roblje.",
+    sazetak: "The spur of the Italian boot: white cliffs, wooden fishing machines and a cool beech forest.",
+    prica: "The Gargano is a limestone mountain thrust out into the Adriatic, with white cliffs and sea arches along the coast and an ancient forest in the interior. Vieste stands on a rocky headland. In July 1554 the corsair Dragut appeared before it with sixty to seventy galleys, took the town and carried thousands of people off into slavery.",
     znamenitosti: [
       {
         ime: "Pizzomunno",
-        sto: "Bijela vapnenačka stijena visoka 25 metara, na plaži južno od grada.",
-        prica: "Legenda kaže da je ribar Pizzomunno volio Cristaldu. Ljubomorne sirene odvukle su je pod more, a on se od tuge skamenio. Svakih sto godina ona se vrati na jednu jedinu noć."
+        sto: "A white limestone rock 25 meters high, on the beach south of town.",
+        prica: "Legend has it that the fisherman Pizzomunno loved Cristalda. Jealous sirens dragged her beneath the sea, and he turned to stone with grief. Every hundred years she comes back for one single night."
       },
       {
         ime: "Chianca Amara",
-        sto: "Gorki kamen kraj katedrale.",
-        prica: "Predaja kaže da su na ovoj stijeni Dragutovi ljudi 1554. pogubili starce i sve one koje nisu mogli prodati kao roblje."
+        sto: "The bitter stone beside the cathedral.",
+        prica: "Tradition says that on this rock in 1554 Dragut's men executed the old people and everyone else they could not sell as slaves."
       },
       {
-        ime: "Stari grad i katedrala",
-        sto: "Bijele uličice na rtu i romanička katedrala iz 11. stoljeća.",
-        prica: "Barokni zvonik katedrale sagrađen je nakon što se stari srušio 1772. Dvorac Fridrika II. iznad grada vojna je zona, pa se gleda samo izvana."
+        ime: "The old town and the cathedral",
+        sto: "White lanes on the headland and an 11th-century Romanesque cathedral.",
+        prica: "The cathedral's baroque bell tower was built after the old one collapsed in 1772. The castle of Frederick II above the town is a military zone, so you can only see it from outside."
       },
       {
         ime: "Trabucchi",
-        sto: "Paukolike drvene platforme na stijenama, s dugim rukama koje spuštaju mrežu u more.",
-        prica: "Građeni su od debala alepskog bora i omogućuju ribolov bez isplovljavanja, što je bilo dragocjeno kad je more opasno. Ima ih od Viestea do Peschicija i zaštićeni su kao spomenici. U nekima se danas može i večerati."
+        sto: "Spidery wooden platforms on the rocks, with long arms that lower a net into the sea.",
+        prica: "They are built from trunks of Aleppo pine and make it possible to fish without putting out to sea, which was invaluable when the water was dangerous. They run from Vieste to Peschici and are protected as monuments. In some of them you can now have dinner."
       },
       {
         ime: "Foresta Umbra",
-        sto: "Sjenovita šuma starih bukava u srcu Gargana.",
-        prica: "Ime znači sjenovita šuma. Usred vrućeg juga, na osamsto metara visine, raste hladna bukova šuma koja je od 2017. na UNESCO-ovu popisu."
+        sto: "A shady forest of old beech trees in the heart of the Gargano.",
+        prica: "The name means shady forest. In the middle of the hot south, at an altitude of eight hundred meters, grows a cool beech forest that has been on the UNESCO list since 2017."
       }
     ],
     hrvatska: [
-      "Na Garganu su u 11. stoljeću živjeli Slaveni s naše obale. Hrvatski povjesničari opisuju organizirano naseljavanje, najvjerojatnije iz neretvanskog kraja ili s Lastova, i dva utvrđena mjesta, Peschici i Deviu, kojima je upravljao župan. Ime Peschici povezuje se s riječju pijesak.",
-      "Stare bukove šume Foreste Umbre dio su iste UNESCO-ove baštine kao i bukove šume Paklenice i Sjevernog Velebita."
+      "In the 11th century Slavs from the Croatian coast lived on the Gargano. Croatian historians describe an organized settlement, most likely from the Neretva region or the island of Lastovo, and two fortified places, Peschici and Devia, governed by a župan. The name Peschici is linked to pijesak, the Croatian word for sand.",
+      "The old beech forests of the Foresta Umbra are part of the same UNESCO site as the beech forests of Paklenica and Northern Velebit."
     ],
     jedi: [
       "Caciocavallo podolico",
-      "Troccoli s plodovima mora",
+      "Troccoli with seafood",
       "Paposcia"
     ]
   },
@@ -318,146 +318,146 @@ TRIP.mjesta = TRIP.mjesta.concat([
     ime: "Monte Sant'Angelo",
     regija: "Gargano",
     znak: "🕯️",
-    sazetak: "Svetište u špilji u koje hodočasnici silaze već tisuću i petsto godina.",
-    prica: "Predaja kaže da se arkanđeo Mihael ukazao na ovoj planini tri puta, 490., 492. i 493., i da je papa Gelazije I. tada špilju priznao kao crkvu. Od 7. stoljeća bila je narodno svetište Langobarda, a kroz srednji vijek jedna od četiri velike hodočasničke postaje kršćanstva, uz Rim, Jeruzalem i Santiago. UNESCO ju je uvrstio u svjetsku baštinu 2011.",
+    sazetak: "A sanctuary in a cave that pilgrims have been descending into for fifteen hundred years.",
+    prica: "Tradition says that the Archangel Michael appeared on this mountain three times, in 490, 492 and 493, and that Pope Gelasius I then recognized the cave as a church. From the 7th century it was the national shrine of the Lombards, and throughout the Middle Ages it was one of the four great pilgrimage destinations of Christendom, along with Rome, Jerusalem and Santiago. UNESCO added it to the World Heritage List in 2011.",
     znamenitosti: [
       {
         ime: "Santuario di San Michele Arcangelo",
-        sto: "Crkva u prirodnoj špilji, u koju se ne penje nego silazi.",
-        prica: "Dugo stubište spušta se u utrobu planine. Legenda kaže da je ovo jedina crkva koju nije posvetila ljudska ruka, jer je arkanđeo poručio da ju je posvetio sam.",
+        sto: "A church in a natural cave, which you reach by going down instead of up.",
+        prica: "A long stairway descends into the belly of the mountain. Legend has it that this is the only church never consecrated by human hands, because the archangel sent word that he had consecrated it himself.",
         potrazi: [
-          "Brončana vrata izlivena u Carigradu 1076., s dvadeset četiri ploče biblijskih prizora.",
-          "Natpis nad vratima: gdje se stijene otvaraju, ondje se ljudima opraštaju grijesi.",
-          "Golu stijenu špilje iznad oltara.",
-          "Urezane znakove i imena koje su po zidovima ostavili srednjovjekovni hodočasnici, među njima i oni iz daleke Engleske."
+          "The bronze doors cast in Constantinople in 1076, with twenty-four panels of biblical scenes.",
+          "The inscription above the door: where the rocks open wide, there the sins of men are forgiven.",
+          "The bare rock of the cave above the altar.",
+          "The symbols and names scratched into the walls by medieval pilgrims, including some from faraway England."
         ],
-        prakticno: "Grad je na oko osamsto metara visine, pa je hladnije i vjetrovito. Izvan ljeta svetište se zatvara za ručak.",
+        prakticno: "The town sits at about eight hundred meters, so it is cooler and windy. Outside summer the sanctuary closes for lunch.",
         link: "https://www.santuariosanmichele.it/orari/"
       },
       {
-        ime: "Četvrt Junno",
-        sto: "Nizovi malih bijelih kuća u terasama, najstariji dio grada."
+        ime: "The Junno quarter",
+        sto: "Rows of small white terraced houses, the oldest part of town."
       }
     ]
   },
   {
     id: "taranto",
     ime: "Taranto",
-    regija: "Taranto i Matera",
+    regija: "Taranto and Matera",
     znak: "🐬",
-    sazetak: "Jedina kolonija koju je Sparta ikada osnovala i muzej s grčkim zlatom.",
-    prica: "Predaja kaže da su Taranto 706. prije Krista osnovali Parteniji, sinovi Spartanki rođeni za dugog rata, kojima su u domovini uskratili prava pa su poslani preko mora pod vodstvom Falanta. Taras je postao jedan od najbogatijih gradova Velike Grčke. Stari grad je otok između dva mora, otvorenog Mar Grande i zatvorenog Mar Piccolo, a moderni Taranto grad je mornarice i čelika.",
+    sazetak: "The only colony Sparta ever founded, and a museum of Greek gold.",
+    prica: "Tradition says that Taranto was founded in 706 BC by the Partheniae, sons of Spartan women born during a long war, who were denied their rights at home and so were sent overseas under the leadership of Phalanthus. Taras became one of the richest cities of Magna Graecia. The old town is an island between two seas, the open Mar Grande and the enclosed Mar Piccolo, while modern Taranto is a city of the navy and of steel.",
     znamenitosti: [
       {
         ime: "MArTA",
-        sto: "Nacionalni arheološki muzej, jedan od najvažnijih grčkih muzeja u Italiji.",
-        prica: "Glavni razlog dolaska su Ori di Taranto, helenistički zlatni nakit: vijenci od zlatnog lišća, naušnice i dijademe koje su grčki zlatari radili prije dvije tisuće i tristo godina.",
+        sto: "The National Archaeological Museum, one of the most important Greek museums in Italy.",
+        prica: "The main reason to come is the Ori di Taranto, Hellenistic gold jewelry: wreaths of golden leaves, earrings and diadems that Greek goldsmiths made two thousand three hundred years ago.",
         potrazi: [
-          "Grob atleta, s kosturom pobjednika na igrama i njegovim nagradnim amforama.",
-          "Zeusa iz Ugenta, brončani kip boga koji zamahuje munjom."
+          "The Tomb of the Athlete, with the skeleton of a champion of the games and his prize amphorae.",
+          "The Zeus of Ugento, a bronze statue of the god brandishing a thunderbolt."
         ],
-        prakticno: "Otvoreno od utorka do subote od 8:30 do 19:30, nedjeljom kraće, ponedjeljkom zatvoreno. Ulaznica 10 eura, do 18 godina besplatno. Računajte na sat i pol do dva.",
+        prakticno: "Open Tuesday to Saturday from 8:30 to 19:30, shorter hours on Sunday, closed on Monday. Admission is 10 euros, free for those under 18. Allow an hour and a half to two hours.",
         link: "https://museotaranto.cultura.gov.it/it/orari-e-tariffe/"
       },
       {
-        ime: "Dorski stupovi",
-        sto: "Dva stupa hrama iz 6. stoljeća prije Krista na trgu Piazza Castello.",
-        prica: "Pripadali su jednom od najstarijih grčkih hramova u Italiji. Zovu ga Posejdonovim, ali je vjerojatnije bio posvećen nekoj božici."
+        ime: "The Doric columns",
+        sto: "Two columns of a 6th-century BC temple on Piazza Castello.",
+        prica: "They belonged to one of the oldest Greek temples in Italy. It is called the Temple of Poseidon, but it was more probably dedicated to a goddess."
       },
       {
         ime: "Castello Aragonese",
-        sto: "Dvorac na ulazu u kanal, koji od 1887. pripada mornarici.",
-        prakticno: "Mornarica vodi besplatne obilaske, a termine treba provjeriti unaprijed."
+        sto: "A castle at the entrance to the canal, which has belonged to the navy since 1887.",
+        prakticno: "The navy runs free tours, and the times should be checked in advance."
       },
       {
         ime: "Ponte Girevole",
-        sto: "Okretni most između starog i novog grada, otvoren 1887.",
-        prica: "Dva kraka mosta razmaknu se za manje od tri minute kad kroz kanal prolaze ratni brodovi, i tad cijeli grad stane i gleda."
+        sto: "The swing bridge between the old and new town, opened in 1887.",
+        prica: "The two arms of the bridge swing apart in under three minutes when warships pass through the canal, and then the whole city stops and watches."
       },
       {
         ime: "Cattedrale di San Cataldo",
-        sto: "Najstarija katedrala u Apuliji, s jezgrom iz 10. i 11. stoljeća.",
+        sto: "The oldest cathedral in Apulia, with a core from the 10th and 11th centuries.",
         potrazi: [
-          "Cappellone di San Cataldo, kapelu u kojoj je svaki centimetar prekriven mramorom u boji. To je komad napuljskog baroka usred Apulije."
+          "The Cappellone di San Cataldo, a chapel in which every centimeter is covered in colored marble. It is a piece of Neapolitan baroque in the middle of Apulia."
         ]
       }
     ],
     zanimljivosti: [
-      "Proročište je Falantu reklo da će grad osnovati ondje gdje kiša padne iz vedra neba. Zaplakala je njegova žena Etra, čije ime na grčkom znači vedro nebo.",
-      "Grb grada je dječak na dupinu. To je Taras, Posejdonov sin, koji je prema mitu ovamo stigao jašući dupina.",
-      "Po Tarantu su ime dobili pauk tarantula i ples tarantela."
+      "The oracle told Phalanthus that he would found a city where rain fell from a clear sky. It was his wife Aethra who wept, and her name in Greek means clear sky.",
+      "The city's coat of arms is a boy on a dolphin. He is Taras, son of Poseidon, who according to the myth arrived here riding a dolphin.",
+      "The tarantula spider and the tarantella dance are both named after Taranto."
     ]
   },
   {
     id: "matera",
     ime: "Matera",
-    regija: "Taranto i Matera",
+    regija: "Taranto and Matera",
     znak: "🕳️",
-    sazetak: "Grad špilja u susjednoj Basilicati, koji je u jednom ljudskom vijeku od sramote postao ponos Italije.",
+    sazetak: "A city of caves in neighboring Basilicata, which went from Italy's shame to Italy's pride within a single lifetime.",
     prica: [
-      "Ljudi u špiljama ove gudure žive od pretpovijesti, pa je Matera jedno od najdulje neprekidno nastanjenih mjesta u Europi. Kroz stoljeća su špilje produbljivali, zatvarali zidanim pročeljima i slagali jednu nad drugu, tako da je krov jedne obitelji bio ulica druge. To su Sassi, dvije četvrti nazvane Sasso Caveoso i Sasso Barisano, s katedralom na hrptu između njih.",
-      "Do 20. stoljeća Sassi su postali pretrpani. Obitelji su dijelile jednu špilju s mazgom, svinjama i kokošima, bez vode i kanalizacije, a harala je malarija. Carlo Levi opisao je to 1945. u knjizi Krist se zaustavio u Eboliju, a političari su Materu prozvali nacionalnom sramotom. Zakonom iz 1952. naređeno je iseljenje, i u idućih petnaestak godina preseljeno je više od petnaest tisuća ljudi.",
-      "Sassi su zatim desetljećima stajali prazni i urušavali se. Obnova je počela osamdesetih, UNESCO ih je 1993. uvrstio u svjetsku baštinu, a 2019. Matera je bila europska prijestolnica kulture."
+      "People have lived in the caves of this ravine since prehistory, which makes Matera one of the longest continuously inhabited places in Europe. Over the centuries they deepened the caves, closed them off with masonry fronts and stacked them one above the other, so that one family's roof was another family's street. These are the Sassi, two districts called Sasso Caveoso and Sasso Barisano, with the cathedral on the ridge between them.",
+      "By the 20th century the Sassi had become overcrowded. Families shared a single cave with a mule, pigs and chickens, with no running water or sewers, and malaria was rife. Carlo Levi described it in 1945 in his book Christ Stopped at Eboli, and politicians branded Matera a national disgrace. A law of 1952 ordered the evacuation, and over the following fifteen years or so more than fifteen thousand people were rehoused.",
+      "The Sassi then stood empty for decades and crumbled. Restoration began in the 1980s, UNESCO added them to the World Heritage List in 1993, and in 2019 Matera was a European Capital of Culture."
     ],
     znamenitosti: [
       {
         ime: "Casa Noha",
-        sto: "Kuća u kojoj polusatni film ispriča cijelu povijest grada.",
-        prica: "Ovo je najbolja prva postaja, jer nakon nje sve što vidite ima smisla.",
-        prakticno: "Ulaznica 7 eura.",
+        sto: "A house where a half-hour film tells the whole history of the city.",
+        prica: "This is the best first stop, because after it everything you see makes sense.",
+        prakticno: "Admission is 7 euros.",
         link: "https://fondoambiente.it/luoghi/casa-noha/visita"
       },
       {
-        ime: "Prvi pogled na Sasse",
-        sto: "Vidikovci na trgu Piazza Vittorio Veneto i na trgu Piazzetta Pascoli.",
+        ime: "A first look at the Sassi",
+        sto: "The lookouts on Piazza Vittorio Veneto and on Piazzetta Pascoli.",
         potrazi: [
-          "Dimnjake koji vire iz tla pod vašim nogama. To znači da stojite na nečijem krovu."
+          "The chimneys poking out of the ground beneath your feet. They mean you are standing on someone's roof."
         ]
       },
       {
         ime: "Palombaro Lungo",
-        sto: "Golema cisterna iskopana rukama ispod glavnog trga.",
-        prica: "Zovu je katedralom vode. Matera nema izvora, pa je cijeli grad bio sustav žljebova i cisterni koji je hvatao svaku kap kiše."
+        sto: "A huge cistern dug by hand beneath the main square.",
+        prica: "It is called the cathedral of water. Matera has no springs, so the entire city was a system of gutters and cisterns that caught every drop of rain."
       },
       {
-        ime: "Kuća u špilji",
-        sto: "Namještena špilja koja pokazuje kako je obitelj živjela do pedesetih godina.",
+        ime: "A cave house",
+        sto: "A furnished cave that shows how a family lived up to the 1950s.",
         potrazi: [
-          "Visoko podignut krevet. Ispod njega spavale su kokoši, a gore je zrak bio suši.",
-          "Jasle u dnu prostorije, gdje je stajala mazga i grijala kuću.",
-          "Otvor cisterne usred sobe."
+          "The bed raised high off the floor. The chickens slept underneath it, and up there the air was drier.",
+          "The manger at the back of the room, where the mule stood and heated the house.",
+          "The opening of the cistern in the middle of the room."
         ],
-        prakticno: "Najpoznatija je Casa Grotta di Vico Solitario.",
+        prakticno: "The best known is the Casa Grotta di Vico Solitario.",
         link: "https://www.casagrotta.it/tariffe-e-orari"
       },
       {
-        ime: "Spiljske crkve",
-        sto: "Crkve uklesane u stijenu, s freskama iz srednjeg vijeka.",
-        prica: "Redovnici su ih u gradu i u guduri nasuprot njemu isklesali više od stotinu. U gradu se obilaze Santa Lucia alle Malve, zatim Madonna de Idris i San Giovanni in Monterrone, dvije crkve na stjenovitom šiljku povezane tunelom, te San Pietro Barisano, najveća od svih.",
-        prakticno: "Otvorene su svaki dan otprilike od 9:30 do 19:30.",
+        ime: "The rock churches",
+        sto: "Churches cut into the rock, with medieval frescoes.",
+        prica: "Monks carved more than a hundred of them in the city and in the ravine opposite. The ones to visit in the city are Santa Lucia alle Malve, then Madonna de Idris and San Giovanni in Monterrone, two churches on a rocky spur linked by a tunnel, and San Pietro Barisano, the largest of them all.",
+        prakticno: "They are open every day from about 9:30 to 19:30.",
         link: "https://www.oltrelartematera.it/"
       },
       {
-        ime: "Katedrala",
-        sto: "Romanička katedrala iz 13. stoljeća na najvišoj točki grada."
+        ime: "The cathedral",
+        sto: "A 13th-century Romanesque cathedral at the highest point of the city."
       },
       {
-        ime: "Vidikovac Murgia Timone",
-        sto: "Pogled na cijeli grad s druge strane gudure.",
-        prakticno: "Dođite u sumrak, kad se po Sassima pale svjetla."
+        ime: "The Murgia Timone lookout",
+        sto: "A view of the whole city from the far side of the ravine.",
+        prakticno: "Come at dusk, when the lights come on across the Sassi."
       }
     ],
     zanimljivosti: [
-      "Matera je filmski Jeruzalem. Ovdje su snimani Pasolinijevo Evanđelje po Mateju, Pasija Mela Gibsona, Ben-Hur, Wonder Woman i početak filma o Jamesu Bondu Za smrt nema vremena.",
-      "Drugog srpnja slavi se Madonna della Bruna. Kroz grad se vozi raskošna kola od papira, koja svjetina na kraju rastrga jer komadić donosi sreću.",
-      "Nekoliko špilja oko zajedničkog dvorišta i bunara zvalo se vicinato, susjedstvo."
+      "Matera is the movies' Jerusalem. Pasolini's The Gospel According to St. Matthew, Mel Gibson's The Passion of the Christ, Ben-Hur, Wonder Woman and the opening of the James Bond film No Time to Die were all shot here.",
+      "The Madonna della Bruna is celebrated on July 2. A lavish papier-mâché float is drawn through the city, and at the end the crowd tears it to pieces because a fragment brings good luck.",
+      "A cluster of caves around a shared courtyard and well was called a vicinato, a neighborhood."
     ],
     jedi: [
       "Pane di Matera",
       "Peperoni cruschi",
       "Cialledda",
-      "Crapiata, juha od miješanih mahunarki i žitarica"
+      "Crapiata, a soup of mixed legumes and grains"
     ],
-    savjet: "Obujte prave cipele, jer su kamene stepenice izlizane i skliske. Ljeti je podne vrelo i bez hlada, pa razgledajte ujutro i predvečer. Svakako prespavajte."
+    savjet: "Wear proper shoes, because the stone steps are worn smooth and slippery. In summer midday is scorching and there is no shade, so do your sightseeing in the morning and toward evening. Be sure to stay overnight."
   }
 ]);

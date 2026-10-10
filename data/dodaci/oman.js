@@ -1,79 +1,79 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["oman"] = {
   kupiti: [
-    { ime: "Tamjan", opis: "Smola stabla bosvelije iz Dhofara pali se u svakoj omanskoj kući, a najcjenjenija je svijetla, zelenkasta vrsta hojari, koju je najbolje kupiti na sukovima, na vagu i nakon što je pomirišete." },
-    { ime: "Omanska halva", opis: "Gusta, tamna slastica od šećera, škroba, ružine vodice, šafrana i orašastih plodova poslužuje se uz kavu svakom gostu, a kupuje se u specijaliziranim trgovinama u plastičnim ili keramičkim zdjelama." },
-    { ime: "Datulje", opis: "Oman ima stotine sorti, a domaći najviše cijene meku khalas, pa se datulje kupuju na sukovima u pletenim vrećama ili prešane u blokove." },
-    { ime: "Kuma", opis: "Okrugla vezena kapa koju Omanci nose svaki dan ručni je rad s tisućama sitnih bodova, a kupuje se u trgovinama muške odjeće na svakom suku." },
-    { ime: "Srebrni nakit i handžar", opis: "Zakrivljeni bodež u srebrnim koricama nacionalni je simbol, a uz njega se na sukovima nalaze stare beduinske narukvice i ogrlice, koje se prodaju po težini i starosti." },
-    { ime: "Ružina vodica", opis: "Na terasama planine Jebel Akhdar u proljeće se beru ruže i destiliraju u glinenim pećima, a dimna ružina vodica koristi se u kavi, halvi i za kožu." }
+    { ime: "Frankincense", opis: "Resin from the boswellia tree of Dhofar is burned in every Omani home, and the most prized is the pale, greenish hojari grade, best bought in souks by weight after you have smelled it." },
+    { ime: "Omani halwa", opis: "A dense, dark sweet of sugar, starch, rose water, saffron and nuts is served with coffee to every guest, and it is sold in specialist shops in plastic or ceramic bowls." },
+    { ime: "Dates", opis: "Oman has hundreds of varieties and locals prize the soft khalas most, and dates are sold in souks in woven sacks or pressed into blocks." },
+    { ime: "Kuma", opis: "The round embroidered cap that Omani men wear every day is handwork with thousands of tiny stitches, sold in menswear shops in every souk." },
+    { ime: "Silver jewelry and the khanjar", opis: "The curved dagger in a silver sheath is the national symbol, and beside it in the souks you find old Bedouin bracelets and necklaces, priced by weight and age." },
+    { ime: "Rose water", opis: "On the terraces of Jebel Akhdar roses are picked in spring and distilled in clay ovens, and the smoky rose water is used in coffee, in halwa and on the skin." }
   ],
   mjesta: {
     "muskat": {
       dragulji: [
-        { ime: "Riblja tržnica u Mutrahu", opis: "Rano ujutro, na kraju šetnice, ribari iskrcavaju tune, kraljevske skuše i hobotnice, a kupci u bijelim dišdašama cjenkaju se nad ledom." },
-        { ime: "Staza iznad Mutraha", opis: "Stara pješačka staza od parka Riyam preko golih stijena spušta se u Mutrah i za sat do dva hoda daje poglede na luku i more, najbolje u rano jutro." },
-        { ime: "Bandar Al Khairan", opis: "Pola sata južno od grada obala se raspada u uvale i otočiće tirkizne vode, do kojih se dolazi čamcem ili cestom i gdje se roni među koraljima." }
+        { ime: "Mutrah fish market", opis: "Early in the morning, at the end of the corniche, fishermen unload tuna, kingfish and octopus while buyers in white dishdashas haggle over the ice." },
+        { ime: "The trail above Mutrah", opis: "An old footpath from Riyam Park over bare rock drops down into Mutrah and, in an hour or two of walking, gives views of the harbor and the sea, best in the early morning." },
+        { ime: "Bandar Al Khairan", opis: "Half an hour south of the city the coast breaks up into coves and islets of turquoise water, reached by boat or road, where you snorkel among corals." }
       ],
       domaci: [
-        { ime: "Večer na šetnici u Mutrahu", opis: "Kad zađe sunce, obitelji šeću uz luku, muškarci sjede na zidiću, a utvrde na brdima se osvijetle, pa se tada ulazi i u suk, koji je najživlji navečer." },
-        { ime: "Miškak uz cestu", opis: "Predvečer se uz ceste i plaže pale roštilji na kojima se peku ražnjići marinirani u tamarindu i čiliju, a uz njih se pije karak iz papirnate čaše." },
-        { ime: "Nogomet na plaži Qurum", opis: "U kasno popodne, kad se plima povuče, na širokom tvrdom pijesku igraju se deseci utakmica odjednom, a ostali šeću uz vodu do mraka." }
+        { ime: "Evening on the Mutrah Corniche", opis: "When the sun sets, families stroll along the harbor, men sit on the sea wall and the forts on the hills light up, and that is also when people head into the souk, liveliest at night." },
+        { ime: "Mishkak by the road", opis: "Toward evening grills are lit along roads and beaches for skewers marinated in tamarind and chili, eaten with karak tea from a paper cup." },
+        { ime: "Soccer on Qurum Beach", opis: "In the late afternoon, when the tide goes out, dozens of games are played at once on the wide, firm sand while everyone else walks along the water until dark." }
       ],
       kupiti: [
-        { ime: "Tamjan i bakhoor sa suka u Mutrahu", opis: "U natkrivenim prolazima trgovci drže vreće tamjana različitih kvaliteta i mješavine za kađenje, a uz njih se prodaju i glinene kadionice." },
-        { ime: "Halva", opis: "U trgovinama halve u gradu možete kušati verzije sa šafranom, datuljama ili smokvama prije nego što odaberete zdjelu za ponijeti." },
-        { ime: "Kuma i tkanine", opis: "U Mutrahu i susjednim ulicama trgovine prodaju vezene kape i šalove massar, a prodavači rado pokažu kako se šal omata u turban." }
+        { ime: "Frankincense and bakhoor from Mutrah Souq", opis: "In the covered alleys traders keep sacks of frankincense in different grades and blends for burning, with clay burners sold alongside." },
+        { ime: "Halwa", opis: "In the city's halwa shops you can taste versions with saffron, dates or figs before choosing a bowl to take home." },
+        { ime: "Kuma and fabric", opis: "In Mutrah and the neighboring streets shops sell embroidered caps and massar scarves, and the sellers gladly show you how the scarf is wrapped into a turban." }
       ]
     },
     "nizwa-i-planine": {
       dragulji: [
-        { ime: "Misfat al Abriyeen", opis: "Selo od kamena i blata zalijepljeno je za padinu iznad terasa s palmama, bananama i mangom, a hladni kanali vode teku uz staze kojima se šeće." },
-        { ime: "Birkat Al Mouz", opis: "Podno planine Jebel Akhdar stoje ruševine dvaju napuštenih sela od blata usred nasada palmi i banana, kroz koje protječe stari kanal za navodnjavanje pod zaštitom UNESCO-a." },
-        { ime: "Stari Al Hamra", opis: "U starom dijelu gradića stoje višekatne kuće od blata stare nekoliko stoljeća, a u jednoj od njih žene pokazuju kako se melje žito, prži kava i peče kruh." }
+        { ime: "Misfat al Abriyeen", opis: "A village of stone and mud clings to the slope above terraces of palms, bananas and mangoes, with cool water channels running beside the paths you walk on." },
+        { ime: "Birkat Al Mouz", opis: "At the foot of Jebel Akhdar stand the ruins of two abandoned mud villages amid date and banana groves, with an old UNESCO-listed irrigation channel running through." },
+        { ime: "Old Al Hamra", opis: "In the old part of town stand multistory mud houses several centuries old, and in one of them women show how grain is ground, coffee roasted and bread baked." }
       ],
       domaci: [
-        { ime: "Stočni sajam petkom", opis: "Petkom rano ujutro kraj tvrđave u Nizwi prodavači vode koze i telad u krug oko kupaca koji sjede i dovikuju ponude, a sve je gotovo do sredine prijepodneva." },
-        { ime: "Kava, datulje i halva", opis: "Omanska gostoljubivost počinje datuljom i malom šalicom kave s kardamomom, a kad vam je dosta, protresite šalicu prije nego što je vratite domaćinu." },
-        { ime: "Berba ruža na Jebel Akhdaru", opis: "U proljeće, obično u travnju, seljani prije svitanja beru ružičaste cvjetove po terasama i nose ih na destilaciju, a cijela sela tada mirišu na ruže." }
+        { ime: "The Friday livestock market", opis: "Early on Friday mornings beside Nizwa Fort sellers lead goats and calves in a circle around seated buyers who shout out bids, and it is all over by midmorning." },
+        { ime: "Coffee, dates and halwa", opis: "Omani hospitality starts with a date and a small cup of cardamom coffee, and when you have had enough, give the cup a little shake before handing it back to your host." },
+        { ime: "The rose harvest on Jebel Akhdar", opis: "In spring, usually in April, villagers pick pink blossoms on the terraces before dawn and carry them off for distilling, and whole villages smell of roses." }
       ],
       kupiti: [
-        { ime: "Halva i datulje sa suka u Nizwi", opis: "Suk uz tvrđavu ima posebne dvorane za datulje i halvu, gdje se kuša iz otvorenih posuda prije kupnje." },
-        { ime: "Keramika iz Bahle", opis: "Obližnja Bahla stoljećima peče neglazirane ćupove i kadionice od lokalne gline, a kupuju se u lončarskim radionicama u Bahli ili na suku u Nizwi." },
-        { ime: "Srebro i handžari", opis: "Nizwa je staro središte srebrnara, pa se u trgovinama na suku nalaze bodeži, kutijice za kohl i stari nakit, a majstore možete vidjeti i pri radu." }
+        { ime: "Halwa and dates from Nizwa Souq", opis: "The souk beside the fort has separate halls for dates and halwa, where you taste from open containers before buying." },
+        { ime: "Pottery from Bahla", opis: "Nearby Bahla has fired unglazed jars and incense burners from local clay for centuries, sold in the potters' workshops in Bahla or at the souk in Nizwa." },
+        { ime: "Silver and khanjars", opis: "Nizwa is an old silversmithing center, so the souk shops hold daggers, kohl boxes and old jewelry, and you can watch the craftsmen at work." }
       ]
     },
     "sharqiya-i-sur": {
       dragulji: [
-        { ime: "Wadi Tiwi", opis: "Susjed poznatijeg Wadi Shaba dublji je i tiši, s uskom cestom koja se penje kroz sela i palmike do Mibama i sa zelenim bazenima za kupanje putem." },
-        { ime: "Al Ayjah u Suru", opis: "Preko mosta, na drugoj strani lagune, leži stara pomorska četvrt s bijelim kućama rezbarenih vrata, svjetionikom i pogledom na brodogradilište drvenih brodova." },
-        { ime: "Ženska tržnica u Ibri", opis: "Srijedom ujutro na suku u Ibri dio je tržnice rezerviran samo za žene, koje ondje prodaju i kupuju tkanine, mirise, vez i kozmetiku." }
+        { ime: "Wadi Tiwi", opis: "The neighbor of better-known Wadi Shab is deeper and quieter, with a narrow road that climbs through villages and palm groves to Mibam and green swimming pools along the way." },
+        { ime: "Al Ayjah in Sur", opis: "Across the bridge, on the other side of the lagoon, lies the old seafaring quarter with white houses, carved doors, a lighthouse and a view of the wooden dhow yard." },
+        { ime: "The women's market in Ibra", opis: "On Wednesday mornings part of the souk in Ibra is reserved for women only, who sell and buy fabric, perfume, embroidery and cosmetics there." }
       ],
       domaci: [
-        { ime: "Zalazak sunca na dini", opis: "Predvečer se svi iz kampa popnu na najviši greben, sjednu u još topli pijesak i šute dok dine prelaze iz narančaste u ljubičastu." },
-        { ime: "Večer na obali u Suru", opis: "Uz lagunu i na šetnici predvečer sjede ribari i obitelji, djeca se kupaju, a drveni brodovi leže na pijesku čekajući plimu." },
-        { ime: "Kupanje u vadiju", opis: "Omanske obitelji vikendom dolaze u vadije na piknik pod palmama, a kupaju se odjevene, pa i vi u vodu uđite u majici i hlačicama preko kupaćeg kostima." }
+        { ime: "Sunset on a dune", opis: "Toward evening everyone in camp climbs the highest ridge, sits down in the still-warm sand and stays quiet as the dunes go from orange to purple." },
+        { ime: "Evening on the shore in Sur", opis: "Fishermen and families sit by the lagoon and along the corniche toward evening, children swim, and wooden dhows rest on the sand waiting for the tide." },
+        { ime: "Swimming in a wadi", opis: "Omani families come to the wadis on weekends to picnic under the palms, and they swim clothed, so go into the water in a T-shirt and shorts over your swimsuit." }
       ],
       kupiti: [
-        { ime: "Modeli drvenih brodova", opis: "Sur je stoljećima gradio drvene brodove koji su plovili do Zanzibara i Indije, a u brodogradilištu uz lagunu majstori rade i male modele." },
-        { ime: "Beduinsko tkanje", opis: "Žene iz pustinje Sharqiya tkaju vunene prostirke, torbe i ukrase za deve u crvenim i crnim prugama, a prodaju ih u kampovima i na suku u Ibri." }
+        { ime: "Model dhows", opis: "For centuries Sur built wooden ships that sailed to Zanzibar and India, and at the dhow yard by the lagoon the craftsmen make small models too." },
+        { ime: "Bedouin weaving", opis: "Women of the Sharqiya desert weave wool rugs, bags and camel trappings in red and black stripes and sell them in the camps and at the souk in Ibra." }
       ]
     },
     "salalah": {
       dragulji: [
-        { ime: "Plaže Fazayah", opis: "Zapadno od Mughsaila zemljana cesta spušta se niz liticu do niza praznih bijelih plaža s tirkiznim morem, gdje ćete sresti više deva nego ljudi." },
-        { ime: "Vidikovac Jebel Samhan", opis: "S ruba visoravni stijena se ruši više od tisuću metara prema obalnoj ravnici, a ujutro ste često iznad mora oblaka." },
-        { ime: "Wadi Dawkah", opis: "U suhoj dolini sjeverno od gorja rastu tisuće stabala tamjana, zaštićenih kao svjetska baština, pa izbliza vidite zarezanu koru i kapljice smole." }
+        { ime: "The Fazayah beaches", opis: "West of Mughsail a dirt road drops down the cliff to a string of empty white beaches with turquoise water, where you will meet more camels than people." },
+        { ime: "Jebel Samhan viewpoint", opis: "From the edge of the plateau the rock falls more than 3,000 feet toward the coastal plain, and in the morning you are often above a sea of clouds." },
+        { ime: "Wadi Dawkah", opis: "In a dry valley north of the mountains grow thousands of frankincense trees, protected as World Heritage, so you see the cut bark and the beads of resin up close." }
       ],
       domaci: [
-        { ime: "Harif", opis: "Od lipnja do rujna monsun donosi sitnu kišu i maglu, brda pozelene, a obitelji iz cijelog Zaljeva dolaze sjediti na mokroj travi i piti čaj." },
-        { ime: "Kokos i banane s ceste", opis: "Uz obalnu cestu nižu se štandovi pod palmama, gdje vam otvore zeleni kokos i prodaju male slatke banane i papaju s plantaža iza njih." },
-        { ime: "Meso na vrućem kamenju", opis: "Dhofarski način pečenja je madhbi, meso položeno na užareno riječno kamenje, koje se navečer jede u jednostavnim restoranima na otvorenom, uz rižu." }
+        { ime: "Khareef", opis: "From June to September the monsoon brings drizzle and mist, the hills turn green, and families from all over the Gulf come to sit on the wet grass and drink tea." },
+        { ime: "Coconuts and bananas by the road", opis: "Stalls under the palms line the coast road, where they open a green coconut for you and sell small sweet bananas and papayas from the plantations behind them." },
+        { ime: "Meat on hot stones", opis: "The Dhofari way of grilling is madhbi, meat laid on red-hot river stones, eaten in the evening in simple open-air restaurants with rice." }
       ],
       kupiti: [
-        { ime: "Tamjan sa suka Al Haffa", opis: "Uz stari dio grada žene prodaju tamjan razvrstan po kvaliteti, pa pitajte za hojari i pomirišite prije kupnje." },
-        { ime: "Bakhoor dhofarskih žena", opis: "Svaka prodavačica ima vlastitu mješavinu tamjana, sandalovine, mirisnih ulja i šećera, koju kuha kod kuće i prodaje u okruglim kutijicama." },
-        { ime: "Oslikane kadionice", opis: "Glinene kadionice jarkih boja tipične su za Dhofar i prodaju se na istom suku, a bez njih tamjan kod kuće nećete imati u čemu zapaliti." }
+        { ime: "Frankincense from Al Haffa Souq", opis: "Beside the old part of town women sell frankincense sorted by grade, so ask for hojari and smell it before you buy." },
+        { ime: "Bakhoor made by Dhofari women", opis: "Every seller has her own blend of frankincense, sandalwood, fragrant oils and sugar, cooked at home and sold in small round tins." },
+        { ime: "Painted incense burners", opis: "Brightly painted clay burners are typical of Dhofar and sold at the same souk, and without one you will have nothing to burn your frankincense in at home." }
       ]
     }
   }

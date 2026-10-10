@@ -1,95 +1,95 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["gruzija"] = {
   kupiti: [
-    { ime: "Vino iz kvevrija", opis: "Vino koje mjesecima odležava u glinenim amforama ukopanima u zemlju, zajedno s kožicama, ima jantarnu boju i trpak okus, a najbolje ga je kupiti izravno od malih obiteljskih podruma." },
-    { ime: "Čurčhela", opis: "Orasi ili lješnjaci nanizani na konac i umočeni u zgusnuti sok grožđa vise na svakoj tržnici, a svježa je čurčhela meka i savitljiva, pa je stisnite prije kupnje." },
-    { ime: "Svanska sol", opis: "Sol pomiješana s češnjakom, piskavicom, korijandrom i planinskim začinima dolazi iz Svanetije i podiže svako jelo od krumpira, mesa ili rajčice." },
-    { ime: "Tkemali i adžika", opis: "Kiseli umak od divljih šljiva i ljuta pasta od paprike i začinskog bilja stoje na svakom gruzijskom stolu, a domaće verzije prodaju se na tržnicama u bocama i staklenkama." },
-    { ime: "Minankari", opis: "Nakit od srebra s pregradama ispunjenima raznobojnim emajlom stara je gruzijska tehnika, koja se danas radi u malim ateljeima i prodaje u galerijama i na sajmovima rukotvorina." },
-    { ime: "Začini hmeli suneli", opis: "Mješavina sušenog bilja s plavom piskavicom i nevenom, koji ovdje zovu gruzijskim šafranom, daje jelima prepoznatljiv okus i kupuje se na vagu kod prodavačica začina." }
+    { ime: "Qvevri wine", opis: "Wine that rests for months with its skins in clay vessels buried in the ground has an amber color and a grippy taste, and it is best bought directly from small family cellars." },
+    { ime: "Churchkhela", opis: "Walnuts or hazelnuts threaded on a string and dipped in thickened grape juice hang at every market, and fresh churchkhela is soft and bendable, so give it a squeeze before buying." },
+    { ime: "Svan salt", opis: "Salt blended with garlic, fenugreek, coriander and mountain spices comes from Svaneti and lifts any dish of potatoes, meat or tomatoes." },
+    { ime: "Tkemali and adjika", opis: "A sour wild plum sauce and a hot paste of pepper and herbs sit on every Georgian table, and homemade versions are sold at markets in bottles and jars." },
+    { ime: "Minankari", opis: "Silver jewelry with cells filled with colored enamel is an old Georgian technique, made today in small studios and sold in galleries and at craft fairs." },
+    { ime: "Khmeli suneli", opis: "A blend of dried herbs with blue fenugreek and marigold, which people here call Georgian saffron, gives food its signature taste and is sold by weight by the spice sellers." }
   ],
   mjesta: {
     "tbilisi": {
       dragulji: [
-        { ime: "Haustori Sololakija", opis: "Iza teških vrata stambenih zgrada iz 19. stoljeća u četvrti Sololaki kriju se oslikani stropovi, mramorne stube i kovane ograde, pa slobodno zavirite gdje su vrata otvorena." },
-        { ime: "Betlemska četvrt", opis: "Stubama iznad starog grada dolazi se do dviju crkava i drvenih balkona s pogledom na krovove, kamo zalazi malo ljudi, iako je glavna ulica dvije minute niže." },
-        { ime: "Dezertirska tržnica", opis: "Na velikoj tržnici kraj kolodvora gomilaju se sir, začini, čurčhela, ukiseljeno povrće i začinsko bilje, i tu Tbilisi kupuje hranu bez ikakva uljepšavanja." }
+        { ime: "The entrance halls of Sololaki", opis: "Behind the heavy doors of 19th-century apartment buildings in the Sololaki district hide painted ceilings, marble stairs and wrought iron railings, so feel free to peek in wherever a door is open." },
+        { ime: "The Betlemi quarter", opis: "Stairs above the old town lead to two churches and wooden balconies with a view over the rooftops, where few people come even though the main street is two minutes below." },
+        { ime: "Dezerter Bazaar", opis: "At the big market by the train station there are piles of cheese, spices, churchkhela, pickles and herbs, and this is where Tbilisi buys its food with no polish at all." }
       ],
       domaci: [
-        { ime: "Sumporne kupelji", opis: "U Abanotubaniju se unajmi privatna soba s bazenom tople sumporne vode, a za pravi doživljaj naruči se i kisa, snažan piling grubom rukavicom." },
-        { ime: "Hinkali prstima", opis: "Okruglicu se uhvati za „repić“, zagrize sa strane i najprije se popije juha, a repić se ostavlja na tanjuru da se vidi koliko ste ih pojele." },
-        { ime: "Vruć kruh iz tonea", opis: "Iz podrumskih pekarnica cijeli dan miriše šoti, kruh u obliku lađice koji se lijepi na stijenku okrugle glinene peći, i domaći ga kupuju toplog, na putu kući." }
+        { ime: "The sulfur baths", opis: "In Abanotubani you rent a private room with a pool of warm sulfur water, and for the full experience you also order a kisa, a vigorous scrub with a rough mitt." },
+        { ime: "Khinkali with your fingers", opis: "You pick the dumpling up by its topknot, bite into the side and drink the broth first, and you leave the knot on the plate so everyone can see how many you ate." },
+        { ime: "Hot bread from the tone", opis: "All day the smell of shoti drifts from basement bakeries, the boat-shaped bread slapped onto the wall of a round clay oven, and locals buy it warm on the way home." }
       ],
       kupiti: [
-        { ime: "Starine sa Suhog mosta", opis: "Na buvljaku uz rijeku prodaju se sovjetski porculan, fotoaparati, ordeni, stare ploče i slike, a vikendom, kad je lijepo vrijeme, ponuda je najveća." },
-        { ime: "Začini i čurčhela s tržnice", opis: "Na Dezertirskoj tržnici prodavačice začina miješaju svansku sol i hmeli suneli pred vama, a čurčhela je svježija i jeftinija nego u starom gradu." },
-        { ime: "Vino malih vinara", opis: "U vinotekama Sololakija i starog grada koje drže prirodna vina možete kušati prije kupnje i dobiti preporuku za boce koje se ne izvoze." }
+        { ime: "Antiques from the Dry Bridge", opis: "At the flea market by the river you find Soviet porcelain, cameras, medals, old records and paintings, and the selection is biggest on weekends in good weather." },
+        { ime: "Spices and churchkhela from the market", opis: "At Dezerter Bazaar the spice sellers blend Svan salt and khmeli suneli in front of you, and the churchkhela is fresher and cheaper than in the old town." },
+        { ime: "Wine from small producers", opis: "In the wine shops of Sololaki and the old town that carry natural wines, you can taste before buying and get a recommendation for bottles that are never exported." }
       ]
     },
     "mcheta": {
       dragulji: [
-        { ime: "Samostan Šio-Mgvime", opis: "U vapnenačkom klancu desetak kilometara od grada redovnici žive od 6. stoljeća, a iznad crkava se još vide špilje u kojima su boravili prvi pustinjaci." },
-        { ime: "Ruševine Bebris Cihe", opis: "Na sjevernom kraju grada, na stijeni iznad rijeke Aragvi, stoje ostaci srednjovjekovne utvrde s lijepim pogledom i bez ulaznice." },
-        { ime: "Samostan Samtavro", opis: "Nekoliko minuta hoda od katedrale nalazi se ženski samostan s vrtom i malom crkvicom svete Nino, u koji hodočasnici dolaze u tišini." }
+        { ime: "Shio-Mgvime Monastery", opis: "In a limestone gorge about six miles from town monks have lived since the 6th century, and above the churches you can still see the caves where the first hermits stayed." },
+        { ime: "The ruins of Bebris Tsikhe", opis: "At the northern end of town, on a rock above the Aragvi River, stand the remains of a medieval fortress with a lovely view and no ticket booth." },
+        { ime: "Samtavro Convent", opis: "A few minutes' walk from the cathedral there is a convent with a garden and the tiny church of Saint Nino, where pilgrims come in silence." }
       ],
       domaci: [
-        { ime: "Lobio u glinenom lončiću", opis: "Gruzijci u Mchetu dolaze na grah kuhan s korijandrom i orasima, koji se poslužuje u lončiću uz kukuruzni kruh mčadi i ukiseljeno povrće." },
-        { ime: "Nedjeljna liturgija", opis: "U katedrali Svetichoveli nedjeljom se pjeva višeglasno, žene pokrivaju glavu maramom, a vjernici stoje sa svijećama, pa uđite tiho i ostanite uz zid." },
-        { ime: "Vjenčanja vikendom", opis: "Mcheta je najpoželjnije mjesto za vjenčanje u zemlji, pa subotom i nedjeljom pred katedralom gledate mladence, svatove i ples jedne za drugima." }
+        { ime: "Lobio in a clay pot", opis: "Georgians come to Mtskheta for beans stewed with coriander and walnuts, served in a small pot with mchadi cornbread and pickled vegetables." },
+        { ime: "Sunday liturgy", opis: "At Svetitskhoveli Cathedral the Sunday service is sung in polyphony, women cover their heads with a scarf and worshippers stand holding candles, so enter quietly and stay by the wall." },
+        { ime: "Weekend weddings", opis: "Mtskheta is the most sought-after place to marry in the country, so on Saturdays and Sundays you watch one wedding party after another dancing in front of the cathedral." }
       ],
       kupiti: [
-        { ime: "Čurčhela i suho voće", opis: "U uličicama oko katedrale prodavačice nude čurčhelu, tklapi, tanke kisele kore od voća, i domaće sokove, a ponuda je najbolja u jesen nakon berbe." },
-        { ime: "Vuna i filc", opis: "Na štandovima uz zidine prodaju se vunene čarape, papuče i šalovi od filca koje rade žene iz okolnih sela, i to je trajniji dar od magneta." }
+        { ime: "Churchkhela and dried fruit", opis: "In the lanes around the cathedral vendors offer churchkhela, tklapi, the thin sour fruit leather, and homemade juices, with the best selection in the fall after the harvest." },
+        { ime: "Wool and felt", opis: "The stalls along the walls sell wool socks, slippers and felt scarves made by women from the surrounding villages, a longer-lasting gift than a magnet." }
       ]
     },
     "kahetija": {
       dragulji: [
-        { ime: "Samostan Nekresi", opis: "Visoko na šumovitom obronku Kavkaza stoji skup starih crkava s pogledom na cijelu Alazansku dolinu, do kojeg od parkirališta vozi mali autobus ili se penje pješice." },
-        { ime: "Dzveli Šuamta", opis: "Na šumskom proplanku u brdima iznad Telavija stoje tri male kamene crkve, a vlada tolika tišina da se čuje lišće." },
-        { ime: "Tržnica u Telaviju", opis: "Na gradskoj tržnici seljaci prodaju sir, začinsko bilje, čurčhelu i vino iz kanistara, a nedaleko je i golema platana stara više stoljeća, pod kojom se sjedi u hladu." }
+        { ime: "Nekresi Monastery", opis: "High on a wooded slope of the Caucasus stands a cluster of old churches with a view over the whole Alazani Valley, reached from the parking lot by shuttle or on foot." },
+        { ime: "Dzveli Shuamta", opis: "In a forest clearing in the hills above Telavi stand three small stone churches, and it is so quiet you can hear the leaves." },
+        { ime: "Telavi market", opis: "At the town market farmers sell cheese, herbs, churchkhela and wine from jugs, and nearby stands a giant plane tree several centuries old with benches in its shade." }
       ],
       domaci: [
-        { ime: "Rtveli", opis: "U rujnu i listopadu cijela Kahetija bere grožđe, obitelji i prijatelji rade zajedno, a dan završava dugim stolom, pa pitajte domaćine možete li se pridružiti berbi." },
-        { ime: "Supra s tamadom", opis: "Za gruzijskim stolom zdravice vodi tamada, pije se tek nakon njegove zdravice i do dna, a gost je dobrodošao reći i koju svoju." },
-        { ime: "Mcvadi na lozi", opis: "Svinjetina na ražnjićima peče se na žaru od suhe vinove loze, koja mesu daje poseban miris, i jede se uz sirovi luk, sok od nara i svjež kruh šoti." }
+        { ime: "Rtveli", opis: "In September and October all of Kakheti picks grapes, families and friends work together and the day ends at a long table, so ask your hosts whether you can join the harvest." },
+        { ime: "A supra with a tamada", opis: "At the Georgian table the toasts are led by the tamada, you drink only after his toast and to the bottom, and a guest is welcome to offer a toast of her own." },
+        { ime: "Mtsvadi over vine cuttings", opis: "Pork skewers are grilled over embers of dry grapevine, which gives the meat a special aroma, and they are eaten with raw onion, pomegranate juice and fresh shoti bread." }
       ],
       kupiti: [
-        { ime: "Vino iz obiteljskog podruma", opis: "U selima oko Telavija, Kvarelija i Signagija obitelji prodaju saperavi i rkaciteli iz vlastitog maranija, pa kušajte iz kvevrija i dajte da vam natoče u bocu." },
-        { ime: "Kahetsko suncokretovo ulje", opis: "Nerafinirano ulje jakog mirisa prženih sjemenki kahetska je posebnost kojom se začinjavaju salate od rajčice i krastavaca, a prodaje se na tržnicama u staklenim bocama." },
-        { ime: "Čurčhela iz Kahetije", opis: "Ovdje se čurčhela radi od soka vlastitog grožđa i s orasima iz dvorišta, pa je kupite na tržnici u Telaviju ili uz cestu, od žena koje je same suše." }
+        { ime: "Wine from a family cellar", opis: "In the villages around Telavi, Kvareli and Sighnaghi families sell Saperavi and Rkatsiteli from their own marani, so taste from the qvevri and have them fill a bottle for you." },
+        { ime: "Kakhetian sunflower oil", opis: "Unrefined oil with a strong scent of roasted seeds is a Kakhetian specialty used on tomato and cucumber salads, sold at markets in glass bottles." },
+        { ime: "Churchkhela from Kakheti", opis: "Here churchkhela is made with juice from the family's own grapes and walnuts from the yard, so buy it at the Telavi market or by the roadside from the women who dry it themselves." }
       ]
     },
     "kazbegi": {
       dragulji: [
-        { ime: "Dolina Juta", opis: "Iz najvišeg sela u kraju staza vodi preko livada prema nazubljenom masivu Čauhi, a već nakon sat hoda ste u svijetu konja, potoka i planinskih koliba s čajem." },
-        { ime: "Dolina Truso", opis: "Ravna staza uz rijeku vodi pokraj mineralnih izvora, bijelih i narančastih travertina i napuštenih sela s kulama, sve do ruševina utvrde Zakagori." },
-        { ime: "Selo Sno", opis: "U selu na putu prema Juti stoji stara obrambena kula, a lokalni kipar u polju kleše goleme kamene glave gruzijskih pjesnika i kraljeva." }
+        { ime: "Juta Valley", opis: "From the highest village in the area a trail leads over meadows toward the jagged Chaukhi massif, and after just an hour's walk you are in a world of horses, streams and mountain huts serving tea." },
+        { ime: "Truso Valley", opis: "A flat trail along the river passes mineral springs, white and orange travertines and abandoned villages with towers, all the way to the ruins of Zakagori fortress." },
+        { ime: "Sno village", opis: "In a village on the way to Juta stands an old defensive tower, and in a field a local sculptor carves giant stone heads of Georgian poets and kings." }
       ],
       domaci: [
-        { ime: "Hinkali iz planina", opis: "Hinkali potječu iz ovih krajeva, a planinska verzija puni se samo mesom, lukom i začinima, bez zelenja, pa je kušajte u Pasanauriju na putu ili u seoskim kućama." },
-        { ime: "Večera u gostinjskoj kući", opis: "Domaćice kuhaju za goste ono što jede i obitelj, hačapuri, juhu, ukiseljeno povrće i domaći sir, a uz to se toči čača koju je teško odbiti." },
-        { ime: "Do Gergetija prije džipova", opis: "Mještani se do crkve penju pješice, stazom kroz selo Gergeti i preko livada, pa krenite rano ujutro, dok je Kazbek još čist, a gore nema nikoga." }
+        { ime: "Khinkali from the mountains", opis: "Khinkali come from these parts, and the mountain version is filled only with meat, onion and spices, without herbs, so try it in Pasanauri on the way or in village homes." },
+        { ime: "Dinner at the guesthouse", opis: "Hostesses cook for guests what the family eats, khachapuri, soup, pickles and homemade cheese, and pour chacha that is hard to refuse." },
+        { ime: "To Gergeti before the jeeps", opis: "Villagers walk up to the church, on the path through Gergeti village and across the meadows, so set out early in the morning while Mount Kazbek is still clear and nobody is up there." }
       ],
       kupiti: [
-        { ime: "Vunene čarape i kape", opis: "Uz Gruzijsku vojnu cestu, osobito oko Ananurija i prijevoja kod Gudaurija, žene prodaju debele pletene čarape, kape od filca i ovčja krzna." },
-        { ime: "Planinski med", opis: "Košnice stoje po livadama cijele doline, a med od planinskog cvijeća prodaje se pred kućama i na štandovima uz cestu, često sa saćem u staklenci." }
+        { ime: "Wool socks and hats", opis: "Along the Georgian Military Highway, especially around Ananuri and the pass near Gudauri, women sell thick knitted socks, felt hats and sheepskins." },
+        { ime: "Mountain honey", opis: "Beehives stand in meadows all along the valley, and mountain flower honey is sold in front of houses and at roadside stalls, often with honeycomb in the jar." }
       ]
     },
     "svanetija": {
       dragulji: [
-        { ime: "Selo Adiši", opis: "Zabačeno selo s kulama pod ledenjakom, na pješačkoj ruti između Mestije i Ušgulija, ima samo nekoliko gostinjskih kuća i večeri bez ikakve buke." },
-        { ime: "Četvrti Lagami i Lančvali u Mestiji", opis: "Iznad središta Mestije leže stari zaseoci gdje krave prolaze između kula, a mještani kose travu, i gdje se u ponekoj obiteljskoj kuli može popeti do vrha." },
-        { ime: "Dolina Bečo i Mazeri", opis: "Iz sela Mazeri staza vodi kroz šumu do slapova i prema ledenjaku pod dvoglavom Ušbom, najljepšom planinom Kavkaza, a planinara je puno manje nego oko Mestije." }
+        { ime: "Adishi village", opis: "A remote village of towers below a glacier, on the walking route between Mestia and Ushguli, has only a few guesthouses and evenings without a sound." },
+        { ime: "Laghami and Lanchvali in Mestia", opis: "Above the center of Mestia lie old hamlets where cows wander between the towers and villagers cut hay, and where you can climb to the top of the occasional family tower." },
+        { ime: "Becho Valley and Mazeri", opis: "From the village of Mazeri a trail leads through forest to waterfalls and toward the glacier below twin-peaked Ushba, the most beautiful mountain in the Caucasus, with far fewer hikers than around Mestia." }
       ],
       domaci: [
-        { ime: "Kubdari", opis: "Svanski kruh punjen sjeckanim mesom, lukom i začinima peče se u svakoj kući, a planinari ga nose u ruksaku jer dobro drži i hladan." },
-        { ime: "Tašmidžabi", opis: "Pire od krumpira umiješan s toliko svježeg sira da se rasteže na vilici jede se za večeru u gostinjskim kućama, uz ukiseljene planinske biljke." },
-        { ime: "Svanske pjesme", opis: "Troglasno pjevanje starije je od kršćanstva u ovim dolinama, pa ako domaćin poslije večere uzme čuniri ili zapjeva s rodbinom, ostanite sjediti." }
+        { ime: "Kubdari", opis: "Svan bread filled with chopped meat, onion and spices is baked in every house, and hikers carry it in their packs because it holds up well cold." },
+        { ime: "Tashmijabi", opis: "Mashed potatoes worked with so much fresh cheese that they stretch from the fork are eaten for dinner in guesthouses, alongside pickled mountain greens." },
+        { ime: "Svan songs", opis: "Three-part singing is older than Christianity in these valleys, so if your host picks up a chuniri after dinner or starts singing with relatives, stay in your seat." }
       ],
       kupiti: [
-        { ime: "Svanska sol od domaćica", opis: "Svaka obitelj ima svoj omjer češnjaka, piskavice i divljeg kima, pa sol kupite od domaćice kod koje spavate ili na maloj tržnici u Mestiji." },
-        { ime: "Svanska kapa", opis: "Okrugla siva kapa od filca s križno prošivenom vrpcom nosi se i danas, a ručno rađene kupuju se u Mestiji od žena koje same valjaju vunu." },
-        { ime: "Med i sir", opis: "Planinski med i dimljeni sir sulguni prodaju se pred kućama u selima, a u hladnijem dijelu godine oboje dobro podnosi put." }
+        { ime: "Svan salt from your hostess", opis: "Every family has its own ratio of garlic, fenugreek and wild caraway, so buy salt from the woman whose house you sleep in or at the small market in Mestia." },
+        { ime: "The Svan hat", opis: "The round gray felt cap with a cross of braid stitched on top is still worn today, and handmade ones are sold in Mestia by women who felt the wool themselves." },
+        { ime: "Honey and cheese", opis: "Mountain honey and smoked sulguni cheese are sold in front of houses in the villages, and in the cooler months both travel well." }
       ]
     }
   }

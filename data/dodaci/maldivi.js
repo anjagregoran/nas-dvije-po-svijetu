@@ -1,60 +1,60 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["maldivi"] = {
   kupiti: [
-    { ime: "Lakirane kutije (liyelaa jehun)", opis: "Drvene kutije i vaze tokare se, premazuju slojevima crnog, crvenog i žutog laka pa se u njima urezuju uzorci, a zanat je vezan uz otok Thulhaadhoo u atolu Baa." },
-    { ime: "Prostirke thundu kunaa", opis: "Fine prostirke od trske s geometrijskim uzorcima u prirodnim bojama tkaju žene na jugu, u atolu Huvadhu, a u Maléu se nalaze u boljim trgovinama rukotvorina." },
-    { ime: "Sušena tuna i rihaakuru", opis: "Tvrda dimljena tuna i gusta, tamna pasta koja nastaje dugim kuhanjem ribe temelj su maldivske kuhinje, a kupuju se na tržnici u Maléu, dobro zapakirane za put." },
-    { ime: "Kokosovo ulje", opis: "Hladno prešano ulje iz otočnih domaćinstava koristi se i za kuhanje i za kosu, a prodaje se u malim trgovinama na naseljenim otocima." },
-    { ime: "Model čamca dhoni", opis: "Tradicionalni čamac s visokim, zavijenim pramcem simbol je otočja, a drvene modele rade majstori koji grade i prave čamce, pa tražite ručni rad od domaćeg drva." },
-    { ime: "Slatkiši od kokosa", opis: "Bondi, duguljasti štapići od kokosa i palmina šećera umotani u suhi list banane, tipičan su dar koji domaći nose rodbini, i nalaze se na tržnici u Maléu." }
+    { ime: "Lacquer boxes (liyelaa jehun)", opis: "Wooden boxes and vases are turned on a lathe, coated in layers of black, red and yellow lacquer and then carved with patterns, a craft tied to the island of Thulhaadhoo in Baa Atoll." },
+    { ime: "Thundu kunaa mats", opis: "Fine reed mats with geometric patterns in natural colors are woven by women in the south, in Huvadhu Atoll, and in Malé you find them in the better handicraft shops." },
+    { ime: "Dried tuna and rihaakuru", opis: "Hard smoked tuna and the thick, dark paste made by boiling fish for hours are the foundation of Maldivian cooking, and you buy them at the market in Malé, well wrapped for travel." },
+    { ime: "Coconut oil", opis: "Cold-pressed oil from island households is used for both cooking and hair, and it is sold in the small shops on inhabited islands." },
+    { ime: "A model dhoni", opis: "The traditional boat with its tall, curved prow is the symbol of the islands, and wooden models are made by craftsmen who also build real boats, so look for handwork in local wood." },
+    { ime: "Coconut sweets", opis: "Bondi, long sticks of coconut and palm sugar wrapped in dried banana leaf, are the typical gift locals carry to relatives, and you find them at the market in Malé." }
   ],
   mjesta: {
     "male": {
       dragulji: [
-        { ime: "Villimalé", opis: "Desetak minuta trajektom od glavnog grada leži zeleni otok bez automobila, s pješčanim ulicama, plažom i mirom koji je teško zamisliti kad stojite u Maléu." },
-        { ime: "Sultan Park", opis: "Mali park na mjestu nekadašnje sultanove palače jedina je prava sjena u gradu, a domaći tu sjede na klupama između drveća i čekaju da prođe podnevna žega." },
-        { ime: "Šetnica u Hulhumaléu", opis: "Na umjetnom otoku povezanom mostom duga je plaža s drvoredom i kafićima, gdje se vidi kako živi mlada maldivska srednja klasa." }
+        { ime: "Villimalé", opis: "Ten minutes by ferry from the capital lies a green island without cars, with sandy streets, a beach and a calm that is hard to imagine when you are standing in Malé." },
+        { ime: "Sultan Park", opis: "A small park on the site of the former sultan's palace is the only real shade in town, and locals sit on its benches among the trees waiting for the midday heat to pass." },
+        { ime: "The Hulhumalé waterfront", opis: "On the artificial island linked by bridge there is a long beach with a row of trees and cafes, where you see how the young Maldivian middle class lives." }
       ],
       domaci: [
-        { ime: "Hedhikaa u čajani", opis: "Kasno popodne muškarci i obitelji sjedaju u čajane na crni čaj i hedhikaa, male slane i slatke zalogaje od tune, kokosa i čilija, koji se uzimaju s pulta i plaćaju po komadu." },
-        { ime: "Mas huni za doručak", opis: "Jutro počinje mješavinom tune, naribanog kokosa, luka i limete koja se rukom umata u tanki kruh roshi, uz slatki crni čaj." },
-        { ime: "Riblja tržnica popodne", opis: "Kad se čamci vrate s lova, na sjevernoj obali istovaruju se tune, a rezači ih u nekoliko poteza filetiraju pred kupcima, što je najbolja predstava u gradu." }
+        { ime: "Hedhikaa in a tea shop", opis: "In the late afternoon men and families sit down in tea shops for black tea and hedhikaa, small savory and sweet bites of tuna, coconut and chili that you take from the counter and pay for by the piece." },
+        { ime: "Mas huni for breakfast", opis: "The morning starts with a mix of tuna, grated coconut, onion and lime, scooped up by hand in thin roshi flatbread, with sweet black tea." },
+        { ime: "The fish market in the afternoon", opis: "When the boats return from fishing, tuna is unloaded on the northern waterfront and the cutters fillet it in a few strokes in front of the buyers, which is the best show in town." }
       ],
       kupiti: [
-        { ime: "Proizvodi s lokalne tržnice", opis: "Na natkrivenoj tržnici uz sjevernu obalu, nedaleko od riblje, prodaju se sušena tuna, rihaakuru, čili, kokosovi slatkiši i grozdovi banana s otoka." },
-        { ime: "Lakirane kutije", opis: "U trgovinama rukotvorina na sjevernom kraju ulice Chaandhanee Magu potražite ručno rađene lakirane kutije i pitajte dolaze li s Thulhaadhooa, jer je dio ponude uvozan." }
+        { ime: "Goods from the local market", opis: "At the covered market on the northern waterfront, close to the fish market, they sell dried tuna, rihaakuru, chilies, coconut sweets and bunches of island bananas." },
+        { ime: "Lacquer boxes", opis: "In the handicraft shops at the northern end of Chaandhanee Magu, look for handmade lacquer boxes and ask whether they come from Thulhaadhoo, since part of what is on offer is imported." }
       ]
     },
     "baa": {
       dragulji: [
-        { ime: "Thulhaadhoo", opis: "Na ovom malom, gusto naseljenom otoku majstori u dvorištima tokare i lakiraju drvo, pa ako dogovorite izlet, vidjet ćete nastanak najpoznatije maldivske rukotvorine." },
-        { ime: "Dharavandhoo", opis: "Naseljeni otok s pansionima najbliži je zaljevu Hanifaru, pa se ovdje može odsjesti među mještanima i na mante ići čamcem s lokalnim vodičima." },
-        { ime: "Eydhafushi", opis: "Glavni otok atola ima luku, škole, džamije i ulice od koraljnog pijeska, i na njemu se vidi svakodnevica bez ijednog ležaljkaša." }
+        { ime: "Thulhaadhoo", opis: "On this small, densely populated island craftsmen turn and lacquer wood in their yards, so if you arrange a trip you will see the best-known Maldivian handicraft being made." },
+        { ime: "Dharavandhoo", opis: "This inhabited island with guesthouses is the closest to Hanifaru Bay, so you can stay among the islanders and go out to the manta rays by boat with local guides." },
+        { ime: "Eydhafushi", opis: "The atoll's main island has a harbor, schools, mosques and streets of coral sand, and it shows you everyday life without a single sun lounger." }
       ],
       domaci: [
-        { ime: "Popodne u joliju", opis: "Pred kućama i uz obalu vise mreže na drvenom okviru, joli, u kojima se sjedi u hladu i razgovara dok ne popusti vrućina, a ako vas pozovu, slobodno sjednite." },
-        { ime: "Ribolov povrazom u sumrak", opis: "Mještani predvečer izlaze čamcem i love samo s najlonom i udicom, a ulov se iste večeri peče na žaru na plaži, što pansioni rado organiziraju i za goste." },
-        { ime: "Petak na otoku", opis: "Petak je dan molitve i odmora, pa trajekti ne voze, a trgovine se zatvaraju oko podneva, dok se predvečer cijelo selo okupi oko nogometnog igrališta." }
+        { ime: "Afternoon in a joali", opis: "In front of houses and along the shore hang net seats on wooden frames, called joali, where people sit in the shade and talk until the heat eases, and if you are invited, go ahead and sit down." },
+        { ime: "Handline fishing at dusk", opis: "Islanders head out by boat toward evening and fish with nothing but line and hook, and the catch is grilled on the beach that same night, which guesthouses are happy to arrange for guests too." },
+        { ime: "Friday on the island", opis: "Friday is the day of prayer and rest, so ferries do not run and shops close around midday, while toward evening the whole village gathers around the soccer field." }
       ],
       kupiti: [
-        { ime: "Lakirano drvo s Thulhaadhooa", opis: "Kutije, vaze i posude najbolje je kupiti izravno od obitelji koje ih rade na samom otoku, gdje vidite da je uzorak urezan rukom." },
-        { ime: "Kokosovo ulje i domaći čili umak", opis: "U malim otočnim trgovinama prodaju se ulje iz domaćih kuhinja i ljuti umaci od otočnog čilija, u bocama bez etikete, kakve kupuju i susjedi." }
+        { ime: "Lacquered wood from Thulhaadhoo", opis: "Boxes, vases and bowls are best bought directly from the families who make them on the island, where you can see the pattern is carved by hand." },
+        { ime: "Coconut oil and homemade chili sauce", opis: "The small island shops sell oil from home kitchens and hot sauces made from island chilies, in unlabeled bottles, just as the neighbors buy them." }
       ]
     },
     "ari": {
       dragulji: [
-        { ime: "Pješčani jezičac Dhiguraha", opis: "Otok Dhigurah dug je i uzak, a na južnom kraju prelazi u bijeli sprud koji ulazi u lagunu, do kojeg se hoda kroz šumu palmi oko pola sata." },
-        { ime: "Stara džamija na Fenfushiju", opis: "Na otoku Fenfushi stoji džamija od klesanog koraljnog kamena s lakiranim drvenim stropom, okružena starim grobljem, primjer graditeljstva kakvog više nema." },
-        { ime: "Dhangethi", opis: "Mirni naseljeni otok s tradicijom ribolova i izradom čamaca dobro je mjesto da vidite seoski život, a mještani rado pokažu staru kuću uređenu kao mali muzej." }
+        { ime: "The Dhigurah sandbank", opis: "Dhigurah is long and narrow, and at its southern end it turns into a white spit reaching into the lagoon, about half an hour's walk through the palm forest." },
+        { ime: "The old mosque on Fenfushi", opis: "On the island of Fenfushi stands a mosque of carved coral stone with a lacquered wooden ceiling, surrounded by an old cemetery, an example of a building tradition that no longer exists." },
+        { ime: "Dhangethi", opis: "A quiet inhabited island with a tradition of fishing and boat building is a good place to see village life, and islanders gladly show you an old house set up as a small museum." }
       ],
       domaci: [
-        { ime: "Luka kad se vrate čamci", opis: "Kasno popodne ribari iskrcavaju ulov, djeca skaču s mola, a muškarci sjede na zidiću, pa je to najbolje vrijeme za šetnju i razgovor." },
-        { ime: "Bodu beru", opis: "Navečer se uz velike bubnjeve pjeva i pleše sve brže i brže, i premda se izvodi i za goste, na naseljenim otocima mladići tako slave blagdane i vjenčanja." },
-        { ime: "Pristojnost na otoku", opis: "Na naseljenim otocima žive pobožne zajednice, pa se u selu pokrivaju ramena i koljena, a kupaći kostim nosi se samo na plaži određenoj za goste." }
+        { ime: "The harbor when the boats come in", opis: "In the late afternoon fishermen unload the catch, children jump off the jetty and men sit on the wall, so it is the best time for a walk and a chat." },
+        { ime: "Bodu beru", opis: "In the evening people sing and dance faster and faster to big drums, and although it is also performed for guests, on inhabited islands this is how young men celebrate holidays and weddings." },
+        { ime: "Island manners", opis: "Devout communities live on the inhabited islands, so in the village you cover shoulders and knees, and swimwear is worn only on the beach set aside for guests." }
       ],
       kupiti: [
-        { ime: "Sušena tuna", opis: "Na otocima južnog Arija tuna se još dimi i suši u dvorištima, a komadi umotani u papir prodaju se u seoskim trgovinama i traju mjesecima." },
-        { ime: "Uže od kokosovih vlakana", opis: "Ručno upredeno uže roanu nekad je držalo na okupu cijele čamce, a danas se od njega rade podmetači i ukrasi koje žene prodaju pred kućama." }
+        { ime: "Dried tuna", opis: "On the islands of South Ari tuna is still smoked and dried in backyards, and pieces wrapped in paper are sold in village shops and keep for months." },
+        { ime: "Coconut fiber rope", opis: "Hand-twisted rope called roanu once held entire boats together, and today it is made into mats and decorations that women sell in front of their houses." }
       ]
     }
   }

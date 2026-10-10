@@ -1,80 +1,80 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["uzbekistan"] = {
   kupiti: [
-    { ime: "Ikat svila (atlas i adras)", opis: "Tkanine s razlivenim, kao zamućenim uzorcima boje se prije tkanja, nit po nit, a središte zanata je Margilan u Ferganskoj dolini, pa pitajte odakle je tkanina i je li svila ili mješavina s pamukom." },
-    { ime: "Suzani", opis: "Veliki vezeni prekrivači s cvjetovima, suncima i narovima nekad su bili miraz svake mladenke, a ručni se rad prepoznaje po naličju i po sitnim nepravilnostima u bodu." },
-    { ime: "Keramika iz Rištana", opis: "Tanjuri i zdjele s tirkiznom i kobaltnom glazurom od lokalne crvene gline dolaze iz gradića Rištana, a pravi komad ima potpis majstora na dnu." },
-    { ime: "Noževi pičak", opis: "Ručno kovani noževi s ukrašenom drškom rade se u Čustu i Buhari i svaka ih uzbečka kuhinja ima, a u kovčegu za predanu prtljagu smiju kući." },
-    { ime: "Sušeno voće i orašasti plodovi", opis: "Marelice, grožđice svih boja, bademi u ljusci i slane koštice marelice prodaju se na svakoj tržnici, i slobodno kušajte prije kupnje jer se to od vas i očekuje." },
-    { ime: "Dopi", opis: "Četvrtasta crna kapa s bijelim vezom paprike ili badema nosi se i danas, a svaka pokrajina ima svoj uzorak, pa se kupuje na tržnicama, gdje je biraju i domaći." }
+    { ime: "Ikat silk (atlas and adras)", opis: "Fabrics with blurred, feathered patterns are dyed before weaving, thread by thread, and the heart of the craft is Margilan in the Fergana Valley, so ask where the cloth is from and whether it is silk or a cotton blend." },
+    { ime: "Suzani", opis: "Large embroidered covers with flowers, suns and pomegranates were once part of every bride's dowry, and you can tell handwork by the reverse side and the small irregularities in the stitching." },
+    { ime: "Rishtan ceramics", opis: "Plates and bowls with turquoise and cobalt glaze, made from local red clay, come from the small town of Rishtan, and a genuine piece has the master's signature on the base." },
+    { ime: "Pichak knives", opis: "Hand-forged knives with decorated handles are made in Chust and Bukhara and found in every Uzbek kitchen, and they can go home in your checked bag." },
+    { ime: "Dried fruit and nuts", opis: "Apricots, raisins of every color, almonds in the shell and salted apricot kernels are sold at every market, and feel free to taste before buying because it is expected." },
+    { ime: "Doppi", opis: "The square black cap with white pepper or almond embroidery is still worn today, each region has its own pattern, and you buy it at markets where locals choose theirs." }
   ],
   mjesta: {
     "samarkand": {
       dragulji: [
-        { ime: "Papirnica u Konigilu", opis: "U selu na rubu grada, uz potok i pod stablima, na vodeni se pogon tuče kora duda i radi svilenkasti samarkandski papir po staroj recepturi, a cijeli postupak vidite izbliza." },
-        { ime: "Stara mahala iza Registana", opis: "Istočno od velikih trgova, iza zida, počinje četvrt uskih uličica, niskih kuća s drvenim vratima i male sinagoge, gdje djeca igraju nogomet, a susjede peku kruh." },
-        { ime: "Džamija Hazrat Hizr", opis: "S terase male džamije na brežuljku nasuprot tržnici vidi se Bibi-Hanum, tržnica Siab i planine u daljini, najljepše u kasno popodne." }
+        { ime: "The Konigil paper mill", opis: "In a village on the edge of town, by a stream and under the trees, mulberry bark is pounded by water power into silky Samarkand paper to an old recipe, and you see the whole process up close." },
+        { ime: "The old mahalla behind the Registan", opis: "East of the grand squares, behind a wall, begins a quarter of narrow lanes, low houses with wooden doors and a small synagogue, where children play soccer and neighbors bake bread." },
+        { ime: "Hazrat Khizr Mosque", opis: "From the terrace of a small mosque on a hill facing the bazaar you see Bibi-Khanym, Siab Bazaar and the mountains in the distance, loveliest in the late afternoon." }
       ],
       domaci: [
-        { ime: "Plov u podne", opis: "Plov se kuha jednom dnevno u golemom kotlu i jede za ručak, pa u čajane dođite oko podneva, jer kad se kotao isprazni, toga dana plova više nema." },
-        { ime: "Samarkandska pogača", opis: "Teški, sjajni kruh s utisnutim uzorkom u sredini domaći kupuju na tržnici Siab i nose ga na dar u druge gradove, jer vrijedi kao najbolji u zemlji i dugo ostaje svjež." },
-        { ime: "Zeleni čaj u čajani", opis: "Čaj se toči do pola male zdjelice, što je znak poštovanja prema gostu, a prva se tri puta vraća u čajnik da se dobro promiješa, pa tako učinite i vi." }
+        { ime: "Plov at noon", opis: "Plov is cooked once a day in a huge cauldron and eaten for lunch, so get to the teahouses around midday, because once the cauldron is empty there is no more plov that day." },
+        { ime: "Samarkand bread", opis: "The heavy, glossy loaf with a stamped pattern in the middle is bought at Siab Bazaar and carried as a gift to other cities, because it is considered the best in the country and stays fresh a long time." },
+        { ime: "Green tea in a chaikhana", opis: "Tea is poured only halfway up the small bowl, a sign of respect for the guest, and the first pour is returned to the pot three times to mix it well, so do the same." }
       ],
       kupiti: [
-        { ime: "Papir od duda", opis: "Bilježnice, razglednice i lutke od ručno rađenog papira kupuju se u samoj radionici u Konigilu, izravno od onih koji ga rade." },
-        { ime: "Halva i sušeno voće sa Siaba", opis: "Na tržnici uz Bibi-Hanum prodaju se samarkandska halva s orasima, navat, kristalni šećer za čaj, i brda sušenih marelica i grožđica." },
-        { ime: "Suzani iz Urguta", opis: "Gradić Urgut u brdima južno od Samarkanda ima veliku tržnicu na kojoj žene prodaju vlastiti vez, pa pitajte domaćine kojim je danima tržnica najživlja." }
+        { ime: "Mulberry paper", opis: "Notebooks, postcards and dolls of handmade paper are sold at the workshop in Konigil itself, straight from the people who make it." },
+        { ime: "Halva and dried fruit from Siab", opis: "At the bazaar beside Bibi-Khanym they sell Samarkand halva with walnuts, navat, the crystal sugar for tea, and mountains of dried apricots and raisins." },
+        { ime: "Suzani from Urgut", opis: "The town of Urgut in the hills south of Samarkand has a big market where women sell their own embroidery, so ask your hosts which days the market is busiest." }
       ]
     },
     "buhara": {
       dragulji: [
-        { ime: "Čor Minor", opis: "Mala građevina s četiri tirkizna tornjića stoji usred stambene četvrti, desetak minuta hoda od središta, a put do nje vodi kroz tihe uličice starog grada." },
-        { ime: "Židovska četvrt", opis: "Južno od Ljabi-Hauza splet je uskih prolaza s visokim zidovima od nepečene opeke i starom sinagogom, gdje se još osjeća svijet buharskih Židova." },
-        { ime: "Nekropola Čor-Bakr", opis: "Nekoliko kilometara zapadno od grada leži tihi „grad mrtvih“ s džamijom, medresom i dvorištima grobnica, gdje ćete uglavnom sresti golubove i pokojeg hodočasnika." }
+        { ime: "Chor Minor", opis: "A small building with four turquoise turrets stands in the middle of a residential quarter, ten minutes' walk from the center, and the way there leads through quiet old town lanes." },
+        { ime: "The Jewish quarter", opis: "South of Lyabi-Hauz there is a tangle of narrow passages with high mud brick walls and an old synagogue, where you can still sense the world of the Bukharan Jews." },
+        { ime: "Chor-Bakr necropolis", opis: "A few miles west of town lies a quiet 'city of the dead' with a mosque, a madrasa and courtyards of tombs, where you will mostly meet pigeons and the occasional pilgrim." }
       ],
       domaci: [
-        { ime: "Večer uz Ljabi-Hauz", opis: "Kad vrućina popusti, cijela Buhara sjedne oko bazena pod stoljetnim dudovima, na čaj, šašlik i razgovor, a djeca se do kasno igraju oko spomenika Nasrudin-hodži." },
-        { ime: "Stari hamam", opis: "U gradu još rade kupališta iz 16. stoljeća, jedno muško među trgovačkim kupolama i jedno žensko u blizini minareta Kalon, gdje vas na toplom kamenu istrljaju i izmasiraju po starom običaju." },
-        { ime: "Samsa iz tandira", opis: "Ujutro se iz glinenih peći vade lisnata peciva punjena janjetinom i lukom, koja se kupuju vruća na uglu ulice i jedu odmah, uz zdjelicu čaja." }
+        { ime: "Evening at Lyabi-Hauz", opis: "When the heat eases, all of Bukhara sits around the pool under centuries-old mulberry trees for tea, shashlik and talk, while children play late around the statue of Nasreddin Hodja." },
+        { ime: "The old hammam", opis: "Bathhouses from the 16th century still operate in town, one for men among the trading domes and one for women near the Kalon minaret, where you are scrubbed and massaged on warm stone in the old way." },
+        { ime: "Samsa from the tandir", opis: "In the morning flaky pastries filled with lamb and onion come out of clay ovens, bought hot on the street corner and eaten right away with a bowl of tea." }
       ],
       kupiti: [
-        { ime: "Škare u obliku rode", opis: "Buharski kovači rade male škare i noževe u obliku ptica, a u kovačnici pod trgovačkom kupolom možete gledati kako nastaju i dati ugravirati ime." },
-        { ime: "Zlatovez", opis: "Vez zlatnom niti na baršunu bio je povlastica emirova dvora, a danas se torbice, kape i jastučnice kupuju u radionicama pod kupolama i u starim medresama." },
-        { ime: "Čaj sa začinima", opis: "U trgovinama začina pod kupolama miješa se buharski čaj s kardamomom, klinčićem, anisom i mentom, koji se može kušati na licu mjesta i kupiti na vagu." }
+        { ime: "Stork-shaped scissors", opis: "Bukhara's blacksmiths make small scissors and knives shaped like birds, and in the forge under a trading dome you can watch them being made and have a name engraved." },
+        { ime: "Gold embroidery", opis: "Embroidery in gold thread on velvet was once the privilege of the emir's court, and today purses, caps and cushion covers are sold in workshops under the domes and in old madrasas." },
+        { ime: "Spiced tea", opis: "In the spice shops under the domes they blend Bukhara tea with cardamom, clove, anise and mint, which you can taste on the spot and buy by weight." }
       ]
     },
     "hiva": {
       dragulji: [
-        { ime: "Šetnja po zidinama", opis: "Kod sjevernih vrata može se popeti na glinene zidine i hodati po njima dobar komad puta, a u zalazak sunca cijeli grad postane boje meda." },
-        { ime: "Palača Nurullaboy", opis: "Izvan unutarnjeg grada, u Dišan-Kali, stoji kasna hanova palača u kojoj se europske peći i lusteri miješaju s horezmskom rezbarijom, a posjetitelja je vrlo malo." },
-        { ime: "Tvrđave Ajaz-Kala", opis: "U pustinji sjeverno od Hive stoje ostaci glinenih utvrda starog Horezma, do kojih se dolazi jednodnevnim izletom i s čijih se zidina vidi samo pijesak do obzora." }
+        { ime: "A walk on the walls", opis: "At the north gate you can climb onto the mud walls and walk along them for a good stretch, and at sunset the whole town turns the color of honey." },
+        { ime: "Nurullaboy Palace", opis: "Outside the inner town, in Dishan-Kala, stands a late khan's palace where European stoves and chandeliers mix with Khorezm wood carving, and visitors are very few." },
+        { ime: "Ayaz-Kala fortresses", opis: "In the desert north of Khiva stand the remains of the mud fortresses of ancient Khorezm, reached on a day trip, with nothing but sand to the horizon from their walls." }
       ],
       domaci: [
-        { ime: "Šivit oši", opis: "Zeleni rezanci zamiješeni s koprom, posluženi s gulašem i kiselim mlijekom, jelo su koje se jede samo u Horezmu, pa ga naručite u obiteljskim restoranima unutar zidina." },
-        { ime: "Tuhum barak", opis: "Tanke okruglice punjene razmućenim jajetom, koje se pune i zatvaraju munjevitom brzinom da jaje ne iscuri, još su jedan hivski specijalitet koji se jede s kiselim vrhnjem." },
-        { ime: "Večer u Ičan-Kali", opis: "Kad izletnici odu, u starom gradu ostanu obitelji koje u njemu žive, mladenci se fotografiraju pred minaretima, a starci igraju šah pred vratima." }
+        { ime: "Shivit oshi", opis: "Green noodles kneaded with dill, served with stew and sour milk, are a dish eaten only in Khorezm, so order it in the family restaurants inside the walls." },
+        { ime: "Tukhum barak", opis: "Thin dumplings filled with beaten egg, which are filled and sealed at lightning speed so the egg does not run out, are another Khiva specialty eaten with sour cream." },
+        { ime: "Evening in Ichan-Kala", opis: "When the day trippers leave, the old town is left to the families who live in it, newlyweds pose in front of the minarets and old men play chess by their doors." }
       ],
       kupiti: [
-        { ime: "Čugirma", opis: "Velika kuštrava kapa od ovčje kože štitila je Horezmijce i od zime i od žege, a prodaje se na štandovima uz glavnu ulicu Ičan-Kale." },
-        { ime: "Rezbareno drvo", opis: "Hiva je poznata po rezbarenim stupovima i vratima, a majstori u radionicama staroga grada rade i sklopive stalke za knjige izrezane iz jednog komada drva." },
-        { ime: "Sagovi i suzani iz radionice", opis: "U jednoj od starih medresa žene čvoraju svilene sagove prema uzorcima s hivskih pločica i vrata, bojene biljnim bojama, i možete ih gledati pri radu." }
+        { ime: "Chugirma", opis: "The big shaggy sheepskin hat protected the people of Khorezm from both cold and heat, and it is sold at stalls along the main street of Ichan-Kala." },
+        { ime: "Carved wood", opis: "Khiva is known for carved columns and doors, and the craftsmen in old town workshops also make folding book stands cut from a single piece of wood." },
+        { ime: "Carpets and suzani from the workshop", opis: "In one of the old madrasas women knot silk carpets after patterns from Khiva's tiles and doors, dyed with plant dyes, and you can watch them work." }
       ]
     },
     "taskent": {
       dragulji: [
-        { ime: "Stara mahala", opis: "Između tržnice Čorsu i kompleksa Hazrati Imam preživio je dio starog Taškenta, s glinenim zidovima, vinovom lozom nad dvorištima i malim pekarnicama." },
-        { ime: "Buvljak Jangiobod", opis: "Na rubu grada vikendom se na zemlji i stolovima prodaje sve iz sovjetskog doba, od značaka, samovara i fotoaparata do porculana, a cjenkanje je dio rituala." },
-        { ime: "Postaje metroa", opis: "Svaka postaja ima svoju temu, pa se za cijenu jedne vožnje vide svemirski mozaici na Kosmonavtlaru i kupole poput medrese na postaji Ališera Navoija." }
+        { ime: "The old mahalla", opis: "Between Chorsu Bazaar and the Hazrati Imam complex a piece of old Tashkent has survived, with mud walls, grapevines over the courtyards and small bakeries." },
+        { ime: "Yangiobod flea market", opis: "On the edge of town on weekends everything from Soviet times is sold on the ground and on tables, from badges, samovars and cameras to porcelain, and bargaining is part of the ritual." },
+        { ime: "The metro stations", opis: "Every station has its own theme, so for the price of one ride you see space mosaics at Kosmonavtlar and madrasa-like domes at Alisher Navoi station." }
       ],
       domaci: [
-        { ime: "Ručak u središtu plova", opis: "Taškentski svadbeni plov kuha se u kotlovima u koje bi stao čovjek, i jede se oko podneva u velikim dvoranama gdje za istim stolom sjede radnici i poslovni ljudi." },
-        { ime: "Večernja šetnja Brodvejem", opis: "Pješačka ulica Sajilgoh, koju svi zovu Brodvej, navečer je puna slikara, uličnih svirača i obitelji sa sladoledom, sve do Amir Timurova trga." },
-        { ime: "Kruh na Čorsuu", opis: "U pekarnicama uz tržnicu pekari se naginju u užarene tandire i lijepe pogače na stijenku, a domaći ih kupuju još tople i nose kući umotane u krpu." }
+        { ime: "Lunch at the plov center", opis: "Tashkent wedding plov is cooked in cauldrons big enough to hold a person and eaten around noon in huge halls where workers and businesspeople share the same tables." },
+        { ime: "An evening stroll on Broadway", opis: "The pedestrian Sayilgoh Street, which everyone calls Broadway, fills in the evening with painters, street musicians and families with ice cream, all the way to Amir Timur Square." },
+        { ime: "Bread at Chorsu", opis: "In the bakeries by the bazaar bakers lean into glowing tandir ovens and slap loaves onto the walls, and locals buy them still warm and carry them home wrapped in a cloth." }
       ],
       kupiti: [
-        { ime: "Sušeno voće i začini s Čorsua", opis: "Pod velikom plavom kupolom prodaju se orasi, grožđice, kurt, slane kuglice od sušenog jogurta, i mješavine za plov, a kušanje je slobodno i očekivano." },
-        { ime: "Rukotvorine iz medrese Abulkasim", opis: "U ćelijama stare medrese kraj parlamenta rade minijaturisti, rezbari i lakireri, pa kutijice i slike kupujete izravno od majstora u njegovoj radionici." },
-        { ime: "Keramika i ikat", opis: "U glavni grad stiže roba iz cijele zemlje, pa se rištanska keramika i margilanska svila nalaze na Čorsuu i u obrtničkim trgovinama u središtu ako ne stižete u Fergansku dolinu." }
+        { ime: "Dried fruit and spices from Chorsu", opis: "Under the big blue dome they sell walnuts, raisins, kurt, the salty balls of dried yogurt, and spice mixes for plov, and tasting is free and expected." },
+        { ime: "Crafts from the Abulkasim Madrasa", opis: "In the cells of an old madrasa near the parliament, miniature painters, carvers and lacquer artists are at work, so you buy boxes and paintings directly from the master in his workshop." },
+        { ime: "Ceramics and ikat", opis: "Goods from the whole country reach the capital, so Rishtan ceramics and Margilan silk can be found at Chorsu and in the craft shops downtown if you cannot make it to the Fergana Valley." }
       ]
     }
   }

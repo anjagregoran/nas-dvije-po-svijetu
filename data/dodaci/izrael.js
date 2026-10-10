@@ -1,96 +1,96 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["izrael"] = {
   kupiti: [
-    { ime: "Sapun iz Nablusa", opis: "Bijele kocke sapuna od čistog maslinova ulja kuhaju se u Nablusu stoljećima istim postupkom, a prodaju se na sukovima po cijeloj Palestini i u jeruzalemskom Starom gradu." },
-    { ime: "Zatar i tahini", opis: "Zelena mješavina divlje majčine dušice, sezama i sumaka te pasta od prženog sezama temelj su svakog doručka, a najbolje se kupuju na tržnicama, na vagu i svježe mljevene." },
-    { ime: "Armenska keramika", opis: "Pločice i posuđe oslikani pticama, ribama i cvjetnim viticama rade armenske obitelji u Jeruzalemu već stotinjak godina, a ručni rad nosi potpis radionice na dnu." },
-    { ime: "Maslinovo drvo iz Betlehema", opis: "Rezbarenje maslinova drva stari je obrt betlehemskog kraja, a zdjele, žlice i figure kupuju se izravno u radionicama, gdje se vidi i miriše svježe drvo." },
-    { ime: "Palestinski vez tatriz", opis: "Križni bod s uzorcima koji govore iz kojeg je sela vezilja krasi haljine, jastuke i torbice, a kupnja kod ženskih zadruga osigurava da je rad ručni i pošteno plaćen." },
-    { ime: "Datulje medjool", opis: "Velike, mekane datulje iz doline Jordana i okolice Jerihona prodaju se u kutijama na svakoj tržnici i dobro podnose put." }
+    { ime: "Nablus soap", opis: "White cubes of pure olive oil soap have been boiled in Nablus the same way for centuries, and they are sold in souks across Palestine and in Jerusalem's Old City." },
+    { ime: "Za'atar and tahini", opis: "The green blend of wild thyme, sesame and sumac and the paste of roasted sesame are the base of every breakfast, best bought at markets, by weight and freshly ground." },
+    { ime: "Armenian ceramics", opis: "Tiles and tableware painted with birds, fish and flowering vines have been made by Armenian families in Jerusalem for about a hundred years, and handwork carries the workshop's signature on the base." },
+    { ime: "Olive wood from Bethlehem", opis: "Olive wood carving is an old craft of the Bethlehem area, and bowls, spoons and figures are bought directly in workshops where you can see and smell the fresh wood." },
+    { ime: "Palestinian tatreez embroidery", opis: "Cross-stitch in patterns that tell you which village the embroiderer comes from decorates dresses, cushions and purses, and buying from women's cooperatives ensures the work is handmade and fairly paid." },
+    { ime: "Medjool dates", opis: "Big, soft dates from the Jordan Valley and the Jericho area are sold by the box at every market and travel well." }
   ],
   mjesta: {
     "jeruzalem": {
       dragulji: [
-        { ime: "Etiopski samostan na krovu", opis: "Na krovu Bazilike Svetoga groba, u malim zemljanim kućicama, žive etiopski redovnici, a do njihova tihog dvorišta dolazi se kroz neugledna vrata sa suka ili kroz kapelu sa strane trga." },
-        { ime: "Ein Karem", opis: "Selo u zelenoj dolini na zapadnom rubu grada ima kamene kuće, izvor, crkve i vrtove, pa je savršen predah od gustoće Starog grada." },
-        { ime: "Nahlaot", opis: "Splet uličica i dvorišta uz tržnicu Mahane Yehuda čuva male sinagoge različitih zajednica i kuće s plavim vratima, kroz koje je lijepo lutati bez karte." }
+        { ime: "The Ethiopian monastery on the roof", opis: "On the roof of the Church of the Holy Sepulchre, Ethiopian monks live in small mud huts, and you reach their quiet courtyard through a plain door off the souk or through a chapel at the side of the plaza." },
+        { ime: "Ein Karem", opis: "A village in a green valley on the western edge of the city has stone houses, a spring, churches and gardens, a perfect break from the density of the Old City." },
+        { ime: "Nachlaot", opis: "The maze of lanes and courtyards next to Mahane Yehuda market holds tiny synagogues of different communities and houses with blue doors, lovely to wander without a map." }
       ],
       domaci: [
-        { ime: "Mahane Yehuda petkom ujutro", opis: "Prije šabata cijeli grad kupuje halu, začinsko bilje i slatkiše, prodavači viču, a do ranog popodneva sve se zatvori i ulice utihnu." },
-        { ime: "Kaak sa zatarom", opis: "Duguljasti prsten kruha posut sezamom prodaje se s kolica kod Damaščanskih vrata, uz smotuljak zatara u novinskom papiru i pečeno jaje." },
-        { ime: "Humus za doručak", opis: "U Starom gradu humus se jede ujutro, još topao, s cijelim slanutkom i maslinovim uljem, a zalogajnice se zatvore kad se lonac isprazni, često već rano popodne." }
+        { ime: "Mahane Yehuda on Friday morning", opis: "Before Shabbat the whole city shops for challah, fresh herbs and sweets while vendors shout, and by early afternoon everything closes and the streets fall silent." },
+        { ime: "Ka'ak with za'atar", opis: "An oblong ring of sesame bread is sold from carts at Damascus Gate, along with a twist of za'atar in newspaper and a baked egg." },
+        { ime: "Hummus for breakfast", opis: "In the Old City hummus is eaten in the morning, still warm, with whole chickpeas and olive oil, and the eateries close when the pot is empty, often by early afternoon." }
       ],
       kupiti: [
-        { ime: "Keramika iz armenskih radionica", opis: "U Armenskoj četvrti i na Via Dolorosi nekoliko obitelji i danas oslikava keramiku rukom, pa kupujte ondje gdje vidite radni stol i peć." },
-        { ime: "Halva i začini s tržnice", opis: "Na Mahane Yehudi halva se reže s velikih kolutova u desecima okusa, a susjedni štandovi miješaju začine za rižu, ribu i šakšuku." },
-        { ime: "Zatar i kava sa suka", opis: "Na sukovima muslimanske četvrti začini i kava s kardamomom prodaju se na vagu, a tu kupuju i stanovnici Starog grada." }
+        { ime: "Ceramics from Armenian workshops", opis: "In the Armenian Quarter and on the Via Dolorosa a few families still paint ceramics by hand, so buy where you can see the workbench and the kiln." },
+        { ime: "Halva and spices from the market", opis: "At Mahane Yehuda halva is cut from big wheels in dozens of flavors, and neighboring stalls blend spices for rice, fish and shakshuka." },
+        { ime: "Za'atar and coffee from the souk", opis: "In the souks of the Muslim Quarter spices and cardamom coffee are sold by weight, and Old City residents shop here too." }
       ]
     },
     "tel-aviv": {
       dragulji: [
-        { ime: "Tržnica Levinsky", opis: "U nekoliko ulica na jugu grada trgovine koje su osnovali doseljenici iz Grčke, Turske i Irana prodaju začine, masline, sušeno voće i bureke." },
-        { ime: "Florentin", opis: "Bivša obrtnička četvrt puna je radionica, murala i malih barova, a najbolje ju je obići pješice, od zida do zida." },
-        { ime: "Američko-njemačka kolonija", opis: "Između Jaffe i Florentina skriva se nekoliko ulica drvenih i kamenih kuća koje su u 19. stoljeću podigli američki i njemački doseljenici, tihih i gotovo bez prolaznika." }
+        { ime: "Levinsky Market", opis: "In a few streets in the south of the city, shops founded by immigrants from Greece, Turkey and Iran sell spices, olives, dried fruit and bourekas." },
+        { ime: "Florentin", opis: "A former workshop district is full of small factories, murals and little bars, and it is best explored on foot, wall by wall." },
+        { ime: "The American-German Colony", opis: "Between Jaffa and Florentin hide a few streets of wooden and stone houses built in the 19th century by settlers from the USA and Germany, quiet and nearly empty of passersby." }
       ],
       domaci: [
-        { ime: "Matkot na plaži", opis: "Cijela obala odzvanja od lupkanja drvenih reketa, jer se matkot igra uz samu vodu od jutra do mraka, i lako je naći nekoga tko će vas naučiti." },
-        { ime: "Petak poslijepodne", opis: "Petkom se do ranog popodneva sjedi po kavanama i kupuje cvijeće i hala, zatim grad utihne, a u zalazak sunca svi su na šetnici uz more." },
-        { ime: "Sabih", opis: "Pita punjena prženim patlidžanom, tvrdo kuhanim jajetom, tahinijem i ambom, kiselim umakom od manga, tipičan je ulični obrok koji se jede stojeći na pločniku." }
+        { ime: "Matkot on the beach", opis: "The whole shoreline echoes with the pop of wooden paddles, because matkot is played at the water's edge from morning to dark, and it is easy to find someone to teach you." },
+        { ime: "Friday afternoon", opis: "On Fridays people sit in cafes and buy flowers and challah until early afternoon, then the city goes quiet, and at sunset everyone is on the seaside promenade." },
+        { ime: "Sabich", opis: "A pita stuffed with fried eggplant, hard-boiled egg, tahini and amba, a tangy mango sauce, is the classic street meal eaten standing on the sidewalk." }
       ],
       kupiti: [
-        { ime: "Rukotvorine s Nahalat Binyamina", opis: "Utorkom i petkom u pješačkoj ulici uz tržnicu Carmel umjetnici prodaju vlastiti nakit, keramiku i igračke, a pravilo je da za štandom stoji onaj tko je predmet izradio." },
-        { ime: "Začini s Levinskog", opis: "Stare trgovine začina nude mješavine poput baharata, hawayija i ras el hanouta, koje vam samelju i zapakiraju pred vama." },
-        { ime: "Starine s buvljaka u Jaffi", opis: "U ulicama oko buvljaka prodaje se stari namještaj, mjed, sagovi i ploče, a između su dizajnerske trgovine mladih izraelskih autora." }
+        { ime: "Crafts from Nachalat Binyamin", opis: "On Tuesdays and Fridays artists sell their own jewelry, ceramics and toys on the pedestrian street next to Carmel Market, and the rule is that whoever made the piece stands at the stall." },
+        { ime: "Spices from Levinsky", opis: "The old spice shops offer blends like baharat, hawaij and ras el hanout, ground and packed in front of you." },
+        { ime: "Antiques from the Jaffa flea market", opis: "In the streets around the flea market you find old furniture, brass, rugs and records, with design shops by young Israeli makers in between." }
       ]
     },
     "betlehem": {
       dragulji: [
-        { ime: "Ulica zvijezde", opis: "Starim hodočasničkim putem kojim se nekad ulazilo u grad, između kamenih kuća s nadvratnicima i malim radionicama, prošeće tek malen dio posjetitelja." },
-        { ime: "Battir", opis: "Selo zapadno od Betlehema leži nad dolinom drevnih terasa s vrtovima i kanalima koji se pune s izvora, a kroz njega vode označene pješačke staze." },
-        { ime: "Pogled na Mar Sabu", opis: "U pustinji istočno od grada samostan visi na litici klanca Kidron, a kako u njega ulaze samo muškarci, s druge strane klanca pruža se pogled u kojem uživaju svi." }
+        { ime: "Star Street", opis: "Only a small share of visitors walk the old pilgrim route by which people once entered town, between stone houses with carved lintels and small workshops." },
+        { ime: "Battir", opis: "A village west of Bethlehem sits above a valley of ancient terraces with gardens and channels fed by a spring, and marked walking trails run through it." },
+        { ime: "The view of Mar Saba", opis: "In the desert east of town a monastery hangs on the cliff of the Kidron gorge, and since only men may enter, the view from the other side of the gorge is the one everyone can enjoy." }
       ],
       domaci: [
-        { ime: "Jutro na starom suku", opis: "Iznad Trga jaslica penju se uličice tržnice, gdje seljanke iz okolnih sela prodaju vinovo lišće, smokve i zelenje iz košara na tlu." },
-        { ime: "Falafel i kava s kardamomom", opis: "Domaći doručkuju falafel u toploj piti na uglovima oko trga, a zatim popiju malu, jaku kavu, koju vam trgovci često ponude i bez kupnje." },
-        { ime: "Večer na Trgu jaslica", opis: "Kad autobusi odu, trg pripadne gradu, djeca voze bicikle, starci sjede pod stablima, a čuju se i zvona i poziv na molitvu." }
+        { ime: "Morning in the old souk", opis: "The market lanes climb above Manger Square, where women from the surrounding villages sell grape leaves, figs and greens from baskets on the ground." },
+        { ime: "Falafel and cardamom coffee", opis: "Locals have falafel in warm pita for breakfast on the corners around the square, followed by a small, strong coffee that shopkeepers often offer even if you buy nothing." },
+        { ime: "Evening on Manger Square", opis: "When the buses leave, the square belongs to the town, children ride bikes, old men sit under the trees, and you hear both church bells and the call to prayer." }
       ],
       kupiti: [
-        { ime: "Rezbarije od maslinova drva", opis: "U radionicama u Ulici Mliječne špilje i u susjednom Beit Sahouru vidi se kako iz grubog komada nastaju jaslice, zdjele i križevi, pa kupujete od majstora." },
-        { ime: "Vez ženskih zadruga", opis: "Žene iz Betlehema i izbjegličkih kampova vezu torbice, jastučnice i šalove tradicionalnim uzorcima, a prodaju ih u zadružnim trgovinama u starom gradu." },
-        { ime: "Sedef", opis: "Obrada sedefa u Betlehemu stara je više stoljeća, a križići, kutijice i nakit s finim rezbarijama nalaze se u radionicama oko Trga jaslica." }
+        { ime: "Olive wood carvings", opis: "In workshops on Milk Grotto Street and in neighboring Beit Sahour you see nativity sets, bowls and crosses emerge from a rough block, so you buy from the craftsman." },
+        { ime: "Embroidery from women's cooperatives", opis: "Women from Bethlehem and the refugee camps embroider purses, cushion covers and scarves in traditional patterns and sell them in cooperative shops in the old town." },
+        { ime: "Mother-of-pearl", opis: "Mother-of-pearl carving in Bethlehem goes back centuries, and small crosses, boxes and jewelry with fine carving are found in the workshops around Manger Square." }
       ]
     },
     "nazaret-i-galileja": {
       dragulji: [
-        { ime: "Stara tržnica u Nazaretu", opis: "Iza Bazilike Navještenja penju se uske ulice suka, s osmanskim kućama i zatvorenim dvorištima, od kojih su neka pretvorena u pansione i kavane." },
-        { ime: "Brdo Arbel", opis: "S ruba litice iznad Galilejskog jezera vidi se cijelo jezero, Golan i dolina pod vama, a staza se spušta kroz stijene do sela u podnožju." },
-        { ime: "Isusova staza", opis: "Označeni pješački put vodi od Nazareta do Kafarnauma kroz sela, maslinike i polja, a i jedna dnevna dionica dovoljna je da Galileju osjetite pod nogama." }
+        { ime: "The old market in Nazareth", opis: "Behind the Basilica of the Annunciation the narrow lanes of the souk climb the hill, with Ottoman houses and enclosed courtyards, some now turned into guesthouses and cafes." },
+        { ime: "Mount Arbel", opis: "From the cliff edge above the Sea of Galilee you see the whole lake, the Golan and the valley below, and a trail drops through the rocks to the village at the foot." },
+        { ime: "The Jesus Trail", opis: "A marked walking route runs from Nazareth to Capernaum through villages, olive groves and fields, and even one day's stage is enough to feel Galilee under your feet." }
       ],
       domaci: [
-        { ime: "Kava i začini u starom mlinu", opis: "U Nazaretu se kava prži s kardamomom, a začini se kupuju u starim trgovinama ispod suka, gdje vreće stoje do stropa i gdje mještani kupuju naraštajima." },
-        { ime: "Druzijska pita", opis: "U druzijskim selima Galileje žene na izbočenoj ploči sadž peku kruh tanak kao papir, namažu ga labnehom, zatarom i maslinovim uljem i smotaju vam ga u ruku." },
-        { ime: "Kupanje u Kineretu", opis: "Ljeti se na obalama Galilejskog jezera obitelji kupaju, roštiljaju i kampiraju, a voda je slatka i topla, pa je to pravo osvježenje nakon dana obilazaka." }
+        { ime: "Coffee and spices at the old mill", opis: "In Nazareth coffee is roasted with cardamom, and spices are bought in old shops below the souk where sacks reach the ceiling and townspeople have shopped for generations." },
+        { ime: "Druze pita", opis: "In the Druze villages of Galilee women bake paper-thin bread on a domed saj griddle, spread it with labneh, za'atar and olive oil and roll it into your hand." },
+        { ime: "A swim in the Kinneret", opis: "In summer families swim, barbecue and camp on the shores of the Sea of Galilee, and the water is fresh and warm, real refreshment after a day of sightseeing." }
       ],
       kupiti: [
-        { ime: "Začini i tahini iz Nazareta", opis: "Nazaret je poznat po tahiniju i mješavinama začina, koji se kupuju na vagu u trgovinama staroga grada." },
-        { ime: "Galilejsko maslinovo ulje", opis: "U selima Galileje mnoge obitelji prešaju vlastito ulje, a kupuje se u seoskim uljarama i trgovinama, najsvježije u kasnu jesen." },
-        { ime: "Sir i svijeće iz Safeda", opis: "Brdski grad Safed dao je ime blagom slanom siru, a poznat je i po šarenim pletenim svijećama, koje se kupuju u mljekarnicama i radionicama stare četvrti." }
+        { ime: "Spices and tahini from Nazareth", opis: "Nazareth is known for tahini and spice blends, sold by weight in the shops of the old town." },
+        { ime: "Galilee olive oil", opis: "In the villages of Galilee many families press their own oil, sold at village presses and shops, freshest in late fall." },
+        { ime: "Cheese and candles from Safed", opis: "The hill town of Safed gave its name to a mild salty cheese and is also known for colorful braided candles, sold in the dairies and workshops of the old quarter." }
       ]
     },
     "mrtvo-more-i-masada": {
       dragulji: [
-        { ime: "Wadi Arugot", opis: "Druga, južnija dolina rezervata Ein Gedi ima manje posjetitelja od Davidove, a staza uz potok vodi do skrivenog slapa i bazena u kojima se može rashladiti." },
-        { ime: "Einot Tzukim", opis: "Na sjevernoj obali, u podnožju litica, izvori slatke vode stvaraju bazene i šumarke trske i tamarisa, pa se ovdje kupate u slatkoj vodi s pogledom na slano more." },
-        { ime: "Brdo Sodoma", opis: "Na južnom kraju mora uzdiže se brdo gotovo cijelo od soli, s vidikovcima iznad tirkiznih bazena za isparavanje i stupom koji zovu Lotovom ženom." }
+        { ime: "Wadi Arugot", opis: "The second, more southerly valley of the Ein Gedi reserve gets fewer visitors than Wadi David, and the trail along the stream leads to a hidden waterfall and pools where you can cool off." },
+        { ime: "Einot Tzukim", opis: "On the northern shore, at the foot of the cliffs, freshwater springs form pools and groves of reeds and tamarisk, so you swim in fresh water with a view of the salt sea." },
+        { ime: "Mount Sodom", opis: "At the southern end of the sea rises a hill made almost entirely of salt, with viewpoints over the turquoise evaporation pools and a pillar known as Lot's Wife." }
       ],
       domaci: [
-        { ime: "Uspon prije svitanja", opis: "Na Masadu se penje Zmijskom stazom po mraku, kako bi se izlazak sunca nad Moabskim brdima dočekao na vrhu, a silazi prije nego što vrućina postane ozbiljna." },
-        { ime: "Plutanje bez žurbe", opis: "U vodu se ulazi polako i leđima, ne roni se i ne prska, a nakon desetak minuta izađe se pod tuš, jer sol brzo isuši kožu." },
-        { ime: "Slatka voda poslije soli", opis: "Izraelci dan na Mrtvom moru obično spoje s kupanjem u izvorskim bazenima Ein Gedija, pa i vi najprije hodajte i kupajte se u slatkoj vodi, a plutanje ostavite za kraj." }
+        { ime: "The climb before dawn", opis: "People climb Masada by the Snake Path in the dark to meet the sunrise over the Moab mountains on top, and they come down before the heat turns serious." },
+        { ime: "Floating without hurry", opis: "You enter the water slowly and on your back, with no diving and no splashing, and after ten minutes or so you head for the shower because the salt dries your skin fast." },
+        { ime: "Fresh water after salt", opis: "Israelis usually pair a day at the Dead Sea with a swim in the spring pools of Ein Gedi, so hike and swim in fresh water first and save the floating for last." }
       ],
       kupiti: [
-        { ime: "Datulje iz kibuca", opis: "Nasadi palmi uz obalu daju odlične datulje medjool, koje se prodaju u trgovinama kibuca i na odmorištima uz cestu, često svježije nego u gradu." },
-        { ime: "Sol i blato", opis: "Vrećice blata i soli za kupku kupuju se u trgovinama uz plaže Ein Bokeka i u ljekarnama, a sastav je najbolje pročitati i odabrati proizvode bez dodanih mirisa." }
+        { ime: "Dates from the kibbutz", opis: "The palm groves along the shore produce excellent Medjool dates, sold in kibbutz shops and at roadside rest stops, often fresher than in the city." },
+        { ime: "Salt and mud", opis: "Packets of mud and bath salt are sold in shops by the Ein Bokek beaches and in pharmacies, and it is worth reading the label and choosing products without added fragrance." }
       ]
     }
   }

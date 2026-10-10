@@ -1,113 +1,113 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["sri-lanka"] = {
   kupiti: [
-    { ime: "Cejlonski čaj", opis: "Čaj s visokih plantaža lagan je i mirisan, a onaj s nižih taman i jak, pa ga kupite izravno u tvornicama u gorju ili u specijaliziranim trgovinama čaja, s oznakom imanja i regije." },
-    { ime: "Pravi cimet", opis: "Cejlonski cimet smotan je u tanke, krhke slojeve i blažeg je, slađeg okusa od kasije koja se prodaje kod nas, a najbolji dolazi s juga otoka i kupuje se na tržnicama i u vrtovima začina." },
-    { ime: "Batik", opis: "Tkanine oslikane voskom i bojene u više kupki rade se u malim radionicama po cijelom otoku, gdje možete vidjeti cijeli postupak i kupiti sarong ili zidnu sliku izravno od majstorice." },
-    { ime: "Drvene maske", opis: "Šarene maske za obredne plesove rezbare se od laganog drva u Ambalangodi na jugozapadnoj obali, pa ih kupujte ondje, u radionicama obitelji koje to rade naraštajima." },
-    { ime: "Ručno tkani pamuk", opis: "Šri Lanka ima živu tradiciju ručnog tkanja u jarkim bojama, a ručnici, sarongi i stolnjaci kupuju se u državnim trgovinama rukotvorina i u zadružnim tkaonicama." },
-    { ime: "Kithul sirup", opis: "Gusti sirup od soka palme kithul, kojim se prelijeva bivolji jogurt, ima okus karamele i dima, a kupuje se u boci na tržnicama i uz cestu u unutrašnjosti." }
+    { ime: "Ceylon tea", opis: "Tea from the high estates is light and fragrant while low-grown tea is dark and strong, so buy it directly at factories in the hill country or in specialist tea shops, labeled with the estate and region." },
+    { ime: "True cinnamon", opis: "Ceylon cinnamon is rolled in thin, brittle layers and tastes milder and sweeter than the cassia sold in most stores, and the best comes from the south of the island, sold in markets and spice gardens." },
+    { ime: "Batik", opis: "Fabrics painted with wax and dyed in several baths are made in small workshops all over the island, where you can watch the whole process and buy a sarong or wall hanging straight from the maker." },
+    { ime: "Wooden masks", opis: "Colorful masks for ritual dances are carved from light wood in Ambalangoda on the southwest coast, so buy them there, in the workshops of families who have made them for generations." },
+    { ime: "Handloom cotton", opis: "Sri Lanka has a living tradition of handweaving in bright colors, and towels, sarongs and tablecloths are sold in state handicraft shops and cooperative weaving centers." },
+    { ime: "Kithul treacle", opis: "The thick syrup made from the sap of the kithul palm, poured over buffalo curd, tastes of caramel and smoke, and you buy it by the bottle in markets and along inland roads." }
   ],
   mjesta: {
     "colombo": {
       dragulji: [
-        { ime: "Seema Malaka", opis: "Mali hram na platformama nad jezerom Beira projektirao je Geoffrey Bawa, i usred prometne gužve nudi tišinu, vodu i red brončanih Buda." },
-        { ime: "Crkva Wolvendaal", opis: "Nizozemska crkva iz 18. stoljeća stoji na brežuljku iznad Pettaha, s nadgrobnim pločama u podu i starim drvenim klupama, i gotovo nitko do nje ne dođe." },
-        { ime: "Vlakom do Mount Lavinije", opis: "Prigradski vlak vozi uz samo more, vrata su otvorena i vjetar puše kroz vagon, a za dvadesetak minuta ste na gradskoj plaži gdje Colombo dolazi na zalazak sunca." }
+        { ime: "Seema Malaka", opis: "This small temple on platforms over Beira Lake was designed by Geoffrey Bawa, and in the middle of the traffic it offers silence, water and a row of bronze Buddhas." },
+        { ime: "Wolvendaal Church", opis: "An 18th-century Dutch church stands on a hill above Pettah, with gravestones set into the floor and old wooden pews, and hardly anyone makes it up here." },
+        { ime: "The train to Mount Lavinia", opis: "The suburban train runs right along the sea with the doors open and the wind blowing through the car, and in about twenty minutes you are at the city beach where Colombo comes for sunset." }
       ],
       domaci: [
-        { ime: "Sumrak na Galle Face Greenu", opis: "Predvečer se na travnjaku uz ocean puštaju zmajevi, obitelji šeću, a na kolicima se prže isso wade, hrskavi kolačići od leće s kozicama na vrhu." },
-        { ime: "Kruh uz melodiju", opis: "Ujutro i predvečer četvrtima kruže tuk-tukovi pekari koji sviraju „Für Elise“, a kad čujete tu melodiju, izađite na ulicu po toplo pecivo kao i svi susjedi." },
-        { ime: "Kottu navečer", opis: "Sjeckani roti s povrćem, jajima i začinima sprema se na vrućoj ploči uz ritmično lupanje noževa koje se čuje s ulice, i to je večera nakon izlaska." }
+        { ime: "Dusk at Galle Face Green", opis: "Toward evening kites fly over the lawn by the ocean, families stroll, and carts fry isso wade, crisp lentil fritters with shrimp on top." },
+        { ime: "Bread with a melody", opis: "Morning and evening, bakery tuk-tuks circle the neighborhoods playing Für Elise, and when you hear that tune you step out for warm rolls like all the neighbors." },
+        { ime: "Kottu at night", opis: "Chopped roti with vegetables, egg and spices is cooked on a hot griddle to a rhythmic clatter of blades you can hear from the street, and it is the classic dinner after a night out." }
       ],
       kupiti: [
-        { ime: "Začini i tkanine iz Pettaha", opis: "U starom trgovačkom kvartu svaka ulica ima svoju robu, jedna začine i sušenu ribu, druga tkanine, treća kućne potrepštine, pa ovdje kupuje cijeli grad." },
-        { ime: "Rukotvorine iz državne trgovine", opis: "Državne trgovine rukotvorina u gradu drže mjed, lak, batik i maske iz cijele zemlje po fiksnim cijenama, što je dobro mjerilo prije cjenkanja drugdje." },
-        { ime: "Čaj za ponijeti", opis: "U specijaliziranim trgovinama čaja u središtu možete kušati čajeve iz različitih regija, od Uve do Dimbule, i kupiti ih u limenkama koje čuvaju aromu." }
+        { ime: "Spices and fabric from Pettah", opis: "In the old trading quarter every street has its own goods, one for spices and dried fish, another for fabric, a third for household items, and the whole city shops here." },
+        { ime: "Crafts from the state shop", opis: "The state handicraft stores in town carry brass, lacquer, batik and masks from all over the country at fixed prices, which gives you a good benchmark before bargaining elsewhere." },
+        { ime: "Tea to take home", opis: "In the specialist tea shops downtown you can taste teas from different regions, from Uva to Dimbula, and buy them in tins that keep the aroma." }
       ]
     },
     "kandy": {
       dragulji: [
-        { ime: "Šuma Udawattakele", opis: "Odmah iznad Hrama zuba počinje stara kraljevska šuma s divovskim lijanama, majmunima i ribnjakom, u kojoj se već nakon pet minuta hoda više ne čuje grad." },
-        { ime: "Tri hrama zapadno od grada", opis: "Embekke s rezbarenim drvenim stupovima, Lankatilaka na stijeni i Gadaladeniya povezani su seoskim cestama kroz rižina polja, pa ih je lijepo obići tuk-tukom u jedno prijepodne." },
-        { ime: "Vidikovac na Rajapihilla Mawathi", opis: "S ceste iznad južne obale jezera vidi se cijeli Kandy, jezero i hram, a najbolje je doći rano ujutro dok se magla još diže s vode." }
+        { ime: "Udawattakele Forest", opis: "Right above the Temple of the Tooth begins the old royal forest with giant lianas, monkeys and a pond, where after five minutes of walking you no longer hear the city." },
+        { ime: "Three temples west of town", opis: "Embekke with its carved wooden pillars, Lankatilaka on a rock and Gadaladeniya are linked by village roads through rice fields, so they make a lovely morning loop by tuk-tuk." },
+        { ime: "The viewpoint on Rajapihilla Mawatha", opis: "From the road above the southern shore of the lake you see all of Kandy, the lake and the temple, and it is best early in the morning while the mist is still lifting off the water." }
       ],
       domaci: [
-        { ime: "Šetnja oko jezera", opis: "U zoru i predvečer stanovnici Kandyja hodaju krug oko jezera u hladu velikih stabala, dok na granama sjede kormorani, a u vodi se vide kornjače i varani." },
-        { ime: "Puja s cvijećem lotosa", opis: "Vjernici u bijelom dolaze u Hram zuba u vrijeme obreda s pladnjevima cvijeća koje kupuju pred ulazom, pa se odjenite pristojno, uzmite i vi cvijet i pustite da vas bubnjevi povedu." },
-        { ime: "Ručak od riže i curryja", opis: "U podne se jede tanjur riže s pet ili šest malih curryja od povrća, leće i ribe, i to prstima desne ruke, u jednostavnim zalogajnicama oko središnje tržnice." }
+        { ime: "A walk around the lake", opis: "At dawn and toward evening the people of Kandy walk a lap around the lake in the shade of big trees, with cormorants on the branches and turtles and monitor lizards in the water." },
+        { ime: "Puja with lotus flowers", opis: "Worshippers dressed in white come to the Temple of the Tooth at ceremony time with trays of flowers bought at the entrance, so dress modestly, pick up a flower yourself and let the drums lead you in." },
+        { ime: "Rice and curry for lunch", opis: "At midday people eat a plate of rice with five or six small curries of vegetables, lentils and fish, using the fingers of the right hand, in simple eateries around the central market." }
       ],
       kupiti: [
-        { ime: "Mjed i rezbarije", opis: "Kandy je staro obrtničko središte, a mjedene svjetiljke, srebro i drvene rezbarije kupuju se u prodajnom centru obrtničke udruge uz jezero i u radionicama u selima oko Embekkea." },
-        { ime: "Dumbara tkanje", opis: "U dolini Dumbara kraj Kandyja tkaju se prostirke i zidni ukrasi od biljnih vlakana s geometrijskim uzorcima, koji se nalaze u državnim trgovinama rukotvorina u gradu." },
-        { ime: "Začini sa središnje tržnice", opis: "Na katu i u prizemlju gradske tržnice prodaju se kardamom, klinčići, muškatni oraščić i mješavine za curry iz okolnih brda, znatno povoljnije nego u vrtovima začina uz cestu." }
+        { ime: "Brass and wood carving", opis: "Kandy is an old craft center, and brass lamps, silver and carved wood are sold at the artisans' association showroom by the lake and in workshops in the villages around Embekke." },
+        { ime: "Dumbara weaving", opis: "In the Dumbara valley near Kandy, mats and wall hangings with geometric patterns are woven from plant fiber, and you find them in the state handicraft shops in town." },
+        { ime: "Spices from the central market", opis: "On both floors of the municipal market you can buy cardamom, cloves, nutmeg and curry blends from the surrounding hills, for much less than in the roadside spice gardens." }
       ]
     },
     "sigiriya": {
       dragulji: [
-        { ime: "Stijena Pidurangala", opis: "Susjedna stijena penje se kroz stari špiljski hram i preko velikih gromada, a s njezina ravnog vrha Sigiriya se vidi cijela, što je s nje same nemoguće." },
-        { ime: "Ritigala", opis: "U šumi između Habarane i Anuradhapure leže ostaci samostana pustinjaka, s kamenim stazama i kupalištem koje je progutala džungla, pa ćete često biti posve same." },
-        { ime: "Veletržnica u Dambulli", opis: "Gotovo sve povrće koje se jede na otoku prolazi kroz ovu golemu tržnicu, gdje se kamioni tikava, čilija i banana istovaruju danonoćno i gdje se vidi kako zemlja zapravo radi." }
+        { ime: "Pidurangala Rock", opis: "The neighboring rock is climbed through an old cave temple and over big boulders, and from its flat top you see all of Sigiriya, which is impossible from Sigiriya itself." },
+        { ime: "Ritigala", opis: "In the forest between Habarana and Anuradhapura lie the remains of a hermit monastery, with stone paths and a bathing pool swallowed by the jungle, and you will often be completely alone." },
+        { ime: "Dambulla wholesale market", opis: "Almost every vegetable eaten on the island passes through this enormous market, where trucks of pumpkins, chilies and bananas unload around the clock and you see how the country really runs." }
       ],
       domaci: [
-        { ime: "Kupanje u jezeru", opis: "Kasno popodne seljani se dolaze okupati i oprati rublje u umjetnim jezerima koja su još stari kraljevi iskopali za navodnjavanje, a vi sjednite na nasip i gledajte zalazak sunca." },
-        { ime: "Seoski ručak na listu lotosa", opis: "Obitelji u selima oko Sigiriye kuhaju na drvima u glinenim loncima i poslužuju rižu s curryjima na lotosovu listu, pa zamolite domaćine smještaja da vam dogovore takav ručak." },
-        { ime: "Thambili uz cestu", opis: "Narančasti kraljevski kokos prodaje se na štandovima uz svaku cestu, prodavač ga otvori mačetom, a nakon što popijete vodu, raspolovi ga da pojedete meko meso." }
+        { ime: "A swim in the tank", opis: "In the late afternoon villagers come to bathe and wash clothes in the reservoirs that ancient kings dug for irrigation, so sit on the embankment and watch the sunset." },
+        { ime: "Village lunch on a lotus leaf", opis: "Families in the villages around Sigiriya cook over wood fires in clay pots and serve rice and curry on a lotus leaf, so ask your hosts to arrange a lunch like that." },
+        { ime: "Thambili by the road", opis: "The orange king coconut is sold at stalls along every road, the seller opens it with a machete, and after you drink the water he splits it so you can eat the soft flesh." }
       ],
       kupiti: [
-        { ime: "Voće s cestovnih štandova", opis: "Okolica Dambulle poznata je po mangu, papaji i bananama, a seljaci ih prodaju pred svojim kućama uz glavnu cestu, zrele i ubrane tog jutra." },
-        { ime: "Kithul jaggery", opis: "Tvrdi palmin šećer u obliku polukugli, koji domaći grickaju uz nezaslađen čaj, prodaje se na seoskim štandovima i tržnici u Dambulli i dobro podnosi put." },
-        { ime: "Začini iz Matalea", opis: "Na cesti prema Kandyju nižu se vrtovi začina, a papar, kakao i vaniliju najpovoljnije ćete kupiti na tržnici u samom Mataleu, gdje kupuju i mještani." }
+        { ime: "Fruit from roadside stalls", opis: "The area around Dambulla is known for mangoes, papayas and bananas, and farmers sell them in front of their houses along the main road, ripe and picked that morning." },
+        { ime: "Kithul jaggery", opis: "Hard palm sugar shaped into half spheres, which locals nibble with unsweetened tea, is sold at village stalls and at the Dambulla market and travels well." },
+        { ime: "Spices from Matale", opis: "Spice gardens line the road toward Kandy, but pepper, cocoa and vanilla are cheapest at the market in Matale itself, where the townspeople shop." }
       ]
     },
     "anuradhapura": {
       dragulji: [
-        { ime: "Isurumuniya", opis: "Mali hram uklesan u stijenu uz jezero Tissa Wewa čuva poznati reljef ljubavnika i kamene slonove koji kao da se kupaju u bazenu, a posjetitelja je malo." },
-        { ime: "Nasip jezera Tissa Wewa", opis: "S dugog nasipa starog kraljevskog jezera predvečer se vide bijele kupole stupa iznad krošanja, ribari u vodi do pojasa i jata ptica." },
-        { ime: "Kuttam Pokuna", opis: "Dva kamena bazena u kojima su se kupali redovnici samostana Abhayagiri leže u tihom, sjevernom dijelu svetog grada, do kojeg je najljepše doći biciklom." }
+        { ime: "Isurumuniya", opis: "A small temple carved into the rock by Tissa Wewa lake holds a famous relief of two lovers and stone elephants that seem to be bathing in the pool, and visitors are few." },
+        { ime: "The Tissa Wewa embankment", opis: "From the long bund of the old royal reservoir you see white stupa domes above the treetops toward evening, fishermen standing waist-deep in the water and flocks of birds." },
+        { ime: "Kuttam Pokuna", opis: "The twin stone pools where the monks of Abhayagiri monastery once bathed lie in the quiet northern part of the sacred city, and the nicest way to get there is by bicycle." }
       ],
       domaci: [
-        { ime: "Hodočasnici u bijelom", opis: "Za dana punog mjeseca (poya) tisuće ljudi odjevenih u bijelo nose cvijeće i uljanice do svetog stabla Sri Maha Bodhi, pa se odjenite u svijetlo, izujte se i hodajte s njima." },
-        { ime: "Biciklom između stupa", opis: "Sveti grad je prostran i ravan, pa ga domaći i hodočasnici obilaze na biciklu, najbolje rano ujutro i kasno popodne, kad je sjena duga i kamen nije vruć pod bosim nogama." },
-        { ime: "Bivolji jogurt s kithulom", opis: "Gusti jogurt od bivoljeg mlijeka u glinenoj posudi preliven palminim sirupom ovdje je uobičajen desert, a prodaje se i na štandovima uz cestu." }
+        { ime: "Pilgrims in white", opis: "On full moon (poya) days thousands of people dressed in white carry flowers and oil lamps to the sacred Sri Maha Bodhi tree, so wear something light, take off your shoes and walk with them." },
+        { ime: "By bicycle between the stupas", opis: "The sacred city is spread out and flat, so locals and pilgrims get around by bike, best in the early morning and late afternoon when the shadows are long and the stone is not hot under bare feet." },
+        { ime: "Buffalo curd with kithul", opis: "Thick buffalo milk curd in a clay pot, drizzled with palm treacle, is the everyday dessert here and is also sold at roadside stalls." }
       ],
       kupiti: [
-        { ime: "Pleteni proizvodi od palmire", opis: "Sjever otoka poznat je po košarama, šeširima i kutijama pletenim od obojenog lišća palme palmire, koji se prodaju na gradskoj tržnici i na štandovima uz hodočasničke putove." },
-        { ime: "Uljanice i mirisni štapići", opis: "Na štandovima pred hramovima vjernici kupuju glinene uljanice, kokosovo ulje i tamjan, a nekoliko uljanica lijep je i lagan dar za ponijeti." }
+        { ime: "Palmyrah weaving", opis: "The north of the island is known for baskets, hats and boxes woven from dyed palmyrah palm leaves, sold at the town market and at stalls along the pilgrim routes." },
+        { ime: "Oil lamps and incense", opis: "At stalls in front of the temples worshippers buy clay oil lamps, coconut oil and incense, and a few lamps make a lovely, lightweight gift to carry home." }
       ]
     },
     "gorje": {
       dragulji: [
-        { ime: "Lipton's Seat", opis: "Iznad Haputalea cesta vijuga kroz plantažu Dambatenne do vidikovca s kojeg je sir Thomas Lipton gledao svoje carstvo, a najljepše je doći u zoru, prije oblaka, i dio puta propješačiti među beračicama." },
-        { ime: "Gornji bazeni slapa Diyaluma", opis: "Do vrha jednog od najviših slapova na otoku vodi staza kroz travnjake, a gore vas čekaju prirodni bazeni za kupanje s pogledom preko ruba, kamo je najbolje poći s lokalnim vodičem." },
-        { ime: "Prugom od Elle do Demodare", opis: "Mještani svakodnevno hodaju po pruzi, pa i vi možete pješice preko mosta Nine Arches i dalje kroz čajnike do postaje Demodara, gdje pruga napravi petlju ispod same sebe." }
+        { ime: "Lipton's Seat", opis: "Above Haputale the road winds through the Dambatenne estate to the viewpoint where Sir Thomas Lipton surveyed his empire, and it is best at dawn, before the clouds, walking part of the way among the tea pickers." },
+        { ime: "The upper pools of Diyaluma Falls", opis: "A trail through grassland leads to the top of one of the island's highest waterfalls, where natural swimming pools look out over the edge, and it is best to go with a local guide." },
+        { ime: "Along the tracks from Ella to Demodara", opis: "Locals walk the railway line every day, so you can go on foot over the Nine Arches Bridge and on through the tea to Demodara station, where the track loops under itself." }
       ],
       domaci: [
-        { ime: "Vlak u trećem razredu", opis: "Vožnja kroz gorje najživlja je u običnim vagonima, gdje se sjedi na otvorenim vratima, a prodavači kroz vlak nose vruće wade, kikiriki i čaj." },
-        { ime: "Pol roti i lunu miris", opis: "Doručak u brdima je debeli roti s naribanim kokosom, uz ljutu pastu od luka i čilija i šalicu jakog čaja, a sprema se u malim čajanama uz cestu." },
-        { ime: "Čaj u tvornici", opis: "Na imanjima oko Nuwara Eliye i Haputalea možete proći kroz tvornicu, vidjeti sušenje i valjanje lista i popiti šalicu čaja na mjestu gdje je nastao." }
+        { ime: "Third class on the train", opis: "The ride through the hills is liveliest in the ordinary cars, where people sit in the open doorways and vendors walk through with hot wade, peanuts and tea." },
+        { ime: "Pol roti and lunu miris", opis: "Breakfast in the hills is a thick roti with grated coconut, a fiery onion and chili paste, and a cup of strong tea, made in small roadside tea shops." },
+        { ime: "Tea at the factory", opis: "On estates around Nuwara Eliya and Haputale you can walk through the factory, see the leaf being withered and rolled, and drink a cup where it was made." }
       ],
       kupiti: [
-        { ime: "Čaj s jednog imanja", opis: "U tvorničkim prodavaonicama kupuje se čaj ubran i prerađen na tom istom brdu, a vrijedi uzeti različite gradacije lista, pa kod kuće usporediti okus." },
-        { ime: "Topla odjeća s Bale Bazaara", opis: "U Nuwara Eliyi, gdje je navečer zaista hladno, postoji tržnica na kojoj se povoljno prodaju jakne i veste iz lokalnih tvornica, i tu se opskrbljuju i domaći." },
-        { ime: "Jagode i džemovi", opis: "Hladna klima oko Nuwara Eliye daje jagode, mrkvu i poriluk kakvih drugdje na otoku nema, a domaći džemovi i svježe voće prodaju se na štandovima uz cestu." }
+        { ime: "Single estate tea", opis: "Factory shops sell tea picked and processed on that very hillside, and it is worth taking a few different leaf grades so you can compare the taste at home." },
+        { ime: "Warm clothes from Bale Bazaar", opis: "In Nuwara Eliya, where evenings really are cold, there is a market selling jackets and sweaters from local factories at low prices, and locals stock up here too." },
+        { ime: "Strawberries and jams", opis: "The cool climate around Nuwara Eliya grows strawberries, carrots and leeks found nowhere else on the island, and homemade jam and fresh fruit are sold at roadside stalls." }
       ]
     },
     "galle": {
       dragulji: [
-        { ime: "Rumassala i Jungle Beach", opis: "Na šumovitom rtu preko puta zaljeva nalaze se bijela Pagoda mira i mala uvala mirnog mora do koje se silazi stazom kroz džunglu." },
-        { ime: "Stara nizozemska tržnica", opis: "Uz glavnu ulicu novoga grada stoji natkrivena tržnica na stupovima iz nizozemskog doba, gdje se ujutro prodaju voće i povrće, a nedaleko, uz more, i riba ravno iz čamaca." },
-        { ime: "Jezero Koggala", opis: "Nekoliko kilometara istočno od Gallea čamcem se obilaze otočići u jezeru, na jednom od kojih obitelj guli cimet i pokazuje kako od kore nastaje štapić." }
+        { ime: "Rumassala and Jungle Beach", opis: "On the wooded headland across the bay you find the white Peace Pagoda and a small cove with calm water reached by a path through the jungle." },
+        { ime: "The old Dutch market", opis: "On the main street of the new town stands a covered market on pillars from Dutch times, where fruit and vegetables are sold in the morning, and nearby, by the sea, fish comes straight off the boats." },
+        { ime: "Koggala Lake", opis: "A few miles east of Galle you tour the lake's little islands by boat, and on one of them a family peels cinnamon and shows how bark becomes a quill." }
       ],
       domaci: [
-        { ime: "Zidine u sumrak", opis: "Predvečer se cijeli grad popne na bedeme utvrde, dječaci igraju kriket na travi, parovi sjede pod suncobranima, a najhrabriji skaču u more s Flag Rocka." },
-        { ime: "Kupanje ispod svjetionika", opis: "Mala plaža unutar zidina, tik do svjetionika, mjesto je gdje se domaće obitelji vikendom kupaju, žene često odjevene, pa ponesite maramu i uklopite se." },
-        { ime: "Riba s čamca", opis: "Ujutro ribari uz obalnu cestu istovaruju tune i lokarde na drvene stolove, a domaći se cjenkaju i nose ribu kući još prije nego što sunce ojača." }
+        { ime: "The ramparts at dusk", opis: "Toward evening the whole town climbs onto the fort walls, boys play cricket on the grass, couples sit under umbrellas, and the bravest jump into the sea from Flag Rock." },
+        { ime: "A swim below the lighthouse", opis: "The small beach inside the walls, right by the lighthouse, is where local families swim on weekends, the women often fully dressed, so bring a wrap and blend in." },
+        { ime: "Fish off the boat", opis: "In the morning fishermen along the coast road unload tuna and mackerel onto wooden tables, and locals haggle and carry the fish home before the sun gets strong." }
       ],
       kupiti: [
-        { ime: "Čipka beeralu", opis: "Čipku na batiće donijeli su Portugalci, a žene iz Gallea rade je i danas, pa je kupite od čipkarica koje sjede i rade unutar utvrde ili u zadružnim trgovinama." },
-        { ime: "Cimet s juga", opis: "Južna obala je domovina pravog cimeta, a štapići, ulje i mljeveni cimet najbolji su kod malih proizvođača oko Koggale i na tržnici u Galleu." },
-        { ime: "Mjesečev kamen", opis: "U obližnjoj Meetiyagodi mjesečev kamen vadi se iz uskih okana, a kupnju je najbolje obaviti ondje ili kod draguljara u utvrdi koji izdaje certifikat." }
+        { ime: "Beeralu lace", opis: "Bobbin lace arrived with the Portuguese and the women of Galle still make it, so buy from the lace makers who sit and work inside the fort or from cooperative shops." },
+        { ime: "Cinnamon from the south", opis: "The south coast is the homeland of true cinnamon, and quills, oil and ground cinnamon are best from small producers around Koggala and at the Galle market." },
+        { ime: "Moonstone", opis: "In nearby Meetiyagoda moonstone is dug from narrow shafts, and it is best to buy there or from a jeweler in the fort who gives you a certificate." }
       ]
     }
   }

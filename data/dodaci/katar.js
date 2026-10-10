@@ -1,45 +1,45 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["katar"] = {
   kupiti: [
-    { ime: "Oud i bakhoor", opis: "Mirisno drvo i pločice za kađenje dio su svakog katarskog doma i svake dobrodošlice, a kupuju se u parfumerijama na suku, gdje vam ulja miješaju po želji." },
-    { ime: "Arapska kava i dallah", opis: "Svijetla kava s kardamomom i šafranom toči se iz mjedenog ibrika s dugim kljunom, a kava, začini i ibrik kupuju se u trgovinama začina i posuđa na suku." },
-    { ime: "Tkanje sadu", opis: "Beduinsko tkanje u crvenim, crnim i bijelim prugama nekad je služilo za šatore i devlju opremu, a danas se prodaju jastuci, torbe i trake iz obrtničkih centara." },
-    { ime: "Datulje", opis: "Datulje s katarskih i susjednih farmi nude se uz svaku šalicu kave, a kupuju se na vagu ili punjene orasima u trgovinama slatkiša." },
-    { ime: "Bišt", opis: "Lagani svečani ogrtač sa zlatnim obrubom šije se ručno, a u krojačkim radnjama na suku možete gledati kako majstori prišivaju zlatnu nit." },
-    { ime: "Začini za madžbus", opis: "Mješavina sa sušenom limetom, kardamomom i cimetom daje okus nacionalnom jelu od riže i mesa, a prodaje se na vagu u trgovinama začina." }
+    { ime: "Oud and bakhoor", opis: "Fragrant wood and chips for burning are part of every Qatari home and every welcome, and they are sold in souk perfumeries where oils are blended to your taste." },
+    { ime: "Arabic coffee and a dallah", opis: "Pale coffee with cardamom and saffron is poured from a long-spouted brass pot, and the coffee, spices and pot are sold in the spice and kitchenware shops of the souk." },
+    { ime: "Sadu weaving", opis: "Bedouin weaving in red, black and white stripes once served for tents and camel gear, and today cushions, bags and bands are sold by craft centers." },
+    { ime: "Dates", opis: "Dates from Qatari and neighboring farms come with every cup of coffee, and you buy them by weight or stuffed with nuts in sweet shops." },
+    { ime: "Bisht", opis: "The light ceremonial cloak with gold trim is sewn by hand, and in the tailors' shops of the souk you can watch craftsmen stitching the gold thread." },
+    { ime: "Machboos spices", opis: "A blend with dried lime, cardamom and cinnamon flavors the national dish of rice and meat, and it is sold by weight in spice shops." }
   ],
   mjesta: {
     "doha": {
       dragulji: [
-        { ime: "Park Muzeja islamske umjetnosti", opis: "Na poluotoku iza muzeja prostire se travnjak s pogledom na nebodere preko zaljeva i visokom čeličnom skulpturom Richarda Serre, kamo domaći dolaze na piknik." },
-        { ime: "Suk u Al Wakri", opis: "Pola sata južno od središta obnovljen je stari suk uz samo more, s niskim kućama od blata, plažom i restoranima, mirniji i prozračniji od onoga u gradu." },
-        { ime: "Suk sokolova", opis: "U posebnom dijelu Souq Waqifa prodaju se sokolovi i oprema za sokolarenje, a odmah do njega je i bolnica za ptice, što govori koliko ovaj sport ovdje znači." }
+        { ime: "MIA Park", opis: "On the peninsula behind the Museum of Islamic Art stretches a lawn with a view of the skyscrapers across the bay and a tall steel sculpture by Richard Serra, where locals come to picnic." },
+        { ime: "Al Wakrah Souq", opis: "Half an hour south of downtown an old souk has been rebuilt right by the sea, with low mud houses, a beach and restaurants, calmer and breezier than the one in the city." },
+        { ime: "The Falcon Souq", opis: "In a dedicated section of Souq Waqif falcons and falconry gear are sold, and right next door is a hospital for the birds, which tells you how much this sport means here." }
       ],
       domaci: [
-        { ime: "Karak", opis: "Sladak čaj s mlijekom i kardamomom pije se u svako doba, najčešće iz papirnate čaše kupljene u maloj čajani i popijene u autu ili na šetnici." },
-        { ime: "Večer na Souq Waqifu", opis: "Suk oživi tek kad zahladi, kad obitelji sjednu na terase, zamirišu nargile i roštilj, a žene na pločniku prodaju domaća jela iz lonaca." },
-        { ime: "Corniche u zoru", opis: "Sedam kilometara šetnice uz zaljev rano ujutro pripada trkačima i šetačima, dok drveni brodovi miruju na vodi, a zrak je još svjež." }
+        { ime: "Karak", opis: "Sweet tea with milk and cardamom is drunk at any hour, usually from a paper cup bought at a small tea shop and sipped in the car or on the promenade." },
+        { ime: "Evening at Souq Waqif", opis: "The souk only comes alive once it cools down, when families settle on the terraces, the air fills with water pipes and grilling, and women sell home cooking from pots on the pavement." },
+        { ime: "The Corniche at dawn", opis: "The four-mile waterfront along the bay belongs to runners and walkers early in the morning, while the wooden dhows sit still on the water and the air is fresh." }
       ],
       kupiti: [
-        { ime: "Začini i oud sa Souq Waqifa", opis: "U uličicama suka trgovine začina, orašastih plodova i mirisa stoje jedna do druge, a prodaju na vagu i daju kušati." },
-        { ime: "Bišt od krojača", opis: "U nekoliko krojačkih radnji na suku majstori ručno vezu zlatne obrube, pa čak i ako ogrtač ne kupite, vrijedi zastati i gledati." },
-        { ime: "Zlato sa suka zlata", opis: "U starom suku zlata, nedaleko od Souq Waqifa, nakit se prodaje po težini i dnevnoj cijeni, a uzorci su izrazito zaljevski, bogati i žuti." }
+        { ime: "Spices and oud from Souq Waqif", opis: "In the lanes of the souk the spice, nut and perfume shops stand side by side, selling by weight and offering tastes." },
+        { ime: "A bisht from the tailor", opis: "In a few tailors' shops in the souk craftsmen embroider the gold borders by hand, and even if you do not buy a cloak it is worth stopping to watch." },
+        { ime: "Gold from the Gold Souq", opis: "In the old gold souk, not far from Souq Waqif, jewelry is sold by weight at the day's rate, and the designs are distinctly Gulf, rich and yellow." }
       ]
     },
     "pustinja-i-sjever": {
       dragulji: [
-        { ime: "Purpurni otok kod Al Khora", opis: "Drvenom stazom preko plićaka dolazi se na otočić okružen mangrovama, gdje se u vodi vide rakovi i čaplje, a u hladnijem dijelu godine i plamenci." },
-        { ime: "Zekreet i Serrine ploče", opis: "Na zapadnoj obali, među vapnenačkim stijenama u obliku gljiva, četiri visoke čelične ploče Richarda Serre stoje u praznoj pustinji, u nizu dugom oko kilometar." },
-        { ime: "Napušteno selo Al Jumail", opis: "Na sjevernoj obali stoje ruševine ribarskog sela s minaretom koji još strši nad urušenim kućama, a oko njih je samo more, vjetar i tišina." }
+        { ime: "Purple Island near Al Khor", opis: "A boardwalk over the shallows leads to an islet ringed by mangroves, where you see crabs and herons in the water and, in the cooler months, flamingos." },
+        { ime: "Zekreet and Serra's plates", opis: "On the west coast, among mushroom-shaped limestone rocks, four tall steel plates by Richard Serra stand in the empty desert in a line more than half a mile long." },
+        { ime: "The abandoned village of Al Jumail", opis: "On the north coast stand the ruins of a fishing village with a minaret still rising over the collapsed houses, surrounded by nothing but sea, wind and silence." }
       ],
       domaci: [
-        { ime: "Zimsko kampiranje", opis: "Od kasne jeseni do proljeća katarske obitelji podižu šatore u pustinji i na obali, pale vatru, kuhaju čaj i ostaju danima, osobito oko Sealinea na jugu." },
-        { ime: "Vožnja dinama petkom", opis: "Petkom popodne terenci se penju i spuštaju po dinama na putu prema Unutarnjem moru, a gledatelji sjede na grebenima s čajem." },
-        { ime: "Kajakom kroz mangrove", opis: "Kod Al Thakhire, sjeverno od Al Khora, u vrijeme plime vesla se kroz kanale među mangrovama, što je omiljen vikend-izlet stanovnika Dohe." }
+        { ime: "Winter camping", opis: "From late fall to spring Qatari families pitch tents in the desert and on the coast, light fires, brew tea and stay for days, especially around Sealine in the south." },
+        { ime: "Dune driving on Fridays", opis: "On Friday afternoons 4x4s climb and drop over the dunes on the way to the Inland Sea, while spectators sit on the ridges with tea." },
+        { ime: "Kayaking through the mangroves", opis: "At Al Thakhira, north of Al Khor, people paddle through the mangrove channels at high tide, a favorite weekend outing for Doha residents." }
       ],
       kupiti: [
-        { ime: "Sadu", opis: "U pustinji se malo toga prodaje, pa beduinsko tkanje, koje ovdje pripada, potražite u obrtničkim centrima u Dohi i pitajte tko ga je izradio." },
-        { ime: "Datulje i med s farmi", opis: "Farme na sjeveru zemlje zimi prodaju vlastite datulje, med i povrće na sezonskim seljačkim tržnicama, pa pitajte domaćine koja radi u vrijeme vašeg boravka." }
+        { ime: "Sadu", opis: "Little is sold in the desert itself, so look for the Bedouin weaving that belongs here in the craft centers of Doha and ask who made it." },
+        { ime: "Dates and honey from the farms", opis: "Farms in the north sell their own dates, honey and vegetables at seasonal farmers markets in winter, so ask your hosts which one is running during your stay." }
       ]
     }
   }

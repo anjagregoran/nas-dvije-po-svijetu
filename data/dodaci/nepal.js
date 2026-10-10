@@ -1,79 +1,79 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["nepal"] = {
   kupiti: [
-    { ime: "Pašmina", opis: "Šalovi od fine vune himalajske koze tkaju se u dolini Katmandua, a prava pašmina je mekana, lagana i nikad jeftina, pa je kupujte u trgovinama koje imaju vlastitu tkaonicu i pokažu vam je." },
-    { ime: "Pjevajuće zdjele", opis: "Ručno kovane zdjele od slitine više metala zvone dugo i duboko, za razliku od lijevanih tvorničkih, a najbolje ih je kušati i birati u radionicama Patana i oko Boudhanatha." },
-    { ime: "Thangka", opis: "Budističke slike na platnu rade se mjesecima, mineralnim bojama i po strogim pravilima, a u slikarskim školama oko Boudhanatha i u Bhaktapuru možete gledati učenike pri radu." },
-    { ime: "Papir lokta", opis: "Čvrsti papir od kore himalajskog grma lokta stoljećima služi za svete tekstove i službene isprave, a bilježnice, lampioni i omotni papir kupuju se u specijaliziranim papirnicama." },
-    { ime: "Čaj iz Ilama", opis: "Na istoku Nepala, odmah do Darjeelinga, rastu čajevi vrlo sličnog okusa koji se prodaju u čajanama i trgovinama čaja u Katmanduu, najbolje u rinfuzi." },
-    { ime: "Tkanina dhaka", opis: "Ručno tkani pamuk sa šarenim geometrijskim uzorcima od kojeg se šiju tradicionalne muške kape i šalovi kupuje se u trgovinama tekstila na starim tržnicama." }
+    { ime: "Pashmina", opis: "Shawls of fine Himalayan goat wool are woven in the Kathmandu Valley, and real pashmina is soft, light and never cheap, so buy from shops that have their own weaving room and will show it to you." },
+    { ime: "Singing bowls", opis: "Hand-hammered bowls made from a blend of metals ring long and deep, unlike cast factory ones, and it is best to try and choose them in the workshops of Patan and around Boudhanath." },
+    { ime: "Thangka", opis: "Buddhist paintings on cloth take months to make, with mineral pigments and strict rules, and in the painting schools around Boudhanath and in Bhaktapur you can watch students at work." },
+    { ime: "Lokta paper", opis: "Tough paper made from the bark of the Himalayan lokta shrub has been used for sacred texts and official documents for centuries, and notebooks, lanterns and wrapping paper are sold in specialist paper shops." },
+    { ime: "Ilam tea", opis: "In eastern Nepal, right next to Darjeeling, they grow teas of very similar character, sold in tea houses and tea shops in Kathmandu, best bought loose." },
+    { ime: "Dhaka cloth", opis: "Handwoven cotton with colorful geometric patterns, used for the traditional men's cap and for scarves, is sold in the fabric shops of the old markets." }
   ],
   mjesta: {
     "katmandu": {
       dragulji: [
-        { ime: "Asan Tole ujutro", opis: "Na raskrižju šest ulica u starom gradu od ranog jutra prodaju se povrće, začini, mjedeno posuđe i cvijeće za hramove, i tu se osjeti grad kakav je bio prije turizma." },
-        { ime: "Stupa Kathesimbhu", opis: "U dvorištu između Thamela i Asana skriva se manja sestra Swayambhunatha, oko koje se djeca igraju, starci vrte molitvene mlinove, a golubovi čekaju zrnje." },
-        { ime: "Kirtipur", opis: "Stari newarski gradić na brežuljku jugozapadno od Katmandua ima hramove, kuće od opeke i pogled na dolinu, a gotovo nijednog turista." }
+        { ime: "Asan Tole in the morning", opis: "At this crossroads of six streets in the old city, vegetables, spices, brassware and temple flowers are sold from early morning, and you feel the city as it was before tourism." },
+        { ime: "Kathesimbhu Stupa", opis: "In a courtyard between Thamel and Asan hides a smaller sister of Swayambhunath, where children play, old men spin prayer wheels and pigeons wait for grain." },
+        { ime: "Kirtipur", opis: "An old Newar town on a hill southwest of Kathmandu has temples, brick houses and a view of the valley, with hardly a single tourist." }
       ],
       domaci: [
-        { ime: "Kora oko Boudhanatha", opis: "U zoru i u sumrak Tibetanci i domaći hodaju oko velike stupe u smjeru kazaljke na satu, vrte mlinove i mrmljaju mantre, pa se uključite u tok i napravite nekoliko krugova." },
-        { ime: "Dal bhat dvaput dnevno", opis: "Riža s lećom, povrćem i kiselim prilogom jede se kasno ujutro i navečer, a dobra je vijest da vam u domaćim zalogajnicama dolijevaju i dodaju dok ne kažete dosta." },
-        { ime: "Newarski zalogaji u Patanu", opis: "U skromnim lokalima po dvorištima Patana domaći poslije posla jedu baru, palačinke od leće, i choilu, začinjeno meso s roštilja, uz zdjelicu rižina piva chhyang." }
+        { ime: "The kora around Boudhanath", opis: "At dawn and dusk, Tibetans and locals walk clockwise around the great stupa, spinning wheels and murmuring mantras, so step into the flow and do a few laps." },
+        { ime: "Dal bhat twice a day", opis: "Rice with lentils, vegetables and a tangy pickle is eaten in the late morning and again in the evening, and the good news is that local eateries keep refilling your plate until you say stop." },
+        { ime: "Newar snacks in Patan", opis: "In modest places tucked into Patan's courtyards, locals stop after work for bara, lentil pancakes, and choila, spiced grilled meat, with a bowl of the rice beer called chhyang." }
       ],
       kupiti: [
-        { ime: "Metalni kipovi iz Patana", opis: "Patan je grad ljevača i kovača koji tehnikom izgubljenog voska rade budističke i hinduističke kipove, a radionice i trgovine nižu se u uličicama oko hrama Mahabouddha." },
-        { ime: "Začini i čaj s Asana", opis: "Timur, nepalski papar koji lagano utrne jezik, zatim masale i čaj kupuju se na vagu kod trgovaca na Asanu, kod kojih kupuju i kuharice iz susjedstva." },
-        { ime: "Thangke iz Boudhe", opis: "U uličicama oko stupe nalaze se slikarske radionice i škole, gdje vam objasne razliku između učeničkog i majstorskog rada i pokažu sliku pod povećalom." }
+        { ime: "Metal statues from Patan", opis: "Patan is a city of casters and smiths who make Buddhist and Hindu statues by the lost wax method, with workshops and shops lining the lanes around Mahabouddha temple." },
+        { ime: "Spices and tea from Asan", opis: "Timur, the Nepali pepper that lightly numbs the tongue, along with masalas and tea, is sold by weight by the traders at Asan, where the neighborhood cooks buy too." },
+        { ime: "Thangkas from Boudha", opis: "In the lanes around the stupa there are painting workshops and schools where they explain the difference between student and master work and show you a painting under a magnifying glass." }
       ]
     },
     "bhaktapur": {
       dragulji: [
-        { ime: "Trg Dattatreya", opis: "Najstariji trg u gradu leži na istočnom kraju, daleko od glavnog ulaza, okružen kućama rezbara i s poznatim Paunovim prozorom u pokrajnjoj uličici." },
-        { ime: "Siddha Pokhari", opis: "Veliki pravokutni ribnjak na zapadnom ulazu u grad mjesto je gdje domaći sjede na zidiću, hrane ribe i za vedra vremena gledaju snježne vrhove." },
-        { ime: "Changu Narayan", opis: "Na brežuljku sjeverno od Bhaktapura stoji jedan od najstarijih hramova u dolini, s izvanrednim kamenim skulpturama, a do njega se može i lijepom stazom kroz polja." }
+        { ime: "Dattatreya Square", opis: "The oldest square in town lies at the eastern end, far from the main entrance, surrounded by woodcarvers' houses and with the famous Peacock Window in a side lane." },
+        { ime: "Siddha Pokhari", opis: "A large rectangular pond at the western entrance to town is where locals sit on the wall, feed the fish and, on clear days, look at the snow peaks." },
+        { ime: "Changu Narayan", opis: "On a hill north of Bhaktapur stands one of the oldest temples in the valley, with remarkable stone sculpture, and you can also reach it by a lovely trail through the fields." }
       ],
       domaci: [
-        { ime: "Juju dhau", opis: "„Kralj jogurta“ gust je, sladak i pravi se od bivoljeg mlijeka u glinenim zdjelicama koje upiju višak vode, a jede se u malim mljekarnicama po cijelom gradu." },
-        { ime: "Večer na stubama Nyatapole", opis: "Kad izletnici odu, mještani sjednu na stube petokatne pagode i gledaju trg, pa ostanite prespavati u gradu da doživite taj mirni sat." },
-        { ime: "Jutarnji obilazak svetišta", opis: "Rano ujutro žene s mjedenim pladnjevima obilaze kvartovska svetišta, ostavljaju rižu i cvijeće i pozvone zvoncem, a cijeli grad miriše na tamjan." }
+        { ime: "Juju dhau", opis: "The 'king of curds' is thick, sweet and made from buffalo milk in clay bowls that soak up the extra water, and you eat it in small dairy shops all over town." },
+        { ime: "Evening on the steps of Nyatapola", opis: "When the day trippers leave, townspeople sit on the steps of the five-tiered pagoda and watch the square, so stay overnight in town to catch that peaceful hour." },
+        { ime: "The morning shrine round", opis: "Early in the morning women with brass trays visit the neighborhood shrines, leave rice and flowers and ring a bell, and the whole town smells of incense." }
       ],
       kupiti: [
-        { ime: "Keramika s Lončarskog trga", opis: "Na trgu se glina mijesi, oblikuje na kolu i suši na suncu pred svima, pa zdjelice, kasice i tegle kupujete izravno od lončara koji su ih izradili." },
-        { ime: "Rezbarije u drvu", opis: "Bhaktapur je poznat po rezbarenim prozorima, a majstori oko trga Dattatreya rade i manje komade, okvire i minijaturne prozore, koji stanu u kovčeg." },
-        { ime: "Bhadgaunle topi", opis: "Crna kapa koju nose muškarci ovoga grada i crno-crvena tkanina haku patasi, od koje je ženska nošnja, kupuju se u trgovinama tekstila u glavnoj trgovačkoj ulici." }
+        { ime: "Pottery from Pottery Square", opis: "On the square clay is kneaded, thrown on the wheel and dried in the sun in front of everyone, so you buy bowls, piggy banks and jars straight from the potters who made them." },
+        { ime: "Wood carving", opis: "Bhaktapur is famous for carved windows, and the craftsmen around Dattatreya Square also make smaller pieces, frames and miniature windows, that fit in a suitcase." },
+        { ime: "Bhadgaunle topi", opis: "The black cap worn by the men of this town and the black and red haku patasi cloth of the women's dress are sold in the fabric shops on the main market street." }
       ]
     },
     "pokhara": {
       dragulji: [
-        { ime: "Jezero Begnas", opis: "Pola sata vožnje istočno leži jezero bez hotela u nizu i bez buke, gdje se vozi čamcem, jede riba iz jezera i gleda Annapurna u ogledalu vode." },
-        { ime: "Stari bazar", opis: "Sjeverno od jezera, daleko od turističke obale, proteže se stara Pokhara s newarskim kućama od opeke i hramom Bindhyabasini, pred kojim se jutrom okupljaju vjernici." },
-        { ime: "Pame i sjeverni kraj jezera", opis: "Ako od Lakesidea nastavite pješice ili biciklom uz obalu, cesta vas dovede do rižinih polja, bivola i ribnjaka u selu Pame, gdje jezero prelazi u močvaru." }
+        { ime: "Begnas Lake", opis: "Half an hour's drive east lies a lake with no row of hotels and no noise, where you go out by boat, eat fish from the lake and see Annapurna mirrored in the water." },
+        { ime: "The Old Bazaar", opis: "North of the lake, far from the tourist shore, stretches old Pokhara with Newar brick houses and Bindhyabasini Temple, where worshippers gather in the morning." },
+        { ime: "Pame and the north end of the lake", opis: "If you keep going from Lakeside on foot or by bike along the shore, the road brings you to rice fields, buffalo and fish ponds in the village of Pame, where the lake turns to marsh." }
       ],
       domaci: [
-        { ime: "Čamcem do hrama Tal Barahi", opis: "Domaći u šarenim drvenim čamcima veslaju do otočića s hramom usred jezera, osobito subotom, pa unajmite čamac i krenite ujutro dok je voda glatka." },
-        { ime: "Thakali ručak", opis: "Narod Thakali iz doline Kali Gandaki poznat je po najboljem dal bhatu u zemlji, s heljdom, sušenim mesom i kiselim prilozima, i poslužuje ga u malim obiteljskim kuhinjama." },
-        { ime: "Planine u prvom svjetlu", opis: "Vrhovi su čisti samo rano ujutro, pa mještani tada izlaze na krovove i obalu s čajem u ruci, a do devet se Machhapuchhre obično već sakrije u oblake." }
+        { ime: "By boat to Tal Barahi temple", opis: "Locals row colorful wooden boats to the island temple in the middle of the lake, especially on Saturdays, so rent a boat and set out in the morning while the water is glassy." },
+        { ime: "Thakali lunch", opis: "The Thakali people from the Kali Gandaki valley are known for the best dal bhat in the country, with buckwheat, dried meat and pickles, served in small family kitchens." },
+        { ime: "The mountains at first light", opis: "The peaks are clear only early in the morning, so townspeople step out onto rooftops and the shore with tea in hand, and by nine Machhapuchhre has usually slipped into the clouds." }
       ],
       kupiti: [
-        { ime: "Tibetanski sagovi", opis: "U tibetanskim izbjegličkim naseljima Tashiling i Tashi Palkhel žene čvoraju vunene sagove na okomitim stanovima, a kupnjom u njihovim zadružnim prodavaonicama pomažete zajednici." },
-        { ime: "Tkanine od koprive i konoplje", opis: "U brdima oko Pokhare od divlje himalajske koprive allo i konoplje tkaju se čvrste torbe i šalovi, koji se prodaju u trgovinama pravedne trgovine na Lakesideu." },
-        { ime: "Nepalska kava i med", opis: "Na obroncima oko Pokhare uzgaja se arabica, a u selima se drže pčele, pa se oboje kupuje u malim pržionicama i trgovinama lokalnih proizvoda." }
+        { ime: "Tibetan carpets", opis: "In the Tibetan refugee settlements of Tashiling and Tashi Palkhel women knot wool carpets on upright looms, and buying in their cooperative showrooms supports the community." },
+        { ime: "Nettle and hemp textiles", opis: "In the hills around Pokhara sturdy bags and scarves are woven from wild Himalayan nettle, called allo, and from hemp, and they are sold in the fair trade shops on Lakeside." },
+        { ime: "Nepali coffee and honey", opis: "Arabica is grown on the slopes around Pokhara and bees are kept in the villages, so you can buy both in small roasteries and local produce shops." }
       ]
     },
     "chitwan": {
       dragulji: [
-        { ime: "Bishazari Tal", opis: "„Dvadeset tisuća jezera“ močvarno je područje u zaštitnom pojasu parka, puno ptica i krokodila, do kojeg se dolazi biciklom ili džipom kroz šumu i gdje je posjetitelja malo." },
-        { ime: "Sela naroda Tharu", opis: "Oko Saurahe leže sela s kućama od blata i trske oslikanima bijelim otiscima dlanova, kroz koja se najbolje provozati biciklom i zastati gdje vas pozovu." },
-        { ime: "Zajedničke šume", opis: "Šume kojima upravljaju sama sela, poput one kod Kumroja, imaju nosoroge i jelene kao i park, ali znatno manje vozila, a ulaznica ostaje mještanima." }
+        { ime: "Bishazari Tal", opis: "The 'Twenty Thousand Lakes' is a wetland in the park's buffer zone, full of birds and crocodiles, reached by bike or jeep through the forest and visited by few." },
+        { ime: "Tharu villages", opis: "Around Sauraha lie villages of mud and reed houses decorated with white handprints, best explored by bicycle, stopping wherever you are invited in." },
+        { ime: "Community forests", opis: "Forests run by the villages themselves, like the one near Kumroj, have rhinos and deer just like the park but far fewer vehicles, and the entry fee stays with local people." }
       ],
       domaci: [
-        { ime: "Zalazak sunca na Rapti", opis: "Predvečer svi siđu na obalu rijeke Rapti, sjednu s pićem i gledaju kako sunce pada preko džungle, a ponekad se na drugoj obali pojavi nosorog." },
-        { ime: "Kuhinja naroda Tharu", opis: "Domaćini jedu dhikri, valjčiće od rižina brašna kuhane na pari, uz ljuti umak, a posebna poslastica su riječni pužići ghonghi, pa pitajte u smještaju gdje ih možete kušati." },
-        { ime: "Biciklom kroz polja", opis: "Mještani se između sela kreću biciklom po ravnim zemljanim putovima kroz polja riže i gorušice, a ujutro je zrak pun magle i dima s ognjišta." }
+        { ime: "Sunset on the Rapti", opis: "Toward evening everyone heads down to the bank of the Rapti River, sits with a drink and watches the sun drop over the jungle, and sometimes a rhino appears on the far bank." },
+        { ime: "Tharu cooking", opis: "Hosts eat dhikri, steamed rolls of rice flour, with a spicy sauce, and a special treat is ghonghi, river snails, so ask at your lodging where you can try them." },
+        { ime: "By bike through the fields", opis: "Villagers get around between settlements by bicycle on flat dirt tracks through fields of rice and mustard, and in the morning the air is full of mist and hearth smoke." }
       ],
       kupiti: [
-        { ime: "Pletene košare dhakiya", opis: "Žene naroda Tharu pletu šarene košare od trave ukrašene školjkicama i resama, a prodaju ih u seoskim zadrugama i u malom kulturnom centru u Saurahi." },
-        { ime: "Med iz Chitwana", opis: "Polja gorušice čine ovaj kraj središtem nepalskog pčelarstva, pa se med kupuje izravno od pčelara ili u trgovinama uz glavnu ulicu Saurahe." }
+        { ime: "Dhakiya baskets", opis: "Tharu women weave colorful grass baskets decorated with shells and tassels, and they sell them in village cooperatives and at the small cultural center in Sauraha." },
+        { ime: "Chitwan honey", opis: "The mustard fields make this area the heart of Nepali beekeeping, so honey is bought directly from beekeepers or in shops along Sauraha's main street." }
       ]
     }
   }

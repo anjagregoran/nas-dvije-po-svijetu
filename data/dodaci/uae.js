@@ -1,79 +1,79 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["uae"] = {
   kupiti: [
-    { ime: "Datulje", opis: "Datulje su srce emiratske gostoljubivosti, a na tržnicama i u specijaliziranim trgovinama možete kušati sorte od meke, karamelaste khalas do čvršćih, pa ih kupiti na vagu ili punjene bademima." },
-    { ime: "Arapska kava i dallah", opis: "Svijetlo pržena kava s kardamomom i šafranom toči se iz mjedenog ibrika s dugim kljunom u male šalice bez drške, a kava, začini i ibrik kupuju se u starim sukovima." },
-    { ime: "Oud i bakhoor", opis: "Teški drvenasti miris ouda i mirisne pločice bakhoor, koje se pale na ugljenu da okade odjeću i dom, kupuju se u parfumerijama po sukovima, gdje vam miješaju ulja po želji." },
-    { ime: "Šafran i začini", opis: "Zbog blizine Irana šafran je ovdje povoljan i svjež, a uz njega se kupuju sušene limete loomi, ružini pupoljci i mješavine začina za rižu." },
-    { ime: "Tkanje sadu", opis: "Beduinske žene tkaju crveno-crno-bijele pruge s geometrijskim uzorcima od vune i kozje dlake, a pravi rad prodaju centri za tradicionalne obrte." },
-    { ime: "Čokolada od devina mlijeka", opis: "U Emiratima se proizvodi čokolada od devina mlijeka, blago slankasta, koja se prodaje u većim trgovinama i dobar je dar za one koji imaju sve." }
+    { ime: "Dates", opis: "Dates are the heart of Emirati hospitality, and in markets and specialist shops you can taste varieties from the soft, caramel-like khalas to firmer ones, then buy by weight or stuffed with almonds." },
+    { ime: "Arabic coffee and a dallah", opis: "Lightly roasted coffee with cardamom and saffron is poured from a long-spouted brass pot into small cups without handles, and the coffee, spices and pot are all sold in the old souks." },
+    { ime: "Oud and bakhoor", opis: "The heavy, woody scent of oud and the fragrant bakhoor chips burned on charcoal to perfume clothes and homes are sold in souk perfumeries, where they blend oils to your taste." },
+    { ime: "Saffron and spices", opis: "Because Iran is so close, saffron here is fresh and well priced, and alongside it people buy dried limes called loomi, rosebuds and spice mixes for rice." },
+    { ime: "Sadu weaving", opis: "Bedouin women weave red, black and white stripes with geometric patterns from wool and goat hair, and genuine pieces are sold by traditional craft centers." },
+    { ime: "Camel milk chocolate", opis: "Chocolate made with camel milk, slightly salty, is produced in the Emirates and sold in larger stores, a good gift for someone who has everything." }
   ],
   mjesta: {
     "dubai": {
       dragulji: [
-        { ime: "Ras Al Khor", opis: "Na kraju Dubai Creeka, s neboderima u pozadini, u plitkoj laguni zimi stoje tisuće plamenaca, a iz promatračnica ih se gleda besplatno." },
-        { ime: "Alserkal Avenue", opis: "U industrijskoj četvrti Al Quoz skladišta su pretvorena u galerije, mala kina, pržionice kave i dizajnerske studije, gdje se okuplja kreativni Dubai." },
-        { ime: "Pristanište drvenih brodova u Deiri", opis: "Uz obalu Creeka još se pretovaruju drveni teretni brodovi dhow koji plove do Irana i istočne Afrike, s hladnjacima i gumama naslaganima po rivi." }
+        { ime: "Ras Al Khor", opis: "At the end of Dubai Creek, with skyscrapers in the background, thousands of flamingos stand in the shallow lagoon in winter, and you can watch them from the hides for free." },
+        { ime: "Alserkal Avenue", opis: "In the industrial Al Quoz district, warehouses have been turned into galleries, a small cinema, coffee roasters and design studios, where creative Dubai gathers." },
+        { ime: "The dhow wharf in Deira", opis: "Along the Creek, wooden cargo dhows that sail to Iran and East Africa are still loaded by hand, with refrigerators and tires stacked on the quay." }
       ],
       domaci: [
-        { ime: "Karak iz auta", opis: "Jak, sladak čaj s mlijekom i kardamomom kupuje se u malim kafeterijama, pred kojima automobili stanu i potrube, a konobar donese čašu do prozora." },
-        { ime: "Abrom preko Creeka", opis: "Drveni brodić abra vozi stanovnike između Deire i Bur Dubaija za sitniš, a vožnja od nekoliko minuta najbolji je pogled na stari grad." },
-        { ime: "Večer na Kite Beachu", opis: "Kad sunce krene dolje, na plaži se trči, igra odbojka i jede iz kamiona s hranom, a obitelji ostaju na pijesku do kasno u noć." }
+        { ime: "Karak from the car", opis: "Strong, sweet tea with milk and cardamom is bought from small cafeterias where cars pull up and honk, and a waiter brings the cup to the window." },
+        { ime: "An abra across the Creek", opis: "The little wooden abra ferries residents between Deira and Bur Dubai for pocket change, and the few minutes on the water are the best view of the old city." },
+        { ime: "Evening at Kite Beach", opis: "When the sun starts to drop, people run, play volleyball and eat from food trucks on the beach, and families stay on the sand late into the night." }
       ],
       kupiti: [
-        { ime: "Šafran sa suka začina", opis: "U Deiri trgovci drže šafran u limenim kutijama i prodaju ga na gram, pa tražite cijele, tamnocrvene niti i usporedite nekoliko trgovina prije kupnje." },
-        { ime: "Parfemi iz ulice Sikkat Al Khail", opis: "U uličici između suka začina i suka zlata nižu se parfumerije s oudom, mošusom i ružinim uljem, gdje vam miris miješaju u bočicu po vašem ukusu." },
-        { ime: "Tkanine u Bur Dubaiju", opis: "Na suku tekstila s druge strane Creeka kupuju se svila, pamuk i pašmine na metar, a krojači u okolnim ulicama sašiju odjeću za dan ili dva." }
+        { ime: "Saffron from the Spice Souk", opis: "In Deira traders keep saffron in tin boxes and sell it by the gram, so look for whole, dark red threads and compare a few shops before buying." },
+        { ime: "Perfume on Sikkat Al Khail", opis: "In the lane between the Spice Souk and the Gold Souk there is a row of perfumeries with oud, musk and rose oil, where they mix a scent into a bottle to suit you." },
+        { ime: "Fabric in Bur Dubai", opis: "At the Textile Souk on the other side of the Creek silk, cotton and pashminas are sold by the yard, and tailors in the streets around it will sew an outfit in a day or two." }
       ]
     },
     "abu-dhabi": {
       dragulji: [
-        { ime: "Jubail Mangrove Park", opis: "Drvene staze vode iznad plime kroz šumu mangrova između dvaju otoka, a u vodi se vide rakovi, čaplje i ribe." },
-        { ime: "Tržnice u luci Mina Zayed", opis: "U lučkoj četvrti jedna do druge stoje tržnica datulja, tržnica voća i povrća i tržnica sagova, na kojima se opskrbljuju kućanstva i restorani cijelog grada." },
-        { ime: "Park Umm Al Emarat", opis: "Veliki gradski park s botaničkim vrtom, staklenikom i malom farmom mjesto je gdje se predvečer šeću emiratske obitelji." }
+        { ime: "Jubail Mangrove Park", opis: "Boardwalks lead above the tide through a mangrove forest between two islands, with crabs, herons and fish visible in the water." },
+        { ime: "The markets at Mina Zayed", opis: "In the port district the date market, the fruit and vegetable market and the carpet market stand side by side, supplying households and restaurants across the city." },
+        { ime: "Umm Al Emarat Park", opis: "A big city park with a botanical garden, a greenhouse and a small farm is where Emirati families stroll toward evening." }
       ],
       domaci: [
-        { ime: "Corniche u sumrak", opis: "Kilometrima duga šetnica uz more predvečer se napuni trkačima, biciklistima i obiteljima s dekama na travi, a zrak je tada napokon ugodan." },
-        { ime: "Riba po izboru", opis: "Na ribljoj tržnici u luci odaberete ribu ili kozice, date ih očistiti, pa odnesete na susjedne štandove, gdje vam ih začine i ispeku dok čekate." },
-        { ime: "Kava i datulje", opis: "Gosta se dočekuje malom šalicom kave i datuljom, šalica se prima desnom rukom, a kad vam je dosta, lagano je protresete prije nego što je vratite." }
+        { ime: "The Corniche at dusk", opis: "The miles-long waterfront promenade fills toward evening with runners, cyclists and families with blankets on the grass, when the air is finally pleasant." },
+        { ime: "Fish of your choice", opis: "At the fish market in the port you pick out fish or shrimp, have them cleaned, and carry them to the neighboring stalls, where they season and grill them while you wait." },
+        { ime: "Coffee and dates", opis: "A guest is welcomed with a small cup of coffee and a date, you take the cup with your right hand, and when you have had enough you give it a little shake before handing it back." }
       ],
       kupiti: [
-        { ime: "Datulje s tržnice u luci", opis: "Na tržnici datulja trgovci nude kušanje desetaka sorti iz oaza Al Aina i Liwe, a kupuju se na kilogram ili u ukrasnim kutijama." },
-        { ime: "Sagovi", opis: "Na tržnici sagova u luci trgovci prodaju afganistanske i iranske sagove i jastuke za madžlis, a cjenkanje uz čaj dio je običaja." },
-        { ime: "Bakhoor", opis: "U malim parfumerijama po starijim gradskim četvrtima kupuju se mirisne pločice za kađenje i kadionice, kakve ima svaki emiratski dom." }
+        { ime: "Dates from the port market", opis: "At the date market traders offer tastings of dozens of varieties from the oases of Al Ain and Liwa, sold by the kilo or in decorative boxes." },
+        { ime: "Carpets", opis: "At the carpet market in the port traders sell Afghan and Iranian rugs and majlis cushions, and bargaining over tea is part of the custom." },
+        { ime: "Bakhoor", opis: "In small perfumeries in the older parts of town you can buy fragrant chips for burning and the burners themselves, the kind found in every Emirati home." }
       ]
     },
     "sharjah": {
       dragulji: [
-        { ime: "Souq Al Arsah", opis: "U obnovljenoj staroj jezgri nalazi se jedan od najstarijih sukova u zemlji, s drvenim vratima, krovom od palmina lišća i starom kavanom u kojoj se pije čaj s mentom." },
-        { ime: "Otok Al Noor", opis: "Mali otok u laguni Khalid, do kojeg vodi pješački most, uređen je kao vrt sa skulpturama, kućom leptira i stazama koje su navečer osvijetljene." },
-        { ime: "Mleiha", opis: "Sat vožnje u unutrašnjost, među crvenim dinama i stijenama punim fosila, nalazi se arheološki centar odakle se ide na šetnje pustinjom i promatranje zvijezda." }
+        { ime: "Souq Al Arsah", opis: "In the restored old center is one of the oldest souks in the country, with wooden doors, a palm frond roof and an old coffeehouse serving mint tea." },
+        { ime: "Al Noor Island", opis: "A small island in Khalid Lagoon, reached by a footbridge, is laid out as a garden with sculptures, a butterfly house and paths that are lit up at night." },
+        { ime: "Mleiha", opis: "An hour's drive inland, among red dunes and rocks full of fossils, there is an archaeological center that runs desert walks and stargazing." }
       ],
       domaci: [
-        { ime: "Večer na Al Majazu", opis: "Uz lagunu Khalid navečer se okupljaju obitelji, djeca se voze na romobilima, a fontana pleše uz glazbu, pa je to najživlja šetnica u emiratu." },
-        { ime: "Luqaimat", opis: "Vruće pržene kuglice tijesta prelivene sirupom od datulja i posute sezamom jedu se predvečer uz čaj, a pripremaju ih žene na štandovima u staroj jezgri." },
-        { ime: "Emirat bez alkohola", opis: "U Sharjahu se alkohol ne poslužuje nigdje, a odijevanje je suzdržanije nego u Dubaiju, pa pokrijte ramena i koljena i uživajte u mirnijem ritmu." }
+        { ime: "Evening at Al Majaz", opis: "Along Khalid Lagoon families gather in the evening, children ride scooters and the fountain dances to music, making it the liveliest promenade in the emirate." },
+        { ime: "Luqaimat", opis: "Hot fried dough balls drizzled with date syrup and sprinkled with sesame are eaten toward evening with tea, made by women at stalls in the old center." },
+        { ime: "A dry emirate", opis: "No alcohol is served anywhere in Sharjah and dress is more conservative than in Dubai, so cover your shoulders and knees and enjoy the calmer pace." }
       ],
       kupiti: [
-        { ime: "Sagovi i srebro s Plavog suka", opis: "Na katu Središnjeg suka trgovine drže sagove, starinsko beduinsko i omansko srebro i mjedene predmete, i tu se cijene dogovaraju polako." },
-        { ime: "Rukotvorine sa Souq Al Arsaha", opis: "U malim trgovinama staroga suka prodaju se pletene košare od palmina lišća, kadionice, stare kutije i tkanje, puno mirnije nego u velikim centrima." },
-        { ime: "Datulje i med sa Souq Al Jubaila", opis: "Na modernoj gradskoj tržnici uz more trgovci nude datulje, med iz Jemena i Omana te suho voće, i tu kupuju domaće obitelji." }
+        { ime: "Carpets and silver from the Blue Souk", opis: "On the upper floor of the Central Souk shops carry carpets, antique Bedouin and Omani silver and brassware, and prices are settled slowly." },
+        { ime: "Crafts from Souq Al Arsah", opis: "The small shops of the old souk sell woven palm leaf baskets, incense burners, old chests and weaving, in far more peace than the big malls." },
+        { ime: "Dates and honey from Souq Al Jubail", opis: "At the modern city market by the sea traders offer dates, honey from Yemen and Oman and dried fruit, and local families shop here." }
       ]
     },
     "al-ain-i-pustinja": {
       dragulji: [
-        { ime: "Oaza Al Qattara", opis: "Manje posjećena od glavne oaze, ima sjenovite staze među palmama, stare kanale za navodnjavanje i umjetnički centar u obnovljenoj utvrdi." },
-        { ime: "Tržnica deva", opis: "Na rubu Al Aina trgovci iz cijele regije prodaju deve, koze i ovce, pa dođite ujutro, kad se sklapaju poslovi, i pitajte prije fotografiranja." },
-        { ime: "Arheološki park Hili", opis: "U uređenom parku stoje okrugle kamene grobnice stare više tisuća godina, s reljefima oriksa na ulazu, a domaći tu dolaze na piknik." }
+        { ime: "Al Qattara Oasis", opis: "Less visited than the main oasis, it has shady paths among the palms, old irrigation channels and an arts center in a restored fort." },
+        { ime: "The camel market", opis: "On the edge of Al Ain traders from across the region sell camels, goats and sheep, so come in the morning when the deals are made and ask before taking photos." },
+        { ime: "Hili Archaeological Park", opis: "In a landscaped park stand round stone tombs thousands of years old, with reliefs of oryx at the entrance, and locals come here to picnic." }
       ],
       domaci: [
-        { ime: "Zalazak sunca na Jebel Hafeetu", opis: "Vijugavom cestom penje se do vrha planine, gdje se predvečer okupljaju obitelji s termosicama čaja i gledaju kako se pale svjetla u ravnici." },
-        { ime: "Topli izvori Green Mubazzarah", opis: "Podno planine je zeleni park s potocima tople vode u kojima se namaču noge, pa se vikendom tu roštilja i sjedi na travi do kasno." },
-        { ime: "Zimsko kampiranje u dinama", opis: "Od studenoga do ožujka Emiraćani vikendom odlaze u pustinju, pale vatru, kuhaju čaj i kavu i spavaju pod zvijezdama, što se može doživjeti i s lokalnim vodičem." }
+        { ime: "Sunset on Jebel Hafeet", opis: "A winding road climbs to the top of the mountain, where families gather toward evening with thermoses of tea and watch the lights come on across the plain." },
+        { ime: "The hot springs at Green Mubazzarah", opis: "At the foot of the mountain there is a green park with streams of warm water for soaking your feet, where people barbecue and sit on the grass late on weekends." },
+        { ime: "Winter camping in the dunes", opis: "From November to March Emiratis head to the desert on weekends, light a fire, brew tea and coffee and sleep under the stars, which you can also experience with a local guide." }
       ],
       kupiti: [
-        { ime: "Datulje iz oaze", opis: "Al Ain ima stotine tisuća palmi, a svježe i sušene datulje kupuju se na gradskoj tržnici i u trgovinama uz oazu, najbolje u vrijeme berbe krajem ljeta." },
-        { ime: "Pletivo od palmina lišća", opis: "Košare, prostirke i poklopci za hranu pleteni od obojenog palmina lišća kupuju se na malom suku tradicionalnih obrta kod oaze Al Qattara, od žena koje ih rade." }
+        { ime: "Dates from the oasis", opis: "Al Ain has hundreds of thousands of palms, and fresh and dried dates are sold at the city market and in shops by the oasis, best at harvest time in late summer." },
+        { ime: "Palm leaf weaving", opis: "Baskets, mats and food covers woven from dyed palm leaves are sold at the small traditional craft souk by Al Qattara Oasis, by the women who make them." }
       ]
     }
   }

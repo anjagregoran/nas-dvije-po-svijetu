@@ -1,209 +1,209 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["njemacka"] = {
   kupiti: [
-    { ime: "Lebkuchen", opis: "Mekani medenjaci s orašastim plodovima i začinima, najpoznatiji iz Nürnberga, gdje se oni najfiniji zovu Elisenlebkuchen i gotovo da nemaju brašna. Kupujte ih u malim pekarnicama koje ih same peku, jer su limenke iz suvenirnica uglavnom industrijske." },
-    { ime: "Drvene figure iz Rudnog gorja", opis: "Orašari, čovječuljci koji puše tamjan i svjetleći lukovi za prozor ručno se tokare u selima Rudnog gorja u Saskoj. Prave prepoznajete po oznaci „Echt Erzgebirge“, a najlakše ih je naći u specijaliziranim trgovinama rukotvorina i na božićnim sajmovima." },
-    { ime: "Riesling s Rajne i Mosela", opis: "Njemačka je domovina rizlinga, a najbolje boce dolaze sa strmih škriljevačkih padina uz Mosel i Rajnu. Najljepše ga je kupiti izravno kod vinara, gdje ćete ga prije toga i kušati." },
-    { ime: "Marcipan iz Lübecka", opis: "Lübečki marcipan ima zaštićeno ime i više badema, a manje šećera od onoga na što ste navikle. Kupuje se u slastičarnicama u samom Lübecku, ali ga nude i bolje trgovine delikatesama po cijeloj zemlji." },
-    { ime: "Noževi iz Solingena", opis: "Grad Solingen stoljećima kuje oštrice i njegovo je ime zakonom zaštićeno, pa dobar kuhinjski nož odande traje cijeli život. Tražite ih u trgovinama kuhinjske opreme, gdje će vam ih dati u ruku da osjetite težinu." },
-    { ime: "Sivo-plava keramika iz Westerwalda", opis: "Vrčevi i posude od kamenine sa slanom glazurom i kobaltno plavim uzorkom tipični su za kraj Westerwald, koji zovu i zemljom lončara. Naći ćete ih na tjednim tržnicama i lončarskim sajmovima, a iz takvog se vrča tradicionalno pije jabučno vino." }
+    { ime: "Lebkuchen", opis: "These soft spiced cookies made with honey and nuts are most famous in Nuremberg, where the finest kind is called Elisenlebkuchen and contains almost no flour. Buy them at small bakeries that bake their own, since the tins in souvenir shops are mostly factory made." },
+    { ime: "Wooden figures from the Ore Mountains", opis: "Nutcrackers, little incense smokers and candle arches for the window are turned by hand in the villages of the Erzgebirge in Saxony. Look for the “Echt Erzgebirge” label in craft shops and at Christmas markets." },
+    { ime: "Riesling from the Rhine and Mosel", opis: "Germany is the home of Riesling, and the best bottles come from the steep slate slopes above the Mosel and the Rhine. The nicest way to buy it is straight from a winemaker, where you can taste before you choose." },
+    { ime: "Lübeck marzipan", opis: "Marzipan from Lübeck has a protected name and contains more almonds and less sugar than what you may be used to. You can buy it at pastry shops in Lübeck itself and at good delicatessens all over the country." },
+    { ime: "Knives from Solingen", opis: "The city of Solingen has been forging blades for centuries and its name is protected by law, so a good kitchen knife from there lasts a lifetime. Look in kitchenware shops, where they will let you hold one to feel the weight." },
+    { ime: "Gray and blue Westerwald stoneware", opis: "Jugs and pots with a salt glaze and cobalt blue patterns come from the Westerwald region, known as the land of potters. You will find them at weekly markets and pottery fairs, and a jug like this is the traditional way to serve apple wine." }
   ],
   mjesta: {
     "berlin": {
       dragulji: [
-        { ime: "Tempelhofer Feld", opis: "Bivša zračna luka danas je golemi gradski park u kojem se po uzletnim pistama vozi bicikl, rola i pušta zmajeve. Dođite pred zalazak sunca, kad se čini da je nebo nad Berlinom dvostruko veće." },
-        { ime: "Körnerpark u Neuköllnu", opis: "Usred stambene četvrti skriva se mali neobarokni vrt s fontanom i stubištima, spušten nekoliko metara ispod razine ulice jer je nastao u staroj šljunčari. Savršen je za predah s kavom nakon šetnje Neuköllnom." },
-        { ime: "Landwehrkanal kod mosta Admiralbrücke", opis: "Uz kanal u Kreuzbergu vode sjenovite staze pod vrbama, a na mostu Admiralbrücke ljeti se navečer sjedi na pločniku i sluša ulične svirače. Ovdje ćete osjetiti opušteni Berlin kakav poznaju njegovi stanovnici." }
+        { ime: "Tempelhofer Feld", opis: "This former airport is now a huge city park where people bike, skate and fly kites along the old runways. Come before sunset, when the sky over Berlin seems twice as big." },
+        { ime: "Körnerpark in Neukölln", opis: "Tucked into a residential neighborhood is a small neo-Baroque garden with a fountain and stairways, sunk several yards below street level because it was built in an old gravel pit. It is a lovely place to rest with a coffee after a walk through Neukölln." },
+        { ime: "Landwehrkanal at Admiralbrücke", opis: "Shady paths run under the willows along this canal in Kreuzberg, and on summer evenings people sit right on the pavement of the Admiralbrücke bridge and listen to street musicians. This is the relaxed Berlin that the people who live here know." }
       ],
       domaci: [
-        { ime: "Piće iz Spätija", opis: "Späti je kvartovska trgovina otvorena do kasno, a Berlinčani ondje kupe pivo ili limunadu pa sjednu na klupu ispred ili ga ponesu u šetnju. Učinite isto u toploj večeri u Kreuzbergu ili Prenzlauer Bergu i odmah ćete se uklopiti." },
-        { ime: "Nedjelja u Mauerparku", opis: "Nedjeljom se pola grada skupi u Mauerparku, gdje se prekapa po buvljaku, jede s kioska i navija na karaokama u kamenom amfiteatru. Dođite oko podneva i pustite da vas nosi gužva." },
-        { ime: "Turska tržnica na Maybachuferu", opis: "Utorkom i petkom obala kanala Maybachufer pretvara se u dugu tržnicu s voćem, maslinama, gözlemeom i tkaninama na metre. Domaći ovdje obave tjednu kupnju, a vi složite piknik i pojedite ga uz vodu." }
+        { ime: "A drink from the Späti", opis: "A Späti is a neighborhood corner shop that stays open late, and Berliners buy a beer or a soda there and then sit on the bench out front or take it along for a walk. Do the same on a warm evening in Kreuzberg or Prenzlauer Berg and you will fit right in." },
+        { ime: "Sunday at Mauerpark", opis: "On Sundays half the city gathers at Mauerpark to dig through the flea market, eat from the food stalls and cheer on the karaoke singers in the stone amphitheater. Come around noon and let the crowd carry you." },
+        { ime: "The Turkish market on Maybachufer", opis: "On Tuesdays and Fridays the canal bank at Maybachufer turns into a long market with fruit, olives, gözleme and fabric sold by the yard. Locals do their weekly shopping here, and you can put together a picnic and eat it by the water." }
       ],
       kupiti: [
-        { ime: "Nalazi s nedjeljnih buvljaka", opis: "Berlin je grad buvljaka, pa se nedjeljom na trgovima Boxhagener Platz i Arkonaplatz mogu naći stari porculan, ploče, posteri i namještaj iz doba DDR-a. Cjenkanje je dio igre, samo ostanite ljubazne." },
-        { ime: "Porculan KPM", opis: "Kraljevska manufaktura porculana radi u Berlinu još od 18. stoljeća, a svaki komad nosi plavo žezlo na dnu. U tvorničkoj prodavaonici u četvrti Tiergarten nude i komade druge klase, koji su pristupačniji, a jednako lijepi." },
-        { ime: "Berliner Luft", opis: "Bistri liker od paprene metvice koji Berlinčani piju kao čašicu za dobro raspoloženje nazvan je po poznatoj pjesmi o berlinskom zraku. Bocu ćete naći u svakom supermarketu i Spätiju." }
+        { ime: "Sunday flea market finds", opis: "Berlin is a city of flea markets, and on Sundays the squares at Boxhagener Platz and Arkonaplatz fill with old china, records, posters and furniture from the East German era. Bargaining is part of the fun as long as you stay friendly." },
+        { ime: "KPM porcelain", opis: "The royal porcelain manufactory has worked in Berlin since the 18th century, and every piece carries a blue scepter on the base. The factory shop in the Tiergarten district also sells second-quality pieces that cost less and look just as beautiful." },
+        { ime: "Berliner Luft", opis: "This clear peppermint liqueur, named after a well-known song about the Berlin air, is what Berliners drink as a cheerful shot. You will find a bottle in every supermarket and Späti." }
       ]
     },
     "munchen": {
       dragulji: [
-        { ime: "Alter Südfriedhof", opis: "Staro južno groblje odavno ne služi ukopima, pa je postalo tih, zarastao park s nadgrobnim spomenicima pod bršljanom. Nalazi se na rubu živahne četvrti Glockenbachviertel i divno je mjesto za mirnu jutarnju šetnju." },
-        { ime: "Westpark", opis: "U ovom parku zapadno od centra stoje tajlandski hram na jezercu, kineski i japanski vrt te ružičnjak, a turista gotovo nema. Ljeti se ovdje roštilja i sjedi u pivskom vrtu uz jezero." },
-        { ime: "Francuska četvrt u Haidhausenu", opis: "Ulice oko trgova Weißenburger Platz i Wiener Platz imaju niske kuće, male tržne štandove i drveće, pa se čini da ste u gradiću, a ne u velegradu. Prošećite ovuda prije večere, kad se susjedi nalaze na trgu." }
+        { ime: "Alter Südfriedhof", opis: "The old southern cemetery has not been used for burials in a long time, so it has become a quiet, overgrown park with gravestones under the ivy. It sits on the edge of the lively Glockenbachviertel and is wonderful for a peaceful morning walk." },
+        { ime: "Westpark", opis: "This park west of the center has a Thai temple on a pond, Chinese and Japanese gardens and a rose garden, with hardly a tourist in sight. In summer people grill here and sit in the beer garden by the lake." },
+        { ime: "The French Quarter in Haidhausen", opis: "The streets around Weißenburger Platz and Wiener Platz have low houses, small market stalls and trees, so it feels more like a small town than a big city. Stroll through before dinner, when the neighbors meet up on the square." }
       ],
       domaci: [
-        { ime: "Doručak s bijelim kobasicama", opis: "Weißwurst se u Münchenu jede prijepodne, po staroj predaji prije nego što zvona odzvone podne, uz slatki senf, perec i pšenično pivo. Kobasici se skine kožica, a domaći će vam rado pokazati kako." },
-        { ime: "Vlastita užina u pivskom vrtu", opis: "U pravom bavarskom pivskom vrtu smijete donijeti svoju hranu ako piće kupite na šanku, i to za stolovima bez stolnjaka. Minhenske obitelji dolaze s košarom, kockastim stolnjakom, rotkvicama i sirnim namazom Obatzda." },
-        { ime: "Ljeto na Isaru kod Flauchera", opis: "Na šljunčanim sprudovima rijeke Isar kod Flauchera ljeti se kupa, sunča i roštilja do mraka. Ponesite ručnik i nešto za jelo, a pivo ohladite u rijeci kao što to rade svi oko vas." }
+        { ime: "White sausage breakfast", opis: "In Munich Weißwurst is eaten in the morning, by old custom before the church bells ring noon, with sweet mustard, a pretzel and a wheat beer. You peel the skin off the sausage, and locals will gladly show you how." },
+        { ime: "Bringing your own food to the beer garden", opis: "In a real Bavarian beer garden you may bring your own food as long as you buy your drinks at the counter and sit at the tables without tablecloths. Munich families arrive with a basket, a checkered cloth, radishes and the cheese spread called Obatzda." },
+        { ime: "Summer on the Isar at Flaucher", opis: "On the gravel banks of the Isar river at Flaucher people swim, sunbathe and grill until dark. Bring a towel and something to eat, and chill your beer in the river the way everyone around you does." }
       ],
       kupiti: [
-        { ime: "Slatki bavarski senf", opis: "Smeđi, zrnati i slatkasti senf nezaobilazan je uz bijele kobasice i malo ga gdje ima izvan Bavarske. Kupite ga na štandovima tržnice Viktualienmarkt, gdje ćete usput naći i dobre perece i sireve." },
-        { ime: "Nošnja iz druge ruke", opis: "Dirndl i kožne hlače u Münchenu se nose i izvan Oktoberfesta, a kvalitetna nošnja skupa je kad je nova. Zato domaći rado kupuju u trgovinama rabljene nošnje, kakvih ima po središnjim četvrtima, gdje se nađu komadi od pravog lana i kože." },
-        { ime: "Porculan iz Nymphenburga", opis: "Manufaktura porculana smještena je od 18. stoljeća uz dvorac Nymphenburg i sve se i dalje oblikuje i oslikava ručno. Sitnica odande ozbiljan je, ali trajan dar." }
+        { ime: "Sweet Bavarian mustard", opis: "This brown, grainy, sweetish mustard is a must with white sausages and is hard to find outside Bavaria. Buy it at the stalls of the Viktualienmarkt, where you will also find good pretzels and cheese." },
+        { ime: "Secondhand traditional dress", opis: "Dirndls and lederhosen are worn in Munich well beyond Oktoberfest, and good ones are expensive when new. That is why locals like to shop at secondhand Tracht stores in the central neighborhoods, where you can find pieces in real linen and leather." },
+        { ime: "Nymphenburg porcelain", opis: "The porcelain manufactory has stood beside Nymphenburg Palace since the 18th century, and everything is still shaped and painted by hand. Even a small piece is a serious gift that will last." }
       ]
     },
     "hamburg": {
       dragulji: [
-        { ime: "Treppenviertel u Blankeneseu", opis: "Nekadašnje ribarsko selo na strmoj obali Labe ispresijecano je tisućama stuba između bijelih kuća i vrtova. Spustite se do pješčane plaže uz rijeku, pa se natrag gore vratite malim autobusom koji domaći zovu planinskom kozom." },
-        { ime: "Stari tunel ispod Labe", opis: "U tunel iz 1911. spuštate se starim dizalima ili stubama, pa pod rijekom prehodate do druge obale kroz hodnik obložen keramičkim pločicama. S vidikovca na drugoj strani pruža se najljepši pogled na luku i obris grada." },
-        { ime: "Övelgönne", opis: "Duž Labe ovdje se nižu stare kapetanske kućice, mala muzejska luka s povijesnim brodovima i široka pješčana plaža. S nogama u pijesku gledat ćete kako goleme kontejnerske lađe prolaze na dohvat ruke." }
+        { ime: "The Treppenviertel in Blankenese", opis: "This former fishing village on the steep bank of the Elbe is laced with thousands of steps between white houses and gardens. Walk down to the sandy river beach, then ride back up on the little bus that locals call the mountain goat." },
+        { ime: "The Old Elbe Tunnel", opis: "You go down into this 1911 tunnel by vintage elevator or stairs and walk under the river through a tiled passage to the other bank. The viewing point on the far side gives you the best view of the harbor and the skyline." },
+        { ime: "Övelgönne", opis: "Old captains' cottages, a small museum harbor with historic ships and a wide sandy beach line the Elbe here. With your feet in the sand you can watch enormous container ships glide past almost within reach." }
       ],
       domaci: [
-        { ime: "Fischmarkt nedjeljom u zoru", opis: "Riblja tržnica u četvrti Altona održava se nedjeljom rano ujutro, a prodavači se nadvikuju i dijele čitave košare voća i ribe. Dio ljudi dolazi ravno iz noćnog izlaska, pa se u staroj dražbenoj hali uz kavu i pecivo s ribom pleše uz živu glazbu." },
-        { ime: "Trajekt broj 62", opis: "Lučki trajekti dio su javnog prijevoza, pa Hamburžani linijom 62 od pristaništa Landungsbrücken do Finkenwerdera plove s običnom kartom. Popnite se na gornju palubu i dobit ćete obilazak luke kakav ima svaki domaći." },
-        { ime: "Franzbrötchen uz kavu", opis: "Spljošteno lisnato pecivo s cimetom i šećerom hamburški je odgovor na kroasan i jede se za doručak ili uz poslijepodnevnu kavu. Naći ćete ga u svakoj pekarnici, a najbolje je još toplo." }
+        { ime: "The Fischmarkt at dawn on Sunday", opis: "The fish market in Altona takes place early on Sunday mornings, with sellers shouting over each other and handing out whole baskets of fruit and fish. Some people come straight from a night out, so there is live music and dancing in the old auction hall over coffee and fish rolls." },
+        { ime: "Ferry number 62", opis: "The harbor ferries are part of public transit, so Hamburg residents ride line 62 from Landungsbrücken to Finkenwerder on a regular ticket. Climb to the upper deck and you get the harbor tour every local knows." },
+        { ime: "A Franzbrötchen with coffee", opis: "This flattened, flaky pastry with cinnamon and sugar is Hamburg's answer to the croissant and is eaten for breakfast or with afternoon coffee. Every bakery has it, and it is best while still warm." }
       ],
       kupiti: [
-        { ime: "Kava i čaj iz Speicherstadta", opis: "Hamburg je stoljećima glavna njemačka luka za kavu i čaj, a u skladištima od crvene opeke i danas rade pržionice. Kupite svježe prženu kavu ili istočnofrizijsku čajnu mješavinu u pržionicama i trgovinama čaja u Speicherstadtu." },
-        { ime: "Kapa Elbsegler", opis: "Plosnata mornarska kapa s kratkim šiltom dio je hamburškog identiteta i nose je i mladi i stari. Prave se nalaze u trgovinama pomorske opreme i šeširdžijskim radnjama u blizini luke." },
-        { ime: "Brod u boci", opis: "Brodice u boci nekad su izrađivali mornari na dugim plovidbama, pa su postale tipičan sjevernonjemački ukras. Ručno rađene tražite u pomorskim trgovinama oko pristaništa i u ribarskim mjestima uz Labu." }
+        { ime: "Coffee and tea from the Speicherstadt", opis: "Hamburg has been Germany's main port for coffee and tea for centuries, and roasters still work in the red brick warehouses. Buy freshly roasted coffee or an East Frisian tea blend at the roasteries and tea shops of the Speicherstadt." },
+        { ime: "An Elbsegler cap", opis: "This flat sailor's cap with a short brim is part of Hamburg's identity and is worn by young and old alike. You will find the real thing at maritime outfitters and hat shops near the harbor." },
+        { ime: "A ship in a bottle", opis: "Sailors used to build these on long voyages, and they became a typical northern German decoration. Look for handmade ones in maritime shops around the piers and in the fishing villages along the Elbe." }
       ]
     },
     "koln": {
       dragulji: [
-        { ime: "Belgijska četvrt", opis: "Ulice nazvane po belgijskim gradovima pune su malih dizajnerskih trgovina, galerija i kafića, a središte im je trg Brüsseler Platz. Navečer se ondje ljudi jednostavno okupe na otvorenom s pićem u ruci." },
-        { ime: "Rheinboulevard u Deutzu", opis: "Na desnoj obali Rajne široke kamene stube spuštaju se prema vodi i gledaju ravno na katedralu i stari grad. Prijeđite most Hohenzollernbrücke pješice i sjednite ovdje u suton." },
-        { ime: "Ehrenfeld", opis: "Nekadašnja radnička četvrt danas je najšarenije lice Kölna, s velikim muralima, turskim pekarnicama i barovima u starim tvorničkim halama. Prošećite ulicom Venloer Straße i zavirite u sporedne uličice u potrazi za uličnom umjetnošću." }
+        { ime: "The Belgian Quarter", opis: "These streets named after Belgian cities are full of small designer shops, galleries and cafés, with Brüsseler Platz at their heart. In the evening people simply gather on the square outdoors with a drink in hand." },
+        { ime: "Rheinboulevard in Deutz", opis: "On the right bank of the Rhine, wide stone steps lead down toward the water and look straight across at the cathedral and the old town. Walk over the Hohenzollern Bridge and take a seat here at dusk." },
+        { ime: "Ehrenfeld", opis: "This former working-class district is now the most colorful side of Cologne, with large murals, Turkish bakeries and bars in old factory halls. Walk along Venloer Straße and peek into the side streets to hunt for street art." }
       ],
       domaci: [
-        { ime: "Kölsch u pivnici", opis: "Lokalno pivo toči se u uske čaše od dva decilitra, a konobar, kojeg zovu Köbes, donosi novu čim vidi praznu i crticom je bilježi na podmetaču. Kad vam je dosta, stavite podmetač na čašu, jer će inače piva stizati bez kraja." },
-        { ime: "Halver Hahn", opis: "Iako ime zvuči kao pola pileta, dobit ćete raženu žemlju s debelom kriškom zrelog sira, maslacem, lukom i senfom. To je klasičan zalogaj uz Kölsch i najbolji uvod u kelnski smisao za humor." },
-        { ime: "Večer kod Büdchena", opis: "Büdchen je kelnski kiosk na uglu, gdje se kupi hladno piće i malo popriča sa susjedima. Ljeti s tim pićem domaći sjednu na livade uz Rajnu ili u park kod jezerca Aachener Weiher." }
+        { ime: "Kölsch at a brewery tavern", opis: "The local beer comes in slim glasses that hold less than a cup, and the waiter, called a Köbes, brings a fresh one as soon as yours is empty and marks it on your coaster. When you have had enough, put the coaster on top of your glass, or the beer will keep coming." },
+        { ime: "Halver Hahn", opis: "The name sounds like half a chicken, but what arrives is a rye roll with a thick slice of aged cheese, butter, onion and mustard. It is the classic snack with Kölsch and the best introduction to Cologne humor." },
+        { ime: "An evening at the Büdchen", opis: "A Büdchen is Cologne's corner kiosk, where you buy a cold drink and chat a little with the neighbors. In summer locals take that drink to the meadows along the Rhine or to the park by the Aachener Weiher pond." }
       ],
       kupiti: [
-        { ime: "Kolonjska voda", opis: "Eau de Cologne doslovno znači voda iz Kölna i ovdje se proizvodi od 18. stoljeća. Kupite je u jednoj od povijesnih kuća mirisa u starom gradu, primjerice u onoj u ulici Glockengasse po kojoj je nazvana 4711." },
-        { ime: "Čaše za Kölsch", opis: "Tanke cilindrične čaše zovu se Stange, a nose se na okruglom pladnju s ručkom koji zovu Kranz. Komplet ćete naći u pivovarskim prodavaonicama i trgovinama kućanskih potrepština." }
+        { ime: "Eau de Cologne", opis: "The name literally means water from Cologne, and it has been made here since the 18th century. Buy it at one of the historic fragrance houses in the old town, such as the one on Glockengasse that gave 4711 its name." },
+        { ime: "Kölsch glasses", opis: "The thin cylindrical glasses are called Stangen and are carried on a round tray with a handle known as a Kranz. You will find a set at brewery shops and housewares stores." }
       ]
     },
     "dresden": {
       dragulji: [
-        { ime: "Kunsthofpassage", opis: "U četvrti Äußere Neustadt niz je povezanih dvorišta koja su oslikali i preuredili umjetnici, a na jednoj fasadi oluci su složeni tako da za kiše sviraju. U dvorištima su male radionice, trgovine i kafići." },
-        { ime: "Loschwitz i most Blaues Wunder", opis: "Preko čeličnog mosta koji zovu Plavo čudo dolazi se u stari dio Loschwitza s vilama na padini. Na brdo vas voze stogodišnja uspinjača i viseća željeznica, a odozgo se vidi cijela dolina Labe." },
-        { ime: "Pfunds Molkerei", opis: "Mljekarska trgovina iz 19. stoljeća od poda do stropa obložena je ručno oslikanim keramičkim pločicama i slovi za najljepšu na svijetu. Uđite barem na čašu mlaćenice i komad sira." }
+        { ime: "Kunsthofpassage", opis: "In the Äußere Neustadt district a series of connected courtyards has been painted and redesigned by artists, and on one facade the drainpipes are arranged so that they play music when it rains. The courtyards hold small workshops, shops and cafés." },
+        { ime: "Loschwitz and the Blue Wonder bridge", opis: "The steel bridge nicknamed the Blue Wonder leads to old Loschwitz with its villas on the hillside. A century-old funicular and a suspension railway take you up the hill, where the whole Elbe valley opens out below." },
+        { ime: "Pfunds Molkerei", opis: "This 19th-century dairy shop is covered from floor to ceiling in hand-painted tiles and is often called the most beautiful in the world. Step in at least for a glass of buttermilk and a piece of cheese." }
       ],
       domaci: [
-        { ime: "Eierschecke uz kavu", opis: "Saski kolač u tri sloja, s tijestom, svježim sirom i pjenastom kremom od jaja, jede se uz poslijepodnevnu kavu, što ovdje zovu Kaffee und Kuchen. Naručite ga u bilo kojoj slastičarnici, jer ga izvan Saske gotovo nema." },
-        { ime: "Livade uz Labu", opis: "Široke poplavne livade uz rijeku ostale su neizgrađene, pa se Dresdenčani ovdje šeću, voze bicikl i roštiljaju s pogledom na barokni stari grad. Ponesite deku i ostanite do zalaska sunca." },
-        { ime: "Večer u Neustadtu", opis: "Mladi Dresden izlazi u četvrt Äußere Neustadt, oko ulica Alaunstraße i Louisenstraße, gdje se u toplim noćima sjedi i na rubnicima. Krenite onamo na jelo i piće kad se stari grad nakon večere isprazni." }
+        { ime: "Eierschecke with coffee", opis: "This Saxon cake in three layers, with a dough base, a quark filling and a fluffy egg custard on top, is eaten with afternoon coffee, a ritual known here as Kaffee und Kuchen. Order it at any pastry shop, because you will hardly find it outside Saxony." },
+        { ime: "The Elbe meadows", opis: "The wide floodplain meadows along the river have never been built on, so Dresdeners walk, bike and grill here with a view of the Baroque old town. Bring a blanket and stay until sunset." },
+        { ime: "An evening in the Neustadt", opis: "Young Dresden goes out in the Äußere Neustadt, around Alaunstraße and Louisenstraße, where on warm nights people sit right on the curbs. Head there for food and drinks once the old town empties after dinner." }
       ],
       kupiti: [
-        { ime: "Dresdner Christstollen", opis: "Božićni kruh s maslacem, grožđicama i kandiranim voćem ovdje ima zaštićeno ime i zlatni pečat udruge pekara. Kupuje se u pekarnicama i slastičarnicama od kasne jeseni, a dobro umotan traje tjednima." },
-        { ime: "Porculan iz Meißena", opis: "Prva europska manufaktura porculana nalazi se u obližnjem Meißenu, a njezin su znak ukršteni plavi mačevi. U Dresdenu ga nude specijalizirane trgovine u starom gradu, a do same manufakture stiže se lokalnim vlakom." },
-        { ime: "Herrnhutska zvijezda", opis: "Papirnata zvijezda s mnogo krakova potječe iz saskog mjesta Herrnhut i u adventu svijetli na gotovo svakom prozoru. Dolazi rastavljena u plosnatoj kutiji, pa je lako stane u kofer." }
+        { ime: "Dresdner Christstollen", opis: "This Christmas bread with butter, raisins and candied fruit has a protected name here and carries the golden seal of the bakers' association. Bakeries and pastry shops sell it from late fall, and well wrapped it keeps for weeks." },
+        { ime: "Meissen porcelain", opis: "Europe's first porcelain manufactory is in nearby Meissen, and its mark is a pair of crossed blue swords. Specialty shops in Dresden's old town carry it, and a local train takes you to the manufactory itself." },
+        { ime: "A Herrnhut star", opis: "This many-pointed paper star comes from the Saxon town of Herrnhut and glows in nearly every window during Advent. It comes unassembled in a flat box, so it fits easily in a suitcase." }
       ]
     },
     "heidelberg": {
       dragulji: [
-        { ime: "Schlangenweg i Philosophenweg", opis: "Od Starog mosta uska, vijugava staza između kamenih zidova penje se do šetnice Philosophenweg na sunčanoj padini. Odande ćete imati dvorac, rijeku i crvene krovove kao na dlanu, a zbog blage klime uz put rastu smokve i bademi." },
-        { ime: "Heiligenberg i Thingstätte", opis: "Na vrhu šumovitog brda iznad grada stoje ruševine samostana sv. Mihaela i golemi kameni amfiteatar iz tridesetih godina 20. stoljeća. Gore se dolazi pješice kroz šumu, a rijetko tko od posjetitelja dvorca stigne dovde." },
-        { ime: "Neuenheim", opis: "S druge strane Neckara leži otmjena četvrt s malim trgom, pekarnicama i kafićima u kojima sjede studenti i profesori. Pitajte domaćine za dan tržnice, kad je trg najživlji." }
+        { ime: "Schlangenweg and Philosophenweg", opis: "From the Old Bridge a narrow, winding path between stone walls climbs to the Philosophenweg promenade on the sunny hillside. From there the castle, the river and the red roofs lie right in front of you, and the mild climate lets figs and almonds grow along the way." },
+        { ime: "Heiligenberg and the Thingstätte", opis: "At the top of the wooded hill above town stand the ruins of St. Michael's Monastery and a huge stone amphitheater from the 1930s. You reach it on foot through the forest, and few castle visitors ever make it this far." },
+        { ime: "Neuenheim", opis: "Across the Neckar lies an elegant neighborhood with a small square, bakeries and cafés where students and professors sit. Ask your hosts which day the market is held, since that is when the square is liveliest." }
       ],
       domaci: [
-        { ime: "Neckarwiese", opis: "Duga livada uz rijeku na neuenheimskoj strani ljeti je dnevni boravak cijeloga grada, pa se ondje uči, igra odbojka i roštilja. Ponesite nešto za piknik i sjednite među studente." },
-        { ime: "Untere Straße navečer", opis: "U ovoj uskoj ulici starog grada nižu se mali studentski lokali, pa se ljudi s čašom u ruci prelijevaju iz jednog u drugi. Tamo ćete vidjeti studentski Heidelberg, koji se dosta razlikuje od onoga s razglednica." },
-        { ime: "Uspon na Königstuhl", opis: "Domaći za vikend pješače šumskim stazama iznad dvorca prema vrhu Königstuhl, a tko ne želi hodati, gore se odveze starom uspinjačom. Ako ste umorne, popnite se uspinjačom pa se spustite pješice." }
+        { ime: "The Neckarwiese", opis: "In summer the long meadow by the river on the Neuenheim side is the whole city's living room, where people study, play volleyball and grill. Bring a picnic and sit down among the students." },
+        { ime: "Untere Straße in the evening", opis: "This narrow old town street is lined with small student bars, and people drift from one to the next with a glass in hand. Here you see student Heidelberg, which is quite different from the one on the postcards." },
+        { ime: "Walking up the Königstuhl", opis: "On weekends locals hike the forest trails above the castle toward the Königstuhl summit, and anyone who would rather not walk takes the old funicular. If you are tired, ride up and walk back down." }
       ],
       kupiti: [
-        { ime: "Heidelberger Studentenkuss", opis: "Čokoladna pralina s nugatom izmišljena je u 19. stoljeću da bi je studenti mogli darovati djevojkama pod budnim okom pratilja. Prodaje se u maloj trgovini u starom gradu, nedaleko od trga Marktplatz, i lijep je dar s pričom." },
-        { ime: "Stare knjige i grafike", opis: "U najstarijem njemačkom sveučilišnom gradu antikvarijati su dio krajolika, a u njima se nađu stare karte, grafike s motivima dvorca i lijepa izdanja. Potražite ih u sporednim uličicama oko glavne ulice Hauptstraße." }
+        { ime: "Heidelberger Studentenkuss", opis: "This chocolate praline with nougat was invented in the 19th century so that students could give it to young ladies under the watchful eyes of their chaperones. It is sold in a small shop in the old town near the Marktplatz and makes a lovely gift with a story." },
+        { ime: "Old books and prints", opis: "In Germany's oldest university town antiquarian bookshops are part of the landscape, with old maps, prints of the castle and beautiful editions. Look for them in the side streets off the main Hauptstraße." }
       ]
     },
     "rothenburg": {
       dragulji: [
-        { ime: "Burggarten", opis: "Na mjestu nekadašnjeg dvorca na rubu grada danas je tih vrt s vidikovcima nad dolinom rijeke Tauber. Dođite rano ujutro ili predvečer, kad svjetlo pada na južni dio grada i zidine." },
-        { ime: "Dolina Taubera s dvostrukim mostom", opis: "Ispod grada staza vodi do kamenog mosta s dva reda lukova i do čudnovate kućice na vodi Topplerschlösschen, u kojoj je boravio srednjovjekovni gradonačelnik. Pogled odozdo na Rothenburg ljepši je od onoga iz samog grada." },
-        { ime: "Detwang", opis: "Do seoceta u dolini, starijeg od samog Rothenburga, lagano se hoda uz rijeku. U maloj romaničkoj crkvi čuva se drveni oltar kipara Tilmana Riemenschneidera, pred kojim ćete vjerojatno biti same." }
+        { ime: "The Burggarten", opis: "Where the old castle once stood at the edge of town there is now a quiet garden with lookouts over the Tauber valley. Come early in the morning or toward evening, when the light falls on the southern part of town and its walls." },
+        { ime: "The Tauber valley and the double bridge", opis: "Below the town a path leads to a stone bridge with two tiers of arches and to the odd little water house called the Topplerschlösschen, once the retreat of a medieval mayor. The view of Rothenburg from down here is prettier than any view from inside it." },
+        { ime: "Detwang", opis: "An easy riverside walk takes you to this hamlet in the valley, which is older than Rothenburg itself. Its small Romanesque church holds a carved wooden altar by Tilman Riemenschneider, and you will probably have it to yourself." }
       ],
       domaci: [
-        { ime: "Večer nakon odlaska autobusa", opis: "Izletnici odlaze kasno poslijepodne i tada grad opet pripadne onima koji u njemu žive. Prošećite praznim ulicama i zidinama u suton, pa sjednite na večeru kad se utiša." },
-        { ime: "Čaša franačkog vina", opis: "U ovom se kraju pije suho bijelo vino iz doline Taubera i Franačke, najčešće silvanac, koje dolazi u trbušastoj boci Bocksbeutel. Naručite ga u vinskoj gostionici uz hladnu platu, kao što čine domaći." },
-        { ime: "Šetnja po zidinama", opis: "Natkriveni ophod na gradskim zidinama stanovnicima služi kao svakodnevna šetnica i prečac između četvrti. Popnite se kod bilo koje kule i hodajte koliko vam je volja, uz pogled u vrtove i dvorišta." }
+        { ime: "The evening after the buses leave", opis: "Day trippers leave in the late afternoon, and then the town belongs again to the people who live in it. Walk the empty streets and walls at dusk and sit down to dinner once it grows quiet." },
+        { ime: "A glass of Franconian wine", opis: "This region drinks dry white wine from the Tauber valley and Franconia, most often Silvaner, which comes in a round, flat bottle called a Bocksbeutel. Order it in a wine tavern with a cold platter, as locals do." },
+        { ime: "A walk on the walls", opis: "The covered walkway on top of the town walls is an everyday promenade and shortcut for residents. Climb up at any tower and walk as far as you like, looking down into gardens and courtyards." }
       ],
       kupiti: [
-        { ime: "Schneeballen", opis: "Kugla od trakica prhkog tijesta pržena u masti i posuta šećerom u prahu stara je lokalna slastica za svadbe i blagdane. Kupite je u pekarnici koja ih sama prži i uzmite klasičnu, jer one s preljevima služe uglavnom izlozima." },
-        { ime: "Božićni ukrasi", opis: "Rothenburg je cijele godine grad Božića, s velikim trgovinama ukrasa u središtu. Vrijedi tražiti ručno rađene drvene i staklene komade njemačke izrade i pritom provjeriti podrijetlo na naljepnici." },
-        { ime: "Franačko vino u Bocksbeutelu", opis: "Plosnata, trbušasta boca zaštitni je znak franačkih vina i odmah se prepoznaje na stolu. Kupite je u vinoteci ili izravno kod vinara u dolini Taubera." }
+        { ime: "Schneeballen", opis: "A ball of shortcrust pastry strips, fried and dusted with powdered sugar, is an old local treat for weddings and holidays. Buy one at a bakery that fries its own and choose the classic version, since the heavily frosted ones are mostly made for the shop windows." },
+        { ime: "Christmas ornaments", opis: "Rothenburg is a Christmas town all year, with large ornament stores in the center. It is worth looking for handmade wooden and glass pieces made in Germany and checking the origin on the label." },
+        { ime: "Franconian wine in a Bocksbeutel", opis: "The flat, rounded bottle is the trademark of Franconian wine and is instantly recognizable on a table. Buy one at a wine shop or straight from a winemaker in the Tauber valley." }
       ]
     },
     "nurnberg": {
       dragulji: [
-        { ime: "Weißgerbergasse", opis: "U ovoj blago zavojitoj ulici sačuvan je najljepši niz šarenih kuća s drvenim gredama, u kojima su nekad živjeli kožari. Danas su u njima mali lokali i radionice, a gužve je kudikamo manje nego na glavnom trgu." },
-        { ime: "Hesperidini vrtovi i groblje sv. Ivana", opis: "U četvrti St. Johannis iza kućnih vrata skrivaju se mali barokni vrtovi s kipovima i stablima limuna. Odmah do njih je groblje Johannisfriedhof s ružama i brončanim pločama, gdje počiva Albrecht Dürer." },
-        { ime: "Gostenhof", opis: "Četvrt koju domaći od milja zovu GoHo puna je ateljea, trgovina rabljenom robom, malih kafića i dvorišnih buvljaka. Ovdje ćete vidjeti mladi i kreativni Nürnberg." }
+        { ime: "Weißgerbergasse", opis: "This gently curving lane has the city's finest row of colorful half-timbered houses, once the homes of leather tanners. Today they hold small bars and workshops, and the crowds are far thinner than on the main square." },
+        { ime: "The Hesperides Gardens and St. John's Cemetery", opis: "In the St. Johannis district small Baroque gardens with statues and lemon trees hide behind the house doors. Right next to them is the Johannisfriedhof, a cemetery of roses and bronze plaques where Albrecht Dürer is buried." },
+        { ime: "Gostenhof", opis: "The neighborhood locals fondly call GoHo is full of studios, secondhand shops, small cafés and courtyard flea markets. This is where you see young, creative Nuremberg." }
       ],
       domaci: [
-        { ime: "Tri u žemlji", opis: "Nirnberške kobasice male su kao prst, peku se na bukovu drvu i s uličnog štanda jedu se tri u žemlji, što se na dijalektu kaže „Drei im Weggla“. Dodajte senf i jedite stojeći kao svi oko vas." },
-        { ime: "Ljetna večer ispod dvorca", opis: "Na trgu kod vrata Tiergärtnertor, ispod carskog dvorca i pokraj Dürerove kuće, u toplim se večerima sjedi izravno na kaldrmi. Piće se kupi u obližnjem lokalu i iznese van." },
-        { ime: "Crveno pivo", opis: "Rotbier je stara nirnberška vrsta piva bakrene boje, koju su ponovno počele kuhati male gradske pivovare. Naručite ga u pivnici uz kobasice s kiselim kupusom." }
+        { ime: "Three in a bun", opis: "Nuremberg sausages are as small as a finger, grilled over beechwood and eaten from a street stand three to a roll, which in the local dialect is “Drei im Weggla”. Add mustard and eat standing up like everyone around you." },
+        { ime: "A summer evening below the castle", opis: "On the square by the Tiergärtnertor gate, below the imperial castle and beside Dürer's house, people sit right on the cobblestones on warm evenings. You buy a drink at a nearby bar and carry it outside." },
+        { ime: "Red beer", opis: "Rotbier is an old Nuremberg style of copper-colored beer that small city breweries have started brewing again. Order it in a beer hall with sausages and sauerkraut." }
       ],
       kupiti: [
-        { ime: "Elisenlebkuchen", opis: "Najfinija vrsta nirnberških medenjaka radi se gotovo samo od orašastih plodova, meda i začina, na tankoj oblatni. Kupite ih u radionicama medenjaka u starom gradu, gdje se prodaju i izvan božićnog razdoblja." },
-        { ime: "Zwetschgenmännle", opis: "Figurice od suhih šljiva i oraha, odjevene u sitnu odjeću, tradicionalni su ukras s nirnberškog božićnog sajma. Ne jedu se, nego se čuvaju kao znak sreće u kući." }
+        { ime: "Elisenlebkuchen", opis: "The finest kind of Nuremberg gingerbread is made almost entirely of nuts, honey and spices on a thin wafer. Buy it at the gingerbread bakeries in the old town, which sell it outside the Christmas season too." },
+        { ime: "Zwetschgenmännle", opis: "These little figures made of dried prunes and walnuts, dressed in tiny clothes, are a traditional decoration from the Nuremberg Christmas market. They are not for eating and are kept at home for good luck." }
       ]
     },
     "neuschwanstein": {
       dragulji: [
-        { ime: "Lechfall", opis: "Na rubu Füssena tirkizna rijeka Lech ruši se preko stepenastog slapa i ulazi u uski klanac. Do njega se od starog grada stiže laganom šetnjom, a s pješačkog mosta pogled je najbolji." },
-        { ime: "Staza oko jezera Alpsee", opis: "Dok se svi penju prema dvorcima, oko jezera Alpsee ispod njih vodi mirna šumska staza s pogledima na vodu i planine. Krug traje otprilike sat i pol, pa je idealan dok čekate svoj termin obilaska." },
-        { ime: "Kalvarienberg", opis: "Križni put iznad Füssena vodi do brežuljka s tri križa, odakle se odjednom vide grad, jezera i oba dvorca u daljini. Uspon je kratak, ali strm, pa ponesite vodu." }
+        { ime: "The Lechfall", opis: "On the edge of Füssen the turquoise Lech river tumbles over a stepped waterfall and into a narrow gorge. It is an easy walk from the old town, and the footbridge gives you the best view." },
+        { ime: "The path around the Alpsee", opis: "While everyone else climbs toward the castles, a quiet forest path circles the Alpsee lake below them, with views of the water and the mountains. The loop takes about an hour and a half, which is ideal while you wait for your tour time." },
+        { ime: "Kalvarienberg", opis: "The Stations of the Cross above Füssen lead to a hilltop with three crosses, where the town, the lakes and both castles in the distance come into view all at once. The climb is short but steep, so bring water." }
       ],
       domaci: [
-        { ime: "Kupanje u jezerima", opis: "Ljeti se ljudi iz ovog kraja nakon posla kupaju u jezerima Alpsee, Hopfensee i Forggensee, koja imaju uređena kupališta i slobodne livade. Voda je hladna i bistra, pa i kratak skok osvježi za cijeli dan." },
-        { ime: "Kässpatzen u planinskoj kolibi", opis: "Domaća tjestenina s topljenim planinskim sirom i prženim lukom glavno je jelo Allgäua i jede se ravno iz tave. Naručite je u planinskoj kolibi nakon šetnje, uz zelenu salatu." },
-        { ime: "Predah uz Brotzeit", opis: "Brotzeit je hladna užina od kruha, sira, kobasica i rotkvica, koja se jede na drvenoj dasci. Na njoj se u planinama i odmara, pa sjednite na terasu kolibe i ne žurite dalje." }
+        { ime: "Swimming in the lakes", opis: "In summer people from the area swim after work in the Alpsee, the Hopfensee and the Forggensee, which have both bathing areas and open meadows. The water is cold and clear, and even a quick dip refreshes you for the whole day." },
+        { ime: "Kässpatzen in a mountain hut", opis: "Homemade noodles with melted mountain cheese and fried onions are the signature dish of the Allgäu and are eaten straight from the pan. Order them at a mountain hut after a walk, with a green salad." },
+        { ime: "A Brotzeit break", opis: "Brotzeit is a cold snack of bread, cheese, sausage and radishes served on a wooden board. In the mountains it is also how people rest, so sit down on a hut terrace and take your time." }
       ],
       kupiti: [
-        { ime: "Planinski sir iz Allgäua", opis: "Allgäuer Bergkäse i Emmentaler rade se od sirovog mlijeka krava s planinskih pašnjaka i imaju zaštićeno podrijetlo. Kupite ih u seoskim sirarnama oko Füssena i Schwangaua, gdje će vam ih narezati i zamotati za put." },
-        { ime: "Kravlja zvona", opis: "U Allgäuu se krave u jesen svečano spuštaju s planina, okićene cvijećem i velikim zvonima na izvezenim kožnim remenima. Manja zvona izrađuju lokalni obrtnici, a naći ćete ih u trgovinama rukotvorina u Füssenu." }
+        { ime: "Allgäu mountain cheese", opis: "Allgäuer Bergkäse and Emmentaler are made from the raw milk of cows that graze on mountain pastures, and both have protected origin. Buy them at village dairies around Füssen and Schwangau, where they will cut and wrap them for the trip." },
+        { ime: "Cowbells", opis: "In the Allgäu the cows come down from the mountains each fall in a festive procession, decked with flowers and big bells on embroidered leather straps. Local craftspeople make smaller bells, which you will find in craft shops in Füssen." }
       ]
     },
     "dolina-rajne": {
       dragulji: [
-        { ime: "Postenturm iznad Bacharacha", opis: "Kroz vinograde iznad gradića staza vodi do stare stražarske kule, s koje se vide krovovi, crkva, ruševina gotičke kapele i zavoj Rajne. Uspon traje petnaestak minuta i vrijedi svakog koraka." },
-        { ime: "Vidikovac Maria Ruh", opis: "Stijenu Loreley najljepše je gledati s druge obale, s vidikovca kod sela Urbar. Odande se vidi kako se rijeka sužava i zavija oko litice, a gužve nema." },
-        { ime: "Vierseenblick kod Bopparda", opis: "Iznad Bopparda sjedežnica vas diže do vidikovca s kojeg Rajna zbog zavoja izgleda kao četiri odvojena jezera. Gore su šumske staze, a blizu je i pogled na najveću riječnu okuku u dolini." }
+        { ime: "The Postenturm above Bacharach", opis: "A path through the vineyards above town leads to an old watchtower with a view of the rooftops, the church, the ruin of a Gothic chapel and a bend in the Rhine. The climb takes about fifteen minutes and is worth every step." },
+        { ime: "The Maria Ruh viewpoint", opis: "The Loreley rock looks best from the opposite bank, at the viewpoint near the village of Urbar. From there you can see how the river narrows and curls around the cliff, without any crowd." },
+        { ime: "Vierseenblick near Boppard", opis: "A chairlift above Boppard carries you to a viewpoint where the bends of the Rhine make it look like four separate lakes. There are forest trails up top, and nearby you can look down on the biggest river loop in the valley." }
       ],
       domaci: [
-        { ime: "Straußwirtschaft", opis: "Vinari smiju nekoliko mjeseci u godini točiti vlastito vino u dvorištu ili podrumu, a da su otvoreni, znat ćete po vijencu ili metli obješenoj nad vratima. Jede se jednostavno, primjerice kruh sa sirom i lukom, a sjedi se za zajedničkim stolovima." },
-        { ime: "Trajektom preko rijeke", opis: "Između Mainza i Koblenza nema nijednog mosta, pa je trajekt domaćima svakodnevni prijevoz. Prijeđite i vi na drugu obalu, jer se dvorci najbolje vide sa suprotne strane." },
-        { ime: "Šetnja kroz vinograde", opis: "Nedjeljom se ovdje hoda označenim stazama iznad rijeke, s jedne strane stazom Rheinsteig, a s druge stazom RheinBurgenWeg. Odaberite dionicu između dva mjesta, pa se vratite vlakom ili brodom." }
+        { ime: "A Straußwirtschaft", opis: "Winemakers are allowed to pour their own wine in their courtyard or cellar for a few months a year, and a wreath or broom hung over the door tells you they are open. The food is simple, such as bread with cheese and onions, and you sit at shared tables." },
+        { ime: "Crossing by ferry", opis: "There is not a single bridge between Mainz and Koblenz, so the ferry is everyday transportation for locals. Cross to the other bank yourself, because the castles look best from the opposite side." },
+        { ime: "A walk through the vineyards", opis: "On Sundays people here hike the marked trails above the river, the Rheinsteig on one side and the RheinBurgenWeg on the other. Pick a stretch between two towns and come back by train or boat." }
       ],
       kupiti: [
-        { ime: "Rizling izravno od vinara", opis: "Na strmim škriljevačkim terasama Srednje Rajne raste rizling izražene svježine, koji se rijetko izvozi. U Bacharachu, Oberweselu i Boppardu pozvonite na vrata vinarije s natpisom Weingut, kušajte i ponesite bocu." },
-        { ime: "Vinjak iz Rüdesheima", opis: "U Rüdesheimu se od 19. stoljeća proizvodi poznati njemački vinjak, kojim se prelijeva i lokalna kava s vrhnjem i zapaljenim šećerom. Bocu ćete naći u vinotekama u gradu." }
+        { ime: "Riesling straight from the winemaker", opis: "The steep slate terraces of the Middle Rhine grow a Riesling with bright freshness that is rarely exported. In Bacharach, Oberwesel and Boppard, ring the bell at a winery marked Weingut, taste and take a bottle home." },
+        { ime: "Brandy from Rüdesheim", opis: "Rüdesheim has produced a well-known German brandy since the 19th century, and it is also poured over the local coffee with cream and flamed sugar. You will find a bottle at wine shops in town." }
       ]
     },
     "bamberg": {
       dragulji: [
-        { ime: "Vrtlarska četvrt", opis: "Dio Bamberga pod zaštitom UNESCO-a čine i dugačke niske kuće vrtlara, iza kojih se usred grada pružaju polja povrća. Prošećite ovuda i kupite nešto na kućnom pragu, gdje obitelji prodaju ono što su toga jutra ubrale." },
-        { ime: "Altenburg", opis: "Na najvišem od sedam bamberških brežuljaka stoji srednjovjekovna utvrda s kulom, do koje se stiže šetnjom kroz voćnjake. Pogled puca na cijeli grad i okolna brda." },
-        { ime: "Ružičnjak Nove rezidencije", opis: "U unutarnjem dvorištu biskupske rezidencije skriven je barokni vrt s tisućama ruža i malim paviljonom. S njegove ograde vidi se more crvenih krovova i samostan na susjednom brijegu." }
+        { ime: "The Gardeners' Quarter", opis: "Part of UNESCO-listed Bamberg is made up of the long, low houses of market gardeners, with vegetable fields stretching behind them in the middle of the city. Walk through and buy something on a doorstep, where families sell what they picked that morning." },
+        { ime: "Altenburg", opis: "A medieval fortress with a tower stands on the highest of Bamberg's seven hills, reached by a walk through orchards. The view takes in the whole city and the surrounding hills." },
+        { ime: "The Rose Garden of the New Residence", opis: "Hidden in the inner courtyard of the bishops' residence is a Baroque garden with thousands of roses and a small pavilion. From its balustrade you look over a sea of red roofs to the monastery on the next hill." }
       ],
       domaci: [
-        { ime: "Dimljeno pivo na ulici", opis: "Rauchbier miriše na dimljenu slaninu jer se slad suši nad bukovim dimom, a toči se izravno iz drvene bačve. Pred starom pivnicom Schlenkerla u ulici Dominikanerstraße ljudi s kriglom stoje vani i razgovaraju, pa stanite s njima." },
-        { ime: "Odlazak „na podrum“", opis: "Ljeti se u Bambergu ne ide u pivski vrt, nego „auf den Keller“, na brežuljke gdje se pivo nekad hladilo u podrumima u stijeni. Sjedi se pod kestenima, s pogledom na grad i jednostavnom užinom." },
-        { ime: "Bamberger Hörnla za doručak", opis: "Lokalna inačica kroasana, bogata maslacem i manje lisnata, jede se ujutro uz kavu. Kupite je u pekarnici i pojedite putem prema staroj vijećnici na mostu." }
+        { ime: "Smoked beer in the street", opis: "Rauchbier smells like smoked bacon because the malt is dried over beechwood smoke, and it is poured straight from a wooden barrel. In front of the old Schlenkerla tavern on Dominikanerstraße people stand outside with their mugs and talk, so join them." },
+        { ime: "Going “to the cellar”", opis: "In summer people in Bamberg do not go to a beer garden. They go “auf den Keller”, up to the hills where beer was once kept cool in rock cellars. You sit under chestnut trees with a view of the city and a simple snack." },
+        { ime: "A Bamberger Hörnla for breakfast", opis: "The local take on the croissant is rich in butter and less flaky, and people eat it in the morning with coffee. Buy one at a bakery and eat it on the way to the old town hall on the bridge." }
       ],
       kupiti: [
-        { ime: "Boce dimljenog piva", opis: "Bamberg ima desetak pivovara, a Rauchbier se izvan Franačke teško nalazi. Kupite nekoliko boca izravno u pivovarskim prodavaonicama ili trgovinama pićem u starom gradu." },
-        { ime: "Slatki korijen iz vrtlarske četvrti", opis: "Bamberški vrtlari stoljećima su uzgajali sladić i nedavno su obnovili tu tradiciju. U trgovinama i na štandovima vrtlarske četvrti naći ćete korijen, čajeve i slatkiše od sladića, a uz njih i sjemenke starih sorti povrća." }
+        { ime: "Bottles of smoked beer", opis: "Bamberg has about ten breweries, and Rauchbier is hard to find outside Franconia. Buy a few bottles directly at the brewery shops or at beverage stores in the old town." },
+        { ime: "Licorice root from the Gardeners' Quarter", opis: "Bamberg's gardeners grew licorice for centuries and have recently revived the tradition. In the shops and stalls of the Gardeners' Quarter you will find the root, teas and licorice sweets, along with seeds of old vegetable varieties." }
       ]
     },
     "lubeck": {
       dragulji: [
-        { ime: "Prolazi i dvorišta", opis: "Iza niskih prolaza u pročeljima starog grada skrivaju se uske uličice s kućicama i cvijećem, sagrađene nekad za siromašne i udovice. Prođite kroz Füchtingshof i Glandorps Gang, tiho, jer se ondje i dalje stanuje." },
-        { ime: "Malerwinkel", opis: "S male zelene obale uz rijeku Travu otvara se pogled na solane, crkvene tornjeve i stare kuće, koji su slikari oduvijek voljeli. Nalazi se nekoliko minuta od gradskih vrata Holstentor, a posjetitelja je malo." },
-        { ime: "Strma obala kod Travemündea", opis: "Od plaže u Travemündeu staza vodi rubom litice Brodtener Steilufer visoko iznad Baltika. Hoda se kroz polja i uz more, a putem je kavana s pogledom." }
+        { ime: "Passages and courtyards", opis: "Behind low passages in the old town facades hide narrow lanes of tiny houses and flowers, built long ago for the poor and for widows. Walk through the Füchtingshof and Glandorps Gang, quietly, because people still live there." },
+        { ime: "Malerwinkel", opis: "From a small green bank on the Trave river you get a view of the salt warehouses, church spires and old houses that painters have always loved. It is a few minutes from the Holstentor gate, and few visitors find it." },
+        { ime: "The cliffs near Travemünde", opis: "From the beach at Travemünde a path follows the edge of the Brodtener Steilufer cliff high above the Baltic. You walk past fields with the sea beside you, and there is a café with a view along the way." }
       ],
       domaci: [
-        { ime: "Torta od marcipana uz kavu", opis: "Poslijepodnevna kava u Lübecku gotovo redovito dolazi s kriškom torte od oraha i marcipana. Sjednite u kavanu iznad slastičarnice Niederegger u ulici Breite Straße, kamo dolaze i gradske gospođe." },
-        { ime: "Večer uz Obertrave", opis: "Na obali rijeke na zapadnom rubu starog grada ljeti se sjedi na klupama i kamenom rubu uz vodu. Ponesite piće i gledajte kako sunce zalazi iza brodova i krošanja." },
-        { ime: "Pecivo s ribom na moru", opis: "Vikendom se cijeli grad seli u Travemünde, gdje se šeta rivom i jede Fischbrötchen, pecivo s haringom ili račićima. Kupite ga na štandu uz luku i pazite na galebove." }
+        { ime: "Marzipan cake with coffee", opis: "Afternoon coffee in Lübeck almost always comes with a slice of nut and marzipan cake. Take a seat in the café above the Niederegger shop on Breite Straße, where the ladies of the town go too." },
+        { ime: "An evening on the Obertrave", opis: "On the riverbank at the western edge of the old town people sit on benches and on the stone edge by the water in summer. Bring a drink and watch the sun go down behind the boats and treetops." },
+        { ime: "A fish roll by the sea", opis: "On weekends the whole city moves out to Travemünde to stroll the waterfront and eat a Fischbrötchen, a roll with herring or tiny shrimp. Buy one at a stand by the harbor and watch out for the seagulls." }
       ],
       kupiti: [
-        { ime: "Lübečki marcipan", opis: "Ovdje se marcipan radi od 19. stoljeća s mnogo badema i malo šećera, a grad ima i mali muzej posvećen toj slastici. Kupite ga u matičnoj slastičarnici Niederegger ili kod manjih gradskih slastičara, gdje se prodaje na vagu." },
-        { ime: "Lübecker Rotspon", opis: "Hanzeatski trgovci dovozili su crno vino iz Bordeauxa i ostavljali ga da dozrijeva u lübečkim podrumima, gdje je, kažu, postajalo bolje. Tako odležano vino i danas se prodaje pod tim imenom u gradskim vinotekama." }
+        { ime: "Lübeck marzipan", opis: "Marzipan has been made here since the 19th century with plenty of almonds and little sugar, and the city even has a small museum devoted to it. Buy it at the original Niederegger shop or from smaller local confectioners who sell it by weight." },
+        { ime: "Lübecker Rotspon", opis: "Hanseatic merchants shipped red wine from Bordeaux and left it to age in Lübeck's cellars, where it was said to improve. Wine matured this way is still sold under that name in the city's wine shops." }
       ]
     }
   }

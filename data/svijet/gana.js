@@ -1,167 +1,167 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["gana"] = {
   id: "gana",
-  ime: "Gana",
-  regija: "Podsaharska Afrika",
-  sazetak: "Zemlja zlata, šarenog kentea i bijelih utvrda na obali, iz kojih su milijuni ljudi odvedeni preko oceana.",
+  ime: "Ghana",
+  regija: "Sub-Saharan Africa",
+  sazetak: "A land of gold, colorful kente and white forts on the coast, from which millions of people were taken across the ocean.",
   uvod: [
-    "Gana leži na Gvinejskom zaljevu, a Europljani su je stoljećima zvali Zlatna obala. Portugalci su 1482. sagradili utvrdu Elminu kako bi trgovali zlatom, a za njima su stigli Nizozemci, Britanci, Danci, Šveđani i Brandenburžani. Na pet stotina kilometara obale niknulo je više desetaka utvrda, koje su s vremenom od trgovine zlatom prešle na trgovinu ljudima.",
-    "U unutrašnjosti je krajem 17. stoljeća nastalo moćno kraljevstvo naroda Asante, bogato zlatom, koje se Britancima opiralo u nizu ratova sve do 1900. Gana je 6. ožujka 1957. postala prva zemlja supsaharske Afrike koja se oslobodila kolonijalne vlasti, pod vodstvom Kwamea Nkrumaha, a ime je uzela po srednjovjekovnom carstvu koje se nalazilo daleko na sjeverozapadu.",
-    "Danas je to mirna i gostoljubiva zemlja, u kojoj se govori engleski, pa je mnogi smatraju najlakšim uvodom u zapadnu Afriku. Posjetiteljice će prvo naučiti riječ akwaaba, dobro došli."
+    "Ghana lies on the Gulf of Guinea, and for centuries Europeans called it the Gold Coast. The Portuguese built the fort of Elmina in 1482 in order to trade in gold, and they were followed by the Dutch, the British, the Danes, the Swedes and the Brandenburgers. Dozens of forts sprang up along five hundred kilometers of coastline, and over time they shifted from the gold trade to the trade in human beings.",
+    "In the interior, the powerful kingdom of the Asante people arose at the end of the 17th century, rich in gold, and it resisted the British in a series of wars right up until 1900. On March 6, 1957, Ghana became the first country in sub-Saharan Africa to free itself from colonial rule, under the leadership of Kwame Nkrumah, and it took its name from a medieval empire that lay far to the northwest.",
+    "Today it is a peaceful and hospitable country where English is spoken, so many people consider it the easiest introduction to West Africa. The first word visitors learn is akwaaba, welcome."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Najsuše je od studenoga do ožujka. U prosincu i siječnju puše harmatan, suhi vjetar iz Sahare, koji nebo zamuti prašinom. Glavne kiše padaju od travnja do lipnja." },
-    { k: "Valuta", v: "Ganski cedi (GHS). Ime dolazi od riječi za školjku kauri, koja je nekoć služila kao novac. Izvan većih hotela plaća se gotovinom ili mobitelom." },
-    { k: "Kretanje", v: "Između Akre, Cape Coasta i Kumasija voze udobni autobusi i unutarnji letovi. Po gradovima se voze zajednički kombiji, zvani tro-tro, i taksiji preko aplikacije." },
-    { k: "Zdravlje", v: "Za ulazak je obvezna potvrda o cijepljenju protiv žute groznice. O zaštiti od malarije posavjetujte se s liječnikom." },
-    { k: "Napojnica", v: "Nije obvezna, ali se u restoranima cijeni 5 do 10 posto. Sitnu napojnicu ovdje zovu dash." }
+    { k: "When to go", v: "It is driest from November to March. In December and January the harmattan blows, a dry wind from the Sahara that hazes the sky with dust. The main rains fall from April to June." },
+    { k: "Currency", v: "The Ghanaian cedi (GHS). The name comes from the word for the cowrie shell, which once served as money. Outside the larger hotels you pay in cash or by mobile phone." },
+    { k: "Getting around", v: "Comfortable buses and domestic flights run between Accra, Cape Coast and Kumasi. Within the cities people ride shared minibuses, known as tro-tros, and taxis booked through an app." },
+    { k: "Health", v: "A certificate of vaccination against yellow fever is mandatory for entry. Talk to your doctor about protection against malaria." },
+    { k: "Tipping", v: "It is not obligatory, but 5 to 10 percent is appreciated in restaurants. A small tip is known here as a dash." }
   ],
   hrana: [
-    { ime: "Jollof", opis: "Riža kuhana u začinjenom umaku od rajčice, luka i paprike.", prica: "Jelo potječe od naroda Wolof iz Senegala, ali se Ganci i Nigerijci već desetljećima šaljivo prepiru čiji je jollof bolji. Ganski se obično radi od mirisne riže i poslužuje s pečenom piletinom i prženim bananama." },
-    { ime: "Fufu", opis: "Glatka rastezljiva okruglica od tučene kuhane manioke i banana plantana.", prica: "Tuče se u velikom drvenom mužaru, pri čemu jedna osoba udara tučkom, a druga okreće tijesto, u ritmu koji se čuje iz svakog dvorišta. Komadić se otkine prstima, umoči u juhu i proguta bez žvakanja." },
-    { ime: "Banku i tilapija", opis: "Kiselkasta okruglica od fermentiranog kukuruza i manioke uz ribu s roštilja i ljuti umak od čilija.", prica: "Najdraži je obrok uz obalu i jezero Volta. Riba se premaže đumbirom i češnjakom, a uz nju ide svježi umak od rajčice, luka i papričica." },
-    { ime: "Kenkey", opis: "Čvrsta okruglica od fermentiranoga kukuruznog tijesta, kuhana u listu kukuruza.", prica: "Jelo je naroda Ga iz Akre. Jede se s prženom ribom i crnim ljutim umakom shito od sušenih kozica i ribe, koji Ganci stavljaju na sve." },
-    { ime: "Waakye", opis: "Riža i grah kuhani zajedno s lišćem sirka, koje im daje crvenkastosmeđu boju.", prica: "Jelo sa sjevera postalo je omiljen ulični doručak. Prodavačice ga slažu u list banane s tjesteninom, jajetom, prženom bananom i umakom, a redovi pred najboljima dugi su već u sedam ujutro." },
-    { ime: "Red red", opis: "Varivo od graha crnog oka u crvenom palminu ulju, uz pržene zrele banane.", prica: "Ime dolazi od dvostruke crvene boje, ulja i banana. Zasitno je i najčešće bez mesa, pa je dobar izbor za vegetarijanke." },
-    { ime: "Kelewele", opis: "Kockice zrele banane plantane marinirane u đumbiru i čiliju pa pržene.", prica: "Prodaje se navečer na ulici, u papirnatom stošcu, često s prženim kikirikijem. Slatko, ljuto i hrskavo u isti mah." },
-    { ime: "Sobolo i palmino vino", opis: "Hladni napitak od hibiskusa s đumbirom te blago alkoholni sok palme.", prica: "Palmino vino toči se svježe iz posjećenog debla i isti dan fermentira. Prije prvoga gutljaja nekoliko se kapi izlije na zemlju, za pretke." }
+    { ime: "Jollof", opis: "Rice cooked in a spiced sauce of tomatoes, onions and peppers.", prica: "The dish originated with the Wolof people of Senegal, but Ghanaians and Nigerians have been jokingly arguing for decades over whose jollof is better. The Ghanaian version is usually made with fragrant rice and served with grilled chicken and fried plantains." },
+    { ime: "Fufu", opis: "A smooth, stretchy dumpling of pounded boiled cassava and plantain.", prica: "It is pounded in a large wooden mortar, with one person striking with the pestle while another turns the dough, in a rhythm you can hear from every yard. You pinch off a small piece with your fingers, dip it in the soup and swallow it without chewing." },
+    { ime: "Banku and tilapia", opis: "A tangy dumpling of fermented corn and cassava served with grilled fish and a hot chili sauce.", prica: "It is the favorite meal along the coast and around Lake Volta. The fish is rubbed with ginger and garlic, and it comes with a fresh sauce of tomatoes, onions and hot peppers." },
+    { ime: "Kenkey", opis: "A firm dumpling of fermented corn dough, boiled in a corn husk.", prica: "It is a dish of the Ga people of Accra. It is eaten with fried fish and shito, a black hot sauce of dried shrimp and fish that Ghanaians put on everything." },
+    { ime: "Waakye", opis: "Rice and beans cooked together with sorghum leaves, which give them a reddish-brown color.", prica: "This dish from the north has become a favorite street breakfast. The vendors pile it into a banana leaf with pasta, egg, fried plantain and sauce, and the lines in front of the best ones are long by seven in the morning." },
+    { ime: "Red red", opis: "A stew of black-eyed peas in red palm oil, served with fried ripe plantains.", prica: "The name comes from the double dose of red, the oil and the plantains. It is filling and usually meatless, which makes it a good choice for vegetarians." },
+    { ime: "Kelewele", opis: "Cubes of ripe plantain marinated in ginger and chili and then fried.", prica: "It is sold on the street in the evening, in a paper cone, often with roasted peanuts. It manages to be sweet, spicy and crispy all at once." },
+    { ime: "Sobolo and palm wine", opis: "A cold hibiscus drink with ginger, and the mildly alcoholic sap of the palm tree.", prica: "Palm wine is tapped fresh from the felled trunk and ferments the same day. Before the first sip, a few drops are poured onto the ground for the ancestors." }
   ],
   obicaji: [
-    { ime: "Kente", opis: "Tkanina od uskih traka tkanih na tkalačkom stanu i sašivenih u veliko platno. Svaki uzorak ima ime i poruku, a boje značenje: zlatna je bogatstvo, zelena rast, plava mir. Nekoć su ga smjeli nositi samo kraljevi. Legenda kaže da su dva lovca umijeće naučila gledajući pauka kako plete mrežu.", gdje: "Selo Bonwire kod Kumasija, gdje možete sjesti za tkalački stan." },
-    { ime: "Adinkra", opis: "Simboli naroda Akan koji se drvenim pečatima od tikve otiskuju na tkaninu, a svaki nosi poslovicu. Najpoznatiji je Gye Nyame, osim Boga, a ptica Sankofa, koja gleda unatrag, poručuje da se treba vratiti po ono što je zaboravljeno.", gdje: "Selo Ntonso kod Kumasija, gdje se boja kuha od kore drveta i gdje možete otisnuti vlastitu tkaninu." },
-    { ime: "Imena po danu rođenja", opis: "Narodi Akan djetetu daju ime prema danu u tjednu u kojem se rodilo. Dječak rođen u petak je Kofi, a u subotu Kwame, dok je djevojčica rođena u petak Afua, a u subotu Ama.", gdje: "Ganci će vas odmah pitati kojeg ste dana rođene i nadjenuti vam ime, pa to provjerite prije puta." },
-    { ime: "Maštoviti lijesovi", opis: "Stolari naroda Ga izrađuju lijesove u obliku onoga što je pokojniku bilo važno: ribe za ribara, zrakoplova za putnika, kakaovca za farmera. Sprovod je u Gani velika, glasna svečanost kojom se slavi život.", gdje: "Radionice u četvrti Teshie u Akri, uz obalnu cestu." },
-    { ime: "Akwasidae", opis: "Svakih šest tjedana, nedjeljom, kralj naroda Asante prima podanike i goste u dvorištu palače. Dolazi na nosiljci pod golemim suncobranima, okružen bubnjarima, sviračima rogova i poglavicama pod zlatnim nakitom.", gdje: "Palača Manhyia u Kumasiju; datume objavljuje palača, a posjetitelji su dobrodošli." },
-    { ime: "Lijeva ruka", opis: "Lijevom se rukom ne pozdravlja, ne daje novac i ne jede, jer se smatra nečistom. Ako morate nešto pružiti lijevom, ispričajte se.", gdje: "Posvuda, osobito na tržnici i za stolom." }
+    { ime: "Kente", opis: "A cloth made of narrow strips woven on a loom and sewn together into a large piece. Every pattern has a name and a message, and the colors have meanings: gold is wealth, green is growth, blue is peace. Once only kings were allowed to wear it. Legend says that two hunters learned the craft by watching a spider spin its web.", gdje: "The village of Bonwire near Kumasi, where you can sit down at a loom." },
+    { ime: "Adinkra", opis: "Symbols of the Akan people that are printed onto cloth with stamps carved from calabash, each of which carries a proverb. The best known is Gye Nyame, except for God, and the Sankofa bird, which looks backward, tells us to go back for what has been forgotten.", gdje: "The village of Ntonso near Kumasi, where the dye is boiled from tree bark and where you can print your own cloth." },
+    { ime: "Day names", opis: "The Akan peoples name a child after the day of the week on which it was born. A boy born on a Friday is Kofi and one born on a Saturday is Kwame, while a girl born on a Friday is Afua and one born on a Saturday is Ama.", gdje: "Ghanaians will immediately ask you which day you were born on and give you a name, so check before you travel." },
+    { ime: "Fantasy coffins", opis: "The carpenters of the Ga people make coffins in the shape of whatever mattered to the deceased: a fish for a fisherman, an airplane for a traveler, a cocoa pod for a farmer. A funeral in Ghana is a large, loud celebration of a life.", gdje: "The workshops in the Teshie district of Accra, along the coastal road." },
+    { ime: "Akwasidae", opis: "Every six weeks, on a Sunday, the king of the Asante people receives his subjects and guests in the courtyard of the palace. He arrives in a palanquin beneath enormous umbrellas, surrounded by drummers, horn players and chiefs laden with gold jewelry.", gdje: "Manhyia Palace in Kumasi, where the palace announces the dates and visitors are welcome." },
+    { ime: "The left hand", opis: "People do not greet, hand over money or eat with the left hand, because it is considered unclean. If you have to pass something with your left hand, apologize.", gdje: "Everywhere, especially at the market and at the table." }
   ],
   fraze: [
-    { izvorno: "Akwaaba", izgovor: "a-KVA-ba", hr: "Dobro došli" },
-    { izvorno: "Ɛte sɛn?", izgovor: "e-te SEN", hr: "Kako si? (twi)" },
-    { izvorno: "Ɛyɛ", izgovor: "E-je", hr: "Dobro je" },
-    { izvorno: "Medaase", izgovor: "me-DA-se", hr: "Hvala" },
-    { izvorno: "Mepa wo kyɛw", izgovor: "me-PA vo ČEU", hr: "Molim; oprostite" },
-    { izvorno: "Aane / Daabi", izgovor: "A-ne / DA-bi", hr: "Da / Ne" },
-    { izvorno: "Ɛyɛ dɛ", izgovor: "E-je DE", hr: "Ukusno je" },
-    { izvorno: "Yɛbɛhyia bio", izgovor: "je-be-ŠI-a BI-o", hr: "Vidimo se opet" }
+    { izvorno: "Akwaaba", izgovor: "ah-KWAH-bah", hr: "Welcome" },
+    { izvorno: "Ɛte sɛn?", izgovor: "eh-teh SEN", hr: "How are you? (Twi)" },
+    { izvorno: "Ɛyɛ", izgovor: "EH-yeh", hr: "I'm fine, it's good" },
+    { izvorno: "Medaase", izgovor: "meh-DAH-seh", hr: "Thank you" },
+    { izvorno: "Mepa wo kyɛw", izgovor: "meh-PAH woh CHEHW", hr: "Please; excuse me" },
+    { izvorno: "Aane / Daabi", izgovor: "AH-neh / DAH-bee", hr: "Yes / No" },
+    { izvorno: "Ɛyɛ dɛ", izgovor: "EH-yeh DEH", hr: "It's delicious" },
+    { izvorno: "Yɛbɛhyia bio", izgovor: "yeh-beh-SHEE-ah BEE-oh", hr: "See you again" }
   ],
   zanimljivosti: [
-    "Jezero Volta, nastalo 1965. gradnjom brane Akosombo, najveće je umjetno jezero na svijetu po površini.",
-    "Gana je drugi najveći svjetski proizvođač kakaa, odmah iza susjedne Obale Bjelokosti.",
-    "Kofi Annan, glavni tajnik Ujedinjenih naroda i dobitnik Nobelove nagrade za mir, rođen je u Kumasiju, i to u petak, kako mu ime kaže.",
-    "Crna zvijezda na zastavi simbol je afričke slobode, pa se nogometna reprezentacija zove Crne zvijezde.",
-    "Stranca Ganci dozivaju obroni, što je posve obična i dobronamjerna riječ za bijelca ili stranca.",
-    "Ganci se rukuju tako da na kraju stiska jedan drugome pucnu srednjim prstom.",
-    "Kraljica majka Yaa Asantewaa predvodila je 1900. posljednji rat naroda Asante protiv Britanaca."
+    "Lake Volta, created in 1965 by the construction of the Akosombo Dam, is the largest artificial lake in the world by surface area.",
+    "Ghana is the world's second-largest producer of cocoa, right behind neighboring Côte d'Ivoire.",
+    "Kofi Annan, Secretary-General of the United Nations and winner of the Nobel Peace Prize, was born in Kumasi, and on a Friday, as his name tells you.",
+    "The black star on the flag is a symbol of African freedom, which is why the national soccer team is called the Black Stars.",
+    "Ghanaians call out obroni to a foreigner, which is a perfectly ordinary and good-natured word for a white person or a stranger.",
+    "Ghanaians shake hands in such a way that, at the end of the handshake, each snaps the other's middle finger.",
+    "In 1900 the Queen Mother Yaa Asantewaa led the last war of the Asante people against the British."
   ],
   mjesta: [
     {
       id: "akra",
-      ime: "Akra",
+      ime: "Accra",
       vrsta: "grad",
-      sazetak: "Živa prijestolnica na oceanu, u kojoj se priča o afričkoj neovisnosti čita na trgovima i spomenicima.",
+      sazetak: "A lively capital on the ocean, where the story of African independence can be read in its squares and monuments.",
       prica: [
-        "Akra je izrasla iz ribarskih naselja naroda Ga, oko kojih su u 17. stoljeću Britanci, Nizozemci i Danci sagradili tri utvrde. Britanci su je 1877. učinili glavnim gradom kolonije.",
-        "U ponoć 6. ožujka 1957. Kwame Nkrumah ovdje je proglasio neovisnost riječima da je Gana zauvijek slobodna. Njegov san o ujedinjenoj Africi privukao je u grad afroameričke mislioce, među njima i W. E. B. Du Boisa, koji je ovdje umro kao ganski državljanin."
+        "Accra grew out of the fishing settlements of the Ga people, around which the British, the Dutch and the Danes built three forts in the 17th century. The British made it the capital of the colony in 1877.",
+        "At midnight on March 6, 1957, Kwame Nkrumah proclaimed independence here with the words that Ghana was free forever. His dream of a united Africa drew African American thinkers to the city, among them W. E. B. Du Bois, who died here as a Ghanaian citizen."
       ],
       vidjeti: [
-        { ime: "Memorijalni park Kwamea Nkrumaha", opis: "Mauzolej stoji na nekadašnjem britanskom igralištu za polo, točno na mjestu gdje je proglašena neovisnost. Oblikovan je kao mač okrenut vrhom nadolje, što je u kulturi Akana znak mira. U parku je i brončani kip bez glave, koji je srušen u državnom udaru 1966., a glava je vraćena tek desetljećima poslije i izložena je uz njega." },
-        { ime: "Trg neovisnosti i Vrata crne zvijezde", opis: "Golemi trg za mimohode omeđen je lukom neovisnosti i slavolukom s crnom zvijezdom na vrhu, na kojem piše godina 1957. i geslo Sloboda i pravda." },
-        { ime: "Jamestown", opis: "Najstarija četvrt, s crveno-bijelim svjetionikom iz 1930-ih i utvrdom James, koja je do 2008. bila zatvor. Ispod svjetionika je ribarska luka s oslikanim kanuima. Četvrt je poznata i po boksu: iz nekoliko ovdašnjih ulica poteklo je više svjetskih prvaka." },
-        { ime: "Tržnica Makola", opis: "Srce gradske trgovine drže žene, koje ovdje zovu kraljicama tržnice. Prodaju se tkanine s voštanim tiskom, začini, puževi i sušena riba. Idite ujutro i s mjesnim vodičem." },
-        { ime: "Centar W. E. B. Du Bois", opis: "U kući u kojoj je američki sociolog i borac za građanska prava proveo posljednje godine čuvaju se njegova knjižnica i radna soba. Pokopan je u vrtu, u mauzoleju okrugla oblika." },
-        { ime: "Nacionalni muzej", opis: "Muzej, otvoren uoči neovisnosti, prikazuje zlatne utege naroda Akan u obliku životinja i poslovica, kraljevske stolce, kente i predmete iz doba trgovine robljem." }
+        { ime: "Kwame Nkrumah Memorial Park", opis: "The mausoleum stands on the former British polo ground, on the exact spot where independence was proclaimed. It is shaped like a sword with its point turned downward, which in Akan culture is a sign of peace. The park also holds a headless bronze statue that was toppled in the coup of 1966, and its head was returned only decades later and is displayed beside it." },
+        { ime: "Independence Square and Black Star Gate", opis: "The vast parade ground is bounded by the Independence Arch and by a triumphal arch with a black star on top, inscribed with the year 1957 and the motto Freedom and Justice." },
+        { ime: "Jamestown", opis: "The oldest district, with a red-and-white lighthouse from the 1930s and James Fort, which was a prison until 2008. Below the lighthouse is a fishing harbor with painted canoes. The district is also known for boxing: several world champions have come from just a few of its streets." },
+        { ime: "Makola Market", opis: "The heart of the city's trade is in the hands of women, who are known here as market queens. They sell wax-print fabrics, spices, snails and dried fish. Go in the morning and with a local guide." },
+        { ime: "W. E. B. Du Bois Centre", opis: "The house where the American sociologist and civil rights campaigner spent his final years preserves his library and his study. He is buried in the garden, in a circular mausoleum." },
+        { ime: "National Museum", opis: "The museum, which opened on the eve of independence, displays the gold weights of the Akan people in the shape of animals and proverbs, royal stools, kente and objects from the era of the slave trade." }
       ],
       jesti: [
-        { ime: "Waakye za doručak", opis: "Kupuje se ujutro na uličnom štandu, a prodavačica vas pita što želite dodati na rižu s grahom." },
-        { ime: "Kenkey s prženom ribom", opis: "U Jamestownu ga jedu ribari, uz ljuti umak shito i svježu papričicu." },
-        { ime: "Kelewele navečer", opis: "U četvrti Osu štandovi s prženom bananom pojavljuju se čim padne mrak." }
+        { ime: "Waakye for breakfast", opis: "You buy it in the morning at a street stall, and the vendor asks what you would like added to your rice and beans." },
+        { ime: "Kenkey with fried fish", opis: "In Jamestown the fishermen eat it with the hot sauce shito and fresh pepper." },
+        { ime: "Kelewele in the evening", opis: "In the Osu district the fried plantain stalls appear as soon as darkness falls." }
       ],
       dozivjeti: [
-        { ime: "Šetnja Jamestownom", opis: "Mjesni vodiči vode kroz ribarsku luku, boksačke dvorane i ulice s muralima. U kolovozu se ovdje održava ulični festival umjetnosti Chale Wote." },
-        { ime: "Radionice lijesova u Teshieju", opis: "Stolari rado pokažu lijesove u obliku ribe, cipele ili boce i ispričaju za koga ih rade." },
-        { ime: "Centar umjetnosti", opis: "Na tržnici rukotvorina kupuju se kente, bubnjevi i rezbarije, uz obvezno i dugo cjenkanje." }
+        { ime: "A walk through Jamestown", opis: "Local guides lead you through the fishing harbor, the boxing gyms and the streets covered in murals. The Chale Wote street art festival is held here in August." },
+        { ime: "The coffin workshops in Teshie", opis: "The carpenters are happy to show you coffins shaped like a fish, a shoe or a bottle and to tell you who they are making them for." },
+        { ime: "The Arts Centre", opis: "At the handicraft market you can buy kente, drums and carvings, with long bargaining as an essential part of the deal." }
       ],
       agencije: [
-        { ime: "Visit Ghana", opis: "Službeni turistički portal Gane.", link: "https://visitghana.com/" },
-        { ime: "Ghana Tourism Authority", opis: "Državna turistička uprava, koja licencira vodiče i agencije.", link: "https://ghana.travel/" },
-        { ime: "Ghana Museums and Monuments Board", opis: "Uprava državnih muzeja i spomenika.", link: "https://gmmb.gov.gh/" }
+        { ime: "Visit Ghana", opis: "Ghana's official tourism portal.", link: "https://visitghana.com/" },
+        { ime: "Ghana Tourism Authority", opis: "The national tourism authority, which licenses guides and agencies.", link: "https://ghana.travel/" },
+        { ime: "Ghana Museums and Monuments Board", opis: "The body that manages the national museums and monuments.", link: "https://gmmb.gov.gh/" }
       ],
-      kada: "Najugodnije je od studenoga do ožujka. Oko 6. ožujka grad slavi Dan neovisnosti mimohodom na glavnom trgu."
+      kada: "The most pleasant time is from November to March. Around March 6 the city celebrates Independence Day with a parade on the main square."
     },
     {
       id: "cape-coast-elmina",
-      ime: "Cape Coast i Elmina",
+      ime: "Cape Coast and Elmina",
       vrsta: "grad",
-      sazetak: "Dvije bijele utvrde nad oceanom, najvažnija mjesta sjećanja na prekooceansku trgovinu robljem.",
+      sazetak: "Two white forts above the ocean, the most important places of remembrance of the transatlantic slave trade.",
       prica: [
-        "Portugalci su 1482. u Elmini sagradili utvrdu svetoga Jurja, najstariju europsku građevinu južno od Sahare. Nizozemci su je osvojili 1637. Petnaestak kilometara istočnije Šveđani su 1653. podigli utvrdu u Cape Coastu, koju su preuzeli Britanci i učinili sjedištem svoje uprave na Zlatnoj obali.",
-        "Obje su isprva služile trgovini zlatom, a zatim su postale skladišta ljudi. UNESCO je ganske utvrde i dvorce zaštitio 1979."
+        "In 1482 the Portuguese built the fort of St. George at Elmina, the oldest European building south of the Sahara. The Dutch captured it in 1637. About fifteen kilometers to the east, the Swedes raised a fort at Cape Coast in 1653, which the British took over and made the seat of their administration on the Gold Coast.",
+        "Both served the gold trade at first, and then they became warehouses for human beings. UNESCO gave protection to Ghana's forts and castles in 1979."
       ],
       vidjeti: [
-        { ime: "Dvorac Cape Coast", opis: "U podzemnim tamnicama bez prozora stotine su ljudi tjednima čekale brod. Na podu se i danas vidi stvrdnuti sloj koji je ostao od tog vremena. Točno iznad muške tamnice Britanci su sagradili kapelu. Prolaz završava Vratima bez povratka, kroz koja se izlazi na plažu s ribarskim kanuima." },
-        { ime: "Dvorac Elmina", opis: "Portugalski naziv znači rudnik, zbog zlata. S guvernerova balkona vidi se dvorište u koje su izvođene zarobljene žene, a u njemu je i topovska kugla uz koju su bile okovane one koje su se opirale. Iznad vrata jedne ćelije uklesana je lubanja: tko je ondje zatvoren, nije izlazio živ." },
-        { ime: "Utvrda São Jago", opis: "Na brdu nasuprot Elmini Nizozemci su sagradili utvrdu da nitko ne ponovi njihov trik, jer su upravo s tog brda topovima osvojili dvorac. Odozgo je najbolji pogled na dvorac, lagunu i luku." },
-        { ime: "Luka u Elmini", opis: "Pod zidinama dvorca stotine oslikanih kanua sa zastavama iskrcavaju ribu. Svaki nosi geslo ili biblijski citat. Prizor je bučan i šaren, a prije fotografiranja pitajte za dopuštenje." },
-        { ime: "Svetišta posuban", opis: "Šarene betonske građevine s kipovima brodova, lavova i vojnika pripadaju družinama asafo, nekadašnjim ratničkim skupinama naroda Fante. Svaka družina ima svoj broj, boje i zastavu." },
-        { ime: "Nacionalni park Kakum", opis: "Sat vremena od obale nalazi se prašuma s visećom stazom od sedam mostova, dugom oko 350 metara, na tridesetak metara iznad tla. Odozgo se gleda u krošnje, gdje žive majmuni i ptice kljunorošci." }
+        { ime: "Cape Coast Castle", opis: "In the windowless underground dungeons, hundreds of people waited for weeks for a ship. On the floor you can still see the hardened layer left behind from that time. Directly above the men's dungeon the British built a chapel. The passage ends at the Door of No Return, through which you step out onto a beach lined with fishing canoes." },
+        { ime: "Elmina Castle", opis: "The Portuguese name means the mine, because of the gold. From the governor's balcony you look down on the courtyard into which the captive women were brought out, and in it there is also the cannonball to which those who resisted were chained. Above the door of one cell a skull is carved: whoever was locked in there did not come out alive." },
+        { ime: "Fort São Jago", opis: "On the hill opposite Elmina the Dutch built a fort so that nobody could repeat their own trick, since it was from that very hill that their cannons had taken the castle. The best view of the castle, the lagoon and the harbor is from up there." },
+        { ime: "Elmina harbor", opis: "Beneath the castle walls, hundreds of painted canoes flying flags unload their fish. Each one bears a motto or a Bible verse. The scene is noisy and colorful, and you should ask permission before taking photographs." },
+        { ime: "Posuban shrines", opis: "These colorful concrete structures with statues of ships, lions and soldiers belong to the asafo companies, the former warrior groups of the Fante people. Each company has its own number, colors and flag." },
+        { ime: "Kakum National Park", opis: "An hour from the coast lies a rainforest with a canopy walkway of seven bridges, about 350 meters long and some thirty meters above the ground. From up there you look into the treetops, where monkeys and hornbills live." }
       ],
       jesti: [
-        { ime: "Fante kenkey", opis: "Ovdašnji se kenkey kuha u listu banane i mekši je od onoga u Akri. Jede se s ribom ravno iz luke." },
-        { ime: "Fufu s juhom od palminih oraha", opis: "Gusta crvena juha od ploda uljne palme s ribom ili rakovima specijalitet je obale." },
-        { ime: "Jastog i riba s roštilja", opis: "U restoranima na plaži uz dvorac peče se ulov dana, uz jollof ili pržene banane." }
+        { ime: "Fante kenkey", opis: "The local kenkey is boiled in a banana leaf and is softer than the one in Accra. It is eaten with fish straight from the harbor." },
+        { ime: "Fufu with palm nut soup", opis: "A thick red soup made from the fruit of the oil palm, with fish or crab, is the specialty of the coast." },
+        { ime: "Grilled lobster and fish", opis: "The beach restaurants beside the castle grill the catch of the day and serve it with jollof or fried plantains." }
       ],
       dozivjeti: [
-        { ime: "Vođeni obilazak dvoraca", opis: "U oba se dvorca ulazi samo s vodičem muzeja. Obilazak traje oko sat vremena i emotivno je težak, pa ne planirajte oba u istom danu." },
-        { ime: "Staza u krošnjama Kakuma", opis: "Dođite čim se park otvori, jer je ujutro svježije i mirnije, a životinje su aktivnije.", link: "https://www.ghanawildlife.org/" },
-        { ime: "Fetu Afahye", opis: "Prve subote u rujnu Cape Coast slavi žetvu povorkom poglavica na nosiljkama i družina asafo u bojama." }
+        { ime: "A guided tour of the castles", opis: "You can enter both castles only with a museum guide. The tour lasts about an hour and is emotionally heavy, so avoid planning both for the same day." },
+        { ime: "The Kakum canopy walkway", opis: "Arrive as soon as the park opens, because the morning is cooler and quieter, and the animals are more active.", link: "https://www.ghanawildlife.org/" },
+        { ime: "Fetu Afahye", opis: "On the first Saturday in September, Cape Coast celebrates the harvest with a procession of chiefs in palanquins and asafo companies in their colors." }
       ],
       agencije: [
-        { ime: "Ghana Museums and Monuments Board", opis: "Državna ustanova koja upravlja dvorcima i vodi obilaske.", link: "https://gmmb.gov.gh/" },
-        { ime: "UNESCO, utvrde i dvorci Gane", opis: "Opis zaštićenih utvrda uz obalu.", link: "https://whc.unesco.org/en/list/34" },
-        { ime: "Visit Ghana", opis: "Službeni turistički portal.", link: "https://visitghana.com/" }
+        { ime: "Ghana Museums and Monuments Board", opis: "The state institution that manages the castles and runs the tours.", link: "https://gmmb.gov.gh/" },
+        { ime: "UNESCO, Forts and Castles of Ghana", opis: "A description of the protected forts along the coast.", link: "https://whc.unesco.org/en/list/34" },
+        { ime: "Visit Ghana", opis: "The official tourism portal.", link: "https://visitghana.com/" }
       ],
-      kada: "Od studenoga do ožujka je najsuše. Od Akre se vozi oko tri sata, pa ostanite barem jednu noć."
+      kada: "It is driest from November to March. The drive from Accra takes about three hours, so stay at least one night."
     },
     {
       id: "kumasi",
       ime: "Kumasi",
       vrsta: "grad",
-      sazetak: "Prijestolnica kraljevstva Asante, grad zlatnog stolca, kentea i jedne od najvećih tržnica zapadne Afrike.",
+      sazetak: "The capital of the Asante kingdom, the city of the Golden Stool, of kente and of one of the largest markets in West Africa.",
       prica: [
-        "Kraljevstvo Asante osnovao je oko 1700. kralj Osei Tutu sa svećenikom Okomfom Anokyeom. Legenda kaže da je svećenik s neba prizvao zlatni stolac, koji se spustio kralju u krilo, i da u njemu živi duša cijeloga naroda. Na njemu nitko nikada ne sjedi, čak ni kralj.",
-        "Kada je britanski guverner 1900. zatražio da sjedne na stolac, izbio je ustanak, koji je predvodila kraljica majka Yaa Asantewaa. Stolac je ostao skriven, a kralj, asantehene, i danas stoluje u Kumasiju i uživa golem ugled."
+        "The Asante kingdom was founded around 1700 by King Osei Tutu together with the priest Okomfo Anokye. Legend says the priest summoned the Golden Stool from the sky, that it descended into the king's lap, and that the soul of the whole nation lives in it. Nobody ever sits on it, not even the king.",
+        "When the British governor demanded to sit on the stool in 1900, an uprising broke out, led by the Queen Mother Yaa Asantewaa. The stool remained hidden, and the king, the Asantehene, still reigns in Kumasi today and enjoys enormous prestige."
       ],
       vidjeti: [
-        { ime: "Muzej palače Manhyia", opis: "U kući koju su Britanci 1925. sagradili kralju po povratku iz progonstva izloženi su kraljevski predmeti i voštani likovi vladara. Od 2024. ovdje su izloženi i zlatni predmeti koje su britanski vojnici opljačkali u 19. stoljeću, a londonski su ih muzeji vratili na dugoročnu posudbu." },
-        { ime: "Tržnica Kejetia", opis: "Jedna od najvećih tržnica u zapadnoj Africi ima tisuće štandova, dijelom u novoj natkrivenoj zgradi, a dijelom u starim uličicama. Potražite dio s perlama i dio u kojem se prodaju sandale kakve nose poglavice." },
-        { ime: "Mač Okomfa Anokyea", opis: "U dvorištu bolnice mali paviljon čuva dršku mača koji je, prema predaji, svećenik zabio u zemlju na mjestu gdje se spustio zlatni stolac. Vjeruje se da bi kraljevstvo propalo kada bi ga netko izvukao, a navodno su mnogi uzalud pokušali." },
-        { ime: "Tradicionalne građevine naroda Asante", opis: "U selima oko grada sačuvano je desetak svetišta od blata, drva i slame, s reljefima adinkra simbola na zidovima. To su posljednji ostatci gradnje kraljevstva, koje je UNESCO zaštitio 1980. Najlakše se posjećuje svetište u Beseaseu." },
-        { ime: "Jezero Bosomtwe", opis: "Tridesetak kilometara od grada nalazi se okruglo jezero u krateru nastalom udarom meteorita prije oko milijun godina. Narodu Asante je sveto, pa ribari tradicionalno ne plove čamcima, nego leže na dasci i veslaju rukama." }
+        { ime: "Manhyia Palace Museum", opis: "The house that the British built for the king in 1925, on his return from exile, displays royal objects and wax figures of the rulers. Since 2024 it has also exhibited gold objects that British soldiers looted in the 19th century and that London museums have returned on long-term loan." },
+        { ime: "Kejetia Market", opis: "One of the largest markets in West Africa has thousands of stalls, partly in a new covered building and partly in the old alleys. Look for the bead section and for the section selling the kind of sandals that chiefs wear." },
+        { ime: "The Okomfo Anokye Sword", opis: "In the grounds of the hospital, a small pavilion guards the hilt of the sword which, according to tradition, the priest drove into the ground at the spot where the Golden Stool came down. People believe the kingdom would collapse if anyone pulled it out, and many are said to have tried in vain." },
+        { ime: "Asante Traditional Buildings", opis: "In the villages around the city about ten shrines of mud, wood and thatch survive, with reliefs of adinkra symbols on their walls. They are the last remains of the kingdom's architecture, which UNESCO gave protection in 1980. The easiest one to visit is the shrine at Besease." },
+        { ime: "Lake Bosomtwe", opis: "About thirty kilometers from the city lies a round lake in a crater formed by a meteorite impact around a million years ago. It is sacred to the Asante people, so the fishermen traditionally do not use boats and instead lie on a plank and paddle with their hands." }
       ],
       jesti: [
-        { ime: "Fufu s laganom juhom", opis: "Kumasi je srce zemlje fufua. Poslužuje se u ljutoj bistroj juhi od rajčice s kozletinom, a jede se rukom." },
-        { ime: "Juha od kikirikija", opis: "Gusta juha s piletinom i rižinim okruglicama omo tuo tradicionalan je nedjeljni ručak." },
-        { ime: "Čokolada i kakao", opis: "Pokrajina oko grada glavno je područje uzgoja kakaa, a na farmama se može kušati slatka bijela pulpa iz svježeg ploda." }
+        { ime: "Fufu with light soup", opis: "Kumasi is the heart of fufu country. It is served in a spicy, clear tomato soup with goat meat and eaten with your hand." },
+        { ime: "Groundnut soup", opis: "A thick peanut soup with chicken and the rice balls called omo tuo is the traditional Sunday lunch." },
+        { ime: "Chocolate and cocoa", opis: "The region around the city is the main cocoa-growing area, and on the farms you can taste the sweet white pulp from a fresh pod." }
       ],
       dozivjeti: [
-        { ime: "Tkanje kentea u Bonwireu", opis: "U selu u kojem je, prema predaji, kente nastao tkalci vas uče provući čunak i objašnjavaju imena uzoraka. Kupujte izravno od tkalca." },
-        { ime: "Otiskivanje adinkre u Ntonsu", opis: "Sami birate pečate od tikve i otiskujete simbole na traku tkanine, koju nosite kući." },
-        { ime: "Svečanost Akwasidae", opis: "Ako se datum poklopi s vašim boravkom, dođite pred palaču u nedjelju ujutro, pristojno odjevene, i gledajte kako poglavice pod suncobranima pristupaju kralju." }
+        { ime: "Kente weaving in Bonwire", opis: "In the village where, according to tradition, kente originated, the weavers teach you to pass the shuttle through and explain the names of the patterns. Buy directly from the weaver." },
+        { ime: "Adinkra printing in Ntonso", opis: "You choose the calabash stamps yourself and print the symbols onto a strip of cloth, which you take home with you." },
+        { ime: "The Akwasidae ceremony", opis: "If the date coincides with your stay, come to the palace on Sunday morning, respectfully dressed, and watch the chiefs approach the king beneath their umbrellas." }
       ],
       agencije: [
-        { ime: "Visit Ghana", opis: "Službeni turistički portal Gane.", link: "https://visitghana.com/" },
-        { ime: "Ghana Museums and Monuments Board", opis: "Uprava koja skrbi o tradicionalnim građevinama naroda Asante.", link: "https://gmmb.gov.gh/" },
-        { ime: "UNESCO, tradicionalne građevine Asantea", opis: "Opis zaštićenih svetišta.", link: "https://whc.unesco.org/en/list/35" }
+        { ime: "Visit Ghana", opis: "Ghana's official tourism portal.", link: "https://visitghana.com/" },
+        { ime: "Ghana Museums and Monuments Board", opis: "The body that looks after the traditional buildings of the Asante people.", link: "https://gmmb.gov.gh/" },
+        { ime: "UNESCO, Asante Traditional Buildings", opis: "A description of the protected shrines.", link: "https://whc.unesco.org/en/list/35" }
       ],
-      kada: "Od studenoga do veljače je suho. Sela Bonwire i Ntonso te svetište u Beseaseu mogu se s vozačem obići u jednom danu."
+      kada: "It is dry from November to February. The villages of Bonwire and Ntonso and the shrine at Besease can be visited in a single day with a driver."
     }
   ],
   izvori: [
     { ime: "Visit Ghana", url: "https://visitghana.com/" },
     { ime: "Ghana Tourism Authority", url: "https://ghana.travel/" },
     { ime: "Ghana Museums and Monuments Board", url: "https://gmmb.gov.gh/" },
-    { ime: "UNESCO: Utvrde i dvorci Gane", url: "https://whc.unesco.org/en/list/34" },
-    { ime: "UNESCO: Tradicionalne građevine naroda Asante", url: "https://whc.unesco.org/en/list/35" },
+    { ime: "UNESCO: Forts and Castles of Ghana", url: "https://whc.unesco.org/en/list/34" },
+    { ime: "UNESCO: Asante Traditional Buildings", url: "https://whc.unesco.org/en/list/35" },
     { ime: "Ghana Wildlife Division", url: "https://www.ghanawildlife.org/" }
   ]
 };

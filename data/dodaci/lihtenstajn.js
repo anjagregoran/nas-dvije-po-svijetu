@@ -1,43 +1,43 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["lihtenstajn"] = {
   kupiti: [
-    { ime: "Vino iz Vaduza", opis: "Na toplim padinama iznad Rajne raste crni pinot, a vinograd Herawingert u Vaduzu pripada kneževskoj obitelji. Kupite bocu u kneževskoj vinariji ili kod jednog od malih vinara u zemlji." },
-    { ime: "Poštanske marke", opis: "Lihtenštajnske marke stoljeće su cijenjene među sakupljačima zbog lijepog dizajna i malih naklada. Prodaju se u pošti i filatelističkoj prodavaonici u središtu Vaduza, a lagane su i lako se nose." },
-    { ime: "Keramika iz Nendelna", opis: "U mjestu Nendeln keramička radionica od 19. stoljeća izrađuje ručno oslikano posuđe i kaljeve peći. Šalica ili zdjelica odande pravi je predmet domaće izrade." },
-    { ime: "Planinski sir", opis: "Ljeti se na pašnjacima iznad Triesenberga i Malbuna radi tvrdi planinski sir od mlijeka krava koje pasu na visini. Kupite ga u planinskim sirarnama ili u seoskim trgovinama u dolini." },
-    { ime: "Kukuruzna krupica Ribel", opis: "Od bijelog rajnskog kukuruza kuha se pa prži Ribel, staro seljačko jelo koje se jede uz kavu s mlijekom ili kompot. Vrećicu krupice naći ćete u trgovinama s domaćim proizvodima." }
+    { ime: "Wine from Vaduz", opis: "Pinot Noir grows on the warm slopes above the Rhine, and the Herawingert vineyard in Vaduz belongs to the princely family. Buy a bottle at the prince's winery or from one of the country's small winemakers." },
+    { ime: "Postage stamps", opis: "Liechtenstein's stamps have been prized by collectors for a century for their beautiful design and small print runs. They are sold at the post office and the philatelic shop in the center of Vaduz, and they weigh nothing in your bag." },
+    { ime: "Ceramics from Nendeln", opis: "In the village of Nendeln a ceramics workshop has been making hand-painted tableware and tiled stoves since the 19th century. A cup or small bowl from there is a truly local piece." },
+    { ime: "Alpine cheese", opis: "In summer a hard mountain cheese is made on the pastures above Triesenberg and Malbun from the milk of cows grazing at altitude. Buy it at the alpine dairies or in village shops down in the valley." },
+    { ime: "Ribel cornmeal", opis: "White Rhine valley corn is cooked and then fried into Ribel, an old farmers' dish eaten with milky coffee or stewed fruit. You will find a bag of the cornmeal in shops that sell local products." }
   ],
   mjesta: {
     "vaduz": {
       dragulji: [
-        { ime: "Mitteldorf i Crvena kuća", opis: "Iznad glavne ulice sačuvan je stari dio Vaduza s vinogradarskim kućama, a najupečatljivija je Crvena kuća s kulom usred vinograda. Šetnja ovuda traje pola sata i otkriva kako je mjesto izgledalo prije banaka." },
-        { ime: "Stari most na Rajni", opis: "Natkriveni drveni most iz 1901. spaja Vaduz sa švicarskim Sevelenom i jedini je takav preostao na ovom dijelu Rajne. Na sredini mosta prelazite državnu granicu, pješice ili biciklom." },
-        { ime: "Ruševina Wildschloss", opis: "Od kneževskog dvorca, u koji se ne može ući, šumska staza penje se dalje do ruševina utvrde Schalun. Do nje se hoda otprilike sat vremena, a nagrada je pogled na dolinu Rajne." }
+        { ime: "Mitteldorf and the Red House", opis: "Above the main street the old part of Vaduz survives with its winegrowers' houses, the most striking being the Red House with its tower among the vines. A walk here takes half an hour and shows you what the town looked like before the banks." },
+        { ime: "The old Rhine bridge", opis: "A covered wooden bridge from 1901 links Vaduz with Sevelen in Switzerland and is the only one of its kind left on this stretch of the Rhine. In the middle of the bridge you cross the national border, on foot or by bike." },
+        { ime: "The Wildschloss ruin", opis: "From the prince's castle, which you cannot enter, a forest trail climbs on to the ruins of Schalun Castle. The walk takes about an hour, and the reward is a view over the Rhine valley." }
       ],
       domaci: [
-        { ime: "Šetnja nasipom Rajne", opis: "Uz rijeku se cijelom dužinom zemlje pruža nasip kojim domaći šeću, trče i voze bicikl nakon posla. S njega se s jedne strane vide švicarske, a s druge lihtenštajnske planine." },
-        { ime: "Käsknöpfle", opis: "Nacionalno jelo su sitni njoki s topljenim sirom i prženim lukom, a uz njih obavezno dolazi kaša od jabuka. Naručite ih u gostionici i podijelite, jer su vrlo zasitni." },
-        { ime: "Čaša vina uz vinograd", opis: "Predvečer se ljudi rado nađu na čaši domaćeg pinota, među ostalim i u kušaonici kneževske vinarije uz vinograd Herawingert. Vino se ovdje pije polako i uz razgovor." }
+        { ime: "A walk on the Rhine dike", opis: "A dike runs along the river for the whole length of the country, and locals walk, run and bike on it after work. From the top you see the Swiss mountains on one side and Liechtenstein's on the other." },
+        { ime: "Käsknöpfle", opis: "The national dish is small dumplings with melted cheese and fried onions, always served with applesauce. Order them at an inn and share, because they are very filling." },
+        { ime: "A glass of wine by the vineyard", opis: "Toward evening people like to meet over a glass of local Pinot, at places such as the tasting room of the prince's winery beside the Herawingert vineyard. Wine here is sipped slowly, over conversation." }
       ],
       kupiti: [
-        { ime: "Crni pinot iz Vaduza", opis: "Vaduz ima najtoplije vinograde u zemlji, a vino se gotovo ne izvozi, pa ga drugdje nećete naći. Kupite ga u kneževskoj vinariji na sjevernom rubu mjesta." },
-        { ime: "Marke i razglednice", opis: "U središtu Vaduza marke se mogu kupiti u pošti, a razglednicu možete odmah i poslati s lihtenštajnskim žigom. Sakupljačima su zanimljiva prigodna izdanja u malim arcima." }
+        { ime: "Pinot Noir from Vaduz", opis: "Vaduz has the warmest vineyards in the country, and the wine is hardly exported, so you will not find it elsewhere. Buy it at the prince's winery on the northern edge of town." },
+        { ime: "Stamps and postcards", opis: "In the center of Vaduz you can buy stamps at the post office and mail a postcard right away with a Liechtenstein postmark. Collectors will enjoy the special issues in small sheets." }
       ]
     },
     "malbun": {
       dragulji: [
-        { ime: "Gaflei i Fürstensteig", opis: "S vidikovca Gaflei iznad Triesenberga počinje najpoznatija planinarska staza u zemlji, uklesana u stijenu visoko nad dolinom Rajne. Staza je izložena, pa je prođite samo ako nemate vrtoglavicu, a inače uživajte u pogledu s početka." },
-        { ime: "Steg", opis: "Zaselak na putu za Malbun okružuju dva prstena starih pastirskih koliba oko zajedničke livade. Uz njega je malo jezero Gänglesee, oko kojeg vodi lagana šetnica." },
-        { ime: "Kapelica na Maseschi", opis: "Na livadi visoko iznad doline stoji mala kapelica doseljenika Walsera, koji su prije sedam stoljeća naselili ove padine. Uz nju je stara gostionica, a pogled seže daleko niz Rajnu." }
+        { ime: "Gaflei and the Fürstensteig", opis: "The country's best-known hiking trail starts at the Gaflei lookout above Triesenberg and is cut into the rock high above the Rhine valley. The trail is exposed, so walk it only if heights do not bother you, and otherwise simply enjoy the view from the start." },
+        { ime: "Steg", opis: "This hamlet on the road to Malbun is ringed by two circles of old herders' huts around a shared meadow. Beside it is the small Gänglesee lake, with an easy path around it." },
+        { ime: "The chapel at Masescha", opis: "On a meadow high above the valley stands the little chapel of the Walser settlers, who came to these slopes seven centuries ago. There is an old inn next to it, and the view runs far down the Rhine." }
       ],
       domaci: [
-        { ime: "Sjedežnicom na Sareis", opis: "Iz Malbuna sjedežnica vodi na sedlo Sareiserjoch, odakle obitelji kreću na lagane šetnje po grebenu uz austrijsku granicu. Gore je i koliba s terasom, na kojoj se sjedi na suncu." },
-        { ime: "Užina na planinskom pašnjaku", opis: "Iznad Stega nalazi se planinska sirana s gostionicom, do koje se dolazi kratkom šetnjom. Ondje se jede sir napravljen nekoliko metara dalje, uz domaći kruh i mlaćenicu." },
-        { ime: "Zimsko sanjkanje i šetnje", opis: "Malbun je malo obiteljsko skijalište, u kojem domaći zimi jednako rado sanjkaju i hodaju utabanim stazama. Ugođaj je miran, kao na seoskom brijegu." }
+        { ime: "The chairlift to Sareis", opis: "From Malbun a chairlift goes up to the Sareiserjoch saddle, where families set off on easy ridge walks along the Austrian border. There is a hut with a terrace at the top where people sit in the sun." },
+        { ime: "A snack on the alpine pasture", opis: "Above Steg there is an alpine dairy with a restaurant, reached by a short walk. You eat cheese made a few yards away, with homemade bread and buttermilk." },
+        { ime: "Sledding and winter walks", opis: "Malbun is a small family ski area where locals are just as happy to sled and walk the packed winter paths. The mood is calm, like a village hill." }
       ],
       kupiti: [
-        { ime: "Sir s planinskih pašnjaka", opis: "Planinski sir iz sirane iznad Stega radi se samo ljeti i prodaje izravno na pašnjaku. Odrežite komad za ponijeti, jer ga u dolini brzo nestane." },
-        { ime: "Sura Kees", opis: "Stari sir od obranog kiselog mlijeka ima vrlo malo masti i oštar miris, a jede se s lukom, octom i uljem. Potražite ga u planinskim siranama i seoskim trgovinama u Triesenbergu." }
+        { ime: "Cheese from the alpine pastures", opis: "The mountain cheese from the dairy above Steg is made only in summer and sold right on the pasture. Have a piece cut to take with you, because it sells out quickly down in the valley." },
+        { ime: "Sura Kees", opis: "This old cheese made from skimmed sour milk has very little fat and a sharp smell, and it is eaten with onion, vinegar and oil. Look for it at alpine dairies and village shops in Triesenberg." }
       ]
     }
   }

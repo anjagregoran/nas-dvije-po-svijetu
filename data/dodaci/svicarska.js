@@ -1,146 +1,146 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["svicarska"] = {
   kupiti: [
-    { ime: "Čokolada malih majstora", opis: "Osim poznatih marki, gotovo svaki švicarski grad ima svoje slastičare koji svježe praline i tartufe prodaju na vagu. Kupite ih pred povratak, jer su bez konzervansa i traju kratko." },
-    { ime: "Sir sa zaštićenim podrijetlom", opis: "Gruyère, Emmentaler, Appenzeller i Tête de Moine rade se od sirovog mlijeka i dozrijevaju mjesecima. Tražite ih u sirarnama i na tržnicama, gdje će vam odrezati komad po želji i zamotati ga za put." },
-    { ime: "Džepni nož", opis: "Švicarski vojnički nož s crvenim koricama i križem proizvodi se u Ibachu i Delémontu od kraja 19. stoljeća. U specijaliziranim trgovinama noževa mogu vam na oštricu ugravirati ime." },
-    { ime: "Basler Läckerli", opis: "Tvrdi medeni kolačić s bademima, kandiranom narančinom korom i kirschem potječe iz Basela i traje tjednima. Prodaje se u limenim kutijama u slastičarnicama i boljim trgovinama po cijeloj zemlji." },
-    { ime: "Olovke Caran d'Ache", opis: "Ženevska tvornica od 1915. proizvodi drvene bojice i pastele uz koje odrasta svako švicarsko dijete. Naći ćete ih u papirnicama i robnim kućama, a limena kutija lijep je dar za svakoga tko crta." },
-    { ime: "Papirnati izresci", opis: "Scherenschnitt je narodna umjetnost izrezivanja sitnih prizora iz crnog papira, s kravama, pastirima i jelama, a najjača je u kraju Pays-d'Enhaut. Ručne radove prodaju galerije i trgovine rukotvorina u alpskim mjestima." }
+    { ime: "Chocolate from small makers", opis: "Beyond the famous brands, nearly every Swiss town has its own confectioners who sell fresh pralines and truffles by weight. Buy them just before you go home, since they contain no preservatives and do not keep long." },
+    { ime: "Cheese with protected origin", opis: "Gruyère, Emmentaler, Appenzeller and Tête de Moine are made from raw milk and aged for months. Look for them at cheese shops and markets, where they will cut a piece to your liking and wrap it for the trip." },
+    { ime: "A pocket knife", opis: "The Swiss Army knife with its red handle and cross has been made in Ibach and Delémont since the end of the 19th century. Specialty knife shops can engrave a name on the blade." },
+    { ime: "Basler Läckerli", opis: "This firm honey cookie with almonds, candied orange peel and kirsch comes from Basel and keeps for weeks. It is sold in tins at pastry shops and better stores across the country." },
+    { ime: "Caran d'Ache pencils", opis: "The Geneva factory has been making colored pencils and pastels since 1915, and every Swiss child grows up with them. You will find them in stationery shops and department stores, and a tin makes a lovely gift for anyone who draws." },
+    { ime: "Paper cutouts", opis: "Scherenschnitt is the folk art of cutting tiny scenes of cows, herders and fir trees out of black paper, and it is strongest in the Pays-d'Enhaut region. Handmade pieces are sold by galleries and craft shops in Alpine villages." }
   ],
   mjesta: {
     "zurich": {
       dragulji: [
-        { ime: "Schipfe", opis: "Uz rijeku Limmat, ispod brežuljka Lindenhof, proteže se jedna od najstarijih gradskih ulica s malim obrtničkim radionicama. Mirna je i sjenovita, a s nje se lijepo vide crkve na drugoj obali." },
-        { ime: "Lukovi vijadukta u Zürich Westu", opis: "U nekadašnjoj industrijskoj četvrti pod kamenim lukovima željezničkog vijadukta smjestile su se trgovine, radionice i natkrivena tržnica. Ovdje je grad sasvim drukčiji od onoga oko banaka." },
-        { ime: "Rieterpark", opis: "Najveći gradski perivoj leži na padini u četvrti Enge, oko stare vile u kojoj je danas muzej. S travnjaka pod starim stablima vide se jezero i Alpe, a ljudi je malo." }
+        { ime: "Schipfe", opis: "One of the city's oldest streets runs along the Limmat river below the Lindenhof hill, lined with small craft workshops. It is quiet and shady, with a lovely view of the churches on the other bank." },
+        { ime: "The viaduct arches in Zürich West", opis: "In this former industrial district, shops, workshops and a covered market have moved in under the stone arches of a railway viaduct. The city here feels nothing like the one around the banks." },
+        { ime: "Rieterpark", opis: "The city's largest park lies on a slope in the Enge district, around an old villa that is now a museum. From the lawn under the old trees you can see the lake and the Alps, and few people come." }
       ],
       domaci: [
-        { ime: "Kupanje u gradu", opis: "Ljeti se u Zürichu u pauzi za ručak i nakon posla skače u jezero i rijeku s drvenih kupališta koja zovu Badi. Postoji i secesijsko kupalište samo za žene na Limmatu, a neka se kupališta navečer pretvaraju u barove." },
-        { ime: "Tržnica na Bürkliplatzu", opis: "Utorkom i petkom prijepodne na trgu uz jezero prodaju se povrće, sir, cvijeće i kruh. Stanovnici grada kupuju prije posla, pa dođite rano i doručkujte uz vodu." },
-        { ime: "Nedjelja na Uetlibergu", opis: "Na kućnu planinu vlak vozi s glavnog kolodvora, a gore se hoda grebenom s pogledom na jezero i Alpe. Stanovnici Züricha penju se ovamo i kad je u gradu magla, jer je vrh tada iznad oblaka." }
+        { ime: "Swimming in the city", opis: "In summer people in Zurich jump into the lake and the river at lunchtime and after work from wooden bathhouses called Badis. There is even an Art Nouveau bath for women only on the Limmat, and some of the baths turn into bars in the evening." },
+        { ime: "The market at Bürkliplatz", opis: "On Tuesday and Friday mornings vegetables, cheese, flowers and bread are sold on the square by the lake. Residents shop before work, so come early and have breakfast by the water." },
+        { ime: "Sunday on the Uetliberg", opis: "A train runs from the main station up the city's own mountain, where you walk the ridge with views of the lake and the Alps. Zurich residents come up even when the city is fogged in, because the summit is then above the clouds." }
       ],
       kupiti: [
-        { ime: "Luxemburgerli", opis: "Sitni, prozračni kolačići nalik makaronima, punjeni laganom kremom, specijalitet su slastičarnice Sprüngli na trgu Paradeplatz. Traju samo nekoliko dana, pa ih kupite neposredno prije puta." },
-        { ime: "Torbe od kamionskih cerada", opis: "Braća Freitag počela su u Zürichu šivati torbe od rabljenih cerada, pojaseva i zračnica, pa je svaka torba jedinstvena. Njihova trgovina u tornju od složenih kontejnera u Zürich Westu postala je mala gradska znamenitost." },
-        { ime: "Züri Tirggel", opis: "Tanki, tvrdi medenjaci s utisnutim prizorima iz gradske povijesti peku se u Zürichu od srednjeg vijeka. Naći ćete ih u pekarnicama i slastičarnicama, najviše oko Božića." }
+        { ime: "Luxemburgerli", opis: "These small, airy cookies, similar to macarons and filled with a light cream, are the specialty of the Sprüngli pastry shop on Paradeplatz. They keep only a few days, so buy them right before your trip." },
+        { ime: "Bags made from truck tarps", opis: "The Freitag brothers started sewing bags in Zurich from used truck tarps, seat belts and inner tubes, so every bag is one of a kind. Their shop in a tower of stacked shipping containers in Zürich West has become a small city landmark." },
+        { ime: "Züri Tirggel", opis: "Thin, hard honey cookies stamped with scenes from the city's history have been baked in Zurich since the Middle Ages. You will find them at bakeries and pastry shops, mostly around Christmas." }
       ]
     },
     "luzern": {
       dragulji: [
-        { ime: "Zidine Musegg", opis: "Iznad starog grada sačuvan je dug potez srednjovjekovnih zidina s devet kula, od kojih je nekoliko ljeti otvoreno. S ophoda se vide krovovi, jezero i planine, a uz zid pasu krave škotske pasmine." },
-        { ime: "Park Dreilinden", opis: "Na brežuljku iznad jezera stari je perivoj oko nekadašnje vile, s golemim stablima i klupama okrenutima prema Pilatusu. Ovamo dolaze uglavnom ljudi iz susjedstva." },
-        { ime: "Gütsch", opis: "Na brdo s bijelim dvorcem iznad grada vozi mala uspinjača, a može se i pješice kroz šumu. Odozgo se vide cijeli stari grad, rijeka Reuss i jezero." }
+        { ime: "The Musegg Wall", opis: "A long stretch of medieval wall with nine towers survives above the old town, and several towers are open in summer. From the walkway you see rooftops, the lake and the mountains, and Highland cattle graze beside the wall." },
+        { ime: "Dreilinden Park", opis: "On a hill above the lake lies an old park around a former villa, with giant trees and benches facing Mount Pilatus. Mostly people from the neighborhood come here." },
+        { ime: "Gütsch", opis: "A small funicular runs up to the hill with the white château above town, or you can walk up through the forest. From the top you see the whole old town, the Reuss river and the lake." }
       ],
       domaci: [
-        { ime: "Tržnica uz Reuss", opis: "Utorkom i subotom prijepodne štandovi se nižu obalama rijeke, pod arkadama i uz most. Stanovnici Luzerna tu kupuju sir, kruh i cvijeće, a zatim popiju kavu uz vodu." },
-        { ime: "Ufschötti", opis: "Travnata plaža na jezeru nekoliko je minuta hoda od kolodvora i ljeti je puna studenata i obitelji. Ponesite ručnik i nešto za jelo, jer se ovdje kupa i roštilja do večeri." },
-        { ime: "Chügelipastete", opis: "Luzernski specijalitet je košarica od lisnatog tijesta punjena mesnim okruglicama u bijelom umaku s gljivama. Jede se u tradicionalnim gostionicama starog grada, osobito u vrijeme karnevala." }
+        { ime: "The market along the Reuss", opis: "On Tuesday and Saturday mornings stalls line the riverbanks, under the arcades and by the bridge. Lucerne residents buy cheese, bread and flowers here and then have a coffee by the water." },
+        { ime: "Ufschötti", opis: "This grassy lake beach is a few minutes' walk from the train station and fills with students and families in summer. Bring a towel and something to eat, because people swim and grill here until evening." },
+        { ime: "Chügelipastete", opis: "Lucerne's specialty is a puff pastry shell filled with small meatballs in a white mushroom sauce. It is served in the traditional inns of the old town, especially around carnival time." }
       ],
       kupiti: [
-        { ime: "Birnenweggen", opis: "Štruca od tijesta punjena gustim nadjevom od suhih krušaka, oraha i začina tipična je za središnju Švicarsku. Kupite je u pekarnici ili na tržnici i režite na tanke kriške uz maslac." },
-        { ime: "Lozärner Rägetröpfli", opis: "Čokoladne praline u obliku kišnih kapi punjene su kirschem i šaljivo podsjećaju na to da u Luzernu često kiši. Rade ih gradski slastičari i prodaju u malim kutijama." }
+        { ime: "Birnenweggen", opis: "This loaf of dough rolled around a thick filling of dried pears, walnuts and spices is typical of central Switzerland. Buy it at a bakery or the market and slice it thin with butter." },
+        { ime: "Lozärner Rägetröpfli", opis: "These chocolate pralines shaped like raindrops are filled with kirsch and poke gentle fun at how often it rains in Lucerne. Local confectioners make them and sell them in small boxes." }
       ]
     },
     "bern": {
       dragulji: [
-        { ime: "Matte", opis: "Stara obrtnička četvrt leži dolje uz rijeku, pod zidinama starog grada, a imala je i vlastiti govor. Spustite se stubama ili malim dizalom s terase katedrale i prošećite uz vodu." },
-        { ime: "Terasa katedrale", opis: "Münsterplattform je park pod kestenima visoko nad rijekom, gdje se igraju boće, a djeca trče po šljunku. Sjednite na klupu uz ogradu i gledajte krovove četvrti Matte i zelenu Aare." },
-        { ime: "Gurten", opis: "Na kućno brdo Berna vozi uspinjača, a gore su livade, vidikovac i pogled na lanac bernskih Alpa. Mnogi se gore popnu uspinjačom, pa se u grad vrate pješice kroz šumu." }
+        { ime: "Matte", opis: "The old craftsmen's quarter lies down by the river below the old town walls and once had its own dialect. Take the steps or the little elevator down from the cathedral terrace and walk along the water." },
+        { ime: "The cathedral terrace", opis: "The Münsterplattform is a park under chestnut trees high above the river, where people play boules and children run on the gravel. Sit on a bench by the railing and look down on the roofs of Matte and the green Aare." },
+        { ime: "Gurten", opis: "A funicular climbs Bern's own hill, where you find meadows, a lookout tower and a view of the Bernese Alps. Many people ride up and then walk back to the city through the forest." }
       ],
       domaci: [
-        { ime: "Plutanje niz Aare", opis: "Ljeti stanovnici Berna hodaju uzvodno uz rijeku, skoče u bistru zelenu vodu i puste da ih struja nosi do kupališta Marzili, podno zgrade parlamenta. Rijeka je hladna i brza, pa se pridružite samo ako ste dobre plivačice i izađite na crveno označenim rukohvatima." },
-        { ime: "Tržnica pred parlamentom", opis: "Utorkom i subotom prijepodne trgovi Bundesplatz i Bärenplatz puni su štandova sa sirom, povrćem i cvijećem. Domaći kupuju i ćaskaju, a političari u prolazu nikoga ne uzbuđuju." },
-        { ime: "Podrumi pod arkadama", opis: "Uz kilometre natkrivenih arkada starog grada koso položena vrata vode u podrume, u kojima su danas barovi, mala kazališta i trgovine. Zavirite u poneki navečer na čašu vina." }
+        { ime: "Floating down the Aare", opis: "In summer Bern residents walk upstream along the river, jump into the clear green water and let the current carry them to the Marzili baths below the parliament building. The river is cold and fast, so join in only if you are a strong swimmer and get out at the red handrails." },
+        { ime: "The market in front of parliament", opis: "On Tuesday and Saturday mornings the Bundesplatz and Bärenplatz squares fill with stalls of cheese, vegetables and flowers. Locals shop and chat, and nobody blinks when a politician walks by." },
+        { ime: "Cellars under the arcades", opis: "Along the miles of covered arcades in the old town, slanted doors lead down to cellars that now hold bars, small theaters and shops. Look into one or two in the evening for a glass of wine." }
       ],
       kupiti: [
-        { ime: "Mandelbärli", opis: "Mekani kolačić od badema u obliku medvjeda, grbovne životinje Berna, najdraži je slatki dar iz grada. Prodaje se u pekarnicama starog grada, pojedinačno ili u kutijama." },
-        { ime: "Bernski medenjak s lješnjacima", opis: "Berner Haselnusslebkuchen radi se od mljevenih lješnjaka i badema, bez brašna, i često je ukrašen šećernim medvjedom. Naći ćete ga u gradskim slastičarnicama tijekom cijele godine." },
-        { ime: "Emmentaler s tržnice", opis: "Dolina Emmental počinje nadomak grada, pa sirari na bernskoj tržnici prodaju sir različite zrelosti izravno iz vlastitih podruma. Zamolite da kušate mladi i odležani pa odaberite." }
+        { ime: "Mandelbärli", opis: "A soft almond cake in the shape of a bear, the animal on Bern's coat of arms, is the favorite sweet gift from the city. It is sold in old town bakeries, singly or in boxes." },
+        { ime: "Bernese hazelnut gingerbread", opis: "Berner Haselnusslebkuchen is made from ground hazelnuts and almonds with no flour and is often decorated with a sugar bear. You will find it in the city's pastry shops all year." },
+        { ime: "Emmentaler from the market", opis: "The Emmental valley begins just outside the city, so cheesemakers at the Bern market sell cheese of different ages straight from their own cellars. Ask to taste a young one and an aged one, then choose." }
       ]
     },
     "zeneva": {
       dragulji: [
-        { ime: "Carouge", opis: "Gradić koji su u 18. stoljeću sagradili sardinski kraljevi danas je dio Ženeve, s niskim kućama, zelenim kapcima i skrivenim vrtovima. Dođite tramvajem zbog obrtničkih radionica, tržnice i kafića na trgu." },
-        { ime: "Jonction", opis: "Na zapadnom kraju grada modra Rhona iz jezera spaja se s mutnom, sivom Arvom s ledenjaka, pa dvije boje dugo teku jedna uz drugu. Najbolje se vidi sa željezničkog vijadukta iznad ušća, koji ima pješačku stazu." },
-        { ime: "Parc La Grange", opis: "Na lijevoj obali jezera pruža se perivoj s velikim ružičnjakom, starom vilom i stoljetnim stablima. Travnjak se blago spušta prema vodi, a u njega zalaze uglavnom stanovnici grada." }
+        { ime: "Carouge", opis: "This little town built by the kings of Sardinia in the 18th century is now part of Geneva, with low houses, green shutters and hidden gardens. Take the tram there for the craft workshops, the market and the cafés on the square." },
+        { ime: "Jonction", opis: "At the western end of the city the blue Rhône from the lake meets the cloudy gray Arve from the glaciers, and the two colors flow side by side for a long way. The best view is from the railway viaduct above the confluence, which has a footpath." },
+        { ime: "Parc La Grange", opis: "On the left bank of the lake lies a park with a large rose garden, an old villa and centuries-old trees. The lawn slopes gently toward the water, and most of the people here live in the city." }
       ],
       domaci: [
-        { ime: "Bains des Pâquis", opis: "Na molu usred grada ljeti se kupa i sunča, a zimi se ide u saunu i hamam, pa na fondue za zajedničkim stolovima. Ovdje se miješaju svi slojevi grada i ugođaj je sasvim opušten." },
-        { ime: "Buvljak na Plainpalaisu", opis: "Srijedom i subotom velika gradska ploha pretvara se u buvljak s knjigama, satovima, namještajem i pločama. Prekapajte bez žurbe, kao domaći, koji ovamo dolaze i samo radi šetnje." },
-        { ime: "Žuti brodići preko jezera", opis: "Mali žuti brodovi, zvani mouettes, voze između obala kao dio javnog prijevoza i vrijede uz običnu kartu. Stanovnici ih koriste kao prečac, a vama je to najjeftinija vožnja s pogledom na vodoskok." }
+        { ime: "Bains des Pâquis", opis: "On this pier in the middle of the city people swim and sunbathe in summer, and in winter they come for the sauna and hammam and then share fondue at long tables. All walks of city life mix here, and the mood is completely relaxed." },
+        { ime: "The flea market at Plainpalais", opis: "On Wednesdays and Saturdays the big open plain turns into a flea market of books, watches, furniture and records. Browse without hurry like the locals, who also come just for the stroll." },
+        { ime: "The yellow boats across the lake", opis: "Small yellow boats called mouettes shuttle between the two shores as part of public transit and accept a regular ticket. Residents use them as a shortcut, and for you it is the cheapest ride with a view of the water jet." }
       ],
       kupiti: [
-        { ime: "Pavés de Genève", opis: "Čokoladne kocke posute kakaom oblikom podsjećaju na kocke kojima su popločene stare ulice i tope se u ustima. Rade ih ženevski čokolatijeri, a kako su svježe, kupite ih pred sam odlazak." },
-        { ime: "Vino ženevskog kantona", opis: "Malo tko zna da je Ženeva okružena vinogradima, a vina se gotovo ne izvoze. Potražite chasselas i gamay iz Satignyja u gradskim vinotekama ili na tržnici u Carougeu." },
-        { ime: "Čokoladni lonac", opis: "U prosincu Ženeva slavi blagdan Escalade, a slastičarnice se pune čokoladnim loncima s povrćem od marcipana, u spomen na juhu kojom je jedna građanka odbila napadače. Ako putujete zimi, ponesite jedan kući." }
+        { ime: "Pavés de Genève", opis: "These cocoa-dusted chocolate cubes are shaped like the cobblestones of the old streets and melt in your mouth. Geneva's chocolatiers make them fresh, so buy them right before you leave." },
+        { ime: "Wine from the canton of Geneva", opis: "Few people know that Geneva is surrounded by vineyards, and the wines are hardly exported. Look for Chasselas and Gamay from Satigny in the city's wine shops or at the market in Carouge." },
+        { ime: "A chocolate cauldron", opis: "In December Geneva celebrates the Escalade festival, and pastry shops fill with chocolate cauldrons holding marzipan vegetables, in memory of the soup one townswoman used to drive off attackers. If you travel in winter, take one home." }
       ]
     },
     "interlaken-jungfrau": {
       dragulji: [
-        { ime: "Gimmelwald", opis: "Do sela bez automobila, na rubu litice iznad doline Lauterbrunnen, dolazi se žičarom iz Stechelberga. Drvene kuće, krave i pogled na ledenjake ostavljaju dojam Alpa kakve su bile nekad." },
-        { ime: "Slapovi Giessbach", opis: "S broda na jezeru Brienzersee stara uspinjača vodi do hotela iz 19. stoljeća i slapa koji se ruši u četrnaest stepenica. Staza prolazi i iza vodene zavjese." },
-        { ime: "Iseltwald", opis: "Ribarsko selo na poluotoku jezera Brienzersee ima dvorac, drveni mol i vodu tirkizne boje. Dođite brodom ili autobusom rano ujutro, kad je najmirnije." }
+        { ime: "Gimmelwald", opis: "A cable car from Stechelberg takes you to this car-free village on the edge of a cliff above the Lauterbrunnen valley. Wooden houses, cows and a view of the glaciers give you a feeling of the Alps as they used to be." },
+        { ime: "The Giessbach Falls", opis: "From the boat landing on Lake Brienz an old funicular climbs to a 19th-century hotel and a waterfall that drops in fourteen steps. The trail even passes behind the curtain of water." },
+        { ime: "Iseltwald", opis: "This fishing village on a peninsula in Lake Brienz has a small castle, a wooden pier and turquoise water. Come by boat or bus early in the morning, when it is quietest." }
       ],
       domaci: [
-        { ime: "Sir iz samoposlužnog hladnjaka", opis: "Seljaci u dolinama ostavljaju sir, jaja i mlijeko u hladnjacima uz cestu, a novac se ubaci u kasicu. Tako se ovdje kupuje na povjerenje, pa ponesite sitniša." },
-        { ime: "Älplermagronen nakon hodanja", opis: "Pastirsko jelo od tjestenine, krumpira, vrhnja i sira, s prženim lukom i kašom od jabuka sa strane, jede se u planinskim kolibama. Najbolje prija nakon nekoliko sati hoda." },
-        { ime: "Kupanje u jezerima", opis: "Ljeti se domaći hlade u jezerima Thunersee i Brienzersee, na uređenim kupalištima u mjestima poput Bönigena. Voda je hladna i mliječno tirkizna od ledenjačkog mulja." }
+        { ime: "Cheese from the honesty fridge", opis: "Farmers in the valleys leave cheese, eggs and milk in refrigerators by the road, and you drop your money into a box. Shopping here runs on trust, so carry some coins." },
+        { ime: "Älplermagronen after a hike", opis: "This herders' dish of pasta, potatoes, cream and cheese, topped with fried onions and served with applesauce on the side, is eaten in mountain huts. It tastes best after a few hours of walking." },
+        { ime: "Swimming in the lakes", opis: "In summer locals cool off in Lake Thun and Lake Brienz, at bathing areas in places like Bönigen. The water is cold and a milky turquoise from glacial silt." }
       ],
       kupiti: [
-        { ime: "Planinski sir", opis: "Berner Alpkäse radi se samo ljeti, na pašnjacima iznad doline, nad otvorenom vatrom. Kupite ga izravno u planinskim sirarnama ili u seoskim mljekarama u Grindelwaldu i Lauterbrunnenu." },
-        { ime: "Drvorezbarije iz Brienza", opis: "Brienz je od 19. stoljeća središte švicarskog drvorezbarstva i ima vlastitu rezbarsku školu. U radionicama uz jezero naći ćete ručno rezbarene životinje i figure." },
-        { ime: "Puslice iz Meiringena", opis: "Gradić Meiringen tvrdi da je ondje nastala puslica, koja se u ovom kraju jede s gustim dvostrukim vrhnjem. Suhe puslice prodaju se u pekarnicama i dobro podnose put." }
+        { ime: "Alpine cheese", opis: "Berner Alpkäse is made only in summer, on the pastures above the valley, over an open fire. Buy it directly at the alpine dairies or at village dairies in Grindelwald and Lauterbrunnen." },
+        { ime: "Woodcarvings from Brienz", opis: "Brienz has been the center of Swiss woodcarving since the 19th century and has its own carving school. In the workshops by the lake you will find hand-carved animals and figures." },
+        { ime: "Meringues from Meiringen", opis: "The town of Meiringen claims the meringue was born there, and in this region it is eaten with thick double cream. Dry meringues are sold in bakeries and travel well." }
       ]
     },
     "zermatt": {
       dragulji: [
-        { ime: "Hinterdorf", opis: "U najstarijem dijelu mjesta sačuvane su pocrnjele drvene staje i žitnice iz 16. do 18. stoljeća, podignute na kamene ploče da miševi ne dođu do zaliha. Nalazi se korak od glavne ulice, a većina ljudi prođe pokraj njega." },
-        { ime: "Zmutt", opis: "Zaselak od nekoliko starih drvenih kuća leži sat hoda iznad Zermatta, ispod sjeverne stijene Matterhorna. Staza je lagana, a gore možete sjesti na terasu uz pitu i pogled." },
-        { ime: "Findeln", opis: "Skupina staja i kapelica na sunčanoj padini nudi pogled na Matterhorn kakav se rijetko viđa. Ljeti se dolazi pješice s postaje Sunnegga, kroz livade i šumu ariša." }
+        { ime: "Hinterdorf", opis: "The oldest part of the village still has blackened wooden barns and granaries from the 16th to 18th centuries, raised on stone slabs to keep mice away from the stores. It is one step off the main street, and most people walk right past it." },
+        { ime: "Zmutt", opis: "This hamlet of a few old wooden houses lies an hour's walk above Zermatt, below the north face of the Matterhorn. The trail is easy, and at the top you can sit on a terrace with a slice of pie and the view." },
+        { ime: "Findeln", opis: "A cluster of barns and a tiny chapel on a sunny slope gives you a view of the Matterhorn that few people see. In summer you walk there from the Sunnegga station through meadows and larch forest." }
       ],
       domaci: [
-        { ime: "Valiski tanjur", opis: "U Valaisu se uz čašu vina jede plata sušene govedine, slanine, kobasice i sira s raženim kruhom. Naručite je za dvoje umjesto večere, kao što čine domaći." },
-        { ime: "Čaša fendanta", opis: "Lagano bijelo vino od sorte chasselas ovdje se zove fendant i pije se kao aperitiv te uz raclette i fondue. Vinogradi su u dolini Rhone, nedaleko odavde." },
-        { ime: "Ručak u planinskoj kolibi", opis: "Planinarski dan ovdje se planira oko ručka u nekoj kolibi na suncu, s röstijem i pogledom na vrh. Krenite ujutro, hodajte dva do tri sata i nagradite se na terasi." }
+        { ime: "The Valais platter", opis: "In the Valais a glass of wine comes with a platter of air-dried beef, bacon, sausage and cheese with rye bread. Order one for two in place of dinner, as locals do." },
+        { ime: "A glass of Fendant", opis: "The light white wine made from the Chasselas grape is called Fendant here and is drunk as an aperitif and with raclette and fondue. The vineyards are in the Rhône valley, not far away." },
+        { ime: "Lunch at a mountain hut", opis: "A hiking day here is planned around lunch at a hut in the sun, with rösti and a view of the summit. Set out in the morning, walk for two to three hours and reward yourself on the terrace." }
       ],
       kupiti: [
-        { ime: "Sušeno meso i raženi kruh", opis: "Valiska sušena govedina i gusti raženi kruh imaju zaštićeno podrijetlo i dobro podnose put. Kupite ih u mesnicama i pekarnicama u glavnoj ulici, gdje kupuju i stanovnici." },
-        { ime: "Sir za raclette", opis: "Pravi Raclette du Valais radi se od sirovog mlijeka i na kori nosi utisnuto ime sela iz kojeg dolazi. Odrežite komad u sirarni i kod kuće ga rastopite na krumpiru." },
-        { ime: "Rakija od marelica", opis: "U dolini Rhone rastu marelice sorte luizet, od kojih se peče mirisna rakija abricotine sa zaštićenim imenom. Naći ćete je u trgovinama delikatesa u mjestu." }
+        { ime: "Dried beef and rye bread", opis: "Air-dried beef and dense rye bread from the Valais both have protected origin and travel well. Buy them at the butchers and bakeries on the main street, where residents shop too." },
+        { ime: "Raclette cheese", opis: "Real Raclette du Valais is made from raw milk and has the name of its home village pressed into the rind. Have a piece cut at a cheese shop and melt it over potatoes at home." },
+        { ime: "Apricot brandy", opis: "The Rhône valley grows Luizet apricots, which are distilled into the fragrant brandy called Abricotine, a protected name. You will find it in delicatessens in the village." }
       ]
     },
     "lugano": {
       dragulji: [
-        { ime: "Staza do Gandrije", opis: "Od četvrti Castagnola uz jezero vodi staza pod stijenama, kroz vrtove agava i maslina, do ribarskog sela Gandria. Selo je sazdano od stuba i prolaza, a natrag se možete vratiti brodom." },
-        { ime: "Selo Brè", opis: "Na vrhu brda Monte Brè, iznad gornje postaje uspinjače, leži kameno selo s umjetničkim djelima postavljenima po uličicama. Većina se zadrži na vidikovcu, pa ćete selom šetati gotovo same." },
-        { ime: "Morcote", opis: "Selo na vrhu poluotoka ima arkade uz jezero, a iznad njih dugo stubište vodi do crkve Santa Maria del Sasso. Dođite brodom i popnite se polako, uz stanke za pogled." }
+        { ime: "The path to Gandria", opis: "From the Castagnola district a lakeside path runs beneath the cliffs, through gardens of agave and olive trees, to the fishing village of Gandria. The village is all steps and passageways, and you can return by boat." },
+        { ime: "The village of Brè", opis: "At the top of Monte Brè, above the upper funicular station, lies a stone village with artworks placed along its lanes. Most people stop at the viewpoint, so you will wander the village almost alone." },
+        { ime: "Morcote", opis: "This village at the tip of a peninsula has arcades along the lake and a long stairway above them leading to the church of Santa Maria del Sasso. Arrive by boat and climb slowly, stopping for the view." }
       ],
       domaci: [
-        { ime: "Ručak u grottu", opis: "Grotto je jednostavna gostionica u hladu, s kamenim stolovima pod stablima, gdje se jedu palenta, pirjano meso i domaći salami. Merlot se pije iz male keramičke posudice ili vrčića, a jelovnik je kratak i sezonski." },
-        { ime: "Aperitiv na trgu", opis: "Pred večer se stanovnici Lugana sastaju na trgu Piazza della Riforma na čaši bijelog merlota ili spritzu. Uz piće stižu sitni zalogaji, a nitko se nikamo ne žuri." },
-        { ime: "Kupanje na lidu", opis: "Gradsko kupalište na ušću rijeke Cassarate ima pješčanu plažu, travnjake i bazene. Ljeti se ovamo dolazi na cijelo poslijepodne, s knjigom i ručnikom." }
+        { ime: "Lunch at a grotto", opis: "A grotto is a simple tavern in the shade, with stone tables under the trees, serving polenta, braised meat and homemade salami. The Merlot is poured into a small ceramic bowl or jug, and the menu is short and seasonal." },
+        { ime: "An aperitivo on the square", opis: "Toward evening Lugano residents meet on Piazza della Riforma for a glass of white Merlot or a spritz. Small bites arrive with the drink, and no one is in a hurry." },
+        { ime: "Swimming at the lido", opis: "The city beach at the mouth of the Cassarate river has sand, lawns and pools. In summer people come for the whole afternoon with a book and a towel." }
       ],
       kupiti: [
-        { ime: "Merlot del Ticino", opis: "Ticino je zemlja merlota, od kojeg se radi i neobično bijelo vino, bianco di merlot. Kupite ga u vinotekama u središtu ili izravno kod vinara u brdima oko grada." },
-        { ime: "Boccalino", opis: "Mali trbušasti keramički vrčić s ručkom tradicionalna je čaša za vino u ticinskim grottima. Prodaje se u trgovinama rukotvorina i dobar je mali dar." },
-        { ime: "Salami i panettone", opis: "U delikatesnim trgovinama starog grada, oko ulice Via Pessina, vise domaći salami, a prodaje se i panettone, koji ticinski slastičari peku cijele godine. Sve vam mogu zamotati za put." }
+        { ime: "Merlot del Ticino", opis: "Ticino is Merlot country, and the grape is even made into an unusual white wine, bianco di Merlot. Buy it at wine shops in the center or directly from winemakers in the hills around town." },
+        { ime: "A boccalino", opis: "This small round ceramic jug with a handle is the traditional wine cup of Ticino's grottos. Craft shops sell them, and one makes a nice little gift." },
+        { ime: "Salami and panettone", opis: "In the delicatessens of the old town, around Via Pessina, homemade salami hang from the ceiling next to panettone, which Ticino's bakers make all year. They can wrap everything for travel." }
       ]
     },
     "montreux": {
       dragulji: [
-        { ime: "Saint-Saphorin", opis: "Vinarsko selo zbijeno oko crkve ima strme kaldrmirane uličice, natkrivene prolaze i cvijeće na svakom pragu. Do njega se dolazi vlakom ili pješice kroz vinograde, a pogled na jezero prati vas cijelim putem." },
-        { ime: "Klanac Chauderon", opis: "Odmah iznad Montreuxa šumska staza vodi uz potok kroz hladovit klanac s mostićima i slapovima. Za vrućih dana ovo je najbolji bijeg s rive, a počinje u starom dijelu grada." },
-        { ime: "Stari Montreux", opis: "Iznad hotela na obali penju se strme ulice starog grada, s vinarskim kućama, česmama i malim trgovinama. Popnite se do crkvice Saint-Vincent, s čije se terase vidi cijeli gornji dio jezera." }
+        { ime: "Saint-Saphorin", opis: "This wine village huddled around its church has steep cobbled lanes, covered passages and flowers on every doorstep. You get there by train or on foot through the vineyards, with the lake in view the whole way." },
+        { ime: "The Chauderon gorge", opis: "Just above Montreux a forest trail follows a stream through a cool gorge with little bridges and waterfalls. On hot days it is the best escape from the lakefront, and it starts in the old part of town." },
+        { ime: "Old Montreux", opis: "Above the lakeside hotels the steep streets of the old town climb past winegrowers' houses, fountains and small shops. Walk up to the little church of Saint-Vincent, whose terrace overlooks the whole upper end of the lake." }
       ],
       domaci: [
-        { ime: "Čaša u caveauu", opis: "Svako selo u Lavauxu ima caveau, zajednički podrum u kojem se vinari iz tjedna u tjedan izmjenjuju i toče svoja vina. Uđite, naručite čašu chasselasa i popričajte s vinarom koji je toga dana na redu." },
-        { ime: "Tržnica u Veveyu", opis: "Utorkom i subotom prijepodne veliki trg uz jezero u Veveyu pun je štandova. Ljeti se ondje kupi čaša, pa se s njom kušaju vina okolnih vinara." },
-        { ime: "Kupanje s rive", opis: "Uz šetnicu između Veveya i Montreuxa niz je malih plaža, molova i stuba u vodu. Domaći se okupaju prije posla ili u vrijeme ručka, s pogledom na Alpe preko jezera." }
+        { ime: "A glass at the caveau", opis: "Every village in Lavaux has a caveau, a shared cellar where the winemakers take turns week by week pouring their wines. Walk in, order a glass of Chasselas and chat with whichever winemaker is on duty that day." },
+        { ime: "The market in Vevey", opis: "On Tuesday and Saturday mornings the big square by the lake in Vevey fills with stalls. In summer you can buy a glass there and use it to taste wines from the surrounding winemakers." },
+        { ime: "Swimming off the promenade", opis: "The lakeside walk between Vevey and Montreux is dotted with small beaches, piers and steps into the water. Locals take a dip before work or at lunchtime, looking across the lake at the Alps." }
       ],
       kupiti: [
-        { ime: "Chasselas iz Lavauxa", opis: "Na terasama pod zaštitom UNESCO-a raste gotovo samo bijeli chasselas, a najcjenjeniji su položaji Dézaley i Calamin. Kupite bocu u seoskom caveauu ili izravno kod vinara, jer se ta vina rijetko nađu izvan Švicarske." },
-        { ime: "Čokolada iz Veveya", opis: "U Veveyu je u 19. stoljeću nastala mliječna čokolada, pa grad i danas ima vrsne čokolatijere. Svježe praline i pločice kupite u slastičarnicama starog grada." }
+        { ime: "Chasselas from Lavaux", opis: "The UNESCO-listed terraces grow almost nothing but white Chasselas, and the most prized sites are Dézaley and Calamin. Buy a bottle at a village caveau or directly from a winemaker, since these wines are rarely found outside Switzerland." },
+        { ime: "Chocolate from Vevey", opis: "Milk chocolate was invented in Vevey in the 19th century, and the town still has excellent chocolatiers. Buy fresh pralines and bars at the pastry shops of the old town." }
       ]
     }
   }

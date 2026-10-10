@@ -1,161 +1,161 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["sejseli"] = {
   id: "sejseli",
-  ime: "Sejšeli",
-  regija: "Podsaharska Afrika",
-  sazetak: "Granitni otoci s palmama koje rađaju najveće sjeme na svijetu i plažama među glatkim sivim stijenama.",
+  ime: "Seychelles",
+  regija: "Sub-Saharan Africa",
+  sazetak: "Granite islands with palms that bear the largest seed in the world and beaches tucked among smooth gray boulders.",
   uvod: [
-    "Sejšeli su otočje od 115 otoka u Indijskom oceanu, oko 1500 kilometara istočno od afričke obale. Glavni otoci Mahé, Praslin i La Digue građeni su od granita starog oko 750 milijuna godina, komadića drevnoga kontinenta koji je ostao usred oceana kada se Indija odvojila od Afrike. Zbog duge izoliranosti ovdje žive biljke i životinje kojih nema nigdje drugdje.",
-    "Otoci su bili nenaseljeni sve do 1770., kada su se na njima nastanili prvi francuski doseljenici sa svojim robovima. Britanci su ih preuzeli početkom 19. stoljeća, a neovisnost su stekli 29. lipnja 1976. Stanovnici su potomci Afrikanaca, Europljana, Indijaca i Kineza i svi govore sejšelskim kreolskim, jezikom nastalim iz francuskoga.",
-    "S oko stotinu tisuća stanovnika ovo je najmanja afrička država po broju ljudi. Gotovo polovica kopna zaštićena je, a od dviju lokacija na UNESCO-ovu popisu jedna je šuma na Praslinu, a druga udaljeni atol Aldabra s najvećom populacijom divovskih kornjača na svijetu."
+    "The Seychelles are an archipelago of 115 islands in the Indian Ocean, about 1,500 kilometers east of the African coast. The main islands of Mahé, Praslin and La Digue are made of granite about 750 million years old, fragments of an ancient continent left behind in the middle of the ocean when India broke away from Africa. Because of their long isolation, plants and animals live here that are found nowhere else.",
+    "The islands were uninhabited until 1770, when the first French settlers made their home on them together with their slaves. The British took them over at the beginning of the 19th century, and they gained independence on June 29, 1976. The people are descendants of Africans, Europeans, Indians and Chinese, and they all speak Seychellois Creole, a language that grew out of French.",
+    "With about a hundred thousand inhabitants, this is the smallest African country by population. Almost half of the land is protected, and of the two sites on the UNESCO list, one is a forest on Praslin and the other is the remote Aldabra Atoll, with the largest population of giant tortoises in the world."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Toplo je cijele godine. Najmirnije more i najmanje vjetra imaju travanj i svibanj te listopad i studeni. Od svibnja do rujna puše jugoistočni pasat, koji na nekim plažama donosi valove i alge." },
-    { k: "Valuta", v: "Sejšelska rupija (SCR). Smještaj i izleti često se plaćaju karticom ili u eurima, a za autobus, tržnicu i male zalogajnice treba lokalna gotovina." },
-    { k: "Kretanje", v: "Između Mahéa, Praslina i La Diguea vozi brzi katamaran, a između Mahéa i Praslina leti i mali zrakoplov. Na Mahéu i Praslinu praktičan je unajmljeni auto ili javni autobus, a na La Digueu se vozi bicikl." },
-    { k: "Ulazak", v: "Viza nije potrebna, ali prije puta treba ispuniti elektroničko odobrenje putovanja na službenoj stranici države." },
-    { k: "Napojnica", v: "Usluga je obično uračunata u račun. Dodatna napojnica nije obvezna, ali se cijeni." }
+    { k: "When to go", v: "It is warm all year round. April and May and October and November have the calmest sea and the least wind. From May to September the southeast trade wind blows, bringing waves and seaweed to some beaches." },
+    { k: "Currency", v: "Seychellois rupee (SCR). Accommodation and excursions are often paid for by card or in euros, while you need local cash for the bus, the market and small eateries." },
+    { k: "Getting around", v: "A fast catamaran runs between Mahé, Praslin and La Digue, and a small plane also flies between Mahé and Praslin. On Mahé and Praslin a rental car or the public bus is practical, and on La Digue you ride a bicycle." },
+    { k: "Entry", v: "No visa is required, but before you travel you need to complete an electronic travel authorization on the country's official website." },
+    { k: "Tipping", v: "Service is usually included in the bill. An additional tip is not required, but it is appreciated." }
   ],
   hrana: [
-    { ime: "Riba na žaru", opis: "Cijeli crveni lucijan ili kraljevska skuša, zarezani i napunjeni pastom od češnjaka, đumbira i čilija.", prica: "Riba je temelj otočke prehrane i peče se na ugljenu od kokosovih ljuski. Najbolje se jede na plaži, s limetom i kreolskim umakom od rajčice." },
-    { ime: "Curry od hobotnice", opis: "Hobotnica kuhana u kokosovu mlijeku s kurkumom, cimetovim listom i šafranikom.", prica: "Na kreolskom se zove kari zourit. Blag je i kremast, a cimet koji mu daje miris raste divlje po brdima Mahéa, kamo su ga Francuzi donijeli u 18. stoljeću." },
-    { ime: "Chatini od morskog psa", opis: "Kuhano i sitno natrgano meso morskog psa, pirjano s gorkim plodom bilimbi, limetom i lukom.", prica: "Za razliku od slatkoga indijskog, kreolski je čatni kiseli slani prilog. Poslužuje se uz rižu i leću." },
-    { ime: "Kruhovac", opis: "Škrobni plod velik kao lopta, koji se kuha, peče u žaru ili reže na tanke pržene listiće.", prica: "Predaja kaže da će se onaj tko na Sejšelima pojede kruhovac sigurno vratiti na otoke. Hrskavi čips od kruhovca prodaje se na tržnici u vrećicama." },
-    { ime: "Ladob", opis: "Zrele banane plantane i slatki krumpir kuhani u kokosovu mlijeku sa šećerom, muškatnim oraščićem i vanilijom.", prica: "Jede se topao ili hladan kao desert. Postoji i slana inačica, sa slanom ribom umjesto šećera." },
-    { ime: "Salata od srca palme", opis: "Tanko narezana srž mlade palme s limetom.", prica: "Zovu je milijunaševom salatom, jer se za jednu porciju mora posjeći cijela palma. Danas se rabe uzgojene vrste, a ne zaštićene domaće palme." },
-    { ime: "Curry od šišmiša", opis: "Meso velikoga voćnog šišmiša u gustom curryju.", prica: "Staro je kreolsko jelo koje se nudi u tradicionalnim restoranima. Meso je tamno i ima mnogo sitnih kostiju, a tko ga se ne usudi kušati, barem može navečer gledati šišmiše kako lete nad krošnjama." },
-    { ime: "SeyBrew i Takamaka", opis: "Domaće svijetlo pivo i rum.", prica: "Rum Takamaka proizvodi se na Mahéu u destileriji na nekadašnjoj plantaži. Na selu se još pije kalou, blago alkoholni sok palme koji fermentira za nekoliko sati." }
+    { ime: "Grilled fish", opis: "A whole red snapper or kingfish, scored and stuffed with a paste of garlic, ginger and chili.", prica: "Fish is the foundation of the island diet and is grilled over charcoal made from coconut husks. It is best eaten on the beach, with lime and a Creole tomato sauce." },
+    { ime: "Octopus curry", opis: "Octopus simmered in coconut milk with turmeric, cinnamon leaf and safflower.", prica: "In Creole it is called kari zourit. It is mild and creamy, and the cinnamon that gives it its aroma grows wild in the hills of Mahé, where the French brought it in the 18th century." },
+    { ime: "Shark chatini", opis: "Boiled and finely shredded shark meat, sautéed with the bitter bilimbi fruit, lime and onion.", prica: "Unlike the sweet Indian kind, Creole chutney is a sour, savory side dish. It is served with rice and lentils." },
+    { ime: "Breadfruit", opis: "A starchy fruit as big as a ball, which is boiled, roasted in the embers or cut into thin fried chips.", prica: "Tradition says that anyone who eats breadfruit in the Seychelles is sure to return to the islands. Crispy breadfruit chips are sold in bags at the market." },
+    { ime: "Ladob", opis: "Ripe plantains and sweet potato simmered in coconut milk with sugar, nutmeg and vanilla.", prica: "It is eaten warm or cold as a dessert. There is also a savory version, with salted fish in place of the sugar." },
+    { ime: "Heart of palm salad", opis: "Thinly sliced core of a young palm with lime.", prica: "It is called millionaire's salad, because a whole palm has to be cut down for a single serving. Today cultivated species are used, and the protected native palms are left alone." },
+    { ime: "Bat curry", opis: "The meat of the large fruit bat in a thick curry.", prica: "It is an old Creole dish offered in traditional restaurants. The meat is dark and has many small bones, and if you do not dare to try it, you can at least watch the bats flying over the treetops in the evening." },
+    { ime: "SeyBrew and Takamaka", opis: "The local lager and rum.", prica: "Takamaka rum is made on Mahé in a distillery on a former plantation. In the countryside people still drink kalou, a mildly alcoholic palm sap that ferments within a few hours." }
   ],
   obicaji: [
-    { ime: "Moutya", opis: "Ples koji su robovi plesali noću oko vatre, daleko od gospodarevih očiju, uz bubnjeve od kozje kože i pjesme u kojima su se žalili na nepravdu. Kolonijalne su ga vlasti dugo zabranjivale. UNESCO ga je 2021. uvrstio u nematerijalnu baštinu.", gdje: "Večeri moutye priređuju se na plažama uz Festival Kreol i u nekim selima na Mahéu." },
-    { ime: "Festival Kreol", opis: "Tjedan posvećen kreolskom jeziku, glazbi, hrani i odjeći, na koji dolaze i gosti s Mauricijusa, Réuniona i Kariba.", gdje: "Victoria i sela na Mahéu, krajem listopada." },
-    { ime: "Kanmtole", opis: "Društveni plesovi koje su doseljenici donijeli iz Europe, poput kontradansa i škotskog plesa, a otočani su ih preuzeli uz harmoniku, violinu i triangl. Voditelj plesa izvikuje figure na kreolskom.", gdje: "Seoske zabave i nastupi kulturnih društava na Mahéu i La Digueu." },
-    { ime: "Kreolska kuća", opis: "Tradicionalne drvene kuće stoje na kamenim stupovima radi prozračivanja, imaju strm krov od lima i trijem oko cijele kuće. Kuhinja je bila u zasebnoj zgradi, zbog opasnosti od požara.", gdje: "Plantažna kuća na imanju L'Union na La Digueu i stare kuće u Victoriji." },
-    { ime: "Nedjelja na plaži", opis: "Obitelji nedjeljom nakon mise iznose roštilj, lonce i glazbu na plažu i ostaju do mraka. Sve su plaže javne, pa i one ispred najskupljih hotela.", gdje: "Beau Vallon na Mahéu, gdje se srijedom navečer održava i tržnica s uličnom hranom." }
+    { ime: "Moutya", opis: "A dance that slaves performed at night around a fire, far from the master's eyes, to goatskin drums and songs in which they lamented injustice. The colonial authorities banned it for a long time. UNESCO added it to the intangible heritage list in 2021.", gdje: "Moutya evenings are held on the beaches during the Festival Kreol and in some villages on Mahé." },
+    { ime: "Festival Kreol", opis: "A week dedicated to the Creole language, music, food and dress, which also draws guests from Mauritius, Réunion and the Caribbean.", gdje: "Victoria and the villages of Mahé, in late October." },
+    { ime: "Kanmtole", opis: "Social dances that the settlers brought from Europe, such as the contredanse and the Scottish reel, which the islanders adopted with accordion, violin and triangle. The dance caller shouts out the figures in Creole.", gdje: "Village parties and performances by cultural societies on Mahé and La Digue." },
+    { ime: "The Creole house", opis: "Traditional wooden houses stand on stone pillars for ventilation and have a steep tin roof and a porch running around the entire house. The kitchen was in a separate building because of the risk of fire.", gdje: "The plantation house on the L'Union estate on La Digue and the old houses in Victoria." },
+    { ime: "Sunday at the beach", opis: "On Sundays after mass, families carry a grill, pots and music out to the beach and stay until dark. All beaches are public, even those in front of the most expensive hotels.", gdje: "Beau Vallon on Mahé, which also hosts a street food market on Wednesday evenings." }
   ],
   fraze: [
-    { izvorno: "Bonzour", izgovor: "bon-ZUR", hr: "Dobar dan" },
-    { izvorno: "Konman sava?", izgovor: "kon-MAN sa-VA", hr: "Kako si?" },
-    { izvorno: "Mon byen, mersi", izgovor: "mon BJEN mer-SI", hr: "Dobro sam, hvala" },
-    { izvorno: "Mersi bokou", izgovor: "mer-SI bo-KU", hr: "Hvala lijepa" },
-    { izvorno: "Silvouple", izgovor: "sil-vu-PLE", hr: "Molim" },
-    { izvorno: "Wi / Non", izgovor: "vi / non", hr: "Da / Ne" },
-    { izvorno: "Konbyen sa?", izgovor: "kon-BJEN sa", hr: "Koliko je ovo?" },
-    { izvorno: "Orevwar", izgovor: "o-re-VUAR", hr: "Doviđenja" }
+    { izvorno: "Bonzour", izgovor: "bohn-ZOOR", hr: "Hello, good day" },
+    { izvorno: "Konman sava?", izgovor: "kohn-MAHN sah-VAH", hr: "How are you?" },
+    { izvorno: "Mon byen, mersi", izgovor: "mohn BYEN mair-SEE", hr: "I am fine, thank you" },
+    { izvorno: "Mersi bokou", izgovor: "mair-SEE boh-KOO", hr: "Thank you very much" },
+    { izvorno: "Silvouple", izgovor: "seel-voo-PLAY", hr: "Please" },
+    { izvorno: "Wi / Non", izgovor: "wee / nohn", hr: "Yes / No" },
+    { izvorno: "Konbyen sa?", izgovor: "kohn-BYEN sah", hr: "How much is this?" },
+    { izvorno: "Orevwar", izgovor: "oh-ruh-VWAHR", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Sjeme palme coco de mer najveće je i najteže na svijetu i može težiti više od dvadeset kilograma.",
-    "Prije nego što su otoci otkriveni, golemi orasi koje je more izbacivalo na obale Indije i Maldiva smatrali su se plodom podmorskog stabla, pa otuda ime morski kokos.",
-    "Na atolu Aldabra živi više od stotinu tisuća divovskih kornjača, više nego na Galápagosu.",
-    "Victoria je jedan od najmanjih glavnih gradova na svijetu i može se obići pješice za sat vremena.",
-    "Predaja kaže da je gusar Olivier Levasseur, zvan La Buse, prije vješanja 1730. bacio u gomilu šifriranu poruku o blagu, koje se na Mahéu traži do danas.",
-    "Britanski general Charles Gordon posjetio je Praslin 1881. i bio uvjeren da je dolina Vallée de Mai biblijski rajski vrt.",
-    "Sejšelska grmuša spašena je na otoku Cousin: 1960-ih preostalo je svega 26 ptica, a danas ih je nekoliko tisuća."
+    "The seed of the coco de mer palm is the largest and heaviest in the world and can weigh more than twenty kilograms.",
+    "Before the islands were discovered, the enormous nuts that the sea washed up on the shores of India and the Maldives were believed to be the fruit of an underwater tree, hence the name sea coconut.",
+    "More than a hundred thousand giant tortoises live on Aldabra Atoll, more than in the Galápagos.",
+    "Victoria is one of the smallest capital cities in the world and can be covered on foot in an hour.",
+    "Tradition says that the pirate Olivier Levasseur, known as La Buse, threw a coded message about his treasure into the crowd before he was hanged in 1730, and people are still searching for it on Mahé today.",
+    "The British general Charles Gordon visited Praslin in 1881 and was convinced that the Vallée de Mai was the biblical Garden of Eden.",
+    "The Seychelles warbler was saved on Cousin Island: in the 1960s only 26 birds remained, and today there are several thousand."
   ],
   mjesta: [
     {
       id: "mahe",
       ime: "Mahé",
       vrsta: "otok",
-      sazetak: "Najveći otok, s glavnim gradom, maglovitim planinama i šezdesetak plaža.",
+      sazetak: "The largest island, with the capital, misty mountains and some sixty beaches.",
       prica: [
-        "Otok je nazvan po francuskom guverneru Mahéu de La Bourdonnaisu, koji je sredinom 18. stoljeća poslao brodove da ga istraže. Prvo naselje osnovano je 1778. na mjestu današnje Victorije.",
-        "Francuzi su po brdima posadili cimet, vaniliju i druge začine, nadajući se da će razbiti nizozemski monopol. Cimet se otada raširio po cijelom otoku i danas raste kao korov."
+        "The island is named after the French governor Mahé de La Bourdonnais, who sent ships to explore it in the mid-18th century. The first settlement was founded in 1778 on the site of present-day Victoria.",
+        "The French planted cinnamon, vanilla and other spices in the hills, hoping to break the Dutch monopoly. Cinnamon has since spread across the whole island and today grows like a weed."
       ],
       vidjeti: [
-        { ime: "Sat u Victoriji", opis: "Srebrni toranj sa satom na glavnom raskrižju postavljen je 1903. u spomen na kraljicu Viktoriju. Kopija je sata koji stoji u Londonu blizu kolodvora Victoria, a mještani ga od milja zovu Lorloz." },
-        { ime: "Tržnica Sir Selwyn Selwyn-Clarke", opis: "Na tržnici iz 1840. subotom ujutro ribari prodaju tunu, lucijane i hobotnice, a bijele čaplje šeću među štandovima i čekaju otpatke. Na katu su začini i rukotvorine." },
-        { ime: "Botanički vrt", opis: "Vrt osnovan 1901. ima drvored palmi coco de mer s muškim i ženskim stablima te ograđeni prostor s divovskim kornjačama s Aldabre, od kojih su neke starije od stotinu godina. U krošnjama vise voćni šišmiši." },
-        { ime: "Misijska ruševina Venn's Town", opis: "Na prijevoju u planinama anglikanski su misionari 1876. otvorili školu za djecu oslobođenu s brodova trgovaca robljem. Ostali su temelji i drvored stabala, a s vidikovca se pruža jedan od najljepših pogleda na zapadnu obalu." },
-        { ime: "Nacionalni park Morne Seychellois", opis: "Park pokriva petinu otoka i najviši vrh, visok 905 metara. Na stazi Copolia hoda se oko sat vremena do granitne zaravni, na kojoj raste biljka mesožderka vrčolika, čiji vrčići hvataju kukce." },
-        { ime: "Anse Intendance", opis: "Divlja plaža na jugu bez grebena, s velikim valovima. Od listopada do veljače ovamo noću dolaze morske kornjače polagati jaja, pa su dijelovi pijeska tada ograđeni." }
+        { ime: "The Victoria Clock Tower", opis: "The silver clock tower at the main intersection was put up in 1903 in memory of Queen Victoria. It is a copy of the clock that stands in London near Victoria Station, and locals affectionately call it Lorloz." },
+        { ime: "Sir Selwyn Selwyn-Clarke Market", opis: "At this market from 1840, fishermen sell tuna, snapper and octopus on Saturday mornings, while white egrets stroll among the stalls waiting for scraps. Spices and handicrafts are upstairs." },
+        { ime: "Botanical Garden", opis: "The garden, founded in 1901, has an avenue of coco de mer palms with male and female trees and an enclosure with giant tortoises from Aldabra, some of them more than a hundred years old. Fruit bats hang in the treetops." },
+        { ime: "Venn's Town mission ruins", opis: "On a mountain pass, Anglican missionaries opened a school in 1876 for children freed from slave traders' ships. The foundations and an avenue of trees remain, and the viewpoint offers one of the most beautiful views of the west coast." },
+        { ime: "Morne Seychellois National Park", opis: "The park covers a fifth of the island and its highest peak, 905 meters tall. On the Copolia trail you walk for about an hour to a granite plateau where the carnivorous pitcher plant grows, catching insects in its little pitchers." },
+        { ime: "Anse Intendance", opis: "A wild beach in the south with no reef and big waves. From October to February sea turtles come here at night to lay their eggs, so parts of the sand are fenced off at that time." }
       ],
       jesti: [
-        { ime: "Kreolski švedski stol", opis: "U obiteljskim restoranima nudi se desetak jela odjednom: curry od ribe i hobotnice, čatni, leća, pečena riba i ladob." },
-        { ime: "Ulična hrana na Beau Vallonu", opis: "Srijedom navečer na plaži se prodaju ražnjići, pečena riba, čips od kruhovca i svježi kokosi." },
-        { ime: "Čaj s citronelom", opis: "U tvornici čaja u brdima kuša se domaći crni čaj s vanilijom ili citronelom." }
+        { ime: "Creole buffet", opis: "Family restaurants offer about ten dishes at once: fish and octopus curry, chutney, lentils, grilled fish and ladob." },
+        { ime: "Street food at Beau Vallon", opis: "On Wednesday evenings skewers, grilled fish, breadfruit chips and fresh coconuts are sold on the beach." },
+        { ime: "Tea with citronella", opis: "At the tea factory in the hills you can taste local black tea with vanilla or citronella." }
       ],
       dozivjeti: [
-        { ime: "Destilerija Takamaka", opis: "Na imanju La Plaine St André iz 18. stoljeća obilazi se vrt ljekovitog bilja i destilerija te kuša rum.", link: "https://www.takamakarum.com/" },
-        { ime: "Morski park Sainte Anne", opis: "Pred Victorijom je 1973. proglašen prvi morski park u Indijskom oceanu. Čamcem sa staklenim dnom ili s maskom gledaju se koralji i ribe." },
-        { ime: "Nacionalni muzej povijesti", opis: "U obnovljenoj zgradi nekadašnjega suda izložena je priča o naseljavanju, ropstvu i kreolskoj kulturi.", link: "https://seychellesnationalmuseums.org/" }
+        { ime: "Takamaka distillery", opis: "At the 18th-century La Plaine St André estate you tour the medicinal herb garden and the distillery and taste the rum.", link: "https://www.takamakarum.com/" },
+        { ime: "Sainte Anne Marine Park", opis: "The first marine park in the Indian Ocean was declared off Victoria in 1973. You can view the corals and fish from a glass-bottom boat or with a snorkel mask." },
+        { ime: "National Museum of History", opis: "The restored building of the former courthouse tells the story of settlement, slavery and Creole culture.", link: "https://seychellesnationalmuseums.org/" }
       ],
       agencije: [
-        { ime: "Tourism Seychelles", opis: "Službena turistička zajednica Sejšela.", link: "https://www.seychelles.com/" },
-        { ime: "Seychelles National Museums", opis: "Uprava državnih muzeja u Victoriji.", link: "https://seychellesnationalmuseums.org/" }
+        { ime: "Tourism Seychelles", opis: "The official tourism board of the Seychelles.", link: "https://www.seychelles.com/" },
+        { ime: "Seychelles National Museums", opis: "The authority for the state museums in Victoria.", link: "https://seychellesnationalmuseums.org/" }
       ],
-      kada: "Zapadna je obala mirnija od svibnja do rujna, a istočna od studenoga do ožujka. Victoriju obiđite subotom ujutro, kada je tržnica najživlja."
+      kada: "The west coast is calmer from May to September and the east coast from November to March. Visit Victoria on a Saturday morning, when the market is at its liveliest."
     },
     {
       id: "praslin",
       ime: "Praslin",
       vrsta: "otok",
-      sazetak: "Otok prašume u kojoj raste palma coco de mer i plaža koje redovito ulaze među najljepše na svijetu.",
+      sazetak: "An island with a primeval forest where the coco de mer palm grows and beaches that regularly rank among the most beautiful in the world.",
       prica: [
-        "Drugi po veličini otok bio je u 18. stoljeću skrovište gusara i arapskih trgovaca. Ime je dobio 1768. po francuskom ministru mornarice, vojvodi od Praslina.",
-        "U njegovu središtu sačuvala se šuma palmi kakva je nekoć prekrivala cijeli otok, a ostala je gotovo netaknuta do 1930-ih. UNESCO ju je zaštitio 1983."
+        "In the 18th century the second largest island was a hideout for pirates and Arab traders. It was named in 1768 after the French minister of the navy, the Duke of Praslin.",
+        "At its center a palm forest of the kind that once covered the entire island has survived, and it remained almost untouched until the 1930s. UNESCO protected it in 1983."
       ],
       vidjeti: [
-        { ime: "Vallée de Mai", opis: "U ovoj dolini raste palma coco de mer, koja prirodno uspijeva samo na Praslinu i susjednoj Curieuse. Muška i ženska stabla su odvojena: žensko nosi dvostruki orah, a muško dug resasti cvat. Listovi su široki i do deset metara i šušte poput kiše. Plod dozrijeva šest do sedam godina." },
-        { ime: "Crna papiga", opis: "Nacionalna ptica Sejšela živi samo na Praslinu i zapravo je tamnosmeđa. Teško ju je vidjeti, ali se njezin zvižduk čuje u krošnjama. Najlakše ju je uočiti rano ujutro kod ulaza u rezervat, gdje se hrani plodovima." },
-        { ime: "Anse Lazio", opis: "Plaža na sjeverozapadu omeđena je s obje strane granitnim stijenama koje je more zaoblilo. Na krajevima zaljeva, uz stijene, najbolje je ronjenje s maskom." },
-        { ime: "Otok Curieuse", opis: "Na otočiću pred Praslinom slobodno šeće više od stotinu divovskih kornjača. Od 1829. do 1965. ovdje je bila kolonija gubavaca, a liječnikova kuća danas je mali muzej. Staza na stupovima vodi kroz šumu mangrova, u kojoj za oseke vidite rakove i ribe skakavce." },
-        { ime: "Otok Cousin", opis: "Rezervat kojim upravlja udruga Nature Seychelles kupljen je 1968. radi spašavanja sejšelske grmuše. Ptice se ovdje ne boje ljudi, pa bijele čigre sjede na granama u visini očiju, a jaja polažu izravno na golu granu, bez gnijezda." }
+        { ime: "Vallée de Mai", opis: "This valley is home to the coco de mer palm, which grows naturally only on Praslin and neighboring Curieuse. The male and female trees are separate: the female bears the double nut, and the male a long catkin. The leaves can be up to ten meters wide and rustle like rain. The fruit takes six to seven years to ripen." },
+        { ime: "Black parrot", opis: "The national bird of the Seychelles lives only on Praslin and is actually dark brown. It is hard to see, but you can hear its whistle in the treetops. It is easiest to spot early in the morning near the entrance to the reserve, where it feeds on fruit." },
+        { ime: "Anse Lazio", opis: "The beach in the northwest is framed on both sides by granite rocks rounded by the sea. The best snorkeling is at the ends of the bay, along the rocks." },
+        { ime: "Curieuse Island", opis: "More than a hundred giant tortoises roam freely on this islet off Praslin. From 1829 to 1965 there was a leper colony here, and the doctor's house is now a small museum. A boardwalk leads through a mangrove forest, where at low tide you can see crabs and mudskippers." },
+        { ime: "Cousin Island", opis: "The reserve, managed by the organization Nature Seychelles, was purchased in 1968 to save the Seychelles warbler. The birds here are not afraid of people, so white terns sit on branches at eye level and lay their eggs directly on a bare branch, with no nest." }
       ],
       jesti: [
-        { ime: "Curry od hobotnice", opis: "U restoranima uz plažu Côte d'Or naručite ga uz rižu, čatni od papaje i čili u ulju." },
-        { ime: "Roštilj na Curieuseu", opis: "Izleti brodom uključuju ručak od pečene ribe i piletine na plaži, među kornjačama." },
-        { ime: "Sladoled od kokosa", opis: "Domaći sladoled od svježega kokosova mlijeka prodaje se na štandovima uz cestu." }
+        { ime: "Octopus curry", opis: "In the restaurants along the Côte d'Or beach, order it with rice, papaya chutney and chili in oil." },
+        { ime: "Barbecue on Curieuse", opis: "Boat trips include a lunch of grilled fish and chicken on the beach, among the tortoises." },
+        { ime: "Coconut ice cream", opis: "Homemade ice cream from fresh coconut milk is sold at roadside stalls." }
       ],
       dozivjeti: [
-        { ime: "Vođena šetnja kroz Vallée de Mai", opis: "S vodičem ćete naučiti razlikovati šest domaćih vrsta palmi i vidjeti macakline, puževe i kameleone koje same ne biste primijetile.", link: "https://www.sif.sc/vdm" },
-        { ime: "Posjet otoku Cousin", opis: "Otok je otvoren radnim danom prijepodne, a obilazak vode čuvari rezervata.", link: "https://natureseychelles.org/" },
-        { ime: "Zalazak sunca na Anse Georgette", opis: "Do plaže se dolazi kroz posjed hotela uz prethodnu najavu ili čamcem, a zbog toga je gotovo uvijek mirna." }
+        { ime: "Guided walk through the Vallée de Mai", opis: "With a guide you will learn to tell apart the six native species of palm and see geckos, snails and chameleons that you would not notice on your own.", link: "https://www.sif.sc/vdm" },
+        { ime: "Visiting Cousin Island", opis: "The island is open on weekday mornings, and the tours are led by the reserve's wardens.", link: "https://natureseychelles.org/" },
+        { ime: "Sunset at Anse Georgette", opis: "You reach the beach through a hotel's grounds with advance notice or by boat, which is why it is almost always quiet." }
       ],
       agencije: [
-        { ime: "Seychelles Islands Foundation", opis: "Zaklada koja upravlja rezervatom Vallée de Mai i atolom Aldabra.", link: "https://www.sif.sc/" },
-        { ime: "Nature Seychelles", opis: "Udruga za zaštitu prirode koja upravlja rezervatom na otoku Cousin.", link: "https://natureseychelles.org/" },
-        { ime: "Tourism Seychelles", opis: "Službena turistička zajednica.", link: "https://www.seychelles.com/" }
+        { ime: "Seychelles Islands Foundation", opis: "The foundation that manages the Vallée de Mai reserve and Aldabra Atoll.", link: "https://www.sif.sc/" },
+        { ime: "Nature Seychelles", opis: "A nature conservation organization that manages the reserve on Cousin Island.", link: "https://natureseychelles.org/" },
+        { ime: "Tourism Seychelles", opis: "The official tourism board.", link: "https://www.seychelles.com/" }
       ],
-      kada: "Anse Lazio najmirnija je od travnja do listopada. U Vallée de Mai idite čim se otvori, prije izletnika s drugih otoka, i ponesite sredstvo protiv komaraca."
+      kada: "Anse Lazio is calmest from April to October. Go to the Vallée de Mai as soon as it opens, ahead of the day-trippers from other islands, and bring mosquito repellent."
     },
     {
       id: "la-digue",
       ime: "La Digue",
       vrsta: "otok",
-      sazetak: "Mali otok na kojem se vozi bicikl, a granitne stijene na plaži izgledaju kao skulpture.",
+      sazetak: "A small island where you get around by bicycle and the granite boulders on the beach look like sculptures.",
       prica: [
-        "Otok je dobio ime po brodu francuskog istraživača Marion-Dufresnea, koji je ovamo doplovio 1768. Prvi stalni stanovnici bili su prognanici s otoka Réuniona, koji su stigli krajem 18. stoljeća.",
-        "Do nedavno su jedini prijevoz bila volovska kola, a i danas je automobila vrlo malo. Otočani su živjeli od kopre, sušene jezgre kokosa iz koje se dobiva ulje, i od vanilije."
+        "The island took its name from the ship of the French explorer Marion-Dufresne, who sailed here in 1768. The first permanent residents were exiles from the island of Réunion, who arrived at the end of the 18th century.",
+        "Until recently the only transportation was the ox cart, and even today there are very few cars. The islanders lived off copra, the dried coconut kernel from which oil is extracted, and off vanilla."
       ],
       vidjeti: [
-        { ime: "Anse Source d'Argent", opis: "Jedna od najfotografiranijih plaža na svijetu niz je malih uvala među golemim granitnim gromadama, koje su vjetar i kiša izbrazdali okomitim žljebovima. Pri zalasku sunca stijene postaju ružičaste. Plitku lagunu štiti greben, pa je more mirno, ali za oseke vrlo plitko." },
-        { ime: "Imanje L'Union", opis: "Na nekadašnjoj plantaži vidi se kako vol u krugu okreće mlin koji tiješti kokosovo ulje. Tu su i nasad vanilije, koja se mora oprašivati ručno, stara plantažna kuća, groblje prvih doseljenika i golema granitna stijena stara oko 700 milijuna godina." },
-        { ime: "Rezervat Veuve", opis: "U maloj šumi usred sela živi sejšelski rajski muholovac, jedna od najrjeđih ptica na svijetu. Mužjak je potpuno crn, s repom dugim tridesetak centimetara, a kreolsko ime vev znači udovica." },
-        { ime: "Grand Anse, Petite Anse i Anse Cocos", opis: "Tri plaže na jugoistoku nanizane su jedna za drugom i povezane stazom preko stijena. Valovi i struje ovdje su jaki, pa se kupa samo u prirodnom bazenu među stijenama na kraju Anse Cocos." },
-        { ime: "Nid d'Aigle", opis: "Najviša točka otoka, na 333 metra, do koje vodi strma cesta, a zatim staza. Odozgo se vide Praslin i desetak okolnih otočića." }
+        { ime: "Anse Source d'Argent", opis: "One of the most photographed beaches in the world is a string of small coves among enormous granite boulders that wind and rain have scored with vertical grooves. At sunset the rocks turn pink. A reef protects the shallow lagoon, so the sea is calm, but very shallow at low tide." },
+        { ime: "L'Union Estate", opis: "On this former plantation you can watch an ox walk in circles to turn the mill that presses coconut oil. Here too are a vanilla plantation, where the flowers must be pollinated by hand, the old plantation house, the cemetery of the first settlers and a huge granite rock about 700 million years old." },
+        { ime: "Veuve Reserve", opis: "A small forest in the middle of the village is home to the Seychelles paradise flycatcher, one of the rarest birds in the world. The male is completely black, with a tail about thirty centimeters long, and the Creole name vev means widow." },
+        { ime: "Grand Anse, Petite Anse and Anse Cocos", opis: "Three beaches in the southeast lie one after another, connected by a trail over the rocks. The waves and currents here are strong, so you swim only in the natural pool among the rocks at the end of Anse Cocos." },
+        { ime: "Nid d'Aigle", opis: "The highest point on the island, at 333 meters, reached by a steep road and then a trail. From the top you can see Praslin and a dozen or so surrounding islets." }
       ],
       jesti: [
-        { ime: "Riba za van", opis: "Male zalogajnice u selu prodaju kutije s rižom, curryjem od ribe i čatnijem, što otočani jedu za ručak na plaži." },
-        { ime: "Svježi sok od voća", opis: "Na štandovima kod Grand Anse i Anse Source d'Argent miješaju se mango, marakuja i papaja, uz kokos otvoren pred vama." },
-        { ime: "Vanilija s imanja", opis: "Na imanju L'Union mogu se kupiti mahune sušene na otoku." }
+        { ime: "Takeaway fish", opis: "The small eateries in the village sell boxes of rice, fish curry and chutney, which the islanders eat for lunch on the beach." },
+        { ime: "Fresh fruit juice", opis: "At the stalls by Grand Anse and Anse Source d'Argent, mango, passion fruit and papaya are blended, alongside a coconut opened in front of you." },
+        { ime: "Vanilla from the estate", opis: "At the L'Union estate you can buy pods dried on the island." }
       ],
       dozivjeti: [
-        { ime: "Otok na biciklu", opis: "Bicikl se iznajmljuje odmah kod pristaništa. Cijeli se otok obiđe za dan, a ravna obalna cesta na sjeveru prolazi pokraj desetak praznih uvala." },
-        { ime: "Izlet do otočića Coco", opis: "Čamcem se ide na ronjenje s maskom oko granitnih otočića, gdje se viđaju kornjače i jata riba." },
-        { ime: "Zalazak sunca na Anse Sévère", opis: "Plaža blizu luke gleda na zapad, prema Praslinu, a u plićaku se često vide male raže." }
+        { ime: "The island by bicycle", opis: "You can rent a bicycle right at the jetty. The whole island can be covered in a day, and the flat coastal road in the north passes a dozen or so empty coves." },
+        { ime: "Trip to Coco Island", opis: "You go by boat to snorkel around the granite islets, where turtles and schools of fish can be seen." },
+        { ime: "Sunset at Anse Sévère", opis: "The beach near the harbor faces west, toward Praslin, and small rays are often seen in the shallows." }
       ],
       agencije: [
-        { ime: "Tourism Seychelles", opis: "Službena turistička zajednica Sejšela.", link: "https://www.seychelles.com/" }
+        { ime: "Tourism Seychelles", opis: "The official tourism board of the Seychelles.", link: "https://www.seychelles.com/" }
       ],
-      kada: "Na Anse Source d'Argent idite rano ujutro ili predvečer i provjerite plimu, jer se za visoke vode može plivati, a za niske hodati među uvalama."
+      kada: "Go to Anse Source d'Argent early in the morning or toward evening and check the tide, because at high water you can swim and at low water you can walk between the coves."
     }
   ],
   izvori: [
     { ime: "Tourism Seychelles", url: "https://www.seychelles.com/" },
     { ime: "Seychelles Islands Foundation", url: "https://www.sif.sc/" },
-    { ime: "UNESCO: Rezervat prirode Vallée de Mai", url: "https://whc.unesco.org/en/list/261" },
-    { ime: "UNESCO: Atol Aldabra", url: "https://whc.unesco.org/en/list/185" },
+    { ime: "UNESCO: Vallée de Mai Nature Reserve", url: "https://whc.unesco.org/en/list/261" },
+    { ime: "UNESCO: Aldabra Atoll", url: "https://whc.unesco.org/en/list/185" },
     { ime: "Nature Seychelles", url: "https://natureseychelles.org/" },
     { ime: "Seychelles National Museums", url: "https://seychellesnationalmuseums.org/" },
     { ime: "Takamaka Rum", url: "https://www.takamakarum.com/" }

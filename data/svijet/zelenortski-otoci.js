@@ -1,161 +1,161 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["zelenortski-otoci"] = {
   id: "zelenortski-otoci",
-  ime: "Zelenortska Republika",
-  regija: "Podsaharska Afrika",
-  sazetak: "Deset vulkanskih otoka usred Atlantika, na kojima se afrički ritam i portugalska sjeta stapaju u glazbu koju zna cijeli svijet.",
+  ime: "Cape Verde",
+  regija: "Sub-Saharan Africa",
+  sazetak: "Ten volcanic islands in the middle of the Atlantic, where African rhythm and Portuguese melancholy blend into music the whole world knows.",
   uvod: [
-    "Zelenortski otoci leže u Atlantiku, oko 570 kilometara zapadno od Senegala. Bili su nenaseljeni kada su do njih oko 1460. doplovili moreplovci u službi Portugala. Na otoku Santiagu Portugalci su 1462. osnovali Ribeiru Grande, prvi europski kolonijalni grad u tropima, koji se obogatio kao pretovarna postaja u trgovini robljem između Afrike te Sjeverne i Južne Amerike.",
-    "Iz susreta portugalskih doseljenika i porobljenih Afrikanaca nastali su kreolski narod i kreolski jezik, kriolu, kojim danas govore svi. Otoci su suhi i često su ih pogađale suše i glad, pa je iseljavanje postalo dio sudbine: danas više Zelenortaca živi u inozemstvu nego na otocima. Iz čežnje za onima koji su otišli rodila se morna, glazba koju je proslavila Cesária Évora.",
-    "Zemlja je neovisnost od Portugala stekla 5. srpnja 1975. i otada je jedna od najstabilnijih afričkih demokracija. Svaki otok ima svoj karakter: jedni su ravni i pješčani, drugi planinski i zeleni, a na jednome još tinja vulkan."
+    "The Cape Verde islands lie in the Atlantic, about 570 kilometers west of Senegal. They were uninhabited when navigators in the service of Portugal reached them around 1460. On the island of Santiago the Portuguese founded Ribeira Grande in 1462, the first European colonial town in the tropics, which grew rich as a transshipment post in the slave trade between Africa and the Americas.",
+    "Out of the encounter between Portuguese settlers and enslaved Africans came a Creole people and a Creole language, Kriolu, which everyone speaks today. The islands are dry and were often struck by drought and famine, so emigration became part of their fate: today more Cape Verdeans live abroad than on the islands. From the longing for those who left came morna, the music made famous by Cesária Évora.",
+    "The country gained independence from Portugal on July 5, 1975, and has been one of Africa's most stable democracies ever since. Each island has its own character: some are flat and sandy, others mountainous and green, and on one of them a volcano still smolders."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Sunčano je i suho gotovo cijele godine, s temperaturama između 24 i 30 stupnjeva. Od studenoga do ožujka puše jači vjetar, što vole jedriličari i kajteri. Malo kiše pada od kolovoza do listopada, kada planinski otoci ozelene." },
-    { k: "Valuta", v: "Zelenortski eskudo (CVE), vezan uz euro po stalnom tečaju od oko 110 eskuda za jedan euro. Na otocima Sal i Boa Vista eure primaju gotovo svugdje." },
-    { k: "Kretanje", v: "Između otoka lete mali zrakoplovi i voze trajekti, ali se redovi mijenjaju i kasne, pa ostavite dan zalihe prije povratnog leta. Na otocima voze zajednički kombiji, zvani aluguer." },
-    { k: "Jezik", v: "Službeni je portugalski, a svakodnevni kriolu, koji se razlikuje od otoka do otoka." },
-    { k: "Napojnica", v: "Nije obvezna. U restoranima se ostavlja do 10 posto za dobru uslugu." }
+    { k: "When to go", v: "It is sunny and dry almost all year, with temperatures between 24 and 30 degrees Celsius. From November to March a stronger wind blows, which sailors and kitesurfers love. A little rain falls from August to October, when the mountainous islands turn green." },
+    { k: "Currency", v: "The Cape Verdean escudo (CVE), pegged to the euro at a fixed rate of about 110 escudos to one euro. On the islands of Sal and Boa Vista euros are accepted almost everywhere." },
+    { k: "Getting around", v: "Small planes and ferries run between the islands, but schedules change and run late, so leave a spare day before your flight home. On the islands themselves there are shared minibuses, called aluguer." },
+    { k: "Language", v: "Portuguese is the official language, and the everyday one is Kriolu, which differs from island to island." },
+    { k: "Tipping", v: "It is not compulsory. In restaurants people leave up to 10 percent for good service." }
   ],
   hrana: [
-    { ime: "Cachupa", opis: "Gusto varivo od kukuruza i graha koje se krčka satima, s povrćem i ribom ili mesom.", prica: "Nacionalno jelo postoji u dvije inačice: siromašnoj, samo s kukuruzom, grahom i malo ribe, i bogatoj, s više vrsta mesa i kobasica. Ostatci se sutradan prže na luku i poslužuju s pečenim jajetom za doručak, i mnogi tvrde da je tako još bolja." },
-    { ime: "Grogue", opis: "Jaka rakija od svježeg soka šećerne trske.", prica: "Najbolja dolazi s otoka Santo Antão, gdje se trska još ponegdje tiješti u drvenim prešama koje okreću volovi. Pije se čista, u jednom gutljaju, nakon jela." },
-    { ime: "Pontche", opis: "Liker od grogua, melase šećerne trske i limete.", prica: "Blaži je i slađi od grogua, pa je to piće kojim domaćin dočekuje goste. Postoje i inačice s kokosom, kavom ili tamarindom." },
-    { ime: "Pastel com diabo dentro", opis: "Pržena pita od tijesta s kukuruznim brašnom i slatkim krumpirom, punjena ljutom tunom.", prica: "Ime znači pita s vragom unutra i odnosi se na ljutu papričicu u nadjevu. Prodaje se na tržnicama i u barovima kao zalogaj uz pivo." },
-    { ime: "Tuna i riba s roštilja", opis: "Svježa tuna, vahu ili riba garoupa, pečene na žaru s češnjakom i maslinovim uljem.", prica: "More oko otoka vrlo je bogato ribom. Na molu u Santa Mariji na Salu ribari svako jutro iskrcavaju ulov i čiste ga pred prolaznicima." },
-    { ime: "Kozji sir i slatko od papaje", opis: "Svježi kozji sir poslužen s gustim slatkim od papaje ili guave.", prica: "Uobičajen je desert u svakom restoranu. Najcjenjeniji sir dolazi s planinskih otoka Fogo i Santo Antão." },
-    { ime: "Vino s Foga", opis: "Vino od loze koja raste u crnom vulkanskom pepelu, u krateru na oko 1700 metara.", prica: "Vinogradi u selu Chã das Caldeiras leže podno aktivnoga vulkana Pico do Fogo. Erupcija 2014. zatrpala je selo i vinariju, ali su se stanovnici vratili i ponovno posadili lozu." },
-    { ime: "Kava s Foga", opis: "Arabica s obronaka vulkana, uzgojena bez navodnjavanja.", prica: "Kavu su donijeli Portugalci u 18. stoljeću. Raste na malim posjedima i bere se ručno, a zbog male proizvodnje rijetko se nađe izvan otoka." }
+    { ime: "Cachupa", opis: "A thick stew of corn and beans that simmers for hours, with vegetables and fish or meat.", prica: "The national dish comes in two versions: the poor one, with just corn, beans and a little fish, and the rich one, with several kinds of meat and sausage. The next day the leftovers are fried with onion and served with a fried egg for breakfast, and many people insist it is even better that way." },
+    { ime: "Grogue", opis: "A strong spirit made from fresh sugarcane juice.", prica: "The best comes from the island of Santo Antão, where in some places the cane is still crushed in wooden presses turned by oxen. It is drunk neat, in a single gulp, after a meal." },
+    { ime: "Pontche", opis: "A liqueur of grogue, sugarcane molasses and lime.", prica: "It is milder and sweeter than grogue, which makes it the drink a host welcomes guests with. There are also versions with coconut, coffee or tamarind." },
+    { ime: "Pastel com diabo dentro", opis: "A fried turnover of dough made with cornmeal and sweet potato, filled with spicy tuna.", prica: "The name means pastry with the devil inside and refers to the hot pepper in the filling. It is sold at markets and in bars as a snack to go with beer." },
+    { ime: "Grilled tuna and fish", opis: "Fresh tuna, wahoo or the grouper known as garoupa, grilled with garlic and olive oil.", prica: "The sea around the islands is very rich in fish. On the pier in Santa Maria on Sal, fishermen unload their catch every morning and clean it in front of passersby." },
+    { ime: "Goat cheese and papaya jam", opis: "Fresh goat cheese served with a thick papaya or guava preserve.", prica: "It is the standard dessert in every restaurant. The most prized cheese comes from the mountainous islands of Fogo and Santo Antão." },
+    { ime: "Wine from Fogo", opis: "Wine from vines that grow in black volcanic ash, inside a crater at about 1,700 meters.", prica: "The vineyards in the village of Chã das Caldeiras lie at the foot of the active Pico do Fogo volcano. The 2014 eruption buried the village and the winery, but the residents returned and replanted the vines." },
+    { ime: "Coffee from Fogo", opis: "Arabica from the slopes of the volcano, grown without irrigation.", prica: "Coffee was brought by the Portuguese in the 18th century. It grows on small plots and is picked by hand, and because production is so small it is rarely found outside the islands." }
   ],
   obicaji: [
-    { ime: "Morna", opis: "Spora, sjetna pjesma o ljubavi, moru i rastanku, uz gitaru, violinu i malu žičanu cavaquinho. Ključna je riječ sodade, čežnja za dalekim domom i ljudima. UNESCO ju je 2019. uvrstio u nematerijalnu baštinu.", gdje: "Barovi i restorani s glazbom uživo u Mindelu na otoku São Vicente, rodnom gradu Cesárije Évore." },
-    { ime: "Funaná", opis: "Brza plesna glazba otoka Santiaga, uz harmoniku i metalnu šipku po kojoj se struže nožem. U kolonijalno doba vlasti su je potiskivale kao previše afričku i buntovnu, a nakon neovisnosti postala je simbol slobode.", gdje: "Plesnjaci i festivali u Praiji i selima u unutrašnjosti Santiaga." },
-    { ime: "Batuque", opis: "Najstariji glazbeni oblik otočja. Žene sjede u krugu i udaraju ritam po smotanoj tkanini u krilu, dok jedna u sredini pleše tresući bokovima i pjeva stihove na koje ostale odgovaraju.", gdje: "Sela na Santiagu i nastupi ženskih skupina u Cidade Velhi." },
-    { ime: "Morabeza", opis: "Riječ na kriolu za toplu, opuštenu gostoljubivost, kojom se Zelenortci ponose. Uz nju ide i izreka no stress, koju ćete čuti na svakom koraku.", gdje: "Posvuda, od tržnice do zajedničkoga kombija." },
-    { ime: "Karneval u Mindelu", opis: "Najveći karneval u zemlji nadahnut je brazilskim, s kočijama, bubnjarima i skupinama u kostimima na kojima se radi mjesecima. Posljednju večer ulicama prolaze Mandingasi, plesači premazani crnom bojom.", gdje: "Mindelo, u veljači ili ožujku, uoči Pepelnice." },
-    { ime: "Tabanka", opis: "Povorke s bubnjevima i rogovima od školjaka, koje vode kralj i kraljica. Potječu od bratovština uzajamne pomoći iz doba ropstva, koje su kolonijalne vlasti više puta zabranjivale.", gdje: "Santiago, u svibnju i lipnju, oko blagdana svetaca zaštitnika." }
+    { ime: "Morna", opis: "A slow, wistful song about love, the sea and parting, accompanied by guitar, violin and the small stringed cavaquinho. The key word is sodade, the longing for a faraway home and people. UNESCO added it to its intangible heritage list in 2019.", gdje: "Bars and restaurants with live music in Mindelo on the island of São Vicente, the hometown of Cesária Évora." },
+    { ime: "Funaná", opis: "The fast dance music of the island of Santiago, played on an accordion and a metal bar scraped with a knife. In colonial times the authorities suppressed it as too African and too rebellious, and after independence it became a symbol of freedom.", gdje: "Dance halls and festivals in Praia and the villages of Santiago's interior." },
+    { ime: "Batuque", opis: "The oldest musical form of the archipelago. Women sit in a circle and beat the rhythm on a rolled-up cloth in their laps, while one in the middle dances, shaking her hips, and sings verses to which the others respond.", gdje: "Villages on Santiago and performances by women's groups in Cidade Velha." },
+    { ime: "Morabeza", opis: "The Kriolu word for the warm, easygoing hospitality that Cape Verdeans are proud of. With it comes the saying no stress, which you will hear at every turn.", gdje: "Everywhere, from the market to the shared minibus." },
+    { ime: "Carnival in Mindelo", opis: "The biggest carnival in the country is inspired by Brazil's, with floats, drummers and groups in costumes that take months to make. On the last evening the Mandingas, dancers smeared with black paint, pass through the streets.", gdje: "Mindelo, in February or March, in the days leading up to Ash Wednesday." },
+    { ime: "Tabanka", opis: "Processions with drums and conch shell horns, led by a king and queen. They go back to the mutual aid brotherhoods of the slavery era, which the colonial authorities banned more than once.", gdje: "Santiago, in May and June, around the feast days of the patron saints." }
   ],
   fraze: [
-    { izvorno: "Bon dia", izgovor: "bon DI-a", hr: "Dobar dan" },
-    { izvorno: "Modi ki bu sta?", izgovor: "MO-di ki bu sta", hr: "Kako si?" },
-    { izvorno: "N sta dretu", izgovor: "n sta DRE-tu", hr: "Dobro sam" },
-    { izvorno: "Obrigadu / Obrigada", izgovor: "o-bri-GA-du / o-bri-GA-da", hr: "Hvala (kaže muškarac / žena)" },
-    { izvorno: "Pur favor", izgovor: "pur fa-VOR", hr: "Molim" },
-    { izvorno: "Kantu ki ta kusta?", izgovor: "KAN-tu ki ta KUS-ta", hr: "Koliko košta?" },
-    { izvorno: "Sabi", izgovor: "SA-bi", hr: "Fino, ugodno, lijepo" },
-    { izvorno: "Ti logu", izgovor: "ti LO-gu", hr: "Vidimo se" }
+    { izvorno: "Bon dia", izgovor: "bohn DEE-ah", hr: "Good day" },
+    { izvorno: "Modi ki bu sta?", izgovor: "MOH-dee kee boo stah", hr: "How are you?" },
+    { izvorno: "N sta dretu", izgovor: "n stah DREH-too", hr: "I'm fine" },
+    { izvorno: "Obrigadu / Obrigada", izgovor: "oh-bree-GAH-doo / oh-bree-GAH-dah", hr: "Thank you (said by a man / a woman)" },
+    { izvorno: "Pur favor", izgovor: "poor fah-VOR", hr: "Please" },
+    { izvorno: "Kantu ki ta kusta?", izgovor: "KAHN-too kee tah KOOS-tah", hr: "How much does it cost?" },
+    { izvorno: "Sabi", izgovor: "SAH-bee", hr: "Tasty, pleasant, nice" },
+    { izvorno: "Ti logu", izgovor: "tee LOH-goo", hr: "See you later" }
   ],
   zanimljivosti: [
-    "Otoci su dobili ime po rtu Cap-Vert u Senegalu, nasuprot kojemu leže, premda su sami pretežno suhi i smeđi.",
-    "Charles Darwin na putovanju brodom Beagle prvo se 1832. iskrcao upravo na Santiagu, gdje je proučavao slojeve stijena.",
-    "Cesária Évora nastupala je bosa, zbog čega su je prozvali bosonogom divom. Zračna luka na otoku São Vicente nosi njezino ime.",
-    "Vulkan Pico do Fogo, visok 2829 metara, najviši je vrh zemlje i posljednji je put eruptirao 2014.",
-    "Zelenortski otoci jedno su od najvažnijih gnjezdilišta glavate želve na svijetu.",
-    "Na nenaseljenom otočiću Raso živi ševa koje nema nigdje drugdje.",
-    "Država je 2013. zatražila da se u svim jezicima naziva izvornim imenom Cabo Verde."
+    "The islands were named after Cap-Vert in Senegal, the headland they lie opposite, although they themselves are mostly dry and brown.",
+    "On his voyage aboard the Beagle, Charles Darwin made his very first landing in 1832 on Santiago, where he studied the rock strata.",
+    "Cesária Évora performed barefoot, which earned her the nickname the Barefoot Diva. The airport on the island of São Vicente bears her name.",
+    "The Pico do Fogo volcano, 2,829 meters high, is the country's highest peak and last erupted in 2014.",
+    "Cape Verde is one of the most important nesting grounds for the loggerhead turtle in the world.",
+    "The uninhabited islet of Raso is home to a lark found nowhere else.",
+    "In 2013 the country asked to be called by its original name, Cabo Verde, in all languages."
   ],
   mjesta: [
     {
       id: "santiago",
       ime: "Santiago",
       vrsta: "otok",
-      sazetak: "Najveći i najafričkiji otok, s glavnim gradom Praijom i ruševinama prvoga kolonijalnog grada u tropima.",
+      sazetak: "The largest and most African island, with the capital, Praia, and the ruins of the first colonial town in the tropics.",
       prica: [
-        "Santiago je prvi naseljen, i na njemu živi više od polovice stanovnika zemlje. Ribeira Grande, današnja Cidade Velha, bila je u 16. stoljeću bogata luka u kojoj su se brodovi opskrbljivali, a porobljeni ljudi krstili i prodavali dalje.",
-        "Bogatstvo je privlačilo gusare. Francis Drake opljačkao je grad 1585., a nakon francuskog napada 1712. sjedište se preselilo na visoravan u Praiju. UNESCO je Cidade Velhu zaštitio 2009."
+        "Santiago was the first island to be settled, and more than half the country's population lives on it. Ribeira Grande, today's Cidade Velha, was a wealthy port in the 16th century where ships took on supplies and enslaved people were baptized and sold onward.",
+        "The wealth attracted pirates. Francis Drake sacked the town in 1585, and after a French attack in 1712 the seat of government moved up to the plateau at Praia. UNESCO listed Cidade Velha in 2009."
       ],
       vidjeti: [
-        { ime: "Pelourinho u Cidade Velhi", opis: "Mramorni stup iz ranog 16. stoljeća, isklesan u portugalskom kasnogotičkom stilu, stoji nasred trga uz more. Bio je znak kraljevske vlasti, ali su uz njega i javno kažnjavani i prodavani robovi." },
-        { ime: "Rua Banana", opis: "Smatra se prvom ulicom koju su Europljani sagradili u tropima. Niske kamene kuće pokrivene slamom obnovljene su prema izvornom izgledu, a u njima se i danas živi." },
-        { ime: "Utvrda São Filipe", opis: "Tvrđava na brdu iznad grada sagrađena je nakon Drakeova napada, krajem 16. stoljeća. S bedema se vidi cijela dolina, zelena od plantaža, i shvatite zašto je grad nastao baš ovdje: jedina je to stalna voda na suhoj obali." },
-        { ime: "Plateau u Praiji", opis: "Povijesno središte glavnoga grada leži na stjenovitoj zaravni iznad luke. Na glavnom su trgu crkva i stara vijećnica, a na tržnici Sucupira prodaje se sve, od tkanina s afričkim uzorcima do glazbe." },
-        { ime: "Logor Tarrafal", opis: "Na sjeveru otoka portugalska je diktatura 1936. otvorila logor za političke protivnike, prozvan logorom spore smrti. Poslije su ovdje zatvarani borci za neovisnost afričkih kolonija. Danas je muzej otpora, a nekoliko minuta dalje je jedna od najljepših plaža na otoku." }
+        { ime: "The Pelourinho in Cidade Velha", opis: "A marble pillar from the early 16th century, carved in the Portuguese late Gothic style, stands in the middle of the square by the sea. It was a sign of royal authority, and it was also where enslaved people were publicly punished and sold." },
+        { ime: "Rua Banana", opis: "It is considered the first street Europeans built in the tropics. The low stone houses with thatched roofs have been restored to their original appearance, and people still live in them today." },
+        { ime: "Fort São Filipe", opis: "The fortress on the hill above the town was built after Drake's attack, at the end of the 16th century. From the ramparts you can see the whole valley, green with plantations, and you understand why the town arose in this exact spot: it is the only permanent water on a dry coast." },
+        { ime: "The Plateau in Praia", opis: "The historic center of the capital sits on a rocky tableland above the harbor. On the main square are the church and the old town hall, and at the Sucupira market everything is for sale, from fabrics with African prints to music." },
+        { ime: "Tarrafal camp", opis: "In the north of the island the Portuguese dictatorship opened a camp for political opponents in 1936, which came to be called the camp of slow death. Later, fighters for the independence of the African colonies were imprisoned here. Today it is a museum of resistance, and a few minutes away is one of the most beautiful beaches on the island." }
       ],
       jesti: [
-        { ime: "Cachupa refogada", opis: "Za doručak se jučerašnja cachupa prži na luku i poslužuje s jajetom i kobasicom linguiça." },
-        { ime: "Riba u Cidade Velhi", opis: "U restoranima na obali peče se dnevni ulov, a nudi se i moreia, pržena murina hrskave kože." },
-        { ime: "Grogue iz doline", opis: "U dolini iznad Cidade Velhe još rade male destilerije, koje posjetiteljima daju kušati rakiju ravno iz kotla." }
+        { ime: "Cachupa refogada", opis: "For breakfast yesterday's cachupa is fried with onion and served with an egg and linguiça sausage." },
+        { ime: "Fish in Cidade Velha", opis: "The restaurants on the shore grill the day's catch, and they also offer moreia, fried moray eel with crisp skin." },
+        { ime: "Grogue from the valley", opis: "Small distilleries are still at work in the valley above Cidade Velha, and they let visitors taste the spirit straight from the still." }
       ],
       dozivjeti: [
-        { ime: "Tržnica u Assomadi", opis: "Srijedom i subotom u gradiću u unutrašnjosti okupljaju se seljaci iz cijelog otoka. Žene nose robu na glavi, a prodaju se i živa stoka i domaći sir." },
-        { ime: "Planinarenje u Serra Malagueti", opis: "U prirodnom parku na sjeveru staze vode grebenima iznad dubokih dolina s terasastim poljima. Jutra su često u magli, koja biljkama daje vodu." },
-        { ime: "Večer batuquea", opis: "U Cidade Velhi i okolnim selima ženske skupine nastupaju za posjetitelje i rado ih uvuku u krug." }
+        { ime: "The market in Assomada", opis: "On Wednesdays and Saturdays farmers from all over the island gather in this small inland town. Women carry their goods on their heads, and live animals and homemade cheese are sold too." },
+        { ime: "Hiking in Serra Malagueta", opis: "In the nature park in the north, trails follow the ridges above deep valleys with terraced fields. Mornings are often misty, and the mist gives the plants their water." },
+        { ime: "An evening of batuque", opis: "In Cidade Velha and the surrounding villages women's groups perform for visitors and happily pull them into the circle." }
       ],
       agencije: [
-        { ime: "Visit Cabo Verde", opis: "Službeni turistički portal Zelenortske Republike.", link: "https://www.visit-caboverde.com/" },
-        { ime: "UNESCO, Cidade Velha", opis: "Opis povijesne jezgre Ribeire Grande i razlozi zaštite.", link: "https://whc.unesco.org/en/list/1310" }
+        { ime: "Visit Cabo Verde", opis: "The official tourism portal of Cape Verde.", link: "https://www.visit-caboverde.com/" },
+        { ime: "UNESCO, Cidade Velha", opis: "A description of the historic center of Ribeira Grande and the reasons for its protection.", link: "https://whc.unesco.org/en/list/1310" }
       ],
-      kada: "Otok je najzeleniji od rujna do studenoga, nakon kiša. Cidade Velha je petnaest kilometara od Praije, pa je dovoljno pola dana."
+      kada: "The island is greenest from September to November, after the rains. Cidade Velha is fifteen kilometers from Praia, so half a day is enough."
     },
     {
       id: "sao-vicente-santo-antao",
-      ime: "São Vicente i Santo Antão",
+      ime: "São Vicente and Santo Antão",
       vrsta: "otok",
-      sazetak: "Mindelo je glazbena prijestolnica otočja, a susjedni Santo Antão raj za planinarenje među zelenim klancima.",
+      sazetak: "Mindelo is the musical capital of the archipelago, and neighboring Santo Antão is a paradise for hiking among green ravines.",
       prica: [
-        "São Vicente dugo je bio pust, jer nema vode. Oživio je u 19. stoljeću, kada su Britanci u dubokoj prirodnoj luci Mindela otvorili skladište ugljena za parobrode na putu preko Atlantika. S mornarima iz cijelog svijeta stigli su glazba, novine i otvorenost, po kojima je grad poznat.",
-        "Sat vremena trajektom dalje je Santo Antão, najzeleniji i najbrdovitiji otok, čije su sjeverne doline do vrha terasasto obrađene."
+        "São Vicente was deserted for a long time, because it has no water. It came to life in the 19th century, when the British opened a coal depot in Mindelo's deep natural harbor for steamships on their way across the Atlantic. With sailors from all over the world came the music, the newspapers and the openness the town is known for.",
+        "An hour away by ferry is Santo Antão, the greenest and most mountainous island, whose northern valleys are terraced and farmed all the way to the top."
       ],
       vidjeti: [
-        { ime: "Mindelo", opis: "Polukružni zaljev okružen je kolonijalnim zgradama pastelnih boja. Na obali stoji umanjena kopija lisabonskog tornja Belém, a guvernerova ružičasta palača podsjeća na vremena kada je luka bila među najprometnijima na Atlantiku." },
-        { ime: "Tragovima Cesárije Évore", opis: "Pjevačica je rođena 1941. u Mindelu i desetljećima je pjevala po barovima za piće prije nego što ju je u šestom desetljeću života otkrio svijet. U gradu su njezin kip, mural i mali muzej u kući u kojoj je živjela." },
-        { ime: "Gradska i riblja tržnica", opis: "U natkrivenoj tržnici s galerijom prodaju se voće, sir i grogue u bocama bez etikete. Na ribljoj tržnici uz more ribari na kamenim stolovima režu tune teške i po pedeset kilograma." },
-        { ime: "Dolina Paul", opis: "Najplodnija dolina otoka Santo Antão puna je šećerne trske, banana, kruhovca i kave. Staza se spušta od ruba ugaslog kratera Cova, čije je dno razdijeljeno na polja, pa kroz sela s destilerijama do mora." },
-        { ime: "Fontainhas", opis: "Selo šarenih kuća stoji na uskom hrptu iznad ponora i redovito se nalazi na popisima sela s najljepšim pogledom na svijetu. Do njega vodi kaldrmirana staza uklesana u liticu iznad oceana, od mjesta Ponta do Sol." }
+        { ime: "Mindelo", opis: "The crescent-shaped bay is lined with colonial buildings in pastel colors. On the waterfront stands a scaled-down replica of Lisbon's Belém Tower, and the governor's pink palace recalls the days when the port was among the busiest on the Atlantic." },
+        { ime: "In the footsteps of Cesária Évora", opis: "The singer was born in Mindelo in 1941 and sang in bars for drinks for decades before the world discovered her when she was in her fifties. In town you will find her statue, a mural and a small museum in the house where she lived." },
+        { ime: "The municipal market and the fish market", opis: "In the covered market with its gallery, fruit, cheese and grogue in unlabeled bottles are sold. At the fish market by the sea, fishermen cut up tuna weighing as much as fifty kilograms on stone tables." },
+        { ime: "Paul Valley", opis: "The most fertile valley on Santo Antão is full of sugarcane, bananas, breadfruit and coffee. The trail descends from the rim of the extinct Cova crater, whose floor is divided into fields, and then through villages with distilleries down to the sea." },
+        { ime: "Fontainhas", opis: "A village of colorful houses stands on a narrow spur above the abyss and regularly appears on lists of the villages with the most beautiful views in the world. A cobbled path cut into the cliff above the ocean leads to it from the town of Ponta do Sol." }
       ],
       jesti: [
-        { ime: "Cachupa u Mindelu", opis: "Jede se za doručak u malim barovima, uz kavu, prije odlaska na tržnicu." },
-        { ime: "Grogue i pontche iz Paula", opis: "U destilerijama u dolini kuša se rakija različite starosti i likeri s medom od trske." },
-        { ime: "Jastog", opis: "U restoranima uz zaljev poslužuje se s roštilja, i ovdje je povoljniji nego igdje u Europi." }
+        { ime: "Cachupa in Mindelo", opis: "It is eaten for breakfast in the small bars, with coffee, before heading to the market." },
+        { ime: "Grogue and pontche from Paul", opis: "At the distilleries in the valley you taste spirits of different ages and liqueurs made with cane honey." },
+        { ime: "Lobster", opis: "In the restaurants along the bay it is served grilled, and here it is cheaper than anywhere in Europe." }
       ],
       dozivjeti: [
-        { ime: "Večer s glazbom uživo", opis: "U Mindelu se gotovo svaku večer negdje svira morna i njezina brža sestra koladera. Večera se kasno, a glazba počinje oko devet." },
-        { ime: "Festival u zaljevu Baía das Gatas", opis: "U kolovozu, za vikend punog mjeseca, na plaži se tri dana besplatno svira glazba iz cijeloga portugalskog govornog svijeta." },
-        { ime: "Pješice od Ponta do Sola do Cruzinhe", opis: "Obalna staza od petnaestak kilometara prolazi kroz Fontainhas i još dva sela na litici. Računajte na pet do šest sati i dogovorite prijevoz za povratak." }
+        { ime: "An evening of live music", opis: "In Mindelo morna and its faster sister, coladeira, are played somewhere almost every night. People eat dinner late, and the music starts around nine." },
+        { ime: "The Baía das Gatas festival", opis: "In August, on the weekend of the full moon, music from all over the Portuguese-speaking world is played on the beach for three days, free of charge." },
+        { ime: "On foot from Ponta do Sol to Cruzinha", opis: "The coastal trail of about fifteen kilometers passes through Fontainhas and two more clifftop villages. Allow five to six hours and arrange transportation for the return." }
       ],
       agencije: [
-        { ime: "Visit Cabo Verde", opis: "Službeni turistički portal, s opisima otoka i staza.", link: "https://www.visit-caboverde.com/" },
-        { ime: "Turismo de Cabo Verde", opis: "Stranica državnog instituta za turizam.", link: "https://www.turismo.cv/" }
+        { ime: "Visit Cabo Verde", opis: "The official tourism portal, with descriptions of the islands and trails.", link: "https://www.visit-caboverde.com/" },
+        { ime: "Turismo de Cabo Verde", opis: "The website of the national tourism institute.", link: "https://www.turismo.cv/" }
       ],
-      kada: "Za planinarenje je najbolje od listopada do svibnja. Tko dolazi zbog karnevala, mora rezervirati smještaj mjesecima unaprijed."
+      kada: "The best time for hiking is from October to May. Anyone coming for the carnival has to book accommodation months in advance."
     },
     {
       id: "sal",
       ime: "Sal",
       vrsta: "otok",
-      sazetak: "Ravni pustinjski otok dugih plaža i tirkiznog mora, nazvan po soli koja ga je naselila.",
+      sazetak: "A flat desert island of long beaches and turquoise sea, named after the salt that brought people to it.",
       prica: [
-        "Otok se prvo zvao Llana, ravni, a današnje ime, koje znači sol, dobio je kada su u ugaslom krateru otkrivene solane. Sol se od 18. stoljeća izvozila u Brazil i Afriku.",
-        "Međunarodna zračna luka sagrađena je 1939. kao talijansko slijetalište za letove prema Južnoj Americi. Danas je Sal glavno turističko odredište zemlje, sa središtem u gradiću Santa Maria."
+        "The island was first called Llana, the flat one, and it got its present name, which means salt, when salt pans were discovered in an extinct crater. From the 18th century the salt was exported to Brazil and Africa.",
+        "The international airport was built in 1939 as an Italian landing field for flights to South America. Today Sal is the country's main tourist destination, centered on the small town of Santa Maria."
       ],
       vidjeti: [
-        { ime: "Solane Pedra de Lume", opis: "U krater ugaslog vulkana more prodire kroz stijenu i isparava u plitkim bazenima. U krater se ulazi tunelom probijenim 1804. U vodi, koja je slanija od Mrtvoga mora, tijelo pluta samo od sebe. Vide se i ostatci drvene žičare kojom se sol prevozila do luke." },
-        { ime: "Mol u Santa Mariji", opis: "Na drvenom molu ribari svako jutro iskrcavaju tune, vahue i sabljarke, važu ih i čiste na licu mjesta. Djeca skaču s mola u prozirnu vodu, a pod daskama se vrte jata riba." },
-        { ime: "Buracona i Plavo oko", opis: "Na zapadnoj obali lava je oblikovala prirodne bazene. U jednoj podvodnoj špilji sunce oko podneva pogodi otvor i voda zasvijetli jarkom plavom bojom. Prizor ovisi o suncu i mirnome moru." },
-        { ime: "Zaljev morskih pasa", opis: "U plitkom zaljevu na istoku okupljaju se mladi limunski morski psi, dugi do metra i pol. S vodičem se gazi u vodu do koljena i gleda ih s nekoliko metara. Ponesite obuću za vodu, jer je dno kamenito." },
-        { ime: "Fatamorgana kod Terra Boe", opis: "Na pustoj ravnici u unutrašnjosti vrućina stvara privid jezera na obzoru. Vodiči ovdje zastaju da pokažu kako pustinja vara oko." }
+        { ime: "Pedra de Lume salt pans", opis: "The sea seeps through the rock into the crater of an extinct volcano and evaporates in shallow pools. You enter the crater through a tunnel bored in 1804. In the water, which is saltier than the Dead Sea, your body floats all by itself. You can also see the remains of the wooden cableway that carried the salt to the port." },
+        { ime: "The pier in Santa Maria", opis: "On the wooden pier fishermen unload tuna, wahoo and swordfish every morning, weigh them and clean them on the spot. Children jump off the pier into the clear water, and schools of fish swirl beneath the planks." },
+        { ime: "Buracona and the Blue Eye", opis: "On the west coast lava has shaped natural pools. In one underwater cave the sun strikes the opening around noon and the water lights up a brilliant blue. The sight depends on the sun and a calm sea." },
+        { ime: "Shark Bay", opis: "Young lemon sharks, up to a meter and a half long, gather in a shallow bay in the east. With a guide you wade in up to your knees and watch them from a few meters away. Bring water shoes, because the bottom is rocky." },
+        { ime: "The mirage at Terra Boa", opis: "On the empty plain in the interior the heat creates the illusion of a lake on the horizon. Guides stop here to show how the desert tricks the eye." }
       ],
       jesti: [
-        { ime: "Tuna s mola", opis: "Restorani u Santa Mariji kupuju ribu ravno s mola, pa je odrezak tune ili carpaccio na jelovniku isti dan." },
-        { ime: "Školjke lapas", opis: "Priljepci s roštilja s češnjakom i maslacem poslužuju se u tavi u kojoj su pečeni." },
-        { ime: "Koktel s grogueom", opis: "Barovi miješaju caipirinhu s domaćom rakijom od trske umjesto brazilske." }
+        { ime: "Tuna from the pier", opis: "The restaurants in Santa Maria buy fish straight off the pier, so the tuna steak or carpaccio is on the menu the same day." },
+        { ime: "Lapas", opis: "Grilled limpets with garlic and butter are served in the pan they were cooked in." },
+        { ime: "A grogue cocktail", opis: "Bars mix their caipirinha with the local cane spirit in place of the Brazilian one." }
       ],
       dozivjeti: [
-        { ime: "Noćno promatranje želvi", opis: "Od srpnja do listopada glavate želve izlaze na plaže polagati jaja. Udruga Project Biodiversity vodi male skupine uz crveno svjetlo i čuva gnijezda, a možete posjetiti i njihovo mrijestilište.", link: "https://www.projectbiodiversity.org/" },
-        { ime: "Kajtanje i jedrenje na dasci", opis: "Na plaži Kite Beach vjetar puše postojano od studenoga do svibnja. Škole primaju i početnice, a s obale je lijepo samo gledati stotine zmajeva." },
-        { ime: "Obilazak otoka", opis: "U pola dana terenskim vozilom obiđu se solane, Buracona, zaljev morskih pasa i ribarsko mjesto Palmeira." }
+        { ime: "Nighttime turtle watching", opis: "From July to October loggerhead turtles come up onto the beaches to lay their eggs. The organization Project Biodiversity guides small groups by red light and guards the nests, and you can also visit its hatchery.", link: "https://www.projectbiodiversity.org/" },
+        { ime: "Kitesurfing and windsurfing", opis: "At Kite Beach the wind blows steadily from November to May. The schools take beginners too, and it is lovely simply to watch hundreds of kites from the shore." },
+        { ime: "A tour of the island", opis: "In half a day a four-wheel-drive vehicle takes in the salt pans, Buracona, Shark Bay and the fishing town of Palmeira." }
       ],
       agencije: [
-        { ime: "Visit Cabo Verde", opis: "Službeni turistički portal Zelenortske Republike.", link: "https://www.visit-caboverde.com/" },
-        { ime: "Project Biodiversity", opis: "Udruga za zaštitu morskih kornjača na Salu, koja organizira odgovorne obilaske.", link: "https://www.projectbiodiversity.org/" }
+        { ime: "Visit Cabo Verde", opis: "The official tourism portal of Cape Verde.", link: "https://www.visit-caboverde.com/" },
+        { ime: "Project Biodiversity", opis: "An organization protecting sea turtles on Sal, which runs responsible tours.", link: "https://www.projectbiodiversity.org/" }
       ],
-      kada: "Kupati se može cijele godine. Za želve dođite od srpnja do listopada, a za vjetar od studenoga do svibnja. Sunce je vrlo jako, pa se zaštitite i kada je oblačno."
+      kada: "You can swim all year round. Come from July to October for the turtles and from November to May for the wind. The sun is very strong, so protect yourself even when it is cloudy."
     }
   ],
   izvori: [
     { ime: "Visit Cabo Verde", url: "https://www.visit-caboverde.com/" },
     { ime: "Turismo de Cabo Verde", url: "https://www.turismo.cv/" },
-    { ime: "UNESCO: Cidade Velha, povijesno središte Ribeire Grande", url: "https://whc.unesco.org/en/list/1310" },
+    { ime: "UNESCO: Cidade Velha, Historic Centre of Ribeira Grande", url: "https://whc.unesco.org/en/list/1310" },
     { ime: "Project Biodiversity", url: "https://www.projectbiodiversity.org/" },
-    { ime: "Cabo Verde Info, informativni portal", url: "https://www.caboverde-info.com/" }
+    { ime: "Cabo Verde Info, information portal", url: "https://www.caboverde-info.com/" }
   ]
 };

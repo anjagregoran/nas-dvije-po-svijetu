@@ -1,161 +1,161 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["luksemburg"] = {
   id: "luksemburg",
-  ime: "Luksemburg",
-  regija: "Zapadna Europa",
-  sazetak: "Jedino veliko vojvodstvo na svijetu stane u jedan vikend, a nudi tvrđavu uklesanu u stijenu, dvorce iz bajke i šume pune pješčenjačkih klanaca.",
+  ime: "Luxembourg",
+  regija: "Western Europe",
+  sazetak: "The only grand duchy in the world fits into a single weekend and still offers a fortress carved into rock, fairy-tale castles and forests full of sandstone gorges.",
   uvod: [
-    "Luksemburg je manji od Istre, a ipak je stoljećima bio jedna od najtraženijih točaka na karti Europe. Sve je počelo 963. godine, kada je grof Siegfried zamjenom zemlje došao do stijene Bock iznad rijeke Alzette i na njoj podigao utvrdu Lucilinburhuc, što znači mala utvrda. Oko nje je narasla tvrđava koju su redom dograđivali Burgundi, Španjolci, Francuzi, Austrijanci i Prusi, pa su je zbog neosvojivosti prozvali Gibraltarom sjevera.",
-    "Danas je to mirna i bogata zemlja u kojoj se u istom razgovoru čuju luksemburški, francuski i njemački, a gotovo polovica stanovnika ima stranu putovnicu. Glavni grad leži na dvije razine, s gornjim gradom na visoravni i starim četvrtima duboko u klancu, dok se na sjeveru prostiru brda Éislek s dvorcima, a na istoku vinogradi uz Mosel i šumoviti Mullerthal. Udaljenosti su male, pa se iz grada do svakog kutka zemlje stiže za otprilike sat vremena."
+    "Luxembourg is smaller than Croatia's Istria, and yet for centuries it was one of the most coveted spots on the map of Europe. It all began in 963, when Count Siegfried acquired the Bock rock above the Alzette River through a land swap and built on it the fort Lucilinburhuc, which means little fortress. Around it grew a stronghold that was expanded in turn by the Burgundians, the Spanish, the French, the Austrians and the Prussians, and its impregnability earned it the nickname Gibraltar of the North.",
+    "Today it is a peaceful and wealthy country where you hear Luxembourgish, French and German in the same conversation, and almost half the residents hold a foreign passport. The capital lies on two levels, with the upper town on a plateau and the old quarters deep in the gorge, while the Éislek hills with their castles spread out to the north, and the vineyards along the Moselle and the wooded Mullerthal lie to the east. Distances are short, so from the city you can reach every corner of the country in about an hour."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od svibnja do listopada, kada su staze u Mullerthalu suhe, a terase otvorene. Kraj kolovoza donosi veliki sajam Schueberfouer, a prosinac božićne sajmove u glavnom gradu." },
-    { k: "Valuta", v: "Euro. Kartice se primaju gotovo svugdje, a cijene su među višima u Europi." },
-    { k: "Kretanje", v: "Sav javni prijevoz u zemlji, dakle vlakovi, autobusi i tramvaj, besplatan je za sve od 1. ožujka 2020., pa karta treba samo za prvi razred i za vožnju preko granice." },
-    { k: "Napojnica", v: "Usluga je uračunata u cijenu. Ako ste zadovoljne, zaokružite račun ili ostavite pet do deset posto." },
-    { k: "Jezik", v: "Luksemburški je nacionalni jezik, a francuski i njemački službeni su uz njega. U restoranima i trgovinama najčešće ćete čuti francuski, a engleski govori većina." }
+    { k: "When to go", v: "May to October, when the trails in the Mullerthal are dry and the terraces are open. Late August brings the big Schueberfouer fair, and December the Christmas markets in the capital." },
+    { k: "Currency", v: "Euro. Cards are accepted almost everywhere, and prices are among the higher ones in Europe." },
+    { k: "Getting around", v: "All public transportation in the country, meaning trains, buses and the tram, has been free for everyone since March 1, 2020, so you need a ticket only for first class and for travel across the border." },
+    { k: "Tipping", v: "Service is included in the price. If you are happy, round up the bill or leave five to ten percent." },
+    { k: "Language", v: "Luxembourgish is the national language, with French and German as official languages alongside it. In restaurants and shops you will most often hear French, and most people speak English." }
   ],
   hrana: [
-    { ime: "Judd mat Gaardebounen", opis: "Dimljena svinjska vratina kuhana s bobom u gustom umaku od vrhnja, uz kuhani krumpir.", prica: "Smatra se nacionalnim jelom, a selo Gostingen na jugoistoku toliko je poznato po bobu da njegove stanovnike zovu Bounepatscherten. Meso se prije kuhanja namače preko noći kako bi izgubilo višak soli, pa je jelo blaže nego što izgleda." },
-    { ime: "Gromperekichelcher", opis: "Hrskave pržene pogačice od ribanog krumpira s lukom i peršinom.", prica: "To je ulična hrana svih luksemburških sajmova, a najbolje se jedu vruće, iz papira, na Schueberfoueru ili na božićnom sajmu. Uz njih se nudi umak od jabuka, što zvuči neobično, ali slatko i slano ovdje se odlično slažu." },
-    { ime: "Bouneschlupp", opis: "Gusta juha od mahuna, krumpira, luka i slanine.", prica: "Seljačko je to jelo koje se kuhalo u jednom loncu za cijelu obitelj, a slične juhe poznaju i susjedne pokrajine u Njemačkoj, Belgiji i Francuskoj. Često se poslužuje s kobasicom Mettwurscht ili upravo uz Gromperekichelcher." },
-    { ime: "Kachkéis", opis: "Topljeni, razmazivi sir koji se jede na kruhu, obično sa senfom.", prica: "Sir je u ove krajeve vjerojatno stigao sa španjolskim vojnicima u 17. stoljeću, a danas ga ima u svakom hladnjaku. Domaći ga jedu za doručak ili večeru, na debeloj kriški kruha s maslacem." },
-    { ime: "Friture de la Moselle", opis: "Sitna riječna riba, pržena cijela u dubokom ulju i poslužena s limunom.", prica: "Jede se prstima, s glavom i repom, u gostionicama uz rijeku Mosel između Schengena i Wasserbilliga. Uz nju ide čaša suhog domaćeg rizlinga ili starinske sorte elbling." },
-    { ime: "Rieslingspaschtéit", opis: "Pašteta od svinjetine u prhkom tijestu, sa slojem želea od rizlinga.", prica: "Naći ćete je u svakoj pekarnici i mesnici, narezanu na kriške, i jede se hladna. To je klasičan luksemburški zalogaj za izlet ili brzi ručak." },
-    { ime: "Quetschentaart", opis: "Otvoreni kolač od dizanog ili prhkog tijesta gusto složen polovicama šljiva.", prica: "Peče se u rujnu, kada dozrijevaju domaće šljive, i miriše iz svake slastičarnice. Luksemburžani ga jedu uz kavu, bez šlaga i bez puno šećera, kako bi se osjetila kiselkasta voćnost." },
-    { ime: "Crémant de Luxembourg", opis: "Pjenušavo vino s Mosela rađeno klasičnom metodom vrenja u boci.", prica: "Naziv je zaštićen od 1991. godine, a vinogradi se protežu uz četrdesetak kilometara rijeke koja čini granicu s Njemačkom. Čaša kremana ovdje je uobičajen aperitiv, a u podrumima uz Mosel može se kušati izravno kod vinara." }
+    { ime: "Judd mat Gaardebounen", opis: "Smoked pork collar cooked with broad beans in a thick cream sauce, served with boiled potatoes.", prica: "It is considered the national dish, and the village of Gostingen in the southeast is so well known for its broad beans that its residents are called Bounepatscherten. Before cooking, the meat is soaked overnight to draw out the excess salt, so the dish is milder than it looks." },
+    { ime: "Gromperekichelcher", opis: "Crispy fried patties of grated potato with onion and parsley.", prica: "This is the street food of every fair in Luxembourg, and it is best eaten hot, out of paper, at the Schueberfouer or at a Christmas market. Applesauce is offered alongside, which sounds unusual, but sweet and salty get along wonderfully here." },
+    { ime: "Bouneschlupp", opis: "A thick soup of green beans, potatoes, onion and bacon.", prica: "It is a farmhouse dish that was cooked in a single pot for the whole family, and the neighboring regions of Germany, Belgium and France know similar soups. It is often served with Mettwurscht sausage or, indeed, with Gromperekichelcher." },
+    { ime: "Kachkéis", opis: "A melted, spreadable cheese eaten on bread, usually with mustard.", prica: "The cheese probably arrived in these parts with Spanish soldiers in the 17th century, and today it is in every refrigerator. Locals eat it for breakfast or supper, on a thick slice of buttered bread." },
+    { ime: "Friture de la Moselle", opis: "Small river fish, deep-fried whole and served with lemon.", prica: "It is eaten with your fingers, head and tail included, in the inns along the Moselle River between Schengen and Wasserbillig. It goes with a glass of dry local Riesling or of the old-fashioned Elbling variety." },
+    { ime: "Rieslingspaschtéit", opis: "A pork pâté in shortcrust pastry, with a layer of Riesling jelly.", prica: "You will find it in every bakery and butcher shop, cut into slices, and it is eaten cold. It is the classic Luxembourg bite for a day trip or a quick lunch." },
+    { ime: "Quetschentaart", opis: "An open tart of yeast or shortcrust dough, densely packed with plum halves.", prica: "It is baked in September, when the local plums ripen, and you can smell it from every pastry shop. Luxembourgers eat it with coffee, without whipped cream and without much sugar, so that the tart fruitiness comes through." },
+    { ime: "Crémant de Luxembourg", opis: "A sparkling wine from the Moselle made by the classic method of fermentation in the bottle.", prica: "The name has been protected since 1991, and the vineyards stretch along some forty kilometers of the river that forms the border with Germany. A glass of crémant is the usual aperitif here, and in the cellars along the Moselle you can taste it right at the winemaker's." }
   ],
   obicaji: [
-    { ime: "Schueberfouer", opis: "Najveći je to sajam u zemlji i jedan od najstarijih u Europi, a utemeljio ga je 1340. godine grof Ivan Slijepi kao trgovački sajam. Danas je to golem zabavni park s vrtuljcima, kolom za razgledavanje i štandovima s prženom ribom i krumpirovim pogačicama.", gdje: "Polje Glacis u gradu Luxembourgu, oko tri tjedna od kraja kolovoza do početka rujna." },
-    { ime: "Plesna procesija u Echternachu", opis: "Tisuće hodočasnika u bijelim košuljama, povezane rupcima, poskakuju ulicama u ritmu polke do groba svetog Willibrorda. Riječ je o jedinoj takvoj procesiji u Europi, a UNESCO ju je 2010. uvrstio na popis nematerijalne baštine.", gdje: "Echternach, svake godine na utorak nakon Duhova, ujutro, od dvorišta opatije do bazilike." },
-    { ime: "Buergbrennen", opis: "Na prvu nedjelju korizme sela pale goleme krijesove, često s križem od slame na vrhu, kako bi simbolično otjerala zimu. Predaja kaže da čast paljenja pripada posljednjem vjenčanom paru u selu.", gdje: "U gotovo svakom mjestu u zemlji, na brežuljku iznad naselja, prve nedjelje nakon poklada." },
-    { ime: "Éimaischen i Péckvillercher", opis: "Na Uskrsni ponedjeljak održava se lončarski sajam na kojem se kupuju Péckvillercher, male glinene zviždaljke u obliku ptica. Svake se godine izrađuju u novim bojama i uzorcima, pa ih mnogi skupljaju.", gdje: "Trg Fëschmaart u starom dijelu grada Luxembourga i lončarsko selo Nospelt, na Uskrsni ponedjeljak." },
-    { ime: "Nationalfeierdag", opis: "Državni praznik službeno slavi rođendan velikog vojvode, iako datum nema veze sa stvarnim rođendanom vladara, jer je odabran zbog ljetnog vremena. Večer prije praznika grad je jedna velika ulična zabava s bakljadom i vatrometom.", gdje: "Grad Luxembourg, navečer 22. lipnja, a svečana smjena straže i mimohod slijede 23. lipnja." },
-    { ime: "Oktava", opis: "Dvotjedno je to hodočašće Gospi Utješiteljici žalosnih, zaštitnici grada i zemlje, koje traje još od 17. stoljeća. Uz katedralu se tada postavlja sajam Mäertchen sa štandovima s hranom i suvenirima.", gdje: "Katedrala Notre-Dame i trg Place Guillaume II u gradu Luxembourgu, od treće do pete nedjelje nakon Uskrsa." }
+    { ime: "Schueberfouer", opis: "This is the largest fair in the country and one of the oldest in Europe, founded in 1340 by Count John the Blind as a trade fair. Today it is a huge amusement park with carousels, a Ferris wheel and stalls selling fried fish and potato patties.", gdje: "The Glacis field in Luxembourg City, for about three weeks from late August to early September." },
+    { ime: "The Hopping Procession of Echternach", opis: "Thousands of pilgrims in white shirts, linked by handkerchiefs, hop through the streets to a polka rhythm all the way to the tomb of Saint Willibrord. It is the only procession of its kind in Europe, and UNESCO added it to the intangible heritage list in 2010.", gdje: "Echternach, every year on the Tuesday after Pentecost, in the morning, from the abbey courtyard to the basilica." },
+    { ime: "Buergbrennen", opis: "On the first Sunday of Lent, villages light enormous bonfires, often with a straw cross on top, to symbolically drive away winter. Tradition says that the honor of lighting the fire belongs to the most recently married couple in the village.", gdje: "In almost every town and village in the country, on a hill above the settlement, on the first Sunday after carnival." },
+    { ime: "Éimaischen and Péckvillercher", opis: "On Easter Monday a pottery fair is held where people buy Péckvillercher, small clay whistles in the shape of birds. Every year they are made in new colors and patterns, so many people collect them.", gdje: "The Fëschmaart square in the old part of Luxembourg City and the pottery village of Nospelt, on Easter Monday." },
+    { ime: "Nationalfeierdag", opis: "The national holiday officially celebrates the Grand Duke's birthday, even though the date has nothing to do with the ruler's actual birthday, because it was chosen for the summer weather. On the eve of the holiday the city is one big street party with a torchlight procession and fireworks.", gdje: "Luxembourg City, on the evening of June 22, with the ceremonial changing of the guard and the parade following on June 23." },
+    { ime: "Octave", opis: "This is a two-week pilgrimage to Our Lady, Comforter of the Afflicted, patron of the city and the country, which has been going on since the 17th century. During it, the Mäertchen fair is set up beside the cathedral, with stalls selling food and souvenirs.", gdje: "Notre-Dame Cathedral and Place Guillaume II in Luxembourg City, from the third to the fifth Sunday after Easter." }
   ],
   fraze: [
-    { izvorno: "Moien", izgovor: "MO-jen", hr: "Dobar dan, bok (u svako doba dana)" },
-    { izvorno: "Äddi", izgovor: "E-di", hr: "Doviđenja" },
-    { izvorno: "Merci", izgovor: "MER-si", hr: "Hvala" },
-    { izvorno: "Wann ech gelift", izgovor: "van eh ge-LIFT", hr: "Molim (kada nešto tražite)" },
-    { izvorno: "Jo / Nee", izgovor: "jo / ne", hr: "Da / Ne" },
-    { izvorno: "Entschëllegt", izgovor: "en-ČE-legt", hr: "Oprostite" },
-    { izvorno: "Wéi geet et?", izgovor: "vej GET et", hr: "Kako ste?" },
-    { izvorno: "Prost!", izgovor: "prost", hr: "Živjeli!" }
+    { izvorno: "Moien", izgovor: "MOY-en", hr: "Hello, hi (at any time of day)" },
+    { izvorno: "Äddi", izgovor: "AD-dee", hr: "Goodbye" },
+    { izvorno: "Merci", izgovor: "MAIR-see", hr: "Thank you" },
+    { izvorno: "Wann ech gelift", izgovor: "vahn esh guh-LIFT", hr: "Please (when asking for something)" },
+    { izvorno: "Jo / Nee", izgovor: "yoh / nay", hr: "Yes / No" },
+    { izvorno: "Entschëllegt", izgovor: "en-CHUL-ekt", hr: "Excuse me, sorry" },
+    { izvorno: "Wéi geet et?", izgovor: "vay GATE et", hr: "How are you?" },
+    { izvorno: "Prost!", izgovor: "prohst", hr: "Cheers!" }
   ],
   zanimljivosti: [
-    "Luksemburg je jedino veliko vojvodstvo na svijetu, a na čelu mu je veliki vojvoda.",
-    "Bio je prva država na svijetu koja je uvela besplatan javni prijevoz na cijelom teritoriju, i to 1. ožujka 2020.",
-    "Državno geslo glasi „Mir wëlle bleiwe wat mir sinn“, što znači „Želimo ostati ono što jesmo“.",
-    "Sporazum o ukidanju graničnih kontrola potpisan je 1985. na brodu usidrenom na Moselu kod luksemburškog sela Schengena, a Hrvatska je u schengenski prostor ušla 1. siječnja 2023.",
-    "Ispod glavnoga grada nekoć se pružalo oko 23 kilometra obrambenih tunela, od kojih je do danas sačuvano 17 kilometara.",
-    "Djeca u školi uče čitati na njemačkom, potom dobivaju francuski, a među sobom i kod kuće govore luksemburški.",
-    "Tvrđava je razgrađena nakon Londonskog ugovora iz 1867., kojim je Luksemburg proglašen trajno neutralnim, a rušenje bedema trajalo je šesnaest godina."
+    "Luxembourg is the only grand duchy in the world, and it is headed by a grand duke.",
+    "It was the first country in the world to introduce free public transportation across its entire territory, on March 1, 2020.",
+    "The national motto is “Mir wëlle bleiwe wat mir sinn”, which means “We want to remain what we are”.",
+    "The agreement on abolishing border controls was signed in 1985 on a boat moored on the Moselle near the Luxembourg village of Schengen, and Croatia joined the Schengen Area on January 1, 2023.",
+    "About 23 kilometers of defensive tunnels once ran beneath the capital, of which 17 kilometers survive today.",
+    "Children learn to read in German at school, then French is added, and among themselves and at home they speak Luxembourgish.",
+    "The fortress was dismantled after the Treaty of London of 1867, which declared Luxembourg permanently neutral, and tearing down the ramparts took sixteen years."
   ],
   mjesta: [
     {
       id: "luxembourg-grad",
-      ime: "Luxembourg",
+      ime: "Luxembourg City",
       vrsta: "grad",
-      sazetak: "Glavni grad na dvije razine, u kojem se s bedema gleda ravno u krovove četvrti stisnute na dnu klanca.",
+      sazetak: "A capital on two levels, where from the ramparts you look straight down onto the rooftops of a quarter squeezed into the bottom of the gorge.",
       prica: [
-        "Grad je izrastao oko utvrde koju je grof Siegfried 963. podigao na stijeni Bock, okruženoj s tri strane zavojem rijeke Alzette. Zbog tog su položaja europske sile četiri stoljeća otimale grad jedna drugoj i svaka je dodala svoj prsten bedema, a najviše traga ostavio je francuski vojni graditelj Vauban nakon opsade 1684. godine.",
-        "Kada je 1867. odlučeno da se tvrđava sruši, na mjestu bedema nastali su parkovi i bulevari, pa grad danas djeluje neobično zeleno i prozračno. Stare četvrti i ostaci utvrda pod zaštitom su UNESCO-a od 1994., a na visoravni Kirchberg preko puta smjestile su se europske institucije i banke."
+        "The city grew up around the fort that Count Siegfried built in 963 on the Bock rock, surrounded on three sides by a bend in the Alzette River. Because of that position the powers of Europe kept snatching the city from one another for four centuries, and each added its own ring of ramparts, with the French military engineer Vauban leaving the greatest mark after the siege of 1684.",
+        "When it was decided in 1867 that the fortress would be torn down, parks and boulevards took the place of the ramparts, so the city today feels unusually green and airy. The old quarters and the remains of the fortifications have been under UNESCO protection since 1994, and the European institutions and banks have settled on the Kirchberg plateau across the way."
       ],
       vidjeti: [
-        { ime: "Kazamati Bock", opis: "Podzemne galerije koje su 1644. počeli klesati Španjolci, a u 18. stoljeću proširili Austrijanci, mogle su primiti tisuće vojnika s konjima, radionicama, kuhinjama i pekarnicama. U Drugom svjetskom ratu služile su kao sklonište za desetke tisuća građana. Potražite otvore za topove kroz koje se pruža pogled na četvrt Grund." },
-        { ime: "Chemin de la Corniche", opis: "Šetnica po bedemima iz 17. stoljeća koju je luksemburški pisac Batty Weber nazvao najljepšim balkonom Europe. S nje se vidi kako grad doslovno pada u klanac, a dolje se bijeli nekadašnja opatija Neumünster, koja je dugo služila kao zatvor, a danas je kulturni centar." },
-        { ime: "Velikovojvodska palača", opis: "Pročelje u stilu flamanske renesanse potječe iz 1570-ih godina, kada je zgrada bila gradska vijećnica, a rezidencija vladara postala je tek 1890. Pogledajte izbliza isprepletene ukrase na pročelju, koji podsjećaju na španjolsko-maurske uzore. Ljeti, obično od sredine srpnja do kraja kolovoza, unutrašnjost se može razgledati uz vodiča." },
-        { ime: "Katedrala Notre-Dame", opis: "Sagradili su je isusovci od 1613. do 1621. kao crkvu svojega kolegija, pa je kasna gotika ovdje pomiješana s renesansnim ukrasima. U kripti počivaju veliki vojvode, a ulaz u grobnicu čuvaju dva brončana lava. U crkvi se čuva i mali kip Gospe Utješiteljice, kojemu se hodočasti za Oktave." },
-        { ime: "Gëlle Fra", opis: "Pozlaćena žena s lovorovim vijencem na vrhu obeliska podignuta je 1923. u spomen Luksemburžanima koji su se u Prvom svjetskom ratu dobrovoljno borili na strani saveznika. Nacisti su spomenik 1940. srušili, a kip je desetljećima bio skriven i na svoje se mjesto vratio tek 1985." },
-        { ime: "Grund i dizalo Pfaffenthal", opis: "Grund je stara obrtnička četvrt uz rijeku, s kamenim mostom i kućama naslonjenima na stijenu, do koje se iz gornjega grada silazi pješice ili dizalom kroz stijenu. Malo sjevernije stakleno panoramsko dizalo Pfaffenthal besplatno spušta putnike sedamdesetak metara niz liticu, a staklena kabina strši nad provalijom." }
+        { ime: "Bock Casemates", opis: "The underground galleries that the Spanish began carving in 1644 and the Austrians extended in the 18th century could hold thousands of soldiers along with horses, workshops, kitchens and bakeries. In the Second World War they served as a shelter for tens of thousands of residents. Look for the cannon openings, which give you a view of the Grund quarter." },
+        { ime: "Chemin de la Corniche", opis: "A promenade along the 17th-century ramparts that the Luxembourg writer Batty Weber called the most beautiful balcony in Europe. From it you can see how the city literally drops into the gorge, and down below gleams the white former Neumünster Abbey, which long served as a prison and is now a cultural center." },
+        { ime: "Grand Ducal Palace", opis: "The facade in the Flemish Renaissance style dates from the 1570s, when the building was the town hall, and it became the ruler's residence only in 1890. Take a close look at the interlaced ornaments on the facade, which recall Spanish-Moorish models. In summer, usually from mid-July to the end of August, you can tour the interior with a guide." },
+        { ime: "Notre-Dame Cathedral", opis: "The Jesuits built it from 1613 to 1621 as the church of their college, so late Gothic is mixed here with Renaissance ornament. The grand dukes rest in the crypt, and two bronze lions guard the entrance to the burial vault. The church also holds the small statue of Our Lady, Comforter of the Afflicted, the destination of the pilgrimage during the Octave." },
+        { ime: "Gëlle Fra", opis: "The gilded woman with a laurel wreath on top of the obelisk was erected in 1923 in memory of the Luxembourgers who volunteered to fight on the side of the Allies in the First World War. The Nazis pulled the monument down in 1940, and the statue stayed hidden for decades and returned to its place only in 1985." },
+        { ime: "Grund and the Pfaffenthal elevator", opis: "Grund is the old craftsmen's quarter by the river, with a stone bridge and houses leaning against the rock, which you reach from the upper town on foot or by an elevator through the rock. A little farther north, the glass Pfaffenthal panoramic elevator takes passengers some seventy meters down the cliff for free, and its glass cabin juts out over the drop." }
       ],
       jesti: [
-        { ime: "Judd mat Gaardebounen", opis: "Dimljena svinjska vratina s bobom, koju nude tradicionalne gostionice u starom gradu i u Grundu." },
-        { ime: "Gromperekichelcher", opis: "Pržene krumpirove pogačice, najčešće na štandovima za vrijeme sajmova i na tržnici na trgu Place Guillaume II, koja se održava srijedom i subotom." },
-        { ime: "Rieslingspaschtéit", opis: "Kriška paštete u tijestu sa želeom od rizlinga, koja se kupuje u pekarnicama i mesnicama u središtu grada." }
+        { ime: "Judd mat Gaardebounen", opis: "Smoked pork collar with broad beans, served by the traditional inns in the old town and in Grund." },
+        { ime: "Gromperekichelcher", opis: "Fried potato patties, found most often at stalls during the fairs and at the market on Place Guillaume II, which is held on Wednesdays and Saturdays." },
+        { ime: "Rieslingspaschtéit", opis: "A slice of pâté in pastry with Riesling jelly, bought in the bakeries and butcher shops of the city center." }
       ],
       dozivjeti: [
-        { ime: "Šetnja Wenzelovim putem", opis: "Označena kružna staza u stotinjak minuta vodi kroz tisuću godina povijesti, od stijene Bock preko Corniche do doline Alzette i natrag kroz stara gradska vrata. Ako želite razumjeti kako je tvrđava funkcionirala, ovo je najbolji način, a turistički ured nudi i vođene obilaske.", link: "https://www.luxembourg-city.com/" },
-        { ime: "Suvremena umjetnost na Kirchbergu", opis: "Muzej Mudam projektirao je I. M. Pei, arhitekt staklene piramide Louvrea, i postavio ga na temelje stare utvrde Thüngen. Vrijedi doći već zbog zgrade od svijetlog kamena i stakla te pogleda na stari grad s druge strane doline.", link: "https://www.mudam.com/" },
-        { ime: "Nacionalni muzej povijesti i umjetnosti", opis: "Na trgu Fëschmaart muzej se spušta nekoliko katova u stijenu, a na dnu čeka golemi rimski mozaik iz Vichtena s devet muza. Ako vas zanima kako je Luksemburg izgledao prije tvrđave, počnite odavde.", link: "https://www.nationalmusee.lu/" }
+        { ime: "Walking the Wenzel Circular Walk", opis: "The marked loop trail leads you in about a hundred minutes through a thousand years of history, from the Bock rock along the Corniche to the Alzette valley and back through the old city gates. If you want to understand how the fortress worked, this is the best way, and the tourist office also offers guided tours.", link: "https://www.luxembourg-city.com/" },
+        { ime: "Contemporary art on the Kirchberg", opis: "The Mudam museum was designed by I. M. Pei, architect of the Louvre's glass pyramid, who set it on the foundations of the old Fort Thüngen. It is worth coming for the building of pale stone and glass alone, and for the view of the old city from the other side of the valley.", link: "https://www.mudam.com/" },
+        { ime: "National Museum of History and Art", opis: "On the Fëschmaart square the museum descends several floors into the rock, and at the bottom a huge Roman mosaic from Vichten with the nine Muses awaits. If you are curious about what Luxembourg looked like before the fortress, start here.", link: "https://www.nationalmusee.lu/" }
       ],
       agencije: [
-        { ime: "Luxembourg City Tourist Office", opis: "Službeni turistički ured grada, na trgu Place Guillaume II, koji organizira vođene šetnje gradom i kazamatima.", link: "https://www.luxembourg-city.com/" },
-        { ime: "Visit Luxembourg", opis: "Službena turistička zajednica države, s prijedlozima ruta i izleta po cijeloj zemlji.", link: "https://www.visitluxembourg.com/" }
+        { ime: "Luxembourg City Tourist Office", opis: "The city's official tourist office, on Place Guillaume II, which organizes guided walks through the city and the casemates.", link: "https://www.luxembourg-city.com/" },
+        { ime: "Visit Luxembourg", opis: "The country's official tourism board, with suggested routes and day trips all over the country.", link: "https://www.visitluxembourg.com/" }
       ],
-      kada: "Od svibnja do rujna grad je najljepši za šetnju po bedemima. Kazamati su zimi obično zatvoreni, pa prije dolaska provjerite radno vrijeme na stranici turističkog ureda."
+      kada: "From May to September the city is at its loveliest for a walk along the ramparts. The casemates are usually closed in winter, so check the opening hours on the tourist office website before you come."
     },
     {
       id: "vianden",
       ime: "Vianden",
       vrsta: "gradić",
-      sazetak: "Gradić na rijeci Our iznad kojega se diže jedan od najvećih utvrđenih dvoraca zapadno od Rajne.",
+      sazetak: "A small town on the Our River beneath one of the largest fortified castles west of the Rhine.",
       prica: [
-        "Dvorac su od 11. do 14. stoljeća gradili moćni grofovi od Viandena na temeljima rimske utvrde i karolinškog skloništa. Godine 1417. naslijedila ga je kuća Orange-Nassau, koja je stolovala daleko odavde, pa je dvorac polako gubio važnost.",
-        "Najgore je došlo 1820., kada ga je nizozemski kralj Vilim I. prodao mjesnom trgovcu, a ovaj je rasprodao krov, grede i vrata kao građevni materijal, pa su od dvorca ostale ruševine. Veliki vojvoda Jean predao ga je 1977. državi, nakon čega je temeljito obnovljen i danas izgleda kao u doba najveće slave."
+        "The castle was built from the 11th to the 14th century by the powerful counts of Vianden on the foundations of a Roman fort and a Carolingian refuge. In 1417 it was inherited by the House of Orange-Nassau, which had its seat far from here, so the castle slowly lost its importance.",
+        "The worst came in 1820, when the Dutch king William I sold it to a local merchant, who in turn sold off the roof, the beams and the doors as building material, leaving the castle in ruins. Grand Duke Jean handed it over to the state in 1977, after which it was thoroughly restored, and today it looks as it did in its days of greatest glory."
       ],
       vidjeti: [
-        { ime: "Dvorac Vianden", opis: "Unutra obratite pozornost na donju kapelu s deset stranica i otvorom u stropu, kroz koji je posluga odozdo mogla pratiti misu što se gore služila za gospodu. Bizantska galerija s trolisnim prozorima povezivala je kapelu s palačom i pruža najljepši pogled na dolinu." },
-        { ime: "Kuća Victora Hugoa", opis: "Pisac je u Viandenu boravio više puta, a 1871. ovdje je proveo nekoliko mjeseci u progonstvu, u kući uz most na rijeci Our. U muzeju su njegova pisma i crteži dvorca, koji je tada još bio ruševina. Na mostu preko puta stoji njegovo poprsje, rad kipara Rodina." },
-        { ime: "Crkva trinitaraca", opis: "Gotička crkva s dvije lađe sagrađena je 1248. za red koji se bavio otkupom kršćanskih zarobljenika. Jedna je lađa bila namijenjena redovnicima, a druga puku. Uz nju je tih klaustar u koji rijetko tko zaluta." },
-        { ime: "Žičara", opis: "Jedina žičara sa sjedalima u zemlji podiže vas iznad rijeke i krovova do vidikovca na 440 metara, odakle je dvorac kao na dlanu. Odozgo se do dvorca silazi šumskom stazom za petnaestak minuta." }
+        { ime: "Vianden Castle", opis: "Inside, pay attention to the ten-sided lower chapel with an opening in the ceiling, through which the servants below could follow the mass being said upstairs for the nobility. The Byzantine Gallery with its trefoil windows connected the chapel to the palace and offers the loveliest view of the valley." },
+        { ime: "Victor Hugo House", opis: "The writer stayed in Vianden several times, and in 1871 he spent a few months here in exile, in the house by the bridge over the Our River. The museum holds his letters and his drawings of the castle, which was still a ruin at the time. On the bridge across the way stands his bust, the work of the sculptor Rodin." },
+        { ime: "Trinitarian Church", opis: "The Gothic church with two naves was built in 1248 for an order devoted to ransoming Christian captives. One nave was meant for the monks and the other for the common people. Next to it is a quiet cloister that few people ever wander into." },
+        { ime: "Chairlift", opis: "The only chairlift in the country lifts you above the river and the rooftops to a viewpoint at 440 meters, from where the castle lies spread out before you. From the top you can walk down to the castle on a forest path in about fifteen minutes." }
       ],
       jesti: [
-        { ime: "Proizvodi od oraha", opis: "Vianden je poznat po orasima, pa se ovdje kupuju orahov liker Nësslikör, kruh, kolači i pašteta s orasima, osobito na listopadskom sajmu." },
-        { ime: "Éisleker Ham", opis: "Sušena i dimljena šunka iz sjevernog kraja Éislek, narezana tanko i poslužena s kruhom i kiselim krastavcima u gostionicama uz rijeku." }
+        { ime: "Walnut products", opis: "Vianden is known for its walnuts, so this is the place to buy the walnut liqueur Nësslikör, along with walnut bread, cakes and pâté, especially at the October market." },
+        { ime: "Éisleker Ham", opis: "Cured and smoked ham from the northern Éislek region, sliced thin and served with bread and pickles in the inns along the river." }
       ],
       dozivjeti: [
-        { ime: "Veiner Nëssmoort", opis: "Na sajmu oraha cijeli gradić miriše na pečene orahe i liker, a štandovi se nižu glavnom ulicom od mosta do crkve. Održava se svake godine druge nedjelje u listopadu.", link: "https://www.visit-vianden.lu/" },
-        { ime: "Srednjovjekovni festival u dvorcu", opis: "Ljeti se dvorište dvorca puni vitezovima, glazbenicima, sokolarima i obrtnicima, pa je to prilika da zidine vidite žive. Točne datume objavljuje uprava dvorca.", link: "https://castle-vianden.lu/" }
+        { ime: "Veiner Nëssmoort", opis: "At the walnut market the whole town smells of roasted walnuts and liqueur, and the stalls line the main street from the bridge to the church. It is held every year on the second Sunday of October.", link: "https://www.visit-vianden.lu/" },
+        { ime: "Medieval festival at the castle", opis: "In summer the castle courtyard fills with knights, musicians, falconers and craftspeople, so it is a chance to see the walls come alive. The castle administration publishes the exact dates.", link: "https://castle-vianden.lu/" }
       ],
       agencije: [
-        { ime: "Visit Vianden", opis: "Službeni turistički ured gradića, s informacijama o dvorcu, žičari i pješačkim stazama.", link: "https://www.visit-vianden.lu/" },
-        { ime: "Visit Éislek", opis: "Regionalna turistička zajednica luksemburških Ardena, korisna za planiranje izleta do drugih dvoraca i staza na sjeveru.", link: "https://www.visit-eislek.lu/" }
+        { ime: "Visit Vianden", opis: "The town's official tourist office, with information on the castle, the chairlift and the hiking trails.", link: "https://www.visit-vianden.lu/" },
+        { ime: "Visit Éislek", opis: "The regional tourism board of the Luxembourg Ardennes, useful for planning trips to other castles and trails in the north.", link: "https://www.visit-eislek.lu/" }
       ],
-      kada: "Od travnja do listopada, kada vozi žičara. Iz glavnoga grada stiže se vlakom do Ettelbrucka i dalje autobusom, a cijeli je put besplatan."
+      kada: "April to October, when the chairlift is running. From the capital you take a train to Ettelbruck and then a bus, and the entire trip is free."
     },
     {
       id: "echternach-mullerthal",
-      ime: "Echternach i Mullerthal",
+      ime: "Echternach and the Mullerthal",
       vrsta: "regija",
-      sazetak: "Najstariji grad u zemlji i šume s pješčenjačkim klancima, zbog kojih ovaj kraj zovu luksemburškom malom Švicarskom.",
+      sazetak: "The oldest town in the country and forests with sandstone gorges, which have earned this region the name Luxembourg's Little Switzerland.",
       prica: [
-        "Echternach je nastao oko opatije koju je 698. osnovao sveti Willibrord, misionar iz Northumbrije u današnjoj Engleskoj, koji je pokrstio Frizijce. Njegova je opatija u srednjem vijeku imala jedan od najcjenjenijih skriptorija u Europi, u kojem su redovnici izrađivali raskošno oslikane evanđelistare za careve.",
-        "Okolni Mullerthal oblikovala je voda koja je milijunima godina usijecala meki pješčenjak, pa su nastali uski prolazi, špilje i stijene obrasle mahovinom. Područje od 2022. nosi naziv UNESCO-ova svjetskog geoparka."
+        "Echternach grew up around the abbey founded in 698 by Saint Willibrord, a missionary from Northumbria in present-day England who converted the Frisians. In the Middle Ages his abbey had one of the most esteemed scriptoria in Europe, where the monks produced lavishly illuminated gospel books for emperors.",
+        "The surrounding Mullerthal was shaped by water cutting into the soft sandstone over millions of years, creating narrow passages, caves and moss-covered rocks. Since 2022 the area has held the title of UNESCO Global Geopark."
       ],
       vidjeti: [
-        { ime: "Bazilika svetog Willibrorda", opis: "Crkva je u prosincu 1944., za bitke u Ardenima, dignuta u zrak, a zatim obnovljena u romaničkom obliku iz 11. stoljeća. Ispod nje je sačuvana karolinška kripta s bijelim mramornim sarkofagom svetog Willibrorda, do kojega svake godine doskakuće plesna procesija." },
-        { ime: "Muzej opatije", opis: "U podrumima barokne opatije izložene su vjerne kopije rukopisa iz echternaškog skriptorija, među njima i Zlatnog kodeksa iz 11. stoljeća, pisanog zlatnom tintom. Izvornik se danas čuva u Nürnbergu, pa je ovdje jedina prilika da njegove stranice vidite na mjestu gdje je nastao." },
-        { ime: "Trg i Denzelt", opis: "Na glavnom trgu stoji gotička zgrada nekadašnjeg suda s arkadama i tornjićima, koju mještani zovu Denzelt. Kipovi na pročelju dodani su tek u 19. stoljeću. Na trgu se u jutarnjim satima utorka nakon Duhova okupljaju promatrači plesne procesije." },
-        { ime: "Schiessentümpel", opis: "Najfotografiraniji prizor Mullerthala mali je slap na potoku Crna Ernz, koji se u tri mlaza prelijeva ispod kamenog mostića iz 1879. godine. Dođite rano ujutro, kada u šumi još nema nikoga i kada se čuje samo voda." },
-        { ime: "Hohllay kod Berdorfa", opis: "Ovu su špilju stoljećima dubili ljudi koji su od srednjeg vijeka ovdje vadili mlinsko kamenje. Na stropu i zidovima još se vide kružni tragovi izrezanih žrvnjeva, a prostor pred špiljom služi kao pozornica na otvorenom." }
+        { ime: "Basilica of Saint Willibrord", opis: "The church was blown up in December 1944, during the Battle of the Bulge, and then rebuilt in its Romanesque form from the 11th century. Beneath it survives the Carolingian crypt with the white marble sarcophagus of Saint Willibrord, which the hopping procession reaches every year." },
+        { ime: "Abbey Museum", opis: "The cellars of the Baroque abbey display faithful copies of manuscripts from the Echternach scriptorium, among them the Golden Codex from the 11th century, written in gold ink. The original is now kept in Nuremberg, so this is the only chance to see its pages in the place where it was made." },
+        { ime: "The square and the Denzelt", opis: "On the main square stands the Gothic building of the former courthouse, with arcades and turrets, which locals call the Denzelt. The statues on the facade were added only in the 19th century. On the morning of the Tuesday after Pentecost, spectators of the hopping procession gather on the square." },
+        { ime: "Schiessentümpel", opis: "The most photographed sight in the Mullerthal is a small waterfall on the Black Ernz stream, which spills in three jets beneath a little stone bridge from 1879. Come early in the morning, when there is still nobody in the forest and all you can hear is the water." },
+        { ime: "Hohllay near Berdorf", opis: "This cave was hollowed out over centuries by people who quarried millstones here from the Middle Ages on. On the ceiling and walls you can still see the circular marks of the millstones that were cut out, and the space in front of the cave serves as an open-air stage." }
       ],
       jesti: [
-        { ime: "Sir iz Berdorfa", opis: "Polutvrdi sir s obiteljske farme u Berdorfu, koji se kupuje u seoskim trgovinama i nudi na pladnjevima u okolnim gostionicama." },
-        { ime: "Cassero iz Beauforta", opis: "Liker od crnog ribiza koji se proizvodi u dvorcu Beaufort i kuša na kraju obilaska dvorca." },
-        { ime: "Vina s Mosela", opis: "Od Echternacha je kratka vožnja do vinograda uz Mosel, gdje se u podrumima kušaju rivaner, auxerrois, rizling i kreman." }
+        { ime: "Cheese from Berdorf", opis: "A semi-hard cheese from a family farm in Berdorf, bought in the village shops and served on platters in the surrounding inns." },
+        { ime: "Cassero from Beaufort", opis: "A blackcurrant liqueur produced at Beaufort Castle and tasted at the end of the castle tour." },
+        { ime: "Moselle wines", opis: "From Echternach it is a short drive to the vineyards along the Moselle, where you can taste Rivaner, Auxerrois, Riesling and crémant in the cellars." }
       ],
       dozivjeti: [
-        { ime: "Dionica staze Mullerthal Trail", opis: "Staza duga 112 kilometara podijeljena je na tri velike petlje, a za jednodnevni izlet najljepši je dio između Berdorfa i Echternacha, kroz klanac Wolfsschlucht i uske prolaze među stijenama. Ponesite čvrstu obuću, jer je pješčenjak nakon kiše sklizak.", link: "https://www.mullerthal-trail.lu/" },
-        { ime: "Plesna procesija", opis: "Ako se zateknete ovdje na utorak nakon Duhova, vidjet ćete tisuće ljudi kako u redovima po pet, povezani bijelim rupcima, poskakuju lijevo pa desno uz uvijek istu melodiju. Gledatelji su dobrodošli, a procesija kreće ujutro iz dvorišta opatije.", link: "https://www.visitluxembourg.com/" }
+        { ime: "A section of the Mullerthal Trail", opis: "The 112-kilometer trail is divided into three large loops, and for a day trip the loveliest part is between Berdorf and Echternach, through the Wolfsschlucht gorge and the narrow passages between the rocks. Bring sturdy shoes, because the sandstone is slippery after rain.", link: "https://www.mullerthal-trail.lu/" },
+        { ime: "The Hopping Procession", opis: "If you happen to be here on the Tuesday after Pentecost, you will see thousands of people in rows of five, linked by white handkerchiefs, hopping to the left and then to the right to a tune that never changes. Spectators are welcome, and the procession sets off in the morning from the abbey courtyard.", link: "https://www.visitluxembourg.com/" }
       ],
       agencije: [
-        { ime: "Visit Echternach", opis: "Turistički ured grada, s informacijama o opatiji, jezeru i početnim točkama staza.", link: "https://www.visitechternach.lu/" },
-        { ime: "Région Mullerthal", opis: "Regionalna turistička zajednica male luksemburške Švicarske, koja nudi karte staza i vođene šetnje geoparkom.", link: "https://www.mullerthal.lu/" }
+        { ime: "Visit Echternach", opis: "The town's tourist office, with information on the abbey, the lake and the trailheads.", link: "https://www.visitechternach.lu/" },
+        { ime: "Région Mullerthal", opis: "The regional tourism board of Luxembourg's Little Switzerland, which offers trail maps and guided walks through the geopark.", link: "https://www.mullerthal.lu/" }
       ],
-      kada: "Od kasnog proljeća do rane jeseni, a listopad je posebno lijep zbog boja bukove šume. Iz glavnoga grada do Echternacha vozi izravan autobus."
+      kada: "Late spring to early fall, and October is especially lovely for the colors of the beech forest. A direct bus runs from the capital to Echternach."
     }
   ],
   izvori: [
     { ime: "Visit Luxembourg", url: "https://www.visitluxembourg.com/" },
     { ime: "Luxembourg City Tourist Office", url: "https://www.luxembourg-city.com/" },
-    { ime: "UNESCO, Grad Luxembourg: stare četvrti i utvrde", url: "https://whc.unesco.org/en/list/699" },
-    { ime: "Dvorac Vianden", url: "https://castle-vianden.lu/" },
+    { ime: "UNESCO, City of Luxembourg: its Old Quarters and Fortifications", url: "https://whc.unesco.org/en/list/699" },
+    { ime: "Vianden Castle", url: "https://castle-vianden.lu/" },
     { ime: "Visit Vianden", url: "https://www.visit-vianden.lu/" },
     { ime: "Région Mullerthal", url: "https://www.mullerthal.lu/" },
     { ime: "Mullerthal Trail", url: "https://www.mullerthal-trail.lu/" },
-    { ime: "Nacionalni muzej povijesti i umjetnosti", url: "https://www.nationalmusee.lu/" },
-    { ime: "Mobiliteit.lu, javni prijevoz", url: "https://www.mobiliteit.lu/" }
+    { ime: "National Museum of History and Art", url: "https://www.nationalmusee.lu/" },
+    { ime: "Mobiliteit.lu, public transportation", url: "https://www.mobiliteit.lu/" }
   ]
 };

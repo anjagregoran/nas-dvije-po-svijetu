@@ -1,143 +1,143 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["austrija"] = {
   kupiti: [
-    { ime: "Bučino ulje", opis: "Tamnozeleno ulje od prženih bučinih sjemenki ponos je Štajerske i ima zaštićeno podrijetlo. Kupite ga na seljačkim tržnicama u Grazu ili izravno na imanjima, pa ga kod kuće probajte i na sladoledu od vanilije." },
-    { ime: "Marelice iz Wachaua", opis: "Dolina Wachau poznata je po marelicama, od kojih se rade pekmez, nektar, liker i rakija. Najbolje ih je kupiti na štandovima i imanjima uz Dunav, gdje piše „Wachauer Marille“." },
-    { ime: "Prave Mozartove kugle", opis: "Mozartkugel je izmislio salzburški slastičar Paul Fürst, a njegova obitelj i danas ih ručno radi i zamata u srebrno-plavi papir. Prodaju se samo u njihovim slastičarnicama u Salzburgu, dok su one u crveno-zlatnom omotu industrijske." },
-    { ime: "Loden i valjana vuna", opis: "Gusta, vodootporna vunena tkanina loden i papuče od valjane vune dolaze iz alpskih dolina i nose se desetljećima. Tražite ih u trgovinama narodne nošnje, gdje na etiketi piše da su izrađeni u Austriji." },
-    { ime: "Limba", opis: "Drvo alpskog bora limbe miriše smolasto i umirujuće, pa se od njega rade jastuci punjeni strugotinom, kutije za kruh i crvenkasta rakija Zirbenschnaps. Najviše toga ima u Tirolu i Koruškoj, na tržnicama i u seoskim trgovinama." },
-    { ime: "Keramika iz Gmundena", opis: "Posuđe sa zelenim valovitim prugama na bijeloj podlozi oslikava se ručno u Gmundenu na jezeru Traunsee i stoji u gotovo svakoj austrijskoj kuhinji. Naći ćete ga u trgovinama posuđa po cijeloj zemlji, a najveći je izbor u Salzkammergutu." }
+    { ime: "Pumpkin seed oil", opis: "This dark green oil pressed from roasted pumpkin seeds is the pride of Styria and has protected origin. Buy it at the farmers' markets in Graz or directly on a farm, and try it at home over vanilla ice cream." },
+    { ime: "Apricots from the Wachau", opis: "The Wachau valley is famous for its apricots, which are turned into jam, nectar, liqueur and brandy. The best place to buy is at the stands and farms along the Danube marked “Wachauer Marille”." },
+    { ime: "The real Mozartkugel", opis: "The Mozartkugel was invented by the Salzburg confectioner Paul Fürst, and his family still makes them by hand and wraps them in silver and blue foil. They are sold only in the family's shops in Salzburg, while the ones in red and gold wrappers are factory made." },
+    { ime: "Loden and boiled wool", opis: "Loden, a dense and water-resistant wool cloth, and slippers of boiled wool come from the Alpine valleys and last for decades. Look for them in shops selling traditional dress, with a label saying they were made in Austria." },
+    { ime: "Stone pine", opis: "The wood of the Alpine stone pine, called Zirbe, has a calming, resinous scent, so it is made into pillows filled with shavings, bread boxes and a reddish schnapps called Zirbenschnaps. You will find the most in Tyrol and Carinthia, at markets and village shops." },
+    { ime: "Gmunden ceramics", opis: "Tableware with green looping stripes on a white background is painted by hand in Gmunden on Lake Traunsee and sits in almost every Austrian kitchen. Housewares shops all over the country carry it, with the widest choice in the Salzkammergut." }
   ],
   mjesta: {
     "bec": {
       dragulji: [
-        { ime: "Servitenviertel i Strudlhofstiege", opis: "Oko crkve servita u devetom okrugu pruža se mala četvrt s kaldrmom, drvoredom i kafićima, koja podsjeća na Pariz. U blizini je i secesijsko stubište Strudlhofstiege s fontanama i svjetiljkama, najljepše u predvečerje." },
-        { ime: "Karmelitermarkt", opis: "Mala tržnica u drugom okrugu, u nekadašnjoj židovskoj četvrti, mnogo je mirnija od Naschmarkta. Subotom dolaze seljaci iz okolice, a oko štandova se doručkuje do podneva." },
-        { ime: "Setagayapark", opis: "U otmjenom Döblingu skriven je mali japanski vrt s jezercem, slapom i čajnom kućicom, dar tokijske četvrti Beču. Najljepši je u proljeće, kad cvjetaju trešnje, i u jesen, kad pocrvene javori." }
+        { ime: "The Servitenviertel and the Strudlhofstiege", opis: "Around the Servite church in the ninth district lies a small neighborhood of cobblestones, trees and cafés that feels a little like Paris. Nearby is the Art Nouveau Strudlhofstiege stairway with its fountains and lamps, at its loveliest toward evening." },
+        { ime: "Karmelitermarkt", opis: "This small market in the second district, in the old Jewish quarter, is far calmer than the Naschmarkt. On Saturdays farmers come in from the countryside and people linger over breakfast among the stalls until noon." },
+        { ime: "Setagayapark", opis: "In elegant Döbling hides a small Japanese garden with a pond, a waterfall and a teahouse, a gift to Vienna from a district of Tokyo. It is most beautiful in spring, when the cherry trees bloom, and in fall, when the maples turn red." }
       ],
       domaci: [
-        { ime: "Sati u kavani", opis: "Bečani u kavani ne popiju kavu na brzinu, nego sjede satima uz novine na drvenom držaču, a konobar ih nikad ne požuruje. Naručite melange, koji stiže s čašom vode, i ostanite koliko želite." },
-        { ime: "Heuriger", opis: "Vinari na rubu grada toče mlado vino u vlastitom dvorištu, a da su otvoreni, pokazuje borova grana nad vratima. Odvezite se tramvajem ili autobusom u Stammersdorf, Nussdorf ili Neustift am Walde i hranu uzmite s pulta, na vagu." },
-        { ime: "Kupanje na Staroj Dunavi", opis: "Rukavac Alte Donau ljeti je bečko more, s kupalištima, drvenim molovima i čamcima na vesla ili pedale. Do njega vozi podzemna željeznica, pa ponesite kupaći kostim." }
+        { ime: "Hours in a coffeehouse", opis: "The Viennese do not grab a quick coffee. They sit for hours with a newspaper on a wooden holder, and the waiter never hurries them. Order a Melange, which comes with a glass of water, and stay as long as you like." },
+        { ime: "The Heuriger", opis: "Winemakers on the edge of the city pour their young wine in their own courtyards, and a pine branch over the door shows they are open. Take the tram or bus to Stammersdorf, Nussdorf or Neustift am Walde and choose your food at the counter, where it is sold by weight." },
+        { ime: "Swimming in the Old Danube", opis: "In summer the Alte Donau, an old arm of the river, is Vienna's seaside, with bathing areas, wooden docks and rowboats or pedal boats. The subway goes right there, so bring a swimsuit." }
       ],
       kupiti: [
-        { ime: "Wiener Gemischter Satz", opis: "Beč je jedina svjetska metropola s ozbiljnim vinogradima unutar granica grada, a ovo bijelo vino radi se od više sorti posađenih i ubranih zajedno. Kupite ga izravno u heurigeru ili u gradskoj vinoteci." },
-        { ime: "Porculan Augarten", opis: "Bečka manufaktura porculana radi u dvorcu u parku Augarten i svaki se komad oslikava ručno. I mala šalica za mocca lijep je i trajan dar iz carskog grada." },
-        { ime: "Napolitanke Manner", opis: "Ružičasti paketić napolitanki s lješnjakom proizvodi se u Beču od kraja 19. stoljeća i na njemu je katedrala sv. Stjepana. Bečani ih kupuju u svakoj trgovini, a tvrtka ima i vlastitu prodavaonicu kod katedrale." }
+        { ime: "Wiener Gemischter Satz", opis: "Vienna is the only world capital with serious vineyards inside the city limits, and this white wine is made from several grape varieties planted and harvested together. Buy it directly at a Heuriger or at a wine shop in town." },
+        { ime: "Augarten porcelain", opis: "Vienna's porcelain manufactory works in a palace in the Augarten park, and every piece is painted by hand. Even a small mocha cup is a beautiful, lasting gift from the imperial city." },
+        { ime: "Manner wafers", opis: "The pink packet of hazelnut wafers has been made in Vienna since the end of the 19th century and shows St. Stephen's Cathedral. The Viennese buy them in any store, and the company has its own shop by the cathedral." }
       ]
     },
     "salzburg": {
       dragulji: [
-        { ime: "Steingasse", opis: "Uska srednjovjekovna ulica stisnuta između brda Kapuzinerberg i rijeke nekad je bila glavna cesta prema jugu. Danas je tiha, s teškim drvenim vratima i ponekim barom, a nalazi se samo korak od mosta." },
-        { ime: "Kapuzinerberg", opis: "Na šumovito brdo usred grada penje se stubama iz ulice Linzer Gasse, pokraj kapelica križnog puta. S vidikovaca se vide stari grad i tvrđava s druge strane, a u šumi ponekad sretnete divokozu." },
-        { ime: "Jezerce Leopoldskron", opis: "Oko jezerca s rokoko dvorcem vodi ravna staza kojom Salzburžani trče i šeću pse. S južne obale tvrđava i planina Untersberg zrcale se u vodi, najljepše rano ujutro." }
+        { ime: "Steingasse", opis: "This narrow medieval street squeezed between the Kapuzinerberg hill and the river was once the main road south. Today it is quiet, with heavy wooden doors and the odd bar, just a step from the bridge." },
+        { ime: "Kapuzinerberg", opis: "You climb this wooded hill in the middle of the city by steps from Linzer Gasse, past the chapels of the Stations of the Cross. The lookouts face the old town and the fortress across the river, and now and then you might meet a chamois in the forest." },
+        { ime: "The Leopoldskron pond", opis: "A flat path circles this pond with its Rococo palace, and Salzburg residents jog and walk their dogs here. From the southern shore the fortress and the Untersberg mountain are mirrored in the water, most beautifully in the early morning." }
       ],
       domaci: [
-        { ime: "Pivo kod augustinaca", opis: "U samostanskoj pivovari u četvrti Mülln sami uzmete kamenu kriglu s police, isperete je na česmi i date točiocu da je napuni iz drvene bačve. Hranu kupite na štandovima u hodniku i sjednite pod kestene, za bilo koji stol na kojem ima mjesta." },
-        { ime: "Schranne četvrtkom", opis: "Svakog četvrtka ujutro oko crkve sv. Andrije, kod dvorca Mirabell, održava se velika seljačka tržnica. Domaći tu kupuju sir, kruh i cvijeće, a kupnju završe kobasicom ili kolačem s nogu." },
-        { ime: "Šetnja preko Mönchsberga", opis: "Preko brda iznad starog grada vode šumske staze od tvrđave do četvrti Mülln, s vidikovcima na obje strane. Salzburžani tuda hodaju nakon posla, a vi šetnju završite pivom kod augustinaca." }
+        { ime: "Beer at the Augustiner", opis: "At the monastery brewery in the Mülln district you take a stone mug from the shelf yourself, rinse it at the fountain and hand it to the tapster to fill from a wooden barrel. Buy food at the stalls in the corridor and sit under the chestnut trees at any table with room." },
+        { ime: "The Schranne on Thursday", opis: "Every Thursday morning a big farmers' market is held around St. Andrew's Church near Mirabell Palace. Locals buy cheese, bread and flowers here and finish their shopping with a sausage or a pastry eaten on their feet." },
+        { ime: "A walk over the Mönchsberg", opis: "Forest paths cross the hill above the old town from the fortress to the Mülln district, with lookouts on both sides. Salzburg residents walk here after work, and you can end your walk with a beer at the Augustiner." }
       ],
       kupiti: [
-        { ime: "Originalna Mozartova kugla", opis: "U slastičarnici obitelji Fürst na trgu Alter Markt kugle se rade ručno po izvornom receptu iz 1890. i zamataju u srebrno-plavi papir. Traju kraće od industrijskih, pa ih kupite pred povratak." },
-        { ime: "Narodna nošnja", opis: "Salzburg je grad u kojem se dirndl i kožne hlače nose na festivalu, svadbi i nedjeljnoj misi. U trgovinama nošnje u starom gradu naći ćete i sitnice poput vunenih čarapa, lanenih marama i srebrnih broševa." }
+        { ime: "The original Mozartkugel", opis: "At the Fürst family's pastry shop on the Alter Markt the chocolates are made by hand to the original 1890 recipe and wrapped in silver and blue foil. They keep for less time than the factory kind, so buy them just before you leave." },
+        { ime: "Traditional dress", opis: "Salzburg is a city where dirndls and lederhosen are worn to the festival, to weddings and to Sunday Mass. The Tracht shops in the old town also sell small things such as wool socks, linen scarves and silver brooches." }
       ]
     },
     "hallstatt": {
       dragulji: [
-        { ime: "Dolina Echerntal", opis: "Iza mjesta počinje uska dolina kroz koju lagana staza vodi do slapa Waldbachstrub i ledenjačkih udubina u stijeni. Već nakon deset minuta hoda ostat ćete gotovo same." },
-        { ime: "Staza istočnom obalom", opis: "S druge strane jezera, od željezničke postaje prema Obertraunu, vodi uska staza uz samu vodu, mjestimice po drvenim mostićima. Odande se Hallstatt vidi u cijelosti, kao s razglednice, ali bez gužve." },
-        { ime: "Jezera Gosau", opis: "Dvadesetak minuta vožnje dalje leži jezero Vorderer Gosausee, u kojem se zrcali ledenjak Dachsteina. Oko jezera vodi ravna staza, a izdržljivije mogu produžiti do stražnjeg jezera." }
+        { ime: "The Echerntal valley", opis: "Behind the village a narrow valley begins, and an easy path leads through it to the Waldbachstrub waterfall and to glacial potholes in the rock. After just ten minutes of walking you will be almost alone." },
+        { ime: "The east shore trail", opis: "Across the lake, a narrow path runs from the train station toward Obertraun right along the water, in places on wooden walkways. From there you see all of Hallstatt as on a postcard, only without the crowd." },
+        { ime: "The Gosau lakes", opis: "About twenty minutes away by car lies the Vorderer Gosausee, a lake that mirrors the Dachstein glacier. A level path circles it, and if you have the energy you can continue to the lake farther back." }
       ],
       domaci: [
-        { ime: "Rano jutro u mjestu", opis: "Prije nego što stignu autobusi, na trgu se čuju samo crkvena zvona i labudovi. Ustanite rano, prošećite do vidikovca na sjevernom kraju mjesta i popijte kavu dok stanovnici otvaraju prozore." },
-        { ime: "Riba iz jezera", opis: "U jezeru se lovi ozimica, koju ovdje zovu Reinanke, a služi se pečena na maslacu ili dimljena. Naručite je u gostionici uz vodu umjesto bečkog odreska." },
-        { ime: "Kupanje s otočića", opis: "U dijelu mjesta koji se zove Lahn nalazi se mali kupališni otok s travnjakom i ulazom u jezero. Domaći se ondje kupaju ljeti nakon posla, a voda je hladna i kristalno bistra." }
+        { ime: "Early morning in the village", opis: "Before the buses arrive the only sounds on the square are church bells and swans. Get up early, walk to the viewpoint at the north end of the village and have a coffee while residents open their shutters." },
+        { ime: "Fish from the lake", opis: "The lake holds whitefish, called Reinanke here, which is served pan-fried in butter or smoked. Order it at an inn by the water in place of a Wiener schnitzel." },
+        { ime: "Swimming from the little island", opis: "In the part of the village called Lahn there is a small bathing island with a lawn and steps into the lake. Locals swim there after work in summer, and the water is cold and crystal clear." }
       ],
       kupiti: [
-        { ime: "Sol iz Salzkammerguta", opis: "U Hallstattu se sol vadi sedam tisuća godina i po njoj je cijeli kraj dobio ime. Kupite prirodnu kamenu sol ili sol s biljem u trgovinama u mjestu i kod rudnika." },
-        { ime: "Drvene rukotvorine", opis: "U mjestu djeluje stara škola za obradu drva, pa ovdje rade vrsni rezbari i tokari. U radionicama uz glavnu ulicu naći ćete zdjele, igračke i ukrase izrađene na licu mjesta." }
+        { ime: "Salt from the Salzkammergut", opis: "Salt has been mined in Hallstatt for seven thousand years and gave the whole region its name. Buy natural rock salt or herb salt at shops in the village and by the mine." },
+        { ime: "Woodcraft", opis: "The village is home to an old woodworking school, so skilled carvers and turners work here. In the workshops along the main street you will find bowls, toys and ornaments made on the spot." }
       ]
     },
     "innsbruck": {
       dragulji: [
-        { ime: "St. Nikolaus i Mariahilf", opis: "S druge strane rijeke Inn stoji niz šarenih kuća s planinama u pozadini, a iza njih je najstarija gradska četvrt s uskim ulicama. Prijeđite most i prošećite ovuda, jer većina posjetitelja kuće samo fotografira s druge obale." },
-        { ime: "Wilten", opis: "Na južnom rubu grada jedna do druge stoje žuta rokoko bazilika i samostanska crkva crvenog pročelja koju čuvaju dva diva. Dotle se stiže tramvajem, a posjetitelja gotovo nema." },
-        { ime: "Planinske kolibe iznad Hungerburga", opis: "Od gornje postaje uspinjače na Hungerburgu šumske staze vode do planinskih koliba kao što je Arzler Alm. Uz laganu šetnju dobit ćete pogled na grad i dolinu, a na cilju tanjur okruglica." }
+        { ime: "St. Nikolaus and Mariahilf", opis: "Across the Inn river stands a row of colorful houses with the mountains behind them, and beyond them is the oldest part of the city with its narrow streets. Cross the bridge and walk through, because most visitors only photograph the houses from the other bank." },
+        { ime: "Wilten", opis: "On the southern edge of the city a yellow Rococo basilica and a red abbey church guarded by two giants stand side by side. The tram takes you there, and there are hardly any visitors." },
+        { ime: "Mountain huts above Hungerburg", opis: "From the upper funicular station at Hungerburg, forest trails lead to mountain huts such as the Arzler Alm. An easy walk rewards you with a view of the city and the valley, and a plate of dumplings at the end." }
       ],
       domaci: [
-        { ime: "U planine nakon posla", opis: "Innsbručani poslije radnog dana odlaze žičarom na Nordkette ili pješice na obližnju kolibu, jer planina počinje na kraju ulice. Učinite isto u predvečerje, kad se dolina zlati, a gore više nema gužve." },
-        { ime: "Markthalle uz Inn", opis: "U tržnici na obali rijeke kupuju se sir, slanina, kruh i cvijeće, a uz šankove se stoji uz čašu vina. Dođite subotom prijepodne, kad se ondje sastaje pola grada." },
-        { ime: "Kupanje na jezeru Lanser See", opis: "Malo šumsko jezero na visoravni iznad grada ljeti je omiljeno kupalište, do kojeg vozi tramvaj kroz šumu. Voda se ugrije više nego što biste očekivale u Alpama." }
+        { ime: "Up the mountain after work", opis: "At the end of the workday people in Innsbruck ride the cable car up the Nordkette or walk to a nearby hut, since the mountain starts at the end of the street. Do the same toward evening, when the valley turns golden and the crowds up top have gone." },
+        { ime: "The Markthalle on the Inn", opis: "In the market hall on the riverbank people buy cheese, bacon, bread and flowers and stand at the counters with a glass of wine. Come on a Saturday morning, when half the city meets there." },
+        { ime: "Swimming in the Lanser See", opis: "This small forest lake on the plateau above the city is a favorite summer swimming spot, reached by a tram that runs through the woods. The water gets warmer than you would expect in the Alps." }
       ],
       kupiti: [
-        { ime: "Tirolska slanina i planinski sir", opis: "Tiroler Speck blago je dimljen i sušen na planinskom zraku, a uz njega se jede zreli Bergkäse. Kupite ih u tržnici Markthalle, gdje će vam ih zamotati u vakuum za put." },
-        { ime: "Proizvodi od limbe", opis: "U Tirolu se vjeruje da miris limbe smiruje san, pa se jastučići punjeni njezinom strugotinom stavljaju uz uzglavlje. Naći ćete ih na tržnicama i u trgovinama rukotvorina u starom gradu." },
-        { ime: "Rakije od planinskih plodova", opis: "Tirolske destilerije peku rakiju od jarebike, limbe, encijana i divljih bobica. Najbolje ih je kušati i kupiti u Markthalle ili u specijaliziranim trgovinama rakijom u starom gradu." }
+        { ime: "Tyrolean Speck and mountain cheese", opis: "Tiroler Speck is lightly smoked and cured in the mountain air, and it is eaten with aged Bergkäse. Buy both at the Markthalle, where they will vacuum pack them for your trip." },
+        { ime: "Stone pine products", opis: "People in Tyrol believe the scent of stone pine brings calm sleep, so small pillows filled with its shavings are kept by the bed. You will find them at markets and in craft shops in the old town." },
+        { ime: "Mountain fruit schnapps", opis: "Tyrolean distilleries make schnapps from rowanberries, stone pine, gentian and wild berries. The best places to taste and buy are the Markthalle and the specialty schnapps shops in the old town." }
       ]
     },
     "graz": {
       dragulji: [
-        { ime: "Lend", opis: "Na desnoj obali Mure, oko trga Lendplatz i ulice Mariahilferstraße, nastala je najživlja četvrt s malim dizajnerskim trgovinama, ateljeima i lokalima. Dođite prijepodne na tržnicu, pa ostanite na ručku." },
-        { ime: "Renesansna dvorišta", opis: "Iza neuglednih vrata u ulicama Sporgasse i Hofgasse skrivaju se arkadna dvorišta iz 16. stoljeća, u koja se smije slobodno zaviriti. U jedno od najljepših ulazi se kroz kuću Njemačkog viteškog reda u ulici Sporgasse." },
-        { ime: "Hilmteich i šuma Leechwald", opis: "Tramvajem se za desetak minuta stiže do jezerca s čamcima i stare kavane, od kojeg staze vode u šumu. Stanovnici Graza ovdje šeću nedjeljom, a zimi se na jezercu kliže." }
+        { ime: "Lend", opis: "On the right bank of the Mur, around Lendplatz and Mariahilferstraße, the city's liveliest neighborhood has grown up, with small designer shops, studios and bars. Come in the morning for the market and stay for lunch." },
+        { ime: "Renaissance courtyards", opis: "Behind plain doors on Sporgasse and Hofgasse hide arcaded courtyards from the 16th century that you are free to peek into. One of the loveliest is entered through the house of the Teutonic Order on Sporgasse." },
+        { ime: "Hilmteich and the Leechwald forest", opis: "A tram ride of about ten minutes brings you to a pond with rowboats and an old café, where paths lead off into the woods. People from Graz walk here on Sundays, and in winter they skate on the pond." }
       ],
       domaci: [
-        { ime: "Seljačka tržnica ujutro", opis: "Na trgovima Kaiser-Josef-Platz i Lendplatz seljaci iz okolice svakog jutra osim nedjelje prodaju povrće, cvijeće, bučino ulje i jaja. Domaći nakon kupnje popiju čašu vina ili kavu za štandom, pa im se pridružite." },
-        { ime: "Užina u Buschenschanku", opis: "Vikendom se iz Graza odlazi u vinorodna brda južne Štajerske, gdje vinari na svojim imanjima nude samo vlastito vino i hladnu platu na dasci. Sjedi se na terasi s pogledom na vinograde, koje zbog krajolika zovu štajerskom Toskanom." },
-        { ime: "Mošt i kesteni u jesen", opis: "U rujnu i listopadu po cijelom se gradu toči Sturm, mutni mladi mošt koji još vrije, a uz njega se jedu pečeni kesteni. Kucnite se čašom i recite „Mahlzeit“ umjesto „Prost“, jer to još nije vino." }
+        { ime: "The farmers' market in the morning", opis: "On Kaiser-Josef-Platz and Lendplatz, farmers from the surrounding countryside sell vegetables, flowers, pumpkin seed oil and eggs every morning except Sunday. After shopping, locals have a glass of wine or a coffee at a stand, so join them." },
+        { ime: "A snack at a Buschenschank", opis: "On weekends people leave Graz for the wine hills of southern Styria, where winemakers serve only their own wine and a cold platter on a board. You sit on a terrace overlooking vineyards in a landscape often called the Styrian Tuscany." },
+        { ime: "Sturm and chestnuts in the fall", opis: "In September and October the whole city pours Sturm, a cloudy young grape must that is still fermenting, and people eat roasted chestnuts with it. Clink glasses and say “Mahlzeit” in place of “Prost”, since it is not yet wine." }
       ],
       kupiti: [
-        { ime: "Štajersko bučino ulje", opis: "Graz je najbolje mjesto za kupnju bučinog ulja, i to na seljačkim tržnicama, gdje ga prodaju obitelji koje ga same prešaju. Tražite oznaku zaštićenog podrijetla i uzmite manju bocu, jer je najbolje dok je svježe." },
-        { ime: "Grah Käferbohne", opis: "Veliki šareni grah tipičan je za Štajersku i jede se kao salata s lukom i bučinim uljem. Na tržnici se prodaje suh ili već kuhan u staklenkama." },
-        { ime: "Štajerska vina", opis: "Južna Štajerska poznata je po mirisnom sauvignonu, a zapadna po ružičastom, kiselkastom schilcheru. Kupite ih u gradskim vinotekama ili ponesite s izleta izravno od vinara." }
+        { ime: "Styrian pumpkin seed oil", opis: "Graz is the best place to buy pumpkin seed oil, at the farmers' markets where families who press it themselves sell it. Look for the protected origin label and take a smaller bottle, because it is best while fresh." },
+        { ime: "Käferbohnen", opis: "These large speckled beans are typical of Styria and are eaten as a salad with onion and pumpkin seed oil. At the market they are sold dried or already cooked in jars." },
+        { ime: "Styrian wine", opis: "Southern Styria is known for aromatic Sauvignon Blanc and western Styria for the pink, tart Schilcher. Buy them at wine shops in town or bring them back from a day trip straight from the winemaker." }
       ]
     },
     "wachau": {
       dragulji: [
-        { ime: "Weißenkirchen", opis: "Vinarsko mjesto u srcu doline ima utvrđenu crkvu na brežuljku, do koje vodi natkriveno stubište. Oko nje su stara vinarska dvorišta i gotovo nimalo gužve, za razliku od Dürnsteina." },
-        { ime: "Tausendeimerberg u Spitzu", opis: "Brežuljak usred Spitza prekriven je terasama vinograda i zove se Brdo tisuću vjedara, po količini vina koju daje u dobroj godini. Uspon na vrh kratak je, a pogled obuhvaća mjesto, Dunav i kameno gradsko vrelo Rotes Tor na padini iznad." },
-        { ime: "Ruševina Aggstein", opis: "Na stijeni visoko nad desnom obalom Dunava stoje ostaci utvrde razbojničkih vitezova. Odozgo se vidi cijela okuka rijeke, a posebno je lijepo u jesen, kad se šume i vinogradi oboje." }
+        { ime: "Weißenkirchen", opis: "This wine village in the heart of the valley has a fortified church on a rise, reached by a covered stairway. Around it are old winegrowers' courtyards and hardly any crowd, unlike Dürnstein." },
+        { ime: "The Tausendeimerberg in Spitz", opis: "The hill in the middle of Spitz is covered in vineyard terraces and is called the Hill of a Thousand Buckets for the amount of wine it yields in a good year. The climb to the top is short, and the view takes in the village, the Danube and the old stone gate called the Rotes Tor on the slope above." },
+        { ime: "The Aggstein ruin", opis: "High on a rock above the right bank of the Danube stand the remains of a robber barons' castle. From the top you can see the whole bend of the river, and it is especially beautiful in fall, when the forests and vineyards change color." }
       ],
       domaci: [
-        { ime: "Večer u heurigeru", opis: "Vinari naizmjence otvaraju svoja dvorišta na nekoliko tjedana i tada se kaže da je „ausg'steckt“. Raspored visi na pločama u svakom mjestu, a uz veltlinac i rizling naručuje se hladna plata." },
-        { ime: "Biciklom i skelom", opis: "Uz obje obale Dunava vodi ravna biciklistička staza, a s jedne na drugu prelazi se malim skelama, primjerice kod Spitza i Weißenkirchena. Unajmite bicikl u Kremsu ili Melku i vozite od podruma do podruma." },
-        { ime: "Okruglice s marelicama", opis: "U sezoni marelica, početkom ljeta, svaka gostionica u dolini kuha Marillenknödel, okruglice od sirnog tijesta uvaljane u pržene mrvice. Jedu se kao glavno jelo, pa se nemojte čuditi velikoj porciji." }
+        { ime: "An evening at the Heuriger", opis: "Winemakers take turns opening their courtyards for a few weeks at a time, which is called being “ausg'steckt”. The schedule hangs on a board in every village, and with your Grüner Veltliner or Riesling you order a cold platter." },
+        { ime: "By bike and ferry", opis: "A level bike path follows both banks of the Danube, and small ferries carry you from one side to the other, for example at Spitz and Weißenkirchen. Rent a bike in Krems or Melk and ride from cellar to cellar." },
+        { ime: "Apricot dumplings", opis: "During apricot season in early summer every inn in the valley cooks Marillenknödel, dumplings of quark dough rolled in buttered breadcrumbs. They are eaten as a main course, so do not be surprised by the size of the portion." }
       ],
       kupiti: [
-        { ime: "Pekmez i rakija od marelica", opis: "Wachauske marelice imaju zaštićeno podrijetlo i izraženiji okus od onih iz trgovine. Kupite pekmez, nektar ili rakiju na štandovima uz cestu i kod obitelji koje imaju voćnjake." },
-        { ime: "Veltlinac i rizling", opis: "Lokalni vinari dijele vina na tri razreda: lagani Steinfeder, srednji Federspiel i puni Smaragd, nazvan po zelenom gušteru s vinogradarskih zidova. Kupujte izravno u vinarijama u Spitzu, Weißenkirchenu i Dürnsteinu." }
+        { ime: "Apricot jam and brandy", opis: "Wachau apricots have protected origin and a deeper flavor than store-bought ones. Buy jam, nectar or brandy at roadside stands and from families who own orchards." },
+        { ime: "Grüner Veltliner and Riesling", opis: "Local winemakers sort their wines into three classes: light Steinfeder, medium Federspiel and full Smaragd, named for the green lizard that lives on the vineyard walls. Buy directly at wineries in Spitz, Weißenkirchen and Dürnstein." }
       ]
     },
     "grossglockner": {
       dragulji: [
-        { ime: "Thumersbach", opis: "S istočne obale jezera, nasuprot Zell am Seeu, vidi se cijeli gradić s ledenjakom Kitzsteinhorn u pozadini. Prijeđite jezero brodom i vratite se pješice šetnicom uz obalu." },
-        { ime: "Klanac Sigmund-Thun-Klamm", opis: "Kod Kapruna drvene staze vode kroz uski klanac u kojem bučna voda ledenjačkog potoka izdubljuje stijenu. Na izlazu vas čeka tirkizno jezerce Klammsee s ravnom stazom ukrug." },
-        { ime: "Heiligenblut", opis: "Na koruškom kraju visokoplaninske ceste stoji selo s vitkim gotičkim zvonikom, iza kojeg se u vedrom danu diže vrh Grossglocknera. Zastanite ovdje umjesto da odmah okrenete natrag." }
+        { ime: "Thumersbach", opis: "From the eastern shore of the lake, across from Zell am See, you see the whole town with the Kitzsteinhorn glacier behind it. Cross the lake by boat and walk back along the shoreline promenade." },
+        { ime: "The Sigmund-Thun-Klamm gorge", opis: "Near Kaprun wooden walkways lead through a narrow gorge where a roaring glacial stream carves the rock. At the exit the turquoise Klammsee awaits, with a level path around it." },
+        { ime: "Heiligenblut", opis: "At the Carinthian end of the high alpine road sits a village with a slender Gothic spire, and on a clear day the summit of the Grossglockner rises behind it. Stop here before you turn back." }
       ],
       domaci: [
-        { ime: "Večernji krug oko jezera", opis: "Oko jezera Zeller See vodi ravna staza duga desetak kilometara, kojom domaći hodaju, trče i voze bicikl. Ako nemate snage za cijeli krug, prošećite dio i vratite se brodom." },
-        { ime: "Kupanje u jezeru", opis: "Jezero ima nekoliko uređenih kupališta s travnjacima, a voda je toliko čista da je bistra do dna. Ljeti se domaći dolaze okupati nakon posla, s pogledom na snijeg na vrhovima." },
-        { ime: "Kasnocken u planinskoj kolibi", opis: "Pinzgauska tjestenina s jakim sirom i prženim lukom iznosi se u vrućoj željeznoj tavi i jede zajedno iz nje. Naručite je u kolibi na planini Schmittenhöhe ili u dolini Fuscha." }
+        { ime: "An evening loop around the lake", opis: "A level path of about six miles circles Lake Zell, and locals walk, run and bike it. If the whole loop is too much, walk part of it and return by boat." },
+        { ime: "Swimming in the lake", opis: "The lake has several bathing areas with lawns, and the water is so clean that you can see the bottom. In summer locals come for a swim after work, looking up at the snow on the peaks." },
+        { ime: "Kasnocken in a mountain hut", opis: "These Pinzgau noodles with strong cheese and fried onions come to the table in a hot iron pan, and everyone eats from it together. Order them at a hut on the Schmittenhöhe or in the Fusch valley." }
       ],
       kupiti: [
-        { ime: "Pinzgauski sir", opis: "Na planinskim pašnjacima oko Zella ljeti se radi tvrdi planinski sir i pikantni Pinzgauer Bierkäse. Kupite ih u seoskim mljekarama ili izravno u planinskim kolibama." },
-        { ime: "Rakija od jarebike i limbe", opis: "Male destilerije u dolinama peku rijetku rakiju od crvenih bobica jarebike i crvenkastu rakiju od limbinih češera. Naći ćete ih u seoskim trgovinama i na tjednim tržnicama u Zellu." }
+        { ime: "Pinzgau cheese", opis: "On the mountain pastures around Zell, hard alpine cheese and the pungent Pinzgauer Bierkäse are made in summer. Buy them at village dairies or straight from the mountain huts." },
+        { ime: "Rowanberry and stone pine schnapps", opis: "Small distilleries in the valleys make a rare schnapps from red rowanberries and a reddish one from stone pine cones. You will find them in village shops and at the weekly markets in Zell." }
       ]
     },
     "klagenfurt": {
       dragulji: [
-        { ime: "Lendkanal", opis: "Kanal iz 16. stoljeća spaja središte grada s jezerom, a uz njega vodi sjenovita staza duga oko četiri kilometra, pokraj starih vila i mostića. Prođite je pješice ili biciklom i završite kupanjem." },
-        { ime: "Kreuzbergl", opis: "Šumovito brdo na rubu grada ima ribnjake, križni put, vidikovac i zvjezdarnicu. Ovamo stanovnici Klagenfurta dolaze na jutarnje trčanje i nedjeljnu šetnju." },
-        { ime: "Mahlerova skladateljska kućica", opis: "U šumi iznad južne obale jezera, kod Maiernigga, stoji mala zidana kućica u kojoj je Gustav Mahler ljeti skladao u potpunoj tišini. Do nje se dolazi kratkom šumskom stazom." }
+        { ime: "The Lendkanal", opis: "A 16th-century canal connects the city center with the lake, and a shady path about two and a half miles long follows it past old villas and little bridges. Walk or bike it and finish with a swim." },
+        { ime: "Kreuzbergl", opis: "This wooded hill on the edge of town has ponds, a Stations of the Cross path, a lookout and an observatory. It is where Klagenfurt residents come for a morning run and a Sunday walk." },
+        { ime: "Mahler's composing hut", opis: "In the forest above the southern shore of the lake, near Maiernigg, stands the small stone hut where Gustav Mahler composed in complete silence during his summers. A short forest path leads to it." }
       ],
       domaci: [
-        { ime: "Benediktinermarkt", opis: "Na tržnici u središtu grada četvrtkom i subotom prijepodne prodaju seljaci iz Koruške, ali i iz Slovenije i Furlanije. Domaći nakon kupnje ostanu za štandovima na jelu i čaši vina." },
-        { ime: "Poslijepodne na gradskom kupalištu", opis: "Strandbad Klagenfurt jedno je od najvećih jezerskih kupališta u Europi, s dugim drvenim molovima i travnjacima. Wörthersee se ljeti ugrije kao more, pa se ovamo dolazi čim završi posao." },
-        { ime: "Kärntner Kasnudeln", opis: "Velike okruglice od tijesta punjene skutom, krumpirom i mentom zatvaraju se posebnim naborom, a prelijevaju otopljenim maslacem. U Koruškoj se kaže da djevojka koja ih ne zna saviti neće naći muža, pa ih probajte u nekoj gostionici." }
+        { ime: "The Benediktinermarkt", opis: "At the market in the center of town, farmers from Carinthia, and from Slovenia and Friuli too, sell on Thursday and Saturday mornings. After shopping, locals stay at the stalls for a bite and a glass of wine." },
+        { ime: "An afternoon at the city beach", opis: "Strandbad Klagenfurt is one of the largest lake beaches in Europe, with long wooden piers and lawns. Lake Wörthersee warms up like the sea in summer, so people head here as soon as work ends." },
+        { ime: "Kärntner Kasnudeln", opis: "These large pasta pockets filled with quark, potato and mint are sealed with a special crimp and served with melted butter. In Carinthia they say a girl who cannot crimp them will not find a husband, so try them at an inn." }
       ],
       kupiti: [
-        { ime: "Reindling", opis: "Koruški kolač od dizanog tijesta s cimetom, šećerom i grožđicama peče se u okruglom kalupu i jede za Uskrs, ali i uz šunku. Kupite ga u pekarnici ili na tržnici i ponesite kući cijeli." },
-        { ime: "Koruška slanina i med", opis: "Na Benediktinermarktu naći ćete zračno sušenu slaninu iz doline Gailtal, koja ima zaštićeno podrijetlo, i šumski med od kranjske pčele. Prodavači će vam rado dati da kušate prije kupnje." }
+        { ime: "Reindling", opis: "This Carinthian yeast cake with cinnamon, sugar and raisins is baked in a round pan and eaten at Easter, even alongside ham. Buy one at a bakery or the market and take it home whole." },
+        { ime: "Carinthian Speck and honey", opis: "At the Benediktinermarkt you will find air-dried Speck from the Gailtal valley, which has protected origin, and forest honey from Carniolan bees. The sellers are happy to let you taste before you buy." }
       ]
     }
   }

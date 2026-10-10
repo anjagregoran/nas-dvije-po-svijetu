@@ -1,126 +1,126 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["cookovi-otoci"] = {
   id: "cookovi-otoci",
-  ime: "Cookovi Otoci",
-  regija: "Oceanija",
-  sazetak: "Petnaest malih otoka usred Tihog oceana, gdje nema semafora ni zgrade više od palme, a laguna Aitutakija slovi za najljepšu na svijetu.",
+  ime: "Cook Islands",
+  regija: "Oceania",
+  sazetak: "Fifteen small islands in the middle of the Pacific Ocean, where there are no traffic lights and no building taller than a palm tree, and the lagoon of Aitutaki is said to be the most beautiful in the world.",
   uvod: [
-    "Cookovi Otoci razasuti su po površini oceana velikoj kao zapadna Europa, a svi zajedno imaju manje kopna od otoka Krka. Dijele se na južnu skupinu, s vulkanskom Rarotongom i lagunom Aitutaki, i na daleke sjeverne atole, gdje se uzgajaju crni biseri. Stanovnici su Polinežani, bliski rođaci novozelandskih Maora i Tahićana, a svoj jezik zovu cookovootočki maorski.",
-    "Otoke su naselili moreplovci s područja današnje Francuske Polinezije prije više od tisuću godina. James Cook vidio je neke od njih sedamdesetih godina 18. stoljeća, ali Rarotongu nikada, a ime po njemu dao im je tek pola stoljeća poslije ruski kartograf Krusenstern. Presudniji od moreplovaca bili su misionari Londonskog misionarskog društva, koji su od 1821. u nekoliko godina pokrstili otoke i donijeli pismenost, ali i zabranili mnoge stare običaje.",
-    "Od 1965. Cookovi Otoci samoupravna su država u slobodnoj pridruženosti s Novim Zelandom, pa stanovnici imaju novozelandsko državljanstvo i mnogo ih više živi na Novom Zelandu nego kod kuće. Zemlja je mala, sigurna i gostoljubiva, a zemljište se ne može prodati strancima, zbog čega nema velikih hotelskih lanaca."
+    "The Cook Islands are scattered across a stretch of ocean as large as Western Europe, yet all together they have less land than the Croatian island of Krk. They are divided into the southern group, with volcanic Rarotonga and the lagoon of Aitutaki, and the remote northern atolls, where black pearls are farmed. The people are Polynesians, close relatives of the New Zealand Maori and the Tahitians, and they call their language Cook Islands Maori.",
+    "The islands were settled more than a thousand years ago by seafarers from what is now French Polynesia. James Cook saw some of them in the 1770s, though never Rarotonga, and they were named after him only half a century later by the Russian cartographer Krusenstern. More decisive than the navigators were the missionaries of the London Missionary Society, who from 1821 converted the islands within a few years and brought literacy, but also banned many old customs.",
+    "Since 1965 the Cook Islands have been a self-governing state in free association with New Zealand, so the islanders hold New Zealand citizenship and far more of them live in New Zealand than at home. The country is small, safe and welcoming, and land cannot be sold to foreigners, which is why there are no big hotel chains."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suho i svježije razdoblje traje od svibnja do listopada. Od studenoga do travnja toplije je i vlažnije, uz mogućnost ciklona. Krajem srpnja i početkom kolovoza održava se Te Maeva Nui, najveći festival plesa i pjesme." },
-    { k: "Valuta", v: "Novozelandski dolar (NZD). Uz njega kolaju i domaće kovanice i novčanice, među njima trokutasta kovanica od dva dolara i novčanica od tri dolara, koje vrijede samo ovdje i lijepa su uspomena." },
-    { k: "Kretanje", v: "Oko Rarotonge voze samo dva autobusa: jedan u smjeru kazaljke na satu, a drugi u suprotnom. Mnogi unajme skuter ili bicikl. Vozi se lijevom stranom i vrlo polako. Na Aitutaki se leti manje od sat vremena." },
-    { k: "Napojnica", v: "Nije dio mjesnih običaja i ne očekuje se." },
-    { k: "Nedjelja", v: "Nedjeljom je većina trgovina i izleta zatvorena, a otok ide u crkvu. Gosti su na misi dobrodošli ako se odjenu pristojno, pokrivenih ramena i koljena, a nakon mise često ih pozovu na čaj i kolače." }
+    { k: "When to go", v: "The dry and cooler season runs from May to October. From November to April it is warmer and more humid, with a chance of cyclones. Te Maeva Nui, the biggest festival of dance and song, is held in late July and early August." },
+    { k: "Currency", v: "New Zealand dollar (NZD). Local coins and banknotes circulate alongside it, among them a triangular two-dollar coin and a three-dollar note, which are valid only here and make a lovely keepsake." },
+    { k: "Getting around", v: "Only two buses run around Rarotonga, one clockwise and the other counterclockwise, and many people rent a scooter or a bicycle. You drive on the left and very slowly. The flight to Aitutaki takes less than an hour." },
+    { k: "Tipping", v: "It is not part of local custom and is not expected." },
+    { k: "Sunday", v: "On Sundays most shops and excursions are closed and the island goes to church. Guests are welcome at the service if they dress respectfully, with shoulders and knees covered, and afterward they are often invited for tea and cakes." }
   ],
   hrana: [
-    { ime: "Ika mata", opis: "Sirova riba, najčešće tuna, marinirana u soku limete i pomiješana s kokosovim vrhnjem, lukom i povrćem.", prica: "To je nacionalno jelo, koje ćete dobiti u svakom restoranu i na svakoj gozbi. Riba se obično ulovi istoga jutra, a kokos se riba pred vama." },
-    { ime: "Umukai", opis: "Gozba iz zemljane peći umu, u kojoj se na užarenom kamenju satima peku svinjetina, piletina, riba i povrće.", prica: "Riječ kai znači hrana, pa umukai doslovno znači hrana iz peći. Priprema se za vjenčanja, obiteljska slavlja i prvo šišanje dječaka, veliku obiteljsku svečanost. Gosti je najlakše kušaju na kulturnim večerima." },
-    { ime: "Rukau", opis: "Mladi listovi taroa pirjani s kokosovim vrhnjem i lukom.", prica: "Podsjeća na kremasti špinat i poslužuje se uz ribu ili meso. Listovi se moraju dugo kuhati jer sirovi peckaju grlo." },
-    { ime: "Poke", opis: "Sladak, gust desert od prezrelih banana ili papaje, zgusnut škrobom i natopljen kokosovim vrhnjem.", prica: "Nema nikakve veze s havajskom zdjelom sirove ribe istoga imena. Onaj od banane tamnoljubičast je i žilav poput želea, i redovito se nudi na subotnjoj tržnici." },
-    { ime: "Eke u curryju", opis: "Hobotnica kuhana u kokosovu vrhnju s curryjem.", prica: "Hobotnice se love štapom na grebenu za oseke, a zatim se dugo tuku da omekšaju. Jelo je specijalitet Aitutakija." },
-    { ime: "Mainese", opis: "Salata od krumpira, jaja i majoneze, obojena ružičasto sokom cikle.", prica: "Zvuči kao jelo iz neke druge kuhinje, ali nema cookovootočke gozbe bez nje. Ružičasta boja toliko je prepoznatljiva da je po njoj odmah znate na stolu." },
-    { ime: "Nu", opis: "Mladi zeleni kokosov orah koji se pije ohlađen, izravno iz ljuske.", prica: "Prodaje se na tržnici i uz cestu. Kada popijete vodu, zamolite prodavača da ga rascijepi kako biste žlicom pojeli mekano meso." }
+    { ime: "Ika mata", opis: "Raw fish, most often tuna, marinated in lime juice and mixed with coconut cream, onion and vegetables.", prica: "This is the national dish, which you will get in every restaurant and at every feast. The fish is usually caught that same morning, and the coconut is grated in front of you." },
+    { ime: "Umukai", opis: "A feast from the earth oven, the umu, in which pork, chicken, fish and vegetables cook for hours on red-hot stones.", prica: "The word kai means food, so umukai literally means food from the oven. It is prepared for weddings, family celebrations and a boy's first haircut, which is a big family occasion. The easiest way for guests to taste it is at the cultural evenings." },
+    { ime: "Rukau", opis: "Young taro leaves stewed with coconut cream and onion.", prica: "It is reminiscent of creamed spinach and is served with fish or meat. The leaves have to be cooked for a long time, because raw they sting the throat." },
+    { ime: "Poke", opis: "A sweet, dense dessert of overripe bananas or papaya, thickened with starch and soaked in coconut cream.", prica: "It has nothing at all to do with the Hawaiian bowl of raw fish of the same name. The banana version is dark purple and chewy like jelly, and it is regularly on offer at the Saturday market." },
+    { ime: "Curried eke", opis: "Octopus cooked in coconut cream with curry.", prica: "The octopuses are caught with a stick on the reef at low tide and then pounded for a long time to soften them. The dish is a specialty of Aitutaki." },
+    { ime: "Mainese", opis: "A salad of potatoes, eggs and mayonnaise, colored pink with beet juice.", prica: "It sounds like a dish from some other cuisine, but no Cook Islands feast is complete without it. The pink color is so distinctive that you will know it on the table at once." },
+    { ime: "Nu", opis: "A young green coconut, drunk chilled straight from the shell.", prica: "It is sold at the market and along the road. When you have drunk the water, ask the seller to split it open so you can eat the soft flesh with a spoon." }
   ],
   obicaji: [
-    { ime: "'Ura i bubnjevi", opis: "Cookovootočki ples poznat je po vrlo brzom njihanju bokova kod žena i udaranju koljenima kod muškaraca, uz bubnjeve izdubljene iz debla. Susjedi s Tahitija priznaju da su ovdašnji bubnjari i plesači među najboljima u Polineziji. Svaki ples priča priču o moru, ljubavi ili precima.", gdje: "Kulturne večeri zvane island night na Rarotongi, primjerice u Te Vara Nuiju i Highland Paradiseu, te festival Te Maeva Nui u Avarui oko 4. kolovoza, kada se slavi Dan ustava." },
-    { ime: "Tivaevae", opis: "Veliki pokrivači ručno prošiveni od izrezanih komada tkanine u jarkim bojama, s motivima cvijeća i lišća. Žene ih šiju zajedno, u skupinama, mjesecima. Tivaevae se ne prodaje olako: daruje se za vjenčanja i rođenja, a u njega se umataju i pokojnici.", gdje: "Štandovi rukotvorina na tržnici Punanga Nui u Avarui i radionice ženskih udruga na Rarotongi i Atiuu." },
-    { ime: "Nedjeljna misa i imene tuki", opis: "U bijelim crkvama od koraljnog vapnenca pjeva se višeglasno, snažno i bez pratnje glazbala. Stil imene tuki prepoznaje se po dubokim ritmičnim uzvicima muškaraca koji prate pjevanje žena. Žene nose bijele šešire fino ispletene od kokosovih vlakana.", gdje: "Crkve Cookovootočke kršćanske crkve u Avarui, Titikaveki i Arutangi, nedjeljom ujutro." },
-    { ime: "'Ei", opis: "Vijenci od svježeg cvijeća stavljaju se gostima oko vrata pri dolasku, a vijenac za glavu zove se 'ei katu. Plete se od cvijeća iz vrta, najčešće od mirisnog tiarea i frangipanija. Nošenje cvijeća u kosi svakodnevna je stvar i kod žena i kod muškaraca.", gdje: "Zračna luka na Rarotongi pri dolasku te tržnica Punanga Nui subotom, gdje žene pletu vijence pred vama." },
-    { ime: "Crni biseri", opis: "Na dalekom atolu Manihiki u laguni se uzgajaju crni biseri, koji su najvrjedniji izvozni proizvod zemlje. Boje im idu od srebrne i zelene do tamnoljubičaste.", gdje: "Zlatarnice u Avarui. Tražite potvrdu o podrijetlu i uspoređujte sjaj i pravilnost oblika." },
-    { ime: "Vaka i plovidba po zvijezdama", opis: "Vaka je dvotrupni kanu kakvim su Polinežani prelazili tisuće kilometara oceana bez kompasa. Predaja kaže da su iz luke Avana na Rarotongi oko 14. stoljeća isplovili kanui koji su naselili Novi Zeland. Cookovootočani danas ponovno grade takva plovila i plove po zvijezdama.", gdje: "Prolaz Avana kod sela Ngatangiia na Rarotongi, gdje stoji krug kamenja u spomen na kanue. Na Aitutakiju se lagunom krstari brodom oblikovanim poput vake." }
+    { ime: "'Ura and the drums", opis: "Cook Islands dance is known for the women's very fast swaying of the hips and the men's knocking knees, to drums hollowed out of tree trunks. Their neighbors from Tahiti admit that the drummers and dancers here are among the best in Polynesia. Every dance tells a story about the sea, love or the ancestors.", gdje: "The cultural evenings called island nights on Rarotonga, for example at Te Vara Nui and Highland Paradise, and the Te Maeva Nui festival in Avarua around August 4, when Constitution Day is celebrated." },
+    { ime: "Tivaevae", opis: "Large quilts hand-stitched from cut pieces of fabric in bright colors, with motifs of flowers and leaves. Women sew them together, in groups, over months. A tivaevae is not sold lightly: it is given for weddings and births, and the dead are wrapped in one as well.", gdje: "The handicraft stalls at the Punanga Nui market in Avarua and the workshops of women's groups on Rarotonga and Atiu." },
+    { ime: "Sunday service and imene tuki", opis: "In the white churches of coral limestone the singing is in harmony, powerful and unaccompanied. The imene tuki style is recognizable by the deep rhythmic grunts of the men that accompany the women's singing. The women wear white hats finely woven from coconut fiber.", gdje: "The churches of the Cook Islands Christian Church in Avarua, Titikaveka and Arutanga, on Sunday mornings." },
+    { ime: "'Ei", opis: "Garlands of fresh flowers are placed around guests' necks on arrival, and a garland for the head is called an 'ei katu. They are woven from garden flowers, most often fragrant tiare and frangipani. Wearing flowers in the hair is an everyday thing for both women and men.", gdje: "The airport on Rarotonga on arrival, and the Punanga Nui market on Saturdays, where women weave garlands in front of you." },
+    { ime: "Black pearls", opis: "On the remote atoll of Manihiki black pearls are farmed in the lagoon, and they are the country's most valuable export. Their colors range from silver and green to dark purple.", gdje: "The jewelers in Avarua. Ask for a certificate of origin and compare the luster and the regularity of the shape." },
+    { ime: "Vaka and navigating by the stars", opis: "A vaka is a double-hulled canoe of the kind in which Polynesians crossed thousands of kilometers of ocean without a compass. Tradition says that around the 14th century the canoes that settled New Zealand sailed from Avana harbor on Rarotonga. Cook Islanders today are building such vessels again and sailing by the stars.", gdje: "Avana Passage near the village of Ngatangiia on Rarotonga, where a circle of stones stands in memory of the canoes. On Aitutaki you can cruise the lagoon on a boat shaped like a vaka." }
   ],
   fraze: [
-    { izvorno: "Kia orana", izgovor: "ki-a o-RA-na", hr: "Zdravo (doslovno: da dugo živiš)" },
-    { izvorno: "Meitaki", izgovor: "mej-TA-ki", hr: "Hvala" },
-    { izvorno: "Meitaki ma'ata", izgovor: "mej-TA-ki ma-A-ta", hr: "Hvala lijepa" },
-    { izvorno: "Aere rā", izgovor: "a-E-re RA", hr: "Doviđenja (onome tko odlazi)" },
-    { izvorno: "'Ae / Kāre", izgovor: "A-e / KA-re", hr: "Da / Ne" },
-    { izvorno: "Pe'ea koe?", izgovor: "pe-E-a KO-e", hr: "Kako si?" },
-    { izvorno: "Kia manuia", izgovor: "ki-a ma-NU-i-a", hr: "Živjeli, sretno" },
-    { izvorno: "Ka kite", izgovor: "ka KI-te", hr: "Vidimo se" }
+    { izvorno: "Kia orana", izgovor: "kee-ah oh-RAH-nah", hr: "Hello (literally: may you live long)" },
+    { izvorno: "Meitaki", izgovor: "may-TAH-kee", hr: "Thank you" },
+    { izvorno: "Meitaki ma'ata", izgovor: "may-TAH-kee mah-AH-tah", hr: "Thank you very much" },
+    { izvorno: "Aere rā", izgovor: "ah-EH-reh RAH", hr: "Goodbye (to the person leaving)" },
+    { izvorno: "'Ae / Kāre", izgovor: "AH-eh / KAH-reh", hr: "Yes / No" },
+    { izvorno: "Pe'ea koe?", izgovor: "peh-EH-ah KOH-eh", hr: "How are you?" },
+    { izvorno: "Kia manuia", izgovor: "kee-ah mah-NOO-ee-ah", hr: "Cheers, good luck" },
+    { izvorno: "Ka kite", izgovor: "kah KEE-teh", hr: "See you" }
   ],
   zanimljivosti: [
-    "Na Rarotongi nema nijednog semafora, a propis kaže da nijedna zgrada ne smije biti viša od najviše kokosove palme.",
-    "James Cook, po kojem otoci nose ime, nikada nije vidio Rarotongu, najveći i glavni otok.",
-    "Cookovi Otoci imaju novčanicu od tri dolara i trokutastu kovanicu od dva dolara, a na jednoj od kovanica prikazan je bog Tangaroa.",
-    "Kapetan William Bligh ugledao je Aitutaki u travnju 1789. s broda Bounty, samo dva i pol tjedna prije slavne pobune.",
-    "Na Aitutakiju nema pasa. Jedna predaja kaže da su zabranjeni otkako je pas ugrizao dijete poglavice, a druga ih povezuje sa strahom od bolesti.",
-    "Na otočiću Tapuaetai u laguni Aitutakija radi poštanski ured u kolibi na plaži, gdje možete dobiti žig u putovnicu u obliku stopala.",
-    "Pedesetih godina 20. stoljeća hidroavioni na takozvanoj Koraljnoj ruti između Novog Zelanda i Tahitija slijetali su u lagunu Aitutakija, a putnici su se kupali dok se zrakoplov punio gorivom."
+    "There is not a single traffic light on Rarotonga, and regulations say that no building may be taller than the tallest coconut palm.",
+    "James Cook, after whom the islands are named, never saw Rarotonga, the largest and main island.",
+    "The Cook Islands have a three-dollar banknote and a triangular two-dollar coin, and one of the coins depicts the god Tangaroa.",
+    "Captain William Bligh sighted Aitutaki in April 1789 from the Bounty, just two and a half weeks before the famous mutiny.",
+    "There are no dogs on Aitutaki. One tradition says they have been banned ever since a dog bit a chief's child, and another links the ban to a fear of disease.",
+    "On the islet of Tapuaetai in the Aitutaki lagoon there is a post office in a hut on the beach, where you can get a foot-shaped stamp in your passport.",
+    "In the 1950s the flying boats on the so-called Coral Route between New Zealand and Tahiti landed in the Aitutaki lagoon, and the passengers went swimming while the plane was refueled."
   ],
   mjesta: [
     {
       id: "rarotonga",
       ime: "Rarotonga",
       vrsta: "otok",
-      sazetak: "Okrugli vulkanski otok sa šiljastim zelenim vrhovima i plitkom lagunom, koji se može obići za manje od sat vremena, a zadrži vas tjedan dana.",
+      sazetak: "A round volcanic island with pointed green peaks and a shallow lagoon, which you can drive around in less than an hour and which will keep you for a week.",
       prica: [
-        "Rarotonga je ostatak vulkana čiji se nazubljeni vrhovi dižu više od šesto metara, okružen uskim pojasom plodne zemlje i lagunom unutar grebena. Predaja pripovijeda da su je naselila dva poglavice, Tangi'ia s Tahitija i Karika sa Samoe, čiji potomci i danas nose poglavarske naslove i dijele otok na tri plemenska područja.",
-        "Misionar John Williams stigao je 1823. s tahićanskim propovjednikom Papeihom, koji je ostao na otoku i u nekoliko godina pokrstio stanovnike. Ljudi su se tada iz unutrašnjosti preselili na obalu, oko novih crkava, pa su sela i danas nanizana uz obalnu cestu od trideset i dva kilometra."
+        "Rarotonga is the remnant of a volcano whose jagged peaks rise more than six hundred meters, surrounded by a narrow belt of fertile land and a lagoon inside the reef. Tradition tells that it was settled by two chiefs, Tangi'ia from Tahiti and Karika from Samoa, whose descendants still bear chiefly titles and divide the island into three tribal districts.",
+        "The missionary John Williams arrived in 1823 with the Tahitian preacher Papeiha, who stayed on the island and converted its people within a few years. The people then moved from the interior to the coast, around the new churches, so the villages are still strung along the thirty-two-kilometer coastal road today."
       ],
       vidjeti: [
-        { ime: "Te Rua Manga (Igla)", opis: "Kamena igla visoka 413 metara u srcu otoka vidi se s obale kao podignuti prst. Do njezina podnožja vodi staza koja presijeca otok od sjeverne do južne obale, kroz prašumu divovskih paprati, za tri do četiri sata. Staza je strma i skliska nakon kiše, pa mnogi idu s vodičem." },
-        { ime: "Laguna Muri", opis: "Na jugoistočnoj strani otoka laguna je najšira i u njoj su četiri mala pješčana otočića. Voda je plitka i mirna, pa se do najbližeg otočića može prijeći pješice ili kajakom." },
-        { ime: "Crkva u Avarui", opis: "Bijela crkva od koraljnog vapnenca dovršena je 1853. Na groblju oko nje pokopan je Albert Henry, prvi premijer zemlje, čije poprsje na grobu često nosi vijenac od cvijeća i naočale." },
-        { ime: "Marae Arai Te Tonga i Ara Metua", opis: "Uz sjevernu obalu, malo u unutrašnjosti, nalaze se kameni stupovi najsvetijeg svetišta na otoku, gdje su se ustoličavali vrhovni poglavice. Kraj njega prolazi Ara Metua, cesta popločena koraljem i bazaltom stara oko tisuću godina, koja je nekad obilazila cijeli otok. Na kamenje se ne staje." },
-        { ime: "Prolaz Avana", opis: "Kroz ovaj prolaz u grebenu kod sela Ngatangiia prema predaji su isplovili kanui koji su naselili Novi Zeland. Krug kamenja na obali nosi imena tih kanua, a mnoga maorska plemena i danas vuku podrijetlo od jednoga od njih." },
-        { ime: "Crna stijena", opis: "Kod skupine tamnih bazaltnih stijena na sjeverozapadnoj obali, prema starom vjerovanju, duše umrlih napuštaju otok i kreću prema pradomovini Avaiki. Ondje je misionar Papeiha 1823. doplivao na obalu držeći Bibliju iznad glave. Lijepo je mjesto za zalazak sunca." }
+        { ime: "Te Rua Manga (The Needle)", opis: "The rock needle, 413 meters high, in the heart of the island looks from the coast like a raised finger. A trail that crosses the island from the north coast to the south, through a rainforest of giant ferns, reaches its base and takes three to four hours in all. The trail is steep and slippery after rain, so many people go with a guide." },
+        { ime: "Muri Lagoon", opis: "On the southeastern side of the island the lagoon is at its widest and holds four small sandy islets. The water is shallow and calm, so you can cross to the nearest islet on foot or by kayak." },
+        { ime: "The church in Avarua", opis: "The white church of coral limestone was completed in 1853. Buried in the graveyard around it is Albert Henry, the country's first premier, whose bust on the grave often wears a flower garland and a pair of glasses." },
+        { ime: "Marae Arai Te Tonga and Ara Metua", opis: "Along the north coast, a little way inland, stand the stone pillars of the most sacred site on the island, where the paramount chiefs were invested. Past it runs the Ara Metua, a road paved with coral and basalt about a thousand years ago, which once circled the whole island. Do not step on the stones." },
+        { ime: "Avana Passage", opis: "Through this gap in the reef near the village of Ngatangiia, tradition says, the canoes that settled New Zealand set sail. A circle of stones on the shore bears the names of those canoes, and many Maori tribes still trace their descent from one of them." },
+        { ime: "Black Rock", opis: "At a cluster of dark basalt rocks on the northwest coast, according to old belief, the souls of the dead leave the island and set out for the ancestral homeland of Avaiki. It was there that the missionary Papeiha swam ashore in 1823 holding a Bible above his head. It is a lovely spot for sunset." }
       ],
       jesti: [
-        { ime: "Ika mata na tržnici", opis: "Na subotnjoj tržnici Punanga Nui kupuje se u posudici, uz kuhani taro, i jede za stolovima pod drvećem." },
-        { ime: "Riblji sendvič", opis: "Komad svježe pečene tune ili mahi-mahija u pecivu, s domaćim umakom, uobičajen je ručak u malim zalogajnicama uz lagunu i luku." },
-        { ime: "Večernja tržnica u Muriju", opis: "Nekoliko večeri u tjednu na livadi u Muriju postavljaju se štandovi s domaćim jelima, od curryja s hobotnicom do palačinki i kolača s kokosom." }
+        { ime: "Ika mata at the market", opis: "At the Saturday Punanga Nui market you buy it in a little tub, with boiled taro, and eat it at the tables under the trees." },
+        { ime: "Fish sandwich", opis: "A piece of freshly grilled tuna or mahi-mahi in a bun, with a homemade sauce, is the usual lunch at the small eateries by the lagoon and the harbor." },
+        { ime: "The Muri night market", opis: "Several evenings a week stalls are set up on the green in Muri with homemade dishes, from octopus curry to pancakes and coconut cakes." }
       ],
       dozivjeti: [
-        { ime: "Tržnica Punanga Nui", opis: "Subotom ujutro u Avarui okupi se cijeli otok. Prodaju se voće, vijenci, pareo, ukulelei i crni biseri, a na pozornici plešu djeca iz plesnih škola. Dođite prije devet sati." },
-        { ime: "Večer u Te Vara Nuiju", opis: "U kulturnom selu u Muriju vodiči najprije pokažu stare vještine, od ribolova do ljekovitog bilja, a zatim se uz večeru gleda ples na plutajućim pozornicama usred vrta s vodom.", link: "https://www.tevaranui.co.ck/" },
-        { ime: "Highland Paradise", opis: "Na brdu iznad zapadne obale nalazi se obnovljeno selo plemena Tinomana s ostacima svetišta starima šest stoljeća. Potomci toga plemena vode obilazak i pripremaju gozbu iz zemljane peći.", link: "https://www.highlandparadise.co.ck/" },
-        { ime: "Biciklom s pripovjedačima", opis: "Mjesni vodiči vode vas sporednim putovima kroz plantaže taroa, pokraj starih svetišta i voćnjaka, i usput pričaju povijest i legende otoka.", link: "https://www.storytellers.co.ck/" }
+        { ime: "Punanga Nui market", opis: "On Saturday mornings the whole island gathers in Avarua. Fruit, garlands, pareos, ukuleles and black pearls are for sale, and children from the dance schools perform on the stage. Come before nine o'clock." },
+        { ime: "An evening at Te Vara Nui", opis: "In the cultural village in Muri the guides first show you the old skills, from fishing to medicinal plants, and then over dinner you watch dancing on floating stages in the middle of a water garden.", link: "https://www.tevaranui.co.ck/" },
+        { ime: "Highland Paradise", opis: "On a hill above the west coast is the restored village of the Tinomana tribe, with the remains of sacred sites six centuries old. Descendants of that tribe lead the tour and prepare a feast from the earth oven.", link: "https://www.highlandparadise.co.ck/" },
+        { ime: "By bike with the storytellers", opis: "Local guides take you along back roads through taro plantations, past old sacred sites and orchards, telling the history and legends of the island along the way.", link: "https://www.storytellers.co.ck/" }
       ],
       agencije: [
-        { ime: "Cook Islands Tourism", opis: "Službena turistička stranica zemlje.", link: "https://cookislands.travel/" },
-        { ime: "Storytellers Eco Cycle Tours", opis: "Biciklističke i pješačke ture s mjesnim vodičima.", link: "https://www.storytellers.co.ck/" },
-        { ime: "Koka Lagoon Cruises", opis: "Izleti lagunom Muri brodom sa staklenim dnom, uz ronjenje s maskom, glazbu i ručak s roštilja.", link: "https://kokalagooncruises.com/" }
+        { ime: "Cook Islands Tourism", opis: "The country's official tourism site.", link: "https://cookislands.travel/" },
+        { ime: "Storytellers Eco Cycle Tours", opis: "Cycling and walking tours with local guides.", link: "https://www.storytellers.co.ck/" },
+        { ime: "Koka Lagoon Cruises", opis: "Trips on Muri Lagoon in a glass-bottom boat, with snorkeling, music and a barbecue lunch.", link: "https://kokalagooncruises.com/" }
       ],
-      kada: "Najugodnije je od svibnja do listopada. Subotnju tržnicu i jednu kulturnu večer isplanirajte unaprijed, a nedjeljom pođite na misu u deset sati i ostavite ostatak dana za lagunu."
+      kada: "It is most pleasant from May to October. Plan the Saturday market and one cultural evening in advance, and on Sunday go to the ten o'clock service and leave the rest of the day for the lagoon."
     },
     {
       id: "aitutaki",
       ime: "Aitutaki",
       vrsta: "otok",
-      sazetak: "Mali brežuljkast otok na rubu goleme trokutaste lagune s petnaestak pješčanih otočića, do kojih se dolazi samo brodom.",
+      sazetak: "A small hilly island at the edge of a huge triangular lagoon with some fifteen sandy islets that can be reached only by boat.",
       prica: [
-        "Aitutaki je napola atol, a napola vulkanski otok: nizak brežuljak na sjevernom kutu lagune koju zatvara greben dug četrdesetak kilometara. Prema predaji prvi ga je naselio moreplovac Ru, koji je doplovio s obitelji i dvadeset mladih djevojaka iz kraljevskih obitelji.",
-        "Bio je to prvi od Cookovih Otoka koji je primio kršćanstvo, kada je misionar John Williams 1821. ovdje ostavio dvojicu tahićanskih propovjednika. U Drugome svjetskom ratu američka i novozelandska vojska sagradile su na otoku uzletište, koje se koristi i danas."
+        "Aitutaki is half atoll and half volcanic island: a low hill at the northern corner of a lagoon enclosed by a reef about forty kilometers long. According to tradition it was first settled by the navigator Ru, who sailed here with his family and twenty young women of royal families.",
+        "It was the first of the Cook Islands to accept Christianity, when the missionary John Williams left two Tahitian preachers here in 1821. In the Second World War the armies of the USA and New Zealand built an airstrip on the island that is still in use today."
       ],
       vidjeti: [
-        { ime: "Laguna", opis: "Laguna je plitka, s bijelim pješčanim dnom, pa je voda blijedo tirkizna do samog grebena. U njoj žive divovske školjke s plaštem jarkih boja, koje se uzgajaju i vraćaju u more, te velike ribe karanksi koje bez straha plivaju uz ronioce." },
-        { ime: "Tapuaetai (Otok jednog stopala)", opis: "Najpoznatiji otočić u laguni ima pješčani sprud koji za oseke izranja iz mora. Legenda kaže da je otac, bježeći pred neprijateljima, nosio sina na leđima kako bi u pijesku ostao trag samo jednog para stopala, i tako spasio dijete skriveno na palmi." },
-        { ime: "Crkva u Arutangi", opis: "Najstarija crkva na Cookovim Otocima sagrađena je 1828. od koraljnog vapnenca. Iznutra je obojena u crveno, žuto i zeleno, a na stropu iznad oltara visi sidro s natpisom na maorskom." },
-        { ime: "Maungapu", opis: "Najviša točka otoka visoka je samo 124 metra, a do vrha se penje za pola sata. Legenda kaže da su ratnici Aitutakija, kojima je nedostajala planina, noću odsjekli vrh brda na Rarotongi i donijeli ga kući. S vrha se vidi cijela laguna." },
-        { ime: "Otočić Akaiami", opis: "Na ovom su otočiću pedesetih godina 20. stoljeća pristajali hidroavioni na letu preko Pacifika. Ostaci kamenog pristaništa još se vide na plaži." },
-        { ime: "Stabla banjana", opis: "Na cesti kroz unutrašnjost otoka golemo stablo banjana preraslo je cestu, pa se vozi kroz tunel od njegova zračnog korijenja." }
+        { ime: "The lagoon", opis: "The lagoon is shallow, with a white sandy bottom, so the water is pale turquoise right out to the reef. It is home to giant clams with brightly colored mantles, which are bred and returned to the sea, and to big giant trevally that swim fearlessly alongside snorkelers." },
+        { ime: "Tapuaetai (One Foot Island)", opis: "The best-known islet in the lagoon has a sandbar that rises out of the sea at low tide. Legend says that a father fleeing his enemies carried his son on his back so that only one set of footprints would be left in the sand, and so saved the child, who was hidden in a palm tree." },
+        { ime: "The church in Arutanga", opis: "The oldest church in the Cook Islands was built in 1828 of coral limestone. Inside it is painted red, yellow and green, and from the ceiling above the altar hangs an anchor with an inscription in Maori." },
+        { ime: "Maungapu", opis: "The highest point on the island is only 124 meters high, and the climb to the top takes half an hour. Legend says that the warriors of Aitutaki, who had no mountain, cut the top off a hill on Rarotonga one night and brought it home. From the summit you can see the whole lagoon." },
+        { ime: "Akaiami islet", opis: "In the 1950s the flying boats on the route across the Pacific moored at this islet. The remains of the stone jetty can still be seen on the beach." },
+        { ime: "The banyan trees", opis: "On the road through the interior of the island a huge banyan tree has grown over the road, so you drive through a tunnel of its aerial roots." }
       ],
       jesti: [
-        { ime: "Riba s roštilja na otočiću", opis: "Na krstarenjima lagunom posada peče svježu tunu ili mahi-mahi i poslužuje ih sa salatama, kruhovcem i voćem." },
-        { ime: "Eke u curryju", opis: "Hobotnica u kokosovu umaku s curryjem najbolja je u malim obiteljskim restoranima u Arutangi." },
-        { ime: "Ika mata", opis: "Ovdje se često radi od ribe papige ili karanksa iz lagune i poslužuje u kokosovoj ljusci." }
+        { ime: "Grilled fish on an islet", opis: "On the lagoon cruises the crew grills fresh tuna or mahi-mahi and serves it with salads, breadfruit and fruit." },
+        { ime: "Curried eke", opis: "Octopus in a coconut curry sauce is at its best in the small family restaurants in Arutanga." },
+        { ime: "Ika mata", opis: "Here it is often made with parrotfish or trevally from the lagoon and served in a coconut shell." }
       ],
       dozivjeti: [
-        { ime: "Krstarenje lagunom", opis: "Cjelodnevni izlet brodom oblikovanim poput polinezijskog dvotrupnog kanua staje na nekoliko otočića i mjesta za ronjenje s maskom, uz ručak na palubi i glazbu posade. Ponesite putovnicu radi žiga na Otoku jednog stopala.", link: "https://www.thevakacruise.com/" },
-        { ime: "Nedjeljna misa u Arutangi", opis: "Pjevanje u najstarijoj crkvi u zemlji mnogi smatraju najljepšim na Cookovim Otocima. Dođite desetak minuta ranije i sjednite straga." },
-        { ime: "Skuterom oko otoka", opis: "Glavni otok može se obići za sat vremena, uz zaustavljanja kod banjana, na vrhu Maungapua i na pristaništu u Arutangi, gdje se pred večer okupljaju ribari." }
+        { ime: "A lagoon cruise", opis: "A full-day trip on a boat shaped like a Polynesian double-hulled canoe stops at several islets and snorkeling spots, with lunch on deck and music from the crew. Bring your passport for the stamp on One Foot Island.", link: "https://www.thevakacruise.com/" },
+        { ime: "Sunday service in Arutanga", opis: "Many consider the singing in the country's oldest church the most beautiful in the Cook Islands. Come about ten minutes early and sit at the back." },
+        { ime: "Around the island by scooter", opis: "You can circle the main island in an hour, with stops at the banyan, at the top of Maungapu and at the wharf in Arutanga, where the fishermen gather toward evening." }
       ],
       agencije: [
-        { ime: "Cook Islands Tourism", opis: "Službena turistička stranica zemlje, s popisom smještaja i izleta na Aitutakiju.", link: "https://cookislands.travel/" },
-        { ime: "Air Rarotonga", opis: "Domaći zračni prijevoznik koji svakodnevno leti s Rarotonge i nudi jednodnevni izlet s krstarenjem.", link: "https://airraro.com/" },
-        { ime: "The Vaka Cruise", opis: "Krstarenja lagunom s ručkom.", link: "https://www.thevakacruise.com/" }
+        { ime: "Cook Islands Tourism", opis: "The country's official tourism site, with a list of accommodation and excursions on Aitutaki.", link: "https://cookislands.travel/" },
+        { ime: "Air Rarotonga", opis: "The domestic airline that flies daily from Rarotonga and offers a day trip with a cruise.", link: "https://airraro.com/" },
+        { ime: "The Vaka Cruise", opis: "Lagoon cruises with lunch.", link: "https://www.thevakacruise.com/" }
       ],
-      kada: "Najljepše je od svibnja do listopada. Jednodnevni izlet s Rarotonge moguć je, ali vrijedi ostati barem dvije noći kako biste lagunu vidjeli u zoru i sumrak, kada na njoj nema nikoga."
+      kada: "It is loveliest from May to October. A day trip from Rarotonga is possible, but it is worth staying at least two nights so you can see the lagoon at dawn and dusk, when there is no one on it."
     }
   ],
   izvori: [

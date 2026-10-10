@@ -1,158 +1,158 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["fidzi"] = {
   id: "fidzi",
-  ime: "Fidži",
-  regija: "Oceanija",
-  sazetak: "Više od tristo otoka na kojima vas od zračne luke do najmanjeg sela svi pozdravljaju glasnim Bula, a dan se mjeri plimom i zdjelom kave.",
+  ime: "Fiji",
+  regija: "Oceania",
+  sazetak: "More than three hundred islands where everyone, from the airport to the smallest village, greets you with a loud Bula, and the day is measured by the tide and a bowl of kava.",
   uvod: [
-    "Fidži je otočje u srcu južnog Pacifika s više od tristo trideset otoka, od kojih je naseljena otprilike trećina. Većina ljudi živi na dva velika otoka, Viti Levuu i Vanua Levuu, a ostatak čine mali koraljni i vulkanski otoci s plažama zbog kojih ovamo dolaze putnici. Prvi su ga naselili moreplovci kulture Lapita prije više od tri tisuće godina, pa se ovdje susreću melanezijski i polinezijski svijet.",
-    "Poglavica Cakobau predao je 1874. otočje britanskoj kruni, a Britanci su za rad na plantažama šećerne trske od 1879. do 1916. dovezli desetke tisuća radnika iz Indije. Njihovi potomci danas čine više od trećine stanovništva, pa se na Fidžiju uz ribu u kokosovu mlijeku jede curry, a uz crkve stoje hinduistički hramovi i džamije. Zemlja je neovisna od 10. listopada 1970.",
-    "Svakodnevica se i dalje vrti oko sela, poglavice i zajednice. Gost koji dođe s poštovanjem, pokrivenih ramena i s darom korijena kave, bit će primljen kao rod, i upravo je taj susret s ljudima ono po čemu se Fidži pamti više nego po plažama."
+    "Fiji is an archipelago in the heart of the South Pacific with more than three hundred and thirty islands, about a third of which are inhabited. Most people live on the two big islands, Viti Levu and Vanua Levu, and the rest are small coral and volcanic islands with the beaches that bring travelers here. It was first settled by seafarers of the Lapita culture more than three thousand years ago, so the Melanesian and Polynesian worlds meet here.",
+    "In 1874 Chief Cakobau ceded the islands to the British Crown, and from 1879 to 1916 the British brought in tens of thousands of workers from India to labor on the sugarcane plantations. Their descendants make up more than a third of the population today, so in Fiji curry is eaten alongside fish in coconut milk, and Hindu temples and mosques stand alongside churches. The country has been independent since October 10, 1970.",
+    "Everyday life still revolves around the village, the chief and the community. A guest who comes with respect, with covered shoulders and a gift of kava root, will be received like family, and it is that encounter with people, more than the beaches, that makes Fiji unforgettable."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suho i ugodnije razdoblje traje od svibnja do listopada. Od studenoga do travnja vruće je i vlažno, uz mogućnost ciklona, ali su cijene niže." },
-    { k: "Valuta", v: "Fidžijski dolar (FJD). U odmaralištima se plaća karticom, a za tržnice, sela i male otoke ponesite gotovinu." },
-    { k: "Kretanje", v: "Na otoke Mamanuca i Yasawa voze brzi katamarani iz luke Denarau kod Nadija, a na udaljenije otoke poput Taveunija leti se malim zrakoplovima. Po Viti Levuu voze jeftini autobusi, često bez stakala na prozorima." },
-    { k: "Napojnica", v: "Ne očekuje se. Mnoga odmarališta imaju zajedničku kutiju za osoblje u koju se na odlasku može ostaviti prilog koji se dijeli svima." },
-    { k: "U selu", v: "Pokrijte ramena i koljena, skinite šešir i sunčane naočale, izujte se prije ulaska u kuću i nikoga ne dirajte po glavi. Poglavici se donosi sevusevu, dar korijena kave koji se kupuje na svakoj tržnici." }
+    { k: "When to go", v: "The dry and more pleasant season runs from May to October. From November to April it is hot and humid, with a chance of cyclones, but prices are lower." },
+    { k: "Currency", v: "Fijian dollar (FJD). You pay by card at the resorts, and you should bring cash for markets, villages and small islands." },
+    { k: "Getting around", v: "Fast catamarans run to the Mamanuca and Yasawa islands from Port Denarau near Nadi, and you fly to more distant islands such as Taveuni in small planes. Cheap buses, often with no glass in the windows, run around Viti Levu." },
+    { k: "Tipping", v: "It is not expected. Many resorts have a shared staff box where you can leave a contribution on departure that is divided among everyone." },
+    { k: "In the village", v: "Cover your shoulders and knees, take off your hat and sunglasses, remove your shoes before entering a house and do not touch anyone on the head. You bring the chief a sevusevu, a gift of kava root that is sold at every market." }
   ],
   hrana: [
-    { ime: "Kokoda", opis: "Sirova bijela riba marinirana u soku limete i pomiješana s kokosovim mlijekom, lukom, čilijem i rajčicom.", prica: "Izgovara se kokonda. Poslužuje se hladna, često u polovici kokosova oraha ili u velikoj školjki, i najbolji je ručak za vruć dan. Slična jela imaju i susjedni otoci, no fidžijska je inačica među najkremastijima." },
-    { ime: "Lovo", opis: "Gozba pečena u zemljanoj jami na užarenom kamenju, pokrivena lišćem banane i zemljom.", prica: "U lovo idu svinjetina, piletina, riba i korjenasto povrće, a peče se dva do tri sata. Priprema se za vjenčanja, blagdane i dolazak gostiju, pa je u odmaralištima obično jednom tjedno." },
-    { ime: "Palusami", opis: "Listovi taroa punjeni gustim kokosovim vrhnjem i lukom, ponekad i usoljenom govedinom, pečeni u lovu.", prica: "Listovi se pri pečenju pretvore u mekanu zelenu kremu slatkastog okusa. Jede se uz taro ili kasavu i neizostavan je dio svake gozbe." },
-    { ime: "Kava (yaqona)", opis: "Blago umirujuće piće od samljevenog korijena jedne vrste papra, pomiješanog s vodom.", prica: "Izgleda poput mutne vode, okusom podsjeća na zemlju i od nje lagano utrnu usne i jezik. Pije se iz polovice kokosove ljuske uz točno određen red, a odbiti prvu ponuđenu zdjelicu smatra se nepristojnim." },
-    { ime: "Curry i roti", opis: "Indijsko-fidžijski curry od piletine, kozletine, ribe ili povrća, umotan u tanku lepinju.", prica: "Recepti su stigli s radnicima s plantaža u 19. stoljeću i prilagodili se domaćim namirnicama, pa se u curry stavljaju i taro i kruhovac. Roti zamotan u papir uobičajena je marenda koja se kupuje na autobusnim postajama i tržnicama." },
-    { ime: "Dalo i kasava", opis: "Škrobni gomolji koji na fidžijskom stolu imaju ulogu kruha.", prica: "Dalo, odnosno taro, kuha se ili peče u lovu i ima ljubičastosivu boju i orašast okus. Na tržnicama se prodaje u vezanim snopovima, i to je jedan od najvažnijih izvoznih proizvoda zemlje." },
-    { ime: "Nama", opis: "Morsko grožđe, zelena alga sa sitnim bobicama koje pucaju pod zubima.", prica: "Poslužuje se sirova, s kokosovim mlijekom, limetom i čilijem. Žene je beru u plićaku za oseke i prodaju na tržnicama na hrpice." },
-    { ime: "Vakalolo", opis: "Slatki kolač od ribane kasave, kokosa, đumbira i šećera, kuhan na pari u listu banane.", prica: "To je starinski desert koji se pripremao za poglavice i svečane prigode. Najlakše ćete ga naći na tržnici u Suvi ili na seoskoj gozbi." }
+    { ime: "Kokoda", opis: "Raw white fish marinated in lime juice and mixed with coconut milk, onion, chili and tomato.", prica: "It is pronounced ko-KON-da. It is served cold, often in half a coconut shell or in a large clam shell, and it is the best lunch for a hot day. The neighboring islands have similar dishes, but the Fijian version is among the creamiest." },
+    { ime: "Lovo", opis: "A feast cooked in an earth pit on red-hot stones, covered with banana leaves and soil.", prica: "Pork, chicken, fish and root vegetables go into the lovo, and it cooks for two to three hours. It is prepared for weddings, holidays and the arrival of guests, so at the resorts it usually happens once a week." },
+    { ime: "Palusami", opis: "Taro leaves filled with thick coconut cream and onion, sometimes with corned beef as well, baked in the lovo.", prica: "As they bake, the leaves turn into a soft green cream with a sweetish taste. It is eaten with taro or cassava and is an essential part of every feast." },
+    { ime: "Kava (yaqona)", opis: "A mildly calming drink made from the ground root of a species of pepper plant, mixed with water.", prica: "It looks like muddy water, tastes a little like earth and leaves your lips and tongue slightly numb. It is drunk from half a coconut shell in a strictly set order, and refusing the first bowl you are offered is considered impolite." },
+    { ime: "Curry and roti", opis: "Indo-Fijian curry of chicken, goat, fish or vegetables, wrapped in a thin flatbread.", prica: "The recipes arrived with the plantation workers in the 19th century and adapted to local ingredients, so taro and breadfruit go into the curry too. A roti wrapped in paper is a common snack bought at bus stations and markets." },
+    { ime: "Dalo and cassava", opis: "Starchy tubers that play the role of bread on the Fijian table.", prica: "Dalo, which is taro, is boiled or baked in the lovo and has a purplish gray color and a nutty flavor. It is sold at markets in tied bundles, and it is one of the country's most important exports." },
+    { ime: "Nama", opis: "Sea grapes, a green seaweed with tiny beads that pop between your teeth.", prica: "It is served raw, with coconut milk, lime and chili. Women gather it in the shallows at low tide and sell it at the markets in little heaps." },
+    { ime: "Vakalolo", opis: "A sweet cake of grated cassava, coconut, ginger and sugar, steamed in a banana leaf.", prica: "This is an old-fashioned dessert that used to be made for chiefs and ceremonial occasions. You will find it most easily at the market in Suva or at a village feast." }
   ],
   obicaji: [
-    { ime: "Obred kave i sevusevu", opis: "Dolazak u selo počinje predajom korijena kave poglavici, čime se traži dopuštenje za boravak. Kava se zatim miješa u velikoj drvenoj zdjeli tanoa i pije redom, po časti. Kada dođe red na vas, jednom pljesnite šupljim dlanovima, recite Bula, ispijte zdjelicu naiskap i pljesnite tri puta.", gdje: "Seoski posjeti u dolini Sigatoka i na otocima Yasawa te večeri u odmaralištima. Ako želite manje, zatražite nisku plimu, a ako želite punu zdjelicu, visoku plimu." },
-    { ime: "Meke", opis: "Tradicionalni ples i pjesma kojima se prepričavaju legende, bitke i povijest sela. Muškarci plešu s kopljima i toljagama, žene sjedeći, pokretima ruku i lepeza, a zbor sa strane udara ritam bambusovim cijevima o tlo.", gdje: "Seoske svečanosti i večernji programi u odmaralištima na Koraljnoj obali i otocima. Festival Bula u Nadiju održava se u srpnju, a festival Hibiscus u Suvi u kolovozu." },
-    { ime: "Hodanje po vatri", opis: "Muškarci plemena Sawau s otoka Beqa bosi hodaju po užarenom kamenju. Predaja kaže da je taj dar njihovu pretku dao duh u obliku jegulje u zamjenu za život. Posve odvojen običaj imaju fidžijski Hindusi, koji u sklopu vjerskog zavjeta hodaju po žeravici.", gdje: "Priredbe plemena Sawau u odmaralištima na Koraljnoj obali i u Pacific Harbouru. Hinduistički obredi održavaju se u hramovima sredinom godine." },
-    { ime: "Masi", opis: "Tkanina od istučene kore dudovca, ukrašena smeđim i crnim geometrijskim uzorcima uz pomoć šablona. Nosi se na vjenčanjima i svečanostima i daruje u važnim prilikama, a svaki kraj ima prepoznatljive uzorke.", gdje: "Tržnice rukotvorina u Nadiju i Suvi te sela na otoku Vatulele i u otočju Lau, odakle dolaze najcjenjeniji radovi." },
-    { ime: "Tabua", opis: "Uglačani zub ulješure na pletenoj uzici najvrjedniji je dar u fidžijskoj kulturi. Predaje se pri prosidbi, pomirenju i sprovodu i vrijedi više od novca. Zakonom ga je zabranjeno iznositi iz zemlje bez dozvole.", gdje: "Zbirka Muzeja Fidžija u Suvi. U trgovinama suvenira prodaju se samo imitacije." },
-    { ime: "Ragbi sedam", opis: "Ragbi sa sedam igrača ovdje je nacionalna strast, a igra se bos na svakoj livadi i plaži. Muška reprezentacija donijela je 2016. zemlji prvu olimpijsku medalju u povijesti, i to zlatnu, pa je toga dana proglašen državni praznik.", gdje: "Seoska igrališta u kasno poslijepodne, kada se cijelo selo okupi oko terena, te turniri u Suvi i Sigatoki." }
+    { ime: "The kava ceremony and sevusevu", opis: "A visit to a village begins with the presentation of kava root to the chief, which is how you ask permission to stay. The kava is then mixed in a large wooden bowl called a tanoa and drunk in turn, in order of rank. When your turn comes, clap once with cupped hands, say Bula, drain the bowl in one go and clap three times.", gdje: "Village visits in the Sigatoka valley and on the Yasawa islands, and evenings at the resorts. If you want less, ask for low tide, and if you want a full bowl, ask for high tide." },
+    { ime: "Meke", opis: "Traditional dance and song that retell the legends, battles and history of a village. The men dance with spears and clubs, the women dance seated, with movements of their hands and fans, and a chorus to one side beats the rhythm with bamboo tubes on the ground.", gdje: "Village celebrations and evening shows at the resorts on the Coral Coast and the islands. The Bula Festival in Nadi is held in July, and the Hibiscus Festival in Suva in August." },
+    { ime: "Firewalking", opis: "The men of the Sawau tribe from the island of Beqa walk barefoot over red-hot stones. Tradition says the gift was given to their ancestor by a spirit in the form of an eel in exchange for its life. Fijian Hindus have an entirely separate custom, walking over embers as part of a religious vow.", gdje: "Performances by the Sawau tribe at resorts on the Coral Coast and in Pacific Harbour. The Hindu rites are held at temples in the middle of the year." },
+    { ime: "Masi", opis: "Cloth made from the beaten bark of the paper mulberry, decorated with brown and black geometric patterns using stencils. It is worn at weddings and ceremonies and given as a gift on important occasions, and every area has its own recognizable patterns.", gdje: "The handicraft markets in Nadi and Suva, and the villages on the island of Vatulele and in the Lau group, where the most prized work comes from." },
+    { ime: "Tabua", opis: "A polished sperm whale tooth on a braided cord is the most valuable gift in Fijian culture. It is presented at marriage proposals, reconciliations and funerals and is worth more than money. By law it may not be taken out of the country without a permit.", gdje: "The collection of the Fiji Museum in Suva. Souvenir shops sell only imitations." },
+    { ime: "Rugby sevens", opis: "Seven-a-side rugby is a national passion here, played barefoot on every field and beach. In 2016 the men's national team won the country its first Olympic medal ever, and a gold one at that, so a public holiday was declared that day.", gdje: "Village fields in the late afternoon, when the whole village gathers around the pitch, and tournaments in Suva and Sigatoka." }
   ],
   fraze: [
-    { izvorno: "Bula", izgovor: "MBU-la", hr: "Zdravo (doslovno: život)" },
-    { izvorno: "Vinaka", izgovor: "vi-NA-ka", hr: "Hvala" },
-    { izvorno: "Vinaka vakalevu", izgovor: "vi-NA-ka va-ka-LE-vu", hr: "Hvala lijepa" },
-    { izvorno: "Yadra", izgovor: "JAN-dra", hr: "Dobro jutro" },
-    { izvorno: "Moce", izgovor: "MO-de (d kao zvučno englesko th)", hr: "Doviđenja, laku noć" },
-    { izvorno: "Io / Sega", izgovor: "I-o / SE-nga", hr: "Da / Ne" },
-    { izvorno: "Kerekere", izgovor: "ke-re-KE-re", hr: "Molim" },
-    { izvorno: "Sega na leqa", izgovor: "SE-nga na LEN-ga", hr: "Nema problema" }
+    { izvorno: "Bula", izgovor: "MBOO-lah", hr: "Hello (literally: life)" },
+    { izvorno: "Vinaka", izgovor: "vee-NAH-kah", hr: "Thank you" },
+    { izvorno: "Vinaka vakalevu", izgovor: "vee-NAH-kah vah-kah-LEH-voo", hr: "Thank you very much" },
+    { izvorno: "Yadra", izgovor: "YAHN-drah", hr: "Good morning" },
+    { izvorno: "Moce", izgovor: "MOH-theh (th as in the English word this)", hr: "Goodbye, good night" },
+    { izvorno: "Io / Sega", izgovor: "EE-oh / SENG-ah", hr: "Yes / No" },
+    { izvorno: "Kerekere", izgovor: "keh-reh-KEH-reh", hr: "Please" },
+    { izvorno: "Sega na leqa", izgovor: "SENG-ah nah LENG-gah", hr: "No problem" }
   ],
   zanimljivosti: [
-    "U fidžijskom se pravopisu slovo b čita mb, d se čita nd, g se čita ng, q se čita ngg, a c kao englesko zvučno th. Zato se Nadi izgovara Nandi, a kokoda kokonda.",
-    "Meridijan od 180 stupnjeva prolazi kroz otok Taveuni, pa ondje možete stajati jednom nogom na istočnoj, a drugom na zapadnoj polutki.",
-    "Kapetan William Bligh prošao je 1789. između fidžijskih otoka u čamcu u koji su ga iskrcali pobunjenici s broda Bounty, a kanui su ga progonili. Taj se morski prolaz i danas zove Blighova voda.",
-    "Misionara Thomasa Bakera pojeli su 1867. stanovnici jednoga planinskog sela, a potplati njegovih cipela izloženi su u Muzeju Fidžija u Suvi.",
-    "Film Brodolom života s Tomom Hanksom sniman je na nenaseljenom otočiću Monuriki u otočju Mamanuca.",
-    "Izraz Fiji time znači da se nikamo ne žuri i da će se sve dogoditi kada dođe vrijeme, pa autobusi i brodovi ponekad krenu kada se napune.",
-    "Cvijet tagimoucia, crven s bijelom sredinom, raste samo oko planinskog jezera na Taveuniju i ne uspijeva nigdje drugdje na svijetu."
+    "In Fijian spelling the letter b is read mb, d is read nd, g is read ng, q is read ngg, and c is read like the th in the English word this. That is why Nadi is pronounced Nandi and kokoda is pronounced kokonda.",
+    "The 180-degree meridian passes through the island of Taveuni, so there you can stand with one foot in the eastern hemisphere and the other in the western.",
+    "In 1789 Captain William Bligh passed between the Fijian islands in the boat he had been cast off in by the mutineers of the Bounty, with canoes chasing him. That sea passage is still called Bligh Water today.",
+    "The missionary Thomas Baker was eaten in 1867 by the inhabitants of a mountain village, and the soles of his shoes are on display in the Fiji Museum in Suva.",
+    "The film Cast Away with Tom Hanks was shot on the uninhabited islet of Monuriki in the Mamanuca group.",
+    "The expression Fiji time means that there is no hurry to get anywhere and that everything will happen when the time comes, so buses and boats sometimes leave when they are full.",
+    "The tagimoucia flower, red with a white center, grows only around a mountain lake on Taveuni and does not thrive anywhere else in the world."
   ],
   mjesta: [
     {
       id: "nadi-koraljna-obala",
-      ime: "Nadi i Koraljna obala",
+      ime: "Nadi and the Coral Coast",
       vrsta: "regija",
-      sazetak: "Zapadna i južna obala glavnog otoka Viti Levua, gdje se u jednom danu mogu vidjeti šareni hinduistički hram, vrt orhideja, pješčane dine i selo uz rijeku.",
+      sazetak: "The western and southern coast of the main island, Viti Levu, where in a single day you can see a colorful Hindu temple, an orchid garden, sand dunes and a village by a river.",
       prica: [
-        "Zapadna strana Viti Levua suša je i sunčanija od istočne, pa su ovdje nikle plantaže šećerne trske, međunarodna zračna luka i većina hotela. Prema predaji, upravo su na ovu obalu, kod sela Viseisei, pristali preci Fidžijaca u velikom kanuu Kaunitoni.",
-        "Nadi je živ trgovački gradić u kojem većinu čine potomci indijskih radnika s plantaža. Južno od njega, uz cestu prema prijestolnici Suvi, proteže se Koraljna obala s grebenom tik uz plažu i selima na ušćima rijeka."
+        "The western side of Viti Levu is drier and sunnier than the eastern, so this is where the sugarcane plantations, the international airport and most of the hotels sprang up. According to tradition, it was on this coast, near the village of Viseisei, that the ancestors of the Fijians landed in the great canoe Kaunitoni.",
+        "Nadi is a lively market town where descendants of the Indian plantation workers form the majority. South of it, along the road to the capital, Suva, stretches the Coral Coast, with a reef right off the beach and villages at the mouths of the rivers."
       ],
       vidjeti: [
-        { ime: "Hram Sri Siva Subramaniya", opis: "Hinduistički hram na kraju glavne ulice u Nadiju slovi za najveći na južnoj polutki. Sagrađen je u južnoindijskom stilu, s tornjem prekrivenim obojenim kipovima bogova koje su izradili majstori dovedeni iz Indije. Pri ulasku pokrijte ramena i noge i izujte se, a meso i alkohol toga dana ne smijete jesti ni piti prije posjeta." },
-        { ime: "Vrt usnulog diva", opis: "U podnožju brda koje nalikuje na čovjeka što leži na leđima nalazi se vrt s tisućama orhideja. Zasadio ga je sedamdesetih godina 20. stoljeća glumac Raymond Burr, poznat po ulozi odvjetnika Perryja Masona, kako bi ondje čuvao vlastitu zbirku." },
-        { ime: "Blatne kupke Sabeto", opis: "Na termalnim izvorima u dolini Sabeto namažete se toplim vulkanskim blatom, osušite na suncu i zatim isperete u nizu sve toplijih bazena. Izvore vode obitelji iz obližnjeg sela." },
-        { ime: "Pješčane dine Sigatoka", opis: "Dine na ušću rijeke Sigatoka, visoke do šezdeset metara, prvi su nacionalni park Fidžija, proglašen 1989. Vjetar ovdje neprestano otkriva ulomke keramike kulture Lapita stare oko 2600 godina i drevne grobove, pa je ovo jedno od najvažnijih arheoloških nalazišta na Pacifiku." },
-        { ime: "Selo Viseisei", opis: "Selo između Nadija i Lautoke smatra se najstarijim naseljem na Fidžiju. U središtu stoje metodistička crkva i spomenik dolasku prvih misionara, a kuća poglavice gleda na otvorenu livadu oko koje se selo okuplja." },
-        { ime: "Muzej Fidžija u Suvi", opis: "Muzej u botaničkom vrtu Thurston Gardens u prijestolnici čuva dvotrupni kanu drua dug trinaest metara, kormilo broda Bounty i ratne toljage. Vilice s dugim zupcima koje ćete ondje vidjeti služile su poglavicama u obredima ljudožderstva, jer oni sveto meso nisu smjeli dirati rukama." }
+        { ime: "Sri Siva Subramaniya Temple", opis: "The Hindu temple at the end of the main street in Nadi is reputed to be the largest in the southern hemisphere. It is built in the South Indian style, with a tower covered in painted statues of gods made by craftsmen brought over from India. Cover your shoulders and legs and take off your shoes when you go in, and you must not eat meat or drink alcohol that day before your visit." },
+        { ime: "Garden of the Sleeping Giant", opis: "At the foot of a hill that resembles a man lying on his back there is a garden with thousands of orchids. It was planted in the 1970s by the actor Raymond Burr, known for his role as the lawyer Perry Mason, as a home for his own collection." },
+        { ime: "Sabeto mud baths", opis: "At the hot springs in the Sabeto valley you cover yourself in warm volcanic mud, dry off in the sun and then rinse in a series of pools, each warmer than the last. The springs are run by families from the nearby village." },
+        { ime: "Sigatoka Sand Dunes", opis: "The dunes at the mouth of the Sigatoka River, up to sixty meters high, are Fiji's first national park, declared in 1989. The wind here constantly uncovers shards of Lapita pottery about 2600 years old and ancient graves, which makes this one of the most important archaeological sites in the Pacific." },
+        { ime: "Viseisei village", opis: "The village between Nadi and Lautoka is considered the oldest settlement in Fiji. At its center stand a Methodist church and a monument to the arrival of the first missionaries, and the chief's house looks out on the open green around which the village gathers." },
+        { ime: "Fiji Museum in Suva", opis: "The museum in the Thurston Gardens botanical garden in the capital holds a thirteen-meter double-hulled drua canoe, the rudder of the Bounty and war clubs. The long-pronged forks you will see there were used by chiefs in cannibal rites, because they were not allowed to touch the sacred flesh with their hands." }
       ],
       jesti: [
-        { ime: "Curry i roti na tržnici u Nadiju", opis: "U zalogajnicama oko tržnice jede se pileći ili riblji curry s lepinjom i kiselim prilozima, uz slatki čaj s mlijekom." },
-        { ime: "Kokoda", opis: "Najsvježija je u restoranima uz luku Denarau i na Koraljnoj obali, gdje riba stiže izravno s čamaca." },
-        { ime: "Voće s tržnice u Sigatoki", opis: "Dolinu Sigatoka zovu salatnom zdjelom Fidžija. Na tržnici kupite ananas, papaju i male slatke banane, a korijen kave za dar selu prodaje se odmah do voća." }
+        { ime: "Curry and roti at the Nadi market", opis: "In the eateries around the market you eat chicken or fish curry with flatbread and pickles, along with sweet milky tea." },
+        { ime: "Kokoda", opis: "It is freshest in the restaurants at Port Denarau and on the Coral Coast, where the fish comes straight off the boats." },
+        { ime: "Fruit from the Sigatoka market", opis: "The Sigatoka valley is called the salad bowl of Fiji. At the market buy pineapple, papaya and small sweet bananas, and the kava root for your village gift is sold right next to the fruit." }
       ],
       dozivjeti: [
-        { ime: "Sigatoka River Safari", opis: "Brzim čamcem vozi se uz rijeku do jednog od sela u unutrašnjosti, gdje vas dočeka poglavica, sudjelujete u obredu kave i ručate s mještanima. Dio zarade ide selima domaćinima.", link: "https://sigatokariver.com/" },
-        { ime: "Šetnja dinama", opis: "Kružna staza od sat do dva vodi kroz šumu na vrh dina i spušta se na divlju plažu. Krenite ujutro jer je pijesak u podne vruć, a na ulazu pogledajte malu izložbu nalaza.", link: "https://nationaltrust.org.fj/" },
-        { ime: "Jutro na tržnici u Nadiju", opis: "Prošećite između hrpica povrća, začina i snopova korijena kave i pustite da vam prodavači objasne što je što. U dnu tržnice muškarci već od jutra piju kavu i rado ponude zdjelicu." }
+        { ime: "Sigatoka River Safari", opis: "A jet boat takes you upriver to one of the villages in the interior, where the chief welcomes you, you take part in a kava ceremony and you have lunch with the villagers. Part of the proceeds goes to the host villages.", link: "https://sigatokariver.com/" },
+        { ime: "A walk through the dunes", opis: "A loop trail of one to two hours leads through forest to the top of the dunes and comes down onto a wild beach. Set out in the morning, because the sand is hot at noon, and take a look at the small display of finds at the entrance.", link: "https://nationaltrust.org.fj/" },
+        { ime: "A morning at the Nadi market", opis: "Stroll between the little heaps of vegetables, spices and bundles of kava root and let the vendors explain what is what. At the back of the market men are already drinking kava in the morning and will gladly offer you a bowl." }
       ],
       agencije: [
-        { ime: "Tourism Fiji", opis: "Službena turistička stranica zemlje.", link: "https://www.fiji.travel/" },
-        { ime: "National Trust of Fiji", opis: "Zaklada koja upravlja dinama Sigatoka i drugim zaštićenim mjestima.", link: "https://nationaltrust.org.fj/" },
-        { ime: "Muzej Fidžija", opis: "Nacionalni muzej u Suvi.", link: "https://fijimuseum.org.fj/" }
+        { ime: "Tourism Fiji", opis: "The country's official tourism site.", link: "https://www.fiji.travel/" },
+        { ime: "National Trust of Fiji", opis: "The trust that manages the Sigatoka dunes and other protected places.", link: "https://nationaltrust.org.fj/" },
+        { ime: "Fiji Museum", opis: "The national museum in Suva.", link: "https://fijimuseum.org.fj/" }
       ],
-      kada: "Najbolje je od svibnja do listopada. Nedjeljom je gotovo sve zatvoreno jer je to dan crkve i obitelji, pa toga dana, pristojno odjevene, pođite na misu u seosku crkvu i poslušajte višeglasno pjevanje."
+      kada: "May to October is best. On Sundays almost everything is closed, because it is the day for church and family, so on that day dress respectfully, go to the service in a village church and listen to the harmony singing."
     },
     {
       id: "mamanuca-yasawa",
-      ime: "Otočja Mamanuca i Yasawa",
+      ime: "The Mamanuca and Yasawa Islands",
       vrsta: "otok",
-      sazetak: "Dva niza malih otoka zapadno od Viti Levua, s plažama s razglednica, modrim lagunama i selima u kojima se još živi od ribolova.",
+      sazetak: "Two chains of small islands west of Viti Levu, with postcard beaches, blue lagoons and villages where people still live from fishing.",
       prica: [
-        "Mamanuca su dvadesetak otočića nadohvat Nadija, od kojih neki za plime gotovo nestanu pod morem. Na njih se nastavlja Yasawa, lanac od dvadesetak vulkanskih otoka koji se pruža osamdeset kilometara prema sjeveru.",
-        "Otoci Yasawa bili su sve do 1987. zatvoreni za turiste koji bi na njima noćili, pa je razvoj došao kasno i ostao skroman. Većina smještaja u vlasništvu je sela, struja često dolazi iz generatora, a gosti jedu zajedno za dugim stolom."
+        "The Mamanucas are about twenty islets within easy reach of Nadi, some of which almost vanish under the sea at high tide. Beyond them come the Yasawas, a chain of about twenty volcanic islands stretching eighty kilometers to the north.",
+        "Until 1987 the Yasawa islands were closed to tourists who wanted to stay overnight, so development came late and has stayed modest. Most of the accommodation is owned by the villages, electricity often comes from a generator, and guests eat together at a long table."
       ],
       vidjeti: [
-        { ime: "Monuriki", opis: "Na ovom nenaseljenom otočiću snimljen je film Brodolom života. Do njega vode jednodnevni izleti brodom, a na plaži posjetitelji redovito kokosovim orasima ispisuju poruku za pomoć kao u filmu. Otok je i utočište rijetke fidžijske kukmaste iguane." },
-        { ime: "Špilje Sawa-i-Lau", opis: "U vapnenačkom otoku na sjeveru Yasawe nalazi se špilja s bazenom u koji svjetlo pada kroz otvor na stropu. U drugu, mračnu dvoranu ulazi se kratkim zaronom ispod stijene uz pomoć vodiča. Predaja kaže da ovdje počiva drevni bog Ulutini s deset glava." },
-        { ime: "Modra laguna", opis: "Zaštićena uvala između otoka Nanuya dobila je ime po filmu iz 1980. koji je ovdje sniman. Voda je plitka i mirna, a koralji počinju nekoliko zamaha od plaže." },
-        { ime: "Kanal manta kod otoka Drawaqa", opis: "Od svibnja do listopada u uski prolaz između otoka dolaze se hraniti velike mante. Kada ih čuvari ugledaju, udare u bubanj i gosti trče do čamaca kako bi s maskom plutali iznad njih." },
-        { ime: "Otok Waya", opis: "Najbrdovitiji otok Yasawe ima nazubljene vulkanske vrhove i četiri sela. Uspon do stijene iznad sela traje oko sat i pol, a nagrada je pogled na cijeli lanac otoka." }
+        { ime: "Monuriki", opis: "The film Cast Away was shot on this uninhabited islet. Day trips by boat go out to it, and on the beach visitors regularly spell out a call for help in coconuts, as in the film. The island is also a refuge for the rare Fijian crested iguana." },
+        { ime: "Sawa-i-Lau caves", opis: "In a limestone island in the north of the Yasawas there is a cave with a pool into which light falls through an opening in the ceiling. You enter a second, dark chamber by a short dive under the rock with a guide's help. Tradition says that the ancient ten-headed god Ulutini rests here." },
+        { ime: "Blue Lagoon", opis: "The sheltered bay between the Nanuya islands was named after the 1980 film that was shot here. The water is shallow and calm, and the coral starts a few strokes from the beach." },
+        { ime: "The manta channel off Drawaqa Island", opis: "From May to October large manta rays come to feed in the narrow passage between the islands. When the spotters see them, they beat a drum and the guests run to the boats so they can float above them in a mask and snorkel." },
+        { ime: "Waya Island", opis: "The hilliest of the Yasawas has jagged volcanic peaks and four villages. The climb to the rock above the village takes about an hour and a half, and the reward is a view of the whole chain of islands." }
       ],
       jesti: [
-        { ime: "Lovo", opis: "U odmaralištima na otocima priprema se jednom tjedno, obično uz ples meke. Dođite ranije i gledajte kako se jama otvara." },
-        { ime: "Riba na žaru", opis: "Ulov dana, najčešće walu ili mahi-mahi, peče se cijeli i poslužuje s limetom i kokosovim umakom." },
-        { ime: "Kokosov orah s palme", opis: "Mladi orah otvoren mačetom najbolje je piće nakon ronjenja, a mekano meso iznutra jede se žlicom izrezanom od same ljuske." }
+        { ime: "Lovo", opis: "At the island resorts it is prepared once a week, usually with a meke dance. Come early and watch the pit being opened." },
+        { ime: "Grilled fish", opis: "The catch of the day, most often walu or mahi-mahi, is grilled whole and served with lime and coconut sauce." },
+        { ime: "A coconut straight from the palm", opis: "A young coconut opened with a machete is the best drink after snorkeling, and the soft flesh inside is eaten with a spoon cut from the shell itself." }
       ],
       dozivjeti: [
-        { ime: "Katamaranom od otoka do otoka", opis: "Žuti brzi katamaran svakog jutra polazi iz luke Denarau i staje duž cijele Yasawe, pa s višednevnom kartom možete silaziti i ukrcavati se po volji. Tako se otoci obilaze bez skupih prijevoza.", link: "https://www.yasawafiji.com/" },
-        { ime: "Jednodnevni izlet na Mamanuce", opis: "Ako nemate vremena za noćenje, brod vas iz Denaraua za sat vremena dovozi na neki od otočića s ručkom i opremom za ronjenje s maskom.", link: "https://southseacruisesfiji.com/" },
-        { ime: "Plivanje s mantama", opis: "Odmaralište na otoku Drawaqa najbliže je kanalu i vodi goste do manta uz pravila koja štite životinje: ne dira ih se i ne roni prema njima.", link: "https://www.barefootmantafiji.com/" },
-        { ime: "Nedjeljna misa u selu", opis: "Većina smještaja na Yasawi nedjeljom vodi goste u seosku crkvu. Pjevanje bez pratnje glazbala, u četiri glasa, jedan je od najljepših doživljaja Fidžija." }
+        { ime: "By catamaran from island to island", opis: "The yellow fast catamaran leaves Port Denarau every morning and stops all along the Yasawas, so with a multi-day pass you can hop off and on as you please. This is how to see the islands without expensive transfers.", link: "https://www.yasawafiji.com/" },
+        { ime: "A day trip to the Mamanucas", opis: "If you have no time to stay overnight, a boat from Denarau gets you to one of the islets in an hour, with lunch and snorkeling gear included.", link: "https://southseacruisesfiji.com/" },
+        { ime: "Swimming with manta rays", opis: "The resort on Drawaqa Island is the closest to the channel and takes guests out to the mantas under rules that protect the animals: no touching them and no diving down toward them.", link: "https://www.barefootmantafiji.com/" },
+        { ime: "Sunday service in the village", opis: "Most places to stay in the Yasawas take guests to the village church on Sundays. The singing, unaccompanied and in four-part harmony, is one of the loveliest experiences in Fiji." }
       ],
       agencije: [
-        { ime: "South Sea Cruises", opis: "Brodske linije i jednodnevni izleti na otoke Mamanuca.", link: "https://southseacruisesfiji.com/" },
-        { ime: "Yasawa Adventures Fiji", opis: "Katamaran Yasawa Flyer i paketi obilaska otoka Yasawa.", link: "https://www.yasawafiji.com/" },
-        { ime: "Captain Cook Cruises Fiji", opis: "Višednevna krstarenja malim brodom s posjetima selima.", link: "https://www.captaincookcruisesfiji.com/" }
+        { ime: "South Sea Cruises", opis: "Boat services and day trips to the Mamanuca islands.", link: "https://southseacruisesfiji.com/" },
+        { ime: "Yasawa Adventures Fiji", opis: "The Yasawa Flyer catamaran and island-hopping packages for the Yasawa islands.", link: "https://www.yasawafiji.com/" },
+        { ime: "Captain Cook Cruises Fiji", opis: "Multi-day small-ship cruises with village visits.", link: "https://www.captaincookcruisesfiji.com/" }
       ],
-      kada: "Od svibnja do listopada more je mirnije i vidljivost najbolja, a tada dolaze i mante. Ponesite gotovinu, obuću za hodanje po koraljima i tablete protiv morske bolesti za dulje vožnje brodom."
+      kada: "From May to October the sea is calmer and visibility is at its best, and that is also when the mantas come. Bring cash, reef shoes and seasickness tablets for the longer boat rides."
     },
     {
       id: "taveuni",
       ime: "Taveuni",
       vrsta: "otok",
-      sazetak: "Vrtni otok Fidžija, prekriven prašumom i slapovima, s jednim od najboljih koraljnih grebena za ronjenje na svijetu pred obalom.",
+      sazetak: "The garden island of Fiji, covered in rainforest and waterfalls, with one of the world's best coral reefs for diving just offshore.",
       prica: [
-        "Taveuni je treći po veličini otok Fidžija, dugi vulkanski hrbat s više od stotinu ugaslih kratera. Zbog obilne kiše i plodnog tla sve ovdje buja, pa je dobio nadimak Vrtni otok. Budući da na njemu nikada nije bilo mungosa, koji su drugdje uništili ptice, ostao je raj za promatrače ptica.",
-        "Ratnici Taveunija bili su na glasu, a poglavice iz sela Somosomo među najmoćnijima u zemlji. U 19. stoljeću odbili su napad Tonganaca u pomorskoj bitci, u kojoj im je, kako se pripovijeda, savjetima pomogao francuski misionar, pa su mu u zahvalu dopustili da sagradi crkvu."
+        "Taveuni is the third-largest island in Fiji, a long volcanic ridge with more than a hundred extinct craters. Thanks to abundant rain and fertile soil everything flourishes here, which earned it the nickname the Garden Island. Because it has never had mongooses, which wiped out the birds elsewhere, it has remained a paradise for bird-watchers.",
+        "The warriors of Taveuni were renowned, and the chiefs from the village of Somosomo were among the most powerful in the country. In the 19th century they repelled a Tongan attack in a naval battle in which, as the story goes, a French missionary helped them with his advice, so in gratitude they allowed him to build a church."
       ],
       vidjeti: [
-        { ime: "Slapovi Tavoro", opis: "U parku prirodne baštine Bouma tri su slapa jedan iznad drugoga. Do prvoga, visokog dvadeset i četiri metra, vodi ravna staza od deset minuta i pod njim se može plivati. Do drugoga i trećega penje se kroz prašumu, s pogledom na more i susjedni otok. Parkom upravljaju četiri sela, koja su se odrekla sječe šume radi turizma." },
-        { ime: "Obalna staza Lavena", opis: "Staza od pet kilometara vodi uz plaže od crnog i bijelog pijeska i kroz sela, a završava plivanjem uz klanac do dvaju slapova koji padaju u isto jezerce. Vodiči iz sela Lavena pokazuju biljke i pričaju mjesne priče." },
-        { ime: "Meridijan od 180 stupnjeva", opis: "Kod sela Waiyevo ploča označava mjesto gdje otokom prolazi meridijan na kojem se mijenja datum. Granica datuma službeno je pomaknuta istočno kako cijela zemlja ne bi živjela u dva dana, pa ovdje ipak nećete zakoračiti u jučer." },
-        { ime: "Grebeni Rainbow Reef i Veliki bijeli zid", opis: "U tjesnacu Somosomo jake struje hrane meke koralje svih boja. Veliki bijeli zid okomita je stijena prekrivena bijelim mekim koraljima koji u dubini svijetle poput snijega. Uz obalu se može roniti i samo s maskom." },
-        { ime: "Misija Wairiki", opis: "Kamena katolička crkva iz 1907. gleda na tjesnac u kojem su Taveunjani porazili tonganske kanue. Unutra nema klupa: vjernici sjede na prostirkama na podu, a nedjeljna misa pjeva se na fidžijskom." },
-        { ime: "Tobogan Waitavala", opis: "Potok se spušta niz glatke stijene i tvori prirodni tobogan dug pedesetak metara. Mjesna djeca spuštaju se stojeći, a posjetiteljima se savjetuje da to čine sjedeći i tek nakon što pogledaju kako to rade domaći." }
+        { ime: "Tavoro Waterfalls", opis: "In the Bouma National Heritage Park there are three waterfalls, one above another. A flat ten-minute path leads to the first, which is twenty-four meters high and has a pool you can swim in. You climb through the rainforest to the second and third, with views of the sea and the neighboring island. The park is run by four villages that gave up logging the forest in favor of tourism." },
+        { ime: "Lavena Coastal Walk", opis: "The five-kilometer trail runs along beaches of black and white sand and through villages, and it ends with a swim up a gorge to two waterfalls that drop into the same pool. Guides from the village of Lavena point out plants and tell local stories." },
+        { ime: "The 180-degree meridian", opis: "Near the village of Waiyevo a sign marks the spot where the meridian on which the date changes crosses the island. The date line has officially been shifted east so that the whole country does not live in two days at once, so you will not step into yesterday here after all." },
+        { ime: "Rainbow Reef and the Great White Wall", opis: "In the Somosomo Strait strong currents feed soft corals of every color. The Great White Wall is a vertical rock face covered in white soft corals that glow like snow in the depths. You can also simply snorkel along the shore." },
+        { ime: "Wairiki Mission", opis: "The stone Catholic church from 1907 looks out over the strait where the people of Taveuni defeated the Tongan canoes. There are no pews inside: worshippers sit on mats on the floor, and Sunday mass is sung in Fijian." },
+        { ime: "Waitavala water slide", opis: "A stream runs down smooth rocks and forms a natural slide about fifty meters long. The local children go down standing up, while visitors are advised to do it sitting down, and only after watching how the locals do it." }
       ],
       jesti: [
-        { ime: "Taro s Taveunija", opis: "Vulkansko tlo daje najbolji taro u zemlji, koji se odavde izvozi. Poslužuje se kuhan uz ribu i kokosovo vrhnje." },
-        { ime: "Kokoda od svježe ribe", opis: "Mali obiteljski restorani uz cestu u Matei i Somosomu pripremaju je od ribe ulovljene istoga jutra." },
-        { ime: "Tropsko voće i vanilija", opis: "Na otoku rastu kruhovac, ananas, guava i vanilija, pa doručak ovdje bude najbolji obrok dana." }
+        { ime: "Taro from Taveuni", opis: "The volcanic soil yields the best taro in the country, which is exported from here. It is served boiled with fish and coconut cream." },
+        { ime: "Kokoda made with fresh fish", opis: "The small family restaurants along the road in Matei and Somosomo make it with fish caught that same morning." },
+        { ime: "Tropical fruit and vanilla", opis: "Breadfruit, pineapple, guava and vanilla grow on the island, so breakfast here tends to be the best meal of the day." }
       ],
       dozivjeti: [
-        { ime: "Kupanje pod slapom Tavoro", opis: "Krenite ujutro, okupajte se pod prvim slapom i popnite se barem do drugoga. Ulaznica se plaća u posjetiteljskom centru sela, a novac ostaje zajednici." },
-        { ime: "Ronjenje s maskom na Rainbow Reefu", opis: "Mjesni ronilački centri vode izlete čamcem preko tjesnaca. Meki koralji otvaraju se kada teče struja, pa vodiči biraju vrijeme prema plimi." },
-        { ime: "Potraga za cvijetom tagimoucia", opis: "Cvijet cvjeta otprilike od listopada do siječnja oko planinskog jezera, do kojeg vodi naporan cjelodnevni uspon s vodičem. Legenda kaže da su cvjetovi nastali od suza djevojke koja je pobjegla u planinu pred ugovorenim brakom." }
+        { ime: "A swim under the Tavoro waterfall", opis: "Set out in the morning, swim under the first waterfall and climb at least as far as the second. You pay the entrance fee at the village visitor center, and the money stays with the community." },
+        { ime: "Snorkeling on Rainbow Reef", opis: "The local dive centers run boat trips across the strait. The soft corals open when the current is running, so the guides choose the time according to the tide." },
+        { ime: "In search of the tagimoucia flower", opis: "The flower blooms from roughly October to January around the mountain lake, which is reached by a strenuous full-day climb with a guide. Legend says the flowers sprang from the tears of a girl who fled into the mountains to escape an arranged marriage." }
       ],
       agencije: [
-        { ime: "Tourism Fiji", opis: "Službena turistička stranica zemlje, s podacima o letovima i smještaju na Taveuniju.", link: "https://www.fiji.travel/" }
+        { ime: "Tourism Fiji", opis: "The country's official tourism site, with details of flights and accommodation on Taveuni.", link: "https://www.fiji.travel/" }
       ],
-      kada: "Najsuše je od svibnja do listopada, no kiša ovdje pada cijele godine i upravo zato je otok tako zelen. Letovi malim zrakoplovima iz Nadija imaju strogo ograničenje prtljage, pa putujte s malom torbom."
+      kada: "It is driest from May to October, but rain falls here all year, and that is exactly why the island is so green. The small-plane flights from Nadi have a strict baggage limit, so travel with a small bag."
     }
   ],
   izvori: [

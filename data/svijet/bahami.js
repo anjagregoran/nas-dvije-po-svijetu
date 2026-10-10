@@ -94,7 +94,7 @@ window.ATLAS["bahami"] = {
       sazetak: "Lanac od 365 otočića u moru svih nijansi plave, s pješčanim sprudovima, morskim psima dojiljama i svinjama koje plivaju.",
       prica: [
         "Exuma se proteže oko dvjesto kilometara, od malih sjevernih otočića do dvaju velikih otoka na jugu, s glavnim mjestom George Townom. Nakon američke neovisnosti lojalisti su ovdje podigli plantaže pamuka, koje su zbog tankoga tla i nametnika propale za jedan naraštaj.",
-        "Najveći zemljoposjednik, lord John Rolle, ostavio je, prema predaji, svoju zemlju oslobođenim robovima, koji su uzeli njegovo prezime. Ta se zemlja i danas ne može prodati, nego se nasljeđuje zajednički, a pola Exume preziva se Rolle. Sela Rolleville i Rolle Town nose isto ime."
+        "Najveći zemljoposjednik, lord John Rolle, ostavio je, prema predaji, svoju zemlju oslobođenim robovima, koji su uzeli njegovo prezime. Ta se zemlja i danas nasljeđuje zajednički i ne može se prodati, a pola Exume preziva se Rolle. Sela Rolleville i Rolle Town nose isto ime."
       ],
       vidjeti: [
         { ime: "Exuma Cays Land and Sea Park", opis: "Park osnovan 1958. prvi je na svijetu zaštitio zajedno i otoke i more oko njih, a od 1986. u njemu je zabranjen svaki ribolov. Zato su jastozi i kirnje ovdje krupniji nego igdje drugdje u otočju. Na otoku Warderick Wells, sjedištu parka, na plaži je izložen kostur ulješure.", },

@@ -196,7 +196,7 @@ window.ATLAS["jar"] = {
       vrsta: "grad",
       sazetak: "Grad zlata u kojem se povijest apartheida ne čita iz knjiga, nego hoda njezinim ulicama.",
       prica: [
-        "Johannesburg nije nastao uz rijeku ni more, nego na zlatu: 1886. na grebenu Witwatersrand pronađena je najbogatija zlatna žila na svijetu i u desetak godina iz šatorskog naselja izrastao je velegrad. Na jeziku zulu zove se eGoli, mjesto zlata.",
+        "Johannesburg je nastao na zlatu, daleko od ikakve rijeke ili mora: 1886. na grebenu Witwatersrand pronađena je najbogatija zlatna žila na svijetu i u desetak godina iz šatorskog naselja izrastao je velegrad. Na jeziku zulu zove se eGoli, mjesto zlata.",
         "Soweto je skraćenica od South Western Townships, naselja u koja su vlasti preseljavale crne radnike. Ondje je 16. lipnja 1976. počeo ustanak učenika protiv nastave na afrikaansu, koji je promijenio tijek borbe protiv apartheida."
       ],
       vidjeti: [

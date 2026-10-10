@@ -49,7 +49,7 @@ window.ATLAS["gana"] = {
     "Gana je drugi najveći svjetski proizvođač kakaa, odmah iza susjedne Obale Bjelokosti.",
     "Kofi Annan, glavni tajnik Ujedinjenih naroda i dobitnik Nobelove nagrade za mir, rođen je u Kumasiju, i to u petak, kako mu ime kaže.",
     "Crna zvijezda na zastavi simbol je afričke slobode, pa se nogometna reprezentacija zove Crne zvijezde.",
-    "Stranca Ganci dozivaju obroni, što nije uvreda, nego obična riječ za bijelca ili stranca.",
+    "Stranca Ganci dozivaju obroni, što je posve obična i dobronamjerna riječ za bijelca ili stranca.",
     "Ganci se rukuju tako da na kraju stiska jedan drugome pucnu srednjim prstom.",
     "Kraljica majka Yaa Asantewaa predvodila je 1900. posljednji rat naroda Asante protiv Britanaca."
   ],

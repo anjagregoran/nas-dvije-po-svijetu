@@ -94,7 +94,7 @@ window.ATLAS["etiopija"] = {
       sazetak: "Jedanaest crkava isklesanih iz žive stijene, u kojima se bogoslužje obavlja kao prije osam stoljeća.",
       prica: [
         "Kralj Lalibela iz dinastije Zagwe dao je krajem 12. i početkom 13. stoljeća isklesati crkve kao novi Jeruzalem, nakon što su muslimani osvojili Svetu zemlju i hodočašća postala opasna. Zato se potok koji teče kroz mjesto zove Jordan.",
-        "Predaja kaže da su danju klesali ljudi, a noću anđeli, pa je sve bilo gotovo za dvadeset četiri godine. Crkve nisu građene, nego klesane odozgo prema dolje: prvo je u stijeni iskopan rov, a zatim je preostali blok izdubljen. UNESCO ih je zaštitio 1978., među prvima na svijetu."
+        "Predaja kaže da su danju klesali ljudi, a noću anđeli, pa je sve bilo gotovo za dvadeset četiri godine. Umjesto da se zidaju, crkve su klesane odozgo prema dolje: prvo je u stijeni iskopan rov, a zatim je preostali blok izdubljen. UNESCO ih je zaštitio 1978., među prvima na svijetu."
       ],
       vidjeti: [
         { ime: "Bete Giyorgis", opis: "Crkva svetoga Jurja isklesana je u obliku križa jednakih krakova u jami dubokoj oko dvanaest metara. Stojite na razini njezina krova i gledate dolje. Predaja kaže da se svetac naljutio jer nijedna crkva nije bila posvećena njemu, pa je kralj obećao najljepšu. U zidu jame vodič će vam pokazati otiske kopita svečeva konja." },

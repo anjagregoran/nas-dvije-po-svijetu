@@ -6,7 +6,7 @@ window.ATLAS["madagaskar"] = {
   sazetak: "Otok na kojem je evolucija krenula svojim putem: lemuri, baobabi i kameleoni kakvih nema nigdje drugdje.",
   uvod: [
     "Madagaskar je četvrti najveći otok na svijetu, veći od Francuske. Od Afrike se odvojio prije više od 150 milijuna godina, a od Indije prije oko 88 milijuna, pa su se biljke i životinje ovdje razvijale posve odvojeno. Oko devet desetina vrsta ne živi nigdje drugdje na Zemlji, među njima više od stotinu vrsta lemura.",
-    "Jednako je neobična i povijest ljudi. Prvi doseljenici nisu stigli iz obližnje Afrike, nego kanuima s plovcima iz jugoistočne Azije, s područja današnje Indonezije, prije otprilike 1500 do 2000 godina. Zato je malgaški jezik srodan jezicima Bornea, na visoravni se uzgaja riža na terasama, a lica ljudi podsjećaju na Aziju. Poslije su stigli i doseljenici iz Afrike i arapski trgovci, pa je nastalo osamnaest naroda s jednim zajedničkim jezikom.",
+    "Jednako je neobična i povijest ljudi. Prvi doseljenici stigli su kanuima s plovcima čak iz jugoistočne Azije, premda je Afrika mnogo bliže, s područja današnje Indonezije, prije otprilike 1500 do 2000 godina. Zato je malgaški jezik srodan jezicima Bornea, na visoravni se uzgaja riža na terasama, a lica ljudi podsjećaju na Aziju. Poslije su stigli i doseljenici iz Afrike i arapski trgovci, pa je nastalo osamnaest naroda s jednim zajedničkim jezikom.",
     "U 19. stoljeću kraljevstvo Merina ujedinilo je veći dio otoka, a Francuska ga je kolonizirala 1896. Neovisnost je stekao 1960. Zemlja je siromašna i ceste su spore, ali tko prihvati geslo mora mora, polako polako, bit će nagrađen prizorima koje nema nijedna druga zemlja."
   ],
   ukratko: [

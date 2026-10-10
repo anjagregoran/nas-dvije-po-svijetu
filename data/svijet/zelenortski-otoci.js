@@ -5,7 +5,7 @@ window.ATLAS["zelenortski-otoci"] = {
   regija: "Podsaharska Afrika",
   sazetak: "Deset vulkanskih otoka usred Atlantika, na kojima se afrički ritam i portugalska sjeta stapaju u glazbu koju zna cijeli svijet.",
   uvod: [
-    "Zelenortski otoci leže u Atlantiku, oko 570 kilometara zapadno od Senegala. Bili su nenaseljeni kada su do njih oko 1460. doplovili moreplovci u službi Portugala. Na otoku Santiagu Portugalci su 1462. osnovali Ribeiru Grande, prvi europski kolonijalni grad u tropima, koji se obogatio kao pretovarna postaja u trgovini robljem između Afrike i Amerike.",
+    "Zelenortski otoci leže u Atlantiku, oko 570 kilometara zapadno od Senegala. Bili su nenaseljeni kada su do njih oko 1460. doplovili moreplovci u službi Portugala. Na otoku Santiagu Portugalci su 1462. osnovali Ribeiru Grande, prvi europski kolonijalni grad u tropima, koji se obogatio kao pretovarna postaja u trgovini robljem između Afrike te Sjeverne i Južne Amerike.",
     "Iz susreta portugalskih doseljenika i porobljenih Afrikanaca nastali su kreolski narod i kreolski jezik, kriolu, kojim danas govore svi. Otoci su suhi i često su ih pogađale suše i glad, pa je iseljavanje postalo dio sudbine: danas više Zelenortaca živi u inozemstvu nego na otocima. Iz čežnje za onima koji su otišli rodila se morna, glazba koju je proslavila Cesária Évora.",
     "Zemlja je neovisnost od Portugala stekla 5. srpnja 1975. i otada je jedna od najstabilnijih afričkih demokracija. Svaki otok ima svoj karakter: jedni su ravni i pješčani, drugi planinski i zeleni, a na jednome još tinja vulkan."
   ],
@@ -32,7 +32,7 @@ window.ATLAS["zelenortski-otoci"] = {
     { ime: "Batuque", opis: "Najstariji glazbeni oblik otočja. Žene sjede u krugu i udaraju ritam po smotanoj tkanini u krilu, dok jedna u sredini pleše tresući bokovima i pjeva stihove na koje ostale odgovaraju.", gdje: "Sela na Santiagu i nastupi ženskih skupina u Cidade Velhi." },
     { ime: "Morabeza", opis: "Riječ na kriolu za toplu, opuštenu gostoljubivost, kojom se Zelenortci ponose. Uz nju ide i izreka no stress, koju ćete čuti na svakom koraku.", gdje: "Posvuda, od tržnice do zajedničkoga kombija." },
     { ime: "Karneval u Mindelu", opis: "Najveći karneval u zemlji nadahnut je brazilskim, s kočijama, bubnjarima i skupinama u kostimima na kojima se radi mjesecima. Posljednju večer ulicama prolaze Mandingasi, plesači premazani crnom bojom.", gdje: "Mindelo, u veljači ili ožujku, uoči Pepelnice." },
-    { ime: "Tabanka", opis: "Povorke s bubnjevima i rogovima od školjaka, koje vode kralj i kraljica. Potječu od bratovština uzajamne pomoći iz doba ropstva, a UNESCO je običaj nedavno uvrstio u nematerijalnu baštinu.", gdje: "Santiago, u svibnju i lipnju, oko blagdana svetaca zaštitnika." }
+    { ime: "Tabanka", opis: "Povorke s bubnjevima i rogovima od školjaka, koje vode kralj i kraljica. Potječu od bratovština uzajamne pomoći iz doba ropstva, koje su kolonijalne vlasti više puta zabranjivale.", gdje: "Santiago, u svibnju i lipnju, oko blagdana svetaca zaštitnika." }
   ],
   fraze: [
     { izvorno: "Bon dia", izgovor: "bon DI-a", hr: "Dobar dan" },

@@ -3,40 +3,71 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Nas dvije po svijetu</title>
-  <meta name="description" content="Naš putni dnevnik: mjesta, hrana, običaji i priče iza svega što gledamo.">
-  <meta name="theme-color" content="#f4ead5">
+  <title>Putokaz · Vodič po Europi</title>
+  <meta name="description" content="Gradovi, gradići, hrana, običaji i priče iza svega što gledate na putu po Europi.">
+  <meta name="theme-color" content="#fbf4ea">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Courier+Prime:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="airmail"></div>
-  <main class="wrap" style="padding-bottom:20px">
-    <header class="hero">
-      <span class="hand">mama i kći, kofer i znatiželja</span>
-      <h1>Nas dvije po svijetu</h1>
-      <p class="lead">Naš putni dnevnik u kojem svako mjesto dobije svoju priču, pa više nikad ne stojimo pred nečim lijepim, a da ne znamo što gledamo.</p>
-    </header>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="logo" href="index.html">Putokaz</a>
+      <nav>
+        <a href="#zemlje">Zemlje</a>
+        <a href="#vodici">Veliki vodiči</a>
+      </nav>
+    </div>
+  </header>
 
-    <div class="divider">✦ ✦ ✦</div>
+  <main>
+    <div class="wrap">
+      <section class="hero">
+        <span class="label">Vodič po Europi</span>
+        <h1>Znati što <em>gledaš.</em></h1>
+        <p class="lead">Gradovi i gradići, jela, plesovi i priče iza svake katedrale, trga i tanjura. Upišite mjesto, znamenitost, jelo ili agenciju.</p>
+        <div class="search"><input type="search" id="q" placeholder="Npr. Lecce, fado, Sagrada Família" autocomplete="off"></div>
+        <div class="results" id="res"></div>
+      </section>
+    </div>
 
-    <p class="label">Naša putovnica</p>
-    <section id="putovanja"></section>
+    <div class="marquee" aria-hidden="true"><div id="marquee"></div></div>
 
-    <div id="cinjenica"></div>
+    <div class="wrap">
+      <section class="block" id="vodici">
+        <div id="feature"></div>
+      </section>
+
+      <section class="block" id="zemlje" style="padding-top:0">
+        <div class="sec-head">
+          <h2>Kamo <em>dalje?</em></h2>
+          <span class="label" id="count"></span>
+        </div>
+        <div class="chips" id="chips"></div>
+        <div id="countries"></div>
+      </section>
+
+      <section class="block" style="padding-top:0">
+        <div class="factbox">
+          <span class="label" id="factwhere">Jeste li znale?</span>
+          <p class="big" id="fact"></p>
+          <button type="button" class="btn dark" id="nextfact">Još jedna</button>
+        </div>
+      </section>
+    </div>
   </main>
-  <footer class="foot">
-    <span class="hand">sretan put!</span>
-  </footer>
-  <div class="airmail"></div>
 
-  <script src="data/putovanja.js"></script>
-  <script src="data/apulija.js"></script>
+  <footer class="foot">
+    <span class="logo">Putokaz</span>
+    Cijene i radna vremena mijenjaju se, pa ih prije puta provjerite na službenim stranicama.
+  </footer>
+
+  <script src="data/europa/index.js"></script>
   <script src="js/home.js"></script>
 </body>
 </html>

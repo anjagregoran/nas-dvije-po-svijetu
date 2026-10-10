@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Putokaz</title>
+  <meta name="theme-color" content="#fbf4ea">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="back" href="index.html">← Putokaz</a>
+      <a class="title" id="naslov" href="#/"></a>
+    </div>
+  </header>
+
+  <main class="wrap narrow" id="app" style="min-height:80vh"></main>
+
+  <footer class="foot">
+    <a class="logo" href="index.html">Putokaz</a>
+    Cijene i radna vremena mijenjaju se, pa ih prije puta provjerite na službenim stranicama.
+  </footer>
+
+  <script>
+    (function () {
+      var id = (new URLSearchParams(location.search).get('z') || '').replace(/[^a-z0-9-]/g, '');
+      window.ZEMLJA_ID = id;
+      var s = document.createElement('script');
+      s.src = 'data/europa/' + id + '.js';
+      s.onload = function () {
+        var a = document.createElement('script');
+        a.src = 'js/zemlja.js';
+        document.body.appendChild(a);
+      };
+      s.onerror = function () {
+        document.getElementById('app').innerHTML = '<p style="padding-top:40px">Ova zemlja još nije napisana. <a href="index.html">Natrag na početnu</a></p>';
+      };
+      document.body.appendChild(s);
+    })();
+  </script>
+</body>
+</html>

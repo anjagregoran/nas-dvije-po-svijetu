@@ -1,9 +1,10 @@
 // Vodič radi i bez interneta: uvijek prvo pokušaj mrežu, a ako je nema, posluži spremljenu kopiju.
-var CACHE = 'ndps-v1';
+var CACHE = 'putokaz-v2';
 var CORE = [
-  './', 'index.html', 'putovanje.html',
-  'css/style.css', 'js/home.js', 'js/trip.js',
-  'data/putovanja.js', 'data/apulija.js', 'icon.svg'
+  './', 'index.html', 'putovanje.html', 'zemlja.html',
+  'css/style.css', 'js/home.js', 'js/trip.js', 'js/zemlja.js',
+  'data/europa/index.js', 'data/apulija.js', 'data/apulija-mjesta-1.js', 'data/apulija-mjesta-2.js',
+  'data/apulija-hrana.js', 'data/apulija-kultura.js', 'data/apulija-ako-zelis.js', 'icon.svg'
 ];
 
 self.addEventListener('install', function (e) {
@@ -12,7 +13,9 @@ self.addEventListener('install', function (e) {
 });
 
 self.addEventListener('activate', function (e) {
-  e.waitUntil(self.clients.claim());
+  e.waitUntil(caches.keys().then(function (keys) {
+    return Promise.all(keys.filter(function (k) { return k !== CACHE; }).map(function (k) { return caches.delete(k); }));
+  }).then(function () { return self.clients.claim(); }));
 });
 
 self.addEventListener('fetch', function (e) {

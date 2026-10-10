@@ -11,12 +11,12 @@ window.ATLAS["slovenija"] = {
   ukratko: [
     { k: "Kada ići", v: "Od svibnja do rujna za jezera i planine, proljeće i jesen za Ljubljanu, krš i vinorodne krajeve. Bled i Bohinj najmirniji su u lipnju i rujnu." },
     { k: "Valuta", v: "Euro, koji je Slovenija uvela 2007." },
-    { k: "Kretanje", v: "Automobilom je najjednostavnije, a za autoceste treba elektronička vinjeta kupljena unaprijed. Iz Ljubljane autobusi često voze do Bleda, Postojne i obale, a u dolinu Soče ljeti vozi i autovlak kroz bohinjski tunel." },
+    { k: "Kretanje", v: "Automobilom je najjednostavnije, a za autoceste treba elektronička vinjeta kupljena unaprijed. Iz Ljubljane autobusi često voze do Bleda, Postojne i obale, a iz Bohinja u dolinu Soče vozi i autovlak kroz bohinjski tunel." },
     { k: "Napojnica", v: "Nije obavezna, ali je uobičajeno zaokružiti račun ili ostaviti do 10 posto ako ste zadovoljne." }
   ],
   hrana: [
     { ime: "Potica", opis: "Savijača od tankog dizanog tijesta s nadjevom od oraha, pečena u okruglom kalupu s rupom u sredini.", prica: "Poznato je više od osamdeset nadjeva, od oraha i maka do estragona, koji se u slatkim jelima koristi gotovo samo u Sloveniji. Slovenska potica zaštićena je u Europskoj uniji kao zajamčeno tradicionalni specijalitet, a peče se za Božić i Uskrs." },
-    { ime: "Kranjska klobasa", opis: "Polusuha dimljena kobasica od krupno mljevene svinjetine i slanine, začinjena samo solju, češnjakom i paprom.", prica: "Ima europsku zaštićenu oznaku zemljopisnog podrijetla. Ne kuha se, nego samo zagrijava u vrućoj vodi, a jede se s hrenom, gorušicom i žemljom. Jedna je 2006. s astronauticom slovenskih korijena Sunitom Williams otputovala i u svemir." },
+    { ime: "Kranjska klobasa", opis: "Polusuha dimljena kobasica od krupno mljevene svinjetine i slanine, začinjena samo solju, češnjakom i paprom.", prica: "Ima europsku zaštićenu oznaku zemljopisnog podrijetla. Samo se zagrijava u vrućoj vodi, bez kuhanja, a jede se s hrenom, gorušicom i žemljom. Jedna je 2006. s astronauticom slovenskih korijena Sunitom Williams otputovala i u svemir." },
     { ime: "Štruklji", opis: "Savici od vučenog ili dizanog tijesta s nadjevom, kuhani ili pečeni, slani ili slatki.", prica: "Najčešći su sa svježim sirom, ali postoje i oni s orasima, estragonom ili jabukama. Nekoć su bili blagdansko jelo, a danas su i prilog i desert, slični našim zagorskim štruklima." },
     { ime: "Idrijski žlikrofi", opis: "Mali jastučići od tijesta punjeni krumpirom, lukom i začinskim biljem, oblikovani poput šeširića.", prica: "Potječu iz rudarskog grada Idrije i zaštićeni su kao tradicionalni specijalitet. Poslužuju se s bakalcom, umakom od janjetine ili ovčetine s povrćem." },
     { ime: "Jota", opis: "Gusta juha od kiselog kupusa ili kisele repe, graha i krumpira, sa suhim mesom.", prica: "Jelo je Krasa, Primorja i Istre, pa je dobro poznato i s hrvatske strane granice. Zimi se jede kao cijeli obrok, a sutradan je još bolja." },
@@ -133,7 +133,7 @@ window.ATLAS["slovenija"] = {
         "Iz Bohinja su bila i četvorica mještana koji su se 1778. prvi popeli na Triglav, čega se sjeća spomenik na obali jezera. Triglavski nacionalni park, jedini u Sloveniji, u današnjim granicama postoji od 1981."
       ],
       vidjeti: [
-        { ime: "Crkva sv. Ivana Krstitelja", opis: "Crkvica uz kameni most u Ribčevu Lazu oslikana je freskama iz 14. do 16. stoljeća. Potražite bijele vragove i anđele s vampirskim očnjacima te golemog svetog Kristofora na vanjskom zidu, koji je putnike trebao čuvati od nagle smrti." },
+        { ime: "Crkva sv. Ivana Krstitelja", opis: "Crkvica uz kameni most u Ribčevu Lazu oslikana je freskama iz 14. do 16. stoljeća. Potražite anđele naslikane s gušom, bolešću koja je nekoć bila česta u alpskim dolinama, i golemog svetog Kristofora na vanjskom zidu, koji je putnike trebao čuvati od nagle smrti." },
         { ime: "Slap Savica", opis: "Voda izbija iz stijene i pada 78 metara u zeleni tamun, a do vidikovca vodi oko petsto stuba. Slap je proslavio France Prešeren epom Krst pri Savici iz 1836." },
         { ime: "Vogel", opis: "Žičara s južne obale za nekoliko minuta podiže na 1535 metara, odakle se vidi cijelo jezero i Triglav nasuprot. Ljeti je to polazište lakih planinskih šetnji, a zimi skijalište." },
         { ime: "Spomenik četvorici srčanih muževa", opis: "Brončani kip u Ribčevu Lazu postavljen je 1978., na dvjestotu obljetnicu prvog uspona na Triglav. Četvorica Bohinjaca prstom pokazuju prema vrhu." },
@@ -273,7 +273,7 @@ window.ATLAS["slovenija"] = {
         { ime: "Slap Kozjak", opis: "Petnaest metara visok slap pada u tamnu polukružnu dvoranu nalik špilji, u koju se ulazi drvenim mostićem. Do njega vodi lagana staza od pola sata iz Kobarida, preko Napoleonova mosta." },
         { ime: "Kobariški muzej", opis: "Muzej o Soškoj fronti pripovijeda rat iz perspektive običnog vojnika, bez obzira na uniformu, i za to je 1993. dobio Muzejsku nagradu Vijeća Europe. Na velikim reljefnim kartama vidi se kako su se rovovi penjali i iznad dvije tisuće metara." },
         { ime: "Talijanska kosturnica u Kobaridu", opis: "Oko crkve svetog Antuna na brežuljku iznad mjesta 1938. je sagrađena osmerokutna kosturnica u koju su preneseni posmrtni ostaci više od sedam tisuća talijanskih vojnika." },
-        { ime: "Prijevoj Vršič i Ruska kapela", opis: "Cestu preko prijevoja visokog 1611 metara, s pedeset serpentina, gradili su u ratu ruski zarobljenici. Njih nekoliko stotina poginulo je 1916. u lavini, a preživjeli su im u spomen podigli drvenu pravoslavnu kapelu." },
+        { ime: "Prijevoj Vršič i Ruska kapela", opis: "Cestu preko prijevoja visokog 1611 metara, s pedeset serpentina, gradili su u ratu ruski zarobljenici. Mnogi od njih poginuli su 1916. u lavini, a preživjeli su im u spomen podigli drvenu pravoslavnu kapelu." },
         { ime: "Tolminska korita", opis: "Na najnižoj ulaznoj točki u Triglavski nacionalni park spajaju se klanci rijeka Tolminke i Zadlaščice. Potražite Medvjeđu glavu, stijenu uklinjenu između zidova kanjona, i topli izvor pod Vražjim mostom." }
       ],
       jesti: [

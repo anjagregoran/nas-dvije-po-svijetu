@@ -1,314 +1,314 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["maroko"] = {
   id: "maroko",
-  ime: "Maroko",
-  regija: "Sjeverna Afrika",
-  sazetak: "Zemlja u kojoj se iz srednjovjekovne medine za jedan dan stiže preko snježnih vrhova Atlasa do saharskih dina.",
+  ime: "Morocco",
+  regija: "North Africa",
+  sazetak: "A country where, in a single day, you can travel from a medieval medina over the snowy peaks of the Atlas to the dunes of the Sahara.",
   uvod: [
-    "Maroko leži na samom rubu Afrike, četrnaest kilometara od Španjolske, i oduvijek je most između dvaju kontinenata. Njegovi prvi stanovnici, Amazigi ili Berberi, i danas čine velik dio naroda i govore vlastitim jezikom, koji je uz arapski službeni. Od 8. stoljeća smjenjivale su se dinastije koje su jedna za drugom gradile carske gradove: Idrisidi Fes, Almoravidi i Almohadi Marakeš i Rabat, Merinidi medrese, Saadijci raskošne grobnice. Alavitska dinastija vlada od 17. stoljeća do danas, uz prekid francuskog i španjolskog protektorata od 1912. do 1956.",
-    "Za putnice je Maroko gozba za sva osjetila i ponekad pravi ispit strpljenja. Medine su labirinti u kojima se čovjek mora izgubiti da bi ih upoznao, trgovci su uporni, a čaj od mente stiže prije svakog razgovora. Iza neuglednih vrata kriju se dvorišta s fontanama i narančama, jer se ovdje ljepota tradicionalno čuva za unutrašnjost kuće. Tko nauči čitati pločice zellige, rezbarenu cedrovinu i štuko, u svakoj će medresi i palači prepoznati isti jezik uzoraka."
+    "Morocco lies on the very edge of Africa, fourteen kilometers from Spain, and has always been a bridge between two continents. Its first inhabitants, the Amazigh or Berbers, still make up a large part of the population and speak their own language, which is official alongside Arabic. From the 8th century onward one dynasty followed another, each building imperial cities in turn: the Idrisids Fez, the Almoravids and Almohads Marrakesh and Rabat, the Marinids the madrasas, the Saadians their lavish tombs. The Alaouite dynasty has ruled from the 17th century to the present day, with the interruption of the French and Spanish protectorate from 1912 to 1956.",
+    "For travelers Morocco is a feast for all the senses and sometimes a real test of patience. The medinas are labyrinths in which you have to get lost in order to get to know them, the merchants are persistent, and mint tea arrives before every conversation. Behind unremarkable doors hide courtyards with fountains and orange trees, because here beauty is traditionally kept for the inside of the house. Once you learn to read zellige tiles, carved cedar and stucco, you will recognize the same language of patterns in every madrasa and palace."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od ožujka do svibnja i od rujna do studenoga. Ljeti je u Marakešu i Sahari iznad 40 stupnjeva, a zimi je na Atlasu snijeg i noći u pustinji vrlo su hladne." },
-    { k: "Valuta", v: "Marokanski dirham (MAD), koji se ne smije iznositi iz zemlje pa se mijenja tek po dolasku. Na tržnicama i u malim restoranima plaća se gotovinom." },
-    { k: "Kretanje", v: "Vlakovi su udobni, a brzi Al Boraq vozi od Tangera do Casablance za nešto više od dva sata. Autobusi CTM i Supratours pokrivaju ostatak, a između manjih mjesta voze zajednički veliki taksiji." },
-    { k: "Napojnica", v: "Sitan novac očekuje se za gotovo svaku uslugu: u kafiću nekoliko dirhama, u restoranu oko 10 posto, a vodičima i vozačima više." },
-    { k: "Cjenkanje i vodiči", v: "Na tržnici je cjenkanje dio kupnje i vodi se sa smiješkom. Nepoznate koji vam se na ulici nude kao vodiči ljubazno odbijte riječima „la, shukran“ i uzmite službenog vodiča sa značkom." }
+    { k: "When to go", v: "From March to May and from September to November. In summer Marrakesh and the Sahara climb above 40 degrees Celsius, while in winter there is snow on the Atlas and the desert nights are very cold." },
+    { k: "Currency", v: "Moroccan dirham (MAD), which may not be taken out of the country, so you exchange money only after you arrive. At markets and in small restaurants you pay in cash." },
+    { k: "Getting around", v: "The trains are comfortable, and the high-speed Al Boraq runs from Tangier to Casablanca in just over two hours. CTM and Supratours buses cover the rest, and shared grand taxis run between the smaller towns." },
+    { k: "Tipping", v: "Small change is expected for almost every service: a few dirhams in a cafe, about 10 percent in a restaurant, and more for guides and drivers." },
+    { k: "Haggling and guides", v: "At the market, haggling is part of the purchase and is done with a smile. Politely turn down strangers who offer themselves as guides in the street with the words “la, shukran,” and hire an official guide with a badge." }
   ],
   hrana: [
-    { ime: "Tajine", opis: "Jelo sporo pirjano u glinenoj posudi sa stožastim poklopcem, po kojoj je i dobilo ime.", prica: "Para se diže u stožac, hladi i kaplje natrag, pa meso omekša gotovo bez vode, što je bilo važno u sušnim krajevima. Najpoznatije su inačice s piletinom, ukiseljenim limunom i maslinama te janjetina sa suhim šljivama i bademima. Jede se iz sredine stola, kruhom umjesto vilice, svatko sa svoje strane." },
-    { ime: "Kuskus", opis: "Sitne kuglice pšenične krupice kuhane na pari nad varivom od mesa i sedam vrsta povrća.", prica: "Obiteljsko je jelo petka, nakon podnevne molitve, kada se cijela obitelj okupi oko jedne zdjele. UNESCO je 2020. upisao znanje o pripremi kuskusa kao zajedničku baštinu Maroka, Alžira, Tunisa i Mauritanije." },
-    { ime: "Pastilla", opis: "Pita od tankog tijesta warqa punjena golubom ili piletinom, bademima i jajima, posuta šećerom u prahu i cimetom.", prica: "Spoj slatkog i slanog naslijeđen je iz andaluzijske kuhinje, koju su donijeli muslimani i židovi prognani iz Španjolske. Najslavnija je u Fesu i poslužuje se na svadbama." },
-    { ime: "Harira", opis: "Gusta juha od rajčice, leće, slanutka i začinskog bilja, s malo mesa i rezanaca.", prica: "Tijekom ramazana njome se svake večeri prekida post, uz datulje i medene kolačiće chebakia. Izvan ramazana jede se navečer na uličnim štandovima, iz zdjelice i drvenom žlicom." },
-    { ime: "Tanjia", opis: "Meso sa začinima, ukiseljenim limunom i maslacem smen, satima pečeno u glinenom ćupu.", prica: "Specijalitet je Marakeša i zovu ga jelom neženja, jer su ga radnici s tržnice ujutro nosili ložaču javnog kupališta, koji bi ćup zakopao u vrući pepeo. Do večeri je meso bilo gotovo." },
-    { ime: "Čaj od mente", opis: "Kineski zeleni čaj kuhan sa svježom mentom i mnogo šećera, natočen s visine.", prica: "Zeleni čaj donijeli su britanski trgovci u 19. stoljeću, a Marokanci su ga učinili svojim. Toči se s visine da se zapjeni, a odbiti ponuđenu čašu smatra se nepristojnim." },
-    { ime: "Msemen", opis: "Četvrtaste lisnate palačinke od višestruko presavijenog tijesta, pečene na ploči.", prica: "Jedu se za doručak s medom i maslacem ili sa sirom. Žene ih peku na ulici, pred radnjama, i najbolje su dok su vruće." },
-    { ime: "Zaalouk i salate", opis: "Kuhane salate od patlidžana, rajčice, paprike ili mrkve, začinjene kuminom i češnjakom.", prica: "Stižu na stol u nizu malih zdjelica prije glavnog jela. Kumin je u Maroku toliko važan da stoji na stolu umjesto papra." },
-    { ime: "Amlou", opis: "Namaz od prženih badema, arganova ulja i meda.", prica: "Potječe s juga, iz kraja u kojem jedino raste stablo argana. Maže se na kruh za doručak i zovu ga marokanskim maslacem od kikirikija." }
+    { ime: "Tajine", opis: "A dish slowly braised in an earthenware pot with a conical lid, from which it also takes its name.", prica: "The steam rises into the cone, cools and drips back down, so the meat turns tender with almost no water, which mattered in arid regions. The best-known versions are chicken with preserved lemon and olives, and lamb with prunes and almonds. It is eaten from the middle of the table, with bread instead of a fork, each person from their own side." },
+    { ime: "Couscous", opis: "Tiny granules of wheat semolina steamed over a stew of meat and seven kinds of vegetables.", prica: "It is the family dish of Friday, after the midday prayer, when the whole family gathers around a single bowl. In 2020 UNESCO inscribed the knowledge of preparing couscous as the shared heritage of Morocco, Algeria, Tunisia and Mauritania." },
+    { ime: "Pastilla", opis: "A pie of thin warqa pastry filled with pigeon or chicken, almonds and eggs, dusted with powdered sugar and cinnamon.", prica: "The pairing of sweet and savory is inherited from Andalusian cuisine, brought by the Muslims and Jews expelled from Spain. It is most celebrated in Fez and is served at weddings." },
+    { ime: "Harira", opis: "A thick soup of tomatoes, lentils, chickpeas and herbs, with a little meat and noodles.", prica: "During Ramadan it breaks the fast every evening, along with dates and the honey cookies called chebakia. Outside Ramadan it is eaten in the evening at street stalls, from a small bowl and with a wooden spoon." },
+    { ime: "Tanjia", opis: "Meat with spices, preserved lemon and smen butter, baked for hours in a clay urn.", prica: "It is a specialty of Marrakesh and is called the bachelors' dish, because market workers would carry it in the morning to the stoker of the public bathhouse, who buried the urn in hot ashes. By evening the meat was done." },
+    { ime: "Mint tea", opis: "Chinese green tea brewed with fresh mint and plenty of sugar, poured from a height.", prica: "Green tea was brought by British merchants in the 19th century, and the Moroccans made it their own. It is poured from a height so that it froths, and refusing an offered glass is considered rude." },
+    { ime: "Msemen", opis: "Square, flaky flatbreads of dough folded many times over and cooked on a griddle.", prica: "They are eaten for breakfast with honey and butter or with cheese. Women cook them in the street, in front of the shops, and they are at their best while still hot." },
+    { ime: "Zaalouk and salads", opis: "Cooked salads of eggplant, tomato, pepper or carrot, seasoned with cumin and garlic.", prica: "They arrive at the table in a row of small bowls before the main course. Cumin is so important in Morocco that it sits on the table in place of pepper." },
+    { ime: "Amlou", opis: "A spread of roasted almonds, argan oil and honey.", prica: "It comes from the south, from the only region where the argan tree grows. It is spread on bread at breakfast and is known as Moroccan peanut butter." }
   ],
   obicaji: [
-    { ime: "Hamam", opis: "Javno parno kupalište dio je tjedne rutine. Tijelo se premaže crnim sapunom od maslina, a zatim snažno istrlja grubom rukavicom kessa, nakon čega se na kosu i kožu nanosi glina ghassoul.", gdje: "Svaka četvrt u medini ima svoj hamam, s odvojenim satima ili ulazima za žene, a u gradovima postoje i uređeni hamami za gošće koje prvi put probaju." },
-    { ime: "Glazba gnawa", opis: "Glazbu transa donijeli su potomci porobljenih ljudi iz zapadne Afrike. Svira se na trožičanom basu guembri i željeznim kastanjetama qraqeb, a UNESCO ju je upisao 2019.", gdje: "Festival Gnaoua u Essaouiri krajem lipnja i selo Khamlia kraj Merzouge." },
-    { ime: "Zellige", opis: "Mozaik od ručno klesanih glaziranih pločica slaže se licem prema dolje, napamet, u zvjezdaste uzorke koji se mogu širiti unedogled. Likovi se ne prikazuju, pa geometrija izražava beskonačnost.", gdje: "Radionice u lončarskoj četvrti Ain Nokbi u Fesu, gdje se može gledati cijeli postupak." },
-    { ime: "Tbourida", opis: "Konjanici u bijelom jurnu u ravnom redu i na kraju svi u istom trenutku opale iz starih pušaka. Cilj je da se čuje jedan jedini pucanj, a UNESCO je običaj upisao 2021.", gdje: "Na seoskim svetkovinama moussem ljeti i na sajmu konja u El Jadidi u listopadu." },
-    { ime: "Argan", opis: "Žene Amazižanke ručno razbijaju tvrde koštice kamenom i melju jezgre u ulje, jestivo ili kozmetičko. Znanje o arganu UNESCO je upisao 2014.", gdje: "Ženske zadruge uz cestu između Marakeša, Essaouire i Agadira." },
-    { ime: "Tkanje sagova", opis: "Svako pleme ima svoje uzorke i boje, a tkalje u sag utkivaju znakove plodnosti, zaštite i događaje iz vlastitog života. Sagovi Beni Ourain bijeli su s crnim rombovima, a boucherouite se rade od starih krpa.", gdje: "Tjedni sajmovi u selima Srednjeg Atlasa i zadruge u Tazenakhtu i oko Aït Benhaddoua." },
-    { ime: "Tjedni souk", opis: "Sela nose imena po danu u tjednu kada se održava sajam, pa Souk el-Arbaa znači sajam srijedom. Na njima se prodaje stoka, povrće i začini, briju se brade i vade zubi.", gdje: "U dolinama Atlasa oko Marakeša, primjerice ponedjeljkom u dolini Ourika." }
+    { ime: "Hammam", opis: "The public steam bath is part of the weekly routine. The body is coated in black olive soap and then scrubbed vigorously with the rough kessa glove, after which ghassoul clay is applied to the hair and skin.", gdje: "Every neighborhood in the medina has its own hammam, with separate hours or entrances for women, and the cities also have more polished hammams for guests trying it for the first time." },
+    { ime: "Gnawa music", opis: "This trance music was brought by the descendants of enslaved people from West Africa. It is played on the three-stringed bass called the guembri and the iron castanets called qraqeb, and UNESCO inscribed it in 2019.", gdje: "The Gnaoua Festival in Essaouira at the end of June and the village of Khamlia near Merzouga." },
+    { ime: "Zellige", opis: "A mosaic of hand-chiseled glazed tiles is assembled face down, from memory, into star patterns that can be extended without end. Figures are not depicted, so geometry expresses infinity.", gdje: "The workshops in the potters' quarter of Ain Nokbi in Fez, where you can watch the whole process." },
+    { ime: "Tbourida", opis: "Horsemen in white charge in a straight line and at the end all fire their old muskets at the same instant. The aim is for a single shot to be heard, and UNESCO inscribed the custom in 2021.", gdje: "At the village festivals called moussems in summer and at the horse show in El Jadida in October." },
+    { ime: "Argan", opis: "Amazigh women crack the hard nuts by hand with a stone and grind the kernels into oil, either culinary or cosmetic. UNESCO inscribed the knowledge of argan in 2014.", gdje: "The women's cooperatives along the road between Marrakesh, Essaouira and Agadir." },
+    { ime: "Carpet weaving", opis: "Every tribe has its own patterns and colors, and the weavers work into the carpet signs of fertility and protection and events from their own lives. Beni Ourain carpets are white with black diamonds, and boucherouite rugs are made from old rags.", gdje: "The weekly markets in the villages of the Middle Atlas and the cooperatives in Tazenakht and around Aït Benhaddou." },
+    { ime: "The weekly souk", opis: "Villages are named after the day of the week on which the market is held, so Souk el-Arbaa means Wednesday market. Livestock, vegetables and spices are sold there, beards are shaved and teeth are pulled.", gdje: "In the Atlas valleys around Marrakesh, for example on Mondays in the Ourika Valley." }
   ],
   fraze: [
-    { izvorno: "Salam alaykum", izgovor: "sa-LAM a-LEJ-kum", hr: "Mir s vama (pozdrav)" },
-    { izvorno: "Labas?", izgovor: "la-BAS", hr: "Kako ste? Sve u redu?" },
-    { izvorno: "Shukran", izgovor: "ŠUK-ran", hr: "Hvala" },
-    { izvorno: "Afak", izgovor: "A-fak", hr: "Molim vas" },
-    { izvorno: "La, shukran", izgovor: "la, ŠUK-ran", hr: "Ne, hvala (najkorisnija rečenica na tržnici)" },
-    { izvorno: "Bshhal?", izgovor: "bš-HAL", hr: "Koliko košta?" },
-    { izvorno: "Bssaha", izgovor: "bs-SA-ha", hr: "U zdravlje, dobar tek" },
-    { izvorno: "Tanmirt (amaziški)", izgovor: "tan-MIRT", hr: "Hvala" }
+    { izvorno: "Salam alaykum", izgovor: "sah-LAHM ah-LAY-koom", hr: "Peace be upon you (a greeting)" },
+    { izvorno: "Labas?", izgovor: "lah-BASS", hr: "How are you? Everything all right?" },
+    { izvorno: "Shukran", izgovor: "SHOOK-rahn", hr: "Thank you" },
+    { izvorno: "Afak", izgovor: "AH-fahk", hr: "Please" },
+    { izvorno: "La, shukran", izgovor: "lah, SHOOK-rahn", hr: "No, thank you (the most useful sentence at the market)" },
+    { izvorno: "Bshhal?", izgovor: "bsh-HAHL", hr: "How much does it cost?" },
+    { izvorno: "Bssaha", izgovor: "bs-SAH-hah", hr: "To your health, enjoy your meal" },
+    { izvorno: "Tanmirt (Amazigh)", izgovor: "tahn-MEERT", hr: "Thank you" }
   ],
   zanimljivosti: [
-    "Maroko je 1777. prvi na svijetu priznao neovisnost SAD-a.",
-    "Sveučilište Al-Qarawiyyin u Fesu osnovala je 859. jedna žena, Fatima al-Fihri, i smatra se najstarijim na svijetu koje radi bez prekida.",
-    "Na Svjetskom prvenstvu 2022. Maroko je kao prva afrička reprezentacija ušao u polufinale, a u utakmici za treće mjesto izgubio je od Hrvatske.",
-    "U kraju oko Essaouire koze se penju na stabla argana i brste plodove s grana.",
-    "Toubkal je s 4167 metara najviši vrh sjeverne Afrike i zimi je pod snijegom.",
-    "Ibn Battuta, rođen u Tangeru 1304., putovao je gotovo trideset godina i prešao više nego Marko Polo.",
-    "Amaziška Nova godina, Yennayer, od 2024. je državni praznik."
+    "In 1777 Morocco became the first country in the world to recognize the independence of the USA.",
+    "Al-Qarawiyyin University in Fez was founded in 859 by a woman, Fatima al-Fihri, and is considered the oldest in the world to have operated without interruption.",
+    "At the 2022 World Cup Morocco became the first African team to reach the semifinals, and in the third-place match it lost to Croatia.",
+    "In the countryside around Essaouira goats climb argan trees and browse the fruit off the branches.",
+    "At 4,167 meters, Toubkal is the highest peak in North Africa and is covered in snow in winter.",
+    "Ibn Battuta, born in Tangier in 1304, traveled for almost thirty years and covered more ground than Marco Polo.",
+    "The Amazigh New Year, Yennayer, has been a public holiday since 2024."
   ],
   mjesta: [
     {
       id: "marakes",
-      ime: "Marakeš",
+      ime: "Marrakesh",
       vrsta: "grad",
-      sazetak: "Crveni grad pod Atlasom čiji se glavni trg svake večeri pretvara u kazalište i kuhinju pod otvorenim nebom.",
-      prica: ["Marakeš su oko 1070. osnovali Almoravidi, ratnici iz Sahare, kao tabor koji je prerastao u prijestolnicu carstva od Senegala do Španjolske. Almohadi su ga osvojili 1147. i podigli Koutoubiju, a Saadijci su mu u 16. stoljeću vratili sjaj zlatom iz Timbuktua. Zidine i kuće građene su od nabijene crvene zemlje, pa cijeli grad ima boju okolne ravnice. Po njemu je cijela zemlja dobila ime u europskim jezicima."],
+      sazetak: "The red city beneath the Atlas, whose main square turns into an open-air theater and kitchen every evening.",
+      prica: ["Marrakesh was founded around 1070 by the Almoravids, warriors from the Sahara, as a camp that grew into the capital of an empire reaching from Senegal to Spain. The Almohads conquered it in 1147 and built the Koutoubia, and in the 16th century the Saadians restored its splendor with gold from Timbuktu. The walls and houses are built of rammed red earth, so the whole city takes on the color of the surrounding plain. The entire country got its name in European languages from this city."],
       vidjeti: [
-        { ime: "Jemaa el-Fna", opis: "Trg je stoljećima mjesto pripovjedača, glazbenika, travara i krotitelja zmija, a predvečer se nad njim digne dim stotinu roštilja. Upravo zbog ovog trga UNESCO je osmislio popis nematerijalne baštine i trg je među prvima upisan 2001." },
-        { ime: "Džamija Koutoubia", opis: "Minaret visok 77 metara dovršen je krajem 12. stoljeća i bio je uzor Giraldi u Sevilli i Hasanovu tornju u Rabatu. Ime znači džamija knjižara, jer je oko nje nekad bilo stotinjak prodavača rukopisa. Svaka je strana tornja ukrašena drukčijim uzorkom, pa ga obiđite cijelog." },
-        { ime: "Medresa Ben Youssef", opis: "Saadijski sultan Abdallah al-Ghalib dovršio ju je 1565. kao najveću kuransku školu Magreba. Oko dvorišta s bazenom nižu se tri pojasa ukrasa: pločice zellige dolje, klesani štuko u sredini i rezbarena cedrovina gore. Na katu zavirite u sićušne studentske sobe." },
-        { ime: "Saadijske grobnice", opis: "Sultan Ahmed al-Mansur dao ih je sagraditi krajem 16. stoljeća, a njegov nasljednik iz druge dinastije zazidao ih je pa su zaboravljene do 1917. U Dvorani dvanaest stupova potražite talijanski mramor iz Carrare, koji je sultan, kako se priča, plaćao istom težinom šećera." },
-        { ime: "Palača Bahia", opis: "Veliki vezir Ba Ahmed gradio ju je krajem 19. stoljeća za sebe i svoje četiri žene i konkubine. Pogledajte strop svake sobe, jer nijedan nije isti: oslikana cedrovina tehnikom zouak mijenja se iz prostorije u prostoriju." },
-        { ime: "Vrt Majorelle", opis: "Francuski slikar Jacques Majorelle četrdeset je godina uređivao vrt kaktusa i bambusa oko ateljea obojenog u jarku kobaltnu plavu, koja danas nosi njegovo ime. Yves Saint Laurent i Pierre Bergé kupili su ga 1980. i spasili od rušenja, a u ateljeu je Muzej berberske umjetnosti." }
+        { ime: "Jemaa el-Fna", opis: "For centuries the square has been the place of storytellers, musicians, herbalists and snake charmers, and toward evening the smoke of a hundred grills rises above it. It was because of this very square that UNESCO devised its list of intangible heritage, and the square was among the first to be inscribed, in 2001." },
+        { ime: "Koutoubia Mosque", opis: "The 77-meter minaret was completed at the end of the 12th century and served as the model for the Giralda in Seville and the Hassan Tower in Rabat. The name means the mosque of the booksellers, because about a hundred sellers of manuscripts once worked around it. Each side of the tower is decorated with a different pattern, so walk all the way around it." },
+        { ime: "Ben Youssef Madrasa", opis: "The Saadian sultan Abdallah al-Ghalib completed it in 1565 as the largest Quranic school in the Maghreb. Around the courtyard with its pool run three bands of decoration: zellige tiles at the bottom, carved stucco in the middle and carved cedar at the top. Upstairs, peek into the tiny student rooms." },
+        { ime: "Saadian Tombs", opis: "Sultan Ahmed al-Mansur had them built at the end of the 16th century, and his successor from another dynasty walled them up, so they lay forgotten until 1917. In the Hall of Twelve Columns look for the Italian marble from Carrara, which the sultan, as the story goes, paid for with its weight in sugar." },
+        { ime: "Bahia Palace", opis: "The grand vizier Ba Ahmed built it at the end of the 19th century for himself and his four wives and concubines. Look at the ceiling of every room, because no two are alike: the cedar painted in the zouak technique changes from one room to the next." },
+        { ime: "Majorelle Garden", opis: "The French painter Jacques Majorelle spent forty years laying out a garden of cacti and bamboo around a studio painted in a vivid cobalt blue that now bears his name. Yves Saint Laurent and Pierre Bergé bought it in 1980 and saved it from demolition, and the studio houses the Berber Museum." }
       ],
       jesti: [
-        { ime: "Tanjia", opis: "Naručuje se u jednostavnim radnjama oko trga i u uličici Mechoui, gdje se iz podzemnih peći vadi i cijela pečena janjetina." },
-        { ime: "Večera na Jemaa el-Fna", opis: "Na štandovima s brojevima jedu se harira, ražnjići, pržena riba i juha od puževa, za dugim klupama uz mještane." },
-        { ime: "Sok od naranče", opis: "Kolica na trgu cijede naranče pred vama, što je najbolja okrepa nakon tržnice." }
+        { ime: "Tanjia", opis: "You order it in the simple eateries around the square and in Mechoui Alley, where whole roasted lamb is also lifted out of underground ovens." },
+        { ime: "Dinner on Jemaa el-Fna", opis: "At the numbered stalls you eat harira, skewers, fried fish and snail soup, on long benches alongside the locals." },
+        { ime: "Orange juice", opis: "The carts on the square squeeze oranges in front of you, which is the best refreshment after the souks." }
       ],
       dozivjeti: [
-        { ime: "Ručak i tečaj kuhanja u Amalu", opis: "Udruga Amal obučava žene iz teških životnih prilika za rad u ugostiteljstvu, a gosti kod njih mogu ručati ili naučiti pripremiti tajine i kuskus.", link: "https://amalnonprofit.org/" },
-        { ime: "Muzej Yvesa Saint Laurenta", opis: "Uz vrt Majorelle stoji muzej s modelima modnog kreatora koji je govorio da ga je Marakeš naučio bojama.", link: "https://www.museeyslmarrakech.com/en/" },
-        { ime: "Tržnice s vodičem", opis: "Sjeverno od trga nižu se ulice bojadisara, kovača, kožara i papučara, a sa službenim vodičem lakše ćete vidjeti radionice i fondouke, stara karavanska svratišta." }
+        { ime: "Lunch and a cooking class at Amal", opis: "The Amal association trains women from difficult circumstances for work in hospitality, and guests can have lunch there or learn to prepare tajine and couscous.", link: "https://amalnonprofit.org/" },
+        { ime: "Yves Saint Laurent Museum", opis: "Next to the Majorelle Garden stands a museum with designs by the couturier who used to say that Marrakesh taught him color.", link: "https://www.museeyslmarrakech.com/en/" },
+        { ime: "The souks with a guide", opis: "North of the square run the streets of the dyers, blacksmiths, leatherworkers and slipper makers, and with an official guide you will more easily get to see the workshops and the fondouks, the old caravan inns." }
       ],
       agencije: [
-        { ime: "Visit Marrakech", opis: "Službeni turistički vodič grada i regije.", link: "https://visitmarrakech.com/" },
-        { ime: "Jardin Majorelle", opis: "Službena stranica vrta i muzeja s prodajom ulaznica.", link: "https://www.jardinmajorelle.com/en/" }
+        { ime: "Visit Marrakech", opis: "The official tourist guide to the city and the region.", link: "https://visitmarrakech.com/" },
+        { ime: "Jardin Majorelle", opis: "The official website of the garden and museum, with ticket sales.", link: "https://www.jardinmajorelle.com/en/" }
       ],
-      kada: "Ožujak do svibnja i listopad do studenoga. Ulaznice za vrt Majorelle kupuju se unaprijed na internetu, a spomenike obiđite ujutro, prije grupa i vrućine."
+      kada: "March to May and October to November. Tickets for the Majorelle Garden are bought online in advance, and it is best to visit the monuments in the morning, ahead of the groups and the heat."
     },
     {
       id: "fes",
-      ime: "Fes",
+      ime: "Fez",
       vrsta: "grad",
-      sazetak: "Najveća živa srednjovjekovna medina na svijetu, grad učenjaka i obrtnika u kojem se roba i dalje prevozi magarcima.",
-      prica: ["Fes je 789. osnovao Idris I., potomak proroka Muhameda, a njegov sin Idris II. učinio ga je prijestolnicom. Ubrzo su stigle izbjeglice iz Córdobe i iz tuniskog Kairouana i svaka je skupina naselila svoju obalu rijeke. Merinidi su u 13. i 14. stoljeću dodali novi dio grada i najljepše medrese. Stara medina Fes el-Bali ima više od devet tisuća uličica bez ijednog automobila, a UNESCO ju je zaštitio 1981."],
+      sazetak: "The largest living medieval medina in the world, a city of scholars and craftspeople where goods are still carried by donkey.",
+      prica: ["Fez was founded in 789 by Idris I, a descendant of the Prophet Muhammad, and his son Idris II made it the capital. Refugees soon arrived from Córdoba and from Kairouan in Tunisia, and each group settled its own bank of the river. In the 13th and 14th centuries the Marinids added a new part of the city and the most beautiful madrasas. The old medina of Fes el-Bali has more than nine thousand alleys without a single car, and UNESCO listed it in 1981."],
       vidjeti: [
-        { ime: "Al-Qarawiyyin", opis: "Džamiju i školu osnovala je 859. Fatima al-Fihri, kći bogatog trgovca iz Kairouana, i iz nje je izraslo sveučilište. Posjetitelji koji nisu muslimani ne smiju unutra, ali kroz otvorena vrata vide se dvorište s paviljonima nalik onima u Alhambri i bijeli lukovi u nedogled." },
-        { ime: "Medresa Bou Inania", opis: "Merinidski sultan Abu Inan sagradio ju je između 1351. i 1356. i jedina je medresa u Fesu s vlastitim minaretom. Nasuprot ulazu potražite ostatke vodenog sata s trinaest prozorčića i mjedenih zdjela, čiji mehanizam do danas nije do kraja razjašnjen." },
-        { ime: "Kožare Chouara", opis: "U kamenim kacama koža se kao u srednjem vijeku najprije omekšava u vapnu i golubljem izmetu, a zatim boji makom, indigom i šafranom. Gleda se s terasa okolnih trgovina, a grančica mente koju dobijete na ulazu služi protiv mirisa." },
-        { ime: "Bab Boujloud", opis: "Glavna vrata medine iz 1913. izvana su obložena plavim pločicama, bojom Fesa, a iznutra zelenima, bojom islama. Kroz luk se vide dva minareta, što je najpoznatiji okvir za fotografiju u gradu." },
-        { ime: "Trg i muzej Nejjarine", opis: "Uz fontanu obloženu mozaikom stoji fondouk iz 18. stoljeća, svratište u kojem su trgovci spavali na katu, a životinje i roba bili u prizemlju. Danas je u njemu muzej drvodjelstva, a na krovu kavana." },
-        { ime: "Merinidske grobnice", opis: "S brda sjeverno od grada, pred zalazak sunca, vidi se cijela medina kao zdjela krovova i minareta. Kada počne poziv na molitvu, glasovi sa stotina džamija stapaju se u jedan." }
+        { ime: "Al-Qarawiyyin", opis: "The mosque and school were founded in 859 by Fatima al-Fihri, the daughter of a wealthy merchant from Kairouan, and a university grew out of it. Non-Muslim visitors may not go inside, but through the open doors you can see the courtyard with pavilions resembling those of the Alhambra and white arches receding into the distance." },
+        { ime: "Bou Inania Madrasa", opis: "The Marinid sultan Abu Inan built it between 1351 and 1356, and it is the only madrasa in Fez with its own minaret. Opposite the entrance look for the remains of a water clock with thirteen little windows and brass bowls, whose mechanism has still not been fully explained." },
+        { ime: "Chouara Tannery", opis: "In stone vats the hides are first softened in lime and pigeon droppings, just as in the Middle Ages, and then dyed with poppy, indigo and saffron. You watch from the terraces of the surrounding shops, and the sprig of mint you are handed at the entrance is there to mask the smell." },
+        { ime: "Bab Boujloud", opis: "The main gate of the medina, from 1913, is faced on the outside with blue tiles, the color of Fez, and on the inside with green ones, the color of Islam. Through the arch you can see two minarets, which makes the most famous photo frame in the city." },
+        { ime: "Nejjarine Square and Museum", opis: "Beside a mosaic-clad fountain stands an 18th-century fondouk, an inn where the merchants slept upstairs while the animals and goods stayed on the ground floor. Today it houses a museum of woodworking, with a cafe on the roof." },
+        { ime: "Marinid Tombs", opis: "From the hill north of the city, just before sunset, you can see the whole medina as a bowl of rooftops and minarets. When the call to prayer begins, the voices from hundreds of mosques merge into one." }
       ],
       jesti: [
-        { ime: "Pastilla", opis: "Fes je njezin dom, a najbolju poslužuju restorani u obnovljenim kućama s dvorištem, najčešće po narudžbi." },
-        { ime: "Bissara", opis: "Gusta juha od boba s maslinovim uljem i kuminom doručak je radnika u medini, iz zdjelice za sitan novac." },
-        { ime: "Ulična hrana kod Bab Boujlouda", opis: "U uličici Talaa Kebira prže se srdele, peku ražnjići i prodaju sendviči s jetrom i slatki kolači." }
+        { ime: "Pastilla", opis: "Fez is its home, and the best is served by the restaurants in restored courtyard houses, most often to order." },
+        { ime: "Bissara", opis: "A thick fava bean soup with olive oil and cumin is the breakfast of the workers in the medina, served from a small bowl for small change." },
+        { ime: "Street food at Bab Boujloud", opis: "In the lane called Talaa Kebira sardines are fried, skewers are grilled, and liver sandwiches and sweet pastries are sold." }
       ],
       dozivjeti: [
-        { ime: "Tečaj kuhanja u Café Clocku", opis: "Dan počinje kupnjom na tržnici s kuharicom, a završava ručkom na terasi. Kavana u staroj kući organizira i večeri pripovijedanja, glazbe i kaligrafije.", link: "https://www.cafeclock.com/" },
-        { ime: "Festival svjetske duhovne glazbe", opis: "Svake godine, obično u svibnju ili lipnju, pod zidinama i u vrtovima nastupaju sufijski pjevači, zborovi i glazbenici svih vjera.", link: "https://fesfestival.com/" },
-        { ime: "Obilazak medine sa službenim vodičem", opis: "Prvi dan u Fesu bez vodiča teško je naći išta, a s njim ulazite u radionice mjedi, tkalaca svile i pekare u koje susjedstvo nosi kruh na pečenje." }
+        { ime: "A cooking class at Café Clock", opis: "The day begins with shopping at the market with the cook and ends with lunch on the terrace. The cafe in an old house also organizes evenings of storytelling, music and calligraphy.", link: "https://www.cafeclock.com/" },
+        { ime: "Festival of World Sacred Music", opis: "Every year, usually in May or June, Sufi singers, choirs and musicians of all faiths perform beneath the walls and in the gardens.", link: "https://fesfestival.com/" },
+        { ime: "A tour of the medina with an official guide", opis: "On your first day in Fez it is hard to find anything without a guide, and with one you step into the brass workshops, the silk weavers' studios and the bakeries where the neighborhood brings its bread to be baked." }
       ],
       agencije: [
-        { ime: "Visit Morocco", opis: "Službena stranica Marokanske nacionalne turističke organizacije s vodičem kroz Fes.", link: "https://www.visitmorocco.com/en" },
-        { ime: "Plan-It Morocco", opis: "Agencija iz Fesa koja organizira kulturne ture, radionice obrta i gastronomske šetnje.", link: "https://www.plan-it-morocco.com/" }
+        { ime: "Visit Morocco", opis: "The official website of the Moroccan National Tourist Office, with a guide to Fez.", link: "https://www.visitmorocco.com/en" },
+        { ime: "Plan-It Morocco", opis: "An agency from Fez that organizes cultural tours, craft workshops and food walks.", link: "https://www.plan-it-morocco.com/" }
       ],
-      kada: "Proljeće i jesen. Petkom je velik dio medine zatvoren, a kad čujete povik „balak“, maknite se uza zid jer dolazi natovaren magarac."
+      kada: "Spring and fall. On Fridays a large part of the medina is closed, and when you hear the shout “balak,” step back against the wall, because a loaded donkey is coming."
     },
     {
       id: "chefchaouen",
       ime: "Chefchaouen",
       vrsta: "gradić",
-      sazetak: "Plavi gradić u gorju Rif u kojem su zidovi, stube i vrata obojeni u sve nijanse neba.",
-      prica: ["Moulay Ali ibn Rashid osnovao ga je 1471. kao utvrdu protiv Portugalaca koji su napadali obalu. Nakon 1492. ovdje su utočište našli muslimani i židovi prognani iz Španjolske, koji su donijeli andaluzijske kuće s dvorištima i crvenim krovovima. Grad je gotovo do španjolske okupacije 1920. bio zatvoren za kršćane. Zašto je plav, ne zna se pouzdano: jedni to pripisuju židovskim doseljenicima, drugi obrani od komaraca ili vrućine."],
+      sazetak: "A little blue town in the Rif Mountains where the walls, steps and doors are painted in every shade of the sky.",
+      prica: ["Moulay Ali ibn Rashid founded it in 1471 as a fortress against the Portuguese who were raiding the coast. After 1492 Muslims and Jews expelled from Spain found refuge here, bringing with them Andalusian houses with courtyards and red roofs. Almost until the Spanish occupation of 1920 the town was closed to Christians. Why it is blue nobody knows for certain: some attribute it to the Jewish settlers, others to protection from mosquitoes or the heat."],
       vidjeti: [
-        { ime: "Trg Uta el-Hammam", opis: "Srce medine zasjenjeno je dudovima i okruženo kavanama. Nad njim se diže Velika džamija s osmerokutnim minaretom, što je rijetkost u Maroku i trag andaluzijskih graditelja." },
-        { ime: "Kasba", opis: "Utvrda osnivača grada od crvene nabijene zemlje ima vrt, mali etnografski muzej i kulu s koje se vide plavi krovovi. U podrumu su ćelije s okovima, u kojima je 1926. kratko bio zatočen vođa rifskog ustanka Abd el-Krim." },
-        { ime: "Plave uličice medine", opis: "Boja se obnavlja više puta godišnje, vapnom pomiješanim s plavim pigmentom, obično pred blagdane. Gornji dijelovi zidova često su bijeli, pa pratite kako se nijanse mijenjaju od četvrti do četvrti." },
-        { ime: "Izvor Ras el-Maa", opis: "Na istočnom rubu medine iz stijene izbija potok koji je grad opskrbljivao vodom i pokretao mlinove. Žene ovdje i danas peru rublje i sagove u kamenim praonicama." },
-        { ime: "Španjolska džamija", opis: "Španjolci su je sagradili dvadesetih godina 20. stoljeća na brežuljku nasuprot gradu, ali je mještani nisu prihvatili. Do nje se hoda dvadeset minuta, a pogled na plavi grad pod planinom najljepši je u sumrak." }
+        { ime: "Uta el-Hammam Square", opis: "The heart of the medina is shaded by mulberry trees and ringed with cafes. Above it rises the Grand Mosque with its octagonal minaret, which is a rarity in Morocco and a trace of the Andalusian builders." },
+        { ime: "The Kasbah", opis: "The fortress of the town's founder, built of red rammed earth, has a garden, a small ethnographic museum and a tower with a view over the blue rooftops. In the basement are cells with shackles, where Abd el-Krim, the leader of the Rif uprising, was briefly held in 1926." },
+        { ime: "The blue alleys of the medina", opis: "The color is renewed several times a year, with lime mixed with blue pigment, usually ahead of the holidays. The upper parts of the walls are often white, so notice how the shades change from one quarter to the next." },
+        { ime: "Ras el-Maa spring", opis: "On the eastern edge of the medina a stream bursts from the rock, the one that supplied the town with water and powered its mills. Women still wash laundry and carpets here in the stone washhouses." },
+        { ime: "The Spanish Mosque", opis: "The Spanish built it in the 1920s on a hill facing the town, but the locals never took to it. It is a twenty-minute walk away, and the view of the blue town beneath the mountain is loveliest at dusk." }
       ],
       jesti: [
-        { ime: "Jben", opis: "Svježi kozji sir iz Rifa prodaje se umotan u palmino lišće i jede s maslinovim uljem i kruhom." },
-        { ime: "Bissara", opis: "Juha od boba ovdje je zimski doručak, a poslužuje se u glinenim zdjelicama u malim radnjama oko trga." },
-        { ime: "Tajine s kozletinom", opis: "U planinama se češće jede koza nego janje, pirjana sa suhim šljivama ili smokvama." }
+        { ime: "Jben", opis: "Fresh goat cheese from the Rif is sold wrapped in palm leaves and eaten with olive oil and bread." },
+        { ime: "Bissara", opis: "Here fava bean soup is a winter breakfast, served in small clay bowls in the little eateries around the square." },
+        { ime: "Goat tajine", opis: "In the mountains goat is eaten more often than lamb, braised with prunes or figs." }
       ],
       dozivjeti: [
-        { ime: "Izlet do slapova Akchour", opis: "Pola sata vožnje od grada staza vodi uz rijeku do slapova i do prirodnog kamenog luka zvanog Božji most, kroz nacionalni park Talassemtane." },
-        { ime: "Jutarnja šetnja prije gužve", opis: "Između sedam i devet ujutro uličice su prazne, mačke spavaju na stubama, a svjetlo je najbolje za fotografiranje." }
+        { ime: "A day trip to the Akchour waterfalls", opis: "Half an hour's drive from town a trail follows the river to the waterfalls and to a natural stone arch called God's Bridge, through Talassemtane National Park." },
+        { ime: "A morning walk before the crowds", opis: "Between seven and nine in the morning the alleys are empty, the cats are asleep on the steps and the light is at its best for photographs." }
       ],
       agencije: [
-        { ime: "Visit Morocco", opis: "Službena nacionalna turistička stranica s vodičem kroz Chefchaouen i Rif.", link: "https://www.visitmorocco.com/en" }
+        { ime: "Visit Morocco", opis: "The official national tourism website, with a guide to Chefchaouen and the Rif.", link: "https://www.visitmorocco.com/en" }
       ],
-      kada: "Travanj do lipnja i rujan do listopada. Zimi je kišovito i hladno, a mještane, osobito žene, ne fotografirajte bez pitanja."
+      kada: "April to June and September to October. Winter is rainy and cold, and you should not photograph the locals, women especially, without asking."
     },
     {
       id: "casablanca",
       ime: "Casablanca",
       vrsta: "grad",
-      sazetak: "Najveći grad i gospodarsko srce zemlje, s džamijom nad Atlantikom i ulicama u stilu art décoa.",
-      prica: ["Na mjestu berberskog naselja Anfa Portugalci su u 16. stoljeću podigli utvrdu Casa Branca, „bijelu kuću“. Do 1900. bila je to luka s dvadesetak tisuća stanovnika, a onda su je Francuzi odabrali za glavnu luku protektorata i sagradili novi grad širokih bulevara. Arhitekti su ondje spojili art déco s marokanskim lukovima i pločicama u stil zvan mauresque."],
+      sazetak: "The largest city and the economic heart of the country, with a mosque above the Atlantic and streets in the Art Deco style.",
+      prica: ["On the site of the Berber settlement of Anfa the Portuguese built the fortress of Casa Branca, the “white house,” in the 16th century. Until 1900 it was a port of some twenty thousand people, and then the French chose it as the main port of the protectorate and built a new city of wide boulevards. There the architects fused Art Deco with Moroccan arches and tiles into a style known as Mauresque."],
       vidjeti: [
-        { ime: "Džamija Hasana II.", opis: "Dovršena 1993. prema projektu Michela Pinseaua, ima minaret visok 210 metara i jedna je od najvećih na svijetu. Dio poda stoji nad oceanom, krov se otvara, a deset tisuća majstora šest je godina klesalo štuko, cedrovinu i mramor. Jedna je od rijetkih marokanskih džamija u koju se ulazi uz vođeni obilazak." },
-        { ime: "Art déco središte", opis: "Uz Bulevar Mohammeda V. i oko Trga Mohammeda V. podignite pogled na pročelja iz dvadesetih i tridesetih godina 20. stoljeća s balkonima od kovanog željeza i vijencima od pločica. Sudska palača i pošta pokazuju kako su Francuzi državnim zgradama davali marokansko lice." },
-        { ime: "Četvrt Habous", opis: "Francuski urbanisti sagradili su tridesetih godina 20. stoljeća „novu medinu“, urednu inačicu starog grada s arkadama. Ovdje se kupuju masline, papuče i knjige, a u poznatoj slastičarnici kolači od badema prodaju se na vagu." },
-        { ime: "Muzej marokanskog židovstva", opis: "Jedini je židovski muzej u arapskom svijetu, a čuva svitke Tore, nošnje i rekonstruiranu zlatarsku radionicu. Podsjeća da je sredinom 20. stoljeća u Maroku živjelo oko četvrt milijuna Židova." },
-        { ime: "Šetnica Ain Diab", opis: "Uz ocean se nižu kupališta, kavane i svjetionik El Hank. Nedjeljom ovamo dolazi cijeli grad, pa je to najbolje mjesto da se vidi suvremeni Maroko." }
+        { ime: "Hassan II Mosque", opis: "Completed in 1993 to a design by Michel Pinseau, it has a minaret 210 meters tall and is one of the largest in the world. Part of the floor stands over the ocean, the roof opens, and ten thousand craftsmen spent six years carving the stucco, cedar and marble. It is one of the few Moroccan mosques that non-Muslims can enter, on a guided tour." },
+        { ime: "The Art Deco downtown", opis: "Along Mohammed V Boulevard and around Mohammed V Square, raise your eyes to the facades from the 1920s and 1930s, with their wrought-iron balconies and tiled cornices. The courthouse and the post office show how the French gave government buildings a Moroccan face." },
+        { ime: "The Habous Quarter", opis: "In the 1930s French urban planners built a “new medina,” a tidy version of the old city with arcades. This is where people buy olives, slippers and books, and in a well-known pastry shop almond pastries are sold by weight." },
+        { ime: "Museum of Moroccan Judaism", opis: "It is the only Jewish museum in the Arab world, and it holds Torah scrolls, costumes and a reconstructed goldsmith's workshop. It is a reminder that in the middle of the 20th century about a quarter of a million Jews lived in Morocco." },
+        { ime: "The Ain Diab corniche", opis: "Beach clubs, cafes and the El Hank lighthouse line the oceanfront. On Sundays the whole city comes out here, which makes it the best place to see contemporary Morocco." }
       ],
       jesti: [
-        { ime: "Plodovi mora na Središnjoj tržnici", opis: "Na tržnici iz 1917. kupite ribu ili kamenice iz Oualidije, a okolni restorani ispeku ih za malu naknadu." },
-        { ime: "Kolači od badema", opis: "Gazelini roščići, punjeni bademovom pastom s vodom od narančina cvijeta, specijalitet su slastičarnica u četvrti Habous." }
+        { ime: "Seafood at the Central Market", opis: "At the market from 1917 you buy fish or oysters from Oualidia, and the surrounding restaurants will cook them for a small fee." },
+        { ime: "Almond pastries", opis: "Gazelle horns, filled with almond paste scented with orange blossom water, are the specialty of the pastry shops in the Habous Quarter." }
       ],
       dozivjeti: [
-        { ime: "Vođeni obilazak džamije Hasana II.", opis: "Obilasci na više jezika vode kroz molitvenu dvoranu, prostor za obredno pranje s fontanama nalik lotosu i hamam u podrumu.", link: "https://www.fmh2.ma/" },
-        { ime: "Šetnja art déco četvrti", opis: "Udruga Casamémoire, koja se bori za očuvanje graditeljske baštine 20. stoljeća, povremeno organizira vođene šetnje i dane otvorenih vrata." }
+        { ime: "A guided tour of the Hassan II Mosque", opis: "Tours in several languages take you through the prayer hall, the ablution room with its lotus-like fountains and the hammam in the basement.", link: "https://www.fmh2.ma/" },
+        { ime: "A walk through the Art Deco district", opis: "The Casamémoire association, which campaigns to preserve the architectural heritage of the 20th century, occasionally organizes guided walks and open days." }
       ],
       agencije: [
-        { ime: "Visit Casablanca", opis: "Službena turistička stranica grada.", link: "https://visitcasablanca.ma/" },
-        { ime: "Zaklada džamije Hasana II.", opis: "Službena stranica s rasporedom obilazaka.", link: "https://www.fmh2.ma/" }
+        { ime: "Visit Casablanca", opis: "The city's official tourism website.", link: "https://visitcasablanca.ma/" },
+        { ime: "Hassan II Mosque Foundation", opis: "The official website with the tour schedule.", link: "https://www.fmh2.ma/" }
       ],
-      kada: "Cijele godine, jer ocean ublažava vrućinu. Film „Casablanca“ sniman je u Hollywoodu, pa je kavana Rick's, otvorena 2004., zabavna kulisa, ali ne i povijesno mjesto."
+      kada: "All year round, because the ocean tempers the heat. The film “Casablanca” was shot in Hollywood, so Rick's Café, opened in 2004, is an entertaining stage set with no historical claim of its own."
     },
     {
       id: "rabat",
       ime: "Rabat",
       vrsta: "grad",
-      sazetak: "Mirna prijestolnica na ušću rijeke, s nedovršenim tornjem iz 12. stoljeća i rodama na rimskim ruševinama.",
-      prica: ["Almohadi su u 12. stoljeću na stijeni nad ušćem rijeke Bou Regreg podigli utvrđeni samostan, ribat, iz kojeg su kretali u pohode na Španjolsku. Sultan Yaqub al-Mansur namjeravao je ovdje sagraditi najveću džamiju na svijetu, ali je umro 1199. U 17. stoljeću naselili su se muslimani prognani iz Španjolske i sa susjednim Saléom osnovali gusarsku republiku. Francuzi su Rabat 1912. učinili prijestolnicom, a UNESCO ga je zaštitio 2012."],
+      sazetak: "A calm capital at the mouth of a river, with an unfinished tower from the 12th century and storks on the Roman ruins.",
+      prica: ["In the 12th century the Almohads built a fortified monastery, a ribat, on the cliff above the mouth of the Bou Regreg River, from which they set out on campaigns against Spain. Sultan Yaqub al-Mansur intended to build the largest mosque in the world here, but he died in 1199. In the 17th century Muslims expelled from Spain settled here and, together with neighboring Salé, founded a pirate republic. The French made Rabat the capital in 1912, and UNESCO listed it in 2012."],
       vidjeti: [
-        { ime: "Hasanov toranj", opis: "Minaret započet 1195. trebao je biti visok osamdesetak metara, a stao je na 44. Unutra se umjesto stuba uspinju rampe, kako bi se mujezin mogao popeti na konju. Oko njega stoji šuma od dvjestotinjak stupova, ostatak nedovršene džamije koju je dokrajčio potres 1755." },
-        { ime: "Mauzolej Mohammeda V.", opis: "Nasuprot tornju počivaju kralj koji je zemlju doveo do neovisnosti i njegovi sinovi, među njima Hasan II. Posjetitelji smiju na galeriju, s koje se gleda sarkofag od bijelog oniksa, dok u kutu čitač neprestano uči Kuran. Stražari na konjima rado se fotografiraju." },
-        { ime: "Kasba Udaja", opis: "Kroz monumentalna almohadska vrata Bab Oudaia ulazi se u tvrđavu čije su uličice obojene u bijelo i plavo. Kuće su podigli andaluzijski prognanici, a na vrhu je terasa s pogledom na ocean i grad Salé." },
-        { ime: "Chellah", opis: "Unutar zidina iz 14. stoljeća leže ostaci rimskog grada Sala Colonia i merinidska nekropola. Na minaretu i zidovima gnijezde se rode, a u bazenu žive jegulje kojima žene, prema starom vjerovanju, nose jaja da bi zatrudnjele." },
-        { ime: "Muzej moderne i suvremene umjetnosti Mohammed VI.", opis: "Otvoren 2014., prvi je veliki javni muzej sagrađen u Maroku nakon neovisnosti. Stalni postav vodi kroz marokansko slikarstvo 20. stoljeća, od prvih modernista do danas." }
+        { ime: "Hassan Tower", opis: "The minaret begun in 1195 was meant to be about eighty meters tall, and it stopped at 44. Inside, ramps climb in place of stairs, so that the muezzin could ride up on horseback. Around it stands a forest of some two hundred columns, the remains of the unfinished mosque that was finished off by the earthquake of 1755." },
+        { ime: "Mausoleum of Mohammed V", opis: "Opposite the tower lie the king who led the country to independence and his sons, among them Hassan II. Visitors are allowed onto the gallery, which looks down on the sarcophagus of white onyx, while in a corner a reader recites the Quran without pause. The mounted guards are happy to be photographed." },
+        { ime: "Kasbah of the Udayas", opis: "Through the monumental Almohad gate of Bab Oudaia you enter a fortress whose alleys are painted white and blue. The houses were built by Andalusian exiles, and at the top there is a terrace with a view of the ocean and the city of Salé." },
+        { ime: "Chellah", opis: "Within the 14th-century walls lie the remains of the Roman town of Sala Colonia and a Marinid necropolis. Storks nest on the minaret and the walls, and in the pool live eels to which women, according to an old belief, bring eggs in the hope of conceiving." },
+        { ime: "Mohammed VI Museum of Modern and Contemporary Art", opis: "Opened in 2014, it is the first large public museum built in Morocco since independence. The permanent collection leads you through Moroccan painting of the 20th century, from the first modernists to the present day." }
       ],
       jesti: [
-        { ime: "Čaj i kolači u Maurskoj kavani", opis: "Na terasi u podnožju Kasbe Udaja, uz andaluzijski vrt, pije se čaj od mente uz kolače s bademima i pogled na rijeku." },
-        { ime: "Riba u Saléu i na ušću", opis: "Uz rijeku se jedu pržene srdele i lignje, a preko vode vas za sitan novac prevoze plavi čamci na vesla." }
+        { ime: "Tea and pastries at the Café Maure", opis: "On the terrace at the foot of the Kasbah of the Udayas, beside the Andalusian garden, you drink mint tea with almond pastries and a view of the river." },
+        { ime: "Fish in Salé and at the river mouth", opis: "Fried sardines and squid are eaten by the river, and blue rowboats ferry you across the water for small change." }
       ],
       dozivjeti: [
-        { ime: "Šetnja medinom i Rue des Consuls", opis: "Ulica u kojoj su do 1912. stanovali strani konzuli danas je tržnica sagova, a rabatski su sagovi poznati po crvenoj podlozi i središnjem medaljonu." },
-        { ime: "Nacionalni muzeji", opis: "Nacionalna zaklada muzeja vodi u Rabatu i Muzej povijesti i civilizacija, u kojem su brončani kipovi iz rimskog Volubilisa.", link: "https://www.fnm.ma/" }
+        { ime: "A walk through the medina and the Rue des Consuls", opis: "The street where foreign consuls lived until 1912 is now a carpet market, and Rabat carpets are known for their red ground and central medallion." },
+        { ime: "The national museums", opis: "The National Foundation of Museums also runs the Museum of History and Civilizations in Rabat, which holds the bronze statues from Roman Volubilis.", link: "https://www.fnm.ma/" }
       ],
       agencije: [
-        { ime: "Visit Rabat", opis: "Službena turistička stranica regije Rabat-Salé-Kénitra.", link: "https://www.visitrabat.com/" },
-        { ime: "Fondation Nationale des Musées", opis: "Upravlja državnim muzejima u Rabatu i drugim gradovima.", link: "https://www.fnm.ma/" }
+        { ime: "Visit Rabat", opis: "The official tourism website of the Rabat-Salé-Kénitra region.", link: "https://www.visitrabat.com/" },
+        { ime: "Fondation Nationale des Musées", opis: "It manages the state museums in Rabat and other cities.", link: "https://www.fnm.ma/" }
       ],
-      kada: "Proljeće i jesen. Rabat je sat vožnje vlakom od Casablance i znatno je mirniji od ostalih carskih gradova, pa je dobar za predah."
+      kada: "Spring and fall. Rabat is an hour by train from Casablanca and is considerably calmer than the other imperial cities, so it is a good place to catch your breath."
     },
     {
       id: "essaouira",
       ime: "Essaouira",
       vrsta: "gradić",
-      sazetak: "Bijelo-plava utvrđena luka na vjetrovitom Atlantiku, puna galebova, glazbe i mirisa pečene ribe.",
-      prica: ["Na otočićima pred gradom Feničani su, a poslije i kralj Juba II., proizvodili grimiznu boju od morskih puževa. Današnji grad dao je šezdesetih godina 18. stoljeća sagraditi sultan Mohammed ben Abdallah, koji je želio luku otvorenu Europi i posao povjerio francuskom inženjeru Théodoreu Cornutu. Zato Essaouira, tada zvana Mogador, ima ravne ulice i bedeme europskog tipa. UNESCO ju je zaštitio 2001."],
+      sazetak: "A white and blue fortified port on the windy Atlantic, full of seagulls, music and the smell of grilled fish.",
+      prica: ["On the islets off the town the Phoenicians, and later King Juba II, produced purple dye from sea snails. The present town was built in the 1760s on the orders of Sultan Mohammed ben Abdallah, who wanted a port open to Europe and entrusted the job to the French engineer Théodore Cornut. That is why Essaouira, then called Mogador, has straight streets and ramparts of a European type. UNESCO listed it in 2001."],
       vidjeti: [
-        { ime: "Skala de la Ville", opis: "Na morskom bedemu u nizu stoje brončani topovi iz 18. i 19. stoljeća, mnogi liveni u Španjolskoj i Nizozemskoj, što piše na cijevima. Pod bedemom su radionice u kojima se obrađuje mirisno drvo tuje." },
-        { ime: "Ribarska luka", opis: "Stotine plavih čamaca zbijene su pod kulom Skala du Port, a ribari pred podne iskrcavaju srdele dok nad njima kruže galebovi. Na obližnjim štandovima birate ribu koju vam odmah ispeku." },
-        { ime: "Medina", opis: "Za razliku od drugih marokanskih medina, ova ima ravne glavne ulice koje se sijeku pod pravim kutom, pa se u njoj ne možete izgubiti. Bijeli zidovi i plave grilje štite od sunca i soli." },
-        { ime: "Mellah i Bayt Dakira", opis: "U 19. stoljeću Židovi su činili gotovo polovicu stanovnika i vodili trgovinu sultana. Kuća sjećanja Bayt Dakira, otvorena 2020. uz obnovljenu sinagogu, čuva fotografije, predmete i priče te zajednice." },
-        { ime: "Plaža i Grimizni otoci", opis: "Pasati pušu gotovo cijele godine, pa je zaljev pun zmajeva i dasaka. Otoci pred obalom rezervat su Eleonorina sokola, koji se ovdje gnijezdi ljeti prije seobe na Madagaskar." }
+        { ime: "Skala de la Ville", opis: "On the sea rampart stands a row of bronze cannons from the 18th and 19th centuries, many of them cast in Spain and the Netherlands, as the inscriptions on the barrels tell you. Beneath the rampart are workshops where fragrant thuya wood is worked." },
+        { ime: "The fishing port", opis: "Hundreds of blue boats are packed together beneath the Skala du Port tower, and before noon the fishermen unload sardines while the gulls circle overhead. At the nearby stalls you choose your fish and they grill it for you on the spot." },
+        { ime: "The medina", opis: "Unlike other Moroccan medinas, this one has straight main streets that cross at right angles, so you cannot get lost in it. The white walls and blue shutters protect against sun and salt." },
+        { ime: "The mellah and Bayt Dakira", opis: "In the 19th century Jews made up almost half the population and ran the sultan's trade. Bayt Dakira, the House of Memory, opened in 2020 beside a restored synagogue, preserves that community's photographs, objects and stories." },
+        { ime: "The beach and the Purple Islands", opis: "The trade winds blow almost all year, so the bay is full of kites and boards. The islands off the coast are a reserve for Eleonora's falcon, which nests here in summer before migrating to Madagascar." }
       ],
       jesti: [
-        { ime: "Riba na žaru u luci", opis: "Srdele, lignje i orade biraju se na štandu i peku na ugljenu, uz salatu od rajčice i kruh." },
-        { ime: "Amlou i arganovo ulje", opis: "Essaouira leži usred kraja argana, pa se namaz i ulje kupuju izravno od ženskih zadruga u okolici." }
+        { ime: "Grilled fish at the port", opis: "Sardines, squid and sea bream are chosen at the stall and grilled over charcoal, with a tomato salad and bread." },
+        { ime: "Amlou and argan oil", opis: "Essaouira lies in the middle of argan country, so the spread and the oil are bought directly from the women's cooperatives nearby." }
       ],
       dozivjeti: [
-        { ime: "Festival Gnaoua", opis: "Krajem lipnja majstori gnawe sviraju s jazz i rock glazbenicima iz cijeloga svijeta na trgovima i pod bedemima.", link: "https://www.festival-gnaoua.net/" },
-        { ime: "Radionice tuje", opis: "Majstori intarzije u drvo tuje umeću limun, ebanovinu i sedef, a kutije mirišu godinama." }
+        { ime: "Gnaoua Festival", opis: "At the end of June the masters of gnawa play with jazz and rock musicians from around the world in the squares and beneath the ramparts.", link: "https://www.festival-gnaoua.net/" },
+        { ime: "The thuya workshops", opis: "The marquetry masters inlay thuya wood with lemonwood, ebony and mother-of-pearl, and the boxes stay fragrant for years." }
       ],
       agencije: [
-        { ime: "Visit Morocco", opis: "Službena nacionalna turistička stranica s vodičem kroz Essaouiru.", link: "https://www.visitmorocco.com/en" }
+        { ime: "Visit Morocco", opis: "The official national tourism website, with a guide to Essaouira.", link: "https://www.visitmorocco.com/en" }
       ],
-      kada: "Od travnja do listopada, kada je ovdje svježe dok unutrašnjost gori. Vjetar je najjači ljeti, pa ponesite vjetrovku i u kolovozu."
+      kada: "From April to October, when it is cool here while the interior bakes. The wind is strongest in summer, so bring a windbreaker even in August."
     },
     {
       id: "sahara-merzouga",
-      ime: "Sahara (Merzouga)",
+      ime: "The Sahara (Merzouga)",
       vrsta: "priroda",
-      sazetak: "Narančaste dine Erg Chebbi na rubu Sahare, do kojih se dolazi kroz doline palmi i gradove od blata.",
-      prica: ["Erg Chebbi more je dina dugo tridesetak kilometara, s vrhovima do 150 metara, koje se naglo diže iz crne kamene ravnice. Legenda kaže da su dine kazna bogatoj obitelji koja je siromašnoj ženi uskratila gostoprimstvo. Obližnji Rissani nasljednik je Sijilmase, srednjovjekovnog grada u kojem su završavale karavane sa zlatom iz Malija, a iz ove je oaze potekla i današnja kraljevska dinastija."],
+      sazetak: "The orange dunes of Erg Chebbi on the edge of the Sahara, reached through valleys of palms and towns of mud.",
+      prica: ["Erg Chebbi is a sea of dunes some thirty kilometers long, with crests of up to 150 meters, that rises abruptly out of a black stony plain. Legend says the dunes are a punishment for a wealthy family who refused hospitality to a poor woman. Nearby Rissani is the heir of Sijilmasa, the medieval city where the caravans carrying gold from Mali ended their journey, and the present royal dynasty also came from this oasis."],
       vidjeti: [
-        { ime: "Erg Chebbi", opis: "Pijesak mijenja boju od ružičaste u zoru do bakrene u sumrak. Na vrhu dine prođite prstima kroz pijesak: na površini je topao, a nekoliko centimetara dublje hladan." },
-        { ime: "Rissani", opis: "Na tržnici koja se održava nedjeljom, utorkom i četvrtkom postoji i parkiralište za magarce. U blizini su mauzolej Moulaya Alija Cherifa, praoca dinastije, i ruševine Sijilmase." },
-        { ime: "Khamlia", opis: "U selu žive potomci ljudi dovedenih iz zapadne Afrike, koji u bijelim haljama sviraju i plešu glazbu gnawa. Posjet uz čaj traje pola sata i najneposredniji je susret s tom tradicijom." },
-        { ime: "Fosili iz Erfouda", opis: "Prije nekoliko stotina milijuna godina ovdje je bilo more, pa je crni kamen pun trilobita i ravnih školjaka ortocerasa. U radionicama se ploče režu i poliraju u stolove i umivaonike." },
-        { ime: "Dolina Ziz", opis: "Na putu prema dinama cesta se s visoravni spušta do zelene rijeke palmi, dugačke desecima kilometara. S vidikovca se jasno vidi kako život u pustinji ovisi o uskoj traci vode." }
+        { ime: "Erg Chebbi", opis: "The sand changes color from pink at dawn to copper at dusk. At the top of a dune, run your fingers through the sand: on the surface it is warm, and a few centimeters down it is cold." },
+        { ime: "Rissani", opis: "The market, held on Sundays, Tuesdays and Thursdays, even has a parking lot for donkeys. Nearby are the mausoleum of Moulay Ali Cherif, the forefather of the dynasty, and the ruins of Sijilmasa." },
+        { ime: "Khamlia", opis: "The village is home to the descendants of people brought from West Africa, who play and dance gnawa music in white robes. A visit over tea lasts half an hour and is the most direct encounter with that tradition." },
+        { ime: "The fossils of Erfoud", opis: "Several hundred million years ago there was a sea here, so the black stone is full of trilobites and the straight shells of orthoceras. In the workshops the slabs are cut and polished into tables and washbasins." },
+        { ime: "The Ziz Valley", opis: "On the way to the dunes the road descends from the plateau to a green river of palms dozens of kilometers long. From the lookout you can see clearly how life in the desert depends on a narrow ribbon of water." }
       ],
       jesti: [
-        { ime: "Madfouna", opis: "Okrugli kruh punjen mesom, lukom, jajima i začinima peče se u pijesku ili u peći, a zovu ga berberskom pizzom." },
-        { ime: "Datulje medjool", opis: "Oaza Tafilalt domovina je najcjenjenije sorte datulja, a u listopadu se u Erfoudu održava sajam datulja." }
+        { ime: "Madfouna", opis: "A round bread stuffed with meat, onions, eggs and spices is baked in the sand or in an oven, and it is known as Berber pizza." },
+        { ime: "Medjool dates", opis: "The Tafilalt oasis is the homeland of the most prized variety of dates, and in October a date fair is held in Erfoud." }
       ],
       dozivjeti: [
-        { ime: "Noć u pustinjskom kampu", opis: "Do šatora se jaše na devi sat vremena pred zalazak sunca, a navečer slijede tajine, bubnjevi uz vatru i nebo bez ijednog svjetla." },
-        { ime: "Izlazak sunca na dini", opis: "Uspon bosih nogu traje dvadesetak minuta i isplati se zbog tišine i sjena koje se izdužuju po grebenima." }
+        { ime: "A night in a desert camp", opis: "You ride a camel to the tents for an hour before sunset, and the evening brings tajine, drums by the fire and a sky without a single light." },
+        { ime: "Sunrise on a dune", opis: "The barefoot climb takes about twenty minutes and is worth it for the silence and the shadows lengthening along the ridges." }
       ],
       agencije: [
-        { ime: "Visit Morocco", opis: "Službena nacionalna turistička stranica s informacijama o regiji Drâa-Tafilalet.", link: "https://www.visitmorocco.com/en" },
-        { ime: "Engaging Cultures", opis: "Organizator privatnih kulturnih tura po Maroku koje uključuju Saharu, s lokalnim vodičima.", link: "https://www.engagingcultures.com/" }
+        { ime: "Visit Morocco", opis: "The official national tourism website, with information on the Drâa-Tafilalet region.", link: "https://www.visitmorocco.com/en" },
+        { ime: "Engaging Cultures", opis: "An organizer of private cultural tours of Morocco that include the Sahara, with local guides.", link: "https://www.engagingcultures.com/" }
       ],
-      kada: "Listopad do travnja. Merzouga je devet do deset sati vožnje od Marakeša, pa planirajte najmanje tri dana i noćenje u dolini Dades ili Todra."
+      kada: "October to April. Merzouga is a nine to ten hour drive from Marrakesh, so plan on at least three days and an overnight stay in the Dades or Todra valley."
     },
     {
       id: "atlas-i-ait-benhaddou",
-      ime: "Atlas i Aït Benhaddou",
+      ime: "The Atlas and Aït Benhaddou",
       vrsta: "regija",
-      sazetak: "Planinski prijevoji, sela od blata i utvrđeno selo koje poznajete iz desetak filmova.",
-      prica: ["Visoki Atlas dijeli plodne ravnice od Sahare, a preko njega su stoljećima prelazile karavane sa solju, zlatom i robljem. Uz te su putove amaziške obitelji gradile kasbe i utvrđena sela, ksare, od nabijene zemlje i slame. Početkom 20. stoljeća prijevoje je nadzirala obitelj Glaoui, čiji je glavar Thami bio paša Marakeša i saveznik Francuza. Potres u rujnu 2023. teško je pogodio sela oko Toubkala, koja se i dalje obnavljaju."],
+      sazetak: "Mountain passes, villages of mud and a fortified village you know from a dozen films.",
+      prica: ["The High Atlas separates the fertile plains from the Sahara, and for centuries caravans carrying salt, gold and slaves crossed over it. Along those routes Amazigh families built kasbahs and fortified villages, called ksars, out of rammed earth and straw. At the beginning of the 20th century the passes were controlled by the Glaoui family, whose head, Thami, was the pasha of Marrakesh and an ally of the French. The earthquake of September 2023 hit the villages around Toubkal hard, and they are still being rebuilt."],
       vidjeti: [
-        { ime: "Ksar Aït Benhaddou", opis: "Selo od crvene zemlje uz rijeku Ounilu zaštićeno je pri UNESCO-u od 1987. Kule visokih kuća ukrašene su geometrijskim uzorcima utisnutima u blato, a na vrhu brda stoji zajednička žitnica. Ovdje su snimani „Gladijator“, „Lawrence od Arabije“ i „Igra prijestolja“." },
-        { ime: "Prijevoj Tizi n'Tichka", opis: "Cesta koju su Francuzi probili tridesetih godina 20. stoljeća penje se na 2260 metara. Uz put prodavači nude minerale i fosile, a krajolik se od zelenih dolina mijenja u gole crvene planine." },
-        { ime: "Kasba Telouet", opis: "Palača obitelji Glaoui izvana je napola urušena, a iznutra skriva dvorane s pločicama, štukom i oslikanim stropovima. Napuštena je nakon 1956., kada je paša pao u nemilost zbog suradnje s Francuzima." },
-        { ime: "Ouarzazate", opis: "Grad na ulazu u pustinju zovu marokanskim Hollywoodom zbog filmskih studija s kulisama Egipta i Rima. Kasba Taourirt u središtu bila je još jedna rezidencija Glaouijevih, s labirintom soba." },
-        { ime: "Imlil i Toubkal", opis: "Selo na 1740 metara polazište je za uspon na najviši vrh sjeverne Afrike. I bez uspona vrijedi prošetati terasama s orasima i trešnjama do sela Aroumd." },
-        { ime: "Dolina ruža", opis: "Oko gradića Kelaat M'Gouna uz živice rastu damaščanske ruže, od kojih se pravi ružina vodica. Beru se u zoru u travnju i svibnju." }
+        { ime: "The ksar of Aït Benhaddou", opis: "The village of red earth beside the Ounila River has been listed by UNESCO since 1987. The towers of its tall houses are decorated with geometric patterns pressed into the mud, and a communal granary stands at the top of the hill. “Gladiator,” “Lawrence of Arabia” and “Game of Thrones” were all filmed here." },
+        { ime: "Tizi n'Tichka pass", opis: "The road the French cut through in the 1930s climbs to 2,260 meters. Along the way vendors offer minerals and fossils, and the landscape changes from green valleys to bare red mountains." },
+        { ime: "Telouet Kasbah", opis: "The palace of the Glaoui family is half collapsed on the outside, while inside it hides halls with tiles, stucco and painted ceilings. It was abandoned after 1956, when the pasha fell from favor for collaborating with the French." },
+        { ime: "Ouarzazate", opis: "The town at the gateway to the desert is called the Hollywood of Morocco for its film studios, with their sets of Egypt and Rome. The Taourirt Kasbah in the center was another residence of the Glaoui family, with a labyrinth of rooms." },
+        { ime: "Imlil and Toubkal", opis: "The village at 1,740 meters is the starting point for the ascent of the highest peak in North Africa. Even without the climb it is worth walking across the terraces of walnut and cherry trees to the village of Aroumd." },
+        { ime: "The Valley of Roses", opis: "Around the small town of Kelaat M'Gouna damask roses grow along the hedgerows, and rose water is made from them. They are picked at dawn in April and May." }
       ],
       jesti: [
-        { ime: "Berberski tajine", opis: "U planinama se tajine kuha na ugljenu, s povrćem složenim u stožac nad mesom, i jede s kruhom tafarnout iz zemljane peći." },
-        { ime: "Berberski omlet", opis: "Jaja se peku u tajinu, u umaku od rajčice, luka i kumina, što je čest ručak uz cestu preko Atlasa." },
-        { ime: "Orasi i med iz Imlila", opis: "Dolina je poznata po orasima i tamnom planinskom medu, koji se nude uz čaj." }
+        { ime: "Berber tajine", opis: "In the mountains tajine is cooked over charcoal, with the vegetables stacked in a cone over the meat, and eaten with tafarnout bread from an earthen oven." },
+        { ime: "Berber omelet", opis: "Eggs are cooked in a tajine, in a sauce of tomatoes, onions and cumin, which makes a common roadside lunch on the way over the Atlas." },
+        { ime: "Walnuts and honey from Imlil", opis: "The valley is known for its walnuts and dark mountain honey, which are offered with tea." }
       ],
       dozivjeti: [
-        { ime: "Pješačenje s planinskim vodičem iz Imlila", opis: "Licencirani vodiči iz doline vode jednodnevne šetnje od sela do sela i uspone na Toubkal. Kasbah du Toubkal, kuća koju vodi lokalna zajednica, organizira izlete i dio prihoda ulaže u sela.", link: "https://www.kasbahdutoubkal.com/" },
-        { ime: "Svitanje u Aït Benhaddouu", opis: "Većina posjetitelja dolazi oko podneva, pa je selo u zoru gotovo prazno, a zidovi su u prvom svjetlu boje bakra." }
+        { ime: "Hiking with a mountain guide from Imlil", opis: "Licensed guides from the valley lead day walks from village to village and ascents of Toubkal. The Kasbah du Toubkal, a lodge run by the local community, organizes excursions and invests part of its income in the villages.", link: "https://www.kasbahdutoubkal.com/" },
+        { ime: "Dawn in Aït Benhaddou", opis: "Most visitors arrive around noon, so at dawn the village is almost empty, and in the first light the walls are the color of copper." }
       ],
       agencije: [
-        { ime: "Visit Morocco", opis: "Službena nacionalna turistička stranica s vodičem kroz Visoki Atlas i Ouarzazate.", link: "https://www.visitmorocco.com/en" },
-        { ime: "Kasbah du Toubkal", opis: "Planinska kuća u Imlilu koja organizira pješačenja s lokalnim vodičima.", link: "https://www.kasbahdutoubkal.com/" }
+        { ime: "Visit Morocco", opis: "The official national tourism website, with a guide to the High Atlas and Ouarzazate.", link: "https://www.visitmorocco.com/en" },
+        { ime: "Kasbah du Toubkal", opis: "A mountain lodge in Imlil that organizes hikes with local guides.", link: "https://www.kasbahdutoubkal.com/" }
       ],
-      kada: "Travanj do lipnja i rujan do listopada. Zimi snijeg zna zatvoriti prijevoj, a ljeti je na Atlasu ugodno dok je u Aït Benhaddouu vrlo vruće."
+      kada: "April to June and September to October. In winter snow can close the pass, and in summer the Atlas is pleasant while Aït Benhaddou is very hot."
     },
     {
       id: "tanger",
-      ime: "Tanger",
+      ime: "Tangier",
       vrsta: "grad",
-      sazetak: "Bijeli grad na vratima Sredozemlja, nekadašnja međunarodna zona špijuna, slikara i pisaca.",
-      prica: ["Tanger gleda na Gibraltarski tjesnac i zato su ga željeli svi: Kartažani, Rimljani, Arapi, Portugalci, pa čak i Englezi, koji su ga dobili u miraz 1661. i držali dvadesetak godina. Od 1923. do 1956. bio je međunarodna zona pod upravom više država, raj za bankare, krijumčare i umjetnike. Ovdje je Matisse slikao pogled s hotelskog prozora, a Paul Bowles pisao pola stoljeća. Danas je grad obnovljen i brzim vlakom povezan s Casablancom."],
+      sazetak: "A white city at the gates of the Mediterranean, the former international zone of spies, painters and writers.",
+      prica: ["Tangier looks out on the Strait of Gibraltar, which is why everyone wanted it: the Carthaginians, the Romans, the Arabs, the Portuguese and even the English, who received it as a dowry in 1661 and held it for some twenty years. From 1923 to 1956 it was an international zone administered by several countries, a paradise for bankers, smugglers and artists. Matisse painted the view from his hotel window here, and Paul Bowles wrote here for half a century. Today the city has been renovated and is linked to Casablanca by high-speed train."],
       vidjeti: [
-        { ime: "Kasba i Muzej Kasbe", opis: "Na najvišoj točki medine stoji sultanova palača Dar el-Makhzen iz 17. stoljeća, danas muzej sredozemnih kultura. Potražite rimski mozaik Venerine plovidbe iz Volubilisa i vrata Bab el-Bahr, kroz koja se otvara pogled na Španjolsku." },
-        { ime: "Američko poslanstvo", opis: "Sultan Moulay Suliman darovao je zgradu SAD-u 1821. i ona je prvi američki državni posjed u inozemstvu. U muzeju je izloženo pismo Georgea Washingtona sultanu te soba posvećena Paulu Bowlesu." },
-        { ime: "Grand Socco i Petit Socco", opis: "Veliki trg pred medinom službeno se zove Trg 9. travnja 1947., po govoru kojim je Mohammed V. ovdje zatražio neovisnost. Mali trg u medini bio je sredinom 20. stoljeća središte kavana u kojima su sjedili špijuni i pisci beat generacije." },
-        { ime: "Rt Spartel i Herkulove špilje", opis: "Svjetionik iz 1864. označava mjesto gdje se Atlantik susreće sa Sredozemljem. U obližnjoj špilji otvor prema moru ima oblik Afrike okrenute naopako, a mit kaže da se ovdje Herkul odmarao nakon što je razdvojio Europu i Afriku." },
-        { ime: "Grob Ibn Battute", opis: "U uličici medine skromna je kapelica koja se pripisuje najvećem putniku srednjeg vijeka, rođenom u Tangeru 1304. Povjesničari nisu sigurni počiva li doista ondje, ali mjesto vrijedi potražiti zbog priče." }
+        { ime: "The Kasbah and the Kasbah Museum", opis: "At the highest point of the medina stands the sultan's palace of Dar el-Makhzen from the 17th century, now a museum of Mediterranean cultures. Look for the Roman mosaic of the Voyage of Venus from Volubilis and for the Bab el-Bahr gate, which opens onto a view of Spain." },
+        { ime: "The American Legation", opis: "Sultan Moulay Suliman gave the building to the USA in 1821, and it is the first property that country ever owned abroad. The museum displays a letter from George Washington to the sultan and a room dedicated to Paul Bowles." },
+        { ime: "The Grand Socco and the Petit Socco", opis: "The large square in front of the medina is officially called April 9, 1947 Square, after the speech in which Mohammed V called for independence here. The small square inside the medina was, in the middle of the 20th century, the hub of the cafes where spies and the writers of the Beat Generation sat." },
+        { ime: "Cape Spartel and the Caves of Hercules", opis: "The lighthouse from 1864 marks the place where the Atlantic meets the Mediterranean. In the nearby cave the opening toward the sea has the shape of Africa in mirror image, and the myth says Hercules rested here after he had separated Europe and Africa." },
+        { ime: "The tomb of Ibn Battuta", opis: "In an alley of the medina there is a modest shrine attributed to the greatest traveler of the Middle Ages, born in Tangier in 1304. Historians are not sure whether he really rests there, but the place is worth seeking out for the story." }
       ],
       jesti: [
-        { ime: "Riba i plodovi mora", opis: "U ribljim restoranima kraj luke i u medini poslužuju se riblja juha, pržena riba i tajine od sabljarke." },
-        { ime: "Čaj od mente u kavani Hafa", opis: "Na terasama usječenima u liticu od 1921. pije se čaj s pogledom na tjesnac, a ovdje su sjedili Bowles i Rolling Stonesi." },
-        { ime: "Kaliente", opis: "Topla pita od slanutkova brašna, nasljeđe španjolskih Židova, prodaje se na ulici na komad, s kuminom i ljutom paprikom." }
+        { ime: "Fish and seafood", opis: "The fish restaurants near the port and in the medina serve fish soup, fried fish and swordfish tajine." },
+        { ime: "Mint tea at Café Hafa", opis: "On terraces cut into the cliff, tea has been drunk since 1921 with a view of the strait, and Bowles and the Rolling Stones both sat here." },
+        { ime: "Kaliente", opis: "A warm chickpea flour pie, a legacy of the Spanish Jews, is sold in the street by the slice, with cumin and hot pepper." }
       ],
       dozivjeti: [
-        { ime: "Posjet Američkom poslanstvu", opis: "Muzej i istraživački centar u srcu medine priča dva stoljeća odnosa Maroka i SAD-a i čuva zbirku slika iz doba međunarodne zone.", link: "https://legation.org/" },
-        { ime: "Zalazak sunca s Trga lijenčina", opis: "Na Terrasse des Paresseux, uz stare topove, mještani predvečer stoje i gledaju brodove i španjolsku obalu." }
+        { ime: "A visit to the American Legation", opis: "The museum and research center in the heart of the medina tells the story of two centuries of relations between Morocco and the USA and holds a collection of paintings from the days of the international zone.", link: "https://legation.org/" },
+        { ime: "Sunset from the Idlers' Terrace", opis: "On the Terrasse des Paresseux, beside the old cannons, the locals stand toward evening and watch the ships and the Spanish coast." }
       ],
       agencije: [
-        { ime: "Visit Morocco", opis: "Službena nacionalna turistička stranica s vodičem kroz Tanger.", link: "https://www.visitmorocco.com/en" },
-        { ime: "Tangier American Legation", opis: "Muzej i kulturni centar u nekadašnjem američkom poslanstvu.", link: "https://legation.org/" }
+        { ime: "Visit Morocco", opis: "The official national tourism website, with a guide to Tangier.", link: "https://www.visitmorocco.com/en" },
+        { ime: "Tangier American Legation", opis: "A museum and cultural center in the former legation of the USA.", link: "https://legation.org/" }
       ],
-      kada: "Svibanj do listopada. Trajekt iz španjolske Tarife plovi oko sat vremena, pa se Tanger lako spaja s putovanjem po Andaluziji."
+      kada: "May to October. The ferry from Tarifa in Spain takes about an hour, so Tangier is easy to combine with a trip around Andalusia."
     }
   ],
   izvori: [
-    { ime: "Visit Morocco, Marokanska nacionalna turistička organizacija", url: "https://www.visitmorocco.com/en" },
+    { ime: "Visit Morocco, Moroccan National Tourist Office", url: "https://www.visitmorocco.com/en" },
     { ime: "Visit Marrakech", url: "https://visitmarrakech.com/" },
     { ime: "Jardin Majorelle", url: "https://www.jardinmajorelle.com/en/" },
     { ime: "Fondation de la Mosquée Hassan II", url: "https://www.fmh2.ma/" },

@@ -5,7 +5,7 @@ window.ATLAS["kambodza"] = {
   regija: "Jugoistočna Azija",
   sazetak: "Zemlja koja je sagradila Angkor, preživjela najmračnije poglavlje 20. stoljeća i dočekuje putnike s osmijehom koji se dugo pamti.",
   uvod: [
-    "Kambodža je nasljednica Kmerskog Carstva, koje je od 9. do 15. stoljeća vladalo velikim dijelom jugoistočne Azije iz Angkora, grada hramova, kanala i golemih umjetnih jezera. Angkor Wat toliko je važan za identitet zemlje da se nalazi na državnoj zastavi, što nema nijedna druga građevina na svijetu u tolikoj mjeri.",
+    "Kambodža je nasljednica Kmerskog Carstva, koje je od 9. do 15. stoljeća vladalo velikim dijelom jugoistočne Azije iz Angkora, grada hramova, kanala i golemih umjetnih jezera. Angkor Wat toliko je važan za identitet zemlje da se nalazi u samom središtu državne zastave.",
     "Nakon pada Angkora zemlja je stoljećima bila stiješnjena između jačih susjeda, Sijama i Vijetnama, a 1863. postala je francuski protektorat. Neovisnost je stekla 1953. pod kraljem Norodomom Sihanoukom. Zatim je došla tragedija: Crveni Kmeri pod vodstvom Pola Pota vladali su od travnja 1975. do siječnja 1979. i u pokušaju stvaranja seljačke utopije ispraznili gradove, ukinuli novac i škole te prouzročili smrt oko dva milijuna ljudi, otprilike četvrtine stanovništva.",
     "Današnja Kambodža vrlo je mlada zemlja, jer je većina stanovnika rođena nakon tog razdoblja. Uz hramove ćete ovdje upoznati i naraštaj koji iznova uči plesove, zanate i glazbu što su gotovo nestali zajedno s umjetnicima koji su ih čuvali."
   ],
@@ -48,7 +48,7 @@ window.ATLAS["kambodza"] = {
     "Rijeka Tonle Sap dvaput godišnje mijenja smjer toka. U kišnoj sezoni nabujali Mekong gura vodu uzvodno, pa se jezero Tonle Sap poveća nekoliko puta.",
     "Kmerska abeceda ima 74 slova i smatra se jednom od najduljih na svijetu.",
     "U gradiću Skuonu pržene tarantule prodaju se kao zalogaj uz cestu. Navika potječe iz godina gladi pod Crvenim Kmerima.",
-    "Kambodža nema nijedan restoran lanca McDonald's.",
+    "Zastava Kambodže jedna je od vrlo rijetkih državnih zastava na kojima je prikazana stvarna građevina, hram Angkor Wat.",
     "Rođendani se tradicionalno nisu slavili, pa mnogi stariji Kambodžani ne znaju točan datum svojeg rođenja.",
     "Divovski afrički štakori u Siem Reapu dresirani su da njuhom pronalaze zaostale nagazne mine i dovoljno su lagani da ih ne aktiviraju."
   ],
@@ -66,7 +66,7 @@ window.ATLAS["kambodza"] = {
         { ime: "Angkor Wat", opis: "Najveći vjerski spomenik na svijetu dao je sagraditi kralj Suryavarman II. u prvoj polovici 12. stoljeća i posvetio ga bogu Višnuu. Neobično je što gleda na zapad, stranu zalaska i smrti, pa se smatra da je zamišljen i kao kraljev mauzolej. U galerijama prizemlja pratite reljef Bućkanje mliječnog mora, na kojem bogovi i demoni povlače golemu zmiju kao uže." },
         { ime: "Angkor Thom i Bayon", opis: "Utvrđeni grad kralja Jayavarmana VII. s kraja 12. stoljeća ima u središtu hram Bayon, s čijih tornjeva gleda više od dvjesto golemih nasmiješenih lica. I danas se raspravlja prikazuju li bodhisattvu suosjećanja ili samoga kralja. Na vanjskim reljefima potražite prizore svakodnevice: tržnicu, borbu pijetlova i porod." },
         { ime: "Ta Prohm", opis: "Kralj Jayavarman VII. posvetio je ovaj samostan 1186. svojoj majci. Restauratori su ga namjerno ostavili u zagrljaju džungle, pa korijenje golemih stabala teče preko zidova poput voska. Na jednom dovratku potražite sitni reljef životinje koja neobično podsjeća na stegosaura." },
-        { ime: "Banteay Srei", opis: "Mali hram od ružičastog pješčenjaka iz 967. godine ima najfinije klesarije u cijelom Angkoru, toliko duboke da izgledaju kao rezbarija u drvu. Nije ga sagradio kralj, nego dvorski učenjak. Francuski pisac André Malraux pokušao je 1923. ukrasti četiri njegova reljefa i zbog toga je uhićen." },
+        { ime: "Banteay Srei", opis: "Mali hram od ružičastog pješčenjaka iz 967. godine ima najfinije klesarije u cijelom Angkoru, toliko duboke da izgledaju kao rezbarija u drvu. Dao ga je sagraditi dvorski učenjak, a ne kralj, što je u Angkoru prava iznimka. Francuski pisac André Malraux pokušao je 1923. ukrasti četiri njegova reljefa i zbog toga je uhićen." },
         { ime: "Preah Khan", opis: "Prostrani samostan i sveučilište s kraja 12. stoljeća, s dugim hodnicima kroz koje se vrata nižu u beskraj. Neobična dvokatnica s okruglim stupovima, kakve nema drugdje u Angkoru, podsjeća na grčki hram." },
         { ime: "Jezero Tonle Sap i selo Kampong Phluk", opis: "Najveće jezero jugoistočne Azije u kišnoj se sezoni poveća nekoliko puta. Kuće u selu stoje na stupovima visokima šest i više metara, pa se u suhoj sezoni do vrata penje ljestvama, a u kišnoj se pred prag dolazi čamcem." }
       ],
@@ -128,7 +128,7 @@ window.ATLAS["kambodza"] = {
       vrsta: "grad",
       sazetak: "Opušteni grad na rijeci s francuskim trgovačkim kućama, umjetničkom školom iz koje je potekao kambodžanski cirkus i selima u kojima se sve radi rukom.",
       prica: [
-        "Ime grada znači „izgubljeni štap“ i dolazi iz legende o pastiru Ta Dumbongu, koji je čarobnim štapom osvojio prijestolje i zatim ga izgubio. Njegov golemi crni kip s štapom u rukama dočekuje vas na ulazu u grad.",
+        "Ime grada znači „izgubljeni štap“ i dolazi iz legende o pastiru Ta Dumbongu, koji je čarobnim štapom osvojio prijestolje i zatim ga izgubio. Njegov golemi crni kip sa štapom u rukama dočekuje vas na ulazu u grad.",
         "Battambang je više od stoljeća, od 1795. do 1907., bio pod sijamskom vlašću, a zatim je vraćen Kambodži pod Francuzima, koji su uz rijeku Sangker sagradili nizove trgovačkih kuća s arkadama. Okolna ravnica najplodnija je u zemlji, pa pokrajinu zovu zdjelom riže."
       ],
       vidjeti: [

@@ -45,7 +45,7 @@ window.ATLAS["fidzi"] = {
     { izvorno: "Sega na leqa", izgovor: "SE-nga na LEN-ga", hr: "Nema problema" }
   ],
   zanimljivosti: [
-    "U fidžijskom se pravopisu slovo b čita mb, d se čita nd, g se čita ng, q se čita ngg, a c kao englesko zvučno th. Zato se Nadi izgovara Nandi, a otoci Mamanuca zovu se Mamanuda.",
+    "U fidžijskom se pravopisu slovo b čita mb, d se čita nd, g se čita ng, q se čita ngg, a c kao englesko zvučno th. Zato se Nadi izgovara Nandi, a kokoda kokonda.",
     "Meridijan od 180 stupnjeva prolazi kroz otok Taveuni, pa ondje možete stajati jednom nogom na istočnoj, a drugom na zapadnoj polutki.",
     "Kapetan William Bligh prošao je 1789. između fidžijskih otoka u čamcu u koji su ga iskrcali pobunjenici s broda Bounty, a kanui su ga progonili. Taj se morski prolaz i danas zove Blighova voda.",
     "Misionara Thomasa Bakera pojeli su 1867. stanovnici jednoga planinskog sela, a potplati njegovih cipela izloženi su u Muzeju Fidžija u Suvi.",

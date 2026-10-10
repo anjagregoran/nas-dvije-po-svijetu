@@ -91,7 +91,7 @@ window.ATLAS["bolivija"] = {
       id: "uyuni",
       ime: "Salar de Uyuni",
       vrsta: "priroda",
-      sazetak: "Bijela ravnica soli veća od cijele Istre i Dalmacije zajedno, koja se u kišnoj sezoni pretvara u najveće zrcalo na svijetu.",
+      sazetak: "Bijela ravnica soli velika gotovo kao petina Hrvatske, koja se u kišnoj sezoni pretvara u najveće zrcalo na svijetu.",
       prica: [
         "Salar de Uyuni prostire se na više od 10.000 četvornih kilometara, na 3650 metara nadmorske visine. Nastao je isušivanjem pretpovijesnih jezera, nakon kojih je ostala kora soli debela i po nekoliko metara.",
         "Legenda naroda Aymara kaže da su planine oko salara nekoć bili divovi. Kada je Tunupu napustio muž, njezine su se suze pomiješale s mlijekom kojim je dojila dijete i stvorile bijelu ravnicu, zbog čega je mještani zovu i Salar de Tunupa."

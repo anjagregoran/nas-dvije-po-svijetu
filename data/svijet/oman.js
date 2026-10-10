@@ -89,7 +89,7 @@ window.ATLAS["oman"] = {
       vidjeti: [
         { ime: "Utvrda u Nizwi", opis: "Golemu okruglu kulu dao je sredinom 17. stoljeća sagraditi imam Sultan bin Saif. Uz zavojito stubište pogledajte otvore iznad svakih vrata, kroz koje se na napadače lilo vrelo ulje ili sirup od datulja, te lažna vrata i jame u podu." },
         { ime: "Utvrda Bahla", opis: "Najveća utvrda od nepečene opeke u zemlji, s dvanaest kilometara zidina oko oaze, upisana je na UNESCO-ov popis 1987. Bahla je poznata po lončarima i po pričama o čarobnjacima, koje Omanci i danas prepričavaju napola u šali." },
-        { ime: "Dvorac Jabrin", opis: "Imam Bil'arab sagradio ga je oko 1670. kao palaču i školu, a ne kao vojnu utvrdu. Stropovi su oslikani cvjetnim uzorcima, a u jednoj sobi kanal s vodom teče kroz zid radi hlađenja." },
+        { ime: "Dvorac Jabrin", opis: "Imam Bil'arab sagradio ga je oko 1670. kao palaču i školu, pa je udobniji i raskošniji od vojnih utvrda. Stropovi su oslikani cvjetnim uzorcima, a u jednoj sobi kanal s vodom teče kroz zid radi hlađenja." },
         { ime: "Jebel Shams i Wadi Ghul", opis: "S ruba najvišeg vrha Omana gleda se u kanjon dubok oko tisuću metara. Staza Balkon vodi po polici u stijeni do napuštenog sela, u kojem su ljudi živjeli još prije nekoliko desetljeća." },
         { ime: "Misfat al Abriyeen", opis: "Selo od kamena i blata prilijepljeno je uz stijenu iznad terasa s palmama, bananama i limetama. Pratite kanal falaj kroz vrtove i vidjet ćete kako se voda pločicama preusmjerava s jedne parcele na drugu." }
       ],

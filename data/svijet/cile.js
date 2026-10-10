@@ -256,6 +256,7 @@ window.ATLAS["cile"] = {
     { ime: "Memoria Chilena, La inmigración croata en Magallanes", url: "https://www.memoriachilena.gob.cl/602/w3-article-9790.html" },
     { ime: "Hrvatska matica iseljenika, Hrvati na jugu Čilea", url: "https://matis.hr/en/news-en/croats-in-southern-chile-highlight-croatian-immigrant-legacy/" },
     { ime: "Museo Baburizza", url: "https://www.museobaburizza.cl/" },
+    { ime: "Memoria Chilena, Pascual Baburizza", url: "https://www.memoriachilena.gob.cl/602/w3-article-94715.html" },
     { ime: "Parque Nacional Rapa Nui", url: "https://www.rapanuinationalpark.com/" },
     { ime: "Parque Nacional Torres del Paine", url: "https://parquetorresdelpaine.cl/" },
     { ime: "Patagonia Chile, Sernatur", url: "https://patagonia-chile.com/" },

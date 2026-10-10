@@ -65,7 +65,7 @@ window.ATLAS["kolumbija"] = {
       vidjeti: [
         { ime: "Museo del Oro", opis: "Muzej Narodne banke čuva desetke tisuća zlatnih predmeta pretkolumbovskih kultura, najveću takvu zbirku na svijetu. Najvažniji je izložak Splav Muisca, minijatura obreda iz kojeg je nastala legenda o El Doradu." },
         { ime: "Museo Botero", opis: "Slikar i kipar Fernando Botero darovao je državi 2000. godine svoja djela i vlastitu zbirku Picassa, Moneta i Dalíja, uz uvjet da ulaz zauvijek ostane besplatan. Potražite njegovu punašnu Mona Lisu." },
-        { ime: "Plaza de Bolívar", opis: "Glavni trg okružuju katedrala, parlament, sud i gradska vijećnica, a u sredini je Bolívarov kip. Na Palači pravde, obnovljenoj nakon opsade 1985., uklesana je rečenica o tome da su zakoni donijeli slobodu." },
+        { ime: "Plaza de Bolívar", opis: "Glavni trg okružuju katedrala, parlament, sud i gradska vijećnica, a u sredini je Bolívarov kip. Nad ulazom u Palaču pravde, obnovljenu nakon opsade 1985., uklesana je rečenica generala Santandera o tome da je oružje Kolumbijcima donijelo neovisnost, a da će im zakoni donijeti slobodu." },
         { ime: "Monserrate", opis: "Brdo iznad grada, visoko 3152 metra, na koje voze uspinjača i žičara. Bijela crkva na vrhu hodočasničko je mjesto, a pogled otkriva koliko je Bogotá velika." },
         { ime: "La Candelaria", opis: "Najstarija četvrt, sa strmim ulicama i zidovima prekrivenima grafitima. Ulična umjetnost ovdje je dopuštena i cijenjena, a o njoj se organiziraju posebni obilasci." },
         { ime: "Solna katedrala u Zipaquiri", opis: "Pedesetak kilometara od grada, u rudniku soli, rudari su 180 metara pod zemljom isklesali crkvu s golemim osvijetljenim križem. Do nje vodi križni put kroz rudarske hodnike." }
@@ -193,7 +193,7 @@ window.ATLAS["kolumbija"] = {
       ],
       vidjeti: [
         { ime: "Barrio San Antonio", opis: "Kolonijalna četvrt na brežuljku, s bijelom kapelom iz 18. stoljeća na vrhu parka. Predvečer se na travnjaku okupljaju pripovjedači i glazbenici, a pogled seže preko cijelog grada." },
-        { ime: "Iglesia La Ermita", opis: "Neogotička crkva svijetloplave i bijele boje uz rijeku, dovršena 1942., najfotografiranija je zgrada u gradu. U njoj se čuva slika Gospodina od trske iz 18. stoljeća, koja je preživjela potres u kojem je srušena prethodna crkva." },
+        { ime: "Iglesia La Ermita", opis: "Neogotička crkva svijetloplave i bijele boje uz rijeku, sagrađena u prvoj polovici 20. stoljeća, najfotografiranija je zgrada u gradu. U njoj se čuva slika Gospodina od trske iz 18. stoljeća, koja je preživjela potres u kojem je srušena prethodna crkva." },
         { ime: "Cristo Rey", opis: "Kip Krista visok 26 metara na brdu iznad grada, podignut 1953. Uz cestu prema vrhu potražite reljefe koje je jedan samouki umjetnik uklesao izravno u padinu." },
         { ime: "Museo La Tertulia", opis: "Muzej moderne umjetnosti uz rijeku, s važnom zbirkom kolumbijskih i latinoameričkih autora i kinotekom." },
         { ime: "Bulevar del Río", opis: "Šetnica uz rijeku Cali, nastala kada je prometnica spuštena pod zemlju. Navečer je puna šetača, uličnih svirača i plesača." }

@@ -17,7 +17,7 @@ window.ATLAS["izrael"] = {
     { k: "Odijevanje", v: "Na svetim mjestima svih triju religija ramena i koljena moraju biti pokriveni, a marama u torbi uvijek dobro dođe." }
   ],
   hrana: [
-    { ime: "Humus", opis: "Topli namaz od slanutka, sezamove paste, limuna i češnjaka, preliven maslinovim uljem.", prica: "Ovdje je humus cijeli obrok, a ne predjelo: jede se prijepodne, s kruhom pita, sirovim lukom i ukiseljenim povrćem. Svaka zajednica ima svoju omiljenu radnju, a najbolje se zatvaraju čim se dnevni lonac isprazni." },
+    { ime: "Humus", opis: "Topli namaz od slanutka, sezamove paste, limuna i češnjaka, preliven maslinovim uljem.", prica: "Ovdje je humus cijeli obrok, koji se jede prijepodne, s kruhom pita, sirovim lukom i ukiseljenim povrćem. Svaka zajednica ima svoju omiljenu radnju, a najbolje se zatvaraju čim se dnevni lonac isprazni." },
     { ime: "Falafel", opis: "Pržene kuglice od mljevenog slanutka sa začinskim biljem, u kruhu s povrćem i umakom tahini.", prica: "Jelo je vjerojatno poteklo iz Egipta, gdje se radi od boba, i proširilo se cijelim Levantom. Na ulici ga jedu svi, a zeleniji je iznutra što je više peršina i korijandra." },
     { ime: "Musakhan", opis: "Piletina pečena s brdom karameliziranog luka i kiselkastog sumaka na tankom kruhu taboon.", prica: "Smatra se palestinskim nacionalnim jelom i slavi novo maslinovo ulje u doba berbe, u listopadu i studenome. Jede se rukama, kidanjem kruha koji je upio sokove." },
     { ime: "Shakshuka", opis: "Jaja poširana u gustom umaku od rajčice, paprike i kumina, poslužena u tavi.", prica: "Donijeli su je židovski doseljenici iz Tunisa i Libije i postala je omiljeni doručak. Ime na magrepskom arapskom znači otprilike „mješavina“." },
@@ -182,7 +182,7 @@ window.ATLAS["izrael"] = {
       vidjeti: [
         { ime: "Masada", opis: "Prema povjesničaru Josipu Flaviju, jedinom pisanom izvoru, 960 branitelja radije je 73. ili 74. godine izabralo smrt nego ropstvo, a arheolozi o pojedinostima i danas raspravljaju. S vrha se jasno vide obrisi osam rimskih tabora i nasip koji su legionari nasuli do zidina. UNESCO je Masadu zaštitio 2001." },
         { ime: "Herodova sjeverna palača", opis: "Palača se u tri terase spušta niz sam rub litice, okrenuta sjeveru radi hlada. Na donjoj terasi sačuvane su freske koje oponašaju mramor, a u kupalištu se vide stupići na kojima je stajao pod grijan toplim zrakom." },
-        { ime: "Ein Gedi", opis: "Oaza s četiri izvora hrani slapove i bazene usred gole pustinje, a Biblija je spominje kao mjesto gdje se David skrivao od kralja Šaula. Uz stazu gotovo sigurno ćete sresti nubijske kozoroge i pećinare, male životinje nalik svisCima, koji su najbliži živi srodnici slonova." },
+        { ime: "Ein Gedi", opis: "Oaza s četiri izvora hrani slapove i bazene usred gole pustinje, a Biblija je spominje kao mjesto gdje se David skrivao od kralja Šaula. Uz stazu gotovo sigurno ćete sresti nubijske kozoroge i pećinare, male životinje nalik sviscima, koji su najbliži živi srodnici slonova." },
         { ime: "Kumran", opis: "Uz ruševine naselja s obrednim kupeljima vidi se Špilja 4, u kojoj je pronađen najveći broj svitaka. Beduinski pastir je 1947. bacio kamen u jednu od špilja, čuo lom keramike i tako otkrio rukopise tisuću godina starije od dotad poznatih." },
         { ime: "Mrtvo more", opis: "Voda je gotovo deset puta slanija od oceana pa se u njoj pluta bez napora, a razina pada oko metar godišnje. Uz cestu se vide vrtače, rupe koje nastaju kada slatka voda otopi podzemne slojeve soli." }
       ],

@@ -140,7 +140,7 @@
     navigator.geolocation.getCurrentPosition(function (pos) {
       var lat = pos.coords.latitude, lon = pos.coords.longitude;
       bothNearby(lat, lon, '').then(function (list) {
-        document.title = 'Oko mene · Putokaz';
+        document.title = 'Oko mene · Nas dvije po svijetu';
         app.innerHTML = '<header class="hero left" style="padding-top:26px"><span class="label">Unutar deset kilometara</span><h1 style="font-size:clamp(2.6rem,11vw,5rem)">Oko mene</h1>' +
           '<p class="lead">Znamenitosti, trgovi, crkve i muzeji u vašoj blizini, poredani od najbližeg. Dodirnite bilo koji da pročitate što je to.</p></header>' +
           '<div class="map" id="map" style="margin-top:0"></div>' +

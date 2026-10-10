@@ -3,7 +3,7 @@
 
 TRIP.hranaUvod = [
   "Apulijska kuhinja zove se cucina povera, sirotinjska kuhinja, i upravo je zato tako dobra. Nastala je od onoga što je bilo pri ruci: tvrde pšenice, maslinova ulja, povrća s polja, ribe iz mreže i sira napravljenog isto jutro.",
-  "Svako jelo otvori se dodirom i ima svoju priču, mjesto gdje ga vrijedi probati i gumb kojim bilježimo što smo već kušale."
+  "Svako se jelo otvara dodirom i ima svoju priču, mjesto gdje ga vrijedi kušati i gumb kojim ga možete označiti kad ga probate."
 ];
 
 TRIP.hrana = [

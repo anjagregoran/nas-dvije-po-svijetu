@@ -1,154 +1,154 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["urugvaj"] = {
   id: "urugvaj",
-  ime: "Urugvaj",
-  regija: "Južna Amerika",
-  sazetak: "Mala, mirna zemlja između dvaju divova, u kojoj se mate nosi pod rukom, nedjeljom udaraju bubnjevi candombea, a obala je jedna duga plaža.",
+  ime: "Uruguay",
+  regija: "South America",
+  sazetak: "A small, peaceful country between two giants, where mate is carried under the arm, candombe drums sound on Sundays and the coast is one long beach.",
   uvod: [
-    "Urugvaj je druga najmanja država Južne Amerike, s oko tri i pol milijuna stanovnika, od kojih gotovo polovica živi u Montevideu. Leži na istočnoj obali rijeke Urugvaj i estuarija Río de la Plata, a oko njega su se stoljećima sporili Španjolci i Portugalci, a potom Argentina i Brazil. Neovisnost je proglašena 1825., a narodni je junak José Gervasio Artigas.",
-    "Zemlja je poznata po stabilnosti i naprednim zakonima: među prvima je u svijetu odvojila crkvu od države i uvela osmosatni radni dan. Krajolik je blag, valovita pampa s više goveda nego ljudi, a kultura je bliska argentinskoj, s kojom dijeli tango, mate i roštilj. Urugvajci, međutim, sve to rade tiše i sporije, što je za putnika pravi odmor."
+    "Uruguay is the second smallest country in South America, with about three and a half million inhabitants, almost half of whom live in Montevideo. It lies on the eastern bank of the Uruguay River and the Río de la Plata estuary, and for centuries it was fought over by the Spanish and the Portuguese, and after them by Argentina and Brazil. Independence was declared in 1825, and the national hero is José Gervasio Artigas.",
+    "The country is known for its stability and its progressive laws: it was among the first in the world to separate church and state and to introduce the eight-hour working day. The landscape is gentle, a rolling pampa with more cattle than people, and the culture is close to that of Argentina, with which it shares tango, mate and the barbecue. Uruguayans, however, do all of it more quietly and more slowly, which is a real rest for the traveler."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Za plaže od prosinca do ožujka. Montevideo i Colonia ugodni su i u proljeće i jesen, a karneval traje od kraja siječnja do početka ožujka." },
-    { k: "Valuta", v: "Urugvajski peso (UYU). Kartice se primaju gotovo svuda." },
-    { k: "Kretanje", v: "Autobusi povezuju cijelu zemlju i polaze s kolodvora Tres Cruces u Montevideu. Iz Buenos Airesa do Colonije vozi trajekt." },
-    { k: "Napojnica", v: "U restoranima oko 10 posto. Na računu se ponekad pojavljuje stavka cubierto, naknada za kruh i pribor, koja nije napojnica." },
-    { k: "Ritam", v: "Večera se kasno, poslije 21 sat. U tjednu prije Uskrsa, koji se ovdje zove Tjedan turizma, cijela zemlja putuje." }
+    { k: "When to go", v: "December to March for the beaches. Montevideo and Colonia are also pleasant in spring and autumn, and carnival runs from late January to early March." },
+    { k: "Currency", v: "The Uruguayan peso (UYU). Cards are accepted almost everywhere." },
+    { k: "Getting around", v: "Buses connect the whole country and leave from the Tres Cruces terminal in Montevideo. A ferry runs from Buenos Aires to Colonia." },
+    { k: "Tipping", v: "About 10 percent in restaurants. The bill sometimes includes an item called cubierto, a charge for bread and cutlery, which is not a tip." },
+    { k: "Rhythm", v: "Dinner is late, after 9 p.m. In the week before Easter, which is called Tourism Week here, the whole country travels." }
   ],
   hrana: [
-    { ime: "Chivito", opis: "Sendvič s tankim goveđim odreskom, šunkom, slaninom, sirom, jajetom, salatom, rajčicom i majonezom.", prica: "Ime znači jarić, iako u njemu nema jaretine. Predaja kaže da je nastao 1940-ih u Punta del Esteu, kada je gošća iz Argentine zatražila jaretinu, a vlasnik restorana, koji je nije imao, složio je sendvič od svega što je našao. Verzija al plato stiže na tanjuru, bez kruha." },
-    { ime: "Asado", opis: "Govedina pečena na roštilju s kosom rešetkom, i to na žaru od drva, a ne od ugljena.", prica: "Urugvaj ima otprilike tri do četiri goveda po stanovniku i među prvima je u svijetu po potrošnji govedine. Uz odreske se peku kobasice, krvavice, slatki kruh od žlijezda zvan molleja i sir provolone." },
-    { ime: "Mate", opis: "Biljni napitak od yerba mate koji se pije iz tikvice kroz metalnu slamku.", prica: "Urugvajci ga piju više od svih, i to u hodu: termosica pod rukom i tikvica u šaci prepoznatljiv su prizor na ulici, u autobusu i na plaži. Za razliku od Argentinaca, u mate ne stavljaju šećer." },
-    { ime: "Tannat", opis: "Tamno, snažno crno vino, zaštitna sorta Urugvaja.", prica: "Sortu su 1870-ih donijeli baskijski doseljenici iz jugozapadne Francuske. Vinogradi su najgušći u pokrajini Canelones, na pola sata od Montevidea, a savršeno pristaje uz asado." },
-    { ime: "Dulce de leche", opis: "Karamel krema od mlijeka i šećera.", prica: "Urugvajci je stavljaju u kolače, palačinke i sladoled jednako strastveno kao Argentinci, s kojima se spore oko podrijetla. Kušajte je u alfajoru, slatkišu od dva keksa spojena kremom." },
-    { ime: "Torta frita", opis: "Prženi kolut tijesta s rupicom u sredini.", prica: "Jede se kada pada kiša, i to je pravilo koje svi poštuju. Čim se naoblači, na uglovima se pojavljuju prodavači s kotlićima vrele masti." },
-    { ime: "Medio y medio", opis: "Mješavina suhog bijelog vina i slatkog pjenušca.", prica: "Piće je zaštitni znak stare vinarije na tržnici Mercado del Puerto u Montevideu, gdje se toči od 19. stoljeća. Pije se hladno, kao aperitiv prije roštilja." },
-    { ime: "Postre chajá", opis: "Kolač od biskvita, breskvi, šlaga i puslica.", prica: "Stvorio ga je 1927. slastičar u gradu Paysandúu i nazvao po ptici močvarici pahuljastog perja. Lagan je i prozračan, pa dobro sjeda nakon obilnog roštilja." },
-    { ime: "Pascualina", opis: "Slana pita od blitve ili špinata s cijelim jajima.", prica: "Donijeli su je doseljenici iz talijanske Ligurije, gdje se pekla za Uskrs, odakle joj i ime. Prodaje se na komad u svakoj pekarnici i omiljen je obrok za ponijeti." }
+    { ime: "Chivito", opis: "A sandwich with a thin beef steak, ham, bacon, cheese, egg, lettuce, tomato and mayonnaise.", prica: "The name means little goat, although there is no goat meat in it. Tradition says it was born in the 1940s in Punta del Este, when a guest from Argentina asked for goat and the restaurant owner, who had none, put together a sandwich from everything he could find. The al plato version arrives on a plate, without the bread." },
+    { ime: "Asado", opis: "Beef grilled on a sloping grate, over wood embers and never over charcoal.", prica: "Uruguay has roughly three to four head of cattle per inhabitant and is among the world leaders in beef consumption. Along with the steaks, the grill holds sausages, blood sausages, the sweetbreads called molleja and provolone cheese." },
+    { ime: "Mate", opis: "An herbal infusion of yerba mate drunk from a gourd through a metal straw.", prica: "Uruguayans drink more of it than anyone, and they do it on the move: a thermos under the arm and a gourd in the hand are a familiar sight on the street, on the bus and at the beach. Unlike Argentines, they put no sugar in their mate." },
+    { ime: "Tannat", opis: "A dark, powerful red wine, the signature grape of Uruguay.", prica: "The variety was brought in the 1870s by Basque settlers from southwestern France. The vineyards are densest in the department of Canelones, half an hour from Montevideo, and the wine is a perfect match for asado." },
+    { ime: "Dulce de leche", opis: "A caramel spread made from milk and sugar.", prica: "Uruguayans put it in cakes, crêpes and ice cream just as passionately as the Argentines, with whom they argue over its origin. Try it in an alfajor, a sweet made of two cookies sandwiched with the spread." },
+    { ime: "Torta frita", opis: "A fried disk of dough with a small hole in the middle.", prica: "It is eaten when it rains, and that is a principle everyone honors. As soon as the sky clouds over, vendors appear on street corners with pots of hot fat." },
+    { ime: "Medio y medio", opis: "A blend of dry white wine and sweet sparkling wine.", prica: "The drink is the trademark of an old winery in Montevideo's Mercado del Puerto, where it has been poured since the 19th century. It is drunk cold, as an aperitif before the barbecue." },
+    { ime: "Postre chajá", opis: "A cake of sponge, peaches, whipped cream and meringues.", prica: "It was created in 1927 by a pastry chef in the city of Paysandú and named after a marsh bird with fluffy plumage. It is light and airy, so it goes down well after a hearty barbecue." },
+    { ime: "Pascualina", opis: "A savory pie of chard or spinach with whole eggs.", prica: "It was brought by immigrants from the Italian region of Liguria, where it was baked for Easter, which is where its name comes from. It is sold by the slice in every bakery and is a favorite meal to go." }
   ],
   obicaji: [
-    { ime: "Candombe", opis: "Glazba triju bubnjeva, koji se zovu chico, repique i piano, nasljeđe je Afrikanaca dovedenih u Montevideo kao roblje. Skupine bubnjara, zvane comparsas, hodaju ulicom u povorci, a bubnjevi se prije toga ugrijavaju uz vatru zapaljenu na pločniku. UNESCO ga je 2009. upisao na popis nematerijalne baštine.", gdje: "U Montevideu, u četvrtima Barrio Sur i Palermo, nedjeljom predvečer, kada bubnjari izlaze na ulicu. Velika povorka Desfile de Llamadas održava se u veljači, tijekom karnevala." },
-    { ime: "Tango", opis: "Urugvaj tango dijeli s Argentinom, a najpoznatiji tango na svijetu, „La Cumparsita“, skladao je Urugvajac Gerardo Matos Rodríguez i prvi je put izveden 1917. u Montevideu.", gdje: "U Montevideu se milonge održavaju nekoliko večeri tjedno u kulturnim centrima i plesnim klubovima, a ljeti se pleše i na otvorenom, na trgovima u središtu. Na mjestu prve izvedbe, u prizemlju palače Salvo, uređen je mali muzej tanga." },
-    { ime: "Karneval i murga", opis: "Urugvajski karneval traje četrdesetak dana i slovi kao najduži na svijetu. Njegovo su srce murge, zborovi u šarenim kostimima i s našminkanim licima, koji uz bubnjeve pjevaju satirične pjesme o politici i događajima protekle godine.", gdje: "U Montevideu od kraja siječnja do početka ožujka, na kvartovskim pozornicama zvanima tablados i u ljetnom kazalištu Teatro de Verano. Muzej karnevala nalazi se u luci, kraj tržnice Mercado del Puerto." },
-    { ime: "Mate u hodu", opis: "Piti mate znači dijeliti ga: jedna osoba toči i dodaje, a tikvica kruži društvom. Ponuđeni mate znak je dobrodošlice.", gdje: "Predvečer na šetnici Rambla u Montevideu, gdje cijeli grad izlazi gledati zalazak sunca s termosicom pod rukom." },
-    { ime: "Gaučo i kriolske svetkovine", opis: "U unutrašnjosti zemlje gaučo je i danas zanimanje, a ne samo simbol. Na svetkovinama se jašu neukroćeni konji, pjevaju se improvizirani stihovi zvani payada i peče se meso na križevima.", gdje: "U Montevideu se u Velikom tjednu održava Semana Criolla u četvrti Prado. U Tacuarembóu se početkom ožujka slavi Fiesta de la Patria Gaucha." }
+    { ime: "Candombe", opis: "The music of three drums, called chico, repique and piano, is the legacy of the Africans brought to Montevideo as slaves. Groups of drummers, known as comparsas, walk down the street in procession, and beforehand the drums are warmed beside a fire lit on the sidewalk. UNESCO added it to the list of intangible heritage in 2009.", gdje: "In Montevideo, in the Barrio Sur and Palermo neighborhoods, on Sundays toward evening, when the drummers come out into the street. The big Desfile de Llamadas parade is held in February, during carnival." },
+    { ime: "Tango", opis: "Uruguay shares tango with Argentina, and the most famous tango in the world, “La Cumparsita”, was composed by the Uruguayan Gerardo Matos Rodríguez and first performed in Montevideo in 1917.", gdje: "In Montevideo milongas are held several evenings a week in cultural centers and dance clubs, and in summer people also dance outdoors, in the squares of the city center. A small tango museum has been set up on the site of the first performance, on the ground floor of the Palacio Salvo." },
+    { ime: "Carnival and Murga", opis: "The Uruguayan carnival lasts some forty days and is said to be the longest in the world. At its heart are the murgas, choirs in colorful costumes and with painted faces, who sing satirical songs to the beat of drums about politics and the events of the past year.", gdje: "In Montevideo from late January to early March, on neighborhood stages called tablados and in the Teatro de Verano summer theater. The Carnival Museum is in the port, next to the Mercado del Puerto." },
+    { ime: "Mate on the Move", opis: "To drink mate is to share it: one person pours and passes it along, and the gourd makes its way around the group. An offer of mate is a sign of welcome.", gdje: "Toward evening on the Rambla promenade in Montevideo, where the whole city comes out to watch the sunset with a thermos under the arm." },
+    { ime: "Gauchos and Criollo Festivals", opis: "In the interior of the country, being a gaucho is still an occupation today and far more than a symbol. At the festivals unbroken horses are ridden, improvised verses called payada are sung and meat is roasted on crosses.", gdje: "In Montevideo the Semana Criolla is held during Holy Week in the Prado neighborhood. In Tacuarembó the Fiesta de la Patria Gaucha is celebrated in early March." }
   ],
   fraze: [
-    { izvorno: "Buen día", izgovor: "buen DI-a", hr: "Dobar dan" },
-    { izvorno: "Gracias", izgovor: "GRA-sjas", hr: "Hvala" },
-    { izvorno: "Por favor", izgovor: "por fa-VOR", hr: "Molim" },
-    { izvorno: "¿Cuánto sale?", izgovor: "KUAN-to SA-le", hr: "Koliko košta?" },
-    { izvorno: "La cuenta, por favor", izgovor: "la KUEN-ta, por fa-VOR", hr: "Račun, molim" },
-    { izvorno: "¡Ta!", izgovor: "ta", hr: "Dobro, dogovoreno (urugvajska poštapalica)" },
-    { izvorno: "¿Tomamos unos mates?", izgovor: "to-MA-mos U-nos MA-tes", hr: "Hoćemo li na mate?" },
-    { izvorno: "¡Salud!", izgovor: "sa-LUD", hr: "Živjeli!" }
+    { izvorno: "Buen día", izgovor: "bwehn DEE-ah", hr: "Good day" },
+    { izvorno: "Gracias", izgovor: "GRAH-syahs", hr: "Thank you" },
+    { izvorno: "Por favor", izgovor: "por fah-VOR", hr: "Please" },
+    { izvorno: "¿Cuánto sale?", izgovor: "KWAHN-toh SAH-leh", hr: "How much does it cost?" },
+    { izvorno: "La cuenta, por favor", izgovor: "lah KWEHN-tah, por fah-VOR", hr: "The check, please" },
+    { izvorno: "¡Ta!", izgovor: "tah", hr: "Okay, agreed (an Uruguayan filler word)" },
+    { izvorno: "¿Tomamos unos mates?", izgovor: "toh-MAH-mohs OO-nohs MAH-tehs", hr: "Shall we have some mate?" },
+    { izvorno: "¡Salud!", izgovor: "sah-LOOD", hr: "Cheers!" }
   ],
   zanimljivosti: [
-    "Prvo svjetsko nogometno prvenstvo održano je 1930. u Montevideu, a Urugvaj ga je i osvojio.",
-    "Službeno ime zemlje je Istočna Republika Urugvaj, jer leži istočno od rijeke Urugvaj.",
-    "Urugvaj gotovo svu električnu energiju dobiva iz obnovljivih izvora, ponajviše vode i vjetra.",
-    "Ima više goveda nego stanovnika, i to tri do četiri puta.",
-    "Najviša točka zemlje, Cerro Catedral, visoka je tek 514 metara.",
-    "Nikola Mihanović iz Dola u Dubrovačkom primorju iskrcao se 1867. u Montevideu kao siromašan mornar, a kasnije je s La Plate upravljao jednom od najvećih riječnih flota Južne Amerike."
+    "The first soccer World Cup was held in Montevideo in 1930, and Uruguay won it too.",
+    "The official name of the country is the Oriental Republic of Uruguay, because it lies east of the Uruguay River.",
+    "Uruguay gets almost all of its electricity from renewable sources, chiefly water and wind.",
+    "It has more cattle than inhabitants, three to four times as many.",
+    "The highest point in the country, Cerro Catedral, is only 514 meters high.",
+    "Nikola Mihanović, from Doli on the coast north of Dubrovnik in Croatia, stepped ashore in Montevideo in 1867 as a poor sailor and later ran one of the largest river fleets in South America from the Río de la Plata."
   ],
   mjesta: [
     {
       id: "montevideo",
       ime: "Montevideo",
       vrsta: "grad",
-      sazetak: "Opuštena prijestolnica na obali La Plate, s art déco pročeljima, tržnicom roštilja i dvadesetak kilometara šetnice uz vodu.",
+      sazetak: "A laid-back capital on the shore of the Río de la Plata, with Art Deco facades, a market devoted to the grill and some twenty kilometers of waterfront promenade.",
       prica: [
-        "Španjolci su Montevideo utemeljili između 1724. i 1726., pod vodstvom guvernera Bruna Mauricija de Zabale, kako bi spriječili Portugalce da se učvrste na ovoj obali. Zahvaljujući prirodnoj luci, boljoj od one u Buenos Airesu, grad je brzo postao suparnik većem susjedu.",
-        "Početkom 20. stoljeća, u doba kada su Urugvaj zvali Švicarskom Amerike, grad je dobio bulevare i palače, a doseljenici iz Španjolske i Italije dali su mu današnji karakter. Stara jezgra Ciudad Vieja leži na poluotoku, a od novog grada dijele je vrata nekadašnje utvrde."
+        "The Spanish founded Montevideo between 1724 and 1726, under Governor Bruno Mauricio de Zabala, to stop the Portuguese from establishing themselves on this shore. Thanks to its natural harbor, better than the one in Buenos Aires, the city quickly became a rival to its larger neighbor.",
+        "At the start of the 20th century, in the days when Uruguay was called the Switzerland of the Americas, the city acquired boulevards and palaces, and immigrants from Spain and Italy gave it the character it has today. The old core, the Ciudad Vieja, lies on a peninsula and is separated from the new city by the gate of the former citadel."
       ],
       vidjeti: [
-        { ime: "Plaza Independencia", opis: "Trg na granici starog i novog grada, u čijoj sredini stoji konjanički spomenik Artigasu. Ispod njega je mauzolej u kojem dva vojnika u povijesnim odorama danonoćno čuvaju urnu s njegovim pepelom. Na rubu trga ostala su Vrata citadele, jedini trag kolonijalne utvrde." },
-        { ime: "Palacio Salvo", opis: "Neobični toranj visok oko sto metara, dovršen 1928., djelo je Marija Palantija, arhitekta koji je u Buenos Airesu projektirao sličnu palaču Barolo. Stoji na mjestu kavane u kojoj je prvi put izveden tango „La Cumparsita“." },
-        { ime: "Teatro Solís", opis: "Najstarije kazalište u zemlji, otvoreno 1856., s neoklasicističkim trijemom. Vođeni obilasci vode i iza pozornice, a karte za koncerte i balet vrlo su pristupačne." },
-        { ime: "Mercado del Puerto", opis: "Tržnica pod željeznom konstrukcijom iz 1868., izrađenom u Engleskoj, danas je hram roštilja. Oko golemih rešetki s kojih se dimi meso sjedi se za šankom i gleda majstore na djelu." },
-        { ime: "Rambla", opis: "Šetnica uz La Platu duga više od dvadeset kilometara, najduži pločnik u zemlji. Rijeka je ovdje toliko široka da se druga obala ne vidi, pa je mještani jednostavno zovu morem." },
-        { ime: "Museo Torres García", opis: "Muzej posvećen Joaquínu Torresu Garcíji, slikaru koji je spojio europsku apstrakciju i pretkolumbovske simbole. Njegov crtež naopake karte Južne Amerike, s jugom na vrhu, postao je simbol cijelog kontinenta." }
+        { ime: "Plaza Independencia", opis: "The square on the border between the old and new city, with an equestrian monument to Artigas at its center. Beneath it is a mausoleum where two soldiers in historical uniforms guard the urn with his ashes day and night. On the edge of the square stands the Gateway of the Citadel, the only trace of the colonial fortress." },
+        { ime: "Palacio Salvo", opis: "This unusual tower about a hundred meters high, completed in 1928, is the work of Mario Palanti, the architect who designed the similar Palacio Barolo in Buenos Aires. It stands on the site of the café where the tango “La Cumparsita” was first performed." },
+        { ime: "Teatro Solís", opis: "The oldest theater in the country, opened in 1856, with a Neoclassical portico. Guided tours also take you backstage, and tickets for concerts and ballet are very affordable." },
+        { ime: "Mercado del Puerto", opis: "The market beneath an iron structure of 1868, manufactured in England, is today a temple of the grill. Around the enormous grates of smoking meat you sit at the counter and watch the grill masters at work." },
+        { ime: "Rambla", opis: "The promenade along the Río de la Plata is more than twenty kilometers long, the longest sidewalk in the country. The river is so wide here that the other bank cannot be seen, so locals simply call it the sea." },
+        { ime: "Museo Torres García", opis: "A museum dedicated to Joaquín Torres García, the painter who combined European abstraction with pre-Columbian symbols. His drawing of an upside-down map of South America, with the south at the top, has become a symbol of the whole continent." }
       ],
       jesti: [
-        { ime: "Roštilj na tržnici", opis: "U Mercado del Puerto naručuje se miješani roštilj za dvoje, uz čašu medio y medio." },
-        { ime: "Chivito", opis: "Najbolji su u jednostavnim barovima i zalogajnicama, a jedan je dovoljan za ručak." },
-        { ime: "Tannat iz Canelonesa", opis: "Vinarije pola sata od grada primaju goste na kušanje i ručak, uz prethodnu najavu." }
+        { ime: "Barbecue at the Market", opis: "At the Mercado del Puerto you order a mixed grill for two, with a glass of medio y medio." },
+        { ime: "Chivito", opis: "The best are found in simple bars and diners, and one is enough for lunch." },
+        { ime: "Tannat From Canelones", opis: "Wineries half an hour from the city welcome guests for a tasting and lunch, by prior arrangement." }
       ],
       dozivjeti: [
-        { ime: "Candombe nedjeljom", opis: "Predvečer u četvrtima Barrio Sur i Palermo potražite vatru na pločniku, oko koje se zagrijavaju bubnjevi, pa krenite za povorkom. Ulica se pretvara u pozornicu, a susjedi izlaze na prozore." },
-        { ime: "Sajam Tristán Narvaja", opis: "Nedjeljom prijepodne cijela se četvrt pretvara u buvljak sa starim knjigama, pločama, voćem i kućnim ljubimcima." },
-        { ime: "Muzej karnevala", opis: "Kostimi, maske i bubnjevi objašnjavaju što su murga i candombe, što je odličan uvod prije nedjeljne povorke.", link: "https://www.museodelcarnaval.org/" },
-        { ime: "Večer u kazalištu Solís", opis: "Program objavljuje samo kazalište, a u njemu redovito nastupaju nacionalni orkestar i balet.", link: "https://www.teatrosolis.org.uy/" }
+        { ime: "Candombe on Sundays", opis: "Toward evening in the Barrio Sur and Palermo neighborhoods, look for the fire on the sidewalk where the drums are being warmed, then follow the procession. The street turns into a stage and the neighbors come to their windows." },
+        { ime: "Tristán Narvaja Street Market", opis: "On Sunday mornings a whole neighborhood turns into a flea market with old books, records, fruit and pets." },
+        { ime: "Carnival Museum", opis: "Costumes, masks and drums explain what murga and candombe are, which makes an excellent introduction before the Sunday procession.", link: "https://www.museodelcarnaval.org/" },
+        { ime: "An Evening at the Teatro Solís", opis: "The program is published by the theater itself, and the national orchestra and ballet perform there regularly.", link: "https://www.teatrosolis.org.uy/" }
       ],
       agencije: [
-        { ime: "Descubrí Montevideo", opis: "Službeni turistički portal grada.", link: "https://www.descubrimontevideo.uy/" },
-        { ime: "Uruguay Natural", opis: "Službeni turistički portal Urugvaja.", link: "https://uruguaynatural.com/en/" },
-        { ime: "Mercado del Puerto", opis: "Službena stranica tržnice s popisom restorana.", link: "https://mercadodelpuerto.com/" }
+        { ime: "Descubrí Montevideo", opis: "The city's official tourism portal.", link: "https://www.descubrimontevideo.uy/" },
+        { ime: "Uruguay Natural", opis: "Uruguay's official tourism portal.", link: "https://uruguaynatural.com/en/" },
+        { ime: "Mercado del Puerto", opis: "The market's official website, with a list of restaurants.", link: "https://mercadodelpuerto.com/" }
       ],
-      kada: "Od studenoga do ožujka toplo je i živo, a u veljači je karneval. Nedjeljom je središte grada pusto, pa taj dan rezervirajte za sajam, Ramblu i candombe."
+      kada: "From November to March it is warm and lively, and February brings carnival. On Sundays the city center is deserted, so reserve that day for the street market, the Rambla and candombe."
     },
     {
       id: "colonia",
       ime: "Colonia del Sacramento",
       vrsta: "gradić",
-      sazetak: "Portugalski gradić na španjolskoj obali, s kaldrmom, svjetionikom i zalascima sunca nad La Platom.",
+      sazetak: "A little Portuguese town on a Spanish shore, with cobblestones, a lighthouse and sunsets over the Río de la Plata.",
       prica: [
-        "Coloniju je 1680. osnovao Portugalac Manuel Lobo, točno nasuprot Buenos Airesu, kako bi Portugal dobio uporište za trgovinu i krijumčarenje na La Plati. Sljedećih stotinjak godina grad je više puta prelazio iz portugalskih u španjolske ruke i natrag.",
-        "Zato u staroj jezgri stoje jedne uz druge niske portugalske kuće s krovovima na četiri vode i više španjolske s ravnim krovovima, a ulice ne slijede španjolsku šahovsku mrežu. UNESCO je povijesnu četvrt upisao na popis 1995."
+        "Colonia was founded in 1680 by the Portuguese Manuel Lobo, directly across from Buenos Aires, to give Portugal a foothold for trade and smuggling on the Río de la Plata. Over the next hundred years or so the town passed from Portuguese to Spanish hands and back again several times.",
+        "That is why, in the old core, low Portuguese houses with hipped roofs stand side by side with taller Spanish ones with flat roofs, and why the streets do not follow the Spanish checkerboard grid. UNESCO added the historic quarter to its list in 1995."
       ],
       vidjeti: [
-        { ime: "Calle de los Suspiros", opis: "Ulica uzdaha najbolje je očuvana portugalska ulica, s izvornim kamenim pločnikom udubljenim prema sredini, kuda je otjecala voda. O podrijetlu imena kruži nekoliko legendi, od osuđenika vođenih na pogubljenje do mornara i njihovih ljubavi." },
-        { ime: "Svjetionik i samostan San Francisco", opis: "Bijeli svjetionik iz 1857. izrasta iz ruševina samostana iz 17. stoljeća, stradalog u požaru. S vrha se za vedra dana na obzoru naziru neboderi Buenos Airesa." },
-        { ime: "Portón de Campo", opis: "Gradska vrata s pokretnim mostom iz 1745., kroz koja se ulazi u staru jezgru. Uz njih je obnovljen dio bedema, po kojem se može prošetati iznad rijeke." },
-        { ime: "Basílica del Santísimo Sacramento", opis: "Jednostavna bijela crkva na glavnom trgu, čiji počeci sežu u godinu osnutka grada, smatra se najstarijom u Urugvaju. Više je puta rušena u opsadama i ponovno građena." },
-        { ime: "Real de San Carlos", opis: "Pet kilometara od središta stoji arena za borbe s bikovima u maurskom stilu, otvorena 1910. U njoj je održano tek nekoliko priredbi prije nego što su borbe s bikovima u Urugvaju zabranjene, a nakon stoljeća propadanja obnovljena je kao dvorana za koncerte." }
+        { ime: "Calle de los Suspiros", opis: "The Street of Sighs is the best-preserved Portuguese street, with its original stone paving dipping toward the middle, where the water drained away. Several legends circulate about the origin of the name, from condemned prisoners led to execution to sailors and their loves." },
+        { ime: "The Lighthouse and the Convent of San Francisco", opis: "The white lighthouse of 1857 rises out of the ruins of a 17th-century convent that was destroyed by fire. On a clear day you can make out the skyscrapers of Buenos Aires on the horizon from the top." },
+        { ime: "Portón de Campo", opis: "The city gate with its drawbridge of 1745, through which you enter the old core. Beside it a section of the ramparts has been restored, and you can walk along it above the river." },
+        { ime: "Basílica del Santísimo Sacramento", opis: "The plain white church on the main square, whose beginnings go back to the year the town was founded, is considered the oldest in Uruguay. It was destroyed in sieges and rebuilt several times." },
+        { ime: "Real de San Carlos", opis: "Five kilometers from the center stands a bullring in the Moorish style, opened in 1910. Only a handful of events were held in it before bullfighting was banned in Uruguay, and after a century of decay it has been restored as a concert venue." }
       ],
       jesti: [
-        { ime: "Sir Colonia", opis: "Polutvrdi sir s rupicama, koji su u ovaj kraj donijeli švicarski doseljenici iz obližnjeg mjesta Nueva Helvecia." },
-        { ime: "Riba s La Plate", opis: "U restoranima uz rijeku poslužuju se pečeni brancin i riječne ribe, uz čašu bijelog vina iz obližnjeg Carmela." }
+        { ime: "Colonia Cheese", opis: "A semi-hard cheese with small holes, brought to this area by Swiss settlers from the nearby town of Nueva Helvecia." },
+        { ime: "Fish From the Río de la Plata", opis: "The riverside restaurants serve grilled sea bass and river fish, with a glass of white wine from nearby Carmelo." }
       ],
       dozivjeti: [
-        { ime: "Zalazak sunca s bedema", opis: "Sunce zalazi ravno u rijeku, a mještani ga dočekuju na bedemu San Miguel i na molu, s mateom u ruci." },
-        { ime: "Muzeji stare jezgre", opis: "Jedna ulaznica vrijedi za nekoliko malih muzeja u portugalskim i španjolskim kućama, pa se u sat ili dva vidi kako se u njima živjelo." },
-        { ime: "Vinarije u Carmelu", opis: "Sat vožnje sjevernije, među vinogradima uz rijeku, male obiteljske vinarije nude kušanja tannata i ručak." }
+        { ime: "Sunset From the Ramparts", opis: "The sun sets straight into the river, and locals greet it on the San Miguel bastion and on the pier, mate in hand." },
+        { ime: "The Museums of the Old Quarter", opis: "A single ticket is valid for several small museums in Portuguese and Spanish houses, so in an hour or two you can see how people lived in them." },
+        { ime: "The Wineries of Carmelo", opis: "An hour's drive to the north, among vineyards along the river, small family wineries offer tannat tastings and lunch." }
       ],
       agencije: [
-        { ime: "Colonia Turismo", opis: "Službeni turistički portal pokrajine Colonia.", link: "https://www.colonia.gub.uy/turismo/" },
-        { ime: "Uruguay Natural", opis: "Službeni turistički portal Urugvaja.", link: "https://uruguaynatural.com/en/" }
+        { ime: "Colonia Turismo", opis: "The official tourism portal of the department of Colonia.", link: "https://www.colonia.gub.uy/turismo/" },
+        { ime: "Uruguay Natural", opis: "Uruguay's official tourism portal.", link: "https://uruguaynatural.com/en/" }
       ],
-      kada: "Najljepše je u proljeće i jesen. Vikendom dolaze izletnici iz Buenos Airesa, pa prenoćite ili dođite radnim danom, kada je gradić gotovo samo vaš."
+      kada: "It is at its loveliest in spring and autumn. Day-trippers from Buenos Aires arrive on weekends, so stay overnight or come on a weekday, when the town is almost yours alone."
     },
     {
       id: "punta-del-este",
       ime: "Punta del Este",
       vrsta: "grad",
-      sazetak: "Najpoznatije ljetovalište Južne Amerike, na rtu gdje se La Plata susreće s Atlantikom, s bijelom kućom skulpturom i mirnim ribarskim selima u susjedstvu.",
+      sazetak: "The most famous resort in South America, on the headland where the Río de la Plata meets the Atlantic, with a white sculpture of a house and quiet fishing villages next door.",
       prica: [
-        "Rt na kojem završava estuarij La Plate i počinje ocean početkom 20. stoljeća bio je ribarsko selo sa svjetionikom. Otkrile su ga imućne obitelji iz Buenos Airesa i Montevidea i pretvorile u ljetovalište s neboderima, marinom i kockarnicama.",
-        "S jedne strane rta je Playa Mansa, mirna plaža okrenuta rijeci, a s druge Playa Brava, s oceanskim valovima. Tko traži tišinu, odlazi malo dalje uz obalu, u La Barru i José Ignacio."
+        "The headland where the Río de la Plata estuary ends and the ocean begins was, at the start of the 20th century, a fishing village with a lighthouse. Wealthy families from Buenos Aires and Montevideo discovered it and turned it into a resort with high-rises, a marina and casinos.",
+        "On one side of the headland is Playa Mansa, a calm beach facing the river, and on the other Playa Brava, with ocean waves. Anyone looking for quiet goes a little farther along the coast, to La Barra and José Ignacio."
       ],
       vidjeti: [
-        { ime: "La Mano", opis: "Pet golemih betonskih prstiju izranja iz pijeska plaže Brava. Čileanski kipar Mario Irarrázabal izradio ih je 1982. u nekoliko dana, na susretu kipara, kao upozorenje plivačima na opasne valove." },
-        { ime: "Casapueblo", opis: "Bijelu građevinu na litici u Punta Balleni slikar Carlos Páez Vilaró gradio je vlastitim rukama trideset šest godina, bez nacrta i bez ravnih crta, po uzoru na gnijezda ptice pećarke. Danas su u njoj muzej, galerija i hotel." },
-        { ime: "Isla de Lobos", opis: "Na otoku osam kilometara od obale živi jedna od najvećih kolonija morskih lavova na svijetu. Brodice ga obilaze, a na njemu stoji i jedan od najviših svjetionika Južne Amerike." },
-        { ime: "Puente Leonel Viera", opis: "Valoviti most u La Barri, sagrađen 1965., po kojem automobili poskakuju kao na vlaku smrti. Projektirao ga je graditelj bez inženjerske diplome, a pokazao se toliko uspješnim da je uz njega podignut i blizanac." },
-        { ime: "José Ignacio", opis: "Nekadašnje ribarsko selo na rtu sa svjetionikom iz 1877., četrdesetak kilometara istočno, sačuvalo je pješčane ulice i niske kuće. Ovdje ljetuju oni koji izbjegavaju gužvu, a restorani na plaži slove kao najbolji u zemlji." }
+        { ime: "La Mano", opis: "Five enormous concrete fingers emerge from the sand of Brava beach. The Chilean sculptor Mario Irarrázabal made them in a few days in 1982, at a gathering of sculptors, as a warning to swimmers about the dangerous waves." },
+        { ime: "Casapueblo", opis: "The painter Carlos Páez Vilaró built this white structure on the cliff at Punta Ballena with his own hands over thirty-six years, without plans and without straight lines, modeling it on the nests of the hornero bird. Today it houses a museum, a gallery and a hotel." },
+        { ime: "Isla de Lobos", opis: "The island eight kilometers offshore is home to one of the largest sea lion colonies in the world. Boats circle it, and it also has one of the tallest lighthouses in South America." },
+        { ime: "Puente Leonel Viera", opis: "The undulating bridge in La Barra, built in 1965, on which cars bounce along as if on a roller coaster. It was designed by a builder with no engineering degree, and it proved so successful that a twin was put up beside it." },
+        { ime: "José Ignacio", opis: "This former fishing village on a headland with a lighthouse of 1877, some forty kilometers to the east, has kept its sandy streets and low houses. People who avoid crowds spend their summers here, and the beach restaurants are reputed to be the best in the country." }
       ],
       jesti: [
-        { ime: "Plodovi mora u luci", opis: "U lučkim restoranima jedu se dagnje, lignje i riba dana, dok morski lavovi pod molom čekaju ostatke od ribara." },
-        { ime: "Chivito", opis: "Sendvič je, prema predaji, nastao upravo ovdje, pa ga vrijedi kušati na izvoru." },
-        { ime: "Maslinovo ulje i vino iz Garzóna", opis: "U brežuljcima u zaleđu posljednjih su desetljeća podignuti maslinici i vinogradi, a vinarija Garzón prima goste na obilazak i ručak.", link: "https://bodegagarzon.com/es/" }
+        { ime: "Seafood at the Port", opis: "In the harbor restaurants you eat mussels, squid and the fish of the day, while sea lions wait under the pier for scraps from the fishermen." },
+        { ime: "Chivito", opis: "According to tradition the sandwich was born right here, so it is worth trying at the source." },
+        { ime: "Olive Oil and Wine From Garzón", opis: "Olive groves and vineyards have been planted in the hills of the hinterland over the past few decades, and the Garzón winery welcomes guests for a tour and lunch.", link: "https://bodegagarzon.com/es/" }
       ],
       dozivjeti: [
-        { ime: "Obred sunca u Casapueblu", opis: "Svake večeri pri zalasku sunca s terase se pušta snimka na kojoj Páez Vilaró čita svoju pjesmu suncu, dok ono tone u more.", link: "https://casapueblo.com.uy/" },
-        { ime: "Šetnja oko rta", opis: "Obalnom šetnicom može se u sat vremena obići cijeli rt, od mirne do valovite strane, pokraj svjetionika iz 1860. i ribarske luke." },
-        { ime: "Museo Ralli", opis: "Besplatan muzej suvremene latinoameričke umjetnosti u mirnoj četvrti vila, s vrtom skulptura.", link: "https://www.museoralli.com.uy/" }
+        { ime: "The Sun Ceremony at Casapueblo", opis: "Every evening at sunset a recording is played from the terrace of Páez Vilaró reading his poem to the sun as it sinks into the sea.", link: "https://casapueblo.com.uy/" },
+        { ime: "A Walk Around the Headland", opis: "The coastal promenade lets you walk around the whole headland in an hour, from the calm side to the rough one, past the lighthouse of 1860 and the fishing harbor." },
+        { ime: "Museo Ralli", opis: "A free museum of contemporary Latin American art in a quiet neighborhood of villas, with a sculpture garden.", link: "https://www.museoralli.com.uy/" }
       ],
       agencije: [
-        { ime: "Intendencia de Maldonado", opis: "Službena stranica pokrajine Maldonado, kojoj pripada Punta del Este.", link: "https://www.maldonado.gub.uy/" },
-        { ime: "Uruguay Natural", opis: "Službeni turistički portal Urugvaja.", link: "https://uruguaynatural.com/en/" }
+        { ime: "Intendencia de Maldonado", opis: "The official website of the department of Maldonado, to which Punta del Este belongs.", link: "https://www.maldonado.gub.uy/" },
+        { ime: "Uruguay Natural", opis: "Uruguay's official tourism portal.", link: "https://uruguaynatural.com/en/" }
       ],
-      kada: "Sezona traje od Božića do kraja veljače, a u prva dva tjedna siječnja najveća je gužva i cijene su najviše. U prosincu i ožujku more je toplo, a plaže poluprazne."
+      kada: "The season runs from Christmas to the end of February, and the first two weeks of January bring the biggest crowds and the highest prices. In December and March the sea is warm and the beaches are half empty."
     }
   ],
   izvori: [

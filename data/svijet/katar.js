@@ -1,112 +1,112 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["katar"] = {
   id: "katar",
-  ime: "Katar",
-  regija: "Bliski istok",
-  sazetak: "Mali poluotok s muzejima koje su projektirali najveći arhitekti svijeta i pustinjom koja se spušta ravno u more.",
+  ime: "Qatar",
+  regija: "Middle East",
+  sazetak: "A small peninsula with museums designed by the world's greatest architects and a desert that runs straight down into the sea.",
   uvod: [
-    "Katar je poluotok manji od Dalmacije, na kojem se do sredine 20. stoljeća živjelo od ronjenja na bisere i ribolova. Obitelj Al Thani vlada od 19. stoljeća, zemlja je bila pod britanskom zaštitom do neovisnosti 1971., a golema nalazišta prirodnog plina učinila su je jednom od najbogatijih država svijeta.",
-    "Taj je novac velikim dijelom uložen u kulturu i sport, pa Doha danas ima Muzej islamske umjetnosti, Nacionalni muzej u obliku pustinjske ruže i stadione Svjetskog prvenstva 2022. Većini putnika Katar je stanka između letova, ali dva ili tri dana dovoljna su da se vidi obnovljena tržnica, vrhunski muzeji i dine na jugu."
+    "Qatar is a peninsula smaller than Croatia's region of Dalmatia, where until the middle of the 20th century people lived from pearl diving and fishing. The Al Thani family has ruled since the 19th century, the country was under British protection until independence in 1971, and enormous natural gas fields have made it one of the richest states in the world.",
+    "Much of that money has been invested in culture and sports, so Doha today has the Museum of Islamic Art, a National Museum shaped like a desert rose and the stadiums of the 2022 World Cup. For most travelers Qatar is a stopover between flights, but two or three days are enough to see the restored souq, the world-class museums and the dunes in the south."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od studenoga do ožujka. Ljeti je iznad 40 stupnjeva uz veliku vlagu, pa se sve odvija u zatvorenom." },
-    { k: "Valuta", v: "Katarski rijal (QAR), vezan uz američki dolar. Kartice se primaju gotovo posvuda, a na tržnici je praktična gotovina." },
-    { k: "Kretanje", v: "Metro u Dohi, otvoren 2019., čist je i povoljan i vozi od zračne luke do glavnih muzeja i tržnice. Za pustinju i sjever potreban je organizirani izlet ili unajmljeni auto." },
-    { k: "Napojnica", v: "Nije obvezna, a u boljim restoranima uobičajeno je ostaviti oko 10 posto ako usluga nije uračunata." },
-    { k: "Ponašanje", v: "Na javnim mjestima pokrijte ramena i koljena. Alkohol se toči samo u hotelskim barovima i restoranima s dozvolom." }
+    { k: "When to go", v: "November to March. In summer it is above 40 degrees Celsius with high humidity, so everything happens indoors." },
+    { k: "Currency", v: "The Qatari riyal (QAR), pegged to the US dollar. Cards are accepted almost everywhere, and cash is handy at the souq." },
+    { k: "Getting around", v: "The Doha Metro, opened in 2019, is clean and inexpensive and runs from the airport to the main museums and the souq. For the desert and the north you need an organized trip or a rental car." },
+    { k: "Tipping", v: "Tipping is not obligatory, and in better restaurants it is customary to leave about 10 percent if service is not included." },
+    { k: "Etiquette", v: "Cover your shoulders and knees in public places. Alcohol is served only in licensed hotel bars and restaurants." }
   ],
   hrana: [
-    { ime: "Machboos", opis: "Riža kuhana u začinjenom temeljcu s janjetinom, piletinom ili ribom, nacionalno jelo.", prica: "Začinska mješavina bizar i sušena limeta loomi daju mu prepoznatljiv okus. Poslužuje se na velikom pladnju s kojeg jedu svi, a domaćin gostu stavlja najbolje komade mesa." },
-    { ime: "Harees", opis: "Pšenica i meso kuhani satima i tučeni u glatku kašu, s pročišćenim maslacem na vrhu.", prica: "Jelo je ramazana i svadbi. Tijekom mjeseca posta obitelji ga u velikim loncima šalju susjedima." },
-    { ime: "Thareed", opis: "Varivo od mesa i povrća izliveno preko tankog kruha koji upije umak.", prica: "Zovu ga i arapskom lazanjom, a predaja kaže da je bilo omiljeno jelo proroka Muhameda. Jede se pri prekidu posta jer je blago i hranjivo." },
-    { ime: "Madrouba", opis: "Riža, piletina i začini kuhani i tučeni dok ne postanu gusta, kremasta kaša.", prica: "Ime znači „istučena“. Smatra se hranom za utjehu, kakvu bake kuhaju kada je netko bolestan." },
-    { ime: "Luqaimat", opis: "Pržene kuglice od tijesta sa šafranom i kardamomom, prelivene sirupom od datulja.", prica: "Na tržnici Souq Waqif prže ih žene za štandovima, a najbolje su vruće, izravno iz ulja." },
-    { ime: "Karak", opis: "Jak čaj kuhan s evaporiranim mlijekom, šećerom i kardamomom.", prica: "Stigao je s doseljenicima iz Indije i Pakistana i postao nacionalno piće. Pije se u autu, pred malim čajanama pred kojima se navečer stvaraju kolone." },
-    { ime: "Arapska kava i datulje", opis: "Svijetla kava s kardamomom i šafranom, točena iz vrča dallah.", prica: "Poslužuje se u svakom majlisu, a toči se lijevom rukom i pruža desnom. Gost popije najviše tri šalice i potom zatrese šalicu." }
+    { ime: "Machboos", opis: "Rice cooked in a spiced stock with lamb, chicken or fish, the national dish.", prica: "The bizar spice blend and the dried lime called loomi give it its distinctive flavor. It is served on a large platter from which everyone eats, and the host places the best pieces of meat in front of the guest." },
+    { ime: "Harees", opis: "Wheat and meat cooked for hours and beaten into a smooth porridge, with clarified butter on top.", prica: "It is a dish for Ramadan and for weddings. During the month of fasting, families send it to their neighbors in large pots." },
+    { ime: "Thareed", opis: "A stew of meat and vegetables poured over thin bread that soaks up the sauce.", prica: "It is also called the Arabian lasagna, and tradition says it was a favorite dish of the Prophet Muhammad. It is eaten at the breaking of the fast because it is mild and nourishing." },
+    { ime: "Madrouba", opis: "Rice, chicken and spices cooked and beaten until they become a thick, creamy porridge.", prica: "The name means “beaten”. It is considered comfort food, the kind grandmothers cook when someone is ill." },
+    { ime: "Luqaimat", opis: "Fried dough balls with saffron and cardamom, drizzled with date syrup.", prica: "At Souq Waqif women fry them at their stalls, and they are best hot, straight from the oil." },
+    { ime: "Karak", opis: "Strong tea boiled with evaporated milk, sugar and cardamom.", prica: "It arrived with immigrants from India and Pakistan and became the national drink. People drink it in their cars, outside small tea shops where lines of vehicles form in the evening." },
+    { ime: "Arabic Coffee and Dates", opis: "A pale coffee with cardamom and saffron, poured from a dallah pot.", prica: "It is served in every majlis, poured with the left hand and offered with the right. A guest drinks three cups at most and then gives the cup a little shake." }
   ],
   obicaji: [
-    { ime: "Sokolarstvo", opis: "Sokol je ponos svake obitelji, a dobre ptice dosežu cijenu automobila. Lovi se zimi, a ptice se nose na ruci zaštićenoj kožnom manšetom.", gdje: "Tržnica sokola i bolnica za sokolove u sklopu tržnice Souq Waqif u Dohi." },
-    { ime: "Ronjenje na bisere", opis: "Do tridesetih godina 20. stoljeća gotovo svi muškarci provodili su ljeta na moru, a pjevači nahham pjesmom su davali ritam veslačima i roniocima.", gdje: "Festival tradicionalnih brodova dhow u kulturnom selu Katara, obično krajem studenoga ili u prosincu." },
-    { ime: "Al Sadu", opis: "Beduinke tkaju vunu deva i ovaca u crvene, crne i bijele geometrijske pruge za šatore i jastuke.", gdje: "U radionicama na tržnici Souq Waqif i u Nacionalnom muzeju Katara." },
-    { ime: "Garangao", opis: "Sredinom ramazana djeca u narodnoj nošnji idu od vrata do vrata, pjevaju i skupljaju orašaste plodove i slatkiše u platnene vrećice.", gdje: "U svim četvrtima Dohe, a javne proslave priređuju Katara i Souq Waqif četrnaeste noći ramazana." },
-    { ime: "Utrke deva", opis: "Deve trče stazom dugom nekoliko kilometara, a vode ih mali roboti kojima vlasnici upravljaju iz terenaca što jure uz ogradu.", gdje: "Trkalište Al Shahaniya, sat vožnje zapadno od Dohe, od listopada do ožujka." }
+    { ime: "Falconry", opis: "A falcon is the pride of every family, and good birds fetch the price of a car. Hunting takes place in winter, and the birds are carried on a hand protected by a leather cuff.", gdje: "The falcon souq and the falcon hospital, part of Souq Waqif in Doha." },
+    { ime: "Pearl Diving", opis: "Until the 1930s almost all men spent their summers at sea, and the singers known as nahham set the rhythm for the rowers and divers with their songs.", gdje: "The Traditional Dhow Festival at Katara Cultural Village, usually in late November or in December." },
+    { ime: "Al Sadu", opis: "Bedouin women weave camel and sheep wool into red, black and white geometric stripes for tents and cushions.", gdje: "In the workshops at Souq Waqif and in the National Museum of Qatar." },
+    { ime: "Garangao", opis: "In the middle of Ramadan children in traditional dress go from door to door, singing and collecting nuts and sweets in cloth bags.", gdje: "In every neighborhood of Doha, with public celebrations put on by Katara and Souq Waqif on the fourteenth night of Ramadan." },
+    { ime: "Camel Racing", opis: "The camels run a track several kilometers long, guided by small robots that their owners control from SUVs speeding along the fence.", gdje: "The Al Shahaniya racetrack, an hour's drive west of Doha, from October to March." }
   ],
   fraze: [
-    { izvorno: "As-salamu alaykum", izgovor: "as-sa-LA-mu a-LEJ-kum", hr: "Mir s vama (pozdrav)" },
-    { izvorno: "Hala", izgovor: "HA-la", hr: "Bok (prisno)" },
-    { izvorno: "Shlonak?", izgovor: "ŠLO-nak", hr: "Kako si? (muškarcu; ženi: shlonich)" },
-    { izvorno: "Zain", izgovor: "zejn", hr: "Dobro" },
-    { izvorno: "Shukran", izgovor: "ŠUK-ran", hr: "Hvala" },
-    { izvorno: "Law samaht", izgovor: "lau sa-MAHT", hr: "Molim vas, oprostite" },
-    { izvorno: "Kam?", izgovor: "kam", hr: "Koliko?" },
-    { izvorno: "Ma'a as-salama", izgovor: "MA-a sa-LA-ma", hr: "Doviđenja" }
+    { izvorno: "As-salamu alaykum", izgovor: "ahs-sah-LAH-moo ah-LAY-koom", hr: "Peace be upon you (greeting)" },
+    { izvorno: "Hala", izgovor: "HAH-lah", hr: "Hi (informal)" },
+    { izvorno: "Shlonak?", izgovor: "SHLOH-nak", hr: "How are you? (to a man; to a woman: shlonich)" },
+    { izvorno: "Zain", izgovor: "zayn", hr: "Good" },
+    { izvorno: "Shukran", izgovor: "SHOOK-rahn", hr: "Thank you" },
+    { izvorno: "Law samaht", izgovor: "lao sah-MAHT", hr: "Please, excuse me" },
+    { izvorno: "Kam?", izgovor: "kahm", hr: "How much?" },
+    { izvorno: "Ma'a as-salama", izgovor: "MAH-ah sah-LAH-mah", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Katar je 2022. bio prva arapska zemlja domaćin Svjetskog nogometnog prvenstva, na kojem je Hrvatska osvojila broncu.",
-    "Arhitekt I. M. Pei imao je 91 godinu kada je otvoren njegov Muzej islamske umjetnosti i tražio je da se za zgradu nasipa poseban otok.",
-    "Najviša prirodna točka zemlje, Qurayn Abu al Bawl, visoka je tek stotinjak metara.",
-    "Katarski državljani čine otprilike desetinu stanovništva zemlje.",
-    "Na jugu zemlje more ulazi duboko među dine, što je rijetka pojava u svijetu.",
-    "Državni praznik slavi se 18. prosinca, u spomen na dan 1878. kada je šeik Jassim naslijedio vlast i ujedinio plemena."
+    "In 2022 Qatar was the first Arab country to host the soccer World Cup, at which Croatia won the bronze medal.",
+    "The architect I. M. Pei was 91 when his Museum of Islamic Art opened, and he asked for a special island to be built up for the building.",
+    "The highest natural point in the country, Qurayn Abu al Bawl, is only about a hundred meters high.",
+    "Qatari citizens make up roughly a tenth of the country's population.",
+    "In the south of the country the sea reaches deep in among the dunes, which is a rare phenomenon anywhere in the world.",
+    "The national holiday is celebrated on December 18, in memory of the day in 1878 when Sheikh Jassim succeeded to power and united the tribes."
   ],
   mjesta: [
     {
       id: "doha",
       ime: "Doha",
       vrsta: "grad",
-      sazetak: "Prijestolnica na zaljevu u kojoj se stara tržnica i muzeji slavnih arhitekata gledaju preko vode s neboderima.",
-      prica: ["Doha je nastala u 19. stoljeću kao naselje ronilaca na bisere zvano Al Bidda. Kada su japanski uzgojeni biseri tridesetih godina srušili tržište, grad je gotovo opustio, a spasili su ga nafta i, poslije, plin. Od devedesetih godina prošlog stoljeća obala zaljeva potpuno je preoblikovana, a stara jezgra obnovljena je kao tržnica i četvrt Msheireb."],
+      sazetak: "The capital on a bay, where the old souq and the museums of famous architects look across the water at the skyscrapers.",
+      prica: ["Doha came into being in the 19th century as a settlement of pearl divers called Al Bidda. When Japanese cultured pearls brought down the market in the 1930s the town was almost deserted, and it was saved by oil and, later, gas. Since the 1990s the shore of the bay has been completely reshaped, and the old core has been restored as the souq and the Msheireb district."],
       vidjeti: [
-        { ime: "Muzej islamske umjetnosti", opis: "I. M. Pei otvorio ga je 2008., a nadahnuće je našao u zdencu za pranje džamije Ibn Tuluna u Kairu iz 9. stoljeća. Zgrada se slaže od kocaka koje sunce tijekom dana oblikuje sjenama, a na vrhu su dva otvora nalik očima nad velom. Unutra potražite astrolabe i sagove iz safavidske Perzije." },
-        { ime: "Nacionalni muzej Katara", opis: "Jean Nouvel oblikovao ga je 2019. prema pustinjskoj ruži, kristalu koji nastaje u slanom pijesku, pa se zgrada sastoji od stotina ukrštenih diskova. Obavija staru palaču šeika Abdullaha bin Jassima, a obilazak dug kilometar i pol vodi od fosila do plinskog doba." },
-        { ime: "Souq Waqif", opis: "Ime znači „stajaća tržnica“, jer su trgovci nekad stajali uz korito vadija dok je plima plavila obalu. Obnovljena je početkom 21. stoljeća tradicionalnom gradnjom od blata i drva. Potražite uličicu sokola, u kojoj ptice s kapicama na glavi sjede na prečkama i čekaju kupce." },
-        { ime: "Muzeji Msheireb", opis: "Četiri obnovljene kuće pričaju povijest grada. Kuća Bin Jelmood otvoreno govori o trgovini robljem u Indijskom oceanu i o ropstvu u samom Kataru, što je u ovom dijelu svijeta rijetka iskrenost." },
-        { ime: "Kulturno selo Katara", opis: "Uz more su sagrađeni amfiteatar, galerije i dvije džamije, od kojih je jedna obložena plavim i zlatnim pločicama. Golubinjaci od blata uz ulaz građeni su po uzoru na stare tornjeve u kojima se skupljalo gnojivo." },
-        { ime: "Šetnica Corniche", opis: "Sedam kilometara duga obala vodi od muzeja do nebodera u četvrti West Bay. Uz obalu su usidreni drveni brodovi dhow, koji navečer voze kratke krugove po zaljevu." }
+        { ime: "Museum of Islamic Art", opis: "I. M. Pei opened it in 2008, having found his inspiration in the ablution fountain of the 9th-century Mosque of Ibn Tulun in Cairo. The building is stacked up from cubes that the sun models with shadows over the course of the day, and at the top are two openings like eyes above a veil. Inside, look for the astrolabes and the carpets from Safavid Persia." },
+        { ime: "National Museum of Qatar", opis: "Jean Nouvel designed it in 2019 after the desert rose, a crystal that forms in salty sand, so the building consists of hundreds of interlocking disks. It wraps around the old palace of Sheikh Abdullah bin Jassim, and the kilometer-and-a-half route leads from fossils to the age of gas." },
+        { ime: "Souq Waqif", opis: "The name means “standing market”, because the traders once stood along the bed of the wadi while the tide flooded the shore. It was restored at the start of the 21st century using traditional mud and timber construction. Look for the falcon alley, where hooded birds sit on perches waiting for buyers." },
+        { ime: "Msheireb Museums", opis: "Four restored houses tell the history of the city. Bin Jelmood House speaks openly about the slave trade in the Indian Ocean and about slavery in Qatar itself, a candor that is rare in this part of the world." },
+        { ime: "Katara Cultural Village", opis: "An amphitheater, galleries and two mosques have been built beside the sea, one of them clad in blue and gold tiles. The mud pigeon towers by the entrance are modeled on the old towers in which droppings were collected for fertilizer." },
+        { ime: "The Corniche", opis: "The seven-kilometer waterfront leads from the museum to the skyscrapers of the West Bay district. Wooden dhows are moored along the shore, and in the evening they make short loops around the bay." }
       ],
       jesti: [
-        { ime: "Katarska kuhinja na tržnici", opis: "Restorani na Souq Waqifu poslužuju machboos, madroubu i thareed, a žene za štandovima prže regag i luqaimat." },
-        { ime: "Karak i chapati", opis: "U malim čajanama diljem grada čaj se pije uz tanki kruh namazan sirom ili medom, često bez izlaska iz auta." },
-        { ime: "Kuhinje doseljenika", opis: "Doha ima odlične jemenske, iranske, indijske i libanonske restorane, jer su ti ljudi gradili grad." }
+        { ime: "Qatari Cuisine at the Souq", opis: "The restaurants at Souq Waqif serve machboos, madrouba and thareed, and women at the stalls fry regag and luqaimat." },
+        { ime: "Karak and Chapati", opis: "In small tea shops all over the city the tea is drunk with thin bread spread with cheese or honey, often without getting out of the car." },
+        { ime: "The Cuisines of the Immigrants", opis: "Doha has excellent Yemeni, Iranian, Indian and Lebanese restaurants, because these are the people who built the city." }
       ],
       dozivjeti: [
-        { ime: "Večer na tržnici Souq Waqif", opis: "Nakon zalaska sunca tržnica oživi: sviraju glazbenici, puše se nargila, a u umjetničkom centru rade kaligrafi i slikari.", link: "https://www.souqwaqif.qa/" },
-        { ime: "Muzejski dan", opis: "Qatar Museums vodi sve velike zbirke, a u parku uz Muzej islamske umjetnosti stoji i skulptura Richarda Serre visoka dvadeset i četiri metra.", link: "https://qm.org.qa/en/" },
-        { ime: "Vožnja brodom dhow po zaljevu", opis: "S mora se najbolje vidi kako je grad izrastao, od niskog muzeja do tornjeva West Baya." }
+        { ime: "An Evening at Souq Waqif", opis: "After sunset the souq comes alive: musicians play, water pipes are smoked, and calligraphers and painters work in the art center.", link: "https://www.souqwaqif.qa/" },
+        { ime: "A Museum Day", opis: "Qatar Museums runs all the major collections, and in the park beside the Museum of Islamic Art there is also a sculpture by Richard Serra twenty-four meters high.", link: "https://qm.org.qa/en/" },
+        { ime: "A Dhow Cruise Around the Bay", opis: "The sea gives the best view of how the city has grown, from the low museum to the towers of West Bay." }
       ],
       agencije: [
-        { ime: "Visit Qatar", opis: "Službena turistička stranica Katara.", link: "https://visitqatar.com/" },
-        { ime: "Muzej islamske umjetnosti", opis: "Službena stranica muzeja s izložbama i ulaznicama.", link: "https://mia.org.qa/en/" },
-        { ime: "Nacionalni muzej Katara", opis: "Službena stranica muzeja.", link: "https://nmoq.org.qa/en/" }
+        { ime: "Visit Qatar", opis: "Qatar's official tourism website.", link: "https://visitqatar.com/" },
+        { ime: "Museum of Islamic Art", opis: "The museum's official website, with exhibitions and tickets.", link: "https://mia.org.qa/en/" },
+        { ime: "National Museum of Qatar", opis: "The museum's official website.", link: "https://nmoq.org.qa/en/" }
       ],
-      kada: "Od studenoga do ožujka. Petkom se muzeji otvaraju tek poslijepodne, a tržnica je najživlja nakon zalaska sunca."
+      kada: "November to March. On Fridays the museums open only in the afternoon, and the souq is at its liveliest after sunset."
     },
     {
       id: "pustinja-i-sjever",
-      ime: "Pustinja i sjever Katara",
+      ime: "The Desert and Northern Qatar",
       vrsta: "priroda",
-      sazetak: "More među dinama na jugu, a na sjeveru napušteni grad bisera i čelične ploče usred ničega.",
-      prica: ["Izvan Dohe zemlja je ravna, kamenita i gotovo prazna, a upravo u toj praznini kriju se njezina najzanimljivija mjesta. Na sjeverozapadu je Al Zubarah, trgovački grad bisera iz 18. stoljeća koji je pijesak zatrpao i sačuvao. Na jugu se dine spuštaju u Khor Al Adaid, zaljev do kojeg nema ceste."],
+      sazetak: "A sea among the dunes in the south, and in the north an abandoned pearling town and steel plates in the middle of nowhere.",
+      prica: ["Outside Doha the land is flat, stony and almost empty, and it is in that very emptiness that its most interesting places are hidden. In the northwest lies Al Zubarah, an 18th-century pearl trading town that the sand buried and preserved. In the south the dunes run down into Khor Al Adaid, an inlet that no road reaches."],
       vidjeti: [
-        { ime: "Khor Al Adaid", opis: "Morski rukavac zavlači se dvadesetak kilometara među dine i čini plitko unutarnje more na granici sa Saudijskom Arabijom. Dolazi se samo terencem preko pijeska, a kada vjetar pomakne dinu, pijesak tiho bruji." },
-        { ime: "Al Zubarah", opis: "Grad koji su sredinom 18. stoljeća osnovali trgovci iz Kuvajta bio je središte trgovine biserima, a razoren je 1811. i napušten. UNESCO ga je 2013. upisao kao prvu svjetsku baštinu Katara. Utvrda s četiri kule uz njega mlađa je nego što izgleda, iz 1938." },
-        { ime: "Skulptura Istok-Zapad/Zapad-Istok", opis: "Richard Serra postavio je 2014. u pustinji Zekreet četiri čelične ploče visoke više od četrnaest metara u nizu dugom kilometar. Vrhovi su im u istoj ravnini iako je tlo neravno, a čelik s vremenom dobiva boju okolnih stijena." },
-        { ime: "Crteži u stijeni Al Jassasiya", opis: "Na niskim vapnenačkim grebenima uklesano je oko devetsto znakova, među njima redovi udubina i brodovi s veslima viđeni odozgo. Starost im nije sa sigurnošću utvrđena, a udubine su možda služile za igru nalik mankali." },
-        { ime: "Mangrove Al Thakira", opis: "Zelena šuma sivih mangrova raste iz slanog plićaka kraj grada Al Khora. U njoj zimuju plamenci i čaplje, a među korijenjem trče rakovi." }
+        { ime: "Khor Al Adaid", opis: "An arm of the sea winds some twenty kilometers in among the dunes and forms a shallow inland sea on the border with Saudi Arabia. You can get there only by four-wheel drive across the sand, and when the wind shifts a dune, the sand hums softly." },
+        { ime: "Al Zubarah", opis: "The town, founded in the mid-18th century by merchants from Kuwait, was a center of the pearl trade, and it was destroyed in 1811 and abandoned. UNESCO inscribed it in 2013 as Qatar's first World Heritage site. The four-towered fort beside it is younger than it looks, dating from 1938." },
+        { ime: "East-West/West-East Sculpture", opis: "In 2014 Richard Serra installed four steel plates more than fourteen meters high in the Zekreet desert, in a line a kilometer long. Their tops are level with one another even though the ground is uneven, and over time the steel takes on the color of the surrounding rocks." },
+        { ime: "The Al Jassasiya Rock Carvings", opis: "About nine hundred signs are carved into low limestone ridges, among them rows of cup marks and oared boats seen from above. Their age has not been established with certainty, and the cup marks may have been used for a game similar to mancala." },
+        { ime: "Al Thakira Mangroves", opis: "A green forest of gray mangroves grows out of the salty shallows near the town of Al Khor. Flamingos and herons winter in it, and crabs scuttle among the roots." }
       ],
       jesti: [
-        { ime: "Roštilj u kampu", opis: "Izleti u dine obično završavaju janjetinom i piletinom s roštilja u kampu uz more." },
-        { ime: "Riba u Al Khoru", opis: "U staroj ribarskoj luci na sjeveru restorani uz obalu peku hamour i poslužuju ga s rižom." }
+        { ime: "Barbecue at the Camp", opis: "Trips into the dunes usually end with grilled lamb and chicken at a camp by the sea." },
+        { ime: "Fish in Al Khor", opis: "In the old fishing harbor in the north, the waterfront restaurants grill hamour and serve it with rice." }
       ],
       dozivjeti: [
-        { ime: "Izlet terencem do unutarnjeg mora", opis: "Vozači spuštaju tlak u gumama i voze preko dina do obale, gdje se može kupati s pogledom na saudijsku stranu. Q-Explorer jedan je od lokalnih organizatora.", link: "https://q-explorer.com/" },
-        { ime: "Kajakom kroz mangrove", opis: "U Al Thakiri se vesla plitkim kanalima u doba plime, najbolje rano ujutro, kada su ptice najaktivnije." }
+        { ime: "A Four-Wheel-Drive Trip to the Inland Sea", opis: "The drivers let air out of the tires and drive over the dunes to the shore, where you can swim with a view of the Saudi side. Q-Explorer is one of the local operators.", link: "https://q-explorer.com/" },
+        { ime: "Kayaking Through the Mangroves", opis: "At Al Thakira you paddle through shallow channels at high tide, best early in the morning, when the birds are most active." }
       ],
       agencije: [
-        { ime: "Visit Qatar", opis: "Službena turistička stranica s popisom ovlaštenih organizatora pustinjskih izleta.", link: "https://visitqatar.com/" },
-        { ime: "Qatar Museums", opis: "Upravlja nalazištem Al Zubarah i javnim skulpturama u pustinji.", link: "https://qm.org.qa/en/" }
+        { ime: "Visit Qatar", opis: "The official tourism website, with a list of licensed desert tour operators.", link: "https://visitqatar.com/" },
+        { ime: "Qatar Museums", opis: "It manages the Al Zubarah site and the public sculptures in the desert.", link: "https://qm.org.qa/en/" }
       ],
-      kada: "Od studenoga do ožujka. Do Serrine skulpture i unutarnjeg mora ne idite običnim autom, a vodu i pokrivalo za glavu ponesite i zimi."
+      kada: "November to March. Do not try to reach Serra's sculpture or the inland sea in an ordinary car, and bring water and something to cover your head even in winter."
     }
   ],
   izvori: [

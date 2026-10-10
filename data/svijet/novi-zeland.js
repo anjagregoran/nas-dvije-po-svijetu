@@ -1,348 +1,348 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["novi-zeland"] = {
   id: "novi-zeland",
-  ime: "Novi Zeland",
-  regija: "Oceanija",
-  sazetak: "Dva otoka na kraju svijeta na kojima u tjedan dana stanu gejziri, fjordovi, ledenjaci i hobitske rupe, a dočeka vas maorski pozdrav Kia ora.",
+  ime: "New Zealand",
+  regija: "Oceania",
+  sazetak: "Two islands at the end of the world where a single week can hold geysers, fjords, glaciers and hobbit holes, and where you are welcomed with the Māori greeting Kia ora.",
   uvod: [
-    "Novi Zeland, na maorskom Aotearoa, što se obično prevodi kao zemlja dugog bijelog oblaka, posljednje je veliko kopno na koje je stupio čovjek. Polinezijski moreplovci stigli su ovamo velikim kanuima oko 13. stoljeća i od njih potječu Maori, čiji su jezik, rezbarstvo i običaji danas ponos cijele zemlje. Nizozemac Abel Tasman ugledao je obalu 1642., a James Cook oplovio ju je i ucrtao 1769.",
-    "Dana 6. veljače 1840. maorski poglavice i predstavnici britanske krune potpisali su Ugovor iz Waitangija, temeljni dokument države o čijem se tumačenju raspravlja do danas. Zemlja ima samo oko pet milijuna stanovnika i vrlo raznolik krajolik: Sjeverni otok je vulkanski i topao, s gejzirima i većinom maorskih zajednica, a Južni planinski, s Alpama, ledenjacima i fjordovima.",
-    "Za hrvatske putnice Novi Zeland ima i posebnu nit. Od osamdesetih godina 19. stoljeća ovamo su dolazili mladići iz Dalmacije, najviše iz Podbiokovlja, s Pelješca i s otoka, kako bi na sjeveru kopali smolu drveta kaurija. Njihovi potomci, koje ovdje zovu Dallies, zasadili su vinograde oko Aucklanda i postavili temelje novozelandskog vinarstva, a iz brakova Dalmatinaca i Maorki nastala je zajednica koja se s ponosom naziva Tarara."
+    "New Zealand, in Māori Aotearoa, which is usually translated as the land of the long white cloud, is the last large landmass that humans ever set foot on. Polynesian navigators arrived here in great canoes around the 13th century, and from them descend the Māori, whose language, carving and customs are today the pride of the whole country. The Dutchman Abel Tasman sighted the coast in 1642, and James Cook sailed around it and charted it in 1769.",
+    "On February 6, 1840, Māori chiefs and representatives of the British Crown signed the Treaty of Waitangi, the founding document of the state, whose interpretation is still debated today. The country has only about five million people and a remarkably varied landscape: the North Island is volcanic and warm, with geysers and most of the Māori communities, while the South Island is mountainous, with the Alps, glaciers and fjords.",
+    "For Croatian travelers New Zealand holds a special thread of its own. From the 1880s onward, young men from Dalmatia, mostly from the area below Mount Biokovo, from the Pelješac peninsula and from the islands, came here to dig for the gum of the kauri tree in the north. Their descendants, known here as Dallies, planted vineyards around Auckland and laid the foundations of New Zealand winemaking, while marriages between Dalmatian men and Māori women gave rise to a community that proudly calls itself Tarara."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Najtoplije je i najsuše od prosinca do ožujka, što je i glavna sezona s najviše gužve. Studeni i travanj mirniji su i jednako lijepi, a u travnju se žute stabla u Arrowtownu. Godišnja doba obrnuta su od naših, a vrijeme se u planinama mijenja iz sata u sat." },
-    { k: "Valuta", v: "Novozelandski dolar (NZD). Karticom se plaća gotovo svuda, i u najmanjim mjestima." },
-    { k: "Kretanje", v: "Najbolje je unajmiti automobil ili kamper i voziti lijevom stranom. Ceste su uske i zavojite, pa računajte da sto kilometara traje dulje nego kod kuće. Između otoka plovi trajekt od Wellingtona do Pictona, vožnja traje oko tri i pol sata i sama je po sebi izlet." },
-    { k: "Napojnica", v: "Ne očekuje se i nitko vam neće zamjeriti ako je ne ostavite. Za iznimnu uslugu možete zaokružiti račun." },
-    { k: "Ulazak u zemlju", v: "Putnicima iz zemalja bez vizne obveze prije puta treba elektroničko odobrenje NZeTA, uz koje se plaća i naknada za zaštitu prirode, pa uvjete provjerite na službenim stranicama novozelandske imigracijske službe. Na granici se vrlo strogo pregledavaju hrana, sjemenke i planinarska obuća, koja mora biti čista." },
-    { k: "Priroda", v: "Sunce je iznimno jako pa se izgori i za oblačna dana. Na Južnom otoku ponesite sredstvo protiv sitnih mušica koje grizu, a za dulje staze javite nekome kamo idete." }
+    { k: "When to go", v: "It is warmest and driest from December to March, which is also the main season with the biggest crowds. November and April are quieter and just as lovely, and in April the trees in Arrowtown turn gold. The seasons are the reverse of those in Europe, and in the mountains the weather changes from one hour to the next." },
+    { k: "Currency", v: "New Zealand dollar (NZD). You can pay by card almost everywhere, even in the smallest places." },
+    { k: "Getting around", v: "The best option is to rent a car or a camper van and drive on the left. The roads are narrow and winding, so expect a hundred kilometers to take longer than it would at home. A ferry sails between the islands from Wellington to Picton, the crossing takes about three and a half hours and is an outing in its own right." },
+    { k: "Tipping", v: "It is not expected and nobody will hold it against you if you leave nothing. For exceptional service you can round up the bill." },
+    { k: "Entering the country", v: "Travelers from visa-waiver countries need the NZeTA electronic authorization before they travel, which comes with a conservation levy, so check the conditions on the official website of New Zealand's immigration service. At the border, food, seeds and hiking boots are inspected very strictly, and the boots have to be clean." },
+    { k: "Nature", v: "The sun is exceptionally strong, so you can burn even on a cloudy day. On the South Island bring repellent for the tiny biting sandflies, and for longer trails let someone know where you are going." }
   ],
   hrana: [
-    { ime: "Hāngī", opis: "Maorska gozba od mesa, kumare i povrća koja se satima kuha na pari u jami s užarenim kamenjem, pokrivena mokrim platnom i zemljom.", prica: "Hrana dobije blag okus dima i zemlje koji se ne može postići u pećnici. U Rotorui se umjesto vatre koristi prirodna para iz tla, pa se košare s hranom spuštaju u vruće otvore usred sela." },
-    { ime: "Kūmara", opis: "Slatki krumpir koji su polinezijski preci Maora donijeli kanuima preko Pacifika.", prica: "Budući da je tropska biljka, Maori su za nju morali izmisliti posebne nasade s kamenim zidićima i jame za čuvanje preko zime. Danas se jede pečena, u juhi i kao prženi štapići, a najviše se uzgaja oko Dargavillea, u kraju nekadašnjih dalmatinskih kopača smole." },
-    { ime: "Pavlova", opis: "Torta od pečenog bjelanjka s vrhnjem i voćem, ovdje najčešće s kivijem.", prica: "Nazvana je po balerini Ani Pavlovoj, koja je 1926. gostovala na Novom Zelandu. Novozelanđani su uvjereni da je torta njihova i kao dokaz navode stare kuharice, pa je bolje ne spominjati Australiju dok je jedete." },
-    { ime: "Zelenousne dagnje", opis: "Velike dagnje sa smaragdnim rubom ljušture koje žive samo u novozelandskim vodama.", prica: "Uzgajaju se ponajviše u zaljevima Marlborougha, a gradić Havelock proglasio se njihovom svjetskom prijestolnicom. Kuhaju se na pari s bijelim vinom i češnjakom, a jedna je dovoljna za dva zalogaja." },
-    { ime: "Popečci od whitebaita", opis: "Sitne prozirne riblje mlađi umiješane u jaja i ispečene poput omleta.", prica: "Mlađ se u proljeće lovi mrežama na ušćima rijeka, najviše na zapadnoj obali Južnog otoka, i to je sezonska poslastica oko koje vlada prava groznica. Jede se između dviju kriški bijelog kruha s maslacem i limunom." },
-    { ime: "Riba i krumpirići", opis: "Pržena riba u tijestu s krumpirićima, zamotana u papir.", prica: "Petkom navečer pola zemlje kupuje fish and chips i nosi ih na plažu. Tražite domaću ribu poput tarakihija, gurnarda ili plavog bakalara, a na jugu i kamenice iz Bluffa u sezoni od ožujka do kolovoza." },
-    { ime: "Sladoled hokey pokey", opis: "Sladoled od vanilije s komadićima hrskave karamele nalik na saće.", prica: "To je omiljeni okus u zemlji koja po stanovniku pojede više sladoleda nego gotovo itko na svijetu. Prodaje se u svakoj maloj trgovini uz cestu, u golemim kuglama." },
-    { ime: "Flat white", opis: "Jaki espresso s tankim slojem svilenkastog mlijeka.", prica: "Wellington tvrdi da je nastao upravo ondje osamdesetih godina 20. stoljeća, što Australci osporavaju. Kava je na Novom Zelandu odlična i u najmanjem selu, a obična kava iz aparata gotovo da i ne postoji." },
-    { ime: "Sauvignon blanc iz Marlborougha", opis: "Svježe bijelo vino izrazitog mirisa marakuje, ogrozda i pokošene trave.", prica: "Prvi nasadi u Marlboroughu posađeni su tek sedamdesetih godina 20. stoljeća, a za dvadesetak godina to je vino proslavilo zemlju u cijelom svijetu. Mnoge velike vinarije osnovale su obitelji dalmatinskog podrijetla, primjerice Babich, Nobilo, Delegat i Villa Maria." },
-    { ime: "Med mānuka", opis: "Taman, gust med od cvjetova grma mānuka.", prica: "Maori su mānuku od davnina koristili kao ljekovitu biljku, a med je danas jedan od najskupljih na svijetu. Na staklenkama je označena jačina, pa za čaj uzmite onaj slabiji i jeftiniji." }
+    { ime: "Hāngī", opis: "A Māori feast of meat, kūmara and vegetables steamed for hours in a pit with red-hot stones, covered with wet cloth and earth.", prica: "The food takes on a mild flavor of smoke and earth that no oven can reproduce. In Rotorua natural steam from the ground is used instead of fire, so baskets of food are lowered into hot vents in the middle of the village." },
+    { ime: "Kūmara", opis: "The sweet potato that the Polynesian ancestors of the Māori brought across the Pacific in their canoes.", prica: "Because it is a tropical plant, the Māori had to invent special plantings with low stone walls for it, along with pits for storing it through the winter. Today it is eaten roasted, in soup and as fries, and most of it is grown around Dargaville, in the country of the former Dalmatian gum diggers." },
+    { ime: "Pavlova", opis: "A cake of baked meringue with cream and fruit, here most often topped with kiwifruit.", prica: "It is named after the ballerina Anna Pavlova, who toured New Zealand in 1926. New Zealanders are convinced the cake is theirs and point to old cookbooks as proof, so it is best not to mention Australia while you are eating it." },
+    { ime: "Green-lipped mussels", opis: "Large mussels with an emerald edge to the shell that live only in New Zealand waters.", prica: "They are farmed mainly in the bays of Marlborough, and the small town of Havelock has declared itself their world capital. They are steamed with white wine and garlic, and a single one is enough for two bites." },
+    { ime: "Whitebait fritters", opis: "Tiny translucent juvenile fish stirred into eggs and fried like an omelet.", prica: "The young fish are netted in spring at river mouths, mostly on the west coast of the South Island, and they are a seasonal delicacy that sets off a real fever. They are eaten between two slices of white bread with butter and lemon." },
+    { ime: "Fish and chips", opis: "Battered fried fish with fries, wrapped in paper.", prica: "On Friday evenings half the country buys fish and chips and carries them down to the beach. Ask for local fish such as tarakihi, gurnard or blue cod, and in the south also for Bluff oysters, in season from March to August." },
+    { ime: "Hokey pokey ice cream", opis: "Vanilla ice cream with pieces of crunchy honeycomb toffee.", prica: "This is the favorite flavor in a country that eats more ice cream per person than almost anyone else in the world. It is sold in every little roadside shop, in enormous scoops." },
+    { ime: "Flat white", opis: "A strong espresso with a thin layer of silky milk.", prica: "Wellington claims it was created right there in the 1980s, which Australians dispute. Coffee in New Zealand is excellent even in the smallest village, and ordinary machine coffee barely exists." },
+    { ime: "Marlborough sauvignon blanc", opis: "A fresh white wine with a pronounced aroma of passion fruit, gooseberry and cut grass.", prica: "The first vines in Marlborough were planted only in the 1970s, and within about twenty years this wine had made the country famous around the world. Many of the big wineries were founded by families of Dalmatian origin, such as Babich, Nobilo, Delegat and Villa Maria." },
+    { ime: "Mānuka honey", opis: "A dark, thick honey from the flowers of the mānuka shrub.", prica: "The Māori have used mānuka as a medicinal plant since ancient times, and the honey is now one of the most expensive in the world. The jars are labeled with a strength rating, so for your tea choose the weaker and cheaper one." }
   ],
   obicaji: [
-    { ime: "Haka", opis: "Haka je zajednički naziv za maorske plesove koji se izvode uz snažno toptanje nogama, udaranje po prsima i bedrima, razrogačene oči i isplažen jezik. Mnogi je znaju kao ratni ples, ali haka se izvodi i u čast gostima, na vjenčanjima, sprovodima i dodjelama diploma, kao najveći izraz poštovanja. Najpoznatiju, Ka Mate, spjevao je oko 1820. poglavica Te Rauparaha iz plemena Ngāti Toa nakon što je izbjegao neprijateljima, a ragbijaši All Blacksa izvode je još od početka 20. stoljeća.", gdje: "Večernji kulturni programi u Rotorui, primjerice u Te Puiji te u selima Te Pā Tū i Mitai, te prije svake utakmice All Blacksa. Najbolje skupine natječu se na festivalu Te Matatini, koji se održava svake druge godine." },
-    { ime: "Hongi", opis: "Tradicionalni maorski pozdrav u kojem dvoje ljudi nakratko prislone nos i čelo jedno drugome. Time dijele dah života, koji je prema predaji bog Tāne udahnuo prvoj ženi, i nakon toga gost prestaje biti stranac i postaje dio zajednice domaćina.", gdje: "Na kraju obreda dobrodošlice na maraeu i u kulturnim centrima u Rotorui. Slijedite domaćina: lagano pritisnite nos i čelo, zatvorite oči i ne ljubite u obraz." },
-    { ime: "Pōwhiri i ponašanje na maraeu", opis: "Marae je ograđeno sveto dvorište s kućom predaka u kojem zajednica dočekuje goste, vijeća i oprašta se od mrtvih. Na marae se ne ulazi bez poziva. Dobrodošlica, pōwhiri, počinje zovom žene domaćina, nastavlja se govorima i pjesmama, a završava hongijem i zajedničkim jelom, nakon čega se sve opušta.", gdje: "Posjet se dogovara preko kulturnih centara i organiziranih tura. Držite se nekoliko pravila: čekajte na ulazu dok vas ne pozovu, hodajte polako i u tišini, izujte se prije ulaska u kuću predaka, u nju ne unosite hranu i piće, ne sjedajte na stolove ni na jastuke i pitajte prije fotografiranja. Uobičajeno je donijeti koha, dar u novcu." },
-    { ime: "Tā moko", opis: "Maorska tetovaža bilježi podrijetlo, pleme i životni put osobe, pa je svaka jedinstvena poput potpisa. Muškarci su tradicionalno tetovirali cijelo lice, a žene bradu i usne, što se zove moko kauae. Običaj je gotovo nestao u 20. stoljeću i danas se snažno vraća.", gdje: "Vidjet ćete ga svuda, od voditeljica televizijskih vijesti do zastupnica u parlamentu. Portrete i povijest najbolje tumači muzej Te Papa u Wellingtonu." },
-    { ime: "Rezbarstvo i tkanje", opis: "Maori nisu imali pismo, pa su povijest plemena urezivali u drvo. Svaki stup kuće predaka prikazuje jednog pretka, a oči od sedefa puzlatke gledaju posjetitelja. Žene tkaju ogrtače i košare od vlakana novozelandskog lana, bez tkalačkog stana, samo prstima.", gdje: "Nacionalni institut maorskih umjetnosti i obrta u Te Puiji u Rotorui, gdje se učenicima može gledati preko ramena dok rezbare drvo, kost i zeleni kamen pounamu." },
-    { ime: "Matariki", opis: "Maorska nova godina počinje kada se sredinom zime na jutarnjem nebu ponovno pojavi zvjezdani skup Plejade, koji Maori zovu Matariki. To je vrijeme sjećanja na umrle, zahvale za urod i planiranja nove godine. Od 2022. državni je praznik, prvi koji se temelji na maorskom kalendaru.", gdje: "Diljem zemlje u lipnju ili srpnju, uz svjetlosne festivale, gozbe i promatranje zvijezda u zoru. Datum se svake godine mijenja." },
-    { ime: "Dan Waitangija", opis: "Dana 6. veljače obilježava se potpisivanje ugovora iz 1840. između Maora i britanske krune. Dan je istodobno slavlje i prilika za prosvjede i ozbiljne rasprave o tome je li ugovor ispoštovan.", gdje: "Waitangi u Zaljevu otoka, gdje se u zoru održava služba, a na more se spuštaju veliki ratni kanui s desecima veslača." },
-    { ime: "Tarara i dalmatinsko nasljeđe", opis: "Dalmatinci su od osamdesetih godina 19. stoljeća kopali smolu kaurija na sjeveru Sjevernog otoka, u teškim uvjetima i uz nepovjerenje vlasti, koje su ih zvale Austrijancima. S Maorima su se, naprotiv, dobro slagali i često ženili, a njihove potomke Maori zovu Tarara. Zajednica čuva kolo, tamburicu i klape, a 15. ožujka slavi Dan Tarara.", gdje: "Dalmatinsko kulturno društvo u Aucklandu, vinarije obitelji Babich i Brajkovich u zapadnom Aucklandu te kraj oko Dargavillea i Kaitaije, gdje muzeji čuvaju zbirke smole i alata kopača." }
+    { ime: "Haka", opis: "Haka is the general name for Māori dances performed with powerful stamping of the feet, slapping of the chest and thighs, wide-open eyes and an outstretched tongue. Many people know it as a war dance, but haka is also performed in honor of guests, at weddings, funerals and graduations, as the highest expression of respect. The most famous one, Ka Mate, was composed around 1820 by the chief Te Rauparaha of the Ngāti Toa tribe after he escaped his enemies, and the All Blacks rugby players have been performing it since the early 20th century.", gdje: "Evening cultural programs in Rotorua, for example at Te Puia and in the villages of Te Pā Tū and Mitai, and before every All Blacks match. The best groups compete at the Te Matatini festival, which is held every other year." },
+    { ime: "Hongi", opis: "The traditional Māori greeting in which two people briefly press their noses and foreheads together. In doing so they share the breath of life, which according to tradition the god Tāne breathed into the first woman, and after that the guest stops being a stranger and becomes part of the host community.", gdje: "At the end of the welcome ceremony on a marae and in the cultural centers in Rotorua. Follow your host's lead: press nose and forehead gently, close your eyes and do not kiss the cheek." },
+    { ime: "Pōwhiri and behavior on the marae", opis: "A marae is an enclosed sacred courtyard with an ancestral house where the community welcomes guests, holds its councils and says farewell to its dead. You do not enter a marae without an invitation. The welcome, the pōwhiri, begins with a call from a woman of the host side, continues with speeches and songs, and ends with the hongi and a shared meal, after which everything relaxes.", gdje: "Visits are arranged through cultural centers and organized tours. Keep to a few points of etiquette: wait at the entrance until you are called in, walk slowly and in silence, take your shoes off before entering the ancestral house, bring no food or drink into it, do not sit on tables or on pillows, and ask before taking photographs. It is customary to bring koha, a gift of money." },
+    { ime: "Tā moko", opis: "A Māori tattoo records a person's ancestry, tribe and path through life, so each one is as unique as a signature. Men traditionally tattooed the whole face, and women the chin and lips, which is called moko kauae. The custom almost died out in the 20th century and is now making a strong return.", gdje: "You will see it everywhere, from television news anchors to members of parliament. The portraits and the history are best explained at the Te Papa museum in Wellington." },
+    { ime: "Carving and weaving", opis: "The Māori had no writing, so they carved the history of the tribe into wood. Each post of an ancestral house depicts one ancestor, and eyes made of pāua shell watch the visitor. Women weave cloaks and baskets from the fibers of New Zealand flax, with no loom, using only their fingers.", gdje: "The New Zealand Māori Arts and Crafts Institute at Te Puia in Rotorua, where you can look over the students' shoulders as they carve wood, bone and the greenstone called pounamu." },
+    { ime: "Matariki", opis: "The Māori new year begins when, in midwinter, the star cluster of the Pleiades, which the Māori call Matariki, reappears in the morning sky. It is a time for remembering the dead, giving thanks for the harvest and planning the year ahead. Since 2022 it has been a public holiday, the first one based on the Māori calendar.", gdje: "Throughout the country in June or July, with light festivals, feasts and stargazing at dawn. The date changes every year." },
+    { ime: "Waitangi Day", opis: "February 6 marks the signing of the 1840 treaty between the Māori and the British Crown. The day is at once a celebration and an occasion for protests and serious debate about whether the treaty has been honored.", gdje: "Waitangi in the Bay of Islands, where a service is held at dawn and great war canoes with dozens of paddlers are launched onto the sea." },
+    { ime: "Tarara and the Dalmatian heritage", opis: "From the 1880s onward, Dalmatians dug kauri gum in the north of the North Island, in harsh conditions and under the suspicion of the authorities, who called them Austrians. With the Māori, by contrast, they got along well and often intermarried, and the Māori call their descendants Tarara. The community keeps alive the kolo circle dance, the tamburica and klapa singing, and on March 15 it celebrates Tarara Day.", gdje: "The Dalmatian Cultural Society in Auckland, the wineries of the Babich and Brajkovich families in West Auckland, and the country around Dargaville and Kaitaia, where museums keep collections of gum and of the diggers' tools." }
   ],
   fraze: [
-    { izvorno: "Kia ora", izgovor: "ki-a O-ra", hr: "Zdravo, hvala, živjeli (doslovno: budi zdrav)" },
-    { izvorno: "Tēnā koe", izgovor: "TE-na kve", hr: "Dobar dan (svečano, jednoj osobi)" },
-    { izvorno: "Haere mai", izgovor: "HAJ-re maj", hr: "Dobro došli" },
-    { izvorno: "Ka kite anō", izgovor: "ka KI-te a-NO", hr: "Vidimo se opet" },
-    { izvorno: "Ngā mihi", izgovor: "nga MI-hi", hr: "Hvala, srdačan pozdrav" },
-    { izvorno: "Whānau", izgovor: "FA-nau", hr: "Obitelj u širem smislu (wh se čita kao f)" },
-    { izvorno: "Kai", izgovor: "KAJ", hr: "Hrana, jelo" },
-    { izvorno: "Aroha", izgovor: "A-ro-ha", hr: "Ljubav, suosjećanje" }
+    { izvorno: "Kia ora", izgovor: "kee-ah OH-rah", hr: "Hello, thank you, cheers (literally: be well)" },
+    { izvorno: "Tēnā koe", izgovor: "TEH-nah kweh", hr: "Good day (formal, to one person)" },
+    { izvorno: "Haere mai", izgovor: "HIGH-reh my", hr: "Welcome" },
+    { izvorno: "Ka kite anō", izgovor: "kah KEE-teh ah-NAW", hr: "See you again" },
+    { izvorno: "Ngā mihi", izgovor: "ngah MEE-hee", hr: "Thank you, kind regards" },
+    { izvorno: "Whānau", izgovor: "FAH-no", hr: "Family in the wider sense (wh is pronounced like f)" },
+    { izvorno: "Kai", izgovor: "KYE", hr: "Food, a meal" },
+    { izvorno: "Aroha", izgovor: "AH-raw-hah", hr: "Love, compassion" }
   ],
   zanimljivosti: [
-    "Novi Zeland je 1893. prvi na svijetu dao ženama pravo glasa na državnim izborima, a Kate Sheppard, koja je vodila tu borbu, nalazi se na novčanici od deset dolara.",
-    "U zemlji nema zmija, a jedini domaći kopneni sisavci su šišmiši. Zato su se ptice poput kivija spustile na tlo i prestale letjeti.",
-    "Ženka kivija snese jaje koje teži oko petine njezine tjelesne mase, što je jedan od najvećih omjera u ptičjem svijetu.",
-    "Rijeka Whanganui dobila je 2017. status pravne osobe, s vlastitim pravima i skrbnicima, jer je pleme smatra svojim pretkom.",
-    "Brdo na Sjevernom otoku nosi ime od 85 slova, jedno od najduljih imena mjesta na svijetu, koje počinje s Taumatawhakatangihanga, a mještani ga zovu jednostavno Taumata.",
-    "Prvi komercijalni bungee skokovi na svijetu počeli su 1988. s mosta Kawarau kod Queenstowna.",
-    "Edmund Hillary, pčelar iz Aucklanda koji se 1953. sa šerpom Tenzingom Norgayem prvi popeo na Mount Everest, nalazi se na novčanici od pet dolara, a vježbao je na padinama Aorakija.",
-    "Josip Babić iz Runovića kod Imotskoga napravio je prvo vino 1916. kao dvadesetogodišnjak, među kopačima smole na sjeveru, a vinarija Babich i danas je u vlasništvu njegove obitelji."
+    "In 1893 New Zealand became the first country in the world to give women the right to vote in national elections, and Kate Sheppard, who led that fight, appears on the ten-dollar note.",
+    "The country has no snakes, and its only native land mammals are bats. That is why birds like the kiwi came down to the ground and stopped flying.",
+    "A female kiwi lays an egg that weighs about a fifth of her body mass, one of the largest ratios in the bird world.",
+    "In 2017 the Whanganui River was granted the status of a legal person, with its own rights and guardians, because the tribe regards it as an ancestor.",
+    "A hill on the North Island has a name of 85 letters, one of the longest place names in the world, which begins with Taumatawhakatangihanga, and the locals simply call it Taumata.",
+    "The world's first commercial bungee jumps began in 1988 from the Kawarau Bridge near Queenstown.",
+    "Edmund Hillary, the beekeeper from Auckland who in 1953, together with the Sherpa Tenzing Norgay, became the first to climb Mount Everest, appears on the five-dollar note, and he trained on the slopes of Aoraki.",
+    "Josip Babić from Runovići near Imotski made his first wine in 1916 as a twenty-year-old, among the gum diggers in the north, and the Babich winery is still owned by his family today."
   ],
   mjesta: [
     {
       id: "auckland",
       ime: "Auckland",
       vrsta: "grad",
-      sazetak: "Najveći grad zemlje, razvučen između dviju luka i pedesetak ugaslih vulkana, s jedrilicama pred neboderima i vinogradima dalmatinskih obitelji na zapadu.",
+      sazetak: "The country's largest city, stretched between two harbors and some fifty extinct volcanoes, with sailboats in front of the skyscrapers and the vineyards of Dalmatian families to the west.",
       prica: [
-        "Maorsko ime grada je Tāmaki Makaurau, što se tumači kao Tāmaki za kojim žude mnogi, jer se oko plodne prevlake s dvije luke stoljećima borilo više plemena. Na vulkanskim brežuljcima i danas se vide terase utvrđenih sela. Guverner William Hobson kupio je 1840. zemlju od plemena Ngāti Whātua i ovdje osnovao prijestolnicu, koja je 1865. preseljena u Wellington.",
-        "Danas u Aucklandu živi trećina stanovnika zemlje i najveća polinezijska zajednica na svijetu. Zapadna predgrađa Henderson, Kumeū i Huapai kraj su dalmatinskih vinara. Onamo su se u prvoj polovici 20. stoljeća doselili kopači smole sa sjevera, kupili jeftinu zemlju i zasadili lozu kakvu su pamtili od kuće. Josip Babić došao je 1910. iz Runovića, Nikola Nobilo iz Lumbarde na Korčuli počeo je saditi u Huapaiju 1943., Nikola Delegat kupio je zemlju 1947., a George Fistonich osnovao je 1961. vinariju Villa Maria."
+        "The Māori name of the city is Tāmaki Makaurau, which is interpreted as Tāmaki desired by many, because several tribes fought for centuries over the fertile isthmus with its two harbors. The terraces of fortified villages can still be seen on the volcanic hills. In 1840 Governor William Hobson bought land from the Ngāti Whātua tribe and founded the capital here, which was moved to Wellington in 1865.",
+        "Today a third of the country's population lives in Auckland, along with the largest Polynesian community in the world. The western suburbs of Henderson, Kumeū and Huapai are the country of the Dalmatian winemakers. In the first half of the 20th century gum diggers from the north moved there, bought cheap land and planted the vines they remembered from home. Josip Babić arrived in 1910 from Runovići, Nikola Nobilo from Lumbarda on the island of Korčula began planting in Huapai in 1943, Nikola Delegat bought land in 1947, and George Fistonich founded the Villa Maria winery in 1961."
       ],
       vidjeti: [
-        { ime: "Auckland War Memorial Museum", opis: "Muzej na brijegu u parku Domain podignut je 1929. kao spomenik poginulima u Prvome svjetskom ratu. U prizemlju stoje cijela rezbarena kuća predaka Hotunui i ratni kanu Te Toki a Tāpiri dug dvadeset i pet metara, izdubljen iz jednog debla, koji je nosio stotinjak ratnika." },
-        { ime: "Maungawhau (Mount Eden)", opis: "Najviši vulkanski stožac u gradu ima savršeno okrugao krater dubok pedesetak metara, koji je Maorima svet i u koji se ne silazi. Na padinama se jasno vide terase i jame za čuvanje kumare iz doba kada je ovdje bilo utvrđeno selo s tisućama stanovnika." },
-        { ime: "Sky Tower", opis: "Toranj visok 328 metara, dovršen 1997., najviša je građevina u zemlji. S vidikovca se najbolje razumije zemljopis grada: dvije luke, jedna na Tihom oceanu, a druga na Tasmanovu moru, i između njih vulkanski čunjevi." },
-        { ime: "Otok Rangitoto", opis: "Simetrični vulkan pred lukom najmlađi je u Aucklandu, nastao erupcijama prije samo oko šest stotina godina, što su Maori sa susjednog otoka gledali vlastitim očima. Do vrha se hoda oko sat vremena preko crne lave obrasle najvećom šumom stabala pōhutukawa na svijetu." },
-        { ime: "Otok Waiheke", opis: "Četrdeset minuta trajektom od središta nalazi se brdovit otok s tridesetak vinarija, maslinicima i bijelim plažama. Toplija i suša klima nego u gradu pogoduje crnim sortama, osobito syrahu." },
-        { ime: "Vinarije zapadnog Aucklanda", opis: "U Kumeūu obitelj Brajkovich vodi vinariju Kumeu River, čiji se chardonnay redovito uspoređuje s burgundijskim, a u dolini Henderson radi vinarija Babich. U kušaonicama vise obiteljske fotografije s polja smole, pa je posjet ujedno i lekcija iz iseljeničke povijesti." }
+        { ime: "Auckland War Memorial Museum", opis: "The museum on the hill in the Domain park was built in 1929 as a memorial to those who died in the First World War. On the ground floor stand the entire carved ancestral house Hotunui and the war canoe Te Toki a Tāpiri, twenty-five meters long and hollowed out of a single trunk, which carried about a hundred warriors." },
+        { ime: "Maungawhau (Mount Eden)", opis: "The highest volcanic cone in the city has a perfectly round crater about fifty meters deep, which is sacred to the Māori and which you do not walk down into. On the slopes you can clearly see the terraces and the kūmara storage pits from the time when a fortified village with thousands of inhabitants stood here." },
+        { ime: "Sky Tower", opis: "The tower, 328 meters tall and completed in 1997, is the tallest structure in the country. The observation deck is the best place to understand the city's geography: two harbors, one on the Pacific Ocean and the other on the Tasman Sea, with volcanic cones between them." },
+        { ime: "Rangitoto Island", opis: "The symmetrical volcano off the harbor is the youngest in Auckland, formed by eruptions only about six hundred years ago, which the Māori on the neighboring island watched with their own eyes. The walk to the summit takes about an hour across black lava overgrown with the largest forest of pōhutukawa trees in the world." },
+        { ime: "Waiheke Island", opis: "Forty minutes by ferry from downtown lies a hilly island with some thirty wineries, olive groves and white beaches. A warmer and drier climate than in the city suits red varieties, syrah in particular." },
+        { ime: "The wineries of West Auckland", opis: "In Kumeū the Brajkovich family runs the Kumeu River winery, whose chardonnay is regularly compared with Burgundy, while the Babich winery operates in the Henderson Valley. Family photographs from the gumfields hang in the tasting rooms, so a visit is also a lesson in emigrant history." }
       ],
       jesti: [
-        { ime: "Chardonnay iz Kumeūa", opis: "Vino po kojem su Brajkovichi poznati u svijetu kuša se u podrumu vinarije, pola sata vožnje od središta." },
-        { ime: "Zelenousne dagnje i kamenice", opis: "U restoranima uz luku Viaduct i u četvrti Wynyard poslužuju se dagnje na pari te kamenice s otoka Waiheke i iz obližnjih zaljeva." },
-        { ime: "Polinezijska kuhinja", opis: "Na subotnjoj tržnici u četvrti Ōtara prodaju se samoanska, tonganska i cookovootočka jela, primjerice sirova riba u kokosovu mlijeku i taro pečen u zemlji." }
+        { ime: "Chardonnay from Kumeū", opis: "The wine that made the Brajkovich family known around the world is tasted in the winery's cellar, half an hour's drive from downtown." },
+        { ime: "Green-lipped mussels and oysters", opis: "The restaurants along the Viaduct Harbour and in the Wynyard Quarter serve steamed mussels and oysters from Waiheke Island and the nearby bays." },
+        { ime: "Polynesian cuisine", opis: "The Saturday market in the Ōtara neighborhood sells Samoan, Tongan and Cook Islands dishes, such as raw fish in coconut milk and taro baked in the ground." }
       ],
       dozivjeti: [
-        { ime: "Dalmatinsko kulturno društvo", opis: "Društvo u Aucklandu okuplja potomke doseljenika, njeguje kolo, tamburicu i klapsko pjevanje te organizira priredbe na koje su gosti iz domovine dobrodošli. Prije dolaska javite se i pogledajte kalendar događanja.", link: "https://www.dalmatian.org.nz/" },
-        { ime: "Kušanje u vinariji Babich", opis: "Obiteljska vinarija koja neprekinuto radi od 1916. prima goste u dolini Henderson i rado priča o Josipu i braći koji su počeli među kopačima smole.", link: "https://www.babichwines.com/" },
-        { ime: "Trajektom na Waiheke ili Rangitoto", opis: "Oba otoka dostižna su brodom iz središta grada. Na Waihekeu se od vinarije do vinarije može pješice ili lokalnim autobusom, a na Rangitoto ponesite vodu i čvrstu obuću jer ondje nema trgovina.", link: "https://www.fullers.co.nz/" },
-        { ime: "Kušanje u vinariji Kumeu River", opis: "Podrum obitelji Brajkovich, koja je u Novi Zeland stigla iz Dalmacije kasnih tridesetih godina 20. stoljeća i počela s kopanjem smole, otvoren je za posjetitelje.", link: "https://kumeuriver.co.nz/" }
+        { ime: "Dalmatian Cultural Society", opis: "The society in Auckland brings together the descendants of the settlers, keeps alive the kolo, the tamburica and klapa singing, and organizes events at which guests from the old homeland are welcome. Get in touch before you come and look at the events calendar.", link: "https://www.dalmatian.org.nz/" },
+        { ime: "A tasting at the Babich winery", opis: "The family winery, which has been operating without interruption since 1916, welcomes guests in the Henderson Valley and gladly tells the story of Josip and his brothers, who started out among the gum diggers.", link: "https://www.babichwines.com/" },
+        { ime: "By ferry to Waiheke or Rangitoto", opis: "Both islands can be reached by boat from the city center. On Waiheke you can get from winery to winery on foot or by local bus, and for Rangitoto bring water and sturdy shoes because there are no shops there.", link: "https://www.fullers.co.nz/" },
+        { ime: "A tasting at the Kumeu River winery", opis: "The cellar of the Brajkovich family, who arrived in New Zealand from Dalmatia in the late 1930s and started out digging gum, is open to visitors.", link: "https://kumeuriver.co.nz/" }
       ],
       agencije: [
-        { ime: "Discover Auckland", opis: "Službena turistička stranica grada.", link: "https://www.aucklandnz.com/" },
-        { ime: "I'm Free Tours", opis: "Pješačke ture po središtu uz plaćanje po vlastitoj procjeni.", link: "https://imfree.tours/" },
-        { ime: "Fullers360", opis: "Trajekti i izleti na otoke zaljeva Hauraki.", link: "https://www.fullers.co.nz/" }
+        { ime: "Discover Auckland", opis: "The city's official tourism website.", link: "https://www.aucklandnz.com/" },
+        { ime: "I'm Free Tours", opis: "Walking tours of the city center where you pay what you think the tour was worth.", link: "https://imfree.tours/" },
+        { ime: "Fullers360", opis: "Ferries and excursions to the islands of the Hauraki Gulf.", link: "https://www.fullers.co.nz/" }
       ],
-      kada: "Najljepše je od prosinca do travnja. Vrijeme je promjenjivo pa uvijek nosite laganu kišnu jaknu. Ako imate dan viška, odvezite se na sjever do šume Waipoua i divovskog kaurija Tāne Mahuta, pa ćete razumjeti za kakvim su stablima i smolom tragali dalmatinski kopači."
+      kada: "It is at its best from December to April. The weather is changeable, so always carry a light rain jacket. If you have a spare day, drive north to the Waipoua Forest and the giant kauri Tāne Mahuta, and you will understand what kind of trees and gum the Dalmatian diggers were searching for."
     },
     {
       id: "rotorua",
       ime: "Rotorua",
       vrsta: "grad",
-      sazetak: "Grad koji miriše na sumpor, gdje iz zemlje izbijaju gejziri i para, a maorska kultura živi u selima sagrađenima oko vrelih izvora.",
+      sazetak: "A city that smells of sulfur, where geysers and steam burst from the ground and Māori culture lives on in villages built around boiling springs.",
       prica: [
-        "Rotorua leži usred vulkanskog pojasa na zemlji plemenskog saveza Te Arawa, čiji su preci prema predaji doplovili istoimenim kanuom iz pradomovine Hawaiki. Vrelu vodu koristili su za kuhanje, kupanje i grijanje, pa su sela nikla tik uz izvore.",
-        "U 19. stoljeću putnici iz Europe dolazili su vidjeti Ružičaste i Bijele terase, prozvane osmim svjetskim čudom, a vodile su ih Maorke koje su tako postale prve turističke vodičice u zemlji. Erupcija vulkana Tarawera 10. lipnja 1886. uništila je terase i zatrpala sela, no turizam se preselio u dolinu Whakarewarewa i traje do danas."
+        "Rotorua lies in the middle of the volcanic belt on the land of the Te Arawa tribal confederation, whose ancestors, according to tradition, sailed in the canoe of the same name from the ancestral homeland of Hawaiki. They used the hot water for cooking, bathing and heating, so the villages sprang up right beside the springs.",
+        "In the 19th century travelers from Europe came to see the Pink and White Terraces, hailed as the eighth wonder of the world, and they were guided by Māori women, who in this way became the first tour guides in the country. The eruption of the Tarawera volcano on June 10, 1886, destroyed the terraces and buried villages, but tourism moved to the Whakarewarewa valley and continues to this day."
       ],
       vidjeti: [
-        { ime: "Te Puia i gejzir Pōhutu", opis: "Pōhutu je najveći aktivni gejzir na južnoj polutki i izbacuje vodu do trideset metara uvis, i do dvadesetak puta na dan. Prije njega uvijek proradi manji susjed, gejzir zvan Perje princa od Walesa, pa po njemu znate da treba pripremiti fotoaparat. U sklopu Te Puije radi i nacionalna škola rezbarstva i tkanja." },
-        { ime: "Selo Whakarewarewa", opis: "U ovom selu ljudi plemena Tūhourangi Ngāti Wāhiao žive među vrelim izvorima već više od dvjesto godina. Vidjet ćete kako se kukuruz kuha u vrećici spuštenoj u kipući izvor, a meso u drvenim kutijama na pari iz tla. Puno ime sela toliko je dugo da ga mještani rado izgovaraju pred gostima kao malu predstavu." },
-        { ime: "Wai-O-Tapu", opis: "Geotermalni park pola sata južno od grada, čije ime znači svete vode. Šampanjsko jezero ima narančasti rub od minerala i neprestano se pjenuša od ugljikova dioksida, a jedno od jezeraca otrovno je zelene boje od sumpora." },
-        { ime: "Ōhinemutu i crkva sv. Vjere", opis: "U maorskom selu na obali jezera stoji anglikanska crkva iznutra potpuno ukrašena maorskim rezbarijama i tkanim pločama. Sjednite u bočnu kapelu: na prozoru je ugraviran Krist u maorskom ogrtaču, postavljen tako da izgleda kao da hoda po vodi jezera Rotorua." },
-        { ime: "Government Gardens", opis: "Na zemlji koju je pleme darovalo gradu država je 1908. sagradila raskošno lječilište u stilu engleskih kuća s drvenim gredama, kako bi privukla bogate goste iz Europe. Oko njega su vrtovi ruža i travnjaci za kuglanje, a iz tla i ovdje izbija para." },
-        { ime: "Šuma sekvoja", opis: "Kalifornijske sekvoje posađene su 1901. kao pokus i u vlažnoj klimi narasle su preko sedamdeset metara. Između stabala razapeti su viseći mostovi, a ispod rastu srebrne paprati, simbol novozelandskih sportaša." }
+        { ime: "Te Puia and the Pōhutu geyser", opis: "Pōhutu is the largest active geyser in the southern hemisphere and shoots water up to thirty meters into the air, as often as twenty or so times a day. A smaller neighbor, the geyser called the Prince of Wales Feathers, always goes off before it, so that is your signal to get your camera ready. Te Puia is also home to the national school of carving and weaving." },
+        { ime: "Whakarewarewa Village", opis: "In this village the people of the Tūhourangi Ngāti Wāhiao tribe have lived among the hot springs for more than two hundred years. You will see corn being cooked in a bag lowered into a boiling spring, and meat in wooden boxes over steam from the ground. The full name of the village is so long that the locals love to recite it in front of guests as a little performance." },
+        { ime: "Wai-O-Tapu", opis: "A geothermal park half an hour south of the city, whose name means sacred waters. The Champagne Pool has an orange mineral rim and fizzes constantly with carbon dioxide, and one of the smaller pools is a poisonous green from sulfur." },
+        { ime: "Ōhinemutu and St. Faith's Church", opis: "In the Māori village on the lakeshore stands an Anglican church whose interior is completely decorated with Māori carvings and woven panels. Take a seat in the side chapel: etched on the window is Christ in a Māori cloak, placed so that he seems to be walking on the waters of Lake Rotorua." },
+        { ime: "Government Gardens", opis: "On land that the tribe gifted to the city, the state built a lavish spa in 1908 in the style of English half-timbered houses, in order to attract wealthy guests from Europe. Around it are rose gardens and bowling greens, and steam rises from the ground here too." },
+        { ime: "The Redwoods forest", opis: "California redwoods were planted in 1901 as an experiment, and in the damp climate they have grown to more than seventy meters. Suspension bridges are strung between the trunks, and beneath them grow silver ferns, the symbol of New Zealand's athletes." }
       ],
       jesti: [
-        { ime: "Hāngī iz parne jame", opis: "U selu Whakarewarewa i u Te Puiji meso i povrće kuhaju se na prirodnoj pari. Okus je blaži nego kod hāngīja iz zemlje, bez dima." },
-        { ime: "Kukuruz iz vrelog izvora", opis: "Klip skuhan u mineralnoj vodi izvora prodaje se u selu kao brz zalogaj i dobije lagan slankast okus." },
-        { ime: "Kruh rēwena", opis: "Maorski kruh od kiselog tijesta s kvascem od fermentiranog krumpira, sladak i gust, koji se poslužuje uz hāngī." }
+        { ime: "Hāngī from a steam pit", opis: "In Whakarewarewa Village and at Te Puia meat and vegetables are cooked in natural steam. The flavor is milder than that of hāngī from the earth, with no smoke." },
+        { ime: "Corn from a hot spring", opis: "A cob cooked in the mineral water of a spring is sold in the village as a quick snack and takes on a lightly salty taste." },
+        { ime: "Rēwena bread", opis: "A Māori sourdough bread leavened with a starter of fermented potato, sweet and dense, which is served with hāngī." }
       ],
       dozivjeti: [
-        { ime: "Večer u selu Te Pā Tū", opis: "U šumi izvan grada dočeka vas obred dobrodošlice, zatim se obilaze radionice u kojima se uče igre štapovima, ples poi i haka, a na kraju slijedi večera od više sljedova.", link: "https://te-pa-tu.com/" },
-        { ime: "Obilazak sela Whakarewarewa s mještanima", opis: "Vodiči su stanovnici sela, često potomci prvih vodičica iz 19. stoljeća, pa obilazak nalikuje posjetu nečijem domu. Uključen je i kratak kulturni program.", link: "https://whakarewarewa.com/" },
-        { ime: "Kupanje u Polynesian Spa", opis: "Bazeni na obali jezera pune se iz dvaju izvora, jednog kiselog i jednog lužnatog. Najljepše je doći pred zalazak sunca i gledati paru nad jezerom.", link: "https://www.polynesianspa.co.nz/" },
-        { ime: "Šetnja među krošnjama sekvoja", opis: "Staza od visećih mostova vodi dvadesetak metara iznad tla, a nakon mraka osvjetljavaju je veliki drveni lampioni.", link: "https://www.treewalk.co.nz/" }
+        { ime: "An evening at Te Pā Tū village", opis: "In the forest outside the city you are met with a welcome ceremony, then you move through workshops where you learn stick games, the poi dance and the haka, and at the end comes a dinner of several courses.", link: "https://te-pa-tu.com/" },
+        { ime: "A tour of Whakarewarewa Village with the locals", opis: "The guides are residents of the village, often descendants of the first women guides of the 19th century, so the tour feels like a visit to someone's home. A short cultural program is included.", link: "https://whakarewarewa.com/" },
+        { ime: "Bathing at the Polynesian Spa", opis: "The pools on the lakeshore are fed by two springs, one acidic and one alkaline. The loveliest time to come is just before sunset, to watch the steam over the lake.", link: "https://www.polynesianspa.co.nz/" },
+        { ime: "A walk among the redwood canopy", opis: "A trail of suspension bridges leads about twenty meters above the ground, and after dark it is lit by large wooden lanterns.", link: "https://www.treewalk.co.nz/" }
       ],
       agencije: [
-        { ime: "RotoruaNZ", opis: "Službena turistička stranica grada.", link: "https://www.rotoruanz.com/" },
-        { ime: "Te Puia", opis: "Geotermalna dolina i nacionalni institut maorskih umjetnosti, s vođenim obilascima.", link: "https://www.tepuia.com/" },
-        { ime: "Mitai Maori Village", opis: "Obiteljski vođen kulturni program s dolaskom ratnika kanuom i večerom hāngī.", link: "https://www.mitai.co.nz/" }
+        { ime: "RotoruaNZ", opis: "The city's official tourism website.", link: "https://www.rotoruanz.com/" },
+        { ime: "Te Puia", opis: "A geothermal valley and the national institute of Māori arts, with guided tours.", link: "https://www.tepuia.com/" },
+        { ime: "Mitai Maori Village", opis: "A family-run cultural program with warriors arriving by canoe and a hāngī dinner.", link: "https://www.mitai.co.nz/" }
       ],
-      kada: "Može se cijele godine jer su termalni izvori najljepši baš za hladna jutra, kada je para najgušća. Na miris sumpora naviknete se za pola sata, a srebrni nakit skinite prije kupanja jer u mineralnoj vodi pocrni."
+      kada: "You can come all year round, because the thermal springs are at their most beautiful on cold mornings, when the steam is thickest. You get used to the smell of sulfur within half an hour, and you should take off silver jewelry before bathing because it turns black in the mineral water."
     },
     {
       id: "wellington",
       ime: "Wellington",
       vrsta: "grad",
-      sazetak: "Mala, vjetrovita prijestolnica stisnuta između brda i luke, s najboljim muzejom u zemlji, filmskim radionicama i kavom na svakom uglu.",
+      sazetak: "A small, windy capital squeezed between hills and harbor, with the best museum in the country, film workshops and coffee on every corner.",
       prica: [
-        "Luka se na maorskom zove Te Whanganui-a-Tara, velika luka poglavice Tare, a prema predaji otkrio ju je polinezijski moreplovac Kupe. Britanski doseljenici stigli su 1840., a 1865. ovamo je iz Aucklanda preseljena prijestolnica jer je grad u sredini zemlje, na tjesnacu između dvaju otoka.",
-        "Wellington leži na rasjedu i potres 1855. podigao je obalu za više od metra, pa današnje središte dijelom stoji na tlu koje je prije bilo morsko dno. Zato su stare zgrade drvene, a nove građene na amortizerima. Vjetar iz Cookova prolaza toliko je stalan da je grad dobio nadimak Vjetroviti Wellington."
+        "In Māori the harbor is called Te Whanganui-a-Tara, the great harbor of the chief Tara, and according to tradition it was discovered by the Polynesian navigator Kupe. British settlers arrived in 1840, and in 1865 the capital was moved here from Auckland because the city sits in the middle of the country, on the strait between the two islands.",
+        "Wellington lies on a fault line, and the earthquake of 1855 raised the shore by more than a meter, so part of today's downtown stands on ground that used to be seabed. That is why the old buildings are wooden and the new ones are built on shock absorbers. The wind from Cook Strait is so constant that the city has earned the nickname Windy Wellington."
       ],
       vidjeti: [
-        { ime: "Te Papa Tongarewa", opis: "Nacionalni muzej otvoren 1998. na obali luke jedini na svijetu izlaže cijelu kolosalnu lignju, ulovljenu u antarktičkim vodama. Na četvrtom katu nalazi se pravi marae suvremenih rezbarija u jarkim bojama i Te Hau ki Tūranga, najstarija sačuvana rezbarena kuća predaka, iz četrdesetih godina 19. stoljeća. Sama zgrada stoji na gumenim ležajevima koji je štite od potresa." },
-        { ime: "Parlament i Košnica", opis: "Okrugla zgrada izvršne vlasti, koju svi zovu Beehive, nastala je prema skici britanskog arhitekta Basila Spencea i dovršena oko 1980. Preko puta stoji zgrada stare vlade iz 1876., koja izgleda kao kamena palača, a zapravo je cijela od drva kaurija i jedna je od najvećih drvenih zgrada na svijetu." },
-        { ime: "Uspinjača i botanički vrt", opis: "Crvena uspinjača vozi od 1902. iz trgovačke ulice Lambton Quay do četvrti Kelburn. S gornje postaje pruža se pogled na luku, a natrag se možete spustiti pješice kroz botanički vrt i ružičnjak." },
-        { ime: "Zealandia", opis: "Dolina od 225 hektara ograđena je posebnom ogradom koja ne propušta štakore, mačke i lasice, pa su se u nju vratile ptice koje su na kopnu gotovo nestale. Cilj je za petsto godina vratiti šumu u stanje prije dolaska čovjeka. Tražite takahē, veliku plavu pticu neletačicu, i pradavnog gmaza tuataru." },
-        { ime: "Vidikovac Mount Victoria", opis: "S brda iznad središta vidi se cijela luka, zračna luka i, za bistra dana, Južni otok. U šumi na padini snimljena je scena iz prvog dijela Gospodara prstenova u kojoj se hobiti skrivaju pod korijenjem od crnog jahača." },
-        { ime: "Wētā Workshop", opis: "U predgrađu Miramar radi radionica koja je izradila oklope, mačeve, maske i makete za Gospodara prstenova i mnoge druge filmove. Na obilasku se vide pravi rekviziti i majstori za radom, a pred vratima vas dočekuju tri kamena trola." }
+        { ime: "Te Papa Tongarewa", opis: "The national museum, opened in 1998 on the waterfront, is the only one in the world to display a complete colossal squid, caught in Antarctic waters. On the fourth floor you will find a real marae with contemporary carvings in vivid colors and Te Hau ki Tūranga, the oldest surviving carved ancestral house, from the 1840s. The building itself rests on rubber bearings that protect it from earthquakes." },
+        { ime: "Parliament and the Beehive", opis: "The round executive building, which everyone calls the Beehive, grew out of a sketch by the British architect Basil Spence and was completed around 1980. Across the street stands the Old Government Buildings from 1876, which looks like a stone palace but is in fact made entirely of kauri timber and is one of the largest wooden buildings in the world." },
+        { ime: "The cable car and the botanic garden", opis: "The red cable car has been running since 1902 from the shopping street Lambton Quay up to the suburb of Kelburn. The top station has a view over the harbor, and you can walk back down through the botanic garden and the rose garden." },
+        { ime: "Zealandia", opis: "A valley of 225 hectares is enclosed by a special fence that keeps out rats, cats and stoats, so birds that had almost disappeared from the mainland have returned to it. The goal is to restore the forest, over five hundred years, to the state it was in before humans arrived. Look for the takahē, a large blue flightless bird, and the ancient reptile called the tuatara." },
+        { ime: "Mount Victoria Lookout", opis: "From the hill above downtown you can see the whole harbor, the airport and, on a clear day, the South Island. The forest on its slope was the filming location for the scene in the first part of The Lord of the Rings in which the hobbits hide under tree roots from the black rider." },
+        { ime: "Wētā Workshop", opis: "In the suburb of Miramar is the workshop that made the armor, swords, masks and miniatures for The Lord of the Rings and many other films. On the tour you see real props and craftspeople at work, and three stone trolls greet you at the door." }
       ],
       jesti: [
-        { ime: "Kava", opis: "Grad se hvali da ima više kafića po stanovniku nego New York. Najgušće su poredani oko ulice Cuba, a domaće pržionice ovdje su važne kao drugdje vinarije." },
-        { ime: "Craft pivo", opis: "Wellington je prijestolnica novozelandskog zanatskog pivarstva, a mali pivari rado koriste aromatični hmelj iz okolice Nelsona." },
-        { ime: "Pogačica sa sirom", opis: "Topla slana pogačica sa sirom cheddar, prerezana i namazana maslacem, uobičajen je prijepodnevni zalogaj uz kavu u svakom kafiću." }
+        { ime: "Coffee", opis: "The city boasts that it has more cafes per capita than New York. They are most densely packed around Cuba Street, and local roasteries matter here the way wineries do elsewhere." },
+        { ime: "Craft beer", opis: "Wellington is the capital of New Zealand craft brewing, and the small brewers love to use the aromatic hops from the Nelson area." },
+        { ime: "Cheese scone", opis: "A warm savory scone with cheddar cheese, split and spread with butter, is the usual mid-morning snack with coffee in every cafe." }
       ],
       dozivjeti: [
-        { ime: "Obilazak Wētā Workshopa", opis: "Vodiči su i sami umjetnici iz radionice pa objašnjavaju kako se radi lančana košulja od plastike ili lice orka. Ture se popune, pa rezervirajte unaprijed.", link: "https://www.wetaworkshop.com/" },
-        { ime: "Večernja šetnja kroz Zealandiju", opis: "Nakon mraka s vodičem i crvenom svjetiljkom tražite kivije koji njuškaju po lišću, slušate sove i gledate svjetleće crve uz stazu.", link: "https://www.visitzealandia.com/" },
-        { ime: "Vođeni obilazak Te Pape", opis: "Muzej je golem, pa sat vremena s vodičem pomaže da vidite ono najvažnije i čujete priče iza maorskog blaga.", link: "https://www.tepapa.govt.nz/visit" },
-        { ime: "Uspinjačom na brdo", opis: "Vožnja traje pet minuta, a gore je i mali besplatni muzej uspinjače sa starim vagonom.", link: "https://www.wellingtoncablecar.co.nz/" }
+        { ime: "A tour of Wētā Workshop", opis: "The guides are themselves artists from the workshop, so they explain how a chain mail shirt is made from plastic or how the face of an orc comes together. The tours fill up, so book in advance.", link: "https://www.wetaworkshop.com/" },
+        { ime: "An evening walk through Zealandia", opis: "After dark, with a guide and a red flashlight, you look for kiwi snuffling through the leaves, listen to the owls and watch glowworms along the trail.", link: "https://www.visitzealandia.com/" },
+        { ime: "A guided tour of Te Papa", opis: "The museum is enormous, so an hour with a guide helps you see what matters most and hear the stories behind the Māori treasures.", link: "https://www.tepapa.govt.nz/visit" },
+        { ime: "Up the hill by cable car", opis: "The ride takes five minutes, and at the top there is also a small free cable car museum with an old carriage.", link: "https://www.wellingtoncablecar.co.nz/" }
       ],
       agencije: [
-        { ime: "WellingtonNZ", opis: "Službena turistička stranica grada.", link: "https://www.wellingtonnz.com/" },
-        { ime: "Te Papa", opis: "Nacionalni muzej, s vođenim obilascima na više jezika.", link: "https://www.tepapa.govt.nz/" },
-        { ime: "Zealandia", opis: "Utočište za ptice s dnevnim i noćnim turama.", link: "https://www.visitzealandia.com/" }
+        { ime: "WellingtonNZ", opis: "The city's official tourism website.", link: "https://www.wellingtonnz.com/" },
+        { ime: "Te Papa", opis: "The national museum, with guided tours in several languages.", link: "https://www.tepapa.govt.nz/" },
+        { ime: "Zealandia", opis: "A bird sanctuary with day and night tours.", link: "https://www.visitzealandia.com/" }
       ],
-      kada: "Najmirnije i najtoplije je od siječnja do ožujka. Vjetrovku nosite uvijek, a kišobran ostavite kod kuće jer ga vjetar ovdje brzo slomi. Središte je malo i sve se obiđe pješice."
+      kada: "It is calmest and warmest from January to March. Always carry a windbreaker and leave your umbrella at home, because the wind here will break it quickly. The center is small and you can see everything on foot."
     },
     {
       id: "queenstown",
       ime: "Queenstown",
       vrsta: "gradić",
-      sazetak: "Gradić na obali ledenjačkog jezera, okružen nazubljenim planinama, u kojem se može skočiti s mosta, ali i samo sjediti uz vodu s čašom pinota.",
+      sazetak: "A small town on the shore of a glacial lake, ringed by jagged mountains, where you can jump off a bridge or simply sit by the water with a glass of pinot.",
       prica: [
-        "Maori su kroz ovaj kraj prolazili u potrazi za zelenim kamenom pounamu i u lovu na ptice moe, a mjesto na obali zvali su Tāhuna, plićak. Prvi europski doseljenik William Rees osnovao je 1860. ovdje ovčarsku farmu, no već 1862. u rijeci Shotover pronađeno je zlato i u nekoliko mjeseci nahrupile su tisuće kopača.",
-        "Kada je zlato presahlo, gradić je gotovo opustio, sve dok ga u 20. stoljeću nisu otkrili skijaši. Ime svjetske prijestolnice pustolovina dobio je 1988., kada su A. J. Hackett i Henry van Asch na obližnjem mostu Kawarau otvorili prvo komercijalno skakalište za bungee na svijetu."
+        "The Māori passed through this area in search of the greenstone pounamu and to hunt moa birds, and they called the spot on the shore Tāhuna, the shallows. The first European settler, William Rees, founded a sheep station here in 1860, but as early as 1862 gold was found in the Shotover River and within a few months thousands of prospectors had poured in.",
+        "When the gold ran out the town was almost deserted, until skiers discovered it in the 20th century. It earned the title of adventure capital of the world in 1988, when A. J. Hackett and Henry van Asch opened the world's first commercial bungee site on the nearby Kawarau Bridge."
       ],
       vidjeti: [
-        { ime: "Jezero Wakatipu", opis: "Jezero u obliku munje dugo je osamdeset kilometara, a razina mu se svakih dvadesetak minuta diže i spušta za desetak centimetara. Znanost to tumači stojnim valom, a maorska legenda kaže da na dnu spava div Matau, čije srce još kuca. Pogledajte označeni kamen na obali u zaljevu pred gradom i pratite vodu." },
-        { ime: "Žičara na Bob's Peak", opis: "Gondola se penje strmo iznad grada do vidikovca s kojeg se vidi cijelo jezero i planinski lanac The Remarkables. Taj je lanac jedan od rijetkih na svijetu koji se pruža gotovo točno u smjeru sjever-jug." },
-        { ime: "Most Kawarau", opis: "Viseći most iz 1880. sagrađen je za kočije koje su vozile prema nalazištima zlata. Danas se s njega skače četrdeset i tri metra prema tirkiznoj rijeci, a s vidikovca se besplatno gleda kako to rade drugi." },
-        { ime: "Parobrod TSS Earnslaw", opis: "Brod na ugljen porinut je 1912., iste godine kad i Titanic, kako bi ovčarskim farmama uz jezero dovozio zalihe i odvozio vunu. Tijekom plovidbe može se sići do strojarnice i gledati ložače kako ubacuju ugljen." },
-        { ime: "Arrowtown", opis: "Dvadeset minuta od Queenstowna sačuvana je cijela ulica drvenih kuća iz doba zlatne groznice. Na rubu mjesta nalazi se obnovljeno naselje kineskih kopača s kolibama od kamena i lima, koje pokazuje koliko su odvojeno i siromašno živjeli. U travnju se stabla uz rijeku zažute i pocrvene." },
-        { ime: "Glenorchy", opis: "Cesta uz jezero do zaselka na njegovu sjevernom kraju jedna je od najljepših u zemlji. Planine iza njega poslužile su kao kulisa za Gospodara prstenova, a odavde kreću i poznate planinarske staze." }
+        { ime: "Lake Wakatipu", opis: "The lightning-bolt-shaped lake is eighty kilometers long, and its level rises and falls by about ten centimeters every twenty minutes or so. Science explains this as a standing wave, while Māori legend says that the giant Matau sleeps on the bottom and that his heart is still beating. Find the marked stone on the shore in the bay in front of the town and watch the water." },
+        { ime: "The gondola to Bob's Peak", opis: "The gondola climbs steeply above the town to a lookout that takes in the whole lake and the mountain range called The Remarkables. That range is one of the few in the world that runs almost exactly north to south." },
+        { ime: "Kawarau Bridge", opis: "The suspension bridge from 1880 was built for the coaches traveling to the goldfields. Today people jump from it, forty-three meters down toward the turquoise river, and from the viewing deck you can watch others do it for free." },
+        { ime: "The steamship TSS Earnslaw", opis: "The coal-fired ship was launched in 1912, the same year as the Titanic, to bring supplies to the sheep stations along the lake and carry away their wool. During the cruise you can go down to the engine room and watch the stokers shoveling coal." },
+        { ime: "Arrowtown", opis: "Twenty minutes from Queenstown an entire street of wooden houses from the gold rush days has been preserved. On the edge of the village is the restored settlement of the Chinese miners, with huts of stone and tin that show how separately and how poorly they lived. In April the trees along the river turn yellow and red." },
+        { ime: "Glenorchy", opis: "The road along the lake to the hamlet at its northern end is one of the most beautiful in the country. The mountains behind it served as a backdrop for The Lord of the Rings, and famous hiking trails start from here too." }
       ],
       jesti: [
-        { ime: "Fergburger", opis: "Pred ovom zalogajnicom u središtu red stoji od jutra do kasno u noć. Burgeri su golemi, pa je jedan dovoljan za ručak za dvije." },
-        { ime: "Pinot noir iz Central Otaga", opis: "Najjužnija vinska regija na svijetu poznata je po elegantnom crnom pinotu. Vinarije u dolini Gibbston nalaze se odmah iza mosta Kawarau, a jedna ima podrum uklesan u stijenu." },
-        { ime: "Janjetina i divljač", opis: "Na jelovnicima su domaća janjetina s planinskih pašnjaka i jelen s farmi, obično uz korjenasto povrće." },
-        { ime: "Kamenice iz Bluffa", opis: "U sezoni, od ožujka do kolovoza, s krajnjeg juga otoka stižu krupne i kremaste kamenice koje mnogi smatraju najboljima u zemlji." }
+        { ime: "Fergburger", opis: "A line stands outside this burger joint in the center from morning until late at night. The burgers are huge, so one is enough for lunch for two." },
+        { ime: "Central Otago pinot noir", opis: "The southernmost wine region in the world is known for its elegant pinot noir. The wineries of the Gibbston Valley lie just beyond the Kawarau Bridge, and one of them has a cellar carved into the rock." },
+        { ime: "Lamb and game", opis: "The menus feature local lamb from the mountain pastures and farmed venison, usually served with root vegetables." },
+        { ime: "Bluff oysters", opis: "In season, from March to August, plump and creamy oysters arrive from the far south of the island, and many consider them the best in the country." }
       ],
       dozivjeti: [
-        { ime: "Krstarenje parobrodom do farme Walter Peak", opis: "Plovi se oko četrdeset pet minuta do ovčarske farme na drugoj obali, gdje se gleda rad pasa ovčara i šišanje ovaca.", link: "https://www.realnz.com/" },
-        { ime: "Gondola i sanjkanje na kotačima", opis: "Na vrhu žičare nalazi se staza kojom se u malim kolicima spuštate niz brdo, što je zabavno i onima koji ne žele ništa opasnije.", link: "https://queenstown.skyline.co.nz/" },
-        { ime: "Bungee s mosta Kawarau", opis: "Ako želite skočiti ondje gdje je sve počelo, ovo je mjesto. Tko ne želi, može gledati s platforme i posjetiti mali muzej o povijesti bungeeja.", link: "https://www.bungy.co.nz/" },
-        { ime: "Šetnja Arrowtownom", opis: "Prošećite glavnom ulicom, obiđite kinesko naselje i u rijeci Arrow pokušajte isprati zlato u posudi unajmljenoj u mjesnom muzeju.", link: "https://www.arrowtown.com/" }
+        { ime: "A steamship cruise to Walter Peak farm", opis: "You sail for about forty-five minutes to a sheep station on the opposite shore, where you watch the sheepdogs at work and a sheep-shearing demonstration.", link: "https://www.realnz.com/" },
+        { ime: "The gondola and the luge", opis: "At the top of the gondola there is a track where you ride down the hill in small carts, which is fun even for those who want nothing more dangerous.", link: "https://queenstown.skyline.co.nz/" },
+        { ime: "Bungee from the Kawarau Bridge", opis: "If you want to jump where it all began, this is the place. Anyone who would rather not can watch from the platform and visit the small museum on the history of bungee.", link: "https://www.bungy.co.nz/" },
+        { ime: "A stroll through Arrowtown", opis: "Walk along the main street, visit the Chinese settlement and try panning for gold in the Arrow River with a pan rented from the local museum.", link: "https://www.arrowtown.com/" }
       ],
       agencije: [
-        { ime: "Queenstown NZ", opis: "Službena turistička stranica.", link: "https://www.queenstownnz.co.nz/" },
-        { ime: "RealNZ", opis: "Krstarenja parobrodom Earnslaw i izleti u Fiordland.", link: "https://www.realnz.com/" },
-        { ime: "AJ Hackett Bungy", opis: "Izvorni organizator bungee skokova.", link: "https://www.bungy.co.nz/" }
+        { ime: "Queenstown NZ", opis: "The official tourism website.", link: "https://www.queenstownnz.co.nz/" },
+        { ime: "RealNZ", opis: "Cruises on the steamship Earnslaw and excursions to Fiordland.", link: "https://www.realnz.com/" },
+        { ime: "AJ Hackett Bungy", opis: "The original bungee jump operator.", link: "https://www.bungy.co.nz/" }
       ],
-      kada: "Ljeti, od prosinca do ožujka, dani su dugi i topli, u travnju su najljepše boje, a od lipnja do rujna skija se. Smještaj je skup i brzo se popuni, pa rezervirajte ranije ili spavajte u Arrowtownu."
+      kada: "In summer, from December to March, the days are long and warm, April brings the most beautiful colors, and from June to September there is skiing. Accommodation is expensive and fills up quickly, so book early or stay in Arrowtown."
     },
     {
       id: "milford-sound",
-      ime: "Milford Sound i Fiordland",
+      ime: "Milford Sound and Fiordland",
       vrsta: "priroda",
-      sazetak: "Fjord sa strmim liticama od kojih se slapovi ruše ravno u more, na kraju jedne od najljepših cesta na svijetu.",
+      sazetak: "A fjord with sheer cliffs from which waterfalls plunge straight into the sea, at the end of one of the most beautiful roads in the world.",
       prica: [
-        "Milford Sound zapravo je fjord, dolina koju je izdubio ledenjak i potom ju je preplavilo more, a prvi su ga Europljani pogrešno nazvali zaljevom. Maori ga zovu Piopiotahi, po ptici piopio koja je prema predaji doletjela ovamo tugovati za polubogom Māuijem. Druga legenda kaže da je fjordove sjekirom isklesao bog Tū-te-raki-whānoa, a božica podzemlja stvorila je sitne mušice koje grizu kako se ljudi ne bi predugo zadržavali u tolikoj ljepoti.",
-        "Fiordland je najveći nacionalni park u zemlji i dio UNESCO-ova područja Te Wāhipounamu. Ovdje padne više od šest metara kiše godišnje, pa je to jedno od najkišovitijih naseljenih mjesta na svijetu. Cesta do fjorda dovršena je tek 1953., kada je nakon gotovo dvadeset godina rada probijen tunel Homer."
+        "Milford Sound is actually a fjord, a valley carved out by a glacier and then flooded by the sea, which the first Europeans mistakenly named a sound. The Māori call it Piopiotahi, after the piopio bird, which according to tradition flew here to mourn the demigod Māui. Another legend says that the fjords were hewn with an adze by the god Tū-te-raki-whānoa, and that the goddess of the underworld created the tiny biting sandflies so that people would not linger too long amid so much beauty.",
+        "Fiordland is the largest national park in the country and part of the UNESCO area of Te Wāhipounamu. More than six meters of rain falls here each year, which makes it one of the rainiest inhabited places in the world. The road to the fjord was completed only in 1953, when the Homer Tunnel was finally bored through after almost twenty years of work."
       ],
       vidjeti: [
-        { ime: "Mitre Peak", opis: "Vrh koji se diže 1692 metra ravno iz mora jedna je od najviših morskih litica na svijetu. Ime je dobio po obliku biskupske mitre. Najljepše se vidi s obale kod pristaništa u zoru, kada je voda mirna poput ogledala." },
-        { ime: "Slapovi Stirling i Bowen", opis: "Dva su slapa stalna, a nakon kiše s litica ih se sruče stotine. Brodovi pramcem ulaze pod slap Stirling, visok oko 150 metara, pa ponesite kabanicu. Predaja kaže da ćete se probuditi deset godina mlađe ako vas poprska." },
-        { ime: "Cesta za Milford", opis: "Od gradića Te Anau do fjorda ima 120 kilometara bez ijedne benzinske postaje. Zaustavite se kod Zrcalnih jezera, gdje je natpis namjerno ispisan naopako kako bi se čitao u odrazu, i kod ponora The Chasm, gdje je rijeka u stijeni izdubila glatke rupe." },
-        { ime: "Tunel Homer", opis: "Tunel dug 1,2 kilometra započeli su 1935. radnici s krampovima, za velike gospodarske krize, a završen je tek 1953. Neobložen je i strmo se spušta prema fjordu. Na parkiralištu pred ulazom dočekat će vas kee, planinske papige koje kradu gumu s brisača." },
-        { ime: "Doubtful Sound", opis: "Tri puta dulji i mnogo tiši fjord do kojeg se dolazi samo brodom preko jezera Manapouri i autobusom preko prijevoja. Cook ga je 1770. nazvao Dvojbenom lukom jer nije bio siguran da bi ga vjetar iz njega mogao izvesti. Kapetan ponekad ugasi motore da čujete potpunu tišinu." },
-        { ime: "Špilje sa svjetlećim crvima u Te Anauu", opis: "Na zapadnoj obali jezera Te Anau čamcem se u potpunom mraku plovi ispod stropa posutog tisućama plavozelenih točkica, ličinki koje svjetlom mame plijen. U planinama iznad špilja 1948. ponovno je pronađena ptica takahē, za koju se pola stoljeća vjerovalo da je izumrla." }
+        { ime: "Mitre Peak", opis: "The peak, which rises 1,692 meters straight out of the sea, is one of the highest sea cliffs in the world. It takes its name from the shape of a bishop's miter. The best view is from the shore by the wharf at dawn, when the water is as still as a mirror." },
+        { ime: "Stirling and Bowen Falls", opis: "Two of the waterfalls are permanent, and after rain hundreds more pour off the cliffs. The boats nose in under Stirling Falls, about 150 meters high, so bring a raincoat. Tradition has it that you will wake up ten years younger if the spray touches you." },
+        { ime: "The Milford Road", opis: "From the small town of Te Anau to the fjord it is 120 kilometers without a single gas station. Stop at the Mirror Lakes, where the sign is deliberately written upside down so that it can be read in the reflection, and at The Chasm, where the river has worn smooth hollows into the rock." },
+        { ime: "Homer Tunnel", opis: "The 1.2-kilometer tunnel was begun in 1935 by workers with pickaxes, during the Great Depression, and was finished only in 1953. It is unlined and drops steeply toward the fjord. In the parking area at the entrance you will be met by kea, mountain parrots that steal the rubber from windshield wipers." },
+        { ime: "Doubtful Sound", opis: "A fjord three times as long and far quieter, which you can reach only by boat across Lake Manapouri and then by bus over a pass. In 1770 Cook named it Doubtful Harbour because he was not sure the wind would be able to carry him back out of it. The captain sometimes switches off the engines so that you can hear complete silence." },
+        { ime: "The glowworm caves at Te Anau", opis: "On the western shore of Lake Te Anau you glide by boat in total darkness beneath a ceiling strewn with thousands of blue-green dots, larvae that lure their prey with light. In the mountains above the caves the takahē bird was rediscovered in 1948, after half a century of being believed extinct." }
       ],
       jesti: [
-        { ime: "Jastog i plavi bakalar", opis: "Hladno more Fiordlanda daje jastoge i čvrstu bijelu ribu blue cod, koji se u Te Anauu poslužuju prženi ili na žaru." },
-        { ime: "Pita s divljači", opis: "U planinama Fiordlanda počeo je novozelandski uzgoj jelena, pa su pite s jelenjim mesom mjesni specijalitet pekarnica u Te Anauu i dobar ručak za ponijeti na cestu." },
-        { ime: "Ručak s broda", opis: "U samom Milford Soundu gotovo da nema ugostiteljske ponude, pa hranu kupite u Te Anauu ili naručite uz kartu za krstarenje." }
+        { ime: "Crayfish and blue cod", opis: "The cold sea of Fiordland yields crayfish and the firm white fish called blue cod, which are served fried or grilled in Te Anau." },
+        { ime: "Venison pie", opis: "New Zealand deer farming began in the mountains of Fiordland, so venison pies are a local specialty of the bakeries in Te Anau and a good lunch to take on the road." },
+        { ime: "Lunch from the boat", opis: "In Milford Sound itself there is almost nowhere to eat, so buy food in Te Anau or order it along with your cruise ticket." }
       ],
       dozivjeti: [
-        { ime: "Krstarenje fjordom", opis: "Brod plovi do otvorenog Tasmanova mora i natrag, pokraj stijena na kojima se sunčaju tuljani. Jutarnje i kasnopopodnevne plovidbe mirnije su jer izletnički autobusi iz Queenstowna stižu oko podneva.", link: "https://www.realnz.com/" },
-        { ime: "Dionica staze Milford", opis: "Staza od 53,5 kilometara slovi za najljepšu pješačku rutu na svijetu i hoda se četiri dana uz obveznu rezervaciju koliba. Jednodnevni izlet s vodičem i brodom pokaže vam njezin posljednji dio.", link: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/" },
-        { ime: "Plovidba Doubtful Soundom", opis: "Cjelodnevni izlet iz Manapourija dobar je izbor ako želite fjord bez gužve i veću šansu da vidite dupine i pingvine.", link: "https://www.realnz.com/" }
+        { ime: "A cruise on the fjord", opis: "The boat sails out to the open Tasman Sea and back, past rocks where seals bask in the sun. Morning and late-afternoon sailings are quieter, because the tour buses from Queenstown arrive around noon.", link: "https://www.realnz.com/" },
+        { ime: "A section of the Milford Track", opis: "The 53.5-kilometer track has a reputation as the finest walk in the world and takes four days, with mandatory hut reservations. A guided day trip by boat shows you its final section.", link: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/" },
+        { ime: "A cruise on Doubtful Sound", opis: "A full-day excursion from Manapouri is a good choice if you want a fjord without the crowds and a better chance of seeing dolphins and penguins.", link: "https://www.realnz.com/" }
       ],
       agencije: [
-        { ime: "Visit Fiordland", opis: "Službena turistička stranica regije.", link: "https://www.fiordland.org.nz/" },
-        { ime: "Department of Conservation", opis: "Državna služba za zaštitu prirode, s rezervacijama koliba i stanjem staza.", link: "https://www.doc.govt.nz/" },
-        { ime: "RealNZ", opis: "Krstarenja Milford i Doubtful Soundom te špilje u Te Anauu.", link: "https://www.realnz.com/" }
+        { ime: "Visit Fiordland", opis: "The region's official tourism website.", link: "https://www.fiordland.org.nz/" },
+        { ime: "Department of Conservation", opis: "The national conservation agency, with hut reservations and track conditions.", link: "https://www.doc.govt.nz/" },
+        { ime: "RealNZ", opis: "Cruises on Milford and Doubtful Sound and the caves at Te Anau.", link: "https://www.realnz.com/" }
       ],
-      kada: "Ne čekajte sunce: fjord je možda i najljepši za kiše, kada se s litica ruše stotine slapova. Prespavajte u Te Anauu umjesto da u jednom danu vozite iz Queenstowna i natrag, a zimi prije polaska provjerite je li cesta otvorena zbog lavina."
+      kada: "Do not wait for the sun: the fjord is perhaps at its most beautiful in the rain, when hundreds of waterfalls pour off the cliffs. Spend the night in Te Anau instead of driving from Queenstown and back in a single day, and in winter check before you set out whether the road is open, because of avalanches."
     },
     {
       id: "hobbiton-waikato",
-      ime: "Hobbiton i Waikato",
+      ime: "Hobbiton and Waikato",
       vrsta: "regija",
-      sazetak: "Zeleni brežuljci na kojima je sagrađeno hobitsko selo, špilje osvijetljene živim zvijezdama i srce maorskog kraljevskog pokreta.",
+      sazetak: "Green hills where a hobbit village was built, caves lit by living stars and the heart of the Māori King Movement.",
       prica: [
-        "Waikato je kraj najdulje novozelandske rijeke i najboljih pašnjaka u zemlji. Ovdje su maorska plemena 1858. izabrala prvoga kralja, Pōtataua Te Wherowhera, kako bi se ujedinjena lakše oduprla prodaji zemlje doseljenicima. Britanska vojska napala je Waikato 1863. i oduzela golema područja, no kraljevski pokret Kīngitanga opstao je do danas, sa sjedištem na maraeu Tūrangawaewae u mjestu Ngāruawāhia.",
-        "Redatelj Peter Jackson tražio je 1998. iz zrakoplova krajolik za Tolkienov Shire i na ovčarskoj farmi obitelji Alexander kod Matamate ugledao brežuljke, jezerce i veliko stablo, bez ijedne ceste ili dalekovoda na vidiku. Kulise za prvu trilogiju bile su privremene, a za filmove o Hobitu selo je ponovno sagrađeno od trajnih materijala i ostalo je stajati."
+        "Waikato is the country of New Zealand's longest river and its best pastureland. Here, in 1858, the Māori tribes chose their first king, Pōtatau Te Wherowhero, so that united they could better resist the sale of land to settlers. The British army invaded Waikato in 1863 and confiscated vast areas, but the King Movement, the Kīngitanga, has survived to this day, with its seat at the Tūrangawaewae marae in the town of Ngāruawāhia.",
+        "In 1998 the director Peter Jackson was searching from a plane for a landscape for Tolkien's Shire, and on the Alexander family's sheep farm near Matamata he spotted rolling hills, a small lake and a great tree, with not a single road or power line in sight. The sets for the first trilogy were temporary, but for the Hobbit films the village was rebuilt from permanent materials and left standing."
       ],
       vidjeti: [
-        { ime: "Hobbiton", opis: "Na farmi stoje četrdeset i četiri hobitske rupe različitih veličina, čime su snimatelji stvarali privid da su hobiti maleni, a Gandalf golem. Hrast iznad Bilbove kuće umjetan je, a svaki je list izrađen i obojen ručno. Pogledajte povrtnjake: pravi su i vrtlari ih obrađuju svaki dan." },
-        { ime: "Gostionica Zeleni zmaj", opis: "Obilazak završava u gostionici sa slamnatim krovom i vatrom u kaminu, gdje dobijete vrč piva, jabukovače ili đumbirova piva kuhanih samo za ovo mjesto. Sve je unutra izrađeno u punoj veličini, pa se konačno možete udobno smjestiti." },
-        { ime: "Špilje Waitomo", opis: "Špilju su 1887. na splavi od stabljika lana istražili maorski poglavica Tāne Tinorau i engleski mjernik Fred Mace, a mnogi današnji vodiči poglavičini su potomci. Na kraju obilaska čamcem se u tišini plovi podzemnom rijekom ispod tisuća svjetlećih crva, ličinki mušice koja živi samo na Novom Zelandu." },
-        { ime: "Hamilton Gardens", opis: "Umjesto zbirke biljaka ovi vrtovi prikazuju povijest vrtlarstva kroz dvadesetak zatvorenih vrtova, od talijanskog renesansnog i kineskog učenjačkog do tradicionalnog maorskog nasada kumare. Kroz vrata se prelazi iz jednog svijeta u drugi." },
-        { ime: "Ngāruawāhia i Tūrangawaewae", opis: "Na ušću rijeke Waipā u Waikato nalazi se sjedište maorskog kraljevskog pokreta. Marae je otvoren javnosti samo u posebnim prilikama, primjerice za veliku regatu ratnih kanua u ožujku. Od rujna 2024. pokret vodi kraljica Ngā Wai Hono i te Pō." },
-        { ime: "Raglan", opis: "Opušteno surfersko mjesto na zapadnoj obali s crnim vulkanskim pijeskom. Valovi kod rta Manu Bay slove za jedne od najduljih lijevih valova na svijetu, a u blizini je i slap Bridal Veil, visok pedeset i pet metara." }
+        { ime: "Hobbiton", opis: "Forty-four hobbit holes of different sizes stand on the farm, which is how the filmmakers created the illusion that the hobbits are small and Gandalf enormous. The oak above Bilbo's house is artificial, and every leaf was made and painted by hand. Take a look at the vegetable gardens: they are real and the gardeners tend them every day." },
+        { ime: "The Green Dragon Inn", opis: "The tour ends in an inn with a thatched roof and a fire in the hearth, where you are handed a mug of beer, cider or ginger beer brewed only for this place. Everything inside is built at full size, so you can finally settle in comfortably." },
+        { ime: "Waitomo Caves", opis: "The cave was explored in 1887 on a raft of flax stalks by the Māori chief Tāne Tinorau and the English surveyor Fred Mace, and many of today's guides are the chief's descendants. At the end of the tour you glide in silence by boat along an underground river beneath thousands of glowworms, the larvae of a gnat that lives only in New Zealand." },
+        { ime: "Hamilton Gardens", opis: "Instead of a plant collection, these gardens present the history of gardening through some twenty enclosed gardens, from an Italian Renaissance garden and a Chinese scholar's garden to a traditional Māori kūmara plantation. You pass through a doorway from one world into another." },
+        { ime: "Ngāruawāhia and Tūrangawaewae", opis: "At the confluence of the Waipā River and the Waikato lies the seat of the Māori King Movement. The marae is open to the public only on special occasions, such as the great war canoe regatta in March. Since September 2024 the movement has been led by Queen Ngā Wai Hono i te Pō." },
+        { ime: "Raglan", opis: "A laid-back surf town on the west coast with black volcanic sand. The waves at the Manu Bay point are reputed to be among the longest left-hand breaks in the world, and nearby is Bridal Veil Falls, fifty-five meters high." }
       ],
       jesti: [
-        { ime: "Pivo i jabukovača iz Zelenog zmaja", opis: "Pića se kuhaju posebno za Hobbiton i ne mogu se kupiti nigdje drugdje. Postoji i bezalkoholno đumbirovo pivo." },
-        { ime: "Sirevi i mliječni proizvodi", opis: "Waikato je središte novozelandskog mljekarstva, pa na tržnicama i u malim siranama oko Cambridgea i Matamate kušajte domaće sireve i sladoled." },
-        { ime: "Hobitska gozba", opis: "Uz večernji obilazak sela poslužuje se obilna večera za dugim stolovima u šatoru uz gostionicu, s pečenjima i povrćem kakve bi odobrio svaki hobit." }
+        { ime: "Beer and cider from the Green Dragon", opis: "The drinks are brewed specially for Hobbiton and cannot be bought anywhere else. There is also a non-alcoholic ginger beer." },
+        { ime: "Cheeses and dairy products", opis: "Waikato is the center of New Zealand's dairy industry, so at the markets and in the small cheese shops around Cambridge and Matamata, try the local cheeses and ice cream." },
+        { ime: "A hobbit feast", opis: "The evening tour of the village comes with a hearty dinner at long tables in the tent beside the inn, with roasts and vegetables of the kind any hobbit would approve." }
       ],
       dozivjeti: [
-        { ime: "Obilazak Hobbitona", opis: "Selo se obilazi samo s vodičem, koji otkriva filmske trikove i priče sa snimanja. Karte se rasprodaju tjednima unaprijed, osobito za večernji obilazak sa svjetiljkama i večerom.", link: "https://www.hobbitontours.com/" },
-        { ime: "Čamcem ispod svjetlećih crva", opis: "Klasični obilazak špilje Waitomo traje oko četrdeset pet minuta. Hrabrije se mogu u ronilačkom odijelu i na napuhanoj gumi spustiti podzemnom rijekom.", link: "https://www.waitomo.com/" },
-        { ime: "Šetnja vrtovima u Hamiltonu", opis: "Odvojite dva sata i idite redom kroz zatvorene vrtove. Dobro je mjesto za predah na putu između Aucklanda i Rotorue.", link: "https://hamiltongardens.co.nz/" }
+        { ime: "A tour of Hobbiton", opis: "The village can be visited only with a guide, who reveals the film tricks and stories from the shoot. Tickets sell out weeks in advance, especially for the evening tour with lanterns and dinner.", link: "https://www.hobbitontours.com/" },
+        { ime: "By boat beneath the glowworms", opis: "The classic tour of the Waitomo cave lasts about forty-five minutes. The braver ones can put on a wetsuit and float down the underground river on an inflated inner tube.", link: "https://www.waitomo.com/" },
+        { ime: "A walk through the gardens in Hamilton", opis: "Set aside two hours and go through the enclosed gardens in order. It is a good place for a break on the drive between Auckland and Rotorua.", link: "https://hamiltongardens.co.nz/" }
       ],
       agencije: [
-        { ime: "Hamilton and Waikato Tourism", opis: "Službena turistička stranica regije.", link: "https://www.waikatonz.com/" },
-        { ime: "Hobbiton Movie Set Tours", opis: "Jedini organizator obilazaka filmskog sela.", link: "https://www.hobbitontours.com/" },
-        { ime: "Discover Waitomo", opis: "Obilasci špilja Waitomo, Ruakuri i Aranui.", link: "https://www.waitomo.com/" }
+        { ime: "Hamilton and Waikato Tourism", opis: "The region's official tourism website.", link: "https://www.waikatonz.com/" },
+        { ime: "Hobbiton Movie Set Tours", opis: "The only operator of tours of the movie village.", link: "https://www.hobbitontours.com/" },
+        { ime: "Discover Waitomo", opis: "Tours of the Waitomo, Ruakuri and Aranui caves.", link: "https://www.waitomo.com/" }
       ],
-      kada: "Selo je zeleno cijele godine, a vrtovi su najbujniji od studenoga do ožujka. Hobbiton i Waitomo mogu se spojiti u jedan dug dan na putu od Aucklanda prema Rotorui, uz rano kretanje."
+      kada: "The village is green all year round, and the gardens are at their lushest from November to March. Hobbiton and Waitomo can be combined into one long day on the way from Auckland to Rotorua, as long as you start early."
     },
     {
       id: "abel-tasman",
       ime: "Abel Tasman",
       vrsta: "priroda",
-      sazetak: "Najmanji i najsunčaniji nacionalni park u zemlji, niz zlatnih plaža i tirkiznih uvala koje se obilaze pješice, kajakom i vodenim taksijem.",
+      sazetak: "The smallest and sunniest national park in the country, a string of golden beaches and turquoise coves that you explore on foot, by kayak and by water taxi.",
       prica: [
-        "Nizozemski moreplovac Abel Tasman usidrio se u prosincu 1642. u susjednom Zlatnom zaljevu, kao prvi Europljanin koji je vidio Novi Zeland. Ratnici plemena Ngāti Tūmatakōkiri isplovili su kanuima, došlo je do sukoba u kojem su poginula četiri mornara, i Tasman je otplovio ne stupivši na kopno, nazvavši mjesto Zaljevom ubojica.",
-        "Park je osnovan 1942., na tristotu obljetnicu toga događaja, zahvaljujući upornosti ornitologinje Pérrine Moncrieff, koja je željela spasiti obalnu šumu od sječe. U parku nema cesta, pa su jedine prometnice staza i more."
+        "The Dutch navigator Abel Tasman anchored in December 1642 in neighboring Golden Bay, as the first European to see New Zealand. Warriors of the Ngāti Tūmatakōkiri tribe paddled out in canoes, a clash followed in which four sailors were killed, and Tasman sailed away without ever setting foot on land, naming the place Murderers Bay.",
+        "The park was established in 1942, on the three hundredth anniversary of that event, thanks to the persistence of the ornithologist Pérrine Moncrieff, who wanted to save the coastal forest from logging. There are no roads in the park, so the only thoroughfares are the track and the sea."
       ],
       vidjeti: [
-        { ime: "Obalna staza Abel Tasman", opis: "Staza od šezdeset kilometara jedna je od novozelandskih Velikih šetnji i hoda se tri do pet dana, ali se bilo koja dionica može proći kao jednodnevni izlet uz prijevoz čamcem. Na nekoliko mjesta prelaze se plimni zaljevi, pa se hod planira prema tablici plime i oseke." },
-        { ime: "Split Apple Rock", opis: "Granitna kugla u moru pred plažom kod Kaiteriterija raspolovljena je kao nožem. Geolozi to pripisuju ledu koji je proširio pukotinu, a maorska predaja kaže da su se dva boga otimala za stijenu i prelomila je napola. Maorsko joj je ime Tokangawhā." },
-        { ime: "Zaljev Torrent i Kleopatrin bazen", opis: "U uvali Anchorage i susjednom zaljevu Torrent pijesak je boje meda, a pola sata uzvodno rijeka je u stijeni izdubila bazen s prirodnim toboganom od glatkog kamena obraslog mahovinom." },
-        { ime: "Plaža Awaroa", opis: "Kada je ova privatna plaža 2016. ponuđena na prodaju, dvojica Novozelanđana pokrenula su prikupljanje novca. Javilo se oko četrdeset tisuća ljudi, skupljeno je više od dva milijuna dolara i plaža je darovana nacionalnom parku." },
-        { ime: "Otok Tonga", opis: "Na stijenama otoka u morskom rezervatu živi kolonija novozelandskih tuljana krznaša. U studenom i prosincu rađaju se mladi, koji se igraju u plićaku i znatiželjno prilaze kajacima." },
-        { ime: "Nelson", opis: "Najbliži grad jedan je od najsunčanijih u zemlji i poznat je po umjetnicima i obrtnicima. Mjesni zlatar izradio je Jedinstveni prsten za filmove o Gospodaru prstenova, a na brdu iznad grada označeno je zemljopisno središte Novog Zelanda." }
+        { ime: "Abel Tasman Coast Track", opis: "The sixty-kilometer track is one of New Zealand's Great Walks and takes three to five days, but any section can be done as a day trip with a boat transfer. In several places you cross tidal inlets, so the walk is planned around the tide table." },
+        { ime: "Split Apple Rock", opis: "A granite sphere in the sea off the beach near Kaiteriteri is split in half as if by a knife. Geologists attribute this to ice that widened a crack, while Māori tradition says two gods fought over the rock and broke it in two. Its Māori name is Tokangawhā." },
+        { ime: "Torrent Bay and Cleopatra's Pool", opis: "In Anchorage cove and neighboring Torrent Bay the sand is the color of honey, and half an hour upstream the river has carved a pool into the rock, with a natural slide of smooth, moss-covered stone." },
+        { ime: "Awaroa Beach", opis: "When this private beach was put up for sale in 2016, two New Zealanders launched a fundraising campaign. About forty thousand people responded, more than two million dollars was raised and the beach was gifted to the national park." },
+        { ime: "Tonga Island", opis: "A colony of New Zealand fur seals lives on the rocks of the island in the marine reserve. The pups are born in November and December, and they play in the shallows and approach the kayaks with curiosity." },
+        { ime: "Nelson", opis: "The nearest city is one of the sunniest in the country and is known for its artists and craftspeople. A local jeweler made the One Ring for the Lord of the Rings films, and on the hill above the city the geographical center of New Zealand is marked." }
       ],
       jesti: [
-        { ime: "Zelenousne dagnje i jakobove kapice", opis: "Školjke iz zaljeva Tasman i susjednog Marlborougha poslužuju se u Nelsonu i malim mjestima uz obalu, kuhane na pari ili zapečene." },
-        { ime: "Pivo od nelsonskog hmelja", opis: "Gotovo sav novozelandski hmelj raste oko Nelsona, pa je ovaj kraj pun malih pivovara koje se može obići biciklom." },
-        { ime: "Voće s obiteljskih imanja", opis: "Uz cestu prema parku prodaju se jabuke, kruške, kivi i bobičasto voće na štandovima bez prodavača, gdje novac ostavljate u kutiji." }
+        { ime: "Green-lipped mussels and scallops", opis: "Shellfish from Tasman Bay and neighboring Marlborough are served in Nelson and in the small towns along the coast, steamed or baked." },
+        { ime: "Beer made with Nelson hops", opis: "Almost all of New Zealand's hops grow around Nelson, so this area is full of small breweries that you can tour by bicycle." },
+        { ime: "Fruit from family orchards", opis: "Along the road to the park, apples, pears, kiwifruit and berries are sold at unattended stalls where you leave your money in a box." }
       ],
       dozivjeti: [
-        { ime: "Vodeni taksi i šetnja", opis: "Čamac vas iz Kaiteriterija ili Mārahaua odveze do jedne uvale, vi nekoliko sati hodate stazom do druge i ondje vas pokupi drugi čamac. Tako u jednom danu vidite najljepši dio obale.", link: "https://www.abeltasman.co.nz/" },
-        { ime: "Veslanje u maorskom kanuu", opis: "U velikom dvotrupnom kanuu vesla se zajedno, u ritmu i uz pjesmu, do stijene Split Apple, a vodiči pričaju o plemenima koja su živjela na ovoj obali.", link: "https://wakaabeltasman.nz/" },
-        { ime: "Kajakom među tuljane", opis: "Poludnevni ili cjelodnevni izlet morskim kajakom s vodičem vodi uz otoke i u lagune u koje čamci ne mogu. More je ovdje obično mirno, pa je prikladno i za početnice." }
+        { ime: "Water taxi and a walk", opis: "A boat takes you from Kaiteriteri or Mārahau to one cove, you walk the track for a few hours to another, and there a second boat picks you up. That way you see the most beautiful part of the coast in a single day.", link: "https://www.abeltasman.co.nz/" },
+        { ime: "Paddling a Māori canoe", opis: "In a large double-hulled canoe everyone paddles together, in rhythm and to a chant, out to Split Apple Rock, while the guides tell stories of the tribes that lived on this coast.", link: "https://wakaabeltasman.nz/" },
+        { ime: "By kayak among the seals", opis: "A half-day or full-day guided sea kayak trip takes you along the islands and into lagoons that boats cannot reach. The sea here is usually calm, so it suits beginners too." }
       ],
       agencije: [
-        { ime: "Nelson Tasman", opis: "Službena turistička stranica regije.", link: "https://www.nelsontasman.nz/" },
-        { ime: "Department of Conservation: Abel Tasman", opis: "Uprava parka, s rezervacijama koliba, tablicama plime i stanjem staze.", link: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/abel-tasman-national-park/" },
-        { ime: "Wilsons Abel Tasman", opis: "Obiteljska tvrtka s vodenim taksijima, vođenim šetnjama i kajacima.", link: "https://www.abeltasman.co.nz/" }
+        { ime: "Nelson Tasman", opis: "The region's official tourism website.", link: "https://www.nelsontasman.nz/" },
+        { ime: "Department of Conservation: Abel Tasman", opis: "The park administration, with hut reservations, tide tables and track conditions.", link: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/abel-tasman-national-park/" },
+        { ime: "Wilsons Abel Tasman", opis: "A family company with water taxis, guided walks and kayaks.", link: "https://www.abeltasman.co.nz/" }
       ],
-      kada: "Najtoplije je od prosinca do ožujka, kada se može i kupati, a u veljači i ožujku ima manje gužve. Provjerite vrijeme plime i oseke prije polaska i ponesite sredstvo protiv mušica."
+      kada: "It is warmest from December to March, when you can also swim, and February and March are less crowded. Check the tide times before you set out and bring sandfly repellent."
     },
     {
       id: "aoraki-tekapo",
-      ime: "Aoraki / Mount Cook i jezero Tekapo",
+      ime: "Aoraki / Mount Cook and Lake Tekapo",
       vrsta: "priroda",
-      sazetak: "Najviši vrh Novog Zelanda, mliječno tirkizna jezera i jedno od najtamnijih noćnih neba na svijetu.",
+      sazetak: "New Zealand's highest peak, milky turquoise lakes and one of the darkest night skies in the world.",
       prica: [
-        "Za pleme Ngāi Tahu Aoraki je najsvetiji predak. Prema predaji, Aoraki i njegova braća, sinovi Oca neba, nasukali su se kanuom na greben, popeli se na njegovu višu stranu i ondje se okamenili u planine, a sam kanu postao je Južni otok. Zato se moli da se ne staje na sam vrh, a planina od 1998. službeno nosi dvojno ime.",
-        "Vrh je visok 3724 metra. Bio je deset metara viši sve do 1991., kada se s njega odlomila golema masa stijene i leda. Na ovim je padinama vježbao Edmund Hillary prije uspona na Everest. Visoravan oko jezera zove se Mackenzie po škotskom pastiru Jamesu Mackenzieju, koji je 1855. uhvaćen s tisuću ukradenih ovaca koje je kroz nepoznati prijevoj gonio uz pomoć svoje kuje Friday."
+        "For the Ngāi Tahu tribe Aoraki is the most sacred ancestor. According to tradition, Aoraki and his brothers, sons of the Sky Father, ran their canoe aground on a reef, climbed onto its higher side and there turned to stone as mountains, while the canoe itself became the South Island. That is why climbers are asked not to stand on the very summit, and the mountain has officially carried a dual name since 1998.",
+        "The peak is 3,724 meters high. It was ten meters taller until 1991, when a huge mass of rock and ice broke away from it. Edmund Hillary trained on these slopes before his ascent of Everest. The high plateau around the lakes is called the Mackenzie after the Scottish shepherd James Mackenzie, who was caught in 1855 with a thousand stolen sheep that he was driving through an unknown pass with the help of his dog Friday."
       ],
       vidjeti: [
-        { ime: "Staza kroz dolinu Hooker", opis: "Najpoznatija jednodnevna staza u zemlji duga je deset kilometara u oba smjera, gotovo je ravna i prelazi preko visećih mostova do ledenjačkog jezera u kojem plutaju sante, s Aorakijem točno ispred vas. Prije polaska provjerite na stranicama službe za zaštitu prirode je li cijela staza otvorena." },
-        { ime: "Ledenjak Tasman", opis: "Najdulji ledenjak u zemlji, dug više od dvadeset kilometara, prekriven je sivim kamenjem pa ga isprva nećete ni prepoznati. Jezero na njegovu kraju nije postojalo do sedamdesetih godina 20. stoljeća, a danas je dugo nekoliko kilometara, što jasno pokazuje koliko se brzo led povlači." },
-        { ime: "Jezero Pukaki", opis: "Cesta prema planini prati obalu jezera gotovo nestvarne tirkizne boje. Boju mu daje kameno brašno, fini prah koji ledenjaci stružu sa stijena i koji lebdi u vodi i raspršuje svjetlo." },
-        { ime: "Crkva Dobrog Pastira", opis: "Kamena crkvica na obali jezera Tekapo sagrađena je 1935. u spomen na prve ovčare. Graditeljima je naloženo da ne diraju okolno kamenje ni grmlje, a iza oltara umjesto slike stoji prozor s pogledom na jezero i Alpe." },
-        { ime: "Spomenik psu ovčaru", opis: "Brončani škotski ovčar uz jezero Tekapo postavljen je 1968. u čast pasa bez kojih uzgoj ovaca na ovim planinskim pašnjacima ne bi bio moguć." },
-        { ime: "Centar Edmunda Hillaryja", opis: "U hotelu Hermitage u selu Mount Cook nalaze se muzej planinarstva, planetarij i Hillaryjev brončani kip na terasi, zagledan u planinu. Izložen je i traktor kakvim je 1958. stigao na Južni pol." }
+        { ime: "Hooker Valley Track", opis: "The most famous day walk in the country is ten kilometers round trip, almost flat, and crosses suspension bridges to a glacial lake where icebergs float, with Aoraki directly ahead of you. Before you set out, check on the conservation agency's website whether the whole track is open." },
+        { ime: "Tasman Glacier", opis: "The longest glacier in the country, more than twenty kilometers long, is covered in gray rock, so at first you will not even recognize it. The lake at its foot did not exist until the 1970s and is now several kilometers long, which shows clearly how fast the ice is retreating." },
+        { ime: "Lake Pukaki", opis: "The road to the mountain follows the shore of a lake of an almost unreal turquoise color. The color comes from rock flour, the fine powder that glaciers grind from the rocks and that stays suspended in the water and scatters the light." },
+        { ime: "Church of the Good Shepherd", opis: "The little stone church on the shore of Lake Tekapo was built in 1935 in memory of the first sheep farmers. The builders were instructed not to disturb the surrounding rocks or shrubs, and behind the altar, in place of a painting, there is a window looking out on the lake and the Alps." },
+        { ime: "The sheepdog monument", opis: "The bronze collie beside Lake Tekapo was erected in 1968 in honor of the dogs without which sheep farming on these mountain pastures would not have been possible." },
+        { ime: "Sir Edmund Hillary Alpine Centre", opis: "The Hermitage hotel in Mount Cook Village houses a mountaineering museum, a planetarium and a bronze statue of Hillary on the terrace, gazing at the mountain. Also on display is a tractor of the kind he drove to the South Pole in 1958." }
       ],
       jesti: [
-        { ime: "Losos iz ledenjačkih kanala", opis: "U kanalima hidroelektrana oko jezera Pukaki i Tekapo uzgaja se losos u brzoj i hladnoj ledenjačkoj vodi. Na prodajnom mjestu uz jezero Pukaki kupuje se svjež sashimi koji se jede uz pogled na Aoraki." },
-        { ime: "Janjetina merino", opis: "Visoravan Mackenzie kraj je ovaca merino, pa je janjetina s planinskih pašnjaka na jelovnicima svih restorana u Tekapu i Twizelu." },
-        { ime: "Japanska kuhinja u Tekapu", opis: "Zbog svježeg lososa i mnogih gostiju iz Azije u malom Tekapu uz jezero ustalili su se japanski restorani, gdje se losos poslužuje na riži." }
+        { ime: "Salmon from the glacial canals", opis: "Salmon is farmed in the fast, cold glacial water of the hydroelectric canals around Lakes Pukaki and Tekapo. At the shop beside Lake Pukaki you can buy fresh sashimi and eat it with a view of Aoraki." },
+        { ime: "Merino lamb", opis: "The Mackenzie plateau is merino sheep country, so lamb from the mountain pastures is on the menu of every restaurant in Tekapo and Twizel." },
+        { ime: "Japanese cuisine in Tekapo", opis: "Thanks to the fresh salmon and the many guests from Asia, Japanese restaurants have become a fixture in little lakeside Tekapo, where salmon is served over rice." }
       ],
       dozivjeti: [
-        { ime: "Promatranje zvijezda", opis: "Rezervat tamnog neba Aoraki Mackenzie, proglašen 2012., štiti više od četiri tisuće četvornih kilometara neba bez svjetlosnog onečišćenja. S opservatorija na brdu Mount John vide se Južni križ i Magellanovi oblaci, a vodiči tumače i maorsko poznavanje zvijezda.", link: "https://www.darkskyproject.co.nz/" },
-        { ime: "Kupanje pod zvijezdama", opis: "Topli bazeni iznad jezera Tekapo otvoreni su i navečer, pa se nebo može gledati plutajući u vodi.", link: "https://tekaposprings.co.nz/" },
-        { ime: "Šetnja dolinom Hooker u zoru", opis: "Ako krenete prije sunca, vrh Aorakija zarumeni se dok ste na stazi, a gužve još nema.", link: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/" }
+        { ime: "Stargazing", opis: "The Aoraki Mackenzie Dark Sky Reserve, designated in 2012, protects more than four thousand square kilometers of sky free of light pollution. From the observatory on Mount John you can see the Southern Cross and the Magellanic Clouds, and the guides also explain Māori knowledge of the stars.", link: "https://www.darkskyproject.co.nz/" },
+        { ime: "Bathing under the stars", opis: "The hot pools above Lake Tekapo are open in the evening too, so you can watch the sky while floating in the water.", link: "https://tekaposprings.co.nz/" },
+        { ime: "A dawn walk in the Hooker Valley", opis: "If you set off before sunrise, the summit of Aoraki turns pink while you are on the track, and the crowds have not yet arrived.", link: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/" }
       ],
       agencije: [
-        { ime: "Mackenzie Region", opis: "Službena turistička stranica regije.", link: "https://www.mackenzienz.com/" },
-        { ime: "Department of Conservation: Aoraki/Mount Cook", opis: "Uprava nacionalnog parka, s upozorenjima o stazama i vremenu.", link: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/" },
-        { ime: "Dark Sky Project", opis: "Astronomske ture u Tekapu, u suvlasništvu plemena Ngāi Tahu.", link: "https://www.darkskyproject.co.nz/" }
+        { ime: "Mackenzie Region", opis: "The region's official tourism website.", link: "https://www.mackenzienz.com/" },
+        { ime: "Department of Conservation: Aoraki/Mount Cook", opis: "The national park administration, with alerts about tracks and weather.", link: "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/" },
+        { ime: "Dark Sky Project", opis: "Astronomy tours in Tekapo, co-owned by the Ngāi Tahu tribe.", link: "https://www.darkskyproject.co.nz/" }
       ],
-      kada: "Za hodanje je najbolje od studenoga do travnja, a od sredine studenoga do kraja prosinca uz jezero Tekapo cvjetaju ljubičaste i ružičaste lupine. Za zvijezde birajte noći oko mladog mjeseca i ponesite toplu odjeću i usred ljeta."
+      kada: "The best time for walking is from November to April, and from mid-November to the end of December purple and pink lupines bloom beside Lake Tekapo. For the stars, choose nights around the new moon and bring warm clothes even in the middle of summer."
     }
   ],
   izvori: [
     { ime: "Tourism New Zealand", url: "https://www.newzealand.com/int/" },
     { ime: "Department of Conservation", url: "https://www.doc.govt.nz/" },
-    { ime: "Te Ara, Enciklopedija Novog Zelanda: Dalmatians", url: "https://teara.govt.nz/en/dalmatians" },
-    { ime: "Te Ara: životopis Josipa Petrova Babicha", url: "https://teara.govt.nz/en/biographies/4b1/babich-josip-petrov" },
+    { ime: "Te Ara, the Encyclopedia of New Zealand: Dalmatians", url: "https://teara.govt.nz/en/dalmatians" },
+    { ime: "Te Ara: biography of Josip Petrov Babich", url: "https://teara.govt.nz/en/biographies/4b1/babich-josip-petrov" },
     { ime: "Dalmatian Cultural Society, Auckland", url: "https://www.dalmatian.org.nz/" },
     { ime: "Babich Wines: Our Story", url: "https://www.babichwines.com/about/our-story/" },
     { ime: "Kumeu River Wines", url: "https://kumeuriver.co.nz/" },

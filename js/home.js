@@ -27,39 +27,47 @@
       '</div></div>';
   }).join('');
 
-  // ---------- zemlje ----------
-  var active = '';
-  var chips = document.getElementById('chips');
+  // ---------- kontinenti i zemlje ----------
+  var active = I.kontinenti[0].ime;
+  var cont = document.getElementById('continents');
   var box = document.getElementById('countries');
-  var ready = 0;
-  I.regije.forEach(function (r) { r.zemlje.forEach(function (z) { if (z.spremno) ready++; }); });
-  document.getElementById('count').textContent = ready ? ready + ' zemalja' : 'Atlas se puni';
+  function count(k) {
+    var n = 0;
+    k.regije.forEach(function (r) { r.zemlje.forEach(function (z) { if (z.spremno) n++; }); });
+    return n;
+  }
+  var ready = I.kontinenti.reduce(function (n, k) { return n + count(k); }, 0);
+  document.getElementById('count').textContent = ready + ' zemalja';
 
-  function drawChips() {
-    chips.innerHTML = '<button type="button" data-r=""' + (active === '' ? ' class="on"' : '') + '>Sve</button>' +
-      I.regije.map(function (r) {
-        return '<button type="button" data-r="' + esc(r.ime) + '"' + (active === r.ime ? ' class="on"' : '') + '>' + esc(r.ime) + '</button>';
-      }).join('');
+  function drawContinents() {
+    cont.innerHTML = I.kontinenti.map(function (k, i) {
+      var n = count(k), on = k.ime === active;
+      return '<a class="tilec kont c' + (i % 6) + (on ? ' on' : '') + '" href="#zemlje" data-k="' + esc(k.ime) + '">' +
+        '<span class="label">' + (n ? n + ' zemalja' : 'Uskoro') + '</span><h3>' + esc(k.ime) + '</h3></a>';
+    }).join('');
   }
   function drawCountries() {
-    var k = 0;
-    box.innerHTML = I.regije.filter(function (r) { return !active || r.ime === active; }).map(function (r) {
-      return '<h3 class="group-title">' + esc(r.ime) + '</h3><div class="grid">' +
+    var k = I.kontinenti.filter(function (x) { return x.ime === active; })[0];
+    var c = 0;
+    box.innerHTML = '<h2 id="kontinent" style="margin-top:44px">' + esc(k.ime) + '</h2>' + k.regije.map(function (r) {
+      return (k.regije.length > 1 ? '<h3 class="group-title">' + esc(r.ime) + '</h3>' : '<div style="height:14px"></div>') + '<div class="grid">' +
         r.zemlje.map(function (z) {
           if (!z.spremno) return '<div class="tilec soon"><span class="label">Uskoro</span><h3>' + esc(z.ime) + '</h3></div>';
-          return '<a class="tilec c' + (k++ % 6) + '" href="zemlja.html?z=' + z.id + '">' +
+          return '<a class="tilec c' + (c++ % 6) + '" href="zemlja.html?z=' + z.id + '">' +
             '<span class="label">' + z.n + ' mjesta</span>' +
             '<div><h3>' + esc(z.ime) + '</h3><p>' + esc(z.sazetak) + '</p></div></a>';
         }).join('') + '</div>';
     }).join('');
   }
-  chips.addEventListener('click', function (e) {
-    var b = e.target.closest('button');
-    if (!b) return;
-    active = b.getAttribute('data-r');
-    drawChips(); drawCountries();
+  cont.addEventListener('click', function (e) {
+    var a = e.target.closest('a');
+    if (!a) return;
+    e.preventDefault();
+    active = a.getAttribute('data-k');
+    drawContinents(); drawCountries();
+    document.getElementById('kontinent').scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
-  drawChips(); drawCountries();
+  drawContinents(); drawCountries();
 
   // ---------- tražilica ----------
   var idx = I.trazi.map(function (e) { return { t: e[0], k: e[1], h: e[2], x: norm(e[0]), y: norm(e[1]) }; });

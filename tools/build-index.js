@@ -5,14 +5,36 @@ const path = require('path');
 const root = path.join(__dirname, '..');
 const dir = path.join(root, 'data', 'europa');
 
-// Sve zemlje koje atlas treba imati, redom kojim se prikazuju. Zemlja bez datoteke prikazuje se kao „uskoro“.
+// Sve zemlje koje atlas treba imati: kontinent, regija, zemlje. Zemlja bez datoteke prikazuje se kao „uskoro“.
 const PLAN = [
-  ['Južna Europa', ['italija', 'spanjolska', 'portugal', 'malta', 'andora']],
-  ['Zapadna Europa', ['francuska', 'belgija', 'nizozemska', 'luksemburg']],
-  ['Srednja Europa', ['njemacka', 'austrija', 'svicarska', 'lihtenstajn', 'ceska', 'madarska', 'poljska', 'slovacka', 'slovenija']],
-  ['Sjeverna Europa', ['norveska', 'svedska', 'danska', 'finska', 'island', 'estonija', 'latvija', 'litva']],
-  ['Britansko otočje', ['uk', 'irska']],
-  ['Jugoistočna Europa', ['grcka', 'turska', 'crnagora', 'bih', 'srbija', 'albanija', 'makedonija', 'kosovo', 'bugarska', 'rumunjska', 'cipar']]
+  ['Europa', [
+    ['Južna Europa', ['italija', 'spanjolska', 'portugal', 'malta', 'andora']],
+    ['Zapadna Europa', ['francuska', 'belgija', 'nizozemska', 'luksemburg']],
+    ['Srednja Europa', ['njemacka', 'austrija', 'svicarska', 'lihtenstajn', 'ceska', 'madarska', 'poljska', 'slovacka', 'slovenija']],
+    ['Sjeverna Europa', ['norveska', 'svedska', 'danska', 'finska', 'island', 'estonija', 'latvija', 'litva']],
+    ['Britansko otočje', ['uk', 'irska']],
+    ['Jugoistočna Europa', ['grcka', 'turska', 'crnagora', 'bih', 'srbija', 'albanija', 'makedonija', 'kosovo', 'bugarska', 'rumunjska', 'cipar']]
+  ]],
+  ['Azija', [
+    ['Istočna Azija', ['japan', 'juzna-koreja', 'kina', 'tajvan']],
+    ['Jugoistočna Azija', ['tajland', 'vijetnam', 'indonezija', 'kambodza', 'malezija', 'singapur', 'filipini', 'laos']],
+    ['Južna i Srednja Azija', ['indija', 'sri-lanka', 'nepal', 'maldivi', 'butan', 'uzbekistan', 'gruzija', 'armenija']],
+    ['Bliski istok', ['uae', 'jordan', 'izrael', 'oman', 'katar', 'saudijska-arabija']]
+  ]],
+  ['Afrika', [
+    ['Sjeverna Afrika', ['maroko', 'egipat', 'tunis']],
+    ['Podsaharska Afrika', ['jar', 'kenija', 'tanzanija', 'namibija', 'bocvana', 'viktorijini-slapovi', 'mauricijus', 'sejseli', 'madagaskar', 'etiopija', 'senegal', 'zelenortski-otoci', 'gana', 'ruanda-uganda']]
+  ]],
+  ['Sjeverna i Srednja Amerika', [
+    ['Sjeverna Amerika', ['sad', 'kanada']],
+    ['Srednja Amerika i Karibi', ['meksiko', 'kuba', 'kostarika', 'gvatemala', 'panama', 'belize', 'dominikanska', 'jamajka', 'bahami', 'portoriko', 'mali-antili']]
+  ]],
+  ['Južna Amerika', [
+    ['Južna Amerika', ['brazil', 'argentina', 'peru', 'cile', 'kolumbija', 'ekvador', 'bolivija', 'urugvaj']]
+  ]],
+  ['Oceanija', [
+    ['Oceanija', ['australija', 'novi-zeland', 'fidzi', 'francuska-polinezija', 'samoa', 'cookovi-otoci']]
+  ]]
 ];
 const NAMES = {
   italija: 'Italija', spanjolska: 'Španjolska', portugal: 'Portugal', malta: 'Malta', andora: 'Andora',
@@ -23,19 +45,40 @@ const NAMES = {
   estonija: 'Estonija', latvija: 'Latvija', litva: 'Litva', uk: 'Ujedinjeno Kraljevstvo', irska: 'Irska',
   grcka: 'Grčka', turska: 'Turska', crnagora: 'Crna Gora', bih: 'Bosna i Hercegovina', srbija: 'Srbija',
   albanija: 'Albanija', makedonija: 'Sjeverna Makedonija', kosovo: 'Kosovo', bugarska: 'Bugarska',
-  rumunjska: 'Rumunjska', cipar: 'Cipar'
+  rumunjska: 'Rumunjska', cipar: 'Cipar',
+  japan: 'Japan', 'juzna-koreja': 'Južna Koreja', kina: 'Kina', tajvan: 'Tajvan',
+  tajland: 'Tajland', vijetnam: 'Vijetnam', indonezija: 'Indonezija', kambodza: 'Kambodža', malezija: 'Malezija',
+  singapur: 'Singapur', filipini: 'Filipini', laos: 'Laos',
+  indija: 'Indija', 'sri-lanka': 'Šri Lanka', nepal: 'Nepal', maldivi: 'Maldivi', butan: 'Butan',
+  uzbekistan: 'Uzbekistan', gruzija: 'Gruzija', armenija: 'Armenija',
+  uae: 'Ujedinjeni Arapski Emirati', jordan: 'Jordan', izrael: 'Izrael i Palestina', oman: 'Oman', katar: 'Katar',
+  'saudijska-arabija': 'Saudijska Arabija', maroko: 'Maroko', egipat: 'Egipat', tunis: 'Tunis',
+  jar: 'Južnoafrička Republika', kenija: 'Kenija', tanzanija: 'Tanzanija', namibija: 'Namibija', bocvana: 'Bocvana',
+  'viktorijini-slapovi': 'Zimbabve i Zambija', mauricijus: 'Mauricijus', sejseli: 'Sejšeli', madagaskar: 'Madagaskar',
+  etiopija: 'Etiopija', senegal: 'Senegal', 'zelenortski-otoci': 'Zelenortska Republika', gana: 'Gana',
+  'ruanda-uganda': 'Ruanda i Uganda',
+  sad: 'SAD', kanada: 'Kanada', meksiko: 'Meksiko', kuba: 'Kuba', kostarika: 'Kostarika', gvatemala: 'Gvatemala',
+  panama: 'Panama', belize: 'Belize', dominikanska: 'Dominikanska Republika', jamajka: 'Jamajka', bahami: 'Bahami',
+  portoriko: 'Portoriko', 'mali-antili': 'Mali Antili',
+  brazil: 'Brazil', argentina: 'Argentina', peru: 'Peru', cile: 'Čile', kolumbija: 'Kolumbija', ekvador: 'Ekvador',
+  bolivija: 'Bolivija', urugvaj: 'Urugvaj',
+  australija: 'Australija', 'novi-zeland': 'Novi Zeland', fidzi: 'Fidži', 'francuska-polinezija': 'Francuska Polinezija',
+  samoa: 'Samoa', 'cookovi-otoci': 'Cookovi Otoci'
 };
+const DIRS = ['europa', 'svijet'].map(d => path.join(root, 'data', d));
 
 global.window = {};
-const out = { regije: [], vodici: [], trazi: [], cinjenice: [] };
+const out = { kontinenti: [], vodici: [], trazi: [], cinjenice: [] };
 const add = (t, k, h) => { if (t) out.trazi.push([t, k, h]); };
 let problems = 0;
 
-for (const [regija, ids] of PLAN) {
+for (const [kontinent, regije] of PLAN) {
+ const K = { ime: kontinent, regije: [] };
+ for (const [regija, ids] of regije) {
   const zemlje = [];
   for (const id of ids) {
-    const file = path.join(dir, id + '.js');
-    if (!fs.existsSync(file)) { zemlje.push({ id, ime: NAMES[id], spremno: false }); continue; }
+    const file = DIRS.map(d => path.join(d, id + '.js')).filter(f => fs.existsSync(f))[0];
+    if (!file) { zemlje.push({ id, ime: NAMES[id], spremno: false }); continue; }
     try {
       delete require.cache[file];
       require(file);
@@ -61,7 +104,9 @@ for (const [regija, ids] of PLAN) {
       zemlje.push({ id, ime: NAMES[id], spremno: false });
     }
   }
-  out.regije.push({ ime: regija, zemlje });
+  K.regije.push({ ime: regija, zemlje });
+ }
+ out.kontinenti.push(K);
 }
 
 // Veliki vodiči (zasad Apulija).
@@ -89,5 +134,5 @@ for (const gid of ['apulija']) {
 }
 
 fs.writeFileSync(path.join(dir, 'index.js'), '// Generirano skriptom tools/build-index.js. Ne uređivati ručno.\nwindow.ATLAS_INDEX = ' + JSON.stringify(out) + ';\n');
-const ready = out.regije.reduce((n, r) => n + r.zemlje.filter(z => z.spremno).length, 0);
+const ready = out.kontinenti.reduce((n, k) => n + k.regije.reduce((m, r) => m + r.zemlje.filter(z => z.spremno).length, 0), 0);
 console.log('zemalja:', ready, '| unosa u tražilici:', out.trazi.length, '| činjenica:', out.cinjenice.length, '| problema:', problems);

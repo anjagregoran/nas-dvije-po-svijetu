@@ -179,7 +179,7 @@ window.ATLAS["bih"] = {
       jesti: [
         { ime: "Sir iz mijeha", opis: "Mrvljivi sir jakog okusa zrije u ovčjoj koži i jede se uz pršut i vruće uštipke." },
         { ime: "Trebinjska vina", opis: "Desetak obiteljskih vinarija oko grada nudi kušanja vranca i žilavke uz hercegovački pršut." },
-        { ime: "Janjetina s ražnja", opis: "Uz cestu prema Bileći i Ljubinju niže se nekoliko pecenjarnica u koje se dolazi iz cijele regije." }
+        { ime: "Janjetina s ražnja", opis: "Uz cestu prema Bileći i Ljubinju niže se nekoliko pečenjarnica u koje se dolazi iz cijele regije." }
       ],
       dozivjeti: [
         { ime: "Jutro na tržnici", opis: "Subota je glavni tržni dan, kada se pod platanama okupi cijela istočna Hercegovina. Ponesite gotovinu u markama.", link: "https://gotrebinje.com/" },

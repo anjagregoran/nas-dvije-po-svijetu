@@ -32,17 +32,22 @@
     (function () {
       var id = (new URLSearchParams(location.search).get('z') || '').replace(/[^a-z0-9-]/g, '');
       window.ZEMLJA_ID = id;
-      var s = document.createElement('script');
-      s.src = 'data/europa/' + id + '.js';
-      s.onload = function () {
-        var a = document.createElement('script');
-        a.src = 'js/zemlja.js';
-        document.body.appendChild(a);
-      };
-      s.onerror = function () {
-        document.getElementById('app').innerHTML = '<p style="padding-top:40px">Ova zemlja još nije napisana. <a href="index.html">Natrag na početnu</a></p>';
-      };
-      document.body.appendChild(s);
+      var dirs = ['data/europa/', 'data/svijet/'];
+      (function tryNext() {
+        if (!dirs.length) {
+          document.getElementById('app').innerHTML = '<p style="padding-top:40px">Ova zemlja još nije napisana. <a href="index.html">Natrag na početnu</a></p>';
+          return;
+        }
+        var s = document.createElement('script');
+        s.src = dirs.shift() + id + '.js';
+        s.onload = function () {
+          var a = document.createElement('script');
+          a.src = 'js/zemlja.js';
+          document.body.appendChild(a);
+        };
+        s.onerror = tryNext;
+        document.body.appendChild(s);
+      })();
     })();
   </script>
 </body>

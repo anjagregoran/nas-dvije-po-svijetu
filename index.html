@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="hr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Nas dvije po svijetu · Vodič po svijetu</title>
-  <meta name="description" content="Gradovi, gradići, hrana, običaji i priče iza svega što gledate na putu po svijetu.">
+  <title>Taste the Map · A world guide</title>
+  <meta name="description" content="Food, local life, hidden gems and the stories behind every place you travel to.">
   <meta name="theme-color" content="#fbf4ea">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -17,10 +17,10 @@
 <body>
   <header class="site-head">
     <div class="wrap">
-      <a class="logo" href="index.html">Nas dvije po svijetu</a>
+      <a class="logo" href="index.html">Taste the Map</a>
       <nav>
-        <a href="#zemlje">Zemlje</a>
-        <a href="putovanja.html">Naša putovanja</a>
+        <a href="#zemlje">Countries</a>
+        <a href="putovanja.html">Our trips</a>
       </nav>
     </div>
   </header>
@@ -28,14 +28,14 @@
   <main>
     <div class="wrap">
       <section class="hero">
-        <span class="label">Vodič po svijetu</span>
-        <h1>Znati što <em>gledaš.</em></h1>
-        <p class="lead">Što se ondje jede, što domaći rade, koji su skriveni dragulji i što ponijeti kući, za svako mjesto na jednom mjestu.</p>
-        <p style="margin:0"><button type="button" class="btn big" id="next">Što posjetiti sljedeće?</button></p>
+        <span class="label">A world guide</span>
+        <h1>Feel the place, <em>bite by bite.</em></h1>
+        <p class="lead">What people eat there, what locals actually do, the hidden gems and what to bring home, all in one place for every destination.</p>
+        <p style="margin:0"><button type="button" class="btn big" id="next">Where to next?</button></p>
         <div id="finder" hidden>
-          <form class="search" id="form" style="margin-top:22px"><input type="search" id="q" placeholder="Upišite grad ili zemlju" autocomplete="off"></form>
+          <form class="search" id="form" style="margin-top:22px"><input type="search" id="q" placeholder="Type a city or country" autocomplete="off"></form>
           <div class="results" id="res"></div>
-          <p style="margin:16px 0 0"><button type="button" class="ghost" id="surprise">Iznenadi me</button></p>
+          <p style="margin:16px 0 0"><button type="button" class="ghost" id="surprise">Surprise me</button></p>
           <div id="pick"></div>
         </div>
       </section>
@@ -50,15 +50,15 @@
 
       <section class="block" style="padding-top:0">
         <a class="feature light" href="putovanja.html">
-          <div><span class="label">Dnevnik</span><h2>Naša <em>putovanja</em></h2>
-          <p>Karta svega gdje smo bile i bili, podijeljena po društvu: s mamom, s obitelji, udvoje, solo i na cesti.</p>
-          <span class="btn dark">Otvori kartu</span></div>
+          <div><span class="label">Travel log</span><h2>Our <em>trips</em></h2>
+          <p>A map of everywhere we have been, split by who we went with: with mom, with family, as a couple, solo and on the road.</p>
+          <span class="btn dark">Open the map</span></div>
         </a>
       </section>
 
       <section class="block" id="zemlje" style="padding-top:0">
         <div class="sec-head">
-          <h2>Kamo <em>dalje?</em></h2>
+          <h2>Pick a <em>continent</em></h2>
           <span class="label" id="count"></span>
         </div>
         <div class="grid" id="continents"></div>
@@ -68,17 +68,17 @@
 
       <section class="block" style="padding-top:0">
         <div class="factbox">
-          <span class="label" id="factwhere">Jeste li znale?</span>
+          <span class="label" id="factwhere">Did you know?</span>
           <p class="big" id="fact"></p>
-          <button type="button" class="btn dark" id="nextfact">Još jedna</button>
+          <button type="button" class="btn dark" id="nextfact">Another one</button>
         </div>
       </section>
     </div>
   </main>
 
   <footer class="foot">
-    <span class="logo">Nas dvije po svijetu</span>
-    Cijene i radna vremena mijenjaju se, pa ih prije puta provjerite na službenim stranicama.
+    <span class="logo">Taste the Map</span>
+    Prices and opening hours change, so check official sites before you go.
   </footer>
 
   <script src="data/europa/index.js"></script>

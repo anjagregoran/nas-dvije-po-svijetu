@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="hr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Nas dvije po svijetu</title>
+  <title>Taste the Map</title>
   <meta name="theme-color" content="#fbf4ea">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -16,7 +16,7 @@
 <body>
   <header class="site-head">
     <div class="wrap">
-      <a class="back" href="index.html">← Početna</a>
+      <a class="back" href="index.html">← Home</a>
       <a class="title" id="naslov" href="#/"></a>
     </div>
   </header>
@@ -25,11 +25,11 @@
 
   <div class="tabs">
     <nav>
-      <a href="#/mjesta" data-tab="mjesta">Mjesta</a>
-      <a href="#/hrana" data-tab="hrana">Hrana</a>
-      <a href="#/kultura" data-tab="kultura">Kultura</a>
-      <a href="#/ako-zelis" data-tab="ako-zelis">Ako želiš</a>
-      <a href="#/jos" data-tab="jos">Još</a>
+      <a href="#/mjesta" data-tab="mjesta">Places</a>
+      <a href="#/hrana" data-tab="hrana">Food</a>
+      <a href="#/kultura" data-tab="kultura">Culture</a>
+      <a href="#/ako-zelis" data-tab="ako-zelis">If you want</a>
+      <a href="#/jos" data-tab="jos">More</a>
     </nav>
   </div>
 
@@ -51,7 +51,7 @@
           load('data/' + rest.shift() + '.js', next);
         })();
       }, function () {
-        document.getElementById('app').innerHTML = '<p style="padding-top:40px">Ovaj vodič još nije napisan. <a href="index.html">Natrag na početnu</a></p>';
+        document.getElementById('app').innerHTML = '<p style="padding-top:40px">This guide is not written yet. <a href="index.html">Back to home</a></p>';
       });
     })();
   </script>

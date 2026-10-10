@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="hr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Nas dvije po svijetu</title>
+  <title>Taste the Map</title>
   <meta name="theme-color" content="#fbf4ea">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
@@ -16,7 +16,7 @@
 <body>
   <header class="site-head">
     <div class="wrap">
-      <a class="back" href="index.html">← Početna</a>
+      <a class="back" href="index.html">← Home</a>
       <a class="title" id="naslov" href="#/"></a>
     </div>
   </header>
@@ -24,8 +24,8 @@
   <main class="wrap" id="app" style="min-height:80vh"></main>
 
   <footer class="foot">
-    <a class="logo" href="index.html">Nas dvije po svijetu</a>
-    Cijene i radna vremena mijenjaju se, pa ih prije puta provjerite na službenim stranicama.
+    <a class="logo" href="index.html">Taste the Map</a>
+    Prices and opening hours change, so check official sites before you go.
   </footer>
 
   <script src="data/koordinate.js"></script>
@@ -38,7 +38,7 @@
       var dirs = ['data/europa/', 'data/svijet/'];
       (function tryNext() {
         if (!dirs.length) {
-          document.getElementById('app').innerHTML = '<p style="padding-top:40px">Ova zemlja još nije napisana. <a href="index.html">Natrag na početnu</a></p>';
+          document.getElementById('app').innerHTML = '<p style="padding-top:40px">This country is not written yet. <a href="index.html">Back to home</a></p>';
           return;
         }
         var s = document.createElement('script');

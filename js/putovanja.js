@@ -22,25 +22,25 @@
     var g = P.skupine.filter(function (x) { return x.id === active; })[0];
 
     app.innerHTML =
-      '<header class="hero left" style="padding-top:34px;padding-bottom:10px"><span class="label">Dnevnik</span>' +
-      '<h1>' + (g ? esc(g.ime) : 'Naša <em>putovanja</em>') + '</h1>' +
-      '<p class="lead" style="margin:0">' + esc(g ? g.opis : 'Sve gdje smo bile i bili, i sve što tek slijedi, na jednoj karti.') + '</p></header>' +
+      '<header class="hero left" style="padding-top:34px;padding-bottom:10px"><span class="label">Travel log</span>' +
+      '<h1>' + (g ? esc(g.ime) : 'Our <em>trips</em>') + '</h1>' +
+      '<p class="lead" style="margin:0">' + esc(g ? g.opis : 'Everywhere we have been and everything still to come, on one map.') + '</p></header>' +
       '<div class="chips wrapc" id="groups" style="margin-top:14px">' +
-        '<button type="button" data-g=""' + (active === '' ? ' class="on"' : '') + '>Sve</button>' +
+        '<button type="button" data-g=""' + (active === '' ? ' class="on"' : '') + '>All</button>' +
         P.skupine.map(function (x) {
           return '<button type="button" data-g="' + x.id + '"' + (active === x.id ? ' class="on"' : '') + '><i class="dot" style="background:' + HEX[colour[x.id]] + '"></i>' + esc(x.ime) + '</button>';
         }).join('') + '</div>' +
-      '<div class="stats"><div><b>' + done.length + '</b><span>putovanja iza nas</span></div>' +
-        '<div><b>' + Object.keys(lands).length + '</b><span>zemalja</span></div>' +
-        '<div><b>' + places + '</b><span>mjesta</span></div>' +
-        '<div><b>' + (list.length - done.length) + '</b><span>u planu</span></div></div>' +
+      '<div class="stats"><div><b>' + done.length + '</b><span>trips done</span></div>' +
+        '<div><b>' + Object.keys(lands).length + '</b><span>countries</span></div>' +
+        '<div><b>' + places + '</b><span>places</span></div>' +
+        '<div><b>' + (list.length - done.length) + '</b><span>planned</span></div></div>' +
       '<div class="map" id="map" style="margin-top:0"></div>' +
       (active ? section(g) : P.skupine.map(section).join(''));
 
     var pts = [];
     list.forEach(function (t) {
       t.mjesta.forEach(function (m) {
-        pts.push({ c: m.c, t: m.ime, s: t.naslov + (t.status === 'plan' ? ' · u planu' : ''), h: t.vodic, k: t.status === 'plan' ? 'plan' : colour[t.skupina] });
+        pts.push({ c: m.c, t: m.ime, s: t.naslov + (t.status === 'plan' ? ' · planned' : ''), h: t.vodic, k: t.status === 'plan' ? 'plan' : colour[t.skupina] });
       });
     });
     window.Karta.draw('map', pts, { maxZoom: 6, zoom: 5 });
@@ -49,14 +49,14 @@
   function section(g) {
     var mine = P.putovanja.filter(function (t) { return t.skupina === g.id; });
     return '<div class="sec-head" style="margin-top:44px"><h2><i class="dot" style="width:14px;height:14px;background:' + HEX[colour[g.id]] + '"></i>' + esc(g.ime) + '</h2>' +
-      '<span class="label">' + mine.length + (mine.length === 1 ? ' putovanje' : ' putovanja') + '</span></div>' +
+      '<span class="label">' + mine.length + (mine.length === 1 ? ' trip' : ' trips') + '</span></div>' +
       (mine.length ? '<div class="grid places">' + mine.map(function (t) {
-        var inner = '<span class="badge' + (t.status === 'plan' ? ' plan' : '') + '">' + (t.status === 'plan' ? 'U planu' : 'Iza nas') + '</span>' +
+        var inner = '<span class="badge' + (t.status === 'plan' ? ' plan' : '') + '">' + (t.status === 'plan' ? 'Planned' : 'Done') + '</span>' +
           '<h3>' + esc(t.naslov) + '</h3><p>' + esc(t.gdje) + (t.godina ? ' · ' + esc(t.godina) : '') + '</p>' +
           (t.biljeska ? '<p style="margin-top:8px;color:var(--ink)">' + esc(t.biljeska) + '</p>' : '');
         return t.vodic ? '<a class="trip" href="' + esc(t.vodic) + '">' + inner + '</a>' : '<div class="trip">' + inner + '</div>';
       }).join('') + '</div>'
-        : '<div class="empty">Ovdje još nema putovanja. Čim ih dodamo, pojavit će se na karti u ovoj boji.</div>');
+        : '<div class="empty">No trips here yet. As soon as we add them they will show on the map in this color.</div>');
   }
 
   app.addEventListener('click', function (e) {

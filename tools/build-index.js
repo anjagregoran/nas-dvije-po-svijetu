@@ -7,33 +7,33 @@ const dir = path.join(root, 'data', 'europa');
 
 // Sve zemlje koje atlas treba imati: kontinent, regija, zemlje. Zemlja bez datoteke prikazuje se kao „uskoro“.
 const PLAN = [
-  ['Europa', [
-    ['Južna Europa', ['italija', 'spanjolska', 'portugal', 'malta', 'andora']],
-    ['Zapadna Europa', ['francuska', 'belgija', 'nizozemska', 'luksemburg']],
-    ['Srednja Europa', ['njemacka', 'austrija', 'svicarska', 'lihtenstajn', 'ceska', 'madarska', 'poljska', 'slovacka', 'slovenija']],
-    ['Sjeverna Europa', ['norveska', 'svedska', 'danska', 'finska', 'island', 'estonija', 'latvija', 'litva']],
-    ['Britansko otočje', ['uk', 'irska']],
-    ['Jugoistočna Europa', ['grcka', 'turska', 'crnagora', 'bih', 'srbija', 'albanija', 'makedonija', 'kosovo', 'bugarska', 'rumunjska', 'cipar']]
+  ['Europe', [
+    ['Southern Europe', ['italija', 'spanjolska', 'portugal', 'malta', 'andora']],
+    ['Western Europe', ['francuska', 'belgija', 'nizozemska', 'luksemburg']],
+    ['Central Europe', ['njemacka', 'austrija', 'svicarska', 'lihtenstajn', 'ceska', 'madarska', 'poljska', 'slovacka', 'slovenija']],
+    ['Northern Europe', ['norveska', 'svedska', 'danska', 'finska', 'island', 'estonija', 'latvija', 'litva']],
+    ['British Isles', ['uk', 'irska']],
+    ['Southeastern Europe', ['grcka', 'turska', 'crnagora', 'bih', 'srbija', 'albanija', 'makedonija', 'kosovo', 'bugarska', 'rumunjska', 'cipar']]
   ]],
-  ['Azija', [
-    ['Istočna Azija', ['japan', 'juzna-koreja', 'kina', 'tajvan']],
-    ['Jugoistočna Azija', ['tajland', 'vijetnam', 'indonezija', 'kambodza', 'malezija', 'singapur', 'filipini', 'laos']],
-    ['Južna i Srednja Azija', ['indija', 'sri-lanka', 'nepal', 'maldivi', 'butan', 'uzbekistan', 'gruzija', 'armenija']],
-    ['Bliski istok', ['uae', 'jordan', 'izrael', 'oman', 'katar', 'saudijska-arabija']]
+  ['Asia', [
+    ['East Asia', ['japan', 'juzna-koreja', 'kina', 'tajvan']],
+    ['Southeast Asia', ['tajland', 'vijetnam', 'indonezija', 'kambodza', 'malezija', 'singapur', 'filipini', 'laos']],
+    ['South and Central Asia', ['indija', 'sri-lanka', 'nepal', 'maldivi', 'butan', 'uzbekistan', 'gruzija', 'armenija']],
+    ['Middle East', ['uae', 'jordan', 'izrael', 'oman', 'katar', 'saudijska-arabija']]
   ]],
-  ['Afrika', [
-    ['Sjeverna Afrika', ['maroko', 'egipat', 'tunis']],
-    ['Podsaharska Afrika', ['jar', 'kenija', 'tanzanija', 'namibija', 'bocvana', 'viktorijini-slapovi', 'mauricijus', 'sejseli', 'madagaskar', 'etiopija', 'senegal', 'zelenortski-otoci', 'gana', 'ruanda-uganda']]
+  ['Africa', [
+    ['North Africa', ['maroko', 'egipat', 'tunis']],
+    ['Sub-Saharan Africa', ['jar', 'kenija', 'tanzanija', 'namibija', 'bocvana', 'viktorijini-slapovi', 'mauricijus', 'sejseli', 'madagaskar', 'etiopija', 'senegal', 'zelenortski-otoci', 'gana', 'ruanda-uganda']]
   ]],
-  ['Sjeverna i Srednja Amerika', [
-    ['Sjeverna Amerika', ['sad', 'kanada']],
-    ['Srednja Amerika i Karibi', ['meksiko', 'kuba', 'kostarika', 'gvatemala', 'panama', 'belize', 'dominikanska', 'jamajka', 'bahami', 'portoriko', 'mali-antili']]
+  ['North and Central America', [
+    ['North America', ['sad', 'kanada']],
+    ['Central America and the Caribbean', ['meksiko', 'kuba', 'kostarika', 'gvatemala', 'panama', 'belize', 'dominikanska', 'jamajka', 'bahami', 'portoriko', 'mali-antili']]
   ]],
-  ['Južna Amerika', [
-    ['Južna Amerika', ['brazil', 'argentina', 'peru', 'cile', 'kolumbija', 'ekvador', 'bolivija', 'urugvaj']]
+  ['South America', [
+    ['South America', ['brazil', 'argentina', 'peru', 'cile', 'kolumbija', 'ekvador', 'bolivija', 'urugvaj']]
   ]],
-  ['Oceanija', [
-    ['Oceanija', ['australija', 'novi-zeland', 'fidzi', 'francuska-polinezija', 'samoa', 'cookovi-otoci']]
+  ['Oceania', [
+    ['Oceania', ['australija', 'novi-zeland', 'fidzi', 'francuska-polinezija', 'samoa', 'cookovi-otoci']]
   ]]
 ];
 const NAMES = {
@@ -100,7 +100,7 @@ for (const [kontinent, regije] of PLAN) {
       if (/[—–]/.test(raw)) { console.warn('! crtica (em/en dash) u', id); problems++; }
       const h = 'zemlja.html?z=' + id;
       zemlje.push({ id, ime: z.ime, sazetak: z.sazetak, n: z.mjesta.length, spremno: true, c: centre(id, z.mjesta) });
-      add(z.ime, 'Zemlja', h);
+      add(z.ime, 'Country', h);
       z.mjesta.forEach(m => add(m.ime, z.ime, h + '#/mjesto/' + m.id));
       z.mjesta.forEach(m => { const c = KO[id + '/' + m.id]; if (c) out.mj.push([m.ime, z.ime, h + '#/mjesto/' + m.id, c[0], c[1]]); });
       (ISO[id] || '').split(',').forEach(c => { if (c && !out.cc[c]) out.cc[c] = [id, z.ime]; });
@@ -125,9 +125,9 @@ for (const gid of ['apulija']) {
   const sights = T.mjesta.reduce((n, m) => n + (m.znamenitosti || []).length, 0);
   const foods = T.hrana.reduce((n, k) => n + k.stavke.length, 0);
   out.vodici.push({ id: gid, naziv: T.naziv, nadnaslov: T.nadnaslov, uvod: T.uvod, mjesta: T.mjesta.length, znamenitosti: sights, jela: foods });
-  add(T.naziv, 'Veliki vodič', h);
-  T.mjesta.forEach(m => add(m.ime, T.naziv + ' · veliki vodič', h + '#/mjesto/' + m.id));
-  T.mjesta.forEach(m => { const c = KO[gid + '/' + m.id]; if (c) out.mj.push([m.ime, T.naziv + ' · veliki vodič', h + '#/mjesto/' + m.id, c[0], c[1]]); });
+  add(T.naziv, 'Deep guide', h);
+  T.mjesta.forEach(m => add(m.ime, T.naziv + ' · deep guide', h + '#/mjesto/' + m.id));
+  T.mjesta.forEach(m => { const c = KO[gid + '/' + m.id]; if (c) out.mj.push([m.ime, T.naziv + ' · deep guide', h + '#/mjesto/' + m.id, c[0], c[1]]); });
   T.jesteLiZnale.forEach(c => out.cinjenice.push([c, T.naziv]));
 }
 

@@ -2,7 +2,7 @@
   var T = window.TRIP;
   var app = document.getElementById('app');
   document.getElementById('naslov').textContent = T.naziv;
-  document.title = T.naziv + ' · Nas dvije po svijetu';
+  document.title = T.naziv + ' · Taste the Map';
 
   // ---------- pomoćne funkcije ----------
   function esc(s) {
@@ -22,7 +22,7 @@
     return String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
   }
   function link(url, text) {
-    return url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(text || 'Službena stranica') + ' ↗</a>' : '';
+    return url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(text || 'Official site') + ' ↗</a>' : '';
   }
   function head(label, title, lead) {
     return '<header class="hero left"><span class="label">' + esc(label) + '</span><h1>' + esc(title) + '</h1>' +
@@ -47,7 +47,7 @@
     var n = ids.filter(isDone).length;
     var pct = ids.length ? Math.round(n / ids.length * 100) : 0;
     return '<div class="prog" data-ids="' + esc(ids.join('|')) + '" data-label="' + esc(label) + '">' +
-      '<span class="label">' + esc(label) + ': ' + n + ' od ' + ids.length + '</span>' +
+      '<span class="label">' + esc(label) + ': ' + n + ' of ' + ids.length + '</span>' +
       '<div class="progress"><i style="width:' + pct + '%"></i></div></div>';
   }
 
@@ -63,25 +63,25 @@
   // ---------- pretraga ----------
   var index = [];
   T.mjesta.forEach(function (m) {
-    index.push({ t: m.ime, k: 'Mjesto', h: '#/mjesto/' + m.id, x: norm(m.ime + ' ' + m.sazetak) });
+    index.push({ t: m.ime, k: 'Place', h: '#/mjesto/' + m.id, x: norm(m.ime + ' ' + m.sazetak) });
     (m.znamenitosti || []).forEach(function (z, i) {
       index.push({ t: z.ime, k: m.ime, h: '#/mjesto/' + m.id + '/' + i, x: norm(z.ime + ' ' + z.sto + ' ' + m.ime) });
     });
   });
   T.hrana.forEach(function (k) {
     k.stavke.forEach(function (s) {
-      index.push({ t: s.ime, k: 'Hrana · ' + k.kategorija, h: '#/hrana/' + s._id, x: norm(s.ime + ' ' + s.opis) });
+      index.push({ t: s.ime, k: 'Food · ' + k.kategorija, h: '#/hrana/' + s._id, x: norm(s.ime + ' ' + s.opis) });
     });
   });
   T.kultura.forEach(function (c, i) {
-    index.push({ t: c.naslov, k: 'Kultura', h: '#/kultura/' + i, x: norm(c.naslov + ' ' + (c.uvod || '') + ' ' + c.dijelovi.map(function (d) { return d.naslov || ''; }).join(' ')) });
+    index.push({ t: c.naslov, k: 'Culture', h: '#/kultura/' + i, x: norm(c.naslov + ' ' + (c.uvod || '') + ' ' + c.dijelovi.map(function (d) { return d.naslov || ''; }).join(' ')) });
   });
   T.akoZelis.forEach(function (a, i) {
-    index.push({ t: a.zelja, k: 'Ako želiš', h: '#/ako-zelis/' + i, x: norm(a.zelja + ' ' + a.opcije.map(function (o) { return o.ime + ' ' + o.mjesto; }).join(' ')) });
+    index.push({ t: a.zelja, k: 'If you want', h: '#/ako-zelis/' + i, x: norm(a.zelja + ' ' + a.opcije.map(function (o) { return o.ime + ' ' + o.mjesto; }).join(' ')) });
   });
 
   function searchBox() {
-    return '<div class="search left"><input type="search" id="q" placeholder="Što gledamo? Npr. Santa Croce" autocomplete="off"></div><div class="results" id="res" style="margin-left:0"></div>';
+    return '<div class="search left"><input type="search" id="q" placeholder="What are we looking at? Try Santa Croce" autocomplete="off"></div><div class="results" id="res" style="margin-left:0"></div>';
   }
   function runSearch(q) {
     var res = document.getElementById('res');
@@ -90,7 +90,7 @@
     var hits = index.filter(function (e) { return e.x.indexOf(q) > -1; }).slice(0, 12);
     res.innerHTML = hits.length
       ? hits.map(function (e) { return '<a href="' + e.h + '"><small>' + esc(e.k) + '</small>' + esc(e.t) + '</a>'; }).join('')
-      : '<p class="note">Ništa pod tim imenom. Pokušajte kraće ili na talijanskom.</p>';
+      : '<p class="note">Nothing by that name. Try a shorter word or the Italian name.</p>';
   }
 
   function tile(h, c, label, title, sub) {
@@ -106,19 +106,19 @@
     return head(T.nadnaslov, T.naziv, T.uvod) +
       searchBox() +
       '<div class="grid" style="margin-top:26px">' +
-        tile('#/mjesta', 'c0', T.mjesta.length + ' mjesta', 'Mjesta', 'Što gledamo i zašto je važno') +
-        tile('#/hrana', 'c1', nFood + ' jela i pića', 'Hrana', 'Što se ovdje jede i gdje') +
-        tile('#/kultura', 'c2', 'Ples, fešte, život', 'Kultura', 'Priče iza običaja') +
-        tile('#/ako-zelis', 'c3', T.akoZelis.length + ' ideja', 'Ako želiš', 'Kamo po koji doživljaj') +
-        tile('#/povijest', 'c4', '3000 godina', 'Povijest', 'Tko je sve ovuda prošao') +
-        tile('#/rjecnik', 'c5', 'Talijanski', 'Rječnik', 'Fraze s izgovorom') +
+        tile('#/mjesta', 'c0', T.mjesta.length + ' places', 'Places', 'What we are looking at and why it matters') +
+        tile('#/hrana', 'c1', nFood + ' dishes and drinks', 'Food', 'What people eat here and where') +
+        tile('#/kultura', 'c2', 'Dance, festivals, daily life', 'Culture', 'The stories behind the customs') +
+        tile('#/ako-zelis', 'c3', T.akoZelis.length + ' ideas', 'If you want', 'Where to go for each experience') +
+        tile('#/povijest', 'c4', '3,000 years', 'History', 'Everyone who passed through') +
+        tile('#/rjecnik', 'c5', 'Italian', 'Phrasebook', 'Phrases with pronunciation') +
       '</div>' +
-      '<div class="factbox" style="margin-top:14px"><span class="label">Jeste li znale?</span><p class="big" id="fact">' + esc(randomFact()) + '</p><button type="button" class="btn dark" id="nextfact">Još jedna</button></div>' +
-      '<h2 class="group-title">Dnevnik puta</h2><div class="card">' +
-        progress(sightIds, 'Viđeno') + progress(foodIds, 'Kušano') +
-        '<p class="note" style="margin:0">Uz svaku znamenitost i svako jelo nalazi se gumb kojim ih možete označiti. Od ' + nSights + ' znamenitosti i ' + nFood + ' okusa, koliko ćete ih skupiti?</p>' +
+      '<div class="factbox" style="margin-top:14px"><span class="label">Did you know?</span><p class="big" id="fact">' + esc(randomFact()) + '</p><button type="button" class="btn dark" id="nextfact">Another one</button></div>' +
+      '<h2 class="group-title">Trip log</h2><div class="card">' +
+        progress(sightIds, 'Seen') + progress(foodIds, 'Tasted') +
+        '<p class="note" style="margin:0">Every sight and every dish has a button to tick it off. Out of ' + nSights + ' sights and ' + nFood + ' flavors, how many will you collect?</p>' +
       '</div>' +
-      '<h2 class="group-title">Ukratko</h2><div class="card kv">' +
+      '<h2 class="group-title">In short</h2><div class="card kv">' +
         T.ukratko.map(function (u) { return '<div><b>' + esc(u.k) + '</b>' + esc(u.v) + '</div>'; }).join('') +
       '</div>';
   };
@@ -130,7 +130,7 @@
       if (!g) { g = { n: m.regija, m: [] }; groups.push(g); }
       g.m.push(m);
     });
-    return head(T.naziv, 'Mjesta', 'Otvorite mjesto u kojem ste i čitajte dok hodate. Svaka znamenitost ima svoju priču i sitnice koje vrijedi potražiti.') +
+    return head(T.naziv, 'Places', 'Open the place you are in and read as you walk. Every sight has its story and small details worth looking for.') +
       searchBox() + '<div class="map" id="map" style="margin-top:20px"></div>' +
       groups.map(function (g) {
         return '<h2 class="group-title">' + esc(g.n) + '</h2>' +
@@ -139,7 +139,7 @@
             var n = ids.filter(isDone).length;
             return '<a class="card place" href="#/mjesto/' + m.id + '">' +
               '<div><h3>' + esc(m.ime) + '</h3><p>' + esc(m.sazetak) + '</p>' +
-              (n ? '<span class="badge">Viđeno ' + n + ' od ' + ids.length + '</span>' : '') +
+              (n ? '<span class="badge">Seen ' + n + ' of ' + ids.length + '</span>' : '') +
               '</div><span class="arrow">→</span></a>';
           }).join('');
       }).join('');
@@ -149,29 +149,29 @@
     var m = T.mjesta.filter(function (x) { return x.id === id; })[0];
     if (!m) return views.mjesta();
     var ids = (m.znamenitosti || []).map(function (z) { return z._id; });
-    return '<p style="margin:26px 0 0"><a href="#/mjesta" class="label" style="text-decoration:none">← Sva mjesta</a></p>' +
+    return '<p style="margin:26px 0 0"><a href="#/mjesta" class="label" style="text-decoration:none">← All places</a></p>' +
       head(m.regija, m.ime, m.prica).replace('hero left"', 'hero left" style="padding-top:14px"') +
-      (ids.length ? progress(ids, 'Viđeno') : '') +
-      (ids.length ? '<h2 class="group-title">Što gledamo</h2>' : '') +
+      (ids.length ? progress(ids, 'Seen') : '') +
+      (ids.length ? '<h2 class="group-title">What we are looking at</h2>' : '') +
       (m.znamenitosti || []).map(function (z, i) {
         return '<details class="card' + (isDone(z._id) ? ' done' : '') + '" id="z' + i + '"' + (String(open) === String(i) ? ' open' : '') + '>' +
           '<summary>' + esc(z.ime) + '<small>' + esc(z.sto) + '</small></summary>' +
           '<div class="inner">' + paras(z.prica) +
-          (z.potrazi && z.potrazi.length ? '<div class="look"><span class="label">Potražite</span>' + list(z.potrazi) + '</div>' : '') +
+          (z.potrazi && z.potrazi.length ? '<div class="look"><span class="label">Look for</span>' + list(z.potrazi) + '</div>' : '') +
           (z.prakticno ? '<p class="note">' + esc(z.prakticno) + '</p>' : '') +
           (z.link ? '<p>' + link(z.link) + '</p>' : '') +
-          doneBtn(z._id, 'Viđeno', 'Označi kao viđeno') +
+          doneBtn(z._id, 'Seen', 'Mark as seen') +
           '</div></details>';
       }).join('') +
-      (m.zanimljivosti && m.zanimljivosti.length ? '<h2 class="group-title">Legende i zanimljivosti</h2><div class="card">' + list(m.zanimljivosti) + '</div>' : '') +
-      (m.hrvatska ? '<h2 class="group-title">Veza s Hrvatskom</h2><div class="hr-link">' + paras(m.hrvatska) + '</div>' : '') +
-      (m.jedi && m.jedi.length ? '<h2 class="group-title">Što ovdje jesti</h2><div class="look food">' + list(m.jedi) + '</div>' : '') +
-      (m.savjet ? '<h2 class="group-title">Dobro je znati</h2><div class="card">' + paras(m.savjet) + '</div>' : '');
+      (m.zanimljivosti && m.zanimljivosti.length ? '<h2 class="group-title">Legends and curiosities</h2><div class="card">' + list(m.zanimljivosti) + '</div>' : '') +
+      (m.hrvatska ? '<h2 class="group-title">The Croatian connection</h2><div class="hr-link">' + paras(m.hrvatska) + '</div>' : '') +
+      (m.jedi && m.jedi.length ? '<h2 class="group-title">What to eat here</h2><div class="look food">' + list(m.jedi) + '</div>' : '') +
+      (m.savjet ? '<h2 class="group-title">Good to know</h2><div class="card">' + paras(m.savjet) + '</div>' : '');
   };
 
   views.hrana = function () {
-    return head(T.naziv, 'Hrana', T.hranaUvod) +
-      progress(foodIds, 'Kušano') +
+    return head(T.naziv, 'Food', T.hranaUvod) +
+      progress(foodIds, 'Tasted') +
       '<div class="chips">' + T.hrana.map(function (k, i) { return '<a href="#/hrana/k' + i + '">' + esc(k.kategorija) + '</a>'; }).join('') + '</div>' +
       T.hrana.map(function (k, ki) {
         return '<h2 class="group-title" id="k' + ki + '">' + esc(k.kategorija) + '</h2>' +
@@ -179,21 +179,21 @@
             return '<details class="card' + (isDone(s._id) ? ' done' : '') + '" id="' + s._id + '">' +
               '<summary>' + esc(s.ime) + '<small>' + esc(s.opis) + '</small></summary>' +
               '<div class="inner">' +
-              (s.izgovor ? '<p class="say">Čita se: ' + esc(s.izgovor) + '</p>' : '') +
+              (s.izgovor ? '<p class="say">Say it: ' + esc(s.izgovor) + '</p>' : '') +
               paras(s.prica) +
-              (s.gdje ? '<div class="look food"><span class="label">Gdje kušati</span>' + paras(s.gdje) + '</div>' : '') +
+              (s.gdje ? '<div class="look food"><span class="label">Where to try it</span>' + paras(s.gdje) + '</div>' : '') +
               (s.savjet ? '<p class="note">' + esc(s.savjet) + '</p>' : '') +
-              doneBtn(s._id, 'Kušano', 'Označi kao kušano') +
+              doneBtn(s._id, 'Tasted', 'Mark as tasted') +
               '</div></details>';
           }).join('');
       }).join('') +
-      (T.zaStolom ? '<h2 class="group-title">Za stolom</h2>' + T.zaStolom.map(function (z) {
+      (T.zaStolom ? '<h2 class="group-title">At the table</h2>' + T.zaStolom.map(function (z) {
         return '<details class="card"><summary>' + esc(z.naslov) + '</summary><div class="inner">' + paras(z.tekst) + '</div></details>';
       }).join('') : '');
   };
 
   views.kultura = function (open) {
-    return head(T.naziv, 'Kultura', T.kulturaUvod) +
+    return head(T.naziv, 'Culture', T.kulturaUvod) +
       T.kultura.map(function (c, i) {
         return '<details class="card" id="c' + i + '"' + (String(open) === String(i) ? ' open' : '') + '>' +
           '<summary>' + esc(c.naslov) + (c.uvod ? '<small>' + esc(c.uvod) + '</small>' : '') + '</summary>' +
@@ -206,7 +206,7 @@
   };
 
   views.akoZelis = function (open) {
-    return head(T.naziv, 'Ako želiš', 'Odaberite što vam se danas radi, a ovdje piše kamo po to.') +
+    return head(T.naziv, 'If you want', 'Pick what you feel like doing today and see where to go for it.') +
       T.akoZelis.map(function (a, i) {
         return '<details class="card" id="a' + i + '"' + (String(open) === String(i) ? ' open' : '') + '>' +
           '<summary>' + esc(a.zelja) + '</summary>' +
@@ -223,14 +223,14 @@
   };
 
   views.povijest = function () {
-    return head(T.naziv, 'Povijest', T.povijestUvod) +
+    return head(T.naziv, 'History', T.povijestUvod) +
       '<div class="timeline">' + T.povijest.map(function (e) {
         return '<div class="ev"><div class="yr">' + esc(e.kada) + '</div><h3>' + esc(e.naslov) + '</h3>' + paras(e.tekst) + '</div>';
       }).join('') + '</div>';
   };
 
   views.rjecnik = function () {
-    return head(T.naziv, 'Rječnik', T.rjecnikUvod) +
+    return head(T.naziv, 'Phrasebook', T.rjecnikUvod) +
       T.rjecnik.map(function (g) {
         return '<h2 class="group-title">' + esc(g.skupina) + '</h2><div class="card">' +
           g.fraze.map(function (f) {
@@ -240,24 +240,24 @@
   };
 
   views.prakticno = function () {
-    return head(T.naziv, 'Praktično', 'Prijevoz, novac i navike koje vrijedi znati prije polaska.') +
+    return head(T.naziv, 'Practical', 'Transport, money and habits worth knowing before you go.') +
       T.prakticno.map(function (p) {
         return '<details class="card"><summary>' + esc(p.naslov) + '</summary><div class="inner">' + paras(p.tekst) + list(p.popis) + '</div></details>';
       }).join('');
   };
 
   views.jos = function () {
-    return head(T.naziv, 'Još') +
+    return head(T.naziv, 'More') +
       '<div class="grid">' +
-        tile('#/povijest', 'c4', '3000 godina', 'Povijest', 'Tko je sve ovuda prošao') +
-        tile('#/rjecnik', 'c5', 'Talijanski', 'Rječnik', 'Fraze s izgovorom') +
-        tile('#/prakticno', 'c0', 'Prije polaska', 'Praktično', 'Prijevoz, novac, navike') +
-        tile('#/izvori', 'c2', 'Provjereno', 'Izvori', 'Odakle sve ovo znamo') +
+        tile('#/povijest', 'c4', '3,000 years', 'History', 'Everyone who passed through') +
+        tile('#/rjecnik', 'c5', 'Italian', 'Phrasebook', 'Phrases with pronunciation') +
+        tile('#/prakticno', 'c0', 'Before you go', 'Practical', 'Transport, money, habits') +
+        tile('#/izvori', 'c2', 'Checked', 'Sources', 'Where all this comes from') +
       '</div>';
   };
 
   views.izvori = function () {
-    return head(T.naziv, 'Izvori', 'Sadržaj je provjeren na službenim stranicama i kod autora koji ovaj kraj dobro poznaju. Cijene i radna vremena mijenjaju se, pa ih uvijek vrijedi još jednom pogledati prije odlaska.') +
+    return head(T.naziv, 'Sources', 'The content was checked against official sites and writers who know this region well. Prices and opening hours change, so it is always worth one more look before you go.') +
       '<div class="card"><ul class="list">' + T.izvori.map(function (s) {
         return '<li>' + link(s.url, s.ime) + '</li>';
       }).join('') + '</ul></div>';
@@ -316,7 +316,7 @@
     document.querySelectorAll('.prog').forEach(function (p) {
       var ids = p.getAttribute('data-ids').split('|');
       var n = ids.filter(isDone).length;
-      p.querySelector('.label').textContent = p.getAttribute('data-label') + ': ' + n + ' od ' + ids.length;
+      p.querySelector('.label').textContent = p.getAttribute('data-label') + ': ' + n + ' of ' + ids.length;
       p.querySelector('i').style.width = Math.round(n / ids.length * 100) + '%';
     });
   });

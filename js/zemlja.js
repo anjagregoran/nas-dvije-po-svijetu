@@ -2,7 +2,7 @@
   var Z = window.ATLAS[window.ZEMLJA_ID];
   var app = document.getElementById('app');
   document.getElementById('naslov').textContent = Z.ime;
-  document.title = Z.ime + ' · Nas dvije po svijetu';
+  document.title = Z.ime + ' · Taste the Map';
 
   // ---------- pomoćne funkcije ----------
   function esc(s) {
@@ -15,18 +15,25 @@
     return (Array.isArray(t) ? t : [t]).map(function (x) { return '<p>' + esc(x) + '</p>'; }).join('');
   }
   function link(url, text) {
-    return url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(text || 'Službena stranica') + ' ↗</a>' : '';
+    return url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(text || 'Official site') + ' ↗</a>' : '';
   }
   function has(a) { return a && a.length; }
 
-  var VRSTA = { grad: 'Grad', 'gradić': 'Gradić', regija: 'Regija', otok: 'Otok', priroda: 'Priroda' };
+  var VRSTA = { grad: 'City', 'gradić': 'Town', regija: 'Region', otok: 'Island', priroda: 'Nature' };
   var KONT = {
-    'Južna Europa': 'Europa', 'Zapadna Europa': 'Europa', 'Srednja Europa': 'Europa', 'Sjeverna Europa': 'Europa',
-    'Britansko otočje': 'Europa', 'Jugoistočna Europa': 'Europa',
-    'Istočna Azija': 'Azija', 'Jugoistočna Azija': 'Azija', 'Južna i Srednja Azija': 'Azija', 'Bliski istok': 'Azija',
-    'Sjeverna Afrika': 'Afrika', 'Podsaharska Afrika': 'Afrika',
-    'Sjeverna Amerika': 'Sjeverna i Srednja Amerika', 'Srednja Amerika i Karibi': 'Sjeverna i Srednja Amerika',
-    'Južna Amerika': 'Južna Amerika', 'Oceanija': 'Oceanija'
+    'Southern Europe': 'Europe', 'Western Europe': 'Europe', 'Central Europe': 'Europe', 'Northern Europe': 'Europe',
+    'British Isles': 'Europe', 'Southeastern Europe': 'Europe',
+    'East Asia': 'Asia', 'Southeast Asia': 'Asia', 'South and Central Asia': 'Asia', 'Middle East': 'Asia',
+    'North Africa': 'Africa', 'Sub-Saharan Africa': 'Africa',
+    'North America': 'North and Central America', 'Central America and the Caribbean': 'North and Central America',
+    'South America': 'South America', 'Oceania': 'Oceania',
+    // stari hrvatski nazivi, dok se sve datoteke ne prevedu
+    'Južna Europa': 'Europe', 'Zapadna Europa': 'Europe', 'Srednja Europa': 'Europe', 'Sjeverna Europa': 'Europe',
+    'Britansko otočje': 'Europe', 'Jugoistočna Europa': 'Europe',
+    'Istočna Azija': 'Asia', 'Jugoistočna Azija': 'Asia', 'Južna i Srednja Azija': 'Asia', 'Bliski istok': 'Asia',
+    'Sjeverna Afrika': 'Africa', 'Podsaharska Afrika': 'Africa',
+    'Sjeverna Amerika': 'North and Central America', 'Srednja Amerika i Karibi': 'North and Central America',
+    'Južna Amerika': 'South America', 'Oceanija': 'Oceania'
   };
   var KO = window.KOORDINATE || {};
   var D = (window.DODACI || {})[Z.id] || { mjesta: {} };
@@ -61,48 +68,48 @@
       (m ? '<a href="#/">' + esc(Z.ime) + '</a><i>›</i>' + esc(m.ime) : esc(Z.ime)) + '</p>';
   }
   function box(href, key, c, title, sub) {
-    return '<a class="box ' + c + '" href="' + href + '">' + icon(key) + '<span class="box-t">' + title + '</span><span class="box-s">' + sub + '</span><span class="box-go">Otvori</span></a>';
+    return '<a class="box ' + c + '" href="' + href + '">' + icon(key) + '<span class="box-t">' + title + '</span><span class="box-s">' + sub + '</span><span class="box-go">Open</span></a>';
   }
   function cards(arr) {
     return '<div class="cards">' + arr.map(function (v) {
       return '<div class="mini"><h3>' + esc(v.ime) + '</h3>' + paras(v.opis) + (v.prica ? paras(v.prica) : '') +
-        (v.gdje ? '<div class="look"><span class="label">Gdje vidjeti ili naučiti</span>' + paras(v.gdje) + '</div>' : '') +
+        (v.gdje ? '<div class="look"><span class="label">Where to see or learn it</span>' + paras(v.gdje) + '</div>' : '') +
         (v.link ? '<p style="margin:0">' + link(v.link) + '</p>' : '') + '</div>';
     }).join('') + '</div>';
   }
 
   // ---------- odjeljci zemlje ----------
   var COUNTRY = {
-    prica: { t: 'O zemlji', s: 'Povijest i ono što je čini posebnom', on: function () { return has(Z.uvod); },
+    prica: { t: 'About the country', s: 'A little history and what makes it special', on: function () { return has(Z.uvod); },
       html: function () { return '<div class="prose">' + paras(Z.uvod) + '</div>'; } },
-    hrana: { t: 'Kuhinja', s: 'Tradicionalna jela i pića', on: function () { return has(Z.hrana); },
+    hrana: { t: 'Cuisine', s: 'Traditional dishes and drinks', on: function () { return has(Z.hrana); },
       html: function () { return cards(Z.hrana); } },
-    kupiti: { t: 'Što kupiti', s: 'Tradicionalni proizvodi za ponijeti kući', on: function () { return has(D.kupiti); },
+    kupiti: { t: 'What to buy', s: 'Traditional products to bring home', on: function () { return has(D.kupiti); },
       html: function () { return cards(D.kupiti); } },
-    obicaji: { t: 'Običaji, glazba i ples', s: 'Što vidjeti i gdje naučiti', on: function () { return has(Z.obicaji); },
+    obicaji: { t: 'Customs, music and dance', s: 'What to see and where to learn', on: function () { return has(Z.obicaji); },
       html: function () { return cards(Z.obicaji); } },
-    fraze: { t: 'Nekoliko riječi', s: 'Fraze s izgovorom', on: function () { return has(Z.fraze); },
+    fraze: { t: 'A few words', s: 'Phrases with pronunciation', on: function () { return has(Z.fraze); },
       html: function () {
         return '<div class="cards">' + Z.fraze.map(function (f) {
           return '<div class="mini phrase"><b>' + esc(f.izvorno) + '</b>' + (f.izgovor ? '<i>' + esc(f.izgovor) + '</i>' : '') + '<span>' + esc(f.hr) + '</span></div>';
         }).join('') + '</div>';
       } },
-    ukratko: { t: 'Praktično', s: 'Kada ići, novac, kretanje', on: function () { return has(Z.ukratko); },
+    ukratko: { t: 'Practical', s: 'When to go, money, getting around', on: function () { return has(Z.ukratko); },
       html: function () {
         return '<div class="cards">' + Z.ukratko.map(function (u) { return '<div class="mini"><span class="label">' + esc(u.k) + '</span><p style="margin:6px 0 0">' + esc(u.v) + '</p></div>'; }).join('') + '</div>';
       } },
-    zanimljivosti: { t: 'Jeste li znale?', s: 'Činjenice za pročitati naglas', on: function () { return has(Z.zanimljivosti); },
+    zanimljivosti: { t: 'Did you know?', s: 'Facts worth reading out loud', on: function () { return has(Z.zanimljivosti); },
       html: function () {
         return '<div class="cards">' + Z.zanimljivosti.map(function (c) { return '<div class="mini fact"><p style="margin:0">' + esc(c) + '</p></div>'; }).join('') + '</div>';
       } },
-    karta: { t: 'Karta', s: 'Sva mjesta na jednom mjestu', on: function () { return Z.mjesta.some(function (m) { return KO[Z.id + '/' + m.id]; }); },
+    karta: { t: 'Map', s: 'Every place at a glance', on: function () { return Z.mjesta.some(function (m) { return KO[Z.id + '/' + m.id]; }); },
       html: function () { return '<div class="map" id="map" style="margin:0"></div>'; },
       after: function () {
         window.Karta.draw('map', Z.mjesta.map(function (m) {
           return { c: KO[Z.id + '/' + m.id], t: m.ime, s: m.sazetak, h: '#/mjesto/' + m.id };
         }), { maxZoom: 8 });
       } },
-    izvori: { t: 'Izvori', s: 'Odakle podaci', on: function () { return has(Z.izvori); },
+    izvori: { t: 'Sources', s: 'Where the facts come from', on: function () { return has(Z.izvori); },
       html: function () { return '<ul class="list">' + Z.izvori.map(function (s) { return '<li>' + link(s.url, s.ime) + '</li>'; }).join('') + '</ul>'; } }
   };
   var C_ORDER = ['hrana', 'kupiti', 'obicaji', 'prica', 'fraze', 'ukratko', 'zanimljivosti', 'karta'];
@@ -116,36 +123,36 @@
       '<div class="boxes">' + C_ORDER.filter(function (k) { return COUNTRY[k].on(); }).map(function (k) {
         return box('#/o/' + k, C_ICON[k], 'c' + (n++ % 6), COUNTRY[k].t, COUNTRY[k].s);
       }).join('') + '</div>' +
-      '<div class="sec-head" id="mjesta" style="margin-top:46px"><h2>Gradovi i <em>mjesta</em></h2><span class="label">' + Z.mjesta.length + ' mjesta</span></div>' +
+      '<div class="sec-head" id="mjesta" style="margin-top:46px"><h2>Cities and <em>places</em></h2><span class="label">' + Z.mjesta.length + ' places</span></div>' +
       '<div class="grid places">' + Z.mjesta.map(function (m) {
-        return '<a class="pcard" href="#/mjesto/' + m.id + '"><span class="badge plain">' + esc(VRSTA[m.vrsta] || 'Mjesto') + '</span>' +
+        return '<a class="pcard" href="#/mjesto/' + m.id + '"><span class="badge plain">' + esc(VRSTA[m.vrsta] || 'Place') + '</span>' +
           '<h3>' + esc(m.ime) + '</h3><p>' + esc(m.sazetak) + '</p><span class="arrow">→</span></a>';
       }).join('') + '</div>' +
-      (COUNTRY.izvori.on() ? '<p style="margin-top:26px"><a class="label" style="text-decoration:none" href="#/o/izvori">Izvori i službene stranice →</a></p>' : '');
+      (COUNTRY.izvori.on() ? '<p style="margin-top:26px"><a class="label" style="text-decoration:none" href="#/o/izvori">Sources and official sites →</a></p>' : '');
   }
 
   // ---------- odjeljci mjesta ----------
   function placeSections(m) {
     var X = (D.mjesta || {})[m.id] || {};
     return {
-      dragulji: { t: 'Skriveni dragulji', s: 'Mjesta koja većina propusti', on: has(X.dragulji),
+      dragulji: { t: 'Hidden gems', s: 'Spots most visitors miss', on: has(X.dragulji),
         html: function () { return cards(X.dragulji); } },
-      domaci: { t: 'Kao domaći', s: 'Što ovdje ljudi stvarno rade', on: has(X.domaci),
+      domaci: { t: 'Like a local', s: 'What people here actually do', on: has(X.domaci),
         html: function () { return cards(X.domaci); } },
-      kupiti: { t: 'Što kupiti', s: 'Tradicionalni proizvodi ovog kraja', on: has(X.kupiti) || has(D.kupiti),
+      kupiti: { t: 'What to buy', s: 'Traditional products from here', on: has(X.kupiti) || has(D.kupiti),
         html: function () {
-          return (has(X.kupiti) ? '<h3 class="group-title" style="margin-top:0">Tipično za mjesto ' + esc(m.ime) + '</h3>' + cards(X.kupiti) : '') +
-            (has(D.kupiti) ? '<h3 class="group-title"' + (has(X.kupiti) ? '' : ' style="margin-top:0"') + '>Iz cijele zemlje: ' + esc(Z.ime) + '</h3>' + cards(D.kupiti) : '');
+          return (has(X.kupiti) ? '<h3 class="group-title" style="margin-top:0">Typical of ' + esc(m.ime) + '</h3>' + cards(X.kupiti) : '') +
+            (has(D.kupiti) ? '<h3 class="group-title"' + (has(X.kupiti) ? '' : ' style="margin-top:0"') + '>From around ' + esc(Z.ime) + '</h3>' + cards(D.kupiti) : '');
         } },
-      prica: { t: 'Priča mjesta', s: 'Kratka povijest, za one koje zanima', on: has(m.prica),
+      prica: { t: 'The story', s: 'A short history, if you are curious', on: has(m.prica),
         html: function () { return '<div class="prose">' + paras(m.prica) + '</div>'; } },
-      vidjeti: { t: 'Znamenitosti', s: 'Što je to i što na tome potražiti', on: has(m.vidjeti),
+      vidjeti: { t: 'Sights', s: 'What it is and what to look for', on: has(m.vidjeti),
         html: function () { return cards(m.vidjeti); } },
-      hrana: { t: 'Kuhinja', s: 'Što se ovdje jede i tradicionalna jela', on: has(m.jesti) || has(Z.hrana),
+      hrana: { t: 'Cuisine', s: 'What people eat here and traditional dishes', on: has(m.jesti) || has(Z.hrana),
         html: function () {
-          return (has(m.jesti) ? '<h3 class="group-title" style="margin-top:0">Što se jede u mjestu ' + esc(m.ime) + '</h3>' + cards(m.jesti) : '') +
-            (has(Z.hrana) ? '<h3 class="group-title">Tradicionalna jela i pića: ' + esc(Z.ime) + '</h3>' + cards(Z.hrana) : '') +
-            (KO[Z.id + '/' + m.id] ? '<details class="card" id="restbox" style="margin-top:22px"><summary>Gdje jesti<small>Restorani u središtu i Michelinov vodič</small></summary><div class="inner"><div id="rest"></div></div></details>' : '');
+          return (has(m.jesti) ? '<h3 class="group-title" style="margin-top:0">What to eat in ' + esc(m.ime) + '</h3>' + cards(m.jesti) : '') +
+            (has(Z.hrana) ? '<h3 class="group-title">Traditional dishes and drinks: ' + esc(Z.ime) + '</h3>' + cards(Z.hrana) : '') +
+            (KO[Z.id + '/' + m.id] ? '<details class="card" id="restbox" style="margin-top:22px"><summary>Where to eat<small>Restaurants in the center and the Michelin Guide</small></summary><div class="inner"><div id="rest"></div></div></details>' : '');
         },
         after: function () {
           var d = document.getElementById('restbox'), c = KO[Z.id + '/' + m.id];
@@ -153,13 +160,13 @@
             if (d.open && !d.getAttribute('data-loaded')) { d.setAttribute('data-loaded', '1'); window.Restorani.load('rest', c[0], c[1], m.ime); }
           });
         } },
-      dozivjeti: { t: 'Doživljaji', s: 'Tečajevi, tržnice, vidikovci, večeri', on: has(m.dozivjeti),
+      dozivjeti: { t: 'Experiences', s: 'Classes, markets, viewpoints, evenings out', on: has(m.dozivjeti),
         html: function () { return cards(m.dozivjeti); } },
-      agencije: { t: 'Agencije i vodiči', s: 'Turistički uredi i provjerene ture', on: has(m.agencije),
+      agencije: { t: 'Agencies and guides', s: 'Tourist offices and trusted tours', on: has(m.agencije),
         html: function () { return cards(m.agencije); } },
-      kada: { t: 'Kada ići', s: 'Najbolje doba i savjet', on: !!m.kada,
+      kada: { t: 'When to go', s: 'Best season and a tip', on: !!m.kada,
         html: function () { return '<div class="prose">' + paras(m.kada) + '</div>'; } },
-      karta: { t: 'Karta', s: 'Gdje se nalazi', on: !!KO[Z.id + '/' + m.id],
+      karta: { t: 'Map', s: 'Where it is', on: !!KO[Z.id + '/' + m.id],
         html: function () { return '<div class="map" id="map" style="margin:0"></div>'; },
         after: function () { window.Karta.draw('map', [{ c: KO[Z.id + '/' + m.id], t: m.ime, s: Z.ime }], { zoom: 11 }); } }
     };
@@ -170,19 +177,19 @@
     var S = placeSections(m), n = 0;
     var others = Z.mjesta.filter(function (x) { return x.id !== m.id; });
     return crumbs(m) +
-      '<header class="hero left" style="padding-top:14px;padding-bottom:22px"><span class="label">' + esc(VRSTA[m.vrsta] || 'Mjesto') + ' · ' + esc(Z.ime) + '</span><h1>' + esc(m.ime) + '</h1>' +
+      '<header class="hero left" style="padding-top:14px;padding-bottom:22px"><span class="label">' + esc(VRSTA[m.vrsta] || 'Place') + ' · ' + esc(Z.ime) + '</span><h1>' + esc(m.ime) + '</h1>' +
       '<p class="lead" style="margin:0">' + esc(m.sazetak) + '</p></header>' +
       '<div class="boxes">' + P_ORDER.filter(function (k) { return S[k].on; }).map(function (k) {
         return box('#/mjesto/' + m.id + '/' + k, k, 'c' + (n++ % 6), S[k].t, S[k].s);
       }).join('') + '</div>' +
-      (others.length ? '<div class="sec-head" style="margin-top:46px"><h2>Još iz zemlje <em>' + esc(Z.ime) + '</em></h2></div>' +
+      (others.length ? '<div class="sec-head" style="margin-top:46px"><h2>More in <em>' + esc(Z.ime) + '</em></h2></div>' +
         '<div class="chips wrapc">' + others.map(function (x) { return '<a href="#/mjesto/' + x.id + '">' + esc(x.ime) + '</a>'; }).join('') + '</div>' : '');
   }
 
   // ---------- prozor koji se otvara ----------
   function sheet(key, title, body, back) {
     return '<div class="sheet" id="sheet" data-back="' + esc(back) + '"><div class="sheet-in" role="dialog" aria-modal="true" aria-label="' + esc(title) + '">' +
-      '<div class="sheet-head">' + icon(key) + '<h2>' + esc(title) + '</h2><a class="x" href="' + esc(back) + '" aria-label="Zatvori">×</a></div>' +
+      '<div class="sheet-head">' + icon(key) + '<h2>' + esc(title) + '</h2><a class="x" href="' + esc(back) + '" aria-label="Close">×</a></div>' +
       '<div class="sheet-body">' + body + '</div></div></div>';
   }
   function closeSheet() {

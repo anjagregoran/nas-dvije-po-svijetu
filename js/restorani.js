@@ -1,16 +1,7 @@
-// Restorani u blizini nekog mjesta, uživo iz OpenStreetMapa. To je popis onoga što postoji,
-// bez ocjena, pa uz njega nudimo i poveznicu na Michelinov vodič za isto mjesto.
+// Restaurants near a place, live from OpenStreetMap. It is a list of what exists, without ratings,
+// so it comes with a link to the Michelin Guide for the same place.
 window.Restorani = (function () {
-  var KUH = {
-    regional: 'domaća kuhinja', local: 'domaća kuhinja', italian: 'talijanska', pizza: 'pizza', seafood: 'riba i plodovi mora',
-    fish: 'riba', french: 'francuska', spanish: 'španjolska', tapas: 'tapas', greek: 'grčka', turkish: 'turska',
-    japanese: 'japanska', sushi: 'sushi', chinese: 'kineska', thai: 'tajlandska', indian: 'indijska', mexican: 'meksička',
-    vietnamese: 'vijetnamska', korean: 'korejska', mediterranean: 'mediteranska', steak_house: 'odresci', grill: 'roštilj',
-    barbecue: 'roštilj', vegetarian: 'vegetarijanska', vegan: 'veganska', international: 'međunarodna', german: 'njemačka',
-    portuguese: 'portugalska', lebanese: 'libanonska', moroccan: 'marokanska', peruvian: 'peruanska', argentinian: 'argentinska',
-    american: 'američka', burger: 'burgeri', noodle: 'rezanci', ramen: 'ramen', asian: 'azijska', balkan: 'balkanska',
-    croatian: 'hrvatska', austrian: 'austrijska', bavarian: 'bavarska', georgian: 'gruzijska', bistro: 'bistro'
-  };
+  var KUH = { regional: 'local cuisine', local: 'local cuisine', steak_house: 'steakhouse' };
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
@@ -42,7 +33,7 @@ window.Restorani = (function () {
   function load(elId, lat, lon, name) {
     var el = document.getElementById(elId);
     if (!el) return;
-    el.innerHTML = '<p class="note">Tražim restorane u središtu…</p>';
+    el.innerHTML = '<p class="note">Looking for restaurants in the center…</p>';
     // Michelinov vodič traži po engleskom nazivu, pa ga dohvatimo za ove koordinate (Rim je ondje Rome).
     fetch('https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=10&accept-language=en&lat=' + lat + '&lon=' + lon)
       .then(function (r) { return r.json(); })
@@ -72,17 +63,17 @@ window.Restorani = (function () {
         list.sort(function (x, y) { return x.rank - y.rank; });
         list = list.slice(0, 12);
         el.innerHTML =
-          '<p style="margin:0 0 14px"><a class="btn" href="' + esc(michelin(name)) + '" target="_blank" rel="noopener">Michelinov vodič: ' + esc(name) + ' ↗</a></p>' +
+          '<p style="margin:0 0 14px"><a class="btn" href="' + esc(michelin(name)) + '" target="_blank" rel="noopener">Michelin Guide: ' + esc(name) + ' ↗</a></p>' +
           (list.length
-            ? '<p class="note">Restorani u središtu sa službenim stranicama. Popis dolazi s OpenStreetMapa i nema ocjena, pa ga uzmite kao polazište, a za provjerene preporuke otvorite Michelinov vodič.</p>' +
+            ? '<p class="note">Restaurants in the center that have their own website. The list comes from OpenStreetMap and has no ratings, so treat it as a starting point and open the Michelin Guide for proven picks.</p>' +
               '<div class="cards three">' + list.map(function (r) {
                 return '<div class="mini">' + (kuhinja(r.c) ? '<span class="label">' + esc(kuhinja(r.c)) + '</span>' : '') +
                   '<h3 style="margin-top:6px">' + esc(r.t) + '</h3>' + (r.ul ? '<p>' + esc(r.ul) + '</p>' : '') +
-                  '<p style="margin:0"><a href="' + esc(r.web) + '" target="_blank" rel="noopener">Službena stranica ↗</a></p></div>';
+                  '<p style="margin:0"><a href="' + esc(r.web) + '" target="_blank" rel="noopener">Official site ↗</a></p></div>';
               }).join('') + '</div>'
-            : '<p class="note">Za ovo mjesto nema popisa restorana sa službenim stranicama.</p>');
+            : '<p class="note">No restaurants with their own website are listed for this place.</p>');
       })
-      .catch(function () { if (document.getElementById(elId)) el.innerHTML = '<p style="margin:0"><a class="btn" href="' + esc(michelin(name)) + '" target="_blank" rel="noopener">Michelinov vodič: ' + esc(name) + ' ↗</a></p>'; });
+      .catch(function () { if (document.getElementById(elId)) el.innerHTML = '<p style="margin:0"><a class="btn" href="' + esc(michelin(name)) + '" target="_blank" rel="noopener">Michelin Guide: ' + esc(name) + ' ↗</a></p>'; });
   }
   return { load: load, overpass: overpass };
 })();

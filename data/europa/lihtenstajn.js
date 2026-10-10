@@ -1,124 +1,124 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["lihtenstajn"] = {
   id: "lihtenstajn",
-  ime: "Lihtenštajn",
-  regija: "Srednja Europa",
-  sazetak: "Kneževina koju možete prehodati u nekoliko dana, s dvorcem u kojem knez doista živi i planinama odmah iznad glavne ulice.",
+  ime: "Liechtenstein",
+  regija: "Central Europe",
+  sazetak: "A principality you can walk across in a few days, with a castle where the prince really does live and mountains rising right above the main street.",
   uvod: [
-    "Lihtenštajn je uski pojas zemlje između Rajne i alpskih vrhova, stisnut između Švicarske i Austrije, velik svega 160 četvornih kilometara, s četrdesetak tisuća stanovnika. Nastao je tako što je bečka plemićka obitelj Liechtenstein 1699. i 1712. kupila dva mala posjeda da bi stekla mjesto među knezovima Svetog Rimskog Carstva, a car ih je 1719. spojio u kneževinu. Knezovi su zemlju desetljećima vodili iz Beča, prvi ju je put jedan od njih posjetio tek 1842., a u dvorac iznad Vaduza obitelj se doselila 1938.",
-    "Danas je to jedna od najbogatijih država svijeta, koja nema vojsku ni zračnu luku, služi se švicarskim frankom i sa Švicarskom dijeli carinsko područje. Posjetiteljima je draga zato što je sve nadohvat ruke: prijepodne možete razgledati muzeje u Vaduzu, a poslijepodne sjedežnicom stići na greben s kojega se vide tri države."
+    "Liechtenstein is a narrow strip of land between the Rhine and the Alpine peaks, squeezed between Switzerland and Austria, covering just 160 square kilometers and home to around forty thousand people. It came into being when the Viennese noble family of Liechtenstein bought two small estates in 1699 and 1712 in order to earn a seat among the princes of the Holy Roman Empire, and in 1719 the emperor joined them into a principality. For decades the princes ran the country from Vienna, the first of them only visited it in 1842, and the family moved into the castle above Vaduz in 1938.",
+    "Today it is one of the richest countries in the world, with no army and no airport, using the Swiss franc and sharing a customs area with Switzerland. Visitors love it because everything is within reach: you can spend the morning in the museums of Vaduz and take a chairlift in the afternoon to a ridge with a view of three countries."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od svibnja do listopada za šetnje i planine, a zimi zbog malog obiteljskog skijališta u Malbunu. Ako dolazite 15. kolovoza, zateći ćete Dan državnosti s pučkom svetkovinom i vatrometom." },
-    { k: "Valuta", v: "Švicarski franak (CHF). Kartice se primaju gotovo svugdje, a euro ponegdje, uz ostatak u francima." },
-    { k: "Kretanje", v: "Zemlja nema zračnu luku, a vlakovi u njoj gotovo i ne staju, pa se dolazi autobusom sa švicarskih kolodvora Sargans i Buchs ili iz austrijskog Feldkircha. Mreža autobusa LIEmobil povezuje sva mjesta, uključujući Malbun." },
-    { k: "Napojnica", v: "Kao u Švicarskoj, usluga je uračunata u cijenu, pa se račun samo zaokruži ako ste zadovoljne." }
+    { k: "When to go", v: "From May to October for walks and mountains, and in winter for the small family ski resort in Malbun. If you come on August 15, you will find National Day in full swing, with a folk festival and fireworks." },
+    { k: "Currency", v: "The Swiss franc (CHF). Cards are accepted almost everywhere, and the euro in some places, with change given in francs." },
+    { k: "Getting around", v: "The country has no airport and trains barely stop here, so you arrive by bus from the Swiss stations of Sargans and Buchs or from Feldkirch in Austria. The LIEmobil bus network connects every village, including Malbun." },
+    { k: "Tipping", v: "As in Switzerland, service is included in the price, so you simply round up the bill if you are happy." }
   ],
   hrana: [
-    { ime: "Käsknöpfle", opis: "Sitni njoki od tijesta s jajima, pomiješani s rastopljenim sirom i posuti prženim lukom.", prica: "Većina izvora navodi ih kao nacionalno jelo, a jedu se iz zajedničke zdjele, uz pire od jabuka i salatu od krumpira. U smjesu sira ide i domaći kiseli sir, koji jelu daje oštrinu po kojoj se razlikuje od sličnih jela u Austriji i Švicarskoj." },
-    { ime: "Ribel", opis: "Mrvice od kukuruzne krupice, kuhane u mlijeku i vodi, a zatim dugo pržene na maslacu.", prica: "Nekoć je to bio svakodnevni doručak siromašnih seljaka u dolini Rajne, a neki ga izvori smatraju pravim nacionalnim jelom. Jede se uz bijelu kavu, u koju se žlica mrvica i umoči, ili uz kompot od bazge i jabuka." },
-    { ime: "Hafalaab", opis: "Gusta juha s okruglicama od kukuruznog i pšeničnog brašna, kuhana s dimljenom šunkom ili slaninom.", prica: "Staro seljačko zimsko jelo, koje se danas rijetko nalazi na jelovnicima, pa ga vrijedi naručiti kada ga ugledate u seoskoj gostionici." },
-    { ime: "Sura Käs", opis: "Kiseli sir od obranog mlijeka, oštra mirisa i s malo masnoće.", prica: "Radi se u planinskim siranama i jedna je od najstarijih vrsta sira u alpskom dijelu doline Rajne. Jede se narezan, s octom, uljem i lukom, ili se topi u Käsknöpfle." },
-    { ime: "Vino iz Vaduza", opis: "Pinot crni, koji ovdje zovu Blauburgunder, i chardonnay s padina iznad Rajne.", prica: "Topli vjetar fen, koji puše dolinom, omogućuje da grožđe dozrije unatoč blizini planina. Najpoznatiji vinograd, Herawingert u Vaduzu, pripada kneževskoj obitelji, a vino se izvan zemlje gotovo i ne može kupiti." },
-    { ime: "Küachle", opis: "Prženo slatko tijesto posuto šećerom.", prica: "Peče se za Nedjelju krijesova, prve nedjelje korizme, kada se sela okupljaju oko velike vatre." }
+    { ime: "Käsknöpfle", opis: "Tiny egg-dough dumplings mixed with melted cheese and topped with fried onions.", prica: "Most sources name it as the national dish, and it is eaten from a shared bowl with applesauce and potato salad. The cheese mix includes a local sour cheese, which gives the dish a sharpness that sets it apart from similar dishes in Austria and Switzerland." },
+    { ime: "Ribel", opis: "Cornmeal crumbles cooked in milk and water and then fried slowly in butter.", prica: "It was once the everyday breakfast of poor farmers in the Rhine valley, and some sources consider it the true national dish. It is eaten with milky coffee, into which you dip a spoonful of the crumbles, or with elderberry and apple compote." },
+    { ime: "Hafalaab", opis: "A thick soup with dumplings of cornmeal and wheat flour, cooked with smoked ham or bacon.", prica: "This old farmhouse winter dish rarely appears on menus today, so it is worth ordering when you spot it in a village inn." },
+    { ime: "Sura Käs", opis: "A sour cheese made from skimmed milk, sharp in smell and low in fat.", prica: "It is made in mountain dairies and is one of the oldest kinds of cheese in the Alpine part of the Rhine valley. It is eaten sliced, with vinegar, oil and onion, or melted into Käsknöpfle." },
+    { ime: "Wine from Vaduz", opis: "Pinot noir, called Blauburgunder here, and chardonnay from the slopes above the Rhine.", prica: "The warm foehn wind that blows through the valley lets the grapes ripen despite the nearby mountains. The best-known vineyard, Herawingert in Vaduz, belongs to the princely family, and the wine can hardly be bought outside the country." },
+    { ime: "Küachle", opis: "Fried sweet dough dusted with sugar.", prica: "It is made for Bonfire Sunday, the first Sunday of Lent, when the villages gather around a great fire." }
   ],
   obicaji: [
-    { ime: "Dan državnosti", opis: "Petnaestog kolovoza, na blagdan Velike Gospe, slavi se državni praznik, uveden 1940. Nakon svečanosti na livadi kraj dvorca kneževska obitelj prima građane i goste u dvorskom vrtu, koji je otvoren samo toga dana, a navečer je vatromet nad Vaduzom.", gdje: "Vaduz, 15. kolovoza. Za prijam u vrtu potrebna je besplatna ulaznica, pa uvjete provjerite na službenoj stranici praznika." },
-    { ime: "Funkensonntag", opis: "Prve nedjelje korizme sela pale golem krijes od drva i granja, na čijem je vrhu lutka vještice punjena barutom. Vatra simbolično tjera zimu, a što glasnije lutka pukne, to bolje.", gdje: "Sva sela u zemlji, u veljači ili ožujku, na livadama iznad naselja." },
-    { ime: "Alpabfahrt", opis: "U jesen se krave vraćaju s planinskih pašnjaka u dolinu. Posebnost Lihtenštajna jest da najbolje muzare na čelu nose drveno srce, a ostale su okićene cvijećem i zvonima.", gdje: "Triesenberg i druga sela, u rujnu, uz sajam sira i domaćih proizvoda." },
-    { ime: "Fasnacht", opis: "Karneval obilježavaju limene glazbe Guggenmusik, koje namjerno sviraju krivo i preglasno, i povorke pod maskama. Na debeli četvrtak običaj je da se prolaznicima lice namaže čađom.", gdje: "Vaduz i Schaan, u veljači ili ožujku, u dane prije Pepelnice." },
-    { ime: "Walserska baština", opis: "Planinsko selo Triesenberg naselili su krajem 13. stoljeća Walseri, doseljenici iz švicarskog Valaisa. Njihovi potomci i danas govore vlastitim narječjem, koje se jasno razlikuje od govora u dolini.", gdje: "Walserski muzej u Triesenbergu i stara drvena kuća koja mu pripada." }
+    { ime: "National Day", opis: "On August 15, the Feast of the Assumption, the country celebrates its national holiday, introduced in 1940. After the ceremony on the meadow beside the castle, the princely family welcomes citizens and guests in the castle garden, which is open only on that day, and in the evening there are fireworks over Vaduz.", gdje: "Vaduz, August 15. The garden reception requires a free ticket, so check the conditions on the holiday's official website." },
+    { ime: "Funkensonntag", opis: "On the first Sunday of Lent the villages light a huge bonfire of wood and branches, topped with a witch figure stuffed with gunpowder. The fire symbolically drives out winter, and the louder the figure bursts, the better.", gdje: "Every village in the country, in February or March, on the meadows above the settlements." },
+    { ime: "Alpabfahrt", opis: "In the fall the cows return from the mountain pastures to the valley. What is special in Liechtenstein is that the best milkers at the head of the herd wear a wooden heart, while the others are decked out with flowers and bells.", gdje: "Triesenberg and other villages, in September, alongside a fair of cheese and local products." },
+    { ime: "Fasnacht", opis: "Carnival is marked by Guggenmusik brass bands, which deliberately play off-key and far too loud, and by masked parades. On Fat Thursday it is the custom to smear the faces of passersby with soot.", gdje: "Vaduz and Schaan, in February or March, in the days before Ash Wednesday." },
+    { ime: "Walser heritage", opis: "The mountain village of Triesenberg was settled at the end of the 13th century by the Walser, migrants from the Swiss Valais. Their descendants still speak their own dialect today, which is clearly different from the speech of the valley.", gdje: "The Walser Museum in Triesenberg and the old wooden house that belongs to it." }
   ],
   fraze: [
-    { izvorno: "Hoi", izgovor: "HOJ", hr: "Bok (najčešći domaći pozdrav)" },
-    { izvorno: "Guten Tag", izgovor: "GU-ten TAK", hr: "Dobar dan" },
-    { izvorno: "Merci vilmol", izgovor: "MER-si FIL-mol", hr: "Hvala lijepa" },
-    { izvorno: "Bitte", izgovor: "BI-te", hr: "Molim, izvolite" },
-    { izvorno: "Entschuldigung", izgovor: "ent-ŠUL-di-gung", hr: "Oprostite" },
-    { izvorno: "En Guata", izgovor: "en GU-a-ta", hr: "Dobar tek" },
-    { izvorno: "Zahlen, bitte", izgovor: "CA-len BI-te", hr: "Platiti, molim" },
-    { izvorno: "Uf Wiederluaga", izgovor: "uf VI-der-lu-a-ga", hr: "Doviđenja" }
+    { izvorno: "Hoi", izgovor: "HOY", hr: "Hi (the most common local greeting)" },
+    { izvorno: "Guten Tag", izgovor: "GOO-ten TAHK", hr: "Good day" },
+    { izvorno: "Merci vilmol", izgovor: "MEHR-see FEEL-mohl", hr: "Thank you very much" },
+    { izvorno: "Bitte", izgovor: "BIT-teh", hr: "Please, here you go" },
+    { izvorno: "Entschuldigung", izgovor: "ent-SHOOL-dee-goong", hr: "Excuse me" },
+    { izvorno: "En Guata", izgovor: "en GOO-ah-tah", hr: "Enjoy your meal" },
+    { izvorno: "Zahlen, bitte", izgovor: "TSAH-len BIT-teh", hr: "The check, please" },
+    { izvorno: "Uf Wiederluaga", izgovor: "oof VEE-der-loo-ah-gah", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Lihtenštajn je jedna od samo dviju država na svijetu koje su dvostruko zatvorene kopnom, što znači da ni one ni njihovi susjedi nemaju izlaz na more. Druga je Uzbekistan.",
-    "Vojska je ukinuta 1868. Često se prepričava priča da je u posljednji pohod, 1866., otišlo osamdeset vojnika, a vratio se osamdeset i jedan, jer su putem stekli prijatelja.",
-    "Švicarski su vojnici u ožujku 2007. na noćnoj vježbi zabunom ušli oko dva kilometra u Lihtenštajn. Švicarska se ispričala, a u Vaduzu su sve primili sa smiješkom.",
-    "Državna himna pjeva se na istu melodiju kao britanska God Save the King.",
-    "Žene su pravo glasa na državnoj razini dobile tek 1984., među posljednjima u Europi.",
-    "Tvrtka iz mjesta Schaan među najvećim je svjetskim proizvođačima umjetnih zubi.",
-    "Cijelu zemlju možete prehodati Lihtenštajnskom stazom, dugom oko 75 kilometara, koja prolazi kroz svih jedanaest općina."
+    "Liechtenstein is one of only two countries in the world that are doubly landlocked, which means that neither they nor their neighbors have access to the sea. The other is Uzbekistan.",
+    "The army was abolished in 1868. An often retold story says that eighty soldiers set off on the last campaign, in 1866, and eighty-one came back, because they had made a friend along the way.",
+    "In March 2007, Swiss soldiers on a night exercise mistakenly marched about two kilometers into Liechtenstein. Switzerland apologized, and Vaduz took it all with a smile.",
+    "The national anthem is sung to the same melody as the British God Save the King.",
+    "Women only gained the right to vote at the national level in 1984, among the last in Europe.",
+    "A company from the town of Schaan is among the world's largest makers of artificial teeth.",
+    "You can walk the entire country on the Liechtenstein Trail, about 75 kilometers long, which passes through all eleven municipalities."
   ],
   mjesta: [
     {
       id: "vaduz",
       ime: "Vaduz",
       vrsta: "gradić",
-      sazetak: "Glavni grad veličine sela, s pješačkom ulicom punom muzeja, kneževskim vinogradom i dvorcem na stijeni iznad krovova.",
+      sazetak: "A capital the size of a village, with a pedestrian street full of museums, a princely vineyard and a castle on a rock above the rooftops.",
       prica: [
-        "Vaduz je bio središte male grofovije, koju je 1712. kupio knez Johann Adam Andreas od Liechtensteina. Dvorac nad njim prvi se put spominje 1322., a Švicarci su ga zapalili 1499. u Švapskom ratu. Obnovljen je početkom 20. stoljeća, a od 1938. stalni je dom kneževske obitelji. Samo mjesto ima manje od šest tisuća stanovnika, pa se sve važno nalazi u jednoj pješačkoj ulici, koja se zove Städtle, „gradić“."
+        "Vaduz was the seat of a small county that Prince Johann Adam Andreas of Liechtenstein bought in 1712. The castle above it is first mentioned in 1322, and the Swiss set it on fire in 1499 during the Swabian War. It was restored at the beginning of the 20th century, and since 1938 it has been the permanent home of the princely family. The town itself has fewer than six thousand residents, so everything important sits on a single pedestrian street called Städtle, “little town”."
       ],
       vidjeti: [
-        { ime: "Dvorac Vaduz", opis: "U dvorac se ne može ući, jer u njemu živi knez, ali se do zidina stiže strmom stazom iz središta za dvadesetak minuta. Uz put su ploče koje objašnjavaju kako kneževina funkcionira." },
-        { ime: "Kunstmuseum Liechtenstein", opis: "Državni muzej moderne i suvremene umjetnosti smješten je od 2000. u crnoj kocki od betona pomiješanog s bazaltom i riječnim šljunkom, ispoliranoj tako da se u njoj ogleda ulica. Uz nju je 2015. dograđena bijela kocka sa zbirkom zaklade Hilti." },
-        { ime: "Riznica Kneževine", opis: "U maloj zamračenoj dvorani izložene su dragocjenosti kneževske obitelji i države. Najneobičniji su izlošci uskrsna jaja zlatara Fabergéa i komadići Mjesečeva kamenja koje su donijele misije Apollo 11 i Apollo 17." },
-        { ime: "Zemaljski muzej", opis: "U nekadašnjoj gostionici i upravnoj zgradi prikazana je povijest zemlje, od prapovijesnih nalaza do nastanka kneževine. U istoj je ulici i mali Muzej poštanskih maraka, po kojima je Lihtenštajn poznat među sakupljačima." },
-        { ime: "Vladina četvrt i katedrala sv. Florina", opis: "Na kraju pješačke ulice stoje zgrada vlade iz 1905. i zgrada parlamenta iz 2008., sagrađena od žute opeke, sa strmim krovom nalik šatoru. Neogotička crkva iz 1873. postala je katedrala tek 1997., kada je osnovana nadbiskupija, a uz nju je kneževska grobnica." },
-        { ime: "Crvena kuća", opis: "Tamnocrvena kuća sa stubastim zabatom i kamenom kulom iz srednjeg vijeka stoji među vinogradima u starom dijelu mjesta zvanom Mitteldorf. S ceste ispod nje u jednom se kadru vide kuća, vinograd i dvorac." }
+        { ime: "Vaduz Castle", opis: "You cannot go inside the castle, because the prince lives there, but a steep path from the center brings you to its walls in about twenty minutes. Panels along the way explain how the principality works." },
+        { ime: "Kunstmuseum Liechtenstein", opis: "Since 2000 the national museum of modern and contemporary art has been housed in a black cube of concrete mixed with basalt and river gravel, polished so that the street is mirrored in it. A white cube holding the Hilti Foundation collection was added beside it in 2015." },
+        { ime: "Treasure Chamber of the Principality", opis: "A small darkened hall displays the treasures of the princely family and the state. The most unusual exhibits are Easter eggs by the goldsmith Fabergé and fragments of Moon rock brought back by the Apollo 11 and Apollo 17 missions." },
+        { ime: "National Museum", opis: "A former inn and administrative building presents the history of the country, from prehistoric finds to the founding of the principality. On the same street is the small Postage Stamp Museum, for which Liechtenstein is known among collectors." },
+        { ime: "Government district and the Cathedral of St. Florin", opis: "At the end of the pedestrian street stand the government building from 1905 and the parliament building from 2008, built of yellow brick with a steep, tent-like roof. The neo-Gothic church from 1873 only became a cathedral in 1997, when the archdiocese was founded, and the princely crypt lies beside it." },
+        { ime: "Red House", opis: "A dark red house with a stepped gable and a medieval stone tower stands among the vineyards in the old part of town called Mitteldorf. From the road below it you can fit the house, the vineyard and the castle into a single frame." }
       ],
       jesti: [
-        { ime: "Käsknöpfle", opis: "Njoki sa sirom i prženim lukom, s pireom od jabuka, poslužuju se u gostionicama u Vaduzu i susjednim selima." },
-        { ime: "Blauburgunder iz Herawingerta", opis: "Pinot crni iz kneževskog vinograda, koji se kuša u podrumu uz sam vinograd." },
-        { ime: "Ribel", opis: "Pržene kukuruzne mrvice, koje neke gostionice nude kao desert s kompotom." }
+        { ime: "Käsknöpfle", opis: "Dumplings with cheese and fried onions, with applesauce on the side, are served in the inns of Vaduz and the neighboring villages." },
+        { ime: "Blauburgunder from Herawingert", opis: "Pinot noir from the princely vineyard, which you can taste in the cellar right beside the vines." },
+        { ime: "Ribel", opis: "Fried cornmeal crumbles, which some inns offer as a dessert with compote." }
       ],
       dozivjeti: [
-        { ime: "Kušanje vina u Kneževskom podrumu", opis: "Hofkellerei leži usred vinograda Herawingert, desetak minuta hoda od središta. Kroz vinograd se može slobodno prošetati, a kušanja se dogovaraju prema ponudi na službenoj stranici.", link: "https://www.hofkellerei.li/" },
-        { ime: "Suvenirski žig u putovnici", opis: "U turističkom uredu Liechtenstein Center u pješačkoj ulici za malu naknadu dobit ćete službeni suvenirski žig kneževine u putovnicu." },
-        { ime: "Posjet Kunstmuseumu", opis: "Muzej je dovoljno malen da ga obiđete za sat ili dva, a kavana u prizemlju gleda na ulicu i dvorac.", link: "https://www.kunstmuseum.li/en/" },
-        { ime: "Dvorac Gutenberg u Balzersu", opis: "Na osamljenom brežuljku na jugu zemlje, petnaestak minuta autobusom od Vaduza, stoji srednjovjekovni dvorac okružen vinogradom. Dvorište i kapela povremeno su otvoreni, a uspon se isplati i zbog pogleda na dolinu Rajne." }
+        { ime: "Wine tasting at the Princely Cellar", opis: "The Hofkellerei lies in the middle of the Herawingert vineyard, about ten minutes on foot from the center. You are free to stroll through the vineyard, and tastings are arranged according to the offer on the official website.", link: "https://www.hofkellerei.li/" },
+        { ime: "Souvenir passport stamp", opis: "At the Liechtenstein Center tourist office on the pedestrian street, a small fee gets you the principality's official souvenir stamp in your passport." },
+        { ime: "A visit to the Kunstmuseum", opis: "The museum is small enough to see in an hour or two, and the cafe on the ground floor looks out on the street and the castle.", link: "https://www.kunstmuseum.li/en/" },
+        { ime: "Gutenberg Castle in Balzers", opis: "On a lone hill in the south of the country, about fifteen minutes by bus from Vaduz, stands a medieval castle surrounded by a vineyard. The courtyard and chapel are open from time to time, and the climb is also worth it for the view of the Rhine valley." }
       ],
       agencije: [
-        { ime: "Liechtenstein Marketing", opis: "Službena turistička zajednica Kneževine, koja u uredu Liechtenstein Center nudi vođene šetnje Vaduzom i karticu Erlebnispass za muzeje i prijevoz.", link: "https://tourismus.li/en/" },
-        { ime: "Zemaljski muzej Lihtenštajna", opis: "Državni muzej, pod čijom su upravom i Riznica i Muzej poštanskih maraka.", link: "https://www.landesmuseum.li/en/" }
+        { ime: "Liechtenstein Marketing", opis: "The official tourist board of the Principality, which offers guided walks of Vaduz and the Erlebnispass card for museums and transport at the Liechtenstein Center office.", link: "https://tourismus.li/en/" },
+        { ime: "Liechtenstein National Museum", opis: "The state museum, which also runs the Treasure Chamber and the Postage Stamp Museum.", link: "https://www.landesmuseum.li/en/" }
       ],
-      kada: "Od svibnja do listopada. Vaduz se obiđe u pola dana, pa ga je najbolje spojiti s poslijepodnevom u planinama ili s izletom iz Züricha, Innsbrucka ili s Bodenskog jezera."
+      kada: "From May to October. Vaduz can be seen in half a day, so it is best combined with an afternoon in the mountains or with a day trip from Zurich, Innsbruck or Lake Constance."
     },
     {
       id: "malbun",
-      ime: "Malbun i Triesenberg",
+      ime: "Malbun and Triesenberg",
       vrsta: "priroda",
-      sazetak: "Walsersko selo na terasi iznad Rajne i planinska dolina na 1600 metara, s grebenom s kojega se pogled pruža preko triju država.",
+      sazetak: "A Walser village on a terrace above the Rhine and a mountain valley at 1,600 meters, with a ridge where the view stretches across three countries.",
       prica: [
-        "Triesenberg, najviša općina u zemlji, nastao je krajem 13. stoljeća, kada su se na strme padine doselili Walseri iz današnjeg švicarskog kantona Valais. Njihovi su pašnjaci sezali preko prijevoja u dolinu Malbun, u kojoj se dugo boravilo samo ljeti. Malbun je danas jedino skijalište u zemlji, a ljeti polazište lakih staza po grebenima na granici s Austrijom."
+        "Triesenberg, the highest municipality in the country, came into being at the end of the 13th century, when the Walser from what is now the Swiss canton of Valais settled on the steep slopes. Their pastures reached over the pass into the Malbun valley, where for a long time people stayed only in summer. Today Malbun is the country's only ski resort, and in summer it is the starting point for easy trails along the ridges on the border with Austria."
       ],
       vidjeti: [
-        { ime: "Sareiserjoch", opis: "Sjedežnica iz Malbuna penje se do grebena na oko 2000 metara, na samoj granici s Austrijom. S terase planinske gostionice vide se vrhovi Lihtenštajna, Švicarske i austrijskog Vorarlberga, a ljeti se ovdje često čuju svisci." },
-        { ime: "Kapela mira", opis: "Mala kapela na ulazu u Malbun podignuta je početkom 1950-ih u zahvalu što je Lihtenštajn pošteđen Drugog svjetskog rata. Jednostavna je i svijetla, a s klupe pred njom vidi se cijela dolina." },
-        { ime: "Walserski muzej u Triesenbergu", opis: "Muzej kraj župne crkve prikazuje život planinskih doseljenika, njihovu nošnju, alat i običaje. Pripada mu i četiristo godina stara drvena kuća u selu, u kojoj se vidi kako je obitelj živjela s blagom pod istim krovom." },
-        { ime: "Fürstensteig", opis: "Kneževa staza, uklesana u stijenu 1898., vodi od Gafleija visoko iznad doline Rajne i najpoznatiji je planinarski put u zemlji. Mjestimice je uska i izložena, pa je samo za one koje nemaju strah od visine i imaju dobre cipele." },
-        { ime: "Steg i jezero Gänglesee", opis: "Na pola puta do Malbuna leži zaselak Steg s malim akumulacijskim jezerom, oko kojega vodi ravna šetnica. Stare su kolibe ovdje poredane u dva pravokutna prstena oko zajedničkog pašnjaka, što je rijedak primjer takvog walserskog naselja." }
+        { ime: "Sareiserjoch", opis: "The chairlift from Malbun climbs to a ridge at about 2,000 meters, right on the border with Austria. From the terrace of the mountain inn you can see the peaks of Liechtenstein, Switzerland and the Austrian Vorarlberg, and in summer you often hear marmots here." },
+        { ime: "Peace Chapel", opis: "The small chapel at the entrance to Malbun was built in the early 1950s in gratitude that Liechtenstein was spared the Second World War. It is simple and bright, and from the bench in front of it you can see the whole valley." },
+        { ime: "Walser Museum in Triesenberg", opis: "The museum beside the parish church shows the life of the mountain settlers, their dress, tools and customs. It also includes a four-hundred-year-old wooden house in the village, where you can see how a family lived under one roof with its livestock." },
+        { ime: "Fürstensteig", opis: "The Prince's Path, carved into the rock in 1898, leads from Gaflei high above the Rhine valley and is the best-known hiking route in the country. It is narrow and exposed in places, so it is only for those who have no fear of heights and a good pair of shoes." },
+        { ime: "Steg and Lake Gänglesee", opis: "Halfway to Malbun lies the hamlet of Steg with a small reservoir lake and a level footpath around it. The old huts here are arranged in two rectangular rings around a shared pasture, which is a rare example of this kind of Walser settlement." }
       ],
       jesti: [
-        { ime: "Käsknöpfle u planinskoj gostionici", opis: "Na terasama u Malbunu i na Sareisu poslužuju se u tavi, s puno prženog luka." },
-        { ime: "Alpski sir", opis: "Sir s ljetnih pašnjaka i kiseli Sura Käs prodaju se u planinskim siranama i na jesenskom sajmu nakon povratka stoke." }
+        { ime: "Käsknöpfle at a mountain inn", opis: "On the terraces in Malbun and up on Sareis it is served in the pan, with plenty of fried onions." },
+        { ime: "Alpine cheese", opis: "Cheese from the summer pastures and the sour Sura Käs are sold in the mountain dairies and at the fall fair after the cattle come home." }
       ],
       dozivjeti: [
-        { ime: "Sjedežnicom na Sareis i šetnja grebenom", opis: "S gornje postaje staza kneginje Gine vodi grebenom preko vrha Augstenberg, visokog 2359 metara, do planinarskog doma Pfälzerhütte. Tko ne želi cijeli put, može prošetati pola sata po grebenu i vratiti se sjedežnicom. Vozni red provjerite na stranici žičara.", link: "https://www.bergbahnen.li/" },
-        { ime: "Posjet Walserskom muzeju", opis: "Muzej je malen i ima ograničeno radno vrijeme, pa ga provjerite prije nego što siđete s autobusa u Triesenbergu.", link: "https://walsermuseum.li/" },
-        { ime: "Etapa Lihtenštajnske staze", opis: "Staza duga oko 75 kilometara podijeljena je na etape koje prolaze kroz sve općine, a aplikacija uz put priča povijest zemlje. Za jedan dan odaberite dionicu oko Triesenberga, zbog pogleda na Rajnu.", link: "https://tourismus.li/en/activities/the-liechtenstein-trail/one-country-one-trail/" }
+        { ime: "Chairlift to Sareis and a ridge walk", opis: "From the top station the Princess Gina Trail follows the ridge over the Augstenberg peak, 2,359 meters high, to the Pfälzerhütte mountain hut. If you would rather not do the whole route, you can stroll along the ridge for half an hour and ride the chairlift back down. Check the timetable on the lift company's website.", link: "https://www.bergbahnen.li/" },
+        { ime: "A visit to the Walser Museum", opis: "The museum is small and has limited opening hours, so check them before you get off the bus in Triesenberg.", link: "https://walsermuseum.li/" },
+        { ime: "A stage of the Liechtenstein Trail", opis: "The trail, about 75 kilometers long, is divided into stages that pass through every municipality, and an app tells the country's history along the way. For a single day, choose the section around Triesenberg for its views of the Rhine.", link: "https://tourismus.li/en/activities/the-liechtenstein-trail/one-country-one-trail/" }
       ],
       agencije: [
-        { ime: "Liechtenstein Marketing", opis: "Službena turistička zajednica, koja ima ured i u Malbunu, s kartama staza i informacijama o stanju na planini.", link: "https://tourismus.li/en/" },
-        { ime: "Bergbahnen Malbun", opis: "Tvrtka koja upravlja sjedežnicama u Malbunu, ljeti i zimi.", link: "https://www.bergbahnen.li/" }
+        { ime: "Liechtenstein Marketing", opis: "The official tourist board, which also has an office in Malbun with trail maps and information on mountain conditions.", link: "https://tourismus.li/en/" },
+        { ime: "Bergbahnen Malbun", opis: "The company that runs the chairlifts in Malbun, in summer and winter.", link: "https://www.bergbahnen.li/" }
       ],
-      kada: "Od lipnja do početka listopada za planinarenje, a od prosinca do ožujka za skijanje. Iz Vaduza do Malbuna vozi izravan autobus, a vožnja traje oko pola sata."
+      kada: "From June to early October for hiking, and from December to March for skiing. A direct bus runs from Vaduz to Malbun, and the ride takes about half an hour."
     }
   ],
   izvori: [
-    { ime: "Liechtenstein Marketing, službena turistička stranica", url: "https://tourismus.li/en/" },
-    { ime: "Lihtenštajnska staza", url: "https://tourismus.li/en/activities/the-liechtenstein-trail/one-country-one-trail/" },
-    { ime: "Dan državnosti Lihtenštajna", url: "https://www.staatsfeiertag.li/" },
+    { ime: "Liechtenstein Marketing, official tourism website", url: "https://tourismus.li/en/" },
+    { ime: "The Liechtenstein Trail", url: "https://tourismus.li/en/activities/the-liechtenstein-trail/one-country-one-trail/" },
+    { ime: "Liechtenstein National Day", url: "https://www.staatsfeiertag.li/" },
     { ime: "Kunstmuseum Liechtenstein", url: "https://www.kunstmuseum.li/en/" },
-    { ime: "Zemaljski muzej Lihtenštajna", url: "https://www.landesmuseum.li/en/" },
+    { ime: "Liechtenstein National Museum", url: "https://www.landesmuseum.li/en/" },
     { ime: "Hofkellerei des Fürsten von Liechtenstein", url: "https://www.hofkellerei.li/" },
     { ime: "Bergbahnen Malbun", url: "https://www.bergbahnen.li/" },
     { ime: "Walsermuseum Triesenberg", url: "https://walsermuseum.li/" }

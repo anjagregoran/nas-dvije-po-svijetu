@@ -11,7 +11,7 @@
   }
 
   // ---------- traka s riječima ----------
-  var words = ['Katedrale', 'Tržnice', 'Plesovi', 'Legende', 'Vinogradi', 'Trgovi', 'Recepti', 'Fešte', 'Dvorci', 'Otoci'];
+  var words = ['Street food', 'Markets', 'Dances', 'Hidden gems', 'Vineyards', 'Piazzas', 'Recipes', 'Festivals', 'Crafts', 'Islands'];
   var strip = words.map(function (w) { return '<span>' + w + '</span>'; }).join('');
   document.getElementById('marquee').innerHTML = strip + strip;
 
@@ -19,11 +19,11 @@
   document.getElementById('feature').innerHTML = I.vodici.map(function (v) {
     return '<div class="feature">' +
       '<div><span class="label">' + esc(v.nadnaslov) + '</span><h2>' + esc(v.naziv) + '</h2><p>' + esc(v.uvod) + '</p>' +
-      '<a class="btn" href="putovanje.html?p=' + v.id + '">Otvori vodič</a></div>' +
+      '<a class="btn" href="putovanje.html?p=' + v.id + '">Open the guide</a></div>' +
       '<div class="stats">' +
-        '<div><b>' + v.mjesta + '</b><span>mjesta</span></div>' +
-        '<div><b>' + v.znamenitosti + '</b><span>znamenitosti</span></div>' +
-        '<div><b>' + v.jela + '</b><span>jela i pića</span></div>' +
+        '<div><b>' + v.mjesta + '</b><span>places</span></div>' +
+        '<div><b>' + v.znamenitosti + '</b><span>sights</span></div>' +
+        '<div><b>' + v.jela + '</b><span>dishes and drinks</span></div>' +
       '</div></div>';
   }).join('');
 
@@ -39,20 +39,20 @@
     return n;
   }
   var ready = I.kontinenti.reduce(function (n, k) { return n + count(k); }, 0);
-  document.getElementById('count').textContent = ready + ' zemalja';
+  document.getElementById('count').textContent = ready + ' countries';
 
   function drawContinents() {
     cont.innerHTML = I.kontinenti.map(function (k, i) {
       var n = count(k), on = k.ime === active;
       return '<a class="tilec kont c' + (i % 6) + (on ? ' on' : '') + '" href="#zemlje" data-k="' + esc(k.ime) + '">' +
-        '<span class="label">' + (n ? n + ' zemalja' : 'Uskoro') + '</span><h3>' + esc(k.ime) + '</h3></a>';
+        '<span class="label">' + (n ? n + ' countries' : 'Coming soon') + '</span><h3>' + esc(k.ime) + '</h3></a>';
     }).join('');
   }
   function drawMap(k) {
     var pts = [];
     k.regije.forEach(function (r) {
       r.zemlje.forEach(function (z) {
-        if (z.spremno && z.c) pts.push({ c: z.c, t: z.ime, s: z.n + ' mjesta · ' + r.ime, h: 'zemlja.html?z=' + z.id });
+        if (z.spremno && z.c) pts.push({ c: z.c, t: z.ime, s: z.n + ' places · ' + r.ime, h: 'zemlja.html?z=' + z.id });
       });
     });
     window.Karta.draw('map', pts, { maxZoom: 5 });
@@ -64,9 +64,9 @@
     box.innerHTML = '<h2 id="kontinent" style="margin-top:44px">' + esc(k.ime) + '</h2>' + k.regije.map(function (r) {
       return (k.regije.length > 1 ? '<h3 class="group-title">' + esc(r.ime) + '</h3>' : '<div style="height:14px"></div>') + '<div class="grid">' +
         r.zemlje.map(function (z) {
-          if (!z.spremno) return '<div class="tilec soon"><span class="label">Uskoro</span><h3>' + esc(z.ime) + '</h3></div>';
+          if (!z.spremno) return '<div class="tilec soon"><span class="label">Coming soon</span><h3>' + esc(z.ime) + '</h3></div>';
           return '<a class="tilec c' + (c++ % 6) + '" href="zemlja.html?z=' + z.id + '">' +
-            '<span class="label">' + z.n + ' mjesta</span>' +
+            '<span class="label">' + z.n + ' places</span>' +
             '<div><h3>' + esc(z.ime) + '</h3><p>' + esc(z.sazetak) + '</p></div></a>';
         }).join('') + '</div>';
     }).join('');
@@ -97,7 +97,7 @@
     var hits = a.concat(b, c).slice(0, 14);
     var raw = e.target.value.trim();
     res.innerHTML = hits.map(function (it) { return '<a href="' + esc(it.h) + '"><small>' + esc(it.k) + '</small>' + esc(it.t) + '</a>'; }).join('') +
-      '<a href="trazi.html?q=' + encodeURIComponent(raw) + '"><small>Cijeli svijet · uživo</small>Potraži „' + esc(raw) + '“ bilo gdje na svijetu →</a>';
+      '<a href="trazi.html?q=' + encodeURIComponent(raw) + '"><small>Anywhere in the world</small>Look up “' + esc(raw) + '” →</a>';
   });
   document.getElementById('form').addEventListener('submit', function (e) {
     e.preventDefault();
@@ -111,13 +111,13 @@
     finder.hidden = !finder.hidden;
     if (!finder.hidden) document.getElementById('q').focus();
   });
-  var onlyPlaces = I.trazi.filter(function (e) { return e[1] !== 'Zemlja' && e[1] !== 'Veliki vodič'; });
+  var onlyPlaces = I.trazi.filter(function (e) { return e[1] !== 'Country' && e[1] !== 'Deep guide'; });
   function surprise() {
     var e = onlyPlaces[Math.floor(Math.random() * onlyPlaces.length)];
     if (!e) return;
     document.getElementById('pick').innerHTML =
       '<a class="pcard" href="' + esc(e[2]) + '" style="max-width:620px;margin:16px auto 0;text-align:left"><span class="badge plain">' + esc(e[1]) + '</span>' +
-      '<h3 style="font-size:2.2rem">' + esc(e[0]) + '</h3><p>Dodirnite da vidite što se ondje jede, radi i kupuje.</p><span class="arrow">→</span></a>';
+      '<h3 style="font-size:2.2rem">' + esc(e[0]) + '</h3><p>Tap to see what people eat, do and buy there.</p><span class="arrow">→</span></a>';
   }
   document.getElementById('surprise').addEventListener('click', surprise);
 
@@ -126,7 +126,7 @@
     var f = I.cinjenice[Math.floor(Math.random() * I.cinjenice.length)];
     if (!f) return;
     document.getElementById('fact').textContent = f[0];
-    document.getElementById('factwhere').textContent = 'Jeste li znale? · ' + f[1];
+    document.getElementById('factwhere').textContent = 'Did you know? · ' + f[1];
   }
   document.getElementById('nextfact').addEventListener('click', fact);
   fact();

@@ -1,8 +1,8 @@
 {
-  "name": "Nas dvije po svijetu",
-  "short_name": "Nas dvije",
-  "description": "Vodič po svijetu: mjesta, hrana, običaji i priče iza svega što gledate.",
-  "lang": "hr",
+  "name": "Taste the Map",
+  "short_name": "Taste the Map",
+  "description": "A world guide: food, local life, hidden gems and the stories behind every place.",
+  "lang": "en",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#fbf4ea",

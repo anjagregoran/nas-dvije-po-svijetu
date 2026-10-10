@@ -27,7 +27,7 @@ window.Karta = (function () {
   }
 
   // Nazivi na karti na hrvatskom (ili barem latinicom), a boje u tonovima stranice.
-  var NAME = ['coalesce', ['get', 'name:hr'], ['get', 'name:latin'], ['get', 'name_en'], ['get', 'name']];
+  var NAME = ['coalesce', ['get', 'name_en'], ['get', 'name:latin'], ['get', 'name']];
   function dress(map) {
     (map.getStyle().layers || []).forEach(function (l) {
       var id = l.id, src = l['source-layer'] || '';
@@ -91,7 +91,7 @@ window.Karta = (function () {
         pin.title = p.t;
         var popup = new maplibregl.Popup({ offset: 14, closeButton: false, maxWidth: '260px' }).setHTML(
           '<b>' + esc(p.t) + '</b>' + (p.s ? '<span>' + esc(p.s) + '</span>' : '') +
-          (p.h ? '<a href="' + esc(p.h) + '">Otvori</a>' : ''));
+          (p.h ? '<a href="' + esc(p.h) + '">Open</a>' : ''));
         new maplibregl.Marker({ element: pin }).setLngLat(ll).setPopup(popup).addTo(map);
         bounds.extend(ll);
       });

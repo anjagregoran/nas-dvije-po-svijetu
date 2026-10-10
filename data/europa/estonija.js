@@ -1,170 +1,170 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["estonija"] = {
   id: "estonija",
-  ime: "Estonija",
-  regija: "Sjeverna Europa",
-  sazetak: "Mala zemlja šuma, otoka i pjesme, sa srednjovjekovnim Tallinnom iza zidina i s digitalnom državom u kojoj se glasa preko interneta.",
+  ime: "Estonia",
+  regija: "Northern Europe",
+  sazetak: "A small country of forests, islands and song, with medieval Tallinn behind its walls and a digital state where people vote over the internet.",
   uvod: [
-    "Estonija je najsjevernija od triju baltičkih država i veličinom je nešto manja od Hrvatske, a ima samo 1,3 milijuna stanovnika. Polovicu zemlje pokriva šuma, uz obalu je više od dvije tisuće otoka, a estonski jezik blizak je finskom i potpuno različit od latvijskog i litavskog.",
-    "Kroz povijest su ovdje vladali gotovo svi osim samih Estonaca: Danci, njemački viteški redovi, Šveđani i od 1710. Rusi. Gradovi su bili njemački i hanzeatski, a sela estonska. Neovisnost je proglašena 24. veljače 1918., izgubljena 1940. i vraćena 1991. nakon Pjevajuće revolucije, niza masovnih okupljanja na kojima su se pjevale zabranjene domoljubne pjesme.",
-    "Danas je Estonija poznata po tome što se gotovo svaki posao s državom obavlja preko interneta. Istodobno Estonci jako drže do starih navika: do dimne saune, branja gljiva i šutnje u šumi."
+    "Estonia is the northernmost of the three Baltic states and is slightly smaller than Croatia in area, yet it has only 1.3 million inhabitants. Forest covers half the country, there are more than two thousand islands along the coast, and the Estonian language is close to Finnish and completely different from Latvian and Lithuanian.",
+    "Throughout history almost everyone has ruled here except the Estonians themselves: Danes, German orders of knights, Swedes and, from 1710, Russians. The towns were German and Hanseatic, and the villages Estonian. Independence was declared on February 24, 1918, lost in 1940 and regained in 1991 after the Singing Revolution, a series of mass gatherings at which banned patriotic songs were sung.",
+    "Today Estonia is known for the fact that almost all dealings with the state are handled over the internet. At the same time Estonians hold firmly to their old habits: the smoke sauna, mushroom picking and silence in the forest."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od svibnja do rujna, a u lipnju su noći bijele. Prosinac je lijep zbog božićnog sajma na glavnom trgu u Tallinnu." },
-    { k: "Valuta", v: "Euro. Kartice se primaju svuda." },
-    { k: "Kretanje", v: "Autobusi i vlakovi povezuju Tallinn s Tartuom za oko dva i pol sata. Na otok Saaremaa vozi trajekt s kopna na otok Muhu, koji je sa Saaremaaom spojen nasipom. Tallinn je s Helsinkijem povezan trajektima koji plove oko dva sata." },
-    { k: "Napojnica", v: "Nije obavezna. U restoranu se za dobru uslugu ostavi oko deset posto." }
+    { k: "When to go", v: "May to September, and in June the nights are white. December is lovely because of the Christmas market on the main square in Tallinn." },
+    { k: "Currency", v: "The euro. Cards are accepted everywhere." },
+    { k: "Getting around", v: "Buses and trains connect Tallinn with Tartu in about two and a half hours. To reach the island of Saaremaa you take a ferry from the mainland to the island of Muhu, which is joined to Saaremaa by a causeway. Tallinn is linked to Helsinki by ferries that take about two hours." },
+    { k: "Tipping", v: "Tipping is not obligatory. In a restaurant people leave about ten percent for good service." }
   ],
   hrana: [
-    { ime: "Must leib", opis: "Tamni, gusti i blago slatkasti kruh od raži i kiselog tijesta.", prica: "Estonci ga smatraju temeljem svakog obroka i za stolom umjesto „dobar tek“ kažu „jätku leiba“, neka kruha potraje. Ako komad padne na pod, po starom ga se običaju podigne i poljubi." },
-    { ime: "Kiluvõileib", opis: "Kriška crnog kruha s maslacem, filetom začinjene papaline, kuhanim jajetom i mladim lukom.", prica: "Papalina iz Tallinna, marinirana u začinima, bila je poznata u cijelom Ruskom Carstvu. Sendvič se poslužuje na svim svečanostima, a osobito na Dan neovisnosti." },
-    { ime: "Verivorst i mulgikapsad", opis: "Krvavica s ječmenom kašom i kiseli kupus pirjan sa svinjetinom i ječmom.", prica: "To je estonska božićna večera, uz pečeni krumpir i džem od brusnica. Ime kupusa dolazi od pokrajine Mulgimaa na jugu, čiji su seljaci slovili za imućne." },
-    { ime: "Kama", opis: "Brašno od prženog ječma, raži, zobi i graška, koje se umiješa u kefir ili kiselo mlijeko.", prica: "Nekoć je bila brzi obrok za rad u polju, jer se ne mora kuhati. Danas se od nje rade deserti i čokolada, a okus je orašast i pomalo dimljen." },
-    { ime: "Räim", opis: "Baltička haringa, sitna i srebrna, pržena, dimljena ili marinirana.", prica: "Proglašena je nacionalnom ribom. Najbolja je svježe pržena u raženom brašnu, s krumpirom i kiselim vrhnjem." },
-    { ime: "Kohuke", opis: "Štapić slatkog svježeg sira preliven čokoladom.", prica: "Naći ćete ga u hladnjaku svake trgovine, u desecima okusa. Estonska djeca odrastaju na njemu, pa je to prva stvar koju traže kada se vrate iz inozemstva." },
-    { ime: "Marcipan", opis: "Slastica od mljevenih badema i šećera, ručno oblikovana i oslikana.", prica: "Tallinn tvrdi da je marcipan nastao u njegovoj gradskoj ljekarni, gdje se u srednjem vijeku prodavao kao lijek pod imenom Martov kruh, a istu čast svojata i njemački Lübeck. U najstarijoj gradskoj kavani figurice se i danas oslikavaju pred gostima." },
-    { ime: "Vana Tallinn", opis: "Tamni slatki liker na bazi ruma, s vanilijom, cimetom i korom citrusa.", prica: "Proizvodi se od 1960. i Estonci ga piju uz kavu, u kavi ili preko sladoleda. Ime znači Stari Tallinn." }
+    { ime: "Must leib", opis: "A dark, dense and slightly sweet sourdough rye bread.", prica: "Estonians regard it as the foundation of every meal, and at the table they say “jätku leiba”, may the bread last, where others would say “enjoy your meal”. If a piece falls on the floor, the old custom is to pick it up and kiss it." },
+    { ime: "Kiluvõileib", opis: "A slice of black bread with butter, a fillet of spiced sprat, boiled egg and spring onion.", prica: "The sprats of Tallinn, marinated in spices, were famous throughout the Russian Empire. The sandwich is served at every celebration, and especially on Independence Day." },
+    { ime: "Verivorst and Mulgikapsad", opis: "Blood sausage with barley groats and sauerkraut braised with pork and barley.", prica: "This is the Estonian Christmas dinner, along with roast potatoes and lingonberry jam. The name of the cabbage dish comes from the Mulgimaa region in the south, whose farmers had a reputation for being well off." },
+    { ime: "Kama", opis: "A flour of roasted barley, rye, oats and peas that is stirred into kefir or sour milk.", prica: "It was once a quick meal for work in the fields, because it does not need cooking. Today it is used in desserts and chocolate, and the taste is nutty and slightly smoky." },
+    { ime: "Räim", opis: "Baltic herring, small and silvery, fried, smoked or marinated.", prica: "It has been declared the national fish. It is at its best freshly fried in rye flour, with potatoes and sour cream." },
+    { ime: "Kohuke", opis: "A bar of sweet curd cheese coated in chocolate.", prica: "You will find it in the refrigerator of every shop, in dozens of flavors. Estonian children grow up on it, so it is the first thing they look for when they come back from abroad." },
+    { ime: "Marzipan", opis: "A confection of ground almonds and sugar, shaped and painted by hand.", prica: "Tallinn claims that marzipan was invented in its town pharmacy, where it was sold as medicine in the Middle Ages under the name Mart's bread, while the German city of Lübeck claims the same honor. In the city's oldest café the figurines are still painted in front of the guests." },
+    { ime: "Vana Tallinn", opis: "A dark, sweet rum-based liqueur with vanilla, cinnamon and citrus peel.", prica: "It has been made since 1960, and Estonians drink it with coffee, in coffee or over ice cream. The name means Old Tallinn." }
   ],
   obicaji: [
-    { ime: "Laulupidu", opis: "Praznik pjesme održava se od 1869. svakih pet godina i okuplja zbor od dvadesetak tisuća pjevača pred stotinjak tisuća slušatelja. Upravo su na tim pozornicama Estonci 1988. počeli pjevati zabranjene pjesme, po čemu je Pjevajuća revolucija dobila ime. Zajedno s latvijskim i litavskim slavljem na UNESCO-ovu je popisu nematerijalne baštine.", gdje: "Na Pjevačkom polju (Lauluväljak) u Tallinnu, početkom srpnja. Posljednje veliko slavlje održano je 2025., a datume idućih objavljuje zaklada koja ih organizira." },
-    { ime: "Dimna sauna", opis: "Sauna bez dimnjaka, koja se loži satima, pa se dim ispusti prije ulaska, a zidovi ostanu crni i mirišu na katran. U njoj se nekoć rađalo, liječilo i dimilo meso. Običaj dimne saune iz pokrajine Võrumaa na UNESCO-ovu je popisu.", gdje: "Na seoskim imanjima na jugu zemlje, oko gradova Võru i Otepää, gdje domaćini goste vode kroz cijeli obred s brezovim metlicama." },
-    { ime: "Jaanipäev", opis: "U noći s 23. na 24. lipnja pale se krijesovi, preskače se vatra i ostaje se budnim do zore, koja u to doba dolazi vrlo rano. Estonci toga dana napuštaju gradove i odlaze na selo.", gdje: "U Estonskom muzeju na otvorenom u Tallinnu održava se tradicionalna proslava s plesom i ljuljačkama." },
-    { ime: "Kiiking", opis: "Estonski sport izmišljen 1990-ih, u kojem se stojeći na velikoj ljuljački s čeličnim krakovima pokušava napraviti puni krug oko osovine. Nastao je iz starog običaja seoskih ljuljački, na kojima su se mladi okupljali i udvarali.", gdje: "Drvene seoske ljuljačke za više ljudi stoje u Estonskom muzeju na otvorenom i u mnogim selima na otocima." },
-    { ime: "Kultura otoka Kihnu", opis: "Na otočiću u Riškom zaljevu muškarci su stoljećima bili na moru, pa su žene vodile sve ostalo. I danas svakodnevno nose prugaste vunene suknje, čije boje pokazuju je li žena u veselju ili u žalosti, i voze motocikle s prikolicom. Kultura otoka na UNESCO-ovu je popisu.", gdje: "Na otok Kihnu vozi trajekt iz luke Munalaid kraj Pärnua." },
-    { ime: "Branje gljiva i bobica", opis: "Čim u kolovozu padnu prve kiše, pola zemlje s košarama odlazi u šumu po lisičarke, vrganje, borovnice i brusnice. Dobro mjesto za gljive čuva se kao obiteljska tajna.", gdje: "Ljeti i u jesen na tržnici Balti Jaam u Tallinnu, gdje bake prodaju ono što su toga jutra ubrale." }
+    { ime: "Laulupidu", opis: "The Song Celebration has been held every five years since 1869 and brings together a choir of some twenty thousand singers before about a hundred thousand listeners. It was on these very stages that Estonians began singing banned songs in 1988, which gave the Singing Revolution its name. Together with the Latvian and Lithuanian celebrations it is on the UNESCO list of intangible heritage.", gdje: "At the Song Festival Grounds (Lauluväljak) in Tallinn, in early July. The last major celebration was held in 2025, and the dates of the next ones are announced by the foundation that organizes them." },
+    { ime: "Smoke Sauna", opis: "A sauna without a chimney that is heated for hours, after which the smoke is let out before anyone goes in, leaving the walls black and smelling of tar. People once gave birth, healed the sick and smoked meat in it. The smoke sauna tradition of the Võrumaa region is on the UNESCO list.", gdje: "On farms in the south of the country, around the towns of Võru and Otepää, where the hosts take guests through the whole ritual with birch whisks." },
+    { ime: "Jaanipäev", opis: "On the night of June 23 to 24, bonfires are lit, people jump over the fire and everyone stays awake until dawn, which comes very early at that time of year. Estonians leave the cities that day and head for the countryside.", gdje: "The Estonian Open Air Museum in Tallinn holds a traditional celebration with dancing and swings." },
+    { ime: "Kiiking", opis: "An Estonian sport invented in the 1990s in which you stand on a large swing with steel arms and try to make a full circle around the axle. It grew out of the old custom of village swings, where young people gathered and courted.", gdje: "Wooden village swings for several people stand in the Estonian Open Air Museum and in many villages on the islands." },
+    { ime: "The Culture of Kihnu Island", opis: "On this small island in the Gulf of Riga the men were away at sea for centuries, so the women ran everything else. To this day they wear striped woolen skirts every day, whose colors show whether a woman is in a time of joy or of mourning, and they ride motorcycles with sidecars. The island's culture is on the UNESCO list.", gdje: "A ferry runs to Kihnu from the port of Munalaid near Pärnu." },
+    { ime: "Picking Mushrooms and Berries", opis: "As soon as the first rains fall in August, half the country heads into the forest with baskets for chanterelles, porcini, bilberries and lingonberries. A good mushroom spot is guarded as a family secret.", gdje: "In summer and autumn at the Balti Jaam market in Tallinn, where grandmothers sell what they picked that morning." }
   ],
   fraze: [
-    { izvorno: "Tere", izgovor: "TE-re", hr: "Bok, dobar dan" },
-    { izvorno: "Aitäh", izgovor: "AJ-teh", hr: "Hvala" },
-    { izvorno: "Palun", izgovor: "PA-lun", hr: "Molim, izvolite" },
-    { izvorno: "Vabandust", izgovor: "VA-ban-dust", hr: "Oprostite" },
-    { izvorno: "Kas te räägite inglise keelt?", izgovor: "kas te RE-gi-te ING-li-se kelt", hr: "Govorite li engleski?" },
-    { izvorno: "Kus on ...?", izgovor: "kus on", hr: "Gdje je ...?" },
-    { izvorno: "Terviseks", izgovor: "TER-vi-seks", hr: "Živjeli (doslovno: za zdravlje)" },
-    { izvorno: "Head aega", izgovor: "HE-ad AJ-ga", hr: "Doviđenja" }
+    { izvorno: "Tere", izgovor: "TEH-reh", hr: "Hello, good day" },
+    { izvorno: "Aitäh", izgovor: "EYE-tah", hr: "Thank you" },
+    { izvorno: "Palun", izgovor: "PAH-loon", hr: "Please, here you go" },
+    { izvorno: "Vabandust", izgovor: "VAH-bahn-doost", hr: "Excuse me" },
+    { izvorno: "Kas te räägite inglise keelt?", izgovor: "kahs teh RAA-gee-teh ING-lee-seh kehlt", hr: "Do you speak English?" },
+    { izvorno: "Kus on ...?", izgovor: "koos ohn", hr: "Where is ...?" },
+    { izvorno: "Terviseks", izgovor: "TEHR-vee-seks", hr: "Cheers (literally: to health)" },
+    { izvorno: "Head aega", izgovor: "HEH-ahd EYE-gah", hr: "Goodbye" }
   ],
   zanimljivosti: [
-    "Program Skype razvili su 2003. estonski programeri u Tallinnu.",
-    "Estonija je 2005. prva na svijetu omogućila glasovanje preko interneta na izborima u cijeloj državi.",
-    "Dvadeset trećeg kolovoza 1989. oko dva milijuna ljudi uhvatilo se za ruke u živi lanac dug više od 600 kilometara, od Tallinna preko Rige do Vilniusa, tražeći slobodu za baltičke zemlje.",
-    "Prema legendi danska zastava pala je s neba 1219. upravo kod Tallinna, čije ime vjerojatno znači Danski grad.",
-    "Tallinn i Riga već se desetljećima prijateljski prepiru oko toga gdje je postavljeno prvo javno božićno drvce: Tallinn navodi godinu 1441., a Riga 1510.",
-    "Estonski ima četrnaest padeža, a nema ni gramatičkog roda ni budućeg vremena. Riječ „jäääär“, koja znači rub leda, ima četiri ista samoglasnika zaredom.",
-    "Javni prijevoz u Tallinnu od 2013. je besplatan za sve prijavljene stanovnike grada."
+    "Skype was developed in 2003 by Estonian programmers in Tallinn.",
+    "In 2005 Estonia became the first country in the world to allow internet voting in nationwide elections.",
+    "On August 23, 1989, about two million people joined hands in a human chain more than 600 kilometers long, from Tallinn through Riga to Vilnius, demanding freedom for the Baltic countries.",
+    "According to legend, the Danish flag fell from the sky in 1219 right at Tallinn, whose name probably means Danish town.",
+    "Tallinn and Riga have been arguing amiably for decades over where the first public Christmas tree was put up: Tallinn cites the year 1441 and Riga 1510.",
+    "Estonian has fourteen cases and neither grammatical gender nor a future tense. The word “jäääär”, which means the edge of the ice, has four identical vowels in a row.",
+    "Since 2013 public transportation in Tallinn has been free for all registered residents of the city."
   ],
   mjesta: [
     {
       id: "tallinn",
       ime: "Tallinn",
       vrsta: "grad",
-      sazetak: "Jedan od najbolje očuvanih srednjovjekovnih gradova Europe, sa zidinama, kulama i trgovačkim kućama Hanze, na obali Finskog zaljeva.",
+      sazetak: "One of the best-preserved medieval cities in Europe, with walls, towers and Hanseatic merchants' houses, on the shore of the Gulf of Finland.",
       prica: [
-        "Danski kralj Valdemar II. osvojio je 1219. estonsku utvrdu na brdu Toompea i podigao svoj dvorac. Podno brda nastao je trgovački grad njemačkih doseljenika, koji se zvao Reval i od 1285. bio član Hanze, posrednik između Novgoroda i zapada.",
-        "Grad je uvijek bio podijeljen na dva dijela: gore, na Toompei, živjeli su plemstvo i biskup, a dolje trgovci i obrtnici sa svojim zakonima, i međusobno su se toliko slabo podnosili da su se vrata između dva dijela noću zaključavala. Kako su Šveđani i Rusi poslije razvijali druge luke, Tallinn je ostao po strani i srednjovjekovna mu je jezgra preživjela gotovo netaknuta. Od 1997. je na UNESCO-ovu popisu."
+        "In 1219 the Danish king Valdemar II captured the Estonian stronghold on Toompea hill and built his own castle. At the foot of the hill grew a trading town of German settlers, called Reval, which from 1285 was a member of the Hanseatic League and a middleman between Novgorod and the west.",
+        "The city was always divided in two: up on Toompea lived the nobility and the bishop, and down below the merchants and craftsmen with their own laws, and they got along so badly that the gates between the two parts were locked at night. Because the Swedes and Russians later developed other ports, Tallinn was left on the sidelines and its medieval core survived almost untouched. It has been on the UNESCO list since 1997."
       ],
       vidjeti: [
-        { ime: "Trg Raekoja plats i gradska vijećnica", opis: "Vijećnica dovršena 1404. jedina je sačuvana gotička vijećnica u sjevernoj Europi. Na vrhu tornja stoji vjetrokaz u obliku vojnika, Stari Toomas, čuvar grada od 1530., a s pročelja vire zeleni zmajevi koji služe kao oluci. Na uglu trga je Gradska ljekarna, koja radi na istom mjestu najmanje od 1422. i ima mali muzej sa starim lijekovima poput sušenih žaba." },
-        { ime: "Toompea", opis: "Na vapnenačkom brdu iznad grada stoje dvorac, u kojem zasjeda parlament, i kula Pikk Hermann, na kojoj se zastava podiže svakog jutra uz himnu. Nasuprot je ruska pravoslavna katedrala Aleksandra Nevskog iz 1900., sagrađena kao znak carske vlasti. Uđite i u luteransku Katedralu svete Marije, čiji su zidovi prekriveni drvenim grbovima plemićkih obitelji, i ne propustite vidikovce Kohtuotsa i Patkuli s pogledom na crvene krovove i more." },
-        { ime: "Gradske zidine i kula Kiek in de Kök", opis: "Od zidina je sačuvano gotovo dva kilometra i više od dvadeset kula, a po dijelu se može hodati. Topnička kula iz 1470-ih zove se Zaviri u kuhinju, jer su stražari s nje mogli gledati u lonce u kućama podno brda. U zidovima su ostale kugle iz opsade Ivana Groznog, a iz kule se ulazi u podzemne hodnike bastiona." },
-        { ime: "Crkva svetog Nikole (Niguliste)", opis: "U crkvi koja je danas muzej visi „Mrtvački ples“ Bernta Notkea s kraja 15. stoljeća, slika duga sedam i pol metara na kojoj kosturi vode u ples papu, cara, caricu i kralja. To je jedini sačuvani srednjovjekovni mrtvački ples naslikan na platnu." },
-        { ime: "Crkva svetog Olafa (Oleviste)", opis: "Toranj visok 124 metra služio je brodovima kao orijentir, a prema nekim izvorima u 16. je stoljeću, kada je bio još viši, bio među najvišim građevinama na svijetu. Za sovjetske vlasti tajna je služba s njega prisluškivala radioveze. Na vidikovac vodi više od 230 uskih kamenih stuba." },
-        { ime: "Kadriorg i Lennusadam", opis: "Barokni dvorac Kadriorg dao je 1718. sagraditi ruski car Petar Veliki za svoju suprugu Katarinu, a danas je u njemu muzej strane umjetnosti, dok je u parku Kumu, muzej estonske umjetnosti. Na obali je Lennusadam, pomorski muzej u hangaru za hidroavione iz 1916., s golemim betonskim kupolama bez stupova, u kojem se može ući u podmornicu Lembit iz 1936." }
+        { ime: "Raekoja plats and the Town Hall", opis: "The town hall, completed in 1404, is the only surviving Gothic town hall in northern Europe. At the top of the tower stands a weather vane in the shape of a soldier, Old Thomas, guardian of the city since 1530, and green dragons that serve as rain spouts jut out from the facade. On the corner of the square is the Town Hall Pharmacy, which has been operating on the same spot since at least 1422 and has a small museum with old remedies such as dried frogs." },
+        { ime: "Toompea", opis: "On the limestone hill above the city stand the castle, where parliament sits, and the Pikk Hermann tower, on which the flag is raised every morning to the national anthem. Opposite is the Russian Orthodox Alexander Nevsky Cathedral of 1900, built as a mark of tsarist power. Step inside the Lutheran Cathedral of Saint Mary as well, whose walls are covered with the wooden coats of arms of noble families, and do not miss the Kohtuotsa and Patkuli viewpoints with their views of red roofs and the sea." },
+        { ime: "The City Walls and the Kiek in de Kök Tower", opis: "Almost two kilometers of the walls and more than twenty towers survive, and you can walk along part of them. The artillery tower from the 1470s is called Peep Into the Kitchen, because the guards could look from it into the pots in the houses at the foot of the hill. Cannonballs from the siege by Ivan the Terrible are still lodged in the walls, and from the tower you enter the underground passages of the bastions." },
+        { ime: "St. Nicholas' Church (Niguliste)", opis: "In the church, which is now a museum, hangs the “Danse Macabre” by Bernt Notke from the end of the 15th century, a painting seven and a half meters long in which skeletons lead the pope, the emperor, the empress and the king into a dance. It is the only surviving medieval dance of death painted on canvas." },
+        { ime: "St. Olaf's Church (Oleviste)", opis: "The 124-meter tower served ships as a landmark, and according to some sources in the 16th century, when it was even taller, it was among the tallest structures in the world. Under Soviet rule the secret service used it to eavesdrop on radio communications. More than 230 narrow stone steps lead up to the viewing platform." },
+        { ime: "Kadriorg and Lennusadam", opis: "The Baroque Kadriorg Palace was commissioned in 1718 by the Russian tsar Peter the Great for his wife Catherine, and today it houses a museum of foreign art, while Kumu, the museum of Estonian art, stands in the park. On the shore is Lennusadam, a maritime museum in a seaplane hangar of 1916 with enormous concrete domes and no columns, where you can go inside the submarine Lembit of 1936." }
       ],
       jesti: [
-        { ime: "Marcipan", opis: "U najstarijoj gradskoj kavani Maiasmokk, koja radi od 1864., marcipanske figurice oslikavaju se rukom, a u Gradskoj ljekarni prodaje se po srednjovjekovnom receptu." },
-        { ime: "Juha od losa u vijećnici", opis: "U podrumu gradske vijećnice krčma osvijetljena samo svijećama poslužuje juhu od losa u glinenim zdjelicama i pite, a kiseli krastavci love se štapom iz bačve." },
-        { ime: "Tržnica Balti Jaam", opis: "Kraj kolodvora je obnovljena tržnica na tri kata s dimljenom ribom, crnim kruhom, šumskim bobicama i štandovima ulične hrane." },
-        { ime: "Kiluvõileib", opis: "Sendvič s papalinom i jajetom nude kavane po starom gradu kao brzi zalogaj." }
+        { ime: "Marzipan", opis: "In the city's oldest café, Maiasmokk, in business since 1864, the marzipan figurines are painted by hand, and in the Town Hall Pharmacy it is sold made to a medieval recipe." },
+        { ime: "Elk Soup in the Town Hall", opis: "In the cellar of the town hall a tavern lit only by candles serves elk soup in clay bowls along with pies, and you fish pickles out of a barrel with a stick." },
+        { ime: "Balti Jaam Market", opis: "Next to the train station is a renovated three-story market with smoked fish, black bread, forest berries and street food stalls." },
+        { ime: "Kiluvõileib", opis: "The sandwich with sprat and egg is offered by cafés around the old town as a quick bite." }
       ],
       dozivjeti: [
-        { ime: "Šetnja starim gradom s vodičem", opis: "Dvosatna šetnja na engleskom s mladim lokalnim vodičima kreće svaki dan iz središta, a na kraju se ostavlja napojnica po želji.", link: "https://www.traveller.ee/" },
-        { ime: "Četvrti Kalamaja i Telliskivi", opis: "Odmah iza kolodvora počinje četvrt šarenih drvenih kuća iz 1920-ih i bivša tvornica pretvorena u kreativni grad s dućanima, galerijama i restoranima.", link: "https://telliskivi.cc/en/" },
-        { ime: "Estonski muzej na otvorenom", opis: "U šumi uz more, petnaest minuta od središta, stoje seoska imanja, vjetrenjače, škola i crkva sa cijele Estonije, a u krčmi se kuha po starim receptima.", link: "https://evm.ee/en" },
-        { ime: "Pomorski muzej u hangaru", opis: "Uz podmornicu su izloženi hidroavion, ledolomac i ostaci broda iz 16. stoljeća, a izložba je zamišljena kao šetnja ispod, po površini i iznad mora.", link: "https://meremuuseum.ee/lennusadam/en/" }
+        { ime: "A Guided Walk Through the Old Town", opis: "A two-hour walk in English with young local guides sets off from the center every day, and at the end you leave a tip of your choosing.", link: "https://www.traveller.ee/" },
+        { ime: "The Kalamaja and Telliskivi Districts", opis: "Right behind the train station begins a neighborhood of colorful wooden houses from the 1920s and a former factory turned into a creative city with shops, galleries and restaurants.", link: "https://telliskivi.cc/en/" },
+        { ime: "Estonian Open Air Museum", opis: "In a forest by the sea, fifteen minutes from the center, stand farmsteads, windmills, a school and a church from all over Estonia, and the tavern cooks from old recipes.", link: "https://evm.ee/en" },
+        { ime: "The Maritime Museum in the Hangar", opis: "Besides the submarine, the displays include a seaplane, an icebreaker and the remains of a 16th-century ship, and the exhibition is designed as a walk below, on and above the sea.", link: "https://meremuuseum.ee/lennusadam/en/" }
       ],
       agencije: [
-        { ime: "Visit Tallinn", opis: "Službeni turistički vodič grada, s informacijama o kartici Tallinn Card.", link: "https://visittallinn.ee/eng" },
-        { ime: "Tallinn Traveller Tours", opis: "Lokalna tvrtka koja vodi pješačke i biciklističke ture te izlete u nacionalni park Lahemaa.", link: "https://www.traveller.ee/" },
-        { ime: "Gradska vijećnica", opis: "Vijećnica je ljeti otvorena za razgledanje, uključujući toranj.", link: "https://raekoda.tallinn.ee/en/" }
+        { ime: "Visit Tallinn", opis: "The city's official tourist guide, with information about the Tallinn Card.", link: "https://visittallinn.ee/eng" },
+        { ime: "Tallinn Traveller Tours", opis: "A local company that runs walking and cycling tours as well as trips to Lahemaa National Park.", link: "https://www.traveller.ee/" },
+        { ime: "Town Hall", opis: "In summer the town hall is open to visitors, including the tower.", link: "https://raekoda.tallinn.ee/en/" }
       ],
-      kada: "Od svibnja do rujna. Usred dana stari je grad pun izletnika s kruzera, pa ga je najljepše obići rano ujutro ili navečer, kada u lipnju svjetlo traje gotovo do ponoći."
+      kada: "May to September. In the middle of the day the old town is full of cruise ship day-trippers, so it is best explored early in the morning or in the evening, when in June the light lasts almost until midnight."
     },
     {
       id: "tartu",
       ime: "Tartu",
       vrsta: "grad",
-      sazetak: "Sveučilišni grad na rijeci Emajõgi, koji Estonci smatraju svojom duhovnom prijestolnicom i u kojem je nastao Praznik pjesme.",
+      sazetak: "A university city on the Emajõgi river that Estonians consider their spiritual capital and where the Song Celebration was born.",
       prica: [
-        "Tartu je najstariji grad u baltičkim zemljama, s prvim spomenom iz 1030. godine. Sveučilište je 1632. osnovao švedski kralj Gustav II. Adolf, i otada se ovdje školuje estonska inteligencija.",
-        "U 19. stoljeću upravo je u Tartuu počelo estonsko narodno buđenje: tiskane su prve novine na estonskom, objavljen je nacionalni ep „Kalevipoeg“ i 1869. održan je prvi Praznik pjesme. Godine 2024. grad je bio Europska prijestolnica kulture."
+        "Tartu is the oldest city in the Baltic countries, first mentioned in 1030. The university was founded in 1632 by the Swedish king Gustav II Adolf, and Estonia's intellectuals have been educated here ever since.",
+        "In the 19th century it was in Tartu that the Estonian national awakening began: the first newspapers in Estonian were printed, the national epic “Kalevipoeg” was published, and in 1869 the first Song Celebration was held. In 2024 the city was European Capital of Culture."
       ],
       vidjeti: [
-        { ime: "Glavna zgrada sveučilišta", opis: "Klasicistička zgrada sa šest stupova iz 1809. zaštitni je znak grada. U potkrovlju je sačuvan studentski zatvor, u koji su se zbog dvoboja, pijanstva ili nevraćenih knjiga zatvarali studenti na nekoliko dana, a zidovi su puni njihovih crteža i stihova." },
-        { ime: "Trg gradske vijećnice", opis: "Pred ružičastom vijećnicom iz 18. stoljeća stoji fontana sa zagrljenim studentima pod kišobranom. Na istom trgu pogledajte Kosu kuću, koja je nagnuta jače od tornja u Pisi jer je jednim dijelom sagrađena na starom gradskom zidu, a drugim na drvenim stupovima u mekom tlu. U njoj je muzej umjetnosti." },
-        { ime: "Brdo Toome i ruševine katedrale", opis: "U parku iznad središta stoje ruševine goleme gotičke katedrale od opeke, stradale u ratovima 16. stoljeća. U obnovljenom dijelu je sveučilišni muzej, a na tornjeve se ljeti može popeti. U parku su i dva mosta, Anđeoski i Vražji, a običaj kaže da pri prvom prelasku Anđeoskog treba zadržati dah i zaželjeti želju." },
-        { ime: "Estonski nacionalni muzej (ERM)", opis: "Muzej otvoren 2016. sagrađen je na staroj pisti sovjetske vojne zračne luke, kao njezin nastavak koji se polako uzdiže iz tla. Postav priča estonsku povijest kroz svakodnevne predmete, a poseban je dio posvećen srodnim ugrofinskim narodima." },
-        { ime: "Crkva svetog Ivana (Jaani kirik)", opis: "Gotička crkva iz 14. stoljeća ukrašena je s oko tisuću figura od pečene gline, glava i likova građana, od kojih nijedna nije ista, čega nema nigdje drugdje u Europi." },
-        { ime: "Supilinn", opis: "Četvrt drvenih kuća uz rijeku zove se Juha-grad, jer ulice nose imena sastojaka za juhu: Graškova, Grahova, Krumpirova. Nekoć sirotinjski kraj danas je omiljen među studentima i umjetnicima." }
+        { ime: "University Main Building", opis: "The Neoclassical building of 1809 with its six columns is the symbol of the city. The student lockup survives in the attic, where students were confined for a few days for dueling, drunkenness or unreturned books, and its walls are full of their drawings and verses." },
+        { ime: "Town Hall Square", opis: "In front of the pink 18th-century town hall stands a fountain of two students kissing under an umbrella. On the same square, take a look at the Leaning House, which tilts more sharply than the tower of Pisa because one part of it was built on the old city wall and the other on wooden piles in soft ground. It houses an art museum." },
+        { ime: "Toome Hill and the Cathedral Ruins", opis: "In the park above the center stand the ruins of an enormous Gothic brick cathedral, wrecked in the wars of the 16th century. The restored part holds the university museum, and in summer you can climb the towers. The park also has two bridges, the Angel's and the Devil's, and custom says that the first time you cross the Angel's Bridge you should hold your breath and make a wish." },
+        { ime: "Estonian National Museum (ERM)", opis: "The museum, opened in 2016, was built on the old runway of a Soviet military airfield, as a continuation of it that slowly rises from the ground. The exhibition tells Estonian history through everyday objects, and a special section is devoted to the kindred Finno-Ugric peoples." },
+        { ime: "St. John's Church (Jaani kirik)", opis: "This 14th-century Gothic church is decorated with about a thousand terracotta figures, heads and likenesses of townspeople, no two of them alike, something found nowhere else in Europe." },
+        { ime: "Supilinn", opis: "The district of wooden houses by the river is called Soup Town, because its streets are named after soup ingredients: Pea, Bean, Potato. Once a poor neighborhood, it is now a favorite among students and artists." }
       ],
       jesti: [
-        { ime: "Pivo A. Le Coq", opis: "Tartuška pivovara vari pivo od 19. stoljeća i ima muzej u staroj sladari, a njezino se pivo toči u svakoj gradskoj pivnici." },
-        { ime: "Kolači u staroj kavani", opis: "Kavana Werner radi od 1895. i bila je okupljalište profesora i pisaca, a poznata je po tortama i pecivima." },
-        { ime: "Pivnica u barutani", opis: "U barutani iz 18. stoljeća, ukopanoj u brdo Toome, nalazi se pivnica sa stropom visokim jedanaest metara, u kojoj se poslužuju pivo i krepka domaća jela." }
+        { ime: "A. Le Coq Beer", opis: "Tartu's brewery has been making beer since the 19th century and has a museum in the old malt house, and its beer is on tap in every pub in the city." },
+        { ime: "Cakes in an Old Café", opis: "Café Werner has been open since 1895 and was a gathering place for professors and writers, and it is known for its cakes and pastries." },
+        { ime: "The Pub in the Gunpowder Cellar", opis: "An 18th-century gunpowder cellar, dug into Toome Hill, holds a pub with a ceiling eleven meters high, where beer and hearty home-style dishes are served." }
       ],
       dozivjeti: [
-        { ime: "Estonski nacionalni muzej", opis: "Odvojite barem tri sata. Ulaznica je elektronička kartica na koju se sprema jezik, pa se svi natpisi sami prebacuju na engleski kada joj priđete.", link: "https://www.erm.ee/en/" },
-        { ime: "Šetnja uz rijeku i kroz Supilinn", opis: "Od trga se uz Emajõgi stiže u četvrt drvenih kuća i dalje do botaničkog vrta sveučilišta, osnovanog 1803.", link: "https://visittartu.com/" },
-        { ime: "Znanstveni centar AHHAA", opis: "Najveći znanstveni centar u baltičkim zemljama, gdje se može voziti bicikl po žici i gledati izlijeganje pilića, zabavan je i odraslima za kišnog dana.", link: "https://www.ahhaa.ee/en" }
+        { ime: "Estonian National Museum", opis: "Set aside at least three hours. The ticket is an electronic card that stores your language, so all the labels switch to English by themselves when you bring it near.", link: "https://www.erm.ee/en/" },
+        { ime: "A Walk Along the River and Through Supilinn", opis: "From the square you follow the Emajõgi to the district of wooden houses and on to the university's botanical garden, founded in 1803.", link: "https://visittartu.com/" },
+        { ime: "AHHAA Science Centre", opis: "The largest science center in the Baltic countries, where you can ride a bicycle on a wire and watch chicks hatch, is fun for adults too on a rainy day.", link: "https://www.ahhaa.ee/en" }
       ],
       agencije: [
-        { ime: "Visit Tartu", opis: "Službena turistička zajednica grada i južne Estonije.", link: "https://visittartu.com/" },
-        { ime: "Sveučilište u Tartuu", opis: "Sveučilište upravlja muzejom u katedrali, studentskim zatvorom i botaničkim vrtom.", link: "https://ut.ee/en" }
+        { ime: "Visit Tartu", opis: "The official tourist board of the city and of southern Estonia.", link: "https://visittartu.com/" },
+        { ime: "University of Tartu", opis: "The university manages the museum in the cathedral, the student lockup and the botanical garden.", link: "https://ut.ee/en" }
       ],
-      kada: "Od svibnja do rujna. Tijekom akademske godine grad je življi, a posljednjih dana travnja studenti slave proljeće povorkama i utrkom čamaca na rijeci."
+      kada: "May to September. The city is livelier during the academic year, and in the last days of April the students celebrate spring with parades and a boat race on the river."
     },
     {
       id: "saaremaa",
       ime: "Saaremaa",
       vrsta: "otok",
-      sazetak: "Najveći estonski otok, s vjetrenjačama, kućama pod trskom, biskupskim dvorcem i kraterom koji je ostavio meteorit.",
+      sazetak: "The largest Estonian island, with windmills, thatched houses, a bishop's castle and a crater left by a meteorite.",
       prica: [
-        "Stanovnici Saaremaae u srednjem su vijeku bili pomorci i gusari kojih su se bojali i Danci i Šveđani, a križarima su se predali među posljednjima u Estoniji, 1227. Otokom su zatim vladali biskupi, Danci, Šveđani i Rusi.",
-        "U sovjetsko doba cijeli je otok bio zatvoreno pogranično područje, na koje su i sami Estonci smjeli samo s posebnom dozvolom. Zato je ostao gotovo netaknut, sa starim selima, kamenim ogradama, borovicom i tišinom, pa ga Estonci smatraju najestonskijim dijelom zemlje."
+        "In the Middle Ages the people of Saaremaa were seafarers and pirates feared by Danes and Swedes alike, and they were among the last in Estonia to surrender to the crusaders, in 1227. The island was then ruled by bishops, Danes, Swedes and Russians.",
+        "In Soviet times the whole island was a closed border zone, which even Estonians themselves could enter only with a special permit. That is why it has remained almost untouched, with old villages, stone walls, juniper and silence, and why Estonians consider it the most Estonian part of the country."
       ],
       vidjeti: [
-        { ime: "Biskupski dvorac u Kuressaareu", opis: "Četvrtasti dvorac od dolomita iz 14. stoljeća, okružen bastionima i opkopom, najbolje je očuvana srednjovjekovna utvrda u baltičkim zemljama. Legenda kaže da je 1785. u podrumu pronađena zazidana prostorija s kosturom viteza za stolom, kojega je navodno biskup dao zazidati zbog ljubavi prema mještanki. U dvorcu je muzej otoka." },
-        { ime: "Meteoritski krater Kaali", opis: "Savršeno okruglo jezerce promjera 110 metara nastalo je udarom meteorita prije nekoliko tisuća godina, kada je otok već bio naseljen, a oko njega je još osam manjih kratera. Udar je morao biti zastrašujuć, pa neki istraživači u njemu vide izvor sjevernih mitova o suncu koje je palo na zemlju. Oko jezera su pronađeni ostaci zida i žrtvenih darova." },
-        { ime: "Vjetrenjače u Angli", opis: "Na brežuljku uz cestu stoji pet drvenih vjetrenjača, ostatak od devet koliko ih je selo imalo. Četiri su tipične otočne, kod kojih se cijelo tijelo vjetrenjače okreće oko jednog stupa prema vjetru. Uz njih je centar baštine s radionicama pečenja kruha." },
-        { ime: "Litica Panga", opis: "Najviša obalna litica na otoku, visoka oko dvadeset metara, dio je vapnenačke stepenice koja se proteže od Švedske do Rusije. Na vrhu je nekoć bilo žrtvište na kojem se moru prinosilo pivo i hrana za dobar ulov." },
-        { ime: "Otok Muhu i selo Koguva", opis: "Na putu do Saaremaae prelazi se otok Muhu, gdje je ribarsko selo Koguva sačuvano u cijelosti, s kućama pod trskom iza kamenih ograda obraslih mahovinom. Muhu je poznat po vezu jarkih cvjetova na crnoj vuni i po žutim suknjama narodne nošnje." }
+        { ime: "The Bishop's Castle in Kuressaare", opis: "The square dolomite castle from the 14th century, surrounded by bastions and a moat, is the best-preserved medieval fortress in the Baltic countries. Legend says that in 1785 a walled-up room was found in the cellar with the skeleton of a knight seated at a table, whom the bishop had supposedly had immured for his love of a local woman. The castle houses the island's museum." },
+        { ime: "Kaali Meteorite Crater", opis: "The perfectly round little lake 110 meters across was created by a meteorite impact several thousand years ago, when the island was already inhabited, and there are eight smaller craters around it. The impact must have been terrifying, and some researchers see in it the source of the northern myths about a sun that fell to earth. The remains of a wall and of sacrificial offerings have been found around the lake." },
+        { ime: "The Windmills at Angla", opis: "On a low hill beside the road stand five wooden windmills, all that is left of the nine the village once had. Four are of the typical island type, in which the whole body of the mill turns on a single post to face the wind. Next to them is a heritage center with bread-baking workshops." },
+        { ime: "Panga Cliff", opis: "The highest coastal cliff on the island, about twenty meters high, is part of a limestone escarpment that stretches from Sweden to Russia. At the top there was once a sacrificial site where beer and food were offered to the sea for a good catch." },
+        { ime: "Muhu Island and the Village of Koguva", opis: "On the way to Saaremaa you cross the island of Muhu, where the fishing village of Koguva has been preserved in its entirety, with thatched houses behind moss-covered stone walls. Muhu is known for its embroidery of bright flowers on black wool and for the yellow skirts of its folk costume." }
       ],
       jesti: [
-        { ime: "Dimljena riba", opis: "Iverak i baltička haringa dime se nad johovim drvom u dvorištima uz obalu i prodaju još topli." },
-        { ime: "Otočno domaće pivo", opis: "Mutno, slatkasto pivo koduõlu vari se po kućama od ječmenog slada i borovice, a jako je iako se pije lako. Nudi se na seoskim imanjima i svečanostima." },
-        { ime: "Crni kruh s otoka Muhu", opis: "Slatkasti raženi kruh sa sjemenkama, pečen po receptu s otoka Muhu, danas se prodaje u cijeloj Estoniji, ali je najbolji iz pekarnice kraj trajektne luke." },
-        { ime: "Proizvodi od borovice", opis: "Borovica raste po cijelom otoku, a od nje se rade sirup, začinjeni maslac i drveni kuhinjski pribor koji miriše godinama." }
+        { ime: "Smoked Fish", opis: "Flounder and Baltic herring are smoked over alder wood in yards along the coast and sold while still warm." },
+        { ime: "Island Home-Brewed Beer", opis: "The cloudy, sweetish beer called koduõlu is brewed at home from barley malt and juniper, and it is strong even though it goes down easily. It is offered on farms and at celebrations." },
+        { ime: "Black Bread From Muhu Island", opis: "The sweetish rye bread with seeds, baked to a recipe from the island of Muhu, is now sold all over Estonia, but the best comes from the bakery next to the ferry port." },
+        { ime: "Juniper Products", opis: "Juniper grows all over the island and is made into syrup, flavored butter and wooden kitchen utensils that keep their scent for years." }
       ],
       dozivjeti: [
-        { ime: "Dvorac i lječilišni Kuressaare", opis: "Nakon dvorca prošećite parkom do lječilišne zgrade iz 19. stoljeća. Otok je poznat po ljekovitom blatu, pa gotovo svaki hotel ima toplice.", link: "https://samu.ee/en/" },
-        { ime: "Biciklom po otoku", opis: "Otok je ravan, ceste su prazne, a biciklističke staze vode od Kuressaarea do vjetrenjača, kratera i svjetionika na rtu Sõrve.", link: "https://www.visitsaaremaa.ee/en/" },
-        { ime: "Vožnja trajektom preko tjesnaca", opis: "Trajekt s kopna do otoka Muhu vozi oko pola sata i polazi često, a karte se u sezoni isplati kupiti unaprijed preko interneta.", link: "https://www.praamid.ee/en/homepage/" }
+        { ime: "The Castle and Spa Town of Kuressaare", opis: "After the castle, stroll through the park to the 19th-century spa building. The island is known for its therapeutic mud, so almost every hotel has a spa.", link: "https://samu.ee/en/" },
+        { ime: "Around the Island by Bike", opis: "The island is flat and the roads are empty, and cycle paths lead from Kuressaare to the windmills, the crater and the lighthouse on the Sõrve peninsula.", link: "https://www.visitsaaremaa.ee/en/" },
+        { ime: "The Ferry Ride Across the Strait", opis: "The ferry from the mainland to Muhu island takes about half an hour and leaves frequently, and in season it pays to buy tickets online in advance.", link: "https://www.praamid.ee/en/homepage/" }
       ],
       agencije: [
-        { ime: "Visit Saaremaa", opis: "Službena turistička zajednica otoka.", link: "https://www.visitsaaremaa.ee/en/" },
-        { ime: "Saaremaa Muuseum", opis: "Muzej koji upravlja dvorcem u Kuressaareu i nudi vodstva.", link: "https://samu.ee/en/" }
+        { ime: "Visit Saaremaa", opis: "The island's official tourist board.", link: "https://www.visitsaaremaa.ee/en/" },
+        { ime: "Saaremaa Muuseum", opis: "The museum that manages the castle in Kuressaare and offers guided tours.", link: "https://samu.ee/en/" }
       ],
-      kada: "Od lipnja do kolovoza, kada je more najtoplije i kada sve radi. Od Tallinna do Kuressaarea ima oko četiri sata vožnje s trajektom, pa ima smisla ostati barem dvije noći."
+      kada: "June to August, when the sea is at its warmest and everything is open. From Tallinn to Kuressaare takes about four hours including the ferry, so it makes sense to stay at least two nights."
     }
   ],
   izvori: [
     { ime: "Visit Estonia", url: "https://www.visitestonia.com/en" },
     { ime: "Visit Tallinn", url: "https://visittallinn.ee/eng" },
-    { ime: "UNESCO: Povijesno središte Tallinna", url: "https://whc.unesco.org/en/list/822" },
-    { ime: "Muzej Niguliste", url: "https://nigulistemuuseum.ekm.ee/en/" },
-    { ime: "Estonski pomorski muzej, Lennusadam", url: "https://meremuuseum.ee/lennusadam/en/" },
-    { ime: "Zaklada Praznika pjesme i plesa", url: "https://sa.laulupidu.ee/" },
+    { ime: "UNESCO: Historic Centre (Old Town) of Tallinn", url: "https://whc.unesco.org/en/list/822" },
+    { ime: "Niguliste Museum", url: "https://nigulistemuuseum.ekm.ee/en/" },
+    { ime: "Estonian Maritime Museum, Lennusadam", url: "https://meremuuseum.ee/lennusadam/en/" },
+    { ime: "Estonian Song and Dance Celebration Foundation", url: "https://sa.laulupidu.ee/" },
     { ime: "Visit Tartu", url: "https://visittartu.com/" },
-    { ime: "Estonski nacionalni muzej", url: "https://www.erm.ee/en/" },
+    { ime: "Estonian National Museum", url: "https://www.erm.ee/en/" },
     { ime: "Visit Saaremaa", url: "https://www.visitsaaremaa.ee/en/" }
   ]
 };

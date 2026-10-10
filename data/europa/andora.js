@@ -1,159 +1,159 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["andora"] = {
   id: "andora",
-  ime: "Andora",
-  regija: "Južna Europa",
-  sazetak: "Sićušna pirenejska kneževina u kojoj se romaničke crkvice, termalna voda i planinske staze nalaze na pola sata vožnje jedna od druge.",
+  ime: "Andorra",
+  regija: "Southern Europe",
+  sazetak: "A tiny Pyrenean principality where little Romanesque churches, thermal water and mountain trails are all within half an hour's drive of one another.",
   uvod: [
-    "Andora je stisnuta među vrhove Pireneja između Španjolske i Francuske, ima manje od 470 četvornih kilometara i sedam župa koje se ovdje zovu parròquies. Jedina je država na svijetu u kojoj je katalonski jedini službeni jezik, a uz njega ćete na ulici stalno čuti španjolski, portugalski i francuski. Većina posjetitelja dolazi zbog skijanja i kupovine bez visokih poreza, no tko skrene s glavne ceste, pronaći će kamena sela, crkve iz 11. i 12. stoljeća i doline u kojima se i danas napasa stoka.",
-    "Njezino je uređenje jedinstveno u svijetu, jer zemlja ima dva suvladara: biskupa katalonskog grada La Seu d'Urgell i predsjednika Francuske. Taj dogovor potječe iz 1278. godine, kada su urgelski biskup i grof od Foixa sporazumom zvanim pareatge podijelili vlast nad dolinama, a grofova su prava s vremenom prešla na francuske kraljeve pa na predsjednike republike. Andorci su 1419. dobili svoje vijeće, Consell de la Terra, koje se ubraja među najstarije parlamente u Europi, a prvi su pisani ustav izglasali tek 1993. godine."
+    "Andorra is squeezed in among the peaks of the Pyrenees between Spain and France, and it has less than 470 square kilometers and seven parishes, which are called parròquies here. It is the only country in the world where Catalan is the sole official language, and alongside it you will constantly hear Spanish, Portuguese and French in the street. Most visitors come for the skiing and for shopping without high taxes, but anyone who turns off the main road will find stone villages, churches from the 11th and 12th centuries and valleys where livestock still grazes today.",
+    "Its system of government is unique in the world, because the country has two co-princes: the bishop of the Catalan town of La Seu d'Urgell and the president of France. The arrangement dates back to 1278, when the Bishop of Urgell and the Count of Foix divided power over the valleys through an agreement called the pareatge, and over time the count's rights passed to the kings of France and then to the presidents of the republic. In 1419 the Andorrans were granted their own council, the Consell de la Terra, which is counted among the oldest parliaments in Europe, and they did not vote in their first written constitution until 1993."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od lipnja do rujna za planinarenje i sela, od prosinca do ožujka za skijanje. U svibnju i studenome dio žičara i planinskih restorana ne radi." },
-    { k: "Valuta", v: "Euro, iako Andora nije članica Europske unije. Budući da nije ni u Schengenu, ponesite osobnu iskaznicu ili putovnicu i računajte na carinsku kontrolu pri izlasku." },
-    { k: "Kretanje", v: "Zemlja nema ni zračnu luku ni željeznicu, pa se dolazi autobusom ili automobilom iz Barcelone ili Toulousea, za što treba oko tri sata. Unutar zemlje voze redovite autobusne linije koje povezuju svih sedam župa." },
-    { k: "Napojnica", v: "Nije obvezna. Ako ste zadovoljne, zaokružite račun ili ostavite pet do deset posto." }
+    { k: "When to go", v: "From June to September for hiking and villages, and from December to March for skiing. In May and November some of the cable cars and mountain restaurants are closed." },
+    { k: "Currency", v: "The euro, even though Andorra is not a member of the European Union. Since it is not in Schengen either, bring your ID card or passport and expect a customs check on the way out." },
+    { k: "Getting around", v: "The country has neither an airport nor a railway, so you arrive by bus or car from Barcelona or Toulouse, which takes about three hours. Within the country, regular bus lines connect all seven parishes." },
+    { k: "Tipping", v: "It is not obligatory. If you were happy, round up the bill or leave five to ten percent." }
   ],
   hrana: [
-    { ime: "Escudella", opis: "Gusto zimsko varivo od nekoliko vrsta mesa, kobasica, slanutka, kupusa, krumpira i tjestenine.", prica: "Jelo je nastalo u planinskim kućama u kojima je lonac cijeli dan stajao na vatri. Svake godine 17. siječnja, na blagdan svetog Antuna, escudella se u Andorri la Velli i drugim mjestima kuha u golemim kotlovima na trgu i besplatno dijeli svima koji dođu sa zdjelicom." },
-    { ime: "Trinxat", opis: "Pogača od zgnječenog zimskog kupusa i krumpira, zapečena na tavi sa slaninom i češnjakom.", prica: "Ime dolazi od katalonskog glagola trinxar, što znači sjeckati. Najbolji je nakon prvih mrazeva, jer kupus koji je promrzao postaje slađi, pa ga u planinskim gostionicama traže upravo zimi." },
-    { ime: "Truita de riu a l'andorrana", opis: "Riječna pastrva pečena na tavi i omotana ili punjena pršutom.", prica: "Pastrve iz hladnih pirenejskih potoka stoljećima su bile jedina svježa riba u dolinama. Spoj ribe i sušene šunke zvuči neobično, a zapravo je vrlo logičan u kraju u kojem je svaka kuća u smočnici imala svoj pršut." },
-    { ime: "Embotits", opis: "Domaće kobasice i suhomesnati proizvodi, među kojima su donja, bringuera i bull.", prica: "Zimsko klanje svinja, la matança del porc, bilo je najvažniji događaj seoske godine i okupljalo je cijelo susjedstvo. Daska suhomesnatih proizvoda i danas je uobičajeno predjelo u svakoj tradicionalnoj gostionici." },
-    { ime: "Formatge de tupí", opis: "Jaki, mazivi sir koji dozrijeva u glinenoj posudi s rakijom i češnjakom.", prica: "Tupí je naziv za glineni lončić u kojem su pastiri ostavljali ostatke sira da fermentiraju. Okus je vrlo izražen, pa ga je najbolje namazati u tankom sloju na prepečeni kruh i popiti uz njega čašu crnog vina." },
-    { ime: "Coca masegada", opis: "Plosnati slatki kruh s okusom anisa, posut šećerom.", prica: "Jede se uz kavu ili vruću čokoladu, osobito za blagdane. Pitajte za nju u pekarnicama, jer se u restoranima rijetko nalazi na jelovniku." }
+    { ime: "Escudella", opis: "A thick winter stew of several kinds of meat, sausages, chickpeas, cabbage, potatoes and pasta.", prica: "The dish was born in mountain houses where the pot sat on the fire all day long. Every year on January 17, the feast of Saint Anthony, escudella is cooked in enormous cauldrons on the square in Andorra la Vella and other towns and handed out free to everyone who turns up with a bowl." },
+    { ime: "Trinxat", opis: "A cake of mashed winter cabbage and potato, browned in a pan with bacon and garlic.", prica: "The name comes from the Catalan verb trinxar, which means to chop. It is at its best after the first frosts, because cabbage that has been frozen turns sweeter, which is why people ask for it in the mountain inns in winter in particular." },
+    { ime: "Truita de riu a l'andorrana", opis: "River trout pan-fried and wrapped in or stuffed with cured ham.", prica: "For centuries trout from the cold Pyrenean streams were the only fresh fish in the valleys. The pairing of fish and cured ham sounds unusual, yet it makes perfect sense in a region where every house had its own ham in the pantry." },
+    { ime: "Embotits", opis: "Homemade sausages and cured meats, among them donja, bringuera and bull.", prica: "The winter pig slaughter, la matança del porc, was the most important event of the village year and brought the whole neighborhood together. A board of cured meats is still a standard appetizer in every traditional inn today." },
+    { ime: "Formatge de tupí", opis: "A strong, spreadable cheese that matures in a clay pot with brandy and garlic.", prica: "Tupí is the name of the little clay pot in which shepherds left scraps of cheese to ferment. The flavor is very pronounced, so it is best spread in a thin layer on toasted bread and enjoyed with a glass of red wine." },
+    { ime: "Coca masegada", opis: "A flat sweet bread flavored with anise and sprinkled with sugar.", prica: "It is eaten with coffee or hot chocolate, especially around the holidays. Ask for it in bakeries, because it is rarely on the menu in restaurants." }
   ],
   obicaji: [
-    { ime: "Falles, vatre ljetnog suncostaja", opis: "U noći uoči Ivanja mladi fallaires vrte zapaljene baklje oko sebe i spuštaju se ulicama, pa u mraku nastaju vatreni krugovi. Običaj je zajedno s vatrenim svečanostima cijelih Pireneja 2015. upisan na UNESCO-ov popis nematerijalne baštine.", gdje: "Andorra la Vella, Encamp, Sant Julià de Lòria i druga mjesta, u noći 23. lipnja." },
-    { ime: "Ball de l'Ossa i L'última Ossa", opis: "Pučka predstava u kojoj seljaci love medvjedicu, a cijela je radnja začinjena šalama na račun aktualnih događaja. Medvjeđe svečanosti Pireneja upisane su 2022. na UNESCO-ov popis nematerijalne baštine, a u Andori ih čuvaju Encamp i Ordino.", gdje: "U Encampu na pokladni ponedjeljak, a u Ordinu početkom prosinca, u vrtu kuće Areny-Plandolit." },
-    { ime: "Dan Gospe od Meritxella", opis: "Gospa od Meritxella zaštitnica je Andore, a njezin je blagdan ujedno državni praznik. Toga dana ljudi iz svih župa hodočaste u svetište iznad Canilla, nakon čega slijede misa, ples i zajednički ručak.", gdje: "Svetište Meritxell u župi Canillo, 8. rujna." },
-    { ime: "Contrapàs i marratxa", opis: "Stari andorski plesovi koji se izvode u narodnim nošnjama. Contrapàs je svečani ples u nizu, dok marratxu pleše nekoliko parova uz pratnju puhačkih glazbala i ona pripada isključivo župi Sant Julià de Lòria.", gdje: "Na ljetnim svetkovinama zvanim festa major: u Sant Julià de Lòriji potkraj srpnja, a u Andorri la Velli početkom kolovoza." },
-    { ime: "Bordes", opis: "Borda je kamena planinska kuća u kojoj su se nekoć čuvali stoka i sijeno. Mnoge su pretvorene u gostionice s otvorenim ognjištem, pa je večera u bordi najjednostavniji način da kušate andorsku kuhinju.", gdje: "Posvuda po dolinama, a posebno ih je mnogo oko Ordina, La Massane i Canilla." }
+    { ime: "Falles, the fires of the summer solstice", opis: "On Midsummer Eve the young fallaires whirl burning torches around themselves as they come down through the streets, creating circles of fire in the dark. Together with the fire festivals of the whole of the Pyrenees, the custom was added to the UNESCO list of intangible heritage in 2015.", gdje: "Andorra la Vella, Encamp, Sant Julià de Lòria and other towns, on the night of June 23." },
+    { ime: "Ball de l'Ossa and L'última Ossa", opis: "A folk play in which villagers hunt a she-bear, with the whole plot spiced with jokes about current events. The bear festivities of the Pyrenees were added to the UNESCO list of intangible heritage in 2022, and in Andorra they are kept alive by Encamp and Ordino.", gdje: "In Encamp on Carnival Monday, and in Ordino in early December, in the garden of the Areny-Plandolit house." },
+    { ime: "The Day of Our Lady of Meritxell", opis: "Our Lady of Meritxell is the patron saint of Andorra, and her feast day is also the national holiday. On that day people from all the parishes make a pilgrimage to the sanctuary above Canillo, which is followed by Mass, dancing and a shared lunch.", gdje: "The Sanctuary of Meritxell in the parish of Canillo, September 8." },
+    { ime: "Contrapàs and marratxa", opis: "Old Andorran dances performed in folk costume. The contrapàs is a solemn line dance, while the marratxa is danced by several couples to the accompaniment of wind instruments and belongs exclusively to the parish of Sant Julià de Lòria.", gdje: "At the summer festivals known as the festa major: in Sant Julià de Lòria at the end of July, and in Andorra la Vella in early August." },
+    { ime: "Bordes", opis: "A borda is a stone mountain building in which livestock and hay were once kept. Many have been turned into inns with an open hearth, so dinner in a borda is the simplest way to taste Andorran cooking.", gdje: "All over the valleys, with an especially large number around Ordino, La Massana and Canillo." }
   ],
   fraze: [
-    { izvorno: "Bon dia", izgovor: "bon DI-a", hr: "Dobar dan, dobro jutro" },
-    { izvorno: "Gràcies", izgovor: "GRA-sies", hr: "Hvala" },
-    { izvorno: "Si us plau", izgovor: "si us PLAU", hr: "Molim" },
-    { izvorno: "Adéu", izgovor: "a-DEU", hr: "Doviđenja" },
-    { izvorno: "Quant costa?", izgovor: "kuan KOS-ta", hr: "Koliko košta?" },
-    { izvorno: "El compte, si us plau", izgovor: "el KOM-te si us PLAU", hr: "Račun, molim" },
-    { izvorno: "On és...?", izgovor: "on ES", hr: "Gdje je...?" },
-    { izvorno: "Salut!", izgovor: "sa-LUT", hr: "Živjeli!" }
+    { izvorno: "Bon dia", izgovor: "bon DEE-ah", hr: "Good day, good morning" },
+    { izvorno: "Gràcies", izgovor: "GRAH-see-es", hr: "Thank you" },
+    { izvorno: "Si us plau", izgovor: "see oos PLOW", hr: "Please" },
+    { izvorno: "Adéu", izgovor: "ah-DEH-oo", hr: "Goodbye" },
+    { izvorno: "Quant costa?", izgovor: "kwan KOS-tah", hr: "How much does it cost?" },
+    { izvorno: "El compte, si us plau", izgovor: "el KOM-teh see oos PLOW", hr: "The check, please" },
+    { izvorno: "On és...?", izgovor: "on ESS", hr: "Where is...?" },
+    { izvorno: "Salut!", izgovor: "sah-LOOT", hr: "Cheers!" }
   ],
   zanimljivosti: [
-    "Predsjednik Francuske po funkciji je i andorski knez, pa je Andora jedina monarhija na svijetu čijeg jednog vladara biraju građani druge države.",
-    "Andorra la Vella leži na oko 1023 metra nadmorske visine i najviši je glavni grad u Europi.",
-    "Zemlja nema ni zračnu luku ni željezničku prugu, a najbliža željeznička postaja nalazi se u Francuskoj.",
-    "Ruski pustolov Boris Skosirev proglasio se u srpnju 1934. andorskim kraljem Borisom I., no nakon nekoliko dana uhitila ga je španjolska policija.",
-    "Žene su u Andori dobile pravo glasa tek 1970. godine.",
-    "Andora se služi eurom iako nije u Europskoj uniji, a vlastite kovanice eura kuje od 2014. godine.",
-    "Dolina Madriu-Perafita-Claror, jedini andorski lokalitet na UNESCO-ovu popisu svjetske baštine, zauzima gotovo desetinu državnog teritorija i do nje ne vodi nijedna cesta."
+    "The president of France is also, by virtue of the office, a prince of Andorra, which makes Andorra the only monarchy in the world in which one of the rulers is elected by the citizens of another country.",
+    "Andorra la Vella lies at an elevation of about 1,023 meters and is the highest capital city in Europe.",
+    "The country has neither an airport nor a railway line, and the nearest train station is in France.",
+    "In July 1934 the Russian adventurer Boris Skossyreff proclaimed himself King Boris I of Andorra, but after a few days he was arrested by the Spanish police.",
+    "Women in Andorra did not get the right to vote until 1970.",
+    "Andorra uses the euro even though it is not in the European Union, and it has been minting its own euro coins since 2014.",
+    "The Madriu-Perafita-Claror Valley, the only Andorran site on the UNESCO World Heritage List, takes up almost a tenth of the national territory, and not a single road leads to it."
   ],
   mjesta: [
     {
       id: "andorra-la-vella",
-      ime: "Andorra la Vella i Escaldes-Engordany",
+      ime: "Andorra la Vella and Escaldes-Engordany",
       vrsta: "grad",
-      sazetak: "Glavni grad s malenom starom jezgrom, starom zgradom parlamenta i termalnim kupkama u susjednom Escaldesu.",
+      sazetak: "The capital, with a tiny old core, the old parliament building and thermal baths in neighboring Escaldes.",
       prica: [
-        "Ime grada znači Andora Stara, a dvije su župe, Andorra la Vella i Escaldes-Engordany, danas toliko srasle da ćete iz jedne u drugu prijeći a da to i ne primijetite. Glavna ulica izgleda kao trgovački centar na otvorenom, no stara četvrt Barri Antic, koja se nalazi nekoliko koraka iznad nje, sačuvala je uske uličice i kamene kuće. Predaja kaže da je Andoru utemeljio Karlo Veliki u znak zahvalnosti gorštacima koji su mu pomogli protiv Maura, i ta se legenda spominje čak i u državnoj himni."
+        "The name of the city means Andorra the Old, and the two parishes, Andorra la Vella and Escaldes-Engordany, have grown together so completely that you will cross from one into the other without even noticing. The main street looks like an open-air shopping mall, but the old quarter of Barri Antic, just a few steps above it, has kept its narrow lanes and stone houses. Tradition says that Andorra was founded by Charlemagne as a token of gratitude to the mountain people who helped him against the Moors, and that legend is even mentioned in the national anthem."
       ],
       vidjeti: [
-        { ime: "Casa de la Vall", opis: "Kamena kuća koju je 1580. podigla obitelj Busquets, a 1702. kupilo ju je andorsko vijeće i u njoj zasjedalo sve do 2011. godine. Potražite Ormar sa sedam ključeva, u kojem su se čuvali najvažniji dokumenti zemlje i koji se mogao otvoriti samo kada su bili prisutni predstavnici svih sedam župa, svaki sa svojim ključem." },
-        { ime: "Crkva Sant Esteve", opis: "Župna crkva iz 11. i 12. stoljeća kojoj je od romaničke građevine ostala polukružna apsida, dok su ostali dijelovi dograđeni u 20. stoljeću. Obiđite je s vanjske strane i pogledajte apsidu s lombardskim lukovima, koja je najstariji dio grada." },
-        { ime: "Crkva Santa Coloma", opis: "Predromanička crkva u istoimenom selu na rubu grada, jedina u Andori s okruglim zvonikom, koji je visok oko 18 metara. Njezine su zidne slike iz 12. stoljeća tridesetih godina prošlog stoljeća skinute i prodane, završile su u Berlinu, a u Andoru su vraćene 2007. i danas se čuvaju u obližnjem prostoru Espai Columba." },
-        { ime: "La Noblesse du Temps", opis: "Brončana skulptura Salvadora Dalíja visoka gotovo pet metara, s njegovim prepoznatljivim rastopljenim satom prebačenim preko debla. Stoji na trgu Plaça de la Rotonda, uz most Pont de París, i podsjeća na to kako vrijeme vlada nad ljudima." },
-        { ime: "Caldea", opis: "Termalni centar u Escaldesu sa staklenim tornjem visokim 80 metara, otvoren 1994. prema projektu francuskog arhitekta Jean-Michela Ruolsa. Voda izvire iz zemlje na oko 70 stupnjeva i bogata je sumporom, a upravo je po vrućim izvorima Escaldes dobio ime." },
-        { ime: "Dolina Madriu-Perafita-Claror", opis: "Ledenjačka dolina koja je od 2004. na UNESCO-ovu popisu svjetske baštine kao primjer načina na koji su ljudi stoljećima živjeli od planine. Uz stazu ćete vidjeti pastirske kolibe, suhozide i ostatke starih talionica željeza, a u dolinu se može ući isključivo pješice." }
+        { ime: "Casa de la Vall", opis: "A stone house built in 1580 by the Busquets family, which the Andorran council bought in 1702 and where it sat until 2011. Look for the Cupboard of the Seven Keys, where the country's most important documents were kept and which could only be opened when the representatives of all seven parishes were present, each with his own key." },
+        { ime: "The Church of Sant Esteve", opis: "A parish church from the 11th and 12th centuries, of whose Romanesque structure the semicircular apse survives, while the other parts were added in the 20th century. Walk around the outside and take a look at the apse with its Lombard arches, which is the oldest part of the city." },
+        { ime: "The Church of Santa Coloma", opis: "A pre-Romanesque church in the village of the same name on the edge of the city, the only one in Andorra with a round bell tower, which is about 18 meters tall. Its 12th-century wall paintings were removed and sold in the 1930s and ended up in Berlin, and they were returned to Andorra in 2007 and are now kept in the nearby Espai Columba." },
+        { ime: "La Noblesse du Temps", opis: "A bronze sculpture by Salvador Dalí almost five meters tall, with his unmistakable melting clock draped over a tree trunk. It stands on Plaça de la Rotonda, beside the Pont de París bridge, and is a reminder of how time rules over people." },
+        { ime: "Caldea", opis: "A thermal spa in Escaldes with a glass tower 80 meters tall, opened in 1994 to a design by the French architect Jean-Michel Ruols. The water comes out of the ground at about 70 degrees Celsius and is rich in sulfur, and it was these hot springs that gave Escaldes its name." },
+        { ime: "The Madriu-Perafita-Claror Valley", opis: "A glacial valley that has been on the UNESCO World Heritage List since 2004 as an example of the way people lived off the mountains for centuries. Along the trail you will see shepherds' huts, dry stone walls and the remains of old iron forges, and the valley can be entered only on foot." }
       ],
       jesti: [
-        { ime: "Escudella", opis: "Zimsko varivo koje se najradije jede u bordama na rubu grada, a 17. siječnja dijeli se iz kotlova na trgu." },
-        { ime: "Trinxat", opis: "Zapečeni kupus s krumpirom i slaninom, čest na jelovnicima gostionica u staroj četvrti Barri Antic." },
-        { ime: "Cargols a la llauna", opis: "Puževi pečeni u limenoj posudi i posluženi s umakom allioli, omiljeno jelo za druženje u većem društvu." }
+        { ime: "Escudella", opis: "The winter stew that people most like to eat in the bordes on the edge of the city, and which is handed out from cauldrons on the square on January 17." },
+        { ime: "Trinxat", opis: "Pan-browned cabbage with potato and bacon, a regular on the menus of the inns in the old quarter of Barri Antic." },
+        { ime: "Cargols a la llauna", opis: "Snails roasted in a tin tray and served with allioli sauce, a favorite dish for getting together in a big group." }
       ],
       dozivjeti: [
-        { ime: "Večernje kupanje u Caldei", opis: "Vanjska laguna s toplom vodom posebno je lijepa kada padne mrak i kada je zrak hladan, a oko vas se uzdižu planine.", link: "https://www.caldea.com/" },
-        { ime: "Razgled Casa de la Vall", opis: "Vođeni obilazak stare vijećnice, sudnice i kuhinje u kojoj su zastupnici nekoć zajedno ručali. Posjet je potrebno unaprijed rezervirati.", link: "https://www.casadelavall.ad/" },
-        { ime: "Šetnja u dolinu Madriu", opis: "Stara popločana staza kreće iz Escaldesa i već vas za sat vremena dovodi do prvih pastirskih koliba u Ramiju. Obujte čvrste cipele, jer je uspon od samog početka strm.", link: "https://www.madriu-perafita-claror.ad/" }
+        { ime: "An evening soak at Caldea", opis: "The outdoor lagoon with its warm water is especially lovely once darkness falls and the air is cold, with the mountains rising all around you.", link: "https://www.caldea.com/" },
+        { ime: "A tour of Casa de la Vall", opis: "A guided tour of the old council chamber, the courtroom and the kitchen where the councilors once ate lunch together. The visit has to be booked in advance.", link: "https://www.casadelavall.ad/" },
+        { ime: "A walk into the Madriu valley", opis: "The old paved path sets out from Escaldes and within an hour brings you to the first shepherds' huts at Ramio. Wear sturdy shoes, because the climb is steep from the very start.", link: "https://www.madriu-perafita-claror.ad/" }
       ],
       agencije: [
-        { ime: "Visit Andorra", opis: "Službena turistička zajednica Andore s popisom staza, muzeja i događanja.", link: "https://visitandorra.com/en/" },
-        { ime: "Turisme Andorra la Vella", opis: "Turistički ured glavnog grada, koji organizira i vođene šetnje starom jezgrom.", link: "https://www.turismeandorralavella.com/en/" }
+        { ime: "Visit Andorra", opis: "The official tourist board of Andorra, with a list of trails, museums and events.", link: "https://visitandorra.com/en/" },
+        { ime: "Turisme Andorra la Vella", opis: "The capital's tourist office, which also organizes guided walks through the old core.", link: "https://www.turismeandorralavella.com/en/" }
       ],
-      kada: "Ljeti za šetnje, zimi za terme nakon skijanja. Trgovine su najnapučenije vikendom i za španjolske i francuske praznike, pa grad obiđite radnim danom."
+      kada: "In summer for walks, in winter for the thermal baths after skiing. The shops are busiest on weekends and during Spanish and French holidays, so see the city on a weekday."
     },
     {
       id: "ordino",
       ime: "Ordino",
       vrsta: "gradić",
-      sazetak: "Najmirnija i najbolje očuvana andorska župa, kamena sela ispod visokih vrhova i nekadašnje središte obrade željeza.",
+      sazetak: "The quietest and best-preserved parish in Andorra, with stone villages beneath high peaks, and the former center of ironworking.",
       prica: [
-        "Ordino se često naziva kulturnom prijestolnicom Andore, jer su odavde potekle njezine najvažnije obitelji i pisci. Ovdje je Antoni Fiter i Rossell 1748. napisao Manual Digest, zbirku povijesti, običaja i savjeta za upravljanje zemljom, koju Andorci smatraju svojom biblijom. Bogatstvo doline stoljećima je dolazilo od željeza, a cijela je župa 2020. proglašena UNESCO-ovim rezervatom biosfere."
+        "Ordino is often called the cultural capital of Andorra, because its most important families and writers came from here. It was here in 1748 that Antoni Fiter i Rossell wrote the Manual Digest, a compendium of history, customs and advice on governing the country, which Andorrans regard as their bible. For centuries the valley's wealth came from iron, and in 2020 the entire parish was declared a UNESCO biosphere reserve."
       ],
       vidjeti: [
-        { ime: "Casa d'Areny-Plandolit", opis: "Gospodska kuća čiji najstariji dijelovi potječu iz 1633. i jedini primjer plemićkog doma u zemlji koja inače gotovo da i nije imala plemstva. Obitelj se obogatila na talionicama željeza, a njezin je član Guillem d'Areny-Plandolit 1866. predvodio reformu kojom su glavari obitelji dobili pravo glasa. Pogledajte dugi balkon od kovanog željeza, izrađen u obiteljskoj talionici." },
-        { ime: "Sant Martí de la Cortinada", opis: "Crkva iz 12. stoljeća u zaseoku La Cortinada, proširena u 17. stoljeću. Romaničke zidne slike otkrivene su tek 1968., a među svecima ćete pronaći i neobičan prikaz vuka s isplaženim račvastim jezikom." },
-        { ime: "Park prirode Sorteny", opis: "Zaštićena dolina s više od 800 biljnih vrsta, među kojima su i pirenejski endemi, pa je zovu botaničkim vrtom Andore. Najljepša je u lipnju i srpnju, kada livade cvjetaju, a staze su blage i dobro označene." },
-        { ime: "Mirador Solar de Tristaina", opis: "Vidikovac u obliku prstena na oko 2700 metara nadmorske visine, otvoren 2021. iznad skijališta Ordino Arcalís. Zamišljen je kao golemi sunčani sat, a s njega se vide tri ledenjačka jezera Tristaina i vrhovi na granici s Francuskom." },
-        { ime: "Ruta del Ferro", opis: "Tematska staza koja povezuje rudnik u Llortsu, u čiji se rov može ući s kacigom, i staru talionicu Farga Rossell u susjednoj La Massani. Uz put stoje suvremene skulpture posvećene ljudima koji su kopali i prenosili rudu." }
+        { ime: "Casa d'Areny-Plandolit", opis: "A manor house whose oldest parts date from 1633, and the only example of a nobleman's home in a country that otherwise had almost no nobility at all. The family grew rich on its iron forges, and in 1866 one of its members, Guillem d'Areny-Plandolit, led the reform that gave heads of households the right to vote. Take a look at the long wrought-iron balcony, made in the family forge." },
+        { ime: "Sant Martí de la Cortinada", opis: "A 12th-century church in the hamlet of La Cortinada, enlarged in the 17th century. The Romanesque wall paintings were only discovered in 1968, and among the saints you will also find an unusual depiction of a wolf with a forked tongue sticking out." },
+        { ime: "Sorteny Nature Park", opis: "A protected valley with more than 800 plant species, including some found only in the Pyrenees, which is why it is called the botanical garden of Andorra. It is at its most beautiful in June and July, when the meadows are in bloom, and the trails are gentle and well marked." },
+        { ime: "Mirador Solar de Tristaina", opis: "A ring-shaped viewpoint at an elevation of about 2,700 meters, opened in 2021 above the Ordino Arcalís ski resort. It was conceived as a giant sundial, and from it you can see the three glacial Tristaina lakes and the peaks on the border with France." },
+        { ime: "Ruta del Ferro", opis: "A themed trail linking the mine at Llorts, whose gallery you can enter wearing a helmet, and the old Farga Rossell forge in neighboring La Massana. Along the way stand contemporary sculptures dedicated to the people who dug and carried the ore." }
       ],
       jesti: [
-        { ime: "Meso s ražnja i žara", opis: "U bordama oko Ordina janjetina i kobasice peku se nad otvorenom vatrom i poslužuju s umakom allioli." },
-        { ime: "Truita de riu", opis: "Riječna pastrva sa šunkom, koja je u dolini rijeke Valira del Nord stalno na jelovnicima." },
-        { ime: "Coca masegada", opis: "Slatki plosnati kruh s anisom, koji se u ordinskim pekarnicama kupuje za doručak ili uz popodnevnu kavu." }
+        { ime: "Meat from the spit and the grill", opis: "In the bordes around Ordino, lamb and sausages are cooked over an open fire and served with allioli sauce." },
+        { ime: "Truita de riu", opis: "River trout with ham, a permanent fixture on menus in the valley of the Valira del Nord river." },
+        { ime: "Coca masegada", opis: "The sweet flat bread with anise, which you buy in the bakeries of Ordino for breakfast or to go with afternoon coffee." }
       ],
       dozivjeti: [
-        { ime: "Šetnja dolinom Sorteny", opis: "Lagana kružna staza kroz cvjetne livade, uz koju se nalazi i planinarski dom u kojem možete ručati.", link: "https://www.sorteny.ad/" },
-        { ime: "Muzeji u Ordinu", opis: "Kuća Areny-Plandolit i susjedni Poštanski muzej mogu se obići u jednom prijepodnevu, a ulaznice i termini objavljeni su na stranici andorskih muzeja.", link: "https://museus.ad/en/" },
-        { ime: "Žičarom do jezera Tristaina", opis: "Ljeti žičara skijališta Ordino Arcalís vozi do vidikovca, odakle se pješice možete spustiti do jezera.", link: "https://www.ordinoarcalis.com/en" }
+        { ime: "A walk through the Sorteny valley", opis: "An easy loop trail through flowering meadows, with a mountain hut along the way where you can have lunch.", link: "https://www.sorteny.ad/" },
+        { ime: "The museums in Ordino", opis: "The Areny-Plandolit house and the neighboring Postal Museum can be seen in a single morning, and tickets and time slots are published on the website of the Andorran museums.", link: "https://museus.ad/en/" },
+        { ime: "By cable car to the Tristaina lakes", opis: "In summer the cable car of the Ordino Arcalís ski resort runs up to the viewpoint, from where you can walk down to the lakes.", link: "https://www.ordinoarcalis.com/en" }
       ],
       agencije: [
-        { ime: "Comú d'Ordino", opis: "Službena stranica župe Ordino s turističkim informacijama i kalendarom događanja.", link: "https://www.ordino.ad/" },
-        { ime: "Visit Andorra", opis: "Službena turistička zajednica zemlje s opisima staza i popisom planinskih vodiča.", link: "https://visitandorra.com/en/" }
+        { ime: "Comú d'Ordino", opis: "The official website of the parish of Ordino, with tourist information and an events calendar.", link: "https://www.ordino.ad/" },
+        { ime: "Visit Andorra", opis: "The country's official tourist board, with trail descriptions and a list of mountain guides.", link: "https://visitandorra.com/en/" }
       ],
-      kada: "Od lipnja do rujna, kada cvjeta Sorteny i kada vozi žičara do Tristaine. Početkom prosinca dođite na predstavu L'última Ossa."
+      kada: "From June to September, when Sorteny is in bloom and the cable car to Tristaina is running. In early December, come for the performance of L'última Ossa."
     },
     {
       id: "canillo",
       ime: "Canillo",
       vrsta: "gradić",
-      sazetak: "Župa s najljepšom romaničkom crkvom u zemlji, nacionalnim svetištem i vidikovcima od kojih zastaje dah.",
+      sazetak: "The parish with the most beautiful Romanesque church in the country, the national sanctuary and viewpoints that take your breath away.",
       prica: [
-        "Canillo je po površini najveća andorska župa i u protokolu se uvijek navodi prva. Selo je stoljećima živjelo od stočarstva, a danas je poznato po skijalištu Grandvalira i po svetištu Meritxell, duhovnom središtu cijele zemlje. Legenda kaže da su seljaci na Sveta tri kralja, usred zime, pronašli Gospin kip pod rascvjetanim grmom divlje ruže, te da se kip, koji su dvaput odnijeli u druge crkve, svaki put čudesno vratio na isto mjesto."
+        "Canillo is the largest Andorran parish by area and is always listed first in protocol. The village lived off livestock farming for centuries, and today it is known for the Grandvalira ski resort and for the Sanctuary of Meritxell, the spiritual center of the whole country. Legend says that on Epiphany, in the middle of winter, villagers found the statue of Our Lady beneath a wild rose bush in full bloom, and that the statue, which they twice carried off to other churches, miraculously returned to the same spot each time."
       ],
       vidjeti: [
-        { ime: "Sant Joan de Caselles", opis: "Crkva iz 11. i 12. stoljeća s vitkim lombardskim zvonikom, koja se smatra najskladnijim primjerom andorske romanike. U unutrašnjosti potražite Krista u slavi iz 12. stoljeća, izrađenog od štuka, oko kojeg je naslikano raspeće s Longinom i Stefatonom, te šareni oltarni retabl iz 16. stoljeća." },
-        { ime: "Svetište Meritxell", opis: "Stara je crkva izgorjela u noći s 8. na 9. rujna 1972., zajedno s romaničkim Gospinim kipom. Novo je svetište 1976. projektirao katalonski arhitekt Ricardo Bofill, koji je spojio crni škriljevac, bijele lukove i klaustar otvoren prema planinama, a papa ga je 2014. proglasio manjom bazilikom." },
-        { ime: "Mirador Roc del Quer", opis: "Staza vidikovca duga je dvadeset metara, od čega dvanaest metara visi nad provalijom, a dio poda izrađen je od stakla. Na samom kraju na gredi sjedi brončani Mislilac, djelo kipara Miguela Ángela Gonzáleza, i mirno promatra dolinu." },
-        { ime: "Pont Tibetà", opis: "Viseći pješački most dug 603 metra, otvoren 2022. nad dolinom rijeke Riu, jedan je od najduljih mostova te vrste na svijetu. Nalazi se na gotovo 1900 metara nadmorske visine i do njega vozi isključivo autobus iz Canilla." },
-        { ime: "Creu dels Set Braços", opis: "Gotički kameni križ uz staru cestu prema Meritxellu, kojem danas nedostaje jedan krak. Uz njega se veže legenda o sedmorici mladića iz obližnjeg Pratsa i o noćnom susretu s vragom, koju će vam u selu rado ispričati u nekoliko inačica." },
-        { ime: "Vall d'Incles", opis: "Ledenjačka dolina s kamenim bordama i potokom, koju mnogi smatraju najljepšom u Andori. Ljeti je cesta zatvorena za automobile, pa se kroz dolinu hoda ili vozi električnim vlakićem." }
+        { ime: "Sant Joan de Caselles", opis: "A church from the 11th and 12th centuries with a slender Lombard bell tower, considered the most harmonious example of Andorran Romanesque. Inside, look for the 12th-century Christ in Majesty, made of stucco, around which a crucifixion with Longinus and Stephaton is painted, and for the colorful 16th-century altarpiece." },
+        { ime: "The Sanctuary of Meritxell", opis: "The old church burned down on the night of September 8 to 9, 1972, together with the Romanesque statue of Our Lady. The new sanctuary was designed in 1976 by the Catalan architect Ricardo Bofill, who combined black slate, white arches and a cloister open to the mountains, and in 2014 the pope declared it a minor basilica." },
+        { ime: "Mirador Roc del Quer", opis: "The walkway of this viewpoint is twenty meters long, twelve meters of which hang out over the drop, and part of the floor is made of glass. At the very end a bronze Thinker, the work of the sculptor Miguel Ángel González, sits on a beam and calmly contemplates the valley." },
+        { ime: "Pont Tibetà", opis: "This pedestrian suspension bridge 603 meters long, opened in 2022 over the valley of the Riu river, is one of the longest bridges of its kind in the world. It sits at an elevation of almost 1,900 meters and can only be reached by the bus from Canillo." },
+        { ime: "Creu dels Set Braços", opis: "A Gothic stone cross beside the old road to Meritxell, which today is missing one of its arms. It is tied to a legend about seven young men from nearby Prats and a nighttime encounter with the devil, which people in the village will gladly tell you in several versions." },
+        { ime: "Vall d'Incles", opis: "A glacial valley with stone bordes and a stream, which many consider the most beautiful in Andorra. In summer the road is closed to cars, so you walk through the valley or ride the little electric train." }
       ],
       jesti: [
-        { ime: "Carn a la llosa", opis: "Meso pečeno na vrućoj ploči od škriljevca, koje gosti u planinskim restoranima oko Canilla sami dovršavaju za stolom." },
-        { ime: "Escudella", opis: "Gusto varivo koje nakon dana na snijegu ili na stazi grije bolje od svega drugoga." },
-        { ime: "Formatge de tupí", opis: "Jaki sir iz glinenog lončića, koji se ovdje poslužuje s medom i orasima na kraju obroka." }
+        { ime: "Carn a la llosa", opis: "Meat cooked on a hot slab of slate, which guests in the mountain restaurants around Canillo finish off themselves at the table." },
+        { ime: "Escudella", opis: "The thick stew that warms you better than anything else after a day in the snow or on the trail." },
+        { ime: "Formatge de tupí", opis: "The strong cheese from the little clay pot, which is served here with honey and walnuts at the end of the meal." }
       ],
       dozivjeti: [
-        { ime: "Prijelaz preko mosta Pont Tibetà", opis: "Ulaznice se kupuju unaprijed, a u cijenu je uključen autobus iz sela. Most je preko zime zatvoren, dok je vidikovac Roc del Quer otvoren cijele godine.", link: "https://www.ponttibetacanillo.com/" },
-        { ime: "Klizanje u dvorani Palau de Gel", opis: "Ledena dvorana olimpijskih dimenzija u središtu sela, dobra zamjena za izlet kada vrijeme u planini nije lijepo.", link: "https://www.palaudegel.ad/en/" },
-        { ime: "Šetnja dolinom Incles", opis: "Ravna staza uz potok vodi do kraja doline, odakle se oni u boljoj kondiciji mogu popeti do jezera Juclà, najvećeg u Andori." }
+        { ime: "Crossing the Pont Tibetà", opis: "Tickets are bought in advance, and the bus from the village is included in the price. The bridge is closed over the winter, while the Roc del Quer viewpoint is open all year round.", link: "https://www.ponttibetacanillo.com/" },
+        { ime: "Ice skating at the Palau de Gel", opis: "An Olympic-size indoor ice rink in the center of the village, a good substitute for a day out when the weather in the mountains is poor.", link: "https://www.palaudegel.ad/en/" },
+        { ime: "A walk through the Incles valley", opis: "A level path along the stream leads to the head of the valley, from where those in better shape can climb to Juclà lake, the largest in Andorra." }
       ],
       agencije: [
-        { ime: "Pont Tibetà i Roc del Quer", opis: "Službena stranica župe Canillo za ulaznice i informacije o mostu, vidikovcu i dolini rijeke Riu.", link: "https://www.ponttibetacanillo.com/" },
-        { ime: "Visit Andorra", opis: "Službena turistička zajednica zemlje, na čijim stranicama stoje radna vremena romaničkih crkava.", link: "https://visitandorra.com/en/" }
+        { ime: "Pont Tibetà and Roc del Quer", opis: "The official website of the parish of Canillo for tickets and information about the bridge, the viewpoint and the valley of the Riu river.", link: "https://www.ponttibetacanillo.com/" },
+        { ime: "Visit Andorra", opis: "The country's official tourist board, whose website lists the opening hours of the Romanesque churches.", link: "https://visitandorra.com/en/" }
       ],
-      kada: "Od lipnja do listopada za vidikovce i doline. Romaničke crkve imaju stalno radno vrijeme uglavnom u srpnju i kolovozu, a izvan sezone otvaraju se uz najavu, pa to provjerite prije dolaska."
+      kada: "From June to October for the viewpoints and valleys. The Romanesque churches keep regular opening hours mostly in July and August, and out of season they open by prior arrangement, so check before you come."
     }
   ],
   izvori: [
     { ime: "Visit Andorra", url: "https://visitandorra.com/en/" },
-    { ime: "Visit Andorra: svjetska baština u Andori", url: "https://visitandorra.com/en/culture/world-heritage-in-andorra" },
-    { ime: "Visit Andorra: medvjeđe svečanosti", url: "https://visitandorra.com/en/culture/bear-festivities-in-andorra" },
+    { ime: "Visit Andorra: World Heritage in Andorra", url: "https://visitandorra.com/en/culture/world-heritage-in-andorra" },
+    { ime: "Visit Andorra: bear festivities", url: "https://visitandorra.com/en/culture/bear-festivities-in-andorra" },
     { ime: "UNESCO: Bear festivities in the Pyrenees", url: "https://ich.unesco.org/en/RL/bear-festivities-in-the-pyrenees-01846" },
     { ime: "Museus d'Andorra", url: "https://museus.ad/en/" },
     { ime: "Casa de la Vall", url: "https://www.casadelavall.ad/" },
     { ime: "Vall del Madriu-Perafita-Claror", url: "https://www.madriu-perafita-claror.ad/" },
     { ime: "Parc natural de la vall de Sorteny", url: "https://www.sorteny.ad/" },
-    { ime: "Pont Tibetà i Roc del Quer, Canillo", url: "https://www.ponttibetacanillo.com/" }
+    { ime: "Pont Tibetà and Roc del Quer, Canillo", url: "https://www.ponttibetacanillo.com/" }
   ]
 };

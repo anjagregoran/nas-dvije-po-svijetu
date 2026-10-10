@@ -99,7 +99,7 @@ window.ATLAS["maldivi"] = {
       ],
       jesti: [
         { ime: "Večera kod domaćina", opis: "Pansioni na naseljenim otocima kuhaju domaća jela: garudhiyu, curry od tune i roshi, često za zajedničkim stolom." },
-        { ime: "Riba koju ste same ulovile", opis: "Na večernjem ribolovu s dhonija lovi se povrazom s rukom, a ulov se zatim ispeče na žaru na plaži." },
+        { ime: "Riba koju ste same ulovile", opis: "Na večernjem ribolovu s dhonija lovi se povrazom iz ruke, a ulov se zatim ispeče na žaru na plaži." },
         { ime: "Mladi kokos", opis: "Otvara se pred vama i najbolje je osvježenje nakon plivanja." }
       ],
       dozivjeti: [

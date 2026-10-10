@@ -50,7 +50,7 @@ window.ATLAS["sejseli"] = {
     "Victoria je jedan od najmanjih glavnih gradova na svijetu i može se obići pješice za sat vremena.",
     "Predaja kaže da je gusar Olivier Levasseur, zvan La Buse, prije vješanja 1730. bacio u gomilu šifriranu poruku o blagu, koje se na Mahéu traži do danas.",
     "Britanski general Charles Gordon posjetio je Praslin 1881. i bio uvjeren da je dolina Vallée de Mai biblijski rajski vrt.",
-    "Sejšelski grmuša spašena je na otoku Cousin: 1960-ih preostalo je svega 26 ptica, a danas ih je nekoliko tisuća."
+    "Sejšelska grmuša spašena je na otoku Cousin: 1960-ih preostalo je svega 26 ptica, a danas ih je nekoliko tisuća."
   ],
   mjesta: [
     {

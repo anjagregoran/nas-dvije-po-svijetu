@@ -135,7 +135,7 @@ window.ATLAS["portoriko"] = {
       vidjeti: [
         { ime: "Parque de Bombas", opis: "Drveni paviljon na crvene i crne pruge sagrađen je 1882. za izložbu, a zatim je više od stotinu godina bio vatrogasni dom. Crvena i crna boje su grada. Unutra su stara vatrogasna kola i priča o vatrogascima koji su 1899. spasili grad kad je gorjelo skladište baruta." },
         { ime: "Plaza Las Delicias", opis: "Glavni trg dijeli katedrala Gospe od Guadalupe na dva dijela. Na jednom je Fontana lavova, kupljena nakon Svjetske izložbe u New Yorku 1939., koja je navečer osvijetljena u bojama." },
-        { ime: "Museo de Arte de Ponce", opis: "Muzej je 1959. osnovao industrijalac Luis A. Ferré, a zgradu sa šesterokutnim dvoranama projektirao je Edward Durell Stone. Ima jednu od najvažnijih zbirki europskoga slikarstva na Karibima, a zaštitni mu je znak Usplamtjeli lipanj Frederica Leightona, usnula djevojka u narančastoj haljini. Zbog obnove nakon potresa provjerite što je otvoreno.", },
+        { ime: "Museo de Arte de Ponce", opis: "Muzej je 1959. osnovao industrijalac Luis A. Ferré, a zgradu sa šesterokutnim dvoranama projektirao je Edward Durell Stone. Ima jednu od najvažnijih zbirki europskoga slikarstva na Karibima, a zaštitni mu je znak Usplamtjeli lipanj Frederica Leightona, usnula djevojka u narančastoj haljini. Zbog obnove nakon potresa provjerite što je otvoreno." },
         { ime: "Castillo Serrallés", opis: "Vilu u španjolskom stilu sagradila je tridesetih godina 20. stoljeća obitelj proizvođača ruma. Stoji na brežuljku iznad grada, s vrtovima i malim muzejom šećera i ruma, a iznad nje je vidikovac u obliku križa." },
         { ime: "Centro Ceremonial Indígena de Tibes", opis: "Kad je 1975. nakon uragana rijeka nabujala i odnijela sloj zemlje, pokazali su se ostaci sela starijega od kulture Taíno. Ondje je nekoliko kamenom obrubljenih igrališta za igru loptom, najstarijih na Antilima, od kojih je jedno, čini se, služilo i za praćenje nebeskih tijela." },
         { ime: "Hacienda Buena Vista", opis: "U brdima iznad grada obnovljeno je imanje kave iz 19. stoljeća s izvornim strojevima koje pokreće voda iz kanala. Vodi ga zaklada za zaštitu prirode, a posjet je moguć samo uz rezervaciju." }
@@ -159,7 +159,6 @@ window.ATLAS["portoriko"] = {
     }
   ],
   izvori: [
-    { ime: "Discover Puerto Rico", url: "https://www.discoverpuertorico.com/" },
     { ime: "San Juan National Historic Site (National Park Service)", url: "https://www.nps.gov/saju/index.htm" },
     { ime: "UNESCO: La Fortaleza i Nacionalno povijesno mjesto San Juan", url: "https://whc.unesco.org/en/list/266" },
     { ime: "El Yunque National Forest (USDA Forest Service)", url: "https://www.fs.usda.gov/r08/elyunque" },

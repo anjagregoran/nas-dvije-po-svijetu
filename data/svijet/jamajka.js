@@ -102,7 +102,7 @@ window.ATLAS["jamajka"] = {
         { ime: "Sam Sharpe Square", opis: "Na glavnom trgu Montego Baya stoji spomenik Samu Sharpeu, koji je ovdje obješen 1832. i danas je nacionalni junak. Uz njega je The Cage, kamena ćelija iz 1806. u koju su zatvarali odbjegle robove i pijane mornare." },
         { ime: "Falmouth", opis: "Gradić osnovan 1769. bio je najprometnija luka šećera na otoku i sačuvao je najbolju cjelinu georgijanske arhitekture na Karibima. Prošećite ulicom Market Street i pogledajte sudnicu i baptističku crkvu Williama Knibba, borca protiv ropstva." },
         { ime: "Svjetleća laguna", opis: "Na ušću rijeke Martha Brae kraj Falmoutha žive mikroskopski organizmi koji zasvijetle plavozeleno kad se voda uzburka. Noću se čamcem isplovi na sredinu, pa tko zapliva, ostavlja za sobom svijetleći trag." },
-        { ime: "Dunn's River Falls", opis: "Kraj Ocho Riosa rijeka se niz sto osamdeset metara vapnenačkih terasa spušta ravno na plažu. Uzvodno se penje u lancu, držeći se za ruke, s vodičem koji zna gdje je kamen sklizak. Slap sam obnavlja svoje stijene taloženjem vapnenca.", },
+        { ime: "Dunn's River Falls", opis: "Kraj Ocho Riosa rijeka se niz sto osamdeset metara vapnenačkih terasa spušta ravno na plažu. Uzvodno se penje u lancu, držeći se za ruke, s vodičem koji zna gdje je kamen sklizak. Slap sam obnavlja svoje stijene taloženjem vapnenca." },
         { ime: "Nine Mile", opis: "U selu u brdima iznad obale Bob Marley rodio se 1945. i ondje je pokopan, u mauzoleju uz kućicu u kojoj je odrastao. Posjetiteljima se pokazuje kamen na koji je, prema pjesmi, naslanjao glavu." }
       ],
       jesti: [
@@ -134,7 +134,7 @@ window.ATLAS["jamajka"] = {
       ],
       vidjeti: [
         { ime: "Blue Lagoon", opis: "Laguna okružena šumom duboka je pedesetak metara i hrane je hladni slatkovodni izvori s dna, dok s mora ulazi topla slana voda. Zato boja tijekom dana prelazi iz tirkizne u tamnomodru, a pri plivanju se osjećaju topli i hladni slojevi." },
-        { ime: "Frenchman's Cove", opis: "U maloj uvali hladna rječica vijuga preko bijeloga pijeska i ulijeva se u more, pa se možete kupati u slatkoj i slanoj vodi u razmaku od deset koraka. Plaža pripada imanju i ulaz se naplaćuje.", },
+        { ime: "Frenchman's Cove", opis: "U maloj uvali hladna rječica vijuga preko bijeloga pijeska i ulijeva se u more, pa se možete kupati u slatkoj i slanoj vodi u razmaku od deset koraka. Plaža pripada imanju i ulaz se naplaćuje." },
         { ime: "Boston Bay", opis: "Na ovoj se plaži prodaje jerk od četrdesetih godina 20. stoljeća, a mještani je zovu njegovom kolijevkom. Meso se peče satima na zelenim granama pimenta iznad žara, pokriveno limom. Zaljev je i jedno od rijetkih mjesta na otoku s valovima za jahanje na dasci." },
         { ime: "Reach Falls", opis: "Na istoku okruga rijeka pada preko vapnenačke stijene u smaragdni bazen, a uzvodno se s vodičem hoda i pliva kroz niz manjih bazena i prolazi kroz špilju iza vodenoga zastora." },
         { ime: "Moore Town", opis: "Marunsko selo u dolini rijeke Rio Grande osnovano je nakon mira 1739. i do danas ima vlastitoga poglavara, koji nosi naslov pukovnika. Ondje je Bump Grave, grob vođe Nanny, jedine žene među nacionalnim junacima Jamajke." },

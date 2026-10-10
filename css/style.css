@@ -322,3 +322,6 @@ body.locked { overflow: hidden; }
 .trip .badge { margin: 0; }
 .trip .badge.plan { background: var(--butter); }
 .empty { border-radius: 24px; padding: 22px; box-shadow: inset 0 0 0 1.5px var(--line); color: var(--soft); font-size: .95rem; }
+
+.btn.big { font-size: .9rem; padding: 18px 34px; }
+#finder[hidden] { display: none; }

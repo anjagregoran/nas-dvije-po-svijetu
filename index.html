@@ -30,9 +30,14 @@
       <section class="hero">
         <span class="label">Vodič po svijetu</span>
         <h1>Znati što <em>gledaš.</em></h1>
-        <p class="lead">Upišite bilo koje mjesto na svijetu i otvorite ga: što vidjeti, što se ondje jede, što doživjeti i kome se obratiti.</p>
-        <form class="search" id="form"><input type="search" id="q" placeholder="Bilo koji grad ili zemlja na svijetu" autocomplete="off"></form>
-        <div class="results" id="res"></div>
+        <p class="lead">Što se ondje jede, što domaći rade, koji su skriveni dragulji i što ponijeti kući, za svako mjesto na jednom mjestu.</p>
+        <p style="margin:0"><button type="button" class="btn big" id="next">Što posjetiti sljedeće?</button></p>
+        <div id="finder" hidden>
+          <form class="search" id="form" style="margin-top:22px"><input type="search" id="q" placeholder="Upišite grad ili zemlju" autocomplete="off"></form>
+          <div class="results" id="res"></div>
+          <p style="margin:16px 0 0"><button type="button" class="ghost" id="surprise">Iznenadi me</button></p>
+          <div id="pick"></div>
+        </div>
       </section>
     </div>
 

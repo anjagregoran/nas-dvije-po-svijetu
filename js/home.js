@@ -105,6 +105,22 @@
     if (raw) location.href = 'trazi.html?q=' + encodeURIComponent(raw);
   });
 
+  // ---------- što posjetiti sljedeće ----------
+  var finder = document.getElementById('finder');
+  document.getElementById('next').addEventListener('click', function () {
+    finder.hidden = !finder.hidden;
+    if (!finder.hidden) document.getElementById('q').focus();
+  });
+  var onlyPlaces = I.trazi.filter(function (e) { return e[1] !== 'Zemlja' && e[1] !== 'Veliki vodič'; });
+  function surprise() {
+    var e = onlyPlaces[Math.floor(Math.random() * onlyPlaces.length)];
+    if (!e) return;
+    document.getElementById('pick').innerHTML =
+      '<a class="pcard" href="' + esc(e[2]) + '" style="max-width:620px;margin:16px auto 0;text-align:left"><span class="badge plain">' + esc(e[1]) + '</span>' +
+      '<h3 style="font-size:2.2rem">' + esc(e[0]) + '</h3><p>Dodirnite da vidite što se ondje jede, radi i kupuje.</p><span class="arrow">→</span></a>';
+  }
+  document.getElementById('surprise').addEventListener('click', surprise);
+
   // ---------- činjenice ----------
   function fact() {
     var f = I.cinjenice[Math.floor(Math.random() * I.cinjenice.length)];

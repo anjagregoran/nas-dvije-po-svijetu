@@ -2,251 +2,251 @@ window.ATLAS = window.ATLAS || {};
 window.ATLAS["peru"] = {
   id: "peru",
   ime: "Peru",
-  regija: "Južna Amerika",
-  sazetak: "Zemlja Inka i jedne od najboljih kuhinja svijeta, u kojoj se od ceviche uz ocean do Machu Picchua u oblacima putuje kroz tri posve različita svijeta.",
+  regija: "South America",
+  sazetak: "The land of the Incas and of one of the world's great cuisines, where the journey from ceviche by the ocean to Machu Picchu in the clouds takes you through three entirely different worlds.",
   uvod: [
-    "Peru se dijeli na tri pojasa koja teku usporedno od sjevera do juga: pustinjsku obalu, visoke Ande i amazonsku prašumu. Na tom su prostoru tisućama godina prije Inka cvjetale kulture poput Nazce, Mochea i Chavína, a Inke su u 15. stoljeću iz Cusca stvorili najveće carstvo pretkolumbovske Amerike, povezano desecima tisuća kilometara popločanih cesta.",
-    "Španjolac Francisco Pizarro srušio je carstvo 1532. i Lima je postala najbogatiji grad španjolske Južne Amerike. Današnji je Peru spoj andskog i španjolskog nasljeđa, kojem su svoje dodali afrički, kineski i japanski doseljenici, što se najbolje vidi na tanjuru. U Andama se i danas govori kečuanski, jezik Inka."
+    "Peru is divided into three zones that run side by side from north to south: the desert coast, the high Andes and the Amazon rainforest. For thousands of years before the Incas, cultures such as the Nazca, the Moche and the Chavín flourished in this land, and in the 15th century the Incas, from their base in Cusco, built the largest empire of the pre-Columbian Americas, tied together by tens of thousands of kilometers of paved roads.",
+    "The Spaniard Francisco Pizarro brought the empire down in 1532, and Lima became the richest city in Spanish South America. Today's Peru is a blend of Andean and Spanish heritage, to which African, Chinese and Japanese immigrants added their own, and nowhere is that clearer than on the plate. In the Andes people still speak Quechua, the language of the Incas."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suha sezona u Andama traje od svibnja do rujna i tada je najbolje vrijeme za Cusco i Machu Picchu. Lima je sunčana od prosinca do travnja, a ostatak godine prekriva je siva izmaglica." },
-    { k: "Valuta", v: "Peruanski sol (PEN). U manjim mjestima i na tržnicama potrebna je gotovina u sitnim novčanicama." },
-    { k: "Kretanje", v: "Između velikih gradova letovima ili udobnim noćnim autobusima. Do Machu Picchua vozi samo vlak, a karte treba kupiti unaprijed." },
-    { k: "Napojnica", v: "U restoranima oko 10 posto ako usluga nije uračunata. Vodičima i nosačima na stazama napojnica je važan dio zarade." },
-    { k: "Visina", v: "Cusco je na 3400 metara, a jezero Titicaca na 3800. Prva dva dana hodajte polako, jedite lagano i pijte čaj od listova koke." }
+    { k: "When to go", v: "The dry season in the Andes runs from May to September, and that is the best time for Cusco and Machu Picchu. Lima is sunny from December to April, and for the rest of the year it lies under a gray haze." },
+    { k: "Currency", v: "Peruvian sol (PEN). In smaller towns and at markets you need cash in small bills." },
+    { k: "Getting around", v: "Between the big cities you travel by plane or by comfortable overnight bus. Only the train runs to Machu Picchu, and tickets need to be bought in advance." },
+    { k: "Tipping", v: "In restaurants about 10 percent if service is not included. For guides and porters on the trails, tips are an important part of their income." },
+    { k: "Altitude", v: "Cusco sits at 3,400 meters and Lake Titicaca at 3,800. For the first two days walk slowly, eat lightly and drink coca leaf tea." }
   ],
   hrana: [
-    { ime: "Ceviche", opis: "Kockice sirove ribe kratko marinirane u soku limete, s crvenim lukom, ljutom papričicom i korijandrom.", prica: "Nacionalno jelo Perua poslužuje se uz slatki krumpir i kukuruz krupnog zrna, a jede se isključivo za ručak, dok je riba jutarnja. Sok koji ostane na dnu zove se leche de tigre, tigrovo mlijeko, i pije se iz čašice." },
-    { ime: "Lomo saltado", opis: "Trake govedine naglo pržene u woku s lukom, rajčicom i umakom od soje, uz rižu i pržene krumpiriće.", prica: "Jelo je nastalo iz susreta peruanskih namirnica i tehnike kineskih doseljenika, koji su u 19. stoljeću došli raditi na plantažama. Ta se kinesko-peruanska kuhinja zove chifa i ima restoran u svakoj ulici." },
-    { ime: "Ají de gallina", opis: "Trgana piletina u gustom žutom umaku od papričice ají amarillo, kruha, mlijeka i oraha.", prica: "Tipično kućno jelo Lime, blago ljuto i vrlo zasitno, poslužuje se s rižom, kuhanim krumpirom i crnom maslinom. Žuta papričica ají amarillo temelj je peruanske kuhinje i više je voćna nego ljuta." },
-    { ime: "Anticuchos", opis: "Ražnjići od mariniranog goveđeg srca pečeni na žaru.", prica: "Prodaju se navečer na ulici, uz kuhani krumpir i kukuruz. Vjeruje se da su ih usavršili afrički robovi u kolonijalnoj Limi, kojima su gospodari ostavljali iznutrice." },
-    { ime: "Causa limeña", opis: "Hladni slojeviti kolač od žutog krumpira začinjenog limetom i papričicom, punjen tunom, piletinom ili rakovima.", prica: "Jedna predaja ime povezuje s ratovima za neovisnost, kada su ga žene prodavale por la causa, za stvar slobode. Vjerojatnije je da dolazi od kečuanske riječi kausay, koja znači hrana i život." },
-    { ime: "Cuy", opis: "Zamorac, pečen u peći ili pržen, svečano jelo andskih krajeva.", prica: "U Andama se uzgaja tisućama godina i jede za blagdane i obiteljska slavlja. Na slici Posljednje večere u katedrali u Cuscu upravo je zamorac na pladnju pred Isusom." },
-    { ime: "Pisco sour", opis: "Koktel od rakije pisco, soka limete, šećernog sirupa, bjelanjka i kapi bittera.", prica: "Pisco je rakija od grožđa koja se peče na južnoj obali, oko gradova Ica i Pisco. Koktel je nastao 1920-ih u Limi, u baru doseljenika iz SAD-a Victora Morrisa, a s Čileom se Peru i danas spori oko toga čiji je pisco." },
-    { ime: "Chicha morada", opis: "Bezalkoholno piće od kuhanog ljubičastog kukuruza s ananasom, cimetom i klinčićima.", prica: "Poslužuje se hladna uz svaki ručak. Ne treba je miješati s chichom de jora, fermentiranim kukuruznim pivom Anda, koje se toči u kućama označenima crvenom zastavicom na štapu." },
-    { ime: "Picarones", opis: "Prženi kolutovi od tijesta s batatom i bundevom, preliveni sirupom od nerafiniranog šećera.", prica: "Peruanski odgovor na španjolske buñuelose, nastao u kolonijalnoj Limi. Najbolji su vrući, s uličnog štanda u predvečerje." }
+    { ime: "Ceviche", opis: "Cubes of raw fish briefly marinated in lime juice, with red onion, chili pepper and cilantro.", prica: "Peru's national dish is served with sweet potato and large-kernel corn, and it is eaten strictly at lunch, while the fish is still the morning's catch. The juice left at the bottom is called leche de tigre, tiger's milk, and is drunk from a small glass." },
+    { ime: "Lomo saltado", opis: "Strips of beef flash-fried in a wok with onion, tomato and soy sauce, served with rice and french fries.", prica: "The dish was born from the meeting of Peruvian ingredients and the technique of Chinese immigrants, who came in the 19th century to work on the plantations. This Chinese-Peruvian cuisine is called chifa and has a restaurant on every street." },
+    { ime: "Ají de gallina", opis: "Shredded chicken in a thick yellow sauce of ají amarillo pepper, bread, milk and walnuts.", prica: "A typical home-cooked dish of Lima, mildly spicy and very filling, served with rice, boiled potato and a black olive. The yellow ají amarillo pepper is the foundation of Peruvian cooking and is more fruity than hot." },
+    { ime: "Anticuchos", opis: "Skewers of marinated beef heart cooked on the grill.", prica: "They are sold in the street in the evening, with boiled potato and corn. They are believed to have been perfected by African slaves in colonial Lima, to whom their masters left the offal." },
+    { ime: "Causa limeña", opis: "A cold layered cake of yellow potato seasoned with lime and chili, filled with tuna, chicken or crab.", prica: "One tradition links the name to the wars of independence, when women sold it por la causa, for the cause of freedom. More likely it comes from the Quechua word kausay, which means food and life." },
+    { ime: "Cuy", opis: "Guinea pig, roasted in the oven or fried, the festive dish of the Andean regions.", prica: "It has been raised in the Andes for thousands of years and is eaten at holidays and family celebrations. In the painting of the Last Supper in the cathedral of Cusco, it is a guinea pig that lies on the platter in front of Jesus." },
+    { ime: "Pisco sour", opis: "A cocktail of pisco brandy, lime juice, sugar syrup, egg white and a few drops of bitters.", prica: "Pisco is a grape brandy distilled on the southern coast, around the cities of Ica and Pisco. The cocktail was created in the 1920s in Lima, in the bar of Victor Morris, an immigrant from the USA, and Peru and Chile still argue over whose pisco it is." },
+    { ime: "Chicha morada", opis: "A non-alcoholic drink of boiled purple corn with pineapple, cinnamon and cloves.", prica: "It is served cold with every lunch. It should not be confused with chicha de jora, the fermented corn beer of the Andes, which is poured in houses marked with a little red flag on a pole." },
+    { ime: "Picarones", opis: "Fried rings of dough made with sweet potato and squash, drizzled with a syrup of unrefined sugar.", prica: "Peru's answer to Spanish buñuelos, created in colonial Lima. They are best hot, from a street stall in the early evening." }
   ],
   obicaji: [
-    { ime: "Marinera", opis: "Elegantni ples udvaranja s obale, u kojem par kruži jedno oko drugoga mašući bijelim rupčićima. Plesačica u sjevernoj verziji pleše bosa, a plesač nosi slamnati šešir širokog oboda.", gdje: "Nacionalno natjecanje održava se krajem siječnja u Trujillu. U Limi se marinera i kreolska glazba mogu čuti u peñama u četvrti Barranco." },
-    { ime: "Música criolla i cajón", opis: "Gradska glazba obale, valceri i afroperuanski ritmovi, svira se uz gitaru i cajón, drvenu kutiju na kojoj svirač sjedi i udara je dlanovima. Cajón su stvorili afrički robovi, a odavde je ušao i u flamenko.", gdje: "U peñama u Limi, osobito u Barrancu, gdje se uz večeru svira i pleše do kasno. Dan kreolske pjesme slavi se 31. listopada." },
-    { ime: "Huayno", opis: "Najrašireniji ples i glazba Anda, živahnog ritma, uz harfu, violinu, frulu quena i malu gitaru charango.", gdje: "Na svakoj seoskoj svetkovini u Andama, a u Cuscu u večernjim folklornim programima i na trgovima tijekom lipnja." },
-    { ime: "Inti Raymi", opis: "Svetkovina Sunca kojom su Inke slavili zimski solsticij i početak nove godine. Španjolci su je zabranili, a od 1944. ponovno se izvodi kao velika predstava sa stotinama sudionika.", gdje: "U Cuscu 24. lipnja, s povorkom od hrama Qorikancha preko glavnog trga do tvrđave Sacsayhuamán." },
-    { ime: "Andsko tkanje", opis: "Tkalje u Andama i danas predu vunu alpake vretenom u hodu i boje je biljkama i kukcem cochinilla, koji daje crvenu boju. Uzorci na tkanini otkrivaju iz kojeg je sela tkalja.", gdje: "U selu Chinchero u Svetoj dolini, gdje tkalačke zadruge pokazuju cijeli postupak. Na otoku Taquile na jezeru Titicaca pletu muškarci." },
-    { ime: "Dar Pachamami", opis: "Prije pića se nekoliko kapi prolije na tlo, za Majku Zemlju. U kolovozu se priređuje pago a la tierra, obredni dar od listova koke, žitarica i slatkiša koji se spaljuje ili zakapa.", gdje: "U Cuscu i Svetoj dolini obred vode andski svećenici zvani paqo, a možete mu prisustvovati preko zajednica koje se bave seoskim turizmom." }
+    { ime: "Marinera", opis: "An elegant courtship dance from the coast, in which the couple circle one another while waving white handkerchiefs. In the northern version the woman dances barefoot, and the man wears a wide-brimmed straw hat.", gdje: "The national competition is held at the end of January in Trujillo. In Lima, marinera and criolla music can be heard in the peñas of the Barranco district." },
+    { ime: "Música criolla and the cajón", opis: "The urban music of the coast, waltzes and Afro-Peruvian rhythms, is played on the guitar and the cajón, a wooden box that the player sits on and strikes with the palms. The cajón was created by African slaves, and from here it also made its way into flamenco.", gdje: "In the peñas of Lima, especially in Barranco, where there is music and dancing over dinner until late. The Day of the Criolla Song is celebrated on October 31." },
+    { ime: "Huayno", opis: "The most widespread dance and music of the Andes, with a lively rhythm, accompanied by the harp, the violin, the quena flute and the small guitar called the charango.", gdje: "At every village festival in the Andes, and in Cusco in the evening folklore shows and on the squares throughout June." },
+    { ime: "Inti Raymi", opis: "The Festival of the Sun, with which the Incas celebrated the winter solstice and the beginning of the new year. The Spanish banned it, and since 1944 it has been staged again as a grand pageant with hundreds of participants.", gdje: "In Cusco on June 24, with a procession from the Qorikancha temple across the main square to the fortress of Sacsayhuamán." },
+    { ime: "Andean weaving", opis: "Weavers in the Andes still spin alpaca wool on a drop spindle as they walk, and dye it with plants and with the cochineal insect, which gives the color red. The patterns in the cloth reveal which village the weaver comes from.", gdje: "In the village of Chinchero in the Sacred Valley, where the weaving cooperatives demonstrate the whole process. On Taquile Island on Lake Titicaca it is the men who knit." },
+    { ime: "An offering to Pachamama", opis: "Before drinking, a few drops are poured on the ground for Mother Earth. In August people prepare a pago a la tierra, a ritual offering of coca leaves, grains and sweets that is burned or buried.", gdje: "In Cusco and the Sacred Valley the ritual is led by Andean priests called paqos, and you can attend one through the communities that offer rural tourism." }
   ],
   fraze: [
-    { izvorno: "Buenos días", izgovor: "BUE-nos DI-as", hr: "Dobro jutro, dobar dan" },
-    { izvorno: "Gracias", izgovor: "GRA-sjas", hr: "Hvala" },
-    { izvorno: "Por favor", izgovor: "por fa-VOR", hr: "Molim" },
-    { izvorno: "¿Cuánto cuesta?", izgovor: "KUAN-to KUES-ta", hr: "Koliko košta?" },
-    { izvorno: "La cuenta, por favor", izgovor: "la KUEN-ta, por fa-VOR", hr: "Račun, molim" },
-    { izvorno: "¿Pica mucho?", izgovor: "PI-ka MU-čo", hr: "Je li jako ljuto?" },
-    { izvorno: "Sulpayki", izgovor: "sul-PAJ-ki", hr: "Hvala (kečuanski)" },
-    { izvorno: "Allillanchu", izgovor: "a-lji-LJAN-ču", hr: "Kako si? (kečuanski pozdrav)" }
+    { izvorno: "Buenos días", izgovor: "BWEH-nohs DEE-ahs", hr: "Good morning, good day" },
+    { izvorno: "Gracias", izgovor: "GRAH-syahs", hr: "Thank you" },
+    { izvorno: "Por favor", izgovor: "por fah-VOR", hr: "Please" },
+    { izvorno: "¿Cuánto cuesta?", izgovor: "KWAHN-toh KWEHS-tah", hr: "How much does it cost?" },
+    { izvorno: "La cuenta, por favor", izgovor: "lah KWEHN-tah, por fah-VOR", hr: "The check, please" },
+    { izvorno: "¿Pica mucho?", izgovor: "PEE-kah MOO-choh", hr: "Is it very spicy?" },
+    { izvorno: "Sulpayki", izgovor: "sool-PIE-kee", hr: "Thank you (Quechua)" },
+    { izvorno: "Allillanchu", izgovor: "ah-lyee-LYAHN-choo", hr: "How are you? (a Quechua greeting)" }
   ],
   zanimljivosti: [
-    "Krumpir potječe iz Anda, a u Peruu se uzgaja više od tri tisuće sorti, u svim bojama od žute do tamnoljubičaste.",
-    "Inke nisu imali pismo, već su podatke bilježili čvorovima na uzicama zvanima kipu.",
-    "Carska cesta Qhapaq Ñan protezala se kroz šest današnjih država i na UNESCO-ovu je popisu od 2014.",
-    "Grad Caral, sjeverno od Lime, star je oko pet tisuća godina i najstariji je poznati grad u Americi.",
-    "Vikunja, divlja rođakinja ljame čija je vuna među najskupljima na svijetu, nalazi se na peruanskom grbu.",
-    "U Limi gotovo nikada ne pada prava kiša, iako je nebo pola godine posve sivo."
+    "The potato comes from the Andes, and more than three thousand varieties are grown in Peru, in every color from yellow to deep purple.",
+    "The Incas had no writing and recorded information with knots on cords called quipu.",
+    "The imperial road Qhapaq Ñan ran through six of today's countries and has been on the UNESCO list since 2014.",
+    "The city of Caral, north of Lima, is about five thousand years old and is the oldest known city in the Americas.",
+    "The vicuña, a wild relative of the llama whose wool is among the most expensive in the world, appears on the Peruvian coat of arms.",
+    "Real rain almost never falls in Lima, even though the sky is completely gray for half the year."
   ],
   mjesta: [
     {
       id: "lima",
       ime: "Lima",
       vrsta: "grad",
-      sazetak: "Prijestolnica na liticama iznad Tihog oceana, u koju se danas putuje ponajprije zbog hrane.",
+      sazetak: "A capital on the cliffs above the Pacific Ocean, which people now visit above all for the food.",
       prica: [
-        "Limu je 18. siječnja 1535. osnovao Francisco Pizarro pod imenom Grad kraljeva, jer mu je trebala prijestolnica uz more, s lukom prema Španjolskoj. Gotovo tri stoljeća bila je sjedište potkraljevstva kroz koje je prolazilo srebro iz Anda.",
-        "Od tog su doba ostali samostani i palače s izrezbarenim drvenim balkonima, a među neboderima modernih četvrti stoje i piramide od nepečene opeke, tisuću godina starije od Inka."
+        "Lima was founded on January 18, 1535, by Francisco Pizarro under the name City of the Kings, because he needed a capital by the sea, with a port facing Spain. For almost three centuries it was the seat of the viceroyalty through which the silver of the Andes passed.",
+        "From that era the monasteries and the palaces with carved wooden balconies remain, and among the high-rises of the modern districts there also stand adobe pyramids a thousand years older than the Incas."
       ],
       vidjeti: [
-        { ime: "Plaza Mayor i katedrala", opis: "Trg na kojem je Pizarro osobno razdijelio parcele okružen je žutim zgradama s tamnim drvenim balkonima u maurskom stilu. U prvoj kapeli katedrale s desne strane nalazi se Pizarrova grobnica, ukrašena mozaikom." },
-        { ime: "Samostan San Francisco", opis: "Barokni samostan iz 17. stoljeća ispod kojeg su katakombe, gradsko groblje do početka 19. stoljeća. Kosti desetaka tisuća ljudi složene su u geometrijske uzorke, a u knjižnici se čuvaju tisuće starih svezaka." },
-        { ime: "Museo Larco", opis: "Privatni muzej pretkolumbovske umjetnosti u plemićkoj kući iz 18. stoljeća, sagrađenoj na piramidi iz 7. stoljeća. Otvorena su i spremišta s desecima tisuća keramičkih posuda, a posebna dvorana posvećena je erotskoj keramici kulture Moche." },
-        { ime: "Huaca Pucllana", opis: "Stupnjevita piramida od milijuna opeka od blata, koju je između 3. i 7. stoljeća podigla kultura Lima. Opeke su složene okomito, poput knjiga na polici, s razmacima koji ublažavaju potrese." },
-        { ime: "Barranco", opis: "Boemska četvrt šarenih ljetnikovaca s početka 20. stoljeća, puna murala, galerija i barova. Predaja kaže da se želja ostvari onome tko prijeđe drveni Most uzdaha zadržavajući dah." }
+        { ime: "Plaza Mayor and the cathedral", opis: "The square where Pizarro personally parceled out the lots is surrounded by yellow buildings with dark wooden balconies in the Moorish style. In the first chapel on the right in the cathedral is Pizarro's tomb, decorated with mosaics." },
+        { ime: "San Francisco Monastery", opis: "A Baroque monastery from the 17th century, beneath which lie the catacombs, the city's cemetery until the beginning of the 19th century. The bones of tens of thousands of people are arranged in geometric patterns, and the library holds thousands of old volumes." },
+        { ime: "Museo Larco", opis: "A private museum of pre-Columbian art in an 18th-century aristocratic mansion, built on top of a pyramid from the 7th century. The storerooms with tens of thousands of ceramic vessels are open too, and a special gallery is devoted to the erotic pottery of the Moche culture." },
+        { ime: "Huaca Pucllana", opis: "A stepped pyramid of millions of mud bricks, built by the Lima culture between the 3rd and 7th centuries. The bricks are set upright, like books on a shelf, with gaps that absorb earthquakes." },
+        { ime: "Barranco", opis: "A bohemian district of colorful summer mansions from the early 20th century, full of murals, galleries and bars. Tradition says a wish comes true for anyone who crosses the wooden Bridge of Sighs while holding their breath." }
       ],
       jesti: [
-        { ime: "Ceviche u cevicheríji", opis: "Restorani specijalizirani za ceviche rade samo do kasnog poslijepodneva. Najviše ih je u četvrtima Miraflores, Barranco i Surquillo." },
-        { ime: "Nikkei kuhinja", opis: "Spoj japanske tehnike i peruanskih namirnica, koji su stvorili potomci japanskih doseljenika. Njezin je zaštitni znak tiradito, tanko rezana sirova riba u ljutom umaku." },
-        { ime: "Sendvič s chicharrónom", opis: "Limski nedjeljni doručak: lepinja s hrskavom svinjetinom, prženim slatkim krumpirom i ukiseljenim lukom." }
+        { ime: "Ceviche in a cevichería", opis: "Restaurants that specialize in ceviche stay open only until late afternoon. Most of them are in the districts of Miraflores, Barranco and Surquillo." },
+        { ime: "Nikkei cuisine", opis: "A fusion of Japanese technique and Peruvian ingredients, created by the descendants of Japanese immigrants. Its signature is tiradito, thinly sliced raw fish in a spicy sauce." },
+        { ime: "Chicharrón sandwich", opis: "Lima's Sunday breakfast: a roll with crispy pork, fried sweet potato and pickled onion." }
       ],
       dozivjeti: [
-        { ime: "Tržnica u Surquillu", opis: "Na tržnici pokraj Mirafloresa upoznat ćete voće poput lúcume, cherimoye i granadille, a na štandovima se jede svježi ceviche." },
-        { ime: "Šetnica Malecón", opis: "Niz parkova na litici iznad oceana u Mirafloresu, s kojih polijeću paraglajderi. Najljepša je u sumrak." },
-        { ime: "Večera u vrhunskom restoranu", opis: "Lima ima nekoliko restorana s popisa najboljih na svijetu, među njima i Central, koji jelovnik slaže prema nadmorskim visinama Perua. Stol se rezervira mjesecima unaprijed.", link: "https://centralrestaurante.com.pe/" }
+        { ime: "The market in Surquillo", opis: "At the market next to Miraflores you will get to know fruits such as lúcuma, cherimoya and granadilla, and fresh ceviche is eaten at the stalls." },
+        { ime: "The Malecón promenade", opis: "A string of parks on the cliff above the ocean in Miraflores, from which paragliders take off. It is at its loveliest at dusk." },
+        { ime: "Dinner at a top restaurant", opis: "Lima has several restaurants on the list of the world's best, among them Central, which builds its menu around the altitudes of Peru. A table is booked months in advance.", link: "https://centralrestaurante.com.pe/" }
       ],
       agencije: [
-        { ime: "Peru Travel", opis: "Službeni turistički portal Perua.", link: "https://www.peru.travel/" },
-        { ime: "Museo Larco", opis: "Službena stranica muzeja s ulaznicama.", link: "https://www.museolarco.org/" },
-        { ime: "Huaca Pucllana", opis: "Službena stranica arheološkog nalazišta u Mirafloresu.", link: "https://huacapucllanamiraflores.pe/" }
+        { ime: "Peru Travel", opis: "Peru's official tourism portal.", link: "https://www.peru.travel/" },
+        { ime: "Museo Larco", opis: "The museum's official website, with tickets.", link: "https://www.museolarco.org/" },
+        { ime: "Huaca Pucllana", opis: "The official website of the archaeological site in Miraflores.", link: "https://huacapucllanamiraflores.pe/" }
       ],
-      kada: "Od prosinca do travnja Lima je sunčana i topla. Ostatak godine je siva, ali suha, što ne smeta ako ste došle zbog muzeja i restorana."
+      kada: "From December to April Lima is sunny and warm. The rest of the year it is gray but dry, which is no trouble if you have come for the museums and the restaurants."
     },
     {
       id: "cusco",
       ime: "Cusco",
       vrsta: "grad",
-      sazetak: "Nekadašnja prijestolnica Inka, u kojoj španjolske crkve stoje na temeljima carskih hramova.",
+      sazetak: "The former capital of the Incas, where Spanish churches stand on the foundations of imperial temples.",
       prica: [
-        "Za Inke je Cusco bio središte svijeta, iz kojeg su se četiri ceste granale u četiri dijela carstva. Vladar Pachacútec sredinom 15. stoljeća pregradio ga je u carski grad s palačama od savršeno klesanog kamena.",
-        "Španjolci su ga zauzeli 1533., opljačkali zlato i svoje crkve i palače podigli na zidovima Inka. Potresi su otad više puta srušili kolonijalne gradnje, dok su temelji Inka ostali na mjestu."
+        "For the Incas Cusco was the center of the world, from which four roads branched out into the four parts of the empire. In the middle of the 15th century the ruler Pachacútec rebuilt it as an imperial city with palaces of perfectly cut stone.",
+        "The Spanish took it in 1533, plundered the gold and raised their churches and palaces on the Inca walls. Earthquakes have since toppled the colonial structures more than once, while the Inca foundations have stayed in place."
       ],
       vidjeti: [
-        { ime: "Qorikancha", opis: "Hram Sunca, najsvetije mjesto carstva, čiji su zidovi prema kronikama bili obloženi zlatnim pločama. Na njemu je sagrađen dominikanski samostan, pa se ispod baroknog klaustra vide glatki, zaobljeni zidovi Inka, složeni bez žbuke." },
-        { ime: "Katedrala", opis: "Sagrađena od 1560. do 1654. kamenom donesenim s tvrđave Sacsayhuamán. Potražite sliku Posljednje večere Marcosa Zapate, na kojoj je na stolu pečeni zamorac, i kip crnog Krista, zaštitnika grada od potresa." },
-        { ime: "Sacsayhuamán", opis: "Tvrđava i svetište iznad grada s tri reda cik-cak zidova. Najveći kameni blokovi teži su od stotinu tona, a uklopljeni su tako da se među njih ne može ugurati ni list papira." },
-        { ime: "Kamen s dvanaest kutova", opis: "U uličici Hatun Rumiyoc, u zidu bivše palače Inka, nalazi se blok s dvanaest kutova koji savršeno naliježe na sve susjedne. Pokazuje kako su klesari svaki kamen prilagođavali onome do njega." },
-        { ime: "San Blas", opis: "Četvrt obrtnika na strmini iznad središta, s bijelim kućama i plavim vratima. U maloj crkvi je propovjedaonica izrezbarena iz jednog komada cedrovine, remek-djelo kolonijalnog drvorezbarstva." }
+        { ime: "Qorikancha", opis: "The Temple of the Sun, the holiest place in the empire, whose walls, according to the chronicles, were sheathed in plates of gold. A Dominican monastery was built on top of it, so beneath the Baroque cloister you can see the smooth, curved Inca walls, fitted together without mortar." },
+        { ime: "The cathedral", opis: "Built from 1560 to 1654 with stone carried down from the fortress of Sacsayhuamán. Look for the painting of the Last Supper by Marcos Zapata, in which a roasted guinea pig lies on the table, and for the statue of the black Christ, the city's protector against earthquakes." },
+        { ime: "Sacsayhuamán", opis: "A fortress and sanctuary above the city with three tiers of zigzag walls. The largest stone blocks weigh more than a hundred tons, and they are fitted so tightly that not even a sheet of paper can be slipped between them." },
+        { ime: "The Twelve-Angled Stone", opis: "In the lane called Hatun Rumiyoc, in the wall of a former Inca palace, there is a block with twelve angles that fits perfectly against all its neighbors. It shows how the stonemasons shaped each stone to match the one next to it." },
+        { ime: "San Blas", opis: "The artisans' quarter on the steep slope above the center, with white houses and blue doors. The little church holds a pulpit carved from a single piece of cedar, a masterpiece of colonial woodcarving." }
       ],
       jesti: [
-        { ime: "Choclo con queso", opis: "Kuhani klip kukuruza golemog zrna sa svježim sirom, najjednostavniji i najbolji zalogaj s tržnice." },
-        { ime: "Chiri uchu", opis: "Hladni pladanj s desetak sastojaka, od zamorca i kobasica do sira i algi, koji se jede samo o blagdanu Tijelova u lipnju." },
-        { ime: "Čaj od koke", opis: "Listovi koke preliveni vrućom vodom ublažavaju tegobe visine i služe se u svakom hotelu čim stignete." }
+        { ime: "Choclo con queso", opis: "A boiled cob of giant-kernel corn with fresh cheese, the simplest and best snack from the market." },
+        { ime: "Chiri uchu", opis: "A cold platter of a dozen or so ingredients, from guinea pig and sausages to cheese and seaweed, eaten only at the feast of Corpus Christi in June." },
+        { ime: "Coca tea", opis: "Coca leaves steeped in hot water ease the effects of altitude and are served in every hotel as soon as you arrive." }
       ],
       dozivjeti: [
-        { ime: "Tržnica San Pedro", opis: "Natkrivena tržnica na kojoj mještani doručkuju juhe i sokove, a prodaje se sve od cvijeća do deseci vrsta krumpira." },
-        { ime: "Vidikovac San Cristóbal", opis: "S trga pred crkvom iznad grada najljepši je pogled na crvene krovove, a navečer se svjetla penju uz padine kao zvijezde." },
-        { ime: "Turistička karta", opis: "Boleto Turístico jedinstvena je ulaznica za šesnaest nalazišta i muzeja u gradu i Svetoj dolini, a izdaje je odbor koji o tome objavljuje cjenik.", link: "http://cosituccusco.pe/tarifario/" }
+        { ime: "San Pedro Market", opis: "A covered market where the locals have soups and juices for breakfast, and where everything is sold, from flowers to dozens of kinds of potatoes." },
+        { ime: "San Cristóbal lookout", opis: "The square in front of the church above the city has the finest view of the red rooftops, and in the evening the lights climb the slopes like stars." },
+        { ime: "The tourist ticket", opis: "The Boleto Turístico is a single ticket for sixteen sites and museums in the city and the Sacred Valley, and it is issued by a committee that publishes the price list.", link: "http://cosituccusco.pe/tarifario/" }
       ],
       agencije: [
-        { ime: "Peru Travel", opis: "Službeni turistički portal Perua.", link: "https://www.peru.travel/" },
-        { ime: "Y tú qué planes", opis: "Državni portal za putovanja po Peruu, s prijedlozima ruta.", link: "https://www.ytuqueplanes.com/" }
+        { ime: "Peru Travel", opis: "Peru's official tourism portal.", link: "https://www.peru.travel/" },
+        { ime: "Y tú qué planes", opis: "The government portal for travel within Peru, with suggested routes.", link: "https://www.ytuqueplanes.com/" }
       ],
-      kada: "Od svibnja do rujna dani su vedri, a noći hladne. Ne planirajte ništa naporno za prvi dan, jer se tijelo mora priviknuti na 3400 metara."
+      kada: "From May to September the days are clear and the nights are cold. Do not plan anything strenuous for the first day, because your body has to adjust to 3,400 meters."
     },
     {
       id: "machu-picchu",
-      ime: "Machu Picchu i Sveta dolina",
+      ime: "Machu Picchu and the Sacred Valley",
       vrsta: "regija",
-      sazetak: "Kameni grad na hrptu iznad oblaka i plodna dolina s terasama, solanama i selima u kojima se još govori kečuanski.",
+      sazetak: "A city of stone on a ridge above the clouds, and a fertile valley with terraces, salt pans and villages where Quechua is still spoken.",
       prica: [
-        "Machu Picchu sagrađen je oko 1450. kao posjed vladara Pachacúteca, a napušten stotinjak godina kasnije, u vrijeme španjolskog osvajanja. Španjolci ga nikada nisu pronašli, zbog čega je ostao netaknut.",
-        "Svijetu ga je 24. srpnja 1911. predstavio istraživač Hiram Bingham iz SAD-a, kojeg je do ruševina doveo dječak iz mjesne obitelji. UNESCO ga je na popis svjetske baštine upisao 1983. Sveta dolina uz rijeku Urubambu bila je žitnica carstva."
+        "Machu Picchu was built around 1450 as an estate of the ruler Pachacútec and abandoned about a hundred years later, at the time of the Spanish conquest. The Spanish never found it, which is why it remained intact.",
+        "It was presented to the world on July 24, 1911, by the explorer Hiram Bingham from the USA, who was led to the ruins by a boy from a local family. UNESCO inscribed it on the World Heritage List in 1983. The Sacred Valley along the Urubamba River was the breadbasket of the empire."
       ],
       vidjeti: [
-        { ime: "Intihuatana", opis: "Isklesana stijena na najvišoj točki svetog dijela grada, čije ime znači mjesto gdje se veže Sunce. Vjeruje se da je služila kao astronomski instrument, jer njezin stup u podne o ravnodnevnici gotovo ne baca sjenu." },
-        { ime: "Hram Sunca", opis: "Jedina zaobljena građevina u gradu, s najfinije klesanim kamenom. Kroz jedan prozor sunčeva zraka pada točno na stijenu u sredini u zoru zimskog solsticija, 21. lipnja." },
-        { ime: "Ollantaytambo", opis: "Selo u kojem ljudi i danas žive u kućama Inka, uz ulice s kanalima tekuće vode. Na tvrđavi iznad sela šest ružičastih monolita čini nedovršeni hram, a kamen je dovučen iz kamenoloma s druge strane rijeke." },
-        { ime: "Solane Maras", opis: "Tisuće malih bazena na padini u kojima se od pretkolumbovskog doba isparava slana voda iz planinskog izvora. Svaki bazen pripada jednoj obitelji iz sela." },
-        { ime: "Moray", opis: "Kružne terase koje se spuštaju u zemlju poput amfiteatra. Razlika u temperaturi između vrha i dna doseže nekoliko stupnjeva, pa se pretpostavlja da su Inke ovdje iskušavali usjeve na različitim visinama." },
-        { ime: "Pisac", opis: "Terase i utvrda visoko iznad sela, s pogledom na cijelu dolinu. U podnožju je tržnica rukotvorina, najživlja nedjeljom." }
+        { ime: "Intihuatana", opis: "A carved rock at the highest point of the sacred part of the city, whose name means the place where the Sun is tied. It is believed to have served as an astronomical instrument, because at noon on the equinox its pillar casts almost no shadow." },
+        { ime: "Temple of the Sun", opis: "The only curved building in the city, with the most finely cut stone. Through one window a ray of sunlight falls exactly on the rock in the center at dawn on the winter solstice, June 21." },
+        { ime: "Ollantaytambo", opis: "A village where people still live in Inca houses, along streets with channels of running water. On the fortress above the village six pink monoliths form an unfinished temple, and the stone was hauled from a quarry on the other side of the river." },
+        { ime: "The Maras salt pans", opis: "Thousands of small pools on a hillside in which salty water from a mountain spring has been evaporated since pre-Columbian times. Each pool belongs to one family from the village." },
+        { ime: "Moray", opis: "Circular terraces that descend into the earth like an amphitheater. The difference in temperature between top and bottom reaches several degrees, so it is assumed that the Incas tested crops here at different altitudes." },
+        { ime: "Pisac", opis: "Terraces and a fortress high above the village, with a view over the whole valley. At the foot is a handicraft market, liveliest on Sundays." }
       ],
       jesti: [
-        { ime: "Pachamanca", opis: "Meso, krumpir i bob pečeni pod zemljom na užarenom kamenju, jelo koje se u Svetoj dolini priprema za goste na seoskim imanjima." },
-        { ime: "Chicha de jora", opis: "Blago kukuruzno pivo koje se toči u kućama s crvenom zastavicom na štapu. Verzija s jagodama zove se frutillada." }
+        { ime: "Pachamanca", opis: "Meat, potatoes and fava beans baked underground on red-hot stones, a dish prepared for guests on farms in the Sacred Valley." },
+        { ime: "Chicha de jora", opis: "A mild corn beer poured in houses with a little red flag on a pole. The version with strawberries is called frutillada." }
       ],
       dozivjeti: [
-        { ime: "Ulaznice za Machu Picchu", opis: "Broj posjetitelja je ograničen, a ulaznica vrijedi za određeni sat i određenu kružnu stazu. Kupuje se unaprijed na službenoj državnoj stranici.", link: "https://tuboleto.cultura.pe/" },
-        { ime: "Vlak kroz dolinu Urubambe", opis: "Od Ollantaytamba do mjesta Aguas Calientes vozi se oko sat i pol uz rijeku, a krajolik prelazi iz suhih Anda u maglovitu šumu. Voze dva prijevoznika.", link: "https://www.perurail.com/" },
-        { ime: "Tkalje u Chincheru", opis: "U zadrugama žene pokazuju kako se vuna pere korijenom, prede i boji biljkama, a tkanine se kupuju izravno od njih." }
+        { ime: "Tickets for Machu Picchu", opis: "The number of visitors is limited, and a ticket is valid for a specific hour and a specific circuit. It is bought in advance on the official government website.", link: "https://tuboleto.cultura.pe/" },
+        { ime: "The train through the Urubamba valley", opis: "The ride from Ollantaytambo to the town of Aguas Calientes takes about an hour and a half along the river, and the landscape shifts from the dry Andes to misty forest. Two operators run the route.", link: "https://www.perurail.com/" },
+        { ime: "The weavers of Chinchero", opis: "In the cooperatives women show how the wool is washed with a root, spun and dyed with plants, and you buy the textiles directly from them." }
       ],
       agencije: [
-        { ime: "Machupicchu, službena stranica", opis: "Stranica Ministarstva kulture Perua o svetištu, s pravilima posjeta.", link: "https://www.machupicchu.gob.pe/" },
-        { ime: "PeruRail", opis: "Željeznički prijevoznik do Machu Picchua.", link: "https://www.perurail.com/" },
-        { ime: "Inca Rail", opis: "Drugi željeznički prijevoznik na istoj pruzi.", link: "https://incarail.com/en" }
+        { ime: "Machupicchu, official website", opis: "The website of Peru's Ministry of Culture about the sanctuary, with the rules for visiting.", link: "https://www.machupicchu.gob.pe/" },
+        { ime: "PeruRail", opis: "A rail operator to Machu Picchu.", link: "https://www.perurail.com/" },
+        { ime: "Inca Rail", opis: "The second rail operator on the same line.", link: "https://incarail.com/en" }
       ],
-      kada: "Od svibnja do rujna najmanje je kiše, ali i najviše posjetitelja, pa ulaznice i vlak rezervirajte mjesecima ranije. Prenoćite u Svetoj dolini prije Cusca, jer je niža i lakše se podnosi."
+      kada: "From May to September there is the least rain but also the most visitors, so book your tickets and the train months ahead. Spend a night in the Sacred Valley before Cusco, because it is lower and easier on the body."
     },
     {
       id: "arequipa-colca",
-      ime: "Arequipa i Colca",
+      ime: "Arequipa and Colca",
       vrsta: "regija",
-      sazetak: "Bijeli grad pod tri vulkana i jedan od najdubljih kanjona svijeta, nad kojim u zoru kruže kondori.",
+      sazetak: "A white city beneath three volcanoes and one of the deepest canyons in the world, over which condors circle at dawn.",
       prica: [
-        "Arequipu su Španjolci osnovali 15. kolovoza 1540. u plodnoj dolini pod vulkanom Misti, visokim 5822 metra. Grad je sagrađen od sillara, bijelog vulkanskog kamena koji se lako kleše, pa su pročelja prekrivena gustim reljefima u kojima se miješaju europski i andski motivi.",
-        "Povijesna jezgra na UNESCO-ovu je popisu od 2000. Dolinu Colca tisuću godina prije Inka terasama su oblikovali narodi Collagua i Cabana, čije potomke i danas razlikujete po obliku šešira."
+        "The Spanish founded Arequipa on August 15, 1540, in a fertile valley beneath the Misti volcano, 5,822 meters high. The city is built of sillar, a white volcanic stone that is easy to carve, so the facades are covered in dense reliefs in which European and Andean motifs mingle.",
+        "The historic center has been on the UNESCO list since 2000. The Colca Valley was shaped into terraces a thousand years before the Incas by the Collagua and Cabana peoples, whose descendants you can still tell apart by the shape of their hats."
       ],
       vidjeti: [
-        { ime: "Samostan Santa Catalina", opis: "Grad u gradu, osnovan 1579., u kojem su kćeri bogatih obitelji živjele u klauzuri, svaka u vlastitoj kućici i sa služavkama. Javnosti je otvoren tek 1970., a njegove su uličice obojene u jarkoplavu i ciglastocrvenu boju." },
-        { ime: "Plaza de Armas", opis: "Trg okružen s tri strane dvokatnim arkadama od bijelog kamena, dok cijelu četvrtu stranu zauzima katedrala. Iza njezinih tornjeva za vedra dana viri snježni vrh vulkana." },
-        { ime: "Museo Santuarios Andinos", opis: "Muzej čuva Juanitu, djevojčicu koju su Inke prije petstotinjak godina žrtvovali na vulkanu Ampato. Pronađena je 1995., kada je obližnja erupcija otopila led, i jedna je od najbolje očuvanih mumija na svijetu." },
-        { ime: "Cruz del Cóndor", opis: "Vidikovac na rubu kanjona Colca, dubokog više od tri kilometra. Ujutro se zrak nad liticom zagrije, pa kondori, s rasponom krila od tri metra, na toplim strujama jedre tik iznad glava promatrača." },
-        { ime: "Sela doline Colca", opis: "U selima Chivay, Yanque i Cabanaconde stoje bijele kolonijalne crkve, a žene nose haljine i šešire izvezene cvijećem i pticama. Vez se radi na šivaćem stroju, a rade ga i muškarci." }
+        { ime: "Santa Catalina Monastery", opis: "A city within a city, founded in 1579, where the daughters of wealthy families lived in seclusion, each in her own little house and with servants. It was opened to the public only in 1970, and its lanes are painted in bright blue and brick red." },
+        { ime: "Plaza de Armas", opis: "A square bordered on three sides by two-story arcades of white stone, while the cathedral takes up the entire fourth side. On a clear day the snowy summit of the volcano peeks out from behind its towers." },
+        { ime: "Museo Santuarios Andinos", opis: "The museum keeps Juanita, a girl whom the Incas sacrificed on the Ampato volcano some five hundred years ago. She was found in 1995, when a nearby eruption melted the ice, and she is one of the best-preserved mummies in the world." },
+        { ime: "Cruz del Cóndor", opis: "A lookout on the rim of the Colca Canyon, which is more than three kilometers deep. In the morning the air above the cliff warms up, and the condors, with a wingspan of three meters, glide on the thermals just above the heads of the onlookers." },
+        { ime: "The villages of the Colca Valley", opis: "In the villages of Chivay, Yanque and Cabanaconde stand white colonial churches, and the women wear dresses and hats embroidered with flowers and birds. The embroidery is done on a sewing machine, and men do it too." }
       ],
       jesti: [
-        { ime: "Rocoto relleno", opis: "Ljuta crvena paprika punjena mljevenim mesom i zapečena sa sirom, uz kolač od krumpira. Paprika se prethodno kuha više puta kako bi izgubila dio ljutine." },
-        { ime: "Chupe de camarones", opis: "Gusta juha od riječnih rakova s krumpirom, sirom, mlijekom i jajetom." },
-        { ime: "Queso helado", opis: "Sladoled od mlijeka, kokosa i cimeta koji se ručno vrti u metalnoj posudi u ledu. Unatoč imenu u njemu nema sira." }
+        { ime: "Rocoto relleno", opis: "A hot red pepper stuffed with ground meat and baked with cheese, served with a potato gratin. The pepper is boiled several times beforehand so that it loses some of its heat." },
+        { ime: "Chupe de camarones", opis: "A thick soup of river crayfish with potatoes, cheese, milk and egg." },
+        { ime: "Queso helado", opis: "An ice cream of milk, coconut and cinnamon that is churned by hand in a metal bowl set in ice. Despite the name there is no cheese in it." }
       ],
       dozivjeti: [
-        { ime: "Ručak u picanteríji", opis: "Tradicionalne gostionice Arequipe kuhaju na drva i svakog dana u tjednu nude drugu juhu. Otvorene su samo za ručak, a sjedi se za dugim zajedničkim stolovima." },
-        { ime: "Termalni izvori u Chivayu", opis: "Nakon ranog jutra s kondorima odmorite se u toplim bazenima na otvorenom, na dnu doline." },
-        { ime: "Obilazak Santa Cataline u sumrak", opis: "Samostan je u određene dane otvoren i navečer, kada ga osvjetljavaju svijeće i svjetiljke.", link: "https://santacatalina.org.pe/" }
+        { ime: "Lunch in a picantería", opis: "The traditional taverns of Arequipa cook over wood fires and offer a different soup for every day of the week. They are open only for lunch, and you sit at long communal tables." },
+        { ime: "The hot springs in Chivay", opis: "After an early morning with the condors, rest in the warm open-air pools at the bottom of the valley." },
+        { ime: "A visit to Santa Catalina at dusk", opis: "On certain days the monastery is open in the evening too, when it is lit by candles and lanterns.", link: "https://santacatalina.org.pe/" }
       ],
       agencije: [
-        { ime: "Autocolca", opis: "Uprava doline Colca, koja naplaćuje turističku ulaznicu za dolinu.", link: "https://www.colcaperu.gob.pe/" },
-        { ime: "Monasterio de Santa Catalina", opis: "Službena stranica samostana.", link: "https://santacatalina.org.pe/" },
-        { ime: "Peru Travel", opis: "Službeni turistički portal Perua.", link: "https://www.peru.travel/" }
+        { ime: "Autocolca", opis: "The Colca Valley authority, which collects the tourist ticket for the valley.", link: "https://www.colcaperu.gob.pe/" },
+        { ime: "Monasterio de Santa Catalina", opis: "The monastery's official website.", link: "https://santacatalina.org.pe/" },
+        { ime: "Peru Travel", opis: "Peru's official tourism portal.", link: "https://www.peru.travel/" }
       ],
-      kada: "Arequipa je sunčana gotovo cijele godine. Kondore je najlakše vidjeti od travnja do studenoga, između osam i deset ujutro, a za Colcu odvojite barem dva dana."
+      kada: "Arequipa is sunny almost all year round. The condors are easiest to see from April to November, between eight and ten in the morning, and you should set aside at least two days for Colca."
     },
     {
       id: "titicaca",
-      ime: "Jezero Titicaca",
+      ime: "Lake Titicaca",
       vrsta: "priroda",
-      sazetak: "Najviše plovno jezero svijeta, s plutajućim otocima od trske i zajednicama koje čuvaju običaje starije od Inka.",
+      sazetak: "The highest navigable lake in the world, with floating islands of reeds and communities that keep customs older than the Incas.",
       prica: [
-        "Jezero leži na 3812 metara, na granici Perua i Bolivije, a plavo je onako kako to more rijetko biva. Legenda kaže da su iz njegovih voda izašli Manco Cápac i Mama Ocllo, djeca Sunca i osnivači Carstva Inka.",
-        "Na obalama žive narodi Aymara i Quechua, a narod Uros prije više stoljeća povukao se na otoke koje sam plete od trske, kako bi izbjegao moćnije susjede. Polazište za izlete je grad Puno."
+        "The lake lies at 3,812 meters, on the border between Peru and Bolivia, and it is blue in a way the sea rarely is. Legend says that Manco Cápac and Mama Ocllo, children of the Sun and founders of the Inca Empire, emerged from its waters.",
+        "The Aymara and Quechua peoples live on its shores, and several centuries ago the Uros people withdrew onto islands that they weave from reeds themselves, in order to escape more powerful neighbors. The starting point for excursions is the city of Puno."
       ],
       vidjeti: [
-        { ime: "Plutajući otoci Uros", opis: "Otoci su ispleteni od trske totora, čiji se slojevi odozdo raspadaju, pa se odozgo stalno dodaju novi. Od iste trske rade se kuće i čamci, a njezin se bijeli donji dio jede. Pod nogama tlo lagano propada, kao da hodate po madracu." },
-        { ime: "Otok Taquile", opis: "Na otoku bez automobila muškarci pletu, a žene tkaju, i to je umijeće UNESCO upisao na popis nematerijalne baštine. Boja i način nošenja muške kape pokazuju je li muškarac oženjen." },
-        { ime: "Otok Amantaní", opis: "Posjetitelji ovdje noće u obiteljskim kućama i s domaćinima jedu juhu od kvinoje. Na dva vrha otoka nalaze se hramovi posvećeni Ocu Zemlji i Majci Zemlji." },
-        { ime: "Sillustani", opis: "Na poluotoku jezera Umayo stoje chullpas, kružne pogrebne kule visoke do dvanaest metara, koje je gradio narod Colla, a potom Inke. Kule su šire pri vrhu nego pri dnu, što je graditeljski teže izvesti." }
+        { ime: "The floating islands of the Uros", opis: "The islands are woven from totora reeds, whose layers rot away from below, so new ones are constantly added on top. Houses and boats are made from the same reed, and its white lower part is eaten. The ground gives slightly underfoot, as if you were walking on a mattress." },
+        { ime: "Taquile Island", opis: "On this car-free island the men knit and the women weave, and UNESCO has inscribed this art on its list of intangible heritage. The color of a man's cap and the way he wears it show whether he is married." },
+        { ime: "Amantaní Island", opis: "Visitors here spend the night in family homes and eat quinoa soup with their hosts. On the island's two summits are temples dedicated to Father Earth and Mother Earth." },
+        { ime: "Sillustani", opis: "On a peninsula of Lake Umayo stand the chullpas, circular funerary towers up to twelve meters high, built by the Colla people and later by the Incas. The towers are wider at the top than at the bottom, which is harder to achieve as a builder." }
       ],
       jesti: [
-        { ime: "Pastrva iz jezera", opis: "Trucha se peče ili prži i poslužuje s krumpirom i rižom u svakoj kući na otocima." },
-        { ime: "Juha od kvinoje", opis: "Kvinoja je žitarica Altiplana, a u gustoj juhi s povrćem najbolje grije nakon vjetra na jezeru." }
+        { ime: "Trout from the lake", opis: "Trucha is grilled or fried and served with potatoes and rice in every house on the islands." },
+        { ime: "Quinoa soup", opis: "Quinoa is the grain of the Altiplano, and in a thick soup with vegetables it is the best way to warm up after the wind on the lake." }
       ],
       dozivjeti: [
-        { ime: "Noćenje kod obitelji", opis: "Na Amantaníju ili Taquileu domaćini vas dočekaju na pristaništu, a navečer se u seoskom domu pleše u posuđenoj nošnji. Noću je vrlo hladno, a zvjezdano nebo nezaboravno." },
-        { ime: "Fiesta de la Candelaria", opis: "U prvoj polovici veljače Puno slavi svoju zaštitnicu natjecanjem desetaka tisuća plesača u raskošnim kostimima, među kojima se ističe ples vragova diablada. Svetkovina je na UNESCO-ovu popisu nematerijalne baštine." }
+        { ime: "A homestay with a family", opis: "On Amantaní or Taquile your hosts meet you at the dock, and in the evening there is dancing in the village hall in borrowed traditional dress. The nights are very cold, and the starry sky is unforgettable." },
+        { ime: "Fiesta de la Candelaria", opis: "In the first half of February Puno celebrates its patron saint with a competition of tens of thousands of dancers in lavish costumes, among which the devil dance called the diablada stands out. The festival is on the UNESCO list of intangible heritage." }
       ],
       agencije: [
-        { ime: "Peru Travel", opis: "Službeni turistički portal Perua.", link: "https://www.peru.travel/" },
-        { ime: "Municipalidad Provincial de Puno", opis: "Službena stranica gradske uprave Puna.", link: "https://portal.munipuno.gob.pe/" }
+        { ime: "Peru Travel", opis: "Peru's official tourism portal.", link: "https://www.peru.travel/" },
+        { ime: "Municipalidad Provincial de Puno", opis: "The official website of the Puno municipal government.", link: "https://portal.munipuno.gob.pe/" }
       ],
-      kada: "Od svibnja do listopada nebo je vedro, a noći ledene. Sunce je na ovoj visini vrlo jako, pa šešir i krema nisu stvar izbora."
+      kada: "From May to October the sky is clear and the nights are freezing. The sun is very strong at this altitude, so a hat and sunscreen are a necessity."
     },
     {
       id: "nazca",
       ime: "Nazca",
       vrsta: "gradić",
-      sazetak: "Pustinjska visoravan iscrtana golemim likovima životinja i ravnim crtama, vidljivima u cijelosti samo iz zraka.",
+      sazetak: "A desert plateau etched with gigantic animal figures and straight lines, visible in full only from the air.",
       prica: [
-        "Crte je između otprilike 500. godine prije Krista i 500. godine poslije Krista stvarala kultura Nazca, uklanjajući tamno kamenje s površine i otkrivajući svjetlije tlo ispod njega. Održale su se zato što ovdje gotovo nikada ne pada kiša.",
-        "Ponovno su zapažene 1920-ih, kada su nad pustinjom počeli letjeti prvi zrakoplovi. Njemačka matematičarka Maria Reiche posvetila im je pola stoljeća života, mjereći ih i čisteći metlom. Na UNESCO-ovu su popisu od 1994., a čemu su služile, stručnjaci se i danas ne slažu."
+        "The lines were made between roughly 500 BC and AD 500 by the Nazca culture, who removed the dark stones from the surface and exposed the lighter ground beneath. They have survived because rain almost never falls here.",
+        "They were noticed again in the 1920s, when the first airplanes began flying over the desert. The German mathematician Maria Reiche devoted half a century of her life to them, measuring them and sweeping them clean with a broom. They have been on the UNESCO list since 1994, and experts still disagree about what they were for."
       ],
       vidjeti: [
-        { ime: "Likovi iz zraka", opis: "Kolibrić, majmun sa spiralnim repom, pauk i kondor nacrtani su jednom neprekinutom crtom i dugi su i po stotinu metara. Iz malog zrakoplova pilot naginje krilo naizmjence na obje strane kako bi ih vidjeli svi putnici." },
-        { ime: "Vidikovac uz Panameričku cestu", opis: "S metalnog tornja uz cestu vide se tri lika, među njima ruke i stablo. To je dobra zamjena za one kojima let malim zrakoplovom ne godi." },
-        { ime: "Akvadukti Cantalloc", opis: "Kultura Nazca iskopala je podzemne kanale koji dovode vodu s planina i koji rade i danas. Do vode se silazi kamenim spiralnim otvorima, koji su služili i za čišćenje kanala." },
-        { ime: "Groblje Chauchilla", opis: "U otvorenim grobnicama usred pustinje sjede mumije s dugim pletenicama, okružene keramikom i tkaninama. Suhi zrak sačuvao ih je više od tisuću godina." }
+        { ime: "The figures from the air", opis: "The hummingbird, the monkey with the spiral tail, the spider and the condor are each drawn with a single unbroken line and measure as much as a hundred meters long. In the small plane the pilot tips a wing to each side in turn so that every passenger can see them." },
+        { ime: "The lookout on the Pan-American Highway", opis: "From a metal tower beside the road you can see three figures, among them the hands and the tree. It is a good alternative for those who do not do well on small-plane flights." },
+        { ime: "The Cantalloc aqueducts", opis: "The Nazca culture dug underground channels that bring water down from the mountains and still work today. You reach the water by descending spiral stone openings, which also served for cleaning the channels." },
+        { ime: "Chauchilla Cemetery", opis: "In open tombs in the middle of the desert sit mummies with long braids, surrounded by pottery and textiles. The dry air has preserved them for more than a thousand years." }
       ],
       jesti: [
-        { ime: "Pisco iz Ice", opis: "Dolina Ica, dva sata sjevernije, središte je proizvodnje pisca, a stare destilerije nude obilazak i kušanje." },
-        { ime: "Pallares", opis: "Veliki bijeli grah iz Ice, koji se kuha u gustom varivu ili jede kao hladna salata." }
+        { ime: "Pisco from Ica", opis: "The Ica Valley, two hours to the north, is the center of pisco production, and the old distilleries offer tours and tastings." },
+        { ime: "Pallares", opis: "Large white lima beans from Ica, which are cooked into a thick stew or eaten as a cold salad." }
       ],
       dozivjeti: [
-        { ime: "Oaza Huacachina", opis: "Jezerce okruženo palmama i golemim pješčanim dinama kod Ice. S vrha dine gleda se zalazak sunca, a hrabriji se niz pijesak spuštaju na dasci." },
-        { ime: "Otočje Ballestas", opis: "Iz mjesta Paracas brodice voze do stjenovitih otoka s morskim lavovima, Humboldtovim pingvinima i tisućama ptica. Putem se vidi Svijećnjak, golemi lik urezan u pješčanu padinu." }
+        { ime: "The Huacachina oasis", opis: "A small lake ringed by palm trees and enormous sand dunes near Ica. From the top of a dune you watch the sunset, and the braver ones ride down the sand on a board." },
+        { ime: "The Ballestas Islands", opis: "From the town of Paracas boats run out to rocky islands with sea lions, Humboldt penguins and thousands of birds. On the way you see the Candelabra, a huge figure cut into a sandy slope." }
       ],
       agencije: [
-        { ime: "Peru Travel", opis: "Službeni turistički portal Perua.", link: "https://www.peru.travel/" },
-        { ime: "Y tú qué planes", opis: "Državni portal za putovanja po Peruu.", link: "https://www.ytuqueplanes.com/" }
+        { ime: "Peru Travel", opis: "Peru's official tourism portal.", link: "https://www.peru.travel/" },
+        { ime: "Y tú qué planes", opis: "The government portal for travel within Peru.", link: "https://www.ytuqueplanes.com/" }
       ],
-      kada: "Vrijeme je suho cijele godine, a letovi su mirniji ujutro. Prije leta jedite lagano, jer zrakoplov stalno kruži i naginje se."
+      kada: "The weather is dry all year round, and the flights are smoother in the morning. Eat lightly before the flight, because the plane circles and banks constantly."
     }
   ],
   izvori: [
     { ime: "Peru Travel", url: "https://www.peru.travel/" },
-    { ime: "Machupicchu, Ministarstvo kulture Perua", url: "https://www.machupicchu.gob.pe/" },
-    { ime: "Tu Boleto, službena prodaja ulaznica", url: "https://tuboleto.cultura.pe/" },
+    { ime: "Machupicchu, Ministry of Culture of Peru", url: "https://www.machupicchu.gob.pe/" },
+    { ime: "Tu Boleto, official ticket sales", url: "https://tuboleto.cultura.pe/" },
     { ime: "Museo Larco", url: "https://www.museolarco.org/" },
     { ime: "Monasterio de Santa Catalina", url: "https://santacatalina.org.pe/" },
     { ime: "Autocolca", url: "https://www.colcaperu.gob.pe/" },

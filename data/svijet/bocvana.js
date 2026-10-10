@@ -1,154 +1,154 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["bocvana"] = {
   id: "bocvana",
-  ime: "Bocvana",
-  regija: "Podsaharska Afrika",
-  sazetak: "Rijeka koja se izlijeva u pustinju i stvara najveću oazu na svijetu, punu slonova, lavova i ptica.",
+  ime: "Botswana",
+  regija: "Sub-Saharan Africa",
+  sazetak: "A river that spills into the desert and creates the largest oasis in the world, full of elephants, lions and birds.",
   uvod: [
-    "Bocvana je ravna, suha zemlja bez izlaza na more, a većinu joj prekriva pijesak Kalaharija. Upravo zato djeluje kao čudo to što rijeka Okavango, koja izvire u kišnoj Angoli, ovdje ne stigne do mora, nego se razlije u pijesak i stvori deltu veličine Slovenije.",
-    "U kolonijalno doba zemlja se zvala Bečuana i bila je britanski protektorat, a neovisnost je stekla 30. rujna 1966. kao jedna od najsiromašnijih država svijeta. Godinu dana poslije pronađeni su dijamanti, a prihod od njih uložen je u škole, bolnice i ceste. Prvi predsjednik Seretse Khama, čiji je brak s Engleskinjom Ruth Williams 1948. izazvao međunarodni skandal, postavio je temelje jedne od najstabilnijih demokracija u Africi.",
-    "Bocvana je odabrala turizam s malo gostiju i visokim cijenama, pa su kampovi mali, a divljina gotovo netaknuta. Skuplja je od susjeda, ali zato na safariju često nećete vidjeti nijedno drugo vozilo."
+    "Botswana is a flat, dry, landlocked country, and most of it is covered by the sands of the Kalahari. That is exactly why it seems like a miracle that the Okavango River, which rises in rainy Angola, never reaches the sea here but fans out into the sand and creates a delta the size of Slovenia.",
+    "In colonial times the country was called Bechuanaland and was a British protectorate, and it gained independence on September 30, 1966, as one of the poorest countries in the world. A year later diamonds were found, and the income from them was invested in schools, hospitals and roads. The first president, Seretse Khama, whose marriage to the Englishwoman Ruth Williams in 1948 caused an international scandal, laid the foundations of one of the most stable democracies in Africa.",
+    "Botswana chose a tourism of few guests and high prices, so the camps are small and the wilderness is almost untouched. It is more expensive than its neighbors, but in return you will often not see a single other vehicle on safari."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Suho je od svibnja do listopada. Poplavna voda u deltu Okavanga stiže upravo tada, s vrhuncem od lipnja do kolovoza, pa je to najbolje doba. Od prosinca do ožujka zebre sele na slane ravnice Makgadikgadi." },
-    { k: "Valuta", v: "Pula (BWP). Riječ znači kiša, što u suhoj zemlji govori koliko je kiša dragocjena. Kampovi cijene navode u američkim dolarima." },
-    { k: "Kretanje", v: "Do kampova u delti leti se malim zrakoplovima iz Mauna ili Kasanea. Samostalna vožnja moguća je terenskim vozilom s opremom za kampiranje, ali traži iskustvo u dubokom pijesku." },
-    { k: "Napojnica", v: "U kampovima se napojnica ostavlja na kraju boravka, posebno za vodiča, a posebno u zajedničku kutiju za osoblje. U restoranima u gradu oko 10 posto." }
+    { k: "When to go", v: "It is dry from May to October. The floodwater reaches the Okavango Delta at exactly that time, peaking from June to August, so this is the best season. From December to March the zebras migrate to the Makgadikgadi salt pans." },
+    { k: "Currency", v: "The pula (BWP). The word means rain, which in a dry country tells you how precious rain is. Camps quote their prices in US dollars." },
+    { k: "Getting around", v: "You fly to the camps in the delta in small planes from Maun or Kasane. Self-driving is possible in a four-wheel-drive vehicle with camping equipment, but it calls for experience in deep sand." },
+    { k: "Tipping", v: "In the camps tips are left at the end of the stay, separately for the guide and separately in a shared box for the staff. In town restaurants, about 10 percent." }
   ],
   hrana: [
-    { ime: "Seswaa", opis: "Govedina ili kozletina kuhana satima samo sa solju, a zatim istučena u vlakna.", prica: "Nacionalno je jelo, koje za vjenčanja, sprovode i Dan neovisnosti tradicionalno kuhaju muškarci u velikim tronožnim loncima. Bocvana ima više goveda nego stanovnika, a stoka je oduvijek mjera bogatstva." },
-    { ime: "Bogobe i phaleche", opis: "Gusta kaša od sirka, odnosno od kukuruznog brašna.", prica: "Kaša od sirka starija je i tamnija, a ponekad se kiseli ili kuha s mlijekom. Jede se uz seswau i zelje, rukom ili žlicom." },
-    { ime: "Morogo", opis: "Pirjano lišće divljeg špinata ili graha.", prica: "Lišće se bere u kišnoj sezoni i suši u kolutovima za ostatak godine. Kuha se s lukom i rajčicom i gotovo je uvijek na tanjuru uz kašu." },
-    { ime: "Phane", opis: "Gusjenice velikog leptira koje žive na stablu mopane, sušene ili pržene.", prica: "Beru se dvaput na godinu, kuhaju u slanoj vodi i suše na suncu, a bogate su bjelančevinama. Prodaju se na tržnicama na vrećice; hrskave su i okusom podsjećaju na orašaste plodove." },
-    { ime: "Magwinya", opis: "Pržene kugle dizanog tijesta, poput slanih krafni.", prica: "Jedu se za doručak s čajem, same ili punjene mljevenim mesom, a prodaju ih žene uz cestu i pred školama." },
-    { ime: "Dikgobe", opis: "Varivo od graha i kukuruza ili sirka, kuhano dok ne postane kremasto.", prica: "Zasitno je jelo sela, često bez mesa, koje se poslužuje na obiteljskim okupljanjima." },
-    { ime: "Pivo od đumbira i bojalwa", opis: "Domaće bezalkoholno gazirano piće od đumbira te mutno pivo od sirka.", prica: "Pivo od đumbira, gemere, obvezno je na vjenčanjima. Tradicionalno pivo od sirka pije se iz zajedničke posude i ima malo alkohola, a tvornička se inačica prodaje u kartonskim tetrapacima." }
+    { ime: "Seswaa", opis: "Beef or goat boiled for hours with nothing but salt and then pounded into shreds.", prica: "It is the national dish, traditionally cooked by men in large three-legged pots for weddings, funerals and Independence Day. Botswana has more cattle than people, and livestock has always been the measure of wealth." },
+    { ime: "Bogobe and phaleche", opis: "A thick porridge made of sorghum or of maize meal, respectively.", prica: "The sorghum porridge is older and darker, and it is sometimes soured or cooked with milk. It is eaten with seswaa and greens, by hand or with a spoon." },
+    { ime: "Morogo", opis: "Stewed leaves of wild spinach or of bean plants.", prica: "The leaves are picked in the rainy season and dried in rounds for the rest of the year. They are cooked with onion and tomato and are almost always on the plate next to the porridge." },
+    { ime: "Phane", opis: "The caterpillars of a large moth that live on the mopane tree, dried or fried.", prica: "They are harvested twice a year, boiled in salted water and dried in the sun, and they are rich in protein. They are sold at markets by the bag; they are crunchy and their taste recalls nuts." },
+    { ime: "Magwinya", opis: "Fried balls of yeast dough, like savory doughnuts.", prica: "They are eaten for breakfast with tea, plain or filled with minced meat, and women sell them by the roadside and outside schools." },
+    { ime: "Dikgobe", opis: "A stew of beans and maize or sorghum, cooked until it turns creamy.", prica: "It is a filling village dish, often without meat, that is served at family gatherings." },
+    { ime: "Ginger beer and bojalwa", opis: "A homemade non-alcoholic fizzy ginger drink and a cloudy sorghum beer.", prica: "Ginger beer, gemere, is a must at weddings. Traditional sorghum beer is drunk from a shared vessel and contains little alcohol, and the factory-made version is sold in cardboard cartons." }
   ],
   obicaji: [
-    { ime: "Kgotla", opis: "Otvoreni seoski zbor pod stablom ili u polukrugu od kolja, na kojem poglavica sa zajednicom odlučuje o svemu važnom. Svatko ima pravo govoriti i nikoga se ne smije prekidati, a mnogi u tome vide korijen bocvanske demokracije.", gdje: "Svako selo ima svoju kgotlu; u Maunu i Serowu možete je vidjeti izvana, a ulazi se samo uz poziv i pristojno odjevena." },
-    { ime: "Košare iz delte", opis: "Žene naroda Hambukushu i Bayei pletu košare od lišća palme mokola, obojenog korijenjem i korom. Uzorci imaju imena poput „suze žirafe“ ili „čelo zebre“, a za jednu veliku košaru treba i mjesec dana.", gdje: "Sela Etsha i Gumare na zapadnom rubu delte te zadružne trgovine u Maunu." },
-    { ime: "Znanje naroda San", opis: "San su najstariji stanovnici južne Afrike i žive u Kalahariju desetcima tisuća godina. Poznati su po čitanju tragova, pronalaženju vode u korijenju i plesu u transu, kojim iscjelitelji liječe zajednicu.", gdje: "Šetnje s vodičima San nude kampovi oko Ghanzija i uz slane ravnice Makgadikgadi; birajte one koje vodi sama zajednica." },
-    { ime: "Pula!", opis: "Riječ za kišu ujedno je i naziv valute, državno geslo i uzvik kojim završava svaki svečani govor. Kada netko na kraju zdravice vikne „Pula!“, svi ponove.", gdje: "Čut ćete je na proslavi Dana neovisnosti 30. rujna i na svakom vjenčanju." },
-    { ime: "Mokoro", opis: "Uzak čamac nekoć se dubio iz jednog debla, a danas se zbog zaštite stabala izrađuje od stakloplastike. Vozač stoji na krmi i gura ga dugom motkom kroz plitke kanale, što je vještina koja se prenosi s oca na sina.", gdje: "Zajednice na rubu delte, kod Mauna i u poplavnoj dolini Khwai, vode izlete preko svojih udruga vozača." }
+    { ime: "Kgotla", opis: "An open village assembly under a tree or inside a semicircle of wooden posts, where the chief decides on everything important together with the community. Everyone has the right to speak and nobody may be interrupted, and many see in this the root of Botswana's democracy.", gdje: "Every village has its own kgotla; in Maun and Serowe you can see one from the outside, and you enter only by invitation and decently dressed." },
+    { ime: "Baskets from the delta", opis: "The women of the Hambukushu and Bayei peoples weave baskets from the leaves of the mokola palm, dyed with roots and bark. The patterns have names such as “tears of the giraffe” or “forehead of the zebra”, and one large basket can take as long as a month.", gdje: "The villages of Etsha and Gumare on the western edge of the delta, and the cooperative shops in Maun." },
+    { ime: "The knowledge of the San", opis: "The San are the oldest inhabitants of southern Africa and have lived in the Kalahari for tens of thousands of years. They are known for reading tracks, finding water in roots and the trance dance, through which healers cure the community.", gdje: "Walks with San guides are offered by camps around Ghanzi and along the Makgadikgadi salt pans; choose the ones run by the community itself." },
+    { ime: "Pula!", opis: "The word for rain is also the name of the currency, the national motto and the cry that ends every formal speech. When someone shouts “Pula!” at the end of a toast, everyone repeats it.", gdje: "You will hear it at the Independence Day celebrations on September 30 and at every wedding." },
+    { ime: "Mokoro", opis: "This narrow canoe was once hollowed out of a single tree trunk, and today it is made of fiberglass in order to protect the trees. The poler stands at the stern and pushes it through the shallow channels with a long pole, a skill handed down from father to son.", gdje: "The communities on the edge of the delta, near Maun and in the Khwai floodplain, run trips through their own polers' associations." }
   ],
   fraze: [
-    { izvorno: "Dumela mma / Dumela rra", izgovor: "du-ME-la ma / du-ME-la ra", hr: "Dobar dan, gospođo / gospodine" },
-    { izvorno: "O tsogile jang?", izgovor: "o tso-HI-le jang", hr: "Kako ste? (doslovno: kako ste ustali?)" },
-    { izvorno: "Ke tsogile sentle", izgovor: "ke tso-HI-le SEN-tle", hr: "Dobro sam" },
-    { izvorno: "Ke a leboga", izgovor: "ke a le-BO-ha", hr: "Hvala" },
-    { izvorno: "Ee / Nnyaa", izgovor: "E-e / N-nja", hr: "Da / Ne" },
-    { izvorno: "Tsamaya sentle", izgovor: "tsa-MA-ja SEN-tle", hr: "Sretan put (kaže onaj tko ostaje)" },
-    { izvorno: "Ke bokae?", izgovor: "ke bo-KA-e", hr: "Koliko košta?" },
-    { izvorno: "Pula!", izgovor: "PU-la", hr: "Kiša! (zdravica i želja za sreću)" }
+    { izvorno: "Dumela mma / Dumela rra", izgovor: "doo-MEH-lah mah / doo-MEH-lah rah", hr: "Hello, ma'am / sir" },
+    { izvorno: "O tsogile jang?", izgovor: "oh tso-KHEE-leh jahng", hr: "How are you? (literally: how did you wake up?)" },
+    { izvorno: "Ke tsogile sentle", izgovor: "keh tso-KHEE-leh SEN-tleh", hr: "I'm fine" },
+    { izvorno: "Ke a leboga", izgovor: "keh ah leh-BOH-khah", hr: "Thank you" },
+    { izvorno: "Ee / Nnyaa", izgovor: "EH-eh / N-nyah", hr: "Yes / No" },
+    { izvorno: "Tsamaya sentle", izgovor: "tsah-MAH-yah SEN-tleh", hr: "Have a good trip (said by the one who stays)" },
+    { izvorno: "Ke bokae?", izgovor: "keh boh-KAH-eh", hr: "How much does it cost?" },
+    { izvorno: "Pula!", izgovor: "POO-lah", hr: "Rain! (a toast and a wish for good luck)" }
   ],
   zanimljivosti: [
-    "Delta Okavanga upisana je 2014. kao tisućito mjesto na UNESCO-ovu popisu svjetske baštine.",
-    "U Bocvani živi više slonova nego u ijednoj drugoj zemlji, oko 130 000, gotovo trećina svih afričkih slonova.",
-    "Poplava stiže u deltu usred sušne sezone, jer vodi iz angolskih planina treba oko pola godine da prijeđe više od tisuću kilometara.",
-    "Kod Kazungule se na rijeci Zambezi gotovo u jednoj točki susreću četiri države: Bocvana, Namibija, Zambija i Zimbabve.",
-    "Stanovnik Bocvane zove se Motswana, više njih Batswana, a jezik setswana.",
-    "Slane ravnice Makgadikgadi ostatak su golemog jezera koje je nekoć bilo veće od današnje Švicarske.",
-    "Rudnik Jwaneng smatra se najbogatijim rudnikom dijamanata na svijetu po vrijednosti."
+    "The Okavango Delta was inscribed in 2014 as the thousandth site on the UNESCO World Heritage List.",
+    "More elephants live in Botswana than in any other country, about 130,000, almost a third of all African elephants.",
+    "The flood reaches the delta in the middle of the dry season, because the water from the Angolan highlands needs about half a year to cover more than a thousand kilometers.",
+    "At Kazungula, on the Zambezi River, four countries meet at almost a single point: Botswana, Namibia, Zambia and Zimbabwe.",
+    "An inhabitant of Botswana is called a Motswana, several of them are Batswana, and the language is Setswana.",
+    "The Makgadikgadi salt pans are the remnant of a vast lake that was once larger than present-day Switzerland.",
+    "The Jwaneng mine is considered the richest diamond mine in the world by value."
   ],
   mjesta: [
     {
       id: "okavango",
-      ime: "Delta Okavanga",
+      ime: "Okavango Delta",
       vrsta: "priroda",
-      sazetak: "Labirint kanala, laguna i otoka usred Kalaharija, koji se najbolje upoznaje iz čamca.",
+      sazetak: "A labyrinth of channels, lagoons and islands in the middle of the Kalahari, best explored from a boat.",
       prica: [
-        "Rijeka Okavango ulazi u Bocvanu uskim koritom, a zatim se zbog rasjeda u Zemljinoj kori širi u lepezu. Voda se nikada ne ulije u more, nego ishlapi ili je popije pijesak.",
-        "Tisuće otoka u delti počele su kao termitnjaci, na kojima je niknulo drveće, pa su s vremenom rasli. Najveći je Chief's Island, nekoć lovište poglavice naroda Batawana, koji je 1963. s plemenom sam proglasio rezervat Moremi kako bi zaštitio divljač od lovaca."
+        "The Okavango River enters Botswana in a narrow channel and then, because of faults in the Earth's crust, spreads out into a fan. The water never flows into the sea; it evaporates or is soaked up by the sand.",
+        "The thousands of islands in the delta began as termite mounds on which trees took root, and they grew over time. The largest is Chief's Island, once the hunting ground of the chief of the Batawana people, who together with his tribe declared the Moremi reserve in 1963 in order to protect the game from hunters."
       ],
       vidjeti: [
-        { ime: "Poplava od lipnja do kolovoza", opis: "Voda stiže kada je sve oko delte suho, pa se životinje skupljaju na otocima. Gledajte kako se kanali pune iz dana u dan i kako vodenkonji svojim prolazima održavaju putove otvorenima, kojima se zatim služe čamci." },
-        { ime: "Antilope močvare", opis: "Crveni lechwe ima duga stražnja stopala i trči kroz plitku vodu u velikim skokovima da pobjegne lavovima. Rijetka i plašljiva sitatunga živi u papirusu, ima raširene papke i za opasnosti zaroni tako da joj viri samo nos." },
-        { ime: "Afrički divlji psi", opis: "Delta je jedno od posljednjih uporišta ove ugrožene vrste, čiji svaki pas ima jedinstven uzorak mrlja. Love u čoporu rano ujutro i predvečer, a prije lova se pozdravljaju cvrkutanjem. Od lipnja do kolovoza zadržavaju se oko jazbine s mladima, pa ih je tada lakše naći." },
-        { ime: "Lavovi koji plivaju", opis: "Ovdašnji su lavovi naučili gaziti i plivati kroz kanale za plijenom, zbog čega imaju snažnija prsa i ramena. Na Chief's Islandu i u Moremiju love i bivole, što zahtijeva suradnju cijelog čopora." },
-        { ime: "Ptice", opis: "Tražite afričkog orla ribara, čiji prodoran zov zovu glasom Afrike, i sićušnoga šarenog vodomara na trsci. Rijetkost zbog koje ovamo dolaze promatrači ptica jest riđa sova ribarica, koja noću lovi ribu, a danju spava u gustim krošnjama." }
+        { ime: "The flood from June to August", opis: "The water arrives when everything around the delta is dry, so the animals gather on the islands. Watch the channels fill from day to day and see how the hippos keep the waterways open with their paths, which the boats then use." },
+        { ime: "Antelopes of the swamp", opis: "The red lechwe has long hind feet and runs through shallow water in great bounds to escape lions. The rare and shy sitatunga lives in the papyrus, has splayed hooves and, when in danger, submerges until only its nose shows." },
+        { ime: "African wild dogs", opis: "The delta is one of the last strongholds of this endangered species, in which every dog has a unique pattern of patches. They hunt in a pack early in the morning and toward evening, and they greet one another with twittering before the hunt. From June to August they stay around the den with their pups, so they are easier to find then." },
+        { ime: "Lions that swim", opis: "The lions here have learned to wade and swim through the channels after prey, which has given them stronger chests and shoulders. On Chief's Island and in Moremi they also hunt buffalo, which takes the cooperation of the whole pride." },
+        { ime: "Birds", opis: "Look for the African fish eagle, whose piercing call is known as the voice of Africa, and for the tiny malachite kingfisher on the reeds. The rarity that brings birdwatchers here is Pel's fishing owl, which catches fish at night and sleeps in dense treetops by day." }
       ],
       jesti: [
-        { ime: "Doručak uz vatru", opis: "Prije jutarnje vožnje u kampu se pije kava kuhana na žaru i jede zobena kaša i dvopek, dok se sunce diže nad trskom." },
-        { ime: "Riba iz delte", opis: "Tilapija, koju ovdje zovu bream, peče se na žaru, a u selima na rubu delte suši se na suncu." },
-        { ime: "Seswaa u Maunu", opis: "U restoranima u gradu naručite nacionalno jelo uz kašu i morogo prije odlaska u divljinu." }
+        { ime: "Breakfast by the fire", opis: "Before the morning drive, people at the camp drink coffee brewed over the coals and eat oatmeal and rusks while the sun rises over the reeds." },
+        { ime: "Fish from the delta", opis: "Tilapia, which is called bream here, is grilled over the coals, and in the villages on the edge of the delta it is dried in the sun." },
+        { ime: "Seswaa in Maun", opis: "In the town's restaurants, order the national dish with porridge and morogo before heading off into the wild." }
       ],
       dozivjeti: [
-        { ime: "Vožnja mokorom", opis: "Sjedite tik iznad vode dok vas vozač motkom gura kroz lopoče. Vidjet ćete sitne obojene žabe na trsci i čuti samo vodu, što je najmirniji safari koji postoji." },
-        { ime: "Šetnja po otoku", opis: "S vodičem iz zajednice hoda se po otoku, uče se tragovi i balega te koja biljka čemu služi. Bez zaštite vozila osjeti se koliko su osjetila životinja bolja od naših." },
-        { ime: "Panoramski let iz Mauna", opis: "Tek se iz malog zrakoplova ili helikoptera vidi oblik delte, staze koje su utabali slonovi i krda bivola u vodi do trbuha." }
+        { ime: "A mokoro ride", opis: "You sit just above the water while the poler pushes you through the water lilies. You will see tiny painted frogs on the reeds and hear nothing but water, which makes this the most peaceful safari there is." },
+        { ime: "A walk on an island", opis: "With a guide from the community you walk across an island, learning tracks and dung and which plant is used for what. Without the protection of a vehicle, you can feel how much sharper the animals' senses are than ours." },
+        { ime: "A scenic flight from Maun", opis: "Only from a small plane or a helicopter can you see the shape of the delta, the paths trodden by elephants and the herds of buffalo belly-deep in water." }
       ],
       agencije: [
-        { ime: "HATAB", opis: "Udruženje ugostitelja i turističkih tvrtki Bocvane; članovi su licencirani kampovi i organizatori safarija.", link: "https://hatab.bw/" },
-        { ime: "UNESCO, delta Okavanga", opis: "Opis zaštićenog područja i razlozi upisa na popis svjetske baštine.", link: "https://whc.unesco.org/en/list/1432" }
+        { ime: "HATAB", opis: "The Hospitality and Tourism Association of Botswana; its members are licensed camps and safari operators.", link: "https://hatab.bw/" },
+        { ime: "UNESCO, Okavango Delta", opis: "A description of the protected area and the reasons for its inscription on the World Heritage List.", link: "https://whc.unesco.org/en/list/1432" }
       ],
-      kada: "Od lipnja do listopada vode je najviše, a životinje su najgušće. Noći su u lipnju i srpnju hladne, pa za jutarnje vožnje ponesite kapu i rukavice."
+      kada: "From June to October the water is at its highest and the animals are at their densest. The nights are cold in June and July, so bring a hat and gloves for the morning drives."
     },
     {
       id: "chobe",
       ime: "Chobe",
       vrsta: "priroda",
-      sazetak: "Rijeka na koju svako poslijepodne silaze stotine slonova.",
+      sazetak: "A river that hundreds of elephants come down to every afternoon.",
       prica: [
-        "Nacionalni park Chobe proglašen je 1968. kao prvi u Bocvani, na krajnjem sjeveru zemlje, uz granicu s Namibijom. Prije toga ovdje se sjekla šuma tikovine, a u gradiću Kasaneu još stoji šuplji baobab koji je služio kao zatvorska ćelija.",
-        "Kraj se uklapa u veliko prekogranično zaštićeno područje Kavango-Zambezi, kroz koje slonovi slobodno sele između pet država."
+        "Chobe National Park was declared in 1968 as the first in Botswana, in the far north of the country, along the border with Namibia. Before that, teak forest was logged here, and in the small town of Kasane there still stands a hollow baobab that served as a prison cell.",
+        "The area fits into the large Kavango-Zambezi transfrontier conservation area, through which elephants migrate freely between five countries."
       ],
       vidjeti: [
-        { ime: "Slonovi na rijeci", opis: "U suši, od svibnja do listopada, krda dolaze na rijeku svako poslijepodne. Gledajte kako piju, valjaju se u blatu, a zatim se posipaju prašinom, što im štiti kožu od sunca i kukaca. Često preplivaju rukavac do otoka Sedudu, s kojega im viri samo surla poput disalice." },
-        { ime: "Krstarenje pred zalazak sunca", opis: "Iz čamca ste u razini očiju vodenkonja i krokodila koji se sunčaju otvorenih usta da se rashlade. Uz obalu pasu bivoli i antilope puku, čije krdo zvižduće kada osjeti opasnost." },
-        { ime: "Savuti", opis: "U unutrašnjosti parka nalazi se kanal koji bez vidljiva razloga teče pa presuši na desetljeća, vjerojatno zbog pomaka tla. Savuti je poznat po čoporima lavova koji su u sušnim godinama naučili noću loviti mlade slonove." },
-        { ime: "Ptice rijeke", opis: "Na pješčanim sprudovima gnijezdi se afrički vodosjek, ptica kojoj je donji dio kljuna dulji i njime u letu siječe površinu vode. U strmim obalama rupe kopaju jarkocrvene pčelarice, koje se u koloniju vraćaju u rujnu." }
+        { ime: "Elephants on the river", opis: "In the dry season, from May to October, the herds come to the river every afternoon. Watch them drink, wallow in the mud and then dust themselves, which protects their skin from the sun and insects. They often swim across the channel to Sedudu Island, with only their trunks sticking out of the water like snorkels." },
+        { ime: "A cruise before sunset", opis: "From the boat you are at eye level with the hippos and with the crocodiles that bask with their mouths open to cool down. Along the bank graze buffalo and puku antelopes, whose herd whistles when it senses danger." },
+        { ime: "Savuti", opis: "In the interior of the park there is a channel that, for no visible reason, flows and then dries up for decades, probably because of shifts in the ground. Savuti is known for its prides of lions, which in dry years learned to hunt young elephants at night." },
+        { ime: "Birds of the river", opis: "The African skimmer nests on the sandbanks, a bird whose lower bill is longer and slices the surface of the water in flight. Bright red carmine bee-eaters dig holes in the steep banks, and they return to the colony in September." }
       ],
       jesti: [
-        { ime: "Bream iz Chobea", opis: "Riječna riba pržena ili sa žara glavno je jelo u restoranima u Kasaneu." },
-        { ime: "Piće na čamcu", opis: "Na večernjoj plovidbi toči se pivo St. Louis ili džin s tonikom dok sunce zalazi iza slonova." }
+        { ime: "Chobe bream", opis: "River fish, fried or grilled, is the main dish in the restaurants of Kasane." },
+        { ime: "A drink on the boat", opis: "On the evening cruise St. Louis beer or gin and tonic is poured while the sun sets behind the elephants." }
       ],
       dozivjeti: [
-        { ime: "Jutarnja vožnja uz rijeku", opis: "Rano ujutro uz obalu se traže lavovi i leopardi koji se vraćaju iz noćnog lova, prije nego što stignu izletnici." },
-        { ime: "Fotografski čamac", opis: "Manji čamci s okretnim sjedalima prilaze tiho i blizu, pa se ptice i slonovi snimaju iz razine vode." },
-        { ime: "Izlet na Viktorijine slapove", opis: "Kasane je svega sat i pol vožnje od slapova, pa se dva doživljaja lako spajaju u jedno putovanje." }
+        { ime: "A morning drive along the river", opis: "Early in the morning you search the bank for lions and leopards returning from the night's hunt, before the day-trippers arrive." },
+        { ime: "A photography boat", opis: "Smaller boats with swivel seats approach quietly and closely, so birds and elephants are photographed from water level." },
+        { ime: "A trip to Victoria Falls", opis: "Kasane is only an hour and a half's drive from the falls, so the two experiences are easy to combine in one journey." }
       ],
       agencije: [
-        { ime: "HATAB", opis: "Udruženje licenciranih kampova i organizatora safarija u Bocvani.", link: "https://hatab.bw/" },
-        { ime: "Elephants Without Borders", opis: "Istraživačka organizacija iz Kasanea koja prati kretanje slonova i objavljuje rezultate prebrojavanja.", link: "https://elephantswithoutborders.org/" }
+        { ime: "HATAB", opis: "The association of licensed camps and safari operators in Botswana.", link: "https://hatab.bw/" },
+        { ime: "Elephants Without Borders", opis: "A research organization based in Kasane that tracks elephant movements and publishes census results.", link: "https://elephantswithoutborders.org/" }
       ],
-      kada: "Slonova je najviše od kolovoza do listopada, kada je i najvruće. Riječna obala kod Kasanea tada je prometna, pa za mir odaberite kamp dalje na zapadu."
+      kada: "Elephants are most numerous from August to October, which is also the hottest time. The riverfront near Kasane is busy then, so for peace and quiet choose a camp farther west."
     },
     {
       id: "makgadikgadi",
       ime: "Makgadikgadi",
       vrsta: "priroda",
-      sazetak: "Slane ravnice na kojima se zemlja i nebo stapaju, sa surikatima i baobabima starima više od tisuću godina.",
+      sazetak: "Salt pans where earth and sky merge, with meerkats and baobabs more than a thousand years old.",
       prica: [
-        "Makgadikgadi je skup slanih ravnica, među najvećima na svijetu, na mjestu gdje je prije više tisuća godina presušilo golemo jezero. U suši je to bijela kora soli bez ijedne biljke, a nakon kiša plitko jezero.",
-        "Ovuda je sredinom 19. stoljeća prema sjeveru prolazio David Livingstone, a golemi baobabi služili su putnicima kao putokazi i poštanski sandučići."
+        "Makgadikgadi is a cluster of salt pans, among the largest in the world, on the site where a vast lake dried up thousands of years ago. In the dry season it is a white crust of salt without a single plant, and after the rains it is a shallow lake.",
+        "David Livingstone passed through here on his way north in the mid-19th century, and the enormous baobabs served travelers as signposts and mailboxes."
       ],
       vidjeti: [
-        { ime: "Seoba zebri", opis: "S prvim kišama, obično u prosincu, desetci tisuća zebri kreću s rijeke Boteti i iz delte na svježu travu oko ravnica i ostaju do ožujka. To je jedna od najduljih seoba kopnenih sisavaca u Africi. U suši se vraćaju na rijeku Boteti, gdje ih čekaju lavovi." },
-        { ime: "Surikati", opis: "Nekoliko obitelji toliko je naviknuto na ljude da vas ne doživljava kao prijetnju. Ujutro izlaze iz jazbine i griju trbuhe na suncu, a jedan uvijek stoji na straži. Ako mirno sjedite, stražar se može popeti i na vašu glavu da bolje vidi." },
-        { ime: "Otok Kubu", opis: "Granitna uzvisina usred slane ravnice obrasla je baobabima neobičnih oblika. Mjesnom je stanovništvu sveta, a na njoj su ostaci kamenoga zida i oblutci koje je zaoblilo nekadašnje jezero." },
-        { ime: "Bainesovi baobabi", opis: "Skupinu od sedam baobaba na rubu ravnice Nxai naslikao je 1862. istraživač i slikar Thomas Baines. Usporedite li njegovu sliku s današnjim prizorom, vidjet ćete da se u više od 160 godina gotovo ništa nije promijenilo." },
-        { ime: "Plamenci", opis: "Kada se ravnica Sua napuni vodom, na nju slijeću deseci tisuća plamenaca na gniježđenje, što je jedno od najvažnijih gnjezdilišta u južnoj Africi. Najbolje se vide iz utočišta za ptice Nata." }
+        { ime: "The zebra migration", opis: "With the first rains, usually in December, tens of thousands of zebras set off from the Boteti River and from the delta for the fresh grass around the pans, and they stay until March. It is one of the longest migrations of land mammals in Africa. In the dry season they return to the Boteti River, where the lions are waiting for them." },
+        { ime: "Meerkats", opis: "Several families are so used to people that they do not see you as a threat. In the morning they come out of the burrow and warm their bellies in the sun, and one always stands guard. If you sit still, the sentry may even climb onto your head for a better view." },
+        { ime: "Kubu Island", opis: "A granite outcrop in the middle of the salt pan is covered with baobabs of strange shapes. It is sacred to the local people, and on it are the remains of a stone wall and pebbles rounded by the former lake." },
+        { ime: "Baines' Baobabs", opis: "The group of seven baobabs on the edge of the Nxai pan was painted in 1862 by the explorer and painter Thomas Baines. If you compare his painting with the scene today, you will see that almost nothing has changed in more than 160 years." },
+        { ime: "Flamingos", opis: "When the Sua pan fills with water, tens of thousands of flamingos land on it to nest, making it one of the most important breeding sites in southern Africa. They are best seen from the Nata Bird Sanctuary." }
       ],
       jesti: [
-        { ime: "Večera na slanoj ravnici", opis: "Kampovi postavljaju stol i vatru usred bjeline, bez ijednoga zvuka i svjetla osim zvijezda." },
-        { ime: "Kruh iz žara", opis: "Vodiči na izletima peku kruh u loncu zakopanom u žeravicu i poslužuju ga s gulašem." }
+        { ime: "Dinner on the salt pan", opis: "The camps set up a table and a fire in the middle of the whiteness, without a single sound or any light other than the stars." },
+        { ime: "Bread from the coals", opis: "On excursions the guides bake bread in a pot buried in the embers and serve it with stew." }
       ],
       dozivjeti: [
-        { ime: "Spavanje pod zvijezdama", opis: "U suši se na ravnici spava na ležajevima pod otvorenim nebom. Tišina je tolika da čujete vlastiti puls." },
-        { ime: "Šetnja s narodom San", opis: "Vodiči pokazuju kako se pronalazi voda u gomolju, postavlja zamka i pali vatra, i pritom pričaju na jeziku s coktajima." },
-        { ime: "Vožnja četverociklom po soli", opis: "U sušnoj sezoni vozi se u koloni po tvrdoj kori, uvijek istim tragom da se ravnica ne ošteti." }
+        { ime: "Sleeping under the stars", opis: "In the dry season you sleep on the pan on bedrolls under the open sky. The silence is so deep that you can hear your own pulse." },
+        { ime: "A walk with the San", opis: "The guides show how to find water in a tuber, set a snare and light a fire, all the while talking in their click language." },
+        { ime: "Quad biking on the salt", opis: "In the dry season you ride in single file over the hard crust, always in the same track so that the pan is not damaged." }
       ],
       agencije: [
-        { ime: "HATAB", opis: "Udruženje licenciranih kampova i organizatora putovanja u Bocvani.", link: "https://hatab.bw/" }
+        { ime: "HATAB", opis: "The association of licensed camps and tour operators in Botswana.", link: "https://hatab.bw/" }
       ],
-      kada: "Zbog zebri i plamenaca dođite od prosinca do ožujka, a zbog surikata, spavanja na ravnici i vožnje po soli od lipnja do listopada."
+      kada: "Come from December to March for the zebras and flamingos, and from June to October for the meerkats, sleeping on the pan and riding over the salt."
     }
   ],
   izvori: [
-    { ime: "UNESCO: Delta Okavanga", url: "https://whc.unesco.org/en/list/1432" },
+    { ime: "UNESCO: Okavango Delta", url: "https://whc.unesco.org/en/list/1432" },
     { ime: "HATAB, Hospitality and Tourism Association of Botswana", url: "https://hatab.bw/" },
     { ime: "Elephants Without Borders", url: "https://elephantswithoutborders.org/" },
-    { ime: "Okavango Delta, informativni portal", url: "https://okavangodelta.com/" },
-    { ime: "Chobe National Park, informativni portal", url: "https://www.chobenationalpark.com/" }
+    { ime: "Okavango Delta, information portal", url: "https://okavangodelta.com/" },
+    { ime: "Chobe National Park, information portal", url: "https://www.chobenationalpark.com/" }
   ]
 };

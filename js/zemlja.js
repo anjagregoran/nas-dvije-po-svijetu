@@ -82,7 +82,7 @@
     }).join('') + '</div>';
   }
 
-  var TABS = [['vidjeti', 'Znamenitosti'], ['hrana', 'Hrana'], ['dozivjeti', 'Doživljaji'], ['agencije', 'Agencije'], ['karta', 'Karta']];
+  var TABS = [['pregled', 'Pregled'], ['vidjeti', 'Znamenitosti'], ['hrana', 'Hrana'], ['dozivjeti', 'Doživljaji'], ['agencije', 'Agencije'], ['karta', 'Karta']];
 
   function place(id, tab) {
     var m = Z.mjesta.filter(function (x) { return x.id === id; })[0];
@@ -91,19 +91,31 @@
     if (/^v\d+$/.test(tab || '')) { openSight = tab; tab = 'vidjeti'; }
     if (tab === 'jesti') tab = 'hrana';
     var have = {
-      vidjeti: has(m.vidjeti), hrana: has(m.jesti) || has(Z.hrana), dozivjeti: has(m.dozivjeti),
+      pregled: true, vidjeti: has(m.vidjeti), hrana: has(m.jesti) || has(Z.hrana), dozivjeti: has(m.dozivjeti),
       agencije: has(m.agencije), karta: !!KO[Z.id + '/' + m.id]
     };
-    if (!have[tab]) tab = 'vidjeti';
+    if (!have[tab]) tab = 'pregled';
     var base = '#/mjesto/' + m.id + '/';
     var body = '';
 
-    if (tab === 'vidjeti') {
+    if (tab === 'pregled') {
+      var t = function (key, c, label, title, sub) {
+        return have[key] ? '<a class="tilec ' + c + '" href="' + base + key + '"><span class="label">' + label + '</span><div><h3>' + title + '</h3><p>' + sub + '</p></div></a>' : '';
+      };
+      body = '<div class="lead" style="margin:18px 0 22px">' + paras(m.prica) + '</div>' +
+        '<div class="grid">' +
+          t('vidjeti', 'c0', (m.vidjeti || []).length + ' mjesta', 'Znamenitosti', 'Što gledamo i što na tome potražiti') +
+          t('hrana', 'c1', 'Za stolom', 'Hrana', 'Tradicionalna jela i specijaliteti') +
+          t('dozivjeti', 'c2', 'Ako želite', 'Doživljaji', 'Tečajevi, tržnice, vidikovci, večeri') +
+          t('agencije', 'c3', 'Tko pomaže', 'Agencije', 'Turistički uredi, vodiči i ture') +
+          t('karta', 'c4', 'Gdje je', 'Karta', 'Položaj na karti') +
+        '</div>' +
+        (m.kada ? '<h2 class="group-title">Kada ići</h2><div class="look">' + paras(m.kada) + '</div>' : '');
+    } else if (tab === 'vidjeti') {
       body = '<p class="note">Dodirnite znamenitost da pročitate što je to i što na njoj potražiti.</p>' +
         m.vidjeti.map(function (v, i) {
           return '<details class="card" id="v' + i + '"' + (openSight === 'v' + i || (!openSight && i === 0) ? ' open' : '') + '><summary>' + esc(v.ime) + '</summary><div class="inner">' + paras(v.opis) + '</div></details>';
-        }).join('') +
-        (m.kada ? '<h2 class="group-title">Kada ići</h2><div class="look">' + paras(m.kada) + '</div>' : '');
+        }).join('');
     } else if (tab === 'hrana') {
       body = (has(m.jesti) ? '<h2 class="group-title" style="margin-top:8px">Specijaliteti ovog mjesta</h2>' + items(m.jesti) : '') +
         (has(Z.hrana) ? '<h2 class="group-title">Tradicionalna jela: ' + esc(Z.ime) + '</h2>' + Z.hrana.map(function (h) {
@@ -120,7 +132,7 @@
 
     return crumbs(m) +
       '<header class="hero left" style="padding-top:14px;padding-bottom:18px"><span class="label">' + esc(VRSTA[m.vrsta] || 'Mjesto') + '</span><h1>' + esc(m.ime) + '</h1>' +
-      '<div class="lead">' + paras(m.prica) + '</div></header>' +
+      '<p class="lead" style="margin:0">' + esc(m.sazetak) + '</p></header>' +
       '<div class="chips sticky">' + TABS.filter(function (t) { return have[t[0]]; }).map(function (t) {
         return '<a href="' + base + t[0] + '"' + (t[0] === tab ? ' class="on"' : '') + '>' + t[1] + '</a>';
       }).join('') + '</div>' +

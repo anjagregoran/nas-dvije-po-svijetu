@@ -1,260 +1,260 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["cile"] = {
   id: "cile",
-  ime: "Čile",
-  regija: "Južna Amerika",
-  sazetak: "Najduža i najuža zemlja svijeta, od najsuše pustinje do patagonskih ledenjaka, s hrvatskim prezimenima na svakom koraku.",
+  ime: "Chile",
+  regija: "South America",
+  sazetak: "The longest and narrowest country in the world, from the driest desert to the glaciers of Patagonia, with Croatian surnames at every turn.",
   uvod: [
-    "Čile je dug oko 4300 kilometara, a širok u prosjeku manje od 200, stisnut između Anda i Tihog oceana. Zbog toga na sjeveru ima pustinju u kojoj ponegdje desetljećima ne padne kiša, u sredini vinograde i sredozemnu klimu, a na jugu fjordove, ledenjake i vjetar. Španjolci su ga počeli osvajati 1541., ali narod Mapuche na jugu odolijevao im je više od tri stoljeća.",
-    "Za Hrvate je Čile posebna zemlja. Krajem 19. i početkom 20. stoljeća tisuće Dalmatinaca, osobito s Brača, otišle su na krajnji jug, u Punta Arenas, i na sjever, u rudnike salitre oko Antofagaste. Njihovi su potomci danas među najuglednijim građanima zemlje, a predsjednik Gabriel Borić, izabran 2021., rođen je u Punta Arenasu u obitelji hrvatskog podrijetla."
+    "Chile is about 4,300 kilometers long and on average less than 200 wide, squeezed between the Andes and the Pacific Ocean. That is why it has a desert in the north where in places no rain falls for decades, vineyards and a Mediterranean climate in the middle, and fjords, glaciers and wind in the south. The Spanish began conquering it in 1541, but the Mapuche people in the south held out against them for more than three centuries.",
+    "For Croatians, Chile is a special country. In the late 19th and early 20th centuries, thousands of Dalmatians, especially from the island of Brač, left for the far south, for Punta Arenas, and for the north, for the saltpeter mines around Antofagasta. Their descendants are among the country's most respected citizens today, and President Gabriel Boric, elected in 2021, was born in Punta Arenas into a family of Croatian descent."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Patagonija i jug od studenoga do ožujka. Santiago i vinske doline najljepši su u proljeće i jesen, a Atacama se može posjetiti cijele godine." },
-    { k: "Valuta", v: "Čileanski peso (CLP). Kartice se primaju gotovo svuda, a gotovina treba za tržnice i mala mjesta." },
-    { k: "Kretanje", v: "Zbog duljine zemlje između sjevera, središta i juga leti se. Autobusi su udobni i točni, a Santiago ima dobar metro." },
-    { k: "Napojnica", v: "U restoranima se na račun predlaže 10 posto, a konobar će pitati želite li je uključiti." },
-    { k: "Dobro je znati", v: "Čileanski španjolski je brz i pun vlastitih riječi, pa slobodno zamolite sugovornika da govori sporije." }
+    { k: "When to go", v: "Patagonia and the south from November to March. Santiago and the wine valleys are at their loveliest in spring and fall, and the Atacama can be visited all year round." },
+    { k: "Currency", v: "The Chilean peso (CLP). Cards are accepted almost everywhere, and you need cash for markets and small towns." },
+    { k: "Getting around", v: "Because of the country's length, you fly between the north, the center and the south. Buses are comfortable and punctual, and Santiago has a good metro." },
+    { k: "Tipping", v: "In restaurants a 10 percent tip is suggested on the bill, and the server will ask whether you want to include it." },
+    { k: "Good to know", v: "Chilean Spanish is fast and full of words of its own, so feel free to ask the person you are talking with to speak more slowly." }
   ],
   hrana: [
-    { ime: "Empanada de pino", opis: "Pečena empanada punjena mljevenom govedinom i lukom, s četvrtinom kuhanog jajeta, maslinom i grožđicama.", prica: "Pino je naziv nadjeva i dolazi iz jezika naroda Mapuche. Empanade se jedu nedjeljom i obvezno za državni praznik u rujnu, a u maslini je koštica, na što vas nitko neće upozoriti." },
-    { ime: "Pastel de choclo", opis: "Zapečeno jelo od mesnog nadjeva pino i piletine pod koricom od mljevenog slatkog kukuruza.", prica: "Ljetno jelo središnjeg Čilea, kada dozrijeva kukuruz, peče se i poslužuje u glinenoj zdjelici. Po vrhu se pospe malo šećera, koji se u pećnici karamelizira." },
-    { ime: "Completo", opis: "Hrenovka u pecivu zatrpana prilozima.", prica: "Najpoznatija je verzija italiano, s avokadom, rajčicom i majonezom, nazvana tako jer su boje priloga boje talijanske zastave. Čileanci avokado zovu palta i stavljaju ga na gotovo sve." },
-    { ime: "Curanto", opis: "Školjke, meso, kobasice i krumpir kuhani na pari u jami s užarenim kamenjem, pokriveni velikim listovima.", prica: "Jelo je s otočja Chiloé na jugu i staro je tisućama godina. Uz njega se jedu milcao i chapalele, pogačice od krumpira koje se kuhaju u istoj jami." },
-    { ime: "Caldillo de congrio", opis: "Juha od ugora s krumpirom, lukom, rajčicom i vrhnjem.", prica: "Pablo Neruda napisao joj je odu u kojoj stih po stih daje recept. Najbolje se jede u ribarskim gostionicama uz obalu i na ribljim tržnicama." },
-    { ime: "Sopaipillas", opis: "Prženi kolutovi od tijesta s bundevom.", prica: "Na ulici se jedu sa senfom ili ljutim umakom pebre. Kada pada kiša, kod kuće se preliju toplim sirupom od nerafiniranog šećera, pa se zovu sopaipillas pasadas." },
-    { ime: "Mote con huesillo", opis: "Ledeni napitak od kuhane pšenice i sušenih bresaka u slatkom soku.", prica: "Ljeti se prodaje s kolica na svakom trgu i pola je piće, a pola desert, pa uz čašu dobijete i žličicu. Izreka kaže da je nešto čileanskije od mote con huesillo kada se želi reći da je posve domaće." },
-    { ime: "Carménère", opis: "Crno vino mekih tanina i začinskih aroma, zaštitna sorta Čilea.", prica: "Sorta iz Bordeauxa smatrala se izumrlom nakon najezde filoksere u Europi. U Čileu je desetljećima rasla pomiješana s merlotom, sve dok je 1994. jedan francuski stručnjak nije prepoznao u vinogradu." },
-    { ime: "Pisco sour", opis: "Koktel od rakije pisco, soka limuna i šećera.", prica: "Čileanski pisco peče se u dolini Elqui na sjeveru, a koktel se ovdje obično radi bez bjelanjka. Je li pisco čileanski ili peruanski, pitanje je koje je bolje ne postavljati za stolom." }
+    { ime: "Empanada de pino", opis: "A baked empanada filled with ground beef and onion, with a quarter of a boiled egg, an olive and raisins.", prica: "Pino is the name of the filling and comes from the language of the Mapuche people. Empanadas are eaten on Sundays and without fail for the national holiday in September, and the olive still has its pit, which nobody will warn you about." },
+    { ime: "Pastel de choclo", opis: "A baked dish of pino meat filling and chicken under a crust of ground sweet corn.", prica: "A summer dish of central Chile, made when the corn ripens, it is baked and served in a small clay bowl. A little sugar is sprinkled on top and caramelizes in the oven." },
+    { ime: "Completo", opis: "A hot dog in a bun buried under toppings.", prica: "The best known version is the italiano, with avocado, tomato and mayonnaise, so named because the colors of the toppings are the colors of the Italian flag. Chileans call avocado palta and put it on almost everything." },
+    { ime: "Curanto", opis: "Shellfish, meat, sausages and potatoes steamed in a pit with red-hot stones, covered with large leaves.", prica: "The dish comes from the Chiloé archipelago in the south and is thousands of years old. It is eaten with milcao and chapalele, potato cakes that are cooked in the same pit." },
+    { ime: "Caldillo de congrio", opis: "A conger eel soup with potatoes, onion, tomato and cream.", prica: "Pablo Neruda wrote an ode to it in which he gives the recipe line by line. It is best eaten in the fishermen's taverns along the coast and at the fish markets." },
+    { ime: "Sopaipillas", opis: "Fried rounds of dough made with pumpkin.", prica: "On the street they are eaten with mustard or the spicy pebre sauce. When it rains, people at home pour a warm syrup of unrefined sugar over them, and then they are called sopaipillas pasadas." },
+    { ime: "Mote con huesillo", opis: "An ice-cold drink of cooked wheat and dried peaches in sweet juice.", prica: "In summer it is sold from carts on every square, and it is half drink and half dessert, so you get a spoon with your glass. There is a saying that something is more Chilean than mote con huesillo when people want to say it is completely homegrown." },
+    { ime: "Carménère", opis: "A red wine with soft tannins and spicy aromas, Chile's signature grape.", prica: "The Bordeaux variety was thought extinct after the phylloxera plague in Europe. In Chile it grew for decades mixed in with merlot, until a French expert recognized it in a vineyard in 1994." },
+    { ime: "Pisco sour", opis: "A cocktail of pisco brandy, lemon juice and sugar.", prica: "Chilean pisco is distilled in the Elqui Valley in the north, and here the cocktail is usually made without egg white. Whether pisco is Chilean or Peruvian is a question better left unasked at the table." }
   ],
   obicaji: [
-    { ime: "Cueca", opis: "Nacionalni ples Čilea, u kojem plesač i plesačica s rupčićima u rukama kruže jedno oko drugoga, oponašajući udvaranje pijetla i kokoši. Plesač nosi odjeću huasa, čileanskog konjanika, s kratkim ponchom i mamuzama.", gdje: "Najviše se pleše oko 18. rujna, o državnom prazniku, u fondama, privremenim paviljonima s hranom i glazbom. U Santiagu je najveća proslava u parku O'Higgins, a tečajevi cueke održavaju se u kulturnim centrima cijele godine." },
-    { ime: "Fiestas Patrias", opis: "Državni praznik 18. i 19. rujna, kojim se slavi početak borbe za neovisnost 1810. Cijela zemlja tjedan dana jede empanade i meso s roštilja, pušta zmajeve i pleše.", gdje: "U cijeloj zemlji, u fondama po parkovima i na seoskim rodeima." },
-    { ime: "Once", opis: "Popodnevni obrok oko 17 ili 18 sati, s čajem, kruhom, avokadom, sirom i kolačima, koji mnogim obiteljima zamjenjuje večeru.", gdje: "U kućama i u starinskim čajanama. Na jugu, u krajevima koje su naselili Nijemci, uz once se služi kuchen, voćni kolač." },
-    { ime: "Kultura Mapuche", opis: "Najbrojniji starosjedilački narod Čilea poznat je po srebrnom nakitu, tkanim ponchima i novoj godini We Tripantu, koja se slavi o zimskom solsticiju.", gdje: "U regiji Araucanía, oko gradova Temuco i Pucón, gdje zajednice primaju goste u tradicionalnim kućama ruka. We Tripantu pada oko 21. do 24. lipnja." },
-    { ime: "Tapati Rapa Nui", opis: "Dvotjedna svetkovina na Uskršnjem otoku, u kojoj se dva klana natječu u plesu, pjesmi, oslikavanju tijela i spuštanju niz brdo na deblima banane.", gdje: "U mjestu Hanga Roa na Uskršnjem otoku, početkom veljače." },
-    { ime: "La Tirana", opis: "Vjerska svetkovina u pustinjskom selu, na koju dolaze stotine plesnih bratovština. Najpoznatije su diablade, plesovi maskiranih vragova.", gdje: "U selu La Tirana kod Iquiquea, sredinom srpnja." }
+    { ime: "Cueca", opis: "Chile's national dance, in which a man and a woman holding handkerchiefs circle around each other, imitating the courtship of a rooster and a hen. The man wears the outfit of the huaso, the Chilean horseman, with a short poncho and spurs.", gdje: "It is danced most around September 18, on the national holiday, in the fondas, temporary pavilions with food and music. In Santiago the biggest celebration is in O'Higgins Park, and cueca classes are held in cultural centers all year round." },
+    { ime: "Fiestas Patrias", opis: "The national holiday on September 18 and 19, which celebrates the start of the struggle for independence in 1810. For a week the whole country eats empanadas and grilled meat, flies kites and dances.", gdje: "All over the country, in fondas in the parks and at village rodeos." },
+    { ime: "Once", opis: "An afternoon meal at around 5 or 6 p.m., with tea, bread, avocado, cheese and cakes, which for many families takes the place of dinner.", gdje: "In homes and in old-fashioned tearooms. In the south, in the areas settled by Germans, once comes with kuchen, a fruit cake." },
+    { ime: "Mapuche culture", opis: "Chile's most numerous indigenous people are known for their silver jewelry, woven ponchos and their new year, We Tripantu, which is celebrated at the winter solstice.", gdje: "In the Araucanía region, around the towns of Temuco and Pucón, where communities welcome guests in traditional ruka houses. We Tripantu falls around June 21 to 24." },
+    { ime: "Tapati Rapa Nui", opis: "A two-week festival on Easter Island in which two clans compete in dance, song, body painting and sliding down a hill on banana trunks.", gdje: "In the town of Hanga Roa on Easter Island, in early February." },
+    { ime: "La Tirana", opis: "A religious festival in a desert village, attended by hundreds of dance brotherhoods. The best known are the diabladas, dances of masked devils.", gdje: "In the village of La Tirana near Iquique, in mid-July." }
   ],
   fraze: [
-    { izvorno: "Buenos días", izgovor: "BUE-nos DI-as", hr: "Dobro jutro, dobar dan" },
-    { izvorno: "Gracias", izgovor: "GRA-sjas", hr: "Hvala" },
-    { izvorno: "Por favor", izgovor: "por fa-VOR", hr: "Molim" },
-    { izvorno: "¿Cuánto cuesta?", izgovor: "KUAN-to KUES-ta", hr: "Koliko košta?" },
-    { izvorno: "La cuenta, por favor", izgovor: "la KUEN-ta, por fa-VOR", hr: "Račun, molim" },
-    { izvorno: "¿Cachái?", izgovor: "ka-ČAJ", hr: "Kužiš? (čileanska poštapalica)" },
-    { izvorno: "¿Puede hablar más despacio?", izgovor: "PUE-de a-BLAR mas des-PA-sjo", hr: "Možete li govoriti sporije?" },
-    { izvorno: "¡Salud!", izgovor: "sa-LUD", hr: "Živjeli!" }
+    { izvorno: "Buenos días", izgovor: "BWEH-nohs DEE-ahs", hr: "Good morning, good day" },
+    { izvorno: "Gracias", izgovor: "GRAH-syahs", hr: "Thank you" },
+    { izvorno: "Por favor", izgovor: "por fah-VOR", hr: "Please" },
+    { izvorno: "¿Cuánto cuesta?", izgovor: "KWAHN-toh KWES-tah", hr: "How much does it cost?" },
+    { izvorno: "La cuenta, por favor", izgovor: "lah KWEN-tah, por fah-VOR", hr: "The check, please" },
+    { izvorno: "¿Cachái?", izgovor: "kah-CHAI", hr: "Get it? (a Chilean filler word)" },
+    { izvorno: "¿Puede hablar más despacio?", izgovor: "PWEH-deh ah-BLAR mahs des-PAH-syoh", hr: "Could you speak more slowly?" },
+    { izvorno: "¡Salud!", izgovor: "sah-LOOD", hr: "Cheers!" }
   ],
   zanimljivosti: [
-    "U pustinji Atacami postoje meteorološke postaje koje godinama nisu zabilježile ni kap kiše.",
-    "Čile ima dvoje dobitnika Nobelove nagrade za književnost, pjesnike Gabrielu Mistral i Pabla Nerudu.",
-    "Najjači potres ikada izmjeren, magnitude 9,5, pogodio je 1960. grad Valdiviju na jugu Čilea.",
-    "Prema podacima koje prenosi Memoria Chilena, 1914. u pokrajini Magallanes živjelo je oko 2000 Hrvata, što je bila desetina tamošnjeg stanovništva.",
-    "Paško Baburica, rođen na otoku Koločepu kod Dubrovnika, obogatio se na čileanskoj salitri, a njegova palača u Valparaísu danas je gradski muzej likovnih umjetnosti.",
-    "Uskršnji otok udaljen je od čileanske obale oko 3700 kilometara i jedno je od najudaljenijih naseljenih mjesta na Zemlji.",
-    "Zahvaljujući suhom i čistom zraku u Čileu se nalazi velik dio najvećih svjetskih teleskopa."
+    "In the Atacama Desert there are weather stations that have not recorded a single drop of rain in years.",
+    "Chile has two winners of the Nobel Prize in Literature, the poets Gabriela Mistral and Pablo Neruda.",
+    "The strongest earthquake ever measured, of magnitude 9.5, struck the city of Valdivia in southern Chile in 1960.",
+    "According to figures cited by Memoria Chilena, about 2,000 Croats were living in the province of Magallanes in 1914, which was a tenth of the population there.",
+    "Paško Baburica, born on the island of Koločep near Dubrovnik, made his fortune in Chilean saltpeter, and his palace in Valparaíso is now the city's museum of fine arts.",
+    "Easter Island is about 3,700 kilometers from the Chilean coast and is one of the most remote inhabited places on Earth.",
+    "Thanks to its dry, clean air, Chile is home to a large share of the world's biggest telescopes."
   ],
   mjesta: [
     {
       id: "santiago",
       ime: "Santiago",
       vrsta: "grad",
-      sazetak: "Prijestolnica pod snježnim zidom Anda, s tržnicama, Nerudinom kućom i vinogradima na rubu grada.",
+      sazetak: "A capital beneath the snowy wall of the Andes, with markets, Neruda's house and vineyards on the edge of town.",
       prica: [
-        "Santiago je 12. veljače 1541. osnovao Pedro de Valdivia podno brežuljka koji su starosjedioci zvali Huelén, a danas se zove Santa Lucía. Već nakon nekoliko mjeseci grad je spaljen u napadu starosjedilaca, a predaja pamti Inés de Suárez, Valdivijinu družicu, kao onu koja je organizirala obranu.",
-        "Novija povijest jednako je dramatična: 11. rujna 1973. vojska je bombardirala predsjedničku palaču, u kojoj je poginuo predsjednik Salvador Allende, i započela je diktatura generala Pinocheta, koja je trajala do 1990. Tragovi tog doba važan su dio današnjeg grada."
+        "Santiago was founded on February 12, 1541 by Pedro de Valdivia at the foot of a hill that the indigenous people called Huelén and that is now called Santa Lucía. Only a few months later the town was burned in an indigenous attack, and tradition remembers Inés de Suárez, Valdivia's companion, as the one who organized the defense.",
+        "Its more recent history is just as dramatic: on September 11, 1973 the military bombed the presidential palace, where President Salvador Allende died, and so began the dictatorship of General Pinochet, which lasted until 1990. The traces of that era are an important part of the city today."
       ],
       vidjeti: [
-        { ime: "Plaza de Armas", opis: "Glavni trg od kojeg se mjere sve udaljenosti u Čileu, s katedralom, starom poštom i zgradom kolonijalne uprave. Pod palmama šahisti igraju partije za stolovima, a slikari izlažu platna." },
-        { ime: "Palacio de La Moneda", opis: "Predsjednička palača sagrađena je krajem 18. stoljeća kao kovnica novca, odakle joj i ime, prema nacrtu talijanskog arhitekta Joaquína Toesce. Na pročelju više nema tragova bombardiranja iz 1973., ali pred palačom stoji kip Salvadora Allendea." },
-        { ime: "Museo Chileno de Arte Precolombino", opis: "Jedan od najboljih muzeja pretkolumbovske umjetnosti na kontinentu, u bivšoj kraljevskoj carinarnici. U podrumu potražite drvene pogrebne kipove naroda Mapuche i mumije kulture Chinchorro, starije od egipatskih." },
-        { ime: "Cerro San Cristóbal", opis: "Brdo usred grada na koje od 1925. vozi uspinjača. Na vrhu je bijeli kip Bezgrešne visok 14 metara, a u predvečerje se odavde najbolje vidi kako Ande poprimaju ružičastu boju." },
-        { ime: "La Chascona", opis: "Kuću u četvrti Bellavista Pablo Neruda dao je sagraditi za Matilde Urrutiju, svoju tajnu ljubav, i nazvao je po njezinoj raščupanoj kosi. Sobe su oblikovane kao brodske kabine, jer je pjesnik volio more, ali samo s kopna." },
-        { ime: "Museo de la Memoria y los Derechos Humanos", opis: "Muzej otvoren 2010. dokumentira razdoblje diktature od 1973. do 1990. kroz svjedočanstva, pisma i predmete zatočenika. Zid s fotografijama nestalih proteže se kroz tri kata." }
+        { ime: "Plaza de Armas", opis: "The main square, from which all distances in Chile are measured, with the cathedral, the old post office and the colonial government building. Under the palms, chess players sit at tables over their games and painters display their canvases." },
+        { ime: "Palacio de La Moneda", opis: "The presidential palace was built at the end of the 18th century as a mint, which is where its name comes from, to a design by the Italian architect Joaquín Toesca. The facade no longer shows any trace of the 1973 bombing, but a statue of Salvador Allende stands in front of the palace." },
+        { ime: "Museo Chileno de Arte Precolombino", opis: "One of the best museums of pre-Columbian art on the continent, in the former royal customs house. In the basement, look for the wooden funerary statues of the Mapuche people and the mummies of the Chinchorro culture, which are older than the Egyptian ones." },
+        { ime: "Cerro San Cristóbal", opis: "A hill in the middle of the city with a funicular that has been running since 1925. At the top is a white statue of the Immaculate Conception 14 meters tall, and in the early evening this is the best place to watch the Andes turn pink." },
+        { ime: "La Chascona", opis: "Pablo Neruda had this house in the Bellavista district built for Matilde Urrutia, his secret love, and named it after her tousled hair. The rooms are shaped like ship's cabins, because the poet loved the sea, but only from dry land." },
+        { ime: "Museo de la Memoria y los Derechos Humanos", opis: "The museum, opened in 2010, documents the period of the dictatorship from 1973 to 1990 through testimonies, letters and prisoners' belongings. A wall of photographs of the disappeared stretches across three floors." }
       ],
       jesti: [
-        { ime: "Riba i plodovi mora na Mercado Central", opis: "Tržnica pod željeznom konstrukcijom iz 1872. izlaže morske ježince, divovske školjke i ugora, a manje gostionice uz rub povoljnije su od onih u sredini." },
-        { ime: "Terremoto", opis: "Koktel od slatkog bijelog vina i sladoleda od ananasa, čije ime znači potres, jer se nakon njega tlo ljulja." },
-        { ime: "Sendviči", opis: "Barros Luco, s govedinom i topljenim sirom, nosi ime po predsjedniku koji ga je stalno naručivao u jednoj kavani u središtu grada." }
+        { ime: "Fish and seafood at the Mercado Central", opis: "The market under an iron structure from 1872 displays sea urchins, giant clams and conger eel, and the smaller eateries around the edge are better value than those in the middle." },
+        { ime: "Terremoto", opis: "A cocktail of sweet white wine and pineapple ice cream whose name means earthquake, because the ground sways after you drink it." },
+        { ime: "Sandwiches", opis: "The Barros Luco, with beef and melted cheese, is named after a president who kept ordering it at a café in the city center." }
       ],
       dozivjeti: [
-        { ime: "La Vega Central", opis: "Golema tržnica voća i povrća preko rijeke, gdje kupuju mještani i gdje se u pučkim kuhinjama jede cazuela, juha s mesom i povrćem." },
-        { ime: "Vinarije u dolini Maipo", opis: "Najstarije vinarije u zemlji nalaze se na južnom rubu grada, a do nekih se može doći i metroom i taksijem." },
-        { ime: "Barrio Lastarria", opis: "Četvrt kavana, knjižara i malih kina, uz park Forestal, ugodna za večernju šetnju. U blizini je kulturni centar GAM, s plesnim i kazališnim programom.", link: "https://gam.cl/es/" }
+        { ime: "La Vega Central", opis: "A huge fruit and vegetable market across the river, where the locals shop and where the simple market kitchens serve cazuela, a soup with meat and vegetables." },
+        { ime: "Wineries in the Maipo Valley", opis: "The oldest wineries in the country are on the southern edge of the city, and some can even be reached by metro and taxi." },
+        { ime: "Barrio Lastarria", opis: "A neighborhood of cafés, bookshops and small cinemas beside Forestal Park, pleasant for an evening stroll. Nearby is the GAM cultural center, with a dance and theater program.", link: "https://gam.cl/es/" }
       ],
       agencije: [
-        { ime: "Santiago Turismo", opis: "Službeni turistički portal Općine Santiago.", link: "https://www.santiagoturismo.cl/en/" },
-        { ime: "Chile Travel", opis: "Službeni turistički portal Čilea.", link: "https://chile.travel/" },
-        { ime: "Museo Chileno de Arte Precolombino", opis: "Službena stranica muzeja.", link: "https://museoprecolombino.cl/" }
+        { ime: "Santiago Turismo", opis: "The official tourism portal of the Municipality of Santiago.", link: "https://www.santiagoturismo.cl/en/" },
+        { ime: "Chile Travel", opis: "Chile's official tourism portal.", link: "https://chile.travel/" },
+        { ime: "Museo Chileno de Arte Precolombino", opis: "The museum's official website.", link: "https://museoprecolombino.cl/" }
       ],
-      kada: "Najugodnije je od rujna do studenoga i od ožujka do svibnja. Ande se najbolje vide dan nakon kiše, kada vjetar očisti zrak nad gradom."
+      kada: "It is most pleasant from September to November and from March to May. The Andes are best seen the day after rain, when the wind has cleared the air over the city."
     },
     {
       id: "valparaiso",
       ime: "Valparaíso",
       vrsta: "grad",
-      sazetak: "Lučki grad na četrdesetak brežuljaka, s kućama od šarenog lima, stoljetnim uspinjačama i muralima na svakom zidu.",
+      sazetak: "A port city on some forty hills, with houses of colorful sheet metal, century-old funiculars and murals on every wall.",
       prica: [
-        "U 19. stoljeću Valparaíso je bio najvažnija luka na pacifičkoj obali Južne Amerike, obvezna postaja brodova koji su oplovljavali rt Horn. Bogatstvo su donosili britanski, njemački i talijanski trgovci, koji su na brežuljcima iznad luke gradili vile i crkve.",
-        "Otvorenje Panamskog kanala 1914. gradu je oduzelo promet, a potres 1906. već ga je prije toga teško oštetio. Zapuštenost je privukla umjetnike i studente, a UNESCO je povijesnu četvrt 2003. upisao na popis svjetske baštine."
+        "In the 19th century Valparaíso was the most important port on the Pacific coast of South America, an obligatory stop for ships rounding Cape Horn. Wealth came with the British, German and Italian merchants, who built villas and churches on the hills above the harbor.",
+        "The opening of the Panama Canal in 1914 took the city's traffic away, and the earthquake of 1906 had already badly damaged it before that. Its neglected state attracted artists and students, and in 2003 UNESCO added the historic quarter to the World Heritage List."
       ],
       vidjeti: [
-        { ime: "Cerro Alegre i Cerro Concepción", opis: "Dva susjedna brežuljka na kojima su živjeli strani trgovci, s kućama obloženima valovitim limom koji je u luku stizao kao brodski balast. Lim se bojio ostacima brodske boje, odakle i šarenilo." },
-        { ime: "Palacio Baburizza", opis: "Secesijska palača iz 1916., koju je 1925. kupio Paško Baburica, Hrvat s Koločepa koji se obogatio na salitri. Danas je u njoj gradski muzej likovnih umjetnosti s njegovom zbirkom europskog slikarstva, a šetnica pred palačom zove se Paseo Yugoslavo." },
-        { ime: "La Sebastiana", opis: "Nerudina kuća na brežuljku Florida, na pet uskih katova, s pogledom na cijeli zaljev. Pjesnik ju je otvorio 1961., a u njoj je skupljao stare karte, brodske predmete i šareno staklo." },
-        { ime: "Uspinjače", opis: "Od tridesetak uspinjača s kraja 19. i početka 20. stoljeća danas ih vozi tek dio. Najstarija, Concepción, radi od 1883., a vožnja u drvenoj kabini traje manje od minute." },
-        { ime: "Museo a Cielo Abierto", opis: "Na brežuljku Bellavista dvadesetak je murala koje su početkom 1990-ih naslikali poznati čileanski slikari sa studentima. Od tada se ulična umjetnost proširila na cijeli grad." }
+        { ime: "Cerro Alegre and Cerro Concepción", opis: "Two neighboring hills where the foreign merchants lived, with houses clad in corrugated iron that arrived in the port as ship's ballast. The iron was painted with leftover ship's paint, which is where all the color comes from." },
+        { ime: "Palacio Baburizza", opis: "An Art Nouveau palace from 1916, bought in 1925 by Paško Baburica, a Croat from Koločep who grew rich on saltpeter. Today it houses the city's museum of fine arts with his collection of European painting, and the promenade in front of the palace is called Paseo Yugoslavo." },
+        { ime: "La Sebastiana", opis: "Neruda's house on Florida hill, on five narrow floors, with a view of the whole bay. The poet opened it in 1961 and collected old maps, ship's objects and colored glass in it." },
+        { ime: "Funiculars", opis: "Of the thirty or so funiculars from the late 19th and early 20th centuries, only some are running today. The oldest, Concepción, has been in service since 1883, and the ride in the wooden cabin takes less than a minute." },
+        { ime: "Museo a Cielo Abierto", opis: "On Bellavista hill there are some twenty murals painted in the early 1990s by well-known Chilean painters together with students. Since then street art has spread across the whole city." }
       ],
       jesti: [
-        { ime: "Chorrillana", opis: "Brdo prženih krumpirića prekriveno trakama govedine, prženim lukom i jajima, jelo koje je nastalo u Valparaísu i uvijek se dijeli." },
-        { ime: "Riba u luci", opis: "Na ribarskom pristaništu Caleta Portales riba se kupuje s brodica, a u gostionicama uz plažu jede se pržena, uz morske lavove koji čekaju ostatke." }
+        { ime: "Chorrillana", opis: "A mountain of french fries covered with strips of beef, fried onions and eggs, a dish that was born in Valparaíso and is always shared." },
+        { ime: "Fish at the harbor", opis: "At the Caleta Portales fishing wharf, fish is bought straight off the boats, and in the eateries by the beach it is eaten fried, with sea lions waiting for the scraps." }
       ],
       dozivjeti: [
-        { ime: "Šetnja muralima s vodičem", opis: "Lokalni vodiči objašnjavaju tko su autori murala i što poruke na zidovima znače, a obilazak obično uključuje vožnju uspinjačom i trolejbusom iz 1950-ih." },
-        { ime: "Muzej u palači Baburizza", opis: "Uz slike vrijedi razgledati i samu kuću, s drvenim stubištem i kupaonicom u stilu art déco.", link: "https://www.museobaburizza.cl/" },
-        { ime: "Nerudine kuće", opis: "Zaklada upravlja trima pjesnikovim kućama, a treća, Isla Negra, nalazi se na obali sat vremena južnije.", link: "https://fundacionneruda.org/" }
+        { ime: "A guided mural walk", opis: "Local guides explain who painted the murals and what the messages on the walls mean, and the tour usually includes a ride on a funicular and on a trolleybus from the 1950s." },
+        { ime: "The museum in the Baburizza Palace", opis: "Along with the paintings, the house itself is worth exploring, with its wooden staircase and Art Deco bathroom.", link: "https://www.museobaburizza.cl/" },
+        { ime: "Neruda's houses", opis: "The foundation runs the poet's three houses, and the third, Isla Negra, is on the coast an hour farther south.", link: "https://fundacionneruda.org/" }
       ],
       agencije: [
-        { ime: "Chile Travel", opis: "Službeni turistički portal Čilea.", link: "https://chile.travel/" },
-        { ime: "Museo Baburizza", opis: "Službena stranica muzeja likovnih umjetnosti u palači Baburizza.", link: "https://www.museobaburizza.cl/" },
-        { ime: "Fundación Pablo Neruda", opis: "Zaklada koja upravlja Nerudinim kućama muzejima.", link: "https://fundacionneruda.org/" }
+        { ime: "Chile Travel", opis: "Chile's official tourism portal.", link: "https://chile.travel/" },
+        { ime: "Museo Baburizza", opis: "The official website of the museum of fine arts in the Baburizza Palace.", link: "https://www.museobaburizza.cl/" },
+        { ime: "Fundación Pablo Neruda", opis: "The foundation that runs Neruda's house museums.", link: "https://fundacionneruda.org/" }
       ],
-      kada: "Od listopada do travnja dani su sunčani i vjetroviti. Držite se brežuljaka Alegre i Concepción i danju, a fotoaparat i mobitel ne nosite u ruci u donjem gradu."
+      kada: "From October to April the days are sunny and windy. Stick to the Alegre and Concepción hills even during the day, and do not carry your camera or phone in your hand in the lower town."
     },
     {
       id: "atacama",
       ime: "Atacama",
       vrsta: "priroda",
-      sazetak: "Najsuša pustinja svijeta, sa slanim jezerima, gejzirima u zoru i nebom zbog kojeg ovamo dolaze astronomi iz cijelog svijeta.",
+      sazetak: "The driest desert in the world, with salt lakes, geysers at dawn and a sky that draws astronomers here from all over the world.",
       prica: [
-        "Oaza San Pedro de Atacama, na 2400 metara, naseljena je tisućama godina, a narod Lickanantay, zvan i Atacameños, ovdje je uzgajao kukuruz i ljame prije dolaska Inka i Španjolaca. Selo od nepečene opeke i danas ima zemljane ulice.",
-        "Pustinju s jedne strane od kiše zaklanjaju Ande, a s druge hladna morska struja, pa je zrak izuzetno suh i proziran. Zato je ovaj kraj postao svjetsko središte astronomije."
+        "The oasis of San Pedro de Atacama, at 2,400 meters, has been inhabited for thousands of years, and the Lickanantay people, also known as the Atacameños, grew corn and raised llamas here before the arrival of the Incas and the Spanish. The adobe village still has dirt streets today.",
+        "The desert is sheltered from rain by the Andes on one side and by a cold ocean current on the other, so the air is exceptionally dry and clear. That is why this area has become a world center of astronomy."
       ],
       vidjeti: [
-        { ime: "Valle de la Luna", opis: "Mjesečeva dolina je krajolik dina, grebena i stijena prekrivenih bijelom solju. U zalazak sunca vulkan Licancabur u pozadini postaje ljubičast, a u tišini se može čuti kako sol pucketa dok se hladi." },
-        { ime: "Géiseres del Tatio", opis: "Polje gejzira na oko 4300 metara, jedno od najviših na svijetu. Dolazi se prije svitanja, jer su stupovi pare najviši dok je zrak leden, pa se na polazak iz San Pedra kreće oko pet ujutro." },
-        { ime: "Salar de Atacama i laguna Chaxa", opis: "Najveća slana ravnica u Čileu ima hrapavu smeđu koru, drukčiju od glatke bjeline bolivijskog Uyunija. U plitkim lagunama hrane se tri vrste plamenaca." },
-        { ime: "Lagune Miscanti i Miñiques", opis: "Dva tamnoplava jezera na 4200 metara, obrubljena bijelom solju, pod vulkanima istih imena. Uz obalu pasu vikunje." },
-        { ime: "Pukará de Quitor", opis: "Utvrda iz 12. stoljeća na padini iznad rijeke, tri kilometra od sela, u kojoj su se starosjedioci 1540. branili od Španjolaca. S vrha se vidi cijela oaza." }
+        { ime: "Valle de la Luna", opis: "The Valley of the Moon is a landscape of dunes, ridges and rocks covered in white salt. At sunset the Licancabur volcano in the background turns purple, and in the silence you can hear the salt crackle as it cools." },
+        { ime: "Géiseres del Tatio", opis: "A geyser field at about 4,300 meters, one of the highest in the world. You arrive before daybreak, because the columns of steam are tallest while the air is icy, so departures from San Pedro are at around five in the morning." },
+        { ime: "Salar de Atacama and Laguna Chaxa", opis: "The largest salt flat in Chile has a rough brown crust, unlike the smooth whiteness of Bolivia's Uyuni. Three species of flamingo feed in the shallow lagoons." },
+        { ime: "Miscanti and Miñiques lagoons", opis: "Two dark blue lakes at 4,200 meters, edged with white salt, beneath the volcanoes of the same names. Vicuñas graze along the shore." },
+        { ime: "Pukará de Quitor", opis: "A 12th-century fortress on a slope above the river, three kilometers from the village, where the indigenous people defended themselves against the Spanish in 1540. From the top you can see the whole oasis." }
       ],
       jesti: [
-        { ime: "Meso ljame i kvinoja", opis: "U restoranima San Pedra kuša se odrezak ili ražnjić od ljame, uz kvinoju pripremljenu poput rižota." },
-        { ime: "Rica-rica i chañar", opis: "Pustinjska biljka rica-rica mirisom podsjeća na mentu i stavlja se u čaj, sladoled i pisco sour, a od ploda stabla chañar kuha se tamni sirup." }
+        { ime: "Llama meat and quinoa", opis: "In the restaurants of San Pedro you can try a llama steak or skewer, with quinoa prepared like a risotto." },
+        { ime: "Rica-rica and chañar", opis: "The desert plant rica-rica has a scent reminiscent of mint and goes into tea, ice cream and pisco sour, and the fruit of the chañar tree is boiled down into a dark syrup." }
       ],
       dozivjeti: [
-        { ime: "Promatranje zvijezda", opis: "Mali opservatoriji oko sela organiziraju noćne obilaske s teleskopima i astronomom vodičem. Izbjegavajte dane oko punog mjeseca, kada se Mliječni put slabije vidi." },
-        { ime: "Posjet opservatoriju ALMA", opis: "Najveći radioteleskop na svijetu, sa 66 antena na visoravni iznad 5000 metara, prima posjetitelje u svom operativnom središtu. Mjesta su ograničena, a prijava se obavlja na službenoj stranici.", link: "https://www.almaobservatory.org/en/home/" },
-        { ime: "Plutanje u laguni Cejar", opis: "Voda je toliko slana da se u njoj pluta bez ikakvog napora, kao u Mrtvome moru." }
+        { ime: "Stargazing", opis: "Small observatories around the village organize night tours with telescopes and an astronomer as your guide. Avoid the days around the full moon, when the Milky Way is harder to see." },
+        { ime: "A visit to the ALMA observatory", opis: "The largest radio telescope in the world, with 66 antennas on a plateau above 5,000 meters, welcomes visitors at its operations facility. Places are limited, and you register on the official website.", link: "https://www.almaobservatory.org/en/home/" },
+        { ime: "Floating in Laguna Cejar", opis: "The water is so salty that you float in it with no effort at all, as in the Dead Sea." }
       ],
       agencije: [
-        { ime: "Chile Travel", opis: "Službeni turistički portal Čilea.", link: "https://chile.travel/" },
-        { ime: "CONAF", opis: "Državna šumarska uprava, koja upravlja nacionalnim rezervatom Los Flamencos.", link: "https://www.conaf.cl/" }
+        { ime: "Chile Travel", opis: "Chile's official tourism portal.", link: "https://chile.travel/" },
+        { ime: "CONAF", opis: "The national forestry service, which manages the Los Flamencos National Reserve.", link: "https://www.conaf.cl/" }
       ],
-      kada: "Putovati se može cijele godine, a najugodnije je od rujna do studenoga i od ožujka do svibnja. Dnevne i noćne temperature razlikuju se i za trideset stupnjeva, a izlete na velike visine ostavite za kraj boravka."
+      kada: "You can travel here all year round, and it is most pleasant from September to November and from March to May. Daytime and nighttime temperatures can differ by as much as thirty degrees, and you should leave the high-altitude excursions for the end of your stay."
     },
     {
       id: "torres-del-paine",
       ime: "Torres del Paine",
       vrsta: "priroda",
-      sazetak: "Nacionalni park granitnih tornjeva, tirkiznih jezera i ledenjaka, sanjano odredište svih koji vole hodati.",
+      sazetak: "A national park of granite towers, turquoise lakes and glaciers, the dream destination of everyone who loves to walk.",
       prica: [
-        "Riječ paine na jeziku naroda Tehuelche znači plavo, po boji jezera i leda. Park je osnovan 1959., a 1978. UNESCO ga je proglasio rezervatom biosfere.",
-        "Prije toga ovdje su bila ovčarska imanja, a tragovi požara kojima su ovčari krčili šumu vide se i danas. Tri granitna tornja, po kojima se park zove, nastala su kada je led odnio mekše stijene oko skrutnute magme."
+        "In the language of the Tehuelche people the word paine means blue, after the color of the lakes and the ice. The park was founded in 1959, and in 1978 UNESCO declared it a biosphere reserve.",
+        "Before that there were sheep ranches here, and traces of the fires with which the sheep farmers cleared the forest can still be seen today. The three granite towers that give the park its name were formed when ice carried away the softer rock around the solidified magma."
       ],
       vidjeti: [
-        { ime: "Base Torres", opis: "Vidikovac pod trima tornjevima, visokima više od dvije tisuće metara, nad zelenkastim ledenjačkim jezercem. Do njega vodi cjelodnevni uspon, a posljednji je sat hodanje po velikom kamenju." },
-        { ime: "Cuernos del Paine", opis: "Rogovi su vrhovi u dvije boje: svijetli granit u sredini, a na vrhu tamna kapa starije sedimentne stijene. Najljepše se vide s obale jezera Pehoé." },
-        { ime: "Ledenjak Grey", opis: "Jezik golemog Južnog patagonskog ledenog polja spušta se u jezero po kojem plutaju plave sante. Brod prilazi čelu ledenjaka, a može se i veslati kajakom." },
-        { ime: "Salto Grande", opis: "Slap kojim se jezero Nordenskjöld prelijeva u jezero Pehoé, nadomak ceste. Vjetar je ovdje često toliko jak da se vodena prašina diže uvis." },
-        { ime: "Cueva del Milodón", opis: "Golema špilja kod Puerto Natalesa, u kojoj su 1895. pronađeni koža i kosti milodona, izumrlog divovskog ljenivca. Na ulazu stoji njegov kip u prirodnoj veličini." }
+        { ime: "Base Torres", opis: "The viewpoint below the three towers, each more than two thousand meters high, above a greenish glacial tarn. A full-day climb leads up to it, and the last hour is a scramble over large boulders." },
+        { ime: "Cuernos del Paine", opis: "The Horns are peaks in two colors: pale granite in the middle and, on top, a dark cap of older sedimentary rock. They are seen at their best from the shore of Lake Pehoé." },
+        { ime: "Grey Glacier", opis: "A tongue of the vast Southern Patagonian Ice Field descends into a lake dotted with floating blue icebergs. A boat approaches the face of the glacier, and you can also paddle a kayak." },
+        { ime: "Salto Grande", opis: "The waterfall through which Lake Nordenskjöld spills into Lake Pehoé, a short walk from the road. The wind here is often so strong that it lifts the spray into the air." },
+        { ime: "Cueva del Milodón", opis: "A huge cave near Puerto Natales where the skin and bones of a mylodon, an extinct giant sloth, were found in 1895. A life-size statue of it stands at the entrance." }
       ],
       jesti: [
-        { ime: "Cordero al palo", opis: "Magellanska janjetina pečena satima uz otvorenu vatru, glavno jelo na imanjima oko parka." },
-        { ime: "Calafate sour", opis: "Patagonska verzija pisco soura, ljubičasta od bobica calafate." }
+        { ime: "Cordero al palo", opis: "Magellanic lamb roasted for hours beside an open fire, the main dish on the ranches around the park." },
+        { ime: "Calafate sour", opis: "The Patagonian version of the pisco sour, purple from calafate berries." }
       ],
       dozivjeti: [
-        { ime: "Staza W", opis: "Četiri do pet dana hoda od doma do doma, kroz tri doline u obliku slova W. Noćenja u domovima i kampovima moraju se rezervirati mjesecima unaprijed, jer se bez potvrde ne može na stazu.", link: "https://lastorres.com/" },
-        { ime: "Park u jednom danu", opis: "Tko ne planinari, iz Puerto Natalesa može cestom obići vidikovce, jezera i Salto Grande, uz gotovo siguran susret s gvanacima, a uz malo sreće i s pumom." }
+        { ime: "The W Trek", opis: "Four to five days of walking from refuge to refuge, through three valleys that form the shape of the letter W. Nights in the refuges and campsites must be booked months in advance, because you cannot set out on the trail without a confirmation.", link: "https://lastorres.com/" },
+        { ime: "The park in one day", opis: "If you are not a hiker, you can tour the viewpoints, the lakes and Salto Grande by road from Puerto Natales, with an almost certain encounter with guanacos and, with a little luck, a puma." }
       ],
       agencije: [
-        { ime: "Parque Nacional Torres del Paine", opis: "Stranica parka s pravilima i informacijama za posjetitelje.", link: "https://parquetorresdelpaine.cl/" },
-        { ime: "Pases Parques", opis: "Službena prodaja ulaznica za čileanske nacionalne parkove.", link: "https://www.pasesparques.cl/en" },
-        { ime: "Patagonia Chile", opis: "Službeni portal Sernatura za čileansku Patagoniju.", link: "https://patagonia-chile.com/" }
+        { ime: "Parque Nacional Torres del Paine", opis: "The park's website, with regulations and visitor information.", link: "https://parquetorresdelpaine.cl/" },
+        { ime: "Pases Parques", opis: "The official ticket sales site for Chile's national parks.", link: "https://www.pasesparques.cl/en" },
+        { ime: "Patagonia Chile", opis: "Sernatur's official portal for Chilean Patagonia.", link: "https://patagonia-chile.com/" }
       ],
-      kada: "Sezona traje od listopada do travnja, a u siječnju i veljači je najtoplije i najvjetrovitije. U jednom danu moguća su sva četiri godišnja doba, pa je nepromočiva odjeća obvezna."
+      kada: "The season runs from October to April, and January and February are the warmest and windiest months. All four seasons are possible in a single day, so waterproof clothing is a must."
     },
     {
       id: "uskrsnji-otok",
-      ime: "Uskršnji otok",
+      ime: "Easter Island",
       vrsta: "otok",
-      sazetak: "Rapa Nui, vulkanski otok usred Tihog oceana, na kojem gotovo tisuću kamenih divova leđima okrenutih moru čuva sela koja više ne postoje.",
+      sazetak: "Rapa Nui, a volcanic island in the middle of the Pacific Ocean, where almost a thousand stone giants with their backs to the sea watch over villages that no longer exist.",
       prica: [
-        "Polinezijski moreplovci stigli su na otok prije otprilike osam stoljeća, a prema nekim procjenama i ranije. Razvili su društvo klanova koji su u čast predaka klesali goleme kipove moai i postavljali ih na kamene platforme zvane ahu.",
-        "Nizozemac Jacob Roggeveen pristao je na Uskrs 1722., po čemu je otok dobio europsko ime. U 19. stoljeću otmice za robovski rad i bolesti gotovo su istrijebile stanovništvo, a Čile je otok pripojio 1888. Nacionalni park Rapa Nui na UNESCO-ovu je popisu od 1995."
+        "Polynesian seafarers reached the island roughly eight centuries ago, and by some estimates even earlier. They developed a society of clans that carved the huge moai statues in honor of their ancestors and set them up on stone platforms called ahu.",
+        "The Dutchman Jacob Roggeveen landed on Easter Sunday 1722, which gave the island its European name. In the 19th century, slave raids and disease almost wiped out the population, and Chile annexed the island in 1888. Rapa Nui National Park has been on the UNESCO list since 1995."
       ],
       vidjeti: [
-        { ime: "Rano Raraku", opis: "Kamenolom na padini vulkana iz kojeg potječu gotovo svi moai. Stotine kipova ostale su ovdje u svim fazama izrade, među njima i nedovršeni div dug oko 21 metar, još spojen sa stijenom." },
-        { ime: "Ahu Tongariki", opis: "Najveća platforma na otoku, s petnaest kipova u nizu. Tsunami ih je 1960. razbacao stotinama metara u unutrašnjost, a ponovno su podignuti 1990-ih uz pomoć japanske dizalice. Sunce izlazi točno iza njih." },
-        { ime: "Orongo", opis: "Obredno selo niskih kamenih kuća na rubu kratera Rano Kau. Odavde su se natjecatelji spuštali niz liticu i plivali do otočića po prvo jaje čigre, a pobjednik je svom klanu donosio godinu vlasti. Na stijenama su uklesani likovi čovjeka ptice." },
-        { ime: "Ahu Akivi", opis: "Sedam moaija koji, za razliku od ostalih, stoje u unutrašnjosti i gledaju prema oceanu. Predaja kaže da predstavljaju sedam izvidnika poslanih prije dolaska prvog kralja Hotu Matu'e." },
-        { ime: "Anakena", opis: "Plaža bijelog pijeska s palmama, na koju je prema predaji pristao prvi kralj. Iznad nje stoji platforma s kipovima koji još nose crvene kamene kape pukao." }
+        { ime: "Rano Raraku", opis: "The quarry on the slope of a volcano from which almost all the moai come. Hundreds of statues were left here at every stage of carving, among them an unfinished giant about 21 meters long, still attached to the rock." },
+        { ime: "Ahu Tongariki", opis: "The largest platform on the island, with fifteen statues in a row. In 1960 a tsunami scattered them hundreds of meters inland, and they were raised again in the 1990s with the help of a Japanese crane. The sun rises directly behind them." },
+        { ime: "Orongo", opis: "A ceremonial village of low stone houses on the rim of the Rano Kau crater. From here the competitors climbed down the cliff and swam out to an islet for the first sooty tern egg, and the winner brought his clan a year of power. Figures of the birdman are carved into the rocks." },
+        { ime: "Ahu Akivi", opis: "Seven moai that, unlike the rest, stand inland and look out toward the ocean. Tradition says they represent the seven scouts sent ahead before the arrival of the first king, Hotu Matu'a." },
+        { ime: "Anakena", opis: "A white sand beach with palm trees where, according to tradition, the first king came ashore. Above it stands a platform with statues that still wear their red stone topknots, the pukao." }
       ],
       jesti: [
-        { ime: "Tuna i ceviche", opis: "Tuna se lovi uz otok i jede sirova, na žaru ili u empanadama, koje su ovdje veće i sočnije nego na kopnu." },
-        { ime: "Umu Rapa Nui", opis: "Meso, riba i batat pečeni u jami na užarenom kamenju, pod lišćem banane, pripremaju se za svetkovine." },
-        { ime: "Po'e", opis: "Gust, sladak kolač od banane, bundeve i brašna, koji se jede uz obrok kao kruh." }
+        { ime: "Tuna and ceviche", opis: "Tuna is caught off the island and eaten raw, grilled or in empanadas, which are bigger and juicier here than on the mainland." },
+        { ime: "Umu Rapa Nui", opis: "Meat, fish and sweet potato baked in a pit on red-hot stones, under banana leaves, prepared for festivities." },
+        { ime: "Po'e", opis: "A dense, sweet cake of banana, pumpkin and flour, eaten with the meal like bread." }
       ],
       dozivjeti: [
-        { ime: "Izlazak sunca na Tongarikiju", opis: "Dolazi se po mraku i čeka da se nebo iza petnaest kipova zarumeni. Ulaz u nacionalni park dopušten je uz ulaznicu i u pratnji mjesnog vodiča, pa aktualna pravila provjerite prije puta.", link: "https://www.rapanuinationalpark.com/" },
-        { ime: "Večer polinezijskog plesa", opis: "Plesne skupine u mjestu Hanga Roa izvode ratne i ljubavne plesove uz bubnjeve i gitare, a u prvoj polovici veljače traje svetkovina Tapati." },
-        { ime: "Muzej Rapa Nui", opis: "Mali muzej objašnjava kako su kipovi klesani i prevoženi, a čuva i jedno od rijetkih izvornih očiju moaija, od koralja i crvenog kamena.", link: "https://www.museorapanui.gob.cl/" }
+        { ime: "Sunrise at Tongariki", opis: "You arrive in the dark and wait for the sky behind the fifteen statues to turn red. Entry to the national park is allowed with a ticket and in the company of a local guide, so check the current rules before you travel.", link: "https://www.rapanuinationalpark.com/" },
+        { ime: "An evening of Polynesian dance", opis: "Dance groups in Hanga Roa perform war dances and love dances to drums and guitars, and the Tapati festival runs through the first half of February." },
+        { ime: "Rapa Nui Museum", opis: "The small museum explains how the statues were carved and transported, and it holds one of the rare original moai eyes, made of coral and red stone.", link: "https://www.museorapanui.gob.cl/" }
       ],
       agencije: [
-        { ime: "Parque Nacional Rapa Nui", opis: "Službena stranica nacionalnog parka, kojim upravlja zajednica Ma'u Henua.", link: "https://www.rapanuinationalpark.com/" },
-        { ime: "Imagina Rapa Nui", opis: "Opsežan vodič po otoku s opisima svih nalazišta.", link: "https://imaginarapanui.com/" },
-        { ime: "Chile Travel", opis: "Službeni turistički portal Čilea.", link: "https://chile.travel/" }
+        { ime: "Parque Nacional Rapa Nui", opis: "The official website of the national park, which is managed by the Ma'u Henua community.", link: "https://www.rapanuinationalpark.com/" },
+        { ime: "Imagina Rapa Nui", opis: "A comprehensive guide to the island with descriptions of all the sites.", link: "https://imaginarapanui.com/" },
+        { ime: "Chile Travel", opis: "Chile's official tourism portal.", link: "https://chile.travel/" }
       ],
-      kada: "Toplo je cijele godine, a najmanje je gužve u proljeće i jesen. Let iz Santiaga traje više od pet sati, pa na otoku ostanite barem četiri dana."
+      kada: "It is warm all year round, and the crowds are smallest in spring and fall. The flight from Santiago takes more than five hours, so stay on the island for at least four days."
     },
     {
       id: "punta-arenas",
       ime: "Punta Arenas",
       vrsta: "grad",
-      sazetak: "Grad na Magellanovu prolazu, vrata Patagonije i Antarktike, u kojem su hrvatska prezimena na izlozima, spomenicima i grobljima.",
+      sazetak: "A city on the Strait of Magellan, the gateway to Patagonia and Antarctica, where Croatian surnames appear on shopfronts, monuments and gravestones.",
       prica: [
-        "Čile je naselje osnovao 1848. kako bi osigurao Magellanov prolaz, kojim je 1520. prvi prošao Fernão de Magalhães. Do otvaranja Panamskog kanala ovdje su pristajali svi brodovi između Atlantika i Tihog oceana, a ovčarstvo je nekolicini obitelji donijelo golemo bogatstvo, što se vidi po palačama oko glavnog trga.",
-        "Krajem 19. stoljeća počeli su pristizati Dalmatinci, bježeći od siromaštva i bolesti vinove loze, a mnoge je privukla zlatna groznica na Ognjenoj zemlji. Prema povjesničaru Mateu Martiniću, i samom potomku doseljenika, Hrvati su činili otprilike trećinu europskih useljenika u ovaj kraj između 1890. i 1920. Osnovali su vatrogasno društvo, dobrotvorno društvo, knjižnicu, Hrvatski dom i sportski klub Sokol, a hrvatska zajednica procjenjuje da danas oko 25.000 stanovnika regije ima hrvatske korijene."
+        "Chile founded the settlement in 1848 to secure the Strait of Magellan, first sailed through by Ferdinand Magellan in 1520. Until the Panama Canal opened, every ship between the Atlantic and the Pacific called here, and sheep farming brought a handful of families enormous wealth, as you can tell from the mansions around the main square.",
+        "At the end of the 19th century Dalmatians began to arrive, fleeing poverty and vine disease, and many were drawn by the gold rush on Tierra del Fuego. According to the historian Mateo Martinić, himself a descendant of immigrants, Croats made up roughly a third of the European immigrants to this area between 1890 and 1920. They founded a fire brigade, a charitable society, a library, the Croatian Home and the Sokol sports club, and the Croatian community estimates that about 25,000 residents of the region have Croatian roots today."
       ],
       vidjeti: [
-        { ime: "Plaza Muñoz Gamero", opis: "Glavni trg s golemim čempresima i spomenikom Magellanu, podno kojeg sjede brončani likovi starosjedilaca. Stopalo jednog od njih sjaji se od dodira, jer predaja kaže da će se onaj tko ga poljubi ili dotakne vratiti u Punta Arenas." },
-        { ime: "Gradsko groblje", opis: "Aleje čempresa podšišanih u obliku stožaca vode između mauzoleja ovčarskih obitelji i grobnica doseljeničkih društava. Čitajući prezimena na pločama brzo ćete vidjeti koliko je ovdje Bračana i drugih Dalmatinaca." },
-        { ime: "Spomenik hrvatskom doseljeniku", opis: "Na aveniji Bulnes stoji spomenik koji je zajednica podigla u čast doseljenicima iz Hrvatske. U gradu su i Hrvatski dom te ulice i trgovine s hrvatskim imenima." },
-        { ime: "Museo Maggiorino Borgatello", opis: "Muzej salezijanskih misionara s predmetima naroda Selk'nam, Yámana i Kawésqar, koji su živjeli na krajnjem jugu. Stare fotografije svećenika Alberta De Agostinija jedno su od rijetkih svjedočanstava o njihovu svijetu prije nestanka." },
-        { ime: "Otok Magdalena", opis: "Na otoku u Magellanovu prolazu od listopada do ožujka gnijezde se deseci tisuća magellanskih pingvina. Brod pristaje na sat vremena, a stazom se hoda između jazbina dok pingvini mirno prelaze put." },
-        { ime: "Cerro de la Cruz", opis: "Vidikovac nekoliko ulica iznad središta, s pogledom na šarene limene krovove, prolaz i Ognjenu zemlju na drugoj obali." }
+        { ime: "Plaza Muñoz Gamero", opis: "The main square, with giant cypresses and a monument to Magellan, at the foot of which sit bronze figures of indigenous people. The foot of one of them gleams from being touched, because tradition says that whoever kisses or touches it will return to Punta Arenas." },
+        { ime: "Municipal Cemetery", opis: "Avenues of cypresses clipped into cones lead between the mausoleums of the sheep-farming families and the tombs of the immigrant societies. Reading the surnames on the plaques, you will quickly see how many people from Brač and other Dalmatians there are here." },
+        { ime: "Monument to the Croatian Immigrant", opis: "On Avenida Bulnes stands a monument raised by the community in honor of the immigrants from Croatia. The city also has the Croatian Home, as well as streets and shops with Croatian names." },
+        { ime: "Museo Maggiorino Borgatello", opis: "The museum of the Salesian missionaries, with objects of the Selk'nam, Yámana and Kawésqar peoples, who lived in the far south. The old photographs by the priest Alberto De Agostini are among the few records of their world before it vanished." },
+        { ime: "Magdalena Island", opis: "On this island in the Strait of Magellan, tens of thousands of Magellanic penguins nest from October to March. The boat lands for an hour, and you walk a path between the burrows while penguins calmly cross in front of you." },
+        { ime: "Cerro de la Cruz", opis: "A viewpoint a few blocks above the center, looking out over colorful tin roofs, the strait and Tierra del Fuego on the far shore." }
       ],
       jesti: [
-        { ime: "Centolla", opis: "Kraljevska rakovica iz hladnih južnih voda, najčešće u gratiniranom jelu chupe de centolla." },
-        { ime: "Magellanska janjetina", opis: "Janjad pase na slanoj travi stepe, pa je meso posebnog okusa, a peče se na ražnju uz vatru." },
-        { ime: "Choripán s mlijekom od banane", opis: "Neobičan mjesni doručak: mala lepinja s namazom od kobasice i majoneze, uz čašu toplog mlijeka s bananom, koji se jede na nogama u kioscima u središtu." }
+        { ime: "Centolla", opis: "King crab from the cold southern waters, most often in the gratin dish chupe de centolla." },
+        { ime: "Magellanic lamb", opis: "The lambs graze on the salty grass of the steppe, which gives the meat a distinctive flavor, and it is spit-roasted beside the fire." },
+        { ime: "Choripán with banana milk", opis: "An unusual local breakfast: a small roll with a spread of sausage and mayonnaise, with a glass of warm banana milk, eaten standing up at the kiosks in the center." }
       ],
       dozivjeti: [
-        { ime: "Tragom Hrvata", opis: "Prošećite četvrti oko avenije Bulnes, potražite Hrvatski dom i spomenik doseljeniku pa završite na groblju. U gradiću Porveniru na Ognjenoj zemlji, do kojeg vozi trajekt, hrvatski je trag još gušći." },
-        { ime: "Plovidba do pingvina", opis: "Izleti na otok Magdalenu polaze ujutro i ovise o vjetru, pa ih planirajte za prvi dan boravka kako biste imale rezervu." },
-        { ime: "Salezijanski muzej", opis: "Za razumijevanje krajnjeg juga i sudbine njegovih starosjedilaca nema boljeg mjesta u gradu.", link: "https://museomaggiorinoborgatello.cl/" }
+        { ime: "On the trail of the Croats", opis: "Stroll through the neighborhood around Avenida Bulnes, look for the Croatian Home and the immigrant monument, and finish at the cemetery. In the small town of Porvenir on Tierra del Fuego, reached by ferry, the Croatian traces are even denser." },
+        { ime: "A cruise to the penguins", opis: "Trips to Magdalena Island leave in the morning and depend on the wind, so plan them for the first day of your stay to leave yourselves a backup." },
+        { ime: "Salesian museum", opis: "There is no better place in the city for understanding the far south and the fate of its indigenous peoples.", link: "https://museomaggiorinoborgatello.cl/" }
       ],
       agencije: [
-        { ime: "Ilustre Municipalidad de Punta Arenas", opis: "Službena stranica grada Punta Arenasa.", link: "https://www.puntaarenas.cl/" },
-        { ime: "Patagonia Chile", opis: "Službeni portal Sernatura za čileansku Patagoniju.", link: "https://patagonia-chile.com/" },
-        { ime: "Museo Maggiorino Borgatello", opis: "Službena stranica salezijanskog muzeja.", link: "https://museomaggiorinoborgatello.cl/" }
+        { ime: "Ilustre Municipalidad de Punta Arenas", opis: "The official website of the city of Punta Arenas.", link: "https://www.puntaarenas.cl/" },
+        { ime: "Patagonia Chile", opis: "Sernatur's official portal for Chilean Patagonia.", link: "https://patagonia-chile.com/" },
+        { ime: "Museo Maggiorino Borgatello", opis: "The official website of the Salesian museum.", link: "https://museomaggiorinoborgatello.cl/" }
       ],
-      kada: "Od studenoga do ožujka dani su dugi, a pingvini na otoku. Vjetar ovdje zna puhati i više od sto kilometara na sat, pa su na nekim uglovima razapeta užad za pridržavanje."
+      kada: "From November to March the days are long and the penguins are on the island. The wind here can blow at more than a hundred kilometers an hour, so ropes are strung up on some street corners for people to hold on to."
     }
   ],
   izvori: [
     { ime: "Chile Travel", url: "https://chile.travel/" },
     { ime: "Santiago Turismo", url: "https://www.santiagoturismo.cl/en/" },
     { ime: "Memoria Chilena, La inmigración croata en Magallanes", url: "https://www.memoriachilena.gob.cl/602/w3-article-9790.html" },
-    { ime: "Hrvatska matica iseljenika, Hrvati na jugu Čilea", url: "https://matis.hr/en/news-en/croats-in-southern-chile-highlight-croatian-immigrant-legacy/" },
+    { ime: "Croatian Heritage Foundation, Croats in southern Chile", url: "https://matis.hr/en/news-en/croats-in-southern-chile-highlight-croatian-immigrant-legacy/" },
     { ime: "Museo Baburizza", url: "https://www.museobaburizza.cl/" },
     { ime: "Memoria Chilena, Pascual Baburizza", url: "https://www.memoriachilena.gob.cl/602/w3-article-94715.html" },
     { ime: "Parque Nacional Rapa Nui", url: "https://www.rapanuinationalpark.com/" },

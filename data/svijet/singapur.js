@@ -1,195 +1,195 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["singapur"] = {
   id: "singapur",
-  ime: "Singapur",
-  regija: "Jugoistočna Azija",
-  sazetak: "Grad-država u kojoj se u jednom danu prošeta kroz Kinu, Indiju i malajsko selo, a ruča se za nekoliko eura jelo zbog kojeg ljudi stoje u redu.",
+  ime: "Singapore",
+  regija: "Southeast Asia",
+  sazetak: "A city-state where in a single day you can stroll through China, India and a Malay village, and for a few euros have lunch on a dish people stand in line for.",
   uvod: [
-    "Singapur je otok veličine otprilike kao Krk i Cres zajedno, na kojem živi oko šest milijuna ljudi. Ime mu dolazi od sanskrtskih riječi singa pura, „lavlji grad“. Legenda iz malajskih ljetopisa kaže da je princ Sang Nila Utama pri iskrcavanju ugledao veličanstvenu zvijer i zaključio da je lav, iako lavovi ovdje nikada nisu živjeli, pa je vjerojatno vidio tigra.",
-    "Moderna povijest počinje 1819., kada je Stamford Raffles iz britanske Istočnoindijske kompanije ovdje osnovao trgovačku postaju i slobodnu luku. Njegov je plan grada iz 1822. svakoj zajednici dodijelio vlastitu četvrt, pa su tako nastale Kineska četvrt, Kampong Glam i poslije Mala Indija. Nakon japanske okupacije u Drugom svjetskom ratu i kratkog razdoblja u sastavu Malezije, Singapur je 9. kolovoza 1965. postao samostalna država, bez prirodnih bogatstava i s vodom koju je morao uvoziti.",
-    "U dva naraštaja postao je jedna od najbogatijih zemalja svijeta. Četiri su službena jezika, engleski, mandarinski, malajski i tamilski, a natpisi u podzemnoj željeznici ispisani su na sva četiri. Ono što sve povezuje jest hrana: svi se, od ministara do taksista, susreću u hawker centrima, natkrivenim tržnicama sa stotinama malih kuhinja."
+    "Singapore is an island roughly the size of the Croatian islands of Krk and Cres combined, home to about six million people. Its name comes from the Sanskrit words singa pura, “lion city”. A legend from the Malay Annals says that Prince Sang Nila Utama, on landing, caught sight of a magnificent beast and concluded that it was a lion, although lions never lived here, so what he saw was probably a tiger.",
+    "Modern history begins in 1819, when Stamford Raffles of the British East India Company founded a trading post and free port here. His town plan of 1822 assigned each community its own quarter, which is how Chinatown, Kampong Glam and later Little India came about. After the Japanese occupation in the Second World War and a brief period as part of Malaysia, Singapore became an independent country on August 9, 1965, with no natural resources and with water that it had to import.",
+    "Within two generations it became one of the richest countries in the world. There are four official languages, English, Mandarin, Malay and Tamil, and the signs in the subway are written in all four. What ties everything together is food: everyone, from government ministers to taxi drivers, meets in the hawker centres, covered food markets with hundreds of small kitchens."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Singapur leži gotovo na ekvatoru, pa je cijele godine toplo i vlažno, oko trideset stupnjeva. Najviše kiše pada od studenoga do siječnja, a najsuše je od veljače do travnja. Pljuskovi su jaki, ali kratki." },
-    { k: "Valuta", v: "Singapurski dolar (SGD). Kartice i beskontaktno plaćanje primaju se gotovo svugdje, ali neki štandovi u hawker centrima još traže gotovinu." },
-    { k: "Kretanje", v: "Podzemna željeznica MRT i autobusi pokrivaju cijeli otok, a na ulazu se jednostavno prisloni vlastita beskontaktna bankovna kartica. Središte je dovoljno malo da se četvrti mogu povezati i pješice, uz stanke u klimatiziranim prostorima." },
-    { k: "Napojnica", v: "Nije uobičajena. Restorani na račun dodaju deset posto za uslugu i porez, a u hawker centrima plaća se točan iznos i pladanj se sam vraća na policu." }
+    { k: "When to go", v: "Singapore lies almost on the equator, so it is warm and humid all year, around thirty degrees Celsius. The most rain falls from November to January, and the driest stretch is from February to April. The downpours are heavy but short." },
+    { k: "Currency", v: "Singapore dollar (SGD). Cards and contactless payment are accepted almost everywhere, but some stalls in the hawker centres still ask for cash." },
+    { k: "Getting around", v: "The MRT subway and the buses cover the whole island, and at the gate you simply tap your own contactless bank card. The center is small enough that the neighborhoods can also be linked on foot, with breaks in air-conditioned spaces." },
+    { k: "Tipping", v: "It is not customary. Restaurants add ten percent for service plus tax to the bill, and in the hawker centres you pay the exact amount and return your own tray to the rack." }
   ],
   hrana: [
-    { ime: "Hainanska piletina s rižom", opis: "Nježno poširana piletina na riži kuhanoj u pilećem temeljcu s češnjakom i đumbirom, uz umak od čilija, đumbirovu pastu i tamni soja umak.", prica: "Donijeli su je doseljenici s kineskog otoka Hainana, a u Singapuru je postala nacionalno jelo. Izgleda skromno, ali se majstori prepoznaju po riži, koja mora biti mirisna i masna, sa zrncima koja se ne lijepe. Najpoznatiji štand nalazi se u Maxwell Food Centru u Kineskoj četvrti." },
-    { ime: "Chilli crab", opis: "Cijeli rak u gustom, slatko-ljutom umaku od rajčice, čilija i jajeta.", prica: "Jelo je pedesetih godina 20. stoljeća osmislila Cher Yam Tian, koja je rakove prodavala s kolica uz more. Jede se rukama, uz pregaču, a umak se pokupi prženim pecivima mantou. Unatoč imenu više je sladak nego ljut." },
-    { ime: "Laksa", opis: "Rižini rezanci u kremastoj, ljutoj juhi od kokosova mlijeka i sušenih kozica, sa školjkama, kozicama i ribljim kolačem.", prica: "Singapurska inačica potječe iz četvrti Katong, gdje se rezanci režu na kratke komade kako bi se cijela zdjela mogla pojesti samo žlicom. Na vrh se stavlja žlica sambala i sjeckani listovi vijetnamskog korijandra, koji ovdje zovu laksa list." },
-    { ime: "Kaya tost s kopijem", opis: "Prepečeni kruh s debelim slojem hladnog maslaca i kremom od kokosa, jaja i pandana, uz dva meko kuhana jaja i jaku kavu.", prica: "Tradicionalni doručak koji su smislili hainanski kuhari na britanskim brodovima, prilagodivši engleski tost s džemom. Jaja se razbiju u tanjurić, začine tamnim soja umakom i bijelim paprom, pa se u njih umače tost." },
-    { ime: "Satay", opis: "Mali ražnjići od piletine, govedine ili ovčetine s roštilja na ugljenu, s umakom od kikirikija.", prica: "Svake večeri ulica uz staru tržnicu Lau Pa Sat zatvara se za promet i pretvara u Ulicu sataja, s desetak štandova i dimom koji se diže među neboderima financijske četvrti." },
-    { ime: "Roti prata", opis: "Lisnata pogača pečena na ploči, hrskava izvana i mekana iznutra, koja se umače u riblji ili ovčji curry.", prica: "Stigla je s doseljenicima iz južne Indije i u Maleziji se zove roti canai. Jede se u svako doba, a najviše kasno navečer. Obična se zove kosong, a s jajetom telur." },
-    { ime: "Bak kut teh", opis: "Juha od svinjskih rebara kuhanih s cijelim glavicama češnjaka i mnogo bijelog papra.", prica: "Ime znači „čaj od mesnih kostiju“, premda čaja u njoj nema: jak kineski čaj pije se uz nju jer topi masnoću. Nekoć je bila doručak kineskih lučkih nosača kojima je trebala snaga. Juha se besplatno dolijeva koliko god želite." },
-    { ime: "Kopi", opis: "Lokalna kava od zrna prženih s maslacem i šećerom, procijeđena kroz platnenu čarapu.", prica: "Naručuje se vlastitim jezikom: kopi je s kondenziranim mlijekom, kopi-O crna sa šećerom, kopi-C s evaporiranim mlijekom, a kosong znači bez šećera. Riječi dolaze iz malajskog i hokkienskog, pa je narudžba mala lekcija o tome kako Singapur govori." },
-    { ime: "Singapore Sling", opis: "Ružičasti koktel od džina, likera od višanja, soka od ananasa i limete.", prica: "Smislio ga je oko 1915. barmen Ngiam Tong Boon u hotelu Raffles, navodno kako bi dame mogle piti alkohol u javnosti, a da izgleda kao voćni sok. U tamošnjem Long Baru i danas je dopušteno bacati ljuske kikirikija na pod, što je vjerojatno jedino mjesto u gradu gdje se smije bacati smeće." }
+    { ime: "Hainanese chicken rice", opis: "Gently poached chicken on rice cooked in chicken stock with garlic and ginger, served with chili sauce, ginger paste and dark soy sauce.", prica: "It was brought by immigrants from the Chinese island of Hainan, and in Singapore it became the national dish. It looks modest, but you can tell a master by the rice, which has to be fragrant and rich, with grains that do not stick together. The most famous stall is in Maxwell Food Centre in Chinatown." },
+    { ime: "Chilli crab", opis: "A whole crab in a thick, sweet and spicy sauce of tomato, chili and egg.", prica: "The dish was created in the 1950s by Cher Yam Tian, who sold crabs from a cart by the sea. It is eaten with your hands, wearing a bib, and the sauce is mopped up with fried mantou buns. Despite the name, it is more sweet than hot." },
+    { ime: "Laksa", opis: "Rice noodles in a creamy, spicy soup of coconut milk and dried shrimp, with cockles, prawns and fish cake.", prica: "The Singaporean version comes from the Katong neighborhood, where the noodles are cut into short lengths so that the whole bowl can be eaten with a spoon alone. A spoonful of sambal goes on top, along with chopped leaves of Vietnamese coriander, which is called laksa leaf here." },
+    { ime: "Kaya toast with kopi", opis: "Toasted bread with a thick layer of cold butter and a jam of coconut, eggs and pandan, served with two soft-boiled eggs and strong coffee.", prica: "A traditional breakfast devised by Hainanese cooks on British ships, who adapted English toast with jam. The eggs are cracked into a saucer and seasoned with dark soy sauce and white pepper, and then the toast is dipped into them." },
+    { ime: "Satay", opis: "Small skewers of chicken, beef or mutton grilled over charcoal, with peanut sauce.", prica: "Every evening the street beside the old Lau Pa Sat market is closed to traffic and turns into Satay Street, with about ten stalls and smoke rising among the skyscrapers of the financial district." },
+    { ime: "Roti prata", opis: "A flaky flatbread cooked on a griddle, crisp on the outside and soft inside, which is dipped into fish or mutton curry.", prica: "It arrived with immigrants from southern India, and in Malaysia it is called roti canai. It is eaten at any hour, and most of all late at night. The plain one is called kosong, and the one with egg is telur." },
+    { ime: "Bak kut teh", opis: "A soup of pork ribs simmered with whole heads of garlic and plenty of white pepper.", prica: "The name means “meat bone tea”, although there is no tea in it: strong Chinese tea is drunk alongside because it cuts through the fat. It was once the breakfast of Chinese dock porters who needed their strength. The broth is refilled for free as often as you like." },
+    { ime: "Kopi", opis: "Local coffee made from beans roasted with butter and sugar and strained through a cloth sock.", prica: "It is ordered in a language of its own: kopi comes with condensed milk, kopi-O is black with sugar, kopi-C has evaporated milk, and kosong means without sugar. The words come from Malay and Hokkien, so placing an order is a small lesson in how Singapore speaks." },
+    { ime: "Singapore Sling", opis: "A pink cocktail of gin, cherry liqueur, pineapple juice and lime.", prica: "It was invented around 1915 by the bartender Ngiam Tong Boon at the Raffles Hotel, reportedly so that ladies could drink alcohol in public while it looked like fruit juice. In the Long Bar there, you are still allowed to throw peanut shells on the floor, which makes it probably the only place in the city where littering is permitted." }
   ],
   obicaji: [
-    { ime: "Hawker kultura", opis: "Hawker centri natkrivene su tržnice hrane koje je država gradila od sedamdesetih godina kako bi ulične prodavače preselila u uredne prostore s tekućom vodom. Svaki štand kuha jedno ili dva jela, često po receptu koji se prenosi tri naraštaja. UNESCO je singapursku hawker kulturu 2020. uvrstio na popis nematerijalne baštine.", gdje: "Maxwell Food Centre i Chinatown Complex u Kineskoj četvrti, Tekka Centre u Maloj Indiji, Lau Pa Sat u poslovnoj četvrti. Slijedite najdulji red." },
-    { ime: "Chope", opis: "Slobodan stol u hawker centru rezervira se tako da se na njega stavi paketić papirnatih maramica, kišobran ili posjetnica. Nitko neće sjesti na označeno mjesto niti će išta uzeti. Glagol to chope dio je singliša, lokalnog engleskog.", gdje: "U svakom hawker centru u vrijeme ručka. Prvo zauzmite stol, a zatim idite po hranu." },
-    { ime: "Singliš", opis: "Svakodnevni govor Singapuraca engleski je protkan malajskim, hokkienskim i tamilskim riječima, s vlastitom gramatikom i česticama poput lah, leh i lor. „Can“ znači može, „makan“ jesti, a „shiok“ izvrsno.", gdje: "U taksiju, na tržnici i za susjednim stolom. U službenim prilikama svi se prebace na standardni engleski." },
-    { ime: "Kineska Nova godina i Chingay", opis: "Petnaest dana slavlja uz crvene lampione, ples lavova i dijeljenje mandarina u paru. Za stolom se zajednički štapićima uvis baca salata od sirove ribe yusheng, što više, to bolje za sreću u novoj godini. Slavlje zaključuje Chingay, velika ulična povorka svih zajednica.", gdje: "U Kineskoj četvrti, u siječnju ili veljači." },
-    { ime: "Deepavali", opis: "Hinduistički blagdan svjetla slavi pobjedu dobra nad zlom. Ulice se ukrašavaju svjetlećim lukovima, pred pragovima se šarenim prahom crtaju uzorci rangoli, a obitelji kupuju novu odjeću i slatkiše.", gdje: "U Maloj Indiji, duž ceste Serangoon, u listopadu ili studenome." },
-    { ime: "Hari Raya i ramazanski sajam", opis: "Tijekom mjeseca posta muslimani se u suton okupljaju na zajedničkoj večeri kojom se prekida post, a oko džamija niču sajmovi s hranom. Blagdan Hari Raya Puasa na kraju ramazana obitelji slave u odjeći iste boje.", gdje: "Oko Sultanove džamije u Kampong Glamu i u četvrti Geylang Serai, prema islamskom kalendaru." },
-    { ime: "Mjesec gladnih duhova", opis: "U sedmom lunarnom mjesecu kineski Singapurci vjeruju da se otvaraju vrata podzemlja. Na pločnicima se pale mirisni štapići i papirnati novac, ostavlja se hrana, a pod šatorima se održavaju glasne pjevačke predstave getai. Prvi red stolaca uvijek ostaje prazan, jer je rezerviran za duhove.", gdje: "U stambenim četvrtima diljem otoka, obično u kolovozu." }
+    { ime: "Hawker culture", opis: "Hawker centres are covered food markets that the government has been building since the 1970s in order to move street vendors into tidy premises with running water. Each stall cooks one or two dishes, often to a recipe handed down over three generations. UNESCO added Singapore's hawker culture to its list of intangible heritage in 2020.", gdje: "Maxwell Food Centre and Chinatown Complex in Chinatown, Tekka Centre in Little India, Lau Pa Sat in the business district. Follow the longest line." },
+    { ime: "Chope", opis: "You reserve a free table in a hawker centre by placing a packet of tissues, an umbrella or a business card on it. Nobody will sit in the marked spot or take anything. The verb to chope is part of Singlish, the local English.", gdje: "In every hawker centre at lunchtime. Claim a table first, and then go get your food." },
+    { ime: "Singlish", opis: "The everyday speech of Singaporeans is English woven through with Malay, Hokkien and Tamil words, with its own grammar and particles such as lah, leh and lor. “Can” means yes, that works, “makan” means to eat, and “shiok” means excellent.", gdje: "In a taxi, at the market and at the next table. On formal occasions everyone switches to standard English." },
+    { ime: "Chinese New Year and Chingay", opis: "Fifteen days of celebration with red lanterns, lion dances and the giving of mandarin oranges in pairs. At the table everyone uses chopsticks to toss yusheng, a raw fish salad, into the air together, and the higher it goes, the better the luck in the new year. The festivities close with Chingay, a big street parade of all the communities.", gdje: "In Chinatown, in January or February." },
+    { ime: "Deepavali", opis: "The Hindu festival of lights celebrates the victory of good over evil. The streets are decorated with illuminated arches, rangoli patterns are drawn in colored powder at the doorstep, and families buy new clothes and sweets.", gdje: "In Little India, along Serangoon Road, in October or November." },
+    { ime: "Hari Raya and the Ramadan bazaar", opis: "During the month of fasting, Muslims gather at dusk for the shared meal that breaks the fast, and food bazaars spring up around the mosques. Families celebrate the holiday of Hari Raya Puasa at the end of Ramadan dressed in clothes of the same color.", gdje: "Around the Sultan Mosque in Kampong Glam and in the Geylang Serai neighborhood, according to the Islamic calendar." },
+    { ime: "Hungry Ghost Month", opis: "In the seventh lunar month, Chinese Singaporeans believe that the gates of the underworld open. Incense sticks and paper money are burned on the sidewalks, food is left out, and loud singing shows called getai are staged under tents. The front row of chairs always stays empty, because it is reserved for the ghosts.", gdje: "In residential neighborhoods all over the island, usually in August." }
   ],
   fraze: [
-    { izvorno: "Makan", izgovor: "MA-kan", hr: "Jesti, hrana (malajski, koriste ga svi)" },
-    { izvorno: "Shiok!", izgovor: "ŠJOK", hr: "Izvrsno, preukusno!" },
-    { izvorno: "Can / Cannot", izgovor: "KEN / KE-not", hr: "Može / Ne može" },
-    { izvorno: "Kopi-O kosong", izgovor: "KO-pi O KO-song", hr: "Crna kava bez šećera" },
-    { izvorno: "Dabao", izgovor: "DA-bao", hr: "Za van, za ponijeti" },
-    { izvorno: "Terima kasih", izgovor: "te-RI-ma KA-se", hr: "Hvala (malajski)" },
-    { izvorno: "Xièxie", izgovor: "ŠJE-šje", hr: "Hvala (mandarinski)" },
-    { izvorno: "Nandri", izgovor: "NAN-dri", hr: "Hvala (tamilski)" }
+    { izvorno: "Makan", izgovor: "MAH-kahn", hr: "To eat, food (Malay, used by everyone)" },
+    { izvorno: "Shiok!", izgovor: "SHYOK", hr: "Excellent, delicious!" },
+    { izvorno: "Can / Cannot", izgovor: "KEN / KEH-not", hr: "Yes, that works / No, it doesn't" },
+    { izvorno: "Kopi-O kosong", izgovor: "KOH-pee OH KOH-song", hr: "Black coffee without sugar" },
+    { izvorno: "Dabao", izgovor: "DAH-bow", hr: "To go, takeout" },
+    { izvorno: "Terima kasih", izgovor: "tuh-REE-mah KAH-seh", hr: "Thank you (Malay)" },
+    { izvorno: "Xièxie", izgovor: "SHYEH-shyeh", hr: "Thank you (Mandarin)" },
+    { izvorno: "Nandri", izgovor: "NUN-dree", hr: "Thank you (Tamil)" }
   ],
   zanimljivosti: [
-    "Prodaja žvakaćih guma zabranjena je od 1992. godine, osim onih u ljekovite svrhe koje se kupuju u ljekarni.",
-    "Singapur je nasipavanjem mora povećao svoju površinu za otprilike četvrtinu, pa je današnja obala daleko od one koju je vidio Raffles.",
-    "Oko osamdeset posto stanovnika živi u stanovima koje je sagradila država, a u svakoj se zgradi po zakonu miješaju sve etničke zajednice.",
-    "Merlion, lav s ribljim repom, mnogo je mlađi nego što izgleda: osmišljen je 1964. kao znak turističke zajednice.",
-    "Singapurski botanički vrt jedini je tropski vrt na UNESCO-ovu popisu svjetske baštine, a upisan je 2015. godine.",
-    "Nacionalni cvijet je orhideja Vanda Miss Joaquim, križanac koji je potkraj 19. stoljeća uzgojila Agnes Joaquim, Singapurka armenskog podrijetla.",
-    "Godine 2016. dva su singapurska hawker štanda postala prvi ulični štandovi na svijetu s Michelinovom zvjezdicom."
+    "The sale of chewing gum has been banned since 1992, except for gum with a therapeutic purpose, which is bought at a pharmacy.",
+    "Singapore has increased its area by roughly a quarter through land reclamation, so today's shoreline is far from the one Raffles saw.",
+    "About eighty percent of residents live in apartments built by the government, and by law all the ethnic communities are mixed in every building.",
+    "The Merlion, a lion with a fish's tail, is much younger than it looks: it was designed in 1964 as the emblem of the tourism board.",
+    "The Singapore Botanic Gardens are the only tropical garden on the UNESCO World Heritage List, inscribed in 2015.",
+    "The national flower is the orchid Vanda Miss Joaquim, a hybrid bred in the late 19th century by Agnes Joaquim, a Singaporean of Armenian descent.",
+    "In 2016 two Singaporean hawker stalls became the first street food stalls in the world to earn a Michelin star."
   ],
   mjesta: [
     {
       id: "chinatown",
-      ime: "Kineska četvrt",
+      ime: "Chinatown",
       vrsta: "grad",
-      sazetak: "Šarene trgovačke kuće pod neboderima, s hramovima triju vjera u nekoliko ulica i najvećim hawker centrom u gradu.",
+      sazetak: "Colorful shophouses beneath the skyscrapers, with temples of three religions within a few streets and the largest hawker centre in the city.",
       prica: [
-        "Rafflesov plan grada iz 1822. dodijelio je Kinezima područje južno od rijeke Singapur. Ovamo su stizali brodovi puni siromašnih radnika iz južne Kine, koji su spavali po desetak u sobici bez prozora i radili kao lučki nosači, vozači rikši i sluškinje.",
-        "Kineski naziv četvrti, Niu Che Shui, znači „voda na volovskim kolima“, jer se pitka voda dovozila kolima. Šezdesetih godina stanovnici su preseljeni u nove državne stanove, a trgovačke kuće su obnovljene i obojene. Neobično je da su najstariji hinduistički hram i jedna od najstarijih džamija u gradu upravo ovdje, jer su se u ranim danima zajednice još miješale."
+        "Raffles's town plan of 1822 assigned the Chinese the area south of the Singapore River. Ships arrived here full of poor laborers from southern China, who slept ten or so to a windowless cubicle and worked as dock porters, rickshaw pullers and maids.",
+        "The Chinese name of the quarter, Niu Che Shui, means “bullock cart water”, because drinking water was brought in by cart. In the 1960s the residents were moved into new public housing, and the shophouses were restored and painted. Curiously, the oldest Hindu temple and one of the oldest mosques in the city are right here, because in the early days the communities still mixed."
       ],
       vidjeti: [
-        { ime: "Thian Hock Keng", opis: "Najstariji hokkienski hram u gradu dovršen je 1842. i posvećen Mazu, božici mora. Doseljenici su ovamo dolazili ravno s broda zahvaliti joj na sretnom putovanju, jer je ulica Telok Ayer tada bila sama obala. Sagrađen je bez ijednog čavla, a kip božice dopremljen je iz Kine." },
-        { ime: "Hram Sri Mariamman", opis: "Najstariji hinduistički hram u Singapuru osnovao je 1827. Naraina Pillai, činovnik koji je doplovio s Rafflesom. Toranj nad ulazom prekriven je stotinama šarenih figura bogova i životinja. U listopadu ili studenome ovdje se održava obred hodanja po žeravici." },
-        { ime: "Hram Budina zuba", opis: "Golema crvena građevina u stilu kineske dinastije Tang dovršena je 2007. godine. Na četvrtom katu, u stupi od više od tristo kilograma zlata koje su darovali vjernici, čuva se relikvija za koju se vjeruje da je Budin zub. Na krovu je tihi vrt s orhidejama i molitveni mlin." },
-        { ime: "Chinatown Heritage Centre", opis: "U tri obnovljene trgovačke kuće u ulici Pagoda vjerno su rekonstruirane sobice u kojima su pedesetih godina živjele cijele obitelji, s kuhinjom i zahodom zajedničkima za cijeli kat. Najbolje mjesto da se shvati kakav je život bio iza lijepih pročelja." },
-        { ime: "Trgovačke kuće i put od pet stopa", opis: "Raffles je propisao da svaka kuća mora imati natkriveni prolaz širok pet stopa, kako bi se moglo hodati zaklonjeno od sunca i kiše. Pogledajte pročelja u ulicama Temple i Ann Siang Hill: kineske pločice, francuski prozori s kapcima i malajske drvene rezbarije stoje na istoj kući." },
-        { ime: "Ulica Sago", opis: "Ovdje su nekoć bile kuće smrti, u koje su siromašni stari ljudi dolazili dočekati kraj kako ne bi donijeli nesreću obitelji, a u prizemlju su se prodavali lijesovi i papirnati darovi za onaj svijet. Zatvorene su 1961. godine, a danas na to podsjeća samo ploča." }
+        { ime: "Thian Hock Keng", opis: "The oldest Hokkien temple in the city was completed in 1842 and dedicated to Mazu, goddess of the sea. Immigrants came here straight off the boat to thank her for a safe voyage, because Telok Ayer Street was the shoreline itself at the time. It was built without a single nail, and the statue of the goddess was shipped from China." },
+        { ime: "Sri Mariamman Temple", opis: "The oldest Hindu temple in Singapore was founded in 1827 by Naraina Pillai, a clerk who had sailed in with Raffles. The tower above the entrance is covered with hundreds of colorful figures of gods and animals. In October or November a fire-walking ceremony is held here." },
+        { ime: "Buddha Tooth Relic Temple", opis: "The huge red building in the style of China's Tang dynasty was completed in 2007. On the fourth floor, in a stupa made of more than three hundred kilograms of gold donated by devotees, is kept a relic believed to be a tooth of the Buddha. On the roof there is a quiet orchid garden and a prayer wheel." },
+        { ime: "Chinatown Heritage Centre", opis: "In three restored shophouses on Pagoda Street, the cubicles where entire families lived in the 1950s have been faithfully re-created, with a kitchen and toilet shared by the whole floor. It is the best place to understand what life was like behind the pretty facades." },
+        { ime: "Shophouses and the five-foot way", opis: "Raffles decreed that every house must have a covered walkway five feet wide, so that people could walk sheltered from sun and rain. Look at the facades on Temple Street and Ann Siang Hill: Chinese tiles, French windows with shutters and Malay wood carvings sit on the same house." },
+        { ime: "Sago Lane", opis: "This was once the site of the death houses, where poor old people came to await their end so as not to bring bad luck on their families, while coffins and paper offerings for the afterlife were sold on the ground floor. They were closed in 1961, and today only a plaque recalls them." }
       ],
       jesti: [
-        { ime: "Piletina s rižom u Maxwell Food Centru", opis: "Štand Tian Tian proslavio se nakon što ga je pohvalio Anthony Bourdain, pa red počinje prije podneva. Jednako dobre porcije nude i susjedni štandovi bez čekanja." },
-        { ime: "Bak kwa", opis: "Tanke ploške slatko marinirane svinjetine pečene na ugljenu, nešto između sušenog mesa i roštilja. Prije kineske Nove godine pred trgovinama se čeka satima." },
-        { ime: "Chinatown Complex", opis: "Na katu tržnice nalazi se najveći hawker centar u gradu, s više od dvjesto štandova, gdje se jedu rezanci u glinenoj posudi, pečena patka i tradicionalne slastice." }
+        { ime: "Chicken rice at Maxwell Food Centre", opis: "The Tian Tian stall became famous after Anthony Bourdain praised it, so the line starts before noon. The neighboring stalls serve equally good portions without the wait." },
+        { ime: "Bak kwa", opis: "Thin slices of sweetly marinated pork grilled over charcoal, something between jerky and barbecue. Before Chinese New Year, people wait for hours outside the shops." },
+        { ime: "Chinatown Complex", opis: "Upstairs in the market is the largest hawker centre in the city, with more than two hundred stalls, where people eat claypot noodles, roast duck and traditional sweets." }
       ],
       dozivjeti: [
-        { ime: "Besplatna pješačka tura", opis: "Monster Day Tours vodi šetnje po Kineskoj četvrti na temelju dobrovoljnog priloga, s pričama o tajnim društvima, opijumu i kućama smrti.", link: "https://www.monsterdaytours.com/" },
-        { ime: "Obilazak hrama Thian Hock Keng", opis: "Na stranici hrama objavljuju se raspored svečanosti i tumačenje pojedinih oltara i rezbarija.", link: "https://www.thianhockkeng.com.sg/" },
-        { ime: "Kineska čajna ceremonija", opis: "U nekoliko čajana u ulicama oko Neil Roada sjedi se na podu i uči kako se priprema i kuša kineski čaj, od ispiranja šalica do trećeg ulijevanja." }
+        { ime: "A free walking tour", opis: "Monster Day Tours leads tip-based walks through Chinatown, with stories of secret societies, opium and the death houses.", link: "https://www.monsterdaytours.com/" },
+        { ime: "A visit to Thian Hock Keng temple", opis: "The temple's website publishes the schedule of festivals and an explanation of the individual altars and carvings.", link: "https://www.thianhockkeng.com.sg/" },
+        { ime: "A Chinese tea ceremony", opis: "In several teahouses in the streets around Neil Road you sit on the floor and learn how Chinese tea is prepared and tasted, from rinsing the cups to the third pour." }
       ],
       agencije: [
-        { ime: "Visit Singapore", opis: "Službena stranica singapurske turističke zajednice.", link: "https://www.visitsingapore.com/" },
-        { ime: "Chinatown Singapore", opis: "Službeni portal četvrti s kartom, popisom starih obrta i kalendarom svečanosti.", link: "https://chinatown.sg/" },
-        { ime: "Monster Day Tours", opis: "Lokalni vodiči s redovitim besplatnim i tematskim pješačkim turama.", link: "https://www.monsterdaytours.com/" }
+        { ime: "Visit Singapore", opis: "The official website of the Singapore Tourism Board.", link: "https://www.visitsingapore.com/" },
+        { ime: "Chinatown Singapore", opis: "The official portal of the quarter, with a map, a list of heritage trades and a calendar of festivals.", link: "https://chinatown.sg/" },
+        { ime: "Monster Day Tours", opis: "Local guides with regular free and themed walking tours.", link: "https://www.monsterdaytours.com/" }
       ],
-      kada: "Najživlje je u tjednima prije kineske Nove godine. Hramove obiđite ujutro, ručajte prije podneva da izbjegnete redove, a u hramove se ulazi pokrivenih ramena i koljena."
+      kada: "It is liveliest in the weeks before Chinese New Year. Visit the temples in the morning and have lunch before noon to avoid the lines, and remember that you enter the temples with shoulders and knees covered."
     },
     {
       id: "little-india",
-      ime: "Mala Indija",
+      ime: "Little India",
       vrsta: "grad",
-      sazetak: "Najšarenija i najmirisnija četvrt, gdje se nižu vijenci jasmina, trgovine zlatom i sarijima i hramovi puni bogova.",
+      sazetak: "The most colorful and fragrant neighborhood, lined with jasmine garlands, shops selling gold and saris, and temples full of gods.",
       prica: [
-        "Za razliku od drugih četvrti, Mala Indija nije bila u Rafflesovu planu. Uz cestu Serangoon sredinom 19. stoljeća nastali su trkalište, ciglane i trgovina stokom, a poslove sa stokom i mlijekom vodili su doseljenici iz južne Indije. Na to i danas podsjećaju imena poput Buffalo Road, Ulice bivola.",
-        "Većina singapurskih Indijaca podrijetlom je iz tamilskog juga, zbog čega je tamilski jedan od četiri službena jezika. Nedjeljom navečer četvrt ispune tisuće radnika iz Indije i Bangladeša koji grade singapurske nebodere, a ovdje provode jedini slobodan dan."
+        "Unlike the other quarters, Little India was not in Raffles's plan. In the mid-19th century a racecourse, brick kilns and a cattle trade grew up along Serangoon Road, and the cattle and dairy businesses were run by immigrants from southern India. Names such as Buffalo Road recall that to this day.",
+        "Most Singaporean Indians trace their roots to the Tamil south, which is why Tamil is one of the four official languages. On Sunday evenings the neighborhood fills with thousands of workers from India and Bangladesh who build Singapore's skyscrapers and spend their only day off here."
       ],
       vidjeti: [
-        { ime: "Hram Sri Veeramakaliamman", opis: "Hram su u drugoj polovici 19. stoljeća podigli bengalski radnici i posvetili ga Kali, strašnoj božici koja uništava zlo. Na kipovima je prikazana s ogrlicom od lubanja, ali i kao brižna majka sa sinovima Ganešom i Muruganom. Tijekom japanskih bombardiranja ljudi su se ovdje sklanjali, a hram je ostao neoštećen." },
-        { ime: "Tekka Centre", opis: "U prizemlju je tržnica s ribom, ovčetinom i začinima te hawker centar poznat po biryaniju, a na katu krojači šivaju sarije i indijsku odjeću po mjeri. Ime dolazi od hokkienskog izraza za bambus koji je nekoć rastao uz kanal." },
-        { ime: "Kuća Tana Tenga Niaha", opis: "Posljednja kineska vila u četvrti sagrađena je 1900. za vlasnika tvornice slatkiša. Danas je obojena u sve dugine boje i najfotografiranija je kuća u Maloj Indiji. Nad ulazom potražite pozlaćenu ploču s kineskim natpisom." },
-        { ime: "Indian Heritage Centre", opis: "Muzej otvoren 2015. pripovijeda o dolasku Indijaca u jugoistočnu Aziju, od trgovaca začinima do kažnjenika koje su Britanci dovodili da grade ceste. Pročelje je nadahnuto indijskim stubišnim bunarima, a navečer svijetli poput lampiona." },
-        { ime: "Hram Sri Srinivasa Perumal", opis: "Hram boga Višnua iz 1855. godine polazna je točka procesije Thaipusam, kada vjernici s teškim ukrašenim okvirima kavadi, pričvršćenima iglama za tijelo, hodaju nekoliko kilometara kroz grad." },
-        { ime: "Hram tisuću svjetala", opis: "Budistički hram koji je 1927. osnovao tajlandski redovnik čuva sjedećeg Budu visokog 15 metara, okruženog nizom žaruljica. Iza kipa je mala prostorija s ležećim Budom, u koju se ulazi kroz niska vrata." }
+        { ime: "Sri Veeramakaliamman Temple", opis: "The temple was raised in the second half of the 19th century by Bengali laborers and dedicated to Kali, the fearsome goddess who destroys evil. The statues show her with a necklace of skulls, but also as a caring mother with her sons Ganesha and Murugan. During the Japanese bombing raids people took shelter here, and the temple came through undamaged." },
+        { ime: "Tekka Centre", opis: "On the ground floor there is a market with fish, mutton and spices and a hawker centre known for its biryani, and upstairs tailors sew saris and Indian clothing to measure. The name comes from the Hokkien term for the bamboo that once grew along the canal." },
+        { ime: "House of Tan Teng Niah", opis: "The last Chinese villa in the neighborhood was built in 1900 for the owner of a candy factory. Today it is painted in every color of the rainbow and is the most photographed house in Little India. Above the entrance, look for the gilded plaque with a Chinese inscription." },
+        { ime: "Indian Heritage Centre", opis: "The museum, opened in 2015, tells the story of the arrival of Indians in Southeast Asia, from spice traders to the convicts whom the British brought in to build roads. The facade is inspired by Indian stepwells, and in the evening it glows like a lantern." },
+        { ime: "Sri Srinivasa Perumal Temple", opis: "The temple of the god Vishnu from 1855 is the starting point of the Thaipusam procession, when devotees carrying heavy decorated frames called kavadi, attached to their bodies with spikes, walk several kilometers through the city." },
+        { ime: "Temple of a Thousand Lights", opis: "The Buddhist temple founded in 1927 by a Thai monk holds a seated Buddha 15 meters tall, surrounded by a string of small light bulbs. Behind the statue is a small chamber with a reclining Buddha, which you enter through a low door." }
       ],
       jesti: [
-        { ime: "Curry od riblje glave", opis: "Jelo koje ne postoji u Indiji: smislio ga je 1949. u Singapuru kuhar iz Kerale kako bi privukao kineske goste, kojima je riblja glava poslastica. Poslužuje se u glinenoj posudi, s okrom i patlidžanom." },
-        { ime: "Riža na listu banane", opis: "Na list se slažu riža, nekoliko vrsta povrća, kiselo vrhnje i papadam, a curry se dolijeva koliko želite. Jede se prstima desne ruke." },
-        { ime: "Thosai i teh tarik", opis: "Tanka, hrskava palačinka od fermentirane riže i leće, punjena začinjenim krumpirom, uz zapjenjeni slatki čaj s mlijekom." }
+        { ime: "Fish head curry", opis: "A dish that does not exist in India: it was invented in Singapore in 1949 by a cook from Kerala in order to attract Chinese customers, for whom fish head is a delicacy. It is served in a clay pot, with okra and eggplant." },
+        { ime: "Banana leaf rice", opis: "Rice, several kinds of vegetables, curd and a papadum are arranged on the leaf, and curry is ladled on as often as you like. You eat with the fingers of your right hand." },
+        { ime: "Thosai and teh tarik", opis: "A thin, crisp crepe of fermented rice and lentils, filled with spiced potato, served with frothy sweet milk tea." }
       ],
       dozivjeti: [
-        { ime: "Ulica vijenaca i začina", opis: "U prolazima oko Buffalo Roada i Campbell Lanea prodavači nižu vijence jasmina i nevena za hramove, a možete gledati i slikanje kanom po rukama." },
-        { ime: "Šetnja s lokalnim vodičem", opis: "Indie Singapore vodi besplatne ture kroz Malu Indiju s objašnjenjima bogova, obreda i hrane.", link: "https://indiesingapore.com/" },
-        { ime: "Večer za Deepavali", opis: "U tjednima prije blagdana cesta Serangoon osvijetljena je lukovima, a na sajmu se prodaju uljanice, slatkiši i ukrasi." }
+        { ime: "The street of garlands and spices", opis: "In the passages around Buffalo Road and Campbell Lane, vendors string garlands of jasmine and marigold for the temples, and you can also watch henna being painted onto hands." },
+        { ime: "A walk with a local guide", opis: "Indie Singapore leads free tours through Little India with explanations of the gods, the rituals and the food.", link: "https://indiesingapore.com/" },
+        { ime: "An evening at Deepavali", opis: "In the weeks before the festival, Serangoon Road is lit up with arches, and the bazaar sells oil lamps, sweets and decorations." }
       ],
       agencije: [
-        { ime: "Visit Singapore", opis: "Službena stranica singapurske turističke zajednice.", link: "https://www.visitsingapore.com/" },
-        { ime: "Indian Heritage Centre", opis: "Muzej koji organizira vođene obilaske četvrti i objavljuje kartu baštinske staze.", link: "https://www.indianheritage.gov.sg/" },
-        { ime: "Indie Singapore", opis: "Lokalni vodiči s redovitim pješačkim turama na temelju dobrovoljnog priloga.", link: "https://indiesingapore.com/" }
+        { ime: "Visit Singapore", opis: "The official website of the Singapore Tourism Board.", link: "https://www.visitsingapore.com/" },
+        { ime: "Indian Heritage Centre", opis: "A museum that organizes guided tours of the neighborhood and publishes a map of the heritage trail.", link: "https://www.indianheritage.gov.sg/" },
+        { ime: "Indie Singapore", opis: "Local guides with regular tip-based walking tours.", link: "https://indiesingapore.com/" }
       ],
-      kada: "Hramovi su zatvoreni u ranim poslijepodnevnim satima, pa dođite ujutro ili poslije četiri. Cipele se ostavljaju pred ulazom. Nedjeljom navečer četvrt je vrlo napučena."
+      kada: "The temples are closed in the early afternoon, so come in the morning or after four. Shoes are left at the entrance. On Sunday evenings the neighborhood is very crowded."
     },
     {
       id: "kampong-glam",
       ime: "Kampong Glam",
       vrsta: "grad",
-      sazetak: "Stara malajska i arapska četvrt oko zlatne kupole Sultanove džamije, s trgovinama tkanina, parfema i uskom ulicom murala.",
+      sazetak: "The old Malay and Arab quarter around the golden dome of the Sultan Mosque, with shops selling fabrics and perfumes and a narrow street of murals.",
       prica: [
-        "Kampong znači selo, a gelam je stablo čijom su se korom brtvili brodovi i od čijeg se lišća dobivalo ljekovito ulje. Ugovorom iz 1819. Raffles je sultanu Husseinu Shahu priznao naslov i dodijelio mu ovo područje, gdje je sultan sagradio palaču i džamiju.",
-        "Uz Malajce ovdje su se nastanili arapski trgovci, Bugiji sa Sulawesija i Javanci. Četvrt je bila i okupljalište hodočasnika iz cijele regije, koji su odavde brodovima kretali na hadž u Meku, pa su u ulici Bussorah cvjetale agencije, konačišta i trgovine opremom za put."
+        "Kampong means village, and the gelam is a tree whose bark was used to caulk boats and whose leaves yielded a medicinal oil. By the treaty of 1819 Raffles recognized Sultan Hussein Shah's title and granted him this area, where the sultan built a palace and a mosque.",
+        "Alongside the Malays, Arab traders, Bugis from Sulawesi and Javanese settled here. The quarter was also a gathering place for pilgrims from the whole region, who set out from here by ship on the hajj to Mecca, so agencies, lodging houses and shops selling travel supplies flourished on Bussorah Street."
       ],
       vidjeti: [
-        { ime: "Sultanova džamija", opis: "Današnju zgradu sa zlatnim kupolama projektirao je irski arhitekt Denis Santry, a dovršena je 1932. godine. Pogledajte tamni pojas u podnožju kupole: složen je od dna staklenih boca koje su darovali siromašni vjernici, kako bi svatko, a ne samo bogati, pridonio gradnji. Posjetitelji mogu ući izvan vremena molitve, a ogrtači se posuđuju na ulazu." },
-        { ime: "Istana Kampong Gelam", opis: "Palaču je četrdesetih godina 19. stoljeća sagradio sultan Ali, a danas je u njoj Malay Heritage Centre, muzej o povijesti i kulturi singapurskih Malajaca. Uz nju stoji Žuta vila, jer je žuta bila boja malajskih vladara." },
-        { ime: "Ulica Haji", opis: "Uska uličica u kojoj su nekoć odsjedali siromašniji hodočasnici danas je puna malih modnih trgovina, kafića i murala preko cijelih pročelja. Najživlja je kasno poslijepodne i navečer." },
-        { ime: "Ulica Arab", opis: "Trgovine u kojima se već naraštajima prodaju svila, batik, čipka i perzijski sagovi, s balama tkanine složenima do stropa. Ovdje singapurske mladenke svih vjera kupuju tkanine za vjenčanice." },
-        { ime: "Džamija Hajjah Fatimah", opis: "Sagrađena je 1846. godine sredstvima bogate trgovkinje iz Malake, što je rijetkost među džamijama. Njezin minaret, koji neobično podsjeća na crkveni toranj, vidljivo je nagnut, pa ga zovu singapurskim kosim tornjem." },
-        { ime: "Džamija Malabar", opis: "Džamiju zajednice doseljenika iz indijske Kerale, dovršenu 1963., prekrivaju plave i bijele pločice, pa je zovu Plavom džamijom. Uz nju je staro muslimansko groblje sa sultanskim grobovima." }
+        { ime: "Sultan Mosque", opis: "The present building with its golden domes was designed by the Irish architect Denis Santry and completed in 1932. Look at the dark band at the base of the dome: it is made of the bottoms of glass bottles donated by poor worshippers, so that everyone, and not only the rich, could contribute to the building. Visitors may enter outside prayer times, and robes are lent at the entrance." },
+        { ime: "Istana Kampong Gelam", opis: "The palace was built in the 1840s by Sultan Ali, and today it houses the Malay Heritage Centre, a museum of the history and culture of Singapore's Malays. Beside it stands the Yellow Mansion, since yellow was the color of Malay rulers." },
+        { ime: "Haji Lane", opis: "The narrow lane where the poorer pilgrims once lodged is now full of small fashion boutiques, cafés and murals covering entire facades. It is liveliest in the late afternoon and evening." },
+        { ime: "Arab Street", opis: "Shops that have been selling silk, batik, lace and Persian rugs for generations, with bolts of fabric stacked to the ceiling. This is where Singaporean brides of every faith buy the fabric for their wedding dresses." },
+        { ime: "Hajjah Fatimah Mosque", opis: "It was built in 1846 with the funds of a wealthy businesswoman from Malacca, which is rare among mosques. Its minaret, which oddly resembles a church steeple, visibly tilts, so it is called Singapore's leaning tower." },
+        { ime: "Malabar Mosque", opis: "The mosque of the community of immigrants from the Indian state of Kerala, completed in 1963, is covered in blue and white tiles, so it is called the Blue Mosque. Next to it is an old Muslim cemetery with the graves of sultans." }
       ],
       jesti: [
-        { ime: "Murtabak", opis: "Debela punjena pogača s mljevenom ovčetinom ili piletinom, jajima i lukom, pečena na ploči i poslužena s curryjem. Restorani nasuprot džamiji peku je više od stotinu godina." },
-        { ime: "Nasi padang", opis: "Riža s izborom jela iz vitrine, od goveđeg rendanga do patlidžana u sambalu, po receptima sa Sumatre." },
-        { ime: "Kuih", opis: "Šareni malajski kolačići od rižina brašna, kokosa, pandana i palmina šećera, kuhani na pari, koji se kupuju na komad." }
+        { ime: "Murtabak", opis: "A thick stuffed flatbread with ground mutton or chicken, eggs and onions, cooked on a griddle and served with curry. The restaurants across from the mosque have been making it for more than a hundred years." },
+        { ime: "Nasi padang", opis: "Rice with a choice of dishes from the display case, from beef rendang to eggplant in sambal, made to recipes from Sumatra." },
+        { ime: "Kuih", opis: "Colorful little Malay cakes of rice flour, coconut, pandan and palm sugar, steamed and bought by the piece." }
       ],
       dozivjeti: [
-        { ime: "Parfemi bez alkohola", opis: "U starim trgovinama u ulici Arab mirisna se ulja miješaju po vašem ukusu i toče u ručno puhane staklene bočice, po tradiciji arapskih trgovaca." },
-        { ime: "Ramazanski sajam", opis: "Tijekom mjeseca posta ulice oko džamije u suton se pune štandovima s hranom, a nakon večernje molitve cijela četvrt slavi do kasno." },
-        { ime: "Posjet džamiji", opis: "Volonteri u Sultanovoj džamiji rado objašnjavaju osnove islama i povijest zgrade, a na stranici džamije objavljeno je vrijeme za posjetitelje.", link: "https://www.sultanmosque.sg/" }
+        { ime: "Alcohol-free perfumes", opis: "In the old shops on Arab Street, fragrant oils are blended to your taste and poured into hand-blown glass bottles, in the tradition of the Arab traders." },
+        { ime: "The Ramadan bazaar", opis: "During the month of fasting, the streets around the mosque fill with food stalls at dusk, and after the evening prayer the whole quarter celebrates until late." },
+        { ime: "A visit to the mosque", opis: "Volunteers at the Sultan Mosque are happy to explain the basics of Islam and the history of the building, and visiting hours are posted on the mosque's website.", link: "https://www.sultanmosque.sg/" }
       ],
       agencije: [
-        { ime: "Visit Singapore", opis: "Službena stranica singapurske turističke zajednice.", link: "https://www.visitsingapore.com/" },
-        { ime: "Malay Heritage Centre", opis: "Muzej u sultanovoj palači, s vođenim šetnjama po četvrti. Prije dolaska provjerite je li otvoren, jer je bio na dugoj obnovi.", link: "https://www.malayheritage.gov.sg/" }
+        { ime: "Visit Singapore", opis: "The official website of the Singapore Tourism Board.", link: "https://www.visitsingapore.com/" },
+        { ime: "Malay Heritage Centre", opis: "The museum in the sultan's palace, with guided walks around the quarter. Check before you go whether it is open, because it has been under a long renovation.", link: "https://www.malayheritage.gov.sg/" }
       ],
-      kada: "Kasno poslijepodne, kada vrućina popusti, a kupola zasja na zalazećem suncu. Petkom oko podneva džamija je zatvorena za posjetitelje zbog zajedničke molitve."
+      kada: "Late afternoon, when the heat eases and the dome glows in the setting sun. On Fridays around noon the mosque is closed to visitors for congregational prayer."
     },
     {
       id: "marina-bay",
-      ime: "Marina Bay i Civic District",
+      ime: "Marina Bay and the Civic District",
       vrsta: "grad",
-      sazetak: "Kolonijalno srce grada i futuristički zaljev sagrađen na moru, s muzejima, vrtovima pod staklom i najpoznatijim obrisom Azije.",
+      sazetak: "The colonial heart of the city and a futuristic bay built on the sea, with museums, gardens under glass and the most famous skyline in Asia.",
       prica: [
-        "Na ušću rijeke Singapur Raffles se iskrcao 1819. godine. Na sjevernoj obali Britanci su oko travnjaka Padang podigli sud, vijećnicu, katedralu i kazalište, a na južnoj su se nizala skladišta u koja su teglenice dovozile robu s brodova.",
-        "Zaljev Marina Bay nastao je nasipavanjem mora od sedamdesetih godina 20. stoljeća. Ušće je zatvoreno branom, pa je zaljev danas slatkovodno jezero iz kojeg grad dobiva dio pitke vode. Na novom su tlu izrasli hotel s brodom na krovu, vrtovi s umjetnim drvećem i kazalište nalik na durian."
+        "Raffles landed at the mouth of the Singapore River in 1819. On the north bank the British built a courthouse, city hall, cathedral and theater around the lawn of the Padang, and the south bank was lined with warehouses to which barges brought goods from the ships.",
+        "Marina Bay was created by land reclamation beginning in the 1970s. The river mouth was closed off with a barrage, so the bay is now a freshwater reservoir that supplies part of the city's drinking water. On the new ground rose a hotel with a ship on its roof, gardens with artificial trees and a theater that looks like a durian."
       ],
       vidjeti: [
-        { ime: "Nacionalna galerija", opis: "Smještena je u nekadašnjoj gradskoj vijećnici i Vrhovnom sudu, spojenima staklenim krovom. U vijećnici su Japanci 1945. potpisali predaju, a Lee Kuan Yew 1959. prisegnuo kao prvi premijer. Čuva najveću javnu zbirku moderne umjetnosti jugoistočne Azije, a mogu se vidjeti i stare zatvorske ćelije suda." },
-        { ime: "Muzej azijskih civilizacija", opis: "Najvrednije je blago teret arapskog broda koji je u 9. stoljeću potonuo kod indonezijskog otoka Belitunga: deseci tisuća kineskih keramičkih zdjelica, složenih u velike ćupove, i zlatni pehar dinastije Tang. Nalaz dokazuje da je pomorski put svile cvjetao tisuću godina prije Rafflesa." },
-        { ime: "Hotel Raffles", opis: "Otvorila su ga 1887. braća Sarkies, armenski hotelijeri, i u njemu su odsjedali Joseph Conrad, Rudyard Kipling i Somerset Maugham. Kažu da je 1902. pod prostorijom za biljar ustrijeljen jedan od posljednjih tigrova u gradu. U predvorje smiju samo gosti, ali su dvorišta s trgovinama i Long Bar otvoreni svima." },
-        { ime: "Merlion", opis: "Kip lava s ribljim repom, visok oko osam i pol metara, iz 1972. godine riga vodu u zaljev. Lavlja glava podsjeća na legendu o imenu grada, a riblji rep na ribarsko selo Temasek, koje je ovdje stajalo prije dolaska Britanaca." },
-        { ime: "Marina Bay Sands", opis: "Tri tornja od 57 katova arhitekta Moshea Safdieja, dovršena 2010., nose platformu u obliku broda dugu 340 metara. Bazen na rubu rezerviran je za goste hotela, ali se na vidikovac može popeti svatko. Navečer se s rive pred hotelom besplatno gleda predstava svjetla i vode." },
-        { ime: "Gardens by the Bay", opis: "Vrtovi otvoreni 2012. poznati su po Superdrveću, čeličnim konstrukcijama visokima do 50 metara obraslima biljkama, koje skupljaju kišnicu i sunčevu energiju. U stakleniku Cloud Forest s umjetne planine pada slap visok 35 metara, a unutra je svježe kao u gorju. Svake večeri drveće svijetli u ritmu glazbe." }
+        { ime: "National Gallery", opis: "It is housed in the former City Hall and Supreme Court, joined by a glass roof. In City Hall the Japanese signed the surrender in 1945, and Lee Kuan Yew was sworn in as the first prime minister in 1959. It holds the largest public collection of modern Southeast Asian art, and you can also see the court's old holding cells." },
+        { ime: "Asian Civilisations Museum", opis: "Its greatest treasure is the cargo of an Arab ship that sank in the 9th century off the Indonesian island of Belitung: tens of thousands of Chinese ceramic bowls, packed into large jars, and a gold cup from the Tang dynasty. The find proves that the Maritime Silk Road was flourishing a thousand years before Raffles." },
+        { ime: "Raffles Hotel", opis: "It was opened in 1887 by the Sarkies brothers, Armenian hoteliers, and Joseph Conrad, Rudyard Kipling and Somerset Maugham all stayed here. It is said that in 1902 one of the last tigers in the city was shot beneath the billiard room. Only guests may enter the lobby, but the courtyards with their shops and the Long Bar are open to everyone." },
+        { ime: "Merlion", opis: "The statue of a lion with a fish's tail, about eight and a half meters tall and dating from 1972, spouts water into the bay. The lion's head recalls the legend of the city's name, and the fish tail the fishing village of Temasek, which stood here before the British arrived." },
+        { ime: "Marina Bay Sands", opis: "The three 57-story towers by the architect Moshe Safdie, completed in 2010, carry a ship-shaped platform 340 meters long. The infinity pool is reserved for hotel guests, but anyone can go up to the observation deck. In the evening you can watch the light and water show for free from the waterfront in front of the hotel." },
+        { ime: "Gardens by the Bay", opis: "The gardens, opened in 2012, are known for the Supertrees, steel structures up to 50 meters tall and overgrown with plants, which collect rainwater and solar energy. In the Cloud Forest conservatory a waterfall 35 meters high drops from an artificial mountain, and inside it is as cool as in the highlands. Every evening the trees light up in time to music." }
       ],
       jesti: [
-        { ime: "Satay u Lau Pa Satu", opis: "Viktorijanska tržnica od lijevanog željeza iz 1894., čiji su dijelovi dopremljeni iz Glasgowa, danas je hawker centar, a navečer se uz nju peku ražnjići na otvorenom." },
-        { ime: "Chilli crab uz rijeku", opis: "Restorani s plodovima mora na Boat Quayu i Clarke Quayu poslužuju rakove na težinu. Cijenu po kilogramu pitajte prije narudžbe." },
-        { ime: "Singapore Sling u Long Baru", opis: "U hotelu Raffles, pod stropnim lepezama koje se njišu, uz vreću kikirikija čije se ljuske bacaju na pod." }
+        { ime: "Satay at Lau Pa Sat", opis: "The Victorian cast-iron market from 1894, whose parts were shipped from Glasgow, is now a hawker centre, and in the evening skewers are grilled in the open air beside it." },
+        { ime: "Chilli crab by the river", opis: "Seafood restaurants on Boat Quay and Clarke Quay serve crab by weight. Ask for the price per kilogram before you order." },
+        { ime: "A Singapore Sling at the Long Bar", opis: "At the Raffles Hotel, beneath swaying ceiling fans, with a sack of peanuts whose shells are thrown on the floor." }
       ],
       dozivjeti: [
-        { ime: "Večernja svjetla Superdrveća", opis: "Predstava Garden Rhapsody besplatna je i traje petnaestak minuta. Najbolje se gleda ležeći na travi ispod drveća.", link: "https://www.gardensbythebay.com.sg/" },
-        { ime: "Muzej Peranakan", opis: "U staroj školi u ulici Armenian izloženi su vjenčani kreveti, nakit i izvezene papuče od sitnih perlica, koje su mlade nyonye mjesecima vezle za miraz.", link: "https://www.peranakanmuseum.nhb.gov.sg/" },
-        { ime: "Botanički vrt i Nacionalni vrt orhideja", opis: "Nekoliko postaja podzemnom željeznicom od središta nalazi se vrt osnovan 1859., u kojem je uzgojen kaučukovac koji je promijenio gospodarstvo Malaje. U vrtu orhideja raste više od tisuću vrsta.", link: "https://www.nparks.gov.sg/sbg" },
-        { ime: "Vođena šetnja kroz povijest", opis: "Journeys već desetljećima vodi tematske ture s izvrsnim pripovjedačima, primjerice o kolonijalnom gradu ili o ratnim godinama.", link: "https://www.journeys.com.sg/" }
+        { ime: "The evening lights of the Supertrees", opis: "The Garden Rhapsody show is free and lasts about fifteen minutes. It is best watched lying on the grass beneath the trees.", link: "https://www.gardensbythebay.com.sg/" },
+        { ime: "The Peranakan Museum", opis: "In an old school on Armenian Street you can see wedding beds, jewelry and slippers embroidered with tiny beads, which young nyonyas spent months stitching for their trousseau.", link: "https://www.peranakanmuseum.nhb.gov.sg/" },
+        { ime: "The Botanic Gardens and the National Orchid Garden", opis: "A few subway stops from the center is a garden founded in 1859, where the rubber tree that transformed the economy of Malaya was cultivated. More than a thousand species grow in the orchid garden.", link: "https://www.nparks.gov.sg/sbg" },
+        { ime: "A guided walk through history", opis: "Journeys has been leading themed tours with excellent storytellers for decades, for example on the colonial city or on the war years.", link: "https://www.journeys.com.sg/" }
       ],
       agencije: [
-        { ime: "Visit Singapore", opis: "Službena stranica singapurske turističke zajednice.", link: "https://www.visitsingapore.com/" },
-        { ime: "Journeys", opis: "Nagrađivani organizator baštinskih pješačkih tura, poznat kao The Original Singapore Walks.", link: "https://www.journeys.com.sg/" },
-        { ime: "Roots, National Heritage Board", opis: "Državni portal baštine s besplatnim kartama i opisima pješačkih ruta po povijesnim četvrtima.", link: "https://www.roots.gov.sg/" }
+        { ime: "Visit Singapore", opis: "The official website of the Singapore Tourism Board.", link: "https://www.visitsingapore.com/" },
+        { ime: "Journeys", opis: "An award-winning operator of heritage walking tours, known as The Original Singapore Walks.", link: "https://www.journeys.com.sg/" },
+        { ime: "Roots, National Heritage Board", opis: "The government heritage portal, with free maps and descriptions of walking routes through the historic districts.", link: "https://www.roots.gov.sg/" }
       ],
-      kada: "Muzeje ostavite za najtoplije sate, a zaljev i vrtove za večer, kada sve svijetli i puše povjetarac. U rujnu se oko zaljeva vozi noćna utrka Formule 1, pa su ceste zatvorene, a hoteli skuplji."
+      kada: "Save the museums for the hottest hours, and the bay and the gardens for the evening, when everything is lit up and there is a breeze. In September the Formula 1 night race runs around the bay, so roads are closed and hotels cost more."
     }
   ],
   izvori: [

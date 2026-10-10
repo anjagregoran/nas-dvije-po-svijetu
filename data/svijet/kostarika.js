@@ -1,219 +1,219 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["kostarika"] = {
   id: "kostarika",
-  ime: "Kostarika",
-  regija: "Srednja Amerika i Karibi",
-  sazetak: "Mala zemlja bez vojske, s vulkanima, maglenim šumama i ljenivcima u krošnjama, u kojoj se na sve odgovara s pura vida.",
+  ime: "Costa Rica",
+  regija: "Central America and the Caribbean",
+  sazetak: "A small country with no army, with volcanoes, cloud forests and sloths in the treetops, where the answer to everything is pura vida.",
   uvod: [
-    "Kostarika je uska prevlaka između dva oceana na kojoj živi otprilike dvadeseti dio svih biljnih i životinjskih vrsta na Zemlji, iako zauzima tek neznatan djelić njezina kopna. Ime joj znači bogata obala, a nadjenuli su ga Španjolci koji su se nakon Kolumbova dolaska 1502. nadali zlatu. Zlata je bilo malo, pa je zemlja ostala siromašna kolonija sitnih posjednika, što mnogi povjesničari smatraju korijenom njezine kasnije demokracije.",
-    "Neovisnost je stigla 1821., a bogatstvo u 19. stoljeću s kavom, takozvanim zlatnim zrnom. Nakon kratkoga građanskog rata predsjednik José Figueres Ferrer 1. prosinca 1948. ukinuo je vojsku, a novac je usmjeren u škole i bolnice. Danas je više od četvrtine zemlje zaštićeno u parkovima i rezervatima, gotovo sva struja dolazi iz obnovljivih izvora, a priroda je glavni razlog zbog kojega ljudi ovamo dolaze."
+    "Costa Rica is a narrow isthmus between two oceans that is home to roughly one twentieth of all the plant and animal species on Earth, even though it takes up only a tiny fraction of the planet's land. Its name means rich coast, and it was given by the Spaniards who hoped for gold after Columbus arrived in 1502. There was little gold, so the country remained a poor colony of smallholders, which many historians see as the root of its later democracy.",
+    "Independence came in 1821, and wealth followed in the 19th century with coffee, the so-called golden bean. After a brief civil war, President José Figueres Ferrer abolished the army on December 1, 1948, and the money was directed to schools and hospitals. Today more than a quarter of the country is protected in parks and reserves, almost all its electricity comes from renewable sources, and nature is the main reason people come here."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Na pacifičkoj strani i u gorju suho je od prosinca do travnja. Karipska obala ima svoj ritam, pa je u Tortugueru najmanje kiše u rujnu i listopadu te u veljači i ožujku." },
-    { k: "Valuta", v: "Kostarikanski kolon (CRC), nazvan po Kolumbu. Američki dolar prima se gotovo svugdje u turističkim mjestima, a kartice su uobičajene." },
-    { k: "Kretanje", v: "Udaljenosti su male, ali ceste su zavojite i spore, pa za sto kilometara računajte i tri sata. Između glavnih odredišta voze turistički kombiji, a javni autobusi su jeftini i pouzdani." },
-    { k: "Napojnica", v: "Restorani u račun već uključuju 10 posto za uslugu, pa dodatna napojnica nije obvezna. Vodičima u prirodi uobičajeno je nešto ostaviti, jer o njima ovisi koliko ćete životinja vidjeti." }
+    { k: "When to go", v: "On the Pacific side and in the highlands it is dry from December to April. The Caribbean coast keeps its own rhythm, so Tortuguero gets the least rain in September and October and again in February and March." },
+    { k: "Currency", v: "The Costa Rican colón (CRC), named after Columbus. The US dollar is accepted almost everywhere in tourist areas, and cards are common." },
+    { k: "Getting around", v: "Distances are short, but the roads are winding and slow, so allow as much as three hours for a hundred kilometers. Tourist shuttles run between the main destinations, and the public buses are cheap and reliable." },
+    { k: "Tipping", v: "Restaurants already include 10 percent for service in the bill, so an extra tip is not required. It is customary to leave something for nature guides, because how many animals you see depends on them." }
   ],
   hrana: [
-    { ime: "Gallo pinto", opis: "Riža i crni grah prepečeni zajedno s lukom, paprikom i korijandrom, uz jaja, prženu bananu i kiselo vrhnje.", prica: "Ime znači šareni pijetao, zbog točkastoga izgleda. Jede se za doručak svaki dan, a Kostarikanci i Nikaragvanci dobrodušno se spore čiji je. Za stolom će vam ponuditi umak Lizano, blago slatkast umak od povrća koji se proizvodi od 1920. i stavlja u gotovo sve." },
-    { ime: "Casado", opis: "Ručak na jednom tanjuru: riža, grah, salata, pržena banana i meso ili riba po izboru.", prica: "Riječ znači oženjen čovjek, a predaja kaže da su radnici u gostionicama tražili ručak kakav oženjeni dobivaju kod kuće. Najbolji je u sodama, malim obiteljskim zalogajnicama uz cestu, gdje je i najjeftiniji." },
-    { ime: "Olla de carne", opis: "Bistra goveđa juha s velikim komadima korjenastoga povrća, kukuruza, manioke i banane.", prica: "Ovo je nedjeljno jelo gorja, koje se kuha satima u velikom loncu. Povrće i meso obično se vade na poseban tanjur, a juha se jede s rižom. Potječe od španjolskih gulaša, ali je povrće domaće, tropsko." },
-    { ime: "Chifrijo", opis: "Zdjelica riže i graha s komadićima hrskave svinjetine, umakom od rajčice i tortilja čipsom.", prica: "Jelo je mlado: smislio ga je početkom devedesetih godina 20. stoljeća Miguel Cordero u svojem baru u Tibásu, predgrađu San Joséa. Ime je složeno od chicharrón i frijoles, a danas ga uz pivo poslužuje svaki bar u zemlji." },
-    { ime: "Ceviche tico", opis: "Kockice bijele ribe marinirane u soku limete s lukom, korijandrom i slatkom paprikom.", prica: "Kostarikanska je inačica blaga, bez ljutoga čilija, a domaći u marinadu vole dodati malo đumbirova gaziranog soka. Jede se s krekerima, najčešće na pacifičkoj obali, gdje se riba kupuje ravno s barke." },
-    { ime: "Rice and beans", opis: "Riža i crveni grah kuhani u kokosovu mlijeku s majčinom dušicom i ljutom paprikom, uz piletinu ili ribu.", prica: "Na karipskoj obali jelo se zove engleski, jer su ga donijeli radnici s Jamajke koji su krajem 19. stoljeća gradili željeznicu i radili na plantažama banana. Uz njega se pije agua de sapo, hladan napitak od đumbira, limete i nerafiniranoga šećera." },
-    { ime: "Tamal", opis: "Kukuruzno tijesto s rižom, svinjetinom i povrćem, umotano u list banane i kuhano.", prica: "Tamales su znak Božića. U prosincu se cijela obitelj okupi na takozvanoj tamaleadi i u jednom danu složi i poveže stotine komada, koji se vežu po dva i zovu piña. Jedu se uz kavu, za doručak ili poslijepodne." },
-    { ime: "Kava", opis: "Arabica s vulkanskih padina, tradicionalno pripremljena u chorreadoru, platnenoj vrećici na drvenom stalku.", prica: "Kava je u 19. stoljeću platila ceste, škole i Nacionalno kazalište. Zakonom je dopušten uzgoj isključivo arabice, a najcjenjenija dolazi iz krajeva Tarrazú i Zapadne doline. Na imanjima oko San Joséa možete vidjeti cijeli put od trešnje do šalice." }
+    { ime: "Gallo pinto", opis: "Rice and black beans fried together with onion, bell pepper and cilantro, served with eggs, fried plantain and sour cream.", prica: "The name means spotted rooster, because of its speckled look. It is eaten for breakfast every day, and Costa Ricans and Nicaraguans argue good-naturedly over whose it is. At the table you will be offered Salsa Lizano, a mildly sweet vegetable sauce that has been made since 1920 and goes on almost everything." },
+    { ime: "Casado", opis: "Lunch on a single plate: rice, beans, salad, fried plantain and your choice of meat or fish.", prica: "The word means married man, and tradition has it that workers in the eateries asked for the kind of lunch married men got at home. It is at its best in the sodas, small family diners by the roadside, where it is also cheapest." },
+    { ime: "Olla de carne", opis: "A clear beef soup with large pieces of root vegetables, corn, cassava and plantain.", prica: "This is the Sunday dish of the highlands, simmered for hours in a big pot. The vegetables and meat are usually lifted out onto a separate plate, and the broth is eaten with rice. It descends from Spanish stews, but the vegetables are local and tropical." },
+    { ime: "Chifrijo", opis: "A small bowl of rice and beans with pieces of crispy pork, tomato salsa and tortilla chips.", prica: "The dish is young: it was invented in the early 1990s by Miguel Cordero at his bar in Tibás, a suburb of San José. The name is a blend of chicharrón and frijoles, and today every bar in the country serves it with beer." },
+    { ime: "Ceviche tico", opis: "Cubes of white fish marinated in lime juice with onion, cilantro and sweet pepper.", prica: "The Costa Rican version is mild, with no hot chili, and locals like to add a splash of ginger ale to the marinade. It is eaten with crackers, most often on the Pacific coast, where the fish is bought straight off the boat." },
+    { ime: "Rice and beans", opis: "Rice and red beans cooked in coconut milk with thyme and hot pepper, served with chicken or fish.", prica: "On the Caribbean coast the dish goes by its English name, because it was brought by workers from Jamaica who built the railroad and worked on the banana plantations at the end of the 19th century. It is washed down with agua de sapo, a cold drink of ginger, lime and unrefined sugar." },
+    { ime: "Tamal", opis: "Corn dough with rice, pork and vegetables, wrapped in a banana leaf and boiled.", prica: "Tamales are a sign of Christmas. In December the whole family gathers for what is called a tamaleada and in a single day assembles and ties up hundreds of them, which are bound in pairs called a piña. They are eaten with coffee, for breakfast or in the afternoon." },
+    { ime: "Coffee", opis: "Arabica from the volcanic slopes, traditionally brewed in a chorreador, a cloth bag on a wooden stand.", prica: "In the 19th century coffee paid for roads, schools and the National Theater. By law only arabica may be grown, and the most prized comes from the Tarrazú and West Valley regions. On the estates around San José you can follow the whole journey from cherry to cup." }
   ],
   obicaji: [
-    { ime: "Pura vida", opis: "Dvije riječi koje znače čist život, a služe kao pozdrav, zahvala, odgovor na pitanje kako si i cijela životna filozofija. Izraz se proširio pedesetih godina 20. stoljeća, navodno nakon istoimenoga meksičkog filma, i danas je neslužbeno geslo zemlje.", gdje: "Čut ćete ga svugdje, od granice do plaže. Slobodno ga upotrijebite i same, jer će ga svatko dočekati s osmijehom." },
-    { ime: "Oslikana volovska kola", opis: "Kolima koja su vukli volovi kava se u 19. stoljeću danima vozila iz gorja do luke Puntarenas. Početkom 20. stoljeća počeli su ih oslikavati jarkim geometrijskim uzorcima, pri čemu je svako selo imalo svoj stil. Tradiciju volara i kola UNESCO je priznao 2005. godine.", gdje: "Radionice u kojima se kola i danas rade i oslikavaju nalaze se u gradiću Sarchí, sat vremena od San Joséa. Povorka volara održava se svakoga ožujka u Escazúu." },
-    { ime: "Swing criollo, salsa i cumbia", opis: "Swing criollo je kostarikanski ples nastao u plesnim dvoranama San Joséa, kada su plesači na glazbu kolumbijske cumbije počeli skakutati na svoj način. Dugo se smatrao plesom radničkih četvrti, a 2012. je proglašen nacionalnom nematerijalnom baštinom.", gdje: "Pleše se vikendom u velikim plesnim dvoranama San Joséa i okolice, uz salsu, merengue i bolero, a plesne škole u glavnom gradu nude i pojedinačne satove. U La Fortuni i na obali barovi imaju večeri latino plesa sa satom za početnike." },
-    { ime: "Punto guanacasteco i marimba", opis: "Nacionalni ples dolazi iz pokrajine Guanacaste: plesačice u širokim šarenim suknjama i plesači s rupcem i šeširom udvaraju si uz zvuk marimbe, a muškarci povremeno uzviknu kratku rimovanu dosjetku zvanu bomba.", gdje: "Najbolje ga je vidjeti 25. srpnja, na dan pripojenja Guanacastea, u Nicoyi, Liberiji i Santa Cruzu. U San Joséu ga izvode folklorne skupine o državnim praznicima." },
-    { ime: "Hodočašće u Cartago", opis: "Svake godine uoči 2. kolovoza stotine tisuća ljudi pješače do bazilike u Cartagu, gdje se čuva La Negrita, mali tamni kip Gospe od Anđela, zaštitnice zemlje. Prema predaji, kip je 1635. na kamenu pronašla djevojka Juana Pereira.", gdje: "Bazilika u Cartagu, pola sata od San Joséa, otvorena je cijele godine. Iza oltara se silazi do kamena na kojem je kip nađen i do izvora s kojega vjernici nose vodu." },
-    { ime: "Maskare i seoske svetkovine", opis: "Na pučkim svetkovinama ulicama plešu mascaradas, likovi s golemim glavama od papirne kaše, uz limenu glazbu cimarronu. Krajem prosinca održavaju se i borbe s bikovima na kostarikanski način, u kojima se bik ne ubija, a u arenu ulaze dobrovoljci iz publike.", gdje: "Dan maskara slavi se 31. listopada, osobito u gradiću Barva kraj Heredije. Najveće blagdanske svetkovine održavaju se od Božića do početka siječnja u četvrti Zapote u San Joséu." },
-    { ime: "Calypso limonense", opis: "Na karipskoj se obali pjeva calypso na kreolskom engleskom, uz bendžo i bas načinjen od kutije. Najpoznatiji mu je autor bio Walter Ferguson iz Cahuite, koji je pjesme snimao na kazete i prodavao ih prolaznicima.", gdje: "Čuje se u Cahuiti i Puerto Viejou, osobito na Festivalu calypsa i oko 31. kolovoza, kada pokrajina Limón slavi dan afrokostarikanske kulture." }
+    { ime: "Pura vida", opis: "Two words that mean pure life and serve as a greeting, a thank you, an answer to how are you and an entire philosophy of living. The expression spread in the 1950s, reportedly after a Mexican film of the same name, and today it is the country's unofficial motto.", gdje: "You will hear it everywhere, from the border to the beach. Feel free to use it yourself, because everyone will meet it with a smile." },
+    { ime: "Painted oxcarts", opis: "In the 19th century ox-drawn carts spent days hauling coffee from the highlands to the port of Puntarenas. In the early 20th century people began painting them with bright geometric patterns, and every village had its own style. UNESCO recognized the tradition of the ox herders and their carts in 2005.", gdje: "The workshops where carts are still built and painted today are in the small town of Sarchí, an hour from San José. A parade of ox herders is held every March in Escazú." },
+    { ime: "Swing criollo, salsa and cumbia", opis: "Swing criollo is a Costa Rican dance born in the dance halls of San José, when dancers began hopping in their own way to Colombian cumbia music. For a long time it was considered a dance of the working-class neighborhoods, and in 2012 it was declared national intangible heritage.", gdje: "It is danced on weekends in the big dance halls of San José and the surrounding area, alongside salsa, merengue and bolero, and dance schools in the capital also offer individual lessons. In La Fortuna and on the coast, bars hold Latin dance nights with a class for beginners." },
+    { ime: "Punto guanacasteco and marimba", opis: "The national dance comes from the province of Guanacaste: women in full, colorful skirts and men with a kerchief and hat court one another to the sound of the marimba, and now and then the men shout out a short rhyming quip called a bomba.", gdje: "The best time to see it is July 25, the day of the annexation of Guanacaste, in Nicoya, Liberia and Santa Cruz. In San José folk groups perform it on national holidays." },
+    { ime: "The pilgrimage to Cartago", opis: "Every year in the run-up to August 2, hundreds of thousands of people walk to the basilica in Cartago, home of La Negrita, the small dark statue of Our Lady of the Angels, the country's patron saint. According to tradition, the statue was found on a rock in 1635 by a girl named Juana Pereira.", gdje: "The basilica in Cartago, half an hour from San José, is open all year. Behind the altar you go down to the rock where the statue was found and to the spring from which the faithful carry away water." },
+    { ime: "Masquerades and village festivals", opis: "At popular festivals the mascaradas, figures with enormous papier-mâché heads, dance through the streets to the brass band music known as cimarrona. At the end of December there are also Costa Rican style bullfights, in which the bull is not killed and volunteers from the crowd enter the ring.", gdje: "Masquerade Day is celebrated on October 31, especially in the small town of Barva near Heredia. The biggest holiday festivities run from Christmas to early January in the Zapote district of San José." },
+    { ime: "Calypso limonense", opis: "On the Caribbean coast calypso is sung in Creole English, to a banjo and a bass made from a box. Its best known songwriter was Walter Ferguson of Cahuita, who recorded his songs on cassettes and sold them to passersby.", gdje: "You can hear it in Cahuita and Puerto Viejo, especially at the Calypso Festival and around August 31, when the province of Limón celebrates Afro-Costa Rican culture day." }
   ],
   fraze: [
-    { izvorno: "Pura vida", izgovor: "PU-ra VI-da", hr: "Sve je super, hvala, bok (odgovara na gotovo sve)" },
-    { izvorno: "Buenas", izgovor: "BUE-nas", hr: "Dobar dan (kratki pozdrav u svako doba)" },
-    { izvorno: "Con mucho gusto", izgovor: "kon MU-čo GUS-to", hr: "Nema na čemu, drage volje" },
-    { izvorno: "¡Upe!", izgovor: "U-pe", hr: "Ima li koga? (viče se pred kućnim vratima umjesto kucanja)" },
-    { izvorno: "Tuanis", izgovor: "TUA-nis", hr: "Odlično, fora" },
-    { izvorno: "Mae", izgovor: "MA-e", hr: "Stari, frende (čut ćete u svakoj rečenici)" },
-    { izvorno: "¿Cuánto cuesta?", izgovor: "KUAN-to KUES-ta", hr: "Koliko košta?" },
-    { izvorno: "La cuenta, por favor", izgovor: "la KUEN-ta por fa-VOR", hr: "Račun, molim" }
+    { izvorno: "Pura vida", izgovor: "POO-rah VEE-dah", hr: "All good, thanks, hi (an answer to almost anything)" },
+    { izvorno: "Buenas", izgovor: "BWEH-nahs", hr: "Hello (a short greeting at any time of day)" },
+    { izvorno: "Con mucho gusto", izgovor: "kohn MOO-choh GOOS-toh", hr: "You're welcome, with pleasure" },
+    { izvorno: "¡Upe!", izgovor: "OO-peh", hr: "Anybody home? (called out at the front door in place of knocking)" },
+    { izvorno: "Tuanis", izgovor: "TWAH-nees", hr: "Great, cool" },
+    { izvorno: "Mae", izgovor: "MAH-eh", hr: "Dude, buddy (you will hear it in every sentence)" },
+    { izvorno: "¿Cuánto cuesta?", izgovor: "KWAHN-toh KWES-tah", hr: "How much does it cost?" },
+    { izvorno: "La cuenta, por favor", izgovor: "lah KWEN-tah por fah-VOR", hr: "The check, please" }
   ],
   zanimljivosti: [
-    "Kostarika nema vojsku od 1948., a zgrada nekadašnje glavne vojarne danas je Nacionalni muzej.",
-    "Stanovnici sebe zovu ticos i ticas, zbog navike da umanjenice tvore nastavkom tico, pa je trenutak momentico.",
-    "Adrese se često daju prema orijentirima, primjerice dvjesto metara južno od stare smokve, čak i kad te smokve odavno nema.",
-    "Na poluotoku Nicoya nalazi se jedna od pet takozvanih plavih zona svijeta, gdje neobično mnogo ljudi doživi stotu.",
-    "Na jugu zemlje pronađene su stotine gotovo savršenih kamenih kugli starih i više od tisuću godina, čija se namjena i danas samo nagađa.",
-    "U zemlji je zabilježeno pedesetak vrsta kolibrića, više nego ptica svih vrsta u ponekom europskom gradu.",
-    "Zlatna žaba krastača iz Monteverdea posljednji je put viđena 1989. i postala je simbol nestajanja vodozemaca u svijetu."
+    "Costa Rica has had no army since 1948, and the building of the former main barracks is now the National Museum.",
+    "The people call themselves ticos and ticas, after their habit of forming diminutives with the ending tico, so that a moment is a momentico.",
+    "Addresses are often given by landmarks, for example two hundred meters south of the old fig tree, even when that fig tree is long gone.",
+    "The Nicoya Peninsula is home to one of the world's five so-called Blue Zones, where an unusually large number of people live to a hundred.",
+    "Hundreds of almost perfect stone spheres, some more than a thousand years old, have been found in the south of the country, and their purpose is still a matter of guesswork.",
+    "About fifty species of hummingbird have been recorded in the country, more than the total number of bird species in some European cities.",
+    "The golden toad of Monteverde was last seen in 1989 and has become a symbol of the worldwide disappearance of amphibians."
   ],
   mjesta: [
     {
       id: "san-jose",
-      ime: "San José i Središnja dolina",
+      ime: "San José and the Central Valley",
       vrsta: "grad",
-      sazetak: "Nepretenciozan glavni grad s izvrsnim muzejima, okružen vulkanima i plantažama kave.",
+      sazetak: "An unpretentious capital with excellent museums, ringed by volcanoes and coffee plantations.",
       prica: [
-        "San José je nastao u 18. stoljeću kao selo uzgajivača duhana, a prijestolnicom je postao 1823., kad je nakon kratkoga sukoba preuzeo tu ulogu od kolonijalnoga Cartaga. Kava ga je u drugoj polovici 19. stoljeća pretvorila u bogat gradić, koji je među prvima u svijetu dobio javnu električnu rasvjetu.",
-        "Grad nije lijep na prvi pogled, ali u nekoliko ulica krije tri odlična muzeja i kazalište kojim se ponosi cijela zemlja. Oko njega se prostire Središnja dolina, gdje živi većina stanovništva, s vulkanima Poás i Irazú, starom prijestolnicom Cartagom i imanjima kave."
+        "San José began in the 18th century as a village of tobacco growers and became the capital in 1823, when it took over that role from colonial Cartago after a brief conflict. In the second half of the 19th century coffee turned it into a wealthy little city, one of the first in the world to have public electric lighting.",
+        "The city is not beautiful at first glance, but within a few streets it hides three excellent museums and a theater that the whole country is proud of. Around it spreads the Central Valley, where most of the population lives, with the Poás and Irazú volcanoes, the old capital of Cartago and the coffee estates."
       ],
       vidjeti: [
-        { ime: "Teatro Nacional", opis: "Kazalište je otvoreno 1897., a platili su ga uzgajivači kave porezom na vlastiti izvoz, navodno uvrijeđeni što slavna operna pjevačica nije htjela nastupiti u gradu bez prave dvorane. Na stropu predvorja je slika Alegorija kave i banana talijanskoga slikara koji banane očito nikad nije vidio, pa ih lik drži naopako." },
-        { ime: "Museo del Oro Precolombino", opis: "Pod trgom Plaza de la Cultura, u podzemnoj zgradi nalik sefu, izloženo je oko 1600 zlatnih predmeta nastalih prije dolaska Europljana. Potražite sitne žabe, orlove i ratnike lijevane tehnikom izgubljenoga voska, koje su poglavari nosili kao znak moći." },
-        { ime: "Museo Nacional", opis: "Muzej je smješten u žutoj vojarni Bellavista, na čijim se zidovima vide rupe od metaka iz građanskoga rata 1948. godine. Ulazi se kroz vrt s leptirima, a u dvorištu su izložene tajanstvene kamene kugle s juga zemlje." },
-        { ime: "Museo del Jade", opis: "Ovdje je najveća zbirka pretkolumbovskoga žada u Americi. Žad se u Kostarici ne nalazi u prirodi, pa je svaki komad morao doputovati trgovinom, najvjerojatnije iz današnje Gvatemale, što govori o tome koliko su daleko sezale veze starih naroda." },
-        { ime: "Vulkan Poás", opis: "Sat i pol od grada autom se dolazi gotovo do ruba kratera širokoga oko kilometar i pol, s mliječnozelenim kiselim jezerom na dnu. Krater je ujutro najčešće vedar, a do podneva ga zatvore oblaci. Ulaznice se kupuju unaprijed, a park se povremeno zatvara zbog aktivnosti vulkana." },
-        { ime: "Sarchí i Cartago", opis: "U Sarchíju pogledajte radionice oslikanih kola i golema kola u parku pred crkvom. U Cartagu, staroj prijestolnici, stoji bazilika Gospe od Anđela i ruševine župne crkve koju potresi nikad nisu dopustili dovršiti." }
+        { ime: "Teatro Nacional", opis: "The theater opened in 1897 and was paid for by the coffee growers through a tax on their own exports, reportedly because they were offended that a famous opera singer refused to perform in a city without a proper hall. On the ceiling of the foyer is the painting Allegory of Coffee and Bananas by an Italian painter who had clearly never seen bananas, so the figure holds them upside down." },
+        { ime: "Museo del Oro Precolombino", opis: "Beneath the Plaza de la Cultura, in an underground building that resembles a vault, about 1,600 gold objects made before the arrival of Europeans are on display. Look for the tiny frogs, eagles and warriors cast by the lost-wax technique, which chiefs wore as a sign of power." },
+        { ime: "Museo Nacional", opis: "The museum is housed in the yellow Bellavista barracks, whose walls still show bullet holes from the civil war of 1948. You enter through a butterfly garden, and the mysterious stone spheres from the south of the country are displayed in the courtyard." },
+        { ime: "Museo del Jade", opis: "This is the largest collection of pre-Columbian jade in the Americas. Jade does not occur naturally in Costa Rica, so every piece had to arrive by trade, most likely from what is now Guatemala, which tells you how far the connections of the ancient peoples reached." },
+        { ime: "Poás Volcano", opis: "An hour and a half from the city, you drive almost to the rim of a crater about a kilometer and a half wide, with a milky green acid lake at the bottom. The crater is usually clear in the morning and closed in by clouds by noon. Tickets are bought in advance, and the park closes from time to time because of volcanic activity." },
+        { ime: "Sarchí and Cartago", opis: "In Sarchí see the workshops of the painted carts and the giant cart in the park in front of the church. In Cartago, the old capital, stand the Basilica of Our Lady of the Angels and the ruins of the parish church that earthquakes never allowed to be finished." }
       ],
       jesti: [
-        { ime: "Ručak u Mercado Centralu", opis: "Na natkrivenoj tržnici iz 1880. sode poslužuju casado i ollu de carne radnicima i činovnicima. Tu je i sladoledarnica koja od 1901. prodaje jednu jedinu vrstu sladoleda, žutu, s cimetom i muškatnim oraščićem." },
-        { ime: "Café chorreado", opis: "U kavanama u četvrtima Amón i Escalante kavu vam pripreme pred vama, prelijevanjem kroz platnenu vrećicu, i objasne iz kojega je kraja." },
-        { ime: "Chifrijo", opis: "U svojem rodnom gradu najbolji je uz hladno pivo u jednostavnim barovima." }
+        { ime: "Lunch at the Mercado Central", opis: "In the covered market dating from 1880, sodas serve casado and olla de carne to workers and office clerks. There is also an ice cream parlor that has sold a single flavor since 1901, a yellow one with cinnamon and nutmeg." },
+        { ime: "Café chorreado", opis: "In the coffee shops of the Amón and Escalante neighborhoods they prepare your coffee in front of you, pouring it through a cloth bag, and explain which region it comes from." },
+        { ime: "Chifrijo", opis: "In the city where it was born, it is at its best with a cold beer in the simple bars." }
       ],
       dozivjeti: [
-        { ime: "Obilazak imanja kave", opis: "Hacienda Doka na padinama vulkana Poás vodi kroz nasade i staru mokru preradu s vodenim kotačem, a sve završava kušanjem različito prženih zrna.", link: "https://www.haciendadoka.com/" },
-        { ime: "Britt Coffee Tour", opis: "U Herediji je obilazak napola predavanje, napola kazališna predstava, zabavan i onima koji o kavi ne znaju ništa.", link: "https://www.coffeetour.com/" },
-        { ime: "Večer plesa", opis: "Vikendom se u velikim plesnim dvoranama izmjenjuju salsa, merengue, cumbia i swing criollo uz orkestar uživo. Domaći dolaze u parovima i obiteljski, a prije večeri raspitajte se u smještaju koja dvorana ima sat za početnike." }
+        { ime: "A coffee estate tour", opis: "Hacienda Doka, on the slopes of Poás Volcano, takes you through the plantings and the old wet mill with its waterwheel, and it all ends with a tasting of differently roasted beans.", link: "https://www.haciendadoka.com/" },
+        { ime: "Britt Coffee Tour", opis: "In Heredia the tour is half lecture, half stage show, and fun even for those who know nothing about coffee.", link: "https://www.coffeetour.com/" },
+        { ime: "A night of dancing", opis: "On weekends the big dance halls alternate salsa, merengue, cumbia and swing criollo with a live band. Locals come as couples and as families, and before your evening out, ask at your accommodation which hall has a class for beginners." }
       ],
       agencije: [
-        { ime: "Visit Costa Rica", opis: "Službena stranica Kostarikanskoga turističkog instituta.", link: "https://www.visitcostarica.com/" },
-        { ime: "Museos del Banco Central", opis: "Stranica Muzeja pretkolumbovskoga zlata s informacijama o posjetu i vođenjima.", link: "https://museosdelbancocentral.org/" }
+        { ime: "Visit Costa Rica", opis: "The official website of the Costa Rican Tourism Institute.", link: "https://www.visitcostarica.com/" },
+        { ime: "Museos del Banco Central", opis: "The website of the Pre-Columbian Gold Museum, with information on visits and guided tours.", link: "https://museosdelbancocentral.org/" }
       ],
-      kada: "Od prosinca do travnja jutra su vedra, pa vulkane posjetite što ranije. Za grad je dovoljan jedan dan, a drugi iskoristite za izlet u dolinu."
+      kada: "From December to April the mornings are clear, so visit the volcanoes as early as you can. One day is enough for the city, and you can use a second for a trip into the valley."
     },
     {
       id: "arenal",
-      ime: "Arenal i La Fortuna",
+      ime: "Arenal and La Fortuna",
       vrsta: "priroda",
-      sazetak: "Gotovo savršen vulkanski stožac iznad gradića, s toplim rijekama, visećim mostovima i slapom u prašumi.",
+      sazetak: "An almost perfect volcanic cone above a small town, with warm rivers, hanging bridges and a waterfall in the rainforest.",
       prica: [
-        "Arenal je stoljećima mirovao i mještani su ga smatrali običnim brdom, sve do jutra 29. srpnja 1968., kada je eksplodirao, uništio sela Tabacón i Pueblo Nuevo i usmrtio 87 ljudi. Nakon toga je više od četrdeset godina gotovo svake noći izbacivao lavu, pa je postao najpoznatiji prizor u zemlji.",
-        "Od 2010. vulkan miruje, ali i dalje zagrijava podzemne vode koje izbijaju kao tople rijeke. Gradić La Fortuna pod njim, koji je erupcija poštedjela, pretvorio se od stočarskoga sela u središte izleta u prirodu."
+        "Arenal lay dormant for centuries and the locals thought of it as an ordinary hill, until the morning of July 29, 1968, when it exploded, destroyed the villages of Tabacón and Pueblo Nuevo and killed 87 people. After that it threw out lava almost every night for more than forty years, which made it the most famous sight in the country.",
+        "The volcano has been quiet since 2010, but it still heats the groundwater that surfaces as warm rivers. The small town of La Fortuna below it, which the eruption spared, has turned from a cattle-ranching village into a hub for nature excursions."
       ],
       vidjeti: [
-        { ime: "Nacionalni park Arenal", opis: "Staze vode preko skrutnutih tokova lave iz 1968. i 1992. do vidikovaca na vulkan i jezero. Na crnom kamenju već rastu orhideje i mlada šuma, pa se vidi kako priroda osvaja opustošeno tlo. Na sam vrh penjanje je zabranjeno." },
-        { ime: "Slap La Fortuna", opis: "Voda pada sedamdesetak metara u zeleno jezerce na dnu klanca. Do njega se silazi po otprilike petsto stuba, a ispod slapa, malo nizvodno, može se kupati u hladnoj rijeci." },
-        { ime: "Viseći mostovi Místico", opis: "Staza od tri kilometra prelazi preko šesnaest mostova, od kojih neki vise u visini krošanja. Odatle se šuma vidi onako kako je vide ptice i majmuni, a s vodičem ćete uočiti zmije i žabe koje biste same sigurno previdjele." },
-        { ime: "Jezero Arenal", opis: "Najveće jezero u zemlji povećano je 1979. branom, pri čemu su potopljena dva sela, i daje znatan dio kostarikanske struje. Cesta oko njega jedna je od najljepših vožnji u zemlji, a na zapadnoj strani pušu stalni vjetrovi pa se ondje jedri na dasci." },
-        { ime: "Río Celeste", opis: "U parku Tenorio, sat i pol od La Fortune, rijeka je nebeskoplave boje. Legenda kaže da je Bog u njoj prao kistove nakon bojenja neba. Znanstvenici su utvrdili da boja nastaje na mjestu gdje se spajaju dva bistra potoka, jer se ondje stvaraju sitne mineralne čestice koje raspršuju svjetlost." }
+        { ime: "Arenal Volcano National Park", opis: "Trails lead across the hardened lava flows of 1968 and 1992 to viewpoints over the volcano and the lake. Orchids and young forest are already growing on the black rock, so you can see how nature reclaims devastated ground. Climbing to the summit itself is prohibited." },
+        { ime: "La Fortuna Waterfall", opis: "The water drops some seventy meters into a green pool at the bottom of a gorge. You go down to it by about five hundred steps, and below the falls, a little way downstream, you can swim in the cold river." },
+        { ime: "Místico Hanging Bridges", opis: "A three-kilometer trail crosses sixteen bridges, some of them suspended at the height of the canopy. From there you see the forest the way birds and monkeys see it, and with a guide you will spot snakes and frogs that you would certainly have missed on your own." },
+        { ime: "Lake Arenal", opis: "The largest lake in the country was enlarged by a dam in 1979, flooding two villages in the process, and it supplies a considerable share of Costa Rica's electricity. The road around it is one of the most beautiful drives in the country, and steady winds blow on the western side, so that is where people go windsurfing." },
+        { ime: "Río Celeste", opis: "In Tenorio park, an hour and a half from La Fortuna, the river is sky blue. Legend says God washed his brushes in it after painting the sky. Scientists have established that the color appears at the point where two clear streams meet, because tiny mineral particles that scatter the light form there." }
       ],
       jesti: [
-        { ime: "Casado u sodi", opis: "U La Fortuni je nekoliko soda u kojima jedu vodiči i vozači, s domaćim sokovima od voća cas i guanábana." },
-        { ime: "Tilapija iz jezera", opis: "Cijela pržena riba s patakonima, pločicama od zgnječene pržene zelene banane, poslužuje se u restoranima uz cestu oko jezera." },
-        { ime: "Čokolada od zrna", opis: "Na imanjima u okolici kakao se bere, fermentira i melje pred gostima, a kuša se i kao topli napitak s čilijem, kako su ga pili stari narodi." }
+        { ime: "Casado at a soda", opis: "La Fortuna has several sodas where the guides and drivers eat, with homemade juices from the fruits cas and guanábana." },
+        { ime: "Tilapia from the lake", opis: "A whole fried fish with patacones, discs of smashed and fried green plantain, is served in the roadside restaurants around the lake." },
+        { ime: "Bean-to-bar chocolate", opis: "On farms in the area cacao is harvested, fermented and ground in front of guests, and you also taste it as a hot drink with chili, the way the ancient peoples drank it." }
       ],
       dozivjeti: [
-        { ime: "Kupanje u toploj rijeci", opis: "Vulkanom zagrijana rijeka Tabacón puni bazene nekoliko uređenih termalnih kupališta, a nizvodno od mosta kraj istoimenoga resorta postoji i besplatno mjesto na kojem se kupaju domaći. Najljepše je navečer, nakon dana hodanja." },
-        { ime: "Obilazak kakaa i kave", opis: "Don Juan Tours na imanju kraj La Fortune pokazuje uzgoj kave, kakaa i šećerne trske, uz mljevenje trske na preši koju pokreću gosti.", link: "https://donjuantours.com/" },
-        { ime: "Šetnja u potrazi za ljenivcima", opis: "Na rubu gradića lokalni vodiči s teleskopom na stalku vode po privatnim šumarcima u kojima žive dvoprsti i troprsti ljenivci, tukani i otrovne žabice." }
+        { ime: "Bathing in a warm river", opis: "The volcano-heated Tabacón River fills the pools of several developed hot spring resorts, and downstream from the bridge near the resort of the same name there is also a free spot where the locals bathe. It is at its loveliest in the evening, after a day of walking." },
+        { ime: "A cacao and coffee tour", opis: "Don Juan Tours, on a farm near La Fortuna, shows how coffee, cacao and sugarcane are grown, and guests get to crush the cane on a press they turn themselves.", link: "https://donjuantours.com/" },
+        { ime: "A walk in search of sloths", opis: "On the edge of town local guides with a telescope on a tripod lead walks through private groves that are home to two-toed and three-toed sloths, toucans and poison dart frogs." }
       ],
       agencije: [
-        { ime: "Visit Costa Rica", opis: "Službena turistička stranica zemlje s opisom područja Arenal.", link: "https://www.visitcostarica.com/" },
-        { ime: "Arenal.net", opis: "Lokalni vodič kroz La Fortunu s popisom izleta i praktičnim savjetima.", link: "https://www.arenal.net/" },
-        { ime: "SINAC", opis: "Državna uprava zaštićenih područja, nadležna za nacionalne parkove Arenal i Tenorio.", link: "https://www.sinac.go.cr/" }
+        { ime: "Visit Costa Rica", opis: "The country's official tourism website, with a description of the Arenal area.", link: "https://www.visitcostarica.com/" },
+        { ime: "Arenal.net", opis: "A local guide to La Fortuna, with a list of excursions and practical tips.", link: "https://www.arenal.net/" },
+        { ime: "SINAC", opis: "The national authority for protected areas, responsible for the Arenal and Tenorio national parks.", link: "https://www.sinac.go.cr/" }
       ],
-      kada: "Vrh vulkana često je u oblacima, a najviše izgleda da ga vidite imate rano ujutro od veljače do travnja. Ostanite barem tri noći, pa ćete gotovo sigurno uhvatiti jedno vedro jutro."
+      kada: "The top of the volcano is often in cloud, and your best chance of seeing it is early in the morning from February to April. Stay at least three nights and you will almost certainly catch one clear morning."
     },
     {
       id: "monteverde",
       ime: "Monteverde",
       vrsta: "priroda",
-      sazetak: "Maglena šuma na razvodnici dvaju oceana, u kojoj mahovina visi s grana, a u krošnjama se gnijezdi kvecal.",
+      sazetak: "A cloud forest on the divide between two oceans, where moss hangs from the branches and the quetzal nests in the canopy.",
       prica: [
-        "Monteverde su 1951. osnovali kvekeri iz Alabame u SAD-u, pacifisti koji nisu htjeli služiti vojsku pa su odabrali zemlju koja ju je upravo ukinula. Počeli su proizvoditi sir, a šumu na vrhu planine ostavili su netaknutom da im čuva izvore vode.",
-        "Tu je šumu 1972. kupio i pretvorio u rezervat biolog George Powell zajedno s kvekerom Wolfom Guindonom. Maglena šuma razlikuje se od kišne po tome što vlagu dobiva iz oblaka koji se vuku kroz krošnje, pa je svaka grana obrasla mahovinom, papratima i orhidejama."
+        "Monteverde was founded in 1951 by Quakers from Alabama in the USA, pacifists who refused to serve in the military and so chose a country that had just abolished its army. They began making cheese and left the forest at the top of the mountain untouched to protect their water sources.",
+        "In 1972 the biologist George Powell, together with the Quaker Wolf Guindon, bought that forest and turned it into a reserve. A cloud forest differs from a rainforest in that it gets its moisture from the clouds drifting through the canopy, so every branch is overgrown with moss, ferns and orchids."
       ],
       vidjeti: [
-        { ime: "Reserva Biológica Bosque Nuboso Monteverde", opis: "U izvornom rezervatu staze vode do vidikovca na razvodnici, odakle se za vedra dana vide obje strane zemlje. Broj posjetitelja je ograničen, a vodič s teleskopom gotovo je nužan jer se životinje u gustoj šumi teško uočavaju. Kod ulaza je vrt s hranilicama oko kojih zuji desetak vrsta kolibrića." },
-        { ime: "Kvecal", opis: "Ptica smaragdnozelenoga perja i crvenih prsa bila je sveta Majama i Astecima, a repna pera mužjaka duga su i do metar. Najlakše ju je vidjeti od ožujka do srpnja, kad se gnijezdi i hrani plodovima divljega avokada." },
-        { ime: "Reserva Santa Elena", opis: "Ovim manjim i višim rezervatom upravlja mjesna srednja škola, a prihod ide u obrazovanje. Šuma je ovdje još vlažnija i mirnija, a s tornja se u daljini katkad vidi vulkan Arenal." },
-        { ime: "Bosque Eterno de los Niños", opis: "Najveći privatni rezervat u zemlji nastao je 1987., kada su švedski školarci počeli skupljati novac da otkupe komad prašume. Pridružila su im se djeca iz četrdesetak zemalja, pa se zove Vječna dječja šuma." },
-        { ime: "Viseći mostovi", opis: "Nekoliko privatnih parkova ima mostove razapete u visini krošanja. Upravo se u Monteverdeu devedesetih godina 20. stoljeća razvilo i spuštanje čeličnim užetom kroz krošnje, koje se odavde proširilo svijetom." }
+        { ime: "Reserva Biológica Bosque Nuboso Monteverde", opis: "In the original reserve, trails lead to a viewpoint on the continental divide, from where you can see both sides of the country on a clear day. Visitor numbers are limited, and a guide with a telescope is close to essential, because animals are hard to spot in the dense forest. By the entrance is a garden with feeders where about ten species of hummingbird buzz around." },
+        { ime: "The quetzal", opis: "This bird with emerald green plumage and a red breast was sacred to the Maya and the Aztecs, and the male's tail feathers can be up to a meter long. It is easiest to see from March to July, when it nests and feeds on the fruit of the wild avocado." },
+        { ime: "Reserva Santa Elena", opis: "This smaller and higher reserve is run by the local high school, and the income goes to education. The forest here is even wetter and quieter, and from the tower you can sometimes see Arenal Volcano in the distance." },
+        { ime: "Bosque Eterno de los Niños", opis: "The largest private reserve in the country came into being in 1987, when Swedish schoolchildren began collecting money to buy a piece of rainforest. Children from about forty countries joined them, which is why it is called the Children's Eternal Rainforest." },
+        { ime: "Hanging bridges", opis: "Several private parks have bridges strung at canopy height. It was also in Monteverde, in the 1990s, that ziplining through the treetops was developed, and from here it spread around the world." }
       ],
       jesti: [
-        { ime: "Sir iz Monteverdea", opis: "Kvekerska sirana iz pedesetih godina 20. stoljeća i danas proizvodi sireve i sladoled, koji se prodaju u trgovini u mjestu." },
-        { ime: "Kava malih zadruga", opis: "Na padinama ispod šume kavu uzgajaju obiteljska gospodarstva, a kuša se u kavanama u Santa Eleni." },
-        { ime: "Domaći ručak u sodi", opis: "U Santa Eleni sode nude casado s pastrvom iz planinskih ribnjaka, što je ugodna promjena nakon obale." }
+        { ime: "Monteverde cheese", opis: "The Quaker cheese factory from the 1950s still produces cheeses and ice cream today, which are sold at the shop in town." },
+        { ime: "Coffee from small cooperatives", opis: "On the slopes below the forest coffee is grown by family farms, and you can taste it in the coffee shops of Santa Elena." },
+        { ime: "A home-style lunch at a soda", opis: "In Santa Elena the sodas offer casado with trout from the mountain ponds, a welcome change after the coast." }
       ],
       dozivjeti: [
-        { ime: "Jutarnja šetnja s vodičem", opis: "Dođite na otvaranje rezervata, dok su ptice najglasnije. Vodiči znaju gdje se toga tjedna hrani kvecal i kroz teleskop će vam pomoći da ga snimite i mobitelom.", link: "https://cloudforestmonteverde.com/" },
-        { ime: "Noćna šetnja", opis: "Većina životinja u šumi budi se u sumrak. Sa svjetiljkom se traže crvenooke žabe, kukci nalik grančici, usnuli tukani i kinkajui, pa je to posve drukčija šuma od dnevne." },
-        { ime: "Kava, kakao i šećerna trska", opis: "Na imanju Don Juan u Monteverdeu u dva se sata prođe put triju kultura, uz vožnju volovskim kolima i kušanje.", link: "https://donjuantours.com/" }
+        { ime: "A morning walk with a guide", opis: "Come when the reserve opens, while the birds are at their loudest. The guides know where the quetzal is feeding that week and will help you photograph it through the telescope, even with a phone.", link: "https://cloudforestmonteverde.com/" },
+        { ime: "A night walk", opis: "Most of the forest's animals wake at dusk. By flashlight you look for red-eyed tree frogs, stick insects, sleeping toucans and kinkajous, and it is an entirely different forest from the daytime one." },
+        { ime: "Coffee, cacao and sugarcane", opis: "On the Don Juan farm in Monteverde you follow the story of three crops in two hours, with an oxcart ride and tastings.", link: "https://donjuantours.com/" }
       ],
       agencije: [
-        { ime: "Monteverde Cloud Forest Preserve", opis: "Službena stranica rezervata s rezervacijom ulaznica i vodiča.", link: "https://cloudforestmonteverde.com/" },
-        { ime: "Monteverde Info", opis: "Lokalni informativni portal s kartama, smještajem i izletima.", link: "https://www.monteverdeinfo.com/" }
+        { ime: "Monteverde Cloud Forest Preserve", opis: "The reserve's official website, with ticket and guide reservations.", link: "https://cloudforestmonteverde.com/" },
+        { ime: "Monteverde Info", opis: "A local information portal with maps, accommodation and excursions.", link: "https://www.monteverdeinfo.com/" }
       ],
-      kada: "Najsuše je od siječnja do travnja, ali tada puše jak vjetar. Ponesite jaknu i dugu odjeću, jer je na 1500 metara hladnije nego što od tropa očekujete."
+      kada: "It is driest from January to April, but a strong wind blows then. Bring a jacket and long clothes, because at 1,500 meters it is colder than you expect from the tropics."
     },
     {
       id: "manuel-antonio",
       ime: "Manuel Antonio",
       vrsta: "priroda",
-      sazetak: "Mali nacionalni park u kojem prašuma s majmunima i ljenivcima izlazi ravno na bijele pacifičke plaže.",
+      sazetak: "A small national park where rainforest with monkeys and sloths opens straight onto white Pacific beaches.",
       prica: [
-        "Ovaj kraj nastanjivao je narod Quepoa, po kojem se zove obližnji gradić Quepos. U 20. stoljeću ovdje su bile plantaže banana, a zatim uljne palme, koje ćete vidjeti uz cestu. Kada su krajem šezdesetih godina strani vlasnici ogradili plaže, mještani su se pobunili i izborili da se zemljište otkupi.",
-        "Tako je 1972. nastao nacionalni park, jedan od najmanjih u zemlji, ali i najposjećeniji. Na malom prostoru stane nevjerojatno mnogo: tri vrste majmuna, dvije vrste ljenivaca, iguane, tukani i četiri plaže."
+        "This area was inhabited by the Quepoa people, after whom the nearby town of Quepos is named. In the 20th century there were banana plantations here, followed by oil palms, which you will see along the road. When foreign owners fenced off the beaches in the late 1960s, the locals rebelled and won the fight to have the land bought back.",
+        "That is how the national park came into being in 1972, one of the smallest in the country and also the most visited. An incredible amount fits into a small space: three species of monkey, two species of sloth, iguanas, toucans and four beaches."
       ],
       vidjeti: [
-        { ime: "Punta Catedral", opis: "Šumoviti rt nekoć je bio otok, a more je s vremenom nanijelo pješčani sprud koji ga je spojio s kopnom. Takav se oblik zove tombolo, i s obje njegove strane danas je po jedna plaža. Staza oko rta vodi do vidikovaca nad stjenovitim otočićima." },
-        { ime: "Playa Manuel Antonio", opis: "Na zapadnom kraju plaže za oseke se u stijenama vide polukružne kamene pregrade. To su zamke za kornjače i ribe koje su prije više stotina godina složili starosjedioci: životinje bi ušle s plimom i ostale zarobljene kad se more povuče." },
-        { ime: "Majmuni vjeverice", opis: "Mali narančasti mono tití živi samo na ovom dijelu pacifičke obale i ugrožen je. Kreće se u čoporima od nekoliko desetaka, pa ćete ga prije čuti nego vidjeti. Kapucini bijeloga lica mnogo su drskiji i znaju otvoriti ruksak." },
-        { ime: "Ljenivci", opis: "U parku žive i dvoprsti i troprsti ljenivci, koji s drveta silaze otprilike jednom tjedno. Bez vodiča s teleskopom izgledaju kao klupko lišća visoko u krošnji, pa se vođenje ovdje doista isplati." },
-        { ime: "Mangrove otoka Damas", opis: "Nekoliko kilometara sjeverno od Queposa čamcem ili kajakom plovi se kroz kanale među mangrovama, gdje žive kajmani, čaplje i mali mravojedi koji spavaju sklupčani na granama." }
+        { ime: "Punta Catedral", opis: "The forested headland was once an island, and over time the sea built up a sandbar that joined it to the mainland. Such a formation is called a tombolo, and today there is a beach on each side of it. The trail around the headland leads to viewpoints above rocky islets." },
+        { ime: "Playa Manuel Antonio", opis: "At the western end of the beach, semicircular stone barriers become visible among the rocks at low tide. These are traps for turtles and fish built hundreds of years ago by the indigenous people: the animals came in with the high tide and were left trapped when the sea withdrew." },
+        { ime: "Squirrel monkeys", opis: "The small orange mono tití lives only on this stretch of the Pacific coast and is endangered. It travels in troops of several dozen, so you will hear it before you see it. The white-faced capuchins are far bolder and know how to open a backpack." },
+        { ime: "Sloths", opis: "Both two-toed and three-toed sloths live in the park, and they come down from the trees about once a week. Without a guide and a telescope they look like a ball of leaves high in the canopy, so a guided walk really pays off here." },
+        { ime: "The mangroves of Isla Damas", opis: "A few kilometers north of Quepos you travel by boat or kayak through channels among the mangroves, home to caimans, herons and small anteaters that sleep curled up on the branches." }
       ],
       jesti: [
-        { ime: "Svježa riba", opis: "Quepos je ribarska luka, pa se dorado i crveni šnjur poslužuju cijeli pečeni ili u cevicheu, u jednostavnim restoranima uz rivu." },
-        { ime: "Pipa fría", opis: "Ohlađeni mladi kokos kojem prodavač mačetom odsiječe vrh, najbolje osvježenje nakon šetnje parkom." },
-        { ime: "Batidos", opis: "Gusti napitci od svježega voća s vodom ili mlijekom, od manga, papaje ili kiselkaste guanábane." }
+        { ime: "Fresh fish", opis: "Quepos is a fishing port, so mahi-mahi and red snapper are served grilled whole or in ceviche in the simple restaurants along the waterfront." },
+        { ime: "Pipa fría", opis: "A chilled young coconut whose top the vendor lops off with a machete is the best refreshment after a walk through the park." },
+        { ime: "Batidos", opis: "Thick drinks of fresh fruit blended with water or milk, made from mango, papaya or the tangy guanábana." }
       ],
       dozivjeti: [
-        { ime: "Park na otvaranju, s vodičem", opis: "Ulaznice se kupuju isključivo unaprijed, putem interneta, za određeni termin, a dnevni je broj posjetitelja ograničen. Uzmite licenciranoga vodiča za prva dva sata, pa ostanite na plaži. Hranu u park ne smijete unositi.", link: "https://serviciosenlinea.sinac.go.cr/" },
-        { ime: "Zalazak sunca s brda", opis: "Cesta između Queposa i parka ide grebenom iznad mora, a s terasa uz nju gleda se kako sunce tone u Pacifik dok u krošnjama prolaze majmuni." },
-        { ime: "Kitovi kod Uvite", opis: "Sat vožnje na jug, u morskom parku Ballena, grbavi kitovi dolaze dvaput godišnje, s juga od srpnja do listopada i sa sjevera od prosinca do travnja. Ondje je i pješčani sprud u obliku kitova repa." }
+        { ime: "The park at opening time, with a guide", opis: "Tickets are sold only in advance, online, for a specific time slot, and the daily number of visitors is limited. Hire a licensed guide for the first two hours, then stay on the beach. You may not bring food into the park.", link: "https://serviciosenlinea.sinac.go.cr/" },
+        { ime: "Sunset from the hill", opis: "The road between Quepos and the park runs along a ridge above the sea, and from the terraces beside it you watch the sun sink into the Pacific while monkeys pass through the treetops." },
+        { ime: "Whales off Uvita", opis: "An hour's drive south, in Ballena Marine Park, humpback whales arrive twice a year, from the south from July to October and from the north from December to April. There is also a sandbar there in the shape of a whale's tail." }
       ],
       agencije: [
-        { ime: "SINAC, prodaja ulaznica", opis: "Službeni sustav državne uprave parkova za kupnju ulaznica u nacionalne parkove.", link: "https://serviciosenlinea.sinac.go.cr/" },
-        { ime: "Visit Costa Rica", opis: "Službena turistička stranica zemlje s opisom srednje pacifičke obale.", link: "https://www.visitcostarica.com/" }
+        { ime: "SINAC, ticket sales", opis: "The official system of the national parks authority for buying national park tickets.", link: "https://serviciosenlinea.sinac.go.cr/" },
+        { ime: "Visit Costa Rica", opis: "The country's official tourism website, with a description of the central Pacific coast.", link: "https://www.visitcostarica.com/" }
       ],
-      kada: "Suho je od prosinca do travnja, kad su i najveće gužve. Park je jedan dan u tjednu zatvoren, po tradiciji utorkom, pa to provjerite pri kupnji ulaznice."
+      kada: "It is dry from December to April, which is also when the crowds are biggest. The park is closed one day a week, traditionally on Tuesdays, so check when you buy your ticket."
     },
     {
       id: "tortuguero",
       ime: "Tortuguero",
       vrsta: "priroda",
-      sazetak: "Selo bez cesta među kanalima i prašumom, na plaži na koju noću izlaze tisuće morskih kornjača.",
+      sazetak: "A village without roads among canals and rainforest, on a beach where thousands of sea turtles come ashore at night.",
       prica: [
-        "Do Tortuguera na sjevernoj karipskoj obali ne vodi nijedna cesta, pa se dolazi čamcem kroz kanale ili malim zrakoplovom. Selo su osnovali ribari i drvosječe afrokaripskoga i nikaragvanskoga podrijetla, a živjelo je od lova na kornjače i njihovih jaja.",
-        "Američki biolog Archie Carr počeo je ovdje pedesetih godina 20. stoljeća proučavati zelene kornjače i upozorio da nestaju. Iz njegova je rada 1959. nastala najstarija svjetska organizacija za zaštitu morskih kornjača, a 1975. i nacionalni park. Danas nekadašnji lovci rade kao vodiči."
+        "No road leads to Tortuguero on the northern Caribbean coast, so you arrive by boat through the canals or by small plane. The village was founded by fishermen and loggers of Afro-Caribbean and Nicaraguan descent, and it lived off hunting turtles and gathering their eggs.",
+        "The biologist Archie Carr from the USA began studying green turtles here in the 1950s and warned that they were disappearing. His work gave rise in 1959 to the world's oldest sea turtle conservation organization, and in 1975 to the national park. Today the former hunters work as guides."
       ],
       vidjeti: [
-        { ime: "Kanali nacionalnoga parka", opis: "Mreža prirodnih rukavaca i kanala prokopanih za prijevoz drva danas je jedina cesta. Uz obale se vide kajmani, riječne kornjače, tri vrste majmuna i bazilisk, gušter koji zbog brzine može pretrčati preko vode i zato ga zovu Isusov gušter." },
-        { ime: "Plaža gniježđenja", opis: "Na tridesetak kilometara crnoga pijeska gnijezdi se najveća populacija zelenih kornjača na zapadnoj polutki. Ženka se vraća na plažu na kojoj se sama izlegla, iskopa jamu stražnjim perajama i položi stotinjak jaja." },
-        { ime: "Centar Sea Turtle Conservancy", opis: "U malom posjetiteljskom centru na rubu sela film i izlošci objašnjavaju život kornjača i povijest Carrova istraživanja. Ovdje ćete doznati i kako se kornjače označavaju i prate satelitom." },
-        { ime: "Cerro Tortuguero", opis: "Jedino brdo u cijelom kraju, ostatak staroga vulkana, visoko je tek stotinjak metara. Uređenim stubama dolazi se do vidikovca s kojega se vidi kako uska traka kopna dijeli lagunu od mora." },
-        { ime: "Selo Tortuguero", opis: "U selu nema automobila, samo pješčana staza između kanala i mora, uz koju su šarene drvene kuće, škola i nekoliko zalogajnica. Kraj pristaništa stoje zahrđali strojevi stare pilane, podsjetnik na vrijeme sječe." }
+        { ime: "The canals of the national park", opis: "A network of natural backwaters and of canals dug for hauling timber is the only road today. Along the banks you see caimans, river turtles, three species of monkey and the basilisk, a lizard so fast that it can run across water, which is why it is called the Jesus Christ lizard." },
+        { ime: "The nesting beach", opis: "The largest population of green turtles in the Western Hemisphere nests on some thirty kilometers of black sand. The female returns to the beach where she herself hatched, digs a pit with her rear flippers and lays about a hundred eggs." },
+        { ime: "Sea Turtle Conservancy center", opis: "In the small visitor center on the edge of the village, a film and exhibits explain the life of the turtles and the history of Carr's research. Here you will also learn how the turtles are tagged and tracked by satellite." },
+        { ime: "Cerro Tortuguero", opis: "The only hill in the whole area, the remnant of an old volcano, is only about a hundred meters high. A built staircase takes you to a viewpoint from which you can see how a narrow strip of land separates the lagoon from the sea." },
+        { ime: "Tortuguero village", opis: "There are no cars in the village, only a sandy path between the canal and the sea, lined with colorful wooden houses, a school and a few eateries. By the dock stand the rusted machines of the old sawmill, a reminder of the logging days." }
       ],
       jesti: [
-        { ime: "Rice and beans", opis: "Riža i grah u kokosovu mlijeku s karipskom piletinom u umaku, glavno jelo svake seoske zalogajnice." },
-        { ime: "Rondón", opis: "Gusta juha od ribe, korjenastoga povrća i zelenih banana kuhana u kokosovu mlijeku. Ime dolazi od engleskoga run down, od onoga što je kuhar toga dana uspio pronaći." },
-        { ime: "Patí i pan bon", opis: "Ljuta pržena lisnata peciva s mesom i taman, slatki kruh s voćem i začinima, oboje naslijeđe jamajčanskih doseljenika." }
+        { ime: "Rice and beans", opis: "Rice and beans in coconut milk with Caribbean chicken in sauce, the main dish at every eatery in the village." },
+        { ime: "Rondón", opis: "A thick soup of fish, root vegetables and green bananas cooked in coconut milk. The name comes from the English run down, meaning whatever the cook managed to run down that day." },
+        { ime: "Patí and pan bon", opis: "Spicy fried turnovers filled with meat, and a dark, sweet bread with fruit and spices, both a legacy of the Jamaican settlers." }
       ],
       dozivjeti: [
-        { ime: "Kanuom u zoru", opis: "Najviše životinja vidi se u prvom satu dana, iz kanua na vesla ili čamca s tihim električnim motorom, koji smije ući u uže rukavce. Vodiči iz sela znaju gdje spavaju ljenivci i gdje se sunča kajman." },
-        { ime: "Noćni odlazak na plažu s kornjačama", opis: "U sezoni se na plažu ide samo s licenciranim vodičem, u maloj skupini, bez svjetiljki i fotoaparata. Promatrači javljaju gdje je kornjača izašla, pa joj se prilazi tek kad počne polagati jaja." },
-        { ime: "Šetnja stazom kroz park", opis: "Iza sela vodi ravna staza kroz poplavnu šumu paralelno s plažom. Ponesite ili unajmite gumene čizme, jer je često blatna." }
+        { ime: "By canoe at dawn", opis: "You see the most animals in the first hour of the day, from a paddle canoe or a boat with a quiet electric motor, which is allowed into the narrower channels. The village guides know where the sloths sleep and where the caiman suns itself." },
+        { ime: "A night visit to the turtle beach", opis: "In season you may go onto the beach only with a licensed guide, in a small group, without flashlights or cameras. Spotters report where a turtle has come ashore, and she is approached only once she has begun laying her eggs." },
+        { ime: "A walk on the park trail", opis: "Behind the village a flat trail runs through flooded forest parallel to the beach. Bring or rent rubber boots, because it is often muddy." }
       ],
       agencije: [
-        { ime: "Sea Turtle Conservancy", opis: "Organizacija koja od 1959. istražuje i štiti kornjače u Tortugueru i vodi posjetiteljski centar.", link: "https://conserveturtles.org/" },
-        { ime: "Tortuguero Info", opis: "Lokalni portal s podacima o prijevozu čamcem, smještaju i vodičima.", link: "https://www.tortugueroinfo.com/" }
+        { ime: "Sea Turtle Conservancy", opis: "The organization that has studied and protected the turtles of Tortuguero since 1959 and runs the visitor center.", link: "https://conserveturtles.org/" },
+        { ime: "Tortuguero Info", opis: "A local portal with details on boat transportation, accommodation and guides.", link: "https://www.tortugueroinfo.com/" }
       ],
-      kada: "Zelene kornjače gnijezde se od srpnja do listopada, a goleme sedmopruge usminjače od ožujka do svibnja. Kiša ovdje pada cijele godine, pa je kabanica važnija od kupaćega kostima."
+      kada: "Green turtles nest from July to October, and the giant leatherbacks from March to May. It rains here all year round, so a rain jacket matters more than a swimsuit."
     }
   ],
   izvori: [
@@ -224,7 +224,7 @@ window.ATLAS["kostarika"] = {
     { ime: "Teatro Nacional de Costa Rica", url: "https://www.teatronacional.go.cr/" },
     { ime: "Monteverde Cloud Forest Preserve", url: "https://cloudforestmonteverde.com/" },
     { ime: "Sea Turtle Conservancy", url: "https://conserveturtles.org/" },
-    { ime: "UNESCO: Pretkolumbovska naselja s kamenim kuglama Diquísa", url: "https://whc.unesco.org/en/list/1438" },
+    { ime: "UNESCO: Precolumbian Chiefdom Settlements with Stone Spheres of the Diquís", url: "https://whc.unesco.org/en/list/1438" },
     { ime: "Área de Conservación Guanacaste", url: "https://www.acguanacaste.ac.cr/" }
   ]
 };

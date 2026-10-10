@@ -1,255 +1,255 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["sri-lanka"] = {
   id: "sri-lanka",
-  ime: "Šri Lanka",
-  regija: "Južna i Srednja Azija",
-  sazetak: "Otok veličine Irske na kojem su u nekoliko sati vožnje drevni budistički gradovi, plantaže čaja u oblacima, slonovi i plaže s palmama.",
+  ime: "Sri Lanka",
+  regija: "South and Central Asia",
+  sazetak: "An island the size of Ireland where ancient Buddhist cities, tea plantations in the clouds, elephants and palm-fringed beaches lie within a few hours' drive of one another.",
   uvod: [
-    "Šri Lanka je otok u obliku suze pred južnim vrhom Indije, koji su stari trgovci zvali Taprobana i Serendib, a Europljani sve do 1972. godine Cejlon. Budizam je ovamo stigao u 3. stoljeću prije Krista i otada oblikuje život većinskih Singalaca, dok na sjeveru i istoku žive pretežno hinduistički Tamili, a uz obalu muslimanske i kršćanske zajednice.",
-    "Zbog cimeta, dragog kamenja i položaja na pomorskim putovima otokom su redom vladali Portugalci od 1505., Nizozemci od sredine 17. stoljeća i Britanci, koji su 1815. osvojili i posljednje kraljevstvo u Kandyju. Neovisnost je stekla 1948. godine, a dugi građanski rat završio je 2009. Danas je to gostoljubiva i za putovanje vrlo zahvalna zemlja, jer je sve blizu, a krajolik se mijenja iz sata u sat."
+    "Sri Lanka is a teardrop-shaped island off the southern tip of India, which ancient traders called Taprobane and Serendib and which Europeans knew as Ceylon right up to 1972. Buddhism arrived here in the 3rd century BC and has shaped the life of the Sinhalese majority ever since, while the north and east are home mostly to Hindu Tamils, and Muslim and Christian communities live along the coast.",
+    "Because of its cinnamon, its gemstones and its position on the sea routes, the island was ruled in turn by the Portuguese from 1505, the Dutch from the middle of the 17th century and the British, who in 1815 conquered the last kingdom as well, in Kandy. It gained independence in 1948, and a long civil war ended in 2009. Today it is a hospitable country and a very rewarding one to travel in, because everything is close together and the landscape changes from hour to hour."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od prosinca do ožujka za zapadnu i južnu obalu te gorje, a od svibnja do rujna za istočnu obalu. Drevni gradovi u unutrašnjosti mogu se obilaziti gotovo cijele godine." },
-    { k: "Valuta", v: "Šrilanška rupija (LKR). Bankomata ima u svim gradovima, a gotovina je potrebna za tuk-tuk, tržnice i male restorane." },
-    { k: "Kretanje", v: "Vlak kroz gorje od Kandyja do Elle jedna je od najljepših pruga na svijetu, a mjesta s rezervacijom brzo se rasprodaju. Između gradova najudobnije je unajmiti auto s vozačem, a na kraće relacije vozi se tuk-tukom." },
-    { k: "Napojnica", v: "U restoranima se često naplaćuje deset posto za uslugu, a ako nije uračunato, toliko se i ostavlja. Vozačima i vodičima daje se napojnica na kraju puta." }
+    { k: "When to go", v: "From December to March for the west and south coasts and the hill country, and from May to September for the east coast. The ancient cities of the interior can be visited almost all year round." },
+    { k: "Currency", v: "Sri Lankan rupee (LKR). There are ATMs in every town, and you need cash for tuk-tuks, markets and small restaurants." },
+    { k: "Getting around", v: "The train through the hill country from Kandy to Ella is one of the most beautiful railway lines in the world, and reserved seats sell out quickly. Between towns the most comfortable option is to hire a car with a driver, and for shorter distances you take a tuk-tuk." },
+    { k: "Tipping", v: "Restaurants often charge ten percent for service, and if it is not included, that is the amount to leave. Drivers and guides are tipped at the end of the trip." }
   ],
   hrana: [
-    { ime: "Riža i curry", opis: "Brdo riže okruženo s pet ili više malih jela: lećom, povrćem, ribom ili piletinom i ljutim prilozima.", prica: "To je svakodnevni ručak cijele zemlje, a naziv vara jer je riža samo podloga za mnoštvo okusa. Kokosovo mlijeko i listovi curryja daju jelima blagost, a čili ljutinu na koju vas ljubazno upozore." },
-    { ime: "Hoppers (appa)", opis: "Hrskave zdjelaste palačinke od fermentiranog rižina brašna i kokosova mlijeka, često s jajetom pečenim u sredini.", prica: "Peku se u malim zaobljenim tavama i jedu za doručak ili večeru s ljutim sambolom. Postoje i string hoppers, gnijezda od tankih rižinih rezanaca kuhanih na pari." },
-    { ime: "Kottu roti", opis: "Nasjeckani tanki kruh pržen na vrućoj ploči s povrćem, jajem i mesom.", prica: "Najpoznatija je ulična hrana otoka i čuje se prije nego što se vidi, jer kuhar kruh sjecka dvjema metalnim lopaticama u ritmu koji odzvanja cijelom ulicom. Nastao je kao način da se iskoristi kruh od jučer." },
-    { ime: "Pol sambol", opis: "Svježe naribani kokos izmiješan s čilijem, crvenim lukom, limetom i sušenom ribom.", prica: "Stoji na stolu uz gotovo svaki obrok i jede se s kruhom, hoppersima i rižom. Jednostavan je, a ipak je za mnoge okus koji najviše pamte s otoka." },
-    { ime: "Lamprais", opis: "Riža kuhana u temeljcu s nekoliko vrsta mesa i priloga, umotana u list banane i pečena.", prica: "Naslijeđe je Burghera, potomaka nizozemskih i portugalskih doseljenika, a ime dolazi od nizozemskog izraza za grumen riže. Tradicionalno je nedjeljni obiteljski ručak." },
-    { ime: "Kiribath", opis: "Riža kuhana u kokosovu mlijeku i izrezana na rombove.", prica: "Jede se u svečanim prilikama, prije svega kao prvi obrok singalske i tamilske Nove godine u travnju, kada se vatra pali u točno određenom trenutku. Uz nju ide ljuti lunu miris ili slatki sirup palme kitul." },
-    { ime: "Cejlonski čaj", opis: "Crni čaj s gorskih plantaža, koji se pije s mlijekom ili bez njega.", prica: "Otok je do šezdesetih godina 19. stoljeća uzgajao kavu, a kada ju je uništila biljna bolest, Škot James Taylor zasadio je 1867. prvu plantažu čaja. Okus se mijenja s visinom, pa je čaj iz Nuwara Eliye lagan i cvjetan, a onaj iz nižih krajeva taman i jak." },
-    { ime: "Watalappan", opis: "Puding od kokosova mlijeka, jaja, kardamoma i tamnog palmina šećera.", prica: "Donijeli su ga malajski doseljenici, a postao je obvezan desert muslimanskih obitelji za Ramazanski bajram. Sličan je karamel-kremi, ali s okusom dima i začina." },
-    { ime: "Kraljevski kokos (thambili)", opis: "Narančasti kokos koji raste samo na Šri Lanki i pije se svjež, ravno iz ploda.", prica: "Prodaje se uz svaku cestu, a prodavač ga otvara mačetom u tri poteza. Slađi je od zelenog kokosa i najbolje je osvježenje nakon penjanja na stijene i stupe." }
+    { ime: "Rice and curry", opis: "A mound of rice surrounded by five or more small dishes: lentils, vegetables, fish or chicken and spicy relishes.", prica: "It is the everyday lunch of the whole country, and the name is misleading because the rice is only a base for a multitude of flavors. Coconut milk and curry leaves give the dishes their mildness, and chili gives them a heat that people will kindly warn you about." },
+    { ime: "Hoppers (appa)", opis: "Crisp bowl-shaped pancakes of fermented rice flour and coconut milk, often with an egg cooked in the middle.", prica: "They are cooked in small rounded pans and eaten for breakfast or dinner with a spicy sambol. There are also string hoppers, nests of thin steamed rice noodles." },
+    { ime: "Kottu roti", opis: "Chopped thin flatbread fried on a hot griddle with vegetables, egg and meat.", prica: "It is the island's best-known street food and you hear it before you see it, because the cook chops the bread with two metal blades in a rhythm that rings down the whole street. It began as a way of using up yesterday's bread." },
+    { ime: "Pol sambol", opis: "Freshly grated coconut mixed with chili, red onion, lime and dried fish.", prica: "It sits on the table at almost every meal and is eaten with bread, hoppers and rice. It is simple, and yet for many people it is the flavor they remember most from the island." },
+    { ime: "Lamprais", opis: "Rice cooked in stock with several kinds of meat and side dishes, wrapped in a banana leaf and baked.", prica: "It is a legacy of the Burghers, the descendants of Dutch and Portuguese settlers, and the name comes from the Dutch term for a lump of rice. Traditionally it is the family lunch on Sundays." },
+    { ime: "Kiribath", opis: "Rice cooked in coconut milk and cut into diamond shapes.", prica: "It is eaten on festive occasions, above all as the first meal of the Sinhalese and Tamil New Year in April, when the fire is lit at a precisely determined moment. It is served with spicy lunu miris or with the sweet syrup of the kitul palm." },
+    { ime: "Ceylon tea", opis: "Black tea from the hill plantations, drunk with or without milk.", prica: "Until the 1860s the island grew coffee, and when a plant disease wiped it out, the Scotsman James Taylor planted the first tea estate in 1867. The flavor changes with altitude, so tea from Nuwara Eliya is light and floral, while tea from the lower regions is dark and strong." },
+    { ime: "Watalappan", opis: "A pudding of coconut milk, eggs, cardamom and dark palm sugar.", prica: "It was brought by Malay settlers and became the obligatory dessert of Muslim families for Eid al-Fitr. It resembles crème caramel, but with a taste of smoke and spice." },
+    { ime: "King coconut (thambili)", opis: "An orange coconut that grows only in Sri Lanka and is drunk fresh, straight from the fruit.", prica: "It is sold along every road, and the vendor opens it with a machete in three strokes. It is sweeter than green coconut and is the best refreshment after climbing rocks and stupas." }
   ],
   obicaji: [
-    { ime: "Esala Perahera", opis: "Deset noći svečanih povorki u čast relikvije Budina zuba, s bubnjarima, plesačima, bakljonošama i desecima okićenih slonova. Najveći slon na leđima nosi zlatnu škrinjicu, repliku relikvijara.", gdje: "U Kandyju, u srpnju ili kolovozu, prema mjesečevu kalendaru. Mjesta uz ulicu treba osigurati unaprijed." },
-    { ime: "Poya, dan punog mjeseca", opis: "Svaki pun mjesec državni je praznik, jer se uz njih vežu događaji iz Budina života. Vjernici u bijelom odlaze u hramove s cvijećem, a alkohol se toga dana ne prodaje.", gdje: "U cijeloj zemlji. Najsvečaniji su Vesak u svibnju, kada se ulice kite papirnatim lampionima, i Poson u lipnju u Mihintaleu kraj Anuradhapure." },
-    { ime: "Kandyjski ples", opis: "Muški ples iz gorja, nastao iz obreda zazivanja zdravlja i kiše, s akrobatskim skokovima uz bubnjeve. Plesači nose srebrne oklope od pločica i ukrase za glavu koji se predaju tek nakon godina učenja.", gdje: "Svake večeri u kulturnim centrima u Kandyju, u blizini Hrama zuba." },
-    { ime: "Singalska i tamilska Nova godina", opis: "Dvije zajednice slave je istih dana, kada sunce prelazi iz znaka Riba u Ovna. Sve se radi u trenucima koje odrede astrolozi: paljenje vatre, prvi obrok, prvi posao.", gdje: "Sredinom travnja, u cijeloj zemlji. Mnoge su trgovine tada zatvorene, a sela priređuju igre i natjecanja." },
-    { ime: "Drvene maske", opis: "Šareno oslikane maske od laganog drva koristile su se u plesovima za tjeranje bolesti i u pučkom kazalištu kolam. Svaka od osamnaest maski demona predstavlja jednu bolest.", gdje: "U gradiću Ambalangoda na jugozapadnoj obali, gdje radionice i mali muzeji pokazuju kako se maske rezbare." },
-    { ime: "Ponašanje u hramu", opis: "U budističke i hinduističke hramove ulazi se bosih nogu, pokrivenih ramena i koljena, najbolje u bijelom. Nepristojno je fotografirati se leđima okrenutima Budinu kipu, a tetovaže s Budinim likom treba pokriti.", gdje: "U svim svetištima, a posebno strogo u Kandyju i Anuradhapuri." }
+    { ime: "Esala Perahera", opis: "Ten nights of ceremonial processions in honor of the relic of the Buddha's tooth, with drummers, dancers, torchbearers and dozens of decorated elephants. The largest elephant carries on its back a golden casket, a replica of the reliquary.", gdje: "In Kandy, in July or August, according to the lunar calendar. Seats along the street need to be secured in advance." },
+    { ime: "Poya, full moon day", opis: "Every full moon is a public holiday, because events from the Buddha's life are tied to them. Worshippers dressed in white go to the temples with flowers, and alcohol is not sold on that day.", gdje: "All over the country. The most festive are Vesak in May, when the streets are decorated with paper lanterns, and Poson in June at Mihintale near Anuradhapura." },
+    { ime: "Kandyan dance", opis: "A men's dance from the hill country that grew out of rituals invoking health and rain, with acrobatic leaps to the sound of drums. The dancers wear silver breastplates made of small plates and headdresses that are handed over only after years of training.", gdje: "Every evening in the cultural centers of Kandy, near the Temple of the Tooth." },
+    { ime: "Sinhalese and Tamil New Year", opis: "The two communities celebrate it on the same days, when the sun passes from the sign of Pisces into Aries. Everything is done at moments set by astrologers: lighting the fire, the first meal, the first task.", gdje: "In mid-April, all over the country. Many shops are closed then, and villages organize games and contests." },
+    { ime: "Wooden masks", opis: "Brightly painted masks of light wood were used in dances for driving out illness and in the kolam folk theater. Each of the eighteen demon masks stands for one disease.", gdje: "In the small town of Ambalangoda on the southwest coast, where workshops and small museums show how the masks are carved." },
+    { ime: "Temple etiquette", opis: "You enter Buddhist and Hindu temples barefoot, with shoulders and knees covered, ideally dressed in white. It is rude to have your photograph taken with your back turned to a statue of the Buddha, and tattoos showing the Buddha should be covered.", gdje: "At every shrine, and especially strictly in Kandy and Anuradhapura." }
   ],
   fraze: [
-    { izvorno: "Ayubowan", izgovor: "aju-BO-van", hr: "Dobar dan (doslovno: dug vam život)" },
-    { izvorno: "Istuti", izgovor: "IS-tu-ti", hr: "Hvala" },
-    { izvorno: "Ow / Naa", izgovor: "OU / NAA", hr: "Da / Ne" },
-    { izvorno: "Karunakarala", izgovor: "ka-ru-NA-ka-ra-la", hr: "Molim" },
-    { izvorno: "Kiyada?", izgovor: "KI-ja-da", hr: "Koliko košta?" },
-    { izvorno: "Samawenna", izgovor: "sa-MA-ven-na", hr: "Oprostite" },
-    { izvorno: "Hari rasai", izgovor: "HA-ri RA-saj", hr: "Jako ukusno" },
-    { izvorno: "Vanakkam / Nandri", izgovor: "va-NA-kam / NAN-dri", hr: "Dobar dan / Hvala na tamilskom" }
+    { izvorno: "Ayubowan", izgovor: "ah-yoo-BOH-wahn", hr: "Hello (literally: may you live long)" },
+    { izvorno: "Istuti", izgovor: "IS-too-tee", hr: "Thank you" },
+    { izvorno: "Ow / Naa", izgovor: "OH / NAH", hr: "Yes / No" },
+    { izvorno: "Karunakarala", izgovor: "kah-roo-NAH-kah-rah-lah", hr: "Please" },
+    { izvorno: "Kiyada?", izgovor: "KEE-yah-dah", hr: "How much is it?" },
+    { izvorno: "Samawenna", izgovor: "sah-MAH-ven-nah", hr: "Excuse me, sorry" },
+    { izvorno: "Hari rasai", izgovor: "HAH-ree RAH-sigh", hr: "Really delicious" },
+    { izvorno: "Vanakkam / Nandri", izgovor: "vah-NAH-kahm / NAHN-dree", hr: "Hello / Thank you in Tamil" }
   ],
   zanimljivosti: [
-    "Sirimavo Bandaranaike postala je 1960. godine na Šri Lanki prva žena na svijetu izabrana za predsjednicu vlade.",
-    "Engleska riječ serendipity, sretno slučajno otkriće, nastala je od Serendib, starog perzijskog i arapskog imena otoka.",
-    "Pravi cimet potječe upravo sa Šri Lanke, a dobiva se guljenjem unutarnje kore mladih grana.",
-    "Sveto stablo Sri Maha Bodhi u Anuradhapuri zasađeno je u 3. stoljeću prije Krista i smatra se najstarijim stablom na svijetu za koje se zna tko ga je i kada posadio.",
-    "Na vrhu Adamova vrha nalazi se udubina u stijeni koju budisti štuju kao Budin otisak stopala, hindusi kao Šivin, a muslimani i dio kršćana kao Adamov.",
-    "U vodama južno od otoka plivaju plavi kitovi, pa je Šri Lanka jedno od rijetkih mjesta gdje se u istom danu mogu vidjeti najveća kopnena i najveća morska životinja."
+    "In 1960, in Sri Lanka, Sirimavo Bandaranaike became the first woman in the world to be elected prime minister.",
+    "The English word serendipity, a lucky accidental discovery, was coined from Serendib, the old Persian and Arabic name for the island.",
+    "True cinnamon comes from Sri Lanka itself and is obtained by peeling the inner bark of young branches.",
+    "The sacred Sri Maha Bodhi tree in Anuradhapura was planted in the 3rd century BC and is considered the oldest tree in the world for which it is known who planted it and when.",
+    "At the top of Adam's Peak there is a hollow in the rock that Buddhists venerate as the footprint of the Buddha, Hindus as that of Shiva, and Muslims and some Christians as that of Adam.",
+    "Blue whales swim in the waters south of the island, which makes Sri Lanka one of the few places where you can see the largest land animal and the largest sea animal on the same day."
   ],
   mjesta: [
     {
       id: "colombo",
       ime: "Colombo",
       vrsta: "grad",
-      sazetak: "Užurbana lučka prijestolnica u kojoj se kolonijalne zgrade, budistički hramovi i šarene tržnice miješaju s novim neboderima.",
+      sazetak: "A bustling port capital where colonial buildings, Buddhist temples and colorful markets mingle with new skyscrapers.",
       prica: [
-        "Colombo je stoljećima bio luka arapskih trgovaca cimetom, a u grad su ga pretvorili Portugalci, Nizozemci i Britanci, koji su ovdje redom gradili utvrde i skladišta. Od utvrde je ostalo samo ime četvrti Fort, ali se kolonijalni slojevi i danas čitaju na pročeljima.",
-        "Većina putnica ovdje provede samo dan na dolasku ili odlasku, no grad je dobar uvod u otok jer se u njemu na malom prostoru vide sve njegove vjere i kuhinje."
+        "For centuries Colombo was a port of Arab cinnamon traders, and it was turned into a city by the Portuguese, the Dutch and the British, who one after another built forts and warehouses here. All that remains of the fort is the name of the Fort district, but the colonial layers can still be read on the facades today.",
+        "Most travelers spend only a day here on arrival or departure, but the city is a good introduction to the island, because within a small area you can see all of its faiths and cuisines."
       ],
       vidjeti: [
-        { ime: "Pettah i Crvena džamija", opis: "Najživlja tržnica u zemlji, gdje svaka ulica prodaje nešto drugo, od zlata do sušene ribe. Usred nje stoji džamija Jami Ul-Alfar iz 1909. godine, sagrađena od crvene i bijele cigle u pruge i spirale, pa izgleda kao da je od slatkiša." },
-        { ime: "Hram Gangaramaya", opis: "Budistički hram iz 19. stoljeća koji je ujedno neobičan muzej svega što su mu vjernici darovali, od kipova do starih automobila. Njegov mali drveni paviljon Seema Malaka na jezeru Beira projektirao je Geoffrey Bawa, najpoznatiji šrilanški arhitekt." },
-        { ime: "Galle Face Green", opis: "Dugačka travnata šetnica uz more, uređena sredinom 19. stoljeća za konjske utrke i šetnje britanskih gospođa. Predvečer se ovdje okupljaju obitelji, puštaju se zmajevi i jedu prženi račići s kolica." },
-        { ime: "Nacionalni muzej", opis: "Najveći muzej na otoku, otvoren 1877. godine u bijeloj zgradi talijanskog stila. Glavni je izložak prijestolje i kruna posljednjih kraljeva Kandyja, koje su Britanci odnijeli u Englesku i vratili tek 1934. godine." },
-        { ime: "Stara nizozemska bolnica", opis: "Jedna od najstarijih zgrada u četvrti Fort, iz 17. stoljeća, s debelim zidovima i dvorištima koja su hladila bolesnike. Danas su u njoj restorani i trgovine, a nizozemski način gradnje za tropsku klimu i dalje se jasno vidi." }
+        { ime: "Pettah and the Red Mosque", opis: "The liveliest market in the country, where every street sells something different, from gold to dried fish. In the middle of it stands the Jami Ul-Alfar mosque of 1909, built of red and white brick in stripes and spirals, so that it looks as if it were made of candy." },
+        { ime: "Gangaramaya Temple", opis: "A Buddhist temple from the 19th century that is also an unusual museum of everything its worshippers have donated, from statues to vintage cars. Its small wooden pavilion Seema Malaka on Beira Lake was designed by Geoffrey Bawa, the best-known Sri Lankan architect." },
+        { ime: "Galle Face Green", opis: "A long grassy promenade by the sea, laid out in the middle of the 19th century for horse races and the strolls of British ladies. Toward evening families gather here, kites are flown and fried shrimp are eaten from carts." },
+        { ime: "National Museum", opis: "The largest museum on the island, opened in 1877 in a white Italianate building. The main exhibit is the throne and crown of the last kings of Kandy, which the British took to England and returned only in 1934." },
+        { ime: "Old Dutch Hospital", opis: "One of the oldest buildings in the Fort district, from the 17th century, with thick walls and courtyards that kept the patients cool. Today it holds restaurants and shops, and the Dutch way of building for a tropical climate is still clearly visible." }
       ],
       jesti: [
-        { ime: "Isso vade", opis: "Prženi kolačići od leće s cijelim račićima na vrhu, koji se prodaju s kolica na Galle Face Greenu." },
-        { ime: "Kottu roti", opis: "U Colombu se jede kasno navečer, u jednostavnim zalogajnicama gdje se sjeckanje čuje do ulice." },
-        { ime: "Rakovi iz lagune", opis: "Veliki mangrovski rakovi s paprom ili češnjakom, po kojima su gradski restorani poznati u cijeloj Aziji." }
+        { ime: "Isso vade", opis: "Fried lentil cakes topped with whole shrimp, sold from carts on Galle Face Green." },
+        { ime: "Kottu roti", opis: "In Colombo it is eaten late at night, in simple eateries where the chopping can be heard out on the street." },
+        { ime: "Lagoon crab", opis: "Large mangrove crabs with pepper or garlic, for which the city's restaurants are known all over Asia." }
       ],
       dozivjeti: [
-        { ime: "Jutro na tržnici Pettah", opis: "Ako želite osjetiti grad prije vrućine, dođite rano ujutro u ulice oko tržnice Manning i gledajte istovar voća i povrća. Torbu držite pred sobom i prepustite se gužvi." },
-        { ime: "Zalazak sunca na Galle Faceu", opis: "Šetnja uz more s vrećicom isso vadea najjednostavniji je i najljepši večernji program u gradu." },
-        { ime: "Tragom Geoffreyja Bawe", opis: "Arhitektova gradska kuća, poznata kao Number 11, može se posjetiti uz najavu i pokazuje kako je spajao vrt, dvorište i sobu u jednu cjelinu." }
+        { ime: "A morning at Pettah market", opis: "If you want to feel the city before the heat sets in, come early in the morning to the streets around Manning Market and watch the fruit and vegetables being unloaded. Keep your bag in front of you and give yourself over to the crowd." },
+        { ime: "Sunset on Galle Face", opis: "A walk by the sea with a bag of isso vade is the simplest and loveliest evening plan in the city." },
+        { ime: "In the footsteps of Geoffrey Bawa", opis: "The architect's town house, known as Number 11, can be visited by appointment and shows how he joined garden, courtyard and room into a single whole." }
       ],
       agencije: [
-        { ime: "Sri Lanka Tourism", opis: "Službeni turistički portal zemlje.", link: "https://www.srilanka.travel/" },
-        { ime: "Sri Lanka Tourism Development Authority", opis: "Državna uprava za turizam, kod koje se može provjeriti imaju li vodiči i agencije dozvolu.", link: "https://sltda.gov.lk/en" }
+        { ime: "Sri Lanka Tourism", opis: "The country's official tourism portal.", link: "https://www.srilanka.travel/" },
+        { ime: "Sri Lanka Tourism Development Authority", opis: "The national tourism authority, where you can check whether guides and agencies are licensed.", link: "https://sltda.gov.lk/en" }
       ],
-      kada: "Od siječnja do ožujka je najsuše. Grad je sparan cijele godine, pa razgledavanje planirajte ujutro i predvečer, a podne provedite u muzeju."
+      kada: "January to March is the driest time. The city is humid all year round, so plan your sightseeing for the morning and early evening and spend midday in the museum."
     },
     {
       id: "kandy",
       ime: "Kandy",
       vrsta: "grad",
-      sazetak: "Posljednja kraljevska prijestolnica otoka, grad na jezeru među brdima u kojem se čuva najsvetija budistička relikvija zemlje.",
+      sazetak: "The island's last royal capital, a lakeside city among the hills that guards the country's holiest Buddhist relic.",
       prica: [
-        "Kandy je bio glavni grad posljednjeg singalskog kraljevstva, koje se zahvaljujući planinama i džungli tri stoljeća odupiralo Portugalcima i Nizozemcima. Britancima je pao tek 1815. godine, i to izdajom vlastitih plemića.",
-        "Vjeruje se da onaj tko čuva Budin zub ima pravo vladati otokom, pa su kraljevi relikviju selili sa sobom iz prijestolnice u prijestolnicu. Legenda kaže da ju je u 4. stoljeću na otok prokrijumčarila princeza Hemamala, skrivenu u kosi."
+        "Kandy was the capital of the last Sinhalese kingdom, which, thanks to the mountains and the jungle, held out against the Portuguese and the Dutch for three centuries. It fell to the British only in 1815, and through the betrayal of its own nobles at that.",
+        "It is believed that whoever keeps the Buddha's tooth has the right to rule the island, so the kings moved the relic with them from capital to capital. Legend says that Princess Hemamala smuggled it onto the island in the 4th century, hidden in her hair."
       ],
       vidjeti: [
-        { ime: "Hram Budina zuba (Sri Dalada Maligawa)", opis: "Svetište u sklopu nekadašnje kraljevske palače, na UNESCO-ovu popisu od 1988. Sam zub se ne vidi, jer je zatvoren u sedam zlatnih škrinjica u obliku stupe, ali se triput dnevno uz bubnjeve otvaraju vrata odaje u kojoj se čuva." },
-        { ime: "Jezero Kandy", opis: "Umjetno jezero koje je 1807. dao iskopati posljednji kralj, Sri Vikrama Rajasinha. Na otočiću u sredini bio je, prema predaji, kraljev ljetnikovac, a šetnja oko jezera traje oko sat vremena." },
-        { ime: "Kraljevski botanički vrt Peradeniya", opis: "Vrt u zavoju rijeke Mahaweli, koji su Britanci uredili 1821. godine na mjestu kraljevskog perivoja. Potražite golemu javansku smokvu čija krošnja pokriva površinu veću od nogometnog igrališta i drvored kraljevskih palmi." },
-        { ime: "Kip Bude Bahirawakanda", opis: "Bijeli kip visok dvadeset i šest metara na brdu iznad grada, podignut 1992. godine. S platforme iza njega vidi se cijela dolina s jezerom i hramom." },
-        { ime: "Tri hrama zapadno od grada", opis: "Gadaladeniya, Lankatilaka i Embekke potječu iz 14. stoljeća i leže među rižinim poljima. U Embekkeu su drveni stupovi izrezbareni stotinama različitih prizora, od hrvača do dvoglavog orla." }
+        { ime: "Temple of the Tooth (Sri Dalada Maligawa)", opis: "The shrine within the former royal palace complex, on the UNESCO list since 1988. The tooth itself cannot be seen, because it is enclosed in seven golden caskets in the shape of a stupa, but three times a day, to the sound of drums, the doors of the chamber where it is kept are opened." },
+        { ime: "Kandy Lake", opis: "An artificial lake that the last king, Sri Vikrama Rajasinha, had dug in 1807. According to tradition the king's summer house stood on the islet in the middle, and a walk around the lake takes about an hour." },
+        { ime: "Royal Botanic Gardens, Peradeniya", opis: "The gardens in a bend of the Mahaweli River, laid out by the British in 1821 on the site of a royal park. Look for the gigantic Java fig whose crown covers an area larger than a soccer field, and for the avenue of royal palms." },
+        { ime: "Bahirawakanda Buddha statue", opis: "A white statue twenty-six meters tall on the hill above the city, erected in 1992. From the platform behind it you can see the whole valley with the lake and the temple." },
+        { ime: "Three temples west of the city", opis: "Gadaladeniya, Lankatilaka and Embekke date from the 14th century and lie among the rice fields. At Embekke the wooden pillars are carved with hundreds of different scenes, from wrestlers to a double-headed eagle." }
       ],
       jesti: [
-        { ime: "Riža i curry na kandyjski način", opis: "U gorju se uz rižu poslužuju jela od mladog hljebovca, banana cvijeta i polos curry od nezrelog jackfruita, koji okusom podsjeća na meso." },
-        { ime: "Slatkiši kavum i kokis", opis: "Prženi kolačići od rižina brašna i palmina sirupa, koji se pripremaju za Novu godinu, a u Kandyju se prodaju cijele godine." },
-        { ime: "Čaj s gorja", opis: "U gradu i okolici može se kušati čaj s obližnjih plantaža, a u staroj tvornici u Hantani uređen je muzej čaja." }
+        { ime: "Kandyan-style rice and curry", opis: "In the hill country rice comes with dishes of young breadfruit and banana blossom, and with polos curry made from unripe jackfruit, which tastes rather like meat." },
+        { ime: "Kavum and kokis sweets", opis: "Fried cakes of rice flour and palm syrup, which are made for the New Year but are sold in Kandy all year round." },
+        { ime: "Tea from the hills", opis: "In the city and its surroundings you can taste tea from the nearby plantations, and a tea museum has been set up in the old factory at Hantana." }
       ],
       dozivjeti: [
-        { ime: "Večernja puja u Hramu zuba", opis: "Ako želite doživjeti hram kad je najživlji, dođite na večernji obred, kad se hodnici ispune bubnjevima i mirisom cvjetova lotosa i jasmina koje vjernici polažu pred svetište.", link: "https://sridaladamaligawa.lk/" },
-        { ime: "Priredba kandyjskog plesa", opis: "Jednosatne predstave održavaju se predvečer u dvoranama kraj jezera, a završavaju hodanjem po žeravici." },
-        { ime: "Vlak prema gorju", opis: "Iz Kandyja polazi najslavnija dionica pruge, prema Nuwara Eliyi i Elli. Mjesta s rezervacijom kupuju se na stranicama državnih željeznica.", link: "https://seatreservation.railway.gov.lk/mtktwebslr/" }
+        { ime: "Evening puja at the Temple of the Tooth", opis: "If you want to experience the temple at its liveliest, come for the evening ceremony, when the corridors fill with drumming and with the scent of the lotus and jasmine flowers that worshippers lay before the shrine.", link: "https://sridaladamaligawa.lk/" },
+        { ime: "A Kandyan dance performance", opis: "One-hour shows are held in the early evening in halls by the lake, and they end with fire walking." },
+        { ime: "The train to the hill country", opis: "The most celebrated stretch of the railway leaves from Kandy, toward Nuwara Eliya and Ella. Reserved seats are bought on the website of the state railways.", link: "https://seatreservation.railway.gov.lk/mtktwebslr/" }
       ],
       agencije: [
-        { ime: "Sri Dalada Maligawa", opis: "Službena stranica Hrama Budina zuba, s rasporedom obreda i pravilima odijevanja.", link: "https://sridaladamaligawa.lk/" },
-        { ime: "Sri Lanka Tourism", opis: "Službeni turistički portal zemlje.", link: "https://www.srilanka.travel/" }
+        { ime: "Sri Dalada Maligawa", opis: "The official website of the Temple of the Tooth, with the schedule of ceremonies and the dress code.", link: "https://sridaladamaligawa.lk/" },
+        { ime: "Sri Lanka Tourism", opis: "The country's official tourism portal.", link: "https://www.srilanka.travel/" }
       ],
-      kada: "Od siječnja do travnja je najsuše, a u srpnju ili kolovozu grad živi za Esala Peraheru. U hram ponesite maramu za ramena i čarape, jer je kameni pod u podne vruć."
+      kada: "January to April is the driest time, and in July or August the city lives for the Esala Perahera. Bring a scarf for your shoulders and a pair of socks to the temple, because the stone floor is hot at noon."
     },
     {
       id: "sigiriya",
-      ime: "Sigiriya i Dambulla",
+      ime: "Sigiriya and Dambulla",
       vrsta: "regija",
-      sazetak: "Palača na vrhu stijene visoke dvjesto metara i pećinski hramovi puni Budinih kipova, usred ravnice gdje se okupljaju slonovi.",
+      sazetak: "A palace on top of a rock two hundred meters high and cave temples full of Buddha statues, in the middle of a plain where elephants gather.",
       prica: [
-        "Sigiriju je u 5. stoljeću sagradio kralj Kashyapa, koji je, kako pripovijedaju kronike, prijestolje oteo tako što je vlastitog oca dao živog zazidati. Bojeći se osvete polubrata, preselio je dvor na vrh strme stijene i oko nje uredio vrtove s bazenima i vodoskocima.",
-        "Vladao je odande osamnaest godina, a kada ga je brat napokon porazio, stijena je vraćena redovnicima. Obližnja Dambulla starija je priča: u njezinim se pećinama u 1. stoljeću prije Krista skrivao prognani kralj Valagamba, koji ih je iz zahvalnosti pretvorio u hram."
+        "Sigiriya was built in the 5th century by King Kashyapa, who, as the chronicles tell it, seized the throne by having his own father walled up alive. Fearing the revenge of his half-brother, he moved the court to the top of a sheer rock and laid out gardens with pools and fountains around it.",
+        "He ruled from there for eighteen years, and when his brother finally defeated him, the rock was given back to the monks. Nearby Dambulla is an older story: in the 1st century BC the exiled King Valagamba hid in its caves, and out of gratitude he turned them into a temple."
       ],
       vidjeti: [
-        { ime: "Stijena Sigiriya", opis: "Do vrha vodi oko 1200 stuba, a na pola puta stoje dvije goleme lavlje šape od opeke, ostatak ulaza koji je imao oblik lava i po kojemu je stijena dobila ime Lavlja stijena. Na vrhu su temelji palače i bazen uklesan u kamen." },
-        { ime: "Freske i Zrcalni zid", opis: "U udubini stijene sačuvano je dvadesetak naslikanih žena s cvijećem, a ne zna se pouzdano jesu li to nebeske djeve ili dvorske dame. Ispod njih je zid nekoć uglačan do sjaja, na koji su posjetitelji još od 8. stoljeća urezivali stihove, pa je to jedna od najstarijih knjiga dojmova na svijetu." },
-        { ime: "Vodeni vrtovi", opis: "Simetrični vrtovi u podnožju ubrajaju se među najstarije uređene vrtove na svijetu. Vodoskoci, koji rade na načelu tlaka i podzemnih cijevi, za jakih kiša prorade i danas." },
-        { ime: "Zlatni hram u Dambulli", opis: "Pet pećina pod golemom stijenom, s više od 150 Budinih kipova i stropovima oslikanima tako da prate svaku neravninu kamena. U drugoj pećini voda koja kaplje sa stropa skuplja se u posudu i koristi u obredima, a kaplje, kažu, i u najvećoj suši." },
-        { ime: "Polonnaruwa", opis: "Srednjovjekovna prijestolnica sat i pol vožnje dalje, najbolje obilazi biciklom. U Gal Vihari su iz jedne granitne stijene isklesana četiri Budina kipa, a ležeći je dug četrnaest metara." }
+        { ime: "Sigiriya Rock", opis: "About 1,200 steps lead to the top, and halfway up stand two enormous lion's paws made of brick, the remains of an entrance that was shaped like a lion and gave the rock its name, Lion Rock. On the summit are the foundations of the palace and a pool cut into the stone." },
+        { ime: "The frescoes and the Mirror Wall", opis: "In a hollow of the rock about twenty painted women holding flowers have been preserved, and nobody knows for certain whether they are celestial maidens or ladies of the court. Below them is a wall once polished to a shine, on which visitors have been scratching verses ever since the 8th century, which makes it one of the oldest guest books in the world." },
+        { ime: "The water gardens", opis: "The symmetrical gardens at the foot of the rock rank among the oldest landscaped gardens in the world. The fountains, which work on the principle of pressure and underground pipes, still come to life today during heavy rains." },
+        { ime: "Golden Temple of Dambulla", opis: "Five caves beneath an enormous rock, with more than 150 statues of the Buddha and ceilings painted to follow every unevenness of the stone. In the second cave, water dripping from the ceiling is collected in a vessel and used in rituals, and it is said to drip even in the worst drought." },
+        { ime: "Polonnaruwa", opis: "The medieval capital an hour and a half's drive away is best explored by bicycle. At Gal Vihara four statues of the Buddha are carved out of a single granite rock, and the reclining one is fourteen meters long." }
       ],
       jesti: [
-        { ime: "Seoski ručak", opis: "U selima oko Sigirije domaćice kuhaju na otvorenoj vatri u glinenim loncima i poslužuju rižu s desetak jela na listu lotosa." },
-        { ime: "Jogurt od bivoljeg mlijeka s kitulom", opis: "Gusti kiseli jogurt u glinenoj posudi, preliven tamnim sirupom palme kitul, najčešći desert otoka." },
-        { ime: "Roti s kokosom", opis: "Debeli beskvasni kruh s naribanim kokosom, pečen na ploči i poslužen s ljutim sambolom od luka." }
+        { ime: "A village lunch", opis: "In the villages around Sigiriya, the women of the house cook over an open fire in clay pots and serve rice with about ten dishes on a lotus leaf." },
+        { ime: "Buffalo curd with kitul", opis: "Thick, tangy yogurt in a clay pot, drizzled with the dark syrup of the kitul palm, the island's most common dessert." },
+        { ime: "Coconut roti", opis: "A thick unleavened bread with grated coconut, cooked on a griddle and served with a spicy onion sambol." }
       ],
       dozivjeti: [
-        { ime: "Stijena Pidurangala", opis: "Ako želite vidjeti Sigiriju izvana, popnite se na susjednu stijenu, najbolje za izlazak sunca. Uspon je kraći, ali pri vrhu treba prijeći nekoliko većih gromada." },
-        { ime: "Okupljanje slonova u Minneriyi", opis: "U sušnim mjesecima, od srpnja do rujna, stotine divljih slonova silaze na travu oko starog umjetnog jezera, što se smatra najvećim okupljanjem azijskih slonova na svijetu.", link: "https://www.dwc.gov.lk/" },
-        { ime: "Dan u selu", opis: "Vožnja volovskom zapregom, kanuom preko jezera i ručak u seoskoj kući turistički su uhodan, ali ugodan način da se vidi život na rižinim poljima." }
+        { ime: "Pidurangala Rock", opis: "If you want to see Sigiriya from the outside, climb the neighboring rock, ideally for sunrise. The climb is shorter, but near the top you have to scramble over a few large boulders." },
+        { ime: "The elephant gathering at Minneriya", opis: "In the dry months, from July to September, hundreds of wild elephants come down to the grass around the old man-made reservoir, in what is considered the largest gathering of Asian elephants in the world.", link: "https://www.dwc.gov.lk/" },
+        { ime: "A day in a village", opis: "A ride in an ox cart, a canoe trip across the lake and lunch in a village house make up a well-worn tourist routine, but a pleasant way to see life in the rice fields." }
       ],
       agencije: [
-        { ime: "Central Cultural Fund", opis: "Državna ustanova koja upravlja Sigirijom, Polonnaruwom i drugim spomenicima te prodaje ulaznice.", link: "https://ccf.gov.lk/" },
-        { ime: "Department of Wildlife Conservation", opis: "Državna uprava za nacionalne parkove, s informacijama o Minneriyi i drugim parkovima.", link: "https://www.dwc.gov.lk/" }
+        { ime: "Central Cultural Fund", opis: "The state institution that manages Sigiriya, Polonnaruwa and other monuments and sells the tickets.", link: "https://ccf.gov.lk/" },
+        { ime: "Department of Wildlife Conservation", opis: "The national parks authority, with information about Minneriya and other parks.", link: "https://www.dwc.gov.lk/" }
       ],
-      kada: "Od siječnja do rujna, a na stijenu se treba početi penjati odmah po otvaranju, prije vrućine i gužve. Pazite na gnijezda stršljenova uz stazu i ne podižite glas kraj njih."
+      kada: "From January to September, and you should start climbing the rock as soon as it opens, before the heat and the crowds. Watch out for the hornets' nests along the path and do not raise your voice near them."
     },
     {
       id: "anuradhapura",
       ime: "Anuradhapura",
       vrsta: "grad",
-      sazetak: "Prva prijestolnica otoka i sveti grad budizma, s bijelim stupama visokima poput piramida i stablom starim više od dvije tisuće godina.",
+      sazetak: "The island's first capital and a sacred city of Buddhism, with white stupas as tall as pyramids and a tree more than two thousand years old.",
       prica: [
-        "Anuradhapura je bila glavni grad singalskih kraljeva više od tisuću godina, od 4. stoljeća prije Krista do kraja 10. stoljeća. Ovdje je, prema kronikama, redovnik Mahinda, sin indijskog cara Ašoke, preobratio kralja na budizam, a njegova sestra donijela je mladicu stabla pod kojim je Buda doživio prosvjetljenje.",
-        "Nakon što su grad opustošile vojske iz južne Indije, prekrila ga je džungla i ponovno je otkriven tek u 19. stoljeću. Danas je to živo hodočasničko mjesto, kamo vjernici dolaze odjeveni u bijelo."
+        "Anuradhapura was the capital of the Sinhalese kings for more than a thousand years, from the 4th century BC to the end of the 10th century. According to the chronicles it was here that the monk Mahinda, son of the Indian emperor Ashoka, converted the king to Buddhism, and his sister brought a sapling of the tree under which the Buddha attained enlightenment.",
+        "After armies from southern India laid the city waste, the jungle covered it over, and it was rediscovered only in the 19th century. Today it is a living place of pilgrimage, where worshippers come dressed in white."
       ],
       vidjeti: [
-        { ime: "Sri Maha Bodhi", opis: "Sveta smokva izrasla iz mladice stabla iz Bodh Gaye, zasađena u 3. stoljeću prije Krista. Okružena je zlatnom ogradom i potpornjima, a čuvari se uz nju smjenjuju bez prekida više od dvadeset stoljeća." },
-        { ime: "Stupa Ruwanwelisaya", opis: "Blistavo bijela stupa koju je u 2. stoljeću prije Krista počeo graditi kralj Dutugemunu. Oko podnožja teče zid s nekoliko stotina slonovskih glava, koje kao da na leđima nose cijelu građevinu." },
-        { ime: "Stupa Jetavanaramaya", opis: "Podignuta u 3. stoljeću, bila je visoka oko 120 metara, pa su od nje u starom svijetu bile više samo dvije piramide u Gizi. Računa se da je u nju ugrađeno više od devedeset milijuna opeka." },
-        { ime: "Mjesečev kamen i Blizanački bazeni", opis: "Na pragu jedne od zgrada samostana Abhayagiri leži polukružna kamena ploča s pojasevima slonova, konja, lavova i bikova, koja prikazuje krug života. U blizini su dva bazena za redovnike sa sustavom za pročišćavanje vode starim petnaest stoljeća." },
-        { ime: "Mihintale", opis: "Brdo trinaest kilometara od grada, gdje se, prema predaji, kralj u lovu susreo s redovnikom Mahindom. Do vrha vodi 1840 granitnih stuba u sjeni stabala plumerije." }
+        { ime: "Sri Maha Bodhi", opis: "The sacred fig grown from a sapling of the tree at Bodh Gaya, planted in the 3rd century BC. It is surrounded by a golden railing and props, and guardians have kept watch beside it in unbroken succession for more than twenty centuries." },
+        { ime: "Ruwanwelisaya Stupa", opis: "The dazzling white stupa that King Dutugemunu began building in the 2nd century BC. Around its base runs a wall with several hundred elephant heads, which seem to carry the whole structure on their backs." },
+        { ime: "Jetavanaramaya Stupa", opis: "Raised in the 3rd century, it stood about 120 meters high, so that in the ancient world only two pyramids at Giza were taller. It is estimated that more than ninety million bricks went into it." },
+        { ime: "The Moonstone and the Twin Ponds", opis: "On the threshold of one of the buildings of the Abhayagiri monastery lies a semicircular stone slab with bands of elephants, horses, lions and bulls, which depicts the cycle of life. Nearby are two bathing ponds for monks with a water purification system fifteen centuries old." },
+        { ime: "Mihintale", opis: "A hill thirteen kilometers from the city where, according to tradition, the king met the monk Mahinda while out hunting. A flight of 1,840 granite steps leads to the top in the shade of frangipani trees." }
       ],
       jesti: [
-        { ime: "Slatkovodna riba iz jezera", opis: "Riba iz drevnih umjetnih jezera, pržena ili u curryju, uz rižu i povrće iz okolnih vrtova." },
-        { ime: "Kiribath", opis: "Mliječna riža koju hodočasnici prinose u hramovima i jedu za doručak." },
-        { ime: "Sok od drvene jabuke", opis: "Gusti kiselkasti sok od voća tvrde kore, koje raste u suhoj zoni i ima miris koji se ili voli ili ne voli." }
+        { ime: "Freshwater fish from the reservoirs", opis: "Fish from the ancient man-made lakes, fried or in a curry, with rice and vegetables from the surrounding gardens." },
+        { ime: "Kiribath", opis: "The milk rice that pilgrims offer in the temples and eat for breakfast." },
+        { ime: "Wood apple juice", opis: "A thick, tart juice from a hard-shelled fruit that grows in the dry zone and has a smell you either love or do not." }
       ],
       dozivjeti: [
-        { ime: "Obilazak biciklom", opis: "Ako želite vidjeti cijeli sveti grad, unajmite bicikl, jer su stupe i samostani razasuti po ravnici s puno hlada, a udaljenosti su prevelike za hodanje." },
-        { ime: "Zalazak sunca na jezeru Tissa Wewa", opis: "Umjetno jezero iz 3. stoljeća prije Krista i danas navodnjava polja. S nasipa se vide stupe kako se dižu iznad krošanja." },
-        { ime: "Poson u Mihintaleu", opis: "Za punog mjeseca u lipnju tisuće hodočasnika u bijelom penju se na brdo slaveći dolazak budizma na otok." }
+        { ime: "Touring by bicycle", opis: "If you want to see the whole sacred city, rent a bicycle, because the stupas and monasteries are scattered across a plain with plenty of shade and the distances are too great for walking." },
+        { ime: "Sunset on Tissa Wewa", opis: "This reservoir from the 3rd century BC still irrigates the fields today. From the embankment you can see the stupas rising above the treetops." },
+        { ime: "Poson at Mihintale", opis: "At the full moon in June, thousands of pilgrims in white climb the hill to celebrate the arrival of Buddhism on the island." }
       ],
       agencije: [
-        { ime: "Central Cultural Fund", opis: "Državna ustanova koja upravlja arheološkim lokalitetima i muzejima svetog grada.", link: "https://ccf.gov.lk/" },
-        { ime: "Sri Lanka Tourism", opis: "Službeni turistički portal zemlje.", link: "https://www.srilanka.travel/" }
+        { ime: "Central Cultural Fund", opis: "The state institution that manages the archaeological sites and museums of the sacred city.", link: "https://ccf.gov.lk/" },
+        { ime: "Sri Lanka Tourism", opis: "The country's official tourism portal.", link: "https://www.srilanka.travel/" }
       ],
-      kada: "Od svibnja do rujna je najsuše. Odjenite se u bijelo ili svijetlo, a budući da se oko svake stupe hoda bosih nogu po vrućem kamenu, obilazak ostavite za rano jutro i kasno poslijepodne."
+      kada: "May to September is the driest time. Dress in white or light colors, and since you walk barefoot on hot stone around every stupa, save your visit for the early morning and late afternoon."
     },
     {
       id: "gorje",
-      ime: "Ella i čajno gorje",
+      ime: "Ella and the tea country",
       vrsta: "regija",
-      sazetak: "Brda prekrivena plantažama čaja, kroz koja plavi vlak polako vijuga od Nuwara Eliye do Elle.",
+      sazetak: "Hills covered in tea plantations, through which the blue train winds slowly from Nuwara Eliya to Ella.",
       prica: [
-        "Središnje gorje bilo je do 19. stoljeća gotovo nenaseljena prašuma. Britanci su je iskrčili najprije za kavu, a nakon što je nasade uništila bolest, za čaj, koji je otok učinio poznatim u cijelom svijetu.",
-        "Za rad na plantažama doveli su Tamile iz južne Indije, čiji potomci i danas beru čaj. Nuwara Eliya, na gotovo 1900 metara, bila je ljetovalište kolonijalnih službenika i još nosi nadimak Mala Engleska, dok je Ella selo koje je izraslo u omiljeno okupljalište pješaka."
+        "Until the 19th century the central highlands were an almost uninhabited rainforest. The British cleared it first for coffee and then, after disease destroyed the plantings, for tea, which made the island famous all over the world.",
+        "To work the plantations they brought in Tamils from southern India, whose descendants still pick the tea today. Nuwara Eliya, at almost 1,900 meters, was the hill resort of colonial officials and still carries the nickname Little England, while Ella is a village that has grown into a favorite gathering place for hikers."
       ],
       vidjeti: [
-        { ime: "Most s devet lukova", opis: "Vijadukt kraj Elle dovršen 1921. godine, sagrađen od kamena, opeke i cementa, bez čelika. Prema lokalnoj predaji, čelik namijenjen mostu preusmjeren je početkom Prvog svjetskog rata, pa su ga graditelji dovršili bez njega." },
-        { ime: "Mali Adamov vrh i Ella Rock", opis: "Dva vidikovca iznad Elle. Do prvog se stiže laganom šetnjom kroz plantažu za manje od sat vremena, dok je drugi poludnevni uspon koji dijelom vodi uz samu prugu." },
-        { ime: "Nuwara Eliya", opis: "Grad s poštom od crvene opeke, trkalištem i hotelima u stilu engleskih ladanjskih kuća. Osnovao ga je sredinom 19. stoljeća istraživač Samuel Baker, koji je ovamo dopremio i engleske krave i povrće." },
-        { ime: "Visoravan Horton i Kraj svijeta", opis: "Nacionalni park na više od 2000 metara, sa stazom dugom oko devet kilometara do litice koja se obrušava gotovo 900 metara. Treba stići prije devet sati, jer poslije magla zatvori pogled." },
-        { ime: "Liptonovo sjedalo", opis: "Vidikovac iznad Haputalea s kojega je Thomas Lipton nadgledao svoje plantaže. Do njega se hoda ili vozi kroz imanje Dambatenne, čija tvornica iz 1890. godine i danas radi." }
+        { ime: "Nine Arch Bridge", opis: "The viaduct near Ella, completed in 1921, is built of stone, brick and cement, without steel. According to local tradition, the steel intended for the bridge was diverted at the start of the First World War, so the builders finished it without any." },
+        { ime: "Little Adam's Peak and Ella Rock", opis: "Two viewpoints above Ella. The first is reached by an easy walk through a plantation in under an hour, while the second is a half-day climb that partly follows the railway line itself." },
+        { ime: "Nuwara Eliya", opis: "A town with a red brick post office, a racecourse and hotels in the style of English country houses. It was founded in the middle of the 19th century by the explorer Samuel Baker, who also shipped English cows and vegetables up here." },
+        { ime: "Horton Plains and World's End", opis: "A national park at more than 2,000 meters, with a trail about nine kilometers long leading to a cliff that drops almost 900 meters. You need to arrive before nine o'clock, because after that the mist closes off the view." },
+        { ime: "Lipton's Seat", opis: "The viewpoint above Haputale from which Thomas Lipton surveyed his plantations. You walk or drive to it through the Dambatenne estate, whose factory of 1890 is still working today." }
       ],
       jesti: [
-        { ime: "Čaj u tvornici", opis: "Nakon obilaska tvornice kuša se nekoliko vrsta, od najfinijih vršnih listića do jakog praha za čaj s mlijekom." },
-        { ime: "Roti na kolodvoru", opis: "Trokutasti punjeni kruh s povrćem ili jajem, koji prodavači nude kroz prozore vlaka zajedno s prženim čilijem i kikirikijem." },
-        { ime: "Jagode i povrće iz Nuwara Eliye", opis: "Hladna klima pogoduje jagodama, poriluku i mrkvi, koji se prodaju uz cestu i poslužuju u kafićima s vrhnjem." }
+        { ime: "Tea at the factory", opis: "After a tour of the factory you taste several grades, from the finest tips to the strong dust used for tea with milk." },
+        { ime: "Roti at the station", opis: "A triangular stuffed flatbread with vegetables or egg, which vendors offer through the train windows together with fried chilies and peanuts." },
+        { ime: "Strawberries and vegetables from Nuwara Eliya", opis: "The cool climate suits strawberries, leeks and carrots, which are sold by the roadside and served in cafes with cream." }
       ],
       dozivjeti: [
-        { ime: "Vožnja vlakom od Kandyja do Elle", opis: "Ako želite vidjeti gorje u jednom danu, ovo je put: sedam sati kroz tunele, plantaže i slapove, s otvorenim vratima vagona. Mjesta s rezervacijom kupite čim se otvori prodaja.", link: "https://seatreservation.railway.gov.lk/mtktwebslr/" },
-        { ime: "Staza Pekoe Trail", opis: "Pješački put dug oko 300 kilometara, podijeljen na dvadeset i dvije etape, vodi starim konjskim stazama kroz plantaže od Kandyja do Nuwara Eliye. Može se prehodati i samo jedna dnevna dionica.", link: "https://thepekoetrail.org/" },
-        { ime: "Obilazak tvornice čaja", opis: "Vodič pokazuje venuće, valjanje, fermentaciju i sušenje lista, a cijeli postupak od berbe do vrećice traje manje od jednog dana.", link: "https://srilankateaboard.lk/" }
+        { ime: "The train ride from Kandy to Ella", opis: "If you want to see the hill country in a single day, this is the way: seven hours through tunnels, plantations and waterfalls, with the carriage doors open. Buy reserved seats as soon as sales open.", link: "https://seatreservation.railway.gov.lk/mtktwebslr/" },
+        { ime: "The Pekoe Trail", opis: "A walking route about 300 kilometers long, divided into twenty-two stages, follows old horse tracks through the plantations from Kandy to Nuwara Eliya. You can also walk just a single day stage.", link: "https://thepekoetrail.org/" },
+        { ime: "A tea factory tour", opis: "A guide shows you the withering, rolling, fermentation and drying of the leaf, and the whole process from picking to packet takes less than a day.", link: "https://srilankateaboard.lk/" }
       ],
       agencije: [
-        { ime: "The Pekoe Trail", opis: "Službena stranica pješačke staze kroz čajno gorje, s kartama etapa i popisom vodiča.", link: "https://thepekoetrail.org/" },
-        { ime: "Sri Lanka Railways", opis: "Državne željeznice, s voznim redom i prodajom karata.", link: "https://www.railway.gov.lk/" },
-        { ime: "Sri Lanka Tea Board", opis: "Državno tijelo za čaj, s podacima o regijama i vrstama.", link: "https://srilankateaboard.lk/" }
+        { ime: "The Pekoe Trail", opis: "The official website of the walking trail through the tea country, with stage maps and a list of guides.", link: "https://thepekoetrail.org/" },
+        { ime: "Sri Lanka Railways", opis: "The state railways, with timetables and ticket sales.", link: "https://www.railway.gov.lk/" },
+        { ime: "Sri Lanka Tea Board", opis: "The national tea authority, with information on the regions and grades.", link: "https://srilankateaboard.lk/" }
       ],
-      kada: "Od siječnja do travnja je najvedrije. Ponesite dugi rukav i kabanicu, jer je navečer svježe, a pijavice na stazama nakon kiše nisu rijetkost."
+      kada: "January to April brings the clearest weather. Bring long sleeves and a raincoat, because the evenings are cool, and leeches on the trails after rain are not uncommon."
     },
     {
       id: "galle",
       ime: "Galle",
       vrsta: "gradić",
-      sazetak: "Utvrđeni kolonijalni gradić na južnom rtu, s bedemima po kojima se šeće u zalazak sunca i plažama nadomak.",
+      sazetak: "A fortified colonial town on the southern headland, with ramparts for strolling at sunset and beaches close at hand.",
       prica: [
-        "Galle je bio glavna luka otoka mnogo prije Colomba. Prvu utvrdu podigli su Portugalci krajem 16. stoljeća, a Nizozemci su je, nakon što su 1640. osvojili grad, opasali granitnim i koraljnim bedemima kakve vidimo danas.",
-        "Unutar zidina sačuvana je cijela mreža ulica s kućama širokih trijemova, crkvama, džamijom i skladištima, zbog čega je UNESCO 1988. godine utvrdu uvrstio na popis svjetske baštine. Kada je 2004. godine tsunami opustošio novi dio grada, stari su bedemi zaštitili većinu onoga što je iza njih."
+        "Galle was the island's main port long before Colombo. The first fort was raised by the Portuguese at the end of the 16th century, and the Dutch, after capturing the town in 1640, ringed it with the granite and coral ramparts we see today.",
+        "Inside the walls a whole grid of streets has survived, with houses fronted by wide verandas, churches, a mosque and warehouses, which is why UNESCO added the fort to the World Heritage List in 1988. When the tsunami devastated the new part of town in 2004, the old ramparts protected most of what lay behind them."
       ],
       vidjeti: [
-        { ime: "Bedemi i svjetionik", opis: "Šetnja zidinama oko cijele utvrde traje oko sat vremena. Bijeli svjetionik na jugoistočnom uglu potječe iz 1939. godine i stoji na mjestu starijeg, koji je izgorio." },
-        { ime: "Stara gradska vrata", opis: "Iznad unutarnje strane ulaza uklesan je grb nizozemske Istočnoindijske kompanije s monogramom VOC, pijetlom i godinom 1669. Na vanjskoj su strani Britanci poslije dodali svoj grb, pa vrata nose potpise dvaju carstava." },
-        { ime: "Nizozemska reformirana crkva", opis: "Crkva iz 1755. godine, čiji je pod popločen nadgrobnim pločama prenesenima sa starog groblja. Na pločama su uklesane lubanje, pješčani satovi i jedrenjaci." },
-        { ime: "Džamija Meeran", opis: "Bijela džamija kraj svjetionika koja na prvi pogled izgleda kao barokna crkva. Podsjeća na to da u utvrdi stoljećima živi muslimanska trgovačka zajednica, poznata po draguljarstvu." },
-        { ime: "Plaže Unawatuna i Mirissa", opis: "Unawatuna je zaštićena uvala nekoliko kilometara istočno, a Mirissa, sat vožnje dalje, polazište je brodova za promatranje kitova od studenog do travnja." }
+        { ime: "The ramparts and the lighthouse", opis: "A walk along the walls around the entire fort takes about an hour. The white lighthouse on the southeast corner dates from 1939 and stands on the site of an older one, which burned down." },
+        { ime: "The Old Gate", opis: "Above the inner side of the entrance is carved the coat of arms of the Dutch East India Company, with the VOC monogram, a rooster and the year 1669. On the outer side the British later added their own coat of arms, so the gate bears the signatures of two empires." },
+        { ime: "Dutch Reformed Church", opis: "A church of 1755 whose floor is paved with gravestones moved from the old cemetery. Skulls, hourglasses and sailing ships are carved on the slabs." },
+        { ime: "Meeran Mosque", opis: "A white mosque by the lighthouse that at first glance looks like a Baroque church. It is a reminder that a Muslim merchant community, known for its gem trade, has lived in the fort for centuries." },
+        { ime: "Unawatuna and Mirissa beaches", opis: "Unawatuna is a sheltered bay a few kilometers to the east, and Mirissa, an hour's drive farther on, is the departure point for whale-watching boats from November to April." }
       ],
       jesti: [
-        { ime: "Ambul thiyal", opis: "Kiseli suhi curry od tune s crnim paprom i sušenim voćem goraka, specijalitet juga, smišljen tako da riba izdrži danima bez hladnjaka." },
-        { ime: "Svježi plodovi mora", opis: "Riba, lignje i jastozi s ribarnice kraj luke, pripremljeni na žaru u restoranima unutar utvrde." },
-        { ime: "Jogurt s kitulom", opis: "Najbolji bivolji jogurt dolazi upravo s juga, a prodaje se u glinenim loncima uz obalnu cestu." }
+        { ime: "Ambul thiyal", opis: "A sour, dry tuna curry with black pepper and the dried fruit called goraka, a specialty of the south devised so that the fish would keep for days without refrigeration." },
+        { ime: "Fresh seafood", opis: "Fish, squid and lobster from the fish market by the harbor, grilled in the restaurants inside the fort." },
+        { ime: "Curd with kitul", opis: "The best buffalo curd comes from the south itself, and it is sold in clay pots along the coastal road." }
       ],
       dozivjeti: [
-        { ime: "Vođena šetnja utvrdom", opis: "Ako želite čuti priče o obiteljima, trgovcima i duhovima iza svakih vrata, pridružite se šetnji Galle Fort Walks, koju vodi mještanin i nudi je u dnevnoj, večernjoj i gastronomskoj inačici.", link: "https://gallefortwalks.com/" },
-        { ime: "Zalazak sunca na bastionu Flag Rock", opis: "Predvečer se cijeli gradić okupi na zapadnim bedemima, a dječaci skaču sa stijene u more." },
-        { ime: "Promatranje kitova iz Mirisse", opis: "Brodovi isplovljavaju u zoru, a uz malo sreće vide se plavi kitovi i jata dupina. Odaberite prijevoznika koji drži propisanu udaljenost od životinja." }
+        { ime: "A guided walk through the fort", opis: "If you want to hear the stories of the families, merchants and ghosts behind every door, join Galle Fort Walks, led by a local resident and offered in daytime, evening and food versions.", link: "https://gallefortwalks.com/" },
+        { ime: "Sunset at the Flag Rock bastion", opis: "Toward evening the whole town gathers on the western ramparts, and boys jump off the rock into the sea." },
+        { ime: "Whale watching from Mirissa", opis: "The boats set out at dawn, and with a little luck you see blue whales and pods of dolphins. Choose an operator that keeps the prescribed distance from the animals." }
       ],
       agencije: [
-        { ime: "Galle Fort Walks", opis: "Vođene šetnje starom utvrdom s lokalnim vodičem.", link: "https://gallefortwalks.com/" },
-        { ime: "Sri Lanka Tourism", opis: "Službeni turistički portal zemlje.", link: "https://www.srilanka.travel/" }
+        { ime: "Galle Fort Walks", opis: "Guided walks through the old fort with a local guide.", link: "https://gallefortwalks.com/" },
+        { ime: "Sri Lanka Tourism", opis: "The country's official tourism portal.", link: "https://www.srilanka.travel/" }
       ],
-      kada: "Od prosinca do ožujka, kada je more na jugu mirno. Iz Colomba vozi vlak uz samu obalu, što je vožnja vrijedna i sama po sebi."
+      kada: "From December to March, when the sea in the south is calm. A train runs from Colombo right along the coast, a ride that is worth taking for its own sake."
     }
   ],
   izvori: [
-    { ime: "Sri Lanka Tourism, službeni portal", url: "https://www.srilanka.travel/" },
-    { ime: "UNESCO, svjetska baština: Sigiriya", url: "https://whc.unesco.org/en/list/202" },
-    { ime: "UNESCO, svjetska baština: stari grad Galle i utvrde", url: "https://whc.unesco.org/en/list/451" },
+    { ime: "Sri Lanka Tourism, official portal", url: "https://www.srilanka.travel/" },
+    { ime: "UNESCO World Heritage: Sigiriya", url: "https://whc.unesco.org/en/list/202" },
+    { ime: "UNESCO World Heritage: Old Town of Galle and its Fortifications", url: "https://whc.unesco.org/en/list/451" },
     { ime: "Central Cultural Fund", url: "https://ccf.gov.lk/" },
     { ime: "Sri Dalada Maligawa", url: "https://sridaladamaligawa.lk/" },
     { ime: "Department of Wildlife Conservation", url: "https://www.dwc.gov.lk/" },

@@ -1,213 +1,213 @@
 window.ATLAS = window.ATLAS || {};
 window.ATLAS["tajvan"] = {
   id: "tajvan",
-  ime: "Tajvan",
-  regija: "Istočna Azija",
-  sazetak: "Zeleni planinski otok noćnih tržnica, čaja s visina i ljudi koji će vas otpratiti do vrata ako pitate za put.",
+  ime: "Taiwan",
+  regija: "East Asia",
+  sazetak: "A green, mountainous island of night markets, high-mountain tea and people who will walk you to the door if you ask for directions.",
   uvod: [
-    "Tajvan je otok površinom otprilike kao dvije trećine Hrvatske, na kojem živi više od 23 milijuna ljudi, premda mu veći dio prekrivaju planine. Portugalski pomorci nazvali su ga u 16. stoljeću Ilha Formosa, „lijepi otok“. Prije toga tisućama godina ovdje su živjeli austronezijski narodi, čijih šesnaest zajednica država danas službeno priznaje. U 17. stoljeću na otoku su utvrde podigli Nizozemci i Španjolci, zatim ga je preuzeo kineski vojskovođa Koxinga, pa carstvo Qing, a od 1895. do 1945. njime je upravljao Japan.",
-    "Svaki je od tih slojeva ostavio trag: hramove pune tamjana, japanske drvene kuće i ljubav prema toplim izvorima, kuhinju u kojoj se kineske pokrajine susreću na jednom stolu. Nakon desetljeća izvanrednog stanja, ukinutog 1987., Tajvan je postao jedno od najotvorenijih društava u Aziji. Za putnice je lagan: siguran je, prijevoz je odličan, a hrana na noćnim tržnicama jeftina i sjajna."
+    "Taiwan is an island about two thirds the size of Croatia, home to more than 23 million people even though mountains cover most of it. Portuguese sailors named it Ilha Formosa, “beautiful island”, in the 16th century. For thousands of years before that, Austronesian peoples lived here, and the state officially recognizes sixteen of their communities today. In the 17th century the Dutch and the Spanish built forts on the island, then it was taken by the Chinese military leader Koxinga, then by the Qing empire, and from 1895 to 1945 it was ruled by Japan.",
+    "Each of those layers left its mark: temples full of incense, Japanese wooden houses and a love of hot springs, and a cuisine in which the provinces of China meet at one table. After decades of martial law, lifted in 1987, Taiwan became one of the most open societies in Asia. It is an easy place to travel, because it is safe, the transport is excellent, and the food at the night markets is cheap and wonderful."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Od listopada do travnja, a najugodniji su studeni i ožujak. Ljeto je vruće i vlažno, a od lipnja do listopada mogući su tajfuni." },
-    { k: "Valuta", v: "Novi tajvanski dolar (TWD). Na noćnim tržnicama i u malim zalogajnicama plaća se gotovinom, a bankomati u trgovinama koje rade cijeli dan primaju strane kartice." },
-    { k: "Kretanje", v: "Brzi vlak vozi zapadnom obalom od Taipeija do Kaohsiunga za otprilike dva sata. Za podzemnu, autobuse, lokalne vlakove i plaćanje u trgovinama služi kartica EasyCard." },
-    { k: "Napojnica", v: "Ne ostavlja se. Bolji restorani sami dodaju deset posto za uslugu." },
-    { k: "Ulazak", v: "Hrvatski državljani mogu boraviti do 90 dana bez vize. Uvjete provjerite prije puta na službenim stranicama." },
-    { k: "Dobro je znati", v: "U podzemnoj se ne smije jesti, piti ni žvakati žvakaću gumu, i za to se plaća kazna. Potresi su česti, a staze u planinama nakon njih i nakon tajfuna znaju biti zatvorene, pa prije izleta u prirodu provjerite obavijesti." }
+    { k: "When to go", v: "From October to April, with November and March the most pleasant months. Summer is hot and humid, and typhoons are possible from June to October." },
+    { k: "Currency", v: "New Taiwan dollar (TWD). You pay in cash at night markets and small eateries, and the ATMs in the round-the-clock convenience stores accept foreign cards." },
+    { k: "Getting around", v: "The high-speed train runs down the west coast from Taipei to Kaohsiung in about two hours. The EasyCard works on the metro, buses and local trains and for paying in stores." },
+    { k: "Tipping", v: "Tips are not left. Better restaurants add ten percent for service themselves." },
+    { k: "Entry", v: "Croatian citizens can stay up to 90 days without a visa. Check the conditions on the official websites before you travel." },
+    { k: "Good to know", v: "Eating, drinking and chewing gum are not allowed on the metro, and you will be fined for it. Earthquakes are frequent, and mountain trails are sometimes closed after them and after typhoons, so check the notices before heading out into nature." }
   ],
   hrana: [
-    { ime: "Goveđa juha s rezancima", opis: "Tamna juha s komadima pirjane govedine i debelim pšeničnim rezancima.", prica: "Smatra se nacionalnim jelom, a nastala je nakon 1949. u naseljima vojnika pristiglih s kopna, osobito iz Sečuana. Taipei svake godine bira najbolju zdjelu u gradu. Uz nju se jede ukiseljena gorušica." },
-    { ime: "Xiaolongbao", opis: "Parene okruglice s mesom i vrućom juhom unutra.", prica: "Recept je stigao iz Šangaja, a svjetski ga je proslavio taipeijski restoran Din Tai Fung, koji je počeo kao trgovina uljem za kuhanje. Svaka okruglica ondje ima točno osamnaest nabora, a kuhare možete gledati kroz staklo." },
-    { ime: "Čaj s kuglicama", opis: "Hladni čaj s mlijekom i žvakavim kuglicama od tapioke, koji se pije kroz široku slamku.", prica: "Izmišljen je na Tajvanu 1980-ih, a za izum se i danas spore dvije čajane, jedna iz Taichunga i jedna iz Tainana. Pri narudžbi birate koliko šećera i leda želite." },
-    { ime: "Lu rou fan", opis: "Zdjelica riže prelivena sitno rezanom svinjetinom pirjanom u sojinu umaku.", prica: "Najjednostavnije i najdraže jelo na otoku, koje se jede u bilo koje doba dana. Na jugu je meso masnije i slađe, a na sjeveru sitnije sjeckano." },
-    { ime: "Smrdljivi tofu", opis: "Fermentirani tofu, pržen ili kuhan, čiji se miris osjeti s druge strane ulice.", prica: "Miris je mnogo jači od okusa, koji je blag i podsjeća na zreli sir. Prženi se poslužuje s ukiseljenim kupusom, pa je to dobar prvi pokušaj." },
-    { ime: "Gua bao", opis: "Mekano pareno pecivo s pirjanom svinjskom potrbušinom, ukiseljenom gorušicom, korijandrom i mljevenim kikirikijem.", prica: "Zovu ga i „tigar grize svinju“, jer otvoreno pecivo podsjeća na usta. Tradicionalno se jede na kraju poslovne godine, za sreću." },
-    { ime: "Omlet s kamenicama", opis: "Sitne kamenice u omletu zgusnutom škrobom od batata, sa slatko-ljutim umakom.", prica: "Klasik noćnih tržnica. Predaja ga veže uz Koxinginu vojsku u Tainanu, kojoj je u opsadi ponestalo riže, pa su kuhari miješali ono što su imali." },
-    { ime: "Kolač od ananasa", opis: "Prhki četvrtasti kolačić s nadjevom od ananasa.", prica: "Najčešći je dar koji se nosi s Tajvana. Na tajvanskom narječju riječ za ananas zvuči kao „sreća dolazi“, pa se poklanja i za Novu godinu." },
-    { ime: "Oolong s visokih planina", opis: "Poluoksidirani čaj uzgojen iznad tisuću metara, cvjetnog mirisa i maslačnog okusa.", prica: "Magla i hladne noći usporavaju rast lista, pa je čaj slađi. Najpoznatiji dolaze s Alishana i Lishana. Priprema se u malom čajniku, a isti listovi prelijevaju se pet ili šest puta." }
+    { ime: "Beef noodle soup", opis: "A dark broth with chunks of braised beef and thick wheat noodles.", prica: "It is considered the national dish, and it was born after 1949 in the settlements of soldiers who had arrived from the mainland, especially from Sichuan. Every year Taipei picks the best bowl in the city. It is eaten with pickled mustard greens." },
+    { ime: "Xiaolongbao", opis: "Steamed dumplings with meat and hot soup inside.", prica: "The recipe came from Shanghai, and it was made world famous by the Taipei restaurant Din Tai Fung, which started out as a cooking oil shop. Every dumpling there has exactly eighteen folds, and you can watch the cooks through the glass." },
+    { ime: "Bubble tea", opis: "Cold milk tea with chewy tapioca pearls, drunk through a wide straw.", prica: "It was invented in Taiwan in the 1980s, and two teahouses, one from Taichung and one from Tainan, still argue over who came up with it. When you order, you choose how much sugar and ice you want." },
+    { ime: "Lu rou fan", opis: "A small bowl of rice topped with finely cut pork braised in soy sauce.", prica: "This is the simplest and best-loved dish on the island, eaten at any time of day. In the south the meat is fattier and sweeter, and in the north it is chopped more finely." },
+    { ime: "Stinky tofu", opis: "Fermented tofu, fried or stewed, that you can smell from across the street.", prica: "The smell is much stronger than the taste, which is mild and reminiscent of ripe cheese. The fried version is served with pickled cabbage, which makes it a good first try." },
+    { ime: "Gua bao", opis: "A soft steamed bun with braised pork belly, pickled mustard greens, cilantro and ground peanuts.", prica: "It is also called “tiger bites pig”, because the open bun looks like a mouth. Traditionally it is eaten at the end of the business year, for luck." },
+    { ime: "Oyster omelet", opis: "Small oysters in an omelet thickened with sweet potato starch, with a sweet and spicy sauce.", prica: "This is a night market classic. Tradition links it to Koxinga's army in Tainan, which ran out of rice during a siege, so the cooks mixed together whatever they had." },
+    { ime: "Pineapple cake", opis: "A crumbly square pastry with a pineapple filling.", prica: "It is the most common gift people take home from Taiwan. In Taiwanese the word for pineapple sounds like “luck is coming”, so it is also given at New Year." },
+    { ime: "High-mountain oolong", opis: "A semi-oxidized tea grown above a thousand meters, with a floral scent and a buttery taste.", prica: "Mist and cold nights slow the growth of the leaf, which makes the tea sweeter. The best known come from Alishan and Lishan. It is brewed in a small teapot, and the same leaves are steeped five or six times." }
   ],
   obicaji: [
-    { ime: "Noćne tržnice", opis: "Svaka četvrt ima ulicu koja se u sumrak pretvori u niz štandova s hranom, igrama i odjećom. Jede se u hodu ili za plastičnim stolićima, po jedno malo jelo na svakom štandu. Najbolji je putokaz red domaćih ljudi.", gdje: "Raohe, Ningxia i Shilin u Taipeiju, a u Tainanu velika Cvjetna noćna tržnica, koja radi samo nekoliko večeri u tjednu." },
-    { ime: "Festival svjetiljki", opis: "Petnaestog dana lunarne Nove godine u nebo se puštaju papirnate svjetiljke s ispisanim željama. Običaj potječe iz sela u brdima, gdje su svjetiljke nekoć javljale da je opasnost od razbojnika prošla.", gdje: "Pingxi i Shifen, u brdima istočno od Taipeija, u veljači ili početkom ožujka. U Shifenu se svjetiljke puštaju cijele godine." },
-    { ime: "Molitva u hramu", opis: "Tajvanski hramovi miješaju taoizam, budizam i narodna vjerovanja, i u njima je uvijek živo. Vjernici postave pitanje božanstvu i bace dva drvena polumjeseca: ako padnu jedan ravnom, a drugi oblom stranom gore, odgovor je potvrdan.", gdje: "Hram Longshan u Taipeiju i brojni hramovi u Tainanu. Uđite na desna vrata, zmajeva, a izađite na lijeva, tigrova, i ne stajte na prag." },
-    { ime: "Mazuino hodočašće", opis: "Kip božice mora Mazu, zaštitnice ribara, svake se godine devet dana nosi u nosiljci više od tristo kilometara. Stotine tisuća ljudi hoda s njim, a mještani uz put besplatno dijele hranu i piće.", gdje: "Polazi iz hrama Zhenlan u Dajiji, kraj Taichunga, u trećem lunarnom mjesecu, najčešće u travnju." },
-    { ime: "Čajna kultura", opis: "Tajvan je poznat po oolongu. Čaj se priprema u sitnom čajniku, prvo prelijevanje se baca, a čaj se najprije pomiriše iz visoke čašice pa pije iz niske. U čajanama se sjedi satima.", gdje: "Čajane u brdima Maokong iznad Taipeija, do kojih vozi žičara, i u Jiufenu. Plantaže se posjećuju oko Alishana i jezera Sunca i Mjeseca." },
-    { ime: "Topli izvori", opis: "Otok leži na spoju tektonskih ploča, pa termalne vode ima posvuda. Kulturu kupanja donijeli su Japanci, a pravila su slična onima u japanskom onsenu: prvo se operete, a u javnim kupkama odvojenima po spolu kupa se bez kostima.", gdje: "Beitou, do kojeg vozi taipeijska podzemna, te Wulai i Jiaoxi. Mnogi hoteli iznajmljuju privatne kupke na sat." },
-    { ime: "Kamion za smeće koji svira", opis: "Na Tajvanu nema uličnih kontejnera. Kada se začuje Beethovenova „Za Elizu“ ili „Djevojčina molitva“, susjedi istrče s vrećicama i sami ih ubace u žuti kamion. Tako je otok postao jedan od najuspješnijih u recikliranju na svijetu.", gdje: "U svakoj ulici, u Taipeiju pet večeri u tjednu. Čut ćete ga i prije nego što ga vidite." }
+    { ime: "Night markets", opis: "Every neighborhood has a street that turns at dusk into a row of stalls with food, games and clothes. You eat as you walk or at little plastic tables, one small dish at each stall. The best signpost is a line of locals.", gdje: "Raohe, Ningxia and Shilin in Taipei, and in Tainan the big Flower Night Market, which is open only a few evenings a week." },
+    { ime: "Lantern Festival", opis: "On the fifteenth day of the Lunar New Year, paper lanterns with wishes written on them are released into the sky. The custom comes from the villages in the hills, where lanterns once signaled that the danger from bandits had passed.", gdje: "Pingxi and Shifen, in the hills east of Taipei, in February or early March. In Shifen lanterns are released all year round." },
+    { ime: "Praying in a temple", opis: "Taiwanese temples blend Taoism, Buddhism and folk beliefs, and they are always lively. Worshippers put a question to the deity and throw two wooden crescents: if one lands flat side up and the other round side up, the answer is yes.", gdje: "Longshan Temple in Taipei and the many temples of Tainan. Go in through the right-hand door, the dragon's, come out through the left-hand one, the tiger's, and do not step on the threshold." },
+    { ime: "The Mazu pilgrimage", opis: "Every year the statue of the sea goddess Mazu, protector of fishermen, is carried in a palanquin for nine days over more than three hundred kilometers. Hundreds of thousands of people walk with it, and the locals along the way hand out food and drink for free.", gdje: "It sets out from Zhenlan Temple in Dajia, near Taichung, in the third lunar month, most often in April." },
+    { ime: "Tea culture", opis: "Taiwan is known for oolong. The tea is brewed in a tiny teapot, the first infusion is poured away, and you first smell the tea from a tall cup and then drink it from a low one. People sit in teahouses for hours.", gdje: "The teahouses in the Maokong hills above Taipei, reached by gondola, and in Jiufen. Plantations can be visited around Alishan and Sun Moon Lake." },
+    { ime: "Hot springs", opis: "The island lies where tectonic plates meet, so there is thermal water everywhere. The bathing culture was brought by the Japanese, and the etiquette is similar to that of a Japanese onsen: you wash first, and in public baths separated by sex you bathe without a swimsuit.", gdje: "Beitou, which the Taipei metro reaches, and Wulai and Jiaoxi. Many hotels rent private baths by the hour." },
+    { ime: "The garbage truck that plays music", opis: "There are no street dumpsters in Taiwan. When Beethoven's “Für Elise” or “A Maiden's Prayer” starts to play, the neighbors run out with their bags and toss them into the yellow truck themselves. This is how the island became one of the most successful recyclers in the world.", gdje: "On every street, five evenings a week in Taipei. You will hear it before you see it." }
   ],
   fraze: [
-    { izvorno: "Nǐ hǎo", izgovor: "ni HAO", hr: "Dobar dan" },
-    { izvorno: "Xièxie", izgovor: "ŠJE-šje", hr: "Hvala" },
-    { izvorno: "Bù hǎoyìsi", izgovor: "bu hao-JI-s", hr: "Oprostite, ispričavam se (najčešća tajvanska uljudna riječ)" },
-    { izvorno: "Zǎo ān", izgovor: "cao AN", hr: "Dobro jutro" },
-    { izvorno: "Wǒ yào zhège", izgovor: "vo jao DŽE-ge", hr: "Želim ovo" },
-    { izvorno: "Duōshao qián?", izgovor: "DUO-šao ćjen", hr: "Koliko košta?" },
-    { izvorno: "Hǎochī", izgovor: "hao-ČR", hr: "Ukusno" },
-    { izvorno: "Bú yào xiāngcài", izgovor: "bu jao šjang-CAJ", hr: "Bez korijandra, molim" },
-    { izvorno: "To-siā", izgovor: "do-ŠJA", hr: "Hvala na tajvanskom narječju, izmamit će osmijeh" }
+    { izvorno: "Nǐ hǎo", izgovor: "nee HOW", hr: "Hello" },
+    { izvorno: "Xièxie", izgovor: "SHYEH-shyeh", hr: "Thank you" },
+    { izvorno: "Bù hǎoyìsi", izgovor: "boo how-EE-suh", hr: "Excuse me, I'm sorry (the most common Taiwanese polite phrase)" },
+    { izvorno: "Zǎo ān", izgovor: "dzow AHN", hr: "Good morning" },
+    { izvorno: "Wǒ yào zhège", izgovor: "woh yow JUH-guh", hr: "I want this one" },
+    { izvorno: "Duōshao qián?", izgovor: "DWOH-shao chyen", hr: "How much does it cost?" },
+    { izvorno: "Hǎochī", izgovor: "how-CHIR", hr: "Delicious" },
+    { izvorno: "Bú yào xiāngcài", izgovor: "boo yow shyahng-TSAI", hr: "No cilantro, please" },
+    { izvorno: "To-siā", izgovor: "daw-SHYAH", hr: "Thank you in Taiwanese, sure to earn you a smile" }
   ],
   zanimljivosti: [
-    "Na otoku manjem od Hrvatske više je od 260 vrhova viših od tri tisuće metara. Najviši, Yushan, s 3952 metra viši je od japanskog Fujija.",
-    "Neboder Taipei 101 bio je najviša zgrada na svijetu od 2004. do 2010. Od vjetra i potresa čuva ga čelična kugla teška 660 tona, obješena između 87. i 92. kata.",
-    "Svaki račun iz trgovine ujedno je srećka. Država svaka dva mjeseca izvlači brojeve, a običaj je uveden 1951. kako bi kupci tražili račun, a trgovci plaćali porez.",
-    "Tajvan je 2019. prvi u Aziji ozakonio istospolni brak.",
-    "Trgovine koje rade cijeli dan i noć ovdje su na svakom uglu, i u njima se može platiti režije, poslati paket, kupiti karta za vlak i podgrijati večera.",
-    "Tajvan se koristi tradicionalnim kineskim znakovima, koji imaju više poteza od pojednostavnjenih znakova uvedenih u kontinentalnoj Kini 1950-ih.",
-    "Otokom prolazi Rakova obratnica, koju kod grada Chiayija obilježava spomenik, pa je sjever suptropski, a jug tropski."
+    "On an island smaller than Croatia there are more than 260 peaks higher than three thousand meters. The highest, Yushan, at 3952 meters, is taller than Japan's Mount Fuji.",
+    "The Taipei 101 skyscraper was the tallest building in the world from 2004 to 2010. It is protected from wind and earthquakes by a steel sphere weighing 660 tons, suspended between the 87th and 92nd floors.",
+    "Every store receipt doubles as a lottery ticket. The state draws numbers every two months, and the custom was introduced in 1951 so that shoppers would ask for a receipt and shopkeepers would pay their taxes.",
+    "In 2019 Taiwan became the first place in Asia to legalize same-sex marriage.",
+    "Stores open day and night are on every corner here, and in them you can pay your utility bills, send a package, buy a train ticket and heat up your dinner.",
+    "Taiwan uses traditional Chinese characters, which have more strokes than the simplified characters introduced in mainland China in the 1950s.",
+    "The Tropic of Cancer crosses the island, marked by a monument near the city of Chiayi, so the north is subtropical and the south tropical."
   ],
   mjesta: [
     {
       id: "taipei",
       ime: "Taipei",
       vrsta: "grad",
-      sazetak: "Glavni grad u kotlini među zelenim brdima, u kojem se carsko blago iz Pekinga gleda prije podne, a navečer jede na ulici.",
+      sazetak: "A capital in a basin among green hills, where you look at imperial treasures from Beijing in the morning and eat on the street in the evening.",
       prica: [
-        "Taipei je mlad grad. Zidine je dobio tek 1884., pod carstvom Qing, a Japanci su ga učinili sjedištem svoje kolonijalne uprave i ostavili mu široke avenije i zgrade od crvene opeke. Kada se 1949. ovamo povukla vlada Republike Kine, sa sobom je donijela i velik dio carske zbirke iz Zabranjenog grada.",
-        "Stari dio leži uz rijeku, oko hrama Longshan i trgovačke ulice Dihua, dok je novo središte na istoku, oko nebodera Taipei 101. Iz grada se podzemnom stiže do toplih izvora, a žičarom do plantaža čaja."
+        "Taipei is a young city. It got its walls only in 1884, under the Qing empire, and the Japanese made it the seat of their colonial administration and left it wide avenues and red-brick buildings. When the government of the Republic of China withdrew here in 1949, it brought a large part of the imperial collection from the Forbidden City along with it.",
+        "The old part lies along the river, around Longshan Temple and the shopping street Dihua, while the new center is in the east, around the Taipei 101 skyscraper. From the city you can reach hot springs by metro and tea plantations by gondola."
       ],
       vidjeti: [
-        { ime: "Muzej nacionalne palače", opis: "Čuva gotovo sedamsto tisuća predmeta koje su kineski carevi skupljali stoljećima, pa se postav stalno izmjenjuje. Najpoznatija su dva sitna djela: kupus od žada na kojem sjede skakavac i zrikavac, i kamen koji izgleda kao komad pirjane svinjske potrbušine. Jedno od njih povremeno gostuje u južnoj podružnici muzeja, pa provjerite gdje je." },
-        { ime: "Taipei 101", opis: "Neboder visok 508 metara, dovršen 2004., oblikovan je kao stabljika bambusa od osam odsječaka po osam katova, jer osmica donosi sreću. S vidikovca se spustite pogledati golemu čeličnu kuglu koja se njiše i smiruje zgradu za tajfuna." },
-        { ime: "Hram Longshan", opis: "Hram su 1738. podigli doseljenici iz kineske pokrajine Fujian. Kada je 1945. u bombardiranju uništena glavna dvorana, kip božice Guanyin ostao je neoštećen, što vjernici smatraju čudom. Na stupovima potražite zmajeve klesane u kamenu, a u stražnjem dijelu boga Mjesečeva starca, kojem se mole oni koji traže ljubav." },
-        { ime: "Spomen-dvorana Chiang Kai-sheka", opis: "Bijela dvorana s plavim krovom iz 1980. posvećena je dugogodišnjem predsjedniku. Do kipa vodi 89 stuba, koliko je imao godina. Trg pred njom danas se zove Trg slobode, jer su se ondje održavali prosvjedi koji su donijeli demokraciju, a u prizemlju se govori i o tamnim stranama njegove vladavine." },
-        { ime: "Ulica Dihua u četvrti Dadaocheng", opis: "Najstarija trgovačka ulica u gradu obogatila se u 19. stoljeću na izvozu čaja. Pročelja spajaju kineske, japanske i barokne ukrase, a u trgovinama se prodaju sušene gljive, ljekovito bilje i čaj. Pred Novu godinu ovdje se kupuje sve za blagdanski stol." },
-        { ime: "Beitou", opis: "Četvrt toplih izvora koju su razvili Japanci. U Dolini pakla tirkizna voda isparava na gotovo sto stupnjeva. Muzej toplih izvora nalazi se u nekadašnjem javnom kupalištu iz 1913., sagrađenom napola u engleskom, a napola u japanskom stilu." }
+        { ime: "National Palace Museum", opis: "It holds almost seven hundred thousand objects that China's emperors collected over centuries, so the display is constantly rotated. The most famous are two tiny works: a jade cabbage with a locust and a katydid sitting on it, and a stone that looks like a piece of braised pork belly. One of them is occasionally on loan to the museum's southern branch, so check where it is." },
+        { ime: "Taipei 101", opis: "The 508-meter skyscraper, completed in 2004, is shaped like a bamboo stalk of eight segments with eight floors each, because the number eight brings luck. From the observatory, go down to see the enormous steel sphere that sways and steadies the building during typhoons." },
+        { ime: "Longshan Temple", opis: "The temple was built in 1738 by settlers from the Chinese province of Fujian. When the main hall was destroyed in the bombing of 1945, the statue of the goddess Guanyin was left undamaged, which worshippers consider a miracle. Look for the dragons carved in stone on the columns and, at the back, for the god known as the Old Man under the Moon, to whom those looking for love pray." },
+        { ime: "Chiang Kai-shek Memorial Hall", opis: "The white hall with a blue roof from 1980 is dedicated to the longtime president. There are 89 steps up to the statue, one for each year of his life. The square in front of it is now called Liberty Square, because the protests that brought democracy were held there, and the ground floor also addresses the dark sides of his rule." },
+        { ime: "Dihua Street in the Dadaocheng district", opis: "The oldest shopping street in the city grew rich in the 19th century on the export of tea. The facades combine Chinese, Japanese and Baroque ornament, and the shops sell dried mushrooms, medicinal herbs and tea. Before the New Year this is where people buy everything for the holiday table." },
+        { ime: "Beitou", opis: "A hot spring district developed by the Japanese. In Hell Valley turquoise water steams at almost a hundred degrees Celsius. The Hot Spring Museum is housed in a former public bathhouse from 1913, built half in the English style and half in the Japanese." }
       ],
       jesti: [
-        { ime: "Goveđa juha s rezancima", opis: "Tražite je u malim zalogajnicama oko ulice Yongkang i taipeijskog glavnog kolodvora. Birate između tamne, pirjane juhe i bistre." },
-        { ime: "Pecivo s paprom na tržnici Raohe", opis: "Tijesto punjeno svinjetinom s crnim paprom i mladim lukom lijepi se na unutarnju stijenku glinene peći. Štand je odmah kod ulaza u tržnicu, uz hram, i prepoznat ćete ga po redu." },
-        { ime: "Tajvanski doručak", opis: "Toplo sojino mlijeko, slatko ili slano, uz prženo tijesto youtiao u pogači sa sezamom i palačinku s jajetom dan bing. Zalogajnice s doručkom otvaraju se prije zore." },
-        { ime: "Sladoled od manga na ledu", opis: "Brdo struganog leda s kockama svježeg manga i kondenziranim mlijekom, ljetna slastica s ulice Yongkang." }
+        { ime: "Beef noodle soup", opis: "Look for it in the small eateries around Yongkang Street and Taipei Main Station. You choose between a dark, braised broth and a clear one." },
+        { ime: "Pepper buns at Raohe market", opis: "Dough filled with black pepper pork and scallions is stuck to the inside wall of a clay oven. The stall is right at the entrance to the market, by the temple, and you will recognize it by the line." },
+        { ime: "Taiwanese breakfast", opis: "Warm soy milk, sweet or savory, with the fried dough stick youtiao tucked into a sesame flatbread and the egg crepe dan bing. Breakfast shops open before dawn." },
+        { ime: "Mango shaved ice", opis: "A mountain of shaved ice with cubes of fresh mango and condensed milk, a summer treat from Yongkang Street." }
       ],
       dozivjeti: [
-        { ime: "Besplatna pješačka tura", opis: "Like It Formosa svakodnevno vodi šetnje na engleskom po starom i modernom Taipeiju. Vodiči su mladi domaći ljudi, a plaća se prema vlastitoj procjeni na kraju.", link: "https://www.likeitformosa.com/" },
-        { ime: "Tura hrane", opis: "Taipei Eats vodi po štandovima i zalogajnicama u koje same ne biste ušle, uz objašnjenje svakog jela, pa i smrdljivog tofua.", link: "https://taipeieats.com/" },
-        { ime: "Čaj u brdima Maokong", opis: "Žičara iz zoološkog vrta penje se do plantaža čaja, gdje čajane s terasama gledaju na grad. Dođite pred sumrak i ostanite dok se ne upale svjetla." },
-        { ime: "Slonova planina", opis: "Dvadeset minuta stuba vodi do vidikovca s kojeg nastaju poznate fotografije nebodera Taipei 101. Najljepše je u zalazak sunca, kada je i najveća gužva." }
+        { ime: "A free walking tour", opis: "Like It Formosa leads daily walks in English through old and modern Taipei. The guides are young locals, and you pay what you think it was worth at the end.", link: "https://www.likeitformosa.com/" },
+        { ime: "A food tour", opis: "Taipei Eats takes you around stalls and eateries you would not walk into by yourself, with an explanation of every dish, stinky tofu included.", link: "https://taipeieats.com/" },
+        { ime: "Tea in the Maokong hills", opis: "The gondola from the zoo climbs to the tea plantations, where teahouses with terraces look out over the city. Come before dusk and stay until the lights come on." },
+        { ime: "Elephant Mountain", opis: "Twenty minutes of steps lead to the lookout where the famous photographs of Taipei 101 are taken. It is loveliest at sunset, which is also when it is most crowded." }
       ],
       agencije: [
-        { ime: "Taipei Travel", opis: "Službeni turistički vodič grada Taipeija.", link: "https://www.travel.taipei/en" },
-        { ime: "Like It Formosa", opis: "Organizator besplatnih pješačkih tura na engleskom u Taipeiju, Taichungu, Tainanu i Kaohsiungu.", link: "https://www.likeitformosa.com/" },
-        { ime: "TourMeAway", opis: "Taipeijska tvrtka koja od 2014. vodi pješačke ture na engleskom, uz ture hrane i čajne ceremonije.", link: "https://www.tourmeaway.com/" }
+        { ime: "Taipei Travel", opis: "The official tourist guide of the city of Taipei.", link: "https://www.travel.taipei/en" },
+        { ime: "Like It Formosa", opis: "The organizer of free walking tours in English in Taipei, Taichung, Tainan and Kaohsiung.", link: "https://www.likeitformosa.com/" },
+        { ime: "TourMeAway", opis: "A Taipei company that has been running walking tours in English since 2014, along with food tours and tea ceremonies.", link: "https://www.tourmeaway.com/" }
       ],
-      kada: "Listopad do prosinca te ožujak i travanj. Zimi često sipi kiša, pa uz sebe imajte kišobran. Muzej nacionalne palače najmirniji je radnim danom poslijepodne."
+      kada: "October to December, and March and April. In winter it often drizzles, so keep an umbrella with you. The National Palace Museum is quietest on weekday afternoons."
     },
     {
       id: "jiufen-shifen",
-      ime: "Jiufen i Shifen",
+      ime: "Jiufen and Shifen",
       vrsta: "gradić",
-      sazetak: "Nekadašnji gradić tragača za zlatom na strmoj padini nad morem i selo u kojem se s željezničke pruge puštaju svjetiljke u nebo.",
+      sazetak: "A former gold prospectors' town on a steep slope above the sea, and a village where lanterns are released into the sky from the railway tracks.",
       prica: [
-        "Predaja kaže da je u selu nekoć živjelo devet obitelji, pa su iz grada uvijek naručivale devet dijelova svega, i odatle ime Jiufen. Godine 1893. u blizini je pronađeno zlato, i selo je u japansko doba naraslo u bogat rudarski gradić koji su zvali Malim Šangajem.",
-        "Rudnici su zatvoreni 1971. i mjesto je gotovo opustjelo. Oživio ga je film „Grad tuge“ iz 1989., sniman na njegovim stubama, koji je osvojio Zlatnog lava u Veneciji. Često se tvrdi da je Jiufen nadahnuo animirani film „Avanture male Chihiro“, no redatelj Hayao Miyazaki to je opovrgnuo."
+        "Tradition says that nine families once lived in the village, so they always ordered nine portions of everything from town, and that is where the name Jiufen comes from. In 1893 gold was found nearby, and during the Japanese era the village grew into a rich mining town that people called Little Shanghai.",
+        "The mines closed in 1971 and the place was almost deserted. It was revived by the 1989 film “A City of Sadness”, shot on its stairways, which won the Golden Lion in Venice. It is often claimed that Jiufen inspired the animated film “Spirited Away”, but the director Hayao Miyazaki has denied it."
       ],
       vidjeti: [
-        { ime: "Stara ulica Jishan", opis: "Uska natkrivena ulica koja prati padinu, s neprekinutim nizom štandova. Dođite gladne i kušajte usput, jer je to pola doživljaja. Nakon šest navečer izletnici odlaze i ulica se smiri." },
-        { ime: "Stube Shuqi", opis: "Strma kamena ulica koja presijeca gradić odozgo prema dolje, obrubljena crvenim lampionima i čajanama. Na njoj je i staro kino Shengping, nekoć najveće na sjeveru otoka, u kojem su se rudari zabavljali." },
-        { ime: "Muzej zlata u Jinguashiju", opis: "Desetak minuta autobusom od Jiufena obnovljeno je rudarsko naselje s japanskim kućama. U muzeju možete dotaknuti zlatnu polugu tešku 220 kilograma i ući u dio rudarskog okna. Tijekom rata ovdje je bio i logor za savezničke zarobljenike, kojima je posvećen spomen-park." },
-        { ime: "Zlatni slap i more dviju boja", opis: "Ispod Jinguashija voda teče preko stijena obojenih u zlatnožuto od minerala iz rudnika. U zaljevu se ta voda susreće s morem, pa je uz obalu žuta, a dalje plava." },
-        { ime: "Stara ulica u Shifenu", opis: "Vlak brdske pruge Pingxi, građene za prijevoz ugljena, prolazi sredinom ulice, na korak od trgovina. Čim prođe, ljudi stanu na tračnice i puštaju papirnate svjetiljke. Svaka boja svjetiljke znači drugu želju: crvena zdravlje, žuta novac, ružičasta ljubav." },
-        { ime: "Slap Shifen", opis: "Slap širok četrdeset metara u obliku potkove, do kojeg se od kolodvora hoda dvadesetak minuta preko visećih mostova. Zovu ga tajvanskom Niagarom." }
+        { ime: "Jishan Old Street", opis: "A narrow covered street that follows the slope, with an unbroken row of stalls. Come hungry and taste as you go, because that is half the experience. After six in the evening the day-trippers leave and the street calms down." },
+        { ime: "Shuqi Stairs", opis: "A steep stone street that cuts through the town from top to bottom, lined with red lanterns and teahouses. On it stands the old Shengping cinema, once the largest in the north of the island, where the miners went for entertainment." },
+        { ime: "The Gold Museum in Jinguashi", opis: "About ten minutes by bus from Jiufen there is a restored mining settlement with Japanese houses. In the museum you can touch a gold bar weighing 220 kilograms and walk into part of a mine shaft. During the war there was also a camp here for Allied prisoners, to whom a memorial park is dedicated." },
+        { ime: "The Golden Waterfall and the two-colored sea", opis: "Below Jinguashi the water runs over rocks stained golden yellow by minerals from the mine. In the bay that water meets the sea, so it is yellow along the shore and blue farther out." },
+        { ime: "Shifen Old Street", opis: "The train of the Pingxi mountain line, built to carry coal, runs down the middle of the street, a step away from the shops. As soon as it has passed, people stand on the tracks and release paper lanterns. Each lantern color stands for a different wish: red for health, yellow for money, pink for love." },
+        { ime: "Shifen Waterfall", opis: "A horseshoe-shaped waterfall forty meters wide, about a twenty-minute walk from the station across suspension bridges. People call it the Niagara of Taiwan." }
       ],
       jesti: [
-        { ime: "Kuglice od taroa", opis: "Žvakave kuglice od taroa i batata u slatkoj juhi, tople zimi, a na ledu ljeti. Najpoznatija slastičarnica je na vrhu stuba kod škole, s pogledom na more." },
-        { ime: "Rolica s kikirikijem i sladoledom", opis: "U tanku palačinku stružu se strugotine s bloka kikirikija u karamelu, dodaju dvije kuglice sladoleda od taroa i listić korijandra. Neobičan spoj koji vrijedi kušati cijeli." },
-        { ime: "Mesne okruglice u prozirnom tijestu", opis: "Okruglice od škroba batata punjene svinjetinom mariniranom u crvenom rižinu kvascu, poslužene u gustom slatkastom umaku." }
+        { ime: "Taro balls", opis: "Chewy balls of taro and sweet potato in a sweet soup, warm in winter and over ice in summer. The most famous dessert shop is at the top of the stairs by the school, with a view of the sea." },
+        { ime: "Peanut ice cream roll", opis: "Shavings from a block of peanut brittle are scraped onto a thin crepe, followed by two scoops of taro ice cream and a sprig of cilantro. It is an unusual combination that is worth tasting in full." },
+        { ime: "Meatballs in translucent dough", opis: "Dumplings of sweet potato starch filled with pork marinated in red yeast rice, served in a thick, sweetish sauce." }
       ],
       dozivjeti: [
-        { ime: "Čaj s pogledom", opis: "U čajanama na stubama Shuqi i iznad njih naručuje se lokalni oolong, a domaćin pokaže kako se priprema. S terasa se vide obala i svjetla ribarskih brodova. Najpoznatija je čajana u nekadašnjoj kovačnici, s crvenim lampionima na pročelju." },
-        { ime: "Puštanje svjetiljke u Shifenu", opis: "Na četiri stranice svjetiljke kistom napišete želje, a prodavač vas fotografira dok je puštate. Postoje i ekološke svjetiljke koje se u cijelosti razgrade." },
-        { ime: "Vožnja prugom Pingxi", opis: "Stari dizelski vlak vozi kroz šumoviti klanac od Ruifanga do Jingtonga. S dnevnom kartom možete silaziti na svakoj postaji, primjerice u Houtongu, selu mačaka." }
+        { ime: "Tea with a view", opis: "In the teahouses on and above the Shuqi Stairs you order the local oolong and the host shows you how it is prepared. From the terraces you can see the coast and the lights of the fishing boats. The best known is the teahouse in a former blacksmith's shop, with red lanterns on its facade." },
+        { ime: "Releasing a lantern in Shifen", opis: "You write your wishes with a brush on the four sides of the lantern, and the seller photographs you as you let it go. There are also eco-friendly lanterns that decompose completely." },
+        { ime: "A ride on the Pingxi line", opis: "The old diesel train runs through a wooded gorge from Ruifang to Jingtong. With a day pass you can get off at every stop, for example in Houtong, the cat village." }
       ],
       agencije: [
-        { ime: "New Taipei City Travel", opis: "Službeni turistički vodič grada Novi Taipei, kojem pripadaju Jiufen, Jinguashi i Shifen.", link: "https://newtaipei.travel/en" },
-        { ime: "Turistička uprava Tajvana", opis: "Državni turistički portal s informacijama o prijevozu i izletničkim autobusima.", link: "https://eng.taiwan.net.tw/" }
+        { ime: "New Taipei City Travel", opis: "The official tourist guide of New Taipei City, to which Jiufen, Jinguashi and Shifen belong.", link: "https://newtaipei.travel/en" },
+        { ime: "Taiwan Tourism Administration", opis: "The national tourism portal, with information on transport and tourist shuttle buses.", link: "https://eng.taiwan.net.tw/" }
       ],
-      kada: "Radnim danom, jer je vikendom gužva na stubama velika. Kiša je ovdje česta, osobito zimi, ali magla gradiću dobro stoji. Iz Taipeija se stiže vlakom do Ruifanga pa autobusom ili izravnim autobusom, za oko sat i pol."
+      kada: "On a weekday, because on weekends the stairs get very crowded. Rain is frequent here, especially in winter, but mist suits the town well. From Taipei you get there by train to Ruifang and then by bus, or by direct bus, in about an hour and a half."
     },
     {
       id: "tainan",
       ime: "Tainan",
       vrsta: "grad",
-      sazetak: "Najstariji grad na otoku, s hramom na svakom uglu i hranom zbog koje i Taipejci sjedaju na vlak.",
+      sazetak: "The oldest city on the island, with a temple on every corner and food that makes even people from Taipei hop on a train.",
       prica: [
-        "Nizozemska istočnoindijska kompanija podigla je ovdje 1624. utvrdu Zeelandia i odavde trgovala s Kinom i Japanom. Godine 1662. protjerao ju je Koxinga, vojskovođa odan svrgnutoj dinastiji Ming, kojeg na Tajvanu štuju gotovo kao božanstvo.",
-        "Tainan je zatim više od dvjesto godina bio glavni grad otoka. Zato ovdje ima više starih hramova nego igdje drugdje na Tajvanu, a život je sporiji i okrenut hrani. Kuhinja je slađa nego na sjeveru, što se pripisuje stoljećima uzgoja šećerne trske."
+        "The Dutch East India Company built Fort Zeelandia here in 1624 and traded from it with China and Japan. In 1662 it was driven out by Koxinga, a military leader loyal to the deposed Ming dynasty, who is revered in Taiwan almost as a deity.",
+        "Tainan was then the island's capital for more than two hundred years. That is why there are more old temples here than anywhere else in Taiwan, and why life is slower and centered on food. The cooking is sweeter than in the north, which is put down to centuries of sugarcane growing."
       ],
       vidjeti: [
-        { ime: "Utvrda Anping", opis: "Ostaci nizozemske Zeelandije, dovršene 1634. Na sačuvanom dijelu zida od crvene opeke vidi se vezivo koje su graditelji miješali od šećernog sirupa, ljepljive riže i mljevenih školjaka kamenica. Vidikovac i većina današnjih zgrada potječu iz japanskog doba." },
-        { ime: "Kula Chihkan", opis: "Na temeljima druge nizozemske utvrde, Provintije iz 1653., stoje dva kineska paviljona. Pred njima je devet kamenih ploča na leđima kornjača, koje je car Qianlong poslao u spomen na ugušenu pobunu. Potražite i kip koji prikazuje predaju Nizozemaca Koxingi." },
-        { ime: "Konfucijev hram", opis: "Najstariji Konfucijev hram na Tajvanu sagrađen je 1665. i bio je prva škola na otoku, kako piše na ploči nad ulazom. U njemu nema kipova, samo pločice s imenima mudraca. Pred vratima je kamen koji je od jahača tražio da sjašu, bez obzira na čin." },
-        { ime: "Kuća u stablu u Anpingu", opis: "Skladište britanske trgovačke kuće iz 19. stoljeća napušteno je nakon rata, pa su ga zračni korijeni banjana posve prerasli. Korijenje danas drži zidove i zamjenjuje krov, a kroz zgradu vode povišene staze." },
-        { ime: "Ulica Shennong", opis: "Najbolje sačuvana stara ulica u gradu, nekoć uz kanal kojim je roba stizala do trgovaca. Kuće imaju vrata na katu kroz koja se teret dizao iz čamaca. Navečer je osvijetljena lampionima koje oslikavaju lokalni umjetnici." },
-        { ime: "Nacionalni muzej tajvanske povijesti", opis: "Ako želite razumjeti kako su se na otoku smjenjivali starosjedioci, Nizozemci, Kinezi i Japanci, ovdje je to ispričano kroz ulice i prizore u prirodnoj veličini, kroz koje se hoda." }
+        { ime: "Anping Fort", opis: "The remains of Dutch Zeelandia, completed in 1634. On the surviving section of red-brick wall you can see the mortar that the builders mixed from sugar syrup, sticky rice and ground oyster shells. The lookout tower and most of today's buildings date from the Japanese era." },
+        { ime: "Chihkan Tower", opis: "Two Chinese pavilions stand on the foundations of a second Dutch fort, Provintia, from 1653. In front of them are nine stone tablets on the backs of turtles, sent by the Qianlong Emperor to commemorate a crushed rebellion. Look also for the statue showing the surrender of the Dutch to Koxinga." },
+        { ime: "Confucius Temple", opis: "The oldest Confucius temple in Taiwan was built in 1665 and was the first school on the island, as the plaque above the entrance says. There are no statues in it, only tablets with the names of the sages. In front of the gate stands a stone that ordered riders to dismount, whatever their rank." },
+        { ime: "Anping Tree House", opis: "The warehouse of a British trading house from the 19th century was abandoned after the war, and the aerial roots of banyan trees grew right over it. Today the roots hold up the walls and stand in for the roof, and raised walkways lead through the building." },
+        { ime: "Shennong Street", opis: "The best-preserved old street in the city once ran beside a canal along which goods reached the merchants. The houses have doors on the upper floor through which cargo was hoisted from the boats. In the evening it is lit by lanterns painted by local artists." },
+        { ime: "National Museum of Taiwan History", opis: "If you want to understand how indigenous peoples, the Dutch, the Chinese and the Japanese followed one another on the island, here the story is told through life-size streets and scenes that you walk through." }
       ],
       jesti: [
-        { ime: "Danzai rezanci", opis: "Mala zdjela rezanaca s mljevenom svinjetinom, jednim račićem i juhom od račjih glava. Krajem 19. stoljeća počeo ih je prodavati ribar kako bi preživio mjesece tajfuna, noseći kuhinju na motki preko ramena." },
-        { ime: "Lijes od kruha", opis: "Debela kriška prženog kruha izdubljena i napunjena gustim bijelim umakom s piletinom i plodovima mora, pa poklopljena. Ime je dobila po obliku, a jede se na noćnim tržnicama." },
-        { ime: "Juha od mliječne ribe", opis: "Tainanski doručak: bistra juha s komadom masne, nježne ribe koja se uzgaja u obalnim lagunama od Koxingina doba. Uz nju ide riža s pirjanim mesom." },
-        { ime: "Goveđa juha za doručak", opis: "Tanke kriške sirove govedine prelijevaju se kipućom juhom pred vama. Meso stiže iz klaonice iste noći, pa zalogajnice rade od ranog jutra dok ne prodaju sve." }
+        { ime: "Danzai noodles", opis: "A small bowl of noodles with ground pork, a single shrimp and a broth made from shrimp heads. At the end of the 19th century a fisherman began selling them to get through the typhoon months, carrying his kitchen on a pole over his shoulder." },
+        { ime: "Coffin bread", opis: "A thick slice of fried bread hollowed out, filled with a thick white sauce with chicken and seafood, and then covered with a lid. It got its name from its shape and is eaten at night markets." },
+        { ime: "Milkfish soup", opis: "A Tainan breakfast: a clear soup with a piece of fatty, delicate fish that has been farmed in the coastal lagoons since Koxinga's time. It comes with rice topped with braised meat." },
+        { ime: "Beef soup for breakfast", opis: "Thin slices of raw beef are doused with boiling broth in front of you. The meat arrives from the slaughterhouse that same night, so the eateries open in the early morning and stay open until everything is sold." }
       ],
       dozivjeti: [
-        { ime: "Pješačka tura starim gradom", opis: "Like It Formosa vodi šetnje na engleskom kroz hramove i ulice središta, uz objašnjenja kako se u hramu moli i baca polumjesece.", link: "https://www.likeitformosa.com/" },
-        { ime: "Cvjetna noćna tržnica", opis: "Najveća je noćna tržnica na jugu, s nekoliko stotina štandova na golemom parkiralištu. Radi samo nekoliko večeri u tjednu, pa prije dolaska provjerite koje." },
-        { ime: "Muzej Chimei", opis: "Privatni muzej u zgradi nalik europskoj palači, s velikom zbirkom violina, europskog slikarstva i oružja, koju je skupio lokalni industrijalac kako bi je svi mogli besplatno gledati kao on u djetinjstvu.", link: "https://www.chimeimuseum.org/en" }
+        { ime: "A walking tour of the old city", opis: "Like It Formosa leads walks in English through the temples and streets of the center, with explanations of how to pray in a temple and throw the crescents.", link: "https://www.likeitformosa.com/" },
+        { ime: "Flower Night Market", opis: "This is the biggest night market in the south, with several hundred stalls on a huge parking lot. It is open only a few evenings a week, so check which ones before you go." },
+        { ime: "Chimei Museum", opis: "A private museum in a building resembling a European palace, with a large collection of violins, European painting and weapons, assembled by a local industrialist so that everyone could see it for free, as he did in his childhood.", link: "https://www.chimeimuseum.org/en" }
       ],
       agencije: [
-        { ime: "Travel Tainan", opis: "Službeni turistički vodič grada Tainana.", link: "https://www.twtainan.net/en/" },
-        { ime: "Like It Formosa", opis: "Organizator besplatnih pješačkih tura na engleskom.", link: "https://www.likeitformosa.com/" },
-        { ime: "Nacionalni muzej tajvanske povijesti", opis: "Službena stranica muzeja s postavom i radnim vremenom.", link: "https://www.nmth.gov.tw/en/" }
+        { ime: "Travel Tainan", opis: "The official tourist guide of the city of Tainan.", link: "https://www.twtainan.net/en/" },
+        { ime: "Like It Formosa", opis: "The organizer of free walking tours in English.", link: "https://www.likeitformosa.com/" },
+        { ime: "National Museum of Taiwan History", opis: "The museum's official site, with its exhibitions and opening hours.", link: "https://www.nmth.gov.tw/en/" }
       ],
-      kada: "Od studenog do ožujka, kada je suho i sunčano. Ljeti je vrlo vruće, pa razgledavajte ujutro i navečer. Brzim vlakom iz Taipeija stiže se za manje od dva sata, a s kolodvora brzog vlaka do središta vozi lokalni vlak."
+      kada: "From November to March, when it is dry and sunny. Summer is very hot, so do your sightseeing in the morning and evening. The high-speed train from Taipei takes less than two hours, and a local train runs from the high-speed station to the center."
     },
     {
       id: "sun-moon-alishan",
-      ime: "Jezero Sunca i Mjeseca i Alishan",
+      ime: "Sun Moon Lake and Alishan",
       vrsta: "priroda",
-      sazetak: "Planinsko jezero okruženo hramovima i plantažama čaja te šumska željeznica koja se penje do izlaska sunca nad morem oblaka.",
+      sazetak: "A mountain lake ringed by temples and tea plantations, and a forest railway that climbs to a sunrise over a sea of clouds.",
       prica: [
-        "Jezero u samom središtu otoka domovina je naroda Thao, najmanje od priznatih starosjedilačkih zajednica. Predaja kaže da su ga njihovi lovci otkrili slijedeći bijelog jelena. Ime je dobilo po obliku: istočni dio okrugao je poput sunca, a zapadni zakrivljen poput mjeseca. Japanci su ga 1930-ih povećali radi hidroelektrane.",
-        "Alishan, dva sata južnije, planinski je kraj naroda Tsou. Japanska uprava izgradila je 1912. uskotračnu prugu kako bi izvlačila tisućljetne crvene čemprese, od kojih su građena svetišta u Japanu. Sječa je odavno zabranjena, a pruga danas vozi putnike."
+        "The lake at the very center of the island is the homeland of the Thao people, the smallest of the recognized indigenous communities. Tradition says their hunters discovered it while following a white deer. It was named for its shape: the eastern part is round like the sun, and the western part curved like the moon. The Japanese enlarged it in the 1930s for a hydroelectric plant.",
+        "Alishan, two hours to the south, is the mountain home of the Tsou people. In 1912 the Japanese administration built a narrow-gauge railway to haul out thousand-year-old red cypresses, from which shrines in Japan were built. Logging has long been banned, and today the railway carries passengers."
       ],
       vidjeti: [
-        { ime: "Hram Wenwu", opis: "Veliki hram na sjevernoj obali jezera posvećen je Konfuciju, bogu rata Guan Gongu i bogu književnosti. Pred ulazom stoje dva crvena kamena lava, među najvećima na Tajvanu. Popnite se do stražnje terase, s koje se vidi cijelo jezero." },
-        { ime: "Pagoda Ci'en", opis: "Chiang Kai-shek dao ju je sagraditi 1971. u spomen na svoju majku. Visoka je 46 metara, a stoji na brdu visokom 954 metra, pa joj je vrh točno na tisuću metara nad morem. Do nje vodi šumska staza od desetak minuta." },
-        { ime: "Ita Thao i otok Lalu", opis: "Selo naroda Thao na istočnoj obali ima ulicu sa zalogajima i pristanište. Otočić Lalu usred jezera sveto je mjesto na kojem, prema vjerovanju naroda Thao, počivaju duhovi predaka, pa se na njega ne iskrcava." },
-        { ime: "Šumska željeznica Alishan", opis: "Pruga uskog kolosijeka penje se od grada Chiayija, s tridesetak metara, na više od dvije tisuće metara, kroz tri klimatska pojasa. Na najstrmijem dijelu vlak vozi cik-cak, naizmjence naprijed i natrag. Karte za glavnu liniju brzo se rasprodaju, pa ih kupite čim se otvori prodaja." },
-        { ime: "Izlazak sunca na Zhushanu", opis: "Prije zore kratki vlak vozi do vidikovca na 2451 metar. Sunce izlazi iza Yushana, najvišeg vrha otoka, a za sretnih jutara dolina ispod ispunjena je oblacima. Vrijeme polaska objavljuje se dan ranije na kolodvoru." },
-        { ime: "Staza divovskih stabala", opis: "Drvene staze vode između crvenih čempresa starih i više od dvije tisuće godina, od kojih svaki ima broj i pločicu s dobi. Potražite stabla koja su izrasla jedno iz panja drugoga, u tri naraštaja." }
+        { ime: "Wenwu Temple", opis: "The large temple on the northern shore of the lake is dedicated to Confucius, the god of war Guan Gong and the god of literature. Two red stone lions, among the largest in Taiwan, stand before the entrance. Climb to the rear terrace, from which you can see the whole lake." },
+        { ime: "Ci'en Pagoda", opis: "Chiang Kai-shek had it built in 1971 in memory of his mother. It is 46 meters tall and stands on a hill 954 meters high, so its top is exactly a thousand meters above sea level. A forest trail of about ten minutes leads up to it." },
+        { ime: "Ita Thao and Lalu Island", opis: "The Thao village on the eastern shore has a snack street and a pier. The islet of Lalu in the middle of the lake is a sacred place where, according to Thao belief, the spirits of the ancestors rest, so no one lands on it." },
+        { ime: "Alishan Forest Railway", opis: "The narrow-gauge line climbs from the city of Chiayi, at about thirty meters, to more than two thousand meters, through three climate zones. On the steepest stretch the train zigzags, going forward and backward by turns. Tickets for the main line sell out quickly, so buy them as soon as sales open." },
+        { ime: "Sunrise at Zhushan", opis: "Before dawn a short train runs to a lookout at 2451 meters. The sun rises behind Yushan, the island's highest peak, and on lucky mornings the valley below is filled with clouds. The departure time is posted at the station the day before." },
+        { ime: "Giant Trees Trail", opis: "Boardwalks lead between red cypresses more than two thousand years old, each with a number and a plaque giving its age. Look for the trees that have grown one out of the stump of another, across three generations." }
       ],
       jesti: [
-        { ime: "Crni čaj s jezera", opis: "Japanci su ovamo 1920-ih donijeli čaj iz Assama. Najpoznatija je sorta broj 18, koju zovu Rubin, s prirodnim okusom cimeta i metvice. Pije se bez mlijeka." },
-        { ime: "Jaja kuhana u čaju", opis: "Na pristaništu Xuanguang jedna obitelj desetljećima prodaje jaja kuhana satima u crnom čaju i gljivama. Red pred štandom stalan je prizor." },
-        { ime: "Oolong s Alishana", opis: "Čaj se uzgaja na strmim terasama oko sela Shizhuo, između tisuću i tisuću šesto metara. Uzgajivači ga rado ponude na kušanje u svojim kućama." },
-        { ime: "Željeznički obrok iz Fenqihua", opis: "Na pola pruge vlakovi su nekoć stajali radi vode, a putnici su kupovali ručak u metalnoj kutiji, s rižom, svinjskim kotletom i ukiseljenim povrćem. Prodaje se i danas, u istom selu." }
+        { ime: "Black tea from the lake", opis: "The Japanese brought tea here from Assam in the 1920s. The best-known variety is number 18, called Ruby, with a natural taste of cinnamon and mint. It is drunk without milk." },
+        { ime: "Tea eggs", opis: "At Xuanguang pier one family has for decades been selling eggs simmered for hours in black tea and mushrooms. The line in front of the stall is a permanent sight." },
+        { ime: "Alishan oolong", opis: "The tea is grown on steep terraces around the village of Shizhuo, between one thousand and sixteen hundred meters. The growers are happy to offer a tasting in their homes." },
+        { ime: "The railway lunchbox from Fenqihu", opis: "Halfway up the line the trains once stopped for water, and passengers bought lunch in a metal box, with rice, a pork cutlet and pickled vegetables. It is still sold today, in the same village." }
       ],
       dozivjeti: [
-        { ime: "Biciklom uz jezero", opis: "Staza uz obalu ubraja se među najljepše biciklističke staze na svijetu. Dio prolazi mostićima nad samom vodom. Bicikli se iznajmljuju u mjestu Shuishe.", link: "https://www.sunmoonlake.gov.tw/en" },
-        { ime: "Brodom i žičarom", opis: "Brodovi povezuju tri pristaništa na jezeru. Iz Ita Thaoa žičara vodi preko brda, s pogledom na jezero s visine." },
-        { ime: "Vlakom kroz šumu", opis: "Vozni red, karte i stanje pruge objavljuje ured šumske željeznice. Nakon tajfuna pojedine dionice znaju biti zatvorene.", link: "https://afrch.forest.gov.tw/EN" },
-        { ime: "Zalazak sunca među čajem", opis: "Oko sela Shizhuo, na cesti prema Alishanu, drvene staze vode kroz plantaže čaja i bambus. Predvečer se magla penje iz doline." }
+        { ime: "Cycling along the lake", opis: "The lakeshore path is counted among the most beautiful cycling routes in the world, and part of it runs over little bridges right above the water. Bikes can be rented in the town of Shuishe.", link: "https://www.sunmoonlake.gov.tw/en" },
+        { ime: "By boat and cable car", opis: "Boats connect three piers on the lake. From Ita Thao a cable car runs over the hills, with a view of the lake from above." },
+        { ime: "By train through the forest", opis: "The forest railway office publishes the timetable, tickets and the condition of the line. After typhoons some sections may be closed.", link: "https://afrch.forest.gov.tw/EN" },
+        { ime: "Sunset among the tea", opis: "Around the village of Shizhuo, on the road to Alishan, boardwalks lead through tea plantations and bamboo. Toward evening the mist climbs up from the valley." }
       ],
       agencije: [
-        { ime: "Nacionalno slikovito područje Jezero Sunca i Mjeseca", opis: "Službeni turistički vodič jezera.", link: "https://www.sunmoonlake.gov.tw/en" },
-        { ime: "Nacionalno slikovito područje Alishan", opis: "Službeni turistički vodič Alishana, s prijedlozima staza i autobusnim linijama.", link: "https://www.ali-nsa.net/en" },
-        { ime: "Ured šumske željeznice Alishan", opis: "Službena stranica željeznice, s voznim redom i prodajom karata.", link: "https://afrch.forest.gov.tw/EN" }
+        { ime: "Sun Moon Lake National Scenic Area", opis: "The official tourist guide to the lake.", link: "https://www.sunmoonlake.gov.tw/en" },
+        { ime: "Alishan National Scenic Area", opis: "The official tourist guide to Alishan, with suggested trails and bus routes.", link: "https://www.ali-nsa.net/en" },
+        { ime: "Alishan Forest Railway office", opis: "The railway's official site, with the timetable and ticket sales.", link: "https://afrch.forest.gov.tw/EN" }
       ],
-      kada: "Ožujak i početak travnja, kada na Alishanu cvatu trešnje, te listopad i studeni zbog vedrog neba. Na planini je i ljeti svježe, a u zoru hladno, pa ponesite jaknu. Do jezera vozi autobus iz Taichunga, a na Alishan autobus ili vlak iz Chiayija."
+      kada: "March and early April, when the cherry trees bloom on Alishan, and October and November for the clear skies. It is cool on the mountain even in summer, and cold at dawn, so bring a jacket. A bus runs to the lake from Taichung, and a bus or train to Alishan from Chiayi."
     }
   ],
   izvori: [
-    { ime: "Turistička uprava Tajvana", url: "https://eng.taiwan.net.tw/" },
+    { ime: "Taiwan Tourism Administration", url: "https://eng.taiwan.net.tw/" },
     { ime: "Taipei Travel", url: "https://www.travel.taipei/en" },
-    { ime: "Muzej nacionalne palače", url: "https://www.npm.gov.tw/?l=2" },
+    { ime: "National Palace Museum", url: "https://www.npm.gov.tw/?l=2" },
     { ime: "Taipei 101", url: "https://www.taipei-101.com.tw/en/" },
     { ime: "New Taipei City Travel", url: "https://newtaipei.travel/en" },
     { ime: "Travel Tainan", url: "https://www.twtainan.net/en/" },
-    { ime: "Nacionalni muzej tajvanske povijesti", url: "https://www.nmth.gov.tw/en/" },
-    { ime: "Nacionalno slikovito područje Jezero Sunca i Mjeseca", url: "https://www.sunmoonlake.gov.tw/en" },
-    { ime: "Nacionalno slikovito područje Alishan", url: "https://www.ali-nsa.net/en" },
-    { ime: "Ured šumske željeznice Alishan", url: "https://afrch.forest.gov.tw/EN" }
+    { ime: "National Museum of Taiwan History", url: "https://www.nmth.gov.tw/en/" },
+    { ime: "Sun Moon Lake National Scenic Area", url: "https://www.sunmoonlake.gov.tw/en" },
+    { ime: "Alishan National Scenic Area", url: "https://www.ali-nsa.net/en" },
+    { ime: "Alishan Forest Railway office", url: "https://afrch.forest.gov.tw/EN" }
   ]
 };

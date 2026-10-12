@@ -82,44 +82,6 @@
   drawContinents(); drawCountries();
   if (fromHash) setTimeout(function () { document.getElementById('zemlje').scrollIntoView(); }, 50);
 
-  // ---------- tražilica ----------
-  var idx = I.trazi.map(function (e) { return { t: e[0], k: e[1], h: e[2], x: norm(e[0]), y: norm(e[1]) }; });
-  var res = document.getElementById('res');
-  document.getElementById('q').addEventListener('input', function (e) {
-    var q = norm(e.target.value.trim());
-    if (q.length < 2) { res.innerHTML = ''; return; }
-    var a = [], b = [], c = [];
-    idx.forEach(function (it) {
-      var p = it.x.indexOf(q);
-      if (p === 0) a.push(it); else if (p > 0) b.push(it); else if (it.y.indexOf(q) > -1) c.push(it);
-    });
-    var hits = a.concat(b, c).slice(0, 14);
-    var raw = e.target.value.trim();
-    res.innerHTML = hits.map(function (it) { return '<a href="' + esc(it.h) + '"><small>' + esc(it.k) + '</small>' + esc(it.t) + '</a>'; }).join('') +
-      '<a href="trazi.html?q=' + encodeURIComponent(raw) + '"><small>Anywhere in the world</small>Look up “' + esc(raw) + '” →</a>';
-  });
-  document.getElementById('form').addEventListener('submit', function (e) {
-    e.preventDefault();
-    var raw = document.getElementById('q').value.trim();
-    if (raw) location.href = 'trazi.html?q=' + encodeURIComponent(raw);
-  });
-
-  // ---------- što posjetiti sljedeće ----------
-  var finder = document.getElementById('finder');
-  document.getElementById('next').addEventListener('click', function () {
-    finder.hidden = !finder.hidden;
-    if (!finder.hidden) document.getElementById('q').focus();
-  });
-  var onlyPlaces = I.trazi.filter(function (e) { return !/^(Country|Deep guide|Zemlja|Veliki vodič)$/.test(e[1]); });
-  function surprise() {
-    var e = onlyPlaces[Math.floor(Math.random() * onlyPlaces.length)];
-    if (!e) return;
-    document.getElementById('pick').innerHTML =
-      '<a class="pcard" href="' + esc(e[2]) + '" style="max-width:620px;margin:16px auto 0;text-align:left"><span class="badge plain">' + esc(e[1]) + '</span>' +
-      '<h3 style="font-size:2.2rem">' + esc(e[0]) + '</h3><p>Tap to see what people eat, do and buy there.</p><span class="arrow">→</span></a>';
-  }
-  document.getElementById('surprise').addEventListener('click', surprise);
-
   // ---------- činjenice ----------
   function fact() {
     var f = I.cinjenice[Math.floor(Math.random() * I.cinjenice.length)];

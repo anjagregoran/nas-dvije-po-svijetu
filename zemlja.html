@@ -11,8 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <script src="js/i18n.js?v=10"></script>
-  <link rel="stylesheet" href="css/style.css?v=10">
+  <script src="js/i18n.js?v=11"></script>
+  <link rel="stylesheet" href="css/style.css?v=11">
 </head>
 <body>
   <header class="site-head">
@@ -33,9 +33,9 @@
     Prices and opening hours change, so check official sites before you go.
   </footer>
 
-  <script src="data/koordinate.js?v=10"></script>
-  <script src="js/karta.js?v=10"></script>
-  <script src="js/restorani.js?v=10"></script>
+  <script src="data/koordinate.js?v=11"></script>
+  <script src="js/karta.js?v=11"></script>
+  <script src="js/restorani.js?v=11"></script>
   <script>
     (function () {
       var id = (new URLSearchParams(location.search).get('z') || '').replace(/[^a-z0-9-]/g, '');
@@ -52,7 +52,7 @@
           // Dodaci (skriveni dragulji, što kupiti, kao domaći) nisu obvezni: stranica radi i bez njih.
           function app() {
             var a = document.createElement('script');
-            a.src = 'js/zemlja.js?v=10';
+            a.src = 'js/zemlja.js?v=11';
             document.body.appendChild(a);
           }
           // Try the add-ons in the chosen language first, then fall back to English.
@@ -60,7 +60,7 @@
           (function tryAddons() {
             if (!places.length) return app();
             var d = document.createElement('script');
-            d.src = places.shift() + id + '.js?v=10';
+            d.src = places.shift() + id + '.js?v=11';
             d.onload = app; d.onerror = tryAddons;
             document.body.appendChild(d);
           })();

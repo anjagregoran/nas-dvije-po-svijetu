@@ -1,7 +1,7 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["turska"] = {
   kupiti: [
-    { ime: "Lokum", opis: "Pravi rahat-lokum mekan je, nije preslatk i pun je pistacija ili lješnjaka. Kupite ga na vagu kod starog slastičara koji ga reže pred vama." },
+    { ime: "Lokum", opis: "Pravi rahat-lokum mekan je, nije presladak i pun je pistacija ili lješnjaka. Kupite ga na vagu kod starog slastičara koji ga reže pred vama." },
     { ime: "Čaj i čaše u obliku tulipana", opis: "Crni čaj s crnomorske obale pije se cijeli dan iz malih čaša u obliku tulipana. Komplet čaša s tanjurićima i vrećica čaja u rinfuzi na svakoj tržnici stoje malo." },
     { ime: "Pul biber i sumak", opis: "Crvena paprika u ljuskicama i kiseli ljubičasti sumak stoje na svakom stolu u Turskoj. Kupite ih kod trgovca začinima kod kojeg kupuju domaći, jer će vam dati da ih pomirišete i kušate." },
     { ime: "Peştemal", opis: "Tanki, ravno tkani pamučni ručnik iz hamama brzo se suši, a posluži i kao pareo za plažu. Najbolji se tkaju u egejskim gradićima oko Denizlija." },

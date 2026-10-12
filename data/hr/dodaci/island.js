@@ -50,7 +50,7 @@ window.DODACI["island"] = {
       ],
       domaci: [
         { ime: "Seoski bazen", opis: "Čak i najmanje selo na ovoj obali ima grijani otvoreni bazen s vrućim kadama. Nakon mokrog dana među slapovima učinite kao domaći i ugrijte se ondje." },
-        { ime: "Kjötsúpa", opis: "Janjeća juha s korjenastim povrćem svakodnevno je jelo koje grije, a poslužuje se u kafićima i na benzinskim postajama, na mnogim mjestima uz besplatnu repete. Boljeg ručka za vjetrovit dan nema." },
+        { ime: "Kjötsúpa", opis: "Janjeća juha s korjenastim povrćem svakodnevno je jelo koje grije, a poslužuje se u kafićima i na benzinskim postajama, a na mnogim vam mjestima besplatno dotoče još jedan tanjur. Boljeg ručka za vjetrovit dan nema." },
         { ime: "Škampi u Höfnu", opis: "Lučki gradić na istočnom kraju obale islandska je prijestolnica škampa. Naručite ih s roštilja, s maslacem od češnjaka, u restoranu uz dokove." }
       ],
       kupiti: [

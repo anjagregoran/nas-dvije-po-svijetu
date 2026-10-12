@@ -31,7 +31,7 @@ window.DODACI["lihtenstajn"] = {
         { ime: "Kapelica na Maseschi", opis: "Na livadi visoko iznad doline stoji kapelica doseljenika Walsera, koji su na ove padine stigli prije sedam stoljeća. Do nje je stara gostionica, a pogled seže daleko niz Rajnu." }
       ],
       domaci: [
-        { ime: "Sedežnica na Sareis", opis: "Iz Malbuna sedežnica vozi na sedlo Sareiserjoch, odakle obitelji kreću u lagane šetnje grebenom uz austrijsku granicu. Na vrhu je planinarska kuća s terasom na kojoj se sjedi na suncu." },
+        { ime: "Sjedežnica na Sareis", opis: "Iz Malbuna sjedežnica vozi na sedlo Sareiserjoch, odakle obitelji kreću u lagane šetnje grebenom uz austrijsku granicu. Na vrhu je planinarska kuća s terasom na kojoj se sjedi na suncu." },
         { ime: "Marenda na planinskom pašnjaku", opis: "Iznad Stega nalazi se planinska sirana s restoranom, do koje vodi kratka šetnja. Jedete sir napravljen nekoliko metara dalje, uz domaći kruh i mlaćenicu." },
         { ime: "Sanjkanje i zimske šetnje", opis: "Malbun je malo obiteljsko skijalište na kojem se domaći jednako rado sanjkaju i šeću utabanim zimskim stazama. Ugođaj je miran, kao na seoskom brijegu." }
       ],

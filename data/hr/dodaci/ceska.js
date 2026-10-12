@@ -87,7 +87,7 @@ window.DODACI["ceska"] = {
         { ime: "Kava kao ritual", opis: "Brno ima najjaču kavansku scenu u zemlji, s malim pržionicama i ozbiljnim baristima. Stanovnici se ondje nalaze u svako doba dana, pa učinite isto u centru ili u četvrti Veveří." }
       ],
       kupiti: [
-        { ime: "Moravsko vino", opis: "Brno su vrata Južne Moravske, odakle dolazi gotovo sve češko vino, osobito mirisna bijela vina. Kupite ga u gradskim vinotekama, gdje ga toče i iz bačve u vašu vlastitu bocu." },
+        { ime: "Moravsko vino", opis: "Iz Brna se ulazi u Južnu Moravsku, odakle dolazi gotovo sve češko vino, osobito mirisna bijela vina. Kupite ga u gradskim vinotekama, gdje ga toče i iz bačve u vašu vlastitu bocu." },
         { ime: "Moravska šljivovica", opis: "Šljivovica je ponos Moravske i gostima se nudi za dobrodošlicu. Potražite je u vinotekama i na tržnici, najbolje od malih proizvođača." }
       ]
     },

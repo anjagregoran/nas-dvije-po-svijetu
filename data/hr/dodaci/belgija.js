@@ -23,7 +23,7 @@ window.DODACI["belgija"] = {
       kupiti: [
         { ime: "Praline sa Sablona", opis: "Trg Sablon okuplja mnoge od najboljih gradskih čokolatijera, na nekoliko koraka jedan od drugoga. Usporedite nekoliko izloga i kod svakog kupite malu kutiju." },
         { ime: "Gueuze", opis: "Boca tradicionalnog gueuzea iz neke od gradskih lambic pivovara ili kupažnica može stajati godinama. U trgovinama pivom u centru zapakirat će vam je za put." },
-        { ime: "Stripovi", opis: "Grad koji je svijetu dao Tintina ima izvrsne striparnice blizu Grand-Placea i duž obližnjih bulevara. Album ili grafika lagan su suvenir." }
+        { ime: "Stripovi", opis: "Grad koji je svijetu dao Tintina ima izvrsne striparnice blizu Grand-Placea i duž obližnjih bulevara. Album na engleskom ili grafika lagan su suvenir." }
       ]
     },
     "brugge": {

@@ -69,7 +69,7 @@ window.DODACI["tajland"] = {
       domaci: [
         { ime: "Roti sai mai", opis: "Zaštitni je znak Ayutthaye slatkiš od snopa finih niti predenog šećera umotanih u tanku, meku palačinku. Tajlandski posjetitelji nikad ne bi otišli bez vrećice s niza štandova na cesti pokraj bolnice." },
         { ime: "Rezanci s broda", opis: "Male zdjelice rezanaca u tamnom, bogatom temeljcu nekad su se ovdje prodavale s čamaca na kanalima. Domaći ih u jednom sjedenju pojedu toliko da pred sobom naslažu cijelu hrpu praznih zdjelica." },
-        { ime: "Riječni kozice s roštilja", opis: "Tajlandske obitelji dovezu se iz Bangkoka da bi u restoranima uz rijeku jele goleme slatkovodne kozice, prepolovljene i pečene na ugljenu. Prodaju se na vagu, pa prije narudžbe provjerite cijenu." }
+        { ime: "Riječne kozice s roštilja", opis: "Tajlandske obitelji dovezu se iz Bangkoka da bi u restoranima uz rijeku jele goleme slatkovodne kozice, prepolovljene i pečene na ugljenu. Prodaju se na vagu, pa prije narudžbe provjerite cijenu." }
       ],
       kupiti: [
         { ime: "Roti sai mai za ponijeti", opis: "Štandovi prodaju šećerne niti i palačinke zapakirane odvojeno. Tako ih još dan ili dva možete same motati." },

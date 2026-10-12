@@ -50,7 +50,7 @@ window.DODACI["urugvaj"] = {
       ],
       domaci: [
         { ime: "Mansa ili Brava", opis: "Domaći plažu biraju prema vjetru, pa idu na mirnu Playa Mansu na strani zaljeva ili na Playa Bravu na oceanskoj strani, gdje su valovi. Prije nego što se smjestite, pogledajte na koju stranu vijore zastave." },
-        { ime: "Riba u luci", opis: "Ujutro ljudi kupuju svježu ribu i plodove mora na štandovima u luci, gdje se goleme lavovi morski izležavaju na molu i čekaju ostatke od ribara." },
+        { ime: "Riba u luci", opis: "Ujutro ljudi kupuju svježu ribu i plodove mora na štandovima u luci, gdje se golemi morski lavovi izležavaju na molu i čekaju ostatke od ribara." },
         { ime: "Zalazak sunca na strani Manse", opis: "Na kraju dana ljudi se okupljaju duž Playa Manse i šetnice uz zaljev s mateom kako bi gledali sunce koje zalazi nad vodom. Večera se ovdje kasno, dobrano nakon mraka." }
       ],
       kupiti: [

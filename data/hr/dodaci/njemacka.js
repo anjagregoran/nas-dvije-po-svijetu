@@ -47,7 +47,7 @@ window.DODACI["njemacka"] = {
       dragulji: [
         { ime: "Treppenviertel u Blankeneseu", opis: "Ovo nekadašnje ribarsko selo na strmoj obali Labe ispresijecano je tisućama stuba između bijelih kuća i vrtova. Spustite se do pješčane riječne plaže, a zatim se vratite gore malim autobusom koji domaći zovu planinska koza." },
         { ime: "Stari tunel ispod Labe", opis: "U ovaj tunel iz 1911. silazite starinskim dizalom ili stubama pa prolazom obloženim pločicama hodate ispod rijeke do druge obale. S vidikovca na drugoj strani pruža se najbolji pogled na luku i obrise grada." },
-        { ime: "Övelgönne", opis: "Uz Labu se ovdje nižu stare kapetanske kućice, mala muzejska luka s povijesnim brodovima i široka pješčana plaža. S nogama u pijesku možete gledati kako goleme kontejnerske brodove klize gotovo nadohvat ruke." }
+        { ime: "Övelgönne", opis: "Uz Labu se ovdje nižu stare kapetanske kućice, mala muzejska luka s povijesnim brodovima i široka pješčana plaža. S nogama u pijesku možete gledati kako golemi kontejnerski brodovi klize gotovo nadohvat ruke." }
       ],
       domaci: [
         { ime: "Fischmarkt nedjeljom u zoru", opis: "Riblja tržnica u Altoni održava se nedjeljom rano ujutro, a prodavači se nadvikuju i dijele cijele košare voća i ribe. Neki dolaze ravno iz noćnog izlaska, pa se u staroj dražbenoj dvorani uz kavu i sendviče s ribom svira uživo i pleše." },
@@ -199,7 +199,7 @@ window.DODACI["njemacka"] = {
       domaci: [
         { ime: "Torta od marcipana uz kavu", opis: "Poslijepodnevna kava u Lübecku gotovo uvijek dolazi s kriškom torte od oraha i marcipana. Sjednite u kavanu iznad trgovine Niederegger u ulici Breite Straße, kamo zalaze i gradske gospođe." },
         { ime: "Večer na Obertraveu", opis: "Na riječnoj obali na zapadnom rubu starog grada ljudi ljeti sjede na klupama i na kamenom rubu uz vodu. Ponesite piće i gledajte kako sunce zalazi iza brodica i krošanja." },
-        { ime: "Pecivo s ribom uz more", opis: "Vikendom se cijeli grad seli u Travemünde kako bi šetao rivom i jeo Fischbrötchen, pecivo sa haringom ili sitnim račićima. Kupite ga na štandu u luci i pripazite na galebove." }
+        { ime: "Pecivo s ribom uz more", opis: "Vikendom se cijeli grad seli u Travemünde kako bi šetao rivom i jeo Fischbrötchen, pecivo s haringom ili sitnim račićima. Kupite ga na štandu u luci i pripazite na galebove." }
       ],
       kupiti: [
         { ime: "Lübečki marcipan", opis: "Marcipan se ovdje od 19. stoljeća radi s mnogo badema i malo šećera, a grad ima čak i mali muzej posvećen njemu. Kupite ga u izvornoj trgovini Niederegger ili kod manjih lokalnih slastičara koji ga prodaju na vagu." },

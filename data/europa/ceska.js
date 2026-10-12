@@ -4,6 +4,20 @@ window.ATLAS["ceska"] = {
   ime: "Czech Republic",
   regija: "Central Europe",
   sazetak: "A land of Gothic towers, spa colonnades and a beer that changed the world, where every town square has its own story.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Rick Steves: Czech Republic", url: "https://www.ricksteves.com/europe/czech-republic" },
+    { ime: "Rick Steves: Prague", url: "https://www.ricksteves.com/europe/czech-republic/prague" },
+    { ime: "Radio Prague International: Is trdelník traditional?", url: "https://english.radio.cz/trdelnik-traditional-tourists-say-who-cares-8144594" },
+    { ime: "Prague City Tourism: Náplavka Farmers' Market", url: "https://prague.eu/en/objevujte/naplavka-farmers-market/" },
+    { ime: "Prague City Tourism: Emmaus Monastery Na Slovanech", url: "https://prague.eu/en/objevujte/emmaus-monastery-na-slovanech-klaster-na-slovanech-emauzy/" },
+    { ime: "Expats.cz: Petřín funicular reopening", url: "https://www.expats.cz/czech-news/article/prague-s-petrin-funicular-is-back-today-but-one-stop-has-a-new-rule" },
+    { ime: "Karlovy Vary official tourism: Hot Spring Colonnade", url: "https://www.karlovyvary.cz/en/hot-spring-colonnade" },
+    { ime: "Karlovy Vary official tourism: Jan Becher Museum", url: "https://www.karlovyvary.cz/en/jan-becher-museum" },
+    { ime: "Olomouc Tourism: Astronomical Clock", url: "https://tourism.olomouc.eu/en/mista/orloj/" },
+    { ime: "Visit Plzeň: Tours of the Pilsner Urquell brewery", url: "https://www.visitplzen.eu/en/events/guided-tours/tours-of-the-pilsen-brewery-pilsner-urquell/" },
+    { ime: "Visit Plzeň: Meditation Garden", url: "https://www.visitplzen.eu/en/place/meditation-garden/" },
+    { ime: "Kudy z nudy (CzechTourism): Museum of Moravian Croats in Jevišovka", url: "https://www.kudyznudy.cz/aktivity/muzeum-moravskych-chorvatu-v-jevisovce" }
+  ] },
   uvod: [
     "The Czech Republic is a small country that for centuries sat at the very center of European history. It is made up of three historical lands, Bohemia, Moravia and part of Silesia, and its golden age is tied to Emperor Charles IV, who in the 14th century turned Prague into one of the capitals of the Holy Roman Empire and in 1348 founded the first university in Central Europe. After that came the Hussite religious upheavals, almost four centuries of Habsburg rule, Czechoslovakia from 1918, communism and the Velvet Revolution of 1989, and since January 1, 1993, the Czech Republic has been an independent state.",
     "Because the country suffered relatively little destruction in the Second World War, its towns have kept their layers from Romanesque to Art Nouveau, so a single square here often holds a Gothic church, a Renaissance town hall and a Baroque plague column. Along with that comes a culture of the table that is hard to resist: pubs where draft beer is taken seriously, Moravian wine cellars and pastry shops full of cakes. Traveling is simple because distances are short, and trains and buses connect almost every place."
@@ -32,7 +46,7 @@ window.ATLAS["ceska"] = {
     { ime: "Masopust", opis: "Carnival processions of masked figures who go from house to house with music while the hosts treat them to doughnuts and brandy. The processions from the villages of the Hlinecko area were inscribed on the UNESCO list in 2010.", gdje: "In February, in the weeks before Ash Wednesday, in the villages around Hlinsko in eastern Bohemia, with smaller processions in Prague's neighborhoods as well." },
     { ime: "Jízda králů", opis: "The Ride of the Kings is a spring custom in which a boy dressed in a woman's folk costume, with a rose in his mouth, rides through the village surrounded by horsemen who shout out humorous verses. UNESCO inscribed it in 2011.", gdje: "In the village of Vlčnov in southeastern Moravia, every year on the last weekend of May." },
     { ime: "Spa culture", opis: "Going to a spa, strolling along the colonnade and sipping the healing water from a porcelain cup with a spout is a custom several centuries old. Karlovy Vary, Mariánské Lázně and Františkovy Lázně were inscribed on UNESCO's World Heritage list in 2021 among the Great Spa Towns of Europe.", gdje: "In western Bohemia, in the so-called spa triangle, all year round." },
-    { ime: "Pálení čarodějnic", opis: "On the night of April 30 to May 1, great bonfires are lit on which an effigy of a witch is burned, symbolically driving out winter. Sausages are roasted and beer is drunk by the fire, and on May 1 couples kiss under a tree in blossom.", gdje: "All over the country, and in Prague on Petřín hill and on Kampa island." },
+    { ime: "Pálení čarodějnic", opis: "On the night of April 30 to May 1, great bonfires are lit on which an effigy of a witch is burned, symbolically driving out winter. Sausages are roasted and beer is drunk by the fire, and on May 1 couples kiss under a tree in blossom.", gdje: "All over the country, and in Prague at Ladronka park and on Kampa island, while the May 1 kiss belongs to Petřín hill, by the statue of the poet Mácha." },
     { ime: "Christmas carp and markets", opis: "The main dish on Christmas Eve is breaded carp with potato salad, and for a few days beforehand the fish are sold live from tubs in the streets. A carp scale goes into your wallet so that there will be money in it all year.", gdje: "Christmas markets are held from the end of November on the Old Town Square in Prague, in Brno and in Olomouc." },
     { ime: "Czech glass and crystal", opis: "Glassmaking has been developing in northern Bohemia since the Middle Ages, and in the 18th century Bohemian crystal pushed Venetian glass out of Europe's courts. Garnets, the dark red gemstones from Czech deposits, are well known too.", gdje: "At the visitor center of the Moser glassworks in Karlovy Vary and in the glassmaking towns around Nový Bor in the north of the country." }
   ],
@@ -51,7 +65,7 @@ window.ATLAS["ceska"] = {
     "The sugar cube was invented in 1843 in the Moravian town of Dačice, where a monument in the shape of a gleaming white cube stands today.",
     "Soft contact lenses were invented by the Czech chemist Otto Wichterle, who made the first ones in 1961 at home on a machine put together from a children's construction set.",
     "Charles University in Prague, founded in 1348, is the oldest university in Central Europe.",
-    "In Czech the stress always falls on the first syllable, and the sound ř, which exists only in that language, is the last one that even Czech children learn to pronounce.",
+    "In Czech the stress always falls on the first syllable, and the sound ř, which is found in almost no other language, is the last one that even Czech children learn to pronounce.",
     "On January 1, 1993, Czechoslovakia split peacefully into the Czech Republic and Slovakia, without a referendum and without a single shot fired.",
     "Czechs are passionate mushroom pickers and hikers, so the country is covered by one of the densest networks of marked walking trails in Europe."
   ],
@@ -80,7 +94,7 @@ window.ATLAS["ceska"] = {
         { ime: "Větrník", opis: "A choux pastry filled with caramel and vanilla cream, a classic of Prague's pastry shops that is well worth trying in place of the street trdelník." }
       ],
       dozivjeti: [
-        { ime: "On the trail of the Glagolitic monks at Emmaus Monastery", opis: "If you want to see a Croatian trace in Prague, visit the Gothic cloister with its 14th-century frescoes, which is open to visitors.", link: "https://prague.eu/en/objevujte/emmaus-monastery-na-slovanech-klaster-na-slovanech-emauzy/" },
+        { ime: "On the trail of the Glagolitic monks at Emmaus Monastery", opis: "If you want to see a Croatian trace in Prague, visit the Gothic cloister with its 14th-century frescoes, which you can see on weekdays and Saturdays, on a guided tour that is best arranged in advance.", link: "https://prague.eu/en/objevujte/emmaus-monastery-na-slovanech-klaster-na-slovanech-emauzy/" },
         { ime: "Sunset from Letná", opis: "From the beer garden in Letná park you can see Prague's bridges lined up one after another, which makes it the loveliest spot for a glass of beer under the chestnut trees." },
         { ime: "Climbing Petřín", opis: "You can walk up the hill through the orchards or take the funicular, and at the top a lookout tower from 1891, inspired by the Eiffel Tower, is waiting for you." },
         { ime: "Early morning on Charles Bridge", opis: "Come before eight o'clock, when there is almost no one on the bridge and the statues stand out against the mist from the river." }
@@ -190,7 +204,7 @@ window.ATLAS["ceska"] = {
       sazetak: "The student capital of Moravia, a city of Functionalist architecture, good cafes and a wine-growing hinterland.",
       prica: [
         "Brno has been the center of Moravia since the Middle Ages, and in the 19th century its textile industry earned it the name of the Moravian Manchester. Between the two world wars it became a testing ground for modern architecture, which also produced the famous Villa Tugendhat.",
-        "In the Augustinian abbey here, the monk Gregor Mendel crossed pea plants in the mid-19th century and laid the foundations of genetics. In South Moravia, not far from Brno, the Moravian Croats have lived since the 16th century, descendants of refugees fleeing the Ottomans, and they keep a museum of their community in the village of Jevišovka."
+        "In the Augustinian abbey here, the monk Gregor Mendel crossed pea plants in the mid-19th century and laid the foundations of genetics. In South Moravia, not far from Brno, the Moravian Croats have lived since the 16th century, descendants of refugees fleeing the Ottomans, and they keep a museum of their community in the village of Jevišovka, which is open on Saturday afternoons in July and August and by arrangement the rest of the year."
       ],
       vidjeti: [
         { ime: "Villa Tugendhat", opis: "A masterpiece by the architect Ludwig Mies van der Rohe, completed in 1930 and inscribed on the UNESCO list in 2001. Look for the wall of honey-yellow onyx, which glows red at sunset, and the huge panes of glass that sink entirely into the floor. The breakup of Czechoslovakia was negotiated in the villa in 1992." },
@@ -226,7 +240,7 @@ window.ATLAS["ceska"] = {
       ],
       vidjeti: [
         { ime: "Holy Trinity Column", opis: "The plague column, 35 meters tall, was built from 1716 to 1754 and has been on the UNESCO list since 2000. It is so large that there is a small chapel in its base that you can step into." },
-        { ime: "The astronomical clock", opis: "After wartime damage, the clock on the town hall was rebuilt in the 1950s in the spirit of socialist realism. That is why at noon workers, athletes and a milkmaid parade past in place of saints, and the mosaic shows a chemist and a mechanic." },
+        { ime: "The astronomical clock", opis: "After wartime damage, the clock on the town hall was rebuilt in the 1950s in the spirit of socialist realism. That is why at noon workers, farmers and athletes parade past in place of saints, and the mosaic below shows a worker and a chemist." },
         { ime: "The Olomouc fountains", opis: "Six Baroque fountains with figures from ancient mythology were built between 1683 and 1735, among them Caesar's, because legend says the city was founded by Julius Caesar. A seventh, the Arion Fountain, with a turtle that children climb on, was added in 2002." },
         { ime: "St. Wenceslas Cathedral", opis: "The neo-Gothic tower, about a hundred meters tall, is one of the highest in the country. Beside the cathedral stood the Přemyslid palace where Wenceslas III, the last male descendant of the dynasty, was murdered in 1306." },
         { ime: "The Archbishop's Palace", opis: "In the Baroque residence you can tour the ceremonial halls, including the one in which Franz Joseph I became emperor." }
@@ -268,7 +282,7 @@ window.ATLAS["ceska"] = {
         { ime: "Nakládaný hermelín", opis: "A soft cheese similar to Camembert, marinated in oil with onion and hot peppers, is the most common bite to go with a beer." }
       ],
       dozivjeti: [
-        { ime: "A brewery tour", opis: "If you want to see how the original lager is made, book a tour of the brewery, and the same tickets also cover the Brewery Museum and the historic underground.", link: "https://www.prazdrojvisit.cz/en/" },
+        { ime: "A brewery tour", opis: "If you want to see how the original lager is made, book a tour of the brewery, and the same visitor center also sells separate tours of the Brewery Museum and the historic underground, which are cheaper when bought together.", link: "https://www.prazdrojvisit.cz/en/" },
         { ime: "On the trail of the 1945 liberation", opis: "Pilsen was liberated on May 6, 1945, by the army of the USA under the command of General Patton, which the city remembers with a museum and a festival in early May." },
         { ime: "The Puppet Museum", opis: "On the main square, meet Spejbl and Hurvínek, the wooden father and son who were created in Pilsen in the 1920s." }
       ],

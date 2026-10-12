@@ -28,7 +28,7 @@ window.DODACI["bih"] = {
     "mostar": {
       dragulji: [
         { ime: "Kriva ćuprija", opis: "Kriva ćuprija mali je kameni luk nad pritokom, sagrađen prije slavnog mosta. Oko nje su mlinice i terase uz vodu." },
-        { ime: "Partizansko spomen-groblje", opis: "Ovaj terasasti spomenik arhitekta Bogdana Bogdanovića penje se uz padinu zavojitim kamenim zidovima i stazama. Do njega je kratka šetnja iz središta." },
+        { ime: "Partizansko spomen-groblje", opis: "Ovaj terasasti spomenik arhitekta Bogdana Bogdanovića penje se uz padinu zavojitim kamenim zidovima i stazama. Do njega je kratka šetnja iz središta, premda je oštećen otkako su mu vandali 2022. razbili nadgrobne ploče." },
         { ime: "Bunski kanali", opis: "Južno od grada rijeka Buna ruši se u Neretvu preko niskih sedrenih stepenica. Ljeti se ondje kupa i odlazi na piknik." }
       ],
       domaci: [
@@ -78,7 +78,7 @@ window.DODACI["bih"] = {
     "una": {
       dragulji: [
         { ime: "Kulen Vakuf i Ostrovica", opis: "Ovaj gradić uz rijeku, unutar parka, leži pod ruševinama utvrde na brdu. Do nje se penje pješačka staza, s koje puca širok pogled na dolinu Une." },
-        { ime: "Japodski otoci", opis: "Nekoliko kilometara od Bihaća rijeka se razdvaja oko malih zelenih otoka povezanih drvenim mostovima. Divno je to mjesto za kupanje i veslanje." },
+        { ime: "Japodski otoci", opis: "Nedaleko od Bihaća, uzvodno, rijeka se razdvaja oko malih zelenih otoka povezanih drvenim mostovima. Divno je to mjesto za kupanje i veslanje." },
         { ime: "Manastir Rmanj u Martin Brodu", opis: "Ondje gdje se Unac ulijeva u Unu manastir stoji uz dugi niz malih slapova i starih mlinica. Selo je mirni kraj parka." }
       ],
       domaci: [

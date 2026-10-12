@@ -6,17 +6,17 @@ window.DODACI["ceska"] = {
     { ime: "Becherovka", opis: "This herbal liqueur from Karlovy Vary has been made since 1807 to a recipe known to only two people. It is drunk chilled as a shot after a meal, or with tonic as the cocktail called “beton”." },
     { ime: "Wooden marionettes", opis: "Puppetry is a serious art in the Czech Republic, recognized by UNESCO, and marionettes are carved from linden wood. It is worth buying in a workshop where you can watch the maker at work and skipping the plastic puppets at the stalls." },
     { ime: "Blueprint fabric", opis: "Cloth with white patterns on an indigo blue background, called modrotisk, is printed by hand with wooden blocks in a few Moravian workshops. It is sewn into tablecloths, aprons and bags sold in folk craft shops." },
-    { ime: "Gingerbread from Pardubice", opis: "Pardubický perník is a soft gingerbread filled with plum jam and coated in chocolate, with a protected name. You will find it in pastry shops and stores across the country, often in the shape of a heart." }
+    { ime: "Gingerbread from Pardubice", opis: "Pardubický perník is a honey gingerbread with a protected name, sold either decorated with white icing, often in the shape of a heart, or filled with jam and coated in chocolate. You will find it in pastry shops and stores across the country." }
   ],
   mjesta: {
     "prag": {
       dragulji: [
         { ime: "Nový Svět", opis: "Behind the Hradčany district hides a lane of low, colorful cottages where castle servants once lived. It is only minutes from the crowds at the castle, yet you can hear your own footsteps." },
-        { ime: "Vojanovy sady", opis: "Prague's oldest garden lies behind a high wall in Malá Strana, with old fruit trees and strolling peacocks. Sit on a bench with a book the way people from the neighborhood do." },
+        { ime: "Vojanovy sady", opis: "One of Prague's oldest gardens lies behind a high wall in Malá Strana, with old fruit trees and strolling peacocks. Sit on a bench with a book the way people from the neighborhood do." },
         { ime: "Vyšehrad at dusk", opis: "On a rock above the Vltava stands an old fortress with a park, a church and the cemetery where Dvořák and Smetana are buried. From the ramparts you see the river and the castle in the distance, and most of the people here are Praguers." }
       ],
       domaci: [
-        { ime: "Saturday at Náplavka", opis: "On Saturdays there is a farmers' market on the Vltava embankment below Vyšehrad, where people buy bread, cheese and pastries and eat breakfast by the water. In the evening the same embankment turns into one long open-air bar." },
+        { ime: "Saturday at Náplavka", opis: "On Saturday mornings from February to December there is a farmers' market on the Vltava embankment at Rašínovo nábřeží, where people buy bread, cheese and pastries and eat breakfast by the water. In the evening the same embankment turns into one long open-air bar." },
         { ime: "A beer in Riegrovy sady", opis: "In the Vinohrady district people settle on the grassy slope of this park toward evening with a plastic cup of beer and watch the sun set behind the castle. You buy the beer at the beer garden in the park." },
         { ime: "Chlebíčky for a snack", opis: "These open-faced sandwiches on white bread, topped with potato salad, ham and egg, are bought at delicatessens and eaten standing at the counter. Have two or three different ones, like Praguers on their way to work." }
       ],
@@ -111,7 +111,7 @@ window.DODACI["ceska"] = {
       dragulji: [
         { ime: "The Loos interiors", opis: "The architect Adolf Loos designed a series of apartments in Pilsen for wealthy families, paneled in fine wood and marble. Several have been restored and can be seen on a guided tour, which you need to book in advance." },
         { ime: "The ring of parks", opis: "Where the town walls once stood, a belt of parks with avenues, statues and fountains now circles the old town. It takes half an hour to walk around the whole center." },
-        { ime: "The Meditation Garden", opis: "A former political prisoner created this garden with a pond and a chapel by himself as a memorial to the victims of evil. It is a quiet and moving place on the edge of the city, open in the warmer part of the year." }
+        { ime: "The Meditation Garden", opis: "A former political prisoner spent about thirty years turning his family orchard into this garden with ponds and a chapel, as a memorial to the victims of evil. It is a quiet and moving place in the Doudlevce neighborhood, open from April to October." }
       ],
       domaci: [
         { ime: "Three ways to pour", opis: "In Pilsen beer is ordered by the amount of foam: hladinka is the classic pour, šnyt is smaller with more foam, and mlíko is a glass of almost nothing but sweet foam. Ask the bartender for a mlíko and drink it in one go." },

@@ -4,6 +4,20 @@ window.ATLAS["ceska"] = {
   ime: "Češka",
   regija: "Srednja Europa",
   sazetak: "Zemlja gotičkih tornjeva, lječilišnih kolonada i piva koje je promijenilo svijet, u kojoj svaki gradski trg ima svoju priču.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Rick Steves: Czech Republic", url: "https://www.ricksteves.com/europe/czech-republic" },
+    { ime: "Rick Steves: Prague", url: "https://www.ricksteves.com/europe/czech-republic/prague" },
+    { ime: "Radio Prague International: Is trdelník traditional?", url: "https://english.radio.cz/trdelnik-traditional-tourists-say-who-cares-8144594" },
+    { ime: "Prague City Tourism: Náplavka Farmers' Market", url: "https://prague.eu/en/objevujte/naplavka-farmers-market/" },
+    { ime: "Prague City Tourism: Emmaus Monastery Na Slovanech", url: "https://prague.eu/en/objevujte/emmaus-monastery-na-slovanech-klaster-na-slovanech-emauzy/" },
+    { ime: "Expats.cz: Petřín funicular reopening", url: "https://www.expats.cz/czech-news/article/prague-s-petrin-funicular-is-back-today-but-one-stop-has-a-new-rule" },
+    { ime: "Karlovy Vary official tourism: Hot Spring Colonnade", url: "https://www.karlovyvary.cz/en/hot-spring-colonnade" },
+    { ime: "Karlovy Vary official tourism: Jan Becher Museum", url: "https://www.karlovyvary.cz/en/jan-becher-museum" },
+    { ime: "Olomouc Tourism: Astronomical Clock", url: "https://tourism.olomouc.eu/en/mista/orloj/" },
+    { ime: "Visit Plzeň: Tours of the Pilsner Urquell brewery", url: "https://www.visitplzen.eu/en/events/guided-tours/tours-of-the-pilsen-brewery-pilsner-urquell/" },
+    { ime: "Visit Plzeň: Meditation Garden", url: "https://www.visitplzen.eu/en/place/meditation-garden/" },
+    { ime: "Kudy z nudy (CzechTourism): Museum of Moravian Croats in Jevišovka", url: "https://www.kudyznudy.cz/aktivity/muzeum-moravskych-chorvatu-v-jevisovce" }
+  ] },
   uvod: [
     "Češka je mala zemlja koja je stoljećima bila u samom središtu europske povijesti. Sastoji se od triju povijesnih pokrajina, Češke, Moravske i dijela Šleske, a njezino zlatno doba vezano je uz cara Karla IV., koji je u 14. stoljeću Prag pretvorio u jednu od prijestolnica Svetog Rimskog Carstva i 1348. osnovao prvo sveučilište u srednjoj Europi. Nakon toga slijedila su husitska vjerska previranja, gotovo četiri stoljeća habsburške vlasti, Čehoslovačka od 1918., komunizam i Baršunasta revolucija 1989., a od 1. siječnja 1993. Češka je samostalna država.",
     "Budući da je zemlja u Drugom svjetskom ratu razmjerno malo razarana, gradovi su sačuvali slojeve od romanike do secesije, pa ovdje na jednom trgu često stoje gotička crkva, renesansna vijećnica i barokni kužni stup. Uz to ide i kultura stola kojoj je teško odoljeti: pivnice u kojima se točeno pivo ozbiljno shvaća, moravski vinski podrumi i slastičarnice pune kolača. Putovanje je jednostavno jer su udaljenosti male, a vlakovi i autobusi povezuju gotovo svako mjesto."
@@ -32,7 +46,7 @@ window.ATLAS["ceska"] = {
     { ime: "Masopust", opis: "Pokladne povorke maskiranih likova koji idu od kuće do kuće uz glazbu, a domaćini ih časte krafnama i rakijom. Povorke iz sela na području Hlinecka upisane su 2010. na UNESCO-ov popis.", gdje: "U veljači, u tjednima prije Pepelnice, u selima oko Hlinskog u istočnoj Češkoj, a manje povorke održavaju se i u praškim četvrtima." },
     { ime: "Jízda králů", opis: "Jahanje kraljeva je proljetni običaj u kojem dječak odjeven u žensku narodnu nošnju, s ružom u ustima, jaše kroz selo okružen konjanicima koji izvikuju šaljive stihove. UNESCO ga je upisao 2011.", gdje: "U selu Vlčnov u jugoistočnoj Moravskoj, svake godine posljednjeg vikenda u svibnju." },
     { ime: "Lječilišna kultura", opis: "Odlazak u toplice, šetnja kolonadom i pijuckanje ljekovite vode iz porculanske šalice s kljunom običaj je star nekoliko stoljeća. Karlovy Vary, Mariánské Lázně i Františkovy Lázně upisani su 2021. na UNESCO-ov popis svjetske baštine među velikim lječilišnim gradovima Europe.", gdje: "U zapadnoj Češkoj, u takozvanom lječilišnom trokutu, cijele godine." },
-    { ime: "Pálení čarodějnic", opis: "U noći s 30. travnja na 1. svibnja pale se veliki krijesovi na kojima gori lutka vještice, čime se simbolično tjera zima. Uz vatru se peku kobasice i pije pivo, a 1. svibnja zaljubljeni se ljube pod rascvjetanim stablom.", gdje: "Posvuda u zemlji, a u Pragu na brdu Petřín i na otoku Kampi." },
+    { ime: "Pálení čarodějnic", opis: "U noći s 30. travnja na 1. svibnja pale se veliki krijesovi na kojima gori lutka vještice, čime se simbolično tjera zima. Uz vatru se peku kobasice i pije pivo, a 1. svibnja zaljubljeni se ljube pod rascvjetanim stablom.", gdje: "Posvuda u zemlji, a u Pragu u parku Ladronka i na otoku Kampi, dok se prvosvibanjski poljubac veže uz brdo Petřín i kip pjesnika Máche." },
     { ime: "Božićni šaran i sajmovi", opis: "Glavno jelo Badnje večeri je pohani šaran s krumpirovom salatom, a ribe se nekoliko dana prije prodaju žive iz bačvi na ulicama. Ljuska šarana stavlja se u novčanik da u njemu cijele godine bude novca.", gdje: "Božićni sajmovi održavaju se od kraja studenoga na Staroměstskom trgu u Pragu, u Brnu i u Olomoucu." },
     { ime: "Češko staklo i kristal", opis: "Staklarstvo se u sjevernoj Češkoj razvija od srednjeg vijeka, a boemski kristal je u 18. stoljeću potisnuo venecijansko staklo s europskih dvorova. Poznati su i granati, tamnocrveno drago kamenje iz čeških nalazišta.", gdje: "U posjetiteljskom centru staklane Moser u Karlovyim Varyma i u staklarskim gradićima oko Novog Bora na sjeveru zemlje." }
   ],
@@ -51,7 +65,7 @@ window.ATLAS["ceska"] = {
     "Kocka šećera izumljena je 1843. u moravskom gradiću Dačice, gdje danas stoji spomenik u obliku sjajne bijele kocke.",
     "Meke kontaktne leće izumio je češki kemičar Otto Wichterle, koji je prve primjerke 1961. izradio kod kuće na stroju sastavljenom od dječjeg građevnog kompleta.",
     "Karlovo sveučilište u Pragu, osnovano 1348., najstarije je sveučilište u srednjoj Europi.",
-    "U češkom je naglasak uvijek na prvom slogu, a glas ř, koji postoji samo u tom jeziku, i sama djeca nauče izgovoriti posljednjeg.",
+    "U češkom je naglasak uvijek na prvom slogu, a glas ř, kakav se ne čuje gotovo ni u jednom drugom jeziku, i sama djeca nauče izgovoriti posljednjeg.",
     "Čehoslovačka se 1. siječnja 1993. mirno podijelila na Češku i Slovačku, bez referenduma i bez ijednog ispaljenog metka.",
     "Česi su strastveni gljivari i planinari, pa zemlju prekriva jedna od najgušćih mreža označenih pješačkih staza u Europi."
   ],
@@ -80,7 +94,7 @@ window.ATLAS["ceska"] = {
         { ime: "Větrník", opis: "Princes-krafna punjena kremom od karamele i vanilije, klasik praških slastičarnica koji vrijedi probati umjesto uličnog trdelníka." }
       ],
       dozivjeti: [
-        { ime: "Tragom glagoljaša u samostanu Emauzy", opis: "Ako želite vidjeti hrvatski trag u Pragu, posjetite gotički klaustar s freskama iz 14. stoljeća, koji je otvoren za razgledavanje.", link: "https://prague.eu/en/objevujte/emmaus-monastery-na-slovanech-klaster-na-slovanech-emauzy/" },
+        { ime: "Tragom glagoljaša u samostanu Emauzy", opis: "Ako želite vidjeti hrvatski trag u Pragu, posjetite gotički klaustar s freskama iz 14. stoljeća, koji se razgledava radnim danom i subotom uz vodiča, a obilazak je najbolje dogovoriti unaprijed.", link: "https://prague.eu/en/objevujte/emmaus-monastery-na-slovanech-klaster-na-slovanech-emauzy/" },
         { ime: "Zalazak sunca s Letne", opis: "Iz pivskog vrta u parku Letná vidi se niz praških mostova jedan za drugim, pa je to najljepše mjesto za čašu piva pod kestenima." },
         { ime: "Uspon na Petřín", opis: "Na brdo se možete popeti pješice kroz voćnjake ili uspinjačom, a na vrhu vas čeka vidikovac iz 1891. nadahnut Eiffelovim tornjem." },
         { ime: "Rano jutro na Karlovu mostu", opis: "Dođite prije osam sati, kada na mostu nema gotovo nikoga i kada se kipovi ocrtavaju u izmaglici s rijeke." }
@@ -190,7 +204,7 @@ window.ATLAS["ceska"] = {
       sazetak: "Studentska prijestolnica Moravske, grad funkcionalističke arhitekture, dobrih kavana i vinorodnog zaleđa.",
       prica: [
         "Brno je od srednjeg vijeka središte Moravske, a u 19. stoljeću se zbog tekstilne industrije prozvalo moravskim Manchesterom. Između dvaju svjetskih ratova postalo je poligon moderne arhitekture, iz čega je proizašla i slavna vila Tugendhat.",
-        "U ovdašnjem augustinskom samostanu redovnik Gregor Mendel sredinom 19. stoljeća križao je grašak i postavio temelje genetike. U južnoj Moravskoj, nedaleko od Brna, od 16. stoljeća žive i moravski Hrvati, potomci izbjeglica pred Osmanlijama, koji u selu Jevišovka čuvaju muzej svoje zajednice."
+        "U ovdašnjem augustinskom samostanu redovnik Gregor Mendel sredinom 19. stoljeća križao je grašak i postavio temelje genetike. U južnoj Moravskoj, nedaleko od Brna, od 16. stoljeća žive i moravski Hrvati, potomci izbjeglica pred Osmanlijama, koji u selu Jevišovka čuvaju muzej svoje zajednice, otvoren subotom poslijepodne u srpnju i kolovozu, a u ostatku godine uz najavu."
       ],
       vidjeti: [
         { ime: "Vila Tugendhat", opis: "Remek-djelo arhitekta Ludwiga Miesa van der Rohea, dovršeno 1930. i upisano na UNESCO-ov popis 2001. Potražite zid od medenožutog oniksa, koji pri zalasku sunca zasja crveno, i golema stakla koja se cijela spuštaju u pod. U vili je 1992. dogovoren razlaz Čehoslovačke." },
@@ -226,7 +240,7 @@ window.ATLAS["ceska"] = {
       ],
       vidjeti: [
         { ime: "Stup Presvetog Trojstva", opis: "Kužni stup visok 35 metara gradio se od 1716. do 1754. i na UNESCO-ovu je popisu od 2000. Toliko je velik da se u njegovu podnožju nalazi mala kapela u koju možete ući." },
-        { ime: "Astronomski sat", opis: "Sat na vijećnici je nakon ratnih oštećenja pedesetih godina 20. stoljeća obnovljen u duhu socijalističkog realizma. Umjesto svetaca u podne zato defiliraju radnici, sportaši i mljekarica, a mozaik prikazuje kemičara i mehaničara." },
+        { ime: "Astronomski sat", opis: "Sat na vijećnici je nakon ratnih oštećenja pedesetih godina 20. stoljeća obnovljen u duhu socijalističkog realizma. Umjesto svetaca u podne zato defiliraju radnici, seljaci i sportaši, a mozaik u podnožju prikazuje radnika i kemičara." },
         { ime: "Olomoučke fontane", opis: "Šest baroknih fontana s likovima iz antičke mitologije podignuto je između 1683. i 1735., među njima i Cezarova, jer legenda kaže da je grad osnovao Julije Cezar. Sedma, Arionova, s kornjačom na koju se penju djeca, dodana je 2002." },
         { ime: "Katedrala sv. Vaclava", opis: "Neogotički toranj visok oko sto metara jedan je od najviših u zemlji. Uz katedralu je stajao přemyslovski dvor u kojem je 1306. ubijen Václav III., posljednji muški potomak dinastije." },
         { ime: "Nadbiskupska palača", opis: "U baroknoj rezidenciji mogu se razgledati svečane dvorane, među njima i ona u kojoj je Franjo Josip I. postao car." }
@@ -268,7 +282,7 @@ window.ATLAS["ceska"] = {
         { ime: "Nakládaný hermelín", opis: "Meki sir nalik camembertu, mariniran u ulju s lukom i ljutim papričicama, najčešći je zalogaj uz pivo." }
       ],
       dozivjeti: [
-        { ime: "Obilazak pivovare", opis: "Ako želite vidjeti kako nastaje izvorni lager, rezervirajte obilazak pivovare, a istim se ulaznicama mogu obići i Muzej pivarstva te povijesno podzemlje.", link: "https://www.prazdrojvisit.cz/en/" },
+        { ime: "Obilazak pivovare", opis: "Ako želite vidjeti kako nastaje izvorni lager, rezervirajte obilazak pivovare, a isti posjetiteljski centar prodaje i zasebne obilaske Muzeja pivarstva i povijesnog podzemlja, koji su povoljniji ako ih kupite zajedno.", link: "https://www.prazdrojvisit.cz/en/" },
         { ime: "Tragom oslobođenja 1945.", opis: "Plzeň je 6. svibnja 1945. oslobodila vojska SAD-a pod zapovjedništvom generala Pattona, čega se grad sjeća muzejom i festivalom početkom svibnja." },
         { ime: "Muzej lutaka", opis: "Na glavnom trgu upoznajte Spejbla i Hurvínka, oca i sina od drva koji su u Plzeňu nastali dvadesetih godina 20. stoljeća." }
       ],

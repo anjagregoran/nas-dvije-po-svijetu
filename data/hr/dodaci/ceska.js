@@ -6,17 +6,17 @@ window.DODACI["ceska"] = {
     { ime: "Becherovka", opis: "Ovaj biljni liker iz Karlovih Vara proizvodi se od 1807. po receptu koji znaju samo dvije osobe. Pije se ohlađen, iz male čašice nakon jela, ili s tonikom kao koktel koji zovu „beton“." },
     { ime: "Drvene marionete", opis: "Lutkarstvo je u Češkoj ozbiljna umjetnost koju je priznao i UNESCO, a marionete se rezbare od lipova drva. Vrijedi ih kupiti u radionici u kojoj majstora možete gledati dok radi, a plastične lutke sa štandova slobodno preskočite." },
     { ime: "Modrotisk", opis: "Platno s bijelim uzorcima na indigoplavoj podlozi, zvano modrotisk, ručno se tiska drvenim pečatima u nekoliko moravskih radionica. Od njega se šivaju stolnjaci, pregače i torbe koje se prodaju u trgovinama narodnim rukotvorinama." },
-    { ime: "Medenjaci iz Pardubica", opis: "Pardubický perník mekani je medenjak punjen pekmezom od šljiva i obložen čokoladom, sa zaštićenim imenom. Naći ćete ga u slastičarnicama i trgovinama diljem zemlje, često u obliku srca." }
+    { ime: "Medenjaci iz Pardubica", opis: "Pardubický perník medenjak je sa zaštićenim imenom, koji se prodaje ukrašen bijelom glazurom, često u obliku srca, ili punjen pekmezom i obložen čokoladom. Naći ćete ga u slastičarnicama i trgovinama diljem zemlje." }
   ],
   mjesta: {
     "prag": {
       dragulji: [
         { ime: "Nový Svět", opis: "Iza četvrti Hradčany skriva se uličica niskih, šarenih kućica u kojima je nekad živjela dvorska posluga. Od gužve kod dvorca dijeli je tek nekoliko minuta, a ipak ondje čujete vlastite korake." },
-        { ime: "Vojanovy sady", opis: "Najstariji praški vrt leži iza visokog zida u Maloj Strani, sa starim voćkama i paunovima koji šeću uokolo. Sjednite na klupu s knjigom, kao što to čine ljudi iz susjedstva." },
+        { ime: "Vojanovy sady", opis: "Jedan od najstarijih praških vrtova leži iza visokog zida u Maloj Strani, sa starim voćkama i paunovima koji šeću uokolo. Sjednite na klupu s knjigom, kao što to čine ljudi iz susjedstva." },
         { ime: "Vyšehrad u sumrak", opis: "Na stijeni iznad Vltave stoji stara tvrđava s parkom, crkvom i grobljem na kojem su pokopani Dvořák i Smetana. S bedema vidite rijeku i dvorac u daljini, a većina ljudi ovdje su Pražani." }
       ],
       domaci: [
-        { ime: "Subota na Náplavki", opis: "Subotom se na obali Vltave ispod Vyšehrada održava tržnica domaćih proizvoda, gdje ljudi kupuju kruh, sir i peciva i doručkuju uz vodu. Navečer se ta ista obala pretvara u jedan dugi bar na otvorenom." },
+        { ime: "Subota na Náplavki", opis: "Subotom prijepodne, od veljače do prosinca, na obali Vltave uz Rašínovo nábřeží održava se tržnica domaćih proizvoda, gdje ljudi kupuju kruh, sir i peciva i doručkuju uz vodu. Navečer se ta ista obala pretvara u jedan dugi bar na otvorenom." },
         { ime: "Pivo u Riegrovim sadima", opis: "U četvrti Vinohrady ljudi se predvečer smjeste na travnatu padinu ovog parka s plastičnom čašom piva i gledaju kako sunce zalazi iza dvorca. Pivo se kupuje u pivskom vrtu u samom parku." },
         { ime: "Chlebíčky za međuobrok", opis: "Ovi otvoreni sendviči na bijelom kruhu, s krumpir-salatom, šunkom i jajetom, kupuju se u delikatesnim trgovinama i jedu stojeći za pultom. Uzmite dva ili tri različita, kao Pražani na putu na posao." }
       ],
@@ -111,7 +111,7 @@ window.DODACI["ceska"] = {
       dragulji: [
         { ime: "Loosovi interijeri", opis: "Arhitekt Adolf Loos projektirao je u Plzeňu niz stanova za imućne obitelji, obloženih plemenitim drvom i mramorom. Nekoliko ih je obnovljeno i mogu se razgledati s vodičem, a obilazak treba rezervirati unaprijed." },
         { ime: "Prsten parkova", opis: "Ondje gdje su nekad stajale gradske zidine, stari grad danas okružuje pojas parkova s drvoredima, kipovima i fontanama. Za šetnju oko cijelog centra treba vam pola sata." },
-        { ime: "Meditacijski vrt", opis: "Nekadašnji politički zatvorenik sam je uredio ovaj vrt s jezercem i kapelicom, kao spomen žrtvama zla. To je tiho i dirljivo mjesto na rubu grada, otvoreno u toplijem dijelu godine." }
+        { ime: "Meditacijski vrt", opis: "Nekadašnji politički zatvorenik tridesetak je godina pretvarao obiteljski voćnjak u ovaj vrt s jezercima i kapelicom, kao spomen žrtvama zla. To je tiho i dirljivo mjesto u četvrti Doudlevce, otvoreno od travnja do listopada." }
       ],
       domaci: [
         { ime: "Tri načina točenja", opis: "U Plzeňu se pivo naručuje prema količini pjene: hladinka je klasično točenje, šnyt je manji i s više pjene, a mlíko je čaša gotovo same slatke pjene. Zamolite konobara za mlíko i popijte ga nadušak." },

@@ -28,7 +28,7 @@ window.DODACI["bih"] = {
     "mostar": {
       dragulji: [
         { ime: "Kriva ćuprija", opis: "The Crooked Bridge is a small stone arch over a side stream, built before the famous bridge. The area around it has millhouses and terraces by the water." },
-        { ime: "The Partisan Memorial Cemetery", opis: "This terraced monument by the architect Bogdan Bogdanović climbs a hillside in curving stone walls and paths. It is a short walk from the center." },
+        { ime: "The Partisan Memorial Cemetery", opis: "This terraced monument by the architect Bogdan Bogdanović climbs a hillside in curving stone walls and paths. It is a short walk from the center, though it has stood damaged since vandals smashed its gravestones in 2022." },
         { ime: "The Buna channels", opis: "South of the city, the river Buna drops into the Neretva over low travertine steps. People swim and picnic there in summer." }
       ],
       domaci: [
@@ -78,7 +78,7 @@ window.DODACI["bih"] = {
     "una": {
       dragulji: [
         { ime: "Kulen Vakuf and Ostrovica", opis: "This small riverside town inside the park lies beneath a ruined hilltop fortress. A footpath climbs to it for a wide view of the Una valley." },
-        { ime: "Japodski otoci", opis: "A few kilometers from Bihać, the river splits around small green islands joined by wooden bridges. It is a lovely place to swim and paddle." },
+        { ime: "Japodski otoci", opis: "A short drive upstream from Bihać, the river splits around small green islands joined by wooden bridges. It is a lovely place to swim and paddle." },
         { ime: "Rmanj monastery at Martin Brod", opis: "Where the Unac meets the Una, a monastery stands beside a long chain of small waterfalls and old mills. The village is the calm end of the park." }
       ],
       domaci: [

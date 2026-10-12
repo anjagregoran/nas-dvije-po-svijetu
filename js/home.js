@@ -26,6 +26,7 @@
   // ---------- kontinenti i zemlje ----------
   var active = I.kontinenti[0].ime;
   var fromHash = decodeURIComponent((location.hash.match(/^#k=(.+)$/) || [])[1] || '');
+  if (window.TR) fromHash = window.TR(fromHash);
   if (I.kontinenti.some(function (k) { return k.ime === fromHash; })) active = fromHash;
   var cont = document.getElementById('continents');
   var box = document.getElementById('countries');
@@ -109,7 +110,7 @@
     finder.hidden = !finder.hidden;
     if (!finder.hidden) document.getElementById('q').focus();
   });
-  var onlyPlaces = I.trazi.filter(function (e) { return e[1] !== 'Country' && e[1] !== 'Deep guide'; });
+  var onlyPlaces = I.trazi.filter(function (e) { return !/^(Country|Deep guide|Zemlja|Veliki vodič)$/.test(e[1]); });
   function surprise() {
     var e = onlyPlaces[Math.floor(Math.random() * onlyPlaces.length)];
     if (!e) return;

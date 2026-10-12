@@ -336,3 +336,6 @@ body.locked { overflow: hidden; }
 .door p { margin: 0 0 8px; color: var(--ink); max-width: 30em; }
 .step { display: inline-grid; place-items: center; width: 1.25em; height: 1.25em; margin-right: .35em; border-radius: 50%; background: var(--wine); color: var(--cream); font-family: var(--sans); font-size: .5em; font-weight: 700; vertical-align: .32em; }
 #kontinent { scroll-margin-top: 76px; }
+
+.site-head nav a.lang { padding: 5px 10px; border-radius: 999px; box-shadow: inset 0 0 0 1.5px var(--wine); }
+@media (max-width: 400px) { .site-head nav a:first-child { display: inline; } .site-head nav { gap: 10px; } }

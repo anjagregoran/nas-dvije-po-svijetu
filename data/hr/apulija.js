@@ -1,0 +1,58 @@
+// Apulija: osnovni podaci velikog vodiča. Ostatak sadržaja je u datotekama navedenima pod „dodaci“.
+window.TRIP = {
+  id: "apulija",
+  naziv: "Apulija",
+  nadnaslov: "Veliki vodič · Italija",
+  uvod: "Peta talijanske čizme: bijeli gradovi nad maslinicima, trulli, barok od kamena boje meda i kuhinja koja je od siromaštva napravila umjetnost.",
+  dodaci: ["apulija-mjesta-1", "apulija-mjesta-2", "apulija-hrana", "apulija-kultura", "apulija-ako-zelis"],
+  ukratko: [
+    { k: "Gdje je", v: "Jugoistok Italije, između Jadranskog i Jonskog mora, točno preko puta Dalmacije." },
+    { k: "Kada ići", v: "Kraj svibnja, lipanj, rujan i početak listopada." },
+    { k: "Koliko dana", v: "Sedam do deset za prvi put, bez Gargana." },
+    { k: "Kako doći", v: "Trajektom iz Dubrovnika ili Splita do Barija, ili izravnim ljetnim letom." },
+    { k: "Ne propustiti", v: "Mozaik u Otrantu, Lecce u kasno popodne, Alberobello prije deset ujutro i večeru kod mesara u Cisterninu." }
+  ],
+  jesteLiZnale: [
+    "Primitivo, najpoznatije crno vino Apulije, ista je sorta kao crljenak kaštelanski, koji je preko mora stigao iz Dalmacije.",
+    "Trulli su prema predaji građeni bez žbuke da bi se mogli srušiti prije dolaska kraljevih poreznika.",
+    "Na podu katedrale u Otrantu iz 12. stoljeća prikazan je kralj Artur, dvije tisuće kilometara daleko od Britanije.",
+    "Ostuni je bijel zato što je vapno bilo jeftino, odbijalo svjetlo u uske ulice i dezinficiralo zidove u vrijeme kuge.",
+    "Bari je od 847. do 871. bio muslimanski emirat.",
+    "Kosti svetog Nikole barski su mornari 1087. odnijeli iz Mire u današnjoj Turskoj.",
+    "U Altamuri je pekara pobijedila McDonald's, koji se zatvorio nedugo nakon otvaranja.",
+    "Castel del Monte nalazi se na talijanskoj kovanici od jednog centa, a nitko ne zna čemu je služio.",
+    "Katedrala u Lecceu ima dva pročelja, a ono raskošnije zapravo je bok crkve.",
+    "Špageti all'assassina jedina su talijanska tjestenina koja se ne kuha u vodi nego peče u tavi dok ne zagori.",
+    "U Salentu se stoljećima vjerovalo da se ugriz pauka liječi samo plesom koji traje danima.",
+    "Najslavnija slastica Leccea, pasticciotto, nastala je u susjednoj Galatini.",
+    "Gallipoli se obogatio maslinovim uljem koje se nije jelo, nego je gorjelo u uličnim svjetiljkama sjeverne Europe.",
+    "U devet sela južno od Leccea stariji ljudi još govore grčki dijalekt koji se zove griko.",
+    "Stanovnici materanskih špilja iseljeni su zakonom 1952., a četrdeset godina poslije te su špilje postale svjetska baština.",
+    "Vinarija Leone de Castris napunila je 1943. prvi talijanski rosé u pivske boce, jer drugih u ratu nije bilo.",
+    "Kipar se na portalu crkve u Barletti u 13. stoljeću potpisao kao Simeon Dubrovčanin.",
+    "U Bariju se hobotnica tuče o kamen i vrti u košari dok se ne skovrča, a zatim jede sirova.",
+    "Burrata je prema predaji nastala kad je snijeg odsjekao jednog sirara od svijeta, pa je vrhnje sačuvao u vrećici od mozzarelle.",
+    "Apulija nema rijeka, pa vodu dobiva akvaduktom s druge strane Apenina, koji završava slapom u Santa Maria di Leuci."
+  ],
+  izvori: [
+    { ime: "Basilica di San Nicola, Bari", url: "https://www.basilicasannicola.it/" },
+    { ime: "Musei Puglia, Ministarstvo kulture Italije", url: "https://museipuglia.cultura.gov.it/" },
+    { ime: "UNESCO: Trulli u Alberobellu", url: "https://whc.unesco.org/en/list/787" },
+    { ime: "UNESCO: Castel del Monte", url: "https://whc.unesco.org/en/list/398" },
+    { ime: "UNESCO: Sassi i spiljske crkve Matere", url: "https://whc.unesco.org/en/list/670" },
+    { ime: "Trullo Sovrano, Alberobello", url: "https://www.trullosovrano.eu/" },
+    { ime: "Grotte di Castellana", url: "https://www.grottedicastellana.it/" },
+    { ime: "LeccEcclesiae, crkve Leccea", url: "https://www.chieselecce.it/" },
+    { ime: "MArTA, arheološki muzej u Tarantu", url: "https://museotaranto.cultura.gov.it/" },
+    { ime: "FAI, Casa Noha u Materi", url: "https://fondoambiente.it/luoghi/casa-noha/visita" },
+    { ime: "Oltre l'Arte, spiljske crkve Matere", url: "https://www.oltrelartematera.it/" },
+    { ime: "Santuario di San Michele, Monte Sant'Angelo", url: "https://www.santuariosanmichele.it/" },
+    { ime: "Fondazione La Notte della Taranta", url: "https://www.lanottedellataranta.it/" },
+    { ime: "Slow Food: Capocollo di Martina Franca", url: "https://www.fondazioneslowfood.com/it/presidi-slow-food/capocollo-di-martina-franca/" },
+    { ime: "Gambero Rosso International: gdje jesti u starom Bariju", url: "https://www.gamberorossointernational.com/news/where-to-eat-in-bari-vecchia-the-best-restaurants/" },
+    { ime: "Italia.it, službeni turistički portal Italije", url: "https://www.italia.it/it/puglia" },
+    { ime: "Jadrolinija, međunarodne linije", url: "https://www.jadrolinija.hr/" },
+    { ime: "Acquedotto Pugliese, povijest", url: "https://aqp.it/en/why-the-aqueduct/history" },
+    { ime: "CROSBI: Slaveni na Garganu u 11. stoljeću", url: "https://www.bib.irb.hr/808364" }
+  ]
+};

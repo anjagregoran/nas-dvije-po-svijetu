@@ -12,7 +12,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=9">
+  <script src="js/i18n.js?v=10"></script>
+  <link rel="stylesheet" href="css/style.css?v=10">
 </head>
 <body>
   <header class="site-head">
@@ -42,21 +43,6 @@
     </div>
 
     <div class="wrap">
-      <section class="doors">
-        <a class="door c0" href="#zemlje">
-          <span class="label">The guide</span>
-          <h2>Explore</h2>
-          <p>Pick a continent, then a country, then a city. Every place opens into the same simple boxes: cuisine, hidden gems, like a local, what to buy.</p>
-          <span class="btn dark">Start exploring</span>
-        </a>
-        <a class="door c2" href="putovanja.html">
-          <span class="label">The travel log</span>
-          <h2>Our trips</h2>
-          <p>Anja’s world on a map, plus the trips with Diana, with Drake, with family and solo.</p>
-          <span class="btn dark">Open our trips</span>
-        </a>
-      </section>
-
       <section class="block" id="zemlje">
         <div class="sec-head">
           <h2><span class="step">1</span>Pick a <em>continent</em></h2>
@@ -91,8 +77,8 @@
     Prices and opening hours change, so check official sites before you go.
   </footer>
 
-  <script src="data/europa/index.js?v=9"></script>
-  <script src="js/karta.js?v=9"></script>
-  <script src="js/home.js?v=9"></script>
+  <script>document.write('<script src="' + window.BASE + 'europa/index.js?v=10"><\/script>');</script>
+  <script src="js/karta.js?v=10"></script>
+  <script src="js/home.js?v=10"></script>
 </body>
 </html>

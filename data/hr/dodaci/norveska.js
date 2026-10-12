@@ -129,7 +129,7 @@ window.DODACI["norveska"] = {
     "lofoti": {
       dragulji: [
         { ime: "Unstad", opis: "Do ove uvale dolazi se kroz tunel, a s druge strane čeka vas plaža na kojoj se surfa čak i usred zime. I ako ne uđete u more, vrijedi sjesti na obalu i gledati surfere u debelim odijelima." },
-        { ime: "Plaža Kvalvika", opis: "Do ove plaže među strmim liticama može se samo pješice, preko prijevoja, za što treba oko sat vremena. Zato je na njoj i usred ljeta tek šačica ljudi." },
+        { ime: "Plaža Kvalvika", opis: "Do ove plaže među strmim liticama može se samo pješice, preko prijevoja, za što treba oko sat vremena. Postala je jedan od najomiljenijih izleta na otočju, pa pođite rano ujutro ili predvečer ako želite pijesak gotovo samo za sebe." },
         { ime: "Sund", opis: "U ovom ribarskom selu na Flakstadøyi kovač desetljećima kuje željezne kormorane, a uz kovačnicu je mali muzej starih brodskih motora. Selo je mirno i samo nekoliko minuta udaljeno od glavne ceste." }
       ],
       domaci: [

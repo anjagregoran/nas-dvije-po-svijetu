@@ -2,7 +2,7 @@ window.DODACI = window.DODACI || {};
 window.DODACI["malta"] = {
   kupiti: [
     { ime: "Silver filigree", opis: "Fine silver wire is twisted into jewelry, most often in the shape of the eight-pointed Maltese cross. Buy it from a jeweler who makes it on the premises, where you can see the work bench." },
-    { ime: "Maltese lace", opis: "Bobbin lace, called bizzilla, is made mainly on Gozo, where women still work it on a pillow in their doorways. Handmade pieces are small and priced accordingly, so be wary of large, cheap tablecloths." },
+    { ime: "Maltese lace", opis: "Bobbin lace, called bizzilla, is made mainly on Gozo, where it is worked on a tall, narrow pillow, though a lace maker in her doorway is now a rare sight. Handmade pieces are small and priced accordingly, so be wary of large, cheap tablecloths." },
     { ime: "Blown glass", opis: "Maltese glass is known for swirls of sea blue, green and sand. You can watch it being blown in the workshops of the crafts village at Ta' Qali before you buy." },
     { ime: "Ġbejniet", opis: "These small round cheeses of sheep's or goat's milk come fresh, dried or rolled in black pepper. The dried, peppered ones travel well and are sold at grocery stores and markets." },
     { ime: "Honey", opis: "Maltese honey, especially the wild thyme kind, has been prized since ancient times. Buy it from a beekeeper or a shop that names the producer and the season." },
@@ -54,7 +54,7 @@ window.DODACI["malta"] = {
         { ime: "The band club", opis: "Every parish has a band club with a bar that is open to everyone. It is the heart of the village feast, and a good place for a cheap drink among neighbors." }
       ],
       kupiti: [
-        { ime: "Finds at the Sunday flea market", opis: "A flea market is held in Birgu on Sunday mornings, with old tools, crockery and curiosities. Ask your hosts where it is set up at the moment, and go early." },
+        { ime: "Finds at the Sunday flea market", opis: "A flea market is held in Birgu on Sunday mornings, with old tools, crockery and curiosities. It sets up on the old Fortini football ground just outside the town gate, unless the weather is bad, so go early." },
         { ime: "Bread from a wood-fired bakery", opis: "The Three Cities still have traditional bakeries turning out crusty Maltese loaves and ring-shaped ftira. Buy one warm in the morning for a picnic by the water." }
       ]
     },

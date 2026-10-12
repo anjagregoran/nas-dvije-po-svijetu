@@ -129,7 +129,7 @@ window.DODACI["norveska"] = {
     "lofoti": {
       dragulji: [
         { ime: "Unstad", opis: "You reach this bay through a tunnel, and on the other side waits a beach where people surf even in the middle of winter. Even if you stay out of the water, it is worth sitting on the shore to watch the surfers in their thick wetsuits." },
-        { ime: "Kvalvika beach", opis: "The only way to this beach between steep cliffs is on foot over a pass, which takes about an hour. That is why even in midsummer there is only a handful of people on it." },
+        { ime: "Kvalvika beach", opis: "The only way to this beach between steep cliffs is on foot over a pass, which takes about an hour. It has become one of the best loved hikes on the islands, so go early in the morning or in the evening if you want the sand almost to yourself." },
         { ime: "Sund", opis: "In this fishing village on Flakstadøya a blacksmith has been forging iron cormorants for decades, and next to the forge is a small museum of old boat engines. The village is quiet and only a few minutes off the main road." }
       ],
       domaci: [

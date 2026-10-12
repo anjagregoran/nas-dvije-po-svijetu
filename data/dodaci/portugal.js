@@ -102,7 +102,7 @@ window.DODACI["portugal"] = {
       domaci: [
         { ime: "Coffee on Praça do Giraldo", opis: "Everyone in town crosses the main square at some point in the day and stops at a café under the arcades. Sit down mid-morning and watch the town greet itself." },
         { ime: "The heat of the afternoon", opis: "In summer the streets empty after lunch and come back to life toward evening. Do as locals do, with a long lunch of bread soup or black pork, a rest, and a walk once it cools." },
-        { ime: "Cante alentejano", opis: "Groups of men and women sing slow songs in unison, without instruments, and the tradition is still alive in taverns and village clubs. Ask your hosts where you might hear it." }
+        { ime: "Cante alentejano", opis: "Choirs of men or women sing slow songs in two parts, without instruments, and the tradition is still alive in taverns and village clubs. Ask your hosts where you might hear it." }
       ],
       kupiti: [
         { ime: "Cork goods", opis: "The cork oak forests of the Alentejo surround the city, and Rua 5 de Outubro is lined with shops selling cork bags, hats and shoes. Compare a few, since quality varies." },

@@ -51,7 +51,7 @@ window.DODACI["maroko"] = {
       ],
       domaci: [
         { ime: "Goat cheese for breakfast", opis: "Fresh jben cheese from the surrounding Rif villages is eaten with bread, olive oil and olives. Village women sell it wrapped in palm leaves, and many cafes serve it with morning tea." },
-        { ime: "Rif women at the market", opis: "On market day, women come down from the mountain villages in red and white striped wraps and straw hats with wool pompoms. Ask your hosts which day the market is held and get there before noon." },
+        { ime: "Rif women at the market", opis: "On market day, women come down from the mountain villages in red and white striped wraps and straw hats with wool pompoms. The market is held on Mondays and Thursdays, so get there before noon." },
         { ime: "Tea on Plaza Uta el-Hammam", opis: "Toward evening the whole town drifts to the main square below the kasbah, where people sit over mint tea for hours. Order one glass and nobody will hurry you along." }
       ],
       kupiti: [
@@ -62,7 +62,7 @@ window.DODACI["maroko"] = {
     },
     "casablanca": {
       dragulji: [
-        { ime: "Quartier Habous", opis: "The so-called new medina, built in the 1920s, has arcades, small squares and tidier shops than the old one. This is where locals come for pastries, olives and wedding clothes." },
+        { ime: "Quartier Habous", opis: "The so-called new medina, built in the 1920s and 1930s, has arcades, small squares and tidier shops than the old one. This is where locals come for pastries, olives and wedding clothes." },
         { ime: "Art Deco around Boulevard Mohammed V", opis: "Downtown is full of white 1930s buildings with rounded balconies and wrought iron railings. Keep looking up as you walk from the Marché Central toward United Nations Square." },
         { ime: "El Hank lighthouse", opis: "The point by the lighthouse gives you the best view of the Hassan II Mosque across the bay, especially when waves are crashing on the rocks. Come before sunset, when the fishermen turn up with their rods too." }
       ],
@@ -105,7 +105,7 @@ window.DODACI["maroko"] = {
         { ime: "Dusk on the ramparts", opis: "When the afternoon trade wind eases a little, locals come out to the Skala to watch the sun drop into the Atlantic behind the seagulls. Bring a jacket, because it blows here even in midsummer." }
       ],
       kupiti: [
-        { ime: "Thuya wood marquetry", opis: "Fragrant thuya wood with its burled grain grows only in this region, and craftsmen turn it into boxes and bowls. The workshops are in the vaults under the ramparts of the Skala de la Ville." },
+        { ime: "Thuya wood marquetry", opis: "Fragrant thuya wood with its burled grain comes from a conifer native to northwest Africa, and Essaouira's craftsmen turn it into boxes and bowls. The workshops are in the vaults under the ramparts of the Skala de la Ville." },
         { ime: "Argan oil and amlou", opis: "Women's cooperatives around town sell oil for cooking and for skin, along with amlou, a spread of almonds, argan oil and honey. The edible oil is darker and smells of hazelnuts." },
         { ime: "Raffia sandals", opis: "Woven raffia shoes and sandals are a local craft, and cobblers make them to measure in small medina shops. They are light and last for years." }
       ]
@@ -114,7 +114,7 @@ window.DODACI["maroko"] = {
       dragulji: [
         { ime: "The village of Khamlia", opis: "A few miles south of Merzouga live the descendants of people brought across the Sahara, who keep Gnawa music alive. In the village houses they play for guests over tea, with no stage and no speakers." },
         { ime: "Lake Dayet Srji", opis: "After rainy winters a shallow lake appears west of the village and flamingos land on it, with the dunes behind. Ask your hosts whether there is water before you go." },
-        { ime: "The market in Rissani", opis: "This old caravan town has a covered souk of dates and spices and even a parking lot for donkeys. Ask your hosts which days the market runs, because the mood is completely different then." }
+        { ime: "The market in Rissani", opis: "This old caravan town has a covered souk of dates and spices and even a parking lot for donkeys. Come on a Sunday, Tuesday or Thursday, when the market is at its liveliest." }
       ],
       domaci: [
         { ime: "Medfouna", opis: "This stuffed bread of meat, onion and spices, often called Berber pizza, is baked in Rissani's communal ovens. Locals order it ahead, so leave that to your driver or host." },
@@ -129,7 +129,7 @@ window.DODACI["maroko"] = {
     },
     "atlas-i-ait-benhaddou": {
       dragulji: [
-        { ime: "Telouet Kasbah", opis: "The half-collapsed palace of the Glaoui family looks like a ruin from outside, yet inside are halls of mosaic and carved cedar. A caretaker from the village unlocks the door and tells the story of the house." },
+        { ime: "Telouet Kasbah", opis: "The half-collapsed palace of the Glaoui family looks like a ruin from outside, yet inside are halls of mosaic and carved cedar. A local guide tells the story of the house, and since the 2023 earthquake only some of the rooms are open." },
         { ime: "The Ounila Valley", opis: "The old caravan road from Telouet to Aït Benhaddou follows the river past red earth villages and almond orchards. It is far prettier than the main road and has almost no traffic." },
         { ime: "Imlil and the village of Aroumd", opis: "At the foot of Mount Toubkal, trails lead through walnut groves to villages stacked up the slope like stairs. A walk of an hour or two with a local guide is enough to feel mountain life." }
       ],

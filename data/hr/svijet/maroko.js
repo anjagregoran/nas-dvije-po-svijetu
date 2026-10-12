@@ -4,6 +4,20 @@ window.ATLAS["maroko"] = {
   ime: "Maroko",
   regija: "Sjeverna Afrika",
   sazetak: "Zemlja u kojoj se iz srednjovjekovne medine za jedan dan stiže preko snježnih vrhova Atlasa do saharskih dina.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "UNESCO Intangible Cultural Heritage, Cultural space of Jemaa el-Fna Square", url: "https://ich.unesco.org/en/RL/cultural-space-of-jemaa-el-fna-square-00014" },
+    { ime: "Afar, Djemaa el Fna", url: "https://www.afar.com/places/djemaa-el-fna-marrakech" },
+    { ime: "Lonely Planet, A weekend in Chefchaouen", url: "https://www.lonelyplanet.com/articles/weekend-itinerary-chefchaouen" },
+    { ime: "Lonely Planet, Water Clock (Fez)", url: "https://www.lonelyplanet.com/morocco/fez/attractions/water-clock/a/poi-sig/1605793/355510" },
+    { ime: "Lonely Planet, Quartier Habous (Casablanca)", url: "https://www.lonelyplanet.com/morocco/casablanca/attractions/quartier-habous/a/poi-sig/1633608/1331580" },
+    { ime: "Fondation de la Mosquée Hassan II", url: "https://www.fmh2.ma/" },
+    { ime: "Journey Beyond Travel, Hassan Tower and the Mausoleum of Mohammed V", url: "https://www.journeybeyondtravel.com/blog/hassan-tower-mohamed-v-mausoleum.html" },
+    { ime: "Morocco World News, Rabat's Chellah reopens after renovations", url: "https://www.moroccoworldnews.com/2024/05/19341/rabats-chellah-to-reopen-doors-to-public-after-major-renovations/" },
+    { ime: "Sud Est Maroc, Telouet Kasbah", url: "https://sudestmaroc.com/en/telouet-kasbah-the-glaoui-palace-in-the-high-atlas/" },
+    { ime: "Kasbah du Toubkal", url: "https://www.kasbahdutoubkal.com/" },
+    { ime: "Hespress, 2026 festival calendar for Morocco", url: "https://en.hespress.com/?p=138184" },
+    { ime: "Salon du Cheval d'El Jadida", url: "https://salonducheval.ma/en/seizieme-edition" }
+  ] },
   uvod: [
     "Maroko leži na samom rubu Afrike, četrnaest kilometara od Španjolske, i oduvijek je most između dvaju kontinenata. Njegovi prvi stanovnici, Amazigi ili Berberi, i danas čine velik dio naroda i govore vlastitim jezikom, koji je uz arapski službeni. Od 8. stoljeća smjenjivale su se dinastije koje su jedna za drugom gradile carske gradove: Idrisidi Fes, Almoravidi i Almohadi Marakeš i Rabat, Merinidi medrese, Saadijci raskošne grobnice. Alavitska dinastija vlada od 17. stoljeća do danas, uz prekid francuskog i španjolskog protektorata od 1912. do 1956.",
     "Za putnice je Maroko gozba za sva osjetila i ponekad pravi ispit strpljenja. Medine su labirinti u kojima se čovjek mora izgubiti da bi ih upoznao, trgovci su uporni, a čaj od mente stiže prije svakog razgovora. Iza neuglednih vrata kriju se dvorišta s fontanama i narančama, jer se ovdje ljepota tradicionalno čuva za unutrašnjost kuće. Tko nauči čitati pločice zellige, rezbarenu cedrovinu i štuko, u svakoj će medresi i palači prepoznati isti jezik uzoraka."
@@ -62,7 +76,7 @@ window.ATLAS["maroko"] = {
       sazetak: "Crveni grad pod Atlasom čiji se glavni trg svake večeri pretvara u kazalište i kuhinju pod otvorenim nebom.",
       prica: ["Marakeš su oko 1070. osnovali Almoravidi, ratnici iz Sahare, kao tabor koji je prerastao u prijestolnicu carstva od Senegala do Španjolske. Almohadi su ga osvojili 1147. i podigli Koutoubiju, a Saadijci su mu u 16. stoljeću vratili sjaj zlatom iz Timbuktua. Zidine i kuće građene su od nabijene crvene zemlje, pa cijeli grad ima boju okolne ravnice. Po njemu je cijela zemlja dobila ime u europskim jezicima."],
       vidjeti: [
-        { ime: "Jemaa el-Fna", opis: "Trg je stoljećima mjesto pripovjedača, glazbenika, travara i krotitelja zmija, a predvečer se nad njim digne dim stotinu roštilja. Upravo zbog ovog trga UNESCO je osmislio popis nematerijalne baštine i trg je među prvima upisan 2001." },
+        { ime: "Jemaa el-Fna", opis: "Trg je stoljećima mjesto pripovjedača, glazbenika, travara i krotitelja zmija, a predvečer se nad njim digne dim stotinu roštilja. Upravo zbog ovog trga UNESCO je osmislio popis nematerijalne baštine a trg je 2001. bio među prvim proglašenim remek-djelima." },
         { ime: "Džamija Koutoubia", opis: "Minaret visok 77 metara dovršen je krajem 12. stoljeća i bio je uzor Giraldi u Sevilli i Hasanovu tornju u Rabatu. Ime znači džamija knjižara, jer je oko nje nekad bilo stotinjak prodavača rukopisa. Svaka je strana tornja ukrašena drukčijim uzorkom, pa ga obiđite cijelog." },
         { ime: "Medresa Ben Youssef", opis: "Saadijski sultan Abdallah al-Ghalib dovršio ju je 1565. kao najveću kuransku školu Magreba. Oko dvorišta s bazenom nižu se tri pojasa ukrasa: pločice zellige dolje, klesani štuko u sredini i rezbarena cedrovina gore. Na katu zavirite u sićušne studentske sobe." },
         { ime: "Saadijske grobnice", opis: "Sultan Ahmed al-Mansur dao ih je sagraditi krajem 16. stoljeća, a njegov nasljednik iz druge dinastije zazidao ih je pa su zaboravljene do 1917. U Dvorani dvanaest stupova potražite talijanski mramor iz Carrare, koji je sultan, kako se priča, plaćao istom težinom šećera." },
@@ -93,7 +107,7 @@ window.ATLAS["maroko"] = {
       prica: ["Fes je 789. osnovao Idris I., potomak proroka Muhameda, a njegov sin Idris II. učinio ga je prijestolnicom. Ubrzo su stigle izbjeglice iz Córdobe i iz tuniskog Kairouana i svaka je skupina naselila svoju obalu rijeke. Merinidi su u 13. i 14. stoljeću dodali novi dio grada i najljepše medrese. Stara medina Fes el-Bali ima više od devet tisuća uličica bez ijednog automobila, a UNESCO ju je zaštitio 1981."],
       vidjeti: [
         { ime: "Al-Qarawiyyin", opis: "Džamiju i školu osnovala je 859. Fatima al-Fihri, kći bogatog trgovca iz Kairouana, i iz nje je izraslo sveučilište. Posjetitelji koji nisu muslimani ne smiju unutra, ali kroz otvorena vrata vide se dvorište s paviljonima nalik onima u Alhambri i bijeli lukovi u nedogled." },
-        { ime: "Medresa Bou Inania", opis: "Merinidski sultan Abu Inan sagradio ju je između 1351. i 1356. i jedina je medresa u Fesu s vlastitim minaretom. Nasuprot ulazu potražite ostatke vodenog sata s trinaest prozorčića i mjedenih zdjela, čiji mehanizam do danas nije do kraja razjašnjen." },
+        { ime: "Medresa Bou Inania", opis: "Merinidski sultan Abu Inan sagradio ju je između 1351. i 1356. i jedina je medresa u Fesu s vlastitim minaretom. Nasuprot ulazu potražite ostatke vodenog sata, niz prozorčića i rezbarenih greda na kojima su nekad stajale mjedene zdjele, a čiji mehanizam do danas nije do kraja razjašnjen." },
         { ime: "Kožare Chouara", opis: "U kamenim kacama koža se kao u srednjem vijeku najprije omekšava u vapnu i golubljem izmetu, a zatim boji makom, indigom i šafranom. Gleda se s terasa okolnih trgovina, a grančica mente koju dobijete na ulazu služi protiv mirisa." },
         { ime: "Bab Boujloud", opis: "Glavna vrata medine iz 1913. izvana su obložena plavim pločicama, bojom Fesa, a iznutra zelenima, bojom islama. Kroz luk se vide dva minareta, što je najpoznatiji okvir za fotografiju u gradu." },
         { ime: "Trg i muzej Nejjarine", opis: "Uz fontanu obloženu mozaikom stoji fondouk iz 18. stoljeća, svratište u kojem su trgovci spavali na katu, a životinje i roba bili u prizemlju. Danas je u njemu muzej drvodjelstva, a na krovu kavana." },
@@ -149,9 +163,9 @@ window.ATLAS["maroko"] = {
       sazetak: "Najveći grad i gospodarsko srce zemlje, s džamijom nad Atlantikom i ulicama u stilu art décoa.",
       prica: ["Na mjestu berberskog naselja Anfa Portugalci su u 16. stoljeću podigli utvrdu Casa Branca, „bijelu kuću“. Do 1900. bila je to luka s dvadesetak tisuća stanovnika, a onda su je Francuzi odabrali za glavnu luku protektorata i sagradili novi grad širokih bulevara. Arhitekti su ondje spojili art déco s marokanskim lukovima i pločicama u stil zvan mauresque."],
       vidjeti: [
-        { ime: "Džamija Hasana II.", opis: "Dovršena 1993. prema projektu Michela Pinseaua, ima minaret visok 210 metara i jedna je od najvećih na svijetu. Dio poda stoji nad oceanom, krov se otvara, a deset tisuća majstora šest je godina klesalo štuko, cedrovinu i mramor. Jedna je od rijetkih marokanskih džamija u koju se ulazi uz vođeni obilazak." },
+        { ime: "Džamija Hasana II.", opis: "Dovršena 1993. prema projektu Michela Pinseaua, ima minaret visok oko 200 metara i jedna je od najvećih na svijetu. Dio poda stoji nad oceanom, krov se otvara, a tisuće majstora iz cijele zemlje godinama su klesale štuko, cedrovinu i mramor. Jedna je od rijetkih marokanskih džamija u koju se ulazi uz vođeni obilazak." },
         { ime: "Art déco središte", opis: "Uz Bulevar Mohammeda V. i oko Trga Mohammeda V. podignite pogled na pročelja iz dvadesetih i tridesetih godina 20. stoljeća s balkonima od kovanog željeza i vijencima od pločica. Sudska palača i pošta pokazuju kako su Francuzi državnim zgradama davali marokansko lice." },
-        { ime: "Četvrt Habous", opis: "Francuski urbanisti sagradili su tridesetih godina 20. stoljeća „novu medinu“, urednu inačicu starog grada s arkadama. Ovdje se kupuju masline, papuče i knjige, a u poznatoj slastičarnici kolači od badema prodaju se na vagu." },
+        { ime: "Četvrt Habous", opis: "Francuski urbanisti sagradili su dvadesetih i tridesetih godina 20. stoljeća „novu medinu“, urednu inačicu starog grada s arkadama. Ovdje se kupuju masline, papuče i knjige, a u poznatoj slastičarnici kolači od badema prodaju se na vagu." },
         { ime: "Muzej marokanskog židovstva", opis: "Jedini je židovski muzej u arapskom svijetu, a čuva svitke Tore, nošnje i rekonstruiranu zlatarsku radionicu. Podsjeća da je sredinom 20. stoljeća u Maroku živjelo oko četvrt milijuna Židova." },
         { ime: "Šetnica Ain Diab", opis: "Uz ocean se nižu kupališta, kavane i svjetionik El Hank. Nedjeljom ovamo dolazi cijeli grad, pa je to najbolje mjesto da se vidi suvremeni Maroko." }
       ],
@@ -160,7 +174,7 @@ window.ATLAS["maroko"] = {
         { ime: "Kolači od badema", opis: "Gazelini roščići, punjeni bademovom pastom s vodom od narančina cvijeta, specijalitet su slastičarnica u četvrti Habous." }
       ],
       dozivjeti: [
-        { ime: "Vođeni obilazak džamije Hasana II.", opis: "Obilasci na više jezika vode kroz molitvenu dvoranu, prostor za obredno pranje s fontanama nalik lotosu i hamam u podrumu.", link: "https://www.fmh2.ma/" },
+        { ime: "Vođeni obilazak džamije Hasana II.", opis: "Obilasci na više jezika vode kroz molitvenu dvoranu, dvoranu podno minareta i prostor za obredno pranje s fontanama nalik lotosu.", link: "https://www.fmh2.ma/" },
         { ime: "Šetnja art déco četvrti", opis: "Udruga Casamémoire, koja se bori za očuvanje graditeljske baštine 20. stoljeća, povremeno organizira vođene šetnje i dane otvorenih vrata." }
       ],
       agencije: [
@@ -176,10 +190,10 @@ window.ATLAS["maroko"] = {
       sazetak: "Mirna prijestolnica na ušću rijeke, s nedovršenim tornjem iz 12. stoljeća i rodama na rimskim ruševinama.",
       prica: ["Almohadi su u 12. stoljeću na stijeni nad ušćem rijeke Bou Regreg podigli utvrđeni samostan, ribat, iz kojeg su kretali u pohode na Španjolsku. Sultan Yaqub al-Mansur namjeravao je ovdje sagraditi najveću džamiju na svijetu, ali je umro 1199. U 17. stoljeću naselili su se muslimani prognani iz Španjolske i sa susjednim Saléom osnovali gusarsku republiku. Francuzi su Rabat 1912. učinili prijestolnicom, a UNESCO ga je zaštitio 2012."],
       vidjeti: [
-        { ime: "Hasanov toranj", opis: "Minaret započet 1195. trebao je biti visok osamdesetak metara, a stao je na 44. Unutra se umjesto stuba uspinju rampe, kako bi se mujezin mogao popeti na konju. Oko njega stoji šuma od dvjestotinjak stupova, ostatak nedovršene džamije koju je dokrajčio potres 1755." },
+        { ime: "Hasanov toranj", opis: "Minaret započet 1195. trebao je biti viši od osamdeset metara, a stao je na 44. Unutra se umjesto stuba uspinju rampe, kako bi se mujezin mogao popeti na konju. Oko njega stoji šuma od dvjestotinjak stupova, ostatak nedovršene džamije koju je teško oštetio potres 1755." },
         { ime: "Mauzolej Mohammeda V.", opis: "Nasuprot tornju počivaju kralj koji je zemlju doveo do neovisnosti i njegovi sinovi, među njima Hasan II. Posjetitelji smiju na galeriju, s koje se gleda sarkofag od bijelog oniksa, dok u kutu čitač neprestano uči Kuran. Stražari na konjima rado se fotografiraju." },
         { ime: "Kasba Udaja", opis: "Kroz monumentalna almohadska vrata Bab Oudaia ulazi se u tvrđavu čije su uličice obojene u bijelo i plavo. Kuće su podigli andaluzijski prognanici, a na vrhu je terasa s pogledom na ocean i grad Salé." },
-        { ime: "Chellah", opis: "Unutar zidina iz 14. stoljeća leže ostaci rimskog grada Sala Colonia i merinidska nekropola. Na minaretu i zidovima gnijezde se rode, a u bazenu žive jegulje kojima žene, prema starom vjerovanju, nose jaja da bi zatrudnjele." },
+        { ime: "Chellah", opis: "Unutar zidina iz 14. stoljeća leže ostaci rimskog grada Sala Colonia i merinidska nekropola. Na minaretu i zidovima gnijezde se rode, a u bazenu žive jegulje kojima žene, prema starom vjerovanju, nose jaja da bi zatrudnjele. Nalazište je ponovno otvoreno 2024., nakon tri godine obnove." },
         { ime: "Muzej moderne i suvremene umjetnosti Mohammed VI.", opis: "Otvoren 2014., prvi je veliki javni muzej sagrađen u Maroku nakon neovisnosti. Stalni postav vodi kroz marokansko slikarstvo 20. stoljeća, od prvih modernista do danas." }
       ],
       jesti: [
@@ -237,7 +251,7 @@ window.ATLAS["maroko"] = {
       ],
       jesti: [
         { ime: "Madfouna", opis: "Okrugli kruh punjen mesom, lukom, jajima i začinima peče se u pijesku ili u peći, a zovu ga berberskom pizzom." },
-        { ime: "Datulje medjool", opis: "Oaza Tafilalt domovina je najcjenjenije sorte datulja, a u listopadu se u Erfoudu održava sajam datulja." }
+        { ime: "Datulje medjool", opis: "Oaza Tafilalt domovina je najcjenjenije sorte datulja, a u Erfoudu se najesen, obično u listopadu, održava sajam datulja." }
       ],
       dozivjeti: [
         { ime: "Noć u pustinjskom kampu", opis: "Do šatora se jaše na devi sat vremena pred zalazak sunca, a navečer slijede tajine, bubnjevi uz vatru i nebo bez ijednog svjetla." },
@@ -258,7 +272,7 @@ window.ATLAS["maroko"] = {
       vidjeti: [
         { ime: "Ksar Aït Benhaddou", opis: "Selo od crvene zemlje uz rijeku Ounilu zaštićeno je pri UNESCO-u od 1987. Kule visokih kuća ukrašene su geometrijskim uzorcima utisnutima u blato, a na vrhu brda stoji zajednička žitnica. Ovdje su snimani „Gladijator“, „Lawrence od Arabije“ i „Igra prijestolja“." },
         { ime: "Prijevoj Tizi n'Tichka", opis: "Cesta koju su Francuzi probili tridesetih godina 20. stoljeća penje se na 2260 metara. Uz put prodavači nude minerale i fosile, a krajolik se od zelenih dolina mijenja u gole crvene planine." },
-        { ime: "Kasba Telouet", opis: "Palača obitelji Glaoui izvana je napola urušena, a iznutra skriva dvorane s pločicama, štukom i oslikanim stropovima. Napuštena je nakon 1956., kada je paša pao u nemilost zbog suradnje s Francuzima." },
+        { ime: "Kasba Telouet", opis: "Palača obitelji Glaoui izvana je napola urušena, a iznutra skriva dvorane s pločicama, štukom i oslikanim stropovima. Napuštena je nakon 1956., kada je paša pao u nemilost zbog suradnje s Francuzima. Potres 2023. dodatno ju je oštetio, pa je otvoren samo dio prostorija." },
         { ime: "Ouarzazate", opis: "Grad na ulazu u pustinju zovu marokanskim Hollywoodom zbog filmskih studija s kulisama Egipta i Rima. Kasba Taourirt u središtu bila je još jedna rezidencija Glaouijevih, s labirintom soba." },
         { ime: "Imlil i Toubkal", opis: "Selo na 1740 metara polazište je za uspon na najviši vrh sjeverne Afrike. I bez uspona vrijedi prošetati terasama s orasima i trešnjama do sela Aroumd." },
         { ime: "Dolina ruža", opis: "Oko gradića Kelaat M'Gouna uz živice rastu damaščanske ruže, od kojih se pravi ružina vodica. Beru se u zoru u travnju i svibnju." }
@@ -269,7 +283,7 @@ window.ATLAS["maroko"] = {
         { ime: "Orasi i med iz Imlila", opis: "Dolina je poznata po orasima i tamnom planinskom medu, koji se nude uz čaj." }
       ],
       dozivjeti: [
-        { ime: "Pješačenje s planinskim vodičem iz Imlila", opis: "Licencirani vodiči iz doline vode jednodnevne šetnje od sela do sela i uspone na Toubkal. Kasbah du Toubkal, kuća koju vodi lokalna zajednica, organizira izlete i dio prihoda ulaže u sela.", link: "https://www.kasbahdutoubkal.com/" },
+        { ime: "Pješačenje s planinskim vodičem iz Imlila", opis: "Licencirani vodiči iz doline vode jednodnevne šetnje od sela do sela i uspone na Toubkal. Kasbah du Toubkal, kuća koja se vodi zajedno s ljudima iz doline, organizira izlete i dio prihoda ulaže u sela.", link: "https://www.kasbahdutoubkal.com/" },
         { ime: "Svitanje u Aït Benhaddouu", opis: "Većina posjetitelja dolazi oko podneva, pa je selo u zoru gotovo prazno, a zidovi su u prvom svjetlu boje bakra." }
       ],
       agencije: [

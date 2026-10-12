@@ -4,6 +4,18 @@ window.ATLAS["malta"] = {
   ime: "Malta",
   regija: "Southern Europe",
   sazetak: "A honey-colored little island where the temples are older than the pyramids and the knights' fortresses still guard one of the most beautiful harbors in the Mediterranean.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Michelin Guide: Exploring Maltese Cuisine", url: "https://guide.michelin.com/en/article/features/exploring-maltese-cuisine" },
+    { ime: "Heritage Malta: Malta Maritime Museum", url: "https://heritagemalta.mt/explore/malta-maritime-museum/" },
+    { ime: "Fondazzjoni Wirt Artna: Malta at War Museum", url: "https://www.wirtartna.org/maltaatwarmuseum" },
+    { ime: "Festivals Malta: Festgħana", url: "https://festivals.mt/festghana" },
+    { ime: "Visit Malta: Għanafest", url: "https://www.visitmalta.com/en/ghanafest" },
+    { ime: "Visit Gozo: Celebrating the Ladies Who Lace", url: "https://visitgozo.com/2024/04/17/artistry-in-gozo-celebrating-the-ladies-who-lace/" },
+    { ime: "Visit Gozo: Ta' Dbieġi Crafts Village", url: "https://visitgozo.com/2025/01/06/exploring-the-heart-of-gozos-craftsmanship-at-ta-dbiegi/" },
+    { ime: "Visit Gozo: Bakeries", url: "https://visitgozo.com/experience/bakeries/" },
+    { ime: "Guide Me Malta: Valletta's Imqaret Kiosk", url: "https://www.guidememalta.com/en/nostalgia-cravings-remembering-valletta-s-famous-imqaret-kiosk" },
+    { ime: "Colour my Travel", url: "https://www.colourmytravel.com/" }
+  ] },
   uvod: [
     "Malta is an archipelago of three inhabited islands, Malta, Gozo and Comino, set exactly halfway between Sicily and North Africa. Because of that position, Phoenicians, Romans, Arabs, Normans, the Knights of St. John, Napoleon and the British followed one another here, and each left something behind: the Arabs the language, the knights the fortresses and Baroque churches, the British driving on the left and red telephone boxes. Everything is built from the same soft limestone that turns the color of honey at sunset, so the whole country looks as if it had been carved from a single block.",
     "The key year in Maltese history is 1565, when a few hundred knights with a few thousand soldiers and locals held out for almost four months against an enormous Ottoman army. After that Great Siege the knights built Valletta, the fortress city you will be walking through, and the money that then poured in from all over Catholic Europe can be seen in every gilded chapel. The islands are so small that everything can be reached by bus and ferry, which makes Malta ideal for a trip where in a few days you see prehistory, the age of the knights and a living Mediterranean village."
@@ -18,18 +30,18 @@ window.ATLAS["malta"] = {
   hrana: [
     { ime: "Pastizzi", opis: "Small pastries of crisp, flaky dough filled with ricotta or mushy peas.", prica: "They are Malta's breakfast, snack and food for the way home after a night out all in one, bought for small change in bakeries called pastizzerija. The shape reveals the filling: the ricotta ones are sealed down the middle and the pea ones at the side. The most famous address on the island is the little Crystal Palace bar in Rabat, just outside the gates of Mdina." },
     { ime: "Stuffat tal-fenek", opis: "Rabbit braised for hours in red wine with garlic, bay leaf and tomato, the national dish of Malta.", prica: "Tradition says the Maltese came to love rabbit out of defiance, because the knights restricted their hunting, so a shared rabbit feast became a sign of resistance. Such a feast is called a fenkata and is eaten in two courses: first spaghetti with rabbit sauce, and then the meat. The best fenkatas are served in village restaurants around Mġarr and Baħrija." },
-    { ime: "Ftira biż-żejt", opis: "A round, flat sourdough bread with a hole in the middle, rubbed with tomato and filled with tuna, capers, olives and onion.", prica: "UNESCO added the art of making ftira to its list of the intangible heritage of humanity in 2020. It is the classic Maltese beach sandwich, and the name literally means bread with oil. On Gozo the same name will get you something completely different, a thin pie from a bread oven with potatoes, anchovies or sheep's cheese." },
+    { ime: "Ftira biż-żejt", opis: "A round, flat sourdough bread with a hole in the middle, rubbed with tomato and filled with tuna, capers, olives and onion.", prica: "UNESCO added the art of making ftira to its list of the intangible heritage of humanity in 2020. It is the classic Maltese beach sandwich, and the name literally means bread with oil. On Gozo the same name will get you something completely different, a pizza-like pie from a bread oven with potatoes, anchovies or sheep's cheese." },
     { ime: "Lampuki pie", opis: "A pie of dolphinfish with chard or spinach, olives, capers and raisins.", prica: "The dolphinfish, also known as mahi-mahi, which the Maltese call lampuka, passes the islands from the end of August to December, so this is a dish of autumn. Fishermen catch it the old way, under rafts of palm fronds beneath which the fish shelters in the shade. Look for it in the fish restaurants of Marsaxlokk." },
     { ime: "Ġbejniet", opis: "Small round cheeses made from sheep's or goat's milk, a specialty of the island of Gozo.", prica: "They are eaten fresh and soft, air-dried, or rolled in black pepper and pickled in vinegar. The name is pronounced jbay-NEE-et, and the imprint of the woven basket in which the cheese drains can be seen on every piece. On Gozo they are sold directly by farmers and small dairies." },
     { ime: "Aljotta", opis: "A light fish soup with plenty of garlic, tomato, rice and fresh marjoram.", prica: "The name comes from the Italian word for garlic, aglio. It began as a Lenten dish at a time when eating meat was forbidden, and today it is the essential starter in fishing villages. Lemon is squeezed over it." },
-    { ime: "Imqaret", opis: "Fried pastries filled with date paste flavored with orange zest and anise.", prica: "They are a legacy of Arab rule, and the name means diamonds, after the shape in which they are cut. They are sold hot at stalls, the best known of which stand right by Valletta's City Gate. The name is pronounced im-AH-ret, with a brief catch in the throat in place of the letter q." },
+    { ime: "Imqaret", opis: "Fried pastries filled with date paste flavored with orange zest and anise.", prica: "They are a legacy of Arab rule, and the name means diamonds, after the shape in which they are cut. They are sold hot at kiosks, and the ones by the bus terminus just outside Valletta's City Gate are the classic place to try them. The name is pronounced im-AH-ret, with a brief catch in the throat in place of the letter q." },
     { ime: "Kinnie and Cisk", opis: "A bittersweet fizzy drink made from bitter oranges and herbs, and the local lager.", prica: "Kinnie has been produced since 1952 and tastes rather like a non-alcoholic aperitif, so the Maltese drink it cold with a slice of orange. Cisk, pronounced chisk, has been brewed since 1929 and takes its name from the nickname of the banker who introduced checks to Malta. You will find both in every bar." }
   ],
   obicaji: [
     { ime: "Festa", opis: "Once a year every Maltese village celebrates its patron saint with several days of festivities, with a procession, brass bands, decorated streets and fireworks. The villages compete over whose festa will be the most lavish, and some places even have two rival band clubs. UNESCO added the festa to its list of intangible heritage in 2023.", gdje: "From June to September, almost every weekend in a different village. Visit Malta publishes the schedule, and among the biggest are Santa Marija on August 15 in Mosta and Victoria and the feast of St. Paul in Valletta on February 10." },
-    { ime: "Għana", opis: "Traditional folk singing to guitars in which two singers compete in improvised rhyming verses, often witty and barbed. It is pronounced AH-nah, and UNESCO added it to the intangible heritage list in 2021.", gdje: "In village bars and at folk celebrations, and the largest gathering of singers is Għanafest, a festival usually held in June." },
+    { ime: "Għana", opis: "Traditional folk singing to guitars in which two singers compete in improvised rhyming verses, often witty and barbed. It is pronounced AH-nah, and UNESCO added it to the intangible heritage list in 2021.", gdje: "In village bars and at folk celebrations, and the largest gathering of singers is the national għana festival, long known as Għanafest and now held as Festgħana in late spring or early summer in Floriana and Żejtun." },
     { ime: "The Luzzu and the Eye on the Prow", opis: "The luzzu is a traditional fishing boat painted in bright yellow, blue, red and green. On the prow it has a painted pair of eyes that protects the fishermen from evil, a custom usually linked to the Phoenicians.", gdje: "In the fishing harbor of Marsaxlokk in the south of the island, at its best on Sunday morning when the fish market is held along the waterfront." },
-    { ime: "Bizzilla, Maltese Lace", opis: "Bobbin lace worked on an elongated pillow, recognizable by the Maltese cross woven into the pattern. The knights brought it in the 16th century, and in the 19th it became an important source of income for the women of Gozo.", gdje: "On Gozo, where older women still make lace on their doorsteps in villages such as Sannat and Għarb, and in the shops inside the Cittadella in Victoria." },
+    { ime: "Bizzilla, Maltese Lace", opis: "Bobbin lace worked on an elongated pillow, recognizable by the Maltese cross woven into the pattern. Lace is believed to have reached the islands in the time of the knights, but the bobbin lace of today took shape in the 19th century, when lace makers were brought from Genoa to revive the craft, and it became an important source of income for the women of Gozo.", gdje: "On Gozo, where a lace maker working on her doorstep has become a rare sight, so look for the craft in the lace shops of the Ta' Dbieġi crafts village in Għarb and inside the Cittadella in Victoria." },
     { ime: "Carnival", opis: "It has been celebrated since 1535, when the knights introduced it, and lasts for the five days before Ash Wednesday. Parades of enormous, colorful floats pass through Valletta, and children walk around town in costume.", gdje: "The main parade is in Valletta in February or early March. Nadur on Gozo holds a more spontaneous and darker carnival, with masks and no organized parade." },
     { ime: "Holy Week and the Run With the Risen Christ", opis: "On Good Friday silent processions pass through the towns with statues of the Passion of Christ carried by men in white robes. On Easter morning the mood is turned on its head and young men carry the statue of the Risen Christ through the streets at a run.", gdje: "The best-known Easter run with the statue can be watched in Birgu and Cospicua in the Three Cities, and the Good Friday processions in Valletta, Żebbuġ and Mosta." }
   ],
@@ -72,7 +84,7 @@ window.ATLAS["malta"] = {
         { ime: "Casa Rocca Piccola", opis: "A 16th-century noble palace where the de Piro family still lives, so the tour is really a visit to someone's home, full of silver, lace and family portraits. Beneath the house you go down into a shelter cut into the rock where the residents hid from the bombing in the Second World War." }
       ],
       jesti: [
-        { ime: "Imqaret by the City Gate", opis: "The hot date pastries are fried at a stall as soon as you pass through the City Gate, and they smell of anise and orange zest." },
+        { ime: "Imqaret by the City Gate", opis: "The hot date pastries are fried at the kiosks by the bus terminus just outside the City Gate, and they smell of anise and orange zest." },
         { ime: "Ftira biż-żejt", opis: "You will get the Maltese sandwich with tuna, capers and tomato in almost every café, and it is best taken to a bench in the Barrakka Gardens." },
         { ime: "Pastizzi With Coffee", opis: "In the old cafés on Republic Square they are ordered with milky tea or coffee, a habit left over from the British." }
       ],
@@ -85,7 +97,7 @@ window.ATLAS["malta"] = {
       agencije: [
         { ime: "Visit Malta", opis: "Malta's official tourist board, with information on sights, events and festas.", link: "https://www.visitmalta.com/en/" },
         { ime: "Heritage Malta", opis: "The national agency that manages the museums, forts and temples and sells tickets and combined passes.", link: "https://heritagemalta.mt/" },
-        { ime: "Colour my Travel", opis: "A Maltese company licensed by the tourism authority that has been running walking tours of Valletta, Mdina and Rabat and the Three Cities since 2013.", link: "https://www.colourmytravel.com/" }
+        { ime: "Colour my Travel", opis: "A Maltese company whose licensed local guides have been running walking tours of Valletta, Mdina and Rabat and the Three Cities since 2013.", link: "https://www.colourmytravel.com/" }
       ],
       kada: "Valletta is at its loveliest early in the morning and toward evening, once the cruise ship day-trippers have gone. The Co-Cathedral has a dress code, so bring something to cover your shoulders, and avoid stiletto heels because they damage the marble floor."
     },
@@ -137,7 +149,7 @@ window.ATLAS["malta"] = {
         { ime: "Inquisitor's Palace", opis: "One of the few surviving inquisitors' palaces in Europe that is open to visitors, in use from 1574 until the arrival of Napoleon in 1798. In the prison cells, look for the drawings of ships, crosses and dates that the prisoners scratched into the walls. Two of the inquisitors who served here later became popes." },
         { ime: "The Collachio in Birgu", opis: "This was the name of the quarter reserved for the knights, a tangle of narrow lanes where their first auberges still stand, one for each nationality. Look for the Norman House with its Gothic two-arched window, which predates the arrival of the knights. The streets are deliberately winding so that arrows and cannonballs would have no straight path." },
         { ime: "The Gardjola Watchtower in Senglea", opis: "At the tip of the Senglea headland stands a small stone turret in a garden overlooking the harbor. Carved on its walls are an eye, an ear and a crane, symbols of the vigilance of the guard that watched the harbor entrance day and night. The view of Valletta from here is one of the most photographed in Malta." },
-        { ime: "Malta Maritime Museum", opis: "It is housed in the old British naval bakery with a clock tower on the Birgu waterfront, and it tells the story of an island that has always lived off the sea, from Roman anchors to the knights' galleys. Check before you go which halls are open, because in recent years the museum has been undergoing restoration in phases." }
+        { ime: "Malta at War Museum", opis: "In a former guardhouse at Couvre Porte, the old gateway into Birgu, the galleries tell how the island lived through the bombing and siege of 1940 to 1943. The most memorable part lies underground, a large air raid shelter cut into the rock in 1940, with dormitories, a birth room and tiny private cubicles where families spent their nights. The museum is closed on Sundays, and the Malta Maritime Museum on the waterfront is temporarily closed for a complete redesign." }
       ],
       jesti: [
         { ime: "Fish on the Birgu Waterfront", opis: "The old galley harbor is lined with restaurants where you choose fish caught that morning, and in autumn dolphinfish is on offer." },
@@ -153,9 +165,9 @@ window.ATLAS["malta"] = {
       agencije: [
         { ime: "Visit Malta: The Three Cities", opis: "The official tourist board's page describing Vittoriosa, Senglea and Cospicua.", link: "https://www.visitmalta.com/en/a/the-three-cities/" },
         { ime: "Heritage Malta: Fort St Angelo", opis: "The fort's official page, with tickets and opening hours.", link: "https://heritagemalta.mt/explore/fort-st-angelo/" },
-        { ime: "Colour my Travel", opis: "A licensed Maltese company that also runs walking tours of the Three Cities.", link: "https://www.colourmytravel.com/" }
+        { ime: "Colour my Travel", opis: "A Maltese company with licensed local guides that also runs walking tours of the Three Cities.", link: "https://www.colourmytravel.com/" }
       ],
-      kada: "The nicest way is to arrive by boat from Valletta in the morning and stay for lunch on the waterfront. In mid-October Birgu usually celebrates Birgufest, when for one evening the streets are lit by candles alone."
+      kada: "The nicest way is to arrive by boat from Valletta in the morning and stay for lunch on the waterfront. In the first half of October Birgu usually celebrates Birgufest, when for two evenings the streets are lit by candles alone."
     },
     {
       id: "gozo",
@@ -176,7 +188,7 @@ window.ATLAS["malta"] = {
       ],
       jesti: [
         { ime: "Ġbejniet", opis: "The small sheep's milk cheeses, fresh or dried with pepper, are bought from farmers and at the market in Victoria and are served with tomatoes and capers." },
-        { ime: "Gozitan Ftira", opis: "A thin pie from a bread oven with potatoes, anchovies, capers or cheese, for which people go to the old bakeries in the village of Nadur, for example the Maxokk bakery, and which is eaten at the nearby viewpoint." },
+        { ime: "Gozitan Ftira", opis: "A pizza-like pie from a bread oven with potatoes, anchovies, capers or cheese, for which people go to the old bakeries in the village of Nadur, for example the Maxokk bakery, and which is eaten at the nearby viewpoint." },
         { ime: "Honey, Capers and Salt", opis: "Gozitan thyme honey, pickled capers and sea salt from Xwejni are sold at roadside stalls and make the best souvenirs from the island." }
       ],
       dozivjeti: [

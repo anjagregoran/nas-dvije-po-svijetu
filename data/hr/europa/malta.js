@@ -4,6 +4,18 @@ window.ATLAS["malta"] = {
   ime: "Malta",
   regija: "Južna Europa",
   sazetak: "Otočić boje meda na kojem su hramovi stariji od piramida, a viteške utvrde još uvijek čuvaju jednu od najljepših luka Sredozemlja.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Michelin Guide: Exploring Maltese Cuisine", url: "https://guide.michelin.com/en/article/features/exploring-maltese-cuisine" },
+    { ime: "Heritage Malta: Malta Maritime Museum", url: "https://heritagemalta.mt/explore/malta-maritime-museum/" },
+    { ime: "Fondazzjoni Wirt Artna: Malta at War Museum", url: "https://www.wirtartna.org/maltaatwarmuseum" },
+    { ime: "Festivals Malta: Festgħana", url: "https://festivals.mt/festghana" },
+    { ime: "Visit Malta: Għanafest", url: "https://www.visitmalta.com/en/ghanafest" },
+    { ime: "Visit Gozo: Celebrating the Ladies Who Lace", url: "https://visitgozo.com/2024/04/17/artistry-in-gozo-celebrating-the-ladies-who-lace/" },
+    { ime: "Visit Gozo: Ta' Dbieġi Crafts Village", url: "https://visitgozo.com/2025/01/06/exploring-the-heart-of-gozos-craftsmanship-at-ta-dbiegi/" },
+    { ime: "Visit Gozo: Bakeries", url: "https://visitgozo.com/experience/bakeries/" },
+    { ime: "Guide Me Malta: Valletta's Imqaret Kiosk", url: "https://www.guidememalta.com/en/nostalgia-cravings-remembering-valletta-s-famous-imqaret-kiosk" },
+    { ime: "Colour my Travel", url: "https://www.colourmytravel.com/" }
+  ] },
   uvod: [
     "Malta je arhipelag od tri naseljena otoka, Malte, Goza i Comina, smješten točno na pola puta između Sicilije i sjeverne Afrike. Upravo zbog tog položaja ovdje su se redom izmjenjivali Feničani, Rimljani, Arapi, Normani, vitezovi ivanovci, Napoleon i Britanci, a svatko je ostavio nešto svoje: Arapi jezik, vitezovi utvrde i barokne crkve, Britanci vožnju lijevom stranom i crvene telefonske govornice. Sve je sagrađeno od istog mekog vapnenca koji na zalasku sunca poprimi boju meda, pa cijela zemlja izgleda kao da je isklesana iz jednog komada.",
     "Ključna godina malteške povijesti je 1565., kada je nekoliko stotina vitezova s nekoliko tisuća vojnika i mještana gotovo četiri mjeseca odolijevalo golemoj osmanskoj vojsci. Nakon te Velike opsade vitezovi su podigli Vallettu, grad utvrdu po kojem ćete hodati, a novac koji im je tada stizao iz cijele katoličke Europe vidi se u svakoj pozlaćenoj kapeli. Otoci su toliko mali da se sve može obići autobusom i trajektom, pa je Malta idealna za putovanje na kojem se u nekoliko dana vidi pretpovijest, viteško doba i živo sredozemno selo."
@@ -18,18 +30,18 @@ window.ATLAS["malta"] = {
   hrana: [
     { ime: "Pastizzi", opis: "Mala peciva od hrskavog lisnatog tijesta punjena ricottom ili kašom od graška.", prica: "To je malteški doručak, užina i hrana za povratak iz noćnog izlaska u jednom, a kupuje se za sitniš u pekarnicama koje se zovu pastizzerija. Oblik otkriva punjenje: ona s ricottom zatvorena su po sredini, a ona s graškom sa strane. Najpoznatija adresa na otoku je mali bar Crystal Palace u Rabatu, pred vratima Mdine." },
     { ime: "Stuffat tal-fenek", opis: "Zečetina pirjana satima u crnom vinu s češnjakom, lovorom i rajčicom, nacionalno jelo Malte.", prica: "Predaja kaže da su Maltežani zeca zavoljeli iz prkosa, jer su im vitezovi ograničavali lov, pa je zajednička gozba od zečetine postala znak otpora. Takva gozba zove se fenkata i jede se u dva slijeda: najprije špageti s umakom od zeca, a zatim meso. Najbolje fenkate služe se u seoskim restoranima oko Mġarra i Baħrije." },
-    { ime: "Ftira biż-żejt", opis: "Okrugli plosnati kruh od kiselog tijesta s rupom u sredini, natrljan rajčicom i punjen tunom, kaparima, maslinama i lukom.", prica: "Umijeće pripreme ftire UNESCO je 2020. upisao na popis nematerijalne baštine čovječanstva. To je klasični malteški sendvič za plažu, a ime doslovno znači kruh s uljem. Na Gozu ćete pod istim imenom dobiti nešto sasvim drugo, tanku pitu iz krušne peći s krumpirom, inćunima ili ovčjim sirom." },
+    { ime: "Ftira biż-żejt", opis: "Okrugli plosnati kruh od kiselog tijesta s rupom u sredini, natrljan rajčicom i punjen tunom, kaparima, maslinama i lukom.", prica: "Umijeće pripreme ftire UNESCO je 2020. upisao na popis nematerijalne baštine čovječanstva. To je klasični malteški sendvič za plažu, a ime doslovno znači kruh s uljem. Na Gozu ćete pod istim imenom dobiti nešto sasvim drugo, pitu nalik pizzi iz krušne peći s krumpirom, inćunima ili ovčjim sirom." },
     { ime: "Lampuki pie", opis: "Pita od ribe lampuge s blitvom ili špinatom, maslinama, kaparima i grožđicama.", prica: "Lampuga, koju Maltežani zovu lampuka, prolazi pokraj otoka od kraja kolovoza do prosinca, pa je to jelo jeseni. Ribari je love starim načinom, pod splavima od palminog lišća pod koje se riba sklanja u hlad. Tražite je u ribljim restoranima u Marsaxlokku." },
     { ime: "Ġbejniet", opis: "Mali okrugli sirevi od ovčjeg ili kozjeg mlijeka, specijalitet otoka Goza.", prica: "Jedu se svježi i mekani, sušeni na vjetru ili uvaljani u crni papar i ukiseljeni u octu. Izgovara se džbejniet, a otisak pletene košarice u kojoj se sir cijedi vidi se na svakom komadu. Na Gozu ih prodaju izravno seljaci i male sirane." },
     { ime: "Aljotta", opis: "Lagana riblja juha s puno češnjaka, rajčicom, rižom i svježim mažuranom.", prica: "Ime dolazi od talijanske riječi za češnjak, aglio. Nastala je kao korizmeno jelo u vrijeme kada se meso nije smjelo jesti, a danas je nezaobilazno predjelo u ribarskim mjestima. Uz nju se cijedi limun." },
-    { ime: "Imqaret", opis: "Prženi kolačići od tijesta punjeni pastom od datulja s koricom naranče i anisom.", prica: "Naslijeđe su arapske vladavine, a ime znači rombovi, po obliku u koji se režu. Prodaju se vrući na štandovima, najpoznatiji stoje odmah kod gradskih vrata Vallette. Izgovara se imkaret, s kratkim zastojem u grlu umjesto slova q." },
+    { ime: "Imqaret", opis: "Prženi kolačići od tijesta punjeni pastom od datulja s koricom naranče i anisom.", prica: "Naslijeđe su arapske vladavine, a ime znači rombovi, po obliku u koji se režu. Prodaju se vrući na kioscima, a najbolje ih je kušati na onima kod autobusnog kolodvora tik pred gradskim vratima Vallette. Izgovara se imkaret, s kratkim zastojem u grlu umjesto slova q." },
     { ime: "Kinnie i Cisk", opis: "Gorko slatko gazirano piće od gorkih naranči i bilja te domaće svijetlo pivo.", prica: "Kinnie se proizvodi od 1952. i okusom podsjeća na bezalkoholni aperitiv, pa ga Maltežani piju hladnog s kriškom naranče. Cisk, koji se izgovara čisk, vari se od 1929. i dobio je ime po nadimku bankara koji je na Malti uveo čekove. Oba ćete naći u svakom baru." }
   ],
   obicaji: [
     { ime: "Festa", opis: "Svako malteško selo jednom godišnje slavi svog sveca zaštitnika višednevnim slavljem s procesijom, limenom glazbom, okićenim ulicama i vatrometom. Sela se pritom natječu čija će festa biti raskošnija, a u nekim mjestima postoje i po dva suparnička glazbena društva. UNESCO je festu 2023. upisao na popis nematerijalne baštine.", gdje: "Od lipnja do rujna gotovo svakog vikenda u nekom drugom selu. Raspored objavljuje Visit Malta, a među najvećima su Santa Marija 15. kolovoza u Mosti i Victoriji te festa svetog Pavla u Valletti 10. veljače." },
-    { ime: "Għana", opis: "Tradicionalno pučko pjevanje uz gitare u kojem se dva pjevača nadmeću u improviziranim rimovanim stihovima, često duhovitim i zajedljivim. Izgovara se ana, a UNESCO ga je 2021. uvrstio u nematerijalnu baštinu.", gdje: "U seoskim barovima i na pučkim svečanostima, a najviše pjevača okuplja Għanafest, festival koji se obično održava u lipnju." },
+    { ime: "Għana", opis: "Tradicionalno pučko pjevanje uz gitare u kojem se dva pjevača nadmeću u improviziranim rimovanim stihovima, često duhovitim i zajedljivim. Izgovara se ana, a UNESCO ga je 2021. uvrstio u nematerijalnu baštinu.", gdje: "U seoskim barovima i na pučkim svečanostima, a najviše pjevača okuplja nacionalni festival għane, dugo poznat kao Għanafest, koji se danas pod imenom Festgħana održava u kasno proljeće ili rano ljeto u Floriani i Żejtunu." },
     { ime: "Luzzu i oko na pramcu", opis: "Luzzu je tradicionalna ribarska barka obojena u žarko žutu, plavu, crvenu i zelenu boju. Na pramcu ima naslikan par očiju koji ribare čuva od zla, a običaj se obično povezuje s Feničanima.", gdje: "U ribarskoj luci Marsaxlokk na jugu otoka, najljepše u nedjelju ujutro kada se uz rivu održava riblja tržnica." },
-    { ime: "Bizzilla, malteška čipka", opis: "Čipka na batiće koja se plete na duguljastom jastuku, prepoznatljiva po malteškom križu utkanom u uzorak. Vitezovi su je donijeli u 16. stoljeću, a u 19. je postala važan izvor prihoda za žene s Goza.", gdje: "Na Gozu, gdje starije žene i danas pletu na kućnom pragu u selima poput Sannata i Għarba, te u prodavaonicama unutar Cittadelle u Victoriji." },
+    { ime: "Bizzilla, malteška čipka", opis: "Čipka na batiće koja se plete na duguljastom jastuku, prepoznatljiva po malteškom križu utkanom u uzorak. Vjeruje se da je čipka na otoke stigla još u doba vitezova, no današnja čipka na batiće oblikovala se u 19. stoljeću, kada su čipkarice dovedene iz Genove da ožive zanat, pa je postala važan izvor prihoda za žene s Goza.", gdje: "Na Gozu, gdje je čipkarica na kućnom pragu postala rijedak prizor, pa čipku potražite u prodavaonicama obrtničkog sela Ta' Dbieġi u Għarbu i unutar Cittadelle u Victoriji." },
     { ime: "Karneval", opis: "Slavi se od 1535., otkad su ga uveli vitezovi, i traje pet dana prije Pepelnice. Povorke golemih šarenih kola prolaze Vallettom, a djeca hodaju gradom u kostimima.", gdje: "Glavna povorka je u Valletti u veljači ili početkom ožujka. U Naduru na Gozu održava se spontaniji i mračniji karneval s maskama bez organizirane povorke." },
     { ime: "Veliki tjedan i trčanje s Uskrslim Kristom", opis: "Na Veliki petak kroz mjesta prolaze tihe procesije s kipovima Kristove muke koje nose muškarci u bijelim haljama. Na uskrsno jutro raspoloženje se preokrene i mladići kip Uskrslog Krista nose kroz ulice trčeći.", gdje: "Najpoznatije uskrsno trčanje s kipom gleda se u Birguu i Cospicui u Tri grada, a procesije Velikog petka u Valletti, Żebbuġu i Mosti." }
   ],
@@ -72,7 +84,7 @@ window.ATLAS["malta"] = {
         { ime: "Casa Rocca Piccola", opis: "Plemićka palača iz 16. stoljeća u kojoj i danas živi obitelj de Piro, pa je obilazak zapravo posjet nečijem domu punom srebra, čipke i obiteljskih portreta. Ispod kuće spušta se u sklonište isklesano u stijeni u kojem su se stanovnici krili od bombardiranja u Drugom svjetskom ratu." }
       ],
       jesti: [
-        { ime: "Imqaret kod gradskih vrata", opis: "Vrući kolačići s datuljama prže se na štandu čim prođete kroz gradska vrata, a mirišu na anis i narančinu koricu." },
+        { ime: "Imqaret kod gradskih vrata", opis: "Vrući kolačići s datuljama prže se na kioscima kod autobusnog kolodvora tik pred gradskim vratima, a mirišu na anis i narančinu koricu." },
         { ime: "Ftira biż-żejt", opis: "Malteški sendvič s tunom, kaparima i rajčicom dobit ćete u gotovo svakom kafiću, a najbolje ga je ponijeti na klupu u vrtovima Barrakka." },
         { ime: "Pastizzi uz kavu", opis: "U starim kavanama na Trgu Republike naručuju se uz čaj s mlijekom ili kavu, što je navika ostala od Britanaca." }
       ],
@@ -85,7 +97,7 @@ window.ATLAS["malta"] = {
       agencije: [
         { ime: "Visit Malta", opis: "Službena turistička zajednica Malte s informacijama o znamenitostima, događanjima i festama.", link: "https://www.visitmalta.com/en/" },
         { ime: "Heritage Malta", opis: "Državna ustanova koja upravlja muzejima, utvrdama i hramovima i prodaje ulaznice i zajedničke propusnice.", link: "https://heritagemalta.mt/" },
-        { ime: "Colour my Travel", opis: "Malteška tvrtka s licencijom turističke uprave koja od 2013. vodi pješačke ture po Valletti, Mdini i Rabatu te Trima gradovima.", link: "https://www.colourmytravel.com/" }
+        { ime: "Colour my Travel", opis: "Malteška tvrtka čiji licencirani lokalni vodiči od 2013. vode pješačke ture po Valletti, Mdini i Rabatu te Trima gradovima.", link: "https://www.colourmytravel.com/" }
       ],
       kada: "Valletta je najljepša rano ujutro i predvečer, kada odu izletnici s kruzera. Konkatedrala ima pravila odijevanja, pa ponesite nešto čime ćete pokriti ramena, i izbjegavajte tanke potpetice jer oštećuju mramorni pod."
     },
@@ -137,7 +149,7 @@ window.ATLAS["malta"] = {
         { ime: "Inkvizitorova palača", opis: "Jedna od rijetkih sačuvanih inkvizitorskih palača u Europi koja je otvorena posjetiteljima, u uporabi od 1574. do dolaska Napoleona 1798. U zatvorskim ćelijama potražite crteže brodova, križeva i datuma koje su zatvorenici urezali u zidove. Dvojica ovdašnjih inkvizitora kasnije su postala pape." },
         { ime: "Collachio u Birguu", opis: "Tako se zvala četvrt rezervirana za vitezove, splet uskih uličica u kojima i danas stoje njihovi prvi konaci, po jedan za svaku narodnost. Potražite Normansku kuću s gotičkim prozorom na dva luka, koja je starija od dolaska vitezova. Ulice su namjerno zavojite kako strijela i topovsko zrno ne bi imali ravan put." },
         { ime: "Stražarnica Gardjola u Senglei", opis: "Na vrhu rta Senglee stoji mala kamena kula u vrtu s pogledom na luku. Na njezinim su zidovima isklesani oko, uho i ždral, simboli budnosti straže koja je danju i noću pazila na ulaz u luku. Pogled odavde na Vallettu jedan je od najfotografiranijih na Malti." },
-        { ime: "Pomorski muzej Malte", opis: "Smješten je u staroj britanskoj mornaričkoj pekarnici s tornjem sa satom na rivi u Birguu i priča o otoku koji je uvijek živio od mora, od rimskih sidara do viteških galija. Prije odlaska provjerite koje su dvorane otvorene, jer se muzej posljednjih godina obnavlja u fazama." }
+        { ime: "Muzej Malta u ratu", opis: "U nekadašnjoj stražarnici kod Couvre Porte, starog ulaza u Birgu, izložbene dvorane pričaju kako je otok preživio bombardiranja i opsadu od 1940. do 1943. godine. Najdojmljiviji dio nalazi se pod zemljom, gdje je 1940. u stijeni iskopano veliko sklonište sa spavaonicama, rađaonicom i sićušnim privatnim pregradama u kojima su obitelji provodile noći. Muzej je nedjeljom zatvoren, a Pomorski muzej Malte na rivi privremeno je zatvoren zbog potpunog preuređenja." }
       ],
       jesti: [
         { ime: "Riba na rivi u Birguu", opis: "Uz staru galijsku luku nižu se restorani u kojima se bira riba ulovljena tog jutra, a u jesen se nudi lampuga." },
@@ -153,9 +165,9 @@ window.ATLAS["malta"] = {
       agencije: [
         { ime: "Visit Malta: Tri grada", opis: "Stranica službene turističke zajednice s opisom Vittoriose, Senglee i Cospicue.", link: "https://www.visitmalta.com/en/a/the-three-cities/" },
         { ime: "Heritage Malta: Fort St Angelo", opis: "Službena stranica utvrde s ulaznicama i radnim vremenom.", link: "https://heritagemalta.mt/explore/fort-st-angelo/" },
-        { ime: "Colour my Travel", opis: "Licencirana malteška tvrtka koja vodi i pješačke ture po Trima gradovima.", link: "https://www.colourmytravel.com/" }
+        { ime: "Colour my Travel", opis: "Malteška tvrtka s licenciranim lokalnim vodičima koja vodi i pješačke ture po Trima gradovima.", link: "https://www.colourmytravel.com/" }
       ],
-      kada: "Najljepše je doći brodićem iz Vallette prijepodne i ostati do ručka na rivi. Sredinom listopada Birgu obično slavi Birgufest, kada se ulice jedne večeri osvijetle samo svijećama."
+      kada: "Najljepše je doći brodićem iz Vallette prijepodne i ostati do ručka na rivi. U prvoj polovici listopada Birgu obično slavi Birgufest, kada se ulice dvije večeri zaredom osvijetle samo svijećama."
     },
     {
       id: "gozo",
@@ -176,7 +188,7 @@ window.ATLAS["malta"] = {
       ],
       jesti: [
         { ime: "Ġbejniet", opis: "Mali ovčji sirevi, svježi ili sušeni s paprom, kupuju se od seljaka i na tržnici u Victoriji, a služe se uz rajčice i kapare." },
-        { ime: "Goška ftira", opis: "Tanka pita iz krušne peći s krumpirom, inćunima, kaparima ili sirom, po koju se ide u stare pekarnice u selu Nadur, primjerice u pekarnicu Maxokk, i jede je se na obližnjem vidikovcu." },
+        { ime: "Goška ftira", opis: "Pita nalik pizzi iz krušne peći s krumpirom, inćunima, kaparima ili sirom, po koju se ide u stare pekarnice u selu Nadur, primjerice u pekarnicu Maxokk, i jede je se na obližnjem vidikovcu." },
         { ime: "Med, kapari i sol", opis: "Goški med od timijana, ukiseljeni kapari i morska sol iz Xwejnija prodaju se na štandovima uz cestu i najbolji su suvenir s otoka." }
       ],
       dozivjeti: [

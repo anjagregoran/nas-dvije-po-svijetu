@@ -4,6 +4,20 @@ window.ATLAS["maroko"] = {
   ime: "Morocco",
   regija: "North Africa",
   sazetak: "A country where, in a single day, you can travel from a medieval medina over the snowy peaks of the Atlas to the dunes of the Sahara.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "UNESCO Intangible Cultural Heritage, Cultural space of Jemaa el-Fna Square", url: "https://ich.unesco.org/en/RL/cultural-space-of-jemaa-el-fna-square-00014" },
+    { ime: "Afar, Djemaa el Fna", url: "https://www.afar.com/places/djemaa-el-fna-marrakech" },
+    { ime: "Lonely Planet, A weekend in Chefchaouen", url: "https://www.lonelyplanet.com/articles/weekend-itinerary-chefchaouen" },
+    { ime: "Lonely Planet, Water Clock (Fez)", url: "https://www.lonelyplanet.com/morocco/fez/attractions/water-clock/a/poi-sig/1605793/355510" },
+    { ime: "Lonely Planet, Quartier Habous (Casablanca)", url: "https://www.lonelyplanet.com/morocco/casablanca/attractions/quartier-habous/a/poi-sig/1633608/1331580" },
+    { ime: "Fondation de la Mosquée Hassan II", url: "https://www.fmh2.ma/" },
+    { ime: "Journey Beyond Travel, Hassan Tower and the Mausoleum of Mohammed V", url: "https://www.journeybeyondtravel.com/blog/hassan-tower-mohamed-v-mausoleum.html" },
+    { ime: "Morocco World News, Rabat's Chellah reopens after renovations", url: "https://www.moroccoworldnews.com/2024/05/19341/rabats-chellah-to-reopen-doors-to-public-after-major-renovations/" },
+    { ime: "Sud Est Maroc, Telouet Kasbah", url: "https://sudestmaroc.com/en/telouet-kasbah-the-glaoui-palace-in-the-high-atlas/" },
+    { ime: "Kasbah du Toubkal", url: "https://www.kasbahdutoubkal.com/" },
+    { ime: "Hespress, 2026 festival calendar for Morocco", url: "https://en.hespress.com/?p=138184" },
+    { ime: "Salon du Cheval d'El Jadida", url: "https://salonducheval.ma/en/seizieme-edition" }
+  ] },
   uvod: [
     "Morocco lies on the very edge of Africa, fourteen kilometers from Spain, and has always been a bridge between two continents. Its first inhabitants, the Amazigh or Berbers, still make up a large part of the population and speak their own language, which is official alongside Arabic. From the 8th century onward one dynasty followed another, each building imperial cities in turn: the Idrisids Fez, the Almoravids and Almohads Marrakesh and Rabat, the Marinids the madrasas, the Saadians their lavish tombs. The Alaouite dynasty has ruled from the 17th century to the present day, with the interruption of the French and Spanish protectorate from 1912 to 1956.",
     "For travelers Morocco is a feast for all the senses and sometimes a real test of patience. The medinas are labyrinths in which you have to get lost in order to get to know them, the merchants are persistent, and mint tea arrives before every conversation. Behind unremarkable doors hide courtyards with fountains and orange trees, because here beauty is traditionally kept for the inside of the house. Once you learn to read zellige tiles, carved cedar and stucco, you will recognize the same language of patterns in every madrasa and palace."
@@ -62,7 +76,7 @@ window.ATLAS["maroko"] = {
       sazetak: "The red city beneath the Atlas, whose main square turns into an open-air theater and kitchen every evening.",
       prica: ["Marrakesh was founded around 1070 by the Almoravids, warriors from the Sahara, as a camp that grew into the capital of an empire reaching from Senegal to Spain. The Almohads conquered it in 1147 and built the Koutoubia, and in the 16th century the Saadians restored its splendor with gold from Timbuktu. The walls and houses are built of rammed red earth, so the whole city takes on the color of the surrounding plain. The entire country got its name in European languages from this city."],
       vidjeti: [
-        { ime: "Jemaa el-Fna", opis: "For centuries the square has been the place of storytellers, musicians, herbalists and snake charmers, and toward evening the smoke of a hundred grills rises above it. It was because of this very square that UNESCO devised its list of intangible heritage, and the square was among the first to be inscribed, in 2001." },
+        { ime: "Jemaa el-Fna", opis: "For centuries the square has been the place of storytellers, musicians, herbalists and snake charmers, and toward evening the smoke of a hundred grills rises above it. It was because of this very square that UNESCO devised its list of intangible heritage, and the square was among the first masterpieces it proclaimed, in 2001." },
         { ime: "Koutoubia Mosque", opis: "The 77-meter minaret was completed at the end of the 12th century and served as the model for the Giralda in Seville and the Hassan Tower in Rabat. The name means the mosque of the booksellers, because about a hundred sellers of manuscripts once worked around it. Each side of the tower is decorated with a different pattern, so walk all the way around it." },
         { ime: "Ben Youssef Madrasa", opis: "The Saadian sultan Abdallah al-Ghalib completed it in 1565 as the largest Quranic school in the Maghreb. Around the courtyard with its pool run three bands of decoration: zellige tiles at the bottom, carved stucco in the middle and carved cedar at the top. Upstairs, peek into the tiny student rooms." },
         { ime: "Saadian Tombs", opis: "Sultan Ahmed al-Mansur had them built at the end of the 16th century, and his successor from another dynasty walled them up, so they lay forgotten until 1917. In the Hall of Twelve Columns look for the Italian marble from Carrara, which the sultan, as the story goes, paid for with its weight in sugar." },
@@ -93,7 +107,7 @@ window.ATLAS["maroko"] = {
       prica: ["Fez was founded in 789 by Idris I, a descendant of the Prophet Muhammad, and his son Idris II made it the capital. Refugees soon arrived from Córdoba and from Kairouan in Tunisia, and each group settled its own bank of the river. In the 13th and 14th centuries the Marinids added a new part of the city and the most beautiful madrasas. The old medina of Fes el-Bali has more than nine thousand alleys without a single car, and UNESCO listed it in 1981."],
       vidjeti: [
         { ime: "Al-Qarawiyyin", opis: "The mosque and school were founded in 859 by Fatima al-Fihri, the daughter of a wealthy merchant from Kairouan, and a university grew out of it. Non-Muslim visitors may not go inside, but through the open doors you can see the courtyard with pavilions resembling those of the Alhambra and white arches receding into the distance." },
-        { ime: "Bou Inania Madrasa", opis: "The Marinid sultan Abu Inan built it between 1351 and 1356, and it is the only madrasa in Fez with its own minaret. Opposite the entrance look for the remains of a water clock with thirteen little windows and brass bowls, whose mechanism has still not been fully explained." },
+        { ime: "Bou Inania Madrasa", opis: "The Marinid sultan Abu Inan built it between 1351 and 1356, and it is the only madrasa in Fez with its own minaret. Opposite the entrance look for the remains of a water clock, a row of little windows and carved beams that once held brass bowls, whose mechanism has still not been fully explained." },
         { ime: "Chouara Tannery", opis: "In stone vats the hides are first softened in lime and pigeon droppings, just as in the Middle Ages, and then dyed with poppy, indigo and saffron. You watch from the terraces of the surrounding shops, and the sprig of mint you are handed at the entrance is there to mask the smell." },
         { ime: "Bab Boujloud", opis: "The main gate of the medina, from 1913, is faced on the outside with blue tiles, the color of Fez, and on the inside with green ones, the color of Islam. Through the arch you can see two minarets, which makes the most famous photo frame in the city." },
         { ime: "Nejjarine Square and Museum", opis: "Beside a mosaic-clad fountain stands an 18th-century fondouk, an inn where the merchants slept upstairs while the animals and goods stayed on the ground floor. Today it houses a museum of woodworking, with a cafe on the roof." },
@@ -149,9 +163,9 @@ window.ATLAS["maroko"] = {
       sazetak: "The largest city and the economic heart of the country, with a mosque above the Atlantic and streets in the Art Deco style.",
       prica: ["On the site of the Berber settlement of Anfa the Portuguese built the fortress of Casa Branca, the “white house,” in the 16th century. Until 1900 it was a port of some twenty thousand people, and then the French chose it as the main port of the protectorate and built a new city of wide boulevards. There the architects fused Art Deco with Moroccan arches and tiles into a style known as Mauresque."],
       vidjeti: [
-        { ime: "Hassan II Mosque", opis: "Completed in 1993 to a design by Michel Pinseau, it has a minaret 210 meters tall and is one of the largest in the world. Part of the floor stands over the ocean, the roof opens, and ten thousand craftsmen spent six years carving the stucco, cedar and marble. It is one of the few Moroccan mosques that non-Muslims can enter, on a guided tour." },
+        { ime: "Hassan II Mosque", opis: "Completed in 1993 to a design by Michel Pinseau, it has a minaret about 200 meters tall and is one of the largest in the world. Part of the floor stands over the ocean, the roof opens, and thousands of craftsmen from all over the country spent years carving the stucco, cedar and marble. It is one of the few Moroccan mosques that non-Muslims can enter, on a guided tour." },
         { ime: "The Art Deco downtown", opis: "Along Mohammed V Boulevard and around Mohammed V Square, raise your eyes to the facades from the 1920s and 1930s, with their wrought-iron balconies and tiled cornices. The courthouse and the post office show how the French gave government buildings a Moroccan face." },
-        { ime: "The Habous Quarter", opis: "In the 1930s French urban planners built a “new medina,” a tidy version of the old city with arcades. This is where people buy olives, slippers and books, and in a well-known pastry shop almond pastries are sold by weight." },
+        { ime: "The Habous Quarter", opis: "In the 1920s and 1930s French urban planners built a “new medina,” a tidy version of the old city with arcades. This is where people buy olives, slippers and books, and in a well-known pastry shop almond pastries are sold by weight." },
         { ime: "Museum of Moroccan Judaism", opis: "It is the only Jewish museum in the Arab world, and it holds Torah scrolls, costumes and a reconstructed goldsmith's workshop. It is a reminder that in the middle of the 20th century about a quarter of a million Jews lived in Morocco." },
         { ime: "The Ain Diab corniche", opis: "Beach clubs, cafes and the El Hank lighthouse line the oceanfront. On Sundays the whole city comes out here, which makes it the best place to see contemporary Morocco." }
       ],
@@ -160,7 +174,7 @@ window.ATLAS["maroko"] = {
         { ime: "Almond pastries", opis: "Gazelle horns, filled with almond paste scented with orange blossom water, are the specialty of the pastry shops in the Habous Quarter." }
       ],
       dozivjeti: [
-        { ime: "A guided tour of the Hassan II Mosque", opis: "Tours in several languages take you through the prayer hall, the ablution room with its lotus-like fountains and the hammam in the basement.", link: "https://www.fmh2.ma/" },
+        { ime: "A guided tour of the Hassan II Mosque", opis: "Tours in several languages take you through the prayer hall, the hall beneath the minaret and the ablution room with its lotus-like fountains.", link: "https://www.fmh2.ma/" },
         { ime: "A walk through the Art Deco district", opis: "The Casamémoire association, which campaigns to preserve the architectural heritage of the 20th century, occasionally organizes guided walks and open days." }
       ],
       agencije: [
@@ -176,10 +190,10 @@ window.ATLAS["maroko"] = {
       sazetak: "A calm capital at the mouth of a river, with an unfinished tower from the 12th century and storks on the Roman ruins.",
       prica: ["In the 12th century the Almohads built a fortified monastery, a ribat, on the cliff above the mouth of the Bou Regreg River, from which they set out on campaigns against Spain. Sultan Yaqub al-Mansur intended to build the largest mosque in the world here, but he died in 1199. In the 17th century Muslims expelled from Spain settled here and, together with neighboring Salé, founded a pirate republic. The French made Rabat the capital in 1912, and UNESCO listed it in 2012."],
       vidjeti: [
-        { ime: "Hassan Tower", opis: "The minaret begun in 1195 was meant to be about eighty meters tall, and it stopped at 44. Inside, ramps climb in place of stairs, so that the muezzin could ride up on horseback. Around it stands a forest of some two hundred columns, the remains of the unfinished mosque that was finished off by the earthquake of 1755." },
+        { ime: "Hassan Tower", opis: "The minaret begun in 1195 was meant to be more than eighty meters tall, and it stopped at 44. Inside, ramps climb in place of stairs, so that the muezzin could ride up on horseback. Around it stands a forest of some two hundred columns, the remains of the unfinished mosque that was badly damaged by the earthquake of 1755." },
         { ime: "Mausoleum of Mohammed V", opis: "Opposite the tower lie the king who led the country to independence and his sons, among them Hassan II. Visitors are allowed onto the gallery, which looks down on the sarcophagus of white onyx, while in a corner a reader recites the Quran without pause. The mounted guards are happy to be photographed." },
         { ime: "Kasbah of the Udayas", opis: "Through the monumental Almohad gate of Bab Oudaia you enter a fortress whose alleys are painted white and blue. The houses were built by Andalusian exiles, and at the top there is a terrace with a view of the ocean and the city of Salé." },
-        { ime: "Chellah", opis: "Within the 14th-century walls lie the remains of the Roman town of Sala Colonia and a Marinid necropolis. Storks nest on the minaret and the walls, and in the pool live eels to which women, according to an old belief, bring eggs in the hope of conceiving." },
+        { ime: "Chellah", opis: "Within the 14th-century walls lie the remains of the Roman town of Sala Colonia and a Marinid necropolis. Storks nest on the minaret and the walls, and in the pool live eels to which women, according to an old belief, bring eggs in the hope of conceiving. The site reopened in 2024 after three years of restoration." },
         { ime: "Mohammed VI Museum of Modern and Contemporary Art", opis: "Opened in 2014, it is the first large public museum built in Morocco since independence. The permanent collection leads you through Moroccan painting of the 20th century, from the first modernists to the present day." }
       ],
       jesti: [
@@ -237,7 +251,7 @@ window.ATLAS["maroko"] = {
       ],
       jesti: [
         { ime: "Madfouna", opis: "A round bread stuffed with meat, onions, eggs and spices is baked in the sand or in an oven, and it is known as Berber pizza." },
-        { ime: "Medjool dates", opis: "The Tafilalt oasis is the homeland of the most prized variety of dates, and in October a date fair is held in Erfoud." }
+        { ime: "Medjool dates", opis: "The Tafilalt oasis is the homeland of the most prized variety of dates, and a date fair is held in Erfoud in the fall, usually in October." }
       ],
       dozivjeti: [
         { ime: "A night in a desert camp", opis: "You ride a camel to the tents for an hour before sunset, and the evening brings tajine, drums by the fire and a sky without a single light." },
@@ -258,7 +272,7 @@ window.ATLAS["maroko"] = {
       vidjeti: [
         { ime: "The ksar of Aït Benhaddou", opis: "The village of red earth beside the Ounila River has been listed by UNESCO since 1987. The towers of its tall houses are decorated with geometric patterns pressed into the mud, and a communal granary stands at the top of the hill. “Gladiator,” “Lawrence of Arabia” and “Game of Thrones” were all filmed here." },
         { ime: "Tizi n'Tichka pass", opis: "The road the French cut through in the 1930s climbs to 2,260 meters. Along the way vendors offer minerals and fossils, and the landscape changes from green valleys to bare red mountains." },
-        { ime: "Telouet Kasbah", opis: "The palace of the Glaoui family is half collapsed on the outside, while inside it hides halls with tiles, stucco and painted ceilings. It was abandoned after 1956, when the pasha fell from favor for collaborating with the French." },
+        { ime: "Telouet Kasbah", opis: "The palace of the Glaoui family is half collapsed on the outside, while inside it hides halls with tiles, stucco and painted ceilings. It was abandoned after 1956, when the pasha fell from favor for collaborating with the French. The earthquake of 2023 damaged it further, so only some of the rooms are open." },
         { ime: "Ouarzazate", opis: "The town at the gateway to the desert is called the Hollywood of Morocco for its film studios, with their sets of Egypt and Rome. The Taourirt Kasbah in the center was another residence of the Glaoui family, with a labyrinth of rooms." },
         { ime: "Imlil and Toubkal", opis: "The village at 1,740 meters is the starting point for the ascent of the highest peak in North Africa. Even without the climb it is worth walking across the terraces of walnut and cherry trees to the village of Aroumd." },
         { ime: "The Valley of Roses", opis: "Around the small town of Kelaat M'Gouna damask roses grow along the hedgerows, and rose water is made from them. They are picked at dawn in April and May." }
@@ -269,7 +283,7 @@ window.ATLAS["maroko"] = {
         { ime: "Walnuts and honey from Imlil", opis: "The valley is known for its walnuts and dark mountain honey, which are offered with tea." }
       ],
       dozivjeti: [
-        { ime: "Hiking with a mountain guide from Imlil", opis: "Licensed guides from the valley lead day walks from village to village and ascents of Toubkal. The Kasbah du Toubkal, a lodge run by the local community, organizes excursions and invests part of its income in the villages.", link: "https://www.kasbahdutoubkal.com/" },
+        { ime: "Hiking with a mountain guide from Imlil", opis: "Licensed guides from the valley lead day walks from village to village and ascents of Toubkal. The Kasbah du Toubkal, a lodge run together with people from the valley, organizes excursions and invests part of its income in the villages.", link: "https://www.kasbahdutoubkal.com/" },
         { ime: "Dawn in Aït Benhaddou", opis: "Most visitors arrive around noon, so at dawn the village is almost empty, and in the first light the walls are the color of copper." }
       ],
       agencije: [

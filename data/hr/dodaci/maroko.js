@@ -51,7 +51,7 @@ window.DODACI["maroko"] = {
       ],
       domaci: [
         { ime: "Kozji sir za doručak", opis: "Svježi sir jben iz okolnih sela u gorju Rif jede se s kruhom, maslinovim uljem i maslinama. Seljanke ga prodaju umotanog u palmino lišće, a mnogi ga kafići poslužuju uz jutarnji čaj." },
-        { ime: "Žene iz Rifa na tržnici", opis: "Na sajmeni dan žene silaze iz planinskih sela u crveno-bijelim prugastim pregačama i slamnatim šeširima s vunenim pomponima. Pitajte domaćine kojeg se dana održava tržnica i dođite prije podneva." },
+        { ime: "Žene iz Rifa na tržnici", opis: "Na sajmeni dan žene silaze iz planinskih sela u crveno-bijelim prugastim pregačama i slamnatim šeširima s vunenim pomponima. Tržnica se održava ponedjeljkom i četvrtkom, pa dođite prije podneva." },
         { ime: "Čaj na trgu Uta el-Hammam", opis: "Predvečer se cijeli grad slijeva na glavni trg podno kasbe, gdje ljudi satima sjede uz čaj od mente. Naručite jednu čašu i nitko vas neće požurivati." }
       ],
       kupiti: [
@@ -62,7 +62,7 @@ window.DODACI["maroko"] = {
     },
     "casablanca": {
       dragulji: [
-        { ime: "Quartier Habous", opis: "Takozvana nova medina, izgrađena 1920-ih, ima arkade, male trgove i urednije trgovine od stare. Ovamo domaći dolaze po slastice, masline i svadbenu odjeću." },
+        { ime: "Quartier Habous", opis: "Takozvana nova medina, izgrađena 1920-ih i 1930-ih, ima arkade, male trgove i urednije trgovine od stare. Ovamo domaći dolaze po slastice, masline i svadbenu odjeću." },
         { ime: "Art deco oko Boulevarda Mohammed V", opis: "Centar je pun bijelih zgrada iz 1930-ih sa zaobljenim balkonima i ogradama od kovanog željeza. Stalno gledajte prema gore dok hodate od tržnice Marché Central prema Trgu Ujedinjenih naroda." },
         { ime: "Svjetionik El Hank", opis: "S rta kod svjetionika pruža se najbolji pogled na džamiju Hasana II. s druge strane zaljeva, osobito kad se valovi razbijaju o stijene. Dođite pred zalazak sunca, kad se sa štapovima pojave i ribiči." }
       ],
@@ -105,7 +105,7 @@ window.DODACI["maroko"] = {
         { ime: "Sumrak na bedemima", opis: "Kad popodnevni pasat malo popusti, domaći izlaze na Skalu gledati kako sunce iza galebova tone u Atlantik. Ponesite jaknu jer ovdje puše i usred ljeta." }
       ],
       kupiti: [
-        { ime: "Intarzije od drva tuje", opis: "Mirisno drvo tuje s kvrgavom teksturom raste samo u ovom kraju, a majstori od njega izrađuju kutije i zdjele. Radionice su pod svodovima ispod bedema Skala de la Ville." },
+        { ime: "Intarzije od drva tuje", opis: "Mirisno drvo tuje s kvrgavom teksturom potječe od četinjače koja raste na sjeverozapadu Afrike, a majstori iz Essaouire od njega izrađuju kutije i zdjele. Radionice su pod svodovima ispod bedema Skala de la Ville." },
         { ime: "Arganovo ulje i amlou", opis: "Ženske zadruge oko grada prodaju ulje za kuhanje i za kožu, kao i amlou, namaz od badema, arganova ulja i meda. Jestivo je ulje tamnije i miriše na lješnjake." },
         { ime: "Sandale od rafije", opis: "Pletene cipele i sandale od rafije lokalni su obrt, a postolari ih u malim radnjama u medini izrađuju po mjeri. Lagane su i traju godinama." }
       ]
@@ -114,7 +114,7 @@ window.DODACI["maroko"] = {
       dragulji: [
         { ime: "Selo Khamlia", opis: "Nekoliko kilometara južno od Merzouge žive potomci ljudi dovedenih preko Sahare, koji održavaju glazbu gnawa na životu. U seoskim kućama sviraju gostima uz čaj, bez pozornice i bez zvučnika." },
         { ime: "Jezero Dayet Srji", opis: "Nakon kišnih zima zapadno od sela pojavi se plitko jezero na koje slijeću plamenci, s dinama u pozadini. Prije odlaska pitajte domaćine ima li vode." },
-        { ime: "Tržnica u Rissaniju", opis: "Ovaj stari karavanski grad ima natkriveni souk datulja i začina, pa čak i parkiralište za magarce. Pitajte domaćine kojim se danima održava tržnica jer je ozračje tada posve drukčije." }
+        { ime: "Tržnica u Rissaniju", opis: "Ovaj stari karavanski grad ima natkriveni souk datulja i začina, pa čak i parkiralište za magarce. Dođite nedjeljom, utorkom ili četvrtkom, kada je tržnica najživlja." }
       ],
       domaci: [
         { ime: "Medfouna", opis: "Ovaj kruh punjen mesom, lukom i začinima, koji često zovu berberskom pizzom, peče se u zajedničkim pećima Rissanija. Domaći ga naručuju unaprijed, pa to prepustite svom vozaču ili domaćinu." },
@@ -129,7 +129,7 @@ window.DODACI["maroko"] = {
     },
     "atlas-i-ait-benhaddou": {
       dragulji: [
-        { ime: "Kasba Telouet", opis: "Napola urušena palača obitelji Glaoui izvana izgleda kao ruševina, a unutra se kriju dvorane s mozaicima i rezbarenom cedrovinom. Čuvar iz sela otključa vrata i ispriča priču o kući." },
+        { ime: "Kasba Telouet", opis: "Napola urušena palača obitelji Glaoui izvana izgleda kao ruševina, a unutra se kriju dvorane s mozaicima i rezbarenom cedrovinom. Lokalni vodič ispričat će vam priču o kući, a od potresa 2023. otvoren je samo dio prostorija." },
         { ime: "Dolina Ounila", opis: "Stari karavanski put od Teloueta do Aït Benhaddoua prati rijeku pokraj sela od crvene zemlje i voćnjaka badema. Daleko je ljepši od glavne ceste i na njemu gotovo nema prometa." },
         { ime: "Imlil i selo Aroumd", opis: "U podnožju planine Toubkal staze vode kroz nasade oraha do sela koja se uz padinu nižu poput stuba. Šetnja od sat ili dva s lokalnim vodičem dovoljna je da osjetite planinski život." }
       ],

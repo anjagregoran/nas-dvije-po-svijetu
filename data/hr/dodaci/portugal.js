@@ -102,7 +102,7 @@ window.DODACI["portugal"] = {
       domaci: [
         { ime: "Kava na trgu Praça do Giraldo", opis: "Svatko u gradu u nekom trenutku dana prijeđe glavni trg i zastane u kafiću pod arkadama. Sjednite usred prijepodneva i gledajte kako se grad pozdravlja." },
         { ime: "Poslijepodnevna vrućina", opis: "Ljeti se ulice nakon ručka isprazne, a predvečer ponovno ožive. Učinite kao mještani, pa dugo ručajte krušnu juhu ili crnu svinjetinu, odmorite se i prošećite kad zahladi." },
-        { ime: "Cante alentejano", opis: "Skupine muškaraca i žena pjevaju spore pjesme jednoglasno, bez instrumenata, a ta je tradicija i dalje živa u tavernama i seoskim društvima. Pitajte domaćine gdje biste ga mogle čuti." }
+        { ime: "Cante alentejano", opis: "Muški ili ženski zborovi pjevaju spore pjesme dvoglasno, bez instrumenata, a ta je tradicija i dalje živa u tavernama i seoskim društvima. Pitajte domaćine gdje biste ga mogle čuti." }
       ],
       kupiti: [
         { ime: "Predmeti od pluta", opis: "Šume hrasta plutnjaka u Alenteju okružuju grad, a Rua 5 de Outubro puna je trgovina koje prodaju torbe, šešire i cipele od pluta. Usporedite nekoliko njih, jer kvaliteta nije svugdje ista." },

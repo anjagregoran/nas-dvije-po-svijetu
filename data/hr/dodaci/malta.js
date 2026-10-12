@@ -2,7 +2,7 @@ window.DODACI = window.DODACI || {};
 window.DODACI["malta"] = {
   kupiti: [
     { ime: "Srebrni filigran", opis: "Tanka srebrna žica uvija se u nakit, najčešće u obliku malteškog križa s osam krakova. Kupite ga kod draguljara koji ga izrađuje u samoj radnji, gdje možete vidjeti radni stol." },
-    { ime: "Malteška čipka", opis: "Čipka na batiće, koja se zove bizzilla, radi se uglavnom na Gozu, gdje je žene još uvijek izrađuju na jastuku pred kućnim vratima. Ručno rađeni komadi mali su i cijena im je tome primjerena, pa budite oprezne s velikim, jeftinim stolnjacima." },
+    { ime: "Malteška čipka", opis: "Čipka na batiće, koja se zove bizzilla, radi se uglavnom na Gozu, na visokom i uskom jastuku, iako je čipkarica pred kućnim vratima danas rijedak prizor. Ručno rađeni komadi mali su i cijena im je tome primjerena, pa budite oprezne s velikim, jeftinim stolnjacima." },
     { ime: "Puhano staklo", opis: "Malteško staklo poznato je po vrtlozima morski plave i zelene boje te boje pijeska. Prije kupnje možete gledati kako se puše u radionicama sela obrtnika u Ta' Qaliju." },
     { ime: "Ġbejniet", opis: "Ovi mali okrugli sirevi od ovčjeg ili kozjeg mlijeka dolaze svježi, sušeni ili uvaljani u crni papar. Sušeni s paprom dobro podnose put, a prodaju se u trgovinama mješovitom robom i na tržnicama." },
     { ime: "Med", opis: "Malteški med, osobito onaj od divlje majčine dušice, cijeni se još od antike. Kupite ga kod pčelara ili u trgovini koja navodi proizvođača i sezonu." },
@@ -54,7 +54,7 @@ window.DODACI["malta"] = {
         { ime: "Glazbeni klub", opis: "Svaka župa ima klub limene glazbe s barom otvorenim za sve. To je srce seoske svetkovine i dobro mjesto za jeftino piće među susjedima." }
       ],
       kupiti: [
-        { ime: "Nalazi s nedjeljnog buvljaka", opis: "U Birguu se nedjeljom ujutro održava buvljak sa starim alatom, posuđem i kuriozitetima. Pitajte domaćine gdje se trenutačno postavlja i otiđite rano." },
+        { ime: "Nalazi s nedjeljnog buvljaka", opis: "U Birguu se nedjeljom ujutro održava buvljak sa starim alatom, posuđem i kuriozitetima. Postavlja se na starom nogometnom igralištu Fortini tik pred gradskim vratima, osim kad je vrijeme loše, pa otiđite rano." },
         { ime: "Kruh iz pekarnice s peći na drva", opis: "Tri grada još uvijek imaju tradicionalne pekarnice iz kojih izlaze malteški kruhovi hrskave kore i ftira u obliku koluta. Kupite jedan topao ujutro za piknik uz more." }
       ]
     },

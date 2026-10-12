@@ -26,11 +26,11 @@ window.PUTOVANJA = {
     ]
   },
   skupine: [
-    { id: "mama", ime: "Anja and Diana", opis: "Our yearly trip, just the two of us." },
-    { id: "obitelj", ime: "Family trips", opis: "When the wider crew comes along." },
-    { id: "udvoje", ime: "Drake and Anja", opis: "Trips around Croatia and beyond." },
-    { id: "solo", ime: "Solo", opis: "When I travel on my own." },
-    { id: "cesta", ime: "Road trips", opis: "A car, good music and no rush." }
+    { id: "mama", ime: "Diana and Anja", opis: "Our yearly trip, just the two of us." },
+    { id: "drake", ime: "Drake and Anja", opis: "Trips around Croatia and beyond." },
+    { id: "hr-obitelj", ime: "Croatian family trips", opis: "With the family in Croatia." },
+    { id: "us-obitelj", ime: "American family trips", opis: "With the family in the USA." },
+    { id: "solo", ime: "Solo trips", opis: "When Anja travels on her own." }
   ],
   putovanja: [
     {

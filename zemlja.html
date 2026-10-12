@@ -11,13 +11,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=9">
 </head>
 <body>
   <header class="site-head">
     <div class="wrap">
-      <a class="back" href="index.html">← Home</a>
-      <a class="title" id="naslov" href="#/"></a>
+      <a class="logo" href="index.html">Taste the Map</a>
+      <nav>
+        <a href="index.html#zemlje" class="here">Explore</a>
+        <a href="putovanja.html">Our trips</a>
+      </nav>
+      <span id="naslov" hidden></span>
     </div>
   </header>
 
@@ -28,9 +32,9 @@
     Prices and opening hours change, so check official sites before you go.
   </footer>
 
-  <script src="data/koordinate.js"></script>
-  <script src="js/karta.js"></script>
-  <script src="js/restorani.js"></script>
+  <script src="data/koordinate.js?v=9"></script>
+  <script src="js/karta.js?v=9"></script>
+  <script src="js/restorani.js?v=9"></script>
   <script>
     (function () {
       var id = (new URLSearchParams(location.search).get('z') || '').replace(/[^a-z0-9-]/g, '');
@@ -49,7 +53,7 @@
           d.src = 'data/dodaci/' + id + '.js';
           d.onload = d.onerror = function () {
             var a = document.createElement('script');
-            a.src = 'js/zemlja.js';
+            a.src = 'js/zemlja.js?v=9';
             document.body.appendChild(a);
           };
           document.body.appendChild(d);

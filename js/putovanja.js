@@ -10,7 +10,7 @@
   }
   var colour = {};
   P.skupine.forEach(function (g, i) { colour[g.id] = 'g' + (i + 1); });
-  var HEX = { g1: '#5a1830', g2: '#2f6f73', g3: '#c2553a', g4: '#6b5aa6', g5: '#7c8a3e' };
+  var HEX = { g1: '#5a1830', g2: '#c2553a', g3: '#2f6f73', g4: '#6b5aa6', g5: '#7c8a3e' };
 
   function trips() { return P.putovanja.filter(function (t) { return !active || t.skupina === active; }); }
 
@@ -50,7 +50,6 @@
   function chips() {
     return '<div class="chips wrapc" id="groups" style="margin-top:14px">' +
       '<button type="button" data-g="svijet"' + (active === 'svijet' ? ' class="on"' : '') + '>Anja’s world</button>' +
-      '<button type="button" data-g=""' + (active === '' ? ' class="on"' : '') + '>All trips</button>' +
       P.skupine.map(function (x) {
         return '<button type="button" data-g="' + x.id + '"' + (active === x.id ? ' class="on"' : '') + '><i class="dot" style="background:' + HEX[colour[x.id]] + '"></i>' + esc(x.ime) + '</button>';
       }).join('') + '</div>';

@@ -123,7 +123,7 @@
       '<div class="boxes">' + C_ORDER.filter(function (k) { return COUNTRY[k].on(); }).map(function (k) {
         return box('#/o/' + k, C_ICON[k], 'c' + (n++ % 6), COUNTRY[k].t, COUNTRY[k].s);
       }).join('') + '</div>' +
-      '<div class="sec-head" id="mjesta" style="margin-top:46px"><h2>Cities and <em>places</em></h2><span class="label">' + Z.mjesta.length + ' places</span></div>' +
+      '<div class="sec-head" id="mjesta" style="margin-top:46px"><h2><span class="step">3</span>Pick a <em>place</em></h2><span class="label">' + Z.mjesta.length + ' places</span></div>' +
       '<div class="grid places">' + Z.mjesta.map(function (m) {
         return '<a class="pcard" href="#/mjesto/' + m.id + '"><span class="badge plain">' + esc(VRSTA[m.vrsta] || 'Place') + '</span>' +
           '<h3>' + esc(m.ime) + '</h3><p>' + esc(m.sazetak) + '</p><span class="arrow">→</span></a>';

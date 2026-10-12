@@ -12,14 +12,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=9">
 </head>
 <body>
   <header class="site-head">
     <div class="wrap">
       <a class="logo" href="index.html">Taste the Map</a>
       <nav>
-        <a href="#zemlje">Countries</a>
+        <a href="#zemlje">Explore</a>
         <a href="putovanja.html">Our trips</a>
       </nav>
     </div>
@@ -41,29 +41,35 @@
       </section>
     </div>
 
-    <div class="marquee" aria-hidden="true"><div id="marquee"></div></div>
-
     <div class="wrap">
-      <section class="block" id="vodici">
-        <div id="feature"></div>
-      </section>
-
-      <section class="block" style="padding-top:0">
-        <a class="feature light" href="putovanja.html">
-          <div><span class="label">Travel log</span><h2>Our <em>trips</em></h2>
-          <p>A map of everywhere we have been, split by who went: Anja and Diana, the family, Drake and Anja, solo trips and road trips.</p>
-          <span class="btn dark">Open the map</span></div>
+      <section class="doors">
+        <a class="door c0" href="#zemlje">
+          <span class="label">The guide</span>
+          <h2>Explore</h2>
+          <p>Pick a continent, then a country, then a city. Every place opens into the same simple boxes: cuisine, hidden gems, like a local, what to buy.</p>
+          <span class="btn dark">Start exploring</span>
+        </a>
+        <a class="door c2" href="putovanja.html">
+          <span class="label">The travel log</span>
+          <h2>Our trips</h2>
+          <p>Anja’s world on a map, plus the trips with Diana, with Drake, with family and solo.</p>
+          <span class="btn dark">Open our trips</span>
         </a>
       </section>
 
-      <section class="block" id="zemlje" style="padding-top:0">
+      <section class="block" id="zemlje">
         <div class="sec-head">
-          <h2>Pick a <em>continent</em></h2>
+          <h2><span class="step">1</span>Pick a <em>continent</em></h2>
           <span class="label" id="count"></span>
         </div>
         <div class="grid" id="continents"></div>
-        <div class="map" id="map"></div>
         <div id="countries"></div>
+        <details class="card" id="mapbox" style="margin-top:26px"><summary>See them on the map<small>Every country of this continent as a pin</small></summary><div class="inner"><div class="map" id="map" style="margin-top:0"></div></div></details>
+      </section>
+
+      <section class="block" id="vodici" style="padding-top:0">
+        <div class="sec-head"><h2>Deep <em>guides</em></h2><span class="label">For trips we are planning</span></div>
+        <div id="feature"></div>
       </section>
 
       <section class="block" style="padding-top:0">
@@ -81,8 +87,8 @@
     Prices and opening hours change, so check official sites before you go.
   </footer>
 
-  <script src="data/europa/index.js"></script>
-  <script src="js/karta.js"></script>
-  <script src="js/home.js"></script>
+  <script src="data/europa/index.js?v=9"></script>
+  <script src="js/karta.js?v=9"></script>
+  <script src="js/home.js?v=9"></script>
 </body>
 </html>

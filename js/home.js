@@ -10,11 +10,6 @@
     return String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
   }
 
-  // ---------- traka s riječima ----------
-  var words = ['Street food', 'Markets', 'Dances', 'Hidden gems', 'Vineyards', 'Piazzas', 'Recipes', 'Festivals', 'Crafts', 'Islands'];
-  var strip = words.map(function (w) { return '<span>' + w + '</span>'; }).join('');
-  document.getElementById('marquee').innerHTML = strip + strip;
-
   // ---------- veliki vodiči ----------
   document.getElementById('feature').innerHTML = I.vodici.map(function (v) {
     return '<div class="feature">' +
@@ -48,6 +43,8 @@
         '<span class="label">' + (n ? n + ' countries' : 'Coming soon') + '</span><h3>' + esc(k.ime) + '</h3></a>';
     }).join('');
   }
+  var lastK = null, mapbox = document.getElementById('mapbox');
+  mapbox.addEventListener('toggle', function () { if (mapbox.open && lastK) drawMap(lastK); });
   function drawMap(k) {
     var pts = [];
     k.regije.forEach(function (r) {
@@ -59,9 +56,9 @@
   }
   function drawCountries() {
     var k = I.kontinenti.filter(function (x) { return x.ime === active; })[0];
-    drawMap(k);
+    lastK = k; if (mapbox.open) drawMap(k);
     var c = 0;
-    box.innerHTML = '<h2 id="kontinent" style="margin-top:44px">' + esc(k.ime) + '</h2>' + k.regije.map(function (r) {
+    box.innerHTML = '<div class="sec-head" id="kontinent" style="margin-top:50px"><h2><span class="step">2</span>Pick a country in <em>' + esc(k.ime) + '</em></h2></div>' + k.regije.map(function (r) {
       return (k.regije.length > 1 ? '<h3 class="group-title">' + esc(r.ime) + '</h3>' : '<div style="height:14px"></div>') + '<div class="grid">' +
         r.zemlje.map(function (z) {
           if (!z.spremno) return '<div class="tilec soon"><span class="label">Coming soon</span><h3>' + esc(z.ime) + '</h3></div>';
@@ -77,7 +74,7 @@
     e.preventDefault();
     active = a.getAttribute('data-k');
     drawContinents(); drawCountries();
-    document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    document.getElementById('kontinent').scrollIntoView({ behavior: 'smooth', block: 'start' });
     history.replaceState(null, '', '#k=' + encodeURIComponent(active));
   });
   drawContinents(); drawCountries();

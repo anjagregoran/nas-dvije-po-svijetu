@@ -1,5 +1,5 @@
 // Vodič radi i bez interneta: uvijek prvo pokušaj mrežu, a ako je nema, posluži spremljenu kopiju.
-var CACHE = 'ttm-v7';
+var CACHE = 'ttm-v9';
 var CORE = [
   './', 'index.html', 'putovanje.html', 'zemlja.html', 'trazi.html', 'js/trazi.js',
   'css/style.css', 'js/home.js', 'js/trip.js', 'js/zemlja.js', 'js/karta.js', 'js/restorani.js', 'js/putovanja.js', 'putovanja.html', 'data/moja-putovanja.js', 'data/koordinate.js',

@@ -4,6 +4,17 @@ window.ATLAS["tanzanija"] = {
   ime: "Tanzania",
   regija: "Sub-Saharan Africa",
   sazetak: "The endless plains of the Serengeti, the highest peak in Africa and a spice island, all in one country.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "National Geographic Education: Kilimanjaro", url: "https://education.nationalgeographic.org/resource/kilimanjaro" },
+    { ime: "Afar: How to Experience Stone Town, Zanzibar", url: "https://www.afar.com/magazine/how-to-experience-stone-town-zanzibar" },
+    { ime: "Afar: Night Market at Forodhani Gardens", url: "https://www.afar.com/places/night-market-at-forodhani-gardens-zanzibar" },
+    { ime: "Afar: Shanga, Arusha", url: "https://www.afar.com/places/shanga" },
+    { ime: "Migrationology: Chips Mayai", url: "https://migrationology.com/chips-mayai-french-fries-omelet-a-staple-of-tanzanian-junk-food" },
+    { ime: "Music In Africa: Sauti za Busara 2027 festival dates moved", url: "https://www.musicinafrica.net/node/391545" },
+    { ime: "Daily News Tanzania: Sauti za Busara names Mnazi Mmoja as its new venue", url: "https://dailynews.co.tz/sauti-za-busara-names-mnazi-mmoja-as-its-new-venue-2/" },
+    { ime: "Duma Explorer: New Mandatory Travel Insurance for Tanzania", url: "https://www.dumaexplorer.com/blog/tanzania-travel-insurance" },
+    { ime: "Mwani Zanzibar", url: "https://mwanizanzibar.com/" }
+  ] },
   uvod: [
     "Tanzania was created in 1964 by the union of mainland Tanganyika and the Zanzibar archipelago, and its very name is put together from those two words. On the mainland, Olduvai Gorge and Laetoli have preserved some of the oldest traces of human ancestors, while the coast was for more than a thousand years part of the trading world of the Indian Ocean, where Africans, Arabs, Persians and Indians met.",
     "At the end of the 19th century the mainland became a German colony, and after the First World War the British took it over. The first president, Julius Nyerere, who is called Mwalimu, meaning teacher, made Swahili the common language of more than 120 peoples, which brought the country an unusually peaceful coexistence. Almost a third of the country is protected as a park or reserve."
@@ -12,22 +23,22 @@ window.ATLAS["tanzanija"] = {
     { k: "When to go", v: "It is dry from June to October, which is the best time for a safari and for Zanzibar. From December to March the wildebeest calve in the southern Serengeti. The long rains fall in April and May." },
     { k: "Currency", v: "Tanzanian shilling (TZS). Safaris and park entrance fees are usually paid in US dollars or by card, while you need local cash for markets and tips." },
     { k: "Getting around", v: "In the north you travel by four-wheel-drive vehicle with a driver and guide from Arusha, and small planes fly to Zanzibar and the remote parts of the Serengeti. A fast ferry runs between Dar es Salaam and Zanzibar." },
-    { k: "Entry", v: "A visa is required, and you can apply for it electronically. Zanzibar also requires visitors to buy its own mandatory travel insurance, so check the current conditions before you travel." },
+    { k: "Entry", v: "A visa is required, and you can apply for it electronically. Since October 1, 2026, mainland Tanzania also requires foreign visitors to buy mandatory travel insurance, as Zanzibar has done since 2024. One policy is enough, bought for the part of the country where you enter first, so check the current conditions before you travel." },
     { k: "Tipping", v: "On safari and on a Kilimanjaro climb, tips for the guide, cook and porters are given at the end and are an essential part of their pay. In restaurants 10 percent is enough." }
   ],
   hrana: [
     { ime: "Ugali", opis: "A firm cornmeal porridge that is eaten with every main dish.", prica: "You tear off a piece with your right hand, shape it into a ball and use it to scoop up a sauce of meat, fish or vegetables. Tanzanians will tell you that without ugali they have not really eaten." },
     { ime: "Nyama choma", opis: "Grilled meat, most often goat or beef.", prica: "It is ordered by weight and eaten in company, with a tomato and onion salad and the hot sauce pili pili. A Saturday afternoon with grilled meat and beer is a favorite way of going out." },
-    { ime: "Chipsi mayai", opis: "An omelet with french fries mixed in.", prica: "It is the country's best-loved street food, cooked in a small pan over charcoal and served with ketchup and coleslaw. You will find it at every bus station." },
+    { ime: "Chipsi mayai", opis: "An omelet with french fries mixed in.", prica: "It is the country's best-loved street food, cooked in a pan over the fire and served with kachumbari, a salad of tomato and onion, and a mild tomato chili sauce. You will find it at every bus station." },
     { ime: "Pilau", opis: "Rice cooked in stock with cloves, cinnamon, cardamom and cumin.", prica: "It is a dish of the Swahili coast and a must at weddings and on holidays. The spices grow right on Zanzibar, which in the 19th century was the world's largest producer of cloves." },
     { ime: "Zanzibar pizza", opis: "Thinly stretched dough folded around a filling of meat, egg, cheese and vegetables and then cooked on a griddle.", prica: "It has nothing in common with Italian pizza and is closer to a stuffed crepe. There is also a sweet version with banana and chocolate, and it is eaten in the evening in the Forodhani Gardens." },
-    { ime: "Urojo", opis: "A yellow, tangy soup of mango and turmeric with fritters, potato and crispy noodles.", prica: "On Zanzibar it is also called Zanzibar mix, and it comes from Indian street cooking. Every vendor puts it together in their own way, so the taste is never the same." },
+    { ime: "Urojo", opis: "A yellow, tangy soup soured with mango or tamarind and colored with turmeric, served with fritters, potato and crispy noodles.", prica: "On Zanzibar it is also called Zanzibar mix, and it is most often traced to the island's Indian community. Every vendor puts it together in their own way, so the taste is never the same." },
     { ime: "Mishkaki", opis: "Skewers of marinated beef grilled over charcoal.", prica: "The meat rests in ginger, garlic and lime, and the skewers are sold by the piece on the street as soon as darkness falls." },
-    { ime: "Mandazi", opis: "Triangular fried dough with coconut milk and cardamom, less sweet than a doughnut.", prica: "It is eaten for breakfast with sweet spiced tea. On the coast it is also called mahamri." },
+    { ime: "Mandazi", opis: "Triangular fried dough with coconut milk and cardamom, less sweet than a doughnut.", prica: "It is eaten for breakfast with sweet spiced tea. On the Swahili coast the version made with coconut milk and cardamom usually goes by the name mahamri." },
     { ime: "Kilimanjaro coffee", opis: "Arabica grown on the slopes of the mountain by the Chagga people.", prica: "Coffee was brought here by missionaries at the end of the 19th century, and the Chagga planted it in the shade of banana trees. On Zanzibar, meanwhile, people drink strong spiced coffee from brass pots, with a small piece of peanut brittle." }
   ],
   obicaji: [
-    { ime: "Taarab", opis: "The music of Zanzibar, in which Arabic scales, Indian melodies and African rhythms come together with Swahili lyrics. It is played by orchestras with violins, the oud lute and the qanun zither, and the most celebrated singer was Siti binti Saad, who in 1928 became the first person in East Africa to record an album.", gdje: "The Dhow Countries Music Academy in Stone Town puts on concerts and offers lessons." },
+    { ime: "Taarab", opis: "The music of Zanzibar, in which Arabic scales, Indian melodies and African rhythms come together with Swahili lyrics. It is played by orchestras with violins, the oud lute and the qanun zither, and the most celebrated singer was Siti binti Saad, who in 1928 traveled to Bombay and became the first East African singer to make commercial records.", gdje: "The Dhow Countries Music Academy in Stone Town puts on concerts and offers lessons." },
     { ime: "Tingatinga", opis: "This painting style of bright colors and stylized animals is named after Edward Saidi Tingatinga, who began painting with bicycle enamel on hardboard panels in Dar es Salaam in the 1960s. Today a whole cooperative of painters carries it on.", gdje: "The Tingatinga cooperative in Dar es Salaam and galleries in Stone Town and Arusha." },
     { ime: "Kanga", opis: "A cotton cloth with a border and a Swahili saying in the middle, which women wear wrapped around the waist or over the head. The saying is chosen with care, because it can be used to congratulate, to warn or to tell someone what is not said out loud.", gdje: "Darajani Market in Stone Town; ask the vendor to translate the inscription for you before you buy." },
     { ime: "Swahili time", opis: "In Swahili the day is counted from sunrise, so seven in the morning is “the first hour” and noon is “the sixth hour”. Since the country is close to the equator, the sun rises and sets at almost the same time all year round.", gdje: "When making arrangements with a driver or guide, always check whether they mean Swahili time or international time." },
@@ -104,7 +115,7 @@ window.ATLAS["tanzanija"] = {
         { ime: "Olduvai Gorge", opis: "On the way to the Serengeti lies the gorge in whose layers Mary and Louis Leakey searched for fossils for decades. In 1959 Mary found a skull about 1.75 million years old, nicknamed Nutcracker Man because of its powerful teeth. The museum also has a cast of the Laetoli footprints." }
       ],
       jesti: [
-        { ime: "Lunch by the hippo pool", opis: "You eat from a lunch box at the only picnic site on the crater floor. Keep your food in the vehicle, because black kites snatch it from your hands in flight." },
+        { ime: "Lunch by the hippo pool", opis: "You eat from a lunch box at the Ngoitokitok picnic site on the crater floor, beside a pool full of hippos. Keep your food in the vehicle, because black kites snatch it from your hands in flight." },
         { ime: "Coffee from the farms around Karatu", opis: "Arabica is grown on the slopes below the crater, and the farms offer tours from bush to cup." }
       ],
       dozivjeti: [
@@ -124,7 +135,7 @@ window.ATLAS["tanzanija"] = {
       vrsta: "priroda",
       sazetak: "The highest mountain in Africa, whose summit you can reach without mountaineering equipment.",
       prica: [
-        "Kilimanjaro is an extinct volcano with three peaks: Shira, Mawenzi and the highest, Kibo, on whose rim stands Uhuru Peak at 5,895 meters. It is the tallest freestanding mountain in the world, because it rises alone from the plain and belongs to no range.",
+        "Kilimanjaro is a volcano with three cones: Shira and Mawenzi are extinct, while the highest, Kibo, on whose rim stands Uhuru Peak at 5,895 meters, is only dormant. It is the tallest freestanding mountain in the world, because it rises alone from the plain and belongs to no range.",
         "The first to reach the summit, in 1889, were the German geographer Hans Meyer and the Austrian mountaineer Ludwig Purtscheller, guided by a young Chagga man, Yohani Kinyala Lauwo. In 1961, on independence day, the peak was named Uhuru, which means freedom. The glaciers at the top are shrinking rapidly and have lost most of their area over the past hundred years."
       ],
       vidjeti: [
@@ -163,7 +174,7 @@ window.ATLAS["tanzanija"] = {
         { ime: "Carved doors", opis: "Several hundred old doors survive in the town, and they were made before the house itself and displayed the owner's wealth. The Arab ones are rectangular, with inscriptions from the Quran, while the Indian ones have a semicircular lintel and brass spikes, adopted from India, where they defended doors against war elephants." },
         { ime: "Anglican Cathedral and the slave memorial", opis: "The cathedral was built in the 1870s on the exact site of the slave market, and the altar stands where the whipping post once was. In the basement of the neighboring building you can see the low cells where people waited to be sold, and in the courtyard is a sculpture of slaves in a pit with original chains." },
         { ime: "House of Wonders", opis: "In 1883 Sultan Barghash built the palace Beit al-Ajaib, the first building on the island with electric lighting and an elevator, hence the name. Part of the building collapsed in 2020 and the restoration is still under way, so you can see it only from the outside." },
-        { ime: "Old Fort", opis: "The Omanis built it around 1700 after driving out the Portuguese, and they did so on the foundations of the Portuguese chapel. Today the courtyard holds stalls and a stage where festivals take place." },
+        { ime: "Old Fort", opis: "The Omanis built it around 1700 after driving out the Portuguese, and they did so on the foundations of the Portuguese chapel. Today the courtyard holds craft stalls and an open-air stage, and in 2026 the fort was being renovated." },
         { ime: "Darajani Market", opis: "The town's main market has been operating since 1904. One hall has fish and octopus from the morning auction, another has heaps of cloves, cinnamon, vanilla and nutmeg." },
         { ime: "Freddie Mercury Museum", opis: "The house where the Bulsara family lived displays childhood photographs and tells the story of Zanzibar's Parsi community, to which the singer belonged.", }
       ],
@@ -175,8 +186,8 @@ window.ATLAS["tanzanija"] = {
       dozivjeti: [
         { ime: "Spice farm tour", opis: "The guide hands you a piece of bark, a leaf or a root to smell and lets you guess which spice it is. You will see that cinnamon grows as bark and nutmeg inside a red net." },
         { ime: "A taarab concert", opis: "The music academy in Stone Town regularly puts on taarab evenings and offers short drumming workshops.", link: "https://www.zanzibarmusic.org/" },
-        { ime: "Sauti za Busara", opis: "One of the best-known festivals of African music takes place in February in the Old Fort.", link: "https://busaramusic.org/" },
-        { ime: "Changuu Island", opis: "Twenty minutes by boat from the town live giant Aldabra tortoises, descendants of those given as a gift from the Seychelles in 1919. The oldest are more than a hundred years old." }
+        { ime: "Sauti za Busara", opis: "One of the best-known festivals of African music takes place in Stone Town every year, usually in February, although the 2027 edition is announced for March 19 to 21. After more than twenty years in the Old Fort, the festival moved in 2026 to the Mnazi Mmoja grounds, so check the official website for the current venue.", link: "https://busaramusic.org/" },
+        { ime: "Changuu Island", opis: "About half an hour by boat from the town live giant Aldabra tortoises, descendants of those given as a gift from the Seychelles in 1919. The oldest are more than a hundred years old." }
       ],
       agencije: [
         { ime: "Tanzania Tourist Board", opis: "Tanzania's official tourism board, with information on Zanzibar as well.", link: "https://tanzaniatourism.go.tz/" },
@@ -207,8 +218,8 @@ window.ATLAS["tanzanija"] = {
         { ime: "Fruit from Zanzibar", opis: "Try the red jackfruit, star fruit and the small sweet bananas that are sold by the roadside." }
       ],
       dozivjeti: [
-        { ime: "Workshop with the seaweed farmers", opis: "In Paje a women's cooperative shows how seaweed is planted and dried and how soaps are made from it. You will also find out why the warming of the sea is threatening their livelihood." },
-        { ime: "Mwaka Kogwa", opis: "In the village of Makunduchi the Persian New Year is celebrated in July: the men ritually beat each other with banana stalks to drive out all the old grudges, and then a hut is set on fire and a feast follows." },
+        { ime: "Workshop with the seaweed farmers", opis: "In Paje the Mwani Zanzibar center, which works with the local women who farm seaweed, shows how it is planted and dried and how soaps are made from it. You will also find out why the warming of the sea is threatening their livelihood." },
+        { ime: "Mwaka Kogwa", opis: "In the village of Makunduchi the Shirazi New Year, a custom of Persian origin, is celebrated in the second half of July: the men ritually beat each other with banana stalks to drive out all the old grudges, and then a hut is set on fire and a feast follows." },
         { ime: "Sunset in Kendwa", opis: "The west coast is the only one that faces the sunset over the sea, and that is when the sailboats come back from fishing." }
       ],
       agencije: [

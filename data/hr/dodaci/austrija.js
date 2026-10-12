@@ -1,9 +1,9 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["austrija"] = {
   kupiti: [
-    { ime: "Bučino ulje", opis: "Ovo tamnozeleno ulje prešano od prženih bučinih koštica ponos je Štajerske i ima zaštićeno podrijetlo. Kupite ga na seljačkim tržnicama u Grazu ili izravno na nekom gospodarstvu, a kod kuće ga kušajte preko sladoleda od vanilije." },
+    { ime: "Bučino ulje", opis: "Ovo tamnozeleno ulje prešano od prženih bučinih koštica ponos je Štajerske i nosi europsku zaštićenu oznaku zemljopisnog podrijetla. Kupite ga na seljačkim tržnicama u Grazu ili izravno na nekom gospodarstvu, a kod kuće ga kušajte preko sladoleda od vanilije." },
     { ime: "Marelice iz Wachaua", opis: "Dolina Wachau slavna je po marelicama od kojih se rade džem, nektar, liker i rakija. Najbolje ih je kupiti na štandovima i gospodarstvima uz Dunav koji nose oznaku „Wachauer Marille“." },
-    { ime: "Prava Mozartkugel", opis: "Mozartkugel je izmislio salzburški slastičar Paul Fürst, a njegova ih obitelj i danas izrađuje ručno i zamata u srebrno-plavu foliju. Prodaju se samo u obiteljskim trgovinama u Salzburgu, dok su one u crveno-zlatnom omotu tvorničke." },
+    { ime: "Prava Mozartkugel", opis: "Mozartkugel je izmislio salzburški slastičar Paul Fürst, a njegova ih obitelj i danas izrađuje ručno i zamata u srebrno-plavu foliju. Prodaju se samo u obiteljskim trgovinama u Salzburgu i u njihovoj internetskoj trgovini, dok su one u crveno-zlatnom omotu tvorničke." },
     { ime: "Loden i valjana vuna", opis: "Loden, gusta vunena tkanina koja ne propušta vodu, i papuče od valjane vune dolaze iz alpskih dolina i traju desetljećima. Potražite ih u trgovinama narodnim nošnjama, s etiketom na kojoj piše da su izrađeni u Austriji." },
     { ime: "Limba", opis: "Drvo alpskog bora limbe, koji ovdje zovu Zirbe, ima umirujući smolasti miris, pa se od njega rade jastuci punjeni strugotinama, kutije za kruh i crvenkasta rakija Zirbenschnaps. Najviše ćete toga naći u Tirolu i Koruškoj, na tržnicama i u seoskim trgovinama." },
     { ime: "Keramika iz Gmundena", opis: "Posuđe sa zelenim vijugavim prugama na bijeloj podlozi oslikava se ručno u Gmundenu na jezeru Traunsee i nalazi se u gotovo svakoj austrijskoj kuhinji. Imaju ga trgovine kućanskim potrepštinama diljem zemlje, a izbor je najveći u Salzkammergutu." }
@@ -12,7 +12,7 @@ window.DODACI["austrija"] = {
     "bec": {
       dragulji: [
         { ime: "Servitenviertel i Strudlhofstiege", opis: "Oko servitske crkve u devetom okrugu leži mala četvrt kaldrme, drveća i kafića koja pomalo podsjeća na Pariz. U blizini je secesijsko stubište Strudlhofstiege sa svojim fontanama i svjetiljkama, najljepše predvečer." },
-        { ime: "Karmelitermarkt", opis: "Ova mala tržnica u drugom okrugu, u staroj židovskoj četvrti, mnogo je mirnija od Naschmarkta. Subotom dolaze seljaci iz okolice, a ljudi se do podneva zadržavaju na doručku među štandovima." },
+        { ime: "Karmelitermarkt", opis: "Ova mala tržnica u drugom okrugu, u staroj židovskoj četvrti, mnogo je mirnija od Naschmarkta. Petkom i subotom dolaze seljaci iz okolice, a ljudi se do podneva zadržavaju na doručku među štandovima." },
         { ime: "Setagayapark", opis: "U otmjenom Döblingu skriva se mali japanski vrt s jezercem, slapom i čajnom kućicom, dar koji je Beč dobio od jedne tokijske četvrti. Najljepši je u proljeće, kad cvjetaju trešnje, i u jesen, kad javori pocrvene." }
       ],
       domaci: [
@@ -84,10 +84,10 @@ window.DODACI["austrija"] = {
       domaci: [
         { ime: "Seljačka tržnica ujutro", opis: "Na Kaiser-Josef-Platzu i Lendplatzu seljaci iz okolice svako jutro osim nedjelje prodaju povrće, cvijeće, bučino ulje i jaja. Nakon kupovine mještani na štandu popiju čašu vina ili kavu, pa im se pridružite." },
         { ime: "Zalogaj u Buschenschanku", opis: "Vikendom se iz Graza odlazi u vinorodne brežuljke južne Štajerske, gdje vinari poslužuju samo vlastito vino i hladnu platu na dasci. Sjedi se na terasi s pogledom na vinograde, u krajoliku koji često zovu štajerskom Toskanom." },
-        { ime: "Sturm i kesteni u jesen", opis: "U rujnu i listopadu cijeli grad toči Sturm, mutni mladi mošt koji još vrije, a uz njega se jedu pečeni kesteni. Kucnite se i recite „Mahlzeit“ umjesto „Prost“, jer to još nije vino." }
+        { ime: "Sturm i kesteni u jesen", opis: "U rujnu i listopadu cijeli grad toči Sturm, mutni mladi mošt koji još vrije, a uz njega se jedu pečeni kesteni. Podignite čašu bez kucanja i recite „Mahlzeit“ umjesto „Prost“, jer to još nije vino." }
       ],
       kupiti: [
-        { ime: "Štajersko bučino ulje", opis: "Graz je najbolje mjesto za kupnju bučinog ulja, i to na seljačkim tržnicama, gdje ga prodaju obitelji koje ga same prešaju. Potražite oznaku zaštićenog podrijetla i uzmite manju bocu, jer je najbolje dok je svježe." },
+        { ime: "Štajersko bučino ulje", opis: "Graz je najbolje mjesto za kupnju bučinog ulja, i to na seljačkim tržnicama, gdje ga prodaju obitelji koje ga same prešaju. Potražite na boci zaštićenu oznaku zemljopisnog podrijetla i uzmite manju bocu, jer je najbolje dok je svježe." },
         { ime: "Käferbohnen", opis: "Ovaj krupni šareni grah tipičan je za Štajersku, a jede se kao salata s lukom i bučinim uljem. Na tržnici se prodaje suh ili već kuhan u staklenkama." },
         { ime: "Štajersko vino", opis: "Južna Štajerska poznata je po aromatičnom sauvignonu, a zapadna po ružičastom, trpkom Schilcheru. Kupite ih u gradskim vinotekama ili ih donesite s izleta, ravno od vinara." }
       ]
@@ -101,7 +101,7 @@ window.DODACI["austrija"] = {
       domaci: [
         { ime: "Večer u Heurigeru", opis: "Vinari naizmjence otvaraju svoja dvorišta na nekoliko tjedana, a za onoga tko je otvoren kaže se da je „ausg'steckt“. Raspored visi na ploči u svakom selu, a uz svoj zeleni veltlinac ili rizling naručite hladnu platu." },
         { ime: "Biciklom i skelom", opis: "Ravna biciklistička staza prati obje obale Dunava, a male skele prevoze vas s jedne strane na drugu, primjerice kod Spitza i Weißenkirchena. Iznajmite bicikl u Kremsu ili Melku i vozite se od podruma do podruma." },
-        { ime: "Knedle s marelicama", opis: "U sezoni marelica početkom ljeta svaka gostionica u dolini kuha Marillenknödel, knedle od tijesta sa svježim sirom uvaljane u mrvice pržene na maslacu. Jedu se kao glavno jelo, pa neka vas ne iznenadi veličina porcije." }
+        { ime: "Knedle s marelicama", opis: "U sezoni marelica u srpnju svaka gostionica u dolini kuha Marillenknödel, knedle od tijesta sa svježim sirom uvaljane u mrvice pržene na maslacu. Jedu se kao glavno jelo, pa neka vas ne iznenadi veličina porcije." }
       ],
       kupiti: [
         { ime: "Džem i rakija od marelica", opis: "Marelice iz Wachaua imaju zaštićeno podrijetlo i puniji okus od onih iz trgovine. Džem, nektar ili rakiju kupite na štandovima uz cestu i kod obitelji koje imaju voćnjake." },
@@ -115,7 +115,7 @@ window.DODACI["austrija"] = {
         { ime: "Heiligenblut", opis: "Na koruškom kraju visokoalpske ceste smjestilo se selo s vitkim gotičkim tornjem, iza kojeg se za vedrog dana uzdiže vrh Grossglocknera. Zastanite ovdje prije nego što krenete natrag." }
       ],
       domaci: [
-        { ime: "Večernji krug oko jezera", opis: "Ravna staza duga oko deset kilometara obilazi jezero Zeller See, a mještani njome šeću, trče i voze bicikl. Ako vam je cijeli krug previše, prohodajte dio i vratite se brodom." },
+        { ime: "Večernji krug oko jezera", opis: "Ravna staza duga oko jedanaest kilometara obilazi jezero Zeller See, a mještani njome šeću, trče i voze bicikl. Ako vam je cijeli krug previše, prohodajte dio i vratite se brodom." },
         { ime: "Kupanje u jezeru", opis: "Jezero ima nekoliko kupališta s travnjacima, a voda je toliko čista da se vidi dno. Ljeti mještani dolaze na kupanje nakon posla i pritom gledaju snijeg na vrhovima." },
         { ime: "Kasnocken u planinskoj kolibi", opis: "Ovi pinzgauski njoki s jakim sirom i prženim lukom stižu na stol u vrućoj željeznoj tavi iz koje svi jedu zajedno. Naručite ih u kolibi na Schmittenhöheu ili u dolini Fusch." }
       ],
@@ -137,7 +137,7 @@ window.DODACI["austrija"] = {
       ],
       kupiti: [
         { ime: "Reindling", opis: "Ovaj koruški kolač od dizanog tijesta s cimetom, šećerom i grožđicama peče se u okruglom kalupu i jede za Uskrs, čak i uz šunku. Kupite ga u pekarnici ili na tržnici i ponesite kući cijelog." },
-        { ime: "Koruški Speck i med", opis: "Na Benediktinermarktu naći ćete na zraku sušeni Speck iz doline Gailtal, koji ima zaštićeno podrijetlo, i šumski med kranjskih pčela. Prodavači će vam rado dati da kušate prije kupnje." }
+        { ime: "Koruški Speck i med", opis: "Na Benediktinermarktu naći ćete na zraku sušeni Speck iz doline Gailtal, koji nosi zaštićenu oznaku zemljopisnog podrijetla, i šumski med kranjskih pčela. Prodavači će vam rado dati da kušate prije kupnje." }
       ]
     }
   }

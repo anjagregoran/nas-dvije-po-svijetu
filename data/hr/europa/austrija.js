@@ -4,6 +4,18 @@ window.ATLAS["austrija"] = {
   ime: "Austrija",
   regija: "Srednja Europa",
   sazetak: "Carski gradovi, glazba koja se čuje iz svake crkve i kavane te Alpe na dohvat ruke, a sve to nekoliko sati vožnje od Zagreba.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Dachstein Salzkammergut, Hallstatt Skywalk", url: "https://www.salzkammergut.at/en/oesterreich-poi/detail/430011864/hallstatt-skywalk-the-world-heritage-view.html" },
+    { ime: "Dachstein Salzkammergut, Bone House in St. Michael's Chapel", url: "https://www.salzkammergut.at/en/oesterreich-poi/detail/400341/bone-house-ossuary-in-the-st-michaels-chapel.html" },
+    { ime: "Wien Tourismus, Karmeliterviertel", url: "https://www.wien.info/en/dine-drink/markets/karmeliter-district-349606" },
+    { ime: "Tourismus Salzburg, Schrannenmarkt", url: "https://salzburg.info/en/dining-shopping/markets/schrannenmarkt" },
+    { ime: "Rick Steves, Salzburg", url: "https://www.ricksteves.com/europe/austria/salzburg" },
+    { ime: "Steiermark Tourismus, Farmers markets in Graz", url: "https://www.steiermark.com/en/Region-Graz/Region/Enjoyment/Culinary-delights/Farmers-markets" },
+    { ime: "The Local Austria, Sturm", url: "https://www.thelocal.at/20230918/sturm-why-you-should-try-austrias-traditional-autumn-drink" },
+    { ime: "Visit Klagenfurt, Markets", url: "https://www.visitklagenfurt.at/en/food-drink/markets/" },
+    { ime: "Discover Innsbruck, Tram line 6 Waldbahn", url: "https://www.discover-innsbruck.at/en/strasenbahn-linie-6/" },
+    { ime: "Wiener Riesenrad", url: "https://www.wienerriesenrad.com/en/" }
+  ] },
   uvod: [
     "Austrija je mala zemlja s golemom prošlošću, jer je iz Beča više od šest stoljeća, sve do 1918., dinastija Habsburg upravljala jednim od najvećih europskih carstava. Od toga su vremena ostale palače, opere, muzeji prepuni blaga i navika da se u kavani uz jednu šalicu kave sjedi satima. Dvije trećine zemlje prekrivaju Alpe, pa se od baroknog grada do ledenjaka ili jezera često stiže za sat ili dva.",
     "Hrvatskoj je Austrija bliža nego ijedna druga zemlja na ovom popisu. Hrvatski su staleži 1. siječnja 1527. u Cetinu izabrali Ferdinanda Habsburškog za kralja i otada su Hrvati gotovo četiri stoljeća dijelili sudbinu s Bečom: ondje su se školovali, služili vojsku, objavljivali knjige i tražili svoja prava. Zato će vam mnogo toga biti poznato, od žutih pročelja i kolodvora do riječi kao što su šnicla, štrudla i fijaker.",
@@ -18,11 +30,11 @@ window.ATLAS["austrija"] = {
   hrana: [
     { ime: "Wiener Schnitzel", opis: "Tanko istučen teleći odrezak, paniran i pržen na masti ili maslacu dok se korica ne napuhne.", prica: "Pravi bečki odrezak mora biti od teletine, a ako je od svinjetine, na jelovniku piše „Schnitzel Wiener Art“. Priča da ga je iz Milana donio maršal Radetzky danas se smatra legendom. Poslužuje se s kriškom limuna i krumpir-salatom, nikada s umakom." },
     { ime: "Tafelspitz", opis: "Kuhana govedina od vrha buta, poslužena u juhi s povrćem.", prica: "Bilo je to omiljeno jelo cara Franje Josipa, koji ga je jeo gotovo svakodnevno. Prvo se pojede juha, a zatim meso s umakom od jabuka i hrena te umakom od vlasca." },
-    { ime: "Sachertorte", opis: "Čokoladna torta s tankim slojem pekmeza od marelica i tamnom glazurom.", prica: "Prema predaji ju je 1832. smislio šesnaestogodišnji naučnik Franz Sacher, kada se glavni kuhar kneza Metternicha razbolio. Hotel Sacher i slastičarnica Demel godinama su se sudili oko toga tko smije prodavati „originalnu“, pa je kod jednih pekmez u sredini, a kod drugih pod glazurom. Jede se uz nezaslađeno tučeno vrhnje." },
+    { ime: "Sachertorte", opis: "Čokoladna torta s tankim slojem pekmeza od marelica i tamnom glazurom.", prica: "Prema predaji ju je 1832. smislio šesnaestogodišnji naučnik Franz Sacher, kada se glavni kuhar kneza Metternicha razbolio. Hotel Sacher i slastičarnica Demel godinama su se sudili oko toga tko smije prodavati „originalnu“, pa se dvije torte po tradiciji razlikuju: Sacherova ima još jedan sloj pekmeza u sredini, a Demelova samo onaj pod glazurom. Jede se uz nezaslađeno tučeno vrhnje." },
     { ime: "Apfelstrudel", opis: "Savijača od jabuka u tijestu razvučenom tako tanko da se kroz njega mogu čitati novine.", prica: "Najstariji poznati rukopisni recept za štrudlu potječe iz 1696. i čuva se u Bečkoj knjižnici. Tehnika vučenog tijesta stigla je s Istoka preko Ugarske, što lijepo pokazuje kako se u bečkoj kuhinji sastalo cijelo carstvo." },
     { ime: "Kaiserschmarrn", opis: "Debela palačinka natrgana na komade, karamelizirana i posuta šećerom u prahu, uz kompot od šljiva.", prica: "Ime znači „carski drobljenac“, a o nastanku postoji više legendi povezanih s carem Franjom Josipom i caricom Elizabetom. U planinskim kolibama jede se kao glavno jelo i jedna je porcija često dovoljna za dvoje." },
     { ime: "Knödel", opis: "Okruglice od kruha, krumpira ili sira, slane kao prilog ili slatke s marelicom.", prica: "Slane okruglice sa špekom dolaze iz Tirola, a slatke Marillenknödel iz doline Wachau, gdje rastu najbolje marelice. Kažu da se okruglica ne reže nožem, jer se time vrijeđa kuharica." },
-    { ime: "Kürbiskernöl", opis: "Gusto tamnozeleno ulje od prženih bučinih koštica iz Štajerske.", prica: "Zovu ga „zelenim zlatom“ i zaštićeno je oznakom podrijetla. Njime se preljeva salata od krumpira ili graha, bučina juha, pa čak i sladoled od vanilije." },
+    { ime: "Kürbiskernöl", opis: "Gusto tamnozeleno ulje od prženih bučinih koštica iz Štajerske.", prica: "Zovu ga „zelenim zlatom“ i nosi europsku zaštićenu oznaku zemljopisnog podrijetla. Njime se preljeva salata od krumpira ili graha, bučina juha, pa čak i sladoled od vanilije." },
     { ime: "Wiener Melange", opis: "Kava s toplim mlijekom i mliječnom pjenom, bečka inačica kapučina.", prica: "U bečkoj kavani kava uvijek stiže na srebrnom pladnju s čašom vode, a žličica je položena preko čaše. Uz jednu šalicu smijete sjediti i čitati novine satima, a da vas nitko ne požuruje." },
     { ime: "Grüner Veltliner", opis: "Svježe, papreno bijelo vino, najvažnija austrijska sorta.", prica: "Najbolje se upoznaje u vinskim kućama zvanima Heuriger, u kojima vinari toče mlado vino iz vlastitog podruma. Beč je jedina svjetska metropola sa znatnim vinogradima unutar gradskih granica." }
   ],
@@ -52,7 +64,7 @@ window.ATLAS["austrija"] = {
     "Snježnu kuglu izumio je oko 1900. bečki mehaničar Erwin Perzy, pokušavajući pojačati svjetlost kirurške svjetiljke, a njegova ih obitelj i danas izrađuje u Beču.",
     "Bombone PEZ smislio je 1927. Bečanin Eduard Haas kao zamjenu za cigarete, a ime im je skraćenica njemačke riječi za paprenu metvicu, Pfefferminz.",
     "Karlovac je 1579. utemeljio nadvojvoda Karlo II. Štajerski, koji je stolovao u Grazu, pa grad na četiri rijeke nosi njegovo ime.",
-    "Divovski kotač u bečkom Prateru vrti se od 1897., a jedan krug u njegovim drvenim kabinama traje desetak minuta."
+    "Divovski kotač u bečkom Prateru vrti se od 1897., a vožnja u njegovim drvenim kabinama traje otprilike četvrt sata."
   ],
   mjesta: [
     {
@@ -80,7 +92,7 @@ window.ATLAS["austrija"] = {
       ],
       dozivjeti: [
         { ime: "Jutarnji trening lipicanaca", opis: "U Španjolskoj školi jahanja, u baroknoj dvorani Hofburga, bijeli pastusi vježbaju uz klasičnu glazbu. Karta za jutarnji trening jeftinija je od predstave, a pokazuje kako konji i jahači doista rade.", link: "https://www.srs.at/en/" },
-        { ime: "Večer u Državnoj operi", opis: "Kuća otvorena 1869. svake večeri igra drugi naslov. Ako su vam redovne karte preskupe, na dan izvedbe prodaju se vrlo jeftina stajaća mjesta, a zgrada se može vidjeti i u obilasku s vodičem.", link: "https://www.wiener-staatsoper.at/en/" },
+        { ime: "Večer u Državnoj operi", opis: "Kuća otvorena 1869. svake večeri igra drugi naslov. Ako su vam redovne karte preskupe, na dan izvedbe prodaju se povoljna stajaća mjesta, a zgrada se može vidjeti i u obilasku s vodičem.", link: "https://www.wiener-staatsoper.at/en/" },
         { ime: "Schönbrunn i njegovi vrtovi", opis: "Karte za unutrašnjost izdaju se za točno vrijeme, pa ih kupite unaprijed na službenoj stranici. Park je besplatan i otvoren od ranog jutra.", link: "https://www.schoenbrunn.at/en/" },
         { ime: "Tržnica Naschmarkt i četvrt Spittelberg", opis: "Na najvećoj gradskoj tržnici kušajte sireve, masline i slastice, a zatim prošećite do uličica Spittelberga. Taj se kraj u narodu nekoć zvao Krowotendörfel, „hrvatsko seoce“, iako se povjesničari ne slažu o tome tko su točno bili doseljenici." }
       ],
@@ -130,8 +142,8 @@ window.ATLAS["austrija"] = {
       ],
       vidjeti: [
         { ime: "Rudnik soli Salzwelten", opis: "Uspinjača vodi do visoke doline u kojoj je ulaz u najstariji rudnik soli na svijetu. Rudarskim toboganima spuštate se u dubinu, gdje su pronađene drvene stube stare više od tri tisuće godina, najstarije sačuvane u Europi." },
-        { ime: "Kosturnica", opis: "U kapeli sv. Mihaela složeno je oko 1200 lubanja, od kojih je više od šesto oslikano vijencima, ružama i imenima pokojnika. Groblje je bilo premalo, pa su se kosti nakon desetak godina vadile da bi se oslobodilo mjesto. Posljednja lubanja dodana je 1995." },
-        { ime: "Vidikovac Skywalk", opis: "Platforma strši iznad ponora 350 metara nad krovovima mjesta, a s nje se vide jezero i planine. Do nje se stiže istom uspinjačom kojom se ide u rudnik." },
+        { ime: "Kosturnica", opis: "U kapeli sv. Mihaela složeno je oko 1200 lubanja, od kojih je više od šesto oslikano vijencima, ružama i imenima pokojnika. Groblje je bilo premalo, pa su se kosti nakon deset do petnaest godina vadile da bi se oslobodilo mjesto. Posljednja lubanja dodana je 1995." },
+        { ime: "Vidikovac Skywalk", opis: "Platforma strši iznad ponora 360 metara nad krovovima mjesta, a s nje se vide jezero i planine. Do nje se stiže istom uspinjačom kojom se ide u rudnik." },
         { ime: "Trg Marktplatz", opis: "Mali trg sa zdencem okružen je šarenim kućama, obnovljenima nakon požara 1750. Mjesto je toliko skučeno da se povorka za Tijelovo ovdje tradicionalno održava na čamcima po jezeru." },
         { ime: "Ledene špilje Dachsteina", opis: "U susjednom Obertraunu žičara vodi do špilja s ledenim stupovima i zavjesama te do vidikovca 5 Fingers, čijih pet metalnih prstiju strši nad provalijom." }
       ],
@@ -197,7 +209,7 @@ window.ATLAS["austrija"] = {
       jesti: [
         { ime: "Salata s bučinim uljem", opis: "Salata od velikog šarenog graha Käferbohnen, luka i bučina ulja jede se kao predjelo u svakoj štajerskoj gostionici." },
         { ime: "Steirisches Backhendl", opis: "Pohana piletina, hrskava i sočna, poslužena na salati prelivenoj bučinim uljem." },
-        { ime: "Schilcher", opis: "Oštro ružičasto vino od sorte blauer wildbacher, koje raste samo u zapadnoj Štajerskoj." }
+        { ime: "Schilcher", opis: "Oštro ružičasto vino od sorte blauer wildbacher, koja se uzgaja gotovo isključivo u zapadnoj Štajerskoj." }
       ],
       dozivjeti: [
         { ime: "Zemaljska oružarnica", opis: "Četiri kata oklopa, kopalja i mušketa najbolje je vidjeti s vodičem, koji će vam pokazati kako se oklop nosio i koliko je bio težak.", link: "https://www.museum-joanneum.at/en/styrian-armoury" },

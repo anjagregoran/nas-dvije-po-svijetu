@@ -4,6 +4,18 @@ window.ATLAS["austrija"] = {
   ime: "Austria",
   regija: "Central Europe",
   sazetak: "Imperial cities, music drifting out of every church and coffeehouse, and the Alps within easy reach, all of it just a few hours' drive from Zagreb.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Dachstein Salzkammergut, Hallstatt Skywalk", url: "https://www.salzkammergut.at/en/oesterreich-poi/detail/430011864/hallstatt-skywalk-the-world-heritage-view.html" },
+    { ime: "Dachstein Salzkammergut, Bone House in St. Michael's Chapel", url: "https://www.salzkammergut.at/en/oesterreich-poi/detail/400341/bone-house-ossuary-in-the-st-michaels-chapel.html" },
+    { ime: "Wien Tourismus, Karmeliterviertel", url: "https://www.wien.info/en/dine-drink/markets/karmeliter-district-349606" },
+    { ime: "Tourismus Salzburg, Schrannenmarkt", url: "https://salzburg.info/en/dining-shopping/markets/schrannenmarkt" },
+    { ime: "Rick Steves, Salzburg", url: "https://www.ricksteves.com/europe/austria/salzburg" },
+    { ime: "Steiermark Tourismus, Farmers markets in Graz", url: "https://www.steiermark.com/en/Region-Graz/Region/Enjoyment/Culinary-delights/Farmers-markets" },
+    { ime: "The Local Austria, Sturm", url: "https://www.thelocal.at/20230918/sturm-why-you-should-try-austrias-traditional-autumn-drink" },
+    { ime: "Visit Klagenfurt, Markets", url: "https://www.visitklagenfurt.at/en/food-drink/markets/" },
+    { ime: "Discover Innsbruck, Tram line 6 Waldbahn", url: "https://www.discover-innsbruck.at/en/strasenbahn-linie-6/" },
+    { ime: "Wiener Riesenrad", url: "https://www.wienerriesenrad.com/en/" }
+  ] },
   uvod: [
     "Austria is a small country with an enormous past, because for more than six centuries, right up to 1918, the Habsburg dynasty ruled one of the largest empires in Europe from Vienna. What remains from those days are the palaces, the opera houses, the museums full of treasures and the habit of sitting in a coffeehouse for hours over a single cup. The Alps cover two thirds of the country, so you can often get from a Baroque city to a glacier or a lake in an hour or two.",
     "Austria is closer to Croatia than any other country on this list. On January 1, 1527, the Croatian estates meeting at Cetin elected Ferdinand of Habsburg as their king, and from then on the Croats shared their fate with Vienna for almost four centuries: that was where they studied, served in the army, published books and argued for their rights. That is why so much will feel familiar to a Croatian visitor, from the yellow facades and the train stations to words such as šnicla, štrudla and fijaker.",
@@ -18,11 +30,11 @@ window.ATLAS["austrija"] = {
   hrana: [
     { ime: "Wiener Schnitzel", opis: "A veal cutlet pounded thin, breaded and fried in lard or butter until the crust puffs up.", prica: "A true Viennese schnitzel has to be made of veal, and if it is made of pork the menu says “Schnitzel Wiener Art”. The story that Marshal Radetzky brought it from Milan is now regarded as a legend. It is served with a slice of lemon and potato salad, never with a sauce." },
     { ime: "Tafelspitz", opis: "Boiled beef from the top of the rump, served in its broth with vegetables.", prica: "This was the favorite dish of Emperor Franz Joseph, who ate it almost every day. You have the broth first, and then the meat with an apple and horseradish sauce and a chive sauce." },
-    { ime: "Sachertorte", opis: "A chocolate cake with a thin layer of apricot jam and a dark glaze.", prica: "According to tradition it was invented in 1832 by a sixteen-year-old apprentice, Franz Sacher, when Prince Metternich's head chef fell ill. The Hotel Sacher and the Demel pastry shop spent years in court over who was allowed to sell the “original”, which is why one puts the jam in the middle and the other under the glaze. It is eaten with unsweetened whipped cream." },
+    { ime: "Sachertorte", opis: "A chocolate cake with a thin layer of apricot jam and a dark glaze.", prica: "According to tradition it was invented in 1832 by a sixteen-year-old apprentice, Franz Sacher, when Prince Metternich's head chef fell ill. The Hotel Sacher and the Demel pastry shop spent years in court over who was allowed to sell the “original”, which is why the two cakes traditionally differ: the Sacher has a second layer of jam through the middle, while the Demel has it only under the glaze. It is eaten with unsweetened whipped cream." },
     { ime: "Apfelstrudel", opis: "Apple strudel in a dough stretched so thin that you could read a newspaper through it.", prica: "The oldest known handwritten recipe for strudel dates from 1696 and is kept in the Vienna City Library. The technique of stretched dough arrived from the East by way of Hungary, which shows nicely how the whole empire met in the Viennese kitchen." },
     { ime: "Kaiserschmarrn", opis: "A thick pancake torn into pieces, caramelized and dusted with powdered sugar, served with plum compote.", prica: "The name means “the emperor's mess”, and there are several legends about its origin linked to Emperor Franz Joseph and Empress Elisabeth. In mountain huts it is eaten as a main course, and one serving is often enough for two." },
     { ime: "Knödel", opis: "Dumplings made of bread, potato or curd cheese, savory as a side dish or sweet with an apricot inside.", prica: "The savory dumplings with speck come from Tyrol, and the sweet Marillenknödel from the Wachau valley, where the best apricots grow. They say you should never cut a dumpling with a knife, because that insults the cook." },
-    { ime: "Kürbiskernöl", opis: "A thick, dark green oil made from roasted pumpkin seeds from Styria.", prica: "It is called “green gold” and is protected by a designation of origin. It is drizzled over potato or bean salad, pumpkin soup and even vanilla ice cream." },
+    { ime: "Kürbiskernöl", opis: "A thick, dark green oil made from roasted pumpkin seeds from Styria.", prica: "It is called “green gold” and carries the European protected geographical indication. It is drizzled over potato or bean salad, pumpkin soup and even vanilla ice cream." },
     { ime: "Wiener Melange", opis: "Coffee with warm milk and milk foam, the Viennese version of a cappuccino.", prica: "In a Viennese coffeehouse the coffee always arrives on a silver tray with a glass of water, and the spoon is laid across the glass. You are allowed to sit and read the newspapers for hours over a single cup without anyone hurrying you along." },
     { ime: "Grüner Veltliner", opis: "A fresh, peppery white wine, the most important Austrian grape variety.", prica: "The best way to get to know it is in the wine taverns called Heuriger, where winemakers pour young wine from their own cellars. Vienna is the only major world capital with significant vineyards inside the city limits." }
   ],
@@ -52,7 +64,7 @@ window.ATLAS["austrija"] = {
     "The snow globe was invented around 1900 by the Viennese mechanic Erwin Perzy, who was trying to boost the light of a surgical lamp, and his family still makes them in Vienna today.",
     "PEZ candy was created in 1927 by Eduard Haas of Vienna as a substitute for cigarettes, and its name is an abbreviation of the German word for peppermint, Pfefferminz.",
     "The Croatian city of Karlovac was founded in 1579 by Archduke Charles II of Styria, who had his seat in Graz, so the city on four rivers bears his name.",
-    "The Giant Ferris Wheel in Vienna's Prater has been turning since 1897, and one full circle in its wooden cabins takes about ten minutes."
+    "The Giant Ferris Wheel in Vienna's Prater has been turning since 1897, and a ride in its wooden cabins lasts roughly a quarter of an hour."
   ],
   mjesta: [
     {
@@ -80,7 +92,7 @@ window.ATLAS["austrija"] = {
       ],
       dozivjeti: [
         { ime: "The Lipizzaners' morning exercise", opis: "At the Spanish Riding School, in the Baroque hall of the Hofburg, the white stallions train to classical music. A ticket for the morning exercise is cheaper than one for a performance, and it shows how the horses and riders really work.", link: "https://www.srs.at/en/" },
-        { ime: "An evening at the State Opera", opis: "The house, which opened in 1869, stages a different work every evening. If regular tickets are too expensive for you, very cheap standing-room places are sold on the day of the performance, and you can also see the building on a guided tour.", link: "https://www.wiener-staatsoper.at/en/" },
+        { ime: "An evening at the State Opera", opis: "The house, which opened in 1869, stages a different work every evening. If regular tickets are too expensive for you, inexpensive standing-room places are sold on the day of the performance, and you can also see the building on a guided tour.", link: "https://www.wiener-staatsoper.at/en/" },
         { ime: "Schönbrunn and its gardens", opis: "Tickets for the interior are issued for a set time, so buy them in advance on the official website. The park is free and open from early morning.", link: "https://www.schoenbrunn.at/en/" },
         { ime: "The Naschmarkt and the Spittelberg quarter", opis: "At the city's biggest market, taste the cheeses, olives and sweets, and then stroll over to the little streets of Spittelberg. Locals once called that area the Krowotendörfel, “the little Croat village”, although historians disagree about who exactly the settlers were." }
       ],
@@ -130,8 +142,8 @@ window.ATLAS["austrija"] = {
       ],
       vidjeti: [
         { ime: "The Salzwelten salt mine", opis: "A funicular takes you up to a high valley where you find the entrance to the oldest salt mine in the world. You slide down miners' slides into the depths, where a wooden staircase more than three thousand years old was discovered, the oldest preserved in Europe." },
-        { ime: "The Bone House", opis: "About 1,200 skulls are stacked in St. Michael's Chapel, and more than six hundred of them are painted with wreaths, roses and the names of the dead. The cemetery was too small, so after ten years or so the bones were dug up to make room. The last skull was added in 1995." },
-        { ime: "The Skywalk viewpoint", opis: "The platform juts out over the drop 350 meters above the rooftops of the village, with views of the lake and the mountains. You reach it on the same funicular that goes to the mine." },
+        { ime: "The Bone House", opis: "About 1,200 skulls are stacked in St. Michael's Chapel, and more than six hundred of them are painted with wreaths, roses and the names of the dead. The cemetery was too small, so after ten to fifteen years the bones were dug up to make room. The last skull was added in 1995." },
+        { ime: "The Skywalk viewpoint", opis: "The platform juts out over the drop 360 meters above the rooftops of the village, with views of the lake and the mountains. You reach it on the same funicular that goes to the mine." },
         { ime: "Marktplatz", opis: "The small square with its fountain is surrounded by colorful houses, rebuilt after the fire of 1750. The village is so cramped that the Corpus Christi procession is traditionally held here in boats on the lake." },
         { ime: "The Dachstein ice caves", opis: "In neighboring Obertraun a cable car leads to caves with pillars and curtains of ice, and to the 5 Fingers viewpoint, whose five metal fingers stick out over the abyss." }
       ],
@@ -197,7 +209,7 @@ window.ATLAS["austrija"] = {
       jesti: [
         { ime: "Salad with pumpkin seed oil", opis: "A salad of the large speckled beans called Käferbohnen, onions and pumpkin seed oil is eaten as a starter in every Styrian tavern." },
         { ime: "Steirisches Backhendl", opis: "Breaded fried chicken, crisp and juicy, served on a salad dressed with pumpkin seed oil." },
-        { ime: "Schilcher", opis: "A sharp rosé wine made from the Blauer Wildbacher grape, which grows only in western Styria." }
+        { ime: "Schilcher", opis: "A sharp rosé wine made from the Blauer Wildbacher grape, which is grown almost exclusively in western Styria." }
       ],
       dozivjeti: [
         { ime: "The Styrian Armoury", opis: "The four floors of armor, pikes and muskets are best seen with a guide, who will show you how armor was worn and how heavy it was.", link: "https://www.museum-joanneum.at/en/styrian-armoury" },

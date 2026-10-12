@@ -4,6 +4,16 @@ window.ATLAS["slovenija"] = {
   ime: "Slovenija",
   regija: "Srednja Europa",
   sazetak: "Susjeda u kojoj su Alpe, krš, vinorodni brežuljci i komadić Jadrana stali u zemlju koju se može proći u jednom danu.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Michelin Guide Slovenia: Hiša Franko", url: "https://guide.michelin.com/en/goriska/kobarid/restaurant/hisa-franko" },
+    { ime: "Slovenian Tourist Board: Osmice wine bars", url: "https://www.slovenia.info/en/stories/follow-ivy-branches-to-find-your-way-to-osmice-wine-bars" },
+    { ime: "Government of Slovenia: Slovenska potica protected in the EU", url: "https://www.gov.si/en/news/2021-04-22-european-commission-protects-slovenska-potica/" },
+    { ime: "RTV Slovenija: Bled and its cream cake", url: "https://www.rtvslo.si/news-in-english/slovenia-revealed/a-slovenian-resort-is-synonymous-with-a-cream-cake/348570" },
+    { ime: "Kurentovanje (official festival site)", url: "https://kurentovanje.net/eng/" },
+    { ime: "Visit Ptuj: Ptuj Wine Cellar", url: "https://visitptuj.eu/en/eat-drink/wine-cellars-bars-2/ptuj-wine-cellar/" },
+    { ime: "Vintgar Gorge (official site)", url: "https://www.vintgar.si/en/" },
+    { ime: "Ljubljana Free Tour", url: "https://www.ljubljanafreetour.com/" }
+  ] },
   uvod: [
     "Slovenija nam je toliko blizu da je često samo prolazimo, a vrijedi stati. Na malom prostoru ovdje se dodiruju četiri svijeta: Alpe na sjeverozapadu, Panonska nizina na istoku, dinarski krš na jugu i Sredozemlje na kratkoj obali. Više od polovice zemlje pokriva šuma, a planinarenje i pčelarstvo ovdje su gotovo pitanje narodnog identiteta.",
     "Slovenci su oko šest stoljeća živjeli pod Habsburgovcima, što se vidi u urednim gradićima, dvorcima i kuhinji punoj štrukli i potica. S Hrvatskom dijele dugu zajedničku povijest u Habsburškoj Monarhiji i u objema Jugoslavijama, a neovisnost su obje zemlje proglasile istoga dana, 25. lipnja 1991. Jezik je dovoljno srodan da se uglavnom razumijemo, ali i dovoljno različit da vas nasmije, jer slovenska riječ otrok znači dijete, a stol je ono na čemu se sjedi."
@@ -15,20 +25,20 @@ window.ATLAS["slovenija"] = {
     { k: "Napojnica", v: "Nije obavezna, ali je uobičajeno zaokružiti račun ili ostaviti do 10 posto ako ste zadovoljne." }
   ],
   hrana: [
-    { ime: "Potica", opis: "Savijača od tankog dizanog tijesta s nadjevom od oraha, pečena u okruglom kalupu s rupom u sredini.", prica: "Poznato je više od osamdeset nadjeva, od oraha i maka do estragona, koji se u slatkim jelima koristi gotovo samo u Sloveniji. Slovenska potica zaštićena je u Europskoj uniji kao zajamčeno tradicionalni specijalitet, a peče se za Božić i Uskrs." },
+    { ime: "Potica", opis: "Savijača od tankog dizanog tijesta s nadjevom od oraha, pečena u okruglom kalupu s rupom u sredini.", prica: "Poznato je osamdesetak nadjeva, od oraha i maka do estragona, koji se u slatkim jelima koristi gotovo samo u Sloveniji. Slovenska potica zaštićena je u Europskoj uniji kao zajamčeno tradicionalni specijalitet, a peče se za Božić i Uskrs." },
     { ime: "Kranjska klobasa", opis: "Polusuha dimljena kobasica od krupno mljevene svinjetine i slanine, začinjena samo solju, češnjakom i paprom.", prica: "Ima europsku zaštićenu oznaku zemljopisnog podrijetla. Samo se zagrijava u vrućoj vodi, bez kuhanja, a jede se s hrenom, gorušicom i žemljom. Jedna je 2006. s astronauticom slovenskih korijena Sunitom Williams otputovala i u svemir." },
     { ime: "Štruklji", opis: "Savici od vučenog ili dizanog tijesta s nadjevom, kuhani ili pečeni, slani ili slatki.", prica: "Najčešći su sa svježim sirom, ali postoje i oni s orasima, estragonom ili jabukama. Nekoć su bili blagdansko jelo, a danas su i prilog i desert, slični našim zagorskim štruklima." },
     { ime: "Idrijski žlikrofi", opis: "Mali jastučići od tijesta punjeni krumpirom, lukom i začinskim biljem, oblikovani poput šeširića.", prica: "Potječu iz rudarskog grada Idrije i zaštićeni su kao tradicionalni specijalitet. Poslužuju se s bakalcom, umakom od janjetine ili ovčetine s povrćem." },
     { ime: "Jota", opis: "Gusta juha od kiselog kupusa ili kisele repe, graha i krumpira, sa suhim mesom.", prica: "Jelo je Krasa, Primorja i Istre, pa je dobro poznato i s hrvatske strane granice. Zimi se jede kao cijeli obrok, a sutradan je još bolja." },
     { ime: "Prekmurska gibanica", opis: "Sočan kolač od osam slojeva, u kojem se izmjenjuju mak, svježi sir, orasi i jabuke.", prica: "Dolazi iz Prekmurja, ravnice uz mađarsku granicu, i zaštićena je kao tradicionalni specijalitet. Nekoć se pekla samo za najveće svečanosti jer je spajala sve što je kuća imala." },
-    { ime: "Blejska kremna rezina", opis: "Kremšnita s debelim slojem kreme od vanilije i tučenog vrhnja između dviju kora lisnatog tijesta.", prica: "Recept je 1953. usavršio slastičar hotela Park na Bledu, gdje ih je otada prodano više milijuna. Prava mora biti kocka stranice sedam centimetara, a krema se mora zatresti kada se tanjur pomakne." },
+    { ime: "Blejska kremna rezina", opis: "Kremšnita s debelim slojem kreme od vanilije i tučenog vrhnja između dviju kora lisnatog tijesta.", prica: "Recept je 1953. usavršio slastičar hotela Park na Bledu, gdje ih je otada prodano znatno više od deset milijuna. Prava mora biti kocka stranice sedam centimetara, a krema se mora zatresti kada se tanjur pomakne." },
     { ime: "Kraški pršut i teran", opis: "Pršut sušen na buri i tamno, kiselkasto crno vino sa crvenice Krasa.", prica: "Poslužuju se u osmicama, seoskim gospodarstvima koja su po starom austrijskom pravu smjela osam dana u godini prodavati vlastito vino i hranu. Otvorenu osmicu prepoznat ćete po grani bršljana uz cestu." },
     { ime: "Štajersko bučino ulje", opis: "Gusto tamnozeleno ulje od prženih bučinih sjemenki, orašastog okusa.", prica: "Zaštićeno je oznakom zemljopisnog podrijetla i dobro nam je poznato i iz Međimurja. Slovenci njime prelijevaju salate, grah, pa čak i sladoled od vanilije." },
     { ime: "Slovenska vina", opis: "Rebula iz Goriških brda, zelen i pinela iz Vipavske doline, cviček iz Dolenjske i bijela vina Štajerske.", prica: "Cviček je lagano, kiselkasto vino s malo alkohola koje se pravi miješanjem crnih i bijelih sorti, što je u Europi rijetkost. U Mariboru raste i najstarija vinova loza na svijetu." }
   ],
   obicaji: [
     { ime: "Pčelarstvo i oslikane košnice", opis: "Slovenci drže da je pčelarstvo način života, a kranjska pčela njihova je autohtona pasmina. Daščice na pročeljima košnica od 18. stoljeća oslikavaju se svetačkim i šaljivim prizorima, a Svjetski dan pčela slavi se 20. svibnja, na rođendan pionira pčelarstva Antona Janše. UNESCO je slovensko pčelarstvo upisao 2022.", gdje: "U Pčelarskom muzeju u Radovljici, nedaleko od Bleda, i u Janšinu pčelinjaku u selu Breznica." },
-    { ime: "Kurentovanje", opis: "Kurent je pokladni lik u ovčjem kožuhu, s kravljim zvonima oko pasa i maskom s dugim crvenim jezikom, koji skakanjem i zvonjavom tjera zimu. Obilasci kurenta upisani su 2017. na UNESCO-ov popis i bliski su rođaci zvončara iz našeg Kastavskog kraja.", gdje: "U Ptuju i okolnim selima, jedanaest dana do pokladnog utorka, u veljači ili početkom ožujka." },
+    { ime: "Kurentovanje", opis: "Kurent je pokladni lik u ovčjem kožuhu, s kravljim zvonima oko pasa i maskom s dugim crvenim jezikom, koji skakanjem i zvonjavom tjera zimu. Obilasci kurenta upisani su 2017. na UNESCO-ov popis i bliski su rođaci zvončara iz našeg Kastavskog kraja.", gdje: "U Ptuju i okolnim selima, tjedan dana ili dulje uoči pokladnog utorka, u veljači ili početkom ožujka." },
     { ime: "Idrijska čipka", opis: "Čipka na batiće koja se plete na valjkastom jastuku izrađuje se u Idriji od 17. stoljeća, kada su njome rudarske žene dopunjavale kućni prihod. Na UNESCO-ovu je popisu od 2018.", gdje: "U Idriji, gdje od 1876. radi čipkarska škola, a u lipnju se održava Festival idrijske čipke." },
     { ime: "Kozolec", opis: "Drvena sušara za sijeno i žito, s vodoravnim letvama i krovićem, stoji na gotovo svakoj slovenskoj livadi i ne postoji u tom obliku nigdje drugdje. Dvostruki kozolec, zvan toplar, prava je mala građevina s tavanom.", gdje: "U Muzeju kozolaca na otvorenom u Šentrupertu u Dolenjskoj, a u prirodi najljepše oko Bohinja, u selu Studor." },
     { ime: "Lipicanci", opis: "Ergelu u Lipici osnovao je 1580. habsburški nadvojvoda Karlo II. za potrebe bečkog dvora, pa je ondje nastala pasmina bijelih konja koji se ždrijebe tamni. Tradicija uzgoja lipicanaca upisana je 2022. na UNESCO-ov popis kao zajednička baština osam zemalja, među kojima je i Hrvatska.", gdje: "U ergeli Lipica na Krasu, nedaleko od Sežane, gdje se može gledati trening i predstave klasične škole jahanja." },
@@ -103,7 +113,7 @@ window.ATLAS["slovenija"] = {
       vidjeti: [
         { ime: "Blejski otok", opis: "Na jedinom prirodnom otoku u Sloveniji stoji crkva Marijina Uznesenja, do koje vodi 99 kamenih stuba. Običaj nalaže da mladoženja uz njih u naručju iznese nevjestu, koja pritom mora šutjeti. U crkvi povucite uže zvona želja iz 1534., za koje legenda kaže da ispunjava želje." },
         { ime: "Blejski dvorac", opis: "S terase dvorca, 130 metara iznad jezera, pruža se najpoznatiji pogled u Sloveniji. Unutra su muzej, gotička kapela i tiskara u kojoj na replici Gutenbergove preše možete otisnuti vlastiti spomen-list." },
-        { ime: "Klanac Vintgar", opis: "Rijeka Radovna urezala je 1,6 kilometara dug klanac, kroz koji se od 1893. hoda drvenim mostićima pričvršćenima uz stijenu. Staza završava kod vodopada Šum." },
+        { ime: "Klanac Vintgar", opis: "Rijeka Radovna urezala je 1,6 kilometara dug klanac, kroz koji se od 1893. hoda drvenim mostićima pričvršćenima uz stijenu. Staza završava kod vodopada Šum. Klancem se hoda samo u jednom smjeru, natrag se vraćate označenom stazom preko brda, a ulazi se s kartom za točno određeni termin, koju je najbolje unaprijed kupiti na internetu." },
         { ime: "Vila Bled", opis: "Titova rezidencija na obali jezera danas je hotel. U koncertnoj dvorani sačuvana je velika zidna slika u duhu socijalističkog realizma, koja prikazuje partizansku borbu." },
         { ime: "Vidikovci Ojstrica i Mala Osojnica", opis: "Sa zapadne strane jezera strma staza vodi za dvadesetak minuta do klupe s koje nastaju razglednice s otokom, dvorcem i Karavankama u pozadini." }
       ],
@@ -168,7 +178,7 @@ window.ATLAS["slovenija"] = {
         "Ovdje je 1692. rođen violinist i skladatelj Giuseppe Tartini, po kojem je nazvan glavni trg. Stanovništvo je do sredine 20. stoljeća bilo pretežno talijansko, pa je grad i danas službeno dvojezičan."
       ],
       vidjeti: [
-        { ime: "Tartinijev trg", opis: "Ovalni trg bijelog popločenja bio je unutarnja lučica za ribarske brodice, koja je 1894. zatrpana. Brončani Tartini s violinom stoji u sredini od 1896., a u kamenom postolju jarbola za zastave uklesane su stare mletačke mjere za duljinu." },
+        { ime: "Tartinijev trg", opis: "Ovalni trg bijelog popločenja bio je unutarnja lučica za ribarske brodice, koja je 1894. zatrpana. Brončani Tartini s violinom stoji u sredini od 1896., a ulaz na trg označavaju dva kamena stupa za zastave iz 15. stoljeća, jedan s reljefom svetog Jurja, zaštitnika grada, a drugi s lavom svetog Marka." },
         { ime: "Kuća Benečanka", opis: "Crvena gotička palača na uglu trga ima balkon i natpis Lassa pur dir, pusti neka govore. Legenda kaže da ju je bogati mletački trgovac sagradio za mladu Piranku u koju se zaljubio, kao odgovor na gradska ogovaranja." },
         { ime: "Crkva sv. Jurja i zvonik", opis: "Crkva na litici iznad grada ima zvonik dovršen 1608., umanjenu kopiju zvonika svetog Marka u Veneciji. Na vrhu se anđeo okreće s vjetrom, a s terase se u vedrim danima vide i Italija i Hrvatska." },
         { ime: "Gradske zidine", opis: "Na brdu iznad grada sačuvan je dio zidina s kulama iz 15. i 16. stoljeća, na koje se možete popeti. Odatle se vidi cijeli rt s crvenim krovovima." },
@@ -278,9 +288,9 @@ window.ATLAS["slovenija"] = {
       ],
       jesti: [
         { ime: "Kobariški štruklji", opis: "Slatke kuhane okruglice od tijesta punjene orasima i grožđicama, s udubinom od prsta na vrhu, prelivene maslacem i mrvicama." },
-        { ime: "Čompe s skuto", opis: "Krumpir kuhan u kori sa svježom skutom i sirom jednostavno je bovečko jelo, kojem je posvećena i ljetna svečanost u Bovcu." },
+        { ime: "Čompe s skuto", opis: "Krumpir kuhan u kori sa svježom skutom i sirom jednostavno je bovečko jelo, koje je u Bovcu dobilo i svoju ljetnu večer, Čomparsku noč." },
         { ime: "Sir tolminc", opis: "Tvrdi kravlji sir s planinskih pašnjaka ima europsku zaštićenu oznaku izvornosti. Od njega se prži i frika, hrskava pogača od sira i krumpira." },
-        { ime: "Soška pastrva", opis: "Poslužuje se pečena u heljdinu ili kukuruznu brašnu. Kobarid je poznat i po vrhunskim restoranima, među kojima je Hiša Franko kuharice Ane Roš." }
+        { ime: "Soška pastrva", opis: "Poslužuje se pečena u heljdinu ili kukuruznu brašnu. Kobarid je poznat i po vrhunskim restoranima, među kojima je Hiša Franko u obližnjem Starom Selu, u kojoj kuharica Ana Roš drži tri Michelinove zvjezdice." }
       ],
       dozivjeti: [
         { ime: "Staza uz Soču", opis: "Ako volite hodati, dionice Soške staze vode od izvora u Trenti nizvodno prema Bovcu, preko visećih mostića i uz kupališta na šljunku.", link: "https://www.soca-valley.com/en/" },

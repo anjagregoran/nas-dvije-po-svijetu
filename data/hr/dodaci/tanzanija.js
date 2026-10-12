@@ -81,12 +81,12 @@ window.DODACI["tanzanija"] = {
         { ime: "Plaža Mtende", opis: "Na krajnjem jugu stubište se spušta niz liticu do male uvale bijelog pijeska i stijena. Jako ovisi o morskim mijenama, pa dođite za oseke i ponesite vodu." }
       ],
       domaci: [
-        { ime: "Uzgajivačice algi", opis: "Za oseke na istočnoj obali žene gaze kroz plićak do algi privezanih za redove štapova. U Pajeu i Jambianiju možete se pridružiti obilasku koji vode same te žene." },
+        { ime: "Uzgajivačice algi", opis: "Za oseke na istočnoj obali žene gaze kroz plićak do algi privezanih za redove štapova. U Pajeu i Jambianiju možete se pridružiti vođenom obilasku polja algi." },
         { ime: "Život u ritmu plime i oseke", opis: "Na istočnoj obali more se dvaput na dan povuče jako daleko, a ljudi tada izlaze skupljati školjke i hobotnice. Raspitajte se za vrijeme plime i oseke i prema njemu planirajte kupanje i šetnje." },
         { ime: "Povratak ribarskih brodica", opis: "U kasno poslijepodne vraćaju se jedrilice s plovcima koje se zovu ngalawa, a ulov se prodaje na pijesku. Gledajte to u Nungwiju ili Kizimkaziju, a zatim u blizini pojedite ribu sa žara." }
       ],
       kupiti: [
-        { ime: "Sapun od algi", opis: "Ženska zadruga u Pajeu od algi koje same uzgajaju radi sapune i ulja za tijelo s lokalnim začinima. Kupnjom ondje izravno podupirete te žene." },
+        { ime: "Sapun od algi", opis: "Centar Mwani Zanzibar u Pajeu od algi koje uzgajaju mjesne žene radi sapune i kozmetiku s otočnim začinima. Kupnjom ondje podupirete uzgajivačice i obrtnice koje s njima rade." },
         { ime: "Začini s farme", opis: "Farme začina u unutrašnjosti otoka prodaju ono što uzgajaju, od mahuna vanilije do muškatnog oraščića. Kupite ih nakon šetnje među stablima." },
         { ime: "Uže od kokosa i pletivo od palme", opis: "Seoske žene suču užad od kokosovih vlakana i od palminog lišća pletu košare i prostirke. Pronaći ćete ih u seoskim trgovinama duž obale." }
       ]
@@ -104,8 +104,8 @@ window.DODACI["tanzanija"] = {
       ],
       kupiti: [
         { ime: "Certificirani tanzanit", opis: "Arusha je središte trgovine tanzanitom. Kupujte samo kod uhodanog, ovlaštenog trgovca koji vam daje certifikat o autentičnosti." },
-        { ime: "Perle od recikliranog stakla", opis: "Socijalno poduzeće u Arushi zapošljava osobe s invaliditetom koje od recikliranih boca izrađuju staklene perle i tkane predmete. Možete razgledati radionicu i kupiti na licu mjesta." },
-        { ime: "Rukotvorine s masajske tržnice", opis: "Blizu tornja sa satom nalazi se tržnica štandova s nakitom od perlica, rezbarijama i tkaninama. Cjenkanje se očekuje, a dio je igre i to da krenete dalje." }
+        { ime: "Perle od recikliranog stakla", opis: "Shanga, socijalno poduzeće na imanju hotela Arusha Coffee Lodge, zapošljava osobe s invaliditetom koje od recikliranih materijala izrađuju staklene perle, puhano staklo i tkane predmete. Možete razgledati radionicu i kupiti na licu mjesta." },
+        { ime: "Rukotvorine s masajske tržnice", opis: "Nedaleko od tornja sa satom nalazi se velika tržnica štandova s nakitom od perlica, rezbarijama i tkaninama, koju svi zovu masajskom tržnicom. Cjenkanje se očekuje, a dio je igre i to da krenete dalje." }
       ]
     }
   }

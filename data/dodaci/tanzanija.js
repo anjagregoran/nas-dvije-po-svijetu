@@ -81,12 +81,12 @@ window.DODACI["tanzanija"] = {
         { ime: "Mtende beach", opis: "In the far south, a stairway leads down a cliff to a small cove of white sand and rock. It depends heavily on the tide, so go at low tide and bring water." }
       ],
       domaci: [
-        { ime: "The seaweed farmers", opis: "At low tide on the east coast, women wade out to tend seaweed tied to rows of sticks. In Paje and Jambiani you can join a visit run by the women themselves." },
+        { ime: "The seaweed farmers", opis: "At low tide on the east coast, women wade out to tend seaweed tied to rows of sticks. In Paje and Jambiani you can join a guided visit to the seaweed fields." },
         { ime: "Living by the tide", opis: "On the east coast the sea retreats a long way twice a day, and people walk out to gather shellfish and octopus. Ask for the tide times and plan swimming and walking around them." },
         { ime: "The fishing boats come home", opis: "In the late afternoon the outrigger canoes called ngalawa sail back, and the catch is sold on the sand. Watch in Nungwi or Kizimkazi, then eat grilled fish nearby." }
       ],
       kupiti: [
-        { ime: "Seaweed soap", opis: "A women's cooperative in Paje turns the seaweed they farm into soaps and body oils with local spices. Buying there supports the women directly." },
+        { ime: "Seaweed soap", opis: "The Mwani Zanzibar center in Paje turns seaweed farmed by local women into soaps and skin care with island spices. Buying there supports the farmers and the artisans who work with them." },
         { ime: "Spices from a farm", opis: "The spice farms in the island's interior sell what they grow, from vanilla pods to nutmeg. Buy after a walk through the trees." },
         { ime: "Coconut rope and palm weaving", opis: "Village women twist coir rope and weave baskets and mats from palm leaves. You will find them in village shops along the coast." }
       ]
@@ -104,8 +104,8 @@ window.DODACI["tanzanija"] = {
       ],
       kupiti: [
         { ime: "Certified tanzanite", opis: "Arusha is the center of the tanzanite trade. Buy only from an established, licensed dealer who gives you a certificate of authenticity." },
-        { ime: "Recycled glass beads", opis: "A social enterprise in Arusha employs people with disabilities to make glass beads and weavings from recycled bottles. You can tour the workshop and buy on site." },
-        { ime: "Crafts from the Maasai market", opis: "Near the clock tower is a market of stalls with beadwork, carvings and fabric. Bargaining is expected, and walking away is part of it." }
+        { ime: "Recycled glass beads", opis: "Shanga, a social enterprise on the grounds of Arusha Coffee Lodge, employs people with disabilities to make glass beads, blown glass and weavings from recycled materials. You can tour the workshop and buy on site." },
+        { ime: "Crafts from the Maasai market", opis: "A short walk from the clock tower is a large market of stalls with beadwork, carvings and fabric, which everyone calls the Maasai market. Bargaining is expected, and walking away is part of it." }
       ]
     }
   }

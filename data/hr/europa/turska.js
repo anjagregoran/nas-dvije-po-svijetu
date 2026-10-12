@@ -4,6 +4,17 @@ window.ATLAS["turska"] = {
   ime: "Turska",
   regija: "Jugoistočna Europa",
   sazetak: "Zemlja na dva kontinenta u kojoj ćete u jednom danu popiti čaj u Europi, ručati u Aziji i usput shvatiti odakle nam jastuk, čarapa, sat i kat.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "National Palaces of Turkey: Topkapı Palace tickets", url: "https://www.millisaraylar.gov.tr/en/palaces/topkapi-palace" },
+    { ime: "Rick Steves: Istanbul", url: "https://www.ricksteves.com/europe/turkey/istanbul" },
+    { ime: "Culinary Backstreets: Eminönü stories", url: "https://culinarybackstreets.com/tag/eminonu" },
+    { ime: "Turkey Travel Planner (Tom Brosnahan): Istanbul fish sandwiches", url: "https://turkeytravelplanner.com/go/Istanbul/RestsCafesBars/eminonu/balik_ekmek.html" },
+    { ime: "Turkey Travel Planner (Tom Brosnahan): Kırkpınar oiled wrestling", url: "https://turkeytravelplanner.com/go/ThraceMarmara/edirne/kirkpinar_oiled_wrestling.html" },
+    { ime: "Afar: Çorlulu Ali Paşa Medresesi", url: "https://www.afar.com/places/corlulu-ali-pasa-medresesi-istanbul" },
+    { ime: "Afar: Selçuk Saturday Market", url: "https://www.afar.com/places/selcuk-saturday-market-selcuk" },
+    { ime: "Yabangee: İzmir Getaway, Tire", url: "https://yabangee.com/izmir-getaway-tire/" },
+    { ime: "Daily Sabah: Selimiye Mosque reopens after restoration", url: "https://www.dailysabah.com/turkiye/turkiye-reopens-sinans-selimiye-mosque-after-major-restoration/news" }
+  ] },
   uvod: [
     "Turska leži ondje gdje se Europa i Azija doslovno dodiruju, pa je na njezinu tlu trag ostavila gotovo svaka velika sredozemna civilizacija. Ovdje su Troja i Efez, ovdje su živjeli Hetiti i Likijci, propovijedao je apostol Pavao, a Carigrad je više od tisuću godina bio prijestolnica Bizanta prije nego što ga je 1453. osvojio sultan Mehmed II. i učinio središtem Osmanskog Carstva.",
     "To je carstvo stoljećima vladalo i našim susjedstvom, zbog čega će vam mnogo toga biti neobično poznato: riječi, jela, način na koji se nudi kava i čaršija s obrtnicima poredanima po zanatima. Dubrovačka Republika slala je u Carigrad svoje poklisare s godišnjim haračem i zauzvrat slobodno trgovala po carstvu, a nekoliko velikih vezira potjecalo je iz naših krajeva. Suvremenu republiku osnovao je 1923. Mustafa Kemal Atatürk, čiji lik gleda sa svakog zida, a glavni je grad Ankara, a ne Istanbul."
@@ -18,7 +29,7 @@ window.ATLAS["turska"] = {
   hrana: [
     { ime: "Kahvaltı", opis: "Turski doručak od desetak malih tanjura: sirevi, masline, rajčica, krastavci, med s kajmakom, jaja i topli kruh, uz beskrajan čaj.", prica: "Riječ doslovno znači „prije kave“, jer se kava pila tek nakon jela. Vikendom se doručkuje satima, a posebno je poznat doručak iz grada Vana, po kojem se zovu mnoge istanbulske doručkovaonice." },
     { ime: "Meze i rakı", opis: "Hladna i topla predjela koja se biraju s pladnja, uz anisovu rakiju razrijeđenu vodom.", prica: "Rakı pomiješan s vodom pobijeli, pa ga zovu lavlje mlijeko. Pije se polako i uz razgovor u lokalima zvanim meyhane, a uz njega obvezno idu bijeli sir i dinja." },
-    { ime: "Kebap", opis: "Zajednički naziv za meso pečeno na ražnju ili žaru, od ljutog adanskog od sjeckane janjetine do İskendera s jogurtom, rajčicom i rastopljenim maslacem.", prica: "Svaki grad ima svoj kebap i brani ga kao pitanje časti. İskender nosi ime po majstoru iz Burse koji je u 19. stoljeću prvi okrenuo ražanj okomito, od čega je nastao i döner." },
+    { ime: "Kebap", opis: "Zajednički naziv za meso pečeno na ražnju ili žaru, od ljutog adanskog od sjeckane janjetine do İskendera s jogurtom, rajčicom i rastopljenim maslacem.", prica: "Svaki grad ima svoj kebap i brani ga kao pitanje časti. İskender nosi ime po majstoru iz Burse za kojeg njegova obitelj tvrdi da je 1867. prvi okrenuo ražanj okomito, pa Bursa tako priča i priču o nastanku dönera, iako tu čast sebi pripisuju i majstori iz Kastamonua." },
     { ime: "Lahmacun i pide", opis: "Lahmacun je tanko tijesto s mljevenim mesom i začinima, a pide duguljasta lađica od tijesta punjena sirom, mesom ili jajetom.", prica: "Lahmacun se posipa peršinom, poprska limunom i smota u rolu, a nož i vilica izazvat će osmijeh za susjednim stolom. Pide se peče u krušnoj peći i reže na trake." },
     { ime: "Mantı", opis: "Sitne okruglice od tijesta punjene mesom, prelivene jogurtom s češnjakom i maslacem s crvenom paprikom.", prica: "Najpoznatije su iz Kayserija, gdje se kaže da dobra domaćica u jednu žlicu mora smjestiti četrdeset komada. Srodne su azijskim okruglicama koje su turski narodi donijeli sa sobom na zapad." },
     { ime: "Baklava i künefe", opis: "Baklava je slojevito tijesto s pistacijama u sirupu, a künefe topli kolač od tankih rezanaca s neslanim sirom u sredini.", prica: "Baklava iz Gaziantepa prvi je turski proizvod s europskom oznakom zaštićenog zemljopisnog podrijetla. Dobra baklava šušti pod vilicom i ne pliva u sirupu, a künefe se jede odmah, dok se sir još rasteže." },
@@ -66,21 +77,21 @@ window.ATLAS["turska"] = {
         "Osmanlije su grad ispunili džamijama, kupalištima i čaršijama, a najviše ga je oblikovao graditelj Mimar Sinan u 16. stoljeću. Stari Slaveni zvali su ga Carigrad, a naši su ga preci dobro poznavali: dubrovački poklisari svake su godine ovamo nosili harač, a s dvora su carstvom upravljali i veziri podrijetlom iz naših krajeva."
       ],
       vidjeti: [
-        { ime: "Aja Sofija", opis: "Crkvu Svete Mudrosti car Justinijan dao je sagraditi u samo pet godina i posvetio je 537. godine, a njezina je kupola promjera 31 metar gotovo tisuću godina bila najveća na svijetu. Nakon osvajanja postala je džamija, zatim muzej, a od 2020. ponovno je džamija, pa turisti uz ulaznicu obilaze gornju galeriju. Ondje potražite mozaik Deisis s Kristovim licem neobične nježnosti i rune koje je u mramornu ogradu urezao vikinški gardist po imenu Halvdan." },
-        { ime: "Palača Topkapı", opis: "Sultani su ovdje stolovali gotovo četiri stoljeća, od Mehmeda Osvajača do sredine 19. stoljeća. Palača je niz dvorišta i paviljona, a ne jedna zgrada, i u svako se sljedeće smjelo ući sve manjem broju ljudi. U riznici potražite dijamant od 86 karata, za koji predaja kaže da ga je siromah našao u smeću i zamijenio za tri žlice, a harem ima zasebnu ulaznicu i vrijedi je uzeti." },
+        { ime: "Aja Sofija", opis: "Crkvu Svete Mudrosti car Justinijan dao je sagraditi u samo pet godina i posvetio je 537. godine, a ona je pod kupolom promjera 31 metar gotovo tisuću godina ostala najveća katedrala na svijetu. Nakon osvajanja postala je džamija, zatim muzej, a od 2020. ponovno je džamija, pa turisti uz ulaznicu obilaze gornju galeriju. Ondje potražite mozaik Deisis s Kristovim licem neobične nježnosti i rune koje je u mramornu ogradu urezao vikinški gardist po imenu Halvdan." },
+        { ime: "Palača Topkapı", opis: "Sultani su ovdje stolovali gotovo četiri stoljeća, od Mehmeda Osvajača do sredine 19. stoljeća. Palača je niz dvorišta i paviljona, a ne jedna zgrada, i u svako se sljedeće smjelo ući sve manjem broju ljudi. U riznici potražite dijamant od 86 karata, za koji predaja kaže da ga je siromah našao u smeću i zamijenio za tri žlice, a budući da redovna ulaznica za strane posjetitelje sada obuhvaća i harem i crkvu Svete Irene, ostavite vremena za oboje." },
         { ime: "Sultan-Ahmedova džamija", opis: "Poznatija kao Plava džamija, sagrađena je od 1609. do 1617. nasuprot Aji Sofiji, s kojom se sultan Ahmed I. želio natjecati. Ima šest minareta, što je tada izazvalo prigovore jer ih je toliko imala samo džamija u Meki. Unutrašnjost oblaže više od dvadeset tisuća pločica iz Iznika, a najljepše, s tulipanima i čempresima, nalaze se na galerijama." },
         { ime: "Cisterna bazilika", opis: "Podzemni spremnik za vodu iz 532. godine nosi 336 stupova prikupljenih sa starijih građevina, pa su kapiteli međusobno različiti. U najdaljem kutu dva stupa stoje na glavama Meduze, od kojih je jedna položena bočno, a druga naopako, vjerojatno zato što su graditeljima trebali samo kao podmetači. Potražite i stup ukrašen uzorkom nalik suzama." },
         { ime: "Sulejmanija", opis: "Najveće Sinanovo djelo u Istanbulu, dovršeno 1557. za Sulejmana Veličanstvenog, bilo je cijeli mali grad s bolnicom, školama, kuhinjom za siromahe i kupalištem. U vrtu iza džamije počivaju sultan i njegova žena Hürrem, kod nas poznata kao Rokselana, a sam se Sinan dao pokopati u skromnoj grobnici izvan zida, na uglu ulice." },
         { ime: "Rüstem-pašina džamija", opis: "Malu džamiju skrivenu nad dućanima kod Egipatskog bazara Sinan je sagradio oko 1563. za velikog vezira Rüstem-pašu, Sulejmanova zeta. Izvori ga nazivaju i Rüstem-paša Hrvat i rodno mu mjesto smještaju u Skradin ili u okolicu Sarajeva, pa povjesničari oko toga nisu složni. Unutra su najljepše pločice iz Iznika u gradu, s rijetkom crvenom bojom koja se pod prstima osjeti kao reljef." }
       ],
       jesti: [
-        { ime: "Balık ekmek", opis: "Sendvič s pečenom skušom, lukom i salatom jede se uz Galatski most u četvrti Eminönü, a uz njega se pije sok od ukiseljene repe." },
+        { ime: "Balık ekmek", opis: "Sendvič s pečenom skušom, lukom i salatom jede se uz Galatski most u četvrti Eminönü, a uz njega se pije čaša kiselog rasola od ukiseljenog povrća ili şalgam, slani sok od fermentirane crne mrkve i repe." },
         { ime: "Midye dolma", opis: "Dagnje punjene začinjenom rižom prodaju se na komad s uličnih pladnjeva, a prodavač vam ih otvara i kapa limunom dok ne kažete da je dosta." },
         { ime: "Kumpir", opis: "Golemi pečeni krumpir izmiješan s maslacem i sirom pa zatrpan prilozima po izboru specijalitet je četvrti Ortaköy, pod mostom preko Bosfora." },
         { ime: "Baklava u Karaköyu", opis: "Stare slastičarnice u lučkoj četvrti Karaköy poslužuju baklavu s pistacijama uz žlicu kajmaka, a narudžba se važe na kilograme." }
       ],
       dozivjeti: [
-        { ime: "Gradskim trajektom po Bosforu", opis: "Redovne linije iz Eminönüa voze uz palače, drvene vile i dvije tvrđave do ribarskih sela pri ulazu u Crno more, za cijenu obične karte. Sjednite vani, naručite čaj i ponesite simit." },
+        { ime: "Gradskim trajektom po Bosforu", opis: "Redovne linije iz Eminönüa voze uz palače, drvene vile i dvije tvrđave do ribarskih sela pri ulazu u Crno more, a karta gradskog brodara za tu vožnju mnogo je jeftinija od privatnog krstarenja. Sjednite vani, naručite čaj i ponesite simit." },
         { ime: "Tržnica u Kadıköyu", opis: "Na azijskoj strani nalazi se najživlja gradska tržnica, s ribarnicama, kiselišima i slastičarnicama, gdje se jede bolje i jeftinije nego u starom gradu. Vođene gastronomske šetnje ovdje su odličan uvod u tursku kuhinju.", link: "https://culinarybackstreets.com/" },
         { ime: "Kapali-čaršija i hanovi", opis: "Natkriveni bazar iz 15. stoljeća ima šezdesetak ulica i nekoliko tisuća dućana. Zanimljivije od glavnih prolaza su dvorišta starih hanova uokolo, u kojima srebrnari i tkalci još rade." },
         { ime: "Balat i Fener", opis: "Nekadašnje židovske i grčke četvrti uz Zlatni rog imaju šarene drvene kuće, strme ulice i Ekumenski patrijarhat, sjedište pravoslavnog svijeta." }
@@ -217,7 +228,7 @@ window.ATLAS["turska"] = {
       ],
       dozivjeti: [
         { ime: "Slapovi Düden", opis: "Rijeka se na rubu grada ruši s litice visoke četrdeset metara ravno u more, a prizor je najljepši s izletničkog broda iz stare luke." },
-        { ime: "Opera u Aspendu", opis: "Krajem ljeta u antičkom kazalištu održava se međunarodni festival opere i baleta, pod zvijezdama i uz izvornu akustiku.", link: "https://antalya.ktb.gov.tr/" },
+        { ime: "Opera u Aspendu", opis: "U rujnu se u antičkom kazalištu održava međunarodni festival opere i baleta, pod zvijezdama i uz izvornu akustiku.", link: "https://antalya.ktb.gov.tr/" },
         { ime: "Plamenovi Himere", opis: "Na padini iznad Olimposa iz stijene već tisućljećima gori prirodni plin. Antički pomorci koristili su vatre kao svjetionik, a ovdje je smješten i mit o čudovištu Himeri." }
       ],
       agencije: [
@@ -236,7 +247,7 @@ window.ATLAS["turska"] = {
         "Sultani su mu se i poslije vraćali radi lova i odmora, pa je grad na tri rijeke pun carskih džamija, mostova i karavan-saraja. Leži tik uz granice Bugarske i Grčke, zbog čega je svakome tko u Tursku putuje automobilom prva i najzahvalnija postaja."
       ],
       vidjeti: [
-        { ime: "Selimija", opis: "Džamiju je za sultana Selima II. od 1568. do 1575. sagradio Mimar Sinan, tada već u osamdesetim godinama, i nazvao je svojim majstorskim radom. Kupola promjera oko 31 metar počiva na osam stupova i izgleda kao da lebdi, a četiri minareta među najvišima su u islamskom svijetu. Na mramornom podiju u sredini potražite malen naopako okrenut tulipan, o kojem kruži više legendi." },
+        { ime: "Selimija", opis: "Džamiju je za sultana Selima II. od 1568. do 1575. sagradio Mimar Sinan, tada već u osamdesetim godinama, i nazvao je svojim majstorskim radom. Kupola promjera oko 31 metar počiva na osam stupova i izgleda kao da lebdi, a četiri minareta među najvišima su u islamskom svijetu. Na mramornom podiju u sredini potražite malen naopako okrenut tulipan, o kojem kruži više legendi, i uživajte u svježim bojama, jer je džamija 2026. ponovno otvorena nakon obnove koja je trajala četiri godine." },
         { ime: "Eski džamija", opis: "Stara džamija iz 1414. ima devet kupola i zidove ispisane golemim kaligrafskim natpisima, od kojih su neki viši od čovjeka. Slova su naslikana u 19. stoljeću i čine je jednom od najneobičnijih džamija u zemlji." },
         { ime: "Üç Şerefeli džamija", opis: "Dovršena je 1447. i ime je dobila po minaretu s tri balkona, do kojih vode tri odvojena stubišta. Svaki od četiriju minareta drukčije je ukrašen: jedan je spiralan, drugi rombast, treći žljebast." },
         { ime: "Kompleks sultana Bajazida II.", opis: "U bolnici iz 1488. duševni su se bolesnici liječili glazbom, zvukom vode i mirisom cvijeća, u vrijeme kada su ih drugdje okivali. Danas je ovdje Muzej zdravlja, nagrađen nagradom Vijeća Europe, s lutkama koje prikazuju liječnike i svirače." },
@@ -245,10 +256,10 @@ window.ATLAS["turska"] = {
       jesti: [
         { ime: "Tava ciğeri", opis: "Jetrica narezana tanko poput lista, pržena u dubokom ulju i poslužena sa sušenim ljutim paprikama, gradsko je jelo zbog kojeg ovamo dolaze iz Istanbula." },
         { ime: "Badem ezmesi", opis: "Mekani marcipan od badema nekad se radio za dvor, a danas se prodaje u slastičarnicama oko čaršije." },
-        { ime: "Deva-i misk", opis: "Halva s četrdesetak začina nastala je kao ljekovita pasta u osmanskoj bolnici." }
+        { ime: "Deva-i misk", opis: "Halva s četrdesetak začina i zaštićenom oznakom zemljopisnog podrijetla, koju je prema predaji jedan slastičar prvi put pripremio za sultana Murata II. u doba kada je Edirne bio prijestolnica." }
       ],
       dozivjeti: [
-        { ime: "Hrvanje u ulju Kırkpınar", opis: "Krajem lipnja ili početkom srpnja na livadi uz rijeku nadmeću se hrvači u kožnim hlačama, namazani maslinovim uljem. Turnir se prema predaji održava od 14. stoljeća i na UNESCO-ovu je popisu nematerijalne baštine.", link: "https://www.edirne.bel.tr/" },
+        { ime: "Hrvanje u ulju Kırkpınar", opis: "Obično prvih dana srpnja na livadi uz rijeku nadmeću se hrvači u kožnim hlačama, namazani maslinovim uljem. Turnir se prema predaji održava od 14. stoljeća i na UNESCO-ovu je popisu nematerijalne baštine.", link: "https://www.edirne.bel.tr/" },
         { ime: "Čaršije Alipaša i Arasta", opis: "Natkrivene tržnice uz džamije prodaju sapune u obliku voća, metle sa zrcalom i marcipan, tri tradicionalna gradska suvenira." },
         { ime: "Šetnja do mosta na Marici", opis: "Kameni most iz 19. stoljeća s malim paviljonom u sredini najljepši je u sumrak, kada se u čajanama uz rijeku okupljaju studenti." }
       ],

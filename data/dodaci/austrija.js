@@ -1,9 +1,9 @@
 window.DODACI = window.DODACI || {};
 window.DODACI["austrija"] = {
   kupiti: [
-    { ime: "Pumpkin seed oil", opis: "This dark green oil pressed from roasted pumpkin seeds is the pride of Styria and has protected origin. Buy it at the farmers' markets in Graz or directly on a farm, and try it at home over vanilla ice cream." },
+    { ime: "Pumpkin seed oil", opis: "This dark green oil pressed from roasted pumpkin seeds is the pride of Styria and carries the European protected geographical indication. Buy it at the farmers' markets in Graz or directly on a farm, and try it at home over vanilla ice cream." },
     { ime: "Apricots from the Wachau", opis: "The Wachau valley is famous for its apricots, which are turned into jam, nectar, liqueur and brandy. The best place to buy is at the stands and farms along the Danube marked “Wachauer Marille”." },
-    { ime: "The real Mozartkugel", opis: "The Mozartkugel was invented by the Salzburg confectioner Paul Fürst, and his family still makes them by hand and wraps them in silver and blue foil. They are sold only in the family's shops in Salzburg, while the ones in red and gold wrappers are factory made." },
+    { ime: "The real Mozartkugel", opis: "The Mozartkugel was invented by the Salzburg confectioner Paul Fürst, and his family still makes them by hand and wraps them in silver and blue foil. They are sold only in the family's shops in Salzburg and through its own online store, while the ones in red and gold wrappers are factory made." },
     { ime: "Loden and boiled wool", opis: "Loden, a dense and water-resistant wool cloth, and slippers of boiled wool come from the Alpine valleys and last for decades. Look for them in shops selling traditional dress, with a label saying they were made in Austria." },
     { ime: "Stone pine", opis: "The wood of the Alpine stone pine, called Zirbe, has a calming, resinous scent, so it is made into pillows filled with shavings, bread boxes and a reddish schnapps called Zirbenschnaps. You will find the most in Tyrol and Carinthia, at markets and village shops." },
     { ime: "Gmunden ceramics", opis: "Tableware with green looping stripes on a white background is painted by hand in Gmunden on Lake Traunsee and sits in almost every Austrian kitchen. Housewares shops all over the country carry it, with the widest choice in the Salzkammergut." }
@@ -12,7 +12,7 @@ window.DODACI["austrija"] = {
     "bec": {
       dragulji: [
         { ime: "The Servitenviertel and the Strudlhofstiege", opis: "Around the Servite church in the ninth district lies a small neighborhood of cobblestones, trees and cafés that feels a little like Paris. Nearby is the Art Nouveau Strudlhofstiege stairway with its fountains and lamps, at its loveliest toward evening." },
-        { ime: "Karmelitermarkt", opis: "This small market in the second district, in the old Jewish quarter, is far calmer than the Naschmarkt. On Saturdays farmers come in from the countryside and people linger over breakfast among the stalls until noon." },
+        { ime: "Karmelitermarkt", opis: "This small market in the second district, in the old Jewish quarter, is far calmer than the Naschmarkt. On Fridays and Saturdays farmers come in from the countryside and people linger over breakfast among the stalls until noon." },
         { ime: "Setagayapark", opis: "In elegant Döbling hides a small Japanese garden with a pond, a waterfall and a teahouse, a gift to Vienna from a district of Tokyo. It is most beautiful in spring, when the cherry trees bloom, and in fall, when the maples turn red." }
       ],
       domaci: [
@@ -84,10 +84,10 @@ window.DODACI["austrija"] = {
       domaci: [
         { ime: "The farmers' market in the morning", opis: "On Kaiser-Josef-Platz and Lendplatz, farmers from the surrounding countryside sell vegetables, flowers, pumpkin seed oil and eggs every morning except Sunday. After shopping, locals have a glass of wine or a coffee at a stand, so join them." },
         { ime: "A snack at a Buschenschank", opis: "On weekends people leave Graz for the wine hills of southern Styria, where winemakers serve only their own wine and a cold platter on a board. You sit on a terrace overlooking vineyards in a landscape often called the Styrian Tuscany." },
-        { ime: "Sturm and chestnuts in the fall", opis: "In September and October the whole city pours Sturm, a cloudy young grape must that is still fermenting, and people eat roasted chestnuts with it. Clink glasses and say “Mahlzeit” in place of “Prost”, since it is not yet wine." }
+        { ime: "Sturm and chestnuts in the fall", opis: "In September and October the whole city pours Sturm, a cloudy young grape must that is still fermenting, and people eat roasted chestnuts with it. Raise your glass without clinking and say “Mahlzeit” in place of “Prost”, since it is not yet wine." }
       ],
       kupiti: [
-        { ime: "Styrian pumpkin seed oil", opis: "Graz is the best place to buy pumpkin seed oil, at the farmers' markets where families who press it themselves sell it. Look for the protected origin label and take a smaller bottle, because it is best while fresh." },
+        { ime: "Styrian pumpkin seed oil", opis: "Graz is the best place to buy pumpkin seed oil, at the farmers' markets where families who press it themselves sell it. Look for the protected geographical indication seal on the bottle and take a smaller bottle, because it is best while fresh." },
         { ime: "Käferbohnen", opis: "These large speckled beans are typical of Styria and are eaten as a salad with onion and pumpkin seed oil. At the market they are sold dried or already cooked in jars." },
         { ime: "Styrian wine", opis: "Southern Styria is known for aromatic Sauvignon Blanc and western Styria for the pink, tart Schilcher. Buy them at wine shops in town or bring them back from a day trip straight from the winemaker." }
       ]
@@ -101,7 +101,7 @@ window.DODACI["austrija"] = {
       domaci: [
         { ime: "An evening at the Heuriger", opis: "Winemakers take turns opening their courtyards for a few weeks at a time, which is called being “ausg'steckt”. The schedule hangs on a board in every village, and with your Grüner Veltliner or Riesling you order a cold platter." },
         { ime: "By bike and ferry", opis: "A level bike path follows both banks of the Danube, and small ferries carry you from one side to the other, for example at Spitz and Weißenkirchen. Rent a bike in Krems or Melk and ride from cellar to cellar." },
-        { ime: "Apricot dumplings", opis: "During apricot season in early summer every inn in the valley cooks Marillenknödel, dumplings of quark dough rolled in buttered breadcrumbs. They are eaten as a main course, so do not be surprised by the size of the portion." }
+        { ime: "Apricot dumplings", opis: "During apricot season in July every inn in the valley cooks Marillenknödel, dumplings of quark dough rolled in buttered breadcrumbs. They are eaten as a main course, so do not be surprised by the size of the portion." }
       ],
       kupiti: [
         { ime: "Apricot jam and brandy", opis: "Wachau apricots have protected origin and a deeper flavor than store-bought ones. Buy jam, nectar or brandy at roadside stands and from families who own orchards." },
@@ -115,7 +115,7 @@ window.DODACI["austrija"] = {
         { ime: "Heiligenblut", opis: "At the Carinthian end of the high alpine road sits a village with a slender Gothic spire, and on a clear day the summit of the Grossglockner rises behind it. Stop here before you turn back." }
       ],
       domaci: [
-        { ime: "An evening loop around the lake", opis: "A level path of about six miles circles Lake Zell, and locals walk, run and bike it. If the whole loop is too much, walk part of it and return by boat." },
+        { ime: "An evening loop around the lake", opis: "A level path of about seven miles circles Lake Zell, and locals walk, run and bike it. If the whole loop is too much, walk part of it and return by boat." },
         { ime: "Swimming in the lake", opis: "The lake has several bathing areas with lawns, and the water is so clean that you can see the bottom. In summer locals come for a swim after work, looking up at the snow on the peaks." },
         { ime: "Kasnocken in a mountain hut", opis: "These Pinzgau noodles with strong cheese and fried onions come to the table in a hot iron pan, and everyone eats from it together. Order them at a hut on the Schmittenhöhe or in the Fusch valley." }
       ],
@@ -137,7 +137,7 @@ window.DODACI["austrija"] = {
       ],
       kupiti: [
         { ime: "Reindling", opis: "This Carinthian yeast cake with cinnamon, sugar and raisins is baked in a round pan and eaten at Easter, even alongside ham. Buy one at a bakery or the market and take it home whole." },
-        { ime: "Carinthian Speck and honey", opis: "At the Benediktinermarkt you will find air-dried Speck from the Gailtal valley, which has protected origin, and forest honey from Carniolan bees. The sellers are happy to let you taste before you buy." }
+        { ime: "Carinthian Speck and honey", opis: "At the Benediktinermarkt you will find air-dried Speck from the Gailtal valley, which carries a protected geographical indication, and forest honey from Carniolan bees. The sellers are happy to let you taste before you buy." }
       ]
     }
   }

@@ -49,7 +49,7 @@ window.DODACI["slovenija"] = {
       ],
       domaci: [
         { ime: "Kupanje na mirnom kraju", opis: "Domaći se kupaju gdje god nađu komadić šljunčane obale, osobito u Ukancu na zapadnom kraju i u uvali kraj Stare Fužine. Voda je svježa i savršeno bistra." },
-        { ime: "Kiselo mlijeko i žganci na planini", opis: "Ljeti pastiri na planinskim pašnjacima iznad jezera poslužuju kiselo mlijeko s heljdinim žgancima i vlastiti sir. Šetnja do pašnjaka kao što su Zajamniki završava upravo takvim jednostavnim obrokom." },
+        { ime: "Kiselo mlijeko i žganci na planini", opis: "Kiselo mlijeko s heljdinim žgancima stari je pastirski obrok ovih planina, a pastiri na pašnjacima iznad jezera ljeti i danas prave vlastiti sir i kiselo mlijeko. Prošećite u sezoni ispaše do pašnjaka kao što su Zajamniki i kupit ćete ih izravno u pastirskim kolibama." },
         { ime: "Šetnja sjevernom obalom", opis: "Južnom obalom vodi cesta, dok sjevernom ide samo pješačka staza kroz šumu uz vodu. Bohinjci njome šeću zbog mira, a u jednom smjeru treba oko sat i pol." }
       ],
       kupiti: [

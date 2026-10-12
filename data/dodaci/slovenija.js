@@ -49,7 +49,7 @@ window.DODACI["slovenija"] = {
       ],
       domaci: [
         { ime: "A swim at the quiet end", opis: "Locals swim wherever they find a patch of gravel shore, especially at Ukanc on the western end and in the bay near Stara Fužina. The water is cool and perfectly clear." },
-        { ime: "Sour milk and žganci on the pasture", opis: "In summer herders on the mountain pastures above the lake serve sour milk with buckwheat žganci and their own cheese. A walk up to a pasture such as Zajamniki ends with a simple meal like this." },
+        { ime: "Sour milk and žganci on the pasture", opis: "Sour milk with buckwheat žganci is the old herders' meal of these mountains, and in summer the herders on the pastures above the lake still make their own cheese and sour milk. Walk up to a pasture such as Zajamniki in the grazing season and you can buy them straight from the huts." },
         { ime: "The north shore walk", opis: "The southern shore has the road, while the northern shore has only a footpath through the forest along the water. Bohinj residents walk it for peace, and it takes about an hour and a half one way." }
       ],
       kupiti: [

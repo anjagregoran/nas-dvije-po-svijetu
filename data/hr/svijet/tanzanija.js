@@ -4,6 +4,17 @@ window.ATLAS["tanzanija"] = {
   ime: "Tanzanija",
   regija: "Podsaharska Afrika",
   sazetak: "Beskrajne ravnice Serengetija, najviši vrh Afrike i otok začina, sve u jednoj zemlji.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "National Geographic Education: Kilimanjaro", url: "https://education.nationalgeographic.org/resource/kilimanjaro" },
+    { ime: "Afar: How to Experience Stone Town, Zanzibar", url: "https://www.afar.com/magazine/how-to-experience-stone-town-zanzibar" },
+    { ime: "Afar: Night Market at Forodhani Gardens", url: "https://www.afar.com/places/night-market-at-forodhani-gardens-zanzibar" },
+    { ime: "Afar: Shanga, Arusha", url: "https://www.afar.com/places/shanga" },
+    { ime: "Migrationology: Chips Mayai", url: "https://migrationology.com/chips-mayai-french-fries-omelet-a-staple-of-tanzanian-junk-food" },
+    { ime: "Music In Africa: Sauti za Busara 2027 festival dates moved", url: "https://www.musicinafrica.net/node/391545" },
+    { ime: "Daily News Tanzania: Sauti za Busara names Mnazi Mmoja as its new venue", url: "https://dailynews.co.tz/sauti-za-busara-names-mnazi-mmoja-as-its-new-venue-2/" },
+    { ime: "Duma Explorer: New Mandatory Travel Insurance for Tanzania", url: "https://www.dumaexplorer.com/blog/tanzania-travel-insurance" },
+    { ime: "Mwani Zanzibar", url: "https://mwanizanzibar.com/" }
+  ] },
   uvod: [
     "Tanzanija je nastala 1964. spajanjem kopnene Tanganjike i otočja Zanzibar, a i samo joj je ime složeno od tih dviju riječi. Na kopnu su se u klancu Olduvai i kod Laetolija sačuvali neki od najstarijih tragova ljudskih predaka, dok je obala više od tisuću godina bila dio trgovačkog svijeta Indijskog oceana, u kojem su se susretali Afrikanci, Arapi, Perzijanci i Indijci.",
     "Krajem 19. stoljeća kopno je postalo njemačka kolonija, a nakon Prvoga svjetskog rata preuzeli su ga Britanci. Prvi predsjednik Julius Nyerere, kojega zovu Mwalimu, odnosno učitelj, učinio je svahili zajedničkim jezikom više od 120 naroda, što je zemlji donijelo rijetko miran suživot. Gotovo trećina države zaštićena je kao park ili rezervat."
@@ -12,22 +23,22 @@ window.ATLAS["tanzanija"] = {
     { k: "Kada ići", v: "Suho je od lipnja do listopada, što je najbolje za safari i Zanzibar. Od prosinca do ožujka gnuovi se tele na jugu Serengetija. Duge kiše padaju u travnju i svibnju." },
     { k: "Valuta", v: "Tanzanijski šiling (TZS). Safari i ulaznice u parkove obično se plaćaju u američkim dolarima ili karticom, a za tržnice i napojnice treba lokalna gotovina." },
     { k: "Kretanje", v: "Na sjeveru se putuje terenskim vozilom s vozačem i vodičem iz Arushe, a do Zanzibara i udaljenih dijelova Serengetija lete mali zrakoplovi. Između Dar es Salaama i Zanzibara vozi brzi trajekt." },
-    { k: "Ulazak", v: "Potrebna je viza, koja se može zatražiti elektronički. Zanzibar od posjetitelja traži i vlastito obvezno putno osiguranje, pa prije puta provjerite aktualne uvjete." },
+    { k: "Ulazak", v: "Potrebna je viza, koja se može zatražiti elektronički. Od 1. listopada 2026. i kopnena Tanzanija od stranih posjetitelja traži obvezno putno osiguranje, kakvo Zanzibar ima još od 2024. Dovoljna je jedna polica, i to ona za dio zemlje u koji najprije ulazite, a aktualne uvjete provjerite prije puta." },
     { k: "Napojnica", v: "Na safariju i usponu na Kilimandžaro napojnice vodiču, kuharu i nosačima daju se na kraju i bitan su dio njihove plaće. U restoranima je dovoljno 10 posto." }
   ],
   hrana: [
     { ime: "Ugali", opis: "Čvrsta kaša od kukuruznog brašna koja se jede uz svako glavno jelo.", prica: "Otkida se desnom rukom, oblikuje u kuglicu i njome se zahvaća umak od mesa, ribe ili povrća. Tanzanijci će vam reći da bez ugalija nisu ni jeli." },
     { ime: "Nyama choma", opis: "Meso pečeno na žaru, najčešće kozletina ili govedina.", prica: "Naručuje se na težinu i jede u društvu, uz salatu od rajčice i luka te ljuti umak pili pili. Subotnje poslijepodne uz pečeno meso i pivo omiljeni je način izlaska." },
-    { ime: "Chipsi mayai", opis: "Omlet u koji je umiješan pomfrit.", prica: "Najdraža je ulična hrana u zemlji, peče se u maloj tavi na ugljenu i poslužuje s kečapom i kupus salatom. Naći ćete je na svakom autobusnom kolodvoru." },
+    { ime: "Chipsi mayai", opis: "Omlet u koji je umiješan pomfrit.", prica: "Najdraža je ulična hrana u zemlji, peče se u tavi na vatri i poslužuje uz kachumbari, salatu od rajčice i luka, te blagi čili umak od rajčice. Naći ćete je na svakom autobusnom kolodvoru." },
     { ime: "Pilau", opis: "Riža kuhana u temeljcu s klinčićem, cimetom, kardamomom i kuminom.", prica: "Jelo je svahilske obale i neizostavno je na vjenčanjima i blagdanima. Začini rastu upravo na Zanzibaru, koji je u 19. stoljeću bio najveći svjetski proizvođač klinčića." },
     { ime: "Zanzibarska pizza", opis: "Tanko razvučeno tijesto presavijeno oko nadjeva od mesa, jaja, sira i povrća pa pečeno na ploči.", prica: "S talijanskom pizzom nema ništa zajedničko i bliža je punjenoj palačinki. Postoji i slatka inačica s bananom i čokoladom, a jede se navečer u vrtovima Forodhani." },
-    { ime: "Urojo", opis: "Žuta kiselkasta juha od manga i kurkume s okruglicama, krumpirom i hrskavim rezancima.", prica: "Na Zanzibaru je zovu i zanzibarski miks, a potječe iz indijske ulične kuhinje. Svaki prodavač slaže je po svom, pa okus nikada nije isti." },
+    { ime: "Urojo", opis: "Žuta kiselkasta juha zakiseljena mangom ili tamarindom i obojena kurkumom, s okruglicama, krumpirom i hrskavim rezancima.", prica: "Na Zanzibaru je zovu i zanzibarski miks, a najčešće je povezuju s indijskom zajednicom na otoku. Svaki prodavač slaže je po svom, pa okus nikada nije isti." },
     { ime: "Mishkaki", opis: "Ražnjići od marinirane govedine pečeni na ugljenu.", prica: "Meso odleži u đumbiru, češnjaku i limeti, a ražnjići se prodaju po komadu na ulici čim padne mrak." },
-    { ime: "Mandazi", opis: "Trokutasto prženo tijesto s kokosovim mlijekom i kardamomom, manje slatko od krafne.", prica: "Jede se za doručak uz slatki začinjeni čaj. Na obali ga zovu i mahamri." },
+    { ime: "Mandazi", opis: "Trokutasto prženo tijesto s kokosovim mlijekom i kardamomom, manje slatko od krafne.", prica: "Jede se za doručak uz slatki začinjeni čaj. Na svahilskoj obali inačicu s kokosovim mlijekom i kardamomom obično zovu mahamri." },
     { ime: "Kava s Kilimandžara", opis: "Arabica koju na obroncima planine uzgaja narod Chagga.", prica: "Kavu su ovamo krajem 19. stoljeća donijeli misionari, a Chagge su je posadili u sjeni stabala banane. Na Zanzibaru se pak pije jaka kava sa začinima iz mjedenih vrčeva, uz komadić slatkiša od kikirikija." }
   ],
   obicaji: [
-    { ime: "Taarab", opis: "Glazba Zanzibara u kojoj se arapske ljestvice, indijske melodije i afrički ritmovi spajaju uz svahilske stihove. Sviraju je orkestri s violinama, lutnjom ud i citrom kanun, a najslavnija pjevačica bila je Siti binti Saad, koja je 1928. prva u istočnoj Africi snimila ploču.", gdje: "Glazbena akademija Dhow Countries Music Academy u Stone Townu priređuje koncerte i poduku." },
+    { ime: "Taarab", opis: "Glazba Zanzibara u kojoj se arapske ljestvice, indijske melodije i afrički ritmovi spajaju uz svahilske stihove. Sviraju je orkestri s violinama, lutnjom ud i citrom kanun, a najslavnija pjevačica bila je Siti binti Saad, koja je 1928. otputovala u Bombay i postala prva istočnoafrička pjevačica čije su pjesme izdane na gramofonskim pločama.", gdje: "Glazbena akademija Dhow Countries Music Academy u Stone Townu priređuje koncerte i poduku." },
     { ime: "Tingatinga", opis: "Slikarski stil jarkih boja i stiliziranih životinja nazvan je po Edwardu Saidiju Tingatingi, koji je 1960-ih u Dar es Salaamu počeo slikati emajlom za bicikle na pločama od lesonita. Danas ga nastavlja cijela zadruga slikara.", gdje: "Zadruga Tingatinga u Dar es Salaamu i galerije u Stone Townu i Arushi." },
     { ime: "Kanga", opis: "Pamučna tkanina s obrubom i svahilskom izrekom u sredini, koju žene nose omotanu oko struka ili preko glave. Izreka se bira pažljivo jer se njome može čestitati, upozoriti ili nekomu poručiti ono što se ne govori naglas.", gdje: "Tržnica Darajani u Stone Townu; zamolite prodavačicu da vam prevede natpis prije kupnje." },
     { ime: "Svahilsko vrijeme", opis: "Dan se na svahiliju broji od izlaska sunca, pa je sedam ujutro „prvi sat“, a podne „šesti sat“. Budući da je zemlja blizu ekvatora, sunce izlazi i zalazi gotovo u isto doba cijele godine.", gdje: "Pri dogovoru s vozačem ili vodičem uvijek provjerite misli li na svahilsko ili međunarodno vrijeme." },
@@ -104,7 +115,7 @@ window.ATLAS["tanzanija"] = {
         { ime: "Klanac Olduvai", opis: "Na putu prema Serengetiju nalazi se klanac u čijim su slojevima Mary i Louis Leakey desetljećima tražili fosile. Mary je 1959. pronašla lubanju staru oko 1,75 milijuna godina, zbog snažnih zuba prozvanu Orašar. U muzeju je i odljev otisaka stopala iz Laetolija." }
       ],
       jesti: [
-        { ime: "Ručak kod jezerca s vodenkonjima", opis: "Jede se iz kutije na jedinom izletištu na dnu kratera. Hranu držite u vozilu, jer je crne lunje u letu otimaju iz ruku." },
+        { ime: "Ručak kod jezerca s vodenkonjima", opis: "Jede se iz kutije na izletištu Ngoitokitok na dnu kratera, uz jezerce puno vodenkonja. Hranu držite u vozilu, jer je crne lunje u letu otimaju iz ruku." },
         { ime: "Kava s farmi oko Karatua", opis: "Na obroncima ispod kratera uzgaja se arabica, a farme nude obilazak od grma do šalice." }
       ],
       dozivjeti: [
@@ -124,7 +135,7 @@ window.ATLAS["tanzanija"] = {
       vrsta: "priroda",
       sazetak: "Najviša planina Afrike, na čiji se vrh može popeti bez alpinističke opreme.",
       prica: [
-        "Kilimandžaro je ugasli vulkan s tri vrha: Shira, Mawenzi i najviši Kibo, na čijem je rubu vrh Uhuru na 5895 metara. Najviša je samostojeća planina na svijetu, jer se sama diže iz ravnice i ne pripada nikakvu gorju.",
+        "Kilimandžaro je vulkan s tri vrha: Shira i Mawenzi su ugasli, a najviši Kibo, na čijem je rubu vrh Uhuru na 5895 metara, samo miruje. Najviša je samostojeća planina na svijetu, jer se sama diže iz ravnice i ne pripada nikakvu gorju.",
         "Prvi su se na vrh 1889. popeli njemački geograf Hans Meyer i austrijski alpinist Ludwig Purtscheller, a vodio ih je mladi Chagga Yohani Kinyala Lauwo. Vrh je 1961., na dan neovisnosti, nazvan Uhuru, što znači sloboda. Ledenjaci na vrhu ubrzano se smanjuju i izgubili su veći dio površine u posljednjih stotinu godina."
       ],
       vidjeti: [
@@ -163,7 +174,7 @@ window.ATLAS["tanzanija"] = {
         { ime: "Rezbarena vrata", opis: "U gradu je sačuvano nekoliko stotina starih vrata, koja su se izrađivala prije kuće i pokazivala bogatstvo vlasnika. Arapska su pravokutna, s natpisima iz Kurana, a indijska imaju polukružni nadvoj i mjedene šiljke, preuzete iz Indije, gdje su branili vrata od ratnih slonova." },
         { ime: "Anglikanska katedrala i spomenik robovima", opis: "Katedrala je 1870-ih sagrađena točno na mjestu tržnice robova, a oltar stoji ondje gdje je bio stup za bičevanje. U podrumu susjedne zgrade vide se niske ćelije u kojima su ljudi čekali prodaju, a u dvorištu je skulptura robova u jami s izvornim lancima." },
         { ime: "Kuća čuda", opis: "Sultan Barghash sagradio je 1883. palaču Beit al-Ajaib, prvu zgradu na otoku s električnom rasvjetom i dizalom, pa otuda ime. Dio zgrade urušio se 2020. i obnova još traje, pa je možete pogledati samo izvana." },
-        { ime: "Stara utvrda", opis: "Omanci su je sagradili oko 1700. nakon što su protjerali Portugalce, i to na temeljima njihove kapele. Danas su u dvorištu štandovi i pozornica na kojoj se održavaju festivali." },
+        { ime: "Stara utvrda", opis: "Omanci su je sagradili oko 1700. nakon što su protjerali Portugalce, i to na temeljima njihove kapele. Danas su u dvorištu štandovi s rukotvorinama i ljetna pozornica, a 2026. utvrda se obnavljala." },
         { ime: "Tržnica Darajani", opis: "Glavna gradska tržnica radi od 1904. U jednoj su hali ribe i hobotnice s jutarnje dražbe, u drugoj hrpe klinčića, cimeta, vanilije i muškatnog oraščića." },
         { ime: "Muzej Freddieja Mercuryja", opis: "U kući u kojoj je obitelj Bulsara živjela izložene su fotografije iz djetinjstva i priča o parsijskoj zajednici Zanzibara, kojoj je pjevač pripadao.", }
       ],
@@ -175,8 +186,8 @@ window.ATLAS["tanzanija"] = {
       dozivjeti: [
         { ime: "Obilazak farme začina", opis: "Vodič vam daje da pomirišete koru, list ili korijen i pogađate o kojem je začinu riječ. Vidjet ćete da cimet raste kao kora, a muškatni oraščić u crvenoj mrežici." },
         { ime: "Koncert taaraba", opis: "Glazbena akademija u Stone Townu redovito priređuje večeri taaraba i nudi kratke radionice bubnjanja.", link: "https://www.zanzibarmusic.org/" },
-        { ime: "Sauti za Busara", opis: "Jedan od najpoznatijih festivala afričke glazbe održava se u veljači u Staroj utvrdi.", link: "https://busaramusic.org/" },
-        { ime: "Otok Changuu", opis: "Dvadeset minuta čamcem od grada žive divovske kornjače s Aldabre, potomci onih koje su 1919. darovane sa Sejšela. Najstarije imaju više od stotinu godina." }
+        { ime: "Sauti za Busara", opis: "Jedan od najpoznatijih festivala afričke glazbe održava se u Stone Townu svake godine, obično u veljači, iako je izdanje 2027. najavljeno za 19. do 21. ožujka. Nakon više od dvadeset godina u Staroj utvrdi festival se 2026. preselio na poljanu Mnazi Mmoja, pa aktualno mjesto održavanja provjerite na službenoj stranici.", link: "https://busaramusic.org/" },
+        { ime: "Otok Changuu", opis: "Oko pola sata čamcem od grada žive divovske kornjače s Aldabre, potomci onih koje su 1919. darovane sa Sejšela. Najstarije imaju više od stotinu godina." }
       ],
       agencije: [
         { ime: "Tanzania Tourist Board", opis: "Službena turistička zajednica Tanzanije, s informacijama i o Zanzibaru.", link: "https://tanzaniatourism.go.tz/" },
@@ -207,8 +218,8 @@ window.ATLAS["tanzanija"] = {
         { ime: "Voće sa Zanzibara", opis: "Kušajte crveni jackfruit, zvjezdasto voće i male slatke banane, koje se prodaju uz cestu." }
       ],
       dozivjeti: [
-        { ime: "Radionica s uzgajivačicama algi", opis: "U Pajeu ženska zadruga pokazuje kako se alge sade i suše te kako se od njih rade sapuni. Tako ćete saznati i zašto im zagrijavanje mora ugrožava posao." },
-        { ime: "Mwaka Kogwa", opis: "U selu Makunduchi u srpnju se slavi perzijska Nova godina: muškarci se obredno tuku stabljikama banane da izbace sve stare zamjerke, a zatim se pali koliba i slijedi gozba." },
+        { ime: "Radionica s uzgajivačicama algi", opis: "U Pajeu centar Mwani Zanzibar, koji surađuje s mjesnim uzgajivačicama, pokazuje kako se alge sade i suše te kako se od njih rade sapuni. Tako ćete saznati i zašto im zagrijavanje mora ugrožava posao." },
+        { ime: "Mwaka Kogwa", opis: "U selu Makunduchi u drugoj polovici srpnja slavi se Nova godina naroda Shirazi, običaj perzijskog podrijetla: muškarci se obredno tuku stabljikama banane da izbace sve stare zamjerke, a zatim se pali koliba i slijedi gozba." },
         { ime: "Zalazak sunca u Kendwi", opis: "Zapadna obala jedina gleda na zalazak sunca nad morem, a jedrenjaci se tada vraćaju iz ribolova." }
       ],
       agencije: [

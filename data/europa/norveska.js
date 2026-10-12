@@ -12,11 +12,9 @@ window.ATLAS["norveska"] = {
     { ime: "Visit Norway: Brown cheese", url: "https://www.visitnorway.com/things-to-do/food-and-drink/brown-cheese/" },
     { ime: "North Wild Kitchen: Persetorsk, Bergen pressed cod", url: "https://northwildkitchen.com/persetorsk-bergen-pressed-cod/" },
     { ime: "The Local Norway: Why Norwegians love fårikål", url: "https://www.thelocal.no/20220929/discover-norway-why-norwegians-love-farikal-so-much" },
-    { ime: "NPR: How the Norwegian salmon industry created a sushi staple", url: "https://www.npr.org/2015/09/18/441530790/how-the-desperate-norwegian-salmon-industry-created-a-sushi-staple" },
     { ime: "The Man in Seat 61: Trains from Oslo", url: "https://www.seat61.com/international-trains/trains-from-Oslo.htm" },
-    { ime: "Visit Oslo: Island hopping in the Oslo Fjord", url: "https://www.visitoslo.com/activity/island-hopping-in-the-oslo-fjord" },
     { ime: "Fjord Norway: Information about Trollstigen road", url: "https://www.fjordnorway.com/en/inspiration/information-about-the-closure-of-trollstigen-road" },
-    { ime: "Northern Norway Tourist Board: The Blacksmith of Sund", url: "https://nordnorge.com/en/aktivitet/the-blacksmith-of-sund-offers-an-iron-souvenir-you-wont-be-finding-elsewhere/" }
+    { ime: "Arctic Norway (Northern Norway Tourist Board)", url: "https://arcticnorway.com/" }
   ] },
   uvod: [
     "Norway is a long, narrow country shaped by ice. Over the ice ages, glaciers carved out deep valleys, the sea then flooded them, and that is how the fjords were born, which is why the coastline, once you add up all the islands and inlets, measures more than a hundred thousand kilometers. Almost everything you will see, from fishermen's cabins on stilts to towns squeezed up against the water, is explained by the fact that for centuries the sea was the only real road here.",

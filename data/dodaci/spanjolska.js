@@ -130,7 +130,7 @@ window.DODACI["spanjolska"] = {
     },
     "bilbao": {
       dragulji: [
-        { ime: "The old port of Algorta", opis: "In Getxo, at the end of the metro line, a handful of white fishermen's houses clings to a slope above the sea. Locals drink beer on the steps here with a view of the bay." },
+        { ime: "The old port of Algorta", opis: "In Getxo, an easy metro ride from the center, a handful of white fishermen's houses clings to a slope above the sea. Locals drink beer on the steps here with a view of the bay." },
         { ime: "The Vizcaya Bridge", opis: "This 19th-century iron bridge carries people and cars in a gondola hanging from its frame. You can also go up to the walkway on top, high above the river." },
         { ime: "Mount Artxanda", opis: "An old funicular takes a few minutes to reach a lookout over the whole valley and the city inside it. Up top there is a park and restaurants where people go for Sunday lunch." }
       ],
@@ -191,7 +191,7 @@ window.DODACI["spanjolska"] = {
         { ime: "Pa amb oli for dinner", opis: "A slice of dark bread is rubbed with tomato and drizzled with oil, then topped with cheese or ham. It is an everyday Mallorcan dinner, and even simple bars serve it." }
       ],
       kupiti: [
-        { ime: "Ensaimada and sobrasada", opis: "Ensaimada is packed in octagonal boxes made for carrying onto the plane, and the soft paprika sausage is bought at a butcher's. Both carry a designation of origin from the island." },
+        { ime: "Ensaimada and sobrasada", opis: "Ensaimada is packed in octagonal boxes made for carrying onto the plane, and the soft paprika sausage is bought at a butcher's. Both carry a protected geographical indication from the island." },
         { ime: "Roba de llengües", opis: "This fabric with a pattern like tongues of flame is woven on the island using the ikat technique. It is made into cushion covers, tablecloths and bags, and a few weaving mills on the island still produce it." },
         { ime: "Flor de sal", opis: "Salt is gathered by hand in the salt pans in the south of the island, near Es Trenc beach. It is sold plain or mixed with Mediterranean herbs." }
       ]

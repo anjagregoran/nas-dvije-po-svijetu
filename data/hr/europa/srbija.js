@@ -4,7 +4,7 @@ window.ATLAS["srbija"] = {
   ime: "Srbija",
   regija: "Jugoistočna Europa",
   sazetak: "Zemlja velikih rijeka i dugih ručkova, u kojoj Dunav probija najveću klisuru Europe, a srednjovjekovni samostani čuvaju freske starije od Giotta.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "UNESCO Intangible Cultural Heritage: šljivovica", url: "https://ich.unesco.org/en/RL/social-practices-and-knowledge-related-to-the-preparation-and-use-of-the-traditional-plum-spirit-sljivovica-01882" },
     { ime: "National Tourism Organisation of Serbia: Djerdap National Park", url: "https://serbia.travel/en/djerdap-national-park" },
     { ime: "National Tourism Organisation of Serbia: Authentic wine villages", url: "https://www.serbia.travel/en/stories-items/authentic-wine-villages/" },

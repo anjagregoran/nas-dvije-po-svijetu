@@ -4,7 +4,7 @@ window.ATLAS["bih"] = {
   ime: "Bosna i Hercegovina",
   regija: "Jugoistočna Europa",
   sazetak: "Susjedna zemlja koju mislimo da poznajemo, a u kojoj se na sto koraka smjenjuju džamija, katedrala, pravoslavna crkva i sinagoga, i gdje se kava nikada ne pije na brzinu.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "Sarajevo Navigator: Sevdah Art House", url: "https://www.sarajevonavigator.ba/en/place/167" },
     { ime: "Sarajevo Navigator: Trebević Cable Car", url: "https://www.sarajevonavigator.ba/en/text/636" },
     { ime: "Rough Guides: Eating and Drinking in Bosnia-Herzegovina", url: "https://www.roughguides.com/destinations/europe/bosnia-herzegovina/food-drink" },

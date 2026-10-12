@@ -4,7 +4,7 @@ window.ATLAS["ceska"] = {
   ime: "Češka",
   regija: "Srednja Europa",
   sazetak: "Zemlja gotičkih tornjeva, lječilišnih kolonada i piva koje je promijenilo svijet, u kojoj svaki gradski trg ima svoju priču.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "Rick Steves: Czech Republic", url: "https://www.ricksteves.com/europe/czech-republic" },
     { ime: "Rick Steves: Prague", url: "https://www.ricksteves.com/europe/czech-republic/prague" },
     { ime: "Radio Prague International: Is trdelník traditional?", url: "https://english.radio.cz/trdelnik-traditional-tourists-say-who-cares-8144594" },

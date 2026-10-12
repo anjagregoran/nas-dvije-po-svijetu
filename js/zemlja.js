@@ -243,7 +243,7 @@
   function checked() {
     var c = Z.provjereno;
     if (!c || !has(c.izvori)) return '';
-    return '<div class="checked"><span class="label">Checked against</span><p>' + c.izvori.map(function (s) { return link(s.url, s.ime); }).join(' · ') + '</p></div>';
+    return '<div class="checked"><span class="label">' + (c.djelomicno ? 'Partly checked against' : 'Checked against') + '</span><p>' + c.izvori.map(function (s) { return link(s.url, s.ime); }).join(' · ') + '</p></div>';
   }
 
   // ---------- prozor koji se otvara ----------

@@ -4,7 +4,7 @@ window.ATLAS["italija"] = {
   ime: "Italija",
   regija: "Južna Europa",
   sazetak: "Zemlja u kojoj je svaki trg pozornica, svaka crkva muzej, a svaka regija ima svoju tjesteninu i svoj razlog zašto je baš njezina najbolja.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "ANSA: Rome starts charging two-euro fee for Trevi Fountain", url: "https://www.ansa.it/amp/english/news/lifestyle/arts/2026/02/02/rome-starts-charging-two-euro-fee-for-trevi-fountain_d4580d1d-3353-478d-96f1-2cd289f9bb7f.html" },
     { ime: "Bologna Welcome: The Two Towers", url: "https://www.bolognawelcome.com/en/places/towers-historic-buildings/the-two-towers-garisenda-and-degli-asinelli-eng" },
     { ime: "Finestre sull'Arte: new visiting rules for Juliet's House in Verona", url: "https://www.finestresullarte.info/attualita/da-1-aprile-2026-nuove-modalita-di-visita-cortile-e-casa-giulietta-a-verona" },

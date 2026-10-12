@@ -4,7 +4,7 @@ window.ATLAS["turska"] = {
   ime: "Turkey",
   regija: "Southeastern Europe",
   sazetak: "A country on two continents where in a single day you will drink tea in Europe, have lunch in Asia and, along the way, work out where the Croatian words jastuk (pillow), čarapa (sock), sat (clock) and kat (floor) come from.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "National Palaces of Turkey: Topkapı Palace tickets", url: "https://www.millisaraylar.gov.tr/en/palaces/topkapi-palace" },
     { ime: "Rick Steves: Istanbul", url: "https://www.ricksteves.com/europe/turkey/istanbul" },
     { ime: "Culinary Backstreets: Eminönü stories", url: "https://culinarybackstreets.com/tag/eminonu" },

@@ -4,7 +4,7 @@ window.ATLAS["bih"] = {
   ime: "Bosnia and Herzegovina",
   regija: "Southeastern Europe",
   sazetak: "The neighboring country Croatians think they already know, where a mosque, a cathedral, an Orthodox church and a synagogue follow one another within a hundred paces and where coffee is never drunk in a hurry.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "Sarajevo Navigator: Sevdah Art House", url: "https://www.sarajevonavigator.ba/en/place/167" },
     { ime: "Sarajevo Navigator: Trebević Cable Car", url: "https://www.sarajevonavigator.ba/en/text/636" },
     { ime: "Rough Guides: Eating and Drinking in Bosnia-Herzegovina", url: "https://www.roughguides.com/destinations/europe/bosnia-herzegovina/food-drink" },

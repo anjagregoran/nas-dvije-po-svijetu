@@ -4,7 +4,7 @@ window.ATLAS["ceska"] = {
   ime: "Czech Republic",
   regija: "Central Europe",
   sazetak: "A land of Gothic towers, spa colonnades and a beer that changed the world, where every town square has its own story.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "Rick Steves: Czech Republic", url: "https://www.ricksteves.com/europe/czech-republic" },
     { ime: "Rick Steves: Prague", url: "https://www.ricksteves.com/europe/czech-republic/prague" },
     { ime: "Radio Prague International: Is trdelník traditional?", url: "https://english.radio.cz/trdelnik-traditional-tourists-say-who-cares-8144594" },

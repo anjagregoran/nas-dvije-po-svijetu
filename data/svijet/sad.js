@@ -4,7 +4,7 @@ window.ATLAS["sad"] = {
   ime: "USA",
   regija: "North America",
   sazetak: "A country where skyscrapers, jazz clubs, desert canyons and geysers all fit into a single trip, and where every state has its own flavor and its own music.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "National Park Service: Grand Canyon North Rim 2026 reopening", url: "https://home.nps.gov/grca/learn/news/north-rim-reopening-2026.htm" },
     { ime: "National Park Service: Delicate Arch", url: "https://www.nps.gov/arch/planyourvisit/delicate-arch.htm" },
     { ime: "Yosemite Conservancy: Know Before You Go, Yosemite in 2026", url: "https://www.yosemite.org/know-before-you-go-yosemite-in-2026/" },

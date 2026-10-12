@@ -4,7 +4,7 @@ window.ATLAS["slovenija"] = {
   ime: "Slovenija",
   regija: "Srednja Europa",
   sazetak: "Susjeda u kojoj su Alpe, krš, vinorodni brežuljci i komadić Jadrana stali u zemlju koju se može proći u jednom danu.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "Michelin Guide Slovenia: Hiša Franko", url: "https://guide.michelin.com/en/goriska/kobarid/restaurant/hisa-franko" },
     { ime: "Slovenian Tourist Board: Osmice wine bars", url: "https://www.slovenia.info/en/stories/follow-ivy-branches-to-find-your-way-to-osmice-wine-bars" },
     { ime: "Government of Slovenia: Slovenska potica protected in the EU", url: "https://www.gov.si/en/news/2021-04-22-european-commission-protects-slovenska-potica/" },

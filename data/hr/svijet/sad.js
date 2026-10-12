@@ -4,7 +4,7 @@ window.ATLAS["sad"] = {
   ime: "SAD",
   regija: "Sjeverna Amerika",
   sazetak: "Zemlja u kojoj u jednom putovanju stanu neboderi, jazz klubovi, pustinjski kanjoni i gejziri, a svaka savezna država ima svoj okus i svoju glazbu.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "National Park Service: Grand Canyon North Rim 2026 reopening", url: "https://home.nps.gov/grca/learn/news/north-rim-reopening-2026.htm" },
     { ime: "National Park Service: Delicate Arch", url: "https://www.nps.gov/arch/planyourvisit/delicate-arch.htm" },
     { ime: "Yosemite Conservancy: Know Before You Go, Yosemite in 2026", url: "https://www.yosemite.org/know-before-you-go-yosemite-in-2026/" },

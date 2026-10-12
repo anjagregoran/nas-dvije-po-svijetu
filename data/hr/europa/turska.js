@@ -4,7 +4,7 @@ window.ATLAS["turska"] = {
   ime: "Turska",
   regija: "Jugoistočna Europa",
   sazetak: "Zemlja na dva kontinenta u kojoj ćete u jednom danu popiti čaj u Europi, ručati u Aziji i usput shvatiti odakle nam jastuk, čarapa, sat i kat.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "National Palaces of Turkey: Topkapı Palace tickets", url: "https://www.millisaraylar.gov.tr/en/palaces/topkapi-palace" },
     { ime: "Rick Steves: Istanbul", url: "https://www.ricksteves.com/europe/turkey/istanbul" },
     { ime: "Culinary Backstreets: Eminönü stories", url: "https://culinarybackstreets.com/tag/eminonu" },

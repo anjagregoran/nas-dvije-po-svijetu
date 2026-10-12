@@ -4,7 +4,7 @@ window.ATLAS["grcka"] = {
   ime: "Grčka",
   regija: "Jugoistočna Europa",
   sazetak: "Zemlja u kojoj se uz jutarnju kavu gleda u hram star dvadeset i pet stoljeća, a navečer se uz ribu i uzo raspravlja kao da se demokracija izmišlja upravo za tim stolom.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "Visit Greece (Greek National Tourism Organization): Greek Islands", url: "https://www.visitgreece.gr/en/islands/" },
     { ime: "Visit Greece: The White Tower", url: "https://www.visitgreece.gr/en/experiences/nature/culture/the-white-tower" },
     { ime: "Ephorate of Antiquities of Cyclades: The Archaeological Museum of Naxos", url: "https://cyclades.culture.gov.gr/en/location/the-archaeological-museum-of-naxos/" },

@@ -4,6 +4,20 @@ window.ATLAS["spanjolska"] = {
   ime: "Španjolska",
   regija: "Južna Europa",
   sazetak: "Zemlja u kojoj se maurske palače, gotičke katedrale i Gaudíjeve kuće obilaze danju, a večer počinje tek kada se na šank iznesu tapasi.",
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
+    { ime: "Vatican News: Sagrada Família, cross on the Tower of Jesus Christ", url: "https://www.vaticannews.va/en/church/news/2026-02/basilica-sagrada-familia-cross-completed-tower-of-jesus-christ.html" },
+    { ime: "esMADRID: Palacio de Cristal", url: "https://www.esmadrid.com/en/tourist-information/palacio-de-cristal" },
+    { ime: "esMADRID: El Rastro", url: "https://www.esmadrid.com/en/shopping/el-rastro" },
+    { ime: "Chocolatería San Ginés", url: "https://chocolateriasangines.com/" },
+    { ime: "Rick Steves: San Sebastián, Gateway to the Basque Country", url: "https://www.ricksteves.com/watch-read-listen/read/articles/san-sebastian-gateway-to-the-basque-country" },
+    { ime: "Devour Tours: Pintxos in San Sebastián", url: "https://devourtours.com/blog/pintxos-in-san-sebastian/" },
+    { ime: "UNESCO: Irrigators' tribunals of the Spanish Mediterranean coast", url: "https://ich.unesco.org/en/RL/irrigators-tribunals-of-the-spanish-mediterranean-coast-the-council-of-wise-men-of-the-plain-of-murcia-and-the-water-tribunal-of-the-plain-of-valencia-00171" },
+    { ime: "Toledo Monumental: tourist wristband", url: "https://toledomonumental.com/" },
+    { ime: "Mercado de Abastos de Santiago", url: "https://www.mercadodeabastosdesantiago.com/" },
+    { ime: "Hornazo de Salamanca, Marca de Garantía", url: "https://hornazodesalamanca.org/" },
+    { ime: "Barcelona Cooking", url: "https://barcelonacooking.net/" },
+    { ime: "Ca'n Joan de s'Aigo", url: "https://canjoandesaigo.com/" }
+  ] },
   uvod: [
     "Španjolska je zapravo više zemalja u jednoj, jer se Katalonija, Baskija, Galicija i Andaluzija razlikuju jezikom, kuhinjom, glazbom i krajolikom toliko da ćete na svakom putovanju imati dojam da ste prešle granicu. Ono što ih povezuje jest život na ulici: ruča se oko dva, večera nakon devet, a trgovi su u ponoć puni djece i baka. Tko prihvati taj ritam i ne pokušava večerati u sedam, doživjet će zemlju onako kako je žive njezini stanovnici.",
     "Ključ za razumijevanje onoga što ćete gledati jest gotovo osam stoljeća suživota i sukoba triju vjera. Mauri su na Pirenejski poluotok stigli 711. godine i stvorili Al-Andalus, čiji su gradovi Córdoba, Sevilla i Granada bili među najsjajnijima u tadašnjoj Europi. Kršćanska kraljevstva sa sjevera postupno su osvajala jug, a taj je proces, zvan rekonkvista, završio 1492. padom Granade. Iste su godine Katolički kraljevi Izabela i Ferdinand protjerali Židove i poslali Kolumba preko Atlantika, pa je u Sevillu potekao golem imetak iz Novog svijeta, kojim su plaćene katedrale i palače zlatnog doba.",
@@ -23,7 +37,7 @@ window.ATLAS["spanjolska"] = {
     { ime: "Croquetas", opis: "Kroketi od gustog bešamela s pršutom, piletinom ili bakalarom, hrskavi izvana i kremasti iznutra.", prica: "Nastali su kao način da se iskoristi meso preostalo od nedjeljnog variva. Mnogi Španjolci tvrde da se kvaliteta bara najbolje procjenjuje upravo po kroketima, a najbolji su, dakako, uvijek oni koje radi baka." },
     { ime: "Pulpo á feira", opis: "Kuhana hobotnica narezana škarama na kolutiće, začinjena krupnom solju, slatkom i ljutom paprikom i maslinovim uljem.", prica: "Galicijsko jelo koje se tradicionalno pripremalo na stočnim sajmovima, odakle mu i ime. Hobotnicu kuhaju žene zvane pulpeiras u velikim bakrenim kotlovima, a poslužuje se na drvenom tanjuru. Španjolci je na ostatku poluotoka zovu pulpo a la gallega." },
     { ime: "Pintxos", opis: "Baskijski zalogaji na kriški kruha, često probodeni čačkalicom, koji se jedu stojeći za šankom.", prica: "Ime dolazi od glagola pinchar, što znači nabosti. Običaj je u jednom baru pojesti jedan ili dva zalogaja uz malu čašu vina ili piva, pa krenuti u sljedeći. Hladni stoje na šanku, a tople treba naručiti s ploče na zidu." },
-    { ime: "Churros con chocolate", opis: "Prženo tijesto u obliku rebrastih štapića koje se umače u vrlo gustu vruću čokoladu.", prica: "Jedu se za doručak ili u zoru, nakon noćnog izlaska. Deblja i mekša inačica zove se porra. U Madridu se od 1894. poslužuju u čokolateriji San Ginés, koja je otvorena do kasno u noć." },
+    { ime: "Churros con chocolate", opis: "Prženo tijesto u obliku rebrastih štapića koje se umače u vrlo gustu vruću čokoladu.", prica: "Jedu se za doručak ili u zoru, nakon noćnog izlaska. Deblja i mekša inačica zove se porra. U Madridu se od 1894. poslužuju u čokolateriji San Ginés, koja se, kako sama ističe, nikada ne zatvara." },
     { ime: "Vino de Jerez", opis: "Pojačano vino iz trokuta gradova Jerez de la Frontera, Sanlúcar de Barrameda i El Puerto de Santa María, u svijetu poznato kao sherry.", prica: "Dozrijeva u sustavu solera, u kojem se mlado vino postupno miješa sa starijim, pa svaka boca sadrži kapljice iz mnogih berbi. Fino i manzanilla suhi su i blijedi, čuvaju se pod slojem kvasca i piju hladni uz masline i pršut. Oloroso je taman i miriše na orahe, dok je Pedro Ximénez gust i sladak poput sirupa." },
     { ime: "Vermut i tinto de verano", opis: "Dva pića uz koja Španjolci provode sate prije ručka i ljetne večeri.", prica: "La hora del vermut običaj je nedjeljnog aperitiva prije ručka, uz masline i čips, osobito u Madridu i Kataloniji. Tinto de verano mješavina je crnog vina i gaziranog soka od limuna, i upravo njega, a ne sangriju, ljeti naručuju domaći." }
   ],
@@ -81,7 +95,7 @@ window.ATLAS["spanjolska"] = {
       ],
       dozivjeti: [
         { ime: "Koncert ili obilazak dvorane Palau de la Música", opis: "Dvoranu možete razgledati s vodičem, no pravi je doživljaj sjesti u nju na koncert, od klasične gitare do flamenca.", link: "https://www.palaumusica.cat/en" },
-        { ime: "Tečaj kuhanja uz posjet tržnici", opis: "Škola Barcelona Cooking na Rambli započinje tečaj kupnjom na tržnici Boqueria, a zatim se zajedno pripremaju paella, crema catalana i druga jela.", link: "https://barcelonacooking.net/" },
+        { ime: "Tečaj kuhanja uz posjet tržnici", opis: "Škola Barcelona Cooking na Rambli započinje svoj najpoznatiji tečaj vođenim obilaskom tržnice Boqueria, a zatim se zajedno pripremaju paella i još nekoliko jela.", link: "https://barcelonacooking.net/" },
         { ime: "Ljudske kule", opis: "Skupina Castellers de Barcelona na svojim stranicama objavljuje raspored nastupa, a na neke se probe može doći i gledati kako se kula uvježbava kat po kat.", link: "https://www.castellersdebarcelona.cat/" },
         { ime: "Sardana pred katedralom", opis: "Katalonski narodni ples u krugu, u koji se može uključiti svatko, tradicionalno se pleše pred katedralom vikendom. Torbe se odlažu u sredinu kruga." }
       ],
@@ -105,7 +119,7 @@ window.ATLAS["spanjolska"] = {
         { ime: "Palacio Real", opis: "Palača je podignuta od 1738. do 1764. na mjestu stare utvrde, koja je izgorjela na Badnjak 1734. godine. S više od tri tisuće prostorija jedna je od najvećih kraljevskih palača u Europi. Kraljevska obitelj ovdje ne stanuje, no palača i dalje služi za državne svečanosti. U Kraljevskoj oružarnici pogledajte oklope cara Karla V." },
         { ime: "Plaza Mayor", opis: "Trg zatvoren sa svih strana dovršen je 1619. za kralja Filipa III., čiji konjanički kip stoji u sredini. Na njemu su se održavale borbe s bikovima, krunidbe i javne osude inkvizicije. Pročelje zgrade Casa de la Panadería oslikano je mitološkim likovima tek 1992. godine." },
         { ime: "Museo Reina Sofía", opis: "Muzej umjetnosti 20. stoljeća u nekadašnjoj bolnici, u kojem se čuva Picassova Guernica. Golemo crno-bijelo platno naslikano je 1937. nakon bombardiranja baskijskog grada, a na Picassovu želju u Španjolsku je stiglo tek 1981., nakon povratka demokracije." },
-        { ime: "Park Retiro", opis: "Nekadašnji kraljevski vrt otvoren je za građane 1868., a zajedno sa šetnicom Paseo del Prado upisan je 2021. na UNESCO-ov popis svjetske baštine. Potražite Kristalnu palaču iz 1887., sagrađenu kao staklenik za filipinske biljke, i fontanu Palog anđela, jedan od rijetkih javnih spomenika Luciferu." },
+        { ime: "Park Retiro", opis: "Nekadašnji kraljevski vrt otvoren je za građane 1868., a zajedno sa šetnicom Paseo del Prado upisan je 2021. na UNESCO-ov popis svjetske baštine. Kristalna palača iz 1887., sagrađena kao staklenik za izložbu o Filipinima, zatvorena je zbog obnove do 2027., pa je zasad možete razgledati samo izvana, s druge strane jezerca, a u blizini se nalazi i fontana Palog anđela, jedan od rijetkih javnih spomenika Luciferu." },
         { ime: "Puerta del Sol", opis: "Trg od kojeg se mjere sve španjolske ceste, a ploču s oznakom nultog kilometra pronaći ćete na pločniku pred zgradom sa satom. Uz otkucaje tog sata cijela zemlja u novogodišnjoj noći jede dvanaest zrna grožđa. Brončani medvjed koji se propinje uz stablo planike gradski je grb." }
       ],
       jesti: [
@@ -185,7 +199,7 @@ window.ATLAS["spanjolska"] = {
         { ime: "Čaj i slatkiši u čajanama", opis: "U ulici Calderería Nueva pod Albaicínom nižu se čajane zvane teterías, u kojima se uz čaj od mente poslužuju kolači od badema i meda." }
       ],
       dozivjeti: [
-        { ime: "Zambra u špilji na Sacromonteu", opis: "U špilji Cueva de la Rocío, koju vodi ista obitelj od sredine prošlog stoljeća, plesači plešu na dohvat ruke od publike posjednute uza zid.", link: "https://cuevalarocio.es/" },
+        { ime: "Zambra u špilji na Sacromonteu", opis: "U špilji Cueva de la Rocío, koju vodi obitelj Maya, jedna od starih granadskih obitelji flamenca, plesači plešu na dohvat ruke od publike posjednute uza zid.", link: "https://cuevalarocio.es/" },
         { ime: "Flamenco i španjolski u školi Carmen de las Cuevas", opis: "Škola u Albaicínu nudi tečajeve plesa, gitare i španjolskog jezika u kući s pogledom na Alhambru, pa i jednotjedne tečajeve za početnice.", link: "https://www.carmencuevas.com/" },
         { ime: "Zalazak sunca na vidikovcu San Nicolás", opis: "Dođite sat ranije, jer se vidikovac napuni. Ako želite mir, produžite do vidikovca San Miguel Alto, koji je više na brdu i s kojeg se vidi cijeli grad." },
         { ime: "Večernji posjet Nasridskim palačama", opis: "U određene dane palače se mogu razgledati i nakon mraka, kada je posjetitelja manje, a štukature pod svjetlom izgledaju posve drukčije.", link: "https://www.alhambra-patronato.es/en" }
@@ -242,7 +256,7 @@ window.ATLAS["spanjolska"] = {
       vidjeti: [
         { ime: "La Lonja de la Seda", opis: "Burza svile građena je od 1482. do 1533. godine i od 1996. nalazi se na UNESCO-ovu popisu svjetske baštine. U glavnoj se dvorani zavojiti stupovi visoki oko 17 metara granaju poput palmi. Uokolo, pod stropom, teče latinski natpis koji trgovce podsjeća da će onaj tko trguje pošteno i ne vara steći bogatstvo i vječni život. Izvana potražite prilično nepristojne vodorige." },
         { ime: "Katedrala i Miguelete", opis: "Katedrala ima tri portala u trima stilovima: romaničkom, gotičkom i baroknom. U jednoj kapeli čuva se kalež od ahata, za koji crkvena predaja tvrdi da je Sveti gral. Na osmerokutni zvonik Miguelete vodi 207 stuba." },
-        { ime: "Tribunal de las Aguas", opis: "Svakog četvrtka u podne pred Vratima apostola na katedrali sastaje se osam seljaka u crnim haljama i usmeno, na valencijskom, rješava sporove oko navodnjavanja. Sud zasjeda više od tisuću godina, a njegove su presude konačne. UNESCO ga je 2009. upisao na popis nematerijalne baštine." },
+        { ime: "Tribunal de las Aguas", opis: "Svakog četvrtka u podne pred Vratima apostola na katedrali sastaje se osam seljaka u crnim haljama i usmeno, na valencijskom, rješava sporove oko navodnjavanja. Sud potječe još iz maurskog doba, pa je star oko tisuću godina, a njegove su presude konačne. UNESCO ga je 2009. upisao na popis nematerijalne baštine." },
         { ime: "Mercado Central", opis: "Secesijska tržnica od željeza, stakla i keramike, dovršena 1928., jedna je od najvećih u Europi koje i danas prodaju svježu hranu. Pogledajte kupolu oslikanu narančama i vjetrokaze na krovu, u obliku papige i ribe." },
         { ime: "Ciudad de las Artes y las Ciencias", opis: "Niz bijelih građevina koje su od 1998. do 2009. podigli Santiago Calatrava i Félix Candela. Zgrada Hemisfèric oblikovana je kao golemo oko, koje se odražava u vodi i čiji se kapak doista otvara. U sklopu su i opera, znanstveni muzej i najveći akvarij u Europi." },
         { ime: "Albufera", opis: "Plitka slatkovodna laguna desetak kilometara južno od grada, okružena rižinim poljima na kojima je nastala paella. U selu El Palmar ribari voze goste ravnim čamcima, a zalazak sunca nad vodom ubraja se među najljepše na Sredozemlju." }
@@ -254,7 +268,7 @@ window.ATLAS["spanjolska"] = {
         { ime: "Agua de Valencia", opis: "Koktel od svježeg narančina soka, pjenušca cave, votke i džina, koji se poslužuje u vrču za cijelo društvo, a smišljen je 1959. u jednom gradskom baru." }
       ],
       dozivjeti: [
-        { ime: "Tečaj paelle", opis: "U školi Escuela de Arroces y Paella Valenciana u staroj jezgri jutarnji tečaj počinje kupnjom na tržnici, a završava ručkom uz paellu koju ste same skuhale.", link: "https://www.comunitatvalenciana.com/en/travel-proposals/escuela-de-arroces-y-paella-valenciana" },
+        { ime: "Tečaj paelle", opis: "U školi Escuela de Arroces y Paella Valenciana u staroj jezgri stručnjaci za rižu vode vas kroz odabir namirnica i kuhanje prave valencijske paelle, koju na kraju zajedno i pojedete.", link: "https://www.comunitatvalenciana.com/en/travel-proposals/escuela-de-arroces-y-paella-valenciana" },
         { ime: "Las Fallas", opis: "Od 15. do 19. ožujka grad ne spava. Svakog dana u dva popodne trg pred vijećnicom zatrese mascletà, a u noći 19. ožujka sve skulpture nestaju u plamenu.", link: "https://www.visitvalencia.com/en" },
         { ime: "Tržnica i horchata", opis: "Jutro provedite među štandovima Središnje tržnice, a zatim prijeđite nekoliko ulica do stare slastičarnice na čašu horchate.", link: "https://www.horchateriasantacatalina.com/" },
         { ime: "Biciklom kroz vrtove Turije", opis: "Staro korito rijeke ravno je i bez prometa, pa se biciklom lako dođe od starog grada do Grada umjetnosti i znanosti i dalje do plaže." }
@@ -310,7 +324,7 @@ window.ATLAS["spanjolska"] = {
       vidjeti: [
         { ime: "Museo Guggenheim", opis: "Zgradu Franka Gehryja prekriva oko 33 000 titanijskih ploča tankih poput lista papira, koje mijenjaju boju ovisno o vremenu. Pred ulazom sjedi Puppy, dvanaest metara visok terijer Jeffa Koonsa, prekriven živim cvijećem koje se mijenja dvaput godišnje. Unutra prođite kroz čelične spirale Richarda Serre, u kojima se gubi osjećaj ravnoteže." },
         { ime: "Casco Viejo", opis: "Stara jezgra zove se i Sedam ulica, po sedam usporednih ulica od kojih je grad nastao. Na trgu Plaza Nueva pod arkadama nižu se pintxo barovi, a nedjeljom se ondje održava sajam starih knjiga, maraka i ptica." },
-        { ime: "Mercado de la Ribera", opis: "Tržnica iz 1929. uz samu rijeku, jedna od najvećih natkrivenih tržnica u Europi. Nema stupova u sredini, pa svjetlo slobodno ulazi kroz vitraje. U prizemlju su barovi s pintxosima, a na katu ribarnice." },
+        { ime: "Mercado de la Ribera", opis: "Tržnica iz 1929. uz samu rijeku, jedna od najvećih natkrivenih tržnica u Europi. Nema stupova u sredini, pa svjetlo slobodno ulazi kroz vitraje. Uz štandove s ribom, mesom, voćem i povrćem, dio zgrade zauzimaju barovi s pintxosima." },
         { ime: "Puente de Vizcaya", opis: "Najstariji viseći prijenosni most na svijetu, otvoren 1893. na ušću rijeke, između Portugaletea i Getxa. Projektirao ga je Alberto de Palacio, a gondola obješena o čelične sajle prevozi automobile i putnike ne ometajući brodove. Od 2006. nalazi se na UNESCO-ovu popisu, a po gornjoj se gredi može prošetati na 50 metara visine." },
         { ime: "San Juan de Gaztelugatxe", opis: "Otočić na obali četrdesetak kilometara od grada, povezan s kopnom kamenim mostom i s više od 230 stuba. Na vrhu je kapelica iz 10. stoljeća, a običaj je triput pozvoniti i zaželjeti želju. Za posjet je u sezoni potrebna besplatna rezervacija." },
         { ime: "Gernika", opis: "Gradić u kojem su se pod hrastom stoljećima sastajali predstavnici Biskaje i gdje su kastiljski kraljevi prisezali da će poštovati baskijske zakone. Bombardiranje na sajmeni dan 26. travnja 1937. nadahnulo je Picassovu sliku. Stari hrast i zgrada skupštine preživjeli su napad." }
@@ -360,7 +374,7 @@ window.ATLAS["spanjolska"] = {
         { ime: "Muzej El Greca", opis: "Kuća s vrtom u židovskoj četvrti uređena je kao slikarov dom i čuva njegov niz apostola te Pogled i plan Toleda.", link: "https://www.cultura.gob.es/mgreco/inicio.html" },
         { ime: "Pogled s vidikovca Mirador del Valle", opis: "S ceste na suprotnoj obali rijeke vidi se cijeli grad onako kako ga je slikao El Greco. Ondje se može doći gradskim autobusom ili turističkim vlakićem, a najljepše je u sumrak." },
         { ime: "Radionica damasciranja", opis: "U staroj jezgri obrtnici i danas čekićem utiskuju tanke zlatne niti u crni čelik, tehnikom koja je s Maurima stigla iz Damaska. U nekoliko radionica možete gledati majstore pri radu." },
-        { ime: "Narukvica za sedam spomenika", opis: "Jedna turistička narukvica vrijedi za Santo Tomé, obje sinagoge koje pripadaju Crkvi, San Juan de los Reyes i još nekoliko spomenika, što je jeftinije od pojedinačnih ulaznica.", link: "https://toledomonumental.com/" }
+        { ime: "Narukvica za sedam spomenika", opis: "Jedna turistička narukvica vrijedi za Santo Tomé, sinagogu Santa María la Blanca, San Juan de los Reyes, džamiju Cristo de la Luz i još tri spomenika, što je jeftinije od pojedinačnih ulaznica.", link: "https://toledomonumental.com/" }
       ],
       agencije: [
         { ime: "Turismo de Toledo", opis: "Službena turistička stranica gradske uprave.", link: "https://turismo.toledo.es/" },
@@ -382,7 +396,7 @@ window.ATLAS["spanjolska"] = {
         { ime: "Pórtico de la Gloria", opis: "Trostruki portal koji je majstor Mateo isklesao između 1168. i 1188. godine nalazi se iza baroknog pročelja. Nakon obnove dovršene 2018. ponovno se vide izvorne boje. U gornjem luku dvadeset i četiri starca ugađaju glazbala, a u sredini dvojica zajedno sviraju organistrum. Prorok Danijel jedan je od prvih nasmiješenih likova u srednjovjekovnoj skulpturi." },
         { ime: "Praza do Obradoiro", opis: "Na trgu na koji stižu hodočasnici svaka zgrada predstavlja jednu vlast: katedrala Crkvu, palača Raxoi gradsku upravu, kolegij San Xerome sveučilište, a Hostal dos Reis Católicos kraljeve. Hostal su Katolički kraljevi 1499. osnovali kao bolnicu za hodočasnike, a danas je hotel, koji se smatra jednim od najstarijih na svijetu." },
         { ime: "Praza da Quintana i Sveta vrata", opis: "Trg iza katedrale podijeljen je stubištem na Kvintanu živih i Kvintanu mrtvih, gdje je nekoć bilo groblje. Sveta vrata otvaraju se samo u jubilarnim godinama, kada blagdan svetog Jakova, 25. srpnja, padne u nedjelju, a sljedeća je takva godina 2027." },
-        { ime: "Mercado de Abastos", opis: "Tržnica u osam granitnih hala, najposjećenije mjesto u gradu nakon katedrale. Prodavačice iz okolnih sela nude sir tetilla, repino lišće grelos i školjke, a u nekim barovima skuhat će vam ribu koju ste upravo kupile." },
+        { ime: "Mercado de Abastos", opis: "Tržnica u osam granitnih hala, prema vlastitim podacima najposjećenije mjesto u gradu nakon katedrale. Prodavačice iz okolnih sela nude sir tetilla, repino lišće grelos i školjke, a u nekim barovima skuhat će vam ribu koju ste upravo kupile." },
         { ime: "Museo do Pobo Galego", opis: "Muzej galicijskog naroda smješten je u samostanu San Domingos de Bonaval. Zbog jednog ga detalja posjećuju i arhitekti: to je trostruko zavojito stubište s kraja 17. stoljeća, u kojem se tri odvojena kraka uspinju u istom oknu i vode na različite katove." }
       ],
       jesti: [
@@ -395,7 +409,7 @@ window.ATLAS["spanjolska"] = {
         { ime: "Dolazak hodočasnika na Obradoiro", opis: "Sjednite ujutro na pod trga i gledajte kako hodači stižu, plaču, grle se i liježu na kamen. Tko je prohodao barem posljednjih sto kilometara, dobiva u Uredu za hodočasnike potvrdu zvanu Compostela.", link: "https://oficinadelperegrino.com/en/" },
         { ime: "Misa za hodočasnike", opis: "Na misi se čitaju zemlje iz kojih su toga dana stigli hodočasnici. Botafumeiro se ne ljulja na svakoj misi, pa na stranici katedrale provjerite kada je predviđen.", link: "https://catedraldesantiago.es/en/" },
         { ime: "Šetnja krovovima katedrale", opis: "Vođeni obilazak vodi po kamenim pločama krova, odakle se vidi cijeli grad. Mjesta su ograničena i rezerviraju se unaprijed.", link: "https://catedraldesantiago.es/en/" },
-        { ime: "Jutro na tržnici", opis: "Dođite prije podneva, od utorka do subote, kada je izbor najbolji, i kušajte kamenice ili hobotnicu izravno sa štanda.", link: "https://www.mercadodeabastosdesantiago.com/" }
+        { ime: "Jutro na tržnici", opis: "Tržnica radi od ponedjeljka do subote do dva poslijepodne, pa dođite prije podneva, kada je izbor najbolji, i kušajte kamenice ili hobotnicu izravno sa štanda.", link: "https://www.mercadodeabastosdesantiago.com/" }
       ],
       agencije: [
         { ime: "Turismo de Santiago", opis: "Službena turistička zajednica grada.", link: "https://www.santiagoturismo.com/" },
@@ -464,7 +478,7 @@ window.ATLAS["spanjolska"] = {
       dozivjeti: [
         { ime: "Silazak na dno klanca", opis: "Stazom Camino de los Molinos, koja kreće s trga Plaza de María Auxiliadora, spustite se do mjesta s kojeg se most vidi odozdo u punoj visini. Najljepše je kasno popodne, kada sunce obasja stijenu." },
         { ime: "Muzej u areni", opis: "Ulaznica obuhvaća borilište, staje, zbirku starog oružja i jahaću školu viteške bratovštine Real Maestranza de Caballería, koja je vlasnik arene.", link: "https://www.rmcr.org/" },
-        { ime: "Izlet u bijela sela", opis: "U krugu od pola sata vožnje nalaze se Setenil de las Bodegas, s kućama ugrađenima pod prevjese stijena, te Grazalema i Zahara de la Sierra. Za taj je izlet najpraktičniji automobil.", link: "https://www.andalucia.org/en/" }
+        { ime: "Izlet u bijela sela", opis: "U krugu od četrdesetak minuta vožnje nalaze se Setenil de las Bodegas, s kućama ugrađenima pod prevjese stijena, te Grazalema i Zahara de la Sierra. Za taj je izlet najpraktičniji automobil.", link: "https://www.andalucia.org/en/" }
       ],
       agencije: [
         { ime: "Turismo de Ronda", opis: "Službena turistička stranica grada, čiji se ured nalazi nasuprot areni.", link: "https://turismoderonda.es/en/" },
@@ -489,7 +503,7 @@ window.ATLAS["spanjolska"] = {
         { ime: "Nebo Salamanke", opis: "Dio svoda stare sveučilišne knjižnice, koji je osamdesetih godina 15. stoljeća oslikao Fernando Gallego, sa zviježđima, znakovima zodijaka i vjetrovima. Trećina sačuvane slike prenesena je u dvoranu u zgradi Escuelas Menores, gdje se gleda u polumraku." }
       ],
       jesti: [
-        { ime: "Hornazo", opis: "Pita od dizanog tijesta punjena svinjskim lungićem, kobasicom chorizo i tvrdo kuhanim jajima. Tradicionalno se jede na izletu uz rijeku na Lunes de Aguas, drugi ponedjeljak nakon Uskrsa." },
+        { ime: "Hornazo", opis: "Pita od dizanog tijesta punjena mariniranim svinjskim lungićem, pršutom i kobasicom chorizo, a često i tvrdo kuhanim jajem. Tradicionalno se jede na izletu uz rijeku na Lunes de Aguas, drugi ponedjeljak nakon Uskrsa." },
         { ime: "Jamón de Guijuelo", opis: "Iberski pršut iz gradića Guijuelo na jugu pokrajine, sladak i blag zbog hladnih planinskih zima." },
         { ime: "Farinato", opis: "Meka kobasica od kruha, masti i paprike, koja se jede pržena s jajima i po kojoj su stanovnici obližnjeg Ciudad Rodriga dobili nadimak." },
         { ime: "Chanfaina", opis: "Riža s janjećim iznutricama, kuminom i paprikom, staro pastirsko jelo koje se poslužuje nedjeljom." }

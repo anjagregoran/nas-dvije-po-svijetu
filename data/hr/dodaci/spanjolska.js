@@ -130,7 +130,7 @@ window.DODACI["spanjolska"] = {
     },
     "bilbao": {
       dragulji: [
-        { ime: "Stara luka Algorta", opis: "U Getxu, na kraju linije metroa, šačica bijelih ribarskih kuća drži se padine iznad mora. Mještani ovdje piju pivo na stubama s pogledom na zaljev." },
+        { ime: "Stara luka Algorta", opis: "U Getxu, do kojeg se iz središta lako stiže metroom, šačica bijelih ribarskih kuća drži se padine iznad mora. Mještani ovdje piju pivo na stubama s pogledom na zaljev." },
         { ime: "Biskajski most", opis: "Ovaj željezni most iz 19. stoljeća prevozi ljude i automobile u gondoli koja visi s njegove konstrukcije. Možete se popeti i na pješačku stazu na vrhu, visoko iznad rijeke." },
         { ime: "Brdo Artxanda", opis: "Stara uspinjača za nekoliko minuta stiže do vidikovca s kojeg se vidi cijela dolina i grad u njoj. Gore su park i restorani u koje se ide na nedjeljni ručak." }
       ],
@@ -191,7 +191,7 @@ window.DODACI["spanjolska"] = {
         { ime: "Pa amb oli za večeru", opis: "Kriška tamnog kruha natrlja se rajčicom i pokapa uljem, a na nju se stavi sir ili pršut. To je svakodnevna večera na Mallorci, koju poslužuju i sasvim jednostavni barovi." }
       ],
       kupiti: [
-        { ime: "Ensaimada i sobrasada", opis: "Ensaimada se pakira u osmerokutne kutije napravljene da se ponesu u zrakoplov, a meka kobasica s paprikom kupuje se u mesnici. Oboje nosi otočnu oznaku izvornosti." },
+        { ime: "Ensaimada i sobrasada", opis: "Ensaimada se pakira u osmerokutne kutije napravljene da se ponesu u zrakoplov, a meka kobasica s paprikom kupuje se u mesnici. Oboje nosi zaštićenu oznaku zemljopisnog podrijetla s otoka." },
         { ime: "Roba de llengües", opis: "Ova tkanina s uzorkom nalik plamenim jezicima tka se na otoku tehnikom ikat. Od nje se šivaju jastučnice, stolnjaci i torbe, a nekoliko tkaonica na otoku još je proizvodi." },
         { ime: "Flor de sal", opis: "Sol se ručno skuplja u solanama na jugu otoka, blizu plaže Es Trenc. Prodaje se obična ili pomiješana s mediteranskim biljem." }
       ]

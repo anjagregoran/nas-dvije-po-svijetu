@@ -4,7 +4,7 @@ window.ATLAS["grcka"] = {
   ime: "Greece",
   regija: "Southeastern Europe",
   sazetak: "A country where you drink your morning coffee looking at a temple twenty-five centuries old, and where in the evening, over fish and ouzo, people argue as if democracy were being invented at that very table.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "Visit Greece (Greek National Tourism Organization): Greek Islands", url: "https://www.visitgreece.gr/en/islands/" },
     { ime: "Visit Greece: The White Tower", url: "https://www.visitgreece.gr/en/experiences/nature/culture/the-white-tower" },
     { ime: "Ephorate of Antiquities of Cyclades: The Archaeological Museum of Naxos", url: "https://cyclades.culture.gov.gr/en/location/the-archaeological-museum-of-naxos/" },

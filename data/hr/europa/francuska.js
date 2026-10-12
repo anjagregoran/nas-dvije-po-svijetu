@@ -4,7 +4,7 @@ window.ATLAS["francuska"] = {
   ime: "Francuska",
   regija: "Zapadna Europa",
   sazetak: "Zemlja katedrala, dvoraca, vinograda i tržnica, u kojoj se ručak shvaća ozbiljno, a svaka pokrajina ima vlastiti sir, vino i ponos.",
-  provjereno: { datum: "2026-10", izvori: [
+  provjereno: { djelomicno: true, datum: "2026-10", izvori: [
     { ime: "Bordeaux Tourisme, Grosse Cloche", url: "https://www.bordeaux-tourism.co.uk/cultural-heritage/grosse-cloche.html" },
     { ime: "European Parliament, visiting Strasbourg", url: "https://visiting.europarl.europa.eu/en/visitor-offer/strasbourg/hemicycle-outside-plenary-session" },
     { ime: "Ville de Lyon, Halles de Lyon Paul Bocuse", url: "https://www.lyon.fr/lieu/halles/halles-de-lyon-paul-bocuse" },

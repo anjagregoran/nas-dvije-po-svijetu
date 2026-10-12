@@ -15,7 +15,7 @@ window.DODACI["srbija"] = {
         { ime: "Botanički vrt Jevremovac", opis: "Ovaj mali vrt blizu centra ima staklenik iz 19. stoljeća i japanski vrt. Zeleni je to predah koji pronađe malo posjetitelja." }
       ],
       domaci: [
-        { ime: "Subota na Kalenić pijaci", opis: "Na najvećoj zelenoj tržnici u gradu Beograd subotom ujutro kupuje kajmak, sir, jaja i povrće. Nakon toga svi sjednu u kafiće oko nje." },
+        { ime: "Subota na Kalenić pijaci", opis: "Na jednoj od najvećih zelenih tržnica u gradu Beograd subotom ujutro kupuje kajmak, sir, jaja i povrće. Nakon toga svi sjednu u kafiće oko nje." },
         { ime: "Ada Ciganlija", opis: "Riječni otok pretvoren u jezero gradska je plaža. Ljudi se kupaju, voze bicikl oko jezera i ostaju u kafićima do mraka." },
         { ime: "Ručak u kafani", opis: "Tradicionalna kafana mjesto je za duge obroke, s kariranim stolnjacima i često živom glazbom navečer. Pođite na kasni ručak i nakon njega ništa ne planirajte." }
       ],

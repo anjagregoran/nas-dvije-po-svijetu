@@ -52,7 +52,7 @@ window.DODACI["italija"] = {
       domaci: [
         { ime: "Ombra i cicchetti", opis: "Prije ručka ili večere Venecijanci obiđu nekoliko bacara i u svakom popiju malu čašu vina uz zalogaj s bakalarom, srdelama ili mesnom okruglicom. Jede se stojeći za šankom, a plaća na kraju." },
         { ime: "Traghetto preko Velikog kanala", opis: "Na nekoliko mjesta velika gondola s dva veslača prevozi ljude s jedne obale na drugu. Domaći se voze stojeći, a prijelaz traje jedva minutu i stoji tek nekoliko kovanica." },
-        { ime: "Jutro na tržnici Rialto", opis: "Rano ujutro ovdje kuhari i venecijanske bake biraju ribu iz lagune i povrće s otoka Sant'Erasmo. Dođite prije devet, a zatim popijte kavu u nekom od obližnjih barova." }
+        { ime: "Jutro na tržnici Rialto", opis: "Rano ujutro ovdje kuhari i venecijanske bake biraju ribu iz lagune i povrće s otoka Sant'Erasmo. Dođite prije devet, a zatim popijte kavu u nekom od obližnjih barova, i imajte na umu da ribarnica ne radi nedjeljom i ponedjeljkom." }
       ],
       kupiti: [
         { ime: "Muransko staklo", opis: "Pravo muransko staklo nosi naljepnicu Vetro Artistico Murano, a najsigurnije ga je kupiti na samom otoku, u radionici s peći. Mala čaša ili niska perli preživjet će put bolje od vaze." },
@@ -256,7 +256,7 @@ window.DODACI["italija"] = {
       domaci: [
         { ime: "Piadina za ručak", opis: "Tanka pogača punjena pršutom, mekim sirom i rikulom ovdje se jede jednako kao u susjednoj Romagni. Uzmite je na kiosku ili u maloj piadineriji radije nego u restoranu s pogledom." },
         { ime: "Večer nakon odlaska izletnika", opis: "Kada autobusi odu, uličice pripadnu stanovnicima i onima koji ostaju prespavati. Tada je pravo vrijeme da prošećete do zidina i gledate kako se pale svjetla obale." },
-        { ime: "Sajmeni dan u Borgo Maggioreu", opis: "Na tjedni sajam pod arkadama spusti se pola države. Pitajte domaćine kojeg se dana održava i dođite ujutro." }
+        { ime: "Sajmeni dan u Borgo Maggioreu", opis: "Na tjedni sajam pod arkadama, koji se održava četvrtkom, spusti se pola države. Dođite ujutro, a ako je taj tjedan blagdan, provjerite dan kod domaćina." }
       ],
       kupiti: [
         { ime: "Poštanske marke i kovanice", opis: "San Marino izdaje vlastite poštanske marke i kovanice eura, za kojima tragaju kolekcionari diljem svijeta. Prodaje ih državni filatelistički i numizmatički ured u starom gradu." },

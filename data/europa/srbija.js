@@ -4,19 +4,32 @@ window.ATLAS["srbija"] = {
   ime: "Serbia",
   regija: "Southeastern Europe",
   sazetak: "A land of great rivers and long lunches, where the Danube cuts through the largest gorge in Europe and medieval monasteries hold frescoes older than Giotto.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "UNESCO Intangible Cultural Heritage: šljivovica", url: "https://ich.unesco.org/en/RL/social-practices-and-knowledge-related-to-the-preparation-and-use-of-the-traditional-plum-spirit-sljivovica-01882" },
+    { ime: "National Tourism Organisation of Serbia: Djerdap National Park", url: "https://serbia.travel/en/djerdap-national-park" },
+    { ime: "National Tourism Organisation of Serbia: Authentic wine villages", url: "https://www.serbia.travel/en/stories-items/authentic-wine-villages/" },
+    { ime: "Đerdap National Park: Ploče viewpoint", url: "https://npdjerdap.rs/en/ploce/" },
+    { ime: "Golubac Fortress, official site", url: "https://tvrdjavagolubackigrad.rs/" },
+    { ime: "Nikola Tesla Museum, visitor information", url: "https://tesla-museum.org/en/about/" },
+    { ime: "WIPO Magazine: the case of the Kilim of Pirot", url: "https://www.wipo.int/en/web/wipo-magazine/articles/securing-serbias-cultural-heritage-the-case-of-kilim-of-pirot-42807" },
+    { ime: "909originals: EXIT Festival moves to Montenegro", url: "https://909originals.com/2026/05/01/exit-festival-moves-to-montenegro-for-summer-2026-edition/" },
+    { ime: "N1: Kalenić market reconstruction", url: "https://www.n1info.rs/vesti/kalenic-pijaca-rekonstrukcija-izvodjac-radova-vrednost-radova" },
+    { ime: "Belgrade Free Tour", url: "https://belgradefreetour.com/" },
+    { ime: "Belgrade Walking Tours", url: "https://www.belgradewalkingtours.com/" }
+  ] },
   uvod: [
     "Serbia stretches from the Pannonian plain in the north, where the towns are Baroque and Central European, to the mountains of the south, where you can sense the Orient in the food and the music. Between them flows the Danube, along which the Romans built roads and bridges and on whose banks more Roman emperors were born than anywhere outside Italy, among them Constantine the Great.",
     "The medieval state of the Nemanjić dynasty left monasteries with frescoes that rank among the finest European art of the 13th century, and after the Ottoman centuries and the uprisings of the 19th century, modern Serbia grew up with Belgrade as its capital. A great deal both divides and connects it with Croatia, so along the way you will come across Meštrović's Victor on Kalemegdan, the birthplace of Ban Jelačić in Petrovaradin, and the museum of Nikola Tesla, who was born in Smiljan."
   ],
   ukratko: [
-    { k: "When to go", v: "May, June, September and early October. Summers on the plain are very hot, but that is when the festivals happen, from Exit in Novi Sad to the trumpeters in Guča, while in winter the cities are gray and foggy and the mountains have snow." },
+    { k: "When to go", v: "May, June, September and early October. Summers on the plain are very hot, but that is when the festivals happen, from the trumpeters in Guča to the Nišville jazz festival in Niš, while in winter the cities are gray and foggy and the mountains have snow." },
     { k: "Currency", v: "The Serbian dinar. Cards are accepted in the cities, while at markets, on family farms and in smaller kafanas you pay in cash. Change money at exchange offices in town rather than at the border." },
     { k: "Getting around", v: "A fast train links Belgrade and Novi Sad in just over half an hour, and the rest of the country is best explored by car or bus. The highways are tolled, and slower main roads lead to Đerdap and the monasteries." },
     { k: "Tipping", v: "Ten percent is customary in restaurants and kafanas, and it is left in cash even when you pay the bill by card." },
     { k: "Documents", v: "Croatian citizens need only a valid ID card for a tourist stay, but check the conditions before you travel on the website of the Croatian Ministry of Foreign and European Affairs." }
   ],
   hrana: [
-    { ime: "Pljeskavica", opis: "A large, flat patty of ground meat from the grill, served in flatbread with onion, kajmak and urnebes, a spicy spread of cheese and pepper.", prica: "Leskovac in the south is considered the capital of grilling and holds the Roštiljijada festival every fall. The gourmet version is stuffed with cheese and bacon, and the portions are so big that one can easily be shared." },
+    { ime: "Pljeskavica", opis: "A large, flat patty of ground meat from the grill, served in flatbread with onion, kajmak and urnebes, a spicy spread of cheese and pepper.", prica: "Leskovac in the south is considered the capital of grilling and holds the Roštiljijada festival at the end of every August. The gourmet version is stuffed with cheese and bacon, and the portions are so big that one can easily be shared." },
     { ime: "Kajmak", opis: "The rich skin skimmed off boiled milk, salted and stacked in layers.", prica: "The young kind is mild and sweet, while the old, aged kind is sharp and yellow. The most prized comes from the area around Kraljevo and Čačak, and it is eaten with hot flatbread, meat and proja." },
     { ime: "Ajvar", opis: "A spread of roasted red peppers, which are peeled, ground and fried in oil for hours.", prica: "It is made in early fall, when whole streets smell of roasted peppers, and in every home it is a family job. Homemade Leskovac ajvar has a protected designation of origin." },
     { ime: "Gibanica", opis: "A pie of crumpled phyllo sheets dipped in a mixture of eggs, cheese and kajmak.", prica: "It is eaten warm for breakfast or as a starter at a slava. Unlike the gibanica of Croatia's Međimurje region, this one is savory and has no layers of poppy seeds and walnuts." },
@@ -66,7 +79,7 @@ window.ATLAS["srbija"] = {
       vidjeti: [
         { ime: "Belgrade Fortress and Kalemegdan", opis: "The walls are mostly Austrian and Ottoman, from the 18th century, and the park around them is the city's favorite promenade. At the edge of the ramparts stands the Victor, a work by Ivan Meštrović from 1928, which was meant to adorn the city center but was placed here because of its nudity, with its back turned to the strollers. Look for the so-called Roman Well too, which was actually dug by the Austrians." },
         { ime: "Ružica Church", opis: "The little church at the foot of the fortress was a gunpowder magazine before it became a soldiers' chapel. Its chandeliers are made of shell casings, sabers and rifle parts from the First World War." },
-        { ime: "Church of Saint Sava", opis: "One of the largest Orthodox churches in the world stands on Vračar, where the Ottomans burned the relics of Saint Sava in 1595. Construction began in 1935, and the dome, weighing four thousand tons, was lifted into place in one piece in 1989. The interior is covered in gold mosaics, and the crypt is even more lavish than the church itself." },
+        { ime: "Church of Saint Sava", opis: "One of the largest Orthodox churches in the world stands on Vračar, where the Ottomans burned the relics of Saint Sava at the end of the 16th century. Construction began in 1935, and the dome, weighing four thousand tons, was lifted into place in one piece in 1989. The interior is covered in gold mosaics, and the crypt is even more lavish than the church itself." },
         { ime: "Nikola Tesla Museum", opis: "The small museum holds the inventor's legacy and the urn with his ashes, in the shape of a golden sphere. On the guided tour a fluorescent tube lights up in your hand with no wire, next to a coil that shoots out lightning." },
         { ime: "Museum of Yugoslavia and the House of Flowers", opis: "Josip Broz Tito, who was born in Kumrovec, rests in a winter garden in Dedinje, and around the tomb are displayed the relay batons that young people carried to him for his birthday. The collection of gifts from statesmen all over the world says more about the era than any textbook." },
         { ime: "Zemun and the Gardoš Tower", opis: "Until 1918 Zemun was a border town of Austria-Hungary, and it looks like a small Pannonian town. The tower on the hill was built in 1896 by the Hungarian authorities for the thousandth anniversary of their state, and from it you can see the Danube and Great War Island." }
@@ -80,15 +93,15 @@ window.ATLAS["srbija"] = {
       dozivjeti: [
         { ime: "An evening in Skadarlija", opis: "On this cobbled street the kafanas have been open since the 19th century, and old-town orchestras go from table to table. It is touristy, but Belgraders bring their own guests here too." },
         { ime: "Sunset at the confluence", opis: "From the ramparts by the Victor you watch the Sava flow into the Danube as the sun sinks behind New Belgrade.", link: "https://www.beogradskatvrdjava.co.rs/" },
-        { ime: "Free walking tour", opis: "Local guides lead daily walks through the city center and Zemun, for a tip of your choosing.", link: "https://belgradefreetour.com/" },
-        { ime: "Kalenić Market", opis: "The city's largest market, on Vračar, is at its best on Saturday mornings, when farmers bring kajmak, cheese and cured meat." }
+        { ime: "Free walking tour", opis: "Local guides lead daily walks through the city center for a tip of your choosing, and you need to reserve a place in advance.", link: "https://belgradefreetour.com/" },
+        { ime: "Kalenić Market", opis: "One of the city's biggest and best-loved markets, on Vračar, is at its best on Saturday mornings, when farmers bring kajmak, cheese and cured meat. A long-announced renovation is still pending, so the stalls may be rearranged when you come." }
       ],
       agencije: [
         { ime: "Tourist Organization of Belgrade", opis: "The official website, with information, maps and an events calendar.", link: "https://www.tob.rs/" },
         { ime: "Belgrade Free Tour", opis: "Free walking tours with local guides.", link: "https://belgradefreetour.com/" },
-        { ime: "Belgrade Walking Tours", opis: "Themed walks around the city, from the fortress underground to Zemun.", link: "https://www.belgradewalkingtours.com/" }
+        { ime: "Belgrade Walking Tours", opis: "Themed walks around the city, from the fortress underground to a free walk through Zemun.", link: "https://www.belgradewalkingtours.com/" }
       ],
-      kada: "May, June and September. Tours of the Tesla Museum run at set times, so arrive early, and most museums are closed on Mondays."
+      kada: "May, June and September. Guided tours of the Tesla Museum start on the hour, so arrive early, and most museums are closed on Mondays."
     },
     {
       id: "novi-sad",
@@ -109,14 +122,14 @@ window.ATLAS["srbija"] = {
       ],
       jesti: [
         { ime: "Bermet", opis: "An aromatized dessert wine with some twenty herbs and spices is made in Karlovci according to family recipes. Legend has it that it was even on the wine list of the Titanic." },
-        { ime: "Kuglof", opis: "The cake of the Danube Swabians has its own museum and festival in Karlovci." },
+        { ime: "Kuglof", opis: "The cake of the Danube Swabians is the signature sweet of Karlovci and has its own festival there." },
         { ime: "Fish paprikash", opis: "In the čardas along the Danube it is cooked in a cauldron and eaten with homemade noodles." },
         { ime: "Lunch on a salaš", opis: "Noodle soup, boiled meat with tomato sauce and poppy seed strudel follow one after another, just as in the old houses of Vojvodina." }
       ],
       dozivjeti: [
         { ime: "The fortress's underground galleries", opis: "Part of the military tunnels is open with a guide from the City Museum. It is cold and dark inside, and the guide explains how battles were fought underground with mines.", link: "https://novisad.travel/" },
         { ime: "Wine tasting in Karlovci", opis: "A dozen or so family cellars offer bermet, Fruška Gora graševina and local honey, all within walking distance of the square.", link: "https://karlovci.org.rs/" },
-        { ime: "Exit", opis: "The music festival that began in 2000 as a student protest is held in July on the ramparts and in the moats of the fortress. The city is full on those days and accommodation is expensive." },
+        { ime: "Exit", opis: "The music festival that began in 2000 as a student protest filled the ramparts and moats of the fortress every July until 2025. After that edition the organizers left Serbia, and in 2026 the festival was held in Montenegro, so check where it stands before you plan a trip around it." },
         { ime: "Hiking on Fruška Gora", opis: "The oldest national park in Serbia has marked trails between monasteries, viewpoints and picnic areas.", link: "https://www.fruskac.net/" }
       ],
       agencije: [
@@ -150,7 +163,7 @@ window.ATLAS["srbija"] = {
       dozivjeti: [
         { ime: "Kazandžijsko Sokače", opis: "The only surviving old craftsmen's street is now a row of kafanas under the same old roofs, where people sit until late." },
         { ime: "Nišville", opis: "The jazz festival is held in August in the fortress and brings world-famous names to a stage among the walls.", link: "https://visitnis.org/" },
-        { ime: "Day trip to the Sićevo Gorge", opis: "About twenty kilometers from the city, the Nišava has cut a gorge with vineyards and small monasteries, and Niška Banja with its warm springs is close by." }
+        { ime: "Day trip to the Sićevo Gorge", opis: "About fifteen kilometers from the city, the Nišava has cut a gorge with vineyards and small monasteries, and Niška Banja with its warm springs is close by." }
       ],
       agencije: [
         { ime: "Tourist Organization of Niš", opis: "The city's official website, with a combined ticket for the main monuments.", link: "https://visitnis.org/" },
@@ -168,7 +181,7 @@ window.ATLAS["srbija"] = {
         "When the hydroelectric plant was completed in 1972, the level of the river rose by about thirty meters, so the archaeological sites and monuments were moved higher up. The Serbian bank has been a national park since 1974, and since 2020 it has also been a UNESCO geopark."
       ],
       vidjeti: [
-        { ime: "Golubac Fortress", opis: "The 14th-century fortress with ten towers runs down the rock to the water's edge, at a spot where the Danube is as wide as a lake. The Polish knight Zawisza the Black was killed here in the battle of 1428, and a memorial plaque is dedicated to him. It was restored in 2019, and the upper towers can be entered with a guide." },
+        { ime: "Golubac Fortress", opis: "The 14th-century fortress with ten towers runs down the rock to the water's edge, at a spot where the Danube is as wide as a lake. The Polish knight Zawisza the Black was killed here in the battle of 1428, and a memorial plaque is dedicated to him. It was restored in 2019, and the upper towers are open to adults only, on set days and in part with an escort." },
         { ime: "Lepenski Vir", opis: "This settlement of fishermen and hunters from the period between about 9500 and 6000 BC was discovered in 1965 by the archaeologist Dragoslav Srejović. The houses have a trapezoidal floor plan that echoes the shape of the Treskavac rock across the river, and inside them were found stone heads with fish mouths and bulging eyes, which rank among the oldest monumental sculptures in Europe." },
         { ime: "Trajan's Plaque", opis: "The Latin inscription from the year 100 celebrates the completion of the road through the gorge. Before the lake was filled it was cut out of the rock and raised about twenty meters, and it can be seen only from a boat." },
         { ime: "Veliki Kazan and Mali Kazan", opis: "At its narrowest point the river is about 150 meters wide and up to ninety deep, which makes it one of the deepest in the world. From the Romanian bank gazes the enormous face of the Dacian king Decebalus, carved into the rock at the end of the 20th century." },
@@ -181,7 +194,7 @@ window.ATLAS["srbija"] = {
       ],
       dozivjeti: [
         { ime: "A boat ride through the gorge", opis: "Excursion boats from Donji Milanovac and Tekija sail through the Kazan narrows to Trajan's Plaque, which is the only way to see it up close.", link: "https://npdjerdap.rs/" },
-        { ime: "Ploče viewpoint", opis: "A short trail through the forest brings you out onto a rock above Veliki Kazan, from where the river looks like a narrow ribbon far below. There is no railing, so keep well back from the edge." },
+        { ime: "Ploče viewpoint", opis: "A forest trail of about three and a half kilometers climbs to a rock plateau above Mali Kazan, from where the river looks like a narrow ribbon far below. Keep well back from the edge." },
         { ime: "The fortress at dusk", opis: "The promenade along the Danube in Golubac leads to the fortress, which is lit up in the evening and mirrored in the water.", link: "https://tvrdjavagolubackigrad.rs/" }
       ],
       agencije: [

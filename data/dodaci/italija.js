@@ -52,7 +52,7 @@ window.DODACI["italija"] = {
       domaci: [
         { ime: "An ombra and cicchetti", opis: "Before lunch or dinner, Venetians make the rounds of a few bacari, having a small glass of wine and a bite with salt cod, sardines or a meatball in each. You eat standing at the bar and pay at the end." },
         { ime: "The traghetto across the Grand Canal", opis: "At several points a large gondola with two rowers ferries people from one bank to the other. Locals ride standing up, and the crossing takes barely a minute and costs small change." },
-        { ime: "Morning at the Rialto market", opis: "Early in the morning this is where chefs and Venetian grandmothers pick out fish from the lagoon and vegetables from the island of Sant'Erasmo. Come before nine, then have a coffee in one of the bars nearby." }
+        { ime: "Morning at the Rialto market", opis: "Early in the morning this is where chefs and Venetian grandmothers pick out fish from the lagoon and vegetables from the island of Sant'Erasmo. Come before nine, then have a coffee in one of the bars nearby, and keep in mind that the fish stalls are closed on Sundays and Mondays." }
       ],
       kupiti: [
         { ime: "Murano glass", opis: "Real Murano glass carries the Vetro Artistico Murano sticker, and the safest place to buy it is on the island itself, in a workshop with a furnace. A small glass or a string of beads will survive the trip better than a vase." },
@@ -256,7 +256,7 @@ window.DODACI["italija"] = {
       domaci: [
         { ime: "Piadina for lunch", opis: "A thin flatbread filled with prosciutto, soft cheese and arugula is eaten here just as in neighboring Romagna. Get it from a kiosk or a small piadineria rather than a restaurant with a view." },
         { ime: "The evening after the day-trippers leave", opis: "Once the buses are gone, the lanes belong to residents and those staying the night. That is the time to walk to the walls and watch the lights of the coast come on." },
-        { ime: "Market day in Borgo Maggiore", opis: "Half the country comes down to the weekly market under the arcades. Ask your hosts which day it is held and come in the morning." }
+        { ime: "Market day in Borgo Maggiore", opis: "Half the country comes down to the weekly market under the arcades, which is held on Thursdays. Come in the morning, and confirm the day with your hosts if a holiday falls that week." }
       ],
       kupiti: [
         { ime: "Stamps and coins", opis: "San Marino issues its own postage stamps and euro coins, which collectors around the world look for. The state philatelic and numismatic office in the old town sells them." },

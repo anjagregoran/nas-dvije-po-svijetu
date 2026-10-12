@@ -4,19 +4,32 @@ window.ATLAS["srbija"] = {
   ime: "Srbija",
   regija: "Jugoistočna Europa",
   sazetak: "Zemlja velikih rijeka i dugih ručkova, u kojoj Dunav probija najveću klisuru Europe, a srednjovjekovni samostani čuvaju freske starije od Giotta.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "UNESCO Intangible Cultural Heritage: šljivovica", url: "https://ich.unesco.org/en/RL/social-practices-and-knowledge-related-to-the-preparation-and-use-of-the-traditional-plum-spirit-sljivovica-01882" },
+    { ime: "National Tourism Organisation of Serbia: Djerdap National Park", url: "https://serbia.travel/en/djerdap-national-park" },
+    { ime: "National Tourism Organisation of Serbia: Authentic wine villages", url: "https://www.serbia.travel/en/stories-items/authentic-wine-villages/" },
+    { ime: "Đerdap National Park: Ploče viewpoint", url: "https://npdjerdap.rs/en/ploce/" },
+    { ime: "Golubac Fortress, official site", url: "https://tvrdjavagolubackigrad.rs/" },
+    { ime: "Nikola Tesla Museum, visitor information", url: "https://tesla-museum.org/en/about/" },
+    { ime: "WIPO Magazine: the case of the Kilim of Pirot", url: "https://www.wipo.int/en/web/wipo-magazine/articles/securing-serbias-cultural-heritage-the-case-of-kilim-of-pirot-42807" },
+    { ime: "909originals: EXIT Festival moves to Montenegro", url: "https://909originals.com/2026/05/01/exit-festival-moves-to-montenegro-for-summer-2026-edition/" },
+    { ime: "N1: Kalenić market reconstruction", url: "https://www.n1info.rs/vesti/kalenic-pijaca-rekonstrukcija-izvodjac-radova-vrednost-radova" },
+    { ime: "Belgrade Free Tour", url: "https://belgradefreetour.com/" },
+    { ime: "Belgrade Walking Tours", url: "https://www.belgradewalkingtours.com/" }
+  ] },
   uvod: [
     "Srbija se proteže od panonske ravnice na sjeveru, gdje su gradovi barokni i srednjoeuropski, do planina juga, gdje se u jelu i glazbi osjeća Orijent. Između njih teče Dunav, uz koji su Rimljani gradili ceste i mostove i na čijim je obalama rođeno više rimskih careva nego igdje izvan Italije, među njima i Konstantin Veliki.",
     "Srednjovjekovna država Nemanjića ostavila je samostane s freskama koje se ubrajaju u vrh europske umjetnosti 13. stoljeća, a nakon osmanskih stoljeća i ustanaka u 19. stoljeću izrasla je moderna Srbija s Beogradom kao prijestolnicom. S Hrvatskom je dijeli i povezuje mnogo toga, pa ćete na putu sresti i Meštrovićeva Pobjednika na Kalemegdanu, i rodnu kuću bana Jelačića u Petrovaradinu, i muzej Nikole Tesle, rođenog u Smiljanu."
   ],
   ukratko: [
-    { k: "Kada ići", v: "Svibanj, lipanj, rujan i početak listopada. Ljeta su u ravnici vrlo vruća, ali tada su festivali, od Exita u Novom Sadu do trubača u Guči, a zimi su gradovi sivi i magloviti, dok planine imaju snijeg." },
+    { k: "Kada ići", v: "Svibanj, lipanj, rujan i početak listopada. Ljeta su u ravnici vrlo vruća, ali tada su festivali, od trubača u Guči do jazz-festivala Nišville u Nišu, a zimi su gradovi sivi i magloviti, dok planine imaju snijeg." },
     { k: "Valuta", v: "Srpski dinar. Kartice se primaju u gradovima, a na tržnicama, u seoskim kućanstvima i manjim kafanama plaća se gotovinom. Mijenjajte u mjenjačnicama u gradu, a ne na granici." },
     { k: "Kretanje", v: "Brzi vlak povezuje Beograd i Novi Sad za nešto više od pola sata, a ostatak zemlje najbolje je obići automobilom ili autobusom. Autoceste se naplaćuju, a do Đerdapa i samostana vode sporije magistrale." },
     { k: "Napojnica", v: "Deset posto u restoranima i kafanama uobičajeno je i ostavlja se u gotovini, čak i kada račun plaćate karticom." },
     { k: "Dokumenti", v: "Hrvatskim državljanima za turistički boravak dovoljna je važeća osobna iskaznica, no uvjete prije puta provjerite na stranicama Ministarstva vanjskih i europskih poslova." }
   ],
   hrana: [
-    { ime: "Pljeskavica", opis: "Velika plosnata pljeskavica od mljevenog mesa s roštilja, u lepinji s lukom, kajmakom i urnebesom, ljutim namazom od sira i paprike.", prica: "Leskovac na jugu smatra se prijestolnicom roštilja i svake jeseni priređuje Roštiljijadu. Gurmanska je punjena sirom i slaninom, a porcije su tolike da se jedna slobodno dijeli." },
+    { ime: "Pljeskavica", opis: "Velika plosnata pljeskavica od mljevenog mesa s roštilja, u lepinji s lukom, kajmakom i urnebesom, ljutim namazom od sira i paprike.", prica: "Leskovac na jugu smatra se prijestolnicom roštilja i svake godine potkraj kolovoza priređuje Roštiljijadu. Gurmanska je punjena sirom i slaninom, a porcije su tolike da se jedna slobodno dijeli." },
     { ime: "Kajmak", opis: "Masna pokorica skinuta s prokuhanog mlijeka, soljena i slagana u slojeve.", prica: "Mladi je blag i sladak, a stari, odležani, oštar i žut. Najcjenjeniji dolazi iz okolice Kraljeva i Čačka, a jede se uz vruću lepinju, meso i proju." },
     { ime: "Ajvar", opis: "Namaz od pečene crvene paprike, koja se guli, melje i satima prži u ulju.", prica: "Pravi se u ranu jesen, kada cijele ulice mirišu na pečenu papriku, i u svakoj je kući to obiteljski posao. Leskovački domaći ajvar ima zaštićeno ime podrijetla." },
     { ime: "Gibanica", opis: "Pita od zgužvanih kora umočenih u smjesu jaja, sira i kajmaka.", prica: "Jede se topla za doručak ili kao predjelo na slavi. Za razliku od međimurske gibanice, ova je slana i nema slojeve maka i oraha." },
@@ -66,7 +79,7 @@ window.ATLAS["srbija"] = {
       vidjeti: [
         { ime: "Beogradska tvrđava i Kalemegdan", opis: "Zidine su uglavnom austrijske i osmanske, iz 18. stoljeća, a park oko njih najdraže je gradsko šetalište. Na rubu bedema stoji Pobjednik, djelo Ivana Meštrovića iz 1928., koji je trebao krasiti središte grada, ali je zbog golotinje postavljen ovdje, leđima okrenut šetačima. Potražite i takozvani Rimski bunar, koji su zapravo iskopali Austrijanci." },
         { ime: "Crkva Ružica", opis: "Mala crkva u podnožju tvrđave bila je barutana prije nego što je postala vojnička kapela. Lusteri su joj izrađeni od čahura, sablji i dijelova pušaka iz Prvog svjetskog rata." },
-        { ime: "Hram svetog Save", opis: "Jedna od najvećih pravoslavnih crkava na svijetu stoji na Vračaru, gdje su Osmanlije 1595. spalili moći svetog Save. Gradnja je počela 1935., a kupola teška četiri tisuće tona podignuta je 1989. u jednom komadu. Unutrašnjost je prekrivena zlatnim mozaicima, a kripta je raskošnija od same crkve." },
+        { ime: "Hram svetog Save", opis: "Jedna od najvećih pravoslavnih crkava na svijetu stoji na Vračaru, gdje su Osmanlije potkraj 16. stoljeća spalili moći svetog Save. Gradnja je počela 1935., a kupola teška četiri tisuće tona podignuta je 1989. u jednom komadu. Unutrašnjost je prekrivena zlatnim mozaicima, a kripta je raskošnija od same crkve." },
         { ime: "Muzej Nikole Tesle", opis: "Mali muzej čuva izumiteljevu ostavštinu i urnu s njegovim pepelom u obliku zlatne kugle. Na vođenom obilasku fluorescentna cijev zasvijetli vam u ruci bez žice, kraj zavojnice koja ispušta munje." },
         { ime: "Muzej Jugoslavije i Kuća cvijeća", opis: "U zimskom vrtu na Dedinju počiva Josip Broz Tito, rođen u Kumrovcu, a oko groba su izložene štafete koje su mu mladi nosili za rođendan. Zbirka darova državnika iz cijelog svijeta govori o vremenu više od ikojeg udžbenika." },
         { ime: "Zemun i kula Gardoš", opis: "Zemun je do 1918. bio pogranični grad Austro-Ugarske i izgleda poput malog panonskog mjesta. Kulu na brdu podigla je 1896. ugarska vlast za tisućugodišnjicu države, a s nje se vidi Dunav i Veliko ratno ostrvo." }
@@ -80,15 +93,15 @@ window.ATLAS["srbija"] = {
       dozivjeti: [
         { ime: "Večer u Skadarliji", opis: "U kaldrmiranoj ulici kafane rade od 19. stoljeća, a starogradski orkestri idu od stola do stola. Turistički jest, ali i sami Beograđani ovamo vode goste." },
         { ime: "Zalazak sunca na ušću", opis: "S bedema kod Pobjednika gleda se kako se Sava ulijeva u Dunav, a sunce tone iza Novog Beograda.", link: "https://www.beogradskatvrdjava.co.rs/" },
-        { ime: "Besplatna pješačka tura", opis: "Lokalni vodiči svakodnevno vode kroz središte grada i Zemun, uz napojnicu po želji.", link: "https://belgradefreetour.com/" },
-        { ime: "Tržnica Kalenić", opis: "Najveća gradska tržnica na Vračaru najbolja je subotom ujutro, kada seljaci donose kajmak, sir i sušeno meso." }
+        { ime: "Besplatna pješačka tura", opis: "Lokalni vodiči svakodnevno vode kroz središte grada uz napojnicu po želji, a mjesto treba rezervirati unaprijed.", link: "https://belgradefreetour.com/" },
+        { ime: "Tržnica Kalenić", opis: "Jedna od najvećih i najomiljenijih gradskih tržnica, na Vračaru, najbolja je subotom ujutro, kada seljaci donose kajmak, sir i sušeno meso. Dugo najavljivana obnova još se čeka, pa štandovi mogu biti drukčije raspoređeni kada dođete." }
       ],
       agencije: [
         { ime: "Turistička organizacija Beograda", opis: "Službena stranica s informacijama, kartama i kalendarom događanja.", link: "https://www.tob.rs/" },
         { ime: "Belgrade Free Tour", opis: "Besplatne pješačke ture s lokalnim vodičima.", link: "https://belgradefreetour.com/" },
-        { ime: "Belgrade Walking Tours", opis: "Tematske šetnje po gradu, od podzemlja tvrđave do Zemuna.", link: "https://www.belgradewalkingtours.com/" }
+        { ime: "Belgrade Walking Tours", opis: "Tematske šetnje po gradu, od podzemlja tvrđave do besplatne šetnje Zemunom.", link: "https://www.belgradewalkingtours.com/" }
       ],
-      kada: "Svibanj, lipanj i rujan. Obilazak Teslina muzeja vodi se u određenim terminima, pa dođite ranije, a ponedjeljkom je većina muzeja zatvorena."
+      kada: "Svibanj, lipanj i rujan. Vođeni obilasci Teslina muzeja počinju svakog punog sata, pa dođite ranije, a ponedjeljkom je većina muzeja zatvorena."
     },
     {
       id: "novi-sad",
@@ -109,14 +122,14 @@ window.ATLAS["srbija"] = {
       ],
       jesti: [
         { ime: "Bermet", opis: "Aromatizirano desertno vino s dvadesetak trava i začina radi se u Karlovcima po obiteljskim receptima. Legenda kaže da se nalazio i na vinskoj karti Titanica." },
-        { ime: "Kuglof", opis: "Kolač podunavskih Švaba u Karlovcima ima i vlastiti muzej i festival." },
+        { ime: "Kuglof", opis: "Kolač podunavskih Švaba zaštitni je znak Karlovaca, u kojima ima i vlastiti festival." },
         { ime: "Riblji paprikaš", opis: "U čardama uz Dunav kuha se u kotliću i jede s domaćim rezancima." },
         { ime: "Ručak na salašu", opis: "Juha s rezancima, kuhano meso s umakom od rajčice i štrudla s makom slijede jedno za drugim, kao u starim vojvođanskim kućama." }
       ],
       dozivjeti: [
         { ime: "Podzemne galerije tvrđave", opis: "Dio vojnih hodnika otvoren je uz vodiča Muzeja grada. Unutra je hladno i mračno, a vodič objašnjava kako su se pod zemljom vodile bitke minama.", link: "https://novisad.travel/" },
         { ime: "Kušanje vina u Karlovcima", opis: "Desetak obiteljskih podruma nudi bermet, frušku graševinu i lokalni med, a sve je na pješačkoj udaljenosti od trga.", link: "https://karlovci.org.rs/" },
-        { ime: "Exit", opis: "Glazbeni festival nastao 2000. kao studentski prosvjed održava se u srpnju na bedemima i u jarcima tvrđave. Tih je dana grad pun, a smještaj skup." },
+        { ime: "Exit", opis: "Glazbeni festival nastao 2000. kao studentski prosvjed do 2025. je svakog srpnja ispunjavao bedeme i jarke tvrđave. Nakon tog izdanja organizatori su napustili Srbiju, pa je 2026. održan u Crnoj Gori, stoga prije planiranja puta provjerite gdje se održava." },
         { ime: "Pješačenje Fruškom gorom", opis: "Najstariji nacionalni park u Srbiji ima označene staze između samostana, vidikovaca i izletišta.", link: "https://www.fruskac.net/" }
       ],
       agencije: [
@@ -150,7 +163,7 @@ window.ATLAS["srbija"] = {
       dozivjeti: [
         { ime: "Kazandžijsko sokače", opis: "Jedina sačuvana stara obrtnička ulica danas je niz kafana pod istim krovovima, gdje se sjedi do kasno." },
         { ime: "Nišville", opis: "Jazz festival održava se u kolovozu u tvrđavi i dovodi svjetska imena na pozornicu među zidinama.", link: "https://visitnis.org/" },
-        { ime: "Izlet u Sićevačku klisuru", opis: "Nišava je dvadesetak kilometara od grada usjekla klisuru s vinogradima i malim samostanima, a blizu je i Niška Banja s toplim izvorima." }
+        { ime: "Izlet u Sićevačku klisuru", opis: "Nišava je petnaestak kilometara od grada usjekla klisuru s vinogradima i malim samostanima, a blizu je i Niška Banja s toplim izvorima." }
       ],
       agencije: [
         { ime: "Turistička organizacija Niša", opis: "Službena stranica grada sa zajedničkom ulaznicom za glavne spomenike.", link: "https://visitnis.org/" },
@@ -168,7 +181,7 @@ window.ATLAS["srbija"] = {
         "Kada je 1972. dovršena hidroelektrana, razina rijeke podigla se za tridesetak metara, pa su nalazišta i spomenici premješteni na više. Srpska obala nacionalni je park od 1974., a od 2020. i UNESCO-ov geopark."
       ],
       vidjeti: [
-        { ime: "Golubačka tvrđava", opis: "Utvrda iz 14. stoljeća s deset kula spušta se niz stijenu do same vode, na mjestu gdje je Dunav širok poput jezera. U bitki 1428. ovdje je poginuo poljski vitez Zawisza Crni, kojem je posvećena spomen-ploča. Obnovljena je 2019. i u gornje se kule ulazi uz vodiča." },
+        { ime: "Golubačka tvrđava", opis: "Utvrda iz 14. stoljeća s deset kula spušta se niz stijenu do same vode, na mjestu gdje je Dunav širok poput jezera. U bitki 1428. ovdje je poginuo poljski vitez Zawisza Crni, kojem je posvećena spomen-ploča. Obnovljena je 2019., a u gornje kule mogu samo odrasli, u određene dane i dijelom uz pratnju." },
         { ime: "Lepenski Vir", opis: "Naselje ribara i lovaca iz razdoblja od oko 9500. do 6000. prije Krista otkrio je 1965. arheolog Dragoslav Srejović. Kuće imaju trapezastu osnovu, koja ponavlja oblik stijene Treskavac preko rijeke, a u njima su nađene kamene glave s ribljim ustima i izbuljenim očima, koje se ubrajaju među najstarije monumentalne skulpture u Europi." },
         { ime: "Trajanova ploča", opis: "Latinski natpis iz 100. godine slavi dovršetak ceste kroz klisuru. Prije punjenja jezera izrezan je iz stijene i podignut dvadesetak metara, a vidi se samo s broda." },
         { ime: "Veliki i Mali Kazan", opis: "Na najužem mjestu rijeka je široka oko 150 metara, a duboka i do devedeset, što je čini jednom od najdubljih na svijetu. S rumunjske obale gleda golemo lice dačkog kralja Decebala, uklesano u stijenu krajem 20. stoljeća." },
@@ -181,7 +194,7 @@ window.ATLAS["srbija"] = {
       ],
       dozivjeti: [
         { ime: "Vožnja brodom kroz klisuru", opis: "Izletnički brodovi iz Donjeg Milanovca i Tekije voze kroz Kazane do Trajanove ploče, što je jedini način da je vidite izbliza.", link: "https://npdjerdap.rs/" },
-        { ime: "Vidikovac Ploče", opis: "Kratka staza kroz šumu izvodi na stijenu nad Velikim Kazanom, odakle se rijeka vidi kao uska traka duboko dolje. Ograde nema, pa se rubu ne približavajte." },
+        { ime: "Vidikovac Ploče", opis: "Šumska staza duga oko tri i pol kilometra penje se na stjenovitu zaravan nad Malim Kazanom, odakle se rijeka vidi kao uska traka duboko dolje. Rubu se ne približavajte." },
         { ime: "Tvrđava u sumrak", opis: "Šetnica uz Dunav u Golupcu vodi do tvrđave, koja se navečer osvijetli i ogleda u vodi.", link: "https://tvrdjavagolubackigrad.rs/" }
       ],
       agencije: [

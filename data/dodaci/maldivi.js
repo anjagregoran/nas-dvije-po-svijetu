@@ -2,17 +2,17 @@ window.DODACI = window.DODACI || {};
 window.DODACI["maldivi"] = {
   kupiti: [
     { ime: "Lacquer boxes (liyelaa jehun)", opis: "Wooden boxes and vases are turned on a lathe, coated in layers of black, red and yellow lacquer and then carved with patterns, a craft tied to the island of Thulhaadhoo in Baa Atoll." },
-    { ime: "Thundu kunaa mats", opis: "Fine reed mats with geometric patterns in natural colors are woven by women in the south, in Huvadhu Atoll, and in Malé you find them in the better handicraft shops." },
+    { ime: "Thundu kunaa mats", opis: "Fine reed mats with geometric patterns in natural colors are woven by women on the island of Gadhdhoo in Huvadhu Atoll, in the far south, and in Malé you find them in the better handicraft shops." },
     { ime: "Dried tuna and rihaakuru", opis: "Hard smoked tuna and the thick, dark paste made by boiling fish for hours are the foundation of Maldivian cooking, and you buy them at the market in Malé, well wrapped for travel." },
     { ime: "Coconut oil", opis: "Cold-pressed oil from island households is used for both cooking and hair, and it is sold in the small shops on inhabited islands." },
     { ime: "A model dhoni", opis: "The traditional boat with its tall, curved prow is the symbol of the islands, and wooden models are made by craftsmen who also build real boats, so look for handwork in local wood." },
-    { ime: "Coconut sweets", opis: "Bondi, long sticks of coconut and palm sugar wrapped in dried banana leaf, are the typical gift locals carry to relatives, and you find them at the market in Malé." }
+    { ime: "Coconut sweets", opis: "Addu bondi, sticks of young coconut and coconut palm syrup wrapped in dried banana leaf, come from Addu in the far south and keep well, so locals carry them as gifts to relatives, and you find them at the market in Malé." }
   ],
   mjesta: {
     "male": {
       dragulji: [
         { ime: "Villimalé", opis: "Ten minutes by ferry from the capital lies a green island without cars, with sandy streets, a beach and a calm that is hard to imagine when you are standing in Malé." },
-        { ime: "Sultan Park", opis: "A small park on the site of the former sultan's palace is the only real shade in town, and locals sit on its benches among the trees waiting for the midday heat to pass." },
+        { ime: "Sultan Park", opis: "The small park on the grounds of the former sultan's palace was redesigned in 2017, and families come to its paths and playgrounds toward evening, when the heat of the day eases." },
         { ime: "The Hulhumalé waterfront", opis: "On the artificial island linked by bridge there is a long beach with a row of trees and cafes, where you see how the young Maldivian middle class lives." }
       ],
       domaci: [
@@ -32,7 +32,7 @@ window.DODACI["maldivi"] = {
         { ime: "Eydhafushi", opis: "The atoll's main island has a harbor, schools, mosques and streets of coral sand, and it shows you everyday life without a single sun lounger." }
       ],
       domaci: [
-        { ime: "Afternoon in a joali", opis: "In front of houses and along the shore hang net seats on wooden frames, called joali, where people sit in the shade and talk until the heat eases, and if you are invited, go ahead and sit down." },
+        { ime: "Afternoon in a joali", opis: "In front of houses and along the shore stand rope seats called joali, a cross between a deck chair and a hammock, where people sit in the shade and talk until the heat eases, and if you are invited, go ahead and sit down." },
         { ime: "Handline fishing at dusk", opis: "Islanders head out by boat toward evening and fish with nothing but line and hook, and the catch is grilled on the beach that same night, which guesthouses are happy to arrange for guests too." },
         { ime: "Friday on the island", opis: "Friday is the day of prayer and rest, so ferries do not run and shops close around midday, while toward evening the whole village gathers around the soccer field." }
       ],
@@ -44,8 +44,8 @@ window.DODACI["maldivi"] = {
     "ari": {
       dragulji: [
         { ime: "The Dhigurah sandbank", opis: "Dhigurah is long and narrow, and at its southern end it turns into a white spit reaching into the lagoon, about half an hour's walk through the palm forest." },
-        { ime: "The old mosque on Fenfushi", opis: "On the island of Fenfushi stands a mosque of carved coral stone with a lacquered wooden ceiling, surrounded by an old cemetery, an example of a building tradition that no longer exists." },
-        { ime: "Dhangethi", opis: "A quiet inhabited island with a tradition of fishing and boat building is a good place to see village life, and islanders gladly show you an old house set up as a small museum." }
+        { ime: "The old mosque on Fenfushi", opis: "On the island of Fenfushi stands a mosque of carved coral stone from the end of the 17th century, with fine lacquer work inside, surrounded by an old cemetery and a coral stone bathing tank, an example of a building tradition that no longer exists." },
+        { ime: "Dhangethi", opis: "A quiet inhabited island with a fishing tradition is a good place to see village life, and it has a small cultural center devoted to island traditions." }
       ],
       domaci: [
         { ime: "The harbor when the boats come in", opis: "In the late afternoon fishermen unload the catch, children jump off the jetty and men sit on the wall, so it is the best time for a walk and a chat." },
@@ -54,7 +54,7 @@ window.DODACI["maldivi"] = {
       ],
       kupiti: [
         { ime: "Dried tuna", opis: "On the islands of South Ari tuna is still smoked and dried in backyards, and pieces wrapped in paper are sold in village shops and keep for months." },
-        { ime: "Coconut fiber rope", opis: "Hand-twisted rope called roanu once held entire boats together, and today it is made into mats and decorations that women sell in front of their houses." }
+        { ime: "Coconut fiber rope", opis: "Hand-twisted rope called roanu once held entire boats together, and since only a few islanders still make it, ask at your guesthouse whether anyone on the island twists it by hand." }
       ]
     }
   }

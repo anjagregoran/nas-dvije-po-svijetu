@@ -4,6 +4,18 @@ window.ATLAS["grcka"] = {
   ime: "Greece",
   regija: "Southeastern Europe",
   sazetak: "A country where you drink your morning coffee looking at a temple twenty-five centuries old, and where in the evening, over fish and ouzo, people argue as if democracy were being invented at that very table.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Visit Greece (Greek National Tourism Organization): Greek Islands", url: "https://www.visitgreece.gr/en/islands/" },
+    { ime: "Visit Greece: The White Tower", url: "https://www.visitgreece.gr/en/experiences/nature/culture/the-white-tower" },
+    { ime: "Ephorate of Antiquities of Cyclades: The Archaeological Museum of Naxos", url: "https://cyclades.culture.gov.gr/en/location/the-archaeological-museum-of-naxos/" },
+    { ime: "Harvard Center for Hellenic Studies: The Hellenistic hymns to Apollo with musical notation from Delphi", url: "https://classics-at.chs.harvard.edu/the-hellenistic-hymns-to-apollo-with-musical-notation-from-delphi/" },
+    { ime: "Visit Meteora: Varlaam Monastery", url: "https://visitmeteora.travel/?p=1631" },
+    { ime: "Argophilia: Chania Municipal Market reopening", url: "https://www.argophilia.com/news/chania-municipal-market-reopening-december-2026/250906/" },
+    { ime: "Enimerosi (Corfu): Achilleion Palace restoration", url: "https://www.enimerosi.com/news/109761/achilleion-palace-new-contract-while-the-first-remains-outstanding" },
+    { ime: "Lonely Planet: Church of Agios Dimitrios, Thessaloniki", url: "https://www.lonelyplanet.com/points-of-interest/church-of-agios-dimitrios/468406" },
+    { ime: "Frommer's: Shopping in the Meteora", url: "https://www.frommers.com/destinations/the-meteora/shopping/overview" },
+    { ime: "Dora Stratou Dance Theatre: Performances", url: "https://www.grdance.org/en/performances/" }
+  ] },
   uvod: [
     "Greece is where the words we still use to talk about politics, theater, philosophy and sport were born, so a trip here often turns into recognizing things you learned at school. History does not stop with antiquity, though: after Athens and Alexander came the Romans, then a thousand years of Byzantium, then Crusaders and Venetians on the islands and almost four centuries of Ottoman rule on the mainland. The modern state was born only in the uprising that began in 1821, and it reached its present borders gradually, as late as 1947.",
     "That layering is exactly what makes Greece interesting even to people for whom the sea and olive trees are everyday life. In Thessaloniki you will see a Roman triumphal arch, a Byzantine church and an Ottoman bathhouse on the same street, on Corfu and Crete you will recognize the Venetian lions familiar from Dalmatia, and in the Peloponnese you will stand before the gate through which, according to Homer, Agamemnon set out for Troy. The food is simple and seasonal, the table is shared, and an unhurried meal is considered plain good manners here."
@@ -53,7 +65,7 @@ window.ATLAS["grcka"] = {
     "“Ohi” Day, October 28, is a national holiday celebrating the rejection of the Italian ultimatum in 1940.",
     "In most homes and restaurants toilet paper goes in the bin and not in the toilet, because the drainpipes are narrow.",
     "A marathon is run over 42 kilometers because that is roughly the distance from the plain of Marathon to Athens, where according to tradition a messenger ran to announce the victory over the Persians in 490 BC.",
-    "Greece has several thousand islands and rocky islets, and only a little over a hundred are permanently inhabited."
+    "The national tourism organization counts about 6,000 Greek islands and islets, and only 227 of them are inhabited."
   ],
   mjesta: [
     {
@@ -102,24 +114,24 @@ window.ATLAS["grcka"] = {
         "From 1430 to 1912 the Ottomans ruled, and after 1492 the city filled with Sephardic Jews expelled from Spain, who were the largest community for centuries. The great fire of 1917 destroyed the center, so the lower town was rebuilt to a French plan, while the Upper Town kept its old houses and walls."
       ],
       vidjeti: [
-        { ime: "White Tower", opis: "This 15th-century Ottoman tower served as a prison and was called the Tower of Blood. Legend says that in 1890 a prisoner whitewashed it in exchange for his freedom, which is where its present name comes from. Inside is a museum of the city's history, and from the top you can see the whole bay and, on a clear day, Mount Olympus." },
+        { ime: "White Tower", opis: "This Ottoman tower, raised in the 15th or early 16th century on older Byzantine foundations, served as a prison and was called the Tower of Blood. The story goes that in 1891 a prisoner whitewashed it in exchange for his freedom, which is where its present name comes from. Inside is a museum of the city's history, and from the top you can see the whole bay and, on a clear day, Mount Olympus." },
         { ime: "Rotunda", opis: "This circular building almost 25 meters across was commissioned around 306 by Emperor Galerius, perhaps as his own mausoleum. Later it was a church and then a mosque, which is why the only surviving minaret in the city stands beside it. Look up at the golden mosaics from the early Christian period, in which saints stand before lavish palaces." },
         { ime: "Arch of Galerius", opis: "Locals call it Kamara, and this is where people arrange to meet. It was raised to commemorate the victory over the Persians in 298, and on the reliefs look for the scene in which the emperor on horseback attacks the Persian king, and for the elephants carrying gifts." },
-        { ime: "Basilica of Saint Demetrius", opis: "The largest church in the city stands over the Roman baths where, according to tradition, the officer Demetrius, later patron saint of Thessaloniki, was executed in the early fourth century. Go down into the crypt and look for the few seventh-century mosaics that survived the fire of 1917 and show the saint with the builders of the church." },
+        { ime: "Basilica of Saint Demetrius", opis: "The largest church in the city stands over the Roman baths where, according to tradition, the officer Demetrius, later patron saint of Thessaloniki, was executed in the early fourth century. Go down into the crypt, where the remains of the baths are, and back up in the church look on the pillars beside the sanctuary for the few early mosaics that survived the fire of 1917, among them the saint standing with the founders of the church." },
         { ime: "Upper Town and the walls", opis: "Ano Poli is the only part of the city the fire did not touch, so the timber houses with overhanging upper floors and the steep cobbled streets have remained here. Climb to the Trigonio Tower before sunset, and on the way see the little church of Osios David with its rare mosaic of a beardless Christ." },
         { ime: "Archaeological Museum", opis: "It holds the gold of the Macedonian tombs, and the star exhibit is the Derveni Krater, a bronze wine vessel almost a meter tall that looks as if it were made of gold because of its alloy. Worked into it are Dionysus and Ariadne, surrounded by dancing maenads." }
       ],
       jesti: [
         { ime: "Bougatsa", opis: "A pie of thin phyllo with semolina custard, cheese or meat, which is cut into small squares and dusted with sugar and cinnamon. Thessaloniki is its capital, and it was brought by refugees from Asia Minor." },
         { ime: "Koulouri Thessalonikis", opis: "The sesame ring that is named after Thessaloniki all over Greece is best warm, from the street carts in the early morning hours." },
-        { ime: "Trigona Panoramatos", opis: "Crisp triangles of puff pastry soaked in syrup and filled with cream were created in the suburb of Panorama and are filled only when you order them." },
+        { ime: "Trigona Panoramatos", opis: "Crisp triangles of phyllo soaked in syrup and filled with custard cream were created in the suburb of Panorama and are filled only when you order them." },
         { ime: "Meze and tsipouro", opis: "In the ouzeri, a bottle of tsipouro comes with a procession of mussels with rice, roasted peppers from Florina and the spicy cheese dip tirokafteri." }
       ],
       dozivjeti: [
         { ime: "Kapani and Modiano markets", opis: "Two neighboring markets are the heart of the city's cooking: Kapani is old, noisy and covered with canvas, and the Modiano hall from the 1920s has been restored and is full of eateries. Go in the morning and go hungry." },
         { ime: "An evening in Ladadika", opis: "The former district of oil warehouses by the port is now full of tavernas and venues with live music, where people sit late into the night to the sound of rebetiko." },
         { ime: "Museum of Byzantine Culture", opis: "This clearly laid out museum explains how people lived, prayed and were buried in Byzantium, so it is good preparation for touring the churches of Thessaloniki protected by UNESCO.", link: "https://www.mbp.gr/" },
-        { ime: "Seafront promenade", opis: "From the White Tower to the concert hall runs a five-kilometer waterfront with themed gardens and the umbrella sculpture by Giorgos Zongolopoulos, the city's favorite spot for photographs." }
+        { ime: "Seafront promenade", opis: "From the White Tower to the concert hall runs a waterfront promenade about three and a half kilometers long, with themed gardens and the umbrella sculpture by Giorgos Zongolopoulos, the city's favorite spot for photographs." }
       ],
       agencije: [
         { ime: "Thessaloniki Tourism", opis: "The tourism organization of Thessaloniki, with practical information and suggested routes.", link: "https://www.thessalonikitourism.gr/" },
@@ -138,7 +150,7 @@ window.ATLAS["grcka"] = {
       ],
       vidjeti: [
         { ime: "Great Meteoron", opis: "The oldest and largest monastery stands on the highest rock. In the old kitchen you will see a soot-blackened dome and enormous cookware, and in the ossuary shelves holding the skulls of the monks who lived here." },
-        { ime: "Varlaam", opis: "It was founded in the 16th century, and hauling the building material to the top took more than twenty years. In the tower look for the winch and net used to lift people and supplies until the 20th century, and for the huge oak water barrel that holds twelve thousand liters." },
+        { ime: "Varlaam", opis: "Hermits lived on this rock as early as the 14th century, and the present monastery was built in the 16th, when tradition says it took more than twenty years to haul the building material to the top. In the tower look for the winch and net used to lift people and supplies until the 20th century, and for the huge 16th-century oak barrel in which water was stored." },
         { ime: "Saint Stephen", opis: "This convent, reached by a short bridge without a single step, is the easiest to visit. The terrace looks out over Kalambaka and the Pineios River, and the nuns sell their own icons and embroidery." },
         { ime: "Holy Trinity", opis: "The most isolated monastery, reached by about 140 steps cut into the rock, is known from the 1981 James Bond film “For Your Eyes Only”. The basket of the cable lift the monks still use to bring in provisions hangs over the abyss." },
         { ime: "Saint Nicholas Anapafsas", opis: "This small monastery on a narrow rock was built upward, floor upon floor. The frescoes were painted in 1527 by Theophanes the Cretan, and in the scene where Adam names the animals, look for the dragon among them." }
@@ -169,7 +181,7 @@ window.ATLAS["grcka"] = {
         "The oracle operated for more than a thousand years, until the Christian emperor Theodosius closed it at the end of the fourth century. A village grew up over the ruins, and in 1892 French archaeologists had to relocate it before they could start digging."
       ],
       vidjeti: [
-        { ime: "Sacred Way and the Athenian Treasury", opis: "The path winds uphill between the bases of the monuments with which cities once boasted of their victories. The small marble Athenian Treasury was reassembled in 1906, and on its walls look for the carved hymns to Apollo with the oldest surviving musical notation." },
+        { ime: "Sacred Way and the Athenian Treasury", opis: "The path winds uphill between the bases of the monuments with which cities once boasted of their victories. The small marble Athenian Treasury was reassembled in 1906, and its south wall once carried two hymns to Apollo carved with musical notation, a rare record of how ancient Greek music sounded, which are now kept in the museum." },
         { ime: "Temple of Apollo", opis: "The six columns belong to the temple from the fourth century BC, beneath which the Pythia sat on her tripod. The sayings of the Seven Sages were carved in the forecourt, among them “Know thyself” and “Nothing in excess”." },
         { ime: "Theater and stadium", opis: "The theater, with five thousand seats, offers the finest view of the sanctuary and the valley of olive trees. Above it is the stadium of the Pythian Games, where musicians and poets competed as well as runners." },
         { ime: "Tholos of Athena Pronaia", opis: "The circular building with three re-erected columns is the most photographed sight in Delphi, and to this day nobody knows what it was for. It lies lower down beside the road, apart from the main sanctuary, and is often almost empty." },
@@ -234,7 +246,7 @@ window.ATLAS["grcka"] = {
       ],
       vidjeti: [
         { ime: "Portara", opis: "The marble gateway six meters high is all that remains of the Temple of Apollo that the tyrant Lygdamis began around 530 BC and never finished. Each doorpost weighs about twenty tons, and at dusk you can watch the sun sink into the sea through the frame." },
-        { ime: "The Kastro in Chora", opis: "The Venetian fortress at the top of the town has a Catholic cathedral, an Ursuline school and houses with coats of arms over their doors. One of the buildings, a former Jesuit school where the writer Nikos Kazantzakis briefly studied, houses the archaeological museum with its Cycladic idols." },
+        { ime: "The Kastro in Chora", opis: "The Venetian fortress at the top of the town has a Catholic cathedral, an Ursuline school and houses with coats of arms over their doors. One of the buildings, a former Jesuit school where the writer Nikos Kazantzakis briefly studied, is the home of the archaeological museum with its Cycladic idols. That building is being restored, so for now part of the collection is shown in the former Ursuline convent next door." },
         { ime: "Temple of Demeter near Sangri", opis: "This temple from the sixth century BC is made entirely of Naxian marble, including the roof tiles, which let light through. It stands in the middle of grain fields, a fitting place for the goddess of the harvest." },
         { ime: "The kouroi at Melanes and Apollonas", opis: "Huge unfinished statues of young men lie in the ancient quarries where the stonecutters left them when the marble cracked. The one near Apollonas is almost eleven meters long and probably depicts Dionysus." },
         { ime: "Halki and Apeiranthos", opis: "Halki is the island's former center, with neoclassical houses and the Byzantine church of Panagia Protothroni. Apeiranthos is a mountain village where even the streets are paved with marble and the residents speak a dialect associated with Crete." }
@@ -279,7 +291,7 @@ window.ATLAS["grcka"] = {
         { ime: "Tsikoudia", opis: "This pomace brandy without anise arrives at the table free at the end of every meal, along with fruit or cake, and it is impolite to refuse it without taking at least one sip." }
       ],
       dozivjeti: [
-        { ime: "The municipal market and leather street in Chania", opis: "Skridlof lane is still home to craftsmen who make the Cretan boots called stivania, and herbs, honey and cheese are sold around the market.", link: "https://www.chaniatourism.gr/" },
+        { ime: "The municipal market and leather street in Chania", opis: "Skridlof lane is still home to craftsmen who make the Cretan boots called stivania, and herbs, honey and cheese are sold in the shops nearby. The cross-shaped market hall itself has been closed for restoration since 2022 and is expected to reopen at the end of 2026, so check before you count on it.", link: "https://www.chaniatourism.gr/" },
         { ime: "Lyra music in a mountain village", opis: "The Cretan lyra is played with three strings and a bow, accompanied by the lute and by mantinades, verses made up on the spot. The best places to hear it are villages like Anogia or the summer festivals." },
         { ime: "A day at Elafonisi or Balos", opis: "Two lagoons in the west of the island have shallow turquoise water and pink sand made of crushed shells. Arrive before ten in the morning, because the parking lots fill up fast in summer." },
         { ime: "Knossos with a guide", opis: "Without explanation the palace is a heap of walls, so it is worth hiring a licensed guide at the entrance or in advance.", link: "https://www.heraklionmuseum.gr/" }
@@ -337,7 +349,7 @@ window.ATLAS["grcka"] = {
         { ime: "New Fortress", opis: "It was built in the late 16th century after an Ottoman siege, and above the gate look for the winged lion of Saint Mark. From the upper terrace you can see a sea of rooftops and the Albanian coast across the channel." },
         { ime: "The Liston and the Spianada", opis: "The French built the arcades with their cafes on the model of the Rue de Rivoli in Paris, and tradition says that only nobles entered in the register were allowed to stroll there. Cricket is still played on the huge lawn in front of them." },
         { ime: "Church of Saint Spyridon", opis: "The red bell tower is the tallest on the island, and in a silver casket lies the body of Corfu's patron saint, which is carried through the town in procession four times a year. Half the men on the island are called Spiros." },
-        { ime: "Achilleion", opis: "The palace was built in 1890 for the Austrian empress Elisabeth, known as Sisi, who dedicated it to Achilles. Her statue of the dying hero stands in the garden, and nearby is the enormous victorious Achilles installed by the next owner, the German emperor Wilhelm II. The interior has been under restoration for years, so check what is open." },
+        { ime: "Achilleion", opis: "The palace was built in 1890 for the Austrian empress Elisabeth, known as Sisi, who dedicated it to Achilles. Her statue of the dying hero stands in the garden, and nearby is the enormous victorious Achilles installed by the next owner, the German emperor Wilhelm II. The interior has been closed for restoration since 2021 with no reopening date announced, and in recent seasons only the gardens have been open, so check before you go." },
         { ime: "Paleokastritsa and Angelokastro", opis: "The six bays below a 13th-century monastery are often named as the place where Odysseus swam ashore in the land of the Phaeacians. Above them, on a rock 300 meters high, stands the Byzantine fortress of Angelokastro, which was never conquered." }
       ],
       jesti: [

@@ -51,7 +51,7 @@ window.DODACI["grcka"] = {
       domaci: [
         { ime: "Zalazak sunca na stijenama", opis: "Navečer i domaći i posjetitelji sjede na ravnim stijenama uz cestu i gledaju kako se svjetlo mijenja na samostanima. Ponesite jaknu, jer brzo zahladi." },
         { ime: "Meso s roštilja u Kastrakiju", opis: "Seoske taverne peku janjeće kotlete i kobasice na drvenom ugljenu i poslužuju ih uz domaće vino. Obitelji iz ravnice dolaze nedjeljom na duge ručkove." },
-        { ime: "Tržni dan u Kalambaki", opis: "Tjedna ulična tržnica dovodi seljake iz Tesalske ravnice s voćem, sirom i medom. Pitajte domaćine kojim se danom održava." }
+        { ime: "Tržni dan u Kalambaki", opis: "Tjedna ulična tržnica dovodi seljake iz Tesalske ravnice s voćem, sirom i medom. Održava se petkom ujutro u ulicama oko središta grada." }
       ],
       kupiti: [
         { ime: "Ručno oslikane ikone", opis: "Radionice u Kalambaki i Kastrakiju oslikavaju bizantske ikone jajčanom temperom i zlatnim listićima, starom tehnikom. Možete gledati slikare i pitati kako ikona nastaje." },
@@ -123,7 +123,7 @@ window.DODACI["grcka"] = {
       kupiti: [
         { ime: "Kretski noževi", opis: "U ulici nožara u starom gradu Chanije majstori kuju oštrice i u njih urezuju rimovane stihove. Nož spakirajte u predanu prtljagu." },
         { ime: "Koža u ulici Skridlof", opis: "Ova uska uličica u Chaniji otočna je ulica kože, sa sandalama, torbama i remenima. Neke trgovine još uvijek po narudžbi izrađuju visoke kretske čizme." },
-        { ime: "Samoniklo bilje", opis: "Kretski jasenak, koji zovu diktamo, i planinski čaj malotira beru se u kretskim planinama. Kupite ih na gradskim tržnicama ili na seoskim štandovima." }
+        { ime: "Samoniklo bilje", opis: "Kretski jasenak, koji zovu diktamo, i planinski čaj malotira beru se u kretskim planinama. Kupite ih u travarnicama u starim jezgrama Hanije i Retimna ili na seoskim štandovima." }
       ]
     },
     "rodos": {

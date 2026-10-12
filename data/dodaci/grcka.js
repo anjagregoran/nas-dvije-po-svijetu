@@ -51,7 +51,7 @@ window.DODACI["grcka"] = {
       domaci: [
         { ime: "Sunset on the rocks", opis: "In the evening, locals and visitors alike sit on the flat rocks beside the road and watch the light change on the monasteries. Bring a jacket, since it cools quickly." },
         { ime: "Grilled meat in Kastraki", opis: "The village tavernas grill lamb chops and sausages over charcoal and serve them with local wine. Families from the plain come on Sundays for long lunches." },
-        { ime: "Market day in Kalambaka", opis: "The weekly street market brings farmers from the Thessaly plain with fruit, cheese and honey. Ask your hosts which day it is held." }
+        { ime: "Market day in Kalambaka", opis: "The weekly street market brings farmers from the Thessaly plain with fruit, cheese and honey. It is held on Friday mornings in the streets around the center of town." }
       ],
       kupiti: [
         { ime: "Hand-painted icons", opis: "Workshops in Kalambaka and Kastraki paint Byzantine icons with egg tempera and gold leaf, in the old technique. You can watch the painters and ask how an icon is made." },
@@ -123,7 +123,7 @@ window.DODACI["grcka"] = {
       kupiti: [
         { ime: "Cretan knives", opis: "On the knife makers' street in the old town of Chania, craftsmen forge blades and engrave them with rhyming verses. Pack your knife in checked luggage." },
         { ime: "Leather on Skridlof street", opis: "This narrow lane in Chania is the island's leather street, with sandals, bags and belts. Some shops still make the tall Cretan boots to order." },
-        { ime: "Wild herbs", opis: "Dittany, called diktamo, and the mountain tea malotira are gathered in the Cretan highlands. Buy them at the municipal markets or from village stalls." }
+        { ime: "Wild herbs", opis: "Dittany, called diktamo, and the mountain tea malotira are gathered in the Cretan highlands. Buy them at herb shops in the old towns of Chania and Rethymno or from village stalls." }
       ]
     },
     "rodos": {

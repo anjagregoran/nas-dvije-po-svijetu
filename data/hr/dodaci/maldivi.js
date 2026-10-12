@@ -2,17 +2,17 @@ window.DODACI = window.DODACI || {};
 window.DODACI["maldivi"] = {
   kupiti: [
     { ime: "Lakirane kutije (liyelaa jehun)", opis: "Drvene kutije i vaze tokare se, premazuju slojevima crnog, crvenog i žutog laka, a zatim se u njih urezuju uzorci, što je obrt vezan uz otok Thulhaadhoo u atolu Baa." },
-    { ime: "Prostirke thundu kunaa", opis: "Fine prostirke od trske s geometrijskim uzorcima u prirodnim bojama tkaju žene na jugu, u atolu Huvadhu, a u Maléu ćete ih naći u boljim trgovinama rukotvorina." },
+    { ime: "Prostirke thundu kunaa", opis: "Fine prostirke od trske s geometrijskim uzorcima u prirodnim bojama tkaju žene na otoku Gadhdhoo u atolu Huvadhu, na krajnjem jugu zemlje, a u Maléu ćete ih naći u boljim trgovinama rukotvorina." },
     { ime: "Sušena tuna i rihaakuru", opis: "Tvrda dimljena tuna i gusta, tamna pasta koja nastaje višesatnim kuhanjem ribe temelj su maldivske kuhinje, a kupuju se na tržnici u Maléu, dobro zamotane za put." },
     { ime: "Kokosovo ulje", opis: "Hladno prešano ulje iz otočnih kućanstava koristi se i za kuhanje i za kosu, a prodaje se u malim trgovinama na naseljenim otocima." },
     { ime: "Maketa dhonija", opis: "Tradicijska brodica s visokim, zakrivljenim pramcem simbol je otoka, a drvene makete izrađuju majstori koji grade i prave brodice, pa tražite ručni rad od domaćeg drva." },
-    { ime: "Slatkiši od kokosa", opis: "Bondi, dugi štapići od kokosa i palmina šećera umotani u osušeni list banane, tipičan su dar koji domaći nose rodbini, a naći ćete ih na tržnici u Maléu." }
+    { ime: "Slatkiši od kokosa", opis: "Addu bondi, štapići od mladog kokosa i sirupa kokosove palme umotani u osušeni list banane, potječu s atola Addu na krajnjem jugu i dugo traju, pa ih domaći nose rodbini na dar, a naći ćete ih na tržnici u Maléu." }
   ],
   mjesta: {
     "male": {
       dragulji: [
         { ime: "Villimalé", opis: "Deset minuta vožnje trajektom od glavnog grada leži zeleni otok bez automobila, s pješčanim ulicama, plažom i mirom kakav je teško zamisliti dok stojite u Maléu." },
-        { ime: "Sultanov park", opis: "Mali park na mjestu nekadašnje sultanove palače jedini je pravi hlad u gradu, a domaći na njegovim klupama među drvećem čekaju da prođe podnevna žega." },
+        { ime: "Sultanov park", opis: "Mali park na zemljištu nekadašnje sultanove palače preuređen je 2017. godine, a obitelji predvečer, kada dnevna žega popusti, dolaze na njegove staze i dječja igrališta." },
         { ime: "Obala Hulhumaléa", opis: "Na umjetnom otoku povezanom mostom pruža se duga plaža s drvoredom i kafićima, na kojoj vidite kako živi mlada maldivska srednja klasa." }
       ],
       domaci: [
@@ -32,7 +32,7 @@ window.DODACI["maldivi"] = {
         { ime: "Eydhafushi", opis: "Glavni otok atola ima luku, škole, džamije i ulice od koraljnog pijeska, a pokazat će vam svakodnevni život bez ijedne ležaljke." }
       ],
       domaci: [
-        { ime: "Poslijepodne u joaliju", opis: "Pred kućama i uz obalu vise mrežasta sjedala na drvenim okvirima, koja se zovu joali, a na njima se u hladu sjedi i razgovara dok žega ne popusti, pa ako vas pozovu, slobodno sjednite." },
+        { ime: "Poslijepodne u joaliju", opis: "Pred kućama i uz obalu stoje sjedala od užeta koja se zovu joali, nešto između ležaljke i viseće mreže, a na njima se u hladu sjedi i razgovara dok žega ne popusti, pa ako vas pozovu, slobodno sjednite." },
         { ime: "Ribolov na povraz u sumrak", opis: "Otočani predvečer isplove i love samo povrazom i udicom, a ulov se iste večeri peče na plaži, što pansioni rado organiziraju i za goste." },
         { ime: "Petak na otoku", opis: "Petak je dan molitve i odmora, pa trajekti ne voze, a trgovine se zatvaraju oko podneva, dok se predvečer cijelo selo okupi oko nogometnog igrališta." }
       ],
@@ -44,8 +44,8 @@ window.DODACI["maldivi"] = {
     "ari": {
       dragulji: [
         { ime: "Pješčani sprud na Dhigurahu", opis: "Dhigurah je dug i uzak, a na južnom se kraju pretvara u bijeli jezičac koji zadire u lagunu, do kojeg je oko pola sata hoda kroz palminu šumu." },
-        { ime: "Stara džamija na Fenfushiju", opis: "Na otoku Fenfushi stoji džamija od klesanog koraljnog kamena s lakiranim drvenim stropom, okružena starim grobljem, primjer graditeljske tradicije koje više nema." },
-        { ime: "Dhangethi", opis: "Miran naseljeni otok s tradicijom ribarstva i brodogradnje dobro je mjesto da vidite seoski život, a otočani će vam rado pokazati staru kuću uređenu kao mali muzej." }
+        { ime: "Stara džamija na Fenfushiju", opis: "Na otoku Fenfushi stoji džamija od klesanog koraljnog kamena s kraja 17. stoljeća, s finim lakiranim ukrasima u unutrašnjosti, okružena starim grobljem i koraljnim bazenom za obredno pranje, primjer graditeljske tradicije koje više nema." },
+        { ime: "Dhangethi", opis: "Miran naseljeni otok s ribarskom tradicijom dobro je mjesto da vidite seoski život, a ima i mali kulturni centar posvećen otočnoj tradiciji." }
       ],
       domaci: [
         { ime: "Luka kada stižu brodice", opis: "Kasno poslijepodne ribari iskrcavaju ulov, djeca skaču s mola, a muškarci sjede na zidu, pa je to najbolje vrijeme za šetnju i razgovor." },
@@ -54,7 +54,7 @@ window.DODACI["maldivi"] = {
       ],
       kupiti: [
         { ime: "Sušena tuna", opis: "Na otocima Južnog Arija tuna se još dimi i suši u dvorištima, a komadi umotani u papir prodaju se u seoskim trgovinama i traju mjesecima." },
-        { ime: "Uže od kokosova vlakna", opis: "Ručno upredeno uže koje se zove roanu nekoć je držalo na okupu cijele brodice, a danas se od njega izrađuju prostirke i ukrasi koje žene prodaju pred svojim kućama." }
+        { ime: "Uže od kokosova vlakna", opis: "Ručno upredeno uže koje se zove roanu nekoć je držalo na okupu cijele brodice, a kako ga danas izrađuje još samo pokoji otočanin, pitajte u pansionu plete li ga itko na otoku." }
       ]
     }
   }

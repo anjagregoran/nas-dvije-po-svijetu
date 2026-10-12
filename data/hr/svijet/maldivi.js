@@ -4,6 +4,16 @@ window.ATLAS["maldivi"] = {
   ime: "Maldivi",
   regija: "Južna i Srednja Azija",
   sazetak: "Tisuću koraljnih otočića rasutih po Indijskom oceanu, gdje se ispod površine krije više života nego iznad nje.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "National Geographic Travel, the best food dishes of the Maldives", url: "https://www.nationalgeographic.com/travel/article/paid-content-maldives-best-food-dishes" },
+    { ime: "Visit Maldives, six snacks to take back home", url: "https://visitmaldives.com/en/experience/six-snacks-to-take-back-home-from-the-maldives" },
+    { ime: "Visit Maldives, national whale shark regulation", url: "https://visitmaldives.com/en/news/the-maldives-takes-significant-new-step-to-enhance-conservation-of-whale-sharks-with-national-regulation" },
+    { ime: "Two Thousand Isles, What's in a Joali?", url: "https://twothousandisles.com/story/whats-in-a-joali/" },
+    { ime: "Coral Stone Mosques of Maldives, Fenfushi Old Friday Mosque", url: "https://coralstonemosques.com/?p=133" },
+    { ime: "Marine Stewardship Council, tuna fishing in the Maldives", url: "https://www.msc.org/fishers-stories/tuna-fishing-in-the-maldives" },
+    { ime: "Secret Paradise Maldives, about us", url: "https://secretparadise.mv/about-us/" },
+    { ime: "Alan and Anna's travel blog, Dhangethi", url: "https://www.alananna.co.uk/blog/?p=41775" }
+  ] },
   uvod: [
     "Maldivi su lanac od oko 1200 koraljnih otoka složenih u dvadeset i šest prirodnih atola, koji se protežu više od osamsto kilometara od sjevera prema jugu. To je najniža država na svijetu, jer najviša prirodna točka jedva prelazi dva metra, pa je podizanje razine mora ovdje pitanje opstanka.",
     "Iza razglednica s kućicama nad lagunom postoji i zemlja s vlastitim jezikom, pismom koje se piše zdesna nalijevo i poviješću dugom više od dvije tisuće godina. Otoci su ležali na pomorskom putu između Arabije i Dalekog istoka, stanovnici su 1153. godine prešli s budizma na islam, a sultanat je trajao do 1968. Otkako su 2009. i 2010. godine dopušteni pansioni na naseljenim otocima, Maldivi se mogu doživjeti i izvan skupih odmarališta, uz ribare, čajane i džamije od koralja."
@@ -17,10 +27,10 @@ window.ATLAS["maldivi"] = {
   hrana: [
     { ime: "Mas huni", opis: "Usitnjena tuna izmiješana s naribanim kokosom, lukom, čilijem i limetom.", prica: "To je maldivski doručak, koji se jede prstima uz tanki kruh roshi i slatki crni čaj. Svaka obitelj ima svoj omjer kokosa i ribe, a ponekad se dodaje i kuhana bundeva." },
     { ime: "Garudhiya", opis: "Bistra juha od tune kuhane samo u vodi i soli.", prica: "Najstarije je jelo otoka i jede se s rižom, limetom, čilijem i lukom. Kada se juha kuha danima dok se ne zgusne, nastaje tamna pasta rihaakuru, koju otočani mažu na kruh kao što mi mažemo paštetu." },
-    { ime: "Mas riha", opis: "Curry od tune s kokosovim mlijekom i začinima.", prica: "Pokazuje koliko je kuhinja otoka povezana s Indijom i Šri Lankom. Tuna se lovi isključivo udicom i štapom, jednu po jednu, što je jedan od najodrživijih načina ribolova na svijetu." },
-    { ime: "Hedhikaa", opis: "Slani i slatki zalogaji koji se jedu uz popodnevni čaj.", prica: "Najpoznatiji su gulha, pržene kuglice punjene dimljenom tunom i kokosom, i bajiya, lisnati trokuti s ribom. U čajanama se donose na stol svi odjednom, a plaća se samo ono što se pojede." },
+    { ime: "Mas riha", opis: "Curry od tune s kokosovim mlijekom i začinima.", prica: "Pokazuje koliko je kuhinja otoka povezana s Indijom i Šri Lankom. Tuna se lovi štapom i udicom ili povrazom iz ruke, jedna po jedna, jer je lov tune mrežama ovdje zabranjen, pa je to jedan od najodrživijih načina ribolova na svijetu." },
+    { ime: "Hedhikaa", opis: "Slani i slatki zalogaji koji se jedu uz popodnevni čaj.", prica: "Najpoznatiji su gulha, pržene kuglice punjene dimljenom tunom i kokosom, i bajiya, hrskavi trokuti nalik samosama, punjeni ribom. U čajanama se donose na stol svi odjednom, a plaća se samo ono što se pojede." },
     { ime: "Fihunu mas", opis: "Cijela riba premazana pastom od čilija i začina i pečena na žaru.", prica: "Priprema se na plaži za večeru, najčešće od svježe ulovljene grebenske ribe. Na naseljenim otocima često je dio večernjeg roštilja koji pansioni priređuju gostima." },
-    { ime: "Bondibaiy", opis: "Slatka riža kuhana s kokosovim mlijekom, šećerom i aromom pandana.", prica: "Priprema se za rođenja, obiteljske svečanosti i vjerske blagdane. Ponekad se, na iznenađenje gostiju, poslužuje uz ljutu ribu." },
+    { ime: "Bondibaiy", opis: "Slatka, ljepljiva riža kuhana s kokosovim mlijekom, šećerom, kardamomom i pandanom.", prica: "Priprema se kada dijete dobiva ime, za vjenčanja i za Bajram. Na iznenađenje gostiju, prstima se oblikuje u kuglice i jede uz dimljenu ribu." },
     { ime: "Kurumba", opis: "Mladi kokos koji se pije svjež.", prica: "Kokosova palma nacionalno je stablo i nalazi se na državnom grbu. Od njezina soka se nekoć dobivao i slatki napitak raa, a alkohol se danas toči samo u odmaralištima i na brodovima." }
   ],
   obicaji: [
@@ -28,7 +38,7 @@ window.ATLAS["maldivi"] = {
     { ime: "Lakirano drvo", opis: "Zanat ukrašavanja drvenih kutija i vaza slojevima crvenog, crnog i žutog laka, u koje se zatim rukom urezuju cvjetni uzorci. U takvim se posudama nekoć nosila hrana sultanu.", gdje: "Na otoku Thulhaadhoo u atolu Baa, gdje obitelji rade u otvorenim radionicama." },
     { ime: "Dhoni", opis: "Tradicionalni maldivski brod zakrivljenog pramca, nekoć građen od kokosova drva bez nacrta, prema znanju koje se prenosilo s oca na sina. Danas ima motor, ali oblik je ostao isti.", gdje: "U svakoj luci. Brodogradilišta se mogu vidjeti na otoku Alifushi u atolu Raa, a dhonijem se ide i na večernji ribolov." },
     { ime: "Petak i ramazan", opis: "Maldivi su muslimanska zemlja i petak je dan odmora, kada su trgovine oko podneva zatvorene. Tijekom ramazana se na naseljenim otocima danju ne jede na javnim mjestima, a nakon zalaska sunca ulice ožive.", gdje: "Na svim naseljenim otocima. Na njima se izvan posebno označenih plaža za turiste nosi odjeća koja pokriva ramena i koljena." },
-    { ime: "Popodnevni čaj", opis: "Oko četiri sata poslijepodne čajane se pune muškarcima koji uz crni čaj i hedhikau raspravljaju o ribolovu i politici. To je najlakši način da se sjedne među mještane.", gdje: "U čajanama, koje se zovu hotaa, u Maléu i na svakom naseljenom otoku." }
+    { ime: "Popodnevni čaj", opis: "Oko četiri sata poslijepodne čajane se pune muškarcima koji uz crni čaj i hedhikau raspravljaju o ribolovu i politici. To je najlakši način da se sjedne među mještane.", gdje: "U čajanama, koje se zovu sai hotaa, u Maléu i na svakom naseljenom otoku." }
   ],
   fraze: [
     { izvorno: "Assalaamu alaikum", izgovor: "a-sa-LAA-mu a-LEJ-kum", hr: "Dobar dan" },
@@ -44,8 +54,8 @@ window.ATLAS["maldivi"] = {
     "Riječ atol potječe iz maldivskog jezika, od riječi atholhu, i jedna je od rijetkih koje je cijeli svijet preuzeo iz divehija.",
     "Maldivske školjke kauri stoljećima su služile kao novac u Indiji, Kini i zapadnoj Africi.",
     "Vlada je 2009. godine održala sjednicu pod morem, u ronilačkim odijelima, kako bi upozorila svijet na podizanje razine mora.",
-    "Prvo turističko odmaralište otvoreno je 1972. godine, iako su stručnjaci Ujedinjenih naroda nekoliko godina prije ocijenili da otoci nisu prikladni za turizam.",
-    "Maldivsko pismo thaana piše se zdesna nalijevo, a prva su slova nastala od arapskih brojki.",
+    "Prvo turističko odmaralište, Kurumba, otvoreno je 1972. godine, iako su stručnjaci Ujedinjenih naroda tvrdili da turizam ne može uspjeti na otocima bez ikakve infrastrukture.",
+    "Maldivsko pismo thaana piše se zdesna nalijevo, a prvih je devet slova nastalo od arapskih brojki.",
     "Od oko 1200 otoka naseljeno ih je oko dvjesto, a na otprilike još toliko nalaze se odmarališta."
   ],
   mjesta: [
@@ -56,14 +66,14 @@ window.ATLAS["maldivi"] = {
       sazetak: "Jedna od najgušće naseljenih prijestolnica svijeta, šareni grad stisnut na otok koji se prehoda za sat vremena.",
       prica: [
         "Malé je stoljećima bio Sultanov otok, sjedište vladara kojemu su atoli plaćali danak u školjkama i sušenoj ribi. Legenda o prelasku na islam kaže da je putujući učenjak Abu al-Barakat 1153. godine čitanjem Kurana otjerao morskog demona kojemu su otočani svakog mjeseca žrtvovali djevojku.",
-        "Danas na otoku od jedva dva četvorna kilometra i susjednim nasutim otocima živi trećina stanovništva države. Većina gostiju samo preleti preko njega, ali upravo se ovdje u nekoliko sati može shvatiti kako Maldivljani doista žive."
+        "Danas na otoku od jedva dva četvorna kilometra i susjednim nasutim otocima živi oko dvije petine stanovništva države. Većina gostiju samo preleti preko njega, ali upravo se ovdje u nekoliko sati može shvatiti kako Maldivljani doista žive."
       ],
       vidjeti: [
-        { ime: "Stara džamija petkom (Hukuru Miskiy)", opis: "Najstarija džamija u gradu, sagrađena 1656. godine od blokova koraljnog kamena koji su spojeni bez žbuke, poput drvene stolarije. Zidovi su prekriveni isklesanim arapskim natpisima i pleterom, a na groblju oko nje stoje nadgrobni spomenici sultana." },
+        { ime: "Stara džamija petkom (Hukuru Miskiy)", opis: "Najstarija džamija u gradu, sagrađena 1656. godine od blokova koraljnog kamena koji su spojeni bez žbuke, poput drvene stolarije. Zidovi su prekriveni isklesanim arapskim natpisima i pleterom, a na groblju oko nje stoje nadgrobni spomenici sultana. Grobljem smije prošetati svatko tko je pristojno odjeven, a za ulazak u džamiju nemuslimanima treba dopuštenje Ministarstva islamskih poslova, koje službenici na licu mjesta često daju izvan vremena molitve." },
         { ime: "Medhu Ziyaaraiy", opis: "Mali grob preko puta džamije u kojem, prema predaji, počiva Abu al-Barakat, čovjek koji je otoke preobratio na islam. Bijela ograda i plave zastave lako se prepoznaju." },
-        { ime: "Nacionalni muzej i Sultanov park", opis: "Muzej stoji u parku koji je ostatak nekadašnje sultanske palače. Najvrednija je zbirka budističkih kamenih skulptura iz vremena prije islama, kao i sultanska prijestolja i nosiljke." },
+        { ime: "Nacionalni muzej i Sultanov park", opis: "Muzej stoji u parku uređenom na zemljištu nekadašnje sultanske palače, koji je 2017. godine preuređen. U njemu se čuvaju sultanska prijestolja, nosiljke i svečana odjeća te ono malo budističkih kamenih skulptura iz vremena prije islama što je preživjelo napad na zbirku 2012. godine." },
         { ime: "Riblja tržnica", opis: "Poslijepodne ribarski brodovi istovaruju žutoperajne tune, koje prodavači u nekoliko poteza noža pretvaraju u filete. Odmah do nje je tržnica s kokosima, slatkim krumpirom i svežnjevima listova betela." },
-        { ime: "Islamski centar", opis: "Velika džamija sa zlatnom kupolom iz 1984. godine, vidljiva s mora izdaleka. Izvan vremena molitve mogu ući i posjetitelji, uz pokrivena ramena i noge." }
+        { ime: "Islamski centar", opis: "Velika džamija sa zlatnom kupolom iz 1984. godine, vidljiva s mora izdaleka. Između devet ujutro i pet poslijepodne, izvan vremena molitve, mogu ući i posjetitelji, uz pokrivena ramena i noge." }
       ],
       jesti: [
         { ime: "Hedhikaa u čajani", opis: "Popodnevni zalogaji s tunom i kokosom, koji se u lokalnim čajanama donose na stol na velikom pladnju." },
@@ -87,7 +97,7 @@ window.ATLAS["maldivi"] = {
       vrsta: "otok",
       sazetak: "UNESCO-ov rezervat biosfere u kojem se u jednoj maloj uvali okupljaju deseci manta da bi se hranile planktonom.",
       prica: [
-        "Atol Baa, sjeverozapadno od Maléa, čini sedamdesetak otoka, od kojih je naseljeno tek desetak. UNESCO ga je 2011. godine proglasio rezervatom biosfere zbog iznimno bogatih koraljnih grebena i neobične pojave u zaljevu Hanifaru.",
+        "Atol Baa, sjeverozapadno od Maléa, čini 75 otoka, od kojih je naseljeno samo 13. UNESCO ga je 2011. godine proglasio rezervatom biosfere zbog iznimno bogatih koraljnih grebena i neobične pojave u zaljevu Hanifaru.",
         "Za jugozapadnog monsuna struje u taj uski zaljev nagomilaju plankton, pa se u njemu okupljaju mante i kitopsine u broju kakav se rijetko gdje viđa. Stanovnici atola poznati su i po zanatima: na Thulhaadhoou se lakira drvo, a na Eydhafushiju su se nekoć tkale najfinije tkanine za tradicionalnu nošnju."
       ],
       vidjeti: [
@@ -124,9 +134,9 @@ window.ATLAS["maldivi"] = {
         "Na naseljenim otocima poput Dhiguraha i Dhangethija otvoreni su obiteljski pansioni, pa se ovdje može vidjeti svakodnevica otočana, od jutarnjeg odlaska ribara do večernje molitve. Znanstvenici koji prate kitopsine upravo su na Dhigurahu smjestili svoju bazu."
       ],
       vidjeti: [
-        { ime: "Zaštićeno područje Južni Ari", opis: "Pojas vanjskog grebena dug četrdesetak kilometara, gdje kitopsine plivaju tik ispod površine. Svaka ima jedinstven uzorak točaka iza škrga, po kojemu ih istraživači prepoznaju kao po otisku prsta." },
+        { ime: "Zaštićeno područje Južni Ari", opis: "Pojas vanjskog grebena zaštićen od 2009. godine, površine oko 42 četvorna kilometra, gdje kitopsine plivaju tik ispod površine. Svaka ima jedinstven uzorak točaka iza škrga, po kojemu ih istraživači prepoznaju kao po otisku prsta." },
         { ime: "Otok Dhigurah", opis: "Ime mu znači dugi otok: dug je više od tri kilometra, a širok jedva tristo metara, s pješčanim jezikom na južnom kraju. Kroz sredinu vodi pješčani put u sjeni palmi i stabala kruhovca." },
-        { ime: "Otok Dhangethi", opis: "Malo ribarsko mjesto s kulturnim centrom u kojem je prikazana tradicionalna kuća od koralja i palmina lišća, s kuhinjom i alatom kakvi su se rabili prije dolaska turizma." },
+        { ime: "Otok Dhangethi", opis: "Malo ribarsko mjesto s pansionima, grebenom do kojeg se dopliva s obale i kulturnim centrom posvećenim životu otočana prije dolaska turizma." },
         { ime: "Grebeni i podmorske stijene", opis: "Unutar atola nalaze se thile, podmorski vrhovi obrasli mekim koraljima, omiljeni među roniocima. Na njima se uz jake struje okupljaju sivi grebenski morski psi." },
         { ime: "Čistilišta manta", opis: "Na nekim grebenima mante dolaze da im male ribe očiste kožu i škrge. Mirno lebde iznad koralja, pa ih je lako promatrati s površine." }
       ],
@@ -136,13 +146,13 @@ window.ATLAS["maldivi"] = {
         { ime: "Slatkiši od kokosa", opis: "Kuglice od naribanog kokosa i palmina šećera, koje domaćice prave za čaj." }
       ],
       dozivjeti: [
-        { ime: "Izlet do kitopsina", opis: "Ako želite plivati uz najveću ribu na svijetu, odaberite organizatora koji poštuje pravila: najviše nekoliko plivača odjednom, razmak od najmanje tri metra i bez dodirivanja. Pravila i rezultate istraživanja objavljuje program koji životinje prati od 2006. godine.", link: "https://maldiveswhalesharkresearch.org/" },
+        { ime: "Izlet do kitopsina", opis: "Ako želite plivati uz najveću ribu na svijetu, odaberite organizatora koji poštuje pravila: razmak od najmanje tri metra od tijela i četiri od repa, bez dodirivanja i bez bljeskalice. Pravila i rezultate istraživanja objavljuje program koji životinje prati od 2006. godine.", link: "https://maldiveswhalesharkresearch.org/" },
         { ime: "Šetnja do pješčanog jezika", opis: "Na Dhigurahu se u predvečerje može hodati do samog kraja otoka, gdje se pijesak sužava u crtu između lagune i oceana." },
         { ime: "Noćni ribolov", opis: "Polazi se u sumrak, lovi povrazom s broda, a posada ulov priprema za večeru." }
       ],
       agencije: [
         { ime: "Visit Maldives", opis: "Službena turistička organizacija zemlje.", link: "https://visitmaldives.com/en" },
-        { ime: "Maldives Whale Shark Research Programme", opis: "Neprofitna istraživačka organizacija sa sjedištem na Dhigurahu, koja propisuje kodeks ponašanja uz kitopsine.", link: "https://maldiveswhalesharkresearch.org/" },
+        { ime: "Maldives Whale Shark Research Programme", opis: "Neprofitna istraživačka organizacija sa sjedištem na Dhigurahu, koja je sudjelovala u izradi kodeksa ponašanja uz kitopsine.", link: "https://maldiveswhalesharkresearch.org/" },
         { ime: "Secret Paradise Maldives", opis: "Lokalni organizator putovanja po naseljenim otocima.", link: "https://secretparadise.mv/" }
       ],
       kada: "Kitopsine se viđaju cijele godine, a more je najmirnije od prosinca do travnja. Na naseljenim otocima kupaći kostim nosi se samo na plažama označenima za turiste."

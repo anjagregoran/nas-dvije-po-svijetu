@@ -4,6 +4,18 @@ window.ATLAS["grcka"] = {
   ime: "Grčka",
   regija: "Jugoistočna Europa",
   sazetak: "Zemlja u kojoj se uz jutarnju kavu gleda u hram star dvadeset i pet stoljeća, a navečer se uz ribu i uzo raspravlja kao da se demokracija izmišlja upravo za tim stolom.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Visit Greece (Greek National Tourism Organization): Greek Islands", url: "https://www.visitgreece.gr/en/islands/" },
+    { ime: "Visit Greece: The White Tower", url: "https://www.visitgreece.gr/en/experiences/nature/culture/the-white-tower" },
+    { ime: "Ephorate of Antiquities of Cyclades: The Archaeological Museum of Naxos", url: "https://cyclades.culture.gov.gr/en/location/the-archaeological-museum-of-naxos/" },
+    { ime: "Harvard Center for Hellenic Studies: The Hellenistic hymns to Apollo with musical notation from Delphi", url: "https://classics-at.chs.harvard.edu/the-hellenistic-hymns-to-apollo-with-musical-notation-from-delphi/" },
+    { ime: "Visit Meteora: Varlaam Monastery", url: "https://visitmeteora.travel/?p=1631" },
+    { ime: "Argophilia: Chania Municipal Market reopening", url: "https://www.argophilia.com/news/chania-municipal-market-reopening-december-2026/250906/" },
+    { ime: "Enimerosi (Corfu): Achilleion Palace restoration", url: "https://www.enimerosi.com/news/109761/achilleion-palace-new-contract-while-the-first-remains-outstanding" },
+    { ime: "Lonely Planet: Church of Agios Dimitrios, Thessaloniki", url: "https://www.lonelyplanet.com/points-of-interest/church-of-agios-dimitrios/468406" },
+    { ime: "Frommer's: Shopping in the Meteora", url: "https://www.frommers.com/destinations/the-meteora/shopping/overview" },
+    { ime: "Dora Stratou Dance Theatre: Performances", url: "https://www.grdance.org/en/performances/" }
+  ] },
   uvod: [
     "Grčka je mjesto na kojem su nastale riječi kojima se i danas služimo kad govorimo o politici, kazalištu, filozofiji i sportu, pa se putovanje ovamo često pretvori u prepoznavanje stvari koje smo učile u školi. Povijest ovdje ipak ne staje s antikom: nakon Atene i Aleksandra došli su Rimljani, zatim tisuću godina Bizanta, pa križari i Mlečani na otocima i gotovo četiri stoljeća osmanske vlasti na kopnu. Moderna država rodila se tek u ustanku koji je počeo 1821., a današnje granice dobila je postupno, sve do 1947. godine.",
     "Upravo ta slojevitost čini Grčku zanimljivom i onima kojima su more i masline svakodnevica. U Solunu ćete u istoj ulici vidjeti rimski slavoluk, bizantsku crkvu i osmansko kupalište, na Krfu i Kreti prepoznat ćete mletačke lavove kakve poznajete iz Dalmacije, a na Peloponezu ćete stajati pred vratima kroz koja je, prema Homeru, Agamemnon krenuo na Troju. Hrana je jednostavna i sezonska, stol se dijeli, a obrok bez žurbe ovdje je pravilo lijepog ponašanja."
@@ -53,7 +65,7 @@ window.ATLAS["grcka"] = {
     "Dan „Ohi“, 28. listopada, državni je praznik kojim se slavi odbijanje talijanskog ultimatuma 1940. godine.",
     "U većini kuća i lokala toaletni papir baca se u koš, a ne u školjku, jer su odvodne cijevi uske.",
     "Maraton se trči 42 kilometra zato što je toliko otprilike od Maratonskog polja do Atene, kamo je glasnik prema predaji dotrčao javiti pobjedu nad Perzijancima 490. prije Krista.",
-    "Grčka ima nekoliko tisuća otoka i hridi, a stalno je naseljeno tek nešto više od stotinu."
+    "Nacionalna turistička organizacija broji oko 6000 grčkih otoka i otočića, a naseljeno ih je samo 227."
   ],
   mjesta: [
     {
@@ -102,24 +114,24 @@ window.ATLAS["grcka"] = {
         "Od 1430. do 1912. vladali su Osmanlije, a nakon 1492. grad su ispunili sefardski Židovi protjerani iz Španjolske, koji su stoljećima bili najbrojnija zajednica. Veliki požar 1917. uništio je središte, pa je donji grad sagrađen iznova prema francuskom nacrtu, dok je Gornji grad zadržao stare kuće i zidine."
       ],
       vidjeti: [
-        { ime: "Bijela kula", opis: "Osmanska kula iz 15. stoljeća služila je kao zatvor i zvala se Krvava kula. Predaja kaže da ju je 1890. jedan zatvorenik okrečio u bijelo u zamjenu za slobodu, otkud joj današnje ime. Unutra je muzej povijesti grada, a s vrha se vidi cijeli zaljev i, za bistra dana, Olimp." },
+        { ime: "Bijela kula", opis: "Osmanska kula, podignuta u 15. ili početkom 16. stoljeća na starijim bizantskim temeljima, služila je kao zatvor i zvala se Krvava kula. Priča kaže da ju je 1891. jedan zatvorenik okrečio u bijelo u zamjenu za slobodu, otkud joj današnje ime. Unutra je muzej povijesti grada, a s vrha se vidi cijeli zaljev i, za bistra dana, Olimp." },
         { ime: "Rotonda", opis: "Kružnu građevinu promjera gotovo 25 metara dao je oko 306. sagraditi car Galerije, možda kao vlastiti mauzolej. Poslije je bila crkva pa džamija, zbog čega uz nju stoji jedini sačuvani minaret u gradu. Podignite pogled prema zlatnim mozaicima iz ranokršćanskog doba, na kojima sveci stoje pred raskošnim palačama." },
         { ime: "Galerijev slavoluk", opis: "Solunjani ga zovu Kamara i ovdje se dogovaraju sastanci. Podignut je u spomen na pobjedu nad Perzijancima 298. godine, a na reljefima potražite prizor u kojem car na konju napada perzijskog kralja i slonove koji nose darove." },
-        { ime: "Bazilika svetog Dimitrija", opis: "Najveća crkva u gradu stoji nad rimskim kupalištem u kojem je, prema predaji, početkom četvrtog stoljeća pogubljen časnik Dimitrije, kasniji zaštitnik Soluna. Siđite u kriptu i potražite nekoliko mozaika iz sedmog stoljeća koji su preživjeli požar 1917. i prikazuju sveca s graditeljima crkve." },
+        { ime: "Bazilika svetog Dimitrija", opis: "Najveća crkva u gradu stoji nad rimskim kupalištem u kojem je, prema predaji, početkom četvrtog stoljeća pogubljen časnik Dimitrije, kasniji zaštitnik Soluna. Siđite u kriptu, u kojoj su ostaci kupališta, a gore u crkvi na stupovima uz svetište potražite nekoliko ranih mozaika koji su preživjeli požar 1917., među njima i sveca s utemeljiteljima crkve." },
         { ime: "Gornji grad i zidine", opis: "Ano Poli jedini je dio grada koji požar nije dotaknuo, pa su ovdje ostale drvene kuće s istacima i strme kaldrmirane ulice. Popnite se do kule Trigonio pred zalazak sunca, a usput pogledajte malu crkvu Osios David s rijetkim mozaikom golobradog Krista." },
         { ime: "Arheološki muzej", opis: "Čuva zlato makedonskih grobnica, a glavni izložak je krater iz Dervenija, brončana posuda za vino visoka gotovo metar, koja zbog legure izgleda kao da je od zlata. Na njoj su iskovani Dioniz i Arijadna, okruženi menadama u plesu." }
       ],
       jesti: [
         { ime: "Bugaca", opis: "Pita od tankih kora s kremom od griza, sirom ili mesom, koja se reže na kockice i posipa šećerom i cimetom. Solun je njezina prijestolnica, a donijeli su je izbjeglice iz Male Azije." },
         { ime: "Kuluri Thessalonikis", opis: "Sezamov prsten koji se po cijeloj Grčkoj zove po Solunu, najbolji je topao, s uličnih kolica u ranim jutarnjim satima." },
-        { ime: "Trigona Panoramatos", opis: "Hrskavi trokuti od lisnatog tijesta natopljeni sirupom i punjeni kremom nastali su u predgrađu Panorama i pune se tek kad ih naručite." },
+        { ime: "Trigona Panoramatos", opis: "Hrskavi trokuti od tankih kora natopljeni sirupom i punjeni kremom od vanilije nastali su u predgrađu Panorama i pune se tek kad ih naručite." },
         { ime: "Meze i cipuro", opis: "U uzerijama se uz bocu cipura redaju dagnje s rižom, pečene paprike iz Florine i začinjeni sir tirokafteri." }
       ],
       dozivjeti: [
         { ime: "Tržnice Kapani i Modiano", opis: "Dvije susjedne tržnice srce su gradske kuhinje: Kapani je stara, bučna i natkrivena platnom, a hala Modiano iz dvadesetih godina obnovljena je i puna zalogajnica. Idite prijepodne i gladne." },
         { ime: "Večer u Ladadici", opis: "Nekadašnja četvrt skladišta ulja uz luku danas je puna taverni i lokala sa živom glazbom, gdje se uz rebetiko sjedi do kasno." },
         { ime: "Muzej bizantske kulture", opis: "Pregledno uređen muzej objašnjava kako se živjelo, molilo i pokapalo u Bizantu, pa je dobra priprema za obilazak solunskih crkava pod zaštitom UNESCO-a.", link: "https://www.mbp.gr/" },
-        { ime: "Šetnica uz more", opis: "Od Bijele kule do koncertne dvorane vodi pet kilometara duga obala s tematskim vrtovima i skulpturom kišobrana Jorgosa Zongolopulosa, najdražim mjestom za fotografiranje u gradu." }
+        { ime: "Šetnica uz more", opis: "Od Bijele kule do koncertne dvorane vodi oko tri i pol kilometra duga šetnica s tematskim vrtovima i skulpturom kišobrana Jorgosa Zongolopulosa, najdražim mjestom za fotografiranje u gradu." }
       ],
       agencije: [
         { ime: "Thessaloniki Tourism", opis: "Turistička organizacija Soluna s praktičnim informacijama i prijedlozima ruta.", link: "https://www.thessalonikitourism.gr/" },
@@ -138,7 +150,7 @@ window.ATLAS["grcka"] = {
       ],
       vidjeti: [
         { ime: "Veliki Meteoron", opis: "Najstariji i najveći samostan stoji na najvišoj stijeni. U staroj kuhinji vidjet ćete čađavu kupolu i golemo posuđe, a u kosturnici police s lubanjama monaha koji su ovdje živjeli." },
-        { ime: "Varlaam", opis: "Osnovan je u 16. stoljeću, a građu su na vrh dizali više od dvadeset godina. U tornju potražite vitlo i mrežu kojima su se do 20. stoljeća dizali ljudi i zalihe, te golemu hrastovu bačvu za vodu od dvanaest tisuća litara." },
+        { ime: "Varlaam", opis: "Pustinjaci su na ovoj stijeni živjeli već u 14. stoljeću, a današnji je samostan sagrađen u 16., kad se građa, prema predaji, na vrh dizala više od dvadeset godina. U tornju potražite vitlo i mrežu kojima su se do 20. stoljeća dizali ljudi i zalihe, te golemu hrastovu bačvu iz 16. stoljeća u kojoj se čuvala voda." },
         { ime: "Sveti Stjepan", opis: "Ženski samostan do kojeg vodi kratak most bez ijedne stube najlakši je za posjet. S terase se pruža pogled na Kalambaku i rijeku Penej, a redovnice prodaju vlastite ikone i vez." },
         { ime: "Sveto Trojstvo", opis: "Najusamljeniji samostan, do kojeg vodi oko 140 stuba uklesanih u stijenu, poznat je iz filma o Jamesu Bondu „Samo za tvoje oči“ iz 1981. godine. Košara žičare kojom monasi i danas dovoze namirnice visi nad ponorom." },
         { ime: "Sveti Nikola Anapafsas", opis: "Mali samostan na uskoj stijeni građen je u visinu, kat na kat. Freske je 1527. naslikao Teofan Krećanin, a u prizoru u kojem Adam daje imena životinjama potražite i zmaja među njima." }
@@ -169,7 +181,7 @@ window.ATLAS["grcka"] = {
         "Proročište je radilo više od tisuću godina, sve dok ga krajem četvrtog stoljeća nije zatvorio kršćanski car Teodozije. Nad ruševinama je niknulo selo koje su francuski arheolozi 1892. morali preseliti da bi počeli kopati."
       ],
       vidjeti: [
-        { ime: "Sveti put i Riznica Atenjana", opis: "Staza vijuga uzbrdo između postolja nekadašnjih spomenika kojima su se gradovi hvalili pobjedama. Mala mramorna riznica Atenjana ponovno je složena 1906., a na zidovima potražite uklesane himne Apolonu s najstarijim sačuvanim glazbenim zapisom." },
+        { ime: "Sveti put i Riznica Atenjana", opis: "Staza vijuga uzbrdo između postolja nekadašnjih spomenika kojima su se gradovi hvalili pobjedama. Mala mramorna riznica Atenjana ponovno je složena 1906., a na njezinu su južnom zidu nekoć bile uklesane dvije himne Apolonu s glazbenim zapisom, rijetko svjedočanstvo o tome kako je zvučala starogrčka glazba, koje se danas čuvaju u muzeju." },
         { ime: "Apolonov hram", opis: "Šest stupova pripada hramu iz četvrtog stoljeća prije Krista, pod kojim je Pitija sjedila na tronošcu. Na predvorju su bile uklesane izreke sedmorice mudraca, među njima „Upoznaj samoga sebe“ i „Ničega previše“." },
         { ime: "Kazalište i stadion", opis: "Iz kazališta s pet tisuća mjesta pruža se najljepši pogled na svetište i dolinu maslina. Iznad njega je stadion Pitijskih igara, na kojem su se, osim trkača, natjecali i glazbenici i pjesnici." },
         { ime: "Tolos Atene Pronaje", opis: "Kružna građevina s tri ponovno podignuta stupa najfotografiraniji je prizor Delfa, a čemu je služila ne zna se ni danas. Nalazi se niže uz cestu, odvojeno od glavnog svetišta, i često je gotovo prazna." },
@@ -234,7 +246,7 @@ window.ATLAS["grcka"] = {
       ],
       vidjeti: [
         { ime: "Portara", opis: "Mramorna vrata visoka šest metara jedino su što je ostalo od Apolonova hrama koji je oko 530. prije Krista započeo tiranin Ligdamid i nikada ga nije dovršio. Svaki dovratnik teži oko dvadeset tona, a kroz okvir se u sumrak vidi sunce kako tone u more." },
-        { ime: "Kaštel u Hori", opis: "Mletačka utvrda na vrhu grada ima katoličku katedralu, uršulinsku školu i kuće s grbovima nad vratima. U jednoj od zgrada, nekadašnjoj isusovačkoj školi u kojoj je kratko učio pisac Nikos Kazantzakis, smješten je arheološki muzej s kikladskim idolima." },
+        { ime: "Kaštel u Hori", opis: "Mletačka utvrda na vrhu grada ima katoličku katedralu, uršulinsku školu i kuće s grbovima nad vratima. U jednoj od zgrada, nekadašnjoj isusovačkoj školi u kojoj je kratko učio pisac Nikos Kazantzakis, smješten je arheološki muzej s kikladskim idolima. Ta se zgrada obnavlja, pa je dio zbirke zasad izložen u susjednom nekadašnjem uršulinskom samostanu." },
         { ime: "Demetrin hram kod Sangrija", opis: "Hram iz šestog stoljeća prije Krista u cijelosti je od naksoškog mramora, uključujući i krovne ploče koje su propuštale svjetlo. Stoji usred polja žita, što je prikladno mjesto za božicu žetve." },
         { ime: "Kurosi u Melanesu i Apolonasu", opis: "Golemi nedovršeni kipovi mladića leže u antičkim kamenolomima ondje gdje su ih klesari ostavili kada je mramor napukao. Onaj kod Apolonasa dug je gotovo jedanaest metara i vjerojatno prikazuje Dioniza." },
         { ime: "Halki i Apirantos", opis: "Halki je nekadašnje središte otoka s neoklasičnim kućama i bizantskom crkvom Panagija Protothroni. Apirantos je planinsko selo u kojem su i ulice popločene mramorom, a stanovnici govore narječjem koje se povezuje s Kretom." }
@@ -279,7 +291,7 @@ window.ATLAS["grcka"] = {
         { ime: "Rakija cikudija", opis: "Komovica bez anisa stiže na stol besplatno na kraju svakog obroka, zajedno s voćem ili kolačem, i nepristojno ju je odbiti bez barem jednog gutljaja." }
       ],
       dozivjeti: [
-        { ime: "Gradska tržnica i kožarska ulica u Haniji", opis: "U uličici Skridlof i danas rade obrtnici koji izrađuju kretske čizme stivanje, a oko tržnice se prodaju bilje, med i sir.", link: "https://www.chaniatourism.gr/" },
+        { ime: "Gradska tržnica i kožarska ulica u Haniji", opis: "U uličici Skridlof i danas rade obrtnici koji izrađuju kretske čizme stivanje, a u okolnim se trgovinama prodaju bilje, med i sir. Sama tržnica u obliku križa zatvorena je zbog obnove od 2022. i trebala bi se ponovno otvoriti krajem 2026., pa provjerite prije nego što na nju računate.", link: "https://www.chaniatourism.gr/" },
         { ime: "Glazba lire u planinskom selu", opis: "Kretska lira svira se s tri žice i gudalom, uz lutnju i stihove mantinade koji se smišljaju na licu mjesta. Najbolje je čuti je u selima poput Anogije ili na ljetnim slavljima." },
         { ime: "Dan na Elafonisiju ili Balosu", opis: "Dvije lagune na zapadu otoka imaju plitko tirkizno more i ružičast pijesak od smrvljenih školjaka. Dođite prije deset ujutro jer se parkirališta ljeti brzo pune." },
         { ime: "Knosos s vodičem", opis: "Bez tumačenja palača je hrpa zidova, pa se isplati uzeti licenciranog vodiča na ulazu ili unaprijed.", link: "https://www.heraklionmuseum.gr/" }
@@ -337,7 +349,7 @@ window.ATLAS["grcka"] = {
         { ime: "Nova tvrđava", opis: "Sagrađena je krajem 16. stoljeća nakon osmanske opsade, a nad vratima potražite krilatog lava svetog Marka. S gornje terase vidi se more krovova i albanska obala preko kanala." },
         { ime: "Liston i Spianada", opis: "Arkade s kavanama Francuzi su sagradili po uzoru na parišku Rue de Rivoli, a predaja kaže da su njima smjeli šetati samo plemići upisani u popis. Na golemoj livadi ispred njih i danas se igra kriket." },
         { ime: "Crkva svetog Spiridona", opis: "Crveni zvonik najviši je na otoku, a u srebrnom kovčegu leži tijelo zaštitnika Krfa, koje se četiri puta godišnje nosi gradom u procesiji. Pola muškaraca na otoku zove se Spiros." },
-        { ime: "Ahilion", opis: "Palaču je 1890. dala sagraditi austrijska carica Elizabeta, poznata kao Sisi, i posvetila je Ahileju. U vrtu stoji njezin kip umirućeg junaka, a nedaleko je golemi pobjednički Ahilej kojeg je postavio sljedeći vlasnik, njemački car Vilim II. Unutrašnjost je godinama u obnovi, pa provjerite što je otvoreno." },
+        { ime: "Ahilion", opis: "Palaču je 1890. dala sagraditi austrijska carica Elizabeta, poznata kao Sisi, i posvetila je Ahileju. U vrtu stoji njezin kip umirućeg junaka, a nedaleko je golemi pobjednički Ahilej kojeg je postavio sljedeći vlasnik, njemački car Vilim II. Unutrašnjost je zbog obnove zatvorena od 2021. i datum otvaranja još nije objavljen, a posljednjih su sezona bili otvoreni samo vrtovi, pa provjerite prije polaska." },
         { ime: "Paleokastrica i Angelokastro", opis: "Šest zaljeva pod samostanom iz 13. stoljeća često se navodi kao mjesto gdje je Odisej isplivao na obalu Feačana. Iznad njih, na stijeni visokoj 300 metara, stoji bizantska utvrda Angelokastro, koja nikada nije osvojena." }
       ],
       jesti: [

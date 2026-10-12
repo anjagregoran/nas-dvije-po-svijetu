@@ -15,7 +15,7 @@ window.DODACI["srbija"] = {
         { ime: "Jevremovac botanical garden", opis: "This small garden close to the center has a 19th-century glasshouse and a Japanese garden. It is a green pause that few visitors find." }
       ],
       domaci: [
-        { ime: "Saturday at Kalenić market", opis: "The largest green market in the city is where Belgrade buys kajmak, cheese, eggs and vegetables on Saturday mornings. Afterward everyone sits in the cafes around it." },
+        { ime: "Saturday at Kalenić market", opis: "One of the largest green markets in the city is where Belgrade buys kajmak, cheese, eggs and vegetables on Saturday mornings. Afterward everyone sits in the cafes around it." },
         { ime: "Ada Ciganlija", opis: "The river island turned lake is the city's beach. People swim, cycle around it and stay at the cafes until dark." },
         { ime: "Lunch at a kafana", opis: "The traditional tavern is for long meals with checkered tablecloths and often live music in the evening. Go for a late lunch and do not plan anything after." }
       ],

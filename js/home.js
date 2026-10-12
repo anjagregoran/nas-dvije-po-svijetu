@@ -11,7 +11,8 @@
   }
 
   // ---------- veliki vodiči ----------
-  document.getElementById('feature').innerHTML = I.vodici.map(function (v) {
+  var featureEl = document.getElementById('feature');
+  if (featureEl) featureEl.innerHTML = I.vodici.map(function (v) {
     return '<div class="feature">' +
       '<div><span class="label">' + esc(v.nadnaslov) + '</span><h2>' + esc(v.naziv) + '</h2><p>' + esc(v.uvod) + '</p>' +
       '<a class="btn" href="putovanje.html?p=' + v.id + '">Open the guide</a></div>' +

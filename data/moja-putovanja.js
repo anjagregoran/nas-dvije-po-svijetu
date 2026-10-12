@@ -34,6 +34,11 @@ window.PUTOVANJA = {
   ],
   putovanja: [
     {
+      skupina: "drake", naslov: "Dublin", gdje: "Ireland", status: "bili",
+      vodic: "zemlja.html?z=irska#/mjesto/dublin",
+      mjesta: [{ ime: "Dublin", c: [53.3498, -6.2603] }]
+    },
+    {
       skupina: "mama", naslov: "Rome", gdje: "Italy", status: "bili",
       biljeska: "We walked all of it. Now we can finally read what we were looking at.",
       vodic: "zemlja.html?z=italija#/mjesto/rim",

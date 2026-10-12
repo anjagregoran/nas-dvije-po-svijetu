@@ -239,11 +239,18 @@
         '<div class="chips wrapc">' + others.map(function (x) { return '<a href="#/mjesto/' + x.id + '">' + esc(x.ime) + '</a>'; }).join('') + '</div>' : '');
   }
 
+  // "Checked against" line: shown once a country has been re-checked against quality sources.
+  function checked() {
+    var c = Z.provjereno;
+    if (!c || !has(c.izvori)) return '';
+    return '<div class="checked"><span class="label">Checked against</span><p>' + c.izvori.map(function (s) { return link(s.url, s.ime); }).join(' · ') + '</p></div>';
+  }
+
   // ---------- prozor koji se otvara ----------
   function sheet(key, title, body, back) {
     return '<div class="sheet" id="sheet" data-back="' + esc(back) + '"><div class="sheet-in" role="dialog" aria-modal="true" aria-label="' + esc(title) + '">' +
       '<div class="sheet-head">' + icon(key) + '<h2>' + esc(title) + '</h2><a class="x" href="' + esc(back) + '" aria-label="Close">×</a></div>' +
-      '<div class="sheet-body">' + body + '</div></div></div>';
+      '<div class="sheet-body">' + body + (key === 'karta' ? '' : checked()) + '</div></div></div>';
   }
   function closeSheet() {
     var s = document.getElementById('sheet');

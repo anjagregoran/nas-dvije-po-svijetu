@@ -27,6 +27,7 @@
     'Step 3 of 4': 'Korak 3 od 4', 'Step 4 of 4': 'Korak 4 od 4', 'Step 3 of 3': 'Korak 3 od 3', 'Pick a part of': 'Odaberi dio zemlje:',
     'Pick a city in': 'Odaberi grad:', 'Pick a city or place in': 'Odaberi grad ili mjesto:', 'North': 'Sjever', 'Center': 'Sredina', 'South': 'Jug', 'West': 'Zapad', 'East': 'Istok',
     'About': 'O zemlji:', 'Everything about the country in one place': 'Sve o zemlji na jednom mjestu', 'All parts': 'Svi dijelovi',
+    'Checked against': 'Provjereno prema izvorima',
     // continents and regions
     'Europe': 'Europa', 'Asia': 'Azija', 'Africa': 'Afrika', 'North and Central America': 'Sjeverna i Srednja Amerika',
     'South America': 'Južna Amerika', 'Oceania': 'Oceanija', 'Southern Europe': 'Južna Europa', 'Western Europe': 'Zapadna Europa',

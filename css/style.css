@@ -391,3 +391,6 @@ body.locked { overflow: hidden; }
 .steps { margin-top: 22px; }
 
 .kpill { align-items: center; }
+
+.checked { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--line); }
+.checked p { margin: 6px 0 0; font-size: .88rem; line-height: 1.7; color: var(--soft); }

@@ -77,7 +77,11 @@
   });
   mapbox.addEventListener('toggle', function () { if (mapbox.open && current()) drawMap(current()); });
   drawAll();
-  if (active) setTimeout(function () { document.getElementById('kontinent').scrollIntoView(); }, 50);
+  // A refresh always starts at the top. Arriving from a country page ("1 Europe" in the step bar) jumps to step 2.
+  var nav = (performance.getEntriesByType && performance.getEntriesByType('navigation')[0]) || {};
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  if (nav.type === 'reload' || !active) window.scrollTo(0, 0);
+  else setTimeout(function () { document.getElementById('kontinent').scrollIntoView(); }, 50);
 
   // ---------- did you know ----------
   function fact() {

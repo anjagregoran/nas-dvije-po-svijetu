@@ -61,8 +61,8 @@ window.DODACI["svedska"] = {
     },
     "uppsala": {
       dragulji: [
-        { ime: "Linnaeus' Hammarby", opis: "The great botanist's summer estate, about ten kilometers from town, is preserved with his furniture and his garden. The bedroom walls are papered with botanical drawings, and a bus runs there in summer." },
-        { ime: "The Eriksleden trail", opis: "This old pilgrim path leads from the cathedral through fields to the royal burial mounds at Gamla Uppsala. It is about an hour and a half of flat walking, and you can take a bus back." },
+        { ime: "Linnaeus' Hammarby", opis: "The great botanist's summer estate, in the countryside southeast of town, is preserved with his furniture and his garden, and it is open from May to September. The bedroom walls are papered with botanical prints, and the regional bus stops about a twenty-minute walk from the gate." },
+        { ime: "The Eriksleden trail", opis: "This old pilgrim path leads from the cathedral through fields to the royal burial mounds at Gamla Uppsala. It is about six kilometers of flat walking, some two hours at an easy pace, and you can take a bus back." },
         { ime: "Stadsträdgården and the banks of the Fyris", opis: "The city park by the river is full of students on blankets in summer, and the riverside path continues south from there. Start in the center, head downstream, and you will soon have it to yourselves." }
       ],
       domaci: [
@@ -83,7 +83,7 @@ window.DODACI["svedska"] = {
         { ime: "The botanical garden", opis: "The garden by the northern stretch of the wall hides an ivy-covered church ruin, old roses and trees that do not normally grow this far north. Entry is free, and the benches are perfect for a rest from the cobblestones." }
       ],
       domaci: [
-        { ime: "Saffron pancake", opis: "Gotland's baked pudding of rice, saffron and almonds is eaten with whipped cream and jam made from salmbär, a berry that grows almost only on this island. Every cafe inside the walls serves it." },
+        { ime: "Saffron pancake", opis: "Gotland's baked pudding of rice, saffron and almonds is eaten with whipped cream and jam made from salmbär, as the islanders call the dewberry. Every cafe inside the walls serves it." },
         { ime: "Sunset by the sea", opis: "In the evening everyone drifts down to the shoreline promenade and the lawn by the Powder Tower to watch the sun sink into the Baltic. Bring a drink and sit on the grass with the rest." },
         { ime: "By bike to the beach", opis: "The island is flat and made for cycling, so people ride to the water, to Snäck in the north or to sandy Tofta in the south. Bikes are rented near the harbor." }
       ],
@@ -113,7 +113,7 @@ window.DODACI["svedska"] = {
     "dalarna": {
       dragulji: [
         { ime: "Tällberg", opis: "This village on a slope above Lake Siljan is made up of red log houses, slanted pole fences and old apple trees. Walk the village lanes down to the shore, where there is a small bathing place with a pier." },
-        { ime: "Fryksås", opis: "A former summer pasture high above Orsa has kept its gray wooden huts and a view that reaches across lakes and forest. In summer the huts serve waffles and whey cheese." },
+        { ime: "Fryksås", opis: "A former summer pasture high above Orsa has kept its gray wooden huts and a view that reaches across lakes and forest. In summer you will find a café and an old inn among the huts." },
         { ime: "Styggforsen", opis: "The waterfall near the village of Boda drops into a gorge created by the meteorite impact that shaped the whole Siljan area. The loop trail through the forest takes less than an hour." }
       ],
       domaci: [

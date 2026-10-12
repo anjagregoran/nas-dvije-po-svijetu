@@ -4,6 +4,20 @@ window.ATLAS["svedska"] = {
   ime: "Švedska",
   regija: "Sjeverna Europa",
   sazetak: "Zemlja crvenih drvenih kućica, tisuća otoka i kave s pecivom od cimeta, koja je od siromašnog ruba Europe postala sinonim za dobar dizajn i uređen život.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Visit Sweden: All about Swedish fika", url: "https://visitsweden.com/what-to-do/food-drink/swedish-kitchen/all-about-swedish-fika/" },
+    { ime: "The Local Sweden: Semla, the treat that slayed a king", url: "https://www.thelocal.se/20260217/swedish-fika-calendar-semla-the-scrumptious-treat-that-slayed-a-king" },
+    { ime: "Göteborg & Co: Fish and seafood in Gothenburg", url: "https://www.goteborg.com/en/guides/fish-seafood-in-gothenburg" },
+    { ime: "Göteborg & Co: Haga guide", url: "https://www.goteborg.com/en/guides/haga" },
+    { ime: "Swedish Lapland: The way we eat", url: "https://www.swedishlapland.com/stories/the-way-we-eat/" },
+    { ime: "Svenska kyrkan: Kiruna kyrka", url: "https://www.svenskakyrkan.se/jukkasjarvi/kiruna-kyrka" },
+    { ime: "Nutti Sámi Siida", url: "https://nutti.se/en/" },
+    { ime: "Aurora Sky Station", url: "https://auroraskystation.se/en/welcome-to-aurora-sky-station/" },
+    { ime: "Icehotel", url: "https://www.icehotel.com/about-icehotel" },
+    { ime: "Destination Uppsala: Gamla Uppsala", url: "https://destinationuppsala.se/en/listing/gamla-uppsala/" },
+    { ime: "Gotland.com: Major events on Gotland", url: "https://gotland.com/major-events-on-gotland/" },
+    { ime: "Visit Malmö", url: "https://www.visitmalmo.se/en" }
+  ] },
   uvod: [
     "Švedska je najveća nordijska zemlja, a više od polovice njezine površine pokriva šuma. Od juga, gdje se žute polja uljane repice, do sjevera, gdje Sami napasaju sobove iznad polarnog kruga, proteže se gotovo 1 600 kilometara. Uz obalu i u jezerima ima više od 260 000 otoka, više nego u ijednoj drugoj državi.",
     "Povijest koju ćete susretati na svakom koraku počinje s Vikinzima, koji su odavde plovili ponajviše na istok, ruskim rijekama do Carigrada. Švedska se 1523. pod Gustavom Vasom odvojila od unije s Danskom, u 17. stoljeću bila je vojna velesila koja je vladala Baltikom, a nakon poraza od Rusije početkom 18. stoljeća povukla se i od 1814. nije ratovala. Upravo tom dugom miru treba zahvaliti što su stare gradske jezgre, dvorci i drveni gradovi ostali sačuvani.",
@@ -18,13 +32,13 @@ window.ATLAS["svedska"] = {
   ],
   hrana: [
     { ime: "Köttbullar", opis: "Male mesne okruglice u vrhnjastom umaku, s pireom od krumpira, kiselim krastavcima i džemom od brusnica.", prica: "Često se ponavlja priča da je recept iz Osmanskog Carstva donio kralj Karlo XII., koji je početkom 18. stoljeća nekoliko godina proveo u izgnanstvu u Benderu, no povjesničari hrane za to nemaju čvrst dokaz. Izgovara se približno „šetbular“, a brusnice uz meso obavezan su dio svakog zalogaja." },
-    { ime: "Kanelbulle", opis: "Pecivo od dizanog tijesta s cimetom, kardamomom i krupnim bijelim šećerom po vrhu.", prica: "Kardamom u tijestu ono je po čemu se švedsko pecivo razlikuje od svih drugih. Četvrti listopada službeno je Dan peciva s cimetom, koji se slavi od 1999., a prosječni Šveđanin godišnje ih pojede na stotine." },
+    { ime: "Kanelbulle", opis: "Pecivo od dizanog tijesta s cimetom, kardamomom i krupnim bijelim šećerom po vrhu.", prica: "Kardamom u tijestu ono je po čemu se švedsko pecivo razlikuje od svih drugih. Četvrti listopada službeno je Dan peciva s cimetom, koji je 1999. osmislilo švedsko Vijeće za kućno pečenje, a samo toga dana pekarnice diljem zemlje prodaju ih na milijune." },
     { ime: "Sill i snaps", opis: "Marinirana haringa u desetak umaka, od senfa do luka i kopra, uz mladi krumpir, kiselo vrhnje i vlasac.", prica: "Bez haringe nema ni Ivanja, ni Božića, ni Uskrsa. Uz nju se pije čašica aromatizirane rakije, a prije svake se pjeva kratka napitnica, od kojih je najpoznatija „Helan går“." },
     { ime: "Gravad lax", opis: "Sirovi losos mariniran dva do tri dana u soli, šećeru i kopru, koji se reže na tanke listiće i poslužuje sa slatkim umakom od senfa.", prica: "Ime znači „ukopani losos“, po starom načinu čuvanja ribe u zemlji. Umak od senfa i kopra zove se hovmästarsås, konobarov umak, jer su ga konobari miješali pred gostom." },
     { ime: "Räkmacka", opis: "Otvoreni sendvič s brdom oguljenih račića, kuhanim jajetom, majonezom, koprom i limunom.", prica: "Dobar räkmacka prepoznaje se po tome što se kruh ispod račića uopće ne vidi. Najbolji su na zapadnoj obali, oko Göteborga, gdje su račići iz hladnog Sjevernog mora." },
     { ime: "Smörgåstårta", opis: "Slana torta od slojeva kruha, s nadjevima od jaja, račića, lososa i paštete, ukrašena povrćem kao prava torta.", prica: "Poslužuje se na rođendanima, maturama i sprovodima, uvijek hladna i uvijek rezana na kriške. Postala je popularna 1950-ih i odonda se nije mnogo promijenila." },
     { ime: "Semla", opis: "Meko pecivo s kardamomom punjeno pastom od badema i tučenim vrhnjem.", prica: "Nekoć se jela samo na pokladni utorak, a danas od Božića do Uskrsa. Kralj Adolf Fridrik umro je 1771. nakon obilne večere koju je, prema predaji, završio s četrnaest porcija ovog peciva u toplom mlijeku." },
-    { ime: "Prinsesstårta", opis: "Kupolasta torta od biskvita, kreme od vanilije i tučenog vrhnja, pokrivena zelenim marcipanom s ružičastom ružom na vrhu.", prica: "Recept je 1930-ih objavila Jenny Åkerström, učiteljica kućanstva triju švedskih princeza, kojima je torta navodno bila najdraža. Zelena boja ostala je zaštitni znak, premda nitko ne zna točno zašto je baš zelena." },
+    { ime: "Prinsesstårta", opis: "Kupolasta torta od biskvita, kreme od vanilije i tučenog vrhnja, pokrivena zelenim marcipanom s ružičastom ružom na vrhu.", prica: "Recept potječe iz kuharica Jenny Åkerström, koja je u prvoj polovici 20. stoljeća trima švedskim princezama predavala kućanstvo. Isprva se zvala jednostavno zelena torta, a današnje je ime navodno dobila zato što su je princeze osobito voljele. Zelena boja ostala je zaštitni znak, premda nitko ne zna točno zašto je baš zelena." },
     { ime: "Surströmming", opis: "Fermentirana baltička haringa u limenci, vrlo jakog mirisa, koja se jede umotana u tanki kruh s krumpirom i lukom.", prica: "Sezona tradicionalno počinje trećeg četvrtka u kolovozu. Limenka se otvara vani, najbolje pod vodom, a mnoge zrakoplovne tvrtke ne dopuštaju je u prtljazi jer je pod tlakom." },
     { ime: "Knäckebröd", opis: "Tvrdi, hrskavi raženi kruh u obliku velikih okruglih ploča s rupom u sredini.", prica: "Rupa je služila tomu da se kruh naniže na motku pod stropom, gdje je mogao stajati mjesecima. I danas stoji na stolu uz gotovo svaki obrok, s maslacem i sirom." }
   ],
@@ -71,7 +85,7 @@ window.ATLAS["svedska"] = {
       vidjeti: [
         { ime: "Gamla stan i trg Stortorget", opis: "Srednjovjekovna jezgra s uskim ulicama i kućama u bojama okera i hrđe. Na Stortorgetu, mjestu pokolja iz 1520., pogledajte crvenu kuću na broju 20 s bijelim kamenovima na pročelju, za koje legenda kaže da svaki predstavlja jednu odrubljenu glavu. Potražite i najužu ulicu Mårten Trotzigs gränd, široku samo 90 centimetara, te najmanji javni kip u gradu, dječaka koji gleda mjesec, visokog petnaest centimetara, u dvorištu iza Finske crkve, kojemu prolaznici zimi pletu kapice." },
         { ime: "Muzej Vasa (Vasamuseet)", opis: "Ratni brod Vasa, ponos kralja Gustava II. Adolfa, potonuo je 10. kolovoza 1628. na prvoj plovidbi, nakon samo 1 300 metara, jer je bio previsok i preuzak, a nitko se nije usudio kralju reći da nije stabilan. Iz mulja stockholmske luke izvađen je 1961. i gotovo je u cijelosti izvoran. Na krmi potražite stotine rezbarenih figura, lavova, rimskih careva i sirena, koje su nekoć bile jarko obojene, što pokazuje model uz brod." },
-        { ime: "Kraljevska palača (Kungliga slottet)", opis: "Barokna palača s više od 600 soba dovršena je 1754. na mjestu srednjovjekovnog dvorca Tre Kronor, koji je izgorio 1697. I danas je službena kraljeva rezidencija, premda obitelj živi u Drottningholmu. Svakoga dana pred palačom je smjena straže, ljeti s vojnom glazbom i često na konjima, a u Riznici su izložene krune i mač Gustava Vase." },
+        { ime: "Kraljevska palača (Kungliga slottet)", opis: "Barokna palača s više od 600 soba dovršena je 1754. na mjestu srednjovjekovnog dvorca Tre Kronor, koji je izgorio 1697. I danas je službena kraljeva rezidencija, premda obitelj živi u Drottningholmu. Svečana smjena straže pred palačom održava se ljeti svakoga dana, s vojnom glazbom i često na konjima, a u ostatku godine nekoliko dana u tjednu, dok su u Riznici izložene krune i mač Gustava Vase." },
         { ime: "Katedrala Storkyrkan", opis: "Najstarija crkva u gradu, u kojoj se krunilo i vjenčavalo švedske kraljeve. U njoj stoji golema drvena skulptura svetog Jurja koji ubija zmaja, djelo Bernta Notkea iz 1489., naručena u spomen na pobjedu nad Dancima u bici kod Brunkeberga. Zmaj je izrađen s pravim losovim rogovima, a princeza kojoj vitez pomaže predstavlja Stockholm." },
         { ime: "Gradska vijećnica (Stadshuset)", opis: "Sagrađena je od osam milijuna opeka i otvorena na Ivanje 1923., prema projektu Ragnara Östberga. U Plavoj dvorani, koja uopće nije plava jer se arhitekt predomislio kada je vidio lijepu crvenu opeku, svake se godine 10. prosinca održava Nobelov banket. Ples je zatim u Zlatnoj dvorani, čije zidove pokriva mozaik od više od osamnaest milijuna zlatnih pločica. Razgledava se samo uz vodstvo." },
         { ime: "Skansen", opis: "Najstariji muzej na otvorenom na svijetu osnovao je 1891. Artur Hazelius, koji se bojao da će industrijalizacija izbrisati seoski život. Sa cijele je zemlje dao prenijeti oko 150 kuća, farmi, crkava i radionica, u kojima danas rade pekari, puhači stakla i tkalje u nošnjama. U zoološkom dijelu žive nordijske životinje: losovi, medvjedi, risovi i sobovi." }
@@ -119,7 +133,7 @@ window.ATLAS["svedska"] = {
       ],
       dozivjeti: [
         { ime: "Tramvajem i brodom na južni arhipelag", opis: "Tramvaj vozi do pristaništa Saltholmen, odakle gradski brodovi s istom kartom plove na otoke bez automobila, kao što su Styrsö i Vrångö, s ribarskim kućicama, glatkim stijenama i kupalištima.", link: "https://www.goteborg.com/en" },
-        { ime: "Vožnja kanalima u brodici Paddan", opis: "Niske otvorene brodice od 1939. voze ispod dvadesetak mostova, od kojih je jedan tako nizak da se svi putnici moraju sagnuti, i izlaze u luku. Vodič usput priča povijest grada." },
+        { ime: "Vožnja kanalima u brodici Paddan", opis: "Niske otvorene brodice od 1930-ih voze ispod dvadesetak mostova, od kojih je jedan tako nizak da se svi putnici moraju sagnuti, i izlaze u luku. Vodič usput priča povijest grada." },
         { ime: "Fika u Hagi i uspon na Skansen Kronan", opis: "Nakon kave popnite se stubama do male tvrđave iz 17. stoljeća s kraljevskom krunom na vrhu, odakle se vidi cijeli grad." },
         { ime: "World of Volvo", opis: "Okrugla drvena zgrada otvorena 2024. priča povijest marke kroz stare automobile, kamione i izume poput sigurnosnog pojasa u tri točke, koji je Volvo 1959. patentirao i potom ustupio svima.", link: "https://www.worldofvolvo.com/en" }
       ],
@@ -143,7 +157,7 @@ window.ATLAS["svedska"] = {
         { ime: "Crkva svetog Petra (Sankt Petri kyrka)", opis: "Visoka gotička crkva od opeke iz 14. stoljeća, građena po uzoru na crkvu svete Marije u Lübecku, jer je Malmö trgovao s Hanzom. Nakon reformacije zidovi su obijeljeni, ali u Trgovačkoj kapeli (Krämarkapellet) srednjovjekovne freske s biljkama, životinjama i neobičnim likovima ostale su sačuvane." },
         { ime: "Dvorac Malmöhus", opis: "Najstariji sačuvani renesansni dvorac u Skandinaviji dao je 1530-ih sagraditi danski kralj Kristijan III. Ovdje je od 1568. nekoliko godina bio zatočen grof Bothwell, treći muž škotske kraljice Marije Stuart. Danas su u dvorcu i oko njega gradski muzeji, s akvarijem i umjetničkom zbirkom." },
         { ime: "Turning Torso", opis: "Bijeli neboder visok 190 metara dovršen je 2005. prema projektu Santiaga Calatrave i nastao je iz njegove skulpture ljudskog trupa u okretu. Devet kocaka od po pet katova zakreće se od tla do vrha za punih devedeset stupnjeva. Unutra su stanovi, pa se ne razgledava, ali najbolje se vidi sa šetnice uz more u četvrti Västra Hamnen." },
-        { ime: "Most preko Öresunda (Öresundsbron)", opis: "Veza s Danskom sastoji se od mosta dugog gotovo osam kilometara, umjetnog otoka Peberholma i četiri kilometra podmorskog tunela, da brodovi i zrakoplovi kopenhaške zračne luke imaju slobodan put. Vlak do Kopenhagena vozi oko 35 minuta. Most je glavni lik kriminalističke serije „Most“, koja počinje tijelom položenim točno na granicu." },
+        { ime: "Most preko Öresunda (Öresundsbron)", opis: "Veza s Danskom sastoji se od mosta dugog gotovo osam kilometara, umjetnog otoka Peberholma i četiri kilometra podmorskog tunela, da brodovi i zrakoplovi kopenhaške zračne luke imaju slobodan put. Vlak do Kopenhagena vozi oko 40 minuta. Most je glavni lik kriminalističke serije „Most“, koja počinje tijelom položenim točno na granicu." },
         { ime: "Kupalište Ribersborgs Kallbadhus", opis: "Zeleno drveno kupalište na stupovima u moru iz 1898. ima odvojene dijelove za žene i muškarce, saune i stube ravno u Öresund. Ovdje se cijele godine izmjenjuju vruća sauna i hladno more, bez kupaćeg kostima, kako je to u Skandinaviji uobičajeno." }
       ],
       jesti: [
@@ -158,10 +172,10 @@ window.ATLAS["svedska"] = {
         { ime: "Šetnja kroz Västra Hamnen do mora", opis: "Od dvorca prođite kroz park Slottsparken do nove četvrti na mjestu brodogradilišta, s kanalima, drvenim molovima i kupalištem ispred Turning Torsa, odakle se u daljini vide most i Danska." }
       ],
       agencije: [
-        { ime: "Malmötown", opis: "Službene turističke stranice grada Malmöa.", link: "https://malmo.se/malmotown" },
+        { ime: "Visit Malmö", opis: "Turistički vodič kroz grad, sa znamenitostima, događanjima i mjestima za jelo.", link: "https://www.visitmalmo.se/en" },
         { ime: "Visit Skåne", opis: "Službena turistička zajednica pokrajine Skåne, korisna za izlete u Lund, Ystad i na obalu.", link: "https://www.visitskane.com/" }
       ],
-      kada: "Od svibnja do rujna. Malmö se lako spaja s Kopenhagenom, a dvadesetak minuta vlakom udaljen je i sveučilišni Lund s romaničkom katedralom i astronomskim satom iz 15. stoljeća."
+      kada: "Od svibnja do rujna. Malmö se lako spaja s Kopenhagenom, a samo deset do petnaest minuta vlakom udaljen je i sveučilišni Lund s romaničkom katedralom i astronomskim satom iz 15. stoljeća."
     },
     {
       id: "uppsala",
@@ -187,7 +201,7 @@ window.ATLAS["svedska"] = {
       ],
       dozivjeti: [
         { ime: "Anatomsko kazalište u Gustavianumu", opis: "Popnite se pod kupolu i stanite na jednu od galerija s kojih se gledalo prema stolu u sredini. Muzej je ponovno otvoren 2024. nakon temeljite obnove.", link: "https://www.uu.se/en/gustavianum" },
-        { ime: "Pješice ili biciklom do Stare Uppsale", opis: "Stara hodočasnička staza Eriksleden duga je oko pet kilometara i vodi od katedrale do humaka, putem kojim su se nekoć nosile relikvije svetog Erika. Tko ne želi hodati, može gradskim autobusom.", link: "https://www.upplandsmuseet.se/gamla-uppsala-museum/" },
+        { ime: "Pješice ili biciklom do Stare Uppsale", opis: "Stara hodočasnička staza Eriksleden duga je oko šest kilometara i vodi od katedrale do humaka, putem kojim su se nekoć nosile relikvije svetog Erika. Tko ne želi hodati, može gradskim autobusom.", link: "https://www.upplandsmuseet.se/gamla-uppsala-museum/" },
         { ime: "Valborg, 30. travnja", opis: "Ako ste u gradu toga dana, vidjet ćete studente na splavima na rijeci Fyris, podizanje bijelih kapa pred knjižnicom i večernje krijesove uz zborsko pjevanje." }
       ],
       agencije: [
@@ -214,7 +228,7 @@ window.ATLAS["svedska"] = {
         { ime: "Otok Fårö i kameni stupovi rauke", opis: "Na sjeveru Gotlanda, do kojeg vozi besplatan trajekt, more je iz vapnenca isklesalo stupove visoke do deset metara, koji izgledaju kao okamenjeni divovi. Na Fåröu je živio i snimao redatelj Ingmar Bergman, kojemu je posvećen mali centar." }
       ],
       jesti: [
-        { ime: "Saffranspannkaka", opis: "Zapečeni kolač od riže, šafrana i badema, koji se poslužuje s tučenim vrhnjem i džemom od plavih kupina salmbär, bobica koje u Švedskoj rastu gotovo samo na Gotlandu." },
+        { ime: "Saffranspannkaka", opis: "Zapečeni kolač od riže, šafrana i badema, koji se poslužuje s tučenim vrhnjem i džemom od bobica salmbär, kako na Gotlandu zovu plavu kupinu, rjeđu srodnicu obične kupine." },
         { ime: "Gotlandska janjetina", opis: "Otok je poznat po sivim ovcama s kovrčavim runom, a janjetina se poslužuje pečena, dimljena ili u kobasicama." },
         { ime: "Tartufi i divlji luk kajp", opis: "Na Gotlandu u jesen rastu crni tartufi, a u proljeće se bere divlji poriluk kajp, od kojeg se kuha tradicionalna juha." },
         { ime: "Gotlandsdricka", opis: "Domaće pivo od dimljenog slada, borovice i meda, kakvo se na otoku vari od vikinških vremena, slatkasto i mutno." }
@@ -241,7 +255,7 @@ window.ATLAS["svedska"] = {
         "Budući da se tlo zbog rudarenja uleglo, cijelo se središte grada seli oko tri kilometra na istok. Novo središte otvoreno je 2022., a povijesne se zgrade prevoze u jednom komadu. Stotinjak kilometara zapadnije je Abisko, nacionalni park osnovan 1909., odakle počinje pješački put Kungsleden."
       ],
       vidjeti: [
-        { ime: "Crkva u Kiruni", opis: "Crvena drvena crkva iz 1912. oblikovana je poput samijske kolibe i Šveđani su je 2001. izabrali za najljepšu staru zgradu u zemlji. U kolovozu 2025. cijela je, teška više od 600 tona, na posebnim prikolicama tijekom dva dana prevezena oko pet kilometara do novog središta. Na oltaru je umjesto raspela pejzaž koji je naslikao princ Eugen." },
+        { ime: "Crkva u Kiruni", opis: "Crvena drvena crkva iz 1912. oblikovana je poput samijske kolibe i Šveđani su je 2001. izabrali za najljepšu staru zgradu u zemlji. U kolovozu 2025. cijela je, teška više od 600 tona, na posebnim prikolicama tijekom dva dana prevezena oko pet kilometara do novog središta. Na oltaru je umjesto raspela pejzaž koji je naslikao princ Eugen. Dok se unutrašnjost obnavlja, crkva je zatvorena za posjetitelje, a župa je planira ponovno otvoriti tijekom 2027., pa je zasad možete razgledati samo izvana." },
         { ime: "Icehotel u Jukkasjärviju", opis: "Prvi hotel od leda na svijetu gradi se svake zime iznova od 1989., od blokova izrezanih iz rijeke Torne, a sobe svake godine oblikuju drugi umjetnici. U proljeće se otopi i vrati u rijeku. Dio pod imenom Icehotel 365, koji hlade sunčane ćelije, otvoren je cijele godine i može se razgledati i bez noćenja." },
         { ime: "Nacionalni park Abisko i Lapska vrata", opis: "Nad jezerom Torneträsk vidi se Lapporten, dolina u obliku savršenog slova U između dvije planine, koju je izdubio ledenjak. Abisko leži u kišnoj sjeni planina i ima najmanje oborina u Švedskoj, pa je nebo ovdje vedro i kada je uokolo oblačno." },
         { ime: "Aurora Sky Station", opis: "Žičara sa sjedalima vozi na planinu Nuolja, na 900 metara, do promatračnice daleko od svakog svjetla. Zimi se ondje čeka polarna svjetlost, a ljeti se gleda ponoćno sunce nad jezerom." },
@@ -256,7 +270,7 @@ window.ATLAS["svedska"] = {
       ],
       dozivjeti: [
         { ime: "Polarna svjetlost u Abisku", opis: "Sezona traje otprilike od rujna do ožujka. Uz promatračnicu na planini organiziraju se i večernje šetnje s vodičem i fotografski izleti, a zbog suhe klime izgledi su ovdje među najboljima u Europi.", link: "https://auroraskystation.se/en/welcome-to-aurora-sky-station/" },
-        { ime: "Posjet samijskim domaćinima i sobovima", opis: "Uz razgledanje kampa nude se vožnja saonicama koje vuku sobovi i ručak u šatoru uz vatru, sa suovasom i kavom kuhanom na ognjištu.", link: "https://nutti.se/en/" },
+        { ime: "Posjet samijskim domaćinima i sobovima", opis: "Uz razgledanje kampa zimi se nudi vožnja saonicama koje vuku sobovi, a u kafiću u šatoru uz vatru poslužuju se samijska jela i kava. Veći dio stada u proljeće odlazi u planine, pa je zima najbolje vrijeme za susret sa sobovima i njihovo hranjenje.", link: "https://nutti.se/en/" },
         { ime: "Razgledanje hotela od leda", opis: "Danju su sve umjetničke sobe otvorene posjetiteljima, a u ledenom baru piće se poslužuje u čašama od leda. Odjenite se toplo, unutra je oko pet stupnjeva ispod ništice.", link: "https://www.icehotel.com/" },
         { ime: "Ljetna šetnja Kungsledenom", opis: "Prvih nekoliko kilometara Kraljevskog puta iz Abiska vodi uz kanjon rijeke Abiskojåkka i lako je i za neiskusne. Planinarske domove duž cijelog puta drži Švedski turistički savez.", link: "https://www.swedishtouristassociation.com/" }
       ],
@@ -280,13 +294,13 @@ window.ATLAS["svedska"] = {
         { ime: "Rudnik bakra u Falunu (Falu Gruva)", opis: "Bakar se ovdje vadio najmanje tisuću godina, sve do 1992., a u 17. stoljeću rudnik je davao oko dvije trećine europskog bakra i plaćao švedske ratove. Golema jama Stora Stöten nastala je urušavanjem na Ivanje 1687., kada, srećom, u rudniku nije bilo nikoga. S vodičem se silazi 67 metara pod zemlju, a čut ćete i priču o rudaru Matsu, čije je tijelo 1719. pronađeno savršeno očuvano, 42 godine nakon nesreće, i koje je prepoznala njegova nekadašnja zaručnica. Rudnik je na UNESCO-ovu popisu." },
         { ime: "Dom Carla Larssona u Sundbornu", opis: "Slikar Carl Larsson i njegova supruga Karin, i sama umjetnica, uredili su kuću Lilla Hyttnäs svijetlim bojama, jednostavnim namještajem i tkaninama vlastite izrade, posve suprotno tadašnjim tamnim i pretrpanim salonima. Njegovi akvareli obiteljskog života proslavili su kuću, koja se smatra izvorom švedskog stila stanovanja. I danas pripada obitelji i razgledava se uz vodstvo." },
         { ime: "Zornov muzej i kuća u Mori", opis: "Anders Zorn, rođen u Mori 1860., bio je jedan od najtraženijih portretista svoga doba i slikao je i tri predsjednika SAD-a. Vratio se u zavičaj i slikao kupačice na jezeru i seoske plesove. Uz muzej je njegova kuća s velikom dvoranom u vikinškom stilu, sačuvana kako ju je ostavila njegova supruga Emma." },
-        { ime: "Radionice drvenih konjića u Nusnäsu", opis: "U dvjema obiteljskim radionicama, osnovanima 1920-ih, može se besplatno gledati cijeli postupak: od rezanja borovine i rezbarenja nožem do umakanja u boju i oslikavanja uzorka zvanog kurbits, koji se izvodi s dvije boje na istom kistu." },
+        { ime: "Radionice drvenih konjića u Nusnäsu", opis: "U dvjema obiteljskim radionicama, osnovanima 1920-ih, može se gledati cijeli postupak: od rezanja borovine i rezbarenja nožem do umakanja u boju i oslikavanja uzorka zvanog kurbits, koji se izvodi s dvije boje na istom kistu." },
         { ime: "Jezero Siljan, Rättvik i Leksand", opis: "Jezero ispunjava dio kratera koji je prije oko 377 milijuna godina napravio meteorit, najvećeg u Europi. U Rättviku u jezero vodi drveni mol dug 628 metara, sagrađen 1895. da parobrodi mogu pristati u plitkoj vodi. Ljeti ovuda plove dugi crkveni čamci, kojima su seljaci nedjeljom veslali na misu." },
         { ime: "Dalhalla", opis: "Napušteni kamenolom vapnenca kraj Rättvika, dubok šezdeset metara, sa smaragdnim jezerom na dnu, od 1990-ih je ljetna pozornica izvanredne akustike, na kojoj se održavaju opere i koncerti." }
       ],
       jesti: [
         { ime: "Falukorv", opis: "Debela blaga kobasica u crvenom ovitku, nastala u Falunu, gdje su se od volovske kože plela užad za rudnik, a meso se moralo nekako iskoristiti. Danas je svakodnevno jelo švedskih obitelji, pečena u pećnici sa senfom i sirom." },
-        { ime: "Knäckebröd iz Leksanda", opis: "Najpoznatiji švedski hrskavi kruh peče se u Leksandu u velikim okruglim pločama, a u tvorničkoj trgovini prodaje se još topao." },
+        { ime: "Knäckebröd iz Leksanda", opis: "Najpoznatiji švedski hrskavi kruh peče se nadomak Leksanda u velikim okruglim pločama, a u tvorničkoj trgovini nude se i vrste kojih u supermarketima nema." },
         { ime: "Juha od borovnica (blåbärssoppa)", opis: "Gusta slatka juha od borovnica, koja se topla dijeli skijašima na Vasaloppetu, a ljeti se pije hladna." }
       ],
       dozivjeti: [

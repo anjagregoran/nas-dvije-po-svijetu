@@ -61,8 +61,8 @@ window.DODACI["svedska"] = {
     },
     "uppsala": {
       dragulji: [
-        { ime: "Linnéov Hammarby", opis: "Ljetno imanje velikog botaničara, desetak kilometara od grada, sačuvano je s njegovim namještajem i vrtom. Zidovi spavaće sobe oblijepljeni su botaničkim crtežima, a ljeti onamo vozi autobus." },
-        { ime: "Staza Eriksleden", opis: "Ovaj stari hodočasnički put vodi od katedrale kroz polja do kraljevskih grobnih humaka u Gamla Uppsali. Riječ je o otprilike sat i pol hoda po ravnom, a natrag se možete vratiti autobusom." },
+        { ime: "Linnéov Hammarby", opis: "Ljetno imanje velikog botaničara, na selu jugoistočno od grada, sačuvano je s njegovim namještajem i vrtom, a otvoreno je od svibnja do rujna. Zidovi spavaće sobe oblijepljeni su botaničkim grafikama, a od stanice regionalnog autobusa do ulaza ima dvadesetak minuta hoda." },
+        { ime: "Staza Eriksleden", opis: "Ovaj stari hodočasnički put vodi od katedrale kroz polja do kraljevskih grobnih humaka u Gamla Uppsali. Riječ je o otprilike šest kilometara hoda po ravnom, za koje laganim korakom trebate oko dva sata, a natrag se možete vratiti autobusom." },
         { ime: "Stadsträdgården i obale rijeke Fyris", opis: "Gradski park uz rijeku ljeti je pun studenata na dekama, a staza uz rijeku odande se nastavlja prema jugu. Krenite iz centra nizvodno i uskoro ćete je imati samo za sebe." }
       ],
       domaci: [
@@ -83,7 +83,7 @@ window.DODACI["svedska"] = {
         { ime: "Botanički vrt", opis: "Vrt uz sjeverni potez zidina skriva crkvenu ruševinu obraslu bršljanom, stare ruže i stabla koja inače ne rastu ovako daleko na sjeveru. Ulaz je besplatan, a klupe su savršene za odmor od kaldrme." }
       ],
       domaci: [
-        { ime: "Palačinka sa šafranom", opis: "Gotlandski pečeni puding od riže, šafrana i badema jede se s tučenim vrhnjem i džemom od bobice salmbär, koja raste gotovo samo na ovom otoku. Poslužuje ga svaki kafić unutar zidina." },
+        { ime: "Palačinka sa šafranom", opis: "Gotlandski pečeni puding od riže, šafrana i badema jede se s tučenim vrhnjem i džemom od bobice salmbär, kako otočani zovu plavu kupinu. Poslužuje ga svaki kafić unutar zidina." },
         { ime: "Zalazak sunca uz more", opis: "Navečer se svi spuštaju na šetnicu uz obalu i na travnjak kod Barutne kule gledati kako sunce tone u Baltik. Ponesite piće i sjednite na travu s ostalima." },
         { ime: "Biciklom na plažu", opis: "Otok je ravan i stvoren za bicikliranje, pa se do mora vozi na dva kotača, do Snäcka na sjeveru ili do pješčane Tofte na jugu. Bicikli se iznajmljuju blizu luke." }
       ],
@@ -113,7 +113,7 @@ window.DODACI["svedska"] = {
     "dalarna": {
       dragulji: [
         { ime: "Tällberg", opis: "Ovo selo na padini iznad jezera Siljan čine crvene brvnare, ograde od koso položenih motki i stara stabla jabuka. Seoskim puteljcima spustite se do obale, gdje je malo kupalište s molom." },
-        { ime: "Fryksås", opis: "Nekadašnji ljetni pašnjak visoko iznad Orse sačuvao je sive drvene kolibe i pogled koji seže preko jezera i šume. Ljeti se u kolibama poslužuju vafli i sir od sirutke." },
+        { ime: "Fryksås", opis: "Nekadašnji ljetni pašnjak visoko iznad Orse sačuvao je sive drvene kolibe i pogled koji seže preko jezera i šume. Ljeti među kolibama rade kafić i stara gostionica." },
         { ime: "Styggforsen", opis: "Slap kod sela Boda pada u klanac nastao udarom meteorita koji je oblikovao cijeli kraj oko Siljana. Kružna staza kroz šumu traje manje od sat vremena." }
       ],
       domaci: [

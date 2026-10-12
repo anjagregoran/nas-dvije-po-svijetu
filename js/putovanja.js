@@ -1,7 +1,7 @@
 (function () {
   var P = window.PUTOVANJA;
   var app = document.getElementById('app');
-  var active = '';   // '' = sve skupine
+  var active = 'svijet';   // 'svijet' = Anja's world, '' = all trips, otherwise a group id
 
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
@@ -14,7 +14,50 @@
 
   function trips() { return P.putovanja.filter(function (t) { return !active || t.skupina === active; }); }
 
+  var W = P.svijet;
+  function drawWorld() {
+    var parts = [];
+    W.zemlje.forEach(function (z) {
+      var g = parts.filter(function (x) { return x.n === z.dio; })[0];
+      if (!g) { g = { n: z.dio, z: [] }; parts.push(g); }
+      g.z.push(z);
+    });
+    var pct = Math.round(W.zemlje.length / W.ukupno * 100);
+    app.innerHTML =
+      '<header class="hero left" style="padding-top:34px;padding-bottom:10px"><span class="label">Countries I have been to</span>' +
+      '<h1>Anja’s <em>world</em></h1>' +
+      '<p class="lead" style="margin:0">Every country I have set foot in myself, colored in on one map.</p></header>' +
+      chips() +
+      '<div class="stats"><div><b>' + W.zemlje.length + '</b><span>of ' + W.ukupno + ' countries</span></div>' +
+        '<div><b>' + pct + '%</b><span>of the world</span></div>' +
+        '<div><b>' + parts.length + '</b><span>regions</span></div>' +
+        '<div><b>' + (W.ukupno - W.zemlje.length) + '</b><span>still to go</span></div></div>' +
+      '<div class="map" id="map" style="margin-top:0"></div>' +
+      '<p class="note" style="margin-top:10px"><i class="dot" style="background:#5a1830"></i>Visited &nbsp; <i class="dot" style="background:#e0a52e"></i>Lived in &nbsp; <i class="dot" style="background:#2f6f73"></i>Home</p>' +
+      parts.map(function (g) {
+        return '<div class="sec-head" style="margin-top:40px"><h2>' + esc(g.n) + '</h2><span class="label">' + g.z.length + (g.z.length === 1 ? ' country' : ' countries') + '</span></div>' +
+          '<div class="grid places">' + g.z.map(function (z) {
+            var tag = z.dom ? 'Home' : z.zivjela ? 'Lived in' : 'Visited';
+            var inner = '<span class="badge' + (z.zivjela ? ' plan' : '') + '">' + tag + '</span><h3>' + esc(z.ime) + '</h3>' +
+              (z.vodic ? '<p>Open the guide →</p>' : '<p>No guide needed, this one is home.</p>');
+            return z.vodic ? '<a class="trip" href="zemlja.html?z=' + z.vodic + '">' + inner + '</a>' : '<div class="trip">' + inner + '</div>';
+          }).join('') + '</div>';
+      }).join('');
+    var colours = {}, names = {};
+    W.zemlje.forEach(function (z) { colours[z.iso] = z.dom ? '#2f6f73' : z.zivjela ? '#e0a52e' : '#5a1830'; names[z.iso] = z.ime; });
+    window.Karta.world('map', colours, names);
+  }
+  function chips() {
+    return '<div class="chips wrapc" id="groups" style="margin-top:14px">' +
+      '<button type="button" data-g="svijet"' + (active === 'svijet' ? ' class="on"' : '') + '>Anja’s world</button>' +
+      '<button type="button" data-g=""' + (active === '' ? ' class="on"' : '') + '>All trips</button>' +
+      P.skupine.map(function (x) {
+        return '<button type="button" data-g="' + x.id + '"' + (active === x.id ? ' class="on"' : '') + '><i class="dot" style="background:' + HEX[colour[x.id]] + '"></i>' + esc(x.ime) + '</button>';
+      }).join('') + '</div>';
+  }
+
   function draw() {
+    if (active === 'svijet') return drawWorld();
     var list = trips();
     var done = list.filter(function (t) { return t.status === 'bili'; });
     var places = 0, lands = {};
@@ -25,11 +68,7 @@
       '<header class="hero left" style="padding-top:34px;padding-bottom:10px"><span class="label">Travel log</span>' +
       '<h1>' + (g ? esc(g.ime) : 'Our <em>trips</em>') + '</h1>' +
       '<p class="lead" style="margin:0">' + esc(g ? g.opis : 'Everywhere we have been and everything still to come, on one map.') + '</p></header>' +
-      '<div class="chips wrapc" id="groups" style="margin-top:14px">' +
-        '<button type="button" data-g=""' + (active === '' ? ' class="on"' : '') + '>All</button>' +
-        P.skupine.map(function (x) {
-          return '<button type="button" data-g="' + x.id + '"' + (active === x.id ? ' class="on"' : '') + '><i class="dot" style="background:' + HEX[colour[x.id]] + '"></i>' + esc(x.ime) + '</button>';
-        }).join('') + '</div>' +
+      chips() +
       '<div class="stats"><div><b>' + done.length + '</b><span>trips done</span></div>' +
         '<div><b>' + Object.keys(lands).length + '</b><span>countries</span></div>' +
         '<div><b>' + places + '</b><span>places</span></div>' +

@@ -99,5 +99,49 @@ window.Karta = (function () {
     }).catch(function () { el.style.display = 'none'; });
   }
 
-  return { draw: draw };
+  // Karta svijeta s obojenim državama. colours: { "380": "#5a1830", ... } po ISO brojčanoj oznaci.
+  function script(src) {
+    return new Promise(function (ok, fail) {
+      var s = document.createElement('script');
+      s.src = src; s.onload = ok; s.onerror = fail;
+      document.head.appendChild(s);
+    });
+  }
+  function world(elId, colours, names) {
+    var el = document.getElementById(elId);
+    if (!el) return;
+    Promise.all([
+      lib(),
+      window.topojson ? null : script('https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js'),
+      fetch('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json').then(function (r) { return r.json(); })
+    ]).then(function (res) {
+      if (maps[elId]) { maps[elId].remove(); delete maps[elId]; }
+      if (!document.getElementById(elId)) return;
+      var topo = res[2];
+      var geo = window.topojson.feature(topo, topo.objects.countries);
+      geo.features = geo.features.filter(function (f) { return colours[f.id]; });
+      geo.features.forEach(function (f) { f.properties.c = colours[f.id]; f.properties.n = (names || {})[f.id] || f.properties.name; });
+      var map = new maplibregl.Map({
+        container: elId, style: 'https://tiles.openfreemap.org/styles/positron',
+        center: [10, 28], zoom: 0.9, attributionControl: { compact: true }, cooperativeGestures: touch, dragRotate: false
+      });
+      maps[elId] = map;
+      map.touchZoomRotate.disableRotation();
+      map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-left');
+      map.on('style.load', function () {
+        dress(map);
+        var firstSymbol = (map.getStyle().layers.filter(function (l) { return l.type === 'symbol'; })[0] || {}).id;
+        map.addSource('visited', { type: 'geojson', data: geo });
+        map.addLayer({ id: 'visited-fill', type: 'fill', source: 'visited', paint: { 'fill-color': ['get', 'c'], 'fill-opacity': 0.78 } }, firstSymbol);
+        map.addLayer({ id: 'visited-line', type: 'line', source: 'visited', paint: { 'line-color': '#fbf4ea', 'line-width': 1 } }, firstSymbol);
+        map.on('click', 'visited-fill', function (e) {
+          new maplibregl.Popup({ closeButton: false }).setLngLat(e.lngLat).setHTML('<b>' + esc(e.features[0].properties.n) + '</b>').addTo(map);
+        });
+        map.on('mouseenter', 'visited-fill', function () { map.getCanvas().style.cursor = 'pointer'; });
+        map.on('mouseleave', 'visited-fill', function () { map.getCanvas().style.cursor = ''; });
+      });
+    }).catch(function () { el.style.display = 'none'; });
+  }
+
+  return { draw: draw, world: world };
 })();

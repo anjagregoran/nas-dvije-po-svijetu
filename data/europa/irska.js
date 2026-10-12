@@ -4,6 +4,17 @@ window.ATLAS["irska"] = {
   ime: "Ireland",
   regija: "British Isles",
   sazetak: "A green island on the edge of the Atlantic where any evening can end with a fiddle, a story and a glass of dark beer in a pub.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Cliffs of Moher Experience, coastal walk status", url: "https://www.cliffsofmoher.ie/your-visit/beyond-the-cliffs-places-to-see/cliffs-of-moher-coastal-walk/" },
+    { ime: "Visit Trinity, Book of Kells Experience", url: "https://www.visittrinity.ie/book-of-kells-experience/" },
+    { ime: "Ireland.com, visas and passports", url: "https://www.ireland.com/en-us/help-and-advice/practical-information/visas-and-passports/" },
+    { ime: "Rick Steves, Ring of Kerry", url: "https://www.ricksteves.com/europe/ireland/ring-of-kerry" },
+    { ime: "Puck Fair, official program", url: "https://puckfair.ie" },
+    { ime: "Galway Tourism, best traditional music pubs", url: "https://www.galwaytourism.ie/best-traditional-music-pubs/" },
+    { ime: "Discover Ireland, Kilkenny Farmers Market", url: "https://www.discoverireland.ie/Food-And-Drink/kilkenny-farmers-market/70603" },
+    { ime: "Culture magazine, The Cheese Man of Aran", url: "https://culturecheesemag.com/travel/the-cheese-man-of-aran/" },
+    { ime: "Doolin Cliff Walk", url: "https://doolincliffwalk.com/" }
+  ] },
   uvod: [
     "Ireland is a small country that has given the world a disproportionate amount of music, literature and emigrants. The Roman legions never reached it, so Celtic culture developed here in its own way, and after Christianity arrived in the 5th century, Irish monasteries became seedbeds of literacy where manuscripts such as the Book of Kells were created. Then came the Vikings, who founded Dublin, followed by the Anglo-Normans, and with them eight centuries of English rule.",
     "The deepest mark was left by the Great Famine of 1845 to 1852, when potato blight destroyed the food of the poor, so that about a million people died and even more emigrated, most of them to the USA. The island's population has not recovered from it to this day. Independence was won in 1922, after the Easter Rising of 1916 and the war that followed, while six northern counties remained in the United Kingdom.",
@@ -11,7 +22,7 @@ window.ATLAS["irska"] = {
   ],
   ukratko: [
     { k: "When to go", v: "From May to September the days are longest and warmest, and May and June are on average the driest. Rain is possible on any day of the year but rarely lasts long, so dress in layers and do not put off outings because of clouds." },
-    { k: "Entry", v: "Ireland is a member of the European Union, so Croatian citizens need only a valid ID card or passport. It is not in the Schengen area, which is why documents are checked at the border. If you plan to cross into Northern Ireland, United Kingdom rules apply." },
+    { k: "Entry", v: "Ireland is a member of the European Union, so Croatian citizens need only a valid ID card or passport. It is not in the Schengen area, which is why documents are checked at the border. If you plan to cross into Northern Ireland, United Kingdom rules apply, which means that an ID card is not enough and you need a passport with an electronic travel authorization (ETA) arranged in advance." },
     { k: "Currency", v: "The euro. You can pay by card almost everywhere, and a little cash comes in handy at village markets and for street musicians." },
     { k: "Getting around", v: "Trains and buses connect Dublin well with the larger towns, but the west coast is best explored by car or on day trips from Galway and Killarney. Driving is on the left, the roads in the west are very narrow, and the sockets are type G, as in Britain." },
     { k: "Tipping", v: "In a restaurant it is customary to leave 10 to 15 percent if a service charge is not already included. In a pub you pay for drinks at the bar and a tip is not expected." }
@@ -35,7 +46,7 @@ window.ATLAS["irska"] = {
     { ime: "St. Patrick's Day", opis: "The feast of Ireland's patron saint, March 17, is marked with parades, music and the wearing of shamrock. Tradition says that Saint Patrick, who converted the Irish in the 5th century, used the three leaves of the shamrock to explain the Holy Trinity.", gdje: "The biggest parade and a festival lasting several days take place in Dublin, with smaller parades in almost every town and village." },
     { ime: "The Irish language and the Gaeltacht", opis: "Irish, a Celtic language that in English is called Irish and not Gaelic, is the first official language of the state and is taught in all schools. It lives on as an everyday language in areas known as the Gaeltacht, mostly on the west coast, and all road signs in the country are bilingual.", gdje: "In Connemara, on the Aran Islands and on the Dingle Peninsula, where you will hear it in the shop and the pub." },
     { ime: "Uilleann pipes and the harp", opis: "Irish pipes are not blown by mouth; the air is pumped by a bellows under the elbow, so the player can sing as well, and the sound is softer than that of Scottish bagpipes. The harp is the national coat of arms, which makes Ireland the only country whose symbol is a musical instrument. UNESCO protected uilleann piping in 2017 and harping in 2019.", gdje: "At the Fleadh Cheoil na hÉireann festival, held in August and moving to a different town every year or two, and at evening gatherings of musicians in pubs." },
-    { ime: "Halloween", opis: "Halloween goes back to the Celtic festival of Samhain, which marked the end of the harvest and the beginning of the dark half of the year, when the boundary with the world of the dead was believed to be at its thinnest. Irish emigrants took the customs to the USA, where the hollowed-out turnip was replaced by the pumpkin.", gdje: "In late October, festivals devoted to the original customs are held in Dublin and County Meath, and Derry hosts one of the biggest celebrations in Europe." }
+    { ime: "Halloween", opis: "Halloween goes back to the Celtic festival of Samhain, which marked the end of the harvest and the beginning of the dark half of the year, when the boundary with the world of the dead was believed to be at its thinnest. Irish emigrants took the customs to the USA, where the hollowed-out turnip was replaced by the pumpkin.", gdje: "In late October the Púca festival in Trim and Athboy in County Meath revives the original Samhain customs, Dublin holds a festival named after Bram Stoker, the author of “Dracula”, and Derry hosts one of the biggest celebrations in Europe." }
   ],
   fraze: [
     { izvorno: "Dia dhuit", izgovor: "DEE-ah GWIT", hr: "Hello, literally: God be with you (Irish)" },
@@ -68,7 +79,7 @@ window.ATLAS["irska"] = {
         "It enjoyed its golden age in the 18th century, when the wide squares and terraces of brick houses with colorful doors and semicircular fanlights were built. At Easter 1916 rebels occupied the General Post Office and proclaimed a republic, and the execution of their leaders swung public opinion toward independence. Dublin is also the city of Jonathan Swift, Oscar Wilde, W. B. Yeats, Samuel Beckett and James Joyce, who set the entire novel “Ulysses” on a single day here, June 16, 1904."
       ],
       vidjeti: [
-        { ime: "Trinity College and the Book of Kells", opis: "The university was founded in 1592 by Queen Elizabeth I. It holds the gospel book that monks illuminated around the year 800, and two different pages are on display each day. In the Long Room of the Old Library, which is 65 meters long, look for the 15th-century harp on which the national coat of arms is modeled. The library is undergoing a restoration lasting several years, so check what is open before you come." },
+        { ime: "Trinity College and the Book of Kells", opis: "The university was founded in 1592 by Queen Elizabeth I. It holds the gospel book that monks illuminated around the year 800, and the pages on display are turned several times a year. In the Long Room of the Old Library, which is 65 meters long, look for the 15th-century harp on which the national coat of arms is modeled. The library is undergoing a restoration lasting several years, for which most of the books have already been taken off the shelves, so check what is open before you come." },
         { ime: "Kilmainham Gaol", opis: "Almost all the leaders of Irish rebellions were held in this jail, which opened in 1796. In the stonebreakers' yard, fourteen leaders of the Easter Rising were shot in May 1916, among them the wounded James Connolly, who had to be tied to a chair. Visits are by guided tour only, with advance booking." },
         { ime: "National Museum, Archaeology", opis: "The free museum holds one of the largest collections of prehistoric gold in Europe, along with the Ardagh Chalice and the Tara Brooch, masterpieces from the 8th century. A separate gallery displays the bodies of Iron Age people preserved in bogs, on which you can still see fingernails and hairstyles." },
         { ime: "St. Patrick's Cathedral", opis: "Ireland's largest church stands on the spot where, according to tradition, Saint Patrick baptized converts. Jonathan Swift, the author of “Gulliver's Travels”, was dean here from 1713 to 1745 and is buried in the church. Look for the old door with a hole in it, through which in 1492 one nobleman stretched out his arm to a rival as a sign of reconciliation." },
@@ -152,7 +163,7 @@ window.ATLAS["irska"] = {
         { ime: "Chowder and soda bread in the pub", opis: "The pubs in Doolin serve thick fish soup and a stew of lamb from the Burren pastures before the music starts." }
       ],
       dozivjeti: [
-        { ime: "The coastal walk from Doolin to the cliffs", opis: "A trail of about eight kilometers follows the edge of the coast to the visitor center and reveals the cliffs gradually, without the crowds. The local farmer whose land the trail crosses leads walks with stories about the area.", link: "https://doolincliffwalk.com/" },
+        { ime: "The coastal walk from Doolin toward the cliffs", opis: "The cliff-top trail that used to lead from Doolin all the way to the visitor center has been largely closed for safety reasons since 2024. From Doolin you can still walk the first kilometer and a half and then turn back the same way, which is enough for quiet views of the coast without the crowds, and it is worth checking the official page before you set out to see which sections are open.", link: "https://www.cliffsofmoher.ie/your-visit/beyond-the-cliffs-places-to-see/cliffs-of-moher-coastal-walk/" },
         { ime: "A guided walk in the Burren", opis: "If you want to learn to read this landscape, from the orchids in the fissures to the prehistoric walls, the local guide Tony Kirby leads walks through its most beautiful parts.", link: "https://www.heartofburrenwalks.com/" },
         { ime: "A boat trip below the cliffs", opis: "The one-hour trip from Doolin shows the cliffs from below, with the Branaunmore sea stack and thousands of birds.", link: "https://doolinferry.com/" },
         { ime: "A music night in Doolin", opis: "At Gus O'Connor's pub, in business since 1832, musicians gather every evening and you need to grab a seat early.", link: "https://www.gusoconnorsdoolin.com/" }
@@ -188,17 +199,17 @@ window.ATLAS["irska"] = {
         { ime: "Dingle whiskey and gin", opis: "The small distillery on the edge of town, opened in 2012, was among the first in the new wave of Irish craft distilleries and welcomes visitors." }
       ],
       dozivjeti: [
-        { ime: "Music nights in Dingle", opis: "In Dingle there is music in almost every pub. At John Benny's by the harbor the owners are musicians themselves, and Dick Mack's pub has a bar on one side and an old cobbler's workshop on the other.", link: "https://johnbennyspub.com/" },
+        { ime: "Music nights in Dingle", opis: "In Dingle there is music in almost every pub. At John Benny's by the harbor the owners are musicians themselves, and Dick Mack's pub has a bar on one side and a small leather workshop on the other.", link: "https://johnbennyspub.com/" },
         { ime: "Siamsa Tíre folk theater", opis: "In Tralee, the national folk theater stages summer shows that portray old rural life through dance, song and music, without many words.", link: "https://siamsatire.com/" },
         { ime: "Skellig Experience center", opis: "If you do not feel like climbing the crag or there is no room on the boat, the center on Valentia Island explains the life of the monks and offers cruises around the islands without landing.", link: "https://skelligexperience.com/" },
-        { ime: "Puck Fair", opis: "From August 10 to 12 in the small town of Killorglin, a wild mountain goat is crowned king and hoisted onto a high platform in the middle of the square, at one of Ireland's oldest fairs.", link: "https://puckfair.ie/" }
+        { ime: "Puck Fair", opis: "From August 10 to 12 in the small town of Killorglin, a wild mountain goat is crowned king at one of Ireland's oldest fairs. In recent years he has been raised on the high stand in the middle of town only briefly, for the sake of his welfare, and after the fair he is returned to the mountains.", link: "https://puckfair.ie/" }
       ],
       agencije: [
         { ime: "Killarney National Park", opis: "The park's official website, with trail maps and information on Muckross House.", link: "https://www.nationalparks.ie/killarney/" },
         { ime: "Dingle Peninsula Tourism Alliance", opis: "The official tourism website for the Dingle Peninsula.", link: "https://dingle-peninsula.ie/" },
         { ime: "Deros Tours", opis: "A family-run coach company from Killarney that operates daily guided bus tours of the Ring of Kerry and Dingle.", link: "https://www.derostours.com/" }
       ],
-      kada: "From May to September visibility is at its best and the boat to Skellig is running. The tour buses drive the Ring of Kerry counterclockwise, so if you are driving yourselves, go in the same direction and set off early, so that you do not have to squeeze past them on the narrow bends."
+      kada: "From May to September visibility is at its best and the boat to Skellig is running. The tour buses drive the Ring of Kerry counterclockwise, and guidebooks disagree about what that means for drivers. If you go in the same direction and set off early, you will not have to squeeze past them on the narrow bends, while those who drive clockwise do not get stuck behind them but have to be ready to pull over."
     },
     {
       id: "cork-cobh",
@@ -292,7 +303,7 @@ window.ATLAS["irska"] = {
         { ime: "Connemara lamb", opis: "The lambs that graze on the hills by the sea eat heather and grass, so the meat has a distinctive flavor and a protected designation of origin." },
         { ime: "Killary mussels", opis: "Mussels farmed in the fjord are steamed with garlic and cream in the inns of Leenane and Letterfrack." },
         { ime: "Smoked salmon and crab", opis: "Small smokehouses on the Connemara coast smoke salmon to old family recipes, and in the fishing village of Roundstone you can eat fresh crab." },
-        { ime: "Aran goat cheese", opis: "On the island of Inis Mór a small dairy makes fresh goat cheese, which the island cafés serve with brown bread." }
+        { ime: "Aran goat cheese", opis: "On the island of Inis Mór a small dairy makes soft goat cheese, some of it flavored with the seaweed dillisk, and you will find it on the menus of the island cafés." }
       ],
       dozivjeti: [
         { ime: "By bike around Inis Mór", opis: "You can rent a bike right on the pier in Kilronan, and a quiet coastal road leads to the fort of Dún Aonghasa past a seal colony. Boats sail all year from the port of Rossaveel, and in season from Galway itself too.", link: "https://www.aranislandferries.com/" },

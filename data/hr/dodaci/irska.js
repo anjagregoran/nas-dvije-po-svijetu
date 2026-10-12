@@ -73,7 +73,7 @@ window.DODACI["irska"] = {
       kupiti: [
         { ime: "Viski i džin iz Dinglea", opis: "Destilerija na rubu gradića Dinglea proizvodi viski, džin i votku. Možete je razgledati i ondje kupiti bocu." },
         { ime: "Keramika s poluotoka Dingle", opis: "Poznata lončarska radionica radi blizu zapadnog vrha poluotoka i izrađuje velike komade na lončarskom kolu, u dubokim glazurama. Uz radionicu je trgovina u kojoj se i same možete okušati na kolu." },
-        { ime: "Vuna iz Kerryja", opis: "Tkaonica blizu Killarneyja već tri stoljeća prede i tka vunu. Prodaje deke, šalove i pređu za pletenje." }
+        { ime: "Vuna iz Kerryja", opis: "Tkaonica blizu Killarneyja prede i tka vunu više od 250 godina. Prodaje deke, šalove i pređu za pletenje." }
       ]
     },
     "cork-cobh": {
@@ -102,7 +102,7 @@ window.DODACI["irska"] = {
       domaci: [
         { ime: "Hurling", opis: "Kilkenny je lud za hurlingom, vrlo brzom drevnom igrom koja se igra palicama i malom loptom. Na dan utakmice grad se obuče u crno i jantarno, a gledati možete u bilo kojem pubu." },
         { ime: "Pinta crvenog piva", opis: "Kilkenny je dom irskog crvenog alea, koji se prvi put varilo u jednoj opatiji u gradu. Naručite ga u nekom od starih pubova u srednjovjekovnim ulicama." },
-        { ime: "Seljačka tržnica", opis: "Tjedna seljačka tržnica postavlja se na Paradeu pred dvorcem. Pitajte domaćine kojim se danom održava." }
+        { ime: "Seljačka tržnica", opis: "Svakog četvrtka na Paradeu pred dvorcem postavlja se seljačka tržnica sa sirom s farmi, kruhom, medom i povrćem proizvođača iz grofovije. Ondje kupite ručak i pojedite ga u parku dvorca." }
       ],
       kupiti: [
         { ime: "Rukotvorine iz starih dvorskih konjušnica", opis: "Konjušnice nasuprot dvorcu šezdesetih su godina prošlog stoljeća pretvorene u dizajnerske radionice. U njima su i danas galerija obrta i trgovine s radovima irskih majstora." },

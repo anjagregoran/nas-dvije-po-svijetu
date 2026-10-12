@@ -13,7 +13,7 @@ window.DODACI["danska"] = {
       dragulji: [
         { ime: "Jægersborggade and Assistens Kirkegård", opis: "This short street in Nørrebro is full of pottery studios, bakeries and small wine bars. Right beside it is the cemetery where Andersen is buried, which locals use as a park for strolling and sunbathing." },
         { ime: "Kartoffelrækkerne", opis: "These rows of narrow yellow-brick houses by the lakes were built for workers and are now among the most wanted addresses in the city. The streets are full of bikes, benches and children's toys, so you see how Danes really live." },
-        { ime: "Refshaleøen", opis: "The former shipyard on the northern edge of the harbor has turned into a district of street food, saunas and swimming off the piers. Come on the public harbor bus, which takes the same ticket as the metro." }
+        { ime: "Refshaleøen", opis: "The former shipyard on the northern edge of the harbor has turned into a district of street food, saunas and swimming off the piers, with the big street food market open from spring until the end of September. Come on the public harbor bus, which takes the same ticket as the metro." }
       ],
       domaci: [
         { ime: "Swimming in the harbor", opis: "The harbor water is so clean that people swim all summer at city baths such as Islands Brygge. Keep a swimsuit in your bag as locals do and jump in on your way home." },
@@ -29,8 +29,8 @@ window.DODACI["danska"] = {
     "aarhus": {
       dragulji: [
         { ime: "Møllestien", opis: "This cobbled lane of low, colorful houses and climbing roses is the prettiest in the city. It is only about a hundred meters long and a few minutes from the main pedestrian area." },
-        { ime: "Den Uendelige Bro", opis: "The Infinite Bridge is a circular wooden pier set up every spring over the shallows south of the city, so you can walk around it without end. It is a pleasant walk or bike ride along the coast to get there." },
-        { ime: "The deer park at Marselisborg", opis: "In the forest south of the center, fallow and sika deer roam freely and come right up to you. You may feed them only carrots and apples, so bring some along." }
+        { ime: "Den Uendelige Bro", opis: "The Infinite Bridge is a circular wooden pier set up every April over the shallows south of the city and taken down again in October, so you can walk around it without end. It is a pleasant walk or bike ride along the coast to get there." },
+        { ime: "The deer park at Marselisborg", opis: "In the forest south of the center, fallow and sika deer roam freely and come quite close to the paths. They live as wild animals and visitors are not allowed to feed them, so leave the carrots at home and simply walk quietly among them." }
       ],
       domaci: [
         { ime: "Swimming at Den Permanente", opis: "The old wooden sea bath in the Riis Skov forest, north of the center, is free in summer and full of families. In winter only members of the cold-water swimming club use it." },
@@ -55,7 +55,7 @@ window.DODACI["danska"] = {
       ],
       kupiti: [
         { ime: "Paper cuttings", opis: "Andersen snipped wonderful figures out of paper with scissors while he told his tales, and such cuttings have become the town's souvenir. The museum shop sells lovely reproductions and paper mobiles." },
-        { ime: "Rygeost smoked cheese", opis: "Fresh cheese smoked over straw and nettles and sprinkled with caraway is made only on Funen. Buy it at the market or a dairy and eat it the same day on rye bread with radishes." }
+        { ime: "Rygeost smoked cheese", opis: "Fresh cheese smoked over straw and nettles and sprinkled with caraway is the island's very own specialty. Buy it at the market or a dairy and eat it the same day on rye bread with radishes." }
       ]
     },
     "helsingor": {
@@ -97,7 +97,7 @@ window.DODACI["danska"] = {
         { ime: "The island of Mandø", opis: "A tractor bus drives across the seabed to this little island in the Wadden Sea, and only at low tide. On the island you find a village with a small church, a dike and an enormous sky full of birds." }
       ],
       domaci: [
-        { ime: "The night watchman's round", opis: "On summer evenings a watchman in a long coat, with a lantern and a spiked staff, walks the streets singing the old verses. Gather with everyone else on the main square and follow him." },
+        { ime: "The night watchman's round", opis: "On evenings from May to the middle of October a watchman in a long coat, with a lantern and a spiked staff, walks the streets singing the old verses. Gather with everyone else on the main square and follow him." },
         { ime: "Black sun", opis: "In spring and autumn hundreds of thousands of starlings dance over the marshes before dusk and blot out the sun for moments at a time. Locals know where the birds are landing on a given evening, so ask at your lodging." },
         { ime: "A walk on the seabed", opis: "At low tide the sea pulls back for miles and you walk on the floor of the Wadden Sea in rubber boots. Go with a guide, who knows when the water returns and where oysters are gathered in winter." }
       ],

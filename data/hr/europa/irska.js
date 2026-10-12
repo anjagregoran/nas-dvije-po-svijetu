@@ -4,6 +4,17 @@ window.ATLAS["irska"] = {
   ime: "Irska",
   regija: "Britansko otočje",
   sazetak: "Zeleni otok na rubu Atlantika na kojem svaka večer može završiti uz violinu, priču i čašu tamnog piva u pubu.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Cliffs of Moher Experience, coastal walk status", url: "https://www.cliffsofmoher.ie/your-visit/beyond-the-cliffs-places-to-see/cliffs-of-moher-coastal-walk/" },
+    { ime: "Visit Trinity, Book of Kells Experience", url: "https://www.visittrinity.ie/book-of-kells-experience/" },
+    { ime: "Ireland.com, visas and passports", url: "https://www.ireland.com/en-us/help-and-advice/practical-information/visas-and-passports/" },
+    { ime: "Rick Steves, Ring of Kerry", url: "https://www.ricksteves.com/europe/ireland/ring-of-kerry" },
+    { ime: "Puck Fair, official program", url: "https://puckfair.ie" },
+    { ime: "Galway Tourism, best traditional music pubs", url: "https://www.galwaytourism.ie/best-traditional-music-pubs/" },
+    { ime: "Discover Ireland, Kilkenny Farmers Market", url: "https://www.discoverireland.ie/Food-And-Drink/kilkenny-farmers-market/70603" },
+    { ime: "Culture magazine, The Cheese Man of Aran", url: "https://culturecheesemag.com/travel/the-cheese-man-of-aran/" },
+    { ime: "Doolin Cliff Walk", url: "https://doolincliffwalk.com/" }
+  ] },
   uvod: [
     "Irska je mala zemlja koja je svijetu dala nerazmjerno mnogo glazbe, književnosti i iseljenika. Do nje nikada nisu stigle rimske legije, pa se keltska kultura ovdje razvijala po svome, a nakon dolaska kršćanstva u 5. stoljeću irski su samostani postali rasadnici pismenosti u kojima su nastali rukopisi poput Knjige iz Kellsa. Zatim su došli Vikinzi, koji su osnovali Dublin, pa Anglo-Normani, a s njima i osam stoljeća engleske vlasti.",
     "Najdublji trag ostavila je Velika glad od 1845. do 1852., kada je bolest krumpira uništila hranu siromašnih, pa je oko milijun ljudi umrlo, a još više ih se iselilo, najviše u SAD. Otok se od toga brojem stanovnika nije oporavio do danas. Neovisnost je izborena 1922., nakon Uskrsnog ustanka 1916. i rata koji je uslijedio, dok je šest sjevernih grofovija ostalo u Ujedinjenom Kraljevstvu.",
@@ -11,7 +22,7 @@ window.ATLAS["irska"] = {
   ],
   ukratko: [
     { k: "Kada ići", v: "Od svibnja do rujna dani su najdulji i najtopliji, a svibanj i lipanj u prosjeku su najsuši. Kiša je moguća svakog dana u godini, ali rijetko traje dugo, pa se treba odijevati slojevito i ne odgađati izlete zbog oblaka." },
-    { k: "Ulazak", v: "Irska je članica Europske unije, pa hrvatskim državljanima treba samo važeća osobna iskaznica ili putovnica. Nije u schengenskom prostoru, zbog čega se dokumenti na granici pregledavaju. Ako planirate prijeći u Sjevernu Irsku, vrijede pravila Ujedinjenog Kraljevstva." },
+    { k: "Ulazak", v: "Irska je članica Europske unije, pa hrvatskim državljanima treba samo važeća osobna iskaznica ili putovnica. Nije u schengenskom prostoru, zbog čega se dokumenti na granici pregledavaju. Ako planirate prijeći u Sjevernu Irsku, vrijede pravila Ujedinjenog Kraljevstva, što znači da osobna iskaznica nije dovoljna i da vam treba putovnica s unaprijed ishođenim elektroničkim odobrenjem za putovanje (ETA)." },
     { k: "Valuta", v: "Euro. Karticom se plaća gotovo svugdje, a malo gotovine dobro dođe na seoskim tržnicama i za ulične svirače." },
     { k: "Kretanje", v: "Vlakovi i autobusi dobro povezuju Dublin s većim gradovima, no zapadna obala najbolje se obilazi automobilom ili jednodnevnim izletima iz Galwaya i Killarneyja. Vozi se lijevom stranom, ceste na zapadu vrlo su uske, a utičnice su tipa G, kao u Britaniji." },
     { k: "Napojnica", v: "U restoranu je uobičajeno ostaviti 10 do 15 posto ako naknada za uslugu nije već uračunata. U pubu se piće plaća za šankom i napojnica se ne očekuje." }
@@ -35,7 +46,7 @@ window.ATLAS["irska"] = {
     { ime: "Dan svetog Patrika", opis: "Blagdan zaštitnika Irske, 17. ožujka, obilježava se povorkama, glazbom i nošenjem djeteline. Predaja kaže da je sveti Patrik, koji je u 5. stoljeću pokrštavao Irce, na trolistu djeteline objašnjavao Sveto Trojstvo.", gdje: "Najveća povorka i višednevni festival održavaju se u Dublinu, a manje povorke u gotovo svakom gradu i selu." },
     { ime: "Irski jezik i Gaeltacht", opis: "Irski, keltski jezik koji se na engleskom zove Irish, a ne Gaelic, prvi je službeni jezik države i uči se u svim školama. Kao svakodnevni govor živi u područjima zvanima Gaeltacht, uglavnom na zapadnoj obali, a svi prometni znakovi u zemlji dvojezični su.", gdje: "U Connemari, na Aranskim otocima i na poluotoku Dingle, gdje ćete ga čuti u trgovini i pubu." },
     { ime: "Uilleann gajde i harfa", opis: "Irske gajde ne pušu se ustima, već se zrak tjera mijehom pod laktom, pa svirač može i pjevati, a zvuk je mekši od škotskih. Harfa je državni grb, što Irsku čini jedinom zemljom čiji je simbol glazbalo. UNESCO je sviranje na gajdama zaštitio 2017., a na harfi 2019. godine.", gdje: "Na festivalu Fleadh Cheoil na hÉireann, koji se održava u kolovozu, svake godine ili dvije u drugom gradu, te na večernjim okupljanjima svirača u pubovima." },
-    { ime: "Noć vještica", opis: "Halloween potječe od keltskog blagdana Samhain, koji je označavao kraj žetve i početak tamne polovice godine, kada se vjerovalo da je granica sa svijetom mrtvih najtanja. Irski iseljenici odnijeli su običaje u SAD, gdje je izdubljenu repu zamijenila bundeva.", gdje: "Krajem listopada u Dublinu i grofoviji Meath održavaju se festivali posvećeni izvornim običajima, a u Derryju jedna od najvećih europskih proslava." }
+    { ime: "Noć vještica", opis: "Halloween potječe od keltskog blagdana Samhain, koji je označavao kraj žetve i početak tamne polovice godine, kada se vjerovalo da je granica sa svijetom mrtvih najtanja. Irski iseljenici odnijeli su običaje u SAD, gdje je izdubljenu repu zamijenila bundeva.", gdje: "Krajem listopada festival Púca u gradićima Trim i Athboy u grofoviji Meath oživljava izvorne običaje Samhaina, Dublin ima festival nazvan po Bramu Stokeru, autoru „Drakule“, a u Derryju se održava jedna od najvećih europskih proslava." }
   ],
   fraze: [
     { izvorno: "Dia dhuit", izgovor: "DI-a GVIT", hr: "Dobar dan, doslovno: Bog s tobom (irski)" },
@@ -68,7 +79,7 @@ window.ATLAS["irska"] = {
         "Svoje zlatno doba doživio je u 18. stoljeću, kada su podignuti široki trgovi i nizovi kuća od opeke sa šarenim vratima i polukružnim nadsvjetlima. Na Uskrs 1916. pobunjenici su zauzeli glavnu poštu i proglasili republiku, a pogubljenje njihovih vođa okrenulo je javnost na stranu neovisnosti. Dublin je i grad Jonathana Swifta, Oscara Wildea, W. B. Yeatsa, Samuela Becketta i Jamesa Joycea, koji je cijeli roman „Uliks“ smjestio u jedan ovdašnji dan, 16. lipnja 1904."
       ],
       vidjeti: [
-        { ime: "Trinity College i Knjiga iz Kellsa", opis: "Sveučilište je 1592. osnovala kraljica Elizabeta I. Ovdje se čuva evanđelistar koji su redovnici oslikali oko 800. godine, a svakog dana izložene su dvije druge stranice. U Dugoj dvorani stare knjižnice, dugoj 65 metara, potražite harfu iz 15. stoljeća po kojoj je oblikovan državni grb. Knjižnica prolazi višegodišnju obnovu, pa prije dolaska provjerite što je otvoreno." },
+        { ime: "Trinity College i Knjiga iz Kellsa", opis: "Sveučilište je 1592. osnovala kraljica Elizabeta I. Ovdje se čuva evanđelistar koji su redovnici oslikali oko 800. godine, a izložene stranice okreću se nekoliko puta godišnje. U Dugoj dvorani stare knjižnice, dugoj 65 metara, potražite harfu iz 15. stoljeća po kojoj je oblikovan državni grb. Knjižnica prolazi višegodišnju obnovu, zbog koje je većina knjiga već skinuta s polica, pa prije dolaska provjerite što je otvoreno." },
         { ime: "Zatvor Kilmainham", opis: "U zatvoru otvorenom 1796. bili su zatočeni gotovo svi vođe irskih ustanaka. U dvorištu za tucanje kamena u svibnju 1916. strijeljano je četrnaest vođa Uskrsnog ustanka, među njima i ranjeni James Connolly, kojeg su morali vezati za stolac. Posjet je moguć samo s vodičem, uz rezervaciju unaprijed." },
         { ime: "Nacionalni muzej, arheologija", opis: "Besplatan muzej čuva jednu od najvećih zbirki prapovijesnog zlata u Europi te Kalež iz Ardagha i Broš iz Tare, remek-djela iz 8. stoljeća. U zasebnoj dvorani izložena su tijela ljudi iz željeznog doba očuvana u tresetištima, na kojima se još vide nokti i frizure." },
         { ime: "Katedrala sv. Patrika", opis: "Najveća irska crkva stoji na mjestu gdje je, prema predaji, sveti Patrik krštavao obraćenike. Jonathan Swift, autor „Gulliverovih putovanja“, bio je ovdje dekan od 1713. do 1745. i pokopan je u crkvi. Potražite stara vrata s rupom, kroz koju je 1492. jedan velikaš pružio ruku suparniku u znak pomirenja." },
@@ -152,7 +163,7 @@ window.ATLAS["irska"] = {
         { ime: "Chowder i kruh sa sodom u pubu", opis: "Pubovi u Doolinu poslužuju gustu riblju juhu i varivo od janjetine s burrenskih pašnjaka prije nego što počne glazba." }
       ],
       dozivjeti: [
-        { ime: "Obalna šetnja od Doolina do litica", opis: "Staza od oko osam kilometara vodi rubom obale do posjetiteljskog centra i otkriva litice postupno, bez gužve. Lokalni farmer preko čije zemlje staza prolazi vodi šetnje uz priče o kraju.", link: "https://doolincliffwalk.com/" },
+        { ime: "Obalna šetnja od Doolina prema liticama", opis: "Staza rubom litica, koja je nekad vodila od Doolina sve do posjetiteljskog centra, od 2024. većim je dijelom zatvorena iz sigurnosnih razloga. Iz Doolina se i dalje može prošetati prvih kilometar i pol pa se istim putem vratiti, što je dovoljno za miran pogled na obalu bez gužve, a prije polaska vrijedi na službenoj stranici provjeriti koje su dionice otvorene.", link: "https://www.cliffsofmoher.ie/your-visit/beyond-the-cliffs-places-to-see/cliffs-of-moher-coastal-walk/" },
         { ime: "Vođena šetnja Burrenom", opis: "Ako želite naučiti čitati ovaj krajolik, od orhideja u pukotinama do prapovijesnih zidova, lokalni vodič Tony Kirby vodi šetnje kroz najljepše dijelove.", link: "https://www.heartofburrenwalks.com/" },
         { ime: "Vožnja brodom podno litica", opis: "Jednosatna vožnja iz Doolina pokazuje litice odozdo, s morskom stijenom Branaunmore i tisućama ptica.", link: "https://doolinferry.com/" },
         { ime: "Glazbena večer u Doolinu", opis: "U pubu Gus O'Connor's, koji radi od 1832., svirači se okupljaju svake večeri, a mjesto treba zauzeti rano.", link: "https://www.gusoconnorsdoolin.com/" }
@@ -188,17 +199,17 @@ window.ATLAS["irska"] = {
         { ime: "Viski i džin iz Dinglea", opis: "Mala destilerija na rubu grada, otvorena 2012., bila je među prvima u novom valu irskih zanatskih destilerija i prima posjetitelje." }
       ],
       dozivjeti: [
-        { ime: "Glazbene večeri u Dingleu", opis: "U Dingleu se svira gotovo u svakom pubu. U John Benny'su uz luku vlasnici su i sami glazbenici, a u pubu Dick Mack's s jedne je strane šank, a s druge stara postolarska radionica.", link: "https://johnbennyspub.com/" },
+        { ime: "Glazbene večeri u Dingleu", opis: "U Dingleu se svira gotovo u svakom pubu. U John Benny'su uz luku vlasnici su i sami glazbenici, a u pubu Dick Mack's s jedne je strane šank, a s druge mala kožarska radionica.", link: "https://johnbennyspub.com/" },
         { ime: "Folklorno kazalište Siamsa Tíre", opis: "U Traleeju nacionalno folklorno kazalište ljeti izvodi predstave u kojima se plesom, pjesmom i glazbom, bez mnogo riječi, prikazuje stari seoski život.", link: "https://siamsatire.com/" },
         { ime: "Centar Skellig Experience", opis: "Ako vam se ne penje na hrid ili nema mjesta na brodu, centar na otoku Valentia objašnjava život redovnika i nudi vožnje oko otoka bez iskrcavanja.", link: "https://skelligexperience.com/" },
-        { ime: "Puck Fair", opis: "Od 10. do 12. kolovoza u gradiću Killorglinu divljeg planinskog jarca okrune za kralja i podignu na visoko postolje nasred trga, na jednom od najstarijih irskih sajmova.", link: "https://puckfair.ie/" }
+        { ime: "Puck Fair", opis: "Od 10. do 12. kolovoza u gradiću Killorglinu divljeg planinskog jarca okrune za kralja na jednom od najstarijih irskih sajmova. Posljednjih ga godina, radi njegove dobrobiti, na visoko postolje usred mjesta podižu tek nakratko, a nakon sajma vraćaju ga u planine.", link: "https://puckfair.ie/" }
       ],
       agencije: [
         { ime: "Nacionalni park Killarney", opis: "Službena stranica parka s kartama staza i informacijama o kući Muckross.", link: "https://www.nationalparks.ie/killarney/" },
         { ime: "Dingle Peninsula Tourism Alliance", opis: "Službena turistička stranica poluotoka Dingle.", link: "https://dingle-peninsula.ie/" },
         { ime: "Deros Tours", opis: "Obiteljski prijevoznik iz Killarneyja koji svakodnevno vozi vođene izlete autobusom po Ring of Kerryju i Dingleu.", link: "https://www.derostours.com/" }
       ],
-      kada: "Od svibnja do rujna vidljivost je najbolja i vozi brod za Skellig. Izletnički autobusi voze Ring of Kerry suprotno od kazaljke na satu, pa ako vozite same, krenite istim smjerom i rano, kako se s njima ne biste mimoilazile na uskim zavojima."
+      kada: "Od svibnja do rujna vidljivost je najbolja i vozi brod za Skellig. Izletnički autobusi voze Ring of Kerry suprotno od kazaljke na satu, a vodiči se ne slažu oko toga što to znači za vozače. Krenete li istim smjerom i rano, nećete se s njima mimoilaziti na uskim zavojima, dok oni koji voze u smjeru kazaljke na satu ne zaostaju iza autobusa, ali moraju biti spremni stati u stranu i propustiti ih."
     },
     {
       id: "cork-cobh",
@@ -292,7 +303,7 @@ window.ATLAS["irska"] = {
         { ime: "Janjetina iz Connemare", opis: "Janjad koja pase na brdima uz more jede vrijesak i travu, pa meso ima poseban okus i zaštićenu oznaku podrijetla." },
         { ime: "Dagnje iz Killaryja", opis: "Dagnje uzgojene u fjordu kuhaju se na pari s češnjakom i vrhnjem u gostionicama u Leenaneu i Letterfracku." },
         { ime: "Dimljeni losos i rakovica", opis: "Male dimionice na obali Connemare dime losos po starim obiteljskim receptima, a u ribarskom selu Roundstoneu jedu se svježe rakovice." },
-        { ime: "Aranski kozji sir", opis: "Na otoku Inis Mór mala sirana proizvodi svježi kozji sir, koji se nudi u otočnim kafićima uz tamni kruh." }
+        { ime: "Aranski kozji sir", opis: "Na otoku Inis Mór mala sirana proizvodi mekani kozji sir, dijelom začinjen morskom algom dillisk, a naći ćete ga na jelovnicima otočnih kafića." }
       ],
       dozivjeti: [
         { ime: "Biciklom po otoku Inis Mór", opis: "Bicikl se unajmljuje odmah na pristaništu u Kilronanu, a do utvrde Dún Aonghasa vodi mirna obalna cesta uz koloniju tuljana. Brodovi plove cijele godine iz luke Rossaveel, a u sezoni i iz samog Galwaya.", link: "https://www.aranislandferries.com/" },

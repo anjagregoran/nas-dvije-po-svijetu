@@ -73,7 +73,7 @@ window.DODACI["irska"] = {
       kupiti: [
         { ime: "Dingle whiskey and gin", opis: "The distillery on the edge of Dingle town makes whiskey, gin and vodka. You can tour it and buy a bottle there." },
         { ime: "Pottery from the Dingle Peninsula", opis: "A well-known pottery works out near the western tip of the peninsula, making large hand-thrown pieces in deep glazes. The workshop has a shop where you can also try the wheel." },
-        { ime: "Kerry wool", opis: "A mill near Killarney has been spinning and weaving wool for three centuries. It sells blankets, scarves and knitting yarn." }
+        { ime: "Kerry wool", opis: "A mill near Killarney has been spinning and weaving wool for more than 250 years. It sells blankets, scarves and knitting yarn." }
       ]
     },
     "cork-cobh": {
@@ -102,7 +102,7 @@ window.DODACI["irska"] = {
       domaci: [
         { ime: "Hurling", opis: "Kilkenny is mad about hurling, a very fast ancient game played with sticks and a small ball. On match days the city wears black and amber, and you can watch in any pub." },
         { ime: "A pint of red ale", opis: "Kilkenny is the home of Irish red ale, first brewed at an abbey in the city. Order it in one of the old pubs on the medieval streets." },
-        { ime: "The farmers' market", opis: "A weekly farmers' market sets up on the Parade in front of the castle. Ask your hosts which day it is held." }
+        { ime: "The farmers' market", opis: "Every Thursday a farmers' market sets up on the Parade in front of the castle, with farmhouse cheese, bread, honey and vegetables from producers in the county. Buy your lunch there and eat it in the castle park." }
       ],
       kupiti: [
         { ime: "Craft from the old castle stables", opis: "The stables across from the castle were turned into design workshops in the 1960s. They still house a craft gallery and shops with work by Irish makers." },

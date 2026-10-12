@@ -13,7 +13,7 @@ window.DODACI["danska"] = {
       dragulji: [
         { ime: "Jægersborggade i Assistens Kirkegård", opis: "Ova kratka ulica u Nørrebrou puna je keramičarskih ateljea, pekarnica i malih vinskih barova. Odmah uz nju je groblje na kojem je pokopan Andersen, a mještani se njime služe kao parkom za šetnju i sunčanje." },
         { ime: "Kartoffelrækkerne", opis: "Ovi nizovi uskih kuća od žute opeke uz jezera građeni su za radnike, a danas su među najtraženijim adresama u gradu. Ulice su pune bicikala, klupa i dječjih igračaka, pa vidite kako Danci doista žive." },
-        { ime: "Refshaleøen", opis: "Nekadašnje brodogradilište na sjevernom rubu luke pretvorilo se u četvrt ulične hrane, sauna i kupanja s molova. Dođite javnim lučkim brodom, za koji vrijedi ista karta kao i za metro." }
+        { ime: "Refshaleøen", opis: "Nekadašnje brodogradilište na sjevernom rubu luke pretvorilo se u četvrt ulične hrane, sauna i kupanja s molova, a velika tržnica ulične hrane radi od proljeća do kraja rujna. Dođite javnim lučkim brodom, za koji vrijedi ista karta kao i za metro." }
       ],
       domaci: [
         { ime: "Kupanje u luci", opis: "Voda u luci toliko je čista da se ljudi cijelo ljeto kupaju na gradskim kupalištima kao što je Islands Brygge. Držite kupaći kostim u torbi kao mještani i skočite u vodu na putu kući." },
@@ -29,8 +29,8 @@ window.DODACI["danska"] = {
     "aarhus": {
       dragulji: [
         { ime: "Møllestien", opis: "Ova popločena uličica niskih šarenih kuća i ruža penjačica najljepša je u gradu. Duga je tek stotinjak metara, a od glavne pješačke zone dijeli je nekoliko minuta." },
-        { ime: "Den Uendelige Bro", opis: "Beskonačni most kružni je drveni mol koji se svakog proljeća postavlja iznad plićaka južno od grada, pa po njemu možete hodati bez kraja. Do njega vodi ugodna šetnja ili vožnja biciklom uz obalu." },
-        { ime: "Park s jelenima u Marselisborgu", opis: "U šumi južno od centra jeleni lopatari i sike slobodno lutaju i prilaze vam sasvim blizu. Smijete ih hraniti samo mrkvom i jabukama, pa ih ponesite sa sobom." }
+        { ime: "Den Uendelige Bro", opis: "Beskonačni most kružni je drveni mol koji se svakog travnja postavlja iznad plićaka južno od grada, a u listopadu ponovno uklanja, pa po njemu možete hodati bez kraja. Do njega vodi ugodna šetnja ili vožnja biciklom uz obalu." },
+        { ime: "Park s jelenima u Marselisborgu", opis: "U šumi južno od centra jeleni lopatari i sike slobodno lutaju i prilaze sasvim blizu stazama. Žive kao divlje životinje i posjetitelji ih ne smiju hraniti, pa mrkvu ostavite kod kuće i samo mirno prošećite među njima." }
       ],
       domaci: [
         { ime: "Kupanje u Den Permanenteu", opis: "Staro drveno morsko kupalište u šumi Riis Skov, sjeverno od centra, ljeti je besplatno i puno obitelji. Zimi se njime služe samo članovi kluba zimskih kupača." },
@@ -55,7 +55,7 @@ window.DODACI["danska"] = {
       ],
       kupiti: [
         { ime: "Izrezanke od papira", opis: "Andersen je, dok je pripovijedao svoje bajke, škarama iz papira izrezivao čudesne likove, pa su takve izrezanke postale suvenir grada. Muzejska trgovina prodaje lijepe reprodukcije i papirnate mobile." },
-        { ime: "Dimljeni sir rygeost", opis: "Svježi sir dimljen nad slamom i koprivama i posut kimom radi se samo na Fynu. Kupite ga na tržnici ili u mljekari i pojedite isti dan na raženom kruhu s rotkvicama." }
+        { ime: "Dimljeni sir rygeost", opis: "Svježi sir dimljen nad slamom i koprivama i posut kimom poseban je specijalitet otoka Fyna. Kupite ga na tržnici ili u mljekari i pojedite isti dan na raženom kruhu s rotkvicama." }
       ]
     },
     "helsingor": {
@@ -97,7 +97,7 @@ window.DODACI["danska"] = {
         { ime: "Otok Mandø", opis: "Do ovog otočića u Waddenskom moru traktorski autobus vozi po morskom dnu, i to samo za oseke. Na otoku ćete naći selo s malom crkvom, nasip i golemo nebo puno ptica." }
       ],
       domaci: [
-        { ime: "Obilazak noćnog čuvara", opis: "Ljetnih večeri čuvar u dugom kaputu, sa svjetiljkom i štapom sa šiljcima, hoda ulicama i pjeva stare stihove. Okupite se sa svima ostalima na glavnom trgu i pođite za njim." },
+        { ime: "Obilazak noćnog čuvara", opis: "Od svibnja do sredine listopada čuvar svake večeri u dugom kaputu, sa svjetiljkom i štapom sa šiljcima, hoda ulicama i pjeva stare stihove. Okupite se sa svima ostalima na glavnom trgu i pođite za njim." },
         { ime: "Crno sunce", opis: "U proljeće i jesen stotine tisuća čvoraka pred sumrak plešu nad močvarama i na trenutke zaklone sunce. Mještani znaju kamo ptice slijeću koje večeri, pa pitajte u svojem smještaju." },
         { ime: "Šetnja po morskom dnu", opis: "Za oseke se more povuče kilometrima, pa u gumenim čizmama hodate po dnu Waddenskog mora. Pođite s vodičem, koji zna kad se voda vraća i gdje se zimi skupljaju kamenice." }
       ],

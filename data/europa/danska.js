@@ -4,6 +4,20 @@ window.ATLAS["danska"] = {
   ime: "Denmark",
   regija: "Northern Europe",
   sazetak: "A small, flat kingdom of bicycles, fairy tales and candles in the windows, with one of the oldest monarchies in the world and a cuisine that turned a slice of rye bread into an art form.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Kronborg Castle: Hamlet Highlights", url: "https://kronborg.dk/en/events/hamlet-highlights" },
+    { ime: "Church of Our Saviour: the tower", url: "https://www.vorfrelserskirke.dk/english/" },
+    { ime: "Vikingeskibsmuseet: New Viking Ship Museum on the Way", url: "https://www.vikingeskibsmuseet.dk/en/a-new-museum" },
+    { ime: "Vikingeskibsmuseet: Café Knarr, New Nordic Viking Food", url: "https://vikingeskibsmuseet.dk/en/visit-the-museum/food-and-drinks/cafe-knarr/new-nordic-viking-food" },
+    { ime: "Visit Aarhus: The Deer Park", url: "https://www.visitaarhus.com/ln-int/dyrehaven-gdk653301" },
+    { ime: "Visit Odense: The Hans Christian Andersen Parade", url: "https://www.visitodense.com/hans-christian-andersen-parade-gdk613030" },
+    { ime: "Vadehavskysten: The Night Watchman in Ribe", url: "https://www.vadehavskysten.com/ribe-esbjerg-fano/experience-ribe/night-watchman" },
+    { ime: "Ribe VikingeCenter: International Viking Market", url: "https://www.ribevikingecenter.dk/en/program/vikingmarket" },
+    { ime: "Nationalpark Vadehavet: Pacific oysters in the Wadden Sea", url: "https://eng.nationalparkvadehavet.dk/experience-the-wadden-sea/oysters" },
+    { ime: "Saveur: How to Make Smørrebrød", url: "https://www.saveur.com/how-to-make-smorrebrod" },
+    { ime: "Værftets Madmarked", url: "https://vaerftetsmadmarked.dk/" },
+    { ime: "Association of Qualified Tourist Guides in Denmark", url: "https://guides.dk/" }
+  ] },
   uvod: [
     "Denmark is made up of the Jutland peninsula and more than four hundred islands, the largest of which are Zealand, home to Copenhagen, and Funen. The country's highest point barely tops 170 meters, and no place is more than about fifty kilometers from the sea, so the Danes have always been sailors and traders.",
     "The Danish kings can be traced in an unbroken line back to Gorm the Old, who ruled in the 10th century, and his son Harald Bluetooth recorded on the runestone at Jelling that he had united Denmark and made the Danes Christian. Vikings set out from here to conquer England, in the 14th and 15th centuries Denmark led a union with Sweden and Norway, and then it lost territory for centuries, until it became a small country that decided to be well run instead of big.",

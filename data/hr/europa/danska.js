@@ -4,6 +4,20 @@ window.ATLAS["danska"] = {
   ime: "Danska",
   regija: "Sjeverna Europa",
   sazetak: "Mala ravna kraljevina bicikala, bajki i svijeća u prozorima, s jednom od najstarijih monarhija na svijetu i kuhinjom koja je od kriške raženog kruha napravila umjetnost.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Kronborg Castle: Hamlet Highlights", url: "https://kronborg.dk/en/events/hamlet-highlights" },
+    { ime: "Church of Our Saviour: the tower", url: "https://www.vorfrelserskirke.dk/english/" },
+    { ime: "Vikingeskibsmuseet: New Viking Ship Museum on the Way", url: "https://www.vikingeskibsmuseet.dk/en/a-new-museum" },
+    { ime: "Vikingeskibsmuseet: Café Knarr, New Nordic Viking Food", url: "https://vikingeskibsmuseet.dk/en/visit-the-museum/food-and-drinks/cafe-knarr/new-nordic-viking-food" },
+    { ime: "Visit Aarhus: The Deer Park", url: "https://www.visitaarhus.com/ln-int/dyrehaven-gdk653301" },
+    { ime: "Visit Odense: The Hans Christian Andersen Parade", url: "https://www.visitodense.com/hans-christian-andersen-parade-gdk613030" },
+    { ime: "Vadehavskysten: The Night Watchman in Ribe", url: "https://www.vadehavskysten.com/ribe-esbjerg-fano/experience-ribe/night-watchman" },
+    { ime: "Ribe VikingeCenter: International Viking Market", url: "https://www.ribevikingecenter.dk/en/program/vikingmarket" },
+    { ime: "Nationalpark Vadehavet: Pacific oysters in the Wadden Sea", url: "https://eng.nationalparkvadehavet.dk/experience-the-wadden-sea/oysters" },
+    { ime: "Saveur: How to Make Smørrebrød", url: "https://www.saveur.com/how-to-make-smorrebrod" },
+    { ime: "Værftets Madmarked", url: "https://vaerftetsmadmarked.dk/" },
+    { ime: "Association of Qualified Tourist Guides in Denmark", url: "https://guides.dk/" }
+  ] },
   uvod: [
     "Danska se sastoji od poluotoka Jyllanda i više od četiristo otoka, od kojih su najveći Sjælland, na kojem je Kopenhagen, i Fyn. Najviša točka zemlje jedva prelazi 170 metara, a nijedno mjesto nije od mora udaljeno više od pedesetak kilometara, pa su Danci oduvijek bili pomorci i trgovci.",
     "Danski kraljevi mogu se u neprekinutom nizu pratiti do Gorma Starog, koji je vladao u 10. stoljeću, a njegov sin Harald Plavozubi na runskom je kamenu u Jellingu zapisao da je ujedinio Dansku i pokrstio Dance. Vikinzi su odavde osvajali Englesku, u 14. i 15. stoljeću Danska je predvodila uniju sa Švedskom i Norveškom, a onda je stoljećima gubila teritorije, sve dok nije postala mala zemlja koja je odlučila biti dobro uređena umjesto velika.",
@@ -20,8 +34,8 @@ window.ATLAS["danska"] = {
     { ime: "Smørrebrød", opis: "Kriška gustog raženog kruha premazana maslacem i bogato obložena, primjerice haringom, pečenom govedinom, račićima ili jajima.", prica: "Počeo je kao ručak koji su radnici nosili na posao, a krajem 19. stoljeća kopenhaški restorani pretvorili su ga u raskošno jelo s jelovnicima dugima više od metra. Jede se nožem i vilicom i određenim redom: prvo haringa, zatim ostala riba, pa meso i na kraju sir." },
     { ime: "Stegt flæsk med persillesovs", opis: "Hrskavo pržene kriške svinjske potrbušine s kuhanim krumpirom i bijelim umakom od peršina.", prica: "Danci su ga 2014. glasovanjem izabrali za nacionalno jelo. U mnogim se gostionicama poslužuje po načelu jedi koliko možeš, a osobito se veže uz dane izbora." },
     { ime: "Frikadeller", opis: "Plosnate okruglice od mljevene svinjetine i teletine, pržene na maslacu.", prica: "Jedu se tople s krumpirom i crvenim kupusom ili hladne na raženom kruhu. Svaka obitelj ima svoj recept, a razlika je uglavnom u tome koliko se luka i mlijeka stavlja u smjesu." },
-    { ime: "Wienerbrød", opis: "Lisnato dizano pecivo s kremom, marcipanom ili džemom, koje ostatak svijeta zove danskim.", prica: "Danci ga zovu bečkim kruhom jer su ga donijeli austrijski pekari, koji su 1850. došli raditi u Kopenhagen za vrijeme štrajka domaćih pekara. Najpoznatiji je spandauer, okrugao, sa žutom kremom u sredini." },
-    { ime: "Rød pølse", opis: "Jarko crvena kuhana hrenovka, koja se jede u pecivu s prženim lukom, kiselim krastavcima, senfom i remuladom.", prica: "Prodaje se na pokretnim kioscima pølsevogn, koji su na danskim ulicama od 1921. Crvena boja potječe iz vremena kada su se starije kobasice bojile da ih se razlikuje od svježih, a kupcima se toliko svidjela da je ostala." },
+    { ime: "Wienerbrød", opis: "Lisnato dizano pecivo s kremom, marcipanom ili džemom, koje ostatak svijeta zove danskim.", prica: "Danci ga zovu bečkim kruhom jer su ga, kako se priča, donijeli austrijski pekari, koji su 1850. došli raditi u Kopenhagen za vrijeme štrajka domaćih pekara. Najpoznatiji je spandauer, okrugao, sa žutom kremom u sredini." },
+    { ime: "Rød pølse", opis: "Jarko crvena kuhana hrenovka, koja se jede u pecivu s prženim lukom, kiselim krastavcima, senfom i remuladom.", prica: "Prodaje se na pokretnim kioscima pølsevogn, koji su na kopenhaškim ulicama od 1921. Prema raširenoj priči crvena boja potječe iz vremena kada su se starije kobasice bojile da ih se razlikuje od svježih, a kupcima se toliko svidjela da je ostala." },
     { ime: "Flæskesteg", opis: "Svinjsko pečenje s hrskavom, narezanom kožicom, uz karamelizirane krumpiriće i crveni kupus.", prica: "Glavno je jelo danske božićne večere. Tijekom godine jede se i kao sendvič u pecivu, s crvenim kupusom i krastavcima." },
     { ime: "Sild", opis: "Marinirana haringa u octu, u umaku od karija ili u crvenom začinjenom umaku, na raženom kruhu.", prica: "Njome počinje svaki svečani ručak, a uz nju se pije čašica hladne rakije s kimom i pivo. Na Bornholmu se haringa dimi nad drvom johe, pa je zlatne boje." },
     { ime: "Rødgrød med fløde", opis: "Gusti kompot od crvenog bobičastog voća, ribiza, malina i jagoda, preliven vrhnjem.", prica: "Danci ime ovog deserta rado daju strancima da ga izgovore, jer sadrži sve glasove koje je u danskom najteže pogoditi. Zvuči približno kao „rel-grel me fle-e“." },
@@ -31,11 +45,11 @@ window.ATLAS["danska"] = {
   obicaji: [
     { ime: "Hygge", opis: "Riječ koja označava ugodu u malim stvarima: svijeće, deku, toplu šalicu i društvo dragih ljudi, bez žurbe i bez teških tema. Danci troše više svijeća po stanovniku od gotovo svih u Europi, a hygge im pomaže preživjeti duge mračne zime.", gdje: "U bilo kojoj kavani sa svijećama na stolovima, a najviše ga ima u prosincu, primjerice u kopenhaškom Tivoliju ili u muzeju Den Gamle By u Aarhusu." },
     { ime: "Vožnja biciklom", opis: "U Kopenhagenu ima više bicikala nego stanovnika, a na posao i u školu većina ide na dva kotača, po svakom vremenu. Djecu i kupovinu voze u teretnim biciklima s kutijom sprijeda.", gdje: "Bicikl se može unajmiti u gotovo svakom hotelu u Kopenhagenu, a najljepša je vožnja preko mostova za bicikliste u luci, poput Cykelslangena, Biciklističke zmije." },
-    { ime: "Sankt Hans", opis: "Uoči Ivanja, 23. lipnja navečer, na plažama i uz jezera pale se veliki krijesovi, drže se govori i pjeva pjesma „Volimo našu zemlju“. Na vrh krijesa stavlja se lutka vještice, koju se prema šali šalje na njemačku planinu Brocken.", gdje: "U Kopenhagenu uz jezera i u parku Frederiksberg Have, a posebno lijepo na plaži u Skagenu, gdje je krijes na plaži početkom 20. stoljeća naslikao P. S. Krøyer." },
+    { ime: "Sankt Hans", opis: "Uoči Ivanja, 23. lipnja navečer, na plažama i uz jezera pale se veliki krijesovi, drže se govori i pjeva pjesma „Volimo našu zemlju“. Na vrh krijesa stavlja se lutka vještice, koju se prema šali šalje na njemačku planinu Brocken.", gdje: "U Kopenhagenu na obali luke na trgu Ofelia Plads, na jezeru u Tivoliju i u parku Frederiksberg Have, a posebno lijepo na plaži u Skagenu, gdje je krijes na plaži početkom 20. stoljeća naslikao P. S. Krøyer." },
     { ime: "Dannebrog", opis: "Danska zastava najstarija je državna zastava na svijetu koja se neprekidno koristi. Legenda kaže da je pala s neba 15. lipnja 1219. za vrijeme bitke u današnjoj Estoniji. Danci je vješaju za rođendane, na božićno drvce i na stol s tortom.", gdje: "Vidjet ćete je svuda. Pogledajte papirnate zastavice u izlozima slastičarnica i zastavu nad palačom Amalienborg, koja pokazuje je li kralj kod kuće." },
     { ime: "Julefrokost", opis: "Božićni ručak s kolegama, prijateljima ili obitelji, koji traje satima, s haringom, toplim jelima, rižom s bademima i mnogo zdravica. U desertu risalamande skriven je jedan cijeli badem, a tko ga nađe, dobiva dar.", gdje: "U studenome i prosincu mnogi tradicionalni restorani u Kopenhagenu i Aarhusu nude božićni jelovnik, koji treba rezervirati." },
     { ime: "Fastelavn", opis: "Danske poklade, kada se djeca maskiraju i palicama udaraju po obješenoj drvenoj bačvi punoj slatkiša, dok se ne raspadne. Nekoć je u bačvi bila živa crna mačka, koju se tako tjeralo kao simbol zla.", gdje: "U veljači ili početkom ožujka, na nedjelju prije Pepelnice, u pekarnicama diljem zemlje prodaju se pokladna peciva fastelavnsboller s kremom." },
-    { ime: "Danski dizajn", opis: "Jednostavan, funkcionalan namještaj i predmeti od drva, koji su sredinom 20. stoljeća proslavili Arnea Jacobsena, Hansa Wegnera i Poula Henningsena. Ideja je da i obična stolica ili svjetiljka trebaju biti lijepe i trajati cijeli život.", gdje: "U Muzeju dizajna u Kopenhagenu, gdje je cijela dvorana posvećena danskoj stolici." },
+    { ime: "Danski dizajn", opis: "Jednostavan, funkcionalan namještaj i predmeti od drva, koji su sredinom 20. stoljeća proslavili Arnea Jacobsena, Hansa Wegnera i Poula Henningsena. Ideja je da i obična stolica ili svjetiljka trebaju biti lijepe i trajati cijeli život.", gdje: "U Muzeju dizajna u Kopenhagenu, gdje u stalnom postavu Danish Modern prolazite kroz tunel s više od stotinu stolica." },
     { ime: "Janteloven", opis: "Nepisano pravilo skromnosti, koje je 1933. u romanu opisao pisac Aksel Sandemose: nemoj misliti da si bolji od drugih. Objašnjava zašto se u Danskoj bogatstvo ne pokazuje i zašto se s ministrom razgovara na ti.", gdje: "Primijetit ćete ga u svakodnevici: u jednostavnoj odjeći, u tome što se svi oslovljavaju imenom i u tome što kraljevska obitelj kupuje po gradu." }
   ],
   fraze: [
@@ -113,7 +127,7 @@ window.ATLAS["danska"] = {
         { ime: "Dokk1 i luka", opis: "Najveća javna knjižnica u Skandinaviji otvorena je 2015. na samoj obali. U glavnom prostoru visi cjevasto zvono teško tri tone, najveće takvo na svijetu, koje zazvoni svaki put kada roditelji u gradskoj bolnici pritisnu gumb da je rođeno dijete." }
       ],
       jesti: [
-        { ime: "Aarhus Street Food", opis: "U bivšoj autobusnoj garaži kraj kolodvora tridesetak je kuhinja u brodskim kontejnerima, od danskog svinjskog pečenja u pecivu do jela iz cijelog svijeta." },
+        { ime: "Aarhus Street Food", opis: "U bivšoj autobusnoj garaži kraj autobusnog kolodvora, nekoliko minuta hoda od željezničkog, tridesetak je kuhinja u brodskim kontejnerima, od danskog svinjskog pečenja u pecivu do jela iz cijelog svijeta." },
         { ime: "Smørrebrød i jela iz Jyllanda", opis: "Tradicionalni podrumski restorani u središtu poslužuju haringu, jegulju i tartelete s piletinom i šparogama, jelo koje se u Danskoj veže uz bakine nedjeljne ručkove." },
         { ime: "Nova nordijska kuhinja", opis: "Aarhus je bio prvi danski grad izvan Kopenhagena s Michelinovim zvjezdicama, a mnogi restorani nude povoljnije ručkove od lokalnih, sezonskih namirnica." }
       ],
@@ -148,12 +162,12 @@ window.ATLAS["danska"] = {
       ],
       jesti: [
         { ime: "Brunsviger", opis: "Mekani kolač od dizanog tijesta s debelim slojem otopljenog maslaca i smeđeg šećera, ponos Fyna. Za dječje rođendane peče se u obliku dječaka ili djevojčice i ukrašava bombonima." },
-        { ime: "Rygeost", opis: "Svježi sir s Fyna, kratko dimljen nad slamom i koprivom i posut kimom, s europskom oznakom podrijetla. Jede se na raženom kruhu s rotkvicama i vlascem." },
+        { ime: "Rygeost", opis: "Svježi sir s Fyna, kratko dimljen nad slamom i koprivom i posut kimom, koji Fyn smatra svojim posebnim specijalitetom. Jede se na raženom kruhu s rotkvicama i vlascem." },
         { ime: "Æbleflæsk i fynska kaša od heljde", opis: "Stara seoska jela otoka: pržena slanina s jabukama i lukom te kaša od heljde, koja se na Fynu jela svaki dan." }
       ],
       dozivjeti: [
         { ime: "Muzej bajki", opis: "Kartu za muzej kupite unaprijed za određeni termin. Na stranicama muzeja provjerite što je sve uključeno u ulaznicu, jer muzej upravlja i rodnom kućom i kućom iz djetinjstva.", link: "https://hcandersenshus.dk/en/" },
-        { ime: "Andersenova parada", opis: "Ljeti se u vrtu iza muzeja gotovo svakodnevno izvodi kratka predstava na otvorenom s likovima iz dvadesetak bajki. Besplatna je i razumljiva i bez znanja danskog." },
+        { ime: "Andersenova parada", opis: "Od kraja lipnja do kolovoza svakog se dana osim nedjelje u Eventyrhavenu, Vrtu bajki uz rijeku iza katedrale, izvodi kratka predstava na otvorenom s likovima iz dvadesetak bajki. Besplatna je i razumljiva i bez znanja danskog." },
         { ime: "Fynsko selo", opis: "Ljeti riječni brodić iz parka Munke Mose u središtu grada vozi do izletišta Fruens Bøge, odakle se do muzeja stiže kratkom šetnjom kroz šumu, što je najugodniji dolazak.", link: "https://denfynskelandsby.dk/en/" },
         { ime: "Izlet u Egeskov", opis: "Uz dvorac su vrtovi s labirintom starim dvjesto godina, staza među krošnjama i muzej starih automobila.", link: "https://egeskov.dk/en" }
       ],
@@ -187,14 +201,14 @@ window.ATLAS["danska"] = {
         { ime: "Stjerneskud", opis: "Zvijezda padalica raskošan je smørrebrød s prženim i kuhanim fileom lista, račićima, šparogama i kavijarom, kakav nude riblji restorani u luci." }
       ],
       dozivjeti: [
-        { ime: "Hamlet uživo u dvorcu", opis: "Ljeti glumci u kostimima igraju prizore iz „Hamleta“ po dvoranama i dvorištu dok posjetitelji prolaze, a u kolovozu se u dvorištu održava Shakespeareov festival s gostujućim kazalištima.", link: "https://kronborg.dk/en" },
+        { ime: "Hamlet uživo u dvorcu", opis: "Od kraja lipnja do kraja kolovoza glumci u kostimima igraju prizore iz „Hamleta“ po dvoranama i dvorištu dok posjetitelji prolaze, u programu koji dvorac zove Hamlet Highlights i koji je uključen u ulaznicu. Shakespeareov festival koji se u kolovozu održavao u dvorištu otkazan je 2025., pa prije planiranja provjerite održava li se.", link: "https://kronborg.dk/en" },
         { ime: "Trajektom u Švedsku na kavu", opis: "Trajekti za Helsingborg voze svakih dvadesetak minuta i plove dvadeset minuta, pa se u jednom popodnevu može popiti kava u drugoj državi i s mora snimiti dvorac." },
         { ime: "Poslijepodne u Louisiani", opis: "Vlak iz Helsingøra do Humlebæka vozi desetak minuta, a do muzeja je još petnaest minuta hoda. Muzej je otvoren do kasno navečer veći dio tjedna, pa je lijepo ostati do zalaska sunca u parku.", link: "https://louisiana.dk/en/" },
         { ime: "Pomorski muzej u doku", opis: "I tko ne mari za brodove, uživat će u samoj zgradi i u priči o tome kako je danska trgovačka mornarica povezala svijet.", link: "https://mfs.dk/en" }
       ],
       agencije: [
         { ime: "Visit North Zealand", opis: "Službena turistička zajednica sjevernog Sjællanda, s Helsingørom, dvorcem Frederiksborg i obalom.", link: "https://www.visitnorthzealand.com/" },
-        { ime: "Kronborg Slot", opis: "Dvorac svakodnevno nudi vodstva kroz kraljevske odaje i kazamate, uključena u ulaznicu.", link: "https://kronborg.dk/en" }
+        { ime: "Kronborg Slot", opis: "Dvorac svakodnevno nudi kratka uvodna vodstva koja su uključena u ulaznicu te dulja tematska vodstva za koja se treba unaprijed prijaviti.", link: "https://kronborg.dk/en" }
       ],
       kada: "Od svibnja do rujna, a za žive prizore iz „Hamleta“ u srpnju i kolovozu. Vlak iz Kopenhagena vozi oko četrdeset pet minuta, pa se Helsingør i Louisiana lako spajaju u jedan dan."
     },
@@ -250,15 +264,15 @@ window.ATLAS["danska"] = {
         { ime: "HEX! Muzej progona vještica", opis: "Muzej otvoren 2020. smješten je u kući iz 16. stoljeća i priča o progonima vještica u Danskoj i Europi. Ribe ima najbolje dokumentirana suđenja u zemlji, a najpoznatija je žrtva krojačeva žena Maren Spliid, spaljena 1641." }
       ],
       jesti: [
-        { ime: "Kamenice iz Vadenskog mora", opis: "Na plićinama pred obalom rastu divlje pacifičke kamenice, koje se zimi smiju slobodno brati. Poslužuju ih restorani u gradu, sirove ili zapečene." },
+        { ime: "Kamenice iz Vadenskog mora", opis: "Na plićinama pred obalom rastu divlje pacifičke kamenice, koje se od listopada do početka travnja smiju slobodno brati za vlastiti stol. Poslužuju ih restorani u gradu, sirove ili zapečene." },
         { ime: "Janjetina sa slanih livada", opis: "Ovce pasu na travnjacima koje povremeno plavi more, pa je meso blago slano i vrlo cijenjeno." },
         { ime: "Bakskuld", opis: "Soljeni, sušeni i dimljeni list, specijalitet obližnjeg Esbjerga i otoka Fanøa, prži se na maslacu i jede s raženim kruhom." }
       ],
       dozivjeti: [
-        { ime: "Obilazak s noćobdijom", opis: "U toplom dijelu godine noćobdija u dugom kaputu, sa svjetiljkom i kopljem sa šiljcima, navečer kreće s glavnog trga, pjeva stare noćobdijske pjesme i priča o požarima, vješticama i poplavama. Šetnja je besplatna, a točne datume i sate objavljuje turistički ured.", link: "https://www.vadehavskysten.com/" },
+        { ime: "Obilazak s noćobdijom", opis: "Od svibnja do sredine listopada noćobdija u dugom kaputu, sa svjetiljkom i kopljem sa šiljcima, u osam navečer kreće s glavnog trga, ispred stare gostionice Weis Stue, pjeva stare noćobdijske pjesme i priča o požarima, vješticama i poplavama. Šetnja je besplatna, a točne datume i sate objavljuje turistički ured.", link: "https://www.vadehavskysten.com/" },
         { ime: "Crno sunce", opis: "U proljeće i jesen, obično u ožujku i travnju te u rujnu i listopadu, stotine tisuća čvoraka pred zalazak sunca lete u golemim jatima koja zamrače nebo. Vođene izlete u močvare organizira Centar Vadenskog mora.", link: "https://www.vadehavscentret.dk/en/" },
-        { ime: "Traktorskim autobusom na otok Mandø", opis: "Za oseke se po morskom dnu velikim traktorom s prikolicom vozi na otočić s četrdesetak stanovnika. Usput se vide tuljani i ptice, a Vadensko more je na UNESCO-ovu popisu." },
-        { ime: "Dan među Vikinzima", opis: "U Vikinškom centru možete gađati lukom, kovati i gledati sokolare. Najživlje je za međunarodnog vikinškog sajma početkom svibnja.", link: "https://www.ribevikingecenter.dk/en/" }
+        { ime: "Traktorskim autobusom na otok Mandø", opis: "Za oseke se po morskom dnu velikim traktorom s prikolicom vozi na otočić s tridesetak stanovnika. Usput se vide tuljani i ptice, a Vadensko more je na UNESCO-ovu popisu." },
+        { ime: "Dan među Vikinzima", opis: "U Vikinškom centru možete gađati lukom, kovati i gledati sokolare. Najživlje je za međunarodnog vikinškog sajma, koji traje tjedan dana na prijelazu iz travnja u svibanj.", link: "https://www.ribevikingecenter.dk/en/" }
       ],
       agencije: [
         { ime: "Vadehavskysten", opis: "Turističke stranice za Ribe, Esbjerg, Fanø i Mandø.", link: "https://www.vadehavskysten.com/" },

@@ -6,6 +6,7 @@ window.PUTOVANJA = {
   svijet: {
     ukupno: 195,
     zemlje: [
+      { ime: "Morocco", iso: "504", dio: "Africa", vodic: "maroko" },
       { ime: "Tanzania", iso: "834", dio: "Africa", vodic: "tanzanija" },
       { ime: "Austria", iso: "040", dio: "Europe", vodic: "austrija" },
       { ime: "Bosnia and Herzegovina", iso: "070", dio: "Europe", vodic: "bih" },
@@ -33,6 +34,27 @@ window.PUTOVANJA = {
     { id: "solo", ime: "Solo trips", opis: "When Anja travels on her own." }
   ],
   putovanja: [
+    {
+      skupina: "solo", naslov: "Imsouane", gdje: "Morocco", status: "bili",
+      biljeska: "A girls’ surf trip.",
+      vodic: "zemlja.html?z=maroko",
+      mjesta: [{ ime: "Imsouane", c: [30.8414, -9.8222] }]
+    },
+    {
+      skupina: "mama", naslov: "Portugal", gdje: "Portugal", status: "bili",
+      vodic: "zemlja.html?z=portugal",
+      mjesta: [{ ime: "Portugal", c: [39.5, -8.0] }]
+    },
+    {
+      skupina: "mama", naslov: "Maldives", gdje: "Maldives", status: "bili",
+      vodic: "zemlja.html?z=maldivi",
+      mjesta: [{ ime: "Maldives", c: [4.1755, 73.5093] }]
+    },
+    {
+      skupina: "mama", naslov: "Malta", gdje: "Malta", status: "bili",
+      vodic: "zemlja.html?z=malta",
+      mjesta: [{ ime: "Malta", c: [35.9, 14.45] }]
+    },
     {
       skupina: "drake", naslov: "Dublin", gdje: "Ireland", status: "bili",
       vodic: "zemlja.html?z=irska#/mjesto/dublin",

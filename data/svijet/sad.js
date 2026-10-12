@@ -4,6 +4,18 @@ window.ATLAS["sad"] = {
   ime: "USA",
   regija: "North America",
   sazetak: "A country where skyscrapers, jazz clubs, desert canyons and geysers all fit into a single trip, and where every state has its own flavor and its own music.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "National Park Service: Grand Canyon North Rim 2026 reopening", url: "https://home.nps.gov/grca/learn/news/north-rim-reopening-2026.htm" },
+    { ime: "National Park Service: Delicate Arch", url: "https://www.nps.gov/arch/planyourvisit/delicate-arch.htm" },
+    { ime: "Yosemite Conservancy: Know Before You Go, Yosemite in 2026", url: "https://www.yosemite.org/know-before-you-go-yosemite-in-2026/" },
+    { ime: "Los Angeles Magazine: Cole's French Dip closes its doors", url: "https://lamag.com/food/after-a-century-of-service-coles-french-dip-closes-their-doors/" },
+    { ime: "Tadich Grill", url: "https://www.tadichgrillsf.com/" },
+    { ime: "San Francisco City Guides", url: "https://www.sfcityguides.org/" },
+    { ime: "Chicago Greeter (Choose Chicago)", url: "https://chicagogreeter.com/" },
+    { ime: "Library of Congress: Visit", url: "https://www.loc.gov/visit/" },
+    { ime: "Detroit Historical Society: Coney Dog", url: "https://detroithistorical.org/learn/encyclopedia-of-detroit/coney-dog" },
+    { ime: "Croatia Week: Dalmatian-American Club of San Pedro at 100", url: "https://www.croatiaweek.com/dalmatian-american-club-san-pedro-100-years/" }
+  ] },
   uvod: [
     "The United States is almost as large as the whole of Europe, so traveling around it feels more like touring fifty small countries than one. On the East Coast you will find the cities where independence was declared in 1776, the South gave birth to music that the whole world listens to today, and the West holds landscapes so vast that it is hard to take them in at a glance. Before Europeans arrived, many Indigenous peoples lived here for thousands of years, and their names can still be read on the map, from Massachusetts to Yosemite.",
     "The country was built by immigrants from every corner of the world, and with them came cuisines, faiths and dances that blended here into something new. The meeting of African rhythms and European instruments produced blues, jazz and gospel, Irish and Scottish fiddles gave rise to country, and theater and operetta led to the Broadway musical. Among those immigrants were many Croatians: Dalmatian fishermen in California and Louisiana, miners and steelworkers in Pittsburgh, Chicago and Michigan, and Nikola Tesla, who arrived in New York in 1884.",
@@ -15,7 +27,7 @@ window.ATLAS["sad"] = {
     { k: "Getting around", v: "Flying is the fastest way to travel between distant regions, and you will need a rental car for the national parks and the West. New York, Washington, Boston, Chicago and San Francisco are easy to explore by public transit and on foot, and Amtrak trains run along the East Coast." },
     { k: "Tipping", v: "In sit-down restaurants it is customary to leave 18 to 20 percent, because servers earn a large share of their income from tips. Leave the bartender a dollar or two per drink, and a taxi driver around 15 percent." },
     { k: "Entry", v: "Croatian citizens have traveled visa-free under the Visa Waiver Program since 2021, but before the trip they need to obtain an ESTA authorization on the official website. Check the conditions and the fee before you buy your tickets, because they change from time to time." },
-    { k: "National parks", v: "Admission is charged per vehicle, and if you plan to visit several parks the America the Beautiful annual pass pays for itself. Prices for visitors from abroad and the rules on entry reservations change from year to year, so always check them at nps.gov." }
+    { k: "National parks", v: "Admission is charged per vehicle, and if you plan to visit several parks the America the Beautiful annual pass pays for itself. Since 2026 visitors from abroad pay a surcharge at the busiest parks and a higher price for the annual pass, and the rules on entry reservations change from year to year, so always check them at nps.gov." }
   ],
   hrana: [
     { ime: "Hamburger", opis: "A ground beef patty in a soft bun, with onion, pickles and cheese.", prica: "It owes its name to German immigrants from Hamburg, and several American towns still argue over where the meat was first put into a bun. You will taste it at its best in small diners where the patty is cooked in front of you on a hot griddle, with fries and a milkshake on the side." },
@@ -243,7 +255,7 @@ window.ATLAS["sad"] = {
         "Flagler then boldly extended the railroad out over the sea, from island to island, all the way to Key West. A hurricane destroyed it in 1935, and the Overseas Highway was built on its bridges."
       ],
       vidjeti: [
-        { ime: "The Art Deco District in South Beach", opis: "Hundreds of hotels from the 1930s have rounded corners, porthole windows and concrete “eyebrows” above the windows that cast shade. A group of citizens saved them from demolition in the 1970s, and the pastel colors were only added then." },
+        { ime: "The Art Deco District in South Beach", opis: "Hundreds of hotels from the 1930s have rounded corners, porthole windows and concrete “eyebrows” above the windows that cast shade. A group of citizens saved them from demolition in the 1970s, and the pastel colors only came after that." },
         { ime: "Little Havana", opis: "On Calle Ocho, retirees play dominoes in a park set aside just for that, and cigars are rolled by hand in the workshops. You order coffee at a little window facing the street and drink it standing up." },
         { ime: "Wynwood Walls", opis: "Since 2009 these former warehouses have served as giant canvases for street artists from around the world. The murals change regularly, so the neighborhood looks different every year." },
         { ime: "Everglades National Park", opis: "What looks like a swamp is actually a shallow river tens of kilometers wide, flowing slowly toward the sea. It is the only place in the world where alligators and crocodiles live side by side." },
@@ -253,7 +265,7 @@ window.ATLAS["sad"] = {
       jesti: [
         { ime: "Cuban sandwich", opis: "Roast pork, ham, cheese, pickles and mustard on Cuban bread, pressed on a hot griddle until it turns crisp." },
         { ime: "Cafecito", opis: "A small, strong and very sweet espresso with a sugar foam, which in Little Havana is shared with friends from tiny cups." },
-        { ime: "Stone crab", opis: "Stone crab claws are served cold with a mustard sauce. Only one claw is taken from each crab, and it grows back, and the season runs from mid-October to early May." },
+        { ime: "Stone crab", opis: "Stone crab claws are served cold with a mustard sauce. Only the claws are harvested and the crab goes back into the water, where it can grow them again, and the season runs from mid-October to early May." },
         { ime: "Key lime pie", opis: "A pie made from the juice of the small, very aromatic limes of the Keys, condensed milk and egg yolks. The real thing is pale yellow, never green." }
       ],
       dozivjeti: [
@@ -284,7 +296,7 @@ window.ATLAS["sad"] = {
         { ime: "Cable cars", opis: "The cars have no engine and instead grip a steel cable that runs continuously beneath the street. Andrew Hallidie devised the system in 1873, and in the free museum you can see the huge wheels that drive the cables." },
         { ime: "Chinatown", opis: "The oldest Chinatown in North America begins behind the Dragon Gate on Grant Avenue. After the 1906 earthquake, merchants deliberately rebuilt it with pagoda roofs so that it would attract visitors and survive." },
         { ime: "Painted Ladies", opis: "The row of Victorian wooden houses beside Alamo Square survived the 1906 fire, and they only got their bright colors in the 1960s. The skyline of the Financial District rises behind them." },
-        { ime: "Murals in the Mission District", opis: "On Balmy Alley almost every fence and garage is painted, a tradition that began in the 1970s under the influence of the Mexican muralists. In the same neighborhood stands Mission Dolores, built in 1776, the oldest building in the city." }
+        { ime: "Murals in the Mission District", opis: "On Balmy Alley almost every fence and garage is painted, a tradition that began in the 1970s under the influence of the Mexican muralists. In the same neighborhood stands Mission Dolores, founded in 1776, whose adobe chapel of 1791 is the oldest building in the city." }
       ],
       jesti: [
         { ime: "Cioppino at Tadich Grill", opis: "This thick stew of crab, shellfish and fish in a tomato sauce was created by Italian fishermen in San Francisco. Try it at Tadich Grill, a restaurant with Croatian roots dating from 1849, which is regarded as the oldest in California." },
@@ -324,7 +336,7 @@ window.ATLAS["sad"] = {
       ],
       jesti: [
         { ime: "Street tacos", opis: "Small corn tortillas with meat from the spit or the grill, onion and cilantro are sold from trucks and stands all over the city, and they are best at night." },
-        { ime: "French dip", opis: "This sandwich of roast beef on a roll dipped in the roasting juices was created in Los Angeles in the early 20th century, and two old restaurants still argue over which of them served it first." },
+        { ime: "French dip", opis: "This sandwich of roast beef on a roll dipped in the roasting juices was created in Los Angeles in the early 20th century, and two old downtown restaurants argued for decades over which of them served it first. Cole's closed in March 2026, so today you eat it at Philippe the Original, which opened in 1908." },
         { ime: "Korean barbecue", opis: "In Koreatown the meat is grilled on a barbecue built into the table, alongside a dozen or so small side dishes that keep being refilled." }
       ],
       dozivjeti: [
@@ -357,7 +369,7 @@ window.ATLAS["sad"] = {
         { ime: "Red Rock Canyon", opis: "Half an hour from the Strip rise cliffs of red sandstone that were once desert dunes. The scenic loop road of about twenty kilometers has overlooks and short trails." }
       ],
       jesti: [
-        { ime: "The buffet", opis: "The huge hotel buffets are a Las Vegas invention from the 1940s, designed to keep guests inside the casino. There are fewer of them today, but they are more lavish." },
+        { ime: "The buffet", opis: "The huge hotel buffets are a Las Vegas invention from the 1940s, designed to keep guests inside the casino. Only a handful are left on the Strip today, but they are more lavish." },
         { ime: "Shrimp cocktail", opis: "Shrimp with a tangy, spicy tomato sauce in a tall glass were sold for pocket change for decades in the casinos of old downtown, and they became a local classic." },
         { ime: "A steak at a steakhouse", opis: "Restaurants with dark wood, leather booths and thick steaks are a legacy of the era of Frank Sinatra and his crowd." }
       ],
@@ -403,7 +415,7 @@ window.ATLAS["sad"] = {
         { ime: "National Park Service: Grand Canyon", opis: "Official information on admission, shuttle buses, trails and road conditions.", link: "https://www.nps.gov/grca/index.htm" },
         { ime: "Grand Canyon Conservancy", opis: "The park's official nonprofit partner, offering guided trips and classes.", link: "https://www.grandcanyon.org/" }
       ],
-      kada: "April, May, September and October are the most pleasant months on the South Rim, which is open all year. The North Rim was badly damaged in a large wildfire in 2025, so check what is open there before you travel."
+      kada: "April, May, September and October are the most pleasant months on the South Rim, which is open all year. The North Rim was badly damaged in a large wildfire in 2025 and reopened in May 2026 for day visits, without its historic lodge, so check what is open there before you travel."
     },
     {
       id: "yellowstone",
@@ -469,7 +481,7 @@ window.ATLAS["sad"] = {
         { ime: "National Park Service: Yosemite", opis: "Official information on entry reservations, roads and lodging.", link: "https://www.nps.gov/yose/index.htm" },
         { ime: "Yosemite Conservancy", opis: "The park's official nonprofit partner, offering guided programs.", link: "https://yosemite.org/" }
       ],
-      kada: "May and June for the waterfalls, September and October for the peace and quiet. In season a reservation is sometimes required to enter by car, and the rules change every year, so check them on the park's website."
+      kada: "May and June for the waterfalls, September and October for the peace and quiet. In some years a reservation is required to enter by car in season, and although none was needed in 2026, the rules change every year, so check them on the park's website."
     },
     {
       id: "utah-parkovi",
@@ -484,7 +496,7 @@ window.ATLAS["sad"] = {
         { ime: "Zion", opis: "The Virgin River cut a canyon with walls up to 600 meters high, and for most of the year only free shuttle buses run through the main section. In the Narrows you hike in the riverbed itself, with water up to your knees." },
         { ime: "Angels Landing", opis: "The trail ends on a narrow ridge with chains to hold on to and a sheer drop on both sides. That final section requires a permit awarded by lottery, and the view from the resting point below it is worth the climb in its own right." },
         { ime: "Bryce Canyon", opis: "Despite its name, it is really a series of natural amphitheaters filled with thousands of spires called hoodoos. A Paiute legend says they are people whom Coyote turned to stone as a punishment." },
-        { ime: "Arches", opis: "The park has more than two thousand natural stone arches, the highest concentration in the world. Delicate Arch, which stands alone on the rim of a stone bowl, also appears on Utah license plates, and reaching it takes about an hour and a half of uphill walking." },
+        { ime: "Arches", opis: "The park has more than two thousand natural stone arches, the highest concentration in the world. Delicate Arch, which stands alone on the rim of a stone bowl, also appears on Utah license plates, and reaching it takes about an hour of uphill walking over bare rock." },
         { ime: "Capitol Reef and Scenic Byway 12", opis: "The road between Bryce and Capitol Reef runs along a narrow spine of rock with drop-offs on both sides. In Capitol Reef the orchards planted by Mormon pioneers still grow, and visitors are allowed to pick the fruit in season." },
         { ime: "Monument Valley", opis: "The solitary buttes on the border of Utah and Arizona are familiar from John Ford's westerns. The valley is a Navajo tribal park, and its more remote parts are visited with local guides." }
       ],
@@ -502,7 +514,7 @@ window.ATLAS["sad"] = {
       agencije: [
         { ime: "Visit Utah", opis: "The state's official tourism organization, with suggested road trips through all five parks.", link: "https://www.visitutah.com/" },
         { ime: "National Park Service: Zion", opis: "Official information on shuttle buses, permits and trail conditions.", link: "https://www.nps.gov/zion/index.htm" },
-        { ime: "National Park Service: Arches", opis: "Official information on timed entry reservations and trails.", link: "https://www.nps.gov/arch/index.htm" }
+        { ime: "National Park Service: Arches", opis: "Official information on entry rules, trails and road conditions.", link: "https://www.nps.gov/arch/index.htm" }
       ],
       kada: "April, May, September and October. In summer Zion and Arches are very hot, while Bryce, thanks to its elevation, stays cool even in July and lies under snow in winter."
     },
@@ -516,7 +528,7 @@ window.ATLAS["sad"] = {
         "The kingdom was overthrown in 1893 with the backing of American plantation owners, and the last queen, Liliʻuokalani, was imprisoned in her own palace. The USA annexed the islands in 1898, and in 1959 they became the fiftieth state. The Hawaiian language and customs, which were suppressed for decades, are flourishing again today."
       ],
       vidjeti: [
-        { ime: "Pearl Harbor", opis: "The white memorial stands above the sunken battleship Arizona, the resting place of more than a thousand sailors killed in the Japanese attack of December 7, 1941. Drops of oil still rise from the hull today, and people call them black tears." },
+        { ime: "Pearl Harbor", opis: "The white memorial stands above the sunken battleship Arizona, the resting place of more than nine hundred of the 1,177 crew members killed in the Japanese attack of December 7, 1941. Drops of oil still rise from the hull today, and people call them black tears." },
         { ime: "ʻIolani Palace", opis: "The only royal palace on US soil was completed in 1882 and had electric lighting before the White House did. In an upstairs room you can see the quilt that Queen Liliʻuokalani sewed during her imprisonment." },
         { ime: "Waikiki and Diamond Head", opis: "Hawaiian chiefs once surfed at Waikiki Beach, and it was here that Duke Kahanamoku introduced the sport to the world in the early 20th century. The climb up the extinct crater of Diamond Head takes about an hour, with a view over the whole of Honolulu." },
         { ime: "Hawaiʻi Volcanoes National Park", opis: "The Big Island is home to Kīlauea, one of the most active volcanoes in the world, which Hawaiians regard as the home of the goddess Pele. A road runs through the park across hardened lava flows all the way down to the sea, and you can follow the eruptions on the park's website." },
@@ -532,7 +544,7 @@ window.ATLAS["sad"] = {
       dozivjeti: [
         { ime: "Hula", opis: "Every hand movement in hula means something specific, for example rain, the ocean or love, so the dance is really a form of storytelling. The older hula kahiko is danced to drums and chanting, and the newer hula ʻauana to guitar and ukulele. The biggest competition is the Merrie Monarch in Hilo, in the week after Easter.", link: "https://www.merriemonarch.com/" },
         { ime: "Bishop Museum", opis: "If you want to understand Polynesia before you head for the beach, this is where you will find royal cloaks made of hundreds of thousands of bird feathers and the canoes of the voyagers.", link: "https://www.bishopmuseum.org/" },
-        { ime: "Ukulele and slack-key guitar", opis: "The ukulele developed from a small instrument brought by immigrants from Madeira in 1879, and in the evening at Waikiki Hawaiian music is played for free beneath a large banyan tree." },
+        { ime: "Ukulele and slack-key guitar", opis: "The ukulele developed from a small instrument brought by immigrants from Madeira in 1879, and on some evenings a free hula show with live Hawaiian music is held at Kūhiō Beach in Waikiki, beside a large banyan tree." },
         { ime: "A tour of ʻIolani Palace", opis: "With an audio guide or a docent you tour the throne room and the private apartments, and hear the story of the kingdom's final days.", link: "https://www.iolanipalace.org/" }
       ],
       agencije: [

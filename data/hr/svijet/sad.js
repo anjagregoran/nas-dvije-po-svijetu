@@ -4,6 +4,18 @@ window.ATLAS["sad"] = {
   ime: "SAD",
   regija: "Sjeverna Amerika",
   sazetak: "Zemlja u kojoj u jednom putovanju stanu neboderi, jazz klubovi, pustinjski kanjoni i gejziri, a svaka savezna država ima svoj okus i svoju glazbu.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "National Park Service: Grand Canyon North Rim 2026 reopening", url: "https://home.nps.gov/grca/learn/news/north-rim-reopening-2026.htm" },
+    { ime: "National Park Service: Delicate Arch", url: "https://www.nps.gov/arch/planyourvisit/delicate-arch.htm" },
+    { ime: "Yosemite Conservancy: Know Before You Go, Yosemite in 2026", url: "https://www.yosemite.org/know-before-you-go-yosemite-in-2026/" },
+    { ime: "Los Angeles Magazine: Cole's French Dip closes its doors", url: "https://lamag.com/food/after-a-century-of-service-coles-french-dip-closes-their-doors/" },
+    { ime: "Tadich Grill", url: "https://www.tadichgrillsf.com/" },
+    { ime: "San Francisco City Guides", url: "https://www.sfcityguides.org/" },
+    { ime: "Chicago Greeter (Choose Chicago)", url: "https://chicagogreeter.com/" },
+    { ime: "Library of Congress: Visit", url: "https://www.loc.gov/visit/" },
+    { ime: "Detroit Historical Society: Coney Dog", url: "https://detroithistorical.org/learn/encyclopedia-of-detroit/coney-dog" },
+    { ime: "Croatia Week: Dalmatian-American Club of San Pedro at 100", url: "https://www.croatiaweek.com/dalmatian-american-club-san-pedro-100-years/" }
+  ] },
   uvod: [
     "Sjedinjene Američke Države velike su gotovo kao cijela Europa, pa se putovanje po njima više doživljava kao obilazak pedeset malih zemalja nego jedne. Na istočnoj obali čekaju vas gradovi u kojima je 1776. proglašena neovisnost, na jugu se rodila glazba koju danas sluša cijeli svijet, a zapad čuva krajolike toliko goleme da ih je teško obuhvatiti pogledom. Prije dolaska Europljana ovdje su tisućama godina živjeli brojni domorodački narodi, čija se imena i danas čitaju na kartama, od Massachusettsa do Yosemitea.",
     "Zemlju su gradili doseljenici sa svih strana svijeta, a s njima su stigle i kuhinje, vjere i plesovi koji su se ovdje pomiješali u nešto novo. Iz susreta afričkih ritmova i europskih instrumenata nastali su blues, jazz i gospel, iz irskih i škotskih gusala country, a iz kazališta i operete brodvejski mjuzikl. Među tim doseljenicima bili su i brojni Hrvati: dalmatinski ribari u Kaliforniji i Louisiani, rudari i čeličani u Pittsburghu, Chicagu i Michiganu te Nikola Tesla, koji je 1884. stigao u New York.",
@@ -15,7 +27,7 @@ window.ATLAS["sad"] = {
     { k: "Kretanje", v: "Između udaljenih regija najbrže je letjeti, a za nacionalne parkove i zapad potreban je unajmljeni automobil. New York, Washington, Boston, Chicago i San Francisco lako se obilaze javnim prijevozom i pješice, a duž istočne obale vozi vlak Amtrak." },
     { k: "Napojnica", v: "U restoranima s posluživanjem uobičajeno je ostaviti 18 do 20 posto, jer konobari velik dio zarade ostvaruju upravo od napojnica. Barmenu se ostavlja dolar ili dva po piću, a vozaču taksija oko 15 posto." },
     { k: "Ulazak", v: "Hrvatski državljani od 2021. putuju bez vize u sklopu programa Visa Waiver, ali prije puta moraju na službenoj stranici ishoditi odobrenje ESTA. Uvjete i cijenu provjerite prije kupnje karata jer se povremeno mijenjaju." },
-    { k: "Nacionalni parkovi", v: "Ulaz se plaća po vozilu, a za više parkova isplati se godišnja propusnica America the Beautiful. Cijene za posjetitelje iz inozemstva i pravila o rezervaciji ulaska mijenjaju se iz godine u godinu, pa ih uvijek provjerite na nps.gov." }
+    { k: "Nacionalni parkovi", v: "Ulaz se plaća po vozilu, a za više parkova isplati se godišnja propusnica America the Beautiful. Od 2026. posjetitelji iz inozemstva u najposjećenijim parkovima plaćaju dodatnu naknadu, a skuplja im je i godišnja propusnica, dok se pravila o rezervaciji ulaska mijenjaju iz godine u godinu, pa ih uvijek provjerite na nps.gov." }
   ],
   hrana: [
     { ime: "Hamburger", opis: "Pljeskavica od mljevene govedine u mekom pecivu, s lukom, kiselim krastavcima i sirom.", prica: "Ime duguje njemačkim doseljenicima iz Hamburga, a nekoliko se američkih gradova i danas spori oko toga gdje je meso prvi put stavljeno u pecivo. Najbolje ćete ga probati u malim zalogajnicama u kojima se pljeskavica peče pred vama na vrućoj ploči, uz krumpiriće i milkshake." },
@@ -243,7 +255,7 @@ window.ATLAS["sad"] = {
         "Flagler je prugu zatim odvažno produžio preko mora, od otoka do otoka, sve do Key Westa. Uragan ju je 1935. uništio, a na njezinim je mostovima sagrađena cesta Overseas Highway."
       ],
       vidjeti: [
-        { ime: "Art deco četvrt u South Beachu", opis: "Stotine hotela iz 1930-ih imaju zaobljene uglove, brodske prozore i betonske „obrve“ iznad prozora koje stvaraju sjenu. Od rušenja ih je sedamdesetih spasila skupina građana, a pastelne su boje dodane tek tada." },
+        { ime: "Art deco četvrt u South Beachu", opis: "Stotine hotela iz 1930-ih imaju zaobljene uglove, brodske prozore i betonske „obrve“ iznad prozora koje stvaraju sjenu. Od rušenja ih je sedamdesetih spasila skupina građana, a pastelne su boje stigle tek nakon toga." },
         { ime: "Little Havana", opis: "U ulici Calle Ocho umirovljenici igraju domino u parku koji je samo tome namijenjen, a u radionicama se cigare motaju ručno. Kava se naručuje na prozorčiću prema ulici i pije stojeći." },
         { ime: "Wynwood Walls", opis: "Nekadašnja skladišta od 2009. služe kao golema platna uličnim umjetnicima iz cijelog svijeta. Murali se redovito mijenjaju, pa četvrt svake godine izgleda drukčije." },
         { ime: "Nacionalni park Everglades", opis: "Ono što izgleda kao močvara zapravo je plitka rijeka široka desetke kilometara, koja se polako slijeva prema moru. To je jedino mjesto na svijetu na kojem zajedno žive aligatori i krokodili." },
@@ -253,7 +265,7 @@ window.ATLAS["sad"] = {
       jesti: [
         { ime: "Kubanski sendvič", opis: "Pečena svinjetina, šunka, sir, kiseli krastavci i senf u kubanskom kruhu, prešani na vrućoj ploči dok ne postane hrskav." },
         { ime: "Cafecito", opis: "Mali, jaki i vrlo slatki espresso s pjenicom od šećera, koji se u Little Havani dijeli s društvom iz malih čašica." },
-        { ime: "Stone crab", opis: "Kliješta kamenog raka poslužuju se hladna s umakom od senfa. Rakovima se uzima samo jedno kliješte, koje im ponovno naraste, a sezona traje od sredine listopada do početka svibnja." },
+        { ime: "Stone crab", opis: "Kliješta kamenog raka poslužuju se hladna s umakom od senfa. Rakovima se uzimaju samo kliješta, nakon čega ih se vraća u more, gdje im ona mogu ponovno narasti, a sezona traje od sredine listopada do početka svibnja." },
         { ime: "Key lime pie", opis: "Pita od soka sitnih, vrlo aromatičnih limeta s otočja Keys, kondenziranog mlijeka i žumanjaka. Prava je blijedožuta, nikada zelena." }
       ],
       dozivjeti: [
@@ -284,7 +296,7 @@ window.ATLAS["sad"] = {
         { ime: "Žičani tramvaji", opis: "Kola nemaju motor, nego se hvataju za čelično uže koje neprekidno klizi ispod ulice. Sustav je 1873. osmislio Andrew Hallidie, a u besplatnom muzeju vide se golemi kotači koji pokreću užad." },
         { ime: "Chinatown", opis: "Najstarija kineska četvrt u Sjevernoj Americi počinje iza Zmajevih vrata u ulici Grant. Nakon potresa 1906. trgovci su je namjerno obnovili s pagodastim krovovima, da privuče posjetitelje i tako opstane." },
         { ime: "Painted Ladies", opis: "Niz viktorijanskih drvenih kuća uz trg Alamo preživio je požar 1906., a žarke su boje dobile tek šezdesetih godina. Iza njih se diže panorama poslovne četvrti." },
-        { ime: "Murali u četvrti Mission", opis: "U uličici Balmy gotovo je svaka ograda i garaža oslikana, a tradicija je počela sedamdesetih pod utjecajem meksičkih muralista. U istoj četvrti stoji misija Dolores iz 1776., najstarija zgrada u gradu." }
+        { ime: "Murali u četvrti Mission", opis: "U uličici Balmy gotovo je svaka ograda i garaža oslikana, a tradicija je počela sedamdesetih pod utjecajem meksičkih muralista. U istoj četvrti stoji misija Dolores, osnovana 1776., čija je kapela od nepečene opeke iz 1791. najstarija zgrada u gradu." }
       ],
       jesti: [
         { ime: "Cioppino u Tadich Grillu", opis: "Gusti gulaš od rakova, školjaka i ribe u umaku od rajčice osmislili su talijanski ribari u San Franciscu. Probajte ga u Tadich Grillu, restoranu hrvatskih korijena iz 1849., koji slovi kao najstariji u Kaliforniji." },
@@ -324,7 +336,7 @@ window.ATLAS["sad"] = {
       ],
       jesti: [
         { ime: "Tacosi s ulice", opis: "Male kukuruzne tortilje s mesom s ražnja ili roštilja, lukom i korijandrom, prodaju se s kamiona i štandova po cijelom gradu, najbolje navečer." },
-        { ime: "French dip", opis: "Sendvič od pečene govedine u pecivu umočenom u sok od pečenja nastao je u Los Angelesu početkom 20. stoljeća, a dva se stara restorana i danas spore oko toga koji ga je prvi poslužio." },
+        { ime: "French dip", opis: "Sendvič od pečene govedine u pecivu umočenom u sok od pečenja nastao je u Los Angelesu početkom 20. stoljeća, a dva su se stara restorana u središtu grada desetljećima sporila oko toga koji ga je prvi poslužio. Cole's je zatvoren u ožujku 2026., pa ga danas možete kušati u restoranu Philippe the Original, otvorenom 1908." },
         { ime: "Korejski roštilj", opis: "U četvrti Koreatown meso se peče na roštilju ugrađenom u stol, uz desetak malih priloga koji se stalno dopunjuju." }
       ],
       dozivjeti: [
@@ -357,7 +369,7 @@ window.ATLAS["sad"] = {
         { ime: "Kanjon Red Rock", opis: "Pola sata od Stripa uzdižu se stijene crvenog pješčenjaka, koje su nekoć bile pustinjske dine. Kružna cesta od dvadesetak kilometara ima vidikovce i kratke staze." }
       ],
       jesti: [
-        { ime: "Švedski stol", opis: "Golemi hotelski bifei izum su Las Vegasa iz četrdesetih godina, zamišljeni da goste zadrže u kockarnici. Danas ih je manje, ali su raskošniji." },
+        { ime: "Švedski stol", opis: "Golemi hotelski bifei izum su Las Vegasa iz četrdesetih godina, zamišljeni da goste zadrže u kockarnici. Danas ih je na Stripu ostalo tek nekoliko, ali su raskošniji." },
         { ime: "Koktel od škampa", opis: "Škampi s ljutkastim umakom od rajčice u visokoj čaši desetljećima su se prodavali za sitniš u kockarnicama stare jezgre i postali su lokalni klasik." },
         { ime: "Odrezak u steakhouseu", opis: "Restorani s tamnim drvom, kožnim separeima i debelim odrescima nasljeđe su doba Franka Sinatre i njegova društva." }
       ],
@@ -403,7 +415,7 @@ window.ATLAS["sad"] = {
         { ime: "Služba nacionalnih parkova: Grand Canyon", opis: "Službene informacije o ulazu, autobusima, stazama i stanju cesta.", link: "https://www.nps.gov/grca/index.htm" },
         { ime: "Grand Canyon Conservancy", opis: "Službeni neprofitni partner parka s vođenim izletima i tečajevima.", link: "https://www.grandcanyon.org/" }
       ],
-      kada: "Travanj, svibanj, rujan i listopad najugodniji su na južnom rubu, koji je otvoren cijele godine. Sjeverni rub stradao je u velikom požaru 2025., pa prije puta provjerite što je ondje otvoreno."
+      kada: "Travanj, svibanj, rujan i listopad najugodniji su na južnom rubu, koji je otvoren cijele godine. Sjeverni rub stradao je u velikom požaru 2025., a u svibnju 2026. ponovno je otvoren za dnevne posjete, bez svojega povijesnog hotela, pa prije puta provjerite što je ondje otvoreno."
     },
     {
       id: "yellowstone",
@@ -469,7 +481,7 @@ window.ATLAS["sad"] = {
         { ime: "Služba nacionalnih parkova: Yosemite", opis: "Službene informacije o rezervacijama ulaska, cestama i smještaju.", link: "https://www.nps.gov/yose/index.htm" },
         { ime: "Yosemite Conservancy", opis: "Službeni neprofitni partner parka s vođenim programima.", link: "https://yosemite.org/" }
       ],
-      kada: "Svibanj i lipanj zbog slapova, rujan i listopad zbog mira. U sezoni se za ulazak automobilom ponekad traži rezervacija, a pravila se mijenjaju svake godine, pa ih provjerite na stranici parka."
+      kada: "Svibanj i lipanj zbog slapova, rujan i listopad zbog mira. Nekih se godina u sezoni za ulazak automobilom traži rezervacija, i premda 2026. nije bila potrebna, pravila se mijenjaju svake godine, pa ih provjerite na stranici parka."
     },
     {
       id: "utah-parkovi",
@@ -484,7 +496,7 @@ window.ATLAS["sad"] = {
         { ime: "Zion", opis: "Rijeka Virgin usjekla je kanjon sa stijenama visokim i do 600 metara, a kroz glavni dio veći dio godine voze samo besplatni autobusi. U tjesnacu Narrows hoda se koritom rijeke, s vodom do koljena." },
         { ime: "Angels Landing", opis: "Staza završava uskim grebenom s lancima za pridržavanje i provalijom s obje strane. Za taj je završni dio potrebna dozvola koja se dobiva ždrijebom, a i pogled s odmorišta ispod njega vrijedi uspona." },
         { ime: "Bryce Canyon", opis: "Unatoč imenu, riječ je o nizu prirodnih amfiteatara ispunjenih tisućama tornjeva koji se zovu hoodoo. Legenda naroda Paiute kaže da su to ljudi koje je Kojot za kaznu pretvorio u kamen." },
-        { ime: "Arches", opis: "U parku je više od dvije tisuće prirodnih kamenih lukova, što je najveća gustoća na svijetu. Delicate Arch, koji stoji sam na rubu kamene zdjele, nalazi se i na registarskim pločicama Utaha, a do njega se hoda oko sat i pol uzbrdo." },
+        { ime: "Arches", opis: "U parku je više od dvije tisuće prirodnih kamenih lukova, što je najveća gustoća na svijetu. Delicate Arch, koji stoji sam na rubu kamene zdjele, nalazi se i na registarskim pločicama Utaha, a do njega se hoda oko sat vremena uzbrdo po goloj stijeni." },
         { ime: "Capitol Reef i Scenic Byway 12", opis: "Cesta između Brycea i Capitol Reefa vodi preko uskog hrpta s provalijama s obje strane. U Capitol Reefu još rastu voćnjaci koje su zasadili mormonski pioniri, a posjetitelji smiju brati voće u sezoni." },
         { ime: "Monument Valley", opis: "Usamljene stijene na granici Utaha i Arizone poznate su iz vesterna Johna Forda. Dolina je plemenski park naroda Navajo, a u njezine udaljenije dijelove ide se s lokalnim vodičima." }
       ],
@@ -502,7 +514,7 @@ window.ATLAS["sad"] = {
       agencije: [
         { ime: "Visit Utah", opis: "Službena turistička organizacija savezne države, s prijedlozima kružnih putovanja kroz svih pet parkova.", link: "https://www.visitutah.com/" },
         { ime: "Služba nacionalnih parkova: Zion", opis: "Službene informacije o autobusima, dozvolama i stanju staza.", link: "https://www.nps.gov/zion/index.htm" },
-        { ime: "Služba nacionalnih parkova: Arches", opis: "Službene informacije o rezervaciji termina ulaska i stazama.", link: "https://www.nps.gov/arch/index.htm" }
+        { ime: "Služba nacionalnih parkova: Arches", opis: "Službene informacije o pravilima ulaska, stazama i stanju na cestama.", link: "https://www.nps.gov/arch/index.htm" }
       ],
       kada: "Travanj, svibanj, rujan i listopad. Ljeti je u Zionu i Archesu vrlo vruće, dok je Bryce zbog visine svjež i u srpnju, a zimi pod snijegom."
     },
@@ -516,7 +528,7 @@ window.ATLAS["sad"] = {
         "Kraljevstvo je 1893. srušeno uz potporu američkih plantažera, a posljednja kraljica Liliʻuokalani zatočena je u vlastitoj palači. SAD je otočje pripojio 1898., a 1959. postalo je pedeseta savezna država. Havajski jezik i običaji, koji su desetljećima bili potiskivani, danas ponovno cvjetaju."
       ],
       vidjeti: [
-        { ime: "Pearl Harbor", opis: "Bijeli memorijal stoji iznad potopljenog bojnog broda Arizona, u kojem počiva više od tisuću mornara poginulih u japanskom napadu 7. prosinca 1941. Iz trupa i danas izlaze kapljice nafte, koje zovu crnim suzama." },
+        { ime: "Pearl Harbor", opis: "Bijeli memorijal stoji iznad potopljenog bojnog broda Arizona, u kojem počiva više od devet stotina od 1177 članova posade poginulih u japanskom napadu 7. prosinca 1941. Iz trupa i danas izlaze kapljice nafte, koje zovu crnim suzama." },
         { ime: "Palača ʻIolani", opis: "Jedina kraljevska palača na tlu SAD-a dovršena je 1882. i imala je električnu rasvjetu prije Bijele kuće. U sobi na katu izložen je pokrivač koji je kraljica Liliʻuokalani šivala tijekom zatočeništva." },
         { ime: "Waikiki i Diamond Head", opis: "Na plaži Waikiki nekoć su surfali havajski poglavari, a ovdje je Duke Kahanamoku početkom 20. stoljeća taj sport predstavio svijetu. Na ugasli krater Diamond Head penje se oko sat vremena, uz pogled na cijeli Honolulu." },
         { ime: "Nacionalni park Havajski vulkani", opis: "Na Velikom otoku nalazi se Kīlauea, jedan od najaktivnijih vulkana na svijetu, koji Havajci smatraju domom božice Pele. Kroz park vodi cesta preko skrućenih tokova lave sve do mora, a erupcije se prate na stranici parka." },
@@ -532,7 +544,7 @@ window.ATLAS["sad"] = {
       dozivjeti: [
         { ime: "Hula", opis: "Svaki pokret ruku u huli znači nešto određeno, primjerice kišu, ocean ili ljubav, pa je ples zapravo pripovijedanje. Starija hula kahiko pleše se uz bubanj i pjev, a novija hula ʻauana uz gitaru i ukulele. Najveće natjecanje je Merrie Monarch u Hilu, u tjednu nakon Uskrsa.", link: "https://www.merriemonarch.com/" },
         { ime: "Bishop Museum", opis: "Ako želite razumjeti Polineziju prije nego što krenete na plažu, ovdje su izloženi kraljevski plaštevi od stotina tisuća ptičjih pera i kanui moreplovaca.", link: "https://www.bishopmuseum.org/" },
-        { ime: "Ukulele i gitara slack-key", opis: "Ukulele je nastao od malog instrumenta koji su 1879. donijeli doseljenici s Madeire, a na Waikikiju se uvečer besplatno svira havajska glazba pod velikim banjanom." },
+        { ime: "Ukulele i gitara slack-key", opis: "Ukulele je nastao od malog instrumenta koji su 1879. donijeli doseljenici s Madeire, a na plaži Kūhiō na Waikikiju nekih se večeri uz veliki banjan održava besplatna priredba s hulom i havajskom glazbom uživo." },
         { ime: "Razgled palače ʻIolani", opis: "Uz zvučni vodič ili s vodičem razgledavaju se prijestolna dvorana i privatne odaje, uz priču o posljednjim danima kraljevstva.", link: "https://www.iolanipalace.org/" }
       ],
       agencije: [

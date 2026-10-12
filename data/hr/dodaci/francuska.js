@@ -33,7 +33,7 @@ window.DODACI["francuska"] = {
         { ime: "Kraljičin zaselak", opis: "Na samom kraju imanja Marija Antoaneta dala je sagraditi izmišljeno selo, s kolibama pod slamnatim krovom, mlinom i jezercem. Većini ljudi ponestane snage prije nego što stignu dotamo, pa je ondje mirno." }
       ],
       domaci: [
-        { ime: "Tržnica Notre-Dame", opis: "Jedna od najboljih tržnica u pariškoj regiji održava se na istoimenom trgu, u natkrivenim halama i na štandovima na otvorenom. Stanovnici ovdje kupuju nekoliko jutara tjedno, pa pitajte domaćine kojim danima." },
+        { ime: "Tržnica Notre-Dame", opis: "Jedna od najboljih tržnica u pariškoj regiji održava se na istoimenom trgu, u natkrivenim halama i na štandovima na otvorenom. Natkrivene hale rade svakog dana osim ponedjeljka, a štandovi na otvorenom ispune trg utorkom, petkom i nedjeljom ujutro." },
         { ime: "Park kao dvorište", opis: "Stanovnici Versaillesa trče, voze bicikl i idu na piknik uz Grand Canal, u dijelu perivoja u koji se ulazi besplatno. Unajmite bicikl ili čamac na vesla i učinite isto." },
         { ime: "Razgledavanje antikviteta vikendom", opis: "Blizu tržnice Notre-Dame okupilo se više trgovaca antikvitetima, u starim dvorištima i prolazima. Domaći vikendom ondje razgledavaju i kad ne namjeravaju ništa kupiti." }
       ],
@@ -97,7 +97,7 @@ window.DODACI["francuska"] = {
       dragulji: [
         { ime: "Kožarska četvrt", opis: "Uz ove se ulice nižu visoke, uske kuće s drvenim kanatom i otvorenim tavanima, na kojima su se nekad sušile kože. Odmah je uz slavni kanal, a ipak je mnogo mirnija." },
         { ime: "Natkrivena tržnica", opis: "Ova tržna hala od opeke i željeza stoji na vodi, a roba je nekad do nje stizala čamcem. Unutra možete kupiti sir i suhomesnate proizvode i pojesti jednostavan ručak." },
-        { ime: "Turckheim", opis: "Ovaj mali vinski gradić unutar zidina, do kojeg je vlakom nekoliko minuta, čuva tradiciju noćobdije koji u ljetnim večerima obilazi ulice. Ima draž slavnih sela, a tek djelić njihovih posjetitelja." }
+        { ime: "Turckheim", opis: "Ovaj mali vinski gradić unutar zidina, do kojeg je vlakom nekoliko minuta, čuva tradiciju noćobdije koji od svibnja do listopada svake večeri u deset obilazi ulice. Ima draž slavnih sela, a tek djelić njihovih posjetitelja." }
       ],
       domaci: [
         { ime: "Čaša u vinskom baru", opis: "Ljudi u Colmaru piju vina s brežuljaka tik izvan grada, rizling, sivi pinot ili crémant. Zatražite čašu iz nekog obližnjeg sela i uz nju ćete dobiti i malu priču." },
@@ -202,7 +202,7 @@ window.DODACI["francuska"] = {
         { ime: "Canal du Midi", opis: "Staza uz kanal, obrubljena drvoredom, počinje kod željezničkog kolodvora i vodi van u krajolik. Hodajte ili vozite bicikl sat vremena i gledajte kako brodovi prolaze kroz prevodnice." }
       ],
       domaci: [
-        { ime: "Tržnica na Place Carnot", opis: "Nekoliko jutara tjedno proizvođači ispune trg oko fontane, a najveća je gužva subotom. Domaći obave kupnju, a zatim sjednu na terasu na kavu." },
+        { ime: "Tržnica na Place Carnot", opis: "Utorkom, četvrtkom i subotom ujutro proizvođači ispune trg oko fontane, a najveća je gužva subotom. Domaći obave kupnju, a zatim sjednu na terasu na kavu." },
         { ime: "Cassoulet, polako", opis: "Bijeli grah zapečen s konfitiranom patkom i kobasicom obrok je koji traži vremena i dobar tek. Ovdje se jede za ručak, osobito u hladnijim mjesecima." },
         { ime: "Šetnja između zidina", opis: "Prostor između dva prstena zidina besplatan je i otvoren do kasno. Stanovnici ondje šeću pse kad se gužva raziđe." }
       ],
@@ -218,7 +218,7 @@ window.DODACI["francuska"] = {
         { ime: "Duingt", opis: "Ondje gdje se jezero sužava, prolaz obilježava malo selo s dvorcem na šumovitom rtu. Ima uličice s kamenim kućama i miran komadić obale." }
       ],
       domaci: [
-        { ime: "Tržnica u starom gradu", opis: "Nekoliko jutara tjedno uličice uz kanal ispune se štandovima sa sirom, kobasicama i povrćem. Stanovnici ovdje kupuju ozbiljno, pa dođite rano i pitajte domaćine kojim se danima održava." },
+        { ime: "Tržnica u starom gradu", opis: "Utorkom, petkom i nedjeljom ujutro uličice uz kanal ispune se štandovima sa sirom, kobasicama i povrćem. Stanovnici ovdje kupuju ozbiljno, pa dođite rano, prije gužve." },
         { ime: "Kupanje u jezeru", opis: "Jezero je toliko čisto da se voda može piti, a domaći se kupaju s travnjaka i besplatnih plaža uz obalu. Ljeti dođu nakon posla s ručnikom i nečim za prigristi." },
         { ime: "Biciklistička staza oko jezera", opis: "Biciklistička staza na trasi stare željezničke pruge prati zapadnu obalu. Obitelji je voze vikendom i usput stanu da se okupaju." }
       ],

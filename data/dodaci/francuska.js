@@ -33,7 +33,7 @@ window.DODACI["francuska"] = {
         { ime: "The Queen's Hamlet", opis: "At the far end of the estate, Marie Antoinette had a make-believe village built, with thatched cottages, a mill and a pond. Most people run out of energy before they get there, so it is peaceful." }
       ],
       domaci: [
-        { ime: "The Notre-Dame market", opis: "One of the best markets in the Paris region is held on the square of the same name, with covered halls and outdoor stalls. Residents shop here several mornings a week, so ask your hosts which days." },
+        { ime: "The Notre-Dame market", opis: "One of the best markets in the Paris region is held on the square of the same name, with covered halls and outdoor stalls. The covered halls are open every day but Monday, and the outdoor stalls fill the square on Tuesday, Friday and Sunday mornings." },
         { ime: "The park as a back yard", opis: "People from Versailles run, cycle and picnic along the Grand Canal, in the part of the grounds that is free to enter. Rent a bike or a rowboat and do the same." },
         { ime: "Antiquing on weekends", opis: "Near the Notre-Dame market there is a cluster of antique dealers in old courtyards and passages. Locals browse there on weekends without necessarily buying." }
       ],
@@ -97,7 +97,7 @@ window.DODACI["francuska"] = {
       dragulji: [
         { ime: "The tanners' quarter", opis: "Tall, narrow half-timbered houses with open attics, where hides were once hung to dry, line these streets. It is right next to the famous canal, yet much calmer." },
         { ime: "The covered market", opis: "This brick and iron market hall sits on the water, and produce once arrived at it by boat. Inside you can shop for cheese and charcuterie and have a simple lunch." },
-        { ime: "Turckheim", opis: "This small walled wine town a few minutes away by train keeps the tradition of a night watchman who makes his rounds on summer evenings. It has the charm of the famous villages with a fraction of the visitors." }
+        { ime: "Turckheim", opis: "This small walled wine town a few minutes away by train keeps the tradition of a night watchman who makes his rounds at ten every evening from May through October. It has the charm of the famous villages with a fraction of the visitors." }
       ],
       domaci: [
         { ime: "A glass at the wine bar", opis: "People in Colmar drink the wines of the hills right outside town, a riesling, a pinot gris or a crémant. Ask for a glass from a village nearby and you will get a little story with it." },
@@ -202,7 +202,7 @@ window.DODACI["francuska"] = {
         { ime: "The Canal du Midi", opis: "The tree-lined towpath starts near the train station and runs out into the countryside. Walk or cycle it for an hour and watch the boats pass through the locks." }
       ],
       domaci: [
-        { ime: "Market on Place Carnot", opis: "Several mornings a week growers fill the square around the fountain, with Saturday the busiest. Locals shop and then sit down on a terrace for coffee." },
+        { ime: "Market on Place Carnot", opis: "On Tuesday, Thursday and Saturday mornings growers fill the square around the fountain, with Saturday the busiest. Locals shop and then sit down on a terrace for coffee." },
         { ime: "Cassoulet, slowly", opis: "White beans baked with duck confit and sausage make a meal that needs time and an appetite. People here eat it at lunch, especially in the cooler months." },
         { ime: "A walk between the walls", opis: "The space between the two rings of walls is free to enter and open late. Residents walk their dogs there once the crowds have gone." }
       ],
@@ -218,7 +218,7 @@ window.DODACI["francuska"] = {
         { ime: "Duingt", opis: "Where the lake narrows, a small village with a castle on a wooded point marks the passage. It has lanes with stone houses and a quiet bit of shore." }
       ],
       domaci: [
-        { ime: "The old town market", opis: "Several mornings a week the lanes along the canal fill with stalls of cheese, sausages and vegetables. Residents shop here in earnest, so go early and ask your hosts for the days." },
+        { ime: "The old town market", opis: "On Tuesday, Friday and Sunday mornings the lanes along the canal fill with stalls of cheese, sausages and vegetables. Residents shop here in earnest, so go early, before the crowds." },
         { ime: "Swimming in the lake", opis: "The lake is clean enough to drink, and locals swim from the lawns and free beaches along the shore. In summer they come after work with a towel and a snack." },
         { ime: "The bike path around the lake", opis: "A cycle path on an old railway line runs along the west shore. Families ride it on weekends, with a stop for a swim." }
       ],

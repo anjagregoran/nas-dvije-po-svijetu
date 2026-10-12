@@ -4,6 +4,20 @@ window.ATLAS["francuska"] = {
   ime: "Francuska",
   regija: "Zapadna Europa",
   sazetak: "Zemlja katedrala, dvoraca, vinograda i tržnica, u kojoj se ručak shvaća ozbiljno, a svaka pokrajina ima vlastiti sir, vino i ponos.",
+  provjereno: { datum: "2026-10", izvori: [
+    { ime: "Bordeaux Tourisme, Grosse Cloche", url: "https://www.bordeaux-tourism.co.uk/cultural-heritage/grosse-cloche.html" },
+    { ime: "European Parliament, visiting Strasbourg", url: "https://visiting.europarl.europa.eu/en/visitor-offer/strasbourg/hemicycle-outside-plenary-session" },
+    { ime: "Ville de Lyon, Halles de Lyon Paul Bocuse", url: "https://www.lyon.fr/lieu/halles/halles-de-lyon-paul-bocuse" },
+    { ime: "Office de Tourisme de Carcassonne, town markets", url: "https://www.tourisme-carcassonne.fr/en/prepare/restaurants-gastronomy/markets/" },
+    { ime: "Office de Tourisme de Marseille, fish market", url: "https://marseille-tourisme.com/en/discover-marseille/traditions/fish-market-marseille" },
+    { ime: "Cezanne en Provence, Atelier des Lauves", url: "https://www.cezanne-en-provence.com/L-Atelier-des-Lauves?lang=en" },
+    { ime: "Explore Nice Côte d'Azur, salade niçoise", url: "https://www.explorenicecotedazur.com/en/explore/art-of-living/gastronomy-and-local-produce/nicoise-recipes/salade-nicoise/" },
+    { ime: "Lac Annecy Tourisme, Fête du Lac", url: "https://en.lac-annecy.com/event/fete-du-lac-annecy/" },
+    { ime: "Parc national des Calanques, Sugiton reservations", url: "https://calanques-parcnational.fr/fr/actualites/reservation-sugiton-les-dates-du-dispositif-2026" },
+    { ime: "The Connexion, Mont Saint-Michel spring tides", url: "https://www.connexionfrance.com/news/mont-saint-michel-is-transformed-into-an-island-by-spring-tides/710588" },
+    { ime: "Monaco Life, Jardin Exotique reopening", url: "https://monacolife.net/monacos-jardin-exotique-to-reopen-at-the-end-of-march-after-years-of-renovation" },
+    { ime: "Rick Steves, Nice", url: "https://www.ricksteves.com/europe/france/nice" }
+  ] },
   uvod: [
     "Francuska je najposjećenija zemlja na svijetu, a razlog je jednostavan: na prostoru koji se vlakom prijeđe za nekoliko sati izmjenjuju se Pariz, alpski vrhovi, atlantske plime, alzaški drveni zabati i sredozemne uvale. Francuzi svoju zemlju zovu Šesterokut, prema obliku na karti, i svaki njegov kut ima drukčiju kuhinju, arhitekturu, pa i narav.",
     "Povijesna nit vodi od rimske Galije, preko franačkog kralja Klodviga, koji se oko 500. godine pokrstio u Reimsu, do kraljeva koji su gradili gotičke katedrale i dvorce na Loiri. Luj XIV. pretvorio je Versailles u uzor svim europskim dvorovima, a Revolucija je 1789. taj svijet srušila i svijetu ostavila ideju o slobodi, jednakosti i bratstvu. S Hrvatskom je Francusku nakratko povezao Napoleon, čije su Ilirske pokrajine od 1809. do 1813. obuhvaćale Dalmaciju, Istru, Dubrovnik i dio kontinentalne Hrvatske, a u tom su razdoblju pod maršalom Marmontom građene ceste kojima se u Dalmaciji i danas vozi."
@@ -148,7 +162,7 @@ window.ATLAS["francuska"] = {
       dozivjeti: [
         { ime: "Prelazak zaljeva s vodičem", opis: "Bosonogi hod preko pijeska i plitkih riječnih rukavaca do otoka, kako su dolazili hodočasnici, traje nekoliko sati. Zaljev je opasan zbog plime i živog pijeska, pa se prelazi isključivo s ovlaštenim vodičem, koji usput pokaže kako se iz živog pijeska izvući.", link: "https://www.cheminsdelabaie.com/" },
         { ime: "Večer na otoku", opis: "Većina posjetitelja ode do 18 sati, a tada ulica i zidine opuste. Ako prespavate na otoku ili u blizini, vidjet ćete opatiju osvijetljenu i čuti samo more i galebove, što je posve drukčiji doživljaj od dnevne gužve." },
-        { ime: "Promatranje velike plime", opis: "Nekoliko dana nakon punog i mladog mjeseca more potpuno okruži otok. Raspored plima objavljuje turistički ured, a najbolje je doći dva sata prije najviše vode i gledati s mosta ili s bedema.", link: "https://www.ot-montsaintmichel.com/" }
+        { ime: "Promatranje velike plime", opis: "More se najviše diže u danima nakon punog i mladog mjeseca, no otok potpuno okruži samo za najvećih plima, nekoliko dana u godini. Raspored plima objavljuje turistički ured, a najbolje je doći dva sata prije najviše vode i gledati s mosta ili s bedema.", link: "https://www.ot-montsaintmichel.com/" }
       ],
       agencije: [
         { ime: "Office de Tourisme Mont Saint-Michel Normandie", opis: "Službeni turistički ured, s rasporedom plima, informacijama o parkiralištu i besplatnom prijevozu do otoka.", link: "https://www.ot-montsaintmichel.com/" },
@@ -216,7 +230,7 @@ window.ATLAS["francuska"] = {
       dozivjeti: [
         { ime: "Vožnja brodom po rijeci Ill", opis: "Brod u sedamdesetak minuta obiđe cijeli otok, prođe kroz dvije prevodnice u Petite Franceu i stigne do europske četvrti, pa u jednoj vožnji vidite i srednjovjekovni i carski njemački i suvremeni Strasbourg.", link: "https://www.batorama.com/" },
         { ime: "Božićni sajam", opis: "Christkindelsmärik se održava od 1570. i najstariji je božićni sajam u Francuskoj. Od kraja studenoga do Božića trgovi oko katedrale mirišu na kuhano vino i začinjene kekse bredele, a na trgu Kléber stoji golemo okićeno drvo.", link: "https://www.visitstrasbourg.fr/" },
-        { ime: "Uspon na platformu katedrale", opis: "Do terase na 66 metara vodi 332 stube uskim zavojitim stubištem. Odozgo se vide krovovi s nizovima tavanskih prozorčića, Vogezi i njemački Schwarzwald preko Rajne.", link: "https://www.cathedrale-strasbourg.fr/" },
+        { ime: "Uspon na platformu katedrale", opis: "Do terase na 66 metara vodi oko 330 stuba uskim zavojitim stubištem. Odozgo se vide krovovi s nizovima tavanskih prozorčića, Vogezi i njemački Schwarzwald preko Rajne.", link: "https://www.cathedrale-strasbourg.fr/" },
         { ime: "Posjet Europskom parlamentu", opis: "Ako želite vidjeti gdje se donose europski zakoni, u polukružnu dvoranu možete ući samostalno, bez najave, u dane kada nema zasjedanja. Obilazak uključuje i interaktivnu izložbu o radu parlamenta.", link: "https://visiting.europarl.europa.eu/en/visitor-offer/strasbourg" }
       ],
       agencije: [
@@ -283,8 +297,8 @@ window.ATLAS["francuska"] = {
         { ime: "Tarte aux pralines", opis: "Jarkoružičasta pita od badema obloženih crvenim šećerom i rastopljenih u vrhnju, koja se vidi u izlogu svake pekarnice." }
       ],
       dozivjeti: [
-        { ime: "Ručak u bouchonu", opis: "Bouchon je mala lionska gostionica s kariranim stolnjacima, u kojoj se jedu iznutrice, kobasice i jela s vrhnjem, uz vino točeno u boce debelog dna. Prave prepoznajete po oznaci udruge Les Bouchons Lyonnais na vratima.", link: "https://lesbouchonslyonnais.org/" },
-        { ime: "Tržnica Paul Bocuse", opis: "U natkrivenoj tržnici pedesetak najboljih gradskih sirara, mesara, ribara i slastičara prodaje svoje proizvode, a na mnogim štandovima može se i sjesti. Ako želite kušati kamenice ili quenelle uz čašu vina, dođite subotom prijepodne.", link: "https://www.halles-de-lyon-paulbocuse.com/" },
+        { ime: "Ručak u bouchonu", opis: "Bouchon je mala lionska gostionica s kariranim stolnjacima, u kojoj se jedu iznutrice, kobasice i jela s vrhnjem, uz vino točeno u boce debelog dna. Dobar je znak da ste našle pravi oznaka udruge Les Bouchons Lyonnais na vratima.", link: "https://lesbouchonslyonnais.org/" },
+        { ime: "Tržnica Paul Bocuse", opis: "U natkrivenoj tržnici više od pedeset najboljih gradskih sirara, mesara, ribara i slastičara prodaje svoje proizvode, a na mnogim štandovima može se i sjesti. Ako želite kušati kamenice ili quenelle uz čašu vina, dođite subotom prijepodne.", link: "https://www.halles-de-lyon-paulbocuse.com/" },
         { ime: "Festival svjetla", opis: "Oko 8. prosinca grad četiri večeri pretvara pročelja, trgove i brda u svjetlosne instalacije. Običaj potječe iz 1852., kada su građani zbog odgođene svečanosti u čast Bogorodice spontano stavili svijeće u prozore, što mnoge obitelji čine i danas.", link: "https://www.onlylyon.com/" },
         { ime: "Muzej filma i minijature", opis: "U renesansnoj kući u starom gradu izloženi su filmski rekviziti i maske te stotinjak nevjerojatno preciznih minijaturnih prostorija, pa je to dobar izbor za kišno poslijepodne.", link: "https://www.museeminiatureetcinema.fr/" }
       ],
@@ -292,7 +306,7 @@ window.ATLAS["francuska"] = {
         { ime: "ONLYLYON Tourisme", opis: "Službeni turistički ured grada, na trgu Bellecour, koji organizira vođene šetnje kroz traboules i prodaje gradsku karticu.", link: "https://www.visiterlyon.com/" },
         { ime: "Les Bouchons Lyonnais", opis: "Udruga koja dodjeljuje oznaku izvornim lionskim gostionicama i objavljuje njihov popis.", link: "https://lesbouchonslyonnais.org/" }
       ],
-      kada: "Od svibnja do listopada. Brzi vlak iz Pariza vozi dva sata. Mnogi su bouchoni zatvoreni nedjeljom, a tržnica Paul Bocuse ponedjeljkom."
+      kada: "Od svibnja do listopada. Brzi vlak iz Pariza vozi dva sata. Mnogi su bouchoni zatvoreni nedjeljom, a na tržnici Paul Bocuse mnogi štandovi ne rade ponedjeljkom."
     },
     {
       id: "bordeaux",
@@ -306,7 +320,7 @@ window.ATLAS["francuska"] = {
       vidjeti: [
         { ime: "Place de la Bourse i Vodeno zrcalo", opis: "Trg iz 18. stoljeća bio je prvi kojim se grad otvorio prema rijeci, probivši srednjovjekovne zidine. Pred njim je od 2006. golema granitna ploča prekrivena s dva centimetra vode, u kojoj se palače zrcale, a svakih petnaestak minuta voda se pretvara u maglu. Na pročeljima potražite kamene maske, od kojih svaka ima drukčije lice." },
         { ime: "Katedrala svetog Andrije i toranj Pey-Berland", opis: "U ovoj se crkvi 1137. trinaestogodišnja Eleonora Akvitanska vjenčala s budućim francuskim kraljem Lujem VII., petnaest godina prije nego što će se preudati za Engleza. Zvonik iz 15. stoljeća stoji odvojeno od crkve kako težina i titranje zvona ne bi ugrozili zidove na močvarnom tlu. Na vrh vodi dvjestotinjak uskih stuba." },
-        { ime: "Grosse Cloche", opis: "Gradska vrata s dva šiljasta tornja ostatak su srednjovjekovne vijećnice, a veliko zvono među njima najavljivalo je početak berbe i upozoravalo na požar. Kada bi kralj htio kazniti neposlušni grad, oduzeo bi mu zvono. Danas se oglašava samo nekoliko puta u godini." },
+        { ime: "Grosse Cloche", opis: "Gradska vrata s dva šiljasta tornja ostatak su srednjovjekovne vijećnice, a veliko zvono među njima najavljivalo je početak berbe i upozoravalo na požar. Kada bi kralj htio kazniti neposlušni grad, oduzeo bi mu zvono. Danas se oglašava u podne prve nedjelje u mjesecu i o nekoliko velikih blagdana." },
         { ime: "Grand Théâtre", opis: "Kazalište iz 1780. ima trijem s dvanaest korintskih stupova, nad kojima stoji devet muza i tri božice. Njegovo svečano stubište poslužilo je arhitektu Charlesu Garnieru kao uzor za parišku Operu." },
         { ime: "Pont de Pierre", opis: "Prvi most preko Garonne naručio je Napoleon, a dovršen je 1822. Ima sedamnaest lukova, koliko je slova u imenu Napoléon Bonaparte. S njega se pruža najljepši pogled na pročelja uz rijeku, osobito u sumrak." },
         { ime: "Cité du Vin", opis: "Zaobljena zgrada od stakla i aluminija, otvorena 2016., oblikom podsjeća na vino koje se vrti u čaši. Unutra je interaktivni postav o vinu kroz povijest i civilizacije svijeta, s mirisnim stanicama i ispričanim pričama, a obilazak završava čašom vina na vidikovcu na osmom katu." }
@@ -341,8 +355,8 @@ window.ATLAS["francuska"] = {
         { ime: "Papinska palača u Avignonu", opis: "Najveća gotička palača u Europi sagrađena je za manje od dvadeset godina, od 1335. do 1352., i izvana izgleda kao tvrđava. Dvorane su danas gotovo prazne, pa posebno pogledajte Sobu jelena, papinu radnu sobu oslikanu prizorima lova, ribolova i branja voća, potpuno svjetovnim temama za jednog papu." },
         { ime: "Most svetog Bénézeta", opis: "Legenda kaže da je mladi pastir Bénézet 1177. čuo glas koji mu je naredio da sagradi most i sam podigao kamen koji nije moglo pomaknuti trideset ljudi. Most je imao dvadeset dva luka, ali ga je Rhôna stalno rušila, pa su u 17. stoljeću odustali od popravaka i ostala su četiri. Poznata dječja pjesma kaže da se plesalo na mostu, a zapravo se plesalo ispod njega, na riječnom otoku." },
         { ime: "Cours Mirabeau i fontane u Aixu", opis: "Aleja pod platanama, probijena u 17. stoljeću na mjestu zidina, dijeli stari grad od četvrti plemićkih palača. Na njoj stoji fontana obrasla mahovinom iz koje teče topla voda iz termalnog izvora, pa se zimi nad njom diže para. Ovuda su u mladosti šetali Cézanne i Zola, prijatelji iz školskih klupa u Aixu." },
-        { ime: "Cézanneov atelje i planina Sainte-Victoire", opis: "U ateljeu na brežuljku iznad Aixa slikar je radio od 1902. do smrti 1906., a na policama i danas stoje predmeti s njegovih mrtvih priroda, vrčevi, lubanje i zdjele za voće. Nekoliko minuta uzbrdo nalazi se zaravan s koje je planinu Sainte-Victoire naslikao desetke puta, uvijek u drugom svjetlu." },
-        { ime: "Pont du Gard", opis: "Rimski akvadukt na tri kata, visok 49 metara, sagrađen je u 1. stoljeću kao dio vodovoda dugog pedeset kilometara koji je opskrbljivao Nîmes. Voda je cijelim putem tekla vlastitim padom, uz visinsku razliku od samo desetak metara, što je graditeljski podvig i za današnje mjerilo. Kamenje je složeno bez veziva, a na blokovima se još vide brojke i oznake klesara." },
+        { ime: "Cézanneov atelje i planina Sainte-Victoire", opis: "U ateljeu na brežuljku iznad Aixa slikar je radio od 1902. do smrti 1906., a na policama i danas stoje predmeti s njegovih mrtvih priroda, vrčevi, lubanje i zdjele za voće. Nekoliko minuta uzbrdo nalazi se zaravan s koje je planinu Sainte-Victoire naslikao desetke puta, uvijek u drugom svjetlu. Atelje je sada otvoren samo dio godine i uz prethodnu rezervaciju, pa prije dolaska provjerite datume." },
+        { ime: "Pont du Gard", opis: "Rimski akvadukt na tri kata, visok 49 metara, sagrađen je u 1. stoljeću kao dio vodovoda dugog pedeset kilometara koji je opskrbljivao Nîmes. Voda je cijelim putem tekla vlastitim padom, uz visinsku razliku manju od dvadeset metara, što je graditeljski podvig i za današnje mjerilo. Kamenje je složeno bez veziva, a na blokovima se još vide brojke i oznake klesara." },
         { ime: "Arles", opis: "Rimska arena za dvadeset tisuća gledatelja i danas se koristi za priredbe, a u srednjem vijeku u nju se uselio cijeli gradić s dvije crkve i dvjestotinjak kuća. Van Gogh je ovdje u petnaest mjeseci, od veljače 1888., naslikao oko tristo slika i crteža. Na mjestima gdje je stajao sa štafelajem postavljene su ploče s reprodukcijama, pa možete usporediti sliku i prizor." }
       ],
       jesti: [
@@ -376,19 +390,19 @@ window.ATLAS["francuska"] = {
       vidjeti: [
         { ime: "Promenade des Anglais", opis: "Šetalište dugo sedam kilometara počelo je kao skroman put koji je 1820-ih, nakon oštre zime, engleska zajednica dala sagraditi kako bi zaposlila mjesne siromahe. Prepoznatljive plave stolice okrenute su moru, a hotel Negresco s ružičastom kupolom stoji ovdje od 1913. godine. Plaža je od oblutaka, pa ponesite obuću za vodu." },
         { ime: "Stari grad i Cours Saleya", opis: "U spletu uskih ulica s rubljem na prozorima krije se barokna katedrala svete Reparate i palača Lascaris. Na trgu Cours Saleya svakog je jutra tržnica cvijeća i povrća, osim ponedjeljkom, kada je zamijeni sajam starina. U žutoj kući na kraju trga Henri Matisse stanovao je od 1921. do 1938. godine." },
-        { ime: "Brdo Château", opis: "Na brdu nad lukom stajala je tvrđava koju je 1706. dao srušiti Luj XIV., pa su od nje ostali samo temelji, park i umjetni slap. Svakog dana točno u podne s brda opali top. Predaja kaže da je taj običaj u 19. stoljeću uveo jedan škotski gospodin kako bi suprugu podsjetio da je vrijeme za ručak." },
+        { ime: "Brdo Château", opis: "Na brdu nad lukom stajala je tvrđava koju je 1706. dao srušiti Luj XIV., pa su od nje ostali samo temelji, park i umjetni slap. Svakog dana točno u podne s brda odjekne topovski pucanj, iako je to danas pirotehničko punjenje. Predaja kaže da je taj običaj u 19. stoljeću uveo jedan britanski gospodin kako bi suprugu podsjetio da je vrijeme za ručak." },
         { ime: "Muzej Matisse", opis: "Matisse je u Nicu došao 1917. liječiti bronhitis i ostao do smrti 1954., jer ga je, kako je govorio, osvojilo svjetlo. Muzej u crvenoj genoveškoj vili iz 17. stoljeća na brežuljku Cimiez čuva njegove slike, skulpture i izrezane papire, kao i predmete iz ateljea. Slikar je pokopan na groblju iza obližnjeg samostana." },
         { ime: "Muzej Marca Chagalla", opis: "Zgrada je projektirana oko sedamnaest velikih slika s prizorima iz Knjige Postanka, Izlaska i Pjesme nad pjesmama, koje je Chagall darovao državi. Otvorena je 1973., još za slikareva života, a on je sam odredio gdje će koja slika visjeti i izradio vitraje za koncertnu dvoranu." },
         { ime: "Èze", opis: "Srednjovjekovno selo na stijeni više od četiristo metara nad morem ima ulice preuske za automobile i na vrhu vrt kaktusa među ruševinama dvorca, odakle se vidi obala sve do Italije. Od obale se do sela penje strma staza kojom je hodao filozof Nietzsche dok je pisao dio Zaratustre." }
       ],
       jesti: [
         { ime: "Socca", opis: "Velika tanka palačinka od slanutkova brašna i maslinova ulja, pečena u bakrenoj tepsiji u krušnoj peći, koja se reže na nepravilne komade i jede vruća, s puno papra, u starom gradu." },
-        { ime: "Salade niçoise", opis: "Izvorna salata sadrži rajčice, male artičoke, bob, paprike, rotkvice, masline, inćune ili tunu i tvrdo kuhano jaje. Čuvari recepta tvrde da u nju nikada ne ide kuhano povrće, dakle ni krumpir ni mahune." },
+        { ime: "Salade niçoise", opis: "Izvorna salata sadrži rajčice, male artičoke, bob, paprike, rotkvice, masline, inćune, često i tunu, te tvrdo kuhano jaje. Čuvari recepta tvrde da u nju nikada ne ide kuhano povrće, dakle ni krumpir ni mahune." },
         { ime: "Pan bagnat", opis: "Okruglo pecivo natopljeno maslinovim uljem i punjeno sastojcima salade niçoise, nekad ribarska užina, a danas najbolji sendvič za plažu." },
         { ime: "Pissaladière", opis: "Pogača s debelim slojem polako pirjanog luka, inćunima i sitnim crnim maslinama, koja se prodaje na komade u pekarnicama." }
       ],
       dozivjeti: [
-        { ime: "Karneval u Nici", opis: "Dva tjedna u veljači gradom prolaze povorke s golemim lutkama, a na Promenadi se održavaju cvjetne bitke, u kojima se s kola ukrašenih cvijećem publici bacaju mimoze i ljiljani. Karneval se prvi put spominje još 1294. godine.", link: "https://www.nicecarnaval.com/" },
+        { ime: "Karneval u Nici", opis: "Više od dva tjedna u veljači gradom prolaze povorke s golemim lutkama, a na Promenadi se održavaju cvjetne bitke, u kojima se s kola ukrašenih cvijećem publici bacaju mimoze i ljiljani. Karneval se prvi put spominje još 1294. godine.", link: "https://www.nicecarnaval.com/" },
         { ime: "Vlakom uz obalu", opis: "Lokalni vlak iz Nice vozi uz samo more i za nekoliko minuta stiže u Villefranche-sur-Mer, a za dvadesetak u Monako i potom u Menton. Sjednite s desne strane u smjeru Italije i gledajte uvale." },
         { ime: "Villa Ephrussi de Rothschild", opis: "Ružičastu vilu na poluotoku Cap Ferrat sagradila je početkom 20. stoljeća barunica Béatrice Ephrussi i okružila je s devet tematskih vrtova, s morem s obje strane. U francuskom vrtu fontane svakih dvadesetak minuta plešu uz glazbu.", link: "https://www.villa-ephrussi.com/" },
         { ime: "Parfumerije u Grasseu", opis: "Gradić u brdima iznad Cannesa svjetska je prijestolnica parfema, okružen poljima jasmina i ruža. Kuća Fragonard besplatno vodi kroz svoju povijesnu tvornicu i objašnjava kako se iz cvijeta dobiva miris.", link: "https://www.fragonard.com/" }
@@ -527,7 +541,7 @@ window.ATLAS["francuska"] = {
       dozivjeti: [
         { ime: "Smjena straže", opis: "Dođite na trg pred palačom petnaestak minuta prije podneva kako biste našli mjesto. S ruba trga pruža se pogled na luku s jedne i na četvrt Fontvieille s druge strane stijene." },
         { ime: "Akvarij i terasa Oceanografskog muzeja", opis: "Ako želite spojiti more, znanost i pogled, ovdje ćete provesti nekoliko sati. Na krovu je terasa s restoranom i vidikom od Italije do masiva Esterel.", link: "https://www.oceano.org/" },
-        { ime: "Egzotični vrt", opis: "Na strmoj litici iznad grada rastu tisuće kaktusa i sukulenata iz cijeloga svijeta, a pod vrtom je špilja sa sigama. Vrt je posljednjih godina bio zatvoren zbog radova, pa prije dolaska provjerite je li ponovno otvoren.", link: "https://www.jardin-exotique.mc/" }
+        { ime: "Egzotični vrt", opis: "Na strmoj litici iznad grada rastu tisuće kaktusa i sukulenata iz cijeloga svijeta, a pod vrtom je špilja sa sigama. Nakon nekoliko godina zatvorenosti zbog radova na litici vrt je ponovno otvoren u proljeće 2026., pa na njegovim stranicama provjerite radno vrijeme.", link: "https://www.jardin-exotique.mc/" }
       ],
       agencije: [
         { ime: "Visit Monaco", opis: "Službeni turistički portal kneževine, s informacijama o palači, muzejima, događanjima i prijevozu.", link: "https://www.visitmonaco.com/" }

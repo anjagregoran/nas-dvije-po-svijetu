@@ -59,13 +59,53 @@
     return '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + P[k] + '</svg>';
   }
 
-  function crumbs(m) {
+  // ---------- dijelovi zemlje (sjever, sredina, jug ...) izračunati iz položaja mjesta ----------
+  var PARTS = (function () {
+    var list = Z.mjesta.map(function (m) { return { m: m, c: KO[Z.id + '/' + m.id] }; });
+    var withC = list.filter(function (x) { return x.c; });
+    if (Z.mjesta.length < 6 || withC.length < Z.mjesta.length - 1) return [];
+    var lats = withC.map(function (x) { return x.c[0]; }), lons = withC.map(function (x) { return x.c[1]; });
+    var midLat = (Math.max.apply(null, lats) + Math.min.apply(null, lats)) / 2;
+    var h = Math.max.apply(null, lats) - Math.min.apply(null, lats);
+    var w = (Math.max.apply(null, lons) - Math.min.apply(null, lons)) * Math.cos(midLat * Math.PI / 180);
+    var ns = h >= w;
+    withC.sort(function (x, y) { return ns ? y.c[0] - x.c[0] : x.c[1] - y.c[1]; });
+    var n = Z.mjesta.length >= 9 ? 3 : 2;
+    var names = ns ? (n === 3 ? ['North', 'Center', 'South'] : ['North', 'South']) : (n === 3 ? ['West', 'Center', 'East'] : ['West', 'East']);
+    var keys = ns ? (n === 3 ? ['sjever', 'sredina', 'jug'] : ['sjever', 'jug']) : (n === 3 ? ['zapad', 'sredina', 'istok'] : ['zapad', 'istok']);
+    var parts = names.map(function (nm, i) { return { key: keys[i], ime: nm, mjesta: [] }; });
+    // Split by position, not by count, so Rome lands in the center. The outer tenth is clipped so one far-off
+    // island (Madeira, Hawaii) does not stretch the scale.
+    var vals = withC.map(function (x) { return ns ? -x.c[0] : x.c[1]; });
+    var clip = vals.length >= 8 ? 1 : 0;
+    var lo = vals[clip], hi = vals[vals.length - 1 - clip];
+    withC.forEach(function (x, i) {
+      var pos = hi > lo ? Math.max(0, Math.min(1, (vals[i] - lo) / (hi - lo))) : 0;
+      var t = (pos + i / (vals.length - 1)) / 2;   // half real position, half rank, so parts are sensible and not lopsided
+      parts[Math.max(0, Math.min(n - 1, Math.floor(t * n)))].mjesta.push(x.m);
+    });
+    list.filter(function (x) { return !x.c; }).forEach(function (x) { parts[Math.floor(n / 2)].mjesta.push(x.m); });
+    return parts.filter(function (p) { return p.mjesta.length; });
+  })();
+  function partOf(m) {
+    return PARTS.filter(function (p) { return p.mjesta.indexOf(m) > -1; })[0] || null;
+  }
+
+  // Traka s koracima: kontinent, zemlja, dio zemlje, grad.
+  function crumbs(m, part) {
     var k = KONT[Z.regija] || '';
     var home = 'index.html' + (k ? '#k=' + encodeURIComponent(k) : '');
-    return '<p class="crumbs">' +
-      (k ? '<a href="' + home + '">' + esc(k) + '</a><i>›</i>' : '') +
-      (Z.regija && Z.regija !== k ? '<a href="' + home + '">' + esc(Z.regija) + '</a><i>›</i>' : '') +
-      (m ? '<a href="#/">' + esc(Z.ime) + '</a><i>›</i>' + esc(m.ime) : esc(Z.ime)) + '</p>';
+    if (m && !part) part = partOf(m);
+    var has3 = PARTS.length > 0;
+    var li = function (cls, n, text, href) {
+      return '<li class="' + cls + '">' + (href ? '<a href="' + href + '">' : '<span>') + '<b>' + n + '</b>' + esc(text) + (href ? '</a>' : '</span>') + '</li>';
+    };
+    return '<ol class="steps">' +
+      li('done', 1, k || 'Continent', home) +
+      li('done', 2, Z.ime, '#/') +
+      (has3 ? li(part ? 'done' : 'now', 3, part ? part.ime : 'Part of the country', part ? '#/dio/' + part.key : '') : '') +
+      li(m ? 'now' : (has3 && !part ? '' : 'now'), has3 ? 4 : 3, m ? m.ime : 'City', '') +
+      '</ol>';
   }
   function box(href, key, c, title, sub) {
     return '<a class="box ' + c + '" href="' + href + '">' + icon(key) + '<span class="box-t">' + title + '</span><span class="box-s">' + sub + '</span><span class="box-go">Open</span></a>';
@@ -115,18 +155,31 @@
   var C_ORDER = ['hrana', 'kupiti', 'obicaji', 'prica', 'fraze', 'ukratko', 'zanimljivosti', 'karta'];
   var C_ICON = { kupiti: 'kupiti', prica: 'prica', hrana: 'hrana', obicaji: 'obicaji', fraze: 'fraze', ukratko: 'ukratko', zanimljivosti: 'zanimljivosti', karta: 'karta', izvori: 'ukratko' };
 
-  function overview() {
-    var n = 0;
-    return crumbs() +
-      '<header class="hero left" style="padding-top:14px;padding-bottom:22px"><span class="label">' + esc(Z.regija) + '</span><h1>' + esc(Z.ime) + '</h1>' +
+  function cityRows(mjesta) {
+    return '<div class="cities">' + mjesta.map(function (m) {
+      return '<a class="cityrow" href="#/mjesto/' + m.id + '"><div><h3>' + esc(m.ime) + '</h3><p>' + esc(m.sazetak) + '</p></div><span class="go">Open →</span></a>';
+    }).join('') + '</div>';
+  }
+  function overview(part) {
+    var n = 0, total = PARTS.length ? 4 : 3;
+    var nav;
+    if (PARTS.length) {
+      nav = '<div class="stephead"><span class="label">Step 3 of 4</span><h2>Pick a part of <em>' + esc(Z.ime) + '</em></h2></div>' +
+        '<div class="parts n' + Math.min(3, PARTS.length) + '">' + PARTS.map(function (p) {
+          return '<a class="part' + (part === p ? ' on' : '') + '" href="#/dio/' + p.key + '"><span class="compass">' + esc(p.ime.charAt(0)) + '</span>' +
+            '<div><h3>' + esc(p.ime) + '</h3><p>' + p.mjesta.length + (p.mjesta.length === 1 ? ' place: ' : ' places: ') + esc(p.mjesta.map(function (m) { return m.ime; }).join(', ')) + '</p></div></a>';
+        }).join('') + '</div>' +
+        (part ? '<div class="stephead next" id="gradovi"><span class="label">Step 4 of 4</span><h2>Pick a city in <em>' + esc(part.ime) + '</em></h2></div>' + cityRows(part.mjesta) : '');
+    } else {
+      nav = '<div class="stephead" id="gradovi"><span class="label">Step 3 of 3</span><h2>Pick a city or place in <em>' + esc(Z.ime) + '</em></h2></div>' + cityRows(Z.mjesta);
+    }
+    return crumbs(null, part) +
+      '<header class="hero left" style="padding-top:0;padding-bottom:26px"><h1>' + esc(Z.ime) + '</h1>' +
       '<p class="lead" style="margin:0">' + esc(Z.sazetak) + '</p></header>' +
+      nav +
+      '<div class="stephead next" id="mjesta"><span class="label">Everything about the country in one place</span><h2>About <em>' + esc(Z.ime) + '</em></h2></div>' +
       '<div class="boxes">' + C_ORDER.filter(function (k) { return COUNTRY[k].on(); }).map(function (k) {
         return box('#/o/' + k, C_ICON[k], 'c' + (n++ % 6), COUNTRY[k].t, COUNTRY[k].s);
-      }).join('') + '</div>' +
-      '<div class="sec-head" id="mjesta" style="margin-top:46px"><h2><span class="step">3</span>Pick a <em>place</em></h2><span class="label">' + Z.mjesta.length + ' places</span></div>' +
-      '<div class="grid places">' + Z.mjesta.map(function (m) {
-        return '<a class="pcard" href="#/mjesto/' + m.id + '"><span class="badge plain">' + esc(VRSTA[m.vrsta] || 'Place') + '</span>' +
-          '<h3>' + esc(m.ime) + '</h3><p>' + esc(m.sazetak) + '</p><span class="arrow">→</span></a>';
       }).join('') + '</div>' +
       (COUNTRY.izvori.on() ? '<p style="margin-top:26px"><a class="label" style="text-decoration:none" href="#/o/izvori">Sources and official sites →</a></p>' : '');
   }
@@ -177,7 +230,7 @@
     var S = placeSections(m), n = 0;
     var others = Z.mjesta.filter(function (x) { return x.id !== m.id; });
     return crumbs(m) +
-      '<header class="hero left" style="padding-top:14px;padding-bottom:22px"><span class="label">' + esc(VRSTA[m.vrsta] || 'Place') + ' · ' + esc(Z.ime) + '</span><h1>' + esc(m.ime) + '</h1>' +
+      '<header class="hero left" style="padding-top:0;padding-bottom:22px"><span class="label">' + esc(VRSTA[m.vrsta] || 'Place') + '</span><h1>' + esc(m.ime) + '</h1>' +
       '<p class="lead" style="margin:0">' + esc(m.sazetak) + '</p></header>' +
       '<div class="boxes">' + P_ORDER.filter(function (k) { return S[k].on; }).map(function (k) {
         return box('#/mjesto/' + m.id + '/' + k, k, 'c' + (n++ % 6), S[k].t, S[k].s);
@@ -198,6 +251,7 @@
   }
 
   // ---------- usmjeravanje ----------
+  var lastPart = null;
   function route() {
     var parts = decodeURIComponent(location.hash).replace(/^#\/?/, '').split('/');
     var base, sec = null, back, pageKey;
@@ -213,12 +267,18 @@
       if (k && S[k] && S[k].on) sec = { icon: k, t: S[k].t + ' · ' + m.ime, def: S[k] };
     } else {
       var ck = parts[0] === 'o' ? parts[1] : parts[0];
-      pageKey = 'z'; base = overview; back = '#/';
+      var chosen = parts[0] === 'dio' ? PARTS.filter(function (p) { return p.key === parts[1]; })[0] : null;
+      if (parts[0] === 'o' && lastPart) chosen = lastPart;
+      lastPart = chosen || null;
+      pageKey = 'z:' + (chosen ? chosen.key : ''); base = function () { return overview(chosen); }; back = chosen ? '#/dio/' + chosen.key : '#/';
       if (ck && COUNTRY[ck] && COUNTRY[ck].on()) sec = { icon: C_ICON[ck], t: COUNTRY[ck].t + ' · ' + Z.ime, def: COUNTRY[ck] };
     }
 
     if (app.getAttribute('data-page') !== pageKey) {
-      app.innerHTML = base(); app.setAttribute('data-page', pageKey); window.scrollTo(0, 0);
+      var wasCountry = /^z:/.test(app.getAttribute('data-page') || '');
+      app.innerHTML = base(); app.setAttribute('data-page', pageKey);
+      var step4 = parts[0] === 'dio' && wasCountry && document.getElementById('gradovi');
+      if (step4) { step4.scrollIntoView({ behavior: 'smooth', block: 'start' }); } else { window.scrollTo(0, 0); }
     }
     var old = document.getElementById('sheet');
     if (old) old.remove();

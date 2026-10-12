@@ -14,8 +14,7 @@
     'Prices and opening hours change, so check official sites before you go.': 'Cijene i radna vremena mijenjaju se, pa ih prije puta provjerite na službenim stranicama.',
     'Map and location data: © OpenStreetMap contributors.': 'Karta i podaci o položaju: © suradnici OpenStreetMapa.',
     // home
-    'A world guide': 'Vodič po svijetu', 'Feel the place,': 'Osjeti mjesto,', 'bite by bite.': 'zalogaj po zalogaj.',
-    'For travelers who would rather find the good bakery than the famous museum.': 'Za putnice kojima je dobra pekara draža od slavnog muzeja.',
+    'A world guide': 'Vodič po svijetu',
     'Where to next?': 'Kamo sljedeće?', 'Type a city or country': 'Upišite grad ili zemlju', 'Surprise me': 'Iznenadi me',
     'Pick a': 'Odaberi', 'continent': 'kontinent', 'place': 'mjesto', 'Pick a country in': 'Odaberi zemlju:',
     'See them on the map': 'Pogledaj na karti', 'Every country of this continent as a pin': 'Sve zemlje ovog kontinenta na karti',
@@ -24,6 +23,10 @@
     'Did you know?': 'Jeste li znale?', 'Another one': 'Još jedna', 'Coming soon': 'Uskoro',
     'Tap to see what people eat, do and buy there.': 'Dodirnite da vidite što se ondje jede, radi i kupuje.',
     'Anywhere in the world': 'Bilo gdje na svijetu',
+    'Continent': 'Kontinent', 'Country': 'Zemlja', 'Part of the country': 'Dio zemlje', 'Step 1 of 4': 'Korak 1 od 4', 'Step 2 of 4': 'Korak 2 od 4',
+    'Step 3 of 4': 'Korak 3 od 4', 'Step 4 of 4': 'Korak 4 od 4', 'Step 3 of 3': 'Korak 3 od 3', 'Pick a part of': 'Odaberi dio zemlje:',
+    'Pick a city in': 'Odaberi grad:', 'Pick a city or place in': 'Odaberi grad ili mjesto:', 'North': 'Sjever', 'Center': 'Sredina', 'South': 'Jug', 'West': 'Zapad', 'East': 'Istok',
+    'About': 'O zemlji:', 'Everything about the country in one place': 'Sve o zemlji na jednom mjestu', 'All parts': 'Svi dijelovi',
     // continents and regions
     'Europe': 'Europa', 'Asia': 'Azija', 'Africa': 'Afrika', 'North and Central America': 'Sjeverna i Srednja Amerika',
     'South America': 'Južna Amerika', 'Oceania': 'Oceanija', 'Southern Europe': 'Južna Europa', 'Western Europe': 'Zapadna Europa',
@@ -107,7 +110,7 @@
   };
   // Patterns with a changing part
   var RX = [
-    [/^(\d+) places$/, '$1 mjesta'], [/^(\d+) countries$/, '$1 zemalja'], [/^(\d+) country$/, '$1 zemlja'],
+    [/^(\d+) places$/, '$1 mjesta'], [/^(\d+) places: (.+)$/, '$1 mjesta: $2'], [/^(\d+) place: (.+)$/, '$1 mjesto: $2'], [/^(\d+) countries$/, '$1 zemalja'], [/^(\d+) country$/, '$1 zemlja'],
     [/^(\d+) trips$/, '$1 putovanja'], [/^(\d+) trip$/, '$1 putovanje'], [/^of (\d+) countries$/, 'od $1 zemalja'],
     [/^(\d+) dishes and drinks$/, '$1 jela i pića'], [/^(\d+) ideas$/, '$1 ideja'],
     [/^Typical of (.+)$/, 'Tipično za: $1'], [/^From around (.+)$/, 'Iz cijele zemlje: $1'], [/^What to eat in (.+)$/, 'Što se jede: $1'],
@@ -157,17 +160,23 @@
 
   function addSwitch() {
     var nav = document.querySelector('.site-head nav');
-    if (!nav || nav.querySelector('.lang')) return;
-    var a = document.createElement('a');
-    a.href = '#'; a.className = 'lang';
-    a.textContent = lang === 'hr' ? 'EN' : 'HR';
-    a.title = lang === 'hr' ? 'Switch to English' : 'Prebaci na hrvatski';
-    a.addEventListener('click', function (e) {
-      e.preventDefault();
-      try { localStorage.setItem('lang', lang === 'hr' ? 'en' : 'hr'); } catch (err) {}
-      location.reload();
+    if (!nav || nav.querySelector('.langs')) return;
+    var box = document.createElement('span');
+    box.className = 'langs';
+    box.setAttribute('aria-label', 'Language / Jezik');
+    [['en', 'EN', 'English'], ['hr', 'HR', 'Hrvatski']].forEach(function (l) {
+      var a = document.createElement('a');
+      a.href = '#'; a.textContent = l[1]; a.title = l[2];
+      if (l[0] === lang) a.className = 'on';
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        if (l[0] === lang) return;
+        try { localStorage.setItem('lang', l[0]); } catch (err) {}
+        location.reload();
+      });
+      box.appendChild(a);
     });
-    nav.appendChild(a);
+    nav.appendChild(box);
   }
 
   function start() {

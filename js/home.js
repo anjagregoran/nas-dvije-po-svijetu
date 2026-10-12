@@ -6,47 +6,38 @@
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
     });
   }
-  function norm(s) {
-    return String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
-  }
 
-  // ---------- veliki vodiči ----------
-  var featureEl = document.getElementById('feature');
-  if (featureEl) featureEl.innerHTML = I.vodici.map(function (v) {
-    return '<div class="feature">' +
-      '<div><span class="label">' + esc(v.nadnaslov) + '</span><h2>' + esc(v.naziv) + '</h2><p>' + esc(v.uvod) + '</p>' +
-      '<a class="btn" href="putovanje.html?p=' + v.id + '">Open the guide</a></div>' +
-      '<div class="stats">' +
-        '<div><b>' + v.mjesta + '</b><span>places</span></div>' +
-        '<div><b>' + v.znamenitosti + '</b><span>sights</span></div>' +
-        '<div><b>' + v.jela + '</b><span>dishes and drinks</span></div>' +
-      '</div></div>';
-  }).join('');
-
-  // ---------- kontinenti i zemlje ----------
-  var active = I.kontinenti[0].ime;
+  // ---------- step 1: continent, step 2: country ----------
+  var active = '';
   var fromHash = decodeURIComponent((location.hash.match(/^#k=(.+)$/) || [])[1] || '');
   if (window.TR) fromHash = window.TR(fromHash);
   if (I.kontinenti.some(function (k) { return k.ime === fromHash; })) active = fromHash;
+
+  var steps = document.getElementById('steps');
   var cont = document.getElementById('continents');
   var box = document.getElementById('countries');
+  var mapbox = document.getElementById('mapbox');
+
   function count(k) {
     var n = 0;
     k.regije.forEach(function (r) { r.zemlje.forEach(function (z) { if (z.spremno) n++; }); });
     return n;
   }
-  var ready = I.kontinenti.reduce(function (n, k) { return n + count(k); }, 0);
-  document.getElementById('count').textContent = ready + ' countries';
+  function current() { return I.kontinenti.filter(function (x) { return x.ime === active; })[0]; }
 
+  function drawSteps() {
+    steps.innerHTML =
+      '<li class="' + (active ? 'done' : 'now') + '"><a href="#zemlje"><b>1</b>' + (active ? esc(active) : 'Continent') + '</a></li>' +
+      '<li class="' + (active ? 'now' : '') + '"><span><b>2</b>Country</span></li>' +
+      '<li><span><b>3</b>Part of the country</span></li>' +
+      '<li><span><b>4</b>City</span></li>';
+  }
   function drawContinents() {
-    cont.innerHTML = I.kontinenti.map(function (k, i) {
-      var n = count(k), on = k.ime === active;
-      return '<a class="tilec kont c' + (i % 6) + (on ? ' on' : '') + '" href="#zemlje" data-k="' + esc(k.ime) + '">' +
-        '<span class="label">' + (n ? n + ' countries' : 'Coming soon') + '</span><h3>' + esc(k.ime) + '</h3></a>';
+    cont.innerHTML = I.kontinenti.map(function (k) {
+      return '<a class="kpill' + (k.ime === active ? ' on' : '') + '" href="#zemlje" data-k="' + esc(k.ime) + '">' +
+        '<span class="kname">' + esc(k.ime) + '</span><span class="label">' + count(k) + ' countries</span></a>';
     }).join('');
   }
-  var lastK = null, mapbox = document.getElementById('mapbox');
-  mapbox.addEventListener('toggle', function () { if (mapbox.open && lastK) drawMap(lastK); });
   function drawMap(k) {
     var pts = [];
     k.regije.forEach(function (r) {
@@ -57,32 +48,38 @@
     window.Karta.draw('map', pts, { maxZoom: 5 });
   }
   function drawCountries() {
-    var k = I.kontinenti.filter(function (x) { return x.ime === active; })[0];
-    lastK = k; if (mapbox.open) drawMap(k);
+    var k = current();
+    if (!k) { box.innerHTML = ''; mapbox.hidden = true; return; }
+    mapbox.hidden = false;
+    if (mapbox.open) drawMap(k);
     var c = 0;
-    box.innerHTML = '<div class="sec-head" id="kontinent" style="margin-top:50px"><h2><span class="step">2</span>Pick a country in <em>' + esc(k.ime) + '</em></h2></div>' + k.regije.map(function (r) {
-      return (k.regije.length > 1 ? '<h3 class="group-title">' + esc(r.ime) + '</h3>' : '<div style="height:14px"></div>') + '<div class="grid">' +
-        r.zemlje.map(function (z) {
-          if (!z.spremno) return '<div class="tilec soon"><span class="label">Coming soon</span><h3>' + esc(z.ime) + '</h3></div>';
-          return '<a class="tilec c' + (c++ % 6) + '" href="zemlja.html?z=' + z.id + '">' +
-            '<span class="label">' + z.n + ' places</span>' +
-            '<div><h3>' + esc(z.ime) + '</h3><p>' + esc(z.sazetak) + '</p></div></a>';
-        }).join('') + '</div>';
-    }).join('');
+    box.innerHTML = '<div class="stephead" id="kontinent"><span class="label">Step 2 of 4</span><h2>Pick a country in <em>' + esc(k.ime) + '</em></h2></div>' +
+      k.regije.map(function (r) {
+        return (k.regije.length > 1 ? '<h3 class="group-title">' + esc(r.ime) + '</h3>' : '') + '<div class="grid">' +
+          r.zemlje.map(function (z) {
+            if (!z.spremno) return '';
+            return '<a class="tilec c' + (c++ % 6) + '" href="zemlja.html?z=' + z.id + '">' +
+              '<span class="label">' + z.n + ' places</span>' +
+              '<div><h3>' + esc(z.ime) + '</h3><p>' + esc(z.sazetak) + '</p></div></a>';
+          }).join('') + '</div>';
+      }).join('');
   }
+  function drawAll() { drawSteps(); drawContinents(); drawCountries(); }
+
   cont.addEventListener('click', function (e) {
     var a = e.target.closest('a');
     if (!a) return;
     e.preventDefault();
     active = a.getAttribute('data-k');
-    drawContinents(); drawCountries();
-    document.getElementById('kontinent').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    drawAll();
     history.replaceState(null, '', '#k=' + encodeURIComponent(active));
+    document.getElementById('kontinent').scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
-  drawContinents(); drawCountries();
-  if (fromHash) setTimeout(function () { document.getElementById('zemlje').scrollIntoView(); }, 50);
+  mapbox.addEventListener('toggle', function () { if (mapbox.open && current()) drawMap(current()); });
+  drawAll();
+  if (active) setTimeout(function () { document.getElementById('kontinent').scrollIntoView(); }, 50);
 
-  // ---------- činjenice ----------
+  // ---------- did you know ----------
   function fact() {
     var f = I.cinjenice[Math.floor(Math.random() * I.cinjenice.length)];
     if (!f) return;
